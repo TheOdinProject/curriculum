@@ -1,29 +1,46 @@
+### Introduction
+
 You've had plenty of opportunity to read Ruby and learn Ruby and now it's time to build Ruby.  You learned about RSpec in the previous section and now we'll actually get to do some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass by writing code.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.
 
 This exercise will involve a lot of figuring things out.  There aren't very detailed instructions for what to do, just the batch of tests that you need to make pass.  You need to look at those tests, figure out what they want based on the error messages you receive, and write the code to pass them.  It can be tricky to get the hang of at first but once you start making those tests go green it starts feeling pretty cool.
 
-1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
-2. Go to the learn_ruby repo [here](https://github.com/TheOdinProject/learn_ruby) and follow the installation instructions in the README.
-3. Follow the **"Getting started with the exercises"** section of the README to find out how to run and make the tests pass.
-4. Do the following exercises.  You'll know you're done when all the tests pass! The exercises start easy but some of them can be pretty challenging, so good luck!
-    1. `00_hello`
-    2. `01_temperature`
-    3. `02_calculator`
-    4. `03_simon_says`
-    5. `04_pig_latin`
-    6. `05_book_titles`
-    7. `06_timer`
+### Assignment
 
-5. Push your project to Github
+<div class="lesson-content__panel" markdown="1">
+  1. Go to the learn_ruby repo [here](https://github.com/TheOdinProject/learn_ruby) and follow the installation instructions in the README.
+  2. Follow the **"Getting started with the exercises"** section of the README to find out how to run and make the tests pass.
+  3. Do the following exercises.  You'll know you're done when all the tests pass! The exercises start easy but some of them can be pretty challenging, so good luck!
+      1. `00_hello`
+      2. `01_temperature`
+      3. `02_calculator`
+      4. `03_simon_says`
+      5. `04_pig_latin`
+      6. `05_book_titles`
+      7. `06_timer`
+
+  4. Push your project to Github
+
+</div>
 
 ### Student Solutions
-
-*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
+* [iamfranco's solution](https://github.com/iamfranco/learn_ruby)
+* [0zra's solution](https://github.com/0zra/learn_ruby)
+* [Alin Simion's solutions](https://github.com/alinsg/learn_ruby)
+* [Kyle Lemon's solutions](https://github.com/jklemon17/learn_ruby)
+* [Maria Tikhonova's solutions](https://github.com/MariaTikhonova/learn_ruby)
+* [Filip Jovanovic's solutions](https://github.com/FilipJovanovic/learn_ruby)
+* [Danhofer's solutions](https://github.com/danhofer/learn_ruby)
+* [Toaster with wheels](https://github.com/damianed/learn_ruby-1)
+* [Jonathan Yiv's solutions](https://github.com/JonathanYiv/learn_ruby)
+* [Jason McKee's solutions](https://github.com/jttmckee/learn_ruby)
+* [Bartosz Puszkarski's solutions](https://github.com/ispmor/learn_ruby)
+* [alv2r's solutions](https://github.com/alv2r/learn_ruby)
 * [Akshat Dubey's solutions](https://github.com/akshatdb/learn_ruby-1)
-* [willievantonder's solution] (https://willievantonder.github.io/learn_ruby)
+* [willievantonder's solution](https://willievantonder.github.io/learn_ruby)
 * [ticklybanana's solutions](https://github.com/ticklybanana/learn_ruby)
 * [endotnick's solutions](https://github.com/endotnick/learn_ruby)
 * [EK's solutions](https://github.com/ekazubuike/learn_ruby)
@@ -34,6 +51,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Beachfern's solutions](https://github.com/beachfern/learn_ruby-1)
 * [GuyInALabCoat's solutions](https://github.com/GuyInALabCoat/learn_ruby)
 * [Kasey Z.'s solutions](https://github.com/kasey-z/learn-ruby-excercises)
+* [Tristyn's solutions](https://github.com/tristyn-maalouf/learn_ruby)
 * [Bteim's solutions](https://github.com/btreim/learn-ruby)
 * [Ben Deltenre's solutions](https://github.com/benjdelt/learn_ruby)
 * [Anya Finkelstein's solution](https://github.com/anyafink/learn_ruby)
@@ -317,7 +335,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Tim Lapinskas's Solution](https://github.com/tlapinsk/learn_ruby)
 * [Andrew DeNikes's Solution](https://github.com/AndyDeNike/project_test_ruby)
 * [Pat's solution](https://github.com/Pat878/learn_ruby)
-* [Ian Baker's Solution](https://github.com/ianbaker615/learn_ruby.git)
+* [Ian Baker's Solution](https://github.com/ianbaker615/learn_ruby)
 * [ryan_'s solution](https://github.com/ryanford-frontend/learn_ruby)
 * [Viet_'s solution](https://github.com/vietdh85/learn_ruby)
 * [Matheusfcunha's solution](https://github.com/matheusfcunha/learn_ruby)
@@ -332,9 +350,23 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [ntnlbar's solution](https://github.com/ntnlbar/learn_ruby)
 * [Igor's solution](https://github.com/mojotron/learn_ruby)
 * [Loc Nguyen's solution](https://github.com/vinhloc30796/learn_ruby)
+* [Arunava's solution](https://github.com/iArunava/learn_ruby)
+* [Anik's solution](https://github.com/radioactive001/learn_ruby)
+* [Mayank Patel's Solution](https://github.com/maknahar/learn_ruby)
+* [Oliver Curting's Solution](https://github.com/Curting/learn_ruby)
+* [Sheldon K's Solution](https://github.com/Leviax7/learn_ruby)
+* [coryparham24's Solution](https://github.com/coryparham24/learn_ruby)
+* [darrenusc's Solution](https://github.com/darrenusc/learn_ruby)
+* [Alex's solutions](https://github.com/alexcorremans/learn_ruby)
+* [Tshepo Mohlamonyane's Solution](https://https://github.com/blavkboy/learn_ruby)
+* [Joey Robertson's Solution](https://github.com/JoeyRobertson/learn_ruby)
+* [Santiago ROdríguez Solution](https://github.com/santoxxcc/learn_ruby)
+* [WilPoly's solution](https://github.com/wilPoly/learn_ruby)
+* [abraxaswisz's solution](https://github.com/abraxaswisz/learn_ruby)
+* [NJW's Solution](https://github.com/obsessivenerds/learn_ruby)
+* [Samitha's Solution](https://github.com/samomatik/learn_ruby)
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [BetterSpecs.org](http://betterspecs.org/) contains detailed best practices for writing your own tests.  Overkill for this assignment, but potentially interesting for the future.

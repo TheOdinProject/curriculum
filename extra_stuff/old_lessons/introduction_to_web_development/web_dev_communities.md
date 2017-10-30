@@ -20,7 +20,7 @@ Developers are passionate builders and they often enjoy taking part in various c
 * **[Hacker News](http://news.ycombinator.com)** -- HN is the community around the Y Combinator startup accelerator and it's a link-submission board that's got some of the best quality startup- and tech-related discourse on the web.
 * **[Github](http://www.github.com)** -- Less an active community than a gathering place, github is the place where you can find and contribute to almost any of the open-source projects out there.
 * **[Stack Overflow](http://www.stackoverflow.com)** -- Stack, mentioned above, is a great community where you're encouraged to ask and answer questions about a wide variety of programming topics.
-* **IRC** -- There are channels on this chat protocol for just about everything... it's like AOL Instant Messager or GChat for programmers.  Learn more about it at [IRCHelp.org's Help page](http://www.irchelp.org/irchelp/help.html).
+* **IRC** -- There are channels on this chat protocol for just about everything... it's like AOL Instant Messenger or GChat for programmers.  Learn more about it at [IRCHelp.org's Help page](http://www.irchelp.org/irchelp/help.html).
 * **[Reddit's /r/programming](http://www.reddit.com/r/programming/)** and **[/r/learnprogramming](http://www.reddit.com/r/learnprogramming)** -- Link submission, questions and commenting.
 * **Blogs** -- You should get familiar with the top blogs where the content interests you most, which will take a bit of time to figure out.  The best ones often have active discussion threads at the end of each post.
 

@@ -7,8 +7,7 @@ If you know Ruby, the world is sort of opened up for you.  Want to learn Python?
 So that's it, you're more than ready to to go ahead and take on Rails.  **Congratulations!!!**
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Ruby Best Practices book by Gregory Brown](http://it-ebooks.info/book/178/).
 * [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)

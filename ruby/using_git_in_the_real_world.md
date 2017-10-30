@@ -1,3 +1,5 @@
+### Introduction
+
 Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
 
 You'll have your share of misadventures, but everyone does.  The best remedy is to commit early and often.  The smaller and more modular your commits are, the less that can go wrong if you mess one up.  
@@ -27,8 +29,10 @@ The key players in this story will be the `upstream` (the original Github reposi
 3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on Github.  You will use this to push changes back up to Github.  You'll also want to be able to pull directly from the original repository on Github, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git`.
 4. If this is your first time using git, don't forget to set your username and email using:
 
-        $ git config --global user.name "YOUR NAME"
-        $ git config --global user.email "YOUR_EMAIL@EXAMPLE.COM"
+~~~bash
+  $ git config --global user.name "YOUR NAME"
+  $ git config --global user.email "YOUR_EMAIL@EXAMPLE.COM"
+~~~
 
 #### Ongoing Workflow
 
@@ -50,10 +54,8 @@ We've got two main branches -- `master` and `dev`.  `master` is just for product
 12. Finally, submit a pull request to send your forked version of `dev` back to the original `upstream` repository's `dev` branch.  This can be done using Github's interface.  You just need to make sure you're sending it back to the `dev` branch and not the `master` branch.
 13. Shake your moneymaker, you're an OSS contributor!
 
-### Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment:
 
 * How often should you commit?
 * How large should your commits be?
@@ -61,15 +63,16 @@ We've got two main branches -- `master` and `dev`.  `master` is just for product
 * Can you commit unfinished features?
 * Which workflow should you use? (e.g. Merge? Topic Branches? Git-Flow? Rebase?)  Hint: There's no right answer.
 
-### Your Assignment:
+### Assignment
 
-1. Read [Version Control Best Practices](http://www.git-tower.com/learn/ebook/command-line/appendix/best-practices#start) from Tower.
-1. Skim Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/).  Don't worry too much about the commands you haven't seen yet... just work on the high level concepts.
-1. Read through this great resource to get a solid understanding of [how git works](http://think-like-a-git.net/)
+<div class="lesson-content__panel" markdown="1">
+  1. Read [Version Control Best Practices](http://www.git-tower.com/learn/ebook/command-line/appendix/best-practices#start) from Tower.
+  2. Skim Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/).  Don't worry too much about the commands you haven't seen yet... just work on the high level concepts.
+  3. Read through this great resource to get a solid understanding of [how git works](http://think-like-a-git.net/)
+</div>
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
 * [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
@@ -77,5 +80,4 @@ We've got two main branches -- `master` and `dev`.  `master` is just for product
 * [Understand Git Conceptually](http://www.sbf5.com/~cduan/technical/git/)
 * Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 * Need more still?  See [this meta-list of git tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/).
-* For more info about dealing with merge conflicts, check out [around minute 30 of this video from edX's SAAS course](https://www.youtube.com/watch?v=ieoHg0Vb-xo&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
-* [Git Immersion](http://gitimmersion.com/lab_01.html) is another great tutorial to learn the shorcuts of git.
+* [Git Immersion](http://gitimmersion.com/lab_01.html) is another great tutorial to learn the shortcuts of git.

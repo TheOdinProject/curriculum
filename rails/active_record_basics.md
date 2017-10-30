@@ -6,12 +6,10 @@ Probably the most important way that logical thinking is required when building 
 
 If data is the most important piece of a web application, then how Rails handles data should be very interesting to you.  Luckily, this is one of the most significant reasons that Rails has performed so well compared with the options available just a few years ago.  Active Record is the interface that Rails gives you between the database and your application.  It lets you structure your data models for your users, blog posts, comments, followers, etc. in a logical and nearly plain-English way.  If it seems complicated (which it will at points), just imagine life before Active Record.
 
-Having a solid understanding of Active Record will make the rest of Rails seem simple by comparison.  Recall from several lessons ago that the Model in MVC is the part that does all the heavy lifting.  In this lesson, we'll cover all the basics of working with models, from setting them up to building simple associations between them.  As usual, this explanation is meant to be a high level overview and the readings will provide real depth.  The more advanced topics will be covered in some of the coming lessons.
+Having a solid understanding of Active Record will make the rest of Rails seem simple by comparison.  Recall from several lessons ago that the Model in MVC is the part that does all the heavy lifting.  In this lesson, we'll cover all the basics of working with models, from setting them up to building simple associations between them.  As usual, this explanation is meant to be a high-level overview and the readings will provide real depth.  The more advanced topics will be covered in some of the coming lessons.
 
-### Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment.
 
 * What is an ORM?
 * Why is Active Record more useful than just using SQL?
@@ -36,26 +34,28 @@ That's a step ahead of ourselves, though, because first it makes sense to think 
 
 Very briefly, Active Record lets you create a Ruby object that represents a row in one of your database tables, like a `User`.  To create a new User is a two-step process: First, you'll need to do a `User.new` and might pass it a hash full of its attributes like
 
-```language-bash
+~~~bash
 u = User.new(name: "Sven", email: "sven@theodinproject.com")
-```
+~~~
 
 If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`.  The second step is to actually save that model instance into the database.  Until now, it's just been sitting in memory and evaporates if you don't do anything with it.  To save, simply call `u.save`.  You can run both steps at once using the `#create` method:
 
-```language-bash
+~~~bash
 u = User.create(name: "Sven", email: "sven@theodinproject.com")
-```
+~~~
 
 This saves you time, but, as you'll see later, you'll sometimes want to separate them in your application.
 
-### Your Assignment
+### Assignment
 
-That was really just a teaser about what Active Record can do.  In the reading below, you'll learn about how to specifically interact with Active Record in your models.  
+That was really just a teaser about what Active Record can do. In the reading below, you'll learn about how to specifically interact with Active Record in your models.  
 
-1. I'm assuming that you've already read and followed along with the example application that was created in the [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html) intro section of the Rails Guides.  If you haven't, do that first!
-2. Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.  
-    * We'll go more into Migrations and Validations in the next section and in the lesson on Callbacks later in the course.
-    * Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file and the class name is named after the table in your database (but singular), and that class inherits from ActiveRecord::Base to get its super powers.
+<div class="lesson-content__panel" markdown="1">
+  1. I'm assuming that you've already read and followed along with the example application that was created in the [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html) intro section of the Rails Guides.  If you haven't, do that first!
+  2. Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.  
+      * We'll go more into Migrations and Validations in the next section and in the lesson on Callbacks later in the course.
+      * Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file and the class name is named after the table in your database (but singular), and that class inherits from ActiveRecord::Base to get its super powers.
+</div>
 
 ### Migrations
 
@@ -65,26 +65,26 @@ Imagine you're staring at a blank computer screen and you need to start your new
 
 Figure out the data models that you'll need to use for the first iteration of your site and start getting them set up.  For our purposes, we'll just assume all you need is the ubiquitous User model to keep track of all the dozens of users who will be on your site someday (just kidding, you'll hit it big).  After you've actually created the database in the first place (using `$ rake db:create`), to create that model you'll need to do two steps:
 
-2. Create a model file in `app/models` which is set up like you just learned above.
+1. Create a model file in `app/models` which is set up like you just learned above.
 2. Create a database table called "users" that has the appropriate columns.  This is done using a migration file and then running the migration.
 
 The best part is that Rails knows that you want to do this and has given you a handy shortcut for doing so: the `$ rails generate model YourModelNameHere` command.  When you type it in, you will see in the Terminal output which files are being created.  Don't worry about any specs or test files that also get created, the important ones are the model file and the migration file.  Rails has lots of these handy generators which don't do much except create new files in the right spots of your application for you.  The output looks something like:
 
-```language-bash
+~~~bash
   invoke  active_record
   create    db/migrate/20131223154310_create_testmodels.rb
   create    app/models/testmodel.rb
   invoke    rspec
   create      spec/models/testmodel_spec.rb
-```
+~~~
 
 The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself).  The other main file is the migration file in the `db/migrations` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`.  
 
-If you dive into that file, you'll see that there's not much in it except another bare-bones ruby class that inherits from `ActiveRecord::Migration` and some timestamps[*]. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
+If you dive into that file, you'll see that there's not much in it except another bare-bones ruby class that inherits from `ActiveRecord::Migration` and some timestamps. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
 
 If you want to only create the database migration file (without the Model or any of the test files), just use `$ rails generate migration NameYourMigration`.  You'll end up using this one more once you've got things up and running since you'll probably be modifying your data table instead of creating a new one.  There's a syntax for specifying additional parameters when you call this (which you'll see in the reading), but there's no need to remember that syntax because you can also manually go in and edit the migration file yourself.
 
-[*]: Unless you passed the Rails generator the column names you wanted, in which case they would show up automatically in the migration fields.  Generators let you [pass in arguments](http://guides.rubyonrails.org/command_line.html#rails-generate) to do even more for you.
+Unless you passed the Rails generator the column names you wanted, in which case they would show up automatically in the migration fields.  Generators let you [pass in arguments](http://guides.rubyonrails.org/command_line.html#rails-generate) to do even more for you.
 
 #### What Are They?
 
@@ -104,20 +104,22 @@ A final note, you never want to rollback migrations unless you've screwed someth
 
 Migrations don't involve writing SQL, but you do need to understand enough about databases to know how you want yours structured!  Which columns do you want?  Which ones should be indexed (and why)? Should you set a default value?  What data type will be stored in your column... a string or text?
 
-These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [previous lesson](/web-development-101/databases).
+These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [previous lesson](/courses/web-development-101/lessons/databases).
 
-#### Your Assignment
+#### Assignment
 
-1. Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).  
-    * Don't worry about 3.6-3.8.
-    * Just skim section 7.
-    * Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).  
+      * Don't worry about 3.6-3.8.
+      * Just skim section 7.
+      * Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
+</div>
 
 ### Basic Validations
 
 Imagine you've got your database up and running and want to make sure that the data people are sending to your database is good data.  For instance, to create an account on your site, a user needs to enter both a username and an email address.  How do you enforce this?
 
-There are three levels of validations that you can enforce, each more strict and secure than the previous.  At the topmost level, you can write code using JavaScript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on.  We will learn more about that in the JavaScript course.  The advantage here is that it is almost immediate so has great user experience.  The problem with this is that JavaScript is easy to circumvent and the user could easily submit a malicious or faulty request.
+There are three levels of validations that you can enforce, each more strict and secure than the previous.  At the topmost level, you can write code using JavaScript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on.  We will learn more about that in the JavaScript course.  The advantage here is that it is almost immediate so it creates a great user experience.  The problem with this is that JavaScript is easy to circumvent and the user could easily submit a malicious or faulty request.
 
 The second layer of enforcement for your validations of user data (which you should never trust) is to do so at the server level.  This means writing code in your Rails application (specifically in the model that you are trying to save an instance of, e.g. User) that examines user inputs, checks them versus the constraints you set up, and returns errors if there are any.  
 
@@ -127,12 +129,14 @@ Another problem occurs when your application has scaled up to the point where yo
 
 So the only way to truly enforce constraints is on the database level, since your single database is the sole arbiter of what is unique and valid in this world.  You can use extra parameters passed to some of the now-familiar migration methods like `add_index` to say `add_index :users, :username, unique: true`, which enforces in the most secure way that the column is unique.  Again, though, most of your validations can be implemented in your Rails application's models.
 
-### Your Assignment
+### Assignment
 
-1. Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
-    * Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
-    * You can skim section 6 about custom validators
-    * Section 8 will likely only be interesting if you've seen ERB in rails views before... we'll get there.
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
+      * Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
+      * You can skim section 6 about custom validators
+      * Section 8 will likely only be interesting if you've seen ERB in rails views before... we'll get there.
+</div>
 
 ### Basic Associations
 
@@ -152,11 +156,13 @@ A key distinction here is that we're not talking about how many Post objects a U
 
 Pretty soon you'll start thinking of the world around you in terms of these relationships (if you don't take enough breaks).  The real power of them comes when you actually need to use them -- when you want to retrieve data about all the objects that are associated with another.  Do you want to see a list of all your Twitter followers?  Do you want to count up all the classmates you had from high school who are living in the same city as you now?  Do you want to see all the comments one of your users left on another user's timelines?  All of these things are relatively simple and intuitive once you've actually set up the appropriate data relationships.  So focus on understanding these relationships.
 
-#### Your Assignment:
+#### Assignment
 
 If you're a normal human, you're probably somewhere between "huh?" and "I hate you, stop teaching me stuff".  Stick with it, the point here is to get you thinking of how to model relationships and give you exposure to them.  The project will give you an opportunity to actually build what you've been learning and it should be a lot better once you've had that chance.
 
-1. Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7.  Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
+<div class="lesson-content__panel" markdown="1">
+  1. Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7.  Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
+</div>
 
 ### Conclusion
 
@@ -167,5 +173,6 @@ It's easiest to start thinking about concrete relationships in the real world an
 It's all about practice, so the projects from here on out will ask you to think through your model organization before getting started.  Taking a few minutes to think through your relationships ahead of time is essential for getting started in the right direction when you begin writing code.
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+* [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).

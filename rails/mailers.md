@@ -1,13 +1,11 @@
 ### Introduction
 
-Email is underappreciated in its complexity on many levels.  I certainly didn't think about it much until I needed to actually bake it into my apps.  But what goes on behind the scenes, especially after hitting "send", is pretty impressive... lots of bouncing around the architecture of the internet, bypassing firewalls, and navigating SPAM filters.  Luckily all this can be handled by some specialty Heroku add-ons or other third parties.
+Email is under-appreciated in its complexity on many levels.  I certainly didn't think about it much until I needed to actually bake it into my apps.  But what goes on behind the scenes, especially after hitting "send", is pretty impressive... lots of bouncing around the architecture of the internet, bypassing firewalls, and navigating SPAM filters.  Luckily all this can be handled by some specialty Heroku add-ons or other third parties.
 
 The actual production of the email is what we'll cover here... i.e. how do you make that special "thanks for signing up, userX" email.  Creating and sending email is actually conceptually similar to rendering views and shipping them to the web browser, at least from your point of view as a Rails dev.  In this lesson we'll cover that process and you'll get a chance to send your own emails in the projects.
 
-### Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment.
 
 * What is a mailer?
 * How do you set up a new mailer from the command line?
@@ -44,7 +42,7 @@ In the reading you'll see how to send mail using your Gmail account, but if you'
 
 [SendGrid](https://addons.heroku.com/sendgrid#1500000) is the add-on used with this website for delivering welcome emails and the like and it's pretty straightforward.  See the [documentation here](https://devcenter.heroku.com/articles/sendgrid), which includes instructions for how you should set up your `config/environment.rb` file to get ActionMailer to interface with them.  You will need to use environment variables (or the `figaro` gem) again to avoid hard coding your password and username.
 
-Pricing for this, as most things, is free up until a certain usage tier.  While you're building toy apps, it will do just fine.  Other options out there include [MailGun](https://addons.heroku.com/mailgun) and [PostMark](https://addons.heroku.com/postmark), all available in the email section of the [Heroku Addon Store](https://addons.heroku.com/#email-sms).
+Pricing for this, as most things, is free up until a certain usage tier.  While you're building toy apps, it will do just fine.  Other options are out there like [MailGun](https://addons.heroku.com/mailgun)—check out others in the email section of the [Heroku Addon Store](https://addons.heroku.com/#email-sms).
 
 You'll get a chance to play with mailers and addons in the projects.
 
@@ -62,18 +60,21 @@ The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put 
 * When styling your email HTML, you won't have access to any stylesheets so you'll need to do all the styling either inline or using `<style>` tags.
 * Attaching images to emails (like using logos in the HTML version) can be a bit of a pain.  See the reading.
 
-### Your Assignment
+### Assignment
 
-1. Read the [Rails Guide on ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html) chapters 1 and 2.  
-2. Skim the brief chapter 3 on receiving emails.  You'll be able to refer back to it if you need to.
-3. Read chapter 4 and 5 to learn about callbacks and helpers.
-4. Read chapter 6, which covers sending mail with your Gmail.  
-5. Skim chapters 7-8 on testing and intercepting emails.
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Rails Guide on ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html) chapters 1 and 2.  
+  2. Skim the brief chapter 3 on receiving emails.  You'll be able to refer back to it if you need to.
+  3. Read chapter 4 and 5 to learn about callbacks and helpers.
+  4. Read chapter 6, which covers sending mail with your Gmail.  
+  5. Skim chapters 7-8 on testing and intercepting emails.
+</div>
 
 ### Conclusion
 
 Sending email is just a slightly different way of using the same patterns you've already been using for controllers and views, so it should be pretty straightforward to pick up.  You'll have to navigate the usual batch of errors when trying out new things (often related to the configuration or naming your files properly), but it'll come to you quickly.
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+* [How to Create, Preview, and Send Email From Your Rails App](https://www.youtube.com/watch?v=9eFXEzOPRNs)

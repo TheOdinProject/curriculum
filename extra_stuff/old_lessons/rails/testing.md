@@ -1,4 +1,4 @@
-We were introduced to testing in [the RSpec lesson of the Web Development 101 course](/web-development-101/testing-basics) and you got the chance to dive a bit deeper in the [RSpec lesson of the Ruby Programming course](/ruby-programming/introduction-to-rspec).  If you haven't done those, that's where you should start.  
+You got the chance to dive a bit deeper in the [RSpec lesson of the Ruby Programming course](/ruby-programming/introduction-to-rspec).  If you haven't done that, that's where you should start.  
 
 You've also been exposed to testing during the Ruby on Rails tutorial, which you've been doing throughout the projects of this course.  
 
@@ -46,7 +46,6 @@ TODO: Happy path and sad path
 ### Test Driven Development
 
 TDD forces you to write test coverage for each method and feature BEFORE you actually write the application code to make the test pass.  This forces you to build your test coverage while you build the application.  It also helps you think in a more disciplined way about the code you're producing -- if it isn't directly relevant to
-
 
 ### Style
 

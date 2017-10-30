@@ -54,7 +54,6 @@ So, if we've got back end developers and front end developers, who makes the web
 #### Optional Readings
 
 * Wikipedia lays out the breadth of the web design profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
-* Part fact and part juvenile humor, [this infographic](http://thumbnails.visually.netdna-cdn.com/web-designer-vs-web-developer_502919932c2d2.jpg) lays out the differences between web developers and designers.
 
 ### Web Sites vs Web Applications
 

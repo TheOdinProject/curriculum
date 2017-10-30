@@ -1,3 +1,5 @@
+### Introduction
+
 As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:
 
 * Screen Sharing Options. There may be more, but these are a few of the most popular:
@@ -10,7 +12,7 @@ As you learned in the last lesson, pairing in person is the best option, but if 
   * The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.  
 
 
-### Installing the Software:
+### Installing the Software
 
   [Cloud 9](https://c9.io) is an online IDE that works out of your web browser so you don't need to install anything on your local computer. Just type in the email address in the middle of the screen and follow the prompts. If you have a [Github](https://github.com/) account, you can then link your Cloud 9 account to it.
 
@@ -21,9 +23,9 @@ As you learned in the last lesson, pairing in person is the best option, but if 
   Once you have your account set up in Cloud 9, create a new workspace to start your project. You can link it to a Github repository, but that is not necessary right away. Initiating sharing is as simple as sharing the link to the workspace with your partner. They can click the link and you can accept them and just like that, you can both see and edit in real time the project you are working on.
 
 
-### Finding a Partner:
+### Finding a Partner
 
-Of course all this preparation is pointless without someone to pair with. Perhaps you already have someone in mind, but if you are having trouble finding someone, The Odin Project has a Gitter Room just for that. If you haven't [joined the Odin community](http://www.theodinproject.com/courses/web-development-101/lessons/join-the-odin-community), now is a good time to do that, and then join the [LookingForPairs](https://gitter.im/TheOdinProject/LookingForPairs) room. There should be other people there at about the same place you are in the curriculum looking to find someone to pair with as well. **NEW:** You can also post on the [Odin Project Pairing Board](https://gitter.im/TheOdinProject/topics/topic/586caf7b058ca96737c6fefa/pairing-board) and look at other peoples posts as well.
+Of course all this preparation is pointless without someone to pair with. Perhaps you already have someone in mind, but if you are having trouble finding someone, The Odin Project has a Gitter Room just for that. If you haven't [joined the Odin community](http://www.theodinproject.com/courses/web-development-101/lessons/join-the-odin-community), now is a good time to do that, and then join the [LookingForPairs](https://gitter.im/TheOdinProject/LookingForPairs) room. There should be other people there at about the same place you are in the curriculum looking to find someone to pair with as well. **NEW:** You can also post on the [Odin Project Pairing Board](https://gitter.im/TheOdinProject/topics/topic/586caf7b058ca96737c6fefa/pairing-board) and look at other people's posts as well.
 
 ### Things to keep in mind
 * Your pair is a living breathing human being. Don't forget the manners your mama taught you.
@@ -34,7 +36,6 @@ Of course all this preparation is pointless without someone to pair with. Perhap
 
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * A talk given at LA Ruby Conference 2014 by Joe Moore where he [answers a lot of questions](https://www.youtube.com/watch?v=rIcUXcyC6BA) about pair programming.
