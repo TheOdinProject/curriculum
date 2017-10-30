@@ -19,14 +19,14 @@ section_position = 0
 lesson_counter = 0
 
 # number just throw all the positions into the stratosphere to avoid the annoyance of having to not duplicate them when updating lessons
-incrementer = 1000
+incrementer = 2000
 
-# Public: Only run this update attributes if all have one or more records in the database
-# if Course.all.any? && Section.all.any? && Lesson.all.any?
-#   Course.all.each { |c| c.update_attribute(:position, c.position + incrementer)}
-#   Section.all.each { |s| s.update_attribute(:position, s.position + incrementer)}
-#   Lesson.all.each { |l| l.update_attribute(:position, l.position + incrementer)}
-# end
+Public: Only run this update attributes if all have one or more records in the database
+if Course.all.any? && Section.all.any? && Lesson.all.any?
+  Course.all.each { |c| c.update_attribute(:position, c.position + incrementer)}
+  Section.all.each { |s| s.update_attribute(:position, s.position + incrementer)}
+  Lesson.all.each { |l| l.update_attribute(:position, l.position + incrementer)}
+end
 
 def create_or_update_course(course_attrs)
   course = Course.where(title: course_attrs[:title]).first
