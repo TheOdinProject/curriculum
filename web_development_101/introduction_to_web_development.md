@@ -1,5 +1,3 @@
-If you know why you are here and that you want to learn web development, skip this lesson.
-
 ### What is Web Development/What do Web Developers do?
 
 In short: web developers build and maintain websites.
