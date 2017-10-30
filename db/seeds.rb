@@ -21,7 +21,7 @@ lesson_counter = 0
 # number just throw all the positions into the stratosphere to avoid the annoyance of having to not duplicate them when updating lessons
 incrementer = 2000
 
-Public: Only run this update attributes if all have one or more records in the database
+# Public: Only run this update attributes if all have one or more records in the database
 if Course.all.any? && Section.all.any? && Lesson.all.any?
   Course.all.each { |c| c.update_attribute(:position, c.position + incrementer)}
   Section.all.each { |s| s.update_attribute(:position, s.position + incrementer)}
