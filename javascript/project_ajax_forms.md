@@ -6,7 +6,7 @@ Because we haven't yet linked your front end projects to your back end Rails API
 Create an infinite-scrolling page of movies from the Open Movie Database.
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. You're going to grab a whole bunch of movies and display them, but since the API will potentially return a really large number of movies, you should only display a few at a time.  Make an AJAX call to the database to retrieve and display 10 movies on your page.
 4. Create an infinite scroll that loads another 10 movies and adds them to the bottom every time you scroll down to the bottom of the page.  Your "loading..." icon should come into play here too while waiting for the next batch of movies to be added.
@@ -31,6 +31,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Daunenok's solution](https://github.com/daunenok/movie-database) - [View in browser](https://daunenok.github.io/movie-database/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/ajax-infinite-scrolling-project) - [View in browser](https://sophialwu.github.io/ajax-infinite-scrolling-project/)
 * [Austin's solution](https://github.com/CouchofTomato/infinite_scroll) - [View in browser](https://couchoftomato.github.io/infinite_scroll/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Ajax_Movies) - [View in browser](https://ncud4bloc.github.io/Ajax_Movies/HTML/indexOMDB.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

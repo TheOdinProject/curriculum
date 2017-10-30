@@ -1,6 +1,6 @@
 ### Introduction
 
-Most of this should be review since you've already completed [the Web Development 101 HTML/CSS Lesson (Right??)](/web-development-101/html-and-css-basics) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base.  It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections.
+Most of this should be review since you've already completed [the Web Development 101 HTML/CSS Lesson (Right??)](/courses/web-development-101/lessons/html-and-css-basics) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base.  It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections.
 
 ### Learning Outcomes
 

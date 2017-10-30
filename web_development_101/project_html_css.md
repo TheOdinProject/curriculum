@@ -20,19 +20,19 @@ These skills will be helpful for you when you start building.  Either try them y
 
 ### Setting Up Your Project's Github Repository (optional)
 
-As mentioned in the [introduction to git](/web-development-101/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
+As mentioned in the [introduction to git](/courses/web-development-101/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to setup a repository, follow the instructions found in [Project: Git Basics](/web-development-101/practicing-git-basics) to learn how.
+If you do not know how to setup a repository, follow the instructions found in [Project: Git Basics](/courses/web-development-101/lessons/practicing-git-basics) to learn how.
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository onto your local machine. The command should look like: `git clone https://github.com/YourUserName/google-homepage`
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to revise what you have learned.)
-5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)`
+5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
 If you are having trouble, refer to:
-* The [cheat sheet](/web-development-101/git-basics) in the Git Basics Lesson or
-* Revise the [workflow](/web-development-101/practicing-git-basics) in the  Git Basics Project.
+* The [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
+* Revise the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
@@ -94,7 +94,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-* [Kasper's Solution (Easy] (https://github.com/KasperMin/google-page) - [view in browser](https://kaspermin.github.io/google_page/)
+* [malleyne747's solution (Easy)](https://github.com/malleyne747/google-homepage) | [View in browser](https://malleyne747.github.io/google-homepage/)
+* [iamfranco's Solution (Easy)](https://github.com/iamfranco/the_odin_project/tree/master/google-homepage) - [view in browser](https://iamfranco.github.io/the_odin_project/google-homepage/index.html)
+* [Kasper's Solution (Easy)](https://github.com/KasperMin/google-page) - [view in browser](https://kaspermin.github.io/google-page/)
 * [bromstedt's Solution (Easy)](https://github.com/bromstedt/google-homepage) - [View in browser](https://bromstedt.github.io/google-homepage/)
 * [Mateus' Solution (Easy)](https://github.com/mateus-reno/google-homepage) - [View in browser](https://mateus-reno.github.io/google-homepage/)
 * [Ezra's Solution(Easy)](https://github.com/Azhorabai/google-homepage-easy) - [View in browser](https://azhorabai.github.io/google-homepage-easy)
@@ -170,7 +172,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Serch solution(easy)](https://github.com/sbadillo/google-homepage/) - [View in browser](https://sbadillo.github.io/google-homepage/)
 * [Marko Dinka's Solution (Difficult) ](https://github.com/Relyful/google-homepage)- [View in browser](https://relyful.github.io/google-homepage/)
 * [Andreynho2006 solution](https://github.com/andreynho2006/google-homepage) - [View in browser](https://andreynho2006.github.io/google-homepage/)
- [Bartosz solution(difficult)](https://github.com/ispmor/google-searchpage) - [View in browser](https://ispmor.github.io/google-searchpage/)
+* [Bartosz solution(difficult)](https://github.com/ispmor/google-searchpage) - [View in browser](https://ispmor.github.io/google-searchpage/)
 * [Xavier solution(easy)](https://github.com/nxdf2015/odin-google-easy) - [View in browser](https://nxdf2015.github.io/odin-google-easy/)
 * [Abdelrahman AlShakhshir's solution(Easy)](https://github.com/aalshakhshirOdin/Googles-Home-Page) - [View in Browser](https://aalshakhshirodin.github.io/Googles-Home-Page/)
 * [Webdev-burd's solution(Easy)](https://github.com/webdev-burd/google-homepage) - [View in Browser](https://webdev-burd.github.io/google-homepage)
@@ -826,7 +828,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Shala's Solution](https://github.com/ShalaQweghen/google-homepage) - [View in Browser (Easy)](https://rawgit.com/ShalaQweghen/google-homepage/master/index.html) - [View in Browser (Difficult)](https://rawgit.com/ShalaQweghen/google-homepage/master/results.html)
 * [Mason Embry's Solution](https://github.com/masone81/google-homepage) - [View in browser](https://rawgit.com/masone81/google-homepage/master/index.html)
 * [David Amador's Solution (easy)](https://github.com/damadormoreno/google-homepage) - [View in Browser](https://rawgit.com/damadormoreno/google-homepage/master/index.html)
-* [Carlos E. Palha's Solution](https://github.com/carlosep/the-odin-project/tree/master/web-development-101/html-css-google-homepage) - [View in Browser](https://rawgit.com/carlosep/the-odin-project/master/web-development-101/html-css-google-homepage/index.html)
+* [Carlos E. Palha's Solution](https://github.com/carlosep/the-odin-project/tree/master/courses/web-development-101/lessons/html-css-google-homepage) - [View in Browser](https://rawgit.com/carlosep/the-odin-project/master/courses/web-development-101/lessons/html-css-google-homepage/index.html)
 * [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) - [View in browser](https://rawgit.com/bmo84/google-homepage/master/home.html)
 * [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) - [View in browser](https://rawgit.com/sbadulin/google-homepage/master/index.html)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/google-homepage) - [View in browser](https://rawgit.com/lujanfernaud/google-homepage/master/index.html)
@@ -1247,6 +1249,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [OtakuShowboat's Solution (Easy)](https://github.com/OtakuShowboat/google-homepage) - [View in browser](https://otakushowboat.github.io/google-homepage/)
 * [nboaldin's Solution (Easy)](https://github.com/nboaldin/google-homepage) - [View in browser](https://nboaldin.github.io/google-homepage/)
 * [KaczmarekWill's Solution (Easy)](https://github.com/KaczmarekWill/google-homepage) - [View in browser](https://KaczmarekWill.github.io/google-homepage/)
+* [Toper Kemur's Solution (Easy)](https://github.com/toperkemur/google-homepage) - [View in browser](https://toperkemur.github.io/google-project/)
+* [Kshitijaa Jaglan's Solution (Easy)](https://github.com/KshitijaaJaglan/google-homepage) - [View in browser](https://kshitijaajaglan.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

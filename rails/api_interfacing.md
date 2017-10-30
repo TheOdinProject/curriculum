@@ -6,7 +6,7 @@ Most popular services offer APIs so developers can interface with them (they lov
 
 If you go to the documentation for an API, it can sometimes be a bit overwhelming because much of the material sort of assumes that you know what you're doing, but some are definitely better than others.  There are also elements that are common across almost all of them.  The more you work with APIs (and get the hang of the authentication flow), the easier they get.  You'll be making mashups in no time.
 
-This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth.  Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation.  If you find great free learning resources that explain APIs, please let us know (try using the suggestion box at the bottom of the page)!
+This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth.  Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation.  If you find great free learning resources that explain APIs, please let us know [(make a pull request and add an additional resource at the bottom of this page)](https://github.com/TheOdinProject/curriculum)!
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment.
@@ -109,7 +109,7 @@ We won't cover SDKs explicitly in this course but they should be well within rea
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Watch [this Railscast on using Omniauth to allow Twitter Signin](http://railscasts.com/episodes/241-simple-omniauth?view=asciicast).
+  1. Watch [this Railscast on using Omniauth to allow Twitter Signin](http://railscasts.com/episodes/241-simple-omniauth-revised).
   2. Read through the [Omniauth documentation](https://github.com/intridea/omniauth)
   3. Pick an API that you really might like to interface with or a web product you use almost every day (e.g. Google, Facebook, Instagram...).  Google for its docs, e.g. with "instagram api documentation", and have a look at them.  Some docs are better than others, but they will be your source for understanding which methods you can call, what they will return, how to register your application to get an API key, and more useful tidbits.
 </div>

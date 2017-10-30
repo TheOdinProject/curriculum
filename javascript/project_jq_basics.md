@@ -4,7 +4,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document with just the `<html>` and `<body>` tags to begin with plus a single div called `<div id="content">`. Also, remember to include the jQuery library in your document within the `<head>`.
 3. Go into the console (remember the developer tools at the bottom of your browser?) and manually use jQuery to add an image tag to the content div (just choose a random Internet image).  Remember that you can use the up arrow in the console to access your previous command.  Look at the [jQuery docs for the .append() function](https://api.jquery.com/append/) for inspiration.
 4. Create a bare-bones home page for a restaurant.  Include an image, headline, and some copy about how wonderful the restaurant is.  It's okay to hard-code these into the HTML for now just to see how they look on the page.
@@ -19,6 +19,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Tamerlan1993's solution](https://github.com/Tamerlan1993/10.02.2017/tree/master) - [View in browser](https://rawgit.com/Tamerlan1993/10.02.2017/master/index.html)
 * [Flint Mayers' solution](https://github.com/FlintMayers/odin-jquery-dom-manipulation) - [View in browser](https://flintmayers.github.io/odin-jquery-dom-manipulation/)
 * [Rhys B's solution](https://github.com/105ron/js-restaurant) - [View in browser](https://105ron.github.io/js-restaurant/)
 * [Austin's solution](https://github.com/CouchofTomato/restaurant) - [View in browser](https://couchoftomato.github.io/restaurant/)

@@ -5,7 +5,7 @@ In this project you'll clone the website of one of the most design-forward compa
 
 <div class="lesson-content__panel" markdown="1">
 1. Go to this old version of [apple.com](http://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
-2. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
@@ -16,7 +16,7 @@ In this project you'll clone the website of one of the most design-forward compa
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
 * [yilmazgunalp's Solution](https://github.com/yilmazgunalp/apple) - [View in Browser](https://yilmazgunalp.github.io/apple)
@@ -56,6 +56,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [husein's solution](https://github.com/hosghf/apple-page-rubuild) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/apple-page-rubuild/blob/master/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/apple-homepage) - [View in browser](https://adoniasdantas.github.io/apple-homepage/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Apple/) - [View in browser](https://ncud4bloc.github.io/Apple/HTML/index.html)
+* [Paul McGarry's solution](https://github.com/thiswillhavetodo/apple-background-images) - [View in browser](https://thiswillhavetodo.github.io/apple-background-images/index.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

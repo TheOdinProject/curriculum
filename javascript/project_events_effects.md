@@ -7,7 +7,7 @@ If you think about what's required to make a game like this work, it's all well 
 
 <div class="lesson-content__panel" markdown="1">
 #### Setup
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. Think about what kinds of objects and functions you'll probably need in order to make this snake work.
 4. Create a javascript object that represents a grid of 40x40 squares that all start out containing just a space `" "`.
@@ -40,6 +40,7 @@ If you think about what's required to make a game like this work, it's all well 
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Tamerlan1993's solution](https://github.com/Tamerlan1993/03.03.2017-JS-practise/tree/master/snake) - [View in browser](https://rawgit.com/Tamerlan1993/03.03.2017-JS-practise/master/snake/index.html)
 * [jlo4's solution](https://github.com/jlo4/snake-game) - [View in browser](https://rawgit.com/jlo4/snake-game/master/index.html)
 * [John Brock's solution](https://github.com/Khanthulhu/snakeGame) - [View in browser](https://khanthulhu.github.io/snakeGame/)
 * [Rhys B's solution](https://github.com/105ron/snake) - [View in browser](https://105ron.github.io/snake/)
