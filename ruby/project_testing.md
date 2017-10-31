@@ -19,6 +19,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* Omar Moataz's solutions: [Caesar's Cipher](https://goo.gl/p9DE68), [Enumebrable Methods](https://goo.gl/2uauAq), [Tic-Tac-Toe](https://goo.gl/VF8Hdu)]
 * Bruno Parga's solutions: [Caesar's Cipher](https://github.com/brunoparga/odinproject/tree/master/Ruby/caesar), [Enumerable Methods](https://github.com/brunoparga/odinproject/tree/master/Ruby/my_enums), [Tic-Tac-Toe](https://github.com/brunoparga/odinproject/tree/master/Ruby/tictactoe)
 * Ovsjah Schweinefresser's Solutions: [Caesar Cipher](https://github.com/Ovsjah/testing_ruby/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/Ovsjah/testing_ruby/tree/master/enumerable), [Tic-Tac-Toe](https://github.com/Ovsjah/testing_ruby/tree/master/tic_tac_toe)
 * Jonathan Yiv's Solutions: [Caesar Cipher](https://github.com/JonathanYiv/caesar_cipher), [Enumerable Methods](https://github.com/JonathanYiv/enumerable_methods), [Tic-Tac-Toe](https://github.com/JonathanYiv/tic-tac-toe/)
