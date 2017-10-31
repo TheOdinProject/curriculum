@@ -1,3 +1,5 @@
+[View the Conversation](https://github.com/TheOdinProject/ruby_course/issues/7)
+
 ## Section: Programming Fundamentals
 
 * Lesson: Primitive Data Types
