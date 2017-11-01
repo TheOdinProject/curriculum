@@ -1252,6 +1252,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Toper Kemur's Solution (Easy)](https://github.com/toperkemur/google-homepage) - [View in browser](https://toperkemur.github.io/google-project/)
 * [Kshitijaa Jaglan's Solution (Easy)](https://github.com/KshitijaaJaglan/google-homepage) - [View in browser](https://kshitijaajaglan.github.io/google-homepage/)
 * [Mark's Solution (Easy)](https://github.com/mark-wright/google-homepage/) - [View in browser](https://mark-wright.github.io/google-homepage/)
+* [Christene Bennett's Solution (Easy)](https://github.com/thechristene/google-homepage) - [View in browser](https://thechristene.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
