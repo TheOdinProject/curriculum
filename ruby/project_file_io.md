@@ -309,6 +309,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Riley's solution](https://github.com/keymaster777/Hangman)
 * [Anistor86's solution](https://github.com/anistor86/hangman)
 * [Kusnierewicz solution](https://github.com/Kusnierewicz/Hangman-game)
+* [Oliver Curting's solution](https://github.com/Curting/hangman)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
