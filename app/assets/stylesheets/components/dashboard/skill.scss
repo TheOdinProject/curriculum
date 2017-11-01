@@ -20,6 +20,10 @@
     }
   }
 
+  &__link {
+    text-decoration: none;
+  }
+
   &__title {
     font-weight: bold;
     color: $grey;
