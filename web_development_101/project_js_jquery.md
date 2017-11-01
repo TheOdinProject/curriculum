@@ -43,6 +43,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Mohammed Mahd's solution](https://github.com/Mada-Craiz/Etch-A-eSketch) - [View in browser](https://mada-craiz.github.io/Etch-A-eSketch/)
 * [iamfranco's solution](https://github.com/iamfranco/the_odin_project/tree/master/colorGrid) - [View in browser](https://iamfranco.github.io/the_odin_project/colorGrid/index.html)
 * [Kasper's solution](https://github.com/KasperMin/sketchpad) - [View in browser](https://kaspermin.github.io/sketchpad/)
 * [Ozra's solution](https://github.com/0zra/Odin-sketchpad) - [View in browser](https://0zra.github.io/Odin-sketchpad/)
@@ -497,7 +498,6 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Giorgos poly solution](https://github.com/gpoly/SketchPad.git) - [View in browser](http://gpoly.github.io/SketchPad/)
 * [At0micr3d's solution](https://github.com/at0micr3d/project_javascript_jquery.git)- [View in browser](https://rawgit.com/at0micr3d/project_javascript_jquery/master/index.html)
 * [Ryan Clarkes solution](https://github.com/rdmclarke/JSandJQuerySketchPad.git) - [View in browser](https://rawgit.com/rdmclarke/JSandJQuerySketchPad/master/jqIndex.html)
-* [Mada's Solution](https://github.com/Mada-Craiz/Etch-a-Sketchpad) - [View in browser](https://rawgit.com/Mada-Craiz/Etch-a-Sketchpad/master/Index.html)
 * [A3P's Solution](https://github.com/A3P/EtchASketch) - [View in browser](https://rawgit.com/A3P/EtchASketch/master/main.html)
 * * [Dckwong's solution](https://github.com/dckwong/sketch-pad)- [View in browser](https://rawgit.com/dckwong/sketch-pad/master/index.html)
 * [Paul Macias' solution](https://github.com/Defgarden/jquery-grid) - [View in browser](https://rawgit.com/Defgarden/jquery-grid/master/index.html)
