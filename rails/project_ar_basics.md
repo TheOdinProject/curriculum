@@ -194,6 +194,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Tom Westerhout's solution](https://github.com/TomWesterhout/micro-reddit)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-micro-reddit)
 * [Pat's solution](https://github.com/Pat878/micro-reddit)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/micro-reddit)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
