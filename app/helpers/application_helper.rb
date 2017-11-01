@@ -106,7 +106,7 @@ module ApplicationHelper
       {
         question: 'Do you have a Code of Conduct?',
         answer: 
-          "Yes!  While interacting with other odinites you agree to the following:<br />" + Kramdown::Document.new(File.read('doc/code_of_conduct.md')).to_html
+          "Yes!  While interacting with other Odinites you agree to the following:<br />" + Kramdown::Document.new(File.read('doc/code_of_conduct.md')).to_html
         },
       {
         question: 'Can I use this curriculum to teach?',
