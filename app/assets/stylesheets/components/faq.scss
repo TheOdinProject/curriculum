@@ -10,6 +10,11 @@
     @include box-shadow(0 2px 4px 0 $very-pale-grey);
     border: 0;
 
+    #faq-item-10 .card-block {
+      ul { padding-left: 40px; }
+      h2 { padding-top: 25px; }
+    }
+
     .faq-card-header {
       align-items: center;
       background-color: $white;
