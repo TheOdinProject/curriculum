@@ -1,4 +1,6 @@
 module ApplicationHelper
+  require 'kramdown'
+
   def chat_link
     'https://gitter.im/TheOdinProject/theodinproject'
   end
@@ -101,6 +103,11 @@ module ApplicationHelper
         answer:
           '<p>We don\'t provide a certificate for course completion. Employers will be much more impressed with your amazing personal portfolio of projects, many of which you\'ll hopefully have built with inspiration from The Odin Project.</p>'
       },
+      {
+        question: 'Do you have a Code of Conduct?',
+        answer: 
+          "Yes!  While interacting with other Odinites you agree to the following:<br />" + Kramdown::Document.new(File.read('doc/code_of_conduct.md')).to_html
+        },
       {
         question: 'Can I use this curriculum to teach?',
         answer:
