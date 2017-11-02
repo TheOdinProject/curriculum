@@ -14,7 +14,6 @@ Besides being a quick and handy way to store data, arrays also have a set of fun
 
 1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos.  If you sign up for his course \(it's free!\) you can download the code and follow along.
 2. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.
-3. Do [this tutorial](http://reactivex.io/learnrx/) about 'functional programming' in javascript.  Functional programming is a phrase that you'll hear thrown around quite a bit, and something that means different things to different people.  In this case, don't let it scare you much, these are pretty much just a set of Exercises that play with Arrays in very interesting and powerful ways.  These exercises get pretty difficult, but stick with them!  The skills here are _very_ valuable.  Some of the later exercises use functions that do not exist in vanilla Javascript\(`.zip()`\), feel free to stop at that point if you like, or press on if you want even more practice.
 
 
 
