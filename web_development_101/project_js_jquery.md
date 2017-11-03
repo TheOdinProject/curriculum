@@ -731,3 +731,4 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [KaczmarekWill's Solution](https://github.com/KaczmarekWill/etch-a-sketch) - [View in browser](https://KaczmarekWill.github.io/etch-a-sketch/)
 * [ppjk1's Solution](https://github.com/ppjk1/etch-a-sketch) - [View in browser](https://ppjk1.github.io/etch-a-sketch)
 * [tonalmasher's solution](https://github.com/tonalmasher/sketch-grid) - [View in browser](https://tonalmasher.github.io/sketch-grid/#)
+* [nboaldin's solution](https://github.com/nboaldin/etch_a_sketch2/) - [View in browser](https://nboaldin.github.io/etch_a_sketch2/)
