@@ -18,7 +18,6 @@ Rails.application.routes.draw do
   get 'students' => 'users#index'
   get 'about' => 'static_pages#about'
   get 'faq' => 'static_pages#faq'
-  get 'contact' => 'static_pages#contact'
   get 'getting_involved' => 'static_pages#getting_involved'
   get 'contributing' => 'static_pages#contributing'
   get 'legal' => 'static_pages#legal'
