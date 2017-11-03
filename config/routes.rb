@@ -15,17 +15,12 @@ Rails.application.routes.draw do
   end
 
   get 'home' => 'static_pages#home'
-  get 'students' => 'users#index'
   get 'about' => 'static_pages#about'
   get 'faq' => 'static_pages#faq'
-  get 'getting_involved' => 'static_pages#getting_involved'
   get 'contributing' => 'static_pages#contributing'
-  get 'legal' => 'static_pages#legal'
-  get 'cla' => 'static_pages#cla'
   get 'terms_of_use' => 'static_pages#terms_of_use'
   get 'styleguide' => 'static_pages#style_guide'
   get 'success_stories' => 'static_pages#success_stories'
-  get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
   get 'sitemap' => 'sitemap#index', defaults: { format: 'xml' }
 
   # failure route if github information returns invalid
@@ -36,6 +31,7 @@ Rails.application.routes.draw do
 
   # Deprecated Route to Introduction to Web Development from external links
   get '/courses/introduction-to-web-development' => redirect('/courses/web-development-101')
+
   resources :courses, only: %i(index show) do
     resources :lessons, only: :show
   end
@@ -50,7 +46,7 @@ Rails.application.routes.draw do
     delete 'lesson_completions/' => 'lesson_completions#destroy', :as => 'lesson_completions'
   end
 
-   match "/404" => "errors#not_found", via: [ :get, :post, :patch, :delete ]
+   match '/404' => 'errors#not_found', via: [ :get, :post, :patch, :delete ]
 
   # Explicitly redirect deprecated routes (301)
 
