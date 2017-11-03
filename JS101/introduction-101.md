@@ -8,5 +8,16 @@ Each lesson will begin with a **points to ponder** section which will give you a
 
 The lessons will include readings, tutorials, videos and small projects.  Every few lessons there'll be a larger project to tackle that will try to combine the things you've learned up to that point.  Ideally by the end you will have learned quite a lot, and had _many_ chances to put it all to practice.  Be sure that as you go through the lessons you are actually typing any code into an editor yourself!  You won't learn much by copy and pasting!
 
+# Prerequisites
+
+If this JS curriculum is your first look at Odin, you should know that it is intended as a piece of a larger set of web-development lessons. As such, there are a few things that we are assuming you know about here. Before diving in, scan through the contents of [this course](https://www.theodinproject.com/courses/web-development-101) on Odin. This content will eventually sit in the place of the current JavaScript and jQuery lessons that exist about halfway down the page.The following is a short list of items that we're expecting you to know at least something about.
+
+1. [Command Line Basics](https://www.theodinproject.com/courses/web-development-101/lessons/command-line-basics)
+2. Git [Intro](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git) and [Basics](https://www.theodinproject.com/courses/web-development-101/lessons/git-basics)
+3. [HTML/CSS Basics](https://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics)
+4. [Developer Tools](https://www.theodinproject.com/courses/web-development-101/lessons/developer-tools)
+
+If you're impatient you'll _probably_ be OK without going through Odin's WebDev101 course before jumping in to this course, but I'd recommend taking a day or two and going through each lesson and project up through the HTML/CSS project.
+
 **HERE WE GO**
 
