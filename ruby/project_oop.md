@@ -1,32 +1,32 @@
-*Don't forget to use Git to save your projects!*
-
 ### Project 1: Tic Tac Toe
 
 Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you can't remember the rules, or if you haven't ever played.  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!
 
-### Your Task:
+### Assignment
 
 Build a tic-tac-toe game on the command line where two human players can play against each other and the board is displayed in between turns.
 
-1. Think about how you would set up the different elements within the game... What should be a class? Instance variable?  Method? A few minutes of thought can save you from wasting an hour of coding.
-2. Build your game, taking care to not share information between classes any more than you have to.
-3. Post your solution below, then check out the example solution provided.
+<div class="lesson-content__panel" markdown="1">
+  1. Think about how you would set up the different elements within the game... What should be a class? Instance variable?  Method? A few minutes of thought can save you from wasting an hour of coding.
+  2. Build your game, taking care to not share information between classes any more than you have to.
+  3. Post your solution below, then check out the example solution provided.
+</div>
 
 ### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* [rublen's solution](https://github.com/rublen/Tic_Tac_Toe) | [repl.it version](https://repl.it/K8dH/12)
+* [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/Ruby/tictactoe)
+* [rublen's solution](https://github.com/rublen/Tic_Tac_Toe) - [repl.it version](https://repl.it/K8dH/12)
 * [Omar Moataz's solution](https://github.com/omarmoatazpracticehub/TicTacToe)
 * [endotnick's solution](https://github.com/endotnick/tic_tac_toe)
 * [Jason McKee's Solution (with AI)](https://github.com/jttmckee/odin-project-ruby/tree/master/tic_tac_toe)
-* [Ben Deltenre's solution](https://github.com/benjdelt/tictactoe) | [Live Version](https://repl.it/JfoD/36)
-* [Jason McKee's Solution (with AI)] (https://github.com/jttmckee/odin-project-ruby/tree/master/tic_tac_toe)
+* [Ben Deltenre's solution](https://github.com/benjdelt/tictactoe) - [Live Version](https://repl.it/JfoD/36)
+* [Jason McKee's Solution (with AI)](https://github.com/jttmckee/odin-project-ruby/tree/master/tic_tac_toe)
 * [Jonathan Yiv's Solution](https://github.com/JonathanYiv/tic-tac-toe)
 * [GuyInALabCoat's Solution (with AI)](https://github.com/GuyInALabCoat/Odin_Project_Ruby/tree/master/OOP/Tic_Tac_Toe/logic)
 * [James B solution](https://github.com/Jayunit23/TicTacToe)
-* [Bn8's solution (random AI)](https://github.com/Bn8/ruby_odin/tree/master/tictactoe) | [Live Version](https://repl.it/JH1v/0)
+* [Bn8's solution (random AI)](https://github.com/Bn8/ruby_odin/tree/master/tictactoe) - [Live Version](https://repl.it/JH1v/0)
 * [Demo318's solution](https://github.com/Demo318/ruby_tictactoe)
 * [justinckim3's solution](https://github.com/justinckim3/tic_tac_toe)
 * [Kasey Z's Solution](https://github.com/kasey-z/TOP-solutions/blob/master/OOP/tic_tac_toe.rb)
@@ -97,6 +97,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/TicTacToe)
 * [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/OOP_with_Ruby/tic_tac_toe.rb)
 * [Frank Peelen' solution](https://github.com/FrankPeelen/TicTacToe)
+* [Barjit's solution](https://github.com/barjit/tictactoe)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_tic-tac-toe)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_tic_tac_toe)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_oop/tic_tac_toe)
@@ -162,7 +163,6 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/rubytictactoe)
 * [at0micr3d's solution](https://github.com/at0micr3d/project_oop/tree/master/tictactoe)
 * [Timur Kharisov's solution](https://github.com/exosty/the-odin-project/tree/master/ruby/3-tic-tac-toe)
-* [m-chrzan's solution](https://github.com/m-chrzan/tic-tac-toe)
 * [Loris Aranda's solution](https://github.com/LorisProg/ruby-oop/tree/master/tictactoe)
 * [Derek Kwong's solution](https://github.com/dckwong/OOPRuby/blob/master/tictactoe.rb)
 * [HenrytheDJ's solution (with dumb AI)](https://github.com/henrythedj/tictactoe)
@@ -176,7 +176,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Joe Himes's solution](https://github.com/deedle42/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/tic_tac_toe)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-OOP-with-ruby/tree/master/tic_tac_toe)
-* [Smilesr's solution] (https://github.com/smilesr/op-rb-ir-15-tic-tac-toe)
+* [Smilesr's solution](https://github.com/smilesr/op-rb-ir-15-tic-tac-toe)
 * [Braydon's solution](https://github.com/pacheeko/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Pedro's solution](https://github.com/Zapiano/theOdinProject/tree/master/ruby/tic_tac_toe)
 * [Jason Keeney's Solution](https://github.com/jkeeney/tic-tac-toe)
@@ -187,7 +187,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Zach Beaird's solution](https://github.com/zbbeaird89/TicTacToe)
 * [Husein ghafari's solution](https://github.com/hosghf/tic_tac_toy_ruby)
 * [Pat's solution](https://github.com/Pat878/Ruby_Tic_Tac_Toe)
-* [Parker Brown's solution (with AI)](https://github.com/parkerjbrown/ruby-games/blob/master/tic-tac-toe.rb) | [Live Version](https://repl.it/GvPk/1)
+* [Parker Brown's solution (with AI)](https://github.com/parkerjbrown/ruby-games/blob/master/tic-tac-toe.rb) - [Live Version](https://repl.it/GvPk/1)
 * [Luján Fernaud's solution (with AI)](https://github.com/lujanfernaud/ruby-tic-tac-toe)
 * [EMuchynski's solution (with AI)](https://github.com/EMuchynski/tic_tac_toe)
 * [Paritosh's solution](https://github.com/Paritosh97/tic_tac_toe_ruby)
@@ -197,30 +197,33 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Anistor86's solution](https://github.com/anistor86/tic_tac_toe)
 * [Oliver Curting's solution](https://github.com/Curting/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Alex's solution](https://github.com/alexcorremans/tictactoe/blob/master/tictactoe.rb)
+* [Santiago Rodríguez Solution](https://github.com/santoxxcc/bookish-tribble)
+* [Kusnierewicz Solution](https://github.com/Kusnierewicz/Tic-Tac-Toe-Game)
 
 
 ### Project 2: Mastermind
 
 If you've never played Mastermind, a game where you have to guess your opponent's secret code within a certain number of turns (like hangman with colored pegs), check it out on <a href="http://en.wikipedia.org/wiki/Mastermind_(board_game)">Wikipedia</a>.  Each turn you get some feedback about how good your guess was -- whether it was exactly correct or just the correct color but in the wrong space.
 
-### Your Task
+### Assignment
 
 Build a Mastermind game from the command line where you have 12 turns to guess the secret code, starting with you guessing the computer's random code.
 
-1. Think about how you would set this problem up!
-2. Build the game assuming the computer randomly selects the secret colors and the human player must guess them.  Remember that you need to give the proper feedback on how good the guess was each turn!
-3. Now refactor your code to allow the human player to choose whether she wants to be the creator of the secret code or the guesser.
-4. Build it out so that the computer will guess if you decide to choose your own secret colors.  Start by having the computer guess randomly (but keeping the ones that match exactly).
-5. Next, add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.  Feel free to make the AI even smarter.
-5. Post your solution below!
+<div class="lesson-content__panel" markdown="1">
+  1. Think about how you would set this problem up!
+  2. Build the game assuming the computer randomly selects the secret colors and the human player must guess them.  Remember that you need to give the proper feedback on how good the guess was each turn!
+  3. Now refactor your code to allow the human player to choose whether she wants to be the creator of the secret code or the guesser.
+  4. Build it out so that the computer will guess if you decide to choose your own secret colors.  Start by having the computer guess randomly (but keeping the ones that match exactly).
+  5. Next, add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.  Feel free to make the AI even smarter.
+  5. Post your solution below!
+</div>
 
 ### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* [rublen's solution (battle Human-Computer)](https://github.com/rublen/Master_Mind) | [repl.it version](https://repl.it/Krac/23)
-* [Ben Deltenre's solution](https://github.com/benjdelt/mastermind) | [Live Version](https://repl.it/JowG/29)
+* [rublen's solution (battle Human-Computer)](https://github.com/rublen/Master_Mind) - [repl.it version](https://repl.it/Krac/23)
+* [Ben Deltenre's solution](https://github.com/benjdelt/mastermind) - [Live Version](https://repl.it/JowG/29)
 * [Andrew Rozhenko's solution (with R2D2 for an opponent)](https://github.com/andrewr224/Mastermind)
 * [Jonathan Yiv's Solution (with 20% Win-Rate AI)](https://github.com/JonathanYiv/mastermind)
 * [GuyInALabCoat's Solution (with 5 move AI)](https://github.com/GuyInALabCoat/Odin_Project_Ruby/tree/master/OOP/Mastermind/logic)
@@ -274,6 +277,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Mastermind/mastermind.rb)
 * [Frank Peelen's solution (TDD with rspec, includes AI)](https://github.com/FrankPeelen/MasterMind-with-AI)
 * [Greg Park's solution (with simple AI)](https://github.com/gregoryjpark/mastermind)
+* [Barjit's solution (with basic Minitests)](https://github.com/barjit/mastermind)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_mastermind)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_mastermind)
 * [Matias Pan's solution(with AI)](https://github.com/kriox26/odin_ruby/tree/master/project_oop/mastermind)
@@ -356,7 +360,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Niño Mollaneda's solution](https://github.com/ninoM/mastermind_game)
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Mastermind)
 * [Husein ghafari's solution](https://github.com/hosghf/master_mind)
-* [Parker Brown's solution (with AI)](https://github.com/parkerjbrown/ruby-games/blob/master/mastermind.rb) | [Live Version](https://repl.it/GxWk)
+* [Parker Brown's solution (with AI)](https://github.com/parkerjbrown/ruby-games/blob/master/mastermind.rb) - [Live Version](https://repl.it/GxWk)
 * [Luján Fernaud's solution (with AI)](https://github.com/lujanfernaud/ruby-mastermind)
 * [Pat's solution (no AI)](https://github.com/Pat878/Ruby_Mastermind)
 * [EMuchynski's solution (no AI)](https://github.com/EMuchynski/mastermind)
@@ -365,13 +369,14 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Roland Studer's solution (with AI)](https://github.com/RolandStuder/odin_project_solutions/tree/master/oop/mastermind)
 * [Iceron's solution (with AI)](https://github.com/iceron/TOP/blob/master/Ruby/oop/mastermind/mastermind.rb)
 * [Huy Anh](https://github.com/huyanh10tin/tictactoe)
-* [Oliver Curting's solution (with five-guess AI)](https://github.com/Curting/mastermind) | [Live Version](https://repl.it/MEd9/0)
+* [Oliver Curting's solution (with five-guess AI)](https://github.com/Curting/mastermind) - [Live Version](https://repl.it/MEd9/0)
 * [Bruno Parga's solution (with fairly smart AI)](https://github.com/brunoparga/mastermind/)
 * [Alex's solution](https://github.com/alexcorremans/mastermind)
+* [Kusnierewicz solution (with fairly smart AI)](https://github.com/Kusnierewicz/Mastermind-game)
+* [Santiago Rodríguez Solution](https://github.com/santoxxcc/improved-octo-doodle)
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Not directly helpful, but here are some [Ruby game libraries](https://www.ruby-toolbox.com/categories/game_libraries) for fun.
 * A [walkthrough of how to build Tic Tac Toe in Ruby](http://codequizzes.wordpress.com/2013/10/25/creating-a-tic-tac-toe-game-with-ruby/) from the codequizzes blog.

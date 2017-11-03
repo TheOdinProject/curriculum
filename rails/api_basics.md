@@ -10,10 +10,8 @@ When you build applications that have more dynamic front-end functionality (as c
 
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
-### Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment:
 
 * How Rails knows which type of file you are expecting back when you make an HTTP request.
 * What is the purpose of the `#respond_to` method?
@@ -44,17 +42,17 @@ If you want your Rails app to return JSON instead of HTML, you need to tell your
 
 You can see which file type Rails thinks you want by checking your server log:
 
-```language-bash
+~~~bash
   Started GET "/posts/new" for 127.0.0.1 at 2013-12-02 15:21:08 -0800
   Processing by PostsController#new as HTML
-```
+~~~
 
 The first line tells you which URL was requested and the second tells you where it's going and how Rails is processing it.  If you use a `.json` extension, it looks like:
 
-```language-bash
+~~~bash
   Started GET "/posts.json" for 127.0.0.1 at 2013-12-04 12:02:01 -0800
   Processing by PostsController#index as JSON
-```
+~~~
 
 If you've got a sample application running, try going to different URLs.  If your controller isn't ready for them, you may get an error, but you should be able to see what Rails thinks you're asking for.
 
@@ -62,18 +60,21 @@ If you've got a sample application running, try going to different URLs.  If you
 
 Once you've decided that you want to respond to a request for JSON or XML, you need to tell your controller to render JSON or XML instead of HTML.  The way to do so is by using the `#respond_to` method:
 
-```language-ruby
-    class UsersController < ApplicationController
-      def index
-        @users = User.all
-        respond_to do |format|
-          format.html # index.html.erb
-          format.xml  { render :xml => @users }
-          format.json { render :json => @users }
-        end
+~~~ruby
+  class UsersController < ApplicationController
+
+    def index
+      @users = User.all
+
+      respond_to do |format|
+        format.html # index.html.erb
+        format.xml  { render :xml => @users }
+        format.json { render :json => @users }
       end
     end
-```
+
+  end
+~~~
 
 In this case, `#respond_to` passes the block a format object, to which you can attach the appropriate rendering call.  If you do nothing, html will render using the default Rails template as normal (in this case, `app/views/index.html.erb`).
 
@@ -91,33 +92,33 @@ In the old days, you'd just overwrite your own version of `#to_json` but these d
 
 In our case, we'll do this by modifying `#as_json` in our model to return only the attributes we want:
 
-```language-ruby
-    # app/models/user.rb
-    class User < ActiveRecord::Base
+~~~ruby
+  # app/models/user.rb
+  class User < ActiveRecord::Base
 
-      # Option 1: Purely overriding the #as_json method
-      def as_json(options={})
-        { :name => self.name }  # NOT including the email field
-      end
+    # Option 1: Purely overriding the #as_json method
+    def as_json(options={})
+      { :name => self.name }  # NOT including the email field
+    end
 
       # Option 2: Working with the default #as_json method
-      def as_json(options={})
-        super(:only => [:name])
-      end
+    def as_json(options={})
+      super(:only => [:name])
     end
-```
+  end
+~~~
 
 In our controller, we then just need to render JSON as normal (in the example below, it will just always return JSON, whether it's an HTML request or not):
 
-```language-ruby
-    # app/controllers/users_controller.rb
-    class UsersController < ApplicationController
+~~~ruby
+  # app/controllers/users_controller.rb
+  class UsersController < ApplicationController
 
-      def index
-        render :json => User.all
-      end
+    def index
+      render :json => User.all
     end
-```
+  end
+~~~
 
 Note that you don't need to call `#to_json` yourself when using `#render`... it will do it for you.
 
@@ -127,14 +128,14 @@ See the [as_json documentation](http://apidock.com/rails/ActiveModel/Serializers
 
 Sometimes you just want to send out an HTTP error code without any response body.  The web is conflicted about the best practices for doing so (see [This older blog](http://www.intridea.com/blog/2008/7/23/using-http-status-codes-for-rails-ajax-error-handling) for one approach or [this SO answer](http://stackoverflow.com/questions/9130191/how-to-return-correct-http-error-codes-from-ruby-on-rails-application) for another set of answers) .  Here's a simple example (again we are just rendering the error in all cases):
 
-```language-ruby
-    # app/controllers/users_controller.rb
-    class UsersController < ApplicationController
-      def index
-        render :nothing => true, :status => 404
-      end
+~~~ruby
+  # app/controllers/users_controller.rb
+  class UsersController < ApplicationController
+    def index
+      render :nothing => true, :status => 404
     end
-```
+  end
+~~~
 
 
 #### Creating Dynamic Error Pages
@@ -183,10 +184,12 @@ SOA is a big deal.  There are certainly a lot of issues that crop up when you're
 
 You probably won't be worrying too much about SOA while building "toy" applications for yourself but it will certainly come up if you find yourself working at a tech company and it's a good principle to become familiar with.
 
-### Your Assignment
+### Assignment
 
-1. Read the [Rails Guide on Controllers](http://guides.rubyonrails.org/action_controller_overview.html) section 7 to learn about rendering JSON and XML.
-2. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Rails Guide on Controllers](http://guides.rubyonrails.org/action_controller_overview.html) section 7 to learn about rendering JSON and XML.
+  2. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
+</div>
 
 ### Conclusion
 
@@ -197,8 +200,7 @@ The best way to really figure out APIs is to build them and interface with them,
 In the next lesson, we'll cover working with other people's APIs, which can add all kinds of firepower to your own application.
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
 * Watch [this free Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)

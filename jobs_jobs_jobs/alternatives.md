@@ -1,3 +1,5 @@
+### Introduction
+
 We've covered a whole lot about job search, evaluation, and acquisition.  Do you not feel ready for work just yet?  Odds are that you are, so don't fool yourself into not trying just because it's difficult.  But... Maybe you just skipped to this course and ignored the other ones.  There are a few alternate paths towards employment which you may consider.
 
 ### Bootcamps

@@ -1,3 +1,5 @@
+### Introduction
+
 This short project will demonstrate how to use git to manage and archive your project folders:
 
 1. You will set up a remote repository on GitHub and then move it down onto your local machine.
@@ -6,7 +8,7 @@ This short project will demonstrate how to use git to manage and archive your pr
 
 
 ### Learning Outcomes
-*By the end of this you should be able to:*
+By the end of this you should be able to:
 
 * Create a Git repository on GitHub and move it onto your local machine
 * Describe the difference between staging and committing changes
@@ -15,7 +17,7 @@ This short project will demonstrate how to use git to manage and archive your pr
 * Look at the history of your previous commits from the command line
 
 
-### Basics of Git Project
+### Assignment
 Here we will describe the basic git workflow that you will use with your projects, follow along with each of the steps.
 
 #### Create your repository on Github
@@ -32,7 +34,7 @@ Here we will describe the basic git workflow that you will use with your project
 6. That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
   <a href="https://imgur.com/UEyeqwv"><img class="tutorial-img" src="https://i.imgur.com/UEyeqwv.png" title="source: imgur.com" /></a>
 
-### GIT workflow
+### Git workflow
 1. Create a new file in git_test called "README.md"
   <a href="https://imgur.com/TpPto3r"><img class="tutorial-img" src="https://i.imgur.com/TpPto3r.png" title="source: imgur.com" /></a>
 2. Type `git status` in your terminal notice your *README.md* file is in red, this means it is un-staged.
@@ -73,7 +75,7 @@ We used this command to commit the *README.md* file `git commit -m "Add README.m
   <a href="https://imgur.com/9lda2lB"><img class="tutorial-img" src="https://i.imgur.com/9lda2lB.png" title="source: imgur.com" /></a>
 10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
-### Pushing your finished work to github
+### Pushing your finished work to Github
 Finally lets upload what you have done to the Github repository you created at the start of this tutorial
 
 1. Simply enter `git push origin master`.
@@ -96,6 +98,6 @@ In later git lessons we will cover some of the more advanced git features such a
 For now concentrate on using the basics of Git which you have learnt here with all the projects ahead of you until the point where you know each of the basic Git commands from memory.  
 
 ### Additional Resources
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * A guideline for writing neat and concise commit messages by [Chris Beams](https://github.com/cbeams) called [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).
