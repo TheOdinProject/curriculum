@@ -4,6 +4,14 @@ class StaticPagesController < ApplicationController
   def home
   end
 
+  def start_now
+
+  end
+
+  def view_full
+
+  end
+
   def about
   end
 
