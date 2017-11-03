@@ -3,7 +3,13 @@
     <header>
       <h1 class="accent hero__main-heading"> Your Career in Web Development Starts Here </h1>
       <p class="secondary hero__sub-heading"> Our full stack curriculum is free and supported by a passionate open source community.</p>
-      <%= sign_in_or_view_curriculum_button %>
+      <% if params[:start_now] %>
+        <%= link_to 'Start Now!', course_path("web-development-101"),  class: 'button button--primary' %>
+      <% elsif params[:view_full] %>
+        <%= link_to 'View full Curriculum', courses_path,  class: 'button button--primary' %>
+      <% else %>
+        <%= sign_in_or_view_curriculum_button %>
+      <% end %>
     </header>
     <%= image_tag 'home-isometric.svg', class: 'hero__image', alt: 'home-page-banner' %>
   </div>
