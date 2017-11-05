@@ -9,7 +9,12 @@ describe ':curriculum' do
 
   describe 'curriculum:update_content' do
     let!(:lesson) do
-      FactoryGirl.create(:lesson, url: '/README.md', content: nil)
+      FactoryGirl.create(
+        :lesson,
+        url: '/README.md',
+        content: nil,
+        repo: 'curriculum'
+      )
     end
 
     let(:curriculum_update_content) do
