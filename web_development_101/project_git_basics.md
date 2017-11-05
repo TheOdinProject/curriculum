@@ -1,3 +1,5 @@
+### Introduction
+
 This short project will demonstrate how to use git to manage and archive your project folders:
 
 1. You will set up a remote repository on GitHub and then move it down onto your local machine.
@@ -6,7 +8,7 @@ This short project will demonstrate how to use git to manage and archive your pr
 
 
 ### Learning Outcomes
-*By the end of this you should be able to:*
+By the end of this you should be able to:
 
 * Create a Git repository on GitHub and move it onto your local machine
 * Describe the difference between staging and committing changes
@@ -15,7 +17,7 @@ This short project will demonstrate how to use git to manage and archive your pr
 * Look at the history of your previous commits from the command line
 
 
-### Basics of Git Project
+### Assignment
 Here we will describe the basic git workflow that you will use with your projects, follow along with each of the steps.
 
 #### Create your repository on Github
@@ -29,10 +31,10 @@ Here we will describe the basic git workflow that you will use with your project
   <a href="https://imgur.com/GteFqiA"><img class="tutorial-img" src="https://i.imgur.com/GteFqiA.png" title="source: imgur.com" /></a>
 5. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on github onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone https://github.com/YourUsername/git_test`.
   <a href="https://imgur.com/II35rpo"><img class="tutorial-img" src="https://i.imgur.com/II35rpo.png" title="source: imgur.com" /></a>
-6. Thats it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
+6. That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
   <a href="https://imgur.com/UEyeqwv"><img class="tutorial-img" src="https://i.imgur.com/UEyeqwv.png" title="source: imgur.com" /></a>
 
-### GIT workflow
+### Git workflow
 1. Create a new file in git_test called "README.md"
   <a href="https://imgur.com/TpPto3r"><img class="tutorial-img" src="https://i.imgur.com/TpPto3r.png" title="source: imgur.com" /></a>
 2. Type `git status` in your terminal notice your *README.md* file is in red, this means it is un-staged.
@@ -67,13 +69,13 @@ We used this command to commit the *README.md* file `git commit -m "Add README.m
 4. Add *README.md* to the staging area with `git add README.md`
 5. Can you guess what `git status` will output now? *README.md* will be displayed in green text while *hello_world.txt* will still be in red. This means only *README.md* has been added to the staging area.
   <a href="https://imgur.com/b9tCLfT"><img class="tutorial-img" src="https://i.imgur.com/b9tCLfT.png" title="source: imgur.com" /></a>
-6. Now lets add *hello_world.txt* to staging area with a different variation of add `git add .` - the full stop means add all un-staged files. Then enter `git status` once more, everything should now been added to the staging area.
+6. Now let's add *hello_world.txt* to staging area with a different variation of add `git add .` - the full stop means add all un-staged files. Then enter `git status` once more, everything should now been added to the staging area.
   <a href="https://imgur.com/13jYJiV"><img class="tutorial-img" src="https://i.imgur.com/13jYJiV.png" title="source: imgur.com" /></a>
 9. Finally, lets commit all of our files in the staging area and give a descriptive commit message `git commit -m "Add hello_world.txt and edit README.md"`. Then enter `git status` once again, this will output `nothing to commit`.
   <a href="https://imgur.com/9lda2lB"><img class="tutorial-img" src="https://i.imgur.com/9lda2lB.png" title="source: imgur.com" /></a>
 10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
-### Pushing your finished work to github
+### Pushing your finished work to Github
 Finally lets upload what you have done to the Github repository you created at the start of this tutorial
 
 1. Simply enter `git push origin master`.
@@ -96,6 +98,6 @@ In later git lessons we will cover some of the more advanced git features such a
 For now concentrate on using the basics of Git which you have learnt here with all the projects ahead of you until the point where you know each of the basic Git commands from memory.  
 
 ### Additional Resources
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * A guideline for writing neat and concise commit messages by [Chris Beams](https://github.com/cbeams) called [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).

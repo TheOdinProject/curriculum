@@ -29,7 +29,7 @@ Caching makes your application faster by reducing database calls.  Check out the
 Here are a few books that will take you a bit deeper as well:
 
 * [The Rails 4 Way](https://leanpub.com/tr4w) by Obie Fernandez is a comprehensive guide to the framework.
-* [Agile Web Development with Rails 4](http://pragprog.com/book/rails4/agile-web-development-with-rails-4) is sort of an in-depth guide combined with a tutorial that follows Agile practices along the way.
+* [Agile Web Development with Rails 5](https://pragprog.com/book/rails5/agile-web-development-with-rails-5) is sort of an in-depth guide combined with a tutorial that follows Agile practices along the way.
 * [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814) is a good best-practices guide.
 
 ### Other Resources
@@ -52,15 +52,12 @@ I want to emphasize again that the learning never really stops but also that you
 So there's a lot left to go but it gets better and better.  Stick with it!
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e) by Richardson Dackam
 * A [listing of Rails tutorials](https://tutorials.railsapps.org/rails-tutorial) from Daniel Kehoe of RailsApps
 * A list of some slightly [longer Rails Tutorials by Jumpstart Lab](http://tutorials.jumpstartlab.com/)
 * The [University of Texas Rails Course Online](http://schneems.com/ut-rails) (incomplete/dated?)
-* [Free Online Webinars from buildingwebapps.com](http://www.buildingwebapps.com/)
 * [Rails Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) by Tobias Pfeiffer
 * [Rails Best Practices list](http://rails-bestpractices.com/)
 * [Building a Simple CMS in Sinatra Tutorial](http://www.sitepoint.com/a-simple-content-management-system-in-sinatra/)

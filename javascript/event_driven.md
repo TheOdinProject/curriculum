@@ -1,6 +1,7 @@
+### Introduction
 We've already looked at scopes and functions quite a bit and you've had a chance to play with callbacks already, but here we'll dig deeper.  Events are everywhere in Javascript, and you almost always want to do something when the event has finished running (or if there's been an error).  That's where the callback comes in.
 
-### Points to Ponder
+### Learning Outcomes
 
 * What is a callback?
 * What is the scope inside a callback?
@@ -17,7 +18,7 @@ That's basically it.
 ### How does this look in practice?
 Consider the following:
 
-```language-javascript
+~~~javascript
 //First function, expects a callback
 function firstFunction(callback) {
   callback('hello')
@@ -32,7 +33,7 @@ function secondFunction(string) {
 firstFunction(secondFunction);
 
 //Writes 'hello' to the console.
-```
+~~~
 
 Congratulations.  You just used a callback function.  If you don't get what's going on above, try to write it out yourself and run the code in something like [jsBin](https://jsbin.com).
 
@@ -52,73 +53,73 @@ This is important, because the *number of arguments* and the *type of data they 
 
 In our example, `firstFunction` will pass only one argument to whatever callback it receives.  So `secondFunction` needs to be written to receive only one argument.  Doing something like this will cause problems:
 
-```language-javascript
+~~~javascript
 secondFunction(string, number) {
   number += 1;
   console.log(string, number)
 }
-```
+~~~
 
-Some functions will pass multiple arguments to their callbacks, with multiple datatypes.  If this isn't crystal clear to you right now, don't worry.  With trial and error, and reading the documentation, you'll be able to figure it out.
+Some functions will pass multiple arguments to their callbacks, with multiple data types.  If this isn't crystal clear to you right now, don't worry.  With trial and error, and reading the documentation, you'll be able to figure it out.
 
 ### Ok so far so good.
 Let's take a look at some jQuery code.
 
-```language-javascript
+~~~javascript
 $('#link').click(function(){
   //Do stuff
 });
-```
+~~~
 
 What's going on here? Let's break this down into it's component parts.
 
-####1. The `$` jQuery function.  
-This is the first function you are calling.  `$` is just the name of that function.  Somewhere in the jQuery library is code that looks something like this:
+#### 1. The `$` jQuery function.
+This is the first function you are calling. `$` is just the name of that function.  Somewhere in the jQuery library is code that looks something like this:
 
-```language-javascript
+~~~javascript
 function $(){
   //jQuery source code
 }
-```
+~~~
 
 It's really that simple. `$('#link')` is the `$()` function with `'#link'` as its argument.
 
-####2. `#link`
+#### 2. `#link`
 This is the DOM element that you have selected.
 
-####3. `.click()`
+#### 3. `.click()`
 This is an event handler - it's a special type of function that gets executed when certain things happen in the DOM.  In this case, when a user clicks on the selected element, the `.click()` function is called.  The `click` function expects a single function as its argument, which it executes. The source code for the `.click()` function might look something like this:
 
-*Disclaimer: this is totally not what it looks like in reality - it's a massive simplification to serve a point!*
+Disclaimer: this is totally not what it looks like in reality - it's a massive simplification to serve a point!
 
-```language-javascript
+~~~javascript
 function click(callback){
   callback() //execute callback
 }
-```
+~~~
 
-####4. `function(){//Do stuff}`
+#### 4. `function(){//Do stuff}`
 Ok so this is it. This is our callback function.
 
 But hang on, this looks different from the first example of callbacks! Well, not really.
 
 Remember, in JavaScript you can use anonymous functions (that is, functions without a name) that you instantiate immediately.  To illustrate this point, consider the following example:
 
-```language-javascript
+~~~javascript
 function doStuff() {
   //Do stuff
 }
 
 $('#link').click(doStuff);
-```
+~~~
 
 This is basically the same thing as writing:
 
-```language-javascript
+~~~javascript
 $('#link').click(function(){
   //Do stuff
 });
-```
+~~~
 
 It's just no longer using an anonymous function, which means that you can re-use `doStuff` wherever you like.
 
@@ -130,18 +131,18 @@ So when should you use anonymous functions?  A good rule of thumb is, if you're 
 
 If you're coming to JavaScript from Ruby then you're probably very comfortable with thinking about functions as things that `return` data.  You put something into it, and then you get something back.
 
-```language-javascript
+~~~javascript
 function returnNumber(data) {
   return data;
 }
 
 returnNumber(12);
 //12
-```
+~~~
 
 The function above does exactly what it says.  It returns a number (12, in this case).  But consider again our first example:
 
-```language-javascript
+~~~javascript
 //First function, expects a callback
 function firstFunction(callback) {
   callback('hello')
@@ -156,7 +157,7 @@ function secondFunction(string) {
 firstFunction(secondFunction);
 
 //Writes 'hello' to the console.
-```
+~~~
 
 None of these functions `return` anything, but you're still getting something to show the user.  This is the fundamental thing about callbacks - their name somehow implies that you are 'calling back' to the past, but what you are actually doing is *throwing information forward* to be used at some point in the future.
 
@@ -167,15 +168,16 @@ None of these functions `return` anything, but you're still getting something to
 4. Don't expect your callbacks to `return` data.
 5. Callbacks can get confusing quickly.  Just keep reminding yourself that even though it's called a `callback`, what it's actually doing is *passing information forward*.
 
-### Your Assignment
+### Assignment
 
-2. Read [Understanding Callback Functions in JS from JSIS](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
-1. Browse [Understanding Callback Functions in Javascript by Recurial](http://recurial.com/programming/understanding-callback-functions-in-javascript/) to fill in any gaps.
-2. Read [Callbacks, Listeners and Promises](http://sporto.github.com/blog/2012/12/09/callbacks-listeners-promises/) to understand more about the use cases for callbacks.
+<div class="lesson-content__panel" markdown="1">
+1. Read [Understanding Callback Functions in JS from JSIS](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
+2. Browse [Understanding Callback Functions in Javascript by Recurial](http://recurial.com/programming/understanding-callback-functions-in-javascript/) to fill in any gaps.
+3. Read [Callbacks, Listeners and Promises](http://sporto.github.com/blog/2012/12/09/callbacks-listeners-promises/) to understand more about the use cases for callbacks.
+</div>
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [CallbackHell.com's primer on callbacks](http://callbackhell.com/)
 * [Using Deferred Functions and Promises (Video)](http://www.youtube.com/watch?v=juRtEEsHI9E)

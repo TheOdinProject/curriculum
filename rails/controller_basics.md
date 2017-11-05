@@ -8,22 +8,20 @@ It's pretty straightforward.  Typical controllers are pretty lightweight and don
 
 The controller's `#index` action would actually look as simple as:
 
-```language-ruby
-    PostsController < ApplicationController
-      ...
-      def index
-        @posts = Post.all
-      end
-      ...
+~~~ruby
+  PostsController < ApplicationController
+    ...
+    def index
+      @posts = Post.all
     end
-```
+    ...
+  end
+~~~
 
 In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
-### Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment:
 
 * Why is it important what you name your models, controllers, and views?
 * Where is the view file located that's rendered by default for a given controller?
@@ -43,7 +41,7 @@ In this simple action, we have the controller asking the model for something ("H
 
 One way that Rails makes your life a bit easier is that it assumes things are named a certain way and then executes them behind the scenes based on those names.  For instance, your controller and its action have to be named whatever you called them in your `routes.rb` file when you mapped a specific type of HTTP request to them.
 
-The other end of the process is what the controller does when it's done.  Once rails gets to the `end` of that controller action, it grabs all the instance variables from the controller and sends them over the view file *which is named the same thing as the controller action* and which lives in a folder named after the controller, e.g. `app/views/posts/index.html.erb`.  This isn't arbitrary, this is intentional to make your life a lot easier when looking for files later. If you save your files in a different folder or heirarchy, you'll have to explicitly specify which ones you want rendered.
+The other end of the process is what the controller does when it's done.  Once rails gets to the `end` of that controller action, it grabs all the instance variables from the controller and sends them over the view file *which is named the same thing as the controller action* and which lives in a folder named after the controller, e.g. `app/views/posts/index.html.erb`.  This isn't arbitrary, this is intentional to make your life a lot easier when looking for files later. If you save your files in a different folder or hierarchy, you'll have to explicitly specify which ones you want rendered.
 
 ### Rendering and Redirecting
 
@@ -57,33 +55,33 @@ The trick here is that the view page gets passed the instance variables from you
 
 Let's see it in code:
 
-```language-ruby
-    # app/controllers/posts_controller.rb
-    class PostsController < ApplicationController
-      ...
-      # Make (but don't save) an empty Post so the form we render
-      # knows which fields to use and where to submit the form
-      # This action will render app/views/posts/new.html.erb once
-      # it's done
-      def new
-        @post = Post.new
-      end
+~~~ruby
+  # app/controllers/posts_controller.rb
+  class PostsController < ApplicationController
+    ...
+    # Make (but don't save) an empty Post so the form we render
+    # knows which fields to use and where to submit the form
+    # This action will render app/views/posts/new.html.erb once
+    # it's done
+    def new
+      @post = Post.new
+    end
 
-      # We know this will get run once we receive the submitted
-      # form from our NEW action above (remember your REST actions??)
-      # We'll just use pseudo-code for now to illustrate the point
-      def create
-        ... code here to set up a new @post based on form info ...
-        if @post.save
-          ... code to set up congratulations message ...
-          redirect_to post_path(@post.id) # go to show page for @post
-        else
-          ... code to set up error message ...
-          render :new
-        end
+    # We know this will get run once we receive the submitted
+    # form from our NEW action above (remember your REST actions??)
+    # We'll just use pseudo-code for now to illustrate the point
+    def create
+      # code here to set up a new @post based on form info
+      if @post.save
+        # code to set up congratulations message
+        redirect_to post_path(@post.id) # go to show page for @post
+      else
+        # code to set up error message
+        render :new
       end
     end
-```
+  end
+~~~
 
 So the thing to pay attention to is that, if we successfully are able to save our new post in the database, we redirect to that post's show page.  Note that a shortcut you'll see plenty of times is, instead of writing `redirect_to post_path(@post.id)`, just write `redirect_to @post` because Rails knows people did that so often that they gave you the option of writing it shorthand.  We'll use this in the example as we develop it further.
 
@@ -95,19 +93,19 @@ It's important to note that `render` and `redirect_to` do NOT immediately stop y
 
 If you write something like:
 
-```language-ruby
-    def show
-      @user = User.find(params[:id])
-      if @user.is_male?
-        render "show-boy"
-      end
-      render "show-girl"
+~~~ruby
+  def show
+    @user = User.find(params[:id])
+    if @user.is_male?
+      render "show-boy"
     end
-```
+    render "show-girl"
+  end
+~~~
 
 In any case where the user is male, you'll get hit with a multiple render error because you've told Rails to render both "show-boy" and "show-girl".
 
-## Params and Strong Parameters
+### Params and Strong Parameters
 
 In the example above, we saw `... code here to set up a new @post based on form info ...`.  Okay, how do we grab that info?  We keep saying that the router packages up all the parameters that were sent with the original HTTP request, but how do we access them?
 
@@ -127,11 +125,11 @@ The important distinction between the "scalar" parameter values like strings and
 
 To "whitelist", or explicitly allow, parameters, you use the methods `require` and `permit`.  Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used.  For example:
 
-```language-ruby
-    def whitelisted_post_params
-      params.require(:post).permit(:title,:body,:author_id)
-    end
-```
+~~~ruby
+  def whitelisted_post_params
+    params.require(:post).permit(:title,:body,:author_id)
+  end
+~~~
 
 This will whitelist and return the hash of only those params that you specified (e.g. `{:title => "your title", :body => "your body", :author_id => "1"}` ).  If you didn't do this, when you tried to access params[:post] nothing would show up! Also, if there were any additional fields submitted inside the hash, these will be stripped away and made inaccessible (to protect you).
 
@@ -139,33 +137,33 @@ It can be inconvenient, but it's Rails protecting you from bad users.  You'll us
 
 So our `#create` action above can now be filled out a bit more:
 
-```language-ruby
-    # app/controllers/posts_controller.rb
-    class PostsController < ApplicationController
-      ...
+~~~ruby
+  # app/controllers/posts_controller.rb
+  class PostsController < ApplicationController
+    ...
 
-      # We know this will get run once we've received the submitted
-      # form from our new action above (remember your REST actions??)
-      def create
-        @post = Post.new(whitelisted_post_params) # see method below
-        if @post.save
-          ... code to set up congratulations message ...
-          redirect_to post_path(@post.id) # go to show page for @post
-        else
-          ... code to set up error message ...
-          render :new
-        end
-      end
-
-      private  # Best to make helper methods like this one private
-
-      # gives us back just the hash containing the params we need to
-      # to create or update a post
-      def whitelisted_post_params
-        params.require(:post).permit(:title,:body,:author_id)
+    # We know this will get run once we've received the submitted
+    # form from our new action above (remember your REST actions??)
+    def create
+      @post = Post.new(whitelisted_post_params) # see method below
+      if @post.save
+        # code to set up congratulations message
+        redirect_to post_path(@post.id) # go to show page for @post
+      else
+        # code to set up error message
+        render :new
       end
     end
-```
+
+    private  # Best to make helper methods like this one private
+
+    # gives us back just the hash containing the params we need to
+    # to create or update a post
+    def whitelisted_post_params
+      params.require(:post).permit(:title,:body,:author_id)
+    end
+  end
+~~~
 
 ### Flash
 
@@ -183,43 +181,43 @@ The distinction between `flash` and `flash.now` just lets Rails know when it wil
 
 Now the full controller code can be written out for our `#create` action:
 
-```language-ruby
-    # app/controllers/posts_controller.rb
-    class PostsController < ApplicationController
-      ...
+~~~ruby
+  # app/controllers/posts_controller.rb
+  class PostsController < ApplicationController
+    ...
 
-      # We know this will get run once we've received the submitted
-      # form from our new action above (remember your REST actions??)
-      def create
-        @post = Post.new(whitelisted_post_params)
-        if @post.save
-          flash[:success] = "Great! Your post has been created!"
-          redirect_to @post # go to show page for @post
-        else
-          flash.now[:error] = "Rats! Fix your mistakes, please."
-          render :new
-        end
+    # We know this will get run once we've received the submitted
+    # form from our new action above (remember your REST actions??)
+    def create
+      @post = Post.new(whitelisted_post_params)
+      if @post.save
+        flash[:success] = "Great! Your post has been created!"
+        redirect_to @post # go to show page for @post
+      else
+        flash.now[:error] = "Rats! Fix your mistakes, please."
+        render :new
       end
-
-        private
-
-          def whitelisted_post_params
-            params.require(:post).permit(:title,:body,:author_id)
-          end
     end
-```
+
+    private
+
+    def whitelisted_post_params
+      params.require(:post).permit(:title,:body,:author_id)
+    end
+  end
+~~~
 
 So that action did a fair bit of stuff -- grab the form data, make a new post, try to save the post, set up a success message and redirect you to the post if it works, and handle the case where it doesn't work by berating you for your foolishness and re-rendering the form.  A lot of work for only 10 lines of Ruby.  Now that's smart controlling.
 
-### Your Assignment
+### Assignment
 
 That's really just a taste of the Rails controller, but you should have a pretty good idea of what's going on and what tricks you can use.  
 
-1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.5.3 and 5.2.  We'll cover sessions (section 5.1) more in the future so don't worry about them now.
-
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.5.3 and 5.2.  We'll cover sessions (section 5.1) more in the future so don't worry about them now.
+</div>
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Rails 3 Rendering and Partials via YouTube](http://www.youtube.com/watch?v=m-tw2OCHPMI)
