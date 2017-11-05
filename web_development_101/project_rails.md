@@ -270,13 +270,14 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Paritosh Sharma's Solution](https://github.com/Paritosh97/blogger) - [View in browser](https://evening-woodland-12867.herokuapp.com/)
 * [EMuchynski's Solution](https://github.com/EMuchynski/blogger) - [View in browser](https://agile-ocean-12019.herokuapp.com/articles)
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/rails-project)
-* [uvieugo's Solution](https://github.com/uvieugo/project-rails-blogger) - [View in Browser](https://salty-woodland-61543.herokuapp.com/) Up to part off I6
-* [Seederwood's Solution](https://github.com/seederwood/myblog) - [View in Browser](https://rocky-harbor-97255.herokuapp.com/)
-* [Anistor86's Solution](https://github.com/anistor86/RubyOnRails_project) - [View in Browser](https://evening-oasis-70444.herokuapp.com/)
-* [Phucledien's Solution](https://github.com/phucledien/blogger) - [View in Browser](https://still-crag-31572.herokuapp.com/)
-* [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) - [View in Browser](https://radiant-beach-97617.herokuapp.com/)
-* [Oliver Curting's Solution](https://github.com/Curting/blogger) - [View in Browser](https://olivers-blogger.herokuapp.com/) I0-I5
-* [Alex's Solution](https://github.com/alexcorremans/blogger) - [View in Browser](https://fast-taiga-39728.herokuapp.com/)
+* [uvieugo's Solution](https://github.com/uvieugo/project-rails-blogger) | [View in Browser](https://salty-woodland-61543.herokuapp.com/) Up to part off I6
+* [Seederwood's Solution](https://github.com/seederwood/myblog) | [View in Browser](https://rocky-harbor-97255.herokuapp.com/)
+* [Anistor86's Solution](https://github.com/anistor86/RubyOnRails_project) | [View in Browser](https://evening-oasis-70444.herokuapp.com/)
+* [Phucledien's Solution](https://github.com/phucledien/blogger) | [View in Browser](https://still-crag-31572.herokuapp.com/)
+* [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) | [View in Browser](https://radiant-beach-97617.herokuapp.com/)
+* [Oliver Curting's Solution](https://github.com/Curting/blogger) | [View in Browser](https://olivers-blogger.herokuapp.com/) I0-I5
+* [Alex's Solution](https://github.com/alexcorremans/blogger) | [View in Browser](https://fast-taiga-39728.herokuapp.com/)
+* [NJW's Solution](https://github.com/obsessivenerds/blogger) | [View in Browser](https://obsessivenerds.github.io/blogger/)
 * [Celestine's Solution](https://github.com/CEOehis/blogger) - [View in Browser](https://afternoon-coast-34844.herokuapp.com/)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/blogger) - [View in Browser](https://agile-mountain-84751.herokuapp.com/)
 * [WilPoly's Solution](https://github.com/wilPoly/blogger) - [View in Browser](https://guarded-journey-13824.herokuapp.com/) Upto I5
