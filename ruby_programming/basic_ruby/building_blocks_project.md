@@ -31,7 +31,8 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 </div>
 
 ### Student Solutions
-[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/basic_ruby/building_blocks_project.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+
 
 * Add your solution below this line!
 * [funwithcthulhu's Solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/caesar_cipher.rb)
@@ -888,4 +889,3 @@ Next, make sure your method can handle multiple words:
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/substring.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby_Programming/substring.rb)
 * [datagoil's solution](https://github.com/datagoil/substrings-for-Odin)
-

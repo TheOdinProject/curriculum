@@ -1,8 +1,8 @@
 ### Introduction
 
-You've had plenty of opportunity to read Ruby and learn Ruby and now it's time to build Ruby.  You learned about RSpec in the previous section and now we'll actually get to do some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass by writing code.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.
+You've had plenty of opportunity to read Ruby and learn Ruby and now it's time to build Ruby. In this project you'll be downloading a bunch of test files and your job will be to make them pass by writing code.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.
 
-This exercise will involve a lot of figuring things out.  There aren't very detailed instructions for what to do, just the batch of tests that you need to make pass.  You need to look at those tests, figure out what they want based on the error messages you receive, and write the code to pass them.  It can be tricky to get the hang of at first but once you start making those tests go green it starts feeling pretty cool.
+This exercise will involve a lot of figuring things out. There aren't very detailed instructions for what to do, just the batch of tests that you need to make pass. You need to look at those tests, figure out what they want based on the error messages you receive, and write the code to pass them.  It can be tricky to get the hang of at first but once you start making those tests go green it starts feeling pretty cool.
 
 ### Assignment
 
@@ -23,7 +23,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 </div>
 
 ### Student Solutions
-Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/web_development_101/the_backend/ruby_project.md) on the ruby course github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
