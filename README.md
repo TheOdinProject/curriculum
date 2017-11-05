@@ -13,7 +13,9 @@ The TOP community can be found in our [gitter chat rooms](https://gitter.im/TheO
 
 
 ## Curriculum Re-development
-We are currently redeveloping the curriculum, each course will be moved out into its own respository as this process 
+We are currently redeveloping the curriculum, each course will be moved out into its own respository as this process develops. Links to the new course repositories can be found here.
+
+* [Ruby Course](https://github.com/TheOdinProject/ruby_coursexw)
 
 ## Contributing
 
