@@ -166,7 +166,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/members_only) | [View in browser](https://langenfeld-members-only.herokuapp.com/)
 * [Tom Westerhout's solution](https://github.com/TomWesterhout/Members_only) | [View in browser](https://membersonly-170388.herokuapp.com/)
 * [Luján's Fernaud solution](https://github.com/lujanfernaud/menbaa) | [View in browser](https://menbaa.herokuapp.com/)
-
+* [Pat's solution](https://github.com/Pat878/members_only)
 
 ### Additional Resources
 
