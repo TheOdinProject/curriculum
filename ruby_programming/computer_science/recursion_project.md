@@ -134,6 +134,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [EMuchynski's solution](https://github.com/EMuchynski/fibonacci)
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
 * [anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/fibonacci.rb)
+* [Xuan-Son Trinh's solution](https://github.com/xuansontrinh/Beginning-With-Ruby/blob/master/fibbonaci.rb)
 
 ### Project: Merge Sort
 
