@@ -135,6 +135,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [EMuchynski's solution](https://github.com/EMuchynski/fibonacci)
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
 * [anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/fibonacci.rb)
+* [Oliver Curting's solution with 2 line method](https://github.com/Curting/recursion_project/blob/master/fibonacci.rb)
 
 ### Project: Merge Sort
 
@@ -287,6 +288,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/mergesort.rb)
 * [Austin Norman's solution](https://github.com/austinnormancore/merge_sort/blob/master/merge_sort.rb)
 * [Anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/merge_sort.rb)
+* [Oliver Curting's solution](https://github.com/Curting/recursion_project/blob/master/merge_sort.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
