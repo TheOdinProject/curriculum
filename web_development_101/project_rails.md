@@ -284,6 +284,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/blogger) - to I5
 * [Eric Gonzalez solution](https://github.com/Twinpair/Blogger) - [View in Browser](https://rails-blogger-app.herokuapp.com/)
 * [Samitha's Solution](https://github.com/samomatik/blogger) - [View in Browser](https://ancient-hamlet-11554.herokuapp.com/) I0-I5
+* [CurmudJim's Solution](https://github.com/CurmudJim/blogger) - [View in Browser](https://jim-blogger.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
