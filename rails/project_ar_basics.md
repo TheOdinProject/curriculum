@@ -119,6 +119,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [theghall's solution](https://github.com/theghall/odin-micro-reddit.git)
+* [Jmooree30's solution](https://github.com/jmooree30/micro-reddit)
 * [Clayton Sweeten's solution](https://github.com/cjsweeten101/micro-reddit)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/micro-reddit)
 * [justinckim3's solution](https://github.com/justinckim3/micro_reddit)
@@ -193,6 +195,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Tom Westerhout's solution](https://github.com/TomWesterhout/micro-reddit)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-micro-reddit)
 * [Pat's solution](https://github.com/Pat878/micro-reddit)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/micro-reddit)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

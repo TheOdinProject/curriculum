@@ -13,6 +13,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Isil Donmez's solution](https://github.com/isildonmez/recursion/blob/master/fibonacci.rb)
 * [Ben Deltenre's solution](https://github.com/benjdelt/recursion)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/fibs.rb)
 * [Andrew's solution](https://github.com/andrewr224/Recursion)
@@ -134,6 +135,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [EMuchynski's solution](https://github.com/EMuchynski/fibonacci)
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
 * [anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/fibonacci.rb)
+* [Oliver Curting's solution with 2 line method](https://github.com/Curting/recursion_project/blob/master/fibonacci.rb)
 
 ### Project: Merge Sort
 
@@ -161,6 +163,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Isil Donmez's solution](https://github.com/isildonmez/recursion/blob/master/merge_sort.rb)
 * [Ben Deltenre's solution](https://github.com/benjdelt/recursion)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/merge_sort.rb)
 * [Andrew's solution](https://github.com/andrewr224/Recursion)
@@ -285,6 +288,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/mergesort.rb)
 * [Austin Norman's solution](https://github.com/austinnormancore/merge_sort/blob/master/merge_sort.rb)
 * [Anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/merge_sort.rb)
+* [Oliver Curting's solution](https://github.com/Curting/recursion_project/blob/master/merge_sort.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

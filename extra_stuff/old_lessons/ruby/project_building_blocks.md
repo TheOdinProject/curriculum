@@ -34,6 +34,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [barry505's Solution](https://github.com/barry505/ruby_programming/blob/master/caesar_cipher.rb)
 * [funwithcthulhu's Solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/caesar_cipher.rb)
 * [gregthepeg4's Solution](https://github.com/gregthepeg4/building_blocks)
 * [Dor Bar's solution](https://github.com/dor4231/Ruby_Projects/blob/master/ceaser_cipher.rb)
@@ -144,6 +145,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [Pedro Amaral's solution](https://github.com/lockemind/caeser_cipher/blob/master/caeser_cipher.rb)
 * [Tom Wu's Solution](https://github.com/canadatom/LearningRuby/blob/master/caesarcipher.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/caesar-cipher/blob/master/caesar_cipher.rb)
+* [Jitterboggle's solution](https://github.com/jitterboggle/caesar_cipher/blob/master/caesar_cipher.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/caesar_cipher.rb)
 * [AtActionParks's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/caesar-cipher/lib/caesar_cipher.rb)
@@ -315,6 +317,8 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/caesar_cipher.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/Ruby_Programming/caesar)
 * [Datagoil's solution](https://github.com/datagoil/caesar_cipher/blob/master/caeser_cipher.rb)
+* [Samitha's solution](https://github.com/samomatik/building_blocks/blob/master/caesar.rb)
+* [WilPoly's solution](https://github.com/wilPoly/ruby_programming/blob/master/basic_ruby/building_blocks/caesar_cipher.rb)
 
 ### Project 2: Stock Picker
 
@@ -432,6 +436,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/Ruby_Programming/blob/master/stock_picker.rb)
 * [Pedro Amaral's solution](https://github.com/lockemind/stock_picker/blob/master/stock_picker.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/stock_picker/blob/master/stock_picker.rb)
+* [Jitterboggle's solution](https://github.com/jitterboggle/stock_picker/blob/master/stock_picker.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/stock_picker.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/stock_picker.rb)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/stock-picker.rb)
@@ -599,6 +604,8 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/stock.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby_Programming/stocks.rb)
 * [datagoil's solution](https://github.com/datagoil/stock-picker)
+* [Samitha's solution](https://github.com/samomatik/building_blocks/blob/master/stock_picker.rb)
+* [WilPoly's solution](https://github.com/wilPoly/ruby_programming/blob/master/basic_ruby/building_blocks/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -727,6 +734,7 @@ Next, make sure your method can handle multiple words:
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/Ruby_Programming/blob/master/substrings.rb)
 * [Pedro Amaral's solution](https://github.com/lockemind/substrings/blob/master/substrings.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/substrings/blob/master/substrings.rb)
+* [Jitterboggle's solution](https://github.com/jitterboggle/substrings/blob/master/substrings.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/substrings.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/substrings.rb)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/substring.rb)
@@ -888,4 +896,5 @@ Next, make sure your method can handle multiple words:
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/substring.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby_Programming/substring.rb)
 * [datagoil's solution](https://github.com/datagoil/substrings-for-Odin)
-
+* [Samitha's solution](https://github.com/samomatik/building_blocks/blob/master/substrings.rb)
+* [WilPoly's solution](https://github.com/wilPoly/ruby_programming/blob/master/basic_ruby/building_blocks/substrings.rb)
