@@ -95,7 +95,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this list
 * [Bojana Karakacev's solution (Easy)](https://github.com/bojana12/google-homepage) - [View in browser](https://bojana12.github.io/google-homepage/)
-* [briannalnash's solution (Easy)] (https://github.com/briannalnash/google-homepage) | [View in browser] (https://briannalnash.github.io/google-homepage/)
+* [briannalnash's solution (Easy)](https://github.com/briannalnash/google-homepage) | [View in browser](https://briannalnash.github.io/google-homepage/)
 * [malleyne747's solution (Easy)](https://github.com/malleyne747/google-homepage) | [View in browser](https://malleyne747.github.io/google-homepage/)
 * [iamfranco's Solution (Easy)](https://github.com/iamfranco/the_odin_project/tree/master/google-homepage) - [view in browser](https://iamfranco.github.io/the_odin_project/google-homepage/index.html)
 * [Kasper's Solution (Easy)](https://github.com/KasperMin/google-page) - [view in browser](https://kaspermin.github.io/google-page/)
