@@ -1256,6 +1256,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Mark's Solution (Easy)](https://github.com/mark-wright/google-homepage/) - [View in browser](https://mark-wright.github.io/google-homepage/)
 * [Christene Bennett's Solution (Easy)](https://github.com/thechristene/google-homepage) - [View in browser](https://thechristene.github.io/google-homepage/)
 * [kwambugu solution(easy)](https://github.com/kwambugu/googl-homepage) -[view in browser](https://github.com/kwambugu/googl-homepage)
+* [paullyFIRE's solution(easy)](https://paullyfire.github.io/OdinSimpleGoogle/) - [View in browser](https://github.io/OdinSimpleGoogle/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
