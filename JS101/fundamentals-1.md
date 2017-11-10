@@ -136,13 +136,14 @@ You can think of variables simply as "storage containers" for data in your code.
 ### Numbers
 Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
 
-1. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) will get you started neatly. There's much more that you can do with numbers, but this is all you need at the moment.
+1. [This W3Schools lesson](https://www.w3schools.com/js/js_numbers.asp) followed by [this one](https://www.w3schools.com/js/js_arithmetic.asp), are a good introduction to what you can accomplish with numbers in JS 
+2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view. There's much more that you can do with numbers, but this is all you need at the moment.
 
 ### Strings
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A __string__ is simply a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic. 
-2. Go through [this lesson](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods) to learn a little bit more about what you can do with strings.
+2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a little bit more about what you can do with strings... be sure to do the exercises at the end!!
 
 > ## A little reminder: 
 > By this point, your head might be spinning because of the amount of information you've tried to cram in. That's OK! Don't let it get to you. You are never going to retain all of this info on the first go.  All of these elements are fundamental building blocks of the language, so as you learn you will definitely be encountering them all over and over again, and as you do, it will begin to stick. Our advice, for now, is to make sure you're actually coding along with the lessons as you read them (which will definitely help with retention) and just press on.  When we've gotten through this stuff we'll give you a chance to slow down and practice what you've learned.
@@ -150,7 +151,7 @@ Depending on what kind of work you're doing, you might end up working more with 
 ### Arrays
 Strings and numbers may be our building blocks but, as you can probably imagine, as your scripts get larger and more complex you're going to need a way to deal with large numbers of them.  Luckily, Javascript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
 
-1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays) is a great introduction and includes a couple of coding exercises for you. The exercises at the end of this lesson assume you know a little more than we've encountered at this point.  Feel free to give them a shot (they aren't *that* hard) but don't sweat it if you have a hard time.  You'll get practice in the lessons to follow.
+1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.  Once you've gotten a handle on arrays in general, check out [this article](https://www.w3schools.com/js/js_array_methods.asp) about some of the special methods you can use to manipulate arrays... Don't forget to do the exercises at the end of each lesson!  These fundamentals are something you'll use every day, so don't rush too much and miss out!
 
 ### Getting Help!
 We've learned a lot!  As we mentioned above, we don't expect that you will have retained all of this information on the first go through.  Your next step then is to _practice_.  The more you use this stuff, the better you'll retain it.  However, as you begin trying to write some code you'll almost definitely realize that you have forgotten something along the way.  Knowing where to look online is a pretty useful skill.  Take a few minutes to check out the following sites.  Get used to their layout and be ready to come right back to them when you discover you've lost something.

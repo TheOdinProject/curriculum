@@ -17,8 +17,9 @@ This basic information is another crucial building block in the foundation of yo
 
 Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that.
 
-1. Start with [this article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) that introduces the concept and provides several interesting examples of how you could use it in building websites.  
-2. [This article](http://javascript.info/ifelse) covers the same basic concept. \(read through it as a review!\) After reading try to tackle the 'Tasks' at the bottom of the page.
+1. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
+2. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it in building websites.  
+3. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) After reading try to tackle the 'Tasks' at the bottom of the page.
 
 > ## Quick Tip:
 >
