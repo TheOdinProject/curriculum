@@ -40,6 +40,7 @@ If you think about what's required to make a game like this work, it's all well 
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/snek) - [View in Browser](http://www.andyduss.com/snek) (Vanilla JS)
 * [Tamerlan1993's solution](https://github.com/Tamerlan1993/03.03.2017-JS-practise/tree/master/snake) - [View in browser](https://rawgit.com/Tamerlan1993/03.03.2017-JS-practise/master/snake/index.html)
 * [jlo4's solution](https://github.com/jlo4/snake-game) - [View in browser](https://rawgit.com/jlo4/snake-game/master/index.html)
 * [John Brock's solution](https://github.com/Khanthulhu/snakeGame) - [View in browser](https://khanthulhu.github.io/snakeGame/)
