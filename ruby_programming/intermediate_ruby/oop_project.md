@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Bianca Carvalho's solution](https://github.com/biancafc/ruby-projects/blob/master/oop-project1-tictactoe.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/tree/master/tic-tac-toe)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/Ruby/tictactoe)
 * [rublen's solution](https://github.com/rublen/Tic_Tac_Toe) - [repl.it version](https://repl.it/K8dH/12)
