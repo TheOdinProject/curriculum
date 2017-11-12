@@ -26,6 +26,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/data_structures_algorithms_project.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Isil Donmez's solution](https://github.com/isildonmez/data_structures_and_algorithms/blob/master/searching_binary_trees.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/bst.rb)
 * [Jmooree30's solution](https://github.com/jmooree30/Data-structures-and-algorithms-.git)
 * [Andrew's solution](https://github.com/andrewr224/Data-Structures)
@@ -163,6 +164,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Isil Donmez's solution](https://github.com/isildonmez/data_structures_and_algorithms/tree/master/knights_project)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/knight_joint.rb)
 * [Jmooree30's solution](https://github.com/jmooree30/Knights_Travels.git)
 * [Andrew's solution](https://github.com/andrewr224/Knight-s-Travails)
