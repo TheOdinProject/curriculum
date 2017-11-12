@@ -24,6 +24,7 @@ gem 'rack-attack'
 gem 'tether-rails' # dependency for bootstrap tooltips
 gem 'acts_as_votable'
 gem 'kramdown'
+gem 'nokogiri', '1.8.1'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.3'

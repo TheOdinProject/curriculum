@@ -185,7 +185,7 @@ GEM
     memory_profiler (0.9.8)
     method_source (0.8.2)
     mime-types (2.99.3)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.2)
     multi_json (1.12.1)
     multi_test (0.1.2)
@@ -193,8 +193,8 @@ GEM
     multipart-post (2.0.0)
     newrelic_rpm (3.18.1.330)
     nio4r (2.1.0)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     oauth2 (1.4.0)
       faraday (>= 0.8, < 0.13)
       jwt (~> 1.0)
@@ -396,6 +396,7 @@ DEPENDENCIES
   kramdown
   letter_opener (~> 1.4)
   newrelic_rpm (~> 3.17)
+  nokogiri (= 1.8.1)
   octokit (~> 4.6)
   omniauth-github (~> 1.1.2)
   omniauth-google-oauth2 (~> 0.5.1)
@@ -427,4 +428,4 @@ RUBY VERSION
    ruby 2.3.0p0
 
 BUNDLED WITH
-   1.14.6
+   1.16.0
