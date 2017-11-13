@@ -32,6 +32,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/youtube-video-page) - [Live](https://jonathanyiv.github.io/youtube-video-page/)
 * [holdercp's solution](https://github.com/holdercp/bluetube) - [Live](https://holdercp.github.io/bluetube/)
 * [Justine Cantado's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/yt) - [View in Browser](https://hannibalony.github.io/yt)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/youtube_page) - [View in Browser](https://yilmazgunalp.github.io/youtube_page/)
