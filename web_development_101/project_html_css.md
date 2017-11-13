@@ -1263,6 +1263,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Clifford Minks's solution (Easy)](https://github.com/xxerror500xx/TOP_google-homepage) | [View in browser](https://xxerror500xx.github.io/TOP_google-homepage/)
 * [Clifford Minks's solution (Hard)](https://github.com/xxerror500xx/TOP_google-homepage) | [View in browser](https://xxerror500xx.github.io/TOP_google-homepage/search_results.html)
 * [Scott Glover's solution (Easy)](https://github.com/scottglover/google-homepage) | [View in browser](https://scottglover.github.io/google-homepage/)
+* [Encolpius's solution (Easy)](https://github.com/Encolpius/google-homepage) | [View in browser](https://encolpius.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
