@@ -6,9 +6,20 @@ A brief summary about what this lesson is about and why the topics or concepts i
 
 what the student is expected to know or be able to do by the end of this lesson
 
-* Learning outcome 1
-* Learning outcome 2
-* Learning outcome 3
+<details>
+  <summary>Learning outcome 1</summary>
+  &nbsp;&nbsp;&nbsp;&nbsp;Solution to outcome 1
+</details>
+
+<details>
+  <summary>Learning outcome 2</summary>
+  &nbsp;&nbsp;&nbsp;&nbsp;Solution to outcome 2
+</details>
+
+<details>
+  <summary>Learning outcome 3</summary>
+  &nbsp;&nbsp;&nbsp;&nbsp;Solution to outcome 3
+</details>
 
 ### Main Body of Lesson
 
