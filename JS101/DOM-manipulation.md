@@ -12,7 +12,7 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 
 ### DOM - Document Object Model
 
-When working with HTML and JS, you'll often here mention of "the DOM". The DOM \(or Document Object Model\) is, on a high level, a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
+When working with HTML and JS, you'll often hear mention of "the DOM". The DOM \(or Document Object Model\) is, on a high level, a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
 
 
 ```javascript
@@ -28,7 +28,7 @@ In the above example, the `<div class="display"></div>` is a "child" of `<div id
 
 That's a basic DOM example. But the truth is, that's only accounting for HTML elements. When you're working with the DOM, you're dealing with all of the "nodes" of the webpage. What's the difference? "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".
 
-When your HTML and CSS code are rendered into a webpage the browser converts what you've written into a tree of these "Nodes" that contain everything they need \(html identifiers, styles, information about their parent and children nodes etc.\) and then paints them to the webpage.  Basically the main takeaway is that while you will mainly want to target the various `div`s `p`s and `h1`s that you've actually written into your html, you _do_ have access to some more information once the code has been rendered in a browser.
+When your HTML and CSS code are rendered into a webpage the browser converts what you've written into a tree of these "Nodes" that contain everything they need \(html identifiers, styles, information about their parent and children nodes etc.\) and then paints them to the webpage.  Basically the main takeaway is that while you will mainly want to target the various `div`s `p`s and `h1`s that you've actually written into your html, you _do_ have access to more information once the code has been rendered in a browser.
 
 ### Targetting Nodes with Selectors
 
@@ -80,7 +80,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 const div = document.createElement('div');
 ```
 
-\*_An important note is that, although you've create an element. It's not yet visible or attached to the DOM. It's just kind of floating around._
+\*_An important note is that, although you've created an element. It's not yet visible or attached to the DOM. It's just kind of floating around._
 
 #### Append Elements
 
@@ -93,7 +93,7 @@ const div = document.createElement('div');
 
 #### Altering Elements
 
-When you have a reference to an element, you can use that reference to alter the elements own properties. This provides allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
+When you have a reference to an element, you can use that reference to alter the elements own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
 ```JavaScript
 const div = document.createElement('div');                     
@@ -170,7 +170,7 @@ div.innerHTML = '<span>Hello World!</span>';
 ### Events
 
 
-Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keyboard, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.
+Events are how you make the magic happen on your pages. There are a lot of events for most situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keyboard, when you leave the page, when you shift focus to or away from input forms, and many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.
 
 We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use all 3 methods to achieve it and discuss.
 
@@ -235,7 +235,7 @@ buttons.forEach((button) => {
 });
 ```
 
-This works just fine, but an easier solution would be to utilize the "bubbling" mechanic of event propagation. Everytime a event fires, it potentially goes through 3 phases:
+This works just fine, but an easier solution would be to utilize the "bubbling" mechanic of event propagation. Everytime an event fires, it potentially goes through 3 phases:
 
 1. Capture Phase - the event checks all nodes along the branch from the window all the way down to the event.target checking for additional listeners. _This phase is turned off by default_.
 2. Target Phase - Checks event.target for an event listener.
