@@ -132,6 +132,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sophia Wu's solution](https://github.com/SophiaLWu/private-events) - [View in browser](https://quiet-forest-50554.herokuapp.com/)
 * [Eric Gonzalez solution](https://github.com/Twinpair/Eventor) - [View in browser](https://rails-eventor.herokuapp.com/)
 * [Tom Westerhout's solution](https://github.com/TomWesterhout/private_events) - [View in browser](https://private-events-170388.herokuapp.com/)
+* [at0micred's solution](https://github.com/amyjording/private-events)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
