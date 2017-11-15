@@ -1,5 +1,16 @@
 [View the Conversation](https://github.com/TheOdinProject/ruby_course/issues/7)
 
+## Goals for this course
+
+When a student finishes this course they should:
+* Know the basics of programming and how to solve problems programatically
+* Be competent with Ruby as a language and specific features to it ie enumerables
+* Have a exellent grasp of OOP and testing
+* Know about Files and serialisation and how to work with them
+* Know how to model software with OOP and know the best practices with general software and OOP design
+
+---
+
 ## Section: Programming Fundamentals
 
 * Lesson: Primitive Data Types
