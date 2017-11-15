@@ -10,7 +10,7 @@ To find out more about how you can contribute please read our [contributing guid
 
 
 # Maintainers for this Course
-* Andy Duss
-* Austin Mason
-* Kevin Mulhern
-* Leo Soaivan
+* [Andy Duss](https://gitter.im/mindovermiles262)
+* [Austin Mason](https://gitter.im/CouchofTomato)
+* [Kevin Mulhern](https://github.com/KevinMulhern)
+* [Leo Soaivan](https://gitter.im/leosoaivan)
