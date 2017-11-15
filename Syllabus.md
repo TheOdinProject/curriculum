@@ -10,6 +10,7 @@ When a student finishes this course they should:
 * Know how to model software with OOP and know the best practices with general software and OOP design
 
 ---
+# Propsed Syllabus
 
 ## Section: Programming Fundamentals
 
