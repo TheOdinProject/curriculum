@@ -61,7 +61,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/psychic-pancake) - [View in Browser](https://santoxxcc.github.io/psychic-pancake)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/pomodoro)
 * [wilPoly's solution](https://github.com/wilPoly/pomodoro) - [View in browser](https://wilpoly.github.io/pomodoro/)
-
+* [tonalmasher's solution](https://github.com/tonalmasher/pomodoro-project) - [View in browser](https://tonalmasher.github.io/pomodoro-project/)
 
 ### Next Steps
 
