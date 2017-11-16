@@ -29,6 +29,7 @@ Enough talk! Let's build!
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
+* [0zra's solution](https://github.com/0zra/pomodoro) - [View in Browser](https://0zra.github.io/pomodoro/)
 * [iamfranco's solution](https://github.com/iamfranco/the_odin_project/tree/master/pomodoro) - [View in Browser](https://iamfranco.github.io/the_odin_project/pomodoro/)
 * [danhofer & nsantiagoblair's solution](https://github.com/danhofer/pomodoro-pair) - [View in Browser](https://danhofer.github.io/pomodoro-pair/pomodoro.html)
 * [Alex and Kasper's Solution](https://github.com/alx4567/pomodoro) - [View in Browser](https://alx4567.github.io/pomodoro/)
