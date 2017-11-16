@@ -52,9 +52,9 @@ The very first steps of learning any programming language are destined to be a l
 </details>
 
 <details>
-  <summary>What is 'Loose typing' and what does it mean for your code?</summary>
+  <summary>What is 'Dynamic typing' and what does it mean for your code?</summary>
 
-  * Loose typing allows you to declare variables as you need them.
+  * Dynamic typing allows you to declare variables as you need them.
   * You may assign multiple types to the same variable
     * `let foo = 13;  // foo is a Number`
     * `foo = 'bar';   // foo is now a String`
