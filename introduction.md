@@ -6,23 +6,23 @@ The point here is, even if you don't want to be primarily a front-end developer,
 
 ### Prerequisites
 
-You do not need any previous programming or Javascript experience to follow this course because we are starting out at the very beginning.  That said, we are expecting that you have at least a little bit of experience with HTML and CSS because a large part of what Javascript can do involves it's interaction with those languages.
+You do not need any previous programming or Javascript experience to follow this course because we are starting out at the very beginning.  That said, we are expecting that you have at least a little bit of experience with HTML and CSS because a large part of what Javascript can do involves its interaction with those languages.
 
 ### The Path
 
 This course is set up as you might expect.  We start off with the basics of the language. If you already have some programming experience, this section will likely go pretty quickly for you, because in many ways Javascript is much like any other programming language.  We'd like to encourage you, however, not to skip or rush too quickly through this section. Javascript does have a few quirks that can trip you up if you aren't aware of them.
 
-After our overview of the basics of syntax we'll cover the basics of making your Javascript code interact with HTML and CSS so that you will be able to create impressive interactive websites with relative ease.
+After our overview of the basics of syntax, we'll cover the basics of making your Javascript code interact with HTML and CSS so that you will be able to create impressive interactive websites with relative ease.
 
 From there, we'll dive deep into the intricacies of the language, covering the topics that you'll need to understand to build fully functioning web-apps and, of course, do well in job interviews.  Javascript can certainly be a complicated and confusing language at times, but we've done our best to break it all down into easy-to-digest chunks, that come in the right sequence, and of course we've sprinkled in plenty of projects along the way to keep your GitHub profile or Résumé full.
 
 ### What we're _not_ covering (yet)
 
-Increasingly Javascript is becoming an ecosystem with many tools, libraries and frameworks that are used to either enhance it's capability, or make certain things easier, but with few exceptions they all rely on knowing plain Javascript. In _this_ course we will not be covering Javascript addons such as jQuery, React, Angular or anything like that.  There are a couple of tools that we will cover along the way, but we'll explain them and why we're using them when the time comes.
+Increasingly Javascript is becoming an ecosystem with many tools, libraries and frameworks that are used to either enhance it's capability, or make certain things easier, but with few exceptions they all rely on knowing vanilla Javascript. In _this_ course we will not be covering Javascript addons such as jQuery, React, Angular or anything like that.  There are a couple of tools that we will cover along the way, but we'll explain them and why we're using them when the time comes.
 
 ### ES6
 
-This course is intended to cover the most recent versions of Javascript, and as such we _will_ be talking about and using ES6.  If you don't know what that means, don't fret, we'll cover it soon enough.  For now, just be aware that Javascript is regularly evolving and receiving updates and that we will be setting you up to be able to use the latest versions of it.
+This course is intended to cover the most recent versions of Javascript, and as such we _will_ be talking about and using ES6.  If you don't know what that means, don't fret, we'll cover it soon enough.  For now, just be aware that Javascript is regularly evolving and receiving updates, and that we will be setting you up to use the latest versions of it.
 
 ### In each lesson:
 

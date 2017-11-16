@@ -1,9 +1,133 @@
 Let's dive deeper into the fundamentals of JavaScript.
 
 ### Points to Ponder
+<details>
+  <summary>Can you define the terms "operand", "unary" and "binary" in a Javascript context?</summary>
+    
+  * An operand is what operators are applied to. You can also call them arguments.
+    * `5 + 2 // 5 and 2 are operands`
+  * Unary operators have only one operand.
+  
+      let x = 1
+      x = -x // unary "-" reverses the sign
+      
+  * Binary operators have two operands.
+      
+      let x = 4, y = 2
+      (y - x) // 2, binary minus subtracts values
 
-1. Can you define the terms "operand", "unary" and "binary" in a Javascript context?
-2. \(expand me please!\)
+</details>
+<details>
+  <summary>How does the "binary +" affect string concatenation? How is the "unary +" used?</summary>
+  
+  * Binary + is used to concatenate strings. If one of the two operands is a string, then the other will be converted to a string too.
+    * `1 + '2' // 12`
+  * "Unary +" has the same effect as the Number() operator.     * `+true // 1`
+    * `+false // 0`
+</details>
+
+<details>
+  <summary>Why does the expression "let x = 2 * 2 + 1" calculate the numbers before assigning x?</summary>
+  
+  * The assignment operator has a lower precedence than multiplication and addition. 
+</details>
+
+<details>
+  <summary>How are remainders found in JavaScript?</summary>
+  
+  * Use the `%` modulo operator.
+    * `25 % 7 // 4`
+    * `25 % 5 // 0`
+</details>
+
+<details>
+  <summary>How are numbers exponentiated in JavaScript?</summary>
+  
+  * Use the `**` operator.
+    * `3 ** 2 // 9 (3*3)`
+    * `3 ** 3 // 27 (3*3*3)`
+</details>
+
+<details>
+  <summary>How are conditionals used in JavaScript?</summary>
+  
+  * Use if to specify a block of code to be executed, if a specified condition is true
+  * Use else to specify a block of code to be executed, if the same condition is false
+  * Use else if to specify a new condition to test, if the first condition is false
+  * Use switch to specify many alternative blocks of code to be executed
+  
+      if (condition) {
+      // block of code to run if condition is true
+      } else {
+      // block of code to run if condition is false
+      }
+      
+</details>
+
+<details>
+  <summary>How are for loops used in JavaScript?</summary>
+  
+  * A counter or initializer, which is initialized with a certain value — this is the starting point of the loop
+  * An exit-condition, which is the criteria under which the loop stops — usually the counter reaching a certain value.
+  * An iterator or final-expression, which generally increments the counter by a small amount on each successive loop, until it reaches the exit-condition. 
+  * A set of curly braces in which a block of code is run.
+  
+      for (initializer; exit-condition; final-expression) {
+      // code to run
+      }
+      
+</details>
+
+<details>
+  <summary>How are while loops used?</summary>
+  
+  * The initializer is set before the loop
+  * The loop runs _while_ the initializer hasn't reached the exit-condition
+  * The final-expression runs at the end of the code block, and brings the initializer closer to the exit-condition.
+  
+      initializer
+      while(exit-condition) {
+      //code to run
+      
+      final-expression
+      }
+      
+</details>
+
+<details>
+  <summary>What is a function and why is it necessary?</summary>
+  
+  * A function is a place to store a piece of code that does a single task inside a defined code block.
+  * This code can then be called anywhere by typing out a single command -- rather than retyping the same code multiple times.
+</details>
+
+<details>
+  <summary>What is the difference between a function and a method?</summary>
+  
+  * They are theoretically the same thing, but built-in browser-functions that are stored inside objects are called methods.
+</details>
+
+<details>
+  <summary>How are functions invoked?</summary>
+  
+  * By _calling_ the function name somewhere in the code followed by parentheses.
+</details>
+
+<details>
+  <summary>What is an anonymous function? How is it invoked?</summary>
+  
+  * Anonymous functions are functions with no name.
+  * They can be invoked a couple of different ways:
+    * As an event handler -- the function would run when a button is clicked for example.
+    * By assigning the function to a variable and calling the variable with parentheses.
+</details>
+
+<details>
+  <summary>What is the difference between global scope and local scope?</summary>
+  
+  * The top level scope outside of all your functions is the global scope. Values defined here are accessible throughout your code.
+  * Values defined within a function have local scope. They can only be accessed by that specific fuction.
+</details>
 
 ### Operators and Comparisons
 

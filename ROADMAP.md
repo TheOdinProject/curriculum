@@ -68,7 +68,7 @@ The following is a compilation of links, ideas and potential projects to complet
   - StockPicker: Quandl is great for beginners who want to use financial information.
 #### TDD in JS
 - We should not assume that students will have had any exposure to TDD at all because they could be doing the JS only track.
-- There are many Testing libraries out there, but I'm partial to `tape` so unless someone gives be a good reason to use something else (I'm open to it!!) that's what we'll go with.  I prefer `tape` for it's simplicity.
+- There are many Testing libraries out there, but I'm partial to `tape`, so unless someone gives me a good reason to use something else (I'm open to it!!) that's what we'll go with.  I prefer `tape` for it's simplicity.
 - Projects can be anything really... just focus on TDD.
 - I presume these lessons will need to be written by us.
 #### ES6
