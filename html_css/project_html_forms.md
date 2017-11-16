@@ -19,6 +19,7 @@ The page is very straightforward, so you should be able to clone it even if your
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/mint-signup-page) - [Live](https://jonathanyiv.github.io/mint-signup-page/)
 * [holdercp's solution](https://github.com/holdercp/spare-mint) - [Live](https://holdercp.github.io/spare-mint/)
 * [Justine's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/mint-form) - [View in browser](https://hannibalony.github.io/mint-form/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/html_form) - [View in browser](https://yilmazgunalp.github.io/html_form/)
