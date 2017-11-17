@@ -20,7 +20,7 @@ This short project will demonstrate how to use git to manage and archive your pr
 Here we will describe the basic git workflow that you will use with your projects, follow along with each of the steps.
 
 ### Create your repository on Github
-1. You should have created a github account in the [installations](http://www.theodinproject.com/web-development-101/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
+1. You should have created a github account in the [installations](https://www.theodinproject.com/courses/web-development-101/lessons/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
   <a href="http://imgur.com/kbMCvCK"><img class="tutorial-img" src="http://i.imgur.com/kbMCvCK.png" title="source: imgur.com" /></a>
