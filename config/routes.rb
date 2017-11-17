@@ -15,8 +15,6 @@ Rails.application.routes.draw do
   end
 
   get 'home' => 'static_pages#home'
-  get 'start_now' => 'static_pages#start_now'
-  get 'view_full' => 'static_pages#view_full'
   get 'about' => 'static_pages#about'
   get 'faq' => 'static_pages#faq'
   get 'contributing' => 'static_pages#contributing'
