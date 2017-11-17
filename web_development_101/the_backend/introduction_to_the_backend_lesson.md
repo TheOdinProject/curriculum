@@ -6,7 +6,7 @@ That said, some languages are more popular and practical than others.  If you're
 
 Some of the most popular server-side languages are PHP, ASP.NET, Ruby, Python and Java (not to be confused with Javascript).  And just like I can say "which way to the nearest pub?" in Swedish, French, Italian, English and Bad English, all of those languages can perform almost exactly the same functions, just using different syntaxes.
 
-As we covered back in the [Installations Project](/web-development-101/installations), the front end languages live in the browser so there's no extra installations required.  For the reasons listed above, the back end languages do require you to install them on your computer in order to get them running.  This should have already been done in that project, so we'll just make sure that you have them properly installed.
+As we covered back in the [Installations Project](/courses/web-development-101/lessons/installations), the front end languages live in the browser so there's no extra installations required.  For the reasons listed above, the back end languages do require you to install them on your computer in order to get them running.  This should have already been done in that project, so we'll just make sure that you have them properly installed.
 
 ### Learning Outcomes
 
