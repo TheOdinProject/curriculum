@@ -317,6 +317,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/Ruby_Programming/caesar)
 * [Datagoil's solution](https://github.com/datagoil/caesar_cipher/blob/master/caeser_cipher.rb)
 * [xuansontrinh's solution](https://github.com/xuansontrinh/Beginning-With-Ruby/blob/master/caesar_cipher.rb)
+* [Justin Meredith's solution](https://github.com/jm4444/caesar_cipher/blob/master/caesar_cipher.rb)
 
 ### Project 2: Stock Picker
 
