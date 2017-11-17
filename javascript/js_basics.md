@@ -54,7 +54,7 @@ This is a fairly long list of things to pay attention to but it should be mostly
 ## Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* A straight-to-the-point [primer on Javascript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)
+* A straight-to-the-point [primer on Javascript from discovermeteor.com](http://www.discovermeteor.com/blog/javascript-for-meteor/)
 * [Javascript is Sexy](http://javascriptissexy.com/how-to-learn-javascript-properly/) is a blog that covers great technical depth on fundamental JS concepts.  We will use it often in the coming lessons.
 * [Javascript and jQuery: The Missing Manual](http://web-algarve.com/books/JS%20AJAX%20jquery%20&%20angular/JavaScript%20&%20jQuery-%20The%20Missing%20Manual,%203rd%20Edition.pdf) is a great book about JS.
 * [Best Javascript Books](http://www.tripwiremagazine.com/2012/11/best-javascript-jquery-books.html)
