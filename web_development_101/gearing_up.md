@@ -68,7 +68,6 @@ To learn more about the growth mindset use these resources:
 * [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
 * [Grit](https://www.ted.com/talks/angela_lee_duckworth_the_key_to_success_grit)
 * [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
-* [Start Here - The Motivation Episode and Becoming a Programming Super Learner](http://starthere.fm/webdev/23-the-motivation-episode-and-becoming-a-programming-super-learner)
 
 ### The Best Ways To Learn
 Odin's curriculum has two fundamental aspects: lessons and projects.
