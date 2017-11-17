@@ -48,13 +48,13 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
   
 </details>
 
-<detials>
+<details>
   <summary>What is the difference between a "nodelist" and an "array of nodes"?</summary>
   
   * A "nodelist" looks like an array, but it is missing several methods that come with an Array.
   * A solution to this problem is to use the spread operator or Array.from() to convert a nodelist into an array.
   
-</detials>
+</details>
 
 <details>
   <summary>How do "events" and "listeners" work? What are three ways to use events in your code?</summary>
@@ -75,7 +75,9 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 var btn = document.querySelector('#btn');
 btn.onclick = (e) => alert(e.target.tagName);
 ```
+    
     * By attaching event listeners to the nodes in your JavaScript.
+    
 
 ```JavaScript
 // the html file
