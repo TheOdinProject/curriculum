@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+*[James's solution (Easy)](https://github.com/jforster78/google-homepage) - [View in browser](https://jforster78.github.io/google-homepage/)
 * [Dylan's solution (Easy)](https://github.com/dylanhamada/google-homepage) - [View in browser](https://dylanhamada.github.io/google-homepage/)
 * [Alex's solution (Easy)](https://github.com/dracken2332/google-homepage) - [View in browser](https://dracken2332.github.io/google-homepage/)
 * [Bojana Karakacev's solution (Easy)](https://github.com/bojana12/google-homepage) - [View in browser](https://bojana12.github.io/google-homepage/)
@@ -1262,6 +1263,11 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Clifford Minks's solution (Easy)](https://github.com/xxerror500xx/TOP_google-homepage) | [View in browser](https://xxerror500xx.github.io/TOP_google-homepage/)
 * [Clifford Minks's solution (Hard)](https://github.com/xxerror500xx/TOP_google-homepage) | [View in browser](https://xxerror500xx.github.io/TOP_google-homepage/search_results.html)
 * [Scott Glover's solution (Easy)](https://github.com/scottglover/google-homepage) | [View in browser](https://scottglover.github.io/google-homepage/)
+* [Lucas Bicudo's solution (Easy)](https://github.com/lucbic/google-homepage) - [View in browser](https://lucbic.github.io/google-homepage/)
+* [Encolpius's solution (Easy)](https://github.com/Encolpius/google-homepage) | [View in browser](https://encolpius.github.io/google-homepage/)
+* [Encolpius's solution (Difficult)](https://github.com/Encolpius/google-search-results) | [View in browser](https://encolpius.github.io/google-search-results/)
+* [Nightcaper's solution (Easy)](https://github.com/Nightcaper/google-homepage) - [View in browser](https://nightcaper.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

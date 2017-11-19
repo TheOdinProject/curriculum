@@ -28,11 +28,11 @@ For more details, Udacity has a great blog post on it: [3 Web Dev Careers Decode
 
 ### Types of Careers
 
-Now that you about the different types of web developers, let's cover what we mentioned earlier about the different types of clients/employers you may work with.
+Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients/employers you may work with.
 
 There are large tech companies like Google, Facebook, Amazon, etc. They have very high hiring requirements but they offer excellent pay, benefits, and opportunities.
 
-There are startups that are a bit like the wild west, for a junior developer it can feel like a trial of fire due to the pace of development. They often offer slightly lower salaries, longer hours, but equity upside and highly unique environments.
+There are startups that are a bit like the wild west, for a junior developer it can feel like a trial by fire due to the pace of development. They often offer slightly lower salaries, longer hours, but equity upside and highly unique environments.
 
 As a freelancer, you could command a strong hourly wage and the freedom to schedule and design your own products. However, you would be responsible for getting your own work (which is less coding time), managing billing from clients (who can be difficult), and being solely responsible. Strong people skills are necessary.
 
@@ -41,7 +41,7 @@ There are also older big companies who still need web developers. They will also
 
 ### Tools of the Trade
 
-These are some of the basics tools you will use regularly. You may not know what they are know, but you most certainly will going forward.
+These are some of the basic tools you will use regularly. You may not know what they are know, but you most certainly will going forward.
 
 * **Computer**
 * **Google**

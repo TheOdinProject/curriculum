@@ -36,6 +36,8 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Clifford Minks's solutions 1, 2, and 3](https://github.com/xxerror500xx/TOP_euler-solutions) | [View in browser](https://xxerror500xx.github.io/TOP_euler-solutions/index.html)
+* [Nate Dimock's Solution for Problems 1 & 2](https://github.com/Flakari/project-euler)
 * [iamfranco's Solution for problem 1](https://github.com/iamfranco/the_odin_project/tree/master/euler35) - [View in browser](https://iamfranco.github.io/the_odin_project/euler35/index.html)
 * [Alfredo's Solution for problem 1](https://github.com/alfasf/Javascript-Basics-the-Odin-Project)
 * [Mohammed Mahdi's solution to problems 1-2](https://github.com/Mada-Craiz/project-euler)
@@ -533,7 +535,7 @@ Submit a link to the github repo with your files in it here with a pull request.
 * [Arunava's Solution](https://repl.it/Izpi/1)
 * [Sheldon K's Solution](https://github.com/Leviax7/ProjectEuler1) - [View in Browser](https://leviax7.github.io/ProjectEuler1/)
 * [Mayank Patel's Solution](https://github.com/maknahar/maknahar.github.io/tree/master/op/euler) - [View in Browser](https://maknahar.github.io/op/euler/)
-* [Daniel T's Solution](https://github.com/dnyy/Project-Euler) - [View in Browser] (https://dnyy.github.io/Project-Euler/)
+* [Daniel T's Solution](https://github.com/dnyy/Project-Euler) - [View in Browser](https://dnyy.github.io/Project-Euler/)
 * [Brandon B's Solution to Problem 1](https://github.com/bmbost/projecteuler/tree/master/prob1) / [View in Browser](https://bmbost.github.io/projecteuler/prob1/)
 * [Alex's solutions to problems 1 & 2](https://github.com/alexcorremans/euler-JS)
 * [Joey Robertson's Solution to 1, 2, & 3](https://github.com/JoeyRobertson/js_euler/)
