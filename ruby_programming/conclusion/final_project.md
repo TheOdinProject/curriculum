@@ -82,6 +82,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/chess_game)
 * [Bruno Parga's solution](https://github.com/brunoparga/chess)
 * [Kusnierewicz solution](https://github.com/Kusnierewicz/Chess-game)
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Chess)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
