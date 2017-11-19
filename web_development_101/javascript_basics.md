@@ -36,6 +36,7 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Clifford Minks's solutions 1, 2, and 3](https://github.com/xxerror500xx/TOP_euler-solutions) | [View in browser](https://xxerror500xx.github.io/TOP_euler-solutions/index.html)
 * [Nate Dimock's Solution for Problems 1 & 2](https://github.com/Flakari/project-euler)
 * [iamfranco's Solution for problem 1](https://github.com/iamfranco/the_odin_project/tree/master/euler35) - [View in browser](https://iamfranco.github.io/the_odin_project/euler35/index.html)
 * [Alfredo's Solution for problem 1](https://github.com/alfasf/Javascript-Basics-the-Odin-Project)
