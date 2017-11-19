@@ -1266,6 +1266,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Lucas Bicudo's solution (Easy)](https://github.com/lucbic/google-homepage) - [View in browser](https://lucbic.github.io/google-homepage/)
 * [Encolpius's solution (Easy)](https://github.com/Encolpius/google-homepage) | [View in browser](https://encolpius.github.io/google-homepage/)
 * [Encolpius's solution (Difficult)](https://github.com/Encolpius/google-search-results) | [View in browser](https://encolpius.github.io/google-search-results/)
+* [Nightcaper's solution (Easy)](https://github.com/Nightcaper/google-homepage) - [View in browser](https://nightcaper.github.io/google-homepage/)
 
 
 ### Additional Resources
