@@ -29,9 +29,18 @@ The very first steps of learning any programming language are destined to be a l
     Name all 3 ways to declare a variable in Javascript and when would you want to use each one?
   </summary>
 
-  * `let` - Used to declare most variables.
-  * `const` - Used to declare an unchanging (constant) variable.
+  * `let` - Used to declare variables that you expect to change.
+  * `const` - Used to declare a variable that you expect not to change (like constants).
   * `var` - Has genereally been replaced by the other two.  Common to see in older code.
+</details>
+
+<details>
+  <summary>What is scope, and how does it affect your variables?</summary>
+
+  * Scope determines where your variable is accesible to the program.  
+  * There are two kinds of scope:
+    * `var` variables have Function scope
+    * `let` and `const` variables have Block scope 
 </details>
 
 <details>
