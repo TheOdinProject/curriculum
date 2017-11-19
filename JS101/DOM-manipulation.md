@@ -93,7 +93,7 @@ const div = document.createElement('div');
 
 #### Altering Elements
 
-When you have a reference to an element, you can use that reference to alter the elements own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
+When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
 ```JavaScript
 const div = document.createElement('div');                     
