@@ -19,7 +19,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
-* [mindovermiles262's Solution](https://github.com/mindovermiles262/luigis_restaurant) - [View in Browser](http://andyduss.com/luigis_restaurant/) (Vanilla JS)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/luigis_restaurant) - [View in Browser](https://mindovermiles262.github.io/luigis_restaurant/) (Vanilla JS)
 * [Tamerlan1993's solution](https://github.com/Tamerlan1993/10.02.2017/tree/master) - [View in browser](https://rawgit.com/Tamerlan1993/10.02.2017/master/index.html)
 * [Flint Mayers' solution](https://github.com/FlintMayers/odin-jquery-dom-manipulation) - [View in browser](https://flintmayers.github.io/odin-jquery-dom-manipulation/)
 * [Rhys B's solution](https://github.com/105ron/js-restaurant) - [View in browser](https://105ron.github.io/js-restaurant/)
