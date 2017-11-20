@@ -10,11 +10,9 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 * simonSays
 * palindromes
 * snakeCase
-* bookTitles
 * caesar
 * fibonacci
 * pigLatin
-* timer
 
 ### Want MORE practice?
 
