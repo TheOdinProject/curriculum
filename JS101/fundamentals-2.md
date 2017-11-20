@@ -1,4 +1,4 @@
-Let's dive deeper into the fundamentals of JavaScript.
+Let's dive deeper into the fundamentals of JavaScript. After you complete this lesson you will have time to practice all the bits and pieces you are learning, but as we go please be sure to do the exercises and code-alongs that you can find in the various articles and tutorials we're directing you to!  You will learn much more by _doing_ rather than simply reading.
 
 ### Points to Ponder
 <details>
@@ -113,14 +113,7 @@ Let's dive deeper into the fundamentals of JavaScript.
   * By _calling_ the function name somewhere in the code followed by parentheses.
 </details>
 
-<details>
-  <summary>What is an anonymous function? How is it invoked?</summary>
-  
-  * Anonymous functions are functions with no name.
-  * They can be invoked a couple of different ways:
-    * As an event handler -- the function would run when a button is clicked for example.
-    * By assigning the function to a variable and calling the variable with parentheses.
-</details>
+
 
 <details>
   <summary>What is the difference between global scope and local scope?</summary>

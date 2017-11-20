@@ -16,7 +16,7 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 
 ### Want MORE practice?
 
-You really can't spend too much time reviewing and practicing the fundamentals that we've covered here and luckily for you there are several websites that offer just this type of thing.  Take a minute to check out the following links.
+You really can't spend too much time reviewing and practicing the fundamentals that we've covered here and luckily for you there are several websites that offer just this type of thing. Seriously, the better you grasp and the more fluently you can use the fundamental building blocks of JavaScript, the easier the hard stuff is going to come to you when we get to it.  Take a minute to check out the following links.
 
 * [Exercism](http://exercism.io/) - an Odin favorite.  Uses a neat command-line interface to download and submit exercises and allows you to give and get feedback on your solutions.
 * [CodeWars](https://www.codewars.com/) - A neat gamified system with leveled exercises.  As you complete more exercises you level up and access more difficult ones.
