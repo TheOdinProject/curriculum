@@ -40,6 +40,10 @@ $back-color: #dddddd;
     position: absolute;
     top: 2px;
     left: 2px;
+    @media (max-width: 991px){
+      top: -8px;
+      left: -8px;
+    }
   }
 
   &__content {
