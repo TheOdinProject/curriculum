@@ -6,7 +6,7 @@ Test Driven Development \(TDD\) is a phrase you hear thrown around quite a lot i
 
 In many ways TDD is much more productive than writing code without tests.  If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a simple `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: \(`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`\)
 
-For the moment we are not going to teach you how to write these tests, because it can be a bit of an art itself.  The following exercises have the tests already written out for you, all you have to do is read the specs and write the code that makes them pass!  The very first exercise \(`01-helloWorld`\) is intentionally very simple and walks you through the process of running the tests and making them pass.
+For the moment we are not going to teach you how to write these tests, because it can be a bit of an art in and of itself.  The following exercises have the tests already written out for you. All you have to do is read the specs and write the code that makes them pass!  The very first exercise \(`01-helloWorld`\) is intentionally very simple and walks you through the process of running the tests and making them pass.
 
 ### Good Luck!
 

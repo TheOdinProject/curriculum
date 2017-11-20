@@ -142,8 +142,9 @@ This basic information is another crucial building block in the foundation of yo
 Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that.
 
 1. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
-2. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it in building websites.  
+2. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.  
 3. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) After reading try to tackle the 'Tasks' at the bottom of the page.
+4. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
 
 > ## Quick Tip:
 >
@@ -160,10 +161,10 @@ Computers don't get tired, and they're really _really_ fast!  For that reason th
 
 Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code.  That's the power of functions and they're used _constantly_ in JavaScript.
 
-1. [Another lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start.  Pay special attention to the sections on 'Function Scope'.  Scope is one item that commonly trips up both beginner and intermediate coders so it pays to spend some time with it up front.  
+1. [Another lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start.  Pay special attention to the sections on 'Function Scope'.  Scope is one topic that commonly trips up both beginner and intermediate coders so it pays to spend some time with it up front.  
 2. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).  
-3. Next, read [this one](http://javascript.info/function-basics) from Javascript.info.  We've mentioned this before, but Javascript has changed a bit over the years and functions have recently gotten some innovation.  This article covers one of the more useful newer abilities: 'default parameters'. \(and don't forget the 'tasks' at the end!!\)  
-4. Finally read [one more article](http://javascript.info/function-expressions-arrows) about functions in Javascript that will give you just a little more context.  Another relatively new feature in modern Javascript is the `arrow function`. Which is introduced in this article.  Arrow functions are useful, but not incredibly crucial so don't worry about them too much just yet.  We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.
+3. Next, read [this one](http://javascript.info/function-basics) from Javascript.info.  We've mentioned this before, but JavaScript has changed a bit over the years and functions have recently recieved some innovation.  This article covers one of the more useful new abilities: 'default parameters'. \(and don't forget the 'tasks' at the end!!\)  
+4. Finally, read [one more article](http://javascript.info/function-expressions-arrows) about functions in Javascript that will give you a little more context.  Another relatively new feature in modern JavaScript is the `arrow function`. Which is introduced in this article.  Arrow functions are useful, but not incredibly crucial so don't worry about them too much just yet.  We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.
 
 
 

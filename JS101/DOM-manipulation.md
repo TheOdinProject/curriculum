@@ -103,7 +103,8 @@ btn.addEventListener('click', (e) => {
 
 ### DOM - Document Object Model
 
-When working with HTML and JS, you'll often hear mention of "the DOM". The DOM \(or Document Object Model\) is, on a high level, a tree-like representation of the contents of a webpage or "document". More specifically, a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
+
+When working with HTML and JS, you'll often hear mention of "the DOM". The DOM \(or Document Object Model\) is, on a high level, a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
 
 
 ```javascript
@@ -261,7 +262,7 @@ div.innerHTML = '<span>Hello World!</span>';
 ### Events
 
 
-Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keyboard, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.
+Events are how you make the magic happen on your pages. There are a lot of events for most situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keyboard, when you leave the page, when you shift focus to or away from input forms, and many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.
 
 We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use all 3 methods to achieve it and discuss.
 

@@ -1,11 +1,11 @@
-The very first steps of learning any programming language are destined to be a little frustrating.  It's normal to feel lost and confused as you progress here, because no matter where you start in the material, there are definitely crucial elements of the language that you just have not been exposed to yet.  Having said that, we've _really_ tried to find the best materials to get you going as quickly and smoothly as possible. So embrace the cognitive dissonance, and let's go.
+The very first steps of learning any programming language are destined to be a little frustrating.  It's normal to feel lost and confused as you progress here, because no matter where you start in the material, there are crucial elements of the language that you have just not been exposed to yet.  Having said that, we've _really_ searched to find the best materials to get you going as quickly and smoothly as possible. So embrace the cognitive dissonance, and let's go.
 
 ### Points to Ponder
 
-> Use this section to quiz yourself.  If you know all these answers then you can comfortably skip, or at least skim through this lesson.  After the lesson, come on back here and read these again to make sure you haven't missed anything crucial.
+> Use this section to quiz yourself.  If you know all these answers then you can comfortably skip, or at least skim through this lesson.  After the lesson, come back here and read these again to make sure you haven't missed anything crucial.
 
 <details>
-  <summary>What are the 7 basic types in Javascript?</summary>
+  <summary>What are the 7 basic data types in Javascript?</summary>
 
   * Boolean
   * Null
@@ -17,7 +17,7 @@ The very first steps of learning any programming language are destined to be a l
 </details>
 
 <details>
-  <summary>What is a variable, and how do you declare one in Javascript?</summary>
+  <summary>What is a variable? How do you declare one in Javascript?</summary>
 
   * A variable is a "storage container" for data.  
   * You can declare a variable in Javascript by using the `=` (single equals) sign:
@@ -26,7 +26,7 @@ The very first steps of learning any programming language are destined to be a l
 
 <details>
   <summary>
-    Name all 3 ways to declare a variable in Javascript and when would you want to use each one?
+    Name the 3 ways to declare a variable in Javascript. When would you want to use each one?
   </summary>
 
   * `let` - Used to declare most variables.
@@ -62,9 +62,9 @@ The very first steps of learning any programming language are destined to be a l
 </details>
 
 <details>
-  <summary>How can you do math in Javascript?</summary>
+  <summary>How can you do math in JavaScript?</summary>
 
-  * Math can be done in Javascript by using operators, the basics being:
+  * Math can be done in JavaScript by using operators, the basics being:
     * Addition: `6 + 9` equals `15`
     * Subtraction: `20 - 5` equals `15`
     * Multiplication: `3 * 4` equals `12`
@@ -120,14 +120,15 @@ The very first steps of learning any programming language are destined to be a l
 
 ### Step One
 
-1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash) throws you into the deep end 🔥. The point of it is to give you a good feel of what you're going to be able to do with your Javascript skills, and how to think about breaking down a problem.  You'll also get a good idea for what your code is going to end up looking like. You will not, however, really learn a lot here because most of it will be over your head at this point.  Don't sweat it.  It's _just fine_ if you don't really understand what you're doing just yet.  You'll get there.
+1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash) throws you into the deep end 🔥. The point of it is to give you a good feel of what you're going to be able to do with your JavaScript skills, and how to think about breaking down a problem.  You'll also get a good idea for what your code is going to end up looking like. You will not, however really learn a lot here because most of it will be over your head at this point.  Don't sweat it.  It's _just fine_ if you don't really understand what you're doing just yet.  You'll get there.
 
 ### Variables
-You can think of variables simply as "storage containers" for data in your code.  Until recently there was only one way to declare and use a variable in Javascript (the `var` keyword), but the latest versions of Javascript include 2 more keywords that can be used depending on the situation. The following resources will tell you what you need to know!
+You can think of variables simply as "storage containers" for data in your code.  Until recently there was only one way to declare and use a variable in Javascript (the `var` keyword) but the latest versions of JavaScript include 2 more keywords that can be used depending on the situation. The following resources will tell you what you need to know!
 
 1. Read through [this variable tutorial](http://javascript.info/variables) as well. It covers the other methods of variable creation.  __Be sure to do the Tasks__ at the end of this article!  Information won't stick without practice!
 2. There is one quirk that you should be aware of when it comes to declaring variables.  In many cases, you won't have to worry about this too much at all, but when it comes up it can definitely be a frustrating experience to debug if you don't already know about it.  Don't worry too much about it at this point, but read [this short article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting) about variable hoisting, and keep it in the back of your mind for now.
-3. At the risk of giving you too much information, [This article](http://wesbos.com/javascript-scoping/) explains the main difference between Javascript's old `var` syntax and the newer `let` and `const`.  You shouldn't be trying to internalize these small details yet because frankly, they're describing rules that you haven't encountered yet.
+3. At the risk of giving you too much information [This article](http://wesbos.com/javascript-scoping/) explains the main difference's between JavaScript's old `var` syntax, and the newer `let` and `const`.  You shouldn't be trying to internalize these small details yet because frankly, they're describing rules that you haven't encountered yet.
+
 
 ### Data types
 
@@ -136,24 +137,25 @@ You can think of variables simply as "storage containers" for data in your code.
 ### Numbers
 Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
 
-1. [This W3Schools lesson](https://www.w3schools.com/js/js_numbers.asp) followed by [this one](https://www.w3schools.com/js/js_arithmetic.asp), are a good introduction to what you can accomplish with numbers in JS 
+1. [This W3Schools lesson](https://www.w3schools.com/js/js_numbers.asp) followed by [this one](https://www.w3schools.com/js/js_arithmetic.asp), are good introductions to what you can accomplish with numbers in JS 
 2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view. There's much more that you can do with numbers, but this is all you need at the moment.
 
 ### Strings
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A __string__ is simply a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic. 
-2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a little bit more about what you can do with strings... be sure to do the exercises at the end!!
+2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a more about what you can do with strings... be sure to do the exercises at the end!!
 
 > ## A little reminder: 
-> By this point, your head might be spinning because of the amount of information you've tried to cram in. That's OK! Don't let it get to you. You are never going to retain all of this info on the first go.  All of these elements are fundamental building blocks of the language, so as you learn you will definitely be encountering them all over and over again, and as you do, it will begin to stick. Our advice, for now, is to make sure you're actually coding along with the lessons as you read them (which will definitely help with retention) and just press on.  When we've gotten through this stuff we'll give you a chance to slow down and practice what you've learned.
+> By this point, your head might be spinning because of the amount of information you've tried to cram in. That's OK! Don't let it get to you. You are never going to retain all of this info on the first go.  All of these elements are fundamental building blocks of the language, so as you learn you will be encountering them over and over again, and as you do, it will begin to stick. Our advice, for now, is to make sure you're actually coding along with the lessons as you read them (which will definitely help with retention) and just press on.  When we've gotten through this stuff we'll give you a chance to slow down and practice what you've learned.
 
 ### Arrays
-Strings and numbers may be our building blocks but, as you can probably imagine, as your scripts get larger and more complex you're going to need a way to deal with large numbers of them.  Luckily, Javascript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
+Strings and numbers may be our building blocks but, as you can probably imagine, as your scripts get larger and more complex you're going to need a way to deal with large numbers of them.  Luckily, JavaScript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
 
-1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.  Once you've gotten a handle on arrays in general, check out [this article](https://www.w3schools.com/js/js_array_methods.asp) about some of the special methods you can use to manipulate arrays... Don't forget to do the exercises at the end of each lesson!  These fundamentals are something you'll use every day, so don't rush too much and miss out!
+1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.  Once you have a handle on arrays in general, check out [this article](https://www.w3schools.com/js/js_array_methods.asp) about some of the special methods you can use to manipulate arrays... Don't forget to do the exercises at the end of each lesson!  These fundamentals are something you'll use every day, so don't rush too much and miss out!
 
 ### Getting Help!
+
 We've learned a lot!  As we mentioned above, we don't expect that you will have retained all of this information on the first go through.  Your next step then is to _practice_.  The more you use this stuff, the better you'll retain it.  However, as you begin trying to write some code, you'll almost definitely realize that you have forgotten something along the way.  Knowing where to look online is a pretty useful skill.  Take a few minutes to check out the following sites.  Get used to their layout and be ready to come right back to them when you discover you've lost something.
 
 1. [MDN](https://developer.mozilla.org/en-US/): this one should be familiar to you at this point...  it's the same site as most of the tutorials we've directed you to so far.  In addition to having great beginner tutorials, MDN also has very thorough and well-organized documentation that even the pros use from time to time.

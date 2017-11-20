@@ -73,7 +73,7 @@ Naming:
 
 * Decide on and stick to a naming convention. ie. camelCase or under\_scores, var forty\_two = 42, ...
 
-* In general functions DO things so use verbs to name them.  Variables ARE things so use nouns.  This rule can be flexible, but can make your code much easier to read if used consistently.
+* In general functions DO things. So use verbs to name them.  Variables ARE things. So use nouns.  This rule can be flexible, but can make your code much easier to read if used consistently.
 
 Syntax:
 
