@@ -1,4 +1,4 @@
-Knowing how to use the Developers Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running Javascript code, editing HTML and CSS Styles without having to refresh the page, or viewing performance data. They also save you lots of time. Getting started couldn't be any easier.
+Knowing how to use the Developers Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, or viewing performance data. They also save you lots of time. Getting started couldn't be any easier.
 
 ## Opening Dev Tools
 
@@ -15,7 +15,7 @@ There are three ways to open the Developer Tools menu:
 
 1. Watch [this video](https://www.youtube.com/watch?v=wcFnnxfA70g) by Jose Vidal on how to use the Developer Tools menu.
 2. Read over the [Chrome DevTools Documentation](https://developer.chrome.com/devtools) by Google. Pay particular attention to sections "Accessing the DevTools" through "Debugging Javascript" since this is what you'll use the Developer Tools for 95% of the time.
-3. Finally, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the Javascript Console.
+3. Finally, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
 
 These resoures should give you a pretty good starting point for understading how to use DevTools.  The more you use and understand the abilities of Dev Tools the easier your life as a developer becomes.
 
