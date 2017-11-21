@@ -1271,8 +1271,6 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Ehts2's sloution (Easy)](https://github.com/ehts2/googleHomepage) - [View in browser](https://ehts2.github.io/googleHomepage/)
 * [Dandala's solution (Easy)](https://github.com/Dandala88/google-search) - [View in browser](https://Dandala88.github.io/google-search/)
 
->>>>>>> fbc682a4a1a6c3f4336d3271a36c973b6383d5d8
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
