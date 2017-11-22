@@ -1,4 +1,6 @@
 class RegistrationsController < Devise::RegistrationsController
+  after_action :register_mailing_list, only: [:create]
+
   protected
 
   def after_sign_up_path_for(_resource)
@@ -15,6 +17,18 @@ class RegistrationsController < Devise::RegistrationsController
       resource.update_without_password(params)
     else
       resource.update_with_password(params)
+    end
+  end
+
+  private
+
+  def register_mailing_list
+    if resource.persisted? && ENV['MAILCHIMP_API_KEY']
+      MailchimpSubscription.create(
+        email: resource.email,
+        username: resource.username,
+        signup_date: resource.created_at
+      )
     end
   end
 end
