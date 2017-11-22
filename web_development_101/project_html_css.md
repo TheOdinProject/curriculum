@@ -93,7 +93,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 ### Student Solutions
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
-  Add your solution below this list
+* Add your solution below this list
 * [Boian Norbert's Solution {Responsive}(Easy)](https://github.com/NorbertBoian/GoogleHomepage) - [View in browser](https://norbertboian.github.io/GoogleHomepage/)
 * [James's solution (Easy)](https://github.com/jforster78/google-homepage) - [View in browser](https://jforster78.github.io/google-homepage/)
 * [Dylan's solution (Easy)](https://github.com/dylanhamada/google-homepage) - [View in browser](https://dylanhamada.github.io/google-homepage/)
