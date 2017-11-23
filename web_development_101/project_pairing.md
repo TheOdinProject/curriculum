@@ -47,7 +47,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Sample solution](https://github.com/ChadKreutzer/pomodoro_clock) - [View in Browser](http://romantic-trouble.surge.sh/)
 * [Ovsjah Schweinefresser](https://github.com/Ovsjah/pomodoro) -  [View in Browser](https://ovsjah.github.io/pomodoro/)
 * [Øistein Haugland's Solution](https://github.com/oisteinhaugland/pomodoro) -  [View in Browser](https://oisteinhaugland.github.io/pomodoro/)
-* [mindovermiles262's Solution](https://github.com/mindovermiles262/pomodoro) - [View in Browser](http://www.andyduss.com/pomodoro)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/pomodoro) - [View in Browser](https://mindovermiles262.github.io/pomodoro)
 * [maz's Solution](https://github.com/mmore21/pomodoro-clock) - [View in Browser](https://mmore21.github.io/pomodoro-clock/)
 * [Laura's Solution](https://github.com/BrigadierButternut/pomodoro_timer) - [View in Browser](https://htmlpreview.github.io/?https://github.com/BrigadierButternut/pomodoro_timer/blob/master/pomodoro.html)
 * [EMuchynski's Solution](https://github.com/EMuchynski/pomodoro) - [View in Browser](https://emuchynski.github.io/pomodoro/)

@@ -42,6 +42,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-findwaldo)
 * [David Chapman's solution](https://github.com/davidchappy/wheres-waldo) - [View in browser](https://dac-wheres-waldo.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) - [View in browser](https://frozen-stream-95035.herokuapp.com/)
+* [Austin's solution](https://github.com/CouchofTomato/wheres-wally) - [View in browser](https://couch-waldo.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something

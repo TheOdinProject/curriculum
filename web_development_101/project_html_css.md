@@ -94,7 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-*[James's solution (Easy)](https://github.com/jforster78/google-homepage) - [View in browser](https://jforster78.github.io/google-homepage/)
+* [Boian Norbert's Solution {Responsive}(Easy)](https://github.com/NorbertBoian/GoogleHomepage) - [View in browser](https://norbertboian.github.io/GoogleHomepage/)
+* [James's solution (Easy)](https://github.com/jforster78/google-homepage) - [View in browser](https://jforster78.github.io/google-homepage/)
 * [Dylan's solution (Easy)](https://github.com/dylanhamada/google-homepage) - [View in browser](https://dylanhamada.github.io/google-homepage/)
 * [Alex's solution (Easy)](https://github.com/dracken2332/google-homepage) - [View in browser](https://dracken2332.github.io/google-homepage/)
 * [Bojana Karakacev's solution (Easy)](https://github.com/bojana12/google-homepage) - [View in browser](https://bojana12.github.io/google-homepage/)
@@ -1267,8 +1268,14 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Encolpius's solution (Easy)](https://github.com/Encolpius/google-homepage) | [View in browser](https://encolpius.github.io/google-homepage/)
 * [Encolpius's solution (Difficult)](https://github.com/Encolpius/google-search-results) | [View in browser](https://encolpius.github.io/google-search-results/)
 * [Nightcaper's solution (Easy)](https://github.com/Nightcaper/google-homepage) - [View in browser](https://nightcaper.github.io/google-homepage/)
+<<<<<<< HEAD
 * [Getem Ratan's solution (Easy)] (https://github.com/getemratan/google-homepage) - [View in broswer] (https://getemratan.github.io/google-homepage/)
 
+=======
+* [BlueSmitty's solution (Easy)](https://github.com/BlueSmitty/google-homepage) - [View in browser](https://bluesmitty.github.io/google-homepage/)
+* [Ehts2's sloution (Easy)](https://github.com/ehts2/googleHomepage) - [View in browser](https://ehts2.github.io/googleHomepage/)
+* [Dandala's solution (Easy)](https://github.com/Dandala88/google-search) - [View in browser](https://Dandala88.github.io/google-search/)
+>>>>>>> d1800918ae1696a5c7acdfb013dd65c9d2bb8652
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
