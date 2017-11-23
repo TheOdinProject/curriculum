@@ -1268,14 +1268,10 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Encolpius's solution (Easy)](https://github.com/Encolpius/google-homepage) | [View in browser](https://encolpius.github.io/google-homepage/)
 * [Encolpius's solution (Difficult)](https://github.com/Encolpius/google-search-results) | [View in browser](https://encolpius.github.io/google-search-results/)
 * [Nightcaper's solution (Easy)](https://github.com/Nightcaper/google-homepage) - [View in browser](https://nightcaper.github.io/google-homepage/)
-<<<<<<< HEAD
-* [Getem Ratan's solution (Easy)] (https://github.com/getemratan/google-homepage) - [View in broswer] (https://getemratan.github.io/google-homepage/)
-
-=======
 * [BlueSmitty's solution (Easy)](https://github.com/BlueSmitty/google-homepage) - [View in browser](https://bluesmitty.github.io/google-homepage/)
 * [Ehts2's sloution (Easy)](https://github.com/ehts2/googleHomepage) - [View in browser](https://ehts2.github.io/googleHomepage/)
 * [Dandala's solution (Easy)](https://github.com/Dandala88/google-search) - [View in browser](https://Dandala88.github.io/google-search/)
->>>>>>> d1800918ae1696a5c7acdfb013dd65c9d2bb8652
+* [Getem Ratan's solution (Easy)] (https://github.com/getemratan/google-homepage) - [View in broswer] (https://getemratan.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
