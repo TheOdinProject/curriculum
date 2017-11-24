@@ -11,8 +11,7 @@ This lesson series is going to cover a few of the most common design patterns th
 The patterns we'll be covering in this series are:
 
 - Plain Old JavaScript Objects and Object Constructors
-- Factory Functions
-- Module Pattern
+- Factory Functions and the Module Pattern
 - Classes
 - ES6 Modules
 
