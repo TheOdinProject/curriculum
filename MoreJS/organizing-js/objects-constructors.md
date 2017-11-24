@@ -138,7 +138,7 @@ book.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 
 Add a function to the script (not the constructor) that can take user's input (through the command line, using prompt, or using an html form) and store book objects into an array.
 
-Your final function should look something like this:
+Your final program should look something like this:
 
 ```javascript
 let myLibrary = []
