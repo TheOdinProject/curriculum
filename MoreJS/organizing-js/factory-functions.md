@@ -188,6 +188,41 @@ Take a minute to look through this simplistic example and see if you can figure 
 
 What would happen here if we tried to call `jimmie.die()`?  What if we tried to manipulate the health: `jimmie.health -= 1000`?  Of course, those are things that we have NOT exposed publicly so we would get an error.  This is a very good thing!  Setting up objects like this makes it easier for us to use them because we've actually put some thought into how and when we are going to want to use the information.  In this case, we have jimmie's health hiding as a private variable inside of the object which means we need to export a function if we want to manipulate it.  In the long run this will make our code _much_ easier to reason about because all of the logic is encapsulated in an appropriate place.
 
+### Inheritance with Factories
+
+In the constructors lesson we looked fairly deeply into the concept of Prototypes and Inheritance, or giving our objects access to the methods and properties of another Object.  There are a few easy ways to accomplish this while using Factories.  Check this one out:
+
+```javascript
+const Person = (name) => {
+  const sayName = () => console.log(`my name is ${name}`)
+  return {sayName}
+}
+
+const Nerd = (name) => {
+  // simply create a person and pull out the sayName function!
+  const {sayName} = Person(name)
+  const doSomethingNerdy = () => console.log('nerd stuff')
+  return {sayName, doSomethingNerdy}
+}
+
+const jeff = Nerd('jeff')
+
+jeff.sayName() //my name is jeff
+jeff.doSomethingNerdy() // nerd stuff
+```
+
+This pattern is _great_ because it allows you to pick and choose which functions you want to include in your new object.   If you want to go ahead and lump ALL of another object in, you can certainly do that as well with `Object.assign` (read the docs for that one [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)).
+
+```javascript
+const Nerd = (name) => {
+  const prototype = Person(name)
+  const doSomethingNerdy = () => console.log('nerd stuff')
+  return Object.assign({}, prototype, {doSomethingNerdy})
+}
+```
+
+- Before moving on have a look at [this](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) article.  In the second half of the article the author goes into some things that we aren't really talking too much about here, but you'll be rewarded if you spend some time figuring out what he's talking about.  Good stuff!
+
 ## The Module Pattern
 
 > Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'.  These are essentially a syntax for importing and exporting code between different JavaScript files.  They're very powerful and we WILL be covering them later.  They are _not_, however, what we're talking about here.

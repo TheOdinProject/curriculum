@@ -24,7 +24,6 @@ This is a rough outline of the course.  Note that it _does_ include the lessons 
 - ES6
 - Scope/Closures/Objects/`this`
 - Call, Apply and Bind
-- OOP in JS => prototypal inheritance
 - Functional Programming Concepts
 
 ### Other Stuff
@@ -106,4 +105,4 @@ _JS DOES NOT HAVE CLASSES_.  This section is important.. crucial even.
 - This is a great article for express: https://zellwk.com/blog/crud-express-mongodb/
 
 ###  ...remainder is in progress 
-  
+
