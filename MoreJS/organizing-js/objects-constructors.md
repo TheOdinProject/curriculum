@@ -128,7 +128,7 @@ player2.sayName() // logs 'also steve'
 
 ### Exercise
 
-Write a prototype "Library" script for storing books.  Use an Object Constructor to create objects that have the book's `title`, `author`,  the number of `pages`, and whether or not you have `read` the book
+Write a "Library" script for storing books.  Use an Object Constructor to create objects that have the book's `title`, `author`,  the number of `pages`, and whether or not you have `read` the book
 
 Put a function into the constructor that can report the book info like so
 
