@@ -12,7 +12,7 @@
 * [Running JavaScript](JS101/running-javascript.md)
 * [Fundamentals 1](JS101/fundamentals-1.md)
 * [Fundamentals project 1](JS101/fundamentals-1-project.md)
-* [Clean code](JS101/code-structure.md)
+
 * [Fundamentals 2](JS101/fundamentals-2.md)
 * [Fundamentals project 2](JS101/fundamentals-2-project.md)
 * [JavaScript Dev Tools](JS101/javascript-dev-tools.md)
@@ -21,4 +21,6 @@
 * [Fundamentals 3](JS101/fundamentals-3.md)
 * [Fundamentals 3 Project](JS101/fundamentals-3-project.md)
 * [Final Project](JS101/final-project.md)
+
+
 

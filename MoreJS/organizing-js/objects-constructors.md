@@ -85,9 +85,9 @@ function gameOver(winningPlayer){
 }
 ```
 
-Or, what if we aren't making a 2 player game, but something much more complicated such as an online shopping site with a large inventory.  In that case I'm sure it's obvious that using objects to keep track of an item's name, price, description and other things is the way to go.
+Or, what if we aren't making a 2 player game, but something much more complicated such as an online shopping site with a large inventory?  In that case I'm sure it's obvious that using objects to keep track of an item's name, price, description and other things is the way to go.
 
-HOWEVER: To make that type of thing possible we're going to want a cleaner way to create our objects than simply typing every item into a template literal, which brings us to:
+HOWEVER: To make that type of thing possible we're going to want a cleaner way to create our objects than simply typing every item into an object literal, which brings us to:
 
 ## Object Constructors
 
