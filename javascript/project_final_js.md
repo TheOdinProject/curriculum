@@ -26,7 +26,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this line!
 * [Jack Wong's solution](https://github.com/iamjackslayer/odin-chat) - [View in browser](https://odin-chat.herokuapp.com)
-* [Axel's solution](https://github.com/afuh/pinstagram) - [View in browser](https://pinstagram-app.herokuapp.com/)
+* [Axel's solution](https://github.com/afuh/pinstagram) - [View in browser](http://pinstagram.axelfuhrmann.com)
 * [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") - [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
 * [David Chapman's solution](https://github.com/davidchappy/lesson-scheduler) - [View in browser](http://lesson-scheduler.herokuapp.com/)
 * [Eric Gonzalez solution](https://github.com/Twinpair/Acquaintion) - [View in browser (Twitter Clone)](https://acquaintion.herokuapp.com/)
