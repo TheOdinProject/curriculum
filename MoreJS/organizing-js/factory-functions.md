@@ -151,7 +151,79 @@ counter(); // 3
 
 In this example `counterCreator` initializes a local variable (`count`) and then returns a function.  To use that function we have to assign it to a variable (line 9).  Then, every time we run the function it `console.log`s `count` and increments it.  As above, the function `counter` is a closure.  It has access to the variable `count` and can both print and increment it, but there is no other way for our program to access that variable.
 
-In the context of Factory Functions, closures allow us to create __private__ variables and functions.  Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that your program is actually going to use.
+In the context of Factory Functions, closures allow us to create __private__ variables and functions.  Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that your program is actually going to use. Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public. 
 
-Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public. 
+## Back to Factory Functions
+
+Now that we've got the theory out of the way, let's return to factory functions.  Factories are simply plain old JavaScript functions that return objects for us to use in our code.  Using factories is a powerful way to organize and contain the code you're writing.  For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!)
+
+```javascript
+const Player = (name, level) => {
+  let health = level * 2;
+  const die = () => {
+    // uh oh
+  };
+  const damage = damage => {
+    health -= x;
+    if (health <= 0) {
+      die();
+    }
+  };
+  const attack = enemy => {
+    if (level < enemy.level) {
+      damage(1);
+    }
+    if (level > enemy.level) {
+      enemy.damage(1);
+    }
+  };
+  return {attack}
+};
+
+const jimmie = Player('jim', 1);
+jimmie.attack(badGuy);
+```
+
+Take a minute to look through this simplistic example and see if you can figure out what's going on.
+
+What would happen here if we tried to call `jimmie.die()`?  What if we tried to manipulate the health: `jimmie.health -= 1000`?  Of course, those are things that we have NOT exposed publicly so we would get an error.  This is a very good thing!  Setting up objects like this makes it easier for us to use them because we've actually put some thought into how and when we are going to want to use the information.  In this case, we have jimmie's health hiding as a private variable inside of the object which means we need to export a function if we want to manipulate it.  In the long run this will make our code _much_ easier to reason about because all of the logic is encapsulated in an appropriate place.
+
+## The Module Pattern
+
+> Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'.  These are essentially a syntax for importing and exporting code between different JavaScript files.  They're very powerful and we WILL be covering them later.  They are _not_, however, what we're talking about here.
+
+Modules are actually very similar to Factory functions.  The main difference is how they're created.
+
+Meet a module:
+
+```javascript
+const calculator = (() => {
+  const add = (a, b) => a + b;
+  const sub = (a, b) => a - b;
+  const mul = (a, b) => a * b;
+  const div = (a, b) => a / b;
+  return {
+    add,
+    sub,
+    mul,
+    div,
+  };
+})();
+
+calculator.add(3,5) // 8
+calculator.sub(6,2) // 4
+calculator.mul(14,5534) // 77476
+```
+
+ The concepts are exactly the same as the factory function, however instead of creating a factory that we can use over and over again to create multiple objects, the Module pattern wraps the factory in an IIFE (Immediately Invoked Function Expression).
+
+- Read up about IIFE's in [this article](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html). The concept is simple.. write a function, wrap it in parentheses and then immediately call the function by adding `()` to the end of it.
+
+In our calculator example, the function inside the IIFE is a simple factory function like we defined before, but we can just go ahead and assign the object to the variable `calculator` since we aren't going to need to be making lots of calculators, we only need one.  Just like the Factory example, we can have as many private functions and variables as we want, and they stay neatly organized, tucked away inside of our module, only exposing the functions we actually want to use in our program.
+
+A useful side-effect of encapsulating the inner-workings of our programs into objects is __namespacing__.  Namespacing is a technique that is used to avoid naming collisions in our programs.  For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, or a function that added numbers and operators to our stack as the users input them. It wouldn't be a great idea, but it is conceivable that we would want to add all 3 of these functions `add` which, of course, would cause trouble in our program.  If all of them were nicely encapsulated inside of an object then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
+
+# PROJECT
+
+Tic-tac-toe... it's time.
 
