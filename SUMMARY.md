@@ -30,8 +30,6 @@
 
 ## ASYNC
 
-* [MoreJS/promises-async.md](MoreJS/promises-async.md)
-* [MoreJS/APIs.md](MoreJS/APIs.md)
-
-
+* [Callbacks and Promises](MoreJS/promises-async.md)
+* [Using APIs](MoreJS/APIs.md)
 
