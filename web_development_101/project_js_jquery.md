@@ -736,3 +736,4 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [tonalmasher's solution](https://github.com/tonalmasher/sketch-grid) - [View in browser](https://tonalmasher.github.io/sketch-grid/#)
 * [nboaldin's solution](https://github.com/nboaldin/etch_a_sketch2/) - [View in browser](https://nboaldin.github.io/etch_a_sketch2/)
 * [mark's solution](https://github.com/mark-wright/DOM-manipulation/) - [View in browser](https://mark-wright.github.io/DOM-manipulation/)
+* [Joe Himes's solution](https://github.com/deedle42/sketch-pad)
