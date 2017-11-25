@@ -23,13 +23,15 @@
 
 ## ORGANIZING JS
 
-* [Introduction](MoreJS/organizing-js/organizing-introduction.md)
-* [Objects and Object Constructors](MoreJS/organizing-js/objects-constructors.md)
-* [Factories and Modules](MoreJS/organizing-js/factory-functions.md)
-* [Classes](MoreJS/organizing-js/classes.md)
+* [organizing-js/organizing-introduction.md](organizing-js/organizing-introduction.md)
+* [organizing-js/objects-constructors.md](organizing-js/objects-constructors.md)
+* [organizing-js/factory-functions.md](organizing-js/factory-functions.md)
+* [organizing-js/classes.md](organizing-js/classes.md)
 
 ## ASYNC
 
 * [Callbacks and Promises](MoreJS/promises-async.md)
 * [Using APIs](MoreJS/APIs.md)
+
+
 
