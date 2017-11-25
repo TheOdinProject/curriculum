@@ -128,7 +128,7 @@ player2.sayName() // logs 'also steve'
 
 ### Exercise
 
-Write a prototype "Library" script for storing books.  Use an Object Constructor to create objects that have the book's `title`, `author`,  the number of `pages`, and whether or not you have `read` the book
+Write a "Library" script for storing books.  Use an Object Constructor to create objects that have the book's `title`, `author`,  the number of `pages`, and whether or not you have `read` the book
 
 Put a function into the constructor that can report the book info like so
 
@@ -138,7 +138,7 @@ book.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 
 Add a function to the script (not the constructor) that can take user's input (through the command line, using prompt, or using an html form) and store book objects into an array.
 
-Your final function should look something like this:
+Your final program should look something like this:
 
 ```javascript
 let myLibrary = []
