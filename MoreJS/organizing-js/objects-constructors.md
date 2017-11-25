@@ -11,8 +11,8 @@ const myObject = {
   property: 'Value!',
   otherProperty: 77,
   "obnoxious property": function() {
-  		// do stuff!
-	}
+          // do stuff!
+    }
 }
 ```
 
@@ -36,7 +36,7 @@ myObject.variable // this gives us 'undefined' because it's literally looking fo
 myObject[variable] // 'Value!'
 ```
 
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in __Fundamentals 3__ from our JavaScript101 course.
+If you are feeling rusty on using objects, now might be a good time to go back and review the content in **Fundamentals 3** from our JavaScript101 course.
 
 ## Objects as a Design Pattern
 
@@ -124,8 +124,6 @@ player1.sayName() // logs 'steve'
 player2.sayName() // logs 'also steve'
 ```
 
-
-
 ### Exercise
 
 Write a "Library" script for storing books.  Use an Object Constructor to create objects that have the book's `title`, `author`,  the number of `pages`, and whether or not you have `read` the book
@@ -136,7 +134,7 @@ Put a function into the constructor that can report the book info like so
 book.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 ```
 
-Add a function to the script (not the constructor) that can take user's input (through the command line, using prompt, or using an html form) and store book objects into an array.
+Add a function to the script \(not the constructor\) that can take user's input \(through the command line, using prompt, or using an html form\) and store book objects into an array.
 
 Your final program should look something like this:
 
@@ -151,8 +149,6 @@ function addBookToLibrary() {
   // do stuff here
 }
 ```
-
-
 
 ## The Prototype
 
@@ -183,7 +179,7 @@ If you're using constructors to make your objects it is best to define functions
 
 ### Recommended Method for Prototypal Inheritance
 
-So far you have seen several ways of making an object inherit the prototype from another object.  At this point in history the recommended way of setting an Objects prototype uses `Object.create` (and [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method.)  `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add.  For our purposes you use it like so:
+So far you have seen several ways of making an object inherit the prototype from another object.  At this point in history the recommended way of setting an Objects prototype uses `Object.create` \(and [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method.\)  `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add.  For our purposes you use it like so:
 
 ```javascript
 function Student() {
@@ -213,7 +209,7 @@ A warning... this doesn't work:
 EighthGrader.prototype = Student.prototype
 ```
 
-because it will literally set EighthGrader's prototype to Student.prototype (i.e. not a copy), which could cause problems if you want to edit something in the future.  Consider one more example:
+because it will literally set EighthGrader's prototype to Student.prototype \(i.e. not a copy\), which could cause problems if you want to edit something in the future.  Consider one more example:
 
 ```javascript
 function Student() {
@@ -242,8 +238,6 @@ const carl = new EighthGrader("carl")
 carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ```
 
-
-
 # Project
 
 Let's go ahead and make that library application something usable!
@@ -255,8 +249,8 @@ Let's go ahead and make that library application something usable!
 5. Add a button on each book's display to remove the book from the library.
 6. add a button on each book's display to change it's `read` status.
 7. Optional -we haven't learned any techniques for actually storing our data anywhere, so when the user refreshes the page all of their books will disappear! If you want, you are capable of adding some persistence to this library app using one of the following techniques:
-   1. localStorage ([docs here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)) allows you to save data on the user's computer. The downside here is that the data is ONLY accessible on the computer that it was created on.  Even so, it's pretty handy!  Set up a function that saves the whole library array to localStorage every time a new book is created, and another function that looks for that array in localStorage when your app is first loaded. (make sure your app doesn't crash if the array isn't there!)
-   2. Firebase ([check it out!](https://firebase.google.com/docs/?authuser=0)) is an online database that can be set up relatively easily, allowing you to save your data to a server in the cloud!  Teaching you how to use it is beyond the scope of this tutorial, but it is almost definitely within your skillset.  If you're interested, check out [this video](https://www.youtube.com/watch?v=noB98K6A0TY) to see what it's all about.
+   1. localStorage \([docs here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)\) allows you to save data on the user's computer. The downside here is that the data is ONLY accessible on the computer that it was created on.  Even so, it's pretty handy!  Set up a function that saves the whole library array to localStorage every time a new book is created, and another function that looks for that array in localStorage when your app is first loaded. \(make sure your app doesn't crash if the array isn't there!\)
+   2. Firebase \([check it out!](https://firebase.google.com/docs/?authuser=0)\) is an online database that can be set up relatively easily, allowing you to save your data to a server in the cloud!  Teaching you how to use it is beyond the scope of this tutorial, but it is almost definitely within your skillset.  If you're interested, check out [this video](https://www.youtube.com/watch?v=noB98K6A0TY) to see what it's all about.
 
 
 
