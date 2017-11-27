@@ -20,6 +20,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* Isil Donmez's solutions: [Caesar's Cipher](https://github.com/isildonmez/Caesar-Cipher/blob/master/caesar_spec.rb), [Enumerable Methods](https://github.com/isildonmez/advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods_spec.rb), [Tic-Tac-Toe](https://github.com/isildonmez/OOP/blob/master/tic_tac_toe/tic_tac_toe_spec.rb)
 * Bruno Parga's solutions: [Caesar's Cipher](https://github.com/brunoparga/odinproject/tree/master/Ruby/caesar), [Enumerable Methods](https://github.com/brunoparga/odinproject/tree/master/Ruby/my_enums), [Tic-Tac-Toe](https://github.com/brunoparga/odinproject/tree/master/Ruby/tictactoe)
 * Ovsjah Schweinefresser's Solutions: [Caesar Cipher](https://github.com/Ovsjah/testing_ruby/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/Ovsjah/testing_ruby/tree/master/enumerable), [Tic-Tac-Toe](https://github.com/Ovsjah/testing_ruby/tree/master/tic_tac_toe)
 * Jonathan Yiv's Solutions: [Caesar Cipher](https://github.com/JonathanYiv/caesar_cipher), [Enumerable Methods](https://github.com/JonathanYiv/enumerable_methods), [Tic-Tac-Toe](https://github.com/JonathanYiv/tic-tac-toe/)
