@@ -37,58 +37,52 @@ The second one, however, is much easier to follow.  Even if you don't know exact
 
 There are many different opinions on what constitutes great JavaScript code.  The most important thing is just that you're consistent.  The war between coders that use tabs and coders that use spaces to indent their code is so engrained that [it's essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI), but it doesn't _really_ matter as long as you're consistent.
 
-### Rules of Thumb
+## Rules of Thumb
 
-Structural:
+1. Indentation: It doesn't _really_ matter what style of indentation you use.  Various JS style-guides recommend different options, and one is not really superior to the other.  What _is_ important, however, is consistency.  In our examples we will use 2 spaces for indentation.
 
-* Functions should only do ONE thing! Functions should rarely get to more than 10 lines.. and most functions should easily fit in 5-6 lines.  If your functions are regularly stretching longer than that then you should consider trying to break them down into smaller functions.
-* Within a single file - organize variables, functions, objects, etc ... in a way that makes sense so you don't have to rescan the whole file all the time.
+2. Semi-colons: Semi-colons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.  Just do it!
 
-* Keep your indentation consistent!  In general begin and end opening/closing tags, parentheses or brackets at the same indentation level:
+3. Line-length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should indent the second line __2__ levels, and should try to break immediately _after_ an operator or comma:
 
-```js
-// BAD
-function() {
-array.forEach(item => {
-console.log(item)
-})
-}
+   ```javascript
+   let reallyReallyLongLine = something + somethingElse + anotherThing +
+   		howManyTacos + oneMoreReallyLongThing;
+   ```
 
-//GOOD
-function() {
-  array.forEach(item => {
-    console.log(item)
-  })
-}
-```
+   ​
 
-Naming:
+4. Naming Things: Names for functions and variables should be descriptive.  Always use camelCase.  To keep things consistent and easy to read, variables should always begin with a noun and functions with a verb.  It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
 
-* All names of things describe what they do, even if it means having really long names.
+   ```javascript
+   // Good
+   const numberOfThings = 10
+   const myName = "Thor"
+   const selected = true
 
-  * `validateCreditCardNumber()` is _much_ easier to understand than `validateNumber()` or worse `validate()`
-  * this is infinitely easier if your functions actually only do one thing.
+   // Bad (these start with verbs, could be confused for functions)
+   const getCount = 10
+   const isSelected = true
 
-* Write helpful error messages
+   // Good
+   function getCount() {
+     return numberOfThings
+   }
 
-* Decide on and stick to a naming convention. ie. camelCase or under\_scores, var forty\_two = 42, ...
+   // Bad (it's a noun)
+   function myName() {
+     return "Thor"
+   }
+   ```
 
-* In general functions DO things. So use verbs to name them.  Variables ARE things. So use nouns.  This rule can be flexible, but can make your code much easier to read if used consistently.
+   ​
 
-Syntax:
-
-* Use [prettier.js](https://github.com/prettier/prettier) to make your coding style consistent. \(white space, code blocks, functions, ... visually consistent\). There are plugins for it in most major code editors.
-
-  * Phrase things in the most clear way, not the most 'elegant' or short way.  No one will care how brilliant you are when they're 15 minutes in and just starting to understand your code.
-
-# Your Assignment
+## Your Assignment
 
 Read through these articles that discuss a few elements of writing good clean code.
 
-1. [This article about self-documenting JavaScript](https://www.sitepoint.com/self-documenting-javascript/). \(It's not as crazy as it sounds\)  
-2. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
-3. [Functions should do ONE thing.](https://sites.google.com/site/unclebobconsultingllc/one-thing-extract-till-you-drop)
-4. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
+1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
+2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 
 ## Additional Resources
 
