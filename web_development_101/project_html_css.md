@@ -1274,6 +1274,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Neven's solution (Easy)](https://github.com/Nevix123/google_homepage) - [View in browser](https://nevix123.github.io/google_homepage/)
 * [Neven's solution (Difficult)](https://github.com/Nevix123/google_first_page) - [View in browser](https://nevix123.github.io/google_first_page/)
 * [Nazzal Ramzan's solution (Easy)](https://github.com/nazzalramzan/google-homepage) - [View in browser](https://nazzalramzan.github.io/google-homepage/)
+* [Chad Cuomo's solution (Easy)](https://github.com/chadcuomo/google-homepage) - [View in browser](https://chadcuomo.github.io/google-homepage/)
 
 
 ### Additional Resources
