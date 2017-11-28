@@ -43,6 +43,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Alex's solution](https://github.com/dracken2332/grid) - [View in browser](https://dracken2332.github.io/grid/)
 * [Manuel Alvarado's solution](https://github.com/ManuAlvarado22/pixel-sketch) - [View in browser](https://manualvarado22.github.io/pixel-sketch/)
 * [Nate Dimock's solution](https://github.com/Flakari/sketchpad) - [View in browser](https://flakari.github.io/sketchpad/)
 * [Dan Logajan's solution](https://github.com/hiltydiggs/pixel-sketch) - [View in browser](https://hiltydiggs.github.io/pixel-sketch/)
