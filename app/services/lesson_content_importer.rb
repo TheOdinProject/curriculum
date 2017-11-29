@@ -40,6 +40,6 @@ class LessonContentImporter
   end
 
   def repo
-    "mindovermiles262/#{lesson.repo}"
+    "theodinproject/#{lesson.repo}"
   end
 end
