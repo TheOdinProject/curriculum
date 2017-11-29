@@ -9,6 +9,7 @@ class LessonDecorator < ApplicationDecorator
   end
 
   def github_url
+    # Change lesson pull location in services/lesson_content_importer
     'https://github.com/TheOdinProject/curriculum/tree/master' + url
   end
 

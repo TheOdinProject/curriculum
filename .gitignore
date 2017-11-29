@@ -39,6 +39,9 @@
 # vim artifacts
 **.swp
 
+# VS Code artifacts
+/.vscode
+
 # Ignore application configuration
 /config/application.yml
 /config/database.yml
