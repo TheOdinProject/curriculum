@@ -31,14 +31,6 @@ RSpec.describe LessonDecorator do
     end
   end
 
-  describe '#github_url' do
-    let(:root) { 'https://github.com/TheOdinProject/curriculum/tree/master' }
-
-    it 'returns a url to the lesson on github' do
-      expect(lesson_decorator.github_url).to eql(root + lesson_url)
-    end
-  end
-
   describe '#next_lesson' do
     let(:find_lesson) { double('FindLesson', next_lesson: next_lesson) }
     let(:next_lesson) { double('Lesson') }

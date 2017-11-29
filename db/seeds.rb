@@ -661,6 +661,18 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
+  title: "Event Manager",
+  title_url: "Event Manager".parameterize,
+  description: "Learn File I/O while becoming civically active",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: true,
+  url: "/ruby_programming/intermediate_ruby/tutorial_event_manager.md",
+  repo: 'ruby_course'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
   title: "File I/O and Serialization",
   title_url: "File I/O and Serialization".parameterize,
   description: "You'll get a chance to scrub an existing dataset and then work with dictionaries by building Hangman.",
