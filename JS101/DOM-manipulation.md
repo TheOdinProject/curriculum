@@ -65,32 +65,32 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
       * `<button onclick="alert(this.tagName)">Click Me</button>`
     * By setting the "on_event_" property on the DOM object in your JavaScript.
      
-```JavaScript
-// the html file
-<button id="btn">Click Me</button>
-```
+        ```JavaScript
+        // the html file
+        <button id="btn">Click Me</button>
+        ```
 
-```JavaScript
-// the JavaScript file
-var btn = document.querySelector('#btn');
-btn.onclick = (e) => alert(e.target.tagName);
-```
+        ```JavaScript
+        // the JavaScript file
+        var btn = document.querySelector('#btn');
+        btn.onclick = (e) => alert(e.target.tagName);
+        ```
     
     * By attaching event listeners to the nodes in your JavaScript.
     
 
-```JavaScript
-// the html file
-<button id="btn">Click Me Too</button>
-```
+        ```JavaScript
+        // the html file
+        <button id="btn">Click Me Too</button>
+        ```
 
-```JavaScript
-// the JavaScript file
-var btn = document.querySelector('#btn');
-btn.addEventListener('click', (e) => {
-  alert(e.target.tagName);
-});
-```
+        ```JavaScript
+        // the JavaScript file
+        var btn = document.querySelector('#btn');
+        btn.addEventListener('click', (e) => {
+          alert(e.target.tagName);
+        });
+        ```
   
 </details>
 

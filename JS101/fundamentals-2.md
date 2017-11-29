@@ -7,14 +7,15 @@ Let's dive deeper into the fundamentals of JavaScript. After you complete this l
   * An operand is what operators are applied to. You can also call them arguments.
     * `5 + 2 // 5 and 2 are operands`
   * Unary operators have only one operand.
-  
+      ```
       let x = 1
       x = -x // unary "-" reverses the sign
-      
+      ```
   * Binary operators have two operands.
-      
+      ```
       let x = 4, y = 2
       (y - x) // 2, binary minus subtracts values
+      ```
 
 </details>
 <details>
@@ -55,13 +56,13 @@ Let's dive deeper into the fundamentals of JavaScript. After you complete this l
   * Use else to specify a block of code to be executed, if the same condition is false
   * Use else if to specify a new condition to test, if the first condition is false
   * Use switch to specify many alternative blocks of code to be executed
-  
+      ```
       if (condition) {
       // block of code to run if condition is true
       } else {
       // block of code to run if condition is false
       }
-      
+      ```
 </details>
 
 <details>
@@ -71,10 +72,11 @@ Let's dive deeper into the fundamentals of JavaScript. After you complete this l
   * An exit-condition, which is the criteria under which the loop stops — usually the counter reaching a certain value.
   * An iterator or final-expression, which generally increments the counter by a small amount on each successive loop, until it reaches the exit-condition. 
   * A set of curly braces in which a block of code is run.
-  
+      ```
       for (initializer; exit-condition; final-expression) {
       // code to run
       }
+      ```
       
 </details>
 
