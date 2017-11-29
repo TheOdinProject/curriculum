@@ -1,39 +1,35 @@
-#Fundamentals 3
+# Fundamentals 3
 
-##Arrays
+##  Functions
 
-Strings and numbers may be our building blocks but, as you can probably imagine, as your scripts get larger and more complex you're going to need a way to deal with large numbers of them.  Luckily, JavaScript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
+Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code.  That's the power of functions and they're used _constantly_ in JavaScript.
 
-1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.  
-2. [This article](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods.  These fundamentals are something you'll use every day, so don't rush too much and miss out!
+1. [Another lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start.  Pay special attention to the sections on 'Function Scope'.  Scope is one topic that commonly trips up both beginner and intermediate coders so it pays to spend some time with it up front.  
+2. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).  
+3. Next, read [this one](http://javascript.info/function-basics) from Javascript.info.  We've mentioned this before, but JavaScript has changed a bit over the years and functions have recently recieved some innovation.  This article covers one of the more useful new abilities: 'default parameters'. \(and don't forget the 'tasks' at the end!!\)  
+4. Finally, read [one more article](http://javascript.info/function-expressions-arrows) about functions in Javascript that will give you a little more context.  Another relatively new feature in modern JavaScript is the `arrow function`. Which is introduced in this article.  Arrow functions are useful, but not incredibly crucial so don't worry about them too much just yet.  We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.
 
-##Loops
+##    Practice
 
-Computers don't get tired, and they're really _really_ fast!  For that reason they are well suited to solving problems that involve doing calculations multiple times.  In some cases a computer will be able to repeat a task _thousands_ or even _millions_ of times in just a few short seconds where it might take a human many hours. \(obviously speed here depends on the complexity of the calculation and the speed of the computer itself\).  One way to make a computer do a repetitive task is using a **loop**
+Let's write some functions!  Write these in the `style` tag of a skeleton html file.  If you've forgotten how to set it up, review the instructions from __fundamentals 1__.
 
-1. Read this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code).  It's a longer one, but make sure you tackle the 'Active Learning' sections at the bottom of the page.  
-2. Once again, same info, slightly different context from [JavaScript.info](http://javascript.info/while-for) \(Skim the info if you think you know it all, but **don't forget the tasks at the end of the page**.  You learn best by _doing_\)
+For now just write each function and test the output with `console.log`.
 
-##Practice
+###   Warm up
 
-### Test Driven Development
+1. Write a function called `add7` that takes one number and returns that number + 7.
+2. Write a function called `multiply` that takes 2 numbers and returns their product.
+3. Write a function called `capitalize` that takes a string and returns that string with _only_ the first letter capitalized.  Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
+   1. `lastLetter("abcd")` should return `"d"`
 
-Test Driven Development \(TDD\) is a phrase you hear thrown around quite a lot in the dev world.  Basically it refers to the practice of writing automated tests that describe exactly how you want your code to work before you actually write that code.  For example, if you want to write a function that adds a couple of numbers, you would first write a test that uses the function and supplies the expected output.  Before you write your code the test will fail, and you should be able to know that your code works correctly when the tests pass.
+###   A simple game
 
-In many ways TDD is much more productive than writing code without tests.  If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a simple `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: \(`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`) If you didn't do TDD then you might actually have to play multiple games against yourself just to test if the function was working correctly!
-
-For the moment we are not going to teach you how to write these tests, because it can be a bit of an art in and of itself.  The following exercises have the tests already written out for you. All you have to do is read the specs and write the code that makes them pass!  The very first exercise \(`01-helloWorld`\) is intentionally very simple and walks you through the process of running the tests and making them pass.
-
-### Good Luck!
-
-Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the README for getting set up.
-
-Complete the following exercises:
-
-- helloWorld
-- repeatString
-- reverseString
-- removeFromArray
-- sumAll
-- leapYears
-- tempConversion
+1. Write a function that plays a single round of Rock Paper Scissors.  The function should take a string 'Rock', 'Paper' or 'Scissors', should randomly pick a choice for the computer and then return a string that declares the winner of the round like so: `"You Lose! Paper beats Rock"`
+   1. If the input is NOT an appropriate option, return a message that says `"Invalid input"`
+   2. make your function case insensitive (so users can input `rock`, `ROCK`, `RocK` or any other variation)
+2. Expand on the previous function by writing a NEW function called `game()`.  Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
+   1. At this point you should still just be using `console.log()` to display the results of each round and the winner at the end.
+   2. use `prompt()` to get input from the user. [Read the docs here if you need to.](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+   3. Feel free to re-work your previous function if you need to.  Specifically, you might want to change the return value to something more useful.
+   4. Feel free to create more "helper" functions if you think it would be useful.
