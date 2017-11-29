@@ -14,7 +14,7 @@ In the previous lesson, we established the utility of [test-driven development](
 
 #### What is RSpec, and why RSpec?
 
-At the most basic level, RSpec is a Ruby-written Domain Specific Language, or, for the rest of us, a language specialized for a particular task. In this case, the task is testing Ruby code. The `rspec` gem comes packaged with all you need to get started, including five gems: `rspec-core`, `rspec-expectations`, `rspec-mocks`, `rspec-rails`, and `rspec-support`.
+At the most basic level, RSpec is a Domain Specific Language written in Ruby, or, for the rest of us, a language specialized for a particular task. In this case, the task is testing Ruby code. The `rspec` gem comes packaged with all you need to get started, including five gems: `rspec-core`, `rspec-expectations`, `rspec-mocks`, `rspec-rails`, and `rspec-support`.
 
 At this point, you may be wondering, *Why RSpec? Surely, there are other frameworks out there*, and you'd be right. There are. In fact, at one point, Ruby came bundled with [Test::Unit]((https://github.com/test-unit/test-unit)) and later [Minitest](https://github.com/seattlerb/minitest) as part of its standard library, the latter of which lives on in Rails. If you tend to be pessimistic (I'm sorry, I meant *realistic*), then the [Wrong](https://github.com/sconover/wrong) testing framework might be your cup of tea. Or perhaps you're hungry and in the mood for something more substantial, in which case a side of [Bacon](https://github.com/chneukirchen/bacon) might be what you need. At the end of the day, it doesn't matter which framework you choose as long as you cultivate your testing skills.
 
@@ -57,7 +57,7 @@ As expected, the output will read:
   create   spec/spec_helper.rb
 ```
 
-Run the tests with `rspec`, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked...maybe take a short break, or come say hello to us in our [Ruby Gitter](https://gitter.im/TheOdinProject/Ruby) room.
+Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked...maybe take a short break, or come say hello to us in our [Ruby Gitter](https://gitter.im/TheOdinProject/Ruby) room.
 
 ```
 No examples found.
