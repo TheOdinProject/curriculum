@@ -2,19 +2,19 @@
 
 ## What's wrong with constructors
 
-As mentioned in the introduction there are _many_ ways of organizing your code.   Object constructors are but one way to do that!  They are fairly common in the wild and are a fundamental building block of the JavaScript language.
+Object constructors are one of about a million ways to start organizing your code.  They are fairly common in the wild and are a fundamental building block of the JavaScript language.
 
 _However..._
 
-There are many people who argue _against_ using constructors at all.  There are a few arguments that are made but it basically comes down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors.  [This](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) article does a pretty decent job of outlining the issues. (spoiler alert => the author ends up recommending Factory Functions)
+There are many people who argue _against_ using constructors at all.  Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors.  [This](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) article does a pretty decent job of outlining the issues. (spoiler alert: the author ends up recommending Factory Functions)
 
-One of the biggest issues with constructors is that while they _look_ just like regular functions, they do not behave like regular functions at all.  If you try to use a constructor function with out the `new` keyword, your program will not work as expected, but you won't find any obvious errors when you run the code either.
+One of the biggest issues with constructors is that while they _look_ just like regular functions, they do not behave like regular functions at all.  If you try to use a constructor function without the `new` keyword, your program will not work as expected, but it won't produce error messages that are easy to trace.
 
-The main take-away here is that while constructors aren't necessarily _evil_, but they aren't the only way and they may not be the best way either.  Of course this doesn't mean that time learning about them was wasted!  They are a common pattern in real-world code and many tutorials that you'll come across on the net.
+The main takeaway is that while constructors aren't necessarily _evil_, but they aren't the only way and they may not be the best way either.  Of course this doesn't mean that time learning about them was wasted!  They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
 ## Factory Function introduction
 
-The factory function pattern is very similar to the constructor pattern, but instead of using the `new` keyword to create an object, factory functions simply set up and return the new object when you call the function.  Check out this example.
+The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function.  Check out this example.
 
 ```javascript
 const personFactory = (name, age) => {
@@ -49,7 +49,7 @@ A quick note about line 3 from the factory function example.  In 2015 a handy ne
 return {name: name, age: age, sayHello: sayHello}
 ```
 
-Put simply, if you are creating an object where you are referring to a variable that has the exact same name as the object property you're creating you can condense it and leave out the repetition:
+Put simply, if you are creating an object where you are referring to a variable that has the exact same name as the object property you're creating you can condense it like so:
 
 ```javascript
 return {name, age, sayHello}
@@ -75,7 +75,7 @@ console.log({name, color, number, food})
 
 ## Scope and Closure
 
-From simply reading the above example you are probably already in pretty good shape to start using factory functions in your code, but before we get there it's time to do a somewhat deep dive into a very important concept in intermediate to advanced JavaScript code: __closure__.
+From simply reading the above example you are probably already in pretty good shape to start using factory functions in your code, but before we get there it's time to do a somewhat deep dive into an incredibly important concept: __closure__.
 
 Before we're able to make sense of closure we need to make sure you have a _really_ good grasp on __scope__ in JavaScript.  Scope is the term that refers to where things like variables and functions can be used in your code.  
 
@@ -93,7 +93,7 @@ func(99);
 console.log(a); // ???????
 ```
 
-Is it 17 or 99?  Do you know why?
+Is it 17 or 99?  Do you know why? Can you edit the code so that it prints the other value?
 
 The answer is 17, and the reason it's not 99 is that on line 4, the outer variable `a` is not redefined, rather a _new_ `a` is created inside the scope of that function.  In the end figuring out scope in most contexts is not all that complicated, but it is _crucial_ to understanding some of the more advanced concepts that are coming up soon, so take your time to understand what's going on in the following resources.
 
@@ -126,7 +126,7 @@ taco.capitalizeString(); // ERROR!!
 taco.printString(); // this prints "----TACO----"
 ```
 
-I'm guessing you can figure this one out on your own, but I'll explain.  Because of the concept of scope neither of the functions created inside of `FactoryFunction` can be accessed outside of the function itself, which is why lines 9 and 10 above fail.  The only way to use either of those functions is to `return` them in the object (see line 4), which is why we can call `taco.printString()` but _not_ `taco.capitalizeString()`.  The big deal here is that even though _we_ can't access the `capitalizeString()` function, `printString()` can.  That is closure.
+Because of the concept of scope neither of the functions created inside of `FactoryFunction` can be accessed outside of the function itself, which is why lines 9 and 10 above fail.  The only way to use either of those functions is to `return` them in the object (see line 4), which is why we can call `taco.printString()` but _not_ `taco.capitalizeString()`.  The big deal here is that even though _we_ can't access the `capitalizeString()` function, `printString()` can.  That is closure.
 
 The concept of closure is the idea that functions retain their scope even if they are passed around and called outside of that scope.  In this case `printString` has access to everything inside of `FactoryFunction`, even if it gets called outside of that function.
 
@@ -151,7 +151,9 @@ counter(); // 3
 
 In this example `counterCreator` initializes a local variable (`count`) and then returns a function.  To use that function we have to assign it to a variable (line 9).  Then, every time we run the function it `console.log`s `count` and increments it.  As above, the function `counter` is a closure.  It has access to the variable `count` and can both print and increment it, but there is no other way for our program to access that variable.
 
-In the context of Factory Functions, closures allow us to create __private__ variables and functions.  Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that your program is actually going to use. Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public. 
+In the context of Factory Functions, closures allow us to create __private__ variables and functions.  Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that the rest of the program is going to use. Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public. 
+
+The concept of private functions is very useful and should be used as often as is possible! For every bit of functionality that you need for your program, there are likely to be several supporting functions that do NOT need to be used in your program as a whole. Tucking these away and making them inaccessible makes your code easier to refactor, easier to test and easier to reason about for you and anyone else that wants to use your objects.
 
 ## Back to Factory Functions
 
@@ -256,7 +258,7 @@ calculator.mul(14,5534) // 77476
 
 In our calculator example, the function inside the IIFE is a simple factory function like we defined before, but we can just go ahead and assign the object to the variable `calculator` since we aren't going to need to be making lots of calculators, we only need one.  Just like the Factory example, we can have as many private functions and variables as we want, and they stay neatly organized, tucked away inside of our module, only exposing the functions we actually want to use in our program.
 
-A useful side-effect of encapsulating the inner-workings of our programs into objects is __namespacing__.  Namespacing is a technique that is used to avoid naming collisions in our programs.  For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, or a function that added numbers and operators to our stack as the users input them. It wouldn't be a great idea, but it is conceivable that we would want to add all 3 of these functions `add` which, of course, would cause trouble in our program.  If all of them were nicely encapsulated inside of an object then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
+A useful side-effect of encapsulating the inner-workings of our programs into objects is __namespacing__.  Namespacing is a technique that is used to avoid naming collisions in our programs.  For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, or a function that added numbers and operators to our stack as the users input them. It is conceivable that we would want to call all 3 of these functions `add` which, of course, would cause trouble in our program.  If all of them were nicely encapsulated inside of an object then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
 
 # PROJECT
 
@@ -264,6 +266,7 @@ We're making a Tic Tac Toe game you can play in your browser!
 
 1. Set up your project with a HTML, CSS and Javascript files and get the Git repo all set up.
 2. You're going to store the gameboard as an array inside of a Gameboard object, so start there!  Your players are also going to be stored in objects... and you're probably going to want an object to control the flow of the game itself.
+   1. Your main goal here is to have as little global code as possible.  Try tucking everything away inside of a module or factory.  Rule of thumb: if you only ever need ONE of something (gameBoard, displayController), use a module.  If you need multiples of something (players!), create them with factories.
 3. Set up your HTML and write a JavaScript function that will render the contents of the gameboard array to the webpage (for now you can just manually fill in the array with `"X"`s and `"O"`s)
 4. Build the functions that allow players to add marks to a specific spot on the board, and then tie it to the DOM, letting players click on the gameboard to place their marker. Don't forget the logic that keeps players from playing in spots that are already taken!
 5. Build the logic that checks for when the game is over!  Should check for 3-in-a-row and a tie.
@@ -272,3 +275,4 @@ We're making a Tic Tac Toe game you can play in your browser!
    1. Start by just getting the computer to make a random legal move.
    2. Once you've gotten that, work on making the computer smart.  It is possible to create an unbeatable AI using the minimax algorithm (read about it [here](https://en.wikipedia.org/wiki/Minimax), some googling will help you out with this one)
    3. If you get this running _definitely_ come show it off in the chatroom.  It's quite an accomplishment!
+
