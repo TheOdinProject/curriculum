@@ -31,12 +31,12 @@ Create a folder named `event_manager` wherever you want to store your project.
 In that folder, use your text editor to create a plain text file named
 `event_manager.rb`.
 
-```bash
+~~~bash
 $ mkdir event_manager
 $ cd event_manager
 $ mkdir lib
 $ touch lib/event_manager.rb
-```
+~~~
 
 Creating and placing your `event_manager.rb` file in 'lib' directory is entirely
 optional, however, it adheres to a common convention within most ruby applications.
