@@ -31,7 +31,7 @@ Create a folder named `event_manager` wherever you want to store your project.
 In that folder, use your text editor to create a plain text file named
 `event_manager.rb`.
 
-{:.bash}
+
 ~~~
 $ mkdir event_manager
 $ cd event_manager
@@ -50,29 +50,23 @@ underscore (often called *snake-case*).
 
 Open `lib/event_manager.rb` in your text editor and add the line:
 
-{:.ruby}
-~~~
+~~~ruby
 # lib/event_manager.rb
 puts "EventManager Initialized!"
 ~~~
-
-{:.ruby}
-~~~
-# lib/event_manager.rb
-puts "EventManager Initialized!"
-~~~
-
 
 Validate that ruby is installed correctly and you have created the file correctly by running it from the root of your `event_manager` directory:
 
-~~~bash
+
+~~~
 $ ruby lib/event_manager.rb
 Event Manager Initialized!
 ~~~
 
 If ruby is not installed and available on your environment path then you will be presented with the following message:
 
-~~~bash
+
+~~~
 $ ruby lib/event_manager.rb
 -bash: ruby: command not found
 ~~~
@@ -80,7 +74,8 @@ $ ruby lib/event_manager.rb
 If the file was not created then you will be presented with the following error:
 message
 
-~~~bash
+
+~~~
 $ ruby lib/event_manager.rb
 ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 ~~~
@@ -93,7 +88,8 @@ For this project we are going to use the following sample data:
 Download the *[small sample](event_attendees.csv)* csv file and save it in the
 root of `event_manager` directory.
 
-~~~bash
+
+~~~
 $ curl -o event_attendees.csv http://tutorials.jumpstartlab.com/projects/event_attendees.csv
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -126,7 +122,8 @@ The first few rows of the CSV file you downloaded look like this:
 you to perform a large number of operations on files on your filesystem. The
 most straightforward being `File.read`
 
-~~~ruby lib/event_manager.rb
+~~~ruby 
+# lib/event_manager.rb
 puts "EventManager initialized."
 
 contents = File.read "event_attendees.csv"
@@ -151,7 +148,8 @@ that would allow us to manipulate this large string.
 
 Files can also be read in as an array of lines.
 
-~~~ruby lib/event_manager.rb
+~~~ruby 
+# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -170,7 +168,7 @@ Instead of outputing the entire contents of each line we want to show only the
 first name. That requires us to look at the current contents of our Event
 Attendees file.
 
-~~~
+~~~ruby
  ,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode
 1,11/12/08 10:47,Allison,Nguyen,arannon@jumpstartlab.com,6154385000,3155 19th St NW,Washington,DC,20010
 ~~~
@@ -209,7 +207,8 @@ character.
 By default when you send the split message to the String without a parameter it
 will break the string apart along a space " " character.
 
-~~~ruby lib/event_manager.rb
+~~~ruby 
+# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -226,7 +225,8 @@ Arrays start counting at 0 instead of 1. To get the idea, we would access the
 array's first element at `columns[0]`.
 
 
-~~~ruby lib/event_manager.rb
+~~~ruby 
+# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -252,7 +252,8 @@ which one is the header row.
 One way to solve this problem would be to skip the line when it exactly matches
 our current header row.
 
-~~~ruby lib/event_manager.rb
+~~~ruby 
+# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -271,7 +272,8 @@ updated.
 A second way to solve this problem is for us to track the index of the current
 line.
 
-~~~ruby lib/event_manager.rb
+~~~ruby 
+# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -288,7 +290,8 @@ end
 This is a such a common operation that Array defines
 [Array#each_with_index](http://rubydoc.info/stdlib/core/Enumerable#each_with_index-instance_method).
 
-~~~ruby lib/event_manager.rb
+~~~ruby 
+# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -524,7 +527,8 @@ end
 When we run our application, we see the first few output correctly and then the
 application terminates.
 
-~~~bash
+
+~~~
 $ ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010
@@ -575,7 +579,8 @@ contents.each do |row|
 end
 ~~~
 
-~~~bash
+
+~~~
 $ ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010
@@ -732,7 +737,8 @@ Let's look for a solution before we attempt to build a solution.
 Ruby comes packaged with the `gem` command. This tool allows you to download
 libraries simply knowing the name of the library you want to install.
 
-~~~bash
+
+~~~
 $ gem install google-api-client
 Successfully installed google-api-client-0.15.0
 1 gem installed
@@ -800,7 +806,8 @@ end
 
 Running our application we find an error.
 
-~~~bash
+
+~~~
 $ ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in `check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ~~~
@@ -873,7 +880,8 @@ legislator_names = legislators.map(&:name)
 
 If we were to replace `legislators` with `legislator_names` in our output we would be presented with a *slightly* better output.
 
-~~~bash
+
+~~~
 $ ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010 ["Eleanor Norton"]
@@ -915,7 +923,8 @@ end
 Running our application this time should give us a much more pleasant looking
 output:
 
-~~~bash
+
+~~~
 $ ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010 Eleanor Norton
