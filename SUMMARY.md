@@ -23,10 +23,10 @@
 
 ## ORGANIZING JS
 
-* [Introduction](MoreJS/organizing-js/organizing-introduction.md)
-* [Objects and Object Constructors](MoreJS/organizing-js/objects-constructors.md)
-* [Factories and Modules](MoreJS/organizing-js/factory-functions.md)
-* [Classes](MoreJS/organizing-js/classes.md)
+* [Introduction](organizing-js/organizing-introduction.md)
+* [Objects and Constructors](organizing-js/objects-constructors.md)
+* [Factories and Modules](organizing-js/factory-functions.md)
+* [Classes](organizing-js/classes.md)
 
 ## ASYNC
 

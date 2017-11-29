@@ -2,9 +2,9 @@
 
 ## A refresher
 
-Back in the JavaScript fundamentals course you should have learned the basics of using objects to store and retrieve data. Lets start with a little refresher.
+In our JavaScript fundamentals course you should have learned the basics of using objects to store and retrieve data. Lets start with a little refresher.
 
-There are multiple ways to define objects but in almost _every_ case it is best to use the _object literal_ syntax as follows:
+There are multiple ways to define objects but in most cases it is best to use the __object literal__ syntax as follows:
 
 ```javascript
 const myObject = {
@@ -26,7 +26,7 @@ myObject.property // 'Value!'
 myObject["obnoxious property"] // [Function]
 ```
 
-Which method you use will depend on context.  Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example: `myObject."obnoxious property"` won't work because that property is a string with a space in it.  Likewise, you can not use variables in dot notation:
+Which method you use will depend on context.  Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it.  Likewise, you can not use variables in dot notation:
 
 ```javascript
 const variable = 'property'
@@ -36,7 +36,7 @@ myObject.variable // this gives us 'undefined' because it's literally looking fo
 myObject[variable] // 'Value!'
 ```
 
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in __Fundamentals 3__ from our JavaScript101 course.
+If you are feeling rusty on using objects, now might be a good time to go back and review the content in __Fundamentals 5__ from our JavaScript 101 course.
 
 ## Objects as a Design Pattern
 
@@ -85,13 +85,11 @@ function gameOver(winningPlayer){
 }
 ```
 
-Or, what if we aren't making a 2 player game, but something much more complicated such as an online shopping site with a large inventory?  In that case I'm sure it's obvious that using objects to keep track of an item's name, price, description and other things is the way to go.
-
-HOWEVER: To make that type of thing possible we're going to want a cleaner way to create our objects than simply typing every item into an object literal, which brings us to:
+Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory?  In that case using objects to keep track of an item's name, price, description and other things is the only way to go.  Unfortunately, in that type of situation manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
 
 ## Object Constructors
 
-When you have a specific type of object that you are going to want to have multiples like our player or inventory items a better way to create them is using an object constructor, which is really just a function that looks like this:
+When you have a specific type of object that you need to duplicate like our player or inventory items a better way to create them is using an object constructor, which is a function that looks like this:
 
 ```javascript
 function Player(name, marker) {
@@ -135,24 +133,6 @@ Put a function into the constructor that can report the book info like so
 ```javascript
 book.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 ```
-
-Add a function to the script (not the constructor) that can take user's input (through the command line, using prompt, or using an html form) and store book objects into an array.
-
-Your final program should look something like this:
-
-```javascript
-let myLibrary = []
-
-function Book() {
-  // the constructor...
-}
-
-function addBookToLibrary() {
-  // do stuff here
-}
-```
-
-
 
 ## The Prototype
 
@@ -242,18 +222,48 @@ const carl = new EighthGrader("carl")
 carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ```
 
+##Project
+
+Add a function to the script (not the constructor) that can take user's input (through the command line, using prompt, or using an html form) and store book objects into an array.
+
+Your final program should look something like this:
+
+```javascript
+let myLibrary = []
+
+function Book() {
+  // the constructor...
+}
+
+function addBookToLibrary() {
+  // do stuff here
+}
+```
 
 
-# Project
 
 Let's go ahead and make that library application something usable!
 
 1. Set up your project with skeleton HTML/CSS and JS files.
-2. All of your book objects are going to be stored in a simple array, so either copy the code from the example earlier, or recreate it here.  We need a constructor for the book objects and a function that can add the books to the Library array.
-3. Hook the array up to your HTML with a `render()` function that loops through the array and displays each book on the page.  You can display them in some sort of table, or each on their own "card"
+2. All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user's input and store the new book objects into an array. Your code should look something like this:
+
+   ```javascript
+   let myLibrary = []
+
+   function Book() {
+     // the constructor...
+   }
+
+   function addBookToLibrary() {
+     // do stuff here
+   }
+   ```
+
+   ​
+3. Hook the array up to your HTML with a `render()` function that loops through the array and displays each book on the page.  You can display them in some sort of table, or each on their own "card".  It might help for now to manually add a few books to your array so you can see the display.
 4. Add a "NEW BOOK" button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether or not it's been read and anything else you might want.
 5. Add a button on each book's display to remove the book from the library.
-6. add a button on each book's display to change it's `read` status.
+6. Add a button on each book's display to change it's `read` status.
 7. Optional -we haven't learned any techniques for actually storing our data anywhere, so when the user refreshes the page all of their books will disappear! If you want, you are capable of adding some persistence to this library app using one of the following techniques:
    1. localStorage ([docs here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)) allows you to save data on the user's computer. The downside here is that the data is ONLY accessible on the computer that it was created on.  Even so, it's pretty handy!  Set up a function that saves the whole library array to localStorage every time a new book is created, and another function that looks for that array in localStorage when your app is first loaded. (make sure your app doesn't crash if the array isn't there!)
    2. Firebase ([check it out!](https://firebase.google.com/docs/?authuser=0)) is an online database that can be set up relatively easily, allowing you to save your data to a server in the cloud!  Teaching you how to use it is beyond the scope of this tutorial, but it is almost definitely within your skillset.  If you're interested, check out [this video](https://www.youtube.com/watch?v=noB98K6A0TY) to see what it's all about.
