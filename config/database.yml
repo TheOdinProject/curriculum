@@ -13,8 +13,8 @@ test: &test
   adapter: postgresql
   database: theodinproject_test
   pool: 5
-  username: 
-  password: 
+  username:
+  password:
   host: localhost
 
 production:
@@ -23,7 +23,7 @@ production:
   database: db/production
   pool: 5
   username:
-  password: 
+  password:
 
 cucumber:
   <<: *test
