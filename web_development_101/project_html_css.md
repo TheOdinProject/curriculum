@@ -1277,6 +1277,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Jonathan Cheung's solution (Easy)](https://github.com/hamyqueso/google-homepage) - [View in browser](https://hamyqueso.github.io/google-homepage/)
 * [Chad Cuomo's solution (Easy)](https://github.com/chadcuomo/google-homepage) - [View in browser](https://chadcuomo.github.io/google-homepage/)
 * [Hayden Manning's solution (Easy)](https://github.com/HaydenManning/google-homepage) - [View in browser](https://haydenmanning.github.io/google-homepage/)
+* [hypnagogiasmic's solution (easy)](https://github.com/hypnagogiasmic/google-homepage) - [view in browser](https://hypnagogiasmic.github.io/google-homepage/)
 
 
 ### Additional Resources
