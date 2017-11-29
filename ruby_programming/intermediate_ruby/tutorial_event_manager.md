@@ -51,7 +51,6 @@ underscore (often called *snake-case*).
 Open `lib/event_manager.rb` in your text editor and add the line:
 
 ~~~ruby
-# lib/event_manager.rb
 puts "EventManager Initialized!"
 ~~~
 
@@ -123,7 +122,6 @@ you to perform a large number of operations on files on your filesystem. The
 most straightforward being `File.read`
 
 ~~~ruby 
-# lib/event_manager.rb
 puts "EventManager initialized."
 
 contents = File.read "event_attendees.csv"
@@ -149,7 +147,6 @@ that would allow us to manipulate this large string.
 Files can also be read in as an array of lines.
 
 ~~~ruby 
-# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -208,7 +205,6 @@ By default when you send the split message to the String without a parameter it
 will break the string apart along a space " " character.
 
 ~~~ruby 
-# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -226,7 +222,6 @@ array's first element at `columns[0]`.
 
 
 ~~~ruby 
-# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -253,7 +248,6 @@ One way to solve this problem would be to skip the line when it exactly matches
 our current header row.
 
 ~~~ruby 
-# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -273,7 +267,6 @@ A second way to solve this problem is for us to track the index of the current
 line.
 
 ~~~ruby 
-# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -291,7 +284,6 @@ This is a such a common operation that Array defines
 [Array#each_with_index](http://rubydoc.info/stdlib/core/Enumerable#each_with_index-instance_method).
 
 ~~~ruby 
-# lib/event_manager.rb
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
