@@ -81,15 +81,15 @@ ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 
 For this project we are going to use the following sample data:
 
-* [Small Sample](event_attendees.csv)
-* [Large Sample](event_attendees_full.csv)
+* [Small Sample](https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv)
+* [Large Sample](https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees_full.csv)
 
-Download the *[small sample](event_attendees.csv)* csv file and save it in the
+Download the *[small sample](https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the
 root of `event_manager` directory.
 
 
 ~~~
-$ curl -o event_attendees.csv http://tutorials.jumpstartlab.com/projects/event_attendees.csv
+$ curl -o event_attendees.csv https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  2125  100  2125    0     0   3269      0 --:--:-- --:--:-- --:--:-- 12073
