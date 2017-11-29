@@ -13,6 +13,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 * Build a method `#bubble_sort` that takes an array and returns a sorted array.  It must use the bubble sort methodology (using `#sort` would be pretty pointless, wouldn't it?).
 
 ~~~ruby
