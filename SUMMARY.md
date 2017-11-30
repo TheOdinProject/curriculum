@@ -16,7 +16,6 @@
 * [Clean Code](JS101/code-structure.md)
 * [Fundamentals 4](JS101/fundamentals/fundamentals-4.md)
 * [DOM manipulation](JS101/DOM-manipulation.md)
-* [DOM project](JS101/DOM-manipulation-project.md)
 * [Fundamentals 5](JS101/fundamentals/fundamentals-5.md)
 * [Final Project](JS101/final-project.md)
 
@@ -31,4 +30,6 @@
 
 * [Callbacks and Promises](MoreJS/promises-async.md)
 * [Using APIs](MoreJS/APIs.md)
+
+
 
