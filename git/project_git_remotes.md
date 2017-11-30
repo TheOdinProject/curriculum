@@ -74,7 +74,7 @@ Success!
 
 14. Now when you log into github and view your forked repository you will see it is ready to create the pull request:
   <a href="http://i.imgur.com/nPZpeHY.png"><img class="tutorial-img" src="http://i.imgur.com/nPZpeHY.png" title="Click Compare & Pull Request" /></a>
-15. Click on the Compare & Pull Request button. After we click that we can add a message to the person who is going to accept or reject the pull request. In this case the standard message is fine.
+15. Click on the Compare & Pull Request button. Optionally, you can add a message to the person who is going to accept or reject the pull request. In this case the standard message is fine.
   <a href="http://i.imgur.com/PEfej8w.png"><img class="tutorial-img" src="http://i.imgur.com/PEfej8w.png" title="Click Create Pull Request" /></a>
 16. The Odin moderator viewing the pull request can see a summary of all the lines you've changed before merging it into `TheOdinProject/curriculum:Master`.
   <a href="http://i.imgur.com/XaRdf46.png"><img class="tutorial-img" src="http://i.imgur.com/XaRdf46.png" title="View changes to files" /></a>
