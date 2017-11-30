@@ -101,10 +101,10 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 
 </details>
 
-### DOM - Document Object Model
+###  DOM - Document Object Model
 
 
-When working with HTML and JS, you'll often hear mention of "the DOM". The DOM \(or Document Object Model\) is, on a high level, a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
+The DOM \(or Document Object Model\) is a tree-like representation of the contents of a webpage -  a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
 
 
 ```javascript
@@ -115,14 +115,9 @@ When working with HTML and JS, you'll often hear mention of "the DOM". The DOM \
 ```
 
 
-In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a DOM tree \(which you can imagine like a family tree\), `<div id="container"></div>` would be on the top level/hierarchy, and it's children would be on the next lower level, each with their own "branch".
+In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with it's __children__ on the next level, each on their own "branch".
 
-
-That's a basic DOM example. But the truth is, that's only accounting for HTML elements. When you're working with the DOM, you're dealing with all of the "nodes" of the webpage. What's the difference? "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".
-
-When your HTML and CSS code are rendered into a webpage, the browser converts what you've written into a tree of these "nodes" that contain everything they need \(html identifiers, styles, information about their parent and children nodes etc.\) and then paints them to the webpage.  Basically the main takeaway is that while you will mainly want to target the various `div`s `p`s and `h1`s that you've actually written into your html, you _do_ have access to some more information once the code has been rendered in a browser.
-
-### Targetting Nodes with Selectors
+###  Targeting Nodes with Selectors
 
 When working with the DOM, you use "selectors" to target the nodes you want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes you want. Let's start with CSS-style selectors. In the above example, you could use the following selectors to refer to `<div class="display"></div>`:
 
@@ -131,8 +126,6 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 * container &gt; .display
 
 * div\#container &gt; div.display
-
-Those are just a few, but you have probably noticed the pattern. It's similar to CSS Style Selectors, right? (<-- This is repetetive, might want to remove?)
 
 You can also use relational selectors\(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
 
@@ -152,9 +145,9 @@ console.dir(controls.previousSibling);
 
 So you're identifing a certain node based on its relationships to the nodes around it. 
 
-### DOM methods
+## DOM methods
 
-The DOM spec adds many properties and methods to the nodes in a webpage. Let's get started with a couple that will be essential in your DOM learnings. We'll start with the query selectors - those that help you target nodes.
+When your HTML code is parsed by a web browser, it is converted to the DOM as was mentioned above.  One of the primary differences is that these nodes are objects that have many properties and methods attached to them.  These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. We'll start with the query selectors - those that help you target nodes.
 
 #### Query Selectors
 
@@ -166,22 +159,22 @@ It's important to note that when using querySelectorAll, the return value is **n
 
 #### Element Creation
 
-* document.createElement\(tagName\[, options\]\) =&gt; creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
+* document.createElement\(tagName\[, options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
 
 ```JavaScript
 const div = document.createElement('div');
 ```
 
-\*_An important note is that, although you've created an element, it's not yet visible or attached to the DOM. It's just kind of floating around._
+This function does NOT put your new element into the DOM - it simply creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
 
 #### Append Elements
 
-* _parentNode_.appendChild\(_childNode_\) =&gt; appends _childNode_ as the last child of _parentNode_
-* _parentNode_.insertBefore\(_newNode_, _referenceNode_\) =&gt; inserts _newNode_ into _parentNode_ before _referenceNode_
+* _parentNode_.appendChild\(_childNode_\) appends _childNode_ as the last child of _parentNode_
+* _parentNode_.insertBefore\(_newNode_, _referenceNode_\) inserts _newNode_ into _parentNode_ before _referenceNode_
 
 #### Remove Elements
 
-* _parentNode_.removeChild\(_child_\) =&gt; removes _child_ from _parentNode_ on the DOM and returns reference to _child_
+* _parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns reference to _child_
 
 #### Altering Elements
 
@@ -259,20 +252,79 @@ div.innerHTML = '<span>Hello World!</span>';
 
 \*_Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused._
 
-### Events
+Let's take a minute to review what we've covered and give you a chance to practice this stuff before moving on.  Check out this example of creating and appending a DOM element to a webpage.
 
-
-Events are how you make the magic happen on your pages. There are a lot of events for most situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keyboard, when you leave the page, when you shift focus to or away from input forms, and many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.
-
-We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use all 3 methods to achieve it and discuss.
-
-```JavaScript
-<button onclick="alert(this.tagName)">Click Me</button>
+```html
+// your html file:
+<body>
+  <h1>
+    THE TITLE OF YOUR WEBPAGE
+  </h1>
+  <div id="container"></div>
+</body>
 ```
 
-This solution is less than ideal. For one, we're cluttering our HTML with JavaScript. And two, we can only have 1 "onclick" event per element. Let's try another approach.
+```javascript
+// your javascript file
+const container = document.querySelector('#container');
 
-```JavaScript
+const content = document.createElement('div');
+content.classList.add('content');
+content.textContent = 'This is the glorious text-content!';
+
+container.appendChild(content);
+```
+
+In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `content`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
+
+```html
+// The DOM
+<body>
+  <h1>
+    THE TITLE OF YOUR WEBPAGE
+  </h1>
+  <div id="container">
+  	<div class="content">
+      This is the glorious text-content!
+    </div>
+  </div>
+</body>
+```
+
+Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
+
+### Exercise
+
+Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your javascript file, or put the javascript into a script tag on the page.  Make sure everything is working before moving on!
+
+Add the following elements to the container using ONLY javascript - do not add any HTML or CSS code.
+
+1. a `<p>` with red text that says "Hey I'm red!"
+2. an `<h3>` with blue text that says  "I'm a blue h3!"
+3. a `<div>` with a black border and pink background color with the following elements inside of it:
+   1. another `<h1>` that says "I'm in a div"
+   2. a `<p>` that says "ME TOO!"
+   3. Hint for this one: after creating the div with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
+
+## Events
+
+Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand!  Events are how you make that magic happen on your pages.  Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events.
+
+There are three primary ways to go about this: you can attach functions attributes directly on your HTML elements, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
+
+We're going to create 3 buttons that all alert "BUTTON" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/).
+
+#### method 1
+
+```html
+<button onclick="alert("Hello World")">Click Me</button>
+```
+
+This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only have 1 "onclick" event per element.
+
+#### method 2
+
+```HTML
 // the html file
 <button id="btn">Click Me</button>
 ```
@@ -280,14 +332,16 @@ This solution is less than ideal. For one, we're cluttering our HTML with JavaSc
 ```JavaScript
 // the JavaScript file
 var btn = document.querySelector('#btn');
-btn.onclick = (e) => alert(e.target.tagName);
+btn.onclick = () => alert("Hello World");
 ```
 
 ###### \(need to review arrow functions? [LINK\)](http://javascript.info/function-expressions-arrows#arrow-functions)
 
-This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property. Let's try the last method.
+This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property.
 
-```JavaScript
+#### method 3
+
+```html
 // the html file
 <button id="btn">Click Me Too</button>
 ```
@@ -295,22 +349,68 @@ This is a little better. We've moved the JS out of the HTML and into a JS file, 
 ```JavaScript
 // the JavaScript file
 var btn = document.querySelector('#btn');
-btn.addEventListener('click', (e) => {
-  alert(e.target.tagName);
+btn.addEventListener('click', () => {
+  alert("Hello World");
 });
 ```
 
-Now, we maintain separation of concerns, and we also allow multiple event listeners if need arise. Great!
+Now, we maintain separation of concerns, and we also allow multiple event listeners if need arise.  Method 3 is much more flexible and powerful, though it is a bit more complex to set up.
 
-There are some important things taking place here. That `e` being passed into our event listener callback, references the event itself. In the example, it's a click event. That event has a whole bundle of properties that we won't be discussing right now, but you're strongly encouraged to check out the links below for further study. The property we use in the example, is the "target" property. That's the element being clicked. Common practice is to call that event either "e" or "event" in your callback.
+Note that all 3 of these methods can be used with named functions like so:
+
+```html
+// the html file
+// METHOD 1
+<button onclick="alertFunction()">CLICK ME BABY</button>
+```
+
+```javascript
+function alertFunction() {
+  alert("YAY! YOU DID IT!");
+}
+
+// METHOD 2
+btn.onclick = alertFunction
+
+// METHOD 3
+btn.addEventListener('click', alertFunction);
+```
+
+Using named functions can clean up your code considerably, and is a _really_ good idea if the function is something that you are going to want to do in multiple places.
+
+With all three methods we can access more information about the event by passing a parameter to the function that we are calling.  Try this out on your own machine:
+
+```javascript
+btn.addEventListener('click', function(e){
+  console.log(e)
+})
+```
+
+The `e` in that function is a object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
+
+Try this:
+
+```javascript
+btn.addEventListener('click', function(e){
+  console.log(e.target)
+})
+```
+
+and now this:
+
+```javascript
+btn.addEventListener('click', function(e){
+  e.target.style.background = 'blue'
+})
+```
+
+pretty cool eh?
 
 #### Attaching listeners to groups of nodes
 
-This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.
+This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
 
-We want to create an alert when the buttons are clicked. We'll try first by iterating over a group of elements.
-
-```JavaScript
+```HTML
 <div id="container">
     <button id="1">Click Me</button>
     <button id="2">Click Me</button>
@@ -319,42 +419,34 @@ We want to create an alert when the buttons are clicked. We'll try first by iter
 ```
 
 ```JavaScript
-var buttons = document.querySelectorAll('button');
+// buttons is a node list. It looks and acts much like an array.
+const buttons = document.querySelectorAll('button');
+
+// we use the .forEach method to iterate through each button
 buttons.forEach((button) => {
+  
+  // and for each one we add a 'click' listener
   button.addEventListener('click', (e) => {
     alert(button.id);
   });
 });
 ```
 
-This works just fine, but an easier solution would be to utilize the "bubbling" mechanic of event propagation. Everytime an event fires, it potentially goes through 3 phases:
+This is just the tip of the iceberg when it comes to DOM manipulation and event handling, but it's enough to get you started with some exercises.  In our examples so far we have been using the 'click' event exclusively, but there are _many_ more available to you.  
 
-1. Capture Phase - the event checks all nodes along the branch from the window all the way down to the event.target checking for additional listeners. _This phase is turned off by default_.
-2. Target Phase - Checks event.target for an event listener.
-3. Bubbling Phase - The event checks all the nodes along the branch from the event.target all the way up to the window or root. _It "bubbles" to the top_.
+Some useful events include:
 
-So how can we utilize this in our example?
+- click
+- dblclick
+- keypress
+- keydown
+- keyup
 
-```JavaScript
-// this line selects the #container div
-var container = document.querySelector('#container');
-// this line adds an eventListener to the CONTAINER (not the button)
-container.addEventListener('click', (e) => {
-  // here we check the tagname of the event target..
-  // technically the listener will fire everytime someone clicks on the container
-  // but this line filters out any clicks that aren't on the button itself.
-  if (e.target.tagName !== 'BUTTON') return;
-  alert(e.target.id);
-});
-```
-
-With a simple equality check, we can put 1 event listener on the parent \(or any ancestor really\), and allow the event to bubble up to that listener. This technique is called "event delegation". You can read more about it [here](https://javascript.info/event-delegation).
-
----
-
-This is just the tip of the iceberg when it comes to DOM manipulation and event handling, but I think it's enough to get you started with some exercises.
+You can find a more complete list with explanations of each event on [this page](https://www.w3schools.com/jsref/dom_obj_event.asp).
 
 ## Practice
+
+Manipulating web pages is the primary benefit of the JavaScript language!  These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so we're going to take time to practice using them.
 
 ### Warm Up
 
