@@ -4,22 +4,22 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 ### Points to Ponder
 <details>
   <summary>What is DOM in relation to a webpage?</summary>
-  
+
   * The Document Object Model is a tree-like representation of the contents on a webpage or document.
-  
+
 </details>
 
 <details>
   <summary>What's the difference between a "node" and an "element"?</summary>
-  
+
   * A "node" is any object in the DOM hierarchy while an "element" is _one specific_ node.
   * "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".
-  
+
 </details>
 
 <details>
   <summary>How do you target nodes with "selectors"?</summary>
-  
+
   * There are several ways, with CSS style-selectors, to target a node.
     * `<div class="display"></div>` can be selected as follows:
       * div
@@ -28,13 +28,13 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
     * There are also relational selectors such as `firstChild` or `lastSibling`.
   * Combined with "Query Selectors", this is how you can target a node using JavaScript
     * i.e. `document.querySelector(".display");` would select the div above.
-      
-      
+
+      ​
 </details>
 
 <details>
   <summary>What are the basic methods for finding/adding/removing and altering DOM nodes?</summary>
-  
+
   * As mentioned above, you can find nodes in the DOM using query selectors.
   * To create an element, use document.createElement(tagName[, options])
     * i.e. `const div = document.createElement('div');` will create a div element. However, this div has not been added to the webpage yet.
@@ -45,26 +45,26 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
   * Once you have a reference to an element, as above, you can alter it in many ways.
     * `div.style.color = 'blue';` adds the indicated style rule 
     * `div.setAttribute('id', 'theDiv');` sets the id attribute of our div to 'theDiv'.
-  
+
 </details>
 
 <details>
   <summary>What is the difference between a "nodelist" and an "array of nodes"?</summary>
-  
+
   * A "nodelist" looks like an array, but it is missing several methods that come with an Array.
   * A solution to this problem is to use the spread operator or Array.from() to convert a nodelist into an array.
-  
+
 </details>
 
 <details>
   <summary>How do "events" and "listeners" work? What are three ways to use events in your code?</summary>
-  
+
   * "Events" are how you make your webpage dynamic. They are triggered by "listeners", and can fire when the page loads, when you click your mouse, when you push keys on your keyboard, and many, many more.
   * The three primary ways to use events are:
     * By attaching scripts to event attributes on elements in the HTML document.
       * `<button onclick="alert(this.tagName)">Click Me</button>`
     * By setting the "on_event_" property on the DOM object in your JavaScript.
-     
+
         ```JavaScript
         // the html file
         <button id="btn">Click Me</button>
@@ -75,30 +75,30 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
         var btn = document.querySelector('#btn');
         btn.onclick = (e) => alert(e.target.tagName);
         ```
-    
-    * By attaching event listeners to the nodes in your JavaScript.
-    
 
-        ```JavaScript
+    * By attaching event listeners to the nodes in your JavaScript.
+
+
+        ​```JavaScript
         // the html file
         <button id="btn">Click Me Too</button>
-        ```
-
-        ```JavaScript
+        ​```
+        
+        ​```JavaScript
         // the JavaScript file
         var btn = document.querySelector('#btn');
         btn.addEventListener('click', (e) => {
           alert(e.target.tagName);
         });
-        ```
-  
+        ​```
+
 </details>
 
 <details>
   <summary>How does "bubbling" work?</summary>
-  
+
   *  Bubbling is a form of "event propegation". It is an efficient method for firing an event on multiple elements -- starting from the innermost element -- and "bubbling" up to outer elements.
-  
+
 </details>
 
 ### DOM - Document Object Model
@@ -354,11 +354,50 @@ With a simple equality check, we can put 1 event listener on the parent \(or any
 
 This is just the tip of the iceberg when it comes to DOM manipulation and event handling, but I think it's enough to get you started with some exercises.
 
-### Exercises
+## Practice
 
-#### JavaScript Drum Kit:
+### Warm Up
 
-We'll be doing the first exercise in Wes Bos's JavaScript30 program. You'll need to clone the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Check out the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) for instructions on the project. When you've completed the Drum Kit exercise, you can move on to the next section.
+1. Do the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Check out the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) for instructions on the project.
+2. Go back to your "Rock Paper Scissors" game from a previous lesson and give it a simple UI so that the player can play the game by clicking on buttons rather than typing their answer in a prompt.
+   1. For each round display the user's selection, the computer's selection and the winner.
+   2. Display the running score.
+   3. You will likely have to refactor (rework/rewrite) your original code to make it work for this.  That's OK!  Reworking old code is an important part of the programmer's life.
+
+### Project
+
+In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
+
+This project should _not_ be easy for you.  You'll probably have to Google frequently to get the right JavaScript methods and CSS to use - in fact, that's the point!  You _can_ build this using the tools that you have already learned and there are plenty of resources on the net for learning stuff that we haven't covered yet if you decide you need it.  We'll walk you through the basic steps, but it will be up to you to actually implement them.
+
+If you get totally stuck drop by the chatroom.. someone will be there to point you in the right direction.
+
+1. [Follow the instructions atop Odin's Google Homepage project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css) to setup a git repository for this project.
+2. Create a webpage with a 16x16 grid of square divs
+   1. Create the divs using JavaScript... don't try making them by hand with copy and pasting in your html file!
+   2. Best to put your grid squares inside another "container" div \(that one can go directly in your html\)
+   3. There are several different ways to make the divs appear as a grid \(verses just one on each line\) feel free to use any or play with each of them:
+      1. float/clear
+      2. inline-block
+      3. flexbox
+      4. CSS Grid
+   4. Be careful with borders and margins, they can adjust the size of the squares!
+   5. "OMG, Why isn't my grid being created???"
+      1. Open your browser's developer tools
+      2. Check if there are any errors in the JavaScript console
+      3. Check your "elements" pane to see if the elements have actually shown up but are somehow hidden.
+      4. Go willy-nilly and add  `console.log` statements in your JavaScript to see if it's actually being loaded.
+3. Set up a "hover" effect so that the grid divs change color when your mouse passes over them, leaving a \(pixelated\) trail through your grid like a pen would.
+   1. Hint: "hovering" is what happens when your mouse enters a div and ends when your mouse leaves it.. you can set up event listeners for either of those events as a starting point.
+   2. There are multiple ways to change the color of the divs, including:
+      1. adding a new class to the div
+      2. changing the div's background color using JavaScript.
+4. Add a button to the top of the screen which will clear the current grid and send the user a popup asking for how many squares per side to make the new grid.  Once entered the new grid should be generated _in the same total space as before_ \(e.g. 960px wide\) and now you've got a new sketch pad.
+   1. Research `button` tags in HTML and how you can make a JavaScript function run when one is clicked.
+   2. Also check out `prompt`s
+   3. You should be able to enter `64` and have a brand new 64x64 grid pop up without changing the total amount of pixels used
+5. \(Optional\): Instead of just changing the color of your grid from black to white \(for example\) have each pass through it with the mouse change to a completely random RGB value.   Then try having each pass just add another 10% of black to it so that only after 10 passes is the square completely black.
+6. Push your project to GitHub!
 
 ### Additional Resources
 

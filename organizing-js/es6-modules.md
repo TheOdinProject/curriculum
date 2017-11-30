@@ -1,0 +1,5 @@
+# ES6 modules
+
+Separate from the __module pattern__ that we discussed in an earlier lesson, "modules" is a feature that arrived with ES6.  Browser support for this feature is quite slim at this point, but is slowly improving and until all modern browsers support it, we can make it work using an external module bundler.  ES6 modules are starting to appear in many codebases around the net and getting them and running will give us a chance to explore some new parts of the JavaScript ecosystem, so it's going to be a worthy excursion!
+
+Don't be fooled! We're going to cover much more than just the new module syntax in this lesson!  Before we can really _use_ these modules we're going to have to learn about __npm__ and __webpack__ which  are both topics that will be _very_ useful to you even beyond this lesson.  In the end the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
