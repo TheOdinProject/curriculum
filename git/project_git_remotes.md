@@ -40,31 +40,45 @@ In this project we will fork The Odin Project's curriculum repository to add you
   curriculum$ git checkout -b new-student
   ```
 11. You are now working on the new-student branch and can pull any changes to TheOdinProject/curriculum since you've last updated. To do this, type `git pull upstream master` into your terminal. If you've just forked this repository there may not be any changes.
+
   ```language-bash
-  curriculum$ git pull origin master
+  curriculum$ git pull upstream master
   ```
 
-
-
-
-Open `git/student_list.md` in your text editor and add your name and link to your GitHub in Markdown syntax on line two like so:
+12. It's now time to make your changes. Open `git/student_list.md` in your text editor and add your name and link to your GitHub in Markdown syntax on line two like so:
   ```
   * [Odin-Student](https://github.com/odin-student)  
   ```
-and save it.
-12. Add the file to the staging area and commit it. We want to  push the `new-student` branch to GitHub like so:
-    
+then save the file.
+13. The next steps are to add the changed file to the staging area and commit it.  To see what files have changed, you can use `git status`. Then, to add the files to statging area you type `git add git/student_list.md ` (you may have to change the file location if it's not the same). Lastly, you'll commit these changes by typing `git commit -m "Commit Message Here"`.  In the end, it will look something like this:
   ```language-bash
-  curriculum$ git commit -am "add my name to student_list.md"
+  curriculum$ git status
+  On branch master
+  << Truncated >>
+  Changes not staged for commit:
+      modified: git/student_list.md
+      
+  curriculum$ git add git/student_list.md
+  
+  curriculum$ git commit -m "add my name to student_list.md"
+  [new-student d4aed63] add my name to student_list.md
+  1 file changed, 1 insertations
+  
   curriculum$ git push origin new-student
+  Counting objects: 7, done.
+  << Truncated >>
+  To https://github.com/odin-student/curriculum.git
+    d4aed63..72afe28 new-student -> new-student
   ```
-11. Now when you view the forked repository on GitHub you will see it is ready to create the pull request:
+Success!
+
+14. Now when you log into github and view your forked repository you will see it is ready to create the pull request:
   <a href="http://i.imgur.com/nPZpeHY.png"><img class="tutorial-img" src="http://i.imgur.com/nPZpeHY.png" title="Click Compare & Pull Request" /></a>
-12. Once we click that we can add a message to the person who is going to accept or reject the pull request. In this case the standard message is fine.
+15. Click on the Compare & Pull Request button. After we click that we can add a message to the person who is going to accept or reject the pull request. In this case the standard message is fine.
   <a href="http://i.imgur.com/PEfej8w.png"><img class="tutorial-img" src="http://i.imgur.com/PEfej8w.png" title="Click Create Pull Request" /></a>
-13. As you can see below the person viewing the pull request before approving it to be merged into `TheOdinProject/curriculum:Master` can see a summary of all the lines you have changed.
+16. The Odin moderator viewing the pull request can see a summary of all the lines you've changed before merging it into `TheOdinProject/curriculum:Master`.
   <a href="http://i.imgur.com/XaRdf46.png"><img class="tutorial-img" src="http://i.imgur.com/XaRdf46.png" title="View changes to files" /></a>
-14. Success! Now all that is needed is for TheOdinProject to approve your submission. You're first contribution to an open source project on GitHub. Although it is a minor contribution the process for any contribution to any repository you find on GitHub is the same as outlined here. So now when you have suggestions to improve the TheOdinProject's curriculum you can now create a pull request and help your fellow students. It's a team effort, go forth and help the open source community!
+17. Success! Now all that is needed is for TheOdinProject to approve your submission. You've completed your first contribution to an open source project on GitHub. Although this was minor, the process for any contribution to a GitHub repository is the same as outlined here. So, when you have suggestions to improve the TheOdinProject's curriculum you can now create a pull request and help your fellow students. It's a team effort, go forth and help the open source community!
 
 ## Helpful Links
 * [GitHub Forking](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
