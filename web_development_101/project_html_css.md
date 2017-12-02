@@ -1283,6 +1283,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Eduardo's solution (easy)](https://github.com/ecortinas/google-homepage) - [view in browser](https://ecortinas.github.io/)
 * [Djokole's solution (simple)](https://github.com/djokole/google-homepage) - [view in browser]
 (https://djokole.github.io/google-homepage/)
+* [Igor Milosavljevic's solution (easy)](https://github.com/IgorMilosavljevic2644/google-homepage) - [view in browser] (https://igormilosavljevic2644.github.io/google-homepage/)
 
 
 ### Additional Resources
