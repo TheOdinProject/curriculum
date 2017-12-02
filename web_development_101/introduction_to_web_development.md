@@ -41,7 +41,7 @@ There are also older big companies who still need web developers. They will also
 
 ### Tools of the Trade
 
-These are some of the basic tools you will use regularly. You may not know what they are know, but you most certainly will going forward.
+These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
 * **Computer**
 * **Google**
