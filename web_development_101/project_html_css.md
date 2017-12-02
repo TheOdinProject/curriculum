@@ -1283,6 +1283,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Eduardo's solution (easy)](https://github.com/ecortinas/google-homepage) - [view in browser](https://ecortinas.github.io/)
 * [Djokole's solution (simple)](https://github.com/djokole/google-homepage) - [view in browser]
 (https://djokole.github.io/google-homepage/)
+* [Angelica Nicolle Abalos' solution (Easy)](https://github.com/angelicanicolle/google-homepage) - [View in CodePen](https://codepen.io/angelicanicolle/full/ZawemP/)
 
 
 ### Additional Resources
