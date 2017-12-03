@@ -62,8 +62,7 @@ When a student finishes this course they should:
 
 * Lesson: Why TDD?
     - The philosophy behind TDD and its process
-* Lesson: Introduction to RSpec
-    - Install Rspec and its basic syntax
+* Lesson: [Introduction to RSpec](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/test_driven_development/rspec_introduction_lesson.md) - [x]
 * Lesson: Structuring your tests
     - How to use describe and context in your tests
 * Lesson: Mocks, stubs and spies
