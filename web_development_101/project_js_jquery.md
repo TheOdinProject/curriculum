@@ -739,3 +739,4 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [mark's solution](https://github.com/mark-wright/DOM-manipulation/) - [View in browser](https://mark-wright.github.io/DOM-manipulation/)
 * [Joe Himes's solution](https://github.com/deedle42/sketch-pad)
 * [Jason's solution](https://github.com/jn4248/etch_a_sketch_ver2) | [View in browser](https://jn4248.github.io/etch_a_sketch_ver2/)
+* [Djokole's solution](https://github.com/djokole/Etch) - [View in browser](https://djokole.github.io/Etch/)
