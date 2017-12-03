@@ -694,6 +694,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Huascar's solution](https://github.com/HuascarMC/sketchpad-project) - [View in browser](https://huascarmc.github.io/sketchpad-project/)
 * [Patrick Laverty's solution](https://github.com/patayto/sketch-pad) - [View in browser](https://patayto.github.io/sketch-pad/)
 * [Harrison's solution](https://github.com/okeharlyon/Etch-A-Sketch)
+
 * [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) -[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
 * [Robtak's solution](https://github.com/robtak/Project-Etch-A-Sketch) -[View in browser](https://robtak.github.io/Project-Etch-A-Sketch/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/etch-a-sketch/) -[View in browser](https://ncud4bloc.github.io/etch-a-sketch/HTML/index.html)
@@ -741,3 +742,4 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Joe Himes's solution](https://github.com/deedle42/sketch-pad)
 * [Jason's solution](https://github.com/jn4248/etch_a_sketch_ver2) | [View in browser](https://jn4248.github.io/etch_a_sketch_ver2/)
 * [Djokole's solution](https://github.com/djokole/Etch) - [View in browser](https://djokole.github.io/Etch/)
+*[TarGue's solution](https://github.com/TarGue/PaintApp) - [View in browser](https://targue.github.io/PaintApp/)
