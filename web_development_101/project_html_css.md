@@ -1265,7 +1265,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [paullyFIRE's solution(easy)](https://paullyfire.github.io/OdinSimpleGoogle/) - [View in browser](https://github.io/OdinSimpleGoogle/)
 * [Clifford Minks's solution (Easy)](https://github.com/xxerror500xx/TOP_google-homepage) - [View in browser](https://xxerror500xx.github.io/TOP_google-homepage/)
 * [Clifford Minks's solution (Hard)](https://github.com/xxerror500xx/TOP_google-homepage) - [View in browser](https://xxerror500xx.github.io/TOP_google-homepage/search_results.html)
-* [Scott Glover's solution (Easy)](https://github.com/scottglover/google-homepage) | [View in browser](https://scottglover.github.io/google-homepage/)
+* [Scott Glover's solution (Easy)](https://github.com/scottglover/google-homepage) - [View in browser](https://scottglover.github.io/google-homepage/)
 * [Lucas Bicudo's solution (Easy)](https://github.com/lucbic/google-homepage) - [View in browser](https://lucbic.github.io/google-homepage/)
 * [Encolpius's solution (Easy)](https://github.com/Encolpius/google-homepage) - [View in browser](https://encolpius.github.io/google-homepage/)
 * [Encolpius's solution (Difficult)](https://github.com/Encolpius/google-search-results) - [View in browser](https://encolpius.github.io/google-search-results/)

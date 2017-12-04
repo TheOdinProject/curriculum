@@ -43,7 +43,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
-*[Austin's solution](https://github.com/Austin2016/sketch_app) - [View in browser](https://github.com/Austin2016/sketch_app)
+* [Austin's solution](https://github.com/Austin2016/sketch_app) - [View in browser](https://github.com/Austin2016/sketch_app)
 * [Alex's solution](https://github.com/dracken2332/grid) - [View in browser](https://dracken2332.github.io/grid/)
 * [Manuel Alvarado's solution](https://github.com/ManuAlvarado22/pixel-sketch) - [View in browser](https://manualvarado22.github.io/pixel-sketch/)
 * [Nate Dimock's solution](https://github.com/Flakari/sketchpad) - [View in browser](https://flakari.github.io/sketchpad/)
@@ -739,6 +739,6 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [nboaldin's solution](https://github.com/nboaldin/etch_a_sketch2/) - [View in browser](https://nboaldin.github.io/etch_a_sketch2/)
 * [mark's solution](https://github.com/mark-wright/DOM-manipulation/) - [View in browser](https://mark-wright.github.io/DOM-manipulation/)
 * [Joe Himes's solution](https://github.com/deedle42/sketch-pad)
-* [Jason's solution](https://github.com/jn4248/etch_a_sketch_ver2) | [View in browser](https://jn4248.github.io/etch_a_sketch_ver2/)
+* [Jason's solution](https://github.com/jn4248/etch_a_sketch_ver2) - [View in browser](https://jn4248.github.io/etch_a_sketch_ver2/)
 * [Djokole's solution](https://github.com/djokole/Etch) - [View in browser](https://djokole.github.io/Etch/)
 * [TarGue's solution](https://github.com/TarGue/PaintApp) - [View in browser](https://targue.github.io/PaintApp/)
