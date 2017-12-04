@@ -14,7 +14,7 @@ We will cover a very broad area of knowledge here and that's intentional. It's s
 
 This curriculum works by pulling together the best content we can find to learn a particular topic.  In each lesson, we'll introduce the topic and try to provide some useful context before pointing you to external resources made by others.
 
-Most lessons will contain questions that you should be able to answer before moving on.  Some of the lessons will ask you to do exercises and there will even be several projects to help you build your understanding by actually building things.  
+Most lessons will contain questions that you should be able to answer before moving on.  Some of the lessons will ask you to do exercises and there will even be several projects to help you grow your understanding by actually building things.  
 
 While most of this material should be fine to tackle on your own, the projects in particular are good opportunities to find a partner and do some pair programming.  Give it a shot!
 
