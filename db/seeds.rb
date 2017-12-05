@@ -305,40 +305,125 @@ create_or_update_lesson(
   repo: 'curriculum'
 )
 
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+  title: "JavaScript Basics",
+  title_url: "JavaScript Basics".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "Here we finally dig in to JavaScript and learn how to make the web dynamic."
+)
+
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Javascript Basics",
-  title_url: "Javascript Basics".parameterize,
+  title: "Fundamentals Part 1",
+  title_url: "JavaScript Fundamentals 1".parameterize,
   description: "You'll get a chance to start picking up the programming fundamentals you need to make your webpages dynamic",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/javascript_basics.md",
-  repo: 'curriculum'
+  url: "/JS101/fundamentals/fundamentals-1.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "jQuery Basics",
-  title_url: "jQuery Basics".parameterize,
-  description: "You'll learn how to take your Javascript knowledge and seamlessly integrate it with webpages using the magic of jQuery",
+  title: "Fundamentals Part 2",
+  title_url: "JavaScript Fundamentals 2".parameterize,
+  description: "Continues where Fundamentals 2 leaves off!",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/jquery_basics.md",
-  repo: 'curriculum'
+  url: "/JS101/fundamentals/fundamentals-2.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Javascript and jQuery",
-  title_url: "Javascript and jQuery".parameterize,
-  description: "Think 'Etch-a-Sketch' with a bit of Funk.",
+  title: "Developer Tools 2",
+  title_url: "Developer Tools 2".parameterize,
+  description: "covers using the dev tools from the perspective of a JS developer",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/JS101/javascript-dev-tools.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Fundamentals Part 3",
+  title_url: "JavaScript Fundamentals Part 3".parameterize,
+  description: "Part 3 of our JS fundamentals course.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/JS101/fundamentals/fundamentals-3.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Clean Code",
+  title_url: "Clean Code".parameterize,
+  description: "tips for writing better looking and easier to maintain code.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/JS101/code-structure.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Fundamentals Part 4",
+  title_url: "JavaScript Fundamentals Part 4".parameterize,
+  description: "Part 4 of our JS fundamentals course.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/JS101/fundamentals/fundamentals-4.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "DOM manipulation",
+  title_url: "DOM manipulation".parameterize,
+  description: "Finally, lets learn how to make your webpages move!",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/JS101/DOM-manipulation.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Fundamentals Part 5",
+  title_url: "JavaScript Fundamentals Part 5".parameterize,
+  description: "Part 5 of our JS fundamentals course.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/JS101/fundamentals/fundamentals-5.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Final Project",
+  title_url: "Final Project".parameterize,
+  description: "Final Project",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/web_development_101/project_js_jquery.md",
-  repo: 'curriculum'
+  url: "/JS101/final-project.md",
+  repo: 'javascript_curriculum'
 )
 
 # +++++++++++
