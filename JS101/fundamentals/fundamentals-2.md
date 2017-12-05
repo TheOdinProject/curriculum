@@ -1,5 +1,3 @@
-# Fundamentals 2
-
 There are a few extremely common types of data that you will encounter in Javascript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
 ## Strings
