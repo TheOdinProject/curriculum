@@ -65,32 +65,32 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
       * `<button onclick="alert(this.tagName)">Click Me</button>`
     * By setting the "on_event_" property on the DOM object in your JavaScript.
 
-        ```JavaScript
+        ~~~JavaScript
         // the html file
         <button id="btn">Click Me</button>
-        ```
+        ~~~
 
-        ```JavaScript
+        ~~~JavaScript
         // the JavaScript file
         var btn = document.querySelector('#btn');
         btn.onclick = (e) => alert(e.target.tagName);
-        ```
+        ~~~
 
     * By attaching event listeners to the nodes in your JavaScript.
 
 
-        ​```JavaScript
+        ​~~~JavaScript
         // the html file
         <button id="btn">Click Me Too</button>
-        ​```
+        ​~~~
         
-        ​```JavaScript
+        ​~~~JavaScript
         // the JavaScript file
         var btn = document.querySelector('#btn');
         btn.addEventListener('click', (e) => {
           alert(e.target.tagName);
         });
-        ​```
+        ​~~~
 
 </details>
 
@@ -129,7 +129,7 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 
 You can also use relational selectors\(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
 
-```JavaScript
+~~~JavaScript
 const container = document.querySelector('#container'); 
 // select the #container div (don't worry about the syntax, we'll get there)
 
@@ -141,7 +141,7 @@ const controls = document.querySelector('.controls');
 
 console.dir(controls.previousSibling);                  
 // selects the prior sibling => .display
-```
+~~~
 
 So you're identifing a certain node based on its relationships to the nodes around it. 
 
@@ -161,9 +161,9 @@ It's important to note that when using querySelectorAll, the return value is **n
 
 * document.createElement\(tagName\[, options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
 
-```JavaScript
+~~~JavaScript
 const div = document.createElement('div');
-```
+~~~
 
 This function does NOT put your new element into the DOM - it simply creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
 
@@ -180,14 +180,14 @@ This function does NOT put your new element into the DOM - it simply creates it 
 
 When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
-```JavaScript
+~~~JavaScript
 const div = document.createElement('div');                     
 // create a new div referenced in the variable 'div'
-```
+~~~
 
 #### Adding inline style
 
-```JavaScript
+~~~JavaScript
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
@@ -196,7 +196,7 @@ div.style.cssText = 'color: blue; background: white';
 
 div.setAttribute('style', 'color: blue; background: white';    
 // adds several style rules
-```
+~~~
 
 See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
 
@@ -204,7 +204,7 @@ Generally style rules are the same as in CSS with the exception that hyphenated 
 
 #### Editing Attributes
 
-```JavaScript
+~~~JavaScript
 div.setAttribute('id', 'theDiv');                              
 // if id exists update it to 'theDiv' else create an id 
 // with value "theDiv"
@@ -215,13 +215,13 @@ div.getAttribute('id');
 
 div.removeAttribute('id');                                     
 // removes specified attribute
-```
+~~~
 
 See MDNs section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes.
 
 #### Working with classes
 
-```JavaScript
+~~~JavaScript
 div.classList.add('new');                                      
 // adds class "new" to your new div
 
@@ -231,30 +231,30 @@ div.classList.remove('new');
 div.classList.toggle('active');                                
 // if div doesn't have class "active" then add it, or if 
 // it does, then remove it
-```
+~~~
 
 It is often standard \(and more clean\) to toggle a CSS style rather than adding and removing inline CSS.
 
 #### Adding text content
 
-```JavaScript
+~~~JavaScript
 div.textContent = 'Hello World!'                               
 // creates a text node containing "Hello World!" and 
 // inserts it in div
-```
+~~~
 
 #### Adding HTML content
 
-```JavaScript
+~~~JavaScript
 div.innerHTML = '<span>Hello World!</span>';                   
 // renders the html inside div
-```
+~~~
 
 \*_Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused._
 
 Let's take a minute to review what we've covered and give you a chance to practice this stuff before moving on.  Check out this example of creating and appending a DOM element to a webpage.
 
-```html
+~~~html
 // your html file:
 <body>
   <h1>
@@ -262,9 +262,9 @@ Let's take a minute to review what we've covered and give you a chance to practi
   </h1>
   <div id="container"></div>
 </body>
-```
+~~~
 
-```javascript
+~~~javascript
 // your javascript file
 const container = document.querySelector('#container');
 
@@ -273,11 +273,11 @@ content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
 
 container.appendChild(content);
-```
+~~~
 
 In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `content`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
 
-```html
+~~~html
 // The DOM
 <body>
   <h1>
@@ -289,7 +289,7 @@ In the JavaScript file, first we get a reference to the `container` div that alr
     </div>
   </div>
 </body>
-```
+~~~
 
 Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
 
@@ -316,24 +316,24 @@ We're going to create 3 buttons that all alert "BUTTON" when clicked.  Try them 
 
 #### method 1
 
-```html
+~~~html
 <button onclick="alert("Hello World")">Click Me</button>
-```
+~~~
 
 This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only have 1 "onclick" event per element.
 
 #### method 2
 
-```HTML
+~~~HTML
 // the html file
 <button id="btn">Click Me</button>
-```
+~~~
 
-```JavaScript
+~~~JavaScript
 // the JavaScript file
 var btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
-```
+~~~
 
 ###### \(need to review arrow functions? [LINK\)](http://javascript.info/function-expressions-arrows#arrow-functions)
 
@@ -341,30 +341,30 @@ This is a little better. We've moved the JS out of the HTML and into a JS file, 
 
 #### method 3
 
-```html
+~~~html
 // the html file
 <button id="btn">Click Me Too</button>
-```
+~~~
 
-```JavaScript
+~~~JavaScript
 // the JavaScript file
 var btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
   alert("Hello World");
 });
-```
+~~~
 
 Now, we maintain separation of concerns, and we also allow multiple event listeners if need arise.  Method 3 is much more flexible and powerful, though it is a bit more complex to set up.
 
 Note that all 3 of these methods can be used with named functions like so:
 
-```html
+~~~html
 // the html file
 // METHOD 1
 <button onclick="alertFunction()">CLICK ME BABY</button>
-```
+~~~
 
-```javascript
+~~~javascript
 function alertFunction() {
   alert("YAY! YOU DID IT!");
 }
@@ -374,35 +374,35 @@ btn.onclick = alertFunction
 
 // METHOD 3
 btn.addEventListener('click', alertFunction);
-```
+~~~
 
 Using named functions can clean up your code considerably, and is a _really_ good idea if the function is something that you are going to want to do in multiple places.
 
 With all three methods we can access more information about the event by passing a parameter to the function that we are calling.  Try this out on your own machine:
 
-```javascript
+~~~javascript
 btn.addEventListener('click', function(e){
   console.log(e)
 })
-```
+~~~
 
 The `e` in that function is a object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
 
 Try this:
 
-```javascript
+~~~javascript
 btn.addEventListener('click', function(e){
   console.log(e.target)
 })
-```
+~~~
 
 and now this:
 
-```javascript
+~~~javascript
 btn.addEventListener('click', function(e){
   e.target.style.background = 'blue'
 })
-```
+~~~
 
 pretty cool eh?
 
@@ -410,15 +410,15 @@ pretty cool eh?
 
 This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
 
-```HTML
+~~~HTML
 <div id="container">
     <button id="1">Click Me</button>
     <button id="2">Click Me</button>
     <button id="3">Click Me</button>
 </div>
-```
+~~~
 
-```JavaScript
+~~~JavaScript
 // buttons is a node list. It looks and acts much like an array.
 const buttons = document.querySelectorAll('button');
 
@@ -430,7 +430,7 @@ buttons.forEach((button) => {
     alert(button.id);
   });
 });
-```
+~~~
 
 This is just the tip of the iceberg when it comes to DOM manipulation and event handling, but it's enough to get you started with some exercises.  In our examples so far we have been using the 'click' event exclusively, but there are _many_ more available to you.  
 

@@ -19,7 +19,7 @@ You can think of variables simply as "storage containers" for data in your code.
 
 You can easily run your own JavaScript code from files that you create on your own computer.  The simplest way to get started is to simply create an html file with the JavaScript code inside of it.  Type the basic html skeleton into a file on your computer somewhere:
 
-```html
+~~~html
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,7 +32,7 @@ You can easily run your own JavaScript code from files that you create on your o
   </script>
 </body>
 </html>
-```
+~~~
 
 Save and open this file up in a web browser and then open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the developer tools pane find and select the 'console' tab, where you should see the output of our `console.log` statement.
 
