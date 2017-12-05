@@ -50,7 +50,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [husein ghafari's solution](https://github.com/hosghf/responsive-thenextweb) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/responsive-thenextweb/blob/master/index.html)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/NextWeb/) - [View in browser](https://ncud4bloc.github.io/NextWeb/HTML.index.html)
 * [Matteo's solution](https://github.com/naufragio/thenextweb) - [View in browser](https://naufragio.github.io/thenextweb/)
-* [Aram Shelton's solution](https://github.com/tonalmasher/next-web/settings) [View in browser[(https://tonalmasher.github.io/next-web/)
+* [Aram Shelton's solution](https://github.com/tonalmasher/next-web/settings) [View in browser](https://tonalmasher.github.io/next-web/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
