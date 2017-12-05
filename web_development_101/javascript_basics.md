@@ -38,7 +38,7 @@ Submit a link to the github repo with your files in it here with a pull request.
 * Add your solution below this line!
 * [Lucas Bicudo's Solution for problem 1](https://github.com/lucbic/Project-Euler) - [View in browser](https://lucbic.github.io/Project-Euler/)
 * [Alex's Solution for problem 1](https://github.com/dracken2332/EulerProject) - [View in browser](https://dracken2332.github.io/EulerProject/)
-* [Clifford Minks's solutions 1, 2, and 3](https://github.com/xxerror500xx/TOP_euler-solutions) | [View in browser](https://xxerror500xx.github.io/TOP_euler-solutions/index.html)
+* [Clifford Minks's solutions 1, 2, and 3](https://github.com/xxerror500xx/TOP_euler-solutions) - [View in browser](https://xxerror500xx.github.io/TOP_euler-solutions/index.html)
 * [Nate Dimock's Solution for Problems 1 & 2](https://github.com/Flakari/project-euler)
 * [iamfranco's Solution for problem 1](https://github.com/iamfranco/the_odin_project/tree/master/euler35) - [View in browser](https://iamfranco.github.io/the_odin_project/euler35/index.html)
 * [Alfredo's Solution for problem 1](https://github.com/alfasf/Javascript-Basics-the-Odin-Project)
