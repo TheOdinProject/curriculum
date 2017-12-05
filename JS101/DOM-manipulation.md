@@ -107,12 +107,12 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 The DOM \(or Document Object Model\) is a tree-like representation of the contents of a webpage -  a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
 
 
-```javascript
+~~~ javascript
 <div id="container">
   <div class="display"></div>
   <div class="controls"></div>
 </div>
-```
+~~~ 
 
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with it's __children__ on the next level, each on their own "branch".
