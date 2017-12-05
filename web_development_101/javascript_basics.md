@@ -553,6 +553,7 @@ Submit a link to the github repo with your files in it here with a pull request.
 * [nboaldin's solution to Project Euler Problem 1](https://github.com/nboaldin/project-euler) - [View in browser](https://nboaldin.github.io/project-euler/)
 * [KaczmarekWill's solution to Project Euler Problems 1-4](https://github.com/KaczmarekWill/project-euler)
 * [Christene Bennett's Solution](https://github.com/thechristene/project-euler)
+* [Jonathan Cheung's Solution for problem 1 and 2](https://github.com/hamyqueso/project_euler)
 
 
 ### Additional Resources
