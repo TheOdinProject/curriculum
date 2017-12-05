@@ -1,4 +1,4 @@
-#  Fundamentals 1
+Let's dive right in!
 
 ##  Numbers
 
