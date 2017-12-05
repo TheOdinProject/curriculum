@@ -11,7 +11,7 @@ Things are about to get _really_ exciting.  So far you have been writing an impr
 
 ##    Practice
 
-Let's write some functions!  Write these in the `style` tag of a skeleton html file.  If you've forgotten how to set it up, review the instructions from __fundamentals 1__.
+Let's write some functions!  Write these in the `script` tag of a skeleton html file.  If you've forgotten how to set it up, review the instructions from __fundamentals 1__.
 
 For now just write each function and test the output with `console.log`.
 
