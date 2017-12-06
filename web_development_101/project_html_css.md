@@ -1,4 +1,4 @@
-﻿### Introduction
+### Introduction
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
@@ -94,8 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-* [Ginger Barham's solution (Easy)]
-(https://github.com/gingermostly/google-homepage) - [View in browser](https://gingermostly.github.io/google-homepage/)
+* [Ginger Barham's solution (Easy)](https://github.com/gingermostly/google-homepage) - [View in browser](https://gingermostly.github.io/google-homepage/)
 * [Clarenz Miralles' solution (Easy](https://github.com/zmiralles/google-homepage) - [View in browswer](https://zmiralles.github.io/google-homepage/)
 * [Sergi Marquez's solution (Easy)](https://github.com/sergimarquez/google-homepage) - [View in browser](https://sergimarquez.github.io/google-homepage/)
 * [Boian Norbert's Solution {Responsive}(Easy)](https://github.com/NorbertBoian/GoogleHomepage) - [View in browser](https://norbertboian.github.io/GoogleHomepage/)
@@ -1288,7 +1287,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Igor Milosavljevic's solution (easy)](https://github.com/IgorMilosavljevic2644/google-homepage) - [view in browser](https://igormilosavljevic2644.github.io/google-homepage/)
 * [Angelica Nicolle Abalos' solution (Easy)](https://github.com/angelicanicolle/google-homepage) - [View in CodePen](https://codepen.io/angelicanicolle/full/ZawemP/)
 * [XDiRago's Solution](https://github.com/AlexDiRago/google-homepage) - [view in browser] (https://alexdirago.github.io/google-homepage/)
-*[eddalosa's solution(easy)](https://github.com/eddalosa/google-homepage) - [view in browser] (https://eddalosa.github.io/google-homepage/)
+*[eddalosa's solution(easy)](https://github.com/eddalosa/google-homepage) - [view in browser](https://eddalosa.github.io/google-homepage/)
 
 
 ### Additional Resources
