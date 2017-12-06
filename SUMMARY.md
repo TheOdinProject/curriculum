@@ -25,12 +25,10 @@
 * [Factories and Modules](organizing-js/factory-functions.md)
 * [Classes](organizing-js/classes.md)
 * [ES6 Modules and Webpack](organizing-js/es6-modules.md)
-* [organizing-js/project.md](organizing-js/project.md)
+* [Project - Todo List](organizing-js/project.md)
 
 ## ASYNC
 
 * [Callbacks and Promises](MoreJS/promises-async.md)
 * [Using APIs](MoreJS/APIs.md)
-
-
 
