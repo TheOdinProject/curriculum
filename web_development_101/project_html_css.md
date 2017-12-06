@@ -1287,7 +1287,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Igor Milosavljevic's solution (easy)](https://github.com/IgorMilosavljevic2644/google-homepage) - [view in browser](https://igormilosavljevic2644.github.io/google-homepage/)
 * [Angelica Nicolle Abalos' solution (Easy)](https://github.com/angelicanicolle/google-homepage) - [View in CodePen](https://codepen.io/angelicanicolle/full/ZawemP/)
 * [XDiRago's Solution](https://github.com/AlexDiRago/google-homepage) - [view in browser] (https://alexdirago.github.io/google-homepage/)
-*[eddalosa's solution(easy)](https://github.com/eddalosa/google-homepage) - [view in browser](https://eddalosa.github.io/google-homepage/)
+* [John Piatras' Solution](https://github.com/JohnPiatras/google-searchpage) - [view in browser](https://johnpiatras.github.io/google-searchpage/)
+* [eddalosa's solution(easy)](https://github.com/eddalosa/google-homepage) - [view in browser](https://eddalosa.github.io/google-homepage/)
 
 
 ### Additional Resources
