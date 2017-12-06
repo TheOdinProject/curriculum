@@ -8,7 +8,7 @@
 
 ## JS101
 
-* [Introduction 101](JS101/introduction-101.md)
+* [BIG ANNOUNCEMENT](JS101/introduction-101.md)
 * [Fundamentals 1](JS101/fundamentals/fundamentals-1.md)
 * [Fundamentals 2](JS101/fundamentals/fundamentals-2.md)
 * [JavaScript Dev Tools](JS101/javascript-dev-tools.md)
@@ -25,12 +25,10 @@
 * [Objects and Constructors](organizing-js/objects-constructors.md)
 * [Factories and Modules](organizing-js/factory-functions.md)
 * [Classes](organizing-js/classes.md)
-* [organizing-js/es6-modules.md](organizing-js/es6-modules.md)
+* [ES6 Modules and Webpack](organizing-js/es6-modules.md)
 
 ## ASYNC
 
 * [Callbacks and Promises](MoreJS/promises-async.md)
 * [Using APIs](MoreJS/APIs.md)
-
-
 
