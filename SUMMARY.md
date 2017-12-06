@@ -25,6 +25,7 @@
 * [Objects and Constructors](organizing-js/objects-constructors.md)
 * [Factories and Modules](organizing-js/factory-functions.md)
 * [Classes](organizing-js/classes.md)
+* [organizing-js/es6-modules.md](organizing-js/es6-modules.md)
 
 ## ASYNC
 
