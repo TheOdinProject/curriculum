@@ -3,12 +3,11 @@
 ## Introduction
 
 * [Introduction](README.md)
-* [CONTRIBUTING](CONTRIBUTING.md)
 * [Are you Beta testing for us?](are-you-beta-testing-for-us.md)
 
 ## JS101
 
-* [Introduction 101](JS101/introduction-101.md)
+* [BIG ANNOUNCEMENT](JS101/introduction-101.md)
 * [Fundamentals 1](JS101/fundamentals/fundamentals-1.md)
 * [Fundamentals 2](JS101/fundamentals/fundamentals-2.md)
 * [JavaScript Dev Tools](JS101/javascript-dev-tools.md)
@@ -25,6 +24,7 @@
 * [Objects and Constructors](organizing-js/objects-constructors.md)
 * [Factories and Modules](organizing-js/factory-functions.md)
 * [Classes](organizing-js/classes.md)
+* [ES6 Modules and Webpack](organizing-js/es6-modules.md)
 
 ## ASYNC
 
