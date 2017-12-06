@@ -3,7 +3,6 @@
 ## Introduction
 
 * [Introduction](README.md)
-* [CONTRIBUTING](CONTRIBUTING.md)
 * [Are you Beta testing for us?](are-you-beta-testing-for-us.md)
 
 ## JS101
@@ -31,4 +30,6 @@
 
 * [Callbacks and Promises](MoreJS/promises-async.md)
 * [Using APIs](MoreJS/APIs.md)
+
+
 
