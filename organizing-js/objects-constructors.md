@@ -6,7 +6,7 @@ In our JavaScript fundamentals course you should have learned the basics of usin
 
 There are multiple ways to define objects but in most cases it is best to use the __object literal__ syntax as follows:
 
-```javascript
+~~~javascript
 const myObject = {
   property: 'Value!',
   otherProperty: 77,
@@ -14,27 +14,27 @@ const myObject = {
   		// do stuff!
 	}
 }
-```
+~~~
 
 There are also 2 ways to get information out of an object: dot notation and bracket notation.
 
-```javascript
+~~~javascript
 // dot notation
 myObject.property // 'Value!'
 
 // bracket notation
 myObject["obnoxious property"] // [Function]
-```
+~~~
 
 Which method you use will depend on context.  Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it.  Likewise, you can not use variables in dot notation:
 
-```javascript
+~~~javascript
 const variable = 'property'
 
 myObject.variable // this gives us 'undefined' because it's literally looking for a property named 'variable' in our object
 
 myObject[variable] // 'Value!'
-```
+~~~
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in __Fundamentals 5__ from our JavaScript 101 course.
 
@@ -42,7 +42,7 @@ If you are feeling rusty on using objects, now might be a good time to go back a
 
 One of the simplest ways you can begin to organize your code is by simply grouping things into objects.  Take these examples from a 'tic tac toe' game:
 
-```javascript
+~~~javascript
 // example one
 const playerOneName = "tim"
 const playerTwoName = "jenn"
@@ -59,31 +59,31 @@ const playerTwo = {
   name: "jenn",
   marker: "O"
 }
-```
+~~~
 
 At first glance the first doesn't seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits are huge! Let me demonstrate:
 
-```javascript
+~~~javascript
 function printName(player) {
   console.log(player.name)
 }
-```
+~~~
 
 This is something that you just could NOT do with the example one setup.  Instead, every time you wanted to print a specific player's name you would have to remember the correct variable name and then manually `console.log` it:
 
-```javascript
+~~~javascript
 console.log(playerOneName)
 console.log(playerTwoName)
-```
+~~~
 
 Again, this isn't _that_ bad... but what if you _don't know_ which player's you want to print?
 
-```javascript
+~~~javascript
 function gameOver(winningPlayer){
   console.log("Congraulations!")
   console.log(winningPlayer.name + " is the winner!")
 }
-```
+~~~
 
 Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory?  In that case using objects to keep track of an item's name, price, description and other things is the only way to go.  Unfortunately, in that type of situation manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
 
@@ -91,23 +91,23 @@ Or, what if we aren't making a 2 player game, but something more complicated suc
 
 When you have a specific type of object that you need to duplicate like our player or inventory items a better way to create them is using an object constructor, which is a function that looks like this:
 
-```javascript
+~~~javascript
 function Player(name, marker) {
   this.name = name
   this.marker = marker
 }
-```
+~~~
 
 and which you use by calling the function with the keyword `new`.
 
-```javascript
+~~~javascript
 const player = new Player('steve', 'X')
 console.log(player.name) // 'steve'
-```
+~~~
 
 Just like with objects created using the Object Literal method you can add functions to the object:
 
-```javascript
+~~~javascript
 function Player(name, marker) {
   this.name = name
   this.marker = marker
@@ -120,7 +120,7 @@ const player1 = new Player('steve', 'X')
 const player2 = new Player('also steve', 'O')
 player1.sayName() // logs 'steve'
 player2.sayName() // logs 'also steve'
-```
+~~~
 
 
 
@@ -130,9 +130,9 @@ Write a "Library" script for storing books.  Use an Object Constructor to create
 
 Put a function into the constructor that can report the book info like so
 
-```javascript
+~~~javascript
 book.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
-```
+~~~
 
 ## The Prototype
 
@@ -145,7 +145,7 @@ This concept is an important one, so you've got some reading to do.  Make sure y
 
 If you've understood the concept of prototype then this next bit about constructors will not be confusing at all!
 
-```javascript
+~~~javascript
 function Student(name) {
   this.name = name
   this.grade = grade
@@ -157,7 +157,7 @@ Student.prototype.sayName = function() {
 Student.prototype.goToProm = function() {
   // eh.. go to prom?
 }
-```
+~~~
 
 If you're using constructors to make your objects it is best to define functions on the `prototype` of that object.  Doing so means that a single instance of each function will be shared between all of the Student objects.  If we declare the function directly in the constructor like we did when they were first introduced that function would be duplicated every time a new Student is created.  In this example of course that wouldn't really matter much, but in a project that is creating thousands of objects it really can make a difference.
 
@@ -165,7 +165,7 @@ If you're using constructors to make your objects it is best to define functions
 
 So far you have seen several ways of making an object inherit the prototype from another object.  At this point in history the recommended way of setting an Objects prototype uses `Object.create` (and [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method.)  `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add.  For our purposes you use it like so:
 
-```javascript
+~~~javascript
 function Student() {
 }
 
@@ -183,19 +183,19 @@ EighthGrader.prototype = Object.create(Student.prototype)
 const carl = new EighthGrader("carl")
 carl.sayName() // console.logs "carl"
 carl.grade // 8
-```
+~~~
 
 You can probably figure out what's going on here.  After creating the constructor for EighthGrader we set it's prototype to a new object that has a copy of `Student.prototype`.
 
 A warning... this doesn't work:
 
-```javascript
+~~~javascript
 EighthGrader.prototype = Student.prototype
-```
+~~~
 
 because it will literally set EighthGrader's prototype to Student.prototype (i.e. not a copy), which could cause problems if you want to edit something in the future.  Consider one more example:
 
-```javascript
+~~~javascript
 function Student() {
 }
 
@@ -220,7 +220,7 @@ NinthGrader.prototype.sayName = function() {console.log("HAHAHAHAHAHA")}
 
 const carl = new EighthGrader("carl")
 carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
-```
+~~~
 
 ##Project
 
@@ -228,7 +228,7 @@ Add a function to the script (not the constructor) that can take user's input (t
 
 Your final program should look something like this:
 
-```javascript
+~~~javascript
 let myLibrary = []
 
 function Book() {
@@ -238,7 +238,7 @@ function Book() {
 function addBookToLibrary() {
   // do stuff here
 }
-```
+~~~
 
 
 
@@ -247,7 +247,7 @@ Let's go ahead and make that library application something usable!
 1. Set up your project with skeleton HTML/CSS and JS files.
 2. All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user's input and store the new book objects into an array. Your code should look something like this:
 
-   ```javascript
+   ~~~javascript
    let myLibrary = []
 
    function Book() {
@@ -257,7 +257,7 @@ Let's go ahead and make that library application something usable!
    function addBookToLibrary() {
      // do stuff here
    }
-   ```
+   ~~~
 
    ​
 3. Hook the array up to your HTML with a `render()` function that loops through the array and displays each book on the page.  You can display them in some sort of table, or each on their own "card".  It might help for now to manually add a few books to your array so you can see the display.
