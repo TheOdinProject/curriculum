@@ -1,22 +1,7 @@
 here we go through some semi-random 'real world' examples and talk through using libraries and things like that
 
-- webpack part2 (loaders and plugins)
-  - https://auth0.com/blog/webpack-a-gentle-introduction/
-  - https://webpack.academy/p/the-core-concepts
-  - directory watching
-- ES6 and Babel
-  - A bit of history + future of JS
-  - explanation of the ES??? naming system
-  - List of cool features from ES6 that we haven't specifically covered
-    - object destructuring
-    - spread operator
-    - arrow functions (we've used them, but not properly explained)
-    - template strings
-    - ???
-  - Transpilation with Babel (and webpack baby woo)
-- UI stuff like dropdowns/modals
-  - just a chance to think through and make some every-day user interaction
-  - very practical items here
-- image slider
-- form validation
-- linting/prettier
+1. linting
+2. ui-interactions
+3. forms
+4. webpack
+5. es6

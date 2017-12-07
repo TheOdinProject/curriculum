@@ -4,6 +4,13 @@ Separate from the __module pattern__ that we discussed in an earlier lesson, "mo
 
 Don't be fooled! We're going to cover much more than just the new module syntax in this lesson!  Before we can really _use_ these modules we're going to have to learn about __npm__ and __webpack__ which  are both topics that will be _very_ useful to you even beyond this lesson.  In the end the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
 
+## first things first
+
+Why do we even need or want this stuff?  What do you gain from all of this added complexity?  These are good questions.. with good answers.
+
+- Read [this article](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70) for a bit of a history lesson.  It's long, but it puts what we're doing here in great perspective.  You don't _have_ to code along with the examples - the tutorials we cover later will go through basically the same process. But it's good practice and going through the same process multiple times will help it stick faster.
+- Seriously.. spend some time with that article it really clarifies the 'WHY' of the rest of this lesson.
+
 ## npm
 
 The __node package manager__ is a command line tool that gives you access to a gigantic repository of plugins, libraries and tools.  If you have done our Fundamentals course, you will likely have encountered it when you installed the Jasmine testing framework to do our exercises.
