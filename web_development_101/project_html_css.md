@@ -1282,8 +1282,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Hayden Manning's solution (Easy)](https://github.com/HaydenManning/google-homepage) - [View in browser](https://haydenmanning.github.io/google-homepage/)
 * [hypnagogiasmic's solution (Easy)](https://github.com/hypnagogiasmic/google-homepage) - [View in browser](https://hypnagogiasmic.github.io/google-homepage/)
 * [Eduardo's solution (Easy)](https://github.com/ecortinas/google-homepage) - [View in browser](https://ecortinas.github.io/)
-* [Djokole's solution (simple)](https://github.com/djokole/google-homepage) - [View in browser]
-(https://djokole.github.io/google-homepage/)
+* [Djokole's solution (simple)](https://github.com/djokole/google-homepage) - [View in browser](https://djokole.github.io/google-homepage/)
 * [Igor Milosavljevic's solution (Easy)](https://github.com/IgorMilosavljevic2644/google-homepage) - [View in browser](https://igormilosavljevic2644.github.io/google-homepage/)
 * [Angelica Nicolle Abalos' solution (Easy)](https://github.com/angelicanicolle/google-homepage) - [View in CodePen](https://codepen.io/angelicanicolle/full/ZawemP/)
 * [XDiRago's Solution](https://github.com/AlexDiRago/google-homepage) - [View in browser](https://alexdirago.github.io/google-homepage/)
