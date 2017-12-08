@@ -1280,16 +1280,16 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Jonathan Cheung's solution (Easy)](https://github.com/hamyqueso/google-homepage) - [View in browser](https://hamyqueso.github.io/google-homepage/)
 * [Chad Cuomo's solution (Easy)](https://github.com/chadcuomo/google-homepage) - [View in browser](https://chadcuomo.github.io/google-homepage/)
 * [Hayden Manning's solution (Easy)](https://github.com/HaydenManning/google-homepage) - [View in browser](https://haydenmanning.github.io/google-homepage/)
-* [hypnagogiasmic's solution (easy)](https://github.com/hypnagogiasmic/google-homepage) - [view in browser](https://hypnagogiasmic.github.io/google-homepage/)
-* [Eduardo's solution (easy)](https://github.com/ecortinas/google-homepage) - [view in browser](https://ecortinas.github.io/)
-* [Djokole's solution (simple)](https://github.com/djokole/google-homepage) - [view in browser]
+* [hypnagogiasmic's solution (Easy)](https://github.com/hypnagogiasmic/google-homepage) - [View in browser](https://hypnagogiasmic.github.io/google-homepage/)
+* [Eduardo's solution (Easy)](https://github.com/ecortinas/google-homepage) - [View in browser](https://ecortinas.github.io/)
+* [Djokole's solution (simple)](https://github.com/djokole/google-homepage) - [View in browser]
 (https://djokole.github.io/google-homepage/)
-* [Igor Milosavljevic's solution (easy)](https://github.com/IgorMilosavljevic2644/google-homepage) - [view in browser](https://igormilosavljevic2644.github.io/google-homepage/)
+* [Igor Milosavljevic's solution (Easy)](https://github.com/IgorMilosavljevic2644/google-homepage) - [View in browser](https://igormilosavljevic2644.github.io/google-homepage/)
 * [Angelica Nicolle Abalos' solution (Easy)](https://github.com/angelicanicolle/google-homepage) - [View in CodePen](https://codepen.io/angelicanicolle/full/ZawemP/)
-* [XDiRago's Solution](https://github.com/AlexDiRago/google-homepage) - [view in browser] (https://alexdirago.github.io/google-homepage/)
-* [John Piatras' Solution](https://github.com/JohnPiatras/google-searchpage) - [view in browser](https://johnpiatras.github.io/google-searchpage/)
-* [eddalosa's solution(easy)](https://github.com/eddalosa/google-homepage) - [view in browser](https://eddalosa.github.io/google-homepage/)
-* [prusche's solution(easy)](https://github.com/prusche/google-homepage) - [view in browser](https://prusche.github.io/google-homepage/)
+* [XDiRago's Solution](https://github.com/AlexDiRago/google-homepage) - [View in browser](https://alexdirago.github.io/google-homepage/)
+* [John Piatras' Solution](https://github.com/JohnPiatras/google-searchpage) - [View in browser](https://johnpiatras.github.io/google-searchpage/)
+* [eddalosa's solution(easy)](https://github.com/eddalosa/google-homepage) - [View in browser](https://eddalosa.github.io/google-homepage/)
+* [prusche's solution(easy)](https://github.com/prusche/google-homepage) - [View in browser](https://prusche.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
