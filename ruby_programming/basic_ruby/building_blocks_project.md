@@ -649,6 +649,7 @@ Next, make sure your method can handle multiple words:
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/substr.rb)
 * [Akshat's solution](https://github.com/akshatdb/RubyMain/blob/master/substrings.rb)
 * [endotnick's solution](https://github.com/endotnick/substrings)
+* [Qin's solution](https://github.com/hyathynth/ruby-project/blob/master/substrings.rb)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/substrings)
 * [Jason McKee's solution](https://github.com/jttmckee/ruby-substrings)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/substrings.rb)
