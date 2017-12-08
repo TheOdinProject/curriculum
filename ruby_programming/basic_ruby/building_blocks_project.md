@@ -43,6 +43,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Isil Donmez's solution](https://github.com/isildonmez/Caesar-Cipher/blob/master/caesar_cipher.rb)
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/caesar.rb)
 * [Jeremy Robertson's solution](https://github.com/jdrobertso/caesar_cipher)
+* [Qin's solution](https://github.com/hyathynth/ruby-project/blob/master/caesar_cipher.rb)
 * [Omar Moataz's solution](https://github.com/OmarMoataz/ciphers)
 * [endotnick's solution](https://github.com/endotnick/ciphers)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/caesar_cipher)
