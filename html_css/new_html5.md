@@ -1,8 +1,8 @@
-# What's New in HTML5
+### Introduction
 
 HTML5 brought in a lot of nice new features, many geared specifically towards giving webpages the ability to display media and interactive features more easily.  The downside is that there are still browser compatibility issues with some of that functionality, but that will get sorted over time.  Another set of new features is the use of more semantic tags in your markup so you don't need to put a `div` around everything (you can use the `aside` or `footer` etc).
 
-## Points to Ponder
+### Learning Outcomes
 
 * What are semantic tags and how are there more of them in HTML5?
 * What does the canvas element do for you?
@@ -16,16 +16,16 @@ HTML5 brought in a lot of nice new features, many geared specifically towards gi
 * Are there any performance trade-offs with the new features?
 * How does HTML5 fix the problem of needing Flash installed to play movies on many devices?
 
-## Your Assignment
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. Check out [Dive into HTML5](http://diveintohtml5.info), which is a website and book on the cool stuff about HTML5.
 2. Look over [What's new in HTML5 from About](http://webdesign.about.com/od/html5/a/html_5_whats_new.htm)
+</div>
 
-## Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [What's new in HTML5 from W3 schools](http://www.w3schools.com/html/html5_new_elements.asp)
 * [25 must-know HTML5 tips and techniques from tutsplus](http://net.tutsplus.com/tutorials/html-css-techniques/25-html5-features-tips-and-techniques-you-must-know/)
-* [How HTML5 and CSS3 Will Change Web Design from Virtuosimedia.com](http://www.virtuosimedia.com/dev/html/how-html5-and-css3-will-change-web-design) is a nice 2011 article looking forward to the coming changes.
 * [Testing compliance of various tags in HTML5 with CanIUse?](http://caniuse.com)
