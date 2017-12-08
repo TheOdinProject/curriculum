@@ -352,6 +352,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/stock.rb)
 * [Akshat's solution](https://github.com/akshatdb/RubyMain/blob/master/stock_picker.rb)
 * [endotnick's solution](https://github.com/endotnick/stock_picker)
+* [Qin's solution](https://github.com/hyathynth/ruby-project/blob/master/stock_picker.rb)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/stock_picker)
 * [Jason McKee's solution](https://github.com/jttmckee/ruby-stock-picker)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/stock_picker.rb)
