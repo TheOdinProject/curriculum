@@ -13,6 +13,8 @@ It might also be a good idea to do a little practicing before moving on.  It may
 
 ## jQuery?
 
-Before you press on, a note about jQuery. Until very recently our curriculum relied quite heavily on jQuery, a JavaScript library.  jQuery was very popular in the past, but has fallen out of the limelight in recent years, which is why we decided to phase it out of our curriculum.  A quick web-search on the topic will be more useful than any explanations here, and if you still want to learn it (many older codebases still use it) we are confident that you can pick it up quite easily by reading the documentation on [their website](https://jquery.com/).
+Before you press on, a note about jQuery. Until very recently our curriculum relied quite heavily on jQuery, a JavaScript library.  jQuery was very popular in the past, but has fallen out of the limelight in recent years, which is why we decided to phase it out of our curriculum.  One of the biggest reasons it's begun to fall out of favor is that you simply don't _need_ it anymore.  When it became popular doing things like DOM manipulation and AJAX calls were difficult in plain JavaScript, but that is no longer the case.
 
-Having said that, as we write new lessons and transition our curriculum, you might find some lessons that mention it.  You should be able to continue without it.  For example. if a lesson says to use jQuery to interact with the DOM - feel confident that you can do it with plain old javascript.
+A quick web-search on the topic will be more useful than any explanations here, and if you still want to learn it (many older codebases still use it) we are confident that you can pick it up quite easily by reading the documentation on [their website](https://jquery.com/).
+
+Having said that, as we write new lessons and transition our curriculum, you might find some older lessons that mention it.  You should be able to continue anyway.  For example, if a lesson says to use jQuery to interact with the DOM - feel confident that you can do it with plain old JavaScript.
