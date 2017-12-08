@@ -43,6 +43,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Bojana's solution](https://github.com/bojana12/project-javascript-jquery) - [View in browser](https://bojana12.github.io/project-javascript-jquery/dist/)
 * [Austin's solution](https://github.com/Austin2016/sketch_app) - [View in browser](https://github.com/Austin2016/sketch_app)
 * [Alex's solution](https://github.com/dracken2332/grid) - [View in browser](https://dracken2332.github.io/grid/)
 * [Manuel Alvarado's solution](https://github.com/ManuAlvarado22/pixel-sketch) - [View in browser](https://manualvarado22.github.io/pixel-sketch/)
