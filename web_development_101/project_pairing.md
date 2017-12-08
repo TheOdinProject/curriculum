@@ -33,7 +33,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [iamfranco's solution](https://github.com/iamfranco/the_odin_project/tree/master/pomodoro) - [View in Browser](https://iamfranco.github.io/the_odin_project/pomodoro/)
 * [danhofer & nsantiagoblair's solution](https://github.com/danhofer/pomodoro-pair) - [View in Browser](https://danhofer.github.io/pomodoro-pair/pomodoro.html)
 * [Alex and Kasper's Solution](https://github.com/alx4567/pomodoro) - [View in Browser](https://alx4567.github.io/pomodoro/)
-* [Qin's Solution](https://github.com/hyathynth/pomodoro-clock) - [View in Browser](https://hyathynth.github.io/pomodoro-clock/)
+* [Qin's Solution](https://github.com/hyathynth/pomodoro_clock) - [View in Browser](https://hyathynth.github.io/pomodoro_clock/)
 * [Jonathan Yiv's Solution](https://github.com/JonathanYiv/pomodoro) - [View in Browser](https://jonathanyiv.github.io/pomodoro/)
 * [GuyInALabCoat's Solution](https://github.com/GuyInALabCoat/Pomodoro_clock) - [View in Browser](https://guyinalabcoat.github.io/Pomodoro_clock/)
 * [Justinckim3's Solution](https://github.com/justinckim3/pomodoro) - [View in Browser](https://justinckim3.github.io/pomodoro/)
