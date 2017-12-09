@@ -1289,6 +1289,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [John Piatras' Solution](https://github.com/JohnPiatras/google-searchpage) - [View in browser](https://johnpiatras.github.io/google-searchpage/)
 * [eddalosa's solution(easy)](https://github.com/eddalosa/google-homepage) - [View in browser](https://eddalosa.github.io/google-homepage/)
 * [prusche's solution(easy)](https://github.com/prusche/google-homepage) - [View in browser](https://prusche.github.io/google-homepage/)
+* [Slimane's solution(easy)](https://github.com/slimane2018/google-homepage) - [View in browser](https://slimane2018.github.io/google-homepage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
