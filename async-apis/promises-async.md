@@ -12,11 +12,11 @@ In the recent past, the way that these were most commonly handled were with __ca
 > A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 
 Callbacks are simply functions that get passed into other functions. For example:
-```javascript
+~~~javascript
 myDiv.addEventListener("click", function(){
   // do something!
 })
-```
+~~~
 Here, the function `addEventListener()` takes a callback (the "do something" function) and then calls it when `myDiv` gets clicked.
 
 You will likely recognize this pattern as something that happens _all the time_ in JavaScript code.  Unfortunately, though they are useful in situations like the above example, using callbacks can get out of hand, especially when you need to chain several of them together in a specific order.  The rest of this lesson discusses patterns and functions that will help keep you out of [Callback hell](http://callbackhell.com/).
@@ -30,31 +30,31 @@ Essentially, a promise is an object that might produce a value at some point in 
 
 Lets say `getData()` is a function that fetches some data from a server and returns it as an object that we can use in our code:
 
-```javascript
+~~~javascript
 const getData = function() {
   // go fetch data from some API...
   // clean it up a bit and return it as an object:
   return data
 }
-```
+~~~
 
 The issue with this example is that it takes some time to fetch the data, but unless we tell our code that, it assumes that everything in the function happens essentially instantly.  So, if we try to do this:
 
-```javascript
+~~~javascript
 const myData = getData()
 const pieceOfData = myData['whatever']
-```
+~~~
 We're going to run into trouble because when we try to extract `pieceOfData` out of the returned data, the function `getData()` will most likely still be fetching, so `myData` will not be the expected data, but will be `undefined`.  Sad.
 
 We need some way to solve this problem, and tell our code to wait until the data is done fetching to continue.  Promises solve this issue.  We'll leave learning the specific syntax for the articles you're about to read, but essentially Promises allow you do to this:
 
-```javascript
+~~~javascript
 const myData = getData() // if this is refactored to return a Promise...
 
 myData.then(function(data){ // .then() tells it to wait until the promise is resolved
   const pieceOfData = data['whatever'] // and THEN run the function inside
 })
-```
+~~~
 
 Of course there many more occasions where one would want to use Promises beyond fetching data, so learning these things now will be very useful to you.
 
