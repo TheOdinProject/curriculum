@@ -1290,6 +1290,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [eddalosa's solution(easy)](https://github.com/eddalosa/google-homepage) - [View in browser](https://eddalosa.github.io/google-homepage/)
 * [prusche's solution(easy)](https://github.com/prusche/google-homepage) - [View in browser](https://prusche.github.io/google-homepage/)
 * [Slimane's solution(easy)](https://github.com/slimane2018/google-homepage) - [View in browser](https://slimane2018.github.io/google-homepage)
+* [Matt Claghorn's solution (Easy)](https://github.com/Claggy/google-homepage) - [View in browser](https://claggy.github.io/google-homepage/)
+* [Matt Claghorn's solution (Difficult)](https://github.com/Claggy/google-searchpage) - [View in browser](https://claggy.github.io/google-searchpage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
