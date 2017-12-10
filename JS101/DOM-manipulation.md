@@ -30,7 +30,7 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
     * i.e. `document.querySelector(".display");` would select the div above.
 
       ​
-</details>
+      </details>
 
 <details>
   <summary>What are the basic methods for finding/adding/removing and altering DOM nodes?</summary>
@@ -112,7 +112,7 @@ The DOM \(or Document Object Model\) is a tree-like representation of the conten
   <div class="display"></div>
   <div class="controls"></div>
 </div>
-~~~ 
+~~~
 
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with it's __children__ on the next level, each on their own "branch".

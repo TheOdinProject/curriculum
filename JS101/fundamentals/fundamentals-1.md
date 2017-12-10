@@ -38,7 +38,7 @@ Save and open this file up in a web browser and then open up the browser's conso
 
 > `console.log()` is the command to print something to the developer console in your browser.  Use it for all of the following exercises.
 
-Try the following exercises in the browser's console.
+Try the following exercises.
 
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your html file)
 2. Add a sequence of 6 different numbers together.

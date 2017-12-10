@@ -4,18 +4,6 @@ How I envision it playing out:  Stub out the lessons for each section (like I've
 
 This is almost definitely going to change... things are likely to be moved quite a lot once we start actually writing stuff, but for now the tentative order of the lessons here is:
 
-1. Running-JavaScript
-2. Fundamentals-1
-3.    Fundamentals-1-project
-4.    Code structure
-5. Fundamentals-2
-6.    Fundamentals-2-project
-7. DOM-manipulation
-8.    DOM-manipulation-project
-9. Fundamentals-3
-10. JavaScript-dev-tools
-11. FINAL PROJECT
-
 It is __very__ likely that several of those lessons will be broken down into multiple smaller lessons.  I advise that we keep them together in one file for now and break them up as needed once things start getting too long.
 
 ## PLEASE
