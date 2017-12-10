@@ -1257,7 +1257,6 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Meghana's Solution](https://github.com/meghana-vyakaranam/google-homepage) - [View in browser](https://meghana-vyakaranam.github.io/google-homepage/)
 * [OtakuShowboat's Solution (Easy)](https://github.com/OtakuShowboat/google-homepage) - [View in browser](https://otakushowboat.github.io/google-homepage/)
 * [nboaldin's Solution (Easy)](https://github.com/nboaldin/google-homepage) - [View in browser](https://nboaldin.github.io/google-homepage/)
-
 * [KaczmarekWill's Solution (Easy)](https://github.com/KaczmarekWill/google-homepage) - [View in browser](https://KaczmarekWill.github.io/google-homepage/)
 * [Toper Kemur's Solution (Easy)](https://github.com/toperkemur/google-homepage) - [View in browser](https://toperkemur.github.io/google-project/)
 * [Kshitijaa Jaglan's Solution (Easy)](https://github.com/KshitijaaJaglan/google-homepage) - [View in browser](https://kshitijaajaglan.github.io/google-homepage/)
