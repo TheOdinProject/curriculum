@@ -12,7 +12,7 @@ One of the most important things to remember as you craft your objects is the __
 
 So instead of this:
 
-```javascript
+~~~javascript
 function is_game_over() {
   
   // game over logic goes here!
@@ -24,11 +24,11 @@ function is_game_over() {
     document.body.appendChild(gameOverDiv)
   }
 }
-```
+~~~
 
 You should extract all the DOM manipulation into it's own module and use it like so:
 
-```javascript
+~~~javascript
 function is_game_over() {
   
   // game over logic goes here!
@@ -37,7 +37,7 @@ function is_game_over() {
     DOMStuff.gameOver(this.winner)
   }
 }
-```
+~~~
 
 In fact - the function `is_game_over` shouldn't be calling the DOM function anyway that should go elsewhere (directly in the game-loop)
 
