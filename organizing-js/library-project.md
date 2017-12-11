@@ -4,7 +4,7 @@ Let's extend our 'Library' example.
 
 2. All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user's input and store the new book objects into an array. Your code should look something like this:
 
-   ```javascript
+   ~~~javascript
    let myLibrary = []
 
    function Book() {
@@ -14,7 +14,7 @@ Let's extend our 'Library' example.
    function addBookToLibrary() {
      // do stuff here
    }
-   ```
+   ~~~
 
    ​
 

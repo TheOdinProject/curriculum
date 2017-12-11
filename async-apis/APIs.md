@@ -15,13 +15,17 @@ You'll want to switch out the city for the location you're requesting.  The spec
 If you haven't already, go ahead and paste the weather URL above into your browser...(we'll wait).
 
 Unless the implementation of that specific API has changed, you probably get an error like this:
+
 ~~~
 {"code":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}
 ~~~
+
 This brings us to another point about APIs.  In most cases you have to sign up and get an API key to use them. Obtaining the API key is as simple as signing up on their website and using it is usually as easy as pasting it into the URL:
+
 ~~~
 http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=1111111111
 ~~~
+
 (exactly how to include the key changes from service to service)
 
 Services like the OpenWeatherMap use API keys to track who is requesting the data they serve, and how much data they are requesting.  The reason they do this is so that people can't take advantage of their service. Running servers, especially large ones costs money, and while each current weather request (or whatever) is relatively cheap, if the amount of requests gets too high the cost could be significant.  Imagine using that API to create an amazing weather app that gets used all over the world....you could easily have thousands of people accessing that data every minute!
@@ -104,7 +108,8 @@ Simply adding the `{mode: 'cors'}` after the URL as shown above will solve our p
 
 ## Let's Do This
 For now we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
-~~~html
+
+~~~HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,7 +126,7 @@ For now we're going to keep all of this in a single HTML file. So go ahead and c
 
 In the script tag, lets start by selecting the image and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
 
-~~~html
+~~~HTML
 <script>
   const img = document.querySelector('img')
 </script>
@@ -129,7 +134,7 @@ In the script tag, lets start by selecting the image and assigning it to a varia
 
 Adding fetch with our URL from above is also relatively easy:
 
-~~~html
+~~~HTML
 <script>
   const img = document.querySelector('img')
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
@@ -141,7 +146,7 @@ Adding fetch with our URL from above is also relatively easy:
 
 You should now be able to open the HTML file in your browser, and while you won't see anything on the page, you _should_ have something logged in the console.  The trickiest part of this whole process is deciphering how to get to the data you desire from the server's response.  In this case, inspecting the browser's console will reveal that what's being returned is _another_ Promise... to get the data we need another `.then()` function.
 
-~~~html
+~~~HTML
 <script>
   const img = document.querySelector('img')
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
@@ -160,7 +165,7 @@ Now we have a JavaScript object and if you inspect it closely enough you'll find
 
 To get to the data we need to drill down through the layers of the object until we find what we want!
 
-~~~html
+~~~HTML
 <script>
   const img = document.querySelector('img')
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
@@ -175,7 +180,7 @@ To get to the data we need to drill down through the layers of the object until 
 
 Running the file should now log the URL of the image.  All that's left to do is set the source of the image that's on the page to the URL we've just accessed:
 
-~~~html
+~~~HTML
 <script>
   const img = document.querySelector('img')
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})

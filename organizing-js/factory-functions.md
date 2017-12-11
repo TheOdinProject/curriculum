@@ -1,5 +1,3 @@
-# Factory Functions and Modules
-
 ## What's wrong with constructors
 
 Object constructors are one of about a million ways to start organizing your code.  They are fairly common in the wild and are a fundamental building block of the JavaScript language.

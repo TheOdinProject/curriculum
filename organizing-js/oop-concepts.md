@@ -8,7 +8,7 @@ As you read these resources it might help to go back to some of the projects you
 
 ## Single Responsibility
 
-One of the most important things to remember as you craft your objects is the __Single Responsibility Principle__ which states that a class (or object or module.. you get the point) should only have _one_ responsibility.  Here's a really common example, most of our code has functions to update and write things to the DOM in addition to our application logic.  It's a _really_ good idea to separate out your DOM stuff from the application logic.
+One of the most important things to remember as you craft your objects is the __Single Responsibility Principle__ which states that a class (or object or module.. you get the point) should only have _one_ responsibility.  Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic.  It's a _really_ good idea to separate out your DOM stuff from the application logic.
 
 So instead of this:
 
