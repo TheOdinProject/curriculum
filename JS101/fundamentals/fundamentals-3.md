@@ -13,21 +13,8 @@ Let's write some functions!  Write these in the `script` tag of a skeleton html 
 
 For now just write each function and test the output with `console.log`.
 
-###   Warm up
-
 1. Write a function called `add7` that takes one number and returns that number + 7.
 2. Write a function called `multiply` that takes 2 numbers and returns their product.
 3. Write a function called `capitalize` that takes a string and returns that string with _only_ the first letter capitalized.  Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
    1. `lastLetter("abcd")` should return `"d"`
-
-###   A simple game
-
-1. Write a function that plays a single round of Rock Paper Scissors.  The function should take a string 'Rock', 'Paper' or 'Scissors', should randomly pick a choice for the computer and then return a string that declares the winner of the round like so: `"You Lose! Paper beats Rock"`
-   1. If the input is NOT an appropriate option, return a message that says `"Invalid input"`
-   2. make your function case insensitive (so users can input `rock`, `ROCK`, `RocK` or any other variation)
-2. Expand on the previous function by writing a NEW function called `game()`.  Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
-   1. At this point you should still just be using `console.log()` to display the results of each round and the winner at the end.
-   2. use `prompt()` to get input from the user. [Read the docs here if you need to.](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
-   3. Feel free to re-work your previous function if you need to.  Specifically, you might want to change the return value to something more useful.
-   4. Feel free to create more "helper" functions if you think it would be useful.
