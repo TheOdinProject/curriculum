@@ -368,6 +368,18 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
+  title: "Rock Paper Scissors",
+  title_url: "Rock Paper Scissors".parameterize,
+  description: "Rock Paper Scissors",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: true,
+  url: "/JS101/fundamentals/rock-paper-scissors-project.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
   title: "Clean Code",
   title_url: "Clean Code".parameterize,
   description: "tips for writing better looking and easier to maintain code.",
@@ -402,6 +414,17 @@ create_or_update_lesson(
   repo: 'javascript_curriculum'
 )
 
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Etch-a-Sketch project",
+  title_url: "etch-a-sketch-project".parameterize,
+  description: "etch-a-sketch-project",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: true,
+  url: "/JS101/etch-a-sketch-project.md",
+  repo: 'javascript_curriculum'
+)
 lesson_counter += 1
 create_or_update_lesson(
   title: "Fundamentals Part 5",
