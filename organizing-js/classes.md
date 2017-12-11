@@ -12,7 +12,7 @@ Since we've already gone fairly in depth with Constructors you don't have too mu
 2. [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently.  "Getters and Setters" are a useful feature!
 3. [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper.  Look especially at the 'extends' and 'Mixins' sections.  React (and other frameworks) uses classes in this way. You create your components and make them `extend` the core React component which gives you access to all their built-in functionality.
 
-## Project
+## Practice
 
 Go back to your "Library" example and refactor it to use `class` instead of plain constructors.
 
