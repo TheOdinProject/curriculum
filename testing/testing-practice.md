@@ -4,11 +4,11 @@ Let's practice!  This testing thing really is not that difficult, but it _is_ qu
 
 Write tests for the following functions, and then make the tests pass!
 
-1. `multiply(a, b)` simply takes 2 numbers and returns their product
+1. `capitalize(string)` takes a string and returns that string with the first character capitalized. 
 
-2. `capitalize(string)` takes a string and returns that string with the first character capitalized. 
+2. `reverseString(string)` takes an array and returns it reversed.
 
-3. `reverseString(string)` takes an array and returns it reversed.
+3. A `calculator` object that contains the basic operations: `add`, `subtract`, `divide`, and `multiply`.
 
 4. Caesar Cipher. [Read about it on this website](http://practicalcryptography.com/ciphers/caesar-cipher/)
 
@@ -37,3 +37,4 @@ Write tests for the following functions, and then make the tests pass!
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+
