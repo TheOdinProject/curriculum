@@ -1295,6 +1295,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [D1789s solution (Easy)](https://github.com/D1789/project5) - [View in Browser](http://htmlpreview.github.io/?https://github.com/D1789/project5/blob/master/index.html)
 * [D1789s solution (Difficult)](https://github.com/D1789/project6) - [View in Browser](http://htmlpreview.github.io/?https://github.com/D1789/project6/blob/master/index.html)
 * [Kimberlee's Solution (Easy)](https://github.com/KimDube/web-development/tree/master/google-homepage) - [View in Browser](https://kimdube.github.io/web-development/google-homepage/)
+* [SamJamCul's Solution (Easy)](https://github.com/SamJamCul/google-homepage) - [View in Browser](https://samjamcul.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
