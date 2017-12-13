@@ -2401,8 +2401,8 @@ create_or_update_lesson(
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/project_final_js.md",
-  repo: 'curriculum'
+  url: "/project_final_js.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
@@ -2413,8 +2413,8 @@ create_or_update_lesson(
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/conclusion.md",
-  repo: 'curriculum'
+  url: "/conclusion.md",
+  repo: 'javascript_curriculum'
 )
 
 # ************************************************
