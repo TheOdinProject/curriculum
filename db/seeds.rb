@@ -1964,14 +1964,14 @@ create_or_update_lesson(
 )
 
 # ************************************************
-# CREATE JAVASCRIPT/JQUERY COURSE
+# CREATE JAVASCRIPT COURSE
 # ************************************************
 Rails.logger.info "\n\n***** STARTING COURSE: Javascript *****"
 
 course_position += 1
 course = create_or_update_course(
-  title: "Javascript and jQuery",
-  title_url: "Javascript and jQuery".parameterize,
+  title: "Javascript",
+  title_url: "Javascript".parameterize,
   description: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This course will wrap everything you've learned at The Odin Project into one, final capstone project.",
   position: course_position,
 )
@@ -1984,83 +1984,35 @@ course = create_or_update_course(
 
 section_position += 1
 section = create_or_update_section(
-  title: "The Basics and the Browser",
-  title_url: "The Basics and the Browser".parameterize,
+  title: "Introduction",
+  title_url: "Introduction".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "We'll zoom through the basics of Javascript and how it's used in the browser with jQuery.  This where things get really fun, since you get to immediately see everything you're building in the browser.  By the end of this section, you'll actually know everything you need to build fun and interesting front-ends but, of course, it's really just the beginning."
+  description: "Welcome to the JavaScript course!  Start here!"
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "How This Course Will Work",
-  title_url: "How This Course Will Work".parameterize,
-  description: "Let's get you started on the right foot.",
+  title: "How this course will work",
+  title_url: "How this course will work".parameterize,
+  description: "How this course will work",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/introduction.md",
-  repo: 'curriculum'
+  url: "/main-course-introduction/introduction.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Javascript Basics",
-  title_url: "Javascript Basics".parameterize,
-  description: "A deep dive back into the basics to make sure you've got the proper foundation for what's coming next.",
+  title: "A quick review",
+  title_url: "A quick review".parameterize,
+  description: "A quick review",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/js_basics.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "On Screen Calculator",
-  title_url: "On Screen Calculator".parameterize,
-  description: "Get warmed up with some JS calisthenics and by building an on-screen calculator.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: true,
-  url: "/javascript/project_js_basics.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "jQuery Basics",
-  title_url: "jQuery Basics".parameterize,
-  description: "Another deep dive into the basics, this time focusing on using jQuery to manipulate elements on the page.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/jq_basics.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Manipulating the DOM with jQuery",
-  title_url: "Manipulating the DOM with jQuery".parameterize,
-  description: "Create a single-page restaurant app completely using Javascript and jQuery.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: true,
-  url: "/javascript/project_jq_basics.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Organizing Your Code and More",
-  title_url: "Organizing Your Code and More".parameterize,
-  description: "Here we'll cover everything from using best practices for organizing your code to helpful libraries and security.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/organizing_code.md",
-  repo: 'curriculum'
+  url: "/main-course-introduction/js101-review.md",
+  repo: 'javascript_curriculum'
 )
 
 # +++++++++++
@@ -2069,144 +2021,132 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Events, Effects and Widgets",
-  title_url: "Events, Effects and Widgets".parameterize,
+  title: "Organizing your JavaScript Code",
+  title_url: "Organizing JavaScript".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "Events drive just about everything you'll do with Javascript in the browser. We'll take a closer look at how they work and the kinds of things that they allow you to do."
+  description: "This series digs in to the things you need to write larger and larger applications with JavaScript.  This is where it gets real!"
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Working with Events and Effects",
-  title_url: "Working with Events and Effects".parameterize,
-  description: "Learn how to use events to drive your user experience.",
+  title: "Introduction",
+  title_url: "organizing introduction".parameterize,
+  description: "introduction",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/events_effects.md",
-  repo: 'curriculum'
+  url: "/organizing-js/organizing-introduction.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "jQuery and the DOM",
-  title_url: "jQuery and the DOM".parameterize,
-  description: "Build a Snake game, just like you probably played in 2-color on your first cell phone.",
+  title: "Objects and Object Constructors",
+  title_url: "Objects and Object Constructors".parameterize,
+  description: "Covers plain old javascript objects and object constructors",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/organizing-js/objects-constructors.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Library",
+  title_url: "Library".parameterize,
+  description: "Library",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/project_events_effects.md",
-  repo: 'curriculum'
+  url: "/organizing-js/library-project.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Using jQuery UI to Build Widgets",
-  title_url: "Using jQuery UI to Build Widgets".parameterize,
-  description: "See the fun side of jQuery by checking out some of the nifty widgets you can build with it.",
+  title: "Factory Functions and the Module Pattern",
+  title_url: "Factory Functions and the Module Pattern".parameterize,
+  description: "Factory Functions and the Module Pattern",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/widgets.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Creating an Image Carousel/Slider",
-  title_url: "Creating an Image Carousel/Slider".parameterize,
-  description: "Get some practice building widgets of your own by creating an image carousel just like what you find on many websites in the wild.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: true,
-  url: "/javascript/project_widgets.md",
-  repo: 'curriculum'
-)
-
-# +++++++++++
-# SECTION
-# +++++++++++
-
-section_position += 1
-section = create_or_update_section(
-  title: "Deeper into Javascript",
-  title_url: "Deeper into Javascript".parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: "You can do a lot with just basic Javascript, jQuery and a hacker mindset.  But this section will take you deeper into how Javascript is actually doing things and it will give you the tools to produce more advanced functionality for your sites.  Some of the previous projects have probably tested the boundaries of your understanding of Javascript, and here we'll fix that."
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Objects, 'Classes', and Prototypes",
-  title_url: "Objects, 'Classes', and Prototypes".parameterize,
-  description: "Learn how to effectively use Javascript objects and DRY up your code with Prototypes.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/objects_prototypes.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Scope and Closures",
-  title_url: "Scope and Closures".parameterize,
-  description: "Scope gets a bit tricky in Javascript because functions are being passed around and called in many different contexts.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/scope_closures.md",
-  repo: 'curriculum'
+  url: "/organizing-js/factory-functions.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
   title: "Tic Tac Toe",
   title_url: "Tic Tac Toe".parameterize,
-  description: "Let's bring the classic Tic Tac Toe game to the browser.",
+  description: "Tic Tac Toe",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/project_scopes_closures.md",
-  repo: 'curriculum'
+  url: "/organizing-js/tic-tac-toe-project.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Comparing Javascript and Ruby: Going Functional",
-  title_url: "Comparing Javascript and Ruby: Going Functional".parameterize,
-  description: "A brief primer for translating your Ruby knowledge into Javascript ",
+  title: "Classes",
+  title_url: "JavaScript Classes".parameterize,
+  description: "Classes",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/comparing_to_ruby.md",
-  repo: 'curriculum'
+  url: "/organizing-js/classes.md",
+  repo: 'javascript_curriculum'
 )
+
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Really Understanding Functions in Javascript",
-  title_url: "Really Understanding Functions in Javascript".parameterize,
-  description: "Functions are first class citizens in Javascript, and here you'll see why.",
+  title: "ES6 Modules",
+  title_url: "ES6 Modules".parameterize,
+  description: "ES6 Modules",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/deep_dive_functions.md",
-  repo: 'curriculum'
+  url: "/organizing-js/es6-modules.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Minesweeper",
-  title_url: "Minesweeper".parameterize,
-  description: "It's time to get a bit more complex by bringing back minesweeper, the only decent game that used to come with Windows back in the day.",
+  title: "Restaurant Page",
+  title_url: "Restaurant Page".parameterize,
+  description: "Restaurant Page",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/project_functions.md",
-  repo: 'curriculum'
+  url: "/organizing-js/restaurant-project.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "OOP Principles",
+  title_url: "OOP Principles".parameterize,
+  description: "OOP Principles",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/organizing-js/oop-concepts.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Todo List",
+  title_url: "Todo List".parameterize,
+  description: "Todo List",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: true,
+  url: "/organizing-js/project.md",
+  repo: 'javascript_curriculum'
 )
 
 # +++++++++++
@@ -2215,71 +2155,71 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Advanced Browser Work",
-  title_url: "Advanced Browser Work".parameterize,
+  title: "JavaScript in the Real World",
+  title_url: "JavaScript in the Real World".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "There's a whole lot more to using Javascript in the browser than just manipulating simple DOM elements with jQuery.  If you want to grab data from external sites or your own back end, submit forms, or handle more complicated games, you'll need to dig deeper into how Javascript handles things like callbacks.  Here we'll also cover how to build games using HTML5's `<canvas>` element, which lets you use Javascript logic to draw shapes."
+  description: "Let's look at a few more practical applications of JavaScript and learn about a few useful tools that are widely used in the industry."
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Loading Javascript in the Browser",
-  title_url: "Loading Javascript in the Browser".parameterize,
-  description: "A very quick look at how and when to load Javascript.",
+  title: "Linting",
+  title_url: "Linting".parameterize,
+  description: "Linting",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/js_to_browser.md",
-  repo: 'curriculum'
+  url: "/js-in-the-real-world/linting.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Callbacks: Living in an Event-Driven World",
-  title_url: "Callbacks: Living in an Event-Driven World".parameterize,
-  description: "This will connect what you know about events with a standard pattern for hooking into those events -- the callback.",
+  title: "Dynamic User Interface Interactions",
+  title_url: "User Interface Interactions".parameterize,
+  description: "UI Interactions",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/event_driven.md",
-  repo: 'curriculum'
+  url: "/js-in-the-real-world/ui-Interactions.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Callbacks",
-  title_url: "Callbacks".parameterize,
-  description: "A chance to apply what you've learned about callbacks by building another in-browser app.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: true,
-  url: "/javascript/project_callbacks.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Using Canvas to Draw and More",
-  title_url: "Using Canvas to Draw and More".parameterize,
-  description: "Once you can use canvas, you're only limited by your creativity (and maybe your geometry skills).",
+  title: "Forms",
+  title_url: "Forms".parameterize,
+  description: "Forms",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/canvas.md",
-  repo: 'curriculum'
+  url: "/js-in-the-real-world/forms.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Building Games with Canvas",
-  title_url: "Building Games with Canvas".parameterize,
-  description: "You'll see how much fun it can be to build with canvas as we bring back the classics with Missile Command!",
+  title: "Webpack 2",
+  title_url: "Webpack 2".parameterize,
+  description: "Webpack 2",
   position: lesson_counter,
   section_id: section.id,
-  is_project: true,
-  url: "/javascript/project_canvas.md",
-  repo: 'curriculum'
+  is_project: false,
+  url: "/js-in-the-real-world/webpack-2.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "ES?",
+  title_url: "ES?".parameterize,
+  description: "ES?",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/js-in-the-real-world/es6-features.md",
+  repo: 'javascript_curriculum'
 )
 
 # +++++++++++
@@ -2288,96 +2228,132 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Better Forms with jQuery and AJAX",
-  title_url: "Better Forms with jQuery and AJAX".parameterize,
+  title: "Asynchronous JavaScript and APIs",
+  title_url: "Asynchronous JavaScript".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section you'll learn about AJAX, the technology which allows you to send data from the browser to your web application without needing to refresh the page.  It's commonly used with forms, but really represents a whole world of possibility for crafting performant user experiences."
+  description: "Asynchronous JavaScript"
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Validating Form Inputs Using jQuery",
-  title_url: "Validating Form Inputs Using jQuery".parameterize,
-  description: "You're an expert in forms by now, but here we'll focus on using jQuery to hook into them.",
+  title: "JSON",
+  title_url: "JSON".parameterize,
+  description: "JSON",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/jquery_forms.md",
-  repo: 'curriculum'
+  url: "/async-apis/json.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Validating a Form with jQuery",
-  title_url: "Validating a Form with jQuery".parameterize,
-  description: "A chance to use jQuery's Validate plugin and then roll your own form validation.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: true,
-  url: "/javascript/project_forms.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Submitting a Form Without Reloading by Using AJAX",
-  title_url: "Submitting a Form Without Reloading by Using AJAX".parameterize,
-  description: "AJAX is the missing link between a seamless client-side experience and your server-side code.",
+  title: "Async",
+  title_url: "Async".parameterize,
+  description: "Async",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/ajax.md",
-  repo: 'curriculum'
+  url: "/async-apis/promises-async.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Infinite Scroll and Submitting a Form with AJAX",
-  title_url: "Infinite Scroll and Submitting a Form with AJAX".parameterize,
-  description: "We'll play with using AJAX calls to an open API called the OMDB, creating a simple submission form and a movies display that never stops giving you movies when you scroll down.",
+  title: "Working with APIs",
+  title_url: "Working with APIs".parameterize,
+  description: "Working with APIs",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/async-apis/APIs.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Weather App",
+  title_url: "Weather App".parameterize,
+  description: "Weather App",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/project_ajax_forms.md",
-  repo: 'curriculum'
+  url: "/async-apis/project.md",
+  repo: 'javascript_curriculum'
 )
 
 # +++++++++++
-# SECTION
+# section
 # +++++++++++
 
 section_position += 1
 section = create_or_update_section(
-  title: "Linking to APIs and Your Rails Back End",
-  title_url: "Linking to APIs and Your Rails Back End".parameterize,
+  title: "Testing JavaScript",
+  title_url: "Testing JavaScript".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "A real web app needs a back end in order to persist its data and do sensitive operations.  Here you'll learn how to handle use AJAX to send data requests to your Rails back end.  You'll also get a chance to work with external APIs like Google Maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future."
+  description: "Test driven development is an important skill in today's dev world.  This section digs into the details of writing automated JavaScript tests."
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Working with Javascript APIs",
-  title_url: "Working with Javascript APIs".parameterize,
-  description: "Working with external APIs from the client side can be a great way to easily add varied and dynamic functionality to your sites.",
+  title: "Testing Basics",
+  title_url: "Testing Basics".parameterize,
+  description: "Testing Basics",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/javascript_apis.md",
-  repo: 'curriculum'
+  url: "/testing/testing-1.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Putting Google Maps Onto Your Site",
-  title_url: "Putting Google Maps Onto Your Site".parameterize,
-  description: "Just about every business has a contact page with a map pointing to their location.  Build one with the Google Maps API.",
+  title: "Testing Practice",
+  title_url: "Testing Practice".parameterize,
+  description: "Testing Practice",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/project_apis.md",
-  repo: 'curriculum'
+  url: "/testing/testing-practice.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "More Testing",
+  title_url: "More Testing".parameterize,
+  description: "More Testing",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/testing/testing-2.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Battleship",
+  title_url: "Battleship".parameterize,
+  description: "Battleship",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: true,
+  url: "/testing/battleship-project.md",
+  repo: 'javascript_curriculum'
+)
+# +++++++++++
+# section
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+  title: "javascript and rails",
+  title_url: "javascript and rails".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "a real web app needs a back end in order to persist its data and do sensitive operations.  here you'll learn how to handle use ajax to send data requests to your rails back end.  you'll also get a chance to work with external apis like google maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future."
 )
 
 lesson_counter += 1
@@ -2388,8 +2364,8 @@ create_or_update_lesson(
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/rails_backend.md",
-  repo: 'curriculum'
+  url: "/js-rails/rails_backend.md",
+  repo: 'javascript_curriculum'
 )
 
 lesson_counter += 1
@@ -2400,93 +2376,8 @@ create_or_update_lesson(
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/project_rails_backend.md",
-  repo: 'curriculum'
-)
-
-# +++++++++++
-# SECTION
-# +++++++++++
-
-section_position += 1
-section = create_or_update_section(
-  title: "Server Side Javascript and Javascript Frameworks",
-  title_url: "Server Side Javascript and Javascript Frameworks".parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: "This is an **OPTIONAL** section where you will learn about using Javascript to run your server (instead of Ruby) and also about Javascript frameworks which let you build a full website as a single page run by Javascript to create blazing fast user experiences."
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Using Templates",
-  title_url: "Using Templates".parameterize,
-  description: "Templating brings the magical re-usability of layouts to the client side.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/templating.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Javascript MV* Frameworks Like Angular.js and Backbone.js",
-  title_url: "Javascript MV* Frameworks Like Angular.js and Backbone.js".parameterize,
-  description: "The new crop of Javascript frameworks will help organize your tangled mess of AJAX calls, templates, and jQuery updates and will turbo charge your ability to produce excellent front ends.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/js_frameworks.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Building Single Page Websites with Angular.js and Backbone.js",
-  title_url: "Building Single Page Websites with Angular.js and Backbone.js".parameterize,
-  description: "Take a framework of your choice for a test drive with these established tutorials.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: true,
-  url: "/javascript/project_js_frameworks.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Node.js and Server-Side Javascript",
-  title_url: "Node.js and Server-Side Javascript".parameterize,
-  description: "These days you never have to leave your beloved Javascript behind because now it can run on the server side too with Node.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/server_side_js.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Node.js",
-  title_url: "Node.js".parameterize,
-  description: "Fire up a Node server and play around with it, because that's how we learn.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: true,
-  url: "/javascript/project_node.md",
-  repo: 'curriculum'
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Workflow Tools, Tech Stacks and Dependency Management",
-  title_url: "Workflow Tools, Tech Stacks and Dependency Management".parameterize,
-  description: "A few tools that are meant to clean up your worfklows.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/workflow_tools.md",
-  repo: 'curriculum'
+  url: "/js-rails/project_rails_backend.md",
+  repo: 'javascript_curriculum'
 )
 
 # +++++++++++
@@ -2500,18 +2391,6 @@ section = create_or_update_section(
   course_id: course.id,
   position: section_position,
   description: "You've learned everything you need and all that remains to do is apply that knowledge to a worthy task.  In this section, we'll briefly cover how to test Javascript using Jasmine and then get you started with your capstone project so you can show off your range of skills."
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Javascript Testing with Jasmine",
-  title_url: "Javascript Testing with Jasmine".parameterize,
-  description: "...because if you can't test it, you won't know when you've broken it.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/javascript/js_testing.md",
-  repo: 'curriculum'
 )
 
 lesson_counter += 1
