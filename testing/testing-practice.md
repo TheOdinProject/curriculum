@@ -19,7 +19,7 @@ Write tests for the following functions, and then make the tests pass!
 
 5. Array Analysis.  Write a function that takes an array of numbers and returns an object with the following properties: `average`, `min`, `max`, and `length` 
 
-   ```javascript
+   ~~~javascript
    const object = analyze([1,8,3,4,2,6])
 
    object == {
@@ -28,7 +28,7 @@ Write tests for the following functions, and then make the tests pass!
      max: 8,
      length: 6
    }
-   ```
+   ~~~
 
    ​
 
