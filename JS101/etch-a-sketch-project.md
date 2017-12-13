@@ -39,3 +39,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 - Add your solution below this line!
 * [AttilaTheHen's Solution](https://github.com/AttilaTheHen/SketchPad) - [View in browser](https://attilathehen.github.io/SketchPad/)
+* [codyloyd's solution](https://github.com/codyloyd/odin-etch-a-sketch) - [View in browser](http://codyloyd.com/odin-etch-a-sketch/)
