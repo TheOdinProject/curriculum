@@ -35,3 +35,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - Add your solution below this line!
 - [PongtheGreat's solution](https://github.com/PongtheGreat/RPS) - [View in browser](https://pongthegreat.github.io/RPS/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-rock-paper-scissors)
+- [Tshepo Mohlamonyan's solution](https://github.com/blavkboy/rock_paper_scissors.git)
