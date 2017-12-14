@@ -450,9 +450,12 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 
 1. Do the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Check out the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) for instructions on the project.
 2. Go back to your "Rock Paper Scissors" game from a previous lesson and give it a simple UI so that the player can play the game by clicking on buttons rather than typing their answer in a prompt.
-   1. For each round display the user's selection, the computer's selection and the winner.
-   2. Display the running score.
-   3. You will likely have to refactor (rework/rewrite) your original code to make it work for this.  That's OK!  Reworking old code is an important part of the programmer's life.
+   1. Make a git branch for your work!
+   2. For now, remove the logic that plays exactly five rounds.
+   3. Create three buttons, one for each selection.  Add an event listener to the buttons that calls your `playRound` function with the correct `playerSelection` every time a button is clicked.  (you can keep the console.logs for this step)
+   4. Add a `div` for displaying results and change all of your `console.log`s into DOM methods.
+   5. Display the running score, and announce a winner of the game once one player reaches 5 points.
+   6. You will likely have to refactor (rework/rewrite) your original code to make it work for this.  That's OK!  Reworking old code is an important part of the programmer's life.
 
 ### Additional Resources
 

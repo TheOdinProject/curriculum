@@ -1,4 +1,4 @@
-We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! 
+We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson.  When you get there don't forget to come back and add  your link!
 
 ## Your assignment
 
@@ -34,5 +34,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 - Add your solution below this line!
 - [PongtheGreat's solution](https://github.com/PongtheGreat/RPS) - [View in browser](https://pongthegreat.github.io/RPS/)
-- [codyloyd's solution](https://github.com/codyloyd/odin-rock-paper-scissors)
+- [codyloyd's solution](https://github.com/codyloyd/odin-rock-paper-scissors) - [View in browser](http://codyloyd.com/odin-rock-paper-scissors/)
 - [Tshepo Mohlamonyan's solution](https://github.com/blavkboy/rock_paper_scissors.git)
