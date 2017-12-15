@@ -24,7 +24,7 @@ We will teach you the art of actually writing these tests later in the course.  
 
 ### Good Luck!
 
-Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the README for getting set up.
+Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the README for getting set up.  Solutions for the exercises can be found on the 'solutions' branch of that repo.
 
 Complete the following exercises:
 

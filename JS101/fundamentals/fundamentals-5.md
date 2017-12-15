@@ -27,6 +27,7 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 - caesar
 - fibonacci
 - pigLatin
+- (Solutions for these exercises can be found in the 'solutions' branch of that repo)
 
 ###  Want MORE practice?
 
