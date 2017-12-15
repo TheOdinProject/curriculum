@@ -39,3 +39,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Tshepo Mohlamonyan's solution](https://github.com/blavkboy/rock_paper_scissors.git)
 - [g0-0py's solution](https://github.com/g0-0py/Rock-Paper-Scissors) - [View in browser](https://g0-0py.github.io/Rock-Paper-Scissors/)
 - [Kimberlee's solution](https://github.com/KimDube/web-development/tree/master/rock-paper-scissors) - [View in browser](https://kimdube.github.io/web-development/rock-paper-scissors/)
+- [SamJamCul's solution](https://github.com/SamJamCul/rock-paper-scissors) - [View in browser](https://samjamcul.github.io/rock-paper-scissors/)
