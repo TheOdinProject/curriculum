@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - Add your solution below this line!
 - [ThirtyThreeB's solution](https://github.com/ThirtyThreeB/rock-paper-scissors) - [View in browser](https://thirtythreeb.github.io/rock-paper-scissors/)
 - [PongtheGreat's solution](https://github.com/PongtheGreat/RPS) - [View in browser](https://pongthegreat.github.io/RPS/)
-- [codyloyd's solution](https://github.com/codyloyd/odin-rock-paper-scissors) - [View in browser](http://codyloyd.com/odin-rock-paper-scissors/)
+- [codyloyd's solution](https://github.com/codyloyd/odin-rock-paper-scissors) - [GUI version!](http://codyloyd.com/odin-rock-paper-scissors/)
 - [Tshepo Mohlamonyan's solution](https://github.com/blavkboy/rock_paper_scissors.git)
 - [g0-0py's solution](https://github.com/g0-0py/Rock-Paper-Scissors) - [View in browser](https://g0-0py.github.io/Rock-Paper-Scissors/)
+- [Kimberlee's solution](https://github.com/KimDube/web-development/tree/master/rock-paper-scissors) - [View in browser](https://kimdube.github.io/web-development/rock-paper-scissors/)
