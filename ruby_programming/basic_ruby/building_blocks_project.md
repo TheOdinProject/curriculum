@@ -327,6 +327,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Woxen's solution](https://github.com/woxen/Ruby-Projects/blob/master/Odin%20Projects/Odin1.rb)
 * [Frances' solution](https://github.com/FMorrison87/git_test2017/blob/master/RubyProjects/Ceaser_Cipher.rb)
 * [Wilmar's solution](https://github.com/wmunoz/caesar_cipher)
+
 ### Project 2: Stock Picker
 
 <div class="lesson-content__panel" markdown="1">
