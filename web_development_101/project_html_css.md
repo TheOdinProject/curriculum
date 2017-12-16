@@ -1297,7 +1297,9 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Kimberlee's Solution (Easy)](https://github.com/KimDube/web-development/tree/master/google-homepage) - [View in Browser](https://kimdube.github.io/web-development/google-homepage/)
 * [SamJamCul's Solution (Easy)](https://github.com/SamJamCul/google-homepage) - [View in Browser](https://samjamcul.github.io/google-homepage/)
 * [SSardorf's Solution (Easy)](https://github.com/SSardorf/google-homepage) - [View in Browser](https://ssardorf.github.io/google-homepage/)
+* [Fajri Fadli's Solution (Easy)](https://github.com/FajriFadli/google-homepage) - [View in Browser](https://fajrifadli.github.io/google-homepage/)
 * [Laura Ilona's Solution (Easy)](https://github.com/laurailona/google_homepage) - [View in Browser](https://laurailona.github.io/google_homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
