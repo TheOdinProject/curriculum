@@ -439,9 +439,9 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Final Project",
-  title_url: "Final Project".parameterize,
-  description: "Final Project",
+  title: "Calculator",
+  title_url: "Calculator".parameterize,
+  description: "Calculator",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
