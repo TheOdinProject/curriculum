@@ -33,5 +33,6 @@ Here are some use cases (abilities you project needs to have):
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [codyloyd's solution](https://github.com/codyloyd/odin-calculator) - [View in browser](http://codyloyd.com/odin-calculator/)
 
 
