@@ -1,4 +1,4 @@
-# Project: Building your Resume
+### Introduction
 
 The goal of a resume is to get them interested enough to start a conversation.  From there, it's on you to speak intelligently about the things you've done. So don't treat the resume as the catch-all repository of your whole life -- it's more of a focused marketing tool designed to make you seem worth taking another look at.
 
@@ -15,6 +15,6 @@ Remember: ONE PAGE.
 * [ResumeRepublic.com has a free tier with sample online resumes](https://www.resumerepublic.com/)
 * [Formatting could use some work, but here's an example resume from CareerCup.com](http://www.careercup.com/resume)
 
-#### Optional Reading
+### Optional Reading
 
 * [Getting Your Résumé Read, by Joel Spolsky](http://www.joelonsoftware.com/articles/ResumeRead.html)
