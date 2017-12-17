@@ -161,7 +161,7 @@ If you're using constructors to make your objects it is best to define functions
 
 ### Recommended Method for Prototypal Inheritance
 
-So far you have seen several ways of making an object inherit the prototype from another object.  At this point in history the recommended way of setting an Objects prototype uses `Object.create` (and [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method.)  `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add.  For our purposes you use it like so:
+So far you have seen several ways of making an object inherit the prototype from another object.  At this point in history the recommended way of setting the prototype of an object is `Object.create` ( [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method.)  `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add.  For our purposes you use it like so:
 
 ~~~javascript
 function Student() {
@@ -206,6 +206,7 @@ function EighthGrader(name) {
   this.grade = 8
 }
 
+// don't do this!!!
 EighthGrader.prototype = Student.prototype
 
 function NinthGrader(name) {
@@ -213,11 +214,13 @@ function NinthGrader(name) {
   this.grade = 9
 }
 
+// noooo! not again!
 NinthGrader.prototype = Student.prototype
+
 NinthGrader.prototype.sayName = function() {console.log("HAHAHAHAHAHA")}
 
 const carl = new EighthGrader("carl")
 carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ~~~
 
-
+If we had used `Object.create` in this example then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.
