@@ -13,3 +13,21 @@
       class: "button #{next_lesson_button_state(lesson)} lesson-button-group__item lesson-button"
   %>
 <% end %>
+
+
+<script>
+  // Fire an event whenever a user marks a lesson completed on the individual lesson page
+  $('[title="Mark lesson complete"]').on('click', function(e) {
+    _gaq.push(['_trackEvent', 'lesson_completion', 'mark_completed', window.location.href, 1]);
+  });
+
+  // Fire an event whenever a user marks a lesson  uncompleted on the individual lesson page
+  $('[title="Mark lesson incomplete"]').on('click', function(e) {
+    _gaq.push(['_trackEvent', 'lesson_completion', 'mark_not_completed', window.location.href, 1]);
+  });
+
+  // Fire an event when a user clicks on the next lesson navigation link in the individual lesson page
+  $('[title^="Move on to"]').on('click', function(e) {
+    _gaq.push(['_trackEvent', 'lesson_navigation', 'click_next_lesson_link', 'lesson_page', 1]);
+  });
+</script>
