@@ -19,6 +19,7 @@ In this project you'll clone the website of one of the most design-forward compa
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jonathan Yiv's Solution](https://github.com/JonathanYiv/old-apple-homepage) - [View in Browser](http://jonathanyiv.com/old-apple-homepage/)
 * [yilmazgunalp's Solution](https://github.com/yilmazgunalp/apple) - [View in Browser](https://yilmazgunalp.github.io/apple)
 * [Justine's Solution](https://github.com/justinemar/justinemar.github.io/tree/master/apple) - [View in Browser](https://justinemar.github.io/apple/)
 * [Jeff's Solution](https://github.com/jmbothe/apple-landing-page) - [View in Browser](https://jmbothe.github.io/apple-landing-page/)
