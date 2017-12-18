@@ -124,12 +124,18 @@ player2.sayName() // logs 'also steve'
 
 ### Exercise
 
-Write a "Library" script for storing books.  Use an Object Constructor to create objects that have the book's `title`, `author`,  the number of `pages`, and whether or not you have `read` the book
+Write a constructor for making "book" objects.  We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`,  the number of `pages`, and whether or not you have `read` the book
 
 Put a function into the constructor that can report the book info like so
 
 ~~~javascript
 book.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
+~~~
+
+note: it is almost _always_ best to `return` things rather than putting `console.log()` directly into the function.  In this case, return the `info` string and log it after the function has been called:
+
+~~~javascript
+console.log(theHobbit.info());
 ~~~
 
 ## The Prototype

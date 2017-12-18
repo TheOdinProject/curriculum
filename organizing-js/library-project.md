@@ -1,6 +1,6 @@
-Let's extend our 'Library' example.
+Let's extend the 'Book' example from the previous lesson and turn it into a small Library app.
 
-1. Set up your project with skeleton HTML/CSS and JS files.
+1. If you haven't already, set up your project with skeleton HTML/CSS and JS files.
 
 2. All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user's input and store the new book objects into an array. Your code should look something like this:
 
@@ -22,9 +22,13 @@ Let's extend our 'Library' example.
 
 4. Add a "NEW BOOK" button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether or not it's been read and anything else you might want.
 
-5. Add a button on each book's display to remove the book from the library.
+5. Add a button on each book's display to remove the book from the library. 
+
+   1. You will need to associate your DOM elements with the actual book objects in some way.  One easy solution is giving them a data-attribute that corresponds to the index of the library array.
 
 6. Add a button on each book's display to change it's `read` status.
+
+   1. To facilitate this you will want to create the function that toggles a book's `read` status on your `Book` prototype.
 
 7. Optional -we haven't learned any techniques for actually storing our data anywhere, so when the user refreshes the page all of their books will disappear! If you want, you are capable of adding some persistence to this library app using one of the following techniques:
 
@@ -36,3 +40,4 @@ Let's extend our 'Library' example.
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 - Add your solution below this line!
+- [codyloyd's solution](https://github.com/codyloyd/odin-library) - [View in browser](http://codyloyd.com/odin-library/)
