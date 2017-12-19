@@ -44,3 +44,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [artkol's solution](https://github.com/artkol/simple-rps-game) - [View in browser](https://artkol.github.io/simple-rps-game/)
 - [Shanemcc94's solution](https://github.com/shanemcc94/rock-paper-scissors) - [View in browser](https://shanemcc94.github.io/rock-paper-scissors/)
 - [dejanmijatovic's solution](https://github.com/Anhatel/rock-paper-scissors)
+- [technicolor1's solution](https://github.com/technicolor1/odin-rockpaperscissors) - [View in browser](https://technicolor1.github.io/odin-rockpaperscissors/)
