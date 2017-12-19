@@ -212,6 +212,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [elmasojuaso Solution (Difficult)](https://github.com/elmasojuaso/google-search-results) - [View in browser](https://elmasojuaso.github.io/google-search-results/)
 * [Lorrie Pearson's Solution (Difficult)](https://lorrie01.github.io/google-homepage/) - [View in browser](https://lorrie01.github.io/google-homepage/)
 * [KrystynaJG's Solution (Easy)](https://github.com/KrystynaJG/google-homepage) - [View in browser](https://krystynajg.github.io/google-homepage/)
+* [Emma Macey's Solution(Easy)] (https://github.com/macey26/google-homepage)  [view in browser](https://macey26.github.io/google-homepage/)
 * [RaduMatees's solution (Easy)](https://github.com/RaduMatees/google-homepage)
 * [MadScientisto's Solution (Easy)](https://github.com/MadScientisto/google-homepage) - [View in browser](https://madscientisto.github.io/google-homepage/)
 * [Putra Isyraq's Solution (Easy)](https://github.com/putraisyraq/google-homepage) - [View in browser](https://putraisyraq.github.io/google-homepage/)
