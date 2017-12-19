@@ -1,7 +1,7 @@
 ### Introduction
 In this simple project, you'll be breaking apart the website for a popular design magazine with which you're probably familiar by now -- [Smashing Magazine](http://smashingmagazine.com).  The goal for this exercise is to start training yourself to think in terms of visual hierarchy, typography and design principles.
 
-Your job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.  For inspiration, check out [this image from vanseodesign.com](http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png) which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right.  Your final product will look much like the site on the right.
+Your job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.  For inspiration, check out [this image from vanseodesign.com](https://web.archive.org/web/20170628134444/http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png) which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right.  Your final product will look much like the site on the right.
 
 This is also an opportunity to get better at positioning `<div>` elements without worrying too much about what's inside them, which will serve you well later.
 
@@ -31,6 +31,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/design-teardown) - [View in Browser](http://jonathanyiv.com/design-teardown/)
 * [yilmazgunalp's Solution](https://github.com/yilmazgunalp/design-tear-down) - [View in Browser](https://yilmazgunalp.github.io/design-tear-down/)
 * [Jeff's Solution](https://github.com/jmbothe/smashing-homepage) - [View in Browser](https://jmbothe.github.io/smashing-homepage/)
 * [Austin's solution](https://github.com/CouchofTomato/smashing_design_teardown) - [View in Browser](https://couchoftomato.github.io/smashing_design_teardown/)

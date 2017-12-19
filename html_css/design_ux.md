@@ -40,7 +40,6 @@ For if you just can't get enough UX/Design.  Don't get too sidetracked... eye on
 * [Understanding Visual Hierarchy in Web Design from TutsPlus](http://webdesign.tutsplus.com/articles/design-theory/understanding-visual-hierarchy-in-web-design/)
 * [The Hierarchy of Design Elements from Jesse James Garrett](http://www.jjg.net/elements/pdf/elements_ch02.pdf)
 * [Videos from an Adobe Dev Evangelist](http://designupdate.com/) that describe various aspects of design.
-* [Part 1 of TutsPlus.com's 15-part Web Design series](http://webdesign.tutsplus.com/articles/design-theory/understanding-visual-hierarchy-in-web-design/) (with links to the others)
 * [Using Photoshop to Design Interfaces](http://nathanbarry.com/how-to-use-photoshop-to-design-interfaces/)
 * [A more abstract article on "Learning to See" from ia.net](http://ia.net/blog/learning-to-see/)
 * [Usability 101 for Startups from Ripul Kumar](https://medium.com/design-ux/dc849621262f)

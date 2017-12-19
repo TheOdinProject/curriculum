@@ -16,7 +16,7 @@ In this section, you'll get a look at how to use CSS to lay out the elements of 
 1. Read [Basic Grids from CSS-Tricks](http://css-tricks.com/dont-overthink-it-grids/).
 2. Read [Fluid Grids from A List Apart](http://alistapart.com/article/fluidgrids).
 3. Read through the [Responsive Grid with Media Queries Tutorial from TutsPlus](http://webdesign.tutsplus.com/tutorials/a-basic-responsive-grid-plus-handy-css3-media-query-reporter--webdesign-5121).  You don't need to actually build it, but feel free to.
-4. Glance through [The 960 grid system](http://960.gs/), which is a basic grid system which can be really useful for building layouts.  They have examples and downloadable templates too so you can print them out and use them for designing your site.  Just look through the site; we'll be covering the Bootstrap and Foundation grid systems later.
+4. Glance through [Unsemantic](https://unsemantic.com), which is a fluid grid system which can be really useful for building layouts. They have demos that you can take a look at. Just look through the site; we'll be covering the Bootstrap and Foundation grid systems later.
 </div>
 
 ### Additional Resources
