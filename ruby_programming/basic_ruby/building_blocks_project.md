@@ -35,7 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
-* [rghost's Solution] (https://github.com/MariaTikhonova/odin_ruby/blob/master/caesar/caesar.rb)
+* [rghost's Solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/caesar/caesar.rb)
 * [loudmouse's Solution](https://github.com/loudmouse/caesar_cipher/blob/master/caesar.rb)
 * [funwithcthulhu's Solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/caesar_cipher.rb)
 * [gregthepeg4's Solution](https://github.com/gregthepeg4/building_blocks)
@@ -43,6 +43,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Isil Donmez's solution](https://github.com/isildonmez/Caesar-Cipher/blob/master/caesar_cipher.rb)
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/caesar.rb)
 * [Jeremy Robertson's solution](https://github.com/jdrobertso/caesar_cipher)
+* [Qin's solution](https://github.com/hyathynth/ruby-project/blob/master/caesar_cipher.rb)
 * [Omar Moataz's solution](https://github.com/OmarMoataz/ciphers)
 * [endotnick's solution](https://github.com/endotnick/ciphers)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/caesar_cipher)
@@ -325,6 +326,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [NJW's solution](https://obsessivenerds.github.io/project_cipher/)
 * [Woxen's solution](https://github.com/woxen/Ruby-Projects/blob/master/Odin%20Projects/Odin1.rb)
 * [Frances' solution](https://github.com/FMorrison87/git_test2017/blob/master/RubyProjects/Ceaser_Cipher.rb)
+* [Wilmar's solution](https://github.com/wmunoz/caesar_cipher)
+* [Kayleigh's solution](https://github.com/kayleigh114/RubyProjects/blob/master/CaesarCipher/CaesarCipher.rb)
 
 ### Project 2: Stock Picker
 
@@ -352,6 +355,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/stock.rb)
 * [Akshat's solution](https://github.com/akshatdb/RubyMain/blob/master/stock_picker.rb)
 * [endotnick's solution](https://github.com/endotnick/stock_picker)
+* [Qin's solution](https://github.com/hyathynth/ruby-project/blob/master/stock_picker.rb)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/stock_picker)
 * [Jason McKee's solution](https://github.com/jttmckee/ruby-stock-picker)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/stock_picker.rb)
@@ -614,6 +618,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [GGreenfield's solution](https://github.com/GGreenfield/ruby-programming-odin-proj/blob/master/building-blocks/stock_picker.rb)
 * [NJW's solution](https://obsessivenerds.github.io/project_stock_picker/)
 * [Frances' Solution](https://github.com/FMorrison87/git_test2017/blob/master/RubyProjects/stock_picker.rb)
+* [Wilmar's solution](https://github.com/wmunoz/stock-picker)
 
 ### Project 3: Substrings
 
@@ -650,6 +655,7 @@ Next, make sure your method can handle multiple words:
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/substr.rb)
 * [Akshat's solution](https://github.com/akshatdb/RubyMain/blob/master/substrings.rb)
 * [endotnick's solution](https://github.com/endotnick/substrings)
+* [Qin's solution](https://github.com/hyathynth/ruby-project/blob/master/substrings.rb)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/substrings)
 * [Jason McKee's solution](https://github.com/jttmckee/ruby-substrings)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/substrings.rb)
@@ -906,4 +912,8 @@ Next, make sure your method can handle multiple words:
 * [tonalmasher's solution](https://github.com/tonalmasher/ruby-building-blocks/blob/master/substrings.rb)
 * [GGreenfield's solution](https://github.com/GGreenfield/ruby-programming-odin-proj/blob/master/building-blocks/substrings.rb)
 * [NJW's solution](https://obsessivenerds.github.io/dictionary/)
+<<<<<<< HEAD
 * [Frances' solution](https://github.com/FMorrison87/git_test2017/blob/master/RubyProjects/substrings.rb)
+=======
+* [Wilmar's solution](https://github.com/wmunoz/substrings-project/blob/master/substrings.rb)
+>>>>>>> 3e6a803211afb00097c6b93772c7cc84ab27eaf8
