@@ -912,8 +912,5 @@ Next, make sure your method can handle multiple words:
 * [tonalmasher's solution](https://github.com/tonalmasher/ruby-building-blocks/blob/master/substrings.rb)
 * [GGreenfield's solution](https://github.com/GGreenfield/ruby-programming-odin-proj/blob/master/building-blocks/substrings.rb)
 * [NJW's solution](https://obsessivenerds.github.io/dictionary/)
-<<<<<<< HEAD
 * [Frances' solution](https://github.com/FMorrison87/git_test2017/blob/master/RubyProjects/substrings.rb)
-=======
 * [Wilmar's solution](https://github.com/wmunoz/substrings-project/blob/master/substrings.rb)
->>>>>>> 3e6a803211afb00097c6b93772c7cc84ab27eaf8
