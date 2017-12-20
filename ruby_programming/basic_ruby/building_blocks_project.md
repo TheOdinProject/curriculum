@@ -906,3 +906,4 @@ Next, make sure your method can handle multiple words:
 * [tonalmasher's solution](https://github.com/tonalmasher/ruby-building-blocks/blob/master/substrings.rb)
 * [GGreenfield's solution](https://github.com/GGreenfield/ruby-programming-odin-proj/blob/master/building-blocks/substrings.rb)
 * [NJW's solution](https://obsessivenerds.github.io/dictionary/)
+* [Frances' solution](https://github.com/FMorrison87/git_test2017/blob/master/RubyProjects/substrings.rb)
