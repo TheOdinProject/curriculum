@@ -33,7 +33,11 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+<<<<<<< HEAD
 - [Nate Dimock's solution](https://github.com/Flakari/rock-paper-scissors) - [View in browser](https://flakari.github.io/rock-paper-scissors/)
+=======
+- [leosoaivan's solution](https://github.com/leosoaivan/rockpaperscissor)
+>>>>>>> 46be95c7f1595d03f546d2747155de26f1adbbc4
 - [ThirtyThreeB's solution](https://github.com/ThirtyThreeB/rock-paper-scissors) - [View in browser](https://thirtythreeb.github.io/rock-paper-scissors/)
 - [PongtheGreat's solution](https://github.com/PongtheGreat/RPS) - [View in browser](https://pongthegreat.github.io/RPS/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-rock-paper-scissors) - [GUI version!](http://codyloyd.com/odin-rock-paper-scissors/)
