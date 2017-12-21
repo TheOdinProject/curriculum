@@ -20,7 +20,7 @@ By the end of this you should be able to:
 
   1. [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
 Follow the exercises up to and including "1.11 Pushing Remotely" then jump back here.
-  2. Now complete the first interactive lesson in the [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
+  2. Now complete the first interactive lesson in the Codecademy [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
   3. Watch this [video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic git commands
 
 </div>
