@@ -3,7 +3,7 @@ In this simple project, you'll be breaking apart the website for a popular desig
 
 Your job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.  For inspiration, check out [this image from vanseodesign.com](https://web.archive.org/web/20170628134444/http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png) which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right.  Your final product will look much like the site on the right.
 
-This is also an opportunity to get better at positioning `<div>` elements without worrying too much about what's inside them, which will serve you well later.
+This is also an opportunity to get better at positioning elements without worrying too much about what's inside them, which will serve you well later.
 
 ### Assignment
 
@@ -15,7 +15,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 3. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 4. Create a new HTML document.
 5. Think about all the elements on the Smashing homepage and how they are grouped together.
-6. Copy the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.
+6. Copy the basic structure of the page using appropriate empty HTML5 semantic elements that are appropriately sized and positioned.
 7. Now make the background colors of those divs different shades of gray which correspond to their visual weight on the Smashing homepage.  If you squint your eyes and look from your solution to their page, does your eye get drawn to the same places?
 
 #### Playing with Typography
