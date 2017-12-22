@@ -35,7 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
-* [rghost's Solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/caesar/caesar.rb)
+* [Maria Tikhonova's Solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/caesar/caesar.rb)
 * [loudmouse's Solution](https://github.com/loudmouse/caesar_cipher/blob/master/caesar.rb)
 * [funwithcthulhu's Solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/caesar_cipher.rb)
 * [gregthepeg4's Solution](https://github.com/gregthepeg4/building_blocks)
@@ -350,6 +350,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [rghost's solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/stockpicker/stockpicker1.rb)
 * [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/stock_picker.rb)
 * [Omar Moataz's solution](https://github.com/omarmoatazpracticehub/stock-pricing.git)
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/stock.rb)
