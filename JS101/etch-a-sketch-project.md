@@ -43,3 +43,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [artkol's Solution](https://github.com/artkol/simple-sketchpad) - [View in browser](https://artkol.github.io/simple-sketchpad/index.html)
 * [AttilaTheHen's Solution](https://github.com/AttilaTheHen/SketchPad) - [View in browser](https://attilathehen.github.io/SketchPad/)
 * [codyloyd's solution](https://github.com/codyloyd/odin-etch-a-sketch) - [View in browser](http://codyloyd.com/odin-etch-a-sketch/)
+* [Kimberlee's Solution] (https://github.com/KimDube/web-development/tree/master/etch-a-sketch) - [View in Browser](https://kimdube.github.io/web-development/etch-a-sketch/etchasketch.html)
