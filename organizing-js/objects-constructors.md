@@ -1,6 +1,6 @@
 ## A refresher
 
-In our JavaScript fundamentals course you should have learned the basics of using objects to store and retrieve data. Lets start with a little refresher.
+In our JavaScript fundamentals course you should have learned the [basics of using objects](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) to store and retrieve data. Lets start with a little refresher.
 
 There are multiple ways to define objects but in most cases it is best to use the __object literal__ syntax as follows:
 
