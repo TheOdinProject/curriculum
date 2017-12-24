@@ -1,6 +1,6 @@
 ## A refresher
 
-In our JavaScript fundamentals course you should have learned the basics of using objects to store and retrieve data. Lets start with a little refresher.
+In our JavaScript fundamentals course you should have learned the [basics of using objects](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) to store and retrieve data. Lets start with a little refresher.
 
 There are multiple ways to define objects but in most cases it is best to use the __object literal__ syntax as follows:
 
@@ -34,7 +34,7 @@ myObject.variable // this gives us 'undefined' because it's literally looking fo
 myObject[variable] // 'Value!'
 ~~~
 
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in __Fundamentals 5__ from our JavaScript 101 course.
+If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) from our JavaScript 101 course.
 
 ## Objects as a Design Pattern
 
