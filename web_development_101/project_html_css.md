@@ -1308,6 +1308,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Javier Machin's Solution (Easy)](https://github.com/Javier-Machin/Google-Homepage) - [View in Browser](https://javier-machin.github.io/Google-Homepage/)
 * [Jakub Cisowski's Solution (Easy)](https://github.com/arashin1337/google-homepage) - [View in Browser](https://arashin1337.github.io/google-homepage/)
 * [Jakub Cisowski's Solution (Difficult)](https://github.com/arashin1337/google-searchpage) - [View in Browser](https://arashin1337.github.io/google-searchpage/)
+* [Agnieszka's Solution (Easy)](https://github.com/elPetit69/google-homepage) - [View in Browser](https://elpetit69.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
