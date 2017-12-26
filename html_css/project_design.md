@@ -31,6 +31,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jmooree30's solution](https://github.com/jmooree30/smashing-magazine) - [View in Browser](https://jmooree30.github.io/smashing-magazine/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/design-teardown) - [View in Browser](http://jonathanyiv.com/design-teardown/)
 * [yilmazgunalp's Solution](https://github.com/yilmazgunalp/design-tear-down) - [View in Browser](https://yilmazgunalp.github.io/design-tear-down/)
 * [Jeff's Solution](https://github.com/jmbothe/smashing-homepage) - [View in Browser](https://jmbothe.github.io/smashing-homepage/)
