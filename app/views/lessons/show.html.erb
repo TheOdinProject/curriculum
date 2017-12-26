@@ -2,10 +2,12 @@
 
 <div class="container">
     <div class="col-lg-8 offset-lg-2">
-      <div class='lesson-header'>
+    <div class='lesson-header'>
+    <%= link_to @lesson.course, class: 'course-card-header__link' do %>
         <%= render 'courses/course/banner', course: @lesson.course %>
-        <h3 class="lesson-header__title accent"><%= @lesson.title %></h3>
-      </div>
+      <% end %>
+      <h3 class="lesson-header__title accent"><%= @lesson.title %></h3>
+    </div>
 
       <div class="lesson-content">
         <%= @lesson.content.html_safe %>
