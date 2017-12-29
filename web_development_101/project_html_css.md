@@ -1313,6 +1313,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Dareon4's Solution (Easy)](https://github.com/Dareon4/google-homepage) - [View in Browser](https://dareon4.github.io/google-homepage/)
 * [Niko Caron's Solution (Easy)](https://github.com/ncaron/google-homepage) - [View in Browser](https://ncaron.github.io/google-homepage/)
 * [Niko Caron's Solution (Difficult)](https://github.com/ncaron/google-search) - [View in Browser](https://ncaron.github.io/google-search/)
+* [Alexander Luna's Solution (Easy)](https://github.com/Mycroft1891/my-odin-project/tree/master/html-css) - [View in Browser](https://mycroft1891.github.io/my-odin-project/html-css/index.html)
+* [Alexander Luna's Solution (Difficult)](https://github.com/Mycroft1891/my-odin-project/tree/master/html-css) - [View in Browser](https://mycroft1891.github.io/my-odin-project/html-css/search-results.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
