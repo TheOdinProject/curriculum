@@ -49,3 +49,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [dejanmijatovic's solution](https://github.com/Anhatel/rock-paper-scissors)
 - [technicolor1's solution](https://github.com/technicolor1/odin-rockpaperscissors) - [View in browser](https://technicolor1.github.io/odin-rockpaperscissors/)
 - [Jakub Cisowski's solution](https://github.com/arashin1337/rock-paper-scissors) - [View in browser](https://arashin1337.github.io/rock-paper-scissors/)
+- [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/rps) - [View in browser](https://mycroft1891.github.io/my-odin-project/rps/index.html)
