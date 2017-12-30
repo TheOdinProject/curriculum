@@ -35,6 +35,7 @@ Here are some use cases (abilities you project needs to have):
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [OthmanAmoudi's solution](https://github.com/OthmanAmoudi/javascript-calculator) - [View in Browser](https://codepen.io/theweeknd/full/GMNdGb/)
 - [105ron's solution](https://github.com/105ron/calculator) - [View in browser](https://105ron.github.io/calculator/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-calculator) - [View in browser](http://codyloyd.com/odin-calculator/)
 - [dejanmijatovic's solution](https://github.com/Anhatel/calculator-project)
