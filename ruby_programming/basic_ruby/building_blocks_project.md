@@ -921,3 +921,4 @@ Next, make sure your method can handle multiple words:
 * [NJW's solution](https://obsessivenerds.github.io/dictionary/)
 * [Frances' solution](https://github.com/FMorrison87/git_test2017/blob/master/RubyProjects/substrings.rb)
 * [Wilmar's solution](https://github.com/wmunoz/substrings-project/blob/master/substrings.rb)
+* [thefitriali's solution](https://github.com/thefitriali/odin/blob/master/substrings.rb)
