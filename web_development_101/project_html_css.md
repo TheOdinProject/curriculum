@@ -1317,6 +1317,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Alexander Luna's Solution (Easy)](https://github.com/Mycroft1891/my-odin-project/tree/master/html-css) - [View in Browser](https://mycroft1891.github.io/my-odin-project/html-css/index.html)
 * [Alexander Luna's Solution (Difficult)](https://github.com/Mycroft1891/my-odin-project/tree/master/html-css) - [View in Browser](https://mycroft1891.github.io/my-odin-project/html-css/search-results.html)
 * [Kate's Solution (Easy)](https://github.com/kat3miller/google-homepage) - [View in Browser](https://kat3miller.github.io/google-homepage/)
+* [Cameron Smith's Solution (Easy)](https://github.com/cameronzsmith/google-homepage/) - [View in Browser](https://cameronzsmith.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
