@@ -352,6 +352,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Sherman Bowling's](https://github.com/janus0/ruby_building_blocks/blob/master/stock_picker.rb)
 * [WottatoParrior's](https://github.com/WottatoParrior/stockpicker/blob/master/stockpicker.rb)
 * [rghost's solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/stockpicker/stockpicker1.rb)
 * [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/stock_picker.rb)
@@ -655,6 +656,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Sherman Bowling's solution](https://github.com/janus0/ruby_building_blocks/blob/master/substrings.rb)
 * [WottatoParrior's solution](https://github.com/WottatoParrior/Caesar-Cipher)
 * [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/substrings.rb)
 * [isildonmez's solution](https://github.com/isildonmez/substring/blob/master/substring.rb)
