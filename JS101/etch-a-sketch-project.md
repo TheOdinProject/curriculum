@@ -46,3 +46,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Kimberlee's Solution](https://github.com/KimDube/web-development/tree/master/etch-a-sketch) - [View in Browser](https://kimdube.github.io/web-development/etch-a-sketch/etchasketch.html)
 * [PongtheGreat's Solution](https://github.com/PongtheGreat/etch-a-sketch) - [View in browser](https://pongthegreat.github.io/etch-a-sketch/)
 * [Jakub Cisowski's Solution](https://github.com/arashin1337/etch-a-sketch) - [View in browser](https://arashin1337.github.io/etch-a-sketch/)
+* [Alexander Luna's Solution](https://github.com/Mycroft1891/my-odin-project/tree/master/sketch) - [View in Browser](https://mycroft1891.github.io/my-odin-project/sketch/index.html)
