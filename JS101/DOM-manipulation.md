@@ -124,10 +124,9 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 * div.display
 * .display
 * container &gt; .display
-
 * div\#container &gt; div.display
 
-You can also use relational selectors\(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
+You can also use relational selectors \(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
 
 ~~~JavaScript
 const container = document.querySelector('#container'); 
@@ -194,7 +193,7 @@ div.style.color = 'blue';
 div.style.cssText = 'color: blue; background: white';          
 // adds several style rules
 
-div.setAttribute('style', 'color: blue; background: white';    
+div.setAttribute('style', 'color: blue; background: white');    
 // adds several style rules
 ~~~
 
@@ -275,7 +274,7 @@ content.textContent = 'This is the glorious text-content!';
 container.appendChild(content);
 ~~~
 
-In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `content`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
+In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `content`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
 
 ~~~html
 // The DOM
@@ -317,7 +316,7 @@ We're going to create 3 buttons that all alert "BUTTON" when clicked.  Try them 
 #### method 1
 
 ~~~html
-<button onclick="alert("Hello World")">Click Me</button>
+<button onclick="alert('Hello World')">Click Me</button>
 ~~~
 
 This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only have 1 "onclick" event per element.
@@ -386,7 +385,7 @@ btn.addEventListener('click', function(e){
 })
 ~~~
 
-The `e` in that function is a object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
+The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
 
 Try this:
 
