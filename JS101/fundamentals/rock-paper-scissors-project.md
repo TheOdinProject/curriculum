@@ -52,3 +52,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/rps) - [View in browser](https://mycroft1891.github.io/my-odin-project/rps/index.html)
 - [Niko Caron's solution](https://github.com/ncaron/RPSLS) - [View in browser](https://ncaron.github.io/RPSLS/)
 - [Dareon4's solution](https://github.com/Dareon4/rock-paper-scissors) - [View in browser](https://dareon4.github.io/rock-paper-scissors/)
+- [Agnieszka'a solution](https://github.com/elPetit69/rock-paper-scissors)
