@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Tabitha Terry's solution (Easy)](https://github.com/TabithaTerry/google-homepage) - [View in browser](https://tabithaterry.github.io/google-homepage/)
 * [Ramon Cardenas' solution](https://github.com/Ramoncarden/google-homepage) - [View in browser](https://ramoncarden.github.io/google-homepage/)
 * [James Moore's solution (Easy)](https://github.com/James-N-M/google-homepage) - [View in browser](https://cdn.rawgit.com/James-N-M/google-homepage/e7225c1e/index.html)
 * [Bagus Andryan's solution (Easy)](https://github.com/bagusandryan/google-homepage) - [View in browser](https://bagusandryan.github.io/google-homepage/)
@@ -1304,7 +1305,20 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Fajri Fadli's Solution (Easy)](https://github.com/FajriFadli/google-homepage) - [View in Browser](https://fajrifadli.github.io/google-homepage/)
 * [Laura Ilona's Solution (Easy)](https://github.com/laurailona/google_homepage) - [View in Browser](https://laurailona.github.io/google_homepage/)
 * [Kristiyan's Solution (Easy)](https://github.com/Kiko9819/google-homepage) - [View in Browser](https://kiko9819.github.io/google-homepage/)
-
+* [Cody Selman's Solution (Easy)](https://github.com/CodySelman/google-project-html-css) - [View in Browser](https://codyselman.github.io/google-project-html-css/)
+* [Javier Machin's Solution (Easy)](https://github.com/Javier-Machin/Google-Homepage) - [View in Browser](https://javier-machin.github.io/Google-Homepage/)
+* [Jakub Cisowski's Solution (Easy)](https://github.com/arashin1337/google-homepage) - [View in Browser](https://arashin1337.github.io/google-homepage/)
+* [Jakub Cisowski's Solution (Difficult)](https://github.com/arashin1337/google-searchpage) - [View in Browser](https://arashin1337.github.io/google-searchpage/)
+* [Agnieszka's Solution (Easy)](https://github.com/elPetit69/google-homepage) - [View in Browser](https://elpetit69.github.io/google-homepage/)
+* [Ngoc Nguyen's Solution (Easy)](https://github.com/bngocnguyen/google-homepage) - [View in Browser](https://bngocnguyen.github.io/google-homepage/)
+* [Dareon4's Solution (Easy)](https://github.com/Dareon4/google-homepage) - [View in Browser](https://dareon4.github.io/google-homepage/)
+* [Niko Caron's Solution (Easy)](https://github.com/ncaron/google-homepage) - [View in Browser](https://ncaron.github.io/google-homepage/)
+* [Niko Caron's Solution (Difficult)](https://github.com/ncaron/google-search) - [View in Browser](https://ncaron.github.io/google-search/)
+* [Alexander Luna's Solution (Easy)](https://github.com/Mycroft1891/my-odin-project/tree/master/html-css) - [View in Browser](https://mycroft1891.github.io/my-odin-project/html-css/index.html)
+* [Alexander Luna's Solution (Difficult)](https://github.com/Mycroft1891/my-odin-project/tree/master/html-css) - [View in Browser](https://mycroft1891.github.io/my-odin-project/html-css/search-results.html)
+* [Kate's Solution (Easy)](https://github.com/kat3miller/google-homepage) - [View in Browser](https://kat3miller.github.io/google-homepage/)
+* [Cameron Smith's Solution (Easy)](https://github.com/cameronzsmith/google-homepage/) - [View in Browser](https://cameronzsmith.github.io/google-homepage/)
+* [Mark Romero's Solution (Easy)](https://github.com/mromero1591/google-homepage) - [View in Browser](https://mromero1591.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

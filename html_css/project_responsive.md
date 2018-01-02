@@ -23,6 +23,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jmooree's solution](https://github.com/jmooree30/the-next-web) - [View in browser](https://jmooree30.github.io/the-next-web/)
 * [Axel's solution](https://github.com/afuh/next-web) - [View in browser](http://next-web.surge.sh/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/next-web) - [View in browser](https://yilmazgunalp.github.io/next-web/)
 * [Leah Xia's solution](https://github.com/LeahXia/the-next-web.git) - [View in browser](http://leahxia.com/internal-links/the-next-web/index.html)
