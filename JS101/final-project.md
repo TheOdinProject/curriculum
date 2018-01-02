@@ -41,3 +41,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [dejanmijatovic's solution](https://github.com/Anhatel/calculator-project)
 - [PongtheGreat's solution](https://github.com/PongtheGreat/simple_calculator) - [View in browser](https://pongthegreat.github.io/simple_calculator/)
 - [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/calculator) - [View in Browser](https://mycroft1891.github.io/my-odin-project/calculator/index.html)
+- [Dareon4's solution](https://github.com/Dareon4/calculator) - [View in Browser](https://dareon4.github.io/calculator/)
