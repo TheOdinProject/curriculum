@@ -1324,6 +1324,7 @@ erb_template = ERB.new template_letter
 ~~~
 
 * Simplify our `legislators_by_zipcode` to return the the original array of legislators
+
 ~~~ruby
 def legislators_by_zipcode(zip)
   civic_info = Google::Apis::CivicinfoV2::CivicInfoService.new
