@@ -274,7 +274,7 @@ content.textContent = 'This is the glorious text-content!';
 container.appendChild(content);
 ~~~
 
-In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `content`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
+In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
 
 ~~~html
 // The DOM
