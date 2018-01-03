@@ -6,18 +6,26 @@
 
     <div class="settings-card__content">
       <div class="settings-card__picture">
-        <%= image_tag avatar_path(@user.avatar), alt: "Profile Picture"%>
+        <%= image_tag avatar_path(user.avatar), alt: "Profile Picture"%>
       </div>
 
       <div class="settings-view">
         <p class="form__label">Name</p>
-        <p class="form__element form__element--non-editable username push-down"><%= @user.username %></p>
+        <p class="form__element form__element--non-editable username push-down">
+          <%= user.username %>
+        </p>
 
         <p class="form__label">Email</p>
-        <p class="form__element form__element--non-editable email push-down"><%= @user.email %></p>
+        <p class="form__element form__element--non-editable email push-down">
+          <%= user.email %>
+        </p>
       </div>
 
-      <%= form_for @user, html: { class: "form settings-view--hidden" }, remote: true do |form| %>
+      <%= form_for user,
+        html: { class: 'form settings-view--hidden', id: 'profile-update-form' },
+        remote: true do |form|
+      %>
+
         <div class="form__section">
           <%= form.label :name, class: 'form__label' %>
           <%= form.text_field :username, class: 'form__element' %>
@@ -28,7 +36,7 @@
           <%= form.email_field :email, class: 'form__element' %>
         </div>
 
-        <%= form.submit "Update", class: "button button--primary full-width" %>
+        <%= form.submit 'Update', class: 'button button--primary full-width' %>
       <% end %>
     </div>
   </div>
