@@ -8,7 +8,7 @@ In this project you'll clone the website of one of the most design-forward compa
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
-5. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 6. Set up the top navigation bar.  How is that gradient achieved?
 7. Set up the main background image.  You can grab that exact image from their webpage by finding the `<section id="hero">` tag in your inspector and checking out its background image.
 6. Fill in and position the additional sections.  Don't worry about enclosing every paragraph of text in `<p>` tags.
