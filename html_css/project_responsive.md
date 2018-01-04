@@ -12,7 +12,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Try to discover which browser widths are "breakpoints" where element properties change (e.g. the sidebar disappearing).  Make a plan for which elements need to be modified at which widths.
-6. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+6. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 7. Now -- before you've filled in any of these divs -- add in the media queries and positioning/floating attributes that are needed to make them rearrange as necessary when the browser changes sizes.
 8. Once you've got the page layout performing as it should, fill in the divs and style them to look like the original homepage.  Don't get lost in the details -- it's okay if it isn't exact.
 9. Double check that all the elements still behave just like the original when the browser size is changed.
