@@ -1,7 +1,7 @@
 Let's dive right in!
 
 ### Learning Outcomes
-Make sure you can answer yes to each of the following once you have finished the assignments:
+Look through these now and then use them to test yourself after doing the assignment:
 
 * How do you declare a variable in javascript?
 * What are three different ways to declare a variable?
