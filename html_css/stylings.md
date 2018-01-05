@@ -11,7 +11,7 @@ CSS3 offers a whole lot of interesting functionality that you didn't know about 
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. Read about [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+1. Read about [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), stop at the Javascript section.
 2. Peruse through these [CSS Animated Loading Icons](http://tobiasahlin.com/spinkit/) for some animation inspiration.
 3. Glance at [canIuse](http://caniuse.com/), a compatibility table for various elements in CSS and HTML5.
 </div>
