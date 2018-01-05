@@ -1,5 +1,4 @@
-## A refresher
-
+### Introduction
 In our JavaScript fundamentals course you should have learned the [basics of using objects](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) to store and retrieve data. Lets start with a little refresher.
 
 There are multiple ways to define objects but in most cases it is best to use the __object literal__ syntax as follows:
@@ -36,7 +35,7 @@ myObject[variable] // 'Value!'
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) from our JavaScript 101 course.
 
-## Objects as a Design Pattern
+### Objects as a Design Pattern
 
 One of the simplest ways you can begin to organize your code is by simply grouping things into objects.  Take these examples from a 'tic tac toe' game:
 
@@ -85,7 +84,7 @@ function gameOver(winningPlayer){
 
 Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory?  In that case using objects to keep track of an item's name, price, description and other things is the only way to go.  Unfortunately, in that type of situation manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
 
-## Object Constructors
+### Object Constructors
 
 When you have a specific type of object that you need to duplicate like our player or inventory items a better way to create them is using an object constructor, which is a function that looks like this:
 
@@ -138,7 +137,7 @@ note: it is almost _always_ best to `return` things rather than putting `console
 console.log(theHobbit.info());
 ~~~
 
-## The Prototype
+### The Prototype
 
 Before we go much further, there's something important you need to understand about JavaScript objects.  All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of it's prototype's methods and properties.
 
@@ -165,7 +164,7 @@ Student.prototype.goToProm = function() {
 
 If you're using constructors to make your objects it is best to define functions on the `prototype` of that object.  Doing so means that a single instance of each function will be shared between all of the Student objects.  If we declare the function directly in the constructor like we did when they were first introduced that function would be duplicated every time a new Student is created.  In this example of course that wouldn't really matter much, but in a project that is creating thousands of objects it really can make a difference.
 
-### Recommended Method for Prototypal Inheritance
+#### Recommended Method for Prototypal Inheritance
 
 So far you have seen several ways of making an object inherit the prototype from another object.  At this point in history the recommended way of setting the prototype of an object is `Object.create` ( [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method.)  `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add.  For our purposes you use it like so:
 

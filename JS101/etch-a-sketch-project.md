@@ -1,11 +1,13 @@
+### Introduction
 In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
 This project should _not_ be easy for you.  You'll probably have to Google frequently to get the right JavaScript methods and CSS to use - in fact, that's the point!  You _can_ build this using the tools that you have already learned and there are plenty of resources on the net for learning stuff that we haven't covered yet if you decide you need it.  We'll walk you through the basic steps, but it will be up to you to actually implement them.
 
 If you get totally stuck drop by the chatroom.. someone will be there to point you in the right direction.
 
-## Your Assignment
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. [Follow the instructions atop Odin's Google Homepage project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css) to setup a git repository for this project.
 2. Create a webpage with a 16x16 grid of square divs
    1. Create the divs using JavaScript... don't try making them by hand with copy and pasting in your html file!
@@ -32,9 +34,9 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
    3. You should be able to enter `64` and have a brand new 64x64 grid pop up without changing the total amount of pixels used
 5. \(Optional\): Instead of just changing the color of your grid from black to white \(for example\) have each pass through it with the mouse change to a completely random RGB value.   Then try having each pass just add another 10% of black to it so that only after 10 passes is the square completely black.
 6. Push your project to GitHub!
+</div>
 
-## Student Solutions
-
+### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
