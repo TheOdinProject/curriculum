@@ -1,3 +1,4 @@
+### Introduction
 By this point you will have learned and had a chance to practice the most common object-creation and organization patterns in JavaScript.  But that is just the _tip_ of the iceberg. More important than learning the syntax for factory functions or modules is figuring out how to use them effectively.
 
 This whole series of lessons has been about the "Object Oriented Programming" paradigm (OOP).  The basics of creating objects and classes are relatively straightforward. But it is not straightforward to decide what to put in each object, or when to make a new object, or when to let an object 'inherit' from another one.
@@ -6,7 +7,7 @@ Luckily there are several concepts and principles that can guide us into making 
 
 As you read these resources it might help to go back to some of the projects you've already done and think about how what you've written measures up to the examples you see.  And of course, as you move on keep these things in mind when crafting new projects
 
-## Single Responsibility
+### Single Responsibility
 
 One of the most important things to remember as you craft your objects is the __Single Responsibility Principle__ which states that a class (or object or module.. you get the point) should only have _one_ responsibility.  Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic.  It's a _really_ good idea to separate out your DOM stuff from the application logic.
 
@@ -14,9 +15,9 @@ So instead of this:
 
 ~~~javascript
 function is_game_over() {
-  
+
   // game over logic goes here!
-  
+
   if (gameOver){
     const gameOverDiv = document.createElement('div')
     gameOverDiv.classList.add('game-over')
@@ -30,9 +31,9 @@ You should extract all the DOM manipulation into it's own module and use it like
 
 ~~~javascript
 function is_game_over() {
-  
+
   // game over logic goes here!
-  
+
   if (gameOver){
     DOMStuff.gameOver(this.winner)
   }
@@ -49,7 +50,7 @@ In fact - the function `is_game_over` shouldn't be calling the DOM function anyw
 
 
 
-## Loosely Coupled Objects
+### Loosely Coupled Objects
 
 Obviously all of our objects are intended to work together to form our final application.  You should take care, however, to make sure that your individual objects can stand alone as much as possible. __Tightly coupled__ objects are objects that rely so heavily on each other that removing or changing one will mean that you have to completely change another one - a real bummer.
 

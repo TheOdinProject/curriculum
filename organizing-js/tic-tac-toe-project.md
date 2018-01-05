@@ -1,7 +1,9 @@
-# Tic Tac Toe
-
+### Introduction
 We're making a Tic Tac Toe game you can play in your browser!
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
 1. Set up your project with a HTML, CSS and Javascript files and get the Git repo all set up.
 2. You're going to store the gameboard as an array inside of a Gameboard object, so start there!  Your players are also going to be stored in objects... and you're probably going to want an object to control the flow of the game itself.
    1. Your main goal here is to have as little global code as possible.  Try tucking everything away inside of a module or factory.  Rule of thumb: if you only ever need ONE of something (gameBoard, displayController), use a module.  If you need multiples of something (players!), create them with factories.
@@ -14,9 +16,9 @@ We're making a Tic Tac Toe game you can play in your browser!
    1. Start by just getting the computer to make a random legal move.
    2. Once you've gotten that, work on making the computer smart.  It is possible to create an unbeatable AI using the minimax algorithm (read about it [here](https://en.wikipedia.org/wiki/Minimax), some googling will help you out with this one)
    3. If you get this running _definitely_ come show it off in the chatroom.  It's quite an accomplishment!
+</div>
 
-## Student Solutions
-
+### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!

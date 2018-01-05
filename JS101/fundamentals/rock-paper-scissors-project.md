@@ -1,7 +1,9 @@
+### Introduction
 We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson.  When you get there don't forget to come back and add  your link!
 
-## Your assignment
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. Start a new git repo for your project.
 2. Create a blank HTML document with a script tag.  This game is going to be played
     completely from the console, so don't worry about putting anything else in there.
@@ -28,13 +30,15 @@ We're going to make a simple implementation of grade-school classic "rock paper 
    3. Feel free to re-work your previous functions if you need to.  Specifically, you might want to change the return value to something more useful.
    4. Feel free to create more "helper" functions if you think it would be useful.
 
-## Student Solutions
+</div>
 
+### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [Luján Fernaud's solution](https://github.com/lujanfernaud/js-rock-paper-scissors) - [View in browser](http://lujanfernaud.com/js-rock-paper-scissors/)
 - [Clifford Minks's console solution](https://github.com/xxerror500xx/TOP_RPSGame.git) - [View in browser](https://xxerror500xx.github.io/TOP_RPSGame/)
-- [Nate Dimock's solution](https://github.com/Flakari/rock-paper-scissors) - [View in browser](https://flakari.github.io/rock-paper-scissors/)
+- [Nate Dimock's solution](https://github.com/Flakari/rock-paper-scissors) - [View in browser](https://flakari.github.io/rock-paper-scissors/) | [GUI Solution](https://github.com/Flakari/rock-paper-scissors-gui) - [View in browser](https://flakari.github.io/rock-paper-scissors-gui/)
 - [leosoaivan's solution](https://github.com/leosoaivan/rockpaperscissor)
 - [ThirtyThreeB's solution](https://github.com/ThirtyThreeB/rock-paper-scissors) - [View in browser](https://thirtythreeb.github.io/rock-paper-scissors/)
 - [PongtheGreat's solution](https://github.com/PongtheGreat/RPS) - [View in browser](https://pongthegreat.github.io/RPS/)
@@ -53,3 +57,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Niko Caron's solution](https://github.com/ncaron/RPSLS) - [View in browser](https://ncaron.github.io/RPSLS/)
 - [Dareon4's solution](https://github.com/Dareon4/rock-paper-scissors) - [View in browser](https://dareon4.github.io/rock-paper-scissors/)
 - [Agnieszka'a solution](https://github.com/elPetit69/rock-paper-scissors)
+- [Eduardo Massarani's solution](https://github.com/edmassarani/the-odin-project/tree/master/projects/jankenpon/gui-version) - [View in browser](https://edmassarani.github.io/the-odin-project/projects/jankenpon/gui-version/)

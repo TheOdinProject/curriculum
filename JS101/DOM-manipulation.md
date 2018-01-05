@@ -1,7 +1,8 @@
+### Introduction
+
 One of the most unique and useful abilities of JavaScript is it's ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in...
 
-
-### Points to Ponder
+### Learning Outcomes
 <details>
   <summary>What is DOM in relation to a webpage?</summary>
 
@@ -43,7 +44,7 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
   * To remove this element, _parentNode_.removeChild\(_child_\) =&gt; removes _child_ from _parentNode_ on the DOM and returns reference to _child_.
     * i.e. `parentNode.removeChild(div);`
   * Once you have a reference to an element, as above, you can alter it in many ways.
-    * `div.style.color = 'blue';` adds the indicated style rule 
+    * `div.style.color = 'blue';` adds the indicated style rule
     * `div.setAttribute('id', 'theDiv');` sets the id attribute of our div to 'theDiv'.
 
 </details>
@@ -83,7 +84,7 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
         // the html file
         <button id="btn">Click Me Too</button>
         ​~~~
-        
+
         ​~~~JavaScript
         // the JavaScript file
         var btn = document.querySelector('#btn');
@@ -101,7 +102,7 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 
 </details>
 
-###  DOM - Document Object Model
+### DOM - Document Object Model
 
 
 The DOM \(or Document Object Model\) is a tree-like representation of the contents of a webpage -  a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
@@ -117,7 +118,7 @@ The DOM \(or Document Object Model\) is a tree-like representation of the conten
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with it's __children__ on the next level, each on their own "branch".
 
-###  Targeting Nodes with Selectors
+### Targeting Nodes with Selectors
 
 When working with the DOM, you use "selectors" to target the nodes you want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes you want. Let's start with CSS-style selectors. In the above example, you could use the following selectors to refer to `<div class="display"></div>`:
 
@@ -129,7 +130,7 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 You can also use relational selectors \(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
 
 ~~~JavaScript
-const container = document.querySelector('#container'); 
+const container = document.querySelector('#container');
 // select the #container div (don't worry about the syntax, we'll get there)
 
 console.dir(container.firstChild);                      
@@ -142,9 +143,9 @@ console.dir(controls.previousSibling);
 // selects the prior sibling => .display
 ~~~
 
-So you're identifing a certain node based on its relationships to the nodes around it. 
+So you're identifing a certain node based on its relationships to the nodes around it.
 
-## DOM methods
+### DOM methods
 
 When your HTML code is parsed by a web browser, it is converted to the DOM as was mentioned above.  One of the primary differences is that these nodes are objects that have many properties and methods attached to them.  These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. We'll start with the query selectors - those that help you target nodes.
 
@@ -205,11 +206,11 @@ Generally style rules are the same as in CSS with the exception that hyphenated 
 
 ~~~JavaScript
 div.setAttribute('id', 'theDiv');                              
-// if id exists update it to 'theDiv' else create an id 
+// if id exists update it to 'theDiv' else create an id
 // with value "theDiv"
 
 div.getAttribute('id');                                        
-// returns value of specified attribute, in this case 
+// returns value of specified attribute, in this case
 // "theDiv"
 
 div.removeAttribute('id');                                     
@@ -228,7 +229,7 @@ div.classList.remove('new');
 // remove "new" class from div
 
 div.classList.toggle('active');                                
-// if div doesn't have class "active" then add it, or if 
+// if div doesn't have class "active" then add it, or if
 // it does, then remove it
 ~~~
 
@@ -238,7 +239,7 @@ It is often standard \(and more clean\) to toggle a CSS style rather than adding
 
 ~~~JavaScript
 div.textContent = 'Hello World!'                               
-// creates a text node containing "Hello World!" and 
+// creates a text node containing "Hello World!" and
 // inserts it in div
 ~~~
 
@@ -274,7 +275,7 @@ content.textContent = 'This is the glorious text-content!';
 container.appendChild(content);
 ~~~
 
-In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `content`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
+In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
 
 ~~~html
 // The DOM
@@ -305,7 +306,7 @@ Add the following elements to the container using ONLY javascript - do not add a
    2. a `<p>` that says "ME TOO!"
    3. Hint for this one: after creating the div with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
 
-## Events
+### Events
 
 Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand!  Events are how you make that magic happen on your pages.  Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events.
 
@@ -334,7 +335,7 @@ var btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
 ~~~
 
-###### \(need to review arrow functions? [LINK\)](http://javascript.info/function-expressions-arrows#arrow-functions)
+#### \(need to review arrow functions? [LINK\)](http://javascript.info/function-expressions-arrows#arrow-functions)
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property.
 
@@ -423,7 +424,7 @@ const buttons = document.querySelectorAll('button');
 
 // we use the .forEach method to iterate through each button
 buttons.forEach((button) => {
-  
+
   // and for each one we add a 'click' listener
   button.addEventListener('click', (e) => {
     alert(button.id);
@@ -443,7 +444,7 @@ Some useful events include:
 
 You can find a more complete list with explanations of each event on [this page](https://www.w3schools.com/jsref/dom_obj_event.asp).
 
-## Practice
+### Practice
 
 Manipulating web pages is the primary benefit of the JavaScript language!  These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!
 
@@ -464,6 +465,3 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript30](https://JavaScript30.com)
 * If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
-
-
-

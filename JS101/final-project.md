@@ -1,7 +1,12 @@
+### Introduction
 You made it! By now you should have a _really_ firm grasp on the fundamentals of JavaScript.  Of course there's plenty more to learn, but you should be able to create quite a bit at this point.  Our final project is going to try to combine everything you've learned so far.. you're going to be making an on-screen calculator using JavaScript, HTML and CSS.
 
 As usual with these things there are elements of this project that are not going to be trivially easy for you, but if you've been following the course so far you definitely have everything you need to finish it.  We're going to walk you through the various steps you can take, but again, how you actually implement them is up to you!
 
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
 Here are some use cases (abilities you project needs to have):
 
 1. Your calculator is going to contain functions for all of the basic math operators you typically find on simple calculators, so start by creating functions for the following items and testing them in your browser's console.
@@ -28,16 +33,17 @@ Here are some use cases (abilities you project needs to have):
 8. EXTRA CREDIT: Make it look nice!  This can be a good portfolio project... but not if it's UGLY.  At least make the  operations a different color from the keypad buttons.
 9. EXTRA CREDIT: Add a "backspace" button, so the user can undo if they click the wrong number.
 10. EXTRA CREDIT: Add keyboard support!
+</div>
 
-
-## Student Solutions
-
+### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [JocelynOcelyn's solution](https://github.com/jocelynocelyn/calculator) - [View in Browser](https://jocelynocelyn.github.io/calculator/)
 - [OthmanAmoudi's solution](https://github.com/OthmanAmoudi/javascript-calculator) - [View in Browser](https://codepen.io/theweeknd/full/GMNdGb/)
 - [105ron's solution](https://github.com/105ron/calculator) - [View in browser](https://105ron.github.io/calculator/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-calculator) - [View in browser](http://codyloyd.com/odin-calculator/)
 - [dejanmijatovic's solution](https://github.com/Anhatel/calculator-project)
 - [PongtheGreat's solution](https://github.com/PongtheGreat/simple_calculator) - [View in browser](https://pongthegreat.github.io/simple_calculator/)
 - [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/web-development-101/calculator) - [View in Browser](https://mycroft1891.github.io/my-odin-project/web-development-101/calculator/index.html)
+- [Dareon4's solution](https://github.com/Dareon4/calculator) - [View in Browser](https://dareon4.github.io/calculator/)
