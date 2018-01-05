@@ -15,7 +15,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 3. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 4. Create a new HTML document.
 5. Think about all the elements on the Smashing homepage and how they are grouped together.
-6. Copy the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.
+6. Copy the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
 7. Now make the background colors of those divs different shades of gray which correspond to their visual weight on the Smashing homepage.  If you squint your eyes and look from your solution to their page, does your eye get drawn to the same places?
 
 #### Playing with Typography
