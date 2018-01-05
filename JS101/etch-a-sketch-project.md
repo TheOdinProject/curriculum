@@ -52,3 +52,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alexander Luna's Solution](https://github.com/Mycroft1891/my-odin-project/tree/master/web-development-101/sketch) - [View in Browser](https://mycroft1891.github.io/my-odin-project/web-development-101/sketch/index.html)
 * [SamJamCul's Solution](https://github.com/SamJamCul/etch-a-sketch) - [View in Browser](https://samjamcul.github.io/etch-a-sketch/)
 * [Niko Caron's Solution](https://github.com/ncaron/etch-a-sketch/) - [View in Browser](https://ncaron.github.io/etch-a-sketch/)
+* [Nick Leake's Solution](https://github.com/nleake/etchasketch) - [View in Browser](https://nleake.github.io/etchasketch/)
