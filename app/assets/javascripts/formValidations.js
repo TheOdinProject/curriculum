@@ -37,9 +37,9 @@ var constraints = {
 document.addEventListener('turbolinks:load', function() {
   var forms = document.querySelectorAll('.form');
   if (!forms) return;
-  
+
   forms.forEach(function(form) {
-    
+
     // Disable form submission if error
     form.addEventListener("submit", function(ev) {
       var formErrors = validate(form, constraints, { fullMessages: false });
@@ -51,7 +51,7 @@ document.addEventListener('turbolinks:load', function() {
     })
 
     var inputs = form.querySelectorAll('.form__element');
-    
+
     inputs.forEach(function(item) {
       item.addEventListener("change", function(ev) {
         var errors = validate(form, constraints, { fullMessages: false }) || {};
