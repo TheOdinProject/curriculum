@@ -49,3 +49,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Dareon4's Solution](https://github.com/Dareon4/etch-a-sketch) - [View in browser](https://dareon4.github.io/etch-a-sketch/)
 * [Alexander Luna's Solution](https://github.com/Mycroft1891/my-odin-project/tree/master/sketch) - [View in Browser](https://mycroft1891.github.io/my-odin-project/sketch/index.html)
 * [SamJamCul's Solution](https://github.com/SamJamCul/etch-a-sketch) - [View in Browser](https://samjamcul.github.io/etch-a-sketch/)
+* [Niko Caron's Solution](https://github.com/ncaron/etch-a-sketch/) - [View in Browser](https://ncaron.github.io/etch-a-sketch/)
