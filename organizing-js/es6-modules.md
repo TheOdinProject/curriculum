@@ -1,17 +1,16 @@
-# ES6 modules
-
+### Introduction
 Separate from the __module pattern__ that we discussed in an earlier lesson, "modules" is a feature that arrived with ES6.  Browser support for this feature is quite slim at this point, but is slowly improving and until all modern browsers support it, we can make it work using an external module bundler.  ES6 modules are starting to appear in many codebases around the net and getting them and running will give us a chance to explore some new parts of the JavaScript ecosystem, so it's going to be a worthy excursion!
 
 Don't be fooled! We're going to cover much more than just the new module syntax in this lesson!  Before we can really _use_ these modules we're going to have to learn about __npm__ and __webpack__ which  are both topics that will be _very_ useful to you even beyond this lesson.  In the end the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
 
-## first things first
+### first things first
 
 Why do we even need or want this stuff?  What do you gain from all of this added complexity?  These are good questions.. with good answers.
 
 - Read [this article](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70) for a bit of a history lesson.  It's long, but it puts what we're doing here in great perspective.  You don't _have_ to code along with the examples - the tutorials we cover later will go through basically the same process. But it's good practice and going through the same process multiple times will help it stick faster.
 - Seriously.. spend some time with that article - it really clarifies the 'WHY' of the rest of this lesson.
 
-## npm
+### npm
 
 The __node package manager__ is a command line tool that gives you access to a gigantic repository of plugins, libraries and tools.  If you have done our Fundamentals course, you will likely have encountered it when you installed the Jasmine testing framework to do our exercises.
 
@@ -24,7 +23,7 @@ The __node package manager__ is a command line tool that gives you access to a g
 
 At some point you will probably run into [Yarn](https://yarnpkg.com/en/) - a replacement for the default `npm`.  For the most part it does the same things, though it _does_ have a few more features.  Recent versions of `npm` have incorporated some of the best features of Yarn, so using it won't offer you any real advantages at this point in your career.  It _is_ a fine project, however, and may be worth your consideration in the future.
 
-## webpack
+### webpack
 
 Webpack is simply a tool for bundling modules.  There is a lot of talk across the net about how difficult and complex it is to set up and use, but at the moment our needs are few and the setup is simple enough.  In fact, you can see an example of getting it up and running on the front page of [their website](https://webpack.js.org/).
 
@@ -40,7 +39,7 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 - browse [this document](https://webpack.js.org/concepts/) for more details.  We'll talk plugins and loaders in another lesson.
 
-## ES6 Modules (finally!)
+### ES6 Modules (finally!)
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax.  There are only 2 components to it - __import__ and __export__.
 
@@ -97,7 +96,7 @@ import myName from './myName';
 
 function component() {
   var element = document.createElement('div');
-  
+
   // use your function!
   element.innerHTML = myName('Cody');
   return element;
