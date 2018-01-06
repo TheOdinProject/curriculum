@@ -16,10 +16,23 @@ There are three ways to open the Developer Tools menu:
 
 <div class="lesson-content__panel" markdown="1">
 1. Watch [this video](https://www.youtube.com/watch?v=wcFnnxfA70g) by Jose Vidal on how to use the Developer Tools menu.
-2. Read over the [Chrome DevTools Documentation](https://developer.chrome.com/devtools) by Google. Pay particular attention to sections "Accessing the DevTools" through "Debugging Javascript" since this is what you'll use the Developer Tools for 95% of the time.
+2. Head to the [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools/) by Google. Read these subsections, since this is what you'll be using the Developer Tools for 95% of the time.
+  * Open DevTools
+  * Device Mode
+    1. Device Mode
+    2. Test Responsive and Device-specific Viewports
+  * Elements panel
+    1. Get Started With Viewing and Changing CSS
+    2. Inspect and Tweak Your Pages
+    3. Edit Styles
+    4. Edit the DOM
+  * Using the Console
+  * Sources panel
+    1. Get Started With Debugging JavaScript
+    2. Pause Your Code With Breakpoints
 3. Finally, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
 
-These resoures should give you a pretty good starting point for understading how to use DevTools.  The more you use and understand the abilities of Dev Tools the easier your life as a developer becomes.
+These resoures should give you a pretty good starting point for understanding how to use DevTools.  The more you use and understand the abilities of Dev Tools the easier your life as a developer becomes.
 </div>
 
 ### Additional Resources
