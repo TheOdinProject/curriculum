@@ -1,6 +1,8 @@
+### Introduction
+
 One of the most powerful things a web developer can do is fetching data from a server and displaying it creatively on their site.  In many cases the server solely exists for that specific site. The server could contain blog posts, user data, high scores for a game or anything else.  In other cases, the server is an open service that serves data to anyone that wants to use it (ie. weather data or stock prices).  In either case, the methods of accessing and then using that data are essentially the same.
 
-## APIs
+### APIs
 
 Servers that are created for serving data for external use (in websites or apps) are often referred to as `API`s or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
@@ -40,7 +42,7 @@ Once you get a key (try this now if you like!) you can paste the URL into the br
 {"coord":{"lon":-77.73,"lat":38.77},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":75.74,"pressure":1017,"humidity":57,"temp_min":71.6,"temp_max":78.8},"visibility":16093,"wind":{"speed":3.87,"deg":291},"clouds":{"all":1},"dt":1504188900,"sys":{"type":1,"id":2886,"message":0.0053,"country":"US","sunrise":1504175992,"sunset":1504222878},"id":4775660,"name":"New Baltimore","cod":200}
 ~~~
 
-## Fetching Data
+### Fetching Data
 
 So how do we actually get the data from an API into our code?
 
@@ -53,11 +55,11 @@ if (window.XMLHttpRequest) { // Mozilla, Safari, ...
 } else if (window.ActiveXObject) { // IE
   try {
     request = new ActiveXObject('Msxml2.XMLHTTP');
-  } 
+  }
   catch (e) {
     try {
       request = new ActiveXObject('Microsoft.XMLHTTP');
-    } 
+    }
     catch (e) {}
   }
 }
@@ -94,7 +96,7 @@ Giphy has several methods for searching and finding gifs which you can read abou
 
 Go ahead and try that URL (with YOUR API key) in a browser.  If everything goes well you should get a relatively long string of data and no errors.
 
-## CORS
+### CORS
 
 A sidenote before we start putting this into our code.  For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work.  Learning about this is outside our scope right now, but if you want to learn a bit about it this [wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is a decent starting point.
 
@@ -106,7 +108,7 @@ fetch('url.url.com/api', {
 ~~~
 Simply adding the `{mode: 'cors'}` after the URL as shown above will solve our problems for now.  In the future, however, you may want to look further into the implications of this restriction.
 
-## Let's Do This
+### Let's Do This
 For now we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
 
 ~~~HTML
@@ -197,9 +199,11 @@ If all goes well, you should see a new image on the page every time you refresh!
 
 If you've gotten lost along the way, check out [this jsbin project](http://jsbin.com/canofar/edit?html,output).  Besides the glorious styling, this is what your version should look like.
 
-## Assignment
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. Read the fetch documentation [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).  It's not all that complicated to use, but we've only really scratched the surface at this point.
 2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning#natural-language-processing) of free, open APIs and let your imagination go wild.
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
+</div>

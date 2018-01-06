@@ -1,7 +1,9 @@
+### Introduction
 We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson.  When you get there don't forget to come back and add  your link!
 
-## Your assignment
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. Start a new git repo for your project.
 2. Create a blank HTML document with a script tag.  This game is going to be played
     completely from the console, so don't worry about putting anything else in there.
@@ -28,8 +30,9 @@ We're going to make a simple implementation of grade-school classic "rock paper 
    3. Feel free to re-work your previous functions if you need to.  Specifically, you might want to change the return value to something more useful.
    4. Feel free to create more "helper" functions if you think it would be useful.
 
-## Student Solutions
+</div>
 
+### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
@@ -50,7 +53,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [dejanmijatovic's solution](https://github.com/Anhatel/rock-paper-scissors)
 - [technicolor1's solution](https://github.com/technicolor1/odin-rockpaperscissors) - [View in browser](https://technicolor1.github.io/odin-rockpaperscissors/)
 - [Jakub Cisowski's solution](https://github.com/arashin1337/rock-paper-scissors) - [View in browser](https://arashin1337.github.io/rock-paper-scissors/)
-- [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/rps) - [View in browser](https://mycroft1891.github.io/my-odin-project/rps/index.html)
+- [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/web-development-101/rps) - [View in browser](https://mycroft1891.github.io/my-odin-project/web-development-101/rps/index.html)
 - [Niko Caron's solution](https://github.com/ncaron/RPSLS) - [View in browser](https://ncaron.github.io/RPSLS/)
 - [Dareon4's solution](https://github.com/Dareon4/rock-paper-scissors) - [View in browser](https://dareon4.github.io/rock-paper-scissors/)
 - [Agnieszka'a solution](https://github.com/elPetit69/rock-paper-scissors)
+- [Eduardo Massarani's solution](https://github.com/edmassarani/the-odin-project/tree/master/projects/jankenpon/gui-version) - [View in browser](https://edmassarani.github.io/the-odin-project/projects/jankenpon/gui-version/)
+- [Nick Leake's solution](https://github.com/nleake/odin-js-rockPaperScissors)

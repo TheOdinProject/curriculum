@@ -1,3 +1,5 @@
+### Introduction
+
 This project will finally give you a chance to tie together everything you've learned so far.  It's a project with a lot of complexity so take it one step at a time.  Working with Rails as a back end is pretty straightforward but you'll be juggling some of the front end functionality too.  This is entirely within the realm of the kind of thing you might be asked to build on the job (though of course not exactly).  Are you ready???
 
 Hopefully you got a chance to play "Where's Waldo" ([see here if unfamiliar](http://en.wikipedia.org/wiki/Where's_Wally%3F)) as a kid.  You're given a photograph with tons of stuff going on and you're meant to locate several familiar characters
@@ -28,8 +30,7 @@ Keep track of how long it takes between when the photo is first loaded and when 
 
 
 ### Student Solutions
-
-*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
 * [Phil's solution](https://github.com/pip36/wheres_wally) | [View in browser](https://floating-everglades-97160.herokuapp.com/)
@@ -43,7 +44,4 @@ Keep track of how long it takes between when the photo is first loaded and when 
 * [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) | [View in browser](https://frozen-stream-95035.herokuapp.com/)
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* *Add some!*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
