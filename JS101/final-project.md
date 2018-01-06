@@ -48,3 +48,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/web-development-101/calculator) - [View in Browser](https://mycroft1891.github.io/my-odin-project/web-development-101/calculator/index.html)
 - [Dareon4's solution](https://github.com/Dareon4/calculator) - [View in Browser](https://dareon4.github.io/calculator/)
 - [Niko Caron's solution](https://github.com/ncaron/react-calculator) - [View in Browser](https://ncaron.github.io/react-calculator/)
+- [g0-0py's solution](https://github.com/g0-0py/Simple-Calculator) - [View in Browser](https://g0-0py.github.io/Simple-Calculator/)
