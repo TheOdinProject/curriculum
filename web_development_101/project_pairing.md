@@ -62,6 +62,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/pomodoro)
 * [wilPoly's solution](https://github.com/wilPoly/pomodoro) - [View in browser](https://wilpoly.github.io/pomodoro/)
 * [tonalmasher's solution](https://github.com/tonalmasher/pomodoro-project) - [View in browser](https://tonalmasher.github.io/pomodoro-project/)
+* [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/web-development-101/pomodoro) - [View in Browser](https://mycroft1891.github.io/my-odin-project/web-development-101/pomodoro/index.html)
 
 ### Next Steps
 
