@@ -202,6 +202,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Alex's solution](https://github.com/alexcorremans/tictactoe/blob/master/tictactoe.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/bookish-tribble)
 * [Kusnierewicz Solution](https://github.com/Kusnierewicz/Tic-Tac-Toe-Game)
+* [Alexander Luna's Solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/tic_tac_toe)
 
 
 ### Project 2: Mastermind

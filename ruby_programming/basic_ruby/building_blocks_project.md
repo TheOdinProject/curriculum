@@ -925,4 +925,4 @@ Next, make sure your method can handle multiple words:
 * [Frances' solution](https://github.com/FMorrison87/git_test2017/blob/master/RubyProjects/substrings.rb)
 * [Wilmar's solution](https://github.com/wmunoz/substrings-project/blob/master/substrings.rb)
 * [thefitriali's solution](https://github.com/thefitriali/odin/blob/master/substrings.rb)
-* [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/blob/master/ruby_programming/caeser.rb)
+* [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/lib)
