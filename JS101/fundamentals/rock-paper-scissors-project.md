@@ -36,7 +36,11 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/fundamentals/rock-paper-scissors-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+<<<<<<< HEAD
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/rock-paper-scissors) - [View in browser](https://jonathanyiv.github.io/rock-paper-scissors/)
+=======
+- [James Moores's Gui solution](https://rawgit.com/James-N-M/rock-paper-scissors/master/index.html) 
+>>>>>>> 05a8053f097048343a2953135f7eb9c02b05cdab
 - [Jmooree30's solution](https://github.com/jmooree30/rock-paper-scissors)
 - [Luján Fernaud's solution](https://github.com/lujanfernaud/js-rock-paper-scissors) - [View in browser](http://lujanfernaud.com/js-rock-paper-scissors/)
 - [Clifford Minks's console solution](https://github.com/xxerror500xx/TOP_RPSGame.git) - [View in browser](https://xxerror500xx.github.io/TOP_RPSGame/)
@@ -61,3 +65,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Agnieszka'a solution](https://github.com/elPetit69/rock-paper-scissors)
 - [Eduardo Massarani's solution](https://github.com/edmassarani/the-odin-project/tree/master/projects/jankenpon/gui-version) - [View in browser](https://edmassarani.github.io/the-odin-project/projects/jankenpon/gui-version/)
 - [Nick Leake's solution](https://github.com/nleake/odin-js-rockPaperScissors)
+- [Javier Machin's solution](https://github.com/Javier-Machin/RockPaperScis) - [View in browser](https://javier-machin.github.io/RockPaperScis/)
