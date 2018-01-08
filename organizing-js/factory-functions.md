@@ -1,4 +1,4 @@
-## What's wrong with constructors
+### What's wrong with constructors
 
 Object constructors are one of about a million ways to start organizing your code.  They are fairly common in the wild and are a fundamental building block of the JavaScript language.
 
@@ -10,7 +10,7 @@ One of the biggest issues with constructors is that while they _look_ just like 
 
 The main takeaway is that while constructors aren't necessarily _evil_, but they aren't the only way and they may not be the best way either.  Of course this doesn't mean that time learning about them was wasted!  They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
-## Factory Function introduction
+### Factory Function introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function.  Check out this example.
 
@@ -39,7 +39,7 @@ const Person = function(name, age) {
 const jeff = new Person('jeff', 27);
 ~~~
 
-### Object Shorthand
+#### Object Shorthand
 
 A quick note about line 3 from the factory function example.  In 2015 a handy new shorthand for creating objects was added into JavaScript.  Without the shorthand line 3 would have looked something like this:
 
@@ -67,11 +67,11 @@ console.log(name, color, number, food) // Maynard red 34 rice
 
 // if you simply turn them into an object with brackets,
 // the output is much easier to decipher:
-console.log({name, color, number, food}) 
+console.log({name, color, number, food})
 	// { name: 'Maynard', color: 'red', number: 34, food: 'rice' }
 ~~~
 
-## Scope and Closure
+### Scope and Closure
 
 From simply reading the above example you are probably already in pretty good shape to start using factory functions in your code, but before we get there it's time to do a somewhat deep dive into an incredibly important concept: __closure__.
 
@@ -105,7 +105,7 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
    that statement _was_ true in 2013 when the article was written, but ES6 has rendered it incorrect.  Read [this](http://wesbos.com/javascript-scoping/) article to get the scoop!
 
-## Private Variables and Functions
+### Private Variables and Functions
 
 Now that we've cemented your knowledge of scope in JavaScript take a look at this example:
 
@@ -149,11 +149,11 @@ counter(); // 3
 
 In this example `counterCreator` initializes a local variable (`count`) and then returns a function.  To use that function we have to assign it to a variable (line 9).  Then, every time we run the function it `console.log`s `count` and increments it.  As above, the function `counter` is a closure.  It has access to the variable `count` and can both print and increment it, but there is no other way for our program to access that variable.
 
-In the context of Factory Functions, closures allow us to create __private__ variables and functions.  Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that the rest of the program is going to use. Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public. 
+In the context of Factory Functions, closures allow us to create __private__ variables and functions.  Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that the rest of the program is going to use. Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public.
 
 The concept of private functions is very useful and should be used as often as is possible! For every bit of functionality that you need for your program, there are likely to be several supporting functions that do NOT need to be used in your program as a whole. Tucking these away and making them inaccessible makes your code easier to refactor, easier to test and easier to reason about for you and anyone else that wants to use your objects.
 
-## Back to Factory Functions
+### Back to Factory Functions
 
 Now that we've got the theory out of the way, let's return to factory functions.  Factories are simply plain old JavaScript functions that return objects for us to use in our code.  Using factories is a powerful way to organize and contain the code you're writing.  For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!)
 
@@ -188,7 +188,7 @@ Take a minute to look through this simplistic example and see if you can figure 
 
 What would happen here if we tried to call `jimmie.die()`?  What if we tried to manipulate the health: `jimmie.health -= 1000`?  Of course, those are things that we have NOT exposed publicly so we would get an error.  This is a very good thing!  Setting up objects like this makes it easier for us to use them because we've actually put some thought into how and when we are going to want to use the information.  In this case, we have jimmie's health hiding as a private variable inside of the object which means we need to export a function if we want to manipulate it.  In the long run this will make our code _much_ easier to reason about because all of the logic is encapsulated in an appropriate place.
 
-### Inheritance with Factories
+#### Inheritance with Factories
 
 In the constructors lesson we looked fairly deeply into the concept of Prototypes and Inheritance, or giving our objects access to the methods and properties of another Object.  There are a few easy ways to accomplish this while using Factories.  Check this one out:
 
@@ -223,7 +223,7 @@ const Nerd = (name) => {
 
 - Before moving on have a look at [this](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) article.  In the second half of the article the author goes into some things that we aren't really talking too much about here, but you'll be rewarded if you spend some time figuring out what he's talking about.  Good stuff!
 
-## The Module Pattern
+### The Module Pattern
 
 > Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'.  These are essentially a syntax for importing and exporting code between different JavaScript files.  They're very powerful and we WILL be covering them later.  They are _not_, however, what we're talking about here.
 

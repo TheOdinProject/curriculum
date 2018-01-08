@@ -10,8 +10,7 @@ And speaking of jobs, if you've made it this far then you've displayed the kind 
 
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [jQuery Mobile from learn.jquery.com](http://learn.jquery.com/jquery-mobile/)
 * [An Android development tutorial from CodeLearn](http://www.codelearn.org/android-tutorial)

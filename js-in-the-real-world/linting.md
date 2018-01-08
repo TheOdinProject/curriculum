@@ -1,11 +1,11 @@
-## Style Guides
+### Style Guides
 
 Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read.  There are several popular javascript style guides on the net that set  standards for these types of things, and a little time spent reading them _will_ make you a better developer.
 
 1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular.  It is also very well formatted and easy to read.
 2. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
 
-## Linting
+### Linting
 
 The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a _lot_ of rules - it can be difficult to internalize them all. __Linters__ are tools that will scan your code with a set of style rules and will report any errors to you that they find.  In some cases they can even auto-fix the errors! The following articles explain in more detail the benefits of using a linter while you code.
 
@@ -21,7 +21,7 @@ There are multiple options for linting your JavaScript, but the most popular (an
    3. Atom - [The Plugin](https://atom.io/packages/linter-eslint) and [a tutorial](https://medium.freecodecamp.org/how-to-set-up-eslint-in-atom-to-contribute-to-freecodecamp-3467dee86e2c).
    4. Vim - [Use the ALE plugin](https://github.com/w0rp/ale).  If you use vim you already know what you're getting into.  ALE is a great plugin, but the setup and configuration can be a little tricky.
 
-## Prettier
+### Prettier
 
 Prettier is _awesome_.  It is similar to a linter, but serves a slightly different function.  Prettier will take your JS code and then automatically format it according to a set of rules.  Unlike a linter, it's not looking for style errors, but specifically targeting the layout of your code and making intelligent decisions about things like spaces, indentation levels and line-breaks.
 
@@ -29,4 +29,4 @@ Prettier is _awesome_.  It is similar to a linter, but serves a slightly differe
 2. Give it a test drive [here](https://prettier.io/playground).  Go ahead and copy/paste some of your old JavaScript code into that editor and see what happens.
 3. Setup is simple.  [The homepage](https://prettier.io/) links to tutorials for most popular editors.
 
-Using prettier makes coding faster and easier!  You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you 
+Using prettier makes coding faster and easier!  You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you

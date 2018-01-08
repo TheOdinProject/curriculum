@@ -1,4 +1,4 @@
-# Organizing your JavaScript code
+### Organizing your JavaScript code
 
 One of the most daunting parts of JavaScript is learning how to organize your code.  The reason this subject can be so overwhelming is _not_ because JavaScript is so much more complex than other languages, but because it is incredibly forgiving! Many languages force you into using specific patterns and data structures in your code but that is not true in JavaScript.  
 
