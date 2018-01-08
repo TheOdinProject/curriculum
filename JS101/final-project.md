@@ -50,3 +50,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Niko Caron's solution](https://github.com/ncaron/react-calculator) - [View in Browser](https://ncaron.github.io/react-calculator/)
 - [g0-0py's solution](https://github.com/g0-0py/Simple-Calculator) - [View in Browser](https://g0-0py.github.io/Simple-Calculator/)
 - [Jakub Cisowski's solution](https://github.com/arashin1337/calculator) - [View in Browser](https://arashin1337.github.io/calculator/)
+- [Eduardo Massarani's solution](https://github.com/edmassarani/the-odin-project/tree/master/projects/calculator) - [View in Browser](https://edmassarani.github.io/the-odin-project/projects/calculator/)
