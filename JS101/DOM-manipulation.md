@@ -1,3 +1,5 @@
+__PULLED FROM MINDOVERMILES262 JS REPO__
+
 ### Introduction
 
 One of the most unique and useful abilities of JavaScript is it's ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in...
@@ -11,9 +13,10 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 </details>
 
 <details>
-  <summary>What's the difference between a "node" and an "element"?</summary>
+<summary>What's the difference between a "node" and an "element"?</summary>
 
   * A "node" is any object in the DOM hierarchy while an "element" is _one specific_ node.
+  
   * "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".
 
 </details>
