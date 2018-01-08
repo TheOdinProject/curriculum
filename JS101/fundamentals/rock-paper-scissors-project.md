@@ -36,6 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [James Moores's Gui solution](https://rawgit.com/James-N-M/rock-paper-scissors/master/index.html) 
 - [Jmooree30's solution](https://github.com/jmooree30/rock-paper-scissors)
 - [Luján Fernaud's solution](https://github.com/lujanfernaud/js-rock-paper-scissors) - [View in browser](http://lujanfernaud.com/js-rock-paper-scissors/)
 - [Clifford Minks's console solution](https://github.com/xxerror500xx/TOP_RPSGame.git) - [View in browser](https://xxerror500xx.github.io/TOP_RPSGame/)
