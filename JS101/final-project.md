@@ -26,7 +26,7 @@ Here are some use cases (abilities you project needs to have):
 6. Gotchas: watch out for and fix these bugs if they show up in your code:
    1. Users should be able to string together several operations and get the right answer: `12 + 7 - 5 * 3` etc.
    2. You should round answers with long decimals so that they don't overflow the screen.
-   2. Pressing `=` before entering all of the numbers or an operator could cause problems!  
+   2. Pressing `=` before entering all of the numbers or an operator could cause problems!
    3. Pressing "clear" should wipe out any existing data.. make sure the user is really starting fresh after pressing "clear"
    4. Display a snarky error message if the user tries to divide by 0... don't let it crash your calculator!
 7. EXTRA CREDIT: Users can get floating point numbers if they do the math required to get one, but they can't type them in yet.  Add a `.` button and let users input decimals!  Make sure you don't let them type more than one though: `12.3.56.5`. It is hard to do math on these numbers. \(disable the decimal button if there's already one in the display\)
@@ -36,7 +36,7 @@ Here are some use cases (abilities you project needs to have):
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
+Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/final-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
 - [JocelynOcelyn's solution](https://github.com/jocelynocelyn/calculator) - [View in Browser](https://jocelynocelyn.github.io/calculator/)

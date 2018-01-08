@@ -17,7 +17,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What are assignment operators?
 * What is the "Unary +" Operator?
 
-###  Numbers
+### Numbers
 
 Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
 
@@ -32,7 +32,7 @@ You can think of variables simply as "storage containers" for data in your code.
 1. Read through [this variable tutorial](http://javascript.info/variables) as well. It covers the other methods of variable creation.  __Be sure to do the Tasks__ at the end of this article!  Information won't stick without practice!
 2. Sidenote:  It's mentioned in the above tutorial, but important enough to note specifically here.  `let` and `const` are both relatively new ways to declare variables in JavaScript.  In _many_ tutorials and in code across the internet you are likely to encounter `var`. Don't let it bother you!  You should stick to `let` and `const` for now. There is nothing inherently wrong with `var`, but in a few small cases it's behavior is not what you would expect.  In most cases `var` and `let` behave exactly the same. The precise difference will be explained later.
 
-###  Practice!
+### Practice!
 
 You can easily run your own JavaScript code from files that you create on your own computer.  The simplest way to get started is to simply create an html file with the JavaScript code inside of it.  Type the basic html skeleton into a file on your computer somewhere:
 
