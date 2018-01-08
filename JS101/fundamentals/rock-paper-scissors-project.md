@@ -61,3 +61,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Agnieszka'a solution](https://github.com/elPetit69/rock-paper-scissors)
 - [Eduardo Massarani's solution](https://github.com/edmassarani/the-odin-project/tree/master/projects/jankenpon/gui-version) - [View in browser](https://edmassarani.github.io/the-odin-project/projects/jankenpon/gui-version/)
 - [Nick Leake's solution](https://github.com/nleake/odin-js-rockPaperScissors)
+- [Javier Machin's solution](https://github.com/Javier-Machin/RockPaperScis) - [View in browser](https://javier-machin.github.io/RockPaperScis/)
