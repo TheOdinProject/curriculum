@@ -1,3 +1,4 @@
+### Introduction
 JavaScript is a very powerful language.  It is capable of creating complex web applications that work _everywhere_. But it is just as often used on a smaller scale.  JavaScript is the glue that holds even less flashy websites together- it makes dropdowns drop down and image sliders slide.  
 
 Fortunately at this point you already have all the tools you need to make these items without resorting to using a bloated framework like bootstrap. (Nothing against bootstrap... you just do _not_ need it!  Good for you!)
@@ -6,7 +7,7 @@ We aren't presenting any new content in this lesson - just giving you the chance
 
 > Animations are typically handled by CSS which is a little out of the scope of this lesson, but interactive stuff like this is no fun without a little motion!  If you want to take a break and learn more about making stuff move [go watch this video](https://www.youtube.com/watch?v=8kK-cA99SA0).
 
-## Dropdown menus
+### Dropdown menus
 
 You know what we're talking about here.  Picture a nav-bar or a button and when you click it the menu slides down nicely.  As mentioned previously, you already know everything you need to create this element.  Here are some things to keep in mind:
 
@@ -15,13 +16,13 @@ You know what we're talking about here.  Picture a nav-bar or a button and when 
 3. Make sure the code is reusable!  You should be able to create multiple dropdowns on a page without repeating the JavaScript code.
 4. If you bundle your code into a module you can [publish it to npm](https://docs.npmjs.com/getting-started/publishing-npm-packages) and then install and use it anytime you like!  Nothing like publishing your own modules to make you feel like a pro 😎.
 
-## Mobile menus
+### Mobile menus
 
 Mobile versions of your sites are almost definitely going to need their own menu implementation.  Depending on how you decided to implement your dropdown, you _could_ reuse it here, but there are tons of more inventive options out there.
 
 1. [Browse the web](https://dribbble.com/search?q=mobile+menu) for [some](http://trydevkit.com/blog-post/steal-these-responsive-navigation-menu-ideas/bc8bec8d-ef4e-60bc-456c-525ed6f88db8) [inspiration](https://medium.com/@kollinz/hamburger-menu-alternatives-for-mobile-navigation-a3a3beb555b8), pick something and try to implement it!
 
-## Image slider
+### Image slider
 
 Again, there's not much instruction needed here - just practice.  
 
