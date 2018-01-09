@@ -7,7 +7,7 @@ At the end of this lesson you should be able to:
 <details>
   <summary>Describe what the <i>internet</i> is</summary>
   <ul><ul>
-    <li>The internet is a network of linked computers from around the globe. Each of these computers communicate with eachother in a specific format.</li>
+    <li>The internet is a network of linked computers from around the globe. Each of these computers communicate with each other in a specific format.</li>
   </ul></ul>
  </details>
  
