@@ -1,6 +1,6 @@
 ### Introduction
 
-This again should represent a review from what you've already covered in the [Web Development 101 Lesson on HTML/CSS](/web-development-101/html-and-css-basics), but if you're unable to answer the questions posed below in the "Points to Ponder" section, you could probably benefit from the review of the basic stuff.
+This again should represent a review from what you've already covered in the [Web Development 101 Lesson on HTML/CSS](/web-development-101/html-and-css-basics), but if you're unable to answer the questions posed below in the "Learning Outcomes" section, you could probably benefit from the review of the basic stuff.
 
 ### Learning Outcomes
 

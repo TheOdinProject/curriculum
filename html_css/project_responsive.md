@@ -12,7 +12,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Try to discover which browser widths are "breakpoints" where element properties change (e.g. the sidebar disappearing).  Make a plan for which elements need to be modified at which widths.
-6. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+6. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 7. Now -- before you've filled in any of these divs -- add in the media queries and positioning/floating attributes that are needed to make them rearrange as necessary when the browser changes sizes.
 8. Once you've got the page layout performing as it should, fill in the divs and style them to look like the original homepage.  Don't get lost in the details -- it's okay if it isn't exact.
 9. Double check that all the elements still behave just like the original when the browser size is changed.
@@ -23,6 +23,8 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/the-next-web) - [View in browser](http://jonathanyiv.com/the-next-web/)
+* [Jmooree's solution](https://github.com/jmooree30/the-next-web) - [View in browser](https://jmooree30.github.io/the-next-web/)
 * [Axel's solution](https://github.com/afuh/next-web) - [View in browser](http://next-web.surge.sh/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/next-web) - [View in browser](https://yilmazgunalp.github.io/next-web/)
 * [Leah Xia's solution](https://github.com/LeahXia/the-next-web.git) - [View in browser](http://leahxia.com/internal-links/the-next-web/index.html)
@@ -50,6 +52,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [husein ghafari's solution](https://github.com/hosghf/responsive-thenextweb) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/responsive-thenextweb/blob/master/index.html)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/NextWeb/) - [View in browser](https://ncud4bloc.github.io/NextWeb/HTML.index.html)
 * [Matteo's solution](https://github.com/naufragio/thenextweb) - [View in browser](https://naufragio.github.io/thenextweb/)
+* [Aram Shelton's solution](https://github.com/tonalmasher/next-web/settings) [View in browser](https://tonalmasher.github.io/next-web/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -15,7 +15,10 @@ The TOP community can be found in our [gitter chat rooms](https://gitter.im/TheO
 ## Curriculum Re-development
 We are currently redeveloping the curriculum, each course will be moved out into its own respository as this process develops. Links to the new course repositories can be found here.
 
+* [Javascript Course](https://github.com/TheOdinProject/javascript_curriculum)
 * [Ruby Course](https://github.com/TheOdinProject/ruby_course)
+* [Rails Course](https://github.com/TheOdinProject/rails_course)
+
 
 ## Contributing
 
@@ -44,7 +47,7 @@ If you would like to help us develop any of these lessons please read our [contr
 * New resource links you think would make a lesson better
 * Working on new lessons and projects, you can can choose to work on parts of a lesson which are outlined in the progress list on [lesson plans](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) or you can work on completing an entire lesson yourself.
 
-To find out more about how you can contribute please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide)
+To find out more about how you can contribute please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide).
 
 ## Other helpful links
 
