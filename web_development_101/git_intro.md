@@ -1,4 +1,4 @@
-### Introduction
+### Introduction 
 
 Git is like a really **epic save button** for your files and directories - officially Git is called a version control system.
 
