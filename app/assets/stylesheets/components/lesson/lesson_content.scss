@@ -99,4 +99,20 @@
   &__small-image {
     width: auto !important;
   }
+
+  details {
+    summary {
+      color: $grey;
+      font-size: 1.125rem;
+    }
+    
+    ul {
+      margin: 15px;
+    }
+  }
+
+  details:last-child {
+    margin-bottom: 30px;
+  }
+
 }
