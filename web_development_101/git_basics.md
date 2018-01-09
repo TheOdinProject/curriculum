@@ -6,13 +6,47 @@ In this lesson we will cover common git commands used to manage your projects an
 ### Learning Outcomes
 By the end of this you should be able to:
 
-* Run git commands from the command line
-* Name the git command used to get a full copy an existing git repository from Github
-* Name the git command used to check the status of your files
-* Name the git command used to track files
-* Name the git command used to commit files
-* Name the git command used to view your commit history
-* Name the git command used to upload projects onto GitHub
+<details>
+<summary>Name the git command used to get a full copy an existing git repository from Github</summary>
+<ul><ul>
+  <li>Use <code>git clone &lt;git-repository-url&gt;</code> to clone the repository</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to check the status of your files</summary>
+<ul><ul>
+  <li>Use <code>git status</code> to see any changes since your last commit</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to track files</summary>
+<ul><ul>
+  <li>Use <code>git add</code> to track files</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to commit files</summary>
+<ul><ul>
+  <li>Use <code>git commit</code> to commit tracked files.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to view your commit history</summary>
+<ul><ul>
+  <li>Use <code>git log</code> to view your commit history.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to upload projects onto GitHub</summary>
+<ul><ul>
+  <li>Use <code>git push</code> to send your commit to GitHub.</li>
+</ul></ul>
+</details>
 
 ### Assignment
 
