@@ -4,13 +4,54 @@ Before you can understand how to *program* the web, you need to understand the w
 ### Learning Outcomes
 At the end of this lesson you should be able to:
 
-* Describe what the *internet* is
-* Describe what *packets* are and how they are used to transfer data
-* Understand the differences between a *webpage*, *web server*, *web browser* and *search engine*
-* Briefly explain what a *client* is
-* Briefly explain what a *server* is
-* Explain what *DNS servers* are
-* Explain, in your own words, what happens when you **click search** on google.com to a friend!
+<details>
+  <summary>Describe what the <i>internet</i> is</summary>
+  <ul><ul>
+    <li></li>
+  </ul></ul>
+ </details>
+ 
+ <details>
+  <summary>Describe what <i>packets</i> are and how they are used to transfer data</summary>
+  <ul><ul>
+    <li>Packets are the information of the internet. Packets are sent from the sender to the receiever in a specific format which contains all the information needed to communicate.</li>
+  </ul></ul>
+ </details>
+ 
+<details>
+  <summary>Understand the differences between a <i>webpage</i>, <i>web server</i>, <i>web browser</i> and <i>search engine</i></summary>
+  <ul><ul>
+    <li>A webpage is the page you look at in your browser</li>
+    <li>A web server is the computer that has the code for how the webpage should look and act.</li>
+    <li>A web browser is a program on a computer that displays the web page.</li>
+    <li>A search engine is a web server that searches all other web servers for information.  A user can then pull up the webpage on their web browser and search for a site.</li>
+  </ul></ul>
+ </details>
+ 
+ <details>
+  <summary>Briefly explain what a <i>client</i> is</summary>
+  <ul><ul>
+    <li>A client is the computer or internet device that requests information from the server.</li>
+  </ul></ul>
+ </details>
+ 
+ <details>
+  <summary>Briefly explain what a <i>server</i> is</summary>
+  <ul><ul>
+    <li>A server is the computer that receives requests (as packets) from the client and responds with the appropriate data.</li>
+  </ul></ul>
+ </details>
+ 
+ <details>
+  <summary>Explain what <i>DNS servers</i> are</summary>
+  <ul><ul>
+    <li>DNS Servers are the "phone book" of the internet. They translate IP addresses into domain names.</li>
+  </ul></ul>
+ </details>
+ 
+ <details>
+  <summary>Explain, in your own words, what happens when you click search on google.com to a friend!</summary>
+ </details>
 
 ### Assignment
 
