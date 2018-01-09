@@ -1324,6 +1324,9 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Jay Jeong's Solution (Easy)](https://github.com/lastDayIn2017/project1) - [View In Browser](https://lastDayIn2017.github.io/project1)
 * [data4pass's Solution (Easy)](https://github.com/data4pass/) - [View In Browser](https://data4pass.github.io/google-mockup/)
 * [cartwheeler's Solution (Easy)](https://github.com/cartwheeler/google-homepage) - [View In Browser](https://cartwheeler.github.io/google-homepage/)
+* [Jacob Folley's Solution (Easy)](https://github.com/Jacob-Folley/google-homepage) - [View In Browser](https://jacob-folley.github.io/google-homepage/)
+
+
 
 ### Additional Resources
 
