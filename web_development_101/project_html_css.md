@@ -1326,6 +1326,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [cartwheeler's Solution (Easy)](https://github.com/cartwheeler/google-homepage) - [View In Browser](https://cartwheeler.github.io/google-homepage/)
 * [AnjaliDeshwani's Solution](https://github.com/AnjaliDeshwani/google-homepage)
 * [Jacob Folley's Solution (Easy)](https://github.com/Jacob-Folley/google-homepage) - [View In Browser](https://jacob-folley.github.io/google-homepage/)
+* [Shing's Solution (Easy)](https://github.com/shngnergy/google-homepage) - [View In Browser](https://shngnergy.github.io/google-homepage/)
 
 ### Additional Resources
 
