@@ -52,4 +52,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Jakub Cisowski's solution](https://github.com/arashin1337/calculator) - [View in Browser](https://arashin1337.github.io/calculator/)
 - [Eduardo Massarani's solution](https://github.com/edmassarani/the-odin-project/tree/master/projects/calculator) - [View in Browser](https://edmassarani.github.io/the-odin-project/projects/calculator/)
 - [Naveen M V's solution](https://github.com/naveencode/calculator) - [View in Browser](https://naveencode.github.io/calculator/)
-
+- [AttilaTheHen's solution](https://github.com/AttilaTheHen/calculator) - [View in Browser](https://attilathehen.github.io/calculator/)
