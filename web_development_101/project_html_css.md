@@ -1330,6 +1330,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Samuel Masters Solution (Easy)](https://github.com/redeyetuning/google-homepage) - [View In Browser](https://redeyetuning.github.io/google-homepage/)
 * [Shing's Solution (Easy)](https://github.com/shngnergy/google-homepage) - [View In Browser](https://shngnergy.github.io/google-homepage/)
 * [axelerleo's Solution (Easy)](https://github.com/axelerleo/google-homepage) - [View In Browser](https://axelerleo.github.io/google-homepage/)
+* [Jeff's Solution (Easy)](https://github.com/menace18078/google-homepage) - [View in Browser](https://menace18078.github.io/google-homepage/)
 
 ### Additional Resources
 
