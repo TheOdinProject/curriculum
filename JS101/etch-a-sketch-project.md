@@ -58,3 +58,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Technicolor1's Solution](https://github.com/technicolor1/odin-etch_sketch) - [View in Browser](https://technicolor1.github.io/odin-etch_sketch/)
 * [simplybretterson's Solution](https://github.com/simplybretterson/sketchpad) - [View in Browser](https://simplybretterson.github.io/sketchpad)
 * [CTavino's Solution](https://github.com/ctavino/etch-a-sketch) - [View in Browser](https://ctavino.github.io/etch-a-sketch/)
+* [Tshepo Mohlamonyane's Solution](https://github.com/blavkboy/Vanilla-JS-Sketchpad) - [View in Browser](https://blavkboy.github.io/Vanilla-JS-Sketchpad/)
