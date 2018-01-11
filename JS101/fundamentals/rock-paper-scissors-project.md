@@ -62,4 +62,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Eduardo Massarani's solution](https://github.com/edmassarani/the-odin-project/tree/master/projects/jankenpon/gui-version) - [View in browser](https://edmassarani.github.io/the-odin-project/projects/jankenpon/gui-version/)
 - [Nick Leake's solution](https://github.com/nleake/odin-js-rockPaperScissors)
 - [Javier Machin's solution](https://github.com/Javier-Machin/RockPaperScis) - [View in browser](https://javier-machin.github.io/RockPaperScis/)
-- [CurmudJim's solution](https://github.com/CurmudJim/top_rps_js)
+- [CurmudJim's solution](https://github.com/CurmudJim/top_rps_js) - [View in browser](https://curmudjim.github.io/top_rps_js/)
