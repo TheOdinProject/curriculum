@@ -40,6 +40,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+* [Mtizim's solution](https://github.com/mtizim/odin_projects/tree/master/etchasketch) - [View in browser](https://mtizim.github.io/odin_projects/etchasketch.html)
 * [Javier Machin's Solution, with optional features](https://github.com/Javier-Machin/EtchSketch-PizarraMagica) - [View in browser](https://javier-machin.github.io/EtchSketch-PizarraMagica/)
 * [Nate Dimock's Solution](https://github.com/Flakari/sketchpad) - [View in browser](https://flakari.github.io/sketchpad/)
 * [JocelynOcelyn's Solution](https://github.com/jocelynocelyn/etchasketch) - [View in browser](https://jocelynocelyn.github.io/etchasketch/)
