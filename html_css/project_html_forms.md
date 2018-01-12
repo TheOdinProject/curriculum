@@ -20,6 +20,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
+* [theghall's solution](https://github.com/theghall/odin-mint) - [Live](https://theghall.github.io/odin-mint/)
 * [Jeremy-D's solution](https://github.com/Jeremy-D/Mint-form) - [Live](https://jeremy-d.github.io/Mint-form/)
 * [Jmooree30's solution](https://github.com/jmooree30/mint-signup-clone) - [Live](https://jmooree30.github.io/mint-signup-clone/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/mint-signup-page) - [Live](https://jonathanyiv.github.io/mint-signup-page/)
