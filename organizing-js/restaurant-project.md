@@ -21,11 +21,10 @@ Lets use what we've learned and take a chance to continue practicing DOM manipul
    1. Put the contents of each 'tab' inside of it's own module. Each module will export a function that creates a div element, adds the appropriate content and styles to that element and then appends it to the DOM
    2. Write the tab-switching logic inside of `index.js`.  You should have event listeners for each tab that wipes out the current contents and then runs the correct 'tab module' to populate it again.
 7. If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up.  After running `webpack` the full bundled version of your site is available in the `dist` folder, but GH pages is looking for an index.html in the root directory of your project.
-   1. Make a new git branch called `gh-pages`.  In that branch simply move the `dist` folder to the root directory.  Feel free to delete the rest of the files on that branch.. all you need is the `index.html` and `bundle.js`.
-   2. When you tell GitHub to set up GH pages simply direct it to your `gh-pages` branch instead of master.
-</div>
+   1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490).  EZPZ!
 
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+[codyloyd's solution](https://github.com/codyloyd/odin-restaurant) - [View in browser](http://codyloyd.com/odin-restaurant/)
