@@ -330,6 +330,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Wilmar's solution](https://github.com/wmunoz/caesar_cipher)
 * [Kayleigh's solution](https://github.com/kayleigh114/RubyProjects/blob/master/CaesarCipher/CaesarCipher.rb)
 * [thefitriali's solution](https://github.com/thefitriali/odin/blob/master/caesar_cipher.rb)
+* [Niko Caron's solution](https://gist.github.com/ncaron/04cf9a1c011cff3df2b3ce853adbd62d)
 
 ### Project 2: Stock Picker
 
@@ -626,6 +627,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Wilmar's solution](https://github.com/wmunoz/stock-picker)
 * [Kayleigh's solution](https://github.com/kayleigh114/RubyProjects/blob/master/StockPicker/StockPicker.rb)
 * [thefitriali's solution](https://github.com/thefitriali/odin/blob/master/stock_picker.rb)
+* [Niko Caron's solution](https://gist.github.com/ncaron/1125b59c8969810fe8d9844db926f842)
 
 ### Project 3: Substrings
 
@@ -926,3 +928,4 @@ Next, make sure your method can handle multiple words:
 * [Wilmar's solution](https://github.com/wmunoz/substrings-project/blob/master/substrings.rb)
 * [thefitriali's solution](https://github.com/thefitriali/odin/blob/master/substrings.rb)
 * [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/lib)
+* [Niko Caron's solution](https://gist.github.com/ncaron/557f9b952ed02f86de034b20da09746d)
