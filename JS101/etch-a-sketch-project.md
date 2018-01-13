@@ -44,7 +44,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [JocelynOcelyn's Solution](https://github.com/jocelynocelyn/etchasketch) - [View in browwser](https://jocelynocelyn.github.io/etchasketch/)
 * [Nate Dimock's Solution](https://github.com/Flakari/sketchpad) - [View in browser](https://flakari.github.io/sketchpad/)
 * [JocelynOcelyn's Solution](https://github.com/jocelynocelyn/etchasketch) - [View in browser](https://jocelynocelyn.github.io/etchasketch/)
->>>>>>> 05a8053f097048343a2953135f7eb9c02b05cdab
 * [g0-0py's Solution](https://github.com/g0-0py/EtchASketch) - [View in browser](https://g0-0py.github.io/EtchASketch/)
 * [artkol's Solution](https://github.com/artkol/simple-sketchpad) - [View in browser](https://artkol.github.io/simple-sketchpad/index.html)
 * [AttilaTheHen's Solution](https://github.com/AttilaTheHen/SketchPad) - [View in browser](https://attilathehen.github.io/SketchPad/)

@@ -38,7 +38,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/rock-paper-scissors) - [View in browser](https://jonathanyiv.github.io/rock-paper-scissors/)
 - [James Moores's Gui solution](https://rawgit.com/James-N-M/rock-paper-scissors/master/index.html)
->>>>>>> 05a8053f097048343a2953135f7eb9c02b05cdab
 - [Jmooree30's solution](https://github.com/jmooree30/rock-paper-scissors)
 - [Luján Fernaud's solution](https://github.com/lujanfernaud/js-rock-paper-scissors) - [View in browser](http://lujanfernaud.com/js-rock-paper-scissors/)
 - [Clifford Minks's console solution](https://github.com/xxerror500xx/TOP_RPSGame.git) - [View in browser](https://xxerror500xx.github.io/TOP_RPSGame/)
