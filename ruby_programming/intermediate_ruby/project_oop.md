@@ -17,7 +17,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
-* [Huy Vo's solution](https://gist.github.com/huyvohcmc/56569099d2cbc8fc53f06fa923017838)
 * [Jacqueline Fahmy's solution](https://github.com/jfahmy/Ruby/blob/master/ProjectOdin/OOP_project/TicTacToe.rb)
 * [Bianca Carvalho's solution](https://github.com/biancafc/ruby-projects/blob/master/oop-project1-tictactoe.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/tree/master/tic-tac-toe)
@@ -381,6 +380,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex's solution](https://github.com/alexcorremans/mastermind)
 * [Kusnierewicz solution (with fairly smart AI)](https://github.com/Kusnierewicz/Mastermind-game)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/improved-octo-doodle)
+* [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/mastermind)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
