@@ -67,14 +67,20 @@ function addActiveClass() {
 
 function constructLessonNavigation() {
   var commonHeadings = getLessonHeadings();
-  if (commonHeadings.length === 0) return;
+  if (commonHeadings.length < 2) {
+    var navigationColumn = document.querySelector('.lesson .col-lg-3');
+    var lessonColumn = document.querySelector('.lesson .row');
 
-  var lessonNavigationHTML = lessonNavigation(commonHeadings);
-  var lessonNavigationElement = document.querySelector('.lesson-navigation');
+    navigationColumn.classList.add('d-none');
+    lessonColumn.classList.add('justify-content-center');
+  } else {
+    var lessonNavigationHTML = lessonNavigation(commonHeadings);
+    var lessonNavigationElement = document.querySelector('.lesson-navigation');
 
-  lessonNavigationElement.innerHTML = lessonNavigationHTML;
-  addActiveClass();
-  Stickyfill.add(lessonNavigationElement);
+    lessonNavigationElement.innerHTML = lessonNavigationHTML;
+    addActiveClass();
+    Stickyfill.add(lessonNavigationElement);
+  }
 }
 
 function isLessonPage() {
