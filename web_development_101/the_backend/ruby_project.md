@@ -377,3 +377,4 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [BetterSpecs.org](http://betterspecs.org/) contains detailed best practices for writing your own tests.  Overkill for this assignment, but potentially interesting for the future.
+* [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/49-what-the-format.html) describes the `sprintf` method used in the `06_timer` problem.
