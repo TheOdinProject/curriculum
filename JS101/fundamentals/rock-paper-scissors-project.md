@@ -37,6 +37,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/rock-paper-scissors) - [View in browser](https://jonathanyiv.github.io/rock-paper-scissors/)
+- [Samuel Master's UI solution](https://github.com/redeyetuning/rock-paper-scissors/) - [View in browser](https://redeyetuning.github.io/rock-paper-scissors/)
+- [SarfrazAnjum Solution](https://github.com/SarfrazAnjum/Rock-Paper-Scissors)
+- [Bojana Karakacev's solution](https://github.com/bojana12/rock-paper-scissors) - [View in browser](https://bojana12.github.io/rock-paper-scissors/dist/) - [UI version](https://github.com/bojana12/rock-paper-scissors-UI) - [View in browser](https://bojana12.github.io/rock-paper-scissors-UI/dist/)
 - [James Moores's Gui solution](https://rawgit.com/James-N-M/rock-paper-scissors/master/index.html)
 - [Jmooree30's solution](https://github.com/jmooree30/rock-paper-scissors) - [View in browser](https://jmooree30.github.io/rock-paper-scissors/)
 - [Luján Fernaud's solution](https://github.com/lujanfernaud/js-rock-paper-scissors) - [View in browser](http://lujanfernaud.com/js-rock-paper-scissors/)
