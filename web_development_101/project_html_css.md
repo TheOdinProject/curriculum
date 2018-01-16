@@ -1340,6 +1340,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Hitalo Silva's Solution (Easy)](https://github.com/hitaloosilva/google-homepage) - [View in Browser](https://hitaloosilva.github.io/google-homepage/)
 * [grapiuna's Solution (Easy)](https://github.com/grapiuna/google-homepage) - [View in Browser](https://grapiuna.github.io/google-homepage/)
 * [Fabio's Solution (Easy)](https://github.com/ffabiorj/google-homepage) - [View in Browser](https://cdn.rawgit.com/ffabiorj/google-homepage/87eba0b7/index.html)
+* [Benny's Solution (Easy)](https://deckins.github.io/google-homepage/) - [View in Browser](https://deckins.github.io/google-homepage/)
 
 
 ### Additional Resources
