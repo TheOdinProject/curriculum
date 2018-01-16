@@ -94,12 +94,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-
-[SarfrazAnjum Solution (Easy)](https://github.com/SarfrazAnjum/google_homepage)
+* [SarfrazAnjum Solution (Easy)](https://github.com/SarfrazAnjum/google_homepage)
 * [ironpatriot Solution (Easy) ](https://github.com/ironpatriot/fake-google-page.github.io) - [View in Browser](https://fake-google-page.github.io)
 * [GrzeluD Solution (Difficult)](https://github.com/GrzeluD/google-resultPage) - [View in Browser](https://grzelud.github.io/google-resultPage/)
-- [Mai's Solution](https://github.com/PA55ION/Google-homepage.git) - [View in Browser](https://pa55ion.github.io/Google-homepage/)
- [Janee2525's solution (Easy)](https://github.com/Janee2525/google-homepage) - [View in Browser](https://janee2525.github.io/google-homepage/)
+* [Mai's Solution](https://github.com/PA55ION/Google-homepage.git) - [View in Browser](https://pa55ion.github.io/Google-homepage/)
+* [Janee2525's solution (Easy)](https://github.com/Janee2525/google-homepage) - [View in Browser](https://janee2525.github.io/google-homepage/)
 * [Ivanv257's solution (Easy)](https://ivanv257.github.io/google-homepage/) - [View in Browser](https://ivanv257.github.io/google-homepage/)
 * [Tabitha Terry's solution (Easy)](https://github.com/TabithaTerry/google-homepage) - [View in browser](https://tabithaterry.github.io/google-homepage/)
 * [Ramon Cardenas' solution](https://github.com/Ramoncarden/google-homepage) - [View in browser](https://ramoncarden.github.io/google-homepage/)
@@ -1340,6 +1339,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Hitalo Silva's Solution (Easy)](https://github.com/hitaloosilva/google-homepage) - [View in Browser](https://hitaloosilva.github.io/google-homepage/)
 * [grapiuna's Solution (Easy)](https://github.com/grapiuna/google-homepage) - [View in Browser](https://grapiuna.github.io/google-homepage/)
 * [Fabio's Solution (Easy)](https://github.com/ffabiorj/google-homepage) - [View in Browser](https://cdn.rawgit.com/ffabiorj/google-homepage/87eba0b7/index.html)
+* [Benny's Solution (Easy)](https://deckins.github.io/google-homepage/) - [View in Browser](https://deckins.github.io/google-homepage/)
 
 
 ### Additional Resources
