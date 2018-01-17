@@ -28,6 +28,8 @@ The point here is really just to make sure you understand that it's a really ann
 
 If you're applying to several different types of positions, tailor your resume for the specific type of opportunity.  Just remember that, if you're submitting it virtually, they can see the title.
 
+It's also important to note that if you're not gaining traction getting responses with a certain resume, don't be afraid to switch it up. Keep track of the changes and see which version performs better than the others.
+
 ### Cover Letters
 
 Some positions require you to also submit cover letters.  In my own experience, I've rarely actually seen the cover letter that an applicant has submitted for a job posting.  They have a magical way of getting lost or ignored.  If someone's spending < 10 seconds looking at your resume at first, why are they going to read a long cover letter?  
