@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 - Add your solution below this line!
 * [Bojana Karakacev's solution](https://github.com/SarfrazAnjum/etchASketch) - [View in browser](https://github.com/SarfrazAnjum/etchASketch)
+* [Calvin's solution](https://github.com/Calyeefornia/etch-a-sketch) - [View in browser](https://calyeefornia.github.io/etch-a-sketch/)
 * [Bojana Karakacev's solution](https://github.com/bojana12/project-javascript-jquery) - [View in browser](https://bojana12.github.io/project-javascript-jquery/dist/)
 * [Jmooree30's solution](https://github.com/jmooree30/etch-a-sketch-v2) - [View in browser](https://jmooree30.github.io/etch-a-sketch-v2/)
 * [Mtizim's solution](https://github.com/mtizim/odin_projects/tree/master/etchasketch) - [View in browser](https://mtizim.github.io/odin_projects/etchasketch.html)
