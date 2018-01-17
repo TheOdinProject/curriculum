@@ -36,7 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
-
+- [Uglješa Ijačić's solution](https://github.com/ugitch/rock-paper-scissors)
 - [Samuel Master's UI solution](https://github.com/redeyetuning/rock-paper-scissors/) - [View in browser](https://redeyetuning.github.io/rock-paper-scissors/)
 - [SarfrazAnjum Solution](https://github.com/SarfrazAnjum/Rock-Paper-Scissors)
 - [Bojana Karakacev's solution](https://github.com/bojana12/rock-paper-scissors) - [View in browser](https://bojana12.github.io/rock-paper-scissors/dist/) - [UI version](https://github.com/bojana12/rock-paper-scissors-UI) - [View in browser](https://bojana12.github.io/rock-paper-scissors-UI/dist/)
