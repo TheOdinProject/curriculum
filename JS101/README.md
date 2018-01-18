@@ -4,23 +4,11 @@ How I envision it playing out:  Stub out the lessons for each section (like I've
 
 This is almost definitely going to change... things are likely to be moved quite a lot once we start actually writing stuff, but for now the tentative order of the lessons here is:
 
-1. running-javascript
-1. fundamentals-1
-1. fundamentals-1-project
-1. Code structure
-1. fundamentals-2
-1. fundamentals-2-project
-1. DOM-manipulation
-1. DOM-manipulation-project
-1. fundamentals-3
-1. javascript-dev-tools
-1. FINAL PROJECT
-
-it is __very__ likely that several of those lessons will be broken down into multiple smaller lessons.  I advise that we keep them together in one file for now and break them up as needed once things start getting too long.
+It is __very__ likely that several of those lessons will be broken down into multiple smaller lessons.  I advise that we keep them together in one file for now and break them up as needed once things start getting too long.
 
 ## PLEASE
-if you have feedback about the order or content of any of the lessons let someone know. Feel free to simply add your feedback to the lessons themselves or drop it in Gitter somewhere (you might ping @codyloyd, I'm kind of heading the project at this point).
+If you have feedback about the order or content of any of the lessons let someone know. Feel free to simply add your feedback to the lessons themselves or drop it in Gitter somewhere (you might ping @codyloyd, I'm kind of heading the project at this point).
 
 
 ## NOTES:
-1. may be a good idea to move Arrays to second-steps... it's really hard to do too many useful things with arrays without using loops or functions, neither of which we've learned yet in first-steps.  I'm leaving it for now, but may consider moving it later.
+1. May be a good idea to move Arrays to second-steps... it's really hard to do too many useful things with arrays without using loops or functions, neither of which we've learned yet in first-steps.  I'm leaving it for now, but may consider moving it later.
