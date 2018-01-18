@@ -13,17 +13,83 @@ You will be making heavy use of the command line throughout this curriculum, the
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment
 
-* What is the command line?
-* How do you open it on your computer?
-* How can you navigate into a particular file directory?
-  - Where will `cd` on its own navigate you to?
-  - Where will `cd ..` navigate you to?
-* How can you display the name of the directory you are currently in?
-* How can you display the contents of the directory you are currently in?
-* How can you create a new directory?
-* How can you create a new file?
-* How can you destroy a directory or file?
-* How can you rename a directory or file?
+<details>
+<summary>What is the command line?</summary>
+<ul><ul>
+  <li>The command line is one way to interact with the computer via specific words, called "commands"</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>How do you open it on your computer?</summary>
+<ul><ul>
+  <li>On Linux: Open the programs menu and search for "terminal". You can also open the terminal by pressing <code>CTRL</code> + <code>ALT</code> + <code>T</code></li>
+  <li>On Mac: Open your applications folder and find "Terminal"</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>How can you navigate into a particular directory?</summary>
+<ul><ul>
+  <li>You can use the <code>cd</code> command to change directories</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Where will <code>cd</code> on its own navigate you to?</summary>
+<ul><ul>
+  <li>It will navigate you home.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Where will <code>cd ..</code> navigate you to?</summary>
+<ul><ul>
+  <li>It will navigate you "up" one folder.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>How can you display the name of the directory you are currently in?</summary>
+<ul><ul>
+  <li>By using the <code>pwd</code> command</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>How can you display the contents of the directory you are currently in?</summary>
+<ul><ul>
+  <li>By using the <code>ls</code> command. Use <code>ls -l</code> to display the files in a list.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>How can you create a new directory?</summary>
+<ul><ul>
+  <li>By using the <code>mkdir</code> command</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>How can you create a new file?</summary>
+<ul><ul>
+  <li>By using the <code>touch</code> command.  <code>touch new-file.txt</code></li>
+</ul></ul>
+</details>
+
+<details>
+<summary>How can you destroy a directory or file?</summary>
+<ul><ul>
+  <li>By using the <code>rm</code> command. Use <code>rm -r</code> or <code>rmdir</code> to destroy folders</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>How can you rename a directory or file?</summary>
+<ul><ul>
+  <li>By using the <code>mv</code> command. <code>mv folder/old-file.txt folder/new-file.txt</code></li>
+</ul></ul>
+</details>
 
 
 ### Assignment

@@ -8,7 +8,7 @@ In this project you'll clone the website of one of the most design-forward compa
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
-5. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 6. Set up the top navigation bar.  How is that gradient achieved?
 7. Set up the main background image.  You can grab that exact image from their webpage by finding the `<section id="hero">` tag in your inspector and checking out its background image.
 6. Fill in and position the additional sections.  Don't worry about enclosing every paragraph of text in `<p>` tags.
@@ -19,6 +19,8 @@ In this project you'll clone the website of one of the most design-forward compa
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jmooree30's Solution](https://github.com/jmooree30/apple-clone) - [View in Browser](https://jmooree30.github.io/apple-clone/)
+* [Jonathan Yiv's Solution](https://github.com/JonathanYiv/old-apple-homepage) - [View in Browser](http://jonathanyiv.com/old-apple-homepage/)
 * [yilmazgunalp's Solution](https://github.com/yilmazgunalp/apple) - [View in Browser](https://yilmazgunalp.github.io/apple)
 * [Justine's Solution](https://github.com/justinemar/justinemar.github.io/tree/master/apple) - [View in Browser](https://justinemar.github.io/apple/)
 * [Jeff's Solution](https://github.com/jmbothe/apple-landing-page) - [View in Browser](https://jmbothe.github.io/apple-landing-page/)

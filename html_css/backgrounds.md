@@ -18,7 +18,7 @@ Backgrounds are usually ignored until they become a problem and then you're left
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe on Backgrounds & Gradients](http://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/)
-2. Check out [HTML Goodies' brief guide to backgrounds and gradients](http://www.htmlgoodies.com/tutorials/getting_started/article.php/3866901)
+2. Skim through this [CSS Tricks article](https://css-tricks.com/css3-gradients/) on the different types of gradients
 </div>
 
 ### Additional Resources

@@ -6,21 +6,55 @@ In this lesson we will cover common git commands used to manage your projects an
 ### Learning Outcomes
 By the end of this you should be able to:
 
-* Run git commands from the command line
-* Name the git command used to get a full copy an existing git repository from Github
-* Name the git command used to check the status of your files
-* Name the git command used to track files
-* Name the git command used to commit files
-* Name the git command used to view your commit history
-* Name the git command used to upload projects onto GitHub
+<details>
+<summary>Name the git command used to get a full copy an existing git repository from Github</summary>
+<ul><ul>
+  <li>Use <code>git clone &lt;git-repository-url&gt;</code> to clone the repository</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to check the status of your files</summary>
+<ul><ul>
+  <li>Use <code>git status</code> to see any changes since your last commit</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to track files</summary>
+<ul><ul>
+  <li>Use <code>git add</code> to track files</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to commit files</summary>
+<ul><ul>
+  <li>Use <code>git commit</code> to commit tracked files.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to view your commit history</summary>
+<ul><ul>
+  <li>Use <code>git log</code> to view your commit history.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Name the git command used to upload projects onto GitHub</summary>
+<ul><ul>
+  <li>Use <code>git push</code> to send your commit to GitHub.</li>
+</ul></ul>
+</details>
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
+  1. Complete the first interactive lesson in the Codecademy [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
+  2. Now [try Git from codeschool](https://try.github.io/levels/1/challenges/1).
 Follow the exercises up to and including "1.11 Pushing Remotely" then jump back here.
-  2. Now complete the first interactive lesson in the [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
   3. Watch this [video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic git commands
 
 </div>
