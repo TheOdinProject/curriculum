@@ -70,3 +70,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nick Leake's solution](https://github.com/nleake/odin-js-rockPaperScissors)
 - [Javier Machin's solution](https://github.com/Javier-Machin/RockPaperScis) - [View in browser](https://javier-machin.github.io/RockPaperScis/)
 - [CurmudJim's solution](https://github.com/CurmudJim/top_rps_js) - [View in browser](https://curmudjim.github.io/top_rps_js/)
+- [Encolpius's solution](https://github.com/Encolpius/rock-paper-scissors) - [View in browser](https://encolpius.github.io/rock-paper-scissors/)
