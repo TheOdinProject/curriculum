@@ -1343,6 +1343,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Fabio's Solution (Easy)](https://github.com/ffabiorj/google-homepage) - [View in Browser](https://cdn.rawgit.com/ffabiorj/google-homepage/87eba0b7/index.html)
 * [Benny's Solution (Easy)](https://deckins.github.io/google-homepage/) - [View in Browser](https://deckins.github.io/google-homepage/)
 * [Josiah's Solution (Easy)](https://github.com/jdonor/google-homepage) - [View in Browser](https://jdonor.github.io/google-homepage/)
+* [Swedina's Solution (Easy)](https://github.com/Verine00/google-homepage) - [View in Browser](https://verine00.github.io/google-homepage/)
 
 
 ### Additional Resources
