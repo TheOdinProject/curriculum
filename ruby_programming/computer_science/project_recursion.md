@@ -137,6 +137,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
 * [anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/fibonacci.rb)
 * [Xuan-Son Trinh's solution](https://github.com/xuansontrinh/Beginning-With-Ruby/blob/master/fibbonaci.rb)
+* [Alex's solution](https://github.com/alexcorremans/recursion/blob/master/fibs.rb)
 
 ### Project: Merge Sort
 
@@ -290,6 +291,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/mergesort.rb)
 * [Austin Norman's solution](https://github.com/austinnormancore/merge_sort/blob/master/merge_sort.rb)
 * [Anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/merge_sort.rb)
+* [Alex's solution](https://github.com/alexcorremans/recursion/blob/master/merge_sort.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
