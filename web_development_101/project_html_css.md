@@ -1350,6 +1350,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 *[WausauBill's Solution (Easy](https://github.com/WausauBill/WausauBill.github.io/tree/master/the_odin_project/google_homepage) - [View in Browser](https://wausaubill.github.io/the_odin_project/google_homepage/index.html)
 * [HSaad's Solution (Easy)](https://github.com/HSaad/google-homepage) - [View in Browser](https://hsaad.github.io/google-homepage/)
 * [HSaads's Solution (Difficult)](https://github.com/HSaad/google-search-results) - [View in Browser](https://hsaad.github.io/google-search-results/)
+* [ChiefDakota's Solution (Easy)](https://github.com/ChiefDakota/fake-google-it) - [View in Browser](https://chiefdakota.github.io/fake-google-it/)
 
 
 ### Additional Resources
