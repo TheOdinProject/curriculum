@@ -94,8 +94,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Paul-EN's Solution (Easy) ](https://github.com/Paul-EN/google-homepage) - [View in Browser](https://paul-en.github.io/google-homepage/)
 * [Raphael Machin's Solution (Difficult)](https://github.com/rmachin/Google-Search-Result) - [View in Browser](https://cdn.rawgit.com/rmachin/Google-Search-Result/e9b60914/index.html)
-*[Edmond Alosa's Solution (Hard)](https://github.com/eddalosa/google-search)- [View in browswer]( https://eddalosa.github.io/google-search/)
+* [Edmond Alosa's Solution (Hard)](https://github.com/eddalosa/google-search)- [View in browswer]( https://eddalosa.github.io/google-search/)
 * [Art Naylor Solution (Easy)](https://artnaylor.github.io/google-homepage2/)
 * [SarfrazAnjum Solution (Easy)](https://github.com/SarfrazAnjum/google_homepage)
 * [ironpatriot Solution (Easy) ](https://github.com/ironpatriot/fake-google-page.github.io) - [View in Browser](https://fake-google-page.github.io)
@@ -1347,7 +1348,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Swedina's Solution (Easy)](https://github.com/Verine00/google-homepage) - [View in Browser](https://verine00.github.io/google-homepage/)
 * [Nitesh's Solution (Easy)](https://github.com/niteshkumarniranjan/google-homepage) - [View in Browser](http://niteshkumarniranjan.me/google-homepage/)
 * [Ryoma's Solution (Easy)](https://github.com/ryozume/google-homepage) - [View in Browser](https://ryozume.github.io/google-homepage/)
-*[WausauBill's Solution (Easy](https://github.com/WausauBill/WausauBill.github.io/tree/master/the_odin_project/google_homepage) - [View in Browser](https://wausaubill.github.io/the_odin_project/google_homepage/index.html)
+* [WausauBill's Solution (Easy](https://github.com/WausauBill/WausauBill.github.io/tree/master/the_odin_project/google_homepage) - [View in Browser](https://wausaubill.github.io/the_odin_project/google_homepage/index.html)
 * [HSaad's Solution (Easy)](https://github.com/HSaad/google-homepage) - [View in Browser](https://hsaad.github.io/google-homepage/)
 * [HSaads's Solution (Difficult)](https://github.com/HSaad/google-search-results) - [View in Browser](https://hsaad.github.io/google-search-results/)
 * [ChiefDakota's Solution (Easy)](https://github.com/ChiefDakota/fake-google-it) - [View in Browser](https://chiefdakota.github.io/fake-google-it/)
