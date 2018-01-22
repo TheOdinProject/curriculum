@@ -19,7 +19,7 @@ We also have forum categories for introducing yourself, asking for help, working
 
 Read on to find out how to make use of our community.
 
-### Why chat/forums are awesome for you
+### Why having a community is awesome for you
 
 Web development will be a long and arduous journey - you can make the marathon a lot more fun by pairing up with somebody who is running it at the same pace as you. It is a great way to bounce ideas off each other and motivate one another to the finish line.
 
@@ -29,7 +29,7 @@ When you run into the desert of despair - where your code doesn't work or make s
 
 Remember that project you struggled with tirelessly and that you're so proud of finishing? You will get to share your work and progress with those that really appreciate how much hard work went into it.
 
-### Why chat/forums are awesome for Odin
+### Why a community is awesome for Odin
 
 We are working hard to update existing lessons and produce new content so we would love to hear your feedback on how you are coping with the lessons and projects. We really want you to find the lessons fun, engaging, and informative; while we would like you to find projects to be doable and challenging. So please tell us!
 
@@ -54,7 +54,7 @@ Making your questions in a readable format helps everyone debug them better; her
 
 If you're having troubles with command-line stuff make sure you include *both your input and the error message* you're getting.
 
-In the chatroom/forums, code can be displayed differently from normal sentences by using **backticks** - it's the button above your tab key - which are not to be confused with single quotation marks. If you wrap your code with backticks at **both** ends of the code you will get something like this:
+In the chatroom and forums, code can be displayed differently from normal sentences by using **backticks** - it's the button above your tab key - which are not to be confused with single quotation marks. If you wrap your code with backticks at **both** ends of the code you will get something like this:
 
 For single lines of code:
 
@@ -69,7 +69,6 @@ For Multiple lines of code:
 Your Code
 #three backticks at the end on a separate line BELOW your code
 ```
-(for chat: make sure you are in **compose mode** by pressing ctrl + /, otherwise Enter will send instead of creating a new line)
 
 Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat or hit the 'upload' button on a new reply in the forums).
 
@@ -82,7 +81,7 @@ Show us a **screenshot** if you can't pinpoint the problem - you should use this
 * Show your appreciation for those who have helped you on your journey like `@odin-bot ++`.
 * Don't forget about all the [available rooms](https://gitter.im/orgs/TheOdinProject/rooms) each categorised by development topic which you can join.
 
-### Forum Features
+### Forum Specific Features
 
-* The forum supports embedded 'replits.'' These are essentially runnable code. This is great for sharing code for help or feedback. You'll learn more about this later.
+* The forum supports embedded 'replits.' These are essentially runnable code. This is great for sharing code for help or feedback. You'll learn more about this later.
 * As you spend time in the forums helping others or being helped, your trust level will slowly ascend and you'll unlock more and more functionality.
