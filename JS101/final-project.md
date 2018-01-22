@@ -60,3 +60,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Naveen M V's solution](https://github.com/naveencode/calculator) - [View in Browser](https://naveencode.github.io/calculator/)
 - [AttilaTheHen's solution](https://github.com/AttilaTheHen/calculator) - [View in Browser](https://attilathehen.github.io/calculator/)
 - [Laura Ilona's solution](https://github.com/laurailona/calculator) - [View in Browser](https://laurailona.github.io/calculator/)
+- [SamJamCul's solution](https://github.com/SamJamCul/calculator) - [View in Browser](https://samjamcul.github.io/calculator/)
