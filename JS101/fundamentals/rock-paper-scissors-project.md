@@ -73,3 +73,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [CurmudJim's solution](https://github.com/CurmudJim/top_rps_js) - [View in browser](https://curmudjim.github.io/top_rps_js/)
 - [Encolpius's solution](https://github.com/Encolpius/rock-paper-scissors) - [View in browser](https://encolpius.github.io/rock-paper-scissors/)
 - [PaullyFIRE's solution](https://github.com/paullyFIRE/RockPaperScissors) - [View in browser](https://paullyfire.github.io/RockPaperScissors/)
+- [vartanbeno's solution](https://github.com/vartanbeno/rock-paper-scissors) - [View in browser](https://vartanbeno.github.io/rock-paper-scissors/)
