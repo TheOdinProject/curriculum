@@ -1353,6 +1353,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [HSaads's Solution (Difficult)](https://github.com/HSaad/google-search-results) - [View in Browser](https://hsaad.github.io/google-search-results/)
 * [ChiefDakota's Solution (Easy)](https://github.com/ChiefDakota/fake-google-it) - [View in Browser](https://chiefdakota.github.io/fake-google-it/)
 * [Kevin's Solution (Easy)](https://github.com/super-kebin/google-homepage) - [View in Browser](https://super-kebin.github.io/google-homepage/)
+* [Matt's Solution (Easy)](https://hagnerd.github.io/google-homepage/) - [View in Browser]
 
 
 ### Additional Resources
