@@ -39,6 +39,9 @@ Here are some use cases (abilities you project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/final-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+
+- [Nate Dimock's solution](https://github.com/Flakari/calculator) - [View in Browser](https://flakari.github.io/calculator/)
+- [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/Calculator) - [View in Browser](https://github.com/SarfrazAnjum/Calculator)
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/calculator) - [View in Browser (not Mobile)](https://github.com/JonathanYiv/calculator)
 - [Jmooree30's solution](https://github.com/jmooree30/calculator) - [View in Browser](https://jmooree30.github.io/calculator/)
 - [Mtizim's solution](https://github.com/mtizim/odin_projects/tree/master/calculator) - [View in Browser](https://mtizim.github.io/odin_projects/calculator.html)
@@ -57,3 +60,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Naveen M V's solution](https://github.com/naveencode/calculator) - [View in Browser](https://naveencode.github.io/calculator/)
 - [AttilaTheHen's solution](https://github.com/AttilaTheHen/calculator) - [View in Browser](https://attilathehen.github.io/calculator/)
 - [Laura Ilona's solution](https://github.com/laurailona/calculator) - [View in Browser](https://laurailona.github.io/calculator/)
+- [SamJamCul's solution](https://github.com/SamJamCul/calculator) - [View in Browser](https://samjamcul.github.io/calculator/)
+- [simplybretterson's solution](https://github.com/simplybretterson/calculator) - [View in Browser](https://simplybretterson.github.io/calculator/)
