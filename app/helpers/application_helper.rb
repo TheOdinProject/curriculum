@@ -10,7 +10,7 @@ module ApplicationHelper
   end
 
   def forum_link
-    'http://forum.theodinproject.com'
+    'https://forum.theodinproject.com'
   end
 
   def title(input=nil)
@@ -109,7 +109,7 @@ module ApplicationHelper
       },
       {
         question: 'Do you have a Code of Conduct?',
-        answer: 
+        answer:
           "Yes!  While interacting with other Odinites you agree to the following:<br />" + Kramdown::Document.new(File.read('doc/code_of_conduct.md')).to_html
         },
       {
