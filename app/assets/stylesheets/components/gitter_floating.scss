@@ -1,21 +1,57 @@
-.chat-floating-btn {
-  background: $button-primary;
-  border-radius: 50%;
+.floating-dropdown {
   bottom: 20px;
-  box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
-  cursor: pointer;
-  padding: 1em;
   position: fixed;
-  right: 20px;
   z-index: 1000;
+  right: 20px;
 
-  &:hover {
-    box-shadow: 0 0 15px 6px rgba(0,0,0,0.2);
+  @media(max-width: 480px) {
+    display: none;
   }
 
-  .fa.fa-comments {
-    font-size: 2em;
-    color: $white;
+  .floating-dropdown__item {
+    background: $button-primary;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+    padding: 1em;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 15px 6px rgba(0,0,0,0.2);
+    }
+
+    &.main-floating-btn {
+      position: relative;
+      z-index: 2;
+
+      .fa.fa-comments {
+        color: $white;
+        font-size: 2em;
+      }
+    }
+
+    &.floating-dropdown--hidden-item {
+      margin: 0 0 -50px 0;
+      opacity: 0;
+      transition: margin 1s ease-out, opacity 0.5s;
+      padding: 0.5em;
+      margin-right: 0.6em;
+      margin-left: 0.6em;
+      z-index: 1;
+      position: relative;
+
+      .fa {
+        color: $white;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+.floating-dropdown:hover {
+  .floating-dropdown--hidden-item {
+    margin: 0 9px 20px 9px;
+    opacity: 1;
+    transition: margin 1s, opacity 1s;
   }
 }
 
@@ -27,10 +63,4 @@
 
 .gitter-chat-embed-action-bar-item:active {
   filter: none;
-}
-
-@media(max-width: 480px) {
-  .chat-floating-btn {
-    display: none;
-  }
 }

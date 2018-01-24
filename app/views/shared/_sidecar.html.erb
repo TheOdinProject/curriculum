@@ -1,5 +1,15 @@
-<div class="chat-floating-btn js-gitter-toggle-chat-button">
-  <i class="fa fa-comments" aria-hidden="true"></i>
+<div class="floating-dropdown">
+  <div class="floating-dropdown__item floating-dropdown--hidden-item js-gitter-toggle-chat-button text-center" data-toggle='tooltip' data-placement='left' title='Chat'>
+    <i class="fa fa-comment"></i>
+  </div>
+  <div class="floating-dropdown__item floating-dropdown--hidden-item text-center" data-toggle='tooltip' data-placement='left' title='Forum'>
+    <%= link_to forum_link do %>
+      <i class="fa fa-group" aria-hidden="true"></i>
+    <% end %>
+  </div>
+  <div class="floating-dropdown__item main-floating-btn">
+    <i class="fa fa-comments" aria-hidden="true"></i>
+  </div>
 </div>
 
 <script>

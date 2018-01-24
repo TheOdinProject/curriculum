@@ -107,6 +107,10 @@
       border-bottom:2px solid $light-grey;
     }
 
+    .dropdown-menu-top {
+      margin-top: -30px;
+    }
+
     .menu-options li {
       vertical-align: top;
       font-family: $body-fonts;

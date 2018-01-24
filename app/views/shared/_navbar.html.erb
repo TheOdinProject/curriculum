@@ -17,8 +17,22 @@
         <li class="nav-item <%= active_class(courses_path) %>">
           <%= link_to 'Curriculum', courses_path(ref: 'homenav'), class: 'nav-link' %>
         </li>
-        <li class="nav-item">
-          <%= link_to 'Chat', chat_link, class: 'nav-link gitter-chat-link', target: '_blank' %>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Community
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right menu-options pb-0">
+            <li>
+              <%= link_to forum_link, class: "drop-down-link accent" do %>
+                <span class="drop-down-logo fa fa-users mt-2"></span>Forum
+              <% end %>
+            </li>
+            <li>
+              <%= link_to chat_link, class: 'drop-down-link accent' do %>
+                <span class="drop-down-logo fa fa-comment mt-2"></span>Chat
+              <% end %>
+            </li>
+          </ul>
         </li>
 
         <li class="divider nav-link">|</li>
@@ -30,8 +44,22 @@
         <li class="nav-item <%= active_class(courses_path) %>">
           <%= link_to 'Curriculum', courses_path(ref: 'homenav'), class: 'nav-link' %>
         </li>
-        <li class="nav-item">
-          <%= link_to 'Chat', chat_link, class: 'nav-link gitter-chat-link', target: '_blank' %>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Community
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right menu-options pb-0">
+            <li>
+              <%= link_to forum_link, class: "drop-down-link accent" do %>
+                <span class="drop-down-logo fa fa-users mt-2"></span>Forum
+              <% end %>
+            </li>
+            <li>
+              <%= link_to chat_link, class: 'drop-down-link accent' do %>
+                <span class="drop-down-logo fa fa-comment mt-2"></span>Chat
+              <% end %>
+            </li>
+          </ul>
         </li>
         <li class="nav-item <%= active_class(about_path) %>">
           <%= link_to 'About', about_path(ref: 'homenav'), class: 'nav-link' %>

@@ -3,7 +3,7 @@ document.addEventListener('turbolinks:load', function() {
   var navToggle = document.querySelector('.navbar-toggler')
   var modalClose = document.querySelector('.close')
 
-  var userDropdown = document.querySelector('.dropdown')
+  var userDropdown = document.querySelector('.js-dropdown')
 
   // Clears Logo text in modal
   if(navToggle && logoText) {
