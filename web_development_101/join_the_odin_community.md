@@ -1,5 +1,5 @@
 ### Introduction
-Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers.  While you're at it, why not check out our [Facebook page](https://www.facebook.com/theodinproject/) and follow us on twitter [@TheOdinProject](https://twitter.com/TheOdinProject).
+Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community [chat](https://gitter.im/TheOdinProject/theodinproject) and [forum](https://forums.theodinproject.com) where we can all grow together towards becoming web developers.  While you're at it, why not check out our [Facebook page](https://www.facebook.com/theodinproject/) and follow us on twitter [@TheOdinProject](https://twitter.com/TheOdinProject).
 
 ### Assignment
 
@@ -7,25 +7,29 @@ Working and collaborating with other people on a project, whether it be big or s
 
   1. First create a free Github account [here](https://github.com/join). As you will find out later on, Github will become an integral part of your development workflow so you will be using it for much, much more than just accessing the chat.
 
-  2. Finally sign in to the chat with your newly minted Github account [here](https://gitter.im/TheOdinProject/theodinproject). Jump in and introduce yourself; tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
+  2. Use that fresh Github account and sign up for the forums [here](https://forums.theodinproject.com). Jump in and introduce yourself in the [Introductions category](https://forums.theodinproject.com/c/introductions); tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
+
+  3. Finally, sign in to the chat with your handy Github account [here](https://gitter.im/TheOdinProject/theodinproject). Pop in and say hello! We're always glad to welcome a new community member.
 
 </div>
 
 We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
 
+We also have forum categories for introducing yourself, asking for help, working on Odin, and hanging out. You can view all the categories we have [here](https://forums.theodinproject.com/categories).
+
 Read on to find out how to make use of our community.
 
-### Why chat is awesome for you
+### Why having a community is awesome for you
 
 Web development will be a long and arduous journey - you can make the marathon a lot more fun by pairing up with somebody who is running it at the same pace as you. It is a great way to bounce ideas off each other and motivate one another to the finish line.
 
 Veterans at The Odin Project love to help fill in knowledge gaps and provide new insights and perspectives on how to improve your code. Helping others that haven't made it as far as you is a great way to deepen your own understanding and make your learning stick.
 
-When you run into the desert of despair - where your code doesn't work or make sense to you anymore - you can find an oasis of knowledge and encouragement in our chat. We've all been there before!
+When you run into the desert of despair - where your code doesn't work or make sense to you anymore - you can find an oasis of knowledge and encouragement amongst our community. We've all been there before!
 
 Remember that project you struggled with tirelessly and that you're so proud of finishing? You will get to share your work and progress with those that really appreciate how much hard work went into it.
 
-### Why chat is awesome for Odin
+### Why a community is awesome for Odin
 
 We are working hard to update existing lessons and produce new content so we would love to hear your feedback on how you are coping with the lessons and projects. We really want you to find the lessons fun, engaging, and informative; while we would like you to find projects to be doable and challenging. So please tell us!
 
@@ -50,7 +54,7 @@ Making your questions in a readable format helps everyone debug them better; her
 
 If you're having troubles with command-line stuff make sure you include *both your input and the error message* you're getting.
 
-In the chatroom, code can be displayed differently from normal sentences by using **backticks** - it's the button above your tab key - which are not to be confused with single quotation marks. If you wrap your code with backticks at **both** ends of the code you will get something like this:
+In the chatroom and forums, code can be displayed differently from normal sentences by using **backticks** - it's the button above your tab key - which are not to be confused with single quotation marks. If you wrap your code with backticks at **both** ends of the code you will get something like this:
 
 For single lines of code:
 
@@ -65,9 +69,8 @@ For Multiple lines of code:
 Your Code
 #three backticks at the end on a separate line BELOW your code
 ```
-(make sure you are in **compose mode** by pressing ctrl + /, otherwise Enter will send instead of creating a new line)
 
-Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat).
+Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat or hit the 'upload' button on a new reply in the forums).
 
 **Push your code to GitHub!** If the puzzle still can't be solved, push your project to GitHub so that others can comb through and debug the code. (You'll get to know about GitHub really soon.)
 
@@ -77,3 +80,8 @@ Show us a **screenshot** if you can't pinpoint the problem - you should use this
 * Navigate the chatroom better by typing `/help` for more info.
 * Show your appreciation for those who have helped you on your journey like `@odin-bot ++`.
 * Don't forget about all the [available rooms](https://gitter.im/orgs/TheOdinProject/rooms) each categorised by development topic which you can join.
+
+### Forum Specific Features
+
+* The forum supports embedded 'replits.' These are essentially runnable code. This is great for sharing code for help or feedback. You'll learn more about this later.
+* As you spend time in the forums helping others or being helped, your trust level will slowly ascend and you'll unlock more and more functionality.
