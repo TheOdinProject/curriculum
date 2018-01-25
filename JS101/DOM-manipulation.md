@@ -5,101 +5,112 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 ### Learning Outcomes
 <details>
   <summary>What is DOM in relation to a webpage?</summary>
-
-  * The Document Object Model is a tree-like representation of the contents on a webpage or document.
-
+  <ul>
+    <ul>
+      <li>The Document Object Model is a tree-like representation of the contents on a webpage or document.</li>
+    </ul>
+  </ul>
 </details>
 
 <details>
-  <summary>What's the difference between a "node" and an "element"?</summary>
-
-  * A "node" is any object in the DOM hierarchy while an "element" is _one specific_ node.
-  * "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".
-
+<summary>What's the difference between a "node" and an "element"?</summary>
+  <ul>
+    <ul>
+      <li>A "node" is any object in the DOM hierarchy while an "element" is <b>one specific</b> node.</li>
+      <li>"Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".</li>
+    </ul>
+  </ul>
 </details>
-
 <details>
-  <summary>How do you target nodes with "selectors"?</summary>
-
-  * There are several ways, with CSS style-selectors, to target a node.
-    * `<div class="display"></div>` can be selected as follows:
-      * div
-      * div.display
-      * .display
-    * There are also relational selectors such as `firstChild` or `lastSibling`.
-  * Combined with "Query Selectors", this is how you can target a node using JavaScript
-    * i.e. `document.querySelector(".display");` would select the div above.
-
-      ​
-      </details>
+<summary>How do you target nodes with "selectors"?</summary>
+  <ul>
+    <ul>
+      <li>There are several ways, with CSS style-selectors, to target a node.</li>
+      <li><code>&lt;div class="display"&gt;&lt;/div&gt;</code> can be selected as follows:
+        <ul>
+          <li><code>div</code></li>
+          <li><code>div.display</code></li>
+          <li><code>.display</code></li>
+        </ul>
+      </li>
+      <li>There are also relational selectors such as <code>firstChild</code> or <code>lastSibling</code>.</li>
+      <li>Combined with "Query Selectors", this is how you can target a node using JavaScript</li>
+      <ul>i.e. <code>document.querySelector(".display");</code> would select the div above.</ul>
+    </ul>
+  </ul>
+</details>
 
 <details>
   <summary>What are the basic methods for finding/adding/removing and altering DOM nodes?</summary>
-
-  * As mentioned above, you can find nodes in the DOM using query selectors.
-  * To create an element, use document.createElement(tagName[, options])
-    * i.e. `const div = document.createElement('div');` will create a div element. However, this div has not been added to the webpage yet.
-  * To append this element, use _parentNode_.appendChild\(_childNode_\) =&gt; => appends _childNode as the last child of _parentNode_.
-    * i.e. `parentNode.appendChild(div);`
-  * To remove this element, _parentNode_.removeChild\(_child_\) =&gt; removes _child_ from _parentNode_ on the DOM and returns reference to _child_.
-    * i.e. `parentNode.removeChild(div);`
-  * Once you have a reference to an element, as above, you can alter it in many ways.
-    * `div.style.color = 'blue';` adds the indicated style rule
-    * `div.setAttribute('id', 'theDiv');` sets the id attribute of our div to 'theDiv'.
-
+  <ul><ul>
+    <li>As mentioned above, you can find nodes in the DOM using query selectors.</li>
+    <li>To create an element, use <code>document.createElement(tagName[, options])</code></li>
+    <ul>
+      <li>i.e. <code>const div = document.createElement('div');</code> will create a div element. However, this div has not been added to the webpage yet.</li>
+    </ul>
+    <li>To append this element, use <code><i>parentNode</i>.appendChild(<i>childNode</i>)</code></li>
+    <ul>
+      <li>i.e. <code>parentNode.appendChild(div);</code></li>
+    </ul>
+    <li>To remove this element, <i>parentNode</i>.removeChild(<i>child</i>)</li>
+    <li>This will remove <i>child</i> from <i>parentNode</i> on the DOM and returns reference to <i>child</i>.</li>
+    <ul>
+      <li>i.e. <code>parentNode.removeChild(div);</code></li>
+    </ul>
+    <li>Once you have a reference to an element, as above, you can alter it in many ways.</li>
+    <ul>
+      <li><code>div.style.color = 'blue';</code> adds the indicated style rule</li>
+      <li><code>div.setAttribute('id', 'theDiv');</code> sets the id attribute of our div to <code>theDiv</code>.</li>
+    </ul>
+  </ul></ul>
 </details>
 
 <details>
   <summary>What is the difference between a "nodelist" and an "array of nodes"?</summary>
-
-  * A "nodelist" looks like an array, but it is missing several methods that come with an Array.
-  * A solution to this problem is to use the spread operator or Array.from() to convert a nodelist into an array.
-
+  <ul><ul>
+    <li>A "nodelist" looks like an array, but it is missing several methods that come with an Array.</li>
+    <li>A solution to this problem is to use the spread operator or Array.from() to convert a nodelist into an array.</li>
+  </ul></ul>
 </details>
 
 <details>
   <summary>How do "events" and "listeners" work? What are three ways to use events in your code?</summary>
-
-  * "Events" are how you make your webpage dynamic. They are triggered by "listeners", and can fire when the page loads, when you click your mouse, when you push keys on your keyboard, and many, many more.
-  * The three primary ways to use events are:
-    * By attaching scripts to event attributes on elements in the HTML document.
-      * `<button onclick="alert(this.tagName)">Click Me</button>`
-    * By setting the "on_event_" property on the DOM object in your JavaScript.
-
-        ~~~JavaScript
-        // the html file
-        <button id="btn">Click Me</button>
-        ~~~
-
-        ~~~JavaScript
-        // the JavaScript file
-        var btn = document.querySelector('#btn');
-        btn.onclick = (e) => alert(e.target.tagName);
-        ~~~
-
-    * By attaching event listeners to the nodes in your JavaScript.
-
-
-        ​~~~JavaScript
-        // the html file
-        <button id="btn">Click Me Too</button>
-        ​~~~
-
-        ​~~~JavaScript
-        // the JavaScript file
-        var btn = document.querySelector('#btn');
-        btn.addEventListener('click', (e) => {
-          alert(e.target.tagName);
-        });
-        ​~~~
-
+  <ul><ul>
+    <li>"Events" are how you make your webpage dynamic. They are triggered by "listeners", and can fire when the page loads, when you click your mouse, when you push keys on your keyboard, and many, many more.</li>
+    <li>The three primary ways to use events are:</li>
+    <ol>
+      <li>By attaching scripts to event attributes on elements in the HTML document.</li>
+      <ul><li><code>&lt;button onclick="alert(this.tagName)"&gt;Click Me&lt;/button&gt;</code></li></ul>
+      <li>By setting the "on_event_" property on the DOM object in your JavaScript.</li>
+      <ul><code>
+        // the html file<br />
+        &lt;button id="btn"&gt;Click Me&lt;/button&gt;<br />
+        <br />
+        // the JavaScript file<br />
+        var btn = document.querySelector(&lsquo;&#35;btn&rsquo;);<br />
+        btn.onclick = (e) =&gt; alert(e.target.tagName);<br />
+      </code></ul>
+      <li>By attaching event listeners to the nodes in your JavaScript.</li>
+      <ul><code>
+        // the html file<br />
+        &lt;button id="btn"&gt;Click Me Too&lt;/button&gt;<br />
+        <br />
+        // the JavaScript file<br />
+        var btn = document.querySelector('#btn');<br />
+        btn.addEventListener(&lsquo;click&rsquo;, (e) => {<br />
+          &nbsp;&nbsp;alert(e.target.tagName);<br />
+        });<br />
+      </code></ul>
+    </ol>
+  </ul></ul>
 </details>
 
 <details>
   <summary>How does "bubbling" work?</summary>
-
-  *  Bubbling is a form of "event propegation". It is an efficient method for firing an event on multiple elements -- starting from the innermost element -- and "bubbling" up to outer elements.
-
+  <ul><ul>
+    <li>Bubbling is a form of "event propegation."</li>
+    <li>It is an efficient method for firing an event on multiple elements -- starting from the innermost element -- and "bubbling" up to outer elements.</li>
+  </ul></ul>
 </details>
 
 ### DOM - Document Object Model

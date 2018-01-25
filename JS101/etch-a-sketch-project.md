@@ -37,10 +37,18 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
+Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/etch-a-sketch-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
 * [James Moore's Solution](https://github.com/James-N-M/etch-a-sketch) - [View in browser](https://rawgit.com/James-N-M/etch-a-sketch/master/index.html)
+* [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/etchASketch) - [View in browser](https://github.com/SarfrazAnjum/etchASketch/)
+* [Jonathan Yiv's Solution](https://github.com/getify) - [View in Browser](https://jonathanyiv.github.io/etch-a-sketch/)
+* [Bojana Karakacev's solution](https://github.com/SarfrazAnjum/etchASketch) - [View in browser](https://github.com/SarfrazAnjum/etchASketch)
+* [Calvin's solution](https://github.com/Calyeefornia/etch-a-sketch) - [View in browser](https://calyeefornia.github.io/etch-a-sketch/)
+* [Bojana Karakacev's solution](https://github.com/bojana12/project-javascript-jquery) - [View in browser](https://bojana12.github.io/project-javascript-jquery/dist/)
+* [Jmooree30's solution](https://github.com/jmooree30/etch-a-sketch-v2) - [View in browser](https://jmooree30.github.io/etch-a-sketch-v2/)
+* [Mtizim's solution](https://github.com/mtizim/odin_projects/tree/master/etchasketch) - [View in browser](https://mtizim.github.io/odin_projects/etchasketch.html)
+* [Javier Machin's Solution, with optional features](https://github.com/Javier-Machin/EtchSketch-PizarraMagica) - [View in browser](https://javier-machin.github.io/EtchSketch-PizarraMagica/)
 * [Nate Dimock's Solution](https://github.com/Flakari/sketchpad) - [View in browser](https://flakari.github.io/sketchpad/)
 * [JocelynOcelyn's Solution](https://github.com/jocelynocelyn/etchasketch) - [View in browser](https://jocelynocelyn.github.io/etchasketch/)
 * [g0-0py's Solution](https://github.com/g0-0py/EtchASketch) - [View in browser](https://g0-0py.github.io/EtchASketch/)
@@ -56,4 +64,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Niko Caron's Solution](https://github.com/ncaron/etch-a-sketch/) - [View in Browser](https://ncaron.github.io/etch-a-sketch/)
 * [Nick Leake's Solution](https://github.com/nleake/etchasketch) - [View in Browser](https://nleake.github.io/etchasketch/)
 * [Eduardo Massarani's Solution](https://github.com/edmassarani/the-odin-project/tree/master/projects/etch-a-sketch) - [View in Browser](https://edmassarani.github.io/the-odin-project/projects/etch-a-sketch/)
-* [Technicolor1's Solution](https://github.com/technicolor1/odin-etch_sketch) - [View in Browser](https://technicolor1.github.io/odin-etch_sketch/) 
+* [Technicolor1's Solution](https://github.com/technicolor1/odin-etch_sketch) - [View in Browser](https://technicolor1.github.io/odin-etch_sketch/)
+* [simplybretterson's Solution](https://github.com/simplybretterson/sketchpad) - [View in Browser](https://simplybretterson.github.io/sketchpad)
+* [CTavino's Solution](https://github.com/ctavino/etch-a-sketch) - [View in Browser](https://ctavino.github.io/etch-a-sketch/)
+* [Tshepo Mohlamonyane's Solution](https://github.com/blavkboy/Vanilla-JS-Sketchpad) - [View in Browser](https://blavkboy.github.io/Vanilla-JS-Sketchpad/)
+* [CurmudJim's Solution](https://github.com/CurmudJim/EtchASketch) - [View in Browser](https://curmudjim.github.io/EtchASketch/)
