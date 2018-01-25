@@ -88,7 +88,7 @@ const myName = (name) => 'Hi! My name is ' + name;
 export default myName
 ~~~
 
-and then in `src/index.html` import and use your new function.
+and then in `src/index.js` import and use your new function.
 
 ~~~javascript
 // import your function
