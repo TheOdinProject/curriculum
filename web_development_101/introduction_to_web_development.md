@@ -73,7 +73,7 @@ The Odin Project takes a realistic view of what you need to know, and has you se
 
 It acknowledges you need a wide variety of skillsets and languages to reach an employable level.
 
-It is constantly evolving because people like you who further along will oftentimes pay it forward and incrementally improve our content again and again.
+It is constantly evolving because of people like you who further along will oftentimes pay it forward and incrementally improve our content again and again.
 
 ### Conclusion
 
