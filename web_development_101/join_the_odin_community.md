@@ -15,7 +15,7 @@ Working and collaborating with other people on a project, whether it be big or s
 
 We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
 
-We also have forum categories for introducing yourself, asking for help, working on Odin, and hanging out. You can view all the categories we have [here](https://forums.theodinproject.com/categories).
+We also have forum categories for introducing yourself, asking for help, working on Odin, and hanging out. You can view all the categories we have [here](https://forum.theodinproject.com/categories).
 
 Read on to find out how to make use of our community.
 
