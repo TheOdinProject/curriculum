@@ -70,3 +70,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Tshepo Mohlamonyane's Solution](https://github.com/blavkboy/Vanilla-JS-Sketchpad) - [View in Browser](https://blavkboy.github.io/Vanilla-JS-Sketchpad/)
 * [CurmudJim's Solution](https://github.com/CurmudJim/EtchASketch) - [View in Browser](https://curmudjim.github.io/EtchASketch/)
 * [vartanbeno's solution](https://github.com/vartanbeno/sketchpad) - [View in browser](https://vartanbeno.github.io/sketchpad/)
+* [Josiah's solution](https://github.com/jdonor/etch-a-sketch) - [View in browser](https://jdonor.github.io/etch-a-sketch/)
