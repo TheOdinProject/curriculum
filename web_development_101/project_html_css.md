@@ -1355,7 +1355,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [ChiefDakota's Solution (Easy)](https://github.com/ChiefDakota/fake-google-it) - [View in Browser](https://chiefdakota.github.io/fake-google-it/)
 * [Kevin's Solution (Easy)](https://github.com/super-kebin/google-homepage) - [View in Browser](https://super-kebin.github.io/google-homepage/)
 * [Matt's Solution (Easy)](https://hagnerd.github.io/google-homepage/) - [View in Browser]
-
+* [Chris' Solution (Easy)](https://github.com/medic9r1/google_homepage2) - [View in Browser](https://medic9r1.github.io/google_homepage2/)
 
 ### Additional Resources
 
