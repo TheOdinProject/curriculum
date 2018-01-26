@@ -37,6 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [Fabien Kovacic's solution](https://github.com/Fabious/rock-paper-scissors) - [View in browser](https://fabious.github.io/rock-paper-scissors/)
 - [hypnagogiasmic's solution](https://github.com/hypnagogiasmic/rps)
 - [Kerstin Wagner's solution](https://github.com/KWagner91/rock-paper-scissors)
 - [mindovermiles262's Solution](https://github.com/mindovermiles262/odin-js101-solutions/tree/master/project-rock-paper-scissors)
