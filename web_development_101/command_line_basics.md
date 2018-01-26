@@ -25,7 +25,6 @@ Look through these now and then use them to test yourself after doing the assign
 <ul><ul>
   <li>On Linux: Open the programs menu and search for "terminal". You can also open the terminal by pressing <code>CTRL</code> + <code>ALT</code> + <code>T</code></li>
   <li>On Mac: Open your applications folder and find "Terminal"</li>
-  <li>On Windows 10: Open the programs menu and search for "Command Prompt"</li>
 </ul></ul>
 </details>
 
@@ -40,7 +39,6 @@ Look through these now and then use them to test yourself after doing the assign
 <summary>Where will <code>cd</code> on its own navigate you to?</summary>
 <ul><ul>
   <li>On Linux and Mac it will navigate you home</li>
-  <li>On Windows it will show your current directory</li>
 </ul></ul>
 </details>
 
@@ -55,7 +53,6 @@ Look through these now and then use them to test yourself after doing the assign
 <summary>How can you display the name of the directory you are currently in?</summary>
 <ul><ul>
   <li>On Linux and Mac by using the <code>pwd</code> command</li>
-  <li>On Windows by by using the <code>cd</code> command</li>
 </ul></ul>
 </details>
 
@@ -63,7 +60,6 @@ Look through these now and then use them to test yourself after doing the assign
 <summary>How can you display the contents of the directory you are currently in?</summary>
 <ul><ul>
   <li>On Linux and Mac by using the <code>ls</code> command. Use <code>ls -l</code> to display the files in a list</li>
-  <li>On Windows by using the <code>dir</code> command</li>
 </ul></ul>
 </details>
 
@@ -78,7 +74,6 @@ Look through these now and then use them to test yourself after doing the assign
 <summary>How can you create a new file?</summary>
 <ul><ul>
   <li>On Linux and Mac by using the <code>touch</code> command.  <code>touch new-file.txt</code></li>
-  <li>On Windows by using the <code>echo</code> command.  <code>echo.>new-file.txt</code></li>
 </ul></ul>
 </details>
 
@@ -86,7 +81,6 @@ Look through these now and then use them to test yourself after doing the assign
 <summary>How can you destroy a directory or file?</summary>
 <ul><ul>
   <li>On Linux and Mac by using the <code>rm</code> command. Use <code>rm -r</code> or <code>rmdir</code> to destroy folders</li>
-  <li>On Windows by using the <code>del</code> command. Use <code>rmdir</code> to destroy folders</li>
 </ul></ul>
 </details>
 
@@ -94,7 +88,6 @@ Look through these now and then use them to test yourself after doing the assign
 <summary>How can you rename a directory or file?</summary>
 <ul><ul>
   <li>On Linux and Mac by using the <code>mv</code> command. <code>mv folder/old-file.txt folder/new-file.txt</code></li>
-  <li>On Windows by using the <code>ren</code> command. <code>ren folder/old-file.txt folder/new-file.txt</code></li>
 </ul></ul>
 </details>
 
