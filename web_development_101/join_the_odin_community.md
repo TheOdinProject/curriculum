@@ -1,5 +1,5 @@
 ### Introduction
-Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community [chat](https://gitter.im/TheOdinProject/theodinproject) and [forum](https://forums.theodinproject.com) where we can all grow together towards becoming web developers.  While you're at it, why not check out our [Facebook page](https://www.facebook.com/theodinproject/) and follow us on twitter [@TheOdinProject](https://twitter.com/TheOdinProject).
+Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community [chat](https://gitter.im/TheOdinProject/theodinproject) and [forum](https://forum.theodinproject.com) where we can all grow together towards becoming web developers.  While you're at it, why not check out our [Facebook page](https://www.facebook.com/theodinproject/) and follow us on twitter [@TheOdinProject](https://twitter.com/TheOdinProject).
 
 ### Assignment
 
@@ -7,7 +7,7 @@ Working and collaborating with other people on a project, whether it be big or s
 
   1. First create a free Github account [here](https://github.com/join). As you will find out later on, Github will become an integral part of your development workflow so you will be using it for much, much more than just accessing the chat.
 
-  2. Use that fresh Github account and sign up for the forums [here](https://forums.theodinproject.com). Jump in and introduce yourself in the [Introductions category](https://forums.theodinproject.com/c/introductions); tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
+  2. Use that fresh Github account and sign up for the forums [here](https://forum.theodinproject.com). Jump in and introduce yourself in the [Introductions category](https://forum.theodinproject.com/c/introductions); tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
 
   3. Finally, sign in to the chat with your handy Github account [here](https://gitter.im/TheOdinProject/theodinproject). Pop in and say hello! We're always glad to welcome a new community member.
 
