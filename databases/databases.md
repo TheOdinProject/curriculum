@@ -147,7 +147,7 @@ The last nifty trick is if you want to only display a subset of your data.  In a
   HAVING posts_written >= 10;
 ~~~
 
-Try going back to [the W3 example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and adding the line `HAVING NumberOfOrders > 60;` to the bottom to see what I mean (and delete the extra semicolon in the previous line).
+Try going back to [the W3 example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
 
 You probably got lost somewhere in the above explanation and that's just fine... it's covering way more stuff than anyone can pick up in 10 minutes.  The assigned reading will do a better job of explaining things but, more importantly, you'll get plenty of opportunities to solidify your understanding by applying it in the project.  If you've still got blind spots, check out the Additional Resources section below.  Fear not and stick with it!
 
