@@ -27,7 +27,7 @@ Veterans at The Odin Project love to help fill in knowledge gaps and provide new
 
 When you run into the desert of despair - where your code doesn't work or make sense to you anymore - you can find an oasis of knowledge and encouragement amongst our community. We've all been there before!
 
-Remember that project you struggled with tirelessly and that you're so proud of finishing? You will get to share your work and progress with those that really appreciate how much hard work went into it.
+Remember that project you struggled with tirelessly and that you're so proud of finishing? You will get to share your work and progress with those who really appreciate how much hard work went into it.
 
 ### Why a community is awesome for Odin
 
