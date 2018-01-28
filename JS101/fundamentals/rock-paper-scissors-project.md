@@ -83,3 +83,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [WausauBill's Solution](https://github.com/WausauBill/WausauBill.github.io/tree/master/the_odin_project/roshambo) - [View in Browser](https://wausaubill.github.io/the_odin_project/roshambo/index.html)
 - [Ryoma's solution](https://github.com/ryozume/rock_paper_scissors)
 - [bradabayor's Solution](https://github.com/bradabayor/rock-paper-scissors)
+- [HSaad's solution](https://github.com/HSaad/rock-paper-scissors) - [View in browser](https://hsaad.github.io/rock-paper-scissors/)
