@@ -69,7 +69,7 @@ You can install Ubuntu alongside Windows on your machine by dual booting. This e
 
 
 #### Option 3 - Windows Subsystem for Linux
-If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or later, another option is to [install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). Follow those directions, then when you come to the installfest assignment below, open up Bash on Windows and when it offers you the option, chose Linux for your operating system.
+If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or later, another option is to [install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). Follow those directions, then when you come to the installfest assignment below, open up Bash on Windows and when it offers you the option, choose Linux for your operating system.
 
 #### Pros
 * This is a fully operational Linux Bash Shell running natively on Windows.
@@ -94,7 +94,7 @@ If you absolutely can not install Linux to your machine, or if the Virtual Machi
 * These systems typically run a more-or-less full featured linux distro, so you can do all of the things you see in the tutorials and lessons here.
 
 #### Cons
-* You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
+* You have to use the text editors that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
 * The free tier's of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
 
 ### What You'll Be Installing
