@@ -94,7 +94,7 @@ If you absolutely can not install Linux to your machine, or if the Virtual Machi
 * These systems typically run a more-or-less full featured linux distro, so you can do all of the things you see in the tutorials and lessons here.
 
 #### Cons
-* You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
+* You have to use the text editors that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
 * The free tier's of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
 
 ### What You'll Be Installing
