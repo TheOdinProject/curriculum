@@ -1359,6 +1359,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Chris' Solution (Easy)](https://github.com/medic9r1/google_homepage2) - [View in Browser](https://medic9r1.github.io/google_homepage2/)
 * [bradabayor's Solution (Easy)](https://github.com/bradabayor/google-homepage) - [View in Browser](https://bradabayor.github.io/google-homepage)
 * [Elyse Filigheri's Solution (Easy)](https://github.com/cuttlefishes/google-homepage) - [View in Browser](https://cuttlefishes.github.io/google-homepage/)
+* [Ivan Martinez's Solution(Difficult)](https://github.com/ivanmaru86/google-homepage-difficult) - [View in Browser](https://ivanmaru86.github.io/google-homepage-difficult/)
 
 ### Additional Resources
 
