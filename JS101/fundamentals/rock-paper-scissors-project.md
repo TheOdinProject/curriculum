@@ -37,7 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
-- [Bartek Butrym's solution] (https://github.com/BartekButrym/rock-paper-scissors)
+- [Bartek Butrym's solution](https://github.com/BartekButrym/rock-paper-scissors)
 - [Fabien Kovacic's solution](https://github.com/Fabious/rock-paper-scissors) - [View in browser](https://fabious.github.io/rock-paper-scissors/)
 - [hypnagogiasmic's solution](https://github.com/hypnagogiasmic/rps)
 - [Kerstin Wagner's solution](https://github.com/KWagner91/rock-paper-scissors)
