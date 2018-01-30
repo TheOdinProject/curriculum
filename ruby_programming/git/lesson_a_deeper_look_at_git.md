@@ -32,7 +32,7 @@ Look through these now and then use them to test yourself after doing the assign
 **Note:** *Subversion* (SVN) was the widely used version control system prior to Git (and is still widely used in larger corporations) and that's why many of the readings below will reference it.  Just read the very top two sections of [this chapter from git-scm](http://git-scm.com/book/en/Git-and-Other-Systems-Git-and-Subversion) if you'd like a slightly better explanation.
 
 <div class="lesson-content__panel" markdown="1">
-  1. If you haven't had the chance to do so, go through the [Web Development 101 Git Basics section](/web-development-101/git-basics).
+  1. If you haven't had the chance to do so, go through the [Web Development 101 Git Basics section](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git).
   2. If you're still feeling a bit shaky, look at [Setting up a Repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository), [Saving Changes](https://www.atlassian.com/git/tutorials/saving-changes), and [Inspecting a Repository](https://www.atlassian.com/git/tutorials/inspecting-a-repository) from Atlassian.
   3. Read the section on [Undoing Changes](https://www.atlassian.com/git/tutorials/undoing-changes) from the same site.
   4. Read about [Using Feature Branches](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) and then look at how it fits into a real workflow in [this section](/courses/ruby-programming/lessons/using-git-in-the-real-world). (This takes you to the next lesson. Read through the workflow presented there but don't do the assignment yet, then go back to it after you've finished this lesson)
