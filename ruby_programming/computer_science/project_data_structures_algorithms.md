@@ -23,9 +23,10 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_linked_lists.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [mtizim's solution](https://github.com/mtizim/odin_projects/blob/master/ruby/binarysearch.rb)
 * [Ben Deltenre's solution](https://github.com/benjdelt/binary_search_trees)
 * [Isil Donmez's solution](https://github.com/isildonmez/data_structures_and_algorithms/blob/master/searching_binary_trees.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/bst.rb)
