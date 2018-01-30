@@ -8,7 +8,7 @@ In this lesson, we'll dive deeper than just the `$ git add .` and `$ git commit`
 
 It's important to take a look at this stuff before getting any deeper into things because the project work is becoming more and more complex so using a disciplined Git workflow is no longer optional.  The axiom used to be "save early and often" and now it's "commit early and often".  Hopefully, after you've finished this lesson you will feel much more comfortable with the basics and at least know what to Google if you'd like to do more.
 
-We'll begin by reading some things that are probably review from [Web Development 101](/web-development-101/git-basics) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
+We'll begin by reading some things that are probably review from [Web Development 101](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
 
 
 ### Learning Outcomes
