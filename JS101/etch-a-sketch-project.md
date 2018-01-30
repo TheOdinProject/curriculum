@@ -72,3 +72,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [vartanbeno's solution](https://github.com/vartanbeno/sketchpad) - [View in browser](https://vartanbeno.github.io/sketchpad/)
 * [Josiah's solution](https://github.com/jdonor/etch-a-sketch) - [View in browser](https://jdonor.github.io/etch-a-sketch/)
 * [Ezra's solution](https://github.com/Azhorabai/etch-a-sketch) - [View in browser](https://azhorabai.github.io/etch-a-sketch/)
+* [HSaad's solution](https://github.com/HSaad/etch-a-sketch) - [View in browser](https://hsaad.github.io/etch-a-sketch/)
