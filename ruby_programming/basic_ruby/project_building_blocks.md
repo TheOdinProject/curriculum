@@ -355,6 +355,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/stock_picker.rb)
 * [Sherman Bowling's](https://github.com/janus0/ruby_building_blocks/blob/master/stock_picker.rb)
 * [WottatoParrior's](https://github.com/WottatoParrior/stockpicker/blob/master/stockpicker.rb)
 * [rghost's solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/stockpicker/stockpicker1.rb)
