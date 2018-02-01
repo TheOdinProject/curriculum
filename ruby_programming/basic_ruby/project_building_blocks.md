@@ -661,6 +661,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/substrings.rb)
 * [MariaTikhonova's solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/substrings/dictionary.rb)
 * [Sherman Bowling's solution](https://github.com/janus0/ruby_building_blocks/blob/master/substrings.rb)
 * [WottatoParrior's solution](https://github.com/WottatoParrior/Caesar-Cipher)
