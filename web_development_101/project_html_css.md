@@ -1363,6 +1363,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Ivan Martinez's Solution(Difficult)](https://github.com/ivanmaru86/google-homepage-difficult) - [View in Browser](https://ivanmaru86.github.io/google-homepage-difficult/)
 * [Phuong Hoang's Solution (Easy)](https://github.com/phuong01/google-homepage) - [View in Browser](hhttps://phuong01.github.io/google-homepage/)
 * [Bridget Nyirongo's Solution (Easy)](https://github.com/Bridget12/google-homepage.git) - [View in Browser](https://bridget12.github.io/google-homepage/)
+* [Luyi Ren's Solution (Easy)](https://github.com/LuyiRen/GoogleHomePage) - [View in Browser](https://luyiren.github.io/GoogleHomePage/)
 
 
 ### Additional Resources
