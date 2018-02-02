@@ -95,7 +95,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this list
 * [Jon Yoo's Solution (Easy)](https://github.com/jonyoowa/google-homepage) - [View in Browser](https://jonyoowa.github.io/google-homepage/) - [Jon Yoo's Solution (Difficult)](https://github.com/jonyoowa/google-search-results) - [View in Browser](https://jonyoowa.github.io/google-search-results/)
-* [Johan Morin's Solution (Easy)] (https://github.com/MorrisMalone/google-homepage)
+* [Johan Morin's Solution (Easy)](https://github.com/MorrisMalone/google-homepage)
 * [Fabien Kovacic's Solution (Difficult)](https://github.com/Fabious/google-results-page) - [View in Browser](https://fabious.github.io/google-results-page/)
 * [Paul-EN's Solution (Easy) ](https://github.com/Paul-EN/google-homepage) - [View in Browser](https://paul-en.github.io/google-homepage/)
 * [Raphael Machin's Solution (Difficult)](https://github.com/rmachin/Google-Search-Result) - [View in Browser](https://cdn.rawgit.com/rmachin/Google-Search-Result/e9b60914/index.html)
@@ -1365,6 +1365,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Bridget Nyirongo's Solution (Easy)](https://github.com/Bridget12/google-homepage.git) - [View in Browser](https://bridget12.github.io/google-homepage/)
 * [Luyi Ren's Solution (Easy)](https://github.com/LuyiRen/GoogleHomePage) - [View in Browser](https://luyiren.github.io/GoogleHomePage/)
 * [Nikhil Patel's Solution (Easy)](https://github.com/nikhilpatel87/google-homepage) - [View in Browser](https://nikhilpatel87.github.io/google-homepage/)
+* [Jamie's Solution (Easy)](https://github.com/Zorafins/google-homepage) - [View in Browser](https://zorafins.github.io/google-homepage/)
 
 
 ### Additional Resources
