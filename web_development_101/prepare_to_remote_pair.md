@@ -4,12 +4,12 @@ As you learned in the last lesson, pairing in person is the best option, but if 
 
 * Screen Sharing Options. There may be more, but these are a few of the most popular:
   * [Screenhero](https://screenhero.com/) is a popular option, but as of December 2016 it is not open to new accounts while they are integrating with [Slack](https://slack.com/) but if you both already have Screenhero accounts, by all means use it.
-  * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/kb/PH18686).  
+  * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/kb/PH18686).
   * The Odin Project currently recommends [Cloud 9](https://c9.io). It's free, doesn't need to be installed, and it is easy to share your screen.
 * Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
   * [Screenhero](https://screenhero.com/) has its own built in voice chat, but as mentioned above, unless you already have an account you are currently out of luck.
   * Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
-  * The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.  
+  * The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.
 
 
 ### Installing the Software
@@ -25,7 +25,7 @@ As you learned in the last lesson, pairing in person is the best option, but if 
 
 ### Finding a Partner
 
-Of course all this preparation is pointless without someone to pair with. Perhaps you already have someone in mind, but if you are having trouble finding someone, The Odin Project has a Gitter Room just for that. If you haven't [joined the Odin community](http://www.theodinproject.com/courses/web-development-101/lessons/join-the-odin-community), now is a good time to do that, and then join the [LookingForPairs](https://gitter.im/TheOdinProject/LookingForPairs) room. There should be other people there at about the same place you are in the curriculum looking to find someone to pair with as well. **NEW:** You can also post on the [Odin Project Pairing Board](https://gitter.im/TheOdinProject/topics/topic/586caf7b058ca96737c6fefa/pairing-board) and look at other people's posts as well.
+Of course all this preparation is pointless without someone to pair with. Perhaps you already have someone in mind, but if you are having trouble finding someone, The Odin Project has a Forum Category just for that. If you haven't [joined the Odin community](http://www.theodinproject.com/courses/web-development-101/lessons/join-the-odin-community), now is a good time to do that, and then post in the [Pair Category](https://forum.theodinproject.com/c/pairs). There should be other people there at about the same place you are in the curriculum looking to find someone to pair with as well.
 
 ### Things to keep in mind
 * Your pair is a living breathing human being. Don't forget the manners your mama taught you.
