@@ -1367,6 +1367,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Nikhil Patel's Solution (Easy)](https://github.com/nikhilpatel87/google-homepage) - [View in Browser](https://nikhilpatel87.github.io/google-homepage/)
 * [Jamie's Solution (Easy)](https://github.com/Zorafins/google-homepage) - [View in Browser](https://zorafins.github.io/google-homepage/)
 * [James Thomson's Solution (Easy)](https://bitbucket.org/jthomsonx/google_homepage)
+* [Blake Bryant's Solution (Easy)](https://github.com/Balake/google-homepage) - [View in Browser](https://balake.github.io/google-homepage/)
 
 
 ### Additional Resources
