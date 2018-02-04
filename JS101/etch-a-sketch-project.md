@@ -77,3 +77,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [HSaad's solution](https://github.com/HSaad/etch-a-sketch) - [View in browser](https://hsaad.github.io/etch-a-sketch/)
 * [Fabio's solution](https://github.com/ffabiorj/etch-a-sketch) - [View in browser](https://cdn.rawgit.com/ffabiorj/etch-a-sketch/5793f5ec/index.html)
 * [Cameron's solution](https://github.com/cameronzsmith/etchasketch) - [View in browser](http://czsmith.me/etchasketch)
+* [Zach Coursey's solution](https://github.com/zcoursey22/etch-a-sketch) - [View in browser](https://zcoursey22.github.io/etch-a-sketch)
