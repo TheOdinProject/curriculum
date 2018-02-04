@@ -78,4 +78,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Fabio's solution](https://github.com/ffabiorj/etch-a-sketch) - [View in browser](https://cdn.rawgit.com/ffabiorj/etch-a-sketch/5793f5ec/index.html)
 * [Cameron's solution](https://github.com/cameronzsmith/etchasketch) - [View in browser](http://czsmith.me/etchasketch)
 * [Zach Coursey's solution](https://github.com/zcoursey22/etch-a-sketch) - [View in browser](https://zcoursey22.github.io/etch-a-sketch)
-* [axelerleo's solution](https://github.com/axelerleo/Etch-a-scratch - [View in browser](https://axelerleo.github.io/Etch-a-scratch/)
+* [axelerleo's solution](https://github.com/axelerleo/Etch-a-scratch) - [View in browser](https://axelerleo.github.io/Etch-a-scratch/)
