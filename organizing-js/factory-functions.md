@@ -163,7 +163,7 @@ const Player = (name, level) => {
   const die = () => {
     // uh oh
   };
-  const damage = damage => {
+  const damage = x => {
     health -= x;
     if (health <= 0) {
       die();

@@ -8,7 +8,7 @@ Write tests for the following functions, and then make the tests pass!
 
 1. `capitalize(string)` takes a string and returns that string with the first character capitalized.
 
-2. `reverseString(string)` takes an array and returns it reversed.
+2. `reverseString(string)` takes a string and returns it reversed.
 
 3. A `calculator` object that contains the basic operations: `add`, `subtract`, `divide`, and `multiply`.
 
