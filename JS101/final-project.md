@@ -66,3 +66,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [simplybretterson's solution](https://github.com/simplybretterson/calculator) - [View in Browser](https://simplybretterson.github.io/calculator/)
 - [vartanbeno's solution](https://github.com/vartanbeno/calculator) - [View in browser](https://vartanbeno.github.io/calculator/)
 - [Zach Coursey's solution](https://github.com/zcoursey22/calculator) - [View in browser](https://zcoursey22.github.io/calculator/)
+- [HSaad's solution](https://github.com/HSaad/calculator) - [View in browser](https://hsaad.github.io/calculator/)
