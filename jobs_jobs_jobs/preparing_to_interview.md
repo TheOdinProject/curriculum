@@ -62,11 +62,13 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
 * [Coding Bat](http://codingbat.com/) has practice questions in Java and Python.
+* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms and data scructures. 
 
 ### Algorithms Training:
 
 * [Udacity course on Algorithms](https://www.udacity.com/course/viewer#!/c-cs215/l-48747095/m-48691609) (asynchronous)
 * [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
+* [Visualgo](https://visualgo.net/) visualizes many common algorithms to help students better understand data structures and algorithms.
 
 ### Architecture:
 
