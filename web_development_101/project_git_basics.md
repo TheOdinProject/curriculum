@@ -1,9 +1,9 @@
 ### Introduction
 
-This short project will demonstrate how to use git to manage and archive your project folders:
+This short project will demonstrate how to use Git to manage and archive your project folders:
 
 1. You will set up a remote repository on GitHub and then move it down onto your local machine.
-2. Once this repo is set up locally, you will be able to use git like a save button for your files and folders.
+2. Once this repo is set up locally, you will be able to use Git like a save button for your files and folders.
 3. When you have finalised your saves you can then push your local repo up onto GitHub to share with everyone!
 
 
@@ -18,10 +18,10 @@ By the end of this you should be able to:
 
 
 ### Assignment
-Here we will describe the basic git workflow that you will use with your projects, follow along with each of the steps.
+Here we will describe the basic Git workflow that you will use with your projects, follow along with each of the steps.
 
 #### Create your repository on Github
-1. You should have created a github account in the [installations](http://www.theodinproject.com/web-development-101/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
+1. You should have created a GitHub account in the [installations](http://www.theodinproject.com/web-development-101/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
   <a href="https://imgur.com/LURPUjP"><img class="tutorial-img" src="https://i.imgur.com/LURPUjP.png" title="source: imgur.com" /></a>
@@ -29,9 +29,9 @@ Here we will describe the basic git workflow that you will use with your project
 
 4. This will redirect you to your new repository on GitHub. To get this repository onto your local machine copy the url in the address bar of your browser for your repository.
   <a href="https://imgur.com/GteFqiA"><img class="tutorial-img" src="https://i.imgur.com/GteFqiA.png" title="source: imgur.com" /></a>
-5. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on github onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone https://github.com/YourUsername/git_test`.
+5. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on GitHub onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone https://github.com/YourUsername/git_test`.
   <a href="https://imgur.com/II35rpo"><img class="tutorial-img" src="https://i.imgur.com/II35rpo.png" title="source: imgur.com" /></a>
-6. That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
+6. That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with `git clone` and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
   <a href="https://imgur.com/UEyeqwv"><img class="tutorial-img" src="https://i.imgur.com/UEyeqwv.png" title="source: imgur.com" /></a>
 
 ### Git workflow
@@ -45,10 +45,10 @@ Here we will describe the basic git workflow that you will use with your project
   <a href="https://imgur.com/dhDAUdT"><img class="tutorial-img" src="https://i.imgur.com/dhDAUdT.png" title="source: imgur.com" /></a>
 5. Now type `git log` and look at its output. You should see a historical entry for your commit: *Add README.md*. You will also see details on the author who made the commit and the date time for when it was made.
 
-### How does git save files?
-A *save* in git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.
+### How does Git save files?
+A *save* in Git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.
 
-#### The staging Area
+#### The staging area
 Think of `add` as adjusting the number of people or elements to be included in a photo.
 
 With Git you choose the changes you want to save with `git add`. Imagine a project that contains multiple files and you have made changes to several of them. You want to save some of the changes you have made and leave some other changes to continue working on them.
@@ -75,8 +75,8 @@ We used this command to commit the *README.md* file `git commit -m "Add README.m
   <a href="https://imgur.com/9lda2lB"><img class="tutorial-img" src="https://i.imgur.com/9lda2lB.png" title="source: imgur.com" /></a>
 10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
-### Pushing your finished work to Github
-Finally lets upload what you have done to the Github repository you created at the start of this tutorial
+### Pushing your finished work to GitHub
+Finally let's upload what you have done to the GitHub repository you created at the start of this tutorial.
 
 1. Simply enter `git push origin master`.
   <a href="https://imgur.com/9uP66mj"><img class="tutorial-img" src="https://i.imgur.com/9uP66mj.png" title="source: imgur.com" /></a>
@@ -86,14 +86,14 @@ Finally lets upload what you have done to the Github repository you created at t
  <a href="https://imgur.com/XLAEsFg"><img class="tutorial-img" src="https://i.imgur.com/XLAEsFg.png" title="source: imgur.com" /></a>
 
 ### What is origin master?
-As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial.It is set by default by git when cloning from a remote for the first time. You can use *origin* to access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
+As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on GitHub at the beginning of this tutorial. It is set by default by Git when cloning from a remote for the first time. You can use *origin* to access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
 
 **master** is the branch you want to push your changes to. We will get more into branches in a later lesson, the main thing to remember is that *master* is the official branch in your projects where production-ready code lives.
 
 ### Conclusion
-The main take away from what you have learnt about Git over the past few lessons is how to use Git with your projects and upload them to Github. You now have the ability to do that. This is a very powerful skill that will help you out immensely when we get into the coding projects; you will be able to share your work with others for code reviews and get help with your code if you are stuck.
+The main take away from what you have learnt about Git over the past few lessons is how to use Git with your projects and upload them to GitHub. You now have the ability to do that. This is a very powerful skill that will help you out immensely when we get into the coding projects; you will be able to share your work with others for code reviews and get help with your code if you are stuck.
 
-In later git lessons we will cover some of the more advanced git features such as branches which will expand your abilities even more and make your workflow on projects more productive.
+In later Git lessons we will cover some of the more advanced Git features such as branches which will expand your abilities even more and make your workflow on projects more productive.
 
 For now concentrate on using the basics of Git which you have learnt here with all the projects ahead of you until the point where you know each of the basic Git commands from memory.  
 
