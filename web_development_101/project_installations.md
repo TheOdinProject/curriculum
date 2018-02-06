@@ -43,7 +43,7 @@ There are many different versions of Linux out there and many people who have us
 #### Option 1 - Use a Virtual Machine
 This is the safest and simplest option for a complete beginner, or a person that _needs_ to use Windows on a regular basis for other reasons (work, school etc.)
 
-A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to setup this option.
+A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience with using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to setup this option.
 
 
 #### Pros
@@ -58,9 +58,9 @@ A Virtual Machine is essentially a program that runs on your computer that emula
 You can install Ubuntu alongside Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 #### Pros
-* Gives you access to both Windows and Linux
+* Gives you access to both Windows and Linux.
 * This option will yield the best performance from Ubuntu as it will be installed directly on your hard drive.
-* You can customise as you like with different text editors etc
+* You can customise as you like with different text editors etc.
 
 #### Cons
 * Messing up your Windows installation is a possibility when setting your computer up to dual boot, and while it's easily avoided complete beginners should take care.
@@ -77,7 +77,7 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 * You have full access to both your Linux and Windows file-systems from both Bash on Windows and File Explorer.
 * You don't have to restart to switch between Linux and Windows: Bash on Windows acts just like your windows Command Prompt.
 * This is an official Microsoft product, so there is little risk of messing up your Windows installation.
-* You can use just about(see the Cons) any Text Editor you like: Atom, Sublime, Notepadd++, etc.
+* You can use just about (see the Cons) any Text Editor you like: Atom, Sublime, Notepadd++, etc.
 
 #### Cons
 * As the Instructions linked above clearly state, this is in Beta, not everything works yet (pay attention to the note by the Installfest assignment directions).
@@ -89,13 +89,13 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's (Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
 #### Pros
-* You don't have to install anything on your local machine (this can be a con depending on the way you look at it, experience installing and setting stuff up on your local machine can be invaluable)
+* You don't have to install anything on your local machine (this can be a con depending on the way you look at it, experience with installing and setting stuff up on your local machine can be invaluable).
 * Your coding environment will be available from any machine with internet access.
 * These systems typically run a more-or-less full featured linux distro, so you can do all of the things you see in the tutorials and lessons here.
 
 #### Cons
 * You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
-* The free tier's of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
+* The free tiers of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
 
 ### What You'll Be Installing
 
@@ -120,7 +120,7 @@ Actually, we won't need to install any of these -- they come with your web brows
 
 #### Text Editor
 
-We recommend using an advanced text editor like [Sublime Text](http://www.sublimetext.com/).  Technically all of the projects would be possible to build using only the simplest editor such as Notepad, or whatever is built into the system that you are using, but Sublime has many of handy shortcuts, code highlighting and other nifty features that'll make your life much easier.  Sublime Text is free to use, but it _does_ have an occasional nagging pop-up that asks you to purchase it.  If you don't want to purchase it, and if the pop-up bothers you, another great alternative is [Atom](https://atom.io/).  Atom is _completely_ free and open source and most of the features (and a few more!) that Sublime has.  The trade-off is that Atom is considerably slower.  If you are working on a decent computer you might not notice the difference, but those of you who decide to use an older computer or a Virtual Machine will probably be happier with Sublime.
+We recommend using an advanced text editor like [Sublime Text](http://www.sublimetext.com/).  Technically all of the projects would be possible to build using only the simplest editor such as Notepad, or whatever is built into the system that you are using, but Sublime has many of handy shortcuts, code highlighting and other nifty features that'll make your life much easier.  Sublime Text is free to use, but it _does_ have an occasional nagging pop-up that asks you to purchase it.  If you don't want to purchase it, and if the pop-up bothers you, another great alternative is [Atom](https://atom.io/).  Atom is _completely_ free and open source and has most of the features (and a few more!) that Sublime has.  The trade-off is that Atom is considerably slower.  If you are working on a decent computer you might not notice the difference, but those of you who decide to use an older computer or a Virtual Machine will probably be happier with Sublime.
 
 Check out [this installable tutorial](https://sublimetutor.com/) which is an interactive guide to the many shortcuts that can help your Sublime Text 3 workflow. Most of the tips there apply quite directly to Atom as well, although you can reference [Atom's Flight Manual](https://flight-manual.atom.io/) for specifics.
 
