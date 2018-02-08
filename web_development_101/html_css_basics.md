@@ -44,3 +44,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
 * [OverAPI's HTML Cheat Sheet](http://overapi.com/html)
 * [OverAPI's CSS Cheat Sheet](http://overapi.com/css)
+* [Learn CSS Layout](http://learnlayout.com/)
