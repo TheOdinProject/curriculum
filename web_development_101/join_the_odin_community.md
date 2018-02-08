@@ -9,7 +9,9 @@ Working and collaborating with other people on a project, whether it be big or s
 
   2. Use that fresh Github account and sign up for the forums [here](https://forum.theodinproject.com). Jump in and introduce yourself in the [Introductions category](https://forum.theodinproject.com/c/introductions); tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
 
-  3. Finally, sign in to the chat with your handy Github account [here](https://gitter.im/TheOdinProject/theodinproject). Pop in and say hello! We're always glad to welcome a new community member.
+  3. Say hello to someone else! Getting to know others on the same journey as you can not only be encouraging, but also setting you up for potential partners and for networking.
+
+  4. Finally, sign in to the chat with your handy Github account [here](https://gitter.im/TheOdinProject/theodinproject). Pop in and say hello! We're always glad to welcome a new community member.
 
 </div>
 
