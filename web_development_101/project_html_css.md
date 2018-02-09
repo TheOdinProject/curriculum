@@ -1373,7 +1373,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Doris Keller's Solution (Difficult)](https://github.com/DoKe65/google-homepage) - [View in Browser](https://doke65.github.io/google-homepage/)
 * [IvanaGoSt's Solution (easy)](https://github.com/IvanaGoSt/google-homepage) - [View in Browser](https://rawgit.com/IvanaGoSt/google-homepage/master/index.html)
 * [Joe Weston's Solution (easy using grid layout)] (https://github.com/joeeeeeeeeeeeee/google-homepage) - [View in Browser] (https://joeeeeeeeeeeeee.github.io/google-homepage/)
-
+* [Luke Bartholomew's Solution (Easy)](https://github.com/lukesbart/google-homepage) - [View in Browser](https://lukesbart.github.io/google-homepage) 
 
 ### Additional Resources
 
