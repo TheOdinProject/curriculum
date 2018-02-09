@@ -16,6 +16,9 @@ The Odin project community can be found on our [Gitter chat rooms](https://gitte
 
 
 ## Contributing
+[![Build Status](https://travis-ci.org/TheOdinProject/theodinproject.svg?branch=master)](https://travis-ci.org/TheOdinProject/theodinproject)
+[![View Performance Data on Skylight](https://badges.skylight.io/status/g0gJSNnzYAws.svg)](https://oss.skylight.io/app/applications/g0gJSNnzYAws)
+
 The Odin Project depends on open source contributions to grow, improve, and thrive.
 We welcome contributions from beginners and experienced developers alike.
 
