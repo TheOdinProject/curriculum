@@ -16,3 +16,4 @@ You should change the look of the page based on the data, maybe by changing the 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [hmbeale's solution] (https://github.com/hmbeale/weather | [View in browser] (http://hmbeale.github.io/weather/)
