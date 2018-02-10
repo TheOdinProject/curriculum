@@ -29,6 +29,7 @@ Enough talk! Let's build!
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
+* [Nate Dimock's solution](https://github.com/Flakari/pomodoro-clock) - [View in Browser](https://flakari.github.io/pomodoro-clock/)
 * [0zra's solution](https://github.com/0zra/pomodoro) - [View in Browser](https://0zra.github.io/pomodoro/)
 * [iamfranco's solution](https://github.com/iamfranco/the_odin_project/tree/master/pomodoro) - [View in Browser](https://iamfranco.github.io/the_odin_project/pomodoro/)
 * [danhofer & nsantiagoblair's solution](https://github.com/danhofer/pomodoro-pair) - [View in Browser](https://danhofer.github.io/pomodoro-pair/pomodoro.html)
@@ -62,6 +63,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/pomodoro)
 * [wilPoly's solution](https://github.com/wilPoly/pomodoro) - [View in browser](https://wilpoly.github.io/pomodoro/)
 * [tonalmasher's solution](https://github.com/tonalmasher/pomodoro-project) - [View in browser](https://tonalmasher.github.io/pomodoro-project/)
+* [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/web-development-101/pomodoro) - [View in Browser](https://mycroft1891.github.io/my-odin-project/web-development-101/pomodoro/index.html)
+* [Niko Caron's solution](https://github.com/ncaron/pomodoro-clock) - [View in Browser](https://ncaron.github.io/pomodoro-clock/)
 
 ### Next Steps
 

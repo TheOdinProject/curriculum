@@ -9,8 +9,8 @@ The page is very straightforward, so you should be able to clone it even if your
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a blank HTML document.
 4. Plan out how the elements on the page need to be grouped together.
-5. Lay out the empty `<div>`'s for the major sections (form, sidebar, footer...) and make them the proper size and alignment.  It may be helpful to change their background colors while you're positioning them on the page.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
-6. Fill in those `<div>` elements with the content you want to include.
+5. Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer...) and make them the proper size and alignment.  It may be helpful to change their background colors while you're positioning them on the page.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+6. Fill in those elements with the content you want to include.
 7. Now style them to look like the real webpage.
 8. Push your solution up to Github and you're good to go!
 </div>
@@ -19,6 +19,10 @@ The page is very straightforward, so you should be able to clone it even if your
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+
+* [theghall's solution](https://github.com/theghall/odin-mint) - [Live](https://theghall.github.io/odin-mint/)
+* [Jeremy-D's solution](https://github.com/Jeremy-D/Mint-form) - [Live](https://jeremy-d.github.io/Mint-form/)
+* [Jmooree30's solution](https://github.com/jmooree30/mint-signup-clone) - [Live](https://jmooree30.github.io/mint-signup-clone/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/mint-signup-page) - [Live](https://jonathanyiv.github.io/mint-signup-page/)
 * [holdercp's solution](https://github.com/holdercp/spare-mint) - [Live](https://holdercp.github.io/spare-mint/)
 * [Justine's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/mint-form) - [View in browser](https://hannibalony.github.io/mint-form/)

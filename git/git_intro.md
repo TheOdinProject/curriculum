@@ -20,10 +20,36 @@ But for now, in this lesson, try to understand what Git is and why it is so powe
 ## Learning Outcome:
 *By the end of this lesson you should be able to:*
 
-* Define what kind of program Git is
-* Describe the differences between Git and a text editor in terms of what they save and their record keeping
-* Describe whether Git and GitHub work at a local or remote level
-* Describe why Git is useful for an individual developer and a team of developers
+<details>
+<summary>Define what kind of program Git is</summary>
+<ul><ul>
+  <li>Git is a Version Control program.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Describe the differences between Git and a text editor in terms of what they save and their record keeping</summary>
+<ul><ul>
+  <li>Git tracks changes to the files and their contents.</li>
+  <li>A text editor can only make a save changes to a file</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Describe whether Git and GitHub work at a local or remote level</summary>
+<ul><ul>
+  <li>Git works on a local level. Any changes you make are saved locally with Git.</li>
+  <li>GitHub works on a remote level.  You must push your changes made locally (using Git) to Github</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Describe why Git is useful for an individual developer and a team of developers</summary>
+<ul><ul>
+  <li>Git is useful for an individual to create snapshots of their work.  If they realize halfway through that they've messed up, it's much easier to reset.</li>
+  <li>Git is useful for teams because it's capable of merging code together.  One developer can be working on a part of code while a different developer works on a different part.  They can then use git to combine the changes.
+</ul></ul>
+</details>
 
 ## Assignment:
 1. Read chapter 1 in this book about [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and appreciate the differences between local, centralised and distributed version control systems.

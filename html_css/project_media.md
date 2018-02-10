@@ -18,7 +18,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 2. Create a blank HTML document.
 3. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
-4. Create empty `<div>` tags to enclose those sections.
+4. Create empty semantic HTML elements to enclose those sections.
 5. Use basic CSS to size and position them appropriately on the page.  It may be helpful to make their backgrounds different colors so you can see the different sections.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 6. Now let's start filling in those divs with content by creating the navbar.
 7. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=ZnuwB35GYMY).
@@ -32,13 +32,16 @@ Also, don't worry about making the comment form work properly... your goal is to
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [theghall's solution](https://github.com/theghall/odin-youtube.git) - [View in browser](https://theghall.github.io/odin-youtube/)
+* [Josh Archer's solution](https://gitlab.com/odin-project-josh-archer/embedding-images-and-video) - [View in browser](https://www.josharcher.uk/static/projects/odinproject/embeddingimagesvideo/)
+* [Jmooree30's solution](https://github.com/jmooree30/youtube) - [Live](https://jmooree30.github.io/youtube/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/youtube-video-page) - [Live](https://jonathanyiv.github.io/youtube-video-page/)
 * [holdercp's solution](https://github.com/holdercp/bluetube) - [Live](https://holdercp.github.io/bluetube/)
 * [Justine Cantado's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/yt) - [View in Browser](https://hannibalony.github.io/yt)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/youtube_page) - [View in Browser](https://yilmazgunalp.github.io/youtube_page/)
 * [Bottlecap's solution](https://github.com/Bottlecaps4/YouTube-video-page) - [View in Browser](https://bottlecaps4.github.io/YouTube-video-page/)
 * [Jeff's Solution](https://github.com/jmbothe/youtube-homepage) - [View in Browser](https://jmbothe.github.io/youtube-homepage/)
-* [Andrew's solution](https://github.com/andrewr224/embedding-video-project) - [View in browse](https://andrewr224.github.io/embedding-video-project/)
+* [Andrew's solution](https://github.com/andrewr224/embedding-video-project) - [View in browser](https://andrewr224.github.io/embedding-video-project/)
 * [Austin's solution](https://github.com/CouchofTomato/youtube-clone)
 * [Flint Mayers' solution](https://github.com/FlintMayers/youtube_player) - [View in browser](https://flintmayers.github.io/youtube_player/)
 * [Javal's solution](https://github.com/javalnanda/youtube_player_page) - [View in browser](https://javalnanda.github.io/youtube_player_page/)

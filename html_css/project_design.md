@@ -15,7 +15,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 3. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 4. Create a new HTML document.
 5. Think about all the elements on the Smashing homepage and how they are grouped together.
-6. Copy the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.
+6. Copy the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
 7. Now make the background colors of those divs different shades of gray which correspond to their visual weight on the Smashing homepage.  If you squint your eyes and look from your solution to their page, does your eye get drawn to the same places?
 
 #### Playing with Typography
@@ -31,6 +31,8 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [theghall's solution](https://github.com/theghall/odin-grayscale-map) - [View in Browser](https://theghall.github.io/odin-grayscale-map/)
+* [Jmooree30's solution](https://github.com/jmooree30/smashing-magazine) - [View in Browser](https://jmooree30.github.io/smashing-magazine/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/design-teardown) - [View in Browser](http://jonathanyiv.com/design-teardown/)
 * [yilmazgunalp's Solution](https://github.com/yilmazgunalp/design-tear-down) - [View in Browser](https://yilmazgunalp.github.io/design-tear-down/)
 * [Jeff's Solution](https://github.com/jmbothe/smashing-homepage) - [View in Browser](https://jmbothe.github.io/smashing-homepage/)

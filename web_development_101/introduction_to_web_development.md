@@ -8,7 +8,7 @@ The clients could be a tech company, organization, or government.
 The work could involve the front end, back end, full stack.
 
 This could be your profession if you like solving logical problems, building useful things, and experimenting with new technologies.
-Web Developers are in high demand, generally have a good work/life balance, and command comfortable salaries -- google your specific location for more details. 
+Web Developers are in high demand, generally have a good work/life balance, and command comfortable salaries -- google your specific location for more details.
 
 For more details, Wikipedia lays out the breadth of the web design profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
 
@@ -73,13 +73,13 @@ The Odin Project takes a realistic view of what you need to know, and has you se
 
 It acknowledges you need a wide variety of skillsets and languages to reach an employable level.
 
-It is constantly evolving because people like you who further along will oftentimes pay it forward and incrementally improve our content again and again.
+It is constantly evolving because of people like you who further along will oftentimes pay it forward and incrementally improve our content again and again.
 
 ### Conclusion
 
 Hopefully, you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career. This has only been a teaser into the world of web development.
 
-In this course, "Web Development 101," you'll take a journey through the entire spectrum of topics that you will eventually need to know. It is meant to jump around a variety of topics that you are totally unfamiliar with, let you have a small taste of it, and then move onward. 
+In this course, "Web Development 101," you'll take a journey through the entire spectrum of topics that you will eventually need to know. It is meant to jump around a variety of topics that you are totally unfamiliar with, let you have a small taste of it, and then move onward.
 
 The following courses will dive deep into these topics later on, and you will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
@@ -99,7 +99,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25) on Quora.
 * [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
 * [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
-* [oreanarose: What makes a good web developer?](http://oreanarose.com/2010/12/what-makes-a-good-web-developer/)
 * [Things I Wish Someone Had Told Me When I Was Learning How To Code](https://medium.com/learning-to-code/565fc9dcb329)
 * [Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/): it's okay if it's really frustrating.
 * [Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)

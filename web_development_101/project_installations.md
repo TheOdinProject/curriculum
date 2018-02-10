@@ -21,46 +21,46 @@ Ok, we get it.. you're very comfortable with the system you've already got runni
 
 Technically it _is_ possible to get most of the needed elements running on Windows, but many of the required scripts and programs were originally written for Linux, or Mac systems with Windows as more of an afterthought.  You will quickly run into trouble, with mismatching versions, out-of-date installers and other similar conflicts that you'll need to resolve manually (and often repeatedly) and you're likely to find things that used to work breaking unexpectedly, with rather cryptic error messages.
 
-The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
+The programmers who created Rails had a preference for unix based operating systems (OS X, Linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
 
-* Because of the fundamental differences between unix based operating systems and Windows, installing Rails on a Windows machine is likely to give you problems that you would not encounter if you were installing on a linux system, these can be a real pain to solve.
+* Because of the fundamental differences between unix based operating systems and Windows, installing Rails on a Windows machine is likely to give you problems that you would not encounter if you were installing on a Linux system, these can be a real pain to solve.
 
 * The above point extends to the different gems you will be using with Rails in the future. Most of the latest updates to gems will be targeted at unix based systems, they may eventually get patches to make them work with Windows but some may never get updated to work on Windows.
 
 * Because of the instability of Rails on Windows you will probably find yourself second guessing some of the errors and bugs you encounter when developing being caused by either your system or the code you have written.
 
-* Most of the examples throughout the learning process, and most tutorials you come across on the net will assume you are using a linux or mac, you will have to translate these into the equivalent Windows commands yourself.
+* Most of the examples throughout the learning process, and most tutorials you come across on the net will assume you are using a Linux or Mac, you will have to translate these into the equivalent Windows commands yourself.
 
 * **Bonus**  Experience with Linux will look great on your CV.
 
-We at Odin don't have anything against Windows, we simply want you to succeed at your goal of learning to program. We don't want to see you get majorly frustrated and giving up on this first hurdle of getting everything installed. Therefore we unequivocally recommend using linux or a Mac for this curriculum.
+We at Odin don't have anything against Windows, we simply want you to succeed at your goal of learning to program. We don't want to see you get majorly frustrated and giving up on this first hurdle of getting everything installed. Therefore we unequivocally recommend using Linux or a Mac for this curriculum.
 
 ### Installing Linux
-The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use linux on your machine alongside Windows, so you can choose the one that suits your situation best.
+The good news is installing Linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use Linux on your machine alongside Windows, so you can choose the one that suits your situation best.
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We won't go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
 #### Option 1 - Use a Virtual Machine
 This is the safest and simplest option for a complete beginner, or a person that _needs_ to use Windows on a regular basis for other reasons (work, school etc.)
 
-A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to setup this option.
+A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience with using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to setup this option.
 
 
 #### Pros
 * You can easily access Windows and Linux, with the extra benefit of being able to switch between the two instantly.
 * There is no risk of harming your current windows setup.
-* You are actually using a real linux setup within the virtual machine.
+* You are actually using a real Linux setup within the virtual machine.
 
 #### Cons
 * Performance with Ubuntu won't be as sharp as a dual booting.
 
 #### Option 2 - Dual Booting
-You can install Ubuntu alongside Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
+You can install Ubuntu alongside Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new Linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 #### Pros
-* Gives you access to both Windows and Linux
+* Gives you access to both Windows and Linux.
 * This option will yield the best performance from Ubuntu as it will be installed directly on your hard drive.
-* You can customise as you like with different text editors etc
+* You can customise as you like with different text editors etc.
 
 #### Cons
 * Messing up your Windows installation is a possibility when setting your computer up to dual boot, and while it's easily avoided complete beginners should take care.
@@ -69,33 +69,33 @@ You can install Ubuntu alongside Windows on your machine by dual booting. This e
 
 
 #### Option 3 - Windows Subsystem for Linux
-If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or later, another option is to [install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). Follow those directions, then when you come to the installfest assignment below, open up Bash on Windows and when it offers you the option, chose Linux for your operating system.
+If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or later, another option is to [install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). Follow those directions, then when you come to the installfest assignment below, open up Bash on Windows and when it offers you the option, choose Linux for your operating system.
 
 #### Pros
 * This is a fully operational Linux Bash Shell running natively on Windows.
 * Since you are running Ubuntu natively from Windows you don't have a performance hit like with the virtual machine option.
 * You have full access to both your Linux and Windows file-systems from both Bash on Windows and File Explorer.
-* You don't have to restart to switch between Linux and Windows: Bash on Windows acts just like your windows Command Prompt.
+* You don't have to restart to switch between Linux and Windows: Bash on Windows acts just like your Windows Command Prompt.
 * This is an official Microsoft product, so there is little risk of messing up your Windows installation.
-* You can use just about(see the Cons) any Text Editor you like: Atom, Sublime, Notepadd++, etc.
+* You can use just about (see the Cons) any Text Editor you like: Atom, Sublime, Notepadd++, etc.
 
 #### Cons
 * As the Instructions linked above clearly state, this is in Beta, not everything works yet (pay attention to the note by the Installfest assignment directions).
 * Since this is not intended to be a full Linux operating system, the X windows system is not supported, so non-command line Linux apps will not work.
 * IDEs that are tightly bound to Windows e.g. Visual Studio and RubyMine, will balk at Ruby and/or git not being installed on Windows, although you can still use them.
-* Due to some differences in how Linux and windows save files, [unless you edit your files from within Bash for Windows, if you save them in the linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*
+* Due to some differences in how Linux and Windows save files, [unless you edit your files from within Bash for Windows, if you save them in the linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*
 
 #### Option 4 - Using an Online IDE
 If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's (Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
 #### Pros
-* You don't have to install anything on your local machine (this can be a con depending on the way you look at it, experience installing and setting stuff up on your local machine can be invaluable)
+* You don't have to install anything on your local machine (this can be a con depending on the way you look at it, experience with installing and setting stuff up on your local machine can be invaluable).
 * Your coding environment will be available from any machine with internet access.
-* These systems typically run a more-or-less full featured linux distro, so you can do all of the things you see in the tutorials and lessons here.
+* These systems typically run a more-or-less full featured Linux distro, so you can do all of the things you see in the tutorials and lessons here.
 
 #### Cons
-* You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
-* The free tier's of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
+* You have to use the text editors that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
+* The free tiers of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
 
 ### What You'll Be Installing
 
@@ -120,7 +120,7 @@ Actually, we won't need to install any of these -- they come with your web brows
 
 #### Text Editor
 
-We recommend using an advanced text editor like [Sublime Text](http://www.sublimetext.com/).  Technically all of the projects would be possible to build using only the simplest editor such as Notepad, or whatever is built into the system that you are using, but Sublime has many of handy shortcuts, code highlighting and other nifty features that'll make your life much easier.  Sublime Text is free to use, but it _does_ have an occasional nagging pop-up that asks you to purchase it.  If you don't want to purchase it, and if the pop-up bothers you, another great alternative is [Atom](https://atom.io/).  Atom is _completely_ free and open source and most of the features (and a few more!) that Sublime has.  The trade-off is that Atom is considerably slower.  If you are working on a decent computer you might not notice the difference, but those of you who decide to use an older computer or a Virtual Machine will probably be happier with Sublime.
+We recommend using an advanced text editor like [Sublime Text](http://www.sublimetext.com/).  Technically all of the projects would be possible to build using only the simplest editor such as Notepad, or whatever is built into the system that you are using, but Sublime has many of handy shortcuts, code highlighting and other nifty features that'll make your life much easier.  Sublime Text is free to use, but it _does_ have an occasional nagging pop-up that asks you to purchase it.  If you don't want to purchase it, and if the pop-up bothers you, another great alternative is [Atom](https://atom.io/).  Atom is _completely_ free and open source and has most of the features (and a few more!) that Sublime has.  The trade-off is that Atom is considerably slower.  If you are working on a decent computer you might not notice the difference, but those of you who decide to use an older computer or a Virtual Machine will probably be happier with Sublime.
 
 Check out [this installable tutorial](https://sublimetutor.com/) which is an interactive guide to the many shortcuts that can help your Sublime Text 3 workflow. Most of the tips there apply quite directly to Atom as well, although you can reference [Atom's Flight Manual](https://flight-manual.atom.io/) for specifics.
 
@@ -148,7 +148,7 @@ These installfests will take you through the steps to install everything on your
 <div class="lesson-content__panel" markdown="1">
 
   1. Complete the entire [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
-  2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
+  2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or above.  `$ rails -v` should give you something like `5.0.0` or above.
 
 </div>
 
@@ -178,7 +178,7 @@ If you've run into issues with your installation and are desperately looking for
 * [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
 * [Gorails.com](https://gorails.com/setup) also has an excellent tutorial for setting up your Rails environment for OSX and Ubuntu.
 * RubyMine is a great IDE (Integrated Development Environment), which can be an alternative to text editors like Sublime which we recommend. [It is free for students](https://www.jetbrains.com/student/).
-* [Visual Studio Code](https://code.visualstudio.com/) is an open source text editor from Microsoft that offers some of the same functionalities as Atom; is also based on Electron, like Atom; and is available for MacOS, Windows, and Linux. VSCode also has an integrated terminal that can be changed to work with the bash shell installed through the Windows Subsystem for Linux. To do so, you will need to go to File -> Preferences -> Settings, and in the editable settings file on the right, make sure you have these two settings:
+* [Visual Studio Code](https://code.visualstudio.com/) is an open source text editor from Microsoft that offers some of the same functionalities as Atom; is also based on Electron, like Atom; and is available for macOS, Windows, and Linux. VSCode also has an integrated terminal that can be changed to work with the bash shell installed through the Windows Subsystem for Linux. To do so, you will need to go to File -> Preferences -> Settings, and in the editable settings file on the right, make sure you have these two settings:
      * "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe" // Sets the terminal to Bash on Ubuntu on Windows
      * "terminal.integrated.shellArgs.windows": [ "--login" ] // Makes sure a login shell is used, necessary for rvm, ruby, and rails
 * Google Google Google

@@ -10,7 +10,7 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Add Bootstrap to your project by following the instructions at [GetBootstrap.com](http://getbootstrap.com/getting-started/).  Use the examples on that page as templates for how to organize your page.
-5. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and which are positioned by using the appropriate Bootstrap classes.
+5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and which are positioned by using the appropriate Bootstrap classes.
 6. Set up the top title and navigation bar.
 6. Work your way down the page by filling in and positioning the additional sections.
 7. Try resizing the browser to see if it mimics the behavior of the real Newsweek homepage.
@@ -21,6 +21,8 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Jonathan Yiv's Solution](https://github.com/JonathanYiv/newsweek) - [View in Browser](https://jonathanyiv.github.io/newsweek)
+* [Jmooree30's Solution](https://github.com/jmooree30/newsweek) - [View in Browser](https://jmooree30.github.io/newsweek/)
 * [Peter Mester's solution](https://github.com/peter665/newsweekPage) - [View in Browser](https://peter665.github.io/newsweekPage/)
 * [Andrew's solution](https://github.com/andrewr224/Newsweek) - [View in browser](https://andrewr224.github.io/Newsweek/)
 * [Flint Mayers' solution'](https://github.com/FlintMayers/Bootstrap_site_Odin) - [View in browser](https://flintmayers.github.io/Bootstrap_site_Odin/)
