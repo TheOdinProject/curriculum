@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Justine's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/mint-form) - [View in browser](https://hannibalony.github.io/mint-form/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/html_form) - [View in browser](https://yilmazgunalp.github.io/html_form/)
 * [Bottlecap's solution](https://github.com/Bottlecaps4/mint.com) - [View in browser](https://bottlecaps4.github.io/mint.com/)
+* [Devon's solution](https://github.com/defitjo/HTML-Forms) - [View in browser](https://defitjo.github.io/HTML-Forms/)
 * [Jeff's solution](https://github.com/jmbothe/mint-homepage) - [View in browser](https://jmbothe.github.io/mint-homepage/)
 * [James' solution](https://github.com/CurmudJim/google-homepage) - [View in browser](https://curmudjim.github.io/google-homepage/)
 * [Andrew's solution](https://github.com/andrewr224/html_forms) - [View in browser](https://andrewr224.github.io/html_forms/)
