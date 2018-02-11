@@ -201,7 +201,7 @@ GEM
     multipart-post (2.0.0)
     newrelic_rpm (3.18.1.330)
     nio4r (2.1.0)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     oauth2 (1.4.0)
       faraday (>= 0.8, < 0.13)
@@ -408,7 +408,7 @@ DEPENDENCIES
   kramdown
   letter_opener (~> 1.4)
   newrelic_rpm (~> 3.17)
-  nokogiri (= 1.8.1)
+  nokogiri (~> 1.8, >= 1.8.2)
   octokit (~> 4.6)
   omniauth-github (~> 1.1.2)
   omniauth-google-oauth2 (~> 0.5.1)
