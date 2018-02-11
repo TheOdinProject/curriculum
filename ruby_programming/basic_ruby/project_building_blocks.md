@@ -35,6 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Nathan Sherburne's Solution](https://github.com/nathansherburne/ruby_practice/blob/master/caesar_cypher.rb)
 * [Kevin Wahome's Solution](https://github.com/talihomz/ruby_exercises/blob/master/bubble_sort.rb)
 * [Turbopro's Solution](https://github.com/turbopro/CaesarCipher/blob/master/caesar_cipher.rb)
 * [Letícia Rodrigues' Solution](https://github.com/letnrodrigues/building_blocks/blob/master/caesar_cipher.rb)
