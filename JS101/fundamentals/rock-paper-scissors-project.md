@@ -37,7 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Edmond Alosa's solution](https://github.com/eddalosa/rockPaperScissor) - [View in browser](https://eddalosa.github.io/rockPaperScissor/)
-- [Alexander John's solution](https://github.com/alexander-john/rock-paper-scissors)
+- [Alexander John's solution](https://github.com/alexander-john/rock-paper-scissors) - [View in browser](https://alexander-john.github.io/rock-paper-scissors/)
 - [Paul-EN's solution](https://github.com/Paul-EN/rock-paper-scissors/blob/master/index.html) - [View in browser](https://paul-en.github.io/rock-paper-scissors/)
 - [Kerstin Wagner's solution](https://github.com/KWagner91/rock-paper-scissors) - [View in browser](https://kwagner91.github.io/)
 - [Johan Morin's console solution](https://github.com/MorrisMalone/rock_scissors_paper.git)
