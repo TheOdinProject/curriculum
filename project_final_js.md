@@ -29,7 +29,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Axel's solution](https://github.com/afuh/pinstagram) | [View in browser](https://pinstagram-app.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") | [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
 * [David Chapman's solution](https://github.com/davidchappy/lesson-scheduler) | [View in browser](http://lesson-scheduler.herokuapp.com/)
-
+* [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/game)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

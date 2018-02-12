@@ -22,4 +22,6 @@ We're making a Tic Tac Toe game you can play in your browser!
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [Jmoore30's solution](https://github.com/jmooree30/JS-Tic-Tac-Toe) - [View in browser](https://jmooree30.github.io/JS-Tic-Tac-Toe/)
+- [Ezequiel Espinoza's solution](https://github.com/ezeaspie/tictactoe) - [View in browser](https://ezeaspie.github.io/tictactoe/index.html)
 - [codyloyd's solution](https://github.com/codyloyd/plainJS-tic-tac-toe) - [View in browser](http://codyloyd.com/plainJS-tic-tac-toe/) 
