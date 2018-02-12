@@ -2,8 +2,7 @@ document.addEventListener('turbolinks:load', function() {
   var logoText = document.querySelector('.logo__text')
   var navToggle = document.querySelector('.navbar-toggler')
   var modalClose = document.querySelector('.close')
-
-  var userDropdown = document.querySelector('.js-dropdown')
+  var dropdowns = document.querySelectorAll('.js-dropdown')
 
   // Clears Logo text in modal
   if(navToggle && logoText) {
@@ -11,22 +10,21 @@ document.addEventListener('turbolinks:load', function() {
       logoText.classList.toggle('expanded')
     })
   }
-  
+
   // Restores Logo Text on modal close
   if(modalClose) {
     modalClose.addEventListener('click', function() {
       logoText.classList.toggle('expanded');
     })
   }
-  
-  // Open User Dropdown on Hover, hide on mouseout
-  if(userDropdown) {
-    userDropdown.addEventListener('mouseover', function() {
-      userDropdown.classList.add('show')
-    })
-    userDropdown.addEventListener('mouseout', function() {
-      userDropdown.classList.remove('show')
-    })
-  }
 
+  // Open Dropdowns on Hover, hide on mouseout
+  dropdowns.forEach(function(element) {
+   element.addEventListener('mouseover', function() {
+     element.classList.add('show')
+    })
+   element.addEventListener('mouseout', function() {
+     element.classList.remove('show')
+    })
+  })
 })
