@@ -141,3 +141,4 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Anistor86's solution](https://github.com/anistor86/linked_list)
 * [James Redux's solution](https://github.com/Jamesredux/linked_list)
 * [Oliver Curting's solution (with extra credit)](https://github.com/Curting/linked_lists)
+* [Alex's solution](https://github.com/alexcorremans/linked_list)
