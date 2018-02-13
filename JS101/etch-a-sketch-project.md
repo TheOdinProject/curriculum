@@ -40,6 +40,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/etch-a-sketch-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [walnutdust's solution](https://github.com/walnutdust/etch-a-sketch) - [View in browser](https://walnutdust.github.io/etch-a-sketch/)
 * [Clifford Minks's solution](https://github.com/xxerror500xx/TOP_Etch-a-Sketch) | [View in browser](https://xxerror500xx.github.io/TOP_Etch-a-Sketch/)
 * [Agnieszka's Solution](https://github.com/elPetit69/etch-a-sketch) - [View in browser](https://elpetit69.github.io/etch-a-sketch/)
 * [Ryafl's Solution](https://github.com/ryafl/etch-a-sketchProject) - [View in browser](https://ryafl.github.io/etch-a-sketchProject/)
@@ -81,3 +82,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Zach Coursey's solution](https://github.com/zcoursey22/etch-a-sketch) - [View in browser](https://zcoursey22.github.io/etch-a-sketch)
 * [axelerleo's solution](https://github.com/axelerleo/Etch-a-scratch) - [View in browser](https://axelerleo.github.io/Etch-a-scratch/)
 * [bradabayor's solution](https://github.com/bradabayor/etch-a-sketch) - [View in browser](https://bradabayor.github.io/etch-a-sketch)
+* [Encolpius's solution](https://github.com/Encolpius/etch-a-sketch) - [View in browser](http://narrow-activity.surge.sh/)

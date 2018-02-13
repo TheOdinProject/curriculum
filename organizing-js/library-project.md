@@ -39,3 +39,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [codyloyd's solution](https://github.com/codyloyd/odin-library) - [View in browser](http://codyloyd.com/odin-library/)
 - [shadowlighter's solution](https://codepen.io/shadowlighter/full/ppNpbm/) - [View in browser](https://codepen.io/shadowlighter/full/ppNpbm/)
 - [ezeaspie's solution](https://github.com/ezeaspie/library-project) - [View in browser](https://ezeaspie.github.io/library-project/index.html)
+- [Joseph's solution](https://github.com/pjosephraj/theodinproject-library) - [View in browser](https://pjosephraj.github.io/theodinproject-library/)

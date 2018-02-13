@@ -69,4 +69,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [HSaad's solution](https://github.com/HSaad/calculator) - [View in browser](https://hsaad.github.io/calculator/)
 - [Josiah's solution](https://github.com/jdonor/calculator) - [View in browser](https://jdonor.github.io/calculator/)
 - [Bridget Nyirongo's solution](https://github.com/Bridget12/basiccalculculator) - [View in browser](https://bridget12.github.io/basiccalculculator/)
-
+- [CurmudJim's solution](https://github.com/CurmudJim/JS_Calculator) - [View in Browser](https://curmudjim.github.io/JS_Calculator/)
