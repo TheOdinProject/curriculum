@@ -97,3 +97,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ivan Martinez' Solution](https://github.com/ivanmaru86/rock-paper-scissors)
 - [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors/blob/master/index.html)
 - [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html)
+- [Joe Weston's Solution](https://github.com/joeeeeeeeeeeeee/rock-paper-scissors) - [View in browser](https://joeeeeeeeeeeeee.github.io/rock-paper-scissors)
