@@ -94,7 +94,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Zach Coursey's solution](https://github.com/zcoursey22/rock-paper-scissors) - [View in browser](https://zcoursey22.github.io/rock-paper-scissors)
 - [Nikhil Patel's Solution](https://github.com/nikhilpatel87/rock-paper-scissors/blob/master/index.html)
 <<<<<<< HEAD
-- [Jacob Folley's solution](https://github.com/jacob-folley/rock-paper-scissor) - [View in browser](https://jacob-folley.github.io/rock-paper-scissor/)
+- [Jacob Folley's solution](https://github.com/jacob-folley/rock_paper_scissor) - [View in browser](https://jacob-folley.github.io/rock_paper_scissor/)
 
 =======
 - [Ivan Martinez' Solution](https://github.com/ivanmaru86/rock-paper-scissors)
