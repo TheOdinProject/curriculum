@@ -37,7 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
-- [hypnagogiasmic's solution](https://github.com/hypnagogiasmic/rps)
+- [hypnagogiasmic's solution](https://github.com/hypnagogiasmic/rps) - [View in browser](https://rawgit.com/hypnagogiasmic/rps/master/rps-new.html)
 - [Kerstin Wagner's solution](https://github.com/KWagner91/rock-paper-scissors)
 - [mindovermiles262's Solution](https://github.com/mindovermiles262/odin-js101-solutions/tree/master/project-rock-paper-scissors)
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/rock-paper-scissors) - [View in browser](https://jonathanyiv.github.io/rock-paper-scissors/)
