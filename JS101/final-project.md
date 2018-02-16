@@ -40,6 +40,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [Javier Machin's solution](https://github.com/Javier-Machin/Calculator) - [View in Browser](https://javier-machin.github.io/Calculator/)
+- [Calvin's solution](https://github.com/Calyeefornia/Calculator) - [View in Browser](https://calyeefornia.github.io/Calculator/)
 - [Nate Dimock's solution](https://github.com/Flakari/calculator) - [View in Browser](https://flakari.github.io/calculator/)
 - [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/Calculator) - [View in Browser](https://github.com/SarfrazAnjum/Calculator)
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/calculator) - [View in Browser (not Mobile)](https://github.com/JonathanYiv/calculator)
@@ -61,3 +63,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [AttilaTheHen's solution](https://github.com/AttilaTheHen/calculator) - [View in Browser](https://attilathehen.github.io/calculator/)
 - [Laura Ilona's solution](https://github.com/laurailona/calculator) - [View in Browser](https://laurailona.github.io/calculator/)
 - [SamJamCul's solution](https://github.com/SamJamCul/calculator) - [View in Browser](https://samjamcul.github.io/calculator/)
+- [simplybretterson's solution](https://github.com/simplybretterson/calculator) - [View in Browser](https://simplybretterson.github.io/calculator/)
+- [vartanbeno's solution](https://github.com/vartanbeno/calculator) - [View in browser](https://vartanbeno.github.io/calculator/)
+- [Zach Coursey's solution](https://github.com/zcoursey22/calculator) - [View in browser](https://zcoursey22.github.io/calculator/)
+- [HSaad's solution](https://github.com/HSaad/calculator) - [View in browser](https://hsaad.github.io/calculator/)
+- [Josiah's solution](https://github.com/jdonor/calculator) - [View in browser](https://jdonor.github.io/calculator/)
+- [Bridget Nyirongo's solution](https://github.com/Bridget12/basiccalculculator) - [View in browser](https://bridget12.github.io/basiccalculculator/)
+- [CurmudJim's solution](https://github.com/CurmudJim/JS_Calculator) - [View in Browser](https://curmudjim.github.io/JS_Calculator/)
+- [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/project-calculator) - [View in Browser](https://joeeeeeeeeeeeee.github.io/project-calculator/)
