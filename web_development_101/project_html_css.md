@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Emmit's solution (Easy)](https://github.com/FenrirETS) - [View in browser](https://fenrirets.github.io/google-homepage/)
 * [Alekseev Pavel's Soludtion (Difficult)](https://github.com/RukkiesMan) - [View in Browser (Difficult)](https://rukkiesman.github.io/google-homepage)
 * [Almyra's Solution](https://github.com/almyrav/google-homepage) - [View in Browser (Easy)](https://almyrav.github.io/google-homepage/) - [View in Browser (Difficult)](https://almyrav.github.io/google-homepage/results-page/search-results.html)
 * [Rachel Krupnick's Solution Easy](https://github.com/rkrupnick/google-homepage) [Codepen](https://codepen.io/rkrupnick/pen/MQoOdZ)
@@ -1376,7 +1377,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Doris Keller's Solution (Difficult)](https://github.com/DoKe65/google-homepage) - [View in Browser](https://doke65.github.io/google-homepage/)
 * [IvanaGoSt's Solution (easy)](https://github.com/IvanaGoSt/google-homepage) - [View in Browser](https://rawgit.com/IvanaGoSt/google-homepage/master/index.html)
 * [Joe Weston's Solution](https://github.com/joeeeeeeeeeeeee/google-homepage) - [View in Browser](https://joeeeeeeeeeeeee.github.io/google-homepage/)
-* [Luke Bartholomew's Solution (Easy)](https://github.com/lukesbart/google-homepage) - [View in Browser](https://lukesbart.github.io/google-homepage) 
+* [Luke Bartholomew's Solution (Easy)](https://github.com/lukesbart/google-homepage) - [View in Browser](https://lukesbart.github.io/google-homepage)
 * [Tony Nyagah's Solution (Easy)](https://github.com/TonyNyagah/google_homepage) - [View in Browser](https://tonynyagah.github.io/google_homepage/)
 * [David Crichlow's Solution (Easy)](https://github.com/dangermouse121985/google_homepage) - [View in Browser](https://dangermouse121985.github.io/google_homepage/)
 
