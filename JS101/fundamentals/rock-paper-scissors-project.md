@@ -36,11 +36,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/fundamentals/rock-paper-scissors-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-<<<<<<< HEAD
-
 - [hypnagogiasmic's solution](https://github.com/hypnagogiasmic/rps) - [View in browser](https://rawgit.com/hypnagogiasmic/rps/master/rps-new.html)
 - [Kerstin Wagner's solution](https://github.com/KWagner91/rock-paper-scissors)
-=======
 - [ayanlehd's solution](https://github.com/ayanlehd/rock_paper_scissors)
 - [Jon Yoo's solution](https://github.com/jonyoowa/rock-paper-scissors-browser) - [View in browser](https://jonyoowa.github.io/rock-paper-scissors-browser/)
 - [D1789's solution](https://github.com/D1789/RPS1) - [View in browser](https://rawgit.com/D1789/RPS1/master/index.html)
@@ -52,8 +49,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Matt Claghorn's console solution](https://github.com/Claggy/rock-paper-scissors) - [View in browser](https://claggy.github.io/rock-paper-scissors/)
 - [Bartek Butrym's solution](https://github.com/BartekButrym/rock-paper-scissors)
 - [Fabien Kovacic's solution](https://github.com/Fabious/rock-paper-scissors) - [View in browser](https://fabious.github.io/rock-paper-scissors/)
-- [hypnagogiasmic's solution](https://github.com/hypnagogiasmic/rps)
->>>>>>> 60a3c78ff097836d1472865e98a156a6d2ba812b
 - [mindovermiles262's Solution](https://github.com/mindovermiles262/odin-js101-solutions/tree/master/project-rock-paper-scissors)
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/rock-paper-scissors) - [View in browser](https://jonathanyiv.github.io/rock-paper-scissors/)
 - [Uglješa Ijačić's solution](https://github.com/ugitch/rock-paper-scissors)
