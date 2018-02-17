@@ -1380,6 +1380,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Luke Bartholomew's Solution (Easy)](https://github.com/lukesbart/google-homepage) - [View in Browser](https://lukesbart.github.io/google-homepage)
 * [Tony Nyagah's Solution (Easy)](https://github.com/TonyNyagah/google_homepage) - [View in Browser](https://tonynyagah.github.io/google_homepage/)
 * [David Crichlow's Solution (Easy)](https://github.com/dangermouse121985/google_homepage) - [View in Browser](https://dangermouse121985.github.io/google_homepage/)
+* [Lenin Nava's Solution (Easy) (https://github.com/leninnava/Google_homepage) - [View in Browser] 
+(https://leninnava.github.io/Google_homepage/) 
 
 ### Additional Resources
 
