@@ -86,3 +86,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Encolpius's solution](https://github.com/Encolpius/etch-a-sketch) - [View in browser](http://narrow-activity.surge.sh/)
 * [Ryoma's solution](https://github.com/ryozume/drawing_grids) - [View in browser](https://ryozume.github.io/drawing_grids/)
 * [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/etch-a-sketch) - [View in browser](https://joeeeeeeeeeeeee.github.io/etch-a-sketch/)
+* [Uy Binh's solution](https://github.com/uybinh/Etch-a-Sketch) - [View in browser](https://uybinh.github.io/Etch-a-Sketch/)
