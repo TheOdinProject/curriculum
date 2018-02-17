@@ -206,6 +206,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/bookish-tribble)
 * [Kusnierewicz Solution](https://github.com/Kusnierewicz/Tic-Tac-Toe-Game)
 * [Alexander Luna's Solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/tic_tac_toe)
+* [Aaron's Solution](https://github.com/akaswen/oop_project/tree/master/tic_tac_toe)
 
 
 ### Project 2: Mastermind
@@ -385,6 +386,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Kusnierewicz solution (with fairly smart AI)](https://github.com/Kusnierewicz/Mastermind-game)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/improved-octo-doodle)
 * [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/mastermind)
+* [Aaron's solution](https://github.com/akaswen/oop_project/tree/master/mastermind)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
