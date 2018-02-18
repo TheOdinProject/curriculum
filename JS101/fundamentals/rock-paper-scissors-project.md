@@ -103,4 +103,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html)
 - [Joe Weston's Solution](https://github.com/joeeeeeeeeeeeee/rock-paper-scissors) - [View in browser](https://joeeeeeeeeeeeee.github.io/rock-paper-scissors)
 - [Suraj's solution](https://github.com/surajsingla333/rock-paper-scissors) - [View in browser](https://surajsingla333.github.io/rock-paper-scissors)
+- [Benny's Solution](https://github.com/Deckins/rock_paper_scissors) - [View in browser](https://deckins.github.io/rock_paper_scissors/)
 - [Aziz Yakubov's solution](https://github.com/azizyakubov/rock-paper-scissors) - [View in browser](https://azizyakubov.github.io/rock-paper-scissors/)
