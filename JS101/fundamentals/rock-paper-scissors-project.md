@@ -99,7 +99,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Zach Coursey's solution](https://github.com/zcoursey22/rock-paper-scissors) - [View in browser](https://zcoursey22.github.io/rock-paper-scissors)
 - [Nikhil Patel's Solution](https://github.com/nikhilpatel87/rock-paper-scissors/blob/master/index.html)
 - [Ivan Martinez' Solution](https://github.com/ivanmaru86/rock-paper-scissors)
-- [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors/blob/master/index.html)
+- [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors) - [View in browser](https://zorafins.github.io/rock-paper-scissors)
 - [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html)
 - [Joe Weston's Solution](https://github.com/joeeeeeeeeeeeee/rock-paper-scissors) - [View in browser](https://joeeeeeeeeeeeee.github.io/rock-paper-scissors)
 - [Suraj's solution](https://github.com/surajsingla333/rock-paper-scissors) - [View in browser](https://surajsingla333.github.io/rock-paper-scissors)
