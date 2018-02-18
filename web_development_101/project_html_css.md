@@ -1383,6 +1383,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [David Crichlow's Solution (Easy)](https://github.com/dangermouse121985/google_homepage) - [View in Browser](https://dangermouse121985.github.io/google_homepage/)
 * [Lenin Nava's Solution (Easy) (https://github.com/leninnava/Google_homepage) - [View in Browser] 
 (https://leninnava.github.io/Google_homepage/) 
+* [Kathryn G's Solution (Easy)](https://github.com/iamkatdog2/google-homepage) - [View in Browser](https://iamkatdog2.github.io/google-homepage/)
 
 ### Additional Resources
 
