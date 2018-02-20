@@ -91,3 +91,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/etch-a-sketch) - [View in browser](https://joeeeeeeeeeeeee.github.io/etch-a-sketch/)
 * [Aziz Yakubov's solution](https://github.com/azizyakubov/etchasketch) - [View in browser](https://azizyakubov.github.io/etchasketch/)
 * [Uy Binh's solution](https://github.com/uybinh/Etch-a-Sketch) - [View in browser](https://uybinh.github.io/Etch-a-Sketch/)
+* [Jamie's solution](https://github.com/Zorafins/etch-a-sketch) - [View in browser](https://zorafins.github.io/etch-a-sketch/)
