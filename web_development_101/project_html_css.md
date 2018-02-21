@@ -1389,7 +1389,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Kathryn G's Solution (Easy)](https://github.com/iamkatdog2/google-homepage) - [View in Browser](https://iamkatdog2.github.io/google-homepage/)
 * [Thomas Dobbelsteyn's Solution (Easy)](https://github.com/Thomasdbl/google_homepage) - [View in Browser](https://thomasdbl.github.io/google_homepage/)
 * [Buskins Solution (Easy)](https://github.com/buskins/google-homepage) - [View in Browser](https://buskins.github.io/google-homepage/)
-
+[Gianni's solution (Easy)](https://github.com/GianniP86/google-hompage) - [View in Browser](https://giannip86.github.io/google-hompage/)
 
 ### Additional Resources
 
