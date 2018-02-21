@@ -243,7 +243,7 @@ GEM
     premailer-rails (1.9.6)
       actionmailer (>= 3, < 6)
       premailer (~> 1.7, >= 1.7.9)
-    puma (3.6.2)
+    puma (3.11.2)
     rack (2.0.3)
     rack-attack (5.0.1)
       rack
@@ -416,7 +416,7 @@ DEPENDENCIES
   phantomjs (~> 2.1)
   poltergeist (~> 1.1)
   premailer-rails (~> 1.9)
-  puma (~> 3.6.0)
+  puma (~> 3.11.2)
   rack-attack
   rack-timeout (~> 0.4)
   rails (~> 5.0.0)
@@ -441,4 +441,4 @@ RUBY VERSION
    ruby 2.3.0p0
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
