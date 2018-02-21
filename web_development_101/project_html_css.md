@@ -1388,6 +1388,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [keyur22's Solution (Difficult)](https://github.com/keyur22/google-searchPage) - [View in Browser](https://keyur22.github.io/google-searchPage/) 
 * [Kathryn G's Solution (Easy)](https://github.com/iamkatdog2/google-homepage) - [View in Browser](https://iamkatdog2.github.io/google-homepage/)
 * [Thomas Dobbelsteyn's Solution (Easy)](https://github.com/Thomasdbl/google_homepage) - [View in Browser](https://thomasdbl.github.io/google_homepage/)
+* [Buskins Solution (Easy)](https://github.com/buskins/google-homepage) - [View in Browser](https://buskins.github.io/google-homepage/)
 
 
 ### Additional Resources
