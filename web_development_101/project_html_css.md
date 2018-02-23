@@ -1384,13 +1384,14 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Lenin Nava's Solution (Easy)](https://github.com/leninnava/Google_homepage) - [View in Browser](https://leninnava.github.io/Google_homepage/)
 * [Fatma Al-Shehhi's Solution (Easy)](https://github.com/iFatma89/google-homepage)(https://leninnava.github.io/Google_homepage/)
 * [Lucas Manzano's Solution (Easy)](https://github.com/lucasmfarias1/google-homepage) - [View in Browser](https://lucasmfarias1.github.io/google-homepage/) - [Lucas Manzano's Solution (Difficult)](https://github.com/lucasmfarias1/google-results) - [View in Browser](https://lucasmfarias1.github.io/google-results/)
-* [keyur22's Solution (Easy)](https://github.com/keyur22/google-homepage) - [View in Browser](https://keyur22.github.io/google-homepage/) 
-* [keyur22's Solution (Difficult)](https://github.com/keyur22/google-searchPage) - [View in Browser](https://keyur22.github.io/google-searchPage/) 
+* [keyur22's Solution (Easy)](https://github.com/keyur22/google-homepage) - [View in Browser](https://keyur22.github.io/google-homepage/)
+* [keyur22's Solution (Difficult)](https://github.com/keyur22/google-searchPage) - [View in Browser](https://keyur22.github.io/google-searchPage/)
 * [Kathryn G's Solution (Easy)](https://github.com/iamkatdog2/google-homepage) - [View in Browser](https://iamkatdog2.github.io/google-homepage/)
 * [Thomas Dobbelsteyn's Solution (Easy)](https://github.com/Thomasdbl/google_homepage) - [View in Browser](https://thomasdbl.github.io/google_homepage/)
 * [Buskins Solution (Easy)](https://github.com/buskins/google-homepage) - [View in Browser](https://buskins.github.io/google-homepage/)
 [Gianni's solution (Easy)](https://github.com/GianniP86/google-hompage) - [View in Browser](https://giannip86.github.io/google-hompage/)
 [Priyam's solution (Easy)](https://github.com/priyam97/google-homepage) - [View in Browser](https://priyam97.github.io/google-homepage/)
+* [mjlander78's Solution (Easy)](https://github.com/mjlander78/google-homepage) - [View in Browser](https://mjlander78.github.io/google-homepage/)
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
