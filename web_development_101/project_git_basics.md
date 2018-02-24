@@ -56,7 +56,7 @@ With Git you choose the changes you want to save with `git add`. Imagine a proje
 #### Committing
 Think of `commit` as actually taking a photo, resulting in a snapshot.
 
-We used this command to commit the *README.md* file `git commit -m "Add README.md"`. The `-m` flag stands for message and must always be followed by a message in quotes, in our case `"Add README.md"`.
+We used this command to commit the *README.md* file `git commit -m "Add README.md"` the `-m` flag stands for message and must always be followed by a message in quotes, in our case `"Add README.md"`.
 
 ### Adding another file into the mix
 
@@ -66,7 +66,7 @@ We used this command to commit the *README.md* file `git commit -m "Add README.m
   <a href="http://imgur.com/a/2B4Lw"><img class="tutorial-img" src="http://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
 3. Back in your terminal enter `git status`, notice that *README.md* is now un-staged again.
   <a href="https://imgur.com/AlUO59b"><img class="tutorial-img" src="https://i.imgur.com/AlUO59b.png" title="source: imgur.com" /></a>
-4. Add *README.md* to the staging area with `git add README.md`.
+4. Add *README.md* to the staging area with `git add README.md`
 5. Can you guess what `git status` will output now? *README.md* will be displayed in green text while *hello_world.txt* will still be in red. This means only *README.md* has been added to the staging area.
   <a href="https://imgur.com/b9tCLfT"><img class="tutorial-img" src="https://i.imgur.com/b9tCLfT.png" title="source: imgur.com" /></a>
 6. Now let's add *hello_world.txt* to staging area with a different variation of add `git add .` - the full stop means add all un-staged files. Then enter `git status` once more, everything should now been added to the staging area.
