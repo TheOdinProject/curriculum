@@ -35,6 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/caesar_cypher.rb)
 * [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/caeser.rb)
 * [Nathan Sherburne's Solution](https://github.com/nathansherburne/ruby_practice/blob/master/caesar_cypher.rb)
 * [Turbopro's Solution](https://github.com/turbopro/CaesarCipher/blob/master/caesar_cipher.rb)
@@ -360,6 +361,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 
+* [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/stock_picker.rb)
 * [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/stockpicker.rb)
 * [Nathan Sherburne's Solution](https://github.com/nathansherburne/ruby_practice/tree/master/stock_picker)
 * [Letícia Rodrigues' Solution](https://github.com/letnrodrigues/building_blocks/blob/master/stock_picker.rb)
@@ -671,6 +673,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/substrings.rb)
 * [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/substrings.rb)
 * [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/substrings.rb)
 * [MariaTikhonova's solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/substrings/dictionary.rb)
