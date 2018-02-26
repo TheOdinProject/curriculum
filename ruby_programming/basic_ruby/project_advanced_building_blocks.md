@@ -36,6 +36,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Samuel Masters' Soultion](https://github.com/redeyetuning/rb_adv_bldg_blks/blob/master/bubble_sort.rb)
 * [Marijunjnja's Solution](https://github.com/Marijunjnja/Odin-Project/blob/master/advanced_ruby_building_blocks/bubble_sort.rb)
 * [Kevin Wahome's Solution](https://github.com/talihomz/ruby_exercises/blob/master/bubble_sort.rb)
 * [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/bubble_sort.rb)
@@ -310,6 +311,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Samuel Masters' Soultion](https://github.com/redeyetuning/rb_adv_bldg_blks/blob/master/enumerable_methods.rb)
 * [Marijunjnja's solution](https://github.com/Marijunjnja/Odin-Project/blob/master/advanced_ruby_building_blocks/enumerable_methods.rb)
 * [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/enumerable_methods.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/Ruby/my_enums)
