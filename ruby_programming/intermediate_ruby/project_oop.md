@@ -17,6 +17,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Samuel Masters' Solution](https://github.com/redeyetuning/rb-oop/blob/master/tictactoe.rb)
+* [Sava Vuckovic's solution](https://github.com/talihomz/ruby_exercises/tree/master/tic-tac-toe)
+* [Kevin Wahome's solution](https://github.com/talihomz/ruby_exercises/tree/master/tic-tac-toe)
 * [Jacqueline Fahmy's solution](https://github.com/jfahmy/Ruby/blob/master/ProjectOdin/OOP_project/TicTacToe.rb)
 * [Bianca Carvalho's solution](https://github.com/biancafc/ruby-projects/blob/master/oop-project1-tictactoe.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/tree/master/tic-tac-toe)
@@ -203,6 +206,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/bookish-tribble)
 * [Kusnierewicz Solution](https://github.com/Kusnierewicz/Tic-Tac-Toe-Game)
 * [Alexander Luna's Solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/tic_tac_toe)
+* [Aaron's Solution](https://github.com/akaswen/oop_project/tree/master/tic_tac_toe)
 
 
 ### Project 2: Mastermind
@@ -226,6 +230,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Samuel Masters' Solution](https://github.com/redeyetuning/rb-oop/blob/master/mastermind.rb)
 * [Jacqueline Fahmy's solution (with AI)](https://github.com/jfahmy/Ruby/tree/master/ProjectOdin/OOP_project/Mastermind/lib)
 * [endotnick's solution](https://github.com/endotnick/mastermind) - [Live Demo](https://repl.it/@endotnick/Mastermind)
 * [OthmanAmoudi's solution](https://github.com/OthmanAmoudi/Mastermind-Game-CLI) - [View in Browser - fancy cli](https://repl.it/@theweeknd/Mastermind-You-are-the-CodeBreaker)
@@ -382,6 +387,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Kusnierewicz solution (with fairly smart AI)](https://github.com/Kusnierewicz/Mastermind-game)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/improved-octo-doodle)
 * [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/mastermind)
+* [Aaron's solution](https://github.com/akaswen/oop_project/tree/master/mastermind)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

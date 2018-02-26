@@ -35,8 +35,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/caesar_cypher.rb)
+* [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/caeser.rb)
 * [Nathan Sherburne's Solution](https://github.com/nathansherburne/ruby_practice/blob/master/caesar_cypher.rb)
-* [Kevin Wahome's Solution](https://github.com/talihomz/ruby_exercises/blob/master/bubble_sort.rb)
 * [Turbopro's Solution](https://github.com/turbopro/CaesarCipher/blob/master/caesar_cipher.rb)
 * [Letícia Rodrigues' Solution](https://github.com/letnrodrigues/building_blocks/blob/master/caesar_cipher.rb)
 * [Sherman Bowling's Solution](https://github.com/janus0/ruby_building_blocks/blob/master/caesar_cipher.rb)
@@ -336,6 +337,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [thefitriali's solution](https://github.com/thefitriali/odin/blob/master/caesar_cipher.rb)
 * [Niko Caron's solution](https://gist.github.com/ncaron/04cf9a1c011cff3df2b3ce853adbd62d)
 * [CurmudJim's solution](https://github.com/CurmudJim/ruby_programming/blob/master/caesar_cipher.rb)
+* [HSaad's solution](https://github.com/HSaad/ruby-building-blocks/blob/master/cipher.rb)
 
 ### Project 2: Stock Picker
 
@@ -358,6 +360,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+
+* [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/stock_picker.rb)
+* [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/stockpicker.rb)
 * [Nathan Sherburne's Solution](https://github.com/nathansherburne/ruby_practice/tree/master/stock_picker)
 * [Letícia Rodrigues' Solution](https://github.com/letnrodrigues/building_blocks/blob/master/stock_picker.rb)
 * [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/stock_picker.rb)
@@ -637,6 +642,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [thefitriali's solution](https://github.com/thefitriali/odin/blob/master/stock_picker.rb)
 * [Niko Caron's solution](https://gist.github.com/ncaron/1125b59c8969810fe8d9844db926f842)
 * [CurmudJim's solution](https://github.com/CurmudJim/ruby_programming/blob/master/stock_picker.rb)
+* [HSaad's solution](https://github.com/HSaad/ruby-building-blocks/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -667,6 +673,8 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/substrings.rb)
+* [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/substrings.rb)
 * [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/substrings.rb)
 * [MariaTikhonova's solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/substrings/dictionary.rb)
 * [Sherman Bowling's solution](https://github.com/janus0/ruby_building_blocks/blob/master/substrings.rb)
@@ -940,3 +948,4 @@ Next, make sure your method can handle multiple words:
 * [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/lib)
 * [Niko Caron's solution](https://gist.github.com/ncaron/557f9b952ed02f86de034b20da09746d)
 * [CurmudJim's solution](https://github.com/CurmudJim/ruby_programming/blob/master/sub_string.rb)
+* [HSaad's solution](https://github.com/HSaad/ruby-building-blocks/blob/master/substrings.rb)
