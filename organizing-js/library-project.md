@@ -42,3 +42,4 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [ezeaspie's solution](https://github.com/ezeaspie/library-project) - [View in browser](https://ezeaspie.github.io/library-project/index.html)
 - [Joseph's solution](https://github.com/pjosephraj/theodinproject-library) - [View in browser](https://pjosephraj.github.io/theodinproject-library/)
 - [Moiz's solution](https://github.com/MoizHasan/JS-Library) - [View in browser](https://cdn.rawgit.com/MoizHasan/JS-Library/e0874ddd/library.html)
+- [asasmith's solution](https://github.com/asasmith/libraryApp) - [View in browser](https://asasmith.github.io/libraryApp/)
