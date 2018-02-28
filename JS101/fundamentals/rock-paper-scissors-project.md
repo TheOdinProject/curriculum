@@ -111,3 +111,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Benny's Solution](https://github.com/Deckins/rock_paper_scissors) - [View in browser](https://deckins.github.io/rock_paper_scissors/)
 - [Aziz Yakubov's solution](https://github.com/azizyakubov/rock-paper-scissors) - [View in browser](https://azizyakubov.github.io/rock-paper-scissors/)
 - [Onur's solution](https://github.com/deksudo/RockPaperScissors) - [View in browser (UI version)](https://deksudo.github.io/RockPaperScissors/)
+- [Lucas Manzano's solution](https://github.com/lucasmfarias1/rock-paper-scissors) - [View in browser](https://lucasmfarias1.github.io/rock-paper-scissors/)
