@@ -29,3 +29,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - Add your solution below this line!
 - [Jmooree30's solution](https://github.com/jmooree30/restaurant) - [View in browser](https://jmooree30.github.io/restaurant/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-restaurant) - [View in browser](http://codyloyd.com/odin-restaurant/)
+- [rpalo's solution](https://github.com/rpalo/odin-restaurant) - [View in browser](https://assertnotmagic.com/odin-restaurant/)
