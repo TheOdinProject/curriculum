@@ -389,6 +389,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/learn_ruby)
 * [Jacob Whitish's solution](https://github.com/jwhitish/learn_ruby)
 * [Gianni's solution](https://github.com/GianniP86/learn_ruby)
+* [Aziz Yakubov's solution](https://github.com/azizyakubov/learn_ruby)
 * [Kate's solution](https://github.com/katekaho/learn_ruby)
 * [Alonso Zamorano's solution](https://github.com/amzamora/learn_ruby)
 
