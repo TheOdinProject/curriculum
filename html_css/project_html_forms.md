@@ -1,11 +1,9 @@
 ### Introduction
+In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users.  They have been highly praised for the design and simplicity of their site, and their signup process is very clean.
 
-In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users. They have been highly praised for the design and simplicity of their site, and their signup process is very clean.
-
-The page is very straightforward, so you should be able to clone it even if your CSS skills aren't perfect. As usual, don't worry about any of the dynamic functionality on the page or finding the specific icons they use or having the form actually submit. The point is to make it _look_ like the real page as much as you reasonably can.
+The page is very straightforward, so you should be able to clone it even if your CSS skills aren't perfect.  As usual, don't worry about any of the dynamic functionality on the page or finding the specific icons they use or having the form actually submit.  The point is to make it *look* like the real page as much as you reasonably can.
 
 ### Assignment
-
 <div class="lesson-content__panel" markdown="1">
 1. Go to [Mint.com's signup page](https://wwws.mint.com/login.event?task=S) and have a look around.  The form isn't exceptionally complicated.
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
@@ -18,12 +16,10 @@ The page is very straightforward, so you should be able to clone it even if your
 </div>
 
 ### Student Solutions
-
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
 
-* [Agnieszka's solution](https://github.com/elPetit69/html-form) - [View in browser](https://elpetit69.github.io/html-form/)
 * [walnutdust's solution](https://github.com/walnutdust/mock-intuit) - [View in browser](https://walnutdust.github.io/mock-intuit/)
 * [theghall's solution](https://github.com/theghall/odin-mint) - [Live](https://theghall.github.io/odin-mint/)
 * [Jeremy-D's solution](https://github.com/Jeremy-D/Mint-form) - [Live](https://jeremy-d.github.io/Mint-form/)
@@ -55,7 +51,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Dominik Stodolny's solution](https://github.com/dstodolny/mint) - [View in browser](https://htmlpreview.github.io/?https://github.com/dstodolny/mint/blob/master/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_html_forms) - [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_html_forms/blob/master/main.html)
 * [Eleanor's solution (with Flexbox)](https://github.com/mixophrygian/mintForm) - [View in browser](https://htmlpreview.github.io/?https://github.com/mixophrygian/mintForm/blob/master/index.html)
-* [Joseph McConnell's solution](<https://github.com/JJMcConnell/TheOdinProject/tree/master/HTML%20Forms%20practice%20(Mint%20clone)>) - [View in browser](<https://htmlpreview.github.io/?https://github.com/JJMcConnell/TheOdinProject/blob/master/HTML%20Forms%20practice%20(Mint%20clone)/Mmmmmity.html>)
+* [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/HTML%20Forms%20practice%20(Mint%20clone)) - [View in browser](https://htmlpreview.github.io/?https://github.com/JJMcConnell/TheOdinProject/blob/master/HTML%20Forms%20practice%20(Mint%20clone)/Mmmmmity.html)
 * [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/HTML-Forms) - [View in browser](http://dusanmilosavljevic1624.github.io/HTML-Forms/)
 * [Noman Karim's solution](https://github.com/nomankarim/Mintsignupform) - [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/Mintsignupform/blob/master/index.html)
 * [Patrick Mallee's solution](https://github.com/patmallee/mintForm) - [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/mintForm/blob/master/index.html)
@@ -84,5 +80,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/mint-signup-form) - [View in browser](https://thiswillhavetodo.github.io/mint-signup-form/)
 
 ### Additional Resources
-
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
