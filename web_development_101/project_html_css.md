@@ -1389,9 +1389,16 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Kathryn G's Solution (Easy)](https://github.com/iamkatdog2/google-homepage) - [View in Browser](https://iamkatdog2.github.io/google-homepage/)
 * [Thomas Dobbelsteyn's Solution (Easy)](https://github.com/Thomasdbl/google_homepage) - [View in Browser](https://thomasdbl.github.io/google_homepage/)
 * [Buskins Solution (Easy)](https://github.com/buskins/google-homepage) - [View in Browser](https://buskins.github.io/google-homepage/)
-[Gianni's solution (Easy)](https://github.com/GianniP86/google-hompage) - [View in Browser](https://giannip86.github.io/google-hompage/)
-[Priyam's solution (Easy)](https://github.com/priyam97/google-homepage) - [View in Browser](https://priyam97.github.io/google-homepage/)
+* [Gianni's solution (Easy)](https://github.com/GianniP86/google-hompage) - [View in Browser](https://giannip86.github.io/google-hompage/)
+* [Priyam's solution (Easy)](https://github.com/priyam97/google-homepage) - [View in Browser](https://priyam97.github.io/google-homepage/)
 * [mjlander78's Solution (Easy)](https://github.com/mjlander78/google-homepage) - [View in Browser](https://mjlander78.github.io/google-homepage/)
+* [Rafael Herrera (Easy)](https://github.com/rafaelgus/google-homepage) - [View in Browser](https://rafaelgus.github.io/google-homepage/)
+* [Seye Omisore (Easy)](https://github.com/aomisore/google-homepage) - [View in Browser](https://aomisore.github.io/google-homepage/)
+* [Michal Petrik's solution (Easy)](https://github.com/vikingviolinist/google_homepage) - [View in Browser](https://vikingviolinist.github.io/google_homepage)
+* [Tabish Bashir (Easy)](https://github.com/Tabish33/google-homepage) - [View in Browser]( https://tabish33.github.io/google-homepage/ )
+* [chrobertson's Solution (Easy)](https://github.com/chrobertson/google-homepage) - [View in Browser](https://chrobertson.github.io/google-homepage/)
+* [Jarred Herrington's Solution (Easy)](https://github.com/Herringtonjc/google-homepage) - [View in Browser](https://herringtonjc.github.io/google-homepage/)
+
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

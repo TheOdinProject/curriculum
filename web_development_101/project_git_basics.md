@@ -56,7 +56,7 @@ With Git you choose the changes you want to save with `git add`. Imagine a proje
 #### Committing
 Think of `commit` as actually taking a photo, resulting in a snapshot.
 
-We used this command to commit the *README.md* file `git commit -m "Add README.md"` the `-m` flag stands for message and must always be followed by a message in quotes in our case `"Add README.md"`.
+We used this command to commit the *README.md* file `git commit -m "Add README.md"` the `-m` flag stands for message and must always be followed by a message in quotes, in our case `"Add README.md"`.
 
 ### Adding another file into the mix
 
