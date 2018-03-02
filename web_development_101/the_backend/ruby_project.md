@@ -26,8 +26,10 @@ This exercise will involve a lot of figuring things out. There aren't very detai
 Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/web_development_101/the_backend/ruby_project.md) on the ruby course github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
+
 * Add your solution below this line!
 * [Jon Yoo's solutions](https://github.com/jonyoowa/learn_ruby)
+* [Ryafl's solutions](https://github.com/ryafl/learn_ruby)
 * [Javier Machin's solutions](https://github.com/Javier-Machin/learn_ruby/tree/mySolution)
 * [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/learn_ruby)
 * [Samuel Master'solutions](https://github.com/redeyetuning/learn_ruby)
@@ -387,6 +389,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/learn_ruby)
 * [Jacob Whitish's solution](https://github.com/jwhitish/learn_ruby)
 * [Gianni's solution](https://github.com/GianniP86/learn_ruby)
+* [Kate's solution](https://github.com/katekaho/learn_ruby)
+* [Alonso Zamorano's solution](https://github.com/amzamora/learn_ruby)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
