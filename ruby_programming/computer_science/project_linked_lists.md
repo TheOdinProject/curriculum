@@ -67,6 +67,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 * [0zra's solution](https://github.com/0zra/linkedlist/blob/master/linkedlist.rb)
+* [Demo318's solution (with extra credit)](https://github.com/Demo318/ruby_linked_lists)
 * [mtizim's solution (with extra credit)](https://github.com/mtizim/odin_projects/blob/master/ruby/linkedlists.rb)
 * [Isil Donmez's solution](https://github.com/isildonmez/linked_lists/blob/master/linked_lists.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/linkedlist.rb)
