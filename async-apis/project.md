@@ -18,3 +18,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Add your solution below this line!
 * [Jmooree30's solution](https://github.com/jmooree30/weather-app) - [View in browser](https://jmooree30.github.io/weather-app/)
 * [hmbeale's solution](https://github.com/hmbeale/weather) - [View in browser](http://hmbeale.github.io/weather/)
+* [Rémy's solution](https://codepen.io/beumsk/pen/Xpbyxv) - [View in browser](https://codepen.io/beumsk/full/Xpbyxv/)
