@@ -18,6 +18,10 @@ You will be building a simple command line Hangman game where one player plays a
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+
+* [Samuel Masters' Solution](https://github.com/redeyetuning/rb_hangman)
+* [Btreim's solution](https://github.com/btreim/ruby/tree/master/hangman)
+* [Demo318's solution](https://github.com/Demo318/ruby_hangman)
 * [Jackie Fahmy's solution](https://github.com/jfahmy/Ruby/tree/master/ProjectOdin/hangman)
 * [OthmanAmoudi's solution](https://github.com/OthmanAmoudi/hangman) - [View in Browser](https://repl.it/@theweeknd/hangman)
 * [Omar Moataz's solution](https://github.com/omarmoatazpracticehub/Hangman)
