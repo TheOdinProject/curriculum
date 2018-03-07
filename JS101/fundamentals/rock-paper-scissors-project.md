@@ -115,4 +115,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Lucas Manzano's solution](https://github.com/lucasmfarias1/rock-paper-scissors) - [View in browser](https://lucasmfarias1.github.io/rock-paper-scissors/)
 - [Nick Prieto's Solution](https://github.com/NickWhoCodes/RockPaperScissors)
 - [Steve Cooke's solution](https://github.com/cook1e20/rockPaperScissors) - [View in browser](https://cook1e20.github.io/rockPaperScissors/)
-- [Nicole C's solution](https://github.com/nychinn/js-experiments/tree/master/projects/jankenpon) - [View in browser](nychinn.github.io/js-experiments/projects/jankenpon)
+- [Nicole C's solution](https://github.com/nychinn/js-experiments/tree/master/projects/jankenpon) - [View in browser](https://nychinn.github.io/js-experiments/projects/jankenpon)
