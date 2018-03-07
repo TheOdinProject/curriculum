@@ -38,7 +38,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Zachary Coxe's solution](https://github.com/faultde/RPSv1) - [View in Browser](https://faultde.github.io/RPSv1/)
 - [Adrien Pardo's solution](https://shieboo.github.io/rock-paper-scissors/)
-- [Andrew's solution](https://github.com/andrewr224/rock-paper-scissors) - [View in browser](https://andrewr224.github.io/rock-paper-scissors/
+- [Andrew's solution](https://github.com/andrewr224/rock-paper-scissors) - [View in browser](https://andrewr224.github.io/rock-paper-scissors/)
 - [Almyra's Solution](https://github.com/almyrav/rock-paper-scissors)
 - [Emmit's solution](https://github.com/FenrirETS/rock-paper-scissors)
 - [Webop's console solution](https://github.com/webop/rock-paper-scissors) - [UI solution](https://github.com/webop/rock-paper-scissors-ui) - [View in browser](https://webop.github.io/rock-paper-scissors-ui/)
