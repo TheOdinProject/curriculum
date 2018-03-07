@@ -39,6 +39,7 @@ Other sites, like Brand Yourself below, will describe a bit better how to take o
 * [Brand Yourself helps you... brand... yourself.  Basic services are free.](http://brandyourself.com)
 * [Control Your Online Reputation from Monster](http://career-advice.monster.com/job-search/getting-started/control-your-online-reputation/article.aspx)
 * [How Important Is It for a Programmer to Have an Online Presence? on Stack Exchange](http://programmers.stackexchange.com/questions/143673/how-important-is-it-for-a-programmer-to-have-an-online-presence)
+* [How to Build Your Digital Presence as a Software Developer](https://blog.pramp.com/how-to-build-your-digital-presence-as-a-software-developer-cb61c4c1aab)
 
 ### Get Out in the Community and Collect Information
 
