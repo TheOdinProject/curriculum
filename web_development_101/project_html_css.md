@@ -1401,7 +1401,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Jarred Herrington's Solution (Easy)](https://github.com/Herringtonjc/google-homepage) - [View in Browser](https://herringtonjc.github.io/google-homepage/)
 * [Kelvin Man's Solution (Easy)](https://github.com/kelvinman/google-homepage) - [View in Browser](https://kelvinman.github.io/google-homepage/)
 * [Steve Cooke's Solution (Easy)](https://github.com/cook1e20/google-homepage) - [View in Browser](https://cook1e20.github.io/google-homepage/)
-* [Natalie Aldrich's Solution (Difficult)](https://github.com/nataliealdrich/google-homepage/) - [View in Browser] (https://nataliealdrich.github.io/google-homepage/)
+* [Natalie Aldrich's Solution (Difficult)](https://github.com/nataliealdrich/google-homepage/) - [View in Browser](https://nataliealdrich.github.io/google-homepage/)
+* [Hana Klingova's Solution (Easy)](https://github.com/hanny21/google_homepage) - [View in Browser](https://hanny21.github.io/google_homepage/)
 
 ### Additional Resources
 
