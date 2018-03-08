@@ -32,6 +32,9 @@ Also, don't worry about making the comment form work properly... your goal is to
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Agnieszka's solution](https://github.com/elPetit69/mock-youtube) - [View in browser](https://elpetit69.github.io/mock-youtube/) 
+* [Nate Dimock's solution](https://github.com/Flakari/youtube-page) - [View in browser](https://flakari.github.io/youtube-page/)
+* [walnutdust's solution](https://github.com/walnutdust/mock-youtube) - [View in browser](https://walnutdust.github.io/mock-youtube/)
 * [theghall's solution](https://github.com/theghall/odin-youtube.git) - [View in browser](https://theghall.github.io/odin-youtube/)
 * [Josh Archer's solution](https://gitlab.com/odin-project-josh-archer/embedding-images-and-video) - [View in browser](https://www.josharcher.uk/static/projects/odinproject/embeddingimagesvideo/)
 * [Jmooree30's solution](https://github.com/jmooree30/youtube) - [Live](https://jmooree30.github.io/youtube/)
@@ -82,6 +85,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Beth Rathbone's solution](https://github.com/bethrath/youtube-page)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/youtube-video-player) - [View in browser](https://thiswillhavetodo.github.io/youtube-video-player/index.html)
 * [tholymap's solution](https://github.com/tholymap/youtube) - [View in browser](http://htmlpreview.github.io/?https://github.com/tholymap/youtube/blob/master/youtube.html)
+* [Swedina's solution](https://github.com/swedinay/UTub-) - [View in browser](https://swedinay.github.io/UTub-/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

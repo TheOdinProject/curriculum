@@ -29,7 +29,7 @@ Make sure you can answer yes to each of the following once you have finished the
 
 * You can open the developer tools in your browser.
 * You can select a specific html element in your page with dev tools.
-* You can you use developer tools to experiment with the css on specific elements on a web page.
+* You can use developer tools to experiment with the css on specific elements on a web page.
 
 ### Assignment
 

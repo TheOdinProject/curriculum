@@ -47,6 +47,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 ### Links
 
 * [Cracking the Coding Interview](http://www.valleytalk.org/wp-content/uploads/2012/10/CrackCode.pdf) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
+* [Pramp.com](https://www.pramp.com/ref/odin1) allows you to prepare for coding interviews and practice your coding skills with peers.
 * [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
 * [How to Ace Your Technical Interview](http://insights.dice.com/2014/10/12/ace-technical-interview/)
@@ -62,11 +63,13 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
 * [Coding Bat](http://codingbat.com/) has practice questions in Java and Python.
+* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms and data scructures. 
 
 ### Algorithms Training:
 
 * [Udacity course on Algorithms](https://www.udacity.com/course/viewer#!/c-cs215/l-48747095/m-48691609) (asynchronous)
 * [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
+* [Visualgo](https://visualgo.net/) visualizes many common algorithms to help students better understand data structures and algorithms.
 
 ### Architecture:
 
