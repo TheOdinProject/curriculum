@@ -50,7 +50,7 @@ RSpec.describe Project, type: :model do
     end
   end
 
-  describe '#total_number_of_votes' do
+  describe '#total_votes' do
     let(:votes) { [vote_one, vote_two] }
     let(:vote_one) { double('Vote') }
     let(:vote_two) { double('Vote') }
@@ -60,7 +60,7 @@ RSpec.describe Project, type: :model do
     end
 
     it 'returns the number of votes' do
-      expect(subject.total_number_of_votes).to eql(2)
+      expect(subject.total_votes).to eql(2)
     end
   end
 end

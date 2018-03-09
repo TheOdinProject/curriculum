@@ -1,7 +1,11 @@
-$('#project-submission-delete-modal').modal('hide');
+$('#delete-project-modal').remove();
+$('.modal-backdrop').remove();
+$('#project-submission-modal').remove();
 toastr.success('Your submission was deleted', 'Success!');
-$('#new-submission').html("<%= j render 'lessons/add_submission_button' %>");
-$('#project-submission-modal-wrapper')
-  .html("<%= j render 'projects/form_modal', lesson: @lesson, project: @project %>");
-$('#submissions')
-  .html("<%= j render 'lessons/submissions', submissions: @submissions %>");
+
+if ($('#index-submissions').length === 0) {
+  $('#submissions').html("<%= j render 'lessons/recent_submissions', projects: @projects, project: @project, lesson: @lesson %>");
+  $('#project-submission-modal-wrapper').html("<%= j render 'projects/form_modal', lesson: @lesson, project: @project %>");
+} else {
+  $('#index-submissions').html("<%= j render 'lessons/index_submissions', projects: @projects %>");
+}

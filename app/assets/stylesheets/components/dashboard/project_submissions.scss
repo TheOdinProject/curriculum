@@ -4,6 +4,12 @@
   margin-bottom: 100px;
   padding: 60px;
 
+  .project {
+    &--borderless {
+      border: 0;
+    }
+  }
+
   .solutions-heading {
     margin-bottom: 70px;
   }

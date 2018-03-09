@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: $body_fonts;
+  padding-right: 0 !important; // a hacky fix to avoid 15px right padding added when a modal is displayed/hidden
 }
 
 a {
@@ -108,7 +109,8 @@ ul {
 
 [type="text"],
 [type="email"],
-[type="password"] {
+[type="password"],
+textarea {
   background-color: $pale-grey-bg;
   font-family: $body-fonts;
   padding: 0.7rem 1rem 0.7rem 1rem;

@@ -1,0 +1,26 @@
+.project {
+  align-items: center;
+  border-bottom: solid 1px $very-pale-grey;
+  padding: 10px 0;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    background: $white-smoke;
+
+    & .project__report-link {
+      display: inline;
+    }
+  }
+
+  .button_to {
+    display: inline;
+  }
+
+  &__owner-name {
+    color: $text-primary;
+
+    @include media-breakpoint-down(md) {
+      text-align: left;
+    }
+  }
+}

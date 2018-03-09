@@ -19,7 +19,7 @@ class Project < ApplicationRecord
     unliked_by(user)
   end
 
-  def total_number_of_votes
+  def total_votes
     votes_for.count
   end
 end

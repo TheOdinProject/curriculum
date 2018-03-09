@@ -38,15 +38,17 @@ Rails.application.routes.draw do
 
   resources :lessons, only: :show do
     resources :projects, only: %i(index create update destroy) do
-      resources :votes, only: %i(index create)
+      resources :votes, only: %i(create)
       delete 'vote', to: 'votes#destroy'
     end
 
     resources :lesson_completions, only: %i(create), as: 'completions'
-    delete 'lesson_completions/' => 'lesson_completions#destroy', :as => 'lesson_completions'
+    delete 'lesson_completions' => 'lesson_completions#destroy', :as => 'lesson_completions'
   end
 
-   match '/404' => 'errors#not_found', via: [ :get, :post, :patch, :delete ]
+  resources :reports, only: :create
+
+  match '/404' => 'errors#not_found', via: [ :get, :post, :patch, :delete ]
 
   # Explicitly redirect deprecated routes (301)
 

@@ -7,6 +7,7 @@ class ApplicationController < ActionController::Base
   rescue_from CanCan::AccessDenied do
     respond_to do |format|
       format.json { head :forbidden }
+      format.js { head :forbidden }
       format.html do
         redirect_to root_url, alert: 'You are not authorized to do that'
       end

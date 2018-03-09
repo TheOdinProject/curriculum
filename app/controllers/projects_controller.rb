@@ -6,61 +6,59 @@ class ProjectsController < ApplicationController
   authorize_resource only: %i(update destroy)
 
   def index
-    @projects = projects
+    @projects = all_projects.page(params[:page]).per(50)
     @course = CourseDecorator.new(@lesson.course)
+    @user = current_user
+    @project = @projects.where(user_id: current_user.id).first if current_user
   end
 
   def create
     @project = new_project(project_params)
     @project.save
-    set_recent_submissions
+    @projects = latest_projects
   end
 
   def update
     @project.update(project_params)
+    @decorated_project = ProjectDecorator.new(@project)
   end
 
   def destroy
     @project.destroy
-    @project = new_project({})
-    set_recent_submissions
+    @project = new_project
+    @projects = latest_projects
   end
 
   private
 
-  def projects
-    Project
-      .all_submissions(@lesson.id)
-      .page(params[:page])
+  def all_projects
+    Project.all_submissions(@lesson.id).order(updated_at: :desc)
   end
 
-  def set_recent_submissions
-    @submissions = Project
-                   .all_submissions(@lesson.id)
-                   .where.not(user_id: current_user.id)
-                   .limit(10)
+  def new_project(parameters = {})
+    current_user.projects.new(parameters).tap do |project|
+      project.lesson_id = @lesson.id
+    end
+  end
+
+  def latest_projects
+    all_projects.limit(10)
   end
 
   def find_project
     @project = Project.find(params[:id])
   end
 
-  def new_project(params)
-    project = current_user.projects.new(params)
-    project.lesson_id = @lesson.id
-    project
-  end
-
-  def project_params
-    params.require(:project).permit(:repo_url, :live_preview)
+  def find_lesson
+    @lesson = LessonDecorator.new(lesson)
   end
 
   def lesson
     Lesson.friendly.find(params[:lesson_id])
   end
 
-  def find_lesson
-    @lesson = LessonDecorator.new(lesson)
+  def project_params
+    params.require(:project).permit(:repo_url, :live_preview)
   end
 
   def authenticate_request

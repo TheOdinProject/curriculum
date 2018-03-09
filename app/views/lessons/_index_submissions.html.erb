@@ -1,0 +1,9 @@
+<% if projects.any? %>
+  <% projects.each do |project| %>
+    <div id="project-<%= project.id %>">
+      <%= render 'project', project: ProjectDecorator.new(project) %>
+    </div>
+  <% end %>
+<% else %>
+  <h4 class="text-center accent">The project does not have any submissions yet</h4>
+<% end %>

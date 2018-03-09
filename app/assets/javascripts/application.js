@@ -11,6 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require toastr
 //= require validate
 //= require tether
 //= require bootstrap-sprockets

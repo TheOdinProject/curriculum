@@ -29,7 +29,7 @@ class LessonsController < ApplicationController
   end
 
   def user_project
-    Project.where(user_id: current_user.id, lesson_id: @lesson.id).first
+    current_user.projects.where(lesson_id: @lesson.id).first
   end
 
   def new_project
@@ -41,6 +41,9 @@ class LessonsController < ApplicationController
   end
 
   def lesson
-    Lesson.includes(:section, course: [:lessons, sections: [:lessons]]).friendly.find(params[:id])
+    Lesson
+      .includes(:section, course: [:lessons, sections: [:lessons]])
+      .friendly
+      .find(params[:id])
   end
 end

@@ -1,0 +1,45 @@
+.project {
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+
+    @include media-breakpoint-down(sm) {
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    @include media-breakpoint-only(md) {
+      padding: 0;
+    }
+
+    .live-preview-button {
+      margin-left: 10px;
+    }
+  }
+
+  &__button {
+    background: $whitish-grey;
+    border-radius: 3px;
+    box-shadow: none;
+    font-size: 1rem;
+    padding: 18px;
+    width: 160px;
+    height: 60px;
+
+    &:hover, &:focus {
+      color: $white;
+    }
+
+    @include media-breakpoint-down(xs) {
+      padding: 0;
+      width: 150px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 0.8rem;
+    }
+  }
+
+  &__action_buttons {
+    margin-top: 10px;
+  }
+}

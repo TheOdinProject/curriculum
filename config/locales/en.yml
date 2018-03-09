@@ -22,5 +22,7 @@
 en:
   views:
     pagination:
-      last: "Last page &raquo;"
+      previous: "&lsaquo; Previous"
+      first: "&lsaquo; First"
+      last: "Last page &rsaquo;"
       next: "Next page &rsaquo;"

@@ -5,6 +5,10 @@
   padding: 40px 60px;
   position: relative;
 
+  &--shadowless {
+    @include box-shadow(none);
+  }
+
   @include media-breakpoint-down(xs) {
     padding: 30px;
   }

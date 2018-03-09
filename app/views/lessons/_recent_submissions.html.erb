@@ -1,0 +1,25 @@
+<div class="container submissions-container">
+  <div class="row">
+    <div class="col submissions-container__header">
+      <h4 class="submissions-container__title secondary bold">Solutions</h4>
+
+      <% if projects.empty? %>
+        <p class="submissions-container__instructions">This project has no solutions yet, be the first!</p>
+      <% else %>
+        <p class="submissions-container__instructions">
+          Showing the most recent solutions. View the full list of solutions <%= link_to 'here', lesson_projects_path(lesson), class: 'projects-link accent', target: '_blank' %>
+        </p>
+      <% end %>
+    </div>
+  </div>
+
+  <div id="new-submission">
+    <%= render 'lessons/new_submission' if project&.new_record? %>
+  </div>
+
+  <% projects.each do |project| %>
+    <div id="project-<%= project.id %>">
+      <%= render 'projects/project', project: ProjectDecorator.new(project) %>
+    </div>
+  <% end %>
+</div>
