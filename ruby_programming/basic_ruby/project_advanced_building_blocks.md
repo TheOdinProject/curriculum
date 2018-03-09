@@ -21,7 +21,8 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 => [0,2,2,3,4,78]
 ~~~
 
-* Now create a similar method called `#bubble_sort_by` which sorts an array but accepts a block.  The block should take two arguments which represent the two elements currently being compared.  Expect that the block's return will be similar to the spaceship operator you learned about before -- if the result of the block is negative, the element on the left is "smaller" than the element on the right.  `0` means they are equal.  A positive result means the left element is greater.  Use this to sort your array.
+* Now create a similar method called `#bubble_sort_by` which sorts an array by accepting a block. Remember to use yield inside your method definition to accomplish this. The block will have two arguments that represent the two elements of the array that are currently being compared. The block’s return will be similar to the spaceship operator you learned about before: If the result of the block execution is negative, the element on the left is “smaller” than the element on the right. `0` means both elements are equal. A positive result means the left element is greater. Use the block’s return value to sort your array. Test your method with the example below.
+
 
 ~~~ruby
   > bubble_sort_by(["hi","hello","hey"]) do |left,right|
@@ -274,8 +275,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Niko Caron's Solution](https://gist.github.com/ncaron/a36e7aeaeda64b8e63de996c0c012278)
 * [noloman's solution](https://gist.github.com/noloman/d82c03aa0e47016cce9f3d4957aaf9d4)
 * [HSaad's Solution](https://github.com/HSaad/bubble-sort/blob/master/bubble_sort.rb)
+* [MPalhidai's Solution](https://github.com/MPalhidai/Ruby-functions/blob/master/bubble_sort_by.rb)
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/Ruby-functions/blob/master/bubble_sort_by.rb)
-
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
