@@ -388,11 +388,11 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "javascript and rails",
-  title_url: "javascript and rails".parameterize,
+  title: "JavaScript and Rails",
+  title_url: "JavaScript and Rails".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "a real web app needs a back end in order to persist its data and do sensitive operations.  here you'll learn how to handle use ajax to send data requests to your rails back end.  you'll also get a chance to work with external apis like google maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future."
+  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end. You'll also get a chance to work with external APIs like Google Maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future."
 )
 
 @lesson_counter += 1
