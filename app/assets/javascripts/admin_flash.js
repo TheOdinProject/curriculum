@@ -1,17 +1,11 @@
 $(function () {
 
-  $('.admin-flash-message .close').click(function() {
+  $('.admin-flash .close').click(function() {
     var message_id = $(this).data('id');
-    var message_exp = $(this).data('exp');
-    // slide up button's parent div
-    $(this).closest(".admin-flash-message").slideUp("slow");
+    var message_exp = $(this).data('expire');
 
     setAdminFlashCookie(message_id, 'disabled', message_exp);
-
-    // Fire a Google Analytics custom event to identify when people close the flash message
-    _gaq.push(['_trackEvent','admin_flash','close_message','admin_flash',1]);
   });
-
 });
 
 function setAdminFlashCookie(name, value, date) {
