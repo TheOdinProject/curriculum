@@ -60,7 +60,7 @@ Try the following exercises.
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your html file)
 2. Add a sequence of 6 different numbers together.
 3. Print the solution to the following equation: `(4 + 6 + 9) / 77`
-   1. answer should be approximately `0.24765`
+   1. answer should be approximately `0.24675`
 4. Let's use variables!
    1. Type the following at the top of the script tag: `let a = 10`
    2. `console.log(a)` should print `10`
