@@ -1,19 +1,10 @@
 <div class="success-stories gradient">
- <div class="success-stories-title">
+  <div class="success-stories-title">
     <h2 class="bold">Success Stories</h2>
-  </div> <!-- /.success-stories-title -->
-
-  <%
-    success_stories = [
-      { student_name: 'Ben Gray', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'The best free learning resource for code learners. Highly recommend it! Great community as well on Gitter.' },
-      { student_name: 'Michael Weins', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Fantastic learning experience with The Odin Project! Upon completion, I was offered a job at several startups.' },
-      { student_name: 'Kris Tobiki', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Incredible experience throughout the curriculum. I’ve met many new developer friends and collaborated together.' },
-      { student_name: 'Laura Smith', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Love the courses offered and the self-paced learning. I absolutely love the personal dashboard to track progress.' }
-    ]
-  %>
+  </div>
 
   <div class="success-stories-container">
-    <% first_four_success_stories.each_with_index do |story, index| %>
+    <% first_four_success_stories.each do |story| %>
     <div class="success-story">
       <div class="photo"> <%= image_tag "success_stories/#{story.avatar_path_name}" %> </div>
 
@@ -22,10 +13,10 @@
            <p><%= link_to story.student_name, story.social_media_link, class: 'accent' %></p>
 	       </div>
          <p><%= story.story_content.truncate_words(30) %></p>
-      </div> <!-- /.success-content -->
-    </div> <!-- /.success-story -->
+      </div>
+    </div>
     <% end %>
-  </div> <!-- /.success-stories-container -->
+  </div>
 
   <div class="success-stories-read-more">
     <%= link_to 'Read more success stories', success_stories_path, class: 'secondary' %>

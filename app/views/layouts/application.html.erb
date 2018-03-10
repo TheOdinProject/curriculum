@@ -10,7 +10,7 @@
 
     <%= render 'shared/footer' %>
     <%= render 'shared/sidecar' %>
-    <%= yield :scripts %>
+    <%= javascript_include_tag 'application', async: true %>
     <%= render 'shared/ga' %>
   </body>
 </html>
