@@ -118,3 +118,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Steve Cooke's solution](https://github.com/cook1e20/rockPaperScissors) - [View in browser](https://cook1e20.github.io/rockPaperScissors/)
 - [Nicole C's solution](https://github.com/nychinn/js-experiments/tree/master/projects/jankenpon) - [View in browser](https://nychinn.github.io/js-experiments/projects/jankenpon)
 - [Natalie Aldrich's solution](https://github.com/nataliealdrich/rock-paper-scissors) - [View in browser](https://nataliealdrich.github.io/rock-paper-scissors/)
+- [keyur22's console solution](https://github.com/keyur22/Rock-Paper-Scissors-Console-Version-) - [View in browser](https://keyur22.github.io/Rock-Paper-Scissors-Console-Version-/)
+- [keyur22's UI solution](https://github.com/keyur22/Rock-Paper-Scissors-UI-Version-) - [View in browser](https://keyur22.github.io/Rock-Paper-Scissors-UI-Version-/)
