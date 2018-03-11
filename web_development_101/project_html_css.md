@@ -1401,7 +1401,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Kelvin Man's Solution (Easy)](https://github.com/kelvinman/google-homepage) - [View in Browser](https://kelvinman.github.io/google-homepage/)
 * [Steve Cooke's Solution (Easy)](https://github.com/cook1e20/google-homepage) - [View in Browser](https://cook1e20.github.io/google-homepage/)
 * [mojotron's solution(easy & difficult)](https://github.com/mojotron/google-hompage) | [View in browser](https://mojotron.github.io/google-hompage/)
-* [Elena's Solution (Easy)](https://github.com/elena-sam/google-homepage/) - [View in Browser](https://elena-sam.github.io/google-homepage/)
+* [Elena's Solution (Easy + Difficult)](https://github.com/elena-sam/google-homepage/) - [View Easy in Browser](https://elena-sam.github.io/google-homepage/) + [View Difficult in Browser](https://elena-sam.github.io/google-search-results-page/)
 * [Natalie Aldrich's Solution (Difficult)](https://github.com/nataliealdrich/google-homepage/) - [View in Browser](https://nataliealdrich.github.io/google-homepage/)
 * [Hana Klingova's Solution (Easy)](https://github.com/hanny21/google_homepage) - [View in Browser](https://hanny21.github.io/google_homepage/)
 * [Faris Ibrahim's Solution (Easy)](https://github.com/procusr/google-homepage) - [View in Browser](https://procusr.github.io/google-homepage/)
