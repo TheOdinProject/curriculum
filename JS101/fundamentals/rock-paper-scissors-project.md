@@ -120,3 +120,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Natalie Aldrich's solution](https://github.com/nataliealdrich/rock-paper-scissors) - [View in browser](https://nataliealdrich.github.io/rock-paper-scissors/)
 - [keyur22's console solution](https://github.com/keyur22/Rock-Paper-Scissors-Console-Version-) - [View in browser](https://keyur22.github.io/Rock-Paper-Scissors-Console-Version-/)
 - [keyur22's UI solution](https://github.com/keyur22/Rock-Paper-Scissors-UI-Version-) - [View in browser](https://keyur22.github.io/Rock-Paper-Scissors-UI-Version-/)
+- [Shing Wong's solution](https://github.com/ayoshing/rock-paper-scissor) - [View in browser](ayoshing.github.io/rock-paper-scissor)
