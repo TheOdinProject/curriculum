@@ -10,7 +10,7 @@
 
     <%= render 'shared/footer' %>
     <%= render 'shared/sidecar' %>
+    <%= javascript_include_tag 'application', async: true %>
     <%= render 'shared/ga' %>
-    <%= javascript_include_tag 'application', async: Rails.env.production? %>
   </body>
 </html>
