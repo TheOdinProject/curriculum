@@ -22,9 +22,10 @@ We're making a Tic Tac Toe game you can play in your browser!
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [Jonathan Yiv's solution](https://github.com/JonathanYiv/web-tic-tac-toe) - [View in browser](https://jonathanyiv.github.io/web-tic-tac-toe/)
 - [Rob Hitt's solution](https://github.com/robhitt/tic-tac-toe-js) - [View in browser](https://robhitt.github.io/tic-tac-toe-js/)
 - [walnutdust's solution](https://github.com/walnutdust/tic-tac-toe) - [View in browser](https://walnutdust.github.io/tic-tac-toe/)
 - [Jmoore30's solution](https://github.com/jmooree30/JS-Tic-Tac-Toe) - [View in browser](https://jmooree30.github.io/JS-Tic-Tac-Toe/)
 - [Ezequiel Espinoza's solution](https://github.com/ezeaspie/tictactoe) - [View in browser](https://ezeaspie.github.io/tictactoe/index.html)
-- [codyloyd's solution](https://github.com/codyloyd/plainJS-tic-tac-toe) - [View in browser](http://codyloyd.com/plainJS-tic-tac-toe/) 
-- [Rémy's solution](https://codepen.io/beumsk/pen/ZevLbx) - [View in browser](https://codepen.io/beumsk/full/ZevLbx) 
+- [codyloyd's solution](https://github.com/codyloyd/plainJS-tic-tac-toe) - [View in browser](http://codyloyd.com/plainJS-tic-tac-toe/)
+- [Rémy's solution](https://codepen.io/beumsk/pen/ZevLbx) - [View in browser](https://codepen.io/beumsk/full/ZevLbx)
