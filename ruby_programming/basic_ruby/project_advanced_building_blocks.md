@@ -287,6 +287,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 
 1. Create a script file to house your methods and run it in IRB to test them later.
 2. Add your new methods onto the existing Enumerable module.  Ruby makes this easy for you because any class or module can be added to without trouble ... just do something like:
+
 ~~~ruby
   module Enumerable
     def my_each
