@@ -16,7 +16,7 @@ After completing this tutorial, you will be able to:
 
 <div class="note">
 <p>This tutorial is open source. If you notice errors, typos, or have questions/suggestions,
-  please <a href="https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/tutorial_event_manager.md">submit them to the project on GitHub</a>.</p>
+  please <a href="https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/intermediate_ruby/project_event_manager.md">submit them to the project on GitHub</a>.</p>
 </div>
 
 ### What We're Doing in This Tutorial
