@@ -124,3 +124,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Shing Wong's solution](https://github.com/ayoshing/rock-paper-scissor) - [View in browser](ayoshing.github.io/rock-paper-scissor)
 - [Kevin's Solution](https://github.com/super-kebin/rock_paper_scissors)
 - [JohnPiatras' Solution](https://github.com/JohnPiatras/rock-paper-scissors) - [View in browser](johnpiatras.github.io/rock-paper-scissors)
+- [3lux's solution](https://github.com/3lux/rock-paper-scissors) - [View in browser](http://3lux.github.io/rock-paper-scissors)
