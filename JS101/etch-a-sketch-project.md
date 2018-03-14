@@ -99,3 +99,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jonakirke94's solution](https://github.com/jonakirke94/Etch-a-Sketch) - [View in browser](https://jonakirke94.github.io/Etch-a-Sketch/)
 * [Balake's solution](https://github.com/Balake/etch-a-sketch) - [View in browser](https://balake.github.io/etch-a-sketch/)
 * [Lucas Manzano's solution](https://github.com/lucasmfarias1/etch-a-sketch) - [View in browser](https://lucasmfarias1.github.io/etch-a-sketch/)
+* [Shing Wong's solution](https://github.com/ayoshing/etch-a-sketch) - [View in browser](https://ayoshing.github.io/etch-a-sketch/)
