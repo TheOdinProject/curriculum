@@ -1408,6 +1408,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Faris Ibrahim's Solution (Easy)](https://github.com/procusr/google-homepage) - [View in Browser](https://procusr.github.io/google-homepage/)
 * [Giorgi Shengelaia's Solution (Easy)](https://github.com/supuun/Google_Clone) - [View in Browser](https://supuun.github.io/Google_Clone/)
 * [3lux's solution (Easy)](https://github.com/3lux/google-homepage) - [View in browser](https://3lux.github.io/google-homepage/)
+* [Rudi Boshoff's Solution (Easy)}(https://rudiboshoff.github.io/google-homepage/) - [View in browser](https://rudiboshoff.github.io/google-homepage/)
+POST YOUR SOLUTION HERE>
 
 
 ### Additional Resources
