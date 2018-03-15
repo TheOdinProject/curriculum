@@ -126,3 +126,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kevin's Solution](https://github.com/super-kebin/rock_paper_scissors)
 - [JohnPiatras' Solution](https://github.com/JohnPiatras/rock-paper-scissors) - [View in browser](johnpiatras.github.io/rock-paper-scissors)
 - [3lux's solution](https://github.com/3lux/rock-paper-scissors) - [View in browser](http://3lux.github.io/rock-paper-scissors)
+- [Hana Klingova's solution](https://github.com/hanny21/rock_paper_scissors) - [View in browser](https://hanny21.github.io/rock_paper_scissors/)
