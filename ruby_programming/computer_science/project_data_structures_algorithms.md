@@ -23,9 +23,14 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/data_structures_algorithms_project.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Demo318's solution](https://github.com/Demo318/ruby_data_structures_and_algorithms/blob/master/searching_binary_trees/binary_tree.rb)
+* [0zra's solution](https://github.com/0zra/btree)
+* [mtizim's solution](https://github.com/mtizim/odin_projects/blob/master/ruby/binarysearch.rb)
+* [Ben Deltenre's solution](https://github.com/benjdelt/binary_search_trees)
+* [Isil Donmez's solution](https://github.com/isildonmez/data_structures_and_algorithms/blob/master/searching_binary_trees.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/bst.rb)
 * [Jmooree30's solution](https://github.com/jmooree30/Data-structures-and-algorithms-.git)
 * [Andrew's solution](https://github.com/andrewr224/Data-Structures)
@@ -121,6 +126,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Data_Structures)
 * [Jason Dancocks's solution](https://github.com/JasonDancocks/Ruby/blob/master/binarysearchtree/binarysearchtree.rb)
 * [Jamesredux's solution](https://github.com/Jamesredux/binary_tree)
+* [Oliver Curting's solution - with one-line dfs_rec](https://github.com/Curting/searching_binary_trees/blob/master/searching_binary_trees.rb)
+* [HSaad's solution](https://github.com/HSaad/data-structure-algorithms/blob/master/binary_tree.rb)
 
 ### Project 2: Knight's Travails
 
@@ -163,6 +170,10 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [0zra's solution](https://github.com/0zra/knight)
+* [mtizim's solution](https://github.com/mtizim/odin_projects/blob/master/ruby/chessknight.rb)
+* [Ben Deltenre's solution](https://github.com/benjdelt/knights_travails)
+* [Isil Donmez's solution](https://github.com/isildonmez/data_structures_and_algorithms/tree/master/knights_project)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/knight_joint.rb)
 * [Jmooree30's solution](https://github.com/jmooree30/Knights_Travels.git)
 * [Andrew's solution](https://github.com/andrewr224/Knight-s-Travails)
@@ -256,6 +267,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Knights_Travails)
 * [Jonathan Marks' solution](https://github.com/johnjmarks4/knights_travails)
 * [Jamesredux's solution](https://github.com/Jamesredux/knight_moves)
+* [Oliver Curting's solution](https://github.com/Curting/knights_travails)
+* [HSaad's solution](https://github.com/HSaad/data-structure-algorithms/blob/master/knights_travails.rb)
 
 
 ### Additional Resources

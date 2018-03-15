@@ -122,7 +122,7 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
   2. [Quiz #3](http://www.codequizzes.com/ruby/beginner/variable-scope-methods)
   3. [Quiz #4](http://www.codequizzes.com/ruby/beginner/symbols-array-methods-hashes)
   4. [Quiz #6](http://www.codequizzes.com/ruby/beginner/iteration-nested-data-structures)
-  5. Make sure you go back up and look at all the questions from the "Points to Ponder" section. See if you can do most of them without looking back through the text.
+  5. Make sure you go back up and look at all the questions from the "Learning Outcomes" section. See if you can do most of them without looking back through the text.
 </div>
 
 ### Additional Resources

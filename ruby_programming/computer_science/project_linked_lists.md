@@ -63,9 +63,13 @@ A head node is the first node in the list, a tail node is the last node in the l
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/linked_lists_project.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_linked_lists.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [0zra's solution](https://github.com/0zra/linkedlist/blob/master/linkedlist.rb)
+* [Demo318's solution (with extra credit)](https://github.com/Demo318/ruby_linked_lists)
+* [mtizim's solution (with extra credit)](https://github.com/mtizim/odin_projects/blob/master/ruby/linkedlists.rb)
+* [Isil Donmez's solution](https://github.com/isildonmez/linked_lists/blob/master/linked_lists.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/linkedlist.rb)
 * [Jmooree30's solution](https://github.com/jmooree30/Linked-list.git)
 * [Andrew's solution](https://github.com/andrewr224/Linked-Lists)
@@ -138,3 +142,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Jason Dancocks' solution](https://github.com/JasonDancocks/Ruby/tree/master/linkedlists)
 * [Anistor86's solution](https://github.com/anistor86/linked_list)
 * [James Redux's solution](https://github.com/Jamesredux/linked_list)
+* [Oliver Curting's solution (with extra credit)](https://github.com/Curting/linked_lists)
+* [Alex's solution](https://github.com/alexcorremans/linked_list)
+* [HSaad's solution](https://github.com/HSaad/linked-lists)

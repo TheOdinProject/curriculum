@@ -1,5 +1,17 @@
 [View the Conversation](https://github.com/TheOdinProject/ruby_course/issues/7)
 
+## Goals for this course
+
+When a student finishes this course they should:
+* Know the basics of programming and how to solve problems programatically
+* Be competent with Ruby as a language and specific features to it ie enumerables
+* Have a exellent grasp of OOP and testing
+* Know about Files and serialisation and how to work with them
+* Know how to model software with OOP and know the best practices with general software and OOP design
+
+---
+# Propsed Syllabus
+
 ## Section: Programming Fundamentals
 
 * Lesson: Primitive Data Types
@@ -50,8 +62,7 @@
 
 * Lesson: Why TDD?
     - The philosophy behind TDD and its process
-* Lesson: Introduction to RSpec
-    - Install Rspec and its basic syntax
+* Lesson: [Introduction to RSpec](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/test_driven_development/rspec_introduction_lesson.md)
 * Lesson: Structuring your tests
     - How to use describe and context in your tests
 * Lesson: Mocks, stubs and spies

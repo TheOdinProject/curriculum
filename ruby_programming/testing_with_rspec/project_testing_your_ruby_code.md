@@ -7,19 +7,20 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Go back to the [Building Blocks Project](/ruby-programming/building-blocks) and write tests for your "Caesar's Cipher" code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
-  1. Go back to the [Advanced Building Blocks Project](/ruby-programming/advanced-building-blocks) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.
-  2. Write tests for your [Tic Tac Toe project](/ruby-programming/oop).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make the tests determine victory or loss conditions are correctly assessed.
+  1. Go back to the [Building Blocks Project](/courses/ruby-programming/lessons/building-blocks) and write tests for your "Caesar's Cipher" code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
+  1. Go back to the [Advanced Building Blocks Project](/courses/ruby-programming/lessons/advanced-building-blocks) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.
+  2. Write tests for your [Tic Tac Toe project](/courses/ruby-programming/lessons/oop).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make the tests determine victory or loss conditions are correctly assessed.
       1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game-over` method (or its equivalent) should trigger.
       2. Test each of your critical methods to make sure they function properly and handle edge cases.
       3. Try using mocks/doubles to isolate methods and make sure that they're sending back the right outputs.
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/testing_with_rspec/testing_project.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/testing_with_rspec/project_testing_your_ruby_code.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 
 * Add your solution below this line!
+* Isil Donmez's solutions: [Caesar's Cipher](https://github.com/isildonmez/Caesar-Cipher/blob/master/caesar_spec.rb), [Enumerable Methods](https://github.com/isildonmez/advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods_spec.rb), [Tic-Tac-Toe](https://github.com/isildonmez/OOP/blob/master/tic_tac_toe/tic_tac_toe_spec.rb)
 * Bruno Parga's solutions: [Caesar's Cipher](https://github.com/brunoparga/odinproject/tree/master/Ruby/caesar), [Enumerable Methods](https://github.com/brunoparga/odinproject/tree/master/Ruby/my_enums), [Tic-Tac-Toe](https://github.com/brunoparga/odinproject/tree/master/Ruby/tictactoe)
 * Ovsjah Schweinefresser's Solutions: [Caesar Cipher](https://github.com/Ovsjah/testing_ruby/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/Ovsjah/testing_ruby/tree/master/enumerable), [Tic-Tac-Toe](https://github.com/Ovsjah/testing_ruby/tree/master/tic_tac_toe)
 * Jonathan Yiv's Solutions: [Caesar Cipher](https://github.com/JonathanYiv/caesar_cipher), [Enumerable Methods](https://github.com/JonathanYiv/enumerable_methods), [Tic-Tac-Toe](https://github.com/JonathanYiv/tic-tac-toe/)
@@ -76,7 +77,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * Luján Fernaud's solution ([Caesar Cipher](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/lujanfernaud/ruby-tic-tac-toe))
 * Cody Buffaloe's solutions ([Caesar Cipher](https://github.com/CodyLBuffaloe/caesar_cipher), [Enumerable Methods](https://github.com/CodyLBuffaloe/enumerable_methods), [Tic Tac Toe](https://github.com/CodyLBuffaloe/tic_tac_toe))
 * Anistor86's solutions ([Caesar Cipher](https://github.com/anistor86/caesar_cipher_with_specs), [Enumerable Methods](https://github.com/anistor86/enumerable_with_specs), [Tic Tac Toe](https://github.com/anistor86/tic_tac_toe))
-
+* Jamesredux's solutions ([Caesar Cipher](https://github.com/Jamesredux/rb_blocks/tree/master/ceasar_cipher), [Enumerable Methods](https://github.com/Jamesredux/rb_blocks/tree/master/enumerable), [Tic Tac Toe](https://github.com/Jamesredux/rb_blocks/tree/master/oop/tictac))
 
 ### Project: TDD Connect Four
 
@@ -98,6 +99,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Isil Donmez's solution](https://github.com/isildonmez/connect4)
 * [Jmooree30's solution](https://github.com/jmooree30/rspec_connect4.git)
 * [Andrew's solution](https://github.com/andrewr224/Connect-Four)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/testing_ruby/tree/master/connect_four)
@@ -169,6 +171,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Connect-Four)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-connect-four)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Connect_Four)
+* [Jamesredux's solution](https://github.com/Jamesredux/connect4)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

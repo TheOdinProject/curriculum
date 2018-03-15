@@ -2,7 +2,7 @@
 
 Chess is a classic game that appears very complicated at first but can be broken down into logical steps that make it a great Ruby capstone project.  If you've never played, be sure to read up on the rules (see the [Wikipedia Page](http://en.wikipedia.org/wiki/Chess)) first.
 
-The problem specification is deliberately sparse for this, your final project of Ruby -- it's up to you to attack the problem with very little prior information or structure, which is good practice for real world programming challenges.  You have all the tools you need.  You already did a lot of the heavy thinking in the [Knight's Travails project](/ruby-programming/data-structures-and-algorithms).
+The problem specification is deliberately sparse for this, your final project of Ruby -- it's up to you to attack the problem with very little prior information or structure, which is good practice for real world programming challenges.  You have all the tools you need.  You already did a lot of the heavy thinking in the [Knight's Travails project](https://www.theodinproject.com/courses/ruby-programming/lessons/data-structures-and-algorithms).
 
 The main difference is that this problem has the broadest scope of anything you've done yet.  The keys here will be thinking it through logically ahead of time and maintaining a disciplined workflow.  It'll be much easier on you if you're able to stay organized and break it down into components that you can tackle one by one.
 
@@ -21,9 +21,10 @@ This is a great project to have as a part of your portfolio going forward becaus
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/conclusion/final_project.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/conclusion/project_ruby_final.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/ruby_final_project)
 * [Andrew's solution](https://github.com/andrewr224/chess)
 * [Jmooree30's Solution](https://github.com/jmooree30/Chess.git)
 * [Phil's Solution(javascript)](https://github.com/pip36/j_chess) - [View in Browser](https://pip36.github.io/j_chess)
@@ -82,6 +83,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/chess_game)
 * [Bruno Parga's solution](https://github.com/brunoparga/chess)
 * [Kusnierewicz solution](https://github.com/Kusnierewicz/Chess-game)
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Chess)
+* [Matthew King's solution](https://github.com/thewmking/ruby-chess)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

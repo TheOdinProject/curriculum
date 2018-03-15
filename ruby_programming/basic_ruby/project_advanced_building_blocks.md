@@ -4,7 +4,7 @@ Sorting algorithms are some of the earliest that you typically get exposed to in
 
 One of the simpler (but more processor-intensive) ways of sorting a group of items in an array is **bubble sort**, where each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right.  This continues until the array is eventually sorted.
 
-Check out [this video from Harvard's CS50x on Bubble Sort](http://cs50.tv/2012/fall/shorts/bubble_sort/bubble_sort-720p.mp4).
+Check out [this video from Harvard's CS50x on Bubble Sort](https://www.youtube.com/watch?v=8Kp-8OGwphY).
 
 There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki/Bubble_sort) that's worth taking a look at.
 
@@ -13,6 +13,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 * Build a method `#bubble_sort` that takes an array and returns a sorted array.  It must use the bubble sort methodology (using `#sort` would be pretty pointless, wouldn't it?).
 
 ~~~ruby
@@ -20,7 +21,8 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 => [0,2,2,3,4,78]
 ~~~
 
-* Now create a similar method called `#bubble_sort_by` which sorts an array but accepts a block.  The block should take two arguments which represent the two elements currently being compared.  Expect that the block's return will be similar to the spaceship operator you learned about before -- if the result of the block is negative, the element on the left is "smaller" than the element on the right.  `0` means they are equal.  A positive result means the left element is greater.  Use this to sort your array.
+* Now create a similar method called `#bubble_sort_by` which sorts an array by accepting a block. Remember to use yield inside your method definition to accomplish this. The block will have two arguments that represent the two elements of the array that are currently being compared. The block’s return will be similar to the spaceship operator you learned about before: If the result of the block execution is negative, the element on the left is “smaller” than the element on the right. `0` means both elements are equal. A positive result means the left element is greater. Use the block’s return value to sort your array. Test your method with the example below.
+
 
 ~~~ruby
   > bubble_sort_by(["hi","hello","hey"]) do |left,right|
@@ -31,10 +33,21 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/basic_ruby/advanced_building_blocks_project.md) on the ruby course github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/basic_ruby/project_advanced_building_blocks.md) on the ruby course github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 
 * Add your solution below this line!
+
+* [Ryan's Solution](https://github.com/ryanford-frontend/ruby-adv-building-blocks/tree/master/ruby-bubblesort)
+* [Sherman Bowling's Solution](https://github.com/janus0/top_course_work/blob/master/ruby/ruby_advanced_building_blocks/bubble_sort_block.rb)
+* [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/bubble_sort.rb)
+* [Samuel Masters' Soultion](https://github.com/redeyetuning/rb_adv_bldg_blks/blob/master/bubble_sort.rb)
+* [Marijunjnja's Solution](https://github.com/Marijunjnja/Odin-Project/blob/master/advanced_ruby_building_blocks/bubble_sort.rb)
+* [Kevin Wahome's Solution](https://github.com/talihomz/ruby_exercises/blob/master/bubble_sort.rb)
+* [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/bubble_sort.rb)
+* [Sava Vuckovic's solution](https://github.com/SavaVuckovic/ruby_exercises/blob/master/bubble_sort.rb)
+* [MariaTikhonova's solution](https://github.com/MariaTikhonova/odin_ruby/blob/master/bubblesort/bubblesort.rb)
+* [WottatoParrior's solution](https://github.com/WottatoParrior/Ruby-algos/blob/master/bubble_sort.rb)
 * [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/bubblesort.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/bubble.rb)
 * [isildonmez's solution](https://github.com/isildonmez/advanced_building_blocks/blob/master/bubble_sort/bubble_sort.rb)
@@ -258,6 +271,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [HuyAnh's Solution](https://github.com/huyanh10tin/caesar_cipher/blob/master/buble.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/congenial-spoon)
 * [Xuan-Son Trinh's Solution](https://github.com/xuansontrinh/Beginning-With-Ruby/blob/master/bubble_sort.rb)
+* [Kayleigh's Solution](https://github.com/kayleigh114/RubyProjects/blob/master/BubbleSort/BubbleSort.rb)
+* [NJWs Solution](https://obsessivenerds.github.io/bubble_sort/)
+* [Niko Caron's Solution](https://gist.github.com/ncaron/a36e7aeaeda64b8e63de996c0c012278)
+* [noloman's solution](https://gist.github.com/noloman/d82c03aa0e47016cce9f3d4957aaf9d4)
+* [HSaad's Solution](https://github.com/HSaad/bubble-sort/blob/master/bubble_sort.rb)
+* [MPalhidai's Solution](https://github.com/MPalhidai/Ruby-functions/blob/master/bubble_sort_by.rb)
+* [Alvaro Sanchez's Solution](https://github.com/heyalvaro/Ruby-functions/blob/master/bubble_sort_by.rb)
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
@@ -268,6 +288,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 
 1. Create a script file to house your methods and run it in IRB to test them later.
 2. Add your new methods onto the existing Enumerable module.  Ruby makes this easy for you because any class or module can be added to without trouble ... just do something like:
+
 ~~~ruby
   module Enumerable
     def my_each
@@ -275,6 +296,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
     end
   end
 ~~~
+
 3. Create `#my_each`, a method that is identical to `#each` but (obviously) does not use `#each`.  You'll need to remember the `yield` statement.  Make sure it returns the same thing as `#each` as well.
 4. Create `#my_each_with_index` in the same way.
 5. Create `#my_select` in the same way, though you may use `#my_each` in your definition (but not `#each`).
@@ -299,6 +321,12 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Ryan's Solution](https://github.com/ryanford-frontend/ruby-adv-building-blocks/tree/master/ruby-enumerables)
+* [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/enumerable_my_methods.rb)
+* [Sherman Bowling's solution](https://github.com/janus0/top_course_work/blob/master/ruby/ruby_advanced_building_blocks/enumerable_methods.rb)
+* [Javier Machin's solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/my_methods.rb)
+* [Samuel Masters' Soultion](https://github.com/redeyetuning/rb_adv_bldg_blks/blob/master/enumerable_methods.rb)
+* [Marijunjnja's solution](https://github.com/Marijunjnja/Odin-Project/blob/master/advanced_ruby_building_blocks/enumerable_methods.rb)
 * [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/enumerable_methods.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/Ruby/my_enums)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/enumerables.rb)
@@ -502,6 +530,10 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [Alex's Solution](https://github.com/alexcorremans/enumerable)
 * [HuyAnh's Solution](https://github.com/huyanh10tin/caesar_cipher/blob/master/enumerable.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/furry-octo-fiesta)
+* [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/lib)
+* [NJW's Solution](https://obsessivenerds.github.io/enumerable_methods/)
+* [Niko Caron's Solution](https://gist.github.com/ncaron/759e132a0f0e3c16e8b18797a13763d3)
+* [HSaad's Solution](https://github.com/HSaad/enumerable/blob/master/enumerable_methods.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

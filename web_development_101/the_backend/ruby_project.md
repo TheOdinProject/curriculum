@@ -26,7 +26,18 @@ This exercise will involve a lot of figuring things out. There aren't very detai
 Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/web_development_101/the_backend/ruby_project.md) on the ruby course github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
+
 * Add your solution below this line!
+* [Cary Williams's solutions](https://github.com/twilliams1615/ruby/tree/master/TheOdinProject)
+* [Alexander John's solutions](https://github.com/alexander-john/learn_ruby)
+* [Sava Vuckovic's solutions](https://github.com/talihomz/learn_ruby)
+* [Kevin Wahome's Solutions](https://github.com/talihomz/learn_ruby)
+* [Jon Yoo's solutions](https://github.com/jonyoowa/learn_ruby)
+* [Ryafl's solutions](https://github.com/ryafl/learn_ruby)
+* [Javier Machin's solutions](https://github.com/Javier-Machin/learn_ruby/tree/mySolution)
+* [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/learn_ruby)
+* [Samuel Master'solutions](https://github.com/redeyetuning/learn_ruby)
+* [Fabien Kovacic's solutions](https://github.com/Fabious/learn_ruby)
 * [funwithcthulhu's solutions](https://github.com/funwithcthulhu/test-first-ruby_solve_2)
 * [Shawn Young's solutions](https://github.com/ShawnYoung72443/learn_ruby)
 * [Alin Simion's solutions](https://github.com/alinsg/learn_ruby)
@@ -366,8 +377,29 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [NJW's Solution](https://github.com/obsessivenerds/learn_ruby)
 * [Samitha's Solution](https://github.com/samomatik/learn_ruby)
 * [KaczmarekWill's Solution](https://github.com/KaczmarekWill/learn_ruby)
+* [retrazil's solution](https://github.com/retrazil/learn_ruby)
+* [Ppjk1's Solution](https://github.com/ppjk1/learn_ruby)
+* [Franklyn Afeso's Solution](https://github.com/afeso/learn_ruby)
+* [wmunoz's solution](https://github.com/wmunoz/learn_ruby)
+* [Alexander Luna's solution](https://github.com/Mycroft1891/learn_ruby)
+* [Niko Caron's solution](https://github.com/ncaron/learn_ruby)
+* [Jakub Cisowski's solution](https://github.com/arashin1337/learn_ruby)
+* [Tracy Sedgwick's solutions](https://github.com/tracyjs6/Odin_learn_ruby)
+* [CurmudJim's solutions](https://github.com/CurmudJim/learn_ruby)
+* [Josiah's solutions](https://github.com/jdonor/learn_ruby)
+* [Bridget Nyirongo's solution](https://github.com/Bridget12/learn_ruby)
+* [vartanbeno's solution](https://github.com/vartanbeno/learn_ruby)
+* [HSaad's solution](https://github.com/HSaad/learn_ruby)
+* [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/learn_ruby)
+* [Jacob Whitish's solution](https://github.com/jwhitish/learn_ruby)
+* [Gianni's solution](https://github.com/GianniP86/learn_ruby)
+* [Aziz Yakubov's solution](https://github.com/azizyakubov/learn_ruby)
+* [Kate's solution](https://github.com/katekaho/learn_ruby)
+* [Alonso Zamorano's solution](https://github.com/amzamora/learn_ruby)
+* [Encolpius's solution](https://github.com/Encolpius/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [BetterSpecs.org](http://betterspecs.org/) contains detailed best practices for writing your own tests.  Overkill for this assignment, but potentially interesting for the future.
+* [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/49-what-the-format.html) describes the `sprintf` method used in the `06_timer` problem.

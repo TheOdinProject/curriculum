@@ -6,11 +6,11 @@ The Odin Project (also known as TOP), is an open-source community for learning f
 ## Contributing
 We are currently redeveloping this course and would love to have your help. Our goal is to get to this [syllabus](https://github.com/TheOdinProject/ruby_course/blob/master/Syllabus.md) of lessons for the course.
 
-To find out more about how you can contribute please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide).
+To find out more about how you can contribute please read our [contributing guide](https://github.com/TheOdinProject/ruby_course/wiki/Contributing-Guide).
 
 
 # Maintainers for this Course
-* Andy Duss
-* Austin Mason
-* Kevin Mulhern
-* Leo Soaivan
+* [Andy Duss](https://gitter.im/mindovermiles262)
+* [Austin Mason](https://gitter.im/CouchofTomato)
+* [Kevin Mulhern](https://github.com/KevinMulhern)
+* [Leo Soaivan](https://gitter.im/leosoaivan)
