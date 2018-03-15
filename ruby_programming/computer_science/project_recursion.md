@@ -13,7 +13,6 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_recursion.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
-
 * [0zra's solution](https://github.com/0zra/fib)
 * [Demo318's solution](https://github.com/Demo318/ruby_recursion/blob/master/fibs.rb)
 * [mtizim's solution](https://github.com/mtizim/odin_projects/blob/master/ruby/merge_sort.rb)
@@ -170,14 +169,10 @@ The first step is to actually understand what the merge sort algorithm is doing:
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-<<<<<<< HEAD:ruby_programming/computer_science/recursion_project.md
-* [Isil Donmez's solution](https://github.com/isildonmez/recursion/tree/master/merge_sort)
-=======
 * [Demo318's solution](https://github.com/Demo318/ruby_recursion/blob/master/merge_sort.rb)
 * [Jacqueline's solution](https://github.com/jfahmy/Ruby/blob/master/ProjectOdin/merge_sort.rb)
 * [Devon's solution](https://github.com/defitjo/project-recursion/blob/master/merge_sort.rb)
-* [Isil Donmez's solution](https://github.com/isildonmez/recursion/blob/master/merge_sort.rb)
->>>>>>> upstream/master:ruby_programming/computer_science/project_recursion.md
+* [Isil Donmez's solution](https://github.com/isildonmez/recursion/tree/master/merge_sort)
 * [Ben Deltenre's solution](https://github.com/benjdelt/recursion)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/merge_sort.rb)
 * [Andrew's solution](https://github.com/andrewr224/Recursion)
