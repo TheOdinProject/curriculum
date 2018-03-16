@@ -19,6 +19,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
+* [Isil Donmez's Solution](https://github.com/isildonmez/files_and_serialization_projects/tree/master/hangman)
 * [Samuel Masters' Solution](https://github.com/redeyetuning/rb_hangman)
 * [Btreim's solution](https://github.com/btreim/ruby/tree/master/hangman)
 * [Demo318's solution](https://github.com/Demo318/ruby_hangman)
