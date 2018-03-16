@@ -86,6 +86,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/youtube-video-player) - [View in browser](https://thiswillhavetodo.github.io/youtube-video-player/index.html)
 * [tholymap's solution](https://github.com/tholymap/youtube) - [View in browser](http://htmlpreview.github.io/?https://github.com/tholymap/youtube/blob/master/youtube.html)
 * [Swedina's solution](https://github.com/swedinay/UTub-) - [View in browser](https://swedinay.github.io/UTub-/)
+* [DV's solution](https://github.com/dvislearning/odin-yt-clone) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-yt-clone/blob/master/home.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
