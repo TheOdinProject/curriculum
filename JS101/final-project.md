@@ -40,6 +40,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Andrew's Solution](https://github.com/andrewr224/calculator) - [View in Browser](https://andrewr224.github.io/calculator/)
+- [leosoaivan's solution](https://github.com/leosoaivan/js-calculator) - [View in Browser](http://leosoaivan.com/js-calculator/)
+- [Johan Morin's solution](https://github.com/MorrisMalone/Calculator) - [View in Browser](https://morrismalone.github.io/Calculator/)
 - [mandimh's solution](https://github.com/mandimh/calculator) - [View in Browser](https://mandimh.github.io/calculator/)
 - [Alexander John's solution](https://github.com/alexander-john/project-calculator) - [View in Browser](https://alexander-john.github.io/project-calculator/)
 - [Austin Fisher's solutoin](https://github.com/Austin2016/myCalculator-) - [View in Browser](https://austin2016.github.io/myCalculator-)
@@ -79,3 +81,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/project-calculator) - [View in Browser](https://joeeeeeeeeeeeee.github.io/project-calculator/)
 - [Technicolor1's solution](https://github.com/technicolor1/simpleCalculator) - [View in Browser](https://technicolor1.github.io/simpleCalculator/)
 - [Encolpius's solution](https://github.com/Encolpius/calculator) - [View in Browser](https://encolpius.github.io/calculator/)
+- [Lucas Manzano's solution](https://github.com/lucasmfarias1/calculator) - [View in Browser](https://lucasmfarias1.github.io/calculator/)
