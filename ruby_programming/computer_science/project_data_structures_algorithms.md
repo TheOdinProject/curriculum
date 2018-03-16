@@ -30,7 +30,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [0zra's solution](https://github.com/0zra/btree)
 * [mtizim's solution](https://github.com/mtizim/odin_projects/blob/master/ruby/binarysearch.rb)
 * [Ben Deltenre's solution](https://github.com/benjdelt/binary_search_trees)
-* [Isil Donmez's solution](https://github.com/isildonmez/data_structures_and_algorithms/blob/master/searching_binary_trees.rb)
+* [Isil Donmez's solution](https://github.com/isildonmez/data_structures_and_algorithms/tree/master/searching_binary_trees)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/bst.rb)
 * [Jmooree30's solution](https://github.com/jmooree30/Data-structures-and-algorithms-.git)
 * [Andrew's solution](https://github.com/andrewr224/Data-Structures)
