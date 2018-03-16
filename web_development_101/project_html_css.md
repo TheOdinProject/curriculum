@@ -1399,6 +1399,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Tabish Bashir (Easy)](https://github.com/Tabish33/google-homepage) - [View in Browser]( https://tabish33.github.io/google-homepage/ )
 * [chrobertson's Solution (Easy)](https://github.com/chrobertson/google-homepage) - [View in Browser](https://chrobertson.github.io/google-homepage/)
 * [Jarred Herrington's Solution (Easy)](https://github.com/Herringtonjc/google-homepage) - [View in Browser](https://herringtonjc.github.io/google-homepage/)
+* [Jarred Herrington's Solution (Difficult)](https://github.com/Herringtonjc/google-search) - [View in Browser](https://herringtonjc.github.io/google-search/)
 * [Kelvin Man's Solution (Easy)](https://github.com/kelvinman/google-homepage) - [View in Browser](https://kelvinman.github.io/google-homepage/)
 * [Steve Cooke's Solution (Easy)](https://github.com/cook1e20/google-homepage) - [View in Browser](https://cook1e20.github.io/google-homepage/)
 * [mojotron's solution(easy & difficult)](https://github.com/mojotron/google-hompage) | [View in browser](https://mojotron.github.io/google-hompage/)
@@ -1409,7 +1410,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Giorgi Shengelaia's Solution (Easy)](https://github.com/supuun/Google_Clone) - [View in Browser](https://supuun.github.io/Google_Clone/)
 * [3lux's solution (Easy)](https://github.com/3lux/google-homepage) - [View in browser](https://3lux.github.io/google-homepage/)
 * [Rudi Boshoff's Solution (Easy)](https://rudiboshoff.github.io/google-homepage/) - [View in browser](https://rudiboshoff.github.io/google-homepage/)
-
+* [Punnadittr's Solution (Easy + Difficult)](https://github.com/punnadittr/google-homepage/) - [View Easy in Browser](https://punnadittr.github.io/google-homepage/) + [View Difficult in Browser](https://punnadittr.github.io/google-result/)
 
 ### Additional Resources
 
