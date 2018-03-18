@@ -132,3 +132,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Punnadittr's solution](https://github.com/punnadittr/rockpaperscissors) - [View in browser](https://punnadittr.github.io/rockpaperscissors/)
 - [Vlado's solution](https://github.com/Vlado212/Papir_skare_kamen)
 - [Faris Ibrahim's solution](https://github.com/procusr/rock-paper-scissors)
+- [Jarred Herrington's Console Solution](https://github.com/Herringtonjc/rock-paper-scissors) - [View in Browser](https://herringtonjc.github.io/rock-paper-scissors/)
