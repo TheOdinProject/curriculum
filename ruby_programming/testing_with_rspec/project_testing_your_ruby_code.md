@@ -78,6 +78,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * Cody Buffaloe's solutions ([Caesar Cipher](https://github.com/CodyLBuffaloe/caesar_cipher), [Enumerable Methods](https://github.com/CodyLBuffaloe/enumerable_methods), [Tic Tac Toe](https://github.com/CodyLBuffaloe/tic_tac_toe))
 * Anistor86's solutions ([Caesar Cipher](https://github.com/anistor86/caesar_cipher_with_specs), [Enumerable Methods](https://github.com/anistor86/enumerable_with_specs), [Tic Tac Toe](https://github.com/anistor86/tic_tac_toe))
 * Jamesredux's solutions ([Caesar Cipher](https://github.com/Jamesredux/rb_blocks/tree/master/ceasar_cipher), [Enumerable Methods](https://github.com/Jamesredux/rb_blocks/tree/master/enumerable), [Tic Tac Toe](https://github.com/Jamesredux/rb_blocks/tree/master/oop/tictac))
+* HSaad's solutions ([Caesar Cipher](https://github.com/HSaad/ruby-building-blocks/tree/master/ceasar-cipher), [Enumerable Methods](https://github.com/HSaad/enumerable), [Tic Tac Toe](https://github.com/HSaad/tic-tac-toe))
 
 ### Project: TDD Connect Four
 
@@ -172,6 +173,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-connect-four)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Connect_Four)
 * [Jamesredux's solution](https://github.com/Jamesredux/connect4)
+* [HSaad's solution](https://github.com/HSaad/connect-four)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
