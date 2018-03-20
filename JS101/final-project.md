@@ -84,3 +84,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Encolpius's solution](https://github.com/Encolpius/calculator) - [View in Browser](https://encolpius.github.io/calculator/)
 - [Lucas Manzano's solution](https://github.com/lucasmfarias1/calculator) - [View in Browser](https://lucasmfarias1.github.io/calculator/)
 - [3lux's solution](https://github.com/3lux/js-calculator) - [View in Browser](https://3lux.github.io/js-calculator/)
+- [Punnadittr's solution](https://github.com/punnadittr/calculator) - [View in Browser](https://punnadittr.github.io/calculator/)
