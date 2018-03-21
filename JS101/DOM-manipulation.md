@@ -108,7 +108,7 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 <details>
   <summary>How does "bubbling" work?</summary>
   <ul><ul>
-    <li>Bubbling is a form of "event propegation."</li>
+    <li>Bubbling is a form of "event propagation."</li>
     <li>It is an efficient method for firing an event on multiple elements -- starting from the innermost element -- and "bubbling" up to outer elements.</li>
   </ul></ul>
 </details>
