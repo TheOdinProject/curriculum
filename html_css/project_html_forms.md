@@ -17,7 +17,7 @@ The page is very straightforward, so you should be able to clone it even if your
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_html_forms.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * [Jason Ellis's solution](https://github.com/jason-ellis/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/mint-signup/blob/master/index.html)
 * [Mram1000's solution](https://github.com/mram1000/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/mram1000/mint-signup/blob/master/index-mint.html)
