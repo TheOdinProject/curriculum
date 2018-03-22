@@ -170,6 +170,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Demo318's solution](https://github.com/Demo318/ruby_data_structures_and_algorithms/tree/master/knights_travails)
+* [Javier Machin's solution](https://github.com/Javier-Machin/Knight_Travails/blob/master/Knight_travails.rb)
 * [0zra's solution](https://github.com/0zra/knight)
 * [mtizim's solution](https://github.com/mtizim/odin_projects/blob/master/ruby/chessknight.rb)
 * [Ben Deltenre's solution](https://github.com/benjdelt/knights_travails)

@@ -398,6 +398,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Alonso Zamorano's solution](https://github.com/amzamora/learn_ruby)
 * [Encolpius's solution](https://github.com/Encolpius/learn_ruby)
 * [Lucas Manzano's solution](https://github.com/lucasmfarias1/learn_ruby)
+* [Punnadittr's solution](https://github.com/punnadittr/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
