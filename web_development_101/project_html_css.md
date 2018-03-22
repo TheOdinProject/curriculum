@@ -77,7 +77,7 @@ Github allows you to publish web projects directly from a github repository.  Do
 There are a couple of ways to go about doing this, but the simplest is this:
 
 - make sure that the main html file of your project is called `index.html`.  If it is not, you will need to rename it.
-- go to your github repo on the web and click the __Settings__ button
+- go to your online github repository for the specific project eg.`https://github.com/YourName/google-homepage` and click the __Settings__ button for that repository.
 - scroll down until you find the __GitHub Pages__ section
 - change the __Source__ from _none_ to _master branch_ and click Save.
 - it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-gh-username.github.io/your-github-repo-name` (obviously substituting your own details in the link)
@@ -1413,7 +1413,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Faris Ibrahim's Solution (Easy)](https://github.com/procusr/google-homepage) - [View in Browser](https://procusr.github.io/google-homepage/)
 * [Giorgi Shengelaia's Solution (Easy)](https://github.com/supuun/Google_Clone) - [View in Browser](https://supuun.github.io/Google_Clone/)
 * [3lux's solution (Easy)](https://github.com/3lux/google-homepage) - [View in browser](https://3lux.github.io/google-homepage/)
-* [Rudi Boshoff's Solution (Easy)](https://rudiboshoff.github.io/google-homepage/) - [View in browser](https://rudiboshoff.github.io/google-homepage/)
+* [Rudi Boshoff's Solution (Easy)](https://rudiboshoff.github.io/google-homepage/) - [View in browser](https://rudiboshoff.github.io/google-homepage/) - [Rudi Boshoff's Solution (Difficult)](https://github.com/RudiBoshoff/google-search-results) - [View in Browser](https://rudiboshoff.github.io/google-search-results/)
 * [Punnadittr's Solution (Easy + Difficult)](https://github.com/punnadittr/google-homepage/) - [View Easy in Browser](https://punnadittr.github.io/google-homepage/) + [View Difficult in Browser](https://punnadittr.github.io/google-result/)
 * [Nancy's Solution (Easy)](https://github.com/chaudhryna/google-homepage/) - [View in Browser](https://chaudhryna.github.io/google-homepage/)
 * [Torsten Vaivai-Soderberg's Solution (Easy)](https://github.com/torstenvs/google-homepage) - [View in Browser](https://torstenvs.github.io/google-homepage/)
