@@ -30,7 +30,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_media.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/embedding_media)
 * [Vincent's solution](https://github.com/wingyu/youtube_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/youtube_replica/blob/master/index.html)
