@@ -21,7 +21,7 @@ The process will be quite similar to what we've done before.  At this point, you
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_responsive.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/responsive_design) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/responsive_design/index.html)
 * [Leonard Labita's solution](https://github.com/lendoza/OdinProject/tree/master/app) | [View in browser](http://leonardlabita.com/next.html)
