@@ -35,8 +35,14 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 - Add your solution below this line!
+- [Andrew's Solution](https://github.com/andrewr224/library) - [View in Browser](https://andrewr224.github.io/library/)
+- [Rob Hitt's Solution](https://github.com/robhitt/oo-book-list) - [View in Browser](https://robhitt.github.io/oo-book-list/)
+- [Jonathan Yiv's solution](https://github.com/JonathanYiv/library) - [View in Browser](https://jonathanyiv.github.io/library/)
 - [Jmooree30's solution](https://github.com/jmooree30/Library) - [View in browser](https://jmooree30.github.io/Library/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-library) - [View in browser](http://codyloyd.com/odin-library/)
 - [shadowlighter's solution](https://codepen.io/shadowlighter/full/ppNpbm/) - [View in browser](https://codepen.io/shadowlighter/full/ppNpbm/)
 - [ezeaspie's solution](https://github.com/ezeaspie/library-project) - [View in browser](https://ezeaspie.github.io/library-project/index.html)
 - [Joseph's solution](https://github.com/pjosephraj/theodinproject-library) - [View in browser](https://pjosephraj.github.io/theodinproject-library/)
+- [Moiz's solution](https://github.com/MoizHasan/JS-Library) - [View in browser](https://cdn.rawgit.com/MoizHasan/JS-Library/e0874ddd/library.html)
+- [asasmith's solution](https://github.com/asasmith/libraryApp) - [View in browser](https://asasmith.github.io/libraryApp/)
+- [Sumit's Solution](https://codepen.io/DCWorld/pen/NyNvRw) - [View in browser](https://codepen.io/DCWorld/full/NyNvRw/)
