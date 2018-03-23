@@ -1,9 +1,9 @@
-# Floats and Positioning
+### Introduction
 
-A major question all CSS-ers have again and again is "how can I get this stupid element where exactly on the page I want it to go!?!?!".  Usually, the answer lies in using floats and/or position attributes in combination with margins.  You'll need to develop a mental model for what's happening on the page when you float elements and when you use the different positioning types.  
+A major question all CSS-ers have again and again is "how can I get this stupid element where exactly on the page I want it to go!?!?!".  Usually, the answer lies in using floats and/or position attributes in combination with margins.  You'll need to develop a mental model for what's happening on the page when you float elements and when you use the different positioning types.
 Pay particular attention to which element acts as the parent of the element you're messing with -- there are some rules about that which get a bit confusing and can cause hair-pulling frustration.  If you absolutely position an element inside an absolutely positioned element, where does the first element go?
 
-## Points to Ponder
+### Learning Outcomes
 
 * What is the DOM?
 * How do elements get placed in the DOM by default?
@@ -18,20 +18,17 @@ Pay particular attention to which element acts as the parent of the element you'
 * How would you set up a grid of 20x20 boxes on the page using floats?  Using lists?
 * What are negative margins useful for?
 
-## Your Assignment
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. Read [CSS Floats 101 from A List Apart](http://alistapart.com/article/css-floats-101)
 2. Read [CSS Positioning 101 from A List Apart](http://alistapart.com/article/css-positioning-101)
 3. Play around with the [Positioning Tutorial / Widget from BarelyFitz Designs](http://www.barelyfitz.com/screencast/html-training/css/positioning/) to see the differences between different positioning schemes.
+</div>
 
-## Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Absolute Horizontal and Vertical Positioning in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/) is a great resource for when you begin worrying about the finer details of positioning elements.
 * [CSS Float docs](http://www.w3schools.com/css/css_float.asp)
 * [CSS Position docs](http://www.w3schools.com/css/css_positioning.asp)
-
-
-
-
