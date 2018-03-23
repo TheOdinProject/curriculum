@@ -39,6 +39,7 @@ Here are some use cases (abilities you project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/final-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Tarah's Solution](https://github.com/ErraticCreation/web-calculator) - [View in Browser](https://erraticcreation.github.io/web-calculator/)
 - [Andrew's Solution](https://github.com/andrewr224/calculator) - [View in Browser](https://andrewr224.github.io/calculator/)
 - [leosoaivan's solution](https://github.com/leosoaivan/js-calculator) - [View in Browser](http://leosoaivan.com/js-calculator/)
 - [Johan Morin's solution](https://github.com/MorrisMalone/Calculator) - [View in Browser](https://morrismalone.github.io/Calculator/)
