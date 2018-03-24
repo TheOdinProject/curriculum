@@ -22,7 +22,7 @@ Of course, you can't copy every single feature and a lot of the user interface w
 **Congratulations!**
 
 ### Student Solutions
-Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/project_final_js.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
 * [Jack Wong's solution](https://github.com/iamjackslayer/odin-chat) | [View in browser](https://odin-chat.herokuapp.com)
