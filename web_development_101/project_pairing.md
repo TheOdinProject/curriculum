@@ -29,7 +29,8 @@ Enough talk! Let's build!
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
- [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/pomodoro-technique)
+* [Jon Yoo's solution](https://github.com/jonyoowa/pomodoro-clock) - [View in Browser](https://jonyoowa.github.io/pomodoro-clock/)
+* [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/pomodoro-technique)
 * [Nate Dimock's solution](https://github.com/Flakari/pomodoro-clock) - [View in Browser](https://flakari.github.io/pomodoro-clock/)
 * [0zra's solution](https://github.com/0zra/pomodoro) - [View in Browser](https://0zra.github.io/pomodoro/)
 * [iamfranco's solution](https://github.com/iamfranco/the_odin_project/tree/master/pomodoro) - [View in Browser](https://iamfranco.github.io/the_odin_project/pomodoro/)
