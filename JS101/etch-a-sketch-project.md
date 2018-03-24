@@ -95,9 +95,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [bradabayor's solution](https://github.com/bradabayor/etch-a-sketch) - [View in browser](https://bradabayor.github.io/etch-a-sketch)
 * [Encolpius's solution](https://github.com/Encolpius/etch-a-sketch) - [View in browser](http://narrow-activity.surge.sh/)
 * [Ryoma's solution](https://github.com/ryozume/drawing_grids) - [View in browser](https://ryozume.github.io/drawing_grids/)
-<<<<<<< HEAD
 * [Jacob Folley's solution](https://github.com/Jacob-Folley/EtchaSketch) - [View in browser](https://jacob-folley.github.io/EtchaSketch)
-=======
 * [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/etch-a-sketch) - [View in browser](https://joeeeeeeeeeeeee.github.io/etch-a-sketch/)
 * [Aziz Yakubov's solution](https://github.com/azizyakubov/etchasketch) - [View in browser](https://azizyakubov.github.io/etchasketch/)
 * [Uy Binh's solution](https://github.com/uybinh/Etch-a-Sketch) - [View in browser](https://uybinh.github.io/Etch-a-Sketch/)
@@ -108,4 +106,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Shing Wong's solution](https://github.com/ayoshing/etch-a-sketch) - [View in browser](https://ayoshing.github.io/etch-a-sketch/)
 * [Punnadittr's solution](https://github.com/punnadittr/EtchASketch) - [View in browser](https://punnadittr.github.io/EtchASketch/)
 * [Benny's Solution](https://github.com/Deckins) - [View in brower](https://deckins.github.io/Etch-a-Sketch/)
->>>>>>> 9a3e9a1f43973567377e213d3dc82df2e8682ca8
