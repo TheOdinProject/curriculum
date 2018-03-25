@@ -35,6 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
 * [Cary Williams's Solutions](https://github.com/twilliams1615/ruby/blob/master/TheOdinProject/Ruby/CaesarCipher.rb)
 * [Henry Kirya's Solutions](https://github.com/harrika/odin/blob/master/caesar_cypher.rb)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/ruby-caesar-cipher)
@@ -366,6 +367,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
 * [Henry Kirya's Solutions](https://github.com/harrika/odin/blob/master/stock_picker.rb)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/ruby-stock-picker)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/stock_picker.rb)
@@ -681,6 +683,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/ruby-substrings)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/substrings.rb)
 * [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/substrings.rb)
