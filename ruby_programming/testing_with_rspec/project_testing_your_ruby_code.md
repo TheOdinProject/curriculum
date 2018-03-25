@@ -100,7 +100,6 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* [Javier Machin's solution](https://github.com/Javier-Machin/Connect_Four)
 * [Isil Donmez's solution](https://github.com/isildonmez/connect4)
 * [Jmooree30's solution](https://github.com/jmooree30/rspec_connect4.git)
 * [Andrew's solution](https://github.com/andrewr224/Connect-Four)
