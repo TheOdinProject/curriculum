@@ -683,6 +683,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Henry Kirya's Solution](https://github.com/harrika/odin/blob/master/substrings.rb)
 * [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/ruby-substrings)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/substrings.rb)
