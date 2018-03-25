@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ed Magalhaes' solution](https://github.com/EdMagal/RockPaperScissor)
 - [Tarah Nixon's Solution](https://github.com/ErraticCreation/rock-paper-scissors)
 - [seoul2045's console solution](https://github.com/seoul2045/rockpaperscissor/blob/master/rockPaperScissor_console.html) - [UI version](https://seoul2045.github.io/rockpaperscissor/)
-- [Lee Rogers's solution - UI version](https://github.com/eleerogers/RPS) - [View in Browser](https://eleerogers.github.io/RPS/)
+- [Lee Rogers's solution UI version](https://github.com/eleerogers/RPS) - [View in Browser](https://eleerogers.github.io/RPS/)
 - [mthsgrc's Solution](https://github.com/mthsgrc/rockpaperscissors-game) - [View in Browser](https://mthsgrc.github.io/rockpaperscissors-game)
 - [Zachary Coxe's solution](https://github.com/faultde/RPSv1) - [View in Browser](https://faultde.github.io/RPSv1/)
 - [Adrien Pardo's console solution](https://github.com/Shieboo/rock-paper-scissors) - [UI version](https://github.com/Shieboo/rock-paper-scissors-ui)
