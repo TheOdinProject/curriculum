@@ -400,6 +400,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Lucas Manzano's solution](https://github.com/lucasmfarias1/learn_ruby)
 * [Punnadittr's solution](https://github.com/punnadittr/learn_ruby)
 * [Djokole's solution](https://github.com/djokole/learn_ruby)
+* [cartwheeler's solution](https://github.com/cartwheeler/ruby_exercises)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
