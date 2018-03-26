@@ -139,3 +139,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jarred Herrington's Console Solution](https://github.com/Herringtonjc/rock-paper-scissors) - [View in Browser](https://herringtonjc.github.io/rock-paper-scissors/)
 - [Jarred Herrington's UI Solution](https://github.com/Herringtonjc/rock-paper-scissors-ui) - [View in Browser](https://herringtonjc.github.io/rock-paper-scissors-ui/)
 - [mojotron's Solution](https://github.com/mojotron/rock-paper-scissors) - [View in Browser](https://mojotron.github.io/rock-paper-scissors/)
+- [Simon Tharby's UI solution](https://github.com/jinjagit/RockPaperScissors) - [View in Browser](https://jinjagit.github.io/RockPaperScissors/)
