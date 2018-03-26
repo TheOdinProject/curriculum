@@ -212,6 +212,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Aaron's Solution](https://github.com/akaswen/oop_project/tree/master/tic_tac_toe)
 * [HSaad's Solution](https://github.com/HSaad/tic-tac-toe/blob/master/tic_tac_toe.rb)
 
+************************************please add
+*[Scott McKell's Solution](https://github.com/zottwickel/Tic-Tac-Toe.git)
+************************************
+
 
 ### Project 2: Mastermind
 
