@@ -398,6 +398,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/mastermind)
 * [Aaron's solution](https://github.com/akaswen/oop_project/tree/master/mastermind)
 * [HSaad's solution](https://github.com/HSaad/mastermind/blob/master/mastermind.rb)
+* [Scott McKell's solution](https://github.com/zottwickel/Mastermind.git)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
