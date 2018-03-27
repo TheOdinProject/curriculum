@@ -69,7 +69,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Niko Caron's solution](https://github.com/ncaron/pomodoro-clock) - [View in Browser](https://ncaron.github.io/pomodoro-clock/)
 * [Zach Coursey's solution](https://github.com/zcoursey22/pomodoro-clock) - [View in Browser](https://zcoursey22.github.io/pomodoro-clock/)
 * [HSaad's solution](https://github.com/HSaad/pomodoro-clock) - [View in Browser](https://hsaad.github.io/pomodoro-clock/)
-
+* [Punnadittr's solution](https://github.com/punnadittr/pomodoro) - [View in Browser](https://punnadittr.github.io/pomodoro/)
 
 ### Next Steps
 
