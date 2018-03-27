@@ -95,6 +95,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this list
 * [Sean Brady's Solution (Easy)](https://github.com/seanbrady935/google-homepage) - [View in Browser](https://seanbrady935.github.io/google-homepage/)*
+* [Thomas Cantwell's Solution (Easy With Working Search)](https://github.com/Coolspotcreative/google-homepage) - [View in Browser](https://coolspotcreative.github.io/google-homepage/)
 * [Mark Bungeroth's Solution (Easy)](https://github.com/mbungeroth/google-homepage) - [View in Browser](https://mbungeroth.github.io/google-homepage/)
 * [Dave Ross' Solution (Easy)](https://github.com/evadssor/google-homepage) - [View In Browswer](https://evadssor.github.io/google-homepage)
 * [Lucas Monteiro's Solution (Easy)](https://github.com/lucasmonteiro12/google-design-clone) - [View in Browser](https://lucasmonteiro12.github.io/google-design-clone/)
