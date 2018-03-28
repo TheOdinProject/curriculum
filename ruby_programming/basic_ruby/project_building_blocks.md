@@ -344,6 +344,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [HSaad's solution](https://github.com/HSaad/ruby-building-blocks/blob/master/cipher.rb)
 * [Aziz Yakubov's solution](https://github.com/azizyakubov/caesar_cipher)
 * [Djokole's solution](https://github.com/djokole/Ruby_exercies/blob/master/caesar_cipher.rb)
+* [cartwheeler's solution](https://github.com/cartwheeler/ruby_caesar_cipher)
 
 
 ### Project 2: Stock Picker
