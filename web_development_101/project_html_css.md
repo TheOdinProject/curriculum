@@ -94,7 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-* [Ayobami Ayo-Salami's Solution (Easy)](https://cdn.rawgit.com/Bamii/The-Odin-Project-Lesson-Exercises/0cb5363c/01.%20google_project/index.html) - [View in Browser](https://cdn.rawgit.com/Bamii/The-Odin-Project-Lesson-Exercises/0cb5363c/01.%20google_project/index.html)*
+* [Ayobami Ayo-Salami's Solution (Easy)](https://cdn.rawgit.com/Bamii/The-Odin-Project-Lesson-Exercises/0cb5363c/01.%20google_project/index.html) - [View in Browser](https://cdn.rawgit.com/Bamii/The-Odin-Project-Lesson-Exercises/0cb5363c/01.%20google_project/index.html)
+* [Kate Jewett-Willimas's Solution (Easy)](https://github.com/kjdub01/google-homepage/tree/master) - [View In Browser](https://kjdub01.github.io/google-homepage/)
 * [Sean Brady's Solution (Easy)](https://github.com/seanbrady935/google-homepage) - [View in Browser](https://seanbrady935.github.io/google-homepage/)*
 * [Thomas Cantwell's Solution (Easy With Working Search)](https://github.com/Coolspotcreative/google-homepage) - [View in Browser](https://coolspotcreative.github.io/google-homepage/)
 * [Mark Bungeroth's Solution (Easy)](https://github.com/mbungeroth/google-homepage) - [View in Browser](https://mbungeroth.github.io/google-homepage/)
@@ -1423,6 +1424,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Douglasbsx Solution (Easy)](https://github.com/douglasbsx/Google-homepage) - [View in Browser](https://douglasbsx.github.io/Google-homepage/)
 * [Ahmad Javed's Solution (Easy)](https://github.com/ahmad-codes/google-homepage) - [View in Browser](https://ahmad-codes.github.io/google-homepage/)
 * [jstnlester's Solution (Easy)](https://github.com/jstnlester/google-homepage) - [View in Browser](https://jstnlester.github.io/google-homepage/)
+* [Dima Konoval's Solution (Easy)](https://github.com/DimaKonoval/google-homepage) - [View in Browser](https://cdn.rawgit.com/DimaKonoval/google-homepage/57ca1d67/index.html)
 
 ### Additional Resources
 
