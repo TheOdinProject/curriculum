@@ -38,6 +38,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 
+* [Henry Kiry's Solution](https://github.com/harrika/odin/blob/master/bubble_sort.rb)
 * [Ryan's Solution](https://github.com/ryanford-frontend/ruby-adv-building-blocks/tree/master/ruby-bubblesort)
 * [Sherman Bowling's Solution](https://github.com/janus0/top_course_work/blob/master/ruby/ruby_advanced_building_blocks/bubble_sort_block.rb)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/bubble_sort.rb)
