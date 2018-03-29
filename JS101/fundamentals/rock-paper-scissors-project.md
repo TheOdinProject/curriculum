@@ -116,11 +116,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nikhil Patel's Solution](https://github.com/nikhilpatel87/rock-paper-scissors/blob/master/index.html) - [View in browser](https://nikhilpatel87.github.io/rock-paper-scissors/)
 - [Jacob Folley's solution](https://github.com/jacob-folley/rock_paper_scissor) - [View in browser](https://jacob-folley.github.io/rock_paper_scissor/)
 - [Ivan Martinez' Solution](https://github.com/ivanmaru86/rock-paper-scissors)
-<<<<<<< HEAD
-- [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors/blob/master/index.html)
-- [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html)
 - [Jimmy's solution](https://github.com/pty5io/Rock-Paper-Scissors) - [View in browser](https://pty5io.github.io/Rock-Paper-Scissors/)
-=======
 - [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors) - [View in browser](https://zorafins.github.io/rock-paper-scissors)
 - [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html) - [View in browser](https://balake.github.io/rock-paper-scissors/)
 - [Joe Weston's Solution](https://github.com/joeeeeeeeeeeeee/rock-paper-scissors) - [View in browser](https://joeeeeeeeeeeeee.github.io/rock-paper-scissors)
@@ -148,4 +144,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mojotron's Solution](https://github.com/mojotron/rock-paper-scissors) - [View in Browser](https://mojotron.github.io/rock-paper-scissors/)
 - [Matthias' solution](https://github.com/MatthiasStra/Rock_Paper_Scissors)
 - [Gabriel Fendt's solution](https://github.com/fendtg4/Rock-Paper-Scissors) - [View in Browser](https://fendtg4.github.io/Rock-Paper-Scissors/)
->>>>>>> fb41e545c74cc910d391f0f469128d86e5766d5c
