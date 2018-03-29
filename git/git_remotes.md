@@ -1,7 +1,7 @@
 # Git Remotes
-In this lesson, we will cover the `git remote` command and remote repositories. 
+In this lesson, we will cover the `git remote` command and remote repositories.
 
-A remote tells Git where the other versions of a project are stored. These versions are housed in "remote repositories," usually on another person's computer or a server.
+A remote on Git tracks the different versions of a project. The project versions are stored on "remote repositories" such as another person's computer or a server.
 
 Remote repositories are the versions of your project that are not on your local machine. These are typically the repositories that you are pulling code from and pushing code to when you use Git.
 
@@ -33,14 +33,14 @@ Forking is a way for developers to make their own copies of a GitHub repository.
 
 Cloning is Git's way of getting a copy of a project. You'll have to clone a repository before you can make changes to it or see the source code on your own computer. Cloning helps you edit a repository on your local computer without making irreversible changes.
 
-Remember forking is specific to GitHub, and cloning is a feature of Git. 
+Remember forking is specific to GitHub, and cloning is a feature of Git.
 
 ## Assignment
 1. Watch [episode 1.3](https://www.youtube.com/watch?v=_NrSWLQsDL4&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=3) of [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)'s [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) to learn about making forks on GitHub
 2. Watch [episode 1.6](https://youtu.be/yXT1ElMEkW8?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) of [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)'s [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) to understand cloning a remote repository
 
 # Using the git remote Command
-Here, we will discuss using the `git remote` command. First we will learn to add a new remote, then we will see how to view all remotes on a git repository. 
+Here, we will discuss using the `git remote` command. First we will learn to add a new remote, then we will see how to view all remotes on a git repository.
 
 Here are some examples of the `git remote` command in action. Feel free to refer to this section in the future:
 
@@ -86,4 +86,3 @@ On top of that, you'll learn about pull requests. You've probably heard about pu
 
 * [Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) from [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 * [What is version control: centralized vs. DVCS](https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs) from [Atlassian](https://www.atlassian.com/)
-
