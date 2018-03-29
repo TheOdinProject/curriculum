@@ -24,8 +24,10 @@ Lets use what we've learned and take a chance to continue practicing DOM manipul
    1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490).  EZPZ!
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [Rob Hitt's solution](https://github.com/robhitt/restaurant-menu-node-webpack) - [View in browser](https://robhitt.github.io/restaurant-menu-node-webpack)
 - [Jmooree30's solution](https://github.com/jmooree30/restaurant) - [View in browser](https://jmooree30.github.io/restaurant/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-restaurant) - [View in browser](http://codyloyd.com/odin-restaurant/)
+- [rpalo's solution](https://github.com/rpalo/odin-restaurant) - [View in browser](https://assertnotmagic.com/odin-restaurant/)

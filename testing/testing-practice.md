@@ -37,4 +37,5 @@ Write tests for the following functions, and then make the tests pass!
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [Jmooree30's solution](https://github.com/jmooree30/Jest-Tests)
 - [Rhys' solution](https://github.com/105ron/odin-js-test)
