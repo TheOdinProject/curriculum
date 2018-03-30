@@ -107,3 +107,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Shing Wong's solution](https://github.com/ayoshing/etch-a-sketch) - [View in browser](https://ayoshing.github.io/etch-a-sketch/)
 * [Punnadittr's solution](https://github.com/punnadittr/EtchASketch) - [View in browser](https://punnadittr.github.io/EtchASketch/)
 * [Benny's Solution](https://github.com/Deckins) - [View in brower](https://deckins.github.io/Etch-a-Sketch/)
+* [mojotron's Solution](https://github.com/mojotron/etch-a-sketch) - [View in Browser](https://mojotron.github.io/etch-a-sketch/)
