@@ -36,6 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/fundamentals/rock-paper-scissors-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [autumnchris's Solution](https://github.com/autumnchris/rock-paper-scissors) - [View in Browser](https://autumnchris.github.io/rock-paper-scissors)
 - [Nicholas Ewing's Solution](https://github.com/NicholasEwing/rock-paper-scissors)
 - [jstnlester's Solution](https://github.com/jstnlester/rock-paper-scissors) - [View in Browser](https://jstnlester.github.io/rock-paper-scissors/)
 - [Erick Jansen's GUI solution](https://github.com/Ey-Jay/Rock-Paper-Scissors-Game) - [View in browser](https://ey-jay.github.io/Rock-Paper-Scissors-Game/)
@@ -147,4 +148,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Matthias' solution](https://github.com/MatthiasStra/Rock_Paper_Scissors)
 - [Gabriel Fendt's solution](https://github.com/fendtg4/Rock-Paper-Scissors) - [View in Browser](https://fendtg4.github.io/Rock-Paper-Scissors/)
 - [Tony Chidi's solution](https://tn-rock-paper-scissors.herokuapp.com/) - [View in Browser](https://tn-rock-paper-scissors.herokuapp.com/)
-
