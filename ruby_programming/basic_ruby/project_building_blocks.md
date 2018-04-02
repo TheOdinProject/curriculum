@@ -968,3 +968,4 @@ Next, make sure your method can handle multiple words:
 * [HSaad's solution](https://github.com/HSaad/ruby-building-blocks/blob/master/substrings.rb)
 * [Djokole's solution](https://github.com/djokole/Ruby_exercies/blob/master/substring.rb)
 * [Punnadittr's solution](https://github.com/punnadittr/ruby-exercises/blob/master/substrings.rb)
+* [cartwheeler's solution](https://github.com/cartwheeler/ruby_substrings)
