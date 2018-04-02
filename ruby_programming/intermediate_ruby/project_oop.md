@@ -212,6 +212,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Aaron's Solution](https://github.com/akaswen/oop_project/tree/master/tic_tac_toe)
 * [HSaad's Solution](https://github.com/HSaad/tic-tac-toe/blob/master/tic_tac_toe.rb)
 * [Scott McKell's Solution](https://github.com/zottwickel/Tic-Tac-Toe.git)
+* [John Clifford's Solution](https://github.com/JDClifford/ticktacktoe)
 
 
 ### Project 2: Mastermind
@@ -399,6 +400,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Aaron's solution](https://github.com/akaswen/oop_project/tree/master/mastermind)
 * [HSaad's solution](https://github.com/HSaad/mastermind/blob/master/mastermind.rb)
 * [Scott McKell's solution](https://github.com/zottwickel/Mastermind.git)
+* [John Clifford's solution](https://github.com/JDClifford/mastermind)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
