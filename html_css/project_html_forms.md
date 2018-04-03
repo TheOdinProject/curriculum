@@ -20,6 +20,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
+* [Nate Dimock's soulution](https://github.com/Flakari/html-form-project) - [View in browser](https://flakari.github.io/html-form-project/)
+* [walnutdust's solution](https://github.com/walnutdust/mock-intuit) - [View in browser](https://walnutdust.github.io/mock-intuit/)
 * [theghall's solution](https://github.com/theghall/odin-mint) - [Live](https://theghall.github.io/odin-mint/)
 * [Jeremy-D's solution](https://github.com/Jeremy-D/Mint-form) - [Live](https://jeremy-d.github.io/Mint-form/)
 * [Jmooree30's solution](https://github.com/jmooree30/mint-signup-clone) - [Live](https://jmooree30.github.io/mint-signup-clone/)
@@ -77,6 +79,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Beth Rathbone's solution](https://github.com/bethrath/signup-form) - [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/signup-form/blob/master/index.html)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Mint) - [View in browser](https://ncud4bloc.github.io/Mint/)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/mint-signup-form) - [View in browser](https://thiswillhavetodo.github.io/mint-signup-form/)
+* [DV's solution](https://github.com/dvislearning/odin-mint-form-clone) - [View in browser](https://htmlpreview.github.io/?https://github.com/dvislearning/odin-mint-form-clone/blob/master/signup.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

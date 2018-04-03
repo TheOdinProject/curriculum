@@ -33,6 +33,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jason Ellis's solution](https://github.com/jason-ellis/apple-homepage) - [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
 * [Shouvik Roy's solution](https://github.com/royshouvik/applehome) - [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/Apple_Project) - [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
+* [Devon's solution](https://github.com/defitjo/backgrounds-and-gradients) - [View in browser](https://defitjo.github.io/backgrounds-and-gradients/)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectApple) - [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectApple/blob/master/index2.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/apple-project) - [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/apple-project/index.html)
 * [Hailey Foster's solution](https://github.com/hmfoster/apple-backgrounds.git) - [View in browser](http://htmlpreview.github.io/?https://github.com/hmfoster/apple-backgrounds/blob/master/index.html)

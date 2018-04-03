@@ -29,6 +29,7 @@ You'll be creating your own grid-based framework.
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [theghall's solution](https://github.com/theghall/odin-framework) - [View in Browser](https://theghall.github.io/odin-framework/example/index.html)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/flex-grid) - [Test website](https://jonathanyiv.github.io/flex-grid/sample/index.html)
 * [Jmooree's solution](https://github.com/jmooree30/css-grid-framework) - [Test website](https://jmooree30.github.io/css-grid-framework/)
 * [Axel's solution - Sass Framework](https://github.com/afuh/sasso) - [Test website](https://afuh.github.io/sass-framework/)
@@ -39,6 +40,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [David Chapman's solution (minimal)](https://github.com/davidchappy/css-framework) - [View in browser](https://davidchappy.github.io/css-framework/)
 * [Beth Rathbone's solution- Framework](https://github.com/bethrath/12-column-grid) - [Example Site](http://htmlpreview.github.io/?https://github.com/bethrath/lisa-eldridge/blob/master/index.html)
 * [Austin's solution](https://github.com/CouchofTomato/css-framework) - [Example Site](https://couchoftomato.github.io/css-framework/)
+* [Devon's solution](https://github.com/defitjo/grid-based-framework) - [Example Site](https://defitjo.github.io/grid-based-framework/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/My_Frame/) - [View in browser](https://ncud4bloc.github.io/My_Frame/HTML/index.html)
 * [husein ghafari's solution](https://github.com/hosghf/css-grid-framework) - [Example Site](https://htmlpreview.github.io/?https://github.com/hosghf/final-prj/blob/master/index.html)
 

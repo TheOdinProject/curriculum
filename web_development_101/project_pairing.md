@@ -29,6 +29,8 @@ Enough talk! Let's build!
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
+* [Jon Yoo's solution](https://github.com/jonyoowa/pomodoro-clock) - [View in Browser](https://jonyoowa.github.io/pomodoro-clock/)
+* [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/pomodoro-technique)
 * [Nate Dimock's solution](https://github.com/Flakari/pomodoro-clock) - [View in Browser](https://flakari.github.io/pomodoro-clock/)
 * [0zra's solution](https://github.com/0zra/pomodoro) - [View in Browser](https://0zra.github.io/pomodoro/)
 * [iamfranco's solution](https://github.com/iamfranco/the_odin_project/tree/master/pomodoro) - [View in Browser](https://iamfranco.github.io/the_odin_project/pomodoro/)
@@ -65,7 +67,10 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [tonalmasher's solution](https://github.com/tonalmasher/pomodoro-project) - [View in browser](https://tonalmasher.github.io/pomodoro-project/)
 * [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/web-development-101/pomodoro) - [View in Browser](https://mycroft1891.github.io/my-odin-project/web-development-101/pomodoro/index.html)
 * [Niko Caron's solution](https://github.com/ncaron/pomodoro-clock) - [View in Browser](https://ncaron.github.io/pomodoro-clock/)
+* [Zach Coursey's solution](https://github.com/zcoursey22/pomodoro-clock) - [View in Browser](https://zcoursey22.github.io/pomodoro-clock/)
+* [HSaad's solution](https://github.com/HSaad/pomodoro-clock) - [View in Browser](https://hsaad.github.io/pomodoro-clock/)
+* [Punnadittr's solution](https://github.com/punnadittr/pomodoro) - [View in Browser](https://punnadittr.github.io/pomodoro/)
 
 ### Next Steps
 
-Congratulations! You now know how to pair program and have created a real project with that partner. Maybe you got along great, maybe you didn't. If you didn't go back to the [Looking For Pair](https://gitter.im/TheOdinProject/LookingForPairs) room and see if you can find another person to pair with. Either way, we encourage you to keep on pairing for the rest of the lessons and projects in the Odin Project. You will learn more, and produce better code. Not to mention, you will be developing experience in a skill that many employers look for!
+Congratulations! You now know how to pair program and have created a real project with that partner. Maybe you got along great, maybe you didn't. If you didn't, go back to the [Pairing Category](https://forum.theodinproject.com/c/pairs) and see if you can find another person to pair with. Either way, we encourage you to keep on pairing for the rest of the lessons and projects in the Odin Project. You will learn more, and produce better code. Not to mention, you will be developing experience in a skill that many employers look for!
