@@ -149,3 +149,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Gabriel Fendt's solution](https://github.com/fendtg4/Rock-Paper-Scissors) - [View in Browser](https://fendtg4.github.io/Rock-Paper-Scissors/)
 - [Tony Chidi's solution](https://tn-rock-paper-scissors.herokuapp.com/) - [View in Browser](https://tn-rock-paper-scissors.herokuapp.com/)
 - [kwambugu's Solution](https://github.com/kwambugu/rock-paper-scissors) 
+- [mjparker's Console Solution](https://github.com/mjparker/rock-paper-scissors)
