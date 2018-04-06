@@ -16,7 +16,7 @@ After completing this tutorial, you will be able to:
 
 <div class="note">
 <p>This tutorial is open source. If you notice errors, typos, or have questions/suggestions,
-  please <a href="https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/tutorial_event_manager.md">submit them to the project on GitHub</a>.</p>
+  please <a href="https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/intermediate_ruby/project_event_manager.md">submit them to the project on GitHub</a>.</p>
 </div>
 
 ### What We're Doing in This Tutorial
@@ -84,12 +84,11 @@ For this project we are going to use the following sample data:
 * [Small Sample](https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv)
 * [Large Sample](https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees_full.csv)
 
-Download the *[small sample](https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the
-root of `event_manager` directory.
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/ruby_course/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the root of `event_manager` directory.
 
 
 ~~~
-$ curl -o event_attendees.csv https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv
+$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/ruby_course/master/ruby_programming/intermediate_ruby/event_attendees.csv
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  2125  100  2125    0     0   3269      0 --:--:-- --:--:-- --:--:-- 12073
@@ -760,7 +759,7 @@ $ civic_info = Google::Apis::CivicinfoV2::CivicInfoService.new
 $ civic_info.key = 'AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw'
 => "AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw"
 
-$ response = civic_info.representative_info_by_address(address: 80202, levels: 'country', roles: ['legislatorUpperBody', legislatorLowerBody'])
+$ response = civic_info.representative_info_by_address(address: 80202, levels: 'country', roles: ['legislatorUpperBody', 'legislatorLowerBody'])
 => #<Google::Apis::CivicinfoV2::RepresentativeInfoResponse:0x007faf2d9088d0 @divisions={"ocd-division/country:us/state:co"=>#<Google::Apis::CivicinfoV2::GeographicDivision:0x007faf2e55ea80 @name="Colorado", @office_indices=[0]> } > ...continues...
 ~~~
 
@@ -804,7 +803,7 @@ $ ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in `check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ~~~
 
-What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further we see that right before this error the information from Davaid with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common so we have to have a way of dealing with it. Luckly, Ruby makes that easy with their [Exception Class](https://ruby-doc.org/core-2.2.0/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
+What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common so we have to have a way of dealing with it. Luckly, Ruby makes that easy with their [Exception Class](https://ruby-doc.org/core-2.2.0/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
 
 ~~~ruby
 require 'csv'

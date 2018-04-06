@@ -18,6 +18,13 @@ You will be building a simple command line Hangman game where one player plays a
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+
+* [Javier Machin's Solution](https://github.com/Javier-Machin/Hangman)
+* [Isil Donmez's Solution](https://github.com/isildonmez/files_and_serialization_projects/tree/master/hangman)
+* [Samuel Masters' Solution](https://github.com/redeyetuning/rb_hangman)
+* [Btreim's solution](https://github.com/btreim/ruby/tree/master/hangman)
+* [Demo318's solution](https://github.com/Demo318/ruby_hangman)
+* [Jackie Fahmy's solution](https://github.com/jfahmy/Ruby/tree/master/ProjectOdin/hangman)
 * [OthmanAmoudi's solution](https://github.com/OthmanAmoudi/hangman) - [View in Browser](https://repl.it/@theweeknd/hangman)
 * [Omar Moataz's solution](https://github.com/omarmoatazpracticehub/Hangman)
 * [Ben Deltenre's solution](https://github.com/benjdelt/hangman)
@@ -174,6 +181,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Anistor86's solution](https://github.com/anistor86/hangman)
 * [Kusnierewicz solution](https://github.com/Kusnierewicz/Hangman-game)
 * [Alex's solution](https://github.com/alexcorremans/guess_the_word)
+* [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/hangman)
+* [HSaad's solution](https://github.com/HSaad/hangman)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

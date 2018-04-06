@@ -10,11 +10,15 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/recursion_project.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_recursion.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Btreims's solution](https://github.com/btreim/ruby/blob/master/Fibonacci.rb)
+* [0zra's solution](https://github.com/0zra/fib)
+* [Demo318's solution](https://github.com/Demo318/ruby_recursion/blob/master/fibs.rb)
+* [mtizim's solution](https://github.com/mtizim/odin_projects/blob/master/ruby/merge_sort.rb)
 * [Devon's solution](https://github.com/defitjo/project-recursion/blob/master/fibonacci.rb)
-* [Isil Donmez's solution](https://github.com/isildonmez/recursion/blob/master/fibonacci.rb)
+* [Isil Donmez's solution](https://github.com/isildonmez/recursion/tree/master/fibonacci)
 * [Ben Deltenre's solution](https://github.com/benjdelt/recursion)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/fibs.rb)
 * [Andrew's solution](https://github.com/andrewr224/Recursion)
@@ -137,6 +141,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
 * [anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/fibonacci.rb)
 * [Xuan-Son Trinh's solution](https://github.com/xuansontrinh/Beginning-With-Ruby/blob/master/fibbonaci.rb)
+* [Alex's solution](https://github.com/alexcorremans/recursion/blob/master/fibs.rb)
+* [HSaad's solution](https://github.com/HSaad/recursion/blob/master/fibonacci.rb)
 
 ### Project: Merge Sort
 
@@ -164,8 +170,11 @@ The first step is to actually understand what the merge sort algorithm is doing:
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Btreim's solution](https://github.com/btreim/ruby/blob/master/merge_sort.rb)
+* [Demo318's solution](https://github.com/Demo318/ruby_recursion/blob/master/merge_sort.rb)
+* [Jacqueline's solution](https://github.com/jfahmy/Ruby/blob/master/ProjectOdin/merge_sort.rb)
 * [Devon's solution](https://github.com/defitjo/project-recursion/blob/master/merge_sort.rb)
-* [Isil Donmez's solution](https://github.com/isildonmez/recursion/blob/master/merge_sort.rb)
+* [Isil Donmez's solution](https://github.com/isildonmez/recursion/tree/master/merge_sort)
 * [Ben Deltenre's solution](https://github.com/benjdelt/recursion)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/merge_sort.rb)
 * [Andrew's solution](https://github.com/andrewr224/Recursion)
@@ -290,6 +299,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/mergesort.rb)
 * [Austin Norman's solution](https://github.com/austinnormancore/merge_sort/blob/master/merge_sort.rb)
 * [Anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/merge_sort.rb)
+* [Alex's solution](https://github.com/alexcorremans/recursion/blob/master/merge_sort.rb)
+* [HSaad's solution](https://github.com/HSaad/recursion/blob/master/merge_sort.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
