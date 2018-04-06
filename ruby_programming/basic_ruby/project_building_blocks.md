@@ -35,6 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
 * [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
 * [Cary Williams's Solutions](https://github.com/twilliams1615/ruby/blob/master/TheOdinProject/Ruby/CaesarCipher.rb)
 * [Henry Kirya's Solutions](https://github.com/harrika/odin/blob/master/caesar_cypher.rb)
@@ -369,6 +370,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
 * [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
 * [Henry Kirya's Solutions](https://github.com/harrika/odin/blob/master/stock_picker.rb)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/ruby-stock-picker)
