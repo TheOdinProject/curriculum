@@ -38,7 +38,7 @@ function getInnerText(heading) {
 }
 
 function isCommonHeading(heading) {
-  return LESSON_HEADINGS.indexOf(heading) !== -1;
+  return LESSON_HEADINGS.indexOf(heading) !== LESSON_HEADINGS.length - 1;
 }
 
 function getLessonHeadings() {
