@@ -1,23 +1,19 @@
-# Hashes in Ruby
-
+### Introduction
 Now that you know a bit about arrays, it's time to get into the array's supercharged cousin: **the hash**. The short definition is: Ruby hashes are variables that can store collections of data.
 
-Basically like arrays, right?
 
-## Learning Outcomes
+### Learning Outcomes
+*Look through these now and then use them to test yourself after doing the assignment*
 
-By the end of this reading you'll be able to:
+* What's the difference is between hashes and arrays?
+* How can you create a new hash?
+* How can you populate that hash with data?
+* What is the difference between keys and values in a hash?
+* How can you change existing values within a hash?
+* How can you delete existing data from a hash?
+* How can you merge two hashes together?
 
-* Tell what the difference is between hashes and arrays
-* Know how to create a new hash
-* Know how to populate that hash
-* Know the difference between keys and values
-* Change data within a hash
-* Delete data from a hash
-* Iterate through a hash
-* Merge two hashes together
-
-## Creating Hashes
+### Creating Hashes
 
 If an array is like a shelf of bins with numbers in ascending order on it, hashes take the analogy a step further by allowing you to write the labels on the outside of the bins, which lines up more with how people act in the real world.
 
@@ -57,8 +53,6 @@ hash[9]
 hash[:six]
   => 6
 ```
-
-## Manipulating data in a hash
 
 ### Adding data
 
@@ -102,7 +96,7 @@ shoes
 ```
 
 
-## Methods
+### Methods
 
 Hashes respond to just about all the same methods as arrays do, since they're both part of Ruby's *Enumerable* class. Keep an eye out in the next lesson on the Enumerable class for the difference in the way that arrays and hashes handle Enumerable methods -- the `#each` method especially.
 
@@ -131,7 +125,7 @@ Note that the hash getting merged in (in this case, `hash2`), has precedence ove
 
 For a list of methods that work on hashes, check out the [Ruby Docs](http://ruby-doc.org/core-2.1.1/Hash.html).
 
-## Best practices
+### Best practices
 
 In this explanation, we mostly used strings for hash keys, but in the real world, you'll see symbols like `:this_guy` as keys significantly more often. This is predominantly because symbols are a lot better performant than strings in Ruby, but also because they allow for a much cleaner syntax when defining hashes. Behold:
 
@@ -144,12 +138,10 @@ japanese_cars = { honda: "Accord", toyota: "Corolla", nissan: "Altima" }
 
 Notice that the 'hash rocket' and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" }, or you'll get a syntax error.
 
+### Assignment
+Todo
 
-## Exercises
-
-TODO: Make exercises
-
-## Additional resources
+### Additional resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
