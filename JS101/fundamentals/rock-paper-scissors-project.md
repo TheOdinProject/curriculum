@@ -150,3 +150,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tony Chidi's solution](https://tn-rock-paper-scissors.herokuapp.com/) - [View in Browser](https://tn-rock-paper-scissors.herokuapp.com/)
 - [kwambugu's Solution](https://github.com/kwambugu/rock-paper-scissors) 
 - [mjparker's Console Solution](https://github.com/mjparker/rock-paper-scissors)
+- [nith05's solution](https://github.com/nith05/rock-paper-scissors)
