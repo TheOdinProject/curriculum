@@ -1429,7 +1429,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Dima Konoval's Solution (Easy)](https://github.com/DimaKonoval/google-homepage) - [View in Browser](https://cdn.rawgit.com/DimaKonoval/google-homepage/57ca1d67/index.html)
 * [Tony Njokus's Solution (Easy)](https://canjoku.github.io/google-homepage/) - [View in Browser](https://canjoku.github.io/google-homepage/)
 * [Timothy Shortess's Solution (Easy)](http://timmshor.github.io/google-homepage/)
-
+* [Ignacio Troncoso's Solution (Easy)](https://github.com/curlynacho/google-homepage)
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
