@@ -151,3 +151,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kwambugu's Solution](https://github.com/kwambugu/rock-paper-scissors) 
 - [mjparker's Console Solution](https://github.com/mjparker/rock-paper-scissors)
 - [nith05's solution](https://github.com/nith05/rock-paper-scissors)
+- [Pranshu's solutions](https://github.com/pranshugaba/rock_paper_scissors)
