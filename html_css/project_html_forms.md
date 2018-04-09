@@ -20,6 +20,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
+* [Henry Kirya's](https://github.com/harrika/intuit) - [View in browser](https://harrika.github.io/intuit/)
 * [Nate Dimock's soulution](https://github.com/Flakari/html-form-project) - [View in browser](https://flakari.github.io/html-form-project/)
 * [walnutdust's solution](https://github.com/walnutdust/mock-intuit) - [View in browser](https://walnutdust.github.io/mock-intuit/)
 * [theghall's solution](https://github.com/theghall/odin-mint) - [Live](https://theghall.github.io/odin-mint/)
