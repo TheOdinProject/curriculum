@@ -152,3 +152,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mjparker's Console Solution](https://github.com/mjparker/rock-paper-scissors)
 - [nith05's solution](https://github.com/nith05/rock-paper-scissors)
 - [Ross' solution](https://github.com/RossTrang/rock-paper-scissors) - [Play Text version](https://rawgit.com/RossTrang/rock-paper-scissors/master/rps-text.html) - [Play GUI version](https://rawgit.com/RossTrang/rock-paper-scissors/master/rps-gui.html)
+- [Pranshu's solutions](https://github.com/pranshugaba/rock_paper_scissors)
