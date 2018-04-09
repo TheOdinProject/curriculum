@@ -82,6 +82,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/mint-signup-form) - [View in browser](https://thiswillhavetodo.github.io/mint-signup-form/)
 * [DV's solution](https://github.com/dvislearning/odin-mint-form-clone) - [View in browser](https://htmlpreview.github.io/?https://github.com/dvislearning/odin-mint-form-clone/blob/master/signup.html)
 * [Siri's easy solution (Old google version)](https://github.com/Siri-walkaa/google-homepage) - [View in browser](https://htmlpreview.github.io/?https://github.com/Siri-walkaa/google-homepage/blob/master/index.html)
+* [Joe Westons solution](https://github.com/joeeeeeeeeeeeee/project_html_forms) - [View in browser](https://joeeeeeeeeeeeee.github.io/project_html_forms/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
