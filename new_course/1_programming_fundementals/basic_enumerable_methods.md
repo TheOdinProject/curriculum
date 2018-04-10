@@ -5,42 +5,111 @@
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-what the student is expected to know or be able to do by the end of this lesson
+* What are `enumerables`?
 
-* Learning outcome 1
-* Learning outcome 2
-* Learning outcome 3
+* What does the `each` method do?
+* What does the `each_with_index` method do?
+* How are they different?
 
-### The Each Enumerable Method
+* When should you use `do...end` around a code block versus `{...}`?
+
+* What does the `count` method do?
+* What does the `sort` method do?
+
+* Why is there a question mark after some methods?
+* What does the `include?` method do?
+* What does the `any?` method do? The `all?` method? `none?`?
+
+
+* What does the `select` method do?
+* What does the `find` method do?
+* How is the `find_all` method different from `find`?
+
+* What does the `map` method do?
+* What is an alias for the `map` method?
+
+* What does the `reduce` method do?
+* What is an alias for the `reduce` method?
+
+* link to ruby doc for complete list of all enumerable methods
+* Less commonly used methods:
+* `group_by`
+* `grep`
+
+### Enumerable Methods
+*
+*
+
+### The `each` Enumerable Method
 * how it works
 * what its good for
 * code snippets for array and hash
 
-### The Each with Index Enumerable method
+### The `each_with_index` Enumerable method
 * how it works
 * what its good for?
 * code snippet
 
-### The Map Enumerable Method
+### `do` and `end`
+
+### The `count` Enumerable Method
+* how it works
+* what its good for
+* code snippets
+
+### The `sort` Enumerable Method
+* how it works
+* what its good for
+* code snippets
+
+### The `include?` Enumerable Method
+* mention the ? mark
+* how it works
+* what its good for
+* code snippets
+
+### The `any?` Enumerable Method
+* how it works
+* what its good for
+* code snippets
+
+### The `all?` Enumerable Method
+* how it works
+* what its good for
+* code snippets
+
+### The `none?` Enumerable Method
+* how it works
+* what its good for
+* code snippets
+
+### The `select` Enumerable Method
+* how it works
+* what its good for
+* code snippets
+
+### The `find` Enumerable Method
+* how it works
+* what its good for
+* code snippets
+
+### The `find_all` Enumerable Method
+* how it works
+* what its good for
+* code snippets
+
+### The `map` Enumerable Method
 * how it works
 * what its good for
 * code snippets for array
 * collect is an alias
 
-### The Select Enumerable Method
+### The `reduce` Enumerable Method
 * how it works
 * what its good for
-* code snippets
+* code snippets for array
+* collect is an alias
 
-### The All? Enumerable Method
-* how it works
-* what its good for
-* code snippets
-
-### The Any? Enumerable Method
-* how it works
-* what its good for
-* code snippets
 
 ## Exercises
 A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
@@ -49,3 +118,5 @@ A group of exercises (If Applicable) for the student to complete in relation to 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
+
+Link to Ruby docs for all enumerable methods to see that there are many more though they are used less often. Name a few here.
