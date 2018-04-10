@@ -32,5 +32,5 @@ Our full stack curriculum is free and supported by a passionate open source comm
 
   <%= stylesheet_link_tag 'application', media: 'all'%>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300,300italic,400,700' rel='stylesheet' type='text/css'>
-  <%= javascript_include_tag 'application', async: Rails.env.production? %>
+  <%= javascript_include_tag 'application', defer: Rails.env.production? %>
 </head>
