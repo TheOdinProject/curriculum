@@ -62,6 +62,35 @@ my_array.each { |fruit| print fruit, " " }
 #=> apple banana strawberry pineapple
 ```
 
+For hashes, each "item" is a key-value pair. If you call `each` on a hash, the item passed to the code block will be an array of the key and value [key, value].
+
+```ruby
+my_hash = { "one" => 1, "two" => 2, "three" => 3, "four" => 4}
+
+my_hash.each do |item|
+  print item, ""
+end
+```
+```
+#=> ["one", 1]["two", 2]["three", 3]["four", 4]
+```
+
+To allow you to better work with the keys and values, `each` allows you to pass the key and value as separate parameters when used on a hash. If you wanted to print the keys and values in a different format, for instance, you could do the following:
+
+```ruby
+my_hash = { "one" => 1, "two" => 2, "three" => 3, "four" => 4}
+
+my_hash.each do |key, value|
+  print key, ": ", value, "\n"
+end
+```
+```
+#=> one: 1
+    two: 2
+    three: 3
+    four: 4
+```
+
 ### The `each_with_index` Enumerable method
 This is nearly the same as the `each` method, but it provides additional functionality by allowing you to pass two parameters instead of one. The second parameter represents the index of your object, that is the position of the current item within that object.
 
