@@ -1,13 +1,18 @@
-# Basic Enumerable Methods
-* what enumerable methods are
-* some can be used on hashes, others turn a hash into an array
+### Introduction
+
+The Enumerable module is a set of methods which can be included in Ruby classes (like Array and Hash).
+You can even include it in your own classes, which will be covered later on. These methods are handy
+for looping through objects in a collection (most commonly arrays, hashes, and ranges). They provide
+easy ways to perform common actions, and are among the most important tools for Rubyists. Some enumerable methods can be used on hashes just as on arrays, while others are implemented differently depending on
+the type of collection used.
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* What are `enumerables`?
+* What are `enumerable` methods?
 
 * What does the `each` method do?
+* What does `each` return?
 * What does the `each_with_index` method do?
 * How are they different?
 
@@ -26,10 +31,13 @@
 * How is the `find_all` method different from `find`?
 
 * What does the `map` method do?
+* Does `map` modify the calling object?
 * What is an alias for the `map` method?
 
 * What does the `reduce` method do?
 * What is an alias for the `reduce` method?
+
+* How do you check if every item in a hash fulfills a certain criteria?
 
 * link to ruby doc for complete list of all enumerable methods
 * Less commonly used methods:
@@ -37,8 +45,7 @@
 * `grep`
 
 ### Enumerable Methods
-*
-*
+
 
 ### The `each` Enumerable Method
 * how it works
@@ -119,4 +126,5 @@ A group of exercises (If Applicable) for the student to complete in relation to 
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
 
-Link to Ruby docs for all enumerable methods to see that there are many more though they are used less often. Name a few here.
+* There are many more enumerable methods than are covered here (`reject`, `drop`, `uniq`, to name a few) For a full listing, check out the Ruby Docs:
+  [Ruby Docs Enumerable methods](https://ruby-doc.org/core-2.5.0/Enumerable.html)
