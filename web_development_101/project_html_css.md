@@ -1434,7 +1434,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Beau Findlay's Solution (Easy)](https://github.com/bdfin/google-homepage) - [View in Browser](https://bdfin.github.io/google-homepage/)
 * [Lucas Ferreira's Solution (Easy)](https://github.com/LuksVF/google-homepage) - [View in Browser](https://luksvf.github.io/google-homepage/index.html) - [Lucas Ferreira's Solution (Difficult)](https://github.com/LuksVF/google-results) - [View in Browser](https://luksvf.github.io/google-results/index.html)
 * [Molly Kelsey's Solution (Easy)](https://github.com/mkels/google-homepage) - [View in Browser](https://mkels.github.io/google-homepage/)}
-* [Molly Kelsey's Solution (Difficult)](https://github.com/mkels/google-search) - [View in Browser](https://mkels.github.io/google-search)
+* [Molly Kelsey's Solution (Difficult)](https://github.com/mkels/google-search) - [View in Browser](https://mkels.github.io/google-search/)
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
