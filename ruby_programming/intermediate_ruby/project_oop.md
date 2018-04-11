@@ -213,7 +213,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [HSaad's Solution](https://github.com/HSaad/tic-tac-toe/blob/master/tic_tac_toe.rb)
 * [Scott McKell's Solution](https://github.com/zottwickel/Tic-Tac-Toe.git)
 * [John Clifford's Solution](https://github.com/JDClifford/ticktacktoe)
-
+* [Punnadittr's Solution](https://github.com/punnadittr/tictactoe)
 
 ### Project 2: Mastermind
 
