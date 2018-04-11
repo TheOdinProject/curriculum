@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [S. Hall's Solution (Easy)](https://github.com/TravelingMan/google-homepage) - [View in Browser](https://travelingman.github.io/google-homepage/)
 * [Henry Kirya's Solution (Easy)](https://github.com/harrika/google-homepage) - [View in Browser](https://harrika.github.io/google-homepage/)
 * [Sebastian Bade's Solution (Easy)](https://github.com/kunsebastian/google-homepage) - [View in Browser](https://kunsebastian.github.io/google-homepage/)
 * [Ayobami Ayo-Salami's Solution (Easy)](https://cdn.rawgit.com/Bamii/The-Odin-Project-Lesson-Exercises/0cb5363c/01.%20google_project/index.html) - [View in Browser](https://cdn.rawgit.com/Bamii/The-Odin-Project-Lesson-Exercises/0cb5363c/01.%20google_project/index.html)
@@ -1431,6 +1432,9 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Timothy Shortess's Solution (Easy)](http://timmshor.github.io/google-homepage/)
 * [Ignacio Troncoso's Solution (Easy)](https://github.com/curlynacho/google-homepage)
 * [Beau Findlay's Solution (Easy)](https://github.com/bdfin/google-homepage) - [View in Browser](https://bdfin.github.io/google-homepage/)
+* [Lucas Ferreira's Solution (Easy)](https://github.com/LuksVF/google-homepage) - [View in Browser](https://luksvf.github.io/google-homepage/index.html) - [Lucas Ferreira's Solution (Difficult)](https://github.com/LuksVF/google-results) - [View in Browser](https://luksvf.github.io/google-results/index.html)
+* [Molly Kelsey's Solution (Easy)](https://github.com/mkels/google-homepage) - [View in Browser](https://mkels.github.io/google-homepage/)
+* [Molly Kelsey's Solution (Difficult)](https://github.com/mkels/google-search) - [View in Browser](https://mkels.github.io/google-search/)
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
