@@ -27,6 +27,7 @@ Lets use what we've learned and take a chance to continue practicing DOM manipul
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [theghall's solution](https://github.com/theghall/odin-restaurant) - [View in Browser](https://theghall.github.io/odin-restaurant/)
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/restaurant-page) - [View in Browser](https://jonathanyiv.github.io/restaurant-page/)
 - [mindovermiles262's Solution](https://github.com/mindovermiles262/luigisv2) - [View in Browser](https://mindovermiles262.github.io/luigisv2/)
 - [Rob Hitt's solution](https://github.com/robhitt/restaurant-menu-node-webpack) - [View in browser](https://robhitt.github.io/restaurant-menu-node-webpack)
