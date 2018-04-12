@@ -43,7 +43,7 @@ the type of collection used.
 ### Enumerable Methods
 
 
-### The `each` Enumerable Method
+### The `each` method
 `each` is the most basic and flexible of the enumerable methods.
 
 Calling the `each` method on an iterable object will loop through each item in that object and perform a task, which you define in a code block that you state after calling `each`.  This is called passing a block to the method, which is similar to passing a variable.
@@ -91,7 +91,7 @@ end
     four: 4
 ```
 
-### The `each_with_index` Enumerable method
+### The `each_with_index` method
 This is nearly the same as the `each` method, but it provides additional functionality by allowing you to pass two parameters instead of one. The second parameter represents the index of your object, that is the position of the current item within that object.
 
 This allows you to do things that are a bit more complex.
@@ -128,59 +128,127 @@ my_array.each_with_index do |fruit, index|
 end
 ```
 
-### The `count` Enumerable Method
-* how it works
-* what its good for
-* code snippets
+### The `count` method
+This method returns an integer representing the number of items within the calling object that meet
+the condition(s) set forth in the block that you pass. Like `each`, this method takes a block with
+one parameter (or two - key and value - when called on a hash).
 
-### The `sort` Enumerable Method
-* how it works
-* what its good for
-* code snippets
+For example, we may want to know how many words in our array have more than 6 letters. To find
+that out, we can use the `count` method.
 
-### The `include?` Enumerable Method
+```ruby
+my_array = ["apple", "banana", "strawberry", "pineapple"]
+
+my_array.count { |fruit| fruit.length > 6 }
+```
+```
+#=> 2
+```
+
+Alternatively, what if we want to know how many keys in our hash are symbols?
+
+```ruby
+my_hash = { "one" => 1, "two" => 2, "three" => 3, four: 4 }
+
+my_hash.count { |key, value| key.is_a?(Symbol) }
+```
+```
+#=> 1
+```
+
+### The `sort` method
+`sort` is a method that can operate with or without a block being passed to it. By default, it sorts
+numbers ascending, and strings alphabetically. However, it can also accept a block that
+tells it to sort according to any rules you would like. This can take some practice, but
+is a powerful tool.
+
+When you pass a block to `sort`, you must pass two parameters, which are the items being compared
+at a given time. The key is to make the block you pass return a -1 if the order of the items should be swapped
+and return 1 if they should not be swapped. (Technically, it should return 0 if they are equal, but this will  rarely actually be necessary.) This is best understood through examples.
+
+In this first example, we want to sort our array of fruits by ascending order of their last letters.
+
+```ruby
+my_array = ["apple", "banana", "strawberry", "pineapple"]
+
+my_array.sort do |first, second|
+  if first[-1] > second[-1]
+    1
+  else
+    -1
+  end
+end
+```
+```
+#=> ["banana", "apple", "pineapple", "strawberry"]
+```
+
+A handy operator is available for this: `<=>`, which is called the 'spaceship' operator.
+It is used between two objects and returns one of three values: 1 if the first object is
+greater, 0 if they are equal, and -1 if the first object is less than the second.
+
+Our example above could be re-written as:
+
+```ruby
+my_array.sort { |first, second| first[-1] <=> second[-1] }
+```
+```
+#=> ["banana", "apple", "pineapple", "strawberry"]
+```
+
+And, if we wanted to sort our strings in descending order, we could do write the following
+(just swapping the order of the arguments):
+
+```ruby
+my_array.sort { |first, second| second <=> first }
+```
+```
+#=> ["strawberry", "pineapple", "banana", "apple"]
+```
+
+### The `include?` method
 * mention the ? mark
 * how it works
 * what its good for
 * code snippets
 
-### The `any?` Enumerable Method
+### The `any?` method
 * how it works
 * what its good for
 * code snippets
 
-### The `all?` Enumerable Method
+### The `all?` method
 * how it works
 * what its good for
 * code snippets
 
-### The `none?` Enumerable Method
+### The `none?` method
 * how it works
 * what its good for
 * code snippets
 
-### The `select` Enumerable Method
+### The `select` method
 * how it works
 * what its good for
 * code snippets
 
-### The `find` Enumerable Method
+### The `find` method
 * how it works
 * what its good for
 * code snippets
 
-### The `find_all` Enumerable Method
+### The `find_all` method
 * how it works
 * what its good for
 * code snippets
 
-### The `map` Enumerable Method
+### The `map` method
 * how it works
 * what its good for
 * code snippets for array
 * collect is an alias
 
-### The `reduce` Enumerable Method
+### The `reduce` method
 * how it works
 * what its good for
 * code snippets for array
