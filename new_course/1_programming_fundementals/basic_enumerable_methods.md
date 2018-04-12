@@ -56,8 +56,6 @@ Simple example of a good use for `each`: Say we want to print every word in an a
 my_array = ["apple", "banana", "strawberry", "pineapple"]
 
 my_array.each { |fruit| print fruit, " " }
-```
-```
 #=> apple banana strawberry pineapple
 ```
 
@@ -69,8 +67,6 @@ my_hash = { "one" => 1, "two" => 2, "three" => 3, "four" => 4}
 my_hash.each do |item|
   print item, ""
 end
-```
-```
 #=> ["one", 1]["two", 2]["three", 3]["four", 4]
 ```
 
@@ -82,12 +78,10 @@ my_hash = { "one" => 1, "two" => 2, "three" => 3, "four" => 4}
 my_hash.each do |key, value|
   print key, ": ", value, "\n"
 end
-```
-```
 #=> one: 1
-    two: 2
-    three: 3
-    four: 4
+#   two: 2
+#   three: 3
+#   four: 4
 ```
 
 
@@ -102,8 +96,6 @@ If we take the above example, but instead we want to only print every other word
 my_array = ["apple", "banana", "strawberry", "pineapple"]
 
 my_array.each_with_index { |fruit, index| print fruit, " " if index % 2 == 0 }
-```
-```
 #=> apple strawberry
 ```
 
@@ -142,8 +134,6 @@ that out, we can use the `count` method.
 my_array = ["apple", "banana", "strawberry", "pineapple"]
 
 my_array.count { |fruit| fruit.length > 6 }
-```
-```
 #=> 2
 ```
 
@@ -153,8 +143,6 @@ Alternatively, what if we want to know how many keys in our hash are symbols?
 my_hash = { "one" => 1, "two" => 2, "three" => 3, four: 4 }
 
 my_hash.count { |key, value| key.is_a?(Symbol) }
-```
-```
 #=> 1
 ```
 
@@ -176,8 +164,6 @@ my_array.sort do |first, second|
     -1
   end
 end
-```
-```
 #=> ["banana", "apple", "pineapple", "strawberry"]
 ```
 
@@ -188,8 +174,6 @@ Our example above could be re-written as:
 
 ```ruby
 my_array.sort { |first, second| first[-1] <=> second[-1] }
-```
-```
 #=> ["banana", "apple", "pineapple", "strawberry"]
 ```
 
@@ -198,8 +182,6 @@ And, if we wanted to sort our strings in descending order, we could do write the
 
 ```ruby
 my_array.sort { |first, second| second <=> first }
-```
-```
 #=> ["strawberry", "pineapple", "banana", "apple"]
 ```
 
@@ -209,7 +191,7 @@ my_array.sort { |first, second| second <=> first }
 You may have noticed this method has a `?` mark in the name, which seems out of place. But Ruby actually uses this naming convention for any method that strictly returns a Boolean, that is either `true` or `false`.
 
 The `include?` method works exactly like you think it should.
-For example, if we are wanting to determine if a particular element exists in say, an array, we can use the `include?` method, and it will spit out a `true` or a `false`, if that element is present or not.
+For example, if we are wanting to determine if a particular element exists in an array, we can use the `include?` method, and it will spit out `true` if that element is present or `false` if it is not.
 
 You call the method on the array and pass it the element you are looking for like so:
 
@@ -254,7 +236,7 @@ my_array.all? { |word| word.length > 6 }
 #=> false
 ```
 
-(Special note, `all?` will always return `true` unless an item fails to meet the condition. So if you call it on an empty array, there are no items to fail, therefore it will return `true` )
+(Special note, `all?` will always return `true` unless an item fails to meet the condition. So if you call it on an empty array, there are no items to fail, and it will return `true` )
 
 
 ### The `none?` method
@@ -262,8 +244,6 @@ my_array.all? { |word| word.length > 6 }
 As you might expect `none?` performs the opposite function as `all?`:
 
 ```ruby
-my_array = ["apple", "banana", "strawberry", "pineapple"]
-
 my_array.none? { |word| word.length < 4 }
 #=> true
 ```
@@ -282,22 +262,62 @@ my_array.select { |word| word.length > 5 && word.length < 10 }
 
 
 ### The `find` method
-* how it works
-* what its good for
-* code snippets
+The `find` method is similar to `select`, except it returns only the first item which meets the given criteria. If no such item exists, it returns `nil`. Using the same example as above:
 
-### The `find_all` method
-* how it works
-* what its good for
-* code snippets
+```ruby
+my_array.find { |word| word.length > 5 && word.length < 10 }
+#=> "banana"
+```
+
+`find` is useful if you want to be able to use the results in somewhat advanced conditional logic, since `nil` is falsy while any object returned (other than `false`) would be truthy. Don't worry if you can't quite follow it, but an example would be:
+
+```ruby
+word = my_array.find { |word| word.length > 9 && word.length < 10 }
+if word
+  puts word
+else
+  puts "No object found"
+end
+#=> No object found
+```
+
 
 ### The `map` method
-* how it works
-* what its good for
-* code snippets for array
-* collect is an alias
+`map` is used to transform each item from the object it is called on and place them into a new object. How the items are transformed is defined by the block you pass to it. `map` may seem confusing at first, but it is extremely useful. Seeing several examples and use cases will help you understand how and when you can use it. You will probably also run into `collect`, which is simply an alias for `map` (same function, different name).
+
+To get the first 100 square numbers, we can simply call `map` on the range of numbers from 1 to 100, like so:
+
+```ruby
+my_squares = (1..20).map { |x| x**2 }
+#=> [1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]
+```
+
+```ruby
+my_strings = ["One", "Two", "Three", "Four"]
+my_emphatic_strings = my_strings.map { |s| s + "!" }
+#=> ["One!", "Two!", "Three!", "Four!"]
+```
 
 ### The `reduce` method
+`reduce` (alias: `inject`) is possibly the most difficult-to-grasp common method for new coders. The idea is simple enough, though: it reduces a collection object (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection. A classic example would be a sum or product of an array of numbers. The syntax is where it can be tricky. In most cases, you need to pass a starting 'value' or object as well as a block with two parameters that tells it how to combine the items. The parameters of the block are the 'cumulative value' and current item.
+
+```ruby
+my_numbers = [2, 4, 6, 8, 10]
+my_product = my_numbers.reduce(1) { |product, x| product * x }
+#=> 3840
+```
+
+[INSERT WORDING HERE]
+```ruby
+students = ["Steve", "Robert", "Sarah", "John", "Ryan", "Rebecca", "Jane", "Sanjay", "Randy", "Sam", "Abigail"]
+students_by_letter = students.reduce(Hash.new(0)) do |hash, name|
+  hash[name[0]] += 1
+  hash
+end
+#=> {"S"=>4, "R"=>4, "J"=>2, "A"=>1}
+```
+
+
 * how it works
 * what its good for
 * code snippets for array
