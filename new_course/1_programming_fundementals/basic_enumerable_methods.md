@@ -1,10 +1,9 @@
 ### Introduction
 
-The Enumerable module is a set of methods which can be included in Ruby classes (like Array and Hash).
-You can even include it in your own classes, which will be covered later on. These methods are handy
-for looping through iterable objects in a collection (most commonly arrays, hashes, and ranges). They provide
-easy ways to perform common actions, and are among the most important tools for Rubyists. Some enumerable methods can be used on hashes just as on arrays, while others are implemented differently depending on
-the type of collection used.
+The Enumerable module is a set of methods which can be included in Ruby classes (like Array and Hash). You can even include it in your own classes, which will be covered later on. These methods are handy for looping through iterable objects in a collection (most commonly arrays, hashes, and ranges). They provide
+easy ways to perform common actions, and are among the most important tools for Rubyists. Some enumerable methods can be used on hashes just as on arrays, while others are implemented differently depending on the type of collection used.
+
+There is a lot here, but these are built-in to make your life easier. We will run you through the ones that you will most commonly use. This certainly is not an exhaustive list. At the end of this lesson is a link for you to find out more about other methods beyond what we go through here.
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
@@ -91,6 +90,7 @@ end
     four: 4
 ```
 
+
 ### The `each_with_index` method
 This is nearly the same as the `each` method, but it provides additional functionality by allowing you to pass two parameters instead of one. The second parameter represents the index of your object, that is the position of the current item within that object.
 
@@ -106,6 +106,7 @@ my_array.each_with_index { |fruit, index| print fruit, " " if index % 2 == 0 }
 ```
 #=> apple strawberry
 ```
+
 
 ### `do` and `end`
 What if the code block you want to pass is long? Too long to fit on one line?
@@ -127,6 +128,7 @@ my_array.each_with_index do |fruit, index|
    print fruit, " " if index % 2 == 0
 end
 ```
+
 
 ### The `count` method
 This method returns an integer representing the number of items within the calling object that meet
@@ -156,15 +158,11 @@ my_hash.count { |key, value| key.is_a?(Symbol) }
 #=> 1
 ```
 
-### The `sort` method
-`sort` is a method that can operate with or without a block being passed to it. By default, it sorts
-numbers ascending, and strings alphabetically. However, it can also accept a block that
-tells it to sort according to any rules you would like. This can take some practice, but
-is a powerful tool.
 
-When you pass a block to `sort`, you must pass two parameters, which are the items being compared
-at a given time. The key is to make the block you pass return a -1 if the order of the items should be swapped
-and return 1 if they should not be swapped. (Technically, it should return 0 if they are equal, but this will  rarely actually be necessary.) This is best understood through examples.
+### The `sort` method
+`sort` is a method that can operate with or without a block being passed to it. By default, it sorts numbers ascending, and strings alphabetically. However, it can also accept a block that tells it to sort according to any rules you would like. This can take some practice, but is a powerful tool.
+
+When you pass a block to `sort`, you must pass two parameters, which are the items being compared at a given time. The key is to make the block you pass return a -1 if the order of the items should be swapped and return 1 if they should not be swapped. (Technically, it should also have a return of 0 for when they are equal, but this will rarely actually be necessary.) This is best understood through examples.
 
 In this first example, we want to sort our array of fruits by ascending order of their last letters.
 
@@ -184,8 +182,7 @@ end
 ```
 
 A handy operator is available for this: `<=>`, which is called the 'spaceship' operator.
-It is used between two objects and returns one of three values: 1 if the first object is
-greater, 0 if they are equal, and -1 if the first object is less than the second.
+It is used between two objects and returns one of three values: 1 if the first object is greater, 0 if they are equal, and -1 if the first object is less than the second.
 
 Our example above could be re-written as:
 
@@ -206,31 +203,83 @@ my_array.sort { |first, second| second <=> first }
 #=> ["strawberry", "pineapple", "banana", "apple"]
 ```
 
+
 ### The `include?` method
-* mention the ? mark
-* how it works
-* what its good for
-* code snippets
+
+You may have noticed this method has a `?` mark in the name, which seems out of place. But Ruby actually uses this naming convention for any method that strictly returns a Boolean, that is either `true` or `false`.
+
+The `include?` method works exactly like you think it should.
+For example, if we are wanting to determine if a particular element exists in say, an array, we can use the `include?` method, and it will spit out a `true` or a `false`, if that element is present or not.
+
+You call the method on the array and pass it the element you are looking for like so:
+
+```ruby
+my_numbers = [5,6,7,8]
+
+my_numbers.include?(6)
+#=> true
+
+my_numbers.include?(3)
+#=> false
+```
+
 
 ### The `any?` method
-* how it works
-* what its good for
-* code snippets
+
+You might be able to then guess what the `any?` method does.
+
+Let's say we want to see if there is any number greater than 500 in a list of numbers, `any?` can tell us like so:
+
+```ruby
+my_numbers = [21, 42, 303, 499, 550, 811]
+
+my_numbers.any? { |item| item > 500 }
+#=> true
+
+my_numbers.any? { |item| item < 20 }
+#=> false
+```
+
 
 ### The `all?` method
-* how it works
-* what its good for
-* code snippets
+
+The `all?` method is also fairly intuitive.
+
+Say we want to check if all the words in our list are greater that 6 characters in length.
+
+```ruby
+my_array = ["apple", "banana", "strawberry", "pineapple"]
+
+my_array.all? { |word| word.length > 6 }
+#=> false
+```
+
+(Special note, `all?` will always return `true` unless an item fails to meet the condition. So if you call it on an empty array, there are no items to fail, therefore it will return `true` )
+
 
 ### The `none?` method
-* how it works
-* what its good for
-* code snippets
+
+As you might expect `none?` performs the opposite function as `all?`:
+
+```ruby
+my_array = ["apple", "banana", "strawberry", "pineapple"]
+
+my_array.none? { |word| word.length < 4 }
+#=> true
+```
+
 
 ### The `select` method
-* how it works
-* what its good for
-* code snippets
+
+The `select` method checks every item passed to it against a criteria that you specify, and returns only the items that pass that criteria. Your criteria, as usual, is passed as a block.
+
+Say we want to pick out only the words whose length are greater than 5 characters but less than 10, we would do the follow:
+
+```ruby
+my_array.select { |word| word.length > 5 && word.length < 10 }
+#=> ["banana", "pineapple"]
+```
+
 
 ### The `find` method
 * how it works
