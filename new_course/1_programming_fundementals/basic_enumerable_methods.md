@@ -1,14 +1,15 @@
-### Introduction
+## Introduction
 
 The Enumerable module is a set of methods which can be included in Ruby classes (like Array and Hash). You can even include it in your own classes, which will be covered later on. These methods are handy for looping through iterable objects in a collection (most commonly arrays, hashes, and ranges). They provide
 easy ways to perform common actions, and are among the most important tools for Rubyists. Some enumerable methods can be used on hashes just as on arrays, while others are implemented differently depending on the type of collection used.
 
 There is a lot here, but these are built-in to make your life easier. We will run you through the ones that you will most commonly use. This certainly is not an exhaustive list. At the end of this lesson is a link for you to find out more about other methods beyond what we go through here.
+<br/>
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* What are `enumerable` methods?
+* What kings of objects can `enumerable` methods be called on?
 <br/>
 
 * What does the `each` method do?
@@ -35,7 +36,6 @@ There is a lot here, but these are built-in to make your life easier. We will ru
 * What is an alias for the `map` method?
 * What does the `reduce` method do?
 * What is an alias for the `reduce` method?
-<br/>
 <br/>
 
 
@@ -339,19 +339,19 @@ end
 ```
 
 Note that this example returns a hash with several key => value pairs. So the object that `reduce` returns is still one object (a hash), but that object can be complex if you need it to be.
-
+<br/>
 
 ## Conclusion
 
 This introduction to some of the more common enumerable methods should give you an idea of how many tools Ruby puts in your tool box that you are free to utilize in whatever combination as you wish. Therefore given a task, and the many tools available, it is common for different coders to come up with different solutions to arrive at the same result.
-
+<br/>
 
 ## Exercises
 
 A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
 
 <!-- * How do you check if every item in a hash fulfills a certain criteria? -->
-
+<br/>
 
 ## Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
