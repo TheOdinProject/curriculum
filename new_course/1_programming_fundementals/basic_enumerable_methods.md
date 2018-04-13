@@ -8,31 +8,31 @@ There is a lot here, but these are built-in to make your life easier. We will ru
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* What are `enumerable` methods?
+* What are `enumerable` methods?<br/>
 
 * What does the `each` method do?
 * What does `each` return?
-* What does the `each_with_index` method do?\ 
+* What does the `each_with_index` method do?<br/>
 
-* When should you use `do...end` around a code block versus `{...}`?\
+* When should you use `do...end` around a code block versus `{...}`?<br/>
 
 * What does the `count` method do?
-* What does the `sort` method do?\
+* What does the `sort` method do?<br/>
 
 * Why is there a question mark after some methods?
 * What does the `include?` method do?
-* What does the `any?` method do? The `all?` method? `none?`?\
+* What does the `any?` method do? The `all?` method? `none?`?<br/>
 
 
 * What does the `select` method do?
-* What does the `find` method do?\
+* What does the `find` method do?<br/>
 
 * What does the `map` method do?
 * Does `map` modify the calling object?
-* What is an alias for the `map` method?
+* What is an alias for the `map` method?<br/>
 
 * What does the `reduce` method do?
-* What is an alias for the `reduce` method?
+* What is an alias for the `reduce` method?<br/>
 
 * How do you check if every item in a hash fulfills a certain criteria?
 
