@@ -4,7 +4,7 @@ class Course < ApplicationRecord
   has_many :sections, -> { order(:position) }
   has_many :lessons, through: :sections
 
-  validates_uniqueness_of :position
+  validates :position, presence: true
 
   friendly_id :title, use: [:slugged, :finders]
 

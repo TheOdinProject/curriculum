@@ -55,8 +55,8 @@ end
 
 group :development do
   gem 'web-console',                       '~> 3.4'
-  gem 'better_errors',                     '~> 2.1'  # gives much better error messages for debug
-  gem 'binding_of_caller',                 '~> 0.7'  # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
+  gem 'better_errors',                     '~> 2.4'  # gives much better error messages for debug
+  gem 'binding_of_caller',                 '~> 0.8'  # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
   gem 'letter_opener',                     '~> 1.4'  # shows outgoing emails in your browser instead
   gem 'derailed'                                     # Memory benchmarking
   gem 'reek'                                         # Code smell detector

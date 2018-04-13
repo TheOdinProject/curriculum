@@ -9,7 +9,7 @@ class Lesson < ApplicationRecord
   has_many :lesson_completions, dependent: :destroy
   has_many :completing_users, through: :lesson_completions, source: :student
 
-  validates :position, uniqueness: true
+  validates :position, presence: true
   validates :content, presence: true, on: :update
 
   def self.projects_without_submissions

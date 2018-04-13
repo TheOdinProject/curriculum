@@ -26,7 +26,7 @@ RSpec.describe Lesson do
   it { is_expected.to have_one(:course) }
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completing_users) }
-  it { is_expected.to validate_uniqueness_of(:position).case_insensitive }
+  it { is_expected.to validate_presence_of(:position) }
   it { is_expected.to validate_presence_of(:content).on(:update) }
 
   describe '#position_in_section' do

@@ -13,7 +13,7 @@ RSpec.describe Course do
 
   it { is_expected.to have_many(:sections) }
   it { is_expected.to have_many(:lessons) }
-  it { is_expected.to validate_uniqueness_of(:position) }
+  it { is_expected.to validate_presence_of(:position) }
 
   describe '#percent_completed_by' do
     let(:current_user) { double('User') }

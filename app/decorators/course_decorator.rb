@@ -21,7 +21,8 @@ class CourseDecorator < ApplicationDecorator
       'Ruby Programming' => 'badges/badge-ruby-borderless.svg',
       'Javascript' => 'badges/badge-javascript-borderless.svg',
       'Ruby on Rails' => 'badges/badge-ruby-on-rails-borderless.svg',
-      'Getting Hired' => 'badges/badge-getting-hired-borderless.svg'
+      'Getting Hired' => 'badges/badge-getting-hired-borderless.svg',
+      'Databases' => 'badges/badge-database-borderless.svg',
     }
   end
 
@@ -32,7 +33,8 @@ class CourseDecorator < ApplicationDecorator
       'Ruby Programming' => 'badge-ruby.svg',
       'Javascript' => 'badge-javascript.svg',
       'Ruby on Rails' => 'badge-ruby-on-rails.svg',
-      'Getting Hired' => 'badge-getting-hired.svg'
+      'Getting Hired' => 'badge-getting-hired.svg',
+      'Databases' => 'badge-database.svg'
     }
   end
 
