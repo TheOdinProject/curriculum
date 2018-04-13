@@ -32,7 +32,7 @@ Now that you know about the different types of web developers, let's cover what 
 
 There are large tech companies, like Google, Facebook, Amazon, etc. They have very high hiring requirements, but they offer excellent pay, benefits, and opportunities.
 
-There are startups, which are a bit like the wild west. For a junior developer, it can feel like a trial by fire because of the pace of development. They often offer slightly lower salaries and require longer hours, but also equity upside and highly unique environments.
+There are startups, which are a bit like the wild west. For a junior developer, it can feel like a trial by fire because of the pace of development. They often offer slightly lower salaries and require longer hours, but may also offer equity in the company and highly unique environments.
 
 As a freelancer, you could command a strong hourly wage and the freedom to schedule and design your own products. However, you would be responsible for getting your own work (which means less coding time), managing billing from clients (who can be difficult), and being solely responsible. Strong people skills are necessary.
 
