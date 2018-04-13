@@ -14,7 +14,7 @@ There is a lot here, but these are built-in to make your life easier. We will ru
 * What does `each` return?
 * What does the `each_with_index` method do?<br/>
 
-* When should you use `do...end` around a code block versus `{...}`?<br/>
+* When should you use `do...end` around a code block versus `{...}`?<br/><br/>
 
 * What does the `count` method do?
 * What does the `sort` method do?<br/>
@@ -22,7 +22,7 @@ There is a lot here, but these are built-in to make your life easier. We will ru
 * Why is there a question mark after some methods?
 * What does the `include?` method do?
 * What does the `any?` method do? The `all?` method? `none?`?<br/>
-
+<br/>
 
 * What does the `select` method do?
 * What does the `find` method do?<br/>
