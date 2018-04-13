@@ -1,39 +1,39 @@
 ### Introduction
 
-As we [saw before](http://skillcrush.com/2012/04/05/javascript/), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable, including the dropdown menus and hover effects you use every day.  It's time to dive in a bit more and start getting your hands dirty with some code.
+As we [saw before](http://skillcrush.com/2012/04/05/javascript/), JavaScript code is run in your browser to make things move on your web page and allow users to interact with it. Examples of the functionality that JavaScript offers include drop-down menus and hover effects, which you see on web pages all the time. It's time to dive deeper and start getting your hands dirty with some code.
 
-This is also the first time you'll get to do some actual programming (HTML/CSS doesn't count because it just kind of sits there).  It should be fun!  You'll learn concepts (like, say, conditional statements) that are used in every programming language you'll ever learn, including Ruby.  Javascript just happens to let you implement them to do fun things in the browser.
+This is also the first time you'll get to do some actual programming (HTML/CSS doesn't count because it just kind of sits there).  It should be fun!  You'll learn concepts (like, say, conditional statements) that are used in every programming language you'll ever learn, including Ruby.  JavaScript just happens to let you implement them to do fun things in the browser.
 
-This lesson will tend to focus on understanding the programming side of Javascript and the next lesson on jQuery will build on your knowledge here to actually allow you to interact with the elements on your webpage.
+This lesson will tend to focus on understanding the programming side of JavaScript, while the next lesson on jQuery will build on the knowledge you gain here to allow you to interact with the elements on your web page.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment
 
 * What is a scripting language?
 * What is a variable?
-* What is a string? An array? A boolean?
+* What are strings, arrays and booleans?
 * What are events?
 
 ### Announcement
-We are in the process of completely revamping and rewriting our JavaScript content... and the material that would replace the lessons found here in the WebDev101 course is pretty much completed.  Right now we are looking for students to test it out for us!  Your feedback is crucial to making it as good as possible.  If you're interested [you can find the new content here.](https://the-odin-project.gitbooks.io/javascript-curriculum/content/are-you-beta-testing-for-us.html)
+We are in the process of completely revamping and rewriting our JavaScript content. The material that would replace the lessons found here in the WebDev101 course is pretty much complete.  Right now, we are looking for students to test it out for us!  Your feedback is crucial to making it as good as possible.  If you're interested, [you can find the new content here.](https://the-odin-project.gitbooks.io/javascript-curriculum/content/are-you-beta-testing-for-us.html)
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Do [Codecademy's Javascript course](https://www.codecademy.com/learn/introduction-to-javascript) for a good overview of the basics of javascript.
-  2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
-      1. Another in-browser IDE to explore for HTML/CSS/JS is [codepen.io](http://codepen.io/pen/).
-      2. You can also try the Javascript section of [repl.it](https://repl.it/languages/javascript) -- it doesn't support HTML and CSS, but it does provide you with a helpful javascript console.
-  3. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just go through the first one now, it's all we need at this point.  Solve these problem in [repl.it](https://repl.it/languages/javascript) if you aren't comfortable working with your own files:
-      1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1). Go ahead and read the assignment. Now, let's break it down into a few steps. The **first thing** we have to know is how to check if a number is a multiple of 3 or 5 (in case you don't remember, a multiple of a number is that number multiplied by an integer), a hint for doing this: [Modulus operator](http://stackoverflow.com/a/17525046/4330173). Next, we need to sum all the numbers that are multiples, so we'll need a *variable* to keep track of that sum. And lastly, we need to *iterate*(remember how to do a [loop](http://www.w3schools.com/js/js_loop_for.asp) in javascript?) through all the numbers until we get to 1000. With all this, we should be able to solve the problem. In case you are still struggling, check out other students solutions for inspiration.
+  1. Do [Codecademy's JavaScript course](https://www.codecademy.com/learn/introduction-to-javascript) for a good overview of the basics of JavaScript.
+  2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool. It lets you type out some HTML, CSS and JavaScript, and see the result displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Hit the "Run" button at the top to run your JavaScript.
+      1. Another in-browser IDE to explore for HTML/CSS/JavaScript is [codepen.io](http://codepen.io/pen/).
+      2. You can also try the JavaScript section of [repl.it](https://repl.it/languages/javascript). It doesn't support HTML and CSS, but it does provide you with a helpful JavaScript console.
+  3. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based on problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just go through the first one now; it's all we need at this point.  Solve these problem in [repl.it](https://repl.it/languages/javascript) if you aren't comfortable working with your own files:
+      1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1). Go ahead and read the assignment. Now, let's break it down into a few steps. The **first thing** we have to know is how to check if a number is a multiple of 3 or 5 (in case you don't remember, a multiple of a number is that number multiplied by an integer). Hint: [modulus operator](http://stackoverflow.com/a/17525046/4330173). Next, we need to sum all the numbers that are multiples, so we'll need a *variable* to keep track of that sum. And lastly, we need to *iterate* (remember how to do a [loop](http://www.w3schools.com/js/js_loop_for.asp) in JavaScript?) through all the numbers until we get to 1000. With all this, we should be able to solve the problem. In case you are still struggling, check out other students' solutions for inspiration.
       2. If you feel like it, go and solve a few more problems! No one said you could turn off your brain!
-  4. There's a lot of power in your browser's devtools for debugging and working with Javascript code.  The [official dev-tools docs](https://developers.google.com/web/tools/chrome-devtools/javascript/) are a pretty good resource for getting started and digging in.  [This video from Wes Bos](https://www.youtube.com/watch?v=xkzDaKwinA8) also has some pretty great little tips for working with JS in the browser.
+  4. There's a lot of power in your browser's DevTools for debugging and working with JavaScript code.  The [official DevTools docs](https://developers.google.com/web/tools/chrome-devtools/javascript/) are a pretty good resource for getting started and digging in.  [This video from Wes Bos](https://www.youtube.com/watch?v=xkzDaKwinA8) also has some pretty great tips for working with JavaScript in the browser.
 
 </div>
 
 ### Student Solutions
-Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
+Submit a link to your GitHub repo here with a pull request.  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [Lucas Bicudo's Solution for problem 1](https://github.com/lucbic/Project-Euler) - [View in browser](https://lucbic.github.io/Project-Euler/)
@@ -559,8 +559,8 @@ Submit a link to the github repo with your files in it here with a pull request.
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something:
 
-* A straight-to-the-point [primer on Javascript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)
-* More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
-* Reading: The first several sections of the [hsablonniere's Javascript 101 Course](http://hsablonniere.github.io/markleft/prezas/javascript-101.html#1.0).
-* Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/javascript).
-* [OverAPI's Javascript cheat sheet](http://overapi.com/javascript)
+* A straight-to-the-point [primer on JavaScript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)
+* More videos about [JavaScript functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
+* Reading: The first several sections of [hsablonniere's JavaScript 101 course](http://hsablonniere.github.io/markleft/prezas/javascript-101.html#1.0).
+* Interactive: Do the additional sections in the [Codecademy JavaScript Track](https://www.codecademy.com/tracks/javascript).
+* [OverAPI's JavaScript cheat sheet](http://overapi.com/javascript)
