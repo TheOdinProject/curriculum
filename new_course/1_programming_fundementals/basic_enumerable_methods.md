@@ -19,15 +19,13 @@ There is a lot here, but these are built-in to make your life easier. We will ru
 * When should you use `do...end` around a code block versus `{...}`?
 <br/>
 
-* What does the `count` method do?
-* What does the `sort` method do?
-<br/>
-
 * Why is there a question mark after some methods?
 * What does the `include?` method do?
 * What does the `any?` method do? The `all?` method? `none?`?
 <br/>
 
+* What does the `count` method do?
+* What does the `sort` method do?
 * What does the `select` method do?
 * What does the `find` method do?
 <br/>
@@ -35,18 +33,15 @@ There is a lot here, but these are built-in to make your life easier. We will ru
 * What does the `map` method do?
 * Does `map` modify the calling object?
 * What is an alias for the `map` method?
-<br/>
-
 * What does the `reduce` method do?
 * What is an alias for the `reduce` method?
 <br/>
-
-* How do you check if every item in a hash fulfills a certain criteria?
-
-
-### Enumerable Methods
+<br/>
 
 
+## Enumerable Methods
+
+<br/>
 ### The `each` method
 `each` is the most basic and flexible of the enumerable methods.
 
@@ -89,7 +84,7 @@ end
 #   four: 4
 ```
 
-
+<br/>
 ### The `each_with_index` method
 This is nearly the same as the `each` method, but it provides additional functionality by allowing you to pass two parameters instead of one. The second parameter represents the index of your object, that is the position of the current item within that object.
 
@@ -104,7 +99,7 @@ my_array.each_with_index { |fruit, index| print fruit, " " if index % 2 == 0 }
 #=> apple strawberry
 ```
 
-
+<br/>
 ### `do` and `end`
 What if the code block you want to pass is long? Too long to fit on one line?
 It starts to become less readable and look kind of unwieldy to take up more than one line (though it is possible).
@@ -126,7 +121,70 @@ my_array.each_with_index do |fruit, index|
 end
 ```
 
+<br/>
+### The `include?` method
 
+You may have noticed this method has a `?` mark in the name, which seems out of place. But Ruby actually uses this naming convention for any method that strictly returns a Boolean, that is either `true` or `false`.
+
+The `include?` method works exactly like you think it should.
+For example, if we are wanting to determine if a particular element exists in an array, we can use the `include?` method, and it will spit out `true` if that element is present or `false` if it is not.
+
+You call the method on the array and pass it the element you are looking for like so:
+
+```ruby
+my_numbers = [5,6,7,8]
+
+my_numbers.include?(6)
+#=> true
+
+my_numbers.include?(3)
+#=> false
+```
+
+<br/>
+### The `any?` method
+
+You might be able to then guess what the `any?` method does.
+
+Let's say we want to see if there is any number greater than 500 in a list of numbers, `any?` can tell us like so:
+
+```ruby
+my_numbers = [21, 42, 303, 499, 550, 811]
+
+my_numbers.any? { |item| item > 500 }
+#=> true
+
+my_numbers.any? { |item| item < 20 }
+#=> false
+```
+
+<br/>
+### The `all?` method
+
+The `all?` method is also fairly intuitive.
+
+Say we want to check if all the words in our list are greater that 6 characters in length.
+
+```ruby
+my_array = ["apple", "banana", "strawberry", "pineapple"]
+
+my_array.all? { |word| word.length > 6 }
+#=> false
+```
+
+(Special note, `all?` will always return `true` unless an item fails to meet the condition. So if you call it on an empty array, there are no items to fail, and it will return `true` )
+
+<br/>
+### The `none?` method
+
+As you might expect `none?` performs the opposite function as `all?`:
+
+```ruby
+my_array.none? { |word| word.length < 4 }
+#=> true
+```
+
+<br/>
 ### The `count` method
 This method returns an integer representing the number of items within the calling object that meet
 the condition(s) set forth in the block that you pass. Like `each`, this method takes a block with
@@ -151,7 +209,7 @@ my_hash.count { |key, value| key.is_a?(Symbol) }
 #=> 1
 ```
 
-
+<br/>
 ### The `sort` method
 `sort` is a method that can operate with or without a block being passed to it. By default, it sorts numbers ascending, and strings alphabetically. However, it can also accept a block that tells it to sort according to any rules you would like. This can take some practice, but is a powerful tool.
 
@@ -191,69 +249,8 @@ my_array.sort { |first, second| second <=> first }
 ```
 
 
-### The `include?` method
 
-You may have noticed this method has a `?` mark in the name, which seems out of place. But Ruby actually uses this naming convention for any method that strictly returns a Boolean, that is either `true` or `false`.
-
-The `include?` method works exactly like you think it should.
-For example, if we are wanting to determine if a particular element exists in an array, we can use the `include?` method, and it will spit out `true` if that element is present or `false` if it is not.
-
-You call the method on the array and pass it the element you are looking for like so:
-
-```ruby
-my_numbers = [5,6,7,8]
-
-my_numbers.include?(6)
-#=> true
-
-my_numbers.include?(3)
-#=> false
-```
-
-
-### The `any?` method
-
-You might be able to then guess what the `any?` method does.
-
-Let's say we want to see if there is any number greater than 500 in a list of numbers, `any?` can tell us like so:
-
-```ruby
-my_numbers = [21, 42, 303, 499, 550, 811]
-
-my_numbers.any? { |item| item > 500 }
-#=> true
-
-my_numbers.any? { |item| item < 20 }
-#=> false
-```
-
-
-### The `all?` method
-
-The `all?` method is also fairly intuitive.
-
-Say we want to check if all the words in our list are greater that 6 characters in length.
-
-```ruby
-my_array = ["apple", "banana", "strawberry", "pineapple"]
-
-my_array.all? { |word| word.length > 6 }
-#=> false
-```
-
-(Special note, `all?` will always return `true` unless an item fails to meet the condition. So if you call it on an empty array, there are no items to fail, and it will return `true` )
-
-
-### The `none?` method
-
-As you might expect `none?` performs the opposite function as `all?`:
-
-```ruby
-my_array.none? { |word| word.length < 4 }
-#=> true
-```
-
-
+<br/>
 ### The `select` method
 
 The `select` method checks every item passed to it against a criteria that you specify, and returns only the items that pass that criteria. Your criteria, as usual, is passed as a block.
@@ -266,6 +263,7 @@ my_array.select { |word| word.length > 5 && word.length < 10 }
 ```
 
 
+<br/>
 ### The `find` method
 The `find` method is similar to `select`, except it returns only the first item which meets the given criteria. If no such item exists, it returns `nil`. Using the same example as above:
 
@@ -287,6 +285,7 @@ end
 ```
 
 
+<br/>
 ### The `map` method
 `map` is used to transform each item from the object it is called on and place them into a new object. How the items are transformed is defined by the block you pass to it. `map` may seem confusing at first, but it is extremely useful. Seeing several examples and use cases will help you understand how and when you can use it. You will probably also run into `collect`, which is simply an alias for `map` (same function, different name).
 
@@ -303,6 +302,7 @@ my_emphatic_strings = my_strings.map { |s| s + "!" }
 #=> ["One!", "Two!", "Three!", "Four!"]
 ```
 
+<br/>
 ### The `reduce` method
 `reduce` (alias: `inject`) is possibly the most difficult-to-grasp common method for new coders. The idea is simple enough, though: it reduces a collection object (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
 
@@ -335,7 +335,11 @@ This introduction to some of the more common enumerable methods should give you 
 
 
 ## Exercises
+
 A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
+
+<!-- * How do you check if every item in a hash fulfills a certain criteria? -->
+
 
 ## Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
