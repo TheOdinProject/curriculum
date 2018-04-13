@@ -12,22 +12,20 @@ There is a lot here, but these are built-in to make your life easier. We will ru
 
 * What does the `each` method do?
 * What does `each` return?
-* What does the `each_with_index` method do?
-* How are they different?
+* What does the `each_with_index` method do?\ 
 
-* When should you use `do...end` around a code block versus `{...}`?
+* When should you use `do...end` around a code block versus `{...}`?\
 
 * What does the `count` method do?
-* What does the `sort` method do?
+* What does the `sort` method do?\
 
 * Why is there a question mark after some methods?
 * What does the `include?` method do?
-* What does the `any?` method do? The `all?` method? `none?`?
+* What does the `any?` method do? The `all?` method? `none?`?\
 
 
 * What does the `select` method do?
-* What does the `find` method do?
-* How is the `find_all` method different from `find`?
+* What does the `find` method do?\
 
 * What does the `map` method do?
 * Does `map` modify the calling object?
@@ -299,7 +297,9 @@ my_emphatic_strings = my_strings.map { |s| s + "!" }
 ```
 
 ### The `reduce` method
-`reduce` (alias: `inject`) is possibly the most difficult-to-grasp common method for new coders. The idea is simple enough, though: it reduces a collection object (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection. A classic example would be a sum or product of an array of numbers. The syntax is where it can be tricky. In most cases, you need to pass a starting 'value' or object as well as a block with two parameters that tells it how to combine the items. The parameters of the block are the 'cumulative value' and current item.
+`reduce` (alias: `inject`) is possibly the most difficult-to-grasp common method for new coders. The idea is simple enough, though: it reduces a collection object (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
+
+A classic example would be a sum or product of an array of numbers. The syntax is where it can be tricky. In most cases, you need to pass a starting 'value' or object as well as a block with two parameters that tells it how to combine the items. The parameters of the block are the 'cumulative value' and current item.
 
 ```ruby
 my_numbers = [2, 4, 6, 8, 10]
@@ -307,9 +307,11 @@ my_product = my_numbers.reduce(1) { |product, x| product * x }
 #=> 3840
 ```
 
-[INSERT WORDING HERE]
+Here is a more elaborate example, which shows how powerful this method can be and can save you many lines of code in certain scenarios. Here a task required is to determine the distribution of names of the students by first letter.
+
 ```ruby
 students = ["Steve", "Robert", "Sarah", "John", "Ryan", "Rebecca", "Jane", "Sanjay", "Randy", "Sam", "Abigail"]
+
 students_by_letter = students.reduce(Hash.new(0)) do |hash, name|
   hash[name[0]] += 1
   hash
@@ -317,11 +319,12 @@ end
 #=> {"S"=>4, "R"=>4, "J"=>2, "A"=>1}
 ```
 
+Note that this example returns a hash with several key => value pairs. So the object that `reduce` returns is still one object (a hash), but that object can be complex if you need it to be.
 
-* how it works
-* what its good for
-* code snippets for array
-* collect is an alias
+
+## Conclusion
+
+This introduction to some of the more common enumerable methods should give you an idea of how many tools Ruby puts in your tool box that you are free to utilize in whatever combination as you wish. Therefore given a task, and the many tools available, it is common for different coders to come up with different solutions to arrive at the same result.
 
 
 ## Exercises
@@ -332,5 +335,6 @@ A group of exercises (If Applicable) for the student to complete in relation to 
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
 
-* There are many more enumerable methods than are covered here (`reject`, `drop`, `uniq`, to name a few) For a full listing, check out the Ruby Docs:
+* There are many more enumerable methods than are covered here (`reject`, `drop`, `uniq`, to name a few).
+For a full listing, you can check out the Ruby Docs:
   [Ruby Docs Enumerable methods](https://ruby-doc.org/core-2.5.0/Enumerable.html)
