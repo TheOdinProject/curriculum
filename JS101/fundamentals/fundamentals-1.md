@@ -3,17 +3,17 @@ Let's dive right in!
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* How do you declare a variable in javascript?
+* How do you declare a variable?
 * What are three different ways to declare a variable?
 * Which one should you use when?
 * What are the rules for naming variables?
 * What are operators, operands, and operations?
 * What is concatenation and what happens when you add numbers and strings together?
-* What are the different type of operators in Javascript?
+* What are the different type of operators in JavaScript?
 * What is the difference between `==` and `===`?
 * What are operator precedence values?
 * What are the increment/decrement operators?
-* What is the difference between prefixing and postfixing them?
+* What is the difference between prefixing and post-fixing them?
 * What are assignment operators?
 * What is the "Unary +" Operator?
 
@@ -30,11 +30,11 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 You can think of variables simply as "storage containers" for data in your code.  Until recently there was only one way to declare and use a variable in Javascript (the `var` keyword) but the latest versions of JavaScript include 2 more keywords that can be used depending on the situation. The following resources will tell you what you need to know!
 
 1. Read through [this variable tutorial](http://javascript.info/variables) as well. It covers the other methods of variable creation.  __Be sure to do the Tasks__ at the end of this article!  Information won't stick without practice!
-2. Sidenote:  It's mentioned in the above tutorial, but important enough to note specifically here.  `let` and `const` are both relatively new ways to declare variables in JavaScript.  In _many_ tutorials and in code across the internet you are likely to encounter `var`. Don't let it bother you!  You should stick to `let` and `const` for now. There is nothing inherently wrong with `var`, but in a few small cases it's behavior is not what you would expect.  In most cases `var` and `let` behave exactly the same. The precise difference will be explained later.
+2. Sidenote:  It's mentioned in the above tutorial, but important enough to note specifically here.  `let` and `const` are both relatively new ways to declare variables in JavaScript.  In _many_ tutorials and in code across the internet you are likely to encounter `var`. Don't let it bother you!  You should stick to `let` and `const` for now. There is nothing inherently wrong with `var`, but in a few small cases its behavior is not what you would expect.  In most cases `var` and `let` behave exactly the same. The precise difference will be explained later.
 
 ### Practice!
 
-You can easily run your own JavaScript code from files that you create on your own computer.  The simplest way to get started is to simply create an html file with the JavaScript code inside of it.  Type the basic html skeleton into a file on your computer somewhere:
+You can easily run your own JavaScript code from files that you create on your own computer.  The simplest way to get started is to simply create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
 
 ~~~html
 <!DOCTYPE html>
@@ -51,7 +51,7 @@ You can easily run your own JavaScript code from files that you create on your o
 </html>
 ~~~
 
-Save and open this file up in a web browser and then open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the developer tools pane find and select the 'console' tab, where you should see the output of our `console.log` statement.
+Save and open this file up in a web browser and then open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab, where you should see the output of our `console.log` statement.
 
 > `console.log()` is the command to print something to the developer console in your browser.  Use it for all of the following exercises.
 
@@ -71,4 +71,4 @@ Try the following exercises.
    2. Set another variable `actual` to `max - 13`
    3. Set another variable `percentage` to `actual / max`
    4. If you type `percentage` in the console and press enter you should see a value like `0.7719`
-6. Take a few minutes to keep playing around with various things in your script tag.  Eventually we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
+6. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
