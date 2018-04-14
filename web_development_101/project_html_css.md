@@ -1437,8 +1437,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Molly Kelsey's Solution (Difficult)](https://github.com/mkels/google-search) - [View in Browser](https://mkels.github.io/google-search/)
 * [Friscomm's Solution (Easy)](https://github.com/friscomm/google-homepage) - [View in Browser](https://friscomm.github.io/google-homepage)
 * [Daniel Ortea's Solution (Easy + Difficult)](https://github.com/D-Ortea/google-homepage) - [View Easy in Browser](https://d-ortea.github.io/google-homepage/) + [View Difficult in Browser](https://d-ortea.github.io/google-homepage/results-page.html)
-### Additional Resources
-
+* [Rj Palu-ay's Solution(Easy)](https://rjpaluay.github.io/GoogleHomepage/)
+### Additional Resources 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 If you still feel shaky on your understanding of HTML and CSS, that's okay! You don't need to be an expert by any means yet. These resources should help if you want to shore up your understanding of things:
