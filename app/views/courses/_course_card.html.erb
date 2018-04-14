@@ -1,17 +1,17 @@
 <div class="row">
   <div class="col-xl-10 offset-xl-1">
     <div class="card-main course-card">
-      <% if user_signed_in? && course_completed_by_user?(course, @user) %>
+      <% if user_signed_in? && course_completed_by_user?(course, current_user) %>
         <div class="course-completion-bar">
           COMPLETED <i class="fa fa-check-circle-o course-completion-bar__icon"></i>
         </div>
       <% end %>
 
-      <div class="course-card-header <%= course_completed_class?(course, @user) %>">
+      <div class="course-card-header <%= course_completed_class?(course, current_user) %>">
 
         <%= link_to course, class: 'course-card-header__link' do %>
           <div class='course-card-header__image'>
-            <%= render 'shared/course_badge', course: course, user: @user, modifier: '' %>
+            <%= render 'shared/course_badge', course: course, user: current_user, modifier: '' %>
           </div>
         <% end %>
 
@@ -22,7 +22,7 @@
           <span class="course-card-header__sub-title"><%= course.lessons.size %> lessons</span>
         <% end %>
 
-        <%= link_to 'Open Course', course, class: "button #{open_course_button_style(course, @user)} course-card-header__button" %>
+        <%= link_to 'Open Course', course, class: "button #{open_course_button_style(course, current_user)} course-card-header__button" %>
       </div>
 
       <div class="course-card__description">

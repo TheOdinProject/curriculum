@@ -8,7 +8,7 @@
 
       <% if user_signed_in? %>
         <div id="section-lessons__<%= lesson.id %>">
-          <%= render 'courses/course/lesson_completion_button', lesson: lesson, user: @user %>
+          <%= render 'courses/course/lesson_completion_button', lesson: lesson, user: current_user %>
         </div>
       <% end %>
 
