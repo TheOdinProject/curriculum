@@ -110,7 +110,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/intermediate_ruby/lesson_oop",
+  url: "/ruby_programming/intermediate_ruby/lesson_oop.md",
   repo: 'ruby_course'
 )
 
@@ -243,7 +243,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/ruby_programming/computer_science/project_data_structures_algorithms_project.md",
+  url: "/ruby_programming/computer_science/project_data_structures_algorithms.md",
   repo: 'ruby_course'
 )
 
