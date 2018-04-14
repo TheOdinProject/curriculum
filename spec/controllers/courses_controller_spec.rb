@@ -13,8 +13,7 @@ RSpec.describe CoursesController do
 
   describe 'GET index' do
     before do
-      allow(Course).to receive_message_chain(:order, :includes).
-        and_return(courses)
+      allow(Course).to receive(:order).and_return(courses)
     end
 
     it 'assigns @courses' do

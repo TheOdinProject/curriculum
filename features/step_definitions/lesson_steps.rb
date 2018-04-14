@@ -97,7 +97,7 @@ Then(/^my progress should be saved$/) do
 
   # make sure the percentage completion gets increased
   within '.lc-percent-completion' do
-    percent_completed = @course.percent_completed_by(@user).to_i
+    percent_completed = @user.progress_for(@course).percentage
     expect(page).to have_content("#{percent_completed}% Completed")
   end
 end
@@ -109,7 +109,7 @@ Then(/^my progress should be declined$/) do
 
   # make sure the percentage completion gets increased
   within '.lc-percent-completion' do
-    percent_completed = @course.percent_completed_by(@user).to_i
+    percent_completed = @user.progress_for(@course).percentage
     expect(page).to have_content("#{percent_completed}% Completed")
   end
 end

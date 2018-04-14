@@ -20,12 +20,11 @@ class CoursesController < ApplicationController
   end
 
   def ordered_courses
-    Course.order(:position).includes(:lessons, sections: [:lessons])
+    Course.order(:position)
   end
 
+  # TODO: remove me and just use current_user everywhere
   def set_user
-    if user_signed_in?
-      @user = User.includes(:lesson_completions).find(current_user.id)
-    end
+    @user = current_user
   end
 end
