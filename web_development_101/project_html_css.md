@@ -1439,6 +1439,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Daniel Ortea's Solution (Easy + Difficult)](https://github.com/D-Ortea/google-homepage) - [View Easy in Browser](https://d-ortea.github.io/google-homepage/) + [View Difficult in Browser](https://d-ortea.github.io/google-homepage/results-page.html)
 * [Rj Palu-ay's Solution(Easy)](https://rjpaluay.github.io/GoogleHomepage/)
 * [LieutenantLemons' Solution (Easy)](https://github.com/LieutenantLemons/google-homepage) - [View in Browser](https://lieutenantlemons.github.io/google-homepage)
+* [Tobias Johnson's Solution (Easy)] (https://github.com/viviers/google-homepage) [View in Browser] (viviers.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
