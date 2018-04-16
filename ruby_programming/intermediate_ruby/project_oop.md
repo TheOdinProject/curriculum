@@ -401,6 +401,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [HSaad's solution](https://github.com/HSaad/mastermind/blob/master/mastermind.rb)
 * [Scott McKell's solution](https://github.com/zottwickel/Mastermind.git)
 * [John Clifford's solution](https://github.com/JDClifford/mastermind)
+* [Punnadittr's solution](https://github.com/punnadittr/mastermind)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
