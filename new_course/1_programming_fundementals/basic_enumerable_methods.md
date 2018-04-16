@@ -1,18 +1,14 @@
 ## Introduction
 
-The Enumerable module is a set of methods that is included in certain Ruby classes (like Array and Hash). You can even include it in your own classes, which will be covered later on. These methods are handy for looping through iterable objects in a collection (most commonly arrays, hashes, and ranges). They provide
-easy ways to perform common actions, and are among the most important tools for Rubyists. Some enumerable methods can be used on hashes just as on arrays, while others are implemented differently depending on the type of collection used.
+Enumerables are a set of methods that are available on certain collections in Ruby. A collection, as used throughout this course, is a number of items that are grouped together into one Ruby object, like  an `Array` or `Hash`.  These methods are handy for looping through the items in such a collection. They provide easy ways to perform common actions, and are among the most important tools for Rubyists.
 
 There is a lot here, but these are built-in to make your life easier. We will run you through the ones that you will most commonly use. This certainly is not an exhaustive list. At the end of this lesson there is a link for you to find out more about other methods beyond what we go through here.
 
-It will be beneficial for you to code along to test the examples as you work through this lesson (in IRB).
+It will be beneficial for you to code along to test the examples as you work through this lesson, either in IRB or [repl.it](https://repl.it/languages/ruby).
 <br/>
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
-
-* What kings of objects can `enumerable` methods be called on?
-<br/>
 
 * What does the `each` method do? What does it return?
 * What does the `each_with_index` method do?
@@ -31,7 +27,7 @@ It will be beneficial for you to code along to test the examples as you work thr
 <br/>
 
 * What does the `map` method do?
-* Does `map` modify the calling object?
+* Does `map` modify the collection it is called on?
 * What is an alias for the `map` method?
 * What does the `reduce` method do?
 * What is an alias for the `reduce` method?
@@ -44,9 +40,9 @@ It will be beneficial for you to code along to test the examples as you work thr
 ### The `each` method
 `each` is the most basic and flexible of the enumerable methods.
 
-Calling the `each` method on an iterable object will loop through each item in that object and perform a task, which you define in a code block that you state after calling `each`.  This is called passing a block to the method, which is similar to passing a variable. The task you want the method to perform can be as simple or complex as you need it to be.
+Calling the `each` method on an array will loop through each item in that array and perform a task, which you define in a code block that you state after calling `each`.  This is called passing a block to the method, which is similar to passing a variable. The task you want the method to perform can be as simple or complex as you need it to be.
 
-One thing to note is that after performing its task, `each` only returns the original object. Because of this, the value it actually returns is generally not used. The action(s) in the code block it receives are what you are after (something to keep in mind when debugging your code).
+One thing to note is that after performing its task, `each` only returns the original array. Because of this, the value it actually returns is generally not used. The action(s) in the code block it receives are what you are after (something to keep in mind when debugging your code).
 
 A simple example of a good use for `each`: Say we want to print every word in an array of strings. We can use the `each` method on that array like so:
 
@@ -57,7 +53,7 @@ my_array.each { |fruit| print fruit, " " }
 #=> apple banana strawberry pineapple
 ```
 
-For hashes, each "item" is a key-value pair. If you call `each` on a hash, the item passed to the code block will be an array of the key and value [key, value].
+Some enumerable methods are applied to hashes in exactly the same way as to arrays, while others are implemented differently depending on the type of collection used. The `each` method, for example, is utilized a bit differently for hashes. Each "item" in a hash is a key-value pair. If you call `each` on a hash, the item passed to the code block will be an array of the key and value [key, value].
 
 ```ruby
 my_hash = { "one" => 1, "two" => 2, "three" => 3, "four" => 4}
@@ -85,7 +81,7 @@ end
 <br/>
 
 ### The `each_with_index` method
-This is nearly the same as the `each` method, but it provides additional functionality by receiving two parameters instead of one. The second parameter represents the index of your object, that is the position of the current item within that object. This allows you to do things that are a bit more complex.
+This is nearly the same as the `each` method, but it provides additional functionality by receiving two parameters instead of one. The second parameter represents the index of your array, that is the position of the current item within that array. This allows you to do things that are a bit more complex.
 
 If we take the above example, but instead we want to only print every other word from our array of strings, we can achieve that like so:
 
@@ -187,7 +183,7 @@ my_array.none? { |word| word.length < 4 }
 <br/>
 
 ### The `count` method
-This method returns an integer representing the number of items within the calling object that meet
+This method returns an integer representing the number of items within the array or hash that meet
 the condition(s) set forth in the block that you pass. Like `each`, this method takes a block with
 one parameter (or two - key and value - when called on a hash).
 
@@ -232,7 +228,7 @@ end
 #=> ["banana", "apple", "pineapple", "strawberry"]
 ```
 
-A handy operator is available for this: `<=>`, which is called the 'spaceship' operator. It is used between two objects and returns one of three values: 1 if the first object is greater, 0 if they are equal, and -1 if the first object is less than the second.
+A handy operator is available for this: `<=>`, which is called the 'spaceship' operator. It is used between the two arguments and returns one of three values: 1 if the first arguments is greater, 0 if they are equal, and -1 if the first arguments is less than the second.
 
 Our example above could be re-written as:
 
@@ -269,7 +265,7 @@ my_array.find { |word| word.length > 5 && word.length < 10 }
 #=> "banana"
 ```
 
-`find` is useful if you want to be able to use the results in somewhat advanced conditional logic, since `nil` is falsy while any object returned (other than `false`) would be truthy. Don't worry if you can't quite follow it, but an example would be:
+`find` is useful if you want to be able to use the results in somewhat advanced conditional logic, since `nil` is falsy while anything returned (other than `false`) would be truthy. Don't worry if you can't quite follow it, but an example would be:
 
 ```ruby
 word = my_array.find { |word| word.length > 9 && word.length < 10 }
@@ -283,9 +279,10 @@ end
 <br/>
 
 ### The `map` method
-`map` is used to transform each item from the object it is called on and place them into a new object. How the items are transformed is defined by the block you pass to it. `map` may seem confusing at first, but it is extremely useful. Seeing several examples and use cases will help you understand how and when you can use it. You will probably also run into `collect`, which is simply an alias for `map` (same function, different name).
+`map` is used to transform each item from the array it is called on and place them into a new array. How the items are transformed is defined by the block you pass to it. `map` may seem confusing at first, but it is extremely useful. Seeing several examples and use cases will help you understand how and when you can use it. You will probably also run into `collect`, which is simply an alias for `map` (same function, different name).
 
 To get the first 20 square numbers, we can simply call `map` on the range of numbers from 1 to 20, like so:
+(Ranges are collections too.)
 
 ```ruby
 my_squares = (1..20).map { |x| x**2 }
@@ -303,9 +300,9 @@ my_emphatic_strings = my_strings.map { |s| s + "!" }
 <br/>
 
 ### The `reduce` method
-`reduce` (alias: `inject`) is possibly the most difficult-to-grasp common method for new coders. The idea is simple enough though: it reduces a collection object (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
+`reduce` (alias: `inject`) is possibly the most difficult-to-grasp common method for new coders. The idea is simple enough though: it reduces a collection (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
 
-A classic example would be a sum or product of an array of numbers. The syntax is where it can be tricky. In most cases, you need to pass a starting 'value' or object as well as a block with two parameters that tells it how to combine the items. The parameters of the block are the 'cumulative value' and current item.
+A classic example would be a sum or product of an array of numbers. The syntax is where it can be tricky. In most cases, you need to pass a starting 'value' as well as a block with two parameters that tells it how to combine the items. The parameters of the block are the 'cumulative value' and current item.
 
 ```ruby
 my_numbers = [2, 4, 6, 8, 10]
@@ -313,7 +310,9 @@ my_product = my_numbers.reduce(1) { |product, x| product * x }
 #=> 3840
 ```
 
-Here is a more elaborate example, which shows how powerful this method can be. It can save you many lines of code in certain scenarios. Here the requirement is to determine the distribution of names from a collection of students by first letter.
+Here is a more elaborate example, which shows how powerful this method can be. Don't be discouraged if you don't fully understand it at this point. Just know that `reduce` can save you many lines of code in certain scenarios.
+
+Here's an example in which you've been given the task of determining the distribution of names from an array of students by first letter.
 
 ```ruby
 students = ["Steve", "Robert", "Sarah", "John", "Ryan", "Rebecca", "Jane", "Sanjay", "Randy", "Sam", "Abigail"]
@@ -325,7 +324,7 @@ end
 #=> {"S"=>4, "R"=>4, "J"=>2, "A"=>1}
 ```
 
-Note that this example returns a hash with several `key => value` pairs. So the object that `reduce` returns is still one object (a hash), but that object can be complex if you need it to be.
+Note that this example returns a hash with several `key => value` pairs. So the object that `reduce` returns is still one object, a hash. It's just a more complex one.
 <br/>
 
 ## Conclusion
