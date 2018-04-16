@@ -3,24 +3,24 @@ Methods, also known as functions, are one of the foundational building blocks in
 Almost every language implements some way of making methods.
 
 You will often find yourself writing the same code in different places in your code.
-Wouldn't it be great if there was a way to reuse the same code over and over again 
-without having to write it all out again? 
+Wouldn't it be great if there was a way to reuse the same code over and over again
+without having to write it all out again?
 
 This is what methods are for. They allow you to wrap code in a name which you
 can then use where you need that code to be run in your programs.
 
 In this lesson we are going to deconstruct what methods are, their behaviour, and how they are used.
 
-## Learning outcomes
+## Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* You understand how to use Rubys built in methods on objects
+* You understand how to use Ruby's built in methods on objects
 * You know how to create your own custom methods
 * You know how to *call* your own methods
 * You understand the difference between a explicit and implicit return in your methods
 * You understand the difference between `puts` and `return`
 
-## Rubys Built in Methods
+## Ruby's Built in Methods
 * explain what they are, you've already been using them.
 
 ## Creating a Method
@@ -33,7 +33,7 @@ end
 puts my_name #=> "Joe Smith"
 ```
 Lets breake it down:
-`def` - is a built in Ruby keyword. It lets Ruby know this is the start of a method *definition*. 
+`def` - is a built in Ruby keyword. It lets Ruby know this is the start of a method *definition*.
 
 `my_name` - is the name of the method. You can name pretty much name it whatever you want. But there are some contraints and conventions which are described in the next section.
 

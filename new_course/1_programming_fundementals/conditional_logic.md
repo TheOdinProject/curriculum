@@ -13,7 +13,7 @@ Any conditional statement will always have an expression that evaluates to `true
 
 You'll write a lot of conditional statements on your road to programmer stardom. Although they are simple at heart, they're are a big source of bugs in your code when something isn't working as expected. Make sure you understand the logic behind the expression being evaluated so you can step through it if you need to.
 
-## Learning outcomes
+## Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * Conditionals and Flow Control

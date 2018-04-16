@@ -3,16 +3,17 @@ At the beginning of this section, you learned about creating and manipulating in
 
 One way Ruby allows you to represent a collection of data types is with the use of **arrays**. Rather than working on individual variables, numbers, or strings at a time, an array allows you to create and manipulate an ordered and indexed collection of them (known as **elements** within the array). Think of arrays as a list! An array can contain any combination of variables, numbers, strings, or other Ruby objects (including other arrays), though it is advised that you keep similar data types in any one array.
 
-### Learning outcomes
+### Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* What an array is and why it's useful?
-* How can you create an array using `array = []` or `array = Array.new`?
+* What is an array and why is it useful?
+* What are two ways to create a new empty array?
 * How can you access data in an array by index or by using `first` and `last`?
-* How can you add data to an array using `<<`, `push`, and `unshift`?
-* How can you remove data from an array using `pop` and `shift`?
+* What are 3 ways to add data to an array?
+* How can you remove data from an array?
 
-### Creating arrays
+### Creating Arrays
+
 Here are two basic arrays:
 
 ```
@@ -23,9 +24,9 @@ num_array.length        #=> 5
 str_array.length        #=> 5
 ```
 
-Both arrays have five elements. The first array contains integers separated by commas, while the second array contains strings. Arrays are commonly created with an **array literal**. In Ruby, a literal is a special syntax used to create instances of an object. For the array, that is the square brackets `[]`.
+Both arrays have five elements separated by commas. The first array contains integers while the second array contains strings. Arrays are commonly created with an **array literal**. In Ruby, a literal is a special syntax used to create instances of an object. For the array, that is the square brackets `[]`.
 
-An array can also be created by calling the `new` method and 0-2 arguments, including initial size and a default object:
+An array can also be created by calling the `Array.new` method and up to 2 optional arguments (initial size and a default value):
 
 ```
 Array.new               #=> []
@@ -34,8 +35,8 @@ Array.new(3, "Hello")   #=> ["Hello", "Hello", "Hello"]
 Array.new(3, Array.new) #=> [[], [], []]
 ```
 
-### Accessing element
-Like most other programming languages, Ruby arrays use **zero-based indexing**. As you learned in Chris Pine's tutorial, accessing an array's element is as simple as calling `myArray[x]`, where `x` is the **index**, or position, you desire. Recall that calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array at [-1].
+### Accessing Elements
+Like most other programming languages, Ruby arrays use **zero-based indexing**. As you learned in Chris Pine's tutorial, accessing an array's element is as simple as calling `myArray[x]`, where `x` is the **index**, or position, you desire. Recall that calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
 
 ```
 str_array = ["This", "is", "a", "small", "array"]
@@ -53,8 +54,9 @@ str_array.first         #=> "This"
 str_array.first(2)      #=> ["This", "is"]
 ```
 
-### Adding and removing elements
-Adding an element to an existing array is as simple at calling `push` or the shovel operator `<<`. Both methods will add elements to the end of an array and return that array, so the methods can be chained. The `pop` method will remove an element from the end of an array and return that element, rather than returning the array. Therefore, it cannot be chained.
+### Adding and Removing Elements
+
+Adding an element to an existing array is as simple as calling `push` or the shovel operator `<<`. Both methods will add elements to the end of an array and return that array, so the methods can be chained. The `pop` method will remove an element from the end of an array and return that element, rather than returning the array. Therefore, it cannot be chained.
 
 ```
 num_array = [1, 2]
@@ -65,7 +67,7 @@ num_array.push(5).push(6) #=> [1, 2, 3, 4, 5, 6]
 num_array << 7            #=> [1, 2, 3, 4, 5, 6, 7]
 
 num_array.pop             #=> 7
-num_array.pop.pop         #=> undefined method 'pop' for Fixnum
+num_array.pop.pop         #=> undefined method `pop' for 6:Integer
 ```
 
 The methods `shift` and `unshift` can also be used to operate at the beginning of an array. While `shift` will remove the first element of an array and return that element (much like `pop`), `unshift` will add elements to the beginning of an array and return that array.
@@ -77,7 +79,7 @@ The methods `shift` and `unshift` can also be used to operate at the beginning o
 [1, 2, 3, 4].shift(2)     #=> [1, 2]
 ```
 
-### Adding and subtracting arrays
+### Adding and Subtracting Arrays
 What do you think will be the outcome of `[1, 2, 3] + [3, 4, 5]`?
 
 If you guessed `[1, 2, 3, 3, 4, 5]`, congratulations! Adding two arrays will return a new array built by concatenating them. The `concat` method works the same way.
@@ -105,8 +107,9 @@ Calling the `methods` method on an array will also yield a long list of availabl
 num_array.methods       #=> A very long list of methods
 ```
 
-### Other useful methods
-As previously mentioned, there are many methods available to Ruby arrays (over 150!). Additionally, the behavior of some methods change depending on a variety of factors, such as if they take arguments or not. For at least these reasons, [ruby-doc.org](http://ruby-doc.org/) ***will*** be your best friend in maximizing your aptitude with arrays, so go soon, and go often.
+### Other Useful Methods
+
+As previously mentioned, there are many methods available to Ruby arrays (over 150!). Additionally, the behavior of some methods change depending on a variety of factors, such as if they take arguments or not. For at least these reasons, [ruby-doc.org](http://ruby-doc.org/) ***will*** be your best friend in maximizing your aptitude with arrays. So go soon, and go often.
 
 Nevertheless, here is a brief look at some other common methods you might run into.
 

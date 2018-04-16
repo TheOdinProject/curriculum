@@ -2,7 +2,7 @@
 * what enumerable methods are
 * some can be used on hashes, others turn a hash into an array
 
-## Learning outcomes
+## Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
 what the student is expected to know or be able to do by the end of this lesson
