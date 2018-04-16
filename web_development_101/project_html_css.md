@@ -1440,6 +1440,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Rj Palu-ay's Solution(Easy)](https://rjpaluay.github.io/GoogleHomepage/)
 * [LieutenantLemons' Solution (Easy)](https://github.com/LieutenantLemons/google-homepage) - [View in Browser](https://lieutenantlemons.github.io/google-homepage)
 * [Tobias Johnson's Solution (Easy)](https://github.com/viviers/google-homepage) [View in Browser](viviers.github.io/google-homepage/)
+* [Carlos Padillas's Solution (Easy)](https://github.com/carpad88/google-homepage) [View in Browser](https://carpad88.github.io/google-homepage/.)
+
 
 
 ### Additional Resources
