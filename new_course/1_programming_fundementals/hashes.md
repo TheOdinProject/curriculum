@@ -5,10 +5,10 @@ Now that you know a bit about arrays, it's time to get into the array's supercha
 ### Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* What's the difference is between hashes and arrays?
+* What's the difference between hashes and arrays?
 * How can you create a new hash?
 * How can you populate that hash with data?
-* What is the difference between keys and values in a hash?
+* What are keys and values in a hash?
 * How can you change existing values within a hash?
 * How can you delete existing data from a hash?
 * How can you merge two hashes together?
@@ -17,13 +17,15 @@ Now that you know a bit about arrays, it's time to get into the array's supercha
 
 If an array is like a shelf of bins with numbers in ascending order on it, hashes take the analogy a step further by allowing you to write the labels on the outside of the bins, which lines up more with how people act in the real world.
 
-So, let's take a look at this shelf. Here's another set of bins, labeled, not 0, 1, and 2 (like on the 'array' shelf), but "random_word", "Dorothy's math test score", "Guess what, literally another bin". Since the labels here aren't numbers in ascending order starting at 0, we can be pretty sure that what we've got here is *a hash*.
+So, let's take a look at this shelf:
 
 ```ruby
 hash = { "random_word" => "ahoy", "Dorothy's math test score" => 94, "Guess what, literally another bin" => {} }
 ```
 
-This is the most basic way to create a hash.
+Here's another set of bins, labeled, not 0, 1, and 2 (like on the 'array' shelf), but "random_word", "Dorothy's math test score", "Guess what, literally another bin". Since the labels here aren't numbers in ascending order starting at 0, we can be pretty sure that what we've got here is *a hash*.
+
+The above example is the most basic way to create a hash.
 
 There's a little bit to parse here, so let's take a breather and puzzle these bins out.
 
@@ -79,7 +81,7 @@ Notice that when we call the hash's value by key, the key goes inside a pair of 
 
 ### Removing data
 
-The simple way to delete data from a hash is simply to call the value by its key and set it to zero:
+The simple way to delete data from a hash is simply to call the value by its key and set it to `nil`:
 
 ```ruby
 shoes["winter"] = nil

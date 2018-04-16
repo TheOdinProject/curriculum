@@ -8,9 +8,9 @@ One way Ruby allows you to represent a collection of data types is with the use 
 
 * What is an array and why is it useful?
 * What are two ways to create a new empty array?
-* How can you access data in an array by index or by using `first` and `last`?
+* What are some ways of accessing the elements in an array?
 * What are 3 ways to add data to an array?
-* How can you remove data from an array?
+* How can you remove elements from an array?
 
 ### Creating Arrays
 
