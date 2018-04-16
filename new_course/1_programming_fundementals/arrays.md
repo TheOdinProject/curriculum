@@ -1,33 +1,18 @@
-<!--Chris Pine covers:
-* array literals
-* accessing via index
-* #each & #times methods
-* #to_s, #join
-* #push/#pop, #last, #length-->
-
-<!--I add:
-* array literals/initializing
-* negative indices
-* shift/unshift
-* concatenating/substracting
-* set operations?
-* other methods-->
-
-# Arrays
+### Introduction
 At the beginning of this section, you learned about creating and manipulating individual numbers and strings and assigning them to variables. In real-world development, where you'll be working with dozens (and even hundreds!) of variables, working with numbers and strings individually will be tedious, if not impossible.
 
 One way Ruby allows you to represent a collection of data types is with the use of **arrays**. Rather than working on individual variables, numbers, or strings at a time, an array allows you to create and manipulate an ordered and indexed collection of them (known as **elements** within the array). Think of arrays as a list! An array can contain any combination of variables, numbers, strings, or other Ruby objects (including other arrays), though it is advised that you keep similar data types in any one array.
 
-## Learning outcomes
-*By the end of this lesson, you can expect to:*
+### Learning outcomes
+*Look through these now and then use them to test yourself after doing the assignment*
 
-* understand what an array is and why it's useful
-* know how to create an array using `array = []` or `array = Array.new`
-* know how to access data in an array by index or by using `first` and `last`
-* know how to add data to an array using `<<`, `push`, and `unshift`
-* know how to remove data from an array using `pop` and `shift`
+* What an array is and why it's useful?
+* How can you create an array using `array = []` or `array = Array.new`?
+* How can you access data in an array by index or by using `first` and `last`?
+* How can you add data to an array using `<<`, `push`, and `unshift`?
+* How can you remove data from an array using `pop` and `shift`?
 
-## Creating arrays
+### Creating arrays
 Here are two basic arrays:
 
 ```
@@ -47,15 +32,6 @@ Array.new               #=> []
 Array.new(3)            #=> [nil, nil, nil]
 Array.new(3, "Hello")   #=> ["Hello", "Hello", "Hello"]
 Array.new(3, Array.new) #=> [[], [], []]
-```
-
-## Basic Methods
-Ruby gives you many methods to manipulate arrays and their contents, many of which are beyond the scope of this article. For full documentation, go to [http://ruby-doc.org/](http://ruby-doc.org/), click on "Core API", and scroll down to Classes: Array. There, you'll find the most up-to-date documentation on the various methods available to Ruby arrays, along with explanations.
-
-Calling the `methods` method on an array will also yield a long list of available methods, like so:
-
-```
-num_array.methods       #=> A very long list of methods
 ```
 
 ### Accessing element
@@ -120,6 +96,15 @@ To find the difference between two arrays, you can subtract them using `-`. This
 [1, 1, 1, 2, 2, 3, 4] - [1, 4]  #=> [2, 2, 3]
 ```
 
+### Basic Methods
+Ruby gives you many methods to manipulate arrays and their contents, many of which are beyond the scope of this article. For full documentation, go to [http://ruby-doc.org/](http://ruby-doc.org/), click on "Core API", and scroll down to Classes: Array. There, you'll find the most up-to-date documentation on the various methods available to Ruby arrays, along with explanations.
+
+Calling the `methods` method on an array will also yield a long list of available methods, like so:
+
+```
+num_array.methods       #=> A very long list of methods
+```
+
 ### Other useful methods
 As previously mentioned, there are many methods available to Ruby arrays (over 150!). Additionally, the behavior of some methods change depending on a variety of factors, such as if they take arguments or not. For at least these reasons, [ruby-doc.org](http://ruby-doc.org/) ***will*** be your best friend in maximizing your aptitude with arrays, so go soon, and go often.
 
@@ -143,9 +128,6 @@ Nevertheless, here is a brief look at some other common methods you might run in
 * What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look at the array class methods at ruby-doc.org [here](http://ruby-doc.org/core-2.4.0/Array.html) and look up the methods. Were you close?
 * Follow along Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays#whatisanarray), and go through the exercises using IRB or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
 * Read through [Ruby Explained: Arrays](http://www.eriktrautman.com/posts/ruby-explained-arrays) by Erik Trautman.
-
-## Exercises
-* Fork this repo (link to be inserted) and complete the exercises.
 
 ## Further Reading
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

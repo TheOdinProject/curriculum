@@ -35,7 +35,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
+* [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
 * [Cary Williams's Solutions](https://github.com/twilliams1615/ruby/blob/master/TheOdinProject/Ruby/CaesarCipher.rb)
+* [Henry Kirya's Solutions](https://github.com/harrika/odin/blob/master/caesar_cypher.rb)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/ruby-caesar-cipher)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/caesar_cypher.rb)
 * [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/caeser.rb)
@@ -342,6 +345,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [HSaad's solution](https://github.com/HSaad/ruby-building-blocks/blob/master/cipher.rb)
 * [Aziz Yakubov's solution](https://github.com/azizyakubov/caesar_cipher)
 * [Djokole's solution](https://github.com/djokole/Ruby_exercies/blob/master/caesar_cipher.rb)
+* [Punnadittr's solution](https://github.com/punnadittr/ruby-exercises/blob/master/caesar.rb)
+* [cartwheeler's solution](https://github.com/cartwheeler/ruby_caesar_cipher)
+* [MarchandMD's solution](https://github.com/MarchandMD/The-Odin-Project.git)
 
 
 ### Project 2: Stock Picker
@@ -365,7 +371,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-
+* [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
+* [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
+* [Henry Kirya's Solutions](https://github.com/harrika/odin/blob/master/stock_picker.rb)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/ruby-stock-picker)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/stock_picker.rb)
 * [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/stockpicker.rb)
@@ -650,6 +658,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [CurmudJim's solution](https://github.com/CurmudJim/ruby_programming/blob/master/stock_picker.rb)
 * [HSaad's solution](https://github.com/HSaad/ruby-building-blocks/blob/master/stock_picker.rb)
 * [Djokole's solution](https://github.com/djokole/Ruby_exercies/blob/master/stock_picker.rb)
+* [Punnadittr's solution](https://github.com/punnadittr/ruby-exercises/blob/master/stockpicker.rb)
+* [cartwheeler's solution](https://github.com/cartwheeler/ruby_stock_picker)
 
 ### Project 3: Substrings
 
@@ -680,6 +690,8 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Henry Kirya's Solution](https://github.com/harrika/odin/blob/master/substrings.rb)
+* [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/ruby-substrings)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/substrings.rb)
 * [Samuel Masters'Solution](https://github.com/redeyetuning/rb_bldg_blks/blob/master/substrings.rb)
@@ -958,3 +970,5 @@ Next, make sure your method can handle multiple words:
 * [CurmudJim's solution](https://github.com/CurmudJim/ruby_programming/blob/master/sub_string.rb)
 * [HSaad's solution](https://github.com/HSaad/ruby-building-blocks/blob/master/substrings.rb)
 * [Djokole's solution](https://github.com/djokole/Ruby_exercies/blob/master/substring.rb)
+* [Punnadittr's solution](https://github.com/punnadittr/ruby-exercises/blob/master/substrings.rb)
+* [cartwheeler's solution](https://github.com/cartwheeler/ruby_substrings)

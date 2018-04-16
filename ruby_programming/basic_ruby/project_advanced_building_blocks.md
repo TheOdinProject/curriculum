@@ -37,7 +37,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
-
+* [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
+* [Henry Kirya's Solution](https://github.com/harrika/odin/blob/master/bubble_sort.rb)
 * [Ryan's Solution](https://github.com/ryanford-frontend/ruby-adv-building-blocks/tree/master/ruby-bubblesort)
 * [Sherman Bowling's Solution](https://github.com/janus0/top_course_work/blob/master/ruby/ruby_advanced_building_blocks/bubble_sort_block.rb)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Ruby_exercises/blob/master/bubble_sort.rb)
@@ -278,6 +279,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [HSaad's Solution](https://github.com/HSaad/bubble-sort/blob/master/bubble_sort.rb)
 * [MPalhidai's Solution](https://github.com/MPalhidai/Ruby-functions/blob/master/bubble_sort_by.rb)
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/Ruby-functions/blob/master/bubble_sort_by.rb)
+* [Punnadittr's Solution](https://github.com/punnadittr/bubble_sort_ruby)
+* [cartwheeler's Solution](https://github.com/cartwheeler/ruby_bubble_sort)
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
@@ -321,6 +324,8 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
+* [Henry Kirya's Solution](https://github.com/harrika/odin/blob/master/enum.rb)
 * [Ryan's Solution](https://github.com/ryanford-frontend/ruby-adv-building-blocks/tree/master/ruby-enumerables)
 * [Turbopro's Solution](https://github.com/turbopro/ProjectBuildingBlocks/blob/master/enumerable_my_methods.rb)
 * [Sherman Bowling's solution](https://github.com/janus0/top_course_work/blob/master/ruby/ruby_advanced_building_blocks/enumerable_methods.rb)
@@ -534,6 +539,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [NJW's Solution](https://obsessivenerds.github.io/enumerable_methods/)
 * [Niko Caron's Solution](https://gist.github.com/ncaron/759e132a0f0e3c16e8b18797a13763d3)
 * [HSaad's Solution](https://github.com/HSaad/enumerable/blob/master/enumerable_methods.rb)
+* [Punnadittr's Solution](https://github.com/punnadittr/enumerable_ruby/blob/master/ruby/enumerable/enumerable.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

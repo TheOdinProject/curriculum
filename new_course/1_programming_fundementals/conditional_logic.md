@@ -1,6 +1,4 @@
 # Conditional Logic
-A brief summary about what this lesson is about and why the topics or concepts it covers are important.
-
 This lesson is all about controlling the flow of your code. The concept is pretty simple. You have some code that you only want to execute under specified conditions, so you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program...
 
 ```ruby
@@ -288,8 +286,8 @@ puts response
 
 However, if your conditional statements are complicated, then using an if; else statement would probably make more sense. Remember, above all else your code needs to be readable and understandable by other people, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
 
-## Exercises
-This will link to an external repo which will include exercises and tests
+
+
 
 ## Further Reading
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

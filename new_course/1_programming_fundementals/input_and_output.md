@@ -1,3 +1,5 @@
+<!-- This lesson will cover how to output things to the screen in Ruby and how to get input from the user. -->
+
 ### Introduction
 A brief summary about what this lesson is about and why the topics or concepts it covers are important.
 
@@ -10,12 +12,6 @@ what the student is expected to know or be able to do by the end of this lesson
 * Learning outcome 2
 * Learning outcome 3
 
-### Main Body of Lesson
-
-* Start by outlining the different sections you think this lesson should include
-* Include plenty of code snippets where applicable
-* Use h3's for headings eg `### Title`
-* Use h4's for subheadings eg `#### Subtitle`
 
 
 ### Assignment

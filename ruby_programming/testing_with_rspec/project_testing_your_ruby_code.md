@@ -20,6 +20,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* Demo318's solutions: [Caesar Cipher](https://github.com/Demo318/ruby_building_blocks/blob/master/spec/01_caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/Demo318/ruby_advanced_building_blocs/blob/master/spec/my_enumerable_spec.rb), [Tic-Tac-Toe](https://github.com/Demo318/ruby_tictactoe/tree/master/spec)
 * Isil Donmez's solutions: [Caesar's Cipher](https://github.com/isildonmez/Caesar-Cipher/blob/master/caesar_spec.rb), [Enumerable Methods](https://github.com/isildonmez/advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods_spec.rb), [Tic-Tac-Toe](https://github.com/isildonmez/OOP/blob/master/tic_tac_toe/tic_tac_toe_spec.rb)
 * Bruno Parga's solutions: [Caesar's Cipher](https://github.com/brunoparga/odinproject/tree/master/Ruby/caesar), [Enumerable Methods](https://github.com/brunoparga/odinproject/tree/master/Ruby/my_enums), [Tic-Tac-Toe](https://github.com/brunoparga/odinproject/tree/master/Ruby/tictactoe)
 * Ovsjah Schweinefresser's Solutions: [Caesar Cipher](https://github.com/Ovsjah/testing_ruby/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/Ovsjah/testing_ruby/tree/master/enumerable), [Tic-Tac-Toe](https://github.com/Ovsjah/testing_ruby/tree/master/tic_tac_toe)
@@ -100,6 +101,8 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Demo318's solution](https://github.com/Demo318/ruby_connect_four)
+* [Javier Machin's solution](https://github.com/Javier-Machin/Connect_Four)
 * [Isil Donmez's solution](https://github.com/isildonmez/connect4)
 * [Jmooree30's solution](https://github.com/jmooree30/rspec_connect4.git)
 * [Andrew's solution](https://github.com/andrewr224/Connect-Four)

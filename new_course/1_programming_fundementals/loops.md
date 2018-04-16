@@ -1,4 +1,4 @@
-# Loops
+# Introduction
 
 Loops, not to be confused with Fruit Loops, the addictive cereal that causes symptoms similar to ADHD in kids, are simply blocks of code that are continually repeated until a certain condition is met.
 
@@ -8,8 +8,6 @@ If you find yourself needing to repeat an action more than once in your code. Yo
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
-
-what the student is expected to know or be able to do by the end of this lesson
 
 * You understand what a loop is and why its useful
 * You know how to use the `loop` loop in ruby
@@ -127,9 +125,6 @@ If you need to step through a series of numbers within a specific range then the
 
 ## Assignment
 A list of external links for the user to go through
-
-## Exercise
-Link to external repo which will include exercises for this lesson which the user will complete by passing tests
 
 ## Further Reading
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
