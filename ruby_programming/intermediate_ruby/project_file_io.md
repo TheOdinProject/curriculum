@@ -19,6 +19,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
+* [Lucas Manzano's Solution](https://github.com/lucasmfarias1/hangman)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Hangman)
 * [Isil Donmez's Solution](https://github.com/isildonmez/files_and_serialization_projects/tree/master/hangman)
 * [Samuel Masters' Solution](https://github.com/redeyetuning/rb_hangman)
