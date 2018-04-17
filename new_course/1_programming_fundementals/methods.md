@@ -1,10 +1,7 @@
 # Methods
-Methods, also known as functions, are one of the foundational building blocks in programming.
-Almost every language implements some way of making methods.
+Methods, also known as functions, are one of the foundational building blocks in programming. Almost every language implements some way of making methods.
 
-You will often find yourself writing the same code in different places in your code.
-Wouldn't it be great if there was a way to reuse the same code over and over again
-without having to write it all out again?
+You will often find yourself writing the same code in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time?
 
 This is what methods are for. They allow you to wrap code in a name which you
 can then use where you need that code to be run in your programs.
@@ -32,19 +29,19 @@ end
 
 puts my_name #=> "Joe Smith"
 ```
-Lets breake it down:
+Let's break it down:
 `def` - is a built in Ruby keyword. It lets Ruby know this is the start of a method *definition*.
 
-`my_name` - is the name of the method. You can name pretty much name it whatever you want. But there are some contraints and conventions which are described in the next section.
+`my_name` - is the name of the method. You can name pretty much name it whatever you want. But there are some constraints and conventions which are described in the next section.
 
-`"Joe Smith"` - is in the *method body*. The method body is where the logic of your method goes.This paticular method will just *return* a string when its *called*
+`"Joe Smith"` - is in the *method body*. The method body is where the logic of your method goes. This particular method will just *return* a string when it's *called*.
 
-`end` - as you might have guessed `end` marks the *end* of the method definition. Its another Ruby keyword.
+`end` - as you might have guessed `end` marks the *end* of the method definition. It's another Ruby keyword.
 
 To call the method you simply need to use its name, as shown in the last line of the example `puts my_name`
 
-## Paramaters and Arguments
-* basics about what parametrs are
+## Parameters and Arguments
+* basics about what parameters are
 * default parameters
 
 ## What Methods Return
@@ -55,12 +52,12 @@ To call the method you simply need to use its name, as shown in the last line of
 
 ## Best practices
 * naming them
-* not too many paramaters
+* not too many parameters
 * bang methods
 * predicate methods
 
 ## Assignment
-1. To get a good introduction to all the different concepts related to methods read [this chapter about methods](https://launchschool.com/books/ruby/read/methods) from Launch Schools Introduction to Programming with Ruby book. Make sure to do the exercises at the end of the chapter too.
+1. To get a good introduction to all the different concepts related to methods read [this chapter about methods](https://launchschool.com/books/ruby/read/methods) from Launch School's Introduction to Programming with Ruby book. Make sure to do the exercises at the end of the chapter too.
 2. For a deeper look at methods read [this chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards book of Ruby. Again try to complete the exercises throughout the chapter.  
 
 

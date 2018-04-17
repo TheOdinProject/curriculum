@@ -141,10 +141,11 @@ japanese_cars = { honda: "Accord", toyota: "Corolla", nissan: "Altima" }
 Notice that the 'hash rocket' and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" }, or you'll get a syntax error.
 
 ### Assignment
-Todo
+* Follow along Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using IRB or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
+
 
 ### Additional resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-TODO: Find additional resources
+* Read through [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman.
