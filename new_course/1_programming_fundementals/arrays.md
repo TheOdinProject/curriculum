@@ -127,7 +127,7 @@ Nevertheless, here is a brief look at some other common methods you might run in
 [1, 2, 3].join("-")     #=> "1-2-3"
 ```
 
-## Assignment
+### Assignment
 * What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look at the array class methods at ruby-doc.org [here](http://ruby-doc.org/core-2.4.0/Array.html) and look up the methods. Were you close?
 * Follow along Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays#whatisanarray), and go through the exercises using IRB or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
 * Read through [Ruby Explained: Arrays](http://www.eriktrautman.com/posts/ruby-explained-arrays) by Erik Trautman.

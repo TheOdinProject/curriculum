@@ -129,7 +129,7 @@ Much more readable. Guaranteed to get you a yes.
 If you need to step through a series of numbers (or even letters) within a specific range, then these are the loops for you.
 
 
-## Assignment
+### Assignment
 
 * Try re-writing the above examples using alternative loop methods to achieve the same results.
 

@@ -332,7 +332,7 @@ Note that this example returns a hash with several `key => value` pairs. So the 
 This introduction to some of the more common enumerable methods should give you an idea of how many tools Ruby puts in your tool box that you are free to utilize in whatever combination you wish. Therefore given a task, and the many tools available, it is common for different coders to come up with different solutions to arrive at the same result.
 <br/>
 
-## Additional Resources
+### Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).

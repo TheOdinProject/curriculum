@@ -32,7 +32,7 @@ Then
 - show examples of pseudo coding a problem
 
 
-## Assignment
+### Assignment
 http://www.slideshare.net/DamianGordon1/pseudocode-10373156
 
 https://getpocket.com/a/read/62846566
@@ -42,7 +42,7 @@ https://ocw.mit.edu/resources/res-tll-004-stem-concept-videos-fall-2013/videos/p
 ## Exercises
 A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
 
-## Additional Resources
+### Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
