@@ -29,6 +29,12 @@ Before diving into the code, take a minute to think about how you are going to w
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/honeydew) - [View in Browser](https://mindovermiles262.github.io/honeydew/)
+* [Pedro's solution](https://github.com/dracollin/todoList-project) - [View in browser](https://codepen.io/dracollin/pen/eWrdyN)
+* [Ezequiel Espinoza's Solution](https://github.com/ezeaspie/todo-app) - [View in browser](https://ezeaspie.github.io/todo-app/)
+* [Jmooree30's solution](https://github.com/jmooree30/JS-Todo-List) - [View in browser](https://jmooree30.github.io/JS-Todo-List/)
+* [Remy's solution](https://codepen.io/beumsk/pen/QvqyMM) - [View in browser](https://codepen.io/beumsk/full/QvqyMM)
+
