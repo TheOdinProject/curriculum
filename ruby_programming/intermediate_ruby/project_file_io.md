@@ -184,6 +184,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex's solution](https://github.com/alexcorremans/guess_the_word)
 * [Alexander Luna's solution](https://github.com/Mycroft1891/my-odin-project/tree/master/ruby_programming/hangman)
 * [HSaad's solution](https://github.com/HSaad/hangman)
+* [Punnadittr's solution](https://github.com/punnadittr/hangman)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
