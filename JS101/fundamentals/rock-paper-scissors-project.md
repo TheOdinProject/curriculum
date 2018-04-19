@@ -109,11 +109,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [vartanbeno's solution](https://github.com/vartanbeno/rock-paper-scissors) - [View in browser](https://vartanbeno.github.io/rock-paper-scissors/)
 - [Alexey Leonov's solution](https://github.com/axelerleo/rock-skissors-paper) - [View in browser](https://axelerleo.github.io/rock-skissors-paper/)
 - [Fabio Oliveira's solution](https://github.com/ffabiorj/rock_paper_scissors) - [View in browser](https://cdn.rawgit.com/ffabiorj/rock_paper_scissors/dab5e260/index.html)
-<<<<<<< HEAD
 - [Benny Thai's solution](https://github.com/Deckins/rock_paper_scissors) - [View in browser](https://deckins.github.io/rock_paper_scissors/)
 - [Franklyn Afeso's solution](https://github.com/afeso/janken) - [View in browser](https://afeso.github.io/janken_ui)
-=======
-- [Franklyn Afeso's solution](https://github.com/afeso/janken)
 - [Matt Hagner's solution](https://github.com/hagnerd/improved-rock-paper-scissors) - [View in browser](https://hagnerd.github.io/improved-rock-paper-scissors/)
 - [WausauBill's Solution](https://github.com/WausauBill/WausauBill.github.io/tree/master/the_odin_project/roshambo) - [View in Browser](https://wausaubill.github.io/the_odin_project/roshambo/index.html)
 - [Ryoma's solution](https://github.com/ryozume/rock_paper_scissors) - [View in browser](https://ryozume.github.io/rock_paper_scissors_withJS/)
@@ -161,4 +158,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Pranshu's solutions](https://github.com/pranshugaba/rock_paper_scissors)
 - [Ol4er's solutions](https://github.com/ol4er/RPS)
 - [Allan Burns' solution](https://github.com/allanlburns/rock-paper-scissors/blob/master/rock_paper_scissors.html)
->>>>>>> 27d588fedb1b34552b0dba3917a1d704596bd3cf
