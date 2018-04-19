@@ -23,7 +23,7 @@
 
 * Symbols
   * What is a symbol?
-  * Whats the difference between a symbol and a string?
+  * What's the difference between a symbol and a string?
   * How do you create a symbol?
 
 * true, false and nil
@@ -66,7 +66,7 @@ There are two main types of number in Ruby:
 
 **Floats** are numbers which have a decimal point such as 10.5.
 
-Heres one of gotchas to bear in mind when working integers and floats:
+Here's one of the gotchas to bear in mind when working with integers and floats:
 
 When doing arithmetic with two integers, the result will always be an integer.
 Even if you didn't want it to be.
@@ -95,7 +95,7 @@ methods.
 When converting from a float to an integer remember that the decimal places will effectively be cut off so only the whole (integer) remains. It won't do any rounding to the closest number.
 
 #### Some Useful Number Methods
-There are a lot of very useful methods you can use built into Ruby.
+There are a lot of very useful methods you can use built into Ruby. A couple quick examples:
 
 **even?**
 ```ruby
@@ -129,7 +129,7 @@ Use double quotes for string interpolation.
   ```
 
 #### Concatenation
-In true Ruby style, there are plenty of ways to concatentate strings.
+In true Ruby style, there are plenty of ways to concatenate strings.
 
 ```ruby
 # with the plus operator
@@ -139,12 +139,12 @@ In true Ruby style, there are plenty of ways to concatentate strings.
 "Welcome " << "to " << "Odin!" # "Welcome to Odin!"
 
 # with the concat method
-"Welcome ".concat("to ").contact("Odin!") #=> "Welcome to Odin!"
+"Welcome ".concat("to ").concat("Odin!") #=> "Welcome to Odin!"
 ```
 Classic Ruby!
 
 #### Common string methods
-There are a lot of useful methods you can use built into Ruby. Someone needs you to capitalize a word? No problem! Reverse a string? Not all heroes wear capes. Extract the binary subatomic algorithm from any regex grep? Errrrrrrrr, yeah totally.
+There are a lot of useful methods you can use that are built into Ruby. Someone needs you to capitalize a word? No problem! Reverse a string? Not all heroes wear capes. Extract the binary subatomic algorithm from any regex grep? Errrrrrrrr, yeah totally.
 
 Just remember, strings have loads of methods provided to you for free and you can find them all in the [Ruby docs](ruby-doc.org/core-2.4.0/String.html). If you're working with strings and need to do something, check the Ruby Docs first and see if there is one that does it for you.
 
@@ -198,7 +198,7 @@ Below is a quick recap on the more common methods you might find yourself using.
 ```
 
 #### Substrings
-You can access strings inside strings inside strings. Stringception! It's super easy too
+You can access strings inside strings inside strings. Stringception! It's super easy too.
 
 ```ruby
 "hello"[0] #=> "h"
@@ -213,7 +213,7 @@ You can access strings inside strings inside strings. Stringception! It's super 
 ```
 
 #### Escape Characters
-Hopefully these are self explanatory. Use them if you need them in you code. There may be some gotchas with single quotes so use double quotes to be safe.
+Hopefully these are self explanatory. Use them if you need them in your code. There may be some gotchas with single quotes so use double quotes to be safe.
 
 ```ruby
 \\ #=> Need a backslash in your string?
@@ -262,9 +262,9 @@ Symbols are an interesting twist on the idea of a string. The real explanation c
 
 Strings can be changed, so every time a string is used, Ruby has to store it in memory even if an existing string with the same value already exists. Symbols on the other hand are stored in memory once. This makes symbols faster than strings at certain things.
 
-One use for symbols over strings are as keys in hashes, we'll cover this in detail in the hashes lesson later in the course.
+One use for symbols over strings are as keys in hashes. We'll cover this in detail in the hashes lesson later in the course.
 
-You won't need to use symbols much in the beginning, but its good to get familiar with what they are and what they look like so you can recognise them in Ruby code.
+You won't need to use symbols much in the beginning, but it's good to get familiar with what they are and what they look like so you can recognise them in Ruby code.
 
 #### Create a Symbol
 To create a symbol simply put a colon at the beginning of some text
@@ -288,17 +288,17 @@ To get a better idea of how symbols are stored in memory, give this a whirl in i
 
 
 ### True, false and nil
-You will learn about these data types in more detail in the conditional logic lesson later in this course, until then it will be beneficial to know what these data types are.
+You will learn about these data types in more detail in the conditional logic lesson later in this course. Until then it will be beneficial to have a basic understanding of what they are.
 
 #### true and false
-These represent exactly what you think. `true` represents something with is true and `false` represents the opposite.
+These represent exactly what you think. `true` represents something which is true and `false` represents the opposite.
 
 #### nil
-Nil represents 'nothing', everything in Ruby has a return value. When a piece of code doesn't have anything to return it will return `nil`. This is pretty abstract but it will make more sense as you learn and use Ruby more in depth.
+Nil represents 'nothing'. Everything in Ruby has a return value. When a piece of code doesn't have anything to return, it will return `nil`. This is pretty abstract but it will make more sense as you learn and use Ruby more in depth.
 
 ### Assignment
 
-1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchools Introduction to Programming Book for an different explanation of Ruby's data types.
+1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's Introduction to Programming Book for an different explanation of Ruby's data types.
 2. Read through these Ruby Monstas sections about data types:
   * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
   * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
