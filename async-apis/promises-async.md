@@ -13,11 +13,13 @@ In the recent past, the way that these were most commonly handled were with __ca
 > A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 
 Callbacks are simply functions that get passed into other functions. For example:
+
 ~~~javascript
 myDiv.addEventListener("click", function(){
   // do something!
 })
 ~~~
+
 Here, the function `addEventListener()` takes a callback (the "do something" function) and then calls it when `myDiv` gets clicked.
 
 You will likely recognize this pattern as something that happens _all the time_ in JavaScript code.  Unfortunately, though they are useful in situations like the above example, using callbacks can get out of hand, especially when you need to chain several of them together in a specific order.  The rest of this lesson discusses patterns and functions that will help keep you out of [Callback hell](http://callbackhell.com/).
@@ -45,6 +47,7 @@ The issue with this example is that it takes some time to fetch the data, but un
 const myData = getData()
 const pieceOfData = myData['whatever']
 ~~~
+
 We're going to run into trouble because when we try to extract `pieceOfData` out of the returned data, the function `getData()` will most likely still be fetching, so `myData` will not be the expected data, but will be `undefined`.  Sad.
 
 We need some way to solve this problem, and tell our code to wait until the data is done fetching to continue.  Promises solve this issue.  We'll leave learning the specific syntax for the articles you're about to read, but essentially Promises allow you do to this:
