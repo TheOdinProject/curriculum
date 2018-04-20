@@ -13,6 +13,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_recursion.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Sherman Bowling's solution](https://github.com/janus0/top_course_work/tree/master/ruby/project_fibonacci_recursion)
 * [Lucas Manzano's solution](https://github.com/lucasmfarias1/recursion/blob/master/fibs.rb)
 * [Btreims's solution](https://github.com/btreim/ruby/blob/master/Fibonacci.rb)
 * [0zra's solution](https://github.com/0zra/fib)
