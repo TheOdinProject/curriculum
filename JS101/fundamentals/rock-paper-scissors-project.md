@@ -139,7 +139,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [keyur22's UI solution](https://github.com/keyur22/Rock-Paper-Scissors-UI-Version-) - [View in browser](https://keyur22.github.io/Rock-Paper-Scissors-UI-Version-/)
 - [Shing Wong's solution](https://github.com/ayoshing/rock-paper-scissor) - [View in browser](https://ayoshing.github.io/rock-paper-scissor/)
 - [Kevin's Solution](https://github.com/super-kebin/rock_paper_scissors)
-- [JohnPiatras' Solution](https://github.com/JohnPiatras/rock-paper-scissors) - [View in browser](https:johnpiatras.github.io/rock-paper-scissors), [GUI version](https://github.com/JohnPiatras/rock-paper-scissors-gui) - [View in browser](https://johnpiatras.github.io/rock-paper-scissors-gui/)
+- [JohnPiatras' Solution](https://github.com/JohnPiatras/rock-paper-scissors) - [View in browser](https://johnpiatras.github.io/rock-paper-scissors), [GUI version](https://github.com/JohnPiatras/rock-paper-scissors-gui) - [View in browser](https://johnpiatras.github.io/rock-paper-scissors-gui/)
 - [3lux's solution](https://github.com/3lux/rock-paper-scissors) - [View in browser](http://3lux.github.io/rock-paper-scissors)
 - [Hana Klingova's solution](https://github.com/hanny21/rock_paper_scissors) - [View in browser](https://hanny21.github.io/rock_paper_scissors/)
 - [Punnadittr's solution](https://github.com/punnadittr/rockpaperscissors) - [View in browser](https://punnadittr.github.io/rockpaperscissors/)
