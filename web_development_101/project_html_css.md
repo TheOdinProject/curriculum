@@ -1443,11 +1443,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Fabricio Garcia's Solution (Easy)](https://github.com/fabricI0/google-homepage) [View in Browser](https://fabrici0.github.io/google-homepage/)
 * [Carlos Padillas's Solution (Easy)](https://github.com/carpad88/google-homepage) [View in Browser](https://carpad88.github.io/google-homepage/)
 * [Ben Smyth's Solution (Easy)](https://github.com/benjsmyth/google-homepage) [View in Browser](https://benjsmyth.github.io/google-homepage/)
-<<<<<<< HEAD
 * [Julian Selody's Solution (Easy)](https://github.com/cthulian/google-homepage/) [View in Browser](https://cthulian.github.io/google-homepage/)
-=======
 * [Dima Konoval's Solution (Difficult)(https://github.com/DimaKonoval/google-resultpage) [View in Browser](https://cdn.rawgit.com/DimaKonoval/google-resultpage/66f4cc04/index.html)
->>>>>>> f07e3bd2c510c9cd645b5e1dda6180d8057c5ef4
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
