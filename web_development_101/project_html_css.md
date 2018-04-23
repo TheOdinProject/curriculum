@@ -95,6 +95,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this list
 * [joaoag's solution (Easy)](https://github.com/joaoag/google-homepage) - [View in Browser](https://joaoag.github.io/google-homepage/)
+* [Ngo Van Huong's Solution (Easy)](https://github.com/ngovanhuong94/google-homepage) - [View in Browser](https://ngovanhuong94.github.io/google-homepage/)
 * [S. Hall's Solution (Easy)](https://github.com/TravelingMan/google-homepage) - [View in Browser](https://travelingman.github.io/google-homepage/)
 * [Henry Kirya's Solution (Easy)](https://github.com/harrika/google-homepage) - [View in Browser](https://harrika.github.io/google-homepage/)
 * [Sebastian Bade's Solution (Easy)](https://github.com/kunsebastian/google-homepage) - [View in Browser](https://kunsebastian.github.io/google-homepage/)
@@ -1444,8 +1445,11 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Fabricio Garcia's Solution (Easy)](https://github.com/fabricI0/google-homepage) [View in Browser](https://fabrici0.github.io/google-homepage/)
 * [Carlos Padillas's Solution (Easy)](https://github.com/carpad88/google-homepage) [View in Browser](https://carpad88.github.io/google-homepage/)
 * [Ben Smyth's Solution (Easy)](https://github.com/benjsmyth/google-homepage) [View in Browser](https://benjsmyth.github.io/google-homepage/)
-
-
+* [Julian Selody's Solution (Easy)](https://github.com/cthulian/google-homepage/) [View in Browser](https://cthulian.github.io/google-homepage/)
+* [Dima Konoval's Solution (Difficult)(https://github.com/DimaKonoval/google-resultpage) [View in Browser](https://cdn.rawgit.com/DimaKonoval/google-resultpage/66f4cc04/index.html)
+* [Matt Outen's Solution (Easy)](https://github.com/mouten57/google-homepage) [View in Browser](https://mouten57.github.io/google-homepage/)
+* [Amos Holmes' Solution (Easy)](https://github.com/kolat06/google-webpage)[View in Browser](https://kolat06.github.io/google-webpage/)
+ 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
