@@ -199,6 +199,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex's solution](https://github.com/alexcorremans/tictactoe/blob/master/tictactoe.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/bookish-tribble)
 * [Kusnierewicz Solution](https://github.com/Kusnierewicz/Tic-Tac-Toe-Game)
+* [parhaml's solution](https://github.com/parhaml/tic_tac_toe)
 
 
 ### Project 2: Mastermind
