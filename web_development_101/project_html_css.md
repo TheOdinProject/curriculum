@@ -95,7 +95,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this list
 * [joaoag's solution (Easy)](https://github.com/joaoag/google-homepage) - [View in Browser](https://joaoag.github.io/google-homepage/)
-* [Ngo Van Huong's Solution (Easy)](https://github.com/ngovanhuong94/google-homepage) - [View in Browser](https://ngovanhuong94.github.io/google-homepage/)
+* [Ngo Van Huong's Solution (Easy)](https://github.com/ngovanhuong94/google-homepage) - [View in Browser](https://ngovanhuong94.github.io/google-homepage/) - [View in Browser (Difficult)](https://ngovanhuong94.github.io/google-search-results/)
 * [S. Hall's Solution (Easy)](https://github.com/TravelingMan/google-homepage) - [View in Browser](https://travelingman.github.io/google-homepage/)
 * [Henry Kirya's Solution (Easy)](https://github.com/harrika/google-homepage) - [View in Browser](https://harrika.github.io/google-homepage/)
 * [Sebastian Bade's Solution (Easy)](https://github.com/kunsebastian/google-homepage) - [View in Browser](https://kunsebastian.github.io/google-homepage/)
