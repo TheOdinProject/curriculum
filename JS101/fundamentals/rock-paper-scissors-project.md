@@ -160,3 +160,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Allan Burns' solution](https://github.com/allanlburns/rock-paper-scissors/blob/master/rock_paper_scissors.html)
 - [IvanaGoSt's solution](https://github.com/IvanaGoSt/rock-paper-scissors)
 - [Daniel Mau's Solution](https://github.com/dbm19/RPS)
+- [Daniel Ortea's Solution](https://github.com/D-Ortea/rock-paper-scissors) - [View in Browser(text)](https://d-ortea.github.io/rock-paper-scissors/v0/index.html) - [View in Browser(GUI)](https://d-ortea.github.io/rock-paper-scissors/v1/index.html)
