@@ -116,3 +116,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [mojotron's Solution](https://github.com/mojotron/etch-a-sketch) - [View in Browser](https://mojotron.github.io/etch-a-sketch/)
 * [Onur's Solution](https://github.com/deksudo/JScanvas) - [View in Browser](https://deksudo.github.io/JScanvas/)
 * [Jarred Herrington's Solution](https://github.com/Herringtonjc/etch-a-sketch) - [View in Browser](https://herringtonjc.github.io/etch-a-sketch/)
+* [Natalie Aldrich's Solution](https://github.com/nataliealdrich/etch-a-sketch) - [View in Browser](https://nataliealdrich.github.io/etch-a-sketch/)
+* [Faris Ibrahim's Solution](https://github.com/procusr/etch-a-sketch) - [View in Browser](https://procusr.github.io/etch-a-sketch/)
+
