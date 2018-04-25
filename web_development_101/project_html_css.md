@@ -1449,6 +1449,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Dima Konoval's Solution (Difficult)(https://github.com/DimaKonoval/google-resultpage) [View in Browser](https://cdn.rawgit.com/DimaKonoval/google-resultpage/66f4cc04/index.html)
 * [Matt Outen's Solution (Easy)](https://github.com/mouten57/google-homepage) [View in Browser](https://mouten57.github.io/google-homepage/)
 * [Amos Holmes' Solution (Easy)](https://github.com/kolat06/google-webpage)[View in Browser](https://kolat06.github.io/google-webpage/)
+* [AlexandreLeFou's Solution (Easy)](https://github.com/AlexandreLeFou/google-homepage)[View in Browser](https://alexandrelefou.github.io/google-homepage/)
  
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
