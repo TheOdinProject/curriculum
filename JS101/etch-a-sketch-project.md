@@ -40,6 +40,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/etch-a-sketch-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [Mark Bungeroth's Solution](https://github.com/mbungeroth/etch-a-sketch) | [View in Browser](https://mbungeroth.github.io/etch-a-sketch/)
 * [Jimmy's Solution](https://github.com/pty5io/etch_a_sketch) | [View in Browser](https://pty5io.github.io/etch_a_sketch/)
 * [jstnlester's Solution](https://github.com/jstnlester/etch-a-sketch) - [View in Browser](https://jstnlester.github.io/etch-a-sketch/)
 * [Augusto's solution](https://github.com/hackedwifi/sketchpad) - [View in browser](https://hackedwifi.github.io/sketchpad/)
@@ -119,3 +120,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Natalie Aldrich's Solution](https://github.com/nataliealdrich/etch-a-sketch) - [View in Browser](https://nataliealdrich.github.io/etch-a-sketch/)
 * [Faris Ibrahim's Solution](https://github.com/procusr/etch-a-sketch) - [View in Browser](https://procusr.github.io/etch-a-sketch/)
 * [Daniel Ortea's Solution](https://github.com/D-Ortea/etch-a-sketch) - [View in Browser](https://d-ortea.github.io/etch-a-sketch/)
+
