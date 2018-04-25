@@ -319,6 +319,8 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [Datagoil's solution](https://github.com/datagoil/caesar_cipher/blob/master/caeser_cipher.rb)
 * [Samitha's solution](https://github.com/samomatik/building_blocks/blob/master/caesar.rb)
 * [WilPoly's solution](https://github.com/wilPoly/ruby_programming/blob/master/basic_ruby/building_blocks/caesar_cipher.rb)
+* [Jason's solution](https://github.com/jn4248/ruby_building_blocks/blob/master/ceaser_cipher.rb)
+
 
 ### Project 2: Stock Picker
 
@@ -606,6 +608,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [datagoil's solution](https://github.com/datagoil/stock-picker)
 * [Samitha's solution](https://github.com/samomatik/building_blocks/blob/master/stock_picker.rb)
 * [WilPoly's solution](https://github.com/wilPoly/ruby_programming/blob/master/basic_ruby/building_blocks/stock_picker.rb)
+* [Jason's solution](https://github.com/jn4248/ruby_building_blocks/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -898,3 +901,4 @@ Next, make sure your method can handle multiple words:
 * [datagoil's solution](https://github.com/datagoil/substrings-for-Odin)
 * [Samitha's solution](https://github.com/samomatik/building_blocks/blob/master/substrings.rb)
 * [WilPoly's solution](https://github.com/wilPoly/ruby_programming/blob/master/basic_ruby/building_blocks/substrings.rb)
+* [Jason's solution](https://github.com/jn4248/ruby_building_blocks/blob/master/substrings.rb)
