@@ -119,3 +119,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jarred Herrington's Solution](https://github.com/Herringtonjc/etch-a-sketch) - [View in Browser](https://herringtonjc.github.io/etch-a-sketch/)
 * [Natalie Aldrich's Solution](https://github.com/nataliealdrich/etch-a-sketch) - [View in Browser](https://nataliealdrich.github.io/etch-a-sketch/)
 * [Faris Ibrahim's Solution](https://github.com/procusr/etch-a-sketch) - [View in Browser](https://procusr.github.io/etch-a-sketch/)
+* [Daniel Ortea's Solution](https://github.com/D-Ortea/etch-a-sketch) - [View in Browser](https://d-ortea.github.io/etch-a-sketch/)
+

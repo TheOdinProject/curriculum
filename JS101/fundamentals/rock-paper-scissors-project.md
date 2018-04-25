@@ -163,3 +163,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Fabricio Garcia's solution](https://github.com/fabricI0/rock-paper-scissors)
 - [James Thomson's solution](https://github.com/jthomsonx/rockpaperscissors_js)
 - [Giorgi Shengelaia's solution](https://github.com/supuun/jeirani)
+- [Daniel Ortea's Solution](https://github.com/D-Ortea/rock-paper-scissors) - [View in Browser(text)](https://d-ortea.github.io/rock-paper-scissors/v0/index.html) - [View in Browser(GUI)](https://d-ortea.github.io/rock-paper-scissors/v1/index.html)
