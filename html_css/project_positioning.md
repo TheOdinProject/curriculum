@@ -1,4 +1,4 @@
-﻿### Introduction
+### Introduction
 
 The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories.  That creates all kinds of interesting position questions.
 
