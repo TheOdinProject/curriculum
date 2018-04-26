@@ -183,4 +183,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * Read [Zed Shaw's Learning SQL The Hard Way](http://sql.learncodethehardway.org/book/).  It is imperfect and also incomplete but should help solidify things for you.  It'll have you doing a fair bit of work from the command line, so you'll get a chance to catch up on your Bash scripting as well.  Double whammy!
 * [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
 * [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
-* If you feel like doing more SQL exercises, make sure to check out [this website](http://www.sql-ex.com/) .
+* If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/) .
