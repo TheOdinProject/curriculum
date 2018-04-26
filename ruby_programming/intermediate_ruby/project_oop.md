@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Henry Kirya's solution](https://github.com/harrika/odin/tree/master/tictac)
 * [Suman Saurabh's solution](https://github.com/sumandroid/odin-tic-tac-toe)
 * [Isil Donmez's Solution](https://github.com/isildonmez/OOP/tree/master/tic_tac_toe)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/TicTacToe/blob/master/tic_tac_toe.rb)
@@ -236,6 +237,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Henry Kirya's Solution](https://github.com/harrika/odin/tree/master/mastermind)
 * [Isil Donmez's Solution](https://github.com/isildonmez/OOP/tree/master/master_mind)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Mastermind/blob/master/mastermind.rb)
 * [Sava Vuckovic's Solution](https://github.com/SavaVuckovic/Mastermind-Game)
