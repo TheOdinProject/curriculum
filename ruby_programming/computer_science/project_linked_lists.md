@@ -148,3 +148,4 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Alex's solution](https://github.com/alexcorremans/linked_list)
 * [HSaad's solution](https://github.com/HSaad/linked-lists)
 * [Scott McKell's Solution:](https://github.com/zottwickel/linked_list.git)
+* [Punnadittr's Solution:](https://github.com/punnadittr/linked_list/blob/master/linked_lists.rb)
