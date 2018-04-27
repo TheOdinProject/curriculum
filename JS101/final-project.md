@@ -94,3 +94,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Fabio's solution](https://github.com/ffabiorj/calculator) - [View in Browser](https://cdn.rawgit.com/ffabiorj/calculator/c359c53b/index.html)
 - [Mojotron's solution](https://github.com/mojotron/simple-calculator) - [View in Browser](https://mojotron.github.io/simple-calculator/)
 - [Benny's Solution](https://deckins.github.io/Calculator/) - [View in Browser](https://deckins.github.io/Calculator/)
+- [Jarred Herrington's Solution](https://github.com/Herringtonjc/calculator) - [View in Browswer](https://herringtonjc.github.io/calculator/)
