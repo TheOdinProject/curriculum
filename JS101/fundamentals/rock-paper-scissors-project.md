@@ -167,3 +167,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Giorgi Shengelaia's solution](https://github.com/supuun/jeirani)
 - [Daniel Ortea's Solution](https://github.com/D-Ortea/rock-paper-scissors) - [View in Browser(text)](https://d-ortea.github.io/rock-paper-scissors/v0/index.html) - [View in Browser(GUI)](https://d-ortea.github.io/rock-paper-scissors/v1/index.html)
 - [Amicloud's solution](https://github.com/wsmithsrs/odinproject/tree/master/rockpaperscissors)
+- [Caner Sezgin's solution](https://github.com/casedo/Rock-Paper-Scissors) - [View in Browser](http://bit.ly/casedoRPS)
