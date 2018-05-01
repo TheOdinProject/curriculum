@@ -9,17 +9,18 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 1. If you haven't already, set up your project with skeleton HTML/CSS and JS files.
 2. All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user's input and store the new book objects into an array. Your code should look something like this:
 
-   ~~~javascript
-   let myLibrary = []
+   ~~~javascript
+   let myLibrary = []
 
-   function Book() {
-     // the constructor...
-   }
+   function Book() {
+     // the constructor...
+   }
 
-   function addBookToLibrary() {
-     // do stuff here
-   }
-   ~~~
+   function addBookToLibrary() {
+     // do stuff here
+   }
+   ~~~
+  
 3. Hook the array up to your HTML with a `render()` function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own "card". It might help for now to manually add a few books to your array so you can see the display.
 4. Add a "NEW BOOK" button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether it's been read and anything else you might want.
 5. Add a button on each book's display to remove the book from the library.
@@ -35,6 +36,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 - Add your solution below this line!
+- [brxck's Solution](https://github.com/brxck/odin-library) - [View in Browser](http://brockmcelroy.com/odin-library/)
 - [autumnchris's Solution](https://github.com/autumnchris/reading-list) - [View in Browser](https://autumnchris.github.io/reading-list)
 - [theghall's solution](https://github.com/theghall/odin-library) - [View in Browser](https://theghall.github.io/odin-library/)
 - [mindovermiles262's solution](https://github.com/mindovermiles262/odin-library) - [View in Browser](https://mindovermiles262.github.io/odin-library/)
