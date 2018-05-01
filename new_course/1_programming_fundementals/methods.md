@@ -122,10 +122,58 @@ puts phrase.reverse.join(" ").capitalize #=> To be or not to be
 ```
 
 ## Best practices
-* naming them
-* not too many parameters
-* bang methods
-* predicate methods
+
+We told you earlier that you can pretty much give your own methods any name you want. But you shouldn't do this haphazardly. For example, don't name your method `do_stuff`.  There are certain conventions that recommended in order to improve readability and maintainability of your code.
+
+In general, short but descriptive is the name of the naming-game.  You want to be able to tell what a method is expected to do based on its name.
+
+What is allowed / not allowed in method names....
+
+* too long a name / not too many parameters
+
+Another thing to consider is that, if your method does too many things such that you feel it requires a very long name, then your method actually probably best to be broken up into several smaller/simpler methods. Methods should in reality only do one thing. This practice will pay dividends down the road, again for readability, scalability and maintainability. (It also makes testing your code a lot easier, which will be covered in a later lesson.)
+
+The same idea applies if you find your method accepting too many parameters/arguments.  If it is accepting numerous arguments, it is probably doing too many things, and should be broken up into individual simpler methods doing individual tasks.
+
+
+
+
+### Predicate Methods
+
+You will at times encounter some built in Ruby methods that have a `?` mark at the end of their name. Such as `even?`, `odd?`, `between?` and many more.  These are called `predicate` methods. Ruby uses this naming convention for any method that strictly returns a Boolean, that is either `true` or `false`.
+
+```ruby
+puts 5.even?  #=> false
+puts 6.even?  #=> true
+puts 17.odd?  #=> true
+
+puts 12.between?(10, 15)  #=> true
+```
+
+You can also name your own methods with a `?` a the end to indicate your method returns a Boolean. (just note that Ruby does not enforce this, but you will thank yourself later for following this convention).
+
+### Bang Methods
+
+Observe the example below:
+
+```ruby
+whisper = "HELLO EVERYBODY"
+
+puts whisper.downcase #=> hello everybody
+puts whisper #=> HELLO EVERYBODY
+```
+
+What gives?  I thought we downcased that thing!  So why did it not change when we called it again?
+What happens is that calling a method on an object, such as our string above, does not actually modify the original value of that object.  A general rule in programming is that you do not want your methods to overwrite the objects you call them on. This is to protect you from irreversibly overwriting your data by accident.  Though you *ARE* able to do so by explicitly re-assigning a variable (such as whisper = whisper.downcase).  But another way to do this is with *bang methods* and the `!` symbol.
+
+By just adding a `!` to the end of your method, you are indicating that this method is going to perform its action and also apply the result to override the value of the original object.
+
+```ruby
+puts whisper.downcase! #=> hello everybody
+puts whisper #=> hello everybody
+```
+
+Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.downcase`.
 
 ### Assignment
 1. To get a good introduction to all the different concepts related to methods read [this chapter about methods](https://launchschool.com/books/ruby/read/methods) from Launch School's Introduction to Programming with Ruby book. Make sure to do the exercises at the end of the chapter too.
