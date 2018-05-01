@@ -19,11 +19,11 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 * You understand the difference between `puts` and `return`
 
 ## Ruby's Built in Methods
-* explain what they are, you've already been using them.
+One of Ruby's great advantages for new programmers is that large number of built-in methods it includes.
 
 ## Creating a Method
 You can create your own custom methods in Ruby like so:
-```(ruby)
+```ruby
 def my_name
   "Joe Smith"
 end
@@ -46,8 +46,33 @@ In this example, the output is `"Joe Smith"` because when you write `puts my_nam
 
 
 ## Parameters and Arguments
-* basics about what parameters are
-* default parameters
+
+Of course, not all methods are as simplistic as the example above. After all, what good are methods if you can't interact with them? When you need to return something other than a fixed result, you need methods with parameters. Parameters are variables that your method will receive when it is called. You can have more meaningful and useful interactions with your methods by using parameters to make them more versatile.
+
+```ruby
+def greet(name)
+  "Hello " + name + "!"
+end
+
+puts greet("John") #=> Hello John!
+```
+
+In this simple example, `name` is a parameter that the `greet` method uses to return a more specific greeting. The method is called with the argument `"John"`, and returns the string "Hello John!"
+
+You might be confused when to use the term *argument* vs. *parameter*. Don't be: <u>P</u>arameters effectively act as <u>P</u>laceholder variables in the template that is your method, while <u>A</u>rguments are the <u>A</u>ctual variables that get passed to the method when it is called. The two terms are commonly used interchangeably, so don't worry too much about it.
+
+### Default Parameters
+
+What if you don't always want or need to provide arguments for each parameter that your method accepts? That's where default parameters can be useful. Going back to our simple example above, what if we don't know the person's name? We can code our `greet` method to use a default `name` of "stranger":
+
+```ruby
+def greet(name = "stranger")
+  "Hello " + name + "!"
+end
+
+puts greet("Jane") #=> Hello Jane!
+puts greet #=> Hello stranger!
+```
 
 ## What Methods Return
 * explicit and implicit returns
@@ -56,7 +81,7 @@ More specifically, the string `"Joe Smith"` is the last line of the method.  Wha
 
 In facts, methods typically need a `"return"` keyword at the end. But Ruby will take care of this for you by implicitly inferring the "return" keyword for you to the last line in the body of your method if you did not include one. Ruby will interpret your method as though it was written like so:
 
-```(ruby)
+```ruby
 def my_name
   return "Joe Smith"
 end
@@ -65,7 +90,7 @@ end
 
 A *return* might not be in the last line of a method, or perhaps not even the only *return* in a method's body. The method below will behave differently based on the argument you pass to it and an if statement with two possible *return* statements:
 
-```(ruby)
+```ruby
 def even_odd(num_argument)
   if num_argument % 2 == 0
     return "That is an even number."
@@ -87,10 +112,14 @@ Ruby actually simply returns the last line that is evaluated.  By placing a *ret
 Therefore having a good understanding of just what your methods are returning is an important part of debugging your code when things don't behave as expected. Practice will help your understanding of this concept.
 
 
-
-
 ## Chaining Methods
-* how it works
+To keep you from having to write multiple lines when performing several actions (methods) on an object, Ruby allows you to chain your methods together. This can be done with the built-in methods, or methods which you have written.
+
+```ruby
+phrase = ["be", "to", "not", "or", "be", "to"]
+
+puts phrase.reverse.join(" ").capitalize #=> To be or not to be
+```
 
 ## Best practices
 * naming them
