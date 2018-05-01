@@ -171,3 +171,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Michal Petrik's Solution](https://github.com/vikingviolinist/rock_paper_scissors) - [View in Browser](https://vikingviolinist.github.io/rock_paper_scissors/)
 - [Caner Sezgin's solution](https://github.com/casedo/Rock-Paper-Scissors) - [View in Browser](http://bit.ly/casedoRPS)
 - [Agon Idrizi's solution](https://github.com/AgonIdrizi/rock_papper_scissors/blob/master/index.html)
+- [Dima Konoval's solution](https://github.com/DimaKonoval/Rock-Paper-Scissors) - [View in Browser](https://cdn.rawgit.com/DimaKonoval/Rock-Paper-Scissors/8cb047fb/index.html)
