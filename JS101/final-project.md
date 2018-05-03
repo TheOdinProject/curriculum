@@ -39,6 +39,8 @@ Here are some use cases (abilities you project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/final-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/calculator) - [View in Browser](https://ngovanhuong94.github.io/calculator/)
+- [Mark Bungeroth's Solution](https://github.com/mbungeroth/calculator) - [View in Browser](https://mbungeroth.github.io/calculator/)
 - [autumnchris's Solution](https://github.com/autumnchris/calculator) - [View in Browser](https://autumnchris.github.io/calculator)
 - [Douglasbsx Solution](https://github.com/douglasbsx/calculator) - [View in Browser](https://douglasbsx.github.io/calculator/)
 - [Ed Magalhaes' solution](https://github.com/EdMagal/TOPcalculator) - [View in browser](https://rawgit.com/EdMagal/TOPcalculator/master/index.html)
@@ -93,4 +95,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Fabio's solution](https://github.com/ffabiorj/calculator) - [View in Browser](https://cdn.rawgit.com/ffabiorj/calculator/c359c53b/index.html)
 - [Mojotron's solution](https://github.com/mojotron/simple-calculator) - [View in Browser](https://mojotron.github.io/simple-calculator/)
 - [Benny's Solution](https://deckins.github.io/Calculator/) - [View in Browser](https://deckins.github.io/Calculator/)
+- [Jarred Herrington's Solution](https://github.com/Herringtonjc/calculator) - [View in Browswer](https://herringtonjc.github.io/calculator/)
 - [Danie Ortea's Solution](https://github.com/D-Ortea/calculator) - [View in Browser](https://d-ortea.github.io/calculator/)
