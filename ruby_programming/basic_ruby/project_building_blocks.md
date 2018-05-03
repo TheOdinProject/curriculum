@@ -350,6 +350,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [cartwheeler's solution](https://github.com/cartwheeler/ruby_caesar_cipher)
 * [MarchandMD's solution](https://github.com/MarchandMD/The-Odin-Project.git)
 * [zasman's solution](https://github.com/ZASMan/caesar_cipher)
+* [Encolpius's solution](https://github.com/Encolpius/ruby-building-blocks/tree/master/caesar-cipher)
 
 
 ### Project 2: Stock Picker
@@ -663,6 +664,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Djokole's solution](https://github.com/djokole/Ruby_exercies/blob/master/stock_picker.rb)
 * [Punnadittr's solution](https://github.com/punnadittr/ruby-exercises/blob/master/stockpicker.rb)
 * [cartwheeler's solution](https://github.com/cartwheeler/ruby_stock_picker)
+* [Encolpius's solution](https://github.com/Encolpius/ruby-building-blocks/tree/master/stock-picker)
 
 ### Project 3: Substrings
 
@@ -976,3 +978,4 @@ Next, make sure your method can handle multiple words:
 * [Djokole's solution](https://github.com/djokole/Ruby_exercies/blob/master/substring.rb)
 * [Punnadittr's solution](https://github.com/punnadittr/ruby-exercises/blob/master/substrings.rb)
 * [cartwheeler's solution](https://github.com/cartwheeler/ruby_substrings)
+* [Encolpius's solution](https://github.com/Encolpius/ruby-building-blocks/tree/master/substrings)
