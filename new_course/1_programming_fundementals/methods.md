@@ -99,29 +99,26 @@ end
 puts my_name #=> "Joe Smith"
 ```
 
-Our output to the console here is `"Joe Smith"`. Because when you write `puts my_name` you are puts-ing what is *returned* by the method `my_name`.  And that method simply *returns* the string `"Joe Smith"` because that string is all that is in the body of that method.
+Our `my_name` method returns "Joe Smith". This may seem obvious, because it's the only thing inside the method. In most languages, however, such a method would not return anything, because it does not have an *explicit return* statement. Ruby is one of a few languages that employs *implicit returns* for methods.
 
-<!-- More specifically, the string `"Joe Smith"` is the last line of the method.  Whatever is stated on the last line of a method is what it will return.   -->
-
-TO_FIX  specifically mention "implicit return" and "explicit return".
-
-In fact, methods typically need a `"return"` keyword at the end. But Ruby will take care of this for you by implicitly inferring the "return" keyword for you to the last line in the body of your method if you did not include one. Ruby will interpret your method as though it was written like so:
+The above example could just as well be written with an explicit return:
 
 ```ruby
 def my_name
   return "Joe Smith"
 end
+
+puts my_name #=> "Joe Smith"
 ```
 
-
-A *return* might not be in the last line of a method, or perhaps not even the only *return* in a method's body. The method below will behave differently based on the argument you pass to it and an if statement with two possible *return* statements:
+With *implicit returns*, the rule to keep in mind is that Ruby methods always return the last expression which is evaluated. This may or may not be the last line in the code, as you can see in the following example.
 
 ```ruby
-def even_odd(num_argument)
-  if num_argument % 2 == 0
-    return "That is an even number."
+def even_odd(number)
+  if number % 2 == 0
+    "That is an even number."
   else
-    return "That is an odd number."
+    "That is an odd number."
   end
 end
 
@@ -129,24 +126,31 @@ puts even_odd(16) #=>  That is an even number.
 puts even_odd(17) #=>  That is an odd number.
 ```
 
-The important thing to understand is that if at any point the method encounters a line with an *explicit return* statement, that line will be last thing that will be evaluated.  So anything after the first *return* will be ignored or skipped.
+Here, the method's return is dependent on the result of the `if` condition. If the argument is an even number, the expression inside the `else` statement never gets evaluated, so `even_odd` returns "That is an even number."
 
-Just like in the `my_name` method, the *return* keywords are not even needed on either line in this example, though it may be easier to visualize to include them.
+*Explicit returns* can still have a place in Ruby code. Remember, Ruby returns the last expression evaluated. An *explicit return* (using the keyword `return`) essentially tells Ruby: "This is the last expression you should evaluate." Here's an example that shows how `return` stops the method from continuing.
 
-Ruby actually simply returns the last line that is evaluated.  By placing a *return* keyword, you are effectively saying "This is the last line that should be evaluated, ignore everything after this."
+```ruby
+def my_name
+  return "Joe Smith"
+  "Jane Doe"
+end
 
-Therefore having a good understanding of just what your methods are returning is an important part of debugging your code when things don't behave as expected. Practice will help your understanding of this concept.
+puts my_name #=> "Joe Smith"
+```
+
+Having a good understanding of just what your methods are returning is an important part of debugging your code when things don't behave as expected. Practice will help you understand this concept better.
 
 ### Difference between `puts` and `return`
 
 A common source of confusion for new programmers is the difference between `puts` and `return`.
 
-`puts` is an instruction (it's actually a method as you just learned) to print to the console whatever you tell to it to.
-`return` is the final outcome of a method that you can make use of.  For example, you can have a method which calculates the multiplication of 3 * 10:
+`puts` is an instruction (it's actually a method as you just learned) to print to the console whatever you tell it to.
+`return` is the final outcome of a method that you can make use of, as discussed in detail above. For example, you can have a method which calculates the multiplication of 3 and 10:
 
 ```ruby
 def dirty_thirty
-  return 3 * 10
+  3 * 10
 end
 ```
 
@@ -156,6 +160,8 @@ You can then interact with this outcome in other places in your code:
 puts "Yup I am turning " + dirty_thirty.to_s + " this year."
 #=>  Yup I am turning 30 this year.
 ```
+
+You can see that the result (return) of the `dirty_thirty` method is just a piece of the output produced by this `puts` statement.
 
 ## Chaining Methods
 
@@ -179,7 +185,7 @@ You are effectively having each method building off of the outcome of the previo
 
 ## Best practices
 
-We told you earlier that you can pretty much give your own methods any name you want. But you shouldn't do this haphazardly. For example, don't name your method `do_stuff`.  There are certain conventions that are recommended in order to improve readability and maintainability of your code.
+We told you earlier that you can pretty much give your own methods any name you want. But you shouldn't do this haphazardly. For example, don't name your method `do_stuff`. There are certain conventions that are recommended in order to improve readability and maintainability of your code.
 
 You can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=` in your method names. The convention for multiple words in a name is to use "snake_case", separating words with underscores.
 
@@ -208,12 +214,12 @@ In general, short but descriptive is the name of the naming-game.  You want to b
 
 Another thing to consider is that, if your method does too many things such that you feel it requires a very long name, then your method should probably be broken up into several smaller/simpler methods. Methods should in reality only do one thing. This practice will pay dividends down the road, again for readability, scalability and maintainability. (It also makes testing your code a lot easier, which will be covered in a later lesson.)
 
-The same idea applies if you find your method accepting too many parameters/arguments.  If it is accepting numerous arguments, it is probably doing too many things, and should be broken up into individual simpler methods doing individual tasks.
+The same idea applies if you find your method accepting too many parameters/arguments. If it is accepting numerous arguments, it is probably doing too many things, and should be broken up into individual simpler methods doing individual tasks.
 
 
 ### Predicate Methods
 
-You will at times encounter some built in Ruby methods that have a `?` mark at the end of their name. Such as `even?`, `odd?`, `between?` and many more.  These are called `predicate` methods. Ruby uses this naming convention for any method that strictly returns a Boolean, that is either `true` or `false`.
+You will at times encounter some built-in Ruby methods that have a `?` mark at the end of their name. Such as `even?`, `odd?`, `between?` and many more.  These are called `predicate` methods. Ruby uses this naming convention for any method that strictly returns a Boolean, that is either `true` or `false`.
 
 ```ruby
 puts 5.even?  #=> false
@@ -223,7 +229,7 @@ puts 17.odd?  #=> true
 puts 12.between?(10, 15)  #=> true
 ```
 
-You can also name your own methods with a `?` a the end to indicate your method returns a Boolean. (just note that Ruby does not enforce this, but you will thank yourself later for following this convention).
+You can also name your own methods with a `?` a the end to indicate your method returns a Boolean. (Just note that Ruby does not enforce this, but you will thank yourself later for following this convention).
 
 ### Bang Methods
 
@@ -238,7 +244,7 @@ puts whisper #=> HELLO EVERYBODY
 
 What gives?  I thought we downcased that thing!  So why did it not change when we called it again?
 <br/>
-What happens is that calling a method on an object, such as our string above, does not actually modify the original value of that object.  A general rule in programming is that you do not want your methods to overwrite the objects you call them on. This is to protect you from irreversibly overwriting your data by accident.  Though you *ARE* able to do so by explicitly re-assigning a variable (such as whisper = whisper.downcase).  But another way to do this is with *bang methods* and the `!` symbol.
+What happens is that calling a method on an object, such as our string above, does not actually modify the original value of that object. A general rule in programming is that you do not want your methods to overwrite the objects you call them on. This is to protect you from irreversibly overwriting your data by accident. Though you *ARE* able to do so by explicitly re-assigning a variable (such as whisper = whisper.downcase). But another way to do this is with *bang methods*, which are denoted with the `!` symbol.
 
 By just adding a `!` to the end of your method, you are indicating that this method is going to perform its action and also apply the result to override the value of the original object.
 
