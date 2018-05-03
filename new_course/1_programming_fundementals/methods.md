@@ -18,10 +18,27 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 * What is the difference between a explicit and implicit return in your methods?
 * You understand the difference between `puts` and `return`
 
-## Ruby's Built in Methods
-One of Ruby's great advantages for new programmers is that large number of built-in methods it includes.
+## Ruby's Built in Methods (Using Methods)
+
+One of Ruby's great advantages for new programmers is the large number of built-in methods it includes. You've been using many of them already, probably without even realizing it. In your previous practice so far, you have modified strings and other objects in various ways. Each of these operations you have performed has been a method. These are most often applied by adding `.method_name` after the object you are modifying.
+
+```ruby
+"anything".reverse
+```
+
+In this case, `reverse` is a method Ruby has built in for strings (and some others data types).
+
+`print` and `puts` are also methods. They are just called in a different way, by typing their name and passing them arguments.
+
+```ruby
+puts "anything" #=> anything
+```
+
+It's worth noting that in most languages, arguments are passed to methods by wrapping them in parentheses `()`. In Ruby, the parentheses are optional. So the above code is the same as `puts("anything")`, which may look more familiar if you are used to another programming language, such as JavaScript.
+
 
 ## Creating a Method
+
 You can create your own custom methods in Ruby like so:
 ```ruby
 def my_name
@@ -31,18 +48,17 @@ end
 puts my_name #=> "Joe Smith"
 ```
 Let's break it down:
-`def` - is a built in Ruby keyword. It lets Ruby know this is the start of a method *definition*.
+* `def` - is a built in Ruby keyword. It lets Ruby know this is the start of a method *definition*.
 
-`my_name` - is the name you are giving to the method. You can pretty much name it whatever you want. But there are some constraints and conventions which are described in the next section.
+* `my_name` - is the name you are giving to the method. You can pretty much name it whatever you want. But there are some constraints and conventions which are described in the next section.
 
-`"Joe Smith"` - is in the *method body*. This is where all the logic of your method goes. This particular method will just *return* a string when it is *called*.
+* `"Joe Smith"` - is in the *method body*. This is where all the logic of your method goes. This particular method will just *return* a string when it is *called*.
 
-`end` - as you might have guessed `end` marks the *end* of the method definition. It's another Ruby keyword.
+* `end` - as you might have guessed `end` marks the *end* of the method definition. It's another Ruby keyword.
 
-To call the method you simply need to use its name, as shown in the last line of the example `puts my_name`
+* To call the method you simply need to use its name, as shown in the last line of the example `puts my_name`
 
 In this example, the output is `"Joe Smith"` because when you write `puts my_name` you are putsing what is *returned* by the method `my_name`.  And that method simply *returns* the string `"Joe Smith"` because that string is all that is in the body of that method. This is known as an *implicit return*, which will be described a bit later in this lesson.
-
 
 
 ## Parameters and Arguments
@@ -59,7 +75,7 @@ puts greet("John") #=> Hello John!
 
 In this simple example, `name` is a parameter that the `greet` method uses to return a more specific greeting. The method is called with the argument `"John"`, and returns the string "Hello John!"
 
-You might be confused when to use the term *argument* vs. *parameter*. Don't be: <u>P</u>arameters effectively act as <u>P</u>laceholder variables in the template that is your method, while <u>A</u>rguments are the <u>A</u>ctual variables that get passed to the method when it is called. The two terms are commonly used interchangeably, so don't worry too much about it.
+You might be confused when to use the term *argument* vs. *parameter*. Don't be: Parameters effectively act as Placeholder variables in the template that is your method, while Arguments are the Actual variables that get passed to the method when it is called. The two terms are commonly used interchangeably, so don't worry too much about it.
 
 ### Default Parameters
 
@@ -75,7 +91,6 @@ puts greet #=> Hello stranger!
 ```
 
 ## What Methods Return
-* explicit and implicit returns
 
 More specifically, the string `"Joe Smith"` is the last line of the method.  Whatever is stated on the last line of a method is what it will return.  
 
@@ -113,6 +128,7 @@ Therefore having a good understanding of just what your methods are returning is
 
 
 ## Chaining Methods
+
 To keep you from having to write multiple lines when performing several actions (methods) on an object, Ruby allows you to chain your methods together. This can be done with the built-in methods, or methods which you have written.
 
 ```ruby
@@ -123,19 +139,35 @@ puts phrase.reverse.join(" ").capitalize #=> To be or not to be
 
 ## Best practices
 
-We told you earlier that you can pretty much give your own methods any name you want. But you shouldn't do this haphazardly. For example, don't name your method `do_stuff`.  There are certain conventions that recommended in order to improve readability and maintainability of your code.
+We told you earlier that you can pretty much give your own methods any name you want. But you shouldn't do this haphazardly. For example, don't name your method `do_stuff`.  There are certain conventions that are recommended in order to improve readability and maintainability of your code.
+
+You can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=` in your method names. The convention for multiple words in a name is to use "snake_case", separating words with underscores. 
+
+Here are some things you are not allowed to do:
+* name your method one of Ruby's approximately 40 reserved words, such `end`, `while`, or `for`. [Full List](http://www.java2s.com/Code/Ruby/Language-Basics/Rubysreservedwords.htm)
+* use any symbols other than `_`, `?`, `!`, and `=`
+* use `?`, `!`, or `=` anywhere other than at the end of the name
+* begin a method name with a number
+
+Some examples of valid and invalid method names:
+
+```ruby
+method_name     # valid
+_name_of_method # valid
+1method_name    # invalid
+method_27       # valid
+method?_name    # invalid
+method_name!    # valid
+begin           # invalid
+```
+
+### Too Long a Name / Too Many Parameters
 
 In general, short but descriptive is the name of the naming-game.  You want to be able to tell what a method is expected to do based on its name.
 
-What is allowed / not allowed in method names....
-
-* too long a name / not too many parameters
-
-Another thing to consider is that, if your method does too many things such that you feel it requires a very long name, then your method actually probably best to be broken up into several smaller/simpler methods. Methods should in reality only do one thing. This practice will pay dividends down the road, again for readability, scalability and maintainability. (It also makes testing your code a lot easier, which will be covered in a later lesson.)
+Another thing to consider is that, if your method does too many things such that you feel it requires a very long name, then your method should probably be broken up into several smaller/simpler methods. Methods should in reality only do one thing. This practice will pay dividends down the road, again for readability, scalability and maintainability. (It also makes testing your code a lot easier, which will be covered in a later lesson.)
 
 The same idea applies if you find your method accepting too many parameters/arguments.  If it is accepting numerous arguments, it is probably doing too many things, and should be broken up into individual simpler methods doing individual tasks.
-
-
 
 
 ### Predicate Methods
@@ -175,7 +207,7 @@ puts whisper #=> hello everybody
 
 Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.downcase`.
 
-### Assignment
+## Assignment
 1. To get a good introduction to all the different concepts related to methods read [this chapter about methods](https://launchschool.com/books/ruby/read/methods) from Launch School's Introduction to Programming with Ruby book. Make sure to do the exercises at the end of the chapter too.
 2. For a deeper look at methods read [this chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards book of Ruby. Again try to complete the exercises throughout the chapter.  
 
