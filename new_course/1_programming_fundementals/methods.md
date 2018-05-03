@@ -10,12 +10,19 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 ## Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-!!NEEDS FIXING!!
 * You understand how to use Ruby's built in methods on objects
 * How would you create your own custom method?
 * How would you *call* your own method?
-* What is the difference between a *explicit* and *implicit* return in your methods?
+* How do you pass variables to your method?
+* How do you define default parameters for your method?
+* What is the difference between an *explicit* and *implicit* return in your methods?
 * What is the difference between `puts` and `return`?
+* How do you chain multiple methods together?
+* Give an example of a valid method name and an invalid method name.
+* What does "snake case" naming mean?
+* What are some of Ruby's reserved words?
+* What do you call a method that returns `true` or `false`? How are they named?
+* What do bang methods do? How are they conventionally named?
 
 ## Ruby's Built in Methods
 
