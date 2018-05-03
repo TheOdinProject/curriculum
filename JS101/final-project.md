@@ -96,3 +96,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mojotron's solution](https://github.com/mojotron/simple-calculator) - [View in Browser](https://mojotron.github.io/simple-calculator/)
 - [Benny's Solution](https://deckins.github.io/Calculator/) - [View in Browser](https://deckins.github.io/Calculator/)
 - [Jarred Herrington's Solution](https://github.com/Herringtonjc/calculator) - [View in Browswer](https://herringtonjc.github.io/calculator/)
+- [Danie Ortea's Solution](https://github.com/D-Ortea/calculator) - [View in Browser](https://d-ortea.github.io/calculator/)
