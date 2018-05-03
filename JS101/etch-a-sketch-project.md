@@ -124,4 +124,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Natalie Aldrich's Solution](https://github.com/nataliealdrich/etch-a-sketch) - [View in Browser](https://nataliealdrich.github.io/etch-a-sketch/)
 * [Faris Ibrahim's Solution](https://github.com/procusr/etch-a-sketch) - [View in Browser](https://procusr.github.io/etch-a-sketch/)
 * [Daniel Ortea's Solution](https://github.com/D-Ortea/etch-a-sketch) - [View in Browser](https://d-ortea.github.io/etch-a-sketch/)
+* [John Piatras' Solution](https://github.com/JohnPiatras/sketch) - [View in Browser](https://johnpiatras.github.io/sketch/)
 
