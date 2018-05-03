@@ -1,26 +1,25 @@
 # Methods
 Methods, also known as functions, are one of the foundational building blocks in programming. Almost every language implements some way of making methods.
 
-You will often find yourself writing the same code in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time?
+You will often find yourself writing the same code in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time? This is what methods are for. They allow you to wrap sections of your code in a name, which you can then use where you need that code to be run in your program, and as many times are you need.
 
-This is what methods are for. They allow you to wrap sections of your code in a name, which you can then use where you need that code to be run in your program, and as many times are you need.
-
-This concept allows for what programmers refer to as the *D.R.Y.* approach to programming *-Don't Repeat Yourself-*. For one, programmers are known for being lazy, but as you will see this is actually a good thing. Recycling parts of code that would otherwise need to be repeated, often numerous times in several places, *can* make your program more readable and more manageable.
+This concept allows for what programmers refer to as the *D.R.Y.* approach to programming *-Don't Repeat Yourself-*. Recycling parts of code that would otherwise need to be repeated, often numerous times in several places, *can* make your program more readable and more manageable.
 
 In this lesson we are going to deconstruct what methods are, their behaviour, and how they are used.
 
 ## Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
+!!NEEDS FIXING!!
 * You understand how to use Ruby's built in methods on objects
 * How would you create your own custom method?
-* How would you *call* your own methods?
-* What is the difference between a explicit and implicit return in your methods?
-* You understand the difference between `puts` and `return`
+* How would you *call* your own method?
+* What is the difference between a *explicit* and *implicit* return in your methods?
+* What is the difference between `puts` and `return`?
 
-## Ruby's Built in Methods (Using Methods)
+## Ruby's Built in Methods
 
-One of Ruby's great advantages for new programmers is the large number of built-in methods it includes. You've been using many of them already, probably without even realizing it. In your previous practice so far, you have modified strings and other objects in various ways. Each of these operations you have performed has been a method. These are most often applied by adding `.method_name` after the object you are modifying.
+One of Ruby's great advantages for new programmers is the large number of built-in methods it includes. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. Each of these operations you have performed has been a method. These are most often applied by adding `.method_name` after the object you are modifying.
 
 ```ruby
 "anything".reverse
@@ -58,8 +57,6 @@ Let's break it down:
 
 * To call the method you simply need to use its name, as shown in the last line of the example `puts my_name`
 
-In this example, the output is `"Joe Smith"` because when you write `puts my_name` you are putsing what is *returned* by the method `my_name`.  And that method simply *returns* the string `"Joe Smith"` because that string is all that is in the body of that method. This is known as an *implicit return*, which will be described a bit later in this lesson.
-
 
 ## Parameters and Arguments
 
@@ -92,9 +89,23 @@ puts greet #=> Hello stranger!
 
 ## What Methods Return
 
-More specifically, the string `"Joe Smith"` is the last line of the method.  Whatever is stated on the last line of a method is what it will return.  
+An important detail that a programmer must learn is understanding what your methods *return*. But how do we tell our methods what to return? Let's revisit our "Joe Smith" example:
 
-In facts, methods typically need a `"return"` keyword at the end. But Ruby will take care of this for you by implicitly inferring the "return" keyword for you to the last line in the body of your method if you did not include one. Ruby will interpret your method as though it was written like so:
+```ruby
+def my_name
+  "Joe Smith"
+end
+
+puts my_name #=> "Joe Smith"
+```
+
+Our output to the console here is `"Joe Smith"`. Because when you write `puts my_name` you are puts-ing what is *returned* by the method `my_name`.  And that method simply *returns* the string `"Joe Smith"` because that string is all that is in the body of that method.
+
+<!-- More specifically, the string `"Joe Smith"` is the last line of the method.  Whatever is stated on the last line of a method is what it will return.   -->
+
+TO_FIX  specifically mention "implicit return" and "explicit return".
+
+In fact, methods typically need a `"return"` keyword at the end. But Ruby will take care of this for you by implicitly inferring the "return" keyword for you to the last line in the body of your method if you did not include one. Ruby will interpret your method as though it was written like so:
 
 ```ruby
 def my_name
@@ -126,39 +137,69 @@ Ruby actually simply returns the last line that is evaluated.  By placing a *ret
 
 Therefore having a good understanding of just what your methods are returning is an important part of debugging your code when things don't behave as expected. Practice will help your understanding of this concept.
 
+### Difference between `puts` and `return`
+
+A common source of confusion for new programmers is the difference between `puts` and `return`.
+
+`puts` is an instruction (it's actually a method as you just learned) to print to the console whatever you tell to it to.
+`return` is the final outcome of a method that you can make use of.  For example, you can have a method which calculates the multiplication of 3 * 10:
+
+```ruby
+def dirty_thirty
+  return 3 * 10
+end
+```
+
+You can then interact with this outcome in other places in your code:
+
+```ruby
+puts "Yup I am turning " + dirty_thirty.to_s + " this year."
+#=>  Yup I am turning 30 this year.
+```
 
 ## Chaining Methods
 
-To keep you from having to write multiple lines when performing several actions (methods) on an object, Ruby allows you to chain your methods together. This can be done with the built-in methods, or methods which you have written.
+To keep you from having to write multiple lines when performing several actions (methods) on an object, Ruby allows you to chain your methods together. (This can be done with the built-in methods, or methods which you have written.)
 
 ```ruby
 phrase = ["be", "to", "not", "or", "be", "to"]
 
-puts phrase.reverse.join(" ").capitalize #=> To be or not to be
+puts phrase.reverse.join(" ").capitalize
+#=> To be or not to be
+```
+
+You are effectively having each method building off of the outcome of the previous method in the chain. The process that takes place produces the following steps, in order:
+
+```
+["be", "to", "not", "or", "be", "to"].reverse
+= ["to", "be", "or", "not", "to", "be"].join(" ")
+= "to be or not to be".capitalize
+= "To be or not to be"
 ```
 
 ## Best practices
 
 We told you earlier that you can pretty much give your own methods any name you want. But you shouldn't do this haphazardly. For example, don't name your method `do_stuff`.  There are certain conventions that are recommended in order to improve readability and maintainability of your code.
 
-You can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=` in your method names. The convention for multiple words in a name is to use "snake_case", separating words with underscores. 
+You can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=` in your method names. The convention for multiple words in a name is to use "snake_case", separating words with underscores.
 
 Here are some things you are not allowed to do:
-* name your method one of Ruby's approximately 40 reserved words, such `end`, `while`, or `for`. [Full List](http://www.java2s.com/Code/Ruby/Language-Basics/Rubysreservedwords.htm)
-* use any symbols other than `_`, `?`, `!`, and `=`
-* use `?`, `!`, or `=` anywhere other than at the end of the name
-* begin a method name with a number
+* You cannot name your method one of Ruby's approximately 40 reserved words, such `end`, `while`, or `for`. Do a quick scan of the [full list here](http://www.java2s.com/Code/Ruby/Language-Basics/Rubysreservedwords.htm)
+* You cannot use any symbols other than `_`, `?`, `!`, and `=`
+* You cannot use `?`, `!`, or `=` anywhere other than at the end of the name
+* You cannot begin a method name with a number
 
 Some examples of valid and invalid method names:
 
-```ruby
+```
 method_name     # valid
 _name_of_method # valid
 1method_name    # invalid
 method_27       # valid
 method?_name    # invalid
 method_name!    # valid
-begin           # invalid
+begin           # invalid  (Ruby reserved word by itself)
+begin_count     # valid
 ```
 
 ### Too Long a Name / Too Many Parameters
@@ -196,6 +237,7 @@ puts whisper #=> HELLO EVERYBODY
 ```
 
 What gives?  I thought we downcased that thing!  So why did it not change when we called it again?
+<br/>
 What happens is that calling a method on an object, such as our string above, does not actually modify the original value of that object.  A general rule in programming is that you do not want your methods to overwrite the objects you call them on. This is to protect you from irreversibly overwriting your data by accident.  Though you *ARE* able to do so by explicitly re-assigning a variable (such as whisper = whisper.downcase).  But another way to do this is with *bang methods* and the `!` symbol.
 
 By just adding a `!` to the end of your method, you are indicating that this method is going to perform its action and also apply the result to override the value of the original object.
