@@ -1,9 +1,9 @@
 # Methods
 Methods, also known as functions, are one of the foundational building blocks in programming. Almost every language implements some way of making methods.
 
-You will often find yourself writing the same code in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time? This is what methods are for. They allow you to wrap sections of your code in a name, which you can then use where you need that code to be run in your program, and as many times are you need.
+You will often find yourself writing the same code in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time? This is what methods are for. They allow you to wrap sections of your code in a name, which you can then use where you need that code to be run in your program, and as many times as you need.
 
-This concept allows for what programmers refer to as the *D.R.Y.* approach to programming *-Don't Repeat Yourself-*. Recycling parts of code that would otherwise need to be repeated, often numerous times in several places, *can* make your program more readable and more manageable.
+This concept allows for what programmers refer to as the *D.R.Y.* approach to programming *-Don't Repeat Yourself-*. Recycling parts of code that would otherwise need to be repeated, often numerous times in several places, *can* make your program more readable and manageable.
 
 In this lesson we are going to deconstruct what methods are, their behaviour, and how they are used.
 
@@ -26,7 +26,9 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 
 ## Ruby's Built in Methods
 
-One of Ruby's great advantages for new programmers is the large number of built-in methods it includes. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. Each of these operations you have performed has been a method. These are most often applied by adding `.method_name` after the object you are modifying.
+One of Ruby's great advantages for new programmers is the large number of built-in methods it includes. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. Each time you have done this you have used a method.
+
+Methods are often applied by adding `.method_name` after an object you want to modify. (Though not all methods are used to modify an object).
 
 ```ruby
 "anything".reverse
@@ -40,7 +42,7 @@ In this case, `reverse` is a method Ruby has built in for strings (and some othe
 puts "anything" #=> anything
 ```
 
-It's worth noting that in most languages, arguments are passed to methods by wrapping them in parentheses `()`. In Ruby, the parentheses are optional. So the above code is the same as `puts("anything")`, which may look more familiar if you are used to another programming language, such as JavaScript.
+It's worth noting that in most languages, arguments are passed to methods by wrapping them in parentheses `()`. In Ruby, the parentheses are generally optional, so the above code is the same as `puts("anything")`. There will be exceptions to this rule that you will run into further into your learning.
 
 
 ## Creating a Method
@@ -79,7 +81,7 @@ puts greet("John") #=> Hello John!
 
 In this simple example, `name` is a parameter that the `greet` method uses to return a more specific greeting. The method is called with the argument `"John"`, and returns the string "Hello John!"
 
-You might be confused when to use the term *argument* vs. *parameter*. Don't be: Parameters effectively act as Placeholder variables in the template that is your method, while Arguments are the Actual variables that get passed to the method when it is called. The two terms are commonly used interchangeably, so don't worry too much about it.
+You might be confused when to use the term *argument* vs. *parameter*. Don't be: parameters effectively act as placeholder variables in the template that is your method, while arguments are the actual variables that get passed to the method when it is called. The two terms are commonly used interchangeably, so don't worry too much about it.
 
 ### Default Parameters
 
