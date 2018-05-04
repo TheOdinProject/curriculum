@@ -18,7 +18,7 @@ Preprocessors (aka precompilers) can make your life much easier by eliminating c
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Introduction to CSS Preprocessors from Steven Bradley](http://www.vanseodesign.com/css/css-preprocessors/)
-2. Read [10 Reasons You Should be Using a Preprocessor](http://www.urbaninsight.com/2012/04/12/ten-reasons-you-should-be-using-css-preprocessor)
+2. Read [6 Reasons You Should Use a Preprocessor](https://raygun.com/blog/6-reasons-you-should-use-a-css-preprocessor/)
 3. Read [Choosing the Right CSS Preprocessor from Treehouse](http://blog.teamtreehouse.com/how-to-choose-the-right-css-preprocessor)
 4. Look over [SASS's getting started guide, which provides a brief look at its awesome features](http://sass-lang.com/guide)
 5. [A List Apart walks through specifically how you should be using SASS (lots of best practices in there)](http://alistapart.com/article/getting-started-with-sass) so read up and enjoy!

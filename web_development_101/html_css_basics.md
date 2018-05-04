@@ -35,7 +35,7 @@ Look through these now and then use them to test yourself after doing the assign
   3. Build the Android logo using just HTML and CSS by watching [this video](http://thecodeplayer.com/walkthrough/css3-android-logo) from an amazing website called [The Code Player](http://thecodeplayer.com/). It's like a tutorial but it actually plays the code as the original developer created it.  Use your own text editor (which you can view by opening the .html file in your browser), [JSFiddle](http://jsfiddle.net/)'s online tool or [CodePen](http://codepen.io/pen/)'s online tool to create the logo alongside the tutorial.
     * Note: You will see `border-radius`, `-moz-border-radius`, and `-webkit-border-radius` all used identically.  This is in order to overcome some of the differences between browsers.  You probably only need to use `border-radius` to achieve the desired effect.
   4. Learn about basic forms from [this Treehouse video](http://teamtreehouse.com/library/websites/html/forms/inputs) and use [this w3 page](http://www.w3schools.com/html/html_forms.asp) as a reference.
-  5. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](http://www.youtube.com/watch?v=14Vb6tZCjEY) (reset starting the 2:00 mark).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.  If you're still curious, here's a [longer video](http://www.youtube.com/watch?v=HqRFPLP7Ffs) on resets.
+  5. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](http://www.youtube.com/watch?v=14Vb6tZCjEY) (reset starting at the 2:00 mark).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.  If you're still curious, here's a [longer video](http://www.youtube.com/watch?v=HqRFPLP7Ffs) on resets.
 </div>
 
 ### Additional Resources
@@ -44,3 +44,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
 * [OverAPI's HTML Cheat Sheet](http://overapi.com/html)
 * [OverAPI's CSS Cheat Sheet](http://overapi.com/css)
+* [Learn CSS Layout](http://learnlayout.com/)

@@ -8,7 +8,7 @@ In this project you'll clone the website of one of the most design-forward compa
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
-5. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 6. Set up the top navigation bar.  How is that gradient achieved?
 7. Set up the main background image.  You can grab that exact image from their webpage by finding the `<section id="hero">` tag in your inspector and checking out its background image.
 6. Fill in and position the additional sections.  Don't worry about enclosing every paragraph of text in `<p>` tags.
@@ -19,6 +19,10 @@ In this project you'll clone the website of one of the most design-forward compa
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [nmac's solution](https://github.com/nmacawile/old-apple-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/old-apple-layout/blob/master/index.html)
+* [Henry Kirya's](https://github.com/harrika/appo) - [View in Browser](https://harrika.github.io/appo/)
+* [joaoag's solution](https://github.com/joaoag/google-homepage) - [View in Browser](https://joaoag.github.io/google-homepage/)
+* [theghall's solution](https://github.com/theghall/odin-apple) - [View in Browser](https://theghall.github.io/odin-apple/)
 * [Jmooree30's Solution](https://github.com/jmooree30/apple-clone) - [View in Browser](https://jmooree30.github.io/apple-clone/)
 * [Jonathan Yiv's Solution](https://github.com/JonathanYiv/old-apple-homepage) - [View in Browser](http://jonathanyiv.com/old-apple-homepage/)
 * [yilmazgunalp's Solution](https://github.com/yilmazgunalp/apple) - [View in Browser](https://yilmazgunalp.github.io/apple)
@@ -31,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jason Ellis's solution](https://github.com/jason-ellis/apple-homepage) - [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
 * [Shouvik Roy's solution](https://github.com/royshouvik/applehome) - [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/Apple_Project) - [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
+* [Devon's solution](https://github.com/defitjo/backgrounds-and-gradients) - [View in browser](https://defitjo.github.io/backgrounds-and-gradients/)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectApple) - [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectApple/blob/master/index2.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/apple-project) - [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/apple-project/index.html)
 * [Hailey Foster's solution](https://github.com/hmfoster/apple-backgrounds.git) - [View in browser](http://htmlpreview.github.io/?https://github.com/hmfoster/apple-backgrounds/blob/master/index.html)

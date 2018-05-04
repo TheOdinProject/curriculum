@@ -18,13 +18,39 @@ And finally, you will set up a project with Git and this will serve as a templat
 
 But for now, in this lesson, try to understand what Git is and why it is so powerful!
 
-### Learning Outcomes
-By the end of this lesson you should be able to:
+## Learning Outcome:
+*By the end of this lesson you should be able to:*
 
-* Define what kind of program Git is
-* Describe the differences between Git and a text editor in terms of what they save and their record keeping
-* Describe whether Git and GitHub work at a local or remote level
-* Describe why Git is useful for an individual developer and a team of developers
+<details>
+<summary>Define what kind of program Git is</summary>
+<ul><ul>
+  <li>Git is a Version Control program.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Describe the differences between Git and a text editor in terms of what they save and their record keeping</summary>
+<ul><ul>
+  <li>Git tracks changes to the files and their contents.</li>
+  <li>A text editor can only make a save changes to a file</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Describe whether Git and GitHub work at a local or remote level</summary>
+<ul><ul>
+  <li>Git works on a local level. Any changes you make are saved locally with Git.</li>
+  <li>GitHub works on a remote level.  You must push your changes made locally (using Git) to Github</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Describe why Git is useful for an individual developer and a team of developers</summary>
+<ul><ul>
+  <li>Git is useful for an individual to create snapshots of their work.  If they realize halfway through that they've messed up, it's much easier to reset.</li>
+  <li>Git is useful for teams because it's capable of merging code together.  One developer can be working on a part of code while a different developer works on a different part.  They can then use git to combine the changes.</li>
+</ul></ul>
+</details>
 
 ### Assignment
 
@@ -33,8 +59,9 @@ By the end of this lesson you should be able to:
   1. Read chapter 1 in this book about [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and appreciate the differences between local, centralised and distributed version control systems.
   2. Now watch this [video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how git can improve the workflow of an individual or a team of developers.
   3. Get some [context](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) of how git and GitHub came about. Make sure you know the difference between the two: note how Git is referred to as a technology used in the *command line* while GitHub is a *website* you can [visit](https://github.com/)
-  4. Have a look at The Odin Project's very [own repository on GitHub](https://github.com/TheOdinProject/curriculum) - this is where all the lessons are stored!
-  5. Finally, gain an appreciation of [how git records all collaborative efforts](https://github.com/TheOdinProject/curriculum/graphs/contributors) and how GitHub visually represents this.
+  4. If you haven't, install Git on your computer. Remember this is one of the steps of [RailsBridge Installfest](http://installfest.railsbridge.org/installfest/).
+  5. Have a look at The Odin Project's very [own repository on GitHub](https://github.com/TheOdinProject/curriculum) - this is where all the lessons are stored!
+  6. Finally, gain an appreciation of [how git records all collaborative efforts](https://github.com/TheOdinProject/curriculum/graphs/contributors) and how GitHub visually represents this.
 
 </div>
 

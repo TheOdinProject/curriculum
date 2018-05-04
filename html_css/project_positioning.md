@@ -12,7 +12,7 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
-5. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 6. Set up the top navigation bar (again, don't worry about making it change when you scroll down the page).  How can you get it to stick to the top of the page as you scroll down?
 7. Fill in and position the additional sections.  Don't worry about enclosing every paragraph of text in `<p>` tags.
 8. Push your solution to Github.
@@ -22,6 +22,10 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [nmac's solution](https://github.com/nmacawile/new-york-times-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/new-york-times-layout/blob/master/index.html)
+* [Henry Kirya's solution](https://github.com/harrika/nyt) - [View in Browser](https://harrika.github.io/nyt/)
+* [walnutdust's solution](https://github.com/walnutdust/new-york-times) - [View in Browser](https://walnutdust.github.io/new-york-times/)
+* [theghall's solution](https://github.com/theghall/odin-nyt) - [View in Browser](https://theghall.github.io/odin-nyt/)
 * [Jmooree30's solution](https://github.com/jmooree30/new-york-times) - [View in Browser](https://jmooree30.github.io/new-york-times/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/nytimes-article-page) - [View in Browser](https://jonathanyiv.github.io/nytimes-article-page/)
 * [holdercp's solution](https://github.com/holdercp/nyt-layout) - [View in Browser](https://holdercp.github.io/nyt-layout/)
@@ -61,6 +65,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Beth Rathbone's solution](https://github.com/bethrath/ny-times-article) - [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/ny-times-article/blob/master/index.html)
 * [Husein's solution](https://github.com/hosghf/new-york-times-articl-html-css) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/new-york-times-articl-html-css/blob/master/index.html)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/nyt-article) - [View in browser](https://thiswillhavetodo.github.io/nyt-article/)
+* [DV's solution](https://github.com/dvislearning/odin-nyt-article) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-nyt-article/blob/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

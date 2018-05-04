@@ -9,8 +9,8 @@ The page is very straightforward, so you should be able to clone it even if your
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a blank HTML document.
 4. Plan out how the elements on the page need to be grouped together.
-5. Lay out the empty `<div>`'s for the major sections (form, sidebar, footer...) and make them the proper size and alignment.  It may be helpful to change their background colors while you're positioning them on the page.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
-6. Fill in those `<div>` elements with the content you want to include.
+5. Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer...) and make them the proper size and alignment.  It may be helpful to change their background colors while you're positioning them on the page.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+6. Fill in those elements with the content you want to include.
 7. Now style them to look like the real webpage.
 8. Push your solution up to Github and you're good to go!
 </div>
@@ -20,6 +20,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
+* [Henry Kirya's](https://github.com/harrika/intuit) - [View in browser](https://harrika.github.io/intuit/)
+* [Nate Dimock's soulution](https://github.com/Flakari/html-form-project) - [View in browser](https://flakari.github.io/html-form-project/)
+* [walnutdust's solution](https://github.com/walnutdust/mock-intuit) - [View in browser](https://walnutdust.github.io/mock-intuit/)
+* [theghall's solution](https://github.com/theghall/odin-mint) - [Live](https://theghall.github.io/odin-mint/)
 * [Jeremy-D's solution](https://github.com/Jeremy-D/Mint-form) - [Live](https://jeremy-d.github.io/Mint-form/)
 * [Jmooree30's solution](https://github.com/jmooree30/mint-signup-clone) - [Live](https://jmooree30.github.io/mint-signup-clone/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/mint-signup-page) - [Live](https://jonathanyiv.github.io/mint-signup-page/)
@@ -27,6 +31,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Justine's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/mint-form) - [View in browser](https://hannibalony.github.io/mint-form/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/html_form) - [View in browser](https://yilmazgunalp.github.io/html_form/)
 * [Bottlecap's solution](https://github.com/Bottlecaps4/mint.com) - [View in browser](https://bottlecaps4.github.io/mint.com/)
+* [Devon's solution](https://github.com/defitjo/HTML-Forms) - [View in browser](https://defitjo.github.io/HTML-Forms/)
 * [Jeff's solution](https://github.com/jmbothe/mint-homepage) - [View in browser](https://jmbothe.github.io/mint-homepage/)
 * [James' solution](https://github.com/CurmudJim/google-homepage) - [View in browser](https://curmudjim.github.io/google-homepage/)
 * [Andrew's solution](https://github.com/andrewr224/html_forms) - [View in browser](https://andrewr224.github.io/html_forms/)
@@ -75,6 +80,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Beth Rathbone's solution](https://github.com/bethrath/signup-form) - [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/signup-form/blob/master/index.html)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Mint) - [View in browser](https://ncud4bloc.github.io/Mint/)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/mint-signup-form) - [View in browser](https://thiswillhavetodo.github.io/mint-signup-form/)
+* [DV's solution](https://github.com/dvislearning/odin-mint-form-clone) - [View in browser](https://htmlpreview.github.io/?https://github.com/dvislearning/odin-mint-form-clone/blob/master/signup.html)
+* [Siri's easy solution (Old google version)](https://github.com/Siri-walkaa/google-homepage) - [View in browser](https://htmlpreview.github.io/?https://github.com/Siri-walkaa/google-homepage/blob/master/index.html)
+* [Joe Westons solution](https://github.com/joeeeeeeeeeeeee/project_html_forms) - [View in browser](https://joeeeeeeeeeeeee.github.io/project_html_forms/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
