@@ -47,6 +47,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Tom Westerhout's solution](https://github.com/Westw00d/SQL-Zoo)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/sqlzoo)
 * [Hana Klingova's solution](https://github.com/hanny21/sql_zoo_solutions)
+* [HSaad's solution](https://github.com/HSaad/sql-zoo)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
