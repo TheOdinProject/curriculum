@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Nathan Sherburne's solution](https://github.com/nathansherburne/ruby_practice/tree/master/tic_tac_toe)
 * [Mike Burke's solution](https://github.com/mb52089/odin/blob/master/ttt.rb)
 * [Henry Kirya's solution](https://github.com/harrika/odin/tree/master/tictac)
 * [Suman Saurabh's solution](https://github.com/sumandroid/odin-tic-tac-toe)
