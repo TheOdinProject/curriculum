@@ -73,3 +73,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [CurmudJim's solution](https://github.com/CurmudJim/JS_Calculator) - [View in Browser](https://curmudjim.github.io/JS_Calculator/)
 - [Joe Weston's solution](https://github.com/joeeeeeeeeeeeee/project-calculator) - [View in Browser](https://joeeeeeeeeeeeee.github.io/project-calculator/)
 - [Technicolor1's solution](https://github.com/technicolor1/simpleCalculator) - [View in Browser](https://technicolor1.github.io/simpleCalculator/)
+- [Blake Bryant's solution](https://github.com/Balake/calculator) - [View in Browser](https://balake.github.io/calculator/)
