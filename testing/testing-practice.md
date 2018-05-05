@@ -38,4 +38,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 - Add your solution below this line!
 - [Jmooree30's solution](https://github.com/jmooree30/Jest-Tests)
+- [Devon's solution](https://github.com/defitjo/Jest-Testing-Javascript)
 - [Rhys' solution](https://github.com/105ron/odin-js-test)
