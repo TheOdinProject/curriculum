@@ -175,3 +175,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Agon Idrizi's solution](https://github.com/AgonIdrizi/rock_papper_scissors/blob/master/index.html)
 - [Dima Konoval's solution](https://github.com/DimaKonoval/Rock-Paper-Scissors) - [View in Browser](https://cdn.rawgit.com/DimaKonoval/Rock-Paper-Scissors/8cb047fb/index.html)
 - [BRGotcher's solution](https://github.com/brgotcher/rockPaperScissors)
+- [Cthulian's solution](https://github.com/Cthulian/rock-paper-scissors)
+
