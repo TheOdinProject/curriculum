@@ -1458,6 +1458,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [DensenKG's Solution (Difficult)](https://github.com/DensenKG/google-search-results) - [View in Browser](https://densenkg.github.io/google-search-results/)
 * [Omegarz's Solution (Easy)](https://github.com/EeMMeR/google-homepage) - [View in Browser](https://eemmer.github.io/google-homepage/)
 * [00SaadChaudhry's Solution (Easy)](https://github.com/00SaadChaudhry/google-homepage) - [View in Browser](https://00saadchaudhry.github.io/google-homepage/)
+* [Caseytran2's Solution (Easy)](https://caseytran2.github.io/google-homepage/) - [View in Browser](https://caseytran2.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
