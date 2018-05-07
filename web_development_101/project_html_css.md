@@ -125,7 +125,6 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Raphael Machin's Solution (Difficult)](https://github.com/rmachin/Google-Search-Result) - [View in Browser](https://cdn.rawgit.com/rmachin/Google-Search-Result/e9b60914/index.html)
 * [Edmond Alosa's Solution (Hard)](https://github.com/eddalosa/google-search)- [View in browswer]( https://eddalosa.github.io/google-search/)
 * [Art Naylor Solution (Easy)](https://artnaylor.github.io/google-homepage2/)
-
 * [ironpatriot Solution (Easy) ](https://github.com/ironpatriot/fake-google-page.github.io) - [View in Browser](https://fake-google-page.github.io)
 * [GrzeluD Solution (Difficult)](https://github.com/GrzeluD/google-resultPage) - [View in Browser](https://grzelud.github.io/google-resultPage/)
 * [Mai's Solution](https://github.com/PA55ION/Google-homepage.git) - [View in Browser](https://pa55ion.github.io/Google-homepage/)
