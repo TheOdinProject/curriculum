@@ -30,11 +30,9 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this line!
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Pairing-Project-Pomodoro) - [View in Browser]( https://sarfrazanjum.github.io/TOP_Pairing-Project-Pomodoro/)
-
 * [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/pomodoro-timer) - [View in Browser](https://ngovanhuong94.github.io/pomodoro-timer/)
 * [autumnchris's Solution](https://github.com/autumnchris/pomodoro-timer) - [View in Browser](https://autumnchris.github.io/pomodoro-timer)
 * [Jon Yoo's solution](https://github.com/jonyoowa/pomodoro-clock) - [View in Browser](https://jonyoowa.github.io/pomodoro-clock/)
-
 * [Nate Dimock's solution](https://github.com/Flakari/pomodoro-clock) - [View in Browser](https://flakari.github.io/pomodoro-clock/)
 * [0zra's solution](https://github.com/0zra/pomodoro) - [View in Browser](https://0zra.github.io/pomodoro/)
 * [iamfranco's solution](https://github.com/iamfranco/the_odin_project/tree/master/pomodoro) - [View in Browser](https://iamfranco.github.io/the_odin_project/pomodoro/)
