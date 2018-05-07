@@ -8,7 +8,7 @@ Write tests for the following functions, and then make the tests pass!
 
 1. `capitalize(string)` takes a string and returns that string with the first character capitalized.
 
-2. `reverseString(string)` takes an array and returns it reversed.
+2. `reverseString(string)` takes a string and returns it reversed.
 
 3. A `calculator` object that contains the basic operations: `add`, `subtract`, `divide`, and `multiply`.
 
@@ -37,3 +37,6 @@ Write tests for the following functions, and then make the tests pass!
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [Jmooree30's solution](https://github.com/jmooree30/Jest-Tests)
+- [Devon's solution](https://github.com/defitjo/Jest-Testing-Javascript)
+- [Rhys' solution](https://github.com/105ron/odin-js-test)

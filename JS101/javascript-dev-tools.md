@@ -8,7 +8,7 @@ There are three ways to open the Developer Tools menu:
 1. From the Browser Menu:
   - Chrome: Select the `Chrome Menu` > `More Tools` > `Developer Tools`
 
-  - Firefox: Select the Firefox `Menu` > Click on the wrench (`Developer`) icon > `Toggle Tools`
+  - Firefox: Select the Firefox `Menu` > `Web Developer`> `Toggle Tools`
 2. Right click anywhere on a webpage and select `Inspect`
 3. Use the keyboard shortcut `CTRL + Shift + I` (`option + command + I` on Mac)
 
