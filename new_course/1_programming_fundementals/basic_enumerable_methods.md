@@ -118,7 +118,7 @@ The best practice according to the style guides is to use `{ }` if your block co
 
 ### The `include?` method
 
-You may have noticed this method has a `?` mark in the name, which seems out of place. But Ruby actually uses this naming convention for any method that strictly returns a Boolean, that is either `true` or `false`.
+You may have noticed this method has a `?` mark in the name. Recall from the methods lesson, that any method with a `?` at the end is a `predicate` method, which is Ruby convention for any method that strictly returns a Boolean, that is either `true` or `false`.
 
 The `include?` method works exactly like you think it should. For example, if we are wanting to determine if a particular element exists in an array, we can use the `include?` method, and it will spit out `true` if that element is present or `false` if it is not.
 
