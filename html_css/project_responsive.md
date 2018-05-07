@@ -24,8 +24,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Building-with-Responsive-Design) - [View in browser]( https://sarfrazanjum.github.io/TOP_Building-with-Responsive-Design/)
-
-
 * [Henry Kirya's solution](https://github.com/harrika/nextweb) - [View in browser](https://harrika.github.io/nextweb/)
 * [Adrien Pardo's solution](https://github.com/Shieboo/responsive-design) - [View in browser](https://shieboo.github.io/responsive-design/)
 * [theghall's solution](https://github.com/theghall/odin-responsive-design) - [View in browser](https://theghall.github.io/odin-responsive-design/)
