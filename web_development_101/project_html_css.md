@@ -1458,7 +1458,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [DensenKG's Solution (Easy)](https://github.com/DensenKG/google-homepage) - [View in Browser](https://densenkg.github.io/google-homepage/)
 * [DensenKG's Solution (Difficult)](https://github.com/DensenKG/google-search-results) - [View in Browser](https://densenkg.github.io/google-search-results/)
 * [Omegarz's Solution (Easy)](https://github.com/EeMMeR/google-homepage) - [View in Browser](https://eemmer.github.io/google-homepage/)
-* [00SaadChaudhry's Solution (Easy)](https://github.com/00SaadChaudhry/google-homepage) - [View in Browser](https://00saadchaudhry.github.io/google-homepage/)
+* [00SaadChaudhry's Solution (Easy)](https://github.com/00SaadChaudhry/google-homepage) - [View in Browser](https://00saadchaudhry.github.io/google-homepage/) + [00SaadChaudhry's Solution (Difficult)](https://github.com/00SaadChaudhry/The-Odin-Project/tree/master/google-search-results-clone) - [View in Browser](https://00saadchaudhry.github.io/The-Odin-Project/google-search-results-clone/)
 * [Caseytran2's Solution (Easy)](https://caseytran2.github.io/google-homepage/) - [View in Browser](https://caseytran2.github.io/google-homepage/)
 * [Monica Gabriel's Solution (Easy)](https://github.com/msgabriel/google-homepage) - [View in Browser](https://msgabriel.github.io/google-homepage/)
 * [Monica Gabriel's Solution (Difficult)](https://github.com/msgabriel/google-result-page) - [View in Browser](https://msgabriel.github.io/google-result-page)
