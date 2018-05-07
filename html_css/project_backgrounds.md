@@ -19,6 +19,7 @@ In this project you'll clone the website of one of the most design-forward compa
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [SarfrazAnjum's](https://github.com/SarfrazAnjum/TOP_Building-with-Backgrounds-and-Gradients) - [View in Browser](https://sarfrazanjum.github.io/TOP_Building-with-Backgrounds-and-Gradients/)
 * [nmac's solution](https://github.com/nmacawile/old-apple-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/old-apple-layout/blob/master/index.html)
 * [Henry Kirya's](https://github.com/harrika/appo) - [View in Browser](https://harrika.github.io/appo/)
 * [joaoag's solution](https://github.com/joaoag/google-homepage) - [View in Browser](https://joaoag.github.io/google-homepage/)
