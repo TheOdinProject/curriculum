@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [SarfrazAnjum Solution (Easy)](https://github.com/SarfrazAnjum/TOP_Google-homepage) - [View in Browser](https://sarfrazanjum.github.io/TOP_Google-homepage/)
 * [Onyekachukwu's solution (Easy)](https://github.com/Dudeonyx/making-the-google-homepage) - [View in Browser](https://dudeonyx.github.io/making-the-google-homepage/)
 * [Ochuko's solution (Easy)](https://github.com/ochuko56/google-homepage) - [View in Browser](https://ochuko56.github.io/google-homepage/)
 * [joaoag's solution (Easy)](https://github.com/joaoag/google-homepage) - [View in Browser](https://joaoag.github.io/google-homepage/)
@@ -124,7 +125,6 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Raphael Machin's Solution (Difficult)](https://github.com/rmachin/Google-Search-Result) - [View in Browser](https://cdn.rawgit.com/rmachin/Google-Search-Result/e9b60914/index.html)
 * [Edmond Alosa's Solution (Hard)](https://github.com/eddalosa/google-search)- [View in browswer]( https://eddalosa.github.io/google-search/)
 * [Art Naylor Solution (Easy)](https://artnaylor.github.io/google-homepage2/)
-* [SarfrazAnjum Solution (Easy)](https://github.com/SarfrazAnjum/google_homepage)
 * [ironpatriot Solution (Easy) ](https://github.com/ironpatriot/fake-google-page.github.io) - [View in Browser](https://fake-google-page.github.io)
 * [GrzeluD Solution (Difficult)](https://github.com/GrzeluD/google-resultPage) - [View in Browser](https://grzelud.github.io/google-resultPage/)
 * [Mai's Solution](https://github.com/PA55ION/Google-homepage.git) - [View in Browser](https://pa55ion.github.io/Google-homepage/)
