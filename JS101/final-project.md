@@ -39,6 +39,7 @@ Here are some use cases (abilities you project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/final-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Etch-A-Sketch) - [View in Browser](https://sarfrazanjum.github.io/TOP_Etch-A-Sketch/)
 - [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/calculator) - [View in Browser](https://ngovanhuong94.github.io/calculator/)
 - [Mark Bungeroth's Solution](https://github.com/mbungeroth/calculator) - [View in Browser](https://mbungeroth.github.io/calculator/)
 - [autumnchris's Solution](https://github.com/autumnchris/calculator) - [View in Browser](https://autumnchris.github.io/calculator)
@@ -59,7 +60,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ryafl's solution](https://github.com/ryafl/calculator-project) - [View in Browser](https://ryafl.github.io/calculator-project/)
 - [Calvin's solution](https://github.com/Calyeefornia/Calculator) - [View in Browser](https://calyeefornia.github.io/Calculator/)
 - [Nate Dimock's solution](https://github.com/Flakari/calculator) - [View in Browser](https://flakari.github.io/calculator/)
-- [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/Calculator) - [View in Browser](https://github.com/SarfrazAnjum/Calculator)
+
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/calculator) - [View in Browser (not Mobile)](https://github.com/JonathanYiv/calculator)
 - [Jmooree30's solution](https://github.com/jmooree30/calculator) - [View in Browser](https://jmooree30.github.io/calculator/)
 - [Mtizim's solution](https://github.com/mtizim/odin_projects/tree/master/calculator) - [View in Browser](https://mtizim.github.io/odin_projects/calculator.html)
