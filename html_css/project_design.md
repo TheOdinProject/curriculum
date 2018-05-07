@@ -32,7 +32,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Design-Teardown) - [View in Browser](https://sarfrazanjum.github.io/TOP_Design-Teardown/)
-
 * [nmac's solution](https://github.com/nmacawile/smash-magazine-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/smash-magazine-layout/blob/master/smash.html)
 * [Henry Kirya's solution](https://github.com/harrika/smashing) - [View in Browser](https://harrika.github.io/smashing/)
 * [theghall's solution](https://github.com/theghall/odin-grayscale-map) - [View in Browser](https://theghall.github.io/odin-grayscale-map/)
