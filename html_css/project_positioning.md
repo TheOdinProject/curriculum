@@ -22,6 +22,7 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Positioning-and-Floating-Elements) - [View In Browser](https://sarfrazanjum.github.io/TOP_Positioning-and-Floating-Elements/)
 * [nmac's solution](https://github.com/nmacawile/new-york-times-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/new-york-times-layout/blob/master/index.html)
 * [Henry Kirya's solution](https://github.com/harrika/nyt) - [View in Browser](https://harrika.github.io/nyt/)
 * [walnutdust's solution](https://github.com/walnutdust/new-york-times) - [View in Browser](https://walnutdust.github.io/new-york-times/)
