@@ -38,7 +38,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Jon Yoo's solutions](https://github.com/jonyoowa/learn_ruby)
 * [Ryafl's solutions](https://github.com/ryafl/learn_ruby)
 * [Javier Machin's solutions](https://github.com/Javier-Machin/learn_ruby/tree/mySolution)
-* [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/learn_ruby)
+* [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/TOP_101_Ruby)
 * [Samuel Master'solutions](https://github.com/redeyetuning/learn_ruby)
 * [Fabien Kovacic's solutions](https://github.com/Fabious/learn_ruby)
 * [funwithcthulhu's solutions](https://github.com/funwithcthulhu/test-first-ruby_solve_2)
