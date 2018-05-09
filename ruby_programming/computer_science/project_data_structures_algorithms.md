@@ -130,6 +130,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Jamesredux's solution](https://github.com/Jamesredux/binary_tree)
 * [Oliver Curting's solution - with one-line dfs_rec](https://github.com/Curting/searching_binary_trees/blob/master/searching_binary_trees.rb)
 * [HSaad's solution](https://github.com/HSaad/data-structure-algorithms/blob/master/binary_tree.rb)
+* [Punnadittr's solution](https://github.com/punnadittr/binary_tree/blob/master/binary_tree.rb)
 
 ### Project 2: Knight's Travails
 
@@ -275,7 +276,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's solution](https://github.com/Jamesredux/knight_moves)
 * [Oliver Curting's solution](https://github.com/Curting/knights_travails)
 * [HSaad's solution](https://github.com/HSaad/data-structure-algorithms/blob/master/knights_travails.rb)
-
+* [Punnadittr's solution](https://github.com/punnadittr/knight_traversal/blob/master/knight.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
