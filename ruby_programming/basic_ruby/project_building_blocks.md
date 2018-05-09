@@ -374,6 +374,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+
+* [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/ruby-learn-projects/blob/master/stock_picker.rb)
 * [Nick Woods' Solution](https://github.com/nawoods/ruby-projects/blob/master/stock_picker.rb)
 * [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
 * [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
@@ -695,6 +697,8 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+
+* [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/ruby-learn-projects/blob/master/substrings.rb)
 * [Nick Woods' Solution](https://github.com/nawoods/ruby-projects/blob/master/substrings.rb)
 * [Henry Kirya's Solution](https://github.com/harrika/odin/blob/master/substrings.rb)
 * [bradabayor's Solutions](https://github.com/bradabayor/ruby-problems)
