@@ -1463,6 +1463,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Monica Gabriel's Solution (Easy)](https://github.com/msgabriel/google-homepage) - [View in Browser](https://msgabriel.github.io/google-homepage/)
 * [Monica Gabriel's Solution (Difficult)](https://github.com/msgabriel/google-result-page) - [View in Browser](https://msgabriel.github.io/google-result-page)
 * [Trogers121's Solution (Easy)](https://github.com/trogers121/google-homepage.git) - [View in Browser](https://trogers121.github.io/google-homepage/)
+* [codeymason's Solution (Easy)](https://github.com/codeymason/google-homepage) - [View in Browser](https://codeymason.github.io/google-homepage/)
 
 
 ### Additional Resources
