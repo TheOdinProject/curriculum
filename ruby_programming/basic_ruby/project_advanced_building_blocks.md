@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Ngo Van Huong's Solutions](https://github.com/ngovanhuong94/ruby-learn-projects/blob/master/bubble_sort.rb)
 * [Nathan Sherburne's Solutions](https://github.com/nathansherburne/ruby_practice/blob/master/bubble_sort.rb)
 * [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
 * [Henry Kirya's Solution](https://github.com/harrika/odin/blob/master/bubble_sort.rb)
@@ -325,6 +326,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Ngo Van Huong's Solutions](https://github.com/ngovanhuong94/ruby-learn-projects/blob/master/enumerable_methods.rb)
 * [Nathan Sherburne's Solutions](https://github.com/nathansherburne/ruby_practice/blob/master/enum_mod.rb)
 * [Mike Burke's Solutions](https://github.com/mb52089/odin)
 * [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
