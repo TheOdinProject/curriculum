@@ -362,7 +362,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Seederwood's solution](https://github.com/seederwood/learn_ruby)
 * [Anistor86's solution](https://github.com/anistor86/learn_ruby)
 * [ntnlbar's solution](https://github.com/ntnlbar/learn_ruby)
-* [Igor's solution](https://github.com/mojotron/learn_ruby)
 * [Loc Nguyen's solution](https://github.com/vinhloc30796/learn_ruby)
 * [Arunava's solution](https://github.com/iArunava/learn_ruby)
 * [Anik's solution](https://github.com/radioactive001/learn_ruby)
@@ -406,6 +405,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [cartwheeler's solution](https://github.com/cartwheeler/ruby_exercises)
 * [zasman's solution](https://github.com/ZASMan/learn_ruby)
 * [Daniel Ortea's solution](https://github.com/D-Ortea/learn_ruby)
+* [Mojotron's solution](https://github.com/mojotron/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
