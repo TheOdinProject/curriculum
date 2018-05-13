@@ -101,3 +101,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Danie Ortea's Solution](https://github.com/D-Ortea/calculator) - [View in Browser](https://d-ortea.github.io/calculator/)
 - [Blake Bryant's solution](https://github.com/Balake/calculator) - [View in Browser](https://balake.github.io/calculator/)
 - [Josh Hansen's solution](https://jdhansen41.github.io/calculator/) - [View in Browser](https://jdhansen41.github.io/calculator/)
+- [AREEBAISGTIAQ's solution](https://github.com/AREEBAISHTIAQ/calculator) - [View in Browser](https://AREEBAISHTIAQ.github.io/calculator/)
