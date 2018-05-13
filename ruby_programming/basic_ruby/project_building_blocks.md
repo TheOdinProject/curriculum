@@ -985,3 +985,5 @@ Next, make sure your method can handle multiple words:
 * [Punnadittr's solution](https://github.com/punnadittr/ruby-exercises/blob/master/substrings.rb)
 * [cartwheeler's solution](https://github.com/cartwheeler/ruby_substrings)
 * [Encolpius's solution](https://github.com/Encolpius/ruby-building-blocks/tree/master/substrings)
+* [richrosario's solution](https://github.com/richrosario/project_building_blocks)
+
