@@ -1467,7 +1467,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [codeymason's Solution (Easy)](https://github.com/codeymason/google-homepage) - [View in Browser](https://codeymason.github.io/google-homepage/)
 * [BAK3RPJ's Solution (Easy)](https://github.com/BAK3RPJ/google-homepage) - [View in Browser](https://bak3rpj.github.io/google-homepage/)
 * [Saiyanx's Solution (Easy)](https://github.com/saiyanx/google-homepage) - [View in Browser](https://saiyanx.github.io/google-homepage/)
-* [Malcolm Bailey's Solution (Easy)](Easy)](https://github.com/malcolmbly/google-homepage) - [View in Browser](https://malcolmbly.github.io/google-homepage/)
+* [Malcolm Bailey's Solution (Easy)](https://github.com/malcolmbly/google-homepage) - [View in Browser](https://malcolmbly.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
