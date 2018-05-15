@@ -94,8 +94,10 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-*[Chiamaka's Solution (easy)](https://github.com/Amriesgrace/google-homepage)-[View in Browser](https://amriesgrace.github.io/google-homepage/)
-*[Jieselle's Solution (Easy)](https://github.com/jieselle/google-homepage) - [View in Browser](https://jieselle.github.io/google-homepage/)
+* [Chiamaka's Solution (easy)](https://github.com/Amriesgrace/google-homepage) - [View in Browser](https://amriesgrace.github.io/google-homepage/)
+* [Ananya Tyagi's Solution(Easy)](https://github.com/AnanyaTyagi/the_odin_project/tree/master/google_homepage) - [View in Browser](https://cdn.rawgit.com/AnanyaTyagi/the_odin_project/47c277d1/google_homepage/index.html)
+* [Tayyeba's solution (Easy)](https://github.com/TayyebaShoaib/google-homepage) - [View in Browser](https://tayyebashoaib.github.io/google-homepage/)
+* [Jieselle's Solution (Easy)](https://github.com/jieselle/google-homepage) - [View in Browser](https://jieselle.github.io/google-homepage/)
 * [SarfrazAnjum Solution (Easy)](https://github.com/SarfrazAnjum/TOP_Google-homepage) - [View in Browser](https://sarfrazanjum.github.io/TOP_Google-homepage/)
 * [Onyekachukwu's solution (Easy)](https://github.com/Dudeonyx/making-the-google-homepage) - [View in Browser](https://dudeonyx.github.io/making-the-google-homepage/)
 * [Ochuko's solution (Easy)](https://github.com/ochuko56/google-homepage) - [View in Browser](https://ochuko56.github.io/google-homepage/)
@@ -1467,7 +1469,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [codeymason's Solution (Easy)](https://github.com/codeymason/google-homepage) - [View in Browser](https://codeymason.github.io/google-homepage/)
 * [BAK3RPJ's Solution (Easy)](https://github.com/BAK3RPJ/google-homepage) - [View in Browser](https://bak3rpj.github.io/google-homepage/)
 * [Saiyanx's Solution (Easy)](https://github.com/saiyanx/google-homepage) - [View in Browser](https://saiyanx.github.io/google-homepage/)
-
+* [Malcolm Bailey's Solution (Easy)](https://github.com/malcolmbly/google-homepage) - [View in Browser](https://malcolmbly.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
