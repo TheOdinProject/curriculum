@@ -128,3 +128,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Dima Konoval's Solution](https://github.com/DimaKonoval/ETCH-A-SKETCH) - [View in Browser](https://cdn.rawgit.com/DimaKonoval/ETCH-A-SKETCH/cb41f37b/index.html)
 * [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/etch-a-sketch) 
 * [Josh Hansen's Solution](https://jdhansen41.github.io/etch_sketch/) - [View in Browser](https://jdhansen41.github.io/etch_sketch/)
+* [Caner Sezgin's Solution](https://github.com/casedo/Etch-A-Sketch) - [View in Browser](http://bit.ly/EtchAsketch)
