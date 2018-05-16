@@ -19,9 +19,12 @@ The page is very straightforward, so you should be able to clone it even if your
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+
+* [Ayoub's solution ](https://github.com/Skobraf/Mint-sign-up-page) - [View in browser](https://skobraf.github.io/Mint-sign-up-page/)
+* [Jesus' solution](https://github.com/jsgilberto/Mint-Signup-Page/) - [View in browser](https://jsgilberto.github.io/Mint-Signup-Page/)
 * [SarfrazAnjum's](https://github.com/SarfrazAnjum/TOP_HTML-Forms) - [View in browser]( https://sarfrazanjum.github.io/TOP_HTML-Forms/)
 * [Henry Kirya's](https://github.com/harrika/intuit) - [View in browser](https://harrika.github.io/intuit/)
-* [Nate Dimock's soulution](https://github.com/Flakari/html-form-project) - [View in browser](https://flakari.github.io/html-form-project/)
+* [Nate Dimock's solution](https://github.com/Flakari/html-form-project) - [View in browser](https://flakari.github.io/html-form-project/)
 * [walnutdust's solution](https://github.com/walnutdust/mock-intuit) - [View in browser](https://walnutdust.github.io/mock-intuit/)
 * [theghall's solution](https://github.com/theghall/odin-mint) - [Live](https://theghall.github.io/odin-mint/)
 * [Jeremy-D's solution](https://github.com/Jeremy-D/Mint-form) - [Live](https://jeremy-d.github.io/Mint-form/)
@@ -83,6 +86,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [DV's solution](https://github.com/dvislearning/odin-mint-form-clone) - [View in browser](https://htmlpreview.github.io/?https://github.com/dvislearning/odin-mint-form-clone/blob/master/signup.html)
 * [Siri's easy solution (Old google version)](https://github.com/Siri-walkaa/google-homepage) - [View in browser](https://htmlpreview.github.io/?https://github.com/Siri-walkaa/google-homepage/blob/master/index.html)
 * [Joe Westons solution](https://github.com/joeeeeeeeeeeeee/project_html_forms) - [View in browser](https://joeeeeeeeeeeeee.github.io/project_html_forms/)
+* [Nana's solution](https://github.com/nessuman/google-homepage) - [View in browser](https://nessuman.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
