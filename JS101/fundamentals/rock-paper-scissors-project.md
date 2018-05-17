@@ -182,3 +182,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Grace Chiamaka's solution](https://github.com/Amriesgrace/Rock-Paper-Scissors/blob/master/index.html)
 - [Katineto's solution](https://github.com/Katineto/rock-paper-scissors) - [View in Browser](https://katineto.github.io/rock-paper-scissors/)
 - [Miguel's solution](https://github.com/MiguelTitus/02_rock_paper_scissors.git) - [View in Browser](https://migueltitus.github.io/02_rock_paper_scissors/rock_paper_scissors.html)
+- [tankserj's solution](https://github.com/tankserj/Rock-Paper-Scissors)
