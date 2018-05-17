@@ -406,6 +406,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [zasman's solution](https://github.com/ZASMan/learn_ruby)
 * [Daniel Ortea's solution](https://github.com/D-Ortea/learn_ruby)
 * [Mojotron's solution](https://github.com/mojotron/learn_ruby)
+* [Josh Hansen's solution](https://github.com/Jdhansen41/ruby_exercises)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
