@@ -987,4 +987,4 @@ Next, make sure your method can handle multiple words:
 * [cartwheeler's solution](https://github.com/cartwheeler/ruby_substrings)
 * [Encolpius's solution](https://github.com/Encolpius/ruby-building-blocks/tree/master/substrings)
 * [richrosario's solution](https://github.com/richrosario/project_building_blocks)
-
+* [Agon's solution](https://github.com/AgonIdrizi/RubyBuildingBlocks/blob/master/the_odin_project/Ruby/BuildingBlocksProject/Substrings.rb)
