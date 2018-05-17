@@ -129,3 +129,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/etch-a-sketch) 
 * [Josh Hansen's Solution](https://jdhansen41.github.io/etch_sketch/) - [View in Browser](https://jdhansen41.github.io/etch_sketch/)
 * [Caner Sezgin's Solution](https://github.com/casedo/Etch-A-Sketch) - [View in Browser](http://bit.ly/EtchAsketch)
+* [Jurek Tomasello's Solution](https://github.com/Ashelf/etch-a-sketch) - [View in Browser](https://ashelf.github.io/etch-a-sketch/)
