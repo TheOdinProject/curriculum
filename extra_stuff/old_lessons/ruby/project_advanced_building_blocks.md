@@ -506,6 +506,3 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/furry-octo-fiesta)
 * [Kyle and Paul's Solution](https://github.com/jklemon17/microverse-ruby-projects/blob/master/advanced-building-blocks/my_enumerables.rb)
 * [Jason's Solution](https://github.com/jn4248/ruby_advanced_building_blocks/blob/master/my_enumerable.rb)
-
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
