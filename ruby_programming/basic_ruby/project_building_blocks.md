@@ -669,6 +669,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Punnadittr's solution](https://github.com/punnadittr/ruby-exercises/blob/master/stockpicker.rb)
 * [cartwheeler's solution](https://github.com/cartwheeler/ruby_stock_picker)
 * [Encolpius's solution](https://github.com/Encolpius/ruby-building-blocks/tree/master/stock-picker)
+*[Agon's solution](https://github.com/AgonIdrizi/RubyBuildingBlocks/blob/master/the_odin_project/Ruby/BuildingBlocksProject/Stock_Picker.rb)
 
 ### Project 3: Substrings
 
