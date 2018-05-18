@@ -114,7 +114,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Encolpius's solution](https://github.com/Encolpius/rock-paper-scissors) - [View in browser](https://encolpius.github.io/rock-paper-scissors/)
 - [PaullyFIRE's solution](https://github.com/paullyFIRE/RockPaperScissors) - [View in browser](https://paullyfire.github.io/RockPaperScissors/)
 - [vartanbeno's solution](https://github.com/vartanbeno/rock-paper-scissors) - [View in browser](https://vartanbeno.github.io/rock-paper-scissors/)
-- [Alexey Leonov's solution](https://github.com/axelerleo/rock-skissors-paper) - [View in browser](https://axelerleo.github.io/rock-skissors-paper/)- [Fabio Oliveira's solution](https://github.com/ffabiorj/rock_paper_scissors) - [View in browser](https://cdn.rawgit.com/ffabiorj/rock_paper_scissors/dab5e260/index.html)
+- [Alexey Leonov's solution](https://github.com/axelerleo/rock-skissors-paper) - [View in browser](https://axelerleo.github.io/rock-skissors-paper/)
+- [Fabio Oliveira's solution](https://github.com/ffabiorj/rock_paper_scissors) - [View in browser](https://cdn.rawgit.com/ffabiorj/rock_paper_scissors/dab5e260/index.html)
 - [Benny Thai's solution](https://github.com/Deckins/rock_paper_scissors) - [View in browser](https://deckins.github.io/rock_paper_scissors/)
 - [Franklyn Afeso's solution](https://github.com/afeso/janken) - [View in browser](https://afeso.github.io/janken_ui)
 - [Matt Hagner's solution](https://github.com/hagnerd/improved-rock-paper-scissors) - [View in browser](https://hagnerd.github.io/improved-rock-paper-scissors/)
@@ -129,7 +130,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jacob Folley's solution](https://github.com/jacob-folley/rock_paper_scissor) - [View in browser](https://jacob-folley.github.io/rock_paper_scissor/)
 - [Ivan Martinez' Solution](https://github.com/ivanmaru86/rock-paper-scissors)
 - [Jimmy's solution](https://github.com/pty5io/Rock-Paper-Scissors) - [View in browser](https://pty5io.github.io/Rock-Paper-Scissors/)
-
 - [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors) - [View in browser](https://zorafins.github.io/rock-paper-scissors)- [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html) - [View in browser](https://balake.github.io/rock-paper-scissors/)
 - [Joe Weston's Solution](https://github.com/joeeeeeeeeeeeee/rock-paper-scissors) - [View in browser](https://joeeeeeeeeeeeee.github.io/rock-paper-scissors)
 - [Suraj's solution](https://github.com/surajsingla333/rock-paper-scissors) - [View in browser](https://surajsingla333.github.io/rock-paper-scissors)
