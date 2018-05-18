@@ -130,8 +130,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ivan Martinez' Solution](https://github.com/ivanmaru86/rock-paper-scissors)
 - [Jimmy's solution](https://github.com/pty5io/Rock-Paper-Scissors) - [View in browser](https://pty5io.github.io/Rock-Paper-Scissors/)
 
-- [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors) - [View in browser](https://zorafins.github.io/rock-paper-scissors)
-- [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html) - [View in browser](https://balake.github.io/rock-paper-scissors/)
+- [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors) - [View in browser](https://zorafins.github.io/rock-paper-scissors)- [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html) - [View in browser](https://balake.github.io/rock-paper-scissors/)
 - [Joe Weston's Solution](https://github.com/joeeeeeeeeeeeee/rock-paper-scissors) - [View in browser](https://joeeeeeeeeeeeee.github.io/rock-paper-scissors)
 - [Suraj's solution](https://github.com/surajsingla333/rock-paper-scissors) - [View in browser](https://surajsingla333.github.io/rock-paper-scissors)
 - [Benny's Solution](https://github.com/Deckins/rock_paper_scissors) - [View in browser](https://deckins.github.io/rock_paper_scissors/)
