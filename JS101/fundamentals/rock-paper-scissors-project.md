@@ -185,3 +185,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Miguel's solution](https://github.com/MiguelTitus/02_rock_paper_scissors.git) - [View in Browser](https://migueltitus.github.io/02_rock_paper_scissors/rock_paper_scissors.html)
 - [tankserj's solution](https://github.com/tankserj/Rock-Paper-Scissors)
 - [Mike Smith's solution](https://github.com/MikeSS281986/rock_scissors_paper_game) - [View in Browser](https://mikess281986.github.io/rock_scissors_paper_game/)
+[00SaadChaudhry's solution](https://github.com/00SaadChaudhry/The-Odin-Project/tree/master/rock-paper-scissors) - [View in Browser](https://00saadchaudhry.github.io/The-Odin-Project/rock-paper-scissors/)
