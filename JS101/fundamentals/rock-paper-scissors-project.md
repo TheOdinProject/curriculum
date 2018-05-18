@@ -130,6 +130,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jacob Folley's solution](https://github.com/jacob-folley/rock_paper_scissor) - [View in browser](https://jacob-folley.github.io/rock_paper_scissor/)
 - [Ivan Martinez' Solution](https://github.com/ivanmaru86/rock-paper-scissors)
 - [Jimmy's solution](https://github.com/pty5io/Rock-Paper-Scissors) - [View in browser](https://pty5io.github.io/Rock-Paper-Scissors/)
+
 - [Jamie's Solution](https://github.com/Zorafins/rock-paper-scissors) - [View in browser](https://zorafins.github.io/rock-paper-scissors)
 - [Balake's Solution](https://github.com/Balake/rock-paper-scissors/blob/master/index.html) - [View in browser](https://balake.github.io/rock-paper-scissors/)
 - [Joe Weston's Solution](https://github.com/joeeeeeeeeeeeee/rock-paper-scissors) - [View in browser](https://joeeeeeeeeeeeee.github.io/rock-paper-scissors)
@@ -183,3 +184,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Katineto's solution](https://github.com/Katineto/rock-paper-scissors) - [View in Browser](https://katineto.github.io/rock-paper-scissors/)
 - [Miguel's solution](https://github.com/MiguelTitus/02_rock_paper_scissors.git) - [View in Browser](https://migueltitus.github.io/02_rock_paper_scissors/rock_paper_scissors.html)
 - [tankserj's solution](https://github.com/tankserj/Rock-Paper-Scissors)
+- [Mike Smith's solution](https://github.com/MikeSS281986/rock_scissors_paper_game) - [View in Browser](https://mikess281986.github.io/rock_scissors_paper_game/)
