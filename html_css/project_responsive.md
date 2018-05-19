@@ -23,6 +23,10 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [nmac's solution](https://github.com/nmacawile/thenextweb-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/thenextweb-layout/blob/master/index.html)
+* [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Building-with-Responsive-Design) - [View in browser]( https://sarfrazanjum.github.io/TOP_Building-with-Responsive-Design/)
+* [Henry Kirya's solution](https://github.com/harrika/nextweb) - [View in browser](https://harrika.github.io/nextweb/)
+* [Adrien Pardo's solution](https://github.com/Shieboo/responsive-design) - [View in browser](https://shieboo.github.io/responsive-design/)
 * [theghall's solution](https://github.com/theghall/odin-responsive-design) - [View in browser](https://theghall.github.io/odin-responsive-design/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/the-next-web) - [View in browser](http://jonathanyiv.com/the-next-web/)
 * [Jmooree's solution](https://github.com/jmooree30/the-next-web) - [View in browser](https://jmooree30.github.io/the-next-web/)

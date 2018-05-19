@@ -256,6 +256,8 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Alex's Solution](https://github.com/alexcorremans/bubble_sort/blob/master/bubble.rb)
 * [HuyAnh's Solution](https://github.com/huyanh10tin/caesar_cipher/blob/master/buble.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/congenial-spoon)
+* [Kyle and Paul's Solution](https://github.com/jklemon17/microverse-ruby-projects/blob/master/advanced-building-blocks/bubble-sort.rb)
+* [Jason's Solution](https://github.com/jn4248/ruby_advanced_building_blocks/blob/master/bubble_sort.rb)
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
@@ -502,6 +504,5 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [Alex's Solution](https://github.com/alexcorremans/enumerable)
 * [HuyAnh's Solution](https://github.com/huyanh10tin/caesar_cipher/blob/master/enumerable.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/furry-octo-fiesta)
-
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+* [Kyle and Paul's Solution](https://github.com/jklemon17/microverse-ruby-projects/blob/master/advanced-building-blocks/my_enumerables.rb)
+* [Jason's Solution](https://github.com/jn4248/ruby_advanced_building_blocks/blob/master/my_enumerable.rb)
