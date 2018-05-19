@@ -178,4 +178,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [BRGotcher's solution](https://github.com/brgotcher/rockPaperScissors)
 - [Cthulian's solution](https://github.com/Cthulian/rock-paper-scissors)
 - [Patrick McGranaghan's solution](https://github.com/petrarch1603/rps/blob/master/rps.html)
-- [Grace Chiamaka's solution](https://github.com/Amriesgrace/Rock-Paper-Scissors/blob/master/index.html)
+- [Grace Chiamaka's solution](https://github.com/Amriesgrace/Rock-Paper-Scissors/blob/master/index.html) - [View in Browser](https://amriesgrace.github.io/Rock-Paper-Scissors/)
