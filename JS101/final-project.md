@@ -39,7 +39,9 @@ Here are some use cases (abilities you project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/final-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
--[AlienSjit's solution](https://github.com/aliensjit/Calculator) - [View in Browser](https://aliensjit.github.io/Calculator/)
+- [AlienSjit's solution](https://github.com/aliensjit/Calculator) - [View in Browser](https://aliensjit.github.io/Calculator/)
+- [scarey18's solution](https://github.com/scarey18/calculator) - [View in Browser](https://scarey18.github.io/calculator/)
+- [jstnlester's Solution](https://github.com/jstnlester/calculator) - [View in Browser](https://jstnlester.github.io/calculator/)
 - [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_JavaScript_Calculator) - [View in Browser](https://sarfrazanjum.github.io/TOP_JavaScript_Calculator/)
 - [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/calculator) - [View in Browser](https://ngovanhuong94.github.io/calculator/)
 - [Mark Bungeroth's Solution](https://github.com/mbungeroth/calculator) - [View in Browser](https://mbungeroth.github.io/calculator/)
@@ -99,3 +101,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jarred Herrington's Solution](https://github.com/Herringtonjc/calculator) - [View in Browswer](https://herringtonjc.github.io/calculator/)
 - [Danie Ortea's Solution](https://github.com/D-Ortea/calculator) - [View in Browser](https://d-ortea.github.io/calculator/)
 - [Blake Bryant's solution](https://github.com/Balake/calculator) - [View in Browser](https://balake.github.io/calculator/)
+- [Josh Hansen's solution](https://jdhansen41.github.io/calculator/) - [View in Browser](https://jdhansen41.github.io/calculator/)
+- [AREEBAISGTIAQ's solution](https://github.com/AREEBAISHTIAQ/calculator) - [View in Browser](https://AREEBAISHTIAQ.github.io/calculator/)
+- [Dima Konoval's Solution](https://github.com/DimaKonoval/Calculator) - [View in Browser](https://cdn.rawgit.com/DimaKonoval/Calculator/256e8690/index.html)
+- [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/Calculator) - [View in Browser](https://anjalideshwani.github.io/Calculator/)
+- [James Thomson's solution](https://github.com/jthomsonx/calculator) - [View in Browser](https://jthomsonx.github.io/calculator/)
