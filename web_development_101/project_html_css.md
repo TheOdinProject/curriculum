@@ -1479,6 +1479,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Jack Goy's Solution (Easy + Difficult)](https://github.com/jalexoy/google-homepage/) - [View Easy in Browser](https://jalexoy.github.io/google-homepage/) + [View Difficult in Browser](https://jalexoy.github.io/google-results-page/)
 * [PenguinAgen's Solution (Easy)](https://github.com/PenguinAgen/google-homepage) - [View in Browser](https://dxshura.github.io/google-homepage/)
 * [Koutselakis Manos's Solution (Easy)](https://github.com/KoutselakisManos/google-homepage) - [View in Browser](https://koutselakismanos.github.io/google-homepage/)
+* [Adhithyan Vijayakumar's Solution (Easy)](https://github.com/v-adhithyan/google_hompage) - [View in Browser](https://v-adhithyan.github.io/google_hompage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
