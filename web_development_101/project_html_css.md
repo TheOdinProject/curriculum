@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Slip17's Solution (easy)](https://github.com/slip17/google-homepage) - [View in Browser](https://slip17.github.io/google-homepage/)
 * [Chiamaka's Solution (easy)](https://github.com/Amriesgrace/google-homepage) - [View in Browser](https://amriesgrace.github.io/google-homepage/)
 * [Ananya Tyagi's Solution(Easy)](https://github.com/AnanyaTyagi/the_odin_project/tree/master/google_homepage) - [View in Browser](https://cdn.rawgit.com/AnanyaTyagi/the_odin_project/47c277d1/google_homepage/index.html)
 * [Tayyeba's solution (Easy)](https://github.com/TayyebaShoaib/google-homepage) - [View in Browser](https://tayyebashoaib.github.io/google-homepage/)
