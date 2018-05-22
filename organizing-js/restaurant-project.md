@@ -27,6 +27,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [brxck's solution](https://github.com/brxck/odin-restaurant) - [View in Browser](http://brockmcelroy.com/odin-restaurant/)
 - [Andrew's solution](https://github.com/andrewr224/Lamuella) - [View in Browser](https://andrewr224.github.io/Lamuella)
 - [theghall's solution](https://github.com/theghall/odin-restaurant) - [View in Browser](https://theghall.github.io/odin-restaurant/)
 - [Jonathan Yiv's solution](https://github.com/JonathanYiv/restaurant-page) - [View in Browser](https://jonathanyiv.github.io/restaurant-page/)
