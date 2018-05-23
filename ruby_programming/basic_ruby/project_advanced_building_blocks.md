@@ -283,6 +283,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/Ruby-functions/blob/master/bubble_sort_by.rb)
 * [Punnadittr's Solution](https://github.com/punnadittr/bubble_sort_ruby)
 * [cartwheeler's Solution](https://github.com/cartwheeler/ruby_bubble_sort)
+* [Agon's Solution]
+(https://github.com/AgonIdrizi/RubyBuildingBlocks/blob/master/the_odin_project/Ruby/AdvancedBuildingBlocks/BubbleSort.rb)
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
@@ -545,6 +547,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [Niko Caron's Solution](https://gist.github.com/ncaron/759e132a0f0e3c16e8b18797a13763d3)
 * [HSaad's Solution](https://github.com/HSaad/enumerable/blob/master/enumerable_methods.rb)
 * [Punnadittr's Solution](https://github.com/punnadittr/enumerable_ruby/blob/master/ruby/enumerable/enumerable.rb)
+* [Agon's Solution](https://github.com/AgonIdrizi/RubyBuildingBlocks/blob/master/the_odin_project/Ruby/AdvancedBuildingBlocks/enumerable.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
