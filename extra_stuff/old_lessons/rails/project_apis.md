@@ -189,6 +189,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [DV's solution](https://github.com/dvislearning/odin-flickr) - [View in Browser](http://serene-spire-20652.herokuapp.com)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/flickr-app-api) - [View in Browser](https://radiant-ravine-62439.herokuapp.com/)
 * [Daniel Aguilar's solution](https://github.com/danaguilar/Flicker-fotos)
-
+* [Narayan Rai's solution](https://github.com/narayanrai97/photomatics)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
