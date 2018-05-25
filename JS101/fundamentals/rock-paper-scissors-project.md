@@ -98,7 +98,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [PongtheGreat's solution](https://github.com/PongtheGreat/RPS) - [View in browser](https://pongthegreat.github.io/RPS/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-rock-paper-scissors) - [GUI version!](http://codyloyd.com/odin-rock-paper-scissors/)
 - [Tshepo Mohlamonyan's solution](https://github.com/blavkboy/rock_paper_scissors.git)
-- [g0-0py's solution](https://github.com/g0-0py/Rock-Paper-Scissors) - [View in browser](https://g0-0py.github.io/Rock-Paper-Scissors/) | [GUI](https://github.com/g0-0py/Rock-Paper-Scissors-GUI) - [View in browser](https://g0-0py.github.io/Rock-Paper-Scissors-GUI/)
+- [g0-0py's solution](https://github.com/g0-0py/Rock-Paper-Scissors) - [View in browser](https://g0-0py.github.io/Rock-Paper-Scissors/) - [GUI](https://github.com/g0-0py/Rock-Paper-Scissors-GUI) - [View in browser](https://g0-0py.github.io/Rock-Paper-Scissors-GUI/)
 - [Kimberlee's solution](https://github.com/KimDube/web-development/tree/master/rock-paper-scissors) - [View in browser](https://kimdube.github.io/web-development/rock-paper-scissors/)
 - [SamJamCul's solution](https://github.com/SamJamCul/rock-paper-scissors) - [View in browser](https://samjamcul.github.io/rock-paper-scissors/)
 - [Djokole's solution](https://github.com/djokole/RPS) - [View in browser](https://djokole.github.io/RPS/)
