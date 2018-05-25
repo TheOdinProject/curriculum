@@ -36,6 +36,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 - Add your solution below this line!
+- [Nate Dimock's Solution](https://github.com/Flakari/js-library) - [View in Browser](https://flakari.github.io/js-library/)
 - [leosoaivan's Solution](https://github.com/leosoaivan/js-book-library) - [View in Browser](http://leosoaivan.com/js-book-library/)
 - [Johan Morin's Solution](https://github.com/MorrisMalone/myLibrary) - [View in Browser](https://morrismalone.github.io/myLibrary/)
 - [brxck's Solution](https://github.com/brxck/odin-library) - [View in Browser](http://brockmcelroy.com/odin-library/)
