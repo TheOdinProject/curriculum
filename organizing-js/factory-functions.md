@@ -8,7 +8,7 @@ There are many people who argue _against_ using constructors at all. Their argum
 
 One of the biggest issues with constructors is that while they _look_ just like regular functions, they do not behave like regular functions at all. If you try to use a constructor function without the `new` keyword, your program will not work as expected, but it won't produce error messages that are easy to trace.
 
-The main takeaway is that while constructors aren't necessarily _evil_, but they aren't the only way and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
+The main takeaway is that while constructors aren't necessarily _evil_, they aren't the only way and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
 ### Factory Function introduction
 
