@@ -1484,6 +1484,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Dom9999's Solution (Easy)](https://github.com/Dom9999/google-homepage) - [View in Browser](https://dom9999.github.io/google-homepage/)
 * [Luke Bennett's Solution (Easy - with working search)](https://github.com/lukebennett88/google-homepage) - [View in Browser](https://google-homepage-odin-project.netlify.com)
 
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
