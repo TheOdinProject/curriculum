@@ -1481,7 +1481,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Koutselakis Manos's Solution (Easy)](https://github.com/KoutselakisManos/google-homepage) - [View in Browser](https://koutselakismanos.github.io/google-homepage/)
 * [Adhithyan Vijayakumar's Solution (Easy)](https://github.com/v-adhithyan/google_hompage) - [View in Browser](https://v-adhithyan.github.io/google_hompage)
 * [ruanha's Solution (Easy)](https://github.com/ruanha/google-homepage) - [View in Browser](https://ruanha.github.io/google-homepage/)
-* [Dom9999's Solution (Easy)](https://github.com/Dom9999/google-homepage) - [View in Browser](https://dom9999.github.io/google-homepage/}
+* [Dom9999's Solution (Easy)](https://github.com/Dom9999/google-homepage) - [View in Browser](https://dom9999.github.io/google-homepage/)
+* [Luke Bennett's Solution (Easy - with working search)](https://github.com/lukebennett88/google-homepage) - [View in Browser](https://google-homepage-odin-project.netlify.com)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
