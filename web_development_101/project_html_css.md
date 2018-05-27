@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [omgitsgod's solution (Easy)](https://github.com/omgitsgod/google-homepage) - [View in Browser](https://omgitsgod.github.io/google-homepage/)
 * [yakherder's basic solution (easy)](https://github.com/yakherder614/google-homepage) [View in Browser]( https://yakherder614.github.io/google-homepage/)
 * [Slip17's Solution (easy)](https://github.com/slip17/google-homepage) - [View in Browser](https://slip17.github.io/google-homepage/)
 * [Chiamaka's Solution (easy)](https://github.com/Amriesgrace/google-homepage) - [View in Browser](https://amriesgrace.github.io/google-homepage/)
@@ -1473,7 +1474,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [BAK3RPJ's Solution (Easy)](https://github.com/BAK3RPJ/google-homepage) - [View in Browser](https://bak3rpj.github.io/google-homepage/)
 * [Saiyanx's Solution (Easy)](https://github.com/saiyanx/google-homepage) - [View in Browser](https://saiyanx.github.io/google-homepage/)
 * [Malcolm Bailey's Solution (Easy)](https://github.com/malcolmbly/google-homepage) - [View in Browser](https://malcolmbly.github.io/google-homepage/)
-* [EVLG18's Solution (Easy)](https://github.com/EVLG18/google-homepage.git) - [View in Browser](https://evlg18.github.io/google-homepage/) 
+* [EVLG18's Solution (Easy)](https://github.com/EVLG18/google-homepage.git) - [View in Browser](https://evlg18.github.io/google-homepage/)
 * [tankserj's Solution (Easy)](https://github.com/tankserj/google-homepage) - [View in Browser](https://tankserj.github.io/google-homepage/)
 * [DxShura's Solution (Easy)](https://github.com/DxShura/google-homepage) - [View in Browser](https://dxshura.github.io/google-homepage/)
 * [Erika's Solution (Easy)](https://github.com/Karmaqueen84/google-homepage) - [View in Browser](https://github.com/Karmaqueen84/curriculum)
