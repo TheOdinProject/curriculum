@@ -34,3 +34,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [codyloyd's solution](https://github.com/codyloyd/plainJS-tic-tac-toe) - [View in browser](http://codyloyd.com/plainJS-tic-tac-toe/)
 - [Rémy's solution](https://codepen.io/beumsk/pen/ZevLbx) - [View in browser](https://codepen.io/beumsk/full/ZevLbx)
 - [Nick's solution](https://sinclairnick.github.io/tictactoe/) - [View in browser](https://sinclairnick.github.io/tictactoe/)
+- [Caner Sezgin's solution](https://github.com/casedo/Tic-Tac-Toe) - [View in browser](http://bit.ly/ticTacToe)
