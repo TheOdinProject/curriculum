@@ -170,7 +170,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Pranshu's solutions](https://github.com/pranshugaba/rock_paper_scissors)
 - [Ol4er's solutions](https://github.com/ol4er/RPS)
 - [Allan Burns' solution](https://github.com/allanlburns/rock-paper-scissors/blob/master/rock_paper_scissors.html)
-- [IvanaGoSt's solution](https://github.com/IvanaGoSt/rock-paper-scissors)
+- [IvanaGoSt's solution](https://github.com/IvanaGoSt/rock-paper-scissors) - [View in Browser](https://cdn.rawgit.com/IvanaGoSt/rock-paper-scissors/b3c00fb2/index.html)
 - [Daniel Mau's Solution](https://github.com/dbm19/RPS) - [UI solution](https://github.com/dbm19/RPS/blob/master/RPS-New.html)
 - [Fabricio Garcia's solution](https://github.com/fabricI0/rock-paper-scissors)
 - [James Thomson's solution](https://github.com/jthomsonx/rockpaperscissors_js)
