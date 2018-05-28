@@ -94,7 +94,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+
 * [omgitsgod's solution (Easy)](https://github.com/omgitsgod/google-homepage) - [View in Browser](https://omgitsgod.github.io/google-homepage/)
+* [kirstenhilke's solution (Easy)](https://github.com/kirstenhilke/google-homepage) - [View in Browser](https://kirstenhilke.github.io/google-homepage/)
 * [yakherder's basic solution (easy)](https://github.com/yakherder614/google-homepage) [View in Browser]( https://yakherder614.github.io/google-homepage/)
 * [Slip17's Solution (easy)](https://github.com/slip17/google-homepage) - [View in Browser](https://slip17.github.io/google-homepage/)
 * [Chiamaka's Solution (easy)](https://github.com/Amriesgrace/google-homepage) - [View in Browser](https://amriesgrace.github.io/google-homepage/)
@@ -1485,6 +1487,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [ruanha's Solution (Easy)](https://github.com/ruanha/google-homepage) - [View in Browser](https://ruanha.github.io/google-homepage/)
 * [Dom9999's Solution (Easy)](https://github.com/Dom9999/google-homepage) - [View in Browser](https://dom9999.github.io/google-homepage/)
 * [Luke Bennett's Solution (Easy - with working search)](https://github.com/lukebennett88/google-homepage) - [View in Browser](https://google-homepage-odin-project.netlify.com)
+* [Molly Stone's Solution (Easy)](https://github.com/mstone89/google-homepage) - [View in Browser](https://mstone89.github.io/google-homepage/)
 
 
 ### Additional Resources
