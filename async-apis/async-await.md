@@ -10,6 +10,7 @@ function getPersonsInfo(name) {
     });
 }
 ~~~
+
 ~~~javascript
 async function getPersonsInfo(name) {
   const people = await server.getPeople();
@@ -41,12 +42,14 @@ The `async` keyword can also be used with any of the ways a function can be crea
     return result;
   }
 ~~~
+
 ~~~javascript
  anArray.forEach(async (item) => {
    // do something asynchronously for each item in 'anArray'
    // one could also use .map here to return an array of promises to use with 'Promise.all()'
  });
 ~~~
+
 ~~~javascript
 server.getPeople().then(async (people) => {
   people.forEach((person) => {
@@ -60,10 +63,13 @@ server.getPeople().then(async (people) => {
 
 ### Error Handling
 Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can simply call the function, and append a `.catch()` method to the end.
+
 ~~~javascript
 asyncFunctionCall().catch((err) => {console.error(err)});
 ~~~
+
 But there is another way: the mighty `try/catch` block! If you want to handle the error directly inside the `async` function, you can use `try/catch` just like you would inside synchronous code.
+
 ~~~javascript
 async function getPersonsInfo(name) {
   try {
@@ -75,10 +81,12 @@ async function getPersonsInfo(name) {
   }
 }
 ~~~
+
 Doing this can look messy, but it is a very easy way to handle errors without appending `.catch()` after your function calls. How you handle the errors is up to you, and which method you use should be determined by how your code was written. You will get a feel for what needs to be done over time. The assignments will also help you understand how to handle your errors
 
 ### Practice
 Remember the Giphy API practice project? (If not, you should go back and complete the API lesson). We are going to convert the promise based code into `async/await` compatible code. Here's a refresher of the code we are starting with:
+
 ~~~javascript
 <script>
   const img = document.querySelector('img')
@@ -93,6 +101,7 @@ Remember the Giphy API practice project? (If not, you should go back and complet
 ~~~
 
 Since `await` does not work on the global scope, we will have to create an `async` function that wraps our API call to Giphy.
+
 ~~~javascript
 <script>
   const img = document.querySelector('img')
@@ -108,7 +117,9 @@ Since `await` does not work on the global scope, we will have to create an `asyn
   }
 </script>
 ~~~
+
 Now that we have a function that is asynchronous, we can then start refactoring from using promises to using `await`
+
 ~~~javascript
 <script>
   const img = document.querySelector('img')
@@ -122,7 +133,9 @@ Now that we have a function that is asynchronous, we can then start refactoring 
   }
 </script>
 ~~~
+
 Since `response` is still the same object we have passed to the `.then()` block at the start, we still need to use the `.json()` method, which in turn returns a promise. Because `.json()` returns a promise, we can use `await` to assign the response to a variable.
+
 ~~~javascript
 <script>
   const img = document.querySelector('img')
@@ -134,7 +147,9 @@ Since `response` is still the same object we have passed to the `.then()` block 
   }
 </script>
 ~~~
+
 To use this function, we just simply need to call it with `getCats()` in our code.
+
 ~~~javascript
 <script>
   const img = document.querySelector('img')
@@ -147,6 +162,7 @@ To use this function, we just simply need to call it with `getCats()` in our cod
   getCats();
 </script>
 ~~~
+
 This code will behave exactly like the code from the last lesson, it just looks a bit different after refactoring. `async/await` are very useful tools when it comes to cleaning up asynchronous javascript code. It is important to remember `async/await` are just promises written in a different way. Do the assignments below, and dive deeper into the understanding of `async/await`.
 
 
