@@ -313,6 +313,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Async and Await",
+  title_url: "Async and Await".parameterize,
+  description: "Async and Await",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/async-apis/async-await.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Weather App",
   title_url: "Weather App".parameterize,
   description: "Weather App",
