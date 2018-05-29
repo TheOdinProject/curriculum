@@ -32,7 +32,7 @@ In that folder, use your text editor to create a plain text file named
 `event_manager.rb`.
 
 
-~~~
+~~~bash
 $ mkdir event_manager
 $ cd event_manager
 $ mkdir lib
@@ -57,7 +57,7 @@ puts "EventManager Initialized!"
 Validate that ruby is installed correctly and you have created the file correctly by running it from the root of your `event_manager` directory:
 
 
-~~~
+~~~bash
 $ ruby lib/event_manager.rb
 Event Manager Initialized!
 ~~~
@@ -65,7 +65,7 @@ Event Manager Initialized!
 If ruby is not installed and available on your environment path then you will be presented with the following message:
 
 
-~~~
+~~~bash
 $ ruby lib/event_manager.rb
 -bash: ruby: command not found
 ~~~
@@ -74,7 +74,7 @@ If the file was not created then you will be presented with the following error:
 message
 
 
-~~~
+~~~bash
 $ ruby lib/event_manager.rb
 ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 ~~~
@@ -87,7 +87,7 @@ For this project we are going to use the following sample data:
 Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/ruby_course/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the root of `event_manager` directory.
 
 
-~~~
+~~~bash
 $ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/ruby_course/master/ruby_programming/intermediate_ruby/event_attendees.csv
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -106,7 +106,7 @@ database or spreadsheet applications.
 
 The first few rows of the CSV file you downloaded look like this:
 
-~~~
+~~~bash
 ,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode
 1,11/12/08 10:47,Allison,Nguyen,arannon@jumpstartlab.com,6154385000,3155 19th St NW,Washington,DC,20010
 2,11/12/08 13:23,SArah,Hankins,pinalevitsky@jumpstartlab.com,414-520-5000,2022 15th Street NW,Washington,DC,20009
@@ -519,7 +519,7 @@ When we run our application, we see the first few output correctly and then the
 application terminates.
 
 
-~~~
+~~~bash
 $ ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010
@@ -571,7 +571,7 @@ end
 ~~~
 
 
-~~~
+~~~bash
 $ ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010
@@ -729,7 +729,7 @@ Ruby comes packaged with the `gem` command. This tool allows you to download
 libraries simply knowing the name of the library you want to install.
 
 
-~~~
+~~~bash
 $ gem install google-api-client
 Successfully installed google-api-client-0.15.0
 1 gem installed
@@ -798,7 +798,7 @@ end
 Running our application we find an error.
 
 
-~~~
+~~~bash
 $ ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in `check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ~~~
@@ -856,21 +856,21 @@ name and last name. We will need to complete the following steps:
 
 To do this, we can use the [map](https://ruby-doc.org/core-2.2.0/Array.html#method-i-map) function built into ruby.  It works just like `.each` but returns a new array of the data we want to include.
 
-~~~
+~~~ruby
 legislator_names = legislators.map do |legislator|
     legislator.name
   end
 ~~~
 
 We can further simplify this into it's final form:
-~~~
+
+~~~ruby
 legislator_names = legislators.map(&:name)
 ~~~
 
 ### Cleanly Displaying Legislators
 
 If we were to replace `legislators` with `legislator_names` in our output we would be presented with a *slightly* better output.
-
 
 ~~~
 $ ruby lib/event_manager.rb
@@ -915,7 +915,7 @@ Running our application this time should give us a much more pleasant looking
 output:
 
 
-~~~
+~~~bash
 $ ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010 Eleanor Norton
@@ -1044,7 +1044,6 @@ form_letter = %{
   </body>
   </html>
 }
-
 ~~~
 
 Ruby has quite a few ways that we can define strings. This format `%{ String
@@ -1163,7 +1162,7 @@ variables, methods or ruby code we want to execute.
 ERB defines several different escape sequence tags that we can use, the most
 common are:
 
-~~~
+~~~ruby
 <%= ruby code will execute and show output %>
 <% ruby code will execute but not show output %>
 ~~~
