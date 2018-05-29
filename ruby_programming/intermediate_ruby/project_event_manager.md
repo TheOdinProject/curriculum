@@ -856,14 +856,14 @@ name and last name. We will need to complete the following steps:
 
 To do this, we can use the [map](https://ruby-doc.org/core-2.2.0/Array.html#method-i-map) function built into ruby.  It works just like `.each` but returns a new array of the data we want to include.
 
-~~~
+~~~ruby
 legislator_names = legislators.map do |legislator|
     legislator.name
   end
 ~~~
 
 We can further simplify this into it's final form:
-~~~
+~~~ruby
 legislator_names = legislators.map(&:name)
 ~~~
 
