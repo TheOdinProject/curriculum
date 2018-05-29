@@ -137,3 +137,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Albert Garde's Solution](https://github.com/PenguinAgen/etch-a-sketch) - [View in Browser](https://penguinagen.github.io/etch-a-sketch/)
 * [00Saad's Solution](https://github.com/00SaadChaudhry/Etch-A-Sketch) - [View in Browser](https://00saadchaudhry.github.io/Etch-A-Sketch/)
 .
+* [Katineto's Solution](https://github.com/Katineto/etch-a-sketch) - [View in Browser](https://katineto.github.io/etch-a-sketch/)
