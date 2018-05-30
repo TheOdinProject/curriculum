@@ -200,6 +200,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/bookish-tribble)
 * [Kusnierewicz Solution](https://github.com/Kusnierewicz/Tic-Tac-Toe-Game)
 * [parhaml's solution](https://github.com/parhaml/tic_tac_toe)
+* [Jason's solution](https://github.com/jn4248/tic_tac_toe)
 
 
 ### Project 2: Mastermind
@@ -375,6 +376,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex's solution](https://github.com/alexcorremans/mastermind)
 * [Kusnierewicz solution (with fairly smart AI)](https://github.com/Kusnierewicz/Mastermind-game)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/improved-octo-doodle)
+* [Jason's Solution](https://github.com/jn4248/mastermind_v1)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
