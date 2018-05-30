@@ -109,3 +109,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/Calculator) - [View in Browser](https://anjalideshwani.github.io/Calculator/)
 - [James Thomson's solution](https://github.com/jthomsonx/calculator) - [View in Browser](https://jthomsonx.github.io/calculator/)
 - [Caner Sezgin's solution](https://github.com/casedo/calculator) - [View in Browser](http://bit.ly/casedoCALC)
+- [Albert Garde's solution](https://github.com/PenguinAgen/calculator) - [View in Browser](https://penguinagen.github.io/calculator/)
