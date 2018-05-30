@@ -138,3 +138,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [00Saad's Solution](https://github.com/00SaadChaudhry/Etch-A-Sketch) - [View in Browser](https://00saadchaudhry.github.io/Etch-A-Sketch/)
 * [Katineto's Solution](https://github.com/Katineto/etch-a-sketch) - [View in Browser](https://katineto.github.io/etch-a-sketch/)
 * [Ben Smyth's Solution](https://github.com/benjsmyth/etch-a-sketch) - [View in Browser](https://benjsmyth.github.io/etch-a-sketch/)
+* [Miguel's Solution](https://github.com/MiguelTitus/03_etch_a_sketch) - [View in Browser](https://migueltitus.github.io/03_etch_a_sketch/)
