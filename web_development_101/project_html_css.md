@@ -95,6 +95,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this list
 
+* [jlwalker's solution (Easy)](https://github.com/jlwalkerlg/google-homepage) - [View in Browser](https://jlwalkerlg.github.io/google-homepage/)
 * [CraigAndrewBlair's Solution (Easy)](https://github.com/craigandrewblair/google-homepage) - [View in Browser](https://craigandrewblair.github.io/google-homepage/)
 * [Adam's solution (DuckDuckGo - Easy)](https://github.com/AdamGEmerson/duckduckgo-homepage) - [View in Browser](https://adamgemerson.github.io/duckduckgo-homepage/)
 * [omgitsgod's solution (Easy)](https://github.com/omgitsgod/google-homepage) - [View in Browser](https://omgitsgod.github.io/google-homepage/)
