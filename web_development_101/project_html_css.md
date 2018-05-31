@@ -1,4 +1,4 @@
-### Introduction
+﻿### Introduction
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
@@ -95,6 +95,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this list
 
+* [CatsAreMLG's solution (Difficult)](https://github.com/CatsAreMLG/google-homepage) - [View in Browser](https://catsaremlg.github.io/google-homepage/)
 * [jlwalker's solution (Easy)](https://github.com/jlwalkerlg/google-homepage) - [View in Browser](https://jlwalkerlg.github.io/google-homepage/)
 * [CraigAndrewBlair's Solution (Easy)](https://github.com/craigandrewblair/google-homepage) - [View in Browser](https://craigandrewblair.github.io/google-homepage/)
 * [Adam's solution (DuckDuckGo - Easy)](https://github.com/AdamGEmerson/duckduckgo-homepage) - [View in Browser](https://adamgemerson.github.io/duckduckgo-homepage/)
