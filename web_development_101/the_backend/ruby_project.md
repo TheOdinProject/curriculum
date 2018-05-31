@@ -28,6 +28,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
 * Add your solution below this line!
+
+* [ruanha's solution](https://github.com/ruanha/learn_ruby)
+* [Koutselakis Manos's solution](https://github.com/koutselakismanos/learn_ruby)
 * [Ngo Van Huong's solution](https://github.com/ngovanhuong94/learn-ruby)
 * [Mark Bungeroth's solution](https://github.com/mbungeroth/learn_ruby)
 * [Austin Fisher's solution](https://github.com/austin2016/learn_ruby)
@@ -407,7 +410,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Daniel Ortea's solution](https://github.com/D-Ortea/learn_ruby)
 * [Mojotron's solution](https://github.com/mojotron/learn_ruby)
 * [Josh Hansen's solution](https://github.com/Jdhansen41/ruby_exercises)
-
+* [James Thomson's solution](https://github.com/jthomsonx/learn_ruby)
+* [Diego Ortiz's solution](https://github.com/do-diegoortiz/learn_ruby)
+* [Dima Konoval's solution](https://github.com/DimaKonoval/learn_ruby)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

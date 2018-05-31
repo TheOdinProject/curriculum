@@ -409,6 +409,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [John Clifford's solution](https://github.com/JDClifford/mastermind)
 * [Punnadittr's solution](https://github.com/punnadittr/mastermind)
 * [Agon Idrizi's solution](https://github.com/AgonIdrizi/MasterMind)
+* [Erina Kii solution](https://github.com/erinakii/TheOdinProject/tree/master/mastermind_game)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

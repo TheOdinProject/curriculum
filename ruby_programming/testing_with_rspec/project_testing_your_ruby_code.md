@@ -179,6 +179,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Connect_Four)
 * [Jamesredux's solution](https://github.com/Jamesredux/connect4)
 * [HSaad's solution](https://github.com/HSaad/connect-four)
+* [Punnadittr's solution](https://github.com/punnadittr/connect_four)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
