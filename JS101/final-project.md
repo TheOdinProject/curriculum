@@ -39,6 +39,9 @@ Here are some use cases (abilities you project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/final-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Kevin Mulhern's Solution](https://github.com/KevinMulhern/js_calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/KevinMulhern/js_calculator/blob/master/index.html)
+- [ruanha's solution](https://github.com/ruanha/calculator) - [View in Browser](https://ruanha.github.io/calculator/)
+- [AlienSjit's solution](https://github.com/aliensjit/Calculator) - [View in Browser](https://aliensjit.github.io/Calculator/)
 - [scarey18's solution](https://github.com/scarey18/calculator) - [View in Browser](https://scarey18.github.io/calculator/)
 - [jstnlester's Solution](https://github.com/jstnlester/calculator) - [View in Browser](https://jstnlester.github.io/calculator/)
 - [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_JavaScript_Calculator) - [View in Browser](https://sarfrazanjum.github.io/TOP_JavaScript_Calculator/)
@@ -105,3 +108,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dima Konoval's Solution](https://github.com/DimaKonoval/Calculator) - [View in Browser](https://cdn.rawgit.com/DimaKonoval/Calculator/256e8690/index.html)
 - [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/Calculator) - [View in Browser](https://anjalideshwani.github.io/Calculator/)
 - [James Thomson's solution](https://github.com/jthomsonx/calculator) - [View in Browser](https://jthomsonx.github.io/calculator/)
+- [Caner Sezgin's solution](https://github.com/casedo/calculator) - [View in Browser](http://bit.ly/casedoCALC)
+- [Albert Garde's solution](https://github.com/PenguinAgen/calculator) - [View in Browser](https://penguinagen.github.io/calculator/)

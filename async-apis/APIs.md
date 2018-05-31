@@ -163,7 +163,7 @@ You should now be able to open the HTML file in your browser, and while you won'
 
 Now we have a JavaScript object and if you inspect it closely enough you'll find that the data we need (an image URL) is nested rather deeply inside the object:
 
-![response](./images/apiresponse.png)
+![response](https://raw.githubusercontent.com/TheOdinProject/javascript_curriculum/master/async-apis/images/apiresponse.png)
 
 To get to the data we need to drill down through the layers of the object until we find what we want!
 
