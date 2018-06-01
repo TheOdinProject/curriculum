@@ -10,7 +10,7 @@ function getElements(selector) {
 }
 
 function kebabCase(text) {
-  return text.toLowerCase().match(/\w+/g).join('-');
+  return text.toLowerCase().replace(/[^\w\d -]/, '').split(' ').join('-');
 }
 
 function setTargetForExternalLinks() {
