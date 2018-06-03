@@ -66,7 +66,11 @@ A head node is the first node in the list, a tail node is the last node in the l
 Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_linked_lists.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+<<<<<<< HEAD
 * [Sherman Bowling's solution](https://github.com/janus0/top_course_work/blob/master/ruby/project_linked_list/project_linked_list.rb)
+=======
+* [Nathan Sherburne's solution](https://github.com/nathansherburne/ruby_practice/blob/master/data_structures/linked_list.rb)
+>>>>>>> 485f3e5299a7a6856a02c43bca4ff23ec437be56
 * [Javier Machin's solution](https://github.com/Javier-Machin/Linked_list/blob/master/linked_list.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/linked_list.rb)
 * [0zra's solution](https://github.com/0zra/linkedlist/blob/master/linkedlist.rb)
@@ -149,3 +153,4 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Alex's solution](https://github.com/alexcorremans/linked_list)
 * [HSaad's solution](https://github.com/HSaad/linked-lists)
 * [Scott McKell's Solution:](https://github.com/zottwickel/linked_list.git)
+* [Punnadittr's Solution:](https://github.com/punnadittr/linked_list/blob/master/linked_lists.rb)

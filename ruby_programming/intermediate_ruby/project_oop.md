@@ -17,6 +17,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Ngo Van Huong's solution](https://github.com/ngovanhuong94/tictactoe-ruby)
+* [Nathan Sherburne's solution](https://github.com/nathansherburne/ruby_practice/tree/master/tic_tac_toe)
+* [Mike Burke's solution](https://github.com/mb52089/odin/blob/master/ttt.rb)
+* [Henry Kirya's solution](https://github.com/harrika/odin/tree/master/tictac)
 * [Suman Saurabh's solution](https://github.com/sumandroid/odin-tic-tac-toe)
 * [Isil Donmez's Solution](https://github.com/isildonmez/OOP/tree/master/tic_tac_toe)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/TicTacToe/blob/master/tic_tac_toe.rb)
@@ -214,6 +218,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Scott McKell's Solution](https://github.com/zottwickel/Tic-Tac-Toe.git)
 * [John Clifford's Solution](https://github.com/JDClifford/ticktacktoe)
 * [Punnadittr's Solution](https://github.com/punnadittr/tictactoe)
+* [Agon Idrizi's Solution](https://github.com/AgonIdrizi/TicTacToe)
 
 ### Project 2: Mastermind
 
@@ -236,6 +241,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Henry Kirya's Solution](https://github.com/harrika/odin/tree/master/mastermind)
 * [Isil Donmez's Solution](https://github.com/isildonmez/OOP/tree/master/master_mind)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Mastermind/blob/master/mastermind.rb)
 * [Sava Vuckovic's Solution](https://github.com/SavaVuckovic/Mastermind-Game)
@@ -402,6 +408,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Scott McKell's solution](https://github.com/zottwickel/Mastermind.git)
 * [John Clifford's solution](https://github.com/JDClifford/mastermind)
 * [Punnadittr's solution](https://github.com/punnadittr/mastermind)
+* [Agon Idrizi's solution](https://github.com/AgonIdrizi/MasterMind)
+* [Erina Kii solution](https://github.com/erinakii/TheOdinProject/tree/master/mastermind_game)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

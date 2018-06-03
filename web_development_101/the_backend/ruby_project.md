@@ -28,6 +28,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
 * Add your solution below this line!
+* [jstnlester's Solution](https://github.com/jstnlester/learn-ruby)
+* [ruanha's solution](https://github.com/ruanha/learn_ruby)
+* [Koutselakis Manos's solution](https://github.com/koutselakismanos/learn_ruby)
+* [Ngo Van Huong's solution](https://github.com/ngovanhuong94/learn-ruby)
+* [Mark Bungeroth's solution](https://github.com/mbungeroth/learn_ruby)
 * [Austin Fisher's solution](https://github.com/austin2016/learn_ruby)
 * [Cary Williams's solutions](https://github.com/twilliams1615/ruby/tree/master/TheOdinProject)
 * [Alexander John's solutions](https://github.com/alexander-john/learn_ruby)
@@ -36,11 +41,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Jon Yoo's solutions](https://github.com/jonyoowa/learn_ruby)
 * [Ryafl's solutions](https://github.com/ryafl/learn_ruby)
 * [Javier Machin's solutions](https://github.com/Javier-Machin/learn_ruby/tree/mySolution)
-* [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/learn_ruby)
+* [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/TOP_101_Ruby)
 * [Samuel Master'solutions](https://github.com/redeyetuning/learn_ruby)
 * [Fabien Kovacic's solutions](https://github.com/Fabious/learn_ruby)
 * [funwithcthulhu's solutions](https://github.com/funwithcthulhu/test-first-ruby_solve_2)
-* [Shawn Young's solutions](https://github.com/ShawnYoung72443/learn_ruby)
+* [Shawn Young's solutions](https://github.com/ShawnYoung72(443/learn_ruby)
 * [Alin Simion's solutions](https://github.com/alinsg/learn_ruby)
 * [Kyle Lemon's solutions](https://github.com/jklemon17/learn_ruby)
 * [Maria Tikhonova's solutions](https://github.com/MariaTikhonova/learn_ruby)
@@ -360,7 +365,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Seederwood's solution](https://github.com/seederwood/learn_ruby)
 * [Anistor86's solution](https://github.com/anistor86/learn_ruby)
 * [ntnlbar's solution](https://github.com/ntnlbar/learn_ruby)
-* [Igor's solution](https://github.com/mojotron/learn_ruby)
 * [Loc Nguyen's solution](https://github.com/vinhloc30796/learn_ruby)
 * [Arunava's solution](https://github.com/iArunava/learn_ruby)
 * [Anik's solution](https://github.com/radioactive001/learn_ruby)
@@ -402,7 +406,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Punnadittr's solution](https://github.com/punnadittr/learn_ruby)
 * [Djokole's solution](https://github.com/djokole/learn_ruby)
 * [cartwheeler's solution](https://github.com/cartwheeler/ruby_exercises)
-
+* [zasman's solution](https://github.com/ZASMan/learn_ruby)
+* [Daniel Ortea's solution](https://github.com/D-Ortea/learn_ruby)
+* [Mojotron's solution](https://github.com/mojotron/learn_ruby)
+* [Josh Hansen's solution](https://github.com/Jdhansen41/ruby_exercises)
+* [James Thomson's solution](https://github.com/jthomsonx/learn_ruby)
+* [Diego Ortiz's solution](https://github.com/do-diegoortiz/learn_ruby)
+* [Dima Konoval's solution](https://github.com/DimaKonoval/learn_ruby)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

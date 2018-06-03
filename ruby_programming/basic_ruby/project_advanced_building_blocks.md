@@ -37,6 +37,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Ngo Van Huong's Solutions](https://github.com/ngovanhuong94/ruby-learn-projects/blob/master/bubble_sort.rb)
+* [Nathan Sherburne's Solutions](https://github.com/nathansherburne/ruby_practice/blob/master/bubble_sort.rb)
 * [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
 * [Henry Kirya's Solution](https://github.com/harrika/odin/blob/master/bubble_sort.rb)
 * [Ryan's Solution](https://github.com/ryanford-frontend/ruby-adv-building-blocks/tree/master/ruby-bubblesort)
@@ -281,6 +283,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/Ruby-functions/blob/master/bubble_sort_by.rb)
 * [Punnadittr's Solution](https://github.com/punnadittr/bubble_sort_ruby)
 * [cartwheeler's Solution](https://github.com/cartwheeler/ruby_bubble_sort)
+* [Agon's Solution](https://github.com/AgonIdrizi/RubyBuildingBlocks/blob/master/the_odin_project/Ruby/AdvancedBuildingBlocks/BubbleSort.rb)
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
@@ -324,6 +327,9 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Ngo Van Huong's Solutions](https://github.com/ngovanhuong94/ruby-learn-projects/blob/master/enumerable_methods.rb)
+* [Nathan Sherburne's Solutions](https://github.com/nathansherburne/ruby_practice/blob/master/enum_mod.rb)
+* [Mike Burke's Solutions](https://github.com/mb52089/odin)
 * [Jon Yoo's Solutions](https://github.com/jonyoowa/ruby-exercises)
 * [Henry Kirya's Solution](https://github.com/harrika/odin/blob/master/enum.rb)
 * [Ryan's Solution](https://github.com/ryanford-frontend/ruby-adv-building-blocks/tree/master/ruby-enumerables)
@@ -540,6 +546,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [Niko Caron's Solution](https://gist.github.com/ncaron/759e132a0f0e3c16e8b18797a13763d3)
 * [HSaad's Solution](https://github.com/HSaad/enumerable/blob/master/enumerable_methods.rb)
 * [Punnadittr's Solution](https://github.com/punnadittr/enumerable_ruby/blob/master/ruby/enumerable/enumerable.rb)
+* [Agon's Solution](https://github.com/AgonIdrizi/RubyBuildingBlocks/blob/master/the_odin_project/Ruby/AdvancedBuildingBlocks/enumerable.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

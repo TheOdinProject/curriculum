@@ -23,6 +23,3 @@ As we covered back in the [Installations Project](/courses/web-development-101/l
   4. You should also be able to use `$ which git` and see the directory where you installed Git.
 
 </div>
-
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
