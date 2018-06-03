@@ -1493,6 +1493,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Luke Bennett's Solution (Easy - with working search)](https://github.com/lukebennett88/google-homepage) - [View in Browser](https://google-homepage-odin-project.netlify.com)
 * [Molly Stone's Solution (Easy)](https://github.com/mstone89/google-homepage) - [View in Browser](https://mstone89.github.io/google-homepage/)
 * [Miguel's Solution (Easy)](https://github.com/MiguelTitus/01_google_homepage_easy) - [View in Browser](https://migueltitus.github.io/01_google_homepage_easy/)
+* [misNu's Solution (Easy + Difficult)](https://github.com/misNuu/google-homepage/) - [View Easy in Browser](https://misnuu.github.io/google-homepage/) + [View Difficult in Browser](https://misnuu.github.io/google-search-results/)
 
 
 ### Additional Resources
