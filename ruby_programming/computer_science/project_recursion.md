@@ -14,6 +14,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 * [Sherman Bowling's solution](https://github.com/janus0/top_course_work/tree/master/ruby/project_fibonacci_recursion)
+* [Lucas Manzano's solution](https://github.com/lucasmfarias1/recursion/blob/master/fibs.rb)
 * [Btreims's solution](https://github.com/btreim/ruby/blob/master/Fibonacci.rb)
 * [0zra's solution](https://github.com/0zra/fib)
 * [Demo318's solution](https://github.com/Demo318/ruby_recursion/blob/master/fibs.rb)
@@ -171,6 +172,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Lucas Manzano's solution](https://github.com/lucasmfarias1/recursion/blob/master/merge_sort.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/merge_sort.rb)
 * [Demo318's solution](https://github.com/Demo318/ruby_recursion/blob/master/merge_sort.rb)
 * [Jacqueline's solution](https://github.com/jfahmy/Ruby/blob/master/ProjectOdin/merge_sort.rb)
