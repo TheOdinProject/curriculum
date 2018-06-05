@@ -198,3 +198,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mike Smith's updated solution](https://github.com/MikeSS281986/rock_paper_scissors_v3.git) - [View in Browser] (https://mikess281986.github.io/rock_paper_scissors_v3/)
 - [Joe Collins' solution](https://github.com/joe-collins/rock-paper-scissors/blob/master/index.html)(Console only) - [View in browser](https://joe-collins.github.io/rock-paper-scissors/)
 - [Ben Smyth's Solution](https://github.com/benjsmyth/rock-paper-scissors) [View in Browser](https://benjsmyth.github.io/rock-paper-scissors/)
+- [Felipe Parreira's solution] (https://github.com/FelipeParreira/ConsoleRPS/blob/master/index.html)
