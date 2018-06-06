@@ -1496,6 +1496,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [misNu's Solution (Easy + Difficult)](https://github.com/misNuu/google-homepage/) - [View Easy in Browser](https://misnuu.github.io/google-homepage/) + [View Difficult in Browser](https://misnuu.github.io/google-search-results/)
 * [Victor Bassey's Solution (Easy)](https://veezyjay.github.io/google-homepage/) - [View in Browser](https://veezyjay.github.io/google-homepage/)
 * [ebosi's solution (easy)](https://github.com/etiennebosi/google-homepage-replica) — [View in browser](https://etiennebosi.github.io/google-homepage-replica/)
+* [Vyhn's solution (easy)](https://github.com/Vyhnn/google-homepage) — [View in browser](https://cdn.rawgit.com/Vyhnn/google-homepage/0e44051e/index.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
