@@ -111,3 +111,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [James Thomson's solution](https://github.com/jthomsonx/calculator) - [View in Browser](https://jthomsonx.github.io/calculator/)
 - [Caner Sezgin's solution](https://github.com/casedo/calculator) - [View in Browser](http://bit.ly/casedoCALC)
 - [Albert Garde's solution](https://github.com/PenguinAgen/calculator) - [View in Browser](https://penguinagen.github.io/calculator/)
+- [Mike Smith's solution](https://github.com/MikeSS281986/Calculator) - [View in Browser](https://mikess281986.github.io/Calculator/)
