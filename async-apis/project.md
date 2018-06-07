@@ -16,6 +16,7 @@ You should change the look of the page based on the data, maybe by changing the 
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/async-apis/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [theghall's Promise solution](https://github.com/theghall/odin-weather) - [theghall's async/await refactor](https://github.com/theghall/odin-weather-alt)
 * [Jmooree30's solution](https://github.com/jmooree30/weather-app) - [View in browser](https://jmooree30.github.io/weather-app/)
 * [Devon's solution](https://github.com/defitjo/Weather-App) - [View in browser](https://defitjo.github.io/Weather-App/)
 * [hmbeale's solution](https://github.com/hmbeale/weather) - [View in browser](http://hmbeale.github.io/weather/)
