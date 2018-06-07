@@ -201,3 +201,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ben Smyth's Solution](https://github.com/benjsmyth/rock-paper-scissors) [View in Browser](https://benjsmyth.github.io/rock-paper-scissors/)
 - [Felipe Parreira's solution](https://github.com/FelipeParreira/ConsoleRPS/blob/master/index.html)
 - [cckl's solution](https://github.com/cckl/rps)
+- [Jasmine Wright's solution](https://github.com/jnwright/rock-paper-scissors/blob/master/index.html)
