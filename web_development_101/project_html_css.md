@@ -1497,6 +1497,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Victor Bassey's Solution (Easy)](https://veezyjay.github.io/google-homepage/) - [View in Browser](https://veezyjay.github.io/google-homepage/)
 * [ebosi's solution (easy)](https://github.com/etiennebosi/google-homepage-replica) — [View in browser](https://etiennebosi.github.io/google-homepage-replica/)
 * [Vyhn's solution (easy)](https://github.com/Vyhnn/google-homepage) — [View in browser](https://cdn.rawgit.com/Vyhnn/google-homepage/0e44051e/index.html)
+* [Akash's solution (easy)](https://github.com/Akash-sopho/google-homepage.git) - [View in browser]( http://htmlpreview.github.io/?https://github.com/Akash-sopho/google-homepage/blob/master/index.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
