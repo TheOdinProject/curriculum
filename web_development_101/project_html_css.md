@@ -1500,6 +1500,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Vyhn's solution (easy)](https://github.com/Vyhnn/google-homepage) - [View in browser](https://cdn.rawgit.com/Vyhnn/google-homepage/0e44051e/index.html)
 * [Akash's solution (easy)](https://github.com/Akash-sopho/google-homepage.git) - [View in browser]( http://htmlpreview.github.io/?https://github.com/Akash-sopho/google-homepage/blob/master/index.html)
 * [Max Garber's solution (easy)](https://github.com/bubblebooy/google-homepage) - [View in browser](https://bubblebooy.github.io/google-homepage/)
+* [Krystian's solution (easy)](https://github.com/blahutakrystian/google-homepage)- [View in browser](https://blahutakrystian.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
