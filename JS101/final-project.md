@@ -114,4 +114,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mike Smith's solution](https://github.com/MikeSS281986/Calculator) - [View in Browser](https://mikess281986.github.io/Calculator/)
 - [Ben Smyth's Solution](https://github.com/benjsmyth/calculator) - [View in Browser](https://benjsmyth.github.io/calculator/)
 - [Katineto's Solution](https://github.com/Katineto/calculator) - [View in Browser](https://katineto.github.io/calculator/)
+- [00Saad's Solution](https://github.com/00SaadChaudhry/calculator) - [View in Browser](https://00saadchaudhry.github.io/calculator/)
+
+
 
