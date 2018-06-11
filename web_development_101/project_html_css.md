@@ -1450,7 +1450,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Tony Njokus's Solution (Easy)](https://canjoku.github.io/google-homepage/) - [View in Browser](https://canjoku.github.io/google-homepage/)
 * [Timothy Shortess's Solution (Easy)](http://timmshor.github.io/google-homepage/)
 * [Ignacio Troncoso's Solution (Easy)](https://github.com/curlynacho/google-homepage)
-** [Beau Findlay's Solution (Easy)](https://github.com/bdfin/google-homepage) - [View in Browser](https://bdfin.github.io/google-homepage/)
+* [Beau Findlay's Solution (Easy)](https://github.com/bdfin/google-homepage) - [View in Browser](https://bdfin.github.io/google-homepage/)
 * [Lucas Ferreira's Solution (Easy)](https://github.com/LuksVF/google-homepage) - [View in Browser](https://luksvf.github.io/google-homepage/index.html) - [Lucas Ferreira's Solution (Difficult)](https://github.com/LuksVF/google-results) - [View in Browser](https://luksvf.github.io/google-results/index.html)
 * [Molly Kelsey's Solution (Easy)](https://github.com/mkels/google-homepage) - [View in Browser](https://mkels.github.io/google-homepage/)
 * [Molly Kelsey's Solution (Difficult)](https://github.com/mkels/google-search) - [View in Browser](https://mkels.github.io/google-search/)
