@@ -1,11 +1,11 @@
 # Introduction
 First released back in 2012 by Google, AngularJS was the first big-hitter in Single Page Application(SPA) frameworks. A big appeal of AngularJS was its unobtrusive approach as you could control which parts of your page interacted with the AngularJS framework.
 
-In 2016 Angular 2 was released named simply Angular. The reasoning was that this was a groundbreaking update with no backwards compatibility with AngularJS and therefore represented a new version that would be taken forwards.
+In 2016 Angular 2 was released simply named Angular. The reasoning was that this was a groundbreaking update with no backwards compatibility with AngularJS and therefore represented a new version that would be taken forwards.
 
-The lack of backwards compatibility with AngularJS meant it lost a lot of trust with the developer community as entire applications has to be rewritten from scratch to use the new Angular framework. Many see this as the reason React, and to a lesser extent VueJS gained huge traction in the frontend Framework space.
+The lack of backwards compatibility with AngularJS meant it lost a lot of trust with the developer community as entire applications would have to be rewritten from scratch to use the new Angular framework. Many see this as the reason React, and to a lesser extent VueJS gained huge traction in the frontend framework space.
 
-Since Angular's release it ensured no further groundbreaking changes with backwards compatibility across versions.
+Since Angular's release it has ensured no further groundbreaking changes with backwards compatibility maintained across versions.
 
 At the time of writing version 6 has just been released.
 
@@ -26,7 +26,7 @@ Importantly, Angular is also actively maintained by a very large community which
 While there are many positives to choosing Angular there are some drawbacks.
 
 - Because of its coupling to Typescript you will need to learn that to really grok Angular. Any examples you see online will be written in it and any support you'll receive from the community will probably assume you're using Typescript
-- Angular makes good use of the command line. So you'll need to delve into the Angular CLI
+- Angular makes good use of the command line so you'll need to delve into the Angular CLI
 - The Node Package Manager(npm) is used extensively so you'll need a firm grasp of that
 - Tests can become very complex but essential when the app grows so you need a solid understanding of test principles
 
@@ -40,9 +40,9 @@ The easiest way to get started is to follow the guide on the [Angular Site](http
 You will need node and npm installed. I personally prefer to use [nvm](https://github.com/creationix/nvm) to manage by node versions but however you want to do it is up to you.
 
 # Assignment
-- Follow along with the getting started guide on the [Angular Site](https://angular.io/guide/quickstart) and ensure you have your environment set up correctly
-- Skim through this [Angular Fundamentals](https://angular.io/guide/architecture) guide on the architecture an Angular app to get a high-level overview of how an app is put together
-- Try [This Angular 6 Tutorial](https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course) to get an idea of the power of using a framework like Angular
+1. Follow along with the getting started guide on the [Angular Site](https://angular.io/guide/quickstart) and ensure you have your environment set up correctly
+2. Skim through this [Angular Fundamentals](https://angular.io/guide/architecture) guide on the architecture an Angular app to get a high-level overview of how an app is put together
+3. Try [This Angular 6 Tutorial](https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course) to get an idea of the power of using a framework like Angular
 
 # Additional Resources
 - Angular have their [own tutorial](https://angular.io/tutorial) you can try
