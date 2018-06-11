@@ -417,6 +417,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Kriscard solution](https://github.com/kriscard/learn_ruby)
 * [Ben Smyth's Solution](https://github.com/benjsmyth/learn_ruby)
 * [Agon's solution](https://github.com/AgonIdrizi/TDD_Ruby)
+* [Mike Smith's Solution](https://github.com/MikeSS281986/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
