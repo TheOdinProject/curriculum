@@ -9,7 +9,7 @@ React is used most in conjuction with the react router to create single page web
 
 This framework's most defining feature is it's components. React was developed to be modular, and have easy to use 'parts' that can be plugged into different parts of your application. React heavily uses a syntax called JSX, which is an html like syntax for javascript. (This can be used without react, as it is just syntactic sugar over creating DOM elements manually using `document.createElement('div')`, for example). Anything written in react is simply javascript, and can be treated as such. React stays performant by utilizing what they call a virtural DOM. The framework utilizes this virtural DOM by comparing it with the real DOM to tell which elements need to be updated and which ones do not. This keeps react fast. 
 
-React is not only limited to the web browser. React Native can be used to develop cross-platofrm mobile applications with the same languages you are familliar with in the web browser.
+React is not only limited to the web. React Native can be used to develop cross-platform mobile applications with the same languages you are familiar with in the web browser.
 
 A note about Redux:
 
