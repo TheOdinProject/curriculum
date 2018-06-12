@@ -40,6 +40,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/etch-a-sketch-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [Danny Pearson's Solution](https://github.com/dbuzzin/etch-a-sketch) - [View in Browser](https://dbuzzin.github.io/etch-a-sketch/)
 * [Reece Pritchard's Solution](https://github.com/rapritchard/ETCH-A-SKETCH) - [View in Browser](https://rapritchard.github.io/ETCH-A-SKETCH/)
 * [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/js-etch-a-sketch) - [View in Browser](https://chadkreutzer.github.io/js-etch-a-sketch/)
 * [ruanha's Solution](https://github.com/ruanha/etch-a-sketch) - [View in Browser](https://ruanha.github.io/etch-a-sketch/)
