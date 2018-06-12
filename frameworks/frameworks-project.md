@@ -4,7 +4,7 @@ The best way to actually learn something is to _use_ it! We've directed you to b
 
 <div class="lesson-content__panel" markdown="1">
 1. Select one of the big 3 frameworks. 
-2. For this assignment you'll be recreating one of our previous assignments using your framework of choice.. so look back at your previous work and select a project.  I'd suggest either the library or the restraunt page.  If you want to do the todo-list I'd suggest just doing a simplified version without projects.
+2. For this assignment you'll be recreating one of our previous assignments using your framework of choice.. so look back at your previous work and select a project.  I'd suggest either the library or the restaurant page.  If you want to do the todo-list I'd suggest just doing a simplified version without projects.
 3. The actual implementation is up to you, but before you start consider which elements in your project are going to be their own components.  Having a general idea of how your app is going to be organized is a great way to get started. [This article](https://reactjs.org/docs/thinking-in-react.html) while being about react is relevant for any of these frameworks.  Read that and notice how they break the UI down into components.
 4. Build it baby!  Good luck!
 </div>
