@@ -1506,6 +1506,7 @@ Submit a link below to the GitHub repo with your files in it by using a pull req
 * [Krystian's solution (Easy)](https://github.com/blahutakrystian/google-homepage)- [View in Browser](https://blahutakrystian.github.io/google-homepage/)
 * [Scott McKell's solution (Easy)](https://github.com/zottwickel/google-homepage) - [View in Browser](https://zottwickel.github.io/google-homepage/)
 * [Brendaneus' Solution (Easy)](https://github.com/Brendaneus/google-homepage) - [View in Brpwser](https://brendaneus.github.io/google-homepage/)
+* [Kristap's solution (Difficult)](https://github.com/narelskristaps/google-homepage) - [View in Browser](https://narelskristaps.github.io/google-homepage/)
 
 
 ### Additional Resources
