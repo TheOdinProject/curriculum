@@ -1505,6 +1505,9 @@ Submit a link below to the GitHub repo with your files in it by using a pull req
 * [Max Garber's solution (Easy)](https://github.com/bubblebooy/google-homepage) - [View in Browser](https://bubblebooy.github.io/google-homepage/)
 * [Krystian's solution (Easy)](https://github.com/blahutakrystian/google-homepage)- [View in Browser](https://blahutakrystian.github.io/google-homepage/)
 * [kdclemaster's solution (Easy)](https://github.com/kdclemaster/google-homepage)- [View in Browser](https://kdclemaster.github.io/google-hompeage/)
+* [Scott McKell's solution (Easy)](https://github.com/zottwickel/google-homepage) - [View in Browser](https://zottwickel.github.io/google-homepage/)
+* [Brendaneus' Solution (Easy)](https://github.com/Brendaneus/google-homepage) - [View in Brpwser](https://brendaneus.github.io/google-homepage/)
+* [Kristap's solution (Difficult)](https://github.com/narelskristaps/google-homepage) - [View in Browser](https://narelskristaps.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
