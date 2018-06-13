@@ -37,13 +37,17 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [Ipshita's Solution](https://github.com/Ipshita1996/Rock-Paper-Scissors) - [View in Browser](https://ipshita1996.github.io/Rock-Paper-Scissors/)
+- [Inuhoo's Solution](https://github.com/inuhoo/rock-paper-scissors) - [View in Browser](https://inuhoo.github.io/rock-paper-scissors/)
+- [Jbaik's solution](https://github.com/woobaik/the_odin/blob/master/html_css/basic_js/rock_paper_scissors.html)
+- [Reece Pritchard's Solution](https://github.com/rapritchard/rock-paper-scissors) - [View in Browser](https://rapritchard.github.io/rock-paper-scissors/)
 - [Ajani Stewart's Solution](https://github.com/AjaniStewart/rock-paper-scissors)
 - [Chris Magennis' Solution](https://github.com/cMagennis/rockPaperScissors)
 - [Gabriel Ng's Solution](https://github.com/gabe-ng/rock-paper-scissors) - [View in Broswer](https://gabe-ng.github.io/rock-paper-scissors/)
 - [Umeayo Onyekachukwu's Solution](https://github.com/Dudeonyx/rock-paper-scissors) - [View in Browser](https://dudeonyx.github.io/rock-paper-scissors)
 - [Kenneth McFetridge's Solution](https://github.com/kmcfetridge/ConsoleRPS) - [View in Browser](https://kmcfetridge.github.io/ConsoleRPS/)
 - [Adam's Solution](https://github.com/AdamGEmerson/rock-paper-scissors) - [View in Browser](https://adamgemerson.github.io/rock-paper-scissors/)
-- [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/rock-paper-scissors/blob/master/index.html)
+- [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/rock-paper-scissors/blob/master/index.html) - [View in Browser](https://chadkreutzer.github.io/rock-paper-scissors/)
 - [koutselakismanos's Solution](https://github.com/koutselakismanos/rock-paper-scissors) - [View in Browser](https://koutselakismanos.github.io/rock-paper-scissors/)
 - [ruanha's Solution](https://github.com/ruanha/rockpaperscissors) - [View in Browser](https://ruanha.github.io/rockpaperscissors/)
 - [Josiah Lawrence's Solution](https://github.com/uzorjchibuzor/rock-paper-scissors) - [View in Browser](https://uzorjchibuzor.github.io/uzorjchibuzor-rock-paper-scissors/)
@@ -205,6 +209,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ben Smyth's Solution](https://github.com/benjsmyth/rock-paper-scissors) [View in Browser](https://benjsmyth.github.io/rock-paper-scissors/)
 - [Felipe Parreira's solution](https://github.com/FelipeParreira/ConsoleRPS/blob/master/index.html)
 - [cckl's solution](https://github.com/cckl/rps)
-- [Jasmine Wright's solution](https://github.com/jnwright/rock-paper-scissors/blob/master/index.html)
+- [Jasmine Wright's solution](https://github.com/jnwright/rock-paper-scissors/blob/master/index.html) - [UI version](https://pensive-kare-1d3e1e.netlify.com/)
 - [Chris MacSwan's Solution](https://github.com/cmacswan07/rock_paper_scissors/blob/master/index.html)
 - [Akash's Solution](https://github.com/Akash-sopho/rock-paper-scissor/blob/master/index.html) [View in Browser - (Console only)](http://htmlpreview.github.io/?https://github.com/Akash-sopho/rock-paper-scissor/blob/master/index.html)
+- [Sanjana Sethiya's Solution](https://github.com/sanjana-1604/Rock-Paper-Scissor/blob/master/index.html) [View in Browser](https://sanjana-1604.github.io/Rock-Paper-Scissor/)
