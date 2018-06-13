@@ -268,6 +268,79 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
+  title: "Front End Frameworks",
+  title_url: "front end frameworks".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "We'll take a brief look at the most popular JavaScript frameworks."
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Introduction to Frameworks",
+  title_url: "frameworks introduction".parameterize,
+  description: "intro",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/frameworks/frameworks-introduction.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Angular",
+  title_url: "Angular".parameterize,
+  description: "Angular",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/frameworks/angular.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "React",
+  title_url: "React".parameterize,
+  description: "React",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/frameworks/react-introduction.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Vue",
+  title_url: "Vue".parameterize,
+  description: "Vue",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/frameworks/vue.md",
+  repo: 'javascript_curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Project: Frameworks",
+  title_url: "Project: Frameworks".parameterize,
+  description: "Project: Frameworks",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/frameworks/frameworks-project.md",
+  repo: 'javascript_curriculum'
+)
+
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
   title: "Asynchronous JavaScript and APIs",
   title_url: "Asynchronous JavaScript".parameterize,
   course_id: course.id,
