@@ -213,3 +213,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Chris MacSwan's Solution](https://github.com/cmacswan07/rock_paper_scissors/blob/master/index.html)
 - [Akash's Solution](https://github.com/Akash-sopho/rock-paper-scissor/blob/master/index.html) [View in Browser - (Console only)](http://htmlpreview.github.io/?https://github.com/Akash-sopho/rock-paper-scissor/blob/master/index.html)
 - [Sanjana Sethiya's Solution](https://github.com/sanjana-1604/Rock-Paper-Scissor/blob/master/index.html) [View in Browser](https://sanjana-1604.github.io/Rock-Paper-Scissor/)
+- [Adhithyan's Solution](https://github.com/v-adhithyan/theodinproject/tree/master/rock-paper-scissor) - [View in Browser](http://adhithyan.xyz/theodinproject/rock-paper-scissor)
