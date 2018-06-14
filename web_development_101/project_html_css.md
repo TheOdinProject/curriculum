@@ -1509,6 +1509,7 @@ Submit a link below to the GitHub repo with your files in it by using a pull req
 * [Brendaneus' Solution (Easy)](https://github.com/Brendaneus/google-homepage) - [View in Brpwser](https://brendaneus.github.io/google-homepage/)
 * [Kristap's solution (Difficult)](https://github.com/narelskristaps/google-homepage) - [View in Browser](https://narelskristaps.github.io/google-homepage/)
 * [Brian's solution (Difficult)](https://github.com/brian-giordano/google-homepage) - [View in Browser](https://brian-giordano.github.io/google-homepage/)
+* [Najeeb Anwari's solution (Easy)](https://github.com/najeeb-anwari/google-homepage) - [View in Browser](https://najeeb-anwari.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
