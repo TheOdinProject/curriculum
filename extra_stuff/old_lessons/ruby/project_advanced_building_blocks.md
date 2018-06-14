@@ -258,6 +258,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/congenial-spoon)
 * [Kyle and Paul's Solution](https://github.com/jklemon17/microverse-ruby-projects/blob/master/advanced-building-blocks/bubble-sort.rb)
 * [Jason's Solution](https://github.com/jn4248/ruby_advanced_building_blocks/blob/master/bubble_sort.rb)
+* [Archer's solution](https://github.com/LawrenceArcher/top_ruby/blob/master/advanced_building_blocks/bubble_sort.rb)
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
