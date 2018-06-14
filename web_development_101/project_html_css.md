@@ -1510,6 +1510,8 @@ Submit a link below to the GitHub repo with your files in it by using a pull req
 * [Kristap's solution (Difficult)](https://github.com/narelskristaps/google-homepage) - [View in Browser](https://narelskristaps.github.io/google-homepage/)
 * [Brian's solution (Difficult)](https://github.com/brian-giordano/google-homepage) - [View in Browser](https://brian-giordano.github.io/google-homepage/)
 * [Najeeb Anwari's solution (Easy)](https://github.com/najeeb-anwari/google-homepage) - [View in Browser](https://najeeb-anwari.github.io/google-homepage/)
+* [Loumarven's solution (Easy)](https://github.com/loumarven/google-homepage) - [View in Browser](https://loumarven.github.io/google-homepage/)
+* [Loumarven's solution (Difficult)](https://github.com/loumarven/google-search-results) - [View in Browser](https://loumarven.github.io/google-search-results/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
