@@ -118,6 +118,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [00Saad's Solution](https://github.com/00SaadChaudhry/calculator) - [View in Browser](https://00saadchaudhry.github.io/calculator/)
 - [Akash's Solution](https://github.com/Akash-sopho/calculator) - [View in Browser](http://htmlpreview.github.io/?https://github.com/Akash-sopho/calculator/blob/master/index.html)
 - [Adhithyan's Solution](https://github.com/v-adhithyan/theodinproject/tree/master/calculator) - [View in Browser](http://adhithyan.xyz/theodinproject/calculator)
-
+- [John Piatras' Solution](https://github.com/JohnPiatras/calculator) - [View in Browser](https://johnpiatras.github.io/calculator)
 
 
