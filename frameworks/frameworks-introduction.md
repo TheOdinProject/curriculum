@@ -2,7 +2,7 @@
 
 By this point you will probably have already heard about JavaScript frameworks such as React, Angular and Vue.  While we aren't going to spend too much time teaching you all the details of each of these frameworks, knowing a bit about them and how to get started with one of them is crucial in todays web-dev world.  Almost every major web app that is being built today will use a framework of some sort and almost every front-end job posting mentions at least one of them.
 
-## What _is_ a framework?
+### What _is_ a framework?
 
 Essentially, a framework is some JS code that makes it faster and easier to write interactive webapps with reusable components.  If you have completed odin assignments such as the restaurant page, the library or the todo-list you will know that doing things like this with plain-JS can be a rather time consuming process filled with `document.createElement` and `element.innerHTML`.  Frameworks try to make this much easier, much quicker and much more sustainable.
 
@@ -22,7 +22,7 @@ Most frameworks also include some sort of state-management system.  State manage
 
 Different frameworks will have various other tools built-in (or easily included with plugins) such as routing, (changing the view based on the URL) rendering arrays as lists, (Imagine creating a `<ul>` filled with `<li>`s by passing your template an array rather than repeating the `<li>` tag 100 times) and animation.  So, in essense, the point of frameworks is to make creating complex and robust web applications much easier.
 
-## Which framework then?
+### Which framework then?
 
 It's no secret that there are a _ton_ of Front-end frameworks in the world... so selecting one to learn is a daunting process.  Here's an incomplete and unordered list of JS frameworks for your perusal. 
 
@@ -44,7 +44,7 @@ The good news is that it doesn't _really_ matter which framework you select.  Mo
 
 The rest of this section will go through the 3 most popular front-end frameworks (React, Angular and Vue), tell you a bit about them and offer resources to get you started.
 
-## Assignment
+### Assignment
 
 1. Spend a little time poking around the sites for various frameworks, to get a feel for what's out there (the list above is a good place to start).  
 2. Check out [this recent survey](https://stateofjs.com/2017/front-end/results/) to get a feel for the general popularity and usage of the various frameworks.
