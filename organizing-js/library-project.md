@@ -58,3 +58,4 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [asasmith's solution](https://github.com/asasmith/libraryApp) - [View in browser](https://asasmith.github.io/libraryApp/)
 - [Sumit's Solution](https://codepen.io/DCWorld/pen/NyNvRw) - [View in browser](https://codepen.io/DCWorld/full/NyNvRw/)
 - [Caner Sezgin's Solution](https://github.com/casedo/myLibrary) - [View in browser](http://bit.ly/myLibr)
+- [Alan's Solution](https://github.com/18alantom/top_library) - [View in browser](https://18alantom.github.io/top_library/)
