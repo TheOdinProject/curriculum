@@ -101,6 +101,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Chad Kreutzer's solution](https://github.com/ChadKreutzer/ruby_building_blocks/blob/master/caesar_cipher/caesar_cipher.rb)
 * [Josh Vogel's solution](https://github.com/j-vogel/ruby_learning_projects/blob/master/caesar_cipher.rb)
 * [Austin Norman's solution](https://github.com/austinnormancore/ruby_basics_project/blob/master/caesar_cipher.rb)
+* [iamtlau's solution](https://github.com/iamtlau/odinproject/tree/master/ruby/project_01)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/caesar_cipher.rb)
 * [ThusStyles's solution](https://github.com/ThusStyles/cipher/blob/master/cipher.rb)
 * [Sessl's solution](https://github.com/Sessl/ruby_work/blob/master/cipher.rb)
