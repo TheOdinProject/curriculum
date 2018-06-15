@@ -91,7 +91,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - copy and use one of the supplied links to share your project.
 
 ### Student Solutions
-Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/edit/master/web_development_101/project_html_css.md) on the curriculum github repository.See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/edit/master/web_development_101/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
 * [Adarsh Ajith's solution (Difficult)](https://github.com/aadarsh1995/google-search-page) - [View in Browser](https://aadarsh1995.github.io/google-search-page/)
