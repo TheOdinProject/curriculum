@@ -94,7 +94,6 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/edit/master/web_development_101/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-* [Kenneth Ofosu's Solution](https://github.com/kofosu2289/google-homepage) - [View in Browser(Easy)](https://kofosu2289.github.io/google-homepage/) - [View in Browser(Difficult)](https://kofosu2289.github.io/google-homepage/results-page/search-results.html)
 * [Lucas Nativo's solution (Difficult)](https://github.com/lucasnativo/google-homepage) - [View in Browser](https://lucasnativo.github.io/google-homepage/search-results.html)
 * [Lucas Nativo's solution (Easy)](https://github.com/lucasnativo/google-homepage) - [View in Browser](https://lucasnativo.github.io/google-homepage/)
 * [Adarsh Ajith's solution (Difficult)](https://github.com/aadarsh1995/google-search-page) - [View in Browser](https://aadarsh1995.github.io/google-search-page/)
@@ -1516,6 +1515,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Loumarven's solution (Easy)](https://github.com/loumarven/google-homepage) - [View in Browser](https://loumarven.github.io/google-homepage/)
 * [Loumarven's solution (Difficult)](https://github.com/loumarven/google-search-results) - [View in Browser](https://loumarven.github.io/google-search-results/)
 * [Rudolph Maré's solution (Easy)](https://github.com/RudolphMare/search-engine-homepage) - [View in Browser](https://rudolphmare.github.io/search-engine-homepage/)
+* [Kenneth Ofosu's Solution](https://github.com/kofosu2289/google-homepage) - [View in Browser(Easy)](https://kofosu2289.github.io/google-homepage/) - [View in Browser(Difficult)](https://kofosu2289.github.io/google-homepage/results-page/search-results.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
