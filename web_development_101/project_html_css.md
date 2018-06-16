@@ -1514,7 +1514,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Najeeb Anwari's solution (Easy)](https://github.com/najeeb-anwari/google-homepage) - [View in Browser](https://najeeb-anwari.github.io/google-homepage/)
 * [Loumarven's solution (Easy)](https://github.com/loumarven/google-homepage) - [View in Browser](https://loumarven.github.io/google-homepage/)
 * [Loumarven's solution (Difficult)](https://github.com/loumarven/google-search-results) - [View in Browser](https://loumarven.github.io/google-search-results/)
-* [Rudolph Maré's solution (Easy)(https://github.com/RudolphMare/search-engine-homepage) - [View in Browser](https://rudolphmare.github.io/search-engine-homepage/)
+* [Rudolph Maré's solution (Easy)](https://github.com/RudolphMare/search-engine-homepage) - [View in Browser](https://rudolphmare.github.io/search-engine-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
