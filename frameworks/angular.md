@@ -1,4 +1,5 @@
 ### Introduction
+
 First released back in 2012 by Google, AngularJS was the first big-hitter in Single Page Application(SPA) frameworks. A big appeal of AngularJS was its unobtrusive approach as you could control which parts of your page interacted with the AngularJS framework.
 
 In 2016 Angular 2 was released simply named Angular. The reasoning was that this was a groundbreaking update with no backwards compatibility with AngularJS and therefore represented a new version that would be taken forwards.
@@ -10,6 +11,7 @@ Since Angular's release it has ensured no further groundbreaking changes with ba
 At the time of writing version 6 has just been released.
 
 ### Overview
+
 The first thing to know if you want to give Angular a try is that it's built with [Typescript](https://www.typescriptlang.org/), a superset of Javascript that gives you static typing, interfaces, classes, namespaces and many other features that Javascript doesn't natively support. All valid Javascript is valid Typescript so it's not a completely new language to learn but it does have some differences with traditional Javascript. If you want to learn Angular you should get familiar with Typescript.
 
 Some of the main benefits of using Angular are:
@@ -35,15 +37,18 @@ Aside from Angular's coupling to Typescript all those other drawbacks can be fou
 Probably the biggest drawback is that Angular is a huge and complex framework (Think Rails compared to Sinatra) so it can have a long learning curve to master and may feel like overkill for small projects you'll make yourself.
 
 ### Getting Started
+
 The easiest way to get started is to follow the guide on the [Angular Site](https://angular.io/guide/quickstart). That will take you through installation and editing your first components.
 
 You will need node and npm installed. I personally prefer to use [nvm](https://github.com/creationix/nvm) to manage by node versions but however you want to do it is up to you.
 
 ### Assignment
+
 1. Follow along with the getting started guide on the [Angular Site](https://angular.io/guide/quickstart) and ensure you have your environment set up correctly
 2. Skim through this [Angular Fundamentals](https://angular.io/guide/architecture) guide on the architecture an Angular app to get a high-level overview of how an app is put together
 3. Try [This Angular 6 Tutorial](https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course) to get an idea of the power of using a framework like Angular
 
 ### Additional Resources
+
 - Angular have their [own tutorial](https://angular.io/tutorial) you can try
 - [This blog](https://www.telerik.com/blogs/whats-new-in-angular-6) explains whats new in Angular 6
