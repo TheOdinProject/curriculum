@@ -135,7 +135,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Daniel Ortea's Solution](https://github.com/D-Ortea/etch-a-sketch) - [View in Browser](https://d-ortea.github.io/etch-a-sketch/)
 * [John Piatras' Solution](https://github.com/JohnPiatras/sketch) - [View in Browser](https://johnpiatras.github.io/sketch/)
 * [Dima Konoval's Solution](https://github.com/DimaKonoval/ETCH-A-SKETCH) - [View in Browser](https://cdn.rawgit.com/DimaKonoval/ETCH-A-SKETCH/cb41f37b/index.html)
-* [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/etch-a-sketch) 
+* [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/etch-a-sketch)
 * [Josh Hansen's Solution](https://jdhansen41.github.io/etch_sketch/) - [View in Browser](https://jdhansen41.github.io/etch_sketch/)
 * [Caner Sezgin's Solution](https://github.com/casedo/Etch-A-Sketch) - [View in Browser](http://bit.ly/EtchAsketch)
 * [Jurek Tomasello's Solution](https://github.com/Ashelf/etch-a-sketch) - [View in Browser](https://ashelf.github.io/etch-a-sketch/)
@@ -149,3 +149,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Mike Smith's Solution](https://github.com/MikeSS281986/Etch-a-Sketch) - [View in Browser](https://mikess281986.github.io/Etch-a-Sketch/)
 * [Akash's Solution](https://github.com/Akash-sopho/etch-a-sketch) - [View a Browser](http://htmlpreview.github.io/?https://github.com/Akash-sopho/etch-a-sketch/blob/master/index.html)
 * [Adhithyan's Solution](https://github.com/v-adhithyan/theodinproject/tree/master/etch-a-sketch) - [View in Browser](http://adhithyan.xyz/theodinproject/etch-a-sketch)
+* [Max Garber's Solution](https://github.com/bubblebooy/TOP-Etch-A-Sketch) - [View in Browser](https://bubblebooy.github.io/TOP-Etch-A-Sketch/)
