@@ -39,3 +39,4 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
+- [brxck's solution](https://github.com/brxck/odin-battleship) - [View in browser](https://brockmcelroy.com/odin-battleship/)
