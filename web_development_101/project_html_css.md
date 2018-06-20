@@ -36,6 +36,8 @@ If you are having trouble, refer to:
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
+(Add another note here saying about how github recently lost 1/4 million users and add an option to use gitlab or bitbucket)
+
 *When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push origin master`.*
 
 If you have entered `git push origin master` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
