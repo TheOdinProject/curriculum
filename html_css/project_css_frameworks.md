@@ -29,6 +29,7 @@ You'll be creating your own grid-based framework.
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [nmac's solution](https://github.com/nmacawile/css-framework) - [View](https://htmlpreview.github.io/?https://github.com/nmacawile/css-framework/blob/master/index.html)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Design-Your-Own-Grid-Based-Framework) - [View in Browser]( https://sarfrazanjum.github.io/TOP_Design-Your-Own-Grid-Based-Framework/)
 * [Henry Kirya's solution](https://github.com/harrika/mp3juices) - [View in Browser](https://harrika.github.io/mp3juices/)
 * [theghall's solution](https://github.com/theghall/odin-framework) - [View in Browser](https://theghall.github.io/odin-framework/example/index.html)
