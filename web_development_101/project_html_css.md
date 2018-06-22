@@ -1522,6 +1522,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JZaitz's solution (Easy)](https://github.com/JZaitz/google-homepage)
 * [Gearm111's solution(Easy)](https://github.com/gearm111/google-homepage-)
 * [Mamuna's solution(Easy)](https://github.com/moyofo/google-homepage)
+* [AdamLombard's solution (Difficult)](https://github.com/AdamLombard/google-homepage) - [View in Browser](https://AdamLombard.github.io/google-homepage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
