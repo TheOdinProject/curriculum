@@ -220,6 +220,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [John Clifford's Solution](https://github.com/JDClifford/ticktacktoe)
 * [Punnadittr's Solution](https://github.com/punnadittr/tictactoe)
 * [Agon Idrizi's Solution](https://github.com/AgonIdrizi/TicTacToe)
+* [JZaitz's Solution](https://github.com/JZaitz/TicTacToe)
 
 ### Project 2: Mastermind
 
