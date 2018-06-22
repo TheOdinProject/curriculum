@@ -76,7 +76,7 @@ There are many different opinions on what constitutes great JavaScript code.  Th
    ~~~
 
 
-### Your Assignment
+### Assignment
 
 Read through these articles that discuss a few elements of writing good clean code.
 

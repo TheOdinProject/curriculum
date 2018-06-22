@@ -219,3 +219,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Manmohan's solution](https://manm0han.github.io/rock_paper_scissors/)
 - [Dom9999's Solution](https://github.com/Dom9999/RockPaperScissors) - [View in Browser](https://dom9999.github.io/RockPaperScissors/)
 - [Max Garber's Solution](https://github.com/bubblebooy/TOP-Rock-Paper-Scissors) - [View in Browser](https://bubblebooy.github.io/TOP-Rock-Paper-Scissors)
+- [CurtSambael's Solution](https://github.com/CurtSambael/pfc/blob/master/rock_paper_scissor.html) 
