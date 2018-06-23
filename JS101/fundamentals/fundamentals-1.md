@@ -21,7 +21,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
 
-1. [This W3Schools lesson](https://www.w3schools.com/js/js_numbers.asp) followed by [this one](https://www.w3schools.com/js/js_arithmetic.asp), are good introductions to what you can accomplish with numbers in JS
+1. [This W3Schools lesson](https://www.w3schools.com/js/js_numbers.asp) followed by [this one](https://www.w3schools.com/js/js_arithmetic.asp), are good introductions to what you can accomplish with numbers in JS.
 2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view. There's much more that you can do with numbers, but this is all you need at the moment.
 3. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
@@ -67,7 +67,7 @@ Try the following exercises.
    3. Try the following: `9 * a`
    4. and this: `let b = 7 * a` (returns undefined) and then `console.log(b)`
 5. You should be getting the hang of this by now... try this sequence:
-   1. Declare a constant variable `max` with the value 57.
+   1. Declare a constant variable `max` with the value `57`
    2. Set another variable `actual` to `max - 13`
    3. Set another variable `percentage` to `actual / max`
    4. If you type `percentage` in the console and press enter you should see a value like `0.7719`
