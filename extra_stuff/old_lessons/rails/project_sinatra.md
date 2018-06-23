@@ -143,3 +143,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Austin Norman's solution - Hangman: [github](https://github.com/austinnormancore/hangmansinatra) / [see it on the web](https://secure-ridge-15084.herokuapp.com/)
 * Anistor86's solution - Hangman: [github](https://github.com/anistor86/sinatra_hangman) / [see it on the web](https://safe-escarpment-98953.herokuapp.com/)
 * Francisco's Carlos solution - [github](https://github.com/fcarlosdev/the_odin_project/tree/master/sinatra_project)
+* Agon's solution - Hangman: [github](https://github.com/AgonIdrizi/Hangman_Sinatra) / [see it on the web](https://cryptic-earth-30619.herokuapp.com/)
