@@ -27,14 +27,15 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 
 ### Variables
 
-You can think of variables simply as "storage containers" for data in your code.  Until recently there was only one way to declare and use a variable in Javascript (the `var` keyword) but the latest versions of JavaScript include 2 more keywords that can be used depending on the situation. The following resources will tell you what you need to know!
+You can think of variables as simply "storage containers" for data in your code. Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.
 
-1. Read through [this variable tutorial](http://javascript.info/variables) as well. It covers the other methods of variable creation.  __Be sure to do the Tasks__ at the end of this article!  Information won't stick without practice!
-2. Sidenote:  It's mentioned in the above tutorial, but important enough to note specifically here.  `let` and `const` are both relatively new ways to declare variables in JavaScript.  In _many_ tutorials and in code across the internet you are likely to encounter `var`. Don't let it bother you!  You should stick to `let` and `const` for now. There is nothing inherently wrong with `var`, but in a few small cases its behavior is not what you would expect.  In most cases `var` and `let` behave exactly the same. The precise difference will be explained later.
+1. [This variable tutorial](http://javascript.info/variables) will explain you everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
+
+The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now. The precise differences between `var` and `let` will be explained later.
 
 ### Practice!
 
-You can easily run your own JavaScript code from files that you create on your own computer.  The simplest way to get started is to simply create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
+You can easily run your own JavaScript code from files you create on your computer.  The simplest way to get started is to simply create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
 
 ~~~html
 <!DOCTYPE html>
@@ -55,7 +56,7 @@ Save and open this file up in a web browser and then open up the browser's conso
 
 > `console.log()` is the command to print something to the developer console in your browser.  Use it for all of the following exercises.
 
-Try the following exercises.
+Try the following exercises:
 
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your html file)
 2. Add a sequence of 6 different numbers together.
