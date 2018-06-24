@@ -27,6 +27,7 @@ gem 'kramdown'
 gem 'toastr-rails'
 gem 'gibbon',                       '~> 3.2.0' # for Mailchimp
 gem 'nokogiri',                     '~> 1.8', '>= 1.8.2'
+gem 'sprockets',                    '~> 3.7.2'
 gem 'skylight'
 
 group :production do
