@@ -37,6 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [semisequitur's Solution] (https://github.com/semisequitur/rock-paper-scissors)
 - [grante1ope's Solution](https://github.com/grante1ope/RPSBitches/blob/master/rps.html)
 - [Mai's Solution](https://github.com/PA55ION/Rock-Paper-Scissor) - [View in Browser](https://pa55ion.github.io/Rock-Paper-Scissor/)
 - [Ipshita's Solution](https://github.com/Ipshita1996/Rock-Paper-Scissors) - [View in Browser](https://ipshita1996.github.io/Rock-Paper-Scissors/)
