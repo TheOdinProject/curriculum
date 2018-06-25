@@ -95,6 +95,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Swedina's solution](https://github.com/swedinay/UTub-) - [View in browser](https://swedinay.github.io/UTub-/)
 * [DV's solution](https://github.com/dvislearning/odin-yt-clone) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-yt-clone/blob/master/home.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/youtube_page) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/youtube_page/index.html)
-
+* [Mike Smith's solution](https://github.com/MikeSS281986/YouTube-Clone-Page) - [View in browser](https://mikess281986.github.io/YouTube-Clone-Page/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
