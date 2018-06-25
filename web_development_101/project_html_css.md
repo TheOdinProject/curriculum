@@ -1526,6 +1526,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [dannyjunnn's solution (Easy)](https://github.com/dannyjunnn/google-homepage/) - [View in Browser](https://dannyjunnn.github.io/google-homepage/)
 * [JulienGS25's solution (Easy)](https://github.com/JulienGS25/google_homepage) - [View in Browser](https://JulienGS25.github.io/google_homepage)
 * [parvathypanicker's solution (Easy)](https://github.com/parvathypanicker/google-homepage) - [View in Browser](https://parvathypanicker.github.io/google-homepage/)
+* [Kendzio's solution (Easy)](https://github.com/Kendzio/google-homepage) - [View in Browser](https://kendzio.github.io/google-homepage/)
 
 
 ### Additional Resources
