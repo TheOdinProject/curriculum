@@ -20,7 +20,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
-* Yakherder's solution (https://github.com/yakherder614/Mint)-[View In Browser]( https://yakherder614.github.io/Mint/)
+* [Yakherder's solution](https://github.com/yakherder614/Mint) - [View In Browser]( https://yakherder614.github.io/Mint/)
 * [Johan Morin's Solutin](https://github.com/MorrisMalone/html-form) - [View In Browser](https://morrismalone.github.io/html-form/)
 * [Ayoub's solution ](https://github.com/Skobraf/Mint-sign-up-page) - [View in browser](https://skobraf.github.io/Mint-sign-up-page/)
 * [Jesus' solution](https://github.com/jsgilberto/Mint-Signup-Page/) - [View in browser](https://jsgilberto.github.io/Mint-Signup-Page/)
