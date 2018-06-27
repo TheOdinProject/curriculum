@@ -1528,6 +1528,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [parvathypanicker's solution (Easy)](https://github.com/parvathypanicker/google-homepage) - [View in Browser](https://parvathypanicker.github.io/google-homepage/)
 * [Kendzio's solution (Easy)](https://github.com/Kendzio/google-homepage) - [View in Browser](https://kendzio.github.io/google-homepage/)
 * [thesofakiller's solution (Easy)](https://github.com/thesofakillers/google-homepage-) - [View in Browser](https://thesofakillers.github.io/google-homepage-/)
+* [rtrevin0's solution (Easy)](https://github.com/rtrevin0/google-homepage) - [View in Browser](https://rtrevin0.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
