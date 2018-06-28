@@ -201,6 +201,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Kusnierewicz Solution](https://github.com/Kusnierewicz/Tic-Tac-Toe-Game)
 * [parhaml's solution](https://github.com/parhaml/tic_tac_toe)
 * [Jason's solution](https://github.com/jn4248/tic_tac_toe)
+* [Archer's solution](https://github.com/LawrenceArcher/top_ruby/blob/master/project_oop/tic_tac_toe.rb)
 
 
 ### Project 2: Mastermind
