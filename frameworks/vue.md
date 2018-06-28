@@ -23,7 +23,9 @@ For complete Vue projects you can use the [vue-cli](https://github.com/vuejs/vue
 
 1. Read the 'Getting started' in the [offial vue doc](https://vuejs.org/v2/guide/index.html#Getting-Started), specially check out the "declarative rendering" section and try it out in jsfiddle of codepen.
 2. Check out this awesome complete getting started blog guide [here](https://www.sitepoint.com/up-and-running-vue-js-2-0/). Read the first three section including "Writing Our First Vue.js 2.0 App" and follow along to see how easy it is, and if you find it nice I definitely recommend reading the whole thing.
-# Additional Resources
+
+### Additional Resources
+
 - [This massive udemy course](https://www.udemy.com/vuejs-2-the-complete-guide/) is not free, but will teach you pretty much everything you need to learn about Vue, and you can often get Udemy courses for a decent discount.
 - Learn Vue for free in [laracasts](https://laracasts.com/series/learn-vue-2-step-by-step)
 - Here is a [free crash course on vue](https://www.youtube.com/watch?v=78tNYZUS-ps) just to show you can learn vue in about 2 hours.
