@@ -212,7 +212,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joe Collins' solution](https://github.com/joe-collins/rock-paper-scissors/blob/master/index.html)(Console only) - [View in browser](https://joe-collins.github.io/rock-paper-scissors/)
 - [Ben Smyth's Solution](https://github.com/benjsmyth/rock-paper-scissors) [View in Browser](https://benjsmyth.github.io/rock-paper-scissors/)
 - [Felipe Parreira's solution](https://github.com/FelipeParreira/ConsoleRPS/blob/master/index.html)
-- [cckl's solution](https://github.com/cckl/rps)
+- [cckl's solution](https://github.com/cckl/rps) - [View in Browser](https://cckl.github.io/rps/) 
 - [Jasmine Wright's solution](https://github.com/jnwright/rock-paper-scissors/blob/master/index.html) - [UI version](https://pensive-kare-1d3e1e.netlify.com/)
 - [Chris MacSwan's Solution](https://github.com/cmacswan07/rock_paper_scissors/blob/master/index.html)
 - [Akash's Solution](https://github.com/Akash-sopho/rock-paper-scissor/blob/master/index.html) [View in Browser - (Console only)](http://htmlpreview.github.io/?https://github.com/Akash-sopho/rock-paper-scissor/blob/master/index.html)
