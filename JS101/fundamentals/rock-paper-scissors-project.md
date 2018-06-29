@@ -227,3 +227,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kristaps's Solution](https://github.com/narelskristaps/rock_paper_scissors/blob/master/index.html)
 - [thesofakillers's Solution](https://github.com/thesofakillers/RockPaperScissors)
 - [Brian Giordano's Solution](https://github.com/brian-giordano/rocks-paper-scissors.git)
+- [Najeeb Anwari's Solution](https://github.com/najeeb-anwari/gui-rock-paper-scissors) - [View in Browser - GUI Version](https://najeeb-anwari.github.io/gui-rock-paper-scissors/)
