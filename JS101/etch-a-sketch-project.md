@@ -156,3 +156,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Max Garber's Solution](https://github.com/bubblebooy/TOP-Etch-A-Sketch) - [View in Browser](https://bubblebooy.github.io/TOP-Etch-A-Sketch/)
 * [Eri Kurayami's Solution](https://github.com/EriKuroi/Etch-a-Sketch) - [View in Browser](https://cdn.rawgit.com/EriKuroi/Etch-a-Sketch/67ffae56/index.html)
 * [cckl's Solution](https://github.com/cckl/etch) - [View in Browser](https://cckl.github.io/etch/)
+* [Kristap's Solution](https://github.com/narelskristaps/Etch-a-Sketch) - [View in Browser](https://narelskristaps.github.io/Etch-a-Sketch/)
