@@ -1531,6 +1531,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rtrevin0's solution (Easy)](https://github.com/rtrevin0/google-homepage) - [View in Browser](https://rtrevin0.github.io/google-homepage/)
 * [Calstream's solution (Easy)](https://github.com/Calstream/google-homepage) - [View in Browser](https://Calstream.github.io/google-homepage/)
 * [MoiraSanna's solution  (Easy)](https://github.com/MoiraSanna/google-homepage) - [View in Browser](https://github.com/MoiraSanna/google-homepage)
+* [AdamDevAdam's solution  (Easy)](https://github.com/AdamDevAdam/google-homepage) - [View in Browser](https://adamdevadam.github.io/google-homepage/)(https://cdn.rawgit.com/AdamDevAdam/google-homepage/d23c5a50/index.html)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
