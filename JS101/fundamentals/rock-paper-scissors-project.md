@@ -225,3 +225,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [CurtSambael's Solution](https://github.com/CurtSambael/pfc/blob/master/rock_paper_scissor.html)
 - [Kristaps's Solution](https://github.com/narelskristaps/rock_paper_scissors/blob/master/index.html)
 - [thesofakillers's Solution](https://github.com/thesofakillers/RockPaperScissors)
+- [Brian Giordano's Solution](https://github.com/brian-giordano/rocks-paper-scissors.git)
