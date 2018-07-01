@@ -43,6 +43,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [CraigAndrewBlair's Solution](https://github.com/craigandrewblair/etch-a-sketch-odin) - [View in browser](https://craigandrewblair.github.io/etch-a-sketch-odin/)
 * [Clarenz' solution](https://github.com/zmiralles/etch-a-sketch) - [View in browser](https://zmiralles.github.io/etch-a-sketch/)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Etch-A-Sketch) - [View in browser](https://sarfrazanjum.github.io/TOP_Etch-A-Sketch/)
 * [Bojana's solution](https://github.com/bojana12/project-javascript-jquery) - [View in browser](https://bojana12.github.io/project-javascript-jquery/dist/)
