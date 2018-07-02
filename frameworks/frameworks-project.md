@@ -17,3 +17,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
 * [Devon's React todo-list solution](https://github.com/defitjo/react-todo-app)
+* [Alexfuro's React book-library solution](https://github.com/alexfuro/odin-books-react)
