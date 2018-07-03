@@ -40,6 +40,8 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/etch-a-sketch-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [CraigAndrewBlair's Solution](https://github.com/craigandrewblair/etch-a-sketch-odin) - [View in Browser](https://craigandrewblair.github.io/etch-a-sketch-odin/)
+* [Monica Gabriel’s Solution](https://github.com/msgabriel/etch-a-sketch) - [View in Browser](https://msgabriel.github.io/etch-a-sketch/)
 * [ebosi's solution](https://github.com/EBoisseauSierra/etch-a-sketch) - [View in Browser](https://eboisseausierra.github.io/etch-a-sketch/)
 * [Rachel Krupnick's Solution](https://github.com/rkrupnick/top-etch-a-sketch) - [View in Browser](https://rkrupnick.github.io/top-etch-a-sketch/)
 * [Kenneth McFetridge's Solution](https://github.com/kmcfetridge/etch-a-sketch) - [View in Browser](https://kmcfetridge.github.io/etch-a-sketch/)
@@ -154,3 +156,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Adhithyan's Solution](https://github.com/v-adhithyan/theodinproject/tree/master/etch-a-sketch) - [View in Browser](http://adhithyan.xyz/theodinproject/etch-a-sketch)
 * [Max Garber's Solution](https://github.com/bubblebooy/TOP-Etch-A-Sketch) - [View in Browser](https://bubblebooy.github.io/TOP-Etch-A-Sketch/)
 * [Eri Kurayami's Solution](https://github.com/EriKuroi/Etch-a-Sketch) - [View in Browser](https://cdn.rawgit.com/EriKuroi/Etch-a-Sketch/67ffae56/index.html)
+* [cckl's Solution](https://github.com/cckl/etch) - [View in Browser](https://cckl.github.io/etch/)
+* [Kristap's Solution](https://github.com/narelskristaps/Etch-a-Sketch) - [View in Browser](https://narelskristaps.github.io/Etch-a-Sketch/)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/etch-a-sketch) - [View in Browser](https://rudiboshoff.github.io/etch-a-sketch/)
