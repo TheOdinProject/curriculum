@@ -224,4 +224,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Max Garber's Solution](https://github.com/bubblebooy/TOP-Rock-Paper-Scissors) - [View in Browser](https://bubblebooy.github.io/TOP-Rock-Paper-Scissors)
 - [CurtSambael's Solution](https://github.com/CurtSambael/pfc/blob/master/rock_paper_scissor.html)
 - [Kristaps's Solution](https://github.com/narelskristaps/rock_paper_scissors/blob/master/index.html)
-- [thesofakillers's Solution](https://github.com/thesofakillers/RockPaperScissors)
+- [thesofakillers's Solution](https://github.com/thesofakillers/RockPaperScissorsJustScript) - [View in Browser](https://thesofakillers.github.io/rock-paper-scissors/)
