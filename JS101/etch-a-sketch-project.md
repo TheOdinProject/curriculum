@@ -158,3 +158,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Eri Kurayami's Solution](https://github.com/EriKuroi/Etch-a-Sketch) - [View in Browser](https://cdn.rawgit.com/EriKuroi/Etch-a-Sketch/67ffae56/index.html)
 * [cckl's Solution](https://github.com/cckl/etch) - [View in Browser](https://cckl.github.io/etch/)
 * [Kristap's Solution](https://github.com/narelskristaps/Etch-a-Sketch) - [View in Browser](https://narelskristaps.github.io/Etch-a-Sketch/)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/etch-a-sketch) - [View in Browser](https://rudiboshoff.github.io/etch-a-sketch/)
