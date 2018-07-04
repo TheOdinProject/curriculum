@@ -226,9 +226,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Max Garber's Solution](https://github.com/bubblebooy/TOP-Rock-Paper-Scissors) - [View in Browser](https://bubblebooy.github.io/TOP-Rock-Paper-Scissors)
 - [CurtSambael's Solution](https://github.com/CurtSambael/pfc/blob/master/rock_paper_scissor.html)
 - [Kristaps's Solution](https://github.com/narelskristaps/rock_paper_scissors/blob/master/index.html)
-- [thesofakillers's Solution](https://github.com/thesofakillers/RockPaperScissors)
+- [thesofakillers's Solution](https://github.com/thesofakillers/RockPaperScissorsJustScript) - [View in Browser](https://thesofakillers.github.io/rock-paper-scissors/)
 - [Brian Giordano's Solution](https://github.com/brian-giordano/rocks-paper-scissors.git)
 - [Najeeb Anwari's Solution](https://github.com/najeeb-anwari/gui-rock-paper-scissors) - [View in Browser - GUI Version](https://najeeb-anwari.github.io/gui-rock-paper-scissors/)
 - [Calstream's Solution](https://github.com/Calstream/rock-paper-scissors) - [View in Browser (https://calstream.github.io/rock-paper-scissors/)
 - [Tyler's Solution](https://github.com/Tyler-Duckworth/top-projects/tree/master/rps)
 - [Adam Adam's Solution](https://github.com/AdamDevAdam/rock-paper-scissors) - [View in Browser](https://adamdevadam.github.io/rock-paper-scissors)
+>>>>>>> 9234a92cac8176027b043c0224cbae3ff2bdd8bc
