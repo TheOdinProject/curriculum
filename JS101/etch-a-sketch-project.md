@@ -159,3 +159,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [cckl's Solution](https://github.com/cckl/etch) - [View in Browser](https://cckl.github.io/etch/)
 * [Kristap's Solution](https://github.com/narelskristaps/Etch-a-Sketch) - [View in Browser](https://narelskristaps.github.io/Etch-a-Sketch/)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/etch-a-sketch) - [View in Browser](https://rudiboshoff.github.io/etch-a-sketch/)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/etch-a-sketch) - [View in Browser](https://rudiboshoff.github.io/etch-a-sketch/)
+* [Tyler Duckworth's Solution](https://github.com/Tyler-Duckworth/top-projects/tree/master/ttt) - [View in Browser](https://tyler-duckworth.github.io/top-projects/ttt/index.html)
