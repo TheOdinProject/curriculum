@@ -232,5 +232,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Calstream's Solution](https://github.com/Calstream/rock-paper-scissors) - [View in Browser (https://calstream.github.io/rock-paper-scissors/)
 - [Tyler's Solution](https://github.com/Tyler-Duckworth/top-projects/tree/master/rps)
 - [Adam Adam's Solution](https://github.com/AdamDevAdam/rock-paper-scissors) - [View in Browser](https://adamdevadam.github.io/rock-paper-scissors)
->>>>>>> 9234a92cac8176027b043c0224cbae3ff2bdd8bc
 - [dannyjunnn's Solution](https://github.com/dannyjunnn/rockScissorsPaper) - [View in Browser](https://dannyjunnn.github.io/rockScissorsPaper/)
