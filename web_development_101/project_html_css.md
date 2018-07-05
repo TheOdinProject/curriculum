@@ -1533,7 +1533,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rtrevin0's solution (Easy)](https://github.com/rtrevin0/google-homepage) - [View in Browser](https://rtrevin0.github.io/google-homepage/)
 * [Calstream's solution (Easy)](https://github.com/Calstream/google-homepage) - [View in Browser](https://Calstream.github.io/google-homepage/)
 * [MoiraSanna's solution  (Easy)](https://github.com/MoiraSanna/google-homepage) - [View in Browser](https://moirasanna.github.io/google-homepage/)
-* [Tyler-Duckworth's solution](https://github.com/Tyler-Duckworth/google-homepage) - [View in browser](https://tyler-duckworth.github.io/google-homepage/)
+* [Tyler-Duckworth's solution (Difficult)](https://github.com/Tyler-Duckworth/google-homepage) - [View in browser](https://tyler-duckworth.github.io/google-homepage/)
 * [AdamDevAdam's solution  (Easy)](https://github.com/AdamDevAdam/google-homepage) - [View in Browser](https://adamdevadam.github.io/google-homepage/) - [View in Browser - RawGit](https://cdn.rawgit.com/AdamDevAdam/google-homepage/d23c5a50/index.html)
 * [Otherwise__'s solution (Easy)](https://github.com/borowyalan/google-homepage) - [View in Browser](https://borowyalan.github.io/google-homepage/)
 * [Doomsheep1's solution (Easy)](https://github.com/doomsheep1/OdinWork/) - [View in Browser](https://doomsheep1.github.io/OdinWork/google-homepage/)
