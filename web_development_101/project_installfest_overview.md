@@ -1,5 +1,3 @@
-This is the edit that @mindovermiles262 has put together.
-
 # Introduction
 
 The first step to building anything is having your tools laid out for you. For us that means setting up a development environment in which our code can be created.
