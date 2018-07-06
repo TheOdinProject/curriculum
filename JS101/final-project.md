@@ -126,3 +126,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Adhithyan's Solution](https://github.com/v-adhithyan/theodinproject/tree/master/calculator) - [View in Browser](http://adhithyan.xyz/theodinproject/calculator)
 - [John Piatras' Solution](https://github.com/JohnPiatras/calculator) - [View in Browser](https://johnpiatras.github.io/calculator)
 - [Kristap's Solution](https://github.com/narelskristaps/calculator) - [View in Browser](https://narelskristaps.github.io/calculator/)
+- [Tyler's Solution](https://github.com/Tyler-Duckworth/top-projects/tree/master/calc) - [View in Browser](https://tyler-duckworth.github.io/top-projects/calc/index.html)
