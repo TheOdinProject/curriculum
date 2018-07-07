@@ -24,7 +24,7 @@ It may seem like a lot of steps, but we'll get through it as painlessly as possi
 
 ## Options on supported OS'
 
-The first thing we need to decide is what operating system you'll be using to develop on. We've focused on the big three: Linux (Ubuntu), MacOS, and Windows. 
+The first thing we need to decide is what operating system you'll be using to develop on. We've focused on the big three: Linux (Ubuntu), MacOS, and Windows.
 
 ### Woah, woah, woah. I like my OS just fine the way it is
 
@@ -41,11 +41,11 @@ Linux is a free operating system that works well with all programming languages.
 * Dual-Booting (Running Linux "side by side" with Windows).
 * Virtual Machines (Running Linux "On top" of Windows).
 
-Dual-booting is by far the preferred method for installation. It can be as easy as inserting a USB and clicking a few buttons. This method will install Linux alongside of your Windows OS, so none of your data will be lost. The benefits of dual-booting cannot be understated: You'll be allowing Linux to access the full capabilities of your hardware, have a clean and distraction free environment to do your work in, and be learning the platform used by many senior developers and servers around the world. 
+Dual-booting is by far the preferred method for installation. It can be as easy as inserting a USB and clicking a few buttons. This method will install Linux alongside of your Windows OS, so none of your data will be lost. The benefits of dual-booting cannot be understated: You'll be allowing Linux to access the full capabilities of your hardware, have a clean and distraction free environment to do your work in, and be learning the platform used by many senior developers and servers around the world.
 
 The Ubuntu flavor of Linux is meant to be as user friendly as any Windows or MacOS version with an infinite level of customization just below the surface. And with dual-booting you'll be able to restart the computer to get back to your primary OS at a moment's notice. The only downside, though _very_ small, is the chance of causing issues with your current OS. These issues are very rare and can usually be recovered from. Never fear, many people have taken this route before and by carefully following instructions you can avoid causing any problems at all. This is the preferred way to install Linux.
 
-Virtual Machines (VM or VMs), on the other hand, are computers built with software instead of physical components. Using a free program like VirtualBox by Oracle you can create a functioning "computer" and install Linux. A VM allows you to access the Linux OS while still having Windows running in the background. You'll computer will treat the VM like any other piece of software, something you load up when needed and close when you're done. But there are some drawbacks; VMs are not as fast as Dual-booting because your physical computer must support two Operating Systems. This can make both the VM and Windows very slow.
+Virtual Machines (VM or VMs), on the other hand, are computers built with software instead of physical components. Using a free program like VirtualBox by Oracle you can create a functioning "computer" and install Linux. A VM allows you to access the Linux OS while still having Windows running in the background. Your computer will treat the VM like any other piece of software, something you load up when needed and close when you're done. But there are some drawbacks; VMs are not as fast as Dual-booting because your physical computer must support two Operating Systems. This can make both the VM and Windows very slow.
 
 ### Windows 10 with Linux Subsystem
 
@@ -53,18 +53,18 @@ You're probably familiar with Windows for one reason or another; For many people
 
 Lately a lot of progress has been made to make Windows a more developer friendly atmosphere and while nowhere near perfect yet, the Linux Subsystem for Windows (WSL) is now available in most any Windows 10 installations. However, WSL is still in its infancy and can be buggy. If you use Windows and run into issues it might be harder to figure out the solution. We don't recommend WSL, but it can be used if you have no other options.
 
-### Online editors (Repl.it, CodeBin, JSFiddle, etc...)
+### Online editors
 
 There are a variety of online code sandboxes that can be quite handy when you're away from your main system or prototyping some code before committing it. Sites such as:
 
-* Repl.it
+* [Repl.it](https://repl.it/)
 * Codepen.io
 * JSFiddle.net
 
-Can be used to complete a small exercise or help jot out a concept you might not understand. However, you shouldn't use these sites as your main development environment. These sites can be used in the very short term until you're ready to commit to installing anything to your computer. 
+Can be used to complete a small exercise or help jot out a concept you might not understand. However, you shouldn't use these sites as your main development environment. These sites can be used in the very short term until you're ready to commit to installing anything to your computer.
 
 ### Okay, so which OS should I REALLY use
 
-You should use Linux or MacOS. 
+You should use Linux or MacOS.
 
 While it is possible to make Windows play nice the bottom line is that a lot of languages and packages, especially Ruby, were designed with Unix (Linux and macOS) based operating systems in mind. Considering the frustration required to develop in Windows and the ease of dual booting or running a VM, there is almost no reason to choose Windows.
