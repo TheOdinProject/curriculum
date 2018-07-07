@@ -1,3 +1,209 @@
+## Installing required software
+
+<details> 
+<summary>Linux / Linux Virtual Machine / WSL</summary>
+
+### Step 1: Install updates, packages and libraries
+
+Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs.
+
+#### Step 1.0: Opening the Terminal
+
+* From your desktop, push `ctrl + alt + t`, or push the application menu (it might be in the lower left, or upper left corner depending on your version of Ubuntu. Other Linux distributions may have it in a different spot)
+
+* and look for an icon labeled `terminal` and click that.
+
+The rest of the installations will take place inside the terminal window.
+
+Hot tip: You can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v` in Linux. 
+(In WSL you can use `ctrl + c` and `ctrl + v` like you are used to.
+
+#### Step 1.1: Updating
+
+Now that you have your terminal open, we need to make sure your Linux distribution is updated. Run these commands. (You will have to put your password in when using `sudo`)
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+Be sure to push `y` and then `enter` when it prompts you.
+
+#### Step 2.2: Packages and Libraries
+
+Next You will have to install some packages that do not come with Ubuntu out of the box, these are required for the next steps to complete properly.
+
+Run this command in the terminal, this will download and install all of the required packages.
+
+
+```
+sudo apt-get install git curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev xclip
+```
+
+Be sure to press `y` then press `enter` again when it prompts you to! (You may, or may not, have to type your password after pressing enter.)
+
+### Step 2: Installing Ruby
+
+Now we are ready to install Ruby. To do so we are going to use a tool called `rbenv`, which makes it easy to install Ruby and manage it's versions.
+
+#### Step 2.1: Installing Rbenv
+
+First we are going to clone the repository using `git`. `git` is a version control program we installed in the last command. You will become familiar with this program later.
+
+`git clone https://github.com/rbenv/rbenv.git ~/.rbenv`
+
+Next we will add some commands to a configuration file that allows for `rbenv` to work properly. If you would like to know more, read [this](https://github.com/rbenv/rbenv). We will use `echo` for this to make it easy.
+
+Run these commands in sequence, they most likely won't give you any output, so just trust that they work. If you get an error, seek help in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject)
+
+```
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+```
+
+After running those commands, we will need to restart the terminal. Simply type `exit` and re-open the terminal like before.
+
+
+Next we are going to install `ruby-build` to help compile the Ruby binaries.
+
+Run these commands in the terminal. These commands will create a directory for the ruby-build plugin and download it to the proper directory.
+
+```
+mkdir -p "$(rbenv root)"/plugins
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+```
+
+Now we will verify `rbenv` has been installed correctly. This command will download a script and run it, that script verifies that `rbenv` has been properly downloaded and installed.
+
+```
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+```
+
+it should look something like this:
+
+```
+name@domain:~$ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+Checking for `rbenv' in PATH: /home/name/.rbenv/bin/rbenv
+Checking for rbenv shims in PATH: OK
+Checking `rbenv install' support: /home/name/.rbenv/plugins/ruby-build/bin/rbenv-install (ruby-build 20180618)
+Counting installed Ruby versions: none
+  There aren't any Ruby versions installed under `/home/name/.rbenv/versions'.
+  You can install Ruby versions like so: rbenv install 2.2.4
+Checking RubyGems settings: OK
+Auditing installed plugins: OK
+
+```
+
+If this comes out with some errors, try the directions under "installing Ruby" again.
+
+If you still have issues, please come and ask questions in the [Gitter chat](https://gitter.im/TheOdinProject/theodinproject)
+
+#### Step 2.2: Installing Ruby
+
+Now it is time to install Ruby itself we will be using `rbenv` to do so, and now you will see why we installed it in the first place!
+
+We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! [The gitter chat!](https://gitter.im/TheOdinProject/theodinproject)
+
+Run this command in the terminal:
+
+```
+rbenv install 2.5.1 --verbose
+```
+
+This will take some time. We use the `--verbose` flag so you can see what it is doing and can be sure it hasn't gotten stuck. Take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA), or get a glass of water while it installs.
+
+When the last command is finished. We will have to set the Ruby version, so Linux will know which version to use when you try to execute `ruby`. After, we need to be sure it was installed correctly. To do that run:
+
+```
+rbenv global 2.5.1
+ruby -v
+```
+
+That should return something like this:
+
+```
+ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
+```
+
+If this doesn't show up, ask for help in [the gitter chat](https://gitter.im/TheOdinProject/theodinproject). If the correct output does show up, you have successfully installed ruby!
+
+</details>
+
+
+<details>
+<summary>MacOS</summary>
+
+Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs
+
+* From your Desktop click on "Go" > "Applications"
+
+* Find "Utilities" and double click on "Terminal"
+
+The rest of the installations will take place inside of this terminal windnow:
+
+* Type `xcode-select --install` and press enter. You may need to click "Install" when prompted.
+
+This will install XCode - A program provided by Apple for programming. It will install a lot of necessary programs we need for Ruby and Git.  This should take 10-15 minutes to install.
+
+When XCode finishes installing we can continue. The next program we need to install is called [homebrew](https://brew.sh/). Homebrew makes it easy to install other programs we will need. From inside of the terminal type:
+
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+You will be prompted to enter your password. When entering your password it may not look like anything is being entered, but rest assured your password is being entered. Press enter after you've entered your password.
+
+Congratulations! You've installed the prerequisites! When you're ready let's move on and install Git
+
+### Installing git and Heroku
+
+Git is one of the most powerful tools in your toolbelt. Git tracks changes in the code, allows collaboration and many other things. Not to worry - You'll learn more about this soon!
+
+MacOS already comes with a version of git, but we should update it to the latest version. To do that it's as simple as:
+
+`brew install git`
+
+This will install the latest version of git. Easy, right? Let's repeat the installation process with Heroku:
+
+`brew intsall heroku`
+
+This will install the command line interface for Heroku, a free website that can host your Ruby on Rails application. More about this later.
+
+### Installing Ruby
+
+The next program we need to install is Ruby.  Ruby is a scripting language very simliar to Python (if you've heard of that before).  To make our lives easier in the long run, we will install a Ruby version manager to install ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
+
+To install rbenv, run the following in your terminal:
+
+`git clone https://github.com/rbenv/rbenv.git ~/.rbenv`
+
+then run:
+
+`echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile`
+
+`echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+
+These commands will simply use git (the program we installed above) to copy a program from GitHub to a hidden folder named `.rbenv` in your "home" directory and then add it to your PATH. Don't worry if you don't know what this means.
+
+At this point we need to restart the terminal for changes to take effect.  Click the red "x" and then re-open the terminal as we did above.
+
+From inside of the new terminal enter the following:
+
+`mkdir -p ~/.rbenv/plugins`
+
+and then 
+
+`git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build`
+
+We can now (finally) install ruby!  We recomend using the latest version, which currently is 2.5:
+
+`rbenv install 2.5.1 --verbose`
+
+This will install Ruby version 2.5.1. The `--verbose` flag is used to show you that things are happening. A lot of stuff will be displayed on your screen. It's rbenv doing it's thing. Hang out for 10-15 minutes until your prompt (the `$` sign) is visible once again.
+
+The last thing we need to do is tell rbenv to use this new version of Ruby by default. Again, inside of the terminal type:
+
+`rbenv global 2.5.1`
+
+</details>
+
 ## Your First Rails App
 
 ### Step 1: Configuring Git and GitHub
@@ -17,11 +223,13 @@ git config --global user.name "Herman Brown"
 git config --global user.email "hbrown@example.com"
 ```
 
-To enable colors enter:
+To enable colorful output with `git` enter:
 
 ```
 git config --global color.ui auto
 ```
+
+into the console.
 
 To verify things are working properly, enter these commands and verify the output matches your name and email address.
 
@@ -32,7 +240,7 @@ git config --get user.email
 
 #### Step 1.2: Create a GitHub account
 
-Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in.
+Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but to keep things in line, it might be a good idea to use the same one.
 
 #### step 1.3: Create an SSH key
 
@@ -44,7 +252,7 @@ First we need to see if you have an SSH key already installed. Type this into th
 ls ~/.ssh/id_rsa
 ```
 
-If the message in the console contains `No such file or directory` continue on, if you see `/home/name/.ssh/id_rsa`, or something similar, go to Step 3.4.
+If the message in the console contains `No such file or directory` continue on, if you see `/home/name/.ssh/id_rsa`, or something similar, go to Step 1.4.
 
 Since you do not have an SSH key already installed, we need to create one. The next command will create an SSH key and prompt you for some information. Be sure to use the same email address as you have configured with git. (If you have forgotten, run `git config --get user.email` to remind yourself)
 
@@ -75,13 +283,18 @@ The output should let you know you have added the identity.
 
 Now we will need to tell GitHub what our ssh key is, so we can push our code without typing in a password every time.
 
-First we need to navigate to where GitHub receives our SSH key. Log into GitHub and then click your profile picture in the top right corner, then click `settings` in the drop-down. Next, on the right hand side, click `SSH and GPG keys`. After you have done that, click the button in the top right that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while we do the next steps.
+First we need to navigate to where GitHub receives our SSH key. Log into GitHub and then click your profile picture in the top right corner, then click `settings` in the drop-down. Next, on the left hand side, click `SSH and GPG keys`. After you have done that, click the button in the top right that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while we do the next steps.
 
-Now we need to copy our public ssh key, we installed a tool called `xclip` in the beginning to make this easy. Run the command below. (Note that the `.pub` is important in this case)
+Now we need to copy our public ssh key, to do this we are going to use a command called `cat` to read the file to the console. (Note that `.pub` is important in this case)
 
 ```
-xclip -sel clip < ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 ```
+
+Now highlight the output, which should start with `ssh-rsa` and end with your email address. Then copy that output. 
+
+* In Linux you can use `ctrl + shift + c` to copy from the conosle, or right click in most cases.
+* In WSL you can just use `ctrl + c` to copy, or right click in most cases.
 
 Now go back to the github.com browser window we opened earlier, and paste the key we copied with `xclip` into the box that says `key`. Then click `Add SSH key`. You may need to enter your github.com password to continue. Then you will see your key added!
 
