@@ -94,8 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/edit/master/web_development_101/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-* [Gavin Bowen's solution (Easy)](https://github.com/gavski02/google-homepage) - [View in Browser]
-(https://cdn.rawgit.com/gavski02/google-homepage/c333817a/index.html)
+
+* [Gavin Bowen's solution (Easy)](https://github.com/gavski02/google-homepage) - [View in Browser](https://cdn.rawgit.com/gavski02/google-homepage/c333817a/index.html)
 * [Seth Robinson's solution (Easy)](https://github.com/petrichor829/google-homepage) - [View in Browser](https://petrichor829.github.io/google-homepage/index.html)
 * [Lucas Nativo's solution (Difficult)](https://github.com/lucasnativo/google-homepage) - [View in Browser](https://lucasnativo.github.io/google-homepage/search-results.html)
 * [Lucas Nativo's solution (Easy)](https://github.com/lucasnativo/google-homepage) - [View in Browser](https://lucasnativo.github.io/google-homepage/)
@@ -1538,6 +1538,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Otherwise__'s solution (Easy)](https://github.com/borowyalan/google-homepage) - [View in Browser](https://borowyalan.github.io/google-homepage/)
 * [Doomsheep1's solution (Easy)](https://github.com/doomsheep1/OdinWork/) - [View in Browser](https://doomsheep1.github.io/OdinWork/google-homepage/)
 * [spankie's solution (Easy)](https://spankie1337.github.io/google-homepage/) - [View in Browser](https://spankie1337.github.io/google-homepage/)
+* [Yousof's solution (Easy)](https://github.com/Yousof77/google-homepage) - [View in Browser](https://yousof77.github.io/google-homepage/)
 
 
 ### Additional Resources
