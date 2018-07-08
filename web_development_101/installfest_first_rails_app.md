@@ -252,7 +252,7 @@ First we need to see if you have an SSH key already installed. Type this into th
 ls ~/.ssh/id_rsa
 ```
 
-If the message in the console contains `No such file or directory` continue on, if you see `/home/name/.ssh/id_rsa`, or something similar, go to Step 1.4.
+If the message in the console contains `No such file or directory` continue on, if you see `/home/name/.ssh/id_rsa`, or something similar, go to Step 3.4.
 
 Since you do not have an SSH key already installed, we need to create one. The next command will create an SSH key and prompt you for some information. Be sure to use the same email address as you have configured with git. (If you have forgotten, run `git config --get user.email` to remind yourself)
 
@@ -296,7 +296,7 @@ Now highlight the output, which should start with `ssh-rsa` and end with your em
 * In Linux you can use `ctrl + shift + c` to copy from the conosle, or right click in most cases.
 * In WSL you can just use `ctrl + c` to copy, or right click in most cases.
 
-Now go back to the github.com browser window we opened earlier, and paste the key we copied with `xclip` into the box that says `key`. Then click `Add SSH key`. You may need to enter your github.com password to continue. Then you will see your key added!
+Now go back to the github.com browser window we opened earlier, and paste the key we copied ( from the console with the `cat` command ) into the box that says `key`. Then click `Add SSH key`. You may need to enter your github.com password to continue. Then you will see your key added!
 
 ### Step 2: Creating your first Ruby on Rails web application
 
@@ -417,7 +417,11 @@ We need to tell git where to send the files, to do this we will need to create a
 
 First open [GitHub](https://github.com/) in the browser and sign in if you aren't already. Next click the `+` symbol next to your profile picture in the upper right and click `New Repostiory`. Then give the repository a name, and click the `Create Repository` button below the form. You can leave all the other options alone.
 
-GitHub should have taken you to a page That has some commands listed. We are going to follow the section that says `...or push an existing repository from the command line`. Click the icon to the right of that section and it will copy the commands to your clipboard. Then paste them into the terminal we have open. (`ctrl + shift + v` will paste into a terminal).
+GitHub should have taken you to a page that has some commands listed. 
+
+First make sure the button that says `ssh` has been clicked.
+
+We are going to follow the section that says `...or push an existing repository from the command line`. Click the icon to the right of that section and it will copy the commands to your clipboard. Then paste them into the terminal we have open. (`ctrl + shift + v` will paste into a terminal in Linux, `ctrl + v` in WSL. Right clicking works as well).
 
 You may see a message that says something along the lines of `The authenticity of host 'github.com (192.30.253.112)' can't be established`, you can safely type `yes` and press `enter` into the console.
 
