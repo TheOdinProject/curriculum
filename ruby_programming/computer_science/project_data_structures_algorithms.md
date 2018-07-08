@@ -278,6 +278,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Oliver Curting's solution](https://github.com/Curting/knights_travails)
 * [HSaad's solution](https://github.com/HSaad/data-structure-algorithms/blob/master/knights_travails.rb)
 * [Punnadittr's solution](https://github.com/punnadittr/knight_traversal/blob/master/knight.rb)
+* [Akash's Solution](https://github.com/Akash-sopho/knights_travels)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
