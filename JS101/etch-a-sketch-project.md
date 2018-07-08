@@ -161,3 +161,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/etch-a-sketch) - [View in Browser](https://rudiboshoff.github.io/etch-a-sketch/)
 * [Tyler Duckworth's Solution](https://github.com/Tyler-Duckworth/top-projects/tree/master/ttt) - [View in Browser](https://tyler-duckworth.github.io/top-projects/ttt/index.html)
 * [Calstream's Solution](https://github.com/Calstream/etch-a-sketch) - [View in Browser](https://calstream.github.io/etch-a-sketch/)
+* [thesofakillers's Solution](https://github.com/thesofakillers/etch-a-sketch) - [View in Browser](https://thesofakillers.github.io/etch-a-sketch/)
