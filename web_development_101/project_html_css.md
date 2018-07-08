@@ -1538,6 +1538,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Otherwise__'s solution (Easy)](https://github.com/borowyalan/google-homepage) - [View in Browser](https://borowyalan.github.io/google-homepage/)
 * [Doomsheep1's solution (Easy)](https://github.com/doomsheep1/OdinWork/) - [View in Browser](https://doomsheep1.github.io/OdinWork/google-homepage/)
 * [spankie's solution (Easy)](https://spankie1337.github.io/google-homepage/) - [View in Browser](https://spankie1337.github.io/google-homepage/)
+* [Yousof's solution (Easy)](https://github.com/Yousof77/google-homepage) - [View in Browser](https://yousof77.github.io/google-homepage/)
 
 
 ### Additional Resources
