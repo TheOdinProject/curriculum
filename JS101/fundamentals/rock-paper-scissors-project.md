@@ -40,7 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Super1569's Solution](https://github.com/Super1569/rock-paper-scissors)
 - [ellielle's Solution](https://github.com/ellielle/rock-paper-scissors)
 - [CraigAndrewBlair's Solution](https://github.com/craigandrewblair/rock-paper-scissors-odin) - [View In Browser](https://craigandrewblair.github.io/rock-paper-scissors-odin/)
-- [semisequitur's Solution](https://github.com/semisequitur/rock-paper-scissors)
+- [semisequitur's Solution](https://github.com/semisequitur/rock-paper-scissors) - [View in Browser] (https://semisequitur.github.io/rpsUI.html)
 - [grante1ope's Solution](https://github.com/grante1ope/RPSBitches/blob/master/rps.html)
 - [Mai's Solution](https://github.com/PA55ION/Rock-Paper-Scissor) - [View in Browser](https://pa55ion.github.io/Rock-Paper-Scissor/)
 - [Ipshita's Solution](https://github.com/Ipshita1996/Rock-Paper-Scissors) - [View in Browser](https://ipshita1996.github.io/Rock-Paper-Scissors/)
