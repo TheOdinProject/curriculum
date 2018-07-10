@@ -4,7 +4,7 @@ The first step to building anything is having your tools laid out for you. For u
 
 Many development courses use online code editors or "sandboxes" which give you the tools and programs you need at that moment to accomplish the task at hand, but nothing else. While you will use some of these sandboxes throughout the early stages of The Odin Project (They're great for getting started quickly), the best way to set yourself up for success is to operate in a real development environment. We won't lie to you: installing packages, editors, and even entire operating systems can be frustrating at times. However, having the experience of setting up a development environment to run the code you'll write is an invaluable real-world skill you'll carry with you the rest of your career.
 
-## What we are doing
+## What are we doing?
 
 In the following sections we'll be going over the necessary steps for your environment. We will be:
 
@@ -49,9 +49,9 @@ Virtual Machines (VM or VMs), on the other hand, are computers built with softwa
 
 ### Windows 10 with Linux Subsystem
 
-You're probably familiar with Windows for one reason or another; For many people, it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, some languages are not easily made to run on Windows or take a large amount of work to get running correctly.
+You're probably familiar with Windows for one reason or another; For many people, it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, historically some languages, mainly Ruby, have been created with the assumption that you will be developing them on a Unix based system and have not been easily made to run on Windows or have taken a large amount of work to get running correctly.
 
-Lately a lot of progress has been made to make Windows a more developer friendly atmosphere and while nowhere near perfect yet, the Linux Subsystem for Windows (WSL) is now available in most any Windows 10 installations. However, WSL is still in its infancy and can be buggy. If you use Windows and run into issues it might be harder to figure out the solution. We don't recommend WSL, but it can be used if you have no other options.
+Lately a lot of progress has been made to make Windows a more developer friendly atmosphere. the Linux Subsystem for Windows (WSL) is now available in most any Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on wsl is a perfectly viable option. Granted, if you prefer to just stick with the tried and true, you can always go with dual booting or the virtual machine that you would use with earlier versions of Windows, but where's the adventure in that?
 
 ### Online editors
 
@@ -67,4 +67,6 @@ Can be used to complete a small exercise or help jot out a concept you might not
 
 You should use Linux or MacOS.
 
-While it is possible to make Windows play nice the bottom line is that a lot of languages and packages, especially Ruby, were designed with Unix (Linux and macOS) based operating systems in mind. Considering the frustration required to develop in Windows and the ease of dual booting or running a VM, there is almost no reason to choose Windows.
+While it is possible to make Windows play nice the bottom line is that a lot of languages and packages, especially Ruby, were designed with Unix (Linux and macOS) based operating systems in mind. [Even Microsoft is aware of this](https://blogs.msdn.microsoft.com/premier_developer/2018/04/27/why-developers-should-install-wsl-today/) and that was part of the motivation for creating the Windows Subsystem for Linux. So if you have a current Windows 10 computer, consider activating WSL: the short learning curve will save you lots of headaches down the road.
+
+If you have an older Windows box, definitely either use a Virtual Machine or set it up for Dual Boot. Heck, you may find yourself using the Linux side so often you will eventually want to just get rid of Windows entirely.

@@ -1,6 +1,6 @@
 ## Introduction
 
-Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below. Remember, we strongly suggest dual booting with linux.
+Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
 
 <details><summary>Linux Dual Boot</summary>
 
@@ -44,7 +44,7 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 
 </details>
 
-<details> <summary>Windows 10</summary>
+<details> <summary>Windows 10 Windows Subsystem for Linux</summary>
 
 ## Installing Windows Subsystem for Linux on Windows 10
 
@@ -66,13 +66,13 @@ That way is just fine, but I like the super secret squirrel way to do it: press 
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-This will, as the command you just typed so conveniently pointed out, enable the optional Windows feature, Microsoft Windows Subsystem for Linux. But in order to actually make any use of it, you need to install a Linux distribution. Reboot your computer and continue to step 2.
+This will, as the command you just typed so conveniently pointed out, enable the optional Windows feature, Microsoft Windows Subsystem for Linux. But in order to actually make any use of it, you need to install a Linux distribution. If it asks you to, reboot your computer and continue to step 2. If it doesn't, just continue to step 2.
 
 ### Step 2: Install Ubuntu
 
 #### Step 2.1: Download Your Distribution of Choice
 
-You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? Open PowerShell like you did in step 1 and run:
+You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1 and run:
 
 ```
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -UseBasicParsing
@@ -96,17 +96,15 @@ C:\Ubuntu\Ubuntu.exe
 
 This will install Ubuntu and immediately transfer you into a bash environment right inside PowerShell. Follow the onscreen instructions to set up your username and password and you're good to go.
 
-### Step 3 (optional): Make it Easier to Find
-
-If you want to, you can pin a link to ubuntu.exe to your start menu or your desktop. You can also run it from inside PowerShell (you no longer need to be running as an Admin) or the old school Command Prompt by typing `wsl`. If you run wsl inside PowerShell or Command Prompt, you can exit it by typing `exit` with no arguments. This returns you back to the normal windows file system.
-
-### Step 4: Set up Symbolic Link
+### Step 3: Set up Symbolic Link
 
 Okay this is really important: **If you try to edit files inside of the Linux file system from windows apps they will disappear and potentially mess stuff up**. But this is easily avoided, and it even makes things better because you will be able to edit your files with your favorite windows editors and use your bash commands on them too!
 
-When ubuntu was set up, it mapped your windows file system to `/mnt` so that your `C` drive will be `/mnt/c` from inside wsl. so anything saved inside `/mnt/c` will be fair game. If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. I'm going to show you how to set up a symbolic link to make things really easy on you.
+When Ubuntu was set up, your windows file system was mapped to `/mnt` in Ubuntu. This means that your C drives is actually `/mnt/c` inside wsl. Anything saved in `/mnt/c` is available to windows and linux and won't cause any problems.
 
-#### Step 4.1: Create Directory for your Projects
+If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. I'm going to show you how to set up a symbolic link to make things really easy on you.
+
+#### Step 3.1: Create Directory for your Projects
 
 You can choose to put your project files anywhere you want, but I'm going to assume you are cool like me and put a projects folder in your documents folder.
 From inside ubuntu type:
@@ -117,7 +115,7 @@ mkdir /mnt/c/Users/<your windows user name>/Documents/Projects
 
 This will create the folder. Obviously you could have used windows explore to click your way there too, but why not use our fancy new toy?
 
-#### Step 4.2: Create the Symbolic Link
+#### Step 3.2: Create the Symbolic Link
 
 Next, we're going to establish the link. Essentially it's like an alias such that when you are inside bash, you will be able to type something like: `ls ~/Projects` which is a directory inside your home directory inside bash, but Unbuntu will see this: `ls /mnt/c/Users/<your windows user name>/Documents/Projects` Which is a folder inside your Windows file system.
 
@@ -128,6 +126,18 @@ ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your proje
 ```
 
 now you can easily access and safely edit your projects folder from inside wsl just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
+
+### Step 4: Install Git
+
+Git is a version control system that both allows you to easily save projects to the cloud, but also enables easy collaboration. Additionally, a lot of packages that you are going to need are stored there and we are going to need a way to get them to your computer. Go to [this](https://git-scm.com/download/win) link and download and then install git for windows. (it should start automatically.) You will then have access to it from both Windows and WSL.
+
+### Step 5 (optional): Make it Easier to Find
+
+If you want to, you can pin a link to ubuntu.exe to your start menu or your desktop. 
+
+You can also run it from inside PowerShell (you no longer need to be running as an Admin) or the old school Command Prompt by typing `wsl`.
+
+If you run wsl inside PowerShell or Command Prompt, you can exit it by typing `exit` with no arguments. This returns you back to the normal windows file system.
 
 ## One last time
 
@@ -144,7 +154,7 @@ You **can** edit files inside your Linux file system, but you **must** use a com
 </details>
 
 
-<details><summary>Windows < 10</summary>
+<details><summary>Virtual Machine with Linux</summary>
 
 ## Introduction
 
@@ -226,6 +236,8 @@ Now Start Ubuntu unless it's already open and look for a CD icon in the bottom-r
 
 ## Possible issues
 If you can not choose anything other than a 32-bit operating system when setting up your VM look at [this](http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/#.WzzZYXYzZN0)
+
+If you get a message like 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. Unable to boot - please use a kernel appropriate for your CPU.' , you should go to the BIOS settings of your PC and enable 'Virtualization Technologies' and 'VT-x' (or AMD-x), save the settings and restart your PC. 
 
 If you experience any issues during the installation don't hesitate to ask for help on the [forums](https://forum.theodinproject.com/c/help) or in our [Gitter chat](https://gitter.im/TheOdinProject/theodinproject).
 

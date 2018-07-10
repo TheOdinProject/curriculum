@@ -1,5 +1,7 @@
 ## Installing required software
 
+Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely!
+
 <details> 
 <summary>Linux / Linux Virtual Machine / WSL</summary>
 
@@ -9,14 +11,16 @@ Before we can install Ruby, we need to install some base packages. We will use t
 
 #### Step 1.0: Opening the Terminal
 
-* From your desktop, push `ctrl + alt + t`, or push the application menu (it might be in the lower left, or upper left corner depending on your version of Ubuntu. Other Linux distributions may have it in a different spot)
+A shortcut for Ubuntu and it's derivatives is pushing `ctrl + alt + t` to open the terminal. (This may work in other Linux distributions, you'll have to try!)
+
+* push the application menu (it might be in the lower left, or upper left corner depending on your version of Ubuntu. Other Linux distributions may have it in a different spot). You can also use `super` to open the menu. ( `super` is the windows key )
 
 * and look for an icon labeled `terminal` and click that.
 
 The rest of the installations will take place inside the terminal window.
 
 Hot tip: You can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v` in Linux. 
-(In WSL you can use `ctrl + c` and `ctrl + v` like you are used to.
+(In WSL you can use `ctrl + c` like you are used to to copy from the terminal. to paste into the terminal--either bash, PowerShell, or Command Prompt--right click at the prompt and it will paste the contents of the clipboard.)
 
 #### Step 1.1: Updating
 
@@ -28,15 +32,25 @@ sudo apt-get upgrade
 ```
 Be sure to push `y` and then `enter` when it prompts you.
 
-#### Step 2.2: Packages and Libraries
+#### Step 1.2: Packages and Libraries
 
 Next You will have to install some packages that do not come with Ubuntu out of the box, these are required for the next steps to complete properly.
 
-Run this command in the terminal, this will download and install all of the required packages.
+##### Step 1.2.0: Install Git (if you haven't already)
+
+If you are on WSL, you will already have installed Git for Windows. If not, run this command in the terminal to install it:
+
+```
+sudo apt-get install git
+```
+
+##### Step 1.2.1: Install the Rest of the Required Packages:
+
+Run this command in the terminal, this will download and install the rest of the required packages.
 
 
 ```
-sudo apt-get install git curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev xclip
+sudo apt-get install curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 ```
 
 Be sure to press `y` then press `enter` again when it prompts you to! (You may, or may not, have to type your password after pressing enter.)
@@ -132,43 +146,61 @@ If this doesn't show up, ask for help in [the gitter chat](https://gitter.im/The
 <details>
 <summary>MacOS</summary>
 
+### Step 1: Install Packages and Libraries
+
 Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs
+
+#### Step 1.0: Opening the Terminal
 
 * From your Desktop click on "Go" > "Applications"
 
 * Find "Utilities" and double click on "Terminal"
 
-The rest of the installations will take place inside of this terminal windnow:
+The rest of the installations will take place inside of this terminal windnow.
 
-* Type `xcode-select --install` and press enter. You may need to click "Install" when prompted.
+#### Step 1.1: Installing xcode
+
+Type `xcode-select --install` and press enter. You may need to click "Install" when prompted.
 
 This will install XCode - A program provided by Apple for programming. It will install a lot of necessary programs we need for Ruby and Git.  This should take 10-15 minutes to install.
 
-When XCode finishes installing we can continue. The next program we need to install is called [homebrew](https://brew.sh/). Homebrew makes it easy to install other programs we will need. From inside of the terminal type:
+#### Step 1.2: Installing homebrew
+
+Now that XCode is finished installing we can continue. The next program we need to install is called [homebrew](https://brew.sh/). Homebrew makes it easy to install other programs we will need. From inside of the terminal type:
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-You will be prompted to enter your password. When entering your password it may not look like anything is being entered, but rest assured your password is being entered. Press enter after you've entered your password.
+You will be prompted to enter your password. When entering your password it may not look like anything is being entered, but rest assured your password is being entered. Once you are done entering your password, press enter.
 
 Congratulations! You've installed the prerequisites! When you're ready let's move on and install Git
 
-### Installing git and Heroku
+### Step 2: Installing git and Heroku
 
 Git is one of the most powerful tools in your toolbelt. Git tracks changes in the code, allows collaboration and many other things. Not to worry - You'll learn more about this soon!
+
+#### Step 2.1: Updating git
 
 MacOS already comes with a version of git, but we should update it to the latest version. To do that it's as simple as:
 
 `brew install git`
 
-This will install the latest version of git. Easy, right? Let's repeat the installation process with Heroku:
+This will install the latest version of git. Easy, right? 
+
+#### Step 2.2: Installing Heroku
+
+Let's repeat the installation process with Heroku:
 
 `brew intsall heroku`
 
 This will install the command line interface for Heroku, a free website that can host your Ruby on Rails application. More about this later.
 
-### Installing Ruby
+### Step 3: Installing Ruby
 
-The next program we need to install is Ruby.  Ruby is a scripting language very simliar to Python (if you've heard of that before).  To make our lives easier in the long run, we will install a Ruby version manager to install ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
+The next program we need to install is Ruby.  Ruby is a scripting language very simliar to Python (if you've heard of that before).  
+
+#### Step 3.1: Installing rbenv
+
+To make our lives easier in the long run, we will install a Ruby version manager to install ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
 
 To install rbenv, run the following in your terminal:
 
@@ -184,6 +216,8 @@ These commands will simply use git (the program we installed above) to copy a pr
 
 At this point we need to restart the terminal for changes to take effect.  Click the red "x" and then re-open the terminal as we did above.
 
+#### Step 3.2: Installing rbenv cont.
+
 From inside of the new terminal enter the following:
 
 `mkdir -p ~/.rbenv/plugins`
@@ -191,6 +225,8 @@ From inside of the new terminal enter the following:
 and then 
 
 `git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build`
+
+#### Step 3.3: Installing Ruby
 
 We can now (finally) install ruby!  We recomend using the latest version, which currently is 2.5:
 
@@ -275,6 +311,8 @@ Now add the key to the authentication agent. This is so we can use the generated
 ssh-add ~/.ssh/id_rsa
 ```
 
+( If this does not work, try running `eval $(ssh-agent)` and then run the command above again. )
+
 If you configured the key with a password, enter it now, and push `enter`.
 
 The output should let you know you have added the identity.
@@ -294,7 +332,7 @@ cat ~/.ssh/id_rsa.pub
 Now highlight the output, which should start with `ssh-rsa` and end with your email address. Then copy that output. 
 
 * In Linux you can use `ctrl + shift + c` to copy from the conosle, or right click in most cases.
-* In WSL you can just use `ctrl + c` to copy, or right click in most cases.
+* In WSL you can just use `ctrl + c` to copy from the terminal.
 
 Now go back to the github.com browser window we opened earlier, and paste the key we copied ( from the console with the `cat` command ) into the box that says `key`. Then click `Add SSH key`. You may need to enter your github.com password to continue. Then you will see your key added!
 
@@ -310,7 +348,7 @@ Now we need to install Rails itself. It's as simple as running the next command!
 gem install rails
 ```
 
-(This command might take a while to run.)
+(This command might take a while to run. Also, if you are on WSL, you may see a warning: `Insecure world writeable dir /home/...` This is normal. It is a side effect of the interoporability of Windows and Linux. You could get rid of the warning by changing folder permissions, but in so doing, you could break the communication between your Windows and Linux systems)
 
 
 After installing rails, we need to install `bundler`, this gem (ruby package), is used to provide a consistent environment for ruby applications. It handles the dependencies gracefully.
@@ -323,10 +361,12 @@ This command should take a lot less time than the last one.
 
 #### Step 2.2: Setting up the ground-work
 
-Next we need to create a directory that will house our project and change to that directory. You can name it anything you like!
-
+Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
 ```
 mkdir odin_on_rails
+```
+and then change to that directory:
+```
 cd odin_on_rails
 ```
 
@@ -351,7 +391,7 @@ cd my_first_rails_app
 Now we tell rails to generate some scaffolding. Scaffolding is basically a template for our rails app, and sets up some working parts for us.
 
 ```
-rails generate scaffold drink name:string temperature:integer
+rails generate scaffold car make:string model:string year:integer
 ```
 
 After generating the scaffolds, we need to migrate the database.
