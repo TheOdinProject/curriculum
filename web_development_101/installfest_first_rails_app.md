@@ -1,4 +1,4 @@
-### Installing required software
+### Introduction
 
 Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely!
 

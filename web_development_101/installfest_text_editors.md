@@ -1,3 +1,4 @@
+### Introduction
 A text editor is by far the most used tool of a developer. This holds true no matter what kind of developer you are. A good text editor can also help you write better code as well by helping out with real-time code linting, syntax highlighting, and automatic formatting.
 
 ### Why can't I use Microsoft Word?
