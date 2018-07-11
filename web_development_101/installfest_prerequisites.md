@@ -156,9 +156,9 @@ You **can** edit files inside your Linux file system, but you **must** use a com
 
 If you want to use Ubuntu (or any other version of Linux) as the operating system for your development related to TOP, but you don't feel like permanently changing your OS or switching back and forth between two different operating systems installed on your PC, then using a VM is probably the best option you have. VM is short for 'Virtual machine' which is a widely used program that [emulates](https://en.wikipedia.org/wiki/Emulator) a computer system. In other words, a VM allows you to run an operating system of your choice just like any other computer program. Unfortunately, such convenience comes at a price. Running a program that contains an operating system can be very heavy on your processor and RAM memory.
 
-### Step 0: Requirements
+### Requirements
 
-Before committing to the installation, make sure your computer meets the [requirements](https://www.virtualbox.org/wiki/End-user_documentation) to run a virtual machine.
+Before committing to the installation, make sure your computer meets the [requirements](https://www.virtualbox.org/wiki/End-user_documentation) to run a virtual machine, it doesn't hurt to take a look at your selected flavor of linux's requirements as well.
 
 ### Step 1: Downloads
 
@@ -182,7 +182,7 @@ The installation of VirtualBox is a very straight forward process. It doesn't re
 #### Step 2.2: Setting up Ubuntu
 Now that you have Virtual Box installed, double click the icon and you should see something like this:
 
-![vbimage](/uploads/default/original/2X/7/74050f4cd0fbd7834c19735d312a52c49f4cd1b0.png)
+![installed_vbox](https://i.imgur.com/VO9Y1Si.png)
 
 Click on the 'New' button to create a virtual operating system. Find your operating system in the dropdown menu (Linux/Ubuntu) and name it as you wish. Continue by pressing next and choose the following options in the next steps:
 
@@ -198,7 +198,7 @@ Click on the 'New' button to create a virtual operating system. Find your operat
 
 After completing the last step, click the Create button. Your newly created virtual OS should be in the menu now. Right click on it and go to Settings. Go to the Storage section and add the Ubuntu iso file you downloaded earlier:
 
-![isoimg](/uploads/default/original/2X/2/2836c6db3dfdda3bdf9819c612a9561776227d0d.png)
+![choose_disc_vbox](https://i.imgur.com/D3xfaZa.png)
 
 After that, you can go to the System tab and change the amount of hardware the virtual operating system will be using. Generally 50% of RAM and processors should be allocated to the virtual OS, but you can always change that and set them as it fits best for you.
 
