@@ -10,7 +10,7 @@ Operating systems generally come with a plain-text text editor on the computer. 
 
 #### Linux/MacOS
 
-* Vi/Vim: All versions of linux will come with `vi` pre-installed, it is a complex editor with many featuers, but is not beginner friendly. If you are interested in `vi`. Install `vim` (Vimproved), and run the command `vimtutor`.
+* Vi/Vim: All versions of linux will come with `vi` pre-installed, it is a complex editor with many features, but is not beginner friendly. If you are interested in `vi`. Install `vim` (Vimproved), and run the command `vimtutor`.
 
 * Nano: Another, more friendly basic text editor that comes with most of the common flavors of linux. You can access this by typing `nano` in the console.
 
@@ -34,7 +34,7 @@ Check it out [here](https://www.sublimetext.com/).
 
 #### VSCode
 
-VSCode is a newer editor created by microsoft, and is completely free. It has outstanding addon support and great git integration. This editor is the most popular among Odin's students and moderators and support is easy to find in the community. For this reason, we recommend you use this editor.
+VSCode is a newer editor created by Microsoft, and is completely free. It has outstanding addon support and great git integration. This editor is the most popular among Odin's students and moderators and support is easy to find in the community. For this reason, we recommend you use this editor.
 
 Check it out [here](https://code.visualstudio.com/).
 

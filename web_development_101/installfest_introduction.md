@@ -51,7 +51,7 @@ Virtual Machines (VM or VMs), on the other hand, are computers built with softwa
 
 You're probably familiar with Windows for one reason or another; For many people, it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, historically some languages, mainly Ruby, have been created with the assumption that you will be developing them on a Unix based system and have not been easily made to run on Windows or have taken a large amount of work to get running correctly.
 
-Lately a lot of progress has been made to make Windows a more developer friendly atmosphere. the Linux Subsystem for Windows (WSL) is now available in most any Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on wsl is a perfectly viable option. Granted, if you prefer to just stick with the tried and true, you can always go with dual booting or the virtual machine that you would use with earlier versions of Windows, but where's the adventure in that?
+Lately a lot of progress has been made to make Windows a more developer friendly atmosphere. the Linux Subsystem for Windows (WSL) is now available in most any Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on WSL is a perfectly viable option. Granted, if you prefer to just stick with the tried and true, you can always go with dual booting or the virtual machine that you would use with earlier versions of Windows, but where's the adventure in that?
 
 #### Online editors
 

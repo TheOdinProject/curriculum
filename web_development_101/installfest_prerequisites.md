@@ -55,7 +55,7 @@ Microsoft has made it easy to get up and running using [Windows Settings and the
 
 ### Step 1: Activate WSL
 
-First you have to open PowerShell as an administrator. One way to do this is to start typing `powershell` into the taskbar search. After just a couple letters PowerShell should show up. Just right click on it and select "Run as Administrator" (if multiple PowerShells show up, just select the top one.)
+First you have to open PowerShell as an administrator. One way to do this is to start typing `powershell` into the task bar search. After just a couple letters PowerShell should show up. Just right click on it and select "Run as Administrator" (if multiple PowerShells show up, just select the top one.)
 
 That way is just fine, but I like the super secret squirrel way to do it: press the key combination, `cmd+x` (cmd is the button on the bottom row to the left with the windows logo on it.) This will open a nice bare-bones menu where you can select a lot of useful tools skipping all the fancy bells and whistles. From there just open `Windows PowerShell (Admin)`. Once you have PowerShell up and running, type at the command prompt:
 
@@ -122,7 +122,7 @@ So, at your bash command prompt type:
 ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects`
 ~~~
 
-now you can easily access and safely edit your projects folder from inside wsl just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
+now you can easily access and safely edit your projects folder from inside WSL just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
 
 ### Step 4: Install Git
 
