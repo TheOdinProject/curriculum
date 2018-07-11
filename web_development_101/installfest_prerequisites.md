@@ -48,8 +48,6 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 <summary>Windows 10 Windows Subsystem for Linux
 </summary>
 
-### Installing Windows Subsystem for Linux on Windows 10
-
 Microsoft in recent years has made a huge shift to embrace open source and support developers. One of the biggest things they did with Windows 10 was introduce the Windows Subsystem for Linux (WSL) which is a full native command line implementation of Linux within Windows. Of course there are a couple minor adjustments you need to make, but once you have it up and running, you can essentially follow the Ubuntu instructions.
 
 Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/) and you can absolutely go that way, but since we're installing a command line let's use Windows' command line to do it:
