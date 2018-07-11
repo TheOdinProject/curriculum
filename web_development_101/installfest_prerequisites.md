@@ -2,7 +2,7 @@
 
 Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
 
-<details><summary>Linux Dual Boot</summary>
+<details markdown="1"><summary markdown="1">Linux Dual Boot</summary>
 
 *Read this whole section before continuing*
 
@@ -44,7 +44,7 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 
 </details>
 
-<details> <summary>Windows 10 Windows Subsystem for Linux</summary>
+<details markdown="1"> <summary markdown="1">Windows 10 Windows Subsystem for Linux</summary>
 
 ## Installing Windows Subsystem for Linux on Windows 10
 
@@ -154,7 +154,7 @@ You **can** edit files inside your Linux file system, but you **must** use a com
 </details>
 
 
-<details><summary>Virtual Machine with Linux</summary>
+<details markdown="1"><summary markdown="1">Virtual Machine with Linux</summary>
 
 ## Introduction
 
