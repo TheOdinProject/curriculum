@@ -1,8 +1,10 @@
 ## Text Editors
+
 ### Why can't I use Microsoft Word?
 Rich text editors like Microsoft Word, or Libre-Office Writer are great for writing a paper, but for the same reason they are good at creating nicely formatted documents, they are not suited for writing code. A document created with these kinds of editors have more than just text embedded in their files. They have information on how to display the text on the screen, along with any graphics embedded into the document. A plain text editor, like notepad or nano, doesn't save this information along with the file. When saved, you simply save the information you see on the screen, directly into the text file. Doing this allows other programs, like Ruby's interpreter, to read and execute the file as code.
 
 ### What comes on my OS?
+
 Operating systems generally come with a plain-text text editor on the computer. These are generally used for simple edits of configuration files when you do not need any special features.
 
 #### Linux/MacOS

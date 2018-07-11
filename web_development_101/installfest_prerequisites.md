@@ -2,7 +2,9 @@
 
 Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
 
-<details markdown="1"><summary markdown="1">Linux Dual Boot</summary>
+<details markdown="block">
+<summary>Linux Dual Boot
+</summary>
 
 *Read this whole section before continuing*
 
@@ -44,7 +46,9 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 
 </details>
 
-<details markdown="1"> <summary markdown="1">Windows 10 Windows Subsystem for Linux</summary>
+<details markdown="block"> 
+<summary>Windows 10 Windows Subsystem for Linux
+</summary>
 
 ## Installing Windows Subsystem for Linux on Windows 10
 
@@ -62,9 +66,9 @@ First you have to open PowerShell as an administrator. One way to do this is to 
 
 That way is just fine, but I like the super secret squirrel way to do it: press the key combination, `cmd+x` (cmd is the button on the bottom row to the left with the windows logo on it.) This will open a nice bare-bones menu where you can select a lot of useful tools skipping all the fancy bells and whistles. From there just open `Windows PowerShell (Admin)`. Once you have PowerShell up and running, type at the command prompt:
 
-```
+~~~
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-```
+~~~
 
 This will, as the command you just typed so conveniently pointed out, enable the optional Windows feature, Microsoft Windows Subsystem for Linux. But in order to actually make any use of it, you need to install a Linux distribution. If it asks you to, reboot your computer and continue to step 2. If it doesn't, just continue to step 2.
 
@@ -74,25 +78,25 @@ This will, as the command you just typed so conveniently pointed out, enable the
 
 You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1 and run:
 
-```
+~~~
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -UseBasicParsing
-```
+~~~
 
 #### Step 2.2: Extract the Zip File
 
 Once we have the archive downloaded, just unzip it to the location of your choice. Once again, you can absolutely just click and unzip from windows explorer, but since we are elite haxors, and PowerShell is still open, let's keep on using it:
 
-```
+~~~
 Expand-Archive ~/Ubuntu.zip C:\Ubuntu
-```
+~~~
 
 #### Step 2.3: Install Your Distribution of Choice
 
 Now we just run `Ubuntu.exe` which will be inside `C:\Ubuntu` so either click there like a pleb or type into PowerShell:
 
-```
+~~~
 C:\Ubuntu\Ubuntu.exe
-```
+~~~
 
 This will install Ubuntu and immediately transfer you into a bash environment right inside PowerShell. Follow the onscreen instructions to set up your username and password and you're good to go.
 
@@ -109,9 +113,9 @@ If you want to use your fancy windows editors, you will have to put your project
 You can choose to put your project files anywhere you want, but I'm going to assume you are cool like me and put a projects folder in your documents folder.
 From inside ubuntu type:
 
-```
+~~~
 mkdir /mnt/c/Users/<your windows user name>/Documents/Projects
-```
+~~~
 
 This will create the folder. Obviously you could have used windows explore to click your way there too, but why not use our fancy new toy?
 
@@ -121,9 +125,9 @@ Next, we're going to establish the link. Essentially it's like an alias such tha
 
 So, at your bash command prompt type:
 
-```
+~~~
 ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects`
-```
+~~~
 
 now you can easily access and safely edit your projects folder from inside wsl just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
 
@@ -154,7 +158,9 @@ You **can** edit files inside your Linux file system, but you **must** use a com
 </details>
 
 
-<details markdown="1"><summary markdown="1">Virtual Machine with Linux</summary>
+<details markdown="block">
+<summary>Virtual Machine with Linux
+</summary>
 
 ## Introduction
 
