@@ -101,15 +101,64 @@ create_or_update_lesson(
   repo: 'curriculum'
 )
 
-lesson_position += 1
-create_or_update_lesson(
+# ++++++++++++++++++++
+# SECTION - Installations
+# ++++++++++++++++++++
+
+section_position += 1
+section = create_or_update_section(
   title: "Installations",
   title_url: "Installations".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "In this section you will configure your development enviornment, install Ruby and Rails, and launch your first rails application."
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Installation Overview",
+  title_url: "Installation Overview".parameterize,
   description: "There are some things you'll need to install before you start getting your hands dirty",
   position: lesson_position,
   section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/installfest_introduction.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Prerequisites",
+  title_url: "Prerequisites".parameterize,
+  description: "Before we can install Ruby and Rails...",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/installfest_prerequisites.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Text Editors",
+  title_url: "Text Editors".parameterize,
+  description: "The hottest debate in programming, VSCode or Sublime?",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/installfest_text_editors.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Your First Rails Application",
+  title_url: "Your First Rails Application".parameterize,
+  description: "Time to dig in by making your first Rails Application",
+  position: lesson_position,
+  section_id: section.id,
   is_project: true,
-  url: "/web_development_101/project_installations.md",
+  url: "/web_development_101/installfest_first_rails_app.md",
   repo: 'curriculum'
 )
 
