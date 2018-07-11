@@ -1,8 +1,8 @@
-## Introduction
-
 Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
 
-<details markdown="1"><summary markdown="1">Linux Dual Boot</summary>
+<details markdown="block">
+<summary>Linux Dual Boot
+</summary>
 
 *Read this whole section before continuing*
 
@@ -44,15 +44,11 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 
 </details>
 
-<details markdown="1"> <summary markdown="1">Windows 10 Windows Subsystem for Linux</summary>
-
-## Installing Windows Subsystem for Linux on Windows 10
-
-## Intro
+<details markdown="block"> 
+<summary>Windows 10 Windows Subsystem for Linux
+</summary>
 
 Microsoft in recent years has made a huge shift to embrace open source and support developers. One of the biggest things they did with Windows 10 was introduce the Windows Subsystem for Linux (WSL) which is a full native command line implementation of Linux within Windows. Of course there are a couple minor adjustments you need to make, but once you have it up and running, you can essentially follow the Ubuntu instructions.
-
-## Installation
 
 Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/) and you can absolutely go that way, but since we're installing a command line let's use Windows' command line to do it:
 
@@ -62,9 +58,9 @@ First you have to open PowerShell as an administrator. One way to do this is to 
 
 That way is just fine, but I like the super secret squirrel way to do it: press the key combination, `cmd+x` (cmd is the button on the bottom row to the left with the windows logo on it.) This will open a nice bare-bones menu where you can select a lot of useful tools skipping all the fancy bells and whistles. From there just open `Windows PowerShell (Admin)`. Once you have PowerShell up and running, type at the command prompt:
 
-```
+~~~
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-```
+~~~
 
 This will, as the command you just typed so conveniently pointed out, enable the optional Windows feature, Microsoft Windows Subsystem for Linux. But in order to actually make any use of it, you need to install a Linux distribution. If it asks you to, reboot your computer and continue to step 2. If it doesn't, just continue to step 2.
 
@@ -74,25 +70,25 @@ This will, as the command you just typed so conveniently pointed out, enable the
 
 You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1 and run:
 
-```
+~~~
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -UseBasicParsing
-```
+~~~
 
 #### Step 2.2: Extract the Zip File
 
 Once we have the archive downloaded, just unzip it to the location of your choice. Once again, you can absolutely just click and unzip from windows explorer, but since we are elite haxors, and PowerShell is still open, let's keep on using it:
 
-```
+~~~
 Expand-Archive ~/Ubuntu.zip C:\Ubuntu
-```
+~~~
 
 #### Step 2.3: Install Your Distribution of Choice
 
 Now we just run `Ubuntu.exe` which will be inside `C:\Ubuntu` so either click there like a pleb or type into PowerShell:
 
-```
+~~~
 C:\Ubuntu\Ubuntu.exe
-```
+~~~
 
 This will install Ubuntu and immediately transfer you into a bash environment right inside PowerShell. Follow the onscreen instructions to set up your username and password and you're good to go.
 
@@ -109,9 +105,9 @@ If you want to use your fancy windows editors, you will have to put your project
 You can choose to put your project files anywhere you want, but I'm going to assume you are cool like me and put a projects folder in your documents folder.
 From inside ubuntu type:
 
-```
+~~~
 mkdir /mnt/c/Users/<your windows user name>/Documents/Projects
-```
+~~~
 
 This will create the folder. Obviously you could have used windows explore to click your way there too, but why not use our fancy new toy?
 
@@ -121,9 +117,9 @@ Next, we're going to establish the link. Essentially it's like an alias such tha
 
 So, at your bash command prompt type:
 
-```
+~~~
 ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects`
-```
+~~~
 
 now you can easily access and safely edit your projects folder from inside wsl just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
 
@@ -139,11 +135,11 @@ You can also run it from inside PowerShell (you no longer need to be running as 
 
 If you run wsl inside PowerShell or Command Prompt, you can exit it by typing `exit` with no arguments. This returns you back to the normal windows file system.
 
-## One last time
+### One last time
 
 You **can** edit files inside your Linux file system, but you **must** use a command line editor from inside Linux, not some editor on the Windows side or you **will** break something. The only exception is anything inside the `/mnt/<windows drive letter>` directory. This is directly analogous to `<windows drive letter>:\` and is fair game from both the Linux system and the Windows system.
 
-## Additional Links for Further Study
+### Additional Links for Further Study
 
 * You can find more info about managing and configuring WSL [here](https://docs.microsoft.com/en-us/windows/wsl/wsl-config).
 
@@ -154,13 +150,11 @@ You **can** edit files inside your Linux file system, but you **must** use a com
 </details>
 
 
-<details markdown="1"><summary markdown="1">Virtual Machine with Linux</summary>
-
-## Introduction
+<details markdown="block">
+<summary>Virtual Machine with Linux
+</summary>
 
 If you want to use Ubuntu (or any other version of Linux) as the operating system for your development related to TOP, but you don't feel like permanently changing your OS or switching back and forth between two different operating systems installed on your PC, then using a VM is probably the best option you have. VM is short for 'Virtual machine' which is a widely used program that [emulates](https://en.wikipedia.org/wiki/Emulator) a computer system. In other words, a VM allows you to run an operating system of your choice just like any other computer program. Unfortunately, such convenience comes at a price. Running a program that contains an operating system can be very heavy on your processor and RAM memory.
-
-## Installation
 
 ### Step 0: Requirements
 
@@ -226,7 +220,7 @@ To install guest additions first download the .iso file from [here](https://down
 
 Now Start Ubuntu unless it's already open and look for a CD icon in the bottom-right part of the screen. Click on the CD icon and click on 'Choose disk image' and then find your recently downloaded VBoxGuestAdditions.iso file and load it. The installation should start automatically, if it doesn't look for the VBox_Gas file on your desktop and open it. After the installation restart your Guest OS.
 
-## Understanding how VM works
+### Understanding how VM works
 
   It's important to note a few things about coding in a virtual environment:
 
@@ -234,7 +228,8 @@ Now Start Ubuntu unless it's already open and look for a CD icon in the bottom-r
 
 * All of the development related to TOP is done in the VM.
 
-## Possible issues
+### Possible issues
+
 If you can not choose anything other than a 32-bit operating system when setting up your VM look at [this](http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/#.WzzZYXYzZN0)
 
 If you get a message like 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. Unable to boot - please use a kernel appropriate for your CPU.' , you should go to the BIOS settings of your PC and enable 'Virtualization Technologies' and 'VT-x' (or AMD-x), save the settings and restart your PC. 

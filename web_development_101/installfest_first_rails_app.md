@@ -1,8 +1,10 @@
-## Installing required software
+# Installing required software
 
 Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely!
 
-<details markdown="1"> <summary markdown="1">Linux / Linux Virtual Machine / WSL</summary>
+<details markdown="block">
+<summary>Linux / Linux Virtual Machine / WSL
+</summary>
 
 ### Step 1: Install updates, packages and libraries
 
@@ -25,10 +27,11 @@ Hot tip: You can copy from the terminal with `ctrl + shift + c` and paste with `
 
 Now that you have your terminal open, we need to make sure your Linux distribution is updated. Run these commands. (You will have to put your password in when using `sudo`)
 
-```
+~~~
 sudo apt-get update
 sudo apt-get upgrade
-```
+~~~
+
 Be sure to push `y` and then `enter` when it prompts you.
 
 #### Step 1.2: Packages and Libraries
@@ -39,18 +42,18 @@ Next You will have to install some packages that do not come with Ubuntu out of 
 
 If you are on WSL, you will already have installed Git for Windows. If not, run this command in the terminal to install it:
 
-```
+~~~
 sudo apt-get install git
-```
+~~~
 
 ##### Step 1.2.1: Install the Rest of the Required Packages:
 
 Run this command in the terminal, this will download and install the rest of the required packages.
 
 
-```
+~~~
 sudo apt-get install curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
-```
+~~~
 
 Be sure to press `y` then press `enter` again when it prompts you to! (You may, or may not, have to type your password after pressing enter.)
 
@@ -68,10 +71,10 @@ Next we will add some commands to a configuration file that allows for `rbenv` t
 
 Run these commands in sequence, they most likely won't give you any output, so just trust that they work. If you get an error, seek help in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject)
 
-```
+~~~
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-```
+~~~
 
 After running those commands, we will need to restart the terminal. Simply type `exit` and re-open the terminal like before.
 
@@ -80,31 +83,30 @@ Next we are going to install `ruby-build` to help compile the Ruby binaries.
 
 Run these commands in the terminal. These commands will create a directory for the ruby-build plugin and download it to the proper directory.
 
-```
+~~~
 mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
-```
+~~~
 
 Now we will verify `rbenv` has been installed correctly. This command will download a script and run it, that script verifies that `rbenv` has been properly downloaded and installed.
 
-```
+~~~
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
-```
+~~~
 
 it should look something like this:
 
-```
+~~~
 name@domain:~$ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 Checking for `rbenv' in PATH: /home/name/.rbenv/bin/rbenv
 Checking for rbenv shims in PATH: OK
 Checking `rbenv install' support: /home/name/.rbenv/plugins/ruby-build/bin/rbenv-install (ruby-build 20180618)
 Counting installed Ruby versions: none
-  There aren't any Ruby versions installed under `/home/name/.rbenv/versions'.
-  You can install Ruby versions like so: rbenv install 2.2.4
+There aren't any Ruby versions installed under `/home/name/.rbenv/versions'.
+You can install Ruby versions like so: rbenv install 2.2.4
 Checking RubyGems settings: OK
 Auditing installed plugins: OK
-
-```
+~~~
 
 If this comes out with some errors, try the directions under "installing Ruby" again.
 
@@ -118,31 +120,33 @@ We will be using Ruby 2.5.1 in this install. Some tutorials might require a diff
 
 Run this command in the terminal:
 
-```
+~~~
 rbenv install 2.5.1 --verbose
-```
+~~~
 
 This will take some time. We use the `--verbose` flag so you can see what it is doing and can be sure it hasn't gotten stuck. Take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA), or get a glass of water while it installs.
 
 When the last command is finished. We will have to set the Ruby version, so Linux will know which version to use when you try to execute `ruby`. After, we need to be sure it was installed correctly. To do that run:
 
-```
+~~~
 rbenv global 2.5.1
 ruby -v
-```
+~~~
 
 That should return something like this:
 
-```
+~~~
 ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
-```
+~~~
 
 If this doesn't show up, ask for help in [the gitter chat](https://gitter.im/TheOdinProject/theodinproject). If the correct output does show up, you have successfully installed ruby!
 
 </details>
 
 
-<details markdown="1"> <summary markdown="1">MacOS</summary>
+<details markdown="block">
+<summary>MacOS
+</summary>
 
 ### Step 1: Install Packages and Libraries
 
@@ -238,7 +242,9 @@ The last thing we need to do is tell rbenv to use this new version of Ruby by de
 
 </details>
 
-## Your First Rails App
+---
+
+# Your First Rails App
 
 ### Step 1: Configuring Git and GitHub
 
@@ -252,25 +258,25 @@ For git to work properly, we will have to let it know who we are. This is so we 
 
 These commands will configure git, be sure to fill out your own information in the quotes! (but leave the quotes)
 
-```
+~~~
 git config --global user.name "Herman Brown"
 git config --global user.email "hbrown@example.com"
-```
+~~~
 
 To enable colorful output with `git` enter:
 
-```
+~~~
 git config --global color.ui auto
-```
+~~~
 
 into the console.
 
 To verify things are working properly, enter these commands and verify the output matches your name and email address.
 
-```
+~~~
 git config --get user.name
 git config --get user.email
-```
+~~~
 
 #### Step 1.2: Create a GitHub account
 
@@ -282,17 +288,17 @@ An SSH key is a cryptographically secure identifier. It's like a really long pas
 
 First we need to see if you have an SSH key already installed. Type this into the terminal:
 
-```
+~~~
 ls ~/.ssh/id_rsa
-```
+~~~
 
 If the message in the console contains `No such file or directory` continue on, if you see `/home/name/.ssh/id_rsa`, or something similar, go to Step 3.4.
 
 Since you do not have an SSH key already installed, we need to create one. The next command will create an SSH key and prompt you for some information. Be sure to use the same email address as you have configured with git. (If you have forgotten, run `git config --get user.email` to remind yourself)
 
-```
+~~~
 ssh-keygen -C hbrown@example.com
-```
+~~~
 
 * When it prompts you for a location to save the generated key, just push `enter`.
 * Next it will ask you for a password
@@ -305,9 +311,9 @@ After doing the steps above, you should see a fancy randomart image!
 
 Now add the key to the authentication agent. This is so we can use the generated key automatically.
 
-```
+~~~
 ssh-add ~/.ssh/id_rsa
-```
+~~~
 
 ( If this does not work, try running `eval $(ssh-agent)` and then run the command above again. )
 
@@ -323,9 +329,9 @@ First we need to navigate to where GitHub receives our SSH key. Log into GitHub 
 
 Now we need to copy our public ssh key, to do this we are going to use a command called `cat` to read the file to the console. (Note that `.pub` is important in this case)
 
-```
+~~~
 cat ~/.ssh/id_rsa.pub
-```
+~~~
 
 Now highlight the output, which should start with `ssh-rsa` and end with your email address. Then copy that output. 
 
@@ -342,31 +348,34 @@ Don't worry if you do not totally understand what you are doing in these next st
 
 Now we need to install Rails itself. It's as simple as running the next command!
 
-```
+~~~
 gem install rails
-```
+~~~
 
 (This command might take a while to run. Also, if you are on WSL, you may see a warning: `Insecure world writeable dir /home/...` This is normal. It is a side effect of the interoporability of Windows and Linux. You could get rid of the warning by changing folder permissions, but in so doing, you could break the communication between your Windows and Linux systems)
 
 
 After installing rails, we need to install `bundler`, this gem (ruby package), is used to provide a consistent environment for ruby applications. It handles the dependencies gracefully.
 
-```
+~~~
 gem install bundler
-```
+~~~
 
 This command should take a lot less time than the last one.
 
 #### Step 2.2: Setting up the ground-work
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
-```
+
+~~~
 mkdir odin_on_rails
-```
+~~~
+
 and then change to that directory:
-```
+
+~~~
 cd odin_on_rails
-```
+~~~
 
 #### Step 2.3: Actually create the application
 
@@ -374,39 +383,41 @@ This is where things might become more foreign, if you don't understand, just ke
 
 Now we are going to tell rails to initialize the application for us. We will then tell it to generate the scaffolds, which are sort of like a template, for us.
 
-```
+~~~
 rails new my_first_rails_app
-```
+~~~
 
 This will do a bunch of things and you will see a lot of output into the terminal. As long as nothing looks like an error, you can continue. Otherwise, come to [the Gitter chat room](https://gitter.im/TheOdinProject) for help.
 
 Now that we have let rails do the heavy lifting for us, we need to move into the directory it has created for us.
 
-```
+~~~
 cd my_first_rails_app
-```
+~~~
 
 Now we tell rails to generate some scaffolding. Scaffolding is basically a template for our rails app, and sets up some working parts for us.
 
-```
+~~~
 rails generate scaffold car make:string model:string year:integer
-```
+~~~
 
 After generating the scaffolds, we need to migrate the database.
 
-```
+~~~
 rails db:migrate
-```
+~~~
 
 #### step 2.4: Start it up!
 
 Now that you have created a rails application, we can start it up and see if it works!
 
 run:
-```
+
+~~~
 rails server
-```
-and go to your browser, and visit [http://localhost:3000/drinks] to see your application! Go ahead and create a new drink, and refresh the page to verify it is working! Add as many as you'd like!
+~~~
+
+and go to your browser, and visit [http://localhost:3000/car] to see your application! Go ahead and create a new car, and refresh the page to verify it is working! Add as many as you'd like!
 
 When you are satisfied, go back to the terminal where rails is running, and push `ctrl + c` to end the application.
 
@@ -420,34 +431,34 @@ To tell git we want to watch the directory we are in, we need to initialize it.
 
 First verify what directory we are in using `pwd`. You should see something like this:
 
-```
+~~~
 /home/name/odin_on_rails/my_first_rails_app
-```
+~~~
 
 If you called your application something different, your output will be different here.
 
 Once you have confirmed you are in the correct directory, (You can also type `ls` and verify you see a `Gemfile.lock` file in the output), run this:
 
-```
+~~~
 git init
-```
+~~~
 
 #### Step 3.2: Committing changes
 
 Now that we have a git repository, we need to tell git to save what we have. First add it to staging, this is a palace to hold files before committing them. Don't worry if you don't understand what you are doing yet.
 
 Run this command, which will add all the files of your project to staging:
-```
+~~~
 git add .
-```
+~~~
 
 Now we will commit them to git, this is telling git to remember what the files look like.
 
 We do this by running this, remember the quotes are important:
 
-```
+~~~
 git commit -m "initial commit"
-```
+~~~
 
 #### Step 3.3: Hooking our local repository to the remote repository
 
@@ -481,9 +492,10 @@ After activating your account from the email they sent you. We will install the 
 
 Run this command:
 
-```
+~~~
 curl https://cli-assets.heroku.com/install.sh | sh
-```
+~~~
+
 Then running `heroku version` should result with something similar to:`heroku/7.5.1 linux-x64 node-v10.5.0`
 
 
@@ -493,9 +505,9 @@ This lets Heroku know what machine the commands are coming from, for the same re
 
 run
 
-```
+~~~
 heroku keys:add
-```
+~~~
 
 Then press `y`, and then `enter`. Now type in your email address you used to create your heroku account, then press `enter`. Then the password for your Heroku account. Then press `y` and `enter` to allow Heroku to upload your public SSH key.
 
@@ -503,17 +515,15 @@ Then press `y`, and then `enter`. Now type in your email address you used to cre
 
 First run:
 
-```
+~~~
 heroku create
-```
+~~~
 
 Then run `git remote show` and verify you see `heroku` in the output.
-
 
 #### Step 4.5: Preparing rails for Heroku Deployment
 
 ##### Step 4.5.1: Configuring the Gemfile
-
 
 To properly deploy a rails application, we will have to change some configuration in it's files.
 
@@ -525,13 +535,13 @@ Then we will use `gedit`, a plain text editor, to modify our `Gemfile`. Run `ged
 
 Delete the line that says:
 
-```
+~~~
 gem 'sqlite3'
-```
+~~~
 
 And put this in it's place:
 
-```
+~~~
 group :development, :test do
   gem 'sqlite3'
 end
@@ -539,16 +549,17 @@ end
 group :production do
   gem 'pg'
 end
-```
+~~~
+
 Then save the file, and then close the text editor.
 
 ##### Step 4.5.2: Installing the Bundle (Needs better explanation)
 
 Next we need to install the bundle, that is as simple as typing this:
 
-```
+~~~
 bundle install --without production
-```
+~~~
 
 ##### Step 4.5.3: Configuring the root route
 
@@ -558,15 +569,15 @@ First make sure we are in the root directory of our application, type `ls` and v
 
 Next we need to edit the `routes.rb` file. To do this run:
 
-```
+~~~
 gedit config/routes.rb
-```
+~~~
 
 Find the line that says: `Rails.application.routes.draw do`, and place:
 
-```
+~~~
 root 'drinks#index'
-```
+~~~
 
 after the line.
 
@@ -576,29 +587,29 @@ Now that we have made some changes, we should add the changes to git. This is re
 
 First run:
 
-```
+~~~
 git add .
-```
+~~~
 
 then:
 
-```
+~~~
 git commit -m 'updates for heroku deployment'
-```
+~~~
 
 While we are here, we might as well push our changes to GitHub:
 
-```
+~~~
 git push
-```
+~~~
 
 #### Step 4.7: Pushing to Heroku
 
 After adding the edits to git, we now want to send the whole works off to Heroku.
 
-```
+~~~
 git push heroku master
-```
+~~~
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for this to finish.
 
@@ -608,19 +619,21 @@ Like we did locally before we launched our app, we need to migrate the database.
 
 Run this command:
 
-```
+~~~
 heroku run rails db:migrate
-```
+~~~
 
 You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! If you have an error, come to the gitter chat, and ask for help.
 
 #### Step 4.9: Visit your new application
 
 Now It's time to see your app on the web! To quickly open it, type:
-```
+
+~~~
 heroku open
-```
- and play around with it! If nothing shows up, come ask for help in the gitter chat room.
+~~~
+
+and play around with it! If nothing shows up, come ask for help in the gitter chat room.
 
 ### Step 5: Let us know how it went!
 
