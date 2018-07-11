@@ -12,11 +12,11 @@ Operating systems generally come with a plain-text text editor on the computer. 
 
 * Vi/Vim: All versions of linux will come with `vi` pre-installed, it is a complex editor with many featuers, but is not beginner friendly. If you are interested in `vi`. Install `vim` (Vimproved), and run the command `vimtutor`.
 
-* Nano: Another, more friendly basic text editor that comes with most of the common flavors of linux. You can access this by typing `nano` in the console`
+* Nano: Another, more friendly basic text editor that comes with most of the common flavors of linux. You can access this by typing `nano` in the console.
 
-* Gedit (Ubuntu Only): This comes with Ubuntu, It is a nice text editor and is a bridge between command line based editors and graphical text editors. 
+* Gedit (Ubuntu Only): This comes with Ubuntu, It is a nice text editor and is a bridge between command line based editors and graphical text editors.
 
-* TextEdit (MacOS Only): Similar to notepad on windows with some extra features. 
+* TextEdit (MacOS Only): Similar to notepad on windows with some extra features.
 
 #### Windows
 

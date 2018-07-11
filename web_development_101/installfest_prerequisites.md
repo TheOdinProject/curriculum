@@ -1,3 +1,4 @@
+### Introduction
 Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
 
 <details markdown="block">
@@ -20,7 +21,7 @@ Next you will create a bootable flash drive so you can install Ubuntu to your ha
 
 Follow [this guide](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0) for instructions.
 
-Note: You can use this method to try out different flavors of Ubuntu if you would like. These images allow you to try the different flavors of Ubuntu without committing to an installation. Just note that due to the nature of USB, it is slow for this purpose, and using it this way consistently over time can harm your flash-drive. 
+Note: You can use this method to try out different flavors of Ubuntu if you would like. These images allow you to try the different flavors of Ubuntu without committing to an installation. Just note that due to the nature of USB, it is slow for this purpose, and using it this way consistently over time can harm your flash-drive.
 
 If you would like to play with the version of Ubuntu you installed on the flash drive, click 'try me' instead of 'install'. When you have found a version of Ubuntu you like, continue to the next step.
 
@@ -44,7 +45,7 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 
 </details>
 
-<details markdown="block"> 
+<details markdown="block">
 <summary>Windows 10 Windows Subsystem for Linux
 </summary>
 
@@ -129,7 +130,7 @@ Git is a version control system that both allows you to easily save projects to 
 
 ### Step 5 (optional): Make it Easier to Find
 
-If you want to, you can pin a link to ubuntu.exe to your start menu or your desktop. 
+If you want to, you can pin a link to ubuntu.exe to your start menu or your desktop.
 
 You can also run it from inside PowerShell (you no longer need to be running as an Admin) or the old school Command Prompt by typing `wsl`.
 
@@ -232,7 +233,7 @@ Now Start Ubuntu unless it's already open and look for a CD icon in the bottom-r
 
 If you can not choose anything other than a 32-bit operating system when setting up your VM look at [this](http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/#.WzzZYXYzZN0)
 
-If you get a message like 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. Unable to boot - please use a kernel appropriate for your CPU.' , you should go to the BIOS settings of your PC and enable 'Virtualization Technologies' and 'VT-x' (or AMD-x), save the settings and restart your PC. 
+If you get a message like 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. Unable to boot - please use a kernel appropriate for your CPU.' , you should go to the BIOS settings of your PC and enable 'Virtualization Technologies' and 'VT-x' (or AMD-x), save the settings and restart your PC.
 
 If you experience any issues during the installation don't hesitate to ask for help on the [forums](https://forum.theodinproject.com/c/help) or in our [Gitter chat](https://gitter.im/TheOdinProject/theodinproject).
 
