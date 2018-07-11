@@ -244,7 +244,7 @@ The last thing we need to do is tell rbenv to use this new version of Ruby by de
 
 ---
 
-# Your First Rails App
+### Your First Rails App
 
 #### Step 1: Configuring Git and GitHub
 
