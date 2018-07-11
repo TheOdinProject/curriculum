@@ -1,4 +1,4 @@
-# Installing required software
+### Installing required software
 
 Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely!
 
@@ -6,11 +6,11 @@ Click on the section below related to the operating system you set up in the pre
 <summary>Linux / Linux Virtual Machine / WSL
 </summary>
 
-### Step 1: Install updates, packages and libraries
+#### Step 1: Install updates, packages and libraries
 
 Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs.
 
-#### Step 1.0: Opening the Terminal
+##### Step 1.0: Opening the Terminal
 
 A shortcut for Ubuntu and it's derivatives is pushing `ctrl + alt + t` to open the terminal. (This may work in other Linux distributions, you'll have to try!)
 
@@ -23,7 +23,7 @@ The rest of the installations will take place inside the terminal window.
 Hot tip: You can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v` in Linux. 
 (In WSL you can use `ctrl + c` like you are used to to copy from the terminal. to paste into the terminal--either bash, PowerShell, or Command Prompt--right click at the prompt and it will paste the contents of the clipboard.)
 
-#### Step 1.1: Updating
+##### Step 1.1: Updating
 
 Now that you have your terminal open, we need to make sure your Linux distribution is updated. Run these commands. (You will have to put your password in when using `sudo`)
 
@@ -34,11 +34,11 @@ sudo apt-get upgrade
 
 Be sure to push `y` and then `enter` when it prompts you.
 
-#### Step 1.2: Packages and Libraries
+##### Step 1.2: Packages and Libraries
 
 Next You will have to install some packages that do not come with Ubuntu out of the box, these are required for the next steps to complete properly.
 
-##### Step 1.2.0: Install Git (if you haven't already)
+###### Step 1.2.0: Install Git (if you haven't already)
 
 If you are on WSL, you will already have installed Git for Windows. If not, run this command in the terminal to install it:
 
@@ -46,7 +46,7 @@ If you are on WSL, you will already have installed Git for Windows. If not, run 
 sudo apt-get install git
 ~~~
 
-##### Step 1.2.1: Install the Rest of the Required Packages:
+###### Step 1.2.1: Install the Rest of the Required Packages:
 
 Run this command in the terminal, this will download and install the rest of the required packages.
 
@@ -57,11 +57,11 @@ sudo apt-get install curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev 
 
 Be sure to press `y` then press `enter` again when it prompts you to! (You may, or may not, have to type your password after pressing enter.)
 
-### Step 2: Installing Ruby
+#### Step 2: Installing Ruby
 
 Now we are ready to install Ruby. To do so we are going to use a tool called `rbenv`, which makes it easy to install Ruby and manage it's versions.
 
-#### Step 2.1: Installing Rbenv
+##### Step 2.1: Installing Rbenv
 
 First we are going to clone the repository using `git`. `git` is a version control program we installed in the last command. You will become familiar with this program later.
 
@@ -112,7 +112,7 @@ If this comes out with some errors, try the directions under "installing Ruby" a
 
 If you still have issues, please come and ask questions in the [Gitter chat](https://gitter.im/TheOdinProject/theodinproject)
 
-#### Step 2.2: Installing Ruby
+##### Step 2.2: Installing Ruby
 
 Now it is time to install Ruby itself we will be using `rbenv` to do so, and now you will see why we installed it in the first place!
 
@@ -139,7 +139,7 @@ That should return something like this:
 ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
 ~~~
 
-If this doesn't show up, ask for help in [the gitter chat](https://gitter.im/TheOdinProject/theodinproject). If the correct output does show up, you have successfully installed ruby!
+If this doesn't show up, ask for <blink> </blink > help in [the gitter chat](https://gitter.im/TheOdinProject/theodinproject). If the correct output does show up, you have successfully installed ruby!
 
 </details>
 
@@ -148,11 +148,11 @@ If this doesn't show up, ask for help in [the gitter chat](https://gitter.im/The
 <summary>MacOS
 </summary>
 
-### Step 1: Install Packages and Libraries
+#### Step 1: Install Packages and Libraries
 
 Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs
 
-#### Step 1.0: Opening the Terminal
+##### Step 1.0: Opening the Terminal
 
 * From your Desktop click on "Go" > "Applications"
 
@@ -160,13 +160,13 @@ Before we can install Ruby, we need to install some base packages. We will use t
 
 The rest of the installations will take place inside of this terminal windnow.
 
-#### Step 1.1: Installing xcode
+##### Step 1.1: Installing xcode
 
 Type `xcode-select --install` and press enter. You may need to click "Install" when prompted.
 
 This will install XCode - A program provided by Apple for programming. It will install a lot of necessary programs we need for Ruby and Git.  This should take 10-15 minutes to install.
 
-#### Step 1.2: Installing homebrew
+##### Step 1.2: Installing homebrew
 
 Now that XCode is finished installing we can continue. The next program we need to install is called [homebrew](https://brew.sh/). Homebrew makes it easy to install other programs we will need. From inside of the terminal type:
 
@@ -176,11 +176,11 @@ You will be prompted to enter your password. When entering your password it may 
 
 Congratulations! You've installed the prerequisites! When you're ready let's move on and install Git
 
-### Step 2: Installing git and Heroku
+#### Step 2: Installing git and Heroku
 
 Git is one of the most powerful tools in your toolbelt. Git tracks changes in the code, allows collaboration and many other things. Not to worry - You'll learn more about this soon!
 
-#### Step 2.1: Updating git
+##### Step 2.1: Updating git
 
 MacOS already comes with a version of git, but we should update it to the latest version. To do that it's as simple as:
 
@@ -188,7 +188,7 @@ MacOS already comes with a version of git, but we should update it to the latest
 
 This will install the latest version of git. Easy, right? 
 
-#### Step 2.2: Installing Heroku
+##### Step 2.2: Installing Heroku
 
 Let's repeat the installation process with Heroku:
 
@@ -196,11 +196,11 @@ Let's repeat the installation process with Heroku:
 
 This will install the command line interface for Heroku, a free website that can host your Ruby on Rails application. More about this later.
 
-### Step 3: Installing Ruby
+#### Step 3: Installing Ruby
 
 The next program we need to install is Ruby.  Ruby is a scripting language very simliar to Python (if you've heard of that before).  
 
-#### Step 3.1: Installing rbenv
+##### Step 3.1: Installing rbenv
 
 To make our lives easier in the long run, we will install a Ruby version manager to install ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
 
@@ -218,7 +218,7 @@ These commands will simply use git (the program we installed above) to copy a pr
 
 At this point we need to restart the terminal for changes to take effect.  Click the red "x" and then re-open the terminal as we did above.
 
-#### Step 3.2: Installing rbenv cont.
+##### Step 3.2: Installing rbenv cont.
 
 From inside of the new terminal enter the following:
 
@@ -228,7 +228,7 @@ and then
 
 `git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build`
 
-#### Step 3.3: Installing Ruby
+##### Step 3.3: Installing Ruby
 
 We can now (finally) install ruby!  We recomend using the latest version, which currently is 2.5:
 
@@ -244,15 +244,15 @@ The last thing we need to do is tell rbenv to use this new version of Ruby by de
 
 ---
 
-# Your First Rails App
+### Your First Rails App
 
-### Step 1: Configuring Git and GitHub
+#### Step 1: Configuring Git and GitHub
 
 Git is a very popular version control system that can handle any size of project efficiently. You will become very familiar with this piece of software. Don't worry too much about understanding it at this point, later there is a lesson to learn it.
 
 GitHub is a service that allows you to upload your code, using git, and manage it thorough a nice interface. GitHub and Git are not the same thing, and are not the same company. GitHub is used due to the ease of working with others.
 
-#### Step 1.1: Tell git who you are
+##### Step 1.1: Tell git who you are
 
 For git to work properly, we will have to let it know who we are. This is so we can link a local git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed any line of code.
 
@@ -278,11 +278,11 @@ git config --get user.name
 git config --get user.email
 ~~~
 
-#### Step 1.2: Create a GitHub account
+##### Step 1.2: Create a GitHub account
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but to keep things in line, it might be a good idea to use the same one.
 
-#### step 1.3: Create an SSH key
+##### step 1.3: Create an SSH key
 
 An SSH key is a cryptographically secure identifier. It's like a really long password to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
@@ -321,7 +321,7 @@ If you configured the key with a password, enter it now, and push `enter`.
 
 The output should let you know you have added the identity.
 
-#### Step 1.4: Link your SSH key with GitHub
+##### Step 1.4: Link your SSH key with GitHub
 
 Now we will need to tell GitHub what our ssh key is, so we can push our code without typing in a password every time.
 
@@ -340,11 +340,11 @@ Now highlight the output, which should start with `ssh-rsa` and end with your em
 
 Now go back to the github.com browser window we opened earlier, and paste the key we copied ( from the console with the `cat` command ) into the box that says `key`. Then click `Add SSH key`. You may need to enter your github.com password to continue. Then you will see your key added!
 
-### Step 2: Creating your first Ruby on Rails web application
+#### Step 2: Creating your first Ruby on Rails web application
 
 Don't worry if you do not totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going.
 
-#### Step 2.1: Installing Rails and Bundler
+##### Step 2.1: Installing Rails and Bundler
 
 Now we need to install Rails itself. It's as simple as running the next command!
 
@@ -363,7 +363,7 @@ gem install bundler
 
 This command should take a lot less time than the last one.
 
-#### Step 2.2: Setting up the ground-work
+##### Step 2.2: Setting up the ground-work
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
 
@@ -377,7 +377,7 @@ and then change to that directory:
 cd odin_on_rails
 ~~~
 
-#### Step 2.3: Actually create the application
+##### Step 2.3: Actually create the application
 
 This is where things might become more foreign, if you don't understand, just keep going. This section is firstly to help verify everything has been installed correctly, and expose you to the process. Again, it's OK to not understand at this point :) .
 
@@ -407,7 +407,7 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### step 2.4: Start it up!
+##### step 2.4: Start it up!
 
 Now that you have created a rails application, we can start it up and see if it works!
 
@@ -421,11 +421,11 @@ and go to your browser, and visit [http://localhost:3000/car] to see your applic
 
 When you are satisfied, go back to the terminal where rails is running, and push `ctrl + c` to end the application.
 
-### Step 3: Initializing Git and Pushing to GitHub
+#### Step 3: Initializing Git and Pushing to GitHub
 
 Now that we set up our application, we should start using version control. For that we use `git` which we downloaded earlier.
 
-#### Step 3.1: Initializing git
+##### Step 3.1: Initializing git
 
 To tell git we want to watch the directory we are in, we need to initialize it.
 
@@ -443,7 +443,7 @@ Once you have confirmed you are in the correct directory, (You can also type `ls
 git init
 ~~~
 
-#### Step 3.2: Committing changes
+##### Step 3.2: Committing changes
 
 Now that we have a git repository, we need to tell git to save what we have. First add it to staging, this is a palace to hold files before committing them. Don't worry if you don't understand what you are doing yet.
 
@@ -460,7 +460,7 @@ We do this by running this, remember the quotes are important:
 git commit -m "initial commit"
 ~~~
 
-#### Step 3.3: Hooking our local repository to the remote repository
+##### Step 3.3: Hooking our local repository to the remote repository
 
 We need to tell git where to send the files, to do this we will need to create a remote repository and take the address it creates, and add it to git.
 
@@ -478,15 +478,15 @@ After the commands have been run, you should refresh the browser page and you sh
 
 This marks the start of your Odin Journey! You can look back and find this application to see how you have progressed and changed over time.
 
-### Step 4: Deployment of a Rails Application
+#### Step 4: Deployment of a Rails Application
 
 Now that you have created your first rails application, it's time to deploy it so you can show the whole world! This will allow you to send a link to people and they will see it working. (Note: we set up git in the last step, if you skipped it for whatever reason, you will need to `git init`, `git add .` and `git commit -m 'message'` before pushing to Heroku.)
 
-#### Step 4.1: Create a Heroku account
+##### Step 4.1: Create a Heroku account
 
 Go to [the heroku website](https://www.heroku.com/) and create an account using the same email address you used for github and git.
 
-#### Step 4.2: Heroku cli
+##### Step 4.2: Heroku cli
 
 After activating your account from the email they sent you. We will install the Heroku command line to interact with the Heroku service. We will use `curl` to download a script and run it to install Heroku. (source of script: https://devcenter.heroku.com/articles/heroku-cli)
 
@@ -499,7 +499,7 @@ curl https://cli-assets.heroku.com/install.sh | sh
 Then running `heroku version` should result with something similar to:`heroku/7.5.1 linux-x64 node-v10.5.0`
 
 
-#### Step 4.3: Adding you SSH key to Heroku
+##### Step 4.3: Adding you SSH key to Heroku
 
 This lets Heroku know what machine the commands are coming from, for the same reason as GitHub.
 
@@ -511,7 +511,7 @@ heroku keys:add
 
 Then press `y`, and then `enter`. Now type in your email address you used to create your heroku account, then press `enter`. Then the password for your Heroku account. Then press `y` and `enter` to allow Heroku to upload your public SSH key.
 
-#### Step 4.4: Creating a Heroku application from a local rails application
+##### Step 4.4: Creating a Heroku application from a local rails application
 
 First run:
 
@@ -521,9 +521,9 @@ heroku create
 
 Then run `git remote show` and verify you see `heroku` in the output.
 
-#### Step 4.5: Preparing rails for Heroku Deployment
+##### Step 4.5: Preparing rails for Heroku Deployment
 
-##### Step 4.5.1: Configuring the Gemfile
+###### Step 4.5.1: Configuring the Gemfile
 
 To properly deploy a rails application, we will have to change some configuration in it's files.
 
@@ -553,7 +553,7 @@ end
 
 Then save the file, and then close the text editor.
 
-##### Step 4.5.2: Installing the Bundle (Needs better explanation)
+###### Step 4.5.2: Installing the Bundle (Needs better explanation)
 
 Next we need to install the bundle, that is as simple as typing this:
 
@@ -561,7 +561,7 @@ Next we need to install the bundle, that is as simple as typing this:
 bundle install --without production
 ~~~
 
-##### Step 4.5.3: Configuring the root route
+###### Step 4.5.3: Configuring the root route
 
 The next thing we need to edit is the `routes.rb` file, and set our root route. This is so we can send the application without having to append `/drinks` at the end. We will be using `gedit` to do so again.
 
@@ -581,7 +581,7 @@ root 'drinks#index'
 
 after the line.
 
-#### Step 4.6: Adding Changes to git
+##### Step 4.6: Adding Changes to git
 
 Now that we have made some changes, we should add the changes to git. This is required to successfully deploy to Heroku as well.
 
@@ -603,7 +603,7 @@ While we are here, we might as well push our changes to GitHub:
 git push
 ~~~
 
-#### Step 4.7: Pushing to Heroku
+##### Step 4.7: Pushing to Heroku
 
 After adding the edits to git, we now want to send the whole works off to Heroku.
 
@@ -613,7 +613,7 @@ git push heroku master
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for this to finish.
 
-#### Step 4.8: Migrate the DB on Heroku
+##### Step 4.8: Migrate the DB on Heroku
 
 Like we did locally before we launched our app, we need to migrate the database. We need to do this on Heroku, so we can use the Heroku-cli to do so.
 
@@ -625,7 +625,7 @@ heroku run rails db:migrate
 
 You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! If you have an error, come to the gitter chat, and ask for help.
 
-#### Step 4.9: Visit your new application
+##### Step 4.9: Visit your new application
 
 Now It's time to see your app on the web! To quickly open it, type:
 
@@ -635,6 +635,6 @@ heroku open
 
 and play around with it! If nothing shows up, come ask for help in the gitter chat room.
 
-### Step 5: Let us know how it went!
+#### Step 5: Let us know how it went!
 
 You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the Gitter chat room, or on the Odin Project forms. You can always find these links in the top right corner, under community.

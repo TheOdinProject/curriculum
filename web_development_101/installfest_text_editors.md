@@ -1,6 +1,8 @@
+A text editor is by far the most used tool of a developer. This holds true no matter what kind of developer you are. A good text editor can also help you write better code as well by helping out with real-time code linting, syntax highlighting, and automatic formatting.
+
 ### Why can't I use Microsoft Word?
 
-Rich text editors like Microsoft Word, or Libre-Office Writer are great for writing a paper, but for the same reason they are good at creating nicely formatted documents, they are not suited for writing code. A document created with these kinds of editors have more than just text embedded in their files. They have information on how to display the text on the screen, along with any graphics embedded into the document. A plain text editor, like notepad or nano, doesn't save this information along with the file. When saved, you simply save the information you see on the screen, directly into the text file. Doing this allows other programs, like Ruby's interpreter, to read and execute the file as code.
+Rich text editors like Microsoft Word, or Libre-Office Writer, are great for writing a paper, but for the same reason they are good at creating nicely formatted documents, they are not suited for writing code. A document created with these kinds of editors have more than just text embedded in their files. They have information on how to display the text on the screen, along with any graphics embedded into the document. A plain text editor, like notepad or nano, doesn't save this information along with the file. When saved, you simply save the information you see on the screen, directly into the text file. Doing this allows other programs, like Ruby's interpreter, to read and execute the file as code.
 
 ### What comes on my OS?
 
