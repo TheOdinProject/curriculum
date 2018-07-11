@@ -1,3 +1,5 @@
+### Introduction
+
 The first step to building anything is having your tools laid out for you. For us that means setting up a development environment in which our code can be created.
 
 Many development courses use online code editors or "sandboxes" which give you the tools and programs you need at that moment to accomplish the task at hand, but nothing else. While you will use some of these sandboxes throughout the early stages of The Odin Project (They're great for getting started quickly), the best way to set yourself up for success is to operate in a real development environment. We won't lie to you: installing packages, editors, and even entire operating systems can be frustrating at times. However, having the experience of setting up a development environment to run the code you'll write is an invaluable real-world skill you'll carry with you the rest of your career.
@@ -49,16 +51,16 @@ Virtual Machines (VM or VMs), on the other hand, are computers built with softwa
 
 You're probably familiar with Windows for one reason or another; For many people, it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, historically some languages, mainly Ruby, have been created with the assumption that you will be developing them on a Unix based system and have not been easily made to run on Windows or have taken a large amount of work to get running correctly.
 
-Lately a lot of progress has been made to make Windows a more developer friendly atmosphere. the Linux Subsystem for Windows (WSL) is now available in most any Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on wsl is a perfectly viable option. Granted, if you prefer to just stick with the tried and true, you can always go with dual booting or the virtual machine that you would use with earlier versions of Windows, but where's the adventure in that?
+Lately a lot of progress has been made to make Windows a more developer friendly atmosphere. the Linux Subsystem for Windows (WSL) is now available in most any Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on WSL is a perfectly viable option. Granted, if you prefer to just stick with the tried and true, you can always go with dual booting or the virtual machine that you would use with earlier versions of Windows, but where's the adventure in that?
 
 #### Online editors
 
 There are a variety of online code sandboxes that can be quite handy when you're away from your main system or prototyping some code before committing it. Sites such as:
 
 * [Repl.it](https://repl.it/)
-* Codepen.io
-* JSFiddle.net
-* codeanywhere.com
+* [Codepen.io](https://codepen.io/)
+* [JSFiddle.net](https://jsfiddle.net/)
+* [codeanywhere.com](https://codeanywhere.com/)
 
 Can be used to complete a small exercise or help jot out a concept you might not understand. However, you shouldn't use these sites as your main development environment. These sites can be used in the very short term until you're ready to commit to installing anything to your computer.
 
