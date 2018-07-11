@@ -1544,6 +1544,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Yousof's solution (Easy)](https://github.com/Yousof77/google-homepage) - [View in Browser](https://yousof77.github.io/google-homepage/)
 * [multi-potential's solution (Difficult)](https://github.com/multi-potential/google-homepage) - [View easy in browser](https://multi-potential.github.io/google-homepage/), [View difficult in browser](https://multi-potential.github.io/google-homepage/search.html)
 * [Ode Akugbe's Solution (Easy)](https://github.com/Blaize3/google-homepage) - [View in Browser](https://blaize3.github.io/google-homepage/index.html)
+* [jlv34's Solution (Easy)](https://github.com/jlv34/google-homepage) - [View in Browser](https://jlv34.github.io/google-homepage/)
 
 
 ### Additional Resources
