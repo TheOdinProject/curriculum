@@ -20,6 +20,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
+* [Javier Machin's solution](https://github.com/Javier-Machin/Intuit_form) - [View in browser](https://javier-machin.github.io/Intuit_form/)
 * [Reece Pritchard's solution](https://github.com/rapritchard/HTML-FORMS) - [View In Browser](https://rapritchard.github.io/HTML-FORMS/)
 * [Yakherder's solution](https://github.com/yakherder614/Mint) - [View In Browser]( https://yakherder614.github.io/Mint/)
 * [Johan Morin's Solutin](https://github.com/MorrisMalone/html-form) - [View In Browser](https://morrismalone.github.io/html-form/)
