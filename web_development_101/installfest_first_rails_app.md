@@ -1,4 +1,4 @@
-## Installing required software
+# Installing required software
 
 Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely!
 
@@ -31,6 +31,7 @@ Now that you have your terminal open, we need to make sure your Linux distributi
 sudo apt-get update
 sudo apt-get upgrade
 ~~~
+
 Be sure to push `y` and then `enter` when it prompts you.
 
 #### Step 1.2: Packages and Libraries
@@ -241,7 +242,9 @@ The last thing we need to do is tell rbenv to use this new version of Ruby by de
 
 </details>
 
-## Your First Rails App
+---
+
+# Your First Rails App
 
 ### Step 1: Configuring Git and GitHub
 
