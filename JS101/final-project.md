@@ -128,3 +128,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kristap's Solution](https://github.com/narelskristaps/calculator) - [View in Browser](https://narelskristaps.github.io/calculator/)
 - [Tyler's Solution](https://github.com/Tyler-Duckworth/top-projects/tree/master/calc) - [View in Browser](https://tyler-duckworth.github.io/top-projects/calc/index.html)
 - [spankie's Solution](https://spankie1337.github.io/js-calculator/) - [View in Browser](https://spankie1337.github.io/js-calculator/)
+- [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/calculator) - [View in Browser](https://rudiboshoff.github.io/calculator/)
