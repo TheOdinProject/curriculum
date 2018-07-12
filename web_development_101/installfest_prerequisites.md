@@ -119,7 +119,7 @@ Next, we're going to establish the link. Essentially it's like an alias such tha
 So, at your bash command prompt type:
 
 ~~~
-ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects`
+ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects
 ~~~
 
 now you can easily access and safely edit your projects folder from inside WSL just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
