@@ -152,3 +152,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Scott McKell's Solution:](https://github.com/zottwickel/linked_list.git)
 * [Punnadittr's Solution:](https://github.com/punnadittr/linked_list/blob/master/linked_lists.rb)
 * [Agon Idrizi's Solution:](https://github.com/AgonIdrizi/Recursion/blob/master/linked_list.rb)
+* [Areeba's Solution](https://github.com/AREEBAISHTIAQ/LinkedLists/blob/master/linkedlist.rb)
+
