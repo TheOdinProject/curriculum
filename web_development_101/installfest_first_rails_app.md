@@ -3,7 +3,7 @@
 Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely!
 
 <details markdown="block">
-<summary>Linux / Linux Virtual Machine / WSL
+<summary class="dropDown-header">Linux / Linux Virtual Machine / WSL
 </summary>
 
 ### Step 1: Install updates, packages and libraries
@@ -147,7 +147,7 @@ If this doesn't show up, ask for <blink> </blink > help in [the gitter chat](htt
 
 
 <details markdown="block">
-<summary>MacOS
+<summary class="dropDown-header">MacOS
 </summary>
 
 ### Step 1: Install Packages and Libraries
