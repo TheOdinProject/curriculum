@@ -59,7 +59,11 @@ Be sure to press `y` then press `enter` again when it prompts you to! (You may, 
 
 ### Step 2: Installing Ruby
 
-Now we are ready to install Ruby. To do so we are going to use a tool called `rbenv`, which makes it easy to install Ruby and manage it's versions.
+Now we are ready to install Ruby. To do so we are going to use a tool called `rbenv`, which makes it easy to install Ruby and manage it's versions. 
+
+Before continuing, run `rvm -v`, if it says `Command 'rvm' not found...` You are good to go. 
+
+Otherwise you have rvm already installed and you can update ruby using [this](https://rvm.io/rvm/basics#installing-rubies) documentation. Or, the preferred option, remove rvm and install rbenv. To do that, simply run `rvm implode`, then continue with this guide.
 
 #### Step 2.1: Installing Rbenv
 
