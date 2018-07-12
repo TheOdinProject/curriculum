@@ -411,7 +411,7 @@ cd my_first_rails_app
 Now we tell rails to generate some scaffolding. Scaffolding is basically a template for our rails app, and sets up some working parts for us.
 
 ~~~bash
-rails generate scaffold car make:string model:string year:integer
+rails generate scaffold cars make:string model:string year:integer
 ~~~
 
 After generating the scaffolds, we need to migrate the database.
@@ -430,7 +430,7 @@ run:
 rails server
 ~~~
 
-and go to your browser, and visit [http://localhost:3000/car] to see your application! Go ahead and create a new car, and refresh the page to verify it is working! Add as many as you'd like!
+and go to your browser, and visit [http://localhost:3000/cars] to see your application! Go ahead and create a new car, and refresh the page to verify it is working! Add as many as you'd like!
 
 When you are satisfied, go back to the terminal where rails is running, and push `ctrl + c` to end the application.
 
@@ -590,7 +590,7 @@ gedit config/routes.rb
 Find the line that says: `Rails.application.routes.draw do`, and place:
 
 ~~~ruby
-root 'drinks#index'
+root 'cars#index'
 ~~~
 
 after the line.
