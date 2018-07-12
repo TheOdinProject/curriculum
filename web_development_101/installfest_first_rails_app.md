@@ -1,4 +1,4 @@
-### Introduction
+here: ### Introduction
 
 Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely!
 
@@ -537,9 +537,11 @@ Then run `git remote show` and verify you see `heroku` in the output.
 
 #### Step 4.5: Preparing rails for Heroku Deployment
 
+Heroku uses a slightly different setup than what we have on our machine. We are going to configure the application to play nicely with both.
+
 #### Step 4.5.1: Configuring the Gemfile
 
-To properly deploy a rails application, we will have to change some configuration in it's files.
+To properly deploy a rails application, we will have to change some configuration in its files.
 
 First we need to open the `Gemfile` and edit it.
 
@@ -553,7 +555,7 @@ Delete the line that says:
 gem 'sqlite3'
 ~~~
 
-And put this in it's place:
+And put this in its place:
 
 ~~~ruby
 group :development, :test do
@@ -567,9 +569,9 @@ end
 
 Then save the file, and then close the text editor.
 
-#### Step 4.5.2: Installing the Bundle (Needs better explanation)
+#### Step 4.5.2: Installing the Bundle
 
-Next we need to install the bundle, that is as simple as typing this:
+Next we need to install the bundle, this ensures that all of the required dependancies are satisfied. that is as simple as typing this:
 
 ~~~bash
 bundle install --without production
@@ -593,7 +595,7 @@ Find the line that says: `Rails.application.routes.draw do`, and place:
 root 'cars#index'
 ~~~
 
-after the line.
+after the line, and save the file.
 
 ##### Step 4.6: Adding Changes to git
 
@@ -639,7 +641,7 @@ heroku run rails db:migrate
 
 You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! If you have an error, come to the gitter chat, and ask for help.
 
-##### Step 4.9: Visit your new application
+#### Step 4.9: Visit your new application
 
 Now It's time to see your app on the web! To quickly open it, type:
 
