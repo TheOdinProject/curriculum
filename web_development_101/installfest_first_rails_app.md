@@ -579,7 +579,7 @@ bundle install --without production
 
 #### Step 4.5.3: Configuring the root route
 
-The next thing we need to edit is the `routes.rb` file, and set our root route. This is so we can send the application without having to append `/drinks` at the end. We will be using `gedit` to do so again.
+The next thing we need to edit is the `routes.rb` file, and set our root route. This is so we can send the application without having to append `/cars` at the end. We will be using `gedit` to do so again.
 
 First make sure we are in the root directory of our application, type `ls` and verify you see `Gemfile` in the terminal output.
 
