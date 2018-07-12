@@ -547,7 +547,7 @@ First we need to open the `Gemfile` and edit it.
 
 In your terminal, type `ls` and verify you can see `Gemfile` in the output. If you don't navigate to the directory you have created in Steps 4.2 and 4.3.
 
-Then we will use `gedit`, a plain text editor, to modify our `Gemfile`. Run `gedit Gemfile` in the terminal.
+Then we will use `gedit`, a plain text editor, to modify our `Gemfile`. Run `gedit Gemfile` in the terminal. If you are on MacOS, you can just type `open Gemfile` and MacOS will open the file with the default program.
 
 Delete the line that says:
 
@@ -585,8 +585,16 @@ First make sure we are in the root directory of our application, type `ls` and v
 
 Next we need to edit the `routes.rb` file. To do this run:
 
+Linux: 
+
 ~~~bash
 gedit config/routes.rb
+~~~
+
+MacOS:
+
+~~~bash
+open config/routes.rb
 ~~~
 
 Find the line that says: `Rails.application.routes.draw do`, and place:
