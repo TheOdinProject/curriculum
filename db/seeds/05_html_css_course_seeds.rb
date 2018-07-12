@@ -10,8 +10,8 @@ section_position = 0
 lesson_position = 0
 
 course = create_or_update_course(
-  title: "HTML5 and CSS3",
-  title_url: "HTML5 and CSS3".parameterize,
+  title: "HTML and CSS",
+  title_url: "HTML and CSS".parameterize,
   description: "Good web design doesn't happen by accident. Learn how to make all that work you've done on the backend look great in a web browser! You'll be equipped to deeply understand and create your own design frameworks.",
   position: course_position
 )
@@ -27,7 +27,7 @@ section = create_or_update_section(
   title_url: "Basic HTML Page Structure".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section, we'll cover the whole range of HTML5 so you'll be completely comfortable with putting the right elements in the right places on a page."
+  description: "In this section, we'll cover the whole range of HTML so you'll be completely comfortable with putting the right elements in the right places on a page."
 )
 
 
@@ -45,8 +45,8 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "HTML5 Basics",
-  title_url: "HTML5 Basics".parameterize,
+  title: "HTML Basics",
+  title_url: "HTML Basics".parameterize,
   description: "A brief refresher on the very basics of HTML.",
   position: lesson_position,
   section_id: section.id,
@@ -170,8 +170,8 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "CSS3",
-  title_url: "CSS3".parameterize,
+  title: "CSS",
+  title_url: "CSS".parameterize,
   course_id: course.id,
   position: section_position,
   description: "Here we'll cover each of the foundational CSS concepts in greater depth than you probably have before."
@@ -179,8 +179,8 @@ section = create_or_update_section(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "CSS3 Basics",
-  title_url: "CSS3 Basics".parameterize,
+  title: "CSS Basics",
+  title_url: "CSS Basics".parameterize,
   description: "Even though you're already comfortable with CSS, it's worth revisiting the basics.",
   position: lesson_position,
   section_id: section.id,
@@ -389,8 +389,8 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Advanced CSS3",
-  title_url: "Advanced CSS3".parameterize,
+  title: "Advanced CSS",
+  title_url: "Advanced CSS".parameterize,
   course_id: course.id,
   position: section_position,
   description: "We'll take you beyond the basics of CSS and into a variety of additional topics from how to add some stylistic flair to your elements to using tools like preprocessors to save time and reduce repetition in your code."
