@@ -434,7 +434,7 @@ run:
 rails server
 ~~~
 
-and go to your browser, and visit [http://localhost:3000/cars] to see your application! Go ahead and create a new car, and refresh the page to verify it is working! Add as many as you'd like!
+and go to your browser, and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! Go ahead and create a new car, and refresh the page to verify it is working! Add as many as you'd like!
 
 When you are satisfied, go back to the terminal where rails is running, and push `ctrl + c` to end the application.
 
@@ -551,7 +551,7 @@ First we need to open the `Gemfile` and edit it.
 
 In your terminal, type `ls` and verify you can see `Gemfile` in the output. If you don't navigate to the directory you have created in Steps 4.2 and 4.3.
 
-Then we will use `gedit`, a plain text editor, to modify our `Gemfile`. Run `gedit Gemfile` in the terminal. If you are on MacOS, you can just type `open Gemfile` and MacOS will open the file with the default program.
+Then we will use the text editor you chose to modify our `Gemfile`. Open the the `Gemfile` in your text editor of choice.
 
 Delete the line that says:
 
@@ -587,21 +587,7 @@ The next thing we need to edit is the `routes.rb` file, and set our root route. 
 
 First make sure we are in the root directory of our application, type `ls` and verify you see `Gemfile` in the terminal output.
 
-Next we need to edit the `routes.rb` file. To do this run:
-
-Linux: 
-
-~~~bash
-gedit config/routes.rb
-~~~
-
-MacOS:
-
-~~~bash
-open config/routes.rb
-~~~
-
-Find the line that says: `Rails.application.routes.draw do`, and place:
+Next we need to edit the `routes.rb` file. To do this open `config/routes.rb`, find the line that says: `Rails.application.routes.draw do`, and place:
 
 ~~~ruby
 root 'cars#index'
