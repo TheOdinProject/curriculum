@@ -90,7 +90,7 @@ Don't worry if you don't know all the commands yet or that they don't stick at t
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * An introductory guide by [Michael Hartl](http://www.michaelhartl.com/) called [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
-* An easy-to-read, pragmatic guide to using Git available online from [RyPress](http://rypress.com/tutorials/git/index), also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC)
+* An easy-to-read, pragmatic guide to using Git available online from [RyPress](https://github.com/alokc83/Basic-Tutorials/blob/master/rypress.com%20Git/0_Ry's%20Git%20Tutorial.pdf), also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC)
 * [Git Reference](https://git-scm.com/docs) is another official Git resource, providing quick instructions for using common commands.
 * This very thorough and well laid out tutorial from [Atlassian](https://www.atlassian.com/git/tutorials/)
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2)
