@@ -2,7 +2,7 @@
 Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
 
 <details markdown="block">
-<summary>Linux Dual Boot
+<summary class="dropDown-header">Linux Dual Boot
 </summary>
 
 *Read this whole section before continuing*
@@ -46,7 +46,7 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 </details>
 
 <details markdown="block">
-<summary>Windows 10 Windows Subsystem for Linux
+<summary class="dropDown-header">Windows 10 Windows Subsystem for Linux
 </summary>
 
 Microsoft in recent years has made a huge shift to embrace open source and support developers. One of the biggest things they did with Windows 10 was introduce the Windows Subsystem for Linux (WSL) which is a full native command line implementation of Linux within Windows. Of course there are a couple minor adjustments you need to make, but once you have it up and running, you can essentially follow the Ubuntu instructions.
@@ -152,7 +152,7 @@ You **can** edit files inside your Linux file system, but you **must** use a com
 
 
 <details markdown="block">
-<summary>Virtual Machine with Linux
+<summary class="dropDown-header">Virtual Machine with Linux
 </summary>
 
 If you want to use Ubuntu (or any other version of Linux) as the operating system for your development related to TOP, but you don't feel like permanently changing your OS or switching back and forth between two different operating systems installed on your PC, then using a VM is probably the best option you have. VM is short for 'Virtual machine' which is a widely used program that [emulates](https://en.wikipedia.org/wiki/Emulator) a computer system. In other words, a VM allows you to run an operating system of your choice just like any other computer program. Unfortunately, such convenience comes at a price. Running a program that contains an operating system can be very heavy on your processor and RAM memory.
