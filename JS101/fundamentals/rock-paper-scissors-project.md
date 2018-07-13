@@ -240,3 +240,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kdclemaster's Solution](https://github.com/kdclemaster/rock-paper-scissors)
 - [spankie's Solution](https://github.com/spankie1337/rockpaperscissors)
 - [Ode Akugbe's Solution](https://github.com/Blaize3/rock-paper-scissors) - [View in Browser](https://blaize3.github.io/rock-paper-scissors/index.html)
+- [Tommy's Solution](https://github.com/hoangtommy/roshambo) - [View in Browser](https://hoangtommy.github.io/roshambo/)
