@@ -20,7 +20,7 @@ A shortcut for Ubuntu and it's derivatives is pushing `ctrl + alt + t` to open t
 
 The rest of the installations will take place inside the terminal window.
 
-Hot tip: You can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v` in Linux.
+Quick tip: You can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v` in Linux.
 (In WSL you can use `ctrl + c` like you are used to to copy from the terminal. to paste into the terminal--either bash, PowerShell, or Command Prompt--right click at the prompt and it will paste the contents of the clipboard.)
 
 #### Step 1.1: Updating
@@ -120,7 +120,7 @@ If you still have issues, please come and ask questions in the [Gitter chat](htt
 
 #### Step 2.2: Installing Ruby
 
-Now it is time to install Ruby itself we will be using `rbenv` to do so, and now you will see why we installed it in the first place!
+Now it is time to install Ruby itself and we will be using `rbenv` to do so, and now you will see why we installed it in the first place!
 
 We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! [The gitter chat!](https://gitter.im/TheOdinProject/theodinproject)
 
@@ -174,7 +174,7 @@ This will install XCode - A program provided by Apple for programming. It will i
 
 #### Step 1.2: Installing homebrew
 
-Now that XCode is finished installing we can continue. The next program we need to install is called [homebrew](https://brew.sh/). Homebrew makes it easy to install other programs we will need. From inside of the terminal type:
+Now that XCode is finished installing, we can continue. The next program we need to install is called [homebrew](https://brew.sh/). Homebrew makes it easy to install other programs we will need. From inside of the terminal type:
 
 ~~~bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -182,7 +182,7 @@ Now that XCode is finished installing we can continue. The next program we need 
 
 You will be prompted to enter your password. When entering your password it may not look like anything is being entered, but rest assured your password is being entered. Once you are done entering your password, press enter.
 
-Congratulations! You've installed the prerequisites! When you're ready let's move on and install Git
+Congratulations! You've installed the prerequisites! When you're ready let's move on and install Git.
 
 ### Step 2: Installing git and Heroku
 
@@ -332,7 +332,7 @@ Now add the key to the authentication agent. This is so we can use the generated
 ssh-add ~/.ssh/id_rsa
 ~~~
 
-( If this does not work, try running `eval $(ssh-agent)` and then run the command above again. )
+( If that does not work, try running `eval $(ssh-agent)` and then run the command above again. )
 
 If you configured the key with a password, enter it now, and push `enter`.
 
@@ -355,7 +355,7 @@ Now highlight the output, which should start with `ssh-rsa` and end with your em
 * In Linux you can use `ctrl + shift + c` to copy from the console, or right click in most cases.
 * In WSL you can just use `ctrl + c` to copy from the terminal.
 
-Now go back to the github.com browser window we opened earlier, and paste the key we copied ( from the console with the `cat` command ) into the box that says `key`. Then click `Add SSH key`. You may need to enter your github.com password to continue. Then you will see your key added!
+Now go back to the **github.com** browser window we opened earlier, and paste the key we copied ( from the console with the `cat` command ) into the box that says `key`. Then click `Add SSH key`. You may need to enter your **github.com** password to continue. Then you will see your key added!
 
 ### Step 2: Creating your first Ruby on Rails web application
 
@@ -404,7 +404,7 @@ Now we are going to tell rails to initialize the application for us. We will the
 rails new my_first_rails_app
 ~~~
 
-This will do a bunch of things and you will see a lot of output into the terminal. As long as nothing looks like an error, you can continue. Otherwise, come to [the Gitter chat room](https://gitter.im/TheOdinProject) for help.
+This will do a bunch of things and you will see a lot of output into the terminal. As long as nothing looks like an error, you can continue. Otherwise, come to [the Gitter chat room](https://gitter.im/TheOdinProject/theodinproject) for help.
 
 Now that we have let rails do the heavy lifting for us, we need to move into the directory it has created for us.
 
@@ -492,7 +492,7 @@ We are going to follow the section that says `...or push an existing repository 
 
 You may see a message that says something along the lines of `The authenticity of host 'github.com (192.30.253.112)' can't be established`, you can safely type `yes` and press `enter` into the console.
 
-After the commands have been run, you should refresh the browser page and you should see a lot of files, starting with a folder called `app`. If you do not see this, ask for help in the gitter chat room.
+After the commands have been run, you should refresh the browser page and you should see a lot of files, starting with a folder called `app`. If you do not see this, ask for help in the ["Gitter chat room"](https://gitter.im/TheOdinProject/theodinproject).
 
 This marks the start of your Odin Journey! You can look back and find this application to see how you have progressed and changed over time.
 
@@ -593,7 +593,7 @@ Next we need to edit the `routes.rb` file. To do this open `config/routes.rb`, f
 root 'cars#index'
 ~~~
 
-after the line, and save the file.
+after this line, and save the file.
 
 ##### Step 4.6: Adding Changes to git
 
@@ -637,7 +637,7 @@ Run this command:
 heroku run rails db:migrate
 ~~~
 
-You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! If you have an error, come to the gitter chat, and ask for help.
+You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! If you have an error, come to the [gitter chat](https://gitter.im/TheOdinProject/theodinproject), and ask for help.
 
 #### Step 4.9: Visit your new application
 
@@ -651,4 +651,4 @@ and play around with it! If nothing shows up, come ask for help in the gitter ch
 
 ### Step 5: Let us know how it went!
 
-You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the Gitter chat room, or on the Odin Project forms. You can always find these links in the top right corner, under community.
+You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the Gitter chat room, or on the Odin Project forum. You can always find these links in the top right corner, under community.
