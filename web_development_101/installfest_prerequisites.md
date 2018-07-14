@@ -7,7 +7,7 @@ Before we can install ruby and get ready to launch a rails application, we have 
 
 *Read this whole section before continuing*
 
-Dual-booting provides you with two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck: Talk to us in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject) at any time. It helps to have a phone or another computer around if you get stuck. This process almost always goes smoothly, so don't worry too much :) .
+Dual-booting provides you two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck: Talk to us in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject) at any time. It helps to have a phone or another computer around if you get stuck. This process almost always goes smoothly, so don't worry too much :) .
 
 ### Step 1: Downloading Linux
 
@@ -99,11 +99,11 @@ Okay this is really important: **If you try to edit files inside of the Linux fi
 
 When Ubuntu was set up, your windows file system was mapped to `/mnt` in Ubuntu. This means that your C drives is actually `/mnt/c` inside wsl. Anything saved in `/mnt/c` is available to windows and linux and won't cause any problems.
 
-If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. I'm going to show you how to set up a symbolic link to make things really easy on you.
+If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. we're going to show you how to set up a symbolic link to make things really easy on you.
 
 #### Step 3.1: Create Directory for your Projects
 
-You can choose to put your project files anywhere you want, but I'm going to assume you are cool like me and put a projects folder in your documents folder.
+You can choose to put your project files anywhere you want, but we're going to assume you are cool and put a projects folder in your documents folder.
 From inside ubuntu type:
 
 ~~~
