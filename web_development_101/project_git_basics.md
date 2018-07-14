@@ -21,7 +21,7 @@ By the end of this you should be able to:
 Here we will describe the basic Git workflow that you will use with your projects, follow along with each of the steps.
 
 #### Create your repository on Github
-1. You should have created a GitHub account in the [installation prerequisites](https://www.theodinproject.com/courses/web-development-101/lessons/prerequisites) project. If you haven't done that yet you can sign up [here](https://github.com/).
+1. You should have created a GitHub account in [Project: Your First Rails App](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application) project. If you haven't done that yet you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
   <a href="https://imgur.com/LURPUjP"><img class="tutorial-img" src="https://i.imgur.com/LURPUjP.png" title="source: imgur.com" /></a>
