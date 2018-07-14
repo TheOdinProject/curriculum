@@ -415,7 +415,7 @@ cd my_first_rails_app
 Now we tell rails to generate some scaffolding. Scaffolding is basically a template for our rails app, and sets up some working parts for us.
 
 ~~~bash
-rails generate scaffold cars make:string model:string year:integer
+rails generate scaffold car make:string model:string year:integer
 ~~~
 
 After generating the scaffolds, we need to migrate the database.
