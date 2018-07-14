@@ -168,7 +168,7 @@ You have read through the introduction part and you feel like a VM is your best 
 #### Step 1.1.1: Downloading Virtual Box
 
 
-[Click here](https://download.virtualbox.org/virtualbox/5.2.12/VirtualBox-5.2.12-122591-Win.exe) to download VirtualBox (64 bit) for Windows.
+[Click here](https://www.virtualbox.org/wiki/Downloads) and download VirtualBox for Windows hosts.
 
 #### Step 1.1.2: Linux download
 
