@@ -19,12 +19,12 @@ In the following sections we'll be going over the necessary steps for your envir
 It may seem like a lot of steps, but we'll get through it as painlessly as possible together! And, if anything goes wrong, always remember the three rules of problem solving in development:
 
 * Read and try to understand the error message.
-* Google, Google, Google.
 * Never be afraid to ask for help!
+* Google, Google, Google.
 
 ### Options on supported OS'
 
-The first thing we need to decide is what operating system you'll be using to develop on. We've focused on the big three: Linux (Ubuntu), MacOS, and Windows.
+The first thing we need to decide is what operating system you'll be using to develop on. We've focused on the big three: Linux (Ubuntu), MacOS and Windows.
 
 #### Woah, woah, woah. I like my OS just fine the way it is
 
@@ -42,7 +42,7 @@ Linux is a free operating system that works well with all programming languages.
 
 You're probably familiar with Windows for one reason or another; for many people, it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, historically some languages, mainly Ruby, have been created with the assumption that you will be developing them on a Unix based system and have not been easily made to run on Windows or have taken a large amount of work to get running correctly.
 
-Lately a lot of progress has been made to make Windows a more developer friendly atmosphere. the Linux Subsystem for Windows (WSL) is now available in most any Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on WSL is a perfectly viable option. Granted, if you prefer to just stick with the tried and true, you can always go with dual booting or the virtual machine that you would use with earlier versions of Windows, but where's the adventure in that?
+Lately a lot of progress has been made to make Windows a more developer friendly atmosphere. the Linux Subsystem for Windows (WSL) is now available in most Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on WSL is a perfectly viable option. Granted, if you prefer to just stick with the tried and true, you can always go with dual booting or the virtual machine that you would use with earlier versions of Windows, but where's the adventure in that?
 
 #### Linux with Earlier Versions of Windows
 
@@ -55,7 +55,7 @@ Dual-booting is by far the preferred method for installation. It can be as easy 
 
 The Ubuntu flavor of Linux is meant to be as user friendly as any Windows or MacOS version with an infinite level of customization just below the surface. And with dual-booting you'll be able to restart the computer to get back to your primary OS at a moment's notice. The only downside, though _very_ small, is the chance of causing issues with your current OS. These issues are very rare and can usually be recovered from (a good solution is to create a backup first). Never fear, many people have taken this route before and by carefully following instructions you can avoid causing any problems at all. This is the preferred way to install Linux.
 
-Virtual Machines (VM or VMs), on the other hand, are computers built with software instead of physical components. Using a free program like VirtualBox by Oracle you can create a functioning "computer" and install Linux. A VM allows you to access the Linux OS while still having Windows running in the background. Your computer will treat the VM like any other piece of software, something you load up when needed and close when you're done. But there are some drawbacks; VMs are not as fast as Dual-booting because your physical computer must support two Operating Systems. This can make both the VM and Windows very slow.
+Virtual Machines (VM or VMs), on the other hand,there are computers built with software instead of physical components. Using a free program like VirtualBox by Oracle you can create a functioning "computer" and install Linux. A VM allows you to access the Linux OS while still having Windows running in the background. Your computer will treat the VM like any other piece of software, something you load up when needed and close when you're done. But there are some drawbacks; VMs are not as fast as Dual-booting because your physical computer must support two Operating Systems. This can make both the VM and Windows very slow.
 
 #### Online editors
 
@@ -66,12 +66,12 @@ There are a variety of online code sandboxes that can be quite handy when you're
 * [JSFiddle.net](https://jsfiddle.net/)
 * [codeanywhere.com](https://codeanywhere.com/)
 
-Can be used to complete a small exercise or help jot out a concept you might not understand. However, you shouldn't use these sites as your main development environment. These sites can be used in the very short term until you're ready to commit to installing anything to your computer.
+Can be used to complete a small exercise or help jot out a concept you might not understand. However, you shouldn't use these sites as your main development environment. These sites can be used in the very short term until you're ready to commit to installing anything in your computer.
 
 #### Okay, so which OS should I REALLY use
 
 You should use Linux or MacOS.
 
-While it is possible to make Windows play nice the bottom line is that a lot of languages and packages, especially Ruby, were designed with Unix (Linux and macOS) based operating systems in mind. [Even Microsoft is aware of this](https://blogs.msdn.microsoft.com/premier_developer/2018/04/27/why-developers-should-install-wsl-today/) and that was part of the motivation for creating the Windows Subsystem for Linux. So if you have a current Windows 10 computer, consider activating WSL: the short learning curve will save you lots of headaches down the road.
+While it is possible to make Windows play nice the bottom line is that a lot of languages and packages, especially Ruby, were designed with Unix (Linux and macOS) based operating systems. [Even Microsoft is aware of this](https://blogs.msdn.microsoft.com/premier_developer/2018/04/27/why-developers-should-install-wsl-today/) and that was part of the motivation for creating the Windows Subsystem for Linux. So if you have a current Windows 10 computer, consider activating WSL: the short learning curve will save you lots of headaches down the road.
 
-If you have an older Windows box, definitely either set it up for Dual Boot ore use a Virtual Machine. Heck, you may find yourself using the Linux side so often you will eventually want to just get rid of Windows entirely.
+If you have an older Windows box, definitely either set it up for Dual Boot or use a Virtual Machine. Heck, you may find yourself using the Linux side so often you will eventually want to just get rid of Windows entirely.
