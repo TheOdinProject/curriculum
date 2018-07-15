@@ -9,7 +9,7 @@ By the end of this you should be able to:
 <details>
 <summary>Name the git command used to get a full copy of an existing git repository from Github</summary>
 <ul><ul>
-  <li>Use <code>git clone &lt;git-repository-url&gt;</code> to clone the repository</li>
+  <li>Use <code>git clone git@github.com:&lt;your-respository-name&gt;</code> to clone the repository</li>
 </ul></ul>
 </details>
 
@@ -61,7 +61,9 @@ By the end of this you should be able to:
 Here is a reference list of the most commonly used git commands (you might consider bookmarking this handy webpage). Try to familiarise yourself with the commands and then eventually remember them:
 
 * Commands related to remote repository:
-  * `git clone https://github.com/user-name/repository-name.git`
+  * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git` 
+  or 
+  `git clone https://github.com/user-name/repository-name.git`
   * `git push origin master`
 * Commands related to workflow:
   * `git add .`
