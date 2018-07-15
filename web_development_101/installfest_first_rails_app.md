@@ -18,6 +18,8 @@ A shortcut for Ubuntu and it's derivatives is pushing `ctrl + alt + t` to open t
 
 * and look for an icon labeled `terminal` and click that.
 
+On Windows with WSL, you will have to open either `PowerShell` or the command prompt and type `wsl`.
+
 The rest of the installations will take place inside the terminal window.
 
 Quick tip: You can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v` in Linux.
