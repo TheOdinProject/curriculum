@@ -1547,6 +1547,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ode Akugbe's Solution (Easy)](https://github.com/Blaize3/google-homepage) - [View in Browser](https://blaize3.github.io/google-homepage/index.html)
 * [jlv34's Solution (Easy)](https://github.com/jlv34/google-homepage) - [View in Browser](https://jlv34.github.io/google-homepage/)
 * [Mrobele's Solution (Easy)](https://github.com/MrObele/google-homepage) - [View in Browser](https://mrobele.github.io/google-homepage/)
+* [Karen Justo's solution (Easy)](https://github.com/jrkaren9/google-homepage) - [View in Browser](https://jrkaren9.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
