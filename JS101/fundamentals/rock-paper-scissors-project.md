@@ -245,3 +245,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Serge Zdorovko Solution](https://github.com/horohoro1106/OdinsProject/tree/master/Web%20101/Project%20Rock%20Paper%20Scissors)
 - [Tommy's Solution](https://github.com/hoangtommy/roshambo) - [View in Browser](https://hoangtommy.github.io/roshambo/)
 - [Vyhn's Solution](https://github.com/Vyhnn/Rock-Paper-Scissors) - [View in Browser](https://vyhnn.github.io/Rock-Paper-Scissors/)
+- [MrObele's Solution](https://github.com/MrObele/rock-paper-scissors)
