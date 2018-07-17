@@ -37,6 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [terrancebee's Solution](https://github.com/terrancebee/rock-paper-scissors)
+- [Todd Yoshioka's Solution](https://github.com/toddhy/rpc_game)
 - [prw001's Solution](https://github.com/prw001/RPS_part_II)
 - [Dreniak's Solution](https://github.com/Dreniak/rock-paper-scissors)
 - [Pietro Verdile's Solution](https://github.com/pverdile/rock_paper_scissors_game)
@@ -214,7 +215,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [00SaadChaudhry's solution](https://github.com/00SaadChaudhry/The-Odin-Project/tree/master/rock-paper-scissors) - [View in Browser](https://00saadchaudhry.github.io/The-Odin-Project/rock-paper-scissors/)
 - [Erika's Solution](https://github.com/Karmaqueen84/rockpaperscissors) - [View in Browser](https://karmaqueen84.github.io/rockpaperscissors/)
 - [Timothy Shortess's solution](https://github.com/timmshor/rock-paper-scissors.git) - [View in Browser](https://timmshor.github.io/rock-paper-scissors/)
-- [Mike Smith's updated solution](https://github.com/MikeSS281986/rock_paper_scissors_v3.git) - [View in Browser] (https://mikess281986.github.io/rock_paper_scissors_v3/)
+- [Mike Smith's updated solution](https://github.com/MikeSS281986/rock_paper_scissors_v3.git) - [View in Browser](https://mikess281986.github.io/rock_paper_scissors_v3/)
 - [Joe Collins' solution](https://github.com/joe-collins/rock-paper-scissors/blob/master/index.html)(Console only) - [View in browser](https://joe-collins.github.io/rock-paper-scissors/)
 - [Ben Smyth's Solution](https://github.com/benjsmyth/rock-paper-scissors) [View in Browser](https://benjsmyth.github.io/rock-paper-scissors/)
 - [Felipe Parreira's solution](https://github.com/FelipeParreira/ConsoleRPS/blob/master/index.html)
@@ -245,3 +246,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Serge Zdorovko Solution](https://github.com/horohoro1106/OdinsProject/tree/master/Web%20101/Project%20Rock%20Paper%20Scissors)
 - [Tommy's Solution](https://github.com/hoangtommy/roshambo) - [View in Browser](https://hoangtommy.github.io/roshambo/)
 - [Vyhn's Solution](https://github.com/Vyhnn/Rock-Paper-Scissors) - [View in Browser](https://vyhnn.github.io/Rock-Paper-Scissors/)
+- [MrObele's Solution](https://github.com/MrObele/rock-paper-scissors)
+- [Simon Tharby's UI solution](https://github.com/jinjagit/RockPaperScissors) - [View in Browser](https://jinjagit.github.io/RockPaperScissors/)
