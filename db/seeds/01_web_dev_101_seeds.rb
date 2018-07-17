@@ -111,7 +111,7 @@ section = create_or_update_section(
   title_url: "Installations".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section you will configure your development enviornment, install Ruby and Rails, and launch your first rails application."
+  description: "In this section you will configure your development environment, install Ruby and Rails, and launch your first rails application."
 )
 
 lesson_position += 1
