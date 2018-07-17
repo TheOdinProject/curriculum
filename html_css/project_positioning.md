@@ -19,7 +19,7 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_positioning.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
 * [Javier Machin's solution](https://github.com/Javier-Machin/NYT-article) - [View In Browser](https://javier-machin.github.io/NYT-article/)
@@ -70,7 +70,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/nyt-article) - [View in browser](https://thiswillhavetodo.github.io/nyt-article/)
 * [DV's solution](https://github.com/dvislearning/odin-nyt-article) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-nyt-article/blob/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/nyt-project) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/nyt-project/index.html)
-* [Mike Smith's solution](https://github.com/MikeSS281986/New-York-Times-Snippet) - [View in browser](https://mikess281986.github.io/New-York-Times-Snippet/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
