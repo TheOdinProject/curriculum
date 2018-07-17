@@ -313,6 +313,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Punnadittr's solution](https://github.com/punnadittr/recursion/blob/master/merge_sort.rb)
 * [Aziz Yakubov's Solution](https://github.com/azizyakubov/Ruby_practice/blob/master/Merge_sort/merge_sort.rb)
 * [Agon's solution](https://github.com/AgonIdrizi/Recursion/blob/master/MergeSort.rb)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/Merge-sort/blob/master/mergesort.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
