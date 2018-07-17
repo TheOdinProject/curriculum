@@ -161,10 +161,9 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](/courses/web-development-101/lessons/databases).
-  2. Go through this interactive SQL tutorial from [SQL Teaching](https://www.sqlteaching.com/)
-  3. Go through this more in-depth interactive SQL tutorial from [SQL Bolt](http://sqlbolt.com)
-  4. Go through the basics at [Part 1](http://www.sqlcourse.com/index.html) and the advanced at [Part 2](http://www.sqlcourse2.com/index.html) of SQL Course
+  1. Go through this interactive SQL tutorial from [SQL Teaching](https://www.sqlteaching.com/)
+  2. Go through this more in-depth interactive SQL tutorial from [SQL Bolt](http://sqlbolt.com)
+  3. Go through the basics at [Part 1](http://www.sqlcourse.com/index.html) and the advanced at [Part 2](http://www.sqlcourse2.com/index.html) of SQL Course
 </div>
 
 ### Conclusion
