@@ -1,12 +1,13 @@
+### Introduction
 Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
 
 <details markdown="block">
-<summary>Linux Dual Boot
+<summary class="dropDown-header">Linux Dual Boot
 </summary>
 
 *Read this whole section before continuing*
 
-Dual-booting provides you with two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck: Talk to us in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject) at any time. It helps to have a phone or another computer around if you get stuck. This process almost always goes smoothly, so don't worry too much :) .
+Dual-booting provides you two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck: Talk to us in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject) at any time. It helps to have a phone or another computer around if you get stuck. This process almost always goes smoothly, so don't worry too much :) .
 
 ### Step 1: Downloading Linux
 
@@ -20,7 +21,7 @@ Next you will create a bootable flash drive so you can install Ubuntu to your ha
 
 Follow [this guide](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0) for instructions.
 
-Note: You can use this method to try out different flavors of Ubuntu if you would like. These images allow you to try the different flavors of Ubuntu without committing to an installation. Just note that due to the nature of USB, it is slow for this purpose, and using it this way consistently over time can harm your flash-drive. 
+Note: You can use this method to try out different flavors of Ubuntu if you would like. These images allow you to try the different flavors of Ubuntu without committing to an installation. Just note that due to the nature of USB, it is slow for this purpose, and using it this way consistently over time can harm your flash-drive.
 
 If you would like to play with the version of Ubuntu you installed on the flash drive, click 'try me' instead of 'install'. When you have found a version of Ubuntu you like, continue to the next step.
 
@@ -44,8 +45,8 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 
 </details>
 
-<details markdown="block"> 
-<summary>Windows 10 Windows Subsystem for Linux
+<details markdown="block">
+<summary class="dropDown-header">Windows 10 Windows Subsystem for Linux
 </summary>
 
 Microsoft in recent years has made a huge shift to embrace open source and support developers. One of the biggest things they did with Windows 10 was introduce the Windows Subsystem for Linux (WSL) which is a full native command line implementation of Linux within Windows. Of course there are a couple minor adjustments you need to make, but once you have it up and running, you can essentially follow the Ubuntu instructions.
@@ -54,7 +55,7 @@ Microsoft has made it easy to get up and running using [Windows Settings and the
 
 ### Step 1: Activate WSL
 
-First you have to open PowerShell as an administrator. One way to do this is to start typing `powershell` into the taskbar search. After just a couple letters PowerShell should show up. Just right click on it and select "Run as Administrator" (if multiple PowerShells show up, just select the top one.)
+First you have to open PowerShell as an administrator. One way to do this is to start typing `powershell` into the task bar search. After just a couple letters PowerShell should show up. Just right click on it and select "Run as Administrator" (if multiple PowerShells show up, just select the top one.)
 
 That way is just fine, but I like the super secret squirrel way to do it: press the key combination, `cmd+x` (cmd is the button on the bottom row to the left with the windows logo on it.) This will open a nice bare-bones menu where you can select a lot of useful tools skipping all the fancy bells and whistles. From there just open `Windows PowerShell (Admin)`. Once you have PowerShell up and running, type at the command prompt:
 
@@ -98,11 +99,11 @@ Okay this is really important: **If you try to edit files inside of the Linux fi
 
 When Ubuntu was set up, your windows file system was mapped to `/mnt` in Ubuntu. This means that your C drives is actually `/mnt/c` inside wsl. Anything saved in `/mnt/c` is available to windows and linux and won't cause any problems.
 
-If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. I'm going to show you how to set up a symbolic link to make things really easy on you.
+If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. we're going to show you how to set up a symbolic link to make things really easy on you.
 
 #### Step 3.1: Create Directory for your Projects
 
-You can choose to put your project files anywhere you want, but I'm going to assume you are cool like me and put a projects folder in your documents folder.
+You can choose to put your project files anywhere you want, but we're going to assume you are cool and put a projects folder in your documents folder.
 From inside ubuntu type:
 
 ~~~
@@ -118,10 +119,10 @@ Next, we're going to establish the link. Essentially it's like an alias such tha
 So, at your bash command prompt type:
 
 ~~~
-ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects`
+ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects
 ~~~
 
-now you can easily access and safely edit your projects folder from inside wsl just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
+now you can easily access and safely edit your projects folder from inside WSL just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
 
 ### Step 4: Install Git
 
@@ -129,7 +130,7 @@ Git is a version control system that both allows you to easily save projects to 
 
 ### Step 5 (optional): Make it Easier to Find
 
-If you want to, you can pin a link to ubuntu.exe to your start menu or your desktop. 
+If you want to, you can pin a link to ubuntu.exe to your start menu or your desktop.
 
 You can also run it from inside PowerShell (you no longer need to be running as an Admin) or the old school Command Prompt by typing `wsl`.
 
@@ -151,14 +152,14 @@ You **can** edit files inside your Linux file system, but you **must** use a com
 
 
 <details markdown="block">
-<summary>Virtual Machine with Linux
+<summary class="dropDown-header">Virtual Machine with Linux
 </summary>
 
 If you want to use Ubuntu (or any other version of Linux) as the operating system for your development related to TOP, but you don't feel like permanently changing your OS or switching back and forth between two different operating systems installed on your PC, then using a VM is probably the best option you have. VM is short for 'Virtual machine' which is a widely used program that [emulates](https://en.wikipedia.org/wiki/Emulator) a computer system. In other words, a VM allows you to run an operating system of your choice just like any other computer program. Unfortunately, such convenience comes at a price. Running a program that contains an operating system can be very heavy on your processor and RAM memory.
 
-### Step 0: Requirements
+### Requirements
 
-Before committing to the installation, make sure your computer meets the [requirements](https://www.virtualbox.org/wiki/End-user_documentation) to run a virtual machine.
+Before committing to the installation, make sure your computer meets the [requirements](https://www.virtualbox.org/wiki/End-user_documentation) to run a virtual machine, it doesn't hurt to take a look at your selected flavor of linux's requirements as well.
 
 ### Step 1: Downloads
 
@@ -167,7 +168,7 @@ You have read through the introduction part and you feel like a VM is your best 
 #### Step 1.1.1: Downloading Virtual Box
 
 
-[Click here](https://download.virtualbox.org/virtualbox/5.2.12/VirtualBox-5.2.12-122591-Win.exe) to download VirtualBox (64 bit) for Windows.
+[Click here](https://www.virtualbox.org/wiki/Downloads) and download VirtualBox for Windows hosts.
 
 #### Step 1.1.2: Linux download
 
@@ -182,7 +183,7 @@ The installation of VirtualBox is a very straight forward process. It doesn't re
 #### Step 2.2: Setting up Ubuntu
 Now that you have Virtual Box installed, double click the icon and you should see something like this:
 
-![vbimage](/uploads/default/original/2X/7/74050f4cd0fbd7834c19735d312a52c49f4cd1b0.png)
+![installed_vbox](https://i.imgur.com/VO9Y1Si.png)
 
 Click on the 'New' button to create a virtual operating system. Find your operating system in the dropdown menu (Linux/Ubuntu) and name it as you wish. Continue by pressing next and choose the following options in the next steps:
 
@@ -198,7 +199,7 @@ Click on the 'New' button to create a virtual operating system. Find your operat
 
 After completing the last step, click the Create button. Your newly created virtual OS should be in the menu now. Right click on it and go to Settings. Go to the Storage section and add the Ubuntu iso file you downloaded earlier:
 
-![isoimg](/uploads/default/original/2X/2/2836c6db3dfdda3bdf9819c612a9561776227d0d.png)
+![choose_disc_vbox](https://i.imgur.com/D3xfaZa.png)
 
 After that, you can go to the System tab and change the amount of hardware the virtual operating system will be using. Generally 50% of RAM and processors should be allocated to the virtual OS, but you can always change that and set them as it fits best for you.
 
@@ -232,7 +233,7 @@ Now Start Ubuntu unless it's already open and look for a CD icon in the bottom-r
 
 If you can not choose anything other than a 32-bit operating system when setting up your VM look at [this](http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/#.WzzZYXYzZN0)
 
-If you get a message like 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. Unable to boot - please use a kernel appropriate for your CPU.' , you should go to the BIOS settings of your PC and enable 'Virtualization Technologies' and 'VT-x' (or AMD-x), save the settings and restart your PC. 
+If you get a message like 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. Unable to boot - please use a kernel appropriate for your CPU.' , you should go to the BIOS settings of your PC and enable 'Virtualization Technologies' and 'VT-x' (or AMD-x), save the settings and restart your PC.
 
 If you experience any issues during the installation don't hesitate to ask for help on the [forums](https://forum.theodinproject.com/c/help) or in our [Gitter chat](https://gitter.im/TheOdinProject/theodinproject).
 

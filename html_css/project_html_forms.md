@@ -20,6 +20,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 
+* [Javier Machin's solution](https://github.com/Javier-Machin/Intuit_form) - [View in browser](https://javier-machin.github.io/Intuit_form/)
 * [Reece Pritchard's solution](https://github.com/rapritchard/HTML-FORMS) - [View In Browser](https://rapritchard.github.io/HTML-FORMS/)
 * [Yakherder's solution](https://github.com/yakherder614/Mint) - [View In Browser]( https://yakherder614.github.io/Mint/)
 * [Johan Morin's Solutin](https://github.com/MorrisMalone/html-form) - [View In Browser](https://morrismalone.github.io/html-form/)
@@ -92,5 +93,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Nana's solution](https://github.com/nessuman/google-homepage) - [View in browser](https://nessuman.github.io/google-homepage/)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/mint-signup-page) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/mint-signup-page/index.html)
 * [Mike Smith's solution](https://github.com/MikeSS281986/Intuit-Mint-Login-Page-Clone) - [View in Browser](https://mikess281986.github.io/Intuit-Mint-Login-Page-Clone/)
+* [Elena's solution](https://github.com/elena-sam/mint-signup-clone) - [View in Browser](https://elena-sam.github.io/mint-signup-clone/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
