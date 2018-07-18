@@ -330,7 +330,7 @@ create_or_update_lesson(
   description: "Project: Frameworks",
   position: lesson_position,
   section_id: section.id,
-  is_project: false,
+  is_project: true,
   url: "/frameworks/frameworks-project.md",
   repo: 'javascript_curriculum'
 )
