@@ -1549,6 +1549,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mrobele's Solution (Easy)](https://github.com/MrObele/google-homepage) - [View in Browser](https://mrobele.github.io/google-homepage/)
 * [Karen Justo's solution (Easy)](https://github.com/jrkaren9/google-homepage) - [View in Browser](https://jrkaren9.github.io/google-homepage/)
 * [Anwaraiden's Solution (Easy method)](https://github.com/anwaraiden/google-homepage)
+* [Adrian Thinnyun's solution (Easy)](https://github.com/athinnyun/google-homepage) - [View in Browser](https://athinnyun.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
