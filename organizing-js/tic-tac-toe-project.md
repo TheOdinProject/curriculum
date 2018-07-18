@@ -22,6 +22,7 @@ We're making a Tic Tac Toe game you can play in your browser!
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/tic-tac-toe-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [leosoaivan's solution](https://github.com/leosoaivan/js-tictactoe) - [View in browser](http://leosoaivan.com/js-tictactoe)
 - [nmac's solution (with minimax)](https://github.com/nmacawile/js-tic-tac-toe) - [Game](https://htmlpreview.github.io/?https://github.com/nmacawile/js-tic-tac-toe/blob/master/index.html)
 - [Johan Morin's Solution](https://github.com/MorrisMalone/tic-tac-toe) - [View in Browser](https://morrismalone.github.io/tic-tac-toe/)
 - [brxck's solution](https://github.com/brxck/tic-tac-toe-js) - [View in Browser](http://brockmcelroy.com/tic-tac-toe-js/)
