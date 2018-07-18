@@ -390,7 +390,7 @@ This command should take a lot less time than the last one.
 
 #### Step 2.2: Setting up the ground-work
 
-Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like! If you are on WLS, be sure to `cd` into your `Projects` folder you created in the prerequisites for Windows 10.
+Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like! If you are on WSL, be sure to `cd` into your `Projects` folder you created in the prerequisites for Windows 10.
 
 ~~~bash
 mkdir odin_on_rails
