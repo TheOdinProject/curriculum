@@ -222,6 +222,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Agon Idrizi's Solution](https://github.com/AgonIdrizi/TicTacToe)
 * [JZaitz's Solution](https://github.com/JZaitz/TicTacToe)
 * [mojotron's Solution](https://github.com/mojotron/tic-tac-toe)
+* [Malaika(Mic) Solution](https://github.com/malaikaMI/Tic_Tac_toe/blob/master/tic.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Tic-Tac-Toe/blob/master/tictactoe.rb)
 
 ### Project 2: Mastermind
