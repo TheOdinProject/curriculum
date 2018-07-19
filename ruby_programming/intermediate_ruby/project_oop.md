@@ -222,6 +222,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Agon Idrizi's Solution](https://github.com/AgonIdrizi/TicTacToe)
 * [JZaitz's Solution](https://github.com/JZaitz/TicTacToe)
 * [mojotron's Solution](https://github.com/mojotron/tic-tac-toe)
+* [Malaika(Mic) Solution](https://github.com/malaikaMI/Tic_Tac_toe/blob/master/tic.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Tic-Tac-Toe/blob/master/tictactoe.rb)
 
 ### Project 2: Mastermind
@@ -235,7 +236,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 <div class="lesson-content__panel" markdown="1">
   1. Think about how you would set this problem up!
   2. Build the game assuming the computer randomly selects the secret colors and the human player must guess them.  Remember that you need to give the proper feedback on how good the guess was each turn!
-  3. Now refactor your code to allow the human player to choose whether she wants to be the creator of the secret code or the guesser.
+  3. Now refactor your code to allow the human player to choose whether he/she wants to be the creator of the secret code or the guesser.
   4. Build it out so that the computer will guess if you decide to choose your own secret colors.  Start by having the computer guess randomly (but keeping the ones that match exactly).
   5. Next, add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.  Feel free to make the AI even smarter.
   5. Post your solution below!
