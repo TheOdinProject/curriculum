@@ -1,6 +1,6 @@
 ### Introduction
 
-Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely! It is best to copy and paste the commands to avoid typos. You will get plenty of experience typing commands later, it is vital these are correct to avoid un-nessessary issues. Most problems arise from people typing things incorrectly or not reading everything. *Don't be one of those people.*
+Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely! It is best to copy and paste the commands to avoid typos. You will get plenty of experience typing commands later, it is vital these are correct to avoid unnecessary issues. Most problems arise from people typing things incorrectly or not reading everything. *Don't be one of those people.*
 
 <details markdown="block">
 <summary class="dropDown-header">Linux / Linux Virtual Machine / WSL
@@ -164,13 +164,13 @@ If this doesn't show up, ask for <blink> </blink > help in [the gitter chat](htt
 
 ### Step 1: Install Packages and Libraries
 
-Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs
+Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs.
 
-#### Step 1.0: Opening the Terminal
+#### Step 1.0: Open up your Terminal
 
-* From your Desktop click on "Go" > "Applications"
+* In your Applications folder find "Utilities" and double click on "Terminal".
 
-* Find "Utilities" and double click on "Terminal"
+* Alternatively use Spotlight (`cmd+SPC`) or Launchpad and type "Terminal".
 
 The rest of the installations will take place inside of this terminal windnow.
 
@@ -188,7 +188,7 @@ Now that XCode is finished installing, we can continue. The next program we need
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ~~~
 
-You will be prompted to enter your password. When entering your password it may not look like anything is being entered, but rest assured your password is being entered. Once you are done entering your password, press enter.
+You will be prompted to enter your password. When typing your password you may not get any visual feedback, but rest assured your password _is_ being entered. Once you are done typing your password, press enter.
 
 Congratulations! You've installed the prerequisites! When you're ready let's move on and install Git.
 
@@ -367,7 +367,7 @@ Now go back to the **github.com** browser window we opened earlier, and paste th
 
 ### Step 2: Creating your first Ruby on Rails web application
 
-Don't worry if you do not totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going.
+Don't worry if you do not totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
 
 #### Step 2.1: Installing Rails and Bundler
 
