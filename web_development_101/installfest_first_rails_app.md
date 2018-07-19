@@ -172,7 +172,7 @@ Before we can install Ruby, we need to install some base packages. We will use t
 
 * Alternatively use Spotlight (`cmd+SPC`) or Launchpad and type "Terminal".
 
-The rest of the installations will take place inside of this terminal windnow.
+The rest of the installations will take place inside of this terminal window.
 
 #### Step 1.1: Installing xcode
 
