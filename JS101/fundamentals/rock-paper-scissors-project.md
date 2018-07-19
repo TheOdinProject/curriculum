@@ -251,3 +251,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MrObele's Solution](https://github.com/MrObele/rock-paper-scissors)
 - [Simon Tharby's UI solution](https://github.com/jinjagit/RockPaperScissors) - [View in Browser](https://jinjagit.github.io/RockPaperScissors/)
 - [Adrian Thinnyun's Solution](https://github.com/athinnyun/rock-paper-scissors)
+- [Ramon15749's Solution](https://github.com/ramon15749/rock-paper-scissor) - [View in Browser](https://ramon15749.github.io/rock-paper-scissor/)
