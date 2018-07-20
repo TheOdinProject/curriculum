@@ -56,7 +56,7 @@ sudo apt-get install git
 
 #### Step 1.2.1: Install the Rest of the Required Packages:
 
-Run this command in the terminal, this command will download the required packages for building Ruby. **Your ruby install will fail if you miss this command**.
+Run this command in the terminal, this command will download the required packages for building Ruby. **Your Ruby install will fail if you miss this command**.
 
 ~~~bash
 sudo apt-get install curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
@@ -70,7 +70,7 @@ Now we are ready to install Ruby. To do so we are going to use a tool called `rb
 
 Before continuing, run `rvm -v`, if it says `Command 'rvm' not found...` You are good to go. 
 
-Otherwise you have rvm already installed and you can update ruby using [this](https://rvm.io/rvm/basics#installing-rubies) documentation. Or, the preferred option, remove rvm and install rbenv. To do that, simply run `rvm implode`, then continue with this guide.
+Otherwise you have rvm already installed and you can update Ruby using [this](https://rvm.io/rvm/basics#installing-rubies) documentation. Or, the preferred option, remove rvm and install rbenv. To do that, simply run `rvm implode`, then continue with this guide.
 
 #### Step 2.1: Installing Rbenv
 
@@ -221,7 +221,7 @@ The next program we need to install is Ruby.  Ruby is a scripting language very 
 
 #### Step 3.1: Installing rbenv
 
-To make our lives easier in the long run, we will install a Ruby version manager to install ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
+To make our lives easier in the long run, we will install a Ruby version manager to install Ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
 
 To install rbenv, run the following in your terminal:
 
@@ -250,7 +250,7 @@ and then
 
 ##### Step 3.3: Installing Ruby
 
-We can now (finally) install ruby!  We recommend using the latest version, which currently is 2.5:
+We can now (finally) install Ruby!  We recommend using the latest version, which currently is 2.5:
 
 ~~~bash
 rbenv install 2.5.1 --verbose
@@ -379,7 +379,7 @@ gem install rails
 (This command might take a while to run. Also, if you are on WSL, you may see a warning: `Insecure world writeable dir /home/...` This is normal. It is a side effect of the interoperability of Windows and Linux. You could get rid of the warning by changing folder permissions, but in so doing, you could break the communication between your Windows and Linux systems)
 
 
-After installing rails, we need to install `bundler`, this gem (ruby package), is used to provide a consistent environment for ruby applications. It handles the dependencies gracefully.
+After installing rails, we need to install `bundler`, this gem (Ruby package), is used to provide a consistent environment for Ruby applications. It also handles the dependencies gracefully.
 
 ~~~bash
 gem install bundler
