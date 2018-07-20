@@ -56,8 +56,7 @@ sudo apt-get install git
 
 #### Step 1.2.1: Install the Rest of the Required Packages:
 
-Run this command in the terminal, this will download and install the rest of the required packages.
-
+Run this command in the terminal, this command will download the required packages for building Ruby. **Your ruby install will fail if you miss this command**.
 
 ~~~bash
 sudo apt-get install curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
