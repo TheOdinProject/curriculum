@@ -253,3 +253,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Adrian Thinnyun's Solution](https://github.com/athinnyun/rock-paper-scissors)
 - [Ramon15749's Solution](https://github.com/ramon15749/rock-paper-scissor) - [View in Browser](https://ramon15749.github.io/rock-paper-scissor/)
 - [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/rock-paper-scissors)
+- [Brendaneus' Solution](https://github.com/Brendaneus/Rock-Paper-Scissors) - [View in Browser](https://brendaneus.github.io/Rock-Paper-Scissors)
