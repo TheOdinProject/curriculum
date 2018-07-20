@@ -601,7 +601,6 @@ Next we need to edit the `routes.rb` file. To do this open `config/routes.rb`, a
 Rails.application.routes.draw do
   root 'cars#index'
   resources :cars
-  # For details on the DSL available within this file, see http://guides.rubyon$
 end
 ~~~
 
