@@ -595,13 +595,16 @@ The next thing we need to edit is the `routes.rb` file, and set our root route. 
 
 First make sure we are in the root directory of our application, type `ls` and verify you see `Gemfile` in the terminal output.
 
-Next we need to edit the `routes.rb` file. To do this open `config/routes.rb`, find the line that says: `Rails.application.routes.draw do`, and place:
+Next we need to edit the `routes.rb` file. To do this open `config/routes.rb`, and make it match the example below:
 
 ~~~ruby
-root 'cars#index'
+Rails.application.routes.draw do
+  root 'cars#index'
+  resources :cars
+end
 ~~~
 
-after this line, and save the file.
+and save the file.
 
 ##### Step 4.6: Adding Changes to git
 
