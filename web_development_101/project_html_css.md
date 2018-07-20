@@ -1551,6 +1551,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Karen Justo's solution (Easy)](https://github.com/jrkaren9/google-homepage) - [View in Browser](https://jrkaren9.github.io/google-homepage/)
 * [Anwaraiden's Solution (Easy method)](https://github.com/anwaraiden/google-homepage) - [View in Browser](https://anwaraiden.github.io/google-homepage/)
 * [Adrian Thinnyun's solution (Easy)](https://github.com/athinnyun/google-homepage) - [View in Browser](https://athinnyun.github.io/google-homepage/)
+* [dmarkiewicz's solution (Easy)](https://github.com/dmarkiewicz/the-odin-project/tree/master/google-search-copy)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
