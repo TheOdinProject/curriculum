@@ -69,7 +69,7 @@ This will, as the command you just typed so conveniently pointed out, enable the
 
 #### Step 2.1: Download Your Distribution of Choice
 
-You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1 and run:
+You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1,(be sure to run as an administrator again), and run:
 
 ~~~
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -UseBasicParsing
