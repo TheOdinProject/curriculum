@@ -325,8 +325,8 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Project: Frameworks",
-  title_url: "Project: Frameworks".parameterize,
+  title: "Frameworks",
+  title_url: "Frameworks".parameterize,
   description: "Project: Frameworks",
   position: lesson_position,
   section_id: section.id,
