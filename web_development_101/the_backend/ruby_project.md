@@ -29,6 +29,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 * [Shrouk Abozeid's solutions](https://github.com/ShroukAbozeid/learn_ruby)
+* [Simon Tharby's solutions](https://github.com/jinjagit/learn_ruby)
 * [prw001's solutions](https://github.com/prw001/learn_ruby)
 * [Ajani Stewart's solutions](https://github.com/AjaniStewart/learn_ruby-1)
 * [ebosi's solutions](https://github.com/EBoisseauSierra/learn_ruby)
