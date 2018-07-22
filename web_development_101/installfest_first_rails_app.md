@@ -302,7 +302,7 @@ git config --get user.name
 git config --get user.email
 ~~~
 
-#### Step 1.2: Create a GitHub account
+#### Step 1.2: Create a GitHub account or Sign in
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but to keep things in line, it might be a good idea to use the same one.
 
