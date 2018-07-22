@@ -33,6 +33,7 @@ Keep track of how long it takes between when the photo is first loaded and when 
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/js-rails/project_rails_backend.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [brxck's solution](https://github.com/brxck/odin-waldo) - [View in browser](https://pure-springs-85665.herokuapp.com/)
 * [theghall's solution - API](https://github.com/theghall/odin-phototag-api) - [APP](https://github.com/theghall/odin-phototag-app) - [View in browser](https://theghall.github.io/odin-phototag-app/)
 * [Phil's solution](https://github.com/pip36/wheres_wally) - [View in browser](https://floating-everglades-97160.herokuapp.com/)
 * [Jack Wong's solution](https://github.com/iamjackslayer/odin-waldo) - [View in browser](https://afternoon-mesa-65847.herokuapp.com/)
