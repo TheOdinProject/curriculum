@@ -71,6 +71,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [DV's solution](https://github.com/dvislearning/odin-nyt-article) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-nyt-article/blob/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/nyt-project) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/nyt-project/index.html)
 * [Mike Smith's solution](https://github.com/MikeSS281986/New-York-Times-Snippet) - [View in browser](https://mikess281986.github.io/New-York-Times-Snippet/)
+* [Elena's solution](https://github.com/elena-sam/nytimes-clone) - [View in browser](elena-sam.github.io/nytimes-clone)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

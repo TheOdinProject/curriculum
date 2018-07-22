@@ -1,6 +1,6 @@
 ### Introduction
 
-Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely!
+Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely! It is best to copy and paste the commands to avoid typos. You will get plenty of experience typing commands later, it is vital these are correct to avoid unnecessary issues. Most problems arise from people typing things incorrectly or not reading everything. *Don't be one of those people.*
 
 <details markdown="block">
 <summary class="dropDown-header">Linux / Linux Virtual Machine / WSL
@@ -56,8 +56,7 @@ sudo apt-get install git
 
 #### Step 1.2.1: Install the Rest of the Required Packages:
 
-Run this command in the terminal, this will download and install the rest of the required packages.
-
+Run this command in the terminal, this command will download the required packages for building Ruby. **Your Ruby install will fail if you miss this command**.
 
 ~~~bash
 sudo apt-get install curl nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
@@ -71,7 +70,7 @@ Now we are ready to install Ruby. To do so we are going to use a tool called `rb
 
 Before continuing, run `rvm -v`, if it says `Command 'rvm' not found...` You are good to go. 
 
-Otherwise you have rvm already installed and you can update ruby using [this](https://rvm.io/rvm/basics#installing-rubies) documentation. Or, the preferred option, remove rvm and install rbenv. To do that, simply run `rvm implode`, then continue with this guide.
+Otherwise you have rvm already installed and you can update Ruby using [this](https://rvm.io/rvm/basics#installing-rubies) documentation. Or, the preferred option, remove rvm and install rbenv. To do that, simply run `rvm implode`, then continue with this guide.
 
 #### Step 2.1: Installing Rbenv
 
@@ -164,15 +163,15 @@ If this doesn't show up, ask for <blink> </blink > help in [the gitter chat](htt
 
 ### Step 1: Install Packages and Libraries
 
-Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs
+Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs.
 
-#### Step 1.0: Opening the Terminal
+#### Step 1.0: Open up your Terminal
 
-* From your Desktop click on "Go" > "Applications"
+* In your Applications folder find "Utilities" and double click on "Terminal".
 
-* Find "Utilities" and double click on "Terminal"
+* Alternatively use Spotlight (`cmd+SPC`) or Launchpad and type "Terminal".
 
-The rest of the installations will take place inside of this terminal windnow.
+The rest of the installations will take place inside of this terminal window.
 
 #### Step 1.1: Installing xcode
 
@@ -188,7 +187,7 @@ Now that XCode is finished installing, we can continue. The next program we need
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ~~~
 
-You will be prompted to enter your password. When entering your password it may not look like anything is being entered, but rest assured your password is being entered. Once you are done entering your password, press enter.
+You will be prompted to enter your password. When typing your password you may not get any visual feedback, but rest assured your password _is_ being entered. Once you are done typing your password, press enter.
 
 Congratulations! You've installed the prerequisites! When you're ready let's move on and install Git.
 
@@ -222,7 +221,7 @@ The next program we need to install is Ruby.  Ruby is a scripting language very 
 
 #### Step 3.1: Installing rbenv
 
-To make our lives easier in the long run, we will install a Ruby version manager to install ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
+To make our lives easier in the long run, we will install a Ruby version manager to install Ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
 
 To install rbenv, run the following in your terminal:
 
@@ -251,7 +250,7 @@ and then
 
 ##### Step 3.3: Installing Ruby
 
-We can now (finally) install ruby!  We recommend using the latest version, which currently is 2.5:
+We can now (finally) install Ruby!  We recommend using the latest version, which currently is 2.5:
 
 ~~~bash
 rbenv install 2.5.1 --verbose
@@ -367,7 +366,7 @@ Now go back to the **github.com** browser window we opened earlier, and paste th
 
 ### Step 2: Creating your first Ruby on Rails web application
 
-Don't worry if you do not totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going.
+Don't worry if you do not totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
 
 #### Step 2.1: Installing Rails and Bundler
 
@@ -380,7 +379,7 @@ gem install rails
 (This command might take a while to run. Also, if you are on WSL, you may see a warning: `Insecure world writeable dir /home/...` This is normal. It is a side effect of the interoperability of Windows and Linux. You could get rid of the warning by changing folder permissions, but in so doing, you could break the communication between your Windows and Linux systems)
 
 
-After installing rails, we need to install `bundler`, this gem (ruby package), is used to provide a consistent environment for ruby applications. It handles the dependencies gracefully.
+After installing rails, we need to install `bundler`, this gem (Ruby package), is used to provide a consistent environment for Ruby applications. It also handles the dependencies gracefully.
 
 ~~~bash
 gem install bundler
@@ -595,13 +594,16 @@ The next thing we need to edit is the `routes.rb` file, and set our root route. 
 
 First make sure we are in the root directory of our application, type `ls` and verify you see `Gemfile` in the terminal output.
 
-Next we need to edit the `routes.rb` file. To do this open `config/routes.rb`, find the line that says: `Rails.application.routes.draw do`, and place:
+Next we need to edit the `routes.rb` file. To do this open `config/routes.rb`, and make it match the example below:
 
 ~~~ruby
-root 'cars#index'
+Rails.application.routes.draw do
+  root 'cars#index'
+  resources :cars
+end
 ~~~
 
-after this line, and save the file.
+and save the file.
 
 ##### Step 4.6: Adding Changes to git
 
