@@ -524,7 +524,7 @@ curl https://cli-assets.heroku.com/install.sh | sh
 Then running `heroku version` should result with something similar to:`heroku/7.5.1 linux-x64 node-v10.5.0`
 
 
-#### Step 4.3: Adding you SSH key to Heroku
+#### Step 4.3: Adding your SSH key to Heroku
 
 This lets Heroku know what machine the commands are coming from, for the same reason as GitHub.
 
