@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [thatodinguy's solution (Easy)](https://github.com/thatgithubguy89/google-homepage) - [View in Browser](https://cdn.rawgit.com/thatgithubguy89/google-homepage/79ddb504/index.html)
-* [psaunby31's solution (Easy)] (https://github.com/psaunby31/google-homepage) - [View in Browser] (https://psaunby31.github.io/google-homepage/)
+* [psaunby31's solution (Easy)](https://github.com/psaunby31/google-homepage) - [View in Browser](https://psaunby31.github.io/google-homepage/)
 * [mcblast's solution (Easy)](https://github.com/mcblast/google-homepage) - [View in Browser](https://mcblast.github.io/google-homepage/)
 - [prw001's solution (Easy)](https://github.com/prw001/google_homepage)[(Difficult)](https://github.com/prw001/Google-Search-Page-Recreation)
 * [Alonso Gonzalez's solution (Easy)](https://github.com/Alonsoserolf/google-homepage) - [View in Browser](https://Alonsoserolf.github.io/google-homepage/)
