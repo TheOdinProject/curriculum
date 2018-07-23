@@ -476,21 +476,15 @@ git commit -m "initial commit"
 
 #### Step 3.3: Hooking our local repository to the remote repository
 
-We need to tell git where to send the files, to do this we will need to create a remote repository and take the address it creates, and add it to git.
+At this point we have our files on our own computer and can track changes made to our file over time. But what if we want to share with another computer or have multiple people work on our project with us? For this we'll need a GitHub repository.
 
-First open [GitHub](https://github.com/) in the browser and sign in if you aren't already. Next click the `+` symbol next to your profile picture in the upper right and click `New Repostiory`. Then give the repository a name, and click the `Create Repository` button below the form. You can leave all the other options alone.
+First we'll open [GitHub.com](https://github.com/) in the browser and sign in (if you aren't already). Next, look for your profile picture in the upper right hand corner, click the + symbol next to it, and create a `new repository`. Give the repository a name (Maybe `my_first_rails_app`?), then click `Create Repository` below the form. For your first project you shouldn't need to mess with any of the other options, but they're good to read over for future projects!
 
-GitHub should have taken you to a page that has some commands listed.
+On your `Create Repository` page you'll see various commands listed. We know that we want to use SSH to connect to GitHub so make sure `SSH` has been selected. Look for the section that says "... or push an existing repository from the command line" and click the icon to the right of it to copy the text to your clipboard. Then paste it into the terminal we have open (Using CTRL + SHIFT + V in Linux or CTRL + V in WSL).
 
-First make sure the button that says `ssh` has been clicked.
+The terminal will start it's work, pausing to verify that you're okay connection to GitHub ('The authenticity of host 'github.com'...' will be displayed and you can safely click yes). After the terminal finishes, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app." If you do not see this in on your GitHub repository, ask for help in the [the Gitter chat room](https://gitter.im/TheOdinProject)
 
-We are going to follow the section that says `...or push an existing repository from the command line`. Click the icon to the right of that section and it will copy the commands to your clipboard. Then paste them into the terminal we have open. (`ctrl + shift + v` will paste into a terminal in Linux, `ctrl + v` in WSL. Right clicking works as well).
-
-You may see a message that says something along the lines of `The authenticity of host 'github.com (192.30.253.112)' can't be established`, you can safely type `yes` and press `enter` into the console.
-
-After the commands have been run, you should refresh the browser page and you should see a lot of files, starting with a folder called `app`. If you do not see this, ask for help in the gitter chat room.
-
-This marks the start of your Odin Journey! You can look back and find this application to see how you have progressed and changed over time.
+This marks the start of your Odin Journey! Later on you'll be able to look back at this repository and marvel over how far you've come!
 
 #### Step 4: Deployment of a Rails Application
 
@@ -657,8 +651,10 @@ Now It's time to see your app on the web! To quickly open it, type:
 heroku open
 ~~~
 
-and play around with it! If nothing shows up, come ask for help in the gitter chat room.
+and play around with it! 
+
+NOTE: if you are using WLS, `heroku open` may not open automatically, but it should provide you a link to copy and paste into your browser. If nothing shows up, come ask for help in [the Gitter chat room](https://gitter.im/TheOdinProject)
 
 ### Step 5: Let us know how it went!
 
-You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the Gitter chat room, or on the Odin Project forms. You can always find these links in the top right corner, under community.
+You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the [the Gitter chat room](https://gitter.im/TheOdinProject), or on the Odin Project forms. You can always find these links in the top right corner, under community.
