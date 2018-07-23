@@ -59,7 +59,7 @@ First you have to open PowerShell as an administrator. One way to do this is to 
 
 That way is just fine, but I like the super secret squirrel way to do it: press the key combination, `cmd+x` (cmd is the button on the bottom row to the left with the windows logo on it.) This will open a nice bare-bones menu where you can select a lot of useful tools skipping all the fancy bells and whistles. From there just open `Windows PowerShell (Admin)`. Once you have PowerShell up and running, type at the command prompt:
 
-~~~
+~~~bash
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ~~~
 
@@ -71,7 +71,7 @@ This will, as the command you just typed so conveniently pointed out, enable the
 
 You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1,(be sure to run as an administrator again), and run:
 
-~~~
+~~~bash
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -UseBasicParsing
 ~~~
 
@@ -79,7 +79,7 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -Use
 
 Once we have the archive downloaded, just unzip it to the location of your choice. Once again, you can absolutely just click and unzip from windows explorer, but since we are elite haxors, and PowerShell is still open, let's keep on using it:
 
-~~~
+~~~bash
 Expand-Archive ~/Ubuntu.zip C:\Ubuntu
 ~~~
 
@@ -87,7 +87,7 @@ Expand-Archive ~/Ubuntu.zip C:\Ubuntu
 
 Now we just run `Ubuntu.exe` which will be inside `C:\Ubuntu` so either click there like a pleb or type into PowerShell:
 
-~~~
+~~~bash
 C:\Ubuntu\Ubuntu.exe
 ~~~
 
@@ -106,7 +106,7 @@ If you want to use your fancy windows editors, you will have to put your project
 You can choose to put your project files anywhere you want, but we're going to assume you are cool and put a projects folder in your documents folder.
 From inside ubuntu type:
 
-~~~
+~~~bash
 mkdir /mnt/c/Users/<your windows user name>/Documents/Projects
 ~~~
 
@@ -118,7 +118,7 @@ Next, we're going to establish the link. Essentially it's like an alias such tha
 
 So, at your bash command prompt type:
 
-~~~
+~~~bash
 ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects
 ~~~
 
