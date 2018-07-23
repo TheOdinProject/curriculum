@@ -70,6 +70,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [DV's solution](https://github.com/dvislearning/odin-apple-clone) - [View in browser](https://htmlpreview.github.io/?https://github.com/dvislearning/odin-apple-clone/blob/master/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/apple-old-layout) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/apple-old-layout/index.html)
 * [Mike Smith's solution](https://github.com/MikeSS281986/Old-School-Apple-Page) - [View in browser](https://mikess281986.github.io/Old-School-Apple-Page/)
+* [Elena's solution](https://github.com/elena-sam/css-backgrounds) - [View in browser](https://elena-sam.github.io/css-backgrounds/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
