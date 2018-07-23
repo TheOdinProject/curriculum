@@ -1,5 +1,5 @@
 ### Introduction
-Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
+Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, clidk on the dropdown of the method you would like to use below.
 
 <details markdown="block">
 <summary class="dropDown-header">Linux Dual Boot
