@@ -94,7 +94,10 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/edit/master/web_development_101/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-
+* [thatodinguy's solution (Easy)](https://github.com/thatgithubguy89/google-homepage) - [View in Browser](https://cdn.rawgit.com/thatgithubguy89/google-homepage/79ddb504/index.html)
+* [psaunby31's solution (Easy)](https://github.com/psaunby31/google-homepage) - [View in Browser](https://psaunby31.github.io/google-homepage/)
+* [mcblast's solution (Easy)](https://github.com/mcblast/google-homepage) - [View in Browser](https://mcblast.github.io/google-homepage/)
+- [prw001's solution (Easy)](https://github.com/prw001/google_homepage)[(Difficult)](https://github.com/prw001/Google-Search-Page-Recreation)
 * [Alonso Gonzalez's solution (Easy)](https://github.com/Alonsoserolf/google-homepage) - [View in Browser](https://Alonsoserolf.github.io/google-homepage/)
 * [Chris Wegscheid's solution (Easy)](https://github.com/cwegscheid08/google-homepage) - [View in Browser](https://cwegscheid08.github.io/google-homepage/)
 * [Ian David's solution (Easy)](https://github.com/ian-david/google-homepage) - [View in Browser](https://cdn.rawgit.com/ian-david/google-homepage/d2d2eac8/index.html)
@@ -1545,7 +1548,17 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [multi-potential's solution (Difficult)](https://github.com/multi-potential/google-homepage) - [View easy in browser](https://multi-potential.github.io/google-homepage/), [View difficult in browser](https://multi-potential.github.io/google-homepage/search.html)
 * [Ode Akugbe's Solution (Easy)](https://github.com/Blaize3/google-homepage) - [View in Browser](https://blaize3.github.io/google-homepage/index.html)
 * [jlv34's Solution (Easy)](https://github.com/jlv34/google-homepage) - [View in Browser](https://jlv34.github.io/google-homepage/)
-
+* [ramon15749's Solution (Easy)](https://github.com/ramon15749/google-homepage) - [View in Browser](https://ramon15749.github.io/google-homepage/)
+* [Mrobele's Solution (Easy)](https://github.com/MrObele/google-homepage) - [View in Browser](https://mrobele.github.io/google-homepage/)
+* [Karen Justo's solution (Easy)](https://github.com/jrkaren9/google-homepage) - [View in Browser](https://jrkaren9.github.io/google-homepage/)
+* [Anwaraiden's Solution (Easy method)](https://github.com/anwaraiden/google-homepage) - [View in Browser](https://anwaraiden.github.io/google-homepage/)
+* [Adrian Thinnyun's solution (Easy)](https://github.com/athinnyun/google-homepage) - [View in Browser](https://athinnyun.github.io/google-homepage/)
+* [dmarkiewicz's solution (Easy)](https://github.com/dmarkiewicz/the-odin-project/tree/master/google-search-copy)
+* [PedroCoelho's solution (Easy)](https://github.com/pacoelho95/google-homepage) - [View in Browser](https://pacoelho95.github.io/google-homepage/)
+* [emilledigital's solution  (Easy version)](https://github.com/egxdigital/google_homepage) - [View in Browser](https://egxdigital.github.io/google_homepage/)
+* [Wesley Wang's Solution (Easy)](https://github.com/wesleymellon/google-homepage) - [View in Browser](https://wesleymellon.github.io/google-homepage/)
+* [Mohamed Elattar solution (Easy)](https://github.com/mohamed-elattar/google-homepage) - [View in Browser](https://mohamed-elattar.github.io/google-homepage/)
+* [Hugo Linden's solution (Easy)](https://github.com/isherka/google_homepage) - [View in Browser](https://isherka.github.io/google_homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

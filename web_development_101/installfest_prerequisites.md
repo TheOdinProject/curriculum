@@ -1,5 +1,5 @@
 ### Introduction
-Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, select the method you would like to use below.
+Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, clidk on the dropdown of the method you would like to use below.
 
 <details markdown="block">
 <summary class="dropDown-header">Linux Dual Boot
@@ -7,7 +7,7 @@ Before we can install ruby and get ready to launch a rails application, we have 
 
 *Read this whole section before continuing*
 
-Dual-booting provides you with two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck: Talk to us in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject) at any time. It helps to have a phone or another computer around if you get stuck. This process almost always goes smoothly, so don't worry too much :) .
+Dual-booting provides you two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck: Talk to us in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject) at any time. It helps to have a phone or another computer around if you get stuck. This process almost always goes smoothly, so don't worry too much :) .
 
 ### Step 1: Downloading Linux
 
@@ -59,7 +59,7 @@ First you have to open PowerShell as an administrator. One way to do this is to 
 
 That way is just fine, but I like the super secret squirrel way to do it: press the key combination, `cmd+x` (cmd is the button on the bottom row to the left with the windows logo on it.) This will open a nice bare-bones menu where you can select a lot of useful tools skipping all the fancy bells and whistles. From there just open `Windows PowerShell (Admin)`. Once you have PowerShell up and running, type at the command prompt:
 
-~~~
+~~~bash
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ~~~
 
@@ -69,9 +69,9 @@ This will, as the command you just typed so conveniently pointed out, enable the
 
 #### Step 2.1: Download Your Distribution of Choice
 
-You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1 and run:
+You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1,(be sure to run as an administrator again), and run:
 
-~~~
+~~~bash
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -UseBasicParsing
 ~~~
 
@@ -79,7 +79,7 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -Use
 
 Once we have the archive downloaded, just unzip it to the location of your choice. Once again, you can absolutely just click and unzip from windows explorer, but since we are elite haxors, and PowerShell is still open, let's keep on using it:
 
-~~~
+~~~bash
 Expand-Archive ~/Ubuntu.zip C:\Ubuntu
 ~~~
 
@@ -87,7 +87,7 @@ Expand-Archive ~/Ubuntu.zip C:\Ubuntu
 
 Now we just run `Ubuntu.exe` which will be inside `C:\Ubuntu` so either click there like a pleb or type into PowerShell:
 
-~~~
+~~~bash
 C:\Ubuntu\Ubuntu.exe
 ~~~
 
@@ -99,14 +99,14 @@ Okay this is really important: **If you try to edit files inside of the Linux fi
 
 When Ubuntu was set up, your windows file system was mapped to `/mnt` in Ubuntu. This means that your C drives is actually `/mnt/c` inside wsl. Anything saved in `/mnt/c` is available to windows and linux and won't cause any problems.
 
-If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. I'm going to show you how to set up a symbolic link to make things really easy on you.
+If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. we're going to show you how to set up a symbolic link to make things really easy on you.
 
 #### Step 3.1: Create Directory for your Projects
 
-You can choose to put your project files anywhere you want, but I'm going to assume you are cool like me and put a projects folder in your documents folder.
+You can choose to put your project files anywhere you want, but we're going to assume you are cool and put a projects folder in your documents folder.
 From inside ubuntu type:
 
-~~~
+~~~bash
 mkdir /mnt/c/Users/<your windows user name>/Documents/Projects
 ~~~
 
@@ -118,7 +118,7 @@ Next, we're going to establish the link. Essentially it's like an alias such tha
 
 So, at your bash command prompt type:
 
-~~~
+~~~bash
 ln -s /mnt/c/Users/<your windows user name>/<folder you want to store your projects in> ~/Projects
 ~~~
 
@@ -168,7 +168,7 @@ You have read through the introduction part and you feel like a VM is your best 
 #### Step 1.1.1: Downloading Virtual Box
 
 
-[Click here](https://download.virtualbox.org/virtualbox/5.2.12/VirtualBox-5.2.12-122591-Win.exe) to download VirtualBox (64 bit) for Windows.
+[Click here](https://www.virtualbox.org/wiki/Downloads) and download VirtualBox for Windows hosts.
 
 #### Step 1.1.2: Linux download
 
@@ -209,7 +209,7 @@ The next thing to do is Install Ubuntu. The process is very simple and most of t
 
 You can find their official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) in case you need it.
 
-### Step 3: Installing Guest Additions and enabling them (Optional)
+### Step 3: Installing Guest Additions and enabling them
 
  Your regular operating system (Windows in this case), the one that is booted directly by pressing that big button on your computer is called the **Host** and all other operating systems that are run inside your VM are **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. They add a lot of functionality to the Guest OS like 'Drag n Drop' from one OS to the other, custom screen sizes for the Guest OS (including fullscreen), Shared folders and so on.
 
