@@ -249,7 +249,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Serge Zdorovko Solution](https://github.com/horohoro1106/OdinsProject/tree/master/Web%20101/Project%20Rock%20Paper%20Scissors)
 - [Tommy's Solution](https://github.com/hoangtommy/roshambo) - [View in Browser](https://hoangtommy.github.io/roshambo/)
 - [Vyhn's Solution](https://github.com/Vyhnn/Rock-Paper-Scissors) - [View in Browser](https://vyhnn.github.io/Rock-Paper-Scissors/)
-- [MrObele's Solution](https://github.com/MrObele/rock-paper-scissors)
+- [MrObele's Solution](https://github.com/MrObele/rock-paper-scissors) - [View in Browser]( https://mrobele.github.io/rock-paper-scissors/)
 - [Simon Tharby's UI solution](https://github.com/jinjagit/RockPaperScissors) - [View in Browser](https://jinjagit.github.io/RockPaperScissors/)
 - [Adrian Thinnyun's Solution](https://github.com/athinnyun/rock-paper-scissors)
 - [Ramon15749's Solution](https://github.com/ramon15749/rock-paper-scissor) - [View in Browser](https://ramon15749.github.io/rock-paper-scissor/)
