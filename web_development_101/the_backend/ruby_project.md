@@ -431,6 +431,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/learn_ruby)
 * [Akash's Solution](https://github.com/Akash-sopho/learn_ruby)
 * [John Piatras' Solution](https://github.com/JohnPiatras/learn_ruby)
+* [Amy Smith's Solution](https://github.com/amicloud/the-odin-project/tree/master/learn-ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
