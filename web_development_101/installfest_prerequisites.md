@@ -209,7 +209,7 @@ The next thing to do is Install Ubuntu. The process is very simple and most of t
 
 You can find their official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) in case you need it.
 
-### Step 3: Installing Guest Additions and enabling them (Optional)
+### Step 3: Installing Guest Additions and enabling them
 
  Your regular operating system (Windows in this case), the one that is booted directly by pressing that big button on your computer is called the **Host** and all other operating systems that are run inside your VM are **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. They add a lot of functionality to the Guest OS like 'Drag n Drop' from one OS to the other, custom screen sizes for the Guest OS (including fullscreen), Shared folders and so on.
 
