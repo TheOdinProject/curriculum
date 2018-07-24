@@ -132,3 +132,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [spankie's Solution](https://spankie1337.github.io/js-calculator/) - [View in Browser](https://spankie1337.github.io/js-calculator/)
 - [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/calculator) - [View in Browser](https://rudiboshoff.github.io/calculator/)
 - [thesofakillers' Solution](https://github.com/thesofakillers/calculator) - [View in Browser](https://thesofakillers.github.io/calculator/)
+- [Amy Smith's Solution](https://github.com/amicloud/the-odin-project/tree/master/calculator) - [View in Browser](https://amicloud.github.io/the-odin-project/calculator/calculator.html)
