@@ -117,8 +117,10 @@
 
   details .dropDown-header {
     font-size: 1.5em;
+    margin-bottom: 1em;
     font-weight: bold;
     color: $text-primary;
+    cursor: pointer;
   }
 }
 
