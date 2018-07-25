@@ -256,3 +256,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/rock-paper-scissors)
 - [Brendaneus' Solution](https://github.com/Brendaneus/Rock-Paper-Scissors) - [View in Browser](https://brendaneus.github.io/Rock-Paper-Scissors)
 - [Kern's solution](https://github.com/Kelel1/rockPaperScissors)
+- [Amy Smith's solution](https://github.com/amicloud/the-odin-project/tree/master/rockpaperscissors) - [View in Browser](https://amicloud.github.io/the-odin-project/rockpaperscissors/rockpaperscissors.html)
+- [John's Solution](https://github.com/johnmeade-webdev/rock_paper_scissors)
