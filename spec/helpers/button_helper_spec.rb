@@ -13,7 +13,7 @@ RSpec.describe ButtonHelper do
 
   describe '#gitter_button' do
     let(:gitter_button) {
-      '<a class="button button--secondary" target="_blank" href="https://gitter.im/TheOdinProject/theodinproject">Open Gitter</a>'
+      '<a class="button button--secondary" target="_blank" rel="noreferrer" href="https://gitter.im/TheOdinProject/theodinproject">Open Gitter</a>'
     }
 
     before do

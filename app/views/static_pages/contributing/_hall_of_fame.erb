@@ -119,7 +119,7 @@
     <div class="row">
       <% members.each do |member| %>
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 hall-of-fame__member">
-          <%= link_to(member[:github_url], target: "_blank") do %>
+          <%= link_to(member[:github_url], target: "_blank", rel: "noreferrer") do %>
             <%= image_tag(member[:image], alt: member[:name], class: 'img-fluid') %>
           <% end %>
         </div>
@@ -128,7 +128,7 @@
   </div>
 
   <div class="hall-of-fame__view-all">
-    <%= link_to 'View All Contributors', github_link('theodinproject/graphs/contributors'), class: 'camel-link mb-5', target: '_blank'%>
+    <%= link_to 'View All Contributors', github_link('theodinproject/graphs/contributors'), class: 'camel-link mb-5', target: '_blank', rel: 'noreferrer' %>
   </div>
 
   <%= render 'shared/bottom_cta',
