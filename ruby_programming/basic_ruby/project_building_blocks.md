@@ -717,6 +717,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Substrings.rb)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/sub-string/blob/master/sub-string.rb)
 * [brndntng's Solution](https://github.com/brndntng/substrings)
 * [jmurinello's Solution](https://github.com/jmurinello/ruby_course/blob/master/building_blocks/substrings.rb)
