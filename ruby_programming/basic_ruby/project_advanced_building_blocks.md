@@ -559,6 +559,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 [Encolpius's solution](https://github.com/Encolpius/ruby-building-blocks/tree/master/enumerables)
 * [Areeba's Solution](https://github.com/AREEBAISHTIAQ/AdvancedBuildingBlocks/blob/master/Methods.rb)
 * [mojotron's Solution](https://github.com/mojotron/ruby-exercises/blob/master/my_enumerable.rb)
+* [Josh Hansen's Solution](https://github.com/Jdhansen41/ruby_lessons/blob/master/exercises/enumerable.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
