@@ -35,6 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Caesar%20Ciphar/lib/ruby%20caesar_cipher.rb)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/Ceaser_cipher)
 * [jmurinello's Solution](https://github.com/jmurinello/ruby_course/blob/master/building_blocks/caesar_cipher.rb)
 * [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/ruby-learn-projects/blob/master/caesar-cipher.rb)
@@ -386,6 +387,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/ruby%20Stock%20Picker.rb)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/Stock_picker/blob/master/stock_picker.rb)
 * [brndntng's Solution](https://github.com/brndntng/stock_picker)
 * [jmurinello's Solution](https://github.com/jmurinello/ruby_course/blob/master/building_blocks/stock_picker.rb)
