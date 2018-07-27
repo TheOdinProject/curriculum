@@ -2,6 +2,14 @@
 
 Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely! It is best to copy and paste the commands to avoid typos. You will get plenty of experience typing commands later, it is vital these are correct to avoid unnecessary issues. Most problems arise from people typing things incorrectly or not reading everything. *Don't be one of those people.*
 
+### Step 0: Pick your operating system.
+
+This isn't as monumental as chosing shirts or skins, and you can always decide to change later, but you need to pick what operating system you want to use to do your developing.
+
+If you have a Mac, the choice is easy. Just click the triangle next to "MacOS" and follow the instructions that appear.
+
+If you don't have a Mac, it's also easy: click the other triangle.
+
 <details markdown="block">
 <summary class="dropDown-header">Linux / Linux Virtual Machine / WSL
 </summary>
