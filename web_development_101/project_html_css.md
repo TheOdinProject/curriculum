@@ -1562,6 +1562,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hugo Linden's solution (Easy)](https://github.com/isherka/google_homepage) - [View in Browser](https://isherka.github.io/google_homepage/)
 * [TroubleBob's solution (Easy)](https://github.com/troublebob/google-homepage) - [View in Browser](https://troublebob.github.io/google-homepage/)
 * [bchalman's solution (Easy)](https://github.com/bchalman/odin_google-homepage) - [View in Browser](https://bchalman.github.io/odin_google-homepage/)
+* [Ross Reddock's solution (Easy)](https://github.com/rossreddock/google-homepage/) - [View in Browser](https://rossreddock.github.io/google-homepage/)
 * [Omega's solution (Easy)](https://github.com/Stafford13/google-homepage) - [View in Browser](https://Stafford13.github.io/google-homepage/)
 
 ### Additional Resources
