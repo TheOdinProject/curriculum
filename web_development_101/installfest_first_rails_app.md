@@ -584,7 +584,7 @@ Then save the file, and then close the text editor.
 
 #### Step 4.5.2: Installing the Bundle
 
-Next we need to install the bundle, this ensures that all of the required dependancies are satisfied. that is as simple as typing this:
+Next we need to install the bundle, this ensures that all of the required dependencies are satisfied. That is as simple as typing this:
 
 ~~~bash
 bundle install --without production
