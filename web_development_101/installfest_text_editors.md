@@ -7,13 +7,13 @@ Rich text editors like Microsoft Word, or Libre-Office Writer, are great for wri
 
 ### What comes on my OS?
 
-Operating systems generally come with a plain-text text editor on the computer. These are generally used for simple edits of configuration files when you do not need any special features.
+Operating systems generally come with a "plain-text" text editor on the computer. These are generally used for simple edits of configuration files when you do not need any special features.
 
 #### Linux/MacOS
 
-* Vi/Vim: All versions of linux will come with `vi` pre-installed, it is a complex editor with many features, but is not beginner friendly. If you are interested in `vi`. Install `vim` (Vimproved), and run the command `vimtutor`.
+* Vi/Vim: `vi` will come pre-installed with all versions of Linux, it is a complex editor with many features, but is not beginner friendly. If you are interested in `vi`. Install `vim` (Vimproved), and run the command `vimtutor`.
 
-* Nano: Another, more friendly basic text editor that comes with most of the common flavors of linux. You can access this by typing `nano` in the console.
+* Nano: Another, more friendly basic text editor that comes with most of the common flavors of linux. You can access this by typing `nano` in the console/terminal.
 
 * Gedit (Ubuntu Only): This comes with Ubuntu, It is a nice text editor and is a bridge between command line based editors and graphical text editors.
 

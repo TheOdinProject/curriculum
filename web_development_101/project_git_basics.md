@@ -21,16 +21,16 @@ By the end of this you should be able to:
 Here we will describe the basic Git workflow that you will use with your projects, follow along with each of the steps.
 
 #### Create your repository on Github
-1. You should have created a GitHub account in the [installations](https://www.theodinproject.com/courses/web-development-101/lessons/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
+1. You should have created a GitHub account in [Project: Your First Rails App](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application) project. If you haven't done that yet you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
   <a href="https://imgur.com/LURPUjP"><img class="tutorial-img" src="https://i.imgur.com/LURPUjP.png" title="source: imgur.com" /></a>
 3. Give your repository the name "git_test" in the repository name input field and create the repository by clicking the green "create repository" button at the bottom of the page.
 
-4. This will redirect you to your new repository on GitHub. To get this repository onto your local machine copy the url in the address bar of your browser for your repository.
-  <a href="https://imgur.com/GteFqiA"><img class="tutorial-img" src="https://i.imgur.com/GteFqiA.png" title="source: imgur.com" /></a>
-5. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on GitHub onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone https://github.com/YourUsername/git_test`.
-  <a href="https://imgur.com/II35rpo"><img class="tutorial-img" src="https://i.imgur.com/II35rpo.png" title="source: imgur.com" /></a>
+4. This will redirect you to your new repository on GitHub. To get this repository onto your local machine select the SSH option and copy the line next to it.
+  <a href="https://i.imgur.com/HQc2kLc.png"><img class="tutorial-img" src="https://i.imgur.com/HQc2kLc.png" title="source: imgur.com" /></a>
+5. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on GitHub onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`.
+  <a href="https://i.imgur.com/oFmUlyP.png"><img class="tutorial-img" src="https://i.imgur.com/oFmUlyP.png" title="source: imgur.com" /></a>
 6. That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with `git clone` and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
   <a href="https://imgur.com/UEyeqwv"><img class="tutorial-img" src="https://i.imgur.com/UEyeqwv.png" title="source: imgur.com" /></a>
 
