@@ -282,7 +282,7 @@ rbenv global 2.5.1
 
 Git is a very popular version control system that can handle any size of project efficiently. You will become very familiar with this piece of software. Don't worry too much about understanding it at this point, later there is a lesson to learn it.
 
-GitHub is a service that allows you to upload your code, using git, and manage it thorough a nice interface. GitHub and Git are not the same thing, and are not the same company. GitHub is used due to the ease of working with others.
+GitHub is a service that allows you to upload your code, using git, and manage it through a nice interface. GitHub and Git are not the same thing, and are not the same company. GitHub is used due to the ease of working with others.
 
 #### Step 1.1: Tell git who you are
 
