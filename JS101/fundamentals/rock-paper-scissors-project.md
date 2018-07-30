@@ -37,6 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [LeviButcher's Solution](https://github.com/LeviButcher/rock-paper-scissor) - [View In Browser](https://levibutcher.github.io/rock-paper-scissor/)
+- [Karen Justo's solution](https://github.com/jrkaren9/rock-paper-scissors) - [View in browser](https://jrkaren9.github.io/rock-paper-scissors/)
 - [amanData's solution](https://github.com/amanData/rock-paper-scissors)
 - [Timon Martin's solution](https://github.com/timonmartin/rockpaperscissors)
 - [Seth Robinson's solution](https://github.com/petrichor829/rock-paper-scissors)
