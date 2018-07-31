@@ -192,3 +192,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Punnadittr's solution](https://github.com/punnadittr/hangman)
 * [Agon Idrizi's solution](https://github.com/AgonIdrizi/Hangman)
 * [Akash's solution](https://github.com/Akash-sopho/hangman)
+* [mojotron's solution](https://github.com/mojotron/hangman)
