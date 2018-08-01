@@ -135,3 +135,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Amy Smith's Solution](https://github.com/amicloud/the-odin-project/tree/master/calculator) - [View in Browser](https://amicloud.github.io/the-odin-project/calculator/calculator.html)
 - [Brendaneus' Solution](https://github.com/Brendaneus/Calculator) - [View in Browser](https://brendaneus.github.io/Calculator/)
 - [MrObele' Solution](https://github.com/MrObele/Calculator) - [View in Browser](https://mrobele.github.io/Calculator/)
+- [Vyhn' Solution](https://github.com/Vyhnn/Calculator) - [View in Browser](https://vyhnn.github.io/Calculator/)
