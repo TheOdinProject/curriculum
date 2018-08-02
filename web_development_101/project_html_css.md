@@ -1576,6 +1576,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Maria Kalanchuk's solution (Easy)](https://github.com/maria-kalanchuk/google-homepage)  - [View in Brouser](https://maria-kalanchuk.github.io/google-homepage/)
 * [Craftmoon's solution (Easy)](https://github.com/Craftmoon/google-homepage)  - [View in Browser](https://craftmoon.github.io/google-homepage/)
 * [Chroste's solution (Easy)](https://github.com/Chroste/google-homepage)  - [View in Browser](https://chroste.github.io/google-homepage/)
+* [Bwillstorey's solution (Easy)](https://github.com/bwillstorey/google-homepage)  - [View in Browser](https://bwillstorey.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
