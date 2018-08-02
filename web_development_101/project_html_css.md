@@ -1578,7 +1578,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Chroste's solution (Easy)](https://github.com/Chroste/google-homepage)  - [View in Browser](https://chroste.github.io/google-homepage/)
 * [Bwillstorey's solution (Easy)](https://github.com/bwillstorey/google-homepage)  - [View in Browser](https://bwillstorey.github.io/google-homepage/)
 
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
