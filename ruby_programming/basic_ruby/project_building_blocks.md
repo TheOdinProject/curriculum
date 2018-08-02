@@ -36,7 +36,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 
-* [Tim Dowd's Solution] (https://github.com/timothydowd/caesar_cipher/blob/master/caesar_cipher.rb)
+* [Tim Dowd's Solution](https://github.com/timothydowd/caesar_cipher/blob/master/caesar_cipher.rb)
 * [sametcilli's solution](https://github.com/sametcilli/caesar_cipher/blob/master/caesar_cipher.rb)
 * [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Caesar%20Ciphar/lib/ruby%20caesar_cipher.rb)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/Ceaser_cipher)
@@ -393,7 +393,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 
-* [Tim Dowd's Solution] (https://github.com/timothydowd/stock_picker/blob/master/stock_picker.rb)
+* [Tim Dowd's Solution](https://github.com/timothydowd/stock_picker/blob/master/stock_picker.rb)
 * [sametcilli's solution](https://github.com/sametcilli/ruby_exercises_stock_picker/blob/master/stock_picker.rb)
 * [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/ruby%20Stock%20Picker.rb)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/Stock_picker/blob/master/stock_picker.rb)
@@ -729,7 +729,7 @@ Next, make sure your method can handle multiple words:
 
 * Add your solution below this line!
 
-* [Tim Dowd's Solution] (https://github.com/timothydowd/substrings/blob/master/substrings.rb)
+* [Tim Dowd's Solution](https://github.com/timothydowd/substrings/blob/master/substrings.rb)
 * [sametcilli's solution](https://github.com/sametcilli/ruby_exercises_substrings/blob/master/substrings.rb)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Substrings.rb)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/sub-string/blob/master/sub-string.rb)
