@@ -4,7 +4,7 @@ Click on the section below related to the operating system you set up in the pre
 
 ### Step 0: Pick your operating system.
 
-This isn't as monumental as chosing shirts or skins, and you can always decide to change later, but you need to pick what operating system you want to use to do your developing.
+This isn't as monumental as chosing shirts or skins, and you can always decide to change later, but you need to pick what operating system you are using to do your developing. Different OSses have different procedures in installing Ruby.
 
 If you have a Mac, the choice is easy. Just click the triangle next to "MacOS" and follow the instructions that appear.
 
