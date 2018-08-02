@@ -24,7 +24,7 @@
             <h3 class="contributing-card__title"><%= contribution[:title] %></h3>
             <p class="contributing-card__description"><%= contribution[:description] %></p>
             <div class="contributing-card__button">
-              <%= link_to 'View on GitHub', github_link(contribution[:path]), class: 'button button--primary', target: '_blank' %>
+              <%= link_to 'View on GitHub', github_link(contribution[:path]), class: 'button button--primary', target: '_blank', rel: 'noreferrer' %>
             </div>
           </div>
         </div>

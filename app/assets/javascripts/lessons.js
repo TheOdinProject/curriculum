@@ -16,6 +16,7 @@ function kebabCase(text) {
 function setTargetForExternalLinks() {
   getElements('.lesson-content a[href^=http]').forEach(function(externalLink) {
     externalLink.setAttribute('target', '_blank');
+    externalLink.setAttribute('rel', 'noreferrer');
   });
 }
 
