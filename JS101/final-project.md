@@ -137,3 +137,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Brendaneus' Solution](https://github.com/Brendaneus/Calculator) - [View in Browser](https://brendaneus.github.io/Calculator/)
 - [MrObele' Solution](https://github.com/MrObele/Calculator) - [View in Browser](https://mrobele.github.io/Calculator/)
 - [Vyhn' Solution](https://github.com/Vyhnn/Calculator) - [View in Browser](https://vyhnn.github.io/Calculator/)
+- [dmarkiewicz's Solution] (https://github.com/dmarkiewicz/the-odin-project/tree/master/calculator)
