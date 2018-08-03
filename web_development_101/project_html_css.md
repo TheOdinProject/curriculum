@@ -1578,6 +1578,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Chroste's solution (Easy)](https://github.com/Chroste/google-homepage)  - [View in Browser](https://chroste.github.io/google-homepage/)
 * [Bwillstorey's solution (Easy)](https://github.com/bwillstorey/google-homepage)  - [View in Browser](https://bwillstorey.github.io/google-homepage/)
 * [David's solution (Easy)](https://github.com/winfliix/google-homepage/)  - [View in Browser](https://winfliix.github.io/google-homepage/)
+* [JoKing's solution (Easy)](https://github.com/joking3000/google-homepage) - [View in Browser](https://joking3000.github.io/google-homepage/)
+* [JoKing's solution (Difficult)](https://github.com/joking3000/google-search-results) - [View in Browser](https://joking3000.github.io/google-search-results/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
