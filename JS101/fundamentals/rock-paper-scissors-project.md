@@ -57,8 +57,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dreniak's Solution](https://github.com/Dreniak/rock-paper-scissors)
 - [Pietro Verdile's Solution](https://github.com/pverdile/rock_paper_scissors_game)
 - [Jarrod Nelson's Solution](https://github.com/jnelson83/rockpaperscissors)
-- [Super1569's Solution](https://github.com/Super1569/rock-paper-scissors)
->>>>>>> ab624d182f21c8e5e958fe4291ab854986dc08ec
 - [ellielle's Solution](https://github.com/ellielle/rock-paper-scissors)
 - [CraigAndrewBlair's Solution](https://github.com/craigandrewblair/rock-paper-scissors-odin) - [View In Browser](https://craigandrewblair.github.io/rock-paper-scissors-odin/)
 - [semisequitur's Solution](https://github.com/semisequitur/rock-paper-scissors) - [View in Browser](https://semisequitur.github.io/rpsUI.html)
