@@ -27,6 +27,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [nmac's solution](https://github.com/nmacawile/js-restaurant) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/js-restaurant/blob/master/dist/index.html)
 - [Johan Morin's Solution](https://github.com/MorrisMalone/restaurant-page) - [View In Browser](https://morrismalone.github.io/restaurant-page/)
 - [brxck's solution](https://github.com/brxck/odin-restaurant) - [View in Browser](http://brockmcelroy.com/odin-restaurant/)
 - [Andrew's solution](https://github.com/andrewr224/Lamuella) - [View in Browser](https://andrewr224.github.io/Lamuella)
@@ -37,3 +38,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Jmooree30's solution](https://github.com/jmooree30/restaurant) - [View in browser](https://jmooree30.github.io/restaurant/)
 - [codyloyd's solution](https://github.com/codyloyd/odin-restaurant) - [View in browser](http://codyloyd.com/odin-restaurant/)
 - [rpalo's solution](https://github.com/rpalo/odin-restaurant) - [View in browser](https://assertnotmagic.com/odin-restaurant/)
+- [Katineto's solution](https://github.com/Katineto/restaurant-page) - [View in browser](https://katineto.github.io/restaurant-page/)
