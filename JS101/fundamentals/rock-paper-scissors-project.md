@@ -36,9 +36,9 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/fundamentals/rock-paper-scissors-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Super1569's Solution](https://github.com/Super1569/rock-paper-scissors) - [UI Solution](https://github.com/Super1569/RPSDom) - [View In Browser](https://super1569.github.io/RPSDom/)
-=======
+- [Christopher Wegscheid's Solution](https://github.com/cwegscheid08/rock_paper_scissors.git)
+>>>>>>> 3a1efaaa7664bd8b0ee06d202e2056e9e931f434
 - [Mohammad Reza's Solution](https://github.com/Creative301/rock-paper-scissors)
 - [Mohamed Elattar's Console Solution](https://github.com/mohamed-elattar/RockPaperScissors-console) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-console/87d9d989/index.html) - [Mohamed Elattar's GUI Solution](https://github.com/mohamed-elattar/RockPaperScissors-GUI) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-GUI/9edbcd9d/index.html)
 - [gilv93's Solution](https://github.com/gilv93/odinProjectRPS)
