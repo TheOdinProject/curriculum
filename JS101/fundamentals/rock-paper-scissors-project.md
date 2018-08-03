@@ -38,7 +38,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Super1569's Solution](https://github.com/Super1569/rock-paper-scissors) - [UI Solution](https://github.com/Super1569/RPSDom) - [View In Browser](https://super1569.github.io/RPSDom/)
 - [Christopher Wegscheid's Solution](https://github.com/cwegscheid08/rock_paper_scissors.git)
->>>>>>> 3a1efaaa7664bd8b0ee06d202e2056e9e931f434
 - [Mohammad Reza's Solution](https://github.com/Creative301/rock-paper-scissors)
 - [Mohamed Elattar's Console Solution](https://github.com/mohamed-elattar/RockPaperScissors-console) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-console/87d9d989/index.html) - [Mohamed Elattar's GUI Solution](https://github.com/mohamed-elattar/RockPaperScissors-GUI) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-GUI/9edbcd9d/index.html)
 - [gilv93's Solution](https://github.com/gilv93/odinProjectRPS)
