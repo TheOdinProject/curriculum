@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [brndntng's solution](https://github.com/brndntng/tic-tac-toe)
 * [prw001's solution](https://github.com/prw001/Tic_Tac_Toe)
 * [sametcilli's solution](https://github.com/sametcilli/ruby-exercises_tic_tac)
 * [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Tic%20Tac%20Toe/lib)
