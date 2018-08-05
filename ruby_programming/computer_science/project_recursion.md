@@ -153,6 +153,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Aziz Yakubov's Solution](https://github.com/azizyakubov/Ruby_practice/blob/master/Fibonacci/fibonacci.rb)
 * [Agon's solution](https://github.com/AgonIdrizi/Recursion/blob/master/fibonnaci.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Fibonacci/blob/master/fib.rb)
+* [Peoplemakeculture's solution](https://github.com/PeopleMakeCulture/ruby_recursion)
 
 ### Project: Merge Sort
 
