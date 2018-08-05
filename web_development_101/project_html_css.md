@@ -961,7 +961,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Seiji's Solution (Easy)](https://github.com/seijibas/google-homepage) - [View in Browser](http://seijibas.github.io/google-homepage/)
 * [Jiazhi Guo's Solution (Easy)](https://github.com/jerrykuo7727/google-homepage) - [View in Browser](https://rawgit.com/jerrykuo7727/google-homepage/master/homepage.html)
 * [Henry Tran's Solution (Difficult)](https://github.com/hnrytrn/google-search-page) - [View in Browser](http://hnrytrn.github.io/google-search-page/)
-* [Emil Dimitrov's Solution (Easy)](https://github.com/emo1/google-homepage) - [View in Browser](https://rawgit.com/emo1/google-homepage/master/index.html)
 * [Ariana Herbst's Solution (Easy)](https://github.com/arianaherbst/Googe-Homepage) - [View in Browser](https://cdn.rawgit.com/arianaherbst/Googe-Homepage/master/index.html)
 * [Peter Fossum's Solution (Easy)](https://github.com/PeterFossum/google-homepage) - [View in Browser](https://rawgit.com/PeterFossum/google-homepage/master/index.html)
 * [Jacky Ye's Solution](https://github.com/ye-jacky/google-homepage) - [View in Browser](https://rawgit.com/ye-jacky/google-homepage/master/index.html)
@@ -1584,6 +1583,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JoKing's solution (Difficult)](https://github.com/joking3000/google-search-results) - [View in Browser](https://joking3000.github.io/google-search-results/)
 * [Vincent's solution (Easy)](https://github.com/Vincecheers/google-homepage) - [View in Browser](https://Vincecheers.github.io/google-homepage/)
 [Jorge's solution (Easy)](https://github.com/jorgemartine00/Google-prject) - [View in Browser](https://jorgemartine00.github.io/Google-prject/)
+* [Emil Dimitrov's Solution (Easy)](https://github.com/imemdm/google-homepage) - [View in Browser](https://imemdm.github.io/google-homepage/)
+* [Emil Dimitrov's Solution (Difficult)](https://github.com/imemdm/google-homepage) - [View in Browser](https://imemdm.github.io/google-homepage/result.html)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
