@@ -118,9 +118,9 @@ The first few rows of the CSV file you downloaded look like this:
 
 [File](http://rubydoc.info/stdlib/core/File) is a core ruby class that allows
 you to perform a large number of operations on files on your filesystem. The
-most straightforward being `File.read`
+most straightforward is `File.read`
 
-~~~ruby 
+~~~ruby
 puts "EventManager initialized."
 
 contents = File.read "event_attendees.csv"
@@ -145,7 +145,7 @@ that would allow us to manipulate this large string.
 
 Files can also be read in as an array of lines.
 
-~~~ruby 
+~~~ruby
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -158,7 +158,7 @@ First we read in the entire contents of the file as an array of lines. Second
 we iterate over the entire collection of lines, one at a time, and output the
 contents of each line.
 
-### Display the First Name of All Attendees
+### Display the First Names of All Attendees
 
 Instead of outputing the entire contents of each line we want to show only the
 first name. That requires us to look at the current contents of our Event
@@ -185,8 +185,8 @@ from left-to-right:
 * `State` - their state
 * `Zipcode` - their zipcode
 
-The lack of consistent formatting of these headers models is not ideal when
-choosing to model your own data. These column names have been our extreme
+The lack of consistent formatting of these headers is not ideal when
+choosing to model your own data. These column names are our extreme
 example of a poorly formed external service. Great applications are often built
 on the backs of such services.
 
@@ -203,7 +203,7 @@ character.
 By default when you send the split message to the String without a parameter it
 will break the string apart along a space " " character.
 
-~~~ruby 
+~~~ruby
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -220,7 +220,7 @@ Arrays start counting at 0 instead of 1. To get the idea, we would access the
 array's first element at `columns[0]`.
 
 
-~~~ruby 
+~~~ruby
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -246,7 +246,7 @@ which one is the header row.
 One way to solve this problem would be to skip the line when it exactly matches
 our current header row.
 
-~~~ruby 
+~~~ruby
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -265,7 +265,7 @@ updated.
 A second way to solve this problem is for us to track the index of the current
 line.
 
-~~~ruby 
+~~~ruby
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -282,7 +282,7 @@ end
 This is a such a common operation that Array defines
 [Array#each_with_index](http://rubydoc.info/stdlib/core/Enumerable#each_with_index-instance_method).
 
-~~~ruby 
+~~~ruby
 puts "EventManager initialized."
 
 lines = File.readlines "event_attendees.csv"
@@ -309,7 +309,7 @@ supported by the CSV file format.
 Two important ones:
 
 * CSV files often contain comments which are lines that start with a pound (#) character
-* Columns are unable to support a value which contain a comma (,) character
+* A column is unable to support a value which contains a comma (,) character
 
 Our goal is to get in contact with our event attendees. It is not to define a
 CSV parser. This is often a hard concept to let go of when initially solving a
@@ -318,12 +318,12 @@ is:
 
 > Look for a Solution before Building a Solution
 
-Ruby actually provides a CSV parser that we will instead use throughout the
+Ruby actually provides a CSV parser that we will use instead throughout the
 remainder of this exercise.
 
 ## Iteration 1: Parsing with CSV
 
-It is likely the case that if you want to solve a problem, someone has likely
+It is likely the case that if you want to solve a problem, someone has already
 done it in some capacity. They may have even been kind enough to share their
 solution or the tools that they created. This is the kind of goodwill that
 pervades the Open Source community and Ruby ecosystem.
@@ -424,11 +424,10 @@ solve the second issue and the third issue.
 
 If we looked at the [larger sample of data](full_event_attendees.csv) we would
 see that the majority of the shorter zip codes are from individuals from states
-in the north-eastern part of the United States. Many zip codes there start with
-0. This data was likely stored in the database as an integer, and not as text,
+in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text,
 which caused the leading zeros to be removed.
 
-So in the case of zip codes less than five-digits we will assume that we can
+So in the case of zip codes of less than five-digits we will assume that we can
 pad missing zeros to the front.
 
 * Some zip codes are missing
@@ -491,8 +490,7 @@ The following solution employs:
 
 * [String#length](http://rubydoc.info/stdlib/core/String#length-instance_method) - returns the length of the string.
 * [String#rjust](http://rubydoc.info/stdlib/core/String#rjust-instance_method) - to pad the string with zeros.
-* [String#slice](http://rubydoc.info/stdlib/core/String#slice-instance_method) - to create sub-strings either through
-  the `slice` method or the array-like notation `[]`
+* [String#slice](http://rubydoc.info/stdlib/core/String#slice-instance_method) - to create sub-strings either through the `slice` method or the array-like notation `[]`
 
 ~~~ruby
 require 'csv'
@@ -531,16 +529,16 @@ lib/event_manager.rb:11:in `block in <main>': undefined method `length' for nil:
 	from lib/event_manager.rb:7:in `<main>'
 ~~~
 
-* What is the error mesage "undefined method `length' for nil:NilClass (NoMethodError)" saying?
+* What is the error mesage "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
 
 Reviewing our CSV data we notice that the next row specifies no value. An empty
-field translates into a nil instead of an empty string. This is choice made by
+field translates into a nil instead of an empty string. This is a choice made by
 the CSV library maintainers. So we now need to handle this situation.
 
 ### Handling Missing Zip Codes
 
 Our solution above does not handle the case when the zip code has not been
-specified. CSV return a `nil` value when no value has been specified in the
+specified. CSV returns a `nil` value when no value has been specified in the
 column. All objects in Ruby respond to `#nil?`. All objects will return false
 except for a `nil`.
 
@@ -635,7 +633,7 @@ contents.each do |row|
 end
 ~~~
 
-While this may feel like a very small, inconsequential change. Small changes
+This may feel like a very small, inconsequential change, but small changes
 like these help make your code cleaner and your intent clearer.
 
 ### Refactoring Clean Zip Codes
@@ -695,8 +693,8 @@ webservice we are able query for the representatives for a given area.
 
 The Civic Information API allows registered individuals (registration is free) to obtain some information about the representatives for each level of government for an address.
 
-> For any U.S. residential address, you can look up who represents that address at each elected level of 
-> government. During supported elections, you can also look up polling places, early vote location, candidate data, 
+> For any U.S. residential address, you can look up who represents that address at each elected level of
+> government. During supported elections, you can also look up polling places, early vote location, candidate data,
 > and other election official information.
 
 ### Accessing the API
@@ -719,7 +717,7 @@ Take a close look at that address. Here's how it breaks down:
 We're accessing the `representatives` method of their API, we send in an `apikey` which is the string that identifies JumpstartLab as the accessor of
 the API, then we select the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
 
-This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](http://jsonprettyprint.com/), you can see there is a `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
+This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](http://jsonprettyprint.com/), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
 
 Let's look for a solution before we attempt to build a solution.
 
@@ -786,8 +784,8 @@ contents.each do |row|
   zipcode = clean_zipcode(row[:zipcode])
 
   legislators = civic_info.representative_info_by_address(
-                            address: zipcode, 
-                            levels: 'country', 
+                            address: zipcode,
+                            levels: 'country',
                             roles: ['legislatorUpperBody', 'legislatorLowerBody'])
   legislators = legislators.officials
 
@@ -800,10 +798,10 @@ Running our application we find an error.
 
 ~~~bash
 $ ruby lib/event_manager.rb
-/ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in `check_status': parseError: Failed to parse address (Google::Apis::ClientError)
+/ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in 'check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ~~~
 
-What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common so we have to have a way of dealing with it. Luckly, Ruby makes that easy with their [Exception Class](https://ruby-doc.org/core-2.2.0/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
+What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://ruby-doc.org/core-2.2.0/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
 
 ~~~ruby
 require 'csv'
@@ -827,8 +825,8 @@ contents.each do |row|
 
   begin
     legislators = civic_info.representative_info_by_address(
-                              address: zipcode, 
-                              levels: 'country', 
+                              address: zipcode,
+                              levels: 'country',
                               roles: ['legislatorUpperBody', 'legislatorLowerBody'])
     legislators = legislators.officials
   rescue
@@ -862,7 +860,7 @@ legislator_names = legislators.map do |legislator|
   end
 ~~~
 
-We can further simplify this into it's final form:
+We can further simplify this into its final form:
 
 ~~~ruby
 legislator_names = legislators.map(&:name)
@@ -895,8 +893,8 @@ contents.each do |row|
 
   begin
     legislators = civic_info.representative_info_by_address(
-                                address: zipcode, 
-                                levels: 'country', 
+                                address: zipcode,
+                                levels: 'country',
                                 roles: ['legislatorUpperBody', 'legislatorLowerBody'])
     legislators = legislators.officials
 
@@ -933,7 +931,7 @@ implementation and ask ourselves:
 
 This code is fairly clear in its understanding. It is simply expressing its
 intent near so many other things. It is also expressing itself differently from
-how zip codes are handled. The dissimilarity breeds confusion when returning to
+how zip codes are handled. This dissimilarity breeds confusion when returning to
 the code.
 
 We want to extract our legislator names into a new method named
@@ -955,8 +953,8 @@ def legislators_by_zipcode(zip)
 
   begin
     legislators = civic_info.representative_info_by_address(
-                                  address: zip, 
-                                  levels: 'country', 
+                                  address: zip,
+                                  levels: 'country',
                                   roles: ['legislatorUpperBody', 'legislatorLowerBody'])
     legislators = legislators.officials
     legislator_names = legislators.map(&:name)
@@ -1145,7 +1143,7 @@ have a hard time inserting our legislators as individual rows in the table
 without having to build parts of the HTML table ourself. This could spell
 disaster later if we decide to change the template to no longer use a table.
 
-So, again, instead of building our own custom solution any further we are going to
+So again, instead of building our own custom solution any further we are going to
 seek a solution.
 
 ### Ruby's ERB
@@ -1156,10 +1154,10 @@ Ruby defines a template language named [ERB](http://rubydoc.info/stdlib/erb/fram
 > any plain text document for the purposes of generating document information details and/or flow control.
 
 Defining an ERB template is extremely similar to our existing template. The
-difference is that we use an escape sequence tags which allow us to insert any
+difference is that we use escape sequence tags which allow us to insert any
 variables, methods or ruby code we want to execute.
 
-ERB defines several different escape sequence tags that we can use, the most
+ERB defines several different escape sequence tags that we can use. The most
 common are:
 
 ~~~ruby
@@ -1183,19 +1181,19 @@ results = template.result(binding)
 puts results
 ~~~
 
-The code above loads the ERB library. Creates a new ERB template with the
+The code above loads the ERB library, then creates a new ERB template with the
 `question` string. The question string contains ERB tags that will show the
 results of the variable `meaning_of_life`. We send the `result` message to the
-template with `binding` and
+template with `binding`.
 
 * What is `binding`?
 
 The method
 [binding](http://rubydoc.info/stdlib/core/Kernel#binding-instance_method)
 returns a special object. This object is an instance of
-[Binding](http://rubydoc.info/stdlib/core/Binding). A instance of binding knows
+[Binding](http://rubydoc.info/stdlib/core/Binding). An instance of binding knows
 all about the current state of variables and methods within the given scope. In
-this case, `binding` here knows about the variable `meaning_of_life`.
+this case, `binding` knows about the variable `meaning_of_life`.
 
 Having to explicitly specify a binding when we ask for the results of the
 template gives us the flexibility to ask for the results of a template given a
@@ -1246,7 +1244,7 @@ return to the application.
 </html>
 ~~~
 
-The use of the ERB tags to display the attendee's name is familiar to our previous example. The second use, when we display the legislators, is different. We are using the ERB tag that does not output the results `<% %>` to check if the legislators variable is an Array. 
+The use of the ERB tags to display the attendee's name is familiar from our previous example. The second use, when we display the legislators, is different. We are using the ERB tag that does not output the results `<% %>` to check if the legislators variable is an Array.
 
 If it is an array we output the name and website url of each legislator. This is a departure from what we originally implemented. Before we had to build the names of all the representatives. We intend now to give the template direct access to the array of legislators. We will let the template ask and display what it wants from each legislator.
 
@@ -1276,8 +1274,8 @@ def legislators_by_zipcode(zip)
 
   begin
     civic_info.representative_info_by_address(
-      address: zip, 
-      levels: 'country', 
+      address: zip,
+      levels: 'country',
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
@@ -1330,8 +1328,8 @@ def legislators_by_zipcode(zip)
 
   begin
     civic_info.representative_info_by_address(
-      address: zip, 
-      levels: 'country', 
+      address: zip,
+      levels: 'country',
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
@@ -1346,7 +1344,7 @@ Outputting each form letter to the screen was useful for ensuring our output
 looked correct. It is time to save each form letter to a file.
 
 Each file should be uniquely named. Fortunately, each of our attendees has a
-unique id, the first column, or row number.
+unique id—the first column, or row number.
 
 * Assign an ID for the attendee
 * Create an output folder
@@ -1377,7 +1375,7 @@ end
 
 * Assign an ID for the attendee
 
-The first column does not have a name, like the other columns, so we fall back
+The first column does not have a name like the other columns, so we fall back
 to using the index value.
 
 * Create an output folder
@@ -1398,10 +1396,10 @@ The 'w' states we want to open the file for writing. If the file already exists
 it will be destroyed.
 
 Afterwards we actually send the entire form letter content to the file
-object. The `file` object responds to the message `puts`. The
+object. The `file` object responds to the message `puts`. The method
 [file#puts](http://rubydoc.info/stdlib/core/IO#puts-instance_method) is similar to
-the [Kernel#puts](http://rubydoc.info/stdlib/core/Kernel#puts-instance_method)
-that we have been using up to this point.
+ [Kernel#puts](http://rubydoc.info/stdlib/core/Kernel#puts-instance_method)
+which we have been using up to this point.
 
 ### Moving Form Letter Generation to a Method
 
@@ -1423,8 +1421,8 @@ def legislators_by_zipcode(zip)
 
   begin
     civic_info.representative_info_by_address(
-      address: zip, 
-      levels: 'country', 
+      address: zip,
+      levels: 'country',
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
@@ -1461,7 +1459,7 @@ contents.each do |row|
 end
 ~~~
 
-The `save_thank_you_letter` requires the id of the attendee and the form letter
+The method `save_thank_you_letter` requires the id of the attendee and the form letter
 output.
 
 ## Iteration: Clean Phone Numbers
@@ -1484,8 +1482,7 @@ make better use of our Google and Facebook advertising. Find out which hours of
 the day the most people registered so we can run more ads during those hours."
 Interesting!
 
-Using the registration date and time we want to find out what are the peak
-registration hours.
+Using the registration date and time we want to find out what the peak registration hours are.
 
 * Ruby has a [Date](http://rubydoc.info/stdlib/date/frames) library which contains classes for
   [Date](http://rubydoc.info/stdlib/date/Date) and [DateTime](http://rubydoc.info/stdlib/date/DateTime).
