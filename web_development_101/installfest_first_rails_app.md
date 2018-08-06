@@ -639,6 +639,14 @@ git push heroku master
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for this to finish.
 
+Most of this input you can ignore for now, but take note of the line a couple lines above your command prompt that will look something like this:
+
+~~~bash
+remote:        https://random-words-73975.herokuapp.com/ deployed to Heroku
+~~~
+
+This is the link to your new site! Yes, you have published something to the internet! You can click it now, but we aren't quite done setting everything up just yet.
+
 #### Step 4.8: Migrate the DB on Heroku
 
 Like we did locally before we launched our app, we need to migrate the database. We need to do this on Heroku, so we can use the Heroku-cli to do so.
@@ -653,7 +661,7 @@ You might see some strange output, as long as you do not have an error, you have
 
 #### Step 4.9: Visit your new application
 
-Now It's time to see your app on the web! To quickly open it, type:
+Now It's time to see your app on the web! If you are not using WSL, to quickly open it, type:
 
 ~~~bash
 heroku open
@@ -661,7 +669,7 @@ heroku open
 
 and play around with it! 
 
-NOTE: if you are using WLS, `heroku open` may not open automatically, but it should provide you a link to copy and paste into your browser. If nothing shows up, come ask for help in [the Gitter chat room](https://gitter.im/TheOdinProject)
+If you are using WSL, `heroku open` will not open automatically, but remember that link in step 4.7? If you already visited it out of excitement, just refresh the page, if you haven't copy/paste it now and have a look! If nothing shows up, come ask for help in [the Gitter chat room](https://gitter.im/TheOdinProject)
 
 ### Step 5: Let us know how it went!
 
