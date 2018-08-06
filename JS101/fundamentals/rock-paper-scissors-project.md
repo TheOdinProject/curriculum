@@ -274,3 +274,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Wesley Wang's Solution](https://github.com/wesleymellon/Rock-Paper-Scissors)
 - [Alexe Garin's Solution](https://github.com/lxg1992/RockPaperScissors)
 - [sampsonmao's solution](https://github.com/sampsonmao/rock-paper-scissors) - [View in Browser](https://sampsonmao.github.io/rock-paper-scissors/)
+- [NatSydenham's Solution](https://github.com/NatSydenham/rock-paper-scissors)
