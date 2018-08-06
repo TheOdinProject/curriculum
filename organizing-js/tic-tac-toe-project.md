@@ -39,4 +39,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Nick's solution](https://sinclairnick.github.io/tictactoe/) - [View in browser](https://sinclairnick.github.io/tictactoe/)
 - [Caner Sezgin's solution](https://github.com/casedo/Tic-Tac-Toe) - [View in browser](http://bit.ly/ticTacToe)
 - [Katineto's solution](https://github.com/Katineto/tic-tac-toe) - [View in browser](https://katineto.github.io/tic-tac-toe/)
-- [sampsonmao's solution](https://github.com/sampsonmao/tic-tac-toe) - [View in browser](hhttps://sampsonmao.github.io/tic-tac-toe/)
+- [sampsonmao's solution](https://github.com/sampsonmao/tic-tac-toe) - [View in browser](https://sampsonmao.github.io/tic-tac-toe/)
