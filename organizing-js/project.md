@@ -42,4 +42,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Ezequiel Espinoza's Solution](https://github.com/ezeaspie/todo-app) - [View in browser](https://ezeaspie.github.io/todo-app/)
 * [Jmooree30's solution](https://github.com/jmooree30/JS-Todo-List) - [View in browser](https://jmooree30.github.io/JS-Todo-List/)
 * [Remy's solution](https://codepen.io/beumsk/pen/QvqyMM) - [View in browser](https://codepen.io/beumsk/full/QvqyMM)
+* [Caner Sezgin's solution](https://github.com/casedo/TodoList/tree/master/Source%20Codes) - [View in browser](http://bit.ly/casedoToDo)
 
