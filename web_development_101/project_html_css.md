@@ -1587,6 +1587,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Emil Dimitrov's Solution (Easy)](https://github.com/imemdm/google-homepage) - [View in Browser](https://imemdm.github.io/google-homepage/)
 * [Emil Dimitrov's Solution (Difficult)](https://github.com/imemdm/google-homepage) - [View in Browser](https://imemdm.github.io/google-homepage/result.html)
 * [Waris's solution (Easy)](https://github.com/warisz/google-homepage)  - [View in Browser](https://warisz.github.io/google-homepage/)
+* [Ajay Sarwan's solution](https://github.com/AjaySarwan/google-homepage) [result](https://github.com/AjaySarwan/google-homepageblob/master/index.html)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
