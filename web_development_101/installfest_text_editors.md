@@ -39,8 +39,18 @@ VSCode is a newer editor created by Microsoft, and is completely free. It has ou
 
 Check it out [here](https://code.visualstudio.com/).
 
-### Conclusion
-
 What editor you use is a matter of preference, and it does not hurt to shop around until you find one that you really enjoy using and works for you. **BUT** for the purposes of this course, we are going to assume you are using VSCode. Mainly because it is free, easy to use, and works pretty much the same on every operating system.
 
-If you are already comfortable with something else, or just want to use a different editor, great! Just know that there will be the occasional spot where you will have to do something slightly differently than what we say. But since you are an intelligent and resourceful software developer, you will be just fine.
+Okay, so go install VSCode if you are going to. The link is right up there. Alright, if you are on Linux or Windows, you are good to go. If you are on MacOS, we are going to have you jump through one more hoop --trust me, it's for your own good:
+
+##### Enable code command for MacOS
+
+On Windows and Linux, you can open VSCode from the command line by typing `code` alone. And you can open folders or files by adding the name of the location after it: `code MyCoolProject`. MacOS can do it too, but you gotta set it up yourself.
+
+After installing VSCode launch it whichever way your are comfortable. Once it's running open the Command palette by typing `Ctrl+Shift+P`. In the little dialog that appears type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. I bet you know where this is going. Select that option and restart the terminal if you have it open.
+
+Now You with your Mac are almost as cool as your friends with Linux and Windows.
+
+### Conclusion
+
+Obviously, you don't have to use VSCode if you don't want to. If you are already comfortable with something else, or just want to use a different editor, great! Just know that there will be the occasional spot where you will have to do something slightly differently than what we say. But since you are an intelligent and resourceful software developer, you will be just fine.
