@@ -170,3 +170,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Vyhn's Solution](https://github.com/Vyhnn/Etch-a-Sketch) - [View in Browser](https://vyhnn.github.io/Etch-a-Sketch/)
 * [Tommy's Solution](https://github.com/hoangtommy/etchysketchy) - [View in Browser](https://hoangtommy.github.io/etchysketchy/)
 * [Brendaneus' Solution](https://github.com/Brendaneus/Etch-a-Sketch) - [View in Browser](https://brendaneus.github.io/Etch-a-Sketch)
+* [Kern's Solution](https://github.com/Kelel1/Etch-A-Sketch) - [View in Browser](https://kelel1.github.io/Etch-A-Sketch/) 
