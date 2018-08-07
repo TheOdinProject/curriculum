@@ -560,7 +560,9 @@ First we need to open the `Gemfile` and edit it.
 
 In your terminal, type `ls` and verify you can see `Gemfile` in the output. If you don't navigate to the directory you have created in Steps 4.2 and 4.3.
 
-Then we will use VSCode to modify our `Gemfile`. (If you haven't already installed it, go [here](https://code.visualstudio.com/). Don't worry, we'll wait.) Open the the `Gemfile` by typing `code Gemfile`.
+Then we will use VSCode to modify our `Gemfile`. (If you haven't already installed it, go [here](https://code.visualstudio.com/). Don't worry, we'll wait.) Open your app in VSCode by typing `code .`
+
+Once VSCode finishes starting up, there should be a tree view of your app on the left side of the screen. open `Gemfile` and
 
 Delete the line that says:
 
@@ -580,7 +582,7 @@ group :production do
 end
 ~~~
 
-Then save the file, and close VSCode.
+Then save the file. You can leave VSCode open. We're going to be coming back to it, but for the next step go back to your terminal.
 
 #### Step 4.5.2: Installing the Bundle
 
@@ -594,9 +596,7 @@ bundle install --without production
 
 The next thing we need to edit is the `routes.rb` file, and set our root route. This is so we can send the application without having to append `/cars` at the end. We will be using VSCode to do so again.
 
-First make sure we are in the root directory of our application, type `ls` and verify you see `Gemfile` in the terminal output.
-
-Next we need to edit the `routes.rb` file. To do this open `config/routes.rb` by typing `code config/routes.rb`, and make it match the example below:
+So go back to VSCode and expand the `config` folder in the tree view. one of the files inside will be `routes.rb`. Go ahead and open it up and make it match the example below:
 
 ~~~ruby
 Rails.application.routes.draw do
@@ -605,7 +605,7 @@ Rails.application.routes.draw do
 end
 ~~~
 
-and save the file.
+and save the file. You can close VSCode now if you want, but it won't hurt to leave it open either. either way, the rest of the steps take place in the terminal.
 
 ##### Step 4.6: Adding Changes to git
 
