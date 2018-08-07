@@ -36,6 +36,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 - Add your solution below this line!
+- [Javier Machin's solution](https://github.com/Javier-Machin/js-simple-library) - [View In Browser](https://javier-machin.github.io/js-simple-library/)
 - [Alien's Solution](https://github.com/aliensjit/libraryOfTheCentury) - [View in Browser](https://aliensjit.github.io/libraryOfTheCentury/)
 - [nmac's solution](https://github.com/nmacawile/my-library) - [Link](https://htmlpreview.github.io/?https://github.com/nmacawile/my-library/blob/master/index.html)
 - [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/TOP_JS_Library) - [View in Browser]( https://sarfrazanjum.github.io/TOP_JS_Library/)
@@ -61,3 +62,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Caner Sezgin's Solution](https://github.com/casedo/myLibrary) - [View in browser](http://bit.ly/myLibr)
 - [Alan's Solution](https://github.com/18alantom/top_library) - [View in browser](https://18alantom.github.io/top_library/)
 - [Katineto's Solution](https://github.com/Katineto/reading-list) - [View in browser](https://reading-list-da983.firebaseapp.com/)
+- [Mike Smith's Solution](https://github.com/MikeSS281986/Library) - [View in browser](https://mikess281986.github.io/Library/)
+- [sampsonmao's Solution](https://github.com/sampsonmao/library) - [View in browser](https://sampsonmao.github.io/library/)
