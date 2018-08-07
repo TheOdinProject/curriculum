@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+* [Karen Justo’s Solution](https://github.com/jrkaren9/etch-a-sketch) - [View in Browser](https://jrkaren9.github.io/etch-a-sketch/)
 * [Dreniak’s Solution](https://github.com/Dreniak/etch-a-sketch) - [View in Browser](https://dreniak.github.io/etch-a-sketch/)
 * [Terrance Brown's solution](https://github.com/terrancebee/etch-a-sketch) | [View in broswer](https://terrancebee.github.io/etch-a-sketch/)
 * [Simon Tharby's solution](https://github.com/jinjagit/Etch-a-Sketch) | [View in browser](https://jinjagit.github.io/Etch-a-Sketch/)
