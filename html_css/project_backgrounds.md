@@ -4,7 +4,7 @@ In this project you'll clone the website of one of the most design-forward compa
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Go to this old version of [apple.com](http://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
+1. Go to this old version of [apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
@@ -19,6 +19,7 @@ In this project you'll clone the website of one of the most design-forward compa
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Javier Machin's solution](https://github.com/Javier-Machin/apple-site) - [View in Browser](https://javier-machin.github.io/apple-site/)
 * [Yakherder's solution](https://github.com/yakherder614/Apple-clone) - [View in Browser]( https://yakherder614.github.io/Apple-clone/)
 * [SarfrazAnjum's](https://github.com/SarfrazAnjum/TOP_Building-with-Backgrounds-and-Gradients) - [View in Browser](https://sarfrazanjum.github.io/TOP_Building-with-Backgrounds-and-Gradients/)
 * [nmac's solution](https://github.com/nmacawile/old-apple-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/old-apple-layout/blob/master/index.html)
@@ -68,6 +69,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/apple-background-images) - [View in browser](https://thiswillhavetodo.github.io/apple-background-images/index.html)
 * [DV's solution](https://github.com/dvislearning/odin-apple-clone) - [View in browser](https://htmlpreview.github.io/?https://github.com/dvislearning/odin-apple-clone/blob/master/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/apple-old-layout) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/apple-old-layout/index.html)
+* [Mike Smith's solution](https://github.com/MikeSS281986/Old-School-Apple-Page) - [View in browser](https://mikess281986.github.io/Old-School-Apple-Page/)
+* [Elena's solution](https://github.com/elena-sam/css-backgrounds) - [View in browser](https://elena-sam.github.io/css-backgrounds/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

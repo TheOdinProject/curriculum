@@ -749,3 +749,4 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Herman's solution](https://github.com/plasmadice/etch-a-sketch) - [View in browser](https://plasmadice.github.io/etch-a-sketch/)
 * [cartwheeler's solution](https://github.com/cartwheeler/Etch-A-Sketch) - [View in browser](https://cartwheeler.github.io/Etch-A-Sketch/)
 * [Scott McKell's solution](https://github.com/zottwickel/etch-a-sketch) - [View in browser](https://zottwickel.github.io/etch-a-sketch/)
+* [Sampson Mao's solution](https://github.com/sampsonmao/sketch-pad) - [View in browser](https://sampsonmao.github.io/sketch-pad/)

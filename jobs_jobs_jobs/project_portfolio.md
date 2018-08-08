@@ -10,6 +10,8 @@ For this project, it's best for you to identify the personal websites of several
 Send us a link to your portfolio site so we can show others! Submit a link to your live site and/or to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [rvalentin1010's solution](https://github.com/rvalentin1010/rvalentin1010.github.io) - [View in Browser](https://rvalentin1010.github.io/)
+* [thghall's solution](https://github.com/theghall/portfolio) - [View in Browser](https://theghall.github.io/portfolio/)
 * [David Chapman's solution - Source Code](https://github.com/davidchappy/wp-portfoliosite) - [Live website](http://portfolio.dachapman.com/)
 * [Eric Gonzalez solution - Source Code](https://github.com/Twinpair/Personal-Website) - [Live website](https://www.eric-gonzalez.com/)
 * [Jonathan Yiv's solution Source Code](https://github.com/JonathanYiv/jonathanyiv.github.io) - [Live website](https://jonathanyiv.github.io)

@@ -33,6 +33,9 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 
 * Add your solution below this line!
 
+* [0zra's (scaffold)solution](https://github.com/0zra/embedding) - [View in browser](https://0zra.github.io/embedding/)
+* [Chris MacSwan's solution](https://github.com/cmacswan07/youtubecopy) - [View in browser](https://cmacswan07.github.io/youtubecopy/)
+* [Javier Machin's solution](https://github.com/Javier-Machin/youtube_player) - [View in browser](https://javier-machin.github.io/youtube_player/)
 * [yakherder's basic solution](https://github.com/yakherder614/you-tube)-[View in Browser](https://yakherder614.github.io/you-tube/)
 * [Johan Morin's Solution](https://github.com/MorrisMalone/youtube-copy) - [View in Browser](https://morrismalone.github.io/youtube-copy/)
 * [Ayoub's solution](https://github.com/Skobraf/Youtube_Player_Page) - [View in browser](https://skobraf.github.io/Youtube_Player_Page/)
@@ -96,5 +99,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [DV's solution](https://github.com/dvislearning/odin-yt-clone) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-yt-clone/blob/master/home.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/youtube_page) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/youtube_page/index.html)
 * [Mike Smith's solution](https://github.com/MikeSS281986/YouTube-Clone-Page) - [View in browser](https://mikess281986.github.io/YouTube-Clone-Page/)
+* [Elena's solution](https://github.com/elena-sam/youtube-replica-project) - [View in browser](https://elena-sam.github.io/youtube-replica-project/)
+* [Punnadittr's solution](https://github.com/punnadittr/u-tube) - [View in browser](https://punnadittr.github.io/u-tube/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
