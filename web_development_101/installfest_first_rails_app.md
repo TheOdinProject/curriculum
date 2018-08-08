@@ -581,7 +581,9 @@ First we need to open the `Gemfile` and edit it.
 
 In your terminal, type `ls` and verify you can see `Gemfile` in the output. If you don't navigate to the directory you have created in Steps 4.2 and 4.3.
 
-Then we will use the text editor you chose to modify our `Gemfile`. Open the the `Gemfile` in your text editor of choice.
+Then we will use VSCode to modify our `Gemfile`. (If you haven't already installed it, go [here](https://code.visualstudio.com/). Don't worry, we'll wait.) Open your app in VSCode by typing `code .`
+
+Once VSCode finishes starting up, there should be a tree view of your app on the left side of the screen. open `Gemfile` and
 
 Delete the line that says:
 
@@ -601,7 +603,7 @@ group :production do
 end
 ~~~
 
-Then save the file, and then close the text editor.
+Then save the file. You can leave VSCode open. We're going to be coming back to it, but for the next step go back to your terminal.
 
 #### Step 4.5.2: Installing the Bundle
 
@@ -613,11 +615,9 @@ bundle install --without production
 
 #### Step 4.5.3: Configuring the root route
 
-The next thing we need to edit is the `routes.rb` file, and set our root route. This is so we can send the application without having to append `/cars` at the end. We will be using `gedit` to do so again.
+The next thing we need to edit is the `routes.rb` file, and set our root route. This is so we can send the application without having to append `/cars` at the end. We will be using VSCode to do so again.
 
-First make sure we are in the root directory of our application, type `ls` and verify you see `Gemfile` in the terminal output.
-
-Next we need to edit the `routes.rb` file. To do this open `config/routes.rb`, and make it match the example below:
+So go back to VSCode and expand the `config` folder in the tree view. one of the files inside will be `routes.rb`. Go ahead and open it up and make it match the example below:
 
 ~~~ruby
 Rails.application.routes.draw do
@@ -626,7 +626,7 @@ Rails.application.routes.draw do
 end
 ~~~
 
-and save the file.
+and save the file. You can close VSCode now if you want, but it won't hurt to leave it open either. either way, the rest of the steps take place in the terminal.
 
 ##### Step 4.6: Adding Changes to git
 
@@ -660,6 +660,14 @@ git push heroku master
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for this to finish.
 
+Most of this input you can ignore for now, but take note of the line a couple lines above your command prompt that will look something like this:
+
+~~~bash
+remote:        https://random-words-73975.herokuapp.com/ deployed to Heroku
+~~~
+
+This is the link to your new site! Yes, you have published something to the internet! You can click it now, but we aren't quite done setting everything up just yet.
+
 #### Step 4.8: Migrate the DB on Heroku
 
 Like we did locally before we launched our app, we need to migrate the database. We need to do this on Heroku, so we can use the Heroku-cli to do so.
@@ -674,7 +682,7 @@ You might see some strange output, as long as you do not have an error, you have
 
 #### Step 4.9: Visit your new application
 
-Now It's time to see your app on the web! To quickly open it, type:
+Now It's time to see your app on the web! If you are not using WSL, to quickly open it, type:
 
 ~~~bash
 heroku open
@@ -682,7 +690,7 @@ heroku open
 
 and play around with it! 
 
-NOTE: if you are using WLS, `heroku open` may not open automatically, but it should provide you a link to copy and paste into your browser. If nothing shows up, come ask for help in [the Gitter chat room](https://gitter.im/TheOdinProject)
+If you are using WSL, `heroku open` will not open automatically, but remember that link in step 4.7? If you already visited it out of excitement, just refresh the page, if you haven't copy/paste it now and have a look! If nothing shows up, come ask for help in [the Gitter chat room](https://gitter.im/TheOdinProject)
 
 ### Step 5: Let us know how it went!
 
