@@ -228,6 +228,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [mojotron's Solution](https://github.com/mojotron/tic-tac-toe)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/Tic_Tac_toe/blob/master/tic.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Tic-Tac-Toe/blob/master/tictactoe.rb)
+* [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/intermediate-ruby/OOP/tic-tac-toe.rb)
 
 ### Project 2: Mastermind
 
@@ -424,6 +425,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Erina Kii solution](https://github.com/erinakii/TheOdinProject/tree/master/mastermind_game)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Mastermind/blob/master/mastermind.rb)
 * [mojotron's Solution](https://github.com/mojotron/mastermind)
+* [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/intermediate-ruby/OOP/master-mind.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

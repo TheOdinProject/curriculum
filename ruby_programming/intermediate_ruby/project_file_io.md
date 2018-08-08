@@ -19,6 +19,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 * [prw001's Solution](https://github.com/prw001/hanged_man)
+* [brndntng's solution](https://github.com/brndntng/hangman)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/hangman)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/Hangman_Game)
 * [Reece Pritchard's Solution](https://github.com/rapritchard/ruby-hangman)
