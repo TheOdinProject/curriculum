@@ -233,15 +233,32 @@ To make our lives easier in the long run, we will install a Ruby version manager
 
 To install rbenv, run the following in your terminal:
 
-`git clone https://github.com/rbenv/rbenv.git ~/.rbenv`
+~~~bash
+brew install rbenv
+~~~
 
 then run:
 
-`echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile`
+~~~bash
+rbenv init
+~~~
 
+You should see the following after the command has run:
+
+~~~bash
+# Load rbenv automatically by appending 
+# the following to ~/.bash_profile: 
+
+eval "$(rbenv init -)"
+~~~
+
+We will do as it suggests by running the following in the terminal:
+
+~~~bash
 `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+~~~
 
-These commands will simply use git (the program we installed above) to copy a program from GitHub to a hidden folder named `.rbenv` in your "home" directory and then add it to your PATH. Don't worry if you don't know what this means.
+These commands will use `brew` to install rbenv and add it to your profile so Rbenv loads when you open your terminal. Don't worry if you don't know what this means.
 
 At this point we need to restart the terminal for changes to take effect.  Click the red "x" and then re-open the terminal as we did above.
 
@@ -250,11 +267,15 @@ At this point we need to restart the terminal for changes to take effect.  Click
 From inside of the new terminal enter the following:
 
 ~~~bash
-mkdir -p ~/.rbenv/plugins
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 ~~~
-and then
 
-`git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build`
+If you see something *very, very similar* to the message below you are ready to proceed, if not you should seek assistance in the Gitter channel
+
+~~~bash
+Checking for `rbenv' in PATH: /usr/local/bin/rbenv Checking for rbenv shims in PATH: OK Checking `rbenv install' support: /usr/local/bin/rbenv-install (ruby-build 20180618) Counting installed Ruby versions: none There aren't any Ruby versions installed under `/Users/<YourNameHere>/.rbenv/versions'. You can install Ruby versions like so: rbenv install 2.2.4 Checking RubyGems settings: OK Auditing installed plugins: OK
+~~~
+
 
 ##### Step 3.3: Installing Ruby
 
