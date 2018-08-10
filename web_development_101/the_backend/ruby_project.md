@@ -438,6 +438,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/learn_ruby)
 * [MrObele's Solution](https://github.com/MrObele/learn_ruby)
 * [Brendaneus' Solution](https://github.com/Brendaneus/learn_ruby)
+* [IrritatedEllipses' Solution](https://github.com/IrritatedEllipses/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
