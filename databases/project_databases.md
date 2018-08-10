@@ -50,6 +50,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Hana Klingova's solution](https://github.com/hanny21/sql_zoo_solutions)
 * [HSaad's solution](https://github.com/HSaad/sql-zoo)
 * [Agon's solution](https://github.com/AgonIdrizi/SQL_Zoo/blob/master/README.md)
+* [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/databases/SQL_zoo_project.sql)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
