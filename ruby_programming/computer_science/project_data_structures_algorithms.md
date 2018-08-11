@@ -178,6 +178,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [prw001's Solution](https://github.com/prw001/knight_moves)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/chess.rb)
 * [Malaika (Mic) Solution](https://github.com/malaikaMI/Kinghts_trevail/blob/master/kt.rb)
 * [Btreims' Solution](https://github.com/btreim/ruby/blob/master/knight_moves.rb)
