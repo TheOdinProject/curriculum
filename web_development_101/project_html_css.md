@@ -1591,6 +1591,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Lucas Ogden-Davis's Solution (Easy & Difficult)](https://github.com/ogdendavis/google-clone) - [View in Browser (Easy)](https://ogdendavis.github.io/google-clone/) - [View in Browser (Difficult)](https://ogdendavis.github.io/google-clone/results-page.html)
 * [Benidzu's solution (Easy)](https://github.com/Benidzu/google-homepage) - [View in Browser (Easy)](https://benidzu.github.io/google-homepage/)
 * [Harpreet's Solution (Easy)](https://github.com/harpreetvirkk/google-homepage) - [View in Browser](https://harpreetvirkk.github.io/google-homepage/)
+* [Achmad Wahyu's Solution (Easy)](https://github.com/awahyu253/Google_Homepage) - [View in Browser](https://awahyu253.github.io/Google_Homepage/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
