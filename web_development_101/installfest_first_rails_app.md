@@ -231,6 +231,8 @@ The next program we need to install is Ruby.  Ruby is a scripting language very 
 
 To make our lives easier in the long run, we will install a Ruby version manager to install Ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
 
+Before continuing, run `which rvm`, `which rbenv` and `which chruby`, if it responds `/usr/local/bin/<rvm/chruby/rbenv>` you already have a Ruby version manager installed. Installing two will cause strange issues. If you need help please come and ask questions in the [Gitter chat](https://gitter.im/TheOdinProject/theodinproject). If the commands did nothing you can continue.
+
 To install rbenv, run the following in your terminal:
 
 ~~~bash
@@ -258,7 +260,7 @@ We will do as it suggests by running the following in the terminal:
 `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
 ~~~
 
-These commands will use `brew` to install rbenv and add it to your profile so Rbenv loads when you open your terminal. Don't worry if you don't know what this means.
+These commands will use `brew` to install rbenv and add it to your profile so Rbenv loads when you open your terminal. By using `brew` to manage the installation we make it easy to update and uninstall `Rbenv` in the future if we want to. Don't worry if you don't know what this means.
 
 At this point we need to restart the terminal for changes to take effect.  Click the red "x" and then re-open the terminal as we did above.
 
