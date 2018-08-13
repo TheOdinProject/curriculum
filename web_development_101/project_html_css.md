@@ -1593,6 +1593,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Harpreet's Solution (Easy)](https://github.com/harpreetvirkk/google-homepage) - [View in Browser](https://harpreetvirkk.github.io/google-homepage/)
 * [Achmad Wahyu's Solution (Easy)](https://github.com/awahyu253/Google_Homepage) - [View in Browser](https://awahyu253.github.io/Google_Homepage/)
 * [Gelblum's Solution (easy)](https://github.com/gelblum/google-homepage) - [View in Browser](https://gelblum.github.io/google-homepage/)
+* [Ancher Hisogi's Solution (easy)](https://github.com/Hisogi/google-homepage) - [View in Browser](https://hisogi.github.io/google-homepage/)
 * [JeffFromParis' Solution (difficult)](https://github.com/JeffFromParis/google-result-page) - [View in Browser](https://jefffromparis.github.io/google-result-page/)
 
 ### Additional Resources
