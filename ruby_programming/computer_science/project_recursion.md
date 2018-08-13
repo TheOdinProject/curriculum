@@ -322,7 +322,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/Recursion/blob/master/MergeSort.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Merge-sort/blob/master/mergesort.rb)
 * [mojotron's solution](https://github.com/mojotron/recursion/blob/master/merge_sort.rb)
-* [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/Linked-list)
+* [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/advanced_building_blocks_projects/sorting_alghoritms)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
