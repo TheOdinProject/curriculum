@@ -51,12 +51,12 @@ Of course, the import statement is the same thing that you used during the webpa
 // a file called functionOne.js
 const functionOne = () => console.log('FUNCTION ONE!')
 
-export functionOne
+export { functionOne }
 ~~~
 
 ~~~javascript
 // another JS file
-import functionOne from './functionOne'
+import { functionOne } from './functionOne'
 
 functionOne() //this should work as expected!
 ~~~
