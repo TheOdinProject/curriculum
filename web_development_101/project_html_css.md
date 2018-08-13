@@ -1592,6 +1592,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Benidzu's solution (Easy)](https://github.com/Benidzu/google-homepage) - [View in Browser (Easy)](https://benidzu.github.io/google-homepage/)
 * [Harpreet's Solution (Easy)](https://github.com/harpreetvirkk/google-homepage) - [View in Browser](https://harpreetvirkk.github.io/google-homepage/)
 * [Achmad Wahyu's Solution (Easy)](https://github.com/awahyu253/Google_Homepage) - [View in Browser](https://awahyu253.github.io/Google_Homepage/)
+* [Gelblum's Solution (easy)](https://github.com/gelblum/google_homepage) - [View in Browser](https://gelblum.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
