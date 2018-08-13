@@ -155,7 +155,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Fibonacci/blob/master/fib.rb)
 * [Peoplemakeculture's solution](https://github.com/PeopleMakeCulture/ruby_recursion)
 * [mojotron's solution](https://github.com/mojotron/recursion/blob/master/fibonacci_sequence.rb)
-* [dmarkiewicz's solution] (https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/fibonacci_sequence)
+* [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/fibonacci_sequence)
 
 ### Project: Merge Sort
 
