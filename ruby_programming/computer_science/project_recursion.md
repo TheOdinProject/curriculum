@@ -153,6 +153,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Aziz Yakubov's Solution](https://github.com/azizyakubov/Ruby_practice/blob/master/Fibonacci/fibonacci.rb)
 * [Agon's solution](https://github.com/AgonIdrizi/Recursion/blob/master/fibonnaci.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Fibonacci/blob/master/fib.rb)
+* [Peoplemakeculture's solution](https://github.com/PeopleMakeCulture/ruby_recursion)
+* [mojotron's solution](https://github.com/mojotron/recursion/blob/master/fibonacci_sequence.rb)
+* [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/fibonacci_sequence)
 
 ### Project: Merge Sort
 
@@ -318,6 +321,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Aziz Yakubov's Solution](https://github.com/azizyakubov/Ruby_practice/blob/master/Merge_sort/merge_sort.rb)
 * [Agon's solution](https://github.com/AgonIdrizi/Recursion/blob/master/MergeSort.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Merge-sort/blob/master/mergesort.rb)
+* [mojotron's solution](https://github.com/mojotron/recursion/blob/master/merge_sort.rb)
+* [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/advanced_building_blocks_projects/sorting_alghoritms)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

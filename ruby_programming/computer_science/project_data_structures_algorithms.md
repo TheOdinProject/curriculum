@@ -26,6 +26,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [prw001's Solution](https://github.com/prw001/binary_tree_dfs_bfs)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Binary%20Tree.rb)
 * [Malaika (Mic) Solution](https://github.com/malaikaMI/Data_structure/blob/master/binary_tree.rb)
 * [Nathan Sherburne' Solution](https://github.com/nathansherburne/ruby_practice/tree/master/data_structures/binary_search_tree)
@@ -177,6 +178,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [prw001's Solution](https://github.com/prw001/knight_moves)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/chess.rb)
 * [Malaika (Mic) Solution](https://github.com/malaikaMI/Kinghts_trevail/blob/master/kt.rb)
 * [Btreims' Solution](https://github.com/btreim/ruby/blob/master/knight_moves.rb)
