@@ -1595,6 +1595,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Gelblum's Solution (easy)](https://github.com/gelblum/google-homepage) - [View in Browser](https://gelblum.github.io/google-homepage/)
 * [Ancher Hisogi's Solution (easy)](https://github.com/Hisogi/google-homepage) - [View in Browser](https://hisogi.github.io/google-homepage/)
 * [JeffFromParis' Solution (difficult)](https://github.com/JeffFromParis/google-result-page) - [View in Browser](https://jefffromparis.github.io/google-result-page/)
+* [Alper's Solution (difficult)](https://github.com/HeilHeisenberg/google-mock) - [View in Browser](https://heilheisenberg.github.io/google-mock/
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
