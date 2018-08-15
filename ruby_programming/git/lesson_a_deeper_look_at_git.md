@@ -45,4 +45,4 @@ Look through these now and then use them to test yourself after doing the assign
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Watch [Get Going from Pro Git](http://git-scm.com/video/get-going) if you'd like a refresher of things.
-* Read [Git Cheat Sheet] (https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
+* Read [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
