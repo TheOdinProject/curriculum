@@ -282,3 +282,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Emil Dimitrov's Solution](https://github.com/imemdm/rock-paper-scissors) - [View in Browser](https://imemdm.github.io/rock-paper-scissors/)
 - [Fan's Solution](https://github.com/Komor-RP/rock-paper-scissors) - [View in Browser](https://murmuring-beach-21885.herokuapp.com/)
 - [bchalman's Solution](https://github.com/bchalman/rock_paper_scissors-JS) - [View in Browser](https://bchalman.github.io/rock_paper_scissors-JS/)
+- [RTViner's Solution](https://github.com/rtviner/rock-paper-scissors-odin)
