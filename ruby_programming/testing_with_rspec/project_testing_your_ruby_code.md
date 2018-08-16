@@ -20,7 +20,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
-*[prw001's solutions](https://github.com/prw001/ruby_bdd_exercises)
+* [prw001's solutions](https://github.com/prw001/ruby_bdd_exercises)
 * Max Garber's solutions:[Caesar Cipher](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Caesar%20Ciphar), [Enumerable Methods](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Enumerable%20Methods), [Tic-Tac-Toe](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Tic%20Tac%20Toe)
 * Romane Green's solutions: [Caesar Cipher](https://github.com/RomaneGreen/rebuilding_enumerable/blob/master/spec/cesar_cypher_spec.rb), [Enumerable Methods](https://github.com/RomaneGreen/rebuilding_enumerable/blob/master/spec/rebuilding_enumerable_spec.rb), [Tic-Tac-Toe](https://github.com/RomaneGreen/tic_tac_toe/blob/master/spec/tictac_spec.rb)
 * Demo318's solutions: [Caesar Cipher](https://github.com/Demo318/ruby_building_blocks/blob/master/spec/01_caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/Demo318/ruby_advanced_building_blocs/blob/master/spec/my_enumerable_spec.rb), [Tic-Tac-Toe](https://github.com/Demo318/ruby_tictactoe/tree/master/spec)
