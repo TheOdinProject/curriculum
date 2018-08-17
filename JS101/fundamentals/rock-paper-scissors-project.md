@@ -284,4 +284,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Fan's Solution](https://github.com/Komor-RP/rock-paper-scissors) - [View in Browser](https://murmuring-beach-21885.herokuapp.com/)
 - [bchalman's Solution](https://github.com/bchalman/rock_paper_scissors-JS) - [View in Browser](https://bchalman.github.io/rock_paper_scissors-JS/)
 - [RTViner's Solution](https://github.com/rtviner/rock-paper-scissors-odin)
--[kwambugu's GUI solution](https://github.com/kwambugu/rock-paper-scissors/interface)
+- [kwambugu's GUI solution](https://github.com/kwambugu/rock-paper-scissors/interface)
+- [Ancher Hisogi's Solution](https://github.com/Hisogi/rock_paper_scissors) - [View in Browser](https://hisogi.github.io/rock_paper_scissors/)
