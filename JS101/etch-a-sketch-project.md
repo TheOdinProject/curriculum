@@ -186,3 +186,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [IvanaGoSt's Solution](https://github.com/IvanaGoSt/Etch-a-Sketch) - [View in Browser](https://cdn.rawgit.com/IvanaGoSt/Etch-a-Sketch/0aef0525/index.html)
 * [NatSydenham's Solution](https://github.com/NatSydenham/etchasketch) - [View in Browser](https://natsydenham.github.io/etchasketch/)
 * [bchalman's Solution](https://github.com/bchalman/etch-a-sketch) - [View in Browser](https://bchalman.github.io/etch-a-sketch/)
+* [codyMalcolm's Solution](https://github.com/codyMalcolm/odin-etch-a-sketch) - [View in Browser](https://codymalcolm.github.io/odin-etch-a-sketch/)
