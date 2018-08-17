@@ -20,6 +20,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [prw001's solutions](https://github.com/prw001/ruby_bdd_exercises)
+* Max Garber's solutions:[Caesar Cipher](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Caesar%20Ciphar), [Enumerable Methods](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Enumerable%20Methods), [Tic-Tac-Toe](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Tic%20Tac%20Toe)
 * Romane Green's solutions: [Caesar Cipher](https://github.com/RomaneGreen/rebuilding_enumerable/blob/master/spec/cesar_cypher_spec.rb), [Enumerable Methods](https://github.com/RomaneGreen/rebuilding_enumerable/blob/master/spec/rebuilding_enumerable_spec.rb), [Tic-Tac-Toe](https://github.com/RomaneGreen/tic_tac_toe/blob/master/spec/tictac_spec.rb)
 * Demo318's solutions: [Caesar Cipher](https://github.com/Demo318/ruby_building_blocks/blob/master/spec/01_caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/Demo318/ruby_advanced_building_blocs/blob/master/spec/my_enumerable_spec.rb), [Tic-Tac-Toe](https://github.com/Demo318/ruby_tictactoe/tree/master/spec)
 * Isil Donmez's solutions: [Caesar's Cipher](https://github.com/isildonmez/Caesar-Cipher/blob/master/caesar_spec.rb), [Enumerable Methods](https://github.com/isildonmez/advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods_spec.rb), [Tic-Tac-Toe](https://github.com/isildonmez/OOP/blob/master/tic_tac_toe/tic_tac_toe_spec.rb)
@@ -104,6 +106,8 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [prw001's solution](https://github.com/prw001/connect_four)
+* [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Connect%20Four)
 * [Demo318's solution](https://github.com/Demo318/ruby_connect_four)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Connect_Four)
 * [Isil Donmez's solution](https://github.com/isildonmez/connect4)

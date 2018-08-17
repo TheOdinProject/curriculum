@@ -17,6 +17,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [brndntng's solution](https://github.com/brndntng/tic-tac-toe)
+* [prw001's solution](https://github.com/prw001/Tic_Tac_Toe)
+* [sametcilli's solution](https://github.com/sametcilli/ruby-exercises_tic_tac)
+* [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Tic%20Tac%20Toe/lib)
 * [Reece Pritchard's solution](https://github.com/rapritchard/ruby-tic-tac-toe)
 * [Ngo Van Huong's solution](https://github.com/ngovanhuong94/tictactoe-ruby)
 * [Nathan Sherburne's solution](https://github.com/nathansherburne/ruby_practice/tree/master/tic_tac_toe)
@@ -224,6 +228,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [mojotron's Solution](https://github.com/mojotron/tic-tac-toe)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/Tic_Tac_toe/blob/master/tic.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Tic-Tac-Toe/blob/master/tictactoe.rb)
+* [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/intermediate-ruby/OOP/tic-tac-toe.rb)
 
 ### Project 2: Mastermind
 
@@ -246,6 +251,9 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [prw001's solution](https://github.com/prw001/mastermind)
+* [sametcilli's solution](https://github.com/sametcilli/ruby_exercises_mastermind)
+* [Max Garber's solution (with AI)](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Mastermind.rb)
 * [Henry Kirya's Solution](https://github.com/harrika/odin/tree/master/mastermind)
 * [Isil Donmez's Solution](https://github.com/isildonmez/OOP/tree/master/master_mind)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/Mastermind/blob/master/mastermind.rb)
@@ -417,6 +425,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Erina Kii solution](https://github.com/erinakii/TheOdinProject/tree/master/mastermind_game)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Mastermind/blob/master/mastermind.rb)
 * [mojotron's Solution](https://github.com/mojotron/mastermind)
+* [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/intermediate-ruby/OOP/master-mind.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

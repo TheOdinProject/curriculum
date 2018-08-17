@@ -29,6 +29,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 * [Malaika's Solution](https://github.com/malaikaMI/ruby_project)
+* [Mohamed Elattar's solutions](https://github.com/mohamed-elattar/learn_ruby)
+* [Vibhor Kainth's solutions](https://gitlab.com/vkainth/ruby-exercises)
+* [rvalentin1010's solutions](https://github.com/rvalentin1010/learn_ruby)
+* [Pietro Verdile's solutions](https://github.com/pverdile/learn_ruby)
+* [Shrouk Abozeid's solutions](https://github.com/ShroukAbozeid/learn_ruby)
+* [Simon Tharby's solutions](https://github.com/jinjagit/learn_ruby)
+* [prw001's solutions](https://github.com/prw001/learn_ruby)
 * [Ajani Stewart's solutions](https://github.com/AjaniStewart/learn_ruby-1)
 * [ebosi's solutions](https://github.com/EBoisseauSierra/learn_ruby)
 * [Max Garber's solutions](https://github.com/bubblebooy/learn_ruby)
@@ -427,6 +434,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/learn_ruby)
 * [Akash's Solution](https://github.com/Akash-sopho/learn_ruby)
 * [John Piatras' Solution](https://github.com/JohnPiatras/learn_ruby)
+* [Amy Smith's Solution](https://github.com/amicloud/the-odin-project/tree/master/learn-ruby)
+* [RossTrang's Solution](https://github.com/RossTrang/learn_ruby)
+* [thesofakillers's Solution](https://github.com/thesofakillers/learn_ruby)
+* [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/learn_ruby)
+* [MrObele's Solution](https://github.com/MrObele/learn_ruby)
+* [Brendaneus' Solution](https://github.com/Brendaneus/learn_ruby)
+* [IrritatedEllipses' Solution](https://github.com/IrritatedEllipses/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
