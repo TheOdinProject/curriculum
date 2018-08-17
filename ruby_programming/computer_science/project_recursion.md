@@ -156,6 +156,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Peoplemakeculture's solution](https://github.com/PeopleMakeCulture/ruby_recursion)
 * [mojotron's solution](https://github.com/mojotron/recursion/blob/master/fibonacci_sequence.rb)
 * [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/fibonacci_sequence)
+* [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/a-bit-of-CS/recursion/fibonacci.rb)
 
 ### Project: Merge Sort
 
@@ -323,6 +324,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Merge-sort/blob/master/mergesort.rb)
 * [mojotron's solution](https://github.com/mojotron/recursion/blob/master/merge_sort.rb)
 * [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/advanced_building_blocks_projects/sorting_alghoritms)
+* [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/a-bit-of-CS/recursion/merge-sort.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
