@@ -274,7 +274,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Amy Smith's solution](https://github.com/amicloud/the-odin-project/tree/master/rockpaperscissors) - [View in Browser](https://amicloud.github.io/the-odin-project/rockpaperscissors/rockpaperscissors.html)
 - [John's Solution](https://github.com/johnmeade-webdev/rock_paper_scissors)
 - [Molly's Solution](https://github.com/mkels/rock-paper-scissors)
-- [Eren Cataltepe's Solution](https://github.com/erencataltepe/rock-paper-scissors)
+- [Eren Cataltepe's Solution](https://github.com/erencataltepe/rock-paper-scissors) - [View in Browser](https://erencataltepe.github.io/rock-paper-scissors/)
 - [Wesley Wang's Solution](https://github.com/wesleymellon/Rock-Paper-Scissors)
 - [Alexe Garin's Solution](https://github.com/lxg1992/RockPaperScissors)
 - [sampsonmao's solution](https://github.com/sampsonmao/rock-paper-scissors) - [View in Browser](https://sampsonmao.github.io/rock-paper-scissors/)
