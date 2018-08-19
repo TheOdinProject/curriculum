@@ -1600,6 +1600,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [aketani32's Solution (easy)](https://github.com/aketani32/google-homepage) - [View in Browser](https://github.com/aketani32/google-homepage/)
 * [NathanPearson's Solution (easy)](https://github.com/NathanPearson/google_homepage) - [View in Browser](https://nathanpearson.github.io/google_homepage/)
 * [Dare Lawal's Solution (easy)](https://github.com/lawaldare/google-homepage-) - [View in Browser](https://lawaldare.github.io/google-homepage-/)
+* [Eugenie Ordonneau's Solution (easy)](https://github.com/Eug92100/google-homepage) - [View in Browser](https://eug92100.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
