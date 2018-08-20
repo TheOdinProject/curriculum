@@ -703,6 +703,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Amy Smith's Solution](https://github.com/amicloud/the-odin-project/tree/master/ruby-programming/building-blocks/stock-picker)
 * [Felipe Parreira's Solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/building-blocks/stock_picker.rb)
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/stock_picker)
+* [Joel Infeld's solution](https://github.com/joelinfeld/stock_picker/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -1036,3 +1037,4 @@ Next, make sure your method can handle multiple words:
 * [Amy Smith's Solution](https://github.com/amicloud/the-odin-project/tree/master/ruby-programming/building-blocks/substrings)
 * [Felipe Parreira's Solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/building-blocks/substrings.rb)
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/substrings)
+* [Joel Infeld's solution](https://github.com/joelinfeld/substrings/blob/master/substrings.rb)
