@@ -289,3 +289,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Craftmoon's Solution](https://github.com/Craftmoon/jankenpon) - [View in Browser](https://craftmoon.github.io/jankenpon/)
 - [Loumarven's Solution](https://github.com/loumarven/rock-paper-scissors)
 - [rysergic's solution](https://github.com/rysergic/rock-paper-scissors/)
+- [Roshan's solution](https://github.com/roshanrahman/the-odin-project/tree/master/rock-paper-scissors-js) - [View in Browser](https://roshanrahman.github.io/the-odin-project/rock-paper-scissors-js/)
