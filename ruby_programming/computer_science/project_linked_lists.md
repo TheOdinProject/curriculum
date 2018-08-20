@@ -157,4 +157,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Agon Idrizi's Solution:](https://github.com/AgonIdrizi/Recursion/blob/master/linked_list.rb)
 * [Areeba's Solution](https://github.com/AREEBAISHTIAQ/LinkedLists/blob/master/linkedlist.rb)
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/Linked-list)
+* [Felipe Parreira's Solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/a-bit-of-CS/linked_lists/linked-list.rb)
 
