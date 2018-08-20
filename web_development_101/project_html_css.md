@@ -1601,6 +1601,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [NathanPearson's Solution (easy)](https://github.com/NathanPearson/google_homepage) - [View in Browser](https://nathanpearson.github.io/google_homepage/)
 * [Dare Lawal's Solution (easy)](https://github.com/lawaldare/google-homepage-) - [View in Browser](https://lawaldare.github.io/google-homepage-/)
 * [MaOdRo's Solution (easy)](https://maodro.github.io/google-homepage/) - [View in Browser]
+* [Eugenie Ordonneau's Solution (easy)](https://github.com/Eug92100/google-homepage) - [View in Browser](https://eug92100.github.io/google-homepage/)
+* [Roshan's Solution (easy)](https://github.com/roshanrahman/google-homepage) - [View in Browser](https://roshanrahman.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
