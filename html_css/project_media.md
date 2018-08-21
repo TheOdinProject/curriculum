@@ -33,6 +33,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 
 * Add your solution below this line!
 
+* [rvalentin1010's solution](https://github.com/rvalentin1010/youtube-video-player) - [View in browser](https://rvalentin1010.github.io/youtube-video-player/)
 * [0zra's (scaffold)solution](https://github.com/0zra/embedding) - [View in browser](https://0zra.github.io/embedding/)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/youtubecopy) - [View in browser](https://cmacswan07.github.io/youtubecopy/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/youtube_player) - [View in browser](https://javier-machin.github.io/youtube_player/)
