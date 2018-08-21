@@ -291,6 +291,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Craftmoon's Solution](https://github.com/Craftmoon/jankenpon) - [View in Browser](https://craftmoon.github.io/jankenpon/)
 - [Loumarven's Solution](https://github.com/loumarven/rock-paper-scissors)
 - [rysergic's solution](https://github.com/rysergic/rock-paper-scissors/)
+- [Dare Lawal's Solution](https://github.com/lawaldare/rock-paper-scissors) - [View in Browser](https://lawaldare.github.io/rock-paper-scissors/)
 - [Nate Pearson's Solution](https://github.com/NathanPearson/RockPaperScissors) - [View in Browser](https://nathanpearson.github.io/RockPaperScissors/)
 - [Allen D's Solution](https://github.com/allendgithub/rockpaperscissors) - [View in Browser](https://rawgit.com/allendgithub/rockpaperscissors/master/index.html)
 - [GGonryun's Solution](https://github.com/GGonryun/rock-paper-scissors) - [View in Browser](https://ggonryun.github.io/rock-paper-scissors/)
