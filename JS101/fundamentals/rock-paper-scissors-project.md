@@ -37,6 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Nixikaz's Solution](https://github.com/Nixikaz/rockpaperscissors)
+- [Justin D. Smith's solution](https://github.com/cinephile85/The-Odin-Project/tree/master/1-Web_Development_101/rock_paper_scissors)
 - [Hummeldon's Console Solution](https://github.com/hummeldon/rps_game)
 - [JoKing's UI solution](https://github.com/joking3000/scissors-paper-stone) - [View in browser](https://joking3000.github.io/scissors-paper-stone/)
 - [Waris's UI solution](https://github.com/warisz/Rock-Paper-Scissors) - [View in browser](https://cdn.rawgit.com/warisz/Rock-Paper-Scissors/8a48fcbf/index.html)
