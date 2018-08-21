@@ -25,6 +25,8 @@ Of course, you can't copy every single feature and a lot of the user interface w
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/project_final_js.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [Gregthepeg's](https://github.com/gregthepeg4/instagram) - [View in browser](https://insteadgram1.herokuapp.com/users/sign_in)
+* [Brock McElroy's solution](https://github.com/brxck/castaway) - [View in browser](http://castaway.brockmcelroy.com)
 * [Jack Wong's solution](https://github.com/iamjackslayer/odin-chat) - [View in browser](https://odin-chat.herokuapp.com)
 * [Axel's solution](https://github.com/afuh/pinstagram) - [View in browser](https://pinstagram-app.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") - [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")

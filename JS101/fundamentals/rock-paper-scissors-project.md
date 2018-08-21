@@ -36,6 +36,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/fundamentals/rock-paper-scissors-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Nixikaz's Solution](https://github.com/Nixikaz/rockpaperscissors)
+- [Justin D. Smith's solution](https://github.com/cinephile85/The-Odin-Project/tree/master/1-Web_Development_101/rock_paper_scissors)
 - [Hummeldon's Console Solution](https://github.com/hummeldon/rps_game)
 - [JoKing's UI solution](https://github.com/joking3000/scissors-paper-stone) - [View in browser](https://joking3000.github.io/scissors-paper-stone/)
 - [Waris's UI solution](https://github.com/warisz/Rock-Paper-Scissors) - [View in browser](https://cdn.rawgit.com/warisz/Rock-Paper-Scissors/8a48fcbf/index.html)
@@ -290,3 +292,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Loumarven's Solution](https://github.com/loumarven/rock-paper-scissors)
 - [rysergic's solution](https://github.com/rysergic/rock-paper-scissors/)
 - [Roshan's solution](https://github.com/roshanrahman/the-odin-project/tree/master/rock-paper-scissors-js) - [View in Browser](https://roshanrahman.github.io/the-odin-project/rock-paper-scissors-js/)
+- [Dare Lawal's Solution](https://github.com/lawaldare/rock-paper-scissors) - [View in Browser](https://lawaldare.github.io/rock-paper-scissors/)
+- [Nate Pearson's Solution](https://github.com/NathanPearson/RockPaperScissors) - [View in Browser](https://nathanpearson.github.io/RockPaperScissors/)
+- [Allen D's Solution](https://github.com/allendgithub/rockpaperscissors) - [View in Browser](https://rawgit.com/allendgithub/rockpaperscissors/master/index.html)
+- [GGonryun's Solution](https://github.com/GGonryun/rock-paper-scissors) - [View in Browser](https://ggonryun.github.io/rock-paper-scissors/)
+- [Sam C's Solution](https://github.com/JimmyNeutron8/rock-paper-scissors) - [View in Browser](https://jimmyneutron8.github.io/rock-paper-scissors/)
