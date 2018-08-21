@@ -26,7 +26,7 @@ Enough talk! Let's build!
 
 
 ### Student Solutions
-Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
+Submit a link below to the [github repo](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/project_pairing.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
 * [prw001's solution](https://github.com/prw001/pomodoro_clock) - [View in Browser](https://prw001.github.io/pomodoro_clock/)
@@ -81,6 +81,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [mojotron's solution](https://github.com/mojotron/pomodoro-timer) - [View in browser](https://mojotron.github.io/pomodoro-timer/)
 * [AREEBAISHTIAQ's solution](https://github.com/AREEBAISHTIAQ/pomodoro-Timer) - [View in browser](https://AREEBAISHTIAQ.github.io)
 * [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/pomodoro-project)
+* [codyMalcolm's solution](https://github.com/codyMalcolm/odin-pomodoro-clock) - [View in Browser](https://codymalcolm.github.io/odin-pomodoro-clock/)
 
 ### Next Steps
 
