@@ -293,3 +293,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [rysergic's solution](https://github.com/rysergic/rock-paper-scissors/)
 - [Nate Pearson's Solution](https://github.com/NathanPearson/RockPaperScissors) - [View in Browser](https://nathanpearson.github.io/RockPaperScissors/)
 - [Allen D's Solution](https://github.com/allendgithub/rockpaperscissors) - [View in Browser](https://rawgit.com/allendgithub/rockpaperscissors/master/index.html)
+- [Sam C's Solution](https://github.com/JimmyNeutron8/rock-paper-scissors) - [View in Browser](https://jimmyneutron8.github.io/rock-paper-scissors/)
