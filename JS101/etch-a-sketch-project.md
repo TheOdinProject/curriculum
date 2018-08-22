@@ -189,3 +189,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Emil Dimitrov's Solution](https://github.com/imemdm/sketch-pad) - [View in Browser](https://imemdm.github.io/sketch-pad/)
 * [AncherHisogi's Solution](https://github.com/Hisogi/etchi-sketchi) - [View in Browser](https://hisogi.github.io/etchi-sketchi/)
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/etch-a-sketch/) - [View in Browser](https://erencataltepe.github.io/etch-a-sketch/)
+* [Malaika's Solution](https://github.com/malaikaMI/Etch-A-Sketch_project) - [view on codepen](https://codepen.io/MalaikaMI/pen/dKMLLW)
