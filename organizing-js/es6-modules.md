@@ -63,7 +63,7 @@ functionOne() //this should work as expected!
 
 There are _many_ benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and re-use it very easily!
 
-Other benefits include all of the benefits to wrapping your code in factory functions or using the module pattern (the module pattern and ES6 modules are not the same things.. this naming convention is frustrating). By using ES6 modules you can keep different parts your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
+Other benefits include all of the benefits to wrapping your code in factory functions or using the module pattern (the module pattern and ES6 modules are not the same things.. this naming convention is frustrating). By using ES6 modules you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
 
 To pull it all together, let's write a simple module and then include it in our code. We are going to continue from where the webpack tutorial left off. Before beginning your file directory should look something like this:
 
