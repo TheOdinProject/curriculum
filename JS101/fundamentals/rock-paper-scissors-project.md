@@ -297,3 +297,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Allen D's Solution](https://github.com/allendgithub/rockpaperscissors) - [View in Browser](https://rawgit.com/allendgithub/rockpaperscissors/master/index.html)
 - [GGonryun's Solution](https://github.com/GGonryun/rock-paper-scissors) - [View in Browser](https://ggonryun.github.io/rock-paper-scissors/)
 - [Sam C's Solution](https://github.com/JimmyNeutron8/rock-paper-scissors) - [View in Browser](https://jimmyneutron8.github.io/rock-paper-scissors/)
+- [Malaika's Solution][With GUI](https://codepen.io/MalaikaMI/pen/WybjRE)[With out GUI](https://codepen.io/MalaikaMI/pen/erxvRd)
