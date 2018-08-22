@@ -195,3 +195,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon Idrizi's solution](https://github.com/AgonIdrizi/Hangman)
 * [Akash's solution](https://github.com/Akash-sopho/hangman)
 * [mojotron's solution](https://github.com/mojotron/hangman)
+* [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/hangman-project)
