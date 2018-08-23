@@ -196,3 +196,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Akash's solution](https://github.com/Akash-sopho/hangman)
 * [mojotron's solution](https://github.com/mojotron/hangman)
 * [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/hangman-project)
+* [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/tree/master/ruby-programming/intermediate-ruby/File_IO_%26_Serialization/hangman)
