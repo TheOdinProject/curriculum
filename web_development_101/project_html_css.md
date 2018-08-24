@@ -1613,6 +1613,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mark Bailey's Solution (Easy)](https://github.com/markbailey0356/google-homepage) - [View in Browser](https://markbailey0356.github.io/google-homepage/)
 * [Mishael Magsanoc's Solution (Easy)](https://github.com/Mishael98/google-homepage-easy) - [View in Browser](https://mishael98.github.io/google-homepage-easy/)
 * [Pedro Franca's Solution (Easy)](https://github.com/pfranca/google-homepage) - [View in Browser](https://pfranca.github.io/google-homepage/)
+* [Rishabh Kumar Singh's Solution (Easy)](https://github.com/Rishabh631997/google-homepage)
 * [Camila Mizumoto's Solution (Easy)](https://github.com/camilamiz/google-homepage) - [View in Browser](https://camilamiz.github.io/google-homepage/)
 
 ### Additional Resources
