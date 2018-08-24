@@ -4,6 +4,7 @@ Code style is important! Having a consistent set of style rules for things such 
 
 1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular. It is also very well formatted and easy to read.
 2. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
+3. The [JavaScript Standard Style](https://standardjs.com/rules.html). Used by companies like NPM and GitHub, among [others](https://standardjs.com/index.html#who-uses-javascript-standard-style).
 
 ### Linting
 
