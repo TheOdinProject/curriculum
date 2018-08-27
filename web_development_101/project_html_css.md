@@ -1615,6 +1615,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Pedro Franca's Solution (Easy)](https://github.com/pfranca/google-homepage) - [View in Browser](https://pfranca.github.io/google-homepage/)
 * [Rishabh Kumar Singh's Solution (Easy)](https://github.com/Rishabh631997/google-homepage)
 * [Camila Mizumoto's Solution (Easy)](https://github.com/camilamiz/google-homepage) - [View in Browser](https://camilamiz.github.io/google-homepage/)
+* [flee's solution ](https://github.com/flee/google-recreate/) - [View Easy in Browser](https://flee.github.io/google-recreate/) + [View Difficult in Browser](https://flee.github.io/google-recreate/res.html)
+
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
