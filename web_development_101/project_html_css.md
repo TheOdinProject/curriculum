@@ -1616,6 +1616,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Pedro Franca's Solution (Easy)](https://github.com/pfranca/google-homepage) - [View in Browser](https://pfranca.github.io/google-homepage/)
 * [Rishabh Kumar Singh's Solution (Easy)](https://github.com/Rishabh631997/google-homepage)
 * [Camila Mizumoto's Solution (Easy)](https://github.com/camilamiz/google-homepage) - [View in Browser](https://camilamiz.github.io/google-homepage/)
+* [Halkim44's Solution (Difficult)](https://github.com/halkim44/googleResultPage) - [View in Browser](https://halkim44.github.io/googleResultPage/)
 * [flee's solution ](https://github.com/flee/google-recreate/) - [View Easy in Browser](https://flee.github.io/google-recreate/) + [View Difficult in Browser](https://flee.github.io/google-recreate/res.html)
 * [Hassan's Solution (Easy)](https://github.com/husseyexplores/husseyexplores.google-homepage) - [View in Browser](https://husseyexplores.github.io/husseyexplores.google-homepage/)
 
