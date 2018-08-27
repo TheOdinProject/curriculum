@@ -5,52 +5,29 @@ A text editor is by far the most used tool of a developer. This holds true no ma
 
 Rich text editors like Microsoft Word, or Libre-Office Writer, are great for writing a paper, but for the same reason they are good at creating nicely formatted documents, they are not suited for writing code. A document created with these kinds of editors have more than just text embedded in their files. They have information on how to display the text on the screen, along with any graphics embedded into the document. A plain text editor, like notepad or nano, doesn't save this information along with the file. When saved, you simply save the information you see on the screen, directly into the text file. Doing this allows other programs, like Ruby's interpreter, to read and execute the file as code.
 
-### What comes on my OS?
+### What should I use then?
 
-Operating systems generally come with a "plain-text" text editor on the computer. These are generally used for simple edits of configuration files when you do not need any special features.
-
-#### Linux/MacOS
-
-* Vi/Vim: `vi` will come pre-installed with all versions of Linux, it is a complex editor with many features, but is not beginner friendly. If you are interested in `vi`. Install `vim` (Vimproved), and run the command `vimtutor`.
-
-* Nano: Another, more friendly basic text editor that comes with most of the common flavors of linux. You can access this by typing `nano` in the console/terminal.
-
-* Gedit (Ubuntu Only): This comes with Ubuntu, It is a nice text editor and is a bridge between command line based editors and graphical text editors.
-
-* TextEdit (MacOS Only): Similar to notepad on windows with some extra features.
-
-#### Windows
-
-* Notepad: This comes installed with any modern version of windows. It isn't great for much other than editing configuration files.
-
-### Advanced Editors
-
-Advanced editors are similar to the ones that may come installed on an OS already, but they have many more features. Addons, syntax highlighting, auto-closing of braces, and linting to name a few. They have many tools that are useful to both new and experienced developers. While these suggestions are not the only editors you can use, they are some of the favorites around The Odin Project's community.
-
-#### Sublime Text
-
-Sublime is extremely light-weight and flexible, however it is not free. You can use it for a while, and decide for yourself if it is worth the purchase or not. This editor is favored by many, and is by no means a bad editor.
-
-Check it out [here](https://www.sublimetext.com/).
+You can think of code editors as specialized web development tools. They are highly customizable and have many more features that make your life much easier. There is nothing worse than spending 2 hours trying to figure out why your program isn't working only to realize you missed a closing bracket. Plugins, syntax highlighting, auto-closing of braces, and linting are just a few of the benefits of using a code editor. There are many text editors out there, but to get started we suggest one of the following:
 
 #### VSCode
 
-VSCode is a newer editor created by Microsoft, and is completely free. It has outstanding addon support and great git integration. This editor is the most popular among Odin's students and moderators and support is easy to find in the community. For this reason, we recommend you use this editor.
+VSCode is a newer editor created by Microsoft and is completely free. It has outstanding addon support and great git integration. This editor is the most popular among Odin's students and moderators and support is easy to find in the community. You can download and install it from [here](https://code.visualstudio.com/).
 
-Check it out [here](https://code.visualstudio.com/).
+#### Sublime Text
 
-What editor you use is a matter of preference, and it does not hurt to shop around until you find one that you really enjoy using and works for you. **BUT** for the purposes of this course, we are going to assume you are using VSCode. Mainly because it is free, easy to use, and works pretty much the same on every operating system.
+Sublime is extremely light-weight and flexible, however it is not free. You can use it for a while, and decide for yourself if it is worth the purchase or not. This editor is favored by many. Check it out and install from [here](https://www.sublimetext.com/).
 
-Okay, so go install VSCode if you are going to. The link is right up there. Alright, if you are on Linux or Windows, you are good to go. If you are on MacOS, we are going to have you jump through one more hoop --trust me, it's for your own good:
+What editor you use is a matter of preference BUT for the purposes of this course we are going to assume you are using VSCode. Mainly because it is free, easy to use, and works pretty much the same on every operating system.
 
-##### Enable code command for MacOS
+
+### A few Notes
+
+#### MacOS
 
 On Windows and Linux, you can open VSCode from the command line by typing `code` alone. And you can open folders or files by adding the name of the location after it: `code MyCoolProject`. MacOS can do it too, but you gotta set it up yourself.
 
-After installing VSCode launch it whichever way your are comfortable. Once it's running open the Command palette by typing `Ctrl+Shift+P`. In the little dialog that appears type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. I bet you know where this is going. Select that option and restart the terminal if you have it open.
+After installing VSCode launch it whichever way your are comfortable. Once it's running open the Command palette by typing `Cmd+Shift+P`. In the little dialog that appears type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. I bet you know where this is going. Select that option and restart the terminal if you have it open.
 
-Now You with your Mac are almost as cool as your friends with Linux and Windows.
+#### Windows Subsystem for Linux (WSL)
 
-### Conclusion
-
-Obviously, you don't have to use VSCode if you don't want to. If you are already comfortable with something else, or just want to use a different editor, great! Just know that there will be the occasional spot where you will have to do something slightly differently than what we say. But since you are an intelligent and resourceful software developer, you will be just fine.
+Although you have just installed Ubuntu on your computer, you will want to install the Windows version of the code editor you choose. You will edit the files in your Projects directory with the code editor and WSL will be able to read these files.
