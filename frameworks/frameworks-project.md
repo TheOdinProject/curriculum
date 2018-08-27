@@ -1,6 +1,6 @@
 ### Introduction
 
-The best way to actually learn something is to _use_ it! We've directed you to basic tutorials and introductory material for each of the 3 biggest frameworks right now.  For this assignment you need to select **one** of these frameworks and complete a simple project.  A deep-dive into any of these frameworks will be up to you, but at this point you should have a good enough foundation to find your own way.
+The best way to actually learn something is to _use_ it! We've directed you to basic tutorials and introductory material for each of the 3 biggest frameworks right now. For this assignment you need to select **one** of these frameworks and complete a simple project. A deep-dive into any of these frameworks will be up to you, but at this point you should have a good enough foundation to find your own way.
 
 ### Assignment
 
@@ -16,5 +16,7 @@ The best way to actually learn something is to _use_ it! We've directed you to b
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/frameworks/frameworks-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+
 * [Devon's React todo-list solution](https://github.com/defitjo/react-todo-app)
 * [Alexfuro's React book-library solution](https://github.com/alexfuro/odin-books-react)
+* [Katineto's React todo-list solution](https://github.com/Katineto/avocado) - [View in browser](https://katineto.github.io/avocado/)
