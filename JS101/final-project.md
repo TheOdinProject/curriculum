@@ -143,3 +143,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/calculator)
 - [Tommy's Solution](https://github.com/hoangtommy/calculator) - [View in Browser](https://hoangtommy.github.io/calculator/)
 - [Benidzu's Solution](https://github.com/Benidzu/calculator) - [View in Browser](https://benidzu.github.io/calculator/)
+- [bchalman's Solution](https://github.com/bchalman/calculator) - [View in Browser](https://bchalman.github.io/calculator/)
