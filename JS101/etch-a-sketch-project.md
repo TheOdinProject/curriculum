@@ -41,6 +41,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [JoKing's solution](https://github.com/joking3000/etch-a-sketch-project) - [View in Browser](https://joking3000.github.io/etch-a-sketch-project/)
+* [Ben Wilde's solution](https://github.com/Spazrock/etch-a-sketch) - [View in browser](https://spazrock.github.io/etch-a-sketch/)
+* [Chris Wegschied's solution](https://github.com/cwegscheid08/Etch-a-sketch.git) - [View in browser](https://cwegscheid08.github.io)
+* [Gavin Bowen's solution](https://github.com/gavski02/Grid) - [View in browser](https://gavski02.github.io/Grid/)
+* [Seth Robinson's solution](https://github.com/petrichor829/etch-a-sketch) - [View in browser](https://petrichor829.github.io/etch-a-sketch/)
 * [Super1569's solution](https://github.com/Super1569/etch-a-sketch) - [View in Browser](https://super1569.github.io/etch-a-sketch/)
 * [Pietro Verdile's Solution](https://github.com/pverdile/etch-a-sketch-project) - [View in Browser](https://pverdile.github.io/etch-a-sketch-project/)
 * [Smetanca52’s Solution](https://github.com/Smetanca52/ETCH-A-SKETCH-PROJECT) - [View in Browser](https://cdn.rawgit.com/Smetanca52/ETCH-A-SKETCH-PROJECT/09dd7b59/index.html)
@@ -185,3 +189,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [IvanaGoSt's Solution](https://github.com/IvanaGoSt/Etch-a-Sketch) - [View in Browser](https://cdn.rawgit.com/IvanaGoSt/Etch-a-Sketch/0aef0525/index.html)
 * [NatSydenham's Solution](https://github.com/NatSydenham/etchasketch) - [View in Browser](https://natsydenham.github.io/etchasketch/)
 * [bchalman's Solution](https://github.com/bchalman/etch-a-sketch) - [View in Browser](https://bchalman.github.io/etch-a-sketch/)
+* [codyMalcolm's Solution](https://github.com/codyMalcolm/odin-etch-a-sketch) - [View in Browser](https://codymalcolm.github.io/odin-etch-a-sketch/)
+* [Emil Dimitrov's Solution](https://github.com/imemdm/sketch-pad) - [View in Browser](https://imemdm.github.io/sketch-pad/)
+* [AncherHisogi's Solution](https://github.com/Hisogi/etchi-sketchi) - [View in Browser](https://hisogi.github.io/etchi-sketchi/)
+* [Eren Cataltepe's Solution](https://github.com/erencataltepe/etch-a-sketch/) - [View in Browser](https://erencataltepe.github.io/etch-a-sketch/)
+* [Malaika's Solution](https://github.com/malaikaMI/Etch-A-Sketch_project) - [view on codepen](https://codepen.io/MalaikaMI/pen/dKMLLW)
+* [Sam C's Solution](https://github.com/JimmyNeutron8/etch-a-sketch) - [View in Browser](https://jimmyneutron8.github.io/etch-a-sketch/)
