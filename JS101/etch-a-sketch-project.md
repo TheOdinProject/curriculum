@@ -195,3 +195,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/etch-a-sketch/) - [View in Browser](https://erencataltepe.github.io/etch-a-sketch/)
 * [Malaika's Solution](https://github.com/malaikaMI/Etch-A-Sketch_project) - [view on codepen](https://codepen.io/MalaikaMI/pen/dKMLLW)
 * [Sam C's Solution](https://github.com/JimmyNeutron8/etch-a-sketch) - [View in Browser](https://jimmyneutron8.github.io/etch-a-sketch/)
+* [RossTrang's solution](https://github.com/RossTrang/etch-a-sketch) - [View in browser](https://cdn.rawgit.com/RossTrang/etch-a-sketch/f7f84edf/index.html)
