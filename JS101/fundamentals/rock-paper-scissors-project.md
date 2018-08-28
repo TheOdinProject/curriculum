@@ -290,6 +290,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [RTViner's Solution](https://github.com/rtviner/rock-paper-scissors-odin)
 - [kwambugu's GUI solution](https://github.com/kwambugu/rock-paper-scissors/interface)
 - [Ancher Hisogi's Solution](https://github.com/Hisogi/rock_paper_scissors) - [View in Browser](https://hisogi.github.io/rock_paper_scissors/)
+- [codyMalcolm's Solution](https://github.com/codyMalcolm/rock_paper_scissors) - [View in Browser](https://codymalcolm.github.io/rock_paper_scissors/)
 - [Craftmoon's Solution](https://github.com/Craftmoon/jankenpon) - [View in Browser](https://craftmoon.github.io/jankenpon/)
 - [Loumarven's Solution](https://github.com/loumarven/rock-paper-scissors)
 - [rysergic's solution](https://github.com/rysergic/rock-paper-scissors/)
