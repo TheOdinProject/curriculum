@@ -126,7 +126,7 @@ following processes to get unstuck:
 * Google it - you can be sure someone else out there has had the same problem as
 you at some point, a quick Google can often lead to a solution.
 * Take a break - allow your diffuse state to work on the problem.
-* Ask for help in one of our [chats](https://gitter.im/orgs/TheOdinProject/rooms) - come prepared
+* Ask for help in one of our [chats](https://gitter.im/TheOdinProject/home) - come prepared
 with your research done, people will be more willing to help you when they can see
 you have already put effort into trying to figure out the solution.
 

@@ -524,7 +524,7 @@ First we'll open [GitHub.com](https://github.com/) in the browser and sign in (i
 
 On your `Create Repository` page you'll see various commands listed. We know that we want to use SSH to connect to GitHub so **make sure `SSH` has been selected.** Look for the section that says "... or push an existing repository from the command line" and click the icon to the right of it to copy the text to your clipboard. Then paste it into the terminal we have open (Using CTRL + SHIFT + V in Linux or CTRL + V in WSL).
 
-The terminal will start it's work, pausing to verify that you're okay connection to GitHub ('The authenticity of host 'github.com'...' will be displayed and you can safely click yes). After the terminal finishes, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app." If you do not see this in on your GitHub repository, ask for help in the [the Gitter chat room](https://gitter.im/TheOdinProject)
+The terminal will start it's work, pausing to verify that you're okay connection to GitHub ('The authenticity of host 'github.com'...' will be displayed and you can safely click yes). After the terminal finishes, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app." If you do not see this in on your GitHub repository, ask for help in the [the Gitter chat room](https://gitter.im/TheOdinProject/theodinproject)
 
 This marks the start of your Odin Journey! Later on you'll be able to look back at this repository and marvel over how far you've come!
 
@@ -692,8 +692,8 @@ heroku open
 
 and play around with it! 
 
-If you are using WSL, `heroku open` will not open automatically, but remember that link in step 4.7? If you already visited it out of excitement, just refresh the page, if you haven't copy/paste it now and have a look! If nothing shows up, come ask for help in [the Gitter chat room](https://gitter.im/TheOdinProject)
+If you are using WSL, `heroku open` will not open automatically, but remember that link in step 4.7? If you already visited it out of excitement, just refresh the page, if you haven't copy/paste it now and have a look! If nothing shows up, come ask for help in [the Gitter chat room](https://gitter.im/TheOdinProject/theodinproject)
 
 ### Step 5: Let us know how it went!
 
-You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the [the Gitter chat room](https://gitter.im/TheOdinProject), or on the Odin Project forms. You can always find these links in the top right corner, under community.
+You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the [the Gitter chat room](https://gitter.im/TheOdinProject/theodinproject), or on the Odin Project forms. You can always find these links in the top right corner, under community.

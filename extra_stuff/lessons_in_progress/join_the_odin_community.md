@@ -1,8 +1,8 @@
 # Join the Odin Community
 
-Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers. You can [sign in directly]((https://gitter.im/orgs/TheOdinProject/rooms) once you've made a GitHub account, which you will find later on, becomes an integral part of your development workflow.
+Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers. You can [sign in directly]((https://gitter.im/TheOdinProject/home) once you've made a GitHub account, which you will find later on, becomes an integral part of your development workflow.
 
-<!-- Call to Action GITTER SIGN IN BUTTON using this link https://gitter.im/orgs/TheOdinProject/rooms -->
+<!-- Call to Action GITTER SIGN IN BUTTON using this link https://gitter.im/TheOdinProject/home -->
 
 ## Introductions: 'Hello World!'
 Jump in and introduce yourself; tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
@@ -61,4 +61,4 @@ Show us a **screenshot** if you can't pinpoint the problem - you should use this
 
 ## Lets jump right in!
 
-<!-- Call to Action GITTER SIGN IN BUTTON using this link https://gitter.im/orgs/TheOdinProject/rooms -->
+<!-- Call to Action GITTER SIGN IN BUTTON using this link https://gitter.im/TheOdinProject/home -->
