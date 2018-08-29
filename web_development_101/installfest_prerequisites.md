@@ -1,5 +1,5 @@
 ### Introduction
-Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` machine already, you can safely skip this section. Otherwise, click on the dropdown of the method you would like to use below.
+Before we can install ruby and get ready to launch a rails application, we have to set up the operating system to be compatible. If you are using a `MacOS` or `Linux` already you can skip this section. Otherwise, click on the dropdown of the method you would like to use below.
 
 <details markdown="block">
 <summary class="dropDown-header">Linux Dual Boot
@@ -11,7 +11,7 @@ Dual-booting provides you two operating systems that you can switch from with a 
 
 ### Step 1: Downloading Linux
 
-First you will need to download the version of linux you wish to install onto your computer. A good rule of thumb is to use Ubuntu 18.04LTS for stability. Ubuntu comes in different flavors and It is suggested to use [Ubuntu](https://www.ubuntu.com/download/desktop) itself if you can afford the computing requirements. If you cannot match the requirements, [Xubuntu](https://xubuntu.org/) is recommended for pure performance. You are not limited to these "flavors" of Ubuntu however, [here](https://www.ubuntu.com/download/flavours) is a list of the other official Ubuntu flavors and you can choose which ever you would like.
+First you will need to download the version of linux you wish to install onto your computer. Ubuntu comes in different versions ("flavors"), but we suggested the standard [Ubuntu](https://www.ubuntu.com/download/desktop) or [Xubuntu](https://xubuntu.org/) if you're using an older computer.
 
 ### Step 2: Creating a bootable flash-drive
 
@@ -21,7 +21,7 @@ Next you will create a bootable flash drive so you can install Ubuntu to your ha
 
 Follow [this guide](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0) for instructions.
 
-Note: You can use this method to try out different flavors of Ubuntu if you would like. These images allow you to try the different flavors of Ubuntu without committing to an installation. Just note that due to the nature of USB, it is slow for this purpose, and using it this way consistently over time can harm your flash-drive.
+Note: You can use this method to try out different [flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you would like. These images allow you to try the different flavors of Ubuntu without committing to an installation. Just note that due to the nature of USB, it is slow for this purpose, and using it this way consistently over time can harm your flash-drive.
 
 If you would like to play with the version of Ubuntu you installed on the flash drive, click 'try me' instead of 'install'. When you have found a version of Ubuntu you like, continue to the next step.
 
@@ -32,16 +32,18 @@ If you would like to play with the version of Ubuntu you installed on the flash 
 First you will need to boot into Linux on your flash-drive. The exact steps may vary, but on a general level you will need to:
 
 * Insert the flash drive into the computer
-* Reboot the computer into the BIOS/UEFI
+* Reboot the computer
 * Select the flash drive as the bootable device instead of the hard drive
+
+For example, on a Dell computer you will need to plug in the USB drive, reboot the computer and press the F12 key when the computer is first booting up to bring up the boot menu. From here you can select your USB drive and boot from that.  Your computer may not be the same, so google will be your friend in trying to figure it out.
 
 #### Step 3.1: Installing Ubuntu
 
-This is where the real changes start happening to your computer. The best course of action is to leave the settings as default. And click the option saying, "Install Ubuntu alongside Windows". If this option is not available, please come ask for help.
+This is where the real changes start happening to your computer. The default settings are mostly perfect, but be sure to "__Install Ubuntu alongside Windows__". Not doing this can cause irreversible data loss.
 
 One thing you might want to change is the allocated disk space allowed for Linux. 30gb or more is recommended. This can be changed later, but it is a more involved process.
 
-For more information and images: click [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) for a guide from the creators of Ubuntu themselves.
+For step by step instructions please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
 
 </details>
 
@@ -49,96 +51,65 @@ For more information and images: click [here](https://tutorials.ubuntu.com/tutor
 <summary class="dropDown-header">Windows 10 Windows Subsystem for Linux
 </summary>
 
-Microsoft in recent years has made a huge shift to embrace open source and support developers. One of the biggest things they did with Windows 10 was introduce the Windows Subsystem for Linux (WSL) which is a full native command line implementation of Linux within Windows. Of course there are a couple minor adjustments you need to make, but once you have it up and running, you can essentially follow the Ubuntu instructions.
+Microsoft has recently made a huge shift to embrace open source and support developers. One of the biggest things they did with Windows 10 was introduce the Windows Subsystem for Linux (WSL) which is a linux command line within Windows. Of course there are a couple minor adjustments you need to make, but once you have it up and running, you can essentially follow the Ubuntu instructions.
 
-Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/) and you can absolutely go that way, but since we're installing a command line let's use Windows' command line to do it:
+Beginning with the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). It's as simple as installing via the Microsoft Store.
 
-### Step 1: Activate WSL
+### Step 1: Install WSL
 
-First you have to open PowerShell as an administrator. One way to do this is to start typing `powershell` into the task bar search. After just a couple letters PowerShell should show up. Just right click on it and select "Run as Administrator" (if multiple PowerShells show up, just select the top one.)
+Microsoft has made installing WSL super simple. To install this feature you need to
 
-That way is just fine, but I like the super secret squirrel way to do it: press the key combination, `cmd+x` (cmd is the button on the bottom row to the left with the windows logo on it.) This will open a nice bare-bones menu where you can select a lot of useful tools skipping all the fancy bells and whistles. From there just open `Windows PowerShell (Admin)`. Once you have PowerShell up and running, type at the command prompt:
+* Open your start menu and start searching for "Microsoft Store"
+* Enter "Ubuntu" into the search field of the store. 
+* Click on the orange "Ubuntu 18.04" and then "Get".
 
-~~~bash
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-~~~
+This will install the Windows Subsystem for Linux on your computer.  The process will take about 10 minutes to complete, depending on your internet connection.
 
-This will, as the command you just typed so conveniently pointed out, enable the optional Windows feature, Microsoft Windows Subsystem for Linux. But in order to actually make any use of it, you need to install a Linux distribution. If it asks you to, reboot your computer and continue to step 2. If it doesn't, just continue to step 2.
+### Step 2: Starting WSL
 
-### Step 2: Install Ubuntu
-
-#### Step 2.1: Download Your Distribution of Choice
-
-You can actually use any of a number of linux distros which are all available at the windows store, including Ubuntu, which is the one we are going to focus on (in fact, you can install more than one distribution and use them in various combinations, but that is beyond the scope of this tutorial.) But since we were already using PowerShell, why not just download it from the command line? If you had to reboot, open PowerShell like you did in step 1,(be sure to run as an administrator again), and run:
-
-~~~bash
-Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -UseBasicParsing
-~~~
-
-#### Step 2.2: Extract the Zip File
-
-Once we have the archive downloaded, just unzip it to the location of your choice. Once again, you can absolutely just click and unzip from windows explorer, but since we are elite haxors, and PowerShell is still open, let's keep on using it:
-
-~~~bash
-Expand-Archive ~/Ubuntu.zip C:\Ubuntu
-~~~
-
-#### Step 2.3: Install Your Distribution of Choice
-
-Now we just run `Ubuntu.exe` which will be inside `C:\Ubuntu` so either click there like a pleb or type into PowerShell:
-
-~~~bash
-C:\Ubuntu\Ubuntu.exe
-~~~
-
-This will install Ubuntu and immediately transfer you into a bash environment right inside PowerShell. Follow the onscreen instructions to set up your username and password and you're good to go.
+Windows Subsystem for Linux is nothing more than a linux terminal inside of Windows. To start the program simply open your start menu and search for "Ubuntu 18.04". The first time you run the program you may get a message, "Installing, this may take a few minutes..." Sit tight and give it a few moments. When complete, you will be asked to create a new user and password. This is how you will log into your WSL installation.
 
 ### Step 3: Set up Symbolic Link
 
-Okay this is really important: **If you try to edit files inside of the Linux file system from windows apps they will disappear and potentially mess stuff up**. But this is easily avoided, and it even makes things better because you will be able to edit your files with your favorite windows editors and use your bash commands on them too!
+When Ubuntu was set up, your windows file system (C-Drive) was mapped to `/mnt` in Ubuntu. This means that your C drives is actually `/mnt/c` inside WSL and that both Windows and WSL can have access to your C-drive. Don't trust us? Try it out yourself:
 
-When Ubuntu was set up, your windows file system was mapped to `/mnt` in Ubuntu. This means that your C drives is actually `/mnt/c` inside wsl. Anything saved in `/mnt/c` is available to windows and linux and won't cause any problems.
-
-If you want to use your fancy windows editors, you will have to put your project files inside that directory, and if you want them to be easy to find from windows you will likely want them inside your user directories. we're going to show you how to set up a symbolic link to make things really easy on you.
+From your open WSL terminal, type `cd /mnt/c` and then `ls` (Check out the [Command Line Basics Section](/courses/web-development-101/lessons/command-line-basics) if you're unsure about this command). You can then compare the output to the contents of your `C:\` drive in Windows. They should be the same.
 
 #### Step 3.1: Create Directory for your Projects
 
-You can choose to put your project files anywhere you want, but we're going to assume you are cool and put a projects folder in your documents folder.
-From inside ubuntu type:
+You can choose to put your project files anywhere you want, but we're going to assume you are cool and put a projects folder in your Documents folder.
+
+From inside the Ubuntu terminal type:
 
 ~~~bash
-mkdir /mnt/c/Users/<your windows user name>/Documents/Projects
+mkdir /mnt/c/Users/<Your Windows Username>/Documents/Projects
 ~~~
 
-This will create the folder. Obviously you could have used windows explore to click your way there too, but why not use our fancy new toy?
+(Replace `<Your Windows Username>` with your Windows username). This will create a new `Projects` folder inside of your Documents folder. Obviously you could have used windows explore to click your way there too, but why not use our fancy new toy?
 
 #### Step 3.2: Create the Symbolic Link
 
-Next, we're going to establish the link. Essentially it's like an alias such that when you are inside bash, you will be able to type something like: `ls ~/Projects` which is a directory inside your home directory inside bash, but Unbuntu will see this: `ls /mnt/c/Users/<your windows user name>/Documents/Projects` Which is a folder inside your Windows file system.
+Next, we're going to establish the link so that instead of having to type `ls /mnt/c/Users/<your windows user name>/Documents/Projects` each time, you can simply type `ls ~/Projects`, which will point to that obscenely long path above.
 
-So, at your bash command prompt type:
+At your Ubuntu command prompt type:
 
 ~~~bash
 ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
 ~~~
 
-now you can easily access and safely edit your projects folder from inside WSL just by using the `~/Projects` directory instead of `/mnt/c/Users/<your windows user name>/Documents/Projects`.
+now you can easily access and safely edit your projects folder from inside WSL just by using the `~/Projects` directory.
 
-### Step 4: Install Git
+### Step 4 (optional): Make Ubuntu Easier to Find
 
-Git is a version control system that both allows you to easily save projects to the cloud, but also enables easy collaboration. Additionally, a lot of packages that you are going to need are stored there and we are going to need a way to get them to your computer. Go to [this](https://git-scm.com/download/win) link and download and then install git for windows. (it should start automatically.) You will then have access to it from both Windows and WSL.
+If you want to, you can pin a link to Ubuntu to your start menu or your desktop.
 
-### Step 5 (optional): Make it Easier to Find
+You can also elevate PowerShell or Command Prompt by typing `wsl` and pressing enter
 
-If you want to, you can pin a link to ubuntu.exe to your start menu or your desktop.
+If you run wsl inside PowerShell or Command Prompt, you can close WSL by typing `exit` and hitting enter. This returns you back to the normal PowerShell/Command Prompt.
 
-You can also run it from inside PowerShell (you no longer need to be running as an Admin) or the old school Command Prompt by typing `wsl`.
+### Important Note
 
-If you run wsl inside PowerShell or Command Prompt, you can exit it by typing `exit` with no arguments. This returns you back to the normal windows file system.
-
-### One last time
-
-You **can** edit files inside your Linux file system, but you **must** use a command line editor from inside Linux, not some editor on the Windows side or you **will** break something. The only exception is anything inside the `/mnt/<windows drive letter>` directory. This is directly analogous to `<windows drive letter>:\` and is fair game from both the Linux system and the Windows system.
+The WSL program files are well hidden but it's super important that you do not edit these files from Windows. Ignoring this will cause serious problems to your Ubuntu installation and possibly your Windows installation.
 
 ### Additional Links for Further Study
 
@@ -150,12 +121,11 @@ You **can** edit files inside your Linux file system, but you **must** use a com
 
 </details>
 
-
 <details markdown="block">
 <summary class="dropDown-header">Virtual Machine with Linux
 </summary>
 
-If you want to use Ubuntu (or any other version of Linux) as the operating system for your development related to TOP, but you don't feel like permanently changing your OS or switching back and forth between two different operating systems installed on your PC, then using a VM is probably the best option you have. VM is short for 'Virtual machine' which is a widely used program that [emulates](https://en.wikipedia.org/wiki/Emulator) a computer system. In other words, a VM allows you to run an operating system of your choice just like any other computer program. Unfortunately, such convenience comes at a price. Running a program that contains an operating system can be very heavy on your processor and RAM memory.
+If you want to use Linux but can't or don't want to install WSL, then using a VM is the best option. VM is short for 'Virtual machine' which is a widely used program that [emulates](https://en.wikipedia.org/wiki/Emulator) a computer system. In other words, a VM allows you to run an operating system of your choice just like any other computer program. Unfortunately, such convenience comes at a price. Running a program that contains an operating system can be very heavy on your processor and RAM memory.
 
 ### Requirements
 
@@ -172,7 +142,7 @@ You have read through the introduction part and you feel like a VM is your best 
 
 #### Step 1.1.2: Linux download
 
-There are various versions of Linux out there, Ubuntu being undoubtedly the most popular one. Our recommendation is to [download](http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso) and use Ubuntu 18.04 LTS, if you plan on running your VM on a less powerful computer (A rough estimation would be < 4GB ram, < 4 processor cores, for more details check out their [official requirements](https://help.ubuntu.com/community/Installation/SystemRequirements)), we recommend [downloading](https://xubuntu.org/download) and using Xubuntu 18.04 LTS.
+There are thousands of versions of Linux out there. Ubuntu is undoubtedly one of the most popular and user friendly. When installing on a VM we recommend [downloading](https://xubuntu.org/download) and installing Xubuntu 18.04. Xubuntu uses the same base software as Ubuntu, but has a display that's better for VM environments.
 
 ### Step 2: Installing Virtualbox and setting up Ubuntu
 
@@ -187,7 +157,7 @@ Now that you have Virtual Box installed, double click the icon and you should se
 
 Click on the 'New' button to create a virtual operating system. Find your operating system in the dropdown menu (Linux/Ubuntu) and name it as you wish. Continue by pressing next and choose the following options in the next steps:
 
-1. Memory size - Should be about half of your computers maximum. For example, if you have 16GB of RAM memory, allocate 8GB to your virtual operating system.
+1. Memory size - Should be about half of your computers maximum. For example, if you have 8GB of RAM memory, allocate 4GB to your virtual operating system.
 
 2. Hard disk - Create a virtual hard disk
 
@@ -201,25 +171,19 @@ After completing the last step, click the Create button. Your newly created virt
 
 ![choose_disc_vbox](https://i.imgur.com/D3xfaZa.png)
 
-After that, you can go to the System tab and change the amount of hardware the virtual operating system will be using. Generally 50% of RAM and processors should be allocated to the virtual OS, but you can always change that and set them as it fits best for you.
+After that, you can go to the System tab and change the amount of hardware the virtual operating system will be using. Generally 50% of RAM and at least 2 processors should be allocated to the virtual OS, but you can always change these settings based on your needs
 
-Now you can start Ubuntu by right clicking on the icon in the menu and selecting Start then Normal Start.
+You can start the VM by right clicking on the icon in the menu and selecting Start then Normal Start.
 
-The next thing to do is Install Ubuntu. The process is very simple and most of the default options can be left like that including the Installation type which should be `Erase disk and install Ubuntu`. The setup will ask you to confirm this step because it thinks you're formatting your entire hard disk, but actually you're only formatting the newly created virtual hard disk, which doesn't have any data on it, and installing Ubuntu.
+The next thing to do is Install Xubuntu. The process is very simple and most of the default options can be left like that including the Installation type which should be `Erase disk and install Ubuntu`. You will need to confirm this step. It may sound dangerous, but the VM can only see the "Hard Drive" you created above in step 2.2 #2-5. This is the beauty of VMs - the ability to separate the physical space of your computer across many VMs.
 
-You can find their official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) in case you need it.
+The rest of the installation is pretty straightforward, but should you have any questions you can find Ubunutu's official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0).
 
 ### Step 3: Installing Guest Additions and enabling them
 
- Your regular operating system (Windows in this case), the one that is booted directly by pressing that big button on your computer is called the **Host** and all other operating systems that are run inside your VM are **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. They add a lot of functionality to the Guest OS like 'Drag n Drop' from one OS to the other, custom screen sizes for the Guest OS (including fullscreen), Shared folders and so on.
+ Your regular operating system (Windows in this case) is called the **Host** and all other operating systems that run as Virtual Machines are called **Guests**. To make working in your Guest OS easier you need to install Guest Additions. Guest Additions add a lot of functionality to the Guest OS like 'Drag n Drop' files, full-screen guest mode, shared folders and copy/paste between host and guest.
 
-#### Step 3.1: Downloading the ISO
-
-To install guest additions first download the .iso file from [here](https://download.virtualbox.org/virtualbox/). Find your version, click on it and then look for a .iso file named "VBoxGuestAdditions_x.x.x" (x.x.x being your current version). If you're not sure what version of VirtualBox you're using go to the Help tab and click on 'About VirtualBox'. It's important to mention that this download is done on the Host OS. You're downloading this .iso file to Windows.
-
-#### Step 3.2: Installing the guest additions
-
-Now Start Ubuntu unless it's already open and look for a CD icon in the bottom-right part of the screen. Click on the CD icon and click on 'Choose disk image' and then find your recently downloaded VBoxGuestAdditions.iso file and load it. The installation should start automatically, if it doesn't look for the VBox_Gas file on your desktop and open it. After the installation restart your Guest OS.
+Installing Guest Additions can be tricky, but luckily there is Youtube. Check out [this video](https://www.youtube.com/watch?v=qNecdUsuTPw) by ProgrammingKnowledge on how to install the Guest Additions.  Their installation may look different than yours, but all of the commands are the same.
 
 ### Understanding how VM works
 
