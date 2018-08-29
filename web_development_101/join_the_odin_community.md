@@ -13,7 +13,7 @@ Working and collaborating with other people on a project, whether it be big or s
 
 </div>
 
-We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
+We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/TheOdinProject/home).
 
 We also have forum categories for introducing yourself, asking for help, working on Odin, and hanging out. You can view all the categories we have [here](https://forum.theodinproject.com/categories).
 
@@ -79,7 +79,7 @@ Show us a **screenshot** if you can't pinpoint the problem. This is especially u
 * Have fun with giphys: type `/giphy hi` to say hi to everyone.
 * Navigate the chatroom better by typing `/help` for more info.
 * Show your appreciation to those who have helped you on your journey with `@odin-bot ++`.
-* Don't forget about all the [available rooms](https://gitter.im/orgs/TheOdinProject/rooms) that you can join. They're categorised by development topic.
+* Don't forget about all the [available rooms](https://gitter.im/TheOdinProject/home) that you can join. They're categorised by development topic.
 
 ### Forum-specific features
 
