@@ -36,6 +36,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/fundamentals/rock-paper-scissors-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Alan's solution](https://github.com/Bernstein7z/rock-paper-scissors) - [View in Browser](https://bernstein7z.github.io/rock-paper-scissors/)
+- [Jacobo's console solution](https://github.com/cobimr/webdev_101_projects/tree/master/rpc-game-console) - [View in browser](https://cobimr.github.io/webdev_101_projects/rpc-game-console/) - [Jacobo's UI solution](https://github.com/cobimr/webdev_101_projects/tree/master/rpc-game-ui) - [View UI solution in browser](https://cobimr.github.io/webdev_101_projects/rpc-game-ui/)
 - [Bojo's solution](https://github.com/BojoZahariev/Rock_paper_scissors) - [View in browser](https://cdn.rawgit.com/BojoZahariev/Rock_paper_scissors/e04c975b/index.html)
 - [Omid's solution](https://github.com/omid997/js-rock-paper-scissors-odin) - [View in browser](https://omid997.github.io/js-rock-paper-scissors-odin/)
 - [Nixikaz's Solution](https://github.com/Nixikaz/rockpaperscissors)
@@ -53,7 +55,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [gilv93's Solution](https://github.com/gilv93/odinProjectRPS) - [View In Browser](https://gilv93.github.io/odinProjectRPS)
 - [lbburnsy's Solution](https://github.com/lbburnsy/rock-paper-scissors)
 - [LeviButcher's Solution](https://github.com/LeviButcher/rock-paper-scissor) - [View In Browser](https://levibutcher.github.io/rock-paper-scissor/)
-- [amanData's solution](https://github.com/amanData/rock-paper-scissors)
+- [amanData's solution](https://github.com/amanData/rock-paper-scissors) - [UI Solution](https://github.com/amanData/rock-paper-scissors-ui) - [UI Solution View in Browser](https://amandata.github.io/rock-paper-scissors-ui/)
 - [Timon Martin's solution](https://github.com/timonmartin/rockpaperscissors)
 - [Seth Robinson's solution](https://github.com/petrichor829/rock-paper-scissors) - [View console solution in browser](https://petrichor829.github.io/rock-paper-scissors/game-console.html) - [View UI solution in browser](https://petrichor829.github.io/rock-paper-scissors/game-ui.html)
 - [AlexandreLeFou's Solution](https://github.com/AlexandreLeFou/RockPaperScissors/blob/master/RockPaperScissors_console.html)
@@ -290,6 +292,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [RTViner's Solution](https://github.com/rtviner/rock-paper-scissors-odin)
 - [kwambugu's GUI solution](https://github.com/kwambugu/rock-paper-scissors/interface)
 - [Ancher Hisogi's Solution](https://github.com/Hisogi/rock_paper_scissors) - [View in Browser](https://hisogi.github.io/rock_paper_scissors/)
+- [codyMalcolm's Solution](https://github.com/codyMalcolm/rock_paper_scissors) - [View in Browser](https://codymalcolm.github.io/rock_paper_scissors/)
 - [Craftmoon's Solution](https://github.com/Craftmoon/jankenpon) - [View in Browser](https://craftmoon.github.io/jankenpon/)
 - [Loumarven's Solution](https://github.com/loumarven/rock-paper-scissors)
 - [rysergic's solution](https://github.com/rysergic/rock-paper-scissors/)
@@ -301,3 +304,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sam C's Solution](https://github.com/JimmyNeutron8/rock-paper-scissors) - [View in Browser](https://jimmyneutron8.github.io/rock-paper-scissors/)
 - [Malaika's Solution][With GUI](https://codepen.io/MalaikaMI/pen/WybjRE)[With out GUI](https://codepen.io/MalaikaMI/pen/erxvRd)
 - [Pedro França's Solution](https://github.com/pfranca/rock_paper_scissors) - [View in Browser](https://pfranca.github.io/rock-paper-scissors/)
+- [Hassan's Solution][Repo Link](https://github.com/husseyexplores/husseyexplores.rockpaperscissors) - [GUI Link](https://husseyexplores.github.io/husseyexplores.rockpaperscissors/)
+- [flee's Solution](https://github.com/flee/rock-paper-scissors) - [View in Browser](https://flee.github.io/rock-paper-scissors/)

@@ -20,3 +20,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Devon's React todo-list solution](https://github.com/defitjo/react-todo-app)
 * [Alexfuro's React book-library solution](https://github.com/alexfuro/odin-books-react)
 * [Katineto's React todo-list solution](https://github.com/Katineto/avocado) - [View in browser](https://katineto.github.io/avocado/)
+* [Caner Sezgin's solution](https://github.com/CanerSezgin/TodoList/tree/master/Source%20Codes) - [View in browser](https://canersezgin.github.io/TodoList/)
