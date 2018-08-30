@@ -1,24 +1,15 @@
 ### Introduction
 
-The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that 
-could offer space distribution between items in an interface and powerful alignment capabilities. This article gives an outline
-of the main features of flexbox, which we will be exploring in more detail in the rest of these guides.
-
-In this section, you'll get a look at how to use CSS Flex Box to make your projects more awesome!.
+Meet Flexbox. The CSS3 Flexible Box, or more widely known as Flexbox, is a new and powerful layout mode in CSS3. It provides us with a box model optimized for laying out user interfaces. With Flexbox, vertical centering, same-height columns, reordering and changing direction is a breeze. This is  thanks to its layout algorithm being direction-agnostic (as opposed to the block layout, which is vertically-biased, or the inline layout, which is horizontally-biased).
+Flexbox is pretty easy and straightforward to use. However, implementing it on more complex layouts can get a little out of hand so it should only be used for small application components and simpler layouts.
 
 ### Learning Outcomes
 * What is CSS flex?
-* Why are flex effective for helping site layout?
-* What are the major different types of flex in use today?
-* How could you design your own website using flex?
-* How to use flex-box?
+* How to use flexible box?
+* What are the main advantages of using flexbox?
+* Why we use CSS flex?
 
-### Assignment
-<div class="lesson-content__panel" markdown="1">
-1. Complete this game based tutorial for learning the [Basics of Flexible Box](https://flexboxfroggy.com/).
-2. Learn the modern CSS layouts from [this tutorial](https://internetingishard.com/html-and-css/flexbox/).
-3.Before we begin, it’s important for you to be familiar with basic [HTML](https://www.theodinproject.com/courses/html5-and-css3/lessons/html5-basics) and [CSS](https://www.theodinproject.com/courses/html5-and-css3/lessons/css3-basics). It would also be helpful to know a CSS Framework like Bootstrap. It would help you get the most from here
-</div>
+First, Complete this game based tutorial for learning the [Basics of Flexible Box](https://flexboxfroggy.com/) and then Learn the modern CSS layouts from [this tutorial](https://internetingishard.com/html-and-css/flexbox/).Why we are learning flex? because the browser support for Flexbox is pretty good. According to [caniuse.com](https://caniuse.com/#search=flexbox) around 93% of people are now running a browser that supports it! Next glance through this [MDN article](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) , which shows tons of examples of what you should do with Flexible Box and bookmark [this refrence](https://cssreference.io/flexbox/) for our upcoming project!. 
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
