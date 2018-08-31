@@ -294,7 +294,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [John Alcher's Solution](https://github.com/alchermd/test-first-ruby)
 * [Defgarden's Solution](https://github.com/Defgarden/learn_ruby)
 * [Veselin Ivanov's Solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Odin_ruby_project)
-* [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
 * [Tom Bell's Solution](https://github.com/bellt/learn_ruby)
 * [Dayuwn's Solution](https://github.com/Dayuwn/rb-tdd)
 * [Vanessa Tan's Solution](https://github.com/vanJargon/test-first-ruby)
@@ -444,6 +443,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Brendaneus' Solution](https://github.com/Brendaneus/learn_ruby)
 * [IrritatedEllipses' Solution](https://github.com/IrritatedEllipses/learn_ruby)
 * [codyMalcolm's Solution](https://github.com/codyMalcolm/learn_ruby)
+* [Emil Dimitrov's Solution](https://github.com/imemdm/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
