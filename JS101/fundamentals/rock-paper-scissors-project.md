@@ -306,3 +306,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Pedro França's Solution](https://github.com/pfranca/rock_paper_scissors) - [View in Browser](https://pfranca.github.io/rock-paper-scissors/)
 - [Hassan's Solution][Repo Link](https://github.com/husseyexplores/husseyexplores.rockpaperscissors) - [GUI Link](https://husseyexplores.github.io/husseyexplores.rockpaperscissors/)
 - [flee's Solution](https://github.com/flee/rock-paper-scissors) - [View in Browser](https://flee.github.io/rock-paper-scissors/)
+- [halkim44's Solution](https://github.com/halkim44/rock-paper-scissor-game) - [View in Browser](https://halkim44.github.io/rock-paper-scissor-game/)
