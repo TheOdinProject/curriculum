@@ -1623,6 +1623,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hassan's Solution (Easy)](https://github.com/husseyexplores/husseyexplores.google-homepage) - [View in Browser](https://husseyexplores.github.io/husseyexplores.google-homepage/)
 * [endri2211's solution (Easy)](https://github.com/endri2211/google-homepage) - [View in Browser](https://endri2211.github.io/google-homepage/)
 * [endri2211's solution (Difficult)](https://github.com/endri2211/google-search) - [View in Browser](https://endri2211.github.io/google-search/)
+* [AVu120's solution (Easy)](https://github.com/AVu120/google-homepage) - [View in Browser](https://AVu120.github.io/google-homepage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
