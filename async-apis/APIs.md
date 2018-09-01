@@ -205,7 +205,7 @@ If you've gotten lost along the way, check out [this jsbin project](http://jsbin
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the fetch documentation [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
-2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning#natural-language-processing) of free, open APIs and let your imagination go wild.
+2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs) of free, open APIs and let your imagination go wild.
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
 </div>
