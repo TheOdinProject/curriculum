@@ -17,6 +17,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
 
+* [Luján Fernaud's React book-library solution](https://github.com/lujanfernaud/react-reading-list) - [View in browser](http://lujanfernaud.com/react-reading-list/)
 * [Devon's React todo-list solution](https://github.com/defitjo/react-todo-app)
 * [Alexfuro's React book-library solution](https://github.com/alexfuro/odin-books-react)
 * [Katineto's React todo-list solution](https://github.com/Katineto/avocado) - [View in browser](https://katineto.github.io/avocado/)
