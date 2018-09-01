@@ -36,10 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/fundamentals/rock-paper-scissors-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Justin D. Smith's solution](https://github.com/cinephile85/the-odin-project/tree/master/1-web-development-101/rock-paper-scissors)
-- [Hummeldon's Console Solution](https://github.com/hummeldon/rps_game)
-=======
 - [Alan's solution](https://github.com/Bernstein7z/rock-paper-scissors) - [View in Browser](https://bernstein7z.github.io/rock-paper-scissors/)
 - [Jacobo's console solution](https://github.com/cobimr/webdev_101_projects/tree/master/rpc-game-console) - [View in browser](https://cobimr.github.io/webdev_101_projects/rpc-game-console/) - [Jacobo's UI solution](https://github.com/cobimr/webdev_101_projects/tree/master/rpc-game-ui) - [View UI solution in browser](https://cobimr.github.io/webdev_101_projects/rpc-game-ui/)
 - [Bojo's solution](https://github.com/BojoZahariev/Rock_paper_scissors) - [View in browser](https://cdn.rawgit.com/BojoZahariev/Rock_paper_scissors/e04c975b/index.html)
@@ -47,7 +44,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nixikaz's Solution](https://github.com/Nixikaz/rockpaperscissors)
 - [Justin D. Smith's solution](https://github.com/cinephile85/The-Odin-Project/tree/master/1-Web_Development_101/rock_paper_scissors)
 - [Hummeldon's Console Solution](https://github.com/hummeldon/rps_game) - [GUI Solution](https://github.com/hummeldon/rps_game/tree/master/rps_ui)
->>>>>>> 6f3d9a3311289991abe2eb56b5ef92907bcf3ddf
 - [JoKing's UI solution](https://github.com/joking3000/scissors-paper-stone) - [View in browser](https://joking3000.github.io/scissors-paper-stone/)
 - [Waris's UI solution](https://github.com/warisz/Rock-Paper-Scissors) - [View in browser](https://cdn.rawgit.com/warisz/Rock-Paper-Scissors/8a48fcbf/index.html)
 - [TroubleBob's console solution](https://github.com/troublebob/rock-paper-scissors) - [View in browser](https://troublebob.github.io/rock-paper-scissors)
