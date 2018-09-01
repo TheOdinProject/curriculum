@@ -32,6 +32,7 @@ Before diving into the code, take a minute to think about how you are going to w
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [Javier Machin's solution](https://github.com/Javier-Machin/js-to-do-list) - [View in Browser](https://javier-machin.github.io/js-to-do-list/)
 * [Kyle and Paul's solution](https://github.com/jklemon17/todo-list) - [View in Browser](https://jklemon17.github.io/todo-list/)
 * [nmac's solution](https://github.com/nmacawile/to-do-list) - [View](https://nmacawile.github.io/to-do-list/)
 * [brxck's solution](https://github.com/brxck/odin-tasks) - [View in Browser](http://brockmcelroy.com/odin-tasks/)
@@ -42,5 +43,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Ezequiel Espinoza's Solution](https://github.com/ezeaspie/todo-app) - [View in browser](https://ezeaspie.github.io/todo-app/)
 * [Jmooree30's solution](https://github.com/jmooree30/JS-Todo-List) - [View in browser](https://jmooree30.github.io/JS-Todo-List/)
 * [Remy's solution](https://codepen.io/beumsk/pen/QvqyMM) - [View in browser](https://codepen.io/beumsk/full/QvqyMM)
-* [Caner Sezgin's solution](https://github.com/casedo/TodoList/tree/master/Source%20Codes) - [View in browser](http://bit.ly/casedoToDo)
-
+* [Caner Sezgin's solution](https://github.com/CanerSezgin/TodoList/tree/master/Source%20Codes) - [View in browser](https://canersezgin.github.io/TodoList/)

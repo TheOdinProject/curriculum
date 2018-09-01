@@ -41,3 +41,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Caner Sezgin's solution](https://github.com/casedo/Tic-Tac-Toe) - [View in browser](http://bit.ly/ticTacToe)
 - [Katineto's solution](https://github.com/Katineto/tic-tac-toe) - [View in browser](https://katineto.github.io/tic-tac-toe/)
 - [sampsonmao's solution](https://github.com/sampsonmao/tic-tac-toe) - [View in browser](https://sampsonmao.github.io/tic-tac-toe/)
+- [Uy Bình's solution](https://github.com/uybinh/tic_tac_toe_web) - [View in browser](https://uybinh.github.io/tic_tac_toe_web/)
+- [Punnadittr's solution](https://github.com/punnadittr/js_tictactoe) - [View in browser](https://punnadittr.github.io/js_tictactoe/)

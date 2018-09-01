@@ -40,3 +40,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [codyloyd's solution](https://github.com/codyloyd/odin-restaurant) - [View in browser](http://codyloyd.com/odin-restaurant/)
 - [rpalo's solution](https://github.com/rpalo/odin-restaurant) - [View in browser](https://assertnotmagic.com/odin-restaurant/)
 - [Katineto's solution](https://github.com/Katineto/restaurant-page) - [View in browser](https://katineto.github.io/restaurant-page/)
+- [Punnadittr's solution](https://github.com/punnadittr/restaurant_page) - [View in browser](https://punnadittr.github.io/restaurant_page/)
