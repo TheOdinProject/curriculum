@@ -107,13 +107,13 @@ Since `await` does not work on the global scope, we will have to create an `asyn
   const img = document.querySelector('img')
 
   async function getCats() {
-      fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
-    .then(function(response) {
-      return response.json()
-    })
-    .then(function(response) {
-      img.src = response.data.images.original.url;
-    })
+    fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
+      .then(function(response) {
+        return response.json()
+      })
+      .then(function(response) {
+        img.src = response.data.images.original.url;
+      })
   }
 </script>
 ~~~
@@ -129,7 +129,7 @@ Now that we have a function that is asynchronous, we can then start refactoring 
     response.json()
       .then(function(response) {
         img.src = response.data.images.original.url;
-    });
+      });
   }
 </script>
 ~~~
