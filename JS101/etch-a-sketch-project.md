@@ -200,3 +200,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Sam C's Solution](https://github.com/JimmyNeutron8/etch-a-sketch) - [View in Browser](https://jimmyneutron8.github.io/etch-a-sketch/)
 * [Hassan's Solution](https://github.com/husseyexplores/husseyexplores.etch-a-sketch) - [View in Browser](https://husseyexplores.github.io/husseyexplores.etch-a-sketch/)
 * [RossTrang's solution](https://github.com/RossTrang/etch-a-sketch) - [View in browser](https://cdn.rawgit.com/RossTrang/etch-a-sketch/f7f84edf/index.html)
+* [Roshan's solution](https://github.com/roshanrahman/the-odin-project/tree/master/sketch) - [View in browser](https://roshanrahman.github.io/the-odin-project/sketch/index.html)
