@@ -1625,6 +1625,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [endri2211's solution (Difficult)](https://github.com/endri2211/google-search) - [View in Browser](https://endri2211.github.io/google-search/)
 * [AVu120's solution (Easy)](https://github.com/AVu120/google-homepage) - [View in Browser](https://AVu120.github.io/google-homepage)
 * [Ghassan's solution (Easy)](https://github.com/GT001/google-homepage) - [View in Browser](https://gt001.github.io/google-homepage/)
+* [Trey-3's solution (Easy)](https://github.com/trey-3/google-homepage) - [View in Browser](https://trey-3.github.io/google-homepage/)
+* [Trey-3's solution (Difficult)](https://github.com/trey-3/google-search-results) - [View in Browser](https://trey-3.github.io/google-search-results/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
