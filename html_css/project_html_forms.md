@@ -19,6 +19,7 @@ The page is very straightforward, so you should be able to clone it even if your
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) or by editing [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_html_forms.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Bojana Karakacev's solution](https://github.com/bojana12/project-html-forms) - [View in browser](https://bojana12.github.io/project-html-forms/)
 * [rvalentin1010's solution](https://github.com/rvalentin1010/mint-signup) - [View in browser](https://rvalentin1010.github.io/mint-signup/)
 * [OthmanAmoudi's solution](https://gist.github.com/OthmanAmoudi/f0a74e90f310c9295561671bc2f372c7) - [Fancy Form View in browser](https://codepen.io/theweeknd/pen/JBMrJv)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/login-form/blob/master/index.html) - [View in browser](https://cmacswan07.github.io/login-form/)

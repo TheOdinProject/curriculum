@@ -46,7 +46,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [CraigAndrewBlair's Solution](https://github.com/craigandrewblair/etch-a-sketch-odin) - [View in browser](https://craigandrewblair.github.io/etch-a-sketch-odin/)
 * [Clarenz' solution](https://github.com/zmiralles/etch-a-sketch) - [View in browser](https://zmiralles.github.io/etch-a-sketch/)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Etch-A-Sketch) - [View in browser](https://sarfrazanjum.github.io/TOP_Etch-A-Sketch/)
-* [Bojana's solution](https://github.com/bojana12/project-javascript-jquery) - [View in browser](https://bojana12.github.io/project-javascript-jquery/dist/)
+* [Bojana Karakacev's solution](https://github.com/bojana12/project-javascript-jquery) - [View in browser](https://bojana12.github.io/project-javascript-jquery/dist/)
 * [Austin's solution](https://github.com/Austin2016/sketch_app) - [View in browser](https://Austin2016.github.io/sketch_app/)
 * [Alex's solution](https://github.com/dracken2332/grid) - [View in browser](https://dracken2332.github.io/grid/)
 * [Manuel Alvarado's solution](https://github.com/ManuAlvarado22/pixel-sketch) - [View in browser](https://manualvarado22.github.io/pixel-sketch/)
