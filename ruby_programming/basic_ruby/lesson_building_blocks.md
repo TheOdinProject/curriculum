@@ -134,7 +134,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * Read [Zetcode's Data Types section](http://zetcode.com/lang/rubytutorial/datatypes/) for a bit more depth on the subject.
 * [Alex Chaffee's brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects)
 * [Ruby Inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
-* If you prefer video, Treehouse has a [free video on numbers](http://teamtreehouse.com/library/programming/ruby-foundations/numbers/creating-numbers)
 * Read [Zetcode's Strings section](http://zetcode.com/lang/rubytutorial/strings/) for an in-depth look at strings.
 * Read through (and watch the video) for this [Regular Expressions in Ruby](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-regular-expressions/) explanation.
 * Read the [zetcode Arrays chapter](http://zetcode.com/lang/rubytutorial/arrays/) for some more in-depth knowledge.  Don't worry too much where they talk about blocks or the `select`, `collect` and `map` methods, we'll cover that in a later section.
