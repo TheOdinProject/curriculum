@@ -1628,7 +1628,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ghassan's solution (Easy)](https://github.com/GT001/google-homepage) - [View in Browser](https://gt001.github.io/google-homepage/)
 * [Trey-3's solution (Easy)](https://github.com/trey-3/google-homepage) - [View in Browser](https://trey-3.github.io/google-homepage/)
 * [Trey-3's solution (Difficult)](https://github.com/trey-3/google-search-results) - [View in Browser](https://trey-3.github.io/google-search-results/)
-* [Abraham Omolewa's Solution (Easy)] (https://github.com/abrahamomolewa/google-homepage)- [view in Browser] (https://abrahamomolewa.github.io/google-homepage/)
+* [Abraham Omolewa's Solution (Easy)](https://github.com/abrahamomolewa/google-homepage)- [View in Browser](https://abrahamomolewa.github.io/google-homepage/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
