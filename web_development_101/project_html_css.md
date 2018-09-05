@@ -1631,6 +1631,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Abraham Omolewa's Solution (Easy)](https://github.com/abrahamomolewa/google-homepage)- [View in Browser](https://abrahamomolewa.github.io/google-homepage/)
 * [Noah Nelson's solution (Easy)](https://github.com/nelsoncnoah/google-homepage) - [View in Browser](https://nelsoncnoah.github.io/google-homepage/)
 * [CaptainSensible's solution (Easy)](https://github.com/CaptainSensible/fake-google-homepage) - [View in Browser](https://captainsensible.github.io/fake-google-homepage/)
+* [Janos Kozma's solution (Easy)](https://github.com/JKozma81/google-homepage-Easy-) - [View in Browser](https://codepen.io/Bishop8119/pen/PdKzQq)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
