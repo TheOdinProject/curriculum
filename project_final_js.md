@@ -36,4 +36,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [https://www.sitepoint.com/react-rails-5-1/](How to Build a React App that Works with a Rails 5.1 API)
+* [How to Build a React App that Works with a Rails 5.1 API](https://www.sitepoint.com/react-rails-5-1/)
