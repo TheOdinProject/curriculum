@@ -53,7 +53,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [TroubleBob's console solution](https://github.com/troublebob/rock-paper-scissors) - [View in browser](https://troublebob.github.io/rock-paper-scissors)
 - [Karen Justo's solution](https://github.com/jrkaren9/rock-paper-scissors) - [View in browser](https://jrkaren9.github.io/rock-paper-scissors/) - [UI solution](https://github.com/jrkaren9/rock-paper-scissors-ui) - [View in browser](https://jrkaren9.github.io/rock-paper-scissors-ui/)
 - [deegeebee's Console Solution](https://github.com/deegeebee/TOP_RockPaperScissors.git)
->>>>>>> d1b4b5b3d845a8bf73721abfba565642f1b09b88
 - [Super1569's Solution](https://github.com/Super1569/rock-paper-scissors) - [UI Solution](https://github.com/Super1569/RPSDom) - [View In Browser](https://super1569.github.io/RPSDom/)
 - [Christopher Wegscheid's Solution](https://github.com/cwegscheid08/rock_paper_scissors.git)
 - [Mohammad Reza's Solution](https://github.com/Creative301/rock-paper-scissors)
