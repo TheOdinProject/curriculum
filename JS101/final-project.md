@@ -7,7 +7,7 @@ As usual with these things there are elements of this project that are not going
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Here are some use cases (abilities you project needs to have):
+Here are some use cases (abilities your project needs to have):
 
 1. Your calculator is going to contain functions for all of the basic math operators you typically find on simple calculators, so start by creating functions for the following items and testing them in your browser's console.
    1. add
@@ -39,6 +39,12 @@ Here are some use cases (abilities you project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/final-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Hummeldon's Solution](https://github.com/hummeldon/gui-calculator) - [View in Browser](https://hummeldon.github.io/gui-calculator/)
+- [Teng Lin's Solution](https://github.com/tenglin2/Calculator) - [View in browser](https://tenglin2.github.io/Calculator)
+- [Jacobo Martinez's Solution](https://github.com/cobimr/webdev-101-projects/tree/master/calculator) - [View in Browser](https://cobimr.github.io/webdev-101-projects/calculator/)
+- [NatSydenham's Solution](https://github.com/NatSydenham/calculator) - [View in Browser](https://natsydenham.github.io/calculator/)
+- [Smetanca52's Solution](https://github.com/Smetanca52/simple_calculator) - [View in browser](https://cdn.rawgit.com/Smetanca52/simple_calculator/a3a21f43/index.html)
+- [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/calculator) - [View in browser](https://mohamed-elattar.github.io/calculator/)
 - [CraigBlair's Solution](https://github.com/craigandrewblair/odin-javascript-calculator) - [View in browser](https://craigandrewblair.github.io/odin-javascript-calculator)
 - [prw001's Solution](https://github.com/prw001/Simple_calculator)
 - [Simon Tharby's solution](https://github.com/jinjagit/calculator) - [View in browser](https://jinjagit.github.io/calculator/)
@@ -138,3 +144,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MrObele' Solution](https://github.com/MrObele/Calculator) - [View in Browser](https://mrobele.github.io/Calculator/)
 - [Vyhn' Solution](https://github.com/Vyhnn/Calculator) - [View in Browser](https://vyhnn.github.io/Calculator/)
 - [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/calculator)
+- [Tommy's Solution](https://github.com/hoangtommy/calculator) - [View in Browser](https://hoangtommy.github.io/calculator/)
+- [codyMalcolm's Solution](https://github.com/codyMalcolm/odin-javascript-calculator) - [View in Browser](https://codymalcolm.github.io/odin-javascript-calculator/)
+- [Benidzu's Solution](https://github.com/Benidzu/calculator) - [View in Browser](https://benidzu.github.io/calculator/)
+-  [Emil Dimitrov's Solution](https://github.com/imemdm/calculator) - [View in Browser](https://imemdm.github.io/calculator)
+- [bchalman's Solution](https://github.com/bchalman/calculator) - [View in Browser](https://bchalman.github.io/calculator/)
+- [AncherHisogi's Solution](https://github.com/Hisogi/calculator-project) - [View in Browser](https://hisogi.github.io/calculator-project/)

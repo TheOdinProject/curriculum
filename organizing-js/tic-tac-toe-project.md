@@ -22,6 +22,7 @@ We're making a Tic Tac Toe game you can play in your browser!
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/tic-tac-toe-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [Javier Machin's solution](https://github.com/Javier-Machin/js-tic-tac-toe) - [View in browser](https://javier-machin.github.io/js-tic-tac-toe/)
 - [leosoaivan's solution](https://github.com/leosoaivan/js-tictactoe) - [View in browser](http://leosoaivan.com/js-tictactoe)
 - [nmac's solution (with minimax)](https://github.com/nmacawile/js-tic-tac-toe) - [Game](https://htmlpreview.github.io/?https://github.com/nmacawile/js-tic-tac-toe/blob/master/index.html)
 - [Johan Morin's Solution](https://github.com/MorrisMalone/tic-tac-toe) - [View in Browser](https://morrismalone.github.io/tic-tac-toe/)
@@ -39,3 +40,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Nick's solution](https://sinclairnick.github.io/tictactoe/) - [View in browser](https://sinclairnick.github.io/tictactoe/)
 - [Caner Sezgin's solution](https://github.com/casedo/Tic-Tac-Toe) - [View in browser](http://bit.ly/ticTacToe)
 - [Katineto's solution](https://github.com/Katineto/tic-tac-toe) - [View in browser](https://katineto.github.io/tic-tac-toe/)
+- [sampsonmao's solution](https://github.com/sampsonmao/tic-tac-toe) - [View in browser](https://sampsonmao.github.io/tic-tac-toe/)
+- [Uy Bình's solution](https://github.com/uybinh/tic_tac_toe_web) - [View in browser](https://uybinh.github.io/tic_tac_toe_web/)
+- [Punnadittr's solution](https://github.com/punnadittr/js_tictactoe) - [View in browser](https://punnadittr.github.io/js_tictactoe/)
