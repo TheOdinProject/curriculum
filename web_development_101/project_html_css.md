@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Teng Lin's Solution (Easy)](https:github.com/tenglin2/GoogleHomepage) - [View in Browser](https://tenglin2.github.io/GoogleHomepage)
+* [Anis Bouhadida' Solution (Easy)](https://github.com/AnisBouhadida/google-homepage) - [View in Browser]( https://anisbouhadida.github.io/google-homepage/)
 * [Ronald Rodriguez Solution (Easy)](https://github.com/ronrsuarez/google-homepage) - [View in Browser](https://ronrsuarez.github.io/google-homepage)
 * [bloaded-hub's Solution Easy](https://github.com/bloaded-hub/google-homepage)- [View in Browser](https://bloaded-hub.github.io/google-homepage/)
 * [Waheed Afolabi's Solution (Easy)](https://github.com/wptechprodigy/google_homepage) - [View in Browser](https://wptechprodigy.github.io/google_homepage/)
