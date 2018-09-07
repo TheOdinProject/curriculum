@@ -36,6 +36,9 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/fundamentals/rock-paper-scissors-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [deegeebee's Console Solution](https://github.com/deegeebee/TOP_RockPaperScissors.git) - [UI Solution](https://github.com/deegeebee/TOP_RockPaperScissorsUI)
+- [Tadej's Solution](https://github.com/TadejPolajnar/rock-paper-scissors) - [View in Browser](https://tadejpolajnar.github.io/rock-paper-scissors/)
+- [Teng Lin's Solution](https://github.com/tenglin2/Rock-Paper-Scissors) - [View in Browser](https://tenglin2.github.io/Rock-Paper-Scissors)
 - [Svetzayats's solution](https://github.com/Svetzayats/Rock_Paper_Scissors/) - [View in Browser](https://svetzayats.github.io/Rock_Paper_Scissors/)
 - [Justin D. Smith's solution](https://github.com/cinephile85/the-odin-project/tree/master/1-web-development-101/rock-paper-scissors)
 - [Alan's solution](https://github.com/Bernstein7z/rock-paper-scissors) - [View in Browser](https://bernstein7z.github.io/rock-paper-scissors/)
@@ -47,7 +50,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Hummeldon's Console Solution](https://github.com/hummeldon/rps_game) - [GUI Solution](https://github.com/hummeldon/rps_game/tree/master/rps_ui)
 - [JoKing's UI solution](https://github.com/joking3000/scissors-paper-stone) - [View in browser](https://joking3000.github.io/scissors-paper-stone/)
 - [Waris's UI solution](https://github.com/warisz/Rock-Paper-Scissors) - [View in browser](https://cdn.rawgit.com/warisz/Rock-Paper-Scissors/8a48fcbf/index.html)
-- [TroubleBob's console solution](https://github.com/troublebob/rock-paper-scissors) - [View in browser](https://troublebob.github.io/rock-paper-scissors)
+- [TroubleBob's console solution](https://github.com/troublebob/rock-paper-scissors/tree/6ea1c513d7360e831f3313c8c42923ed290fc9e5) -[UI Solution](https://github.com/troublebob/rock-paper-scissors/) - [View in browser](https://troublebob.github.io/rock-paper-scissors)
 - [Karen Justo's solution](https://github.com/jrkaren9/rock-paper-scissors) - [View in browser](https://jrkaren9.github.io/rock-paper-scissors/) - [UI solution](https://github.com/jrkaren9/rock-paper-scissors-ui) - [View in browser](https://jrkaren9.github.io/rock-paper-scissors-ui/)
 - [deegeebee's Console Solution](https://github.com/deegeebee/TOP_RockPaperScissors.git)
 - [Super1569's Solution](https://github.com/Super1569/rock-paper-scissors) - [UI Solution](https://github.com/Super1569/RPSDom) - [View In Browser](https://super1569.github.io/RPSDom/)
@@ -311,4 +314,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [halkim44's Solution](https://github.com/halkim44/rock-paper-scissor-game) - [View in Browser](https://halkim44.github.io/rock-paper-scissor-game/)
 - [Eugenius1337's Solution](https://github.com/Eugenius1337/rock-paper-scissors) - [View in Browser](https://eugenius1337.github.io/rock-paper-scissors/)
 - [HanJosmer's Solution](https://github.com/HanJosmer/rock-paper-scissors) - [View in Browser](https://hanjosmer.github.io/rock-paper-scissors/)
-- [Edgar Miranda's Solution](https://github.com/EJMiranda/RockPaperScissors) - [View in Browser... Soon]
+- [Edgar Miranda's Solution](https://github.com/ejmiranda/rock-paper-scissors)
