@@ -127,7 +127,7 @@ The DOM \(or Document Object Model\) is a tree-like representation of the conten
 ~~~
 
 
-In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with it's __children__ on the next level, each on their own "branch".
+In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with its __children__ on the next level, each on their own "branch".
 
 ### Targeting Nodes with Selectors
 
@@ -135,7 +135,7 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 
 * div.display
 * .display
-* container &gt; .display
+* \#container &gt; .display
 * div\#container &gt; div.display
 
 You can also use relational selectors \(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
