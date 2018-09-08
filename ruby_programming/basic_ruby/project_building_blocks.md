@@ -741,6 +741,7 @@ Next, make sure your method can handle multiple words:
 
 * Add your solution below this line!
 
+* [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/substrings.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/substrings.rb)
 * [Tim Dowd's Solution](https://github.com/timothydowd/substrings/blob/master/substrings.rb)
 * [sametcilli's solution](https://github.com/sametcilli/ruby_exercises_substrings/blob/master/substrings.rb)
