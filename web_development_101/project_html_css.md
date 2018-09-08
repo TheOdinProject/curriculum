@@ -1,4 +1,4 @@
-﻿### Introduction
+### Introduction
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
@@ -1636,7 +1636,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [CaptainSensible's solution (Easy)](https://github.com/CaptainSensible/fake-google-homepage) - [View in Browser](https://captainsensible.github.io/fake-google-homepage/)
 * [Janos Kozma's solution (Easy)](https://github.com/JKozma81/google-homepage-Easy-) - [View in Browser](https://codepen.io/Bishop8119/pen/PdKzQq)
 * [Stephen's solution](https://github.com/galileosgetaway/google-homepage) - [View in Browser](https://galileosgetaway.github.io/google-homepage/)
-* [RajaSekhar's colution] (https://github.com/IBTechRaj/google-homepage) - [View in Browser] (https://ibtechraj.github.io/google-homepage/)
+* [RajaSekhar's colution](https://github.com/IBTechRaj/google-homepage) - [View in Browser](https://ibtechraj.github.io/google-homepage/)
+* [Haley Harris' Solution (Easy)](https://github.com/HaleyHarris94/google-homepage) - [View in Browser](https://haleyharris94.github.io/google-homepage/)
+* [Rey's solution (Difficult)](https://rey810.github.io/google_results_page/) - [View in Browser](https://rey810.github.io/google_results_page/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
