@@ -315,3 +315,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Eugenius1337's Solution](https://github.com/Eugenius1337/rock-paper-scissors) - [View in Browser](https://eugenius1337.github.io/rock-paper-scissors/)
 - [HanJosmer's Solution](https://github.com/HanJosmer/rock-paper-scissors) - [View in Browser](https://hanjosmer.github.io/rock-paper-scissors/)
 - [Edgar Miranda's Solution](https://github.com/ejmiranda/rock-paper-scissors)
+- [Czl Lebleu's Solution[(https://github.com/CzlLebleu/RockPaperScissors) - [Rock, Paper, Scissors, Lizard, Spock](https://codepen.io/CzlLebleu/full/EewrQV/) - [Jon, Ken, Pan (Japanese version)](https://codepen.io/CzlLebleu/full/QVOxNm/)
