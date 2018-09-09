@@ -127,7 +127,7 @@ The DOM \(or Document Object Model\) is a tree-like representation of the conten
 ~~~
 
 
-In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with it's __children__ on the next level, each on their own "branch".
+In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with its __children__ on the next level, each on their own "branch".
 
 ### Targeting Nodes with Selectors
 
@@ -135,7 +135,7 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 
 * div.display
 * .display
-* container &gt; .display
+* \#container &gt; .display
 * div\#container &gt; div.display
 
 You can also use relational selectors \(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
@@ -154,7 +154,7 @@ console.dir(controls.previousSibling);
 // selects the prior sibling => .display
 ~~~
 
-So you're identifing a certain node based on its relationships to the nodes around it.
+So you're identifying a certain node based on its relationships to the nodes around it.
 
 ### DOM methods
 
@@ -303,6 +303,9 @@ In the JavaScript file, first we get a reference to the `container` div that alr
 ~~~
 
 Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
+
+> **Important note:**
+> Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 
 ### Exercise
 

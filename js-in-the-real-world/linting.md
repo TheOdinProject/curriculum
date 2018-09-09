@@ -1,18 +1,10 @@
-
-Info. Your report was run on the first 500 words of your text. To run on the full text Request a Trial or Go Premium
-Report Summary
-Clear Filters
- spelling 5 issues found
- grammar 7 issues found
-Grammar Check
-Checks your text for grammar errors and potential word mis-use.
-More about this report
 ### Style Guides
 
 Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent reading them _will_ make you a better developer.
 
 1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular. It is also very well formatted and easy to read.
 2. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
+3. The [JavaScript Standard Style](https://standardjs.com/rules.html). Used by companies like NPM and GitHub, among [others](https://standardjs.com/index.html#who-uses-javascript-standard-style).
 
 ### Linting
 

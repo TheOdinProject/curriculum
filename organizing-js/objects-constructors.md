@@ -77,7 +77,7 @@ Again, this isn't _that_ bad... but what if you _don't know_ which player's name
 
 ~~~javascript
 function gameOver(winningPlayer){
-  console.log("Congraulations!")
+  console.log("Congratulations!")
   console.log(winningPlayer.name + " is the winner!")
 }
 ~~~

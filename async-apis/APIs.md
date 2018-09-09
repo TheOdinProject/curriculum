@@ -101,11 +101,13 @@ Go ahead and try that URL (with YOUR API key) in a browser. If everything goes w
 A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is a decent starting point.
 
 Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is simple. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
+
 ~~~javascript
 fetch('url.url.com/api', {
   mode: 'cors'
 })
 ~~~
+
 Simply adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
 
 ### Let's Do This
@@ -163,7 +165,7 @@ You should now be able to open the HTML file in your browser, and while you won'
 
 Now we have a JavaScript object and if you inspect it closely enough you'll find that the data we need (an image URL) is nested rather deeply inside the object:
 
-![response](./images/apiresponse.png)
+![response](https://raw.githubusercontent.com/TheOdinProject/javascript_curriculum/master/async-apis/images/apiresponse.png)
 
 To get to the data we need to drill down through the layers of the object until we find what we want!
 
@@ -203,7 +205,7 @@ If you've gotten lost along the way, check out [this jsbin project](http://jsbin
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the fetch documentation [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
-2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning#natural-language-processing) of free, open APIs and let your imagination go wild.
+2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs) of free, open APIs and let your imagination go wild.
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
 </div>

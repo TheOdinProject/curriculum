@@ -1,5 +1,5 @@
 ### Introduction
-It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/ruby-on-rails/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
+It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/courses/ruby-on-rails/lessons/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
 
 At this point, you've got all the tools you need, so it's time to practice allowing your front end Javascript to talk to your Rails backend using AJAX.  We'll cover some best practices for how to pass data from one to another, but otherwise you've got all the tools you need to put together those final pieces of the web development puzzle.
 
@@ -8,16 +8,16 @@ Note that you can actually outsource your back end functionality to a Backend-as
 ### Learning Outcomes
 
 * Refresher -- how do you set up a basic Rails app?
-* Refresher -- how to you load custom Javascript in a given Rails view page?
+* Refresher -- how do you load custom Javascript in a given Rails view page?
 * How does "unobtrusive Javascript" work?
 * How can you pass data from your Rails app to your Javascript?
-* Why would you want to use AJAX to load large batches of data
+* Why would you want to use AJAX to load large batches of data?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. [Check out "Using Javascript in your Rails App" from Daniel Kehoe](http://railsapps.github.io/rails-javascript-include-external.html).  It is long and covers a lot of ground, but it's got great content.  Some of the stuff on dependencies can be skimmed, but pay attention to the `content_for` stuff at the bottom.
-2. [Refresh yourself on Rails AJAX from RailsGuides](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html) (just skim the top few sections)
+2. [Refresh yourself on Rails AJAX from RailsGuides](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html) (just skim the top few sections).
 2. Read [Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view) to learn about passing data to your front end.
 </div>
 
