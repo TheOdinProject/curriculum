@@ -400,6 +400,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 
+* [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/stock_picker.rb)
 * [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/stock_picker.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/stock-picker.rb)
 * [Tim Dowd's Solution](https://github.com/timothydowd/stock_picker/blob/master/stock_picker.rb)
