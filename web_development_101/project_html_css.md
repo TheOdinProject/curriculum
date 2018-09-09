@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/edit/master/web_development_101/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Cristina Popescu's Solution (Difficult)](https://github.com/CristinaAP/google-resultspage) - [View in browser](https://cristinaap.github.io/google-resultspage/)
 * [Nasser Ahmed's Solution (Easy)](https://github.com/SNasser97/google-homepage) - [View in Browser](https://snasser97.github.io/google-homepage/)
 * [Teng Lin's Solution (Easy)](https:github.com/tenglin2/GoogleHomepage) - [View in Browser](https://tenglin2.github.io/GoogleHomepage)
 * [Anis Bouhadida' Solution (Easy)](https://github.com/AnisBouhadida/google-homepage) - [View in Browser]( https://anisbouhadida.github.io/google-homepage/)
