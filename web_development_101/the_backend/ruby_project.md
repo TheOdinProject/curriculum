@@ -28,6 +28,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
 * Add your solution below this line!
+* [Himanshu Sahu's Solution](https://github.com/himanshusahu31/learn_ruby)
 * [Kern's Solution](https://github.com/Kelel1/learn_ruby)
 * [Smetanca52's Solution](https://github.com/Smetanca52/learn_ruby_1)
 * [Malaika's Solution](https://github.com/malaikaMI/ruby_project)
@@ -294,7 +295,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [John Alcher's Solution](https://github.com/alchermd/test-first-ruby)
 * [Defgarden's Solution](https://github.com/Defgarden/learn_ruby)
 * [Veselin Ivanov's Solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Odin_ruby_project)
-* [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
 * [Tom Bell's Solution](https://github.com/bellt/learn_ruby)
 * [Dayuwn's Solution](https://github.com/Dayuwn/rb-tdd)
 * [Vanessa Tan's Solution](https://github.com/vanJargon/test-first-ruby)
@@ -444,6 +444,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Brendaneus' Solution](https://github.com/Brendaneus/learn_ruby)
 * [IrritatedEllipses' Solution](https://github.com/IrritatedEllipses/learn_ruby)
 * [codyMalcolm's Solution](https://github.com/codyMalcolm/learn_ruby)
+* [Emil Dimitrov's Solution](https://github.com/imemdm/learn_ruby)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/learn_ruby)
+* [Hassan Husseyexplores Solution](https://github.com/husseyexplores/ruby_course)
+* [bchalman's Solution](https://github.com/bchalman/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
