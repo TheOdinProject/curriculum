@@ -35,11 +35,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/caesar_cipher.rb)
-=======
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/building-blocks/blob/master/caesar-cipher.rb)
->>>>>>> 324111b0426673834bc80cc9b3a7269170ba7da2
 * [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/building_blocks.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/caesar-cipher.rb)
 * [Ece Yenmez's Solution](https://github.com/eceyenmez/caesar_cipher)
@@ -404,11 +401,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 
-<<<<<<< HEAD
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/stock_picker.rb)
-=======
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/building-blocks/blob/master/stock-picker.rb)
->>>>>>> 324111b0426673834bc80cc9b3a7269170ba7da2
 * [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/stock_picker.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/stock-picker.rb)
 * [Tim Dowd's Solution](https://github.com/timothydowd/stock_picker/blob/master/stock_picker.rb)
