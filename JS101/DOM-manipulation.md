@@ -154,7 +154,7 @@ console.dir(controls.previousSibling);
 // selects the prior sibling => .display
 ~~~
 
-So you're identifing a certain node based on its relationships to the nodes around it.
+So you're identifying a certain node based on its relationships to the nodes around it.
 
 ### DOM methods
 
