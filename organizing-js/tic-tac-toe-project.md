@@ -27,7 +27,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [leosoaivan's solution](https://github.com/leosoaivan/js-tictactoe) - [View in browser](http://leosoaivan.com/js-tictactoe)
 - [nmac's solution (with minimax)](https://github.com/nmacawile/js-tic-tac-toe) - [Game](https://htmlpreview.github.io/?https://github.com/nmacawile/js-tic-tac-toe/blob/master/index.html)
 - [Johan Morin's Solution](https://github.com/MorrisMalone/tic-tac-toe) - [View in Browser](https://morrismalone.github.io/tic-tac-toe/)
->>>>>>> e2687ecc6026a5ebfc946d8caca12a3013d9f517
 - [brxck's solution](https://github.com/brxck/tic-tac-toe-js) - [View in Browser](http://brockmcelroy.com/tic-tac-toe-js/)
 - [theghall's solution](https://github.com/theghall/odin-tic-tac-toe) - [View in Browser](https://theghall.github.io/odin-tic-tac-toe/)
 - [Andrew's Solution](https://github.com/andrewr224/Tic-Tac-Toe-JS) - [View in Browser](https://andrewr224.github.io/Tic-Tac-Toe-JS/)
