@@ -35,6 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/caesar_cipher.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/building-blocks/blob/master/caesar-cipher.rb)
 * [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/building_blocks.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/caesar-cipher.rb)
@@ -400,6 +401,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 * Add your solution below this line!
 
+* [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/stock_picker.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/building-blocks/blob/master/stock-picker.rb)
 * [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/stock_picker.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/stock-picker.rb)
@@ -743,6 +745,7 @@ Next, make sure your method can handle multiple words:
 
 * Add your solution below this line!
 
+* [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/substring.rb)
 * [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/substrings.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/building-blocks/blob/master/substrings.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/substrings.rb)
