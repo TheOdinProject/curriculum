@@ -34,6 +34,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * Add your solution below this line!
 * [Bojana Karakacev's solution](https://github.com/bojana12/youtube-homepage) - [View in browser](https://bojana12.github.io/youtube-homepage/)
 * [rvalentin1010's solution](https://github.com/rvalentin1010/youtube-video-player) - [View in browser](https://rvalentin1010.github.io/youtube-video-player/)
+* [Qin's solution](https://github.com/hyathynth/youtube_mockup) - [View in browser](https://hyathynth.github.io/youtube_mockup/)
 * [0zra's (scaffold)solution](https://github.com/0zra/embedding) - [View in browser](https://0zra.github.io/embedding/)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/youtubecopy) - [View in browser](https://cmacswan07.github.io/youtubecopy/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/youtube_player) - [View in browser](https://javier-machin.github.io/youtube_player/)
