@@ -1638,12 +1638,13 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [CaptainSensible's solution (Easy)](https://github.com/CaptainSensible/fake-google-homepage) - [View in Browser](https://captainsensible.github.io/fake-google-homepage/)
 * [Janos Kozma's solution (Easy)](https://github.com/JKozma81/google-homepage-Easy-) - [View in Browser](https://codepen.io/Bishop8119/pen/PdKzQq)
 * [Stephen's solution](https://github.com/galileosgetaway/google-homepage) - [View in Browser](https://galileosgetaway.github.io/google-homepage/)
-* [RajaSekhar's colution](https://github.com/IBTechRaj/google-homepage) - [View in Browser](https://ibtechraj.github.io/google-homepage/)
 * [Haley Harris' Solution (Easy)](https://github.com/HaleyHarris94/google-homepage) - [View in Browser](https://haleyharris94.github.io/google-homepage/)
 * [Rey's solution (Difficult)](https://rey810.github.io/google_results_page/) - [View in Browser](https://rey810.github.io/google_results_page/)
 * [Anatolii's solution (Easy)](https://github.com/Nt444/google-homepage) - [View in Browser](https://nt444.github.io/google-homepage/)
 * [funtikar's solution (Easy)](https://github.com/funtikar/top_project) - [View in Browser](https://funtikar.github.io/top_project/)
 * [DarkeBlayze's solution (Easy)](https://github.com/DarkeBlayze/google-homepage) - [View in Browser](https://DarkeBlayze.github.io/google-homepage/)
+* [RajaSekhar's solution](https://github.com/IBTechRaj/google-homepage) - [View in Browser](https://ibtechraj.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
