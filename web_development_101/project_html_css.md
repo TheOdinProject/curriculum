@@ -1647,6 +1647,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [DarkeBlayze's solution (Easy)](https://github.com/DarkeBlayze/google-homepage) - [View in Browser](https://DarkeBlayze.github.io/google-homepage/)
 * [Adam Wolcott's solution (Easy)](https://github.com/adamwolcott/google-homepage) - [View in Browser](https://adamwolcott.github.io/google-homepage)
  [Vladimirs solution (Easy)](https://github.com/beaver28/google-homepage) - [View in Browser](https://beaver28.github.io/google-homepage)
+* [Casey Carlzen's solution (Easy)](https://github.com/ccarlzen/google_homepage) - [View in Browser](https://ccarlzen.github.io/google_homepage/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
