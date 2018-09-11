@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Add your solution below this line!
 * [Bojana Karakacev's solution](https://github.com/bojana12/project-html-forms) - [View in browser](https://bojana12.github.io/project-html-forms/)
 * [rvalentin1010's solution](https://github.com/rvalentin1010/mint-signup) - [View in browser](https://rvalentin1010.github.io/mint-signup/)
+* [Qin's solution](https://github.com/hyathynth/mint) - [View in browser](https://hyathynth.github.io/mint/)
 * [OthmanAmoudi's solution](https://gist.github.com/OthmanAmoudi/f0a74e90f310c9295561671bc2f372c7) - [Fancy Form View in browser](https://codepen.io/theweeknd/pen/JBMrJv)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/login-form/blob/master/index.html) - [View in browser](https://cmacswan07.github.io/login-form/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Intuit_form) - [View in browser](https://javier-machin.github.io/Intuit_form/)
