@@ -24,3 +24,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Devon's solution](https://github.com/defitjo/Weather-App) - [View in browser](https://defitjo.github.io/Weather-App/)
 * [hmbeale's solution](https://github.com/hmbeale/weather) - [View in browser](http://hmbeale.github.io/weather/)
 * [Rémy's solution](https://codepen.io/beumsk/pen/Xpbyxv) - [View in browser](https://codepen.io/beumsk/full/Xpbyxv/)
+* [Sava's solution](https://github.com/SavaVuckovic/Weather-App)
