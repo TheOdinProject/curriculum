@@ -11,7 +11,7 @@ Dual-booting provides you two operating systems that you can switch from with a 
 
 ### Step 1: Downloading Linux
 
-First you will need to download the version of linux you wish to install onto your computer. Ubuntu comes in different versions ("flavors"), but we suggested the standard [Ubuntu](https://www.ubuntu.com/download/desktop) or [Xubuntu](https://xubuntu.org/) if you're using an older computer.
+First you will need to download the version of linux you wish to install onto your computer. Ubuntu comes in different versions ("flavors"), but we suggested the standard [Ubuntu](https://www.ubuntu.com/download/desktop) or [Xubuntu](https://xubuntu.org/) if you're using an older computer. Be sure to download the 64bit version, it is the most compatible and will prevent many hard to solve problems.
 
 ### Step 2: Creating a bootable flash-drive
 
