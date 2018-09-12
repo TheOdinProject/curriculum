@@ -56,7 +56,7 @@ Next You will have to install some packages that do not come with Ubuntu out of 
 
 #### Step 1.2.0: Install Git (if you haven't already)
 
-If you are on WSL, you will already have installed Git for Windows. If not, run this command in the terminal to install it:
+If you are on WSL, click [here](https://git-scm.com/download/win) to download Git for windows. Otherwise, run this command in the terminal to install it:
 
 ~~~bash
 sudo apt-get install git
