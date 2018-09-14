@@ -25,6 +25,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Bojana Karakacev's solution](https://github.com/bojana12/positions-and-floats-css) - [View In Browser](https://bojana12.github.io/positions-and-floats-css/)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/nyt-article) - [View In Browser](https://cmacswan07.github.io/nyt-article/index.html)
 * [Javier Machin's solution](https://github.com/Javier-Machin/NYT-article) - [View In Browser](https://javier-machin.github.io/NYT-article/)
+* [Qin's solution](https://github.com/hyathynth/NYT_article) - [View In Browser](https://hyathynth.github.io/NYT_article/)
 * [Yakherder's solution](https://github.com/yakherder614/NYT-clone) - [View In Browser](https://yakherder614.github.io/NYT-clone/)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Positioning-and-Floating-Elements) - [View In Browser](https://sarfrazanjum.github.io/TOP_Positioning-and-Floating-Elements/)
 * [nmac's solution](https://github.com/nmacawile/new-york-times-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/new-york-times-layout/blob/master/index.html)
