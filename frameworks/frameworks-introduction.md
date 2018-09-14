@@ -50,4 +50,4 @@ The rest of this section will go through the 3 most popular front-end frameworks
 1. Spend a little time poking around the sites for various frameworks above to get a feel for what's out there.
 2. Check out [this recent survey](https://stateofjs.com/2017/front-end/results/) to get a feel for the general popularity and usage of the various frameworks.
 3. [This survey](https://insights.stackoverflow.com/survey/2018/#technology) is not JS or web centered, but includes some data about frameworks.
-4. [This video](https://www.youtube.com/watch?v=KMX1mFEmM3E&t=676s) gives a good overview and comparison of the 'Big 3'.
+4. [This video](https://www.youtube.com/watch?v=KMX1mFEmM3E) gives a good overview and comparison of the 'Big 3'.
