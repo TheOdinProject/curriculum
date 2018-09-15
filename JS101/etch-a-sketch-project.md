@@ -205,3 +205,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [RossTrang's solution](https://github.com/RossTrang/etch-a-sketch) - [View in browser](https://cdn.rawgit.com/RossTrang/etch-a-sketch/f7f84edf/index.html)
 * [Roshan's solution](https://github.com/roshanrahman/the-odin-project/tree/master/sketch) - [View in browser](https://roshanrahman.github.io/the-odin-project/sketch/index.html)
 * [Casey's solution](https://github.com/DevCasey/Etch-a-Sketch) 
+* [Anatolii's solution](https://github.com/Nt444/sketch_test) -[View in browser](https://nt444.github.io/sketch_test/)
