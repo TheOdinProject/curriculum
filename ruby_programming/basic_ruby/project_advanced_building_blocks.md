@@ -37,11 +37,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/bubble_sort.rb)
-=======
-*[Mohamed Elattar's Solution](https://github.com/mohamed-elattar/advanced-building-blocks/blob/master/bubble-sort.rb)
->>>>>>> 85827c1ae0d4a4ea797ebc2add939216e1ef337f
+* [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/advanced-building-blocks/blob/master/bubble-sort.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/advance-ruby-basics/blob/master/bubble-sort.rb)
 * [Ahmed Ali's Solution](https://github.com/ahmedloona/my_odin_project_solutions/blob/master/2_project_advanced_building_blocks/bubble_sort.rb)
 * [Tim Dowd's Solution](https://github.com/timothydowd/bubble_sort/blob/master/bubble_sort.rb)
@@ -348,11 +345,8 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/enumerable.rb)
-=======
-*[Mohamed Elattar's Solution](https://github.com/mohamed-elattar/advanced-building-blocks/blob/master/enumerable-methods.rb)
->>>>>>> 85827c1ae0d4a4ea797ebc2add939216e1ef337f
+* [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/advanced-building-blocks/blob/master/enumerable-methods.rb)
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/advance-ruby-basics/blob/master/my_enumerable.rb)
 * [Ahmed Ali's Solution](https://github.com/ahmedloona/my_odin_project_solutions/blob/master/2_project_advanced_building_blocks/my_enumerable_methods.rb)
 * [Tim Dowd's Solution](https://github.com/timothydowd/enumerables/blob/master/enumerable.rb)
