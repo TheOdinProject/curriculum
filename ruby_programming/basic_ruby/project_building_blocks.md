@@ -35,6 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 
 
 * Add your solution below this line!
+* [Xadren's Solution](https://github.com/Xadren/odin_project/blob/master/caeser_cipher.rb)
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/caesar_cipher.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/building-blocks/blob/master/caesar-cipher.rb)
 * [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/building_blocks.rb)
@@ -706,7 +707,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course
 * [Agon's solution](https://github.com/AgonIdrizi/RubyBuildingBlocks/blob/master/the_odin_project/Ruby/BuildingBlocksProject/Stock_Picker.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/stock_picker)
 * [mojotron's solution](https://github.com/mojotron/ruby-exercises/blob/master/stock_picker.rb)
-* [Akash's solution](https://github.com/Akash-sopho/building_blocks/blob/master/stock_picker.rb}
+* [Akash's solution](https://github.com/Akash-sopho/building_blocks/blob/master/stock_picker.rb)
 * [Ben Smyth's Solution](https://github.com/benjsmyth/building_blocks/blob/master/stock_picker.rb)
 * [Josh Hansen's Solution](https://github.com/Jdhansen41/ruby_lessons/blob/master/exercises/stock.rb)
 * [Amy Smith's Solution](https://github.com/amicloud/the-odin-project/tree/master/ruby-programming/building-blocks/stock-picker)
@@ -938,7 +939,7 @@ Next, make sure your method can handle multiple words:
 * [Stephanie's solution](https://github.com/Avonyel/Ruby-Building-Blocks/blob/master/substrings.rb)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/substrings)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/Ruby_Building_Blocks/blob/master/substrings.rb)
-* [Omar Cagua's solution](https://github.com/OmarTGc/substrings/blob/master/substrings.rb))
+* [Omar Cagua's solution](https://github.com/OmarTGc/substrings/blob/master/substrings.rb)
 * [Deepak's solution](https://github.com/Deepak5050/caeser_cifer/blob/master/substrings.rb)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/blob/master/ruby-programming/building-blocks/substrings.rb)
 * [Josh Cummings' solution](https://github.com/obiwan7713/Ruby_Building_Blocks/blob/master/substrings.rb)
