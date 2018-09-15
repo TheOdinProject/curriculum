@@ -61,9 +61,9 @@ Look through these now and then use them to test yourself after doing the assign
     1. Read about the [History of Ruby](https://www.sitepoint.com/history-ruby/)
     2. Read about [Open Source Culture](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source) in Section 1
     3. Read about where you can find [Ruby's Community](https://www.ruby-lang.org/en/community/)
-  3. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
-  4. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 7: `Projects and Libraries`
-  5. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 175-179)
+  3. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
+  4. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 7: `Projects and Libraries`
+  5. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 175-179)
   6. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Learning Outcomes" section:
     1. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
     2. [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
@@ -86,4 +86,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 * [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/).
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
+* For an alternative read to Beginning Ruby's chapters on OOP, check out [Launch School's OOP](https://launchschool.com/books/oo_ruby/read/introduction).
 * Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
+
