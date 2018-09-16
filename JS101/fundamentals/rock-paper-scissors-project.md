@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Frank's Solution](https://github.com/frankdb/rockpaperscissors)
 - [Stephen's Solution](https://github.com/babahyaga/RockPaperScissors)
 - [Tobenski's Console Solution](https://github.com/tobenski/RockPaperScissor/)  
-- [Anis' Console Solution](https://github.com/AnisBouhadida/RockPaperScissors)  
+- [Anis' Console Solution](https://github.com/AnisBouhadida/RockPaperScissors) [View in Browser](https://anisbouhadida.github.io/RockPaperScissors/) 
 - [Barry's Console Solution](https://github.com/barry505/rock-paper-scissors)
 - [deegeebee's Console Solution](https://github.com/deegeebee/TOP_RockPaperScissors.git) - [UI Solution](https://github.com/deegeebee/TOP_RockPaperScissorsUI)
 - [Tadej's Solution](https://github.com/TadejPolajnar/rock-paper-scissors) - [View in Browser](https://tadejpolajnar.github.io/rock-paper-scissors/)
