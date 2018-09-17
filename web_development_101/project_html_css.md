@@ -1652,9 +1652,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Casey Carlzen's solution (Easy)](https://github.com/ccarlzen/google_homepage) - [View in Browser](https://ccarlzen.github.io/google_homepage/)
 * [Linda's solution (Easy)](https://github.com/linducya/google-homepage) - [View in Browser](https://linducya.github.io/google-homepage/)
 * [Sofian's solution (Easy)](https://github.com/sofianbettayeb/google-homepage) - [View in Browser](https://github.com/sofianbettayeb/google-homepage)
-* [Eddie's solution (Easy)]
-(https://iameddieyayaya.github.io/google-homepage/) - [View in Browser]
- (https://github.com/iameddieyayaya/google-homepage.git)
+* [Eddie's solution (Easy)](https://github.com/iameddieyayaya/google-homepage.git) - [View in Browser](https://iameddieyayaya.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
