@@ -326,5 +326,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Anatolii's Solution](https://github.com/Nt444/rock_paper_scissors) - [View in Browser](https://nt444.github.io/rock_paper_scissors/)
 - [Mark Bailey's Solution (With GUI)](https://github.com/markbailey0356/rock-paper-scissors) - [View in Browser](https://markbailey0356.github.io/rock-paper-scissors/)
 - [Camila Mizumoto's Solution](https://github.com/camilamiz/rock-paper-scissors) - [View in Browser](http://camilamiz.github.io/rock-paper-scissors)
-- [Jahmzu's Solution](https://github.com/jahmzu/TOP-rock-paper-scissors-game)
+- [Jahmzu's Solution](https://github.com/jahmzu/TOP-rock-paper-scissors-game) - [View in Browser](https://jahmzu.github.io/TOP-rock-paper-scissors-game/)
 - [Funtikar's UI Solution](https://github.com/funtikar/RockPaperScissorgame) - [View in Browser](https://funtikar.github.io/RockPaperScissorgame/)
