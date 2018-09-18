@@ -1656,6 +1656,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Eddie's solution (Easy)](https://github.com/iameddieyayaya/google-homepage.git) - [View in Browser](https://iameddieyayaya.github.io/google-homepage/)
 * [Alex's solution (Easy)](https://github.com/midnitedev101/google-homepage_v1.git) - [View in Browser](https://midnitedev101.github.io/google-homepage_v1/)
 
+* [Jon's solution (Easy)](https://devnroses.github.io/google-homepage/) - [View in Browser](https://midnitedev101.github.io/google-homepage_v1/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
