@@ -210,4 +210,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Anatolii's solution](https://github.com/Nt444/sketch_test) -[View in browser](https://nt444.github.io/sketch_test/)
 * [Funtikar's solution](https://github.com/funtikar/EtchASketch) -[View in browser](https://funtikar.github.io/EtchASketch/)
 * [Halkim44's solution](https://github.com/halkim44/etch-a-sketch) -[View in browser](https://halkim44.github.io/etch-a-sketch/)
-
+* [HanJosmer's solution](https://github.com/HanJosmer/etch-a-sketch) -[View in browser](https://hanjosmer.github.io/etch-a-sketch/)
