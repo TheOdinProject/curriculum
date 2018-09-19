@@ -203,7 +203,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Aziz Yakubov's solution](https://github.com/azizyakubov/rock-paper-scissors) - [View in browser](https://azizyakubov.github.io/rock-paper-scissors/)
 - [Onur's solution](https://github.com/deksudo/RockPaperScissors) - [View in browser (UI version)](https://deksudo.github.io/RockPaperScissors/)
 - [Lucas Manzano's solution](https://github.com/lucasmfarias1/rock-paper-scissors) - [View in browser](https://lucasmfarias1.github.io/rock-paper-scissors/)
-- [Nick Prieto's Solution](https://github.com/NickWhoCodes/RockPaperScissors) - [View in browser](https://github.com/NickWhoCodes/RockPaperScissorsGUI)
+- [Nick Prieto's Solution]Console Version - (https://github.com/NickDark/rock_paper_scissors) GUI version - (https://github.com/NickDark/rock_paper_scissors_gui)
 - [Steve Cooke's solution](https://github.com/cook1e20/rockPaperScissors) - [View in browser](https://cook1e20.github.io/rockPaperScissors/)
 - [Nicole C's solution](https://github.com/nychinn/js-experiments/tree/master/projects/jankenpon) - [View in browser](https://nychinn.github.io/js-experiments/projects/jankenpon)
 - [Natalie Aldrich's solution](https://github.com/nataliealdrich/rock-paper-scissors) - [View in browser](https://nataliealdrich.github.io/rock-paper-scissors/)
