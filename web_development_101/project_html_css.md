@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/edit/master/web_development_101/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Victor's solution (Easy)](https://github.com/victor-lf/google-homepage) - [View in Browser](https://victor-lf.github.io/google-homepage/) - [Victor's solution (Difficult)](https://github.com/victor-lf/google-search-results) - [View in Browser](https://victor-lf.github.io/google-search-results/)
 * [Zayne Railoun's Solution (Easy)](https://github.com/Zaynetjie/Google-Homepage) - [View in Browser](https://zaynetjie.github.io/Google-Homepage/)
 * [Mary Chew's Solution (Easy)](https://github.com/marychew97/google-homepage) - [View in Browser](https://marychew97.github.io/google-homepage/)
 * [Evan Medrano's Solution (Easy)](https://satisfiedpunk.github.io/google-homepage/) - [View in Browser](https://satisfiedpunk.github.io/google-homepage/)
@@ -1657,7 +1658,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alex's solution (Easy)](https://github.com/midnitedev101/google-homepage_v1.git) - [View in Browser](https://midnitedev101.github.io/google-homepage_v1/)
 * [Jon's solution (Easy)](https://devnroses.github.io/google-homepage/) - [View in Browser](https://midnitedev101.github.io/google-homepage_v1/)
 * [Paul's solution (Easy)](https://github.com/paulca55/google-homepage/) - [View in Browser](https://paulca55.github.io/google-homepage/)
-* [Victor's solution (Easy)](https://github.com/victor-lf/google-homepage) - [View in Browser](https://victor-lf.github.io/google-homepage/) - [Victor's solution (Difficult)](https://github.com/victor-lf/google-search-results) - [View in Browser](https://victor-lf.github.io/google-search-results/)
 
 
 ### Additional Resources
