@@ -1662,6 +1662,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jon's solution (Easy)](https://devnroses.github.io/google-homepage/) - [View in Browser](https://midnitedev101.github.io/google-homepage_v1/)
 * [Paul's solution (Easy)](https://github.com/paulca55/google-homepage/) - [View in Browser](https://paulca55.github.io/google-homepage/)
 * [Dhairya's solution (Easy)](https://github.com/dhairyadwivedi/google-homepage) - [View in Browser](https://cdn.rawgit.com/dhairyadwivedi/google/cd0cefb1/index.html)
+* [Lisa's solutions(Easy)](https://li3097.github.io/google_homepage/) - [View in Browser](https://li3097.github.io/google_homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
