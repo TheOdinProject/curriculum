@@ -213,4 +213,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Wesley Wang's solution](https://github.com/wesleymellon/Etch-a-Sketch-Game) -[View in browser](https://wesleymellon.github.io/Etch-a-Sketch-Game/)
 * [HanJosmer's solution](https://github.com/HanJosmer/etch-a-sketch) -[View in browser](https://hanjosmer.github.io/etch-a-sketch/)
 * [Mark Bailey's Solution](https://github.com/markbailey0356/etch-a-sketch) - [View in browser](https://markbailey0356.github.io/etch-a-sketch/)
-
+* [Edgar Miranda's Solution](https://github.com/ejmiranda/etch-a-sketch) - [View in browser](https://ejmiranda.github.io/etch-a-sketch/)
