@@ -43,3 +43,4 @@ Grid is now supported in all major browsers meaning you can use it right away to
 
 ### Additional Resources
 - The [MDN Grid pages](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are a great place to review CSS Grid and make sure you are comfortable with the main areas of the specification.
+- This [Rachel Andrew Youtube Video](https://youtu.be/N5Lt1SLqBmQ) is a great video on using Grid over other options
