@@ -330,3 +330,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jahmzu's Solution](https://github.com/jahmzu/TOP-rock-paper-scissors-game) - [View in Browser](https://jahmzu.github.io/TOP-rock-paper-scissors-game/)
 - [Funtikar's UI Solution](https://github.com/funtikar/RockPaperScissorgame) - [View in Browser](https://funtikar.github.io/RockPaperScissorgame/)
 - [Chel's Solution](https://github.com/oclVargas/RockPaperScissors)
+- [Raja Sekhar's Solution](https://github.com/IBTechRaj/RockPaperScissors) - [View in Browser](https://IBTechRaj.github.io/RockPaperScissors/)
