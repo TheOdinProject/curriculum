@@ -1665,6 +1665,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dhairya's solution (Easy)](https://github.com/dhairyadwivedi/google-homepage) - [View in Browser](https://cdn.rawgit.com/dhairyadwivedi/google/cd0cefb1/index.html)
 * [Lisa's solutions(Easy)](https://li3097.github.io/google_homepage/) - [View in Browser](https://li3097.github.io/google_homepage/)
 * [Onur's solution (Easy)](https://github.com/yonureker/google-homepage) - [View in Browser](https://yonureker.github.io/google-homepage/)
+* [ErdiVamir's solution (Easy)](https://github.com/ErdiVamir/google-homepage) - [View in Browser](https://erdivamir.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
