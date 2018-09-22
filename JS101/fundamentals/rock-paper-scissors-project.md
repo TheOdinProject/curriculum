@@ -37,12 +37,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Frank's console solution](https://github.com/frankdb/rockpaperscissors/blob/master/rockpaperscissors.html) - [Frank's UI solution](https://github.com/frankdb/rockpaperscissors/blob/master/rockpaperscissorsui.html) - [View UI solution in browser](https://cdn.rawgit.com/frankdb/rockpaperscissors/f87f65cf/rockpaperscissorsui.html)
+- [Lucas's Console Solution](https://github.com/ogdendavis/rock-paper-scissors)
 - [Mary's Console Solution](https://github.com/marychew97/rock_paper_scissor) - [View in Browser](https://marychew97.github.io/rock_paper_scissor/)
 - [Albert's Console Solution](https://github.com/CWMo/RPS_text_version) - [View in Browser](https://cwmo.github.io/RPS_text_version/)
 - [Alptekin's solution](https://github.com/alpwoo/RockPaperScissorGame)
 - [Stephen's Solution](https://github.com/babahyaga/RockPaperScissors)
 - [Tobenski's Console Solution](https://github.com/tobenski/RockPaperScissor/)  
-- [Anis' Console Solution](https://github.com/AnisBouhadida/RockPaperScissors) [View in Browser](https://anisbouhadida.github.io/RockPaperScissors/) 
+- [Anis' Console Solution](https://github.com/AnisBouhadida/RockPaperScissors) [View in Browser](https://anisbouhadida.github.io/RockPaperScissors/)
 - [Barry's Console Solution](https://github.com/barry505/rock-paper-scissors)
 - [deegeebee's Console Solution](https://github.com/deegeebee/TOP_RockPaperScissors.git) - [UI Solution](https://github.com/deegeebee/TOP_RockPaperScissorsUI)
 - [Tadej's Solution](https://github.com/TadejPolajnar/rock-paper-scissors) - [View in Browser](https://tadejpolajnar.github.io/rock-paper-scissors/)
