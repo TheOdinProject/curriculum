@@ -750,6 +750,7 @@ Next, make sure your method can handle multiple words:
 
 * Add your solution below this line!
 
+* [Xadren's Solution](https://github.com/Xadren/odin_project/blob/master/substrings.rb)
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/substring.rb)
 * [Leni Tarzwell's Solution](https://github.com/HTarzwell/odin-project/blob/master/substrings.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/building-blocks/blob/master/substrings.rb)
