@@ -1668,7 +1668,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Lisa's solutions(Easy)](https://li3097.github.io/google_homepage/) - [View in Browser](https://li3097.github.io/google_homepage/)
 * [Onur's solution (Easy)](https://github.com/yonureker/google-homepage) - [View in Browser](https://yonureker.github.io/google-homepage/)
 * [ErdiVamir's solution (Easy)](https://github.com/ErdiVamir/google-homepage) - [View in Browser](https://erdivamir.github.io/google-homepage/)
-Adiec7 solution https://adiec7.github.io/google-homepage/
+* [Adiec7's solution](https://github.com/adiec7/google-homepage) -  [View in Browser](https://adiec7.github.io/google-homepage/)
 
 
 ### Additional Resources
