@@ -16,6 +16,7 @@ You should change the look of the page based on the data, maybe by changing the 
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/async-apis/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [Luján Fernaud's Solution](https://github.com/lujanfernaud/js-weather-compare) - [View in browser](http://lujanfernaud.com/js-weather-compare/)
 * [gregthepeg's Solution](https://github.com/gregthepeg4/weatherapp) - [View in browser](https://peaceful-dawn-67006.herokuapp.com/)
 * [brxck's solution](https://github.com/brxck/odin-weather) - [View in browser](http://brockmcelroy.com/odin-weather/)
 * [theghall's Promise solution](https://github.com/theghall/odin-weather) - [theghall's async/await refactor](https://github.com/theghall/odin-weather-alt)
@@ -23,3 +24,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Devon's solution](https://github.com/defitjo/Weather-App) - [View in browser](https://defitjo.github.io/Weather-App/)
 * [hmbeale's solution](https://github.com/hmbeale/weather) - [View in browser](http://hmbeale.github.io/weather/)
 * [Rémy's solution](https://codepen.io/beumsk/pen/Xpbyxv) - [View in browser](https://codepen.io/beumsk/full/Xpbyxv/)
+* [Sava's solution](https://github.com/SavaVuckovic/Weather-App)
