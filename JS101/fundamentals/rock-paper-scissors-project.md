@@ -39,7 +39,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nathan's Console Solution](https://github.com/nwthomas/rock-paper-scissors) - [View in Browser](https://nwthomas.github.io/rock-paper-scissors/)
 - [Nasser Ahmed's Console Solution](https://github.com/SNasser97/js_project_rock_paper_scissors) - [View in Browser](https://snasser97.github.io/js_project_rock_paper_scissors/index.html)
 - [Frank's console solution](https://github.com/frankdb/rockpaperscissors/blob/master/rockpaperscissors.html) - [Frank's UI solution](https://github.com/frankdb/rockpaperscissors/blob/master/rockpaperscissorsui.html) - [View UI solution in browser](https://cdn.rawgit.com/frankdb/rockpaperscissors/f87f65cf/rockpaperscissorsui.html)
-- [Lucas's Console Solution](https://github.com/ogdendavis/rock-paper-scissors)
+- [Lucas's Solution](https://github.com/ogdendavis/rock-paper-scissors) - [View in Browser](https://ogdendavis.github.io/rock-paper-scissors/)
 - [Mary's Console Solution](https://github.com/marychew97/rock_paper_scissor) - [View in Browser](https://marychew97.github.io/rock_paper_scissor/)
 - [Albert's Console Solution](https://github.com/CWMo/RPS_text_version) - [View in Browser](https://cwmo.github.io/RPS_text_version/)
 - [Alptekin's solution](https://github.com/alpwoo/RockPaperScissorGame)
