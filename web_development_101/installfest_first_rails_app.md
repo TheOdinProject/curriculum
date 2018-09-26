@@ -630,7 +630,7 @@ end
 
 and save the file. You can close VSCode now if you want, but it won't hurt to leave it open either. either way, the rest of the steps take place in the terminal.
 
-##### Step 4.6: Adding Changes to git
+#### Step 4.6: Adding Changes to git
 
 Now that we have made some changes, we should add the changes to git. This is required to successfully deploy to Heroku as well.
 
