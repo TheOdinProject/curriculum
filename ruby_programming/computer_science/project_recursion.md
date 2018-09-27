@@ -187,6 +187,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Dreniak's Solution](https://gist.github.com/Dreniak/9b2b10c2c117b735b2d381b5104af254) - With normal sort time comparation!
 * [Mohamed Elattar Solution](https://github.com/mohamed-elattar/odin-project-recursion/blob/master/merge_sort.rb)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Merge%20Sort.rb)
 * [Nathan Sherburne's solution](https://github.com/nathansherburne/ruby_practice/blob/master/merge_sort.rb)
