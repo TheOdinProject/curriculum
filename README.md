@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to The Odin Project Curriculum:
 
 The Odin Project (also known as TOP), is an open-source community for learning full-stack web development. Our mission is to provide a comprehensive curriculum to learn web development for free. We help our students to learn the skills and build the impressive portfolio of projects they need to get hired as a web developer.
@@ -62,7 +61,6 @@ To find out more about how you can contribute please read our [contributing guid
 
 ___
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
-=======
 # The Odin Project - Javascript Curriculum
 
 ## Mission statement
@@ -79,4 +77,3 @@ Additionally, we have made our learning materials completely open-source.  This 
 
 If you would like to contribute to this project [please contact us here](https://gitter.im/TheOdinProject/New-JS-course).  For the moment, the project leader on this is Cody Loyd \(@codyloyd in the gitter room\) so feel free to ping him if you have any questions.
 
->>>>>>> 2e99dc7fed0aee3f74abada44ef41d037ee5b1dc
