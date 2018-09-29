@@ -437,7 +437,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/the_backend/introduction_to_the_backend_lesson.md",
+  url: "/web_development_101/the_back_end/introduction_to_the_backend_lesson.md",
   repo: 'curriculum'
 )
 
@@ -449,7 +449,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/the_backend/ruby_basics_lesson.md",
+  url: "/web_development_101/the_back_end/ruby_basics_lesson.md",
   repo: 'curriculum'
 )
 
@@ -461,7 +461,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/web_development_101/the_backend/ruby_project.md",
+  url: "/web_development_101/the_back_end/ruby_project.md",
   repo: 'curriculum'
 )
 
