@@ -39,8 +39,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/main-course-introduction/introduction.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/introduction/introduction.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -51,8 +51,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/main-course-introduction/js101-review.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/introduction/js101-review.md",
+  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -76,8 +76,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/organizing-js/organizing-introduction.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/organizing-introduction.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -88,8 +88,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/organizing-js/objects-constructors.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/objects-constructors.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -100,8 +100,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/organizing-js/library-project.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/library-project.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -112,8 +112,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/organizing-js/factory-functions.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/factory-functions.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -124,8 +124,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/organizing-js/tic-tac-toe-project.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/tic-tac-toe-project.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -136,8 +136,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/organizing-js/classes.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/classes.md",
+  repo: 'curriculum'
 )
 
 
@@ -149,8 +149,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/organizing-js/es6-modules.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/es6-modules.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -161,8 +161,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/organizing-js/restaurant-project.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/restaurant-project.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -173,8 +173,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/organizing-js/oop-concepts.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/oop-concepts.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -185,8 +185,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/organizing-js/project.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/organizing-js/project.md",
+  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -210,8 +210,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/js-in-the-real-world/linting.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/js-in-the-real-world/linting.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -222,8 +222,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/js-in-the-real-world/ui-Interactions.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/js-in-the-real-world/ui-Interactions.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -234,8 +234,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/js-in-the-real-world/forms.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/js-in-the-real-world/forms.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -246,8 +246,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/js-in-the-real-world/webpack-2.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/js-in-the-real-world/webpack-2.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -258,8 +258,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/js-in-the-real-world/es6-features.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/js-in-the-real-world/es6-features.md",
+  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -283,8 +283,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/frameworks/frameworks-introduction.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/frameworks/frameworks-introduction.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -295,8 +295,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/frameworks/angular.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/frameworks/angular.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -307,8 +307,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/frameworks/react-introduction.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/frameworks/react-introduction.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -319,8 +319,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/frameworks/vue.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/frameworks/vue.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -331,8 +331,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/frameworks/frameworks-project.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/frameworks/frameworks-project.md",
+  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -356,8 +356,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/async-apis/json.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/async-apis/json.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -368,8 +368,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/async-apis/promises-async.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/async-apis/promises-async.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -380,8 +380,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/async-apis/APIs.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/async-apis/APIs.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -392,8 +392,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/async-apis/async-await.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/async-apis/async-await.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -404,8 +404,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/async-apis/project.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/async-apis/project.md",
+  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -429,8 +429,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/testing/testing-1.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/testing/testing-1.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -441,8 +441,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/testing/testing-practice.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/testing/testing-practice.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -453,8 +453,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/testing/testing-2.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/testing/testing-2.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -465,8 +465,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/testing/battleship-project.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/testing/battleship-project.md",
+  repo: 'curriculum'
 )
 # +++++++++++
 # section
@@ -489,8 +489,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/js-rails/rails_backend.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/js-rails/rails_backend.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -501,8 +501,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/js-rails/project_rails_backend.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/js-rails/project_rails_backend.md",
+  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -526,8 +526,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/project_final_js.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/finishing-up/project_final_js.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -538,6 +538,6 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/conclusion.md",
-  repo: 'javascript_curriculum'
+  url: "/javascript/finishing-up/conclusion.md",
+  repo: 'curriculum'
 )

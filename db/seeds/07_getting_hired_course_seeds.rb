@@ -38,7 +38,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/introduction.md",
+  url: "/getting_hired/introduction.md",
   repo: 'curriculum'
 )
 
@@ -50,7 +50,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/strategy.md",
+  url: "/getting_hired/strategy.md",
   repo: 'curriculum'
 )
 
@@ -62,7 +62,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/starts_with_you.md",
+  url: "/getting_hired/starts_with_you.md",
   repo: 'curriculum'
 )
 
@@ -74,7 +74,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/what_companies_want.md",
+  url: "/getting_hired/what_companies_want.md",
   repo: 'curriculum'
 )
 
@@ -86,7 +86,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/preparation.md",
+  url: "/getting_hired/preparation.md",
   repo: 'curriculum'
 )
 
@@ -98,7 +98,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/jobs_jobs_jobs/project_portfolio.md",
+  url: "/getting_hired/project_portfolio.md",
   repo: 'curriculum'
 )
 
@@ -123,7 +123,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/collect_leads.md",
+  url: "/getting_hired/collect_leads.md",
   repo: 'curriculum'
 )
 
@@ -135,7 +135,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/qualify_leads.md",
+  url: "/getting_hired/qualify_leads.md",
   repo: 'curriculum'
 )
 
@@ -147,7 +147,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/jobs_jobs_jobs/project_resume.md",
+  url: "/getting_hired/project_resume.md",
   repo: 'curriculum'
 )
 
@@ -159,7 +159,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/applying.md",
+  url: "/getting_hired/applying.md",
   repo: 'curriculum'
 )
 
@@ -171,7 +171,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/preparing_to_interview.md",
+  url: "/getting_hired/preparing_to_interview.md",
   repo: 'curriculum'
 )
 
@@ -183,7 +183,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/handling_an_offer.md",
+  url: "/getting_hired/handling_an_offer.md",
   repo: 'curriculum'
 )
 
@@ -195,7 +195,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/alternatives.md",
+  url: "/getting_hired/alternatives.md",
   repo: 'curriculum'
 )
 
@@ -207,6 +207,6 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/jobs_jobs_jobs/conclusion.md",
+  url: "/getting_hired/conclusion.md",
   repo: 'curriculum'
 )

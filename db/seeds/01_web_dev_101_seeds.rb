@@ -37,7 +37,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/how_this_course_will_work.md",
+  url: "/web_development_101/the_basics/how_this_course_will_work.md",
   repo: 'curriculum'
 )
 
@@ -49,7 +49,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/introduction_to_web_development.md",
+  url: "/web_development_101/the_basics/introduction_to_web_development.md",
   repo: 'curriculum'
 )
 
@@ -61,7 +61,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/gearing_up.md",
+  url: "/web_development_101/the_basics/gearing_up.md",
   repo: 'curriculum'
 )
 
@@ -73,7 +73,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/join_the_odin_community.md",
+  url: "/web_development_101/the_basics/join_the_odin_community.md",
   repo: 'curriculum'
 )
 
@@ -85,7 +85,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/how_does_the_web_work.md",
+  url: "/web_development_101/the_basics/how_does_the_web_work.md",
   repo: 'curriculum'
 )
 
@@ -97,7 +97,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/command_line_basics.md",
+  url: "/web_development_101/the_basics/command_line_basics.md",
   repo: 'curriculum'
 )
 
@@ -122,7 +122,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/installfest_introduction.md",
+  url: "/web_development_101/installations/installation_overview.md",
   repo: 'curriculum'
 )
 
@@ -134,7 +134,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/installfest_prerequisites.md",
+  url: "/web_development_101/installations/prerequisites.md",
   repo: 'curriculum'
 )
 
@@ -146,7 +146,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/installfest_text_editors.md",
+  url: "/web_development_101/installations/text_editors.md",
   repo: 'curriculum'
 )
 
@@ -158,7 +158,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/web_development_101/installfest_first_rails_app.md",
+  url: "/web_development_101/installations/project_your_first_rails_app.md",
   repo: 'curriculum'
 )
 
@@ -183,7 +183,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/git_intro.md",
+  url: "/web_development_101/git_basics/introduction_to_git.md",
   repo: 'curriculum'
 )
 
@@ -195,7 +195,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/git_basics.md",
+  url: "/web_development_101/git_basics/git_basics.md",
   repo: 'curriculum'
 )
 
@@ -207,7 +207,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/web_development_101/project_git_basics.md",
+  url: "/web_development_101/git_basics/project_practicing_git_basics.md",
   repo: 'curriculum'
 )
 
@@ -232,7 +232,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/introduction_to_the_front_end.md",
+  url: "/web_development_101/the_front_end/introduction_to_the_front_end.md",
   repo: 'curriculum'
 )
 
@@ -244,7 +244,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/html_css_basics.md",
+  url: "/web_development_101/the_front_end/html_css_basics.md",
   repo: 'curriculum'
 )
 
@@ -256,7 +256,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/developer_tools.md",
+  url: "/web_development_101/the_front_end/developer_tools.md",
   repo: 'curriculum'
 )
 
@@ -268,7 +268,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/web_development_101/project_html_css.md",
+  url: "/web_development_101/the_front_end/project_html_css.md",
   repo: 'curriculum'
 )
 
@@ -293,8 +293,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/JS101/fundamentals/fundamentals-1.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/fundamentals-1.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -305,8 +305,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/JS101/fundamentals/fundamentals-2.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/fundamentals-2.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -317,8 +317,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/JS101/javascript-dev-tools.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/developer_tools_2.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -329,8 +329,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/JS101/fundamentals/fundamentals-3.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/fundamentals-3.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -341,8 +341,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/JS101/fundamentals/rock-paper-scissors-project.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/project_rock_paper_scissors.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -353,8 +353,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/JS101/code-structure.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/clean_code.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -365,8 +365,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/JS101/fundamentals/fundamentals-4.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/fundamentals-4.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -377,20 +377,20 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/JS101/DOM-manipulation.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/DOM-manipulation.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Etch-a-Sketch project",
-  title_url: "etch-a-sketch-project".parameterize,
-  description: "etch-a-sketch-project",
+  title: "Etch-a-Sketch",
+  title_url: "etch-a-sketch".parameterize,
+  description: "etch-a-sketch",
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/JS101/etch-a-sketch-project.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/project_etch_a_sketch.md",
+  repo: 'curriculum'
 )
 lesson_position += 1
 create_or_update_lesson(
@@ -400,8 +400,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/JS101/fundamentals/fundamentals-5.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/fundamentals-5.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -412,8 +412,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/JS101/final-project.md",
-  repo: 'javascript_curriculum'
+  url: "/web_development_101/javascript_basics/project_calculator.md",
+  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -437,8 +437,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/the_backend/introduction_to_the_backend_lesson.md",
-  repo: 'ruby_course'
+  url: "/web_development_101/the_back_end/introduction_to_the_backend_lesson.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -449,8 +449,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/the_backend/ruby_basics_lesson.md",
-  repo: 'ruby_course'
+  url: "/web_development_101/the_back_end/ruby_basics_lesson.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -461,8 +461,8 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/web_development_101/the_backend/ruby_project.md",
-  repo: 'ruby_course'
+  url: "/web_development_101/the_back_end/ruby_project.md",
+  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -487,7 +487,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: "/web_development_101/web_development_frameworks/introduction_to_frameworks.md",
-  repo: 'rails_course'
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -499,7 +499,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: "/web_development_101/web_development_frameworks/rails_basics.md",
-  repo: 'rails_course'
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -511,7 +511,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: "/web_development_101/web_development_frameworks/project_rails.md",
-  repo: 'rails_course'
+  repo: 'curriculum'
 )
 # +++++++++++
 # SECTION
@@ -534,7 +534,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/introduction_to_pair_programming.md",
+  url: "/web_development_101/pair_programming/introduction_to_pair_programming.md",
   repo: 'curriculum'
 )
 
@@ -546,7 +546,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/prepare_to_remote_pair.md",
+  url: "/web_development_101/pair_programming/prepare_to_remote_pair.md",
   repo: 'curriculum'
 )
 
@@ -558,7 +558,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/web_development_101/project_pairing.md",
+  url: "/web_development_101/pair_programming/project_pairing.md",
   repo: 'curriculum'
 )
 
@@ -583,6 +583,6 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/conclusion.md",
+  url: "/web_development_101/tying_it_all_together/conclusion.md",
   repo: 'curriculum'
 )
