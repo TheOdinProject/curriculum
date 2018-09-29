@@ -61,6 +61,8 @@ To find out more about how you can contribute please read our [contributing guid
 
 ___
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
+
+
 # The Odin Project - Javascript Curriculum
 
 ## Mission statement
