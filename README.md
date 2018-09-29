@@ -1,3 +1,7 @@
+# This Repo is NO LONGER IN USE
+
+Please use the TheOdinProject/curriculum repository to submit your solutions.
+
 # Welcome to The Odin Project's Ruby Course
 This repository contains the ruby course for [The Odin Project](https://www.theodinproject.com).
 
