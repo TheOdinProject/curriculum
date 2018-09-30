@@ -15,7 +15,7 @@ gem 'octokit',                      '~> 4.6'
 gem 'omniauth-github',              '~> 1.1.2' #for Github Authentication
 gem 'omniauth-google-oauth2',       '~> 0.5.1' #for Google Authentication
 gem 'font-awesome-rails',           '~> 4.7'
-gem 'bootstrap',                    '~> 4.0.0.alpha6'
+gem 'bootstrap',                    '~> 4.1.2'
 gem 'uglifier',                    '~> 3.0'
 gem 'friendly_id',                  '~> 5.1'
 gem 'cancancan',                    '~> 1.15'
