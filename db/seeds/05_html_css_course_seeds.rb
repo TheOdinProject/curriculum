@@ -11,7 +11,7 @@ lesson_position = 0
 
 course = create_or_update_course(
   title: "HTML and CSS",
-  title_url: "HTML and CSS".parameterize,
+  title_url: "HTML5 and CSS3".parameterize,
   description: "Good web design doesn't happen by accident. Learn how to make all that work you've done on the backend look great in a web browser! You'll be equipped to deeply understand and create your own design frameworks.",
   position: course_position
 )
