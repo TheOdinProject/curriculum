@@ -91,7 +91,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - copy and use one of the supplied links to share your project.
 
 ### Student Solutions
-Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/edit/master/web_development_101/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
 * [Michael Randrianarisona's solution (Easy)](https://github.com/KhaelM/google-homepage) - [View in Browser](https://KhaelM.github.io/google-homepage/)

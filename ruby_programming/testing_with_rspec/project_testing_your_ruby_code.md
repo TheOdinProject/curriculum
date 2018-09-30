@@ -16,7 +16,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/testing_with_rspec/project_testing_your_ruby_code.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/testing_with_rspec/project_testing_your_ruby_code.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 
 * Add your solution below this line!

@@ -24,7 +24,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
 - [Javier Machin's solution](https://github.com/Javier-Machin/js-restaurant) - [View in Browser](https://javier-machin.github.io/js-restaurant/)

@@ -11,15 +11,6 @@ This repository houses the curricular content used in [The Odin Project](http://
 
 The TOP community can be found in our [gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject).
 
-
-## Curriculum Re-development
-We are currently redeveloping the curriculum, each course will be moved out into its own respository as this process develops. Links to the new course repositories can be found here.
-
-* [Javascript Course](https://github.com/TheOdinProject/javascript_curriculum)
-* [Ruby Course](https://github.com/TheOdinProject/ruby_course)
-* [Rails Course](https://github.com/TheOdinProject/rails_course)
-
-
 ## Contributing
 
 The Odin Project depends on open-source contributions to improve, grow and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community.

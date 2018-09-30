@@ -26,7 +26,7 @@ Enough talk! Let's build!
 
 
 ### Student Solutions
-Submit a link below to the [github repo](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/project_pairing.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
+Submit a link below to the [github repo](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/pair_programming/project_pairing.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/pomodoro-clock) - [View in Browser](https://mohamed-elattar.github.io/pomodoro-clock/)

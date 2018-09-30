@@ -16,7 +16,7 @@ After completing this tutorial, you will be able to:
 
 <div class="note">
 <p>This tutorial is open source. If you notice errors, typos, or have questions/suggestions,
-  please <a href="https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/intermediate_ruby/project_event_manager.md">submit them to the project on GitHub</a>.</p>
+  please <a href="https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_event_manager.md">submit them to the project on GitHub</a>.</p>
 </div>
 
 ### What We're Doing in This Tutorial
@@ -81,10 +81,10 @@ ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 
 For this project we are going to use the following sample data:
 
-* [Small Sample](https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv)
-* [Large Sample](https://github.com/TheOdinProject/ruby_course/tree/master/ruby_programming/intermediate_ruby/event_attendees_full.csv)
+* [Small Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv)
+* [Large Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/intermediate_ruby/event_attendees_full.csv)
 
-Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/ruby_course/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the root of `event_manager` directory.
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the root of `event_manager` directory.
 
 
 ~~~bash
