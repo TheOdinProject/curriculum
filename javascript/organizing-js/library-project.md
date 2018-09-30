@@ -33,7 +33,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 - Add your solution below this line!
 - [Omid's solution](https://github.com/omid997/library-odin) - [View In Browser](https://omid997.github.io/library-odin/)

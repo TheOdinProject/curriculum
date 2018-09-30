@@ -37,7 +37,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 </div>
 
 ### Student Solutions
-Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/javascript_curriculum/blob/master/JS101/etch-a-sketch-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
 * [Waris Zahoor's Solution](https://github.com/warisz/etch-a-sketch) - [View in Browser](https://cdn.rawgit.com/warisz/etch-a-sketch/bb87631b/index.html)

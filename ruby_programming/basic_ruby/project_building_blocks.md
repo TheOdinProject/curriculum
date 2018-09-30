@@ -31,7 +31,7 @@ There's a video about it [from Harvard's CS50 class](https://www.youtube.com/wat
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/ruby_course/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 
 * Add your solution below this line!
