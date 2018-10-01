@@ -13,7 +13,7 @@
 //= require jquery3
 //= require toastr
 //= require validate
-//= require tether
+//= require popper
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks

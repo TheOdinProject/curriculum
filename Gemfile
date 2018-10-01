@@ -21,7 +21,6 @@ gem 'friendly_id',                  '~> 5.1'
 gem 'cancancan',                    '~> 1.15'
 gem 'sass-rails',                   '~> 5.0'
 gem 'rack-attack'
-gem 'tether-rails' # dependency for bootstrap tooltips
 gem 'acts_as_votable'
 gem 'kramdown'
 gem 'toastr-rails'
