@@ -16,7 +16,7 @@ The best way to actually learn something is to _use_ it! We've directed you to b
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/frameworks/frameworks-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
-
+* [Tamerlan1993's Todo-list solution](https://github.com/Tamerlan1993/hactktoberfest-2018/tree/master/vuex-todo-app) - [View in browser](https://vuex-todomvc-1.netlify.com/)
 * [Luján Fernaud's React book-library solution](https://github.com/lujanfernaud/react-reading-list) - [View in browser](http://lujanfernaud.com/react-reading-list/)
 * [Devon's React todo-list solution](https://github.com/defitjo/react-todo-app)
 * [Alexfuro's React book-library solution](https://github.com/alexfuro/odin-books-react)
