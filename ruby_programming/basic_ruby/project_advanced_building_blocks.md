@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
+* [Tobenski's solution](https://github.com/tobenski/ruby_blocks/tree/master/bubble_sort)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/advanced-building-blocks/blob/master/bubble_sort.rb)
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/bubble_sort.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/advanced-building-blocks/blob/master/bubble-sort.rb)
