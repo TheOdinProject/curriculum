@@ -1672,6 +1672,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [tnharvey's solution](https://github.com/tnharvey/Google_copy) -  [View in Browser](https://tnharvey.github.io/Google_copy/)
 * [Peter Mambwe's solution (Easy)](https://github.com/GitLobos/google-homepage) - [View in Browser](https://gitlobos.github.io/google-homepage/)
 * [akshaysth's solution (Easy)](https://github.com/akshaysth/odin-google-homepage) - [View in Browser](https://akshaysth.github.io/odin-google-homepage/)
+* [Gorkish's solution (Easy)](https://gorkish.github.io/google-homepage2/) - [View in Browser](https://gorkish.github.io/google-homepage2/)
+* [Gorkish's solution (Difficult)](https://gorkish.github.io/google-results-page2/) -[View in Browser(https://gorkish.github.io/google-results-page2/)
 * [themetar's solution (Easy)](https://github.com/themetar/google-homepage-mockup) - [View in Browser](https://themetar.github.io/google-homepage-mockup/)
 * [Sigurd's solution (Easy)](https://github.com/sigurd-weese/google-homepage) - [View in Browser](https://sigurd-weese.github.io/google-homepage/)
 
