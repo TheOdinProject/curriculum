@@ -38,3 +38,4 @@ These resoures should give you a pretty good starting point for understanding ho
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 2. Learn to inspect HTML page elements by reading through [this article](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/) by Google, then continue on to [Edit the DOM](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
 3. Practice your DevTool skills with [this interactive](https://developers.google.com/web/tools/chrome-devtools/css/)  DevTools CSS overview.
+4. Learn the new Firefox Dev Tools in this [Video](https://youtu.be/yznVkCuohGg) by Wes Bos
