@@ -145,6 +145,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JZaitz's solution](https://github.com/JZaitz/Kittens-API)
 * [Uy Bình's solution](https://github.com/uybinh/odin-kittens) - [View in Browser](https://odin-kitten-summer-hot.herokuapp.com/api/kittens/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/odin-kittens)
+* [Agon's solution](https://github.com/AgonIdrizi/kitten)
 
 ### Project 2: Using a Third Party API
 
