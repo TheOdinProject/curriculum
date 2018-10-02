@@ -196,6 +196,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Bridget Nyirongo's solution](https://github.com/Bridget12/re-former)
 * [Agon's solution](https://github.com/AgonIdrizi/RailsForms)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/re-former/tree/master/files)
+* [Jamesredux's solution](https://github.com/Jamesredux/re-former)
 
 ### Project 2: Ruby on Rails Tutorial
 
