@@ -61,9 +61,9 @@ Look through these now and then use them to test yourself after doing the assign
     1. Read about the [History of Ruby](https://www.sitepoint.com/history-ruby/)
     2. Read about [Open Source Culture](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source) in Section 1
     3. Read about where you can find [Ruby's Community](https://www.ruby-lang.org/en/community/)
-  3. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
-  4. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 7: `Projects and Libraries`
-  5. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 175-179)
+  3. Read [Beginning Ruby](http://file.allitebooks.com/20160718/Beginning%20Ruby.pdf) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
+  4. Read [Beginning Ruby](http://file.allitebooks.com/20160718/Beginning%20Ruby.pdf) Chapter 7: `Projects and Libraries`
+  5. Read [Beginning Ruby](http://file.allitebooks.com/20160718/Beginning%20Ruby.pdf) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 175-179)
   6. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Learning Outcomes" section:
     1. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
     2. [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
