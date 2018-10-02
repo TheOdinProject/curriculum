@@ -23,7 +23,7 @@ This exercise will involve a lot of figuring things out. There aren't very detai
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_backend/ruby_project.md) on the ruby course github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_back_end/ruby_project.md) on the ruby course github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
