@@ -1677,7 +1677,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Gorkish's solution (Difficult)](https://gorkish.github.io/google-results-page2/) -[View in Browser(https://gorkish.github.io/google-results-page2/)
 * [themetar's solution (Easy)](https://github.com/themetar/google-homepage-mockup) - [View in Browser](https://themetar.github.io/google-homepage-mockup/)
 * [Sigurd's solution (Easy)](https://github.com/sigurd-weese/google-homepage) - [View in Browser](https://sigurd-weese.github.io/google-homepage/)
-
+*[learnsometing's solution (Easy)] (https://github.com/learnsometing/google_homepage) -[View in Browser] (https://learnsometing.github.io/google_homepage/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
