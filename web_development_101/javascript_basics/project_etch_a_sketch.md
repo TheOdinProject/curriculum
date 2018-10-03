@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+* [Lucas's Solution](https://github.com/ogdendavis/rainbow-drawing) - [View in Browser](https://ogdendavis.github.io/rainbow-drawing/)
 * [Grante1ope's Solution](https://github.com/grante1ope/etch-A-sketch)
 * [Waris Zahoor's Solution](https://github.com/warisz/etch-a-sketch) - [View in Browser](https://cdn.rawgit.com/warisz/etch-a-sketch/bb87631b/index.html)
 * [Nick Prieto's Solution](https://github.com/NickDark/etch_a_sketch)
@@ -210,7 +211,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Hassan's Solution](https://github.com/husseyexplores/husseyexplores.etch-a-sketch) - [View in Browser](https://husseyexplores.github.io/husseyexplores.etch-a-sketch/)
 * [RossTrang's solution](https://github.com/RossTrang/etch-a-sketch) - [View in browser](https://cdn.rawgit.com/RossTrang/etch-a-sketch/f7f84edf/index.html)
 * [Roshan's solution](https://github.com/roshanrahman/the-odin-project/tree/master/sketch) - [View in browser](https://roshanrahman.github.io/the-odin-project/sketch/index.html)
-* [Casey's solution](https://github.com/DevCasey/Etch-a-Sketch) 
+* [Casey's solution](https://github.com/DevCasey/Etch-a-Sketch)
 * [Anatolii's solution](https://github.com/Nt444/sketch_test) -[View in browser](https://nt444.github.io/sketch_test/)
 * [Funtikar's solution](https://github.com/funtikar/EtchASketch) -[View in browser](https://funtikar.github.io/EtchASketch/)
 * [Halkim44's solution](https://github.com/halkim44/etch-a-sketch) -[View in browser](https://halkim44.github.io/etch-a-sketch/)
