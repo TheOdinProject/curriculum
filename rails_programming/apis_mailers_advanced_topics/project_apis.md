@@ -210,6 +210,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/odin-flickr-api)
 * [Punnadittr's solution](https://github.com/punnadittr/flickr-api-app) - [View in Browser](https://young-wildwood-74188.herokuapp.com/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/flickr-browser)
+* [Agon's solution](https://github.com/AgonIdrizi/Flickr_photos)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
