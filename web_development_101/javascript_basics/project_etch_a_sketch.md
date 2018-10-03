@@ -220,3 +220,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Mark Bailey's Solution](https://github.com/markbailey0356/etch-a-sketch) - [View in browser](https://markbailey0356.github.io/etch-a-sketch/)
 * [Edgar Miranda's Solution](https://github.com/ejmiranda/etch-a-sketch) - [View in browser](https://ejmiranda.github.io/etch-a-sketch/)
 * [Fan's Solution](https://github.com/Komor-RP/etch-a-sketch) - [View in browser](https://komor-rp.github.io/etch-a-sketch/)
+* [themetar's solution](https://github.com/themetar/etch-a-sketch) - [View in browser](https://themetar.github.io/etch-a-sketch/)
