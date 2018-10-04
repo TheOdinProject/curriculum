@@ -4,7 +4,7 @@ RSpec.describe UserMailer, type: :mailer do
   describe '#send_welcome_email_to' do
     subject(:welcome_email) { UserMailer.send_welcome_email_to(user) }
 
-    let(:user) { FactoryGirl.create(:user, email: 'kevin@example.com') }
+    let(:user) { FactoryBot.create(:user, email: 'kevin@example.com') }
 
 
     it 'renders the correct sender address' do

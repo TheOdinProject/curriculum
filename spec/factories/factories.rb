@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :user, aliases: [:creator] do
     sequence :username do |n|
       "foobar#{n}"

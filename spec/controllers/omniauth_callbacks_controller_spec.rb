@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe OmniauthCallbacksController, type: :controller do
   let(:user_signed_in?) { true }
-  let(:user) { FactoryGirl.create(:user) }
+  let(:user) { FactoryBot.create(:user) }
   let(:auth) { OmniAuth.config.mock_auth[:github] }
   let(:persisted) { true }
 
@@ -27,7 +27,7 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
 
     context 'when the user avatar needs updated' do
       let(:user) {
-        FactoryGirl.create(
+        FactoryBot.create(
           :user,
           username: 'John',
           email: 'john@example.com',

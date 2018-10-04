@@ -38,7 +38,7 @@ group :development, :test do
   gem 'rspec-rails',                       '~> 3.5'
   gem 'cucumber-rails',require: false
   gem 'simplecov', :require => false
-  gem 'factory_girl_rails',                '~> 4.7'
+  gem 'factory_bot_rails',                '~> 4.11'
   gem 'capybara',                          '~> 2.10'
   gem 'phantomjs',                         '~> 2.1'
   gem 'poltergeist',                       '~> 1.1'

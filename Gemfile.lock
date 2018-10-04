@@ -140,10 +140,10 @@ GEM
     erubi (1.7.1)
     erubis (2.7.0)
     execjs (2.7.0)
-    factory_girl (4.9.0)
+    factory_bot (4.11.1)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.9.0)
-      factory_girl (~> 4.9.0)
+    factory_bot_rails (4.11.1)
+      factory_bot (~> 4.11.1)
       railties (>= 3.0.0)
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
@@ -425,7 +425,7 @@ DEPENDENCIES
   database_cleaner (~> 1.5)
   derailed
   devise (~> 4.4.0)
-  factory_girl_rails (~> 4.7)
+  factory_bot_rails (~> 4.11)
   figaro (= 1.1)
   font-awesome-rails (~> 4.7)
   friendly_id (~> 5.1)
@@ -470,4 +470,4 @@ RUBY VERSION
    ruby 2.5.0p0
 
 BUNDLED WITH
-   1.16.2
+   1.16.5

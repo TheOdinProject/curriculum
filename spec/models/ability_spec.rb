@@ -3,10 +3,10 @@ require 'cancan/matchers'
 
 describe Ability do
   describe 'Projects' do
-    let(:user)         { FactoryGirl.create(:user) }
-    let(:admin_user)   { FactoryGirl.create(:admin) }
-    let(:user_project) { FactoryGirl.build(:project, user_id: user.id) }
-    let(:admin_project) { FactoryGirl.build(:project, user_id: admin_user.id) }
+    let(:user)         { FactoryBot.create(:user) }
+    let(:admin_user)   { FactoryBot.create(:admin) }
+    let(:user_project) { FactoryBot.build(:project, user_id: user.id) }
+    let(:admin_project) { FactoryBot.build(:project, user_id: admin_user.id) }
 
     context 'standard user' do
       before do

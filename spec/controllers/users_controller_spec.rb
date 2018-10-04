@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe UsersController do
-  let(:user) { FactoryGirl.create(:user) }
+  let(:user) { FactoryBot.create(:user) }
 
   before do
     request.env['devise.mapping'] = Devise.mappings[:user]
