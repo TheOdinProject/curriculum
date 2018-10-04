@@ -32,7 +32,7 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 2. **Effectiveness**. Writing tests before code is like stretching before a workout. It's not required, but your workout could suffer. Writing tests first ensures that the code that comes after has clearer design, purpose, and quality.
 3. **Efficiency**. You'll save time in the long run by not having to re-run entire applications just to make sure little parts work.
 
-### Assignments
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
