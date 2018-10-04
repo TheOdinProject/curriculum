@@ -58,7 +58,7 @@ def create_or_update_lesson(lesson_attrs)
   elsif lesson.attributes == lesson_attrs
     Rails.logger.info "No changes to existing lesson: #{lesson_attrs[:title]}"
   else
-    lesson.update_attributes(lesson_attrs)
+    lesson.update_attributes!(lesson_attrs)
     Rails.logger.info "Updated existing lesson: #{lesson_attrs[:title]}"
   end
 

@@ -10,7 +10,6 @@ class Lesson < ApplicationRecord
   has_many :completing_users, through: :lesson_completions, source: :student
 
   validates :position, presence: true
-  validates :content, presence: true, on: :update
 
   def self.projects_without_submissions
     [
