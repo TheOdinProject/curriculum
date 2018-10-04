@@ -26,7 +26,7 @@ Boot up your terminal and punch in `gem install rspec` to install RSpec. Once th
 
 Finally, `cd` into a project directory that you wish to configure for use with RSpec and type `rspec --init` to initialize RSpec within the project. This will generate two files, `.rspec` and `spec/spec_helper.rb`, such that your project might look like:
 
-```
+~~~bash
 project
   |__lib
   |   |__script.rb
@@ -35,7 +35,8 @@ project
   |   |__spec_helper.rb
   |
   |__.spec
-```
+~~~
+
 That's it. Within two steps, you're up and running with RSpec. That was so hard, wasn't it?
 
 #### Basic syntax
@@ -47,24 +48,24 @@ $ rspec --init
 
 As expected, the output will read:
 
-```bash
+~~~bash
   create   .rspec
   create   spec/spec_helper.rb
-```
+~~~
 
 Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked...maybe take a short break, or come say hello to us in our [Back-End Gitter](https://gitter.im/TheOdinProject/Back-End) room.
 
-```
+~~~bash
 No examples found.
 
 
 Finished in 0.00037 seconds (files took 0.21108 seconds to load)
 0 examples, 0 failures
-```
+~~~
 
 Let's add our first test. Let's say we want to create a calculator with a few methods that we want to test. True to TDD, we will write the tests prior to the code. The `spec/` folder is where all your tests will live. Using `touch` on the command line or through your text editor, create `calculator_spec.rb` within the `spec/` folder and add the following lines:
 
-```ruby
+~~~ruby
 #spec/calculator_spec.rb
 
 RSpec.describe Calculator do
@@ -75,38 +76,37 @@ RSpec.describe Calculator do
     end
   end
 end
-```
+~~~
 
 Let's go line by line.
 
 First, `describe` is an RSpec keyword that defines an "Example Group", or a collection of tests. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested, such as on the second line of our test above. When describing a class, the following syntax is also valid:
 
-```ruby
+~~~ruby
 #spec/calculator_spec.rb
 
 describe Calculator do
   #...
 end
-
-```
+~~~
 
 The `it` keyword defines an individual example (aka, test). `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of RSpec's equality [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), `eql`:
 
-```
-expect(calculator.add(5, 2)).to eql(7)
-```
+~~~ruby
+  expect(calculator.add(5, 2)).to eql(7)
+~~~
 
 Simple, isn't it? One more time, from the top:
 1. `describe` the class
 2. `describe` the method example group. Conventionally, the string argument for instance methods are written as "#method", while string arguments for class methods are written as ".method".
-3. Write your test case/example with `it`. 
+3. Write your test case/example with `it`.
 4. Write your expectation using `expect`.  The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. Also, limit one expect clause per test case.
 
 #### Passing code
 
 Let's move on. Run `rspec` from the directory root, and watch the output.
 
-```bash
+~~~bash
 An error occurred while loading ./spec/calculator_spec.rb.
 Failure/Error:
   describe Calculator do
@@ -126,43 +126,43 @@ No examples found.
 
 Finished in 0.0004 seconds (files took 0.16461 seconds to load)
 0 examples, 0 failures, 1 error occurred outside of examples
-```
+~~~
 
 So our first test returned an error. This is unsurprising. `NameError` is essentially telling us that RSpec looked for a `Calculator` class, but couldn't find one. So let's create it. From your project root, create a `lib/` folder, and inside, `calculator.rb` with your class. We'll also go ahead and begin the `#add` method, otherwise RSpec will give us a similar error as the previous one when it looks for it:
 
-```ruby
+~~~ruby
 #lib/calculator.rb
 
 class Calculator
   def add(a,b)
   end
 end
-```
+~~~
 
 Finally, we must also tell the spec where the `Calculator` class is being defined. This is easily done with `require`:
 
-```ruby
+~~~ruby
 #spec/calculator_spec.rb
 require './lib/calculator'  #=> add this
 
 describe Calculator do
   #...
 end
-```
+~~~
 
-If you were to run ` rspec` this time, you'd get your first failure! 
+If you were to run ` rspec` this time, you'd get your first failure!
 
-```bash
+~~~bash
 F
 
 Failures:
 
   1) Calculator#add returns the sum of two numbers
      Failure/Error: expect(calculator.add(5, 2)).to eql(7)
-     
+
        expected: 7
             got: nil
-     
+
        (compared using eql?)
      # ./spec/calculator_spec.rb:7:in `block (3 levels) in <top (required)>'
 
@@ -172,13 +172,13 @@ Finished in 0.28565 seconds (files took 0.6273 seconds to load)
 Failed examples:
 
 rspec ./spec/calculator_spec.rb:5 # Calculator#add adds two numbers together
-```
+~~~
 
 Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-factor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
 
 Getting this method to "green" shouldn't be too difficult. RSpec clearly provides a reason for the failure: it expected the output to be `7` when we provided the method with `(5, 2)` as the parameters. Instead, it returned `nil`. Why might that be? Well, our `#add` *does* take two parameters...but it does nothing with them! Add the minimum amount of code necessary to get your test to pass:
 
-```ruby
+~~~ruby
 #lib/calculator.rb
 
 class Calculator
@@ -186,28 +186,28 @@ class Calculator
     a + b         #=> add this
   end
 end
-```
+~~~
 
 Then, run the test again to get a single dot, letting you know that your test has passed:
 
-```bash
+~~~bash
 .
 
 Finished in 0.0032 seconds (files took 0.14864 seconds to load)
 1 example, 0 failures
-```
+~~~
 
 At this point, refactoring isn't necessary. The `#add` method is essentially a one line method. As you progress in your Ruby learning, however, you might find your methods getting more complex, and you might find that you have to make extra efforts to abide by [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) principles. When that time comes, using RSpec and the "red-green-refactor" cycle will allow you to code with confidence, knowing that your classes and their behaviors continue to meet your specified expectations.
 
-### Assignments
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 It's time to put your newfound knowledge to good use. Let's break our `Calculator` test.
 
-1. Let's implement a new test case for your `#add` method, written out for you below. Run the test to see the failure. Write the minimum code necessary to get **both** tests to pass, then refactor if necessary. 
+1. Let's implement a new test case for your `#add` method, written out for you below. Run the test to see the failure. Write the minimum code necessary to get **both** tests to pass, then refactor if necessary.
 
-```ruby
+~~~ruby
 #spec/calculator_spec.rb
 
 describe Calculator do
@@ -223,7 +223,7 @@ describe Calculator do
     end
   end
 end
-```
+~~~
 
 2. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
 3. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
