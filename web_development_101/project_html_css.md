@@ -1557,6 +1557,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [PedroCoelho's solution (Easy)](https://github.com/pacoelho95/google-homepage) - [View in Browser](https://pacoelho95.github.io/google-homepage/)
 * [emilledigital's solution  (Easy version)](https://github.com/egxdigital/google_homepage) - [View in Browser](https://egxdigital.github.io/google_homepage/)
 * [Wesley Wang's Solution (Easy)](https://github.com/wesleymellon/google-homepage) - [View in Browser](https://wesleymellon.github.io/google-homepage/)
+* [John Meade's Solution (Easy)](https://github.com/johnmeade-webdev/google_homepage) - [View in Browser](https://johnmeade-webdev.github.io/google_homepage/)
 
 
 ### Additional Resources
