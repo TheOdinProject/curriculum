@@ -8,7 +8,7 @@ Since we've already gone fairly in-depth with Constructors, you don't have too m
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Browse [this git repo](https://github.com/joshburgess/not-awesome-es6-classes) for the arguments _against_ using classes. The 'TL;DR' section is probably enough unless you really feel like diving down the rabbit-hole. __WE__ are not saying that classes are bad! We just wanted to point out that many people do. Those people generally recommend patterns like the Factory Functions we learned about in the previous lesson. [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) is a little more "bipartisan".
+1. [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some pros and cons for classes.  There are many people who think that class syntax is misleading for Javascript, and thus Factory Functions (from the previous lesson) are inherently better. __WE__ are not saying that classes are bad!  We just want you to be informed on the opinions of both sides.
 2. [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently. "Getters and Setters" are a useful feature!
 3. [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper. Look especially at the 'extends' and 'Mixins' sections. React (and other frameworks) uses classes in this way. You create your components and make them `extend` the core React component which gives you access to all their built-in functionality.
 </div>
