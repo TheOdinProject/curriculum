@@ -236,7 +236,6 @@ end
 
 * Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already. 
 * Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
-* The [RSpec Cheat Sheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.ne so already. 
 * Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
 * The [RSpec Cheat Sheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
 * Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from another Odin Project contributor.
