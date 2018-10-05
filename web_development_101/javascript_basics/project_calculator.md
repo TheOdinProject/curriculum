@@ -163,3 +163,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mark Bailey's Solution](https://github.com/markbailey0356/calculator) - [View in Browser](https://markbailey0356.github.io/calculator/)
 - [Fan's Solution](https://github.com/Komor-RP/calculator-odin-project) - [View in Browser](https://komor-rp.github.io/calculator-odin-project/)
 - [HanJosmer's Solution](https://github.com/HanJosmer/calculator) - [View in Browser](https://hanjosmer.github.io/calculator/)
+- [Franklyn Afeso's Solution](https://github.com/afedo/calculator) - [View in Browser](https://afeso.github.io/calculator/)
