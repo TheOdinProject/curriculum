@@ -1681,7 +1681,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [learnsometing's solution (Easy)](https://github.com/learnsometing/google_homepage) - [View in Browser](https://learnsometing.github.io/google_homepage/)
 * [aznafro's solution (Easy)](https://github.com/aznafro/googlehomepage) - [View in Browser](https://aznafro.github.io/googlehomepage/)
 * [John Meade's solution (Easy)](https://github.com/johnmeade-webdev/google_homepage) - [View in Browser](https://johnmeade-webdev.github.io/google_homepage)
-
+* [DolunayKiz's solution (Easy)](git@github.com:dolunaykiz/google-homepage.git) - [View in Browser](https://github.com/dolunaykiz/google-homepage)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
