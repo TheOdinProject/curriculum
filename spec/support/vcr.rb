@@ -1,5 +1,5 @@
 VCR.configure do |vcr_config|
-  vcr_config.cassette_library_dir = 'tmp/vcr'
+  vcr_config.cassette_library_dir = 'spec/vcr'
 
   vcr_config.filter_sensitive_data('<GITHUB_API_TOKEN>') do
     ENV['GITHUB_API_TOKEN']
