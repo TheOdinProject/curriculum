@@ -36,13 +36,8 @@ end
 
 group :development, :test do
   gem 'rspec-rails',                       '~> 3.5'
-  gem 'cucumber-rails',require: false
   gem 'simplecov', :require => false
   gem 'factory_bot_rails',                '~> 4.11'
-  gem 'capybara',                          '~> 2.10'
-  gem 'phantomjs',                         '~> 2.1'
-  gem 'poltergeist',                       '~> 1.1'
-  gem 'capybara-email',                    '~> 2.5'
   gem 'database_cleaner',                  '~> 1.5'
   gem 'webmock',                           '~> 2.1'
   gem 'vcr',                               '~> 3.0'
