@@ -29,11 +29,11 @@ To give your motivation a bit of a boost you can read about the success of other
 
 * [A woman who taught herself enough to land a job in 5 months](http://newcodegirl.blogspot.co.uk)
 * [A blacksmith who taught himself how to code](http://joshuakemp.blogspot.co.uk/2013/11/how-blacksmith-learned-to-code-and-9.html)
-* [This 32 year old who taught himself programming using the odin project over the period of a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
-* [Another guy who used the odin project to get a job](https://www.reddit.com/r/learnprogramming/comments/4goiwx/i_got_hiredagain/?)
+* [This 32 year old who taught himself programming using The Odin Project over the period of a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
+* [Another guy who used The Odin Project to get a job](https://www.reddit.com/r/learnprogramming/comments/4goiwx/i_got_hiredagain/?)
 
 #### The Growth Mindset
-There is a wide body of research that supports that intelligence is not fixed, that
+There is a wide body of research that supports that intelligence is not fixed; that
 it can be developed. People usually fall into one of the following two mindsets:
 
 #### Fixed Mindset:
@@ -88,11 +88,11 @@ programming concepts and techniques actually operate.
 When learning, your mind will consistently switch between the following two states:
 
 
-#### Focus mode
+#### Focus mode:
 This state occurs when you are consciously focusing on learning, reading,
 watching videos, or working on a project.
 
-#### Diffuse mode
+#### Diffuse mode:
 This state occurs subconsciously, at times when you are not actively learning,
 such as doing the dishes, exercising, sleeping, etc. When in this state your mind
 goes about the business of connecting what you have been learning to the other
@@ -107,13 +107,13 @@ first and then take a break.
 
 In short, understand it, practice it, and finally teach it.
 
-Teaching what you know to others is a great way to solidify what you have learnt
+Teaching what you know to others is a great way to solidify what you have learned
 and can often reveal holes in your knowledge that you wouldn't have identified
 otherwise.
 
 You can practice this method of learning by helping others in our community.
 
-* To learn more about the best ways to learn, [learning how to learn on coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
+* To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
 * The Ruby Rogues have a [podcast on How to Learn](http://rubyrogues.com/131-rr-how-to-learn/) which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
