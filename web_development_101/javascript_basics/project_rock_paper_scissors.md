@@ -344,3 +344,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Stevie P's solution](https://voxpolly27.github.io/Rock-Paper-Scissors/)
 - [aznafro's Solution](https://github.com/aznafro/rockpaperscissors) - [View in Browser](https://aznafro.github.io/rockpaperscissors/)
 - [Luiz Guilherme's Solution](https://github.com/luizg7/rockpaperscissors_theodinproject) - [View in Browser](https://luizg7.github.io/rockpaperscissors_theodinproject/)
+- [TNHarvey's Solution](https://github.com/tnharvey/odins_rock-paper-scissors) - [View in Browser](https://tnharvey.github.io/odins_rock-paper-scissors/)
