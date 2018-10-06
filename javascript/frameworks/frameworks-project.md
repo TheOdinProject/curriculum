@@ -22,3 +22,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Alexfuro's React book-library solution](https://github.com/alexfuro/odin-books-react)
 * [Katineto's React todo-list solution](https://github.com/Katineto/avocado) - [View in browser](https://katineto.github.io/avocado/)
 * [Caner Sezgin's solution](https://github.com/CanerSezgin/TodoList/tree/master/Source%20Codes) - [View in browser](https://canersezgin.github.io/TodoList/)
+* [Javier Machin's solution](https://github.com/Javier-Machin/react-simple-library) - [View in browser](https://javier-machin.github.io/react-simple-library/)
