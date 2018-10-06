@@ -26,7 +26,7 @@ Please feel free to comment on any of them with:
 
 Every little bit helps to make our curriculum better.
 
-### Lessons in Development
+### Lessons/Courses in Development
 We are constantly making improvements to the curriculum, it is very time consuming to write new lessons and it's done for free. New lessons are always in the works. If you would like to know specifics, please checkout the [Fourm](https://forum.theodinproject.com/) under "sprints", ask in the [gitter chat contrubuting section](https://gitter.im/TheOdinProject/Contributing), or keep an eye on this repo.
 
 If you would like to help us develop any lessons please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide) to find out how you can contribute.
