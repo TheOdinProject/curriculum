@@ -215,6 +215,30 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Flexbox",
+  title_url: "Flexbox".parameterize,
+  description: "Flexbox layout distributes space along a single column or row. Like float layouts, but more versatile.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/html_css/flexbox_layout.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Grid",
+  title_url: "Grid".parameterize,
+  description: "Grid divides elements into columns & rows. A modern, powerful way to setout your layout.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/html_css/grid_layout.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Positioning and Floating Elements",
   title_url: "Positioning and Floating Elements".parameterize,
   description: "Long content pieces of yesteryear are being replaced with rich multimedia experiences and the Times has led the charge.  See if you can apply what you learned about positioning by cloning one of their articles.",
