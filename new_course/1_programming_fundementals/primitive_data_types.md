@@ -52,11 +52,12 @@ Ruby has all the typical math operators you would expect:
 10 / 5 #=> 2
 
 # modulus (find the remainder from division)
+8 % 2 #=> 0
 10 % 4 #=> 2
 
 # exponent
 2 ** 2 #=> 4
-3 ** 4 = => 83
+3 ** 4 #=> 81
 ```
 
 #### Integers and Floats
