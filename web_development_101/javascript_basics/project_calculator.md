@@ -164,3 +164,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Fan's Solution](https://github.com/Komor-RP/calculator-odin-project) - [View in Browser](https://komor-rp.github.io/calculator-odin-project/)
 - [HanJosmer's Solution](https://github.com/HanJosmer/calculator) - [View in Browser](https://hanjosmer.github.io/calculator/)
 - [Franklyn Afeso's Solution](https://github.com/afedo/calculator) - [View in Browser](https://afeso.github.io/calculator/)
+- [Halkim44's material Design Solution](https://github.com/halkim44/project-calculator) - [View in Browser](https://halkim44.github.io/project-calculator/)
