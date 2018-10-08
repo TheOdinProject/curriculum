@@ -11,13 +11,13 @@ It will be beneficial for you to code along to test the examples as you work thr
 ## Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* You understand what a loop is and why it's useful
-* You know how to use the `loop` loop in Ruby
-* You know how to use the `while` loop in Ruby
-* You know how to use the `for` loop in Ruby
-* You know how to use the `times` loop in Ruby.
-* You know how to use the `until` loop in Ruby.
-* You know how to use the `upto` and `downto` loops in Ruby
+* What a loop is and why it's useful?
+* How to use the `loop` loop in Ruby?
+* How to use the `while` loop in Ruby?
+* How to use the `for` loop in Ruby?
+* How to use the `times` loop in Ruby?
+* How to use the `until` loop in Ruby?
+* How to use the `upto` and `downto` loops in Ruby?
 
 ### Loop
 The `loop` loop (say what????) is Ruby's loop that just don't quit. It's an infinite loop that'll keep going unless you specifically request for it to stop using the `break` command. Break is commonly used with a condition as illustrated in the code example below.
