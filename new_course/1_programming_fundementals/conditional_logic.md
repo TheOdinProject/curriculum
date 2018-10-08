@@ -21,11 +21,8 @@ You'll write a lot of conditional statements on your road to programmer stardom.
   * Are nil, 0, "0", "", 1, [], {} and -1 considered true or false?
   * When do you use elsif?
   * When do you use unless?
-  * What does <=> do?
-  * Why might you define your own <=> method?
   * What do || and && and ! do?
   * What is returned by puts("woah") || true?
-  * What is ||=?
   * What is the ternary operator?
   * When should you use a case statement?
 
