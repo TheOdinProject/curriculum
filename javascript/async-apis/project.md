@@ -27,3 +27,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [hmbeale's solution](https://github.com/hmbeale/weather) - [View in browser](http://hmbeale.github.io/weather/)
 * [Rémy's solution](https://codepen.io/beumsk/pen/Xpbyxv) - [View in browser](https://codepen.io/beumsk/full/Xpbyxv/)
 * [Sava's solution](https://github.com/SavaVuckovic/Weather-App)
+* [Mike Smith's solution](https://github.com/MikeSS281986/City-Weather-Search)
