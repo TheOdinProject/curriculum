@@ -166,3 +166,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Franklyn Afeso's Solution](https://github.com/afedo/calculator) - [View in Browser](https://afeso.github.io/calculator/)
 - [Halkim44's material Design Solution](https://github.com/halkim44/project-calculator) - [View in Browser](https://halkim44.github.io/project-calculator/)
 - [themetar's solution](https://github.com/themetar/calculator) - [View in browser](https://themetar.github.io/calculator/)
+- [aznafro's solution](https://github.com/aznafro/calc) - [View in browser](https://aznafro.github.io/calc/)
