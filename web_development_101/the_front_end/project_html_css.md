@@ -1685,7 +1685,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Doris's solution (Easy)](https://github.com/dsmchen/google-homepage) - [View in Browser](https://dsmchen.github.io/google-homepage/)
 * [Luiz Guilherme's Solution (Diffult)](https://github.com/luizg7/googlewebsite) - [View in Browser](https://luizg7.github.io/googlewebsite/)
 * [Nwabuokei Nnamdi's solution (Easy)](https://github.com/nnamdi16/google-homepage) - [View in Browser](https://nnamdi16.github.io/google-homepage/)
-* [Akbar's solution (Easy)](https://github.com/donatelloraphael/google-homepage) - [View in Browser (https://donatelloraphael.github.io/google-homepage/)
+* [Akbar's solution (Easy)](https://github.com/donatelloraphael/google-homepage) - [View in Browser] (https://donatelloraphael.github.io/google-homepage/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
