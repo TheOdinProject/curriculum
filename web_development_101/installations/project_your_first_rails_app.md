@@ -92,7 +92,7 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
 Next we will add some commands to a configuration file that allows for `rbenv` to work properly. If you would like to know more, read [this](https://github.com/rbenv/rbenv). We will use `echo` for this to make it easy.
 
-Run these commands in sequence, they most likely won't give you any output, so just trust that they work. If you get an error, seek help in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject)
+Run these commands in sequence, they most likely won't give you any output, so just trust that they work. If you get an error, seek help in the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)
 
 ~~~bash
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
@@ -133,13 +133,13 @@ Auditing installed plugins: OK
 
 If this comes out with some errors, try the directions under "installing Ruby" again.
 
-If you still have issues, please come and ask questions in the [Gitter chat](https://gitter.im/TheOdinProject/theodinproject)
+If you still have issues, please come and ask questions in the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)
 
 #### Step 2.2: Installing Ruby
 
 Now it is time to install Ruby itself and we will be using `rbenv` to do so, and now you will see why we installed it in the first place!
 
-We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! [The Gitter chat!](https://gitter.im/TheOdinProject/theodinproject)
+We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! The [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)!
 
 Run this command in the terminal:
 
@@ -162,7 +162,7 @@ That should return something like this:
 ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
 ~~~
 
-If this doesn't show up, ask for help in [the Gitter chat](https://gitter.im/TheOdinProject/theodinproject). If the correct output does show up, you have successfully installed ruby!
+If this doesn't show up, ask for help in the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support). If the correct output does show up, you have successfully installed ruby!
 
 </details>
 
@@ -233,7 +233,7 @@ The next program we need to install is Ruby.  Ruby is a scripting language very 
 
 To make our lives easier in the long run, we will install a Ruby version manager to install Ruby. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
 
-Before continuing, run `which rvm`, `which rbenv` and `which chruby`, if it responds `/usr/local/bin/<rvm/chruby/rbenv>` you already have a Ruby version manager installed. Installing two will cause strange issues. If you need help please come and ask questions in the [Gitter chat](https://gitter.im/TheOdinProject/theodinproject). If the commands did nothing you can continue.
+Before continuing, run `which rvm`, `which rbenv` and `which chruby`, if it responds `/usr/local/bin/<rvm/chruby/rbenv>` you already have a Ruby version manager installed. Installing two will cause strange issues. If you need help please come and ask questions in the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support). If the commands did nothing you can continue.
 
 To install rbenv, run the following in your terminal:
 
@@ -274,7 +274,7 @@ From inside of the new terminal enter the following:
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 ~~~
 
-If you see something *very, very similar* to the message below you are ready to proceed, if not you should seek assistance in the Gitter channel
+If you see something *very, very similar* to the message below you are ready to proceed, if not you should seek assistance in the Gitter channel.
 
 ~~~bash
 Checking for `rbenv' in PATH: /usr/local/bin/rbenv Checking for rbenv shims in PATH: OK Checking `rbenv install' support: /usr/local/bin/rbenv-install (ruby-build 20180618) Counting installed Ruby versions: none There aren't any Ruby versions installed under `/Users/<YourNameHere>/.rbenv/versions'. You can install Ruby versions like so: rbenv install 2.2.4 Checking RubyGems settings: OK Auditing installed plugins: OK
@@ -444,7 +444,7 @@ Now we are going to tell rails to initialize the application for us. We will the
 rails new my_first_rails_app
 ~~~
 
-This will do a bunch of things and you will see a lot of output into the terminal. As long as nothing looks like an error, you can continue. Otherwise, come to [the Gitter chat room](https://gitter.im/TheOdinProject/theodinproject) for help.
+This will do a bunch of things and you will see a lot of output into the terminal. As long as nothing looks like an error, you can continue. Otherwise, come to the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support) for help.
 
 Now that we have let rails do the heavy lifting for us, we need to move into the directory it has created for us.
 
@@ -526,7 +526,7 @@ First we'll open [GitHub.com](https://github.com/) in the browser and sign in (i
 
 On your `Create Repository` page you'll see various commands listed. We know that we want to use SSH to connect to GitHub so **make sure `SSH` has been selected.** Look for the section that says "... or push an existing repository from the command line" and click the icon to the right of it to copy the text to your clipboard. Then paste it into the terminal we have open (Using CTRL + SHIFT + V in Linux or CTRL + V in WSL).
 
-The terminal will start it's work, pausing to verify that you're okay connection to GitHub ('The authenticity of host 'github.com'...' will be displayed and you can safely click yes). After the terminal finishes, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app." If you do not see this in on your GitHub repository, ask for help in the [the Gitter chat room](https://gitter.im/TheOdinProject/theodinproject)
+The terminal will start it's work, pausing to verify that you're okay connection to GitHub ('The authenticity of host 'github.com'...' will be displayed and you can safely click yes). After the terminal finishes, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app." If you do not see this in on your GitHub repository, ask for help in the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)
 
 This marks the start of your Odin Journey! Later on you'll be able to look back at this repository and marvel over how far you've come!
 
@@ -682,7 +682,7 @@ Run this command:
 heroku run rails db:migrate
 ~~~
 
-You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! If you have an error, come to the [Gitter chat](https://gitter.im/TheOdinProject/theodinproject), and ask for help.
+You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! If you have an error, come to the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support), and ask for help.
 
 #### Step 4.9: Visit your new application
 
@@ -694,8 +694,8 @@ heroku open
 
 and play around with it! 
 
-If you are using WSL, `heroku open` will not open automatically, but remember that link in step 4.7? If you already visited it out of excitement, just refresh the page, if you haven't copy/paste it now and have a look! If nothing shows up, come ask for help in [the Gitter chat room](https://gitter.im/TheOdinProject/theodinproject)
+If you are using WSL, `heroku open` will not open automatically, but remember that link in step 4.7? If you already visited it out of excitement, just refresh the page, if you haven't copy/paste it now and have a look! If nothing shows up, come ask for help in [The Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)
 
 ### Step 5: Let us know how it went!
 
-You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the [the Gitter chat room](https://gitter.im/TheOdinProject/theodinproject), or on the Odin Project forms. You can always find these links in the top right corner, under community.
+You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject), or on the Odin Project forms. You can always find these links in the top right corner, under community.
