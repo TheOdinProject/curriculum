@@ -1666,7 +1666,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alex's solution (Easy)](https://github.com/midnitedev101/google-homepage_v1.git) - [View in Browser](https://midnitedev101.github.io/google-homepage_v1/)
 * [Jon's solution (Easy)](https://devnroses.github.io/google-homepage/) - [View in Browser](https://midnitedev101.github.io/google-homepage_v1/)
 * [Paul's solution (Easy)](https://github.com/paulca55/google-homepage/) - [View in Browser](https://paulca55.github.io/google-homepage/)
-* [Dhairya's solution (Easy)](https://github.com/dhairyadwivedi/google-homepage) - [View in Browser](https://cdn.rawgit.com/dhairyadwivedi/google/cd0cefb1/index.html)
+* [Dhairya's solution (Easy)](https://github.com/dhairyadwivedi/google-homepage) - [View in Browser](https://dhairyadwivedi.github.io/google-homepage/)
 * [Lisa's solutions(Easy)](https://li3097.github.io/google_homepage/) - [View in Browser](https://li3097.github.io/google_homepage/)
 * [Onur's solution (Easy)](https://github.com/yonureker/google-homepage) - [View in Browser](https://yonureker.github.io/google-homepage/)
 * [ErdiVamir's solution (Easy)](https://github.com/ErdiVamir/google-homepage) - [View in Browser](https://erdivamir.github.io/google-homepage/)
