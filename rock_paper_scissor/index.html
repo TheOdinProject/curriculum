@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head><title>rock paper scissors</title></head>
+<body>
+<script>
+function computerPlay()
+{
+let choice=Math.random();
+if(choice<=0.33)
+ {
+   return "rock";
+ }
+else if(choice<=0.66)
+{
+  return "paper";
+}
+else 
+{
+  return "scissors";
+}
+}
+function playRound(playerSelection,computerSelection)
+{
+   playerSelection=playerSelection.toLowerCase();
+   computerSelection=computerSelection.toLowerCase();
+   if(playerSelection==computerSelection)
+   {
+     return 0;
+   }
+   else
+     if(playerSelection=="rock"&&computerSelection=="scissors"||playerSelection=="scissors"&&computerSelection=="paper"||playerSelection=="paper"&&computerSelection=="rock")
+     {
+        return 1;
+
+     }
+   else
+    {
+        return -1;
+
+
+    }  
+
+} 
+function game()
+{
+    let winnerCount=0;
+    
+  for(let i=1;i<=5;++i)
+ {   
+const playerSelection = prompt("type one rock,paper or scissor");
+const computerSelection = computerPlay();
+let roundWinner=playRound(playerSelection,computerSelection);
+winnerCount+=roundWinner;
+if(roundWinner==0)
+  console.log(i+" round  draw "+playerSelection+ " beats "+computerSelection);
+else if(roundWinner==1)
+console.log("you win round"+i+" "+playerSelection+ " beats "+computerSelection);
+else
+console.log("you lose round "+i+" "+computerSelection+ " beats "+playerSelection);  
+}
+if(winnerCount>0)
+ console.log("hurray!! you win the game");
+else if(winnerCount==0)
+console.log("match draw better luck next time!!");
+else
+console.log("you loose!! so sad"); 
+}
+    </script>
+</body>    
+</html>    
