@@ -16,6 +16,7 @@ You should change the look of the page based on the data, maybe by changing the 
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/async-apis/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [Waris's Solution](https://github.com/warisz/weather-app) - [View in browser](https://cdn.rawgit.com/warisz/weather-app/323c36ae/index.html)
 * [VladL2C's solution](https://vladl2c.github.io/weather-api/) - [View in browser](https://vladl2c.github.io/weather-api/)
 * [Tamerlan1993's Solution](https://github.com/Tamerlan1993/hactktoberfest-2018/tree/master/weather-app) - [View in browser](https://weather-app-vue.netlify.com/)
 * [Luján Fernaud's Solution](https://github.com/lujanfernaud/js-weather-compare) - [View in browser](http://lujanfernaud.com/js-weather-compare/)
