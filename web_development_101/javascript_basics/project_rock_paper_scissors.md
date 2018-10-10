@@ -37,6 +37,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [rahuljain's Console Solution](https://github.com/rahul3197/rock_paper_scissor)
+- [Victor's Console Solution](https://github.com/victor-lf/rock-paper-scissors)
+- [Wabbajack0's Solution](https://github.com/Wabbajack0/rock_paper_scissors) - [View in Browser](https://wabbajack0.github.io/rock_paper_scissors/)
 - [Grace's Console Solution](https://github.com/gracewitter/100DaysOfCode/blob/master/practice%20exercises/project-rock-paper-scissors.html)
 - [Chase's console solution](https://github.com/shadowimmage/odin_project-Rock-Paper-Scissors)
 - [Lisa Tidball's Console Solution](https://li3097.github.io/Rock-Paper-Scissors/)
@@ -345,7 +347,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Raja Sekhar's Console Solution](https://github.com/IBTechRaj/RockPaperScissors) - [View in Browser](https://IBTechRaj.github.io/RockPaperScissors/) [GUI Solution] (https://github.com/IBTechRaj/RockPaperScissorsGUI) - [View in Browser] (https://IBTechRaj.github.io/RockPaperScissorsGUI/)
 - [Dhairya's Solution](https://github.com/dhairyadwivedi/rock-paper-scissors) - [View in Browser](https://dhairyadwivedi.github.io/rock-paper-scissors/)
 - [Stevie P's solution](https://voxpolly27.github.io/Rock-Paper-Scissors/)
-- [aznafro's Solution](https://github.com/aznafro/rockpaperscissors) - [View in Browser](https://aznafro.github.io/rockpaperscissors/)
+- [aznafro's Solution](https://github.com/aznafro/rpc) - [View in Browser](https://aznafro.github.io/rpc/)
 - [Luiz Guilherme's Solution](https://github.com/luizg7/rockpaperscissors_theodinproject) - [View in Browser](https://luizg7.github.io/rockpaperscissors_theodinproject/)
 - [TNHarvey's Solution](https://github.com/tnharvey/odins_rock-paper-scissors) - [View in Browser](https://tnharvey.github.io/odins_rock-paper-scissors/)
 - [Rey's Solution](https://rey810.github.io/Rock-Paper-SCissors/)

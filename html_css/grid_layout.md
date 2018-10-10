@@ -37,9 +37,11 @@ Grid is now supported in all major browsers meaning you can use it right away to
 
 
 ### Assignment
+<div class="lesson-content__panel" markdown="1">
 - Complete [CSS Grid Garden](www.cssgridgarden.com). An awesome resource for learning the basics of css grid through 28 levels.
 - Check out the videos at [Grid by Example](https://gridbyexample.com/video). They are nice and short and cover all the major areas of CSS Grid.
 - Wes Bos has a [CSS Grid course](https://cssgrid.io/) which is goes really in depth on the subject
+</div>
 
 ### Additional Resources
 - The [MDN Grid pages](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are a great place to review CSS Grid and make sure you are comfortable with the main areas of the specification.

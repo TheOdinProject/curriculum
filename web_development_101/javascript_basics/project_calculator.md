@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [Wabbajack0's Solution](https://github.com/Wabbajack0/calculator) - [View in Browser](https://wabbajack0.github.io/calculator/)
 - [Lucas's Solution](https://github.com/ogdendavis/calculator) - [View in Browser](https://ogdendavis.github.io/calculator/)
 - [Waris's Solution](https://github.com/warisz/calculator-gui) - [View in Browser](https://cdn.rawgit.com/warisz/calculator-gui/530cc7dd/index.html)
 - Roman Alenskiy's Solution (responsive, mobile) [Github](https://github.com/Roman-Alenskiy/calculator) / [Live](https://roman-alenskiy.github.io/calculator/)
