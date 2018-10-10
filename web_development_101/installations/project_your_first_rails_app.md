@@ -139,7 +139,7 @@ If you still have issues, please come and ask questions in the [Gitter tech supp
 
 Now it is time to install Ruby itself and we will be using `rbenv` to do so, and now you will see why we installed it in the first place!
 
-We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)
+We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! [The Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)!
 
 Run this command in the terminal:
 
