@@ -139,7 +139,7 @@ If you still have issues, please come and ask questions in the [Gitter tech supp
 
 Now it is time to install Ruby itself and we will be using `rbenv` to do so, and now you will see why we installed it in the first place!
 
-We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! [The Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)!
+We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! The [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)!
 
 Run this command in the terminal:
 
@@ -162,7 +162,7 @@ That should return something like this:
 ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
 ~~~
 
-If this doesn't show up, ask for help in [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support). If the correct output does show up, you have successfully installed ruby!
+If this doesn't show up, ask for help in the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support). If the correct output does show up, you have successfully installed ruby!
 
 </details>
 
@@ -274,7 +274,7 @@ From inside of the new terminal enter the following:
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 ~~~
 
-If you see something *very, very similar* to the message below you are ready to proceed, if not you should seek assistance in the Gitter channel
+If you see something *very, very similar* to the message below you are ready to proceed, if not you should seek assistance in the Gitter channel.
 
 ~~~bash
 Checking for `rbenv' in PATH: /usr/local/bin/rbenv Checking for rbenv shims in PATH: OK Checking `rbenv install' support: /usr/local/bin/rbenv-install (ruby-build 20180618) Counting installed Ruby versions: none There aren't any Ruby versions installed under `/Users/<YourNameHere>/.rbenv/versions'. You can install Ruby versions like so: rbenv install 2.2.4 Checking RubyGems settings: OK Auditing installed plugins: OK
@@ -444,7 +444,7 @@ Now we are going to tell rails to initialize the application for us. We will the
 rails new my_first_rails_app
 ~~~
 
-This will do a bunch of things and you will see a lot of output into the terminal. As long as nothing looks like an error, you can continue. Otherwise, come to [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support) for help.
+This will do a bunch of things and you will see a lot of output into the terminal. As long as nothing looks like an error, you can continue. Otherwise, come to the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support) for help.
 
 Now that we have let rails do the heavy lifting for us, we need to move into the directory it has created for us.
 
@@ -698,4 +698,4 @@ If you are using WSL, `heroku open` will not open automatically, but remember th
 
 ### Step 5: Let us know how it went!
 
-You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support), or on the Odin Project forms. You can always find these links in the top right corner, under community.
+You have successfully completed the installations. Congratulations! If you have any comments, or suggestions, we would love to hear them. Talk to us either in the [Gitter chat room](https://gitter.im/TheOdinProject/theodinproject), or on the Odin Project forms. You can always find these links in the top right corner, under community.
