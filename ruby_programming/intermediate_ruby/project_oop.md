@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
+* [Tobenski's Tic Tac Toe](https://github.com/tobenski/tic_tac_toe)
 * [Tommy's Solution](https://github.com/hoangtommy/mastermind) - [Play it](https://repl.it/@tommyhoang1/Mastermind)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/tic-tac-toe) - [Live repl.it Version](https://repl.it/@mohamed_attar/tictactoe)
 * [ahmed ali's solution](https://github.com/ahmedloona/my_odin_project_solutions/tree/master/2_project_oop/ahmed_ali_tic_tac_toe/lib)
@@ -234,6 +235,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/intermediate-ruby/OOP/tic-tac-toe.rb)
 * [Encolpius's solution](https://github.com/Encolpius/OOP-Projects/tree/master/tic-tac-toe)
 * [Tommy's solution](https://github.com/hoangtommy/tic-tac-toe) - [Play it](https://repl.it/@tommyhoang1/TictheTacwithYourToe)
+* [bchalman's solution](https://github.com/bchalman/tic_tac_toe) - [Play it](https://repl.it/@bchalman/Tic-Tac-Toe)
 
 ### Project 2: Mastermind
 

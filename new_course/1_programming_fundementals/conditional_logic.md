@@ -21,11 +21,8 @@ You'll write a lot of conditional statements on your road to programmer stardom.
   * Are nil, 0, "0", "", 1, [], {} and -1 considered true or false?
   * When do you use elsif?
   * When do you use unless?
-  * What does <=> do?
-  * Why might you define your own <=> method?
   * What do || and && and ! do?
   * What is returned by puts("woah") || true?
-  * What is ||=?
   * What is the ternary operator?
   * When should you use a case statement?
 
@@ -214,7 +211,7 @@ did_i_pass = case grade #=> create a variable `did_i_pass` and assign the result
 end
 ```
 
-As soon as a match is found the value of that match is returned and the case statement stops execution.
+As soon as a match is found the value of that match is returned and the case statement stops execution. Can you tell what the value of the `did_i_pass` variable is going to be after the case statement?
 
 If you need to do some more complex code manipulation, you can remove the `then` keyword and instead place the code to be executed on the next line.
 
@@ -229,7 +226,7 @@ when 'D'
   puts "Better luck next time"
   can_i_retire_soon = false
 else
-  "McDonald's is hiring!"
+  puts "McDonald's is hiring!"
   fml = true
 end
 ```

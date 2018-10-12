@@ -69,3 +69,4 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Uy Bình's Solution](https://github.com/uybinh/odin-js-library) - [View in browser](https://uybinh.github.io/odin-js-library/)
 - [Punnadittr's Solution](https://github.com/punnadittr/library) - [View in browser](https://punnadittr.github.io/library/index.html/)
 - [Sava's Solution](https://github.com/SavaVuckovic/Library-App)
+- [Francisco Carlos's Solution](https://github.com/fcarlosdev/the_odin_project/tree/master/library) - [View in browser](https://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/library/index.html)

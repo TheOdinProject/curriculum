@@ -104,6 +104,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Mike Smith's solution](https://github.com/MikeSS281986/YouTube-Clone-Page) - [View in browser](https://mikess281986.github.io/YouTube-Clone-Page/)
 * [Elena's solution](https://github.com/elena-sam/youtube-replica-project) - [View in browser](https://elena-sam.github.io/youtube-replica-project/)
 * [Punnadittr's solution](https://github.com/punnadittr/u-tube) - [View in browser](https://punnadittr.github.io/u-tube/)
+* [aznafro's solution](https://github.com/aznafro/youtube) - [View in browser](https://aznafro.github.io/youtube/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

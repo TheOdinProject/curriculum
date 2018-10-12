@@ -39,6 +39,10 @@ Here are some use cases (abilities your project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+
+- [Wabbajack0's Solution](https://github.com/Wabbajack0/calculator) - [View in Browser](https://wabbajack0.github.io/calculator/)
+- [Lucas's Solution](https://github.com/ogdendavis/calculator) - [View in Browser](https://ogdendavis.github.io/calculator/)
+- [Waris's Solution](https://github.com/warisz/calculator-gui) - [View in Browser](https://cdn.rawgit.com/warisz/calculator-gui/530cc7dd/index.html)
 - Roman Alenskiy's Solution (responsive, mobile) [Github](https://github.com/Roman-Alenskiy/calculator) / [Live](https://roman-alenskiy.github.io/calculator/)
 - [Trevor's Solution](https://github.com/trevorsinnott/calculator) - [View in Browser](https://trevorsinnott.github.io/calculator/)
 - [Ochuko's Solution](https://github.com/ochuko56/calculator) - [View in Browser](https://ochuko56.github.io/calculator/)
@@ -160,3 +164,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mark Bailey's Solution](https://github.com/markbailey0356/calculator) - [View in Browser](https://markbailey0356.github.io/calculator/)
 - [Fan's Solution](https://github.com/Komor-RP/calculator-odin-project) - [View in Browser](https://komor-rp.github.io/calculator-odin-project/)
 - [HanJosmer's Solution](https://github.com/HanJosmer/calculator) - [View in Browser](https://hanjosmer.github.io/calculator/)
+- [Franklyn Afeso's Solution](https://github.com/afedo/calculator) - [View in Browser](https://afeso.github.io/calculator/)
+- [Halkim44's material Design Solution](https://github.com/halkim44/project-calculator) - [View in Browser](https://halkim44.github.io/project-calculator/)
+- [themetar's solution](https://github.com/themetar/calculator) - [View in browser](https://themetar.github.io/calculator/)
+- [aznafro's solution](https://github.com/aznafro/calc) - [View in browser](https://aznafro.github.io/calc/)
+- [RTViner's solution](https://github.com/rtviner/JScalculator) - [View in browser](https://rtviner.github.io/JScalculator/)

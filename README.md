@@ -15,21 +15,10 @@ The TOP community can be found in our [gitter chat rooms](https://gitter.im/TheO
 
 The Odin Project depends on open-source contributions to improve, grow and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community.
 
-### Courses in Development
-[These are the courses](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22course%20overview%22%20) we are developing at the moment.
+### Lessons/Courses in Development
+We are constantly making improvements to the curriculum, it is very time consuming to write new lessons and it's done for free. New lessons are always in the works. If you would like to know specifics, please checkout the [Fourm](https://forum.theodinproject.com/) under "sprints", ask in the [gitter chat contrubuting section](https://gitter.im/TheOdinProject/Contributing), or keep an eye on this repo.
 
-Please feel free to comment on any of them with:
-* your suggestions for topics we should cover,
-* any resources you think we should include,
-* any project ideas you think would be a good fit,
-* or any feedback in general.
-
-Every little bit helps to make our curriculum better.
-
-### Lessons in Development
-On a more granular level, [these are the lessons](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) we are currently developing for the courses. Again, please feel free to comment on any of them with any suggestions and ideas you have.
-
-If you would like to help us develop any of these lessons please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide) to find out how you can contribute.
+If you would like to help us develop any lessons please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide) to find out how you can contribute.
 
 #### A non-exhaustive list of what you can contribute to help us:
 * Typo and grammar corrections.

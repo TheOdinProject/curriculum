@@ -21,7 +21,7 @@ At the end of this lesson you should be able to:
 <details>
   <summary>Understand the differences between a <i>webpage</i>, <i>web server</i>, <i>web browser</i> and <i>search engine</i></summary>
   <ul><ul>
-    <li>A webpage is the page you look at in your browser</li>
+    <li>A webpage is the page you look at in your browser.</li>
     <li>A web server is the computer that has the code for how the webpage should look and act.</li>
     <li>A web browser is a program on a computer that displays the web page.</li>
     <li>A search engine is a web server that searches all other web servers for information.  A user can then pull up the webpage on their web browser and search for a site.</li>
@@ -64,9 +64,9 @@ At the end of this lesson you should be able to:
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Listen to [Part 1 (Starts around 8:30)](https://twit.tv/shows/security-now/episodes/25?autostart=false) and [Part 2](https://twit.tv/shows/security-now/episodes/26?autostart=false) of Security Now Podcast's *How the web works* series
+* Listen to [Part 1 (Starts around 8:30)](https://twit.tv/shows/security-now/episodes/25?autostart=false) and [Part 2](https://twit.tv/shows/security-now/episodes/26?autostart=false) of Security Now Podcast's *How the web works* series.
 * [(Video) A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
 * [(Book) Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
 * If you're in for a bit more reading, you can check the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. It also touches on some topic covered later in the curriculum, such as Developer Tools and Security. Additionally, you can learn about HTTP tools which can be helpful to you in the future.

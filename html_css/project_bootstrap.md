@@ -21,6 +21,7 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/newsweek.html)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/bootstrap_project) - [View in Browser](https://cmacswan07.github.io/bootstrap_project/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/newsweek-bootstrap) - [View in Browser](https://javier-machin.github.io/newsweek-bootstrap/)
 * [nmac's solution](https://github.com/nmacawile/newsweek) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/newsweek/blob/master/index.html)

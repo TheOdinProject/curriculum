@@ -48,8 +48,8 @@ These are some of the basic tools you will use regularly. You may not know what 
 * **Text Editor**
 * **Command Line Interface (CLI)**
 * **[Stack Overflow](http://stackoverflow.com/)**
-* **Git**
-* **GitHub**
+* **[Git](https://git-scm.com/)**
+* **[GitHub](https://github.com/)**
 
 ### Motivation
 
@@ -96,9 +96,9 @@ And it might be life-changing too.
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25) on Quora.
+* [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
 * [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
 * [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
-* [Things I Wish Someone Had Told Me When I Was Learning How To Code](https://medium.com/learning-to-code/565fc9dcb329)
-* [Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/): it's okay if it's really frustrating.
-* [Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
+* [Medium: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://medium.com/learning-to-code/565fc9dcb329)
+* [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/): it's okay if it's really frustrating.
+* [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
