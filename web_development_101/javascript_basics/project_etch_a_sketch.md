@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+* [Nathan's Solution](https://github.com/nwthomas/etch-a-sketch) - [View in Browser](https://nwthomas.github.io/etch-a-sketch/)
 * [Wabbajack0's Solution](https://github.com/Wabbajack0/ETCH-A-SKETCH) - [View in Browser](https://wabbajack0.github.io/ETCH-A-SKETCH/)
 * [Lucas's Solution](https://github.com/ogdendavis/rainbow-drawing) - [View in Browser](https://ogdendavis.github.io/rainbow-drawing/)
 * [Grante1ope's Solution](https://github.com/grante1ope/etch-A-sketch)
