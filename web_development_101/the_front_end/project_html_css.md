@@ -1690,6 +1690,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Colton Shaheen's solution (Easy)](https://github.com/coltonshaheen/google-homepage) - [View in Browser](https://coltonshaheen.github.io/google-homepage/)
 * [keskiviikko's solution (Easy)](https://github.com/keskiviikko/google-homepage) - [View in Browser](https://keskiviikko.github.io/google-homepage/)
 * [Sergei's solution (Easy)](https://github.com/december86/google-homepage) - [View in Browser](https://december86.github.io/google-homepage/)
+* [Andrea Diotallevi's Solution (Easy)](https://github.com/andreadiotallevi/google-homepage) - [View in Browser](https://andreadiotallevi.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
