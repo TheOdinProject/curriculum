@@ -455,6 +455,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Hassan Husseyexplores Solution](https://github.com/husseyexplores/ruby_course)
 * [bchalman's Solution](https://github.com/bchalman/learn_ruby)
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby)
+* [Gabriel Fendt's Solution](https://github.com/fendtg4/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
