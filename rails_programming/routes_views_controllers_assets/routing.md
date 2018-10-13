@@ -8,7 +8,7 @@ The other handy thing that goes on when a request enters your application is tha
 
 If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a huge blob of comments that do a pretty good job of explaining how it works, so you're never in much danger of losing your way.
 
-Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rake routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
+Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
@@ -25,7 +25,7 @@ Look through these now and then use them to test yourself after doing the assign
 The most important (and simplest) route in your file is the root url... where should users be deposited when they land on `http://supercutekittenphotos.com`?  Just tell Rails which controller and action to map that route to, and it is so:
 
 ~~~ruby
-  root :to => "kittens#index"  #kittens controller, index action (method)
+  root to: "kittens#index"  #kittens controller, index action (method)
 ~~~
 
 Remember, when we say "action" we really mean "the method inside the controller that is called that", e.g. the `index` action is just the `index` method that's defined in the KittensController*
@@ -47,13 +47,13 @@ The highlighted words correspond to standard Rails controller actions!
 Each of these represents a "RESTful" route, and so it makes sense that you'll need a way to write these in your Router file so the requests they represent are actually routed to the proper action of your controller (in this case, the "Posts" controller).  One way to write them out would be the long way:
 
 ~~~ruby
-  get "/posts" => "posts#index"
-  get "/posts/:id" => "posts#show"
-  get "/posts/new" => "posts#new"
-  post "/posts" => "posts#create"  # usually a submitted form
-  get "/posts/:id/edit" => "posts#edit"
-  put "/posts/:id" => "posts#update" # usually a submitted form
-  delete "/posts/:id" => "posts#destroy"
+  get "/posts", to: "posts#index"
+  get "/posts/:id", to: "posts#show"
+  get "/posts/new", to: "posts#new"
+  post "/posts", to: "posts#create"  # usually a submitted form
+  get "/posts/:id/edit", to: "posts#edit"
+  put "/posts/:id", to: "posts#update" # usually a submitted form
+  delete "/posts/:id", to: "posts#destroy"
 ~~~
 
 Each of these routes is basically a Ruby method that matches that particular URL and HTTP verb with the correct controller action.  Two things to notice:
@@ -81,9 +81,9 @@ Rails knows you want to use those seven actions all the time... so they came up 
 
 That's it.  That is a Ruby method which basically just outputs those seven routes we talked about before.  No magic.  You see it a whole lot, now you know what it does.
 
-### Rake Routes and Route Helpers
+### Rails Routes and Route Helpers
 
-With that above line in my routes file, what do my routes look like?  If you type `$ rake routes` on the command line, it'll output all the routes your application knows, which look like:
+With that above line in my routes file, what do my routes look like?  If you type `$ rails routes` on the command line, it'll output all the routes your application knows, which look like:
 
 ~~~bash
   edit_post  GET  /posts/:id/edit(.:format)  posts#edit
@@ -164,8 +164,8 @@ Just to drive home that routes correspond directly to controller actions, a very
 Sometimes you just don't want all seven of the RESTful routes that `resources` provides.  Easy, either specify just the ones you want using `only` or just the ones you DON'T want using `except`:
 
 ~~~ruby
-  resources :posts, :only => [:index, :show]
-  resources :users, :except => [:index]
+  resources :posts, only: [:index, :show]
+  resources :users, except: [:index]
 ~~~
 
 ### Non-RESTful Routes
