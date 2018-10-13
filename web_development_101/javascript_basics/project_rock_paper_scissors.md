@@ -353,3 +353,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [TNHarvey's Solution](https://github.com/tnharvey/odins_rock-paper-scissors) - [View in Browser](https://tnharvey.github.io/odins_rock-paper-scissors/)
 - [Rey's Solution](https://rey810.github.io/Rock-Paper-SCissors/)
 - [Chris' solution](https://https://github.com/adiec7/rockpaper)
+- [Ghareebovich's Solution](https://ghareebovich.github.io/Rock-Paper-Scissor-Game/)
