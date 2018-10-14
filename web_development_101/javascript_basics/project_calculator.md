@@ -170,3 +170,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [themetar's solution](https://github.com/themetar/calculator) - [View in browser](https://themetar.github.io/calculator/)
 - [aznafro's solution](https://github.com/aznafro/calc) - [View in browser](https://aznafro.github.io/calc/)
 - [RTViner's solution](https://github.com/rtviner/JScalculator) - [View in browser](https://rtviner.github.io/JScalculator/)
+- [IvanaGoSt's Solution](https://github.com/IvanaGoSt/Calculator-2) - [View in Browser](https://ivanagost.github.io/Calculator-2/)
