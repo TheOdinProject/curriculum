@@ -137,6 +137,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [HSaad's solution](https://github.com/HSaad/data-structure-algorithms/blob/master/binary_tree.rb)
 * [Punnadittr's solution](https://github.com/punnadittr/binary_tree/blob/master/binary_tree.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/binary-tree/blob/master/node.rb)
+* [Alex's solution](https://github.com/alexcorremans/binary_search_tree)
 
 ### Project 2: Knight's Travails
 
