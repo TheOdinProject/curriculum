@@ -436,6 +436,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [mojotron's Solution](https://github.com/mojotron/mastermind)
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/intermediate-ruby/OOP/master-mind.rb)
 * [Encolpius's Solution](https://github.com/Encolpius/OOP-Projects/tree/master/mastermind)
+* [bchalman's Solution](https://github.com/bchalman/Mastermind) - [Live Version](https://repl.it/@bchalman/Mastermind)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
