@@ -115,6 +115,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 * [goodjobbin85's solution](https://github.com/goodjobbin85/odin-re-former)
+* [Jeremy-D's solution](https://github.com/Jeremy-D/re-former)
 * [prw001's solution](https://github.com/prw001/re-former)
 * [Btreims's solution](https://github.com/btreim/re-former)
 * [0zra's solution](https://github.com/0zra/re-form)
