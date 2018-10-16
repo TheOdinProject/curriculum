@@ -173,7 +173,7 @@ Sometimes you just don't want all seven of the RESTful routes that `resources` p
 Of course, you don't have to do everything the RESTful way.  You probably should, but there are times that you want to make up your own route and map it to your own controller action.  Just follow the examples we gave at the top for RESTful routes:
 
 ~~~ruby
-  get '/somepath' => 'somecontroller#someaction'
+  get '/somepath', to: 'somecontroller#someaction'
 ~~~
 
 ... of course, the `config/routes.rb` comments should be helpful to you here as well.
