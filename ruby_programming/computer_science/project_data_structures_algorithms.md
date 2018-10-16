@@ -290,6 +290,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Punnadittr's solution](https://github.com/punnadittr/knight_traversal/blob/master/knight.rb)
 * [Akash's Solution](https://github.com/Akash-sopho/knights_travels)
 * [Areeba's Solution](https://github.com/AREEBAISHTIAQ/knight-travails/blob/master/knight-travails.rb)
+* [Alex's solution](https://github.com/alexcorremans/knight)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
