@@ -355,3 +355,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Chris' solution](https://https://github.com/adiec7/rockpaper)
 - [Ghareebovich's Solution](https://ghareebovich.github.io/Rock-Paper-Scissor-Game/)
 - [Colton Shaheen's Solution](https://github.com/coltonshaheen/rock_paper_scissors) - [View in Browser](https://coltonshaheen.github.io/rock_paper_scissors/)
+- [Tremaine Johns' Solution](https://github.com/TremaineJ/rockPaperScissors)
