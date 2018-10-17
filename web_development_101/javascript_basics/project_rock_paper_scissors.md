@@ -85,7 +85,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [amanData's solution](https://github.com/amanData/rock-paper-scissors) - [UI Solution](https://github.com/amanData/rock-paper-scissors-ui) - [UI Solution View in Browser](https://amandata.github.io/rock-paper-scissors-ui/)
 - [Timon Martin's solution](https://github.com/timonmartin/rockpaperscissors)
 - [Seth Robinson's solution](https://github.com/petrichor829/rock-paper-scissors) - [View console solution in browser](https://petrichor829.github.io/rock-paper-scissors/game-console.html) - [View UI solution in browser](https://petrichor829.github.io/rock-paper-scissors/game-ui.html)
-- [AlexandreLeFou's Solution](https://github.com/AlexandreLeFou/RockPaperScissors/blob/master/RockPaperScissors_console.html)
+- [AlexandreLeFou's Solution](https://github.com/AlexandreLeFou/RockPaperScissors/blob/master/RockPaperScissors_console.html) - [View in Browser](https://alexandrelefou.github.io/RockPaperScissors/)
 - [Smetanca52's Solution](https://github.com/Smetanca52/simple_game) - [View In Browser](https://cdn.rawgit.com/Smetanca52/simple_game/ecc9b35e/rock.html)
 - [codeymason's Solution](https://github.com/codeymason/rockpaperscissor)
 - [terrancebee's Solution](https://github.com/terrancebee/rock-paper-scissors)
