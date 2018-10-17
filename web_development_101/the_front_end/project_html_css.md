@@ -1693,6 +1693,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrea Diotallevi's Solution (Easy)](https://github.com/andreadiotallevi/google-homepage) - [View in Browser](https://andreadiotallevi.github.io/google-homepage/)
 * [Canicodenow's solution (Easy)](https://github.com/canicodenow/google-homepage) - [View in Browser](https://canicodenow.github.io/google-homepage/)
 * [Asraras's solution (Easy)](https://github.com/asraras/google-homepage) - [View in Browser](https://karwar.net/google-assignment)
+* [FidelVe's solution (Easy)](https://github.com/fidelve/google-homepage) - [View in Browse](https://fidelve.github.io/google-homepage)
+* [FidelVe's solution (hard)](https://github.com/fidelve/google-searchpage)[View in Browser](https://fidelve.github.io/google-searchpage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
@@ -1702,3 +1704,5 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
 * Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
+
+
