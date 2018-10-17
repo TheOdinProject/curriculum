@@ -722,6 +722,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Joel Infeld's solution](https://github.com/joelinfeld/stock_picker/blob/master/stock_picker.rb)
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/stock_picker.rb)
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/stock_picker.rb)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -1063,4 +1064,5 @@ Next, make sure your method can handle multiple words:
 * [Joel Infeld's solution](https://github.com/joelinfeld/substrings/blob/master/substrings.rb)
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/substrings.rb)
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/substrings.rb)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/substrings.rb)
 
