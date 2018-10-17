@@ -1693,6 +1693,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrea Diotallevi's Solution (Easy)](https://github.com/andreadiotallevi/google-homepage) - [View in Browser](https://andreadiotallevi.github.io/google-homepage/)
 * [Canicodenow's solution (Easy)](https://github.com/canicodenow/google-homepage) - [View in Browser](https://canicodenow.github.io/google-homepage/)
 * [Asraras's solution (Easy)](https://github.com/asraras/google-homepage) - [View in Browser](https://karwar.net/google-assignment)
+* [Mavioux' solution (Easy)](https://github.com/Mavioux/Google-Site)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
