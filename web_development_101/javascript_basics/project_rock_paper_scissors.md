@@ -357,3 +357,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Colton Shaheen's Solution](https://github.com/coltonshaheen/rock_paper_scissors) - [View in Browser](https://coltonshaheen.github.io/rock_paper_scissors/)
 - [Sofie Dittmann's Console Solutions - Single and game](https://github.com/dolunaykiz/RockPaperScissors.git)
 - [Tremaine Johns' Solution](https://github.com/TremaineJ/rockPaperScissors)
+- [Mavioux' Solution](https://github.com/Mavioux/Rock-Paper-Scissors) - [View in Browser](https://mavioux.github.io/)

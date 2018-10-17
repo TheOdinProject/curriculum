@@ -1694,7 +1694,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Canicodenow's solution (Easy)](https://github.com/canicodenow/google-homepage) - [View in Browser](https://canicodenow.github.io/google-homepage/)
 * [Asraras's solution (Easy)](https://github.com/asraras/google-homepage) - [View in Browser](https://karwar.net/google-assignment)
 * [FidelVe's solution (Easy)](https://github.com/fidelve/google-homepage) - [View in Browse](https://fidelve.github.io/google-homepage)
-* [FidelVe's solution (hard)](https://github.com/fidelve/google-searchpage)[View in Browser](https://fidelve.github.io/google-searchpage)
+* [FidelVe's solution (hard)](https://github.com/fidelve/google-searchpage) - [View in Browser](https://fidelve.github.io/google-searchpage)
+* [Mavioux' solution (Easy)](https://github.com/Mavioux/Google-Site)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
