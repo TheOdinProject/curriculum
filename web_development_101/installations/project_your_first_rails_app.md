@@ -585,7 +585,7 @@ First we need to open the `Gemfile` and edit it.
 
 In your terminal, type `ls` and verify you can see `Gemfile` in the output. If you don't navigate to the directory you have created in Steps 4.2 and 4.3.
 
-Then we will use VSCode to modify our `Gemfile`. (If you haven't already installed it, go [here](https://code.visualstudio.com/). Don't worry, we'll wait.) Open your app in VSCode by typing `code .`
+Then we will use VSCode to modify our `Gemfile`. (If you haven't already installed it, go [here](https://code.visualstudio.com/). Don't worry, we'll wait.) Open your app in VSCode by typing `code .` If you get an error and are running WSL, restart your machine.
 
 Once VSCode finishes starting up, there should be a tree view of your app on the left side of the screen. open `Gemfile` and
 
