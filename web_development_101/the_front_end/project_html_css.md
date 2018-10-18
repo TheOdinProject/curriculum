@@ -1702,6 +1702,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dave Alexander's Solution (Easy)](https://github.com/davealexander/google-homepage) - [View in browser](https://davealexander.github.io/google-homepage/)
 * [Ariane's solution (Easy)](https://github.com/aria919/google-homepage) - [View in browser](https://aria919.github.io/google-homepage/)
 
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
