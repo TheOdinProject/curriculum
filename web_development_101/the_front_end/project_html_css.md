@@ -1685,8 +1685,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Doris's solution (Easy)](https://github.com/dsmchen/google-homepage) - [View in Browser](https://dsmchen.github.io/google-homepage/)
 * [Luiz Guilherme's Solution (Diffult)](https://github.com/luizg7/googlewebsite) - [View in Browser](https://luizg7.github.io/googlewebsite/)
 * [Nwabuokei Nnamdi's solution (Easy)](https://github.com/nnamdi16/google-homepage) - [View in Browser](https://nnamdi16.github.io/google-homepage/)
-* [Akbar's solution (Easy)](https://github.com/donatelloraphael/google-homepage) - [View in Browser] (https://donatelloraphael.github.io/google-homepage/)
-* [Balibee's solution (Easy)](https://github.com/balibee/google-homepage) - [View in Browser] (https://balibee.github.io/google-homepage/)
+* [Akbar's solution (Easy)](https://github.com/donatelloraphael/google-homepage) - [View in Browser](https://donatelloraphael.github.io/google-homepage/)
+* [Balibee's solution (Easy)](https://github.com/balibee/google-homepage) - [View in Browser](https://balibee.github.io/google-homepage/)
 * [Colton Shaheen's solution (Easy)](https://github.com/coltonshaheen/google-homepage) - [View in Browser](https://coltonshaheen.github.io/google-homepage/)
 * [keskiviikko's solution (Easy)](https://github.com/keskiviikko/google-homepage) - [View in Browser](https://keskiviikko.github.io/google-homepage/)
 * [Sergei's solution (Easy)](https://github.com/december86/google-homepage) - [View in Browser](https://december86.github.io/google-homepage/)
@@ -1701,6 +1701,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dhruvi's solution (Easy)](https://github.com/DhruviJariwala/google-homepage) - [View in browser](https://dhruvijariwala.github.io/google-homepage/)
 * [Dave Alexander's Solution (Easy)](https://github.com/davealexander/google-homepage) - [View in browser](https://davealexander.github.io/google-homepage/)
 * [Ariane's solution (Easy)](https://github.com/aria919/google-homepage) - [View in browser](https://aria919.github.io/google-homepage/)
+* [Banet's solution (Easy)](https://github.com/banet/google-homepage)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
