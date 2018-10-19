@@ -1704,6 +1704,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Banet's solution (Easy)](https://github.com/banet/google-homepage)
 * [Abda Shaffan's solution (Easy)](https://github.com/Abdakadabra/google-homepage) - [View in browser](https://abdakadabra.github.io/google-homepage/)
 * [Fahad Ahmed's Solution (easy)](https://github.com/fahadahmed5/google-homepage) - [View it in browser](https://rawgit.com/fahadahmed5/google-homepage/mas...)
+* [Joshua Barrow's Solution (Easy)](https://github.com/joshuabarrow/google-homepage)
 
 
 ### Additional Resources
