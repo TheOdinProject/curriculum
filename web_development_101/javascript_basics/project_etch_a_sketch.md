@@ -227,4 +227,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [BeanFeast's solution](https://github.com/BeanFeast2/Etch-a-Sketch) - [View in browser](https://cdn.rawgit.com/BeanFeast2/Etch-a-Sketch/5249967f/index.html)
 * [aznafro's solution](https://github.com/aznafro/etchasketch) - [View in browser](https://aznafro.github.io/etchasketch/)
 * [Dhairya's solution](https://github.com/dhairyadwivedi/etch-a-sketch) - [View in browser](https://dhairyadwivedi.github.io/etch-a-sketch/)
-[Rey' Solution](https://github.com/Rey810/Etch-A-Sketch) - [View in Browser](https://rey810.github.io/Etch-A-Sketch/)
+* [Rey' Solution](https://github.com/Rey810/Etch-A-Sketch) - [View in Browser](https://rey810.github.io/Etch-A-Sketch/)
