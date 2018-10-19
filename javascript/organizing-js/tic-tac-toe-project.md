@@ -47,3 +47,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Uy Bình's solution](https://github.com/uybinh/tic_tac_toe_web) - [View in browser](https://uybinh.github.io/tic_tac_toe_web/)
 - [Punnadittr's solution](https://github.com/punnadittr/js_tictactoe) - [View in browser](https://punnadittr.github.io/js_tictactoe/)
 - [Heyalvaro's solution](https://github.com/heyalvaro/tictactoe.js) - [View in browser](http://heyalvaro.com/tictactoe.js)
+- [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/js_tic_tac_toe) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/js_tic_tac_toe/index.html)
