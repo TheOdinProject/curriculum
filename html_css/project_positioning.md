@@ -79,6 +79,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Mike Smith's solution](https://github.com/MikeSS281986/New-York-Times-Snippet) - [View in browser](https://mikess281986.github.io/New-York-Times-Snippet/)
 * [Elena's solution](https://github.com/elena-sam/nytimes-clone) - [View in browser](elena-sam.github.io/nytimes-clone)
 * [Punnadittr's solution](https://github.com/punnadittr/nyt-article) - [View in browser](https://punnadittr.github.io/nyt-article/)
+* [aznafro's solution](https://github.com/aznafro/nytarticle) - [View in browser](https://aznafro.github.io/nytarticle/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
