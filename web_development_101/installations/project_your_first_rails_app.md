@@ -97,10 +97,10 @@ Run these commands in sequence, they most likely won't give you any output, so j
 ~~~bash
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+exit
 ~~~
 
-After running those commands, we will need to restart the terminal. Simply type `exit` and re-open the terminal like before.
-
+After running the final `exit` command, you will need to re-open the terminal like before.
 
 Next we are going to install `ruby-build` to help compile the Ruby binaries.
 
@@ -139,12 +139,12 @@ If you still have issues, please come and ask questions in the [Gitter tech supp
 
 Now it is time to install Ruby itself and we will be using `rbenv` to do so, and now you will see why we installed it in the first place!
 
-We will be using Ruby 2.5.1 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials. If you have trouble, you know where to ask for it! The [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support)!
+We will be using Ruby 2.5.3 in this install. Some tutorials might require a different version, but you can safely dis-regard and continue those tutorials.
 
 Run this command in the terminal:
 
 ~~~bash
-rbenv install 2.5.1 --verbose
+rbenv install 2.5.3 --verbose
 ~~~
 
 This will take some time. We use the `--verbose` flag so you can see what it is doing and can be sure it hasn't gotten stuck. Take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA), or get a glass of water while it installs.
@@ -152,14 +152,14 @@ This will take some time. We use the `--verbose` flag so you can see what it is 
 When the last command is finished. We will have to set the Ruby version, so Linux will know which version to use when you try to execute `ruby`. After, we need to be sure it was installed correctly. To do that run:
 
 ~~~bash
-rbenv global 2.5.1
+rbenv global 2.5.3
 ruby -v
 ~~~
 
 That should return something like this:
 
 ~~~bash
-ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
+ruby 2.5.3p57 (2018-03-29 revision 63029) [x86_64-linux]
 ~~~
 
 If this doesn't show up, ask for help in the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support). If the correct output does show up, you have successfully installed ruby!
@@ -286,15 +286,15 @@ Checking for `rbenv' in PATH: /usr/local/bin/rbenv Checking for rbenv shims in P
 We can now (finally) install Ruby!  We recommend using the latest version, which currently is 2.5:
 
 ~~~bash
-rbenv install 2.5.1 --verbose
+rbenv install 2.5.3 --verbose
 ~~~
 
-This will install Ruby version 2.5.1. The `--verbose` flag is used to show you that things are happening. A lot of stuff will be displayed on your screen. It's rbenv doing it's thing. Hang out for 10-15 minutes until your prompt (the `$` sign) is visible once again.
+This will install Ruby version 2.5.3. The `--verbose` flag is used to show you that things are happening. A lot of stuff will be displayed on your screen. It's rbenv doing it's thing. Hang out for 10-15 minutes until your prompt (the `$` sign) is visible once again.
 
 The last thing we need to do is tell rbenv to use this new version of Ruby by default. Again, inside of the terminal type:
 
 ~~~bash
-rbenv global 2.5.1
+rbenv global 2.5.3
 ~~~
 
 </details>
