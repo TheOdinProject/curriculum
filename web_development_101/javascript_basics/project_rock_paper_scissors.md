@@ -359,3 +359,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sofie Dittmann's Console Solutions - Single and game](https://github.com/dolunaykiz/RockPaperScissors.git)
 - [Tremaine Johns' Solution](https://github.com/TremaineJ/rockPaperScissors)
 - [Mavioux' Solution](https://github.com/Mavioux/Rock-Paper-Scissors) - [View in Browser](https://mavioux.github.io/)
+- [Slaven Karamatic's Solution](https://github.com/Everdrought/rock-paper-scissors) - [View in Browser](https://everdrought.github.io/rock-paper-scissors/index.html)
