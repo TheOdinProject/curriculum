@@ -18,7 +18,7 @@ The Odin Project depends on open-source contributions to improve, grow and thriv
 ### Lessons/Courses in Development
 We are constantly making improvements to the curriculum, it is very time consuming to write new lessons and it's done for free. New lessons are always in the works. If you would like to know specifics, please checkout the [Fourm](https://forum.theodinproject.com/) under "sprints", ask in the [gitter chat contrubuting section](https://gitter.im/TheOdinProject/Contributing), or keep an eye on this repo.
 
-If you would like to help us develop any lessons please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide) to find out how you can contribute.
+If you would like to help us develop any lessons please read our [contributing guide](https://www.theodinproject.com/contributing) to find out how you can contribute.
 
 #### A non-exhaustive list of what you can contribute to help us:
 * Typo and grammar corrections.
@@ -27,7 +27,7 @@ If you would like to help us develop any lessons please read our [contributing g
 * New resource links you think would make a lesson better
 * Working on new lessons and projects, you can can choose to work on parts of a lesson which are outlined in the progress list on [lesson plans](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) or you can work on completing an entire lesson yourself.
 
-To find out more about how you can contribute please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide).
+To find out more about how you can contribute please read our [contributing guide](https://www.theodinproject.com/contributing).
 
 ## Other helpful links
 
