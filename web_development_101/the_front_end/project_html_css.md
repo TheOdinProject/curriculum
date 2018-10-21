@@ -1706,6 +1706,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Fahad Ahmed's Solution (easy)](https://github.com/fahadahmed5/google-homepage) - [View it in browser](https://rawgit.com/fahadahmed5/google-homepage/mas...)
 * [Joshua Barrow's Solution (Easy)](https://github.com/joshuabarrow/google-homepage)
 * [WormCrew's Solution (Easy)](https://github.com/WormCrew/google-homepage) - [View it in browser](https://wormcrew.github.io/google-homepage/)
+* [Caleb Rauscher's Solution (Easy)] (https://github.com/calebrauscher/google-homepage) - [View it in browser](https://calebrauscher.github.io/google-homepage/) [Caleb Rauscher's Solution (Difficult)] (https://github.com/calebrauscher/google-results) - [View in in browser] (https://calebrauscher.github.io/google-results/)
 
 
 ### Additional Resources
