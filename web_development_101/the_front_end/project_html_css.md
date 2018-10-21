@@ -1709,7 +1709,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Caleb Rauscher's Solution (Easy)](https://github.com/calebrauscher/google-homepage) - [View it in browser](https://calebrauscher.github.io/google-homepage/) 
 * [Caleb Rauscher's Solution (Difficult)](https://github.com/calebrauscher/google-results) - [View in in browser](https://calebrauscher.github.io/google-results/)
 * [Suka's Solution (Easy)](https://github.com/addisuka25/google-homepage) - [View it in browser](https://addisuka25.github.io/google-homepage/)
-* [mwk913's Solution (Easy)](https://github.com/mwk913/Google-homepage) 
+* [mwk913's Solution (Easy)](https://github.com/mwk913/Google-homepage) - [View it in browser] (https://mwk913.github.io/Google-homepage/)
 * [Alexfuro's solution (Easy)](https://github.com/alexfuro/google-homepage) - [View in browser](https://alexfuro.github.io/google-homepage/)
 
 ### Additional Resources
