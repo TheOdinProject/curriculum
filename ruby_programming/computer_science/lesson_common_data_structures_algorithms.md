@@ -8,7 +8,7 @@ We'll save the specifics of data structures for more computer-science-oriented c
 
 You've already had a brief introduction to **algorithms** over some of the other lessons and you even got to write your own Merge Sort algorithm in the last project.  You'll find that sorting algorithms are quite common.  Another major area for algorithms is in search, where milliseconds count.  When you're searching through enormous troves of data, the quality of your search algorithm is incredibly important.  Traversing a data tree looking for a particular element is a related problem that's common in data intensive applications.
 
-Luckily for you, these complex algorithmic problems have all been solved many times in the past.  Understanding *how* they are solved will give you some great tools to apply to other (similar) problems on your own.  Algorithms are really just ways of solving problems (like this) systematically.  In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
+Luckily for you, these complex algorithmic problems have all been solved many times in the past.  Understanding *how* they are solved will give you some great tools to apply to other (similar) problems on your own.  Algorithms are really just ways of solving problems systematically.  In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
