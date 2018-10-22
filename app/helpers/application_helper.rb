@@ -65,7 +65,7 @@ module ApplicationHelper
           <br />
           <p>The Odin Project then delves deep into <a href='courses/html5-and-css3'>HTML and CSS</a>, along with <a href='courses/javascript-and-jquery'>Javascript, JQuery and Backbone</a> to give you all the tools necessary to make websites flow, load quickly, and look great.  Along the way you’ll learn Git and deployment so you can build your own portfolio, collaborate with others, and see your work on the web.</p>
           <br />
-          <p>Finally, The Odin Project will teach you to work with legacy codebases and open-source projects. We’ll also cover areas specifically intended to help when you’re <a href='courses/getting-hired-as-a-web-developer'>looking for employment</a>.</p>"
+          <p>Finally, The Odin Project will teach you to work with legacy codebases and open-source projects. We’ll also cover areas specifically intended to help when you’re <a href='courses/getting-hired'>looking for employment</a>.</p>"
       },
       {
         question: 'How is The Odin Project different from other programs?',
