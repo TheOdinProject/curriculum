@@ -40,7 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kyle Bailey's Console Solution](https://github.com/2tonepantone/rock-paper-scissors)
 - [evilla's Console Solution](https://github.com/evilla-19/rock-paper-scissor-odin)
 - [rahuljain's Console Solution](https://github.com/rahul3197/rock_paper_scissor)
-- [Victor's Console Solution](https://github.com/victor-lf/rock-paper-scissors)
+- [Victor's Console Solution](https://github.com/victor-lf/rock-paper-scissors) - [View in Browser](https://victor-lf.github.io/rock-paper-scissors/) - [Victor's GUI Solution](https://github.com/victor-lf/rock-paper-scissors-gui) - [View in Browser](https://victor-lf.github.io/rock-paper-scissors-gui/)
 - [Wabbajack0's Solution](https://github.com/Wabbajack0/rock_paper_scissors) - [View in Browser](https://wabbajack0.github.io/rock_paper_scissors/)
 - [Grace's Console Solution](https://github.com/gracewitter/100DaysOfCode/blob/master/practice%20exercises/project-rock-paper-scissors.html)
 - [Chase's solution](https://github.com/shadowimmage/odin_project-Rock-Paper-Scissors) - [View in Browser](https://shadowimmage.github.io/odin_project-Rock-Paper-Scissors/)
