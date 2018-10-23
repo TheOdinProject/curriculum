@@ -65,6 +65,8 @@ Microsoft has made installing WSL super simple. To install this feature you need
 
 This will install the Windows Subsystem for Linux on your computer.  The process will take about 10 minutes to complete, depending on your internet connection.
 
+NOTE: If you run into an error, click [here](https://aka.ms/wslinstall) and follow the directions to enable and install WSL.
+
 ### Step 2: Starting WSL
 
 Windows Subsystem for Linux is nothing more than a linux terminal inside of Windows. To start the program simply open your start menu and search for "Ubuntu 18.04". The first time you run the program you may get a message, "Installing, this may take a few minutes..." Sit tight and give it a few moments. When complete, you will be asked to create a new user and password. This is how you will log into your WSL installation.
