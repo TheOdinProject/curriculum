@@ -230,3 +230,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Dhairya's solution](https://github.com/dhairyadwivedi/etch-a-sketch) - [View in browser](https://dhairyadwivedi.github.io/etch-a-sketch/)
 * [Rey' Solution](https://github.com/Rey810/Etch-A-Sketch) - [View in Browser](https://rey810.github.io/Etch-A-Sketch/)
 * [Stevie P's Solution](https://voxpolly27.github.io/Etch-A-Sketch/)
+* [Ghareebovich's solution](https://github.com/Ghareebovich/Etch-a-Sketch) - [View in Browser](https://ghareebovich.github.io/Etch-a-Sketch)
