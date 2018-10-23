@@ -231,3 +231,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Rey' Solution](https://github.com/Rey810/Etch-A-Sketch) - [View in Browser](https://rey810.github.io/Etch-A-Sketch/)
 * [Stevie P's Solution](https://github.com/VoxPolly27/Etch-A-Sketch) - [View in Browser](https://voxpolly27.github.io/Etch-A-Sketch/)
 * [Ghareebovich's solution](https://github.com/Ghareebovich/Etch-a-Sketch) - [View in Browser](https://ghareebovich.github.io/Etch-a-Sketch)
+* [Slaven Karamatic's solution](https://github.com/Everdrought/etch-a-sketch) - [View in Browser](https://everdrought.github.io/etch-a-sketch/)
