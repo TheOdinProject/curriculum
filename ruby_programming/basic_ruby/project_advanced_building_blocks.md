@@ -308,6 +308,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [codyMalcolm's Solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/bubble_sort.rb)
 * [Tommy's Solution](https://github.com/hoangtommy/rubyExercises/blob/master/bubble_sort.rb )
 * [bchalman's Solution](https://github.com/bchalman/ruby_exercises/blob/master/bubble_sort.rb)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/bubble_sort.rb)
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
