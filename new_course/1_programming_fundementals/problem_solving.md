@@ -1,48 +1,25 @@
 # Problem Solving
-A brief summary about what this lesson is about and why the topics or concepts it covers are important.
+
+Problem solving is perhaps the most crucial skill every respectable developer has. Learning a programming language, its syntax and semantics, is just the half of it, if you want to be a good developer, one that is in demand in the job market, you are going to have to acquire problem solving skills, if you do not already have it.
+
+You must have heard about problem solving before, and quite frankly, it sounds pretty self explanatory. The one class you problably heard the term in a hundred times, is math class, almost all of them. This term however, has a slightly different meaning in computer science.
 
 ## Learning Outcomes
+
 *Look through these now and then use them to test yourself after doing the assignment*
 
-what the student is expected to know or be able to do by the end of this lesson
-
-* Learning outcome 1
-* Learning outcome 2
-* Learning outcome 3
-
-## The Problem solving Process
-
-First
-* Identify the big picture goal - what problem are you trying to solve?
-* How will you interact with the software? sketch the interface
-
-Then
-* whats the smallest possible feature you can build to get started?
-* pseudo code for the feature
-* Implement
-* repeat
-
-## Deep Dive into Pseudo Coding
-* what is it?
-- plain english representation of the code you will write
-- also known as an algorithm
-
-* how to do it
-- step by step sequence starting from the top like a recipe
-- show examples of pseudo coding a problem
-
+* What does 'problem solving' mean in computer science?
+* How do programming and problem solving complement eachother?
+* What are some techniques you can apply to get better at problem solving?
 
 ### Assignment
-http://www.slideshare.net/DamianGordon1/pseudocode-10373156
 
-https://getpocket.com/a/read/62846566
-
-https://ocw.mit.edu/resources/res-tll-004-stem-concept-videos-fall-2013/videos/problem-solving/basic-programming-techniques/
-
-## Exercises
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
+1. Read the first 3 pages of the first chapter of [Think Like a Programmer: An Introduction to Creative Problem Solving](https://books.google.nl/books/about/Think_Like_a_Programmer.html?id=r6XiBUBERG8C&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false) book and before you go any futher try and solve the "How to cross the river problem" if you don't know it already, once you solve it move on to reading what the author has to say in the "lesson learned" section
+2. Read the rest of the 1st chapter and try and attempt to solve the problems before going to the solution. It is crucial that you pay extra attention to all the "Lesson learned" sections of the problem.
 
 ### Additional Resources
+
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-Link to no more than three additional resources to avoid this section becoming too cluttered.
+* [Think Like a Programmer: An Introduction to Creative Problem Solving](https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid=1540326000&sr=8-3&keywords=think+like+a+programmer) This book's examples are in c++ but you will understand everything since the main idea of the book is to teach programmers to better solve problems, it is an amazing book and it is worth every penny, it will make you a better programmer.
+* [Video on repetitive programming techniques](https://ocw.mit.edu/resources/res-tll-004-stem-concept-videos-fall-2013/videos/problem-solving/basic-programming-techniques/)
