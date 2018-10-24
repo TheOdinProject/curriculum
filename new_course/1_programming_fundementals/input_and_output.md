@@ -16,7 +16,7 @@ For example, we may need to print (output) the information regarding a value of 
 print "Learning to code is FUN! " #=> will output to our screen the text Learning to code is FUN!
 ```
 ```ruby
-$ print "1234" #=> will print to our screen the text 1234
+print "1234" #=> will print to our screen the text 1234
 ```
 
 → In order to output the information we want we can also use the puts command !	
