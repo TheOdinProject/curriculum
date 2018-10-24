@@ -25,8 +25,8 @@ puts "Learning to code is cool!!" #=> will output to our screen the text Learnin
 ```
 ```ruby
 puts "hey I want 2 lemonades" #=> will output to our screen the text hey I want 2 lemonades
-x = "My name is ALEX :) "
-   puts variable1
+   x = "My name is ALEX :) "
+   puts x
    #=> will output to our screen the variable named x in which we have stored the text My name is ALEX :)
 ```
 
@@ -38,7 +38,7 @@ y = gets    #=> on our command line the program is waiting for user input. E.g. 
 ### Differences betwenn Basic Commands
 
 Some differences between each command:
-1. Fromm the above mentioned examples we can see that for Ruby there is not a difference while declaring a text to have it enclosed between " or ' (single or double quote symbol).
+1. From the above mentioned examples we can see that for Ruby there is not a difference while declaring a text to have it enclosed between " or ' (single or double quote symbol).
 2.We declare a string/text with single or double quote but when we select to output it to the user screen the quotes are not included because they are used to define the text between them.
 3.The puts command as we shall see later on has similar behavior with print command BUT it adds a new line at the end of each argument (we shall see the difference more extensively regarding these commands when we study about arrays and how to display them properly)
  * E.g. 1.
