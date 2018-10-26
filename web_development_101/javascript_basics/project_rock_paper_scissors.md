@@ -37,6 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [evilla's Console Solution](https://github.com/evilla-19/rock-paper-scissor-odin)
+- [View in Browser] (https://evilla-19.github.io/rock-paper-scissor-odin-with-UI/)
 - [rahuljain's Console Solution](https://github.com/rahul3197/rock_paper_scissor)
 - [Victor's Console Solution](https://github.com/victor-lf/rock-paper-scissors)
 - [Wabbajack0's Solution](https://github.com/Wabbajack0/rock_paper_scissors) - [View in Browser](https://wabbajack0.github.io/rock_paper_scissors/)
