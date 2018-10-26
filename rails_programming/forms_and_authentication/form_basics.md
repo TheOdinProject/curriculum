@@ -154,7 +154,7 @@ From the Rails Guide:
   end
 ~~~
 
-~~~ruby
+~~~erb
   #app/views/articles/new.html.erb
   <%= form_for @article do |f| %>
     <%= f.text_field :title %>
@@ -183,7 +183,7 @@ What happens if your form is submitted but fails the validations you've placed o
 
 You'll probably want to display the errors so the user knows what went wrong.  Recall that when Rails tries to validate an object and fails, it attaches a new set of fields to the object called `errors`.  You can see those errors by accessing `your_object_name.errors`.  Those errors have a couple of handy helpers you can use to display them nicely in the browser -- `#count` and `#full_messages`.  See the code below:
 
-~~~ruby
+~~~erb
   <% if @post.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
