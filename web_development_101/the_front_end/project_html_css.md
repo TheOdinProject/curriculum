@@ -1705,7 +1705,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dave Alexander's Solution (Easy)](https://github.com/davealexander/google-homepage) - [View in browser](https://davealexander.github.io/google-homepage/)
 * [Ariane's solution (Easy)](https://github.com/aria919/google-homepage) - [View in browser](https://aria919.github.io/google-homepage/)
 * [Banet's solution (Easy)](https://github.com/banet/google-homepage)
-* [Abda Shaffan's solution (Easy)](https://github.com/Abdakadabra/google-homepage) - [View in browser](https://abdakadabra.github.io/google-homepage/)
+* [Abda Shaffan's solution (Easy)](https://github.com/Abdakadabra/google-homepage) - [View in browser](https://abdakadabra.github.io/google-homepage/)-[Abda Shaffan's solution (Difficult)](https://github.com/Abdakadabra/google_search_result) - [View in browser](https://abdakadabra.github.io/google_search_result/)
 * [Fahad Ahmed's Solution (easy)](https://github.com/fahadahmed5/google-homepage) - [View it in browser](https://rawgit.com/fahadahmed5/google-homepage/mas...)
 * [Joshua Barrow's Solution (Easy)](https://github.com/joshuabarrow/google-homepage)
 * [WormCrew's Solution (Easy)](https://github.com/WormCrew/google-homepage) - [View it in browser](https://wormcrew.github.io/google-homepage/)
