@@ -1,17 +1,17 @@
 <!-- This lesson will cover how to output things to the screen in Ruby and how to get input from the user. -->
 
 ### Introduction
-When we execute a computer program in Ruby Programming Language, most of the times it is required to either output **bold** or input **bold** a piece of information to a computer screen.
+When we execute a computer program in Ruby Programming Language, most of the times it is required to either **output** or **input** a piece of information to a computer screen.
 For example, we may need to print (output) the information regarding a value of a number, your first and/or last name, etc. to the terminal. In contrast, we may require from the user to provide (input) the necessary information from the user screen (via using the keyboard) regarding e.g. a number (age), a small text (family’s name) etc.
 
 ### Learning Outcomes
-* How can I produce an input *italic* ?
-* How can I produce an output *italic* ?
-* What is the basic syntax and use of the commands: print *italic*, puts *italic*, gets *italic*
-* What is the difference in input commands (puts *italic* /print *italic*) suggested?
+* How can I produce an *input* ?
+* How can I produce an *output* ?
+* What is the basic syntax and use of the commands: *print*, *puts*, *gets*
+* What is the difference in input commands (*puts* /*print*) suggested?
 
 ### Syntax of Basic Commands
-→ In order to output the information we want we shall use the print **bold** command !	
+→ In order to output the information we want we shall use the **print** command !	
 ```ruby
 print "Learning to code is FUN! " #=> will output to our screen the text Learning to code is FUN!
 ```
@@ -19,7 +19,7 @@ print "Learning to code is FUN! " #=> will output to our screen the text Learnin
 print "1234" #=> will print to our screen the text 1234
 ```
 
-→ In order to output the information we want we can also use the puts **bold** command !	
+→ In order to output the information we want we can also use the **puts** command !	
 ```ruby
 puts "Learning to code is cool!!" #=> will output to our screen the text Learning to code is cool!!
 ```
@@ -31,7 +31,7 @@ puts x
    #=> will output to our screen the variable named x in which we have stored the text My name is ALEX :)
 ```
 
-→ In order to input some information from the user we can use gets **bold** command!
+→ In order to input some information from the user we can use **gets** command!
 ```ruby
 y = gets   
 #=> on our command line the program is waiting for user input. E.g. if we type blue sky and press enter
