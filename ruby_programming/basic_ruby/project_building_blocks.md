@@ -406,6 +406,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Servante's Solution](https://github.com/Servante/stock_picker/blob/master/stock_picker.rb)
 * [Hummeldon's Solution](https://github.com/hummeldon/odin-ruby-assignments/blob/master/stock_picker.rb)
 * [Xadren's Solution](https://github.com/Xadren/odin_project/blob/master/stock_picker.rb)
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/stock_picker.rb)
