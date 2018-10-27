@@ -32,8 +32,8 @@ puts "hey I want 2 lemonades" #=> will output to our screen the text hey I want 
 
 → In order to input some information from the user we can use gets **bold** command!
 ```ruby
-y = gets    #=> on our command line the program is waiting for user input. E.g. if we type blue sky and press enter
-   puts y       #=> will output to our screen the variable named y which has stored the user input (as a text). The output will be blue sky
+y = gets   #=> on our command line the program is waiting for user input. E.g. if we type blue sky and press enter
+   puts y  #=> will output to our screen the variable named y which has stored the user input (as a text). The output will be blue sky
 ```
 #### Differences betwenn Basic Commands
 
@@ -60,5 +60,6 @@ BEWARE: all of the above commands are what we call Case Sensitive. This basicall
 
 
 ### Assignment
-- [x] [Read through and play around with the code](https://www.learnrubyonline.org/en/Hello%2C_World%21) regarding user output. 
-- [x] [Read (and code along to your terminal) the following chapters](https://www.tutorialspoint.com/ruby/ruby_quick_guide.htm): The gets Statement, The puts Statement, The print Statement.
+- [] [Read through and play around with the code](https://www.learnrubyonline.org/en/Hello%2C_World%21) regarding user output. 
+
+- [] [Read (and code along to your terminal) the following chapters](https://www.tutorialspoint.com/ruby/ruby_quick_guide.htm): The gets Statement, The puts Statement, The print Statement.
