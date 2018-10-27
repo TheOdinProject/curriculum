@@ -1705,7 +1705,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dave Alexander's Solution (Easy)](https://github.com/davealexander/google-homepage) - [View in browser](https://davealexander.github.io/google-homepage/)
 * [Ariane's solution (Easy)](https://github.com/aria919/google-homepage) - [View in browser](https://aria919.github.io/google-homepage/)
 * [Banet's solution (Easy)](https://github.com/banet/google-homepage)
-* [Abda Shaffan's solution (Easy)](https://github.com/Abdakadabra/google-homepage) - [View in browser](https://abdakadabra.github.io/google-homepage/)
+* [Abda Shaffan's solution (Easy)](https://github.com/Abdakadabra/google-homepage) - [View in browser](https://abdakadabra.github.io/google-homepage/)-[Abda Shaffan's solution (Difficult)](https://github.com/Abdakadabra/google_search_result) - [View in browser](https://abdakadabra.github.io/google_search_result/)
 * [Fahad Ahmed's Solution (easy)](https://github.com/fahadahmed5/google-homepage) - [View it in browser](https://rawgit.com/fahadahmed5/google-homepage/mas...)
 * [Joshua Barrow's Solution (Easy)](https://github.com/joshuabarrow/google-homepage)
 * [WormCrew's Solution (Easy)](https://github.com/WormCrew/google-homepage) - [View it in browser](https://wormcrew.github.io/google-homepage/)
@@ -1715,6 +1715,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mwk913's Solution (Easy)](https://github.com/mwk913/Google-homepage) - [View it in browser](https://mwk913.github.io/Google-homepage/)
 * [Alexfuro's solution (Easy)](https://github.com/alexfuro/google-homepage) - [View in browser](https://alexfuro.github.io/google-homepage/)
 * [Krzysztof solution (Easy)](https://github.com/aliveczesiu/Project-HTML-CSS)
+* [Colin Frame's Solution (Easy)](https://github.com/Colinek/google-homepage) - [View in browser](https://colinek.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
