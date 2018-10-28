@@ -369,3 +369,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [CaptainSenibles' Solution](https://github.com/CaptainSensible/paper-rock-scissors) - [View in Browser](https://captainsensible.github.io/paper-rock-scissors/)
 - [Ghassan's Console Solution](https://github.com/GT001/TOP-Rock-Paper-Scissors)
 - [mwk913's Console Solution](https://github.com/mwk913/Rock-paper-scissors)
+- [Stefano Merazzi's Console Solution](https://github.com/ste001/rock-paper-scissors)
