@@ -77,6 +77,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [JoKing's UI solution](https://github.com/joking3000/scissors-paper-stone) - [View in browser](https://joking3000.github.io/scissors-paper-stone/)
 - [Waris's UI solution](https://github.com/warisz/Rock-Paper-Scissors) - [View in browser](https://cdn.rawgit.com/warisz/Rock-Paper-Scissors/8a48fcbf/index.html)
 - [TroubleBob's console solution](https://github.com/troublebob/rock-paper-scissors/tree/6ea1c513d7360e831f3313c8c42923ed290fc9e5) -[UI Solution](https://github.com/troublebob/rock-paper-scissors/) - [View in browser](https://troublebob.github.io/rock-paper-scissors)
+- [Joseph Morgan's solution](https://github.com/JoexMorgan/Odin_Project.git)
 - [Karen Justo's solution](https://github.com/jrkaren9/rock-paper-scissors) - [View in browser](https://jrkaren9.github.io/rock-paper-scissors/) - [UI solution](https://github.com/jrkaren9/rock-paper-scissors-ui) - [View in browser](https://jrkaren9.github.io/rock-paper-scissors-ui/)
 - [deegeebee's Console Solution](https://github.com/deegeebee/TOP_RockPaperScissors.git)
 - [Super1569's Solution](https://github.com/Super1569/rock-paper-scissors) - [UI Solution](https://github.com/Super1569/RPSDom) - [View In Browser](https://super1569.github.io/RPSDom/)
