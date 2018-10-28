@@ -27,6 +27,9 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [Roman Alenskiy's solution](https://github.com/Roman-Alenskiy/restaurant-page) - [Live preview](https://roman-alenskiy.github.io/restaurant-page/)
+- [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/Restaurant) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/Restaurant/dist/index.html)
+- [Qin's solution](https://github.com/hyathynth/restaurant-page) - [View in Browser](https://hyathynth.github.io/restaurant-page/)
 - [Javier Machin's solution](https://github.com/Javier-Machin/js-restaurant) - [View in Browser](https://javier-machin.github.io/js-restaurant/)
 - [nmac's solution](https://github.com/nmacawile/js-restaurant) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/js-restaurant/blob/master/dist/index.html)
 - [Johan Morin's Solution](https://github.com/MorrisMalone/restaurant-page) - [View In Browser](https://morrismalone.github.io/restaurant-page/)
@@ -41,3 +44,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [rpalo's solution](https://github.com/rpalo/odin-restaurant) - [View in browser](https://assertnotmagic.com/odin-restaurant/)
 - [Katineto's solution](https://github.com/Katineto/restaurant-page) - [View in browser](https://katineto.github.io/restaurant-page/)
 - [Punnadittr's solution](https://github.com/punnadittr/restaurant_page) - [View in browser](https://punnadittr.github.io/restaurant_page/)
+- [AlexFuro's Solution](https://github.com/alexfuro/odin_restaurant) - [View in Browser](https://alexfuro-restaurant.netlify.com/)

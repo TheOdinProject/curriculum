@@ -406,6 +406,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Servante's Solution](https://github.com/Servante/stock_picker/blob/master/stock_picker.rb)
 * [Hummeldon's Solution](https://github.com/hummeldon/odin-ruby-assignments/blob/master/stock_picker.rb)
 * [Xadren's Solution](https://github.com/Xadren/odin_project/blob/master/stock_picker.rb)
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/stock_picker.rb)
@@ -722,6 +723,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Joel Infeld's solution](https://github.com/joelinfeld/stock_picker/blob/master/stock_picker.rb)
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/stock_picker.rb)
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/stock_picker.rb)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -1063,4 +1065,5 @@ Next, make sure your method can handle multiple words:
 * [Joel Infeld's solution](https://github.com/joelinfeld/substrings/blob/master/substrings.rb)
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/substrings.rb)
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/substrings.rb)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/substrings.rb)
 

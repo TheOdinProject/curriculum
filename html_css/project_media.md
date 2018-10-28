@@ -105,6 +105,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Elena's solution](https://github.com/elena-sam/youtube-replica-project) - [View in browser](https://elena-sam.github.io/youtube-replica-project/)
 * [Punnadittr's solution](https://github.com/punnadittr/u-tube) - [View in browser](https://punnadittr.github.io/u-tube/)
 * [aznafro's solution](https://github.com/aznafro/youtube) - [View in browser](https://aznafro.github.io/youtube/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/youtube-video-page) - [View in browser](https://areebaishtiaq.github.io/youtube-video-page/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
