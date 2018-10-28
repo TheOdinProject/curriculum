@@ -1346,7 +1346,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alexa Kucera's Solution (Easy)](https://github.com/alexakucera/google-homepage) - [View in Browser](https://alexakucera.github.io/google-homepage/)
 * [Alin Simion's Solution (Easy)](https://github.com/alinsg/google-homepage) - [View in Browser](https://alinsg.github.io/google-homepage/)
 * [Maria Tikhonova's solution (Easy)](https://github.com/MariaTikhonova/google-homepage) - [View in Browser](https://MariaTikhonova.github.io/google-homepage/)
-* [Joe Himes's solution (Easy)](https://github.com/deedle42/google-homepage)
+* [Joe Himes's solution (Easy)](https://github.com/deedle42/google-homepage) - [View in Browser](https://deedle42.github.io/google-homepage/)
 * [Steve Yankson's solution (Easy)](https://github.com/samoaning/google_homepage_mimic) - [View in Browser](https://samoaning.github.io/google_homepage_mimic/)
 * [Maxim Borodin's Solution (Easy & Difficult)](https://github.com/ToSPP/google-homepage) - [View in Browser (Easy)](https://ToSPP.github.io/google-homepage/) - [View in Browser (Difficult)](https://ToSPP.github.io/google-homepage/search-result.html)
 * [Matthew Booth's Solution (Easy)](https://github.com/MJBooth1989/google-homepage) - [View in Browser (Easy)](https://MJBooth1989.github.io/google-homepage/)
