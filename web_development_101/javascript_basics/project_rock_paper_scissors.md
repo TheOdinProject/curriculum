@@ -359,11 +359,19 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Rey's Solution](https://rey810.github.io/Rock-Paper-SCissors/)
 - [Chris' solution](https://https://github.com/adiec7/rockpaper)
 - [Ghareebovich's Solution](https://ghareebovich.github.io/Rock-Paper-Scissor-Game/)
+- [Colton Shaheen's Solution](https://github.com/coltonshaheen/rock_paper_scissors) - [View in Browser](https://coltonshaheen.github.io/rock_paper_scissors/)
 - [Colton Shaheen's GUI Solution](https://github.com/coltonshaheen/rock_paper_scissors_gui) - [View in Browser](https://coltonshaheen.github.io/rock_paper_scissors_gui/)
+- [Sofie Dittmann's Console Solutions - Single and game](https://github.com/dolunaykiz/RockPaperScissors.git) - [UI Version](https://github.com/dolunaykiz/RockPaperScissors/blob/master/rock-paper-scissors-game-UI.html)
 - [Sofie Dittmann's Console Solutions - Single and game](https://github.com/dolunaykiz/RockPaperScissors.git)
 - [Tremaine Johns' Solution](https://github.com/TremaineJ/rockPaperScissors)
 - [Mavioux' Solution](https://github.com/Mavioux/Rock-Paper-Scissors) - [View in Browser](https://mavioux.github.io/)
 - [Slaven Karamatic's Solution](https://github.com/Everdrought/rock-paper-scissors) - [View in Browser](https://everdrought.github.io/rock-paper-scissors/index.html)
 - [CaptainSenibles' Solution](https://github.com/CaptainSensible/paper-rock-scissors) - [View in Browser](https://captainsensible.github.io/paper-rock-scissors/)
+<<<<<<< HEAD
 - [Ghassan's Console Solution](https://github.com/GT001/TOP-Rock-Paper-Scissors)
 - [Joe Himes' Solution](https://github.com/deedle42/rock-paper-scissors) - [View in Browser](https://deedle42.github.io/rock-paper-scissors/)
+=======
+- [Ghassan's Console Solution](https://github.com/GT001/TOP-Rock-Paper-Scissors) - [UI Solution - View in Browser](https://gt001.github.io/TOP-Rock-Paper-Scissors-UI/)
+- [mwk913's Console Solution](https://github.com/mwk913/Rock-paper-scissors)
+- [Stefano Merazzi's Console Solution](https://github.com/ste001/rock-paper-scissors)
+>>>>>>> 175c675e8745040a35faa4a390aba6cf99343251
