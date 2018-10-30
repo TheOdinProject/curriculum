@@ -73,3 +73,4 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Sava's Solution](https://github.com/SavaVuckovic/Library-App)
 - [Francisco Carlos's Solution](https://github.com/fcarlosdev/the_odin_project/tree/master/library) - [View in browser](https://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/library/index.html)
 - [Kyouyatamax Solution](https://github.com/kyouyatamax/jsLibraryOdinProject) - [View in browser](https://kyouyatamax.github.io/jsLibraryOdinProject/)
+- [MPalhidai's Solution](https://github.com/MPalhidai/Library) - [View in browser](https://www.michaelpalhidai.com/Library/)
