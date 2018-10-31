@@ -369,4 +369,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [CaptainSenibles' Solution](https://github.com/CaptainSensible/paper-rock-scissors) - [View in Browser](https://captainsensible.github.io/paper-rock-scissors/)
 - [Ghassan's Console Solution](https://github.com/GT001/TOP-Rock-Paper-Scissors) - [UI Solution - View in Browser](https://gt001.github.io/TOP-Rock-Paper-Scissors-UI/)
 - [mwk913's Console Solution](https://github.com/mwk913/Rock-paper-scissors)
-- [Stefano Merazzi's Console Solution](https://github.com/ste001/rock-paper-scissors)
+- [Stefano Merazzi's UI Solution](https://github.com/ste001/rock-paper-scissors) - [View in Browser](https://ste001.github.io/rock-paper-scissors/)
+- [Joe Himes' Solution](https://github.com/deedle42/rock-paper-scissors) - [View in Browser](https://deedle42.github.io/rock-paper-scissors/)
