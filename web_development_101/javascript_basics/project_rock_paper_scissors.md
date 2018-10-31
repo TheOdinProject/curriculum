@@ -371,3 +371,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mwk913's Console Solution](https://github.com/mwk913/Rock-paper-scissors)
 - [Stefano Merazzi's UI Solution](https://github.com/ste001/rock-paper-scissors) - [View in Browser](https://ste001.github.io/rock-paper-scissors/)
 - [Joe Himes' Solution](https://github.com/deedle42/rock-paper-scissors) - [View in Browser](https://deedle42.github.io/rock-paper-scissors/)
+- [iameddieyayaya's Solution](https://github.com/iameddieyayaya/rockpaperscissors)
