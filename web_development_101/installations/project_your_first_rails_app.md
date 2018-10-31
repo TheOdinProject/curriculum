@@ -1,3 +1,6 @@
+### Welcome to The Odin Project
+The Odin Project is an open source community dedicated to providing the best sources information to take you from zero to full-stack developer.  More information at [The Odin Project](https://www.theodinproject.com/about)
+
 ### Introduction
 
 Click on the section below related to the operating system you set up in the prerequisites; be sure to follow the directions closely! **It is best to copy and paste the commands to avoid typos.** You will get plenty of experience typing commands later, it is vital these are correct to avoid unnecessary issues. Most problems arise from people typing things incorrectly or not reading everything. **Don't be one of those people.**
