@@ -49,9 +49,9 @@ We've got one main branch -- `master`.  `master` is for production-ready code.  
 
 #### Sending Your Pull Request
 
-10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `dev`, the hard part is all over.  Merge into `dev` with `$ git checkout dev` `$ git merge your_feature_name`.
-11. Now you want to send your local version of the `dev` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin dev` to ship `dev` up to your fork on Github.
-12. Finally, submit a pull request to send your forked version of `dev` back to the original `upstream` repository's `dev` branch.  This can be done using Github's interface.  You just need to make sure you're sending it back to the `dev` branch and not the `master` branch.
+10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `master`, the hard part is all over.  Merge into `master` with `$ git checkout master` `$ git merge your_feature_name`.
+11. Now you want to send your local version of the `master` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin master` to ship `master` up to your fork on Github.
+12. Finally, submit a pull request to send your forked version of `master` back to the original `upstream` repository's `master` branch.  This can be done using Github's interface.  You just need to make sure you're sending it back to the `master` branch.
 13. Shake your moneymaker, you're an OSS contributor!
 
 ### Learning Outcomes
