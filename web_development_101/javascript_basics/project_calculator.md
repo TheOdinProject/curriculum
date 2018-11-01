@@ -39,6 +39,7 @@ Here are some use cases (abilities your project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Colton Shaheen's Solution](https://github.com/coltonshaheen/calculator) - [View in Browser](https://coltonshaheen.github.io/calculator/)
 - [BeanFeast's Solution](https://github.com/BeanFeast2/calculator-app) - [View in Browser](https://beanfeast2.github.io/calculator-app/)
 - [Bojo's Solution](https://github.com/BojoZahariev/Calculator) - [View in Browser](https://bojozahariev.github.io/Calculator/)
 
@@ -175,3 +176,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Edgar Miranda's Solution](https://github.com/ejmiranda/calculator) - [View in Browser](https://ejmiranda.github.io/calculator/)
 - [Alexfuro's Solution](https://github.com/alexfuro/TOPcalculator) - [View in Browser](https://topcalculator.netlify.com/)
 - [Slaven Karamatic's Solution](https://github.com/Everdrought/js-calculator) - [View in Browser](https://everdrought.github.io/js-calculator/)
+- [Ghassan's Solution](https://github.com/GT001/TheOdinProject-Calculator) - [View in Browser](https://gt001.github.io/TheOdinProject-Calculator/)

@@ -220,7 +220,7 @@ This will install the latest version of git. Easy, right?
 Let's repeat the installation process with Heroku:
 
 ~~~bash
-brew install heroku
+brew install heroku/brew/heroku
 ~~~
 
 This will install the command line interface for Heroku, a free website that can host your Ruby on Rails application. More about this later.
