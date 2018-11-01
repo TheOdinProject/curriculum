@@ -23,6 +23,8 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/thenextweb.html)
+* [Chris MacSwan's solution](https://github.com/cmacswan07/responsive_design) - [View in browser](https://cmacswan07.github.io/responsive_design/index.html)
 * [Javier Machin's solution](https://github.com/Javier-Machin/responsive-design) - [View in browser](https://javier-machin.github.io/responsive-design/)
 * [nmac's solution](https://github.com/nmacawile/thenextweb-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/thenextweb-layout/blob/master/index.html)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Building-with-Responsive-Design) - [View in browser]( https://sarfrazanjum.github.io/TOP_Building-with-Responsive-Design/)
@@ -60,6 +62,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Matteo's solution](https://github.com/naufragio/thenextweb) - [View in browser](https://naufragio.github.io/thenextweb/)
 * [Aram Shelton's solution](https://github.com/tonalmasher/next-web/settings) [View in browser](https://tonalmasher.github.io/next-web/)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/responsive_design) [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/responsive_design/index.html)
+* [aznafro's solution](https://github.com/aznafro/tnw) - [View in browser](https://aznafro.github.io/thenextweb/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

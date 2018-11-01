@@ -4,6 +4,8 @@ The New York Times has been a leader in experimenting with the inclusion of mult
 
 In this project, your assignment is to copy [this article from the New York Times](http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)(open in an "incognito" window without cookies to view it if you're over your monthly limit).  Notice how the section titled "The Theory of Inflation" (you may need to widen your viewing window for it to show up) is laid out.
 
+You can use any or all of the positioning techniques you've learned in this section. The modern way would be to use Flexbox or Grid. There are certain times where FlexBox and Grid can't achieve the layout you want, knowing floats and other positioning techniques is valuable practice and you should try and use a combination of techniques for this project.
+
 ### Assignment
 Note: As usual, ignore any ads, comments or interactive elements (which use Javascript) and don't worry about what happens when you change the page width (they use some media queries to rearrange things).  Focus on making it look similar.
 
@@ -22,8 +24,11 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_positioning.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View In Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
+* [Bojana Karakacev's solution](https://github.com/bojana12/positions-and-floats-css) - [View In Browser](https://bojana12.github.io/positions-and-floats-css/)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/nyt-article) - [View In Browser](https://cmacswan07.github.io/nyt-article/index.html)
 * [Javier Machin's solution](https://github.com/Javier-Machin/NYT-article) - [View In Browser](https://javier-machin.github.io/NYT-article/)
+* [Qin's solution](https://github.com/hyathynth/NYT_article) - [View In Browser](https://hyathynth.github.io/NYT_article/)
 * [Yakherder's solution](https://github.com/yakherder614/NYT-clone) - [View In Browser](https://yakherder614.github.io/NYT-clone/)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Positioning-and-Floating-Elements) - [View In Browser](https://sarfrazanjum.github.io/TOP_Positioning-and-Floating-Elements/)
 * [nmac's solution](https://github.com/nmacawile/new-york-times-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/new-york-times-layout/blob/master/index.html)
@@ -74,6 +79,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Mike Smith's solution](https://github.com/MikeSS281986/New-York-Times-Snippet) - [View in browser](https://mikess281986.github.io/New-York-Times-Snippet/)
 * [Elena's solution](https://github.com/elena-sam/nytimes-clone) - [View in browser](elena-sam.github.io/nytimes-clone)
 * [Punnadittr's solution](https://github.com/punnadittr/nyt-article) - [View in browser](https://punnadittr.github.io/nyt-article/)
+* [aznafro's solution](https://github.com/aznafro/nytarticle) - [View in browser](https://aznafro.github.io/nytarticle/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/NYT-article) - [View in browser](https://areebaishtiaq.github.io/NYT-article/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

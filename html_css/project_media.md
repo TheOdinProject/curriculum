@@ -32,7 +32,10 @@ Also, don't worry about making the comment form work properly... your goal is to
 Send us your solution so we can show others! Submit a link to the Github [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
-
+* [Smetanca52's solution](https://github.com/Smetanca52/) - [View in browser](https://smetanca52.github.io/youtubelike_page/)
+* [Bojana Karakacev's solution](https://github.com/bojana12/youtube-homepage) - [View in browser](https://bojana12.github.io/youtube-homepage/)
+* [rvalentin1010's solution](https://github.com/rvalentin1010/youtube-video-player) - [View in browser](https://rvalentin1010.github.io/youtube-video-player/)
+* [Qin's solution](https://github.com/hyathynth/youtube_mockup) - [View in browser](https://hyathynth.github.io/youtube_mockup/)
 * [0zra's (scaffold)solution](https://github.com/0zra/embedding) - [View in browser](https://0zra.github.io/embedding/)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/youtubecopy) - [View in browser](https://cmacswan07.github.io/youtubecopy/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/youtube_player) - [View in browser](https://javier-machin.github.io/youtube_player/)
@@ -101,7 +104,12 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Mike Smith's solution](https://github.com/MikeSS281986/YouTube-Clone-Page) - [View in browser](https://mikess281986.github.io/YouTube-Clone-Page/)
 * [Elena's solution](https://github.com/elena-sam/youtube-replica-project) - [View in browser](https://elena-sam.github.io/youtube-replica-project/)
 * [Punnadittr's solution](https://github.com/punnadittr/u-tube) - [View in browser](https://punnadittr.github.io/u-tube/)
+<<<<<<< HEAD
 * [Sam C's solution](https://github.com/JimmyNeutron8/youtube-clone) - [View in browser](https://jimmyneutron8.github.io/youtube-clone/)
+=======
+* [aznafro's solution](https://github.com/aznafro/youtube) - [View in browser](https://aznafro.github.io/youtube/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/youtube-video-page) - [View in browser](https://areebaishtiaq.github.io/youtube-video-page/)
+>>>>>>> 67881d04dc13284004d5682325486bef0a74aff7
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

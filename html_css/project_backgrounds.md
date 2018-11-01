@@ -19,6 +19,8 @@ In this project you'll clone the website of one of the most design-forward compa
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/apple.html)
+* [Chris MacSwan's solution](https://github.com/cmacswan07/apple_page) - [View in Browser](https://cmacswan07.github.io/apple_page/index.html)
 * [Javier Machin's solution](https://github.com/Javier-Machin/apple-site) - [View in Browser](https://javier-machin.github.io/apple-site/)
 * [Yakherder's solution](https://github.com/yakherder614/Apple-clone) - [View in Browser]( https://yakherder614.github.io/Apple-clone/)
 * [SarfrazAnjum's](https://github.com/SarfrazAnjum/TOP_Building-with-Backgrounds-and-Gradients) - [View in Browser](https://sarfrazanjum.github.io/TOP_Building-with-Backgrounds-and-Gradients/)
@@ -72,6 +74,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Mike Smith's solution](https://github.com/MikeSS281986/Old-School-Apple-Page) - [View in browser](https://mikess281986.github.io/Old-School-Apple-Page/)
 * [Elena's solution](https://github.com/elena-sam/css-backgrounds) - [View in browser](https://elena-sam.github.io/css-backgrounds/)
 * [Punnadittr's solution](https://github.com/punnadittr/apple-home) - [View in browser](https://punnadittr.github.io/apple-home/)
+* [aznafro's solution](https://github.com/aznafro/apple) - [View in browser](https://aznafro.github.io/apple/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/Apple-homepage) - [View in browser](https://areebaishtiaq.github.io/Apple-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

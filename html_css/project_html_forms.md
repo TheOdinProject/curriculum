@@ -19,7 +19,9 @@ The page is very straightforward, so you should be able to clone it even if your
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) or by editing [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_html_forms.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Bojana Karakacev's solution](https://github.com/bojana12/project-html-forms) - [View in browser](https://bojana12.github.io/project-html-forms/)
 * [rvalentin1010's solution](https://github.com/rvalentin1010/mint-signup) - [View in browser](https://rvalentin1010.github.io/mint-signup/)
+* [Qin's solution](https://github.com/hyathynth/mint) - [View in browser](https://hyathynth.github.io/mint/)
 * [OthmanAmoudi's solution](https://gist.github.com/OthmanAmoudi/f0a74e90f310c9295561671bc2f372c7) - [Fancy Form View in browser](https://codepen.io/theweeknd/pen/JBMrJv)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/login-form/blob/master/index.html) - [View in browser](https://cmacswan07.github.io/login-form/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Intuit_form) - [View in browser](https://javier-machin.github.io/Intuit_form/)
@@ -97,6 +99,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Mike Smith's solution](https://github.com/MikeSS281986/Intuit-Mint-Login-Page-Clone) - [View in Browser](https://mikess281986.github.io/Intuit-Mint-Login-Page-Clone/)
 * [Elena's solution](https://github.com/elena-sam/mint-signup-clone) - [View in Browser](https://elena-sam.github.io/mint-signup-clone/)
 * [Punnadittr's solution](https://github.com/punnadittr/mint-signup) - [View in Browser](https://punnadittr.github.io/mint-signup/)
+* [Khalal's solution](https://github.com/khalalwalker/mint) - [View in Browser](https://htmlpreview.github.io/?https://github.com/khalalwalker/mint/blob/master/index.html)
+* [aznafro's solution](https://github.com/aznafro/mintlogin) - [View in Browser](https://aznafro.github.io/mintlogin/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/Mint-signup) - [View in Browser](https://areebaishtiaq.github.io/Mint-signup/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
