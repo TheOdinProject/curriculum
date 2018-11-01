@@ -36,9 +36,9 @@ The key players in this story will be the `upstream` (the original Github reposi
 
 #### Ongoing Workflow
 
-We've got two main branches -- `master` and `dev`.  `master` is just for production-ready code.  Any code deployed to `master` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `dev` branch.  Pretend `master` doesn't even exist.
+We've got one main branch -- `master`.  `master` is for production-ready code.  Any code deployed to `master` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `master` branch.
 
-4. Create a new feature branch for whatever feature you want to build, using `$ git checkout -b your_feature_name`.  
+4. Create a new feature branch for whatever feature you want to build, using `$ git checkout -b your_feature_name`.
 5. Code, commit, code, commit, code, commit (see a pattern?)
 6. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `master` and `dev` branches are probably out of date.  Fetch the most updated copies of these using `$ git fetch upstream`.
 7. Type `$ git branch --all` to see a list of all the branches, including the ones that are normally hidden (e.g. the remote branches you just grabbed).  You should see `upstream/master` and `upstream/dev` among them.
