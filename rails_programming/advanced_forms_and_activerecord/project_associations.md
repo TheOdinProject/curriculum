@@ -145,6 +145,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Punnadittr's solution](https://github.com/punnadittr/private-events) - [View in browser](https://boiling-plains-19274.herokuapp.com/)
 * [Uy Bình's solution](https://github.com/uybinh/private_events_odin) - [View in browser](https://private-event-odin.herokuapp.com)
 * [Agon's solution](https://github.com/AgonIdrizi/private-events) - [View in browser](https://myprivateevents.herokuapp.com/)
+* [Malaika's Solution](https://github.com/malaikaMI/Event) - [View in browser](https://radiant-brook-99300.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
