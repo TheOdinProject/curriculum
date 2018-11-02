@@ -1723,7 +1723,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kelvin Otuya's Solution (Easy)](https://github.com/kelvinotuya/google-homepage) - [View in browser](https://kelvinotuya.github.io/google-homepage/)
 * [Vitaly Osipov's Solution (Easy)](https://github.com/vi7ali/google-homepage) - [View in browser](https://vi7ali.github.io/google-homepage/)
 * [JunJie19's Solution(Easy)](https://github.com/JunJie19/google-homepage) - [View in browser](https://github.com/JunJie19/google-homepage/)
-* [Tommy's Solution (Easy)](https://github.com/Tommyisr/google-homepage) - [View in Browser]https://tommyisr.github.io/google-homepage/)
+* [Tommy's Solution (Easy)](https://github.com/Tommyisr/google-homepage) - [View in Browser](https://tommyisr.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
