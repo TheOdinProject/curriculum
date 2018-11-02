@@ -39,21 +39,21 @@ If you're using a Mac you're in great shape.  Most professional developers rely 
 
 #### Linux
 
-Linux is a free operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better with Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available.
+Linux is a free operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better with Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available. If you don't use a Mac we recommend you use Linux. It's that simple.
 
-#### Windows 10 with Linux Subsystem
+#### Virtual Machines vs Dual Boots
 
-You're probably familiar with Windows for one reason or another. For many people it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, some languages (Ruby) have been created with the assumption that you will be developing them on a Unix based system and have not been easily made to run on Windows or require a large amount of work to get running correctly.
-
-Within the last few years a lot of progress has been made to make Windows a more developer friendly atmosphere. The Linux Subsystem for Windows (WSL) is now available in most Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on WSL is a perfectly viable option.
-
-#### Virtual Machines and Dual Boots
-
-Before the time of WSL there were Virtual Machines and Dual Boots. Virtual Machines installations that run on top of a base OS. They're simple to install and are risk-free. If you don't like linux you can easily remove the Virtual Machine. They are a great way for new developers to get their toes' wet without spending too much time getting set up.  In the long run, however, most people choose to dual boot.
+Virtual Machines are computers that run within your OS. They're as simple to install as any other program and are risk-free. If you don't like linux you can easily remove the Virtual Machine. They are a great way for new developers to get their toes' wet without spending too much time getting set up.
 
 Dual boots give you the option to boot into Linux or Windows when your computer first starts up.  The advantage to these over VMs is that the OS can use all of your computer's resources resulting in a much faster OS. There is some risk to installing a dual boot system because you're changing around your hard drive partitions, but the risk very low. Take your time and read the instructions and you'll be okay.
 
-Dual-booting is by far the preferred method for installation if you currently use Windows. It can be as easy as inserting a USB and clicking a few buttons. The benefits of dual-booting cannot be understated: You'll be allowing Linux to access the full capabilities of your hardware, have a clean and distraction free environment to do your work in, and be learning the platform used by many senior developers and servers around the world.
+Dual-booting can be as easy as inserting a USB and clicking a few buttons. The benefits of dual-booting cannot be understated: You'll be allowing Linux to access the full capabilities of your hardware, have a clean and distraction free environment to do your work in, and be learning the platform used by many senior developers and servers around the world.
+
+#### Windows 10 with Linux Subsystem
+
+You're probably familiar with Windows for one reason or another. For many people it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, some languages (Ruby) have been created with the assumption that you will be developing them on a Unix-based (Mac or Linux) system and have not been easily made to run on Windows.
+
+It is possible to develop with WSL but it is highly discouraged. You will end up with a lot of problems you'll spend hours on google trying to fix.  For your sanity, we recommend installing a Virtual Machine instead of using WSL.
 
 #### Online editors
 
