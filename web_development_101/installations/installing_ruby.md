@@ -214,8 +214,6 @@ rbenv init
 You should see the following after the command has run:
 
 ~~~bash
-[...]
-
 # Load rbenv automatically by appending 
 # the following to ~/.bash_profile: 
 
