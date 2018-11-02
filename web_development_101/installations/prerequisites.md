@@ -5,18 +5,14 @@ If you are already using __MacOS__ or __Linux__ already you can skip this sectio
 
 
 <details markdown="block">
-<summary class="dropDown-header">Virtual Machine with Linux
+<summary class="dropDown-header">Virtual Machine (Easiest)
 </summary>
 
 A Virtual Machine is the easiest and most reilable way of getting started with Web Development.  A Virtual Machine is simply an entire "computer" that runs inside of your current OS. The only drawback of a VM is that it can be slow because you're essentially running two computers at the same time, but there are things we will do to improve performance.
 
-### Requirements
-
-Before committing to the installation, make sure your computer meets the [requirements](https://www.virtualbox.org/wiki/End-user_documentation) to run a virtual machine, it doesn't hurt to take a look at your selected flavor of linux's requirements as well.
-
 ### Step 1: Downloads
 
-You have read through the introduction part and you feel like a VM is your best option? Your computer meets the minimum requirements? Great, let's get started then. This is a fairly simple process and only a few things could go wrong, we'll make sure to mention them. This guide uses Oracle's 'VirtualBox' program, it's open source, free and simple. What more can you ask of a piece of software? Now let's make sure we have everything downloaded and ready for installation:
+Installation of a VM is a simple process. This guide uses Oracle's 'VirtualBox' program to create and run the VM. It's open source, free and simple. What more can you ask of a piece of software? Now let's make sure we have everything downloaded and ready for installation:
 
 #### Step 1.1.1: Downloading Virtual Box
 
@@ -40,15 +36,15 @@ Now that you have Virtual Box installed, double click the icon and you should se
 
 Click on the 'New' button to create a virtual operating system. Find your operating system in the dropdown menu (Linux/Ubuntu) and name it as you wish. Continue by pressing next and choose the following options in the next steps:
 
-1. Memory size - Use 2048 MB or more if possible.  Ideally, this amount should be about half of your computers maximum. For example, if you have 8GB of RAM memory, allocate 4GB to your virtual operating system.
+  1. Memory size - Use 2048 MB or more if possible.  Ideally, this amount should be about half of your computers maximum. For example, if you have 8GB of RAM memory, allocate 4GB to your virtual operating system.
 
-2. Hard disk - Create a virtual hard disk
+  2. Hard disk - Create a virtual hard disk
 
-3. Hard disk file type - Choose the VDI (VirtualBox Disk Image) option
+  3. Hard disk file type - Choose the VDI (VirtualBox Disk Image) option
 
-4. Storage on physical hard disk - Dynamically allocated
+  4. Storage on physical hard disk - Dynamically allocated
 
-5. File location and size - We recommend at least 20GB for the virtual hard disk.
+  5. File location and size - We recommend at least 20GB for the virtual hard disk.
 
 After completing the last step, click the Create button. Your newly created virtual OS should be in the menu now. 
 
@@ -62,7 +58,7 @@ With all that complete, click __OK__ to save the changes.
 
 You can start the VM by right clicking on the icon in the menu and selecting Start then Normal Start.
 
-The next thing to do is Install Xubuntu. The process is very simple and most of the default options can be left like that including the Installation type which should be `Erase disk and install Ubuntu`. You will need to confirm this step. It may sound dangerous, but the VM can only see the "Hard Drive" you created above in step 2.2 #2-5. This is the beauty of VMs - the ability to separate the physical space of your computer across many VMs.
+When the VM starts up you'll be asked to install Xubuntu. The process is very simple and all of the default options can be left alone - including the Installation type ("Erase disk and install Ubuntu"). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs - the ability to separate the physical space of your computer across many VMs.
 
 The rest of the installation is pretty straightforward, but should you have any questions you can find Ubunutu's official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0).
 
@@ -106,7 +102,7 @@ First you will need to download the version of linux you wish to install onto yo
 
 Next you will create a bootable flash drive so you can install Ubuntu to your hard drive.
 
-Follow [this guide](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0) for instructions.
+Follow [this guide](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0) for instructions on how to create a bootable USB drive.
 
 Note: You can use this method to try out different [flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you would like. These images allow you to try the different flavors of Ubuntu without committing to an installation. Just note that because the OS is running from the USB drive it will be slow and can decrease the life of your USB drive.
 
@@ -120,20 +116,20 @@ First you will need to boot into Linux on your flash-drive. The exact steps may 
 * Reboot the computer
 * Select the flash drive as the bootable device instead of the hard drive
 
-For example, on a Dell computer you will need to plug in the USB drive, reboot the computer and press the F12 key when the computer is first booting up to bring up the boot menu. From here you can select your USB drive and boot from that.  Your computer may not be the same, so google will be your friend in trying to figure it out.
+For example, on a Dell computer you would need to plug in the USB drive, reboot the computer and press the F12 key when the computer is first booting up. This brings up the boot menu. From there you can select your USB drive to boot from.  Your computer may not be the same, so google will be your friend in trying to figure it out.
 
 #### Step 3.1: Installing Ubuntu
 
-If you would like to play with the version of Ubuntu you installed on the flash drive, click 'try me' instead of 'install'. When you have found a flavor of Ubuntu you like, continue to the next step.
+If you would like to play with the version of Ubuntu you installed on the flash drive, click 'try me' instead of 'install'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step.
 
-The installation of Ubuntu is where the real changes start happening to your computer. The default settings are mostly perfect, but be sure to "__Install Ubuntu alongside Windows__" and change is the allocated disk space allowed for Linux. 30 GB or more if you can.
+The installation of Ubuntu is where the real changes start happening to your computer. The default settings are mostly perfect, but be sure to "__Install Ubuntu alongside Windows__" and change is the allocated disk space allowed for Linux to 30 GB (or more if you can).
 
 For step by step instructions please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
 
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Windows 10 Windows Subsystem for Linux
+<summary class="dropDown-header">Windows 10 WSL (Not Recommended)
 </summary>
 
 Microsoft has recently made a shift to embrace open source and support developers. One of the biggest things they did with Windows 10 was introduce the Windows Subsystem for Linux (WSL) which is a linux command line within Windows. Of course there are a couple minor adjustments you need to make, but once you have it up and running, you can essentially follow the Ubuntu instructions.

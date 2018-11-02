@@ -20,7 +20,7 @@ In the next few lessons we will be:
 
 It may seem like a lot of steps, but we'll get through it as painlessly as possible together! And, if anything goes wrong, always remember to follow these steps:
 
-* Parse the error message for the actual error.
+* Parse the terminal output for the actual error.
 * Google, Google, Google.
 * Never be afraid to ask for help!
 
