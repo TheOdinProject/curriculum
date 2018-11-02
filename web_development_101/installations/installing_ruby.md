@@ -128,7 +128,7 @@ which should return ruby 2.5.3:
 ruby 2.5.3p57 (2018-03-29 revision 63029) [x86_64-linux]
 ~~~
 
-Well Done! Pat yourself on the back. The hard part is done!
+Well Done! Pat yourself on the back. The hard part is done! Go ahead and move on to the next lesson!
 
 </details>
 
@@ -253,5 +253,7 @@ We can double check our work by typing `ruby -v` and checking the output for ver
 $ ruby -v
 ruby 2.5.3p82 (2018-09-12)
 ~~~
+
+Way to go!  With Ruby installed it should be smooth sailing from here on out.
 
 </details>
