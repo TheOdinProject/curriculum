@@ -1,14 +1,14 @@
 <!-- This lesson will cover how to output things to the screen in Ruby and how to get input from the user. -->
 
 ### Introduction
-When we execute a computer program in Ruby Programming Language, most of the times it is required to either **output** or **input** a piece of information to a computer screen.
-For example, we may need to print (output) the information regarding a value of a number, your first and/or last name, etc. to the terminal. In contrast, we may require from the user to provide (input) the necessary information from the user screen (via using the keyboard) regarding e.g. a number (age), a small text (family’s name) etc.
+To create programs that are user friendly and interactive you'll need to know how to **output** data to a screen and how to get **input** from a user. We'll cover the most common ways to achieve these tasks in Ruby programming language during this lesson !
 
 ### Learning Outcomes
-* How can I produce an *input* ?
-* How can I produce an *output* ?
+* What is the method name you can use to get **input** from the user?
+* What are the two methods we can use to **output** data to the users' screen?
 * What is the basic syntax and use of the input commands: *print*, *puts*, *gets*
-* What is the difference in output commands (*puts* /*print*) suggested?
+* What is the difference between *puts* and *print* commands?
+
 
 ### Output Commands
 * In order to output the information we want we shall use the **print** command !	
@@ -28,7 +28,7 @@ puts "hey I want 2 lemonades"
 #=> hey I want 2 lemonades
 x = "My name is ALEX :)"
 puts x
-   #=> My name is ALEX :)
+#=> My name is ALEX :)
 ```
 The **puts** command has similar behavior with **print** command BUT it adds a new line at the end of each argument (we shall see the difference more extensively regarding these commands when we study about arrays and how to display them properly).
 More specifically, pay attetion to the following examples and their outputs :
