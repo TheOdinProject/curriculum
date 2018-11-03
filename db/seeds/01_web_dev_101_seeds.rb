@@ -152,6 +152,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Installing Ruby",
+  title_url: "Installing Ruby".parameterize,
+  description: "Let's get started with installing Ruby!",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/installations/installing_ruby.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Your First Rails Application",
   title_url: "Your First Rails Application".parameterize,
   description: "Time to dig in by making your first Rails Application",
