@@ -7,64 +7,62 @@ For example, we may need to print (output) the information regarding a value of 
 ### Learning Outcomes
 * How can I produce an *input* ?
 * How can I produce an *output* ?
-* What is the basic syntax and use of the commands: *print*, *puts*, *gets*
-* What is the difference in input commands (*puts* /*print*) suggested?
+* What is the basic syntax and use of the input commands: *print*, *puts*, *gets*
+* What is the difference in output commands (*puts* /*print*) suggested?
 
-### Syntax of Basic Commands
+### Output Commands
 * In order to output the information we want we shall use the **print** command !	
 ```ruby
-print "Learning to code is FUN!" #=> will output to our screen the text Learning to code is FUN!
+print "Learning to code is FUN!" #=> Learning to code is FUN!
 ```
 ```ruby
-print "1234" #=> will print to our screen the text 1234
+print "1234" #=> 1234
 ```
 
 * In order to output the information we want we can also use the **puts** command !	
 ```ruby
-puts "Learning to code is cool!!" #=> will output to our screen the text Learning to code is cool!!
+puts "Learning to code is cool!!" #=> Learning to code is cool!!
 ```
 ```ruby
 puts "hey I want 2 lemonades" 
-#=> will output to our screen the text hey I want 2 lemonades
+#=> hey I want 2 lemonades
 x = "My name is ALEX :)"
 puts x
-   #=> will output to our screen the variable named x in which we have stored the text My name is ALEX :)
+   #=> My name is ALEX :)
 ```
-
-* In order to input some information from the user we can use **gets** command!
-```ruby
-y = gets   
-#=> on our command line the program is waiting for user input. E.g. if we type blue sky and press enter
-puts y  
-#=> The output will be blue sky
-#=> will output to our screen the variable named y which has stored the user input (as a text). 
-```
-#### Differences betwenn Basic Commands
-
-Some differences between each command:
-
-1. From the above mentioned examples we can see that for Ruby there is not a difference while declaring a text to have it enclosed between `"` or `'` (single or double quote symbol).
-
-2. We declare a string/text with single or double quote but when we select to output it to the user screen the quotes are not included because they are used to define the text between them.
-
-3. The **puts** command as we shall see later on has similar behavior with **print** command BUT it adds a new line at the end of each argument (we shall see the difference more extensively regarding these commands when we study about arrays and how to display them properly)
+The **puts** command has similar behavior with **print** command BUT it adds a new line at the end of each argument (we shall see the difference more extensively regarding these commands when we study about arrays and how to display them properly).
+More specifically, pay attetion to the following examples and their outputs :
 
 * **E.g. 1**
  ```ruby
 print "Hello World"
 print "I love drinking coffee"
-#=> will output to our screen Hello WorldI love drinking coffee
+#=> Hello WorldI love drinking coffee
 ``` 
  * **E.g.2**
 ```ruby 
 puts "Hello World"
 puts "I love drinking coffee"
-#=> will output to our screen the following
 #=> Hello World
 #=> I love drinking coffee
 ```
+*Attention:* we declare a string/text with single or double quote but when we select to output it to the user screen the quotes are not included because they are used to define the text between them.
 
-*BEWARE*: all of the above commands are what we call Case Sensitive. This basically means that our computer (compiler) strictly considers print, gets and puts command in THIS TEXT FORMAT  and NOT ANY OTHER. For example, the computer will not execute our commands if we type Print, PRInt,  Gets, getS, pUts etc...
+### Input Commands
+* In order to input some information from the user we can use **gets** command!
+. When we use the gets command, the program execution will stop and wait for a user's input. This is achieved by displaying a cursor to the user's terminal so as to type the input value. After the user types something he MUST press enter (or return) in order for the program to continue it's execution!
+
+* Let's say for the sake of our example that the user types blue sky and then press enter
+```ruby
+input = gets   
+puts input  
+#=> blue sky
+```
+So the programm above will output to our screen the variable named *input* which has stored the user input (as a text), in this case: "blue sky". 
+
+
+### BEWARE
+All of the above commands are what we call Case Sensitive. This basically means that our computer (compiler) strictly considers print, gets and puts command in THIS TEXT FORMAT  and NOT ANY OTHER. For example, the computer will not execute our commands if we type Print, PRInt,  Gets, getS, pUts etc...
 
 
 ### Assignment
