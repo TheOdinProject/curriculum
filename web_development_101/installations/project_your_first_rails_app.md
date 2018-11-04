@@ -198,7 +198,7 @@ First we'll open [GitHub.com](https://github.com/) in the browser and sign in (i
 
 On the next page you'll see a bunch of commands listed. We're really only interested in the SSH url at the top so double check the `SSH` has been selected and copy the url.
 
-We'll move back to the terminal to connect the project and Github by running one simple command:
+We'll move back to the terminal to connect the project and Github by running two simple commands:
 
 ~~~bash
 git remote add origin <SSH URL from Above>
