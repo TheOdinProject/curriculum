@@ -88,6 +88,12 @@ In the previous steps we've installed Ruby and now it's time to install Ruby on 
 gem install rails
 ~~~
 
+We'll also need to install `bundler`. Run this command:
+
+~~~bash
+gem install bundler
+~~~
+
 #### Step 2.2: Setting up the ground-work
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like! 
