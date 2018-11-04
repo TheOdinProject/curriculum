@@ -1724,6 +1724,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Vitaly Osipov's Solution (Easy)](https://github.com/vi7ali/google-homepage) - [View in browser](https://vi7ali.github.io/google-homepage/)
 * [JunJie19's Solution(Easy)](https://github.com/JunJie19/google-homepage) - [View in browser](https://github.com/JunJie19/google-homepage/)
 * [Tommy's Solution (Easy)](https://github.com/Tommyisr/google-homepage) - [View in Browser](https://tommyisr.github.io/google-homepage/)
+* [zeljk0farm's Solution (Easy)](https://github.com/zeljk0farm/google-homepage) - [View in Browser](https://zeljk0farm.github.io/google-homepage/)
+* [zeljk0farm's Solution (Difficult)](https://github.com/zeljk0farm/google-search-results) - [View in Browser](https://zeljk0farm.github.io/google-search-results/)
 * [Eden's Solution (Easy)](https://github.com/TheEdenProject/google-homepage) - [View in Browser](https://theedenproject.github.io/google-homepage/)
 
 ### Additional Resources
