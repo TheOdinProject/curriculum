@@ -241,3 +241,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Brian E's Solution](https://github.com/bribrah/etch-a-skecth)- [View in Browser](https://bribrah.github.io/etch-a-skecth/)
 * [Ghassan's Solution](https://github.com/gt001/TOP-etch-a-sketch)- [View in Browser](https://gt001.github.io/TOP-etch-a-sketch/)
 * [TNHarvey's Solution](https://github.com/tnharvey/Etch-a-Sketch)- [View in Browser](https://tnharvey.github.io/Etch-a-Sketch)
+* [Eden's Solution](https://github.com/TheEdenProject/Etch-A-Sketch)- [View in Browser](https://theedenproject.github.io/Etch-A-Sketch/)
+
