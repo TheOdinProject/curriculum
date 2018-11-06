@@ -56,6 +56,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/Growlither) - [View in Browser](https://growlithe.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-facebook) - [View in Browser](https://vast-springs-17117.herokuapp.com/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Life-Invader) - [View in Browser](https://life-invader-fb.herokuapp.com/)
 * [szib's solution](https://github.com/szib/odinbook) - [View in Browser](https://mysterious-retreat-45234.herokuapp.com/)
@@ -108,6 +109,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [DV's solution](https://github.com/dvislearning/odin-facebook) - [View in browser](https://fast-earth-56311.herokuapp.com/)
 * [Scott McKell's solution](https://github.com/zottwickel/odin-facebook) - [View in browser](https://zottwickel-odin-facebook.herokuapp.com/)
 * [Punnadittr's solution (Bootstrap4, Ajax, Active Storage & Mobile Support)](https://github.com/punnadittr/festbrooke) - [View in browser](https://festbrooke.herokuapp.com)
+* [Agon's solution](https://github.com/AgonIdrizi/socialize) - [View in browser](https://socializeer.herokuapp.com/about)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

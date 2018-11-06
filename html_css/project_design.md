@@ -31,6 +31,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/smashing.html)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/design_teardown) - [View in Browser](https://cmacswan07.github.io/design_teardown/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/design-teardown) - [View in Browser](https://javier-machin.github.io/design-teardown/)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Design-Teardown) - [View in Browser](https://sarfrazanjum.github.io/TOP_Design-Teardown/)
@@ -61,6 +62,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/design-teardown) - [View in browser](https://adoniasdantas.github.io/design-teardown/)
 * [huseins's solution](https://github.com/hosghf/Design-html-css) - [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/blob/master/teardown/) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/teardown/index.html)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

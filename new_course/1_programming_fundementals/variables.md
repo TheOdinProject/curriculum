@@ -126,3 +126,4 @@ johns_location #=> "BARCELONA"
 * To dive deeper into how variables point to memory locations on your computer, go through these couple of short sections:
   * [Variables as pointers from Introduction To Programming with Ruby by Launch School](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers)
   * [A visual Guide to how Variables work from the Variables chapter in The Bastards Book of Ruby](http://ruby.bastardsbook.com/chapters/variables/#visual-guide)
+* If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it, just remember that it's there.
