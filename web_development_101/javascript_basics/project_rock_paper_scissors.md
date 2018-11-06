@@ -376,3 +376,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DaveAlexander's Solution](https://github.com/davealexander/rockpaperscissors) - [View in Browser](https://davealexander.github.io/rockpaperscissors/)
 - [Andrea Diotallevi's Solution](https://github.com/AndreaDiotallevi/rock_paper_scissors)
 - [TheEdenProject's Solution](https://github.com/TheEdenProject/rock-paper-scissors) - [View in Browser](https://theedenproject.github.io/rock-paper-scissors/)
+- [Doris's solution](https://github.com/dsmchen/rock-paper-scissors)
