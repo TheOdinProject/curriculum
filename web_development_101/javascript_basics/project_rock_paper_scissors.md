@@ -343,3 +343,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dhairya's Solution](https://github.com/dhairyadwivedi/rock-paper-scissors) - [View in Browser](https://dhairyadwivedi.github.io/rock-paper-scissors/)
 - [Stevie P's solution](https://voxpolly27.github.io/Rock-Paper-Scissors/)
 - [aznafro's Solution](https://github.com/aznafro/rockpaperscissors) - [View in Browser](https://aznafro.github.io/rockpaperscissors/)
+- [Doris's solution](https://github.com/dsmchen/rock-paper-scissors)
