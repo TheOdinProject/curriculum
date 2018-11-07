@@ -40,9 +40,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-<<<<<<< HEAD
 * [learnsometing's Solution](https://github.com/learnsometing/etchASketch) - [View in Browser](https://learnsometing.github.io/etchASketch/)
-=======
 * [Stefano Merazzi's Solution](https://github.com/ste001/etch-a-sketch) - [View in browser](https://ste001.github.io/etch-a-sketch/)
 * [Barry's Solution](https://github.com/barry505/Etch-A-Sketch) - [View in browser](https://barry505.github.io/Etch-A-Sketch/)
 * [Alptekin's solution](https://github.com/alpwoo/Etch-a-Sketch) - [View in browser](https://alpwoo.github.io/EtchASketch/)
@@ -50,7 +48,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Victor's Solution](https://github.com/victor-lf/etch-a-sketch) - [View in Browser](https://victor-lf.github.io/etch-a-sketch/)
 * [Colton Shaheen's Solution](https://github.com/coltonshaheen/etch-a-sketch) - [View in Browser](https://coltonshaheen.github.io/etch-a-sketch/)
 * [AlexandreLeFou's Solution](https://github.com/AlexandreLeFou/ETCH-A-SKETCH-Project) - [View in Browser](https://alexandrelefou.github.io/ETCH-A-SKETCH-Project/)
->>>>>>> 83f3afffb7299fb2bebe78678f116cc4bb206269
 * [Nathan's Solution](https://github.com/nwthomas/etch-a-sketch) - [View in Browser](https://nwthomas.github.io/etch-a-sketch/)
 * [Wabbajack0's Solution](https://github.com/Wabbajack0/ETCH-A-SKETCH) - [View in Browser](https://wabbajack0.github.io/ETCH-A-SKETCH/)
 * [Lucas's Solution](https://github.com/ogdendavis/rainbow-drawing) - [View in Browser](https://ogdendavis.github.io/rainbow-drawing/)
