@@ -333,7 +333,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Husseyexplores' solution](https://github.com/husseyexplores/rails-blogger) - [View in browser](https://husseyblogapp.herokuapp.com/)
 * [bchalman's Solution](https://github.com/bchalman/Rails-Blogger) - [View in browser](https://shrouded-fortress-23699.herokuapp.com/)
 * [wuaangela's Solution](https://github.com/wuaangela/ROR_blogger) - [View in browser](https://desolate-everglades-27885.herokuapp.com/)
-* [Ghassan's Solution](https://github.com/GT001/TheOdinProject-RubyonRails-Blogger) - [View in browser](https://vast-harbor-87818.herokuapp.com/
+* [Ghassan's Solution](https://github.com/GT001/TheOdinProject-RubyonRails-Blogger) - [View in browser](https://vast-harbor-87818.herokuapp.com/)
 
 
 ### Additional Resources
