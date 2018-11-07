@@ -52,3 +52,4 @@ You will need node and npm installed. I personally prefer to use [nvm](https://g
 
 - Angular have their [own tutorial](https://angular.io/tutorial) you can try
 - [This blog](https://www.telerik.com/blogs/whats-new-in-angular-6) explains whats new in Angular 6
+- These 33 free [interactive screencasts](https://scrimba.com/g/gyourfirstangularapp) by Dan Wahlin to take you from beginner to advanced to help you gain a solid understanding of the Angular framwework.

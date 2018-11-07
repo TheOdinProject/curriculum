@@ -42,3 +42,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
 * [Natashatherobot's blog post on Recursion in Ruby](http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
 * [Functional Programming Techniquest with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top
+* [CS50 explanation of recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM)
