@@ -92,7 +92,7 @@ gem install rails
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like! 
 
-If you are on WSL, be sure to `cd` into your `Projects` folder.
+**If you are on WSL, you MUST `cd` into your `Projects` folder to avoid issues**
 
 ~~~bash
 mkdir odin_on_rails
