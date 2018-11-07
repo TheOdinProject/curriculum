@@ -22,9 +22,11 @@ We're making a Tic Tac Toe game you can play in your browser!
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/tic-tac-toe-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [Max Garber's Solution](https://github.com/bubblebooy/Odin-Javascript) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/ticTacToe.html)
 - [Nate Dimock's Solution](https://github.com/Flakari/tic-tac-toe) - [View in Browser](https://flakari.github.io/tic-tac-toe/)
 - [scarey18's solution (with unbeatable ai)](https://github.com/scarey18/unbeatable-tic-tac-toe) - [View in Browser](https://scarey18.github.io/unbeatable-tic-tac-toe/)
 - [Javier Machin's solution](https://github.com/Javier-Machin/js-tic-tac-toe) - [View in browser](https://javier-machin.github.io/js-tic-tac-toe/)
+- [Qin's solution](https://github.com/hyathynth/TicTacToe) - [View in browser](https://hyathynth.github.io/TicTacToe/)
 - [leosoaivan's solution](https://github.com/leosoaivan/js-tictactoe) - [View in browser](http://leosoaivan.com/js-tictactoe)
 - [nmac's solution (with minimax)](https://github.com/nmacawile/js-tic-tac-toe) - [Game](https://htmlpreview.github.io/?https://github.com/nmacawile/js-tic-tac-toe/blob/master/index.html)
 - [Johan Morin's Solution](https://github.com/MorrisMalone/tic-tac-toe) - [View in Browser](https://morrismalone.github.io/tic-tac-toe/)
@@ -46,3 +48,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Uy Bình's solution](https://github.com/uybinh/tic_tac_toe_web) - [View in browser](https://uybinh.github.io/tic_tac_toe_web/)
 - [Punnadittr's solution](https://github.com/punnadittr/js_tictactoe) - [View in browser](https://punnadittr.github.io/js_tictactoe/)
 - [Heyalvaro's solution](https://github.com/heyalvaro/tictactoe.js) - [View in browser](http://heyalvaro.com/tictactoe.js)
+- [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/js_tic_tac_toe) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/js_tic_tac_toe/index.html)
+- [Alexfuro's Solution](https://github.com/alexfuro/odin_tic_tac_toe) - [View in Browser](https://alfuro-tic-tac-toe.netlify.com/)

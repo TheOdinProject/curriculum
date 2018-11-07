@@ -86,6 +86,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * HSaad's solutions ([Caesar Cipher](https://github.com/HSaad/ruby-building-blocks/tree/master/ceasar-cipher), [Enumerable Methods](https://github.com/HSaad/enumerable), [Tic Tac Toe](https://github.com/HSaad/tic-tac-toe))
 * zasman's solutions([Caesar Cipher](https://github.com/ZASMan/caesar_cipher))
 * [Punnadittr's solutions](https://github.com/punnadittr/rspec_projects)
+* Tommy's solution ([Caesar Cipher, Enumerable](https://github.com/hoangtommy/rubyExercises), [Tic Tac Toe](https://github.com/hoangtommy/tic-tac-toe))
 
 ### Project: TDD Connect Four
 

@@ -23,6 +23,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/first_blog_app) - [View in browser](https://warm-dusk-34129.herokuapp.com/articles)
 * [jinja's solution](https://github.com/jinjagit/blogger) - [View in browser](https://murmuring-falls-90745.herokuapp.com)
 * [Hummeldon's Solution](https://github.com/hummeldon/jumpstart_lab_blog_tutorial) - [View in browser](https://shielded-escarpment-39617.herokuapp.com/)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/blogger) - [View in browser](https://lit-sea-47587.herokuapp.com)
@@ -331,6 +332,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's solution](https://github.com/imemdm/blogger) - [View in browser](https://ancient-shore-12666.herokuapp.com/)
 * [Husseyexplores' solution](https://github.com/husseyexplores/rails-blogger) - [View in browser](https://husseyblogapp.herokuapp.com/)
 * [bchalman's Solution](https://github.com/bchalman/Rails-Blogger) - [View in browser](https://shrouded-fortress-23699.herokuapp.com/)
+* [wuaangela's Solution](https://github.com/wuaangela/ROR_blogger) - [View in browser](https://desolate-everglades-27885.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

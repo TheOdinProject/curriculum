@@ -39,11 +39,14 @@ Here are some use cases (abilities your project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-
+- [Stefano Merazzi's Solution](https://github.com/ste001/calculator) - [View In Browser](https://ste001.github.io/calculator/)
+- [Colton Shaheen's Solution](https://github.com/coltonshaheen/calculator) - [View in Browser](https://coltonshaheen.github.io/calculator/)
+- [BeanFeast's Solution](https://github.com/BeanFeast2/calculator-app) - [View in Browser](https://beanfeast2.github.io/calculator-app/)
+- [Bojo's Solution](https://github.com/BojoZahariev/Calculator) - [View in Browser](https://bojozahariev.github.io/Calculator/)
 - [Wabbajack0's Solution](https://github.com/Wabbajack0/calculator) - [View in Browser](https://wabbajack0.github.io/calculator/)
 - [Lucas's Solution](https://github.com/ogdendavis/calculator) - [View in Browser](https://ogdendavis.github.io/calculator/)
 - [Waris's Solution](https://github.com/warisz/calculator-gui) - [View in Browser](https://cdn.rawgit.com/warisz/calculator-gui/530cc7dd/index.html)
-- Roman Alenskiy's Solution (responsive, mobile) [Github](https://github.com/Roman-Alenskiy/calculator) / [Live](https://roman-alenskiy.github.io/calculator/)
+- [Roman Alenskiy's Solution (responsive, mobile)](https://github.com/Roman-Alenskiy/calculator) - [View in Browser](https://roman-alenskiy.github.io/calculator/)
 - [Trevor's Solution](https://github.com/trevorsinnott/calculator) - [View in Browser](https://trevorsinnott.github.io/calculator/)
 - [Ochuko's Solution](https://github.com/ochuko56/calculator) - [View in Browser](https://ochuko56.github.io/calculator/)
 - [Tobenski's Solution](https://github.com/tobenski/calculator) - [View in Browser](https://tobenski.github.io/calculator/)
@@ -169,3 +172,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [themetar's solution](https://github.com/themetar/calculator) - [View in browser](https://themetar.github.io/calculator/)
 - [aznafro's solution](https://github.com/aznafro/calc) - [View in browser](https://aznafro.github.io/calc/)
 - [RTViner's solution](https://github.com/rtviner/JScalculator) - [View in browser](https://rtviner.github.io/JScalculator/)
+- [IvanaGoSt's Solution](https://github.com/IvanaGoSt/Calculator-2) - [View in Browser](https://ivanagost.github.io/Calculator-2/)
+- [Edgar Miranda's Solution](https://github.com/ejmiranda/calculator) - [View in Browser](https://ejmiranda.github.io/calculator/)
+- [Alexfuro's Solution](https://github.com/alexfuro/TOPcalculator) - [View in Browser](https://topcalculator.netlify.com/)
+- [Slaven Karamatic's Solution](https://github.com/Everdrought/js-calculator) - [View in Browser](https://everdrought.github.io/js-calculator/)
+- [Ghassan's Solution](https://github.com/GT001/TheOdinProject-Calculator) - [View in Browser](https://gt001.github.io/TheOdinProject-Calculator/)

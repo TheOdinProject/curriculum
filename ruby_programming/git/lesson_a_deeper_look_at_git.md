@@ -46,3 +46,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * Watch [Get Going from Pro Git](http://git-scm.com/video/get-going) if you'd like a refresher of things.
 * Read [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
+* Watch [Using Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example on how to use both rebase and merge.

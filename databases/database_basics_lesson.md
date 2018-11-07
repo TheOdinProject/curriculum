@@ -18,8 +18,6 @@ Look through these now and then use them to test yourself after doing the assign
 * Why is the idea of "CRUD" so important for web apps?
 * How do you get all the records from a table in SQL?
 * How do you insert a record in SQL?
-* What is a primary key?
-* What is a foreign key?
 
 ### Assignment
 
