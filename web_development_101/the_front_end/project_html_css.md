@@ -27,12 +27,12 @@ If you do not know how to setup a repository, follow the instructions found in [
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository onto your local machine. The command should look like: `git clone https://github.com/YourUserName/google-homepage`
-4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to revise what you have learned.)
+4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
 5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
-If you are having trouble, refer to:
-* The [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
-* Revise the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
+If you are having trouble:
+  * Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
+  * Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
