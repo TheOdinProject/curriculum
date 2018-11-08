@@ -1713,7 +1713,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [WormCrew's Solution (Easy)](https://github.com/WormCrew/google-homepage) - [View it in browser](https://wormcrew.github.io/google-homepage/)
 * [Caleb Rauscher's Solution (Easy)](https://github.com/calebrauscher/google-homepage) - [View it in browser](https://calebrauscher.github.io/google-homepage/) 
 * [Caleb Rauscher's Solution (Difficult)](https://github.com/calebrauscher/google-results) - [View in in browser](https://calebrauscher.github.io/google-results/)
-* [Suka's Solution (Easy)](https://github.com/addisuka25/google-homepage) - [View it in browser](https://addisuka25.github.io/google-homepage/)
+* [George Suka's Solution (Easy)](https://github.com/addisuka25/google-homepage) - [View it in browser](https://addisuka25.github.io/google-homepage/)
 * [mwk913's Solution (Easy)](https://github.com/mwk913/Google-homepage) - [View it in browser](https://mwk913.github.io/Google-homepage/)
 * [Alexfuro's solution (Easy)](https://github.com/alexfuro/google-homepage) - [View in browser](https://alexfuro.github.io/google-homepage/)
 * [Krzysztof solution (Easy)](https://github.com/aliveczesiu/Project-HTML-CSS)
@@ -1731,7 +1731,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mrchip2k's Solution (Easy)](https://github.com/mrchip2k/google-homepage) - [View in Browser](https://mrchip2k.github.io/google-homepage/)
  [Dwayne Clarke's Solution (Easy)](https://github.com/DwayneC93/google-homepage) - [View in Browser](https://dwaynec93.github.io/google-homepage/)
  * [kody59527's Solution (Easy)](https://github.com/kody59527/google-homepage) - [View in Browser](https://kody59527.github.io/google-homepage/)
-
+* [George Suka's Solution (Difficult)](https://github.com/addisuka25/google-results) - [View in Browser](https://addisuka25.github.io/google-results/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
