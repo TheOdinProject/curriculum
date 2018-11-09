@@ -1733,6 +1733,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [kody59527's Solution (Easy)](https://github.com/kody59527/google-homepage) - [View in Browser](https://kody59527.github.io/google-homepage/)
 * [George Suka's Solution (Difficult)](https://github.com/addisuka25/google-results) - [View in Browser](https://addisuka25.github.io/google-results/)
 * [Santiago Fernandez's Solution (Easy)](https://github.com/cenybar/google-homepage) - [View in Browser](https://cenybar.github.io/google-homepage/)
+* [Tanya Walsh's Solution (Easy)] (https://github.com/UnrestCure/google-homepage) - [View in Browser]
+(https://unrestcure.github.io/google-homepage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
