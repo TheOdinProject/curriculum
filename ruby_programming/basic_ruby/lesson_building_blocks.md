@@ -102,7 +102,7 @@ Look through these now and then use them to test yourself after doing the assign
 <div class="lesson-content__panel" markdown="1">
 
   1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
-  2. Do the full [Codecademy Introduction to Ruby section](http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1) from their [Ruby Track](http://www.codecademy.com/tracks/ruby).
+  2. Do the full [Codecademy Introduction to Ruby section](https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-ruby/exercises/overview--sneak-peek?action=resume_content_item) from their [Ruby Track](https://www.codecademy.com/learn/learn-ruby).
   3. Read [Beginning Ruby](https://books.google.com/books?id=VCQGjDhhbn8C&lpg=PA27&pg=PA13#v=onepage&q&f=false) Chapter 2: `Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation`
   4. Read [Beginning Ruby](https://books.google.com/books?id=VCQGjDhhbn8C&lpg=PA27&pg=PA31#v=onepage&q&f=false) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 29-46 (only the section on Numbers and Expressions and the section on Text and Strings)
   5. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
