@@ -27,12 +27,12 @@ If you do not know how to setup a repository, follow the instructions found in [
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository onto your local machine. The command should look like: `git clone https://github.com/YourUserName/google-homepage`
-4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to revise what you have learned.)
+4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
 5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
-If you are having trouble, refer to:
-* The [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
-* Revise the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
+If you are having trouble:
+  * Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
+  * Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
@@ -94,6 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Origier's Solution (Difficult)](https://github.com/Origier/google_result) - [View in Browser](https://origier.github.io/google_result/)
+* [Origier's Solution (Easy)](https://github.com/Origier/google-home) - [View in Browser](https://origier.github.io/google-home/)
 * [Adrian Samagalski's Solution (Difficult)](https://github.com/smagi1709/google-search-result-page) - [View in Browser](https://smagi1709.github.io/google-search-result-page)
 * [Adrian Samagalski's Solution (Easy)](https://github.com/smagi1709/google-homepage) - [View in Browser](https://smagi1709.github.io/google-homepage)
 * [Joe Vilasi's Solution (Easy)](https://github.com/Vilasi/google-homepage) - [View in Browser](https://vilasi.github.io/google-homepage/)
@@ -1346,7 +1348,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alexa Kucera's Solution (Easy)](https://github.com/alexakucera/google-homepage) - [View in Browser](https://alexakucera.github.io/google-homepage/)
 * [Alin Simion's Solution (Easy)](https://github.com/alinsg/google-homepage) - [View in Browser](https://alinsg.github.io/google-homepage/)
 * [Maria Tikhonova's solution (Easy)](https://github.com/MariaTikhonova/google-homepage) - [View in Browser](https://MariaTikhonova.github.io/google-homepage/)
-* [Joe Himes's solution (Easy)](https://github.com/deedle42/google-homepage)
+* [Joe Himes's solution (Easy)](https://github.com/deedle42/google-homepage) - [View in Browser](https://deedle42.github.io/google-homepage/)
 * [Steve Yankson's solution (Easy)](https://github.com/samoaning/google_homepage_mimic) - [View in Browser](https://samoaning.github.io/google_homepage_mimic/)
 * [Maxim Borodin's Solution (Easy & Difficult)](https://github.com/ToSPP/google-homepage) - [View in Browser (Easy)](https://ToSPP.github.io/google-homepage/) - [View in Browser (Difficult)](https://ToSPP.github.io/google-homepage/search-result.html)
 * [Matthew Booth's Solution (Easy)](https://github.com/MJBooth1989/google-homepage) - [View in Browser (Easy)](https://MJBooth1989.github.io/google-homepage/)
@@ -1711,11 +1713,27 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [WormCrew's Solution (Easy)](https://github.com/WormCrew/google-homepage) - [View it in browser](https://wormcrew.github.io/google-homepage/)
 * [Caleb Rauscher's Solution (Easy)](https://github.com/calebrauscher/google-homepage) - [View it in browser](https://calebrauscher.github.io/google-homepage/) 
 * [Caleb Rauscher's Solution (Difficult)](https://github.com/calebrauscher/google-results) - [View in in browser](https://calebrauscher.github.io/google-results/)
-* [Suka's Solution (Easy)](https://github.com/addisuka25/google-homepage) - [View it in browser](https://addisuka25.github.io/google-homepage/)
+* [George Suka's Solution (Easy)](https://github.com/addisuka25/google-homepage) - [View it in browser](https://addisuka25.github.io/google-homepage/)
 * [mwk913's Solution (Easy)](https://github.com/mwk913/Google-homepage) - [View it in browser](https://mwk913.github.io/Google-homepage/)
 * [Alexfuro's solution (Easy)](https://github.com/alexfuro/google-homepage) - [View in browser](https://alexfuro.github.io/google-homepage/)
 * [Krzysztof solution (Easy)](https://github.com/aliveczesiu/Project-HTML-CSS)
 * [Colin Frame's Solution (Easy)](https://github.com/Colinek/google-homepage) - [View in browser](https://colinek.github.io/google-homepage/)
+* [Stefano Merazzi's Solution (Easy)](https://github.com/ste001/google-homepage) - [View in browser](https://ste001.github.io/google-homepage/)
+* [David Teulieres's Solution (Easy)](https://github.com/riphidon/google-homepage) - [View in browser](https://riphidon.github.io/google-homepage/)
+* [Kelvin Otuya's Solution (Easy)](https://github.com/kelvinotuya/google-homepage) - [View in browser](https://kelvinotuya.github.io/google-homepage/)
+* [Vitaly Osipov's Solution (Easy)](https://github.com/vi7ali/google-homepage) - [View in browser](https://vi7ali.github.io/google-homepage/)
+* [JunJie19's Solution(Easy)](https://github.com/JunJie19/google-homepage) - [View in browser](https://github.com/JunJie19/google-homepage/)
+* [Tommy's Solution (Easy)](https://github.com/Tommyisr/google-homepage) - [View in Browser](https://tommyisr.github.io/google-homepage/)
+* [zeljk0farm's Solution (Easy)](https://github.com/zeljk0farm/google-homepage) - [View in Browser](https://zeljk0farm.github.io/google-homepage/)
+* [zeljk0farm's Solution (Difficult)](https://github.com/zeljk0farm/google-search-results) - [View in Browser](https://zeljk0farm.github.io/google-search-results/)
+* [Eden's Solution (Easy)](https://github.com/TheEdenProject/google-homepage) - [View in Browser](https://theedenproject.github.io/google-homepage/)
+* [The Emigrant's Solution (Easy)](https://github.com/TheEmigrant/google_homepage) - [View in Browser](https://theemigrant.github.io/google_homepage/)
+* [mrchip2k's Solution (Easy)](https://github.com/mrchip2k/google-homepage) - [View in Browser](https://mrchip2k.github.io/google-homepage/)
+* [Dwayne Clarke's Solution (Easy)](https://github.com/DwayneC93/google-homepage) - [View in Browser](https://dwaynec93.github.io/google-homepage/)
+* [kody59527's Solution (Easy)](https://github.com/kody59527/google-homepage) - [View in Browser](https://kody59527.github.io/google-homepage/)
+* [George Suka's Solution (Difficult)](https://github.com/addisuka25/google-results) - [View in Browser](https://addisuka25.github.io/google-results/)
+* [Santiago Fernandez's Solution (Easy)](https://github.com/cenybar/google-homepage) - [View in Browser](https://cenybar.github.io/google-homepage/)
+* [Tanya Walsh's Solution (Easy)](https://github.com/UnrestCure/google-homepage) - [View in Browser](https://unrestcure.github.io/google-homepage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
@@ -1725,5 +1743,3 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
 * Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
-
-
