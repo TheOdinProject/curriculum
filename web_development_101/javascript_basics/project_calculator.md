@@ -178,4 +178,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alexfuro's Solution](https://github.com/alexfuro/TOPcalculator) - [View in Browser](https://topcalculator.netlify.com/)
 - [Slaven Karamatic's Solution](https://github.com/Everdrought/js-calculator) - [View in Browser](https://everdrought.github.io/js-calculator/)
 - [Ghassan's Solution](https://github.com/GT001/TheOdinProject-Calculator) - [View in Browser](https://gt001.github.io/TheOdinProject-Calculator/)
-- [mwk913's Solution] (https://github.com/mwk913/Calculator) [View in Browser] (https://mwk913.github.io/Calculator/)
+- [mwk913's Solution](https://github.com/mwk913/Calculator) - [View in Browser](https://mwk913.github.io/Calculator/)
