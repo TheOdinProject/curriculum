@@ -247,3 +247,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [mwk913's Solution](https://github.com/mwk913/Etch-A-Sketch/tree/master) - [View in Browser](https://mwk913.github.io/Etch-A-Sketch/)
 * [CaptainSensible's Solution](https://github.com/CaptainSensible/etch-a-sketch) - [View in Browser](https://captainsensible.github.io/etch-a-sketch/)
 * [Molly Kelsey's Solution](https://github.com/mkels/sketch/) - [View in Browser](https://mkels.github.io/sketch)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/etch-a-sketch) - [View in Browser](https://vi7ali.github.io/etch-a-sketch/)
