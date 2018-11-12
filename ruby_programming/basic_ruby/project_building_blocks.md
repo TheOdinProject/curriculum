@@ -35,13 +35,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
-<<<<<<< HEAD
+
 * [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/caesar_cipher.rb)
-=======
+* [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/blob/master/building_blocks/caesar_cipher.rb)
 * [Colton Shaheen's Solution](https://github.com/coltonshaheen/caesar_cipher/blob/master/casear_cipher.rb)
 * [Shammelow's Solution](https://github.com/shammelow/caesar_cipher)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/caesar_cipher/blob/master/caesar_cipher.rb)
->>>>>>> 4051e9e0e30f02df46c10a4ddcc63a3782b08f31
 * [Hummeldon's Solution](https://github.com/hummeldon/odin-ruby-assignments/blob/master/caesar_cipher.rb)
 * [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/caesar_cipher.rb)
 * [Techiecheckie's Solution](https://github.com/techiecheckie/ruby_odin_project/blob/master/caesar_cipher.rb)
@@ -413,12 +412,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-<<<<<<< HEAD
+
 * [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/stock_picker.rb)
-=======
+* [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/blob/master/building_blocks/stock_picker.rb)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/stock_picker/blob/master/stock_picker.rb)
 * [Servante's Solution](https://github.com/Servante/stock_picker/blob/master/stock_picker.rb)
->>>>>>> 4051e9e0e30f02df46c10a4ddcc63a3782b08f31
 * [Hummeldon's Solution](https://github.com/hummeldon/odin-ruby-assignments/blob/master/stock_picker.rb)
 * [Xadren's Solution](https://github.com/Xadren/odin_project/blob/master/stock_picker.rb)
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/stock_picker.rb)
@@ -766,11 +764,9 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-<<<<<<< HEAD
+
 * [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/substrings.rb)
-=======
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/substrings/blob/master/substrings.rb)
->>>>>>> 4051e9e0e30f02df46c10a4ddcc63a3782b08f31
 * [Hummeldon's Solution](https://github.com/hummeldon/odin-ruby-assignments/blob/master/substrings.rb)
 * [Xadren's Solution](https://github.com/Xadren/odin_project/blob/master/substrings.rb)
 * [gfioravante's Solution](https://github.com/gfioravantej/ruby_doodles/blob/master/substring.rb)
