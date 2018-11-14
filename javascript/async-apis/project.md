@@ -30,3 +30,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Rémy's solution](https://codepen.io/beumsk/pen/Xpbyxv) - [View in browser](https://codepen.io/beumsk/full/Xpbyxv/)
 * [Sava's solution](https://github.com/SavaVuckovic/Weather-App)
 * [Mike Smith's Solution](https://github.com/MikeSS281986/City-Weather-Search) - [View in browser](https://city-weather-search.firebaseapp.com/)
+* [Alvaro Sanchez's Solution](https://github.com/heyalvaro/weather.js) - [View in browser](http://heyalvaro.com/weather.js/)
