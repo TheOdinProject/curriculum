@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
+* [Chris Wegscheid's Solution](https://github.com/cwegscheid08/tic-tac-toe)
 * [Tobenski's Tic Tac Toe](https://github.com/tobenski/tic_tac_toe)
 * [Tommy's Solution](https://github.com/hoangtommy/mastermind) - [Play it](https://repl.it/@tommyhoang1/Mastermind)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/tic-tac-toe) - [Live repl.it Version](https://repl.it/@mohamed_attar/tictactoe)
