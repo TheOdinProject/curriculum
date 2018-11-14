@@ -182,6 +182,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/members-only) | [View in browser](https://serene-hollows-13658.herokuapp.com/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/members-only/tree/master/members-only)
 * [Malaika's Solution](https://github.com/malaikaMI/Nobuddies) | [View in browser](https://powerful-savannah-46992.herokuapp.com/)
+* [Jamesredux's Solution](https://github.com/Jamesredux/natter) | [View in browser](https://afternoon-coast-37994.herokuapp.com/)
 
 ### Additional Resources
 

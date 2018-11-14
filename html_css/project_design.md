@@ -62,6 +62,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/design-teardown) - [View in browser](https://adoniasdantas.github.io/design-teardown/)
 * [huseins's solution](https://github.com/hosghf/Design-html-css) - [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/blob/master/teardown/) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/teardown/index.html)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
