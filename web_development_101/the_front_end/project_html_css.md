@@ -1741,6 +1741,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hodomych Oleksandr's Solution (Easy)](https://github.com/HodomychOleksandr/google-homepage) - [View in Browser](https://hodomycholeksandr.github.io/google-homepage/)
 * [Hodomych Oleksandr's Solution (Difficult)](https://github.com/HodomychOleksandr/google-search-page) - [View in Browser](https://hodomycholeksandr.github.io/google-search-page/)
 * [Thomas Tenaglia's Solution(Easy)](https://github.com/thomastenaglia/google-homepage) - [View in Browser](https://thomastenaglia.github.io/google-homepage/)
+* [Gregory's Solution(Easy)](https://github.com/Selvdrap/google-homepage) - [View in Browser](https://selvdrap.github.io/google-homepage/)
+* [Gregory's Solution(Difficult)](https://github.com/Selvdrap/google-results) - [View in Browser](https://selvdrap.github.io/google-results/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
