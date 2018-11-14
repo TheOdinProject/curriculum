@@ -391,8 +391,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/caeser_cipher.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/caesar-cipher/blob/master/script.rb)
 
-
-
 ### Project 2: Stock Picker
 
 <div class="lesson-content__panel" markdown="1">
@@ -737,7 +735,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/stock_picker.rb)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/stock_picker.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/stock-picker/blob/master/script.rb)
-
 
 ### Project 3: Substrings
 
@@ -1084,5 +1081,3 @@ Next, make sure your method can handle multiple words:
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/substrings.rb)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/substrings.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/ruby-substrings/blob/master/script.rb)
-
-
