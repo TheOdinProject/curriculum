@@ -1080,7 +1080,4 @@ Next, make sure your method can handle multiple words:
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/substrings.rb)
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/substrings.rb)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/substrings.rb)
-<<<<<<< HEAD
-=======
 * [Slaven Karamatic's solution](https://github.com/Everdrought/ruby-substrings/blob/master/script.rb)
->>>>>>> f832801fa367a3e55bf40ea93b595c61e473f065
