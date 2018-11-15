@@ -89,6 +89,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mohammad Reza's Solution](https://github.com/Creative301/rock-paper-scissors)
 - [Mohamed Elattar's Console Solution](https://github.com/mohamed-elattar/RockPaperScissors-console) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-console/87d9d989/index.html) - [Mohamed Elattar's GUI Solution](https://github.com/mohamed-elattar/RockPaperScissors-GUI) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-GUI/9edbcd9d/index.html)
 - [gilv93's Solution](https://github.com/gilv93/odinProjectRPS) - [View In Browser](https://gilv93.github.io/odinProjectRPS)
+- [gkortsit's Solution](https://github.com/gkortsit/Rock-Paper-Scissors)
 - [lbburnsy's Solution](https://github.com/lbburnsy/rock-paper-scissors)
 - [LeviButcher's Solution](https://github.com/LeviButcher/rock-paper-scissor) - [View In Browser](https://levibutcher.github.io/rock-paper-scissor/)
 - [amanData's solution](https://github.com/amanData/rock-paper-scissors) - [UI Solution](https://github.com/amanData/rock-paper-scissors-ui) - [UI Solution View in Browser](https://amandata.github.io/rock-paper-scissors-ui/)
