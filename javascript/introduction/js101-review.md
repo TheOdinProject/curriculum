@@ -9,7 +9,7 @@ It might also be a good idea to do a little practicing before moving on.  It may
 
 - [Exercism](http://exercism.io/)
 - [CodeWars](https://www.codewars.com/)
-- [FreeCodeCamp](https://www.freecodecamp.org/) (especially their "Object Oriented and Functional Programming" and "Algorithm Scripting" sections)
+- [FreeCodeCamp](https://www.freecodecamp.org/) (especially their "Object Oriented", "Functional Programming", and "Algorithm Scripting" sections)
 - [JavaScript30](https://javascript30.com/) is a great set of tutorials that cover a ton of JS concepts. A good idea to start doing these alongside Odin anyway!
 
 ### jQuery?

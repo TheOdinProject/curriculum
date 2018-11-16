@@ -1,3 +1,6 @@
+### Welcome to The Odin Project
+The Odin Project is an open source community dedicated to providing the best sources information to take you from zero to full-stack developer.  More information at [The Odin Project](https://www.theodinproject.com/about)
+
 ### Introduction
 
 With Ruby installed we're all set to create your first Ruby on Rails application

@@ -107,6 +107,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Sam C's solution](https://github.com/JimmyNeutron8/youtube-clone) - [View in browser](https://jimmyneutron8.github.io/youtube-clone/)
 * [aznafro's solution](https://github.com/aznafro/youtube) - [View in browser](https://aznafro.github.io/youtube/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/youtube-video-page) - [View in browser](https://areebaishtiaq.github.io/youtube-video-page/)
+* [Taylor Johannsen's solution](https://github.com/taylorjohannsen/youtube-mockup) - [View in browser](https://taylorjohannsen.github.io/youtube-mockup/)
 
 
 ### Additional Resources

@@ -1085,6 +1085,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rebekah Samorano's solution](https://github.com/rmsamorano/google-homepage) - [View in Browser](https://rawgit.com/rmsamorano/google-homepage/blobl/master.index.html)
 * [Borislav Belev's solution](https://github.com/starcanist/odinproject) - [View in Browser](https://rawgit.com/starcanist/odinproject/master/index.html)
 * [Rebekah Samorano's solution](https://github.com/rmsamorano/google-homepage) - [View in Browser](https://rawgit.com/rmsamorano/google-homepage/blobl/master.index.html)
+* [Theodore Gkortsilas’ Solution (Easy)](https://github.com/gkortsit/google-homepage) – [View in Browser](https://gkortsit.github.io/google-homepage/)
 * [Will Chellman's solution](https://github.com/creaked/google-homepage) - [View in Browser](https://rawgit.com/creaked/google-homepage/master/index.html)
 * [Yorick's Solution](https://github.com/ysmith4/google-homepage) - [View in Browser](https://rawgit.com/ysmith4/google-homepage/master/index.html)
 * [Tglash's Solution](https://github.com/tglash/google-homepage)- [View in Browser](https://rawgit.com/tglash/google-homepage/master/index.html)
@@ -1740,6 +1741,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hodomych Oleksandr's Solution (Easy)](https://github.com/HodomychOleksandr/google-homepage) - [View in Browser](https://hodomycholeksandr.github.io/google-homepage/)
 * [Hodomych Oleksandr's Solution (Difficult)](https://github.com/HodomychOleksandr/google-search-page) - [View in Browser](https://hodomycholeksandr.github.io/google-search-page/)
 * [Thomas Tenaglia's Solution(Easy)](https://github.com/thomastenaglia/google-homepage) - [View in Browser](https://thomastenaglia.github.io/google-homepage/)
+* [Gregory's Solution(Easy)](https://github.com/Selvdrap/google-homepage) - [View in Browser](https://selvdrap.github.io/google-homepage/)
+* [Gregory's Solution(Difficult)](https://github.com/Selvdrap/google-results) - [View in Browser](https://selvdrap.github.io/google-results/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
