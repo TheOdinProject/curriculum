@@ -16,7 +16,7 @@ Look through these now and then use them to test yourself after doing the assign
   * When should you use a class?
   * How do you create a class in your script file?
   * What is an instance of a class?
-  * What is the difference between the CamelCase and snake_case styles of naming?
+  * What is the difference between the Pascal Case and snake_case styles of naming?
   * How do you instantiate a class?
   * How do you set the state of your new instance?
   * What should be done in the `#initialize` method?
