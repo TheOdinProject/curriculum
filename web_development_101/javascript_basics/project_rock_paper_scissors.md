@@ -36,6 +36,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Akbar's console solution](https://github.com/donatelloraphael/rock-paper-scissors) - [Akbar's GUI solution](https://github.com/donatelloraphael/rock-paper-scissors-gui) - [View in browser](https://donatelloraphael.github.io/rock-paper-scissors-gui/)
+- [Tommy's UI solution](https://github.com/Tommyisr/UI-rock-paper-scissors) - [View in Browser](https://tommyisr.github.io/UI-rock-paper-scissors/)
 - [Michael Randrianarisona's console solution](https://github.com/KhaelM/rock-paper-scissors) - [View in Browser](https://khaelm.github.io/rock-paper-scissors/)
 - [Origier's Solution using alerts](https://github.com/Origier/rock_paper_scissors)
 - [Marco Richetta's Console Solution](https://github.com/marcorichetta/rockpaperscissors)
@@ -87,6 +89,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mohammad Reza's Solution](https://github.com/Creative301/rock-paper-scissors)
 - [Mohamed Elattar's Console Solution](https://github.com/mohamed-elattar/RockPaperScissors-console) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-console/87d9d989/index.html) - [Mohamed Elattar's GUI Solution](https://github.com/mohamed-elattar/RockPaperScissors-GUI) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-GUI/9edbcd9d/index.html)
 - [gilv93's Solution](https://github.com/gilv93/odinProjectRPS) - [View In Browser](https://gilv93.github.io/odinProjectRPS)
+- [gkortsit's Solution](https://github.com/gkortsit/Rock-Paper-Scissors)
 - [lbburnsy's Solution](https://github.com/lbburnsy/rock-paper-scissors)
 - [LeviButcher's Solution](https://github.com/LeviButcher/rock-paper-scissor) - [View In Browser](https://levibutcher.github.io/rock-paper-scissor/)
 - [amanData's solution](https://github.com/amanData/rock-paper-scissors) - [UI Solution](https://github.com/amanData/rock-paper-scissors-ui) - [UI Solution View in Browser](https://amandata.github.io/rock-paper-scissors-ui/)
@@ -379,3 +382,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [TheEdenProject's Solution](https://github.com/TheEdenProject/rock-paper-scissors) - [View in Browser](https://theedenproject.github.io/rock-paper-scissors/)
 - [Doris's solution](https://github.com/dsmchen/rock-paper-scissors)
 - [Dhruvi's solution](https://github.com/DhruviJariwala/Rock-Paper-Scissors) - [View in Browser](https://dhruvijariwala.github.io/Rock-Paper-Scissors/)
+- [Vitaly Osipov's solution](https://github.com/vi7ali/rock-paper-scissors) - [View in Browser](https://vi7ali.github.io/rock-paper-scissors/)
+- [keskiviikko's solution](https://github.com/keskiviikko/project-rps) - [View in Browser](https://keskiviikko.github.io/project-rps/)
+- [Thomas Tenaglia's solution](https://github.com/thomastenaglia/rock_paper_scissors/blob/master/index.html)

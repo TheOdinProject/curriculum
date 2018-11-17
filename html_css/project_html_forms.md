@@ -103,6 +103,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [aznafro's solution](https://github.com/aznafro/mintlogin) - [View in Browser](https://aznafro.github.io/mintlogin/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Mint-signup) - [View in Browser](https://areebaishtiaq.github.io/Mint-signup/)
 * [Sam C's solution](https://github.com/JimmyNeutron8/signup-form) - [View in Browser](https://jimmyneutron8.github.io/signup-form)
+* [Taylor J's solution](https://github.com/taylorjohannsen/mintmockup) - [View in Browser](https://taylorjohannsen.github.io/mintmockup/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -32,7 +32,7 @@ But for now, in this lesson, try to understand what Git is and why it is so powe
 <summary>Describe the differences between Git and a text editor in terms of what they save and their record keeping</summary>
 <ul><ul>
   <li>Git tracks changes to the files and their contents.</li>
-  <li>A text editor can only make a save changes to a file</li>
+  <li>A text editor can only make and save changes to a file</li>
 </ul></ul>
 </details>
 
