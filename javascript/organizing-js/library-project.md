@@ -76,3 +76,4 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Kyouyatamax Solution](https://github.com/kyouyatamax/jsLibraryOdinProject) - [View in browser](https://kyouyatamax.github.io/jsLibraryOdinProject/)
 - [MPalhidai's Solution](https://github.com/MPalhidai/Library) - [View in browser](https://www.michaelpalhidai.com/Library/)
 - [aznafro's Solution](https://github.com/aznafro/library) - [View in browser](https://aznafro.github.io/library/)
+- [Areeba's Solution](https://github.com/AREEBAISHTIAQ/project-library) - [View in browser](https://areebaishtiaq.github.io/project-library/)
