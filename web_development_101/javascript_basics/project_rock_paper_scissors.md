@@ -385,3 +385,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vitaly Osipov's solution](https://github.com/vi7ali/rock-paper-scissors) - [View in Browser](https://vi7ali.github.io/rock-paper-scissors/)
 - [keskiviikko's solution](https://github.com/keskiviikko/project-rps) - [View in Browser](https://keskiviikko.github.io/project-rps/)
 - [Thomas Tenaglia's solution](https://github.com/thomastenaglia/rock_paper_scissors/blob/master/index.html)
+- [Gregory's UI solution](https://github.com/Selvdrap/Rock-Paper-Scissors) - [View in Browser](https://selvdrap.github.io/Rock-Paper-Scissors/)
