@@ -87,6 +87,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * zasman's solutions([Caesar Cipher](https://github.com/ZASMan/caesar_cipher))
 * [Punnadittr's solutions](https://github.com/punnadittr/rspec_projects)
 * Tommy's solution ([Caesar Cipher, Enumerable](https://github.com/hoangtommy/rubyExercises), [Tic Tac Toe](https://github.com/hoangtommy/tic-tac-toe))
+* bchalman's solutions: [Caesar Cipher](https://github.com/bchalman/ruby_exercises/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/bchalman/ruby_exercises/blob/master/spec/my_enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/bchalman/tic_tac_toe)
+* Alex's solutions: [Caesar Cipher](https://github.com/alexcorremans/caesar_cipher), [Enumerable](https://github.com/alexcorremans/enumerable), [Tic Tac Toe (incomplete)](https://github.com/alexcorremans/tictactoe)
 
 ### Project: TDD Connect Four
 
@@ -189,6 +191,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [HSaad's solution](https://github.com/HSaad/connect-four)
 * [Punnadittr's solution](https://github.com/punnadittr/connect_four)
 * [Malaika's Solution](https://github.com/malaikaMI/connect_four)
+* [bchalman's Solution](https://github.com/bchalman/connect_four)
+* [Alex's Solution](https://github.com/alexcorremans/connect_four)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
