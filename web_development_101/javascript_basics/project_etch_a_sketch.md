@@ -251,3 +251,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Molly Kelsey's Solution](https://github.com/mkels/sketch/) - [View in Browser](https://mkels.github.io/sketch)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/etch-a-sketch) - [View in Browser](https://vi7ali.github.io/etch-a-sketch/)
 * [Deepa's Solution](https://github.com/deepasara/etch-a-sketch) - [View in Browser](https://deepasara.github.io/etch-a-sketch/)
+* [Dhruvi's Solution](https://github.com/DhruviJariwala/Etch-a-Sketch) - [View in Browser](https://dhruvijariwala.github.io/Etch-a-Sketch/)
