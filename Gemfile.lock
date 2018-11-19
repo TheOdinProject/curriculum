@@ -218,7 +218,7 @@ GEM
       premailer (~> 1.7, >= 1.7.9)
     public_suffix (3.0.3)
     puma (3.11.4)
-    rack (2.0.5)
+    rack (2.0.6)
     rack-attack (5.4.1)
       rack (>= 1.0, < 3)
     rack-test (0.6.3)
