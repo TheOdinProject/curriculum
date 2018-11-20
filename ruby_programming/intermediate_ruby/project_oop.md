@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/tic_tac_toe)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/tic-tac-toe)
 * [Tobenski's Tic Tac Toe](https://github.com/tobenski/tic_tac_toe)
 * [Tommy's Solution](https://github.com/hoangtommy/mastermind) - [Play it](https://repl.it/@tommyhoang1/Mastermind)
