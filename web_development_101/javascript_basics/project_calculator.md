@@ -181,3 +181,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ghassan's Solution](https://github.com/GT001/TheOdinProject-Calculator) - [View in Browser](https://gt001.github.io/TheOdinProject-Calculator/)
 - [mwk913's Solution](https://github.com/mwk913/Calculator) - [View in Browser](https://mwk913.github.io/Calculator/)
 - [Jeff's solution](https://github.com/JeffFromParis/calculator-project) - [View in browser](https://jefffromparis.github.io/calculator-project/)
+- [Jahmzu's Solution](https://github.com/jahmzu/TOP-calculator2) - [View in browser](https://jahmzu.github.io/TOP-calculator2/)
