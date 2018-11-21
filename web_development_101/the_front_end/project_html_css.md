@@ -1748,6 +1748,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Wayland's Solution(Easy)](https://github.com/chinwayland/google-homepage)
 * [Ocean572's Solution(Easy)](https://github.com/Ocean572/google.com) - [View in Browser](https://ocean572.github.io/google.com/)
  [Jozaguts Solution(Easy)](https://github.com/jozaguts/google-homepage.git) - [View in Browser](https://jozaguts.github.io/google-homepage/)
+ * [Morrow Davidson's Solution(Easy)](https://github.com/morrowdavidson/google-homepage) - [View in Browser](https://morrowdavidson.github.io/google-homepage/)
+
 
 
 ### Additional Resources
