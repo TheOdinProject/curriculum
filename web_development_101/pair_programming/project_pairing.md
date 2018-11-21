@@ -90,6 +90,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-pomodoro-clock) - [View in Browser](https://codymalcolm.github.io/odin-pomodoro-clock/)
 * [Husseyexplores' Solution](https://github.com/husseyexplores/odin-pomodoro-clock) - [View in Browser](https://husseyexplores.github.io/odin-pomodoro-clock/)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/pomodoro-clock) - [View in Browser](https://imemdm.github.io/pomodoro-clock/)
+* [Ghassan's Solution](https://github.com/GT001/TOP-Pomodoro-Clock) - [View in Browser](https://gt001.github.io/TOP-Pomodoro-Clock/)
 
 ### Next Steps
 
