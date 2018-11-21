@@ -24,7 +24,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [WormCrew's Solution](https://github.com/WormCrew/blogger)- [View in browser](https://limitless-peak-97236.herokuapp.com/articles)
-* ****DELETE***[WormCrew's Solution](https://github.com/WormCrew/Project-Ruby-on-Rails/tree/master/blogger) - [View in browser](https://ancient-lowlands-84371.herokuapp.com/)****DELETE
 * [Stefano Merazzi's Solution](https://github.com/ste001/blogger) - [View in browser](https://safe-everglades-94703.herokuapp.com/)
 * [Colton Shaheen's Solution](https://github.com/coltonshaheen/blogger) - [View in browser](https://fathomless-oasis-59642.herokuapp.com/)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/first_blog_app) - [View in browser](https://warm-dusk-34129.herokuapp.com/articles)
