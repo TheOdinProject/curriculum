@@ -32,6 +32,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 Send us your solution so we can show others! Submit a link to the Github [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Helari's solution] (https://helaris.github.io/YouTube/)
 * [Smetanca52's solution](https://github.com/Smetanca52/) - [View in browser](https://smetanca52.github.io/youtubelike_page/)
 * [Bojana Karakacev's solution](https://github.com/bojana12/youtube-homepage) - [View in browser](https://bojana12.github.io/youtube-homepage/)
 * [rvalentin1010's solution](https://github.com/rvalentin1010/youtube-video-player) - [View in browser](https://rvalentin1010.github.io/youtube-video-player/)
@@ -107,6 +108,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Sam C's solution](https://github.com/JimmyNeutron8/youtube-clone) - [View in browser](https://jimmyneutron8.github.io/youtube-clone/)
 * [aznafro's solution](https://github.com/aznafro/youtube) - [View in browser](https://aznafro.github.io/youtube/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/youtube-video-page) - [View in browser](https://areebaishtiaq.github.io/youtube-video-page/)
+* [Taylor Johannsen's solution](https://github.com/taylorjohannsen/youtube-mockup) - [View in browser](https://taylorjohannsen.github.io/youtube-mockup/)
+* [Anh Pati's solution](https://github.com/AnhPati/OdinProject_css_html/tree/master/Embendding_images_and_video) - [View in browser](http://dwj.miste.io/odinproject/embedding_images_and_video/)
 
 
 ### Additional Resources
