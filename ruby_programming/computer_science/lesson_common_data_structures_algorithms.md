@@ -49,3 +49,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
 * [Another free course on algorithms by Udacity](https://www.udacity.com/course/cs215)
 * [A brief note on putting Sorting, Tries and Heaps into Ruby, by Ilya Grigorik](http://www.igvita.com/2009/03/26/ruby-algorithms-sorting-trie-heaps/)
+* [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)

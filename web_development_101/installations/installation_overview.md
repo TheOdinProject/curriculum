@@ -1,31 +1,33 @@
+### Welcome to The Odin Project
+The Odin Project is an open source community dedicated to providing the best sources information to take you from zero to full-stack developer.  More information at [The Odin Project](https://www.theodinproject.com/about)
+
 ### Introduction
 
 The first step to building any website is having the right tools. For us, that means setting up an environment to write good code.
 
-Many development courses use online code editors or "sandboxes" which give you the tools and programs you need at that moment to accomplish the task at hand, but nothing else. While you will use some of these sandboxes throughout the early stages of The Odin Project (They're great for getting started quickly), the best way to set yourself up for success is to operate in a real development environment. We won't lie to you: installing packages, editors, and even entire operating systems can be frustrating at times. However, having the experience of setting up a development environment to run the code you'll write is an invaluable real-world skill you'll carry with you the rest of your career.
+Many development courses use online code editors or "sandboxes" which give you the tools and programs you need at that moment to accomplish the task at hand, but nothing else. While you will use some of these sandboxes throughout the early stages of The Odin Project (They're great for getting started quickly), the best way to set yourself up for success is to operate in a real development environment. 
+
+We won't lie to you: installing packages, editors, and even entire operating systems can be frustrating at times. However, having the experience of setting up a development environment to run the code you'll write is an invaluable real-world skill you'll carry with you the rest of your career.
 
 ### What are we doing?
 
-In the following sections we'll be going over the necessary steps for your environment. These steps are **the most important steps** in the entire curriculum.  Please take the extra time to double check what you're typing, or you may cause more headache for yourself. 
+In the following sections we'll be going over the necessary steps for your environment. These steps are **the most important steps** in the entire curriculum.  Please take the extra time to __double check what you're typing__, or you may cause more headache for yourself. 
 
 In the next few lessons we will be:
 
-* Installing or configuring the [OS](https://en.wikipedia.org/wiki/Operating_system) of your choice,
-* Installing and configuring Git,
-* Installing the necessary programming languages,
-* Installing a text editor,
+* Installing the [OS](https://en.wikipedia.org/wiki/Operating_system) of your choice,
+* Installing Ruby, Rails, and Git.
+* Installing a code editor,
 * Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using),
 * And finally, creating and deploying a very basic Ruby on Rails application to make sure it all works. You will also be able to show this off to your friends and family!
 
-It may seem like a lot of steps, but we'll get through it as painlessly as possible together! And, if anything goes wrong, always remember the three rules of problem solving in development:
+It may seem like a lot of steps, but we'll get through it as painlessly as possible together! And, if anything goes wrong, always remember to follow these steps:
 
-* Read and try to understand the error message.
-* Never be afraid to ask for help!
+* Parse the terminal output for the actual error.
 * Google, Google, Google.
+* Never be afraid to ask for help!
 
 ### OS Options
-
-First things first: we need to decide is what operating system you'll be using to develop on. We've focused on the big three: Linux (Ubuntu), MacOS and Windows.
 
 #### Woah, woah, woah. I like my OS just fine the way it is
 
@@ -39,25 +41,25 @@ If you're using a Mac you're in great shape.  Most professional developers rely 
 
 #### Linux
 
-Linux is a free operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better with Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available.
+Linux is a free operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better with Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available. __If you don't use a Mac we recommend you use Linux__. It's that simple.
 
-#### Windows 10 with Linux Subsystem
+#### Windows Virtual Machines and Dual Boots
 
-You're probably familiar with Windows for one reason or another. For many people it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, some languages (Ruby) have been created with the assumption that you will be developing them on a Unix based system and have not been easily made to run on Windows or require a large amount of work to get running correctly.
-
-Within the last few years a lot of progress has been made to make Windows a more developer friendly atmosphere. The Linux Subsystem for Windows (WSL) is now available in most Windows 10 installations. You may still come across the occasional tweak that you will need to google to figure out how to make work. But for the most part, running Linux natively on WSL is a perfectly viable option.
-
-#### Virtual Machines and Dual Boots
-
-Before the time of WSL there were Virtual Machines and Dual Boots. Virtual Machines installations that run on top of a base OS. They're simple to install and are risk-free. If you don't like linux you can easily remove the Virtual Machine. They are a great way for new developers to get their toes' wet without spending too much time getting set up.  In the long run, however, most people choose to dual boot.
+Virtual Machines are computers that run within your OS. They're as simple to install as any other program and are risk-free. If you don't like linux you can easily remove the Virtual Machine. They are a great way for new developers to get their toes' wet without spending too much time getting set up.
 
 Dual boots give you the option to boot into Linux or Windows when your computer first starts up.  The advantage to these over VMs is that the OS can use all of your computer's resources resulting in a much faster OS. There is some risk to installing a dual boot system because you're changing around your hard drive partitions, but the risk very low. Take your time and read the instructions and you'll be okay.
 
-Dual-booting is by far the preferred method for installation if you currently use Windows. It can be as easy as inserting a USB and clicking a few buttons. The benefits of dual-booting cannot be understated: You'll be allowing Linux to access the full capabilities of your hardware, have a clean and distraction free environment to do your work in, and be learning the platform used by many senior developers and servers around the world.
+Dual-booting can be as easy as inserting a USB and clicking a few buttons. The benefits of dual-booting cannot be understated: You'll be allowing Linux to access the full capabilities of your hardware, have a clean and distraction free environment to do your work in, and be learning the platform used by many senior developers and servers around the world.
+
+#### Windows 10 with Linux Subsystem
+
+You're probably familiar with Windows for one reason or another. For many people it is their OS of choice. It is easy to use and comes pre-installed on most computers. Unfortunately, some languages (Ruby) have been created with the assumption that you will be developing them on a Unix-based (Mac or Linux) system and have not been easily made to run on Windows.
+
+It is possible to develop with WSL but it is __highly__ discouraged. You will end up with a lot of problems you'll spend hours on google trying to fix.  For your sanity, we recommend installing a Virtual Machine instead of using WSL.
 
 #### Online editors
 
-There are a variety of online code sandboxes that can be quite handy when you're away from your main system or prototyping some code before committing it. Sites such as
+Lastly, there are a variety of online code sandboxes that can be quite handy when you're away from your main system or prototyping some code before committing it. Sites such as
 
 * [Repl.it](https://repl.it/)
 * [Codepen.io](https://codepen.io/)

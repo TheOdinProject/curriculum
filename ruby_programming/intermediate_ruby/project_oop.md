@@ -17,6 +17,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/tic_tac_toe)
+* [Chris Wegscheid's Solution](https://github.com/cwegscheid08/tic-tac-toe)
 * [Tobenski's Tic Tac Toe](https://github.com/tobenski/tic_tac_toe)
 * [Tommy's Solution](https://github.com/hoangtommy/mastermind) - [Play it](https://repl.it/@tommyhoang1/Mastermind)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/tic-tac-toe) - [Live repl.it Version](https://repl.it/@mohamed_attar/tictactoe)
@@ -438,6 +440,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/intermediate-ruby/OOP/master-mind.rb)
 * [Encolpius's Solution](https://github.com/Encolpius/OOP-Projects/tree/master/mastermind)
 * [bchalman's Solution](https://github.com/bchalman/Mastermind) - [Live Version](https://repl.it/@bchalman/Mastermind)
+* [themetar's solution](https://repl.it/@themetar/MinimalMastermind)
+* [Emil Dimitrov's solution(with AI)](https://github.com/imemdm/mastermind) - [Play on repl.it](https://repl.it/@imemdm/ChartreuseWittyEllipses) 
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
