@@ -337,10 +337,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [bchalman's Solution](https://github.com/bchalman/Rails-Blogger) - [View in browser](https://shrouded-fortress-23699.herokuapp.com/)
 * [wuaangela's Solution](https://github.com/wuaangela/ROR_blogger) - [View in browser](https://desolate-everglades-27885.herokuapp.com/)
 * [Ghassan's Solution](https://github.com/GT001/TheOdinProject-RubyonRails-Blogger) - [View in browser](https://vast-harbor-87818.herokuapp.com/)
-<<<<<<< HEAD
-=======
 * [Slaven Karamatic's Solution](https://github.com/Everdrought/blogger) - [View in browser](https://peaceful-headland-49289.herokuapp.com/)
->>>>>>> 77f9f277a493a6ef0a4c8121fef4a771bb7a2df8
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
