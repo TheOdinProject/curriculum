@@ -258,6 +258,8 @@ lines.each do |line|
 end
 ~~~
 
+`next if`comes in handy in this type of problem: when it encounters the same exact line provided, it skips the row.
+
 A problem with this solution is that the content of our header row could change
 in the future. Additional columns could be added or the existing columns
 updated.
@@ -422,7 +424,7 @@ solve the second issue and the third issue.
 
 * Some zip codes are represented with less than a five-digit number
 
-If we looked at the [larger sample of data](event_attendees_full.csv) we would
+If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/intermediate_ruby/event_attendees_full.csv) we would
 see that the majority of the shorter zip codes are from individuals from states
 in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text,
 which caused the leading zeros to be removed.
