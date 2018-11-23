@@ -392,7 +392,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/caeser_cipher.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/caesar-cipher/blob/master/script.rb)
 * [Syed Aslam's solution](https://gist.github.com/aslam/5a2db0af06781a0adc7b39e90369e8b4)
-* [jkriesp's solution] (https://github.com/jkriesp/caesar_cipher/blob/master/caesar.rb)
+* [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/caesar.rb)
 
 ### Project 2: Stock Picker
 
