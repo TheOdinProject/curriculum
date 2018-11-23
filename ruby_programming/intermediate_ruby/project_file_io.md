@@ -18,7 +18,7 @@ You will be building a simple command line Hangman game where one player plays a
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* [Smetanca52's solution](https://github.com/Smetanca52) - (https://github.com/Smetanca52/hangman_game)
+* [Smetanca52's solution](https://github.com/Smetanca52/hangman_game)
 * [Tommy Hogwart's solution](https://github.com/hoangtommy/Hogwarts-Hangman) - [Live Demo](https://repl.it/@tommyhoang1/HogwartsHangman)
 * [Encolpius's solution](https://github.com/Encolpius/hangman)
 * [Dreniak's Solution](https://github.com/Dreniak/hangman) - [Repl.it Live Version](https://repl.it/@Dreniak/TerminalHANGMAN)
