@@ -37,6 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [Dale Thompson's Solution](https://github.com/Dale-Thompson/rock-paper-scissors) - [View in Browser](https://dale-thompson.github.io/rock-paper-scissors/)
 - [Nicolas Figueroa's Console Solution](https://github.com/nicolasfig/rock-paper-scissors) - [View in Browser](https://nicolasfig.github.io/rock-paper-scissors/)
 - [Joe Vilasi's Console Solution](https://github.com/Vilasi/rock-paper-scissors)
 - [Akbar's console solution](https://github.com/donatelloraphael/rock-paper-scissors) - [Akbar's GUI solution](https://github.com/donatelloraphael/rock-paper-scissors-gui) - [View in browser](https://donatelloraphael.github.io/rock-paper-scissors-gui/)
