@@ -243,7 +243,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/LustrousHeartfeltDefragment)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/tree/master/tic-tac-toe)
 
-
 ### Project 2: Mastermind
 
 If you've never played Mastermind, a game where you have to guess your opponent's secret code within a certain number of turns (like hangman with colored pegs), check it out on <a href="http://en.wikipedia.org/wiki/Mastermind_(board_game)">Wikipedia</a>.  Each turn you get some feedback about how good your guess was -- whether it was exactly correct or just the correct color but in the wrong space.
@@ -449,7 +448,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Emil Dimitrov's solution(with AI)](https://github.com/imemdm/mastermind) - [Play on repl.it](https://repl.it/@imemdm/ChartreuseWittyEllipses)
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/mastermind.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/WebbedAccomplishedDrawing)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
-
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
