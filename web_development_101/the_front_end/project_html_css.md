@@ -94,6 +94,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Carlos Ávila's Solution (Easy)](https://cravila.github.io/google-homepage/) - [View in Browser](https://cravila.github.io/google-homepage/)
+* [Carlos Ávila's Solution (Difficult)](https://cravila.github.io/google-search-results/) - [View in Browser](https://cravila.github.io/google-search-results/)
+* [Nicolas Figueroa's Solution (Easy)](https://github.com/nicolasfig/google-homepage) - [View in Browser](https://nicolasfig.github.io/google-homepage/)
+* [Helari's Solution (Easy)](https://helaris.github.io/Google-HomePage/)
+* [Elizabeth's Solution (Easy)](https://misselliev.github.io/google-homePage/)
 * [Karson Nichols Solution (Easy)](https://github.com/nicholsk18/google-homepage) - [View in Browser](https://nicholsk18.github.io/google-homepage/)
 * [Stormgren Solution (Easy)](https://github.com/Stormgren/OldGoogle/tree/master)
 * [Origier's Solution (Difficult)](https://github.com/Origier/google_result) - [View in Browser](https://origier.github.io/google_result/)
@@ -1744,6 +1749,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Thomas Tenaglia's Solution(Easy)](https://github.com/thomastenaglia/google-homepage) - [View in Browser](https://thomastenaglia.github.io/google-homepage/)
 * [Gregory's Solution(Easy)](https://github.com/Selvdrap/google-homepage) - [View in Browser](https://selvdrap.github.io/google-homepage/)
 * [Gregory's Solution(Difficult)](https://github.com/Selvdrap/google-results) - [View in Browser](https://selvdrap.github.io/google-results/)
+* [Wayland's Solution(Easy)](https://github.com/chinwayland/google-homepage)
+* [Ocean572's Solution(Easy)](https://github.com/Ocean572/google.com) - [View in Browser](https://ocean572.github.io/google.com/)
+* [Jozaguts Solution(Easy)](https://github.com/jozaguts/google-homepage.git) - [View in Browser](https://jozaguts.github.io/google-homepage/)
+* [Morrow Davidson's Solution(Easy)](https://github.com/morrowdavidson/google-homepage) - [View in Browser](https://morrowdavidson.github.io/google-homepage/)
+* [Rebeccode's Solution (Easy)](https://github.com/rebeccode/google-homepage)  - [View in Browser](https://rebeccode.github.io/google-homepage/) [Rebeccode's Solution(Difficult)](https://github.com/rebeccode/google-search) - [View in Browser](https://rebeccode.github.io/google-search/)
+* [Hart Emmanuel's Solution (Easy)](https://github.com/hartology/google-homepage) - [View in Browser](https://hartology.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

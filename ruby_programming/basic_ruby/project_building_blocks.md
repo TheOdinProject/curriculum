@@ -35,7 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
-
+* [WormCrew's Solution](https://github.com/WormCrew/Caesar-cypher)
 * [Paul Manot's Solution](https://github.com/Maynot2/odin_project/tree/master/ruby_programming/basic_ruby/project_building_blocks/ceasar_cipher)
 * [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/caesar_cipher.rb)
 * [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/blob/master/building_blocks/caesar_cipher.rb)
@@ -392,6 +392,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/caeser_cipher.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/caesar-cipher/blob/master/script.rb)
 * [Syed Aslam's solution](https://gist.github.com/aslam/5a2db0af06781a0adc7b39e90369e8b4)
+* [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/caesar.rb)
 
 ### Project 2: Stock Picker
 
@@ -737,6 +738,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/stock_picker.rb)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/stock_picker.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/stock-picker/blob/master/script.rb)
+* [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -1083,3 +1085,4 @@ Next, make sure your method can handle multiple words:
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/substrings.rb)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/substrings.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/ruby-substrings/blob/master/script.rb)
+* [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/substrings.rb)

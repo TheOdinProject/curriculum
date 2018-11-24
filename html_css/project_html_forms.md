@@ -19,6 +19,7 @@ The page is very straightforward, so you should be able to clone it even if your
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) or by editing [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_html_forms.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Helari's solution] (https://helaris.github.io/mint-project/) - [View in browser]
 * [Bojana Karakacev's solution](https://github.com/bojana12/project-html-forms) - [View in browser](https://bojana12.github.io/project-html-forms/)
 * [rvalentin1010's solution](https://github.com/rvalentin1010/mint-signup) - [View in browser](https://rvalentin1010.github.io/mint-signup/)
 * [Qin's solution](https://github.com/hyathynth/mint) - [View in browser](https://hyathynth.github.io/mint/)
@@ -104,6 +105,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Mint-signup) - [View in Browser](https://areebaishtiaq.github.io/Mint-signup/)
 * [Sam C's solution](https://github.com/JimmyNeutron8/signup-form) - [View in Browser](https://jimmyneutron8.github.io/signup-form)
 * [Taylor J's solution](https://github.com/taylorjohannsen/mintmockup) - [View in Browser](https://taylorjohannsen.github.io/mintmockup/)
+* [Anh Pati's solution](https://github.com/AnhPati/OdinProject_css_html/tree/master/HTML_forms) - [View in Browser](http://dwj.miste.io/odinproject/html_form/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

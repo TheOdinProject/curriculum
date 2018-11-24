@@ -17,6 +17,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
+* [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/tree/master/tic_tac_toe)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/tic_tac_toe)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/tic-tac-toe)
 * [Tobenski's Tic Tac Toe](https://github.com/tobenski/tic_tac_toe)
 * [Tommy's Solution](https://github.com/hoangtommy/mastermind) - [Play it](https://repl.it/@tommyhoang1/Mastermind)
@@ -238,6 +240,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tommy's solution](https://github.com/hoangtommy/tic-tac-toe) - [Play it](https://repl.it/@tommyhoang1/TictheTacwithYourToe)
 * [bchalman's solution](https://github.com/bchalman/tic_tac_toe) - [Play it](https://repl.it/@bchalman/Tic-Tac-Toe)
 * [Emil Dimitrov's solution](https://github.com/imemdm/tic-tac-toe) - [Play on repl.it](https://repl.it/repls/SufficientInstructiveApache)
+* [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/LustrousHeartfeltDefragment)
 
 ### Project 2: Mastermind
 
@@ -260,6 +263,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/tree/master/mastermind)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/mastermind) - [Live repl.it Version](https://repl.it/@mohamed_attar/mastermind)
 * [ahmed ali's solution](https://github.com/ahmedloona/my_odin_project_solutions/tree/master/2_project_oop/ahmed_ali_mastermind_exercises/lib)
 * [prw001's solution](https://github.com/prw001/mastermind)
@@ -440,7 +444,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Encolpius's Solution](https://github.com/Encolpius/OOP-Projects/tree/master/mastermind)
 * [bchalman's Solution](https://github.com/bchalman/Mastermind) - [Live Version](https://repl.it/@bchalman/Mastermind)
 * [themetar's solution](https://repl.it/@themetar/MinimalMastermind)
-* [Emil Dimitrov's solution(with AI)](https://github.com/imemdm/mastermind) - [Play on repl.it](https://repl.it/@imemdm/ChartreuseWittyEllipses) 
+* [Emil Dimitrov's solution(with AI)](https://github.com/imemdm/mastermind) - [Play on repl.it](https://repl.it/@imemdm/ChartreuseWittyEllipses)
+* [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/mastermind.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/WebbedAccomplishedDrawing)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
