@@ -738,6 +738,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/stock_picker.rb)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/stock_picker.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/stock-picker/blob/master/script.rb)
+* [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
