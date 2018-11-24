@@ -66,3 +66,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Kyouyatamax's solution](https://github.com/kyouyatamax/restaurantpageJS) - [View in browser](https://kyouyatamax.github.io/restaurantpageJS/)
 - [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/restaurant-page) - [View in browser](https://fcarlosdev.github.io/restaurant-page/)
 - [aznafro's solution](https://github.com/aznafro/restaurant) - [View in browser](https://aznafro.github.io/restaurant/)
+- [Areeba's solution](https://github.com/AREEBAISHTIAQ/Restaurant-page) - [View in browser](https://areebaishtiaq.github.io/Restaurant-page/)
