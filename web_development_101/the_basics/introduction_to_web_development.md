@@ -17,7 +17,7 @@ Earlier, we mentioned that web development work could be in the front end, the b
 The **front end** is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar.
 Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
 
-The **back end** refers to the guts of the application, which live on the server. The back end manipulates data to ensure that the front end has what it needs, which can become very complicated as things scale.
+The **back end** refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users.
 Back-end developers use programming languages like Java, Python, and Ruby to work with data.
 
 **Full-stack developers** are comfortable working with both the front and back ends. In The Odin Project, we focus on teaching you full-stack development, covering all aspects of web development.
@@ -28,7 +28,7 @@ For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers
 
 Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with.
 
-Large tech companies, such as Google, Facebook, and Amazon, have very stringent hiring requirements, but they offer excellent pay, benefits, and opportunities.
+Large tech companies, such as Google, Facebook, and Amazon, have very stringent hiring requirements. If you successfully meet these expectations, they offer excellent pay, benefits, and opportunities.
 
 Startups are a bit like the wild west. For a junior developer, it can feel like a trial by fire because of the pace of development. Startups often offer slightly lower salaries and require longer hours, but they may also offer equity in the company and highly unique environments.
 
@@ -57,8 +57,7 @@ The strongest assets you can have as a student are a desire to build, a problem-
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
 
-So, you need to build. Build and build and build and keep on building as much as you can. Build projects to try out new technologies, and build things that you need.
-Once you start to get comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you practice, the more you will learn about what you can do, and the closer you will get to being hireable.
+Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
 
 Read [this comprehensive blog post from Happy Bear Software](https://www.happybearsoftware.com/how-to-get-a-programmer-job) about the journey to getting hired as a brief introduction to what you will face ahead.
 
@@ -78,11 +77,11 @@ The Odin Project is constantly evolving because of people like you who get furth
 
 Hopefully, you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career. This has only been a teaser into the world of web development.
 
-In this course, "Web Development 101," you'll take a journey through the entire spectrum of topics that you will eventually need to know. This course jumps around to a variety of topics that you may be totally unfamiliar with, giving you a small taste of each and then moving on.
+In this course, "Web Development 101," you'll take a journey through the entire spectrum of topics that you will eventually need to know. This course jumps around to a variety of topics that you may be totally unfamiliar with, providing you a small taste of each and then moving on.
 
-The following courses will dive deep into these topics, and you will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
+The following courses will dive deep into these topics. You will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
-Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard) so you have a good idea of what the journey ahead is like.  But what worthwhile thing is truly easy?
+Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
 
 Yes, it's going to be challenging.
 
