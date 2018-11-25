@@ -1,6 +1,8 @@
 <div class="floating-dropdown">
-  <div class="floating-dropdown__item floating-dropdown--hidden-item js-gitter-toggle-chat-button text-center" data-toggle='tooltip' data-placement='left' title='Chat'>
-    <i class="fa fa-comment"></i>
+  <div class="floating-dropdown__item floating-dropdown--hidden-item text-center" data-toggle='tooltip' data-placement='left' title='Chat'>
+    <%= link_to chat_link do %>
+      <i class="fa fa-comment"></i>
+    <% end %>
   </div>
   <div class="floating-dropdown__item floating-dropdown--hidden-item text-center" data-toggle='tooltip' data-placement='left' title='Forum'>
     <%= link_to forum_link do %>
@@ -11,11 +13,3 @@
     <i class="fa fa-comments" aria-hidden="true"></i>
   </div>
 </div>
-
-<script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: 'theodinproject/theodinproject',
-    activationElement: false
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
