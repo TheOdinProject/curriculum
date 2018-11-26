@@ -391,4 +391,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Thomas Tenaglia's solution](https://github.com/thomastenaglia/rock_paper_scissors/blob/master/index.html)
 - [Gregory's UI solution](https://github.com/Selvdrap/Rock-Paper-Scissors) - [View in Browser](https://selvdrap.github.io/Rock-Paper-Scissors/)
 - [Ariane's console solution](https://github.com/aria919/paper-rock-scissors)
+- [Roger's solution](https://github.com/rdkerr/rock-paper-scissors) - [View in Browser](https://rdkerr.github.io/rock-paper-scissors/)
 - [Edward's console solution](https://github.com/EdwardHeath/rock_paper_scissors)
