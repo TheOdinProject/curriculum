@@ -384,7 +384,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DaveAlexander's Solution](https://github.com/davealexander/rockpaperscissors) - [View in Browser](https://davealexander.github.io/rockpaperscissors/)
 - [Andrea Diotallevi's Solution](https://github.com/AndreaDiotallevi/rock_paper_scissors)
 - [TheEdenProject's Solution](https://github.com/TheEdenProject/rock-paper-scissors) - [View in Browser](https://theedenproject.github.io/rock-paper-scissors/)
-- [Doris's solution](https://github.com/dsmchen/rock-paper-scissors)
+- [Doris's solution](https://github.com/dsmchen/rock-paper-scissors/blob/master/index.html) - [view in browser](https://dsmchen.github.io/rock-paper-scissors/index.html) - [simple UI solution](https://github.com/dsmchen/rock-paper-scissors/blob/master/index2.html) - [view in browser](https://dsmchen.github.io/rock-paper-scissors/index2.html)
 - [Dhruvi's solution](https://github.com/DhruviJariwala/Rock-Paper-Scissors) - [View in Browser](https://dhruvijariwala.github.io/Rock-Paper-Scissors/)
 - [Vitaly Osipov's solution](https://github.com/vi7ali/rock-paper-scissors) - [View in Browser](https://vi7ali.github.io/rock-paper-scissors/)
 - [keskiviikko's solution](https://github.com/keskiviikko/project-rps) - [View in Browser](https://keskiviikko.github.io/project-rps/)
@@ -392,3 +392,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Gregory's UI solution](https://github.com/Selvdrap/Rock-Paper-Scissors) - [View in Browser](https://selvdrap.github.io/Rock-Paper-Scissors/)
 - [Ariane's console solution](https://github.com/aria919/paper-rock-scissors)
 - [Roger's solution](https://github.com/rdkerr/rock-paper-scissors) - [View in Browser](https://rdkerr.github.io/rock-paper-scissors/)
+- [Edward's console solution](https://github.com/EdwardHeath/rock_paper_scissors)

@@ -94,6 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Allan Glasier's Solution (Easy)](http://allanglasier.com/google-homepage/) - [View in Browser](http://allanglasier.com/google-homepage/)
+* [Allan Glasier's Solution (Difficult)](http://allanglasier.com/google-search-results/) - [View in Browser](http://allanglasier.com/google-search-results/)
 * [Carlos Ávila's Solution (Easy)](https://cravila.github.io/google-homepage/) - [View in Browser](https://cravila.github.io/google-homepage/)
 * [Carlos Ávila's Solution (Difficult)](https://cravila.github.io/google-search-results/) - [View in Browser](https://cravila.github.io/google-search-results/)
 * [Nicolas Figueroa's Solution (Easy)](https://github.com/nicolasfig/google-homepage) - [View in Browser](https://nicolasfig.github.io/google-homepage/)
@@ -1755,6 +1757,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Morrow Davidson's Solution(Easy)](https://github.com/morrowdavidson/google-homepage) - [View in Browser](https://morrowdavidson.github.io/google-homepage/)
 * [Rebeccode's Solution (Easy)](https://github.com/rebeccode/google-homepage)  - [View in Browser](https://rebeccode.github.io/google-homepage/) [Rebeccode's Solution(Difficult)](https://github.com/rebeccode/google-search) - [View in Browser](https://rebeccode.github.io/google-search/)
 * [Hart Emmanuel's Solution (Easy)](https://github.com/hartology/google-homepage) - [View in Browser](https://hartology.github.io/google-homepage/)
+* [Roger's Solution (Easy)](https://github.com/rdkerr/google-homepage) - [View in Browser](https://rdkerr.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
