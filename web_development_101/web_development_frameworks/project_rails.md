@@ -23,6 +23,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Yusuf Parak's Solution](https://github.com/ycparak/rails-blogger) - [View in browser](https://guarded-shore-55350.herokuapp.com/)
 * [WormCrew's Solution](https://github.com/WormCrew/blogger)- [View in browser](https://limitless-peak-97236.herokuapp.com/articles)
 * [Stefano Merazzi's Solution](https://github.com/ste001/blogger) - [View in browser](https://safe-everglades-94703.herokuapp.com/)
 * [Colton Shaheen's Solution](https://github.com/coltonshaheen/blogger) - [View in browser](https://fathomless-oasis-59642.herokuapp.com/)
