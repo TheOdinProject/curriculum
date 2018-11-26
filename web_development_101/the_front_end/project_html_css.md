@@ -100,7 +100,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Helari's Solution (Easy)]
 (https://helaris.github.io/Google-HomePage/) - [View in Browser]
 * [Elizabeth's Solution (Easy)]
-(https://misselliev.github.io/google-homePage/) - [View in Browser]
+(https://misselliev.github.io/google-homepage/) - [View in Browser]
+* [Elizabeth's Solution (Difficult)]
+(https://misselliev.github.io/google-results-page/) - [View in Browser]
 * [Karson Nichols Solution (Easy)](https://github.com/nicholsk18/google-homepage) - [View in Browser](https://nicholsk18.github.io/google-homepage/)
 * [Stormgren Solution (Easy)](https://github.com/Stormgren/OldGoogle/tree/master)
 * [Origier's Solution (Difficult)](https://github.com/Origier/google_result) - [View in Browser](https://origier.github.io/google_result/)
