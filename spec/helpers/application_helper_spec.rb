@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe ApplicationHelper do
   describe '#chat_link' do
     it 'returns the chat url' do
-      expect(chat_link).to eq('https://gitter.im/TheOdinProject/theodinproject')
+      expect(chat_link).to eq('https://discord.gg/hvqVr6d')
     end
   end
 

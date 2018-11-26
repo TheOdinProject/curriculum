@@ -11,17 +11,17 @@ RSpec.describe ButtonHelper do
     end
   end
 
-  describe '#gitter_button' do
-    let(:gitter_button) {
-      '<a class="button button--secondary" target="_blank" rel="noreferrer" href="https://gitter.im/TheOdinProject/theodinproject">Open Gitter</a>'
+  describe '#chat_button' do
+    let(:chat_button) {
+      '<a class="button button--secondary" target="_blank" rel="noreferrer" href="https://discord.gg/hvqVr6d">Open Discord</a>'
     }
 
     before do
-      allow(helper).to receive(:chat_link).and_return('https://gitter.im/TheOdinProject/theodinproject')
+      allow(helper).to receive(:chat_link).and_return('https://discord.gg/hvqVr6d')
     end
 
-    it 'returns a gitter button' do
-      expect(helper.gitter_button).to eql(gitter_button)
+    it 'returns a chat button' do
+      expect(helper.chat_button).to eql(chat_button)
     end
   end
 

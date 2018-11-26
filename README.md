@@ -12,7 +12,7 @@ We teach:
 
 This repo contains the main app for the Odin Project which can be found online at [theodinproject.com](https://www.theodinproject.com). It pulls in lesson and project content from our [curriculum repo](https://github.com/TheOdinProject/curriculum).
 
-The Odin project community can be found on our [Gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject).
+The Odin project community can be found on our [Discord server](https://discord.gg/hvqVr6d).
 
 
 ## Contributing

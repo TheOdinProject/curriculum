@@ -15,9 +15,9 @@ module ButtonHelper
     link_to 'Curriculum', curriculum_path, class: 'button button--primary'
   end
 
-  def gitter_button
+  def chat_button
     link_to(
-      'Open Gitter',
+      'Open Discord',
       chat_link,
       class: 'button button--secondary',
       target: '_blank',
