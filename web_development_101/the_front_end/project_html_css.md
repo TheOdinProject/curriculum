@@ -100,7 +100,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Carlos Ávila's Solution (Difficult)](https://cravila.github.io/google-search-results/) - [View in Browser](https://cravila.github.io/google-search-results/)
 * [Nicolas Figueroa's Solution (Easy)](https://github.com/nicolasfig/google-homepage) - [View in Browser](https://nicolasfig.github.io/google-homepage/)
 * [Helari's Solution (Easy)](https://helaris.github.io/Google-HomePage/)
-* [Elizabeth's Solution (Easy)](https://misselliev.github.io/google-homePage/)
+* [Elizabeth's Solution (Easy)](https://misselliev.github.io/google-homepage/)
+* [Elizabeth's Solution (Difficult)](https://misselliev.github.io/google-results-page/)
 * [Karson Nichols Solution (Easy)](https://github.com/nicholsk18/google-homepage) - [View in Browser](https://nicholsk18.github.io/google-homepage/)
 * [Stormgren Solution (Easy)](https://github.com/Stormgren/OldGoogle/tree/master)
 * [Origier's Solution (Difficult)](https://github.com/Origier/google_result) - [View in Browser](https://origier.github.io/google_result/)
@@ -1759,6 +1760,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hart Emmanuel's Solution (Easy)](https://github.com/hartology/google-homepage) - [View in Browser](https://hartology.github.io/google-homepage/)
 * [Roger's Solution (Easy)](https://github.com/rdkerr/google-homepage) - [View in Browser](https://rdkerr.github.io/google-homepage/)
 * [Ange's Solution (Easy)](https://github.com/pekengduck/google_homepage) - [View in Browser](https://pekengduck.github.io/google_homepage/)
+* [Oxvtux's Solution (Easy)](https://github.com/oxvtux/google_homepage) - [View in Browser](https://oxvtux.github.io/google_homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
