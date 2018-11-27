@@ -70,3 +70,4 @@ pickle-email-*.html
 =======
 # Versioning
 .rvmrc
+.tool-versions
