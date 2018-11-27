@@ -1751,7 +1751,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Thomas Tenaglia's Solution(Easy)](https://github.com/thomastenaglia/google-homepage) - [View in Browser](https://thomastenaglia.github.io/google-homepage/)
 * [Gregory's Solution(Easy)](https://github.com/Selvdrap/google-homepage) - [View in Browser](https://selvdrap.github.io/google-homepage/)
 * [Gregory's Solution(Difficult)](https://github.com/Selvdrap/google-results) - [View in Browser](https://selvdrap.github.io/google-results/)
-* [Wayland's Solution(Easy)](https://github.com/chinwayland/google-homepage)
+* [Wayland's Solution(Easy)](https://github.com/chinwayland/google-homepage) - [View in Browser](https://chinwayland.github.io/google-homepage/)
 * [Ocean572's Solution(Easy)](https://github.com/Ocean572/google.com) - [View in Browser](https://ocean572.github.io/google.com/)
 * [Jozaguts Solution(Easy)](https://github.com/jozaguts/google-homepage.git) - [View in Browser](https://jozaguts.github.io/google-homepage/)
 * [Morrow Davidson's Solution(Easy)](https://github.com/morrowdavidson/google-homepage) - [View in Browser](https://morrowdavidson.github.io/google-homepage/)
