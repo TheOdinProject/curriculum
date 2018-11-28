@@ -97,17 +97,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Carlos Ávila's Solution (Easy)](https://cravila.github.io/google-homepage/) - [View in Browser](https://cravila.github.io/google-homepage/)
 * [Carlos Ávila's Solution (Difficult)](https://cravila.github.io/google-search-results/) - [View in Browser](https://cravila.github.io/google-search-results/)
 * [Nicolas Figueroa's Solution (Easy)](https://github.com/nicolasfig/google-homepage) - [View in Browser](https://nicolasfig.github.io/google-homepage/)
-<<<<<<< HEAD
-* [Helari's Solution (Easy)]
-(https://helaris.github.io/Google-HomePage/) - [View in Browser]
-* [Elizabeth's Solution (Easy)]
-(https://misselliev.github.io/google-homepage/) - [View in Browser]
-* [Elizabeth's Solution (Difficult)]
-(https://misselliev.github.io/google-results-page/) - [View in Browser]
-=======
 * [Helari's Solution (Easy)](https://helaris.github.io/Google-HomePage/)
-* [Elizabeth's Solution (Easy)](https://misselliev.github.io/google-homePage/)
->>>>>>> 1e5c9b183d1fdaaf9b3eb5dc020495cf1ac96d9a
+* [Elizabeth's Solution (Easy)](https://misselliev.github.io/google-homepage/)
+* [Elizabeth's Solution (Difficult)](https://misselliev.github.io/google-results-page/)
 * [Karson Nichols Solution (Easy)](https://github.com/nicholsk18/google-homepage) - [View in Browser](https://nicholsk18.github.io/google-homepage/)
 * [Stormgren Solution (Easy)](https://github.com/Stormgren/OldGoogle/tree/master)
 * [Origier's Solution (Difficult)](https://github.com/Origier/google_result) - [View in Browser](https://origier.github.io/google_result/)
