@@ -13,6 +13,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_recursion.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Stefano Merazzi's solution](https://github.com/ste001/ruby-exercises/blob/master/computer_science/fibonacci.rb)
 * [Smetanca52's solution](https://github.com/Smetanca52/ruby_exercices/blob/master/fibonacci.rb)
 * [Dreniak's solution](https://gist.github.com/Dreniak/3aa972df492507debdabeadad7934df7)
 * [Mohamed Elattar' Fibs Solution](https://github.com/mohamed-elattar/odin-project-recursion/blob/master/fibs.rb) - [Mohamed Elattar's Fibs_rec Solution](https://github.com/mohamed-elattar/odin-project-recursion/blob/master/fibs_rec.rb)
@@ -191,6 +192,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Stefano Merazzi's solution](https://github.com/ste001/ruby-exercises/blob/master/computer_science/merge_sort.rb)
 * [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/merge_sort.rb)
 * [Dreniak's Solution](https://gist.github.com/Dreniak/9b2b10c2c117b735b2d381b5104af254) - With normal sort time comparation!
 * [Mohamed Elattar Solution](https://github.com/mohamed-elattar/odin-project-recursion/blob/master/merge_sort.rb)
