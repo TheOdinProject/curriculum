@@ -1761,7 +1761,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Roger's Solution (Easy)](https://github.com/rdkerr/google-homepage) - [View in Browser](https://rdkerr.github.io/google-homepage/)
 * [Ange's Solution (Easy)](https://github.com/pekengduck/google_homepage) - [View in Browser](https://pekengduck.github.io/google_homepage/)
 * [Oxvtux's Solution (Easy)](https://github.com/oxvtux/google_homepage) - [View in Browser](https://oxvtux.github.io/google_homepage/)
-* [Nasirudeen Ismail's Solution (Easy)] (https://ismaeel029.github.io/google_homepage/) - [View in Browser] (https://ismaeel029.github.io/google_homepage/)
+* [Nasirudeen Ismail's Solution (Easy)](https://ismaeel029.github.io/google_homepage/) - [View in Browser](https://ismaeel029.github.io/google_homepage/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
