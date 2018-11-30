@@ -97,6 +97,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Jamesredux's solution [Github](https://github.com/Jamesredux/sinatra_portfolio) / [see it on the web](https://jredux-sinatra.herokuapp.com/)
 * Areeba's solution [github](https://github.com/AREEBAISHTIAQ/sinatra)/ [see it on the web](https://sinatra-.herokuapp.com/)
 * ParamagicDev's solution [Github](https://github.com/ParamagicDev/sinatra_cipher) / [See it on the web](https://dry-ridge-75791.herokuapp.com)
+* bchalman's solution [Github](https://github.com/bchalman/sinatra_caesar_cipher)
 
 ### Project 2: Another Web-Game
 
@@ -183,3 +184,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Malaika's Solution For Hangman: [Github](https://github.com/malaikaMI/Hangman_with_sinatra)
 * AlexFuro's Solution (Hangman): [Github](https://github.com/alexfuro/TOP_hangman) / [Live Demo](https://furohangman.herokuapp.com/)
 * ParamagicDev's Solution (Mastermind): [Github](https://github.com/ParamagicDev/sinatra_mind) / [See it on the web](https://immense-mesa-98857.herokuapp.com)
+* bchalman's Solution (Hangman): [Github](https://github.com/bchalman/sinatra_hangman) / [Live](https://fierce-plains-57125.herokuapp.com/)

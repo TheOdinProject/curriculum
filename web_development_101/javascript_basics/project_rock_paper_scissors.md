@@ -36,7 +36,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-
+- [Allan Glasier's Solution](http://allanglasier.com/rock-paper-scissors/) - [View in Browser](http://allanglasier.com/rock-paper-scissors/)
+- [Allan Glasier's Console Solution](https://github.com/allan-glasier/rock-paper-scissors/blob/master/index(original).html)
 - [Dale Thompson's Solution](https://github.com/Dale-Thompson/rock-paper-scissors) - [View in Browser](https://dale-thompson.github.io/rock-paper-scissors/)
 - [Nicolas Figueroa's Console Solution](https://github.com/nicolasfig/rock-paper-scissors) - [View in Browser](https://nicolasfig.github.io/rock-paper-scissors/)
 - [Joe Vilasi's Console Solution](https://github.com/Vilasi/rock-paper-scissors)
@@ -49,6 +50,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [evilla's Console Solution](https://github.com/evilla-19/rock-paper-scissor-odin) - [evilla's UI solution](https://github.com/evilla-19/rock-paper-scissor-odin-with-UI)
 - [View UI solution in Browser] (https://evilla-19.github.io/rock-paper-scissor-odin-with-UI/)
 - [rahuljain's Console Solution](https://github.com/rahul3197/rock_paper_scissor)
+- [Elizabeth's console solution](https://github.com/misselliev/rockpaperscissors_game)
 - [Victor's Console Solution](https://github.com/victor-lf/rock-paper-scissors) - [View in Browser](https://victor-lf.github.io/rock-paper-scissors/) - [Victor's GUI Solution](https://github.com/victor-lf/rock-paper-scissors-gui) - [View in Browser](https://victor-lf.github.io/rock-paper-scissors-gui/)
 - [Wabbajack0's Solution](https://github.com/Wabbajack0/rock_paper_scissors) - [View in Browser](https://wabbajack0.github.io/rock_paper_scissors/)
 - [Grace's Console Solution](https://github.com/gracewitter/100DaysOfCode/blob/master/practice%20exercises/project-rock-paper-scissors.html)
