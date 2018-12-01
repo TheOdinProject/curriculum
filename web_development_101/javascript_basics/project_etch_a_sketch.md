@@ -256,3 +256,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Deepa's Solution](https://github.com/deepasara/etch-a-sketch) - [View in Browser](https://deepasara.github.io/etch-a-sketch/)
 * [Dhruvi's Solution](https://github.com/DhruviJariwala/Etch-a-Sketch) - [View in Browser](https://dhruvijariwala.github.io/Etch-a-Sketch/)
 * [Gregory's solution](https://github.com/Selvdrap/Etch-a-Sketch) - [View in Browser](https://selvdrap.github.io/Etch-A-Sketch/)
+* [Edward's solution](https://github.com/EdwardHeath/Etch-A-Sketch)
