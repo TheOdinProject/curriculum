@@ -1,4 +1,4 @@
-<% if current_page?(controller: 'static_pages', action: 'home') && Rails.env.production? %>
+<% if Rails.env.production? && current_page?(root_path) %>
 <!-- FB pixel -->
 <script>
     !function(f,b,e,v,n,t,s)
