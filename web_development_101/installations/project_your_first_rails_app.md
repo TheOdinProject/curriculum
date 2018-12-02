@@ -210,7 +210,7 @@ git push -u origin master
 
 replacing `<SSH URL from Above>` with the URL that you copied.
 
-The terminal will start it's work, pausing to verify that you're okay connection to GitHub 
+The terminal will start it's work, pausing to verify your connection to GitHub.
 
 A message from Github, 'The authenticity of host 'github.com'...', may appear during the process. You can type `yes` and hit enter to continue.
 
