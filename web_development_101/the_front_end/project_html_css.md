@@ -1766,7 +1766,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Melobeat's Solution (Easy)](https://github.com/Melobeat/google-homepage) - [View in Browser](https://melobeat.github.io/google-homepage/) - [Melobeat's Solution (Difficult)](https://github.com/Melobeat/google-search-page) - [View in Browser](https://melobeat.github.io/google-search-page/)
 * [Gough's Solution (Easy)](https://github.com/Joel-Price/google-homepage)
 * [Baltser Aleksey Solution (Easy)](https://github.com/alexbaltser/test-site) - [View in Browser](https://alexbaltser.github.io/test-site/)
-* [Sol's Solution (Easy)] (https://solhallam.github.io/google-homepage/ - [View in Browser](https://solhallam.github.io/google-homepage/)
+* [Sol's Solution (Easy)](https://solhallam.github.io/google-homepage/ - [View in Browser](https://solhallam.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
