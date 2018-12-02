@@ -5,6 +5,7 @@ Learning how to program takes work. Like any skill worth knowing, it takes time 
 ### Motivation
 
 Take a moment to think about why you have decided to learn programming.
+
 * Do you want to have a fulfilling career that pays well?
 * Are you excited by the creative outlet programming provides? 
 * Are you determined to develop the skills and abilities to build any app you can think of? 
