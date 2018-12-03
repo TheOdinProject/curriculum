@@ -98,6 +98,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Areeba's solution [github](https://github.com/AREEBAISHTIAQ/sinatra)/ [see it on the web](https://sinatra-.herokuapp.com/)
 * ParamagicDev's solution [Github](https://github.com/ParamagicDev/sinatra_cipher) / [See it on the web](https://dry-ridge-75791.herokuapp.com)
 * bchalman's solution [Github](https://github.com/bchalman/sinatra_caesar_cipher)
+* Tommy's solution [Github](https://github.com/hoangtommy/sinatra_caesar_cipher) / [Live](https://still-forest-86955.herokuapp.com)
 
 ### Project 2: Another Web-Game
 
