@@ -265,10 +265,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/mastermind)
-<<<<<<< HEAD
-=======
 * [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/tree/master/mastermind)
->>>>>>> working_2
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/mastermind) - [Live repl.it Version](https://repl.it/@mohamed_attar/mastermind)
 * [ahmed ali's solution](https://github.com/ahmedloona/my_odin_project_solutions/tree/master/2_project_oop/ahmed_ali_mastermind_exercises/lib)
 * [prw001's solution](https://github.com/prw001/mastermind)
