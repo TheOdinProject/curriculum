@@ -40,6 +40,12 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [Allan Glasier`s Solution](http://allanglasier.com/etch-a-sketch/) - [View in Browser](http://allanglasier.com/etch-a-sketch/)
+* [Radu`s Solution](https://github.com/radu-man/etch_a_sketch) - [View in Browser](https://radu-man.github.io/etch_a_sketch/)
+* [Eddy's solution](https://github.com/sudo-eddy/the-odin-project-my-portfolio/tree/master/Etch-a-Sketch)
+* [Dale Thompson's Solution](https://github.com/Dale-Thompson/rock-paper-scissors) - [View in Browser](https://dale-thompson.github.io/etch-a-sketch/)
+* [Akbar's Solution](https://github.com/donatelloraphael/etch-a-sketch) - [View in Browser](https://donatelloraphael.github.io/etch-a-sketch/)
+* [Origier's Solution](https://github.com/Origier/etch_a_sketch) - [View in Browser](https://origier.github.io/etch_a_sketch/)
 * [Tommy's Solution](https://github.com/Tommyisr/Etch-A-Sketch) - [View in Browser](https://tommyisr.github.io/EtchASketch/)
 * [learnsometing's Solution](https://github.com/learnsometing/etchASketch) - [View in Browser](https://learnsometing.github.io/etchASketch/)
 * [Stefano Merazzi's Solution](https://github.com/ste001/etch-a-sketch) - [View in browser](https://ste001.github.io/etch-a-sketch/)
@@ -248,3 +254,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [CaptainSensible's Solution](https://github.com/CaptainSensible/etch-a-sketch) - [View in Browser](https://captainsensible.github.io/etch-a-sketch/)
 * [Molly Kelsey's Solution](https://github.com/mkels/sketch/) - [View in Browser](https://mkels.github.io/sketch)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/etch-a-sketch) - [View in Browser](https://vi7ali.github.io/etch-a-sketch/)
+* [Deepa's Solution](https://github.com/deepasara/etch-a-sketch) - [View in Browser](https://deepasara.github.io/etch-a-sketch/)
+* [Dhruvi's Solution](https://github.com/DhruviJariwala/Etch-a-Sketch) - [View in Browser](https://dhruvijariwala.github.io/Etch-a-Sketch/)
+* [Gregory's solution](https://github.com/Selvdrap/Etch-a-Sketch) - [View in Browser](https://selvdrap.github.io/Etch-A-Sketch/)
+* [Edward's solution](https://github.com/EdwardHeath/Etch-A-Sketch)

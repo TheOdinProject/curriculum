@@ -29,6 +29,7 @@ Enough talk! Let's build!
 Submit a link below to the [github repo](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/pair_programming/project_pairing.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
+* [jj's Solution](https://github.com/jj-made/pomodoro-clock) - [View in Browser](https://jj-made.github.io/pomodoro-clock/index)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/pomodoro_clock) - [View in Browser](https://cwegscheid08.github.io)
 * [jinjagit's Solution](https://github.com/jinjagit/pomodoro) - [View in Browser](https://jinjagit.github.io/pomodoro/)
 * [Tobenski's Solution](https://github.com/tobenski/Pomodoro_Clock) - [View in Browser](https://tobenski.github.io/Pomodoro_Clock/)
@@ -89,6 +90,8 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-pomodoro-clock) - [View in Browser](https://codymalcolm.github.io/odin-pomodoro-clock/)
 * [Husseyexplores' Solution](https://github.com/husseyexplores/odin-pomodoro-clock) - [View in Browser](https://husseyexplores.github.io/odin-pomodoro-clock/)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/pomodoro-clock) - [View in Browser](https://imemdm.github.io/pomodoro-clock/)
+* [Ghassan's Solution](https://github.com/GT001/TOP-Pomodoro-Clock) - [View in Browser](https://gt001.github.io/TOP-Pomodoro-Clock/)
+* [mwk913's Solution](https://github.com/mwk913/pomodoro-clock) - [View in Browser](https://mwk913.github.io/pomodoro-clock/)
 
 ### Next Steps
 

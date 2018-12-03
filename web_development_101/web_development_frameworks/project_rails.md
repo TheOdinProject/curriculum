@@ -23,6 +23,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Yusuf Parak's Solution](https://github.com/ycparak/rails-blogger) - [View in browser](https://guarded-shore-55350.herokuapp.com/)
+* [WormCrew's Solution](https://github.com/WormCrew/blogger)- [View in browser](https://limitless-peak-97236.herokuapp.com/articles)
 * [Stefano Merazzi's Solution](https://github.com/ste001/blogger) - [View in browser](https://safe-everglades-94703.herokuapp.com/)
 * [Colton Shaheen's Solution](https://github.com/coltonshaheen/blogger) - [View in browser](https://fathomless-oasis-59642.herokuapp.com/)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/first_blog_app) - [View in browser](https://warm-dusk-34129.herokuapp.com/articles)
@@ -337,6 +339,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [wuaangela's Solution](https://github.com/wuaangela/ROR_blogger) - [View in browser](https://desolate-everglades-27885.herokuapp.com/)
 * [Ghassan's Solution](https://github.com/GT001/TheOdinProject-RubyonRails-Blogger) - [View in browser](https://vast-harbor-87818.herokuapp.com/)
 * [Slaven Karamatic's Solution](https://github.com/Everdrought/blogger) - [View in browser](https://peaceful-headland-49289.herokuapp.com/)
+* [mwk913's solution](https://github.com/mwk913/rails_blog) - [View in browser](https://immense-ocean-86005.herokuapp.com/articles)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

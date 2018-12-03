@@ -52,6 +52,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Newsweek/) - [View in browser](https://ncud4bloc.github.io/Newsweek/HTML/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/newsweek-project) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/newsweek-project/index.html)
 * [aznafro's solution](https://github.com/aznafro/newsweek/) - [View in browser](https://aznafro.github.io/newsweek/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/Newsweek) - [View in browser](https://areebaishtiaq.github.io/Newsweek/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

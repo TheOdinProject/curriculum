@@ -1,3 +1,6 @@
+### Welcome to The Odin Project
+The Odin Project is an open source community dedicated to providing the best sources information to take you from zero to full-stack developer.  More information at [The Odin Project](https://www.theodinproject.com/about)
+
 ### Introduction
 
 With Ruby installed we're all set to create your first Ruby on Rails application
@@ -319,7 +322,7 @@ Save the file. You can close VSCode now; the rest of the steps take place in the
 
 #### Step 4.6: Adding Changes to git
 
-Now that we have made some changes need to tell git. This is required to successfully deploy to Heroku as well.
+Now that we have made some changes we need to tell git. This is required to successfully deploy to Heroku as well.
 
 We will first check which files have been updated by running `git status`:
 
@@ -385,7 +388,7 @@ heroku run rails db:migrate
 
 You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! 
 
-If you have an error, come to the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support), and ask for help, be sure to include the entire output from your terminal.
+If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help, be sure to include the entire output from your terminal.
 
 #### Step 4.9: Visit your new application
 

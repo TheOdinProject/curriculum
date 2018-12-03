@@ -55,6 +55,8 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/databases/SQL_zoo_project.sql)
 * [Betul Sahin's solution](https://github.com/betulsahin87/My-SQLZoo-Solutions)
 * [Victor Jin's Solution](https://github.com/Viktorjin/SQL-Project-1.-SQL-Zoo)
+* [Tommy's Solution](https://github.com/hoangtommy/sqlzoo)
+* [bchalman's Solution](https://github.com/bchalman/sql-zoo/blob/master/sql_zoo_tutorials.sql)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

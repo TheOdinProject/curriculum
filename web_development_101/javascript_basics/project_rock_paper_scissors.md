@@ -35,7 +35,13 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 ### Student Solutions
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
-- Add your solution below this line! 
+- Add your solution below this line!
+- [Jieselle's Console Solution](https://github.com/jieselle/Rock-Paper-Scissors-Game)
+- [Allan Glasier's Solution](http://allanglasier.com/rock-paper-scissors/) - [View in Browser](http://allanglasier.com/rock-paper-scissors/)
+- [Allan Glasier's Console Solution](https://github.com/allan-glasier/rock-paper-scissors/blob/master/index(original).html)
+- [Dale Thompson's Solution](https://github.com/Dale-Thompson/rock-paper-scissors) - [View in Browser](https://dale-thompson.github.io/rock-paper-scissors/)
+- [Nicolas Figueroa's Console Solution](https://github.com/nicolasfig/rock-paper-scissors) - [View in Browser](https://nicolasfig.github.io/rock-paper-scissors/)
+- [Joe Vilasi's Console Solution](https://github.com/Vilasi/rock-paper-scissors)
 - [Akbar's console solution](https://github.com/donatelloraphael/rock-paper-scissors) - [Akbar's GUI solution](https://github.com/donatelloraphael/rock-paper-scissors-gui) - [View in browser](https://donatelloraphael.github.io/rock-paper-scissors-gui/)
 - [Tommy's UI solution](https://github.com/Tommyisr/UI-rock-paper-scissors) - [View in Browser](https://tommyisr.github.io/UI-rock-paper-scissors/)
 - [Michael Randrianarisona's console solution](https://github.com/KhaelM/rock-paper-scissors) - [View in Browser](https://khaelm.github.io/rock-paper-scissors/)
@@ -45,6 +51,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [evilla's Console Solution](https://github.com/evilla-19/rock-paper-scissor-odin) - [evilla's UI solution](https://github.com/evilla-19/rock-paper-scissor-odin-with-UI)
 - [View UI solution in Browser] (https://evilla-19.github.io/rock-paper-scissor-odin-with-UI/)
 - [rahuljain's Console Solution](https://github.com/rahul3197/rock_paper_scissor)
+- [Elizabeth's console solution](https://github.com/misselliev/rockpaperscissors_game)
 - [Victor's Console Solution](https://github.com/victor-lf/rock-paper-scissors) - [View in Browser](https://victor-lf.github.io/rock-paper-scissors/) - [Victor's GUI Solution](https://github.com/victor-lf/rock-paper-scissors-gui) - [View in Browser](https://victor-lf.github.io/rock-paper-scissors-gui/)
 - [Wabbajack0's Solution](https://github.com/Wabbajack0/rock_paper_scissors) - [View in Browser](https://wabbajack0.github.io/rock_paper_scissors/)
 - [Grace's Console Solution](https://github.com/gracewitter/100DaysOfCode/blob/master/practice%20exercises/project-rock-paper-scissors.html)
@@ -89,6 +96,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mohammad Reza's Solution](https://github.com/Creative301/rock-paper-scissors)
 - [Mohamed Elattar's Console Solution](https://github.com/mohamed-elattar/RockPaperScissors-console) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-console/87d9d989/index.html) - [Mohamed Elattar's GUI Solution](https://github.com/mohamed-elattar/RockPaperScissors-GUI) - [View In Browser](https://cdn.rawgit.com/mohamed-elattar/RockPaperScissors-GUI/9edbcd9d/index.html)
 - [gilv93's Solution](https://github.com/gilv93/odinProjectRPS) - [View In Browser](https://gilv93.github.io/odinProjectRPS)
+- [gkortsit's Solution](https://github.com/gkortsit/Rock-Paper-Scissors)
 - [lbburnsy's Solution](https://github.com/lbburnsy/rock-paper-scissors)
 - [LeviButcher's Solution](https://github.com/LeviButcher/rock-paper-scissor) - [View In Browser](https://levibutcher.github.io/rock-paper-scissor/)
 - [amanData's solution](https://github.com/amanData/rock-paper-scissors) - [UI Solution](https://github.com/amanData/rock-paper-scissors-ui) - [UI Solution View in Browser](https://amandata.github.io/rock-paper-scissors-ui/)
@@ -379,6 +387,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DaveAlexander's Solution](https://github.com/davealexander/rockpaperscissors) - [View in Browser](https://davealexander.github.io/rockpaperscissors/)
 - [Andrea Diotallevi's Solution](https://github.com/AndreaDiotallevi/rock_paper_scissors)
 - [TheEdenProject's Solution](https://github.com/TheEdenProject/rock-paper-scissors) - [View in Browser](https://theedenproject.github.io/rock-paper-scissors/)
-- [Doris's solution](https://github.com/dsmchen/rock-paper-scissors)
+- [Doris's solution](https://github.com/dsmchen/rock-paper-scissors/blob/master/index.html) - [view in browser](https://dsmchen.github.io/rock-paper-scissors/index.html) - [simple UI solution](https://github.com/dsmchen/rock-paper-scissors/blob/master/index2.html) - [view in browser](https://dsmchen.github.io/rock-paper-scissors/index2.html)
 - [Dhruvi's solution](https://github.com/DhruviJariwala/Rock-Paper-Scissors) - [View in Browser](https://dhruvijariwala.github.io/Rock-Paper-Scissors/)
 - [Vitaly Osipov's solution](https://github.com/vi7ali/rock-paper-scissors) - [View in Browser](https://vi7ali.github.io/rock-paper-scissors/)
+- [keskiviikko's solution](https://github.com/keskiviikko/project-rps) - [View in Browser](https://keskiviikko.github.io/project-rps/)
+- [Thomas Tenaglia's solution](https://github.com/thomastenaglia/rock_paper_scissors/blob/master/index.html)
+- [Gregory's UI solution](https://github.com/Selvdrap/Rock-Paper-Scissors) - [View in Browser](https://selvdrap.github.io/Rock-Paper-Scissors/)
+- [Ariane's console solution](https://github.com/aria919/paper-rock-scissors)
+- [Roger's solution](https://github.com/rdkerr/rock-paper-scissors) - [View in Browser](https://rdkerr.github.io/rock-paper-scissors/)
+- [Edward's console solution](https://github.com/EdwardHeath/rock_paper_scissors)
