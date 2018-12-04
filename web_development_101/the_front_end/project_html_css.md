@@ -95,7 +95,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 
+
 * [Nathan Dimitriades' Solution (Easy)](https://github.com/nathaniades/google-homepage) - [View in Browser](https://nathaniades.github.io/google-homepage/)
+* [Kemi Thomas's Solution (Easy)](https://github.com/kem247/google_homepage) - [View in Browser](https://kem247.github.io/google_homepage/)
 * [Samuel Marcus' Solution (Difficult)](https://github.com/smarcus4/GoogleSearchpage) - [View in Browser](https://smarcus4.github.io/GoogleSearchpage/)
 * [Samuel Marcus' Solution (Easy)](https://github.com/smarcus4/GoogleHomepage) - [View in Browser](https://smarcus4.github.io/GoogleHomepage/)
 * [Allan Glasier's Solution (Easy)](http://allanglasier.com/google-homepage/) - [View in Browser](http://allanglasier.com/google-homepage/)
