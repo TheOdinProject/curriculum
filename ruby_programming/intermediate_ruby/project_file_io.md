@@ -204,3 +204,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/hangman-project)
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/tree/master/ruby-programming/intermediate-ruby/File_IO_%26_Serialization/hangman)
 * [Petrarch1603's solution](https://github.com/petrarch1603/Ruby-Hangman)
+* [Slaven's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/hangman/hangman.rb)

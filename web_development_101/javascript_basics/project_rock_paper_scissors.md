@@ -36,7 +36,9 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-- [Allan Glasier's Solution](https://github.com/allan-glasier/rock-paper-scissors) - [View in Browser](http://allanglasier.com/rock-paper-scissors/)
+- [Jieselle's Console Solution](https://github.com/jieselle/Rock-Paper-Scissors-Game)
+- [Allan Glasier's Solution](http://allanglasier.com/rock-paper-scissors/) - [View in Browser](http://allanglasier.com/rock-paper-scissors/)
+- [Allan Glasier's Console Solution](https://github.com/allan-glasier/rock-paper-scissors/blob/master/index(original).html)
 - [Dale Thompson's Solution](https://github.com/Dale-Thompson/rock-paper-scissors) - [View in Browser](https://dale-thompson.github.io/rock-paper-scissors/)
 - [Nicolas Figueroa's Console Solution](https://github.com/nicolasfig/rock-paper-scissors) - [View in Browser](https://nicolasfig.github.io/rock-paper-scissors/)
 - [Joe Vilasi's Console Solution](https://github.com/Vilasi/rock-paper-scissors)
@@ -394,3 +396,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ariane's console solution](https://github.com/aria919/paper-rock-scissors)
 - [Roger's solution](https://github.com/rdkerr/rock-paper-scissors) - [View in Browser](https://rdkerr.github.io/rock-paper-scissors/)
 - [Edward's console solution](https://github.com/EdwardHeath/rock_paper_scissors)
+- [Nasirudeen Ismail's Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)
+- [Nasirudeen Ismail's UI Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)

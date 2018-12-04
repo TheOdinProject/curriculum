@@ -1,50 +1,49 @@
-### What is Web Development/What do Web Developers do?
+### What Do Web Developers Do?
 
-In short: web developers build and maintain websites.
+In short, web developers build and maintain websites.
 
-Web developers will often work for clients who are trying to get their product/service onto the web.
-The work is typically very project-focused and involves collaborating with a team that helps to coordinate the client's needs with the end product.
-The clients could be a tech company, an organization, or a government.
-The work could involve the front end, the back end, or full stack.
+Web developers often work for clients who are trying to get their product or service onto the web.
+The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
 
-This could be your profession if you like solving logical problems, building useful things, and experimenting with new technologies.
-Web developers are in high demand, generally have a good work/life balance, and command comfortable salaries. Google your specific location for more details.
+Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies.
+Web developers are in high demand, generally have a good work/life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
 
-For more details, Wikipedia lays out the breadth of the web design profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
+For more details, Wikipedia describes the breadth of the web development profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
 
 ### Types of Web Developers
 
-Earlier, we mentioned that the work could be in the front end, the back end, or full stack. What exactly are these?
+Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
 
-The "Front End" is the stuff you see on the website in your browser, including the presentation of content and the user interface elements like the navigation bar.
-Front End Developers make use of HTML, CSS, Javascript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
+The **front end** is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar.
+Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
 
-The "Back End" refers to the guts of the application, which live on the server. They manipulate data appropriately to make sure the Front End has what it needs. This can become very complicated as things scale.
-Back End Developers make use of programming languages like Java, Python, and Ruby (among many others) to work with data.
+The **back end** refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users.
+Back-end developers use programming languages like Java, Python, and Ruby to work with data.
 
-"Full Stack" Developers marry both sides into one. A Full Stack developer can comfortably work with both the front and back ends. This is what we focus on building you up to here.
+**Full-stack developers** are comfortable working with both the front and back ends. In The Odin Project, we focus on teaching you full-stack development, covering all aspects of web development.
 
-For more details, Udacity has a great blog post on it: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
+For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
 ### Types of Careers
 
-Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients/employers you may work with.
+Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with.
 
-There are large tech companies, like Google, Facebook, Amazon, etc. They have very high hiring requirements, but they offer excellent pay, benefits, and opportunities.
+Large tech companies, such as Google, Facebook, and Amazon, have very stringent hiring requirements. If you successfully meet these expectations, they offer excellent pay, benefits, and opportunities.
 
-There are startups, which are a bit like the wild west. For a junior developer, it can feel like a trial by fire because of the pace of development. They often offer slightly lower salaries and require longer hours, but may also offer equity in the company and highly unique environments.
+Startups are a bit like the wild west. For a junior developer, it can feel like a trial by fire because of the pace of development. Startups often offer slightly lower salaries and require longer hours, but they may also offer equity in the company and highly unique environments.
 
-As a freelancer, you could command a strong hourly wage and the freedom to schedule and design your own products. However, you would be responsible for getting your own work (which means less coding time), managing billing from clients (who can be difficult), and being solely responsible. Strong people skills are necessary.
+As a freelancer, you could command a strong hourly wage and the freedom to schedule and design your own products. However, you would be responsible for getting your own work (which means less coding time), managing billing from clients (who can be difficult), and being solely responsible. Strong people skills are necessary for this path.
 
-As a consultant for a web consultancy, you would give up some of your freelancing wage potential, but be able to focus more on the code and less on the hustle. They also provide a good work/life balance and pay.
-There are also older big companies who still need web developers. They will also offer a good work/life balance, pay, and benefits, but often move slower than a company that is highly focused on tech.
+As a consultant for a web consultancy, you would give up some of your freelancing wage potential but be able to focus more on the code and less on the hustle. This option also provides a good work/life balance and pay.
+
+Finally, large, older companies still need web developers. These companies offer a good work/life balance, pay, and benefits but often move slower than a company that is highly focused on tech.
 
 ### Tools of the Trade
 
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
 * **Computer**
-* **Google**
+* **[Google](https://www.google.com/)**
 * **Text Editor**
 * **Command Line Interface (CLI)**
 * **[Stack Overflow](http://stackoverflow.com/)**
@@ -53,13 +52,12 @@ These are some of the basic tools you will use regularly. You may not know what 
 
 ### Motivation
 
-Learning to code is incredibly rewarding but it can also be difficult and frustrating.
+Learning to code is incredibly rewarding but can also be difficult and frustrating.
 The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
 
-So you need to build. Build and build and build and keep on building as much as you can. Build projects that try out new technologies and build things that you need.
-Once you start to get comfortable, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you practice, the more you will learn about what you can do and the closer you will get to being hireable.
+Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
 
 Read [this comprehensive blog post from Happy Bear Software](https://www.happybearsoftware.com/how-to-get-a-programmer-job) about the journey to getting hired as a brief introduction to what you will face ahead.
 
@@ -67,29 +65,29 @@ Read [this comprehensive blog post from Happy Bear Software](https://www.happybe
 
 I want you to know that this will not be easy.
 
-There are plenty of other online curriculums for beginners, but they are often taught in an extremely isolated and controlled environment, and only cover a specific topic.
+There are plenty of other online curriculums for beginners, but they are often taught in an extremely isolated and controlled environment and cover only a specific topic.
 
-The Odin Project takes a realistic view of what you need to know, and has you set up and work in your own environment, much like what you'll be doing when you get a job.
+The Odin Project takes a realistic view of what you need to know and has you set up and work in your own environment, much like what you'll be doing when you get a job.
 
 It acknowledges that you need a wide variety of skillsets and languages to reach an employable level.
 
-It is constantly evolving because of people like you who further along will oftentimes pay it forward and incrementally improve our content again and again.
+The Odin Project is constantly evolving because of people like you who get further along in the curriculum and pay it forward by incrementally improving our content over time.
 
 ### Conclusion
 
 Hopefully, you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career. This has only been a teaser into the world of web development.
 
-In this course, "Web Development 101," you'll take a journey through the entire spectrum of topics that you will eventually need to know. It is meant to jump around a variety of topics that you are totally unfamiliar with, let you have a small taste of them, and then move on.
+In this course, "Web Development 101," you'll take a journey through the entire spectrum of topics that you will eventually need to know. This course jumps around to a variety of topics that you may be totally unfamiliar with, providing you a small taste of each and then moving on.
 
-The following courses will dive deep into these topics later on, and you will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
+The following courses will dive deep into these topics. You will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
-Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard) so you have a good idea of what the journey ahead is like.  But what worthwhile thing is truly easy?
+Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
 
 Yes, it's going to be challenging.
 
-But it's going to be fun.
+But it's also going to be fun.
 
-And it might be life-changing too.
+And it might even be life changing, too.
 
 *What are you waiting for?*
 
