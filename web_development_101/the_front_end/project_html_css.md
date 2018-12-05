@@ -1772,6 +1772,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Baltser Aleksey Solution (Easy)](https://github.com/alexbaltser/test-site) - [View in Browser](https://alexbaltser.github.io/test-site/)
 * [Sol's Solution (Easy)](https://solhallam.github.io/google-homepage/) - [View in Browser](https://solhallam.github.io/google-homepage/)
 * [Victor Coelhos's Solution (Easy)](https://victor-coelho.github.io/google-mockup/) - [View in Browser](https://victor-coelho.github.io/google-mockup/)
+* [Malditagaseosa Solution (Easy)](https://malditagaseosa.github.com/google-page) - [View in Browser](https://malditagaseosa.github.io/google-page)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
