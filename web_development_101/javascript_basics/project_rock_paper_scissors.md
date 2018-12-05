@@ -398,3 +398,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Edward's console solution](https://github.com/EdwardHeath/rock_paper_scissors)
 - [Nasirudeen Ismail's Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)
 - [Nasirudeen Ismail's UI Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)
+- [Victor Coelho's Solution](https://github.com/Victor-Coelho/janken-odin)
