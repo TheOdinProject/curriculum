@@ -1774,8 +1774,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sol's Solution (Easy)](https://solhallam.github.io/google-homepage/) - [View in Browser](https://solhallam.github.io/google-homepage/)
 * [Victor Coelhos's Solution (Easy)](https://victor-coelho.github.io/google-mockup/) - [View in Browser](https://victor-coelho.github.io/google-mockup/)
 * [Malditagaseosa Solution (Easy)](https://malditagaseosa.github.com/google-page) - [View in Browser](https://malditagaseosa.github.io/google-page)
-
 * [Mohammed Nabeel's Solution ](https://mnabeelp.github.io/google-homepage/) - [View in Browser](https://mnabeelp.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
