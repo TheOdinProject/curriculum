@@ -125,8 +125,9 @@ ruby -v
 which should return ruby 2.5.3:
 
 ~~~bash
-ruby 2.5.3p57 (2018-03-29 revision 63029) [x86_64-linux]
+ruby 2.5.3pxx (20xx-xx-xx revision xxxx) [x86_64-linux]
 ~~~
+where x represents the versioning available at the time you install ruby.
 
 Well Done! Pat yourself on the back. The hard part is done! Go ahead and move on to the next lesson!
 
