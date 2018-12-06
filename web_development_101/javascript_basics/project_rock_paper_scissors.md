@@ -104,7 +104,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Seth Robinson's solution](https://github.com/petrichor829/rock-paper-scissors) - [View console solution in browser](https://petrichor829.github.io/rock-paper-scissors/game-console.html) - [View UI solution in browser](https://petrichor829.github.io/rock-paper-scissors/game-ui.html)
 - [AlexandreLeFou's Solution](https://github.com/AlexandreLeFou/RockPaperScissors/blob/master/RockPaperScissors_console.html) - [View in Browser](https://alexandrelefou.github.io/RockPaperScissors/)
 - [Smetanca52's Solution](https://github.com/Smetanca52/simple_game) - [View In Browser](https://cdn.rawgit.com/Smetanca52/simple_game/ecc9b35e/rock.html)
-- [codeymason's Solution](https://github.com/codeymason/rockpaperscissor)
+- [codeymason's Solution](https://github.com/codeymason/rockpaperscissor) - [View In Browser](https://codeymason.github.io/rockpaperscissors_visual/)
 - [terrancebee's Solution](https://github.com/terrancebee/rock-paper-scissors)
 - [Todd Yoshioka's Solution](https://github.com/toddhy/rpc_game)
 - [prw001's Solution](https://github.com/prw001/RPS_part_II)
