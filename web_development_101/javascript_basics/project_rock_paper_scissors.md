@@ -57,6 +57,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Grace's Console Solution](https://github.com/gracewitter/100DaysOfCode/blob/master/practice%20exercises/project-rock-paper-scissors.html)
 - [Chase's solution](https://github.com/shadowimmage/odin_project-Rock-Paper-Scissors) - [View in Browser](https://shadowimmage.github.io/odin_project-Rock-Paper-Scissors/)
 - [Lisa Tidball's Console Solution](https://li3097.github.io/Rock-Paper-Scissors/)
+- [Hammad Ahmed's UI Solution](https://github.com/shammadahmed/Rock-Paper-Scissors-UI)
 - [Hammad Ahmed's Console Solution](https://github.com/shammadahmed/Rock-Paper-Scissors)
 - [Fajri Fadli's Console Solution](https://github.com/FajriFadli/rps-console) - [View in Browser](https://fajrifadli.github.io/rps-console/) - [Fajri Fadli's UI Solution](https://github.com/FajriFadli/rps-gui) - [View UI Solution in Browser](https://fajrifadli.github.io/rps-gui/)
 - [Uzor's Solution](https://github.com/uzorjchibuzor/uzorjchibuzor-rock-paper-scissors) [View in Browser](https://uzorjchibuzor.github.io/uzorjchibuzor-rock-paper-scissors/)
