@@ -400,3 +400,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nasirudeen Ismail's Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)
 - [Nasirudeen Ismail's UI Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)
 - [Victor Coelho's Solution](https://github.com/Victor-Coelho/janken-odin)
+- [Victor Coelho's UI Solution](https://github.com/Victor-Coelho/janken-odin) - [View in Browser](https://victor-coelho.github.io/janken-odin/)
