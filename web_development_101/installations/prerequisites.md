@@ -90,7 +90,7 @@ It's important to note a few things about coding in a virtual environment:
 
 *Read this whole section before continuing*
 
-Dual-booting provides you two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck we're here to help in the [Odin Tech Support chat room](https://gitter.im/TheOdinProject/tech_support). Come say "Hi".
+Dual-booting provides you two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi".
 
 ### Step 1: Downloading Linux
 
