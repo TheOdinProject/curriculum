@@ -7,7 +7,7 @@ Working and collaborating with other people is an important part of working as a
 
   1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 
-  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). Jump in and introduce yourself in the [introductions category](https://forum.theodinproject.com/c/introductions). Tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code. We also have [forum categories]((https://forum.theodinproject.com/categories) for asking for help, working on Odin, and hanging out. 
+  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). Jump in and introduce yourself in the [introductions category](https://forum.theodinproject.com/c/introductions). Tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code. We also have [forum categories](https://forum.theodinproject.com/categories) for asking for help, working on Odin, and hanging out. 
   3. Finally, sign up for the [chat app](https://discord.gg/5v6s6rs). Pop in and say hello! We're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
 
 </div>
