@@ -168,7 +168,7 @@ From inside the Ubuntu terminal type:
 mkdir /mnt/c/Users/<Your Windows Username>/Documents/Projects
 ~~~
 
-(Replace `<Your Windows Username>` with your Windows username). This will create a new `Projects` folder inside of your Documents folder. Obviously you could have used windows explore to click your way there too, but why not use our fancy new toy?
+(Replace `<Your Windows Username>` with your Windows username). This will create a new `Projects` folder inside of your Documents folder. Obviously you could have used windows explorer to click your way there too, but why not use our fancy new toy?
 
 #### Step 3.2: Create the Symbolic Link
 
