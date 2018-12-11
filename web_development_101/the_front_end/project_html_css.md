@@ -1778,6 +1778,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Malditagaseosa Solution (Easy)](https://malditagaseosa.github.com/google-page) - [View in Browser](https://malditagaseosa.github.io/google-page)
 * [Mohammed Nabeel's Solution ](https://mnabeelp.github.io/google-homepage/) - [View in Browser](https://mnabeelp.github.io/google-homepage/)
 * [Renee Quinn's Solution (Easy)](https://github.com/reneequinn/google-homepage) - [View in Browser](https://reneequinn.github.io/google-homepage/)
+ * [Leila Alderman's solution (Easy)](https://github.com/leila-alderman/google-homepage) - [View in Browser](https://leila-alderman.github.io/google-homepage/)
 
 
 ### Additional Resources
