@@ -404,4 +404,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Victor Coelho's UI Solution](https://github.com/Victor-Coelho/janken-odin) - [View in Browser](https://victor-coelho.github.io/janken-odin/)
 - [Doomsheep1's console solution](https://github.com/doomsheep1/RPS) - [View in Browser](https://doomsheep1.github.io/RPS/)
 - [Leila Alderman's solution](https://github.com/leila-alderman/rock-paper-scissors) - [View in Browser](https://leila-alderman.github.io/rock-paper-scissors/)
-- [Erin Ponsonby's console solution] (https://github.com/eponsonby/rock-paper-scissors)
+- [Erin Ponsonby's console solution](https://github.com/eponsonby/rock-paper-scissors)
