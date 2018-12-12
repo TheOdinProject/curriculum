@@ -36,6 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Eliezer's Console Solution](https://github.com/vzla0094/rock_paper_scissors/blob/master/practica.js)
 - [Jieselle's Console Solution](https://github.com/jieselle/Rock-Paper-Scissors-Game)
 - [Allan Glasier's Solution](http://allanglasier.com/rock-paper-scissors/) - [View in Browser](http://allanglasier.com/rock-paper-scissors/)
 - [Allan Glasier's Console Solution](https://github.com/allan-glasier/rock-paper-scissors/blob/master/index(original).html)
@@ -400,3 +401,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nasirudeen Ismail's Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)
 - [Nasirudeen Ismail's UI Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)
 - [Victor Coelho's Solution](https://github.com/Victor-Coelho/janken-odin)
+- [Victor Coelho's UI Solution](https://github.com/Victor-Coelho/janken-odin) - [View in Browser](https://victor-coelho.github.io/janken-odin/)
+- [Doomsheep1's console solution](https://github.com/doomsheep1/RPS) - [View in Browser](https://doomsheep1.github.io/RPS/)
+- [Leila Alderman's solution](https://github.com/leila-alderman/rock-paper-scissors) - [View in Browser](https://leila-alderman.github.io/rock-paper-scissors/)
+- [Erin Ponsonby's console solution](https://github.com/eponsonby/rock-paper-scissors)

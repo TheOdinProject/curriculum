@@ -39,6 +39,7 @@ Here are some use cases (abilities your project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Hammad's Solution](https://github.com/shammadahmed/calculator) - [View in Browser](https://shammadahmed.github.io/calculator/)
 - [Eddy's solution](https://github.com/sudo-eddy/the-odin-project-my-portfolio/tree/master/JS%20Calculator)
 - [BShowen's Solution](https://github.com/BShowen/ProjectCalculator) - [View in Browser](https://bshowen.github.io/ProjectCalculator/)
 - [Origier's Solution](https://github.com/Origier/calculator) - [View in Browser](https://origier.github.io/calculator/)
@@ -185,3 +186,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jeff's solution](https://github.com/JeffFromParis/calculator-project) - [View in browser](https://jefffromparis.github.io/calculator-project/)
 - [Jahmzu's Solution](https://github.com/jahmzu/TOP-calculator2) - [View in browser](https://jahmzu.github.io/TOP-calculator2/)
 - [tnharvey's Solution](https://github.com/tnharvey/jsCalculator) - [View in browser](https://tnharvey.github.io/jsCalculator/)
+- [awash227's Solution](https://github.com/awash227/calculator) - [View in browser](https://awash227.github.io/calculator)

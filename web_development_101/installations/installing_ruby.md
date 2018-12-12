@@ -96,7 +96,7 @@ $ rbenv -v
 rbenv 1.1.1-39-g59785f6
 ~~~
 
-If you do not get a version number, please seek help in the [Odin Project Chat Room](https://gitter.im/TheOdinProject/tech_support)
+If you do not get a version number, please seek help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916)
 
 #### Step 2.2: Installing Ruby
 

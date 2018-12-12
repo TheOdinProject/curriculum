@@ -260,3 +260,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Gregory's solution](https://github.com/Selvdrap/Etch-a-Sketch) - [View in Browser](https://selvdrap.github.io/Etch-A-Sketch/)
 * [Edward's solution](https://github.com/EdwardHeath/Etch-A-Sketch)
 * [Doris's solution](https://github.com/dsmchen/etch-a-sketch) - [view in browser](https://dsmchen.github.io/etch-a-sketch/)
+* [Victor Coelho's Solution](https://github.com/Victor-Coelho/etch-a-sketch) - [view in browser](https://victor-coelho.github.io/etch-a-sketch/)
+* [Leila Alderman's solution](https://github.com/leila-alderman/etch-a-sketch) - [View in Browser](https://leila-alderman.github.io/etch-a-sketch/)
