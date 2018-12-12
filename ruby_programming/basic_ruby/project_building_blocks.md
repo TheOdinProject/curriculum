@@ -1086,4 +1086,4 @@ Next, make sure your method can handle multiple words:
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/substrings.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/ruby-substrings/blob/master/script.rb)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/substrings.rb)
-* [mwk913's solution](https://github.com/mwk913/Caesar-Cipher)
+* [mwk913's solution](https://github.com/mwk913/Ruby-Building-Blocks)
