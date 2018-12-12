@@ -1,5 +1,5 @@
 ### Welcome to The Odin Project
-The Odin Project is an open source community dedicated to providing the best sources information to take you from zero to full-stack developer.  More information at [The Odin Project](https://www.theodinproject.com/about)
+The Odin Project is an open source community dedicated to providing the best sources of information to take you from zero to full-stack developer. More information at [The Odin Project](https://www.theodinproject.com/about)
 
 ### Introduction
 
@@ -109,7 +109,7 @@ cd odin_on_rails
 
 #### Step 2.3: Create the Application
 
-This is where things might become more foreign, if you don't understand, just double check your typing and keep going. This section is meant to expose you to the process and verify everything is working. Again, it's OK to not understand at this point.
+This is where things might become more foreign. If you don't understand, just double check your typing and keep going. This section is meant to expose you to the process and verify everything is working. Again, it's OK to not understand at this point.
 
 We are going to start by telling rails to initialize the application for us. We will then tell rails to create a template for us so we can get up and running.
 
@@ -142,11 +142,11 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### step 2.4: Start it up!
+#### Step 2.4: Start it up!
 
 Now that you have created a rails application, we can start it up and see if it works!
 
-run:
+Run:
 
 ~~~bash
 rails server
