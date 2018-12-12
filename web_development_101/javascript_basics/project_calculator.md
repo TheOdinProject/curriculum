@@ -187,3 +187,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jahmzu's Solution](https://github.com/jahmzu/TOP-calculator2) - [View in browser](https://jahmzu.github.io/TOP-calculator2/)
 - [tnharvey's Solution](https://github.com/tnharvey/jsCalculator) - [View in browser](https://tnharvey.github.io/jsCalculator/)
 - [awash227's Solution](https://github.com/awash227/calculator) - [View in browser](https://awash227.github.io/calculator)
+- [Leila Alderman's solution](https://github.com/leila-alderman/calculator) - [View in browser](https://leila-alderman.github.io/calculator/)
