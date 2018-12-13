@@ -36,6 +36,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 - Add your solution below this line!
+- [Hammad Ahmed's Solution](https://github.com/shammadahmed/library) - [View in Browser](https://shammadahmed.github.io/library/)
 - [Chris MacSwan's Solution](https://github.com/cmacswan07/my_library) - [View in Browser](https://cmacswan07.github.io/my_library)
 - [Alaa's Solution](https://github.com/alaajerbi/book-library) - [View in Browser](https://alaajerbi.github.io/book-library)
 - [Omid's solution](https://github.com/omid997/library-odin) - [View In Browser](https://omid997.github.io/library-odin/)
@@ -78,3 +79,4 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [aznafro's Solution](https://github.com/aznafro/library) - [View in browser](https://aznafro.github.io/library/)
 - [Areeba's Solution](https://github.com/AREEBAISHTIAQ/project-library) - [View in browser](https://areebaishtiaq.github.io/project-library/)
 - [Khalal's Solution](https://github.com/khalalw/Odin/tree/master/javascript/library) - [View in browser](https://khalalw.github.io/Odin/javascript/library/index.html)
+- [Taylor J's Solution](https://github.com/taylorjohannsen/library) - [View in browser](https://taylorjohannsen.github.io/library/)

@@ -101,7 +101,7 @@ Digital distractions are email and Facebook notifications and time-wasting websi
 #### Physical Distractions
 Physical distractions are distractions from your environment, like a TV in the background or other people talking. These distractions can be just as damaging to your focus as digital distractions.
 
-**Solution:** Find a quiet place to study where you can go to to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment.
+**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment.
 
 #### Rabbit Holes
 Because we cover so much material on The Odin Project and link to so many high quality courses and tools, it is easy for students to get pulled into rabbit holes by spending time trying to learn all there is to know about a subject that they aren't ready for or won't benefit them much. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to know about web development are covered exactly when you need to know them.

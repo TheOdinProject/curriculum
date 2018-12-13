@@ -40,6 +40,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [Hammad Ahmed`s Solution](https://github.com/shammadahmed/Etch-A-Sketch) - [View in Browser](https://shammadahmed.github.io/Etch-A-Sketch/)
 * [Allan Glasier`s Solution](http://allanglasier.com/etch-a-sketch/) - [View in Browser](http://allanglasier.com/etch-a-sketch/)
 * [Radu`s Solution](https://github.com/radu-man/etch_a_sketch) - [View in Browser](https://radu-man.github.io/etch_a_sketch/)
 * [Eddy's solution](https://github.com/sudo-eddy/the-odin-project-my-portfolio/tree/master/Etch-a-Sketch)
@@ -258,3 +259,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Dhruvi's Solution](https://github.com/DhruviJariwala/Etch-a-Sketch) - [View in Browser](https://dhruvijariwala.github.io/Etch-a-Sketch/)
 * [Gregory's solution](https://github.com/Selvdrap/Etch-a-Sketch) - [View in Browser](https://selvdrap.github.io/Etch-A-Sketch/)
 * [Edward's solution](https://github.com/EdwardHeath/Etch-A-Sketch)
+* [Doris's solution](https://github.com/dsmchen/etch-a-sketch) - [view in browser](https://dsmchen.github.io/etch-a-sketch/)
+* [Victor Coelho's Solution](https://github.com/Victor-Coelho/etch-a-sketch) - [view in browser](https://victor-coelho.github.io/etch-a-sketch/)
+* [Leila Alderman's solution](https://github.com/leila-alderman/etch-a-sketch) - [View in Browser](https://leila-alderman.github.io/etch-a-sketch/)

@@ -34,6 +34,7 @@ There's a video about it [from Harvard's CS50 class](https://www.youtube.com/wat
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Neeraj's Solution](https://github.com/neeraj33negi/OdinProjectSolutions/blob/master/caeser_cipher.rb)
 * [José Porcher's Solution](https://github.com/jeporcher/odin-projects/blob/master/caesar-cipher.rb)
 * [WormCrew's Solution](https://github.com/WormCrew/Caesar-cypher)
 * [Paul Manot's Solution](https://github.com/Maynot2/odin_project/tree/master/ruby_programming/basic_ruby/project_building_blocks/ceasar_cipher)
@@ -415,6 +416,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Neeraj's Solution](https://github.com/neeraj33negi/OdinProjectSolutions/blob/master/stock_picker.rb)
 * [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/stock_picker.rb)
 * [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/blob/master/building_blocks/stock_picker.rb)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/stock_picker/blob/master/stock_picker.rb)
@@ -1085,3 +1087,4 @@ Next, make sure your method can handle multiple words:
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/substrings.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/ruby-substrings/blob/master/script.rb)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/substrings.rb)
+* [mwk913's solution](https://github.com/mwk913/Ruby-Building-Blocks)

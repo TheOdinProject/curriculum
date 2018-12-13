@@ -18,6 +18,7 @@ You will be building a simple command line Hangman game where one player plays a
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/hangman)
 * [Stefano Merazzi's solution](https://github.com/ste001/hangman)
 * [Smetanca52's solution](https://github.com/Smetanca52/hangman_game)
 * [Tommy Hogwart's solution](https://github.com/hoangtommy/Hogwarts-Hangman) - [Live Demo](https://repl.it/@tommyhoang1/HogwartsHangman)
@@ -205,3 +206,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/tree/master/ruby-programming/intermediate-ruby/File_IO_%26_Serialization/hangman)
 * [Petrarch1603's solution](https://github.com/petrarch1603/Ruby-Hangman)
 * [Slaven's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/hangman/hangman.rb)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_programming/hangman) - [Play on Repl.it](https://repl.it/@Brendaneus/JuniorTroubledCodec)
