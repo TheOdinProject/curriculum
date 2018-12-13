@@ -126,7 +126,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Samuel Masters's solution (Mastermind)[Github](https://github.com/redeyetuning/sin_mastermind)[Live](https://polar-gorge-27519.herokuapp.com/)
 * Javier Machin's solution (Hangman)[Github](https://github.com/Javier-Machin/hangman_app)[Live](https://whispering-woodland-74608.herokuapp.com/)
 * 0zra's solution (Mastermind)[Github](https://github.com/0zra/heroku_mastermind)
-* Roman Alenskiy's solution (Hangman) [Github](https://github.com/Roman-Alenskiy/web_hangman) / [Heroku](https://web-hangman.herokuapp.com/)
+* Roman Alenskiy's solution (Hangman) [Github](https://github.com/romalenskiy/web_hangman) / [Heroku](https://web-hangman.herokuapp.com/)
 * Isil Donmez's solution(Hangman)[Github](https://github.com/isildonmez/hangman_reloaded)[Live](https://hangman-reloaded.herokuapp.com/)
 * Ovsjah Schweinefresser's Solution (Hangman) [Github](https://github.com/Ovsjah/hangman_on_web) - [Live](https://warm-inlet-77219.herokuapp.com/game)
 * Lucas Bicudo's Solution (Hangman) [Github](https://github.com/lucbic/hangman) - [Live](https://lit-garden-60308.herokuapp.com/)

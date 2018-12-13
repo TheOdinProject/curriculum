@@ -51,7 +51,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Wabbajack0's Solution](https://github.com/Wabbajack0/calculator) - [View in Browser](https://wabbajack0.github.io/calculator/)
 - [Lucas's Solution](https://github.com/ogdendavis/calculator) - [View in Browser](https://ogdendavis.github.io/calculator/)
 - [Waris's Solution](https://github.com/warisz/calculator-gui) - [View in Browser](https://cdn.rawgit.com/warisz/calculator-gui/530cc7dd/index.html)
-- [Roman Alenskiy's Solution (responsive, mobile)](https://github.com/Roman-Alenskiy/calculator) - [View in Browser](https://roman-alenskiy.github.io/calculator/)
+- [Roman Alenskiy's Solution (responsive, mobile)](https://github.com/romalenskiy/calculator) - [View in Browser](https://romalenskiy.github.io/calculator/)
 - [Trevor's Solution](https://github.com/trevorsinnott/calculator) - [View in Browser](https://trevorsinnott.github.io/calculator/)
 - [Ochuko's Solution](https://github.com/ochuko56/calculator) - [View in Browser](https://ochuko56.github.io/calculator/)
 - [Tobenski's Solution](https://github.com/tobenski/calculator) - [View in Browser](https://tobenski.github.io/calculator/)
