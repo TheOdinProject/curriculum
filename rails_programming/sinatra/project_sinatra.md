@@ -5,9 +5,9 @@ You've seen how simple it can be to get something up and running using Sinatra, 
 ### A note on deploying your apps
 Deploying a Sinatra app to Heroku takes a little bit of work but the process is fairly straightforward. Instructions can be found [here](https://devcenter.heroku.com/articles/rack#sinatra)
 
-1. your `config.rb` file should require your main application file (This will be something like `web_guesser.rb` in the jumpstart tutorial)
+1. your `config.ru` file should require your main application file (This will be something like `web_guesser.rb` in the jumpstart tutorial)
 2. if you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
-3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before [creating a Heroku app and pushing it](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote).
+3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before [creating a Heroku app and pushing it](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote) via `git push heroku master`.
 
 ### Project 1: Caesar Cipher _reloaded_
 
