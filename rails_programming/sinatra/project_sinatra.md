@@ -186,3 +186,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * AlexFuro's Solution (Hangman): [Github](https://github.com/alexfuro/TOP_hangman) / [Live Demo](https://furohangman.herokuapp.com/)
 * ParamagicDev's Solution (Mastermind): [Github](https://github.com/ParamagicDev/sinatra_mind) / [See it on the web](https://immense-mesa-98857.herokuapp.com)
 * bchalman's Solution (Hangman): [Github](https://github.com/bchalman/sinatra_hangman) / [Live](https://fierce-plains-57125.herokuapp.com/)
+* Tommy's Solution (Hogwarts Hangman): [Github](https://github.com/hoangtommy/sinatra_hangman) / [Live](https://powerful-wildwood-91516.herokuapp.com/)
