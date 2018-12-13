@@ -1783,7 +1783,7 @@ Submit a pull request with a link to your solution in this [file](https://github
  * [Leila Alderman's solution (Easy)](https://github.com/leila-alderman/google-homepage) - [View in Browser](https://leila-alderman.github.io/google-homepage/)
 * [Thaís Falbo(Easy)](https://github.com/thaisfalbo/google-homepage)
 * [Yaroslav Vyugin (Easy)](https://github.com/Yar1991/google-homepage) - [View in Browser](https://yar1991.github.io/google-homepage/)
-
+* [Tayo Olayinka's (Easy)](https://github.com/olayinkatayo/google-homepage) - [View in Browser](https://olayinkatayo.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
