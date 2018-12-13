@@ -28,6 +28,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
 * Add your solution below this line!
+* [Origier's solution](https://github.com/Origier/learn_ruby)
+* [Akbar's solution](https://github.com/donatelloraphael/learn_ruby)
 * [Eddy's solution](https://github.com/sudo-eddy/ruby-TDD)
 * [Bojo's Solution](https://github.com/BojoZahariev/learn_ruby)
 * [WormCrew's Solution](https://github.com/wormcrew/learn_ruby)
@@ -465,6 +467,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Slaven Karamatic's Solution](https://github.com/Everdrought/learn_ruby)
 * [mwk913's Solution](https://github.com/mwk913/learn_ruby)
 * [Yusuf Parak's Solution](https://github.com/ragtagjoe/learn_ruby)
+* [Edward Heath's Solution](https://github.com/EdwardHeath/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
