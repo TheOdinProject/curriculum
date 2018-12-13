@@ -99,6 +99,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * ParamagicDev's solution [Github](https://github.com/ParamagicDev/sinatra_cipher) / [See it on the web](https://dry-ridge-75791.herokuapp.com)
 * bchalman's solution [Github](https://github.com/bchalman/sinatra_caesar_cipher)
 * Tommy's solution [Github](https://github.com/hoangtommy/sinatra_caesar_cipher) / [Live](https://still-forest-86955.herokuapp.com)
+* Slaven's solution [Github](https://github.com/Everdrought/sinatra_caesar_cypher) / [See it on the web](https://cryptic-earth-54812.herokuapp.com/)
 
 ### Project 2: Another Web-Game
 
