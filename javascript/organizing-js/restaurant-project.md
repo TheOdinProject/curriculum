@@ -46,7 +46,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 - [Nate Dimock's solution](https://github.com/Flakari/js-restaurant) - [View in Browser](https://flakari.github.io/js-restaurant/)
-- [Roman Alenskiy's solution](https://github.com/Roman-Alenskiy/restaurant-page) - [Live preview](https://roman-alenskiy.github.io/restaurant-page/)
+- [Roman Alenskiy's solution](https://github.com/romalenskiy/restaurant-page) - [Live preview](https://romalenskiy.github.io/restaurant-page/)
 - [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/Restaurant) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/Restaurant/dist/index.html)
 - [Qin's solution](https://github.com/hyathynth/restaurant-page) - [View in Browser](https://hyathynth.github.io/restaurant-page/)
 - [Javier Machin's solution](https://github.com/Javier-Machin/js-restaurant) - [View in Browser](https://javier-machin.github.io/js-restaurant/)
