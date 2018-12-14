@@ -1785,6 +1785,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Yaroslav Vyugin (Easy)](https://github.com/Yar1991/google-homepage) - [View in Browser](https://yar1991.github.io/google-homepage/)
 * [Tayo Olayinka's (Easy)](https://github.com/olayinkatayo/google-homepage) - [View in Browser](https://olayinkatayo.github.io/google-homepage/)
 * [George Roberts' solution (Easy)](https://github.com/robertsGeorge/google-homepage) - [View in Browser](https://robertsgeorge.github.io/google-homepage/)
+* [Ayooluwa Olosunde's solution (Easy)](https://github.com/lovisgod/google_hompage) - [View in Browser](https://lovisgod.github.io/google_hompage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
