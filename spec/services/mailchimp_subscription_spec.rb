@@ -19,5 +19,23 @@ RSpec.describe MailchimpSubscription do
       MailchimpSubscription.new(options).create
       expect(mailchimp_member_exists?(email, list_id)).to eq(true)
     end
+
+    context 'when an error occurs with mail chimp' do
+      let(:request) { double('Gibbon::Request', ) }
+      let(:mailchimp_list) { double('MailChimp::List', members: members) }
+      let(:members) { double('Members') }
+
+      before do
+        allow(Gibbon::Request).to receive(:new).and_return(request)
+        allow(request).to receive(:lists).and_return(mailchimp_list)
+        allow(members).to receive(:create).and_raise(Gibbon::MailChimpError)
+      end
+
+      it 'sends the error to new relic' do
+        expect(NewRelic::Agent).to receive(:notice_error)
+
+        MailchimpSubscription.new(options).create
+      end
+    end
   end
 end
