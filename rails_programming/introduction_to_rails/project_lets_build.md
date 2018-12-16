@@ -78,6 +78,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Rest_Client_Example)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/rest-client/blob/master/rest-client.rb)
 * [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
+* [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
 
 ### Project: Ruby on Rails Tutorial
 
