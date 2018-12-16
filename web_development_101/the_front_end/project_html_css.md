@@ -1788,7 +1788,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ayooluwa Olosunde's solution (Easy)](https://github.com/lovisgod/google_hompage) - [View in Browser](https://lovisgod.github.io/google_hompage/)
 * [JMG1995's solution (Easy)](https://github.com/JMG1995/google_homepage) - [View in Browser](https://jmg1995.github.io/google_homepage/)
 * [Adam N's solution (Easy)](https://acnoonan.github.io/google-homepage/) - [View in Browser](https://acnoonan.github.io/google-homepage/) 
-
+* [Bartol's solution (Easy)](https://github.com/bartold3ak/google-homepage) - [View in Browser](https://bartold3ak.github.io/google-homepage/) 
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
