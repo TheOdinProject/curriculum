@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this list
 * [Ramanujam Gond Solution (Easy - index.html & Difficult - search_result.html)](https://github.com/ramanujamgond/google-homepage-replica) - [View in Browser](https://ramanujamgond.github.io/google-homepage-replica/)
 * [Braxton Lemmon's Solution (Easy)](https://github.com/braxtonlemmon/google-homepage) - [View in Browser](https://braxtonlemmon.github.io/google-homepage)
+* [Braxton Lemmon's Solution (Difficult)](https://github.com/braxtonlemmon/googleresultspage) - [View in Browser](https://braxtonlemmon.github.io/googleresultspage)
 * [Digenaldo Neto's Solution (Easy)](https://digenaldo.github.io/google-homepage/) - [View in Browser](https://digenaldo.github.io/google-homepage/)
 * [Aaron Thomas's Solution (Easy)](https://github.com/a-thomas175/google-homepage) - [View in Browser](https://a-thomas175.github.io/google-homepage/)
 * [Dean Qian's solution (Easy)](https://github.com/dqian93/google-homepage) - [View in Browser](https://dqian93.github.io/google-homepage/)
