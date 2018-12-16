@@ -189,3 +189,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [awash227's Solution](https://github.com/awash227/calculator) - [View in browser](https://awash227.github.io/calculator)
 - [Leila Alderman's solution](https://github.com/leila-alderman/calculator) - [View in browser](https://leila-alderman.github.io/calculator/)
 - [Victor Coelho's solution](https://github.com/Victor-Coelho/calculator) - [View in browser](https://victor-coelho.github.io/calculator/)
+- [Vitaly Osipov's solution](https://github.com/vi7ali/calculator) - [View in browser](https://vi7ali.github.io/calculator/)
