@@ -93,6 +93,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matthew King's solution](https://github.com/thewmking/ruby-chess)
 * [Jamesredux's solution](https://github.com/Jamesredux/chess)
 * [Punnadittr's solution](https://github.com/punnadittr/chess)
+* [Alex's solution](https://github.com/alexcorremans/chess)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
