@@ -182,3 +182,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Calstream's solution - Hangman: [github](https://github.com/Calstream/hangman-sinatra) / [play here](https://hanged-man.herokuapp.com/)
 * Malaika's Solution For Hangman: [Github](https://github.com/malaikaMI/Hangman_with_sinatra)
 * AlexFuro's Solution (Hangman): [Github](https://github.com/alexfuro/TOP_hangman) / [Live Demo](https://furohangman.herokuapp.com/)
+* BrianEspo's Solution (Hangman): [Githuib](https://github.com/bribrah/Sinatra-Projects/tree/master/hangman_site) / [Live Demo](https://brianshangman.herokuapp.com/)
