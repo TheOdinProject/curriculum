@@ -80,6 +80,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Elena's solution](https://github.com/elena-sam/nytimes-clone) - [View in browser](elena-sam.github.io/nytimes-clone)
 * [Punnadittr's solution](https://github.com/punnadittr/nyt-article) - [View in browser](https://punnadittr.github.io/nyt-article/)
 * [aznafro's solution](https://github.com/aznafro/nytarticle) - [View in browser](https://aznafro.github.io/nytarticle/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/NYT-article) - [View in browser](https://areebaishtiaq.github.io/NYT-article/)
+* [Taylor J's solution](https://github.com/taylorjohannsen/nytmockup) - [View in browser](https://taylorjohannsen.github.io/nytmockup/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

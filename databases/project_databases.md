@@ -12,6 +12,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 If you've been keeping track of the SQL Zoo solutions, [put them here!](https://github.com/TheOdinProject/curriculum/blob/master/databases/project_databases.md) submit a link to your solutions below by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Diana's Solution](https://github.com/dianastanciu/sql_zoo/blob/master/README.md)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/sql_zoo_tutorials/blob/master/sql_zoo_tutorials.sql)
 * [Malaika's Solution](https://github.com/malaikaMI/Project_SQL_Zoo)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/SQL_zoo_solutions.sql)
@@ -55,6 +56,9 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/databases/SQL_zoo_project.sql)
 * [Betul Sahin's solution](https://github.com/betulsahin87/My-SQLZoo-Solutions)
 * [Victor Jin's Solution](https://github.com/Viktorjin/SQL-Project-1.-SQL-Zoo)
+* [Tommy's Solution](https://github.com/hoangtommy/sqlzoo)
+* [bchalman's Solution](https://github.com/bchalman/sql-zoo/blob/master/sql_zoo_tutorials.sql)
+* [Slaven K's solution](https://github.com/Everdrought/sql-zoo-projects)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -7,7 +7,7 @@ Deploying a Sinatra app to Heroku takes a little bit of work but the process is 
 
 1. your `config.ru` file should require your main application file (This will be something like `web_guesser.rb` in the jumpstart tutorial)
 2. if you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
-3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku.
+3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku via `git push heroku master`.
 
 ### Project 1: Caesar Cipher _reloaded_
 
@@ -18,7 +18,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 <div class="lesson-content__panel" markdown="1">
 1. Start a new Sinatra project (you can begin by doing a simple hello world as in the Jumpstart tutorial, just to make sure everything is set up correctly)
 2. You should be able to do this with only one view, and a couple of routes, but feel free to be as fancy as you like.
-3. [Deploy to Heroku!](https://devcenter.heroku.com/articles/rack#sinatra)
+3. Deploy to Heroku using the instructions at the top of this page.
 </div>
 
 ### Student Solutions
@@ -97,6 +97,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Jamesredux's solution [Github](https://github.com/Jamesredux/sinatra_portfolio) / [see it on the web](https://jredux-sinatra.herokuapp.com/)
 * Areeba's solution [github](https://github.com/AREEBAISHTIAQ/sinatra)/ [see it on the web](https://sinatra-.herokuapp.com/)
 * ParamagicDev's solution [Github](https://github.com/ParamagicDev/sinatra_cipher) / [See it on the web](https://dry-ridge-75791.herokuapp.com)
+* bchalman's solution [Github](https://github.com/bchalman/sinatra_caesar_cipher)
+* Tommy's solution [Github](https://github.com/hoangtommy/sinatra_caesar_cipher) / [Live](https://still-forest-86955.herokuapp.com)
+* Slaven's solution [Github](https://github.com/Everdrought/sinatra_caesar_cypher) / [See it on the web](https://cryptic-earth-54812.herokuapp.com/)
 
 ### Project 2: Another Web-Game
 
@@ -124,7 +127,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Samuel Masters's solution (Mastermind)[Github](https://github.com/redeyetuning/sin_mastermind)[Live](https://polar-gorge-27519.herokuapp.com/)
 * Javier Machin's solution (Hangman)[Github](https://github.com/Javier-Machin/hangman_app)[Live](https://whispering-woodland-74608.herokuapp.com/)
 * 0zra's solution (Mastermind)[Github](https://github.com/0zra/heroku_mastermind)
-* Roman Alenskiy's solution (Hangman) [Github](https://github.com/Roman-Alenskiy/web_hangman) / [Heroku](https://web-hangman.herokuapp.com/)
+* Roman Alenskiy's solution (Hangman) [Github](https://github.com/romalenskiy/web_hangman) / [Heroku](https://web-hangman.herokuapp.com/)
 * Isil Donmez's solution(Hangman)[Github](https://github.com/isildonmez/hangman_reloaded)[Live](https://hangman-reloaded.herokuapp.com/)
 * Ovsjah Schweinefresser's Solution (Hangman) [Github](https://github.com/Ovsjah/hangman_on_web) - [Live](https://warm-inlet-77219.herokuapp.com/game)
 * Lucas Bicudo's Solution (Hangman) [Github](https://github.com/lucbic/hangman) - [Live](https://lit-garden-60308.herokuapp.com/)
@@ -182,4 +185,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Calstream's solution - Hangman: [github](https://github.com/Calstream/hangman-sinatra) / [play here](https://hanged-man.herokuapp.com/)
 * Malaika's Solution For Hangman: [Github](https://github.com/malaikaMI/Hangman_with_sinatra)
 * AlexFuro's Solution (Hangman): [Github](https://github.com/alexfuro/TOP_hangman) / [Live Demo](https://furohangman.herokuapp.com/)
+* ParamagicDev's Solution (Mastermind): [Github](https://github.com/ParamagicDev/sinatra_mind) / [See it on the web](https://immense-mesa-98857.herokuapp.com)
+* bchalman's Solution (Hangman): [Github](https://github.com/bchalman/sinatra_hangman) / [Live](https://fierce-plains-57125.herokuapp.com/)
+* Tommy's Solution (Hogwarts Hangman): [Github](https://github.com/hoangtommy/sinatra_hangman) / [Live](https://powerful-wildwood-91516.herokuapp.com/)
 * BrianEspo's Solution (Hangman): [Github](https://github.com/bribrah/Sinatra-Projects/tree/master/hangman_site) / [Live Demo](https://brianshangman.herokuapp.com/)

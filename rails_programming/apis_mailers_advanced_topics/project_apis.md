@@ -90,6 +90,7 @@ This project may seem simple, but now you've got a website that is both a normal
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Chibuzor's solution](https://github.com/uzorjchibuzor/odin-kitten)
 * [Javier Machin's solution](https://github.com/Javier-Machin/odin-lizards)
 * [nmac's solution](https://github.com/nmacawile/odin-kittens)
 * [brxck's solution](https://github.com/brxck/kittens-api)
@@ -146,6 +147,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Uy Bình's solution](https://github.com/uybinh/odin-kittens) - [View in Browser](https://odin-kitten-summer-hot.herokuapp.com/api/kittens/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/odin-kittens)
 * [Agon's solution](https://github.com/AgonIdrizi/kitten)
+* [Malaika's Solution](https://github.com/malaikaMI/odin-kittens)
 
 ### Project 2: Using a Third Party API
 
@@ -211,6 +213,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Punnadittr's solution](https://github.com/punnadittr/flickr-api-app) - [View in Browser](https://young-wildwood-74188.herokuapp.com/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/flickr-browser)
 * [Agon's solution](https://github.com/AgonIdrizi/Flickr_photos)
+* [Malaika's Solution](https://github.com/malaikaMI/flickr-browser)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

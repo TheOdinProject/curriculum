@@ -14,7 +14,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. If you haven't already, do the [your frist rails application](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** (at least) and **Ruby 2** working properly.
+1. If you haven't already, do the [your first rails application](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** (at least) and **Ruby 2** working properly.
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.railstutorial.org/book/beginning).
 3. If you haven't done either of these, you should go back to the [Web Development 101](/courses/web-development-101) course and at least do the [Web Development Frameworks section](/courses/web-development-101/#web-development-frameworks).
 
@@ -123,6 +123,9 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Agon's solution](https://github.com/AgonIdrizi/toy_app) - [Heroku](https://toy-app-agon.herokuapp.com/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/toy-app) - [Heroku](https://quiet-anchorage-14578.herokuapp.com/)
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/toy_app) - [Heroku](https://secure-fortress-49127.herokuapp.com/)
+* [ParamagicDev's solution](https://github.com/ParamagicDev/toy_app) - [Heroku](https://toy-app-paramagicdev.herokuapp.com/)
+* [wuaangela's solution](https://github.com/wuaangela/toy_app) - [Heroku](https://desolate-bayou-82880.herokuapp.com/)
+* [Slaven's solution](https://github.com/Everdrought/toy-app) - [Heroku](https://fast-island-19763.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

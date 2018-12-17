@@ -62,7 +62,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Matteo's solution](https://github.com/naufragio/thenextweb) - [View in browser](https://naufragio.github.io/thenextweb/)
 * [Aram Shelton's solution](https://github.com/tonalmasher/next-web/settings) [View in browser](https://tonalmasher.github.io/next-web/)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/responsive_design) [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/responsive_design/index.html)
-* [aznafro's solution](https://github.com/aznafro/tnw) - [View in browser](https://aznafro.github.io/tnw/)
+* [aznafro's solution](https://github.com/aznafro/tnw) - [View in browser](https://aznafro.github.io/thenextweb/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/The-next-web) - [View in browser](https://areebaishtiaq.github.io/The-next-web/)
+* [Taylor J's solution](https://github.com/taylorjohannsen/thenextwebmockup) - [View in browser](https://taylorjohannsen.github.io/thenextwebmockup/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
