@@ -126,7 +126,7 @@ This is an example (listing 3.15) from the tutorial:
     end
 ~~~
 
-This syntax will be a bit different from the testing you have done before, that's because it uses the MiniTest testing framework instead of RSpec, which you have been so far. The syntax is a little different but the concepts are all the same so you shouldn't have much trouble understanding minitest tests. This is an "integration" or "feature" test, which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
+This syntax will be a bit different from the testing you have done before, that's because it uses the MiniTest testing framework instead of RSpec, which you have been using so far. The syntax is a little different but the concepts are all the same so you shouldn't have much trouble understanding minitest tests. This is an "integration" or "feature" test, which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
 
 I'll do a brief walkthrough of what's going on in this example just to get your mind warmed up for testing.  Refer back to the previous lessons on testing and additional resources below for better explanations!
 
