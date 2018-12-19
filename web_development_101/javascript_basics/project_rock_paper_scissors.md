@@ -408,3 +408,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Doomsheep1's console solution](https://github.com/doomsheep1/RPS) - [View in Browser](https://doomsheep1.github.io/RPS/)
 - [Leila Alderman's solution](https://github.com/leila-alderman/rock-paper-scissors) - [View in Browser](https://leila-alderman.github.io/rock-paper-scissors/)
 - [Erin Ponsonby's console solution](https://github.com/eponsonby/rock-paper-scissors)
+- [Mohammed Nabeel's solution](https://mnabeelp.github.io/Rock-Paper-Scissors/)
