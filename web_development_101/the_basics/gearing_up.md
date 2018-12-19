@@ -52,7 +52,7 @@ the ultimate method for ensuring that your theoretial understanding aligns with 
 When learning, your mind will consistently switch between focus mode and diffuse mode. **Focus mode** occurs when you are consciously focusing on learning, reading, watching videos, or working on a project. **Diffuse mode** occurs subconsciously, at times when you are not actively learning, such as when you're doing the dishes, exercising, or sleeping. In this state, your mind
 goes about the business of connecting what you have been learning to the other things you know. This is where breakthroughs happen.
 
-It's important to know that your mind goes through these two states when learning because you can utilise this to make your learning more efficient. When stuck on a concept or project, taking a break to refresh and let your subconscious work on making connections more often than not yields a solution to your problem. The trick is to put effort into solving the problem first and then take a break.
+It's important to know that your mind goes through these two states when learning because you can utilise this to make your learning more efficient. When stuck on a concept or project, taking a break to refresh and let your subconscious work on making connections more often than not yield a solution to your problem. The trick is to put effort into solving the problem first and then take a break.
 
 In short, understand it, practice it, and finally teach it.
 
