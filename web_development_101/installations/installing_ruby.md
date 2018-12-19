@@ -32,7 +32,7 @@ If you're using WSL, open the "Ubuntu 18.04" program from your Start menu.
 
 The rest of the installation will take place inside the terminal window.  
 
-First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run.
+First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
 
 ~~~bash
 sudo apt-get update
@@ -101,7 +101,7 @@ Inside the terminal, run this command:
 rbenv install 2.5.3 --verbose
 ~~~
 
-This command will take some time. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
+This command will take 10-15 to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
 
 When the last command is finished, set the Ruby version and verify that it's working:
 
@@ -135,71 +135,67 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs.
 
-#### Step 1.0: Open up your Terminal
+#### Step 1.1: Open the Terminal
 
-* In your Applications folder find "Utilities" and double click on "Terminal".
+In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (`CMD + Space`) or Launchpad, type "Terminal".
 
-* Alternatively use Spotlight (`CMD + Space`) or Launchpad and type "Terminal".
+The rest of the instructions are done inside this terminal window.
 
-The rest of the installations will take place inside of this terminal window.
+#### Step 1.2: Install Xode
 
-#### Step 1.1: Installing xcode
+First, you need to install Xcode, which is a program provided by Apple for programming. Xcode will install many programs that are needed for Ruby and Git and should take 10-15 minutes to install.
 
-Type `xcode-select --install` into your terminal and press enter. You may need to click "Install" when prompted.
+Type `xcode-select --install` in your terminal and press `enter`. You may need to click "Install" when prompted.
 
-This will install XCode - A program provided by Apple for programming. It will install a lot of necessary programs we need for Ruby and Git. This should take 10-15 minutes to install.
+#### Step 1.3: Install Homebrew
 
-#### Step 1.2: Installing homebrew
-
-Now that XCode is finished installing, we can continue. The next program we need to install is called [homebrew](https://brew.sh/). Homebrew makes it easy to install other programs we will need. From inside of the terminal type:
+The next program you need to install is [Homebrew](https://brew.sh/), which makes it easy to install other programs you'll need. From inside the terminal, type the following:
 
 ~~~bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ~~~
 
-You will be prompted to enter your password. When typing your password you may not get any visual feedback, but rest assured your password is being entered. Once you are done typing your password, press enter.
+You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
 
-Congratulations! You've installed the prerequisites! When you're ready let's move on and install Git.
+Congratulations! You've installed the prerequisites!
 
-### Step 2: Installing git and Heroku
+### Step 2: Install Git and Heroku
 
-Git is one of the most powerful tools in your toolbelt. Git tracks changes in the code, allows collaboration and many other things. Not to worry - You'll learn more about this soon!
+Git is a version control program and one of the most powerful tools in your developer toolbelt. You'll learn more about Git later on.
 
-#### Step 2.1: Updating git
+#### Step 2.1: Update Git
 
-MacOS already comes with a version of git, but we should update it to the latest version. To do that it's as simple as:
+MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
 
 ~~~bash
 brew install git
 ~~~
 
-This will install the latest version of git. Easy, right?
+This will install the latest version of Git. Easy, right?
 
-#### Step 2.2: Installing Heroku
+#### Step 2.2: Install Heroku
 
-Let's repeat the installation process with Heroku:
+Next, install Heroku:
 
 ~~~bash
 brew install heroku/brew/heroku
 ~~~
 
-This will install the command line interface for Heroku, a free website that can host your Ruby on Rails application. More about this later.
+This command will install the command line interface for Heroku, a free website that can host your Ruby on Rails applications. You'll learn more about this later.
 
-### Step 3: Installing Ruby
+### Step 3: Install Ruby
 
-The next program we need to install is Ruby. Ruby is a scripting language very similar to Python (if you've heard of that before). 
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions. 
 
-#### Step 3.1: Installing rbenv
+#### Step 3.1: Install rbenv
 
-To make our lives easier in the long run, we will install a Ruby version manager. This version manager, named "rbenv", makes it easy to switch between different versions of ruby.
-
-To install rbenv, run the following in your terminal:
+To install `rbenv`, run the following in your terminal:
 
 ~~~bash
 brew install rbenv
 ~~~
 
-then run:
+Then, run this command:
 
 ~~~bash
 rbenv init
@@ -214,38 +210,37 @@ You should see the following after the command has run:
 eval "$(rbenv init -)
 ~~~
 
-We will do as it suggests by running the following in the terminal:
+You'll do as it suggests by running the following command in the terminal:
 
 ~~~bash
 `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
 ~~~
 
-At this point we need to restart the terminal for changes to take effect. Click the red "x" and then re-open the terminal as we did above.
+At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
 
+#### Step 3.3: Install Ruby
 
-##### Step 3.3: Installing Ruby
-
-We can now (finally) install Ruby!  We recommend using the latest version, which currently is 2.5.3:
+We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.5.3:
 
 ~~~bash
 rbenv install 2.5.3 --verbose
 ~~~
 
-This will install Ruby version 2.5.3. The `--verbose` flag is used to show you that things are happening. A lot of stuff will be displayed on your screen. It's rbenv doing it's thing. Hang out for 10-15 minutes until your prompt (the `$` sign) is visible once again.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
 
-Once installed, we need to tell rbenv which version to use by default. Inside of the terminal type:
+Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
 rbenv global 2.5.3
 ~~~
 
-We can double check our work by typing `ruby -v` and checking the output for version 2.5.3
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.5.3:
 
 ~~~bash
 $ ruby -v
 ruby 2.5.3p82 (2018-09-12)
 ~~~
 
-Way to go!  With Ruby installed it should be smooth sailing from here on out.
+Way to go! With Ruby installed, it should be smooth sailing from here on out.
 
 </details>
