@@ -1796,6 +1796,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [antdricot's solution (Easy)](https://github.com/antdricot/google-homepage) - [View in Browser](https://antdricot.github.io/google-homepage/) 
 * [Ginner's solution (Easy)](https://github.com/ginnerzapata/google-homepage) - [View in Browser](https://ginnerzapata.github.io/google-homepage/) 
 * [LeonJMac's solution (Easy)](https://github.com/leonjmac/google-homepage) - [View in Browser](https://leonjmac.github.io/google-homepage/) 
+* [Ivan-PE's SOlution (Easy)](https://github.com/Ivan-PE/google-homepage) - [View in Browser](https://ivan-pe.github.io/google-homepage/) 
 * [Cove's solution (Easy)](https://github.com/slotthy/google-homepage) - [View in Browser (Click on search bar image for difficult)](https://slotthy.github.io/google-homepage/)
 
 ### Additional Resources
