@@ -1798,6 +1798,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [LeonJMac's solution (Easy)](https://github.com/leonjmac/google-homepage) - [View in Browser](https://leonjmac.github.io/google-homepage/) 
 * [Ivan-PE's SOlution (Easy)](https://github.com/Ivan-PE/google-homepage) - [View in Browser](https://ivan-pe.github.io/google-homepage/) 
 * [Cove's solution (Easy)](https://github.com/slotthy/google-homepage) - [View in Browser (Click on search bar image for difficult)](https://slotthy.github.io/google-homepage/)
+* [Ralph's solution (Easy)](https://ralphluring.github.io/google_homepage/) - [View in Browser](https://ralphluring.github.io/google_homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
