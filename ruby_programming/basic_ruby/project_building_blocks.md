@@ -394,6 +394,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Slaven Karamatic's solution](https://github.com/Everdrought/caesar-cipher/blob/master/script.rb)
 * [Syed Aslam's solution](https://gist.github.com/aslam/5a2db0af06781a0adc7b39e90369e8b4)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/caesar.rb)
+* [mouniga's solution](https://github.com/MounigaV/odinproject/blob/master/caesercipher.rb)
 
 ### Project 2: Stock Picker
 
@@ -416,6 +417,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Neeraj's Solution](https://github.com/neeraj33negi/OdinProjectSolutions/blob/master/stock_picker.rb)
 * [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/stock_picker.rb)
 * [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/blob/master/building_blocks/stock_picker.rb)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/stock_picker/blob/master/stock_picker.rb)
@@ -1086,4 +1088,4 @@ Next, make sure your method can handle multiple words:
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/substrings.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/ruby-substrings/blob/master/script.rb)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/substrings.rb)
-* [mwk913's solution](https://github.com/mwk913/Caesar-Cipher)
+* [mwk913's solution](https://github.com/mwk913/Ruby-Building-Blocks)

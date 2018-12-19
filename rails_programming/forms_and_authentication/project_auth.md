@@ -101,7 +101,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Max Garber's solution](https://github.com/bubblebooy/members-only)
 * [Btreim's solution](https://github.com/btreim/members-only)
 * [0zra's solution](https://github.com/0zra/members-only)
-* Roman Alenskiy's solution (Mobile-friendly) [Github](https://github.com/Roman-Alenskiy/secret_lodge) / [Heroku](https://secret-lodge.herokuapp.com/)
+* Roman Alenskiy's solution (Mobile-friendly) [Github](https://github.com/romalenskiy/secret_lodge) / [Heroku](https://secret-lodge.herokuapp.com/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/members-only)
 * [theghall's solution](https://github.com/theghall/odin-members-only.git)
 * [Jmooree30's solution](https://github.com/jmooree30/members_only.git) | [View in browser](https://sheltered-chamber-33561.herokuapp.com/)
