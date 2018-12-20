@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Diego Escalante's Solution (Easy)](https://github.com/xDican/google-homepage) - [View in Browser](https://xdican.github.io/google-homepage/)
 * [Daniel Ryu's Solution (Easy)](https://github.com/dryu99/google-homepage) - [View in Browser](https://dryu99.github.io/google-homepage/)
 * [Ramanujam Gond Solution (Easy - index.html & Difficult - search_result.html)](https://github.com/ramanujamgond/google-homepage-replica) - [View in Browser](https://ramanujamgond.github.io/google-homepage-replica/)
 * [Braxton Lemmon's Solution (Easy)](https://github.com/braxtonlemmon/google-homepage) - [View in Browser](https://braxtonlemmon.github.io/google-homepage)
@@ -1795,6 +1796,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [antdricot's solution (Easy)](https://github.com/antdricot/google-homepage) - [View in Browser](https://antdricot.github.io/google-homepage/) 
 * [Ginner's solution (Easy)](https://github.com/ginnerzapata/google-homepage) - [View in Browser](https://ginnerzapata.github.io/google-homepage/) 
 * [LeonJMac's solution (Easy)](https://github.com/leonjmac/google-homepage) - [View in Browser](https://leonjmac.github.io/google-homepage/) 
+* [Ivan-PE's SOlution (Easy)](https://github.com/Ivan-PE/google-homepage) - [View in Browser](https://ivan-pe.github.io/google-homepage/) 
+* [Cove's solution (Easy)](https://github.com/slotthy/google-homepage) - [View in Browser (Click on search bar image for difficult)](https://slotthy.github.io/google-homepage/)
+* [Ralph's solution (Easy)](https://ralphluring.github.io/google_homepage/) - [View in Browser](https://ralphluring.github.io/google_homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
