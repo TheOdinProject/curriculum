@@ -62,7 +62,7 @@ Each of these routes is basically a Ruby method that matches that particular URL
 2. The other thing to notice is that the "id" field is prepended by a colon... that just tells Rails "Look for anything here and save it as the ID in the params hash".  It lets you submit a GET request for the first post and the fifth post to the same route, just a different ID:
 
 ~~~ruby
-  /posts/1  # going to the #show action of the Posts controller
+  /posts/1  # going to the #show action of the PostsController
   /posts/5  # also going to the #show action of PostsController
 ~~~
 
