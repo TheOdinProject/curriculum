@@ -741,6 +741,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/stock_picker.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/stock-picker/blob/master/script.rb)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/stock_picker.rb)
+* [EdwardHeath's solution](https://github.com/EdwardHeath/ruby/blob/master/stock.rb)
 
 ### Project 3: Substrings
 
