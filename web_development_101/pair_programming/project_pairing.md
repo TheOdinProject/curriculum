@@ -92,7 +92,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Emil Dimitrov's Solution](https://github.com/imemdm/pomodoro-clock) - [View in Browser](https://imemdm.github.io/pomodoro-clock/)
 * [Ghassan's Solution](https://github.com/GT001/TOP-Pomodoro-Clock) - [View in Browser](https://gt001.github.io/TOP-Pomodoro-Clock/)
 * [mwk913's Solution](https://github.com/mwk913/pomodoro-clock) - [View in Browser](https://mwk913.github.io/pomodoro-clock/)
-
+* [Dan2D's Solution](https://github.com/Dan2D/Pomodoro) - [View in Browser](https://dan2d.github.io/Pomodoro/html/index.html)
 ### Next Steps
 
 Congratulations! You now know how to pair program and have created a real project with that partner. Maybe you got along great, maybe you didn't. If you didn't, go back to the [Pairing Category](https://forum.theodinproject.com/c/pairs) and see if you can find another person to pair with. Either way, we encourage you to keep on pairing for the rest of the lessons and projects in the Odin Project. You will learn more, and produce better code. Not to mention, you will be developing experience in a skill that many employers look for!
