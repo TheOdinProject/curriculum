@@ -273,7 +273,7 @@ First we need to open the `Gemfile` and edit it.
 
 In your terminal, type `ls` and verify you can see `Gemfile` in the output. If you don't navigate to the directory you have created in Steps 4.2 and 4.3.
 
-Then we will use VSCode to modify our `Gemfile`. Open your app in VSCode by typing `code .` (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
+Then we will use VSCode to modify our `Gemfile`. Open your app in VSCode by typing `code .` (THE `.` IS IMPORTANT) (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
 
 When VSCode opens you should see a list of files on the left side of the screen. Click to open `Gemfile` then 
 
