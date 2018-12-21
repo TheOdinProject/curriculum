@@ -33,3 +33,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Mike Smith's Solution](https://github.com/MikeSS281986/City-Weather-Search) - [View in browser](https://city-weather-search.firebaseapp.com/)
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/weather.js) - [View in browser](http://heyalvaro.com/weather.js/)
 * [aznafro's Solution](https://github.com/aznafro/goodmorning) - [View in browser](https://aznafro.github.io/goodmorning/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/Weather-app) - [View in browser](https://areebaishtiaq.github.io/Weather-app/)
