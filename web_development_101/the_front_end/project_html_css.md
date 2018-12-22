@@ -1800,7 +1800,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Cove's solution (Easy)](https://github.com/slotthy/google-homepage) - [View in Browser (Click on search bar image for difficult)](https://slotthy.github.io/google-homepage/)
 * [Ralph's solution (Easy)](https://ralphluring.github.io/google_homepage/) - [View in Browser](https://ralphluring.github.io/google_homepage/)
 * [Joseph Yhu's solution (Easy)](https://github.com/josephyhu/google-homepage) - [View in Browser](https://josephyhu.github.io/google-homepage/)
+* [Anderson Njoroge solution (Easy)](https://github.com/Manjoro/google-homepage) - [View in Browser](http://googleclone.surge.sh/)
 * [saks01's solution (Easy)](https://saks01.github.io/google-webpage/)-[View in Browser](https://saks01.github.io/google-webpage/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
