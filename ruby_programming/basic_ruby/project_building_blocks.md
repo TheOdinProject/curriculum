@@ -1089,3 +1089,4 @@ Next, make sure your method can handle multiple words:
 * [Slaven Karamatic's solution](https://github.com/Everdrought/ruby-substrings/blob/master/script.rb)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/substrings.rb)
 * [mwk913's solution](https://github.com/mwk913/Ruby-Building-Blocks)
+* [EdwardHeath's solution(https://github.com/EdwardHeath/ruby/blob/master/substring.rb)
