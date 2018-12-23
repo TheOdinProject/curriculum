@@ -1802,6 +1802,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Joseph Yhu's solution (Easy)](https://github.com/josephyhu/google-homepage) - [View in Browser](https://josephyhu.github.io/google-homepage/)
 * [Anderson Njoroge solution (Easy)](https://github.com/Manjoro/google-homepage) - [View in Browser](http://googleclone.surge.sh/)
 * [saks01's solution (Easy)](https://saks01.github.io/google-webpage/)-[View in Browser](https://saks01.github.io/google-webpage/)
+* [Kuba Knysiak's solution (Easy)](https://github.com/xsni1/google-homepage/)-[View in Browser](https://xsni1.github.io/google-homepage/)
+* [Kuba Knysiak's solution (Difficult)](https://github.com/xsni1/google_searchpage)-[View in Browser](https://xsni1.github.io/google_searchpage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
