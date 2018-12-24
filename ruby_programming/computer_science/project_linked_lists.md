@@ -166,4 +166,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Felipe Parreira's Solution](https://github.com/FelipeParreira/TheOdinProject/blob/master/ruby-programming/a-bit-of-CS/linked_lists/linked-list.rb)
 * [mojotron's Solution](https://github.com/mojotron/linked-lists/blob/master/linked_list_class.rb)
 * [Tommy's Solution](https://github.com/hoangtommy/linkedLists/blob/master/LinkedList.rb)
+* [Emil Dimitrov's Solution](https://github.com/imemdm/linked_list)
 
