@@ -212,6 +212,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/micro-reddit)
 * [ParamagicDev's Soltuion](https://github.com/ParamagicDev/micro-reddit)
 * [Slaven K's Soltuion](https://github.com/Everdrought/micro-reddit)
+* [bchalman's Soltuion](https://github.com/bchalman/micro-reddit)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
