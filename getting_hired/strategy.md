@@ -19,7 +19,7 @@ We'll also cover some alternate paths you can take like finishing up your educat
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. A fantastic place to start your "getting hired" journey is this **[very thorough article from Happy Bear Software on How to Get A Programmer Job](http://happybearsoftware.com/how-to-get-a-programmer-job.html)** (which was also a part of the Intro to Web Dev course).
+1. A fantastic place to start your "getting hired" journey is this **[very thorough article from Happy Bear Software on How to Get A Programmer Job](http://happybearsoftware.com/how-to-get-a-programmer-job.html)**.
 
 Now get your head out of the clouds, stop dreaming about how you'll get hired, and actually do it!
 </div>
