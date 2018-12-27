@@ -33,8 +33,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_advanced_building_blocks.md) on the ruby course github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
-
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_advanced_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](https://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
 * [RunningCoder123's solution](https://github.com/RunningCoder123/bubble_sort)
