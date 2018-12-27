@@ -194,3 +194,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vitaly Osipov's solution](https://github.com/vi7ali/calculator) - [View in browser](https://vi7ali.github.io/calculator/)
 - [Wesley Wang's solution](https://github.com/wesleymellon/Calculator) - [View in browser](https://wesleymellon.github.io/Calculator/)
 - [Gregory's Solution](https://github.com/Selvdrap/calculator) - [View in browser](http://selvdrap.github.io/calculator/)
+- [Ocean572's Solution](https://github.com/Ocean572/Basic_Calculator) - [View in browser](https://ocean572.github.io/Basic_Calculator/)
