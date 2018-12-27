@@ -606,6 +606,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/enumerable.rb)
 * [Slaven Karamatic's Solution](https://github.com/Everdrought/ruby-enumethods/blob/master/script.rb)
 * [mwk913's Solution](https://github.com/mwk913/Ruby-Advanced-Building-Blocks)
+* [EdwardHeath's Soultion](https://github.com/EdwardHeath/enumerable/blob/master/enumerable.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
