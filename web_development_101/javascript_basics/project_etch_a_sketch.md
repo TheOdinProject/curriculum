@@ -265,3 +265,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Leila Alderman's solution](https://github.com/leila-alderman/etch-a-sketch) - [View in Browser](https://leila-alderman.github.io/etch-a-sketch/)
 * [keskiviikko's solution](https://github.com/keskiviikko/project-sketchpad) - [View in Browser](https://keskiviikko.github.io/project-sketchpad/)
 * [Ocean572's solution](https://github.com/Ocean572/etch_n_sketch) - [View in Browser](https://ocean572.github.io/etch_n_sketch/)
+* [iameddieyayaya's solution](https://github.com/iameddieyayaya/etch-a-sketch) - [View in Browser](https://iameddieyayaya.github.io/etch-a-sketch/)
