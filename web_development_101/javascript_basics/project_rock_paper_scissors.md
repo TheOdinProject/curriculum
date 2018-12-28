@@ -411,4 +411,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Erin Ponsonby's console solution](https://github.com/eponsonby/rock-paper-scissors)
 - [Mohammed Nabeel's solution](https://mnabeelp.github.io/Rock-Paper-Scissors/)
 - [Daniel Ryu's console solution](https://github.com/dryu99/rock-paper-scissors)
+- [Daniel Ryu's UI solution](https://github.com/dryu99/rock-paper-scissors-ui) - [View in Browser](https://dryu99.github.io/rock-paper-scissors-ui/)
 - [GustavoRdz's solution](https://github.com/GustavoRdz/RockPaperScissors) - [View in Browser](https://gustavordz.github.io/RockPaperScissors/)
