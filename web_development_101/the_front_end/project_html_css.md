@@ -1809,7 +1809,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [GustavoRdz solution (Easy)](https://github.com/GustavoRdz/google-homepage) - [View in Browser](https://gustavordz.github.io/google-homepage/)
 * [lawrencegoldeman's solution (Easy)](https://github.com/lawrencegoldeman/google-homepage) - [View in Browser](https://lawrencegoldeman.github.io/google-homepage/)
 * [Cameron St.Amant's solution (Easy)](https://github.com/CameronStAmant/google-homepage) - [View in Browser](https://cameronstamant.github.io/google-homepage/)
-
+[Magda's solution (easy)] (https://0000magda0000.github.io/google-homepage/) - [View in Browser](https://0000magda0000.github.io/google-homepage/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
