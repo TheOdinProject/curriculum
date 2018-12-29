@@ -184,8 +184,7 @@ You should have a good sense of what's going on in the routes file by now but pr
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the [Rails Guides chapter on Routing](http://guides.rubyonrails.org/routing.html), sections 1-2.5, 3.1-3.4, and 4.6.
-2. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
-Make sure to follow the tutorial!
+2. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8). You can follow the tutorial using `curl https://api.github.com`.
 </div>
 
 ### Additional Resources
