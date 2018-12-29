@@ -40,7 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Loumarven's Solution](https://github.com/loumarven/calculator) - [View in Browser](https://loumarven.github.io/calculator/)
-- [KJ's Solution] (https://github.com/kjwebdev/Calculator) - [View in Browser] (https://kjwebdev.github.io/Calculator/)
+- [KJ's Solution](https://github.com/kjwebdev/Calculator) - [View in Browser](https://kjwebdev.github.io/Calculator/)
 - [Moe Negm's Solution](https://github.com/moenegm/calculator) - [View in Browser](https://moenegm.github.io/calculator/)
 - [Tommy's Solution](https://github.com/Tommyisr/calculator) - [View in Browser](https://tommyisr.github.io/calculator/)
 - [Hammad's Solution](https://github.com/shammadahmed/calculator) - [View in Browser](https://shammadahmed.github.io/calculator/)
