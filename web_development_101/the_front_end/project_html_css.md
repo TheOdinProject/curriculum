@@ -94,6 +94,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [ARaut's Solution (Easy & Difficult)](https://github.com/ARaut9/google-homepage) - [View in Browser (Easy)](https://araut9.github.io/google-homepage/) [View in Browser (Difficult)](https://araut9.github.io/google-homepage/search_results.html)
+* [Jithin Das's Solution (Difficult)](https://helaris.github.io/Google-HomePage/)
+* [Jithin Das's Solution (Easy)](https://github.com/jithindasad/Google-home-page) - [View in Browser](https://jithindasad.github.io/Google-home-page/)
 * [Diego Escalante's Solution (Easy)](https://github.com/xDican/google-homepage) - [View in Browser](https://xdican.github.io/google-homepage/)
 * [Daniel Ryu's Solution (Easy)](https://github.com/dryu99/google-homepage) - [View in Browser](https://dryu99.github.io/google-homepage/)
 * [Ramanujam Gond Solution (Easy - index.html & Difficult - search_result.html)](https://github.com/ramanujamgond/google-homepage-replica) - [View in Browser](https://ramanujamgond.github.io/google-homepage-replica/)
@@ -1799,7 +1802,15 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ivan-PE's SOlution (Easy)](https://github.com/Ivan-PE/google-homepage) - [View in Browser](https://ivan-pe.github.io/google-homepage/) 
 * [Cove's solution (Easy)](https://github.com/slotthy/google-homepage) - [View in Browser (Click on search bar image for difficult)](https://slotthy.github.io/google-homepage/)
 * [Ralph's solution (Easy)](https://ralphluring.github.io/google_homepage/) - [View in Browser](https://ralphluring.github.io/google_homepage/)
-
+* [Joseph Yhu's solution (Easy)](https://github.com/josephyhu/google-homepage) - [View in Browser](https://josephyhu.github.io/google-homepage/)
+* [Anderson Njoroge solution (Easy)](https://github.com/Manjoro/google-homepage) - [View in Browser](http://googleclone.surge.sh/)
+* [saks01's solution (Easy)](https://saks01.github.io/google-webpage/) - [View in Browser](https://saks01.github.io/google-webpage/)
+* [Kuba Knysiak's solution (Easy)](https://github.com/xsni1/google-homepage/) - [View in Browser](https://xsni1.github.io/google-homepage/)
+* [Kuba Knysiak's solution (Difficult)](https://github.com/xsni1/google_searchpage) - [View in Browser](https://xsni1.github.io/google_searchpage/)
+* [GustavoRdz solution (Easy)](https://github.com/GustavoRdz/google-homepage) - [View in Browser](https://gustavordz.github.io/google-homepage/)
+* [lawrencegoldeman's solution (Easy)](https://github.com/lawrencegoldeman/google-homepage) - [View in Browser](https://lawrencegoldeman.github.io/google-homepage/)
+* [Cameron St.Amant's solution (Easy)](https://github.com/CameronStAmant/google-homepage) - [View in Browser](https://cameronstamant.github.io/google-homepage/)
+* [Magda's solution (easy)](https://0000magda0000.github.io/google-homepage/) - [View in Browser](https://0000magda0000.github.io/google-homepage/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

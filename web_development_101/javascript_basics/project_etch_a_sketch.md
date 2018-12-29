@@ -40,6 +40,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [Billy's Solution](https://github.com/bcoffin9/etch-a-sketch)
 * [Moe's Solution](https://github.com/moenegm/sketch) - [View in Browser](https://moenegm.github.io/sketch/)
 * [Hammad Ahmed's Solution](https://github.com/shammadahmed/Etch-A-Sketch) - [View in Browser](https://shammadahmed.github.io/Etch-A-Sketch/)
 * [Allan Glasier's Solution](http://allanglasier.com/etch-a-sketch/) - [View in Browser](http://allanglasier.com/etch-a-sketch/)
@@ -265,3 +266,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Leila Alderman's solution](https://github.com/leila-alderman/etch-a-sketch) - [View in Browser](https://leila-alderman.github.io/etch-a-sketch/)
 * [keskiviikko's solution](https://github.com/keskiviikko/project-sketchpad) - [View in Browser](https://keskiviikko.github.io/project-sketchpad/)
 * [Ocean572's solution](https://github.com/Ocean572/etch_n_sketch) - [View in Browser](https://ocean572.github.io/etch_n_sketch/)
+* [iameddieyayaya's solution](https://github.com/iameddieyayaya/etch-a-sketch) - [View in Browser](https://iameddieyayaya.github.io/etch-a-sketch/)

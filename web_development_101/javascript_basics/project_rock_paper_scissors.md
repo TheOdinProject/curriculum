@@ -36,6 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Diego Escalante's Solution](https://github.com/xDican/rock_scizors_paper.git) - [View in Browser](https://xdican.github.io/rock_scizors_paper/)
 - [Jared Baker's Solution](https://github.com/Jayrod141414/project_rock_paper_scissors)
 - [Samuel Marcus' Solution](https://github.com/smarcus4/RockPaperScissors) - [View in Browser](https://smarcus4.github.io/RockPaperScissors/)
 - [joshhammer's Solution](https://joshhammer.github.io/rock-paper-scissors/)
@@ -409,3 +410,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Leila Alderman's solution](https://github.com/leila-alderman/rock-paper-scissors) - [View in Browser](https://leila-alderman.github.io/rock-paper-scissors/)
 - [Erin Ponsonby's console solution](https://github.com/eponsonby/rock-paper-scissors)
 - [Mohammed Nabeel's solution](https://mnabeelp.github.io/Rock-Paper-Scissors/)
+- [Daniel Ryu's console solution](https://github.com/dryu99/rock-paper-scissors)
+- [Daniel Ryu's UI solution](https://github.com/dryu99/rock-paper-scissors-ui) - [View in Browser](https://dryu99.github.io/rock-paper-scissors-ui/)
+- [GustavoRdz's solution](https://github.com/GustavoRdz/RockPaperScissors) - [View in Browser](https://gustavordz.github.io/RockPaperScissors/)
