@@ -214,7 +214,7 @@ The terminal will start its work, pausing to verify your connection to GitHub.
 
 A message from Github, 'The authenticity of host 'github.com'...', may appear during the process. You can type `yes` and hit enter to continue.
 
-After the terminal finishes it's magic, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app."
+After the terminal finishes its magic, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app."
 
 This marks the start of your Odin Journey! Later on you'll be able to look back at this repository and marvel over how far you've come!
 
