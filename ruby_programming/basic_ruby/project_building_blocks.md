@@ -399,6 +399,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/caesar.rb)
 * [mouniga's solution](https://github.com/MounigaV/odinproject/blob/master/caesercipher.rb)
 * [EdwardHeath's Solution](https://github.com/EdwardHeath/ruby/blob/master/cipher.rb)
+* [Khalal's Solution](https://github.com/khalalw/building_blocks/blob/master/caesar_cipher.rb)
 
 ### Project 2: Stock Picker
 
