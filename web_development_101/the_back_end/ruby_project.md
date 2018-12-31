@@ -470,6 +470,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Edward Heath's Solution](https://github.com/EdwardHeath/learn_ruby)
 * [Leila Alderman's solutions](https://github.com/leila-alderman/learn_ruby)
 * [Edgar Miranda's Solution](https://github.com/ejmiranda/ruby)
+* [Khalal's Solution](https://github.com/khalalw/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
