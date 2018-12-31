@@ -101,7 +101,7 @@ Inside the terminal, run this command:
 rbenv install 2.5.3 --verbose
 ~~~
 
-This command will take 10-15 to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
 
 When the last command is finished, set the Ruby version and verify that it's working:
 
@@ -241,6 +241,6 @@ $ ruby -v
 ruby 2.5.3p82 (2018-09-12)
 ~~~
 
-Way to go! With Ruby installed, it should be smooth sailing from here on out.
+Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
 </details>
