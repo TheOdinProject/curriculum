@@ -39,7 +39,7 @@ So if a layout is basically just a shell around the individual page, how does th
 
 The other thing you've undoubtedly noticed is the odd HTML code that goes inside `<%=` and `%>` tags.  This is Embedded Ruby (ERB).  It's a special way of executing ruby code inside your HTML.  HTML is static, so you need to dial in some Ruby if you want to do anything dynamic like looping, `if` statements or working with variables.  ERB (and another similar language you might see called HAML) do exactly that.
 
-What those tags do is execute whatever you see inside them exactly as if it was normal Ruby.  So `<%= "<em>I am emphasized</em>" %>` will output an emphasized piece of text like `<em>I am emphasized</em>` and `<%= @user.first_name %>` will output `joe`.
+What those tags do is execute whatever you see inside them exactly as if it was normal Ruby.  So `<%= "<em>I am emphasized</em>" %>` will output an emphasized piece of text like <em>I am emphasized</em> and `<%= @user.first_name %>` might output `joe`.
 
 The difference between `<%` and `<%=` is that the `<%=` version actually displays whatever is returned inside the ERB tags.  If you use `<%`, it will execute the code but, no matter what is returned by that line, it will not actually display anything in your HTML template.  
 
