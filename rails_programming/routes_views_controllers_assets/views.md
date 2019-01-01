@@ -110,7 +110,7 @@ If there is no directory specified in partial's name, Rails will only look in th
 
 There's a lot you can do with partials and we won't dive into it all here, but the last thing that you might find yourself doing a lot is passing variables to partials.  A partial has access to all the variables that the calling view template does, but do NOT rely on them!  What if your partial is used by a different controller that uses a different structure for its instance variables?  It's bad code to expect an instance variable like `@user` to be there in the partial all the time. That means you've got to explicitly pass the partial whichever variables you want it to have access to.  
 
-In the example above, you most likely want to pass the `@user` variable to the partial so your code can render the right kind of form. `render` is just a regular method and it lets you pass it an options hash.  One of those options is the `:locals` key, which will contain the variables you want to pass.  Your code might change to look like:
+In the example above, you most likely want to pass the `@user` variable to the partial so your code can render the right kind of form. `render` is just a regular method and it lets you pass it an [options hash](https://stackoverflow.com/questions/18407618/what-are-options-hashes).  One of those options is the `:locals` key, which will contain the variables you want to pass.  Your code might change to look like:
 
 ~~~erb
   <%= render "shared/your_partial", :locals => { :user => user } %>
