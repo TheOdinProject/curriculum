@@ -1816,6 +1816,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [cvillere solution (easy)](https://github.com/cvillere/google-homepage) - [View in Browser](https://cvillere.github.io/google-homepage/)
 * [Abdirahman's solution (easy & difficult) click enter on the search bar to view The Result Page](https://murabac.github.io/Google-Clone/) - [View in Browser (difficult)](https://murabac.github.io/Google-Clone/result.html?)
 * [Tristan Ross's Solution (Easy)](https://github.com/TristanRoss/google-homepage) - [View in Browser (Easy)](https://tristanross.github.io/google-homepage/)
+* [Mohamed's solution (easy & difficult) click enter on the search bar to view The Result Page](https://mohamedcutte.github.io/google_hargeisa/) - [View in Browser (difficult)](https://mohamedcutte.github.io/google_hargeisa/result.html)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
