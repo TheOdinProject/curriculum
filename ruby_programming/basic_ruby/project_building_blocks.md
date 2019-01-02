@@ -750,6 +750,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Slaven Karamatic's solution](https://github.com/Everdrought/stock-picker/blob/master/script.rb)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/stock_picker.rb)
 * [EdwardHeath's solution](https://github.com/EdwardHeath/ruby/blob/master/stock.rb)
+* [Khalal's solution](https://github.com/khalalw/building_blocks/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -1102,3 +1103,4 @@ Next, make sure your method can handle multiple words:
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/substrings.rb)
 * [mwk913's solution](https://github.com/mwk913/Ruby-Building-Blocks)
 * [EdwardHeath's solution](https://github.com/EdwardHeath/ruby/blob/master/substring.rb)
+* [Khalal's solution](https://github.com/khalalw/building_blocks/blob/master/substrings.rb)

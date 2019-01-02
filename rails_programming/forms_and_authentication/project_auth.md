@@ -184,6 +184,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Malaika's Solution](https://github.com/malaikaMI/Nobuddies) | [View in browser](https://powerful-savannah-46992.herokuapp.com/)
 * [Jamesredux's Solution](https://github.com/Jamesredux/natter) | [View in browser](https://afternoon-coast-37994.herokuapp.com/)
 * [ParamagicDev's Solution](https://github.com/ParamagicDev/clubhouse.git)
+* [bchalman's Solution](https://github.com/bchalman/members-only)
 
 ### Additional Resources
 
