@@ -420,3 +420,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Abdirahman's Console solution](https://github.com/Murabac/rock_paper_scissors) - [View in Browser](https://murabac.github.io/rock_paper_scissors/)
 - [Leon J Mac's console solution](https://github.com/leonjmac/rock-paper-scissors) - [View in Browser](https://leonjmac.github.io/rock-paper-scissors/)
 - [Tristan Ross's console solution](https://github.com/TristanRoss/RockPaperScissors) - [View in Browser](https://tristanross.github.io/RockPaperScissors/)
+- [JMG1995's console solution](https://github.com/JMG1995/rock-paper-scissors) - [View in Browser](https://jmg1995.github.io/rock-paper-scissors/)
