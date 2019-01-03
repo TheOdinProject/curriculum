@@ -1824,6 +1824,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ballurw's Solution (Easy)](https://github.com/Ballurw/google-homepage) - [View in Browser (Easy)](https://ballurw.github.io/google-homepage/)
 * [Tanya's Solution (Easy)](https://github.com/tanyalai/Odin-Project-Tutorials/tree/master/Web%20Dev%20101/HTML-CSS%20Project) - [View in Browser (Easy)](http://htmlpreview.github.io/?https://github.com/tanyalai/Odin-Project-Tutorials/blob/master/Web%20Dev%20101/HTML-CSS%20Project/googleproj.html)
 * [Ricky's solution (easy)](https://rickyhonline.github.io/google-homepage/) - [View in Browser](https://rickyhonline.github.io/google-homepage/)
+* [Cesar Delgado's solution (easy)](https://github.com/Czr90/google_homepage) - [View in Browser] (https://czr90.github.io/google_homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
