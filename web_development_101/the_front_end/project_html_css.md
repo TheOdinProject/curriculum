@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Germán Gutiérrez' Solution (Easy)](https://github.com/sggutier/google-homepage) - [View in Browser (Easy)](https://sggutier.github.io/google-homepage/)
 * [Kevin Vuong's Solution (Easy)](https://github.com/fffear/google-homepage)  -  [View in Browser (Easy)](https://fffear.github.io/google-homepage/)
 * [Leonardo Vega's Solution (Easy)](https://github.com/leonardovega/google-homepage) - [View in Browser (Easy)](https://leonardovega.github.io/google-homepage/)
 * [Tyler Devers's Solution (Easy)](https://tylerdevers.github.io/OdinWebDev/google-homepage/) - [View in Browser (Easy)](https://tylerdevers.github.io/OdinWebDev/google-homepage/)
@@ -1821,6 +1822,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tristan Ross's Solution (Easy)](https://github.com/TristanRoss/google-homepage) - [View in Browser (Easy)](https://tristanross.github.io/google-homepage/)
 * [Mohamed's solution (easy & difficult) click enter on the search bar to view The Result Page](https://mohamedcutte.github.io/google_hargeisa/) - [View in Browser (difficult)](https://mohamedcutte.github.io/google_hargeisa/result.html)
 * [Ballurw's Solution (Easy)](https://github.com/Ballurw/google-homepage) - [View in Browser (Easy)](https://ballurw.github.io/google-homepage/)
+* [Tanya's Solution (Easy)](https://github.com/tanyalai/Odin-Project-Tutorials/tree/master/Web%20Dev%20101/HTML-CSS%20Project) - [View in Browser (Easy)](http://htmlpreview.github.io/?https://github.com/tanyalai/Odin-Project-Tutorials/blob/master/Web%20Dev%20101/HTML-CSS%20Project/googleproj.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
