@@ -781,6 +781,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Khari's Solutiuon](https://github.com/kjwebdev/ceasar_shift/blob/master/substrings.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/substrings/substrings.rb)
 * [Origier's Solution](https://github.com/Origier/substrings/blob/master/main.rb)
 * [RunningCoder123's Solution](https://github.com/RunningCoder123/building_blocks/blob/master/substrings.rb)
