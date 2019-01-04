@@ -471,6 +471,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solutions](https://github.com/leila-alderman/learn_ruby)
 * [Edgar Miranda's Solution](https://github.com/ejmiranda/ruby)
 * [Khalal's Solution](https://github.com/khalalw/learn_ruby)
+* [tnharvey's Solution](https://github.com/tnharvey/learn_ruby)
 * [Jahmzu's solution](https://github.com/jahmzu/learn_ruby)
 
 ### Additional Resources
