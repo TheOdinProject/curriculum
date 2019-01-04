@@ -267,3 +267,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [keskiviikko's solution](https://github.com/keskiviikko/project-sketchpad) - [View in Browser](https://keskiviikko.github.io/project-sketchpad/)
 * [Ocean572's solution](https://github.com/Ocean572/etch_n_sketch) - [View in Browser](https://ocean572.github.io/etch_n_sketch/)
 * [iameddieyayaya's solution](https://github.com/iameddieyayaya/etch-a-sketch) - [View in Browser](https://iameddieyayaya.github.io/etch-a-sketch/)
+* [GustavoRdz's solution](https://github.com/GustavoRdz/etch-a-sketch) - [View in Browser](https://gustavordz.github.io/etch-a-sketch/)
+* [Daniel Ryu's Solution](https://github.com/dryu99/etch-a-sketch) - [View in Browser](https://dryu99.github.io/etch-a-sketch/)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/Etch-a-Sketch) - [View in Browser](https://tristanross.github.io/Etch-a-Sketch/)

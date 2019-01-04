@@ -94,6 +94,10 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Germán Gutiérrez' Solution (Easy)](https://github.com/sggutier/google-homepage) - [View in Browser (Easy)](https://sggutier.github.io/google-homepage/)
+* [Kevin Vuong's Solution (Easy)](https://github.com/fffear/google-homepage)  -  [View in Browser (Easy)](https://fffear.github.io/google-homepage/)
+* [Leonardo Vega's Solution (Easy)](https://github.com/leonardovega/google-homepage) - [View in Browser (Easy)](https://leonardovega.github.io/google-homepage/)
+* [Tyler Devers's Solution (Easy)](https://tylerdevers.github.io/OdinWebDev/google-homepage/) - [View in Browser (Easy)](https://tylerdevers.github.io/OdinWebDev/google-homepage/)
 * [Luis Ciancio's Solution (Easy)](https://github.com/ZeusRa/google-homepage) - [View in Browser (Easy)](https://ZeusRa.github.io/google-homepage)
 * [Jasmeet Singh's Solution (Easy)](https://github.com/jasmeet9323/google-homepage) - [View in Browser (Easy)](https://jasmeet9323.github.io/google-homepage)
 * [ARaut's Solution (Easy & Difficult)](https://github.com/ARaut9/google-homepage) - [View in Browser (Easy)](https://araut9.github.io/google-homepage/) [View in Browser (Difficult)](https://araut9.github.io/google-homepage/search_results.html)
@@ -1816,6 +1820,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [cvillere solution (easy)](https://github.com/cvillere/google-homepage) - [View in Browser](https://cvillere.github.io/google-homepage/)
 * [Abdirahman's solution (easy & difficult) click enter on the search bar to view The Result Page](https://murabac.github.io/Google-Clone/) - [View in Browser (difficult)](https://murabac.github.io/Google-Clone/result.html?)
 * [Tristan Ross's Solution (Easy)](https://github.com/TristanRoss/google-homepage) - [View in Browser (Easy)](https://tristanross.github.io/google-homepage/)
+* [Mohamed's solution (easy & difficult) click enter on the search bar to view The Result Page](https://mohamedcutte.github.io/google_hargeisa/) - [View in Browser (difficult)](https://mohamedcutte.github.io/google_hargeisa/result.html)
+* [Ballurw's Solution (Easy)](https://github.com/Ballurw/google-homepage) - [View in Browser (Easy)](https://ballurw.github.io/google-homepage/)
+* [Tanya's Solution (Easy)](https://github.com/tanyalai/Odin-Project-Tutorials/tree/master/Web%20Dev%20101/HTML-CSS%20Project) - [View in Browser (Easy)](http://htmlpreview.github.io/?https://github.com/tanyalai/Odin-Project-Tutorials/blob/master/Web%20Dev%20101/HTML-CSS%20Project/googleproj.html)
+* [Ricky's solution (easy)](https://rickyhonline.github.io/google-homepage/) - [View in Browser](https://rickyhonline.github.io/google-homepage/)
+* [Cesar Delgado's solution (easy)](https://github.com/Czr90/google_homepage) - [View in Browser](https://czr90.github.io/google_homepage/)
+* [Filip Blajiu's solution (Easy)](https://github.com/filipblajiu/google-homepage) - [View in Browser](https://filipblajiu.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
