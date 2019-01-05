@@ -35,3 +35,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/weather.js) - [View in browser](http://heyalvaro.com/weather.js/)
 * [aznafro's Solution](https://github.com/aznafro/goodmorning) - [View in browser](https://aznafro.github.io/goodmorning/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Weather-app) - [View in browser](https://areebaishtiaq.github.io/Weather-app/)
+* [Taylor J's solution](https://github.com/taylorjohannsen/weather-app) - [View in browser](https://taylorjohannsen.github.io/weather-app/)
