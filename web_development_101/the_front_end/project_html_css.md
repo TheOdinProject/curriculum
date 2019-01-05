@@ -1828,6 +1828,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Filip Blajiu's solution (Easy)](https://github.com/filipblajiu/google-homepage) - [View in Browser](https://filipblajiu.github.io/google-homepage/)
 * [Youssef Farkhani's solution (Easy)](https://github.com/YoussefFarkhani/google-homepage) - [View in Browser](https://yousseffarkhani.github.io/google-homepage/)
 * [Yemre Aybey's solution (Easy)](https://github.com/YemreAybey/google-homepage) - [View in Browser](https://yemreaybey.github.io/google-homepage/)
+* [Amer Alahmar's solution (Easy)](https://github.com/amer-alahmar/google-homepage) - [View in Browser](http://amer-alahmar.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
