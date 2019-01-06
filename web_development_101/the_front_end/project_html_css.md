@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Germán Gutiérrez' Solution (Easy)](https://github.com/sggutier/google-homepage) - [View in Browser (Easy)](https://sggutier.github.io/google-homepage/)
+* [Kevin Vuong's Solution (Difficult)](https://github.com/fffear/google-searchpage)  -  [View in Browser (Difficult)](https://fffear.github.io/google-searchpage/)
 * [Kevin Vuong's Solution (Easy)](https://github.com/fffear/google-homepage)  -  [View in Browser (Easy)](https://fffear.github.io/google-homepage/)
 * [Leonardo Vega's Solution (Easy)](https://github.com/leonardovega/google-homepage) - [View in Browser (Easy)](https://leonardovega.github.io/google-homepage/)
 * [Tyler Devers's Solution (Easy)](https://tylerdevers.github.io/OdinWebDev/google-homepage/) - [View in Browser (Easy)](https://tylerdevers.github.io/OdinWebDev/google-homepage/)
