@@ -22,6 +22,7 @@ We're making a Tic Tac Toe game you can play in your browser!
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/tic-tac-toe-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
+- [Hammad Ahmed's Solution](https://github.com/shammadahmed/tic-tac-toe) - [View in Browser](https://shammadahmed.github.io/tic-tac-toe/)
 - [Chris MacSwan's Solution](https://github.com/cmacswan07/tic_tac_toe) - [View in Browser](https://cmacswan07.github.io/tic_tac_toe/)
 - [Max Garber's Solution](https://github.com/bubblebooy/Odin-Javascript) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/ticTacToe.html)
 - [Nate Dimock's Solution](https://github.com/Flakari/tic-tac-toe) - [View in Browser](https://flakari.github.io/tic-tac-toe/)
@@ -53,3 +54,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Alexfuro's Solution](https://github.com/alexfuro/odin_tic_tac_toe) - [View in Browser](https://alfuro-tic-tac-toe.netlify.com/)
 - [aznafro's Solution](https://github.com/aznafro/tictactoe) - [View in Browser](https://aznafro.github.io/tictactoe/)
 - [Areeba's Solution](https://github.com/AREEBAISHTIAQ/tic-tac-toe-js) - [View in browser](https://areebaishtiaq.github.io/tic-tac-toe-js/)
+- [Taylor J's Solution](https://github.com/taylorjohannsen/tictactoe) - [View in browser](https://taylorjohannsen.github.io/tictactoe/)

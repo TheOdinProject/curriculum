@@ -44,3 +44,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [heyalvaro's solution](https://github.com/heyalvaro/jestTestPractice)
 - [Mike Smith's solution](https://github.com/MikeSS281986/Unit-Testing-)
 - [MPalhidai's solution](https://github.com/MPalhidai/testing)
+- [Areeba's solution](https://github.com/AREEBAISHTIAQ/Jest-testing-project)
