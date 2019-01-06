@@ -1830,6 +1830,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Youssef Farkhani's solution (Easy)](https://github.com/YoussefFarkhani/google-homepage) - [View in Browser](https://yousseffarkhani.github.io/google-homepage/)
 * [Yemre Aybey's solution (Easy)](https://github.com/YemreAybey/google-homepage) - [View in Browser](https://yemreaybey.github.io/google-homepage/)
 * [Amer Alahmar's solution (Easy)](https://github.com/amer-alahmar/google-homepage) - [View in Browser](http://amer-alahmar.github.io/google-homepage/)
+* [Maxim Demura's solution (Easy)](https://github.com/demuramax/google-homepage) - [View in Browser](https://demuramax.github.io/google-homepage/index.html)
 * [Valentino Valenti's solution (Easy)](https://github.com/1ba1/google-homepage) - [View in Browser](https://1ba1.github.io/google-homepage/)
 
 ### Additional Resources
