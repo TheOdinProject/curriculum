@@ -214,7 +214,7 @@ The terminal will start its work, pausing to verify your connection to GitHub.
 
 A message from Github, 'The authenticity of host 'github.com'...', may appear during the process. You can type `yes` and hit enter to continue.
 
-After the terminal finishes it's magic, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app."
+After the terminal finishes its magic, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app."
 
 This marks the start of your Odin Journey! Later on you'll be able to look back at this repository and marvel over how far you've come!
 
@@ -365,6 +365,8 @@ Now that we've commited the files we can push to Heroku:
 ~~~bash
 git push heroku master
 ~~~
+
+**UPDATE 2019-01-04** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run: `heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2` and then run the previous `git push heroku master` command again
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for this to finish.
 
