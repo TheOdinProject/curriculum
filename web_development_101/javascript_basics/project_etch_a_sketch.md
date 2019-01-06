@@ -270,4 +270,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [GustavoRdz's solution](https://github.com/GustavoRdz/etch-a-sketch) - [View in Browser](https://gustavordz.github.io/etch-a-sketch/)
 * [Daniel Ryu's Solution](https://github.com/dryu99/etch-a-sketch) - [View in Browser](https://dryu99.github.io/etch-a-sketch/)
 * [Tristan Ross's Solution](https://github.com/TristanRoss/Etch-a-Sketch) - [View in Browser](https://tristanross.github.io/Etch-a-Sketch/)
-* [Abdirahman's Console solution](https://github.com/Murabac/rock_paper_scissors) - [View in Browser](https://murabac.github.io/rock_paper_scissors/)
+* [Abdirahman's Etch A Sketch solution](https://github.com/Murabac/Etch-Sketch) - [View in Browser](https://murabac.github.io/Etch-Sketch/)
