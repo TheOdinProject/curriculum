@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Germán Gutiérrez' Solution (Easy)](https://github.com/sggutier/google-homepage) - [View in Browser (Easy)](https://sggutier.github.io/google-homepage/)
+* [Kevin Vuong's Solution (Difficult)](https://github.com/fffear/google-searchpage)  -  [View in Browser (Difficult)](https://fffear.github.io/google-searchpage/)
 * [Kevin Vuong's Solution (Easy)](https://github.com/fffear/google-homepage)  -  [View in Browser (Easy)](https://fffear.github.io/google-homepage/)
 * [Leonardo Vega's Solution (Easy)](https://github.com/leonardovega/google-homepage) - [View in Browser (Easy)](https://leonardovega.github.io/google-homepage/)
 * [Tyler Devers's Solution (Easy)](https://tylerdevers.github.io/OdinWebDev/google-homepage/) - [View in Browser (Easy)](https://tylerdevers.github.io/OdinWebDev/google-homepage/)
@@ -1830,6 +1831,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Yemre Aybey's solution (Easy)](https://github.com/YemreAybey/google-homepage) - [View in Browser](https://yemreaybey.github.io/google-homepage/)
 * [Amer Alahmar's solution (Easy)](https://github.com/amer-alahmar/google-homepage) - [View in Browser](http://amer-alahmar.github.io/google-homepage/)
 * [Maxim Demura's solution (Easy)](https://github.com/demuramax/google-homepage) - [View in Browser](https://demuramax.github.io/google-homepage/index.html)
+* [Valentino Valenti's solution (Easy)](https://github.com/1ba1/google-homepage) - [View in Browser](https://1ba1.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
