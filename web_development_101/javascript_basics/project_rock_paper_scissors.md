@@ -421,4 +421,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tristan Ross's console solution](https://github.com/TristanRoss/RockPaperScissors) - [View in Browser](https://tristanross.github.io/RockPaperScissors/) - [UI Version](https://github.com/TristanRoss/RockPaperScissorsUI) - [View in Browser](https://tristanross.github.io/RockPaperScissorsUI/)
 - [JMG1995's console solution](https://github.com/JMG1995/rock-paper-scissors) - [View in Browser](https://github.com/JMG1995/rock-paper-scissors)
 - [Melobeat's UI solution](https://github.com/Melobeat/rock_paper_scissors) - [View in Browser](https://melobeat.github.io/rock_paper_scissors/)
+- [Abdirahman's UI solution](https://github.com/Murabac/rock_paper_scissors_ui/) - [View in Browser](https://murabac.github.io/rock_paper_scissors_ui/)
 - [Mohamed's solution ](https://github.com/mohamedcutte/RPS_game)-[View in Browser](https://mohamedcutte.github.io/RPS_game/)
