@@ -78,6 +78,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Rest_Client_Example)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/rest-client/blob/master/rest-client.rb)
 * [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
+* [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
 
 ### Project: Ruby on Rails Tutorial
 
@@ -87,7 +88,7 @@ In this project, you'll dive right into the tutorial by building the site's stat
 
 One aspect of the Ruby on Rails tutorial which we haven't covered deeply is testing.  You got a good taste of it in the [Ruby course](/courses/ruby-programming/lessons/introduction-to-rspec) but there are some more moving parts when it becomes applied to Rails.
 
-Michael Hartl does a pretty good job of explaining what's going on during the Rails Tutorial and the syntax of MiniTest is relatively straightforward, and easily parallel to RSpec.  If you've been following the curriculum up until now, you should find testing in Rails to be a natural transition from plain Ruby tests (and actually a bit more interesting because you get to play with webpages).
+Michael Hartl does a pretty good job of explaining what's going on during the Rails Tutorial and the syntax of minitest is relatively straightforward, and easily parallel to RSpec.  If you've been following the curriculum up until now, you should find testing in Rails to be a natural transition from plain Ruby tests (and actually a bit more interesting because you get to play with webpages).
 
 If you don't feel comfortable with testing Ruby yet, it can feel like you're learning two languages at once.  Don't be discouraged if you end up scratching your head a bit... it takes some getting used to.  Luckily RSpec only uses about a dozen different methods again and again and again, the trick is just knowing which order to put them in.
 
@@ -125,7 +126,7 @@ This is an example (listing 3.15) from the tutorial:
     end
 ~~~
 
-This syntax will be a bit different from the testing you have done before, that's because it uses the MiniTest testing framework instead of RSpec, which you have been so far. The syntax is a little different but the concepts are all the same so you shouldn't have much trouble understanding minitest tests. This is an "integration" or "feature" test, which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
+This syntax will be a bit different from the testing you have done before, that's because it uses the minitest testing framework instead of RSpec, which you have been using so far. The syntax is a little different but the concepts are all the same so you shouldn't have much trouble understanding minitest tests. This is an "integration" or "feature" test, which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
 
 I'll do a brief walkthrough of what's going on in this example just to get your mind warmed up for testing.  Refer back to the previous lessons on testing and additional resources below for better explanations!
 

@@ -15,10 +15,12 @@ You will be building a simple command line Hangman game where one player plays a
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* [Smetanca52's solution](https://github.com/Smetanca52) - (https://github.com/Smetanca52/hangman_game)
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/hangman)
+* [Stefano Merazzi's solution](https://github.com/ste001/hangman)
+* [Smetanca52's solution](https://github.com/Smetanca52/hangman_game)
 * [Tommy Hogwart's solution](https://github.com/hoangtommy/Hogwarts-Hangman) - [Live Demo](https://repl.it/@tommyhoang1/HogwartsHangman)
 * [Encolpius's solution](https://github.com/Encolpius/hangman)
 * [Dreniak's Solution](https://github.com/Dreniak/hangman) - [Repl.it Live Version](https://repl.it/@Dreniak/TerminalHANGMAN)
@@ -203,3 +205,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [dmarkiewicz's solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/Ruby/hangman-project)
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/TheOdinProject/tree/master/ruby-programming/intermediate-ruby/File_IO_%26_Serialization/hangman)
 * [Petrarch1603's solution](https://github.com/petrarch1603/Ruby-Hangman)
+* [Slaven's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/hangman/hangman.rb)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_programming/hangman) - [Play on Repl.it](https://repl.it/@Brendaneus/JuniorTroubledCodec)
+* [Emil Dimitrov's Solution](https://github.com/imemdm/hangman) - [Play on repl.it](https://repl.it/@imemdm/IllfatedButteryKernel)

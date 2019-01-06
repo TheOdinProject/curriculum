@@ -43,7 +43,7 @@ Here are a few books that will take you a bit deeper as well:
 
 You know more than you think.  Remember when we just said that you should keep building stuff?  This website is completely open source and needs your help to improve.  We have a dedicated group of current and former students who help add features and proofread the curriculum.  The best part is that it's completely public and free so you can watch or participate at whatever level you're comfortable.
 
-It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment.  So check out the contributing channel on our [gitter](https://gitter.im/TheOdinProject/theodinproject) to see what we're up to.  We'd love to have you get involved!
+It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment.  So check out the channel on our [Discord](https://discordapp.com/channels/505093832157691914/505093832157691916) to see what we're up to.  We'd love to have you get involved!
 
 ### Conclusion
 
