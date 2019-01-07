@@ -207,13 +207,13 @@ You should see the following after the command has run:
 # Load rbenv automatically by appending 
 # the following to ~/.bash_profile: 
 
-eval "$(rbenv init -)
+eval "$(rbenv init -)"
 ~~~
 
 You'll do as it suggests by running the following command in the terminal:
 
 ~~~bash
-`echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ~~~
 
 At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
