@@ -425,3 +425,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Abdirahman's UI solution](https://github.com/Murabac/rock_paper_scissors_ui/) - [View in Browser](https://murabac.github.io/rock_paper_scissors_ui/)
 - [Mohamed's solution ](https://github.com/mohamedcutte/RPS_game)-[View in Browser](https://mohamedcutte.github.io/RPS_game/)
 - [Brett-Bonnet's solution](https://github.com/Brett-Bonnet/rock-paper-scissors)
+- [Dennis McGovern's solution](https://github.com/mcgovernd/rock-paper-scissors/blob/master/index.html)
