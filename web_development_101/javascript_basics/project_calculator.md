@@ -39,6 +39,11 @@ Here are some use cases (abilities your project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Billy Coffin's Solution](https://github.com/bcoffin9/Calculator) - [View in Browser](https://bcoffin9.github.io/Calculator/)
+- [Loumarven's Solution](https://github.com/loumarven/calculator) - [View in Browser](https://loumarven.github.io/calculator/)
+- [KJ's Solution](https://github.com/kjwebdev/Calculator) - [View in Browser](https://kjwebdev.github.io/Calculator/)
+- [Moe Negm's Solution](https://github.com/moenegm/calculator) - [View in Browser](https://moenegm.github.io/calculator/)
+- [Tommy's Solution](https://github.com/Tommyisr/calculator) - [View in Browser](https://tommyisr.github.io/calculator/)
 - [Hammad's Solution](https://github.com/shammadahmed/calculator) - [View in Browser](https://shammadahmed.github.io/calculator/)
 - [Eddy's solution](https://github.com/sudo-eddy/the-odin-project-my-portfolio/tree/master/JS%20Calculator)
 - [BShowen's Solution](https://github.com/BShowen/ProjectCalculator) - [View in Browser](https://bshowen.github.io/ProjectCalculator/)
@@ -190,3 +195,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Leila Alderman's solution](https://github.com/leila-alderman/calculator) - [View in browser](https://leila-alderman.github.io/calculator/)
 - [Victor Coelho's solution](https://github.com/Victor-Coelho/calculator) - [View in browser](https://victor-coelho.github.io/calculator/)
 - [Vitaly Osipov's solution](https://github.com/vi7ali/calculator) - [View in browser](https://vi7ali.github.io/calculator/)
+- [Wesley Wang's solution](https://github.com/wesleymellon/Calculator) - [View in browser](https://wesleymellon.github.io/Calculator/)
+- [Gregory's Solution](https://github.com/Selvdrap/calculator) - [View in browser](http://selvdrap.github.io/calculator/)
+- [Ocean572's Solution](https://github.com/Ocean572/Basic_Calculator) - [View in browser](https://ocean572.github.io/Basic_Calculator/)
+- [Eren Cataltepe's Solution](https://github.com/erencataltepe/calculator) - [View in browser](https://erencataltepe.github.io/calculator/)
+- [GustavoRdz's Solution](https://github.com/GustavoRdz/calculator) - [View in browser](https://gustavordz.github.io/calculator/)
