@@ -476,7 +476,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jahmzu's solution](https://github.com/jahmzu/learn_ruby)
 * [Mohamed's Solution](https://github.com/mohamedcutte/learn_ruby)
 * [GustavoRdz's solution](https://github.com/GustavoRdz/learn_ruby)
+<<<<<<< HEAD
 
+=======
+>>>>>>> c17b13e16bfd2ace6690ef67dd16ba288b2ad716
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
