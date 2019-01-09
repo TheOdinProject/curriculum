@@ -36,6 +36,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Jithin's Console Solution](https://github.com/jithindasad/r-p-s)
+- [Samuel Alonso's Solution](https://github.com/samontenegro/js_rock-paper-scissors)
 - [Diana's Solution](https://github.com/dianastanciu/rock-paper-scissors) - [View in browser](https://dianastanciu.github.io/rock-paper-scissors/)
 - [Diego Escalante's Solution](https://github.com/xDican/rock_scizors_paper.git) - [View in Browser](https://xdican.github.io/rock_scizors_paper/)
 - [Jared Baker's Solution](https://github.com/Jayrod141414/project_rock_paper_scissors)
@@ -421,4 +423,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tristan Ross's console solution](https://github.com/TristanRoss/RockPaperScissors) - [View in Browser](https://tristanross.github.io/RockPaperScissors/) - [UI Version](https://github.com/TristanRoss/RockPaperScissorsUI) - [View in Browser](https://tristanross.github.io/RockPaperScissorsUI/)
 - [JMG1995's console solution](https://github.com/JMG1995/rock-paper-scissors) - [View in Browser](https://github.com/JMG1995/rock-paper-scissors)
 - [Melobeat's UI solution](https://github.com/Melobeat/rock_paper_scissors) - [View in Browser](https://melobeat.github.io/rock_paper_scissors/)
+- [Abdirahman's UI solution](https://github.com/Murabac/rock_paper_scissors_ui/) - [View in Browser](https://murabac.github.io/rock_paper_scissors_ui/)
 - [Mohamed's solution ](https://github.com/mohamedcutte/RPS_game)-[View in Browser](https://mohamedcutte.github.io/RPS_game/)
+- [Brett-Bonnet's solution](https://github.com/Brett-Bonnet/rock-paper-scissors)
+- [Dennis McGovern's solution](https://github.com/mcgovernd/rock-paper-scissors/blob/master/index.html)
+- [Leonardo Ruiz's solution](https://github.com/leo3904/Rock-paper-scissors)

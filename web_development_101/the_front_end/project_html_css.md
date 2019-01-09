@@ -1833,6 +1833,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dennis McGovern's solution (Easy)](https://github.com/mcgovernd/google-homepage) - [View in Browser](https://mcgovernd.github.io/google-homepage/)
 * [Maxim Demura's solution (Easy)](https://github.com/demuramax/google-homepage) - [View in Browser](https://demuramax.github.io/google-homepage/index.html)
 * [Valentino Valenti's solution (Easy)](https://github.com/1ba1/google-homepage) - [View in Browser](https://1ba1.github.io/google-homepage/)
+* [Medrit Kaimi's solution (Easy)](https://github.com/medrit/google-homepage) - [View in Browser](https://medrit.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
