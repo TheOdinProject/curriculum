@@ -63,7 +63,7 @@ The rest of the installation is pretty straightforward, but if you have any ques
 
  Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. Guest Additions add a lot of functionality to the Guest OS, such as "Drag n Drop" files, full-screen guest mode, shared folders, and copy/paste between the host and guest.
 
-Installing Guest Additions is the hardest part of setting up a VM, but luckily, we have Youtube. Check out [this video](https://www.youtube.com/watch?v=qNecdUsuTPw) by ProgrammingKnowledge on how to install Guest Additions. Their installation may look different than yours, but all of the commands are the same.
+Installing Guest Additions is the hardest part of setting up a VM, but luckily, we have Guides. Check out [this article](http://www.fixedbyvonnie.com/2015/07/how-to-setup-xubuntu-linux-in-virtualbox-step-by-step/#.XDVqWVxKguU). You can simple scroll down to the portion that says `Installing Guest Additions in Xubuntu`.
 
 ### Step 4: Understand Your New VM
 
