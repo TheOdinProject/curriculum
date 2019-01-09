@@ -200,3 +200,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ocean572's Solution](https://github.com/Ocean572/Basic_Calculator) - [View in browser](https://ocean572.github.io/Basic_Calculator/)
 - [Eren Cataltepe's Solution](https://github.com/erencataltepe/calculator) - [View in browser](https://erencataltepe.github.io/calculator/)
 - [GustavoRdz's Solution](https://github.com/GustavoRdz/calculator) - [View in browser](https://gustavordz.github.io/calculator/)
+- [Mohamed's solution](https://github.com/mohamedcutte/jsCalculator) - [View in Browses](https://mohamedcutte.github.io/jsCalculator/.)
