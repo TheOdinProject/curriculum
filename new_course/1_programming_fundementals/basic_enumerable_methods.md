@@ -1,43 +1,33 @@
-## Introduction
+### Introduction
 
 Enumerables are a set of methods that are available on certain collections in Ruby. A collection, as used throughout this course, is a number of items that are grouped together into one Ruby object, like  an `Array` or `Hash`.  These methods are handy for looping through the items in such a collection. They provide easy ways to perform common actions, and are among the most important tools for Rubyists.
 
 There is a lot here, but these are built-in to make your life easier. We will run you through the ones that you will most commonly use. This certainly is not an exhaustive list. At the end of this lesson there is a link for you to find out more about other methods beyond what we go through here.
 
 It will be beneficial for you to code along to test the examples as you work through this lesson, either in IRB or [repl.it](https://repl.it/languages/ruby).
-<br/>
 
-## Learning Outcomes
+### Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * What does the `#each` method do? What does it return?
 * What does the `#each_with_index` method do?
 * When should you use `do...end` around a code block versus `{...}`?
-<br/>
-
 * Why is there a question mark after some methods?
 * What does the `#include?` method do?
 * What does the `#any?` method do? The `#all?` method? `#none?`?
-<br/>
-
 * What does the `#count` method do?
 * What does the `#sort` method do?
 * What does the `#select` method do?
 * What does the `#find` method do?
-<br/>
-
 * What does the `#map` method do?
 * Does `#map` modify the collection it is called on?
 * What is an alias for the `#map` method?
 * What does the `#reduce` method do?
 * What is an alias for the `#reduce` method?
-<br/>
 
 
-## Enumerable Methods
-<br/>
-
-### The `#each` method
+### Enumerable Methods
+#### The `#each` method
 `#each` is the most basic and flexible of the enumerable methods.
 
 Calling the `#each` method on an array will loop through each item in that array and perform a task, which you define in a code block that you state after calling `#each`.  This is called passing a block to the method, which is similar to passing a variable. The task you want the method to perform can be as simple or complex as you need it to be.
@@ -80,7 +70,7 @@ end
 
 <br/>
 
-### The `#each_with_index` method
+#### The `#each_with_index` method
 This is nearly the same as the `#each` method, but it provides additional functionality by receiving two parameters instead of one. The second parameter represents the index of your array, that is the position of the current item within that array. This allows you to do things that are a bit more complex.
 
 If we take the above example, but instead we want to only print every other word from our array of strings, we can achieve that like so:
@@ -94,7 +84,7 @@ my_array.each_with_index { |fruit, index| print fruit, " " if index % 2 == 0 }
 
 <br/>
 
-### `do` and `end`
+#### `do` and `end`
 What if the code block you want to pass is long? Too long to fit on one line? It starts to become less readable and look kind of unwieldy to use the curly braces around more than one line (although it is allowed). Another way (and the commonly accepted best practice), is to use `do` and `end` by replacing the curly braces in your code such that `{ |x| ... }` becomes:
 
 ```ruby
@@ -116,7 +106,7 @@ The best practice according to the style guides is to use `{ }` if your block co
 
 <br/>
 
-### The `#include?` method
+#### The `#include?` method
 
 You may have noticed this method has a `?` mark in the name. Recall from the methods lesson, that any method with a `?` at the end is a `predicate` method, which is Ruby convention for any method that strictly returns a Boolean, that is either `true` or `false`.
 
@@ -136,7 +126,7 @@ my_numbers.include?(3)
 
 <br/>
 
-### The `#any?` method
+#### The `#any?` method
 
 You might be able to then guess what the `#any?` method does.
 
@@ -154,7 +144,7 @@ my_numbers.any? { |item| item < 20 }
 
 <br/>
 
-### The `#all?` method
+#### The `#all?` method
 
 The `all?` method is also fairly intuitive.
 
@@ -171,7 +161,7 @@ my_array.all? { |word| word.length > 6 }
 
 <br/>
 
-### The `#none?` method
+#### The `#none?` method
 
 As you might expect `#none?` performs the opposite function from `#all?`:
 
@@ -182,7 +172,7 @@ my_array.none? { |word| word.length < 4 }
 
 <br/>
 
-### The `#count` method
+#### The `#count` method
 This method returns an integer representing the number of items within the array or hash that meet
 the condition(s) set forth in the block that you pass. Like `#each`, this method takes a block with
 one parameter (or two - key and value - when called on a hash).
@@ -208,7 +198,7 @@ my_hash.count { |key, value| key.is_a?(Symbol) }
 
 <br/>
 
-### The `#sort` method
+#### The `#sort` method
 `#sort` is a method that can operate with or without a block being passed to it. By default, it sorts numbers ascending, and strings alphabetically. However, it can also accept a block that tells it to sort according to any rules you would like. Using this ability can take some practice, but it is a powerful tool.
 
 When you pass a block to `#sort`, you must pass two parameters, which are the items being compared at a given time. The key is to make the block you pass return a -1 if the order of the items should be swapped and return 1 if they should not be swapped. (Technically, it should also have a return of 0 for when they are equal, but this will rarely actually be necessary.) This is best understood through examples.
@@ -245,7 +235,7 @@ my_array.sort { |first, second| second <=> first }
 ```
 <br/>
 
-### The `#select` method
+#### The `#select` method
 
 The `#select` method checks every item passed to it against a criteria that you specify, and returns only the items that pass that criteria. Your criteria, as usual, is passed as a block.
 
@@ -257,7 +247,7 @@ my_array.select { |word| word.length > 5 && word.length < 10 }
 ```
 <br/>
 
-### The `#find` method
+#### The `#find` method
 The `#find` method is similar to `#select`, except it returns only the first item which meets the given criteria. If no such item exists, it returns `nil`. Using the same example as above:
 
 ```ruby
@@ -278,7 +268,7 @@ end
 ```
 <br/>
 
-### The `#map` method
+#### The `#map` method
 `#map` is used to transform each item from the array it is called on and place them into a new array. How the items are transformed is defined by the block you pass to it. `#map` may seem confusing at first, but it is extremely useful. Seeing several examples and use cases will help you understand how and when you can use it. You will probably also run into `#collect`, which is simply an alias for `#map` (same function, different name).
 
 To get the first 20 square numbers, we can simply call `map` on the range of numbers from 1 to 20, like so:
@@ -299,7 +289,7 @@ my_emphatic_strings = my_strings.map { |s| s + "!" }
 
 <br/>
 
-### The `#reduce` method
+#### The `#reduce` method
 `#reduce` (alias: `#inject`) is possibly the most difficult-to-grasp common method for new coders. The idea is simple enough though: it reduces a collection (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
 
 A classic example would be a sum or product of an array of numbers. The syntax is where it can be tricky. In most cases, you need to pass a starting 'value' as well as a block with two parameters that tells it how to combine the items. The parameters of the block are the 'cumulative value' and current item.
@@ -327,7 +317,7 @@ end
 Note that this example returns a hash with several `key => value` pairs. So the object that `#reduce` returns is still one object, a hash. It's just a more complex one.
 <br/>
 
-## Conclusion
+### Conclusion
 
 This introduction to some of the more common enumerable methods should give you an idea of how many tools Ruby puts in your tool box that you are free to utilize in whatever combination you wish. Therefore given a task, and the many tools available, it is common for different coders to come up with different solutions to arrive at the same result.
 <br/>
