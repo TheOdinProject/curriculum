@@ -430,4 +430,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Brett-Bonnet's solution](https://github.com/Brett-Bonnet/rock-paper-scissors)
 - [Dennis McGovern's solution](https://github.com/mcgovernd/rock-paper-scissors/blob/master/index.html)
 - [Leonardo Ruiz's solution](https://github.com/leo3904/Rock-paper-scissors)
-- [Canicodenow's Console Solution] (https://github.com/canicodenow/rock-paper-scissors) - [View in Browser] (https://canicodenow.github.io/rock-paper-scissors/)
+- [Canicodenow's Console Solution](https://github.com/canicodenow/rock-paper-scissors) - [View in Browser](https://canicodenow.github.io/rock-paper-scissors/)
