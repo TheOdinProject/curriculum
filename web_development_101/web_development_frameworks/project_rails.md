@@ -300,7 +300,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Phucledien's Solution](https://github.com/phucledien/blogger) - [View in Browser](https://still-crag-31572.herokuapp.com/)
 * [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) - [View in Browser](https://radiant-beach-97617.herokuapp.com/)
 * [Oliver Curting's Solution](https://github.com/Curting/blogger) - [View in Browser](https://olivers-blogger.herokuapp.com/) I0-I5
-* [Alex's Solution](https://github.com/alexcorremans/blogger) - [View in Browser](https://fast-taiga-39728.herokuapp.com/)
+* [Alex's Solution](https://github.com/alexcorremans/blogger) - [View in Browser](https://pacific-retreat-33130.herokuapp.com/)
 * [NJW's Solution](https://github.com/obsessivenerds/blogger) - [View in Browser](https://obsessivenerds.github.io/blogger/)
 * [Celestine's Solution](https://github.com/CEOehis/blogger) - [View in Browser](https://afternoon-coast-34844.herokuapp.com/)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/blogger) - [View in Browser](https://agile-mountain-84751.herokuapp.com/)

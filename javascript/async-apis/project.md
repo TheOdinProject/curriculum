@@ -16,6 +16,7 @@ You should change the look of the page based on the data, maybe by changing the 
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/async-apis/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [Max Garbers's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/weather) - [Live preview](https://bubblebooy.github.io/Odin-Javascript/weather/build/index.html)
 * [Roman Alenskiy's solution](https://github.com/romalenskiy/react-weather) - [Live preview](https://react-weather228.herokuapp.com)
 * [nmac's solution](https://github.com/nmacawile/weather-map) - [View in browser](https://nmacawile.github.io/weather-map)
 * [Javier Machin's solution](https://github.com/Javier-Machin/react-weather-app) - [View in browser](https://javier-machin.github.io/react-weather-app/)

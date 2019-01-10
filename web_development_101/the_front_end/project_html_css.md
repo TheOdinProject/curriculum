@@ -1829,7 +1829,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Filip Blajiu's solution (Easy)](https://github.com/filipblajiu/google-homepage) - [View in Browser](https://filipblajiu.github.io/google-homepage/)
 * [Youssef Farkhani's solution (Easy)](https://github.com/YoussefFarkhani/google-homepage) - [View in Browser](https://yousseffarkhani.github.io/google-homepage/)
 * [Yemre Aybey's solution (Easy)](https://github.com/YemreAybey/google-homepage) - [View in Browser](https://yemreaybey.github.io/google-homepage/)
-
+* [Amer Alahmar's solution (Easy)](https://github.com/amer-alahmar/google-homepage) - [View in Browser](http://amer-alahmar.github.io/google-homepage/)
+* [Dennis McGovern's solution (Easy)](https://github.com/mcgovernd/google-homepage) - [View in Browser](https://mcgovernd.github.io/google-homepage/)
+* [Maxim Demura's solution (Easy)](https://github.com/demuramax/google-homepage) - [View in Browser](https://demuramax.github.io/google-homepage/index.html)
+* [Valentino Valenti's solution (Easy)](https://github.com/1ba1/google-homepage) - [View in Browser](https://1ba1.github.io/google-homepage/)
+* [Medrit Kaimi's solution (Easy)](https://github.com/medrit/google-homepage) - [View in Browser](https://medrit.github.io/google-homepage/)
+* [Andrew Dinsmore's solution (Easy)](https://github.com/teif26/google_homepage) - [View In Browser](https://teif26.github.io/google_homepage/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
