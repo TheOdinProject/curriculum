@@ -1,8 +1,8 @@
 ### Introduction
 
-Enumerables are a set of methods that are available on certain collections in Ruby. A collection, as used throughout this course, is a number of items that are grouped together into one Ruby object, like  an `Array` or `Hash`.  These methods are handy for looping through the items in such a collection. They provide easy ways to perform common actions, and are among the most important tools for Rubyists.
+In Ruby, `Enumerable` is a module that provides a set of shared methods that are available to collection classes, such as `Array` or `Hash`. The basic requirement to use enumerable methods is that the collection class in question must have an `#each` method (further explained below). These enumerable methods are handy for searching or looping through a collection, and are among the most important tools for Rubyists.
 
-There is a lot here, but these are built-in to make your life easier. We will run you through the ones that you will most commonly use. This certainly is not an exhaustive list. At the end of this lesson there is a link for you to find out more about other methods beyond what we go through here.
+We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else Enumerable offers.
 
 It will be beneficial for you to code along to test the examples as you work through this lesson, either in IRB or [repl.it](https://repl.it/languages/ruby).
 
@@ -19,12 +19,8 @@ It will be beneficial for you to code along to test the examples as you work thr
 * What does the `#sort` method do?
 * What does the `#select` method do?
 * What does the `#find` method do?
-* What does the `#map` method do?
-* Does `#map` modify the collection it is called on?
-* What is an alias for the `#map` method?
+* What does the `#map` method do? Does it modify the collection it's called on?
 * What does the `#reduce` method do?
-* What is an alias for the `#reduce` method?
-
 
 ### Enumerable Methods
 #### The `#each` method
