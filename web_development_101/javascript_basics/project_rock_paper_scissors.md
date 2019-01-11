@@ -429,7 +429,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Melobeat's UI solution](https://github.com/Melobeat/rock_paper_scissors) - [View in Browser](https://melobeat.github.io/rock_paper_scissors/)
 - [Abdirahman's UI solution](https://github.com/Murabac/rock_paper_scissors_ui/) - [View in Browser](https://murabac.github.io/rock_paper_scissors_ui/)
 - [Mohamed's solution ](https://github.com/mohamedcutte/RPS_game)-[View in Browser](https://mohamedcutte.github.io/RPS_game/)
-- [Brett-Bonnet's solution](https://github.com/Brett-Bonnet/rock-paper-scissors)
+- [Brett-Bonnet's Console Solution](https://github.com/Brett-Bonnet/rock-paper-scissors) - [View in Browser](https://brett-bonnet.github.io/rock-paper-scissors/)
 - [Dennis McGovern's solution](https://github.com/mcgovernd/rock-paper-scissors/blob/master/index.html)
 - [Leonardo Ruiz's solution](https://github.com/leo3904/Rock-paper-scissors)
 - [Canicodenow's Console Solution](https://github.com/canicodenow/rock-paper-scissors) - [View in Browser](https://canicodenow.github.io/rock-paper-scissors/)
