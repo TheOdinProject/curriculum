@@ -434,3 +434,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Leonardo Ruiz's solution](https://github.com/leo3904/Rock-paper-scissors)
 - [Canicodenow's Console Solution](https://github.com/canicodenow/rock-paper-scissors) - [View in Browser](https://canicodenow.github.io/rock-paper-scissors/)
 - [Max Stouten's solution](https://kapiteinkattenkwaad.github.io/rock_paper_scissors/)
+- [jhavn's solution] (https://github.com/jhavn/rockpaperscissors) 
