@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock, Papper, Scissors - The Worldcup</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class='full-height container'>
+        <div class=arena>
+            <div class='container title'>
+                <h2>The supreme art of 'Rock, Paper, Scissors' is to subdue the enemy without fighting. - Sun Tzu</h2>
+            </div>
+            <div class=rules>
+                <p>The battle starts by clicking the weapon of your choice. Who reaches first five points will win the war. RULES: Paper beats Rock, Rock beats Scissors and finally, Scissors beats Paper.</p>
+            </div>
+           
+            <div class=container>
+                <button value='rock'>Rock</button>
+                <button value='paper'>Paper</button>
+                <button value='scissors'>Scissors</button>
+            </div>
+            <div class=container id=box></div>
+            <div class=container id=scores></div>                          
+        </div>
+    </div>
+  <script>
+    /* defining game variables*/
+    var cpuScore = 0
+    var playerScore = 0
+    var round = 0
+
+    /* defining DOM manipulation elements*/
+    const container = document.querySelector('#box');
+    const scores = document.querySelector('#scores');
+    const results = document.querySelector('#results')
+
+    const selection = document.createElement('div');
+    selection.classList.add('content');
+
+    const score = document.createElement('div');
+    score.classList.add('content');
+
+    /* defining button event handlers and actions*/
+    var btn = document.querySelectorAll('button');
+        btn.forEach((button) => {
+            button.addEventListener('click', () => {
+                playRound(button.value);            
+        });
+    });    
+
+    /* defining cpu selection*/
+    function computerPlay(){
+    var n = Math.floor(Math.random() * 3) + 1;
+    if (n==1) {
+        n = "rock"
+    } else if (n==2) {
+        n = "paper"
+    } else {
+        n = "scissors"
+    }
+    return n;
+   }
+
+    /* definig one round of game*/
+    
+   function playRound(playerSelection) {
+    /* resetting variables if one soce ===5*/
+    if (playerScore === 5 || cpuScore ===5){
+        round = 0;
+        playerScore = 0;
+        cpuScore = 0;
+    }
+    /*incrementing var round on every round*/
+    round++;
+    /*passing computerPlay into local var*/
+    computerSelection = computerPlay();    
+    /*actual round*/
+    if (playerSelection == "rock" && computerSelection == "scissors") {
+        playerScore++
+    }   else if (playerSelection == "paper" && computerSelection == "rock") {
+        playerScore++
+    }   else if (playerSelection == "scissors" && computerSelection == "paper") {
+        playerScore++
+    }   else if (playerSelection == "rock" && computerSelection == "rock") {
+    }   else if (playerSelection == "paper" && computerSelection == "paper") {
+    }   else if (playerSelection == "scissors" && computerSelection == "scissors") {
+    }   else {
+        cpuScore++
+    };
+    /*messages to be displayed*/
+    selection.textContent = 'You chose: ' + playerSelection + ' - CPU chose: ' + computerSelection;
+    score.textContent = 'Rounds played: ' + round + ' / CPU: ' + cpuScore + ' - Player: ' + playerScore;
+    container.appendChild(selection);
+    scores.appendChild(score);
+    /*defining winner*/
+    if (playerScore === 5){
+        alert('YOU WON');
+    } else if (cpuScore === 5){
+        alert ('CPU WON')
+    }
+   }
+  </script>
+</body>
+</html>
