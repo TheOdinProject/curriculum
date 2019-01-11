@@ -1836,6 +1836,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Medrit Kaimi's solution (Easy)](https://github.com/medrit/google-homepage) - [View in Browser](https://medrit.github.io/google-homepage/)
 * [Andrew Dinsmore's solution (Easy)](https://github.com/teif26/google_homepage) - [View In Browser](https://teif26.github.io/google_homepage/)
 * [Matt LaPorta's solution (Easy)](git@github.com:mattlaporta/google-homepage.git)
+* [Jason Loomis' solution (Easy)] (https://github.com/jrloom/google-homepage) - [View in Browser](https://jrloom.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
