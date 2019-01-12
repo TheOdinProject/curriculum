@@ -1107,3 +1107,4 @@ Next, make sure your method can handle multiple words:
 * [mwk913's solution](https://github.com/mwk913/Ruby-Building-Blocks)
 * [EdwardHeath's solution](https://github.com/EdwardHeath/ruby/blob/master/substring.rb)
 * [Khalal's solution](https://github.com/khalalw/building_blocks/blob/master/substrings.rb)
+* [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/03_substrings/substrings.rb)
