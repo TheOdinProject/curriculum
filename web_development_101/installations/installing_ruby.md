@@ -141,7 +141,7 @@ In your Applications folder, find "Utilities" and double click "Terminal". Alter
 
 The rest of the instructions are done inside this terminal window.
 
-#### Step 1.2: Install Xode
+#### Step 1.2: Install Xcode
 
 First, you need to install Xcode, which is a program provided by Apple for programming. Xcode will install many programs that are needed for Ruby and Git and should take 10-15 minutes to install.
 
