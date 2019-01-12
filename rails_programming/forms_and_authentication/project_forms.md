@@ -200,6 +200,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/re-former/tree/master/files)
 * [Jamesredux's solution](https://github.com/Jamesredux/re-former)
 * [ParamagicDev's solution](https://github.com/ParamagicDev/re-former)
+* [bchalman's solution](https://github.com/bchalman/odin-re-former)
 
 ### Project 2: Ruby on Rails Tutorial
 

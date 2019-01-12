@@ -126,6 +126,8 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [ParamagicDev's solution](https://github.com/ParamagicDev/toy_app) - [Heroku](https://toy-app-paramagicdev.herokuapp.com/)
 * [wuaangela's solution](https://github.com/wuaangela/toy_app) - [Heroku](https://desolate-bayou-82880.herokuapp.com/)
 * [Slaven's solution](https://github.com/Everdrought/toy-app) - [Heroku](https://fast-island-19763.herokuapp.com/)
+* [Tommy's solution](https://github.com/hoangtommy/toy-app)
+* [Alex's solution](https://github.com/alexcorremans/toy_app) - [Heroku](https://shielded-anchorage-68758.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
