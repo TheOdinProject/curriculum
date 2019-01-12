@@ -45,7 +45,9 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 - Add your solution below this line!
-- [Roman Alenskiy's solution](https://github.com/Roman-Alenskiy/restaurant-page) - [Live preview](https://roman-alenskiy.github.io/restaurant-page/)
+- [Hammad Ahmed's solution](https://github.com/shammadahmed/restaurant-page) - [View in Browser](https://shammadahmed.github.io/restaurant-page)
+- [Nate Dimock's solution](https://github.com/Flakari/js-restaurant) - [View in Browser](https://flakari.github.io/js-restaurant/)
+- [Roman Alenskiy's solution](https://github.com/romalenskiy/restaurant-page) - [Live preview](https://romalenskiy.github.io/restaurant-page/)
 - [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/Restaurant) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/Restaurant/dist/index.html)
 - [Qin's solution](https://github.com/hyathynth/restaurant-page) - [View in Browser](https://hyathynth.github.io/restaurant-page/)
 - [Javier Machin's solution](https://github.com/Javier-Machin/js-restaurant) - [View in Browser](https://javier-machin.github.io/js-restaurant/)

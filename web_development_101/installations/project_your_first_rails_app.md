@@ -1,5 +1,5 @@
 ### Welcome to The Odin Project
-The Odin Project is an open source community dedicated to providing the best sources information to take you from zero to full-stack developer.  More information at [The Odin Project](https://www.theodinproject.com/about)
+The Odin Project is an open source community dedicated to providing the best sources of information to take you from zero to full-stack developer. More information at [The Odin Project](https://www.theodinproject.com/about)
 
 ### Introduction
 
@@ -109,7 +109,7 @@ cd odin_on_rails
 
 #### Step 2.3: Create the Application
 
-This is where things might become more foreign, if you don't understand, just double check your typing and keep going. This section is meant to expose you to the process and verify everything is working. Again, it's OK to not understand at this point.
+This is where things might become more foreign. If you don't understand, just double check your typing and keep going. This section is meant to expose you to the process and verify everything is working. Again, it's OK to not understand at this point.
 
 We are going to start by telling rails to initialize the application for us. We will then tell rails to create a template for us so we can get up and running.
 
@@ -142,11 +142,11 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### step 2.4: Start it up!
+#### Step 2.4: Start it up!
 
 Now that you have created a rails application, we can start it up and see if it works!
 
-run:
+Run:
 
 ~~~bash
 rails server
@@ -210,11 +210,11 @@ git push -u origin master
 
 replacing `<SSH URL from Above>` with the URL that you copied.
 
-The terminal will start it's work, pausing to verify that you're okay connection to GitHub 
+The terminal will start its work, pausing to verify your connection to GitHub.
 
 A message from Github, 'The authenticity of host 'github.com'...', may appear during the process. You can type `yes` and hit enter to continue.
 
-After the terminal finishes it's magic, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app."
+After the terminal finishes its magic, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app."
 
 This marks the start of your Odin Journey! Later on you'll be able to look back at this repository and marvel over how far you've come!
 
@@ -273,7 +273,7 @@ First we need to open the `Gemfile` and edit it.
 
 In your terminal, type `ls` and verify you can see `Gemfile` in the output. If you don't navigate to the directory you have created in Steps 4.2 and 4.3.
 
-Then we will use VSCode to modify our `Gemfile`. Open your app in VSCode by typing `code .` (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
+Then we will use VSCode to modify our `Gemfile`. Open your app in VSCode by typing `code .` (THE `.` IS IMPORTANT) (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
 
 When VSCode opens you should see a list of files on the left side of the screen. Click to open `Gemfile` then 
 
@@ -322,7 +322,7 @@ Save the file. You can close VSCode now; the rest of the steps take place in the
 
 #### Step 4.6: Adding Changes to git
 
-Now that we have made some changes need to tell git. This is required to successfully deploy to Heroku as well.
+Now that we have made some changes we need to tell git. This is required to successfully deploy to Heroku as well.
 
 We will first check which files have been updated by running `git status`:
 
@@ -366,6 +366,14 @@ Now that we've commited the files we can push to Heroku:
 git push heroku master
 ~~~
 
+**UPDATE 2019-01-04** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run: 
+
+```
+heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
+``` 
+
+and then run the previous `git push heroku master` command again.
+
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for this to finish.
 
 Most of this input you can ignore for now, but take note of the line a couple lines above your command prompt that will look something like this:
@@ -388,7 +396,7 @@ heroku run rails db:migrate
 
 You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! 
 
-If you have an error, come to the [Gitter tech support chat room](https://gitter.im/TheOdinProject/tech_support), and ask for help, be sure to include the entire output from your terminal.
+If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help, be sure to include the entire output from your terminal.
 
 #### Step 4.9: Visit your new application
 

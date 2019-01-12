@@ -242,6 +242,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's solution](https://github.com/imemdm/tic-tac-toe) - [Play on repl.it](https://repl.it/repls/SufficientInstructiveApache)
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/LustrousHeartfeltDefragment)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/tree/master/tic-tac-toe)
+* [EdwardHeath's solution](https://github.com/EdwardHeath/tic_tac_toe/blob/master/tic_tac_toe.rb)
 
 ### Project 2: Mastermind
 
@@ -264,6 +265,8 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/mastermind) - [Live repl.it Version](https://repl.it/@RudiBoshoff/Mastermind-Game)
+* [Chris Wegscheid's Solution](https://github.com/cwegscheid08/mastermind)
 * [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/tree/master/mastermind)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/mastermind) - [Live repl.it Version](https://repl.it/@mohamed_attar/mastermind)
 * [ahmed ali's solution](https://github.com/ahmedloona/my_odin_project_solutions/tree/master/2_project_oop/ahmed_ali_mastermind_exercises/lib)
