@@ -26,6 +26,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Simon Tharby's solution](https://github.com/jinjagit/binary_tree)
 * [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/searching_binary_trees.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/odin-project-data-structures-and-algorithms/blob/master/bst.rb)
 * [prw001's Solution](https://github.com/prw001/binary_tree_dfs_bfs)
@@ -140,6 +141,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/binary-tree/blob/master/node.rb)
 * [Alex's solution](https://github.com/alexcorremans/binary_search_tree)
 * [Tommy's solution](https://github.com/hoangtommy/dataStructures-Algorithms)
+* [Emil Dimitrov's solution](https://github.com/imemdm/searching-binary-trees)
 
 ### Project 2: Knight's Travails
 
@@ -293,6 +295,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Akash's Solution](https://github.com/Akash-sopho/knights_travels)
 * [Areeba's Solution](https://github.com/AREEBAISHTIAQ/knight-travails/blob/master/knight-travails.rb)
 * [Alex's solution](https://github.com/alexcorremans/knight)
+* [Emil Dimitrov's solution](https://github.com/imemdm/knight-moves)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

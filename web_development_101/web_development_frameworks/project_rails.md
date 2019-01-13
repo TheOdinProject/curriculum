@@ -23,6 +23,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Tommy's Solution](https://github.com/Tommyisr/blogger_test) - [View in browser](https://arcane-badlands-89675.herokuapp.com/)
 * [Bojo's Solution](https://github.com/BojoZahariev/blogger) - [View in browser](https://sheltered-savannah-41787.herokuapp.com/)
 * [Yusuf Parak's Solution](https://github.com/ycparak/rails-blogger) - [View in browser](https://guarded-shore-55350.herokuapp.com/)
 * [WormCrew's Solution](https://github.com/WormCrew/blogger)- [View in browser](https://limitless-peak-97236.herokuapp.com/articles)
@@ -300,7 +301,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Phucledien's Solution](https://github.com/phucledien/blogger) - [View in Browser](https://still-crag-31572.herokuapp.com/)
 * [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) - [View in Browser](https://radiant-beach-97617.herokuapp.com/)
 * [Oliver Curting's Solution](https://github.com/Curting/blogger) - [View in Browser](https://olivers-blogger.herokuapp.com/) I0-I5
-* [Alex's Solution](https://github.com/alexcorremans/blogger) - [View in Browser](https://fast-taiga-39728.herokuapp.com/)
+* [Alex's Solution](https://github.com/alexcorremans/blogger) - [View in Browser](https://pacific-retreat-33130.herokuapp.com/)
 * [NJW's Solution](https://github.com/obsessivenerds/blogger) - [View in Browser](https://obsessivenerds.github.io/blogger/)
 * [Celestine's Solution](https://github.com/CEOehis/blogger) - [View in Browser](https://afternoon-coast-34844.herokuapp.com/)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/blogger) - [View in Browser](https://agile-mountain-84751.herokuapp.com/)
