@@ -1,6 +1,6 @@
 ### Introduction
 
-In Ruby, `Enumerable` is a module that provides a set of shared methods that are available to collection classes, such as `Array` or `Hash`. The basic requirement to use enumerable methods is that the collection class in question must have an `#each` method (further explained below). These enumerable methods are handy for searching or looping through a collection, and are among the most important tools for Rubyists.
+In Ruby, `Enumerable` is a module that provides a set of methods that are available to collection classes, such as `Array` or `Hash`. The basic requirement to use enumerable methods is that the collection class in question must have an `#each` method (further explained below). These enumerable methods are handy for searching or looping through a collection, and are among the most important tools for Rubyists.
 
 We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else Enumerable offers.
 
@@ -24,94 +24,85 @@ It will be beneficial for you to code along to test the examples as you work thr
 
 ### Enumerable Methods
 #### The `#each` method
-`#each` is the most basic and flexible of the enumerable methods.
+As mentioned above, collection classes that want to take advantage of Enumerable methods must implement an `#each` method. This method must yield successive members of the collection, which allows Enumerable to do it's thing. Therefore, while `#each` is *not* an Enumerable method, it is the basis for how they work.
 
-Calling the `#each` method on an array will loop through each item in that array and perform a task, which you define in a code block that you state after calling `#each`.  This is called passing a block to the method, which is similar to passing a variable. The task you want the method to perform can be as simple or complex as you need it to be.
-
-One thing to note is that after performing its task, `#each` only returns the original array. Because of this, the value it actually returns is generally not used. The action(s) in the code block it receives are what you are after (something to keep in mind when debugging your code).
-
-A simple example of a good use for `#each`: Say we want to print every word in an array of strings. We can use the `#each` method on that array like so:
+Calling `#each` on an array will loop or iterate through that array and will yield each element to a code block, where a task can be performed. This is also called passing a block to the `#each` method:
 
 ```ruby
 my_array = ["apple", "banana", "strawberry", "pineapple"]
 
-my_array.each { |fruit| print fruit, " " }
-#=> apple banana strawberry pineapple
+my_array.each { |fruit| puts fruit }
+
+apple
+banana
+strawberry
+pineapple
+#=> ["apple", "banana", "strawberry", "pineapple"]
 ```
 
-Some enumerable methods are applied to hashes in exactly the same way as to arrays, while others are implemented differently depending on the type of collection used. The `#each` method, for example, is utilized a bit differently for hashes. Each "item" in a hash is a key-value pair. If you call `#each` on a hash, the item passed to the code block will be an array of the key and value [key, value].
+When used on an array or hash, `#each` will return the original collection (something to keep in mind when debugging your code).
+
+Note that for hashes, `#each` can yield the key and value individually or together (as an array) to the block:
 
 ```ruby
-my_hash = { "one" => 1, "two" => 2, "three" => 3, "four" => 4}
+my_hash = { "one" => 1, "two" => 2}
 
-my_hash.each do |item|
-  print item, ""
-end
-#=> ["one", 1]["two", 2]["three", 3]["four", 4]
+my_hash.each { |key, value| puts "#{key} is #{value}" }
+
+one is 1
+two is 2
+#=> { "one" => 1, "two" => 2}
+
+my_hash.each { |pair| puts "the pair is #{pair}" }
+
+the pair is ["one", 1]
+the pair is ["two", 2]
+#=> { "one" => 1, "two" => 2}
 ```
 
-To allow you to better work with the keys and values, `#each` allows you to pass the key and value as separate parameters when used on a hash. If you wanted to print the keys and values in a different format, for instance, you could do the following:
+#### A quick note on styling blocks with `do..end`
+What if the code block you want to pass to a method requires more logic than can fit in one line? It starts to become less readable and looks unwieldy. In such situations, the commonly accepted best practice&mdash;according to the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide)&mdash;is to use `do...end` blocks for multi-line blocks, instead of `{...}` blocks:
 
 ```ruby
-my_hash = { "one" => 1, "two" => 2, "three" => 3, "four" => 4}
+my_array = [1, 2]
 
-my_hash.each do |key, value|
-  print key, ": ", value, "\n"
+# bad
+my_array.each { |num| num *= 2; puts "the new number is #{num}" }
+
+# good
+my_array.each do |num|
+  num *= 2
+  puts "the new number is #{num}"
 end
-#=> one: 1
-#   two: 2
-#   three: 3
-#   four: 4
 ```
-
-<br/>
 
 #### The `#each_with_index` method
-This is nearly the same as the `#each` method, but it provides additional functionality by receiving two parameters instead of one. The second parameter represents the index of your array, that is the position of the current item within that array. This allows you to do things that are a bit more complex.
+This method is nearly the same as the `#each` method, but it provides additional functionality by yielding two parameters instead of one as it iterates through a collection. The first parameter is the element itself, while the second parameter represents the index or position of that element within the collection. This allows you to do things that are a bit more complex.
 
-If we take the above example, but instead we want to only print every other word from our array of strings, we can achieve that like so:
+For example, if we only want to print every other word from an array of strings, we can achieve this like so:
 
 ```ruby
 my_array = ["apple", "banana", "strawberry", "pineapple"]
 
-my_array.each_with_index { |fruit, index| print fruit, " " if index % 2 == 0 }
-#=> apple strawberry
+my_array.each_with_index { |fruit, index| puts fruit if index % 2 == 0 }
+
+apple
+strawberry
+#=> ["apple", "banana", "strawberry", "pineapple"]
 ```
 
-<br/>
-
-#### `do` and `end`
-What if the code block you want to pass is long? Too long to fit on one line? It starts to become less readable and look kind of unwieldy to use the curly braces around more than one line (although it is allowed). Another way (and the commonly accepted best practice), is to use `do` and `end` by replacing the curly braces in your code such that `{ |x| ... }` becomes:
-
-```ruby
-do |x|
-  ...
-  ...
-  ...
-end
-```
-
-Here is the previous example using `do` and `end` instead of curly braces:
-```ruby
-my_array.each_with_index do |fruit, index|
-   print fruit, " " if index % 2 == 0
-end
-```
-
-The best practice according to the style guides is to use `{ }` if your block consists of a single line and `do... end` if it spans multiple lines.
-
-<br/>
+As with the `#each` method, `#each_with_index` will return the original collection it is called on.
 
 #### The `#include?` method
 
-You may have noticed this method has a `?` mark in the name. Recall from the methods lesson, that any method with a `?` at the end is a `predicate` method, which is Ruby convention for any method that strictly returns a Boolean, that is either `true` or `false`.
+You may have noticed this method has a `?` mark in the name. Recall from the methods lesson that any method with a `?` at the end is a `predicate` method, which is Ruby convention for any method that strictly returns a Boolean, that is either `true` or `false`.
 
-The `#include?` method works exactly like you think it should. For example, if we are wanting to determine if a particular element exists in an array, we can use the `#include?` method, and it will spit out `true` if that element is present or `false` if it is not.
+The `#include?` method works exactly like you think it should. For example, if we want to determine if a particular element exists in an array, we can use the `#include?` method.
 
 You call the method on the array and pass it the element you are looking for like so:
 
 ```ruby
-my_numbers = [5,6,7,8]
+my_numbers = [5, 6, 7, 8]
 
 my_numbers.include?(6)
 #=> true
@@ -120,13 +111,11 @@ my_numbers.include?(3)
 #=> false
 ```
 
-<br/>
-
 #### The `#any?` method
 
-You might be able to then guess what the `#any?` method does.
+You might also be able to guess what the `#any?` method does.
 
-Let's say we want to see if there is any number greater than 500 in a list of numbers, `#any?` can tell us like so:
+Let's say we want to see if there is any number greater than 500 in an array of numbers. The `#any?` method can tell us like so:
 
 ```ruby
 my_numbers = [21, 42, 303, 499, 550, 811]
@@ -138,13 +127,9 @@ my_numbers.any? { |item| item < 20 }
 #=> false
 ```
 
-<br/>
-
 #### The `#all?` method
 
-The `all?` method is also fairly intuitive.
-
-Say we want to check if all the words in our list are greater that 6 characters in length.
+The `all?` method is also fairly intuitive. For example, if we want to check if all the words in our list are greater that 6 characters in length, we could do the following:
 
 ```ruby
 my_array = ["apple", "banana", "strawberry", "pineapple"]
@@ -153,100 +138,86 @@ my_array.all? { |word| word.length > 6 }
 #=> false
 ```
 
-(Special note to keep in mind while debugging: `all?` will return `true` unless an item fails to meet the condition. So if you call it on an empty array, there are no items to fail, and it will return `true`)
-
-<br/>
+Special note to keep in mind while debugging: `#all?` will return `true` unless the block returns `false` or `nil`. So even if you call `#all?` on an empty collection (i.e., there are no elements to for the block to evaluate), it will return `true`.
 
 #### The `#none?` method
 
-As you might expect `#none?` performs the opposite function from `#all?`:
+As you might expect `#none?` performs the opposite function of `#all?`. It returns `true` only if the block never evalues to `true` for all elements:
 
 ```ruby
+my_array = ["apple", "banana", "strawberry", "pineapple"]
+
 my_array.none? { |word| word.length < 4 }
 #=> true
 ```
 
-<br/>
-
 #### The `#count` method
-This method returns an integer representing the number of items within the array or hash that meet
-the condition(s) set forth in the block that you pass. Like `#each`, this method takes a block with
-one parameter (or two - key and value - when called on a hash).
-
-For example, we may want to know how many words in our array have more than 6 letters. To find
-that out, we can use the `#count` method.
+The `#count` method returns the total number of elements in a collection. Additionally, when passed a block, it can also return the number of elements that yield a true value. Like `#each`, this method takes a block with one parameter (or two&mdash;`key` and `value`&mdash;when called on a hash).
 
 ```ruby
 my_array = ["apple", "banana", "strawberry", "pineapple"]
 
-my_array.count { |fruit| fruit.length > 6 }
-#=> 2
-```
+my_array.count                                    #=> 4
+my_array.count { |fruit| fruit.length > 6 }       #=> 2
 
-Alternatively, what if we want to know how many keys in our hash are symbols?
-
-```ruby
 my_hash = { "one" => 1, "two" => 2, "three" => 3, four: 4 }
 
-my_hash.count { |key, value| key.is_a?(Symbol) }
-#=> 1
+my_hash.count                                     #=> 4
+my_hash.count { |key, value| key.is_a?(Symbol) }  #=> 1
 ```
-
-<br/>
 
 #### The `#sort` method
-`#sort` is a method that can operate with or without a block being passed to it. By default, it sorts numbers ascending, and strings alphabetically. However, it can also accept a block that tells it to sort according to any rules you would like. Using this ability can take some practice, but it is a powerful tool.
-
-When you pass a block to `#sort`, you must pass two parameters, which are the items being compared at a given time. The key is to make the block you pass return a -1 if the order of the items should be swapped and return 1 if they should not be swapped. (Technically, it should also have a return of 0 for when they are equal, but this will rarely actually be necessary.) This is best understood through examples.
-
-In this first example, we want to sort our array of fruits by ascending order of their last letters.
+`#sort` is a method that can operate with or without a block being passed to it. By default, it sorts elements in ascending order, both numerically and alphabetically, by using the elements' `<=>` operator (a.k.a., the spaceship operator). This implies that the items being compared are of the same type, naturally (you'll get `nil` otherwise). This operator returns **-1**, **0**, or **1** depending on the whether the first item is less than, equal to, or greater than the second element, respectively.
 
 ```ruby
-my_array = ["apple", "banana", "strawberry", "pineapple"]
-
-my_array.sort do |first, second|
-  if first[-1] > second[-1]
-    1
-  else
-    -1
-  end
-end
-#=> ["banana", "apple", "pineapple", "strawberry"]
+"apple" <=> "strawberry"  #=> -1
+"strawberry" <=> "apple"  #=> 1
 ```
 
-A handy operator is available for this: `<=>`, which is called the 'spaceship' operator. It is used between the two arguments and returns one of three values: 1 if the first arguments is greater, 0 if they are equal, and -1 if the first arguments is less than the second.
+When you pass a block to `#sort`, the behavior is essentially the same: lesser comes first, greater comes after. You yield and compare two elements at a time, `a` and `b`, for example. Then, the block should return:
+* An integer **lesser** than 0, if `a` should come before `b`
+* 0, if `a` is equal to `b` (this can produce unstable orders, though); OR,
+* An integer **greater** than 0, if `a` should come after `b`
 
-Our example above could be re-written as:
-
+Based on all the points above, it's also possible to sort items in *descending* order:
 ```ruby
-my_array.sort { |first, second| first[-1] <=> second[-1] }
-#=> ["banana", "apple", "pineapple", "strawberry"]
+my_array = ["strawberry", "apple", "banana"]
+
+my_array.sort
+#=> ["apple", "banana", "strawberry"]
+
+my_array.sort { |a, b| b <=> a }
+#=> ["strawberry", "banana", "apple"]
 ```
 
-And, if we wanted to sort our strings in descending order, we could write the following (just swapping the order of the arguments):
-
-```ruby
-my_array.sort { |first, second| second <=> first }
-#=> ["strawberry", "pineapple", "banana", "apple"]
-```
-<br/>
+Don't worry if it takes a few minutes for your mind to wrap around this. Read through it step by step, and check into our Discord to say hello if you still feel lost (mental breaks are always a good thing).
 
 #### The `#select` method
 
-The `#select` method checks every item passed to it against a criteria that you specify, and returns only the items that pass that criteria. Your criteria, as usual, is passed as a block.
+The `#select` method (a.k.a., `#filter` method) passes every item in a collection to a block, and returns only the items that evaluate to true.
 
-Say we want to pick out only the words whose length are greater than 5 characters but less than 10, we would do the following:
+Say we want to pick out the freshest fruits from our array of fruits. More to the point, say we want pick out those fruits that have a length greater than 5 characters but less than 10:
 
 ```ruby
 my_array.select { |word| word.length > 5 && word.length < 10 }
 #=> ["banana", "pineapple"]
 ```
-<br/>
+
+Or maybe we only want to pack pastries that can be grouped in exact batches of dozens:
+
+```ruby
+my_hash = { "croissant": 12, "donuts": 36, "muffins": 11, "twinkies": 4 }
+
+my_hash.select { |key, value| value % 12 == 0 }
+#=> {:croissant=>12, :donuts=>36}
+```
 
 #### The `#find` method
 The `#find` method is similar to `#select`, except it returns only the first item which meets the given criteria. If no such item exists, it returns `nil`. Using the same example as above:
 
 ```ruby
+my_array = ["strawberry", "apple", "banana"]
+
 my_array.find { |word| word.length > 5 && word.length < 10 }
 #=> "banana"
 ```
@@ -265,28 +236,26 @@ end
 <br/>
 
 #### The `#map` method
-`#map` is used to transform each item from the array it is called on and place them into a new array. How the items are transformed is defined by the block you pass to it. `#map` may seem confusing at first, but it is extremely useful. Seeing several examples and use cases will help you understand how and when you can use it. You will probably also run into `#collect`, which is simply an alias for `#map` (same function, different name).
+`#map` is used to transform each item from the collection it is called on and to place them into an array. How the items are transformed is defined by the block you pass to it. `#map` may seem confusing at first, but it is extremely useful. Seeing several examples and use cases will help you understand how and when you can use it. You will probably also run into `#collect`, which is simply an alias for `#map`.
 
-To get the first 20 square numbers, we can simply call `map` on the range of numbers from 1 to 20, like so:
-(Ranges are collections too.)
+To get the first 20 square numbers, we can simply call `map` on the range of numbers from 1 to 20, like so (ranges are collections too):
 
 ```ruby
 my_squares = (1..20).map { |x| x**2 }
 #=> [1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]
 ```
 
-`#map` can be used on strings as well. Here we modify each string in an array by adding an '!':
+Here we modify each string in an array by adding an '!':
 
 ```ruby
 my_strings = ["One", "Two", "Three", "Four"]
+
 my_emphatic_strings = my_strings.map { |s| s + "!" }
 #=> ["One!", "Two!", "Three!", "Four!"]
 ```
 
-<br/>
-
 #### The `#reduce` method
-`#reduce` (alias: `#inject`) is possibly the most difficult-to-grasp common method for new coders. The idea is simple enough though: it reduces a collection (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
+The `#reduce` method (alias: `#inject`) is possibly the most difficult-to-grasp, common method for new coders. The idea is simple enough, though: it reduces a collection (array/range/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
 
 A classic example would be a sum or product of an array of numbers. The syntax is where it can be tricky. In most cases, you need to pass a starting 'value' as well as a block with two parameters that tells it how to combine the items. The parameters of the block are the 'cumulative value' and current item.
 
@@ -311,12 +280,10 @@ end
 ```
 
 Note that this example returns a hash with several `key => value` pairs. So the object that `#reduce` returns is still one object, a hash. It's just a more complex one.
-<br/>
 
 ### Conclusion
 
-This introduction to some of the more common enumerable methods should give you an idea of how many tools Ruby puts in your tool box that you are free to utilize in whatever combination you wish. Therefore given a task, and the many tools available, it is common for different coders to come up with different solutions to arrive at the same result.
-<br/>
+This introduction to some of the more common enumerable methods should give you an idea of how many tools Ruby puts in your toolbox that you are free to utilize in whatever combination you wish. Therefore, given a task, and the many tools available, it's common for different coders to come up with different solutions to arrive at the same result.
 
 ### Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
@@ -324,5 +291,4 @@ This introduction to some of the more common enumerable methods should give you 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 * This tutorial on [codementor](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module) is another good discussion of the versatility of enumerable methods.
 * There are many more enumerable methods than are covered in this lesson (`reject`, `drop`, `uniq`, to name a few).
-For a full listing, you can check out the Ruby Docs:
-  [Ruby Docs Enumerable methods](https://ruby-doc.org/core-2.5.0/Enumerable.html)
+For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.5.0/Enumerable.html).
