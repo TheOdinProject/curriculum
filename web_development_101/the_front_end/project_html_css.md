@@ -1835,6 +1835,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Valentino Valenti's solution (Easy)](https://github.com/1ba1/google-homepage) - [View in Browser](https://1ba1.github.io/google-homepage/)
 * [Medrit Kaimi's solution (Easy)](https://github.com/medrit/google-homepage) - [View in Browser](https://medrit.github.io/google-homepage/)
 * [Andrew Dinsmore's solution (Easy)](https://github.com/teif26/google_homepage) - [View In Browser](https://teif26.github.io/google_homepage/)
+* [Matt LaPorta's solution (Easy)](git@github.com:mattlaporta/google-homepage.git)
+* [djamelall22;s solution (Easy)](https://github.com/djamelall22/google-homepage)
+* [Jason Loomis' solution (Easy)](https://github.com/jrloom/google-homepage) - [View in Browser](https://jrloom.github.io/google-homepage/)
+* [Chris Richardo's solution (Easy)](https://github.com/WhyTopher/google-homepage) - [View in Browser](https://whytopher.github.io/google-homepage/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
