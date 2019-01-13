@@ -203,6 +203,8 @@ On the next page you'll see a bunch of commands listed. We're really only intere
 
 We'll move back to the terminal to connect the project and Github by running two simple commands:
 
+NOTE: Do not enter the `<` or `>`, replace everything with your URL that you copied
+
 ~~~bash
 git remote add origin <SSH URL from Above>
 git push -u origin master

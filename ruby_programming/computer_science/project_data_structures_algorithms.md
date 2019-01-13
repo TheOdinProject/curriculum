@@ -184,6 +184,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Simon Tharby's solution](https://github.com/jinjagit/knight)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/odin-project-data-structures-and-algorithms/blob/master/knight-moves.rb)
 * [prw001's Solution](https://github.com/prw001/knight_moves)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/chess.rb)

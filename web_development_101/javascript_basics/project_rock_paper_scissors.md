@@ -37,6 +37,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Chris Richardo's Console Solution](https://github.com/WhyTopher/Rock_Paper_Scissor_JS)
+- [Yemre Aybey's Solution](https://github.com/YemreAybey/RockPaperScissors) - [View in browser](https://yemreaybey.github.io/RockPaperScissors/)
+- [bartacc's solution](https://github.com/bartacc/Rock-Paper-Scissors) - [View in browser](https://bartacc.github.io/Rock-Paper-Scissors/)
 - [ARaut9's Console Solution](https://github.com/ARaut9/rock-paper-scissors)
 - [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/rockPaperScissors) - [View in browser](https://tylerdevers.github.io/OdinWebDev/rockPaperScissors/)
 - [Kevin Vuong's Solution](https://github.com/fffear/javascript-rock-paper-scissors) - [View in browser](https://fffear.github.io/javascript-rock-paper-scissors/)
