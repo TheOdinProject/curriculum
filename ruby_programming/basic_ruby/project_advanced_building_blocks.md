@@ -36,6 +36,8 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_advanced_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](https://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/bubble_sort_by/bubble_sort_by.rb)
+* [Khari's Solution](https://github.com/kjwebdev/TOP_Projects/blob/master/Ruby/bubble_sort.rb)
 * [RunningCoder123's solution](https://github.com/RunningCoder123/bubble_sort)
 * [WormCrew's solution](https://github.com/WormCrew/Bubble-sort/blob/master/bubble-sort.rb)
 * [Paul Manot's solution](https://github.com/Maynot2/odin_project/tree/master/ruby_programming/basic_ruby/project_building_blocks)
@@ -316,6 +318,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Slaven Karamatic's Solution](https://github.com/Everdrought/ruby-bubblesort/blob/master/script.rb)
 * [jkriesp's Solution](https://github.com/jkriesp/caesar_cipher/blob/master/bubble_sort.rb)
 * [EdwardHeath's Solution](https://github.com/EdwardHeath/bubble-sort/blob/master/bubble_sort.rb)
+* [Khalal's Solution](https://github.com/khalalw/building_blocks/blob/master/bubble_sort.rb)
 
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
@@ -359,6 +362,8 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_advanced_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](https://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/enumerable_methods/enumerable_methods.rb)
+* [Khari's Solution](https://github.com/kjwebdev/TOP_Projects/blob/master/Ruby/Enumerable.rb)
 * [RunningCoder123's solution](https://github.com/RunningCoder123/enumerable/blob/master/enumerable.rb)
 * [Stefano Merazzi's solution](https://github.com/ste001/ruby-exercises/blob/master/advanced_building_blocks/my_enumerable.rb)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/methods/blob/master/methods.rb)

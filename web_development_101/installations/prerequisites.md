@@ -63,11 +63,11 @@ The rest of the installation is pretty straightforward, but if you have any ques
 
  Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. Guest Additions add a lot of functionality to the Guest OS, such as "Drag n Drop" files, full-screen guest mode, shared folders, and copy/paste between the host and guest.
 
-Installing Guest Additions is the hardest part of setting up a VM, but luckily, we have Youtube. Check out [this video](https://www.youtube.com/watch?v=qNecdUsuTPw) by ProgrammingKnowledge on how to install Guest Additions. Their installation may look different than yours, but all of the commands are the same.
+Installing Guest Additions is the hardest part of setting up a VM, but luckily, we have Guides. Check out [this article](http://www.fixedbyvonnie.com/2015/07/how-to-setup-xubuntu-linux-in-virtualbox-step-by-step/#.XDVqWVxKguU). You can simple scroll down to the portion that says `Installing Guest Additions in Xubuntu`.
 
 ### Step 4: Understand Your New VM
 
-It's important to note a few things about coding in a virtual environment:
+Here are some tips to help you get started coding in a virtual environment:
 
 * All installations are done in the VM. You will install everything you need for coding, including Ruby, Rails, and JavaScript, inside the Guest OS.
 
@@ -83,43 +83,39 @@ It's important to note a few things about coding in a virtual environment:
 <summary class="dropDown-header">Linux/Windows Dual-Boot
 </summary>
 
-**Read this whole section before continuing**
+**Read this entire section before starting**
 
-Dual-booting provides you two operating systems that you can switch from with a simple reboot. Each partition will not modify the other unless you explicitly do so. Be sure you back up any important data and have a way to ask for help before you continue. If you get lost, scared, or stuck we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi".
+Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
 ### Step 1: Download Linux
 
-First you will need to download the version of linux you wish to install onto your computer. Ubuntu comes in different versions ("flavors"), but we suggested the standard [Ubuntu](https://www.ubuntu.com/download/desktop) or [Xubuntu](https://xubuntu.org/) if you're using an older computer. Be sure to download the 64-bit version of [Ubuntu](https://www.ubuntu.com/download/desktop/thank-you?version=18.04.1&architecture=amd64) or [Xubuntu](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso).
+First, you need to download the version of Linux you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard [Ubuntu](https://www.ubuntu.com/download/desktop). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/). Be sure to download the 64-bit version of [Ubuntu](https://www.ubuntu.com/download/desktop/thank-you?version=18.04.1&architecture=amd64) or [Xubuntu](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso).
 
 ### Step 2: Create a Bootable Flash Drive
 
-(If you do not have a flash-drive, you can also burn the image to a CD or DVD)
+Next, follow [this guide](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
 
-Next you will create a bootable flash drive so you can install Ubuntu to your hard drive.
+Note: You can use this method to try out [different flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you'd like. These images allow you to try out different flavors without committing to an installation. Be aware that running the OS from a flash drive will cause the OS to be slow and can decrease the life of your flash drive.
 
-Follow [this guide](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0) for instructions on how to create a bootable USB drive.
+### Step 3: Install Ubuntu
 
-Note: You can use this method to try out different [flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you would like. These images allow you to try the different flavors of Ubuntu without committing to an installation. Just note that because the OS is running from the USB drive it will be slow and can decrease the life of your USB drive.
+#### Step 3.1: Boot from the Flash Drive
 
-### Step 3: Install Ubuntu along side Windows
+First, you need to boot Linux on your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
-#### Step 3.1: Boot from the flash-drive
+* Insert the flash drive into the computer.
+* Reboot the computer.
+* Select the flash drive as the bootable device instead of the hard drive.
 
-First you will need to boot into Linux on your flash-drive. The exact steps may vary, but on a general level you will need to:
-
-* Insert the flash drive into the computer
-* Reboot the computer
-* Select the flash drive as the bootable device instead of the hard drive
-
-For example, on a Dell computer you would need to plug in the USB drive, reboot the computer and press the F12 key when the computer is first booting up. This brings up the boot menu. From there you can select your USB drive to boot from. Your computer may not be the same, so google will be your friend in trying to figure it out.
+For example, on a Dell computer, you would need to plug in the flash drive, reboot the computer, and press the F12 key while the computer is first booting up to bring up the boot menu. From there, you can select to boot from the flash drive. Your computer may not be exactly the same, but Google can help you figure it out.
 
 #### Step 3.1: Install Ubuntu
 
-If you would like to play with the version of Ubuntu you installed on the flash drive, click 'try me' instead of 'install'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step.
+If you would like to test out the version of Ubuntu on the flash drive, click 'Try me'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step.
 
-The installation of Ubuntu is where the real changes start happening to your computer. The default settings are mostly perfect, but be sure to "__Install Ubuntu alongside Windows__" and change is the allocated disk space allowed for Linux to 30 GB (or more if you can).
+Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Linux to 30 GB (or more if you can).
 
-For step by step instructions please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
+For step-by-step instructions, please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
 
 </details>
 
@@ -127,49 +123,49 @@ For step by step instructions please follow this [installation guide](https://tu
 <summary class="dropDown-header">Windows 10 WSL (Not Recommended)
 </summary>
 
-Microsoft has recently made a shift to embrace open source and support developers. One of the biggest things they did with Windows 10 was introduce the Windows Subsystem for Linux (WSL) which is a linux command line within Windows. Of course there are a couple minor adjustments you need to make, but once you have it up and running, you can essentially follow the Ubuntu instructions.
+Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
-With that being said, WSL is still rather buggy with Ruby and Rails so we suggest you use a Virtual Machine instead. It will save you headaches in the long run.
+With that being said, though, Ruby and Rails are still rather buggy on WSL, so we recommend using a virtual machine instead. In the long run, using a VM instead of WSL will save you time and headaches.
 
-Since the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). It's as simple as installing via the Microsoft Store.
+Since the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
 
 ### Step 1: Install WSL
 
-Microsoft has made installing WSL super simple. To install this feature you need to
+Microsoft has made installing WSL super simple.
 
-* Open your start menu and start searching for "Microsoft Store"
-* Enter "Ubuntu" into the search field of the store. 
-* Click on the orange "Ubuntu 18.04" and then "Get".
+* Open your Start menu and search for "Microsoft Store". Open the Store.
+* Enter "Ubuntu" in the search field of the Store. 
+* Click on the orange "Ubuntu 18.04" button and then click "Get".
 
-This will install the Windows Subsystem for Linux on your computer. The process will take about 10 minutes to complete, depending on your internet connection.
+This will install WSL on your computer. The process will take about 10 minutes to complete, depending on your internet connection.
 
-NOTE: If you run into an error, click [here](https://aka.ms/wslinstall) and follow the directions to enable and install WSL.
+Note: If you run into an error, follow the directions [here](https://aka.ms/wslinstall) to enable and install WSL.
 
 ### Step 2: Start WSL
 
-Windows Subsystem for Linux is nothing more than a linux terminal inside of Windows. To start the program simply open your start menu and search for "Ubuntu 18.04". The first time you run the program you may get a message, "Installing, this may take a few minutes..." Sit tight and give it a few moments. When complete, you will be asked to create a new user and password. This is how you will log into your WSL installation.
+WSL is nothing more than a Linux terminal inside Windows. To start the program, simply open your Start menu and search for "Ubuntu 18.04". The first time you run the program, you may get a message that says, "Installing. This may take a few minutes..." When it finishes, you will be asked to create a new username and password that will be used to log into WSL.
 
-### Step 3: Set up Symbolic Link
+### Step 3: Set Up Symbolic Link
 
-When Ubuntu was set up, your windows file system (C-Drive) was mapped to the `/mnt` directory in Ubuntu. To make your life much easier we are going to set up a shortcut between your C-Drive and your "Home" folder inside of WSL.
+When Ubuntu was set up, your Windows file system (C:\ drive) was mapped to the `/mnt` directory in Ubuntu. To make your life much easier, we are going to set up a shortcut between your C:\ drive and your "Home" folder inside WSL.
 
-#### Step 3.1: Create Directory for your Projects
+#### Step 3.1: Create a Projects Directory
 
-You can choose to put your project files anywhere you want, but we're going to assume you are cool and put a projects folder in your Documents folder.
+You can choose to put your project files anywhere you want, but to make your life easier, we recommend adding a Projects folder inside your Documents folder.
 
-From inside the Ubuntu terminal type:
+From inside the Ubuntu terminal, type:
 
 ~~~bash
 mkdir /mnt/c/Users/<Your Windows Username>/Documents/Projects
 ~~~
 
-(Replace `<Your Windows Username>` with your Windows username). This will create a new `Projects` folder inside of your Documents folder. Obviously you could have used windows explorer to click your way there too, but why not use our fancy new toy?
+Be sure to replace `<Your Windows Username>` with your Windows username in the above code.
 
 #### Step 3.2: Create the Symbolic Link
 
-Next, we're going to establish a link to connect this new Projects folder to your WSL "Home" directory. This is important for many behind-the-scenes reasons.
+Next, we're going to establish a link to connect this new Projects folder to your WSL "Home" directory. This is important for many behind-the-scenes processes.
 
-At your Ubuntu command prompt type:
+Inside the Ubuntu terminal, type:
 
 ~~~bash
 ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
@@ -177,8 +173,8 @@ ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
 
 ### Important Notes
 
-* Any projects created from the WSL Terminal need to be placed inside the Projects directory
+* Any projects created from the WSL terminal need to be placed inside the Projects directory.
 
-* The WSL program files are well hidden but it's super important that you do not edit these files from Windows. Ignoring this will cause serious problems to your Ubuntu installation and possibly your Windows installation.
+* The WSL program files are well hidden, but it's super important that you do not edit these files from Windows. Altering these files will cause serious problems with your Ubuntu installation and possibly with your Windows installation.
 
 </details>

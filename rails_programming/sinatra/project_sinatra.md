@@ -101,6 +101,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * bchalman's solution [Github](https://github.com/bchalman/sinatra_caesar_cipher)
 * Tommy's solution [Github](https://github.com/hoangtommy/sinatra_caesar_cipher) / [Live](https://still-forest-86955.herokuapp.com)
 * Slaven's solution [Github](https://github.com/Everdrought/sinatra_caesar_cypher) / [See it on the web](https://cryptic-earth-54812.herokuapp.com/)
+* Alex's solution (portfolio) [Github](https://github.com/alexcorremans/sinatra_projects) / [See it on the web](https://blooming-woodland-49549.herokuapp.com/caesar_cipher)
 
 ### Project 2: Another Web-Game
 
@@ -190,3 +191,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * bchalman's Solution (Hangman): [Github](https://github.com/bchalman/sinatra_hangman) / [Live](https://fierce-plains-57125.herokuapp.com/)
 * Tommy's Solution (Hogwarts Hangman): [Github](https://github.com/hoangtommy/sinatra_hangman) / [Live](https://powerful-wildwood-91516.herokuapp.com/)
 * BrianEspo's Solution (Hangman): [Github](https://github.com/bribrah/Sinatra-Projects/tree/master/hangman_site) / [Live Demo](https://brianshangman.herokuapp.com/)
+* Alex's solution (Hangman, portfolio) [Github](https://github.com/alexcorremans/sinatra_projects) / [See it on the web](https://blooming-woodland-49549.herokuapp.com/)
