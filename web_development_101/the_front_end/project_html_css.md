@@ -1841,6 +1841,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Chris Richardo's solution (Easy)](https://github.com/WhyTopher/google-homepage) - [View in Browser](https://whytopher.github.io/google-homepage/)
 * [Thiago Nunes Costa's solution (Easy and Difficult) click enter on the search bar to view The Result Page](https://github.com/thiagoncosta86/google-homepage) - [View in Browser](https://thiagoncosta86.github.io/google-homepage/)
 * [Talaa Zina solution (Easy)](https://github.com/zinagithub/google_homepage)
+* [Amir Farmanara's Solution (Easy)]
+(https://github.com/Farmanara/google-homepage) - [View in browser]
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
