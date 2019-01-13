@@ -441,5 +441,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jhavn's solution](https://github.com/jhavn/rockpaperscissors) 
 - [Alberto's console solution](https://github.com/albeey/rock-paper-scissors) - [View in Browser](https://albeey.github.io/rock-paper-scissors/)
 - [antdricot's console solution](https://github.com/antdricot/odin-rock-paper-scissors)
->>>>>>> 9ece572c572ccb6df30053780625b851ed1fa71f
 - [cvillere console solution](https://github.com/cvillere/rock_p_s)  
