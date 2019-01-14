@@ -1845,7 +1845,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Vilius Vystartas solution (Easy)](https://github.com/vystartasv/google-homepage) - [View in Browser](https://vystartasv.github.io/google-homepage/)
 * [Alberto's Solution (Easy)](https://github.com/albeey/google-homepage) - [View in Browser](https://albeey.github.io/google-homepage/)
 * [Alberto's Solution (Difficult)](https://github.com/albeey/google-search) - [View in Browser](https://albeey.github.io/google-search/)
-Google Hompage Solution
+* [SRC416's Solution (Easy)](https://github.com/SRC416/google-homepage)
+* [Gilbert's Solution (Easy)](https://github.com/gimix311/google-homepage) - [View in Browser](https://gimix311.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
