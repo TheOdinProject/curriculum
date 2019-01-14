@@ -104,7 +104,7 @@ Look through these now and then use them to test yourself after doing the assign
       7. The Zen of Ruby
       8. The Refactor Factory
       9. Blocks, Procs, and Lambdas
-  2. Finish [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 47-71)
+  2. Finish [Beginning Ruby](http://file.allitebooks.com/20160718/Beginning%20Ruby.pdf) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 47-71)
   3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
       1. [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
       2. [Ruby Explained: Iteration](http://www.eriktrautman.com/posts/ruby-explained-iteration)
