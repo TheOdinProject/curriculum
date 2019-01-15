@@ -448,3 +448,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [antdricot's console solution](https://github.com/antdricot/odin-rock-paper-scissors)
 - [cvillere console solution](https://github.com/cvillere/rock_p_s)
 - [George Robert's console solution](https://github.com/robertsGeorge/rock-paper-scissors)
+- [Ange's Solution](https://pekengduck.github.io/rock_paper_scissors/)
