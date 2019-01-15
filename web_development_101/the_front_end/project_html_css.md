@@ -1847,7 +1847,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alberto's Solution (Difficult)](https://github.com/albeey/google-search) - [View in Browser](https://albeey.github.io/google-search/)
 * [Koullara's Solution (Easy)](https://github.com/Koullaras/google-homepage) - [View in Browser](https://koullaras.github.io/google-homepage/)
 * [Koullara's Solution (Difficult)](https://github.com/Koullaras/google-search-results-page) - [View in Browser](https://koullaras.github.io/google-search-results-page/)
-
+* [SRC416's Solution (Easy)](https://github.com/SRC416/google-homepage)
+* [Gilbert's Solution (Easy)](https://github.com/gimix311/google-homepage) - [View in Browser](https://gimix311.github.io/google-homepage/)
+* [Fabrice Isama Solution(Easy)](https://faba2017.github.io/google/) - [View in Browser]
+* [Willie's Solution (Easy)](https://github.com/wjone005/google-homepage) - [View in Browser](https://wjone005.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
