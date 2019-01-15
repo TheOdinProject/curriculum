@@ -243,6 +243,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/LustrousHeartfeltDefragment)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/tree/master/tic-tac-toe)
 * [EdwardHeath's solution](https://github.com/EdwardHeath/tic_tac_toe/blob/master/tic_tac_toe.rb)
+* [Leila Alderman's solution](https://github.com/leila-alderman/tic-tac-toe/blob/master/tic-tac-toe.rb)
 
 ### Project 2: Mastermind
 
