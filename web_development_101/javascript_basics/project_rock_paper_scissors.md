@@ -36,6 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Leonardo's Solution](https://github.com/leonardovega/rock_paper_scissors) - [View in browser](https://leonardovega.github.io/rock_paper_scissors/)
 - [Jake Murray's Solution](https://github.com/JMurray90/rockpaperscissors)
 - [Ramanujam Gond's Solution](https://github.com/ramanujamgond/rock-paper-scissors) - [View in browser](https://ramanujamgond.github.io/rock-paper-scissors/)
 - [Chris Richardo's Console Solution](https://github.com/WhyTopher/Rock_Paper_Scissor_JS)
@@ -45,7 +46,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/rockPaperScissors) - [View in browser](https://tylerdevers.github.io/OdinWebDev/rockPaperScissors/)
 - [Kevin Vuong's Browser Solution](https://github.com/fffear/javascript-rock-paper-scissors-browser) - [View in browser](https://fffear.github.io/javascript-rock-paper-scissors-browser/)
 - [Kevin Vuong's Solution](https://github.com/fffear/javascript-rock-paper-scissors) - [View in browser](https://fffear.github.io/javascript-rock-paper-scissors/)
-- [Leonardo's Solution](https://github.com/leonardovega/rock_paper_scissors)
 - [Helen's Solution](https://github.com/N00bG1rl/Rock-Paper-Scissors)
 - [John Paul's Solution](https://github.com/Omulosi/odin_js/tree/master/projects/rps)
 - [Jithin's Console Solution](https://github.com/jithindasad/r-p-s)
@@ -452,3 +452,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [cvillere console solution](https://github.com/cvillere/rock_p_s)
 - [George Robert's console solution](https://github.com/robertsGeorge/rock-paper-scissors)
 - [Ange's Solution](https://pekengduck.github.io/rock_paper_scissors/)
+- [Koullara's Solution](https://koullaras.github.io/rock-paper-scissors/.)
