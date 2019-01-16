@@ -94,7 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-* [Dillon W's Solution (Easy)]{https://github.com/dwhite8991/google-homepage) - [View in Browser (Easy)](dwhite8991.github.io/google-homepage/)
+* [Dillon W's Solution (Easy)](https://github.com/dwhite8991/google-homepage) - [View in Browser (Easy)](dwhite8991.github.io/google-homepage/)
 * [Christian Mason's Solution (Easy)](https://github.com/christianmmason/google-homepage) - [View in Browser (Easy)](https://christianmmason.github.io/google-homepage/)
 * [Germán Gutiérrez' Solution (Easy)](https://github.com/sggutier/google-homepage) - [View in Browser (Easy)](https://sggutier.github.io/google-homepage/)
 * [Kevin Vuong's Solution (Difficult)](https://github.com/fffear/google-searchpage)  -  [View in Browser (Difficult)](https://fffear.github.io/google-searchpage/)
@@ -1854,6 +1854,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Fabrice Isama Solution(Easy)](https://faba2017.github.io/google/) - [View in Browser]
 * [Willie's Solution (Easy)](https://github.com/wjone005/google-homepage) - [View in Browser](https://wjone005.github.io/google-homepage/)
 * [Gabriel B. Sant'Anna Solution (Easy)](https://github.com/baioc/google-homepage) - [View in Browser](https://baioc.github.io/google-homepage/)
+* [Adeleke Temitayo's Solution (Easy)](https://github.com/leketemi/google-homepage) - [View in Browser](https://leketemi.github.io/google-homepage/)
 * [Ifeanyichukwu Amajuoyi's Solution (Easy)](https://github.com/Anyitechs/google-homepage) - [View in Browser](https://anyitechs.github.io/google-homepage/)
 
 ### Additional Resources
