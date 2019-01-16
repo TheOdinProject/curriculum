@@ -1,24 +1,22 @@
 ### Introduction
 
-This short project will demonstrate how to use Git to manage and archive your project folders:
+This short project will demonstrate how to use Git to manage and track your project folders.
 
-1. You will set up a remote repository on GitHub and then move it down onto your local machine.
+1. You will set up a remote repository on GitHub and then copy it onto your local machine.
 2. Once this repo is set up locally, you will be able to use Git like a save button for your files and folders.
-3. When you have finalised your saves you can then push your local repo up onto GitHub to share with everyone!
-
+3. When you have finalized your saves, you can then push your local repo up onto GitHub to share with everyone!
 
 ### Learning Outcomes
-By the end of this you should be able to:
+By the end of this lesson, you should be able to do the following:
 
-* Create a Git repository on GitHub and move it onto your local machine
-* Describe the difference between staging and committing changes
-* Describe the difference between committing your changes and pushing them onto GitHub
-* Check the status of your current repository from the command line
-* Look at the history of your previous commits from the command line
-
+ - Create a Git repository on GitHub and copy it onto your local machine.
+ - Describe the difference between staging and committing changes.
+ - Describe the difference between committing your changes and pushing them onto GitHub.
+ - Explain how to check the status of your current repository from the command line.
+ - Explain how to look at the history of your previous commits from the command line.
 
 ### Assignment
-Here we will describe the basic Git workflow that you will use with your projects, follow along with each of the steps.
+In this project, we describe the basic Git workflow that you will use in your projects. follow along with each of the steps.
 
 #### Create your repository on Github
 1. You should have created a GitHub account in [Project: Your First Rails App](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application) project. If you haven't done that yet you can sign up [here](https://github.com/).
