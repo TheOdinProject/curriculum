@@ -343,6 +343,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mwk913's solution](https://github.com/mwk913/rails_blog) - [View in browser](https://immense-ocean-86005.herokuapp.com/articles)
 * [Edward Heath's solution](https://github.com/EdwardHeath/blogger) - [View in browser](https://intense-garden-85310.herokuapp.com/)
 * [Leila Alderman's solution](https://github.com/leila-alderman/blogger_2) - [View in browser](https://protected-escarpment-33970.herokuapp.com/)
+* [Abdirahman's solution](https://github.com/Murabac/rails-blog) - [View in browser](https://murabac-blogger.herokuapp.com/authors/new)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
