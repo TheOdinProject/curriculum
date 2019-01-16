@@ -21,7 +21,7 @@ git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
 ~~~
 
-To enable colorful output with `git`:
+To enable colorful output with `git`, type
 
 ~~~bash
 git config --global color.ui auto
@@ -144,7 +144,7 @@ rails db:migrate
 
 Now that you have created a Rails application, you can start it up and see if it works!
 
-Run:
+In the terminal, type
 
 ~~~bash
 rails server
@@ -156,79 +156,79 @@ When you're satisfied, go back to the terminal where Rails is running, and type 
 
 ### Step 3: Initialize Git and Push to GitHub
 
-In order to push our app to Github and Heroku we need to use git.
+To push our app to GitHub and Heroku, we need to use Git.
 
-##### Step 3.1: Initializing git
+##### Step 3.1: Initialize git
 
-To tell git we want to watch the directory we are in, we need to initialize it.
+To tell Git we want to use version control on the directory we are in, we need to initialize it.
 
-Verify you're in the `my_first_rails_app` directory by using the `pwd` (Print Working Directory) command. 
+Verify you're in the `my_first_rails_app` directory by using the `pwd` (print working directory) command. 
 
 ~~~bash
 $ pwd
 /home/you/odin_on_rails/my_first_rails_app
 ~~~
 
-Then initialize the git repo
+Then, initialize the Git repo (short for "repository"):
 
 ~~~bash
 git init
 ~~~
 
-#### Step 3.2: Committing changes
+#### Step 3.2: Commit Changes
 
-With that set up, we need to tell git to save all the files we have. First we add it to staging. this is an area to temporarily hold files before committing them. Don't worry if you don't understand what you are doing yet.
+Now that Git is initialized, we need to tell Git to save all the files we have. First, we add our files to the staging area, which temporarily holds files before committing them. Don't worry if you don't understand all of this right now.
 
-To stage all our files, run
+To stage all our files, type
 
 ~~~bash
 git add .
 ~~~
 
-Then we will commit the files. Be sure to take note of the quotation marks.
+Then, we'll commit the files. Be sure to include the quotation marks.
 
 ~~~bash
 git commit -m "initial commit"
 ~~~
 
-#### Step 3.3: Hooking our local repository to the remote repository
+#### Step 3.3: Connect the Local Repository to the Remote Repository
 
-At this point we have our files on our own computer and can track changes made to our file over time. But what if we want to share with another computer or have multiple people work on our project with us? For this we'll need a GitHub repository.
+At this point, we have our files on our own computer and can track changes made to our files over time. But what if we want to share the files with another computer or have multiple people work on the same project? For this functionality, we need a GitHub repository.
 
-First we'll open [GitHub.com](https://github.com/) in the browser and sign in (if you aren't already). Next, look for your profile picture in the upper right hand corner, click the + symbol next to it, and create a __new repository__. Give the repository a name (Maybe `my_first_rails_app`?), then click __Create Repository__.
+First, open [GitHub.com](https://github.com/) in your browser and sign in (if you aren't already). Next, look for your profile picture in the upper right-hand corner, click the "+" symbol next to it, and then click `New repository`. Give the repository a name (maybe `my_first_rails_app`?), and then click `Create Repository`.
 
-On the next page you'll see a bunch of commands listed. We're really only interested in the SSH url at the top so double check the `SSH` has been selected and copy the url.
+On the next page, you'll see a bunch of commands listed. We're really only interested in the SSH URL at the top, so double check that `SSH` has been selected and then copy the URL.
 
-We'll move back to the terminal to connect the project and Github by running two simple commands:
+Now, switch back over to the terminal to connect the project and GitHub by running two simple commands:
 
-NOTE: Do not enter the `<` or `>`, replace everything with your URL that you copied
+NOTE: Do not enter the `<` or `>` symbols. Replace everything inside those symbols with the URL that you copied from GitHub.
 
 ~~~bash
-git remote add origin <SSH URL from Above>
+git remote add origin <SSH URL from above>
 git push -u origin master
 ~~~
 
-replacing `<SSH URL from Above>` with the URL that you copied.
+Remember to replace `<SSH URL from above>` with the URL that you copied.
 
 The terminal will start its work, pausing to verify your connection to GitHub.
 
-A message from Github, 'The authenticity of host 'github.com'...', may appear during the process. You can type `yes` and hit enter to continue.
+A message from Github stating, "The authenticity of host 'github.com'..." may appear during this process. You can type `yes` and hit `Enter` to continue.
 
-After the terminal finishes its magic, return to your GitHub profile and refresh the page. You should see a lot of files, starting with a folder called "app."
+After the terminal finishes its magic, return to your GitHub repository and refresh the page. You should see a lot of files, starting with a folder called "app".
 
-This marks the start of your Odin Journey! Later on you'll be able to look back at this repository and marvel over how far you've come!
+This marks the start of your Odin journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
 
-#### Step 4: Deployment of a Rails Application
+#### Step 4: Deploy Your Rails Application
 
-Now that you have created your first rails application, it's time to deploy it so you can show the whole world! This will allow you to send a link to people and they will see it working.
+Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working.
 
-#### Step 4.1: Create a Heroku account
+#### Step 4.1: Create a Heroku Account
 
-Go to [the heroku website](https://www.heroku.com/) and create an account using the same email address you used for github and git.
+Go to the [Heroku website](https://www.heroku.com/) and create an account using the same email address you used for GitHub and Git.
 
-#### Step 4.2: Heroku cli
+#### Step 4.2: Heroku CLI
 
-After activating your account from the email they sent you. We will install the Heroku command line to interact with the Heroku service. We will use `curl` to download a script and run it to install Heroku.
+Activate your account from the email they sent you. Now, we'll install the Heroku command line so that we can interact with the Heroku service. We will use `curl` to download a script and run it to install the Heroku CLI.
 
 Run this command:
 
@@ -236,48 +236,52 @@ Run this command:
 curl https://cli-assets.heroku.com/install.sh | sh
 ~~~
 
-Then typing `heroku version` should result with something similar to:`heroku/7.5.1 linux-x64 node-v10.5.0`
+Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
 
 
-#### Step 4.3: Adding your SSH key to Heroku
+#### Step 4.3: Add your SSH Key to Heroku
 
-This lets Heroku know what machine the commands are coming from, for the same reason as GitHub.
+Adding your SSH key lets Heroku know what machine the commands are coming from, similar to how GitHub uses SSH keys.
 
-run
+In your terminal, type
 
 ~~~bash
 heroku keys:add
 ~~~
 
-Then press `y`, and then `enter`. Now type in your email address you used to create your heroku account, then press `enter`. Then the password for your Heroku account. Then press `y` and `enter` to allow Heroku to upload your public SSH key.
+Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
 
-#### Step 4.4: Creating a Heroku application from a local rails application
+#### Step 4.4: Create a Heroku Application
 
-First run:
+First, run
 
 ~~~bash
 heroku create
 ~~~
 
-Then run `git remote show` and verify you see `heroku` in the output.
+Then, run 
 
-#### Step 4.5: Preparing rails for Heroku Deployment
+~~~bash
+git remote show
+~~~
 
-Heroku uses a slightly different setup than what we have on our machine. We are going to configure the application to play nicely with both.
+Verify that you see `heroku` in the output.
 
-#### Step 4.5.1: Configuring the Gemfile
+#### Step 4.5: Prepare Rails for Heroku Deployment
 
-To deploy a rails application we will need to change some settings.
+Heroku uses a slightly different setup than what we have on our machine. We need to configure the application to play nicely with both.
 
-First we need to open the `Gemfile` and edit it.
+#### Step 4.5.1: Configure the Gemfile
 
-In your terminal, type `ls` and verify you can see `Gemfile` in the output. If you don't navigate to the directory you have created in Steps 4.2 and 4.3.
+To deploy a Rails application, we need to change some settings.
 
-Then we will use VSCode to modify our `Gemfile`. Open your app in VSCode by typing `code .` (THE `.` IS IMPORTANT) (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
+First, we need to open the `Gemfile` and edit it.
 
-When VSCode opens you should see a list of files on the left side of the screen. Click to open `Gemfile` then 
+In your terminal, type `ls` and verify that you see `Gemfile` in the output. If you don't see it, navigate to the directory you created in Steps 4.2 and 4.3.
 
-delete the line that says:
+Then, we'll use VSCode to modify the `Gemfile`. Open your app in VSCode by typing `code .` (*NOTE: The `.` is important!*) (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
+
+When VSCode opens, you should see a list of files on the left side of the screen. Click on `Gemfile` to open it in the editor. Then, delete the line that says,
 
 ~~~ruby
 gem 'sqlite3'
@@ -295,21 +299,21 @@ group :production do
 end
 ~~~
 
-Then save the file. You can leave VSCode open. We're going to be coming back to it, but for the next step go back to your terminal.
+Then, save the file. You can leave VSCode open since we're going to be coming back to it, but for the next step, go back to your terminal.
 
-#### Step 4.5.2: Installing the Bundle
+#### Step 4.5.2: Install the Bundle
 
-Next we need to tell ruby, git, and heroku that we've changed the `Gemfile`. To do this we can simply run
+Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To do this, we can simply run
 
 ~~~bash
 bundle install --without production
 ~~~
 
-#### Step 4.5.3: Configuring the root route
+#### Step 4.5.3: Configure the Root Route
 
-The next thing we need to edit is the `routes.rb` file, and set our root route. This is so we can send the application without having to append `/cars` at the end. We will be using VSCode to do so again.
+The next thing we need to edit is the `routes.rb` file to set our root route. We're going to this so that we can see the application without having to append `/cars` at the end of the URL. 
 
-So go back to VSCode and expand the `config` folder in the left hand side file list. One of the files inside the folder will be named `routes.rb`. Open it up and make it match the example below:
+Go back to VSCode and expand the `config` folder in the file list at the left-hand side of the screen. One of the files inside the folder will be named `routes.rb`. Open `routes.rb` and make it match the example below:
 
 ~~~ruby
 Rails.application.routes.draw do
@@ -320,11 +324,11 @@ end
 
 Save the file. You can close VSCode now; the rest of the steps take place in the terminal.
 
-#### Step 4.6: Adding Changes to git
+#### Step 4.6: Add Changes to Git
 
-Now that we have made some changes we need to tell git. This is required to successfully deploy to Heroku as well.
+Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
-We will first check which files have been updated by running `git status`:
+First, we'll check which files have been updated by running `git status`:
 
 ~~~bash
 $ git status
@@ -340,43 +344,43 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ~~~
 
-Great, now let's add the changes to staging
+Great! Now, let's add the changes to staging:
 
 ~~~bash
 git add .
 ~~~
 
-then commit the files in staging:
+Then, commit the files in staging:
 
 ~~~bash
 git commit -m 'updates for heroku deployment'
 ~~~
 
-While we are here, we might as well push our changes to GitHub too:
+While we're here, we might as well push our changes to GitHub too:
 
 ~~~bash
 git push origin master
 ~~~
 
-#### Step 4.7: Pushing to Heroku
+#### Step 4.7: Push to Heroku
 
-Now that we've commited the files we can push to Heroku:
+Now that we've commited the files, we can push to Heroku:
 
 ~~~bash
 git push heroku master
 ~~~
 
-**UPDATE 2019-01-04** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run: 
+  **UPDATE 2019-01-04:** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run: 
 
 ```
 heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
 ``` 
 
-and then run the previous `git push heroku master` command again.
+  and then run the `git push heroku master` command again.
 
-This will send the app you created to Heroku. There will be a lot of output in your console. Wait for this to finish.
+This will send the app you created to Heroku. There will be a lot of output in your console. Wait for it to finish.
 
-Most of this input you can ignore for now, but take note of the line a couple lines above your command prompt that will look something like this:
+You can ignore most of this output for now, but take note of the line a couple lines above your command prompt that will look something like this:
 
 ~~~bash
 remote:        https://random-words-73975.herokuapp.com/ deployed to Heroku
@@ -384,9 +388,9 @@ remote:        https://random-words-73975.herokuapp.com/ deployed to Heroku
 
 This is the link to your new site! Yes, you have published something to the internet! You can click it now, but we aren't quite done setting everything up just yet.
 
-#### Step 4.8: Migrate the DB on Heroku
+#### Step 4.8: Migrate the Database on Heroku
 
-Like we did locally before we launched our app, we need to migrate the database. We need to do this on Heroku, so we can use the Heroku-CLI to do so.
+Similar to what we did locally before we launched our app, we need to migrate the database on Heroku, which we can do with the Heroku CLI.
 
 Run this command:
 
@@ -394,13 +398,13 @@ Run this command:
 heroku run rails db:migrate
 ~~~
 
-You might see some strange output, as long as you do not have an error, you have successfully deployed a rails application! 
+You might see some strange output, but as long as you do not have an error, you have successfully deployed a Rails application! 
 
-If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help, be sure to include the entire output from your terminal.
+If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
 
-#### Step 4.9: Visit your new application
+#### Step 4.9: Visit Your New Application
 
-Now It's time to see your app on the web! If you are not using WSL, to quickly open it, type:
+It's time to see your app on the web! If you are not using WSL, to quickly open your app, type
 
 ~~~bash
 heroku open
@@ -412,4 +416,4 @@ and play around with it!
 
 You have successfully completed the installations. Congratulations!!! This was __the hardest part__ of the entire Odin Project.
 
-You probably felt like you were in way over your head and you didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
+You probably felt like you were in way over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
