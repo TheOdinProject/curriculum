@@ -1,97 +1,95 @@
-### Welcome to The Odin Project
-The Odin Project is an open source community dedicated to providing the best sources of information to take you from zero to full-stack developer. More information at [The Odin Project](https://www.theodinproject.com/about)
-
 ### Introduction
 
-With Ruby installed we're all set to create your first Ruby on Rails application
+With Ruby installed, you're all set to create your first Ruby on Rails application!
 
 ### Your First Rails App
 
-#### Step 1: Configuring Git and GitHub
+#### Step 1: Configure Git and GitHub
 
-Git is a very popular version control system. You will become very familiar with this piece of software so don't worry too much about understanding it at this point; there is a lesson to learn it later in the cirriculum.
+Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the cirriculum.
 
-GitHub is a service that allows you to upload your code, using git, and manage it through a nice web interface. GitHub and Git are not the same thing and are not the same company.
+GitHub is a service that allows you to upload your code using Git and to manage your code with a nice web interface. GitHub and Git are not the same thing or even the same company.
 
-#### Step 1.1: Tell git who you are
+#### Step 1.1: Setup Git
 
-For git to work properly, we will have to let it know who we are. This is so we can link a local git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed any line of code.
+For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
-These commands will configure git, be sure to fill out your own information in the quotes! (but leave the quotes)
+The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks)!
 
 ~~~bash
 git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
 ~~~
 
-And to enable colorful output with `git`
+To enable colorful output with `git`:
 
 ~~~bash
 git config --global color.ui auto
 ~~~
 
-To verify things are working properly, enter these commands and verify the output matches your name and email address.
+To verify things are working properly, enter these commands and verify that the output matches your name and email address.
 
 ~~~bash
 git config --get user.name
 git config --get user.email
 ~~~
 
-#### Step 1.2: Create a GitHub account or Sign in
+#### Step 1.2: Create a GitHub Account or Sign In
 
-Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but to keep things in line, it might be a good idea to use the same one.
+Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
 
-#### step 1.3: Create an SSH key
+#### step 1.3: Create an SSH Key
 
-An SSH key is a cryptographically secure identifier. It's like a really long password to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
+An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
-First we need to see if you have an SSH key already installed. Type this into the terminal:
+First, we need to see if you have an SSH key already installed. Type this into the terminal:
 
 ~~~bash
 ls ~/.ssh/id_rsa.pub
 ~~~
 
-If the message in the console contains `No such file or directory` it means you don't have an SSH key so we'll need to create one. If you do not see `No such file or directory` in the output, you already have a key - Proceed to step 1.4
+If the message in the console contains `No such file or directory`, then you don't have an SSH key, and you'll need to create one. If you do not see `No such file or directory` in the output, you already have a key; proceed to step 1.4.
 
-To create a new ssh key we can run `ssh-keygen` inside of our terminal. We will add the `-C` flag and our email address to make sure Github knows who we are.
+To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by our email address ensures that GitHub knows who we are.
 
 ~~~bash
 ssh-keygen -C yourname@example.com
 ~~~
 
-* When it prompts you for a location to save the generated key, just push `enter`.
-* Next it will ask you for a password, enter one if you wish, though it's not required.
+* When it prompts you for a location to save the generated key, just push `Enter`.
+* Next, it will ask you for a password; enter one if you wish, but it's not required.
 
-#### Step 1.4: Link your SSH key with GitHub
+#### Step 1.4: Link Your SSH Key with GitHub
 
-Now we will need to tell GitHub what our ssh key is, so we can push our code without typing in a password every time.
+Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
 
-First we need to navigate to where GitHub receives our SSH key. Log into GitHub and then click your profile picture in the top right corner, then click `settings` in the drop-down. 
-Next, on the left hand side, click `SSH and GPG keys`. Then click the green button in the top right that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while we do the next steps.
+First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu. 
 
-Now we need to copy our public ssh key, to do this we are going to use a command called `cat` to read the file to the console. (Note that `.pub` is important in this case)
+Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
+
+Now you need to copy your public SSH key. To do this, we're going to use a command called [`cat`](http://www.linfo.org/cat.html) to read the file to the console. (Note that the `.pub` file extension is important in this case.)
 
 ~~~bash
 cat ~/.ssh/id_rsa.pub
 ~~~
 
-Now highlight and copy the output (starts with `ssh-rsa` and ends with your email address).
+Highlight and copy the output, which starts with `ssh-rsa` and ends with your email address. 
 
-Now go back to the github.com browser window and paste the key we copied into the key field. Then click `Add SSH key`. Done! You've successfully added your key!
+Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
-### Step 2: Creating your first Ruby on Rails web application
+### Step 2: Create Your First Ruby on Rails Web Application
 
-Don't worry if you do not totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
+Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
 
-#### Step 2.1: Installing Rails and Bundler
+#### Step 2.1: Install Rails and Bundler
 
-In the previous steps we've installed Ruby and now it's time to install Ruby on Rails. It's as simple as running one command!
+We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
 gem install rails
 ~~~
 
-#### Step 2.2: Setting up the ground-work
+#### Step 2.2: Lay the Groundwork
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like! 
 
@@ -101,7 +99,7 @@ Next, if you haven't already done it, we need to create a directory that will ho
 mkdir odin_on_rails
 ~~~
 
-and then move into the new directory:
+Then, move into the new directory:
 
 ~~~bash
 cd odin_on_rails
@@ -109,15 +107,15 @@ cd odin_on_rails
 
 #### Step 2.3: Create the Application
 
-This is where things might become more foreign. If you don't understand, just double check your typing and keep going. This section is meant to expose you to the process and verify everything is working. Again, it's OK to not understand at this point.
+This is where things might become more foreign. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
-We are going to start by telling rails to initialize the application for us. We will then tell rails to create a template for us so we can get up and running.
+We're going to start by telling Rails to initialize the application for us. Then, we'll tell Rails to create a template for us so that we can get up and running.
 
 ~~~bash
 rails new my_first_rails_app
 ~~~
 
-This will do a bunch of things and you will see a lot of output into the terminal. If everything worked you should see something similar to this in the last few lines of output:
+This will do a bunch of things, and you'll see a lot of output in the terminal. If everything worked, you should see something similar to this in the last few lines of output:
 
 ~~~bash
 Bundle complete! 18 Gemfile dependencies, 79 gems now installed.
@@ -130,7 +128,7 @@ In the above process, Rails created a new directory for us. Let's `cd` into it n
 cd my_first_rails_app
 ~~~
 
-Now we tell rails to generate some templates for us. This will get us up and running in no time at all.
+Now, we're going to tell Rails to generate some templates for us. This will get us up and running in no time at all.
 
 ~~~bash
 rails generate scaffold car make:string model:string year:integer
@@ -142,9 +140,9 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### Step 2.4: Start it up!
+#### Step 2.4: Start Up Your App
 
-Now that you have created a rails application, we can start it up and see if it works!
+Now that you have created a Rails application, you can start it up and see if it works!
 
 Run:
 
@@ -152,11 +150,11 @@ Run:
 rails server
 ~~~
 
-and go to your browser, and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! Go ahead and create a new car, and refresh the page to verify it is working! Add as many as you'd like!
+Now, go to your browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like!
 
-When you are satisfied, go back to the terminal where rails is running, and push `ctrl + c` to end the application.
+When you're satisfied, go back to the terminal where Rails is running, and type `Ctrl + C` to end the application.
 
-### Step 3: Initializing Git and Pushing to GitHub
+### Step 3: Initialize Git and Push to GitHub
 
 In order to push our app to Github and Heroku we need to use git.
 
