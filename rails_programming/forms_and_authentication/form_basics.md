@@ -1,6 +1,6 @@
 ### Introduction
 
-You should be familiar with forms, both as a normal Internet user and as an HTML programmer who has done the [Introduction to Web Development course](/web-development-101).  But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
+You should be familiar with forms, both as a normal Internet user and as an HTML programmer who has done the [Introduction to Web Development course](https://www.theodinproject.com/courses/web-development-101).  But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
 
 Up until now, we've been thinking about Models in Rails on sort of a one-off basis.  The User model.  The Post model.  Sometimes we've had the models relate to each other via associations, like that a Post can `has_many` Comment objects.  Usually, though, we tend to silo our thoughts to only deal with one at a time.
 
