@@ -443,6 +443,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Leonardo Ruiz's solution](https://github.com/leo3904/Rock-paper-scissors)
 - [Canicodenow's Console Solution](https://github.com/canicodenow/rock-paper-scissors) - [View in Browser](https://canicodenow.github.io/rock-paper-scissors/)
 - [Max Stouten's solution](https://kapiteinkattenkwaad.github.io/rock_paper_scissors/)
+- [quilmes's solution](https://github.com/guanacone/rock_paper_scissors/) - [View in Browser](https://guanacone.github.io/rock_paper_scissors/)
 - [jhavn's solution](https://github.com/jhavn/rockpaperscissors) 
 - [Alberto's console solution](https://github.com/albeey/rock-paper-scissors) - [View in Browser](https://albeey.github.io/rock-paper-scissors/)
 - [Zi Jie's console solution](https://github.com/excitedlybored/ROCK-PAPER-SCISSORS) 
