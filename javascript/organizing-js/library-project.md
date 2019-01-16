@@ -83,3 +83,4 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Khalal's Solution](https://github.com/khalalw/Odin/tree/master/javascript/library) - [View in browser](https://khalalw.github.io/Odin/javascript/library/index.html)
 - [Taylor J's Solution](https://github.com/taylorjohannsen/library) - [View in browser](https://taylorjohannsen.github.io/library/)
 - [Halkim44's Solution](https://github.com/halkim44/myLibrary) - [online ver](https://halkim44.github.io/myLibrary/)
+- [Enravel's Solution](https://github.com/Enravel/Library-Project)

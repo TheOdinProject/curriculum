@@ -1,6 +1,6 @@
 ### Introduction
 
-Floats were never intended for layout, however clever developers found ways in which to use them to create their layouts. Having worked with floats you may have noticed some limitations and bugs (clearfix anyone? verticle centering?).
+Floats were never intended for layout, however clever developers found ways in which to use them to create their layouts. Having worked with floats you may have noticed some limitations and bugs (clearfix anyone? vertical centering?).
 
 ### Learning Outcomes
 
