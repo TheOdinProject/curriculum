@@ -6,11 +6,10 @@ In this lesson, we'll cover common Git commands used to manage your projects and
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- - Name the git command used to get a full local copy of an existing repository from Github.
- - Name the git command used to check the status of your files.
- - Name the git commands used to track files and to commit files.
- - Name the git command used to view your commit history.
- - Name the git command used to upload projects onto GitHub.
+ - Describe how to copy an existing repository from Github onto your local machine.
+ - Explain the two-stage system that Git uses to save files.
+ - Describe how to upload your work to GitHub using Git.
+ - Describe how to check the status of your files and how to view your commit history.
 
 ### Assignment
 
@@ -102,5 +101,28 @@ This section contains questions for you to check your understanding of this less
 <summary>What is the Git command used to upload projects onto GitHub?</summary>
 <ul><ul>
   <li>Use <code>git push</code> to send your commit to GitHub.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Explain the two-stage system that Git uses to save files.</summary>
+<ul><ul>
+  <li>A <strong>save</strong> in Git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.</li>
+  <li><strong>Staging:</strong> Think of <code>add</code> as adjusting the number of people or elements to be included in a photo. With Git, you can select the changes you want to save with <code>git add</code>. Imagine a project that contains multiple files where changes have been made to several files. You want to save some of the changes you have made and leave some other changes to continue working on them.</li>
+  <li><strong>Committing:</strong> Think of <code>commit</code> as actually taking a photo, resulting in a snapshot. For example, to commit a file named README.md, type <code>git commit -m "Add README.md"</code>. The <code>-m</code> flag stands for "message" and must always be followed by a commit message inside quotation marks. In this example, the commit message was <code>"Add README.md"</code>.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Explain what <code>origin</code> is in <code>git push origin master</code>.</summary>
+<ul><ul>
+  <li>In Git, <code>origin</code> is a placeholder name for the URL of the remote repository. Git sets up the origin by default when it clones a remote repository. You can use <code>origin</code> to access the remote repository without having to enter a full URL every time. This also means that you can have multiple remotes for a repository by giving each a unique name.</li>
+</ul></ul>
+</details>
+
+<details>
+<summary>Explain what <code>master</code> is in <code>git push origin master</code>.</summary>
+<ul><ul>
+  <li>In Git, <code>master</code> is the branch of the remote repository you want to push your changes to. We will get more into branches in a later lesson, but the main thing to remember is that <code>master</code> is the official branch in your projects where production-ready code lives.</li>
 </ul></ul>
 </details>

@@ -70,26 +70,6 @@ Finally, let's upload your work to the GitHub repository you created at the star
 3. When you reload the repository on GitHub, you should see the README.md and hello_world.txt files that you just pushed there from your local machine.
  <a href="https://imgur.com/XLAEsFg"><img class="tutorial-img" src="https://i.imgur.com/XLAEsFg.png" title="source: imgur.com" /></a>
 
-### Concept Review
-
-#### How does Git save files?
-A *save* in Git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.
-
-**The staging area**
-Think of `add` as adjusting the number of people or elements to be included in a photo.
-
-With Git you choose the changes you want to save with `git add`. Imagine a project that contains multiple files and you have made changes to several of them. You want to save some of the changes you have made and leave some other changes to continue working on them.
-
-**Committing**
-Think of `commit` as actually taking a photo, resulting in a snapshot.
-
-We used this command to commit the *README.md* file `git commit -m "Add README.md"` the `-m` flag stands for message and must always be followed by a message in quotes, in our case `"Add README.md"`.
-
-#### What is origin master?
-As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on GitHub at the beginning of this tutorial. It is set by default by Git when cloning from a remote for the first time. You can use *origin* to access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
-
-**master** is the branch you want to push your changes to. We will get more into branches in a later lesson, the main thing to remember is that *master* is the official branch in your projects where production-ready code lives.
-
 ### Conclusion
 The main take away from the past few lessons is how to use Git and GitHub for your projects. You now have this very powerful skill that will help you immensely when we get into the coding projects. You will be able to share your work with others for code reviews and to get help with your code if you're stuck.
 
