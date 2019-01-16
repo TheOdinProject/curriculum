@@ -1851,6 +1851,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Gilbert's Solution (Easy)](https://github.com/gimix311/google-homepage) - [View in Browser](https://gimix311.github.io/google-homepage/)
 * [Fabrice Isama Solution(Easy)](https://faba2017.github.io/google/) - [View in Browser]
 * [Willie's Solution (Easy)](https://github.com/wjone005/google-homepage) - [View in Browser](https://wjone005.github.io/google-homepage/)
+* [Gabriel B. Sant'Anna Solution (Easy)](https://github.com/baioc/google-homepage) - [View in Browser](https://baioc.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
