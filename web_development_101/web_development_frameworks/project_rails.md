@@ -23,6 +23,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Tommy's Solution](https://github.com/Tommyisr/blogger_test) - [View in browser](https://arcane-badlands-89675.herokuapp.com/)
 * [Bojo's Solution](https://github.com/BojoZahariev/blogger) - [View in browser](https://sheltered-savannah-41787.herokuapp.com/)
 * [Yusuf Parak's Solution](https://github.com/ycparak/rails-blogger) - [View in browser](https://guarded-shore-55350.herokuapp.com/)
 * [WormCrew's Solution](https://github.com/WormCrew/blogger)- [View in browser](https://limitless-peak-97236.herokuapp.com/articles)
@@ -343,7 +344,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mwk913's solution](https://github.com/mwk913/rails_blog) - [View in browser](https://immense-ocean-86005.herokuapp.com/articles)
 * [Edward Heath's solution](https://github.com/EdwardHeath/blogger) - [View in browser](https://intense-garden-85310.herokuapp.com/)
 * [Leila Alderman's solution](https://github.com/leila-alderman/blogger_2) - [View in browser](https://protected-escarpment-33970.herokuapp.com/)
+* [Mohamed's Solution](https://github.com/mohamedcutte/blogger) - [View in browser](https://blogger-app-234.herokuapp.com/)
+* [tnharvey's Solution](https://github.com/tnharvey/blogger) - [View in browser](https://glacial-cove-80421.herokuapp.com)
 * [Abdirahman's solution](https://github.com/Murabac/rails-blog) - [View in browser](https://murabac-blogger.herokuapp.com/authors/new)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
