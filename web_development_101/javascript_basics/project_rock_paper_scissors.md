@@ -453,3 +453,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [George Robert's console solution](https://github.com/robertsGeorge/rock-paper-scissors)
 - [Ange's Solution](https://pekengduck.github.io/rock_paper_scissors/)
 - [Koullara's Solution](https://koullaras.github.io/rock-paper-scissors/.)
+- [Diego's Console and Interface Solution](https://github.com/dandradec98/rock-paper-scissors) - [View in Browser](https://dandradec98.github.io/rock-paper-scissors/)
