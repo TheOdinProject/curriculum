@@ -280,4 +280,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Quilme's Solution](https://github.com/guanacone/etch-a-sketch) - [View in Browser](https://guanacone.github.io/etch-a-sketch/)
 * [LeonJMac's Solution](https://github.com/leonjmac/etch-a-sketch) - [View in Browser](https://leonjmac.github.io/etch-a-sketch/)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/Etch-a-Sketch) - [View in Browser](https://brett-bonnet.github.io/Etch-a-Sketch/)
+* [Ange's Solution](https://github.com/pekengduck/etch_a_sketch) - [View in Browser](https://pekengduck.github.io/etch_a_sketch/)
 
