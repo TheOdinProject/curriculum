@@ -1856,6 +1856,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Gabriel B. Sant'Anna Solution (Easy)](https://github.com/baioc/google-homepage) - [View in Browser](https://baioc.github.io/google-homepage/)
 * [Adeleke Temitayo's Solution (Easy)](https://github.com/leketemi/google-homepage) - [View in Browser](https://leketemi.github.io/google-homepage/)
 * [Ifeanyichukwu Amajuoyi's Solution (Easy)](https://github.com/Anyitechs/google-homepage) - [View in Browser](https://anyitechs.github.io/google-homepage/)
+* [Otto's Solution (Easy)](https://github.com/oteklund/google-homepage) - [View in Browser](https://oteklund.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
