@@ -1859,6 +1859,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Diego Andrade's Solution (Easy)](https://github.com/dandradec98/google-homepage) - [View in Browser](https://dandradec98.github.io/google-homepage/)
 * [Otto's Solution (Easy)](https://github.com/oteklund/google-homepage) - [View in Browser](https://oteklund.github.io/google-homepage/)
 * [Exequiel Mleziva's Solution (Easy)](https://github.com/nathan-hyan/odin_gHomePage) - [View in Browser (Easy)](https://nathan-hyan.github.io/odin_gHomePage/)
+* [Samuel Oswald's Solution (Difficult)] (https://github.com/smozwald/Google-Homepage) - [View in Browser (Difficult)](ttps://smozwald.github.io/Google-Homepage/)
 
 
 ### Additional Resources
