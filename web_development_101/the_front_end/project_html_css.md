@@ -1861,9 +1861,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Exequiel Mleziva's Solution (Easy)](https://github.com/nathan-hyan/odin_gHomePage) - [View in Browser (Easy)](https://nathan-hyan.github.io/odin_gHomePage/)
 * [Samuel Oswald's Solution (Difficult)](https://github.com/smozwald/Google-Homepage) - [View in Browser (Difficult)](https://smozwald.github.io/Google-Homepage/)
 * [Jorge Fernando Rincón Solution (Easy)](hhttps://github.com/jofer86/google-homepage) - [View in Browser (Easy)](https://jofer86.github.io/google-homepage/)
-
-
-My solution https://github.com/MarcusCole518/Google-Homepage
+* [MarcusCole518's Solution (Easy)](https://github.com/MarcusCole518/Google-Homepage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
