@@ -1863,7 +1863,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jorge Fernando Rincón Solution (Easy)](hhttps://github.com/jofer86/google-homepage) - [View in Browser (Easy)](https://jofer86.github.io/google-homepage/)
 * [MarcusCole518's Solution (Easy)](https://github.com/MarcusCole518/Google-Homepage)
 * [Nathaniel Hill's Solution (Easy)](https://github.com/NHill92/google-homepage) - [View in Browser (Easy)](https://nhill92.github.io/google-homepage/)
-
+* [Moses Ogwo's Solution (Easy)](https://github.com/mosesogwo/google-homepage) - [View in Browser (Easy)](https://mosesogwo.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
