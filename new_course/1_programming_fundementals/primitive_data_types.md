@@ -32,7 +32,6 @@ In computer science, [primitive data types](https://en.wikipedia.org/wiki/Primit
   * What does `false` represent?
   * What does `nil` represent?
 
-
 ### Numbers
 You probably already know what numbers are so there's no need to go into elaborate
 metaphors here. Ruby has all the typical math operators you would expect:
@@ -85,6 +84,7 @@ methods.
 # converting a integer to a float
 13.to_f   #=> 13.0
 ```
+
 When converting from a float to an integer, remember that the decimal places will effectively be cut off so only the whole (integer) remains. It won't do any rounding to the closest number.
 
 #### Some Useful Number Methods
@@ -115,12 +115,12 @@ Strings can be formed with either double `""` or single`''` quotes, also known a
 #### Interpolation
 Use double quotes for string interpolation.
 
-  ```ruby
-  name = "Odin"
+```ruby
+name = "Odin"
 
-  puts "Hello, #{name}" #=> "Hello, Odin"
-  puts 'Hello, #{name}' #=> "Hello, #{name}"
-  ```
+puts "Hello, #{name}" #=> "Hello, Odin"
+puts 'Hello, #{name}' #=> "Hello, #{name}"
+```
 
 #### Concatenation
 In true Ruby style, there are plenty of ways to concatenate strings.
@@ -273,8 +273,6 @@ To create a symbol simply put a colon at the beginning of some text
 ```
 :my_symbol
 ```
-
-
 
 #### Symbols vs. strings
 To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL.
