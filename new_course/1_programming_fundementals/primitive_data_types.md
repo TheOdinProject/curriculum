@@ -307,6 +307,6 @@ Nil represents 'nothing'. Everything in Ruby has a return value. When a piece of
 ### Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-1. If you want to go deeper into Ruby's numbers and strings data types, read these chapters from the *Bastards Book of Ruby*:
+* If you want to go deeper into Ruby's numbers and strings data types, read these chapters from the *Bastards Book of Ruby*:
     * [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
     * [Strings](http://ruby.bastardsbook.com/chapters/strings/)
