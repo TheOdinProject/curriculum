@@ -1,5 +1,6 @@
 ### Introduction
 
+In computer science, [primitive data types](https://en.wikipedia.org/wiki/Primitive_data_type) are data types that are provided by a programming language as a basic building blocks. Often, these data types are built-in. Ruby offers four primitive data types: Strings, Numbers (integers and floats), Symbols, and Booleans (true, false, and nil).
 
 ### Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
@@ -26,7 +27,7 @@
   * What's the difference between a symbol and a string?
   * How do you create a symbol?
 
-* true, false and nil
+* Booleans
   * What does `true` represent?
   * What does `false` represent?
   * What does `nil` represent?
