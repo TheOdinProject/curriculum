@@ -31,6 +31,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tommy's solution](https://github.com/Tommyisr/learn_ruby)
 * [Origier's solution](https://github.com/Origier/learn_ruby)
 * [Akbar's solution](https://github.com/donatelloraphael/learn_ruby)
+* [Germán Gutiérrez' solution](https://github.com/sggutier/learn_ruby)
 * [Eddy's solution](https://github.com/sudo-eddy/ruby-TDD)
 * [Bojo's Solution](https://github.com/BojoZahariev/learn_ruby)
 * [WormCrew's Solution](https://github.com/wormcrew/learn_ruby)
