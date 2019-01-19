@@ -348,6 +348,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [tnharvey's Solution](https://github.com/tnharvey/blogger) - [View in browser](https://glacial-cove-80421.herokuapp.com)
 * [Abdirahman's solution](https://github.com/Murabac/rails-blog) - [View in browser](https://murabac-blogger.herokuapp.com/authors/new)
 * [GustavoRdz's solution](https://github.com/GustavoRdz/Blogger-odin.git)
+* [Vitaly Osipov's solution](https://github.com/vi7ali/blogger) - [View in browser](https://immense-cliffs-79678.herokuapp.com/)
 
 
 ### Additional Resources
