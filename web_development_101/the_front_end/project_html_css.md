@@ -1864,7 +1864,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MarcusCole518's Solution (Easy)](https://github.com/MarcusCole518/Google-Homepage)
 * [Nathaniel Hill's Solution (Easy)](https://github.com/NHill92/google-homepage) - [View in Browser (Easy)](https://nhill92.github.io/google-homepage/)
 * [Moses Ogwo's Solution (Easy)](https://github.com/mosesogwo/google-homepage) - [View in Browser (Easy)](https://mosesogwo.github.io/google-homepage/)
-* [Chase Wickett's Solution (Easy)]https://github.com/wickettc/google-homepage() -[View in Browswer (Easy)](https://wickettc.github.io/google-homepage/)
+* [Chase Wickett's Solution (Easy)](https://github.com/wickettc/google-homepage) - [View in Browswer (Easy)](https://wickettc.github.io/google-homepage/)
 * [Ben Fowler's Solution (Easy)](https://github.com/benfowler04/google-homepage) - [View in Browser](https://benfowler04.github.io/google-homepage/)
 * [Lameck Otieno's Solution (Easy)](https://github.com/Lameck1/google-homepage/tree/gh-pages) - [View in Browser](https://lameck1.github.io/google-homepage/)
 
