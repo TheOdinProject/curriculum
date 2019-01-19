@@ -1,9 +1,15 @@
 ### Introduction
 
-In computer science, [primitive data types](https://en.wikipedia.org/wiki/Primitive_data_type) are data types that are provided by a programming language as a basic building blocks. Often, these data types are built-in. Ruby offers four primitive data types: Strings, Numbers (integers and floats), Symbols, and Booleans (true, false, and nil).
+In computer science, [primitive data types](https://en.wikipedia.org/wiki/Primitive_data_type) are data types that are provided by a programming language as a basic building blocks. Often, these data types are built-in. Ruby offers four primitive data types: Numbers (integers and floats), Strings, Symbols, and Booleans (true, false, and nil).
 
 ### Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
+
+* Numbers
+  * What are the basic arithmetic operators you can use on numbers?
+  * What's the difference between an integer and a float?
+  * What method would you use to convert a float to an integer?
+  * What method would you use to convert an integer to a float?
 
 * Strings
   * What is a string?
@@ -15,12 +21,6 @@ In computer science, [primitive data types](https://en.wikipedia.org/wiki/Primit
   * What are escape characters?
   * How do you access a specific character or substring?
   * How do you convert other data types into strings?
-
-* Numbers
-  * What are the basic arithmetic operators you can use on numbers?
-  * What's the difference between an integer and a float?
-  * What method would you use to convert a float to an integer?
-  * What method would you use to convert an integer to a float?
 
 * Symbols
   * What is a symbol?
