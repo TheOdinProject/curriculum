@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)
 
 * Add your solution below this line!
+* [Stefano Merazzi's Solution](https://github.com/ste001/toy-app) - [Live](https://ancient-lake-46665.herokuapp.com/)
 * [Jason McKee's Solution](https://github.com/jttmckee/toy_app) - [Live](https://damp-fjord-77322.herokuapp.com)
 * [prw001's Solution](https://github.com/prw001/toy_app) - [Live](https://desolate-sands-86183.herokuapp.com/)
 * [Malaika's Solution](https://github.com/malaikaMI/toy_app/tree/master/toy_app)
