@@ -20,6 +20,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jason McKee's Solution (with Regex to get results and links)](https://github.com/jttmckee/rest-client/tree/master)
 * [Isil Donmez's solution](https://github.com/isildonmez/rest_client)
 * [Maria Tikhonova's solution](https://github.com/MariaTikhonova/odin_rails/tree/master/rest_client)
 * [Omar Moataz's solution](https://github.com/OmarMoataz/bing_console)
