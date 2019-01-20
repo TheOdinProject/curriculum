@@ -36,7 +36,7 @@ To find out more about how you can contribute, please read our [contributing gui
 * [Nathan Hall](http://github.com/dominathan)
 * [Abby Jones](http://github.com/AbbyJonesDev)
 * [Kevin Mulhern](https://github.com/KevinMulhern)
-* [Arun Kumar](https://github.com/arun1595)
+* [Arun Kumar](https://github.com/arku)
 
 ---
 Created by [Erik Trautman](http://www.github.com/eriktrautman)

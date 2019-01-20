@@ -16,6 +16,9 @@ class MailchimpSubscription
 
   def create
     mailchimp_list.members.create(body: subscriber_details)
+  rescue Gibbon::MailChimpError => e
+    NewRelic::Agent.notice_error(e)
+    false
   end
 
   private
