@@ -215,6 +215,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Slaven K's Soltuion](https://github.com/Everdrought/micro-reddit)
 * [bchalman's Soltuion](https://github.com/bchalman/micro-reddit)
 * [Tommy's Solution](https://github.com/hoangtommy/micro-reddit)
+* [Alex's Solution](https://github.com/alexcorremans/micro-reddit)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
