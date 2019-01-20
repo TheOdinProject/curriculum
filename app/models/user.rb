@@ -8,7 +8,7 @@ class User < ApplicationRecord
   acts_as_voter
 
   validates_uniqueness_of :email
-  validates :username, length: { in: 4..20 }
+  validates :username, length: { in: 2..40 }
   validates :learning_goal, length: { maximum: 1700 }
 
   has_many :lesson_completions, foreign_key: :student_id
