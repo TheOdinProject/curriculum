@@ -36,8 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-- [Christian Mason's Solution]
-(https://github.com/ChristianMMason/rock-paper-scissors) - [View in browser] 
+- [Christian Mason's Solution](https://github.com/ChristianMMason/rock-paper-scissors) - [View in browser](https://christianmmason.github.io/rock-paper-scissors/)
 (https://christianmmason.github.io/rock-paper-scissors/)
 - [Jake Murray's Solution](https://github.com/JMurray90/rockpaperscissors)
 - [Ramanujam Gond's Solution](https://github.com/ramanujamgond/rock-paper-scissors) - [View in browser](https://ramanujamgond.github.io/rock-paper-scissors/)
