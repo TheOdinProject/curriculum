@@ -203,7 +203,7 @@ The best part about Rails form helpers... they handle errors automatically too! 
 
 ### Making PATCH and DELETE Submissions
 
-Forms aren't really designed to natively delete objects because browsers only support GET and POST requests.  Rails gives you a way around that by sticking a hidden field named "\_method" into your form.  It tells Rails that you actually want to do either a PATCH (aka PUT) or DELETE request (whichever you specified), and might look like `<input name="\_method" type="hidden" value="patch">`.
+Forms aren't really designed to natively delete objects because browsers only support GET and POST requests.  Rails gives you a way around that by sticking a hidden field named "\_method" into your form.  It tells Rails that you actually want to do either a PATCH (aka PUT) or DELETE request (whichever you specified), and might look like `<input name="_method" type="hidden" value="patch">`.
 
 You get Rails to add this to your form by passing an option to `form_for` or `form_tag` called `:method`, e.g.:
 
