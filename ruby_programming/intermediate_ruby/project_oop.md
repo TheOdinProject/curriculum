@@ -242,6 +242,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's solution](https://github.com/imemdm/tic-tac-toe) - [Play on repl.it](https://repl.it/repls/SufficientInstructiveApache)
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/LustrousHeartfeltDefragment)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/tree/master/tic-tac-toe)
+* [EdwardHeath's solution](https://github.com/EdwardHeath/tic_tac_toe/blob/master/tic_tac_toe.rb)
+* [Leila Alderman's solution](https://github.com/leila-alderman/tic-tac-toe/blob/master/tic-tac-toe.rb)
 
 ### Project 2: Mastermind
 
@@ -450,6 +452,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Emil Dimitrov's solution(with AI)](https://github.com/imemdm/mastermind) - [Play on repl.it](https://repl.it/@imemdm/ChartreuseWittyEllipses)
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/mastermind.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/WebbedAccomplishedDrawing)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
+* [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
