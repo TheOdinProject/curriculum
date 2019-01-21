@@ -36,14 +36,11 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Christian Mason's Solution](https://github.com/ChristianMMason/rock-paper-scissors) - [View in browser](https://christianmmason.github.io/rock-paper-scissors/)
-=======
 - [Shruti Jain's Solution](https://github.com/Sjain020188/rockPaper)
 - [Michael Wang's Solution](https://github.com/mikewzz/rockpaperscissorsApp)
 - [Tyler Devers's UI Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/rockPaperScissorsUI) - [View in browser](https://tylerdevers.github.io/OdinWebDev/rockPaperScissorsUI/)
 - [Leonardo's Solution](https://github.com/leonardovega/rock_paper_scissors) - [View in browser](https://leonardovega.github.io/rock_paper_scissors/)
->>>>>>> 07c86a15ac2264e0ba312a2ac04778c3e4633be3
 - [Jake Murray's Solution](https://github.com/JMurray90/rockpaperscissors)
 - [Ramanujam Gond's Solution](https://github.com/ramanujamgond/rock-paper-scissors) - [View in browser](https://ramanujamgond.github.io/rock-paper-scissors/)
 - [Chris Richardo's Console Solution](https://github.com/WhyTopher/Rock_Paper_Scissor_JS)
