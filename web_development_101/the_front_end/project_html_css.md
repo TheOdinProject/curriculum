@@ -1056,7 +1056,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Gabe Lilly's Easy Solution](https://github.com/gabelilly/google-homepage/) - [View in Browser](https://rawgit.com/gabelilly/google-homepage/master/index.html)
 * [EnXo's Easy & Responsive Solution](https://github.com/Asadidrees89/google-page/) - [View in Browser](https://rawgit.com/Asadidrees89/google-page/master/index.html)
 * [Francisco Gomez's solution (Easy)](https://github.com/FrankGmz/google-homepage/) - [View in Browser](https://rawgit.com/FrankGmz/google-homepage/master/index.html)
-* [N00bG1rl's solution](https://github.com/N00bG1rl/google-homepage) - [View in Browser (Easy)](https://cdn.rawgit.com/N00bG1rl/google-homepage/master/google.html) - [View in Browser (Difficult)](https://cdn.rawgit.com/N00bG1rl/google-search/master/search.html)
+* [N00bG1rl's Solution (Easy)](https://github.com/N00bG1rl/google-homepage) - [View in Browser](https://n00bg1rl.github.io/google-homepage/) - [Difficult Solution](https://github.com/N00bG1rl/google-search) - [View in Browser](https://n00bg1rl.github.io/google-search/)
 * [Kamron Morgan's solution (Easy)](https://github.com/normak/google-homepage) - [View in Browser (Easy)](https://normak.github.io/google-homepage/) - [solution (Difficult)](https://github.com/normak/google-search-results) - [View in Browser (Difficult)](https://normak.github.io/google-search-results/)
 * [Marc Eclipse's Solution (Easy)](https://github.com/Cador24/google-homepage/master/google.html) - [View in Browser](https://rawgit.com/Cador24/google-homepage/master/google.html)
 * [Harsha's Solution (Easy)](https://github.com/HarshaLaxman/google-homepage) - [View in Browser](https://rawgit.com/HarshaLaxman/google-homepage/master/index.html)
