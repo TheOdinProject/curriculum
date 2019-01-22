@@ -1,71 +1,88 @@
 <!-- This lesson will cover how to output things to the screen in Ruby and how to get input from the user. -->
 
 ### Introduction
-To create programs that are user friendly and interactive you'll need to know how to **output** data to a screen and how to get **input** from a user. We'll cover the most common ways to achieve these tasks in Ruby programming language during this lesson !
+To create programs that are user friendly and interactive you'll need to know how to **output** data to a screen and how to get **input** from a user. We'll cover the most common ways to achieve these tasks in Ruby programming language during this lesson. As with other lessons, and this one in particular, following along in irb or a REPL will be helpful.
 
 ### Learning Outcomes
-* What is the method name you can use to get **input** from the user?
-* What are the two methods we can use to **output** data to the users' screen?
-* What is the basic syntax and use of the input commands: *print*, *puts*, *gets*
-* What is the difference between *puts* and *print* commands?
-
+* What are the two methods we can use to output data to the user's screen?
+* What is similar between these two output methods?
+* What is different between these two output methods?
+* What is the method you can use to get input from the user?
+* What is at least one difference between the output and input methods?
 
 ### Output Commands
-* In order to output the information we want we shall use the **print** command !	
+In order to output the information we want, such as into your irb environment, REPL, or into the command line, we can use the `print` command.
+
 ```ruby
-print "Learning to code is FUN!" #=> Learning to code is FUN!
-```
-```ruby
-print "1234" #=> 1234
+print "Learning to code is FUN!"
+Learning to code is FUN!
+=> nil
+
+print "1234"
+1234
+=> nil
 ```
 
-* In order to output the information we want we can also use the **puts** command !	
+We can also use the `puts` command:
 ```ruby
-puts "Learning to code is cool!!" #=> Learning to code is cool!!
-```
-```ruby
-puts "hey I want 2 lemonades" 
-#=> hey I want 2 lemonades
+puts "Learning to code is cool!!"
+Learning to code is cool!!
+=> nil
+
+puts "hey I want 2 lemonades"
+hey I want 2 lemonades
+=> nil
+
 x = "My name is ALEX :)"
 puts x
-#=> My name is ALEX :)
+My name is ALEX :)
+=> nil
 ```
-The **puts** command has similar behavior with **print** command BUT it adds a new line at the end of each argument (we shall see the difference more extensively regarding these commands when we study about arrays and how to display them properly).
-More specifically, pay attetion to the following examples and their outputs :
 
-* **E.g. 1**
- ```ruby
-print "Hello World"
-print "I love drinking coffee"
-#=> Hello WorldI love drinking coffee
-``` 
- * **E.g.2**
-```ruby 
-puts "Hello World"
-puts "I love drinking coffee"
-#=> Hello World
-#=> I love drinking coffee
+As you can see, the `puts` and `print` commands are quite similar. Note that after printing whatever argument they are passed, they both return `nil`. One notable difference, however, is that `puts` appends a new line to the argument passed in.
+
+Try the following in irb:
+
+```ruby
+print "Hello World"; print "I love drinking coffee"
+Hello WorldI love drinking coffee
+=> nil
+
+puts "Hello World"; puts "I love drinking coffee"
+Hello World
+I love drinking coffee
+=> nil
 ```
-*Attention:* we declare a string/text with single or double quote but when we select to output it to the user screen the quotes are not included because they are used to define the text between them.
+
+**Side note**: In a REPL, such as repl.it, the above `print` and `puts` statements can be written on individual lines without the semi-colon. When run, the REPL will read, evaluate, and print the results of each expression. On the other hand, without the semi-colon, irb can only read one statement at a time.
 
 ### Input Commands
-* In order to input some information from the user we can use **gets** command!
-. When we use the gets command, the program execution will stop and wait for a user's input. This is achieved by displaying a cursor to the user's terminal so as to type the input value. After the user types something he MUST press enter (or return) in order for the program to continue it's execution!
+In order to accept input from a user, we can use the `gets` command. When we use `gets`, program execution will stop and wait for a user's input. After pressing `Enter`, the program will continue its execution.
 
-* Let's say for the sake of our example that the user types blue sky and then press enter
+Let's give this a go. Open irb, type `gets`, and then type `The Odin Project`. You should see something like the following:
+
 ```ruby
-input = gets   
-puts input  
-#=> blue sky
+irb(main):001:0> gets
+The Odin Project
+=> "The Odin Project\n"
 ```
-So the programm above will output to our screen the variable named *input* which has stored the user input (as a text), in this case: "blue sky". 
 
+How about that? Let's break it down a bit.
 
-### BEWARE
-All of the above commands are what we call Case Sensitive. This basically means that our computer (compiler) strictly considers print, gets and puts command in THIS TEXT FORMAT  and NOT ANY OTHER. For example, the computer will not execute our commands if we type Print, PRInt,  Gets, getS, pUts etc...
+You'll notice that `gets`, unlike `puts` and `print`, actually **returns** what a user inputs, instead of `nil`. This means that the input can be assigned to a variable for you to use and manipulate and twist and turn and spit back out.
 
+As you might also remember from the String section of the Primitive Data Types lesson, `"\n"` is an escape character that represents a new line. `gets` always returns a new line, and it often makes use of a "separator" to read streams and multi-line files, but that's beyond the scope of a beginner lesson. For now, just know that `#chomp` is a method commonly used to trim separators.
+
+```ruby
+irb(main):001:0> new_string = gets.chomp
+This is a sentence
+=> "This is a sentence"
+
+irb(main):002:0> puts new_string
+This is a sentence
+=> nil
+```
 
 ### Assignment
-- Read through and play around with the code regarding: [user output](https://www.learnrubyonline.org/en/Hello%2C_World%21). 
-
-- Read (and code along to your terminal) the following chapters: [The gets Statement, The puts Statement, The print Statement](https://www.tutorialspoint.com/ruby/ruby_quick_guide.htm).
+1. Read through the simple [Hello, World](https://www.learnrubyonline.org/en/Hello%2C_World%21) lesson and exercise from www.learnrubyonline.org.
+2. Read the first four sections of the [Ruby - File I/0](https://www.tutorialspoint.com/ruby/ruby_input_output.htm) from TutorialsPoint on `puts`, `gets`, `putc`, and `print`.

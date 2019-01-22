@@ -403,6 +403,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Khalal's Solution](https://github.com/khalalw/building_blocks/blob/master/caesar_cipher.rb)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/01_caesar/caesar.rb)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/caesar-cipher/caesar.rb)
+* [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/caser_cipher_solution.rb)
 
 ### Project 2: Stock Picker
 
