@@ -42,7 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 * [Kevin Vuong's Solution](https://github.com/fffear/etch-a-sketch) - [View in browser](https://fffear.github.io/etch-a-sketch/)
 * [Leonardo's Solution](https://github.com/leonardovega/etch_a_sketch) - [View in browser](https://leonardovega.github.io/etch_a_sketch/)
-* [Helen's Solution](https://github.com/N00bG1rl/sketch)
+* [N00bG1rl's Solution](https://github.com/N00bG1rl/sketch) - [View in Browser](https://n00bg1rl.github.io/sketch/)
 * [Eliezer's Solution](https://github.com/vzla0094/sketch) - [View in Browser](https://vzla0094.github.io/sketch/)
 * [Diego's Solution](https://github.com/xDican/etch_a_sketch) - [View in Browser](https://xdican.github.io/etch_a_sketch/)
 * [Dan's Solution](https://github.com/dhuang6/etch-a-sketch) - [View in Browser](https://dhuang6.github.io/)

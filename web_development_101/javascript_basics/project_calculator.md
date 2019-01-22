@@ -42,7 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Leonardo Vega's Solution](https://github.com/leonardovega/calculator) - [View in Browser](https://leonardovega.github.io/calculator/)
 - [Brian Monaccio's Solution](https://github.com/learnsometing/odin-project-calculator) - [View in Browser](https://learnsometing.github.io/odin-project-calculator/)
 - [Eliezer's Solution](https://github.com/vzla0094/calculator) - [View in Browser](https://vzla0094.github.io/calculator/)
-- [Helen's Solution](https://github.com/N00bG1rl/calculator)
+- [N00bG1rl's Solution](https://github.com/N00bG1rl/calculator) - [View in Browser](https://n00bg1rl.github.io/calculator/)
 - [Billy Coffin's Solution](https://github.com/bcoffin9/Calculator) - [View in Browser](https://bcoffin9.github.io/Calculator/)
 - [Loumarven's Solution](https://github.com/loumarven/calculator) - [View in Browser](https://loumarven.github.io/calculator/)
 - [KJ's Solution](https://github.com/kjwebdev/Calculator) - [View in Browser](https://kjwebdev.github.io/Calculator/)
