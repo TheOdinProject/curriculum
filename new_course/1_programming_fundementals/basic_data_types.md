@@ -1,36 +1,16 @@
 ### Introduction
 
+Ruby is a strongly object-oriented language, which means that absolutely everything in Ruby is an object, even the most basic data types. We'll start here with four of Ruby's basic data types: numbers (integers and floats), strings, symbols, and Booleans (`true`, `false`, and `nil`).
 
 ### Learning Outcomes
-*Look through these now and then use them to test yourself after doing the assignment*
+By the end of this lesson, you should be able to do the following:
 
-* Strings
-  * What is a string?
-  * What's the difference between single and double quotes?
-  * What is string interpolation?
-  * How do you concatenate strings?
-  * What method would you use to change all the characters in your string to upper case?
-  * What method would you use to _split_ up strings into arrays?
-  * What are escape characters?
-  * How do you access a specific character or substring?
-  * How do you convert other data types into strings?
-
-* Numbers
-  * What are the basic arithmetic operators you can use on numbers?
-  * What's the difference between an integer and a float?
-  * What method would you use to convert a float to an integer?
-  * What method would you use to convert an integer to a float?
-
-* Symbols
-  * What is a symbol?
-  * What's the difference between a symbol and a string?
-  * How do you create a symbol?
-
-* true, false and nil
-  * What does `true` represent?
-  * What does `false` represent?
-  * What does `nil` represent?
-
+ - List the basic arithmetic operators and what they do.
+ - Describe the difference between an integer and a float and how to convert between the two.
+ - Explain string interpolation and concatenation.
+ - Describe what escape characters are and list several examples.
+ - Define what a symbol is and how it differs from a string.
+ - Explain what the booleans `true`, `false`, and `nil` represent.
 
 ### Numbers
 You probably already know what numbers are so there's no need to go into elaborate
