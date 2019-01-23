@@ -12,6 +12,8 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 If you've been keeping track of the SQL Zoo solutions, [put them here!](https://github.com/TheOdinProject/curriculum/blob/master/databases/project_databases.md) submit a link to your solutions below by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [N00bG1rl's Solution](https://github.com/N00bG1rl/sql)
+* [svpat1's Solution](https://github.com/svpat1/Project_sql_zoo/blob/master/README.md)
 * [Diana's Solution](https://github.com/dianastanciu/sql_zoo/blob/master/README.md)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/sql_zoo_tutorials/blob/master/sql_zoo_tutorials.sql)
 * [Malaika's Solution](https://github.com/malaikaMI/Project_SQL_Zoo)

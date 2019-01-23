@@ -148,6 +148,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/odin-kittens)
 * [Agon's solution](https://github.com/AgonIdrizi/kitten)
 * [Malaika's Solution](https://github.com/malaikaMI/odin-kittens)
+* [bchalman's solution](https://github.com/bchalman/odin-kittens)
 
 ### Project 2: Using a Third Party API
 
@@ -214,6 +215,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/flickr-browser)
 * [Agon's solution](https://github.com/AgonIdrizi/Flickr_photos)
 * [Malaika's Solution](https://github.com/malaikaMI/flickr-browser)
+* [bchalman's solution](https://github.com/bchalman/odin-flickr-api)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

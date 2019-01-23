@@ -169,6 +169,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [themetar's solution](https://github.com/themetar/odin-project-ruby-recursion/blob/master/fibonacci.rb)
 * [Slaven's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/fibonacci/script.rb)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/recursion/blob/master/warmup.rb)
+* [Leila Alderman's solution (one line)](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/06_fibonacci/fibonacci.rb)
 
 ### Project: Merge Sort
 
