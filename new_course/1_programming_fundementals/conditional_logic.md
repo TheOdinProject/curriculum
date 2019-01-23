@@ -20,6 +20,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain how to use `if`, `elsif`, and `else`.
  - Explain the difference between `if` and `unless`.
  - Describe what `||`, `&&`, and `!` do.
+ - Explain what short circuit evaluation is.
  - Describe what the ternary operator is and how to use it.
  - Explain what a `case` statement is and how it works. 
 
@@ -148,67 +149,67 @@ This happens because computers can't store strings in the same efficient way the
 All of the above operators also work on data types other than numbers, such as strings. Why not play around with this in a REPL?
 
 #### Logical Operators
-Sometimes you'll want to write an expression that contains more than one condition. That's accomplished in Ruby with logical operators.
+Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&`(and), `||`(or) and `!`(not).
 
-The operators are `&&`(and), `||`(or) and `!`(not).
+There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. I recommend you read [this article](http://www.virtuouscode.com/2010/08/02/using-and-and-or-in-ruby/) that explains the differences.
 
-There are some differences between the word versions and their symbolic equivalents, particularly the way they evaluate code. I recommend you read [this piece](http://www.virtuouscode.com/2010/08/02/using-and-and-or-in-ruby/) that will explain the differences.
-
-The `&&` operator returns true if **both** the left and right expressions return true.
+The `&&` operator returns `true` if **both** the left and right expressions return `true`.
 
 ```ruby
 if 1 < 2 && 5 < 6
-  puts "Party at Kevins"
+  puts "Party at Kevin's!"
 end
 
 # This can also be written as
 if 1 < 2 and 5 < 6
+  puts "Party at Kevin's!"
+end
 ```
 
-One thing to keep in mind with the `&&` and `||` is the order of logic. The expressions are evaluated from left to right.
+One thing to keep in mind with the `&&` and `||` operators is the order of logic. The expressions are always evaluated from left to right.
 
-Using the `&&` operator, both expressions must return true. If the first expression encountered returns false, the second expression is never checked because, to the Ruby interpreter, it's pointless as the overall expression can never return true.
+Using the `&&` operator, both expressions must return `true`. If the first expression encountered returns `false`, then the second expression is never checked. To the Ruby interpreter, it's pointless to evaluate the second half as the overall expression can never return `true`.
 
-With the `||` operator if the first expression evaluates to true then the second expression is never checked because the complete expression is already true and the code in the block is run.
+With the `||` operator, if the first expression evaluates to `true`, then the second expression is never checked because the complete expression is already `true`, and the code in the block is run.
 
-This is known as short circuit evaluation.
+This is known as **short circuit evaluation**.
 
 ```ruby
-if 10 < 2 || 5 < 6 #=> although the left expression is false, there is a party at Kevin's because the right expression returns true
-  puts "Party at Kevins"
+if 10 < 2 || 5 < 6 # => although the left expression is false, there is a party at Kevin's because the right expression returns true
+  puts "Party at Kevin's!"
 end
 
 # This can also be written as
 if 10 < 2 or 5 < 6
+  puts "Party at Kevin's!"
+end
 ```
 
-The `!` operator reverses the logic of the expression. Therefore if the expression itself returns false, using the `!` operator makes the expression true and the code inside the block will be executed.
-
-Some examples are
+The `!` operator reverses the logic of the expression. Therefore, if the expression itself returns `false`, using the `!` operator makes the expression `true`, and the code inside the block will be executed.
 
 ```ruby
-if !false #=> true
+if !false # => true
 
-if !(10 < 5) #=> true
+if !(10 < 5) # => true
 ```
 
-## Case Statements
-Case statements are a neat way of writing several conditional expressions that would normally result in a messy if; elsif statement. You can even assign the return value from a case statement to a variable for use later.
+#### Case Statements
+Case statements are a neat way of writing several conditional expressions that would normally result in a messy `if; elsif` statement. You can even assign the return value from a case statement to a variable for use later.
 
-Case statements will process each condition in turn, and if the condition returns false it will move onto the next one until a match is found. An else clause can be provided to serve as a default if no match is found.
+Case statements process each condition in turn, and if the condition returns `false`, it will move onto the next one until a match is found. An `else` clause can be provided to serve as a default if no match is found.
 
 
 ```ruby
 grade = 'F'
 
-did_i_pass = case grade #=> create a variable `did_i_pass` and assign the result of a call to case with the variable grade passed in
+did_i_pass = case grade # => create a variable `did_i_pass` and assign the result of a call to case with the variable grade passed in
   when 'A' then "Hell yeah!"
-  when 'D' then "Don't tell your mother"
+  when 'D' then "Don't tell your mother."
   else "McDonald's is hiring!"
 end
 ```
 
-As soon as a match is found the value of that match is returned and the case statement stops execution. Can you tell what the value of the `did_i_pass` variable is going to be after the case statement?
+As soon as a match is found, the value of that match is returned, and the case statement stops execution. Can you tell what the value of the `did_i_pass` variable is going to be after the case statement?
 
 If you need to do some more complex code manipulation, you can remove the `then` keyword and instead place the code to be executed on the next line.
 
@@ -228,59 +229,57 @@ else
 end
 ```
 
-## Unless statement
-The unless statement works in the opposite way to the if statement in that it only processes the code in the block if the expression evaluates to false. There isn't much more to it.
+#### Unless Statements
+An `unless` statement works in the opposite way as an `if` statement: it only processes the code in the block if the expression evaluates to `false`. There isn't much more to it.
 
 ```ruby
 age = 18
 unless age < 17
-  puts "get a job"
+  puts "Get a job."
 end
 ```
 
-You can use the unless statement on one line or with an else clause
+Just like with `if` statements, you can write a simple `unless` statement on one line, and you can also add an `else` clause.
 
 ```ruby
 age = 18
-puts "Welcome to a life of debt" unless age < 17
+puts "Welcome to a life of debt." unless age < 17
 
 unless age < 17
-  puts "Down with that sort of thing"
+  puts "Down with that sort of thing."
 else
   puts "Careful now!"
 end
 ```
 
-You should use the unless statement when you want to **not** do something if a condition is true, because it can make your code more readable than using `if !true`.
+You should use an `unless` statement when you want to **not** do something if a condition is `true`, because it can make your code more readable than using `if !true`.
 
-## Ternary operator
-The ternary operator is a one line if; else statement which can make your code much more concise.
+#### Ternary operator
+The ternary operator is a one line `if; else` statement that can make your code much more concise.
 
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
 
 ```ruby
 age = 18
-response = age < 17 ? "You still have your entire life ahead of you" : "You're all grown up"
-puts response #=> "You're all grown up"
+response = age < 17 ? "You still have your entire life ahead of you." : "You're all grown up."
+puts response #=> "You're all grown up."
 ```
 
-Here, because the expression evaluated to false it was the code after the `:` that was assigned to the variable `response`.
+Here, because the expression evaluated to `false`, the code after the `:` was assigned to the variable `response`.
 
-To write this as an if; else statement would be much more verbose
+Writing this as an `if; else` statement would be much more verbose:
 
 ```ruby
 age = 18
 if age < 17
-  response = "You still have your entire life ahead of you"
+  response = "You still have your entire life ahead of you."
 else
-  response = "You're all grown up"
+  response = "You're all grown up."
 end
 puts response
 ```
 
-However, if your conditional statements are complicated, then using an if; else statement would probably make more sense. Remember, **above all else your code needs to be readable and understandable by other people**, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
-
-
+However, if your conditional statements are complicated, then using an `if; else` statement can help to make your code more readable. Remember, **above all else, your code needs to be readable and understandable by other people**, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
@@ -296,6 +295,7 @@ This section contains questions for you to check your understanding of this less
   * When do you use elsif?
   * When do you use unless?
   * What do || and && and ! do?
+  * What is short circuit evaluation?
   * What is returned by puts("woah") || true?
   * What is the ternary operator?
   * When should you use a case statement?
