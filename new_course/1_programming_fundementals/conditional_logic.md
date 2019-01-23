@@ -21,16 +21,16 @@ By the end of this lesson, you should be able to do the following:
  - Explain the difference between `if` and `unless`.
  - Describe what `||`, `&&`, and `!` do.
  - Describe what the ternary operator is and how to use it.
- - Explain what a `case` statement is and how it works.
+ - Explain what a `case` statement is and how it works. 
 
-## Truthy and Falsy in Ruby
+#### Truthy and Falsy in Ruby
 
-You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages you might be familiar with the number 0 or an empty string "" being equivalent to false. This isn't the case with Ruby so be careful when writing those expressions or you'll have more bugs than a decomposing body.
+You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion, it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages, you might be familiar with the number 0 or an empty string ("") being equivalent to false. This isn't the case with Ruby, so be careful when writing those expressions, or you'll have more bugs than a decomposing body.
 
-## Basic Conditional Statement
-The simplest way to control the flow of your code using conditions is with the `if` statement.
+#### Basic Conditional Statement
+The simplest way to control the flow of your code using conditionals is with the `if` statement.
 
-The general syntax is:
+The general syntax of an `if` statement is shown here:
 
 ```ruby
 if statement_to_be_evaluated == true
@@ -38,12 +38,12 @@ if statement_to_be_evaluated == true
 end
 
 if 1 < 2
-  puts "Hot diggity damn, 1 is less than 2"
+  puts "Hot diggity, 1 is less than 2!"
 end
-#=> Hot diggity damn, 1 is less than 2
+# => Hot diggity, 1 is less than 2!
 ```
 
-If there is only one line of code to be evaluated inside the block then you can rewrite the example above as follows:
+If there is only one line of code to be evaluated inside the block, then you can rewrite the code to be more succient and take up only one line:
 
 ```ruby
 puts "Hot diggity damn, 1 is less than 2" if 1 < 2
@@ -51,10 +51,10 @@ puts "Hot diggity damn, 1 is less than 2" if 1 < 2
 
 You don't even need the `end` statement. Nice and concise!
 
-The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value or a call to a method. Only if the expression evaluates to true does the code inside the block run.
+The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value, or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
-## Branching in if Statements
-Often you'll want to check a condition and run some code if it's true, but if it's false then run some other code. That's done with an `if; else` statement.
+#### Adding "else" and "elsif"
+We often want to check a condition and run some code if it's true but then run some other code if it's false. This is done with an `if; else` statement.
 
 ```ruby
 if attack_by_land == true
@@ -66,7 +66,7 @@ end
 
 Oh yeah! Protected on land and sea.
 
-But what about if we're attacked by air? We need yet another conditional check. Enter the `if; elsif; else` statement.
+But what about if we're attacked by air? We need yet another conditional check. Enter the `if; elsif; else` statement!
 
 ```ruby
 if attack_by_land == true
@@ -80,74 +80,74 @@ end
 
 Ain't nobody pillaging my land!
 
-You can have as many elsif expressions as you want. The else clause is optional but you usually want to provide some default value in case none of the previous expressions evaluate to true.
+You can have as many `elsif` expressions as you want. The `else` clause is optional, but you usually want to provide some default value in case none of the previous expressions evaluate to `true`.
 
-## Boolean Logic
-To use an expression that evaluates to true or false you'll need a comparison operator. There are several provided by Ruby and in no particular order they are:
+#### Boolean Logic
+To determine whether an expression evaluates to `true` or `false`, you'll need a comparison operator. There are several provided by Ruby:
 
-`==`(equals) returns true if the values compared are equal.
+`==`(equals) returns `true` if the values compared are equal.
 ```ruby
-5 == 5 #=> true
-5 == 6 #=> false
+5 == 5 # => true
+5 == 6 # => false
 ```
 
-`!=`(not equal) returns true if the values compared are not equal.
+`!=`(not equal) returns `true` if the values compared are not equal.
 ```ruby
-5 != 7 #=> true
-5 != 5 #=> false
+5 != 7 # => true
+5 != 5 # => false
 ```
 
-`>`(greater than) returns true if the value on the left of the operator is larger than the value on the right.
+`>`(greater than) returns `true` if the value on the left of the operator is larger than the value on the right.
 ```ruby
-7 > 5 #=> true
-5 > 7 #=> false
+7 > 5 # => true
+5 > 7 # => false
 ```
 
-`<`(less than) returns true if the value on the left of the operator is smaller than the value on the right.
+`<`(less than) returns `true` if the value on the left of the operator is smaller than the value on the right.
 ```ruby
-5 < 7 #=> true
-7 > 5 #=> false
+5 < 7 # => true
+7 > 5 # => false
 ```
 
-`>=`(greater than or equal to) returns true if the value on the left of the operator is larger than or equal to the value on the right.
+`>=`(greater than or equal to) returns `true` if the value on the left of the operator is larger than or equal to the value on the right.
 ```ruby
-7 >= 7 #=> true
-7 >= 5 #=> false
+7 >= 7 # => true
+7 >= 5 # => true
 ```
 
-`<=`(less than or equal to) returns true if the value on the left of the operator is smaller than or equal to the value on the right.
+`<=`(less than or equal to) returns `true` if the value on the left of the operator is smaller than or equal to the value on the right.
 ```ruby
 5 <= 5 #=> true
-5 <= 7 #=> false
+5 <= 7 #=> true
 ```
 
-`.eql?` checks both the value type and actual value it holds.
+`.eql?` checks both the value type and the actual value it holds.
 ```ruby
-5.eql?(5.0) #=> false #=>although they are the same value, one is an integer and one is a float
-5.eql?(5) #=> true
+5.eql?(5.0) # => false; although they are the same value, one is an integer and the other is a float
+5.eql?(5)   # => true
 ```
 
-`.equal?` checks whether both values are the exact same object in memory. This can be slightly confusing because of the way computers store some values for efficiency. Two variables pointing to the same number will usually always return true.
+`.equal?` checks whether both values are the exact same object in memory. This can be slightly confusing because of the way computers store some values for efficiency. Two variables pointing to the same number will usually return `true`.
 
 ```ruby
 a = 5
 b = 5
-a.equal?(b) #=> true
+a.equal?(b) # => true
 ```
 
-This is true because of the way computers store integers in memory. So although you have set two different variables holding the number 5, they point to the same object in memory. However, consider the next code example.
+This expression is true because of the way computers store integers in memory. Although two different variables are holding the number 5, they point to the same object in memory. However, consider the next code example:
 
 ```ruby
 a = "hello"
 b = "hello"
-a.equal?(b) #=> false
+a.equal?(b) # => false
 ```
 
-This happens because computers can't store strings efficiently in the same way as they store numbers. So although the values of the variables are the same, the computer will have created two separate string objects in memory.
+This happens because computers can't store strings in the same efficient way they store numbers. Although the values of the variables are the same, the computer has created two separate string objects in memory.
 
-All of the above operators also work on data types other than numbers, such as strings. Why not have a play around in a repl?
+All of the above operators also work on data types other than numbers, such as strings. Why not play around with this in a REPL?
 
-## Logical Operators
+#### Logical Operators
 Sometimes you'll want to write an expression that contains more than one condition. That's accomplished in Ruby with logical operators.
 
 The operators are `&&`(and), `||`(or) and `!`(not).
