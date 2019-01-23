@@ -13,18 +13,15 @@ Any conditional statement will always have an expression that evaluates to `true
 
 You'll write a lot of conditional statements on your road to programmer stardom. Although they are fundamentally simple, they are a big source of bugs in your code when something isn't working as expected. Make sure you understand the logic behind the expression being evaluated so you can step through it if you need to.
 
-## Learning Outcomes
-*Look through these now and then use them to test yourself after doing the assignment*
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
 
-  * What is a "boolean"?
-  * What are "truthy" values?
-  * Are nil, 0, "0", "", 1, [], {} and -1 considered true or false?
-  * When do you use elsif?
-  * When do you use unless?
-  * What do || and && and ! do?
-  * What is returned by puts("woah") || true?
-  * What is the ternary operator?
-  * When should you use a case statement?
+ - Describe and list falsy values.
+ - Explain how to use `if`, `elsif`, and `else`.
+ - Explain the difference between `if` and `unless`.
+ - Describe what `||`, `&&`, and `!` do.
+ - Describe what the ternary operator is and how to use it.
+ - Explain what a `case` statement is and how it works.
 
 ## Truthy and Falsy in Ruby
 
@@ -285,7 +282,20 @@ However, if your conditional statements are complicated, then using an if; else 
 
 
 
-## Further Reading
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Launch School's [chapter on flow control](https://launchschool.com/books/ruby/read/flow_control#conditionals) is a good learning resource.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+  * What is a Boolean?
+  * What are "truthy" values?
+  * Are nil, 0, "0", "", 1, [], {} and -1 considered true or false?
+  * When do you use elsif?
+  * When do you use unless?
+  * What do || and && and ! do?
+  * What is returned by puts("woah") || true?
+  * What is the ternary operator?
+  * When should you use a case statement?
