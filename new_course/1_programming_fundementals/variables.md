@@ -83,41 +83,54 @@ can_swim = false
 ```
 
 #### Variables are References
-The information you name with a variable is stored in memory on your computer. So a variable is effectively a reference or a pointer to that address in memory. This can sometimes be the cause of unexpected behaviours from your code.
+The information you name with a variable is stored in memory on your computer, so a variable is effectively a reference or a pointer to that address in memory. This can sometimes be the cause of unexpected behavior from your code.
 
-
-In the following example we have two variables, `desired_location` which is assigned to the string "Barcelona" and `johns_location` which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory.
+In the following example, we have two variables: `desired_location`, which is assigned to the string "Barcelona", and `johns_location`, which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory.
 
 ```ruby
 desired_location = "Barcelona"
 johns_location = desired_location
 
-desired_location #=> "Barcelona"
-johns_location #=> "Barcelona"
+desired_location  # => "Barcelona"
+johns_location    # => "Barcelona"
 ```
 
-This means if we modify the string "Barcelona" it will in turn change the value of both variables.
+Now, if we modify the string that `johns_location` is pointing to, `desired_location` will also reflect that change:
 
 ```ruby
-johns_location.upcase! #=> "BARCELONA"
+johns_location.upcase!  # => "BARCELONA"
 
-desired_location #=> "BARCELONA"
-johns_location #=> "BARCELONA"
+desired_location        # => "BARCELONA"
+johns_location          # => "BARCELONA"
 ```
 
+Assigning variables to other variables can therefore have some unintended side effects. Just because it looks like fun doesn't mean you should do it, too. But you know what is fun? *Reading assignments*!
+
 ### Assignment
-1. Read the [variables chapter](https://launchschool.com/books/ruby/read/variables) from the Launch School's brilliant Introduction to Programming with Ruby Book.
-2. Read through these short, to the point variable lessons by Ruby Monstas
-  * [Overview of Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
-  * [Reusing Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
-  * [Things on the Right go First](http://ruby-for-beginners.rubymonstas.org/variables/right_goes_first.html)  
-3. Open up a [Ruby Repl](https://repl.it/languages/ruby) or IRB in your command line and try naming some variables and assigning some values to them. Don't try at this stage to name good variables but instead experiment with different variable names, run the Repl and see if it's valid. Try using symbols or numbers in your variable names. See what works and what doesn't. If you come across anything quirky, google it to find out why.
+1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*.
+2. Read through these short, to-the-point variable lessons by Ruby Monstas:
+    * [Overview of Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
+    * [Reusing Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
+    * [Things on the Right Go First](http://ruby-for-beginners.rubymonstas.org/variables/right_goes_first.html)
+3. Open up a Ruby [repl.it](https://repl.it/languages/ruby) or use IRB in your command line and try naming some variables and assigning values to them. Don't worry so much about good naming conventions at this stage. Instead, experiment with different variable names and see what is valid. Try using symbols or numbers in your variable names. If you come across anything quirky, Google it to find out why it happened.
 
 
 ### Additional Resources
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-* Read the full [Variables chapter](http://ruby.bastardsbook.com/chapters/variables) from The Bastards Book of Ruby if you can't get enough about variables.
-* To dive deeper into how variables point to memory locations on your computer, go through these couple of short sections:
-  * [Variables as pointers from Introduction To Programming with Ruby by Launch School](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers)
-  * [A visual Guide to how Variables work from the Variables chapter in The Bastards Book of Ruby](http://ruby.bastardsbook.com/chapters/variables/#visual-guide)
-* If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it, just remember that it's there.
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+* Read the full [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter from *The Bastards Book of Ruby* if you can't get enough about variables.
+* To dive deeper into how variables point to memory locations on your computer, go through these short sections:
+  * [Variables as Pointers](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers), from LaunchSchool's *Introduction to Programming With Ruby*.
+  * [A visual guide to variables](http://ruby.bastardsbook.com/chapters/variables/#visual-guide) from the [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter of *The Bastards Book of Ruby*
+* If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it; just know that it's there.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What is a variable?
+* How do you assign a value or an expression to a variable?
+* What does the `+=` assignment operator do?
+* What does the `-=` assignment operator do?
+* What does the `*=` assignment operator do?
+* What does the `\=` assignment operator do?
+* What are the variable naming conventions?
