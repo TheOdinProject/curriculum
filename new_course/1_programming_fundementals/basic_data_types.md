@@ -241,44 +241,40 @@ nil.to_s      #=> ""
 ```
 
 ### Symbols
+Symbols are an interesting twist on the idea of a string. The full explanation can be a bit long, but here's the short version:
 
-Symbols are an interesting twist on the idea of a string. The real explanation can be a bit long, but here's the short version:
+Strings can be changed, so every time a string is used, Ruby has to store it in memory even if an existing string with the same value already exists. Symbols, on the other hand, are stored in memory only once, making them faster in certain situations.
 
-Strings can be changed, so every time a string is used, Ruby has to store it in memory even if an existing string with the same value already exists. Symbols on the other hand are stored in memory once. This makes symbols faster than strings at certain things.
+One common application where symbols are preferred over strings are for the keys in hashes. We'll cover this in detail in the hashes lesson later in the course.
 
-One use for symbols over strings are as keys in hashes. We'll cover this in detail in the hashes lesson later in the course.
-
-You won't need to use symbols much in the beginning, but it's good to get familiar with what they are and what they look like so you can recognise them in Ruby code.
+You won't need to use symbols much in the beginning, but it's good to get familiar with what they are and what they look like so that you can recognize them.
 
 #### Create a Symbol
-To create a symbol simply put a colon at the beginning of some text
+To create a symbol, simply put a colon at the beginning of some text:
 ```
 :my_symbol
 ```
 
-
-
-#### Symbols vs Strings
-To get a better idea of how symbols are stored in memory, give this a whirl in irb or repl.it.
+#### Symbols vs. Strings
+To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-2.6/Object.html#method-i-object_id) returns an integer identifier for an object. (And everything in Ruby is an object!)
 
 ```ruby
-"string" == "string"
-  => true
-"string".object_id == "string".object_id
-  => false
-:symbol.object_id == :symbol.object_id
-  => true
+"string" == "string"  # => true
+
+"string".object_id == "string".object_id  # => false
+
+:symbol.object_id == :symbol.object_id    # => true
 ```
 
+### Booleans
+You will learn about these data types in more detail in the conditional logic lesson later in this course. The goal in this lesson is get a basic understanding of what Booleans are.
 
-### True, false and nil
-You will learn about these data types in more detail in the conditional logic lesson later in this course. Until then it will be beneficial to have a basic understanding of what they are.
+#### True and False
+The Boolean values `true` and `false` represent exactly what you think they do: `true` represents something that is true, and `false` represents something that is false.
 
-#### true and false
-These represent exactly what you think. `true` represents something which is true and `false` represents the opposite.
+#### Nil
+'Nil' represents 'nothing'. Everything in Ruby has a return value. When a piece of code doesn't have anything to return, it will return `nil`. This is pretty abstract, but it will make more sense as you learn and use Ruby more.
 
-#### nil
-Nil represents 'nothing'. Everything in Ruby has a return value. When a piece of code doesn't have anything to return, it will return `nil`. This is pretty abstract but it will make more sense as you learn and use Ruby more in depth.
 
 ### Assignment
 
