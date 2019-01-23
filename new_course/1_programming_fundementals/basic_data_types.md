@@ -278,17 +278,46 @@ The Boolean values `true` and `false` represent exactly what you think they do: 
 
 ### Assignment
 
-1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's Introduction to Programming Book for an different explanation of Ruby's data types.
+1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's *Introduction to Programming With Ruby* for a different explanation of Ruby's data types.
 2. Read through these Ruby Monstas sections about data types:
-  * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-  * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-  * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
-  * [True, False and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
-
+    * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+    * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+    * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+    * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
 
 ### Additional Resources
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* If you want to go deeper into Ruby's numbers and strings data types read these chapters from the Bastards Book of Ruby
-  * [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
-  * [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+* If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
+    * [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
+    * [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* Numbers
+  * What are the basic arithmetic operators you can use on numbers?
+  * What's the difference between an integer and a float?
+  * What method would you use to convert a float to an integer?
+  * What method would you use to convert an integer to a float?
+
+* Strings
+  * What is a string?
+  * What are the differences between single and double quotes?
+  * What is string interpolation?
+  * How do you concatenate strings?
+  * What method would you use to change all the characters in your string to upper case?
+  * What method would you use to _split_ up strings into arrays?
+  * What are escape characters?
+  * How do you access a specific character or substring?
+  * How do you convert other data types into strings?
+
+* Symbols
+  * What is a symbol?
+  * How do you create a symbol?
+  * What's the difference between a symbol and a string?
+
+* Booleans
+  * What does `true` represent?
+  * What does `false` represent?
+  * What does `nil` represent?
