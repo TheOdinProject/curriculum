@@ -1867,6 +1867,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Javier Fernandez 's solution(Easy)](https://github.com/Javfs93/google-homepage) - [View in Browser](https://github.com/Javfs93/google-homepage/blob/master/index.html)
 * [Mantoss PJ's Solution (Easy)](https://pjmantoss.github.io/google-homepage/)
 * [Agustus N Andiyasa's Solution (Easy)] (https://andiyasa.github.io/google-homepage/) - [View in Browser]
+* [bleepblopblorpblopbloop's Solution (Easy)]
+(https://github.com/bleepblopblorpblopbloop/google-homepage) - [View in Browser]
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
