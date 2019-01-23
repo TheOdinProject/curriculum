@@ -1,5 +1,5 @@
-# Conditional Logic
-This lesson is all about controlling the flow of your code. The concept is pretty simple. You have some code that you only want to execute under specific conditions, so you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program...
+### Introduction
+This lesson is all about controlling the flow of your code, which is a pretty simple concept. If you have some code that you want to execute only under specific conditions, then you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Have you ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program:
 
 ```ruby
 if room_tidy == true
@@ -9,9 +9,9 @@ end
 
 There must be a motherboard joke in there somewhere. Answers on a postcard!
 
-Any conditional statement will always have an expression that evaluates to `true` or `false` and on that basis the computer will decide whether to execute the code that follows. If it's true then the code will be processed; false, the code will be skipped, and you can provide some other code to run instead. There can even be several conditional statements on one line, but keep in mind that too many can make code look cluttered.
+Any conditional statement will always have an expression that evaluates to `true` or `false`. Based on this answer, the computer will decide whether or not to execute the code that follows. If it's true, then the code will be processed; if it's false, the code will be skipped, and you can provide some other code that will be run instead. There can even be several conditional statements on one line, but keep in mind that too many can make code look cluttered.
 
-You'll write a lot of conditional statements on your road to programmer stardom. Although they are simple at heart, they are a big source of bugs in your code when something isn't working as expected. Make sure you understand the logic behind the expression being evaluated so you can step through it if you need to.
+You'll write a lot of conditional statements on your road to programmer stardom. Although they are fundamentally simple, they are a big source of bugs in your code when something isn't working as expected. Make sure you understand the logic behind the expression being evaluated so you can step through it if you need to.
 
 ## Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
