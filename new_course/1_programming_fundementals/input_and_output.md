@@ -1,14 +1,11 @@
-<!-- This lesson will cover how to output things to the screen in Ruby and how to get input from the user. -->
-
 ### Introduction
-To create programs that are user friendly and interactive you'll need to know how to **output** data to a screen and how to get **input** from a user. We'll cover the most common ways to achieve these tasks in Ruby programming language during this lesson !
+To create programs that are user friendly and interactive, you'll need to know how to **output** data to a screen and how to get **input** from a user. In this lesson, we'll cover the most common ways to achieve these tasks in Ruby. As with other lessons, and this one in particular, following along in irb or a REPL will be helpful.
 
 ### Learning Outcomes
-* What is the method name you can use to get **input** from the user?
-* What are the two methods we can use to **output** data to the users' screen?
-* What is the basic syntax and use of the input commands: *print*, *puts*, *gets*
-* What is the difference between *puts* and *print* commands?
+By the end of this lesson, you should be able to do the following:
 
+ - Differentiate between the `print` and `puts` commands.
+ - Describe the method used to get input from the user.
 
 ### Output Commands
 * In order to output the information we want we shall use the **print** command !	
