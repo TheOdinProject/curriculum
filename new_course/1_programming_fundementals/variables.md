@@ -8,71 +8,68 @@ By the end of this lesson, you should be able to do the following:
  - Explain what the `+=`, `-=`, `*=`, and `/=` assignment operators do.
  - Describe the naming conventions for variables.
 
-### Declaring a Variable
-This is how you make a variable in Ruby:
+#### Declaring a Variable
+This is how to create a variable in Ruby:
 
 ```ruby
-age = 18 #=> 18
+age = 18 # => 18
 ```
 
-You can also assign a variable's value as the result of an expression.
+You can also assign the result of an expression to a variable.
 
 ```ruby
-age = 18 + 5 #=> 23
+age = 18 + 5 # => 23
 ```
 
-Variables names are reusable, you can assign them to a new value at any point in your program.
-This will override the value that is currently in the variable. Here's an example of that.
+Variable names are reusable, so you assign a new value to a variable at any point in your program. Naturally, doing so will override the original value.
 
 ```ruby
 age = 18
-age #=> 18
+age # => 18
 age = 33
-age #=> 33
+age # => 33
 ```
 
-There will often be scenarios where you will want to do an operation to the original
-value of a variable and reassign that variable to the result of that operation. This
-is how you would do that:
+There will often be scenarios where you want to perform an operation on the original value of a variable and then reassign the result of that operation to the same variable. 
 
 ```ruby
 age = 18
-age #=> 18
+age # => 18
 age = age + 4
-age #=> 22
+age # => 22
 ```
 
-Because this is a common scenario, Ruby provides a nice short hand
-assignment operator for doing this `+=`:
+Because this is a common scenario, Ruby provides a nice shorthand
+assignment operator for doing this: `+=`.
 
 ```ruby
 age = 18
-age += 4 #=> 22
+age += 4 # => 22
 ```
 
-There are assignment operators like this for all the common math operators:
+There are similar assignment operators for all the common math operators:
 
 ```ruby
 age = 18
-age -= 2 #=> 16
+age -= 2  # => 16
 
 cash = 10
-cash *= 2 #=> 20
+cash *= 2 # => 20
 
 temperature = 40
-temperature /= 10 #=> 4
+temperature /= 10 # => 4
 ```
 
-### How to Name Variables
-Ruby is a language which aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, aim to describe what the value of the variable represents.
+#### How to Name Variables
+Ruby is a language that aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, describe what the value of the variable represents.
 
-Naming variables will pay dividends when you review your code months after you've written it, when you can no longer clearly remember what that variable was designed to store. From now on, when naming your variables, remember the following quote by John Woods.
+Naming variables clearly will pay dividends when you review your code months after you've written it, when you can no longer remember what that variable was designed to store. From now on, when naming your variables, remember the following quote by John Woods:
 
 > Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
 
-The most basic thing you can do to write clean, maintainable code is name your variables properly. So get into this habit early to avoid psychopath programmers coming after you.
+The most basic thing you can do to write clean, maintainable code is to name your variables properly. So get into this habit early to avoid psychopath programmers coming after you.
 
-Variable names should always be lowercase and multiple words that make up a variable name should be split by an underscore. This is known as _snake_case_.
+Variable names should always be lowercase, and multiple words that make up a variable name should be split by an underscore. This is known as **snake_case**.
 
 ```ruby
 # bad
@@ -85,7 +82,7 @@ name = "John"
 can_swim = false
 ```
 
-### Variables are References
+#### Variables are References
 The information you name with a variable is stored in memory on your computer. So a variable is effectively a reference or a pointer to that address in memory. This can sometimes be the cause of unexpected behaviours from your code.
 
 
