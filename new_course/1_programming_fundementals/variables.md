@@ -1,15 +1,12 @@
 ### Introduction
-Variables are a way of assigning names to things in your programs. You can think of a variable as a box with a label on it, they store something and have a name so you know what's inside them. This is an imperfect metaphor as you'll see by the end of this lesson but it should help with understanding variables for now.
+Variables are a way of assigning data to names in your programs. You can think of a variable as a box with a label on it: it stores something and has a name so that you know what's inside. This is an imperfect metaphor as you'll see by the end of this lesson, but it should help with understanding variables for now.
 
 ### Learning Outcomes
-*Look through these now and then use them to test yourself after doing the assignment*
+By the end of this lesson, you should be able to do the following:
 
-* What is a variable?
-* How do you assign a value or an expression to a variable?
-* What does the `+=` assignment operator do?
-* What does the `-=` assignment operator do?
-* What does the `*=` assignment operator do?
-* What are the variable naming conventions?
+ - Describe what a variable is and how to assign it a value or expression.
+ - Explain what the `+=`, `-=`, `*=`, and `/=` assignment operators do.
+ - Describe the naming conventions for variables.
 
 ### Declaring a Variable
 This is how you make a variable in Ruby:
