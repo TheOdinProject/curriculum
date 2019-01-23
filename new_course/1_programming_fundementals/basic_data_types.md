@@ -83,150 +83,161 @@ There are many useful methods for numbers built into Ruby. For example,
 ```
 
 ### Strings
-Strings, strings, wonderful things, use them well and your app will grow wings. Or something.
+Strings, strings, wonderful things, use them well and...your app will...grow wings? Or something.
 
-At first glance, you'd be forgiven for thinking strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance of playing Han Solo, you'd be wrong. Very wrong. What were you thinking Burt?
+At first glance, you might think that strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance to play Han Solo, you'd be wrong. Very wrong. What were you thinking, Burt?
 
-From the prep course, you should have a good understanding of strings so we won't bore you to death recapping what you already know. Instead we'll just cover some of the pitfalls and more interesting features and let the reading assignments do the rest.
+From the prep course, you should have a good understanding of strings already, so we won't bore you to death recapping what you already know. Instead, we'll just cover some of the pitfalls and more interesting features here and let the reading assignments do the rest.
 
-#### double and single quotes in strings
-Strings can be formed with either double `""` or single`''` quotes. They are pretty similar but there are some differences.
-
-#### Interpolation
-Use double quotes for string interpolation.
-
-  ```ruby
-  name = "Odin"
-  puts "Hello, #{name}" #=> "Hello, Odin"
-  puts 'Hello, #{name}' #=> "Hello, #{name}"
-  ```
+#### Double and Single Quotation Marks
+Strings can be formed with either double `""` or single`''` quotation marks, also known as *string literals*. They are pretty similar, but there are some differences. First, the escape characters that we'll discuss soon work only inside double quotation marks, not single quotation marks. Second, string interpolation also works only inside double quotation marks.
 
 #### Concatenation
 In true Ruby style, there are plenty of ways to concatenate strings.
 
 ```ruby
-# with the plus operator
-"Welcome " + "to " + "Odin!" #=> "Welcome to Odin!"
+# With the plus operator:
+"Welcome " + "to " + "Odin!"    # => "Welcome to Odin!"
 
-# with the shovel operator
-"Welcome " << "to " << "Odin!" # "Welcome to Odin!"
+# With the shovel operator:
+"Welcome " << "to " << "Odin!"  # => "Welcome to Odin!"
 
-# with the concat method
-"Welcome ".concat("to ").concat("Odin!") #=> "Welcome to Odin!"
+# With the concat method:
+"Welcome ".concat("to ").concat("Odin!")  # => "Welcome to Odin!"
 ```
 Classic Ruby!
 
-#### Common string methods
-There are a lot of useful methods you can use that are built into Ruby. Someone needs you to capitalize a word? No problem! Reverse a string? Not all heroes wear capes. Extract the binary subatomic algorithm from any regex grep? Errrrrrrrr, yeah totally.
+#### Substrings
+You can access strings inside strings inside strings. Stringception! It's super easy, too.
 
-Just remember, strings have loads of methods provided to you for free and you can find them all in the [Ruby docs](ruby-doc.org/core-2.4.0/String.html). If you're working with strings and need to do something, check the Ruby Docs first and see if there is one that does it for you.
-
-Below is a quick recap on the more common methods you might find yourself using. Feel free to follow along to these in irb or [repl.it](https://repl.it/languages/ruby) to get a feel for them.
-
-**capitalize**
 ```ruby
-"hello".capitalize #=> "Hello"
+"hello"[0]      # => "h"
+
+"hello"[0..1]   # => "he"
+
+"hello"[0, 4]   # => "hell"
+
+"hello"[-1]     # => "o"
+
+"hello dude"[6,10][0..2]  #=> "dud" I have no idea why you'd want to do this, but you can!
 ```
 
-**include?**
-```ruby
-"hello".include?("lo") #=> true
+#### Escape characters
+Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidently ending it. As a reminder, escape characters only work inside double quotation marks.
 
-"hello".include?("z") #=> false
+```ruby
+\\  # => Need a backslash in your string?
+\b  # => Backspace
+\r  # => Carriage return, for those of you that love typewriters
+\n  # => Newline. You'll likely use this one the most.
+\s  # => Space
+\t  # => Tab
+\"  # => Double quotation mark
+\'  # => Single quotation mark
+```
+The best thing to do is play around with them in irb or a REPL.
+
+```ruby
+irb(main):001:0> puts "Hello \n\nHello"
+Hello
+
+Hello
+=> nil
 ```
 
-**upcase**
+#### Interpolation
+Be sure to use double quotes for string interpolation.
+
 ```ruby
-"hello".upcase #=> "HELLO"
-```
-**downcase**
-```ruby
-"Hello".downcase #=> "hello"
+name = "Odin"
+
+puts "Hello, #{name}" # => "Hello, Odin"
+puts 'Hello, #{name}' # => "Hello, #{name}"
 ```
 
-**empty?**
-```ruby
-"hello".empty? #=> false
+#### Common String Methods
+There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy-peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
 
-"".empty? #=> true
+Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](ruby-doc.org/core-2.6.0/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
+
+Below is a quick recap of the more common string methods you might find yourself using. Feel free to follow along with these in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a feel for them.
+
+**#capitalize**
+```ruby
+"hello".capitalize # => "Hello"
 ```
 
-**length**
+**#include?**
 ```ruby
-"hello".length #=> 5
+"hello".include?("lo")  # => true
+
+"hello".include?("z")   # => false
 ```
 
-**reverse**
+**#upcase**
 ```ruby
-"hello".reverse #=> "olleh"
+"hello".upcase  # => "HELLO"
 ```
 
-**split**
+**#downcase**
 ```ruby
-"hello world".split #=> ["hello", "world"]
+"Hello".downcase  # => "hello"
 ```
-**strip**
+
+**#empty?**
+```ruby
+"hello".empty?  # => false
+
+"".empty?       # => true
+```
+
+**#length**
+```ruby
+"hello".length  # => 5
+```
+
+**#reverse**
+```ruby
+"hello".reverse  # => "olleh"
+```
+
+**#split**
+```ruby
+"hello world".split  # => ["hello", "world"]
+
+"hello".split("") # => ["h", "e", "l", "l", "o"]
+```
+
+**#strip**
 ```ruby
 " hello, world   ".strip  #=> "hello, world"
 ```
 
-#### Substrings
-You can access strings inside strings inside strings. Stringception! It's super easy too.
+You'll read more about these methods and others in the assignment. The examples below are just to get your creative juices flowing with some of the awesome ways you can modify strings.
 
 ```ruby
-"hello"[0] #=> "h"
+"he77o".sub("7", "l")          #=> "hel7o"
 
-"hello"[0..1] #=> "he"
+"he77o".gsub("7", "l")         #=> "hello"
 
-"hello"[0, 4] #=> "hell"
+"hello".insert(-1, " dude")    #=> "hello dude"
 
-"hello"[-1] #=> "o"
+"hello".split("")              #=> ["h", "e", "l", "l", "o"]
 
-"hello dude"[0,5][1..3] #=> "ell". I have no idea why you'd want to do this, but you can!
+"!".prepend("hello, ", "world") #=> "hello, world!"
 ```
 
-#### Escape Characters
-Hopefully these are self explanatory. Use them if you need them in your code. There may be some gotchas with single quotes so use double quotes to be safe.
-
-```ruby
-\\ #=> Need a backslash in your string?
-\b #=> Backspace
-\r #=> Carriage return, For you oldies that love typewriters
-\n #=> Newline. You'll use this one.
-\s #=> Space
-\t #=> Tab
-\" #=> Double Quote
-\' #=> Single Quote
-```
-The best thing to do is play around with them in a Repl.
-
-
-#### String Manipulation
-You'll read about these in the assignments. So I'll just leave some examples to get your creative juices flowing  thinking about some awesome ways to actually modify strings.
-
-```ruby
-"he77o".sub("7", "l") #=> "hel7o"
-
-"he77o".gsub("7", "l") #=> "hello"
-
-"hello".insert(-1, " dude") #=> "hello dude"
-
-"hello".split("") #=> ["h", "e", "l", "l", "o"]
-
-"!".prepend("hello ", "world") #=> "hello, world!"
-```
-
-The assignments will go deeper and clarify more than I have, so go through them and be sure to play around in a Repl.
+The assignments will go much deeper, so go through them thoroughly and be sure to play around in a REPL as you read.
 
 #### Converting other objects to strings
-Using the `to_s` method, you can convert pretty much anything to a string, here are some examples:
+Using the `to_s` method, you can convert pretty much anything to a string. Here are some examples:
 
 ```ruby
-5.to_s #=> "5"
+5.to_s        #=> "5"
 
-nil.to_s #=> ""
+nil.to_s      #=> ""
 
-:symbol.to_s #=> "symbol"
+:symbol.to_s  #=> "symbol"
 ```
 
 ### Symbols
