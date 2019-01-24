@@ -28,9 +28,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
 * Add your solution below this line!
+* [Loumarven's solution](https://github.com/loumarven/learn_ruby)
+* [Learnsometing's solution](https://github.com/learnsometing/learn_ruby)
 * [Tommy's solution](https://github.com/Tommyisr/learn_ruby)
 * [Origier's solution](https://github.com/Origier/learn_ruby)
 * [Akbar's solution](https://github.com/donatelloraphael/learn_ruby)
+* [Germán Gutiérrez' solution](https://github.com/sggutier/learn_ruby)
 * [Eddy's solution](https://github.com/sudo-eddy/ruby-TDD)
 * [Bojo's Solution](https://github.com/BojoZahariev/learn_ruby)
 * [WormCrew's Solution](https://github.com/wormcrew/learn_ruby)
@@ -476,6 +479,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jahmzu's solution](https://github.com/jahmzu/learn_ruby)
 * [Mohamed's Solution](https://github.com/mohamedcutte/learn_ruby)
 * [GustavoRdz's solution](https://github.com/GustavoRdz/learn_ruby)
+* [Gregory's solution](https://github.com/Selvdrap/learn_ruby)
+* [Valentino Valenti's Solution](https://github.com/1ba1/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -14,7 +14,7 @@ When the user selects one of these characters, you should check with your Rails 
 
 Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score).  Once a round is complete, ask the user for his/her name and record that time.  This will get a bit tricky since you'll have annonymous users you need to keep track of!
 
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) if you need help.
 1. Think about what you'll need to do to get this all working together.  This is where it's really helpful to think it completely through on paper or whiteboard ahead of time!  A few minutes of thought can save you from wasting an hour of coding.
 2. Create a new Rails application with just the bare bones required to load your HTML page for now.
 2. Build the front end functionality without actually using any calls to the back end yet.  Specifically, that means creating the Javascript functionality which pops the targeting box and dropdown menu on the screen when the user clicks on the photo and removes it when the user clicks away.
@@ -33,6 +33,7 @@ Keep track of how long it takes between when the photo is first loaded and when 
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/js-rails/project_rails_backend.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 * Add your solution below this line!
+* [Max Garber's solution](https://github.com/bubblebooy/waldo) - [View in browser](https://guarded-citadel-26034.herokuapp.com/)
 * [brxck's solution](https://github.com/brxck/odin-waldo) - [View in browser](https://pure-springs-85665.herokuapp.com/)
 * [theghall's solution - API](https://github.com/theghall/odin-phototag-api) - [APP](https://github.com/theghall/odin-phototag-app) - [View in browser](https://theghall.github.io/odin-phototag-app/)
 * [Phil's solution](https://github.com/pip36/wheres_wally) - [View in browser](https://floating-everglades-97160.herokuapp.com/)

@@ -345,7 +345,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Edward Heath's solution](https://github.com/EdwardHeath/blogger) - [View in browser](https://intense-garden-85310.herokuapp.com/)
 * [Leila Alderman's solution](https://github.com/leila-alderman/blogger_2) - [View in browser](https://protected-escarpment-33970.herokuapp.com/)
 * [Mohamed's Solution](https://github.com/mohamedcutte/blogger) - [View in browser](https://blogger-app-234.herokuapp.com/)
-
+* [tnharvey's Solution](https://github.com/tnharvey/blogger) - [View in browser](https://glacial-cove-80421.herokuapp.com)
+* [Abdirahman's solution](https://github.com/Murabac/rails-blog) - [View in browser](https://murabac-blogger.herokuapp.com/authors/new)
+* [GustavoRdz's solution](https://github.com/GustavoRdz/Blogger-odin.git)
+* [Vitaly Osipov's solution](https://github.com/vi7ali/blogger) - [View in browser](https://immense-cliffs-79678.herokuapp.com/)
+* [Valentino Valenti's Solution](https://github.com/1ba1/blogger) - [View in browser](https://mighty-atoll-63629.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
