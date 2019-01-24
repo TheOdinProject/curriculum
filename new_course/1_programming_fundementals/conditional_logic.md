@@ -1,4 +1,4 @@
-# Conditional Logic
+### Conditional Logic
 This lesson is all about controlling the flow of your code. The concept is pretty simple. You have some code that you only want to execute under specific conditions, so you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program...
 
 ```ruby
@@ -13,7 +13,7 @@ Any conditional statement will always have an expression that evaluates to `true
 
 You'll write a lot of conditional statements on your road to programmer stardom. Although they are simple at heart, they are a big source of bugs in your code when something isn't working as expected. Make sure you understand the logic behind the expression being evaluated so you can step through it if you need to.
 
-## Learning Outcomes
+### Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
   * What is a "boolean"?
@@ -26,11 +26,11 @@ You'll write a lot of conditional statements on your road to programmer stardom.
   * What is the ternary operator?
   * When should you use a case statement?
 
-## Truthy and Falsy in Ruby
+#### Truthy and Falsy in Ruby
 
 You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages you might be familiar with the number 0 or an empty string "" being equivalent to false. This isn't the case with Ruby so be careful when writing those expressions or you'll have more bugs than a decomposing body.
 
-## Basic Conditional Statement
+#### Basic Conditional Statement
 The simplest way to control the flow of your code using conditions is with the `if` statement.
 
 The general syntax is:
@@ -56,7 +56,7 @@ You don't even need the `end` statement. Nice and concise!
 
 The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
-## Branching in if Statements
+#### Branching in if Statements
 Often you'll want to check a condition and run some code if it's true, but if it's false then run some other code. That's done with an `else` statement.
 
 ```ruby
@@ -85,7 +85,7 @@ Ain't nobody pillaging my land!
 
 You can have as many `elsif` expressions as you want. The `else` clause is optional but you usually want to provide some default value in case none of the previous expressions evaluate to true.
 
-## Boolean Logic
+#### Boolean Logic
 To use an expression that evaluates to `true` or `false` you'll need a comparison operator. There are several provided by Ruby and in no particular order they are:
 
 `==` (equals) returns true if the values compared are equal.
@@ -150,7 +150,7 @@ This happens because computers can't store strings efficiently in the same way a
 
 All of the above operators also work on data types other than numbers, such as strings. Why not have a play around in a repl?
 
-## Logical Operators
+#### Logical Operators
 Sometimes you'll want to write an expression that contains more than one condition. That's accomplished in Ruby with logical operators.
 
 The operators are `&&` (and), `||` (or) and `!` (not).
@@ -195,7 +195,7 @@ if !false     #=> true
 if !(10 < 5)  #=> true
 ```
 
-## Case Statements
+#### Case Statements
 Case statements are a neat way of writing several conditional expressions that would normally result in a messy `if..elsif` statement. You can even assign the return value from a case statement to a variable for use later.
 
 Case statements will process each condition in turn, and if the condition returns false it will move onto the next one until a match is found. An else clause can be provided to serve as a default if no match is found.
@@ -231,7 +231,7 @@ else
 end
 ```
 
-## Unless statement
+#### Unless statement
 The `unless` statement works in the opposite way to the `if` statement in that it only processes the code in the block if the expression evaluates to false. There isn't much more to it.
 
 ```ruby
@@ -256,7 +256,7 @@ end
 
 You should use the unless statement when you want to **not** do something if a condition is true, because it can make your code more readable than using `if !true`.
 
-## Ternary operator
+#### Ternary operator
 The ternary operator is a one line `if..else` statement which can make your code much more concise.
 
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
@@ -285,7 +285,7 @@ However, if your conditional statements are complicated, then using an `if..else
 
 
 
-## Further Reading
+### Further Reading
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * Launch School's [chapter on flow control](https://launchschool.com/books/ruby/read/flow_control#conditionals) is a good learning resource.
