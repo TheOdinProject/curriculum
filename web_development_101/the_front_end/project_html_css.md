@@ -1868,6 +1868,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mantoss PJ's Solution (Easy)](https://pjmantoss.github.io/google-homepage/)
 * [Agustus N Andiyasa's Solution (Easy)] - [View in Browser](https://andiyasa.github.io/google-homepage/)
 * [bleepblopblorpblopbloop's Solution (Easy)](https://github.com/bleepblopblorpblopbloop/google-homepage)
+* [Ankit Shaw's Solution (Easy)](https://github.com/phyxius3/google-homepage) - [View in Browswer](https://phyxius3.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
