@@ -9,7 +9,7 @@ end
 
 There must be a motherboard joke in there somewhere. Answers on a postcard!
 
-Any conditional statement will always have an expression that evaluates to `true` or `false` and on that basis the computer will decide whether to execute the code that follows. If it's true then the code will be processed; false, the code will be skipped, and you can provide some other code to run instead. There can even be several conditional statements on one line, but keep in mind that too many can make code look cluttered.
+Any conditional statement will always have an expression that evaluates to `true` or `false` and on that basis the computer will decide whether to execute the code that follows. If it's true then the code will be processed; if false, the code will be skipped, and you can provide some other code to run instead. There can even be several conditional statements on one line, but keep in mind that too many can make code look cluttered.
 
 You'll write a lot of conditional statements on your road to programmer stardom. Although they are simple at heart, they are a big source of bugs in your code when something isn't working as expected. Make sure you understand the logic behind the expression being evaluated so you can step through it if you need to.
 
@@ -19,10 +19,10 @@ You'll write a lot of conditional statements on your road to programmer stardom.
   * What is a "boolean"?
   * What are "truthy" values?
   * Are nil, 0, "0", "", 1, [], {} and -1 considered true or false?
-  * When do you use elsif?
-  * When do you use unless?
-  * What do || and && and ! do?
-  * What is returned by puts("woah") || true?
+  * When do you use `elsif`?
+  * When do you use `unless`?
+  * What do `||` and `&&` and `!` do?
+  * What is returned by `puts("woah") || true`?
   * What is the ternary operator?
   * When should you use a case statement?
 
@@ -57,7 +57,7 @@ You don't even need the `end` statement. Nice and concise!
 The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
 ## Branching in if Statements
-Often you'll want to check a condition and run some code if it's true, but if it's false then run some other code. That's done with an `if; else` statement.
+Often you'll want to check a condition and run some code if it's true, but if it's false then run some other code. That's done with an `else` statement.
 
 ```ruby
 if attack_by_land == true
@@ -69,7 +69,7 @@ end
 
 Oh yeah! Protected on land and sea.
 
-But what about if we're attacked by air? We need yet another conditional check. Enter the `if; elsif; else` statement.
+But what about if we're attacked by air? We need yet another conditional check. Enter the `elsif` statement.
 
 ```ruby
 if attack_by_land == true
@@ -83,54 +83,54 @@ end
 
 Ain't nobody pillaging my land!
 
-You can have as many elsif expressions as you want. The else clause is optional but you usually want to provide some default value in case none of the previous expressions evaluate to true.
+You can have as many `elsif` expressions as you want. The `else` clause is optional but you usually want to provide some default value in case none of the previous expressions evaluate to true.
 
 ## Boolean Logic
-To use an expression that evaluates to true or false you'll need a comparison operator. There are several provided by Ruby and in no particular order they are:
+To use an expression that evaluates to `true` or `false` you'll need a comparison operator. There are several provided by Ruby and in no particular order they are:
 
-`==`(equals) returns true if the values compared are equal.
+`==` (equals) returns true if the values compared are equal.
 ```ruby
 5 == 5 #=> true
 5 == 6 #=> false
 ```
 
-`!=`(not equal) returns true if the values compared are not equal.
+`!=` (not equal) returns true if the values compared are not equal.
 ```ruby
 5 != 7 #=> true
 5 != 5 #=> false
 ```
 
-`>`(greater than) returns true if the value on the left of the operator is larger than the value on the right.
+`>` (greater than) returns true if the value on the left of the operator is larger than the value on the right.
 ```ruby
 7 > 5 #=> true
 5 > 7 #=> false
 ```
 
-`<`(less than) returns true if the value on the left of the operator is smaller than the value on the right.
+`<` (less than) returns true if the value on the left of the operator is smaller than the value on the right.
 ```ruby
 5 < 7 #=> true
 7 > 5 #=> false
 ```
 
-`>=`(greater than or equal to) returns true if the value on the left of the operator is larger than or equal to the value on the right.
+`>=` (greater than or equal to) returns true if the value on the left of the operator is larger than or equal to the value on the right.
 ```ruby
 7 >= 7 #=> true
 7 >= 5 #=> false
 ```
 
-`<=`(less than or equal to) returns true if the value on the left of the operator is smaller than or equal to the value on the right.
+`<=` (less than or equal to) returns true if the value on the left of the operator is smaller than or equal to the value on the right.
 ```ruby
 5 <= 5 #=> true
 5 <= 7 #=> false
 ```
 
-`.eql?` checks both the value type and actual value it holds.
+`#eql?` checks both the value type and actual value it holds.
 ```ruby
-5.eql?(5.0) #=> false #=>although they are the same value, one is an integer and one is a float
-5.eql?(5) #=> true
+5.eql?(5.0) #=> false #=> although they are the same value, one is an integer and one is a float
+5.eql?(5)   #=> true
 ```
 
-`.equal?` checks whether both values are the exact same object in memory. This can be slightly confusing because of the way computers store some values for efficiency. Two variables pointing to the same number will usually always return true.
+`#equal?` checks whether both values are the exact same object in memory. This can be slightly confusing because of the way computers store some values for efficiency. Two variables pointing to the same number will usually always return true.
 
 ```ruby
 a = 5
@@ -153,7 +153,7 @@ All of the above operators also work on data types other than numbers, such as s
 ## Logical Operators
 Sometimes you'll want to write an expression that contains more than one condition. That's accomplished in Ruby with logical operators.
 
-The operators are `&&`(and), `||`(or) and `!`(not).
+The operators are `&&` (and), `||` (or) and `!` (not).
 
 There are some differences between the word versions and their symbolic equivalents, particularly the way they evaluate code. I recommend you read [this piece](http://www.virtuouscode.com/2010/08/02/using-and-and-or-in-ruby/) that will explain the differences.
 
@@ -165,7 +165,7 @@ if 1 < 2 && 5 < 6
 end
 
 # This can also be written as
-if 1 < 2 and 5 < 6
+puts "Party at Kevins" if 1 < 2 and 5 < 6
 ```
 
 One thing to keep in mind with the `&&` and `||` is the order of logic. The expressions are evaluated from left to right.
@@ -182,7 +182,7 @@ if 10 < 2 || 5 < 6 #=> although the left expression is false, there is a party a
 end
 
 # This can also be written as
-if 10 < 2 or 5 < 6
+puts "Party at Kevins" if 10 < 2 or 5 < 6
 ```
 
 The `!` operator reverses the logic of the expression. Therefore if the expression itself returns false, using the `!` operator makes the expression true and the code inside the block will be executed.
@@ -190,13 +190,13 @@ The `!` operator reverses the logic of the expression. Therefore if the expressi
 Some examples are
 
 ```ruby
-if !false #=> true
+if !false     #=> true
 
-if !(10 < 5) #=> true
+if !(10 < 5)  #=> true
 ```
 
 ## Case Statements
-Case statements are a neat way of writing several conditional expressions that would normally result in a messy if; elsif statement. You can even assign the return value from a case statement to a variable for use later.
+Case statements are a neat way of writing several conditional expressions that would normally result in a messy `if..elsif` statement. You can even assign the return value from a case statement to a variable for use later.
 
 Case statements will process each condition in turn, and if the condition returns false it will move onto the next one until a match is found. An else clause can be provided to serve as a default if no match is found.
 
@@ -232,7 +232,7 @@ end
 ```
 
 ## Unless statement
-The unless statement works in the opposite way to the if statement in that it only processes the code in the block if the expression evaluates to false. There isn't much more to it.
+The `unless` statement works in the opposite way to the `if` statement in that it only processes the code in the block if the expression evaluates to false. There isn't much more to it.
 
 ```ruby
 age = 18
@@ -257,7 +257,7 @@ end
 You should use the unless statement when you want to **not** do something if a condition is true, because it can make your code more readable than using `if !true`.
 
 ## Ternary operator
-The ternary operator is a one line if; else statement which can make your code much more concise.
+The ternary operator is a one line `if..else` statement which can make your code much more concise.
 
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
 
@@ -269,7 +269,7 @@ puts response #=> "You're all grown up"
 
 Here, because the expression evaluated to false it was the code after the `:` that was assigned to the variable `response`.
 
-To write this as an if; else statement would be much more verbose
+To write this as an `if..else` statement would be much more verbose:
 
 ```ruby
 age = 18
@@ -278,10 +278,10 @@ if age < 17
 else
   response = "You're all grown up"
 end
-puts response
+puts response #=> "You're all grown up"
 ```
 
-However, if your conditional statements are complicated, then using an if; else statement would probably make more sense. Remember, **above all else your code needs to be readable and understandable by other people**, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
+However, if your conditional statements are complicated, then using an `if..else` statement would probably make more sense. Remember, **above all else your code needs to be readable and understandable by other people**, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
 
 
 
