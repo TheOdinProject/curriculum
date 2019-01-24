@@ -461,6 +461,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [antdricot's console solution](https://github.com/antdricot/odin-rock-paper-scissors)
 - [cvillere console solution](https://github.com/cvillere/rock_p_s)
 - [George Robert's console solution](https://github.com/robertsGeorge/rock-paper-scissors)
+- [Willie's Console Solution](https://github.com/wjone005/Rock-Paper-Scissors) - [View in Browser](https://wjone005.github.io/Rock-Paper-Scissors/)
 - [Ange's Solution](https://pekengduck.github.io/rock_paper_scissors/)
 - [Koullara's Solution](https://koullaras.github.io/rock-paper-scissors/)
 - [Diego's Console and Interface Solution](https://github.com/dandradec98/rock-paper-scissors) - [View in Browser](https://dandradec98.github.io/rock-paper-scissors/)
