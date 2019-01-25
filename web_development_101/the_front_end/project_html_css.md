@@ -1871,6 +1871,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ankit Shaw's Solution (Easy)](https://github.com/phyxius3/google-homepage) - [View in Browswer](https://phyxius3.github.io/google-homepage/)
 * [Jessica Stone's Solution (Easy)](https://github.com/seaweeddol/google-homepage) - [View in Browswer](https://seaweeddol.github.io/google-homepage/)
 * [Jessica Stone's Solution (Difficult)](https://github.com/seaweeddol/google-searchResults-page) - [View in Browswer](https://seaweeddol.github.io/google-searchResults-page/)
+*[Paul Fleischer-Djoleto's Solution (Easy)] (https://github.com/Djisu/google-homepage) - [View in browser]
+(https://github.com/Djisu/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
