@@ -142,6 +142,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex's solution](https://github.com/alexcorremans/binary_search_tree)
 * [Tommy's solution](https://github.com/hoangtommy/dataStructures-Algorithms)
 * [Emil Dimitrov's solution](https://github.com/imemdm/searching-binary-trees)
+* [Leila Alderman's solution](https://github.com/leila-alderman/binary-tree)
 
 ### Project 2: Knight's Travails
 
