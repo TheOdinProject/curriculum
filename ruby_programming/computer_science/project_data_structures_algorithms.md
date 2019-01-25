@@ -298,6 +298,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's Solution](https://github.com/AREEBAISHTIAQ/knight-travails/blob/master/knight-travails.rb)
 * [Alex's solution](https://github.com/alexcorremans/knight)
 * [Emil Dimitrov's solution](https://github.com/imemdm/knight-moves)
+* [Leila Alderman's solution](https://github.com/leila-alderman/knight_moves)
 
 
 ### Additional Resources
