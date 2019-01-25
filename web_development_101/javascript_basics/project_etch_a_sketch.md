@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 <<<<<<< HEAD
-* [Christian Mason](https://github.com/ChristianMMason/etch-a-sketch) - [View in browser](https://christianmmason.github.io/etch-a-sketch/)
+* [Christian Mason's Solution](https://github.com/ChristianMMason/etch-a-sketch) - [View in browser](https://christianmmason.github.io/etch-a-sketch/)
 =======
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/etch-a-sketch) - [View in browser](https://braxtonlemmon.github.io/etch-a-sketch/)
 * [Shruti Jain's Solution](https://github.com/Sjain020188/Etch-a-sketch) - [View in browser](https://sjain020188.github.io/Etch-a-sketch/index.html)
