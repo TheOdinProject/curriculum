@@ -12,31 +12,31 @@ By the end of this lesson, you should be able to do the following:
 This is how to create a variable in Ruby:
 
 ```ruby
-age = 18 # => 18
+age = 18 #=> 18
 ```
 
 You can also assign the result of an expression to a variable.
 
 ```ruby
-age = 18 + 5 # => 23
+age = 18 + 5 #=> 23
 ```
 
 Variable names are reusable, so you assign a new value to a variable at any point in your program. Naturally, doing so will override the original value.
 
 ```ruby
 age = 18
-age # => 18
+age #=> 18
 age = 33
-age # => 33
+age #=> 33
 ```
 
 There will often be scenarios where you want to perform an operation on the original value of a variable and then reassign the result of that operation to the same variable. 
 
 ```ruby
 age = 18
-age # => 18
+age #=> 18
 age = age + 4
-age # => 22
+age #=> 22
 ```
 
 Because this is a common scenario, Ruby provides a nice shorthand
@@ -44,20 +44,20 @@ assignment operator for doing this: `+=`.
 
 ```ruby
 age = 18
-age += 4 # => 22
+age += 4 #=> 22
 ```
 
 There are similar assignment operators for all the common math operators:
 
 ```ruby
 age = 18
-age -= 2  # => 16
+age -= 2  #=> 16
 
 cash = 10
-cash *= 2 # => 20
+cash *= 2 #=> 20
 
 temperature = 40
-temperature /= 10 # => 4
+temperature /= 10 #=> 4
 ```
 
 #### How to Name Variables
@@ -91,17 +91,17 @@ In the following example, we have two variables: `desired_location`, which is as
 desired_location = "Barcelona"
 johns_location = desired_location
 
-desired_location  # => "Barcelona"
-johns_location    # => "Barcelona"
+desired_location  #=> "Barcelona"
+johns_location    #=> "Barcelona"
 ```
 
 Now, if we modify the string that `johns_location` is pointing to, `desired_location` will also reflect that change:
 
 ```ruby
-johns_location.upcase!  # => "BARCELONA"
+johns_location.upcase!  #=> "BARCELONA"
 
-desired_location        # => "BARCELONA"
-johns_location          # => "BARCELONA"
+desired_location        #=> "BARCELONA"
+johns_location          #=> "BARCELONA"
 ```
 
 Assigning variables to other variables can therefore have some unintended side effects. Just because it looks like fun doesn't mean you should do it, too. But you know what is fun? *Reading assignments*!

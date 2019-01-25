@@ -18,24 +18,24 @@ metaphors here. Ruby has all the typical math operators you would expect:
 
 ```ruby
 # Addition
-1 + 1   # => 2
+1 + 1   #=> 2
 
 # Subtraction
-2 - 1   # => 1
+2 - 1   #=> 1
 
 # Multiplication
-2 * 2   # => 4
+2 * 2   #=> 4
 
 # Division
-10 / 5  # => 2
+10 / 5  #=> 2
 
 # Exponent
-2 ** 2  # => 4
-3 ** 4  # => 81
+2 ** 2  #=> 4
+3 ** 4  #=> 81
 
 # Modulus (find the remainder of division)
-8 % 2   # => 0  (8 / 2 = 4; no remainder)
-10 % 4  # => 2  (10 / 4 = 2 with a remainder of 2)
+8 % 2   #=> 0  (8 / 2 = 4; no remainder)
+10 % 4  #=> 2  (10 / 4 = 2 with a remainder of 2)
 ```
 
 #### Integers and Floats
@@ -44,13 +44,13 @@ There are two main types of numbers in Ruby. **Integers** are whole numbers, suc
 It's important to keep in mind that when doing arithmetic with two integers in Ruby, *the result will always be an integer*.
 
 ```ruby
-17 / 5    # => 3, not 3.4
+17 / 5    #=> 3, not 3.4
 ```
 
 To obtain an accurate answer, just replace one of the integers in the expression with a float.
 
 ```ruby
-17 / 5.0  # => 3.4
+17 / 5.0  #=> 3.4
 ```
 
 #### Converting Number Types
@@ -58,11 +58,11 @@ Ruby makes it very easy to convert floats to integers and vice versa.
 
 ```ruby
 # To convert an integer to a float:
-13.to_f   # => 13.0
+13.to_f   #=> 13.0
 
 # To convert a float to an integer:
-13.0.to_i # => 13
-13.9.to_i # => 13
+13.0.to_i #=> 13
+13.9.to_i #=> 13
 ```
 
 As shown in the last example above, when Ruby converts a float to an integer, the decimal places are simply cut off. Ruby doesn't do any rounding in this conversion.
@@ -72,14 +72,14 @@ There are many useful methods for numbers built into Ruby. For example,
 
 **#even?**
 ```ruby
-6.even? # => true
-7.even? # => false
+6.even? #=> true
+7.even? #=> false
 ```
 
 **#odd?**
 ```ruby
-6.odd? # => false
-7.odd? # => true
+6.odd? #=> false
+7.odd? #=> true
 ```
 
 ### Strings
@@ -97,13 +97,13 @@ In true Ruby style, there are plenty of ways to concatenate strings.
 
 ```ruby
 # With the plus operator:
-"Welcome " + "to " + "Odin!"    # => "Welcome to Odin!"
+"Welcome " + "to " + "Odin!"    #=> "Welcome to Odin!"
 
 # With the shovel operator:
-"Welcome " << "to " << "Odin!"  # => "Welcome to Odin!"
+"Welcome " << "to " << "Odin!"  #=> "Welcome to Odin!"
 
 # With the concat method:
-"Welcome ".concat("to ").concat("Odin!")  # => "Welcome to Odin!"
+"Welcome ".concat("to ").concat("Odin!")  #=> "Welcome to Odin!"
 ```
 Classic Ruby!
 
@@ -111,13 +111,13 @@ Classic Ruby!
 You can access strings inside strings inside strings. Stringception! It's super easy, too.
 
 ```ruby
-"hello"[0]      # => "h"
+"hello"[0]      #=> "h"
 
-"hello"[0..1]   # => "he"
+"hello"[0..1]   #=> "he"
 
-"hello"[0, 4]   # => "hell"
+"hello"[0, 4]   #=> "hell"
 
-"hello"[-1]     # => "o"
+"hello"[-1]     #=> "o"
 
 "hello dude"[6,10][0..2]  #=> "dud" I have no idea why you'd want to do this, but you can!
 ```
@@ -126,14 +126,14 @@ You can access strings inside strings inside strings. Stringception! It's super 
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidently ending it. As a reminder, escape characters only work inside double quotation marks.
 
 ```ruby
-\\  # => Need a backslash in your string?
-\b  # => Backspace
-\r  # => Carriage return, for those of you that love typewriters
-\n  # => Newline. You'll likely use this one the most.
-\s  # => Space
-\t  # => Tab
-\"  # => Double quotation mark
-\'  # => Single quotation mark
+\\  #=> Need a backslash in your string?
+\b  #=> Backspace
+\r  #=> Carriage return, for those of you that love typewriters
+\n  #=> Newline. You'll likely use this one the most.
+\s  #=> Space
+\t  #=> Tab
+\"  #=> Double quotation mark
+\'  #=> Single quotation mark
 ```
 The best thing to do is play around with them in irb or a REPL.
 
@@ -151,8 +151,8 @@ Be sure to use double quotes for string interpolation.
 ```ruby
 name = "Odin"
 
-puts "Hello, #{name}" # => "Hello, Odin"
-puts 'Hello, #{name}' # => "Hello, #{name}"
+puts "Hello, #{name}" #=> "Hello, Odin"
+puts 'Hello, #{name}' #=> "Hello, #{name}"
 ```
 
 #### Common String Methods
@@ -164,48 +164,48 @@ Below is a quick recap of the more common string methods you might find yourself
 
 **#capitalize**
 ```ruby
-"hello".capitalize # => "Hello"
+"hello".capitalize #=> "Hello"
 ```
 
 **#include?**
 ```ruby
-"hello".include?("lo")  # => true
+"hello".include?("lo")  #=> true
 
-"hello".include?("z")   # => false
+"hello".include?("z")   #=> false
 ```
 
 **#upcase**
 ```ruby
-"hello".upcase  # => "HELLO"
+"hello".upcase  #=> "HELLO"
 ```
 
 **#downcase**
 ```ruby
-"Hello".downcase  # => "hello"
+"Hello".downcase  #=> "hello"
 ```
 
 **#empty?**
 ```ruby
-"hello".empty?  # => false
+"hello".empty?  #=> false
 
-"".empty?       # => true
+"".empty?       #=> true
 ```
 
 **#length**
 ```ruby
-"hello".length  # => 5
+"hello".length  #=> 5
 ```
 
 **#reverse**
 ```ruby
-"hello".reverse  # => "olleh"
+"hello".reverse  #=> "olleh"
 ```
 
 **#split**
 ```ruby
-"hello world".split  # => ["hello", "world"]
+"hello world".split  #=> ["hello", "world"]
 
-"hello".split("") # => ["h", "e", "l", "l", "o"]
+"hello".split("") #=> ["h", "e", "l", "l", "o"]
 ```
 
 **#strip**
@@ -259,11 +259,11 @@ To create a symbol, simply put a colon at the beginning of some text:
 To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-2.6/Object.html#method-i-object_id) returns an integer identifier for an object. (And everything in Ruby is an object!)
 
 ```ruby
-"string" == "string"  # => true
+"string" == "string"  #=> true
 
-"string".object_id == "string".object_id  # => false
+"string".object_id == "string".object_id  #=> false
 
-:symbol.object_id == :symbol.object_id    # => true
+:symbol.object_id == :symbol.object_id    #=> true
 ```
 
 ### Booleans
