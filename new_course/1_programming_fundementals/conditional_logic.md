@@ -86,49 +86,49 @@ You can have as many `elsif` expressions as you want. The `else` clause is optio
 #### Boolean Logic
 To determine whether an expression evaluates to `true` or `false`, you'll need a comparison operator. There are several provided by Ruby:
 
-`==`(equals) returns `true` if the values compared are equal.
+`==` (equals) returns `true` if the values compared are equal.
 ```ruby
 5 == 5 #=> true
 5 == 6 #=> false
 ```
 
-`!=`(not equal) returns `true` if the values compared are not equal.
+`!=` (not equal) returns `true` if the values compared are not equal.
 ```ruby
 5 != 7 #=> true
 5 != 5 #=> false
 ```
 
-`>`(greater than) returns `true` if the value on the left of the operator is larger than the value on the right.
+`>` (greater than) returns `true` if the value on the left of the operator is larger than the value on the right.
 ```ruby
 7 > 5 #=> true
 5 > 7 #=> false
 ```
 
-`<`(less than) returns `true` if the value on the left of the operator is smaller than the value on the right.
+`<` (less than) returns `true` if the value on the left of the operator is smaller than the value on the right.
 ```ruby
 5 < 7 #=> true
 7 > 5 #=> false
 ```
 
-`>=`(greater than or equal to) returns `true` if the value on the left of the operator is larger than or equal to the value on the right.
+`>=` (greater than or equal to) returns `true` if the value on the left of the operator is larger than or equal to the value on the right.
 ```ruby
 7 >= 7 #=> true
 7 >= 5 #=> true
 ```
 
-`<=`(less than or equal to) returns `true` if the value on the left of the operator is smaller than or equal to the value on the right.
+`<=` (less than or equal to) returns `true` if the value on the left of the operator is smaller than or equal to the value on the right.
 ```ruby
 5 <= 5 #=> true
 5 <= 7 #=> true
 ```
 
-`.eql?` checks both the value type and the actual value it holds.
+`#eql?` checks both the value type and the actual value it holds.
 ```ruby
 5.eql?(5.0) #=> false; although they are the same value, one is an integer and the other is a float
 5.eql?(5)   #=> true
 ```
 
-`.equal?` checks whether both values are the exact same object in memory. This can be slightly confusing because of the way computers store some values for efficiency. Two variables pointing to the same number will usually return `true`.
+`#equal?` checks whether both values are the exact same object in memory. This can be slightly confusing because of the way computers store some values for efficiency. Two variables pointing to the same number will usually return `true`.
 
 ```ruby
 a = 5
@@ -149,7 +149,7 @@ This happens because computers can't store strings in the same efficient way the
 All of the above operators also work on data types other than numbers, such as strings. Why not play around with this in a REPL?
 
 #### Logical Operators
-Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&`(and), `||`(or) and `!`(not).
+Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&` (and), `||` (or) and `!` (not).
 
 There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. I recommend you read [this article](http://www.virtuouscode.com/2010/08/02/using-and-and-or-in-ruby/) that explains the differences.
 
@@ -188,9 +188,9 @@ end
 The `!` operator reverses the logic of the expression. Therefore, if the expression itself returns `false`, using the `!` operator makes the expression `true`, and the code inside the block will be executed.
 
 ```ruby
-if !false #=> true
+if !false     #=> true
 
-if !(10 < 5) #=> true
+if !(10 < 5)  #=> true
 ```
 
 #### Case Statements
@@ -255,7 +255,7 @@ end
 You should use an `unless` statement when you want to **not** do something if a condition is `true`, because it can make your code more readable than using `if !true`.
 
 #### Ternary operator
-The ternary operator is a one line `if; else` statement that can make your code much more concise.
+The ternary operator is a one-line `if; else` statement that can make your code much more concise.
 
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
 
@@ -276,7 +276,7 @@ if age < 17
 else
   response = "You're all grown up."
 end
-puts response
+puts response #=> "You're all grown up."
 ```
 
 However, if your conditional statements are complicated, then using an `if; else` statement can help to make your code more readable. Remember, **above all else, your code needs to be readable and understandable by other people**, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
@@ -291,11 +291,11 @@ This section contains questions for you to check your understanding of this less
 
   * What is a Boolean?
   * What are "truthy" values?
-  * Are nil, 0, "0", "", 1, [], {} and -1 considered true or false?
-  * When do you use elsif?
-  * When do you use unless?
-  * What do || and && and ! do?
+  * Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?
+  * When do you use `elsif`?
+  * When do you use `unless`?
+  * What do `||` and `&&` and `!` do?
   * What is short circuit evaluation?
-  * What is returned by puts("woah") || true?
+  * What is returned by `puts("woah") || true`?
   * What is the ternary operator?
   * When should you use a case statement?
