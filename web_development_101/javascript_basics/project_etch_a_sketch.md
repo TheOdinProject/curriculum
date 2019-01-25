@@ -286,3 +286,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Ange's Solution](https://github.com/pekengduck/etch_a_sketch) - [View in Browser](https://pekengduck.github.io/etch_a_sketch/)
 * [Nick-Trahan's Solution](https://github.com/Nick-Trahan/etch-a-sketch-odin) - [View in Browser](https://nick-trahan.github.io/etch-a-sketch-odin/)
 * [Valentino Valenti's Solution](https://1ba1.github.io/etch-a-sketch/)
+* [Andrew Dinsmore's Solution](https://teif26.github.io/etch_a_sketch/) - [View in Browser]( https://teif26.github.io/etch_a_sketch/)
