@@ -1874,6 +1874,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jessica Stone's Solution (Easy)](https://github.com/seaweeddol/google-homepage) - [View in Browswer](https://seaweeddol.github.io/google-homepage/)
 * [Jessica Stone's Solution (Difficult)](https://github.com/seaweeddol/google-searchResults-page) - [View in Browswer](https://seaweeddol.github.io/google-searchResults-page/)
 * [Brandon Myles Solution (Difficult)](https://bmyles10.github.io/google-search/) - [View in Browser (Easy)](https://bmyles10.github.io/google-homepage/)
+* [Krunoslav Stefanek Solution (Difficult)](https://krunopz.github.io/google-homepage/google-homepage-difficult/) - [View in Browser (Easy)](https://krunopz.github.io/google-homepage/)
 * [Paultex11's Solution (Easy)] (https://github.com/paultex11/google-homepage) - [View In Browser] (https://paultex11.github.io/google-homepage/)
 
 
