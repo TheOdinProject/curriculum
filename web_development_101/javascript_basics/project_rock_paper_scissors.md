@@ -471,3 +471,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Valentino Valenti's Console Solution](https://1ba1.github.io/rock-paper-scissors/)
 - [Wayland Chin's Solution](https://github.com/chinwayland/The-Odin-Project-Rock-Paper-Scissors) - [View in Browser](https://chinwayland.github.io/The-Odin-Project-Rock-Paper-Scissors/)
 - [vulence's Solution](https://github.com/vulence/rock-paper-scissors) - [View in Browser](https://vulence.github.io/rock-paper-scissors/) 
+- [Ben Fowler's solution](https://github.com/benfowler04/rock-paper-scissors)
