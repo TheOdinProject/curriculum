@@ -1679,7 +1679,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [endri2211's solution (Easy)](https://github.com/endri2211/google-homepage) - [View in Browser](https://endri2211.github.io/google-homepage/)
 * [endri2211's solution (Difficult)](https://github.com/endri2211/google-search) - [View in Browser](https://endri2211.github.io/google-search/)
 * [AVu120's solution (Easy)](https://github.com/AVu120/google-homepage) - [View in Browser](https://AVu120.github.io/google-homepage)
-* [Ghassan's solution (Easy)](https://github.com/GT001/google-homepage) - [View in Browser](https://gt001.github.io/google-homepage/)
+* [Ghassan's solution (Easy)](https://github.com/GT001/TheOdinProject-google-homepage) - [View in Browser](https://gt001.github.io/TheOdinProject-google-homepage/)
 * [Trey-3's solution (Easy)](https://github.com/trey-3/google-homepage) - [View in Browser](https://trey-3.github.io/google-homepage/)
 * [Trey-3's solution (Difficult)](https://github.com/trey-3/google-search-results) - [View in Browser](https://trey-3.github.io/google-search-results/)
 * [Abraham Omolewa's Solution (Easy)](https://github.com/abrahamomolewa/google-homepage)- [View in Browser](https://abrahamomolewa.github.io/google-homepage/)
