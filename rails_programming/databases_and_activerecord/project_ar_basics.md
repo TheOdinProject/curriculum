@@ -119,6 +119,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Stefano Merazzi's solution](https://github.com/ste001/micro-reddit)
 * [Jason McKee's solution](https://github.com/jttmckee/micro-reddit)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/micro-reddit)
 * [goodjobbin85's solution](https://github.com/goodjobbin85/micro-reddit)
