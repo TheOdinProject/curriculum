@@ -759,6 +759,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Khalal's solution](https://github.com/khalalw/building_blocks/blob/master/stock_picker.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/02_stock_picker/stock_picker.rb)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/stock-picker/stock_picker.rb)
+* [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/stock_picker_solution.rb)
 
 ### Project 3: Substrings
 
