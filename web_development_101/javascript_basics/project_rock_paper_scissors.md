@@ -473,3 +473,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [vulence's Solution](https://github.com/vulence/rock-paper-scissors) - [View in Browser](https://vulence.github.io/rock-paper-scissors/) 
 - [Ben Fowler's solution](https://github.com/benfowler04/rock-paper-scissors)
 - [Gaspachow's solution](https://github.com/Gaspachow/rock-paper-scissors)
+- [Jorge Fernando Rincón console solution](https://github.com/jofer86/rock-paper-scissors)
