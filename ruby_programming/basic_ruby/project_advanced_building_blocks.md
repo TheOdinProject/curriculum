@@ -365,6 +365,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_advanced_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](https://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/EnumerableMethods/enumerable.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/enumerable_methods/enumerable_methods.rb)
 * [Khari's Solution](https://github.com/kjwebdev/TOP_Projects/blob/master/Ruby/Enumerable.rb)
 * [RunningCoder123's solution](https://github.com/RunningCoder123/enumerable/blob/master/enumerable.rb)
