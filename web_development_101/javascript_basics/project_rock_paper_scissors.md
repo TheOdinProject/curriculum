@@ -39,7 +39,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Matthew Brown's UI Solution](https://github.com/vledoc/rock-paper-scissors) - [View in Browser](https://vledoc.github.io/rock-paper-scissors/)
 - [Michael Wang's Solution with UI](https://github.com/mikewzz/rockpaperscissorsApp)
 - [Sultan's Freeman Solution](https://github.com/Sultanc/r-p-s) - [View in Browser](https://sultanc.github.io/r-p-s/)
-- [Roelof Wobben's Solution](https://github.com/RoelofWobben/rsp)
+- [Roelof Wobben's Solution](https://github.com/RoelofWobben/rsp) - [Solution with gui](https://github.com/RoelofWobben/RSP-gui) - [View in Browser](https://roelofwobben.github.io/RSP-gui/)
 - [CptChuckles' Solution](https://github.com/cptchuckles/rps-odin) - [View in Browser](https://cptchuckles.github.io/rps-odin/)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/rock-paper-scissors) - [View in browser](https://braxtonlemmon.github.io/rock-paper-scissors/)
 - [Jacob Davis's Solution](https://github.com/JDavis01/Rock-Paper-Scissors)
