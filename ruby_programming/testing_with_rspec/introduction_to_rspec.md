@@ -234,6 +234,7 @@ end
 ### Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html). 
 * Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already. 
 * Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
 * The [RSpec Cheat Sheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
