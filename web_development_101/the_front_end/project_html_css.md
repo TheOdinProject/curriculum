@@ -1881,6 +1881,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Leavism's Solution (Easy)](https://github.com/leavism/google-homepage) - [View in browser](https://leavism.github.io/google-homepage/)
 8 [Leavism's Solution (Difficult)](https://github.com/leavism/google-resultpage) - [View in browser](https://leavism.github.io/google-resultpage/)
 * [Solarka Solution (Easy + Difficult, after clicking either of the buttons under search bar)](https://github.com/YumiSolarka/google-homepage) - [View In Browser](https://yumisolarka.github.io/google-homepage/)
+* [Lenielson Sousa's Solution (Easy)](https://github.com/lenilunderman/google-homepage) - [View in Browswer](https://lenilunderman.github.io/google-homepage/)
 
 
 ### Additional Resources
