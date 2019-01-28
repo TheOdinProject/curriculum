@@ -258,7 +258,7 @@ lines.each do |line|
 end
 ~~~
 
-`next if`comes in handy in this type of problem: when it encounters the same exact line provided, it skips the row.
+When this program is run, the `next if` line checks every line to see if it matches the provided string. If so, it skips that line from the rest of the loop
 
 A problem with this solution is that the content of our header row could change
 in the future. Additional columns could be added or the existing columns
