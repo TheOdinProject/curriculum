@@ -1882,7 +1882,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 8 [Leavism's Solution (Difficult)](https://github.com/leavism/google-resultpage) - [View in browser](https://leavism.github.io/google-resultpage/)
 * [Solarka Solution (Easy + Difficult, after clicking either of the buttons under search bar)](https://github.com/YumiSolarka/google-homepage) - [View In Browser](https://yumisolarka.github.io/google-homepage/)
 * [Lenielson Sousa's Solution (Easy)](https://github.com/lenilunderman/google-homepage) - [View in Browswer](https://lenilunderman.github.io/google-homepage/)
-Timring Timkwali's solutin (git@github.com:timkwali/google-homepage.git)
+[Timring Timkwali's solution(Easy)] (git@github.com:timkwali/google-homepage.git)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
