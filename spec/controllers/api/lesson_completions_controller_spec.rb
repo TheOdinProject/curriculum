@@ -38,20 +38,21 @@ module Api
         end
 
         it 'returns a 200 status code' do
-          get :index, params
-
+          get :index, params: params
           expect(response.status).to eql(200)
         end
 
         it 'renders serialized courses in json format' do
-          get :index, params
-
+          get :index, params: params
           expect(JSON.parse(response.body)).to eql([serialized_course])
         end
       end
 
       context 'when not authenticated' do
-
+        it 'does not allow access' do
+          get :index, params: params
+          expect(response.status).to eql(401)
+        end
       end
     end
   end

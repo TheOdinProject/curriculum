@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe LessonSerializer do
-  subject { described_class.new(lesson, days) }
+  subject { described_class.as_json(lesson, days) }
 
   let(:lesson) do
     double('Lesson', title: 'Overview', lesson_completions: lesson_completions)
@@ -23,9 +23,7 @@ RSpec.describe LessonSerializer do
       }
     end
 
-    it 'returns a serialized lesson' do
-      expect(subject.as_json).to eql(serialized_lesson)
-    end
+    it { is_expected.to eql(serialized_lesson) }
 
     context 'when days is not nil' do
       let(:days) { 7 }
@@ -43,9 +41,7 @@ RSpec.describe LessonSerializer do
             and_return([new_lesson_completion])
       end
 
-      it 'returns a serialized lesson' do
-        expect(subject.as_json).to eql(serialized_lesson)
-      end
+      it { is_expected.to eql(serialized_lesson) }
     end
   end
 end
