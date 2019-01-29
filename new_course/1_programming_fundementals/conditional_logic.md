@@ -55,7 +55,7 @@ You don't even need the `end` statement. Nice and concise!
 The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value, or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
 #### Adding "else" and "elsif"
-We often want to check a condition and run some code if it's true but then run some other code if it's false. This is done with an `if; else` statement.
+We often want to check a condition and run some code if it's true but then run some other code if it's false. This is done with an `if...else` statement.
 
 ```ruby
 if attack_by_land == true
@@ -67,7 +67,7 @@ end
 
 Oh yeah! Protected on land and sea.
 
-But what about if we're attacked by air? We need yet another conditional check. Enter the `if; elsif; else` statement!
+But what about if we're attacked by air? We need yet another conditional check. Enter the `if...elsif...else` statement!
 
 ```ruby
 if attack_by_land == true
@@ -146,6 +146,21 @@ a.equal?(b) #=> false
 
 This happens because computers can't store strings in the same efficient way they store numbers. Although the values of the variables are the same, the computer has created two separate string objects in memory.
 
+In addition to the above operators, Ruby has a special operator that is affectionately referred to as the **spaceship operator**. Unlike the other comparison operators, which all return `true` or `false`, the spaceship operator returns one of three numerical values.
+
+`<=>` (spaceship operator) returns the following:
+ - `-1` if the value on the left is less than the value on the right;
+ - `0` if the value on the left is equal to the value on the right; and
+ - `1` if the value on the left is greater than the value on the right.
+
+```ruby
+5 <=> 10    #=> -1
+10 <=> 10   #=> 0
+10 <=> 5    #=> 1
+```
+
+The spaceship operator is most commonly used in sorting functions, which we'll cover more later.
+
 All of the above operators also work on data types other than numbers, such as strings. Why not play around with this in a REPL?
 
 #### Logical Operators
@@ -194,7 +209,7 @@ if !(10 < 5)  #=> true
 ```
 
 #### Case Statements
-Case statements are a neat way of writing several conditional expressions that would normally result in a messy `if; elsif` statement. You can even assign the return value from a case statement to a variable for use later.
+Case statements are a neat way of writing several conditional expressions that would normally result in a messy `if...elsif` statement. You can even assign the return value from a case statement to a variable for use later.
 
 Case statements process each condition in turn, and if the condition returns `false`, it will move onto the next one until a match is found. An `else` clause can be provided to serve as a default if no match is found.
 
@@ -255,7 +270,7 @@ end
 You should use an `unless` statement when you want to **not** do something if a condition is `true`, because it can make your code more readable than using `if !true`.
 
 #### Ternary operator
-The ternary operator is a one-line `if; else` statement that can make your code much more concise.
+The ternary operator is a one-line `if...else` statement that can make your code much more concise.
 
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
 
@@ -267,7 +282,7 @@ puts response #=> "You're all grown up."
 
 Here, because the expression evaluated to `false`, the code after the `:` was assigned to the variable `response`.
 
-Writing this as an `if; else` statement would be much more verbose:
+Writing this as an `if...else` statement would be much more verbose:
 
 ```ruby
 age = 18
@@ -279,12 +294,19 @@ end
 puts response #=> "You're all grown up."
 ```
 
-However, if your conditional statements are complicated, then using an `if; else` statement can help to make your code more readable. Remember, **above all else, your code needs to be readable and understandable by other people**, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
+However, if your conditional statements are complicated, then using an `if...else` statement can help to make your code more readable. Remember, **above all else, your code needs to be readable and understandable by other people**, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
+
+### Assignment
+1. For an overview of flow control, read through this [Ruby Explained: Conditionals and Flow Control](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control) article.
+2. For more depth, read the [Flow Control](https://launchschool.com/books/ruby/read/flow_control#conditionals) chapter from LaunchSchool's *Introduction to Programming With Ruby*.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Launch School's [chapter on flow control](https://launchschool.com/books/ruby/read/flow_control#conditionals) is a good learning resource.
+ - For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
+ - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/). 
+ - If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from [Exercise 27](https://learnrubythehardway.org/book/ex27.html) through Exercise 31.
+
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
