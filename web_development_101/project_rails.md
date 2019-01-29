@@ -256,7 +256,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/rails-project)
 * [uvieugo's Solution](https://github.com/uvieugo/project-rails-blogger) | [View in Browser](https://salty-woodland-61543.herokuapp.com/) Up to part off I6
 * [Seederwood's Solution](https://github.com/seederwood/myblog) | [View in Browser](https://rocky-harbor-97255.herokuapp.com/) 
-* [Franklyn Afeso's Solution](https://github.com/afeso/blogger)
+* [Franklyn Afeso's Solution](https://github.com/afeso/blogger) 
 
 ### Additional Resources
 
