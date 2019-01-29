@@ -1,13 +1,13 @@
 class LessonSerializer
-  attr_reader :lesson, :days
-  private :lesson, :days
+  attr_reader :lesson, :between_dates
+  private :lesson, :between_dates
 
-  def initialize(lesson, days = nil)
-    @lesson, @days = lesson, days
+  def initialize(lesson, between_dates = nil)
+    @lesson, @between_dates = lesson, between_dates
   end
 
-  def self.as_json(lesson, days)
-    new(lesson, days).as_json
+  def self.as_json(lesson, between_dates = nil)
+    new(lesson, between_dates).as_json
   end
 
   def as_json(options=nil)
@@ -20,10 +20,6 @@ class LessonSerializer
   private
 
   def completions
-    if days
-      lesson.lesson_completions.where("created_at > ?", DateTime.now - days)
-    else
-      lesson.lesson_completions
-    end
+    lesson.lesson_completions.where(created_at: between_dates)
   end
 end

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe CourseSerializer do
-  subject { described_class.as_json(course, days) }
+  subject { described_class.as_json(course, between_dates) }
 
   let(:course) do
     double(
@@ -10,7 +10,9 @@ RSpec.describe CourseSerializer do
       sections: sections,
     )
   end
-  let(:days) { 7 }
+  let(:between_dates) do
+    (DateTime.parse('2019/01/01')..DateTime.parse('2019/12/31'))
+  end
   let(:sections) { [section] }
   let(:section) { double('Section') }
   let(:serialized_section) do
@@ -29,8 +31,8 @@ RSpec.describe CourseSerializer do
     end
 
     before do
-      allow(SectionSerializer).to receive(:as_json).with(section, days).
-        and_return(serialized_section)
+      allow(SectionSerializer).to receive(:as_json).
+        with(section, between_dates).and_return(serialized_section)
     end
 
     it { is_expected.to eql(serialized_course) }

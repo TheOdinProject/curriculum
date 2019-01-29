@@ -9,13 +9,21 @@ module Api
     private
 
     def serialized_lesson_completions
-      Course.all.map do |course|
-        CourseSerializer.as_json(course, days)
+      Course.order(:position).map do |course|
+        CourseSerializer.as_json(course, between_dates)
       end
     end
 
-    def days
-      params[:days].to_i
+    def between_dates
+      (DateTime.parse(start_date)..DateTime.parse(end_date))
+    end
+
+    def start_date
+      params.fetch(:start_date, '2013/01/01')
+    end
+
+    def end_date
+      params.fetch(:end_date, DateTime.now.to_s)
     end
 
     def authenticate
