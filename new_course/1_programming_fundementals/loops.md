@@ -1,4 +1,4 @@
-# Introduction
+### Introduction
 
 Loops, not to be confused with Fruit Loops, the addictive cereal that causes symptoms similar to ADHD in kids, are simply blocks of code that are continually repeated until a certain condition is met.
 
@@ -8,28 +8,28 @@ If you find yourself needing to repeat an action more than once in your code, yo
 
 It will be beneficial for you to code along to test the examples as you work through this lesson, either in IRB or [repl.it](https://repl.it/languages/ruby).
 
-## Learning Outcomes
-*Look through these now and then use them to test yourself after doing the assignment*
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
 
-* What is a loop and why it is useful?
-* What is a `loop` loop in Ruby and how to use it?
-* What is a `while` loop in Ruby and how to use it?
-* What is a `for` loop in Ruby and how to use it?
-* What is a `times` loop in Ruby and how to use it?
-* What is an`until` loop in Ruby and how to use it?
-* What are `upto` and `downto` loops in Ruby and how to use them?
+ * What is a loop and why it is useful?
+ * What is a `loop` loop in Ruby and how to use it?
+ * What is a `while` loop in Ruby and how to use it?
+ * What is a `for` loop in Ruby and how to use it?
+ * What is a `times` loop in Ruby and how to use it?
+ * What is an`until` loop in Ruby and how to use it?
+ * What are `upto` and `downto` loops in Ruby and how to use them?
 
 ### Loop
 The `loop` loop (say what????) is Ruby's loop that just don't quit. It's an infinite loop that'll keep going unless you specifically request for it to stop using the `break` command. Break is commonly used with a condition as illustrated in the code example below.
 
-```ruby
+~~~ruby
 i = 0
 loop do
   puts "i is #{i}"
   i += 1
   break if i == 10
 end
-```
+~~~
 
 You won't see this loop used much in Ruby and if you're using it then there is probably a better loop for you out there.
 
@@ -37,22 +37,22 @@ You won't see this loop used much in Ruby and if you're using it then there is p
 
 A `while` loop is similar to the `loop` loop except you declare the condition that will break out of the loop up front.
 
-```ruby
+~~~ruby
 i = 0
 while(i < 10) do
  puts "i is #{i}"
  i += 1
 end
-```
+~~~
 This is an example of using a `while` loop with a count. Because you declare the condition that breaks the loop up-front, the intention of your code is much clearer, making it easier to read than our `loop` loop above.
 
 `while` loops can also be used to repeatedly ask a question of the user until they give an appropriate response:
 
-```ruby
+~~~ruby
 while gets.chomp != "yes" do
   puts "Will you go to prom with me?"
 end
-```
+~~~
 In real life you obviously should just take no for an answer the first time.
 
 
@@ -60,11 +60,11 @@ In real life you obviously should just take no for an answer the first time.
 
 `for` loops are used to iterate through a collection of information such as an array or range.
 
-```ruby
+~~~ruby
 for i in 0..5
   puts "The number of zombies I'd take out before succumbing is #{i}"
 end
-```
+~~~
 It's really all there is to it.
 
 
@@ -72,18 +72,18 @@ It's really all there is to it.
 
 If you need to run a loop a specified number of times, then look no further than the trusty `times` loop. It works by iterating through a loop a set number of times that you specify and even throws in the bonus of accessing the number it's currently iterating through.
 
-```ruby
+~~~ruby
 5.times do
   puts "Hello, world!"
 end
-```
+~~~
 I'm sure you can guess what that code does. Ruby is readable that way!
 
-```ruby
+~~~ruby
 5.times do |number|
   puts "Alternative fact number #{number}"
 end
-```
+~~~
 Remember, loops will start counting from a zero index unless specified otherwise so the first loop iteration will output `Alternative fact number 0`.
 
 
@@ -96,23 +96,23 @@ You should, as much as possible, avoid trying to negate your logical expressions
 We can re-write our `while` loop examples, using `until`.
 
 
-```ruby
+~~~ruby
 i = 0
 until(i > 10) do
  puts "i is #{i}"
  i += 1
 end
-```
+~~~
 
 You can see here that using `until` keeps running the loop while the condition is false.
 
 The second example shows how `until` can avoid the negation `!` that the `while` loops had to use.
 
-```ruby
+~~~ruby
 until gets.chomp == "yes" do
   puts "Will you go to prom with me?"
 end
-```
+~~~
 Much more readable. Guaranteed to get you a yes.
 
 
@@ -120,20 +120,33 @@ Much more readable. Guaranteed to get you a yes.
 
 `upto` and `downto` are great examples of Ruby methods that do exactly what you'd think from the name. You can use these methods to iterate from a starting number either upto or downto another number.
 
-```ruby
+~~~ruby
 5.upto(10) {|num| print "#{num} " } #=> 5 6 7 8 9 10
 
 10.downto(5) {|num| print "{num} " } #=> 10 9 8 7 6 5
-```
+~~~
 
 If you need to step through a series of numbers (or even letters) within a specific range, then these are the loops for you.
 
 
 ### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 * Try re-writing the above examples using alternative loop methods to achieve the same results.
+</div>
 
-## Further Reading
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * If you need a different take and more examples on Loops, give this chapter by [LaunchSchool](https://launchschool.com/books/ruby/read/loops_iterators#simpleloop) a read through.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+ * What is a loop and why it is useful?
+ * What is a `loop` loop in Ruby and how to use it?
+ * What is a `while` loop in Ruby and how to use it?
+ * What is a `for` loop in Ruby and how to use it?
+ * What is a `times` loop in Ruby and how to use it?
+ * What is an`until` loop in Ruby and how to use it?
+ * What are `upto` and `downto` loops in Ruby and how to use them?
