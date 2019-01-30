@@ -1889,6 +1889,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Harchelle's solution (Easy)](https://github.com/hr-strange37/google-homepage) - [View in Browser](https://hr-strange37.github.io/google-homepage/)
 * [Jonathan Mast's solution (Easy)](https://github.com/jmast02/google_project)
 * [Joshua's solution (Easy)](https://github.com/EnigmaDuke/google-homepage) - [View in Browser](https://enigmaduke.github.io/google-homepage/)
+* [Josh Gunter's Solution (Easy)](https://github.com/joshgunter/google-homepage) - [View In Browser](https://joshgunter.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
