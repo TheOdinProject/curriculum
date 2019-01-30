@@ -1,7 +1,9 @@
 ### Introduction
-You made it! By now you should have a _really_ firm grasp on the fundamentals of JavaScript.  Of course there's plenty more to learn, but you should be able to create quite a bit at this point.  Our final project is going to try to combine everything you've learned so far.. you're going to be making an on-screen calculator using JavaScript, HTML and CSS.
+You made it! By now you should have a _really_ firm grasp on the fundamentals of JavaScript.  Of course there's plenty more to learn, but you should be able to create quite a bit at this point.  Our final project is going to combine everything you've learned so far: you're going to make an on-screen calculator using JavaScript, HTML, and CSS.
 
-As usual with these things there are elements of this project that are not going to be trivially easy for you, but if you've been following the course so far you definitely have everything you need to finish it.  We're going to walk you through the various steps you can take, but again, how you actually implement them is up to you!
+As usual with these things, there are elements of this project that are not going to be trivially easy for you, but if you've been following the course so far, you definitely have everything you need to finish it. We're going to walk you through the various steps you can take, but again, how you actually implement them is up to you!
+
+**Important Note:** Before you get started with this calculator project, we need to cover a word of warning. As you look into how to evaluate complex mathematical statements in JavaScript, you will likely come across the tantalizing [`eval()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function. However, this function can be very dangerous and [should not ever be used](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#Do_not_ever_use_eval!)! You'll need to build your own functions to evalualte expressions as part of this calculator project.
 
 
 ### Assignment
@@ -40,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Shruti Jain's Solution](https://github.com/Sjain020188/Calculator) - [View in Browser](https://sjain020188.github.io/Calculator/index.html)
+- [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/calculator) - [View in Browser](https://tylerdevers.github.io/OdinWebDev/calculator/)
 - [Leonardo Vega's Solution](https://github.com/leonardovega/calculator) - [View in Browser](https://leonardovega.github.io/calculator/)
 - [Brian Monaccio's Solution](https://github.com/learnsometing/odin-project-calculator) - [View in Browser](https://learnsometing.github.io/odin-project-calculator/)
 - [Eliezer's Solution](https://github.com/vzla0094/calculator) - [View in Browser](https://vzla0094.github.io/calculator/)
@@ -207,3 +210,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [GustavoRdz's Solution](https://github.com/GustavoRdz/calculator) - [View in browser](https://gustavordz.github.io/calculator/)
 - [Mohamed's solution](https://github.com/mohamedcutte/jsCalculator) - [View in Browses](https://mohamedcutte.github.io/jsCalculator/.)
 - [Valentino Valenti's Solution](https://1ba1.github.io/simple-calculator/)
+- [Brett Bonnet's solution](https://github.com/Brett-Bonnet/calculator) - [View in Browser](https://brett-bonnet.github.io/calculator/)
