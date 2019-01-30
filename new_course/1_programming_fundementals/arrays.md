@@ -1,7 +1,7 @@
 ### Introduction
-At the beginning of this section, you learned about creating and manipulating individual numbers and strings and assigning them to variables. In real-world development, where you'll be working with dozens (and even hundreds!) of variables, working with numbers and strings individually will be tedious, if not impossible.
+At the beginning of this section, you learned how to create and manipulate numbers and strings and how to assign them to variables. In real-world development, where you'll be working with dozens (and even hundreds!) of variables, working with numbers and strings individually is tedious, if not impossible.
 
-One way Ruby allows you to represent a collection of data types is with the use of **arrays**. Rather than working on individual variables, numbers, or strings at a time, an array allows you to create and manipulate an ordered and indexed collection of them (known as **elements** within the array). Think of arrays as a list! An array can contain any combination of variables, numbers, strings, or other Ruby objects (including other arrays), though it is advised that you keep similar data types in any one array.
+One way Ruby allows you to represent a collection of data is with **arrays**, which you can think of as lists. Rather than working with individual variables, numbers, or strings, an array allows you to create and manipulate an ordered and indexed collection of these dat. The individual variables, numbers, or strings within an array are known as **elements**. An array can contain any combination of variables, numbers, strings, or other Ruby objects (including other arrays), although it is advisable to keep similar data types in any one array.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
@@ -23,9 +23,11 @@ num_array.length        #=> 5
 str_array.length        #=> 5
 ~~~
 
-Both arrays have five elements separated by commas. The first array contains integers while the second array contains strings. Arrays are commonly created with an **array literal**. In Ruby, a literal is a special syntax used to create instances of an object. For the array, that is the square brackets `[]`.
+Both arrays have five elements separated by commas. The first array contains integers, while the second array contains strings. 
 
-An array can also be created by calling the `Array.new` method and up to 2 optional arguments (initial size and a default value):
+Arrays are commonly created with an **array literal**, which is simply a special syntax used to create instances of an array object. To create a new array using an array literal, use square brackets (`[]`).
+
+An array can also be created by calling the `Array.new` method. When you call this method, you can also include up to 2 optional arguments (initial size and default value):
 
 ~~~ruby
 Array.new               #=> []
@@ -35,16 +37,19 @@ Array.new(3, Array.new) #=> [[], [], []]
 ~~~
 
 ### Accessing Elements
-Like most other programming languages, Ruby arrays use **zero-based indexing**. Accessing an array's element is as simple as calling `myArray[x]`, where `x` is the **index**, or position, you desire. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
+Every element in an array has an **index**, which is a numerical representation of the element's position in the array. Like most other programming languages, Ruby arrays use **zero-based indexing**, which means that the index of the first element is 0, the index of the second element is 1, and so on. Accessing a specific element within an array is as simple as calling `myArray[x]`, where `x` is the index of the element you want. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
 
 ~~~ruby
 str_array = ["This", "is", "a", "small", "array"]
 
+str_array[0]            #=> "This"
+str_array[1]            #=> "is"
+str_array[4]            #=> "array"
 str_array[-1]           #=> "array"
 str_array[-2]           #=> "small"
 ~~~
 
-Finally, Ruby provides the `first` and `last` methods, which should be self-explanatory. What may not be obvious, however, is that these methods can take an argument that will return a *new* array.
+Finally, Ruby provides the `first` and `last` array methods, which should be self-explanatory. What may not be obvious, however, is that these methods can take an integer argument (`myArray.first(n)` or `myArray.last(n)`), which will return a new array that contains the first or last `n` elements of `myArray`.
 
 ~~~ruby
 str_array = ["This", "is", "a", "small", "array"]
@@ -54,25 +59,36 @@ str_array.first(2)      #=> ["This", "is"]
 ~~~
 
 ### Adding and Removing Elements
-Adding an element to an existing array is as simple as calling `push` or the shovel operator `<<`. Both methods will add elements to the end of an array and return that array with the new elements added. The `pop` method will remove an element from the end of an array and return the element that was removed.
+Adding an element to an existing array is as simple as calling `push` or using the shovel operator `<<`. Both methods will add elements to the end of an array and return that array with the new elements. The `pop` method will remove the element at the end of an array and return the element that was removed.
 
 ~~~ruby
 num_array = [1, 2]
 
 num_array.push(3, 4)      #=> [1, 2, 3, 4]
-
 num_array << 5            #=> [1, 2, 3, 4, 5]
-
 num_array.pop             #=> 5
+num_array                 #=> [1, 2, 3, 4]
 ~~~
 
-The methods `shift` and `unshift` can also be used to operate at the beginning of an array. While `shift` will remove the first element of an array and return that element (much like `pop`), `unshift` will add elements to the beginning of an array and return that array.
+The methods `shift` and `unshift` are used to add and remove elements at the beginning of an array. The `unshift` method adds elements to the beginning of an array and returns that array (much like `push`). The `shift` method removes the first element of an array and returns that element (much like `pop`).
 
 ~~~ruby
 [1, 2, 3, 4].unshift(0)   #=> [0, 1, 2, 3, 4]
 
-[1, 2, 3, 4].shift        #=> [1]
-[1, 2, 3, 4].shift(2)     #=> [1, 2]
+num_array = [1, 2, 3]
+
+num_array.shift           #=> [1]
+num_array                 #=> [2, 3]
+~~~
+
+It's also useful to know that both `pop` and `shift` can take integer arguments:
+
+~~~ruby
+num_array = [1, 2, 3, 4, 5, 6]
+
+num_array.pop(3)          #=> [4, 5, 6]
+num_array.shift(2)        #=> [1, 2]
+num_array                 #=> [3]
 ~~~
 
 ### Adding and Subtracting Arrays
