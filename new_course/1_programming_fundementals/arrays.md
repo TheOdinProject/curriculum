@@ -94,7 +94,7 @@ num_array                 #=> [3]
 ### Adding and Subtracting Arrays
 What do you think will be the outcome of `[1, 2, 3] + [3, 4, 5]`?
 
-If you guessed `[1, 2, 3, 3, 4, 5]`, congratulations! Adding two arrays will return a new array built by concatenating them. The `concat` method works the same way.
+If you guessed `[1, 2, 3, 3, 4, 5]`, congratulations! Adding two arrays will return a new array built by concatenating them, similar to string concatenation. The `concat` method works the same way.
 
 ~~~ruby
 a = [1, 2, 3]
@@ -111,18 +111,18 @@ To find the difference between two arrays, you can subtract them using `-`. This
 ~~~
 
 ### Basic Methods
-Ruby gives you many methods to manipulate arrays and their contents, many of which are beyond the scope of this article. For full documentation, go to [http://ruby-doc.org/](http://ruby-doc.org/), click on "Core API", and scroll down to Classes: Array. There, you'll find the most up-to-date documentation on the various methods available to Ruby arrays, along with explanations.
+Ruby gives you many methods to manipulate arrays and their contents, many of which are beyond the scope of this lesson. For full documentation, go to [http://ruby-doc.org/](http://ruby-doc.org/), click on "Core API", scroll down to the Classes section, and click on "Array". There, you'll find the most up-to-date documentation on the various methods available to Ruby arrays along with explanations.
 
-Calling the `methods` method on an array will also yield a long list of available methods, like so:
+Calling the `methods` method on an array will also yield a long list of available methods.
 
 ~~~ruby
 num_array.methods       #=> A very long list of methods
 ~~~
 
 ### Other Useful Methods
-As previously mentioned, there are many methods available to Ruby arrays (over 150!). Additionally, the behavior of some methods change depending on a variety of factors, such as if they take arguments or not. For at least these reasons, [ruby-doc.org](http://ruby-doc.org/) ***will*** be your best friend in maximizing your aptitude with arrays. So go soon, and go often.
+As previously mentioned, there are many methods available to Ruby arrays (over 150!). Additionally, the behavior of some methods change depending on a variety of factors, such as if they take arguments or not. Therefore, [ruby-doc.org](http://ruby-doc.org/) ***will*** be your best friend in maximizing your aptitude with arrays. So visit soon, and visit often.
 
-Nevertheless, here is a brief look at some other common methods you might run into.
+Here is a brief look at some other common array methods you might run into:
 
 ~~~ruby
 [].empty?               #=> true
@@ -140,23 +140,23 @@ Nevertheless, here is a brief look at some other common methods you might run in
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-  1. Follow along to Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays), and go through the exercises using IRB or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
-  2.[Read The Definitive Guide to Ruby Arrays by Jesus Castello](https://www.rubyguides.com/2015/05/ruby-arrays/).
-  3. What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look at the array class methods at ruby-doc.org [here](http://ruby-doc.org/core-2.4.0/Array.html) and look up the methods. Were you close?
+  1. Read Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays), following along with the exercises using IRB or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
+  2.Read [The Definitive Guide to Ruby Arrays](https://www.rubyguides.com/2015/05/ruby-arrays/) by Jesus Castello.
+  3. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the array class documentation at ruby-doc.org [here](https://ruby-doc.org/core-2.6/Array.html). Were you close?
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Look over the latest Ruby API documentation on Arrays [here](http://ruby-doc.org/) by clicking on "Core API" and searching for "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object, along with explanations.
-* If you need a different take on Arrays, give this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/)
-* Arrays also allow for **set operations**. Read about them [here](http://blog.endpoint.com/2011/06/using-set-operators-with-ruby-arrays.html). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
+* Look over the latest Ruby API documentation on arrays [here](http://ruby-doc.org/) by clicking on "Core API" and searching for "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object along with explanations.
+* If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
+* Arrays also allow for **set operations**, which you can read about [here](http://blog.endpoint.com/2011/06/using-set-operators-with-ruby-arrays.html). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is an array and why is it useful?
-* What are two ways to create a new empty array?
-* What are some ways of accessing the elements in an array?
-* What are 3 ways to add data to an array?
-* How can you remove elements from an array?
+ * What is an array and why is it useful?
+ * What are two ways to create a new empty array?
+ * What are some ways of accessing the elements in an array?
+ * What are 3 ways to add data to an array?
+ * How can you remove elements from an array?
