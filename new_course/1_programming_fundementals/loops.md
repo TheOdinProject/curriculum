@@ -1,23 +1,23 @@
 ### Introduction
 
-Loops, not to be confused with Fruit Loops, the addictive cereal that causes symptoms similar to ADHD in kids, are simply blocks of code that are continually repeated until a certain condition is met.
+Not to be confused with Fruit Loops, the addictive cereal that causes symptoms similar to ADHD in kids, loops in Ruby are simply blocks of code that are continually repeated until a certain condition is met.
 
-Like me, you've probably experienced real life loops when you were given detention and made to write lines for drawing small phallic shapes on the desk at school. Writing the same lines over and over and over was not only boring, but potentially error prone. Maybe on one line you made a spelling mistake and on another you didn't dot an i. It's the same with programming: the less code you have to write, the less chance you have of introducing bugs that can cause your program to crash and burn.
+Like me, you've probably experienced real-life loops when you were given detention in school and forced to repeatedly write the same line about not drawing small phallic shapes on your desk. Writing the same thing over and over and over is not only boring but also potentially error prone. You might have made a spelling mistake on one line and forgotten to dot an "i" on another line. It's the same with programming: the less code you have to write, the less chance you have of introducing bugs that can cause your program to crash and burn.
 
 If you find yourself needing to repeat an action more than once in your code, you probably need loops in your life.
 
-It will be beneficial for you to code along to test the examples as you work through this lesson, either in IRB or [repl.it](https://repl.it/languages/ruby).
+For all of the examples throughout this lesson, it will be beneficial for you to code along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- * What is a loop and why it is useful?
- * What is a `loop` loop in Ruby and how to use it?
- * What is a `while` loop in Ruby and how to use it?
- * What is a `for` loop in Ruby and how to use it?
- * What is a `times` loop in Ruby and how to use it?
- * What is an`until` loop in Ruby and how to use it?
- * What are `upto` and `downto` loops in Ruby and how to use them?
+ - Explain what a loop is and why it's useful.
+ - Explain what a `loop` loop is and how to use it.
+ - Explain what a `while` loop is and how to use it.
+ - Explain what a `for` loop is and how to use it.
+ - Explain what a `times` loop is and how to use it.
+ - Explain what an `until` loop is and how to use it.
+ - Explain what `updo` and `downto` loops are and how to use them.
 
 ### Loop
 The `loop` loop (say what????) is Ruby's loop that just don't quit. It's an infinite loop that'll keep going unless you specifically request for it to stop using the `break` command. Break is commonly used with a condition as illustrated in the code example below.
@@ -148,5 +148,5 @@ This section contains questions for you to check your understanding of this less
  * What is a `while` loop in Ruby and how to use it?
  * What is a `for` loop in Ruby and how to use it?
  * What is a `times` loop in Ruby and how to use it?
- * What is an`until` loop in Ruby and how to use it?
+ * What is an `until` loop in Ruby and how to use it?
  * What are `upto` and `downto` loops in Ruby and how to use them?
