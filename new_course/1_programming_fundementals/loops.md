@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain what `updo` and `downto` loops are and how to use them.
 
 ### Loop
-The `loop` loop (say what????) is Ruby's loop that just don't quit. It's an infinite loop that'll keep going unless you specifically request for it to stop using the `break` command. Break is commonly used with a condition as illustrated in the code example below.
+The `loop` loop (say what????) is Ruby's loop that just don't quit. It's an infinite loop that will keep going unless you specifically request for it to stop using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
 
 ~~~ruby
 i = 0
@@ -31,60 +31,65 @@ loop do
 end
 ~~~
 
-You won't see this loop used much in Ruby and if you're using it then there is probably a better loop for you out there.
+You won't see this loop used much in Ruby. If you find yourself using `loop`, know that there is probably a better loop for you out there, like one of the more specific loops below.
 
 ### While Loop
 
-A `while` loop is similar to the `loop` loop except you declare the condition that will break out of the loop up front.
+A `while` loop is similar to the `loop` loop except that you declare the condition that will break out of the loop up front.
 
 ~~~ruby
 i = 0
-while(i < 10) do
+while i < 10 do
  puts "i is #{i}"
  i += 1
 end
 ~~~
-This is an example of using a `while` loop with a count. Because you declare the condition that breaks the loop up-front, the intention of your code is much clearer, making it easier to read than our `loop` loop above.
 
-`while` loops can also be used to repeatedly ask a question of the user until they give an appropriate response:
+This is an example of using a `while` loop with a count. Because you declare the condition that breaks the loop up front, the intention of your code is much clearer, making this code easier to read than our `loop` loop above.
+
+You can also use `while` loops to repeatedly ask a question of the user until they give an appropriate response:
 
 ~~~ruby
 while gets.chomp != "yes" do
   puts "Will you go to prom with me?"
 end
 ~~~
-In real life you obviously should just take no for an answer the first time.
+
+This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? In real life, of course, you should really just take "no" for an answer the first time.
 
 
 ### For Loop
 
-`for` loops are used to iterate through a collection of information such as an array or range.
+A `for` loop is used to iterate through a collection of information such as an array or range. These loops are useful if you need to do something a given number of times while also using an iterator. 
 
 ~~~ruby
 for i in 0..5
-  puts "The number of zombies I'd take out before succumbing is #{i}"
+  puts "The number of zombies I'd take out before succumbing is #{i}."
 end
 ~~~
-It's really all there is to it.
+
+That's really all there is to it.
 
 
 ### Times Loop
 
-If you need to run a loop a specified number of times, then look no further than the trusty `times` loop. It works by iterating through a loop a set number of times that you specify and even throws in the bonus of accessing the number it's currently iterating through.
+If you need to run a loop for a specified number of times, then look no further than the trusty `times` loop. It works by iterating through a loop a specified number of times and even throws in the bonus of accessing the number it's currently iterating through.
 
 ~~~ruby
 5.times do
   puts "Hello, world!"
 end
 ~~~
-I'm sure you can guess what that code does. Ruby is readable that way!
+
+I'm sure you can guess what that code does. Ruby is easily readable that way!
 
 ~~~ruby
 5.times do |number|
   puts "Alternative fact number #{number}"
 end
 ~~~
-Remember, loops will start counting from a zero index unless specified otherwise so the first loop iteration will output `Alternative fact number 0`.
+
+Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`.
 
 
 ### Until Loop
