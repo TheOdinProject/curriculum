@@ -1,19 +1,20 @@
 ### Introduction
 Ruby is a strongly object-oriented language, which means that absolutely everything in Ruby is an object, even the most basic data types. We'll start here with four of Ruby's basic data types: numbers (integers and floats), strings, symbols, and Booleans (`true`, `false`, and `nil`).
 
+For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
  - List the basic arithmetic operators and what they do.
  - Describe the difference between an integer and a float and how to convert between the two.
  - Explain string interpolation and concatenation.
- - Describe what escape characters are and list several examples.
+ - Describe what escape characters are, and list several examples.
  - Define what a symbol is and how it differs from a string.
- - Explain what the booleans `true`, `false`, and `nil` represent.
+ - Explain what the Booleans `true`, `false`, and `nil` represent.
 
 ### Numbers
-You probably already know what numbers are, so there's no need to go into elaborate
-metaphors here. Ruby has all the typical math operators you would expect:
+You probably already know what numbers are, so there's no need to go into elaborate metaphors here. Ruby has all the typical math operators you would expect:
 
 ~~~ruby
 # Addition
@@ -87,7 +88,7 @@ Strings, strings, wonderful things, use them well and...your app will...grow win
 At first glance, you might think that strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance to play Han Solo, you'd be wrong. Very wrong. What were you thinking, Burt?
 
 #### Double and Single Quotation Marks
-Strings can be formed with either double `""` or single`''` quotation marks, also known as *string literals*. They are pretty similar, but there are some differences. First, the escape characters that we'll discuss soon work only inside double quotation marks, not single quotation marks. Second, string interpolation also works only inside double quotation marks.
+Strings can be formed with either double `""` or single`''` quotation marks, also known as *string literals*. They are pretty similar, but there are some differences. Specifically, string interpolation and the escape characters that we'll discuss soon both only work inside double quotation marks, not single quotation marks.
 
 #### Concatenation
 In true Ruby style, there are plenty of ways to concatenate strings.
@@ -142,7 +143,7 @@ Hello
 ~~~
 
 #### Interpolation
-Be sure to use double quotes for string interpolation.
+String interpolation allows you to evaluate a string that contains placeholder variables. This is a very useful and common technique, so you will likely find yourself using this often. Be sure to use double quotes so that string interpolation will work!
 
 ~~~ruby
 name = "Odin"
@@ -152,11 +153,11 @@ puts 'Hello, #{name}' #=> "Hello, #{name}"
 ~~~
 
 #### Common String Methods
-There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy-peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
+There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
 
 Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](ruby-doc.org/core-2.6.0/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
 
-Below is a quick recap of the more common string methods you might find yourself using. Feel free to follow along with these in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a feel for them.
+Below is a quick recap of the more common string methods you might find yourself using: 
 
 **#capitalize**
 ~~~ruby
@@ -201,7 +202,7 @@ Below is a quick recap of the more common string methods you might find yourself
 ~~~ruby
 "hello world".split  #=> ["hello", "world"]
 
-"hello".split("") #=> ["h", "e", "l", "l", "o"]
+"hello".split("")    #=> ["h", "e", "l", "l", "o"]
 ~~~
 
 **#strip**
@@ -212,13 +213,13 @@ Below is a quick recap of the more common string methods you might find yourself
 You'll read more about these methods and others in the assignment. The examples below are just to get your creative juices flowing with some of the awesome ways you can modify strings.
 
 ~~~ruby
-"he77o".sub("7", "l")          #=> "hel7o"
+"he77o".sub("7", "l")           #=> "hel7o"
 
-"he77o".gsub("7", "l")         #=> "hello"
+"he77o".gsub("7", "l")          #=> "hello"
 
-"hello".insert(-1, " dude")    #=> "hello dude"
+"hello".insert(-1, " dude")     #=> "hello dude"
 
-"hello".split("")              #=> ["h", "e", "l", "l", "o"]
+"hello".split("")               #=> ["h", "e", "l", "l", "o"]
 
 "!".prepend("hello, ", "world") #=> "hello, world!"
 ~~~
@@ -241,18 +242,19 @@ Symbols are an interesting twist on the idea of a string. The full explanation c
 
 Strings can be changed, so every time a string is used, Ruby has to store it in memory even if an existing string with the same value already exists. Symbols, on the other hand, are stored in memory only once, making them faster in certain situations.
 
-One common application where symbols are preferred over strings are for the keys in hashes. We'll cover this in detail in the hashes lesson later in the course.
+One common application where symbols are preferred over strings are the keys in hashes. We'll cover this in detail in the hashes lesson later in the course.
 
 You won't need to use symbols much in the beginning, but it's good to get familiar with what they are and what they look like so that you can recognize them.
 
 #### Create a Symbol
 To create a symbol, simply put a colon at the beginning of some text:
+
 ~~~ruby
 :my_symbol
 ~~~
 
 #### Symbols vs. Strings
-To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-2.6/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember everything in Ruby is an object!)
+To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-2.6/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
 
 ~~~ruby
 "string" == "string"  #=> true
@@ -263,13 +265,13 @@ To get a better idea of how symbols are stored in memory, give this a whirl in i
 ~~~
 
 ### Booleans
-You will learn about these data types in more detail in the conditional logic lesson later in this course. The goal in this lesson is get a basic understanding of what Booleans are.
+You will learn about these data types in more detail in the Conditional Logic lesson later in this course. The goal of this lesson is for you to get a basic understanding of what Booleans are.
 
 #### True and False
 The Boolean values `true` and `false` represent exactly what you think they do: `true` represents something that is true, and `false` represents something that is false.
 
 #### Nil
-'Nil' represents 'nothing'. Everything in Ruby has a return value. When a piece of code doesn't have anything to return, it will return `nil`. This is pretty abstract, but it will make more sense as you learn and use Ruby more.
+In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When a piece of code doesn't have anything to return, it will return `nil`. This is pretty abstract, but it will make more sense as you learn and use Ruby more.
 
 ### Assignment
 
@@ -304,7 +306,7 @@ This section contains questions for you to check your understanding of this less
   * What is string interpolation?
   * How do you concatenate strings?
   * What method would you use to change all the characters in your string to upper case?
-  * What method would you use to _split_ up strings into arrays?
+  * What method would you use to split up strings into arrays?
   * What are escape characters?
   * How do you access a specific character or substring?
   * How do you convert other data types into strings?
