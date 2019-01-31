@@ -23,7 +23,7 @@ production:
   adapter: postgresql
   encoding: unicode
   database: db/production
-  pool: 5
+  pool: 10
   username:
   password:
 
