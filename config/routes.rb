@@ -14,6 +14,10 @@ Rails.application.routes.draw do
     get '/confirm_email' => 'users#send_confirmation_link'
   end
 
+  namespace :api do
+    resources :lesson_completions, only: [:index]
+  end
+
   get 'home' => 'static_pages#home'
   get 'about' => 'static_pages#about'
   get 'faq' => 'static_pages#faq'

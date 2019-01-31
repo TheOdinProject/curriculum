@@ -44,7 +44,7 @@ group :development, :test do
   gem 'shoulda-matchers',                  '~> 3.1'
   gem 'rake',                              '~> 11.3'
   gem 'rails-controller-testing',          '~> 1.0'
-  gem 'figaro',                            '1.1'
+  gem 'dotenv-rails'
   gem 'bundle-audit'
 end
 

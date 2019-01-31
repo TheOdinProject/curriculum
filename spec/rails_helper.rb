@@ -79,5 +79,5 @@ RSpec.configure do |config|
 
   config.include(Shoulda::Matchers::ActiveModel, type: :model)
   config.include(Shoulda::Matchers::ActiveRecord, type: :model)
-  config.include(MailchimpHelper)
+  config.include FactoryBot::Syntax::Methods
 end
