@@ -1895,7 +1895,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ruddy's Solution (Easy)](https://github.com/RuddyRiveroCabero/google-homepage) - [View In Browser] (https://ruddyriverocabero.github.io/google-homepage/)
 * [Catalystmatic's Solution (Easy)](https://github.com/catalystmatic/google-homepage/) - [View in Browser](https://catalystmatic.github.io/google-homepage/)
 * [Nick Wegscheid's Solution (Easy)](https://github.com/nsw125/google-homepage) - [View in Browser](https://nsw125.github.io/google-homepage/)
-* [nosirromd's Solution (Easy)](https://github.com/nosirromd/google-homepage) 
+* [nosirromd's Solution (Easy)](https://github.com/nosirromd/google-homepage)  - [View in Browser](https://nosirromd.github.io/google-homepage/)
 
 
 
