@@ -7,10 +7,10 @@ By the end of this lesson, you should be able to do the following:
  - Differentiate between the `print` and `puts` commands.
  - Describe the method used to get input from the user.
 
-### Output Commands
+#### Output Commands
 To output information, such as into your irb or REPL environment or into the command line, we can use the `print` command.
 
-~~~ruby
+```ruby
 print "Learning to code is FUN!"
 Learning to code is FUN!
 => nil
@@ -18,10 +18,10 @@ Learning to code is FUN!
 print "1234"
 1234
 => nil
-~~~
+```
 
 We can also use the `puts` command:
-~~~ruby
+```ruby
 puts "Learning to code is cool!!"
 Learning to code is cool!!
 => nil
@@ -34,13 +34,13 @@ x = "My name is ALEX! :)"
 puts x
 My name is ALEX! :)
 => nil
-~~~
+```
 
 As you can see, the `puts` and `print` commands are quite similar. Note that after printing whatever argument they are passed, they both return `nil`. One notable difference, however, is that `puts` appends a new line to the argument passed in.
 
 Try the following in irb:
 
-~~~ruby
+```ruby
 print "Hello World"; print "I love drinking coffee"
 Hello WorldI love drinking coffee
 => nil
@@ -49,20 +49,20 @@ puts "Hello World"; puts "I love drinking coffee"
 Hello World
 I love drinking coffee
 => nil
-~~~
+```
 
 **Side note**: In a REPL, such as repl.it, the above `print` and `puts` statements can be written on separate lines without the semicolon. When the code is run, the REPL will read, evaluate, and print the results of each expression. However, irb can read only one statement at a time, making the semicolon necessary for this code to work as intended.
 
-### Input Commands
+#### Input Commands
 To accept input from a user, we can use the `gets` command. When we use `gets`, program execution will stop and wait for user input. After the user presses `Enter`, the program will continue its execution.
 
 Let's give this a go. Open irb, type `gets`, and then type `The Odin Project`. You should see something like the following:
 
-~~~ruby
+```ruby
 irb(main):001:0> gets
 The Odin Project
 => "The Odin Project\n"
-~~~
+```
 
 How about that? Let's break this process down a bit.
 
@@ -70,7 +70,7 @@ You'll notice that, unlike `puts` and `print`, `gets` actually **returns** the u
 
 As you might also remember from the String section of the Basic Data Types lesson, `"\n"` is an escape character that represents a new line. The `gets` command always returns a new line at the end of the input. This command often makes use of a "separator" to read streams and multi-line files, but that's beyond the scope of this beginner lesson. For now, it's helpful to know that `#chomp` is a method commonly used to trim separators.
 
-~~~ruby
+```ruby
 irb(main):001:0> new_string = gets.chomp
 This is a sentence.
 => "This is a sentence."
@@ -78,14 +78,11 @@ This is a sentence.
 irb(main):002:0> puts new_string
 This is a sentence.
 => nil
-~~~
+```
 
 ### Assignment
-<div class="lesson-content__panel" markdown="1">
-  1. Read through the simple [Hello, World](https://www.learnrubyonline.org/en/Hello%2C_World%21) lesson and exercise from [www.learnrubyonline.org](www.learnrubyonline.org).
-  2. Read the first four sections of the [Ruby - File I/0](https://www.tutorialspoint.com/ruby/ruby_input_output.htm) from TutorialsPoint on `puts`, `gets`, `putc`, and `print`.
-  3. [Read this article from Ruby Guides](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between puts, print and p.
-</div>
+1. Read through the simple [Hello, World](https://www.learnrubyonline.org/en/Hello%2C_World%21) lesson and exercise from [www.learnrubyonline.org](www.learnrubyonline.org).
+2. Read the first four sections of the [Ruby - File I/0](https://www.tutorialspoint.com/ruby/ruby_input_output.htm) from TutorialsPoint on `puts`, `gets`, `putc`, and `print`.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.

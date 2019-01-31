@@ -11,44 +11,45 @@ By the end of this lesson, you should be able to do the following:
 #### Declaring a Variable
 This is how to create a variable in Ruby:
 
-~~~ruby
+```ruby
 age = 18 #=> 18
-~~~
+```
 
 You can also assign the result of an expression to a variable.
 
-~~~ruby
+```ruby
 age = 18 + 5 #=> 23
-~~~
+```
 
-Variable names are reusable, so you can assign a new value to a variable at any point in your program. Naturally, doing so will override the original value.
+Variable names are reusable, so you assign a new value to a variable at any point in your program. Naturally, doing so will override the original value.
 
-~~~ruby
+```ruby
 age = 18
 age #=> 18
 age = 33
 age #=> 33
-~~~
+```
 
-There will often be scenarios where you want to perform an operation on the original value of a variable and then reassign the result of that operation to the same variable.
+There will often be scenarios where you want to perform an operation on the original value of a variable and then reassign the result of that operation to the same variable. 
 
-~~~ruby
+```ruby
 age = 18
 age #=> 18
 age = age + 4
 age #=> 22
-~~~
+```
 
-Because this is a common scenario, Ruby provides a nice shorthand assignment operator for doing this: `+=`.
+Because this is a common scenario, Ruby provides a nice shorthand
+assignment operator for doing this: `+=`.
 
-~~~ruby
+```ruby
 age = 18
 age += 4 #=> 22
-~~~
+```
 
 There are similar assignment operators for all the common math operators:
 
-~~~ruby
+```ruby
 age = 18
 age -= 2  #=> 16
 
@@ -57,7 +58,7 @@ cash *= 2 #=> 20
 
 temperature = 40
 temperature /= 10 #=> 4
-~~~
+```
 
 #### How to Name Variables
 Ruby is a language that aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, describe what the value of the variable represents.
@@ -70,50 +71,49 @@ The most basic thing you can do to write clean, maintainable code is to name you
 
 Variable names should always be lowercase, and multiple words that make up a variable name should be split by an underscore. This is known as **snake_case**.
 
-~~~ruby
+```ruby
 # bad
-a = 19
-string = "John"
+a = "Hello"
+number = 2
 
 # good
 age = 19
 name = "John"
 can_swim = false
-~~~
+```
 
 #### Variables are References
-The information you name with a variable is stored in memory on your computer, so a variable is effectively a reference or a pointer to that address in memory. This is important to know as it can sometimes be the cause of unexpected behavior from your code.
+The information you name with a variable is stored in memory on your computer, so a variable is effectively a reference or a pointer to that address in memory. This can sometimes be the cause of unexpected behavior from your code.
 
 In the following example, we have two variables: `desired_location`, which is assigned to the string "Barcelona", and `johns_location`, which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory.
 
-~~~ruby
+```ruby
 desired_location = "Barcelona"
 johns_location = desired_location
 
 desired_location  #=> "Barcelona"
 johns_location    #=> "Barcelona"
-~~~
+```
 
 Now, if we modify the string that `johns_location` is pointing to, `desired_location` will also reflect that change:
 
-~~~ruby
+```ruby
 johns_location.upcase!  #=> "BARCELONA"
 
 desired_location        #=> "BARCELONA"
 johns_location          #=> "BARCELONA"
-~~~
+```
 
 Assigning variables to other variables can therefore have some unintended side effects. Just because it looks like fun doesn't mean you should do it, too. But you know what is fun? *Reading assignments*!
 
 ### Assignment
-<div class="lesson-content__panel" markdown="1">
-  1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*.
-  2. Read through these short, to-the-point variable lessons by Ruby Monstas:
-      * [Overview of Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
-      * [Reusing Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
-      * [Things on the Right Go First](http://ruby-for-beginners.rubymonstas.org/variables/right_goes_first.html)
-  3. Open up a Ruby [repl.it](https://repl.it/languages/ruby) or use IRB in your command line and try naming some variables and assigning values to them. Don't worry so much about good naming conventions at this stage. Instead, experiment with different variable names and see what is valid. Try using symbols or numbers in your variable names. If you come across anything quirky, Google it to find out why it happened.
-</div>
+1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*.
+2. Read through these short, to-the-point variable lessons by Ruby Monstas:
+    * [Overview of Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
+    * [Reusing Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
+    * [Things on the Right Go First](http://ruby-for-beginners.rubymonstas.org/variables/right_goes_first.html)
+3. Open up a Ruby [repl.it](https://repl.it/languages/ruby) or use IRB in your command line and try naming some variables and assigning values to them. Don't worry so much about good naming conventions at this stage. Instead, experiment with different variable names and see what is valid. Try using symbols or numbers in your variable names. If you come across anything quirky, Google it to find out why it happened.
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
