@@ -1894,6 +1894,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [DimaPen's Solution (Difficult)](https://github.com/DimaPen/google-searchpage) - [View In Browser](https://dimapen.github.io/google-searchpage/)
 * [Ruddy's Solution (Easy)](https://github.com/RuddyRiveroCabero/google-homepage) - [View In Browser] (https://ruddyriverocabero.github.io/google-homepage/)
 * [Catalystmatic's Solution (Easy)](https://github.com/catalystmatic/google-homepage/) - [View in Browser](https://catalystmatic.github.io/google-homepage/)
+* [nosirromd's Solution (Easy)](https://github.com/nosirromd/google-homepage) 
 
 
 ### Additional Resources
