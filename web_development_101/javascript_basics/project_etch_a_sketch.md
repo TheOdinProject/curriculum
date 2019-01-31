@@ -294,3 +294,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Valentino Valenti's Solution](https://1ba1.github.io/etch-a-sketch/)
 * [Andrew Dinsmore's Solution](https://github.com/teif26/etch_a_sketch/) - [View in Browser]( https://teif26.github.io/etch_a_sketch/)
 * [Samuel Oswald's Solution](https://github.com/smozwald/Etch-a-Sketch/) - [View in Browser]( https://smozwald.github.io/Etch-a-Sketch/)
+* [vulence's Solution](https://github.com/vulence/etch-a-sketch) - [View in Browser](http://vulence.github.io/etch-a-sketch)
