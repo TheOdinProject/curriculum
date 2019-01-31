@@ -31,14 +31,15 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
   1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
-  2. Learn about Queues and Stacks by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI)
-  3. Learn about binary search trees by watching [this video](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard's CS50 on Youtube.
-  4. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
-  5. Read the [Gentle Introduction to Algorithms for Web Developers](http://www.giocc.com/a-gentle-introduction-to-algorithms-for-web-developers.html) for another basic look at what algorithms are.
-  5. Finally, learn about Depth First Search and Breadth First Search from this series of videos on YouTube:
-      * [Binary Tree Traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
-      * [Level Order Traversal](https://www.youtube.com/watch?v=86g8jAQug04) (aka Breadth First)
-      * [Pre, In, and Post Order Traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4) (aka Depth First)
+  2. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
+  3. Read the [Gentle Introduction to Algorithms for Web Developers](http://www.giocc.com/a-gentle-introduction-to-algorithms-for-web-developers.html) for another basic look at what algorithms are.
+  4. Learn about how binary search works by watching [this video](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard's CS50 on YouTube.
+  5. Now, we're going to focus on learning about binary search trees. Start by watching [this video](https://www.youtube.com/watch?v=FvdPo8PBQtc) to learn how a binary search tree is constructed from an unordered array.
+  4. Next, learn about the principles of queues and stacks, which are concepts used in breadth-first search and depth-first search, respectively, by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI).
+  5. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:
+      * [Binary tree traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
+      * [Breadth-first traversal](https://www.youtube.com/watch?v=86g8jAQug04)
+      * [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
 </div>
 
 ### Additional Resources
@@ -50,3 +51,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Another free course on algorithms by Udacity](https://www.udacity.com/course/cs215)
 * [A brief note on putting Sorting, Tries and Heaps into Ruby, by Ilya Grigorik](http://www.igvita.com/2009/03/26/ruby-algorithms-sorting-trie-heaps/)
 * [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
+* [An article](https://www.crondose.com/2016/06/create-a-binary-search-tree-array/) that discusses how to construct a binary search tree from an unordered array

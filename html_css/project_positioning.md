@@ -82,6 +82,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [aznafro's solution](https://github.com/aznafro/nytarticle) - [View in browser](https://aznafro.github.io/nytarticle/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/NYT-article) - [View in browser](https://areebaishtiaq.github.io/NYT-article/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/nytmockup) - [View in browser](https://taylorjohannsen.github.io/nytmockup/)
+* [Ghassan's solution](https://github.com/GT001/TOP-NYT-Article) - [View in browser](https://gt001.github.io/TOP-NYT-Article/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
