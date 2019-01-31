@@ -136,6 +136,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Ruby Inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
 * Read [Zetcode's Strings section](http://zetcode.com/lang/rubytutorial/strings/) for an in-depth look at strings.
 * Read through (and watch the video) for this [Regular Expressions in Ruby](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-regular-expressions/) explanation.
+* Run through this awesome regular expression interactive crash course [RegexOne](https://regexone.com)
 * Read the [zetcode Arrays chapter](http://zetcode.com/lang/rubytutorial/arrays/) for some more in-depth knowledge.  Don't worry too much where they talk about blocks or the `select`, `collect` and `map` methods, we'll cover that in a later section.
 * Read [Zetcode's Hashes section](http://zetcode.com/lang/rubytutorial/hashes/) for some more depth on hashes.  Again, don't worry too much about `map` and other block-taking functions.
 * [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
