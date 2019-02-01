@@ -4,7 +4,11 @@ By this point you have probably heard about JavaScript frameworks such as React,
 
 ### What _is_ a framework?
 
-Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time writing `document.createElement` or `element.innerHTML`. Frameworks try to make this easier, quicker, and much more sustainable by using shorter functions that abstract these repetative Javascript methods.
+Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time manipulating the DOM with code like `document.createElement` or `element.innerHTML`. Previously you had to manually keep the UI and state in sync by updating the UI everytime your state changed. Something you may have already noticed can quickly become a very verbose and by nature error-prone task. This is where JS framewworks come to the rescue. The frameworks will automatically sync the UI with your state when it changes in an efficient manner. All the tedious code you had to write manually is now abstracted away letting you focus on more productive things.
+
+How is it done? You define your markup in a single shot in declarative paradigm (means that you declare _what_ it should do instead of _how_ - the framework will handle the _how_ part. The frameworks then use different strategies to detect changes and update the UI. We will not dive futher into these strategies for now but further reading can be found in the additional resources.
+
+Why is it so crucial to keep the state and UI in sync you may ask? Because showing inaccurate information or even wrong information in the UI can lead to undesired behaviour like deleting the wrong item and ultimately leaving your end user frustrated. The compromised user experience directly affects how the end user feels about your product and can affect conversion rates (getting the user to complete a desired task) negatively.
 
 The various frameworks (there _are_ a lot of them) tend to have a few things in common.  In general any given JS framework will have at least some sort of templating system that allows you to create reusable components (A templating system is nothing more than the ability to create bits of code that you can reuse). These components can be thought of as building-blocks that you use to build your project.  For example, you could have a `header` and a `footer` component that you re-use on all your pages, or you could have something like a `card` component that nicely wraps whatever you put inside of it with a div and a box-shadow or border.
 
@@ -51,3 +55,7 @@ The rest of this section will go through the 3 most popular front-end frameworks
 2. Check out [this recent survey](https://2017.stateofjs.com/2017/front-end/results) to get a feel for the general popularity and usage of the various frameworks.
 3. [This survey](https://insights.stackoverflow.com/survey/2018/#technology) is not JS or web centered, but includes some data about frameworks.
 4. [This video](https://www.youtube.com/watch?v=KMX1mFEmM3E) gives a good overview and comparison of the 'Big 3'.
+
+### Additional Resources
+
+* [A blogpost diving into why frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)
