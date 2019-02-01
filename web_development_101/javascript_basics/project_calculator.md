@@ -211,3 +211,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mohamed's solution](https://github.com/mohamedcutte/jsCalculator) - [View in Browses](https://mohamedcutte.github.io/jsCalculator/.)
 - [Valentino Valenti's Solution](https://1ba1.github.io/simple-calculator/)
 - [Brett Bonnet's solution](https://github.com/Brett-Bonnet/calculator) - [View in Browser](https://brett-bonnet.github.io/calculator/)
+- [keskiviikko's solution](https://github.com/keskiviikko/project-calculator) - [View in Browser](https://keskiviikko.github.io/project-calculator/)
