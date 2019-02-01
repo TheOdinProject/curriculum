@@ -1120,3 +1120,4 @@ Next, make sure your method can handle multiple words:
 * [Khalal's solution](https://github.com/khalalw/building_blocks/blob/master/substrings.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/03_substrings/substrings.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/substrings/substrings.rb)
+* [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/substrings_solution.rb)
