@@ -60,7 +60,7 @@ shoes = {
 shoes["summer"]   #=> "sandals"
 ~~~
 
-### Adding Data
+### Adding and Changing Data
 You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable. 
 
 ~~~ruby
@@ -69,72 +69,95 @@ shoes["fall"] = "sneakers"
 shoes     #=> {"summer"=>"sandals", "winter"=>"boots", "fall"=>"sneakers"}
 ~~~
 
+You can also use this approach to change the value of an existing key.
+
+~~~ruby
+shoes["summer"] = "flip-flops"
+shoes     #=> {"summer"=>"flip-flops", "winter"=>"boots", "fall"=>"sneakers"}
+~~~
+
 ### Removing Data
 Deleting data from a hash is simple with the hash's `#delete` method, which provides the cool functionality of returning the value of the key-value pair that was deleted from the hash.
 
 ~~~ruby
-shoes.delete("summer")    #=> "sandals"
+shoes.delete("summer")    #=> "flip-flops"
 shoes                     #=> {"winter"=>"boots", "fall"=>"sneakers"}
 ~~~
 
 ### Methods
-Hashes respond to just about all the same methods as arrays do, since they're both part of Ruby's *Enumerable* class. Keep an eye out in the next lesson on the Enumerable class for the difference in the way that arrays and hashes handle Enumerable methods -- the `#each` method especially.
+Hashes respond to many of the same methods as arrays do since they both employ Ruby's **Enumerable** module. In the next lesson, we'll go into far more detail on the Enumerable module, including the differences in how the Enumerable methods behave for arrays and hashes.
 
-Another couple of useful methods for hashes are the `#keys` and `#values` methods, which do just what you think they do. Note that these methods return *arrays*.
+A couple of useful methods that are specific to hashes are the `#keys` and `#values` methods, which very unsurprisingly return the keys and values of a hash, respectively. Note that both of these methods return *arrays*.
 
 ~~~ruby
-books = { "Infinite Jest" => "David Foster Wallace", "Into the Wild" => "Jon Krakauer" }
-books.keys
-  => ["Infinite Jest", "Into the Wild"]
-books.values
-  => ["David Foster Wallace", "Jon Krakauer"]
+books = { 
+  "Infinite Jest" => "David Foster Wallace", 
+  "Into the Wild" => "Jon Krakauer" 
+}
+
+books.keys      #=> ["Infinite Jest", "Into the Wild"]
+books.values    #=> ["David Foster Wallace", "Jon Krakauer"]
 ~~~
 
 ### Merging Two Hashes
-It'll happen every now and again that two hashes need to come together in holy union. Luckily, there's a method for that.
+Occasionally, you'll come across a situation where two hashes wish to come together in holy union. Luckily, there's a method for that. (No ordained minister required!)
 
 ~~~ruby
 hash1 = { "a" => 100, "b" => 200 }
 hash2 = { "b" => 254, "c" => 300 }
-hash1.merge(hash2)
-  => { "a" => 100, "b" => 254, "c" => 300 }
+hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 ~~~
 
-Note that the hash getting merged in (in this case, `hash2`), has precedence over the hash getting... uh, merged *at*, when both hashes share a key.
+Notice that the hash getting merged in (in this case, `hash2`) has precedence over the hash getting... uh, merged *at* when both hashes share a key.
 
-For a list of methods that work on hashes, check out the [Ruby Docs](http://ruby-doc.org/core-2.1.1/Hash.html).
+For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-2.6/Hash.html).
 
-### Best Practices
-In this explanation, we mostly used strings for hash keys, but in the real world, you'll see symbols like `:this_guy` as keys significantly more often. This is predominantly because symbols are a lot better performant than strings in Ruby, but also because they allow for a much cleaner syntax when defining hashes. Behold:
+### Symbols as Hash Keys
+In this lesson, we mostly used strings for hash keys, but in the real world, you'll almost always see symbols (like `:this_guy`) used as keys. This is predominantly because symbols are far more performant than strings in Ruby, but they also allow for a much cleaner syntax when defining hashes. Behold the beauty:
 
 ~~~ruby
-# 'Rocket' syntax
-american_cars = { :chevrolet => "Corvette", :ford => "Mustang", :dodge => "Ram" }
+# 'Rocket' syntax 
+american_cars = { 
+  :chevrolet => "Corvette", 
+  :ford => "Mustang", 
+  :dodge => "Ram" 
+}
 # 'Symbols' syntax
-japanese_cars = { honda: "Accord", toyota: "Corolla", nissan: "Altima" }
+japanese_cars = { 
+  honda: "Accord", 
+  toyota: "Corolla", 
+  nissan: "Altima" 
+}
 ~~~
 
-Notice that the 'hash rocket' and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" }, or you'll get a syntax error.
+That last example brings a tear to the eye, doesn't it? Notice that the hash rocket and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" } or you'll get a syntax error. 
+
+When you use the cleaner 'symbols' syntax to create a hash, you'll still need to use the standard symbol syntax when you're trying to access a value.
+
+~~~ruby
+japanese_cars[:honda]   #=> "Accord"
+~~~
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Follow along Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using IRB or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
+1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
 </div>
 
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Read through [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman.
+* Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What's the difference between hashes and arrays?
-* How can you create a new hash?
-* How can you populate that hash with data?
-* What are keys and values in a hash?
-* How can you change existing values within a hash?
-* How can you delete existing data from a hash?
-* How can you merge two hashes together?
+ * What are the differences between hashes and arrays?
+ * What are keys and values in a hash?
+ * How can you create a new hash?
+ * How can you populate a hash with data?
+ * How can you change existing values within a hash?
+ * How can you delete existing data from a hash?
+ * How can you merge two hashes together?
+ * Why is it preferred to use symbols as hash keys?
