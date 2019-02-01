@@ -97,6 +97,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [mwk913's Solution](https://github.com/mwk913/pomodoro-clock) - [View in Browser](https://mwk913.github.io/pomodoro-clock/)
 * [Dan2D's Solution](https://github.com/Dan2D/Pomodoro) - [View in Browser](https://dan2d.github.io/Pomodoro/html/index.html)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/pomodoro-timer) - [View in Browser](https://leila-alderman.github.io/pomodoro-timer/)
+* [Valentino Valenti's Solution](https://github.com/1ba1/pomodoro-timer) - [View in browser](https://1ba1.github.io/pomodoro-timer/)
 * [tnharvey's Solution](https://github.com/tnharvey/pomodoro) - [View in Browser](https://tnharvey.github.io/pomodoro)
 
 ### Next Steps
