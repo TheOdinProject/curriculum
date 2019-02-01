@@ -19,48 +19,45 @@ Your other option is to sit yourself down at a table covered with a nice white t
 
 There are two important differences to note between the vending machine array and the menu hash. First, it's far easier for us to use the names of things to find what we're looking for than to have to translate what we want into numerical indices. This is a huge advantage of using a hash: no more having to count out array elements to request what we want! Second, the items on a menu can appear in any order, and we'll still get exactly what we want as long as we use the correct name. This unordered aspect of hashes isn't true for arrays, which are highly dependent on order. 
 
-
 ### Creating Hashes
-
-If an array is like a shelf of bins with numbers in ascending order on it, hashes take the analogy a step further by allowing you to write the labels on the outside of the bins, which lines up more with how people act in the real world.
-
-So, let's take a look at this shelf:
+Let's dive in and create a hash! 
 
 ~~~ruby
-hash = { "random_word" => "ahoy", "Dorothy's math test score" => 94, "Guess what, literally another bin" => {} }
+my_hash = { 
+  "a random word" => "ahoy", 
+  "Dorothy's math test score" => 94, 
+  "an array" => [1, 2, 3],
+  "an empty hash within a hash" => {} 
+}
 ~~~
 
-Here's another set of bins, labeled, not 0, 1, and 2 (like on the 'array' shelf), but "random_word", "Dorothy's math test score", "Guess what, literally another bin". Since the labels here aren't numbers in ascending order starting at 0, we can be pretty sure that what we've got here is *a hash*.
+This example shows the most basic way to create a hash, which is to use the hash literal of curly braces (`{}`). 
 
-The above example is the most basic way to create a hash.
+The above hash has four keys that point to four different values. For example, the first key, "a random word", points to the value "ahoy". As you can see, the values of a hash can be a number, a string, an array, or even another hash. Keys and values are associated with a special operator called a **hash rocket**: `=>`.
 
-There's a little bit to parse here, so let's take a breather and puzzle these bins out.
-
-One of the first things you might notice is that hashes use *curly braces* `{}` instead of *brackets* `[]`. That's an important one. It helps us distinguish hashes from arrays (useful, since they share a lot of functionality).
-
-The other thing you might notice is that hashes are made up of two parts: *keys* and *values*. A *key* is more or less analogous to an array's *index*, in that it's the label on the outside of the bin that helps us find what we're looking for. The *value* is what gets stored at a particular *key*. Keys and values are associated with a little operator called a 'hash rocket': `=>`.
-
-So that's what it looks like when a hash is created *literally* (e.g. `hash = { :whatever => "???" }`), but you can also call good old `#new` on the `Hash` class. If you give the `#new` method an argument, it'll even set a default value for keys that you don't specify:
+Just like with an array, you can also create a new hash by calling good old `#new` on the `Hash` class.
 
 ~~~ruby
-hash = Hash.new
-hash["me"]
-  => nil
-hash = Hash.new("you")
-hash["me"]
-  => "you"
-hash["him"]
-  => "you"
+my_hash = Hash.new
+my_hash               #=> {}
 ~~~
 
-Of course, hashes don't only take strings as keys and values. Ruby is a pretty flexible language so you can jam any old thing in there and it'll work just fine:
+Of course, hashes don't only take strings as keys and values. Ruby is a pretty flexible language, so you can jam any old thing in there and it'll work just fine.
 
 ~~~ruby
 hash = { 9 => "nine", :six => 6 }
-hash[9]
-  => "nine"
-hash[:six]
-  => 6
+~~~
+
+### Accessing Values
+You can access values in a hash the same way that you access elements in an array. When you call a hash's value by key, the key goes inside a pair of brackets, just like when you're calling an array by index.
+
+~~~ruby
+shoes = {
+  "summer" => "sandals",
+  "winter" => "boots"
+}
+
+shoes["summer"]   #=> "sandals"
 ~~~
 
 ### Adding data
@@ -72,19 +69,6 @@ shoes = Hash.new
 shoes["summer"] = "sandals"
 shoes["winter"] = "boots"
 ~~~
-
-### Accessing data
-
-You can get at that data the same way, e.g. `shoes["summer"] #=> "sandals"`. Hashes also come with a couple of sporty methods for finding what you need:
-
-~~~ruby
-shoes["summer"]
-  => "sandals"
-shoes.key("summer")
-  => "sandals"
-~~~
-
-Notice that when we call the hash's value by key, the key goes inside a pair of *brackets*, like when you're calling an array by index.
 
 ### Removing data
 
