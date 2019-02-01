@@ -1899,8 +1899,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [nosirromd's Solution (Easy)](https://github.com/nosirromd/google-homepage)  - [View in Browser](https://nosirromd.github.io/google-homepage/)
 * [XCarmaIX's Solution (Easy)](https://github.com/XCarmaIX/google-homepage) - [View in Browser]
 (https://xcarmaix.github.io/google-homepage/)
-* [CoolHandLuke79's Solution (Easy)](https://coolhandluke79.github.io/google-homepage/) - [View in Browser]
-(https://coolhandluke79.github.io/google-homepage/)
+* [CoolHandLuke79's Solution (Easy)](https://coolhandluke79.github.io/google-homepage/) - [View in Browser](https://coolhandluke79.github.io/google-homepage/)
 
 
 ### Additional Resources
