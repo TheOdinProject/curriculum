@@ -84,6 +84,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+- [Jeton Thaçi's solution](https://github.com/jeton-th/google-homepage) - [View in Browser](https://jeton-th.github.io/google-homepage/)
 * [Saiharsha B's Solution (Easy)](https://github.com/thewhitewolf17/google-homepage) - [View in Browser (Easy)](https://thewhitewolf17.github.io/google-homepage/)
 * [Nicolas von Garrel's Solution (Easy)](https://github.com/mistervoga/google-homepage)
 * [Nezlicodes Solution (Easy)](https://github.com/nezlicodes/google-homepage)
@@ -1889,6 +1890,17 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Harchelle's solution (Easy)](https://github.com/hr-strange37/google-homepage) - [View in Browser](https://hr-strange37.github.io/google-homepage/)
 * [Jonathan Mast's solution (Easy)](https://github.com/jmast02/google_project)
 * [Joshua's solution (Easy)](https://github.com/EnigmaDuke/google-homepage) - [View in Browser](https://enigmaduke.github.io/google-homepage/)
+* [Josh Gunter's Solution (Easy)](https://github.com/joshgunter/google-homepage) - [View In Browser](https://joshgunter.github.io/google-homepage/)
+* [DimaPen's Solution (Easy)](https://github.com/DimaPen/google-homepage) - [View In Browser](https://dimapen.github.io/google-homepage/)
+* [DimaPen's Solution (Difficult)](https://github.com/DimaPen/google-searchpage) - [View In Browser](https://dimapen.github.io/google-searchpage/)
+* [Ruddy's Solution (Easy)](https://github.com/RuddyRiveroCabero/google-homepage) - [View In Browser] (https://ruddyriverocabero.github.io/google-homepage/)
+* [Catalystmatic's Solution (Easy)](https://github.com/catalystmatic/google-homepage/) - [View in Browser](https://catalystmatic.github.io/google-homepage/)
+* [Nick Wegscheid's Solution (Easy)](https://github.com/nsw125/google-homepage) - [View in Browser](https://nsw125.github.io/google-homepage/)
+* [nosirromd's Solution (Easy)](https://github.com/nosirromd/google-homepage)  - [View in Browser](https://nosirromd.github.io/google-homepage/)
+* [XCarmaIX's Solution (Easy)](https://github.com/XCarmaIX/google-homepage) - [View in Browser]
+(https://xcarmaix.github.io/google-homepage/)
+* [CoolHandLuke79's Solution (Easy)](https://github.com/CoolHandLuke79/google-homepage) - [View in Browser](https://coolhandluke79.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

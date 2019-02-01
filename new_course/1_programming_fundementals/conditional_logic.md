@@ -1,5 +1,5 @@
-### Introduction
-This lesson is all about controlling the flow of your code, which is a pretty simple concept. If you have some code that you want to execute only under specific conditions, then you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Have you ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program:
+### Conditional Logic
+This lesson is all about controlling the flow of your code. The concept is pretty simple. You have some code that you only want to execute under specific conditions, so you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program...
 
 ```ruby
 if room_tidy == true
@@ -22,7 +22,7 @@ By the end of this lesson, you should be able to do the following:
  - Describe what `||`, `&&`, and `!` do.
  - Explain what short circuit evaluation is.
  - Describe what the ternary operator is and how to use it.
- - Explain what a `case` statement is and how it works. 
+ - Explain what a `case` statement is and how it works.
 
 #### Truthy and Falsy in Ruby
 
@@ -291,6 +291,7 @@ if age < 17
 else
   response = "You're all grown up."
 end
+
 puts response #=> "You're all grown up."
 ```
 
@@ -304,9 +305,8 @@ However, if your conditional statements are complicated, then using an `if...els
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
  - For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
- - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/). 
+ - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
  - If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from [Exercise 27](https://learnrubythehardway.org/book/ex27.html) through Exercise 31.
-
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.

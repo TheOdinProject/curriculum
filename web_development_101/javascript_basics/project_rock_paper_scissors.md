@@ -36,6 +36,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [nezlicodes solution](https://github.com/nezlicodes/Rock-paper-scissors) - [nezlicodes UI Solution](https://github.com/nezlicodes/rock_paper_scissors-UI-version-)
+- [NicklasHugoy's Solution](https://github.com/NicklasHugoy/rock_paper_scissors)
 - [Matthew Brown's UI Solution](https://github.com/vledoc/rock-paper-scissors) - [View in Browser](https://vledoc.github.io/rock-paper-scissors/)
 - [Michael Wang's Solution with UI](https://github.com/mikewzz/rockpaperscissorsApp)
 - [Sultan's Freeman Solution](https://github.com/Sultanc/r-p-s) - [View in Browser](https://sultanc.github.io/r-p-s/)
@@ -476,4 +478,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jorge Fernando Rincón console solution](https://github.com/jofer86/rock-paper-scissors)
 - [DensenKG's Console Solution](https://github.com/DensenKG/rock-paper-scissors) - [View in Browser](https://densenkg.github.io/rock-paper-scissors/)
 - [DensenKG's UI Solution](https://github.com/DensenKG/rock-paper-scissors-UI) - [View in Browser](https://densenkg.github.io/rock-paper-scissors-UI/)
+<<<<<<< HEAD
 - [Joshua Duke's Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-Project) 
+=======
+- [Jessica's Solution](https://github.com/seaweeddol/rock-paper-scissors)
+- [Nick Wegscheid's Solution](https://github.com/nsw125/rock-paper-scissors) - [View in Brower](https://nsw125.github.io/rock-paper-scissors/)
+- [Ohlie's Solution](https://github.com/lco1220/top-RockPaperScissor-console)
+>>>>>>> 573b6cda853afdde721368b5f8417723da20f286

@@ -691,7 +691,7 @@ end
 We now have our list of attendees with their valid zip codes (at least for most
 of them). Using their zip code and the
 [Google Civic Information](https://developers.google.com/civic-information/)
-webservice we are able query for the representatives for a given area.
+webservice we are able to query for the representatives for a given area.
 
 The Civic Information API allows registered individuals (registration is free) to obtain some information about the representatives for each level of government for an address.
 
@@ -705,7 +705,7 @@ The Civic Information API allows registered individuals (registration is free) t
 
 Take a close look at that address. Here's how it breaks down:
 
-* `http://` : Use the HTTP protocol
+* `https://` : Use the Secure HTTP protocol
 * `www.googleapis.com/civicinfo/v2/` : The API server address on the internet
 * `representatives` : The method called on that server
 * `?` : Parameters to the method
@@ -714,9 +714,9 @@ Take a close look at that address. Here's how it breaks down:
   * `levels=country` : The level of government we want to select
   * `roles=legislatorUpperBody` : Return the representatives from the Senate
   * `roles=legislatorLowerBody` : Returns the representatives from the House
-  * `apikey=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw` : A registered API Key to authenticate our requests
+  * `key=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw` : A registered API Key to authenticate our requests
 
-We're accessing the `representatives` method of their API, we send in an `apikey` which is the string that identifies JumpstartLab as the accessor of
+We're accessing the `representatives` method of their API, we send in a `key` which is the string that identifies JumpstartLab as the accessor of
 the API, then we select the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
 
 This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](http://jsonprettyprint.com/), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
@@ -1259,7 +1259,7 @@ We now need to update our application to:
 
 * Require the ERB library
 * Create the ERB template from the contents of the template file
-* Simplify our `legislators_by_zipcode` to return the the original array of legislators
+* Simplify our `legislators_by_zipcode` to return the original array of legislators
 
 ~~~ruby
 require 'csv'
@@ -1399,7 +1399,7 @@ it will be destroyed.
 
 Afterwards we actually send the entire form letter content to the file
 object. The `file` object responds to the message `puts`. The method
-[file#puts](http://rubydoc.info/stdlib/core/IO#puts-instance_method) is similar to
+[IO#puts](http://rubydoc.info/stdlib/core/IO#puts-instance_method), from which the `file` object inherits, is similar to
  [Kernel#puts](http://rubydoc.info/stdlib/core/Kernel#puts-instance_method)
 which we have been using up to this point.
 
