@@ -60,37 +60,24 @@ shoes = {
 shoes["summer"]   #=> "sandals"
 ~~~
 
-### Adding data
-
-You can add to a hash the same way that you can add to an array. The easiest way is to call the key and set the value like you would with any other variable. Think of it like finding the right bin by its label and dropping something into the bin.
-
-~~~ruby
-shoes = Hash.new
-shoes["summer"] = "sandals"
-shoes["winter"] = "boots"
-~~~
-
-### Removing data
-
-The simple way to delete data from a hash is simply to call the value by its key and set it to `nil`:
+### Adding Data
+You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable. 
 
 ~~~ruby
-shoes["winter"] = nil
-# And now we have no footwear in the snow.
+shoes["fall"] = "sneakers"
+
+shoes     #=> {"summer"=>"sandals", "winter"=>"boots", "fall"=>"sneakers"}
 ~~~
 
-The fun way to delete data from a hash is to use the hash's `#delete` method, which provides the cool functionality of returning the value from the key-value pair was deleted from the hash. So:
+### Removing Data
+Deleting data from a hash is simple with the hash's `#delete` method, which provides the cool functionality of returning the value of the key-value pair that was deleted from the hash.
 
 ~~~ruby
-shoes.delete("summer")
-  => "sandals"
-shoes
-  => {} # Empty hash, now that we have gotten rid of our shoes.
+shoes.delete("summer")    #=> "sandals"
+shoes                     #=> {"winter"=>"boots", "fall"=>"sneakers"}
 ~~~
-
 
 ### Methods
-
 Hashes respond to just about all the same methods as arrays do, since they're both part of Ruby's *Enumerable* class. Keep an eye out in the next lesson on the Enumerable class for the difference in the way that arrays and hashes handle Enumerable methods -- the `#each` method especially.
 
 Another couple of useful methods for hashes are the `#keys` and `#values` methods, which do just what you think they do. Note that these methods return *arrays*.
@@ -103,8 +90,7 @@ books.values
   => ["David Foster Wallace", "Jon Krakauer"]
 ~~~
 
-### Merging two hashes
-
+### Merging Two Hashes
 It'll happen every now and again that two hashes need to come together in holy union. Luckily, there's a method for that.
 
 ~~~ruby
@@ -118,8 +104,7 @@ Note that the hash getting merged in (in this case, `hash2`), has precedence ove
 
 For a list of methods that work on hashes, check out the [Ruby Docs](http://ruby-doc.org/core-2.1.1/Hash.html).
 
-### Best practices
-
+### Best Practices
 In this explanation, we mostly used strings for hash keys, but in the real world, you'll see symbols like `:this_guy` as keys significantly more often. This is predominantly because symbols are a lot better performant than strings in Ruby, but also because they allow for a much cleaner syntax when defining hashes. Behold:
 
 ~~~ruby
