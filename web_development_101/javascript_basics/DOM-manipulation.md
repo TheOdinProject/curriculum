@@ -138,19 +138,19 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 * \#container &gt; .display
 * div\#container &gt; div.display
 
-You can also use relational selectors \(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
+You can also use relational selectors \(i.e. `firstElementChild` or `lastElementalChild` etc.\) with special properties owned by the nodes.
 
 ~~~JavaScript
 const container = document.querySelector('#container');
 // select the #container div (don't worry about the syntax, we'll get there)
 
-console.dir(container.firstChild);                      
+console.dir(container.firstElementChild);                      
 // select the first child of #container => .display
 
 const controls = document.querySelector('.controls');   
 // select the .controls div
 
-console.dir(controls.previousSibling);                  
+console.dir(controls.previousElementSibling);                  
 // selects the prior sibling => .display
 ~~~
 
