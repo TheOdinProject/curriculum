@@ -33,7 +33,7 @@ One of the most unique and useful abilities of JavaScript is its ability to mani
           <li><code>.display</code></li>
         </ul>
       </li>
-      <li>There are also relational selectors such as <code>firstChild</code> or <code>lastSibling</code>.</li>
+      <li>There are also relational selectors such as <code>firstElementChild</code> or <code>lastElementChild</code>.</li>
       <li>Combined with "Query Selectors", this is how you can target a node using JavaScript</li>
       <ul>i.e. <code>document.querySelector(".display");</code> would select the div above.</ul>
     </ul>
