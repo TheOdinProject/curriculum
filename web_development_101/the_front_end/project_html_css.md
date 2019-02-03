@@ -1796,7 +1796,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Malditagaseosa Solution (Easy)](https://malditagaseosa.github.com/google-page) - [View in Browser](https://malditagaseosa.github.io/google-page)
 * [Mohammed Nabeel's Solution ](https://mnabeelp.github.io/google-homepage/) - [View in Browser](https://mnabeelp.github.io/google-homepage/)
 * [Renee Quinn's Solution (Easy)](https://github.com/reneequinn/google-homepage) - [View in Browser](https://reneequinn.github.io/google-homepage/)
- * [Leila Alderman's solution (Easy)](https://github.com/leila-alderman/google-homepage) - [View in Browser](https://leila-alderman.github.io/google-homepage/)
+* [Leila Alderman's solution (Easy)](https://github.com/leila-alderman/google-homepage) - [View in Browser](https://leila-alderman.github.io/google-homepage/)
 * [Thaís Falbo(Easy)](https://github.com/thaisfalbo/google-homepage)
 * [Yaroslav Vyugin (Easy)](https://github.com/Yar1991/google-homepage) - [View in Browser](https://yar1991.github.io/google-homepage/)
 * [Tayo Olayinka's (Easy)](https://github.com/olayinkatayo/google-homepage) - [View in Browser](https://olayinkatayo.github.io/google-homepage/)
@@ -1903,7 +1903,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [CoolHandLuke79's Solution (Easy)](https://github.com/CoolHandLuke79/google-homepage) - [View in Browser](https://coolhandluke79.github.io/google-homepage/)
 * [Michael Houmann's solution in danish(easy)](https://github.com/mhoumann87/top_google_homepage) - [View in Browser](https://mhoumann87.github.io/top_google_homepage/)
 * [Beka Arabuli's Solution (Easy)](https://github.com/arabuli/google-homepage) - [View in Browser](https://arabuli.github.io/google-homepage/)
-Pangsui Linge's Solution(Easy) https://github.com/pangsui/google_homepage - [View in Browser]
+* [Pangsui Linge's Solution(Easy)](https://github.com/pangsui/google_homepage)
+* [Metin Karakus's Solution (Easy)](https://metinkarakus.github.io/google_homepage/) - [View in Browser](https://metinkarakus.github.io/google_homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
