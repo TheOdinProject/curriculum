@@ -10,8 +10,8 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 
 ### Learning Outcomes
 
-* What the difference between front- and back-end development is
-* Why you need to install Ruby but not Javascript
+* What is the difference between front-end and back-end development ?
+* Why you need to install Ruby but not Javascript ? 
 
 ### Assignment
 
