@@ -138,7 +138,7 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 * \#container &gt; .display
 * div\#container &gt; div.display
 
-You can also use relational selectors \(i.e. `firstElementChild` or `lastElementalChild` etc.\) with special properties owned by the nodes.
+You can also use relational selectors \(i.e. `firstElementChild` or `lastElementChild` etc.\) with special properties owned by the nodes.
 
 ~~~JavaScript
 const container = document.querySelector('#container');
