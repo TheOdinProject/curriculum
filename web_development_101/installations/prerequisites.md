@@ -178,3 +178,7 @@ ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
 * The WSL program files are well hidden, but it's super important that you do not edit these files from Windows. Altering these files will cause serious problems with your Ubuntu installation and possibly with your Windows installation.
 
 </details>
+
+**Please Note: We do not support Windows without a VM or WSL at this time, many people have had problems developing with Rails while using Windows** 
+
+The Odin Project has great support for Linux if you get stuck, please give it a shot :)
