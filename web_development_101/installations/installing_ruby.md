@@ -159,21 +159,11 @@ You will be prompted to enter your password. When typing your password, you may 
 
 Congratulations! You've installed the prerequisites!
 
-### Step 2: Install Git and Heroku
+### Step 2: Install Heroku
 
-Git is a version control program and one of the most powerful tools in your developer toolbelt. You'll learn more about Git later on.
+Heroku is a place to host your Rails applications
 
-#### Step 2.1: Update Git
-
-MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
-
-~~~bash
-brew install git
-~~~
-
-This will install the latest version of Git. Easy, right?
-
-#### Step 2.2: Install Heroku
+#### Step 1.1: Install Heroku
 
 Next, install Heroku:
 

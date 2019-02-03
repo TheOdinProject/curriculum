@@ -4,84 +4,11 @@ With Ruby installed, you're all set to create your first Ruby on Rails applicati
 
 ### Your First Rails App
 
-#### Step 1: Configure Git and GitHub
-
-Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the cirriculum.
-
-GitHub is a service that allows you to upload your code using Git and to manage your code with a nice web interface. GitHub and Git are not the same thing or even the same company.
-
-#### Step 1.1: Setup Git
-
-For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
-
-The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks)!
-
-~~~bash
-git config --global user.name "Your Name"
-git config --global user.email "yourname@example.com"
-~~~
-
-To enable colorful output with `git`, type
-
-~~~bash
-git config --global color.ui auto
-~~~
-
-To verify things are working properly, enter these commands and verify that the output matches your name and email address.
-
-~~~bash
-git config --get user.name
-git config --get user.email
-~~~
-
-#### Step 1.2: Create a GitHub Account or Sign In
-
-Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
-
-#### step 1.3: Create an SSH Key
-
-An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
-
-First, we need to see if you have an SSH key already installed. Type this into the terminal:
-
-~~~bash
-ls ~/.ssh/id_rsa.pub
-~~~
-
-If the message in the console contains `No such file or directory`, then you don't have an SSH key, and you'll need to create one. If you do not see `No such file or directory` in the output, you already have a key; proceed to step 1.4.
-
-To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by our email address ensures that GitHub knows who we are.
-
-~~~bash
-ssh-keygen -C yourname@example.com
-~~~
-
-* When it prompts you for a location to save the generated key, just push `Enter`.
-* Next, it will ask you for a password; enter one if you wish, but it's not required.
-
-#### Step 1.4: Link Your SSH Key with GitHub
-
-Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
-
-First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu. 
-
-Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
-
-Now you need to copy your public SSH key. To do this, we're going to use a command called [`cat`](http://www.linfo.org/cat.html) to read the file to the console. (Note that the `.pub` file extension is important in this case.)
-
-~~~bash
-cat ~/.ssh/id_rsa.pub
-~~~
-
-Highlight and copy the output, which starts with `ssh-rsa` and ends with your email address. 
-
-Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click `Add SSH key`. You're done! You've successfully added your SSH key!
-
-### Step 2: Create Your First Ruby on Rails Web Application
+### Step 1: Create Your First Ruby on Rails Web Application
 
 Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
 
-#### Step 2.1: Install Rails and Bundler
+#### Step 1.1: Install Rails and Bundler
 
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
@@ -89,7 +16,7 @@ We've previously installed Ruby, and now it's time to install Ruby on Rails. It'
 gem install rails
 ~~~
 
-#### Step 2.2: Lay the Groundwork
+#### Step 1.2: Lay the Groundwork
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like! 
 
@@ -105,7 +32,7 @@ Then, move into the new directory:
 cd odin_on_rails
 ~~~
 
-#### Step 2.3: Create the Application
+#### Step 1.3: Create the Application
 
 This is where things might become more foreign. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
@@ -140,7 +67,7 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### Step 2.4: Start Up Your App
+#### Step 1.4: Start Up Your App
 
 Now that you have created a Rails application, you can start it up and see if it works!
 
@@ -154,11 +81,11 @@ Now, go to your browser and visit [http://localhost:3000/cars](http://localhost:
 
 When you're satisfied, go back to the terminal where Rails is running, and type `Ctrl + C` to end the application.
 
-### Step 3: Initialize Git and Push to GitHub
+### Step 2: Initialize Git and Push to GitHub
 
 To push our app to GitHub and Heroku, we need to use Git.
 
-##### Step 3.1: Initialize git
+##### Step 2.1: Initialize git
 
 To tell Git we want to use version control on the directory we are in, we need to initialize it.
 
@@ -175,7 +102,7 @@ Then, initialize the Git repo (short for "repository"):
 git init
 ~~~
 
-#### Step 3.2: Commit Changes
+#### Step 2.2: Commit Changes
 
 Now that Git is initialized, we need to tell Git to save all the files we have. First, we add our files to the staging area, which temporarily holds files before committing them. Don't worry if you don't understand all of this right now.
 
@@ -191,7 +118,7 @@ Then, we'll commit the files. Be sure to include the quotation marks.
 git commit -m "initial commit"
 ~~~
 
-#### Step 3.3: Connect the Local Repository to the Remote Repository
+#### Step 2.3: Connect the Local Repository to the Remote Repository
 
 At this point, we have our files on our own computer and can track changes made to our files over time. But what if we want to share the files with another computer or have multiple people work on the same project? For this functionality, we need a GitHub repository.
 
@@ -218,15 +145,15 @@ After the terminal finishes its magic, return to your GitHub repository and refr
 
 This marks the start of your Odin journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
 
-#### Step 4: Deploy Your Rails Application
+#### Step 3: Deploy Your Rails Application
 
 Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working.
 
-#### Step 4.1: Create a Heroku Account
+#### Step 3.1: Create a Heroku Account
 
 Go to the [Heroku website](https://www.heroku.com/) and create an account using the same email address you used for GitHub and Git.
 
-#### Step 4.2: Heroku CLI
+#### Step 3.2: Heroku CLI
 
 Activate your account from the email they sent you. Now, we'll install the Heroku command line so that we can interact with the Heroku service. We will use `curl` to download a script and run it to install the Heroku CLI.
 
@@ -239,7 +166,7 @@ curl https://cli-assets.heroku.com/install.sh | sh
 Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
 
 
-#### Step 4.3: Add your SSH Key to Heroku
+#### Step 3.3: Add your SSH Key to Heroku
 
 Adding your SSH key lets Heroku know what machine the commands are coming from, similar to how GitHub uses SSH keys.
 
@@ -251,7 +178,7 @@ heroku keys:add
 
 Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
 
-#### Step 4.4: Create a Heroku Application
+#### Step 3.4: Create a Heroku Application
 
 First, run
 
@@ -267,11 +194,11 @@ git remote show
 
 Verify that you see `heroku` in the output.
 
-#### Step 4.5: Prepare Rails for Heroku Deployment
+#### Step 3.5: Prepare Rails for Heroku Deployment
 
 Heroku uses a slightly different setup than what we have on our machine. We need to configure the application to play nicely with both.
 
-#### Step 4.5.1: Configure the Gemfile
+#### Step 3.5.1: Configure the Gemfile
 
 To deploy a Rails application, we need to change some settings.
 
@@ -301,7 +228,7 @@ end
 
 Then, save the file. You can leave VSCode open since we're going to be coming back to it, but for the next step, go back to your terminal.
 
-#### Step 4.5.2: Install the Bundle
+#### Step 3.5.2: Install the Bundle
 
 Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To do this, we can simply run
 
@@ -309,7 +236,7 @@ Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To
 bundle install --without production
 ~~~
 
-#### Step 4.5.3: Configure the Root Route
+#### Step 3.5.3: Configure the Root Route
 
 The next thing we need to edit is the `routes.rb` file to set our root route. We're going to this so that we can see the application without having to append `/cars` at the end of the URL. 
 
@@ -324,7 +251,7 @@ end
 
 Save the file. You can close VSCode now; the rest of the steps take place in the terminal.
 
-#### Step 4.6: Add Changes to Git
+#### Step 3.6: Add Changes to Git
 
 Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
@@ -362,7 +289,7 @@ While we're here, we might as well push our changes to GitHub too:
 git push origin master
 ~~~
 
-#### Step 4.7: Push to Heroku
+#### Step 3.7: Push to Heroku
 
 Now that we've commited the files, we can push to Heroku:
 
@@ -388,7 +315,7 @@ remote:        https://random-words-73975.herokuapp.com/ deployed to Heroku
 
 This is the link to your new site! Yes, you have published something to the internet! You can click it now, but we aren't quite done setting everything up just yet.
 
-#### Step 4.8: Migrate the Database on Heroku
+#### Step 3.8: Migrate the Database on Heroku
 
 Similar to what we did locally before we launched our app, we need to migrate the database on Heroku, which we can do with the Heroku CLI.
 
@@ -402,7 +329,7 @@ You might see some strange output, but as long as you do not have an error, you 
 
 If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
 
-#### Step 4.9: Visit Your New Application
+#### Step 3.9: Visit Your New Application
 
 It's time to see your app on the web! If you are not using WSL, to quickly open your app, type
 
@@ -412,7 +339,7 @@ heroku open
 
 and play around with it! 
 
-### Step 5: Let us know how it went!
+### Step 4: Let us know how it went!
 
 You have successfully completed the installations. Congratulations!!! This was __the hardest part__ of the entire Odin Project.
 
