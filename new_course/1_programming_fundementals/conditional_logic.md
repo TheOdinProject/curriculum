@@ -53,7 +53,7 @@ You don't even need the `end` statement. Nice and concise!
 
 The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value, or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
-#### Adding "else" and "elsif"
+### Adding "else" and "elsif"
 We often want to check a condition and run some code if it's true but then run some other code if it's false. This is done with an `if...else` statement.
 
 ~~~ruby
@@ -275,7 +275,7 @@ end
 
 You should use an `unless` statement when you want to **not** do something if a condition is `true`, because it can make your code more readable than using `if !true`.
 
-### Ternary operator
+### Ternary Operator
 The ternary operator is a one-line `if...else` statement that can make your code much more concise.
 
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
