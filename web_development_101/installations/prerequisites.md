@@ -179,6 +179,6 @@ ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
 
 </details>
 
-**Please Note: We do not support Windows without a VM or WSL at this time, many people have had problems developing with Rails while using Windows** 
+**Please Note: We do not support Windows without a VM or WSL at this time, as many people have had problems developing with Rails while using Windows.** 
 
-The Odin Project has great support for Linux if you get stuck, please give it a shot! If you feel you can contrubute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
+The Odin Project has great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contrubute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
