@@ -1902,6 +1902,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 (https://xcarmaix.github.io/google-homepage/)
 * [CoolHandLuke79's Solution (Easy)](https://github.com/CoolHandLuke79/google-homepage) - [View in Browser](https://coolhandluke79.github.io/google-homepage/)
 * [Michael Houmann's solution in danish(easy)](https://github.com/mhoumann87/top_google_homepage) - [View in Browser](https://mhoumann87.github.io/top_google_homepage/)
+* [Beka Arabuli's Solution (Easy)](https://github.com/arabuli/google-homepage) - [View in Browser](https://arabuli.github.io/google-homepage/)
 
 
 ### Additional Resources
