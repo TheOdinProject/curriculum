@@ -13,10 +13,8 @@ In the following sections, we'll go over the steps for setting up your environme
 In the next few lessons, we will walk through these installation steps together:
 
 * installing the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of your choice;
-* installing Ruby, Rails, and Git;
 * installing a code editor;
 * creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using); and
-* creating and deploying a very basic Ruby on Rails application to make sure it all works. 
 
 At the end of this section, you'll be able to show off this app to your friends and family! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
 
