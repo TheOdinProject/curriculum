@@ -21,84 +21,7 @@ Those are terminal commands and you'll need to enter them on the terminal in you
 
 ### Your First Rails App
 
-<<<<<<< HEAD
-#### Step 1: Configure Git and GitHub
-
-Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the curriculum.
-
-GitHub is a service that allows you to upload your code using Git and to manage your code with a nice web interface. GitHub and Git are not the same thing or even the same company, but it's important to understand and be able to use both.
-
-#### Step 1.1: Setup Git
-
-For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When you're working as part of a team, Git allows you and your teammates to see who committed each line of code.
-
-The commands below will configure Git. Be sure to open your terminal and enter your own information inside the quotes (but include the quotation marks)!
-
-~~~bash
-git config --global user.name "Your Name"
-git config --global user.email "yourname@example.com"
-~~~
-
-To enable colorful output with `git`, type
-
-~~~bash
-git config --global color.ui auto
-~~~
-
-To verify things are working properly, enter these commands and verify that the output matches your name and email address.
-
-~~~bash
-git config --get user.name
-git config --get user.email
-~~~
-
-#### Step 1.2: Create a GitHub Account or Sign In
-
-Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
-
-#### Step 1.3: Create an SSH Key
-
-An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
-
-First, we need to see if you have an SSH key already installed. Type this into the terminal:
-
-~~~bash
-ls ~/.ssh/id_rsa.pub
-~~~
-
-If the message in the console contains `No such file or directory`, then you don't have an SSH key, and you'll need to create one. If you do not see `No such file or directory` in the output, you already have a key; proceed to step 1.4.
-
-To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are.
-
-~~~bash
-ssh-keygen -C yourname@example.com
-~~~
-
-* When it prompts you for a location to save the generated key, just push `Enter`.
-* Next, it will ask you for a password; enter one if you wish, but it's not required.
-
-#### Step 1.4: Link Your SSH Key with GitHub
-
-Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
-
-First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu.
-
-Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
-
-Now you need to copy your public SSH key. To do this, we're going to use a command called [`cat`](http://www.linfo.org/cat.html) to read the file to the console. (Note that the `.pub` file extension is important in this case.)
-
-~~~bash
-cat ~/.ssh/id_rsa.pub
-~~~
-
-Highlight and copy the output, which starts with `ssh-rsa` and ends with your email address.
-
-Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click `Add SSH key`. You're done! You've successfully added your SSH key!
-
-### Step 2: Create Your First Ruby on Rails Web Application
-=======
 ### Step 1: Create Your First Ruby on Rails Web Application
->>>>>>> moves git installation out of other files
 
 Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
 
@@ -272,13 +195,9 @@ heroku keys:add
 
 Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
 
-<<<<<<< HEAD
 The termial may read `Invalid credentials provided`. Just press any key and the Heroku website will open in your browser. Log in with the information you created your account with, and the terminal will reappear and accept your public SSH key.
 
 #### Step 4.4: Create a Heroku Application
-=======
-#### Step 3.4: Create a Heroku Application
->>>>>>> moves git installation out of other files
 
 First, run
 
