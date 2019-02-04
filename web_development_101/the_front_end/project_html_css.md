@@ -114,6 +114,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Braxton Lemmon's Solution (Difficult)](https://github.com/braxtonlemmon/googleresultspage) - [View in Browser](https://braxtonlemmon.github.io/googleresultspage)
 * [Digenaldo Neto's Solution (Easy)](https://digenaldo.github.io/google-homepage/) - [View in Browser](https://digenaldo.github.io/google-homepage/)
 * [Aaron Thomas's Solution (Easy)](https://github.com/a-thomas175/google-homepage) - [View in Browser](https://a-thomas175.github.io/google-homepage/)
+
 * [Dean Qian's solution (Easy)](https://github.com/dqian93/google-homepage) - [View in Browser](https://dqian93.github.io/google-homepage/)
 * [Nathan Dimitriades' Solution (Easy)](https://github.com/nathaniades/google-homepage) - [View in Browser](https://nathaniades.github.io/google-homepage/)
 * [Kemi Thomas' Solution (Easy)](https://github.com/kem247/google_homepage) - [View in Browser](https://kem247.github.io/google_homepage/)
@@ -1905,6 +1906,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Beka Arabuli's Solution (Easy)](https://github.com/arabuli/google-homepage) - [View in Browser](https://arabuli.github.io/google-homepage/)
 * [Pangsui Linge's Solution(Easy)](https://github.com/pangsui/google_homepage)
 * [Metin Karakus's Solution (Easy)](https://metinkarakus.github.io/google_homepage/) - [View in Browser](https://metinkarakus.github.io/google_homepage/)
+Kelvin munyua solution
+
 
 
 ### Additional Resources
