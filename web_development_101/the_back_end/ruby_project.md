@@ -485,6 +485,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Gregory's solution](https://github.com/Selvdrap/learn_ruby)
 * [Valentino Valenti's Solution](https://github.com/1ba1/learn_ruby)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/learn_ruby)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/learn_ruby)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
