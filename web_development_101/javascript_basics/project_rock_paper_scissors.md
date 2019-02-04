@@ -484,3 +484,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ohlie's Solution](https://github.com/lco1220/top-RockPaperScissor-console)
 - [KvotheNor's Solution](https://github.com/KvotheNOR/rockPaperScissor)
 - [Reynard's Solution](https://github.com/reynard93/rockpaperscirros) - [View in Browser](https://reynard93.github.io/rockpaperscirros/)
+- [Allden's Solution](https://github.com/allden/rock-paper-scissors) - [View in Browser](https://allden.github.io/rock-paper-scissors/)
