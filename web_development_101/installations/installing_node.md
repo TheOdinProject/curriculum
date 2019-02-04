@@ -2,7 +2,7 @@
 
 Node is a JavaScript intreperter that doesn't run in the browser, there are many tools that require this to be installed. Testing frameworks and bundlers are two of many.
 
-We're gonig to install it using `nvm` (not to be confused with `npm`), because it makes it easy to change node versions and upgrade node.
+We're gonig to install it using `nvm` (Node Version Manager), because it makes it easy to change node versions and upgrade node.  There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in javascript environment.  It can be easy to confuse these two so read carefully!
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
