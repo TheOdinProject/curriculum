@@ -299,3 +299,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [vulence's Solution](https://github.com/vulence/etch-a-sketch) - [View in Browser](http://vulence.github.io/etch-a-sketch)
 * [Ohlie's Solution](https://github.com/lco1220/Etch-a-Sketch) - [View in Browser](https://lco1220.github.io/Etch-a-Sketch/)
 * [antdricot's Solution](https://github.com/antdricot/odin-etch-a-sketch) - [View in Browser](https://antdricot.github.io/odin-etch-a-sketch/)
+* [Allden's Solution](https://github.com/allden/Etch-A-Sketch) - [View in Browser](https://allden.github.io/Etch-A-Sketch/)
