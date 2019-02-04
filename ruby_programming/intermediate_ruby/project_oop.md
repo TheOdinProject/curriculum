@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
+* [Noah's Solution](https://github.com/noahniuwa/odin_assignments/blob/master/tictactoe.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby/intermediate/ruby-intermediate/tic-tac-toe.rb)
 * [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/tree/master/tic_tac_toe)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/tic_tac_toe)
