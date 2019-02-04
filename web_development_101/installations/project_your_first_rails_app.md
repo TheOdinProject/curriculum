@@ -195,19 +195,9 @@ heroku keys:add
 
 Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
 
-<<<<<<< HEAD
 The terminal may read `Invalid credentials provided`. Just press any key and the Heroku website will open in your browser. Log in with the information you created your account with, and the terminal will reappear and accept your public SSH key.
 
 #### Step 3.4: Create a Heroku Application
-=======
-<<<<<<< HEAD
-The termial may read `Invalid credentials provided`. Just press any key and the Heroku website will open in your browser. Log in with the information you created your account with, and the terminal will reappear and accept your public SSH key.
-
-#### Step 4.4: Create a Heroku Application
-=======
-#### Step 3.4: Create a Heroku Application
->>>>>>> moves git installation out of other files
->>>>>>> moves git installation out of other files
 
 First, run
 
