@@ -1,5 +1,5 @@
 ### Introduction
-Before we can install Ruby and launch a Rails application, we need to set up a compatible operating system. 
+Before we can continue, we need to set up a devleopment enviornmnet.
 
 If you are already using **MacOS** or **Linux**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
@@ -69,7 +69,7 @@ Installing Guest Additions is the hardest part of setting up a VM, but luckily, 
 
 Here are some tips to help you get started coding in a virtual environment:
 
-* All installations are done in the VM. You will install everything you need for coding, including Ruby, Rails, and JavaScript, inside the Guest OS.
+* All installations are done in the VM. You will install everything you need for coding, inside the Guest OS.
 
 * To install software on your VM, you will follow the Linux installation instructions from inside the Xubuntu VM.
 
@@ -125,7 +125,7 @@ For step-by-step instructions, please follow this [installation guide](https://t
 
 Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
-With that being said, though, Ruby and Rails are still rather buggy on WSL, so we recommend using a virtual machine instead. In the long run, using a VM instead of WSL will save you time and headaches.
+With that being said, though, Ruby and Rails are still rather buggy on WSL (if you are doing the fullstack track), so we recommend using a virtual machine instead. In the long run, using a VM instead of WSL will save you time and headaches.
 
 Since the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
 
