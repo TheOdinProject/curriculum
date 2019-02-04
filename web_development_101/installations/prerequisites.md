@@ -1,13 +1,5 @@
 ### Introduction
-<<<<<<< HEAD
-<<<<<<< HEAD
 Before we can continue, we need to set up a development enviornmnet.
-=======
-Before we can continue, we need to set up a devleopment enviornmnet.
->>>>>>> makes more generic
-=======
-Before we can continue, we need to set up a development enviornmnet.
->>>>>>> Update prerequisites.md
 
 If you are already using **MacOS** or **Linux**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
@@ -140,10 +132,14 @@ For step-by-step instructions, please follow this [installation guide](https://t
 Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Having said that, setting it up is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
 =======
 With that being said, though, Ruby and Rails are still rather buggy on WSL (if you are doing the fullstack track), so we recommend using a virtual machine instead. In the long run, using a VM instead of WSL will save you time and headaches.
 >>>>>>> makes more generic
+=======
+Having said that, setting it up is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
+>>>>>>> Update prerequisites.md
 
 Since the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
 
