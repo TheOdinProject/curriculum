@@ -1,5 +1,5 @@
 ### Introduction
-Before we can continue, we need to set up a devleopment enviornmnet.
+Before we can continue, we need to set up a development enviornmnet.
 
 If you are already using **MacOS** or **Linux**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
