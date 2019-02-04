@@ -1,9 +1,13 @@
 ### Introduction
 <<<<<<< HEAD
+<<<<<<< HEAD
 Before we can continue, we need to set up a development enviornmnet.
 =======
 Before we can continue, we need to set up a devleopment enviornmnet.
 >>>>>>> makes more generic
+=======
+Before we can continue, we need to set up a development enviornmnet.
+>>>>>>> Update prerequisites.md
 
 If you are already using **MacOS** or **Linux**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
