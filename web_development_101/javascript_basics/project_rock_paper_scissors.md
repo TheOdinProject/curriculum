@@ -456,7 +456,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Brett-Bonnet's Console Solution](https://github.com/Brett-Bonnet/rock-paper-scissors) - [View in Browser](https://brett-bonnet.github.io/rock-paper-scissors/)
 - [Dennis McGovern's solution](https://github.com/mcgovernd/rock-paper-scissors/blob/master/index.html)
 - [Leonardo Ruiz's solution](https://github.com/leo3904/Rock-paper-scissors)
-- [Canicodenow's Console Solution](https://github.com/canicodenow/rock-paper-scissors) - [View in Browser](https://canicodenow.github.io/rock-paper-scissors/)
+- [Canicodenow's Console and UI Solution](https://github.com/canicodenow/rock-paper-scissors) - [View UI Solution in Browser](https://canicodenow.github.io/rock-paper-scissors/)
 - [Max Stouten's solution](https://kapiteinkattenkwaad.github.io/rock_paper_scissors/)
 - [quilmes's solution](https://github.com/guanacone/rock_paper_scissors/) - [View in Browser](https://guanacone.github.io/rock_paper_scissors/)
 - [jhavn's solution](https://github.com/jhavn/rockpaperscissors)

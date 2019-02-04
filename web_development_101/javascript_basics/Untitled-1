@@ -1,0 +1,16 @@
+take a number n
+loop 2 to n-1
+check for remainders
+if no remainder (if == 0) then print number
+
+
+let num = prompt("Enter a number", 0);
+let listOfPrimes = "";
+let i = 0;
+while (i < num) {
+    if (num % i == 0) {
+        listOfPrimes += num;
+    } else continue;
+    i++
+}
+alert( listOfPrimes );
