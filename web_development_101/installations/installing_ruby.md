@@ -6,7 +6,7 @@ Before continuing, let's review a few best practices to keep in mind:
 
 * Copy and paste the commands to avoid typos.
 * Follow the directions closely, and don't skip over any sections.
-* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user.
+* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances you might see a message in the terminal telling you to use sudo and install something with `apt` ignore that and follow _our_ instructions for now.
 
 Now, let's get started!
 
