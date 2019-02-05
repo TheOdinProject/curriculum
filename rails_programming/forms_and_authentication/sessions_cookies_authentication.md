@@ -7,6 +7,7 @@ In this lesson you'll learn about sessions, browser cookies, and how authenticat
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
+* What is a cookie?
 * What is a session?
 * How is the `session` "hash" different from the `cookies` "hash"?
 * What is the `flash` "hash" used for?
