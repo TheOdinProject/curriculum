@@ -5,8 +5,8 @@ Now that you've installed your OS and text editor of choice, it's time to instal
 Before continuing, let's review a few best practices to keep in mind:
 
 * Copy and paste the commands to avoid typos.
-* Do NOT use `sudo` unless the command specifically says to do so.
 * Follow the directions closely, and don't skip over any sections.
+* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user.
 
 Now, let's get started!
 
