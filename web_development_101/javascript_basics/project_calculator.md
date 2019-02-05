@@ -213,3 +213,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Valentino Valenti's Solution](https://1ba1.github.io/simple-calculator/)
 - [Brett Bonnet's solution](https://github.com/Brett-Bonnet/calculator) - [View in Browser](https://brett-bonnet.github.io/calculator/)
 - [keskiviikko's solution](https://github.com/keskiviikko/project-calculator) - [View in Browser](https://keskiviikko.github.io/project-calculator/)
+- [Rodrigo O. Coto's Solution](https://github.com/Lvzbel/odin_calculator) - [View in Browser](https://lvzbel.github.io/odin_calculator/)
