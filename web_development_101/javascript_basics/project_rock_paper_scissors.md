@@ -412,3 +412,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mohammed Nabeel's solution](https://mnabeelp.github.io/Rock-Paper-Scissors/)
 - [Daniel Ryu's console solution](https://github.com/dryu99/rock-paper-scissors)
 - [GustavoRdz's solution](https://github.com/GustavoRdz/RockPaperScissors) - [View in Browser](https://gustavordz.github.io/RockPaperScissors/)
+- [CameronStAmant's solution](https://github.com/CameronStAmant/rockPaperScissors)
