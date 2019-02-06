@@ -14,6 +14,12 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def authenticate_admin_user!
+    unless current_user && current_user.admin?
+      redirect_to root_path
+    end
+  end
+
   def after_sign_out_path_for(_resource_or_scope)
     home_path(ref: 'logout')
   end
