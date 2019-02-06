@@ -41,6 +41,7 @@ Here are some use cases (abilities your project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Kevin Vuong's solution](https://github.com/fffear/javascript-calculator) - [View in Browser](https://fffear.github.io/javascript-calculator/)
 - [CptChuckles' solution](https://github.com/cptchuckles/calculator) - [View in Browser](https://cptchuckles.github.io/calculator/)
 - [Jeton Thaçi's solution](https://github.com/jeton-th/calculator) - [View in Browser](https://jeton-th.github.io/calculator/)
 - [Shruti Jain's Solution](https://github.com/Sjain020188/Calculator) - [View in Browser](https://sjain020188.github.io/Calculator/index.html)
