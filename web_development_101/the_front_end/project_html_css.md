@@ -84,6 +84,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Katarzyna Kaswen-Wilk's Solution (Easy)](https://github.com/kikupiku/google-homepage.git) - [View in Browser](https://kikupiku.github.io/google-homepage/)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/TOPgoogle-homepage) - [View in Browser](https://jaybur1.github.io/TOPgoogle-homepage/)
 * [Luke Aimson's Solution](Functioning Clone - Easy)](https://lukeaims.github.io/GoogleClone/) - [View in Browser](https://lukeaims.github.io/GoogleClone/)
 * [Jasmeet Singh's solution](https://github.com/jasmeet9323/google-homepage-difficult) - [View in Browser (Difficult)](https://jasmeet9323.github.io/google-homepage-difficult/)
@@ -1909,6 +1910,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mustapha Hammad's solution (Easy)](https://github.com/Mustapha-Hammad/google-homepage) - [View in Browser](https://mustapha-hammad.github.io/google-homepage/)
 * [machineshot's solution (Easy)](https://github.com/MachineShot/google-homepage) - [View in Browser](https://machineshot.github.io/google-homepage/)
 * [Cedric Soares' solution (Easy)](https://github.com/cedricsoares/google-homepage-The-Odin-Project) - [View in Browser](https://cedricsoares.github.io/google-homepage-The-Odin-Project/)
+* [Ricala's Solution](https://github.com/Ricala/google-homepage) - [View in Browser](https://ricala.github.io/google-homepage/)
 
 
 ### Additional Resources

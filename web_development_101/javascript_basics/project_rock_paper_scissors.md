@@ -36,6 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+[Jay Burbyga's Solution](https://github.com/Jaybur1/TOProck-paper-scissors) - [View in Browser](https://jaybur1.github.io/TOProck-paper-scissors/)
 - [Josh Gunter's Solution](https://github.com/joshgunter/rock-paper-scissors)
 - [nezlicodes solution](https://github.com/nezlicodes/Rock-paper-scissors) - [nezlicodes UI Solution](https://github.com/nezlicodes/rock_paper_scissors-UI-version-)
 - [NicklasHugoy's Solution](https://github.com/NicklasHugoy/rock_paper_scissors)
@@ -443,6 +444,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Daniel Ryu's console solution](https://github.com/dryu99/rock-paper-scissors)
 - [Daniel Ryu's UI solution](https://github.com/dryu99/rock-paper-scissors-ui) - [View in Browser](https://dryu99.github.io/rock-paper-scissors-ui/)
 - [GustavoRdz's solution](https://github.com/GustavoRdz/RockPaperScissors) - [View in Browser](https://gustavordz.github.io/RockPaperScissors/)
+- [CameronStAmant's solution](https://github.com/CameronStAmant/rockPaperScissors)
 - [GustavoRdz's UI solution](https://github.com/GustavoRdz/rock-paper-scissors-ui) - [View in Browser](https://gustavordz.github.io/rock-paper-scissors-ui/)
 - [Abdirahman's Console solution](https://github.com/Murabac/rock_paper_scissors) - [View in Browser](https://murabac.github.io/rock_paper_scissors/)
 - [Leon J Mac's console solution](https://github.com/leonjmac/rock-paper-scissors) - [View in Browser](https://leonjmac.github.io/rock-paper-scissors/)
@@ -485,3 +487,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [KvotheNor's Solution](https://github.com/KvotheNOR/rockPaperScissor)
 - [Reynard's Solution](https://github.com/reynard93/rockpaperscirros) - [View in Browser](https://reynard93.github.io/rockpaperscirros/)
 - [Allden's Solution](https://github.com/allden/rock-paper-scissors) - [View in Browser](https://allden.github.io/rock-paper-scissors/)
+- [Thiago Nunes Costa's Solution](https://github.com/thiagoncosta86/rock_scissors_paper) - [View in Browser](https://thiagoncosta86.github.io/rock_scissors_paper/)
