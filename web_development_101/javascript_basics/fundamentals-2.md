@@ -46,3 +46,8 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 To give you a good bit of practice, we have created an online classroom on repl.it.  In general we believe that it's best to work on programming on your _own_ computer rather than in an online environment but we'll get to that soon enough.
 
 - The classroom and lessons can be found [here](https://repl.it/community/classrooms/34425). Do the lessons in order.  You do not have to sign up or login to repl.it to do the course, but doing so makes the user experience a little nicer.. you can submit your answers to check them and see 'model solutions' on a couple of the lessons.
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+* [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)

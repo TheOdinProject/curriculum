@@ -18,6 +18,8 @@ You will be building a simple command line Hangman game where one player plays a
 Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Rudi Boshoff's Soultion](https://github.com/RudiBoshoff/hang-man) - [Repl.it executable](https://Hangman.rudiboshoff.repl.run)
+* [Khari's Soultion](https://github.com/kjwebdev/TOP_Projects/tree/master/hangman)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/hangman)
 * [Stefano Merazzi's solution](https://github.com/ste001/hangman)
 * [Smetanca52's solution](https://github.com/Smetanca52/hangman_game)
@@ -208,3 +210,4 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Slaven's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/hangman/hangman.rb)
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_programming/hangman) - [Play on Repl.it](https://repl.it/@Brendaneus/JuniorTroubledCodec)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/hangman) - [Play on repl.it](https://repl.it/@imemdm/IllfatedButteryKernel)
+* [Leila Alderman's solution](https://github.com/leila-alderman/hangman)

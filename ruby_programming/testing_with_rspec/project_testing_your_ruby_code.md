@@ -89,6 +89,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Tommy's solution ([Caesar Cipher, Enumerable](https://github.com/hoangtommy/rubyExercises), [Tic Tac Toe](https://github.com/hoangtommy/tic-tac-toe))
 * bchalman's solutions: [Caesar Cipher](https://github.com/bchalman/ruby_exercises/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/bchalman/ruby_exercises/blob/master/spec/my_enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/bchalman/tic_tac_toe)
 * Alex's solutions: [Caesar Cipher](https://github.com/alexcorremans/caesar_cipher), [Enumerable](https://github.com/alexcorremans/enumerable), [Tic Tac Toe (incomplete)](https://github.com/alexcorremans/tictactoe)
+* Leila Alderman's solutions: [Caesar cipher](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/01_caesar/caesar_spec.rb) and [Enumerables](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/spec/enumerables_spec.rb)
 
 ### Project: TDD Connect Four
 
@@ -110,6 +111,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Simon Tharby's solution](https://github.com/jinjagit/connect_four)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/count-four)
 * [prw001's solution](https://github.com/prw001/connect_four)
 * [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Connect%20Four)
