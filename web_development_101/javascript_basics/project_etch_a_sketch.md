@@ -40,6 +40,8 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [Christopher Richardo's Solution](https://github.com/ChrisRichardo/Etch-a-Sketch) - [View in browser](https://chrisrichardo.github.io/Etch-a-Sketch/)
+* [Roelof Wobben's Solution](https://github.com/RoelofWobben/sketch-a-edge) - [View in browser](https://roelofwobben.github.io/sketch-a-edge/)
 * [ARaut9's Solution](https://github.com/ARaut9/Etch-a-Sketch) - [View in browser](https://araut9.github.io/Etch-a-Sketch/)
 * [Yemre Aybey's Solution](https://github.com/YemreAybey/etch-a-skecth) - [View in browser](https://yemreaybey.github.io/etch-a-skecth/)
 * [Matthew Brown's Solution](https://github.com/vledoc/etch-a-sketch) - [View in browser](https://vledoc.github.io/etch-a-sketch/)
@@ -293,3 +295,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Nick-Trahan's Solution](https://github.com/Nick-Trahan/etch-a-sketch-odin) - [View in Browser](https://nick-trahan.github.io/etch-a-sketch-odin/)
 * [Valentino Valenti's Solution](https://1ba1.github.io/etch-a-sketch/)
 * [Andrew Dinsmore's Solution](https://github.com/teif26/etch_a_sketch/) - [View in Browser]( https://teif26.github.io/etch_a_sketch/)
+* [Samuel Oswald's Solution](https://github.com/smozwald/Etch-a-Sketch/) - [View in Browser]( https://smozwald.github.io/Etch-a-Sketch/)
+* [vulence's Solution](https://github.com/vulence/etch-a-sketch) - [View in Browser](http://vulence.github.io/etch-a-sketch)
+* [Ohlie's Solution](https://github.com/lco1220/Etch-a-Sketch) - [View in Browser](https://lco1220.github.io/Etch-a-Sketch/)
+* [antdricot's Solution](https://github.com/antdricot/odin-etch-a-sketch) - [View in Browser](https://antdricot.github.io/odin-etch-a-sketch/)
+* [Allden's Solution](https://github.com/allden/Etch-A-Sketch) - [View in Browser](https://allden.github.io/Etch-A-Sketch/)
