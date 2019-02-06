@@ -1908,6 +1908,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Metin Karakus's Solution (Easy)](https://metinkarakus.github.io/google_homepage/) - [View in Browser](https://metinkarakus.github.io/google_homepage/)
 * [Mustapha Hammad's solution (Easy)](https://github.com/Mustapha-Hammad/google-homepage) - [View in Browser](https://mustapha-hammad.github.io/google-homepage/)
 * [machineshot's solution (Easy)](https://github.com/MachineShot/google-homepage) - [View in Browser](https://machineshot.github.io/google-homepage/)
+* [Cedric Soares' solution (Easy)](https://github.com/cedricsoares/google-homepage-The-Odin-Project) - [View in Browser](https://cedricsoares.github.io/google-homepage-The-Odin-Project/)
 
 
 ### Additional Resources
