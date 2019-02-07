@@ -84,11 +84,16 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-- [Jeton Thaçi's solution](https://github.com/jeton-th/google-homepage) - [View in Browser](https://jeton-th.github.io/google-homepage/)
+* [Farah Ali's Solution (easy)](https://github.com/alifarah33/google-homepage.git) - [View in Browser](https://alifarah33.github.io/google-homepage/)
+* [Katarzyna Kaswen-Wilk's Solution (Easy)](https://github.com/kikupiku/google-homepage.git) - [View in Browser](https://kikupiku.github.io/google-homepage/)
+* [Jay Burbyga's Solution](https://github.com/Jaybur1/TOPgoogle-homepage) - [View in Browser](https://jaybur1.github.io/TOPgoogle-homepage/)
+* [Luke Aimson's Solution](Functioning Clone - Easy)](https://lukeaims.github.io/GoogleClone/) - [View in Browser](https://lukeaims.github.io/GoogleClone/)
+* [Jasmeet Singh's solution](https://github.com/jasmeet9323/google-homepage-difficult) - [View in Browser (Difficult)](https://jasmeet9323.github.io/google-homepage-difficult/)
+* [Jeton Thaçi's solution](https://github.com/jeton-th/google-homepage) - [View in Browser](https://jeton-th.github.io/google-homepage/)
 * [Saiharsha B's Solution (Easy)](https://github.com/thewhitewolf17/google-homepage) - [View in Browser (Easy)](https://thewhitewolf17.github.io/google-homepage/)
 * [Nicolas von Garrel's Solution (Easy)](https://github.com/mistervoga/google-homepage)
 * [Nezlicodes Solution (Easy)](https://github.com/nezlicodes/google-homepage)
-[Zayne Desphezr Solution (Easy)](https://github.com/prozayn2018/google-homepage) - [View in Browser (Easy)](https://prozayn2018.github.io/google-homepage/)
+* [Zayne Desphezr Solution (Easy)](https://github.com/prozayn2018/google-homepage) - [View in Browser (Easy)](https://prozayn2018.github.io/google-homepage/)
 * [Roelof Wobben's Solution (Easy)](https://github.com/RoelofWobben/google-homepage) - [View in Browser (Easy)](https://roelofwobben.github.io/google-homepage/)
 * [Pavel Alekseev's Solution (Easy)](https://github.com/RukkiesMan/google-homepage) - [View in Browser (Easy)](https://rukkiesman.github.io/google-homepage)
 * [Stefan Spasic's Solution (Easy)](https://github.com/Semantron/google-homepage) - [View in Browser (Easy)](https://semantron.github.io/google-homepage/)
@@ -1795,7 +1800,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Malditagaseosa Solution (Easy)](https://malditagaseosa.github.com/google-page) - [View in Browser](https://malditagaseosa.github.io/google-page)
 * [Mohammed Nabeel's Solution ](https://mnabeelp.github.io/google-homepage/) - [View in Browser](https://mnabeelp.github.io/google-homepage/)
 * [Renee Quinn's Solution (Easy)](https://github.com/reneequinn/google-homepage) - [View in Browser](https://reneequinn.github.io/google-homepage/)
- * [Leila Alderman's solution (Easy)](https://github.com/leila-alderman/google-homepage) - [View in Browser](https://leila-alderman.github.io/google-homepage/)
+* [Leila Alderman's solution (Easy)](https://github.com/leila-alderman/google-homepage) - [View in Browser](https://leila-alderman.github.io/google-homepage/)
 * [Thaís Falbo(Easy)](https://github.com/thaisfalbo/google-homepage)
 * [Yaroslav Vyugin (Easy)](https://github.com/Yar1991/google-homepage) - [View in Browser](https://yar1991.github.io/google-homepage/)
 * [Tayo Olayinka's (Easy)](https://github.com/olayinkatayo/google-homepage) - [View in Browser](https://olayinkatayo.github.io/google-homepage/)
@@ -1897,10 +1902,17 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Catalystmatic's Solution (Easy)](https://github.com/catalystmatic/google-homepage/) - [View in Browser](https://catalystmatic.github.io/google-homepage/)
 * [Nick Wegscheid's Solution (Easy)](https://github.com/nsw125/google-homepage) - [View in Browser](https://nsw125.github.io/google-homepage/)
 * [nosirromd's Solution (Easy)](https://github.com/nosirromd/google-homepage)  - [View in Browser](https://nosirromd.github.io/google-homepage/)
-* [XCarmaIX's Solution (Easy)](https://github.com/XCarmaIX/google-homepage) - [View in Browser]
-(https://xcarmaix.github.io/google-homepage/)
+* [XCarmaIX's Solution (Easy)](https://github.com/XCarmaIX/google-homepage) - [View in Browser](https://xcarmaix.github.io/google-homepage/)
 * [CoolHandLuke79's Solution (Easy)](https://github.com/CoolHandLuke79/google-homepage) - [View in Browser](https://coolhandluke79.github.io/google-homepage/)
-
+* [Michael Houmann's solution in danish(easy)](https://github.com/mhoumann87/top_google_homepage) - [View in Browser](https://mhoumann87.github.io/top_google_homepage/)
+* [Beka Arabuli's Solution (Easy)](https://github.com/arabuli/google-homepage) - [View in Browser](https://arabuli.github.io/google-homepage/)
+* [Pangsui Linge's Solution(Easy)](https://github.com/pangsui/google_homepage)
+* [Metin Karakus's Solution (Easy)](https://metinkarakus.github.io/google_homepage/) - [View in Browser](https://metinkarakus.github.io/google_homepage/)
+* [Mustapha Hammad's solution (Easy)](https://github.com/Mustapha-Hammad/google-homepage) - [View in Browser](https://mustapha-hammad.github.io/google-homepage/)
+* [machineshot's solution (Easy)](https://github.com/MachineShot/google-homepage) - [View in Browser](https://machineshot.github.io/google-homepage/)
+* [Cedric Soares' solution (Easy)](https://github.com/cedricsoares/google-homepage-The-Odin-Project) - [View in Browser](https://cedricsoares.github.io/google-homepage-The-Odin-Project/)
+* [Ricala's Solution](https://github.com/Ricala/google-homepage) - [View in Browser](https://ricala.github.io/google-homepage/)
+* [Nicole's Solution (Easy)](https://d3v0chka.github.io/google-homepage)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
