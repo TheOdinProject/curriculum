@@ -84,6 +84,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Jomaree Lawsin's (Easy)](https://github.com/jl88s/google-homepage) - [View in Browser](https://github.com/jl88s/google-homepage)
 * [Rohan Sirohi's Solution (easy)](https://github.com/rohansirohi/google-homepage) - [View in Browser](https://rohansirohi.github.io/google-homepage/)
 * [Farah Ali's Solution (easy)](https://github.com/alifarah33/google-homepage.git) - [View in Browser](https://alifarah33.github.io/google-homepage/)
 * [Katarzyna Kaswen-Wilk's Solution (Easy)](https://github.com/kikupiku/google-homepage.git) - [View in Browser](https://kikupiku.github.io/google-homepage/)
@@ -1914,6 +1915,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Cedric Soares' solution (Easy)](https://github.com/cedricsoares/google-homepage-The-Odin-Project) - [View in Browser](https://cedricsoares.github.io/google-homepage-The-Odin-Project/)
 * [Ricala's Solution](https://github.com/Ricala/google-homepage) - [View in Browser](https://ricala.github.io/google-homepage/)
 * [Nicole's Solution (Easy)](https://d3v0chka.github.io/google-homepage)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
