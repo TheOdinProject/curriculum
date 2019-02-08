@@ -1,6 +1,6 @@
 # TOP Markdown Style Guide
 
-[Inspired by google styleguide](https://github.com/google/styleguide/edit/gh-pages/docguide/style.md)
+[Inspired by google's styleguide](https://github.com/google/styleguide/edit/gh-pages/docguide/style.md)
 
 TOP uses Markdown for its lessons to be easily read and edited, and get properly formatted HTML for the TOP website. 
 
@@ -84,15 +84,19 @@ Should repeat learning outcomes with answers.
 ## Project Layout
 
 ```markdown
+
 ### Introduction 
+
 A brief introduction to the project and an over view of what the student will be building.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 Describe the requirements or users stories for the project in detail.
 </div>
 
 ### Helpful Links
+
 Links that may help with the project if any
 
 ### Student Solutions
@@ -184,13 +188,16 @@ When nesting lists, use a 4 space indent for both numbered and bulleted lists:
 
 ### Mulit-line list items
 
-When list items, wrap into multiple lines consider adding newlines per item to make it more readable:
+When list items, wrap into multiple lines consider adding newlines per item 
+to make it more readable:
 
 ```markdown
 
-1.  This is a long long long long long long long long long long long long long long long long long long long list item.
+1.  This is a long long long long long long long long long long long long long 
+    long long long long long long list item.
 
-2.  This is another long long long long long long long long long long long long long long long long long long long list item.
+2.  This is another long long long long long long long long long long long long
+    long long long long long long long list item.
 
 ```
 
@@ -204,9 +211,9 @@ This will add a paragraph tag to your list item `<li><p></p></li>`
 literally. Use them for short code quotations and field names:
 
 ```markdown
-You'll want to run `really_cool_script.sh arg`.
+Write these in the `script` tag of a skeleton html file.
 
-Pay attention to the `foo_bar_whammy` field in that table.
+...which is why we can call `taco.printString()` but not `taco.capitalizeString()`. 
 ```
 
 Use inline code when referring to file types in an abstract sense, rather than a
@@ -216,18 +223,16 @@ specific file:
 Be sure to update your `README.md`!
 ```
 
-Backticks are the most common approach for "escaping" Markdown metacharacters;
-in most situations where escaping would be needed, code font just makes sense
-anyway.
-
 ### Codeblocks
 
 For code quotations longer than a single line, use a codeblock:
 
 <pre>
-```python
-def Foo(self, bar):
-  self.bar = bar
+```javascript
+const obj = {
+  name: "object",
+  marker: "X"
+}
 ```
 </pre>
 
@@ -245,8 +250,8 @@ the list:
 ```markdown
 *   Bullet.
 
-    ```c++
-    int foo;
+    ```ruby
+    puts foo;
     ```
 
 *   Next bullet.
