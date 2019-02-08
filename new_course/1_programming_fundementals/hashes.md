@@ -60,8 +60,23 @@ shoes = {
 shoes["summer"]   #=> "sandals"
 ~~~
 
+**Note** trying to access a value with a key thats not in a hash will return `nil`
+
+~~~ruby
+shoes["spring"] #=> nil
+~~~
+
+Sometimes you won't want this behavior, as it will silently return a nil value and potentially wreck havoc in your program. Luckily hashes have a `fetch` method that will raise an error when you try to access a key that is not in your hash. It also gives you the ability to return a default if a key is not found.
+
+~~~ruby
+shoes.fetch("spring") #=> KeyError: key not found: "spring"
+
+# return a default by passing in a second argument to fetch
+shoes.fetch("spring", "sneakers") #=> "sneakers"
+~~~
+
 ### Adding and Changing Data
-You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable. 
+You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable.
 
 ~~~ruby
 shoes["fall"] = "sneakers"
