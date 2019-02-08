@@ -487,6 +487,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ohlie's Solution](https://github.com/lco1220/top-RockPaperScissor-console)
 - [KvotheNor's Solution](https://github.com/KvotheNOR/rockPaperScissor)
 - [Reynard's Solution](https://github.com/reynard93/rockpaperscirros) - [View in Browser](https://reynard93.github.io/rockpaperscirros/)
+- [Leavism's UI Solution](https://github.com/leavism/rock-paper-scissors) - [View in Browser](https://leavism.github.io/rock-paper-scissors/)
 - [Allden's Solution](https://github.com/allden/rock-paper-scissors) - [View in Browser](https://allden.github.io/rock-paper-scissors/)
 - [Thiago Nunes Costa's Solution](https://github.com/thiagoncosta86/rock_scissors_paper) - [View in Browser](https://thiagoncosta86.github.io/rock_scissors_paper/)
 - [Kevin MP Guest's Solution](https://github.com/kaomghin12/rock_paper_scissors)
