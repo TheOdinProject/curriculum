@@ -1917,8 +1917,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Cedric Soares' solution (Easy)](https://github.com/cedricsoares/google-homepage-The-Odin-Project) - [View in Browser](https://cedricsoares.github.io/google-homepage-The-Odin-Project/)
 * [Ricala's Solution](https://github.com/Ricala/google-homepage) - [View in Browser](https://ricala.github.io/google-homepage/)
 * [Nicole's Solution (Easy)](https://d3v0chka.github.io/google-homepage)
-* [Kevin MP Guest's Solution (Easy)](https://kaomghin12.github.io/google-homepage)
-add my solution here
+* [Kevin MP Guest's Solution (Easy)](https://kaomghin12.github.io/google-homepage
+https://temideeone.github.io/google-homepage/
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
