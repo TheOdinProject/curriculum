@@ -134,6 +134,8 @@ Now, we're going to tell Rails to generate some templates for us. This will get 
 rails generate scaffold car make:string model:string year:integer
 ~~~
 
+**NOTE (Feb 8, 2019) If you get an error with the above command: Open the Gemfile (`code Gemfile`), and change the line that reads `gem 'sqlite3'` to `gem 'sqlite3' , '~> 1.3.13'`, save the file, run `bundle install` and then the `rails generate` command above once more.
+
 After generating the scaffolds, we need to migrate the database.
 
 ~~~bash
