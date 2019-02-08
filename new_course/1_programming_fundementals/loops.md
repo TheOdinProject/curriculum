@@ -57,10 +57,9 @@ end
 
 This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? In real life, of course, you should really just take "no" for an answer the first time.
 
-
 ### For Loop
 
-A `for` loop is used to iterate through a collection of information such as an array or range. These loops are useful if you need to do something a given number of times while also using an iterator. 
+A `for` loop is used to iterate through a collection of information such as an array or range. These loops are useful if you need to do something a given number of times while also using an iterator.
 
 ~~~ruby
 for i in 0..5
@@ -91,12 +90,11 @@ end
 
 Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`.
 
-
 ### Until Loop
 
 The `until` loop is the opposite of the `while` loop. A `while` loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false. These two loops can therefore be used pretty much interchangeably. Ultimately, what your break condition is will determine which one is more readable.
 
-As much as possible, you should avoid negating your logical expressions using `!` (not), which is where `until` shines.
+As much as possible, you should avoid negating your logical expressions using `!` (not). First, it can be difficult to actually notice the exclamation point, and second, using negation makes the logic more difficult to reason through and therefore your code more difficult to understand. These situations are where `until` shines.
 
 We can re-write our `while` loop examples using `until`.
 
@@ -119,7 +117,6 @@ end
 ~~~
 
 Much more readable! This code is guaranteed to get you a "yes".
-
 
 ### Upto and Downto Loops
 
