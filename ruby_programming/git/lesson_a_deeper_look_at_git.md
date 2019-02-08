@@ -31,8 +31,8 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
   1. If you haven't had the chance to do so, go through the [Web Development 101 Git Basics section](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git).
-  2. Read [Chapter 2: Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) of the [ProGit book](https://git-scm.com/book/en/v2).
-  3. Read [Chapter 3: Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) of the [ProGit book](https://git-scm.com/book/en/v2).  
+  2. Read [Chapter 2: Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) of the [ProGit book](https://git-scm.com/book/en/v2). (Click "next" at the bottom of the page to get to the next page. You want to read from page 2.1 "Getting a Git Repository" through page 2.8 "Summary".)
+  3. Read [Chapter 3: Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) of the [ProGit book](https://git-scm.com/book/en/v2). (Click "next" at the bottom of the page to get to the next page. You want to read from page 3.1 "Branches in a Nutshell" through page 3.7 "Summary".)
   4. To learn about some of the more advanced undo tools that Git offers, read these two additional pages from the [ProGit book](https://git-scm.com/book/en/v2): [Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) and [Reset Demystified](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified).
 </div>
 
