@@ -201,7 +201,7 @@ On the next page, you'll see a bunch of commands listed. We're really only inter
 
 Now, switch back over to the terminal to connect the project and GitHub by running two simple commands:
 
-NOTE: Do not enter the `<` or `>` symbols. Replace everything inside those symbols with the URL that you copied from GitHub.
+NOTE: Do not enter the `<` or `>` symbols. Replace those symbols and everything between them with the URL that you copied from GitHub.
 
 ~~~bash
 git remote add origin <SSH URL from above>
