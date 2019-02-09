@@ -282,6 +282,7 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
     * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
     * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
     * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
+3. [Read Alex Chaffee’s brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
 </div>
 
 ### Additional Resources

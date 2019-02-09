@@ -41,6 +41,11 @@ Here are some use cases (abilities your project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [ARaut9's solution](https://github.com/ARaut9/Calculator) - [View in Browser](https://araut9.github.io/Calculator/)
+- [Roelof Wobben's solution](https://github.com/RoelofWobben/Calculator) - [View in Browser](https://roelofwobben.github.io/Calculator/)
+- [Kevin Vuong's solution](https://github.com/fffear/javascript-calculator) - [View in Browser](https://fffear.github.io/javascript-calculator/)
+- [CptChuckles' solution](https://github.com/cptchuckles/calculator) - [View in Browser](https://cptchuckles.github.io/calculator/)
+- [Jeton Thaçi's solution](https://github.com/jeton-th/calculator) - [View in Browser](https://jeton-th.github.io/calculator/)
 - [Shruti Jain's Solution](https://github.com/Sjain020188/Calculator) - [View in Browser](https://sjain020188.github.io/Calculator/index.html)
 - [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/calculator) - [View in Browser](https://tylerdevers.github.io/OdinWebDev/calculator/)
 - [Leonardo Vega's Solution](https://github.com/leonardovega/calculator) - [View in Browser](https://leonardovega.github.io/calculator/)
@@ -211,3 +216,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mohamed's solution](https://github.com/mohamedcutte/jsCalculator) - [View in Browses](https://mohamedcutte.github.io/jsCalculator/.)
 - [Valentino Valenti's Solution](https://1ba1.github.io/simple-calculator/)
 - [Brett Bonnet's solution](https://github.com/Brett-Bonnet/calculator) - [View in Browser](https://brett-bonnet.github.io/calculator/)
+- [keskiviikko's solution](https://github.com/keskiviikko/project-calculator) - [View in Browser](https://keskiviikko.github.io/project-calculator/)
+- [Rodrigo O. Coto's Solution](https://github.com/Lvzbel/odin_calculator) - [View in Browser](https://lvzbel.github.io/odin_calculator/)
