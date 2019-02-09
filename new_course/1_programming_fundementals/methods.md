@@ -1,11 +1,17 @@
 ### Introduction
-Methods, also known as functions, are one of the foundational building blocks in programming. Almost every language implements some way of making methods.
+In Ruby, methods are where all the action happens! 
 
-You will often find yourself writing the same code in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time? This is what methods are for. They allow you to wrap sections of your code in a name, which you can then use where you need that code to be run in your program, and as many times as you need.
+You will often find yourself writing code that does the same thing in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time? This is what methods are for! Methods allow you to name sections of your code and then run that code anywhere in your program as many times as you need just by calling that name.
 
-This concept allows for what programmers refer to as the *D.R.Y.* approach to programming *-Don't Repeat Yourself-*. Recycling parts of code that would otherwise need to be repeated, often numerous times in several places, *can* make your program more readable and manageable.
+This concept allows for what programmers refer to as the **DRY** approach to programming: **Don't Repeat Yourself**. Recycling sections of code instead of repeating them throughout your programs can make your program more readable and manageable.
 
-In this lesson we are going to deconstruct what methods are, their behaviour, and how they are used.
+As you read more about Ruby methods, you'll notice that the terms "methods" and "functions" are often used interchangably. What's the difference? According to [The Ruby Programming Language](https://www.amazon.com/dp/0596516177/?tag=stackoverfl08-20) book:
+
+> Many languages distinguish between functions, which have no associated object, and methods, which are invoked on a receiver object. Because Ruby is a purely object-oriented language, all methods are true methods and are associated with at least one object.
+
+Basically, because everything in Ruby is an object, Ruby only has methods, not functions. With that established, we know that when we're talking about Ruby, "methods" and "functions" refer to the same thing.
+
+In this lesson, we're going to deconstruct what methods are, examine their behaviour, and learn how to use them.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
