@@ -219,3 +219,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [keskiviikko's solution](https://github.com/keskiviikko/project-calculator) - [View in Browser](https://keskiviikko.github.io/project-calculator/)
 - [Rodrigo O. Coto's Solution](https://github.com/Lvzbel/odin_calculator) - [View in Browser](https://lvzbel.github.io/odin_calculator/)
 - [Leon J Mac's Solution](https://github.com/leonjmac/calculator) - [View in Browser](https://leonjmac.github.io/calculator/)
+- [Andrew Dinsmores Solution](https://github.com/Teif26/Calculator) - [View in browser]( https://teif26.github.io/Calculator/)
