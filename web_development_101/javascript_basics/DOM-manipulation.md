@@ -480,3 +480,4 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 * [JavaScript30](https://JavaScript30.com)
 * [An introduction to DOM](https://leila-alderman.github.io/2018/12/05/Intro-to-the-Document-Object-Model.html)
 * If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
+* This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
