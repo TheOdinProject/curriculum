@@ -1921,8 +1921,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Nicole's Solution (Easy)](https://d3v0chka.github.io/google-homepage)
 * [Kevin MP Guest's Solution (Easy)](https://kaomghin12.github.io/google-homepage)
 * [Daniel Trebilcock's solution (Easy)](https://github.com/Trebilcode/google-homepage) - [View in browser](https://trebilcode.github.io/google-homepage/)
+* [Artemy's solution (Easy)](https://github.com/DriKel/google_homepage) - [View in browser](https://drikel.github.io/google_homepage/)
 * [CoolHandLuke79's solution (Difficult)](https://github.com/CoolHandLuke79/google-search-page) - [View in browser](https://coolhandluke79.github.io/google-search-page/)
 * [Bill's Solution (Easy)](https://github.com/billdeitrick/google-homepage) - [View in browser](https://www.billdeitrick.com/google-homepage/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
