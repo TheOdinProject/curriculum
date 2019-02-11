@@ -29,6 +29,7 @@ Enough talk! Let's build!
 Submit a link below to the [github repo](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/pair_programming/project_pairing.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
+* [Leonardo J. Vega's Solution](https://github.com/leonardovega/pomodachi) - [View in Browser](https://leonardovega.github.io/pomodachi/)
 * [BShowen's Solution](https://bshowen.github.io/Pomodoro_Timer/)
 * [Learnsometing & Ricky's Solution](https://github.com/learnsometing/pomodoro-timer) - [View in Browser](https://rickymccallum87.github.io/pomodoro-timer/)
 * [Tommy's Solution](https://github.com/Tommyisr/Pomodoro) - [View in Browser](https://tommyisr.github.io/Pomodoro/)
