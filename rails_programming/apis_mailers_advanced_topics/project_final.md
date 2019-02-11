@@ -39,7 +39,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 #### Extra Credit
 
 1. Make posts also allow images (either just via a URL or, more complicated, by uploading one).
-2. Use the [Paperclip](https://github.com/thoughtbot/paperclip) gem to allow users to upload a photo to their profile.
+2. Use the [Active Storage](https://edgeguides.rubyonrails.org/active_storage_overview.html) to allow users to upload a photo to their profile.
 3. Make your post able to be either a text OR a photo by using a polymorphic association (so users can still like or comment on it while being none-the-wiser).
 4. Style it up nicely! We'll dive into HTML/CSS in the next course.
 

@@ -134,6 +134,13 @@ Now, we're going to tell Rails to generate some templates for us. This will get 
 rails generate scaffold car make:string model:string year:integer
 ~~~
 
+**(Feb 8, 2019) NOTE: If you get an error with the above command, follow these steps:**
+
+ 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3' , '~> 1.3.13'`. Save the file.
+ 2. In the terminal, run `bundle install`.
+ 3. Now that SQLite is working properly, run `rails generate scaffold car make:string model:string year:integer` again.
+
+
 After generating the scaffolds, we need to migrate the database.
 
 ~~~bash
@@ -201,7 +208,7 @@ On the next page, you'll see a bunch of commands listed. We're really only inter
 
 Now, switch back over to the terminal to connect the project and GitHub by running two simple commands:
 
-NOTE: Do not enter the `<` or `>` symbols. Replace everything inside those symbols with the URL that you copied from GitHub.
+NOTE: Do not enter the `<` or `>` symbols. Replace those symbols and everything between them with the URL that you copied from GitHub.
 
 ~~~bash
 git remote add origin <SSH URL from above>
@@ -284,14 +291,14 @@ Then, we'll use VSCode to modify the `Gemfile`. Open your app in VSCode by typin
 When VSCode opens, you should see a list of files on the left side of the screen. Click on `Gemfile` to open it in the editor. Then, delete the line that says,
 
 ~~~ruby
-gem 'sqlite3'
+gem 'sqlite3' , '~> 1.3.13'
 ~~~
 
 Replace the line you just deleted with the following:
 
 ~~~ruby
 group :development, :test do
-  gem 'sqlite3'
+ gem 'sqlite3' , '~> 1.3.13'
 end
 
 group :production do
