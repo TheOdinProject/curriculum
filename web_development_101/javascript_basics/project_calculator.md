@@ -221,3 +221,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Rodrigo O. Coto's Solution](https://github.com/Lvzbel/odin_calculator) - [View in Browser](https://lvzbel.github.io/odin_calculator/)
 - [Leon J Mac's Solution](https://github.com/leonjmac/calculator) - [View in Browser](https://leonjmac.github.io/calculator/)
 - [Andrew Dinsmores Solution](https://github.com/Teif26/Calculator) - [View in browser]( https://teif26.github.io/Calculator/)
+- [vulence's Solution (mobile responsive)](https://github.com/vulence/calculator) - [View in Browser](https://vulence.github.io/calculator/)
