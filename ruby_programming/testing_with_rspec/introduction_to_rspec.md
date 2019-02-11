@@ -1,5 +1,5 @@
 ### Introduction
-In the previous lesson, we established the utility of [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD) in maintaining your code and sanity. In this lesson, we'll introduce you to your new best friend, the [RSpec](http://rspec.info/) testing framework. It's one of the most popular testing frameworks, having been downloaded almost [300 million times](https://rubygems.org/gems/rspec), at the time of this writing, and having been ported for use in [Rails testing](https://rubygems.org/gems/rspec-rails).
+In the previous lesson, we established the utility of [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD) in maintaining your code and sanity. In this lesson, we'll introduce you to your new best friend, the [RSpec](http://rspec.info/) testing framework. It's one of the most popular testing frameworks, having been downloaded more than [350 million times](https://rubygems.org/gems/rspec), at the time of this writing, and having been ported for use in [Rails testing](https://rubygems.org/gems/rspec-rails).
 
 ### Learning Outcomes
 *Look through these now and use them to guide your learning. By the end of this lesson, expect to:*
@@ -53,7 +53,7 @@ As expected, the output will read:
   create   spec/spec_helper.rb
 ~~~
 
-Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked...maybe take a short break, or come say hello to us in our [Back-End Gitter](https://gitter.im/TheOdinProject/Back-End) room.
+Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked... maybe take a short break, or come say hello to us in our [Discord](https://discord.gg/hvqVr6d) back-end channel.
 
 ~~~bash
 No examples found.
@@ -234,6 +234,7 @@ end
 ### Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html). 
 * Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already. 
 * Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
 * The [RSpec Cheat Sheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.

@@ -96,12 +96,13 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/members-only)
 * [prw001's solution](https://github.com/prw001/members_only)
 * [Donald Coleman's solution](https://bitbucket.org/drc000/members-only/src/master/) | [View live version](https://aqueous-mesa-83253.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/members-only)
 * [Btreim's solution](https://github.com/btreim/members-only)
 * [0zra's solution](https://github.com/0zra/members-only)
-* Roman Alenskiy's solution (Mobile-friendly) [Github](https://github.com/Roman-Alenskiy/secret_lodge) / [Heroku](https://secret-lodge.herokuapp.com/)
+* Roman Alenskiy's solution (Mobile-friendly) [Github](https://github.com/romalenskiy/secret_lodge) / [Heroku](https://secret-lodge.herokuapp.com/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/members-only)
 * [theghall's solution](https://github.com/theghall/odin-members-only.git)
 * [Jmooree30's solution](https://github.com/jmooree30/members_only.git) | [View in browser](https://sheltered-chamber-33561.herokuapp.com/)
@@ -184,6 +185,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Malaika's Solution](https://github.com/malaikaMI/Nobuddies) | [View in browser](https://powerful-savannah-46992.herokuapp.com/)
 * [Jamesredux's Solution](https://github.com/Jamesredux/natter) | [View in browser](https://afternoon-coast-37994.herokuapp.com/)
 * [ParamagicDev's Solution](https://github.com/ParamagicDev/clubhouse.git)
+* [bchalman's Solution](https://github.com/bchalman/members-only)
+* [Alex's solution](https://github.com/alexcorremans/members-only)
 
 ### Additional Resources
 

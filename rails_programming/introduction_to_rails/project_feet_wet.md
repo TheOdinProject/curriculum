@@ -27,6 +27,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)
 
 * Add your solution below this line!
+* [Simon Tharby's Solution](https://github.com/jinjagit/toy_app) - [Live](https://vast-spire-64894.herokuapp.com/)
+* [Stefano Merazzi's Solution](https://github.com/ste001/toy-app) - [Live](https://ancient-lake-46665.herokuapp.com/)
+* [Jason McKee's Solution](https://github.com/jttmckee/toy_app) - [Live](https://damp-fjord-77322.herokuapp.com)
 * [prw001's Solution](https://github.com/prw001/toy_app) - [Live](https://desolate-sands-86183.herokuapp.com/)
 * [Malaika's Solution](https://github.com/malaikaMI/toy_app/tree/master/toy_app)
 * [Javier Machin's solution](https://github.com/Javier-Machin/toy_app)
@@ -125,6 +128,9 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Felipe Parreira's solution](https://github.com/FelipeParreira/toy_app) - [Heroku](https://secure-fortress-49127.herokuapp.com/)
 * [ParamagicDev's solution](https://github.com/ParamagicDev/toy_app) - [Heroku](https://toy-app-paramagicdev.herokuapp.com/)
 * [wuaangela's solution](https://github.com/wuaangela/toy_app) - [Heroku](https://desolate-bayou-82880.herokuapp.com/)
+* [Slaven's solution](https://github.com/Everdrought/toy-app) - [Heroku](https://fast-island-19763.herokuapp.com/)
+* [Tommy's solution](https://github.com/hoangtommy/toy-app)
+* [Alex's solution](https://github.com/alexcorremans/toy_app) - [Heroku](https://shielded-anchorage-68758.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

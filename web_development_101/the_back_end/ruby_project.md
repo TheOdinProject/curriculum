@@ -28,8 +28,17 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
 * Add your solution below this line!
+
+* [ARaut9's solution](https://github.com/ARaut9/learn_ruby)
+* [Janessa Tran's solution](https://github.com/janessatran/learn_ruby)
+* [Tyler Devers's solution](https://github.com/TylerDevers/learn_ruby)
+* [Leonardo Vega's solution](https://github.com/leonardovega/learn_ruby)
+* [Loumarven's solution](https://github.com/loumarven/learn_ruby)
+* [Learnsometing's solution](https://github.com/learnsometing/learn_ruby)
+* [Tommy's solution](https://github.com/Tommyisr/learn_ruby)
 * [Origier's solution](https://github.com/Origier/learn_ruby)
 * [Akbar's solution](https://github.com/donatelloraphael/learn_ruby)
+* [Germán Gutiérrez' solution](https://github.com/sggutier/learn_ruby)
 * [Eddy's solution](https://github.com/sudo-eddy/ruby-TDD)
 * [Bojo's Solution](https://github.com/BojoZahariev/learn_ruby)
 * [WormCrew's Solution](https://github.com/wormcrew/learn_ruby)
@@ -468,6 +477,18 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mwk913's Solution](https://github.com/mwk913/learn_ruby)
 * [Yusuf Parak's Solution](https://github.com/ragtagjoe/learn_ruby)
 * [Edward Heath's Solution](https://github.com/EdwardHeath/learn_ruby)
+* [Leila Alderman's solutions](https://github.com/leila-alderman/learn_ruby)
+* [Edgar Miranda's Solution](https://github.com/ejmiranda/ruby)
+* [Khalal's Solution](https://github.com/khalalw/learn_ruby)
+* [tnharvey's Solution](https://github.com/tnharvey/learn_ruby)
+* [Jahmzu's solution](https://github.com/jahmzu/learn_ruby)
+* [Mohamed's Solution](https://github.com/mohamedcutte/learn_ruby)
+* [GustavoRdz's solution](https://github.com/GustavoRdz/learn_ruby)
+* [Gregory's solution](https://github.com/Selvdrap/learn_ruby)
+* [Valentino Valenti's Solution](https://github.com/1ba1/learn_ruby)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/learn_ruby)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/learn_ruby)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

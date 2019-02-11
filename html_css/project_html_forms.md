@@ -106,6 +106,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sam C's solution](https://github.com/JimmyNeutron8/signup-form) - [View in Browser](https://jimmyneutron8.github.io/signup-form)
 * [Taylor J's solution](https://github.com/taylorjohannsen/mintmockup) - [View in Browser](https://taylorjohannsen.github.io/mintmockup/)
 * [Anh Pati's solution](https://github.com/AnhPati/OdinProject_css_html/tree/master/HTML_forms) - [View in Browser](http://dwj.miste.io/odinproject/html_form/)
+* [Ghassan's Solution](https://github.com/GT001/TOP-Mint.com-Signup) - [View in Browser](https://gt001.github.io/TOP-Mint.com-Signup/)
+* [Valentino Valenti's solution](https://github.com/1ba1/html-form) - [View in Browser](https://1ba1.github.io/html-form/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

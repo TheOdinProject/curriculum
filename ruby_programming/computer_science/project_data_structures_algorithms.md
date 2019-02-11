@@ -26,6 +26,9 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/binary_trees)
+* [Simon Tharby's solution](https://github.com/jinjagit/binary_tree)
+* [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/searching_binary_trees.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/odin-project-data-structures-and-algorithms/blob/master/bst.rb)
 * [prw001's Solution](https://github.com/prw001/binary_tree_dfs_bfs)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Binary%20Tree.rb)
@@ -139,6 +142,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/binary-tree/blob/master/node.rb)
 * [Alex's solution](https://github.com/alexcorremans/binary_search_tree)
 * [Tommy's solution](https://github.com/hoangtommy/dataStructures-Algorithms)
+* [Emil Dimitrov's solution](https://github.com/imemdm/searching-binary-trees)
+* [Leila Alderman's solution](https://github.com/leila-alderman/binary-tree)
+* [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 
 ### Project 2: Knight's Travails
 
@@ -181,6 +187,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/knight_work)
+* [Simon Tharby's solution](https://github.com/jinjagit/knight)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/odin-project-data-structures-and-algorithms/blob/master/knight-moves.rb)
 * [prw001's Solution](https://github.com/prw001/knight_moves)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/chess.rb)
@@ -292,6 +300,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Akash's Solution](https://github.com/Akash-sopho/knights_travels)
 * [Areeba's Solution](https://github.com/AREEBAISHTIAQ/knight-travails/blob/master/knight-travails.rb)
 * [Alex's solution](https://github.com/alexcorremans/knight)
+* [Emil Dimitrov's solution](https://github.com/imemdm/knight-moves)
+* [Leila Alderman's solution](https://github.com/leila-alderman/knight_moves)
+* [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

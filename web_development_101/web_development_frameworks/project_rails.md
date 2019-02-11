@@ -23,6 +23,11 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Leonardo Vega's Solution](https://github.com/leonardovega/blogger) - [View in browser](http://theblogorail.herokuapp.com/)
+* [Bshowen's Solution](https://bshowen-blogger.herokuapp.com/)
+* [Learnsometing's Solution](https://github.com/learnsometing/rails-blogger_2) - [View in browser](https://still-plateau-28082.herokuapp.com/)
+* [Tommy's Solution](https://github.com/Tommyisr/blogger_test) - [View in browser](https://arcane-badlands-89675.herokuapp.com/)
+* [Bojo's Solution](https://github.com/BojoZahariev/blogger) - [View in browser](https://sheltered-savannah-41787.herokuapp.com/)
 * [Yusuf Parak's Solution](https://github.com/ycparak/rails-blogger) - [View in browser](https://guarded-shore-55350.herokuapp.com/)
 * [WormCrew's Solution](https://github.com/WormCrew/blogger)- [View in browser](https://limitless-peak-97236.herokuapp.com/articles)
 * [Stefano Merazzi's Solution](https://github.com/ste001/blogger) - [View in browser](https://safe-everglades-94703.herokuapp.com/)
@@ -299,7 +304,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Phucledien's Solution](https://github.com/phucledien/blogger) - [View in Browser](https://still-crag-31572.herokuapp.com/)
 * [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) - [View in Browser](https://radiant-beach-97617.herokuapp.com/)
 * [Oliver Curting's Solution](https://github.com/Curting/blogger) - [View in Browser](https://olivers-blogger.herokuapp.com/) I0-I5
-* [Alex's Solution](https://github.com/alexcorremans/blogger) - [View in Browser](https://fast-taiga-39728.herokuapp.com/)
+* [Alex's Solution](https://github.com/alexcorremans/blogger) - [View in Browser](https://pacific-retreat-33130.herokuapp.com/)
 * [NJW's Solution](https://github.com/obsessivenerds/blogger) - [View in Browser](https://obsessivenerds.github.io/blogger/)
 * [Celestine's Solution](https://github.com/CEOehis/blogger) - [View in Browser](https://afternoon-coast-34844.herokuapp.com/)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/blogger) - [View in Browser](https://agile-mountain-84751.herokuapp.com/)
@@ -340,6 +345,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ghassan's Solution](https://github.com/GT001/TheOdinProject-RubyonRails-Blogger) - [View in browser](https://vast-harbor-87818.herokuapp.com/)
 * [Slaven Karamatic's Solution](https://github.com/Everdrought/blogger) - [View in browser](https://peaceful-headland-49289.herokuapp.com/)
 * [mwk913's solution](https://github.com/mwk913/rails_blog) - [View in browser](https://immense-ocean-86005.herokuapp.com/articles)
+* [Edward Heath's solution](https://github.com/EdwardHeath/blogger) - [View in browser](https://intense-garden-85310.herokuapp.com/)
+* [Leila Alderman's solution](https://github.com/leila-alderman/blogger_2) - [View in browser](https://protected-escarpment-33970.herokuapp.com/)
+* [Mohamed's Solution](https://github.com/mohamedcutte/blogger) - [View in browser](https://blogger-app-234.herokuapp.com/)
+* [tnharvey's Solution](https://github.com/tnharvey/blogger) - [View in browser](https://glacial-cove-80421.herokuapp.com)
+* [Abdirahman's solution](https://github.com/Murabac/rails-blog) - [View in browser](https://murabac-blogger.herokuapp.com/authors/new)
+* [GustavoRdz's solution](https://github.com/GustavoRdz/Blogger-odin.git)
+* [Vitaly Osipov's solution](https://github.com/vi7ali/blogger) - [View in browser](https://immense-cliffs-79678.herokuapp.com/)
+* [Valentino Valenti's Solution](https://github.com/1ba1/blogger) - [View in browser](https://mighty-atoll-63629.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -62,7 +62,7 @@ Each of these routes is basically a Ruby method that matches that particular URL
 2. The other thing to notice is that the "id" field is prepended by a colon... that just tells Rails "Look for anything here and save it as the ID in the params hash".  It lets you submit a GET request for the first post and the fifth post to the same route, just a different ID:
 
 ~~~ruby
-  /posts/1  # going to the #show action of the Posts controller
+  /posts/1  # going to the #show action of the PostsController
   /posts/5  # also going to the #show action of PostsController
 ~~~
 
@@ -184,8 +184,7 @@ You should have a good sense of what's going on in the routes file by now but pr
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the [Rails Guides chapter on Routing](http://guides.rubyonrails.org/routing.html), sections 1-2.5, 3.1-3.4, and 4.6.
-2. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
-Make sure to follow the tutorial!
+2. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8). You can follow the tutorial using `curl https://api.github.com`.
 </div>
 
 ### Additional Resources
