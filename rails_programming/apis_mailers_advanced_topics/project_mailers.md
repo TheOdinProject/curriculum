@@ -75,6 +75,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/members-only)
 * [Agon's solution](https://github.com/AgonIdrizi/flight-booker)
 * [Malaika's Solution](https://github.com/malaikaMI/AirFly)
+* [bchalman's solution](https://github.com/bchalman/odin-flight-booker)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
