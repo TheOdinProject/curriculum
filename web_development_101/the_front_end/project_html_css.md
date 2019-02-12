@@ -1929,6 +1929,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Skrupp's Solution (Easy)](https://github.com/Skrupp/homepage-google) - [View in browser](https://skrupp.github.io/homepage-google)
 * [Natcancein's Solution (Easy)](https://github.com/Natcancein/google-homepage) - [View in browser](https://natcancein.github.io/google-homepage/)
 * [cerencaner's Solution (Easy)](https://github.com/cerencaner/google-homepage) - [View in browser](https://cerencaner.github.io/google-homepage/)
+* [JamCry's Solution (Easy)](https://github.com/jamcry/google-homepage) - [View in browser](https://jamcry.github.io/google-homepage/)
 * [Joeri Smissaert's Solution (Easy)](https://github.com/smissaertj/google-homepage) - [View in Browser](https://smissaertj.github.io/google-homepage/)
 * [Harshdeep Kanhai's Solution (Easy)](https://github.com/harshdeepkanhai/google-homepage) - [View in browser](https://harshdeepkanhai.github.io/google-homepage/)
 ### Additional Resources
