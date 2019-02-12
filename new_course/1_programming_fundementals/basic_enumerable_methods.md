@@ -579,9 +579,11 @@ invited_friends(friends)
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-  1. Follow along to this [How to Use The Ruby Map Method](https://www.rubyguides.com/2018/10/ruby-map-method/) tutorial from Ruby Guides.
-  2. Follow along to this [Reducing Enumerable](Reducing Enumerable — Part One: The Journey Begins) article by Brandon Weaver.
-  3. Read [How to Use Ruby Any, All None and One](https://www.rubyguides.com/2018/10/any-all-none-one/) for alternative explanations for boolean enumerables.
+
+1. Follow along to this [How to Use The Ruby Map Method](https://www.rubyguides.com/2018/10/ruby-map-method/) tutorial from Ruby Guides.
+2. Follow along to this [Reducing Enumerable](Reducing Enumerable — Part One: The Journey Begins) article by Brandon Weaver.
+3. Read [How to Use Ruby Any, All None and One](https://www.rubyguides.com/2018/10/any-all-none-one/) for alternative explanations for boolean enumerables.
+4. finally go solve [these exercices](https://github.com/TheOdinProject/curriculum/blob/master/new_course/1_programming_fundementals/enumerable_exercises.md) using the enumerables you learn't about in this lesson.
 </div>
 
 ### Additional Resources
