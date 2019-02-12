@@ -26,6 +26,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/binary-tree)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/binary_trees)
 * [Simon Tharby's solution](https://github.com/jinjagit/binary_tree)
 * [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/searching_binary_trees.rb)
