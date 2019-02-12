@@ -96,6 +96,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Simon Tharby's solution](https://github.com/jinjagit/members_only) | [View in browser](https://safe-falls-96496.herokuapp.com)
 * [Jason McKee's solution](https://github.com/jttmckee/members-only)
 * [prw001's solution](https://github.com/prw001/members_only)
 * [Donald Coleman's solution](https://bitbucket.org/drc000/members-only/src/master/) | [View live version](https://aqueous-mesa-83253.herokuapp.com/)
