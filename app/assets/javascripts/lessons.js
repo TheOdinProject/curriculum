@@ -2,7 +2,9 @@ var LESSON_HEADINGS = [
   'Introduction',
   'Learning Outcomes',
   'Assignment',
-  'Additional Resources'
+  'Additional Resources',
+  'Exercises',
+  'Knowledge Check',
 ];
 
 function getElements(selector) {
