@@ -1936,6 +1936,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Harshdeep Kanhai's Solution (Easy)](https://github.com/harshdeepkanhai/google-homepage) - [View in browser](https://harshdeepkanhai.github.io/google-homepage/)
 * [William Mweemba's Solution (Easy)](https://github.com/wmweemba/google-homepage) - [View in browser](https://wmweemba.github.io/google-homepage/)
 * [DanielleTond's Solution (Easy)](https://github.com/danielletond/google-homepage)
+* [Febrian Saputra's Solution (Easy)](https://github.com/pseud0nyms/google-homepage) - [View in browser](https://pseud0nyms.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
