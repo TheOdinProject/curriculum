@@ -225,3 +225,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrew Dinsmores Solution](https://github.com/Teif26/Calculator) - [View in browser]( https://teif26.github.io/Calculator/)
 - [vulence's Solution (mobile responsive)](https://github.com/vulence/calculator) - [View in Browser](https://vulence.github.io/calculator/)
 - [allden's Solution](https://github.com/allden/calculator) - [View in Browser](https://allden.github.io/calculator/)
+* [Doris's solution](https://github.com/dsmchen/calculator) - [view in browser](https://dsmchen.github.io/calculator/)
