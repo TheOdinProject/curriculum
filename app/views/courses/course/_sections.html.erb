@@ -1,7 +1,9 @@
 <% sections.each do |section| %>
   <div class="card-main course-section">
     <h3 id=<%= section.title.parameterize %> class="course-section__title">
+      <a class="internal-link" href= "#<%= section.title.parameterize %>" >
       <%= section.title %>
+      </a>
     </h3>
     <p class="course-section__description"><%= section.description %></p>
 
