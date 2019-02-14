@@ -4,7 +4,7 @@ You've got the building blocks of Ruby out of the way, great! Now it's time to g
 
 The concepts you'll learn here are often less specific to Ruby itself and more widely applicable to any object-oriented language.  That's because the fundamental concepts are just that... fundamental.  Don't repeat yourself.  Modularize your code.  Have your classes and methods only do one thing.  Show as little of your interfaces to the world as you can.  Don't make methods or classes heavily dependent on each other.  Be lazy.  These will take some time and practice to implement effectively, but you'll already be taking a big step towards creating high quality code just by finishing up this section.
 
-There's a lot to do here but stick with it!  We'll start with the Codecademy lessons, which are interspersed with their projects so you'll get a chance to apply what you're learning.  The Beginning Ruby book will help you understand the material a bit deeper, which will be important when you are creating your own projects next.
+There's a lot to do here but stick with it!  We'll start with the Codecademy lessons, which are interspersed with their projects so you'll get a chance to apply what you're learning.  The Launch School's OOP book will help you understand the material a bit deeper, which will be important when you start creating your own projects.
 
 
 ### Learning Outcomes
@@ -61,14 +61,12 @@ Look through these now and then use them to test yourself after doing the assign
     1. Read about the [History of Ruby](https://www.sitepoint.com/history-ruby/)
     2. Read about [Open Source Culture](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source) in Section 1
     3. Read about where you can find [Ruby's Community](https://www.ruby-lang.org/en/community/)
-  3. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
-  4. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 7: `Projects and Libraries`
-  5. Read [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 175-179)
-  6. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Learning Outcomes" section:
+  3. Read through [Launch School's OOP book](https://launchschool.com/books/oo_ruby/read/introduction) for a more thorough understanding.
+  4. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Learning Outcomes" section:
     1. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
     2. [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
-  7. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
-  8. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional.
+  5. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
+  6. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional.
 </div>
 
 ### Test Yourself
@@ -86,6 +84,5 @@ This section contains helpful links to other content. It isn't required, so cons
 * [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 * [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/).
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
-* For an alternative read to Beginning Ruby's chapters on OOP, check out [Launch School's OOP](https://launchschool.com/books/oo_ruby/read/introduction).
 * Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
 
