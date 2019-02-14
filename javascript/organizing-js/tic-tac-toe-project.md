@@ -57,3 +57,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Areeba's Solution](https://github.com/AREEBAISHTIAQ/tic-tac-toe-js) - [View in browser](https://areebaishtiaq.github.io/tic-tac-toe-js/)
 - [Taylor J's Solution](https://github.com/taylorjohannsen/tictactoe) - [View in browser](https://taylorjohannsen.github.io/tictactoe/)
 - [Halkim44's game (PvP and P vs unbeatable CPU)](https://github.com/halkim44/tic-tac-toe-TOP) - [play Tic-Tac-Toe](https://halkim44.github.io/tic-tac-toe-TOP/)
+- [Valentino Valenti's solution (p1 vs p2 - minimax)](https://github.com/1ba1/tic-tac-toe) - [Play it in browser](https://1ba1.github.io/tic-tac-toe/)
