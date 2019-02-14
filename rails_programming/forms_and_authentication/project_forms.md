@@ -207,6 +207,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's solution](https://github.com/bchalman/odin-re-former)
 * [Alex's solution](https://github.com/alexcorremans/re-former)
 * [Tommy's solution](https://github.com/hoangtommy/re-former)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/re-former)
 
 ### Project 2: Ruby on Rails Tutorial
 
