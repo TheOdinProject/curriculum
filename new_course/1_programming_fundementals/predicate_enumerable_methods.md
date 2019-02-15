@@ -1,25 +1,18 @@
 ### Introduction
-In previous lessons, you learned about loops as well as arrays and hashes. You will soon discover that you'll have to do so much iterating (looping or repeating something several times) over collections as a developer that it will make you dizzy.
+In the previous lesson, you learned about some really handy enumerable methods like `#each`, `#map`, and `#select`. In this lesson, we're going to learn about *even more* enumerable methods! Woohoo! The party never ends here at The Odin Project! 
 
-**Enumerables** are a set of convenient built-in methods in Ruby that you can use on collections. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
-
-We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else [Enumerable](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
+This time, we're focusing on a particular subset of enumerable methods: the **predicate enumerable methods**. You should recall from the Methods lesson that a predicate method is indicated by a question mark (`?`) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else [Enumerable](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- - Describe what a Boolean Enumerable method is.
+ - Describe what a Boolean enumerable method is.
  - Explain how the `#include?` method works.
  - Explain how the `#any?` method works.
  - Explain how the `#any?` method works.
  - Explain how the `#none?` method works.
-
-### Boolean Enumerable Methods
-You may have noticed some of Ruby's built in methods have a question mark `?` in the name. Any method with a `?` at the end is a `predicate` method, which is a Ruby convention for a method that returns a Boolean, that is either `true` or `false`.
-
-In this section we are going to take a look at four of Ruby's boolean enumerable methods.
 
 ### The `#include?` method
 The `#include?` method works exactly like you think it should. If we want to determine if a particular element exists in an array, we can use the `#include?` method. It will return true if the element you pass as an argument to `#include?` exists in a collection, otherwise it will return false.
