@@ -46,8 +46,8 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 3. Line length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should indent the second line __2__ levels, and should try to break immediately _after_ an operator or comma:
 
    ~~~javascript
-   let importantNoteForEveryone = "burritos" + "really" + "are" + "basically" +
-   		"just" + "tacos";
+   let reallyReallyLongLine = something + somethingElse + anotherThing +
+   		howManyTacos + oneMoreReallyLongThing;
    ~~~
 
    ​
