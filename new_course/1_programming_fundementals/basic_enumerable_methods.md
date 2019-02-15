@@ -177,7 +177,7 @@ It works! It took quite a bit of extra work, though. We had to introduce another
 
 Luckily, we have the `#map` enumerable method to save us from our misery!
 
-The `#map` method transforms each element from an array according to whatever block you pass to it and returns the transformed elements in a new array. `#map` may seem confusing at first, but it is extremely useful. We'll go through several examples and use cases, which should help you understand how and when you can use this enumerable power for good.
+The `#map` method (also called `#collect`) transforms each element from an array according to whatever block you pass to it and returns the transformed elements in a new array. `#map` may seem confusing at first, but it is extremely useful. We'll go through several examples and use cases, which should help you understand how and when you can use this enumerable power for good.
 
 First, let's use `#map` to improve on our code that transforms all of our friends' names to uppercase:
 
@@ -211,11 +211,11 @@ salaries.map { |salary| salary - 700 }
 Whenever you want to return a new array with the results of running your block of code, `#map` is the method for you!
 
 ### The `#select` Method
-You've already seen the `#select` method in action, right at the very start of this lesson when we created our invite list and made Brian an outcast.
+You've already seen the `#select` method in action at the beginning of this lesson in our quest to make Brian an outcast.
 
-The `#select` method passes every item in a collection to a block, and returns a brand new array with only the items that evaluate to true from the condition you set within the block.
+The `#select` method (also called `#filter`) passes every item in an array to a block and returns a new array with only the items for which the condition you set in the block evaluated to `true`.
 
-Lets explore how the same thing would be accomplished by using `#each` first:
+First, let's explore how we would accomplish the same thing using `#each`:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -231,7 +231,7 @@ invited_list
  #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
-Using `#select` this can simplified to:
+Using our shiny new `#select` method, this code can be simplified down to two lines:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -241,7 +241,7 @@ friends.select { |friend| friend != 'Brian' }
  #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
-The friends you invited to your party have gotten back to you, their responses are all in a hash. Lets use `#select` to figure out who's coming. Recall that when we use an emumerable method with a hash, you can use the key and the value as block variables within the block:
+Now that we've cut out Brian, we can send out the invites! Let's say that the friends who you invited to your party have gotten back to you, and their responses are all recorded in a hash. Let's use `#select` to see who's coming. Recall that when you use an emumerable method with a hash, you need to set up block variables for both the key and the value:
 
 ~~~ruby
 responses = { 'Sharon' => 'yes', 'Leo' => 'no', 'Leila' => 'no', 'Arun' => 'yes' }
@@ -249,44 +249,59 @@ responses.select { |person, response| response == 'yes'}
 #=> {"Sharon"=>"yes", "Arun"=>"yes"}
 ~~~
 
-Looks like only Sharon and Arun can go. That's not great, we need more people. You reluctantly call Brian, who you know will bring a batch of his awful home-brewed IPA.
+Looks like only Sharon and Arun can go. You're going to need more people for a good party. Sounds like it's time for you to reluctantly call Brian, who you know will bring a batch of his awful home-brewed IPA. Maybe his last batch has gotten better?
 
-### The `#reduce` method
-The `#reduce` method (alias: `#inject`) is possibly the most difficult-to-grasp enumerable for new coders. The idea is simple enough, though: it reduces a collection (array/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
+### The `#reduce` Method
+The `#reduce` method (also called `#inject`) is possibly the most difficult-to-grasp enumerable for new coders. The idea is simple enough, though: it reduces an array or hash down to a single object. You should use `#reduce` when you want to get an output of a single value.
 
-A classic example of when reduce is useful is to a sum an array of numbers. First lets explore how we would achieve this using each:
+A classic example of when `#reduce` is useful is obtaining the sum of an array of numbers. First, let's explore how we would achieve this using `#each`:
 
 ~~~ruby
-my_numbers = [5, 5, 5, 5]
+my_numbers = [5, 6, 7, 8]
 sum = 0
 
 my_numbers.each { |number| sum + number }
 
 sum
-#=> 20
+#=> 26
 ~~~
 
-This isn't too bad in terms on number of lines of code, but we have to introduce a temporary local variable `sum` outside of the enumerable. It would be much nicer if we could do this all within the enumerable:
+This isn't too bad in terms of number of lines of code, but we had to introduce a temporary local variable `sum` outside of the enumerable. It would be much nicer if we could do all of this within the enumerable:
 
 ~~~ruby
-my_numbers = [5, 5, 5, 5]
+my_numbers = [5, 6, 7, 8]
 
-my_numbers.reduce(0) { |sum, number| sum + number }
-#=> 20
+my_numbers.reduce { |sum, number| sum + number }
+#=> 26
 ~~~
 
-There's a lot going on here so lets walk through what its doing. We are passing `0` into the reduce method, this will be the value of the `sum` block variable in the first iteration.
+Woah! What?! There's a lot happening here, so let's walk through what it's doing step by step. 
 
-The first block variable in the reduce enumerable is what's known as the **accumulator**. In this case, we are calling it `sum`. The result of each iteration is stored in this block variable and then passed to the next iteration. So in the first Iteration it would be 0, in the second it will be the result `0 + 5` or 5, in the third iteration it will be the result of `5 + 5` or 10, and so on so forth, until it reaches the end of the collection.
+The first block variable in the `#reduce` enumerable (`sum` in this example) is known as the **accumulator**. The result of each iteration is stored in the accumulator and then passed to the next iteration. The accumulator is also the value that the `#reduce` method returns at the end of its work. By default, the initial value of the accumulator is zero, so for each step of the iteration, we would have the following:
 
-Here is a more elaborate example, which shows how powerful this method can be. Don't be discouraged if you don't fully understand it at this point. Just know that `#reduce` can save you many lines of code in certain scenarios.
+ 1. Iteration 0: sum = 0
+ 2. Iteration 1: sum = 0 + 5 = 5
+ 3. Iteration 2: sum = 5 + 6 = 11
+ 4. Iteration 3: sum = 11 + 7 = 18
+ 5. Iteration 4: sum = 18 + 8 = 26
 
-Now that you know who's coming to your party, you need to decide where to go. You're a democratic party host so you want to put it to a vote among your friends going to the party.
-
-The options are "St. Mark's Bistro", a classy place suited to a sophisticated person such as yourself. The other option is "Bob's Dirty Burger Shack". You know its Brian's favourite place and since he's coming to the party now it was best to have it as an option to avoid any arguments.
+We can also set a different initial value for the accumulator by directly passing in a value to the `#reduce` method.
 
 ~~~ruby
-votes = ['Bob's Dirty Burger Shack', 'St. Mark's Bistro', 'Bob's Dirty Burger Shack']
+my_numbers = [5, 6, 7, 8]
+
+my_numbers.reduce(1000) { |sum, number| sum + number }
+#=> 1026
+~~~
+
+Now let's look at a more elaborate example that shows just how powerful this method can be. This one is much more complicated, so don't be discouraged if you don't fully understand it at this point. Just know that `#reduce` can save you many lines of code in certain scenarios.
+
+Now that you know who's coming to your party, you need to decide where to go. You don't actually like making decisions very much, so you put it to a vote among your friends.
+
+The options are St. Mark's Bistro, a classy place suited for a sophisticated person such as yourself. The other option is Bob's Dirty Burger Shack, which you know its Brian's favorite place. Since he's coming to the party now, it's best to include it as an option to avoid any arguments. Your friends' votes are collected in the `votes` array.
+
+~~~ruby
+votes = ["Bob's Dirty Burger Shack", "St. Mark's Bistro", "Bob's Dirty Burger Shack"]
 
 votes.reduce(Hash.new(0)) do |result, vote|
   result[vote] += 1
@@ -295,17 +310,47 @@ end
 #=> {"Bob's Dirty Burger Shack"=>2, "St. Mark's Bistro"=>1}
 ~~~
 
-Dammit, Brian!
+Alright, so what happened here? Other than Brian ruining your party. Again.
 
-Note that this example returns a hash with several `key => value` pairs. So the object that `#reduce` returns is still one object, a hash. It's just a more complex one.
+First, we passed in a much more interesting initial value for our accumulator this time. When we pass in an argument to `Hash.new`, that becomes the default value when accessing keys that do not exist in the hash. For example, we could say the following:
 
+~~~ruby
+hundreds = Hash.new(100)
+hundreds["first"]         #=> 100
+hundreds["mine"]          #=> 100
+hundreds["yours"]         #=> 100
+~~~
 
-### Bang Methods and Return Values
+Once you set the value for a key equal to something else, the default value is overwritten:
 
-#### Bang Methods
-Earlier we mentioned that enumerables like `#map` and `#select` return new arrays. This is by design, we won't often want to modify the original collection we are calling our enumerables methods on.
+~~~ruby
+hundreds = Hash.new(100)
+hundreds["new"]           #=> 100
+hundreds["new"] = 99
+hundreds["new"]           #=> 99
+~~~
 
-Take this earlier example, where we uppercase each of our friends names:
+Now that we know that this new hash with a default value of `0` is our accumulator (which is called `result` in the code block), let's see what happens in each iteration:
+
+ 1. Iteration 0: 
+    * result = {}
+    * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] = 0` and `result["St. Mark's Bistro"] = 0`
+ 2. Iteration 1: 
+    * The method runs `result["Bob's Dirty Burger Shack"] += 1`
+    * result = {"Bob's Dirty Burger Shack" => 1}
+ 3. Iteration 2:
+    * The method runs `result["St. Mark's Bistro"] += 1`
+    * result = {"Bob's Dirty Burger Shack" => 1, "St. Mark's Bistro" => 1}
+ 4. Iteration 3: 
+    * The method runs `result["Bob's Dirty Burger Shack"] += 1`
+    * result = {"Bob's Dirty Burger Shack" => 2, "St. Mark's Bistro" => 1}
+
+Note that this example returns a hash with several `key => value` pairs. So even though the result is more complicated, `#reduce` still just returns one object, a hash.
+
+### Bang Methods
+Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidently lose that information.
+
+Let's go back to this earlier example, where we wrote each of our friends' names in all caps:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -317,9 +362,9 @@ friends
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
-When we call our original friends array again we can see that it is unchanged.
+When we call our original `friends` array again, we can see that it remains unchanged.
 
-If we wanted to change your friends array we could use the map bang method `#map!`:
+If you wanted to change your `friends` array instead, you could use the bang method `#map!`:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -331,19 +376,17 @@ friends
 #=> `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`
 ~~~
 
-Now when we call our original friends array again, it returns the changed values from the `map!`. Instead of returning a new array, `map!` has modified our original array.
+Now when we call our original `friends` array again, it returns the changed values from the `#map!` method. Instead of returning a new array, `#map!` modified our original array.
 
-Bang methods can easily be recognised as they have exclamation marks at the end of them `!`. This signifies that
-the method is **destructive** and will modify the object they are called on. A lot of the enumerables that return new collections will have a bang method version available, `map!` and `select!` just to name a few.
+As you'll recall from the Methods lesson, **bang methods** can be easily identified by their exclamation marks (`!`) at the end of their name. All bang methods are **destructive** and modify the object they are called on. Many of the enumerable methods that return new versions of the array or hash they were called on have a bang method version available, such as `#map!` and `#select!`.
 
-It's best to avoid using these methods when you can as you, or a future developer working on the same code may need
-the original collection. Remember that violent psychopath who may end up maintaining your code? Keep them in
-mind when making the decision to use bang methods.
+It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep them in mind when making the decision to use bang methods.
 
-#### Return Values of Enumerables
-So if its not a good idea to use bang methods and we need to re-use the result of a enumerable method throughout our program, what can we do instead?
+### Return Values of Enumerables
+So if it's not a good idea to use bang methods but we need to re-use the result of a enumerable method throughout our program, what can we do instead?
 
-One option is to put the result of an enumerable in a local variable:
+One option is to put the result of an enumerable method into a local variable:
+
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
@@ -353,10 +396,10 @@ friends
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 invited_friends
- #=> ["Sharon", "Leo", "Leila", "Arun"]
+#=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
-A better option would be to wrap your enumerable in a method:
+An even better option would be to wrap your enumerable method in a method definition:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -364,7 +407,6 @@ friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 def invited_friends(friends)
   friends.select { |friend| friend != 'Brian' }
 end
-
 
 friends
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -375,9 +417,9 @@ invited_friends(friends)
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-  1. Follow along to this [How to Use The Ruby Map Method](https://www.rubyguides.com/2018/10/ruby-map-method/) tutorial from Ruby Guides.
-  2. Follow along to this [Reducing Enumerable](Reducing Enumerable — Part One: The Journey Begins) article by Brandon Weaver.
-  3. Read [How to Use Ruby Any, All None and One](https://www.rubyguides.com/2018/10/any-all-none-one/) for alternative explanations for boolean enumerables.
+  1. Read through the Ruby Explained article on [Map, Select, and Other Enumerable Methods](https://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods).
+  2. Follow along with this [How to Use The Ruby Map Method](https://www.rubyguides.com/2018/10/ruby-map-method/) tutorial from Ruby Guides.
+  3. Follow along with this [Reducing Enumerable](https://medium.com/@baweaver/reducing-enumerable-part-one-the-journey-begins-ddc1d4108490) article by Brandon Weaver.
 </div>
 
 ### Additional Resources
@@ -385,19 +427,15 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 * This tutorial on [codementor](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module) is another good discussion of the versatility of enumerable methods.
-* There are many more enumerable methods than are covered in this lesson (`reject`, `drop`, `uniq`, to name a few).
-For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.5.0/Enumerable.html).
+* There are many more enumerable methods than are covered in this lesson (`reject`, `drop`, `uniq`, to name a few). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.5.0/Enumerable.html).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What does the `#each` method do? What does it return?
-* What does the `#each_with_index` method do?
-* When should you use `do...end` around a code block versus `{...}`?
-* What does the `#map` method do?
-* What does the `#select` method do?
-* What does the `#reduce` method do?
-* Why is there a question mark after some methods?
-* What does the `#include?` method do?
-* What does the `#any?` method do? The `#all?` method? `#none?`?
-* Why should you not use the bang methods of enumerables often?
+ * What does the `#each` method do? What does it return?
+ * What does the `#each_with_index` method do?
+ * What does the `#map` method do?
+ * What does the `#select` method do?
+ * What does the `#reduce` method do?
+ * When should you use `do...end` around a code block versus `{...}`?
+ * Why should you avoid using the bang methods of enumerables?
