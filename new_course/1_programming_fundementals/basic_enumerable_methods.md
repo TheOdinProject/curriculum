@@ -1,9 +1,9 @@
 ### Introduction
 In previous lessons, you learned about loops as well as arrays and hashes. You will soon discover that you'll have to do so much iterating (looping or repeating something several times) over collections as a developer that it will make you dizzy.
 
-**Enumerables** are a set of convenient built-in methods in Ruby that you can use on collections. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
+**Enumerables** are a set of convenient built-in methods in Ruby that are included as part of both arrays and hashes. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
 
-We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else [Enumerable](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
+We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else the [Enumerable module](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
@@ -18,9 +18,9 @@ By the end of this lesson, you should be able to do the following:
  - Explain what a bang method is and why it is or is not considered best practice.
 
 ### Life Before Enumerables
-Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of nutcase and always drinks way too much.
+Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of nutcase at parties and always drinks way too much.
 
-With the loops you've already learned, you might do something like this:
+With the loops you've learned so far, you might do something like this:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -35,9 +35,9 @@ end
 invited_list #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
-Thats not so bad, but imagine having to do that for every party you host from now until the end of time! It might be easier to just stop hanging out with Brian.
+Thats not too hard, but imagine having to do that for every party you host from now until the end of time! It might be easier to just stop hanging out with Brian.
 
-Using the `#select` enumerable method you could change the above code to this:
+Using the `#select` enumerable method (which we'll get into much more detail about later), you could change the above code to this:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -55,35 +55,51 @@ friends.reject { |friend| friend == 'Brian' }
  #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
-You just cut down what was previously a 8 line program to 2 lines. Amazing! Imagine all the time you'll save sorting your invite lists out.
+You just cut down what was previously an 8 line program down to 2 lines. Amazing! Imagine all the time you'll save sorting your invite lists now.
 
-### The `#each` Enumerable Method
-`#each` is the Grand Daddy of the Enumerables. Its a bit like Chuck Norris: it can do anything. But as you'll see throughout this lesson, just because you can use `#each`, it doesn't mean you should in a lot of situations.
+### The `#each` Method
+`#each` is the granddaddy of the enumerable methods. It's a bit like Chuck Norris: it can do anything. As you'll see throughout this lesson, though, just because you can use `#each` to do just about anything doesn't mean it's always the best or most efficient tool for the job.
 
 Calling `#each` on an array will iterate through that array and will yield each element to a code block, where a task can be performed:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
-friends.each { |friend| puts friend }
+friends.each { |friend| puts "Hello, " + friend }
 
-#=> Sharon
-#=> Leo
-#=> Leila
-#=> Brian
-#=> Arun
+#=> Hello, Sharon
+#=> Hello, Leo
+#=> Hello, Leila
+#=> Hello, Brian
+#=> Hello, Arun
 
 #=> ["Sharon", "Leo", "Leila", "Brian" "Arun"]
 ~~~
 
-Lets break down this syntax:
+Let's break down this syntax:
 
-* `friends` is your collection, your array of friends.
-* `.each` is the enumerable method you are calling on your friends array.
-* `{ |friend| puts friend }` is a block, and the code in the block is run for each element in your collection. Because we have 5 friends in our array, thats how many times the block will be run for this collection.
-* Within the block you have what's known as the block variable `|friend|`. This is the element from your collection the block is currently iterating over. In the first iteration its value will be `'Sharon'`, in the second iteration its value will be `'Leo'`, in the third `Leila`, and so on until it reaches the end of the collection.
+* `friends` is the array that contains strings of your friends' names.
+* `.each` is the enumerable method you are calling on your `friends` array.
+* `{ |friend| puts friend }` is a **block**, and the code inside this block is run for each element in your array. Because we have 5 friends in our array, this block will be run 5 times, once with each of the 5 elements.
+* Within the block, you'll notice that we have `|friend|`, which is known as a **block variable**. This is the element from your array that the block is currently iterating over. In the first iteration, the value of `|friend|` will be `'Sharon'`; in the second iteration, its value will be `'Leo'`; in the third, `Leila`; and so on until it reaches the end of the array.
 
-`#each` also works with hashes, but with a bit of added functionality. It can yield the key and value of a hash individually or together (as an array) to the block:
+What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:
+
+~~~ruby
+my_array = [1, 2]
+
+my_array.each do |num|
+  num *= 2
+  puts "The new number is #{num}."
+end
+
+#=> The new number is 2.
+#=> The new number is 4.
+
+#=> [1, 2]
+~~~
+
+`#each` also works for hashes with a bit of added functionality. By default, each iteraction will yield both the key and value individually or together (as an array) to the block depending on you define your block variable:
 
 ~~~ruby
 my_hash = { "one" => 1, "two" => 2}
@@ -101,9 +117,9 @@ the pair is ["two", 2]
 #=> { "one" => 1, "two" => 2}
 ~~~
 
-You may have noticed in the code examples so far when you use `#each`, it will return the original collection. This is something to keep in mind when debugging your code as it can lead to some confusion.
+You may have noticed in the above code examples that `#each` returns the original array or hash regardless of what happens inside the code block. This is an important thing to keep in mind when debugging your code as it can lead to some confusion.
 
-Take this code for example:
+Take this code as an example:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -113,10 +129,10 @@ friends.each { |friend| friend.upcase }
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
-You might expect this to return all the friends names in uppercase `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`. But you'd be wrong, dead wrong. It returns the original array you called `#each` on. You're still *not* invited, Brian.
+You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong--dead wrong. It returns the original array you called `#each` on. You're still *not* invited, Brian.
 
-### The `#each_with_index` Enumerable Method
-This method is nearly the same as `#each`, but it provides additional functionality by yielding two **block variables** instead of one as it iterates through a collection. The first variables value is the element itself, while the second variable's value is the index or position of that element within the collection. This allows you to do things that are a bit more complex.
+### The `#each_with_index` Method
+This method is nearly the same as `#each`, but it provides some additional functionality by yielding two **block variables** instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex.
 
 For example, if we only want to print every other word from an array of strings, we can achieve this like so:
 
@@ -130,25 +146,9 @@ fruits.each_with_index { |fruit, index| puts fruit if index.even? }
 #=> ["apple", "banana", "strawberry", "pineapple"]
 ~~~
 
-As with the `#each` method, `#each_with_index` will return the original collection it is called on.
+Just like with the `#each` method, `#each_with_index` returns the original array it's called on.
 
-### A quick note on styling blocks with `do...end`
-What if the block you want to pass to a method requires more logic than can fit in one line? It starts to become less readable and looks unwieldy. In such situations, the commonly accepted best practice is to use `do...end` blocks for multi-line blocks, instead of `{...}` blocks:
-
-~~~ruby
-my_array = [1, 2]
-
-# bad
-my_array.each { |num| num *= 2; puts "the new number is #{num}" }
-
-# good
-my_array.each do |num|
-  num *= 2
-  puts "the new number is #{num}"
-end
-~~~
-
-### The `#map` Enumerable Method
+### The `#map` Method
 Remember when we tried to transform each of your friends names earlier by uppercasing them with `#each`? Lets try that again.
 
 For reference, this what we previously tried:
