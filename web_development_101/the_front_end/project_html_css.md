@@ -1941,7 +1941,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Febrian Saputra's Solution (Easy)](https://github.com/pseud0nyms/google-homepage) - [View in browser](https://pseud0nyms.github.io/google-homepage/)
 * [Alex Krewson's Solution (Easy)](https://github.com/alexkrewson/google-homepage) - [View in browser](https://alexkrewson.github.io/google-homepage/)
 
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
