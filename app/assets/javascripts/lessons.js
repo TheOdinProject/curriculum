@@ -25,15 +25,15 @@ function kebabCase(text) {
     .join('-');
 }
 
-  function navigationElement(headingText) {
-    return (
-      '<div class="lesson-navigation__item">' +
-      '<div class="lesson-navigation__circle"></div>' +
-      '<div class="lesson-navigation__title">' +
-      '<a class="lesson-navigation__link grey" href="#' + kebabCase(headingText) + '" data-turbolinks="false">' + headingText +
-      '</a></div></div>'
-    );
-  }
+function navigationElement(headingText) {
+  return (
+    '<div class="lesson-navigation__item">' +
+    '<div class="lesson-navigation__circle"></div>' +
+    '<div class="lesson-navigation__title">' +
+    '<a class="lesson-navigation__link grey" href="#' + kebabCase(headingText) + '" data-turbolinks="false">' + headingText +
+    '</a></div></div>'
+  );
+}
 
 function lessonNavigation(headings) {
   return headings.map(navigationElement).join('');
@@ -100,15 +100,15 @@ function isLessonPage() {
 
 function constructLessonSections() {
   lessonHeadings.forEach(buildScrollSpy);
-  uri = location.href.replace(location.hash,"");
+  uri = location.href.replace(location.hash,'');
   lessonHeadings.forEach(constructInternalLinks);
 }
 
 function buildScrollSpy(heading) {
   var id = heading.getAttribute('id');
-  heading.removeAttribute("id");
-  var section = document.createElement("div");
-  section.setAttribute("id", id);
+  heading.removeAttribute('id');
+  var section = document.createElement('div');
+  section.setAttribute('id', id);
 
   if (isCommonHeading(heading.innerText)) {
     section.classList.add('scrollspy');
@@ -129,7 +129,7 @@ function constructInternalLinks(heading){
    var internalLink = document.createElement('a');
    internalLink.setAttribute('href', uri + '#' + id);
    internalLink.innerText = heading.innerText;
-   internalLink.className = "internal-link";
+   internalLink.className = 'internal-link';
    heading.appendChild(internalLink);
    heading.firstChild.remove();
 } 
@@ -141,9 +141,7 @@ function spyLessonSections() {
 document.addEventListener('turbolinks:load', function() {
   if (!isLessonPage()) return;
   setTargetForExternalLinks();
-  
   if (!window.matchMedia('(min-width: 992px)').matches) return;
-  
   getLessonHeadings();
   constructLessonNavigation();
   constructLessonSections(); 
