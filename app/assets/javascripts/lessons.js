@@ -6,12 +6,6 @@ var LESSON_HEADINGS = [
   'Exercises',
   'Knowledge Check',
 ];
-var lessonHeadings;
-var uri;
-
-function getLessonHeadings() {
-  return (lessonHeadings = getElements('.lesson-content h3'));
-}
 
 function getElements(selector) {
   return document.querySelectorAll(selector);
@@ -48,6 +42,7 @@ function isCommonHeading(heading) {
 }
 
 function filterHeadings() {
+  var lessonHeadings = getElements('.lesson-content h3');
   return Array.prototype.slice
     .call(lessonHeadings)
     .map(getInnerText)
@@ -99,8 +94,9 @@ function isLessonPage() {
 }
 
 function constructLessonSections() {
+  var lessonHeadings = getElements('.lesson-content h3');
+
   lessonHeadings.forEach(buildScrollSpy);
-  uri = location.href.replace(location.hash,'');
   lessonHeadings.forEach(constructInternalLinks);
 }
 
@@ -125,13 +121,14 @@ function buildScrollSpy(heading) {
 }
 
 function constructInternalLinks(heading){
-   var id = heading.parentElement.id;
-   var internalLink = document.createElement('a');
-   internalLink.setAttribute('href', uri + '#' + id);
-   internalLink.innerText = heading.innerText;
-   internalLink.className = 'internal-link';
-   heading.appendChild(internalLink);
-   heading.firstChild.remove();
+  var uri = location.href.replace(location.hash,'');
+  var id = heading.parentElement.id;
+  var internalLink = document.createElement('a');
+  internalLink.setAttribute('href', uri + '#' + id);
+  internalLink.innerText = heading.innerText;
+  internalLink.className = 'internal-link';
+  heading.appendChild(internalLink);
+  heading.firstChild.remove();
 } 
 
 function spyLessonSections() {
@@ -142,7 +139,6 @@ document.addEventListener('turbolinks:load', function() {
   if (!isLessonPage()) return;
   setTargetForExternalLinks();
   if (!window.matchMedia('(min-width: 992px)').matches) return;
-  getLessonHeadings();
   constructLessonNavigation();
   constructLessonSections(); 
   spyLessonSections();
