@@ -10,16 +10,12 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
-* What does the `#each` method do? What does it return?
-* What does the `#each_with_index` method do?
-* When should you use `do...end` around a code block versus `{...}`?
-* What does the `#map` method do?
-* What does the `#select` method do?
-* What does the `#reduce` method do?
-* Why is there a question mark after some methods?
-* What does the `#include?` method do?
-* What does the `#any?` method do? The `#all?` method? `#none?`?
-* Why should you not use the bang methods of enumerables often?
+ - Explain how the `#each` and `#each_with_index` methods work and how they differ.
+ - Explain how the `#map` method works.
+ - Explain how the `#select` method works.
+ - Explain how the `#reduce` method works.
+ - Describe the differences between using `do...end` and `{...}`.
+ - Explain what a bang method is and why it is or is not considered best practice.
 
 ### Life Before Enumerables
 Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of nutcase and always drinks way too much.
@@ -212,7 +208,7 @@ salaries.map { |salary| salary - 700 }
 #=> [800, 800, 800, 800]
 ~~~
 
-### The `#select` Enumerable Method
+### The `#select` Method
 You've already seen the `#select` method in action, right at the very start of this lesson when we created our invite list and made Brian an outcast.
 
 The `#select` method passes every item in a collection to a block, and returns a brand new array with only the items that evaluate to true from the condition you set within the block.
@@ -253,7 +249,7 @@ responses.select { |person, response| response == 'yes'}
 
 Looks like only Sharon and Arun can go. That's not great, we need more people. You reluctantly call Brian, who you know will bring a batch of his awful home-brewed IPA.
 
-#### The `#reduce` method
+### The `#reduce` method
 The `#reduce` method (alias: `#inject`) is possibly the most difficult-to-grasp enumerable for new coders. The idea is simple enough, though: it reduces a collection (array/hash) down to a single object. You should use it when you want to get a single value or output from your collection.
 
 A classic example of when reduce is useful is to a sum an array of numbers. First lets explore how we would achieve this using each:
@@ -300,209 +296,6 @@ end
 Dammit, Brian!
 
 Note that this example returns a hash with several `key => value` pairs. So the object that `#reduce` returns is still one object, a hash. It's just a more complex one.
-
-### Boolean Enumerable Methods
-You may have noticed some of Ruby's built in methods have a question mark `?` in the name. Any method with a `?` at the end is a `predicate` method, which is a Ruby convention for a method that returns a Boolean, that is either `true` or `false`.
-
-In this section we are going to take a look at four of Ruby's boolean enumerable methods.
-
-#### The `#include?` method
-The `#include?` method works exactly like you think it should. If we want to determine if a particular element exists in an array, we can use the `#include?` method. It will return true if the element you pass as an argument to `#include?` exists in a collection, otherwise it will return false.
-
-First lets explore how we would achieve this with the `#each` method:
-
-~~~ruby
-numbers = [5, 6, 7, 8]
-element = 6
-result = false
-
-numbers.each do |number|
-  if number == element
-    result = true
-  end
-end
-
-result
-# => true
-
-element = 3
-result = false
-
-numbers.each do |number|
-  if number == element
-    result = true
-  end
-end
-
-result
-#=> false
-~~~
-
-Using include this can simplified to the following:
-
-~~~ruby
-numbers = [5, 6, 7, 8]
-
-numbers.include?(6)
-#=> true
-
-my_numbers.include?(3)
-#=> false
-~~~
-
-For another example using your `invited_friends` list:
-
-~~~ruby
-friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
-
-invited_list = friends.select { |friend| friend != 'Brian' }
-
-invited_list.include?('Brain')
-#=> false
-~~~
-
-### The `#any?` method
-You might also be able to guess what the `#any?` method does. It returns true if **any** elements in your collection match the criteria within the block, otherwise it will return false.
-
-Let's say we want to see if there is any number greater than 500 in an array of numbers, lets first explore how we could achieve this using `#each`.
-
-~~~ruby
-numbers = [21, 42, 303, 499, 550, 811]
-result = false
-
-numbers.each do |number|
-  if number > 500
-    result = true
-  end
-end
-
-result
-#=> true
-
-numbers = [21, 42, 303, 499, 550, 811]
-result = false
-
-numbers.each do |number|
-  if number < 20
-    result = true
-  end
-end
-
-result
-#=> false
-~~~
-
-Using `#any?` this can be simplified to:
-
-~~~ruby
-numbers = [21, 42, 303, 499, 550, 811]
-
-numbers.any? { |number| item > 500 }
-#=> true
-
-numbers.any? { |number| item < 20 }
-#=> false
-~~~
-
-### The `#all?` method
-The `all?` method is also fairly intuitive. It only returns true if **all** the elements in your collection match the criteria you set within the block, otherwise it will return false.
-
-Say we want to check if all the words in our list are greater that 6 characters in length, lets first explore how we could achieve this using `#each` :
-
-~~~ruby
-fruits = ["apple", "banana", "strawberry", "pineapple"]
-matches = []
-result = false
-
-fruits.each do |fruit|
-  if fruit.length > 3
-    matches.push(fruit)
-  end
-
-  result = fruits.length == matches.length
-end
-
-result
-#=> true
-
-fruits = ["apple", "banana", "strawberry", "pineapple"]
-matches = []
-result = false
-
-fruits.each do |fruit|
-  if fruit.length > 6
-    matches.push(fruit)
-  end
-
-  result = fruits.length == matches.length
-end
-
-result
-#=> false
-~~~
-
-Using `#all?` this can be simplified to:
-
-~~~ruby
-fruits = ["apple", "banana", "strawberry", "pineapple"]
-
-fruits.all? { |fruit| fruit.length > 3 }
-#=> true
-
-fruits.all? { |fruit| fruit.length > 6 }
-#=> false
-~~~
-
-Special note to keep in mind while debugging: `#all?` will return `true` unless the block returns `false` or `nil`. So even if you call `#all?` on an empty collection (i.e., there are no elements to for the block to evaluate), it will return `true`.
-
-#### The `#none?` method
-As you might expect `#none?` performs the opposite function of `#all?`. It returns true only if the criteria in the block matches **none** of the elements in a collection. Otherwise it returns false.
-
-Lets first explore how this could be achieved using `#each`, its very similar to what we did with `#all?`:
-
-~~~ruby
-fruits = ["apple", "banana", "strawberry", "pineapple"]
-matches = []
-result = false
-
-fruits.each do |fruit|
-  if fruit.length > 10
-    matches.push(fruit)
-  end
-
-  result = matches.length == 0
-end
-
-result
-#=> true
-
-fruits = ["apple", "banana", "strawberry", "pineapple"]
-matches = []
-result = false
-
-fruits.each do |fruit|
-  if fruit.length > 6
-    matches.push(fruit)
-  end
-
-  result = matches.length == 0
-end
-
-result
-#=> false
-~~~
-
-Using `#none?` this can be simplified to:
-
-~~~ruby
-fruits = ["apple", "banana", "strawberry", "pineapple"]
-
-fruits.none? { |fruit| fruit.length > 10 }
-#=> true
-
-fruits.none? { |fruit| fruit.length > 6 }
-#=> true
-~~~
 
 
 ### Bang Methods and Return Values
