@@ -81,7 +81,7 @@ Let's break down this syntax:
 * `friends` is the array that contains strings of your friends' names.
 * `.each` is the enumerable method you are calling on your `friends` array.
 * `{ |friend| puts friend }` is a **block**, and the code inside this block is run for each element in your array. Because we have 5 friends in our array, this block will be run 5 times, once with each of the 5 elements.
-* Within the block, you'll notice that we have `|friend|`, which is known as a **block variable**. This is the element from your array that the block is currently iterating over. In the first iteration, the value of `|friend|` will be `'Sharon'`; in the second iteration, its value will be `'Leo'`; in the third, `Leila`; and so on until it reaches the end of the array.
+* Within the block, you'll notice that we have `|friend|`, which is known as a **block variable**. This is the element from your array that the block is currently iterating over. You can use any variable names that you find helpful here; in this example, we could have used `|x|`, but `|friend|` is more descriptive of what each element is. In the first iteration, the value of `|friend|` will be `'Sharon'`; in the second iteration, its value will be `'Leo'`; in the third, `Leila`; and so on until it reaches the end of the array.
 
 What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:
 
@@ -149,9 +149,7 @@ fruits.each_with_index { |fruit, index| puts fruit if index.even? }
 Just like with the `#each` method, `#each_with_index` returns the original array it's called on.
 
 ### The `#map` Method
-Remember when we tried to transform each of your friends names earlier by uppercasing them with `#each`? Lets try that again.
-
-For reference, this what we previously tried:
+Remember when we tried to use `#each` to write all of your friends' names in all caps? For reference, this is the code that we tried:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -161,9 +159,9 @@ friends.each { |friend| friend.upcase }
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
-It returns the original array, but dammit that's not what we want.
+As we can see, `#each` returns the original array, but that's not what we want. WE WANT CAPS!
 
-Let's modify it to get it to work:
+Let's modify our `#each` code to get it to work:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -172,18 +170,17 @@ shouting_at_friends = []
 friends.each { |friend| shouting_at_friends.push(friend.upcase) }
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
-shouting_at_friends #=> `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`
+shouting_at_friends #=> ['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']
 ~~~
 
-It works! But we need to introduce another array into the mix to store the transformed elements. Its starting to suspiciously look like the `for` loop example we were trying to get away from in the introduction of this lesson.
+It works! It took quite a bit of extra work, though. We had to introduce another array that could store the transformed elements. This code is starting to look more clunky and suspiciously like the `for` loop example in the first section that we're trying to get away from.
 
-Luckily we have the `#map` enumerable to save us from this misery!
+Luckily, we have the `#map` enumerable method to save us from our misery!
 
-`#map` is used to transform each element from the collection it is called on, and return the transformed elements in a new array. How the elements are transformed is defined by the block you pass to it.
+The `#map` method transforms each element from an array according to whatever block you pass to it and returns the transformed elements in a new array. `#map` may seem confusing at first, but it is extremely useful. We'll go through several examples and use cases, which should help you understand how and when you can use this enumerable power for good.
 
-`#map` may seem confusing at first, but it is extremely useful. Seeing several examples and use cases will help you understand how and when you can use it.
+First, let's use `#map` to improve on our code that transforms all of our friends' names to uppercase:
 
-Changing our uppercasing friends example to use map would look like this:
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
@@ -191,7 +188,10 @@ friends.map { |friend| friend.upcase }
 #=> `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`
 ~~~
 
-Maybe you want to change your McDonalds order from medium to extra large, with `#map` thats easy peasy:
+We're back down to two lines of code, baby! Isn't it beautiful?
+
+Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://ruby-doc.org/core-2.6.1/String.html#method-i-gsub), that's easy peasy:
+
 ~~~ruby
 my_order = ['medium Big Mac', 'medium fries', 'medium milkshake']
 
@@ -199,14 +199,16 @@ my_order.map { |item| item.gsub('medium', 'extra large') }
 #=> ["extra large Big Mac", "extra large fries", "extra large milkshake"]
 ~~~
 
-Or maybe you want to deduct your rent payments from your salary over the past few months:
+Maybe you've decided that it's time for you to get your finances in order, and you want to deduct your rent payments from your salary over the past few months to make sure that you haven't been spending all of your remaining money on extra large Big Mac meals:
 
 ~~~ruby
-salaries = [1500, 1500, 1500, 1500]
+salaries = [1200, 1500, 1100, 1800]
 
 salaries.map { |salary| salary - 700 }
-#=> [800, 800, 800, 800]
+#=> [500, 800, 400, 1100]
 ~~~
+
+Whenever you want to return a new array with the results of running your block of code, `#map` is the method for you!
 
 ### The `#select` Method
 You've already seen the `#select` method in action, right at the very start of this lesson when we created our invite list and made Brian an outcast.
