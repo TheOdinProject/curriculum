@@ -1,53 +1,14 @@
 ### Introduction
-In previous lessons you learnt about loops and collections such as arrays and hashes. You will soon find out that you'll have to do a lot of iterating (looping or repeating something several times) over collections as a developer, so much it will make you dizzy.
+In previous lessons, you learned about loops as well as arrays and hashes. You will soon discover that you'll have to do so much iterating (looping or repeating something several times) over collections as a developer that it will make you dizzy.
 
-Say you wanted to make an invite list for your birthday using your friends array, but you don't want to invite your friend Brian because he's a bit of nutcase and always drinks way too much.
+**Enumerables** are a set of convenient built-in methods in Ruby that you can use on collections. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
 
-With the loops you've already learnt you might do that like this:
-
-~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
-invited_list = []
-
-for friend in friends do
-  if friend != 'Brian'
-  invited_list.push(friend)
-  end
-end
-
-invited_list #=> ["Sharon", "Leo", "Lelia", "Arun"]
-~~~
-
-Thats not so bad, but imagine having to do that for every party you host from now until the end of time! It might be easier to just stop hanging out with Brian.
-
-Using the `#select` enumerable method you could change the above code to this:
-
-~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
-
-friends.select { |friend| friend != 'Brian' }
- #=> ["Sharon", "Leo", "Lelia", "Arun"]
-~~~
-
-or even better and more to the point:
-
-~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brain', 'Arun']
-
-friends.reject { |friend| friend == 'Brian' }
- #=> ["Sharon", "Leo", "Lelia", "Arun"]
-~~~
-
-You just cut down what was previously a 8 line program to 2 lines. Amazing! Imagine all the time you'll save sorting your invite lists out.
-
-Enumerables are a set of convenient methods built into Ruby that you can use on collections. There are some iteration patterns that you'll find yourself doing again and again such as transforming, searching, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns much, much easier.
-
-We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else Enumerable offers.
+We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else [Enumerable](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
 ### Learning Outcomes
-*Look through these now and then use them to test yourself after doing the assignment*
+By the end of this lesson, you should be able to do the following:
 
 * What does the `#each` method do? What does it return?
 * What does the `#each_with_index` method do?
@@ -60,23 +21,63 @@ For all of the examples throughout this lesson, feel free to follow along in irb
 * What does the `#any?` method do? The `#all?` method? `#none?`?
 * Why should you not use the bang methods of enumerables often?
 
+### Life Before Enumerables
+Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of nutcase and always drinks way too much.
+
+With the loops you've already learned, you might do something like this:
+
+~~~ruby
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
+invited_list = []
+
+for friend in friends do
+  if friend != 'Brian'
+  invited_list.push(friend)
+  end
+end
+
+invited_list #=> ["Sharon", "Leo", "Leila", "Arun"]
+~~~
+
+Thats not so bad, but imagine having to do that for every party you host from now until the end of time! It might be easier to just stop hanging out with Brian.
+
+Using the `#select` enumerable method you could change the above code to this:
+
+~~~ruby
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
+
+friends.select { |friend| friend != 'Brian' }
+ #=> ["Sharon", "Leo", "Leila", "Arun"]
+~~~
+
+or even better and more to the point:
+
+~~~ruby
+friends = ['Sharon', 'Leo', 'Leila', 'Brain', 'Arun']
+
+friends.reject { |friend| friend == 'Brian' }
+ #=> ["Sharon", "Leo", "Leila", "Arun"]
+~~~
+
+You just cut down what was previously a 8 line program to 2 lines. Amazing! Imagine all the time you'll save sorting your invite lists out.
+
 ### The `#each` Enumerable Method
 `#each` is the Grand Daddy of the Enumerables. Its a bit like Chuck Norris: it can do anything. But as you'll see throughout this lesson, just because you can use `#each`, it doesn't mean you should in a lot of situations.
 
 Calling `#each` on an array will iterate through that array and will yield each element to a code block, where a task can be performed:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 friends.each { |friend| puts friend }
 
 #=> Sharon
 #=> Leo
-#=> Lelia
+#=> Leila
 #=> Brian
 #=> Arun
 
-#=> ["Sharon", "Leo", "Lelia", "Brian" "Arun"]
+#=> ["Sharon", "Leo", "Leila", "Brian" "Arun"]
 ~~~
 
 Lets break down this syntax:
@@ -84,7 +85,7 @@ Lets break down this syntax:
 * `friends` is your collection, your array of friends.
 * `.each` is the enumerable method you are calling on your friends array.
 * `{ |friend| puts friend }` is a block, and the code in the block is run for each element in your collection. Because we have 5 friends in our array, thats how many times the block will be run for this collection.
-* Within the block you have what's known as the block variable `|friend|`. This is the element from your collection the block is currently iterating over. In the first iteration its value will be `'Sharon'`, in the second iteration its value will be `'Leo'`, in the third `Lelia`, and so on until it reaches the end of the collection.
+* Within the block you have what's known as the block variable `|friend|`. This is the element from your collection the block is currently iterating over. In the first iteration its value will be `'Sharon'`, in the second iteration its value will be `'Leo'`, in the third `Leila`, and so on until it reaches the end of the collection.
 
 `#each` also works with hashes, but with a bit of added functionality. It can yield the key and value of a hash individually or together (as an array) to the block:
 
@@ -109,14 +110,14 @@ You may have noticed in the code examples so far when you use `#each`, it will r
 Take this code for example:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 friends.each { |friend| friend.upcase }
 
-#=> ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+#=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
-You might expect this to return all the friends names in uppercase `['SHARON', 'LEO', 'LELIA', 'BRIAN', 'ARUN']`. But you'd be wrong, dead wrong. It returns the original array you called `#each` on. You're still *not* invited, Brian.
+You might expect this to return all the friends names in uppercase `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`. But you'd be wrong, dead wrong. It returns the original array you called `#each` on. You're still *not* invited, Brian.
 
 ### The `#each_with_index` Enumerable Method
 This method is nearly the same as `#each`, but it provides additional functionality by yielding two **block variables** instead of one as it iterates through a collection. The first variables value is the element itself, while the second variable's value is the index or position of that element within the collection. This allows you to do things that are a bit more complex.
@@ -157,11 +158,11 @@ Remember when we tried to transform each of your friends names earlier by upperc
 For reference, this what we previously tried:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 friends.each { |friend| friend.upcase }
 
-#=> ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+#=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
 It returns the original array, but dammit that's not what we want.
@@ -169,13 +170,13 @@ It returns the original array, but dammit that's not what we want.
 Let's modify it to get it to work:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 shouting_at_friends = []
 
 friends.each { |friend| shouting_at_friends.push(friend.upcase) }
-#=> ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+#=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
-shouting_at_friends #=> `['SHARON', 'LEO', 'LELIA', 'BRIAN', 'ARUN']`
+shouting_at_friends #=> `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`
 ~~~
 
 It works! But we need to introduce another array into the mix to store the transformed elements. Its starting to suspiciously look like the `for` loop example we were trying to get away from in the introduction of this lesson.
@@ -188,10 +189,10 @@ Luckily we have the `#map` enumerable to save us from this misery!
 
 Changing our uppercasing friends example to use map would look like this:
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 friends.map { |friend| friend.upcase }
-#=> `['SHARON', 'LEO', 'LELIA', 'BRIAN', 'ARUN']`
+#=> `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`
 ~~~
 
 Maybe you want to change your McDonalds order from medium to extra large, with `#map` thats easy peasy:
@@ -219,7 +220,7 @@ The `#select` method passes every item in a collection to a block, and returns a
 Lets explore how the same thing would be accomplished by using `#each` first:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 invited_list = []
 
 friends.each do |friend|
@@ -229,23 +230,23 @@ friends.each do |friend|
 end
 
 invited_list
- #=> ["Sharon", "Leo", "Lelia", "Arun"]
+ #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
 Using `#select` this can simplified to:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 friends.select { |friend| friend != 'Brian' }
 
- #=> ["Sharon", "Leo", "Lelia", "Arun"]
+ #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
 The friends you invited to your party have gotten back to you, their responses are all in a hash. Lets use `#select` to figure out who's coming. Recall that when we use an emumerable method with a hash, you can use the key and the value as block variables within the block:
 
 ~~~ruby
-responses = { 'Sharon' => 'yes', 'Leo' => 'no', 'Lelia' => 'no', 'Arun' => 'yes' }
+responses = { 'Sharon' => 'yes', 'Leo' => 'no', 'Leila' => 'no', 'Arun' => 'yes' }
 responses.select { |person, response| response == 'yes'}
 #=> {"Sharon"=>"yes", "Arun"=>"yes"}
 ~~~
@@ -352,7 +353,7 @@ my_numbers.include?(3)
 For another example using your `invited_friends` list:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 invited_list = friends.select { |friend| friend != 'Brian' }
 
@@ -512,13 +513,13 @@ Earlier we mentioned that enumerables like `#map` and `#select` return new array
 Take this earlier example, where we uppercase each of our friends names:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 friends.map { |friend| friend.upcase }
-#=> `['SHARON', 'LEO', 'LELIA', 'BRIAN', 'ARUN']`
+#=> `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`
 
 friends
-#=> ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+#=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
 When we call our original friends array again we can see that it is unchanged.
@@ -526,13 +527,13 @@ When we call our original friends array again we can see that it is unchanged.
 If we wanted to change your friends array we could use the map bang method `#map!`:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 friends.map! { |friend| friend.upcase }
-#=> `['SHARON', 'LEO', 'LELIA', 'BRIAN', 'ARUN']`
+#=> `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`
 
 friends
-#=> `['SHARON', 'LEO', 'LELIA', 'BRIAN', 'ARUN']`
+#=> `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`
 ~~~
 
 Now when we call our original friends array again, it returns the changed values from the `map!`. Instead of returning a new array, `map!` has modified our original array.
@@ -549,21 +550,21 @@ So if its not a good idea to use bang methods and we need to re-use the result o
 
 One option is to put the result of an enumerable in a local variable:
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 invited_friends = friends.select { |friend| friend != 'Brian' }
 
 friends
-#=> ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+#=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 invited_friends
- #=> ["Sharon", "Leo", "Lelia", "Arun"]
+ #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
 A better option would be to wrap your enumerable in a method:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 def invited_friends(friends)
   friends.select { |friend| friend != 'Brian' }
@@ -571,10 +572,10 @@ end
 
 
 friends
-#=> ['Sharon', 'Leo', 'Lelia', 'Brian', 'Arun']
+#=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 invited_friends(friends)
- #=> ["Sharon", "Leo", "Lelia", "Arun"]
+ #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
 ### Assignment
@@ -585,9 +586,23 @@ invited_friends(friends)
 </div>
 
 ### Additional Resources
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 * This tutorial on [codementor](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module) is another good discussion of the versatility of enumerable methods.
 * There are many more enumerable methods than are covered in this lesson (`reject`, `drop`, `uniq`, to name a few).
 For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.5.0/Enumerable.html).
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What does the `#each` method do? What does it return?
+* What does the `#each_with_index` method do?
+* When should you use `do...end` around a code block versus `{...}`?
+* What does the `#map` method do?
+* What does the `#select` method do?
+* What does the `#reduce` method do?
+* Why is there a question mark after some methods?
+* What does the `#include?` method do?
+* What does the `#any?` method do? The `#all?` method? `#none?`?
+* Why should you not use the bang methods of enumerables often?
