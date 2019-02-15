@@ -172,6 +172,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/odin-flickr.git) | [Live](https://immense-bayou-47624.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-flickr)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Flickr-API)
 * [szib's solution](https://github.com/szib/odin-flickr) - [View in browser](https://intense-escarpment-22977.herokuapp.com/)
