@@ -15,9 +15,9 @@ By the end of this lesson, you should be able to do the following:
  - Explain what a `loop` loop is and how to use it.
  - Explain what a `while` loop is and how to use it.
  - Explain what a `for` loop is and how to use it.
- - Explain what a `times` loop is and how to use it.
+ - Explain what a `#times` loop is and how to use it.
  - Explain what an `until` loop is and how to use it.
- - Explain what `updo` and `downto` loops are and how to use them.
+ - Explain what `#updo` and `#downto` loops are and how to use them.
 
 ### Loop
 The `loop` loop (say what????) is Ruby's loop that just don't quit. It's an infinite loop that will keep going unless you specifically request for it to stop using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
@@ -72,7 +72,7 @@ That's really all there is to it.
 
 ### Times Loop
 
-If you need to run a loop for a specified number of times, then look no further than the trusty `times` loop. It works by iterating through a loop a specified number of times and even throws in the bonus of accessing the number it's currently iterating through.
+If you need to run a loop for a specified number of times, then look no further than the trusty `#times` loop. It works by iterating through a loop a specified number of times and even throws in the bonus of accessing the number it's currently iterating through.
 
 ~~~ruby
 5.times do
@@ -120,7 +120,7 @@ Much more readable! This code is guaranteed to get you a "yes".
 
 ### Upto and Downto Loops
 
-The Ruby methods `upto` and `downto` do exactly what you'd think they do from their names. You can use these methods to iterate from a starting number either up to or down to another number, respectively.
+The Ruby methods `#upto` and `#downto` do exactly what you'd think they do from their names. You can use these methods to iterate from a starting number either up to or down to another number, respectively.
 
 ~~~ruby
 5.upto(10) {|num| print "#{num} " }     #=> 5 6 7 8 9 10
@@ -133,8 +133,9 @@ If you need to step through a series of numbers (or even letters) within a speci
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's *Introduction to Programming With Ruby*. 
-Try re-writing the above examples using alternative loop methods to achieve the same results.
+2. Try re-writing the above examples using alternative loop methods to achieve the same results.
 </div>
 
 ### Additional Resources
@@ -150,6 +151,6 @@ This section contains questions for you to check your understanding of this less
  * What is a `loop` loop, and how would you use it?
  * What is a `while` loop, and how would you use it?
  * What is a `for` loop, and how would you use it?
- * What is a `times` loop, and how would you use it?
+ * What is a `#times` loop, and how would you use it?
  * What is an `until` loop, and how would you use it?
- * What are the `upto` and `downto` loops, and how would you use them?
+ * What are the `#upto` and `#downto` loops, and how would you use them?
