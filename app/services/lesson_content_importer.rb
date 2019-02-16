@@ -10,6 +10,19 @@ class LessonContentImporter
     new(lesson).import
   end
 
+  def self.import_all
+    total = Lesson.count
+
+    Rails.logger.info 'Importing lesson content...'
+
+    Lesson.all.each_with_index do |lesson, i|
+      Rails.logger.info "Importing #{i+1}/#{total}: #{lesson.title}"
+      self.for(lesson)
+    end
+
+    Rails.logger.info 'Lesson content import complete.'
+  end
+
   def import
     lesson.update(content: content_converted_to_html) if content_needs_updated?
   rescue Octokit::Error => errors
