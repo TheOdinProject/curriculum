@@ -621,6 +621,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mwk913's Solution](https://github.com/mwk913/Ruby-Advanced-Building-Blocks)
 * [EdwardHeath's Soultion](https://github.com/EdwardHeath/enumerable/blob/master/enumerable.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/enumerables.rb)
+* [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/Enumerable_methods.rb)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
