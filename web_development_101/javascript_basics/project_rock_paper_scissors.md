@@ -501,4 +501,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Natcancein's Solution](https://github.com/Natcancein/the_odin_project/tree/master/rock-papper-scissors) - [View in Browser](https://natcancein.github.io/the_odin_project/rock-papper-scissors/)
 - [Bill Deitrick's Solution](https://github.com/billdeitrick/rps)
 - [Brandon Myles Console Solution](https://bmyles10.github.io/Rock_Paper_Scissors/)
+- [Metin Karakus's Solution](https://github.com/metinkarakus/rockpaperscissors) - [View in Browser](https://metinkarakus.github.io/rockpaperscissors/)
 
