@@ -1944,8 +1944,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alex Krewson's Solution (Easy)](https://github.com/alexkrewson/google-homepage) - [View in browser](https://alexkrewson.github.io/google-homepage/)
 * [Justin Glover's Solution (Easy)](https://github.com/jglover16/google-homepage) - [View in browser](https://jglover16.github.io/google-homepage/)
 * [Jerome Lyons' Solutionm (Easy)](https://github.com/UncleArtie/google-homepage)
-* [Tomás Guerra's Solution (Easy)](https://github.com/OG-TomasGuerra/google-homepage) - [View in browser](tomasguerra.github.io/google-homepage/)
-* [FPlue's Solution (Easy)](https://github.com/Fplue/google-homepag) - [View in browser](fplue.github.io/google-homepage/)
+* [Tomás Guerra's Solution (Easy)](https://github.com/OG-TomasGuerra/google-homepage) - [View in browser](https://og-tomasguerra.github.io/google-homepage/)
+* [FPlue's Solution (Easy)](https://github.com/Fplue/google-homepage) - [View in browser](https://fplue.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
