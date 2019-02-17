@@ -25,6 +25,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* Smetanca52's Solution [GitHub](https://github.com/Smetanca52/sinatra_project) [Live](https://boiling-refuge-38884.herokuapp.com/)
 * Jason McKee's Solution [GitHub](https://github.com/jttmckee/sinatra-caesar-cipher) [Live](https://limitless-wave-11721.herokuapp.com)
 * Stefano Merazzi's Solution [GitHub](https://github.com/ste001/caesar-cipher-reloaded) [Live](https://fathomless-savannah-14730.herokuapp.com/)
 * prw001's Solution [Github](https://github.com/prw001/sinatra_games_suite) [Live](https://safe-peak-15193.herokuapp.com/)
