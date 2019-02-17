@@ -1,5 +1,5 @@
 ### Introduction
-Now that you've learned about arrays, it's time to get into the array's supercharged cousin: **the hash**. Ruby hashes are more advanced collections of data and are similar to object in JavaScript and dictionaries in Python, if you're familiar with those.
+Now that you've learned about arrays, it's time to get into the array's supercharged cousin: **the hash**. Ruby hashes are more advanced collections of data and are similar to objects in JavaScript and dictionaries in Python if you're familiar with those.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
@@ -13,9 +13,9 @@ By the end of this lesson, you should be able to do the following:
 ### Arrays vs. Hashes
 You're sitting in your cubicle, diligently working away (because you would never dream of slacking off at work), when lunch time rolls around. You need to grab a bite to eat, but how are you going to go about requesting food? For the purposes of this parable, you have two options: a vending machine or a nice restaurant. 
 
-If you were to go to the vending machine, you would see nice, orderly rows of food where each option is labeled with an identifier like "A7" or "C2". These labels are the indices of the vending machine array. It's important to note that the indices are not interchangable: "A2" will always come before "A3" and after "A1". You request your food by using an index to tell the vending machine what you want. It understands the index and returns whatever lives in that spot. Mmmmm, nothing like a lunch of Flamin' Hot Cheetos and Diet Coke! You are a programmer, after all.
+If you were to go to the vending machine, you would see nice, orderly rows of food where each option is labeled with a number. These labels are the indices of the vending machine array. It's important to note that the indices are not interchangable: "12" will always come before "13" and after "11". You request your food by using an index to tell the vending machine what you want. It understands the index and returns whatever lives in that spot. Mmmmm, nothing like a lunch of Flamin' Hot Cheetos and Diet Coke! You are a programmer, after all.
 
-Your other option is to sit yourself down at a table covered with a nice white tablecloth, where a pleasant waiter will see to your every need. The first thing they will do is a bring you a menu, which for those of you that have only been eating out of vending machines so far in your life, lists out all of your dining options labeled with the name of the dish, such as ["sublimated artichoke frittata" or "whole pork belly, market acorns, and activated shell bean"](http://www.brooklynbarmenus.com/). In this menu hash, the dish names are called **keys**: they are the labels that are used to identify your dining options. The food that those dish names represent are the **values** that the keys point to. To order your food, you give your waiter the key (you tell him the name of the dish you want), and he returns the value of that key (food that matches the description on the menu). Mmmmm, nothing like a lunch of free-range bison with corn and peach compote and an IPA! You are a programmer, after all.
+Your other option is to sit yourself down at a table covered with a nice white tablecloth, where a pleasant waiter will see to your every need. The first thing they will do is bring you a menu, which for those of you that have only been eating out of vending machines so far in your life, lists out all of your dining options labeled with the name of the dish, such as ["sublimated artichoke frittata" or "whole pork belly, market acorns, and activated shell bean"](http://www.brooklynbarmenus.com/). In this menu hash, the dish names are called **keys**: they are the labels that are used to identify your dining options. The food that those dish names represent are the **values** that the keys point to. To order your food, you give your waiter the key (you tell him the name of the dish you want), and he returns the value of that key (food that matches the description on the menu). Mmmmm, nothing like a lunch of free-range bison with corn and peach compote and an IPA! You are a programmer, after all.
 
 There are two important differences to note between the vending machine array and the menu hash. First, it's far easier for us to use the names of things to find what we're looking for than to have to translate what we want into numerical indices. This is a huge advantage of using a hash: no more having to count out array elements to request what we want! Second, the items on a menu can appear in any order, and we'll still get exactly what we want as long as we use the correct name. This unordered aspect of hashes isn't true for arrays, which are highly dependent on order. 
 
@@ -33,9 +33,9 @@ my_hash = {
 
 This example shows the most basic way to create a hash, which is to use the hash literal of curly braces (`{}`). 
 
-The above hash has four keys that point to four different values. For example, the first key, "a random word", points to the value "ahoy". As you can see, the values of a hash can be a number, a string, an array, or even another hash. Keys and values are associated with a special operator called a **hash rocket**: `=>`.
+The above hash has four keys that point to four different values. For example, the first key, `"a random word"`, points to the value `"ahoy"`. As you can see, the values of a hash can be a number, a string, an array, or even another hash. Keys and values are associated with a special operator called a **hash rocket**: `=>`.
 
-Just like with an array, you can also create a new hash by calling good old `#new` on the `Hash` class.
+Just like with an array, you can also create a new hash by calling the good old `#new` method on the `Hash` class.
 
 ~~~ruby
 my_hash = Hash.new
@@ -60,8 +60,26 @@ shoes = {
 shoes["summer"]   #=> "sandals"
 ~~~
 
+If you try to access a key that doesn't exist in the hash, it will return `nil`:
+
+~~~ruby
+shoes["hiking"]   #=> nil
+~~~
+
+Sometimes, this behavior can be problematic for you if silently returning a `nil` value could potentially wreck havoc in your program. Luckily, hashes have a `fetch` method that will raise an error when you try to access a key that is not in your hash. 
+
+~~~ruby
+shoes.fetch("hiking")   #=> KeyError: key not found: "hiking"
+~~~
+
+Alternatively, this method can return a default value instead of raising an error if the given key is not found.
+
+~~~ruby
+shoes.fetch("hiking", "hiking boots") #=> "hiking boots"
+~~~
+
 ### Adding and Changing Data
-You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable. 
+You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable.
 
 ~~~ruby
 shoes["fall"] = "sneakers"
@@ -132,9 +150,10 @@ japanese_cars = {
 
 That last example brings a tear to the eye, doesn't it? Notice that the hash rocket and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" } or you'll get a syntax error. 
 
-When you use the cleaner 'symbols' syntax to create a hash, you'll still need to use the standard symbol syntax when you're trying to access a value.
+When you use the cleaner 'symbols' syntax to create a hash, you'll still need to use the standard symbol syntax when you're trying to access a value. In other words, regardless of which of the above two syntax options you use when creating a hash, they both create symbol keys that are accessed the same way.
 
 ~~~ruby
+american_cars[:ford]    #=> "Mustang"
 japanese_cars[:honda]   #=> "Accord"
 ~~~
 

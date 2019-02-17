@@ -17,6 +17,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 
 * Add your solution below this line!
+* [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/rubyProgramming/tic_tac_toe)
+* [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/tictactoe/tictac.rb)
 * [Noah's Solution](https://github.com/noahniuwa/odin_assignments/blob/master/tictactoe.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby/intermediate/ruby-intermediate/tic-tac-toe.rb)
 * [Stefano Merazzi's Solution](https://github.com/ste001/ruby-exercises/tree/master/tic_tac_toe)
@@ -246,6 +248,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/tree/master/tic-tac-toe)
 * [EdwardHeath's solution](https://github.com/EdwardHeath/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/tic-tac-toe/blob/master/tic-tac-toe.rb)
+* [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
 
 ### Project 2: Mastermind
 

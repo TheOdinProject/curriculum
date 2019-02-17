@@ -26,6 +26,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/binary-tree)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/binary_trees)
 * [Simon Tharby's solution](https://github.com/jinjagit/binary_tree)
 * [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/searching_binary_trees.rb)
@@ -144,6 +145,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tommy's solution](https://github.com/hoangtommy/dataStructures-Algorithms)
 * [Emil Dimitrov's solution](https://github.com/imemdm/searching-binary-trees)
 * [Leila Alderman's solution](https://github.com/leila-alderman/binary-tree)
+* [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 
 ### Project 2: Knight's Travails
 
@@ -186,6 +188,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/knights-moves)
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/knight_work)
 * [Simon Tharby's solution](https://github.com/jinjagit/knight)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/odin-project-data-structures-and-algorithms/blob/master/knight-moves.rb)
 * [prw001's Solution](https://github.com/prw001/knight_moves)
@@ -300,6 +304,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex's solution](https://github.com/alexcorremans/knight)
 * [Emil Dimitrov's solution](https://github.com/imemdm/knight-moves)
 * [Leila Alderman's solution](https://github.com/leila-alderman/knight_moves)
+* [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 
 
 ### Additional Resources
