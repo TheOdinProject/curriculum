@@ -196,3 +196,4 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Tommy's Solution (Hogwarts Hangman): [Github](https://github.com/hoangtommy/sinatra_hangman) / [Live](https://powerful-wildwood-91516.herokuapp.com/)
 * BrianEspo's Solution (Hangman): [Github](https://github.com/bribrah/Sinatra-Projects/tree/master/hangman_site) / [Live Demo](https://brianshangman.herokuapp.com/)
 * Alex's solution (Hangman, portfolio) [Github](https://github.com/alexcorremans/sinatra_projects) / [See it on the web](https://blooming-woodland-49549.herokuapp.com/)
+* Leila Alderman's solution (Hipster Hangman) [GitHub](https://github.com/leila-alderman/hipster_hangman) / [Heroku](https://stark-brook-74152.herokuapp.com/)
