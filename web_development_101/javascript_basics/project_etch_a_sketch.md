@@ -301,3 +301,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [antdricot's Solution](https://github.com/antdricot/odin-etch-a-sketch) - [View in Browser](https://antdricot.github.io/odin-etch-a-sketch/)
 * [Allden's Solution](https://github.com/allden/Etch-A-Sketch) - [View in Browser](https://allden.github.io/Etch-A-Sketch/)
 * [DensenKG's Solution](https://github.com/DensenKG/etch-a-sketch) - [View in Browser](https://densenkg.github.io/etch-a-sketch/)
+* [Natcancein's Solution](https://github.com/Natcancein/the_odin_project/tree/master/etch-a-sketch) - [View in Browser](https://natcancein.github.io/the_odin_project/etch-a-sketch/)
