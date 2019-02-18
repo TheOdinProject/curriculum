@@ -2,7 +2,9 @@ var LESSON_HEADINGS = [
   'Introduction',
   'Learning Outcomes',
   'Assignment',
-  'Additional Resources'
+  'Additional Resources',
+  'Exercises',
+  'Knowledge Check',
 ];
 
 function getElements(selector) {
@@ -10,14 +12,11 @@ function getElements(selector) {
 }
 
 function kebabCase(text) {
-  return text.toLowerCase().replace(/[^\w\d -]/, '').split(' ').join('-');
-}
-
-function setTargetForExternalLinks() {
-  getElements('.lesson-content a[href^=http]').forEach(function(externalLink) {
-    externalLink.setAttribute('target', '_blank');
-    externalLink.setAttribute('rel', 'noreferrer');
-  });
+  return text
+    .toLowerCase()
+    .replace(/[^\w\d -]/, '')
+    .split(' ')
+    .join('-');
 }
 
 function navigationElement(headingText) {
@@ -42,12 +41,19 @@ function isCommonHeading(heading) {
   return LESSON_HEADINGS.indexOf(heading) >  -1;
 }
 
-function getLessonHeadings() {
-  var headingElements = getElements('.lesson-content h3');
+function filterHeadings() {
+  var lessonHeadings = getElements('.lesson-content h3');
+  return Array.prototype.slice
+    .call(lessonHeadings)
+    .map(getInnerText)
+    .filter(isCommonHeading);
+}
 
-  return Array.prototype.slice.call(headingElements)
-  .map(getInnerText)
-  .filter(isCommonHeading);
+function setTargetForExternalLinks() {
+  getElements('.lesson-content a[href^=http]').forEach(function(externalLink) {
+    externalLink.setAttribute('target', '_blank');
+    externalLink.setAttribute('rel', 'noreferrer');
+  });
 }
 
 function addActiveClass() {
@@ -63,21 +69,20 @@ function addActiveClass() {
         link.parentNode.previousSibling.classList.remove('active');
       }
     });
-  }
+  };
 }
 
 function constructLessonNavigation() {
-  var commonHeadings = getLessonHeadings();
+  var commonHeadings = filterHeadings();
+
   if (commonHeadings.length < 2) {
     var navigationColumn = document.querySelector('.lesson .col-lg-3');
     var lessonColumn = document.querySelector('.lesson .row');
-
     navigationColumn.classList.add('d-none');
     lessonColumn.classList.add('justify-content-center');
   } else {
     var lessonNavigationHTML = lessonNavigation(commonHeadings);
     var lessonNavigationElement = document.querySelector('.lesson-navigation');
-
     lessonNavigationElement.innerHTML = lessonNavigationHTML;
     addActiveClass();
     Stickyfill.add(lessonNavigationElement);
@@ -90,27 +95,41 @@ function isLessonPage() {
 
 function constructLessonSections() {
   var lessonHeadings = getElements('.lesson-content h3');
-  lessonHeadings.forEach(function(heading) {
-    const id = heading.getAttribute('id');
-    heading.removeAttribute('id');
 
-    var section = document.createElement('div')
-    section.setAttribute('id', id);
-
-    if (isCommonHeading(heading.innerText)) {
-      section.classList.add('scrollspy');
-    }
-
-    heading.parentNode.insertBefore(section, heading);
-
-    while (heading.nextElementSibling !== null &&
-      heading.nextElementSibling.tagName !== 'H3') {
-      section.appendChild(heading.nextElementSibling);
-    }
-
-    section.insertBefore(heading, section.firstChild);
-  });
+  lessonHeadings.forEach(buildScrollSpy);
+  lessonHeadings.forEach(constructInternalLinks);
 }
+
+function buildScrollSpy(heading) {
+  var id = heading.getAttribute('id');
+  heading.removeAttribute('id');
+  var section = document.createElement('div');
+  section.setAttribute('id', id);
+
+  if (isCommonHeading(heading.innerText)) {
+    section.classList.add('scrollspy');
+  }
+
+  heading.parentNode.insertBefore(section, heading);
+
+  while (heading.nextElementSibling !== null &&
+    heading.nextElementSibling.tagName !== 'H3') {
+    section.appendChild(heading.nextElementSibling);
+  }
+
+  section.insertBefore(heading, section.firstChild);
+}
+
+function constructInternalLinks(heading){
+  var uri = location.href.replace(location.hash,'');
+  var id = heading.parentElement.id;
+  var internalLink = document.createElement('a');
+  internalLink.setAttribute('href', uri + '#' + id);
+  internalLink.innerText = heading.innerText;
+  internalLink.className = 'internal-link';
+  heading.appendChild(internalLink);
+  heading.firstChild.remove();
+} 
 
 function spyLessonSections() {
   $('.scrollspy').scrollSpy({ scrollOffset: 50 });
@@ -119,10 +138,8 @@ function spyLessonSections() {
 document.addEventListener('turbolinks:load', function() {
   if (!isLessonPage()) return;
   setTargetForExternalLinks();
-
   if (!window.matchMedia('(min-width: 992px)').matches) return;
-
   constructLessonNavigation();
-  constructLessonSections();
+  constructLessonSections(); 
   spyLessonSections();
 });
