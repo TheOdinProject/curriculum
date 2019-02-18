@@ -307,3 +307,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Natcancein's Solution](https://github.com/Natcancein/the_odin_project/tree/master/etch-a-sketch) - [View in Browser](https://natcancein.github.io/the_odin_project/etch-a-sketch/)
 * [Gaspachow's Solution](https://github.com/Gaspachow/Etch-a-Sketch) - [View in Browser](https://gaspachow.github.io/Etch-a-Sketch/)
 * [George Roberts' solution](https://github.com/robertsGeorge/Etch-A-Sketch) - [View in Browser](https://robertsgeorge.github.io/Etch-A-Sketch/)
+* [Leo Holanda's solution](https://github.com/leo-holanda/etch-a-sketch) - [View in Browser](https://leo-holanda.github.io/etch-a-sketch/)
