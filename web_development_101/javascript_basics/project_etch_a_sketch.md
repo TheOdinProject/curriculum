@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [Djo1e's Solution](https://github.com/Djo1e/etch-a-sketch) - [View in browser](https://djo1e.github.io/)
+* [Scott H's Solution](https://github.com/scotth527/etch_n_sketch_project) - [View in browser](https://scotth527.github.io/etch_n_sketch_project/)
 * [balowulf's Solution](https://github.com/balowulf/etch_a_sketch) - [View in browser](https://balowulf.github.io/etch_a_sketch/)
 * [Christopher Richardo's Solution](https://github.com/ChrisRichardo/Etch-a-Sketch) - [View in browser](https://chrisrichardo.github.io/Etch-a-Sketch/)
 * [Roelof Wobben's Solution](https://github.com/RoelofWobben/sketch-a-edge) - [View in browser](https://roelofwobben.github.io/sketch-a-edge/)
