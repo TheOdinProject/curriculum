@@ -305,3 +305,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [DensenKG's Solution](https://github.com/DensenKG/etch-a-sketch) - [View in Browser](https://densenkg.github.io/etch-a-sketch/)
 * [Gaspachow's Solution](https://github.com/Gaspachow/Etch-a-Sketch) - [View in Browser](https://gaspachow.github.io/Etch-a-Sketch/)
 * [George Roberts' solution](https://github.com/robertsGeorge/Etch-A-Sketch) - [View in Browser](https://robertsgeorge.github.io/Etch-A-Sketch/)
+* [Bill Deitrick's Solution](https://github.com/billdeitrick/etch-a-sketch) - [View in Browser](http://www.billdeitrick.com/etch-a-sketch/)
