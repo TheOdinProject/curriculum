@@ -503,4 +503,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Bill Deitrick's Solution](https://github.com/billdeitrick/rps) - [View in Browser](http://www.billdeitrick.com/rps/gui/)
 - [Brandon Myles Console Solution](https://bmyles10.github.io/Rock_Paper_Scissors/)
 - [Metin Karakus's Solution](https://github.com/metinkarakus/rockpaperscissors) - [View in Browser](https://metinkarakus.github.io/rockpaperscissors/)
-
+- [hiten3's Console Solution](https://github.com/hiten3/rock-paper-scissors-js)
