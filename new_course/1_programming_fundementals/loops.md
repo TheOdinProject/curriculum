@@ -133,8 +133,9 @@ If you need to step through a series of numbers (or even letters) within a speci
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's *Introduction to Programming With Ruby*. 
-Try re-writing the above examples using alternative loop methods to achieve the same results.
+2. Try re-writing the above examples using alternative loop methods to achieve the same results.
 </div>
 
 ### Additional Resources
