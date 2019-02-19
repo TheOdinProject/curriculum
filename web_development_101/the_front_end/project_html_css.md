@@ -86,8 +86,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this list
 * [ericlyeric's Solution (Easy)](https://github.com/ericlyeric/google-homepage) - [View in Browser](https://ericlyeric.github.io/google-homepage/)
 * [Rohan Sirohi's Solution (Difficult)](https://github.com/rohansirohi/google-searchpage) - [View in Browser](https://rohansirohi.github.io/google-searchpage/)
-* [Denis Rajlic's Solution (Easy)] (https://github.com/denisRajlic/google-homepage) - [View in Browser] (https://denisrajlic.github.io/google-homepage/)
-* [Denis Rajlic's Solutin (Difficult)] (https://github.com/denisRajlic/google_search_result) - [View in Browser] (https://denisrajlic.github.io/google_search_result/)
+* [Denis Rajlic's Solution (Easy)](https://github.com/denisRajlic/google-homepage) - [View in Browser](https://denisrajlic.github.io/google-homepage/)
+* [Denis Rajlic's Solutin (Difficult)](https://github.com/denisRajlic/google_search_result) - [View in Browser](https://denisrajlic.github.io/google_search_result/)
 * [Nicolas Espinoza's solution (Easy)](https://github.com/nicospz/google-homepage) - [View in Browser](https://nicospz.github.io/google-homepage/)
 * [Mayur's solution (Difficult)](https://mayurtanwani.github.io/googledifficult/) - [View in Browser](https://github.com/mayurtanwani/googledifficult)
 * [Mayur's solution (Easy)](https://mayurtanwani.github.io/google-homepage/) - [View in Browser](https://github.com/mayurtanwani/google-homepage)
