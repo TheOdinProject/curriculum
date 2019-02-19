@@ -479,7 +479,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Koullara's Solution](https://koullaras.github.io/rock-paper-scissors/)
 - [Diego's Console and Interface Solution](https://github.com/dandradec98/rock-paper-scissors) - [View in Browser](https://dandradec98.github.io/rock-paper-scissors/)
 - [Suka George Console and Interface Solution](https://github.com/addisuka25/Rock-Paper-Scissors) - [View in Browser](https://addisuka25.github.io/Rock-Paper-Scissors/)
-- [Goldkoyne88's Console Solution](https://github.com/goldkoyne88/rock-paper-scissors)
+- [Goldkoyne88's Interface Solution](https://github.com/goldkoyne88/rock-paper-scissors) - [View in Browser](https://goldkoyne88.github.io/rock-paper-scissors/)
 - [Samuel Oswald's Solution](https://github.com/smozwald/002-Rock-Paper-Scissors)
 - [Valentino Valenti's Console Solution](https://1ba1.github.io/rock-paper-scissors/)
 - [Wayland Chin's Solution](https://github.com/chinwayland/The-Odin-Project-Rock-Paper-Scissors) - [View in Browser](https://chinwayland.github.io/The-Odin-Project-Rock-Paper-Scissors/)
