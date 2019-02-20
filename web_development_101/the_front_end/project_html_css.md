@@ -86,8 +86,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this list
 * [ericlyeric's Solution (Easy)](https://github.com/ericlyeric/google-homepage) - [View in Browser](https://ericlyeric.github.io/google-homepage/)
 * [Rohan Sirohi's Solution (Difficult)](https://github.com/rohansirohi/google-searchpage) - [View in Browser](https://rohansirohi.github.io/google-searchpage/)
-* [Denis Rajlic's Solution (Easy)] (https://github.com/denisRajlic/google-homepage) - [View in Browser] (https://denisrajlic.github.io/google-homepage/)
-* [Denis Rajlic's Solutin (Difficult)] (https://github.com/denisRajlic/google_search_result) - [View in Browser] (https://denisrajlic.github.io/google_search_result/)
+* [Denis Rajlic's Solution (Easy)](https://github.com/denisRajlic/google-homepage) - [View in Browser](https://denisrajlic.github.io/google-homepage/)
+* [Denis Rajlic's Solutin (Difficult)](https://github.com/denisRajlic/google_search_result) - [View in Browser](https://denisrajlic.github.io/google_search_result/)
 * [Nicolas Espinoza's solution (Easy)](https://github.com/nicospz/google-homepage) - [View in Browser](https://nicospz.github.io/google-homepage/)
 * [Mayur's solution (Difficult)](https://mayurtanwani.github.io/googledifficult/) - [View in Browser](https://github.com/mayurtanwani/googledifficult)
 * [Mayur's solution (Easy)](https://mayurtanwani.github.io/google-homepage/) - [View in Browser](https://github.com/mayurtanwani/google-homepage)
@@ -1950,6 +1950,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [FPlue's Solution (Easy)](https://github.com/Fplue/google-homepage) - [View in browser](https://fplue.github.io/google-homepage/)
 * [Barbara Lucas' solution (Easy)](https://github.com/LucasBarbara/google-homepage) - [View in browser](https://lucasbarbara.github.io/google-homepage/) - [(Difficult)](https://github.com/LucasBarbara/google-homepage-h) - [View in browser](https://lucasbarbara.github.io/google-homepage-h/)
 * [Peter Hu's Solution (Easy)](https://github.com/PeterBohai/google-homepage) - [View in browser](https://peterbohai.github.io/google-homepage/)
+* [Edward Rubio's Solution (Difficult)](https://github.com/edwardrubio/google-homepage) - [View in browser](https://edwardrubio.github.io/google-homepage/) 
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
