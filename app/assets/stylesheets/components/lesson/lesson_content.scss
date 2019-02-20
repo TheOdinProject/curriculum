@@ -11,8 +11,14 @@
     font-weight: bold;
     color: $text-primary;
     font-size: 1.5em;
-  }
 
+    @include media-breakpoint-down(md) {
+      &:before {
+        @include internal-link-offset();
+      }
+    }
+  }
+  
   h4 {
     margin-bottom: 10px;
     font-weight: bold;

@@ -5,6 +5,12 @@
     letter-spacing: 0.3px;
     margin-bottom: 16px;
     font-weight: 600;
+
+    @include media-breakpoint-down(md) {
+      &:before {
+        @include internal-link-offset();
+      }
+    }
   }
 
   &__description {

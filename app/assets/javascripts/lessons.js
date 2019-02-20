@@ -140,8 +140,11 @@ function spyLessonSections() {
 document.addEventListener('turbolinks:load', function() {
   if (!isLessonPage()) return;
   setTargetForExternalLinks();
-  if (!window.matchMedia('(min-width: 992px)').matches) return;
-  constructLessonNavigation();
   constructLessonSections(); 
+
+  if (!window.matchMedia('(min-width: 992px)').matches) {
+    return;
+  } 
+  constructLessonNavigation();
   spyLessonSections();
 });

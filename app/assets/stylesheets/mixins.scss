@@ -22,3 +22,13 @@
   -webkit-hyphens: auto;
   hyphens: auto;
 }
+
+//https://css-tricks.com/hash-tag-links-padding/
+@mixin internal-link-offset() {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+  pointer-events: none;
+}
