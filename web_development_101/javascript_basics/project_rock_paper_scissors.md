@@ -505,3 +505,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Brandon Myles Console Solution](https://bmyles10.github.io/Rock_Paper_Scissors/)
 - [Metin Karakus's Solution](https://github.com/metinkarakus/rockpaperscissors) - [View in Browser](https://metinkarakus.github.io/rockpaperscissors/)
 - [hiten3's Console Solution](https://github.com/hiten3/rock-paper-scissors-js)
+- [Denis Rajlic's Solution](https://github.com/denisRajlic/RPS_Game) - [View in Browser](https://denisrajlic.github.io/RPS_Game/)
