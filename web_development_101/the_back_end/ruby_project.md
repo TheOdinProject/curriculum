@@ -490,6 +490,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Valentino Valenti's Solution](https://github.com/1ba1/learn_ruby)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/learn_ruby)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/learn_ruby)
+* [LeonJMac's Solution](https://github.com/leonjmac/learn_ruby)
 
 
 ### Additional Resources
