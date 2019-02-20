@@ -2,6 +2,8 @@ var LESSON_HEADINGS = [
   'Introduction',
   'Learning Outcomes',
   'Assignment',
+  'Assignment 1',
+  'Assignment 2',
   'Additional Resources',
   'Exercises',
   'Knowledge Check',
