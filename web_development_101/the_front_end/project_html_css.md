@@ -1954,6 +1954,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Morlimoore's Solution (Easy)](https://github.com/morlimoore/google-homepage) - [View in browser](https://morlimoore.github.io/google-homepage/)
 * [Pedro Moratelli's solution (Easy)](https://github.com/pmtelli/google-homepage) - [View in browser](https://pmtelli.github.io/google-homepage/)
 * [Kyle Woods's solution (Easy)](https://github.com/WoodsKyle/google_homepage) - [View in browser](https://woodskyle.github.io/google_homepage/)
+* [Mateusz Majchrzak's solution (Easy)](https://github.com/maaajo/google_homepage_top) - [View in browser](https://maaajo.github.io/google_homepage_top/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
