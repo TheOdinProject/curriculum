@@ -34,6 +34,7 @@ There's a video about it [from Harvard's CS50 class](https://www.youtube.com/wat
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Rudi Boshoff's solution with RSpec](https://github.com/RudiBoshoff/ruby-exercises/tree/master/caesar_cipher)
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/caesarCipher.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/basics-projects/caesar-cipher.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/caesar_cipher/caesar.rb)
@@ -396,7 +397,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Joel Infeld's solution](https://github.com/joelinfeld/caesar_cipher/blob/master/caesar_cipher.rb)
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/ruby_caesar.rb)
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/caesar_cipher.rb)
-* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/caeser_cipher.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/caesar-cipher/blob/master/script.rb)
 * [Syed Aslam's solution](https://gist.github.com/aslam/5a2db0af06781a0adc7b39e90369e8b4)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/caesar.rb)
