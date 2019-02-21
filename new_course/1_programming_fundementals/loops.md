@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain what `#updo` and `#downto` loops are and how to use them.
 
 ### Loop
-The `loop` loop (say what????) is Ruby's loop that just doesn't quit. It's an infinite loop that will keep going unless you specifically request for it to stop using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
+The `loop` loop (say what????) is Ruby's loop that just won't quit. It's an infinite loop that will keep going unless you specifically request for it to stop using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
 
 ~~~ruby
 i = 0
@@ -55,7 +55,7 @@ while gets.chomp != "yes" do
 end
 ~~~
 
-This example shows the flexibility advantage of a `while` loop: it will run until it's break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Although, in real life, after the 20th attempt, you should really just take "no" for an answer.
+This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Of course, in real life, you should really just take "no" for an answer the first time.
 
 ### For Loop
 
@@ -92,9 +92,9 @@ Remember, loops will start counting from a zero index unless specified otherwise
 
 ### Until Loop
 
-The `until` loop is the opposite of the `while` loop. A `while` loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false. These two loops can therefore be used pretty much interchangeably. Ultimately, your break condition will determine which one is more readable.
+The `until` loop is the opposite of the `while` loop. A `while` loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false. These two loops can therefore be used pretty much interchangeably. Ultimately, what your break condition is will determine which one is more readable.
 
-As much as possible, you should avoid negating your logical expressions using `!` (not). First, it can be difficult to actually notice the exclamation point, and second, using negation makes the logic more difficult to reason through and therefore your code will be more difficult to understand. These situations are where `until` shines.
+As much as possible, you should avoid negating your logical expressions using `!` (not). First, it can be difficult to actually notice the exclamation point in your code. Second, using negation makes the logic more difficult to reason through and therefore makes your code more difficult to understand. These situations are where `until` shines.
 
 We can re-write our `while` loop examples using `until`.
 
