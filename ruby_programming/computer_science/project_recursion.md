@@ -199,11 +199,11 @@ The first step is to actually understand what the merge sort algorithm is doing:
       2. It may be helpful to check out the background videos again if you don't quite understand what should be going on.
 </div>
 
-<details>
-  <summary> Show Student Solutions </summary>
-
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+
+<details>
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)

@@ -15,6 +15,8 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_oop.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details>
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/rubyProgramming/tic_tac_toe)
@@ -250,6 +252,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/tic-tac-toe/blob/master/tic-tac-toe.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
 
+</details>
+
 ### Project 2: Mastermind
 
 If you've never played Mastermind, a game where you have to guess your opponent's secret code within a certain number of turns (like hangman with colored pegs), check it out on <a href="http://en.wikipedia.org/wiki/Mastermind_(board_game)">Wikipedia</a>.  Each turn you get some feedback about how good your guess was -- whether it was exactly correct or just the correct color but in the wrong space.
@@ -269,6 +273,9 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+
+<details>
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
 * [Learnsometing's Solution NO AI](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby/intermediate/ruby-intermediate/mastermind.rb)
@@ -459,6 +466,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/mastermind.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/WebbedAccomplishedDrawing)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
 * [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
