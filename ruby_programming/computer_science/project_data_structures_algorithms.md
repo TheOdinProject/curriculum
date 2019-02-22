@@ -4,7 +4,7 @@ You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_sear
 
 You also learned about tree search algorithms like breadth-first-search and depth-first-search.  You learned that BFS is best used to find the optimum solution but can take a very long time (impractically long for broad and deep data sets) while DFS is often much faster but will give you the FIRST solution, not necessarily the best.  Here you'll get a chance to implement both.
 
-### Assignment
+### Assignment 1
 You'll build a simple binary tree data structure from some arbitrary input and also the "crawler" function that will locate data inside of it.
 
 <div class="lesson-content__panel" markdown="1">
@@ -160,7 +160,7 @@ All the possible places you can end up after one move look like this:
 
 <img src="https://i.imgur.com/mHQqH08.gif">
 
-### Assignment
+### Assignment 2
 Your task is to build a function `knight_moves` that shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:

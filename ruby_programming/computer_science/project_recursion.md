@@ -2,7 +2,7 @@
 
 The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which sums each number with the one before it, is a great example of a problem that can be solved recursively.
 
-### Assignment
+### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
   1. Write a method `#fibs` which takes a number and returns that many members of the fibonacci sequence.  Use iteration for this solution.
@@ -186,7 +186,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 2. Check out [this more detailed explanation](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) by David J. Malan (watch only until 1:14:00).
 3. [Merge Sort -- How it Works part 1](https://www.youtube.com/watch?v=OAsokGNa18k) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube give you a more formal look at this problem if you're still unclear.
 
-### Assignment
+### Assignment 2
 <div class="lesson-content__panel" markdown="1">
   1. Build a method `#merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
   2. Tips:

@@ -10,7 +10,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" class="lesson-content__small-image" markdown="1">
 
-### Assignment
+### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -329,7 +329,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
 
-### Assignment
+### Assignment 2
 
 <div class="lesson-content__panel" markdown="1">
 

@@ -4,7 +4,7 @@ A good way to get familiar with and begin contributing to a new project is to wr
 
 You still may feel shaky on RSpec at this point (which is totally normal), so let's go back in time and write tests for some of the code you've already done to build up a bit of muscle memory.  If you've written a good batch, submit them below and we'll include them as part of the original project description to help future students!
 
-### Assignment
+### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
   1. Go back to the [Building Blocks Project](/courses/ruby-programming/lessons/building-blocks) and write tests for your "Caesar's Cipher" code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
@@ -101,7 +101,7 @@ The major difference here is that you'll be doing this TDD-style.  So figure out
 
 Only write exactly enough code to make your test pass.  Oftentimes, you'll end up having to write two tests in order to make a method do anything useful.  That's okay here.  It may feel a bit like overkill, but that's the point of the exercise.  Your thoughts will probably be something like "Okay, I need to make this thing happen.  How do I test it?  Okay, wrote the test, how do I code it into Ruby?  Okay, wrote the Ruby, how can I make this better?"  You'll find yourself spending a fair bit of time Googling and trying to figure out exactly how to test a particular bit of functionality.  That's also okay... You're really learning RSpec here, not Ruby, and it takes some getting used to.
 
-### Assignment
+### Assignment 2
 
 <div class="lesson-content__panel" markdown="1">
   1. Build Connect Four!  Just be sure to keep it TDD.
