@@ -490,7 +490,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jorge Fernando Rincón console solution](https://github.com/jofer86/rock-paper-scissors)
 - [DensenKG's Console Solution](https://github.com/DensenKG/rock-paper-scissors) - [View in Browser](https://densenkg.github.io/rock-paper-scissors/)
 - [DensenKG's UI Solution](https://github.com/DensenKG/rock-paper-scissors-UI) - [View in Browser](https://densenkg.github.io/rock-paper-scissors-UI/)
-- [Jessica's Solution](https://github.com/seaweeddol/rock-paper-scissors)
+- [Jessica's Solution](https://github.com/seaweeddol/rock-paper-scissors) - [View UI Solution in Browser](https://seaweeddol.github.io/rock-paper-scissors/)
 - [Nick Wegscheid's Solution](https://github.com/nsw125/rock-paper-scissors) - [View in Brower](https://nsw125.github.io/rock-paper-scissors/)
 - [Ohlie's Solution](https://github.com/lco1220/top-RockPaperScissor-console)
 - [KvotheNor's Solution](https://github.com/KvotheNOR/RockPaperScissorsV2)
