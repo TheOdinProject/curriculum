@@ -2,7 +2,7 @@
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: 'form' }) do |form| %>
 
     <div class="form__section">
-      <span class="fa fa-user form__icon"></span>
+      <span class="fas fa-user form__icon"></span>
       <%= form.text_field :username, required: true, placeholder: 'Username', class: 'form__element form__element--with-icon' %>
     </div>
     <% if resource.errors[:username].present? %>
@@ -10,7 +10,7 @@
     <% end %>
 
     <div class="form__section">
-      <span class="fa fa-envelope form__icon"></span>
+      <span class="fas fa-envelope form__icon"></span>
       <%= form.email_field :email, required: true, placeholder: 'Email', class: 'form__element form__element--with-icon '%>
     </div>
     <% if resource.errors[:email].present? %>
@@ -18,7 +18,7 @@
     <% end %>
 
     <div class="form__section">
-      <span class="fa fa-lock form__icon"></span>
+      <span class="fas fa-lock form__icon"></span>
       <%= form.password_field :password, required: true, placeholder: 'Password', class: 'form__element form__element--with-icon' %>
     </div>
     <% if resource.errors[:password].present? %>
@@ -26,7 +26,7 @@
     <% end %>
 
     <div class="form__section">
-      <span class="fa fa-lock form__icon"></span>
+      <span class="fas fa-lock form__icon"></span>
       <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'form__element form__element--with-icon' %>
     </div>
     <% if resource.errors[:password_confirmation].present? %>

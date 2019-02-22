@@ -3,7 +3,7 @@
 
   <%= form_for [lesson, project], remote: true, class: 'form' do |form| %>
     <div class="form__section">
-      <span class="fa fa-github form__icon"></span>
+      <span class="fab fa-github form__icon"></span>
       <%= form.text_field :repo_url,
         class: 'form__element form__element--with-icon',
         placeholder: 'Repository URL'
@@ -12,7 +12,7 @@
 
     <% if lesson.has_live_preview? %>
       <div class="form__section">
-        <span class="fa fa-paperclip form__icon"></span>
+        <span class="fas fa-paperclip form__icon"></span>
         <%= form.text_field :live_preview,
           class: 'form__element form__element--with-icon',
           placeholder: 'Live Preview URL'

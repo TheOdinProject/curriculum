@@ -139,8 +139,6 @@ GEM
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
-    font-awesome-rails (4.7.0.4)
-      railties (>= 3.2, < 6.0)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -420,7 +418,6 @@ DEPENDENCIES
   devise (~> 4.4.0)
   dotenv-rails
   factory_bot_rails (~> 4.11)
-  font-awesome-rails (~> 4.7)
   friendly_id (~> 5.1)
   gibbon (~> 3.2.0)
   github_api (~> 0.14)
@@ -461,4 +458,4 @@ RUBY VERSION
    ruby 2.5.0p0
 
 BUNDLED WITH
-   1.17.1
+   1.17.3

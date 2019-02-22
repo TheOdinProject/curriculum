@@ -1,9 +1,9 @@
 <% if lesson_completed?(user, lesson) %>
   <%= link_to lesson_completions_path(lesson), method: :delete, remote: true, class: 'button button--complete lesson-button-group__item lesson-button lesson-button--complete', title: 'Mark lesson incomplete' do %>
-    <i class="lesson-button__icon fa fa-check-circle-o" aria-hidden="true"></i>
+    <i class="lesson-button__icon far fa-check-circle" aria-hidden="true"></i>
   <% end %>
 <% else %>
   <%= link_to lesson_completions_path(lesson), remote: true, method: :post, class: 'button button--primary lesson-button-group__item lesson-button', title: 'Mark lesson complete' do %>
-    <i class="lesson-button__icon fa fa-check-circle-o" aria-hidden="true"></i>Complete
+    <i class="lesson-button__icon far fa-check-circle" aria-hidden="true"></i>Complete
   <% end %>
 <% end %>

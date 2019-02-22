@@ -20,7 +20,7 @@ class HeartIconPresenter
   private
 
   def heart_icon
-    '<span class="heart"><i class="fa fa-heart"></i></span>'.html_safe
+    '<span class="heart"><i class="fas fa-heart"></i></span>'.html_safe
   end
 
   def like_or_unlike_button_for(user, project)
@@ -37,7 +37,7 @@ class HeartIconPresenter
       remote: true,
       title: 'Like this project',
       class: 'button button--primary project__vote-button' do
-      '<i class="fa fa-heart-o"></i>'.html_safe
+      '<i class="far fa-heart"></i>'.html_safe
     end
   end
 
@@ -47,7 +47,7 @@ class HeartIconPresenter
       remote: true,
       title: 'Unlike this project',
       class: 'button button--primary project__vote-button' do
-      '<i class="fa fa-heart"></i>'.html_safe
+      '<i class="fas fa-heart"></i>'.html_safe
     end
   end
 end

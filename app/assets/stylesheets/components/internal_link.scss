@@ -8,12 +8,11 @@
     &:before {
       color: $grey;
       content: "\f0c1";
-      font-family: FontAwesome;
+      font-family: "Font Awesome 5 Free";
       font-size: .75em;
       left: -1.2em;
       position: absolute;
-      transform: scaleX(-1);
-      font-weight: normal;
+      font-weight: 900;
     }
   }
   @include media-breakpoint-down(sm) {

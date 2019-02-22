@@ -1,6 +1,6 @@
 <% resource_class.omniauth_providers.each do |provider| %>
   <%= button_to omniauth_authorize_path(resource_name, provider), class: "button button--#{provider} oauth-button full-width push-down" do %>
-    <i class="fa fa-<%= provider%> providers-icon"></i>
+    <i class="fab fa-<%= provider%> providers-icon"></i>
     <%= provider.to_s.titleize %>
   <% end %>
 <% end %>

@@ -11,7 +11,7 @@
         <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post, class: "form" }) do |form| %>
 
           <div class="form__section">
-            <span class="fa fa-envelope form__icon"></span>
+            <span class="fas fa-envelope form__icon"></span>
             <%= form.email_field :email, autofocus: true, placeholder: "Email", required: true, class: 'form__element form__element--with-icon'  %>
           </div>
 

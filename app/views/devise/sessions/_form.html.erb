@@ -2,12 +2,12 @@
   <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "form" }) do |form| %>
 
     <div class="form__section">
-      <span class="fa fa-envelope form__icon"></span>
+      <span class="fas fa-envelope form__icon"></span>
       <%= form.email_field :email, required: false, autofocus: true, placeholder: "Email Address", class: 'form__element form__element--with-icon' %>
     </div>
 
     <div class="form__section">
-      <span class="fa fa-lock form__icon"></span>
+      <span class="fas fa-lock form__icon"></span>
       <%= form.password_field :password, required: false, placeholder:  "Password", class: 'form__element form__element--with-icon' %>
     </div>
 
