@@ -40,6 +40,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+* [Nicolas Espinoza's Solution](https://github.com/nicospz/etch-a-sketch) - [View in browser](https://nicospz.github.io/etch-a-sketch/)
 * [Djo1e's Solution](https://github.com/Djo1e/etch-a-sketch) - [View in browser](https://djo1e.github.io/)
 * [Scott H's Solution](https://github.com/scotth527/etch_n_sketch_project) - [View in browser](https://scotth527.github.io/etch_n_sketch_project/)
 * [balowulf's Solution](https://github.com/balowulf/etch_a_sketch) - [View in browser](https://balowulf.github.io/etch_a_sketch/)
@@ -311,3 +312,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [George Roberts' solution](https://github.com/robertsGeorge/Etch-A-Sketch) - [View in Browser](https://robertsgeorge.github.io/Etch-A-Sketch/)
 * [Leo Holanda's solution](https://github.com/leo-holanda/etch-a-sketch) - [View in Browser](https://leo-holanda.github.io/etch-a-sketch/)
 * [Bill Deitrick's Solution](https://github.com/billdeitrick/etch-a-sketch) - [View in Browser](http://www.billdeitrick.com/etch-a-sketch/)
+* [KvotheNor's Solution](https://github.com/KvotheNOR/Etch-a-Sketch) - [View in Browser](https://kvothenor.github.io/Etch-a-Sketch/)
+* [Nate Pearson's Solution](https://github.com/NathanPearson/Etch-A-Sketch) - [View in Browser](https://nathanpearson.github.io/Etch-A-Sketch/)
