@@ -39,7 +39,7 @@ RSpec.describe LessonContentImporter do
   describe '#import' do
 
     it 'updates the lesson content' do
-      expect(lesson).to receive(:update).with(content: '<p>Hello World!</p>')
+      expect(lesson).to receive(:update!).with(content: '<p>Hello World!</p>')
       subject.import
     end
 
@@ -47,26 +47,44 @@ RSpec.describe LessonContentImporter do
       let(:decoded_lesson_content) { 'Hello World' }
 
       it 'does not update the lesson content' do
-        expect(lesson).not_to receive(:update).
+        expect(lesson).not_to receive(:update!).
           with(content: '<p>Hello World</p>')
 
         subject.import
       end
     end
 
-    context 'when there is an error with oktokit' do
-
+    context 'when there is an error with octokit' do
       before do
         allow(Octokit).to receive(:contents).
           with('theodinproject/ruby_course', path: '/ruby_basics/variables').
-            and_raise(Octokit::Error)
-        allow(lesson).to receive(:errors).and_return('there was a problem')
+          and_raise(Octokit::Error.new(
+            method: 'GET',
+            status: '403',
+            body: { error: 'problem' }
+          ))
       end
 
       it 'logs the error' do
         expect(Rails).to receive_message_chain(:logger, :error).
-          with("Failed to import \"Ruby Basics\" content: there was a problem")
+          with("Failed to import 'Ruby Basics' message: GET : 403 - Error: problem")
 
+        subject.import
+      end
+    end
+
+    context 'when there is an error with the lesson object' do
+      let(:lesson) do
+        Lesson.new(
+          title: 'Ruby Basics',
+          repo: 'ruby_course',
+          url: '/ruby_basics/variables'
+        )
+      end
+
+      it 'logs the error' do
+        expect(Rails).to receive_message_chain(:logger, :error).
+          with("Failed to import 'Ruby Basics' message: [\"Position can't be blank\"]")
         subject.import
       end
     end
