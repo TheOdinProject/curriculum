@@ -39,6 +39,8 @@ Look through these now and then use them to test yourself after doing the assign
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
+* You might it find it helpful to bookmark the [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and the [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) from CSS Tricks. These are both excellent references that you'll find handy as you start to apply CSS in projects.
+* Another good page to bookmark for later reference is [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/), also from CSS Tricks.
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
 * [OverAPI's HTML Cheat Sheet](http://overapi.com/html)
 * [OverAPI's CSS Cheat Sheet](http://overapi.com/css)

@@ -84,8 +84,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
+* [Jesse Birch's Solution (Easy)](https://github.com/jessecubed/google-homepage.git) - [View in Browser](https://jessecubed.github.io/google-homepage/)
 * [ericlyeric's Solution (Easy)](https://github.com/ericlyeric/google-homepage) - [View in Browser](https://ericlyeric.github.io/google-homepage/)
 * [Rohan Sirohi's Solution (Difficult)](https://github.com/rohansirohi/google-searchpage) - [View in Browser](https://rohansirohi.github.io/google-searchpage/)
+* [Denis Rajlic's Solution (Easy)](https://github.com/denisRajlic/google-homepage) - [View in Browser](https://denisrajlic.github.io/google-homepage/)
+* [Denis Rajlic's Solutin (Difficult)](https://github.com/denisRajlic/google_search_result) - [View in Browser](https://denisrajlic.github.io/google_search_result/)
 * [Nicolas Espinoza's solution (Easy)](https://github.com/nicospz/google-homepage) - [View in Browser](https://nicospz.github.io/google-homepage/)
 * [Mayur's solution (Difficult)](https://mayurtanwani.github.io/googledifficult/) - [View in Browser](https://github.com/mayurtanwani/googledifficult)
 * [Mayur's solution (Easy)](https://mayurtanwani.github.io/google-homepage/) - [View in Browser](https://github.com/mayurtanwani/google-homepage)
@@ -1944,7 +1947,17 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alex Krewson's Solution (Easy)](https://github.com/alexkrewson/google-homepage) - [View in browser](https://alexkrewson.github.io/google-homepage/)
 * [Justin Glover's Solution (Easy)](https://github.com/jglover16/google-homepage) - [View in browser](https://jglover16.github.io/google-homepage/)
 * [Jerome Lyons' Solutionm (Easy)](https://github.com/UncleArtie/google-homepage)
-* [Tomás Guerra's Solution (Easy)](https://github.com/OG-TomasGuerra/google-homepage) - [View in browser](tomasguerra.github.io/google-homepage/)
+* [Tomás Guerra's Solution (Easy)](https://github.com/OG-TomasGuerra/google-homepage) - [View in browser](https://og-tomasguerra.github.io/google-homepage/)
+* [FPlue's Solution (Easy)](https://github.com/Fplue/google-homepage) - [View in browser](https://fplue.github.io/google-homepage/)
+* [Barbara Lucas' solution (Easy)](https://github.com/LucasBarbara/google-homepage) - [View in browser](https://lucasbarbara.github.io/google-homepage/) - [(Difficult)](https://github.com/LucasBarbara/google-homepage-h) - [View in browser](https://lucasbarbara.github.io/google-homepage-h/)
+* [Peter Hu's Solution (Easy)](https://github.com/PeterBohai/google-homepage) - [View in browser](https://peterbohai.github.io/google-homepage/)
+* [Edward Rubio's Solution (Difficult)](https://github.com/edwardrubio/google-homepage) - [View in browser](https://edwardrubio.github.io/google-homepage/) 
+* [Morlimoore's Solution (Easy)](https://github.com/morlimoore/google-homepage) - [View in browser](https://morlimoore.github.io/google-homepage/)
+* [Pedro Moratelli's solution (Easy)](https://github.com/pmtelli/google-homepage) - [View in browser](https://pmtelli.github.io/google-homepage/)
+* [Kyle Woods's solution (Easy)](https://github.com/WoodsKyle/google_homepage) - [View in browser](https://woodskyle.github.io/google_homepage/)
+* [Mateusz Majchrzak's solution (Easy)](https://github.com/maaajo/google_homepage_top) - [View in browser](https://maaajo.github.io/google_homepage_top/)
+* [idlebunneh's solution (Easy)](https://github.com/idlebunneh/google-homepage) - [View in browser](https://idlebunneh.github.io/google-homepage/)
+* [Srikaran Shenvi Sursure's solution (Easy)](https://github.com/srikaransursure/google-homepage) - [View in browser](https://srikaransursure.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

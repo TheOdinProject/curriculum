@@ -10,7 +10,7 @@ You'll do a healthy chunk of learning in this course, but by the end of it all, 
 ### Learning Ruby before Ruby on Rails
 Some people believe you can just dive right into Rails and start firing out websites.  Rails is a framework built using Ruby and every piece of code in it is Ruby.  When (not *if*) something in your project breaks, you'd better be able to debug it. And what happens when you want to stretch your wings and do something just a bit beyond what the vanilla tutorials show you how to do? The amount of time you'd spend googling your error messages and staring blankly at help docs was better spent learning Ruby.
 
-### Break Down of What You'll Learn
+### Breakdown of What You'll Learn
 Ruby's a big language so it's been broken up into smaller chunks to make it more digestible. Some of the early material will be fairly straightforward and will rely on simple exercises to help reinforce understanding. But the goal is for you to get a much deeper and more practical understanding of the material than that. As we get further along and into some of the more advanced topics, we'll be learning less and building more...just the way it should be.
 
 * In the first section you'll learn all about the basics of Ruby and programming itself.
@@ -20,16 +20,19 @@ Ruby's a big language so it's been broken up into smaller chunks to make it more
 * In the fifth section, you will learn some more advanced features of Git and the workflow professional developers follow with Git.
 * In the sixth and final section, you will tie everything together and build a fully fledged chess game.
 
-### Assignment"
+### Assignment
 
-1. [Read the first short chapter of Launch Schools Introduction to Programming with Ruby book to learn a bit more about the history of Ruby](https://launchschool.com/books/ruby/read/introduction). We will be using this book throughout the first section of this course.
+1. Read the [Introduction](https://launchschool.com/books/ruby/read/introduction) of Launch School's *Introduction to Programming with Ruby* book to learn a bit more about the history of Ruby.
+2. To understand how you'll be interacting with Ruby throughout this course, read through the [Your Tools chapter](http://ruby-for-beginners.rubymonstas.org/your_tools.html) of The *Ruby for Beginners* book from Ruby Monstas. (Note that even though they recommend using Sublime as your text editor, any code editor will work. For the record, we still tend to prefer VS Code around here!)
+3. Read through the [Preparations](https://launchschool.com/books/ruby/read/preparations#usingacodeeditor) of Launch School's *Introduction to Programming with Ruby* book for some helpful advice about using and learning Ruby effectively.
+4. Now that you've learned a few ways to interact with your Ruby code, read about [how to use code files inside IRB](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339), which will be helpful for quick troubleshooting and experimenting. 
 
-### Optional Material to Go through
-The resources here cover Ruby basics and you may want to go through these on the side while going through the first section of this course Ruby Basics. Repetition is the mother of all learning after all.
+### Optional Ruby Materials
+The resources here cover Ruby basics, and you may want to go through these on the side while going through the first section of this Ruby Basics course. Repetition is the mother of all learning after all!
 
-Consider the resources here optional though, we only recommend them if you would like to supplement your learning.
+Consider the resources here optional, though; we recommend them to help supplement your learning.
 
-1. [The Codecademy Ruby course, which covers ruby basics and OOP basics](https://www.codecademy.com/learn/learn-ruby)
-2. [Chris Pine's Learn to Program book, which covers Ruby basics](https://pine.fm/LearnToProgram/)
+1. [The Codecademy Ruby course](https://www.codecademy.com/learn/learn-ruby), which covers Ruby basics and OOP basics
+2. [Chris Pine's Learn to Program book](https://pine.fm/LearnToProgram/), which covers Ruby basics along with plenty of exercises
 
-### Okay, enough talk... Let's get started learning Ruby!
+### Okay, enough talk. Let's learn Ruby!
