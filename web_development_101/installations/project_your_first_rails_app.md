@@ -2,6 +2,14 @@
 
 With Ruby installed, you're all set to create your first Ruby on Rails application!
 
+Before continuing, let's review a few best practices to keep in mind:
+
+* Follow the directions closely, and don't skip over any sections.
+* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** In addition, never run as the `root` user. Failing to follow this advice can cause *a lot* of headaches. In some instances, you might see a message in the terminal telling you to use `sudo` and/or to install something with `apt`. **Ignore what the terminal says** and follow the instructions below.
+* Copy and paste the commands to avoid typos.
+
+In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/hvqVr6d).
+
 ### Your First Rails App
 
 #### Step 1: Configure Git and GitHub
