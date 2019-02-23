@@ -25,6 +25,7 @@ Ruby's a big language so it's been broken up into smaller chunks to make it more
 1. Read the [Introduction](https://launchschool.com/books/ruby/read/introduction) of Launch School's *Introduction to Programming with Ruby* book to learn a bit more about the history of Ruby.
 2. To understand how you'll be interacting with Ruby throughout this course, read through the [Your Tools chapter](http://ruby-for-beginners.rubymonstas.org/your_tools.html) of The *Ruby for Beginners* book from Ruby Monstas. (Note that even though they recommend using Sublime as your text editor, any code editor will work. For the record, we still tend to prefer VS Code around here!)
 3. Read through the [Preparations](https://launchschool.com/books/ruby/read/preparations#usingacodeeditor) of Launch School's *Introduction to Programming with Ruby* book for some helpful advice about using and learning Ruby effectively.
+4. Now that you've learned a few ways to interact with your Ruby code, read about [how to use code files inside IRB](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339), which will be helpful for quick troubleshooting and experimenting. 
 
 ### Optional Ruby Materials
 The resources here cover Ruby basics, and you may want to go through these on the side while going through the first section of this Ruby Basics course. Repetition is the mother of all learning after all!
