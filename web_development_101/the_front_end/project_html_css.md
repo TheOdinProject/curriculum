@@ -1962,8 +1962,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [kiroseng's solution (Easy)](https://github.com/kiroseng/odin-google-homepage) - [View in browser](https://kiroseng.github.io/odin-google-homepage/)
 * [Wycliffe's solution (Easy)](https://github.com/cycks/google-homepage-) - [View in browser](https://cycks.github.io/google-homepage-/)
 * [pristit's solution (Easy)](https://github.com/pristit/google-homepage) - [View in browser](https://pristit.github.io/google-homepage/)
-* [R3dCobbler's solution (Easy)] (https://github.com/R3dCobbler/google-homepage) - [View in browser] (https://r3dcobbler.github.io/google-homepage/)
-* [R3dCobbler's solution (Difficult)] (https://github.com/R3dCobbler/google-search-results) - [View in browser] (https://r3dcobbler.github.io/google-search-results/)
+* [R3dCobbler's solution (Easy)](https://github.com/R3dCobbler/google-homepage) - [View in browser](https://r3dcobbler.github.io/google-homepage/)
+* [R3dCobbler's solution (Difficult)](https://github.com/R3dCobbler/google-search-results) - [View in browser](https://r3dcobbler.github.io/google-search-results/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
