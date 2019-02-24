@@ -36,9 +36,9 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Garan Weber's Solution](https://github.com/rkane/rock_paper_scissors) - View in Browser([Console Version](https://rkane.github.io/rock_paper_scissors) / [Visual Version](https://rkane.github.io/index))
 - [Luis's Solution](https://github.com/Luis846/RockPaperScissor)
 - [Ricala's Solution](https://github.com/Ricala/rock-paper-scissors) - [View in Browser](https://ricala.github.io/rock-paper-scissors/)
-- [Garan Weber's Solution](https://github.com/rkane/rock_paper_scissors) - [View in Browser(Console Version)](https://rkane.github.io/rock_paper_scissors)
 - [bleepblopblorpblopbloop's Solution](https://github.com/bleepblopblorpblopbloop/rock_paper_scissors)
 - [CoolHandLuke79's Solution](https://github.com/CoolHandLuke79/rock-paper-scissors) - [View in Browser(Console Edition)](https://coolhandluke79.github.io/rock-paper-scissors/)
 - [balowulf's Solution](https://github.com/balowulf/rockPaperScissors) - [View in Browser](https://balowulf.github.io/rockPaperScissors/)
@@ -486,7 +486,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Valentino Valenti's Console Solution](https://1ba1.github.io/rock-paper-scissors/)
 - [Wayland Chin's Solution](https://github.com/chinwayland/The-Odin-Project-Rock-Paper-Scissors) - [View in Browser](https://chinwayland.github.io/The-Odin-Project-Rock-Paper-Scissors/)
 - [vulence's Solution](https://github.com/vulence/rock-paper-scissors) - [View in Browser](https://vulence.github.io/rock-paper-scissors/)
-- [Ben Fowler's solution](https://github.com/benfowler04/rock-paper-scissors)
+- [Ben Fowler's solution](https://github.com/benfowler04/rock-paper-scissors) - [View in Browser](https://benfowler04.github.io/rock-paper-scissors/)
 - [Gaspachow's solution](https://github.com/Gaspachow/rock-paper-scissors)
 - [Jorge Fernando Rincón console solution](https://github.com/jofer86/rock-paper-scissors)
 - [DensenKG's Console Solution](https://github.com/DensenKG/rock-paper-scissors) - [View in Browser](https://densenkg.github.io/rock-paper-scissors/)
