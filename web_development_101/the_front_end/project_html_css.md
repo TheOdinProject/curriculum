@@ -1959,6 +1959,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [idlebunneh's solution (Easy)](https://github.com/idlebunneh/google-homepage) - [View in browser](https://idlebunneh.github.io/google-homepage/)
 * [Srikaran Shenvi Sursure's solution (Easy)](https://github.com/srikaransursure/google-homepage) - [View in browser](https://srikaransursure.github.io/google-homepage/)
 * [Mario Barrios's solution (Easy)](https://github.com/mariobarrioss/google-homepage) - [View in browser](https://mariobarrioss.github.io/google-homepage/)
+* [kiroseng's solution (Easy)](https://github.com/kiroseng/odin-google-homepage) - [View in browser](https://kiroseng.github.io/odin-google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
