@@ -100,7 +100,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Farah Ali's Solution (easy)](https://github.com/alifarah33/google-homepage.git) - [View in Browser](https://alifarah33.github.io/google-homepage/)
 * [Katarzyna Kaswen-Wilk's Solution (Easy)](https://github.com/kikupiku/google-homepage.git) - [View in Browser](https://kikupiku.github.io/google-homepage/)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/TOPgoogle-homepage) - [View in Browser](https://jaybur1.github.io/TOPgoogle-homepage/)
-* [Luke Aimson's Solution](Functioning Clone - Easy)](https://lukeaims.github.io/GoogleClone/) - [View in Browser](https://lukeaims.github.io/GoogleClone/)
+* [Luke Aimson's Solution (Easy)](https://github.com/lukeaims/GoogleClone/) - [View in Browser](https://lukeaims.github.io/GoogleClone/)
 * [Jasmeet Singh's solution](https://github.com/jasmeet9323/google-homepage-difficult) - [View in Browser (Difficult)](https://jasmeet9323.github.io/google-homepage-difficult/)
 * [Jeton Thaçi's solution](https://github.com/jeton-th/google-homepage) - [View in Browser](https://jeton-th.github.io/google-homepage/)
 * [Saiharsha B's Solution (Easy)](https://github.com/thewhitewolf17/google-homepage) - [View in Browser (Easy)](https://thewhitewolf17.github.io/google-homepage/)
