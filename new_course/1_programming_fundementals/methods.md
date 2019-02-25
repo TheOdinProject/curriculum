@@ -85,7 +85,7 @@ method_name      # valid
 _name_of_method  # valid
 1_method_name    # invalid (Starts with a number)
 method_27        # valid
-method?_name     # invalid (Valid symbols. such as ?, can only be used at the end of the name)
+method?_name     # invalid (Valid symbols, such as "?", can only be used at the end of the name)
 method_name!     # valid
 begin            # invalid (Ruby reserved word)
 begin_count      # valid
