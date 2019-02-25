@@ -319,3 +319,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jessica's Solution](https://github.com/seaweeddol/etch-a-sketch) - [View in Browser](https://seaweeddol.github.io/etch-a-sketch/)
 * [Ben Fowler's Solution](https://github.com/benfowler04/etch-a-sketch) - [View in Browser](https://benfowler04.github.io/etch-a-sketch/)
 * [JamCry's Solution](https://github.com/jamcry/etch-a-sketch) - [View in Browser](https://jamcry.github.io/etch-a-sketch/)
+* [Nick Wegscheid's Solution](https://github.com/nsw125/etch-a-sketch) - [View in Browser](https://nsw125.github.io/etch-a-sketch/)
