@@ -91,7 +91,7 @@ begin            # invalid (Ruby reserved word)
 begin_count      # valid
 ~~~
 
-In general, short but descriptive is the name of the naming game. You want to be able to tell what a method is expected to do based on it's name, so please don't name your method `do_stuff`. 
+In general, short but descriptive is the name of the naming game. You want to be able to tell what a method is expected to do based on its name, so please don't name your method `do_stuff`. 
 
 If your method does so many things that you feel it requires a very long name, then your method should probably be broken up into several smaller and simpler methods. Ideally, each method should do only one thing. This practice will pay dividends down the road in terms of readability, scalability, and maintainability. It also makes testing your code a lot easier, which will be covered in a later lesson.
 
@@ -265,7 +265,7 @@ puts 17.odd?  #=> true
 puts 12.between?(10, 15)  #=> true
 ~~~
 
-You can also create your own method with a `?` at the end of it's name to indicate that it returns a Boolean. Ruby doesn't enforce this naming convention, but you will thank yourself later for following this guideline.
+You can also create your own method with a `?` at the end of its name to indicate that it returns a Boolean. Ruby doesn't enforce this naming convention, but you will thank yourself later for following this guideline.
 
 ### Bang Methods
 
@@ -282,7 +282,7 @@ What gives?  I thought we downcased that thing!  So why was it back to all upper
 
 When we call a method on an object, such as our `whisper` string above, it does not modify the original value of that object. A general rule in programming is that you do not want your methods to overwrite the objects that you call them on. This protects you from irreversibly overwriting your data by accident. You *are* able to overwrite your data by explicitly re-assigning a variable (such as `whisper = whisper.downcase`). Another way to do this type of reassignment is with **bang methods**, which are denoted with an exclamation mark (`!`) at the end of the method name.
 
-By adding a `!` to the end of your method, you indicate that this method should perform it's action and simultaneously overwrite the value of the original object with the result.
+By adding a `!` to the end of your method, you indicate that this method should perform its action and simultaneously overwrite the value of the original object with the result.
 
 ~~~ruby
 puts whisper.downcase! #=> "hello everybody"
