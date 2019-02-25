@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 <details>
   <summary> Show Student Solutions </summary>
+  <span markdown="1">
 
 * Add your solution below this line!
 * [Origier's Solution](https://github.com/Origier/bubble_sort/blob/master/bubble_sort.rb)
@@ -330,6 +331,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/bubble-sort/bubble_sort.rb)
 * [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/bubble_sort.rb)
 
+</span>
 </details>
 
 ### Project 2: Enumerable Methods
@@ -375,6 +377,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 <details>
   <summary> Show Student Solutions </summary>
+  <span markdown="1">
 
 * Add your solution below this line!
 * [Origier's Solution](https://github.com/Origier/Enumerable/blob/master/enumerable.rb)
@@ -633,6 +636,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/enumerables.rb)
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/Enumerable_methods.rb)
 
+</span>
 </details>
 
 ### Additional Resources
