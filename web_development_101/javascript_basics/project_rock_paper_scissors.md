@@ -492,8 +492,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DensenKG's Console Solution](https://github.com/DensenKG/rock-paper-scissors) - [View in Browser](https://densenkg.github.io/rock-paper-scissors/)
 - [DensenKG's UI Solution](https://github.com/DensenKG/rock-paper-scissors-UI) - [View in Browser](https://densenkg.github.io/rock-paper-scissors-UI/)
 <<<<<<< HEAD
-- [Joshua Duke's Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-Project) 
-- [Joshua Duke's UI Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-GUI) - [View in Browser](https://enigmaduke.github.io/Rock-Paper-Scissors-GUI/)
 <<<<<<< HEAD
 
 =======
@@ -521,3 +519,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [J Lyons' Solution](https://github.com/UncleArtie/rockpaperscissors)
 - [Alex Krewson's Solution](https://github.com/alexkrewson/rock-paper-scissors)
 >>>>>>> 29b2257dc5cfb9ddded1988f36662167d1a76f8c
+- [Joshua Duke's Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-Project) 
+- [Joshua Duke's UI Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-GUI) - [View in Browser](https://enigmaduke.github.io/Rock-Paper-Scissors-GUI/)
