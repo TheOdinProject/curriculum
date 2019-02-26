@@ -2,7 +2,7 @@
 
 The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which sums each number with the one before it, is a great example of a problem that can be solved recursively.
 
-### Assignment
+### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
   1. Write a method `#fibs` which takes a number and returns that many members of the fibonacci sequence.  Use iteration for this solution.
@@ -12,7 +12,12 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_recursion.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details>
+    <summary> Show Student Solutions </summary>
+    <span markdown="1">
+
 * Add your solution below this line!
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)
 * [Simon Tharby's solution](https://github.com/jinjagit/ruby/blob/master/fibs.rb)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/recursive)
 * [Stefano Merazzi's solution](https://github.com/ste001/ruby-exercises/blob/master/computer_science/fibonacci.rb)
@@ -171,6 +176,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's Solution](https://github.com/imemdm/recursion/blob/master/warmup.rb)
 * [Leila Alderman's solution (one line)](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/06_fibonacci/fibonacci.rb)
 
+</span>
+</details>
+
 ### Project: Merge Sort
 
 We spent some time early on dealing with sorting (e.g. bubble sort).  Now it's time to take another look at sorting with [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than bubble sort on the right data sets.  You'll build a method which sorts a given array but uses a "merge sort" method for doing so.
@@ -185,7 +193,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 2. Check out [this more detailed explanation](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) by David J. Malan (watch only until 1:14:00).
 3. [Merge Sort -- How it Works part 1](https://www.youtube.com/watch?v=OAsokGNa18k) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube give you a more formal look at this problem if you're still unclear.
 
-### Assignment
+### Assignment 2
 <div class="lesson-content__panel" markdown="1">
   1. Build a method `#merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
   2. Tips:
@@ -196,7 +204,12 @@ The first step is to actually understand what the merge sort algorithm is doing:
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details>
+    <summary> Show Student Solutions </summary>
+    <span markdown="1">
+
 * Add your solution below this line!
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)
 * [Simon Tharby's solution](https://github.com/jinjagit/recursion/blob/master/merge.rb)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/recursive)
 * [Stefano Merazzi's solution](https://github.com/ste001/ruby-exercises/blob/master/computer_science/merge_sort.rb)
@@ -351,6 +364,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Slaven's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/merge_sort/script.rb)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/recursion/blob/master/merge_sort.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/07_merge_sort/merge_sort.rb)
+
+</span>
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

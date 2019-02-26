@@ -34,6 +34,10 @@ There's a video about it [from Harvard's CS50 class](https://www.youtube.com/wat
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Jay Burbyga's Solution](https://github.com/Jaybur1/TOP-ruby_programming/tree/master/01_caesar_cipher)
+* [BShowen's Solution](https://github.com/BShowen/Ruby_CaesarCipher)
+* [Rudi Boshoff's solution with RSpec](https://github.com/RudiBoshoff/ruby-exercises/tree/master/caesar_cipher)
+* [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/caesarCipher.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/basics-projects/caesar-cipher.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/caesar_cipher/caesar.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/caesar_cipher/caesar.rb)
@@ -395,7 +399,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Joel Infeld's solution](https://github.com/joelinfeld/caesar_cipher/blob/master/caesar_cipher.rb)
 * [codyMalcolm's solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/ruby_caesar.rb)
 * [Emil Dimitrov's solution](https://github.com/imemdm/ruby-building-blocks/blob/master/caesar_cipher.rb)
-* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/caeser_cipher.rb)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/caesar-cipher/blob/master/script.rb)
 * [Syed Aslam's solution](https://gist.github.com/aslam/5a2db0af06781a0adc7b39e90369e8b4)
 * [jkriesp's solution](https://github.com/jkriesp/caesar_cipher/blob/master/caesar.rb)
@@ -427,6 +430,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jay Burbyga's Solution](https://github.com/Jaybur1/TOP-ruby_programming/tree/master/02_stock_picker)
+* [BShowen's Solution](https://github.com/BShowen/Ruby_stock_picker/blob/master/stock_picker.rb)
+* [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/stock_picker.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/basics-projects/stock-picker.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/stock_piper/stock.rb)
 * [Khari's Solution](https://github.com/kjwebdev/ceasar_shift/blob/master/stock_picker.rb)
@@ -792,6 +798,9 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jay Burbyga's Solution](https://github.com/Jaybur1/TOP-ruby_programming/tree/master/03_substring)
+* [BShowen's solution](https://github.com/BShowen/Ruby_substrings/blob/master/substrings.rb)
+* [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/substrings.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/basics-projects/substrings.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/substrings/substrings.rb)
 * [Khari's Solutiuon](https://github.com/kjwebdev/ceasar_shift/blob/master/substrings.rb)
