@@ -317,3 +317,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [KvotheNor's Solution](https://github.com/KvotheNOR/Etch-a-Sketch) - [View in Browser](https://kvothenor.github.io/Etch-a-Sketch/)
 * [Nate Pearson's Solution](https://github.com/NathanPearson/Etch-A-Sketch) - [View in Browser](https://nathanpearson.github.io/Etch-A-Sketch/)
 * [Jessica's Solution](https://github.com/seaweeddol/etch-a-sketch) - [View in Browser](https://seaweeddol.github.io/etch-a-sketch/)
+* [Ben Fowler's Solution](https://github.com/benfowler04/etch-a-sketch) - [View in Browser](https://benfowler04.github.io/etch-a-sketch/)
+* [JamCry's Solution](https://github.com/jamcry/etch-a-sketch) - [View in Browser](https://jamcry.github.io/etch-a-sketch/)
+* [Nick Wegscheid's Solution](https://github.com/nsw125/etch-a-sketch) - [View in Browser](https://nsw125.github.io/etch-a-sketch/)

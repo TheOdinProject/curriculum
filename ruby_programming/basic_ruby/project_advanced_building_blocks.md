@@ -40,6 +40,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <div markdown="1">
 
 * Add your solution below this line!
+* [Origier's Solution](https://github.com/Origier/bubble_sort/blob/master/bubble_sort.rb)
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/bubble_sort.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/advanced-projects/bubble-sort.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/tree/master/bubble)
@@ -379,6 +380,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <div markdown="1">
 
 * Add your solution below this line!
+* [Origier's Solution](https://github.com/Origier/Enumerable/blob/master/enumerable.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/advanced-projects/enumerable-methods.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/EnumerableMethods/enumerable.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/enumerable_methods/enumerable_methods.rb)
