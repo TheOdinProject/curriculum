@@ -629,7 +629,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [codyMalcolm's Solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/enumerable_methods.rb)
 * [Tommy's Solution](https://github.com/hoangtommy/rubyExercises/blob/master/enumerable.rb)
 * [bchalman's Solution](https://github.com/bchalman/ruby_exercises/blob/master/my_enumerable_methods.rb)
-* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/enumerable.rb)
+* [Rudi Boshoff's Solution with testing](https://github.com/RudiBoshoff/ruby-exercises/tree/master/enumerable)
 * [Slaven Karamatic's Solution](https://github.com/Everdrought/ruby-enumethods/blob/master/script.rb)
 * [mwk913's Solution](https://github.com/mwk913/Ruby-Advanced-Building-Blocks)
 * [EdwardHeath's Soultion](https://github.com/EdwardHeath/enumerable/blob/master/enumerable.rb)
