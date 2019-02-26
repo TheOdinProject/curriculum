@@ -14,7 +14,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 <details>
     <summary> Show Student Solutions </summary>
-    <span markdown="1">
+    <div markdown="1">
 
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)
@@ -176,7 +176,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's Solution](https://github.com/imemdm/recursion/blob/master/warmup.rb)
 * [Leila Alderman's solution (one line)](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/06_fibonacci/fibonacci.rb)
 
-</span>
+</div>
 </details>
 
 ### Project: Merge Sort
@@ -206,7 +206,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 <details>
     <summary> Show Student Solutions </summary>
-    <span markdown="1">
+    <div markdown="1">
 
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)
@@ -365,7 +365,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Emil Dimitrov's Solution](https://github.com/imemdm/recursion/blob/master/merge_sort.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/07_merge_sort/merge_sort.rb)
 
-</span>
+</div>
 </details>
 
 ### Additional Resources

@@ -20,7 +20,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 <details>
     <summary> Show Student Solutions </summary>
-    <span markdown="1">
+    <div markdown="1">
 
 * Add your solution below this line!
 * Mohamed Elattar's Solution[Caesar Cipher](https://github.com/mohamed-elattar/building-blocks), [Enumerable Methods](https://github.com/mohamed-elattar/advanced-building-blocks), [Tic Tac Toe](https://github.com/mohamed-elattar/tic-tac-toe)
@@ -94,7 +94,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Alex's solutions: [Caesar Cipher](https://github.com/alexcorremans/caesar_cipher), [Enumerable](https://github.com/alexcorremans/enumerable), [Tic Tac Toe (incomplete)](https://github.com/alexcorremans/tictactoe)
 * Leila Alderman's solutions: [Caesar cipher](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/01_caesar/caesar_spec.rb) and [Enumerables](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/spec/enumerables_spec.rb)
 
-</span>
+</div>
 </details>
 
 ### Project: TDD Connect Four
@@ -118,7 +118,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 <details>
     <summary> Show Student Solutions </summary>
-    <span markdown="1">
+    <div markdown="1">
 
 * Add your solution below this line!
 * [Chris Wegschied's solution](https://github.com/cwegscheid08/connect_four)
@@ -208,7 +208,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's Solution](https://github.com/bchalman/connect_four)
 * [Alex's Solution](https://github.com/alexcorremans/connect_four)
 
-</span>
+</div>
 </details>
 
 ### Additional Resources

@@ -27,7 +27,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 <details>
     <summary> Show Student Solutions </summary>
-    <span markdown="1">
+    <div markdown="1">
 
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/binary_tree.rb)
@@ -152,7 +152,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/binary-tree)
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 
-</span>
+</div>
 </details>
 
 ### Project 2: Knight's Travails
@@ -197,7 +197,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 <details>
     <summary> Show Student Solutions </summary>
-    <span markdown="1">
+    <div markdown="1">
 
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/knight_moves.rb)
@@ -319,7 +319,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Leila Alderman's solution](https://github.com/leila-alderman/knight_moves)
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 
-</span>
+</div>
 </details>
 
 ### Additional Resources
