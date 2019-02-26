@@ -6,7 +6,7 @@ Like me, you've probably experienced real-life loops when you were given detenti
 
 If you find yourself needing to repeat an action more than once in your code, you probably need loops in your life.
 
-For all of the examples throughout this lesson, it will be beneficial for you to code along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples in this lesson, you should code along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
@@ -57,18 +57,29 @@ end
 
 This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Of course, in real life, you should really just take "no" for an answer the first time.
 
+### Ranges
+
+What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://ruby-doc.org/core-2.6.1/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive. 
+
+~~~ruby
+(1..5)      # inclusive range: 1, 2, 3, 4, 5
+(1...5)     # exclusive range: 1, 2, 3, 4
+
+# We can make ranges of letters, too!
+('a'..'d')  # a, b, c, d
+~~~
+
 ### For Loop
 
 A `for` loop is used to iterate through a collection of information such as an array or range. These loops are useful if you need to do something a given number of times while also using an iterator.
 
 ~~~ruby
 for i in 0..5
-  puts "The number of zombies I'd take out before succumbing is #{i}."
+  puts "#{i} zombies incoming!."
 end
 ~~~
 
 That's really all there is to it.
-
 
 ### Times Loop
 
