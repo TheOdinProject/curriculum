@@ -28,7 +28,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 <details>
     <summary> Show Student Solutions </summary>
     <div markdown="1">
-
+    
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/binary_tree.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/binary-tree)
@@ -198,7 +198,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 <details>
     <summary> Show Student Solutions </summary>
     <div markdown="1">
-
+    
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/knight_moves.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/knights-moves)
