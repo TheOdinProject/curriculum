@@ -27,7 +27,7 @@ By the end of this lesson, you should be able to do the following:
 
 One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://ruby-doc.org/core-2.6.1/Integer.html#method-i-times) and [`#upto`](https://ruby-doc.org/core-2.6.1/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://ruby-doc.org/core-2.6.1/Integer.html) class.
 
-By the way, if you're wondering why we add a `#` in front of method names, they're just [the convention](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign) for writing out Ruby instance methods. We can use it to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context.
+If you're wondering about all of the pound signs (`#`), they're just [the convention](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign) for writing out Ruby instance methods. We can use them to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context. Note that in the development world, you shouldn't call these ["hashtags"](https://help.twitter.com/en/using-twitter/how-to-use-hashtags). If you want to be super awesome, though, you can call them ["octothorpes"](https://en.wiktionary.org/wiki/octothorpe). That word is totally trending.
 
 Methods are typically called by adding `.method_name` after an instance of the object that contains that method. 
 
@@ -37,7 +37,7 @@ Methods are typically called by adding `.method_name` after an instance of the o
 
 In this case, [`#reverse`](https://ruby-doc.org/core-2.6.1/String.html#method-i-reverse) is a built-in method for [String](https://ruby-doc.org/core-2.6.1/String.html) objects.
 
-However, there are also some built-in methods that Ruby makes globally accessible, such as `print` and `puts`. These methods are called with just their name and any arguments. If you're super curious, these methods are made globally available by the [Kernel module](https://ruby-doc.org/core-2.6.1/Kernel.html) through the [Object class](https://ruby-doc.org/core-2.6.1/Object.html), but that's far more than you need to know right now.
+However, there are also some built-in methods that Ruby makes globally accessible, such as `print` and `puts`. These methods are called with just their name and any arguments. (If you're super curious, these methods are made globally available by the [Kernel module](https://ruby-doc.org/core-2.6.1/Kernel.html) through the [Object class](https://ruby-doc.org/core-2.6.1/Object.html), but that's far more than you need to know right now.)
 
 ~~~ruby
 puts "anything" #=> anything
@@ -83,17 +83,19 @@ Here are some examples of valid and invalid method names:
 ~~~
 method_name      # valid
 _name_of_method  # valid
-1_method_name    # invalid (Starts with a number)
+1_method_name    # invalid
 method_27        # valid
-method?_name     # invalid (Valid symbols, such as "?", can only be used at the end of the name)
+method?_name     # invalid
 method_name!     # valid
 begin            # invalid (Ruby reserved word)
 begin_count      # valid
 ~~~
 
+Can you tell why some of these names are invalid?
+
 In general, short but descriptive is the name of the naming game. You want to be able to tell what a method is expected to do based on its name, so please don't name your method `do_stuff`. 
 
-If your method does so many things that you feel it requires a very long name, then your method should probably be broken up into several smaller and simpler methods. Ideally, each method should do only one thing. This practice will pay dividends down the road in terms of readability, scalability, and maintainability. It also makes testing your code a lot easier, which will be covered in a later lesson.
+If your method does so many things that you feel it requires a very long name, then your method should probably be broken up into several smaller and simpler methods. Ideally, each method should do only one thing. This practice will pay dividends down the road in terms of readability, scalability, and maintainability. (It also makes testing your code a lot easier, which will be covered in a later lesson.)
 
 ### Parameters and Arguments
 
@@ -109,7 +111,7 @@ puts greet("John") #=> Hello, John!
 
 In this example, `name` is a parameter that the `greet` method uses to return a more specific greeting. The method was called with the argument `"John"`, which returns the string "Hello John!"
 
-You may find yourself getting confused with the terms "argument" and "parameter". **Parameters** act as placeholder variables in the template of your method, whereas **arguments** are the actual variables that get passed to the method when it is called. Thus, in the example above, `name` is a parameter and `"John"` is an argument. The two terms are commonly used interchangeably, though, so don't worry too much about this distinction.
+If you're wondering what the differences are between an argument and a parameter, **parameters** act as placeholder variables in the template of your method, whereas **arguments** are the actual variables that get passed to the method when it is called. Thus, in the example above, `name` is a parameter and `"John"` is an argument. The two terms are commonly used interchangeably, though, so don't worry too much about this distinction.
 
 #### Default Parameters
 
@@ -148,7 +150,7 @@ end
 puts my_name #=> "Joe Smith"
 ~~~
 
-Ruby is one of the few languages that offers **implicit return** for methods, which means that a Ruby method will return the last expression that was evaluated without requiring the `return` keyword. The last expression that was evaluated may or may not be the last line in the code, as you can see in the following example:
+Ruby is one of the few languages that offers **implicit return** for methods, which means that a Ruby method will return the last expression that was evaluated even without the `return` keyword. The last expression that was evaluated may or may not be the last line in the code, as you can see in the following example:
 
 ~~~ruby
 def even_odd(number)
@@ -176,12 +178,12 @@ end
 puts my_name #=> "Joe Smith"
 ~~~
 
-This can be useful for example in a situation where you want your method to check for possible errors before continuing:
+For example, an explicit return can be useful when you want to write a method that checks for input errors before continuing.
 
 ~~~ruby
 def even_odd(number)
   unless number.is_a? Numeric
-    return "A number was not entered"
+    return "A number was not entered."
   end
 
   if number % 2 == 0
@@ -195,37 +197,37 @@ puts even_odd(20) #=>  That is an even number.
 puts even_odd("Ruby") #=>  A number was not entered.
 ~~~
 
-Try removing the explicit `return` from the method above. Did the method run as expected?
+Now, try removing the explicit `return` from the method above. Does the method return what you expected?
 
 #### Difference Between `puts` and `return`
 
 A common source of confusion for new programmers is the difference between `puts` and `return`.
 
- * `puts` is a method that simply prints a given value to the console.
- * `return` produces a value that can be used in your code. 
+ * `puts` is a method that prints whatever argument you pass it to the console.
+ * `return` is the final output of a method that you can use in other places throughout your code.
  
-For example:
+For example, we can write a method that calculates the square of a number and then `puts` the output to the console.
 
 ~~~ruby
-def squared(number)
+def puts_squared(number)
   puts number * number
 end
 ~~~
 
-The above method will only print to the console the value of a given number squared. However, it will not produce or return that value.  So writing something like `x = squared(20)` will print `400` to the console but the variable `x` will not be assigned the value `400` but rather it will have a `nil` value.  This is because the method did not actually produce a value.
+This method only prints the value that it calculated to the console, but it doesn't return that value. If we then write `x = squared(20)`, the method will print `400` in the console, but the variable `x` will be assigned a value of `nil`. (If you need a refresher on this, go back and review the Ruby Input and Output lesson.)
 
-If we instead write the same method using a implicit or explicit return:
+Now, let's write the same method but with an implicit return instead of `puts`. (Using an explicit return will act exactly the same in this example.)
 
 ~~~ruby
-def squared(number)
+def return_squared(number)
   number * number
 end
 ~~~
 
-You can then interact with the returned value in your code:
+When we run the `return_squared` method, it won't print any output to the console. Instead, it will `return` the result in a way that allows it to be used in the rest of your code. We can save the output of running this method in a variable (`x` in the code below) and use that variable in a variety of ways. If we would still like to see the result of the method in the console, we can `puts` that variable to the console using string interpolation.
 
 ~~~ruby
-x = squared(20) #=> 400
+x = return_squared(20) #=> 400
 y = 100
 sum = x + y #=> 500
 
@@ -282,7 +284,7 @@ What gives?  I thought we downcased that thing!  So why was it back to all upper
 
 When we call a method on an object, such as our `whisper` string above, it does not modify the original value of that object. A general rule in programming is that you do not want your methods to overwrite the objects that you call them on. This protects you from irreversibly overwriting your data by accident. You *are* able to overwrite your data by explicitly re-assigning a variable (such as `whisper = whisper.downcase`). Another way to do this type of reassignment is with **bang methods**, which are denoted with an exclamation mark (`!`) at the end of the method name.
 
-By adding a `!` to the end of your method, you indicate that this method should perform its action and simultaneously overwrite the value of the original object with the result.
+By adding a `!` to the end of your method, you indicate that this method performs its action and simultaneously overwrites the value of the original object with the result.
 
 ~~~ruby
 puts whisper.downcase! #=> "hello everybody"
@@ -306,7 +308,7 @@ This section contains helpful links to other content. It isn't required, so cons
   - For more discussion on the subtle differences between methods and functions and how they can differ between programming languages, here is a [handy explanation on Stack Overflow](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).
 
 ### Knowledge Check
-This section contains questions you can use to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
  * How would you create your own method?
  * How would you call your new method?
