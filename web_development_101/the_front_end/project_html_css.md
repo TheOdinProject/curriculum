@@ -1968,6 +1968,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [R3dCobbler's solution (Difficult)](https://github.com/R3dCobbler/google-search-results) - [View in browser](https://r3dcobbler.github.io/google-search-results/)
 * [markdudevad's solution (Easy)](https://markdudevad.github.io/google-homepage/) - [View in browser](https://markdudevad.github.io/google-homepage/)
 * [Stefan's Solution (Easy)](https://github.com/dangerousScript/google-homepage) - [View in Browser](https://dangerousscript.github.io/google-homepage/)
+* [Johnathan's Solution (Easy)](https://github.com/FallenTomb/google-homepage) - [View in Browser](https://FallenTomb.github.io/google-homepage/)
 * [Colcodeando's Solution (Easy)](https://github.com/colcodeando/google-homepage) - [View in Browser](https://colcodeando.github.io/google-homepage/)
 
 ### Additional Resources
