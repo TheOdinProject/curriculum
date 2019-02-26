@@ -149,6 +149,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Malaika's Solution](https://github.com/malaikaMI/Event) - [View in browser](https://radiant-brook-99300.herokuapp.com/)
 * [Jamesredux's Solution](https://github.com/Jamesredux/private-events) - [View in browser](https://infinite-basin-31084.herokuapp.com/)
 * [bchalman's solution](https://github.com/bchalman/private-events)
+* [Alex's solution](https://github.com/alexcorremans/private-events)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
