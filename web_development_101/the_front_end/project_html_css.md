@@ -1969,6 +1969,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [markdudevad's solution (Easy)](https://markdudevad.github.io/google-homepage/) - [View in browser](https://markdudevad.github.io/google-homepage/)
 * [Stefan's Solution (Easy)](https://github.com/dangerousScript/google-homepage) - [View in Browser](https://dangerousscript.github.io/google-homepage/)
 * [Johnathan's Solution (Easy)](https://github.com/FallenTomb/google-homepage) - [View in Browser](https://FallenTomb.github.io/google-homepage/)
+* [Colcodeando's Solution (Easy)](https://github.com/colcodeando/google-homepage) - [View in Browser](https://colcodeando.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
