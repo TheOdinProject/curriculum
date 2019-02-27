@@ -116,6 +116,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Carter Harkins Solution (Difficult)](https://github.com/carterharkins/google_homepage) - [View in Browser](https://carterharkins.github.io/google_homepage/)
 * [Michael Lorenzana Solution (Easy)](https://github.com/Mlorenzana12/google_homepage) - [View in Browser](https://mlorenzana12.github.io/google_homepage/)
 * [Dillon W's Solution (Easy)](https://github.com/dwhite8991/google-homepage) - [View in Browser (Easy)](dwhite8991.github.io/google-homepage/)
+* [Luka S's Solution (Easy)](https://github.com/Sensanaty/google-homepage) - [View in Browser](https://sensanaty.github.io/google-homepage/)
 * [Christian Mason's Solution (Easy)](https://github.com/christianmmason/google-homepage) - [View in Browser (Easy)](https://christianmmason.github.io/google-homepage/)
 * [Germán Gutiérrez' Solution (Easy)](https://github.com/sggutier/google-homepage) - [View in Browser (Easy)](https://sggutier.github.io/google-homepage/)
 * [Kevin Vuong's Solution (Difficult)](https://github.com/fffear/google-searchpage)  -  [View in Browser (Difficult)](https://fffear.github.io/google-searchpage/)
