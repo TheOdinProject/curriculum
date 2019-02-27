@@ -1972,6 +1972,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Johnathan's Solution (Easy)](https://github.com/FallenTomb/google-homepage) - [View in Browser](https://FallenTomb.github.io/google-homepage/)
 * [Colcodeando's Solution (Easy)](https://github.com/colcodeando/google-homepage) - [View in Browser](https://colcodeando.github.io/google-homepage/)
 * [Sherman's Solution (Difficult)](https://github.com/shermansjliu/google-homepage) - [View in Browser](https://shermansjliu.github.io/google-homepage/)
+https://github.com/elcas1/google-homepage
+https://github.com/elcas1/google_-search_results_page
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
