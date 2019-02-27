@@ -54,4 +54,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Halkim44's solution](https://github.com/halkim44/todoListApp) - [View App Online](https://halkim44.github.io/todoListApp/)
 * [Valentino Valenti's solution](https://github.com/1ba1/todo-list) - [View in browser](https://1ba1.github.io/todo-list/)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/fcarlosdev.github.io/tree/master/todo-app) - [View in browser](https://fcarlosdev.github.io/todo-app/)
-* [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://github.com/Ubaid-Manzoor/ToDo-List)
+* [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
