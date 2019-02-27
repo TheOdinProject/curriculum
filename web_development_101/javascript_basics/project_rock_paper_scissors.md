@@ -500,6 +500,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Allden's Solution](https://github.com/allden/rock-paper-scissors) - [View in Browser](https://allden.github.io/rock-paper-scissors/)
 - [Thiago Nunes Costa's Solution](https://github.com/thiagoncosta86/rock_scissors_paper) - [View in Browser](https://thiagoncosta86.github.io/rock_scissors_paper/)
 - [Kevin MP Guest's Solution](https://github.com/kaomghin12/rock_paper_scissors)
+- [Skrupp's  Solution](https://github.com/Skrupp/rockpaperscissors) - [View in Browser (console only)](https://skrupp.github.io/rockpaperscissors/)
 - [Manooo0313's Solution](https://github.com/manooo0313/RockPaperScissors) - [View in Browser](https://manooo0313.github.io/RockPaperScissors/)
 - [Natcancein's Solution](https://github.com/Natcancein/the_odin_project/tree/master/rock-papper-scissors) - [View in Browser](https://natcancein.github.io/the_odin_project/rock-papper-scissors/)
 - [Bill Deitrick's Solution](https://github.com/billdeitrick/rps) - [View in Browser](http://www.billdeitrick.com/rps/gui/)
