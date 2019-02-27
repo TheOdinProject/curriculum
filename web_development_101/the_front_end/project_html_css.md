@@ -1973,6 +1973,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Colcodeando's Solution (Easy)](https://github.com/colcodeando/google-homepage) - [View in Browser](https://colcodeando.github.io/google-homepage/)
 * [Sherman's Solution (Difficult)](https://github.com/shermansjliu/google-homepage) - [View in Browser](https://shermansjliu.github.io/google-homepage/)
 * [Karlo's Solution (Easy)](https://github.com/karlolustre/google-homepage) - [View in Browser](https://karlolustre.github.io/google-homepage/)
+* [Kieran's Solution (Easy)](https://github.com/KMC88/google-homepage) - [View in Browser](https://kmc88.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
