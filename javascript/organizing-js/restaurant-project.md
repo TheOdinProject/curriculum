@@ -71,4 +71,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [aznafro's solution](https://github.com/aznafro/restaurant) - [View in browser](https://aznafro.github.io/restaurant/)
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Restaurant-page) - [View in browser](https://areebaishtiaq.github.io/Restaurant-page/)
 - [Valentino Valenti's solution](https://github.com/1ba1/restaurant-page) - [View in browser](https://1ba1.github.io/restaurant-page/)
-- [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://github.com/Ubaid-Manzoor/Restaurant-Page)
+- [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Restaurant-Page) - [View in Browser](https://ubaid-manzoor.github.io/Restaurant-Page/)
