@@ -510,3 +510,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [J Lyons' Solution](https://github.com/UncleArtie/rockpaperscissors)
 - [Alex Krewson's Solution](https://github.com/alexkrewson/rock-paper-scissors)
 - [Emily's Solution](https://github.com/efueger/OP-RockPaperScissors)
+- [dragonqveen's Solution](https://github.com/dragonqveen/rock-paper-scissors) - [View in Browser](https://dragonqveen.github.io/rock-paper-scissors/)
