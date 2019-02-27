@@ -513,3 +513,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joshua Duke's UI Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-GUI) - [View in Browser](https://enigmaduke.github.io/Rock-Paper-Scissors-GUI/)
 - [Emily's Solution](https://github.com/efueger/OP-RockPaperScissors)
 - [dragonqveen's Solution](https://github.com/dragonqveen/rock-paper-scissors) - [View in Browser](https://dragonqveen.github.io/rock-paper-scissors/)
+- [Srikaran's Solution](https://github.com/srikaransursure/rockpaperscissors) - [View in Browser](https://srikaransursure.github.io/rockpaperscissors/)
+
