@@ -492,3 +492,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Allden's Solution](https://github.com/allden/rock-paper-scissors) - [View in Browser](https://allden.github.io/rock-paper-scissors/)
 - [Thiago Nunes Costa's Solution](https://github.com/thiagoncosta86/rock_scissors_paper) - [View in Browser](https://thiagoncosta86.github.io/rock_scissors_paper/)
 - [Kevin MP Guest's Solution](https://github.com/kaomghin12/rock_paper_scissors)
+- [Skrupp's  Solution](https://github.com/Skrupp/rockpaperscissors) - [View in Browser (console only)](https://skrupp.github.io/rockpaperscissors/)
