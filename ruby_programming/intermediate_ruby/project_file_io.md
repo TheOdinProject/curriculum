@@ -212,3 +212,4 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_programming/hangman) - [Play on Repl.it](https://repl.it/@Brendaneus/JuniorTroubledCodec)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/hangman) - [Play on repl.it](https://repl.it/@imemdm/IllfatedButteryKernel)
 * [Leila Alderman's solution](https://github.com/leila-alderman/hangman)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/tree/master/hangman) - [Play on repl.it](https://repl.it/@vi7ali/Hangman-game)
