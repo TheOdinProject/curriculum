@@ -25,9 +25,8 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
-<details>
-    <summary> Show Student Solutions </summary>
-    <div markdown="1">
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/binary_tree.rb)
@@ -152,7 +151,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/binary-tree)
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 
-</div>
 </details>
 
 ### Project 2: Knight's Travails
@@ -195,9 +193,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
-<details>
-    <summary> Show Student Solutions </summary>
-    <div markdown="1">
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/knight_moves.rb)
@@ -319,7 +316,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Leila Alderman's solution](https://github.com/leila-alderman/knight_moves)
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 
-</div>
 </details>
 
 ### Additional Resources
