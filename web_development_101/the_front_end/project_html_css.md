@@ -1978,6 +1978,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kieran's Solution (Easy)](https://github.com/KMC88/google-homepage) - [View in Browser](https://kmc88.github.io/google-homepage/)
 * [Tom Evertzen's Solution (Easy)](https://github.com/tomevertzen/google-demo) - [View in Browser](https://tomevertzen.github.io/google-demo/)
 
+* [João Fonseca's Solution (Easy)](https://github.com/FonsecaJoao/google-homepage) - [View in Browser](https://fonsecajoao.github.io/google-homepage/)
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
