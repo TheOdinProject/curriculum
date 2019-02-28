@@ -231,3 +231,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [antdricot's Solution](https://github.com/antdricot/odin-project-calculator) - [View in browser](https://antdricot.github.io/odin-project-calculator/)
 - [Nick Wegscheid's Solution](https://github.com/nsw125/calculator) - [View in browser](https://nsw125.github.io/calculator/)
 - [Leo Holanda's Solution](https://github.com/leo-holanda/calculator) - [View in browser](https://leo-holanda.github.io/calculator/)
+- [Jessica's Solution](https://github.com/seaweeddol/calculator) - [View in browser](https://seaweeddol.github.io/calculator/)
