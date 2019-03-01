@@ -18,9 +18,8 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/testing_with_rspec/project_testing_your_ruby_code.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
-<details>
-    <summary> Show Student Solutions </summary>
-    <span markdown="1">
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
 * Mohamed Elattar's Solution[Caesar Cipher](https://github.com/mohamed-elattar/building-blocks), [Enumerable Methods](https://github.com/mohamed-elattar/advanced-building-blocks), [Tic Tac Toe](https://github.com/mohamed-elattar/tic-tac-toe)
@@ -94,7 +93,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Alex's solutions: [Caesar Cipher](https://github.com/alexcorremans/caesar_cipher), [Enumerable](https://github.com/alexcorremans/enumerable), [Tic Tac Toe (incomplete)](https://github.com/alexcorremans/tictactoe)
 * Leila Alderman's solutions: [Caesar cipher](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/01_caesar/caesar_spec.rb) and [Enumerables](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/spec/enumerables_spec.rb)
 
-</span>
 </details>
 
 ### Project: TDD Connect Four
@@ -116,9 +114,8 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
-<details>
-    <summary> Show Student Solutions </summary>
-    <span markdown="1">
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
 * [Chris Wegschied's solution](https://github.com/cwegscheid08/connect_four)
@@ -208,7 +205,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's Solution](https://github.com/bchalman/connect_four)
 * [Alex's Solution](https://github.com/alexcorremans/connect_four)
 
-</span>
 </details>
 
 ### Additional Resources

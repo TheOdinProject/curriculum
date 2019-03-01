@@ -37,6 +37,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Luka Salevic's Console Solution](https://github.com/Sensanaty/rockPaperScissors) - [View in Browser (Console)](https://sensanaty.github.io/rockPaperScissors)
+- [Sizigia's Solution (Console Version)](https://github.com/sizigia/rock-paper-scissors)
+- [Om Dhiraj's Solution](https://github.com/odgripginger/rockPaperScissors) - [View in browser](https://odgripginger.github.io/rockPaperScissors/)
 - [Garan Weber's Solution](https://github.com/rkane/rock_paper_scissors) - View in Browser([Console Version](https://rkane.github.io/rock_paper_scissors) / [Visual Version](https://rkane.github.io/index))
 - [Luis's Solution](https://github.com/Luis846/RockPaperScissor)
 - [Ricala's Solution](https://github.com/Ricala/rock-paper-scissors) - [View in Browser](https://ricala.github.io/rock-paper-scissors/)
@@ -515,3 +517,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joshua Duke's UI Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-GUI) - [View in Browser](https://enigmaduke.github.io/Rock-Paper-Scissors-GUI/)
 - [Emily's Solution](https://github.com/efueger/OP-RockPaperScissors)
 - [dragonqveen's Solution](https://github.com/dragonqveen/rock-paper-scissors) - [View in Browser](https://dragonqveen.github.io/rock-paper-scissors/)
+- [Daniel Trebilcock's GUI solution](https://github.com/Trebilcode/rock-paper-scissors) - [View in Browser](https://trebilcode.github.io/rock-paper-scissors/)

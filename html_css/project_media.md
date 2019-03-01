@@ -115,6 +115,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Gough's solution](https://github.com/Joel-Price/youtube-clone) - [View in browser](https://joel-price.github.io/youtube-clone/)
 * [Ghassan's solution](https://github.com/GT001/TOP-Youtube-Player) - [View in browser](https://gt001.github.io/TOP-Youtube-Player/)
 * [Valentino Valenti's solution](https://github.com/1ba1/youtube-video-player-page) - [View in Browser](https://1ba1.github.io/youtube-video-player-page/)
+* [Doris's solution](https://github.com/dsmchen/youtube-video-player-page) - [view in browser](https://dsmchen.github.io/youtube-video-player-page/)
  
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

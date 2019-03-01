@@ -15,9 +15,8 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_oop.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
-<details>
-    <summary> Show Student Solutions </summary>
-    <span markdown="1">
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/rubyProgramming/tic_tac_toe)
@@ -253,7 +252,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/tic-tac-toe/blob/master/tic-tac-toe.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
 
-</span>
 </details>
 
 ### Project 2: Mastermind
@@ -276,9 +274,8 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
-<details>
-    <summary> Show Student Solutions </summary>
-    <span markdown="1">
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
 * [Learnsometing's Solution NO AI](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby/intermediate/ruby-intermediate/mastermind.rb)
@@ -470,7 +467,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
 * [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)
 
-</span>
 </details>
 
 ### Additional Resources
