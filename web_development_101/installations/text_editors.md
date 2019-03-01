@@ -19,7 +19,7 @@ Which editor you use is generally a matter of preference, but for the purposes o
 
 On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_first_rails_app/`. 
 
-MacOS can do this, too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
 #### WSL Users
 
