@@ -1977,7 +1977,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Karlo's Solution (Easy)](https://github.com/karlolustre/google-homepage) - [View in Browser](https://karlolustre.github.io/google-homepage/)
 * [Kieran's Solution (Easy)](https://github.com/KMC88/google-homepage) - [View in Browser](https://kmc88.github.io/google-homepage/)
 * [Tom Evertzen's Solution (Easy)](https://github.com/tomevertzen/google-demo) - [View in Browser](https://tomevertzen.github.io/google-demo/)
-
+* [AdesojiMasterCode (Easy)](https://adesojicodemaster.github.io/google_homepage/) - [View in Browser](https://adesojicodemaster.github.io/google_homepage/)
 * [João Fonseca's Solution (Easy)](https://github.com/FonsecaJoao/google-homepage) - [View in Browser](https://fonsecajoao.github.io/google-homepage/)
 * [Kenny Chung's Solution (Easy)](https://github.com/kpchungdev/google_home_page) - [View in Browser](https://kpchungdev.github.io/google_home_page/)
 * [Kenny Chung's Solution (Difficult)](https://github.com/kpchungdev/google_search_results_page) - [View in Browser](https://kpchungdev.github.io/google_search_results_page/)
