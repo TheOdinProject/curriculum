@@ -89,3 +89,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Enravel's Solution](https://github.com/Enravel/Library-Project)
 - [Valentino Valenti's Solution](https://github.com/1ba1/library-app) - [View in browser](https://1ba1.github.io/library-app/)
 - [tnharvey's Solution](https://github.com/tnharvey/library) - [View in browser](https://tnharvey.github.io/library/)
+- [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Book-Manager) - [View in Browser](https://ubaid-manzoor.github.io/Book-Manager/)
+- [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/library)
