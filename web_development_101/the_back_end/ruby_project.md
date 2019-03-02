@@ -30,10 +30,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Add your solution below this line!
 <<<<<<< HEAD
 * [Nicolas Espinoza's solution](https://github.com/nicospz/learn_ruby)
-=======
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/learn_ruby)
 * [Yemre AYBEY's solution](https://github.com/YemreAybey/learn_ruby)
->>>>>>> 7bba4eb9ed5fc086a39180e701e7e0534978d395
 * [Jay Burbyga's solution](https://github.com/Jaybur1/ruby_exercises)
 * [Kevin Vuong's solution](https://github.com/fffear/learn_ruby)
 * [ARaut9's solution](https://github.com/ARaut9/learn_ruby)
