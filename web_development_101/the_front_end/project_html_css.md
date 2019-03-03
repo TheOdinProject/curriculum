@@ -1981,7 +1981,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [João Fonseca's Solution (Easy)](https://github.com/FonsecaJoao/google-homepage) - [View in Browser](https://fonsecajoao.github.io/google-homepage/)
 * [Kenny Chung's Solution (Easy)](https://github.com/kpchungdev/google_home_page) - [View in Browser](https://kpchungdev.github.io/google_home_page/)
 * [Kenny Chung's Solution (Difficult)](https://github.com/kpchungdev/google_search_results_page) - [View in Browser](https://kpchungdev.github.io/google_search_results_page/)
+<<<<<<< HEAD
 * [Franklin's solution (Easy)](https://github.com/Albertoo1/google-homepage-) - [View In Browser](https://albertoo1.github.io/google-homepage-/)
+=======
+* [Antonio Marcos's Solution (Easy)](https://github.com/AMarcosCastelo/google-homepage) - [View in Browser](https://amarcoscastelo.github.io/google-homepage/)
+* [Syed Mujahid Islam's Solution (Easy)](https://github.com/jesterfrenzy/google-homepage) - [View in Browser](https://jesterfrenzy.github.io/google-homepage/)
+>>>>>>> 0e4ed09f4b5b0bb3e62ab8a5bacf35e2b6a635c2
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

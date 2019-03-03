@@ -251,6 +251,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [EdwardHeath's solution](https://github.com/EdwardHeath/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/tic-tac-toe/blob/master/tic-tac-toe.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
+* [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/intermediate_project/tic_tac_toe.rb)
 
 </details>
 
