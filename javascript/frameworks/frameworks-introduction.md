@@ -4,7 +4,9 @@ By this point you have probably heard about JavaScript frameworks such as React,
 
 ### What _is_ a framework?
 
-Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time writing `document.createElement` or `element.innerHTML`. Frameworks try to make this easier, quicker, and much more sustainable by using shorter functions that abstract these repetative Javascript methods.
+Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time manipulating the DOM with code like `document.createElement` or `element.innerHTML`. Every time you wanted to change some data like marking a todo complete, or adding a book to your library you had run a function that updates your entire page just to keep your view in sync with the data.  This is a very verbose and error-prone way of doing things! 
+
+Frameworks are there to ease that pain! The frameworks will automatically and efficiently keep your UI in sync with the data in your app. All the tedious code you had to write manually is now abstracted away letting you focus on more productive things.
 
 The various frameworks (there _are_ a lot of them) tend to have a few things in common.  In general any given JS framework will have at least some sort of templating system that allows you to create reusable components (A templating system is nothing more than the ability to create bits of code that you can reuse). These components can be thought of as building-blocks that you use to build your project.  For example, you could have a `header` and a `footer` component that you re-use on all your pages, or you could have something like a `card` component that nicely wraps whatever you put inside of it with a div and a box-shadow or border.
 
@@ -51,3 +53,7 @@ The rest of this section will go through the 3 most popular front-end frameworks
 2. Check out [this recent survey](https://2017.stateofjs.com/2017/front-end/results) to get a feel for the general popularity and usage of the various frameworks.
 3. [This survey](https://insights.stackoverflow.com/survey/2018/#technology) is not JS or web centered, but includes some data about frameworks.
 4. [This video](https://www.youtube.com/watch?v=KMX1mFEmM3E) gives a good overview and comparison of the 'Big 3'.
+
+### Additional Resources
+
+* [A blogpost diving into why frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)

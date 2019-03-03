@@ -51,3 +51,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [aznafro's solution](https://github.com/aznafro/todo) - [View in browser](https://aznafro.github.io/todo/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Todolist) - [View in browser](https://areebaishtiaq.github.io/Todolist)
 * [Taylor J's solution](https://github.com/taylorjohannsen/todolist) - [View in browser](https://taylorjohannsen.github.io/todolist/)
+* [Halkim44's solution](https://github.com/halkim44/todoListApp) - [View App Online](https://halkim44.github.io/todoListApp/)
+* [Valentino Valenti's solution](https://github.com/1ba1/todo-list) - [View in browser](https://1ba1.github.io/todo-list/)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/fcarlosdev.github.io/tree/master/todo-app) - [View in browser](https://fcarlosdev.github.io/todo-app/)
+* [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
