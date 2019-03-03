@@ -174,7 +174,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Slaven's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/fibonacci/script.rb)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/recursion/blob/master/warmup.rb)
 * [Leila Alderman's solution (one line)](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/06_fibonacci/fibonacci.rb)
-* [Vitaly Osipov's solution (one line)](https://github.com/vi7ali/ruby-practice/blob/master/recursion/fibonacci.rb)
+* [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/recursion/fibonacci.rb)
 
 </details>
 
