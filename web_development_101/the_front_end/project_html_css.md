@@ -1982,6 +1982,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kenny Chung's Solution (Easy)](https://github.com/kpchungdev/google_home_page) - [View in Browser](https://kpchungdev.github.io/google_home_page/)
 * [Kenny Chung's Solution (Difficult)](https://github.com/kpchungdev/google_search_results_page) - [View in Browser](https://kpchungdev.github.io/google_search_results_page/)
 * [Antonio Marcos's Solution (Easy)](https://github.com/AMarcosCastelo/google-homepage) - [View in Browser](https://amarcoscastelo.github.io/google-homepage/)
+* [Syed Mujahid Islam's Solution (Easy)](https://github.com/jesterfrenzy/google-homepage) - [View in Browser](https://jesterfrenzy.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
