@@ -518,4 +518,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Emily's Solution](https://github.com/efueger/OP-RockPaperScissors)
 - [dragonqveen's Solution](https://github.com/dragonqveen/rock-paper-scissors) - [View in Browser](https://dragonqveen.github.io/rock-paper-scissors/)
 - [Daniel Trebilcock's GUI solution](https://github.com/Trebilcode/rock-paper-scissors) - [View in Browser](https://trebilcode.github.io/rock-paper-scissors/)
-[Mateusz Majchrzak's console solution](https://github.com/maaajo/Rock_Paper_Scissors/)
+- [Mateusz Majchrzak's console solution](https://github.com/maaajo/Rock_Paper_Scissors/)
