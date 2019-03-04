@@ -28,6 +28,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
 * Add your solution below this line!
+* [Nicolas Espinoza's solution](https://github.com/nicospz/learn_ruby)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/learn_ruby)
 * [Yemre AYBEY's solution](https://github.com/YemreAybey/learn_ruby)
 * [Jay Burbyga's solution](https://github.com/Jaybur1/ruby_exercises)
@@ -493,6 +494,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/learn_ruby)
 * [LeonJMac's Solution](https://github.com/leonjmac/learn_ruby)
 * [Nick Wegscheid's Solution](https://github.com/nsw125/learn_ruby)
+* [Janice L's Solution](https://github.com/janicelam21/learn_ruby)
 
 
 ### Additional Resources
