@@ -1984,6 +1984,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Franklin's solution (Easy)](https://github.com/Albertoo1/google-homepage-) - [View In Browser](https://albertoo1.github.io/google-homepage-/)
 * [Antonio Marcos's Solution (Easy)](https://github.com/AMarcosCastelo/google-homepage) - [View in Browser](https://amarcoscastelo.github.io/google-homepage/)
 * [Syed Mujahid Islam's Solution (Easy)](https://github.com/jesterfrenzy/google-homepage) - [View in Browser](https://jesterfrenzy.github.io/google-homepage/)
+* [Benjamin DDP's Solution (Easy)](https://github.com/86benji86/google-homepage) - [View in Browser](https://86benji86.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
