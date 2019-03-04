@@ -220,7 +220,7 @@ At this point, you'll need to restart the terminal for the changes to take effec
 
 #### Step 3.3: Install Ruby
 
-We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.0:
+We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.1:
 
 ~~~bash
 rbenv install 2.6.1 --verbose
@@ -234,7 +234,7 @@ Once Ruby is installed, you need to tell rbenv which version to use by default. 
 rbenv global 2.6.1
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.0:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.1:
 
 ~~~bash
 $ ruby -v
