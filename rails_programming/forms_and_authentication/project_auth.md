@@ -188,6 +188,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [ParamagicDev's Solution](https://github.com/ParamagicDev/clubhouse.git)
 * [bchalman's Solution](https://github.com/bchalman/members-only)
 * [Alex's solution](https://github.com/alexcorremans/members-only)
+* [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/members-only) | [View in browser](https://guarded-escarpment-32564.herokuapp.com/posts)
 
 ### Additional Resources
 
