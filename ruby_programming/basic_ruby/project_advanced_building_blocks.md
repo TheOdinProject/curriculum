@@ -10,7 +10,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" class="lesson-content__small-image" markdown="1">
 
-### Assignment
+### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -35,7 +35,13 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_advanced_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](https://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [BShowen's Solution](https://github.com/BShowen/homemade_bubble_sort_methods/blob/master/bubble_sort_methods.rb)
+* [Kevin Vuong's Solution](https://github.com/fffear/bubble_sort)
+* [Origier's Solution](https://github.com/Origier/bubble_sort/blob/master/bubble_sort.rb)
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/bubble_sort.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/advanced-projects/bubble-sort.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/tree/master/bubble)
@@ -326,10 +332,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/bubble-sort/bubble_sort.rb)
 * [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/bubble_sort.rb)
 
+</details>
+
 ### Project 2: Enumerable Methods
 You learned about the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
 
-### Assignment
+### Assignment 2
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -367,7 +375,12 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_advanced_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](https://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/enumerable/blob/master/enumerable.rb)
+* [Origier's Solution](https://github.com/Origier/Enumerable/blob/master/enumerable.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/advanced-projects/enumerable-methods.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/EnumerableMethods/enumerable.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/enumerable_methods/enumerable_methods.rb)
@@ -616,12 +629,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [codyMalcolm's Solution](https://github.com/codyMalcolm/odin-building-blocks/blob/master/enumerable_methods.rb)
 * [Tommy's Solution](https://github.com/hoangtommy/rubyExercises/blob/master/enumerable.rb)
 * [bchalman's Solution](https://github.com/bchalman/ruby_exercises/blob/master/my_enumerable_methods.rb)
-* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/blob/master/enumerable.rb)
+* [Rudi Boshoff's Solution with testing](https://github.com/RudiBoshoff/ruby-exercises/tree/master/enumerable)
 * [Slaven Karamatic's Solution](https://github.com/Everdrought/ruby-enumethods/blob/master/script.rb)
 * [mwk913's Solution](https://github.com/mwk913/Ruby-Advanced-Building-Blocks)
 * [EdwardHeath's Soultion](https://github.com/EdwardHeath/enumerable/blob/master/enumerable.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/enumerables.rb)
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/Enumerable_methods.rb)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
