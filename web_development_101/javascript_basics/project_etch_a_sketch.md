@@ -324,3 +324,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Nick Wegscheid's Solution](https://github.com/nsw125/etch-a-sketch) - [View in Browser](https://nsw125.github.io/etch-a-sketch/)
 * [Joanna's Solution](https://github.com/jluczak/etch-a-sketch) - [View in Browser](https://jluczak.github.io/etch-a-sketch/)
 * [Kyriaco's Solution](https://github.com/Koullaras/Etch-a-Sketch) - [View in Browser](https://koullaras.github.io/Etch-a-Sketch/)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/Etch-a-Sketch) - [View in Browser](https://alexkrewson.github.io/Etch-a-Sketch/)
