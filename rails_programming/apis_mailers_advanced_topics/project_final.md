@@ -39,7 +39,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 #### Extra Credit
 
 1. Make posts also allow images (either just via a URL or, more complicated, by uploading one).
-2. Use the [Paperclip](https://github.com/thoughtbot/paperclip) gem to allow users to upload a photo to their profile.
+2. Use the [Active Storage](https://edgeguides.rubyonrails.org/active_storage_overview.html) to allow users to upload a photo to their profile.
 3. Make your post able to be either a text OR a photo by using a polymorphic association (so users can still like or comment on it while being none-the-wiser).
 4. Style it up nicely! We'll dive into HTML/CSS in the next course.
 
@@ -110,6 +110,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Scott McKell's solution](https://github.com/zottwickel/odin-facebook) - [View in browser](https://zottwickel-odin-facebook.herokuapp.com/)
 * [Punnadittr's solution (Bootstrap4, Ajax, Active Storage & Mobile Support)](https://github.com/punnadittr/festbrooke) - [View in browser](https://festbrooke.herokuapp.com)
 * [Agon's solution](https://github.com/AgonIdrizi/socialize) - [View in browser](https://socializeer.herokuapp.com/about)
+* [bchalman's solution](https://github.com/bchalman/odin-spacebook)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

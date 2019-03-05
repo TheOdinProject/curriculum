@@ -2,6 +2,15 @@
 
 With Ruby installed, you're all set to create your first Ruby on Rails application!
 
+Before continuing, let's review a few best practices to keep in mind:
+
+* Follow the directions closely, and don't skip over any sections.
+* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this advice can cause *a lot* of headaches. In some instances, you might see a message in the terminal telling you to use `sudo` and/or to install something with `apt`. **Ignore what the terminal says** and follow the instructions below.
+* Copy and paste the commands to avoid typos.
+* If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
+
+In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/hvqVr6d).
+
 ### Your First Rails App
 
 #### Step 1: Configure Git and GitHub
@@ -134,6 +143,13 @@ Now, we're going to tell Rails to generate some templates for us. This will get 
 rails generate scaffold car make:string model:string year:integer
 ~~~
 
+**(Feb 8, 2019) NOTE: If you get an error with the above command, follow these steps:**
+
+ 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3' , '~> 1.3.13'`. Save the file.
+ 2. In the terminal, run `bundle install`.
+ 3. Now that SQLite is working properly, run `rails generate scaffold car make:string model:string year:integer` again.
+
+
 After generating the scaffolds, we need to migrate the database.
 
 ~~~bash
@@ -201,7 +217,7 @@ On the next page, you'll see a bunch of commands listed. We're really only inter
 
 Now, switch back over to the terminal to connect the project and GitHub by running two simple commands:
 
-NOTE: Do not enter the `<` or `>` symbols. Replace everything inside those symbols with the URL that you copied from GitHub.
+NOTE: Do not enter the `<` or `>` symbols. Replace those symbols and everything between them with the URL that you copied from GitHub.
 
 ~~~bash
 git remote add origin <SSH URL from above>
@@ -277,21 +293,21 @@ To deploy a Rails application, we need to change some settings.
 
 First, we need to open the `Gemfile` and edit it.
 
-In your terminal, type `ls` and verify that you see `Gemfile` in the output. If you don't see it, navigate to the directory you created in Steps 4.2 and 4.3.
+In your terminal, type `ls` and verify that you see `Gemfile` in the output. If you don't see it, navigate to the directory you created in Steps 2.2 and 2.3.
 
 Then, we'll use VSCode to modify the `Gemfile`. Open your app in VSCode by typing `code .` (**NOTE: The period at the end is important!**) (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
 
 When VSCode opens, you should see a list of files on the left side of the screen. Click on `Gemfile` to open it in the editor. Then, delete the line that says,
 
 ~~~ruby
-gem 'sqlite3'
+gem 'sqlite3' , '~> 1.3.13'
 ~~~
 
 Replace the line you just deleted with the following:
 
 ~~~ruby
 group :development, :test do
-  gem 'sqlite3'
+ gem 'sqlite3' , '~> 1.3.13'
 end
 
 group :production do
