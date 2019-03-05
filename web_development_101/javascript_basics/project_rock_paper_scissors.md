@@ -36,6 +36,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Om Dhiraj's Solution(visual/noConsole)](https://github.com/odgripginger/rPSnoConsole) - [View in browser](https://odgripginger.github.io/rPSnoConsole/)
 - [Luka Salevic's Console Solution](https://github.com/Sensanaty/rockPaperScissors) - [View in Browser (Console)](https://sensanaty.github.io/rockPaperScissors)
 - [Sizigia's Solution (Console Version)](https://github.com/sizigia/rock-paper-scissors)
 - [Om Dhiraj's Solution](https://github.com/odgripginger/rockPaperScissors) - [View in browser](https://odgripginger.github.io/rockPaperScissors/)
@@ -482,6 +483,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Willie's Console Solution](https://github.com/wjone005/Rock-Paper-Scissors) - [View in Browser](https://wjone005.github.io/Rock-Paper-Scissors/) [Willie's Gui Solution](https://github.com/wjone005/rock-paper-scissors-gui) - [View in Browser](https://wjone005.github.io/rock-paper-scissors-gui/)
 - [Ange's Solution](https://pekengduck.github.io/rock_paper_scissors/)
 - [Koullara's Solution](https://koullaras.github.io/rock-paper-scissors/)
+- [Adeleke Temitayo's Console Solution](https://github.com/leketemi/rock-paper-scissors) - [View in Browser](https://leketemi.github.io/rock-paper-scissors/)
+- [Adeleke Temitayo's GUI Solution](https://github.com/leketemi/rock-paper-scissors---GUI) - [View in Browser](https://leketemi.github.io/rock-paper-scissors---GUI/)
 - [Diego's Console and Interface Solution](https://github.com/dandradec98/rock-paper-scissors) - [View in Browser](https://dandradec98.github.io/rock-paper-scissors/)
 - [Suka George Console and Interface Solution](https://github.com/addisuka25/Rock-Paper-Scissors) - [View in Browser](https://addisuka25.github.io/Rock-Paper-Scissors/)
 - [Goldkoyne88's Interface Solution](https://github.com/goldkoyne88/rock-paper-scissors) - [View in Browser](https://goldkoyne88.github.io/rock-paper-scissors/)
