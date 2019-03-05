@@ -297,6 +297,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Denis's Solution](https://github.com/denisRajlic/etch-a-sketch) - [View in Browser](https://denisrajlic.github.io/etch-a-sketch/)
 * [LeonJMac's Solution](https://github.com/leonjmac/etch-a-sketch) - [View in Browser](https://leonjmac.github.io/etch-a-sketch/)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/Etch-a-Sketch) - [View in Browser](https://brett-bonnet.github.io/Etch-a-Sketch/)
+* [Adeleke Temitayo's Solution](https://github.com/leketemi/Etch-A-Sketch) - [View in Browser](https://leketemi.github.io/Etch-A-Sketch/)
 * [Ange's Solution](https://github.com/pekengduck/etch_a_sketch) - [View in Browser](https://pekengduck.github.io/etch_a_sketch/)
 * [Nick-Trahan's Solution](https://github.com/Nick-Trahan/etch-a-sketch-odin) - [View in Browser](https://nick-trahan.github.io/etch-a-sketch-odin/)
 * [Valentino Valenti's Solution](https://1ba1.github.io/etch-a-sketch/)

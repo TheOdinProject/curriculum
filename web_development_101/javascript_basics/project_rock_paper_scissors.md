@@ -482,6 +482,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Willie's Console Solution](https://github.com/wjone005/Rock-Paper-Scissors) - [View in Browser](https://wjone005.github.io/Rock-Paper-Scissors/) [Willie's Gui Solution](https://github.com/wjone005/rock-paper-scissors-gui) - [View in Browser](https://wjone005.github.io/rock-paper-scissors-gui/)
 - [Ange's Solution](https://pekengduck.github.io/rock_paper_scissors/)
 - [Koullara's Solution](https://koullaras.github.io/rock-paper-scissors/)
+- [Adeleke Temitayo's Console Solution](https://github.com/leketemi/rock-paper-scissors) - [View in Browser](https://leketemi.github.io/rock-paper-scissors/)
+- [Adeleke Temitayo's GUI Solution](https://github.com/leketemi/rock-paper-scissors---GUI) - [View in Browser](https://leketemi.github.io/rock-paper-scissors---GUI/)
 - [Diego's Console and Interface Solution](https://github.com/dandradec98/rock-paper-scissors) - [View in Browser](https://dandradec98.github.io/rock-paper-scissors/)
 - [Suka George Console and Interface Solution](https://github.com/addisuka25/Rock-Paper-Scissors) - [View in Browser](https://addisuka25.github.io/Rock-Paper-Scissors/)
 - [Goldkoyne88's Interface Solution](https://github.com/goldkoyne88/rock-paper-scissors) - [View in Browser](https://goldkoyne88.github.io/rock-paper-scissors/)
