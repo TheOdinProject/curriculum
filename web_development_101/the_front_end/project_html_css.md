@@ -1991,6 +1991,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Syed Mujahid Islam's Solution (Easy)](https://github.com/jesterfrenzy/google-homepage) - [View in Browser](https://jesterfrenzy.github.io/google-homepage/)
 * [Benjamin DDP's Solution (Easy)](https://github.com/86benji86/google-homepage) - [View in Browser](https://86benji86.github.io/google-homepage/)
 * [Yash Jahit's Solution (Easy)](https://github.com/yashjahit-21705201/Google-Homepage) - [View in Browser](https://yashjahit-21705201.github.io/Google-Homepage/)
+* [Ricardo Valdez's Solution (Easy)](https://github.com/drikonricus/google-homepage) -[View in Browser](https://drikonricus.github.io/google-homepage/)
 * [Rudy Ravelin's Solution (Easy)](https://rudyravelin1.github.io/google-homepage/) - [View in Browser](https://rudyravelin1.github.io/google-homepage/)
 
 ### Additional Resources
