@@ -32,6 +32,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 Send us your solution so we can show others! Submit a link to the Github [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Bojo's solution](https://github.com/BojoZahariev/youtube_video) - [View in browser](https://bojozahariev.github.io/youtube_video/)
 * [Hammad Ahmed's solution](https://github.com/shammadahmed/youtube-video-page) - [View in browser](https://shammadahmed.github.io/youtube-video-page)
 * [Helari's solution](https://helaris.github.io/YouTube/)
 * [Smetanca52's solution](https://github.com/Smetanca52/) - [View in browser](https://smetanca52.github.io/youtubelike_page/)
@@ -113,6 +114,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Anh Pati's solution](https://github.com/AnhPati/OdinProject_css_html/tree/master/Embendding_images_and_video) - [View in browser](http://dwj.miste.io/odinproject/embedding_images_and_video/)
 * [Gough's solution](https://github.com/Joel-Price/youtube-clone) - [View in browser](https://joel-price.github.io/youtube-clone/)
 * [Ghassan's solution](https://github.com/GT001/TOP-Youtube-Player) - [View in browser](https://gt001.github.io/TOP-Youtube-Player/)
-
+* [Valentino Valenti's solution](https://github.com/1ba1/youtube-video-player-page) - [View in Browser](https://1ba1.github.io/youtube-video-player-page/)
+* [Doris's solution](https://github.com/dsmchen/youtube-video-player-page) - [view in browser](https://dsmchen.github.io/youtube-video-player-page/)
+ 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
