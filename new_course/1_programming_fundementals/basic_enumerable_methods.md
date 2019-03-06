@@ -129,7 +129,7 @@ friends.each { |friend| friend.upcase }
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
-You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong--dead wrong. It actually returns the original array you called `#each` on. You're *still* not invited, Brian.
+You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong---dead wrong. It actually returns the original array you called `#each` on. You're *still* not invited, Brian.
 
 ### The `#each_with_index` Method
 This method is nearly the same as `#each`, but it provides some additional functionality by yielding two **block variables** instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex.
@@ -380,7 +380,7 @@ Now when we call our original `friends` array again, it returns the changed valu
 
 As you'll recall from the Methods lesson, **bang methods** can be easily identified by their exclamation marks (`!`) at the end of their name. All bang methods are **destructive** and modify the object they are called on. Many of the enumerable methods that return new versions of the array or hash they were called on have a bang method version available, such as `#map!` and `#select!`.
 
-It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep them in mind when making the decision to use bang methods.
+It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep that in mind when making the decision to use bang methods.
 
 ### Return Values of Enumerables
 So if it's not a good idea to use bang methods but we need to re-use the result of a enumerable method throughout our program, what can we do instead?
