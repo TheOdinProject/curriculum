@@ -129,7 +129,7 @@ friends.each { |friend| friend.upcase }
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
-You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong... dead wrong. It actually returns the original array you called `#each` on. By the way, you're still *not* invited, Brian.
+You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong--dead wrong. It actually returns the original array you called `#each` on. You're *still* not invited, Brian.
 
 ### The `#each_with_index` Method
 This method is nearly the same as `#each`, but it provides some additional functionality by yielding two **block variables** instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex.
@@ -348,9 +348,9 @@ Now that we know that this new hash with a default value of `0` is our accumulat
 Note that this example returns a hash with several `key => value` pairs. So even though the result is more complicated, `#reduce` still just returns one object, a hash.
 
 ### Bang Methods
-Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidently lose that information. For example, if Ruby was designed in a way that enumerables would mutate or change the original array, then using a method such as `#select` to filter out Brian from our ivitation list, mentioned at the beginning of this lesson, would *permanently* remove him from our friends list. Whoah! That's a bit drastic. Brian may be a nutcase but he's still our friend.
+Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidently lose that information. For example, if enumerables did mutate the original array, then using `#select` to filter out Brian from our ivitation list would *permanently* remove him from our friends list. Whoah! That's a bit drastic. Brian may be a nutcase at parties, but he's still our friend.
 
-To see how enumerable don't actually change the arrays they were called on, let's go back to this earlier example, where we wrote each of our friends' names in all caps:
+To see this principle in action, let's go back to an earlier example where we wrote each of our friends' names in all caps:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -361,6 +361,8 @@ friends.map { |friend| friend.upcase }
 friends
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
+
+You can see that when we call our original `friends` array again, it remains unchanged.
 
 If you wanted to change your `friends` array instead, you could use the bang method `#map!`:
 
@@ -378,7 +380,7 @@ Now when we call our original `friends` array again, it returns the changed valu
 
 As you'll recall from the Methods lesson, **bang methods** can be easily identified by their exclamation marks (`!`) at the end of their name. All bang methods are **destructive** and modify the object they are called on. Many of the enumerable methods that return new versions of the array or hash they were called on have a bang method version available, such as `#map!` and `#select!`.
 
-It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep him in mind when making the decision to use bang methods.
+It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep them in mind when making the decision to use bang methods.
 
 ### Return Values of Enumerables
 So if it's not a good idea to use bang methods but we need to re-use the result of a enumerable method throughout our program, what can we do instead?
