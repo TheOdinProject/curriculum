@@ -1996,6 +1996,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Marcus Macklin's Solution (Easy)](https://github.com/macsoa1/google-homepage/) - [View in Browser](https://macsoa1.github.io/google-homepage/)
 * [Marcus Macklin's Solution (Diffult)](https://github.com/macsoa1/google-search-page/) - [View in Browser](https://macsoa1.github.io/google-search-page/)
 * [Erick Ouko Nyanamba's Solution (Easy)](https://enos16.github.io/google-homepage/) - [View in Browser](https://enos16.github.io/google-homepage/)
+* [Chris Kraus' Solution (Easy)] (https://krausce.github.io/google-homepage/) - [View in Browser](https://krausce.github.io/google-homepage/)
 
 
 ### Additional Resources
