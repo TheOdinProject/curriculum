@@ -150,6 +150,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's solution](https://github.com/imemdm/searching-binary-trees)
 * [Leila Alderman's solution](https://github.com/leila-alderman/binary-tree)
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
+* [Mojotron's solution](https://github.com/mojotron/binary-search-tree)
 
 </details>
 
@@ -315,6 +316,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Emil Dimitrov's solution](https://github.com/imemdm/knight-moves)
 * [Leila Alderman's solution](https://github.com/leila-alderman/knight_moves)
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
+* [Mojotron's solution](https://github.com/mojotron/graph_with_knights_travails)
 
 </details>
 
