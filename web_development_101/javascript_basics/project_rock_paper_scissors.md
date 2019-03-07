@@ -37,6 +37,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Joeri Smissaert's Solution](https://github.com/smissaertj/ca-rock-paper-scissors) - [View In Browswer](https://smissaertj.github.io/ca-rock-paper-scissors/)
+- [Ankita Ahuja's Solution(visual/noConsole)](https://github.com/Ankitaahuja/rock_paper_scissors) - [View in browser](https://ankitaahuja.github.io/rock_paper_scissors/)
 - [Om Dhiraj's Solution(visual/noConsole)](https://github.com/odgripginger/rPSnoConsole) - [View in browser](https://odgripginger.github.io/rPSnoConsole/)
 - [Luka Salevic's Console Solution](https://github.com/Sensanaty/rockPaperScissors) - [View in Browser (Console)](https://sensanaty.github.io/rockPaperScissors)
 - [Sizigia's Solution (Console Version)](https://github.com/sizigia/rock-paper-scissors)
@@ -525,3 +526,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mateusz Majchrzak's console solution](https://github.com/maaajo/Rock_Paper_Scissors/)
 - [Antonio Marcos's solution](https://github.com/AMarcosCastelo/rock-paper-scissors) - [View in Browser](https://amarcoscastelo.github.io/rock-paper-scissors/)
 - [vanny96's Solution](https://github.com/vanny96/rock-paper-scissor) - [View in Browser](https://vanny96.github.io/rock-paper-scissor/)
+- [Barbara Lucas' Solution](https://github.com/LucasBarbara/rock_paper_scissors)
