@@ -412,6 +412,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/caesar-cipher/caesar.rb)
 * [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/caser_cipher_solution.rb)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/caesar_cipher.rb)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/ruby_building_blocks/blob/master/caesar_cipher.rb)
+
 
 ### Project 2: Stock Picker
 
