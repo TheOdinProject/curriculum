@@ -416,7 +416,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/caesar.rb)
 
 
-
 ### Project 2: Stock Picker
 
 <div class="lesson-content__panel" markdown="1">
@@ -1143,4 +1142,4 @@ Next, make sure your method can handle multiple words:
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/substrings/substrings.rb)
 * [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/substrings_solution.rb)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/substrings.rb)
-* [HanJosmer](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/substrings.rb)
+* [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/substrings.rb)
