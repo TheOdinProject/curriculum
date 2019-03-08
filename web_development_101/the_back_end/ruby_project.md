@@ -496,6 +496,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Nick Wegscheid's Solution](https://github.com/nsw125/learn_ruby)
 * [Janice L's Solution](https://github.com/janicelam21/learn_ruby)
 * [JamCry's Solution](https://github.com/jamcry/learn_ruby)
+* [vanny96's Solution](https://github.com/vanny96/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
