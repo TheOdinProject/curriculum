@@ -36,8 +36,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
-- [Rafe Draper's Solution](https://github.com/rafeDraper/rock-scisors-paper) - [View In Browswer](https://rafedraper.github.io/rock-scisors-paper/)
-- [Joeri Smissaert's Solution](https://github.com/smissaertj/ca-rock-paper-scissors) - [View In Browswer](https://smissaertj.github.io/ca-rock-paper-scissors/)
+- [Rafe Draper's Solution](https://github.com/rafeDraper/rock-scisors-paper) - [View In Browser](https://rafedraper.github.io/rock-scisors-paper/)
+- [Joeri Smissaert's Solution](https://github.com/smissaertj/ca-rock-paper-scissors) - [View In Browser](https://smissaertj.github.io/ca-rock-paper-scissors/)
 - [Ankita Ahuja's Solution(visual/noConsole)](https://github.com/Ankitaahuja/rock_paper_scissors) - [View in browser](https://ankitaahuja.github.io/rock_paper_scissors/)
 - [Om Dhiraj's Solution(visual/noConsole)](https://github.com/odgripginger/rPSnoConsole) - [View in browser](https://odgripginger.github.io/rPSnoConsole/)
 - [Luka Salevic's Console Solution](https://github.com/Sensanaty/rockPaperScissors) - [View in Browser (Console)](https://sensanaty.github.io/rockPaperScissors)
