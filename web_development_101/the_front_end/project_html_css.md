@@ -1998,7 +1998,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Marcus Macklin's Solution (Easy)](https://github.com/macsoa1/google-homepage/) - [View in Browser](https://macsoa1.github.io/google-homepage/)
 * [Marcus Macklin's Solution (Diffult)](https://github.com/macsoa1/google-search-page/) - [View in Browser](https://macsoa1.github.io/google-search-page/)
 * [Erick Ouko Nyanamba's Solution (Easy)](https://enos16.github.io/google-homepage/) - [View in Browser](https://enos16.github.io/google-homepage/)
-* [Aram Margaryan's Solution (Easy)](https://tezzarida.github.io/google-homepage/) - [View in Browse] (https://tezzarida.github.io/google-homepage/)
+* [Aram Margaryan's Solution (Easy)](https://tezzarida.github.io/google-homepage/) - [View in Browser] (https://tezzarida.github.io/google-homepage/)
+* [Kristal Dow's Solution (Easy)](https://kristalmdow.github.io/google-homepage/) - [View in Browser] (https://kristalmdow.github.io/google-homepage/)
 
 
 ### Additional Resources
