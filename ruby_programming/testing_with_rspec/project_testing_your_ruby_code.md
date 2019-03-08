@@ -119,6 +119,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/connect-four)
 * [Chris Wegschied's solution](https://github.com/cwegscheid08/connect_four)
 * [Leila Alderman's solution](https://github.com/leila-alderman/connect_four)
 * [Simon Tharby's solution](https://github.com/jinjagit/connect_four)
