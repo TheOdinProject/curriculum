@@ -517,7 +517,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [hiten3's Console Solution](https://github.com/hiten3/rock-paper-scissors-js)
 - [Denis Rajlic's Solution](https://github.com/denisRajlic/RPS_Game) - [View in Browser](https://denisrajlic.github.io/RPS_Game/)
 - [J Lyons' Solution](https://github.com/UncleArtie/rockpaperscissors)
-- [Alex Krewson's Solution](https://github.com/alexkrewson/rock-paper-scissors)
 - [Wycliffe's Solution](https://github.com/cycks/RockPaperScissors) - [View in Browser](https://cycks.github.io/RockPaperScissors/)
 - [Alex Krewson's Solution](https://github.com/alexkrewson/rock-paper-scissors) - [View in Browser](https://alexkrewson.github.io/rock-paper-scissors/)
 - [Joshua Duke's Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-Project) 
@@ -530,4 +529,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [vanny96's Solution](https://github.com/vanny96/rock-paper-scissor) - [View in Browser](https://vanny96.github.io/rock-paper-scissor/)
 - [Barbara Lucas' Solution](https://github.com/LucasBarbara/rock_paper_scissors)
 - [Adrian Chirculescu's Solution](https://github.com/adiihd/rock-paper-scissors-game) - [View in Browser](https://adiihd.github.io/rock-paper-scissors-game/)
->>>>>>> 8b3f8be80097dd8264bbbdc800a7387fec25d797
