@@ -15,10 +15,11 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_oop.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
-<details>
+<details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/tic_tac_toe)
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/rubyProgramming/tic_tac_toe)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/tictactoe/tictac.rb)
 * [Noah's Solution](https://github.com/noahniuwa/odin_assignments/blob/master/tictactoe.rb)
@@ -251,6 +252,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [EdwardHeath's solution](https://github.com/EdwardHeath/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/tic-tac-toe/blob/master/tic-tac-toe.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
+* [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/intermediate_project/tic_tac_toe.rb)
 
 </details>
 
@@ -274,7 +276,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
-<details>
+<details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!

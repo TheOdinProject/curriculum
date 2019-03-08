@@ -24,6 +24,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/conclusion/project_ruby_final.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/chess)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-chess-project)
 * [Simon Tharby's solution](https://github.com/jinjagit/chess)
 * [prw001's solution](https://github.com/prw001/chess)
