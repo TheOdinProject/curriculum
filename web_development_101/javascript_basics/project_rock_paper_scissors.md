@@ -528,3 +528,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [vanny96's Solution](https://github.com/vanny96/rock-paper-scissor) - [View in Browser](https://vanny96.github.io/rock-paper-scissor/)
 - [Barbara Lucas' Solution](https://github.com/LucasBarbara/rock_paper_scissors)
 - [Adrian Chirculescu's Solution](https://github.com/adiihd/rock-paper-scissors-game) - [View in Browser](https://adiihd.github.io/rock-paper-scissors-game/)
+- [Karlo's Solution](https://github.com/karlolustre/rock-paper-scissors) - [View in Browser](https://karlolustre.github.io/rock-paper-scissors/)
