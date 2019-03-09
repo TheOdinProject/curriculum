@@ -2,19 +2,15 @@
 Having to locate and fix errors and failures in your code is an inevitable part of being a developer. The art of finding the cause of problems and fixing them in code is known as **debugging**. [The origin of the term](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term)
 is a classic computer science tale worth knowing if you haven't heard it already.
 
-In this lesson we will cover all of the main techniques you can use to debug your code when you
-run into a problem.
+In this lesson, we will cover all of the main techniques you can use to debug your code when you run into a problem.
 
 ### Learning Outcomes
-*Look through these now and then use them to test yourself after doing the assignment*
+By the end of this lesson, you should be able to do the following:
 
-* What is a stack trace?
-* what generally the most useful line in a stack trace?
-* What are the two things you can learn from the first line of a stack trace?
-* What does debugging with `puts` and Pry help you with in the debugging process?
-* What should you use instead of `puts` on its own?
-* Where should you start with debugging if you encounter a runtime error?
-* Where should you start with debugging if your program runs but does not work the way you expect?
+ - Describe what a stack trace is.
+ - Explain how you can use a stack trace to debug your code.
+ - Explain how you can use `puts` and Pry to debug your code.
+ - Explain how you should decide to start with debugging.
 
 ### Reading the Stack Trace
 When your Ruby program crashes after encountering a runtime error/exception, it will produce a wall of text known as a **stack trace** and output it in your terminal.
@@ -34,7 +30,7 @@ And there you have it. The stack trace really is that simple. At this point, you
 
 What if you don't know? Enter a simple technique known as...
 
-### Puts Debugging
+### Debugging with `puts`
 The debugging process is all about confirming assumptions about your code until you find something that goes against your assumptions. For example, does a variable or method return what you expect? Does a calculation or iteration over an array or hash output what you expect?
 
 
@@ -110,7 +106,7 @@ puts "Using p:"
 p []
 ~~~
 
-### Using PRY
+### Debugging with Pry
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. It's very similar to IRB, but with added functionality.
 
 You can use Pry to debug by first installing it in your terminal by running `gem install pry`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally to use Pry you just need to call `binding.pry` at any point in your program.
@@ -147,13 +143,27 @@ syntax error to be raised that causes the program to crash. In this case, Ruby p
 Obviously, if available, the stack trace is the first place you should look when debugging. Otherwise, `puts` and Pry are the some of the easiest and quickest tools you can use to get yourself back up and running.
 
 ### Assignment
+<div class="lesson-content__panel" markdown="1">
+
 1. Go through Ruby Guides's [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers everything about debugging in more depth.
 2. Read through the [Exceptions and Stack Traces]((https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces)) section of Launch School's online book *Introduction to Programming with Ruby*
 3. Follow along with [this Pry tutorial](https://learn.co/lessons/debugging-with-pry) by Learn.co.
+</div>
 
 ### Additional Resources
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code), especially the first section on `puts` debugging, by ReadySteadyCode.
 * [Debugging without doom and gloom](https://practicingruby.com/articles/debugging-without-doom-and-gloom), by Practicing Ruby.
 * [Pry's wiki](https://github.com/pry/pry/wiki), for a collection of resources that'll help you master this invaluable gem.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What is a stack trace?
+* what generally the most useful line in a stack trace?
+* What are the two things you can learn from the first line of a stack trace?
+* What does debugging with `puts` and Pry help you with in the debugging process?
+* What should you use instead of `puts` on its own?
+* Where should you start with debugging if you encounter a runtime error?
+* Where should you start with debugging if your program runs but does not work the way you expect?
