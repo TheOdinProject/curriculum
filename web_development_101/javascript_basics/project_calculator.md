@@ -41,6 +41,9 @@ Here are some use cases (abilities your project needs to have):
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Vollantre's Solution](https://github.com/vollantre/calculator)
+- [Ricala's Solution](https://github.com/Ricala/calculator) - [View in Browser](https://ricala.github.io/Calculator/)
+- [Austin Jackowski's Solution](https://github.com/Austin-Jackowski/calculator) - [View in Browser](https://austin-jackowski.github.io/calculator/)
 - [Nicolas Espinoza's solution](https://github.com/nicospz/calculator) - [View in Browser](https://nicospz.github.io/calculator/)
 - [balowulf's solution](https://github.com/balowulf/calculator) - [View in Browser](https://balowulf.github.io/calculator/)
 - [Braxton Lemmon's solution](https://github.com/braxtonlemmon/calculator) - [View in Browser](https://braxtonlemmon.github.io/calculator/)
@@ -233,3 +236,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nick Wegscheid's Solution](https://github.com/nsw125/calculator) - [View in browser](https://nsw125.github.io/calculator/)
 - [Leo Holanda's Solution](https://github.com/leo-holanda/calculator) - [View in browser](https://leo-holanda.github.io/calculator/)
 - [Jessica's Solution](https://github.com/seaweeddol/calculator) - [View in browser](https://seaweeddol.github.io/calculator/)
+- [JamCry's Solution](https://github.com/jamcry/calculator) - [View in browser](https://jamcry.github.io/calculator/)
+- [vanny96's Solution](https://github.com/vanny96/calculator) - [View in Browser](https://vanny96.github.io/calculator/)

@@ -37,6 +37,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 
 - Add your solution below this line!
 - [balowulf's Solution](https://github.com/balowulf/library) - [View in Browswer](https://balowulf.github.io/library/)
+- [Max Garber's Solution](https://github.com/bubblebooy/Odin-Javascript/blob/master/library.html) - [View in Browswer](https://bubblebooy.github.io/Odin-Javascript/library.html)
 - [Shruti Jain's Solution](https://github.com/Sjain020188/Library) - [View in Browser](https://sjain020188.github.io/Library/library.html)
 - [Suulola Oluwaseyi's Solution](https://github.com/mySuulola/odin-library) - [View in Browser](https://mysuulola.github.io/odin-library/)
 - [Malditagaseosa's Solution](https://github.com/malditagaseosa/library) - [View in Browser](https://malditagaseosa.github.io/library/)<br/>
@@ -90,3 +91,4 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Valentino Valenti's Solution](https://github.com/1ba1/library-app) - [View in browser](https://1ba1.github.io/library-app/)
 - [tnharvey's Solution](https://github.com/tnharvey/library) - [View in browser](https://tnharvey.github.io/library/)
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Book-Manager) - [View in Browser](https://ubaid-manzoor.github.io/Book-Manager/)
+- [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/library)

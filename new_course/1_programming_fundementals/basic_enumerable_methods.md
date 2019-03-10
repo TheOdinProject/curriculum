@@ -18,7 +18,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain what a bang method is and why it is or is not considered best practice.
 
 ### Life Before Enumerables
-Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of nutcase at parties and always drinks way too much.
+Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of a nutcase at parties and always drinks way too much.
 
 With the loops you've learned so far, you might do something like this:
 
@@ -81,7 +81,7 @@ Let's break down this syntax:
 * `friends` is the array that contains strings of your friends' names.
 * `.each` is the enumerable method you are calling on your `friends` array.
 * `{ |friend| puts friend }` is a **block**, and the code inside this block is run for each element in your array. Because we have 5 friends in our array, this block will be run 5 times, once with each of the 5 elements.
-* Within the block, you'll notice that we have `|friend|`, which is known as a **block variable**. This is the element from your array that the block is currently iterating over. You can use any variable names that you find helpful here; in this example, we could have used `|x|`, but `|friend|` is more descriptive of what each element is. In the first iteration, the value of `|friend|` will be `'Sharon'`; in the second iteration, its value will be `'Leo'`; in the third, `Leila`; and so on until it reaches the end of the array.
+* Within the block, you'll notice that we have `|friend|`, which is known as a **block variable**. This is the element from your array that the block is currently iterating over. You can use any variable name that you find helpful here; in this example, we could have used `|x|`, but `|friend|` is more descriptive of what each element is. In the first iteration, the value of `|friend|` will be `'Sharon'`; in the second iteration, its value will be `'Leo'`; in the third, `'Leila'`; and so on until it reaches the end of the array.
 
 What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:
 
@@ -99,10 +99,10 @@ end
 #=> [1, 2]
 ~~~
 
-`#each` also works for hashes with a bit of added functionality. By default, each iteraction will yield both the key and value individually or together (as an array) to the block depending on you define your block variable:
+`#each` also works for hashes with a bit of added functionality. By default, each iteraction will yield both the key and value individually or together (as an array) to the block depending on how you define your block variable:
 
 ~~~ruby
-my_hash = { "one" => 1, "two" => 2}
+my_hash = { "one" => 1, "two" => 2 }
 
 my_hash.each { |key, value| puts "#{key} is #{value}" }
 
@@ -129,7 +129,7 @@ friends.each { |friend| friend.upcase }
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
-You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong--dead wrong. It returns the original array you called `#each` on. You're still *not* invited, Brian.
+You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong---dead wrong. It actually returns the original array you called `#each` on. You're *still* not invited, Brian.
 
 ### The `#each_with_index` Method
 This method is nearly the same as `#each`, but it provides some additional functionality by yielding two **block variables** instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex.
@@ -260,13 +260,13 @@ A classic example of when `#reduce` is useful is obtaining the sum of an array o
 my_numbers = [5, 6, 7, 8]
 sum = 0
 
-my_numbers.each { |number| sum + number }
+my_numbers.each { |number| sum += number }
 
 sum
 #=> 26
 ~~~
 
-This isn't too bad in terms of number of lines of code, but we had to introduce a temporary local variable `sum` outside of the enumerable. It would be much nicer if we could do all of this within the enumerable:
+This isn't too bad in terms of number of lines of code, but we had to introduce a temporary local variable (`sum`) outside of the enumerable. It would be much nicer if we could do all of this within the enumerable:
 
 ~~~ruby
 my_numbers = [5, 6, 7, 8]
@@ -298,7 +298,7 @@ Now let's look at a more elaborate example that shows just how powerful this met
 
 Now that you know who's coming to your party, you need to decide where to go. You don't actually like making decisions very much, so you put it to a vote among your friends.
 
-The options are St. Mark's Bistro, a classy place suited for a sophisticated person such as yourself. The other option is Bob's Dirty Burger Shack, which you know its Brian's favorite place. Since he's coming to the party now, it's best to include it as an option to avoid any arguments. Your friends' votes are collected in the `votes` array.
+The options are St. Mark's Bistro, a classy place suited for a sophisticated person such as yourself. The other option is Bob's Dirty Burger Shack, which you know is Brian's favorite place. Since he's coming to the party now, it's best to include it as an option to avoid any arguments. Your friends' votes are collected in the `votes` array.
 
 ~~~ruby
 votes = ["Bob's Dirty Burger Shack", "St. Mark's Bistro", "Bob's Dirty Burger Shack"]
@@ -348,9 +348,9 @@ Now that we know that this new hash with a default value of `0` is our accumulat
 Note that this example returns a hash with several `key => value` pairs. So even though the result is more complicated, `#reduce` still just returns one object, a hash.
 
 ### Bang Methods
-Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidently lose that information.
+Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidently lose that information. For example, if enumerables did mutate the original array, then using `#select` to filter out Brian from our ivitation list would *permanently* remove him from our friends list. Whoah! That's a bit drastic. Brian may be a nutcase at parties, but he's still our friend.
 
-Let's go back to this earlier example, where we wrote each of our friends' names in all caps:
+To see this principle in action, let's go back to an earlier example where we wrote each of our friends' names in all caps:
 
 ~~~ruby
 friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
@@ -362,7 +362,7 @@ friends
 #=> ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 ~~~
 
-When we call our original `friends` array again, we can see that it remains unchanged.
+You can see that when we call our original `friends` array again, it remains unchanged.
 
 If you wanted to change your `friends` array instead, you could use the bang method `#map!`:
 
@@ -380,7 +380,7 @@ Now when we call our original `friends` array again, it returns the changed valu
 
 As you'll recall from the Methods lesson, **bang methods** can be easily identified by their exclamation marks (`!`) at the end of their name. All bang methods are **destructive** and modify the object they are called on. Many of the enumerable methods that return new versions of the array or hash they were called on have a bang method version available, such as `#map!` and `#select!`.
 
-It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep them in mind when making the decision to use bang methods.
+It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep that in mind when making the decision to use bang methods.
 
 ### Return Values of Enumerables
 So if it's not a good idea to use bang methods but we need to re-use the result of a enumerable method throughout our program, what can we do instead?
@@ -417,6 +417,7 @@ invited_friends(friends)
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
+
   1. Read through the Ruby Explained article on [Map, Select, and Other Enumerable Methods](https://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods).
   2. Follow along with this [How to Use The Ruby Map Method](https://www.rubyguides.com/2018/10/ruby-map-method/) tutorial from Ruby Guides.
   3. Follow along with this [Reducing Enumerable](https://medium.com/@baweaver/reducing-enumerable-part-one-the-journey-begins-ddc1d4108490) article by Brandon Weaver.

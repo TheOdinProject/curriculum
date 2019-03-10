@@ -47,7 +47,7 @@ git config --get user.email
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
 
-#### step 1.3: Create an SSH Key
+#### Step 1.3: Create an SSH Key
 
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
