@@ -363,6 +363,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [HanJosmer's Solution](https://github.com/HanJosmer/blogger) - [View in browser](https://polar-harbor-47038.herokuapp.com/)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/blogger) - [View in browser](https://fast-meadow-27474.herokuapp.com/)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/blogger) - [View in browser](https://desolate-brook-18571.herokuapp.com/)
+* [JamCry's Solution](https://github.com/jamcry/rails-blogger) - [View in browser](https://jamcrys-blogger.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
