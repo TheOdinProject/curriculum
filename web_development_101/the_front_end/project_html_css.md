@@ -2002,7 +2002,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kristal Dow's Solution (Easy)](https://github.com/kristalmdow/google-homepage/) - [View in Browser](https://kristalmdow.github.io/google-homepage/)
 * [vanny96's Solution (Easy)](https://github.com/vanny96/google-homepage) - [View in Browser](https://vanny96.github.io/google-homepage/)
 * [KRdoubleL's Solution (Easy)](https://github.com/KRdoubleL/google-homepage) - [View in Browser](https://krdoublel.github.io/google-homepage/)
-
+* [seawren's Solution (Easy)](https://github.com/seawren/Imitation-Google-E) - [View in Browser](https://seawren.github.io/Imitation-Google-E/)
+* [seawren's Solution (Difficult)](https://github.com/seawren/Imitation-Google-H) - [View in Broswer](https://seawren.github.io/Imitation-Google-H/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
