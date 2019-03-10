@@ -332,3 +332,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [vanny96's Solution](https://github.com/vanny96/etch-a-sketch) - [View in Browser](https://vanny96.github.io/etch-a-sketch/)
 * [Adrian Chirculescu's Solution](https://github.com/adiihd/etch-a-sketch) - [View in Browser](https://adiihd.github.io/etch-a-sketch/)
 * [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/Etch-A-Sketch) - [View in Browser](https://amarcoscastelo.github.io/Etch-A-Sketch/)
+* [crongle's Solution](https://github.com/crongle/sketchit) - [View in Browser](https://crongle.github.io/sketchit/)
