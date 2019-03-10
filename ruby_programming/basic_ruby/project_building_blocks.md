@@ -34,6 +34,7 @@ There's a video about it [from Harvard's CS50 class](https://www.youtube.com/wat
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
+* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/caesar_cipher.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/caesar.rb)
 * [Austin Fisher's Solution](https://github.com/Austin2016/cipher.rb-)
 * [Kevin Vuong's Solution](https://github.com/fffear/caesar_cipher)
