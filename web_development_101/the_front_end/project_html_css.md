@@ -2001,6 +2001,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Aram Margaryan's Solution (Easy)](https://github.com/tezzarida/google-homepage/) - [View in Browser](https://tezzarida.github.io/google-homepage/)
 * [Kristal Dow's Solution (Easy)](https://github.com/kristalmdow/google-homepage/) - [View in Browser](https://kristalmdow.github.io/google-homepage/)
 * [vanny96's Solution (Easy)](https://github.com/vanny96/google-homepage) - [View in Browser](https://vanny96.github.io/google-homepage/)
+* [KRdoubleL's Solution (Easy)](https://github.com/KRdoubleL/google-homepage) - [View in Browser](https://krdoublel.github.io/google-homepage/)
 
 
 ### Additional Resources
