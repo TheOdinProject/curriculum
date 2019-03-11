@@ -529,7 +529,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mateusz Majchrzak's console solution](https://github.com/maaajo/Rock_Paper_Scissors/)
 - [Antonio Marcos's solution](https://github.com/AMarcosCastelo/rock-paper-scissors) - [View in Browser](https://amarcoscastelo.github.io/rock-paper-scissors/)
 - [vanny96's Solution](https://github.com/vanny96/rock-paper-scissor) - [View in Browser](https://vanny96.github.io/rock-paper-scissor/)
-- [Barbara Lucas' Solution](https://github.com/LucasBarbara/rock_paper_scissors)
+- [Barbara Lucas' Solution](https://github.com/LucasBarbara/rock_paper_scissors) - [View in Browser](https://lucasbarbara.github.io/rock_paper_scissors/)
 - [Adrian Chirculescu's Solution](https://github.com/adiihd/rock-paper-scissors-game) - [View in Browser](https://adiihd.github.io/rock-paper-scissors-game/)
 - [Karlo's Solution](https://github.com/karlolustre/rock-paper-scissors) - [View in Browser](https://karlolustre.github.io/rock-paper-scissors/)
 - [Kenny Chung's Solution](https://github.com/kpchungdev/rps) - [View in Browser](https://kpchungdev.github.io/rps/)
