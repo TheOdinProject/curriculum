@@ -172,4 +172,4 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Emil Dimitrov's Solution](https://github.com/imemdm/linked_list)
 * [EdwardHeath's Solution (with extra credit)](https://github.com/EdwardHeath/linked_list/tree/master)
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/tree/master/08_linked_list)
-
+* [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/linked-list)
