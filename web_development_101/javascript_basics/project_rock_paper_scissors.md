@@ -533,3 +533,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Adrian Chirculescu's Solution](https://github.com/adiihd/rock-paper-scissors-game) - [View in Browser](https://adiihd.github.io/rock-paper-scissors-game/)
 - [Karlo's Solution](https://github.com/karlolustre/rock-paper-scissors) - [View in Browser](https://karlolustre.github.io/rock-paper-scissors/)
 - [Kenny Chung's Solution](https://github.com/kpchungdev/rps) - [View in Browser](https://kpchungdev.github.io/rps/)
+- [pristit's Solution](https://github.com/pristit/rock_paper_scissors) - [View in Browser](https://pristit.github.io/rock_paper_scissors/)
