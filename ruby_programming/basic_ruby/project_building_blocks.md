@@ -810,6 +810,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/substrings.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/substrings.rb)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/TOP-ruby_programming/tree/master/03_substring)
 * [BShowen's solution](https://github.com/BShowen/Ruby_substrings/blob/master/substrings.rb)
