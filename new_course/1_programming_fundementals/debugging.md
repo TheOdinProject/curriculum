@@ -134,17 +134,20 @@ To see this point in action, try running the following:
 
 require 'pry'
 
-def check_values
-  x = 0
-  binding.pry
-  y = x + 10
-  x = 100
+def yell_greeting(string)  
+  name = string
+
+  binding.pry 
+
+  name = name.upcase
+  greeting = "WASSAP, #{name}!"
+  puts greeting
 end
 
-check_values
+yell_greeting("bob")
 ~~~
 
-During the session, if you check for the value of `x`, you will notice that you get back a value of `0` instead of `100`. What value do you think `y` will return? Yup, it will be `nil`.  This is because `y = x + 10` and `x = 100` occurred after the `binding.pry` call and were never evaluated.   
+During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`.  This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the `binding.pry` call and were never evaluated.   
 
 As you can see, using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
 
