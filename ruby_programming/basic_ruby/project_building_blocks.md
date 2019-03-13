@@ -34,7 +34,7 @@ There's a video about it [from Harvard's CS50 class](https://www.youtube.com/wat
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this line!
-* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/caesar_cipher.rb)
+* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/caesar_cipher.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/caesar.rb)
 * [Austin Fisher's Solution](https://github.com/Austin2016/cipher.rb-)
 * [Kevin Vuong's Solution](https://github.com/fffear/caesar_cipher)
@@ -415,12 +415,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/caesar_cipher.rb)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/caesar.rb)
-<<<<<<< HEAD
-*[vanny96's Solution](https://github.com/vanny96/building-blocks)
-=======
+* [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/caesar_cipher/caesar_cipher.rb)
->>>>>>> fc6e4dae5377b36f562d3f41f00daccd0b9fc4d7
-
 
 ### Project 2: Stock Picker
 
@@ -443,7 +439,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/stock_picker.rb)
+* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/stock_picker.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/stock-picker.rb)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/TOP-ruby_programming/tree/master/02_stock_picker)
 * [BShowen's Solution](https://github.com/BShowen/Ruby_stock_picker/blob/master/stock_picker.rb)
@@ -785,12 +781,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/stock_picker_solution.rb)
 * [Wesley Wang's solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/stock_picker.rb)
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/stock_picker.rb)
-<<<<<<< HEAD
-*[vanny96's Solution](https://github.com/vanny96/building-blocks)
-
-=======
+* [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/stock_picker/stock_picker.rb)
->>>>>>> fc6e4dae5377b36f562d3f41f00daccd0b9fc4d7
 
 ### Project 3: Substrings
 
@@ -821,7 +813,7 @@ Next, make sure your method can handle multiple words:
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request. Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/substrings.rb)
+* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/substrings.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/substrings.rb)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/TOP-ruby_programming/tree/master/03_substring)
 * [BShowen's solution](https://github.com/BShowen/Ruby_substrings/blob/master/substrings.rb)
@@ -1157,9 +1149,6 @@ Next, make sure your method can handle multiple words:
 * [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/substrings_solution.rb)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/substrings.rb)
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/substrings.rb)
-<<<<<<< HEAD
-*[vanny96's Solution](https://github.com/vanny96/building-blocks)
-=======
+* [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/substrings/substrings.rb)
 
->>>>>>> fc6e4dae5377b36f562d3f41f00daccd0b9fc4d7
