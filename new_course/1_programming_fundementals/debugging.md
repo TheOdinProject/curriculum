@@ -1,6 +1,5 @@
 ### Introduction
-Having to locate and fix errors and unexpected behavior in your code is an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as **debugging**. The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term)
-is a classic computer science tale worth reading if you haven't already.
+Tracking down and fixing errors and unexpected behavior in your code is an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as **debugging**. The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term) is a classic computer science tale worth reading if you haven't already.
 
 In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
 
@@ -122,6 +121,8 @@ def double_words_in_phrase(string)
   string_array.map { |word| word * 2}
   string_array.join(' ')
 end
+
+double_words_in_phrase("This is a test")
 ~~~
 
 When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`.
