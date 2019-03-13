@@ -1,6 +1,5 @@
 ### Introduction
-Having to locate and fix errors and getting unexpected behavior in your code are all an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as **debugging**. The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term)
-is a classic computer science tale worth reading if you haven't already.
+Tracking down and fixing errors and unexpected behavior in your code is an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as **debugging**. The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term) is a classic computer science tale worth reading if you haven't already.
 
 In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
 
@@ -128,7 +127,7 @@ double_words_in_phrase("This is a test")
 
 When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`.
 
-Using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time. Plus, you won't have to remember to go back and remove all those `puts` statements from your code when you are finished.
+Using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
 
 There is far, far more that you can do with Pry, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
 
