@@ -125,9 +125,28 @@ end
 double_words_in_phrase("This is a test")
 ~~~
 
-When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`.
+When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session. In other words, when we add a `binding.pry` statement, we are effectively creating a breakpoint or a pause in our code.
 
-Using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
+To help understand this point, try running the following:
+
+~~~ruby
+# script.rb
+
+require 'pry'
+
+def check_values
+  x = 0
+  binding.pry
+  y = x + 10
+  x = 100
+end
+
+check_values
+~~~
+
+During the session, if you check for the value of `x`, you will notice that you get back a value of `0` instead of `100`. What value do you think `y` will return? Yup, it will be `nil`.  This is because `y = x + 10` and `x = 100` occurred after the `binding.pry` call and were never evaluated.   
+
+As you can see, using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
 
 There is far, far more that you can do with Pry, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
 
