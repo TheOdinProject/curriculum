@@ -18,7 +18,7 @@
       }
     }
   }
-  
+
   h4 {
     margin-bottom: 10px;
     font-weight: bold;
@@ -62,8 +62,14 @@
   li {
 
     ul {
-      margin-bottom: 0;
+      margin-bottom: 0px;
     }
+  }
+
+  #student-solutions {
+    max-height: 450px;
+    overflow: scroll;
+    margin-bottom: 50px;
   }
 
   ol {
@@ -111,7 +117,7 @@
       color: $grey;
       font-size: 1.125rem;
     }
-    
+
     ul {
       margin: 15px;
     }
@@ -129,5 +135,3 @@
     cursor: pointer;
   }
 }
-
-
