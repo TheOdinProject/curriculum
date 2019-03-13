@@ -535,3 +535,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Karlo's Solution](https://github.com/karlolustre/rock-paper-scissors) - [View in Browser](https://karlolustre.github.io/rock-paper-scissors/)
 - [Kenny Chung's Solution](https://github.com/kpchungdev/rps) - [View in Browser](https://kpchungdev.github.io/rps/)
 - [pristit's Solution](https://github.com/pristit/rock_paper_scissors) - [View in Browser](https://pristit.github.io/rock_paper_scissors/)
+- [Beka Arabuli's Solution](https://github.com/arabuli/rock-paper-scissors) - [View in Browser](https://arabuli.github.io/rock-paper-scissors/)
