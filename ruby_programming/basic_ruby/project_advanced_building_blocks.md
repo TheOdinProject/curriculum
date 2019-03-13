@@ -332,7 +332,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/04_bubble_sort/bubble_sort.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/bubble-sort/bubble_sort.rb)
 * [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/bubble_sort.rb)
-* [vanny96's Solution](https://github.com/vanny96/building-blocks)
+* [vanny96's Solution](https://github.com/vanny96/building-blocks/blob/master/bubble-sorting.rb)
 
 </details>
 
@@ -639,7 +639,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [EdwardHeath's Soultion](https://github.com/EdwardHeath/enumerable/blob/master/enumerable.rb)
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/enumerables.rb)
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/Enumerable_methods.rb)
-* [vanny96's Solution](https://github.com/vanny96/building-blocks)
+* [vanny96's Solution](https://github.com/vanny96/building-blocks/blob/master/enumerable.rb)
 
 </details>
 
