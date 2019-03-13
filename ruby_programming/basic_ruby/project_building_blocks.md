@@ -415,12 +415,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/caesar_cipher.rb)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/caesar.rb)
-<<<<<<< HEAD
-*[vanny96's Solution](https://github.com/vanny96/building-blocks)
-=======
+* [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/caesar_cipher/caesar_cipher.rb)
->>>>>>> fc6e4dae5377b36f562d3f41f00daccd0b9fc4d7
-
 
 ### Project 2: Stock Picker
 
@@ -785,12 +781,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/stock_picker_solution.rb)
 * [Wesley Wang's solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/stock_picker.rb)
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/stock_picker.rb)
-<<<<<<< HEAD
-*[vanny96's Solution](https://github.com/vanny96/building-blocks)
-
-=======
+* [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/stock_picker/stock_picker.rb)
->>>>>>> fc6e4dae5377b36f562d3f41f00daccd0b9fc4d7
 
 ### Project 3: Substrings
 
