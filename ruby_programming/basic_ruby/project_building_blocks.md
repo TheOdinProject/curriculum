@@ -1157,9 +1157,6 @@ Next, make sure your method can handle multiple words:
 * [Junwen's Solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/substrings_solution.rb)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/substrings.rb)
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/substrings.rb)
-<<<<<<< HEAD
-*[vanny96's Solution](https://github.com/vanny96/building-blocks)
-=======
+* [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/substrings/substrings.rb)
 
->>>>>>> fc6e4dae5377b36f562d3f41f00daccd0b9fc4d7
