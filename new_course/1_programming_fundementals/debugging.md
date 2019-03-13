@@ -1,5 +1,5 @@
 ### Introduction
-Tracking down and fixing errors and unexpected behavior in your code is an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as **debugging**. The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term) is a classic computer science tale worth reading if you haven't already.
+Tracking down and fixing both errors and unexpected behavior in your code is an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as **debugging**. The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term) is a classic computer science tale worth reading if you haven't already.
 
 In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
 
