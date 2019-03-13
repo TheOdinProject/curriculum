@@ -50,42 +50,42 @@ double_words_in_phrase("This is a test")
 
 Okay, that didn't work. We didn't expect that. The method didn't throw an exception, so we don't even have a line to start debugging at. Now what?
 
-We know that `string_array.join(' ')` returns `"This is a test"` since it's the last statement, so why not place a `puts` on the line before that to see what `string_array` is. As an alternative to `puts`, `p` is also commonly used for debugging; `p` is a combination of `puts` and `inspect` (more on that below):
+We know that `string_array.join(' ')` returns `"This is a test"` since it's the last statement, so why not place a `puts` on the line before that to see what `string_array` is. As an alternative to `puts`, `p` is also commonly used for debugging; `p` is a combination of `puts` and `inspect` (more on that below). To better show the differences between what Ruby is printing to the terminal and returning, the examples in this section use the full irb syntax, which is exactly what you'd see if you typed these commands into your own terminal irb session.
 
 ~~~ruby
-def double_words_in_phrase(string)
-  string_array = string.split(' ')
-  string_array.map { |word| word * 2}
+irb(main):001:0> def double_words_in_phrase(string)
+irb(main):002:1>   string_array = string.split(' ')
+irb(main):003:1>   string_array.map { |word| word * 2}
+irb(main):004:1> 
+irb(main):005:1>   p string_array
+irb(main):006:1> 
+irb(main):007:1>   string_array.join(' ')
+irb(main):008:1> end
+=> :double_words_in_phrase
 
-  p string_array
-
-  string_array.join(' ')
-end
-
-double_words_in_phrase("This is a test")
-
-#=> ["This", "is", "a", "test"]
-#=> "This is a test"
+irb(main):009:0> double_words_in_phrase("This is a test")
+["This", "is", "a", "test"]
+=> "This is a test"
 ~~~
 
 *INTERESTING*. Using `p` on `string_array` prints it to the console and shows us that the words aren't doubled at all. Something must be wrong with how we called `#map` on `string_array`. For verification, let's place another `p` statement before the `map` statement:
 
 ~~~ruby
-def double_words_in_phrase(string)
-  string_array = string.split(' ')
+irb(main):001:0> def double_words_in_phrase(string)
+irb(main):002:1>   string_array = string.split(' ')
+irb(main):003:1> 
+irb(main):004:1>   p string_array
+irb(main):005:1> 
+irb(main):006:1>   string_array.map { |word| word * 2}
+irb(main):007:1>   p string_array
+irb(main):008:1>   string_array.join(' ')
+irb(main):009:1> end
+=> :double_words_in_phrase
 
-  p string_array
-
-  string_array.map { |word| word * 2}
-  p string array
-  string_array.join(' ')
-end
-
-double_words_in_phrase("This is a test")
-
-#=> ["This", "is", "a", "test"]
-#=> ["This", "is", "a", "test"]
-#=> "This is a test"
+irb(main):010:0> double_words_in_phrase("This is a test")
+["This", "is", "a", "test"]
+["This", "is", "a", "test"]
+=> "This is a test"
 ~~~
 
 Indeed, we didn't use `#map` correctly, as this particular method creates a new array rather than acting on the array it's called on. Try running the above code in a REPL or IRB using `#map!` instead, and you'll see the difference.
