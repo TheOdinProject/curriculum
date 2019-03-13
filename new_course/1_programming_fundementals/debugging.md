@@ -163,7 +163,7 @@ Obviously, if available, the stack trace is the first place you should look when
 <div class="lesson-content__panel" markdown="1">
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers everything about debugging in more depth.
-2. Read through the [Exceptions and Stack Traces]((https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces)) section of Launch School's online book *Introduction to Programming with Ruby*.
+2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
 3. Follow along with [this Pry tutorial](https://learn.co/lessons/debugging-with-pry) by Learn.co.
 </div>
 
