@@ -127,7 +127,7 @@ double_words_in_phrase("This is a test")
 
 When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session. In other words, when we add a `binding.pry` statement, we are effectively creating a breakpoint or a pause in our code.
 
-To help understand this point, try running the following:
+To see this point in action, try running the following:
 
 ~~~ruby
 # script.rb
