@@ -9,7 +9,7 @@ run into a problem.
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * What is a stack trace?
-* what generally the most useful line in a stack trace?
+* What generally is the most useful line in a stack trace?
 * What are the two things you can learn from the first line of a stack trace?
 * What does debugging with `puts` and Pry help you with in the debugging process?
 * What should you use instead of `puts` on its own?
@@ -24,13 +24,13 @@ It looks something like this:
 
 Don't let the stack trace intimidate you. You don't need to read it all or even know what most of it means.
 
-The stack trace prints each line of code in your program that were executed before it crashed. The very first line of the stack trace will generally provide the most useful information about the error your program encountered:
+The stack trace prints each line of code in your program that was executed before it crashed. The very first line of the stack trace will generally provide the most useful information about the error your program encountered:
 
 <a href="https://i.imgur.com/5LJDp9v.png"><img class="tutorial-img" src="https://i.imgur.com/5LJDp9v.png" title="source: imgur.com" /></a>
 
 First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 30 of `lib/bottles.rb`. This line will also provide a brief explanation of the error, as well as the name of error, (in this case, [`NameError`](https://ruby-doc.org/core-2.6/NameError.html)). And yes, Ruby [errors](https://ruby-doc.org/core-2.6/Exception.html) are *also* objects.
 
-And there you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the kind of error you're dealing with. You might even know what fixes need to be implemented.
+Well, there you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the kind of error you're dealing with. You might even know what fixes need to be implemented.
 
 What if you don't know? Enter a simple technique known as...
 
@@ -56,7 +56,7 @@ double_words_in_phrase("This is a test")
 
 Okay, that didn't work and we totally expected that. Actually no, we didn't expect that. The method didn't throw an exception, so we don't even have a line to start debugging at.
 
-We know that `string_array.join(' ')` returns `"This is a test"` since it's the last statement, so why not place a `puts` on the line before to see what `string_array` is. `p` is also commonly used for debugging, as it is a combination of `puts` and `inspect` (more on that below):
+We know that `string_array.join(' ')` returns `"This is a test"` since it's the last statement but that's not what we expected our method to return. The result should have been `"ThisThis isis aa testtest"`. So let's place a `puts` right before running `#join` to see what's the value inside `string_array`. By the way, `p` is also commonly used for debugging, as it is a combination of `puts` and `inspect` (more on that below):
 
 ~~~ruby
 def double_words_in_phrase(string)
@@ -113,7 +113,7 @@ p []
 ### Using PRY
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. It's very similar to IRB, but with added functionality.
 
-You can use Pry to debug by first installing it in your terminal by running `gem install pry`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally to use Pry you just need to call `binding.pry` at any point in your program.
+You can use Pry to debug by first installing it in your terminal by running `gem install pry`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry you just need to call `binding.pry` at any point in your program.
 
 ~~~ruby
 # script.rb
@@ -128,13 +128,15 @@ def double_words_in_phrase(string)
   string_array.map { |word| word * 2}
   string_array.join(' ')
 end
+
+double_words_in_phrase("This is a test")
 ~~~
 
 When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`.
 
-Using Pry to debug achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to it's interactive, runtime environment. In such scenarios, Pry will be easier to interact with, rather than adding many `puts` statements everywhere and re-running your code again each time.
+Using Pry to debug achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive, runtime environment. Using Pry allows you to check your code while getting instant feedback. Whereas using `puts` debugging requires you to add many `puts` statements and re-run your code everytime you want to check for something new. Plus, with `puts` debugging you have to remember to go back and remove all those `puts` statements from you code.   
 
-There is a lot, lot more you can do with Pry which is out of the scope of this lesson. Check out the assignments and extra resources to find out where you can learn more about this useful gem.
+There is a lot, a lot more you can do with Pry which is out of the scope of this lesson. Check out the assignments and extra resources to find out where you can learn more about this useful gem.
 
 ### Where to start when debugging
 Programs generally go wrong due to two main reasons:
@@ -144,7 +146,7 @@ syntax error to be raised that causes the program to crash. In this case, Ruby p
 
 2. The program runs, but does not work the way you expect. For example you expect a method to return a `2`, but it actually returns `6` when you run it. In this case, there is no stack trace.
 
-Obviously, if available, the stack trace is the first place you should look when debugging. Otherwise, `puts` and Pry are the some of the easiest and quickest tools you can use to get yourself back up and running.
+Obviously, if available, the stack trace is the first place you should look when debugging. Otherwise, `puts` and Pry are some of the easiest and quickest tools you can use to get yourself back up and running.
 
 ### Assignment
 1. Go through Ruby Guides's [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers everything about debugging in more depth.
