@@ -240,3 +240,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [JamCry's Solution](https://github.com/jamcry/calculator) - [View in browser](https://jamcry.github.io/calculator/)
 - [vanny96's Solution](https://github.com/vanny96/calculator) - [View in Browser](https://vanny96.github.io/calculator/)
 - [Alex Krewson's Solution](https://github.com/alexkrewson/calculator) - [View in Browser](https://alexkrewson.github.io/calculator/)
+- [Kenny Chung's Solution](https://github.com/kpchungdev/Calculator) - [View in Browser](https://kpchungdev.github.io/Calculator/)
