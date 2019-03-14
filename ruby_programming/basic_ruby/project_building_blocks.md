@@ -1151,4 +1151,5 @@ Next, make sure your method can handle multiple words:
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/substrings.rb)
 * [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/substrings/substrings.rb)
+* [Ifeanyichukwu Amajuoyi's solution](https://github.com/Anyitechs/The_odin_project)
 
