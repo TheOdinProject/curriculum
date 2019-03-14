@@ -52,6 +52,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Do [Codecademy Ruby sections 9 and 10](https://www.codecademy.com/learn/learn-ruby):
     1. Object-Oriented Programming, Part I
     2. Project: Virtual Computer
@@ -72,6 +73,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Test Yourself
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Make sure you can do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
   2. Make sure you can do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
   3. Make sure you go back up and look at all the questions from the "Learning Outcomes" section. See if you can do most of them without looking back through the text.
