@@ -54,10 +54,12 @@ Look through these now and then use them to test yourself after doing the assign
 <div class="lesson-content__panel" markdown="1">
 
   1. Do [Codecademy Ruby sections 9 and 10](https://www.codecademy.com/learn/learn-ruby):
+
     1. Object-Oriented Programming, Part I
     2. Project: Virtual Computer
     3. Object-Oriented Programming, Part II
     4. Project: Banking on Ruby
+
   2. Take a brief break from code and learn more about the world of Ruby:
     1. Read about the [History of Ruby](https://www.sitepoint.com/history-ruby/)
     2. Read about [Open Source Culture](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source) in Section 1
