@@ -54,20 +54,18 @@ Look through these now and then use them to test yourself after doing the assign
 <div class="lesson-content__panel" markdown="1">
 
   1. Do [Codecademy Ruby sections 9 and 10](https://www.codecademy.com/learn/learn-ruby):
-
-    1. Object-Oriented Programming, Part I
-    2. Project: Virtual Computer
-    3. Object-Oriented Programming, Part II
-    4. Project: Banking on Ruby
-
+      1. Object-Oriented Programming, Part I
+      2. Project: Virtual Computer
+      3. Object-Oriented Programming, Part II
+      4. Project: Banking on Ruby
   2. Take a brief break from code and learn more about the world of Ruby:
-    1. Read about the [History of Ruby](https://www.sitepoint.com/history-ruby/)
-    2. Read about [Open Source Culture](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source) in Section 1
-    3. Read about where you can find [Ruby's Community](https://www.ruby-lang.org/en/community/)
+      1. Read about the [History of Ruby](https://www.sitepoint.com/history-ruby/)
+      2. Read about [Open Source Culture](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source) in Section 1
+      3. Read about where you can find [Ruby's Community](https://www.ruby-lang.org/en/community/)
   3. Read through [Launch School's OOP book](https://launchschool.com/books/oo_ruby/read/introduction) for a more thorough understanding.
   4. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Learning Outcomes" section:
-    1. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
-    2. [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
+      1. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
+      2. [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
   5. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
   6. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional.
 </div>
