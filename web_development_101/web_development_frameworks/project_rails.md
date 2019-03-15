@@ -366,6 +366,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Wesley Wang's Solution](https://github.com/wesleymellon/blogger) - [View in browser](https://desolate-brook-18571.herokuapp.com/)
 * [JamCry's Solution](https://github.com/jamcry/rails-blogger) - [View in browser](https://jamcrys-blogger.herokuapp.com/)
 * [vanny96's Solution](https://github.com/vanny96/blogger) - [View in browser](https://enigmatic-shore-20767.herokuapp.com/)
+* [keskiviikko's Solution](https://github.com/keskiviikko/blogger)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
