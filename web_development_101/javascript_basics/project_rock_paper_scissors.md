@@ -36,6 +36,9 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 - Add your solution below this line!
+- [Jasmeet's Solution](https://github.com/jasmeet9323/Rock-Paper-Scissors) - [View in Browser](https://jasmeet9323.github.io/Rock-Paper-Scissors/)
+- [Iacob Sorin Solution](https://github.com/Iacobssorin/rock-paper-scissors) - [View In Browser](https://iacobssorin.github.io/rock-paper-scissors/)
+- [Jason Sampognaro's Solution](https://github.com/Vivid0/rockpaperscissors) - [View In Browser](https://vivid0.github.io/rockpaperscissors/)
 - [George Zhu's Solution](https://github.com/georgezhu11/rps-game) - [View In Browser](https://georgezhu11.github.io/rps-game/)
 - [Rafe Draper's Solution](https://github.com/rafeDraper/rock-scisors-paper) - [View In Browser](https://rafedraper.github.io/rock-scisors-paper/)
 - [Joeri Smissaert's Solution](https://github.com/smissaertj/ca-rock-paper-scissors) - [View In Browser](https://smissaertj.github.io/ca-rock-paper-scissors/)
@@ -516,7 +519,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Bill Deitrick's Solution](https://github.com/billdeitrick/rps) - [View in Browser](http://www.billdeitrick.com/rps/gui/)
 - [Brandon Myles Console Solution](https://bmyles10.github.io/Rock_Paper_Scissors/)
 - [Metin Karakus's Solution](https://github.com/metinkarakus/rockpaperscissors) - [View in Browser](https://metinkarakus.github.io/rockpaperscissors/)
-- [hiten3's Console Solution](https://github.com/hiten3/rock-paper-scissors-js)
+- [hiten3's Solution](https://github.com/hiten3/rock-paper-scissors-js) - [View in Browser](https://hiten3.github.io/rock-paper-scissors-js/)
 - [Denis Rajlic's Solution](https://github.com/denisRajlic/RPS_Game) - [View in Browser](https://denisrajlic.github.io/RPS_Game/)
 - [J Lyons' Solution](https://github.com/UncleArtie/rockpaperscissors)
 - [Wycliffe's Solution](https://github.com/cycks/RockPaperScissors) - [View in Browser](https://cycks.github.io/RockPaperScissors/)
@@ -534,3 +537,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Karlo's Solution](https://github.com/karlolustre/rock-paper-scissors) - [View in Browser](https://karlolustre.github.io/rock-paper-scissors/)
 - [Kenny Chung's Solution](https://github.com/kpchungdev/rps) - [View in Browser](https://kpchungdev.github.io/rps/)
 - [pristit's Solution](https://github.com/pristit/rock_paper_scissors) - [View in Browser](https://pristit.github.io/rock_paper_scissors/)
+- [Beka Arabuli's Solution](https://github.com/arabuli/rock-paper-scissors) - [View in Browser](https://arabuli.github.io/rock-paper-scissors/)
+- [Sergei Jurchenko's Solution](https://github.com/Sergyurch/Rock-Paper-Scissors) - [View in Browser](https://sergyurch.github.io/Rock-Paper-Scissors/)
