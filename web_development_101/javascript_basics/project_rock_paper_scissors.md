@@ -539,3 +539,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [pristit's Solution](https://github.com/pristit/rock_paper_scissors) - [View in Browser](https://pristit.github.io/rock_paper_scissors/)
 - [Beka Arabuli's Solution](https://github.com/arabuli/rock-paper-scissors) - [View in Browser](https://arabuli.github.io/rock-paper-scissors/)
 - [Sergei Jurchenko's Solution](https://github.com/Sergyurch/Rock-Paper-Scissors) - [View in Browser](https://sergyurch.github.io/Rock-Paper-Scissors/)
+- [Christine Gierer's Solution](https://github.com/beansprout/Rock-Paper-Scissors) - [View in Browser](https://beansprout.github.io/Rock-Paper-Scissors/)
