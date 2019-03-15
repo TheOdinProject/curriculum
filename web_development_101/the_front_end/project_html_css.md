@@ -2010,6 +2010,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [KirosC's solution (Easy)](https://github.com/KirosC/google-homepage) - [View in Broswer](http://kirosc.github.io/google-homepage)
 * [KirosC's solution (Difficult)](https://github.com/KirosC/google-resultpage) - [View in Broswer](https://kirosc.github.io/google-resultpage/)
 * [Olsi2984's solution (Easy)](https://github.com/olsi2984/google-homepage) - [View in Broswer](https://olsi2984.github.io/google-homepage/)
+* [Sergei Jurchenko's solution (Easy)](https://github.com/Sergyurch/google-homepage) - [View in Broswer](https://sergyurch.github.io/google-homepage/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
