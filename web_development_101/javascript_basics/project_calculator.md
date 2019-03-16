@@ -242,3 +242,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alex Krewson's Solution](https://github.com/alexkrewson/calculator) - [View in Browser](https://alexkrewson.github.io/calculator/)
 - [Kenny Chung's Solution](https://github.com/kpchungdev/Calculator) - [View in Browser](https://kpchungdev.github.io/Calculator/)
 - [Sergei Jurchenko's Solution](https://github.com/Sergyurch/Calculator) - [View in Browser](https://sergyurch.github.io/Calculator/)
+- [KvotheNOR's Solution](https://github.com/KvotheNOR/Calculator) - [View in Browser](https://kvothenor.github.io/Calculator/)
