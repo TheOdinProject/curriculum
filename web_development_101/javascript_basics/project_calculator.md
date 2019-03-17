@@ -245,3 +245,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sergei Jurchenko's Solution](https://github.com/Sergyurch/Calculator) - [View in Browser](https://sergyurch.github.io/Calculator/)
 - [KvotheNOR's Solution](https://github.com/KvotheNOR/Calculator) - [View in Browser](https://kvothenor.github.io/Calculator/)
 - [Ben Fowler's Solution](https://github.com/benfowler04/calculator) - [View in Browser](https://benfowler04.github.io/calculator/)
+- [Metin Karakus's Solution](https://github.com/metinkarakus/calculator) - [View in Browser](https://metinkarakus.github.io/calculator/)
