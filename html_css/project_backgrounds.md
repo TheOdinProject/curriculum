@@ -77,6 +77,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [aznafro's solution](https://github.com/aznafro/apple) - [View in browser](https://aznafro.github.io/apple/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Apple-homepage) - [View in browser](https://areebaishtiaq.github.io/Apple-homepage/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/applemockup) - [View in browser](https://taylorjohannsen.github.io/applemockup/)
+* [Ghassan's solution](https://github.com/GT001/TOP-Apple.com-Clone) - [View in browser](https://gt001.github.io/TOP-Apple.com-Clone/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

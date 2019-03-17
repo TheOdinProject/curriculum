@@ -39,7 +39,7 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 - Add your solution below this line!
-
+- [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/battleship) - [View in browser](https://bubblebooy.github.io/Odin-Javascript/battleship/build/index.html)
 - [Kyle and Paul's solution](https://github.com/jklemon17/battleship) - [View in browser](https://jklemon17.github.io/battleship)
 - [theghall's solution](https://github.com/theghall/odin-battleship) - [View in browser](https://theghall.github.io/odin-battleship/)
 - [brxck's solution](https://github.com/brxck/odin-battleship) - [View in browser](https://brockmcelroy.com/odin-battleship/)

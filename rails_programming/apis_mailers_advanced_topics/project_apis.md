@@ -90,6 +90,7 @@ This project may seem simple, but now you've got a website that is both a normal
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/odin-kittens)
 * [Chibuzor's solution](https://github.com/uzorjchibuzor/odin-kitten)
 * [Javier Machin's solution](https://github.com/Javier-Machin/odin-lizards)
 * [nmac's solution](https://github.com/nmacawile/odin-kittens)
@@ -148,6 +149,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/odin-kittens)
 * [Agon's solution](https://github.com/AgonIdrizi/kitten)
 * [Malaika's Solution](https://github.com/malaikaMI/odin-kittens)
+* [bchalman's solution](https://github.com/bchalman/odin-kittens)
 
 ### Project 2: Using a Third Party API
 
@@ -170,6 +172,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/odin-flickr.git) | [Live](https://immense-bayou-47624.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-flickr)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Flickr-API)
 * [szib's solution](https://github.com/szib/odin-flickr) - [View in browser](https://intense-escarpment-22977.herokuapp.com/)
@@ -214,6 +217,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/flickr-browser)
 * [Agon's solution](https://github.com/AgonIdrizi/Flickr_photos)
 * [Malaika's Solution](https://github.com/malaikaMI/flickr-browser)
+* [bchalman's solution](https://github.com/bchalman/odin-flickr-api)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
