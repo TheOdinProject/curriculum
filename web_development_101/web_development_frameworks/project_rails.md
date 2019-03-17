@@ -23,6 +23,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+github: https://github.com/vollantre/blogger heroku: https://salty-caverns-97809.herokuapp.com/
 * [Ricala's Solution](https://github.com/Ricala/Blogger) - [View in browser](https://salty-mountain-26873.herokuapp.com/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/blogger-tutorial) - [View in browser](https://evening-scrubland-13985.herokuapp.com/)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/cubunu-article-hub) - [View in browser](https://cubunu-article-hub.herokuapp.com/)
