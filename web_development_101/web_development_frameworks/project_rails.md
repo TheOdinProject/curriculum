@@ -23,6 +23,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Ricala's Solution](https://github.com/Ricala/Blogger) - [View in browser](https://salty-mountain-26873.herokuapp.com/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/blogger-tutorial) - [View in browser](https://evening-scrubland-13985.herokuapp.com/)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/cubunu-article-hub) - [View in browser](https://cubunu-article-hub.herokuapp.com/)
 * [Kevin Vuong's Solution](https://github.com/fffear/blogger) - [View in browser](https://arcane-bayou-50051.herokuapp.com/)
@@ -363,6 +364,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [HanJosmer's Solution](https://github.com/HanJosmer/blogger) - [View in browser](https://polar-harbor-47038.herokuapp.com/)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/blogger) - [View in browser](https://fast-meadow-27474.herokuapp.com/)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/blogger) - [View in browser](https://desolate-brook-18571.herokuapp.com/)
+* [JamCry's Solution](https://github.com/jamcry/rails-blogger) - [View in browser](https://jamcrys-blogger.herokuapp.com/)
+* [vanny96's Solution](https://github.com/vanny96/blogger) - [View in browser](https://enigmatic-shore-20767.herokuapp.com/)
+* [keskiviikko's Solution](https://github.com/keskiviikko/blogger)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

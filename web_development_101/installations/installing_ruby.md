@@ -20,7 +20,7 @@ Before we can install Ruby, we need to install some base packages.
 
 #### Step 1.1: Open the Terminal
 
-We'll use the terminal to install all of the programs. 
+We'll use the terminal to install all of the programs.
 
 If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
@@ -53,7 +53,7 @@ When it prompts you, press `y` and then `enter`. You may or may not have to type
 
 ### Step 2: Install Ruby
 
-Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions. 
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions.
 
 #### Step 2.1: Install rbenv
 
@@ -185,7 +185,7 @@ This command will install the command line interface for Heroku, a free website 
 
 ### Step 3: Install Ruby
 
-Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions. 
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions.
 
 #### Step 3.1: Install rbenv
 
@@ -204,8 +204,8 @@ rbenv init
 You should see the following after the command has run:
 
 ~~~bash
-# Load rbenv automatically by appending 
-# the following to ~/.bash_profile: 
+# Load rbenv automatically by appending
+# the following to ~/.bash_profile:
 
 eval "$(rbenv init -)"
 ~~~
@@ -216,7 +216,7 @@ You'll do as it suggests by running the following command in the terminal:
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ~~~
 
-At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
+You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
 
 #### Step 3.3: Install Ruby
 
