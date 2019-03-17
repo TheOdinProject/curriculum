@@ -2013,6 +2013,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sergei Jurchenko's solution (Easy)](https://github.com/Sergyurch/google-homepage) - [View in Broswer](https://sergyurch.github.io/google-homepage/)
 * [Sergei Jurchenko's solution (Difficult)](https://github.com/Sergyurch/google-resultspage) - [View in Broswer](https://sergyurch.github.io/google-resultspage/)
 * [Ben Daniels solution (Difficult)](https://github.com/bendee48/google-homepage-hard) - [View in Browser](https://bendee48.github.io/google-homepage-hard/)
+* [Nelson Menjivar solution (Difficult)](https://github.com/Urivor/google-homepage) - [View in Browser](https://urivor.github.io/google-homepage/)
 *
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
