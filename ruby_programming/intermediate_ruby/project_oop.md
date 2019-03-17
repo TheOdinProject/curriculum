@@ -283,6 +283,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/mastermind)
 * [Learnsometing's Solution NO AI](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby/intermediate/ruby-intermediate/mastermind.rb)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/mastermind) - [Live repl.it Version](https://repl.it/@RudiBoshoff/Mastermind-Game)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/mastermind)
