@@ -546,3 +546,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Elan Green's Solution](https://github.com/elang5/rock_paper_scissors) - [View in Browser](https://elang5.github.io/rock_paper_scissors/)
 - [Christine Gierer's Solution](https://github.com/beansprout/Rock-Paper-Scissors) - [View in Browser](https://beansprout.github.io/Rock-Paper-Scissors/)
 - [machineshot's Solution](https://github.com/MachineShot/rock_ps) - [View in Browser](https://machineshot.github.io/rock_ps/)
+- [kparco's Solution](https://github.com/kparco/rps-game)
