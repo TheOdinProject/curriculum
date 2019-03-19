@@ -2018,6 +2018,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Esaú Guerra solution (Easy)](https://github.com/esaug/google-homepage.git)- [View in Browser](https://esaug.github.io/google-homepage/)
 * [Mlbaraldi solution (easy)](http://github.com/markbass1/google-homepage.git) - [View in Browser](https://markbass1.github.io/google-homepage)
 * [Jonathon McGuire's solution (Easy)](https://github.com/someguy711/google-homepage) - [View in Browser](https://someguy711.github.io/google-homepage/)
+* [Anna Fulton's solution (Easy)](https://github.com/AnnaCate/google-homepage) - [View in Browser](https://annacate.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
