@@ -8,7 +8,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 
 ## Why learn this now?
 
-You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will require you to install many different software programs using the command line. Additionally, you will primarily be using git primarily within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
+You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will require you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
@@ -23,9 +23,8 @@ By the end of this lesson, you should be able to do the following:
 Note: Many of these resources assume you're using a Mac or Linux environment. You can either skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [AWS Cloud9](https://aws.amazon.com/cloud9/), which provides a terminal window that you can use to practice.
 
 <div class="lesson-content__panel" markdown="1">
-  1. To get an initial high-level overview of the command line, check out [A Command Line Crash Course](http://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) from the Viking Code School.
-  2. To provide more depth, read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
-  3. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
+  1. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
+  2. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
 </div>
 
 ### Exercise

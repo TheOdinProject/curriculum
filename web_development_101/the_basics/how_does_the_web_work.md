@@ -45,7 +45,7 @@ At the end of this lesson, you should be able to do the following:
  <details>
   <summary>Explain what DNS servers are.</summary>
   <ul><ul>
-    <li>DNS Servers are the "phone book" of the internet. They translate IP addresses into domain names.</li>
+    <li>DNS Servers are the "phone book" of the internet. They translate domain names into IP addresses.</li>
   </ul></ul>
  </details>
  
