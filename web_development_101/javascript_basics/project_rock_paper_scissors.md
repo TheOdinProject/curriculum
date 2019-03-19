@@ -37,7 +37,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Ruddy's solution](https://github.com/RuddyRiveroCabero/rock_paper_scissors) - [View in Browser](https://ruddyriverocabero.github.io/rock_paper_scissors/)
-- [nezlicodes solution](https://github.com/nezlicodes/Rock-paper-scissors) - nezlicodes UI Solution.(https://github.com/nezlicodes/rock_paper_scissors-UI-version-)
+- [nezlicodes solution](https://github.com/nezlicodes/Rock-paper-scissors)
+- [nezlicodes UI Solution](https://github.com/nezlicodes/rock_paper_scissors-UI-version-)
 - [Slotthy's Solution](https://github.com/slotthy/ROCK-PAPER-SCISSORS)
 - [Vollantre's Solution](https://github.com/vollantre/rock-paper-scissors)
 - [Jasmeet's Solution](https://github.com/jasmeet9323/Rock-Paper-Scissors) - [View in Browser](https://jasmeet9323.github.io/Rock-Paper-Scissors/)
