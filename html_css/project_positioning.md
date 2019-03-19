@@ -24,6 +24,7 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_positioning.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [ARaut9's solution](https://github.com/ARaut9/nyt_Article_clone) - [View in browser](https://araut9.github.io/nyt_Article_clone/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/article) - [View in browser](https://n00bg1rl.github.io/article/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View In Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 * [Bojana Karakacev's solution](https://github.com/bojana12/positions-and-floats-css) - [View In Browser](https://bojana12.github.io/positions-and-floats-css/)
