@@ -109,6 +109,8 @@ p []
 To use Pry, you'll first need to install it in your terminal by running `gem install pry`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry, you just need to call `binding.pry` at any point in your program.
 
 ~~~ruby
+require 'pry'
+
 def double_words_in_phrase(string)
   string_array = string.split(' ')
 
@@ -126,6 +128,8 @@ When your code executes and gets to `binding.pry`, it will open an IRB-like sess
 To see this point in action, try running the following:
 
 ~~~ruby
+require 'pry'
+
 def yell_greeting(string)  
   name = string
 
