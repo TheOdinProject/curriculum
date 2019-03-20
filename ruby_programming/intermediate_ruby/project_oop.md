@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/tic_tac_toe/blob/master/game.rb)
 * [Nicolas Espinoza's Solution](https://github.com/nicospz/tictactoe/blob/master/tic_tac_toe.rb)
 * [Origier's Solution](https://github.com/Origier/tictactoe)
 * [Kevin Vuong's Solution](https://github.com/fffear/tic_tac_toe)
