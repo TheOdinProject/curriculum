@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+* [Luka Salevic's Solution](https://github.com/Sensanaty/etch_a_sketch) - [View in Browser](https://sensanaty.github.io/etch_a_sketch/)
 * [Amir Farmanara's Solution](https://github.com/Farmanara/etch-a-sketch) - [View in Browser](https://farmanara.github.io/etch-a-sketch)
 * [George Zhu's solution](https://github.com/georgezhu11/etch-a-sketch) - [View in browser](https://georgezhu11.github.io/etch-a-sketch/)
 * [vollantre Solution](https://github.com/vollantre/etch-a-sketch)
