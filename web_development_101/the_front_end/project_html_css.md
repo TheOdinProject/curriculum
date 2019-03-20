@@ -2024,6 +2024,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Reece Trevenen's solution (Easy)](https://github.com/Cyber-Spud/google-homepage) - [View in Browser](https://cyber-spud.github.io/google-homepage/)
 * [Kirill Novikov's solution (Easy)](https://github.com/kerbasi/google-homepage) - [View in Broswer](https://kerbasi.github.io/google-homepage/)
 * [Kirill Novikov's solution (Difficult)](https://github.com/kerbasi/google-homepage-hard) - [View in Broswer](https://kerbasi.github.io/google-homepage-hard/)
+*[Nabil Shaahani's solution (Easy)] (https://github.com/Nabil19911/Sample.google.style) - [View in Broswer] (https://nabil19911.github.io/Sample.google.style/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
