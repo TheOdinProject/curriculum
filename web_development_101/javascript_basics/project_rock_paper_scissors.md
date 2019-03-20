@@ -531,7 +531,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [J Lyons' Solution](https://github.com/UncleArtie/rockpaperscissors)
 - [Wycliffe's Solution](https://github.com/cycks/RockPaperScissors) - [View in Browser](https://cycks.github.io/RockPaperScissors/)
 - [Alex Krewson's Solution](https://github.com/alexkrewson/rock-paper-scissors) - [View in Browser](https://alexkrewson.github.io/rock-paper-scissors/)
-- [Joshua Duke's Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-Project) 
+- [Joshua Duke's Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-Project)
 - [Joshua Duke's UI Solution](https://github.com/EnigmaDuke/Rock-Paper-Scissors-GUI) - [View in Browser](https://enigmaduke.github.io/Rock-Paper-Scissors-GUI/)
 - [Emily's Solution](https://github.com/efueger/OP-RockPaperScissors)
 - [dragonqveen's Solution](https://github.com/dragonqveen/rock-paper-scissors) - [View in Browser](https://dragonqveen.github.io/rock-paper-scissors/)
@@ -551,3 +551,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Christine Gierer's Solution](https://github.com/beansprout/Rock-Paper-Scissors) - [View in Browser](https://beansprout.github.io/Rock-Paper-Scissors/)
 - [machineshot's Solution](https://github.com/MachineShot/rock_ps) - [View in Browser](https://machineshot.github.io/rock_ps/)
 - [kparco's Solution](https://github.com/kparco/rps-game)
+- [Bendee48's Solution](https://github.com/bendee48/rock-paper-scissors)
