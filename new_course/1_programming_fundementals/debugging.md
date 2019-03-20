@@ -49,7 +49,7 @@ double_words_in_phrase("This is a test")
 
 Okay, that didn't work. We didn't expect that. The method didn't throw an exception, so we don't even have a line to start debugging at. Now what?
 
-We know that `string_array.join(' ')` returns `"This is a test"` since it's the last statement, so why not place a `puts` on the line before that to see what `string_array` is. As an alternative to `puts`, `p` is also commonly used for debugging; `p` is a combination of `puts` and `inspect` (more on that below). To better show the differences between what Ruby is printing to the terminal and returning, the examples in this section use the full irb syntax, which is exactly what you'd see if you typed these commands into your own terminal irb session.
+We know that `string_array.join(' ')` returns `"This is a test"` since it's the last statement, so why not place a `puts` on the line before that to see what `string_array` is. As an alternative to `puts`, `p` is also commonly used for debugging; `p` is a combination of `puts` and `inspect` (more on that below). To better show the differences between what Ruby is printing to the terminal and returning, the examples in this section use the full IRB syntax, which is exactly what you'd see if you typed these commands into your own terminal IRB session.
 
 ~~~ruby
 irb(main):001:0> def double_words_in_phrase(string)
@@ -107,6 +107,10 @@ p []
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality.
 
 To use Pry, you'll first need to install it in your terminal by running `gem install pry`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry, you just need to call `binding.pry` at any point in your program.
+
+To follow along with the Pry examples here, you have two options: 
+ 1. You can open up a new IRB session and type all of the code in there. When the code hits the `binding.pry` statement, it will essentially open an IRB session inside of your current IRB session.
+ 2. You can save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`). When the code hits the `binding.pry` statement, a new IRB-like session will open inside the terminal.
 
 ~~~ruby
 require 'pry'
