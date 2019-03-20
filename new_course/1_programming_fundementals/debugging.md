@@ -109,10 +109,6 @@ p []
 To use Pry, you'll first need to install it in your terminal by running `gem install pry`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry, you just need to call `binding.pry` at any point in your program.
 
 ~~~ruby
-# script.rb
-
-require 'pry'
-
 def double_words_in_phrase(string)
   string_array = string.split(' ')
 
@@ -125,15 +121,11 @@ end
 double_words_in_phrase("This is a test")
 ~~~
 
-When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session. In other words, when we add a `binding.pry` statement, we are effectively creating a breakpoint or a pause in our code.
+When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session. Thus, adding a `binding.pry` line in our code is similar to creating a breakpoint in JavaScript.
 
 To see this point in action, try running the following:
 
 ~~~ruby
-# script.rb
-
-require 'pry'
-
 def yell_greeting(string)  
   name = string
 
@@ -147,7 +139,7 @@ end
 yell_greeting("bob")
 ~~~
 
-During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`.  This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the `binding.pry` call and were never evaluated.   
+During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`. This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the `binding.pry` call and were never evaluated.   
 
 As you can see, using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
 
