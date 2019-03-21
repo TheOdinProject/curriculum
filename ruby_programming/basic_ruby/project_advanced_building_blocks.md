@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/bubble_sort.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/advanced-ruby-building-blocks/blob/master/bubble.rb)
 * [BShowen's Solution](https://github.com/BShowen/homemade_bubble_sort_methods/blob/master/bubble_sort_methods.rb)
 * [Kevin Vuong's Solution](https://github.com/fffear/bubble_sort)
