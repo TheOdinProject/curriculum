@@ -38,15 +38,15 @@ Should repeat learning outcomes with answers.
 
 <details markdown="block">
   <summary>Learning outcome 1.</summary>
-    <ul>
-      <li>Learning outcome 1 answer</li>
-      <li>Learning outcome 1 answer</li>
-    </ul>
+
+  *   Learning outcome 1 answer
+  *   Learning outcome 1 answer
+
 </details>
 
 <details markdown="block">
   <summary>Learning outcome 2.</summary>
-    <ul>
-      <li>Learning outcome 2 answer</li>
-    </ul>
+
+  *   Learning outcome 2 answer
+
 </details>

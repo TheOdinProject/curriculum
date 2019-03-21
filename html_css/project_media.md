@@ -31,6 +31,9 @@ Also, don't worry about making the comment form work properly... your goal is to
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [Ricala's solution](https://github.com/Ricala/mock-youtube-page) - [View in browser](https://ricala.github.io/mock-youtube-page/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/videopage) - [View in browser](https://n00bg1rl.github.io/videopage/)
@@ -121,6 +124,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Ghassan's solution](https://github.com/GT001/TOP-Youtube-Player) - [View in browser](https://gt001.github.io/TOP-Youtube-Player/)
 * [Valentino Valenti's solution](https://github.com/1ba1/youtube-video-player-page) - [View in Browser](https://1ba1.github.io/youtube-video-player-page/)
 * [Doris's solution](https://github.com/dsmchen/youtube-video-player-page) - [view in browser](https://dsmchen.github.io/youtube-video-player-page/)
- 
+
+</details>
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
