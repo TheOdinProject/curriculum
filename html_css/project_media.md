@@ -32,6 +32,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 Send us your solution so we can show others! Submit a link to the Github [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Ricala's solution](https://github.com/Ricala/mock-youtube-page) - [View in browser](https://ricala.github.io/mock-youtube-page/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/videopage) - [View in browser](https://n00bg1rl.github.io/videopage/)
 * [Jason McKee's solution](https://github.com/jttmckee/youtube) | [Live](https://jttmckee.github.io/youtube/)
 * [Ohlie's solutuin](https://github.com/lco1220/youtube_player_page) - [View in browser](https://lco1220.github.io/youtube_player_page/)
