@@ -552,3 +552,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [machineshot's Solution](https://github.com/MachineShot/rock_ps) - [View in Browser](https://machineshot.github.io/rock_ps/)
 - [kparco's Solution](https://github.com/kparco/rps-game)
 - [Bendee48's Solution](https://github.com/bendee48/rock-paper-scissors)
+- [Jonathon McGuire's Solution](https://github.com/someguy711/rock_paper_scissors)
