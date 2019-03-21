@@ -336,6 +336,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [vanny96's Solution](https://github.com/vanny96/building-blocks/blob/master/bubble-sorting.rb)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/bubble_sort/bubble_sort.rb)
 * [JamCry's Solution](https://github.com/jamcry/advanced-ruby-exercises/blob/master/bubble_sort.rb)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/bubble_sort.rb)
 
 </details>
 
@@ -645,6 +646,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [vanny96's Solution](https://github.com/vanny96/building-blocks/blob/master/enumerable.rb)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/enumerable/enumerable.rb)
 * [JamCry's Solution](https://github.com/jamcry/advanced-ruby-exercises/blob/master/Enumerable.rb)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/enumerable_methods.rb)
 
 </details>
 
