@@ -83,6 +83,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 ### Student Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this list
 * [cotrones's Solution (Easy)](https://github.com/cotrones/google-homepage-easy) - [View in Browser](https://cotrones.github.io/google-homepage-easy/)
 * [sriiraj jaami's Solution (Easy)](https://github.com/sriiraj/google-homepage) - [View in Browser](https://sriiraj.github.io/google-homepage/)
@@ -2028,6 +2031,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kirill Novikov's solution (Difficult)](https://github.com/kerbasi/google-homepage-hard) - [View in Broswer](https://kerbasi.github.io/google-homepage-hard/)
 * [Nabil Shaahani's solution (Easy)](https://github.com/Nabil19911/Sample.google.style) - [View in Broswer](https://nabil19911.github.io/Sample.google.style/)
 * [Shubham sharma's solution(Easy)](https://github.com/Officialshubham/google-homepage/) - [View in Broswer](https://Officialshubham.github.io/google-homepage/)   
+* [Steven' Solution (Easy)](https://github.com/DuckEggs/google-homepage.git) - [View in Browser](https://duckeggs.github.io/google-homepage/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
