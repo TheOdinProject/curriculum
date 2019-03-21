@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Simon Tharby's solution](https://github.com/jinjagit/kittens-api)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-kittens)
 * [Chibuzor's solution](https://github.com/uzorjchibuzor/odin-kitten)
 * [Javier Machin's solution](https://github.com/Javier-Machin/odin-lizards)
