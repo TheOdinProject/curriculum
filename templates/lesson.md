@@ -36,7 +36,7 @@ Link to no more than three additional resources to avoid this section becoming t
 
 Should repeat learning outcomes with answers.
 
-<details>
+<details markdown="block">
   <summary>Learning outcome 1.</summary>
     <ul>
       <li>Learning outcome 1 answer</li>
@@ -44,7 +44,7 @@ Should repeat learning outcomes with answers.
     </ul>
 </details>
 
-<details>
+<details markdown="block">
   <summary>Learning outcome 2.</summary>
     <ul>
       <li>Learning outcome 2 answer</li>

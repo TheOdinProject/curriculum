@@ -208,6 +208,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's Solution](https://github.com/bchalman/connect_four)
 * [Alex's Solution](https://github.com/alexcorremans/connect_four)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/connect_four)
+* [vanny96's Solution](https://github.com/vanny96/connect_four)
 
 </details>
 
