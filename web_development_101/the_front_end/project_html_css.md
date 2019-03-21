@@ -85,7 +85,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Dylan Maloney's Solution (easy)](https://github.com/DylanJamesMaloney/google-homepage)-
-[View in Browser](https://github.com/DylanJamesMaloney/google-homepage/)
+[View in Browser](https://dylanjamesmaloney.github.io/google-homepage/)
 * [cotrones's Solution (Easy)](https://github.com/cotrones/google-homepage-easy) - [View in Browser](https://cotrones.github.io/google-homepage-easy/)
 * [sriiraj jaami's Solution (Easy)](https://github.com/sriiraj/google-homepage) - [View in Browser](https://sriiraj.github.io/google-homepage/)
 * [Esteban Moroy's Solution (Easy)](https://github.com/estebanmoroy/google-homepage) - [View in Browser](https://estebanmoroy.github.io/google-homepage/)
