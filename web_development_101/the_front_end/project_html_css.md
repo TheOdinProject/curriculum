@@ -83,6 +83,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 ### Student Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this list
 * [Dylan Maloney's Solution (easy)](https://github.com/DylanJamesMaloney/google-homepage)-
 [View in Browser](https://dylanjamesmaloney.github.io/google-homepage/)
@@ -2033,6 +2036,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Steven' Solution (Easy)](https://github.com/DuckEggs/google-homepage.git) - [View in Browser](https://duckeggs.github.io/google-homepage/)
 * [Brandon's Solution (Easy)](https://github.com/bwkrayb/google-homepage-2) - [View in Browser](https://bwkrayb.github.io/google-homepage-2/)
 
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
