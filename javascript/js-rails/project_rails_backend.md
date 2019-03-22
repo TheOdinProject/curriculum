@@ -32,6 +32,9 @@ Keep track of how long it takes between when the photo is first loaded and when 
 ### Student Solutions
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/js-rails/project_rails_backend.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [Max Garber's solution](https://github.com/bubblebooy/waldo) - [View in browser](https://guarded-citadel-26034.herokuapp.com/)
 * [brxck's solution](https://github.com/brxck/odin-waldo) - [View in browser](https://pure-springs-85665.herokuapp.com/)
@@ -45,6 +48,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-findwaldo)
 * [David Chapman's solution](https://github.com/davidchappy/wheres-waldo) - [View in browser](https://dac-wheres-waldo.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) - [View in browser](https://frozen-stream-95035.herokuapp.com/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something

@@ -32,7 +32,7 @@ Look through these now and then use them to test yourself after doing the assign
 <div class="lesson-content__panel" markdown="1">
   1. Read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Lab.  If you can't get IRB running, check out the [Installations Section](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav), which you should have done already.
   2. Dive in a little deeper by reading chapters 1-10 of Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.  Answers to the exercises are available at [learntoprogramanswers.blogspot.com](http://learntoprogramanswers.blogspot.com/)
-  3. Finally go through the first five sections of [Ruby Monks Ruby Primer book](https://rubymonk.com/learning/books/1-ruby-primer) (up to and including the Hashes in Ruby section)
+  3. Read through the [Variables](http://ruby-for-beginners.rubymonstas.org/variables.html) and [Built-in Data Types](http://ruby-for-beginners.rubymonstas.org/built_in_classes.html) chapters of the Ruby Monstas' [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/index.html) book. (For more background, feel free to read the front matter of the book too.)
 </div>
 
 ### Bonus Assignment:

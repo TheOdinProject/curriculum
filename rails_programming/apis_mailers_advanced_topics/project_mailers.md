@@ -25,6 +25,9 @@ You'll be dusting off your [Flight Booker project](/courses/ruby-on-rails/lesson
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker.git) | [Live](https://safe-peak-87499.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/growlithe)
@@ -77,6 +80,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/flight-booker)
 * [Malaika's Solution](https://github.com/malaikaMI/AirFly)
 * [bchalman's solution](https://github.com/bchalman/odin-flight-booker)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

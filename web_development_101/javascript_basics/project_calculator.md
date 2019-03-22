@@ -40,7 +40,16 @@ Here are some use cases (abilities your project needs to have):
 ### Student Solutions
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_calculator.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 - Add your solution below this line!
+- [George Zhu's solution](https://github.com/georgezhu11/calculator) - [View in browser](https://georgezhu11.github.io/calculator/)
+- [Om Dhiraj's Solution](https://github.com/odgripginger/calculator-odin) - [View in Browser](https://odgripginger.github.io/calculator-odin/)
+- [Vollantre's Solution](https://github.com/vollantre/calculator)
+- [Ricala's Solution](https://github.com/Ricala/calculator) - [View in Browser](https://ricala.github.io/Calculator/)
+- [Austin Jackowski's Solution](https://github.com/Austin-Jackowski/calculator) - [View in Browser](https://austin-jackowski.github.io/calculator/)
+- [Nicolas Espinoza's solution](https://github.com/nicospz/calculator) - [View in Browser](https://nicospz.github.io/calculator/)
 - [balowulf's solution](https://github.com/balowulf/calculator) - [View in Browser](https://balowulf.github.io/calculator/)
 - [Braxton Lemmon's solution](https://github.com/braxtonlemmon/calculator) - [View in Browser](https://braxtonlemmon.github.io/calculator/)
 - [Yemre Aybey's solution](https://github.com/YemreAybey/calculator) - [View in Browser](https://yemreaybey.github.io/calculator/)
@@ -231,3 +240,16 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [antdricot's Solution](https://github.com/antdricot/odin-project-calculator) - [View in browser](https://antdricot.github.io/odin-project-calculator/)
 - [Nick Wegscheid's Solution](https://github.com/nsw125/calculator) - [View in browser](https://nsw125.github.io/calculator/)
 - [Leo Holanda's Solution](https://github.com/leo-holanda/calculator) - [View in browser](https://leo-holanda.github.io/calculator/)
+- [Jessica's Solution](https://github.com/seaweeddol/calculator) - [View in browser](https://seaweeddol.github.io/calculator/)
+- [JamCry's Solution](https://github.com/jamcry/calculator) - [View in browser](https://jamcry.github.io/calculator/)
+- [vanny96's Solution](https://github.com/vanny96/calculator) - [View in Browser](https://vanny96.github.io/calculator/)
+- [Alex Krewson's Solution](https://github.com/alexkrewson/calculator) - [View in Browser](https://alexkrewson.github.io/calculator/)
+- [Kenny Chung's Solution](https://github.com/kpchungdev/Calculator) - [View in Browser](https://kpchungdev.github.io/Calculator/)
+- [Sergei Jurchenko's Solution](https://github.com/Sergyurch/Calculator) - [View in Browser](https://sergyurch.github.io/Calculator/)
+- [KvotheNOR's Solution](https://github.com/KvotheNOR/Calculator) - [View in Browser](https://kvothenor.github.io/Calculator/)
+- [Ben Fowler's Solution](https://github.com/benfowler04/calculator) - [View in Browser](https://benfowler04.github.io/calculator/)
+- [Metin Karakus's Solution](https://github.com/metinkarakus/calculator) - [View in Browser](https://metinkarakus.github.io/calculator/)
+- [Jazzyclimber's Solution](https://github.com/jazzyclimber/js-calculator) - [View in Browser](https://jazzyclimber.github.io/js-calculator/)
+- [Jasmine Wright's Solution](https://github.com/jnwright/calculator) - [View in Browser](https://calculator-jnwright.netlify.com/)
+
+</details>

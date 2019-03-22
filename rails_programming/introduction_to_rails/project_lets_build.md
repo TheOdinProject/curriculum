@@ -19,6 +19,9 @@ You may find yourself using Rest Client down the road if you need to communicate
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [Simon Tharby's solution](https://github.com/jinjagit/rest_client)
 * [Jason McKee's Solution (with Regex to get results and links)](https://github.com/jttmckee/rest-client/tree/master)
@@ -81,6 +84,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/rest-client/blob/master/rest-client.rb)
 * [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
 * [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
+
+</details>
 
 ### Project: Ruby on Rails Tutorial
 

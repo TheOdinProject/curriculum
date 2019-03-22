@@ -27,7 +27,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Bola Buari's solution](https://github.com/bolah2009/learn_ruby)
+* [Om Dhiraj's solution](https://github.com/odgripginger/learn_ruby)
+* [Nicolas Espinoza's solution](https://github.com/nicospz/learn_ruby)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/learn_ruby)
 * [Yemre AYBEY's solution](https://github.com/YemreAybey/learn_ruby)
 * [Jay Burbyga's solution](https://github.com/Jaybur1/ruby_exercises)
@@ -493,7 +499,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/learn_ruby)
 * [LeonJMac's Solution](https://github.com/leonjmac/learn_ruby)
 * [Nick Wegscheid's Solution](https://github.com/nsw125/learn_ruby)
+* [Janice L's Solution](https://github.com/janicelam21/learn_ruby)
+* [JamCry's Solution](https://github.com/jamcry/learn_ruby)
+* [vanny96's Solution](https://github.com/vanny96/learn_ruby)
+* [Leo Holanda's Solution](https://github.com/leo-holanda/learn_ruby)
+* [Rey's Solution](https://github.com/rey810/learn_ruby/)
+* [antdricot's Solution](https://github.com/antdricot/learn_ruby/)
 
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
