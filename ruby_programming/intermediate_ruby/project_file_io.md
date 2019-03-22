@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nicolas Espinoza's Soultion](https://github.com/nicospz/hangman)
 * [Learnsometing's Solution NO SAVES](https://github.com/learnsometing/TOP-ruby-projects/tree/master/ruby/intermediate/ruby-intermediate/hangman)
 * [Rudi Boshoff's Soultion](https://github.com/RudiBoshoff/hang-man) - [Repl.it executable](https://Hangman.rudiboshoff.repl.run)
 * [Khari's Soultion](https://github.com/kjwebdev/TOP_Projects/tree/master/hangman)
