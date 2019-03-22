@@ -48,11 +48,19 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be understated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-#### Windows 10 with the Subsystem for Linux
+#### Windows 10
+
+##### Windows with the Subsystem for Linux
 
 You're probably familiar with Windows for one reason or another. For many people, it is their OS of choice. Windows is easy to use and comes pre-installed on most computers. Unfortunately, some languages, such as Ruby, were created with the assumption that they'll be used on Unix-based (Mac or Linux) systems and do not easily run on Windows.
 
 It is possible to develop with the Windows Subsystem for Linux (WSL), but it is **highly** discouraged. If you go this route, you'll end up spending many hours on Google trying to fix the many problems you'll encounter. For your sanity, we recommend installing a virtual machine instead of using WSL.
+
+##### Cmder
+
+Link: [Console Emulater](https://cmder.net/)
+
+This console emulator provides you with most of the default linux commands and is an alternative to WSL. It is pretty stable.
 
 ### Online Editors
 
