@@ -19,6 +19,7 @@ The page is very straightforward, so you should be able to clone it even if your
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) or by editing [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_html_forms.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
+* [Ricala's solution](https://github.com/Ricala/mint-signup) - [View in browser](https://ricala.github.io/mint-signup/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/form) - [View in browser](https://n00bg1rl.github.io/form/)
 * [ARaut9's solution](https://github.com/ARaut9/mint_sign_up_page) - [View in browser](https://araut9.github.io/mint_sign_up_page/)
 * [Bojo's solution](https://github.com/BojoZahariev/MintSignUp) - [View in browser](https://bojozahariev.github.io/MintSignUp/)
