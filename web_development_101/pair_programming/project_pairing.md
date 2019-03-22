@@ -49,7 +49,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Johan Morin's solution](https://github.com/MorrisMalone/pomodoro_clock) - [View in Browser](https://morrismalone.github.io/pomodoro_clock/)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Pairing-Project-Pomodoro) - [View in Browser]( https://sarfrazanjum.github.io/TOP_Pairing-Project-Pomodoro/)
 * [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/pomodoro-timer) - [View in Browser](https://ngovanhuong94.github.io/pomodoro-timer/)
-* [autumnchris's Solution](https://github.com/autumnchris/pomodoro-timer) - [View in Browser](https://autumnchris.github.io/pomodoro-timer)
+* [autumnchris's Solution](https://github.com/autumnchris/pomodoro-timer-vanilla-js) - [View in Browser](https://autumnchris.github.io/pomodoro-timer-vanilla-js)
 * [Jon Yoo's solution](https://github.com/jonyoowa/pomodoro-clock) - [View in Browser](https://jonyoowa.github.io/pomodoro-clock/)
 * [Nate Dimock's solution](https://github.com/Flakari/pomodoro-clock) - [View in Browser](https://flakari.github.io/pomodoro-clock/)
 * [0zra's solution](https://github.com/0zra/pomodoro) - [View in Browser](https://0zra.github.io/pomodoro/)
