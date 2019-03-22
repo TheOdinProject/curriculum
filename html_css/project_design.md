@@ -34,6 +34,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ARaut9's solution](https://github.com/ARaut9/smashing_design_teardown) - [View in browser](https://araut9.github.io/smashing_design_teardown/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/design) - [View in browser](https://n00bg1rl.github.io/design/)
 * [Billy's solution](https://github.com/bcoffin9/SmashingBreakdown) - [View in Browser](https://bcoffin9.github.io/SmashingBreakdown/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/smashing.html)
