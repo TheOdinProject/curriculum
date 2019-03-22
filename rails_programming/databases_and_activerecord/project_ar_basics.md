@@ -226,6 +226,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brendaneus' Solution](https://github.com/brendaneus/micro-reddit)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/micro-reddit)
 
+</details>
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
