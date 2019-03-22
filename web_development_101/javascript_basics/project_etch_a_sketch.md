@@ -345,5 +345,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Barbara Lucas' Solution](https://github.com/LucasBarbara/etch-a-sketch) - [View in Browser](https://lucasbarbara.github.io/etch-a-sketch/)
 * [Sergei Jurchenko's Solution](https://github.com/Sergyurch/Etch-A-Sketch) - [View in Browser](https://sergyurch.github.io/Etch-A-Sketch/)
 * [Wayland Chin's Solution](https://github.com/chinwayland/etch-a-sketch) - [View in Browser](https://chinwayland.github.io/etch-a-sketch/)
+* [Brandon's Solution](https://github.com/bwkrayb/etch-a-sketch) - [View in Browser](https://bwkrayb.github.io/etch-a-sketch/index.html)
 
 </details>
