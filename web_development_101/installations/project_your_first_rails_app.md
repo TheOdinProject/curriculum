@@ -143,9 +143,10 @@ Now, we're going to tell Rails to generate some templates for us. This will get 
 rails generate scaffold car make:string model:string year:integer
 ~~~
 
-**(Feb 8, 2019) NOTE: If you get an error with the above command, follow these steps:**
+**(Mar 22, 2019) NOTE: If you get an error with the above command, follow these steps:**
 
  1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3', '~> 1.3.13'`. Save the file.
+ 1.1. If error persists, Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3', git: 'https://github.com/larskanis/sqlite3-ruby', branch: 'add-gemspec'`. Save the file.
  2. In the terminal, run `bundle install`.
  3. Now that SQLite is working properly, run `rails generate scaffold car make:string model:string year:integer` again.
 
@@ -314,6 +315,8 @@ group :production do
   gem 'pg'
 end
 ~~~
+
+**Note: If `gem 'sqlite3' , '~> 1.3.13'` did not work for you earlier, try using `gem 'sqlite3', git: 'https://github.com/larskanis/sqlite3-ruby', branch: 'add-gemspec'` instead
 
 Then, save the file. You can leave VSCode open since we're going to be coming back to it, but for the next step, go back to your terminal.
 
