@@ -244,3 +244,35 @@ ruby 2.6.1pxx (20xx-xx-xx revision xxxxx)
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
 </details>
+
+
+<details markdown="block">
+<summary class="dropDown-header">Windows with Cmder
+</summary>
+
+### Step 1: Install NodeJS
+
+* [NodeJS](https://nodejs.org/en/download/)
+Npm is installed along with node. Please check the following in console.
+
+~~~bash
+node -v
+<latest node version>
+
+npm -v
+<latest npm version>
+~~~
+
+### Step 2: Install Ruby
+
+* [Ruby Installer](https://rubyinstaller.org/)
+~~~bash
+ruby -v
+<latest ruby version>
+~~~
+
+Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
+
+</details>
+
+
