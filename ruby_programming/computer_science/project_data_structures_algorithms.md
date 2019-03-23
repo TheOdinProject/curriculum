@@ -320,6 +320,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 * [Mojotron's solution](https://github.com/mojotron/graph_with_knights_travails)
 * [vanny96's solution](https://github.com/vanny96/binary-trees)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/knight_moves.rb)
 
 </details>
 
