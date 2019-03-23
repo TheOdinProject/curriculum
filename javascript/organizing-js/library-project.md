@@ -39,6 +39,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+ - [djolesuseranem's Solution](https://github.com/djolesusername/libraryh) - [View in Browser](https://djolesusername.github.io/libraryh/)
 - [Djo1e's Solution](https://github.com/Djo1e/LibraryApp) - [View in Browser](https://djo1e.github.io/LibraryApp/)
 - [balowulf's Solution](https://github.com/balowulf/library) - [View in Browswer](https://balowulf.github.io/library/)
 - [Max Garber's Solution](https://github.com/bubblebooy/Odin-Javascript/blob/master/library.html) - [View in Browswer](https://bubblebooy.github.io/Odin-Javascript/library.html)
