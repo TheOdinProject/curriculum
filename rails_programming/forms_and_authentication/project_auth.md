@@ -192,6 +192,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's Solution](https://github.com/bchalman/members-only)
 * [Alex's solution](https://github.com/alexcorremans/members-only)
 * [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/members-only) - [View in browser](https://guarded-escarpment-32564.herokuapp.com/posts)
+* [Leila Alderman's solution](https://github.com/leila-alderman/members-only) - [View in Browser](https://fierce-bayou-19850.herokuapp.com/)
 
 </details>
 
