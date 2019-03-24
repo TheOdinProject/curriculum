@@ -1481,6 +1481,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Koutselakis Manos's Solution (Easy)](https://github.com/KoutselakisManos/google-homepage) - [View in Browser](https://koutselakismanos.github.io/google-homepage/)
 * [Adhithyan Vijayakumar's Solution (Easy)](https://github.com/v-adhithyan/google_hompage) - [View in Browser](https://v-adhithyan.github.io/google_hompage)
 * [ruanha's Solution (Easy)](https://github.com/ruanha/google-homepage) - [View in Browser](https://ruanha.github.io/google-homepage/)
+* [Nabeel El-Habbash's Solution (Easy)](https://github.com/nabeels91/google-homepage) - [View in Browser](https://nabeels91.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
