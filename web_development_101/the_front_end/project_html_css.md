@@ -2040,6 +2040,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tiffany Santos' solution (easy)](https://github.com/tiffanysantos/google-homepage/) - [View in Browser](https://tiffanysantos.github.io/google-homepage/)
 * [Adriel Bruno's solution (easy)](https://github.com/AdrielTrigger/odinproject_googleclone/) - [View in Browser](https://AdrielTrigger.github.io/odinproject_googleclone/?)
 * [LastCapricorn's solution (easy)](https://github.com/LastCapricorn/google-homepage/) - [View in Browser](https://lastcapricorn.github.io/google-homepage/)
+* [DaveMcGlashan's solution (easy)](https://github.com/DaveMcGlashan/google-homepage) - [View in Browser](https://davemcglashan.github.io/google-homepage/)
 
 </details>
 
