@@ -181,6 +181,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Simon Tharby's solution](https://github.com/jinjagit/flickr-api) - [View in browser](https://findr-simontharby.herokuapp.com/)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-flickr.git) | [Live](https://immense-bayou-47624.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-flickr)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Flickr-API)
