@@ -22,6 +22,9 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [N00bG1rl's solution](https://github.com/N00bG1rl/responsive) - [View in browser](https://n00bg1rl.github.io/responsive/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/thenextweb.html)
@@ -66,6 +69,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [aznafro's solution](https://github.com/aznafro/tnw) - [View in browser](https://aznafro.github.io/thenextweb/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/The-next-web) - [View in browser](https://areebaishtiaq.github.io/The-next-web/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/thenextwebmockup) - [View in browser](https://taylorjohannsen.github.io/thenextwebmockup/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

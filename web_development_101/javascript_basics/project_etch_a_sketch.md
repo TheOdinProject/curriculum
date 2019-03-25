@@ -39,7 +39,11 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 ### Student Solutions
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 - Add your solution below this line!
+* [djolesusername Solution](https://github.com/djolesusername/Etch-a-Sketch) - [View in Browser](https://djolesusername.github.io/Etch-a-Sketch/)
 * [Iacob Sorin Solution](https://github.com/Iacobssorin/Etch_a-_Schetch) - [View in Browser](https://iacobssorin.github.io/Etch_a-_Schetch/)
 * [Luka Salevic's Solution](https://github.com/Sensanaty/etch_a_sketch) - [View in Browser](https://sensanaty.github.io/etch_a_sketch/)
 * [Amir Farmanara's Solution](https://github.com/Farmanara/etch-a-sketch) - [View in Browser](https://farmanara.github.io/etch-a-sketch)
@@ -342,3 +346,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Barbara Lucas' Solution](https://github.com/LucasBarbara/etch-a-sketch) - [View in Browser](https://lucasbarbara.github.io/etch-a-sketch/)
 * [Sergei Jurchenko's Solution](https://github.com/Sergyurch/Etch-A-Sketch) - [View in Browser](https://sergyurch.github.io/Etch-A-Sketch/)
 * [Wayland Chin's Solution](https://github.com/chinwayland/etch-a-sketch) - [View in Browser](https://chinwayland.github.io/etch-a-sketch/)
+* [Brandon's Solution](https://github.com/bwkrayb/etch-a-sketch) - [View in Browser](https://bwkrayb.github.io/etch-a-sketch/index.html)
+* [Timring's Solution](https://github.com/timkwali/etch_a_sketch) - [View in Browser](https://timkwali.github.io/etch_a_sketch/)
+* [Christine Gierer's Solution](https://github.com/beansprout/etch-a-sketch) - [View in Browser](https://beansprout.github.io/etch-a-sketch/)
+</details>

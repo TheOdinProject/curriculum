@@ -18,6 +18,9 @@ In this project you'll clone the website of one of the most design-forward compa
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [ARaut9's solution](https://github.com/ARaut9/apple.com_old) - [View in browser](https://araut9.github.io/apple.com_old/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/apple-archive) - [View in browser](https://n00bg1rl.github.io/apple-archive/)
@@ -80,6 +83,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Apple-homepage) - [View in browser](https://areebaishtiaq.github.io/Apple-homepage/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/applemockup) - [View in browser](https://taylorjohannsen.github.io/applemockup/)
 * [Ghassan's solution](https://github.com/GT001/TOP-Apple.com-Clone) - [View in browser](https://gt001.github.io/TOP-Apple.com-Clone/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

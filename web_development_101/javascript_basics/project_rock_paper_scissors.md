@@ -35,7 +35,11 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 ### Student Solutions
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 - Add your solution below this line!
+- [Eric's solution](https://github.com/erickyle18/rock_paper_scissors)
 - [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/games/rock-paper-scissors) - [View in Browser](https://vanessacor.github.io/site/games/rock-paper-scissors)
 - [Ruddy's solution](https://github.com/RuddyRiveroCabero/rock_paper_scissors) - [View in Browser](https://ruddyriverocabero.github.io/rock_paper_scissors/)
 - [nezlicodes solution](https://github.com/nezlicodes/Rock-paper-scissors)
@@ -553,3 +557,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kparco's Solution](https://github.com/kparco/rps-game)
 - [Bendee48's Solution](https://github.com/bendee48/rock-paper-scissors)
 - [Jonathon McGuire's Solution](https://github.com/someguy711/rock_paper_scissors)
+- [Brandon's prompt rock paper scissors](https://bwkrayb.github.io/javascript-rock-paper-scissors/) - [Brandon's GUI rock paper scissors](https://bwkrayb.github.io/rock-paper-scissors-2/)
+- [Colcodeando's solution](https://github.com/colcodeando/rock-paper-scissors)
+
+</details>
+

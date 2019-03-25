@@ -26,6 +26,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [Smetanca52's Solution](https://github.com/Smetanca52/toy_app) - [Live](https://serene-chamber-16862.herokuapp.com/)
 * [Noah Maizels' Solution](https://github.com/noahniuwa/rails-tutorial-toy-app) - [Live](https://ancient-river-40245.herokuapp.com/users)
@@ -134,3 +137,5 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Tommy's solution](https://github.com/hoangtommy/toy-app)
 * [Alex's solution](https://github.com/alexcorremans/toy_app) - [Heroku](https://shielded-anchorage-68758.herokuapp.com/)
 * [Leila Alderman's solution](https://github.com/leila-alderman/toy_app) - [Heroku](https://shielded-mesa-98541.herokuapp.com/users)
+
+</details>
