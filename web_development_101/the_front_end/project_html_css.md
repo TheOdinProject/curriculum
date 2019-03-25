@@ -83,17 +83,12 @@ There are a couple of ways to go about doing this, but the simplest is this:
 ### Student Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
 * Add your solution below this list
 * [Dylan Maloney's Solution (easy)](https://github.com/proto-dylan/google-homepage)-
 [View in Browser](https://proto-dylan.github.io/google-homepage/)
 * [Dylan Maloney's Solution (hard)](https://github.com/proto-dylan/google-homepage-hard)-
 [View in Browser](https://proto-dylan.github.io/google-homepage-hard/)
 * [cotrones's Solution (Easy)](https://github.com/cotrones/google-homepage-easy) - [View in Browser](https://cotrones.github.io/google-homepage-easy/)
-* [Alain Suarez's Solution (Easy)](https://gitlab.com/asuar/google-homepage) - [View in Browser](https://asuar.gitlab.io/google-homepage/) - [Alain Suarez's Solution (Difficult)](https://gitlab.com/asuar/google-search-results) - [View in Browser](https://asuar.gitlab.io/google-search-results/)
-* [cotrones's Solution (Easy)](https://github.com/cotrones/google-homepage-easy) - [View in Browser](https://cotrones.github.io/google-homepage-easy/) - [cotrones's Solution (Difficult)](https://github.com/cotrones/google-results-difficult) - [View in Browser](https://cotrones.github.io/google-results-difficult/)
 * [sriiraj jaami's Solution (Easy)](https://github.com/sriiraj/google-homepage) - [View in Browser](https://sriiraj.github.io/google-homepage/)
 * [Esteban Moroy's Solution (Easy)](https://github.com/estebanmoroy/google-homepage) - [View in Browser](https://estebanmoroy.github.io/google-homepage/)
 * [Obert Makaza's Solution (Easy)](https://omakazagit.github.io/google-homepage/) - [View in Browser](https://omakazagit.github.io/google-homepage/)
@@ -2038,14 +2033,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Nabil Shaahani's solution (Easy)](https://github.com/Nabil19911/Sample.google.style) - [View in Broswer](https://nabil19911.github.io/Sample.google.style/)
 * [Shubham sharma's solution(Easy)](https://github.com/Officialshubham/google-homepage/) - [View in Broswer](https://Officialshubham.github.io/google-homepage/)   
 * [Steven' Solution (Easy)](https://github.com/DuckEggs/google-homepage.git) - [View in Browser](https://duckeggs.github.io/google-homepage/)
-* [Brandon's Solution (Easy)](https://github.com/bwkrayb/google-homepage-2) - [View in Browser](https://bwkrayb.github.io/google-homepage-2/)
-* [Javier's Solution (Easy)](https://github.com/javialeman/google-homepage) - [View in Browser](https://javialeman.github.io/google-homepage/)
-* [Tiffany Santos' solution (easy)](https://github.com/tiffanysantos/google-homepage/) - [View in Browser](https://tiffanysantos.github.io/google-homepage/)
-* [Adriel Bruno's solution (easy)](https://github.com/AdrielTrigger/odinproject_googleclone/) - [View in Browser](https://AdrielTrigger.github.io/odinproject_googleclone/?)
-* [LastCapricorn's solution (easy)](https://github.com/LastCapricorn/google-homepage/) - [View in Browser](https://lastcapricorn.github.io/google-homepage/)
-* [DaveMcGlashan's solution (easy)](https://github.com/DaveMcGlashan/google-homepage) - [View in Browser](https://davemcglashan.github.io/google-homepage/)
-* [Nabeel El-Habbash's Solution (Easy)](https://github.com/nabeels91/google-homepage) - [View in Browser](https://nabeels91.github.io/google-homepage/)
-</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
