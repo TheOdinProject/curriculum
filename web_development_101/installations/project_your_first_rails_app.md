@@ -347,7 +347,7 @@ Now that we have made some changes, we need to tell Git. This step is also requi
 First, we'll check which files have been updated by running 
 
 ~~~bash
-git status`
+git status
 ~~~
 
 the output should look like the exmaple below
