@@ -69,6 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nicolas Espinoza's Solution](https://github.com/nicospz/linked_lists)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/linked-list)
 * [Learnsometing's Solution w/extras](https://github.com/learnsometing/TOP-ruby-projects/tree/master/ruby/computer-science/linked-list)
 * [Simon Tharby's solution](https://github.com/jinjagit/linked_list/blob/master/linked.rb)
