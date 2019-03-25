@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [BShowen's Solution](https://github.com/BShowen/CL_tic_tac_toe)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/tic_tac_toe/tree/master/tic_tac_toe2)
 * [Nicolas Espinoza's Solution](https://github.com/nicospz/tictactoe/blob/master/tic_tac_toe.rb)
 * [Origier's Solution](https://github.com/Origier/tictactoe)
@@ -284,6 +285,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [BShowen's Solution (with smart AI)](https://github.com/BShowen/CL_mastermind)
 * [Braxton Lemmon's Solution (easy AI)](https://github.com/braxtonlemmon/mastermind)
 * [Kevin Vuong's Solution](https://github.com/fffear/mastermind)
 * [Learnsometing's Solution NO AI](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby/intermediate/ruby-intermediate/mastermind.rb)
