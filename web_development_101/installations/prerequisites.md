@@ -75,7 +75,7 @@ Here are some tips to help you get started coding in a virtual environment:
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
-* We recommend going full screen (Edit > Full-Screen Mode) and forgeting about your host OS (Windows).
+* We recommend going full screen (Edit > Full-Screen Mode) and forgetting about your host OS (Windows).
 
 </details>
 
