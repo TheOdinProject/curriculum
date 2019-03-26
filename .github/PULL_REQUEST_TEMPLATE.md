@@ -1,5 +1,3 @@
-This is a PR template. If you are adding a solution link to the curriculum, leave this as is. If not, delete it and write the message you wish.
+I need to contribute with my solution of Etch-a-sketch 
 
-Thank you,
-
-The Odin Project team.
+https://github.com/marcoluchi11/etch-a-sketch.git
