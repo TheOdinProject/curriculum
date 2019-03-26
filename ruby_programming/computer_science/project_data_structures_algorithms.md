@@ -151,6 +151,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/binary-tree)
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 * [Mojotron's solution](https://github.com/mojotron/binary-search-tree)
+* [vanny96's Solution](https://github.com/vanny96/binary-trees)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/binary_tree.rb)
 
 </details>
 
@@ -317,10 +319,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Leila Alderman's solution](https://github.com/leila-alderman/knight_moves)
 * [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
 * [Mojotron's solution](https://github.com/mojotron/graph_with_knights_travails)
+* [vanny96's solution](https://github.com/vanny96/binary-trees)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/knight_moves.rb)
 
 </details>
-
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
-* More on [Binary Search Trees from Coursera](https://www.youtube.com/watch?v=pJ6aeg8x1Ig)... it gets a bit technical.

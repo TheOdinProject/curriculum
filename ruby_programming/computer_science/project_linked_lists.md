@@ -65,7 +65,11 @@ A head node is the first node in the list, a tail node is the last node in the l
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_linked_lists.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Nicolas Espinoza's Solution](https://github.com/nicospz/linked_lists)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/linked-list)
 * [Learnsometing's Solution w/extras](https://github.com/learnsometing/TOP-ruby-projects/tree/master/ruby/computer-science/linked-list)
 * [Simon Tharby's solution](https://github.com/jinjagit/linked_list/blob/master/linked.rb)
@@ -174,3 +178,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/tree/master/08_linked_list)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/linked-list)
 * [vanny96's Solution](https://github.com/vanny96/linked_lists)
+
+</details>
