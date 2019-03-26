@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/recursion/tree/master/fibonacci_sequence)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)
 * [Simon Tharby's solution](https://github.com/jinjagit/ruby/blob/master/fibs.rb)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/recursive)
