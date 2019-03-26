@@ -84,10 +84,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 * Add your solution below this list
-* [Dylan Maloney's Solution (easy)](https://github.com/proto-dylan/google-homepage)-
-[View in Browser](https://proto-dylan.github.io/google-homepage/)
-* [Dylan Maloney's Solution (hard)](https://github.com/proto-dylan/google-homepage-hard)-
-[View in Browser](https://proto-dylan.github.io/google-homepage-hard/)
+* [Dylan Maloney's Solution (easy)](https://github.com/proto-dylan/google-homepage)-[View in Browser](https://proto-dylan.github.io/google-homepage/)
+* [Dylan Maloney's Solution (hard)](https://github.com/proto-dylan/google-homepage-hard)-[View in Browser](https://proto-dylan.github.io/google-homepage-hard/)
 * [cotrones's Solution (Easy)](https://github.com/cotrones/google-homepage-easy) - [View in Browser](https://cotrones.github.io/google-homepage-easy/)
 * [sriiraj jaami's Solution (Easy)](https://github.com/sriiraj/google-homepage) - [View in Browser](https://sriiraj.github.io/google-homepage/)
 * [Esteban Moroy's Solution (Easy)](https://github.com/estebanmoroy/google-homepage) - [View in Browser](https://estebanmoroy.github.io/google-homepage/)
@@ -2033,6 +2031,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Nabil Shaahani's solution (Easy)](https://github.com/Nabil19911/Sample.google.style) - [View in Broswer](https://nabil19911.github.io/Sample.google.style/)
 * [Shubham sharma's solution(Easy)](https://github.com/Officialshubham/google-homepage/) - [View in Broswer](https://Officialshubham.github.io/google-homepage/)   
 * [Steven' Solution (Easy)](https://github.com/DuckEggs/google-homepage.git) - [View in Browser](https://duckeggs.github.io/google-homepage/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
