@@ -67,7 +67,12 @@ Once the user has submitted their chosen flight, it's time to take their booking
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Simon Tharby's solution](https://github.com/jinjagit/flight-booker) | [View in browser](https://aqueous-citadel-60266.herokuapp.com)
+* [amundskm's Solution](https://github.com/amundskm/odin-flight-booker)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker) | [Live](https://safe-peak-87499.herokuapp.com)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-flight-booker)
 * [Javier Machin's solution](https://github.com/Javier-Machin/flight-booker) - [Live](https://easy-flight.herokuapp.com/)
@@ -136,6 +141,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Malaika's Solution](https://github.com/malaikaMI/AirFly)
 * [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [View in Browser](https://redux-flights.herokuapp.com/)
 * [bchalman's Solution](https://github.com/bchalman/odin-flight-booker)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/odin-flight-booker) - [View in Browser](https://intense-sea-16053.herokuapp.com/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
