@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ricala's solution](https://github.com/Ricala/apple-mock-page) - [View in browser](https://ricala.github.io/apple-mock-page/)
 * [ARaut9's solution](https://github.com/ARaut9/apple.com_old) - [View in browser](https://araut9.github.io/apple.com_old/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/apple-archive) - [View in browser](https://n00bg1rl.github.io/apple-archive/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/apple.html)
