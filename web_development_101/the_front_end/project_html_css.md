@@ -2045,8 +2045,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kelly Joseph's solution (easy)](https://github.com/seisolo76/google-homepage/) - [View in Browser](https://seisolo76.github.io/google-homepage/) 
 * [Nika Topuria's Solution (easy)](https://github.com/topuchi13/google_homepage)
 * [Supasus's Solution (Easy)](https://supasus.github.io/google-homepage/) - [View in Browser](https://supasus.github.io/google-homepage/) - [Supasus's Solution (Difficult)](https://supasus.github.io/google-homepage/search.html?) - [View in Browser](https://supasus.github.io/google-homepage/search.html?)
+* [Lena's Solution (Easy)](https://github.com/lenavollmer/google-homepage-odin) - [View in Browser](https://lenavollmer.github.io/google-homepage-odin/)
 </details>
-* [Lena's Solution (Easy)](https://lenavollmer.github.io/google-homepage-odin/)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
