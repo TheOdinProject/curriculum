@@ -118,7 +118,15 @@ If any of those don't work, double check your associations.  Sometimes the error
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Noah Maizels' Solution](https://github.com/noahniuwa/micro-reddit-odin-tutorial-project)
+* [Simon Tharby's solution](https://github.com/jinjagit/micro-reddit)
+* [Stefano Merazzi's solution](https://github.com/ste001/micro-reddit)
+* [Jason McKee's solution](https://github.com/jttmckee/micro-reddit)
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/micro-reddit)
 * [goodjobbin85's solution](https://github.com/goodjobbin85/micro-reddit)
 * [prw001's Solution](https://github.com/prw001/micro_reddit)
 * [Ayoub's solution](https://github.com/Skobraf/micro-reddit)
@@ -213,6 +221,12 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [ParamagicDev's Soltuion](https://github.com/ParamagicDev/micro-reddit)
 * [Slaven K's Soltuion](https://github.com/Everdrought/micro-reddit)
 * [bchalman's Soltuion](https://github.com/bchalman/micro-reddit)
+* [Tommy's Solution](https://github.com/hoangtommy/micro-reddit)
+* [Alex's Solution](https://github.com/alexcorremans/micro-reddit)
+* [Brendaneus' Solution](https://github.com/brendaneus/micro-reddit)
+* [Leila Alderman's Solution](https://github.com/leila-alderman/micro-reddit)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

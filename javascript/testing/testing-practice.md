@@ -36,7 +36,11 @@ Write tests for the following functions, and then make the tests pass!
 ###  Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 - Add your solution below this line!
+- [Max Garbers's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/jest-testing)
 - [theghall's solution](https://github.com/theghall/odin-jestpractice)
 - [Jmooree30's solution](https://github.com/jmooree30/Jest-Tests)
 - [Devon's solution](https://github.com/defitjo/Jest-Testing-Javascript)
@@ -45,3 +49,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Mike Smith's solution](https://github.com/MikeSS281986/Unit-Testing-)
 - [MPalhidai's solution](https://github.com/MPalhidai/testing)
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Jest-testing-project)
+
+</details>
