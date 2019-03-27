@@ -2047,7 +2047,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Supasus's Solution (Easy)](https://supasus.github.io/google-homepage/) - [View in Browser](https://supasus.github.io/google-homepage/) - [Supasus's Solution (Difficult)](https://supasus.github.io/google-homepage/search.html?) - [View in Browser](https://supasus.github.io/google-homepage/search.html?)
 * [Lena's Solution (Easy)](https://github.com/lenavollmer/google-homepage-odin) - [View in Browser](https://lenavollmer.github.io/google-homepage-odin/)
 * [Dean's Solution (Easy)](https://github.com/JuicyMelon/google-clone) - [View in Browser](https://juicymelon.github.io/google-clone/)
-* [Brenton Pahl's Solution (Easy)](https://github.com/bpahl78/google-homepage) - [View in Browser](https://bpahl78.github.io/google-homepage/)
+* [Brenton's Solution (Easy)](https://github.com/bpahl78/google-homepage) - [View in Browser](https://bpahl78.github.io/google-homepage/)
 </details>
 
 
