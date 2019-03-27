@@ -563,5 +563,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Brandon's prompt rock paper scissors](https://bwkrayb.github.io/javascript-rock-paper-scissors/) - [Brandon's GUI rock paper scissors](https://bwkrayb.github.io/rock-paper-scissors-2/)
 - [Colcodeando's solution](https://github.com/colcodeando/rock-paper-scissors)
 - [Tseti's Solution](https://github.com/tseti/rock-paper-scissors) - [View in Browser](https://tseti.github.io/rock-paper-scissors/)
+- [Griger's Solution](https://github.com/Griger/RockPaperScissors) - [View in Browser](https://griger.github.io/RockPaperScissors/)
 </details>
 
