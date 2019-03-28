@@ -220,5 +220,6 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Leila Alderman's solution](https://github.com/leila-alderman/hangman)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/tree/master/hangman) - [Play on repl.it](https://repl.it/@vi7ali/Hangman-game)
 * [vanny96's solution](https://github.com/vanny96/hangman)
+* [JamCry's Solution](https://github.com/jamcry/ruby-hangman) - [Play on Repl.it](https://repl.it/@jamcry/Ruby-Hangman-Game)
 
 </details>
