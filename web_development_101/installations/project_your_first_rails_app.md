@@ -47,7 +47,7 @@ git config --get user.email
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
 
-#### step 1.3: Create an SSH Key
+#### Step 1.3: Create an SSH Key
 
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
@@ -145,7 +145,7 @@ rails generate scaffold car make:string model:string year:integer
 
 **(Feb 8, 2019) NOTE: If you get an error with the above command, follow these steps:**
 
- 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3' , '~> 1.3.13'`. Save the file.
+ 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3', '~> 1.3.13'`. Save the file.
  2. In the terminal, run `bundle install`.
  3. Now that SQLite is working properly, run `rails generate scaffold car make:string model:string year:integer` again.
 
@@ -344,7 +344,13 @@ Save the file. You can close VSCode now; the rest of the steps take place in the
 
 Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
-First, we'll check which files have been updated by running `git status`:
+First, we'll check which files have been updated by running 
+
+~~~bash
+git status
+~~~
+
+the output should look like the exmaple below
 
 ~~~bash
 $ git status

@@ -18,7 +18,15 @@ The page is very straightforward, so you should be able to clone it even if your
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) or by editing [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_html_forms.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Ohlie's solution](https://github.com/lco1220/mint_signup_page) - [View in browser](https://lco1220.github.io/mint_signup_page/)
+* [Jason McKee's solution](https://github.com/jttmckee/mint-signup) - [View in browser](https://jttmckee.github.io/mint-signup/)
+* [Ricala's solution](https://github.com/Ricala/mint-signup) - [View in browser](https://ricala.github.io/mint-signup/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/form) - [View in browser](https://n00bg1rl.github.io/form/)
+* [ARaut9's solution](https://github.com/ARaut9/mint_sign_up_page) - [View in browser](https://araut9.github.io/mint_sign_up_page/)
 * [Bojo's solution](https://github.com/BojoZahariev/MintSignUp) - [View in browser](https://bojozahariev.github.io/MintSignUp/)
 * [balowulf's solution](https://github.com/balowulf/mint_signup) - [View in browser](https://balowulf.github.io/mint_signup/)
 * [Helari's solution](https://github.com/helaris/mint-project/) - [View in browser](https://helaris.github.io/mint-project/)
@@ -111,6 +119,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ghassan's Solution](https://github.com/GT001/TOP-Mint.com-Signup) - [View in Browser](https://gt001.github.io/TOP-Mint.com-Signup/)
 * [Valentino Valenti's solution](https://github.com/1ba1/html-form) - [View in Browser](https://1ba1.github.io/html-form/)
 * [Doris's solution](https://github.com/dsmchen/intuit-sign-up-page) - [view in browser](https://dsmchen.github.io/intuit-sign-up-page/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -19,6 +19,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [BShowen's Solution](https://github.com/BShowen/CL_tic_tac_toe)
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/tic_tac_toe/tree/master/tic_tac_toe2)
+* [Nicolas Espinoza's Solution](https://github.com/nicospz/tictactoe/blob/master/tic_tac_toe.rb)
+* [Origier's Solution](https://github.com/Origier/tictactoe)
 * [Kevin Vuong's Solution](https://github.com/fffear/tic_tac_toe)
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/tree/master/rubyProgramming/tic_tac_toe)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/tictactoe/tictac.rb)
@@ -253,6 +257,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/tic-tac-toe/blob/master/tic-tac-toe.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/intermediate_project/tic_tac_toe.rb)
+* [vanny96's Solution](https://github.com/vanny96/OOP)
 
 </details>
 
@@ -280,6 +285,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [BShowen's Solution (with smart AI)](https://github.com/BShowen/CL_mastermind)
+* [Braxton Lemmon's Solution (easy AI)](https://github.com/braxtonlemmon/mastermind)
+* [Kevin Vuong's Solution](https://github.com/fffear/mastermind)
 * [Learnsometing's Solution NO AI](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby/intermediate/ruby-intermediate/mastermind.rb)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/mastermind) - [Live repl.it Version](https://repl.it/@RudiBoshoff/Mastermind-Game)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/mastermind)
@@ -468,6 +476,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/mastermind.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/WebbedAccomplishedDrawing)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
 * [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)
+* [vanny96's Solution (partial AI)](https://github.com/vanny96/OOP)
 
 </details>
 
