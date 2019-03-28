@@ -351,4 +351,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Christine Gierer's Solution](https://github.com/beansprout/etch-a-sketch) - [View in Browser](https://beansprout.github.io/etch-a-sketch/)
 * [Nabeel El-Habbash's Solution](https://github.com/nabeels91/etchASketch) - [View in Browser](https://nabeels91.github.io/etchASketch/)
 * [Tseti's Solution](https://github.com/tseti/etch-a-sketch) - [View in Browser](https://tseti.github.io/etch-a-sketch/)
+* [Ricardo's Solution](https://github.com/drikonricus/etch-a-sketch) - [View in Browser](https://drikonricus.github.io/etch-a-sketch/)
 </details>
