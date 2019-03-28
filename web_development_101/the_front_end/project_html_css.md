@@ -2052,6 +2052,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Brenton's Solution (Easy)](https://github.com/bpahl78/google-homepage) - [View in Browser](https://bpahl78.github.io/google-homepage/)
 * [Amish's Solution (Easy)](https://github.com/AmishGoel1/google-homepage) - [View in Browser](https://amishgoel1.github.io/google-homepage/)
 * [Dreamraiderr's Solution (Easy)](https://github.com/Dreamraiderr/google-homepage) - [View in Browser](https://dreamraiderr.github.io/google-homepage/)
+* [Oliver Burt's Solution (Easy)](https://github.com/oliburt/google-homepage) - [View in Browser](https://oliburt.github.io/google-homepage/)
 </details>
 
 
