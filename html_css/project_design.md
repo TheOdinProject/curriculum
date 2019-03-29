@@ -28,7 +28,8 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) or by editing [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_design.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_design.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
