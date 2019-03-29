@@ -47,7 +47,7 @@ To learn more about the growth mindset, check out these resources:
 ### The Learning Process
 
 Learning concepts and then practicing them will help you to more fully understand how things work and fit together. Projects are
-the ultimate method for ensuring that your theoretial understanding aligns with how the programming concepts and techniques actually operate.
+the ultimate method for ensuring that your theoretical understanding aligns with how the programming concepts and techniques actually operate.
 
 When learning, your mind will consistently switch between focus mode and diffuse mode. **Focus mode** occurs when you are consciously focusing on learning, reading, watching videos, or working on a project. **Diffuse mode** occurs subconsciously, at times when you are not actively learning, such as when you're doing the dishes, exercising, or sleeping. In this state, your mind
 goes about the business of connecting what you have been learning to the other things you know. This is where breakthroughs happen.
