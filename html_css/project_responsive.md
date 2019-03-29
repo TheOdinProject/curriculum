@@ -20,7 +20,8 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_responsive.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
