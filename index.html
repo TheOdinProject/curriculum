@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<div class="output">
+  <ul>
+    
+  </ul>
+</div>
+<script type="text/javascript">
+
+//gets computerSelection
+var choices = ['Rock', 'Paper' , 'Scissors'];
+
+computerPlay = function(){
+  var choice = choices[Math.floor(Math.random() * choices.length)];
+  return(choice);
+}
+
+//gets playerSection and to lowerCase and first letter toUpperCase
+playerPlay = function(){
+var playerSelection = prompt('What is your choice?').toLowerCase();
+  firstLetter = playerSelection.slice(0,1);
+  firstLetter = firstLetter.toUpperCase();
+  playerSelection = playerSelection.replace(playerSelection[0], firstLetter);
+  return(playerSelection);
+}
+
+  //sets scores to zero
+  var playerScore = 0;
+  var computerScore = 0;
+
+  //full game play
+game = function(){
+  for (i = 0; i < 5; i++){
+    //plays one round of game
+ playRound = function(playerSelection , computerSelection){
+      if(playerSelection == 'Rock' && computerSelection == 'Rock'){
+    console.log('Tie!')
+  } else if(playerSelection == 'Rock' && computerSelection == 'Paper'){
+    console.log('You lose! Paper covers Rock');
+    computerScore ++
+  } else if(playerSelection == 'Rock' && computerSelection == 'Scissors'){
+    console.log('You win! Rock smashes Scissors');
+    playerScore ++;
+  } else if (playerSelection == 'Paper' &&  computerSelection == 'Rock'){
+    console.log('You win! Paper covers Rock');
+    playerScore ++;
+  } else if (playerSelection == 'Paper' && computerSelection == 'Paper'){
+    console.log('Tie!');
+  } else if (playerSelection == 'Paper' && computerSelection == 'Scissors'){
+    console.log('You lose! Scissors cut Paper');
+    computerScore ++;
+  } else if (playerSelection == 'Scissors' && computerSelection == 'Rock'){
+    console.log('You lose! Rock smashes Scissors');
+    computerScore ++;
+  } else if(playerSelection == 'Scissors' && computerScore == 'Paper'){
+    console.log('You win! Scissors cut Paper');
+    playerScore ++;
+  } else if(playerSelection == 'Scissors' && computerSelection == 'Scissors'){
+    console.log('Tie!');
+  };
+  return(playerSelection + computerSelection)
+};
+
+//sets constants to be used in functions
+  const playerSelection = playerPlay();
+  const computerSelection = computerPlay();
+  console.log(playRound(playerSelection, computerSelection)); 
+  }
+}
+game();
+
+//compares computerScore and playerScore give final win or lose console.log
+final = function(){
+if(computerScore < playerScore){
+  console.log('You won best of 5 rounds! Way to go!');
+} else if(computerScore > playerScore){
+  console.log('You lost best of 5 rounds sucker!')
+} else {
+  console.log('Tie game! Try again')
+};
+}
+final();
+
+</script>
+</body>
+</html>
