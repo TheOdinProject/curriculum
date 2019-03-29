@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [cotrones's Solution](https://github.com/cotrones/rock-paper-scissors) - [View in Browser](https://cotrones.github.io/rock-paper-scissors/)
 - [John Paul's Solution](https://github.com/Omulosi/rock-paper-scissors) - [View in browser](https://omulosi.github.io/rock-paper-scissors/)
-- [Carmine's Solution](https://github.com/cgrossi/r-p-s) - [View in Browser](https://cgrossi.github.io/r-p-s/)
+- [Carmine's Solution](https://github.com/cgrossi/r-p-s) - View in Browser [Console Version](https://cgrossi.github.io/r-p-s/)/[Visual Version](https://cgrossi.github.io/Rock-Paper-Scissors-V2/)
 - [Dylan's Solution](https://github.com/proto-dylan/RockPaperScissors) - [View in Browser](https://proto-dylan.github.io/RockPaperScissors/)
 - [Jasmeet's Solution](https://github.com/jasmeet9323/Rock-Paper-Scissors) - [View in Browser](https://jasmeet9323.github.io/Rock-Paper-Scissors/)
 - [Iacob Sorin Solution](https://github.com/Iacobssorin/rock-paper-scissors) - [View In Browser](https://iacobssorin.github.io/rock-paper-scissors/)
