@@ -39,6 +39,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [John Paul's Solution](https://github.com/Omulosi/rock-paper-scissors) - [View in browser](https://omulosi.github.io/rock-paper-scissors/)
 - [Carmine's Solution](https://github.com/cgrossi/r-p-s) - [View in Browser](https://cgrossi.github.io/r-p-s/)
 - [Dylan's Solution](https://github.com/proto-dylan/RockPaperScissors) - [View in Browser](https://proto-dylan.github.io/RockPaperScissors/)
 - [Jasmeet's Solution](https://github.com/jasmeet9323/Rock-Paper-Scissors) - [View in Browser](https://jasmeet9323.github.io/Rock-Paper-Scissors/)
@@ -88,7 +89,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kevin Vuong's Browser Solution](https://github.com/fffear/javascript-rock-paper-scissors-browser) - [View in browser](https://fffear.github.io/javascript-rock-paper-scissors-browser/)
 - [Kevin Vuong's Solution](https://github.com/fffear/javascript-rock-paper-scissors) - [View in browser](https://fffear.github.io/javascript-rock-paper-scissors/)
 - [N00bG1rl's Solution](https://github.com/N00bG1rl/rps) - [View in Browser](https://n00bg1rl.github.io/rps/)
-- [John Paul's Solution](https://github.com/Omulosi/odin_js/tree/master/projects/rps)
 - [Jithin's Console Solution](https://github.com/jithindasad/r-p-s)
 - [Samuel Alonso's Solution](https://github.com/samontenegro/js_rock-paper-scissors)
 - [Diana's Solution](https://github.com/dianastanciu/rock-paper-scissors) - [View in browser](https://dianastanciu.github.io/rock-paper-scissors/)
