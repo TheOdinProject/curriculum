@@ -27,7 +27,7 @@ You'll be creating your own grid-based framework.
 
 ### Student Solutions
 
-Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_css_frameworks.md) on The Odin Project's curriculum GitHub repository with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_css_frameworks.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
