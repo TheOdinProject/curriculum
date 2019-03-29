@@ -19,7 +19,7 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 
 ### Student Solutions
 
-Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_bootstrap.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_bootstrap.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
