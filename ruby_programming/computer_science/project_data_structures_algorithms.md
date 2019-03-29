@@ -200,6 +200,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nicolas Espinoza's solution](https://github.com/nicospz/knight-moves/blob/master/knight-moves.rb)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/knight_moves.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/knights-moves)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/knight_work)
