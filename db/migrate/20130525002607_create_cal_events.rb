@@ -1,4 +1,4 @@
-class CreateCalEvents < ActiveRecord::Migration
+class CreateCalEvents < ActiveRecord::Migration[5.0]
   def change
     create_table :cal_events do |t|
       t.string :summary
@@ -14,6 +14,6 @@ class CreateCalEvents < ActiveRecord::Migration
     add_index :cal_events, :creator_id
     add_index :cal_events, :start
     add_index :cal_events, :end
-    
+
   end
 end

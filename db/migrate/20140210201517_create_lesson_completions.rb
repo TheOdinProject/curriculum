@@ -1,4 +1,4 @@
-class CreateLessonCompletions < ActiveRecord::Migration
+class CreateLessonCompletions < ActiveRecord::Migration[5.0]
   def change
     create_table :lesson_completions do |t|
       t.integer :lesson_id

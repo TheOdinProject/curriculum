@@ -1,4 +1,4 @@
-class AddConfirmableForReal < ActiveRecord::Migration
+class AddConfirmableForReal < ActiveRecord::Migration[5.0]
   # Note: You can't use change, as User.update_all with fail in the down migration
   def self.up
     add_column :users, :confirmation_token, :string

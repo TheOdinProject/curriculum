@@ -1,4 +1,4 @@
-class CreateContentBuckets < ActiveRecord::Migration
+class CreateContentBuckets < ActiveRecord::Migration[5.0]
   def change
     create_table :content_buckets do |t|
       t.string :name, :null => false

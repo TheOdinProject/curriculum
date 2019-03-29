@@ -1,4 +1,4 @@
-class CreateUserProviders < ActiveRecord::Migration[5.0]
+class CreateUserProviders < ActiveRecord::Migration[5.0][5.0]
   def change
     create_table :user_providers do |t|
       t.references :user, index: true

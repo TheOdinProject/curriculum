@@ -1,4 +1,4 @@
-class SuccessStories < ActiveRecord::Migration[5.0]
+class SuccessStories < ActiveRecord::Migration[5.0][5.0]
   def change
     create_table(:success_stories) do |table|
       table.string :student_name

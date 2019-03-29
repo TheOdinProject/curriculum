@@ -1,4 +1,4 @@
-class AddTitleUrlToCoursesAndLessonsAndSections < ActiveRecord::Migration
+class AddTitleUrlToCoursesAndLessonsAndSections < ActiveRecord::Migration[5.0]
   def change
     add_column :courses, :title_url, :string
     add_column :sections, :title_url, :string

@@ -1,4 +1,4 @@
-class CreateAds < ActiveRecord::Migration
+class CreateAds < ActiveRecord::Migration[5.0]
   def change
     create_table :ads do |t|
       t.string :image_path, :null => false
