@@ -177,6 +177,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution (one line)](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/06_fibonacci/fibonacci.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/recursion/fibonacci.rb)
 * [vanny96's Solution](https://github.com/vanny96/recursion)
+* [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/tree/master/recursion-odin-exercises/fibonacci)
 
 </details>
 
