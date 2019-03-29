@@ -28,12 +28,13 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) or by editing [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_design.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ricala's solution](https://github.com/Ricala/design-teardown) - [View in browser](https://ricala.github.io/design-teardown/)
 * [ARaut9's solution](https://github.com/ARaut9/smashing_design_teardown) - [View in browser](https://araut9.github.io/smashing_design_teardown/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/design) - [View in browser](https://n00bg1rl.github.io/design/)
 * [Billy's solution](https://github.com/bcoffin9/SmashingBreakdown) - [View in Browser](https://bcoffin9.github.io/SmashingBreakdown/)
