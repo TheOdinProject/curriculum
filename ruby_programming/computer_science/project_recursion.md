@@ -210,6 +210,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/recursion/tree/master/merge_sort)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)
 * [Simon Tharby's solution](https://github.com/jinjagit/recursion/blob/master/merge.rb)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/recursive)
