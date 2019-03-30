@@ -2054,10 +2054,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dean's Solution (Easy)](https://github.com/JuicyMelon/google-clone) - [View in Browser](https://juicymelon.github.io/google-clone/)
 * [Brenton's Solution (Easy)](https://github.com/bpahl78/google-homepage) - [View in Browser](https://bpahl78.github.io/google-homepage/)
 * [Amish's Solution (Easy)](https://github.com/AmishGoel1/google-homepage) - [View in Browser](https://amishgoel1.github.io/google-homepage/)
-* [Dreamraiderr's Solution (Easy)](https://github.com/Dreamraiderr/google-homepage) - [View in Browser](https://dreamraiderr.github.io/google-homepage/)
-* [Oliver Burt's Solution (Easy)](https://github.com/oliburt/google-homepage) - [View in Browser](https://oliburt.github.io/google-homepage/)
+* [Dreamraiderr's Solution (Easy)](https://github.com/Dreamraiderr/google-homepage) - [View in Browser](https://dreamraiderr.github.io/google-homepage/) - [DreamRaiders's Solution (Difficult)](https://github.com/Dreamraiderr/google-results) - [View in Browser](https://dreamraiderr.github.io/google-results/)
+* [Oliver Burt's Solution (Easy)](https://github.com/oliburt/google-homepage) - [View in Browser](https://oliburt.github.io/google-homepage/) 
 </details>
-
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
