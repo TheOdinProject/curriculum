@@ -253,5 +253,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Metin Karakus's Solution](https://github.com/metinkarakus/calculator) - [View in Browser](https://metinkarakus.github.io/calculator/)
 - [Jazzyclimber's Solution](https://github.com/jazzyclimber/js-calculator) - [View in Browser](https://jazzyclimber.github.io/js-calculator/)
 - [Jasmine Wright's Solution](https://github.com/jnwright/calculator) - [View in Browser](https://calculator-jnwright.netlify.com/)
+- [Adeleke Temitayo's Solution](https://github.com/lekegitrepo/Calculator) - [View in Browser](https://lekegitrepo.github.io/Calculator/)
 
 </details>
