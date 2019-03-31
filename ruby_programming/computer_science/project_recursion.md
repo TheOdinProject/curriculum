@@ -370,6 +370,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/07_merge_sort/merge_sort.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/recursion/merge.rb)
 * [vanny96's Solution](https://github.com/vanny96/recursion)
+* [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/tree/master/recursion-odin-exercises/mergesort)
 
 </details>
 
