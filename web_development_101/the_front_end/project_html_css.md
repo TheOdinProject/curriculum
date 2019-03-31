@@ -2057,6 +2057,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dreamraiderr's Solution (Easy)](https://github.com/Dreamraiderr/google-homepage) - [View in Browser](https://dreamraiderr.github.io/google-homepage/) - [DreamRaiders's Solution (Difficult)](https://github.com/Dreamraiderr/google-results) - [View in Browser](https://dreamraiderr.github.io/google-results/)
 * [Oliver Burt's Solution (Easy)](https://github.com/oliburt/google-homepage) - [View in Browser](https://oliburt.github.io/google-homepage/) 
 * [David Davies' Solution (Easy)](https://github.com/daviesodavid/google-homepage) - [View in Browser](https://daviesodavid.github.io/google-homepage/)
+* [TheNaturalWill's Solution (Easy)](https://github.com/thenaturalwill/google-homepage) - [View in Browser](https://thenaturalwill.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
