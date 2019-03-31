@@ -13,10 +13,8 @@ def caesar_cipher(str, shift)
     else
       caesar << letter
     end
-
   end
 puts caesar
   end
-
 
 caesar_cipher("Hello, World", 9)
