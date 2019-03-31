@@ -29,6 +29,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Simon Tharby's solution](https://github.com/jinjagit/flight-mailer)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker.git) | [Live](https://safe-peak-87499.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/growlithe)
 * [Raiko's solution](https://github.com/Cypher0/odin-flight-booker) - [View in Browser](https://salty-anchorage-35246.herokuapp.com/)
