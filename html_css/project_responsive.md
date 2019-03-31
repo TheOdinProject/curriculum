@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ricala's solution](https://github.com/Ricala/tnw-responsive-design) - [View in browser](https://ricala.github.io/tnw-responsive-design/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/responsive) - [View in browser](https://n00bg1rl.github.io/responsive/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/thenextweb.html)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/responsive_design) - [View in browser](https://cmacswan07.github.io/responsive_design/index.html)
