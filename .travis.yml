@@ -1,7 +1,7 @@
 sudo: required
 language: ruby
 rvm:
-  - 2.5.0
+  - 2.6.2
 services:
   - postgresql
 before_script:

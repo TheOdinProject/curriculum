@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '~> 2.5.0'
+ruby '~> 2.6.2'
 
-gem 'rails',                      '~> 5.1'
+gem 'rails',                      '~> 5.2'
 gem 'puma',                       '~> 3.11.2'
 gem 'turbolinks'
 gem 'jquery-rails',               '~> 4.3.1'
