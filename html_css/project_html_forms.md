@@ -22,6 +22,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bola Buari's solution](https://github.com/bolah2009/mint-clone) - [View in browser](https://bolah2009.github.io/mint-clone)
+* [Ohlie's solution](https://github.com/lco1220/mint_signup_page) - [View in browser](https://lco1220.github.io/mint_signup_page/)
 * [Jason McKee's solution](https://github.com/jttmckee/mint-signup) - [View in browser](https://jttmckee.github.io/mint-signup/)
 * [Ricala's solution](https://github.com/Ricala/mint-signup) - [View in browser](https://ricala.github.io/mint-signup/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/form) - [View in browser](https://n00bg1rl.github.io/form/)
