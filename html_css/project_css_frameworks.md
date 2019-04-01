@@ -26,9 +26,14 @@ You'll be creating your own grid-based framework.
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_css_frameworks.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [N00bG1rl's solution](https://github.com/N00bG1rl/framework) - [View in browser](https://n00bg1rl.github.io/framework/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/cloud9-clone) - [View in Browser](https://javier-machin.github.io/cloud9-clone/)
 * [nmac's solution](https://github.com/nmacawile/css-framework) - [View](https://htmlpreview.github.io/?https://github.com/nmacawile/css-framework/blob/master/index.html)
 * [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Design-Your-Own-Grid-Based-Framework) - [View in Browser]( https://sarfrazanjum.github.io/TOP_Design-Your-Own-Grid-Based-Framework/)
@@ -50,6 +55,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Francisco Carlos's - Scaffold Framework](https://github.com/fcarlosdev/the_odin_project/tree/master/grid-framework) - [Example Site](https://github.com/fcarlosdev/the_odin_project/blob/master/thoughco) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/thoughco/index.html)
 * [aznafro's CSS Framework - Flik](https://github.com/aznafro/flik) - [Final Project Git Page](https://github.com/aznafro/natgeo) - [View site in browser](https://aznafro.github.io/natgeo/)
 
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

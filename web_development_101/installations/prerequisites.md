@@ -63,7 +63,7 @@ The rest of the installation is pretty straightforward, but if you have any ques
 
  Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. Guest Additions add a lot of functionality to the Guest OS, such as "Drag n Drop" files, full-screen guest mode, shared folders, and copy/paste between the host and guest.
 
-Installing Guest Additions is the hardest part of setting up a VM, but luckily, we have Youtube. Check out [this video](https://www.youtube.com/watch?v=qNecdUsuTPw) by ProgrammingKnowledge on how to install Guest Additions. Their installation may look different than yours, but all of the commands are the same.
+Installing Guest Additions is the hardest part of setting up a VM, but luckily, we have Guides. Check out [this article](http://www.fixedbyvonnie.com/2015/07/how-to-setup-xubuntu-linux-in-virtualbox-step-by-step/#.XDVqWVxKguU). You can simple scroll down to the portion that says `Installing Guest Additions in Xubuntu`.
 
 ### Step 4: Understand Your New VM
 
@@ -75,7 +75,7 @@ Here are some tips to help you get started coding in a virtual environment:
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
-* We recommend going full screen (Edit > Full-Screen Mode) and forgeting about your host OS (Windows).
+* We recommend going full screen (Edit > Full-Screen Mode) and forgetting about your host OS (Windows).
 
 </details>
 
@@ -178,3 +178,7 @@ ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
 * The WSL program files are well hidden, but it's super important that you do not edit these files from Windows. Altering these files will cause serious problems with your Ubuntu installation and possibly with your Windows installation.
 
 </details>
+
+**Please Note: We do not support Windows without a VM or WSL at this time, as many people have had problems developing with Rails while using Windows.** 
+
+The Odin Project has great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contrubute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
