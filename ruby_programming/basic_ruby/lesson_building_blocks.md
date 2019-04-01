@@ -103,12 +103,10 @@ Look through these now and then use them to test yourself after doing the assign
 
   1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
   2. Do the full [Codecademy Introduction to Ruby section](https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-ruby/) from their [Ruby Track](https://www.codecademy.com/catalog/language/ruby).
-  3. Read [Beginning Ruby](https://books.google.com/books?id=VCQGjDhhbn8C&lpg=PA27&pg=PA13#v=onepage&q&f=false) Chapter 2: `Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation`
-  4. Read [Beginning Ruby](https://books.google.com/books?id=VCQGjDhhbn8C&lpg=PA27&pg=PA31#v=onepage&q&f=false) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 29-46 (only the section on Numbers and Expressions and the section on Text and Strings)
-  5. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
-  6. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so)
-  7. Glance over this list of [Escape Characters](https://github.com/ruby/ruby/blob/trunk/doc/syntax/literals.rdoc#strings) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
-  8. For a deeper look at certain underserved pieces of the above material, check out these posts from Erik Trautman:
+  3. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
+  4. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so)
+  5. Glance over this list of [Escape Characters](https://github.com/ruby/ruby/blob/trunk/doc/syntax/literals.rdoc#strings) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
+  6. For a deeper look at certain underserved pieces of the above material, check out these posts from Erik Trautman:
       1. [Ruby Explained: Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
       2. [Ruby Explained: Objects and Methods](http://www.eriktrautman.com/posts/ruby-explained-objects-and-methods)
       3. [Ruby Explained: Strings](http://www.eriktrautman.com/posts/ruby-explained-strings)

@@ -16,9 +16,16 @@ In this project you'll clone the website of one of the most design-forward compa
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_backgrounds.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ricala's solution](https://github.com/Ricala/apple-mock-page) - [View in browser](https://ricala.github.io/apple-mock-page/)
+* [ARaut9's solution](https://github.com/ARaut9/apple.com_old) - [View in browser](https://araut9.github.io/apple.com_old/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/apple-archive) - [View in browser](https://n00bg1rl.github.io/apple-archive/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/apple.html)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/apple_page) - [View in Browser](https://cmacswan07.github.io/apple_page/index.html)
 * [Javier Machin's solution](https://github.com/Javier-Machin/apple-site) - [View in Browser](https://javier-machin.github.io/apple-site/)
@@ -78,6 +85,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Apple-homepage) - [View in browser](https://areebaishtiaq.github.io/Apple-homepage/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/applemockup) - [View in browser](https://taylorjohannsen.github.io/applemockup/)
 * [Ghassan's solution](https://github.com/GT001/TOP-Apple.com-Clone) - [View in browser](https://gt001.github.io/TOP-Apple.com-Clone/)
+* [Doris's solution](https://github.com/dsmchen/apple-homepage) - [view in browser](https://dsmchen.github.io/apple-homepage/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
