@@ -2044,6 +2044,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tiffany Santos' solution (easy)](https://github.com/tiffanysantos/google-homepage/) - [View in Browser](https://tiffanysantos.github.io/google-homepage/)
 * [Adriel Bruno's solution (easy)](https://github.com/AdrielTrigger/odinproject_googleclone/) - [View in Browser](https://AdrielTrigger.github.io/odinproject_googleclone/?)
 * [LastCapricorn's solution (easy)](https://github.com/LastCapricorn/google-homepage/) - [View in Browser](https://lastcapricorn.github.io/google-homepage/)
+* [Danish's Solution (easy)](https://github.com/Danish099/google-homepage) - [View In Browser](https://danish099.github.io/google-homepage/)
 * [LastCapricorn's solution (difficult)](https://github.com/LastCapricorn/google-search-results-page/) - [View in Browser](https://lastcapricorn.github.io/google-search-results-page/)
 * [DaveMcGlashan's solution (easy)](https://github.com/DaveMcGlashan/google-homepage) - [View in Browser](https://davemcglashan.github.io/google-homepage/)
 * [Nabeel El-Habbash's Solution (Easy)](https://github.com/nabeels91/google-homepage) - [View in Browser](https://nabeels91.github.io/google-homepage/)
@@ -2059,6 +2060,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [David Davies' Solution (Easy)](https://github.com/daviesodavid/google-homepage) - [View in Browser](https://daviesodavid.github.io/google-homepage/)
 * [TheNaturalWill's Solution (Easy)](https://github.com/thenaturalwill/google-homepage) - [View in Browser](https://thenaturalwill.github.io/google-homepage/)
 * [todoroff's Solution (Easy)](https://github.com/todoroff/google-homepage) - [View in Browser](https://todoroff.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
