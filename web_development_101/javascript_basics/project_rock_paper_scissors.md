@@ -571,4 +571,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Griger's Solution](https://github.com/Griger/RockPaperScissors) - [View in Browser](https://griger.github.io/RockPaperScissors/)
 - [LastCapricorn's Solution](https://github.com/LastCapricorn/rock_paper_scissors) - [View in Browser](https://lastcapricorn.github.io/rock_paper_scissors/)
 - [MlBaraldi's Solution](https://github.com/Markbass1/RockPaperScissorGame)
+- [Echendu Victor Ikenna's (Morlimoore) Solution](https://github.com/morlimoore/rock-paper-scissors) - [View in Browser](https://morlimoore.github.io/rock-paper-scissors/)
 </details>
