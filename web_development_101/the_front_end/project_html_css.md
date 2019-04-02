@@ -87,6 +87,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Robert Kalnins's Solution (easy)](https://github.com/robertkalnins/google-homepage)-
+[View in Browser](https://robertkalnins.github.io/google-homepage/)
 * [Dave Liszewski's Solution (easy)](https://github.com/DLiszewski13/google-homepage)-
 [View in Browser](https://dliszewski13.github.io/google-homepage/)
 * [Alain Suarez's Solution (Easy)](https://gitlab.com/asuar/google-homepage) - [View in Browser](https://asuar.gitlab.io/google-homepage/) - [Alain Suarez's Solution (Difficult)](https://gitlab.com/asuar/google-search-results) - [View in Browser](https://asuar.gitlab.io/google-search-results/)
