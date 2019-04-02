@@ -113,6 +113,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Samuel Oswald's Solution](https://github.com/smozwald/pomodoro) - [View in Browser](https://smozwald.github.io/pomodoro/)
 * [Franklyn Afeso's solution](https://github.com/afeso/pomodoro) - [View in Browser](https://afeso.github.io/pomodoro)
 * [keskiviikko's solution](https://github.com/keskiviikko/project-pomodoro) - [View in Browser](https://keskiviikko.github.io/project-pomodoro/)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/pomodoro-clock) - [View in Browser](https://sergyurch.github.io/pomodoro-clock/)
 
 </details>
 

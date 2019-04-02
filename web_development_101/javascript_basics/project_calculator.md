@@ -238,6 +238,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [vulence's Solution (mobile responsive)](https://github.com/vulence/calculator) - [View in Browser](https://vulence.github.io/calculator/)
 - [allden's Solution](https://github.com/allden/calculator) - [View in Browser](https://allden.github.io/calculator/)
 - [Doris's solution](https://github.com/dsmchen/calculator) - [view in browser](https://dsmchen.github.io/calculator/)
+- [Natcancein's solution](https://github.com/Natcancein/the_odin_project/tree/master/calculator) - [view in browser](https://natcancein.github.io/the_odin_project/calculator/)
 - [Nick Trahan's Solution](https://github.com/Nick-Trahan/calculator-odin) - [View in browser](https://nick-trahan.github.io/calculator-odin/)
 - [antdricot's Solution](https://github.com/antdricot/odin-project-calculator) - [View in browser](https://antdricot.github.io/odin-project-calculator/)
 - [Nick Wegscheid's Solution](https://github.com/nsw125/calculator) - [View in browser](https://nsw125.github.io/calculator/)
@@ -253,5 +254,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Metin Karakus's Solution](https://github.com/metinkarakus/calculator) - [View in Browser](https://metinkarakus.github.io/calculator/)
 - [Jazzyclimber's Solution](https://github.com/jazzyclimber/js-calculator) - [View in Browser](https://jazzyclimber.github.io/js-calculator/)
 - [Jasmine Wright's Solution](https://github.com/jnwright/calculator) - [View in Browser](https://calculator-jnwright.netlify.com/)
+- [Adeleke Temitayo's Solution](https://github.com/lekegitrepo/Calculator) - [View in Browser](https://lekegitrepo.github.io/Calculator/)
+- [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/simple_calculator) - [View in Browser](https://amarcoscastelo.github.io/simple_calculator/)
 
 </details>
+
