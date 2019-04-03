@@ -153,6 +153,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Mojotron's solution](https://github.com/mojotron/binary-search-tree)
 * [vanny96's Solution](https://github.com/vanny96/binary-trees)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/binary_tree.rb)
+* [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/binary_search_tree.rb)
 
 </details>
 
