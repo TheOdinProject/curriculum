@@ -420,6 +420,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/caesar.rb)
 * [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/caesar_cipher/caesar_cipher.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/caesar-cipher-ruby/blob/master/caesar-cipher.rb)
 
 </details>
 
