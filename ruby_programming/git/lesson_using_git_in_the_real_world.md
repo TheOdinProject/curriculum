@@ -36,22 +36,22 @@ The key players in this story will be the `upstream` (the original Github reposi
 
 #### Ongoing Workflow
 
-We've got two main branches -- `master` and `dev`.  `master` is just for production-ready code.  Any code deployed to `master` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `dev` branch.  Pretend `master` doesn't even exist.
+We've got one main branch -- `master`.  `master` is for production-ready code.  Any code deployed to `master` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `master` branch.
 
-4. Create a new feature branch for whatever feature you want to build, using `$ git checkout -b your_feature_name`.  
+4. Create a new feature branch for whatever feature you want to build, using `$ git checkout -b your_feature_name`.
 5. Code, commit, code, commit, code, commit (see a pattern?)
-6. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `master` and `dev` branches are probably out of date.  Fetch the most updated copies of these using `$ git fetch upstream`.
-7. Type `$ git branch --all` to see a list of all the branches, including the ones that are normally hidden (e.g. the remote branches you just grabbed).  You should see `upstream/master` and `upstream/dev` among them.
-8. Now merge the upstream's changes into your local version of `dev` using `$ git merge`.  Specifically, you'll first want to `$ git checkout dev` to get onto the `dev` branch and then `$ git merge upstream/dev` to merge in those upstream changes that we just fetched.  
+6. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `master` branch is probably out of date.  Fetch the most updated copy using `$ git fetch upstream`.
+7. Type `$ git branch --all` to see a list of all the branches, including the ones that are normally hidden (e.g. the remote branches you just grabbed).  You should see `upstream/master` among them.
+8. Now merge the upstream's changes into your local version of `master` using `$ git merge`.  Specifically, you'll first want to make sure you're on your `master` branch using `$ git checkout master` and then `$ git merge upstream/master` to merge in those upstream changes that we just fetched.  
 9. Note that a `$ git fetch upstream` followed by a `$ git merge upstream/some_branch` is the EXACT same thing as doing a `$ git pull upstream/some_branch`.  I prefer to split it up so I can explicitly walk through the steps.
-9. Now that your `dev` branch is up-to-date, you need to merge it into your feature branch.  Yes, that is correct and it seems odd at first.  Don't you want to merge the feature branch into the `dev` branch instead?  Yes, you do, *but not yet*.  **Your feature branch is dirty.**  You don't know if it has any conflicts which might creep up.  Any time you are merging in more "senior" branches (e.g. merging the feature into `dev` or the `dev` into `master`), you want it to be a clean and conflict-free merge.  So you first merge the "senior" branch into your dirty branch to resolve those conflicts.  So do a `$ git checkout your_feature_name` to jump back onto your feature branch then a  `$ git merge dev` to merge `dev` into it.
+9. Now that your `master` branch is up-to-date with upstream, you need to merge it into your feature branch.  Yes, that is correct and it seems odd at first.  Don't you want to merge the feature branch into the `master` branch instead?  Yes, you do, *but not yet*.  **Your feature branch is dirty.**  You don't know if it has any conflicts which might creep up.  Any time you are merging in more "senior" branches (e.g. merging the feature into `master`), you want it to be a clean and conflict-free merge.  So you first merge the "senior" branch into your dirty branch to resolve those conflicts.  So do a `$ git checkout your_feature_name` to jump back onto your feature branch then a  `$ git merge master` to merge `master` into it.
 9. You may have merge conflicts... resolve those with `$ git mergetool` or just manually open up the files that have conflicts.  Basically, merge conflicts will insert markers into your conflicting files to denote what lines are part of the incoming code and which lines are part of your pre-existing code. You'll need to manually edit those files one-by-one (including removing the merge marker text) and then resave them.  Once you've finished fixing all the files that have conflicts, you need to commit your changes to finish the merge.
 
 #### Sending Your Pull Request
 
-10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `dev`, the hard part is all over.  Merge into `dev` with `$ git checkout dev` `$ git merge your_feature_name`.
-11. Now you want to send your local version of the `dev` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin dev` to ship `dev` up to your fork on Github.
-12. Finally, submit a pull request to send your forked version of `dev` back to the original `upstream` repository's `dev` branch.  This can be done using Github's interface.  You just need to make sure you're sending it back to the `dev` branch and not the `master` branch.
+10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `master`, the hard part is all over.  Merge into `master` with `$ git checkout master` followed by `$ git merge your_feature_name`.
+11. Now you want to send your local version of the `master` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin master` to ship `master` up to your fork on Github.
+12. Finally, submit a pull request to send your forked version of `master` back to the original `upstream` repository's `master` branch.  This can be done using Github's interface.  You just need to make sure you're sending it back to the `master` branch.
 13. Shake your moneymaker, you're an OSS contributor!
 
 ### Learning Outcomes
@@ -81,3 +81,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 * Need more still?  See [this meta-list of git tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/).
 * [Git Immersion](http://gitimmersion.com/lab_01.html) is another great tutorial to learn the shortcuts of git.
+* [Contributing to Open Source](https://youtu.be/mENDYhfxH-o) is a tutorial video reviewing this lesson.

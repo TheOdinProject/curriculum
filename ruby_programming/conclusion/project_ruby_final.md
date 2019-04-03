@@ -23,7 +23,13 @@ This is a great project to have as a part of your portfolio going forward becaus
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/conclusion/project_ruby_final.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/chess)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-chess-project)
+* [Simon Tharby's solution](https://github.com/jinjagit/chess)
 * [prw001's solution](https://github.com/prw001/chess)
 * [Max Garber's solution](https://github.com/bubblebooy/TOP-chess)
 * [Btreims's solution](https://github.com/btreim/chess)
@@ -93,6 +99,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matthew King's solution](https://github.com/thewmking/ruby-chess)
 * [Jamesredux's solution](https://github.com/Jamesredux/chess)
 * [Punnadittr's solution](https://github.com/punnadittr/chess)
+* [Alex's solution](https://github.com/alexcorremans/chess)
+* [Leila Alderman's solution](https://github.com/leila-alderman/chess)
+* [vanny96's solution](https://github.com/vanny96/chess)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

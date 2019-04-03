@@ -39,7 +39,7 @@ So if a layout is basically just a shell around the individual page, how does th
 
 The other thing you've undoubtedly noticed is the odd HTML code that goes inside `<%=` and `%>` tags.  This is Embedded Ruby (ERB).  It's a special way of executing ruby code inside your HTML.  HTML is static, so you need to dial in some Ruby if you want to do anything dynamic like looping, `if` statements or working with variables.  ERB (and another similar language you might see called HAML) do exactly that.
 
-What those tags do is execute whatever you see inside them exactly as if it was normal Ruby.  So `<%= "<em>I am emphasized</em>" %>` will output an emphasized piece of text like `<em>I am emphasized</em>` and `<%= @user.first_name %>` will output `joe`.
+What those tags do is execute whatever you see inside them exactly as if it was normal Ruby.  So `<%= "<em>I am emphasized</em>" %>` will output an emphasized piece of text like <em>I am emphasized</em> and `<%= @user.first_name %>` might output `joe`.
 
 The difference between `<%` and `<%=` is that the `<%=` version actually displays whatever is returned inside the ERB tags.  If you use `<%`, it will execute the code but, no matter what is returned by that line, it will not actually display anything in your HTML template.  
 
@@ -110,7 +110,7 @@ If there is no directory specified in partial's name, Rails will only look in th
 
 There's a lot you can do with partials and we won't dive into it all here, but the last thing that you might find yourself doing a lot is passing variables to partials.  A partial has access to all the variables that the calling view template does, but do NOT rely on them!  What if your partial is used by a different controller that uses a different structure for its instance variables?  It's bad code to expect an instance variable like `@user` to be there in the partial all the time. That means you've got to explicitly pass the partial whichever variables you want it to have access to.  
 
-In the example above, you most likely want to pass the `@user` variable to the partial so your code can render the right kind of form. `render` is just a regular method and it lets you pass it an options hash.  One of those options is the `:locals` key, which will contain the variables you want to pass.  Your code might change to look like:
+In the example above, you most likely want to pass the `@user` variable to the partial so your code can render the right kind of form. `render` is just a regular method and it lets you pass it an [options hash](https://stackoverflow.com/questions/18407618/what-are-options-hashes).  One of those options is the `:locals` key, which will contain the variables you want to pass.  Your code might change to look like:
 
 ~~~erb
   <%= render "shared/your_partial", :locals => { :user => user } %>

@@ -18,8 +18,6 @@ Look through these now and then use them to test yourself after doing the assign
 * Why is the idea of "CRUD" so important for web apps?
 * How do you get all the records from a table in SQL?
 * How do you insert a record in SQL?
-* What is a primary key?
-* What is a foreign key?
 
 ### Assignment
 
@@ -37,4 +35,3 @@ This section contains helpful links to other content. It isn't required, so cons
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
 * Hunter Ducharme created [an e-book](http://hgducharme.gitbooks.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
-* For more repetitions with the material, check out [SQL Teaching](http://www.sqlteaching.com), the "Codecademy for SQL" (and let us know what you think).

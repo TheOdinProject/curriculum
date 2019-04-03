@@ -4,7 +4,7 @@ You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_sear
 
 You also learned about tree search algorithms like breadth-first-search and depth-first-search.  You learned that BFS is best used to find the optimum solution but can take a very long time (impractically long for broad and deep data sets) while DFS is often much faster but will give you the FIRST solution, not necessarily the best.  Here you'll get a chance to implement both.
 
-### Assignment
+### Assignment 1
 You'll build a simple binary tree data structure from some arbitrary input and also the "crawler" function that will locate data inside of it.
 
 <div class="lesson-content__panel" markdown="1">
@@ -25,7 +25,15 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+    
 * Add your solution below this line!
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/binary_tree.rb)
+* [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/binary-tree)
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/binary_trees)
+* [Simon Tharby's solution](https://github.com/jinjagit/binary_tree)
+* [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/searching_binary_trees.rb)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/odin-project-data-structures-and-algorithms/blob/master/bst.rb)
 * [prw001's Solution](https://github.com/prw001/binary_tree_dfs_bfs)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Binary%20Tree.rb)
@@ -138,6 +146,16 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Punnadittr's solution](https://github.com/punnadittr/binary_tree/blob/master/binary_tree.rb)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/binary-tree/blob/master/node.rb)
 * [Alex's solution](https://github.com/alexcorremans/binary_search_tree)
+* [Tommy's solution](https://github.com/hoangtommy/dataStructures-Algorithms)
+* [Emil Dimitrov's solution](https://github.com/imemdm/searching-binary-trees)
+* [Leila Alderman's solution](https://github.com/leila-alderman/binary-tree)
+* [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
+* [Mojotron's solution](https://github.com/mojotron/binary-search-tree)
+* [vanny96's Solution](https://github.com/vanny96/binary-trees)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/binary_tree.rb)
+* [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/binary_search_tree.rb)
+
+</details>
 
 ### Project 2: Knight's Travails
 
@@ -151,7 +169,7 @@ All the possible places you can end up after one move look like this:
 
 <img src="https://i.imgur.com/mHQqH08.gif">
 
-### Assignment
+### Assignment 2
 Your task is to build a function `knight_moves` that shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
@@ -179,7 +197,15 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+    
 * Add your solution below this line!
+* [Nicolas Espinoza's solution](https://github.com/nicospz/knight-moves/blob/master/knight-moves.rb)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/knight_moves.rb)
+* [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/knights-moves)
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/knight_work)
+* [Simon Tharby's solution](https://github.com/jinjagit/knight)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/odin-project-data-structures-and-algorithms/blob/master/knight-moves.rb)
 * [prw001's Solution](https://github.com/prw001/knight_moves)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/chess.rb)
@@ -291,8 +317,11 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Akash's Solution](https://github.com/Akash-sopho/knights_travels)
 * [Areeba's Solution](https://github.com/AREEBAISHTIAQ/knight-travails/blob/master/knight-travails.rb)
 * [Alex's solution](https://github.com/alexcorremans/knight)
+* [Emil Dimitrov's solution](https://github.com/imemdm/knight-moves)
+* [Leila Alderman's solution](https://github.com/leila-alderman/knight_moves)
+* [Martyn Jones' solution](https://github.com/martynj2001/binarytree)
+* [Mojotron's solution](https://github.com/mojotron/graph_with_knights_travails)
+* [vanny96's solution](https://github.com/vanny96/binary-trees)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/knight_moves.rb)
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
-* More on [Binary Search Trees from Coursera](https://www.youtube.com/watch?v=pJ6aeg8x1Ig)... it gets a bit technical.
+</details>

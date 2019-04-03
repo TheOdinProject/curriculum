@@ -1,6 +1,6 @@
 ### Introduction
 
-You should be familiar with forms, both as a normal Internet user and as an HTML programmer who has done the [Introduction to Web Development course](/web-development-101).  But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
+You should be familiar with forms, both as a normal Internet user and as an HTML programmer who has done the [Introduction to Web Development course](https://www.theodinproject.com/courses/web-development-101).  But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
 
 Up until now, we've been thinking about Models in Rails on sort of a one-off basis.  The User model.  The Post model.  Sometimes we've had the models relate to each other via associations, like that a Post can `has_many` Comment objects.  Usually, though, we tend to silo our thoughts to only deal with one at a time.
 
@@ -8,7 +8,7 @@ Now think about a web form to buy an airline ticket.  You probably need to enter
 
 Most forms won't be that long or complicated for you, but it's useful to appreciate all the things you can (and one day will) do with them.  It's incredibly easy to make a basic form so the first thing we'll do is make sure you've got an intimate understanding of how forms are created in HTML and then how Rails offers you some helpers to make your life easier.  We'll cover the way data is structured and sent to the controller until you feel pretty comfortable with that.  Then a later lesson will deal with how to take that basic understanding and make forms handle some more firepower.
 
-### learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
 * How can you view what was submitted by a form?
@@ -36,7 +36,7 @@ Step one is to be able to create a form in HTML.  Remember how that looks?
   </form>
 ~~~
 
-There are plenty of `input` tags to choose from, including `button`, `checkbox`, `date`, `hidden`, `password`, `radio` and many more (see [the w3 schools list under the `type` attribute](http://www.w3schools.com/tags/tag_input.asp)).
+There are plenty of `input` tags to choose from, including `button`, `checkbox`, `date`, `hidden`, `password`, `radio` and many more (see [the full list from W3 Schools](https://www.w3schools.com/html/html_form_input_types.asp)).
 
 ### Viewing What Your Form Submits
 
@@ -203,7 +203,7 @@ The best part about Rails form helpers... they handle errors automatically too! 
 
 ### Making PATCH and DELETE Submissions
 
-Forms aren't really designed to natively delete objects because browsers only support GET and POST requests.  Rails gives you a way around that by sticking a hidden field named "\_method" into your form.  It tells Rails that you actually want to do either a PATCH (aka PUT) or DELETE request (whichever you specified), and might look like `<input name="\_method" type="hidden" value="patch">`.
+Forms aren't really designed to natively delete objects because browsers only support GET and POST requests.  Rails gives you a way around that by sticking a hidden field named "\_method" into your form.  It tells Rails that you actually want to do either a PATCH (aka PUT) or DELETE request (whichever you specified), and might look like `<input name="_method" type="hidden" value="patch">`.
 
 You get Rails to add this to your form by passing an option to `form_for` or `form_tag` called `:method`, e.g.:
 
