@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kenneth Auwers's Solution](https://github.com/R0259640/Project-Building-Blocks/blob/master/ceasar_cipher.rb)
 * [Jacques Hovine's Solution](https://github.com/jacqueshovine/TOP_Ruby/blob/master/caesar_cipher.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/caesar_cipher.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/caesar.rb)
@@ -421,6 +422,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [HanJosmer's Solution](https://github.com/HanJosmer/learn_ruby/blob/master/project_building_blocks/caesar.rb)
 * [vanny96's Solution](https://github.com/vanny96/building-blocks)
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/caesar_cipher/caesar_cipher.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/caesar-cipher-ruby/blob/master/caesar-cipher.rb)
 
 </details>
 
@@ -831,6 +833,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jacques Hovine's Solution](https://github.com/jacqueshovine/TOP_Ruby/blob/master/substrings.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/substrings.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/substrings.rb)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/TOP-ruby_programming/tree/master/03_substring)

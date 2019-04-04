@@ -510,6 +510,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Caleb's Solution](https://github.com/calebrauscher/learn_ruby)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/learn_ruby)
 * [Ben Fowler's Solution](https://github.com/benfowler04/learn_ruby)
+* [Andres Sewell's Solution](https://github.com/siramok/learn_ruby)
 
 </details>
 

@@ -87,6 +87,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Luis Mendes' Solution (easy)](https://github.com/LuisM-Dev/google-homepage) - [View in Browser](https://luism-dev.github.io/google-homepage/)
+* [Robert Kalnins's Solution (easy)](https://github.com/robertkalnins/google-homepage)-
+[View in Browser](https://robertkalnins.github.io/google-homepage/)
 * [Dave Liszewski's Solution (easy)](https://github.com/DLiszewski13/google-homepage)-
 [View in Browser](https://dliszewski13.github.io/google-homepage/)
 * [Alain Suarez's Solution (Easy)](https://gitlab.com/asuar/google-homepage) - [View in Browser](https://asuar.gitlab.io/google-homepage/) - [Alain Suarez's Solution (Difficult)](https://gitlab.com/asuar/google-search-results) - [View in Browser](https://asuar.gitlab.io/google-search-results/)
@@ -2061,6 +2064,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [TheNaturalWill's Solution (Easy)](https://github.com/thenaturalwill/google-homepage) - [View in Browser](https://thenaturalwill.github.io/google-homepage/)
 * [todoroff's Solution (Easy)](https://github.com/todoroff/google-homepage) - [View in Browser](https://todoroff.github.io/google-homepage/)
 * [alex-sir's Solution (Easy)](https://github.com/alex-sir/google-homepage) - [View in Browser](https://alex-sir.github.io/google-homepage/)
+* [Danish's Solution (Hard)](https://github.com/Danish099/Google-result-page) - [View in Browser](https://danish099.github.io/Google-result-page/)
 
 </details>
 
