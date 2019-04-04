@@ -374,6 +374,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [vanny96's Solution](https://github.com/vanny96/blogger) - [View in browser](https://enigmatic-shore-20767.herokuapp.com/)
 * [keskiviikko's Solution](https://github.com/keskiviikko/blogger)
 * [Ben Fowler's Solution](https://github.com/benfowler04/blogger) - [View in Browser](https://secure-fjord-73494.herokuapp.com/)
+* [LeonJMac's Solution](https://github.com/leonjmac/blogger) - [View in Browser](https://shrouded-mesa-76487.herokuapp.com/)
 
 </details>
 
