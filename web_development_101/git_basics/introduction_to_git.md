@@ -29,7 +29,7 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read Chapter 1.1 - 1.4 in [this book about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
+  1. Read Chapter 1.1 through 1.4 in [this book about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
   2. Watch [this video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how Git can improve the workflow of both an individual and a team of developers.
   3. Watch [this video](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) for some history on Git and GitHub, and make sure you know the difference between the two. Git is a technology used in the command line while GitHub is a [website](https://github.com/) you can visit.
   4. If you haven't yet, install Git on your computer. This is one of the steps of the Installation lessons that you should have already completed:
