@@ -2065,7 +2065,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [todoroff's Solution (Easy)](https://github.com/todoroff/google-homepage) - [View in Browser](https://todoroff.github.io/google-homepage/)
 * [alex-sir's Solution (Easy)](https://github.com/alex-sir/google-homepage) - [View in Browser](https://alex-sir.github.io/google-homepage/)
 * [Danish's Solution (Hard)](https://github.com/Danish099/Google-result-page) - [View in Browser](https://danish099.github.io/Google-result-page/)
-
+* [Meni's Solution (Easy)](https://github.com/TheMelpo/google_homepage) - [View in Browser](https://themelpo.github.io/google_homepage/)
 </details>
 
 ### Additional Resources
