@@ -69,6 +69,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/linked_lists)
+* [Kevin Vuong's Solution](https://github.com/fffear/linked_lists)
 * [Nicolas Espinoza's Solution](https://github.com/nicospz/linked_lists)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/linked-list)
 * [Learnsometing's Solution w/extras](https://github.com/learnsometing/TOP-ruby-projects/tree/master/ruby/computer-science/linked-list)
@@ -178,5 +180,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/tree/master/08_linked_list)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/linked-list)
 * [vanny96's Solution](https://github.com/vanny96/linked_lists)
+* [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/linked_lists.rb)
 
 </details>

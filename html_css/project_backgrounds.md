@@ -16,12 +16,14 @@ In this project you'll clone the website of one of the most design-forward compa
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_backgrounds.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bojo's solution](https://github.com/BojoZahariev/Apple-old) - [View in browser](https://bojozahariev.github.io/Apple-old/)
 * [Ricala's solution](https://github.com/Ricala/apple-mock-page) - [View in browser](https://ricala.github.io/apple-mock-page/)
 * [ARaut9's solution](https://github.com/ARaut9/apple.com_old) - [View in browser](https://araut9.github.io/apple.com_old/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/apple-archive) - [View in browser](https://n00bg1rl.github.io/apple-archive/)

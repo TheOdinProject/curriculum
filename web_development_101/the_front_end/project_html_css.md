@@ -87,6 +87,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Luis Mendes' Solution (easy)](https://github.com/LuisM-Dev/google-homepage) - [View in Browser](https://luism-dev.github.io/google-homepage/)
+* [Robert Kalnins's Solution (easy)](https://github.com/robertkalnins/google-homepage)-
+[View in Browser](https://robertkalnins.github.io/google-homepage/)
+* [Dave Liszewski's Solution (easy)](https://github.com/DLiszewski13/google-homepage)-
+[View in Browser](https://dliszewski13.github.io/google-homepage/)
 * [Alain Suarez's Solution (Easy)](https://gitlab.com/asuar/google-homepage) - [View in Browser](https://asuar.gitlab.io/google-homepage/) - [Alain Suarez's Solution (Difficult)](https://gitlab.com/asuar/google-search-results) - [View in Browser](https://asuar.gitlab.io/google-search-results/)
 * [Dylan Maloney's Solution (easy)](https://github.com/proto-dylan/google-homepage)-
 [View in Browser](https://proto-dylan.github.io/google-homepage/)
@@ -2042,6 +2047,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tiffany Santos' solution (easy)](https://github.com/tiffanysantos/google-homepage/) - [View in Browser](https://tiffanysantos.github.io/google-homepage/)
 * [Adriel Bruno's solution (easy)](https://github.com/AdrielTrigger/odinproject_googleclone/) - [View in Browser](https://AdrielTrigger.github.io/odinproject_googleclone/?)
 * [LastCapricorn's solution (easy)](https://github.com/LastCapricorn/google-homepage/) - [View in Browser](https://lastcapricorn.github.io/google-homepage/)
+* [Danish's Solution (easy)](https://github.com/Danish099/google-homepage) - [View In Browser](https://danish099.github.io/google-homepage/)
+* [LastCapricorn's solution (difficult)](https://github.com/LastCapricorn/google-search-results-page/) - [View in Browser](https://lastcapricorn.github.io/google-search-results-page/)
 * [DaveMcGlashan's solution (easy)](https://github.com/DaveMcGlashan/google-homepage) - [View in Browser](https://davemcglashan.github.io/google-homepage/)
 * [Nabeel El-Habbash's Solution (Easy)](https://github.com/nabeels91/google-homepage) - [View in Browser](https://nabeels91.github.io/google-homepage/)
 * [Kelly Joseph's solution (easy)](https://github.com/seisolo76/google-homepage/) - [View in Browser](https://seisolo76.github.io/google-homepage/) 
@@ -2051,10 +2058,15 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dean's Solution (Easy)](https://github.com/JuicyMelon/google-clone) - [View in Browser](https://juicymelon.github.io/google-clone/)
 * [Brenton's Solution (Easy)](https://github.com/bpahl78/google-homepage) - [View in Browser](https://bpahl78.github.io/google-homepage/)
 * [Amish's Solution (Easy)](https://github.com/AmishGoel1/google-homepage) - [View in Browser](https://amishgoel1.github.io/google-homepage/)
-* [Dreamraiderr's Solution (Easy)](https://github.com/Dreamraiderr/google-homepage) - [View in Browser](https://dreamraiderr.github.io/google-homepage/)
-* [Oliver Burt's Solution (Easy)](https://github.com/oliburt/google-homepage) - [View in Browser](https://oliburt.github.io/google-homepage/)
+* [Dreamraiderr's Solution (Easy)](https://github.com/Dreamraiderr/google-homepage) - [View in Browser](https://dreamraiderr.github.io/google-homepage/) - [DreamRaiders's Solution (Difficult)](https://github.com/Dreamraiderr/google-results) - [View in Browser](https://dreamraiderr.github.io/google-results/)
+* [Oliver Burt's Solution (Easy)](https://github.com/oliburt/google-homepage) - [View in Browser](https://oliburt.github.io/google-homepage/) 
+* [David Davies' Solution (Easy)](https://github.com/daviesodavid/google-homepage) - [View in Browser](https://daviesodavid.github.io/google-homepage/)
+* [TheNaturalWill's Solution (Easy)](https://github.com/thenaturalwill/google-homepage) - [View in Browser](https://thenaturalwill.github.io/google-homepage/)
+* [todoroff's Solution (Easy)](https://github.com/todoroff/google-homepage) - [View in Browser](https://todoroff.github.io/google-homepage/)
+* [alex-sir's Solution (Easy)](https://github.com/alex-sir/google-homepage) - [View in Browser](https://alex-sir.github.io/google-homepage/)
+* [Danish's Solution (Hard)](https://github.com/Danish099/Google-result-page) - [View in Browser](https://danish099.github.io/Google-result-page/)
+* [Meni's Solution (Easy)](https://github.com/TheMelpo/google_homepage) - [View in Browser](https://themelpo.github.io/google_homepage/)
 </details>
-
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
