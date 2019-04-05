@@ -794,6 +794,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/stock_picker/stock_picker.rb)
 * [Ashley Cook's Solution](https://github.com/Cooky90/StockPicker/blob/master/StockPicker.rb)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/ruby_building_blocks/blob/master/stock_picker.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/stock-picker-ruby/blob/master/stock-picker.rb)
 
 
 </details>
