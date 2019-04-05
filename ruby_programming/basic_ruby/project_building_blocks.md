@@ -1171,5 +1171,6 @@ Next, make sure your method can handle multiple words:
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/substrings/substrings.rb)
 * [Ifeanyichukwu Amajuoyi's solution](https://github.com/Anyitechs/The_odin_project)
 * [Ashley Cook's Solution](https://github.com/Cooky90/SubStrings/blob/master/Substrings.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/substrings-ruby/blob/master/substrings.rb)
 
 </details>
