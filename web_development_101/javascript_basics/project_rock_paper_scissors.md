@@ -576,4 +576,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Echendu Victor Ikenna's (Morlimoore) Solution](https://github.com/morlimoore/rock-paper-scissors) - [View in Browser](https://morlimoore.github.io/rock-paper-scissors/)
 - [William Mweemba's Solution](https://github.com/wmweemba/RockPaperScissors)
 - [Nika Topuria's Solution](https://github.com/topuchi13/rock_paper_scissors)
+- [Niccolas' Solution](https://github.com/NiccoMaganeli/rock-paper-scissors) - [View in Browser](https://niccomaganeli.github.io/rock-paper-scissors)
 </details>
