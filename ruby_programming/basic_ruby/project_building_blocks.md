@@ -1179,5 +1179,7 @@ Next, make sure your method can handle multiple words:
 * [Ifeanyichukwu Amajuoyi's solution](https://github.com/Anyitechs/The_odin_project)
 * [Ashley Cook's Solution](https://github.com/Cooky90/SubStrings/blob/master/Substrings.rb)
 * [Franklyn Afeso's solution](https://github.com/afeso/building_blocks/blob/master/substrings.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/substrings-ruby/blob/master/substrings.rb)
+
 
 </details>

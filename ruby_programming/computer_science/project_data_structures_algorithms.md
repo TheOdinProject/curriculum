@@ -29,6 +29,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/binary_trees)
 * [Kevin Vuong's Solution](https://github.com/fffear/binary_search_tree)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/binary_tree.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/binary-tree)

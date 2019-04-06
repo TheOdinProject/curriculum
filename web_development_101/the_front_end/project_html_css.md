@@ -87,6 +87,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Adrian Robles' Solution (Easy)](https://github.com/codingadrian/google-homepage) - [View in Browser](https://codingadrian.github.io/google-homepage/) - [Adrian Robles' Solution (Difficult)](https://github.com/codingadrian/google-search-results) - [View in Browser](https://codingadrian.github.io/google-search-results/)
+* [Matthew Blundell's Solution (easy)](https://github.com/MatthewBlundell/google-homepage) - [View in Browser](https://matthewblundell.github.io/google-homepage/) - [Matthew Blundell's Solution (Difficult)](https://github.com/MatthewBlundell/google-search-page) - [View in Browser](https://matthewblundell.github.io/google-search-page/)
 * [Luis Mendes' Solution (easy)](https://github.com/LuisM-Dev/google-homepage) - [View in Browser](https://luism-dev.github.io/google-homepage/)
 * [Robert Kalnins's Solution (easy)](https://github.com/robertkalnins/google-homepage)-
 [View in Browser](https://robertkalnins.github.io/google-homepage/)
@@ -2066,6 +2068,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [alex-sir's Solution (Easy)](https://github.com/alex-sir/google-homepage) - [View in Browser](https://alex-sir.github.io/google-homepage/)
 * [Danish's Solution (Hard)](https://github.com/Danish099/Google-result-page) - [View in Browser](https://danish099.github.io/Google-result-page/)
 * [Meni's Solution (Easy)](https://github.com/TheMelpo/google_homepage) - [View in Browser](https://themelpo.github.io/google_homepage/)
+* [Niccolas' Solution (Easy)](https://github.com/NiccoMaganeli/google-homepage) - [View in Browser](https://niccomaganeli.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
