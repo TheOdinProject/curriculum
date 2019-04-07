@@ -23,6 +23,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/odin-apple) - [View in browser](https://jttmckee.github.io/odin-apple/)
 * [Bojo's solution](https://github.com/BojoZahariev/Apple-old) - [View in browser](https://bojozahariev.github.io/Apple-old/)
 * [Ricala's solution](https://github.com/Ricala/apple-mock-page) - [View in browser](https://ricala.github.io/apple-mock-page/)
 * [ARaut9's solution](https://github.com/ARaut9/apple.com_old) - [View in browser](https://araut9.github.io/apple.com_old/)
