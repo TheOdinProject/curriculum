@@ -158,7 +158,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Justin D. Smith's solution](https://github.com/cinephile85/the-odin-project/tree/master/1-web-development-101/rock-paper-scissors)
 - [Alan's solution](https://github.com/Bernstein7z/rock-paper-scissors) - [View in Browser](https://bernstein7z.github.io/rock-paper-scissors/)
 - [Jacobo's console solution](https://github.com/cobimr/webdev_101_projects/tree/master/rpc-game-console) - [View in browser](https://cobimr.github.io/webdev_101_projects/rpc-game-console/) - [Jacobo's UI solution](https://github.com/cobimr/webdev_101_projects/tree/master/rpc-game-ui) - [View UI solution in browser](https://cobimr.github.io/webdev_101_projects/rpc-game-ui/)
-- [Bojo's solution](https://github.com/BojoZahariev/Rock_paper_scissors) - [View in browser](https://cdn.rawgit.com/BojoZahariev/Rock_paper_scissors/e04c975b/index.html)
+- [Bojo's solution](https://github.com/BojoZahariev/Rock_paper_scissors) - [View in browser](https://bojozahariev.github.io/Rock_paper_scissors/)
 - [Omid's solution](https://github.com/omid997/js-rock-paper-scissors-odin) - [View in browser](https://omid997.github.io/js-rock-paper-scissors-odin/)
 - [Nixikaz's Solution](https://github.com/Nixikaz/rockpaperscissors)
 - [Justin D. Smith's solution](https://github.com/cinephile85/The-Odin-Project/tree/master/1-Web_Development_101/rock_paper_scissors)
