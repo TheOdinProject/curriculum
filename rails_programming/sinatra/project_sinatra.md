@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/caesar_cipher) [Live](https://secure-escarpment-83147.herokuapp.com)
 * Smetanca52's Solution [GitHub](https://github.com/Smetanca52/sinatra_project) [Live](https://boiling-refuge-38884.herokuapp.com/)
 * Jason McKee's Solution [GitHub](https://github.com/jttmckee/sinatra-caesar-cipher) [Live](https://limitless-wave-11721.herokuapp.com)
 * Stefano Merazzi's Solution [GitHub](https://github.com/ste001/caesar-cipher-reloaded) [Live](https://fathomless-savannah-14730.herokuapp.com/)
@@ -131,6 +132,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/hangman) [Live](https://peaceful-taiga-48900.herokuapp.com/?)
 * Smetanca52's Solution [GitHub](https://github.com/Smetanca52) [Live](https://radiant-earth-83625.herokuapp.com/)
 * Jason McKee's Solution [GitHub](https://github.com/jttmckee/sinatra-hangman) [Live](https://agile-coast-84094.herokuapp.com)
 * prw001's Solution [Github](https://github.com/prw001/sinatra_games_suite) [Live](https://safe-peak-15193.herokuapp.com/)
