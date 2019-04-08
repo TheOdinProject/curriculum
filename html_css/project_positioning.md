@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bola Buari's solution](https://github.com/bolah2009/nyt-clone) - [View in browser](https://bolah2009.github.io/nyt-clone/)
 * [Jason McKee's solution](https://github.com/jttmckee/nyt-pretend.git) - [View in browser](https://jttmckee.github.io/nyt-pretend/index.html)
 * [Ricala's solution](https://github.com/Ricala/NYT-article-clone) - [View in browser](https://ricala.github.io/NYT-article-clone/)
 * [Bojo's solution](https://github.com/BojoZahariev/NY_Times_article) - [View in browser](https://bojozahariev.github.io/NY_Times_article/)
