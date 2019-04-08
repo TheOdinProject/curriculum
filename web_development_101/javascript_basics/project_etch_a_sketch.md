@@ -361,4 +361,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Bendee48's Solution](https://github.com/bendee48/etch-a-sketch) - [View in Browser](https://bendee48.github.io/etch-a-sketch/)
 * [JMG1995's Solution](https://github.com/JMG1995/etch-a-sketch) - [View in Browser](https://jmg1995.github.io/etch-a-sketch/)
 * [Daniel Trebilcock's solution](https://github.com/Trebilcode/Etch-a-Sketch) - [View in browser](https://trebilcode.github.io/Etch-a-Sketch/)
+* [LastCapricorn's solutiion](https://github.com/LastCapricorn/etch-a-sketch) - [View in Browser](https://lastcapricorn.github.io/etch-a-sketch/)
 </details>
