@@ -580,5 +580,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Niccolas' Solution](https://github.com/NiccoMaganeli/rock-paper-scissors) - [View in Browser](https://niccomaganeli.github.io/rock-paper-scissors)
 - [LastCapricorn's UI - Solution](https://github.com/LastCapricorn/rock_paper_scissors_ui) - [View in Browser](https://lastcapricorn.github.io/rock_paper_scissors_ui/)
 - [Alan Donohoe's Solution](https://github.com/donohoea/rock_paper_scissors)
-- [Nabil Shaahani Solution] (https://github.com/Nabil19911/ROCK-PAPER-SCISSORS/settings) - [View in Brower] (https://nabil19911.github.io/ROCK-PAPER-SCISSORS/)
+- [Nabil Shaahani Solution](https://github.com/Nabil19911/ROCK-PAPER-SCISSORS/settings) - [View in Brower](https://nabil19911.github.io/ROCK-PAPER-SCISSORS/)
 </details>
