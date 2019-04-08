@@ -106,7 +106,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Omid's Solution](https://github.com/omid997/etch-a-sketch-odin) - [View in browser](https://omid997.github.io/etch-a-sketch-odin/)
 * [Tobenski's Solution](https://github.com/tobenski/Etch_a_Sketch/) - [Live Version](https://tobenski.github.io/Etch_a_Sketch/)
 * [Teng Lin's Solution](https://github.com/tenglin2/Etch-A-Sketch) - [View in browser](https://tenglin2.github.io/Etch-A-Sketch)
-* [Bojo's solution](https://github.com/BojoZahariev/Sketch) - [View in browser](https://cdn.rawgit.com/BojoZahariev/Sketch/3717ea60/index.html)
+* [Bojo's solution](https://github.com/BojoZahariev/Sketch) - [View in browser](https://bojozahariev.github.io/Sketch/)
 * [Jacobo Martinez's solution](https://github.com/cobimr/webdev-101-projects/tree/master/hover-pixel) - [View in browser](https://cobimr.github.io/webdev-101-projects/hover-pixel/)
 * [Jeff Vergne's solution](https://github.com/JeffFromParis/etch-a-sketch-project) - [View in browser](https://jefffromparis.github.io/etch-a-sketch-project/)
 * [Hummeldon's solution](https://github.com/hummeldon/etch-a-sketch) - [View in browser](https://hummeldon.github.io/etch-a-sketch/)
