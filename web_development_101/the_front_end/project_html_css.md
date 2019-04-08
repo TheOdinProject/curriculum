@@ -2071,6 +2071,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Meni's Solution (Easy)](https://github.com/TheMelpo/google_homepage) - [View in Browser](https://themelpo.github.io/google_homepage/)
 * [Niccolas' Solution (Easy)](https://github.com/NiccoMaganeli/google-homepage) - [View in Browser](https://niccomaganeli.github.io/google-homepage/)
 * [Jefferson Baguien's Solution (Easy)](https://github.com/JeffBaguien/google-homepage) - [View in Browser](https://jeffbaguien.github.io/google-homepage/)
+* [Luky's Solution (Easy)](https://github.com/lcyne/google-homepage) - [View in Browser](https://lcyne.github.io/google-homepage)
 </details>
 
 ### Additional Resources
