@@ -579,4 +579,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nika Topuria's Solution](https://github.com/topuchi13/rock_paper_scissors)
 - [Niccolas' Solution](https://github.com/NiccoMaganeli/rock-paper-scissors) - [View in Browser](https://niccomaganeli.github.io/rock-paper-scissors)
 - [LastCapricorn's UI - Solution](https://github.com/LastCapricorn/rock_paper_scissors_ui) - [View in Browser](https://lastcapricorn.github.io/rock_paper_scissors_ui/)
+- [Alan Donohoe's Solution](https://github.com/donohoea/rock_paper_scissors)
 </details>
