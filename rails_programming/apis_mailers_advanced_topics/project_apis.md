@@ -154,6 +154,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/kitten)
 * [Malaika's Solution](https://github.com/malaikaMI/odin-kittens)
 * [bchalman's solution](https://github.com/bchalman/odin-kittens)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/odin-kittens) - [View in Browser](https://odin-kittens-0.herokuapp.com/)
 
 </details>
 
@@ -228,6 +229,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/Flickr_photos)
 * [Malaika's Solution](https://github.com/malaikaMI/flickr-browser)
 * [bchalman's solution](https://github.com/bchalman/odin-flickr-api)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/flickr-api) - [View in Browser](https://odin-flickr-api.herokuapp.com/)
 
 </details>
 
