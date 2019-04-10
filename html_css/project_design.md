@@ -28,9 +28,18 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_design.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bojo's solution](https://github.com/BojoZahariev/SmashingDesignTeardown) - [View in browser](https://bojozahariev.github.io/SmashingDesignTeardown/)
+* [Bola Buari's solution](https://github.com/bolah2009/design-teardown) - [View in browser](https://bolah2009.github.io/design-teardown/)
+* [Ricala's solution](https://github.com/Ricala/design-teardown) - [View in browser](https://ricala.github.io/design-teardown/)
+* [ARaut9's solution](https://github.com/ARaut9/smashing_design_teardown) - [View in browser](https://araut9.github.io/smashing_design_teardown/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/design) - [View in browser](https://n00bg1rl.github.io/design/)
 * [Billy's solution](https://github.com/bcoffin9/SmashingBreakdown) - [View in Browser](https://bcoffin9.github.io/SmashingBreakdown/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/smashing.html)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/design_teardown) - [View in Browser](https://cmacswan07.github.io/design_teardown/)
@@ -64,6 +73,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [huseins's solution](https://github.com/hosghf/Design-html-css) - [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/blob/master/teardown/) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/teardown/index.html)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -4,6 +4,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Start the project the same way you began the webpack tutorial project.
     1. run `npm init` in your project directory to generate a `package.json` file.
     
@@ -26,6 +27,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    
 1. Create a bare-bones home page for a restaurant. Include an image, headline, and some copy about how wonderful the restaurant is. It’s okay to hard-code these into the HTML for now just to see how they look on the page.
 
+
 1. Now remove those elements from the HTML (so leave only the `<html>`, `<body>`, and `<div id="content">` tags) and instead create them by using Javascript only, e.g. by appending each new element to the `div#content`once the page is first loaded. Since we're all set up to write our code in multiple files write this initial page-load function inside of it's own module and then import and call it inside of `index.js`.
 
 1. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages. [Look at #7 on this hongkiat post](http://www.hongkiat.com/blog/50-nice-clean-css-tab-based-navigation-scripts/) for visual inspiration.
@@ -42,7 +44,11 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 ### Student Solutions
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/restaurant-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 - Add your solution below this line!
+- [Ricala's solution](https://github.com/Ricala/restaurant-page) - [View in Browser](https://ricala.github.io/restaurant-page/)
 - [Aggy's solution](https://github.com/atarsa/odin-restaurant) - [View in Browser](https://atarsa.github.io/odin-restaurant/)
 - [Hammad Ahmed's solution](https://github.com/shammadahmed/restaurant-page) - [View in Browser](https://shammadahmed.github.io/restaurant-page)
 - [Nate Dimock's solution](https://github.com/Flakari/js-restaurant) - [View in Browser](https://flakari.github.io/js-restaurant/)
@@ -68,3 +74,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/restaurant-page) - [View in browser](https://fcarlosdev.github.io/restaurant-page/)
 - [aznafro's solution](https://github.com/aznafro/restaurant) - [View in browser](https://aznafro.github.io/restaurant/)
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Restaurant-page) - [View in browser](https://areebaishtiaq.github.io/Restaurant-page/)
+- [Valentino Valenti's solution](https://github.com/1ba1/restaurant-page) - [View in browser](https://1ba1.github.io/restaurant-page/)
+- [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Restaurant-Page) - [View in Browser](https://ubaid-manzoor.github.io/Restaurant-Page/)
+
+</details>

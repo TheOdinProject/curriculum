@@ -104,13 +104,12 @@ Look through these now and then use them to test yourself after doing the assign
       7. The Zen of Ruby
       8. The Refactor Factory
       9. Blocks, Procs, and Lambdas
-  2. Finish [Beginning Ruby](https://books.google.com.pk/books?id=MiGpDAAAQBAJ&printsec=frontcover#v=onepage&q&f=false) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 47-71)
-  3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
+  2. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
       1. [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
       2. [Ruby Explained: Iteration](http://www.eriktrautman.com/posts/ruby-explained-iteration)
       3. [Ruby Explained: Blocks, Procs, and Lambdas, aka "Closures"](http://www.eriktrautman.com/posts/ruby-explained-blocks-procs-and-lambdas-aka-closures)
-      5. [Ruby Explained: Map, Select, and Other Enumerable Methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
-      6. [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-writing-and-running-methods)
+      4. [Ruby Explained: Map, Select, and Other Enumerable Methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
+      5. [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-writing-and-running-methods)
 </div>
 
 ### Test Yourself

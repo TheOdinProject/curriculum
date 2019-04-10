@@ -138,9 +138,10 @@ Here is a brief look at some other common array methods you might run into:
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-  1. Read Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays), following along with the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
-  2.Read [The Definitive Guide to Ruby Arrays](https://www.rubyguides.com/2015/05/ruby-arrays/) by Jesus Castello.
-  3. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://ruby-doc.org/core-2.6/Array.html). Were you close?
+
+1. Read Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays), following along with the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
+2. Read [The Definitive Guide to Ruby Arrays](https://www.rubyguides.com/2015/05/ruby-arrays/) by Jesus Castello.
+3. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://ruby-doc.org/core-2.6/Array.html). Were you close?
 </div>
 
 ### Additional Resources
