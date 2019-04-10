@@ -39,6 +39,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [David França's Solution](https://github.com/davidjnf/rock-paper-scissors)
 - [DaveMcGlashan's solution](https://github.com/DaveMcGlashan/TOP-RPS) - [View in Browser](https://davemcglashan.github.io/TOP-RPS/index.HTML)
 - [Henry Naoto Ishiyama's Solution](https://github.com/TheDemonGuard/TheOdinProject/tree/master/RockPaperScissors)
 - [Nick Dmitrienko's Solution](https://github.com/JakeTheFriendlyDog/rock-paper-scissors) - [View In Browser](https://jakethefriendlydog.github.io/rock-paper-scissors/)
