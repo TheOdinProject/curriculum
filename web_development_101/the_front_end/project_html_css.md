@@ -2073,6 +2073,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jefferson Baguien's Solution (Easy)](https://github.com/JeffBaguien/google-homepage) - [View in Browser](https://jeffbaguien.github.io/google-homepage/)
 * [Luky's Solution (Easy)](https://github.com/lcyne/google-homepage) - [View in Browser](https://lcyne.github.io/google-homepage)
 * [Emmanuel Nwankwo' Solution (Easy)](https://github.com/emmanuelnwankwo/google-homepage) - [View in Brower](https://emmanuelnwankwo.github.io/google-homepage/)
+* [Faizan Abbas' Solution (Easy)](https://github.com/faizanabbas/google-homepage/) - [View in Browser](https://faizanabbas.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
