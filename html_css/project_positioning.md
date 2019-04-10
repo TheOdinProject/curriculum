@@ -27,6 +27,10 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bola Buari's solution](https://github.com/bolah2009/nyt-clone) - [View in browser](https://bolah2009.github.io/nyt-clone/)
+* [Jason McKee's solution](https://github.com/jttmckee/nyt-pretend.git) - [View in browser](https://jttmckee.github.io/nyt-pretend/index.html)
+* [Ricala's solution](https://github.com/Ricala/NYT-article-clone) - [View in browser](https://ricala.github.io/NYT-article-clone/)
+* [Bojo's solution](https://github.com/BojoZahariev/NY_Times_article) - [View in browser](https://bojozahariev.github.io/NY_Times_article/)
 * [ARaut9's solution](https://github.com/ARaut9/nyt_Article_clone) - [View in browser](https://araut9.github.io/nyt_Article_clone/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/article) - [View in browser](https://n00bg1rl.github.io/article/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View In Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)

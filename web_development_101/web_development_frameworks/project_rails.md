@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [George Zhu's solution](https://github.com/georgezhu11/rails-blogger) - [View in browser](https://quiet-cove-12628.herokuapp.com/articles)
 * [Om Dhiraj's Solution](https://github.com/odgripginger/blogger) -  [View in browser](https://intense-bastion-50359.herokuapp.com/ )
 * [Vollantre's Solution](https://github.com/vollantre/blogger) -  [View in browser](https://salty-caverns-97809.herokuapp.com/)
 * [Ricala's Solution](https://github.com/Ricala/Blogger) - [View in browser](https://salty-mountain-26873.herokuapp.com/)
@@ -372,6 +373,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [JamCry's Solution](https://github.com/jamcry/rails-blogger) - [View in browser](https://jamcrys-blogger.herokuapp.com/)
 * [vanny96's Solution](https://github.com/vanny96/blogger) - [View in browser](https://enigmatic-shore-20767.herokuapp.com/)
 * [keskiviikko's Solution](https://github.com/keskiviikko/blogger)
+* [Ben Fowler's Solution](https://github.com/benfowler04/blogger) - [View in Browser](https://secure-fjord-73494.herokuapp.com/)
+* [LeonJMac's Solution](https://github.com/leonjmac/blogger) - [View in Browser](https://shrouded-mesa-76487.herokuapp.com/)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/blogger) - [View in Browser](https://evening-wave-31483.herokuapp.com/articles/)
+
 
 </details>
 

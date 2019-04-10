@@ -52,7 +52,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Read [Smashing Magazine's Intro to Ruby article](https://hackhands.com/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
+* Read [Smashing Magazine's Intro to Ruby article](https://www.smashingmagazine.com/2012/05/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
 * [Ruby on Rails tutor has free videos that include Ruby](http://rubyonrailstutor.github.io/)
 * [OverAPI's (dense) Ruby Cheat Sheet](http://overapi.com/ruby)
 * Hunter Ducharme compiled together [an e-book](http://hgducharme.gitbooks.io/ruby-programming/) which covers all the basics in Ruby.

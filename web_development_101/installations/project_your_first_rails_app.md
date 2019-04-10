@@ -344,7 +344,13 @@ Save the file. You can close VSCode now; the rest of the steps take place in the
 
 Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
-First, we'll check which files have been updated by running `git status`:
+First, we'll check which files have been updated by running 
+
+~~~bash
+git status
+~~~
+
+the output should look like the exmaple below
 
 ~~~bash
 $ git status

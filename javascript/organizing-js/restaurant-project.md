@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ricala's solution](https://github.com/Ricala/restaurant-page) - [View in Browser](https://ricala.github.io/restaurant-page/)
 - [Aggy's solution](https://github.com/atarsa/odin-restaurant) - [View in Browser](https://atarsa.github.io/odin-restaurant/)
 - [Hammad Ahmed's solution](https://github.com/shammadahmed/restaurant-page) - [View in Browser](https://shammadahmed.github.io/restaurant-page)
 - [Nate Dimock's solution](https://github.com/Flakari/js-restaurant) - [View in Browser](https://flakari.github.io/js-restaurant/)
