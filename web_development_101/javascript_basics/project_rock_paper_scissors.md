@@ -122,7 +122,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Victor's Console Solution](https://github.com/victor-lf/rock-paper-scissors) - [View in Browser](https://victor-lf.github.io/rock-paper-scissors/) - [Victor's GUI Solution](https://github.com/victor-lf/rock-paper-scissors-gui) - [View in Browser](https://victor-lf.github.io/rock-paper-scissors-gui/)
 - [Wabbajack0's Solution](https://github.com/Wabbajack0/rock_paper_scissors) - [View in Browser](https://wabbajack0.github.io/rock_paper_scissors/)
 - [Grace's Console Solution](https://github.com/gracewitter/100DaysOfCode/blob/master/practice%20exercises/project-rock-paper-scissors.html)
-- [Alex's solution](https://github.com/alexcorremans/rock-paper-scissors)
+- [Alex's UI solution](https://github.com/alexcorremans/rock-paper-scissors) - [View in Browser](https://alexcorremans.github.io/rock-paper-scissors/)
 - [Nathan's solution](https://github.com/ndlc91/rock-paper-scissors)
 - [Kirill's solution](https://github.com/kerbasi/rock-paper-scissors)
 - [Anna's solution](https://github.com/AnnaCate/rock_paper_scissors) - [View in Browser](https://annacate.github.io/rock_paper_scissors/)
