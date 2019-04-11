@@ -120,6 +120,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ghassan's Solution](https://github.com/GT001/TOP-Mint.com-Signup) - [View in Browser](https://gt001.github.io/TOP-Mint.com-Signup/)
 * [Valentino Valenti's solution](https://github.com/1ba1/html-form) - [View in Browser](https://1ba1.github.io/html-form/)
 * [Doris's solution](https://github.com/dsmchen/intuit-sign-up-page) - [view in browser](https://dsmchen.github.io/intuit-sign-up-page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/intuit-signup-page) - [view in browser](https://amarcoscastelo.github.io/intuit-signup-page/)
 
 </details>
 
