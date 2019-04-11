@@ -22,6 +22,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Kevin Vuong's Solution: [Caesar Cipher](https://github.com/fffear/caesar_cipher), [Enumerable Methods](https://github.com/fffear/enumerable), [Tic Tac Toe](https://github.com/fffear/tic_tac_toe)
 * Rudi Boshoff's Solution[Caesar Cipher](https://github.com/RudiBoshoff/ruby-exercises/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/RudiBoshoff/ruby-exercises/tree/master/enumerable), [Tic Tac Toe](https://github.com/RudiBoshoff/ruby-exercises/tree/master/tic_tac_toe)
 * Mohamed Elattar's Solution[Caesar Cipher](https://github.com/mohamed-elattar/building-blocks), [Enumerable Methods](https://github.com/mohamed-elattar/advanced-building-blocks), [Tic Tac Toe](https://github.com/mohamed-elattar/tic-tac-toe)
 * [prw001's solutions](https://github.com/prw001/ruby_bdd_exercises)
@@ -94,7 +95,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Alex's solutions: [Caesar Cipher](https://github.com/alexcorremans/caesar_cipher), [Enumerable](https://github.com/alexcorremans/enumerable), [Tic Tac Toe (incomplete)](https://github.com/alexcorremans/tictactoe)
 * Leila Alderman's solutions: [Caesar cipher](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/01_caesar/caesar_spec.rb) and [Enumerables](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/spec/enumerables_spec.rb)
 * Emil Dimitrov's solutions: [Caesar's Cipher](https://github.com/imemdm/ruby-building-blocks/blob/master/caesar_cipher.rb), [Enumerable](https://github.com/imemdm/advanced-building-blocks), [Tic Tac Toe](https://github.com/imemdm/tic-tac-toe)
-
+* Vitaly Osipov's solutions: [Caesar's Cipher](https://github.com/vi7ali/caesar-cipher/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/vi7ali/my-enum-methods/blob/master/spec/my_enum_methods_spec.rb)
 </details>
 
 ### Project: TDD Connect Four
