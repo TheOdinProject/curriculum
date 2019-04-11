@@ -22,6 +22,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Kevin Vuong's Solution: [Caesar Cipher](https://github.com/fffear/caesar_cipher), [Enumerable Methods](https://github.com/fffear/enumerable), [Tic Tac Toe](https://github.com/fffear/tic_tac_toe)
 * Rudi Boshoff's Solution[Caesar Cipher](https://github.com/RudiBoshoff/ruby-exercises/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/RudiBoshoff/ruby-exercises/tree/master/enumerable), [Tic Tac Toe](https://github.com/RudiBoshoff/ruby-exercises/tree/master/tic_tac_toe)
 * Mohamed Elattar's Solution[Caesar Cipher](https://github.com/mohamed-elattar/building-blocks), [Enumerable Methods](https://github.com/mohamed-elattar/advanced-building-blocks), [Tic Tac Toe](https://github.com/mohamed-elattar/tic-tac-toe)
 * [prw001's solutions](https://github.com/prw001/ruby_bdd_exercises)
