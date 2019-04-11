@@ -23,7 +23,7 @@ Look through these now and then use them to test yourself after doing the assign
 
   1. Read a brief intro to front-end development from this [interview with Nick Schaden](https://generalassemb.ly/blog/what-is-front-end-web-development/)
   2. Get a high-level overview of how all three languages work together in MDN's [Getting started with the web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web). Learners should only read: Dealing with files, HTML basics, CSS basics and JavaScript basics. There is no need to implement the website; simply read about the process at this point.
-  3. Familiarize yourself with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), and [jQuery](http://api.jquery.com/). You will not understand most of what is there just yet, but bookmark the pages for later reference.
+  3. Familiarize yourself with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). You will not understand most of what is there just yet, but bookmark the pages for later reference.
 
 </div>
 
