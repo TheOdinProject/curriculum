@@ -61,6 +61,5 @@ Finally, there are a variety of online code sandboxes that can be quite handy wh
 * [Repl.it](https://repl.it/)
 * [Codepen.io](https://codepen.io/)
 * [JSFiddle.net](https://jsfiddle.net/)
-* [codeanywhere.com](https://codeanywhere.com/)
 
 These sites can be used to complete small exercises or to sketch out a concept you don't quite understand. However, you shouldn't use these sites as your main development environment.

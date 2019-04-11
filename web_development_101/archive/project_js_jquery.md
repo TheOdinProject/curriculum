@@ -42,6 +42,9 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 ### Student Solutions
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [CraigAndrewBlair's Solution](https://github.com/craigandrewblair/etch-a-sketch-odin) - [View in browser](https://craigandrewblair.github.io/etch-a-sketch-odin/)
 * [Clarenz' solution](https://github.com/zmiralles/etch-a-sketch) - [View in browser](https://zmiralles.github.io/etch-a-sketch/)
@@ -750,3 +753,5 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [cartwheeler's solution](https://github.com/cartwheeler/Etch-A-Sketch) - [View in browser](https://cartwheeler.github.io/Etch-A-Sketch/)
 * [Scott McKell's solution](https://github.com/zottwickel/etch-a-sketch) - [View in browser](https://zottwickel.github.io/etch-a-sketch/)
 * [Sampson Mao's solution](https://github.com/sampsonmao/sketch-pad) - [View in browser](https://sampsonmao.github.io/sketch-pad/)
+
+</details>

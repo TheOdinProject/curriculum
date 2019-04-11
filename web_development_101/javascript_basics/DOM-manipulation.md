@@ -33,7 +33,7 @@ One of the most unique and useful abilities of JavaScript is its ability to mani
           <li><code>.display</code></li>
         </ul>
       </li>
-      <li>There are also relational selectors such as <code>firstChild</code> or <code>lastSibling</code>.</li>
+      <li>There are also relational selectors such as <code>firstElementChild</code> or <code>lastElementChild</code>.</li>
       <li>Combined with "Query Selectors", this is how you can target a node using JavaScript</li>
       <ul>i.e. <code>document.querySelector(".display");</code> would select the div above.</ul>
     </ul>
@@ -138,19 +138,19 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 * \#container &gt; .display
 * div\#container &gt; div.display
 
-You can also use relational selectors \(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
+You can also use relational selectors \(i.e. `firstElementChild` or `lastElementChild` etc.\) with special properties owned by the nodes.
 
 ~~~JavaScript
 const container = document.querySelector('#container');
 // select the #container div (don't worry about the syntax, we'll get there)
 
-console.dir(container.firstChild);                      
+console.dir(container.firstElementChild);                      
 // select the first child of #container => .display
 
 const controls = document.querySelector('.controls');   
 // select the .controls div
 
-console.dir(controls.previousSibling);                  
+console.dir(controls.previousElementSibling);                  
 // selects the prior sibling => .display
 ~~~
 
@@ -164,7 +164,8 @@ When your HTML code is parsed by a web browser, it is converted to the DOM as wa
 
 * _element_.querySelector\(_selector_\) returns reference to the first match of _selector_
 * _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_
-  \*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
+
+\*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
 
 It's important to note that when using querySelectorAll, the return value is **not** an array. It looks like an array, and it somewhat acts like an array, but it's really a "nodelist". The big distinction is that several array methods are missing from nodelists. One solution, if problems arise, is to convert the nodelist into an array. You can do this with Array.from\(\) or the [spread operator.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
@@ -478,4 +479,6 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript30](https://JavaScript30.com)
+* [An introduction to DOM](https://leila-alderman.github.io/javascript/2018/12/05/Intro-to-the-Document-Object-Model.html)
 * If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
+* This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
