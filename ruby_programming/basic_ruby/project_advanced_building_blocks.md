@@ -652,6 +652,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/enumerable/enumerable.rb)
 * [JamCry's Solution](https://github.com/jamcry/advanced-ruby-exercises/blob/master/Enumerable.rb)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/enumerable_methods.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/enumerable-methods/blob/master/enumerable-methods.rb)
 
 </details>
 
