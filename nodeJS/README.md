@@ -1,5 +1,8 @@
 Here lies the offical NodeJS backend JavaScript course for TOP. This is an early draft of all of the lessons which will need a fair amount of editing and revision before we are ready to publish them to the main site, but the structure and basic content is complete.  The outline below shows the order in which the lessons are intended to be completed.
 
+## PREREQUISITES
+This course assumes basic JS/HTML/CSS proficiency. If you haven't done our WebDev101 course do that first (but feel free to skip the Ruby/Rails portion).
+
 ## The Outline
 
 - Introduction: What is node? - [lesson](getting-started/Introduction.md)
