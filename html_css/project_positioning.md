@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ohlie's solution](https://github.com/lco1220/nyt_article) - [View in browser](https://lco1220.github.io/nyt_article/)
 * [Bola Buari's solution](https://github.com/bolah2009/nyt-clone) - [View in browser](https://bolah2009.github.io/nyt-clone/)
 * [Jason McKee's solution](https://github.com/jttmckee/nyt-pretend.git) - [View in browser](https://jttmckee.github.io/nyt-pretend/index.html)
 * [Ricala's solution](https://github.com/Ricala/NYT-article-clone) - [View in browser](https://ricala.github.io/NYT-article-clone/)
@@ -94,6 +95,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Ghassan's solution](https://github.com/GT001/TOP-NYT-Article) - [View in browser](https://gt001.github.io/TOP-NYT-Article/)
 * [bchalman's solution](https://github.com/bchalman/NYT-positioning-practice) - [View in browser](https://bchalman.github.io/NYT-positioning-practice/)
 * [Doris's solution](https://github.com/dsmchen/nyt-article) - [view in browser](https://dsmchen.github.io/nyt-article/)
+* [Kelvin Liang's solution](https://github.com/kelvin8773/NYT-Clone-Page) - [View in browser](https://kelvin8773.github.io/NYT-Clone-Page/)
 
 </details>
 

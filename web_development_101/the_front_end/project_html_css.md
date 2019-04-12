@@ -2073,6 +2073,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jefferson Baguien's Solution (Easy)](https://github.com/JeffBaguien/google-homepage) - [View in Browser](https://jeffbaguien.github.io/google-homepage/)
 * [Luky's Solution (Easy)](https://github.com/lcyne/google-homepage) - [View in Browser](https://lcyne.github.io/google-homepage)
 * [Emmanuel Nwankwo' Solution (Easy)](https://github.com/emmanuelnwankwo/google-homepage) - [View in Brower](https://emmanuelnwankwo.github.io/google-homepage/)
+* [Faizan Abbas' Solution (Easy)](https://github.com/faizanabbas/google-homepage/) - [View in Browser](https://faizanabbas.github.io/google-homepage/)
+* [Jack Storey's Solution (Easy)](https://github.com/Ramieltje/google-homepage) - [View in Browser](https://ramieltje.github.io/google-homepage/)
+* [Maddybvh's Solution (easy)](https://github.com/maddybvh/google-homepage) - [View in Browser](https://maddybvh.github.io/google-homepage/)
+* [Roy's Solution (easy)](https://github.com/RoyNyaga/google-homepage) - [View in Browser](https://roynyaga.github.io/google-homepage/)
+* [Jimmyak's Solution (Easy)](https://github.com/jimmyak91/google-homepage) - [View in Browser](https://jimmyak91.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
