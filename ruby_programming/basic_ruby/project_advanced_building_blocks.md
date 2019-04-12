@@ -340,6 +340,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Joanna's Solution](https://github.com/jluczak/odin_project/blob/master/bubble_sort/bubble_sort.rb)
 * [JamCry's Solution](https://github.com/jamcry/advanced-ruby-exercises/blob/master/bubble_sort.rb)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/bubble_sort.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/bubble-sort/blob/master/bubble-sort.rb)
 
 </details>
 
