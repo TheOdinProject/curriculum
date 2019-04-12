@@ -39,6 +39,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Alain Suarez's Solution](https://gitlab.com/asuar/rock-paper-scissors) - [View in Browser](https://asuar.gitlab.io/rock-paper-scissors/)
 - [Nelson's Solution](https://github.com/Urivor/rockpaperscissors) - [View in Browser](https://urivor.github.io/rockpaperscissors/)
 - [Jason's Solution](https://github.com/jrloom/odinRPS)
 - [David França's Solution](https://github.com/davidjnf/rock-paper-scissors)
