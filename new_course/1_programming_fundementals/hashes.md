@@ -60,8 +60,26 @@ shoes = {
 shoes["summer"]   #=> "sandals"
 ~~~
 
+If you try to access a key that doesn't exist in the hash, it will return `nil`:
+
+~~~ruby
+shoes["hiking"]   #=> nil
+~~~
+
+Sometimes, this behavior can be problematic for you if silently returning a `nil` value could potentially wreck havoc in your program. Luckily, hashes have a `fetch` method that will raise an error when you try to access a key that is not in your hash. 
+
+~~~ruby
+shoes.fetch("hiking")   #=> KeyError: key not found: "hiking"
+~~~
+
+Alternatively, this method can return a default value instead of raising an error if the given key is not found.
+
+~~~ruby
+shoes.fetch("hiking", "hiking boots") #=> "hiking boots"
+~~~
+
 ### Adding and Changing Data
-You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable. 
+You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable.
 
 ~~~ruby
 shoes["fall"] = "sneakers"
@@ -108,7 +126,7 @@ hash2 = { "b" => 254, "c" => 300 }
 hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 ~~~
 
-Notice that the hash getting merged in (in this case, `hash2`) has precedence over the hash getting... uh, merged *at* when both hashes share a key.
+Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same. 
 
 For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-2.6/Hash.html).
 
@@ -142,6 +160,7 @@ japanese_cars[:honda]   #=> "Accord"
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
 </div>
 

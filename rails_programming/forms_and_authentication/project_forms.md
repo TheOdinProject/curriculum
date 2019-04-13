@@ -113,6 +113,9 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [Simon Tharby's solution](https://github.com/jinjagit/re-former)
 * [Stefano Merazzi's solution](https://github.com/ste001/re-former)
@@ -207,6 +210,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's solution](https://github.com/bchalman/odin-re-former)
 * [Alex's solution](https://github.com/alexcorremans/re-former)
 * [Tommy's solution](https://github.com/hoangtommy/re-former)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/re-former)
+* [Leila Alderman's Solution](https://github.com/leila-alderman/re-former)
+
+</details>
 
 ### Project 2: Ruby on Rails Tutorial
 

@@ -276,6 +276,7 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's *Introduction to Programming With Ruby* for a different explanation of Ruby's data types.
 2. Read through these Ruby Monstas sections about data types:
     * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
