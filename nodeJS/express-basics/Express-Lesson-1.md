@@ -1,4 +1,4 @@
-Throughout this course we are going to be stepping through the MDN express tutorial, one lesson at a time, occasionally supplementing with a little deeper explanation, or side projects to help you deepen your understanding of the material.  The introductory lesson you followed previously set the stage by explaining quite a bit of the background info you'll need to really understand what you're doing. This lesson will actually start you on the project that you'll be completing as you follow the tutorial.
+The introductory lesson you followed previously set the stage by explaining quite a bit of the background info you'll need to really understand what you're doing. This lesson will actually start you on the project that you'll be completing as you follow the tutorial.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
