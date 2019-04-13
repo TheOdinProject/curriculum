@@ -7,14 +7,14 @@ Make your websites dynamic and interactive with JavaScript! You'll create featur
   - A quick review - [lesson](introduction/js101-review.md)
 - Organizing your JavaScript Code
   - Introduction - [lesson](organizing-js/organizing-introduction.md)
-  - Objects and Object Constructors - [lesson](organizing-js/oop-concepts.md)
+  - Objects and Object Constructors - [lesson](organizing-js/objects-constructors.md)
   - [Project: Library](organizing-js/library-project.md)
   - Factory Functions and the Module Pattern - [lesson](organizing-js/factory-functions.md)
   - [Project: Tic Tac Toe](organizing-js/tic-tac-toe-project.md)
   - Classes - [lesson](organizing-js/classes.md)
   - ES6 Modules - [lesson](organizing-js/es6-modules.md)
   - [Project: Restaurant Page](organizing-js/restaurant-project.md)
-  - OOP Principles - [lesson](organizing-js/organizing-introduction.md)
+  - OOP Principles - [lesson](organizing-js/oop-concepts.md)
   - [Project: Todo List](organizing-js/project.md)
 - JavaScript in the Real World
   - Linting - [lesson](js-in-the-real-world/linting.md)
@@ -43,5 +43,5 @@ Make your websites dynamic and interactive with JavaScript! You'll create featur
   - Using Ruby on Rails For Your Back End - [lesson](js-rails/rails_backend.md)
   - [Project: Where's Waldo (A Photo Tagging App)](js-rails/project_rails_backend.md)
 - Finishing Up with Javascript
-  - [Project: Final Project](finishing-up/conclproject_final_jsusion.md)
+  - [Project: Final Project](finishing-up/project_final_js.md)
   - Conclusion - [lesson](finishing-up/conclusion.md)

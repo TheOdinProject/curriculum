@@ -1,4 +1,4 @@
-Here lies the offical NodeJS backend JavaScript course for TOP. This Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully craft your site's backend using the Model-View-Controller design pattern. You'll gain the confidence to launch a website in under an hour.
+Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully craft your site's backend using the Model-View-Controller design pattern. You'll gain the confidence to launch a website in under an hour.
 
 ## The Outline
 
@@ -7,8 +7,8 @@ Here lies the offical NodeJS backend JavaScript course for TOP. This Take Ruby t
   - Sinatra Basics - [lesson](sinatra/sinatra.md)
   - [Project: Sinatra Project](sinatra/project_sinatra.md)
 - Introduction to Rails
-  - [Project: Getting Your Feet Wet]()
-  - A Railsy Web Refresher - [lesson](introduction_to_rails/sinatra.md)
+  - [Project: Getting Your Feet Wet](introduction_to_rails/project_feet_wet.md)
+  - A Railsy Web Refresher - [lesson](introduction_to_rails/web_refresher.md)
   - Deployment - [lesson](introduction_to_rails/deployment.md)
   - [Project: Let's Get Building](introduction_to_rails/project_lets_build.md)
 - Routes, Views, Controllers and Assets

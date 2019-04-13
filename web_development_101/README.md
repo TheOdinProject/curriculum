@@ -3,7 +3,7 @@ This is where it all begins! A hands-on introduction to all of the essential too
 ## The Outline
 
 - The Basics
-  - How this Course Will Work - [lesson](the_basics/how_does_the_web_work.md)
+  - How this Course Will Work - [lesson](the_basics/how_this_course_will_work.md)
   - Introduction to Web Development - [lesson](the_basics/introduction_to_web_development.md)
   - Gearing Up - [lesson](the_basics/gearing_up.md)
   - Join the Odin Community - [lesson](the_basics/join_the_odin_community.md)
@@ -36,17 +36,17 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - [Project: Etch-a-Sketch](javascript_basics/project_etch_a_sketch.md)
   - Fundamentals Part 5 - [lesson](javascript_basics/fundamentals-5.md)
   - [Project: Calculator](javascript_basics/project_calculator.md)
-The Back End
+- The Back End
   - Introduction to the Back End - [lesson](the_back_end/introduction_to_the_backend_lesson.md)
   - Ruby Basics - [lesson](the_back_end/ruby_basics_lesson.md)
   - [Project: Ruby](the_back_end/ruby_project.md)
-Web Development Frameworks
+- Web Development Frameworks
   - Introduction to Frameworks - [lesson](web_development_frameworks/introduction_to_frameworks.md)
   - Ruby on Rails Basics - [lesson](web_development_frameworks/rails_basics.md)
   - [Project: Ruby on Rails](web_development_frameworks/project_rails.md)
-Pair Programming
+- Pair Programming
   - Introduction to Pair Programming - [lesson](pair_programming/introduction_to_pair_programming.md)
   - Preparing to Remote Pair - [lesson](pair_programming/prepare_to_remote_pair.md)
   - [Project: Pairing Project](pair_programming/project_pairing.md)
-Tying it All Together
+- Tying it All Together
   - Conclusion - [lesson](tying_it_all_together/conclusion.md)

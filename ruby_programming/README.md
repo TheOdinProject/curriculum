@@ -5,9 +5,9 @@ Time to dive deep into Ruby, the language 'designed for programmer happiness.' Y
 - Basic Ruby
   - How this Course Will Work - [lesson](basic_ruby/lesson_how_this_course_will_work.md)
   - Ruby Building Blocks - [lesson](basic_ruby/lesson_building_blocks.md)
-  - [Project: Building Blocks](basic_ruby/lesson_how_this_course_will_work.md)
-  - Advanced Ruby Building Blocks - [lesson](basic_ruby/project_advanced_building_blocks.md)
-  - [Project: Advanced Building Blocks](basic_ruby/lesson_how_this_course_will_work.md)
+  - [Project: Building Blocks](basic_ruby/project_building_blocks.md)
+  - Advanced Ruby Building Blocks - [lesson](basic_ruby/lesson_advanced_building_blocks.md)
+  - [Project: Advanced Building Blocks](basic_ruby/project_advanced_building_blocks.md)
 - Intermediate Ruby
   - Object Oriented Programming - [lesson](intermediate_ruby/lesson_oop.md)
   - [Project: OOP](intermediate_ruby/project_oop.md)
@@ -29,6 +29,6 @@ Time to dive deep into Ruby, the language 'designed for programmer happiness.' Y
   -  A Deeper Look at Git - [lesson](git/lesson_a_deeper_look_at_git.md)
   - Using Git in the Real World - [lesson](git/lesson_using_git_in_the_real_world.md)
 - Conclusion
-  - [Project: Ruby Final Project](conslusion/project_ruby_final.md)
-  - Conclusion - [lesson](conclusion/lesson_using_git_in_the_real_world.md)
+  - [Project: Ruby Final Project](conclusion/project_ruby_final.md)
+  - Conclusion - [lesson](conclusion/lesson_conclusion.md)
 
