@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ohlie's solution](https://github.com/lco1220/smashing_mag) - [View in browser](https://lco1220.github.io/smashing_mag/)
 * [Bojo's solution](https://github.com/BojoZahariev/SmashingDesignTeardown) - [View in browser](https://bojozahariev.github.io/SmashingDesignTeardown/)
 * [Bola Buari's solution](https://github.com/bolah2009/design-teardown) - [View in browser](https://bolah2009.github.io/design-teardown/)
 * [Ricala's solution](https://github.com/Ricala/design-teardown) - [View in browser](https://ricala.github.io/design-teardown/)
