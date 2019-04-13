@@ -212,6 +212,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Emil Dimitrov's Solution](https://github.com/imemdm/connect_four)
 * [vanny96's Solution](https://github.com/vanny96/connect_four)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/connect-four). [Play on Repl.it](https://repl.it/@vi7ali/Connect-Four-game)
+* [JamCry's Solution](https://github.com/jamcry/ruby-connect-four) - [Play on Repl.it](https://repl.it/@jamcry/Connect4-the-game)
 
 </details>
 
