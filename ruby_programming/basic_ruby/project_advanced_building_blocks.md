@@ -390,6 +390,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Austin Fisher's Solution](https://github.com/Austin2016/my_ruby_methods)
 * [Vollantre's Solution](https://github.com/vollantre/ruby_basic/blob/master/Enumerable.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/advanced-ruby-building-blocks/blob/master/enumerables.rb)
 * [BShowen's Solution](https://github.com/BShowen/homemade_enumerable_methods/blob/master/my_enumerable_methods.rb)
