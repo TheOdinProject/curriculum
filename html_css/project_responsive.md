@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/responsive-practice) - [View in browser](https://jttmckee.github.io/responsive-practice/)
 * [ARaut9's solution](https://github.com/ARaut9/TNW_responsive_homepage) - [View in browser](https://araut9.github.io/TNW_responsive_homepage/)
 * [Ricala's solution](https://github.com/Ricala/tnw-responsive-design) - [View in browser](https://ricala.github.io/tnw-responsive-design/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/responsive) - [View in browser](https://n00bg1rl.github.io/responsive/)
