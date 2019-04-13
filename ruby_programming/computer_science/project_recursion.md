@@ -211,6 +211,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/recursion_quiz/blob/master/recursion_project2.rb)
 * [Kevin Vuong's solution](https://github.com/fffear/recursion/tree/master/merge_sort)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)
 * [Simon Tharby's solution](https://github.com/jinjagit/recursion/blob/master/merge.rb)
@@ -369,6 +370,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/07_merge_sort/merge_sort.rb)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/recursion/merge.rb)
 * [vanny96's Solution](https://github.com/vanny96/recursion)
+* [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/tree/master/recursion-odin-exercises/mergesort)
 
 </details>
 

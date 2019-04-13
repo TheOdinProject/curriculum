@@ -79,7 +79,7 @@ Now it's time to make the Kittens resource available via API.
 2. You should get a sloppy mess of HTML.  If you check out your server output, it's probably processing as XML, e.g. `Processing by KittensController#index as XML`
 3. Try asking specifically for a JSON response by adding the option `:accept => :json`, e.g. `RestClient.get("http://localhost:3000/kittens", :accept => :json)`.  It should throw an error.
 4. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
-5. Test it out by making sure your RestClient calls return the proper JSON strings.
+5. Test it out by making sure your RestClient calls return the proper JSON strings, e.g. `$ r = RestClient.get("http://localhost:3000/kittens", :accept => :json)`, `$ puts r.body`.
 6. Do the same for your `#show` method, which will require you to provide an ID when making your request.  Your CSRF protection will prevent you from creating, updating or deleting kittens via the API, so it's not necessary to implement those.
 
 This project may seem simple, but now you've got a website that is both a normal HTML-producing back end AND an API that can be used to pull data from it.  You could use Javascript calls from the front end to dynamically refresh your data now or even to load the whole page in the first place.  Or maybe you'll be hooking up a Kittens app to your iPhone and need a back end.  It doesn't matter, since now you've got a RESTful API.
@@ -154,6 +154,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/kitten)
 * [Malaika's Solution](https://github.com/malaikaMI/odin-kittens)
 * [bchalman's solution](https://github.com/bchalman/odin-kittens)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/odin-kittens) - [View in Browser](https://odin-kittens-0.herokuapp.com/)
 
 </details>
 
@@ -228,6 +229,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/Flickr_photos)
 * [Malaika's Solution](https://github.com/malaikaMI/flickr-browser)
 * [bchalman's solution](https://github.com/bchalman/odin-flickr-api)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/flickr-api) - [View in Browser](https://odin-flickr-api.herokuapp.com/)
 
 </details>
 

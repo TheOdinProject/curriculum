@@ -1,6 +1,6 @@
 ### Introduction
-Let's extend the 'Book' example from the previous lesson and turn it into a small Library app.
 
+Let's extend the 'Book' example from the previous lesson and turn it into a small Library app.
 
 ### Assignment
 
@@ -10,7 +10,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 2. All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user's input and store the new book objects into an array. Your code should look something like this:
 
    ~~~javascript
-   let myLibrary = []
+   let myLibrary = [];
 
    function Book() {
      // the constructor...
@@ -33,13 +33,18 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 </div>
 
 ### Student Solutions
+
 Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
- - [djolesuseranem's Solution](https://github.com/djolesusername/libraryh) - [View in Browser](https://djolesusername.github.io/libraryh/)
+
+- [Simon Tharby's solution](https://github.com/jinjagit/library) - [View in Browser](https://jinjagit.github.io/library/)
+- [dane's Solution](https://github.com/daneOmega/bookLibrary) - [View in Browser](https://daneomega.github.io/)
+- [djolesuseranem's Solution](https://github.com/djolesusername/libraryh) - [View in Browser](https://djolesusername.github.io/libraryh/)
+- [Ricala's Solution](https://github.com/Ricala/library) - [View in Browser](https://ricala.github.io/library/)
 - [Djo1e's Solution](https://github.com/Djo1e/LibraryApp) - [View in Browser](https://djo1e.github.io/LibraryApp/)
 - [balowulf's Solution](https://github.com/balowulf/library) - [View in Browswer](https://balowulf.github.io/library/)
 - [Max Garber's Solution](https://github.com/bubblebooy/Odin-Javascript/blob/master/library.html) - [View in Browswer](https://bubblebooy.github.io/Odin-Javascript/library.html)
@@ -55,7 +60,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Javier Machin's solution](https://github.com/Javier-Machin/js-simple-library) - [View In Browser](https://javier-machin.github.io/js-simple-library/)
 - [Alien's Solution](https://github.com/aliensjit/libraryOfTheCentury) - [View in Browser](https://aliensjit.github.io/libraryOfTheCentury/)
 - [nmac's solution](https://github.com/nmacawile/my-library) - [Link](https://htmlpreview.github.io/?https://github.com/nmacawile/my-library/blob/master/index.html)
-- [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/TOP_JS_Library) - [View in Browser]( https://sarfrazanjum.github.io/TOP_JS_Library/)
+- [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/TOP_JS_Library) - [View in Browser](https://sarfrazanjum.github.io/TOP_JS_Library/)
 - [Nate Dimock's Solution](https://github.com/Flakari/js-library) - [View in Browser](https://flakari.github.io/js-library/)
 - [leosoaivan's Solution](https://github.com/leosoaivan/js-book-library) - [View in Browser](http://leosoaivan.com/js-book-library/)
 - [Qin's Solution](https://github.com/hyathynth/book_library) - [View in Browser](https://hyathynth.github.io/book_library/)
