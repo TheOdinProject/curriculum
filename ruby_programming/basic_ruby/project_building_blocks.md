@@ -1182,5 +1182,6 @@ Next, make sure your method can handle multiple words:
 * [Franklyn Afeso's solution](https://github.com/afeso/building_blocks/blob/master/substrings.rb)
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/substrings-ruby/blob/master/substrings.rb)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/substrings.rb)
+* [Brett Bonnet's solution](https://github.com/Brett-Bonnet/ruby_building_blocks/blob/master/substrings.rb)
 
 </details>
