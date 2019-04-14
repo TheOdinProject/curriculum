@@ -260,6 +260,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/intermediate_project/tic_tac_toe.rb)
 * [vanny96's Solution](https://github.com/vanny96/OOP)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/oop-project/tree/master/tic-tac-toe)
 
 </details>
 
@@ -479,6 +480,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
 * [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)
 * [vanny96's Solution (partial AI)](https://github.com/vanny96/OOP)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/oop-project/tree/master/mastermind)
 
 </details>
 
