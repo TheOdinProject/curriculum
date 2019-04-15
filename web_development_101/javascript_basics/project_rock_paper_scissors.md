@@ -559,6 +559,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jonathon McGuire's Solution](https://github.com/someguy711/rock_paper_scissors)
 - [Brandon's prompt rock paper scissors](https://bwkrayb.github.io/javascript-rock-paper-scissors/) - [Brandon's GUI rock paper scissors](https://bwkrayb.github.io/rock-paper-scissors-2/)
 - [Colcodeando's solution](https://github.com/colcodeando/rock-paper-scissors)
+- [Kelly's GUI rock paper scissors](https://seisolo76.github.io/ROCK-PAPER-SCISSORS/)
 
 </details>
-
