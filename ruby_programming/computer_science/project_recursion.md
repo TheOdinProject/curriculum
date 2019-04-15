@@ -211,6 +211,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vollantre's solution](https://github.com/vollantre/ruby_basic/blob/master/merge_sort.rb)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/recursion_quiz/blob/master/recursion_project2.rb)
 * [Kevin Vuong's solution](https://github.com/fffear/recursion/tree/master/merge_sort)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/recursion)
