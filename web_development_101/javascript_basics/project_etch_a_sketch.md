@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [todoroff's Solution](https://github.com/todoroff/sketchy-hover) - [View in browser](https://todoroff.github.io/sketchy-hover/)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/etch-a-sketch) - [View in browser](https://asuar.gitlab.io/etch-a-sketch/)
 * [Niccolas' Solution](https://github.com/NiccoMaganeli/etch-a-sketch) - [View in browser](https://niccomaganeli.github.io/etch-a-sketch/)
 * [Anna's Solution](https://github.com/AnnaCate/etch-a-sketch) - [View in browser](https://annacate.github.io/etch-a-sketch/)
 * [Carmine Grossi's Solution](https://github.com/cgrossi/sketchproject) - [View in Browser](https://cgrossi.github.io/sketchproject/)
@@ -364,4 +366,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [LastCapricorn's solutiion](https://github.com/LastCapricorn/etch-a-sketch) - [View in Browser](https://lastcapricorn.github.io/etch-a-sketch/)
 * [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/Etch-A-Sketch) - [View in Browser](https://emmanuelnwankwo.github.io/Etch-A-Sketch/)
 * [Russianaleksey's Solution](https://github.com/Russianaleksey/etch-a-sketch) - [View in Browser](https://russianaleksey.github.io/etch-a-sketch/)
+* [Maddy's solution](https://github.com/maddybvh/etch-a-sketch) - [View in browser](https://maddybvh.github.io/etch-a-sketch/)
+* [Grant Wasil's solution](https://github.com/GrantWasil/etch-a-sketch) - [View in browser](https://grantwasil.github.io/etch-a-sketch/)
+* [alex-sir's Solution](https://github.com/alex-sir/etch-a-sketch) - [View in Browser](https://alex-sir.github.io/etch-a-sketch/)
 </details>

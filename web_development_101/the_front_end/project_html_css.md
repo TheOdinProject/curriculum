@@ -2078,6 +2078,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Maddybvh's Solution (easy)](https://github.com/maddybvh/google-homepage) - [View in Browser](https://maddybvh.github.io/google-homepage/)
 * [Roy's Solution (easy)](https://github.com/RoyNyaga/google-homepage) - [View in Browser](https://roynyaga.github.io/google-homepage/)
 * [Jimmyak's Solution (Easy)](https://github.com/jimmyak91/google-homepage) - [View in Browser](https://jimmyak91.github.io/google-homepage/)
+* [DB17889's Solution (Easy)](https://github.com/DB17889/google-homepage) - [View in Browser](https://db17889.github.io/google-homepage/)
+* [DB17889's Solution (Hard)](https://github.com/DB17889/google-results) - [View in Browser](https://db17889.github.io/google-results/)
+* [Muhymenul's Solution (Easy)](https://github.com/muhymenulhaque/google-homepage) - [View in Browser](https://muhymenulhaque.github.io/google-homepage/)
+* [Colleen Higgins's Solution (Easy)](https://coggins87.github.io/google-homepage/) - [View in Browser](https://coggins87.github.io/google-homepage/)
 
 </details>
 

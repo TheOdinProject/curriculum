@@ -39,6 +39,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Dylan's Solution (GUI version)](https://github.com/proto-dylan/RockPaperScissorsDos) - [View in Browser](https://proto-dylan.github.io/RockPaperScissorsDos/)
+- [Emmanuel's Solution](https://github.com/emmaoni/rock-paper-scissors)
+- [todoroff's Solution](https://github.com/todoroff/rock-paper-scissors) - [View in Browser](https://todoroff.github.io/rock-paper-scissors/)
+- [seawren's Solution](https://github.com/seawren/rock_paper_scissors)
 - [Alain Suarez's Solution](https://gitlab.com/asuar/rock-paper-scissors) - [View in Browser](https://asuar.gitlab.io/rock-paper-scissors/)
 - [Nelson's Solution](https://github.com/Urivor/rockpaperscissors) - [View in Browser](https://urivor.github.io/rockpaperscissors/)
 - [Jason's Solution](https://github.com/jrloom/odinRPS)
@@ -491,7 +495,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Daniel Ryu's console solution](https://github.com/dryu99/rock-paper-scissors)
 - [Daniel Ryu's UI solution](https://github.com/dryu99/rock-paper-scissors-ui) - [View in Browser](https://dryu99.github.io/rock-paper-scissors-ui/)
 - [GustavoRdz's solution](https://github.com/GustavoRdz/RockPaperScissors) - [View in Browser](https://gustavordz.github.io/RockPaperScissors/)
-- [CameronStAmant's solution](https://github.com/CameronStAmant/rockPaperScissors)
+- [CameronStAmant's solution](https://github.com/CameronStAmant/rockPaperScissors) - [View in Browser](https://cameronstamant.github.io/rockPaperScissors/)
 - [GustavoRdz's UI solution](https://github.com/GustavoRdz/rock-paper-scissors-ui) - [View in Browser](https://gustavordz.github.io/rock-paper-scissors-ui/)
 - [Abdirahman's Console solution](https://github.com/Murabac/rock_paper_scissors) - [View in Browser](https://murabac.github.io/rock_paper_scissors/)
 - [Leon J Mac's console solution](https://github.com/leonjmac/rock-paper-scissors) - [View in Browser](https://leonjmac.github.io/rock-paper-scissors/)
@@ -589,4 +593,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/jokenpo-revisited) - [View in Browser](https://adrieltrigger.github.io/jokenpo-revisited/)
 - [Amish Goel's Solution](https://github.com/AmishGoel1/rock_paper_scissors) - [View in Browser](https://amishgoel1.github.io/rock_paper_scissors/)
 - [Maddy's solution](https://github.com/maddybvh/Rock-Paper-Scissors) - [View in Browser](https://maddybvh.github.io/Rock-Paper-Scissors/)
+- [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/rock-paper-scissors) - [View in Browser](https://emmanuelnwankwo.github.io/rock-paper-scissors/)
 </details>
