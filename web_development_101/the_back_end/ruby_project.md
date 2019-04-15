@@ -514,6 +514,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Andres Sewell's Solution](https://github.com/siramok/learn_ruby)
 * [Bendee's Solution](https://github.com/bendee48/learn_ruby)
 * [KvotheNOR's Solution](https://github.com/KvotheNOR/learn_ruby)
+* [Barbara Lucas' Solution](https://github.com/LucasBarbara/learn_ruby)
 
 </details>
 
