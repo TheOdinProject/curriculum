@@ -21,6 +21,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vollantre's solution](https://github.com/vollantre/Hangman)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/hangman)
 * [Kevin Vuong's solution](https://github.com/fffear/hangman)
 * [Nicolas Espinoza's Soultion](https://github.com/nicospz/hangman)
 * [Learnsometing's Solution NO SAVES](https://github.com/learnsometing/TOP-ruby-projects/tree/master/ruby/intermediate/ruby-intermediate/hangman)
@@ -219,5 +221,6 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Leila Alderman's solution](https://github.com/leila-alderman/hangman)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/tree/master/hangman) - [Play on repl.it](https://repl.it/@vi7ali/Hangman-game)
 * [vanny96's solution](https://github.com/vanny96/hangman)
+* [JamCry's Solution](https://github.com/jamcry/ruby-hangman) - [Play on Repl.it](https://repl.it/@jamcry/Ruby-Hangman-Game)
 
 </details>

@@ -23,11 +23,12 @@ Look through these now and then use them to test yourself after doing the assign
 
   1. Read a brief intro to front-end development from this [interview with Nick Schaden](https://generalassemb.ly/blog/what-is-front-end-web-development/)
   2. Get a high-level overview of how all three languages work together in MDN's [Getting started with the web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web). Learners should only read: Dealing with files, HTML basics, CSS basics and JavaScript basics. There is no need to implement the website; simply read about the process at this point.
-  3. Familiarize yourself with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), and [jQuery](http://api.jquery.com/). You will not understand most of what is there just yet, but bookmark the pages for later reference.
+  3. Familiarize yourself with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). You will not understand most of what is there just yet, but bookmark the pages for later reference.
 
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
+* [This video](https://www.youtube.com/watch?v=BANChTkxYYY&list=PLwqG3V3cExWpCgHOcLEKg6z-InpjHr7MB) is another great introduction to how the various front-end technologies interact.
 * [Skills of a Successful Front-End Web Developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).
