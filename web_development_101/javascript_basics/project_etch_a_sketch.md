@@ -368,4 +368,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Russianaleksey's Solution](https://github.com/Russianaleksey/etch-a-sketch) - [View in Browser](https://russianaleksey.github.io/etch-a-sketch/)
 * [Maddy's solution](https://github.com/maddybvh/etch-a-sketch) - [View in browser](https://maddybvh.github.io/etch-a-sketch/)
 * [Grant Wasil's solution](https://github.com/GrantWasil/etch-a-sketch) - [View in browser](https://grantwasil.github.io/etch-a-sketch/)
+* [alex-sir's Solution](https://github.com/alex-sir/etch-a-sketch) - [View in Browser](https://alex-sir.github.io/etch-a-sketch/)
 </details>
