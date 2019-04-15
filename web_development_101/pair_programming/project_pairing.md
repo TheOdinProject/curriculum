@@ -114,6 +114,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Franklyn Afeso's solution](https://github.com/afeso/pomodoro) - [View in Browser](https://afeso.github.io/pomodoro)
 * [keskiviikko's solution](https://github.com/keskiviikko/project-pomodoro) - [View in Browser](https://keskiviikko.github.io/project-pomodoro/)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/pomodoro-clock) - [View in Browser](https://sergyurch.github.io/pomodoro-clock/)
+* [LeonJMac's & Esme's solution](https://github.com/leonjmac/pomodoro-timer) - [View in Browser](https://leonjmac.github.io/pomodoro-timer/)
 
 </details>
 
