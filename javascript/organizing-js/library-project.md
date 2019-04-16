@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 
 - Add your solution below this line!
 
+- [Jason McKee's solution](https://github.com/jttmckee/odin-library-js) - [View in Browser](https://jttmckee.github.io/odin-library-js/)
 - [Simon Tharby's solution](https://github.com/jinjagit/library) - [View in Browser](https://jinjagit.github.io/library/)
 - [dane's Solution](https://github.com/daneOmega/bookLibrary) - [View in Browser](https://daneomega.github.io/)
 - [djolesuseranem's Solution](https://github.com/djolesusername/libraryh) - [View in Browser](https://djolesusername.github.io/libraryh/)
