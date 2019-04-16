@@ -268,4 +268,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tseti's Solution](https://github.com/tseti/calculator) - [View in Browser](https://tseti.github.io/calculator/)
 - [Timring's Solution](https://github.com/timkwali/calculator) - [View in Browser](https://timkwali.github.io/calculator/)
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/calculator) - [View in Browser](https://emmanuelnwankwo.github.io/calculator/)
+- [Maddy's solution](https://github.com/maddybvh/calculator) - [View in Browser](https://github.com/maddybvh/calculator)
 </details>
