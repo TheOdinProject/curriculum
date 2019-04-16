@@ -87,6 +87,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+
+* [Nathan's Solution (Easy)](https://github.com/sihoonathan/google-homepage) - [View in Browser](https://sihoonathan.github.io/google-homepage/)
 * [Obert Makaza's Solution (Hard)](https://github.com/omakazagit/google-search-results) - [View in Browser](https://github.com/omakazagit/google-search-results)
 * [Adrian Robles' Solution (Easy)](https://github.com/codingadrian/google-homepage) - [View in Browser](https://codingadrian.github.io/google-homepage/) - [Adrian Robles' Solution (Difficult)](https://github.com/codingadrian/google-search-results) - [View in Browser](https://codingadrian.github.io/google-search-results/)
 * [Matthew Blundell's Solution (easy)](https://github.com/MatthewBlundell/google-homepage) - [View in Browser](https://matthewblundell.github.io/google-homepage/) - [Matthew Blundell's Solution (Difficult)](https://github.com/MatthewBlundell/google-search-page) - [View in Browser](https://matthewblundell.github.io/google-search-page/)
