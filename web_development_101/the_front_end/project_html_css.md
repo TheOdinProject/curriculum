@@ -2082,7 +2082,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [DB17889's Solution (Hard)](https://github.com/DB17889/google-results) - [View in Browser](https://db17889.github.io/google-results/)
 * [Muhymenul's Solution (Easy)](https://github.com/muhymenulhaque/google-homepage) - [View in Browser](https://muhymenulhaque.github.io/google-homepage/)
 * [Colleen Higgins's Solution (Easy)](https://coggins87.github.io/google-homepage/) - [View in Browser](https://coggins87.github.io/google-homepage/)
-* [Jeremy's Solution (Easy)] (https://ulysses78.github.io/google-homepage/) - [View in Browser] (https://ulysses78.github.io/google-homepage/)
+* [Jeremy's Solution (Easy)](https://ulysses78.github.io/google-homepage/) - [View in Browser](https://ulysses78.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
