@@ -425,6 +425,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/caesar-cipher-ruby/blob/master/caesar-cipher.rb)
 * [Franklyn Afeso's Solution](https://github.com/afeso/building_blocks/blob/master/ceaser.rb)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/caesar.rb)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/caesar_cipher.rb)
 
 </details>
 
@@ -802,7 +803,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Franklyn Afeso's Solution](https://github.com/afeso/building_blocks/blob/master/stock_picker.rb)
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/stock-picker-ruby/blob/master/stock-picker.rb)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/stock.rb)
-
+* [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/stock_picker.rb)
 
 </details>
 
@@ -1183,5 +1184,6 @@ Next, make sure your method can handle multiple words:
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/substrings-ruby/blob/master/substrings.rb)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/substrings.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/ruby_building_blocks/blob/master/substrings.rb)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/substrings.rb)
 
 </details>
