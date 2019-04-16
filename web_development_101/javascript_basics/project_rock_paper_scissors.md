@@ -594,4 +594,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Amish Goel's Solution](https://github.com/AmishGoel1/rock_paper_scissors) - [View in Browser](https://amishgoel1.github.io/rock_paper_scissors/)
 - [Maddy's solution](https://github.com/maddybvh/Rock-Paper-Scissors) - [View in Browser](https://maddybvh.github.io/Rock-Paper-Scissors/)
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/rock-paper-scissors) - [View in Browser](https://emmanuelnwankwo.github.io/rock-paper-scissors/)
+- [Kelly Joseph's GUI rock paper scissors](https://seisolo76.github.io/ROCK-PAPER-SCISSORS/)
 </details>
