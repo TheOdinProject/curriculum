@@ -596,3 +596,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/rock-paper-scissors) - [View in Browser](https://emmanuelnwankwo.github.io/rock-paper-scissors/)
 - [Kelly Joseph's GUI rock paper scissors](https://seisolo76.github.io/ROCK-PAPER-SCISSORS/)
 </details>
+-[AdesojiCodeMaster's Solution](https://adesojicodemaster.github.io/RockPaperScissorsGame/) - [View in Browser](https://adesojicodemaster.github.io/RockPaperScissorsGame/)
