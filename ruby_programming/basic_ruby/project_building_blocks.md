@@ -426,6 +426,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Franklyn Afeso's Solution](https://github.com/afeso/building_blocks/blob/master/ceaser.rb)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/caesar.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/caesar_cipher.rb)
+* [Jean Merlet's Solution](https://github.com/jeanmerlet/ruby_misc/blob/master/building_blocks/caesar_cipher.rb)
 
 </details>
 
@@ -804,6 +805,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/stock-picker-ruby/blob/master/stock-picker.rb)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/stock.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/stock_picker.rb)
+* [Jean Merlet's Solution](https://github.com/jeanmerlet/ruby_misc/blob/master/building_blocks/stock_picker.rb)
 
 </details>
 
@@ -1040,7 +1042,7 @@ Next, make sure your method can handle multiple words:
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/building-blocks/blob/master/substrings.rb)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/blob/master/BuildingBlocksBasicProject/substrings.rb)
 * [Kelvin Stone's solution](https://github.com/KelvinStone/substrings.git)
-* [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_building_blocks/blob/master/substrings.rb)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_misc/blob/master/building_blocks/substrings.rb)
 * [Zac Conner's solution](https://github.com/connerza/BuildingBlocks/blob/master/substrings.rb)
 * [parhaml's solution](https://github.com/parhaml/substrings/blob/master/dict_count.rb)
 * [John Martinez's solution](https://github.com/johndavidmartinez/learn-ruby/blob/master/substrings.rb)
