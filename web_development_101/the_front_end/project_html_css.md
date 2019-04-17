@@ -896,7 +896,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Matt Leininger's Solution](https://github.com/pilauPro/the-odin-project/tree/master/google-homepage) - [View in Browser](https://rawgit.com/pilauPro/the-odin-project/master/google-homepage/index.html)
 * [Calvin Colson's Solution](https://github.com/CalColson/google-homepage) - [View in Browser](https://rawgit.com/CalColson/google-homepage/master/index.html)
 * [Justin Dinh's Solution](https://github.com/justintd/google-homepage) - [View in Browser](https://rawgit.com/justintd/google-homepage/master/index.html)
-* [Jean Merlet's Solution](https://github.com/jeanmerlet/google-homepage) - [View in Browser](https://rawgit.com/jeanmerlet/google-homepage/master/index.html)
+* [Jean Merlet's Solution](https://github.com/jeanmerlet/web_misc/tree/master/google_homepage)
 * [Leonard Soai-Van's Easy Solution](https://github.com/leosoaivan/google-homepage.git)
 * [Mitchell Bartolo's Solution - Easy](https://github.com/mbarts/google-homepage) - [View in Browser](https://rawgit.com/mbarts/google-homepage/master/index.html)
 * [Pauline Judge's Solution](https://github.com/chumswap/google-homepage.git) - [View in Browser](https://rawgit.com/chumswap/google-homepage/master/goog.html)
