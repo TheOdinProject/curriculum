@@ -25,6 +25,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ARaut9's solution](https://github.com/ARaut9/newsweek_homepage_bootstrap) - [View in Browser](https://araut9.github.io/newsweek_homepage_bootstrap/)
 * [Jason McKee's solution](https://github.com/jttmckee/bootstrap-practice) - [View in Browser](https://jttmckee.github.io/bootstrap-practice)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/bootstrap) - [View in browser](https://n00bg1rl.github.io/bootstrap/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/newsweek.html)
