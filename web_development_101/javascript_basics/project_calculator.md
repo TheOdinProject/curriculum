@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Daniel Ryu's Solution][https://github.com/dryu99/Calculator] - [View in Browser](https://dryu99.github.io/Calculator/) 
 - [John Paul's Solution](https://github.com/Omulosi/calculator) - [View in Browser](https://omulosi.github.io/calculator/)
 - [Wayland's Solution](https://github.com/chinwayland/calculator) - [View in Browser](https://chinwayland.github.io/calculator/)
 - [Christine Gierer's Solution](https://github.com/beansprout/calculator) - [View in Browser](https://beansprout.github.io/calculator/)
