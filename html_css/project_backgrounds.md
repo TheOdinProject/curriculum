@@ -23,6 +23,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [bcikota's solution](https://github.com/bcikota/apple) - [View in browser](https://bcikota.github.io/apple/)
 * [Ohlie's solution](https://github.com/lco1220/apple_bg-gradients) - [View in browser](https://lco1220.github.io/apple_bg-gradients/)
 * [Bola Buari's solution](https://github.com/bolah2009/apple-clone) - [View in browser](https://bolah2009.github.io/apple-clone/)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-apple) - [View in browser](https://jttmckee.github.io/odin-apple/)
