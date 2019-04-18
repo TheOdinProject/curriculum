@@ -47,7 +47,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alain Suarez's Solution](https://gitlab.com/asuar/rock-paper-scissors) - [View in Browser](https://asuar.gitlab.io/rock-paper-scissors/)
 - [Nelson's Solution](https://github.com/Urivor/rockpaperscissors) - [View in Browser](https://urivor.github.io/rockpaperscissors/)
 - [Jason's Solution](https://github.com/jrloom/odinRPS)
-- [David França's Solution](https://github.com/davidjnf/rock-paper-scissors)
+- [David França's Solution](https://github.com/davidjnf/rock-paper-scissors) - [View in Browser](https://davidjnf.github.io/rock-paper-scissors/web-version/)
 - [DaveMcGlashan's solution](https://github.com/DaveMcGlashan/TOP-RPS) - [View in Browser](https://davemcglashan.github.io/TOP-RPS/index.HTML)
 - [Henry Naoto Ishiyama's Solution](https://github.com/TheDemonGuard/TheOdinProject/tree/master/RockPaperScissors)
 - [Nick Dmitrienko's Solution](https://github.com/JakeTheFriendlyDog/rock-paper-scissors) - [View In Browser](https://jakethefriendlydog.github.io/rock-paper-scissors/)
