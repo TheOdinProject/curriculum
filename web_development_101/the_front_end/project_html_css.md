@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 
+* [Jose Salvador's Solution (Easy)](https://github.com/Jsalvadorpp/google-homepage) - [View in Browser](https://jsalvadorpp.github.io/google-homepage/)
+* [Jose Salvador's Solution (Difficult)](https://github.com/Jsalvadorpp/google-results-page) - [View in Browser](https://jsalvadorpp.github.io/google-results-page/)
 * [bcikota's Solution (Easy)](https://bcikota.github.io/google-homepage/) - [View in Browser](https://github.com/bcikota/google-homepage) - [bcikota's Solution (Difficult)](https://bcikota.github.io/google-search/) - [View in Browser](https://github.com/bcikota/google-search)
 * [Nathan's Solution (Easy)](https://github.com/sihoonathan/google-homepage) - [View in Browser](https://sihoonathan.github.io/google-homepage/)
 * [Obert Makaza's Solution (Hard)](https://github.com/omakazagit/google-search-results) - [View in Browser](https://github.com/omakazagit/google-search-results)
