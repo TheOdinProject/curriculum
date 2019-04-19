@@ -2092,6 +2092,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sanyogita's Solution (Hard)](https://github.com/SanyogitaPandit/google_homepage) - [View in Browser](https://sanyogitapandit.github.io/google_homepage/)
 * [Minimal's Solution (Easy)](https://github.com/ivahub/google-homepage) - [View in Browser](https://ivahub.github.io/google-homepage/)
 * [Minimal's Solution (Difficult)](https://github.com/ivahub/google-results/) - [View in Browser](https://ivahub.github.io/google-results/)
+* [Richie Tyler's Solution (Easy)](https://github.com/richietyler/google-homepage/) - [View in Browser](https://richietyler.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
