@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 
+* [Samuels Solution (Easy)](https://github.com/samuel-projects/google-homepage) - [View in Browser](https://samuel-projects.github.io/google-homepage/) 
 * [Gary Rotter's Solution (Easy)](https://github.com/garythedamnsnail/google-homepage) - [View in Browser](https://garythedamnsnail.github.io/google-homepage/)
 * [Jose Salvador's Solution (Easy)](https://github.com/Jsalvadorpp/google-homepage) - [View in Browser](https://jsalvadorpp.github.io/google-homepage/)
 * [Jose Salvador's Solution (Difficult)](https://github.com/Jsalvadorpp/google-results-page) - [View in Browser](https://jsalvadorpp.github.io/google-results-page/)
@@ -2093,6 +2094,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Minimal's Solution (Easy)](https://github.com/ivahub/google-homepage) - [View in Browser](https://ivahub.github.io/google-homepage/)
 * [Minimal's Solution (Difficult)](https://github.com/ivahub/google-results/) - [View in Browser](https://ivahub.github.io/google-results/)
 * [Richie Tyler's Solution (Easy)](https://github.com/richietyler/google-homepage/) - [View in Browser](https://richietyler.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
