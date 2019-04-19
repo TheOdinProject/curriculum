@@ -1190,5 +1190,6 @@ Next, make sure your method can handle multiple words:
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/substrings.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/ruby_building_blocks/blob/master/substrings.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/substrings.rb)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/ruby/ruby/project_building_blocks/caesar_cipher.rb)
 
 </details>
