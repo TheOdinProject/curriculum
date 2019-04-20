@@ -87,11 +87,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-<<<<<<< HEAD
 * [Neill Henning's Solution (Easy)](https://github.com/rabidza/google-homepage) - [View in Browser](https://rabidza.github.io/google-homepage/)
-=======
 * [Nico Nisoria's Solution (Easy)](https://niconisoria.github.io/google-homepage) - [View in Browser](https://niconisoria.github.io/google-homepage)
->>>>>>> 82f8e58af379dc2a54d4287a9b4a6a3900eb3df0
 * [chepyego Solution (Easy)](https://github.com/chepyego/google-homepage) - [View in Browser](https://chepyego.github.io/google-homepage/)
 * [Samuels Solution (Easy)](https://github.com/samuel-projects/google-homepage) - [View in Browser](https://samuel-projects.github.io/google-homepage/) 
 * [Gary Rotter's Solution (Easy)](https://github.com/garythedamnsnail/google-homepage) - [View in Browser](https://garythedamnsnail.github.io/google-homepage/)
