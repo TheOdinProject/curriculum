@@ -44,7 +44,7 @@ If you're using a Mac, you're in great shape. Most professional developers rely 
 
 A **virtual machine** is an emulation of a computer that runs within your existing OS. It's like running a whole operating system inside of a program on your current operating system. For example, a virtual machine allows you to run a linux operating system inside of a windows computer. Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
-Still unsure about virtual machines? [Watch this video](https://youtu.be/yIVXjl4SwVo) or [read this article](https://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) for more information on virtual machines.
+Still unsure about virtual machines? [Watch this video](https://youtu.be/yIVXjl4SwVo) or [read this article](https://www.howtogeek.com/196060/beginner-geek-how-to-create-and-use-virtual-machines/) for more information on virtual machines. 
 
 **Dual-booting** means installing two operating systems on your computer, which can give you the option to boot either Linux or Windows when your computer first starts up. The advantage of dual-booting over a virtual machine is that the OS can use all of your computer's resources, resulting in much faster operation. There is some risk to installing a dual-boot system because you're changing your hard drive partitions, but the risk is very low. You'll be okay as long as you take your time and read the instructions.
 
