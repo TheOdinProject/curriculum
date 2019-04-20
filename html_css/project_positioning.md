@@ -97,6 +97,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [bchalman's solution](https://github.com/bchalman/NYT-positioning-practice) - [View in browser](https://bchalman.github.io/NYT-positioning-practice/)
 * [Doris's solution](https://github.com/dsmchen/nyt-article) - [view in browser](https://dsmchen.github.io/nyt-article/)
 * [Kelvin Liang's solution](https://github.com/kelvin8773/NYT-Clone-Page) - [View in browser](https://kelvin8773.github.io/NYT-Clone-Page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/NYT-clone-page) - [View in browser](https://amarcoscastelo.github.io/NYT-clone-page/)
 
 </details>
 
