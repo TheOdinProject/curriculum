@@ -288,6 +288,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Leonardo Vega's Solution (with AI)](https://github.com/leonardovega/ruby_programming/blob/master/intermediate_ruby/mastermind.rb)
 * [BShowen's Solution (with smart AI)](https://github.com/BShowen/CL_mastermind)
 * [Braxton Lemmon's Solution (easy AI)](https://github.com/braxtonlemmon/mastermind)
 * [Kevin Vuong's Solution](https://github.com/fffear/mastermind)
