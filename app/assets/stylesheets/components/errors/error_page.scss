@@ -1,20 +1,11 @@
 .error-page {
-  background-color: #45B8F2;
+  background-color: #13acff;
 
   &__image {
-    background: asset_url("404-isometric.svg") no-repeat ;
-    background-position: 75% center;
-    background-size: 120%;
-    height: 75vh;
-
-    @include media-breakpoint-down(md) {
-      width: 100%;
-    }
-
-    @include media-breakpoint-down(sm) {
-      background-position: 65% 70%;
-      background-size: 140%;
-      height: 79vh;
-    }
+    background: asset_url("404-island.svg") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 60vh;
+    width: 100%;
   }
 }

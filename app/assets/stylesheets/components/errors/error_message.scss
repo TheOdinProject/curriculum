@@ -1,11 +1,7 @@
 .error-message {
   text-align: center;
-  padding-top: 6.3em;
+  padding-top: 4rem;
   margin-top: -25px;
-
-  @include media-breakpoint-down(sm) {
-    padding-top: 2em;
-  }
 
   &__title {
     font-size: 2.5em;
