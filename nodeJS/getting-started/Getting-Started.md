@@ -20,7 +20,6 @@ By the end of this lesson, you should be able to do the following:
  - Describe Node.js Events.
  - Understand how Node.js uploads files and sends an email.
 
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
