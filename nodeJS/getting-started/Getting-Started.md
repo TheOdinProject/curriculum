@@ -5,7 +5,21 @@ This lesson will take you through a tutorial that will teach you the basic modul
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- - Do stuff
+ - Describe Node.js.
+ - Explain what Node.js can do.
+ - Describe what Node.js file contains.
+ - Initiate Node.js file.
+ - Describe Modules in Node.js.
+ - Include your own Module in a Node.js file.
+ - Use Node.js as a web server.
+ - Understand an HTTP header.
+ - Use Node.js as a file server.
+ - Read, create, update, and delete files from Node.js.
+ - Describe node.js URL module.
+ - Explain Node.js NPM.
+ - Describe Node.js Events.
+ - Understand how Node.js uploads files and sends an email.
+
 
 ### Assignment
 
