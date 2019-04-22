@@ -1,16 +1,17 @@
-Node.js is really just JavaScript.. so most of what you need to know to be productive you have already learned by going through our prerequisite javascript course. (If you *haven't* gone through that yet, now would be a fine time to actually do that)
+Like we learned in the introduction lesson, Node.js is really just JavaScript. So a basic understanding of JavaScript is necessary in order to understand Node. For this reason, it is highly recommended that you take our prerequisite [JavaScript course](https://www.theodinproject.com/courses/javascript) before continuing with this course. 
 
-This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with node.js.  The project that comes right after this assignment will ask you to use node to create a basic informational website with 3 pages, an index, about and contact-me.. so be on the lookout for things that might help you do just that.
+This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes right after this assignment will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Explain some things that Node.js is commonly used for.
- - Understand using Modules in Node.js.
- - Set up a basic webserver with Node.js.
+ - Create and use modules in Node.js (both built-in and user created). 
+ - Set up a basic webserver with Node.js using the HTTP module.
  - Read, create, update, and delete files from Node.js.
+ - Use the URL module to parse a url address and split it into readable parts.
  - Understand how to use NPM.
- - Describe Node.js Events.
+ - Create, fire and listen for your own events.
 
 ### Assignment
 
@@ -25,7 +26,7 @@ By the end of this lesson, you should be able to do the following:
   - Node.js URL Module
   - Node.js NPM
   - Node.js Events
-  - The File Uploads and Email lessons are optional at this point.. but it might be useful to  at least skim them so you can know where to look if you need that functionality.
+  - The File Uploads and Email lessons are optional at this point but it might be useful to at least skim them so you can know where to look if you need that functionality.
 </div>
 
 ### Knowledge Check
