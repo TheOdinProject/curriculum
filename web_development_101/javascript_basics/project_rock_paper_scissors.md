@@ -39,6 +39,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Edison Escobar's Solution](https://github.com/Jhoneguitar/rock_paper_scissors) - [View In Browser](https://jhoneguitar.github.io/rock_paper_scissors/) 
 - [Neill Henning's Solution](https://github.com/Rabidza/rock-paper-scissors) - [View In Browser](https://rabidza.github.io/rock-paper-scissors/)
 - [Markbass1 Solution (GUI version)](https://github.com/Markbass1/RockPaperScissorGame) - [View in Browser](https://markbass1.github.io/RPSGame/Index.html)
 - [Jomaree's Solution](https://github.com/jl88s/rock-paper-scissors) - [View in Browser](http://lawsin-rps-game.netlify.com)
