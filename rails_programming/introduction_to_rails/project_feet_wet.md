@@ -137,5 +137,6 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Tommy's solution](https://github.com/hoangtommy/toy-app)
 * [Alex's solution](https://github.com/alexcorremans/toy_app) - [Heroku](https://shielded-anchorage-68758.herokuapp.com/)
 * [Leila Alderman's solution](https://github.com/leila-alderman/toy_app) - [Heroku](https://shielded-mesa-98541.herokuapp.com/users)
+* [JamCry's Solution](https://github.com/jamcry/rails-toy-app) - [Heroku](https://jamcry-toy-app.herokuapp.com/)
 
 </details>
