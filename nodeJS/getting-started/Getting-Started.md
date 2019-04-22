@@ -5,17 +5,12 @@ This lesson will take you through a tutorial that will teach you the basic modul
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- - Explain the benefits of using Node.js.
- - Understand what can be accomplished with Node.js.
- - Create and initiate a Node.js file.
- - Describe what is a Node.js module.
+ - Explain some things that Node.js is commonly used for.
  - Create and use modules in Node.js (both built-in and user created). 
- - Create a web server using the HTTP module.
- - Read, create, update, rename and delete local files.
+ - Set up a basic webserver with Node.js using the HTTP module.
+ - Read, create, update, and delete files from Node.js.
  - Use the URL module to parse a url address and split it into readable parts.
- - Create a basic file server.
- - Explain what is NPM.
- - Download and use packages.
+ - Understand how to use NPM.
  - Create, fire and listen for your own events.
 
 ### Assignment
