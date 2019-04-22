@@ -2099,6 +2099,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Richie Tyler's Solution (Easy)](https://github.com/richietyler/google-homepage/) - [View in Browser](https://richietyler.github.io/google-homepage/)
 * [Abduraimov Muminjon's (Easy)](https://github.com/MuminjonGuru/web_dev_101) - [View in Browser](https://codepen.io/MuminjonGuru/pen/axKPpp)
 * [Eric Lee's (Easy)](https://github.com/eelcire/google-homepage) - [View in Browser](https://eelcire.github.io/google-homepage)
+* [Jake's Solution (Easy)](https://github.com/jakercates/google_homepage) - [View in Browser](https://jakercates.github.io/google_homepage/)
 
 </details>
 
