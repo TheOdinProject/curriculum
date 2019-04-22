@@ -5,7 +5,12 @@ This lesson will take you through a tutorial that will teach you the basic modul
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- - Do stuff
+ - Explain some things that Node.js is commonly used for.
+ - Understand using Modules in Node.js.
+ - Set up a basic webserver with Node.js.
+ - Read, create, update, and delete files from Node.js.
+ - Understand how to use NPM.
+ - Describe Node.js Events.
 
 ### Assignment
 
