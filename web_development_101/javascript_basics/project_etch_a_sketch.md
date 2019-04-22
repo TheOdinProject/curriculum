@@ -373,4 +373,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [alex-sir's Solution](https://github.com/alex-sir/etch-a-sketch) - [View in Browser](https://alex-sir.github.io/etch-a-sketch/)
 * [Jean Merlet's Solution](https://github.com/jeanmerlet/web_misc/tree/master/etch_a_sketch)
 * [Kelly Joseph's Solution](https://seisolo76.github.io/ETCH-A-SKETCH/index.html)
+* [Jake's Solution](https://github.com/jakercates/etch-a-sketch) - [View in Browser](https://jakercates.github.io/etch-a-sketch/)
 </details>
