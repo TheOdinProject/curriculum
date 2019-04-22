@@ -15,6 +15,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [LCDonadio's solution](https://github.com/LCDonadio/odin_project_sql)
 * [Learnsometing's solution](https://github.com/learnsometing/Odin_SQL_project)
 * [Bojo's solution](https://github.com/BojoZahariev/Project_SQL)
 * [Simon Tharby's solution](https://github.com/jinjagit/sql_practice)
