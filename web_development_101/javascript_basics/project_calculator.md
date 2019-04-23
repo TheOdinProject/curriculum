@@ -272,7 +272,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tseti's Solution](https://github.com/tseti/calculator) - [View in Browser](https://tseti.github.io/calculator/)
 - [Timring's Solution](https://github.com/timkwali/calculator) - [View in Browser](https://timkwali.github.io/calculator/)
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/calculator) - [View in Browser](https://emmanuelnwankwo.github.io/calculator/)
-- [Maddy's solution](https://github.com/maddybvh/calculator) - [View in Browser](https://github.com/maddybvh/calculator)
+- [Maddy's solution](https://github.com/maddybvh/calculator) - [View in Browser](https://maddybvh.github.io/calculator/)
 - [Grant Wasil's solution](https://github.com/GrantWasil/calculator) - [View in Browser](https://grantwasil.github.io/calculator/)
 - [LastCapricorn's solution](https://github.com/LastCapricorn/calculator) - [View in Browser](https://lastcapricorn.github.io/calculator/)
 - [Jake's solution](https://github.com/jakercates/calculator-JS) - [View In Browser](https://jakercates.github.io/calculator-JS/)
