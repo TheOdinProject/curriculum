@@ -606,8 +606,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Márcio Rodrigo Solution](https://github.com/mrodrigochaves/rock-paper-scissors) - [View in Browser](https://rock-paper-scissors-bdab1.firebaseapp.com/)
 - [Jake's Solution](https://github.com/jakercates/Rock-Paper-Scissors-Website) - [View in Browser](https://jakercates.github.io/Rock-Paper-Scissors-Website/)
 - [Colleen's Solution](https://github.com/coggins87/Rock-Paper-Scissors)
-
-# my solution
 - [Muminjon's Solution](https://github.com/MuminjonGuru/web_dev_101/tree/master/rock%20paper%20scissors) - [View in Browser](https://codepen.io/MuminjonGuru/project/editor/DyVOym)
 
 </details>
