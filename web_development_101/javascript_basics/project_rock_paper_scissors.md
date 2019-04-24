@@ -39,7 +39,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/rock_paper_scissors) - [View in Browser](https://muhymenulhaque.github.io/rock_paper_scissors/)
 - [Nicolás Nisoria's Solution](https://github.com/niconisoria/rock-paper-scissors) - [View in Browser](https://niconisoria.github.io/rock-paper-scissors/)
 - [Obert Makaza's Solution](https://github.com/omakazagit/rock-paper-scissors) - [View in Browser](https://github.com/omakazagit/rock-paper-scissors)
 - [Edison Escobar's Solution](https://github.com/Jhoneguitar/rock_paper_scissors) - [View In Browser](https://jhoneguitar.github.io/rock_paper_scissors/) 
@@ -604,10 +603,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/rock-paper-scissors) - [View in Browser](https://emmanuelnwankwo.github.io/rock-paper-scissors/)
 - [Kelly Joseph's GUI rock paper scissors](https://seisolo76.github.io/ROCK-PAPER-SCISSORS/)
 - [AdesojiCodeMaster's Solution](https://github.com/adesojicodemaster/RockPaperScissorsGame/) - [View in Browser](https://adesojicodemaster.github.io/RockPaperScissorsGame/)
-- [Andre Roy's Solution](https://github.com/RoyNyaga/Rock-paper-scissors) - [View in Browser](https://RoyNyaga.github.io/Rock-paper-scissors/)
+- [Andre Roy's Solution](https://github.com/RoyNyaga/Rock-paper-scissors) - [View in Browser](https://roynyaga.github.io/rock-paper-scissors-with-UI/)
 - [Márcio Rodrigo Solution](https://github.com/mrodrigochaves/rock-paper-scissors) - [View in Browser](https://rock-paper-scissors-bdab1.firebaseapp.com/)
 - [Jake's Solution](https://github.com/jakercates/Rock-Paper-Scissors-Website) - [View in Browser](https://jakercates.github.io/Rock-Paper-Scissors-Website/)
 - [Colleen's Solution](https://github.com/coggins87/Rock-Paper-Scissors)
 - [Muminjon's Solution](https://github.com/MuminjonGuru/web_dev_101/tree/master/rock%20paper%20scissors) - [View in Browser](https://codepen.io/MuminjonGuru/project/editor/DyVOym)
-
+- [Roy's solution](https://github.com/RoyNyaga/Rock-paper-scissors) - [View in Browser](https://roynyaga.github.io/rock-paper-scissors-with-UI/)
 </details>
