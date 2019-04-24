@@ -39,6 +39,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+<<<<<<< HEAD
+=======
+- [Nicolás Nisoria's Solution](https://github.com/niconisoria/rock-paper-scissors) - [View in Browser](https://niconisoria.github.io/rock-paper-scissors/)
+>>>>>>> c1a456852c2499e7cce6f049407d64016320bd6e
 - [Obert Makaza's Solution](https://github.com/omakazagit/rock-paper-scissors) - [View in Browser](https://github.com/omakazagit/rock-paper-scissors)
 - [Edison Escobar's Solution](https://github.com/Jhoneguitar/rock_paper_scissors) - [View In Browser](https://jhoneguitar.github.io/rock_paper_scissors/) 
 - [Neill Henning's Solution](https://github.com/Rabidza/rock-paper-scissors) - [View In Browser](https://rabidza.github.io/rock-paper-scissors/)
@@ -606,4 +610,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Márcio Rodrigo Solution](https://github.com/mrodrigochaves/rock-paper-scissors) - [View in Browser](https://rock-paper-scissors-bdab1.firebaseapp.com/)
 - [Jake's Solution](https://github.com/jakercates/Rock-Paper-Scissors-Website) - [View in Browser](https://jakercates.github.io/Rock-Paper-Scissors-Website/)
 - [Colleen's Solution](https://github.com/coggins87/Rock-Paper-Scissors)
+<<<<<<< HEAD
+=======
+- [Muminjon's Solution](https://github.com/MuminjonGuru/web_dev_101/tree/master/rock%20paper%20scissors) - [View in Browser](https://codepen.io/MuminjonGuru/project/editor/DyVOym)
+
+>>>>>>> c1a456852c2499e7cce6f049407d64016320bd6e
 </details>
