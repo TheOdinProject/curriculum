@@ -30,6 +30,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Zeha's solution](https://github.com/JangkarBumi/odin-toy-app)
 * [Smetanca52's Solution](https://github.com/Smetanca52/toy_app) - [Live](https://serene-chamber-16862.herokuapp.com/)
 * [Noah Maizels' Solution](https://github.com/noahniuwa/rails-tutorial-toy-app) - [Live](https://ancient-river-40245.herokuapp.com/users)
 * [Simon Tharby's Solution](https://github.com/jinjagit/toy_app) - [Live](https://vast-spire-64894.herokuapp.com/)

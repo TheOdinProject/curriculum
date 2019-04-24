@@ -2100,6 +2100,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Abduraimov Muminjon's (Easy)](https://github.com/MuminjonGuru/web_dev_101) - [View in Browser](https://codepen.io/MuminjonGuru/pen/axKPpp)
 * [Eric Lee's (Easy)](https://github.com/eelcire/google-homepage) - [View in Browser](https://eelcire.github.io/google-homepage)
 * [Abduraimov Muminjon's Solution (Difficult)](https://github.com/MuminjonGuru/web_dev_101/tree/master/google%20search%20results%20page) - [View in Browser](https://codepen.io/MuminjonGuru/pen/XQBOge)
+* [Márcio Rodrigo (Easy)](https://github.com/mrodrigochaves/google-homepage) - [View in Browser](https://home-project-4542e.firebaseapp.com/)
+* [Jake's Solution (Easy)](https://github.com/jakercates/google_homepage) - [View in Browser](https://jakercates.github.io/google_homepage/)
+* [Kelvin Tay's Solution (Easy)](https://github.com/KelTay/google-homepage) - [View in Browser](https://keltay.github.io/google-homepage/)
 
 </details>
 
