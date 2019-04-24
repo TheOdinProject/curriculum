@@ -609,5 +609,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jake's Solution](https://github.com/jakercates/Rock-Paper-Scissors-Website) - [View in Browser](https://jakercates.github.io/Rock-Paper-Scissors-Website/)
 - [Colleen's Solution](https://github.com/coggins87/Rock-Paper-Scissors)
 - [Muminjon's Solution](https://github.com/MuminjonGuru/web_dev_101/tree/master/rock%20paper%20scissors) - [View in Browser](https://codepen.io/MuminjonGuru/project/editor/DyVOym)
-
+-[Roy's solution](https://github.com/RoyNyaga/Rock-paper-scissors) - [View in Browser](https://roynyaga.github.io/Rock-paper-scissors/)
 </details>
