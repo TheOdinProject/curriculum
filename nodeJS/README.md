@@ -31,4 +31,4 @@ This course assumes basic JS/HTML/CSS proficiency. If you haven't done our WebDe
     - Testing routes/controllers [lesson](testing/Testing.md)
     - Testing database operations [lesson](testing/Testing-Mongo.md)
 - FINAL PROJECT BABY WOO
-    - Fake Ecommerce app! [Project: OdinStore](Odin-Store.md)
+    - FakeBook! [Project: FakeBook](Odin-Book.md)

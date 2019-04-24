@@ -69,6 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vollantre's Solution](https://github.com/vollantre/linked_list/blob/master/linked_list.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/linked_lists)
 * [Kevin Vuong's Solution](https://github.com/fffear/linked_lists)
 * [Nicolas Espinoza's Solution](https://github.com/nicospz/linked_lists)
@@ -129,7 +130,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Earth35's solution](https://github.com/Earth35/linked-list/blob/master/linked_list.rb)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/linked_list.rb)
 * [Amrr Bakry's solution - with extra credit](https://github.com/Amrrbakry/learning_ruby/blob/master/LinkedList/linked_list.rb)
-* [Jean Merlet's solution](https://github.com/jeanmerlet/linked_lists/blob/master/linked_list.rb)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_misc/blob/master/data_structures/linked_list.rb)
 * [Manu Phatak's HIGH ENERGY solution](https://github.com/bionikspoon/ruby_linked_list)
 * [fugumagu's solution with extra credit](https://github.com/fugumagu/the_odin_project/tree/master/linked_list)
 * [Sasho's solution /w extra credit](https://github.com/sashoa/the-odin-project/tree/master/project-linked-lists)
