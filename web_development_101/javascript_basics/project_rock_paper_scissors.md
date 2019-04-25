@@ -601,4 +601,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kelly Joseph's GUI rock paper scissors](https://seisolo76.github.io/ROCK-PAPER-SCISSORS/)
 - [AdesojiCodeMaster's Solution](https://github.com/adesojicodemaster/RockPaperScissorsGame/) - [View in Browser](https://adesojicodemaster.github.io/RockPaperScissorsGame/)
 - [Andre Roy's Solution](https://github.com/RoyNyaga/Rock-paper-scissors) - [View in Browser](https://RoyNyaga.github.io/Rock-paper-scissors/)
+- [Eric Lee's Solution](https://github.com/eelcire/rps) - [View In Browser](TBA)
 </details>
