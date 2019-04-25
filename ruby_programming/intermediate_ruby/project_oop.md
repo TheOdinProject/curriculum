@@ -259,6 +259,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/intermediate_project/tic_tac_toe.rb)
 * [vanny96's Solution](https://github.com/vanny96/OOP)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/tic_tac_toe_game/blob/master/tic_tac_toe.rb)
 
 </details>
 
