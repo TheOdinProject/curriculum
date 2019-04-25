@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [bcikota's solution](https://github.com/bcikota/Mint.com) - [View in browser](https://bcikota.github.io/Mint.com/)
 * [Bola Buari's solution](https://github.com/bolah2009/mint-clone) - [View in browser](https://bolah2009.github.io/mint-clone)
 * [Ohlie's solution](https://github.com/lco1220/mint_signup_page) - [View in browser](https://lco1220.github.io/mint_signup_page/)
 * [Jason McKee's solution](https://github.com/jttmckee/mint-signup) - [View in browser](https://jttmckee.github.io/mint-signup/)
@@ -120,6 +121,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ghassan's Solution](https://github.com/GT001/TOP-Mint.com-Signup) - [View in Browser](https://gt001.github.io/TOP-Mint.com-Signup/)
 * [Valentino Valenti's solution](https://github.com/1ba1/html-form) - [View in Browser](https://1ba1.github.io/html-form/)
 * [Doris's solution](https://github.com/dsmchen/intuit-sign-up-page) - [view in browser](https://dsmchen.github.io/intuit-sign-up-page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/intuit-signup-page) - [view in browser](https://amarcoscastelo.github.io/intuit-signup-page/)
 
 </details>
 
