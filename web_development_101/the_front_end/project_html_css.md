@@ -87,6 +87,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Stiven's Solution (Easy)](https://github.com/stivencabrera3/stiven-google-homepage) - [View in Browser](https://stivencabrera3.github.io/stiven-google-homepage/)
 * [AntiWol's Solution (Easy)](https://github.com/AntiWol/google-homepage) - [View in Browser](https://antiwol.github.io/google-homepage/)
 * [Neill Henning's Solution (Easy)](https://github.com/rabidza/google-homepage) - [View in Browser](https://rabidza.github.io/google-homepage/)
 * [Nico Nisoria's Solution (Easy)](https://niconisoria.github.io/google-homepage) - [View in Browser](https://niconisoria.github.io/google-homepage)
@@ -2099,6 +2100,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Richie Tyler's Solution (Easy)](https://github.com/richietyler/google-homepage/) - [View in Browser](https://richietyler.github.io/google-homepage/)
 * [Abduraimov Muminjon's (Easy)](https://github.com/MuminjonGuru/web_dev_101) - [View in Browser](https://codepen.io/MuminjonGuru/pen/axKPpp)
 * [Eric Lee's (Easy)](https://github.com/eelcire/google-homepage) - [View in Browser](https://eelcire.github.io/google-homepage)
+* [Abduraimov Muminjon's Solution (Difficult)](https://github.com/MuminjonGuru/web_dev_101/tree/master/google%20search%20results%20page) - [View in Browser](https://codepen.io/MuminjonGuru/pen/XQBOge)
+* [Márcio Rodrigo (Easy)](https://github.com/mrodrigochaves/google-homepage) - [View in Browser](https://home-project-4542e.firebaseapp.com/)
+* [Jake's Solution (Easy)](https://github.com/jakercates/google_homepage) - [View in Browser](https://jakercates.github.io/google_homepage/)
+* [Kelvin Tay's Solution (Easy)](https://github.com/KelTay/google-homepage) - [View in Browser](https://keltay.github.io/google-homepage/)
+* [Wen (Easy)](https://github.com/codepath2019/google-homepage) - [View in Browser](https://codepath2019.github.io/google-homepage/)
 
 </details>
 
