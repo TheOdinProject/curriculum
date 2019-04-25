@@ -30,6 +30,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Zeha's solution](https://github.com/JangkarBumi/odin-toy-app)
 * [Smetanca52's Solution](https://github.com/Smetanca52/toy_app) - [Live](https://serene-chamber-16862.herokuapp.com/)
 * [Noah Maizels' Solution](https://github.com/noahniuwa/rails-tutorial-toy-app) - [Live](https://ancient-river-40245.herokuapp.com/users)
 * [Simon Tharby's Solution](https://github.com/jinjagit/toy_app) - [Live](https://vast-spire-64894.herokuapp.com/)
@@ -137,5 +138,6 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Tommy's solution](https://github.com/hoangtommy/toy-app)
 * [Alex's solution](https://github.com/alexcorremans/toy_app) - [Heroku](https://shielded-anchorage-68758.herokuapp.com/)
 * [Leila Alderman's solution](https://github.com/leila-alderman/toy_app) - [Heroku](https://shielded-mesa-98541.herokuapp.com/users)
+* [JamCry's Solution](https://github.com/jamcry/rails-toy-app) - [Heroku](https://jamcry-toy-app.herokuapp.com/)
 
 </details>

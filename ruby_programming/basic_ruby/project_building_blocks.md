@@ -37,6 +37,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/caesar_cipher.rb)
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/caesar_cipher.rb)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/ruby/ruby/project_building_blocks/caesar_cipher.rb)
+* [Vollantre's Solution](https://github.com/vollantre/ruby_basic/blob/master/caesar_cipher.rb)
 * [Kenneth Auwers's Solution](https://github.com/R0259640/Project-Building-Blocks/blob/master/ceasar_cipher.rb)
 * [Jacques Hovine's Solution](https://github.com/jacqueshovine/TOP_Ruby/blob/master/caesar_cipher.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/caesar_cipher.rb)
@@ -454,6 +458,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/stock_picker.rb)
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/stock_picker.rb)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_building_blocks/stock_picker.rb)
+* [Vollantre's Solution](https://github.com/vollantre/ruby_basic/blob/master/stock_picker.rb)
 * [Jacques Hovine's Solution](https://github.com/jacqueshovine/TOP_Ruby/blob/master/stock_picker.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/stock_picker.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/stock-picker.rb)
@@ -841,6 +849,10 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/substrings.rb)
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/substrings.rb)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_building_blocks/substrings.rb)
+* [Vollantre's Solution](https://github.com/vollantre/ruby_basic/blob/master/substrings.rb)
 * [Jacques Hovine's Solution](https://github.com/jacqueshovine/TOP_Ruby/blob/master/substrings.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/substrings.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/substrings.rb)

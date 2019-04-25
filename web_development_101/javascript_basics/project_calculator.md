@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Niccolas' Solution](https://github.com/niccomaganeli/calculator) - [View in Browser](https://niccomaganeli.github.io/calculator/)
 - [Iacob Sorin Solution](https://github.com/Iacobssorin/calculator_js) - [View in Browser](https://iacobssorin.github.io/calculator_js/) 
 - [Daniel Ryu's Solution](https://github.com/dryu99/Calculator) - [View in Browser](https://dryu99.github.io/Calculator/) 
 - [John Paul's Solution](https://github.com/Omulosi/calculator) - [View in Browser](https://omulosi.github.io/calculator/)
@@ -271,7 +272,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tseti's Solution](https://github.com/tseti/calculator) - [View in Browser](https://tseti.github.io/calculator/)
 - [Timring's Solution](https://github.com/timkwali/calculator) - [View in Browser](https://timkwali.github.io/calculator/)
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/calculator) - [View in Browser](https://emmanuelnwankwo.github.io/calculator/)
-- [Maddy's solution](https://github.com/maddybvh/calculator) - [View in Browser](https://github.com/maddybvh/calculator)
+- [Maddy's solution](https://github.com/maddybvh/calculator) - [View in Browser](https://maddybvh.github.io/calculator/)
 - [Grant Wasil's solution](https://github.com/GrantWasil/calculator) - [View in Browser](https://grantwasil.github.io/calculator/)
 - [LastCapricorn's solution](https://github.com/LastCapricorn/calculator) - [View in Browser](https://lastcapricorn.github.io/calculator/)
+- [Jake's solution](https://github.com/jakercates/calculator-JS) - [View In Browser](https://jakercates.github.io/calculator-JS/)
+- [Goldkoyne88's solution](https://github.com/goldkoyne88/calculator) - [View in Browser](https://goldkoyne88.github.io/calculator/)
+- [alex-sir's solution](https://github.com/alex-sir/calculator) - [View in Browser](https://alex-sir.github.io/calculator/)
+- [tronerta's solution](https://github.com/Tronerta/calculator) - [View in Browser](https://tronerta.github.io/calculator/)
 </details>
