@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Learnsometing's Solution [Github](https://github.com/learnsometing/Sinatra-Caesar_Cipher) [Live](https://learnsometing-caesar-cipher.herokuapp.com/)
 * Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/caesar_cipher) [Live](https://secure-escarpment-83147.herokuapp.com)
 * Smetanca52's Solution [GitHub](https://github.com/Smetanca52/sinatra_project) [Live](https://boiling-refuge-38884.herokuapp.com/)
 * Jason McKee's Solution [GitHub](https://github.com/jttmckee/sinatra-caesar-cipher) [Live](https://limitless-wave-11721.herokuapp.com)
