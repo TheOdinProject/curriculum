@@ -378,4 +378,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Kelly Joseph's Solution](https://seisolo76.github.io/ETCH-A-SKETCH/index.html)
 * [Jake's Solution](https://github.com/jakercates/etch-a-sketch) - [View in Browser](https://jakercates.github.io/etch-a-sketch/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/odin-etch-a-sketch-project) - [View in Browser](https://adrieltrigger.github.io/odin-etch-a-sketch-project/)
+* [Muminjon's Solution](https://github.com/MuminjonGuru/web_dev_101/tree/master/Etch%20a%20Sketch) - [View in Browser](https://codepen.io/MuminjonGuru/pen/NmerpP)
 </details>
