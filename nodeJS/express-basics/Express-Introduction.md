@@ -7,6 +7,11 @@ By the end of this lesson, you should be able to do the following:
 - Describe the relationship between Node.js and Express.
 - Explain what a module is and how Express fits in.
 - Import and create modules.
+- Describe asynchronous APIs.
+- Describe and create route handlers
+- Describe and use middleware.
+- Describe error handling in Express.
+- 
 
 
 ### Assignment
