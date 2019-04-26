@@ -379,4 +379,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jake's Solution](https://github.com/jakercates/etch-a-sketch) - [View in Browser](https://jakercates.github.io/etch-a-sketch/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/odin-etch-a-sketch-project) - [View in Browser](https://adrieltrigger.github.io/odin-etch-a-sketch-project/)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/web_dev_101/tree/master/Etch%20a%20Sketch) - [View in Browser](https://codepen.io/MuminjonGuru/pen/NmerpP)
+* [JFAldridge's Solution](https://github.com/JFAldridge/square_sketch) - [View in Browser](https://jfaldridge.github.io/square_sketch/)
 </details>
