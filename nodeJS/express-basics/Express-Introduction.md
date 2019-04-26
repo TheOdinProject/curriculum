@@ -4,6 +4,7 @@ In this unit, we are going to be following the [express tutorial](https://develo
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
+#### Express web framework
 - Describe Express and Node's main benefits.
 - Describe the relationship between Node and Express.
 - Explain what a module is and how Express fits in.
@@ -13,6 +14,12 @@ By the end of this lesson, you should be able to do the following:
 - Describe and use middleware.
 - Describe error handling in Express.
 - Describe what the main parts of an Express app might look like.
+
+#### Setting up a Node development environment
+- Describe Express development environment.
+- Import Express into an application using NPM.
+- Create and run applications using the Express application generator tool
+- Set up a development environment for Express on your computer.
 
 
 ### Assignment
