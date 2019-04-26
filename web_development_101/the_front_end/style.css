@@ -1,0 +1,69 @@
+html, main {
+    font-family: arial,sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 68px;
+}
+
+input {
+    background: #ffffff;
+    border: 1px solid #cacaca;
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    padding: 20px;
+    width: 575px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+div.container {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}   
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li.lucky{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    margin: 0px 5px;
+   
+}
+
+div.footer{
+    position: fixed;
+    bottom: 0;
+
+}
+
+div.nav{
+    position: fixed;
+    top: 0;
+   
+}
