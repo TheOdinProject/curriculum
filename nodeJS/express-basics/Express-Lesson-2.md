@@ -1,5 +1,8 @@
 After setting up the skeleton for your project it's time to set up the database.  As usual, there's quite a bit of background information that you will find useful as you progress.
 
+### Learning Outcomes
+- Explain CRUD and how it correlates to HTTP methods.
+
 ### CRUD
 
 CRUD is a concept that comes up a lot in web development, and it's the type of thing that might show up in interview questions so it's worth taking a little time to make sure you understand what it refers to. Thankfully, it's a relatively simple concept.
