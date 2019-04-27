@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nicolás Nisoria's Solution](https://github.com/niconisoria/rock-paper-scissors) - [View in Browser](https://niconisoria.github.io/rock-paper-scissors/)
 - [Obert Makaza's Solution](https://github.com/omakazagit/rock-paper-scissors) - [View in Browser](https://github.com/omakazagit/rock-paper-scissors)
 - [Edison Escobar's Solution](https://github.com/Jhoneguitar/rock_paper_scissors) - [View In Browser](https://jhoneguitar.github.io/rock_paper_scissors/) 
-- [Neill Henning's Solution](https://github.com/Rabidza/rock-paper-scissors) - [View In Browser](https://rabidza.github.io/rock-paper-scissors/)
+- [Neill Henning's console solution](https://github.com/Rabidza/rock-paper-scissors) - [Neill's GUI solution](https://github.com/Rabidza/rock-paper-scissors-gui) - [View in browser](https://rabidza.github.io/rock-paper-scissors-gui/)
 - [Markbass1 Solution (GUI version)](https://github.com/Markbass1/RockPaperScissorGame) - [View in Browser](https://markbass1.github.io/RPSGame/Index.html)
 - [Jomaree's Solution](https://github.com/jl88s/rock-paper-scissors) - [View in Browser](http://lawsin-rps-game.netlify.com)
 - [Dylan's Solution (GUI version)](https://github.com/proto-dylan/RockPaperScissorsDos) - [View in Browser](https://proto-dylan.github.io/RockPaperScissorsDos/)
