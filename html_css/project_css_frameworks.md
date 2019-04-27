@@ -33,6 +33,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ARaut9's solution - Framework](https://github.com/ARaut9/css_framework) - [View in browser](https://araut9.github.io/css_framework/test.html)
+* [ARaut9's solution - Example Site](https://github.com/ARaut9/itunes_clone) - [View in browser](https://araut9.github.io/itunes_clone/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/framework) - [View in browser](https://n00bg1rl.github.io/framework/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/cloud9-clone) - [View in Browser](https://javier-machin.github.io/cloud9-clone/)
 * [nmac's solution](https://github.com/nmacawile/css-framework) - [View](https://htmlpreview.github.io/?https://github.com/nmacawile/css-framework/blob/master/index.html)

@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [George Zhu's Solution](https://github.com/georgezhu11/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/intermediate_ruby/ric_rac_roe.rb)
 * [Vollantre's Solution](https://github.com/vollantre/Tic_Tac_Toe)
 * [BShowen's Solution](https://github.com/BShowen/CL_tic_tac_toe)
@@ -260,6 +261,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/tic-tac-toe)
 * [Junwen's solution](https://github.com/JunwenHE/SelfLearningRuby/blob/master/intermediate_project/tic_tac_toe.rb)
 * [vanny96's Solution](https://github.com/vanny96/OOP)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/oop-project/tree/master/tic-tac-toe)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/tic_tac_toe_game/blob/master/tic_tac_toe.rb)
 
 </details>
 
@@ -287,6 +290,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [George Zhu's Solution](https://github.com/georgezhu11/mastermind/blob/master/mastermind.rb)
+* [Leonardo Vega's Solution (with AI)](https://github.com/leonardovega/ruby_programming/blob/master/intermediate_ruby/mastermind.rb)
 * [BShowen's Solution (with smart AI)](https://github.com/BShowen/CL_mastermind)
 * [Braxton Lemmon's Solution (easy AI)](https://github.com/braxtonlemmon/mastermind)
 * [Kevin Vuong's Solution](https://github.com/fffear/mastermind)
@@ -479,6 +484,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
 * [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)
 * [vanny96's Solution (partial AI)](https://github.com/vanny96/OOP)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/oop-project/tree/master/mastermind)
 
 </details>
 
