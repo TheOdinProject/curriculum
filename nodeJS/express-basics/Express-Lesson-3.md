@@ -4,7 +4,6 @@ If you remember from our earlier lessons, a controller is, as you'll see the cod
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
-
 - Create simple routes.
 - Create route-handler callback functions.
 - Create catalog route module.
