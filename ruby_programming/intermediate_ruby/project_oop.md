@@ -19,7 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Arilson Souza] (https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_oop/tic_tac_toe.rb)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_oop/tic_tac_toe.rb)
 * [George Zhu's Solution](https://github.com/georgezhu11/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/intermediate_ruby/ric_rac_roe.rb)
 * [Vollantre's Solution](https://github.com/vollantre/Tic_Tac_Toe)
@@ -291,7 +291,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Arilson Souza] (https://github.com/arilsonsouza/the_odin_project/tree/master/ruby/project_oop/mastermind)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/tree/master/ruby/project_oop/mastermind)
 * [George Zhu's Solution](https://github.com/georgezhu11/mastermind/blob/master/mastermind.rb)
 * [Leonardo Vega's Solution (with AI)](https://github.com/leonardovega/ruby_programming/blob/master/intermediate_ruby/mastermind.rb)
 * [BShowen's Solution (with smart AI)](https://github.com/BShowen/CL_mastermind)
