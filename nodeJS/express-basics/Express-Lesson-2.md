@@ -8,7 +8,7 @@ By the end of this lesson, you should be able to do the following:
 - Describe databases and ORMs as well as how to use them with Node/Express apps.
 - Design and create your own models using Mongoose.
 - Declare object schema and models.
-- Describe the main field types, and basic validation.
+- Describe the main field types and basic validation.
 - List a few ways to access model data.
 - Test models by creating a number of instances (using a standalone script). 
 
