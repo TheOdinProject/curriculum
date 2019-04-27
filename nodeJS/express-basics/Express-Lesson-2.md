@@ -4,11 +4,13 @@ After setting up the skeleton for your project it's time to set up the database.
 By the end of this lesson, you should be able to do the following:
 
 - Explain CRUD and how it correlates to HTTP methods in Express.
-- Describe MVC.
-- Describe databases, and how to use them with Node/Express apps.
-- Use Mongoose to provide database access.
+- Describe MVC and how it correlates to Express.
+- Describe databases and ORMs as well as how to use them with Node/Express apps.
+- Design and create your own models using Mongoose.
 - Declare object schema and models.
 - Describe the main field types, and basic validation.
+- List a few ways to access model data.
+- Test models by creating a number of instances (using a standalone script). 
 
 ### CRUD
 
