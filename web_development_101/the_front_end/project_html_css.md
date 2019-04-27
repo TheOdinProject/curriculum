@@ -2107,6 +2107,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Wen (Easy)](https://github.com/codepath2019/google-homepage) - [View in Browser](https://codepath2019.github.io/google-homepage/)
 * [Yusuf Muktar (Difficult)](https://github.com/mayunited12/google-homepage/) - [View in Browser](https://mayunited12.github.io/google-homepage/)
 * [Charalampos Sarantoglou's Solution (Easy)](https://github.com/csara1/google-homepage/) - [View in Browser](https://csara1.github.io/google-homepage/)
+* [Suad Solution (Easy)](https://suadolaps.github.io/google-homepage/)
 
 </details>
 
