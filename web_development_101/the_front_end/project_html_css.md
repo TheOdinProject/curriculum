@@ -2111,6 +2111,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Charalampos Sarantoglou's Solution (Easy)](https://github.com/csara1/google-homepage/) - [View in Browser](https://csara1.github.io/google-homepage/)
 * [Suad Solution (Easy)](https://suadolaps.github.io/google-homepage/)
 * [Brian Mwevi's solution(Easy)](https://github.io/brianmwevi) - [View in Browser](https://brianmwevi.github.io/google-homepage/)
+* [Acoustic Kult's Solution (Easy)](https://github.com/AcousticKult/google-homepage) - [View in Browser](https://acoustickult.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
