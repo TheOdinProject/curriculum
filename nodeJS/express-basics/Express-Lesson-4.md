@@ -2,8 +2,10 @@ This lesson is a fun one! In this one you'll be setting up several views, and yo
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
-
-
+- Manage asynchronous operations in controller functions.
+- Write templates using Pug.
+- Implement read-only pages.
+- Describe how routes works 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
