@@ -5,7 +5,14 @@ By the end of this lesson, you should be able to do the following:
 - Manage asynchronous operations in controller functions.
 - Write templates using Pug.
 - Implement read-only pages.
-- Describe how routes works 
+- Describe how routes works.
+- Describe asynchronous functions.
+- Describe how views and models work in practice.
+- Manage flow control when using asynchronous operations.
+- Query database using models.
+- Pass information to a template from your view.
+- Create and extend templates.
+- Describe date handling using moment.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
