@@ -2113,6 +2113,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Brian Mwevi's solution(Easy)](https://github.io/brianmwevi) - [View in Browser](https://brianmwevi.github.io/google-homepage/)
 * [Acoustic Kult's Solution (Easy)](https://github.com/AcousticKult/google-homepage) - [View in Browser](https://acoustickult.github.io/google-homepage/)
 * [Rakesh's solution(Easy)](https://github.io/rakesh-mariyaplar/Ghomepage) - [View in Browser](https://rakesh-mariyaplar.github.io/Ghomepage)
+* [badziobw's solution(Easy)](https://github.com/badziobw/google_homepage) - [View in browser](https://badziobw.github.io/google_homepage/)
 </details>
 
 ### Additional Resources
