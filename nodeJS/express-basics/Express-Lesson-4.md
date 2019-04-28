@@ -2,17 +2,18 @@ This lesson is a fun one! In this one you'll be setting up several views, and yo
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
+- Describe asynchronous functions.
 - Manage asynchronous operations in controller functions.
+- Manage flow control when using asynchronous operations.
+- Create and extend templates.
 - Write templates using Pug.
+- Pass information to a template from your view.
 - Implement read-only pages.
 - Describe how routes works.
-- Describe asynchronous functions.
 - Describe how views and models work in practice.
-- Manage flow control when using asynchronous operations.
 - Query database using models.
-- Pass information to a template from your view.
-- Create and extend templates.
 - Describe date handling using moment.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
