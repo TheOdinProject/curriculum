@@ -2111,6 +2111,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Acoustic Kult's Solution (Easy)](https://github.com/AcousticKult/google-homepage) - [View in Browser](https://acoustickult.github.io/google-homepage/)
 * [Rakesh's solution(Easy)](https://github.io/rakesh-mariyaplar/Ghomepage) - [View in Browser](https://rakesh-mariyaplar.github.io/Ghomepage)
 * [badziobw's solution(Easy)](https://github.com/badziobw/google_homepage) - [View in browser](https://badziobw.github.io/google_homepage/)
+* [Dreamarcitect's solution(Easy)](https://github.com/dreamarcitect/google-homepage) - [View in browser](https://dreamarcitect.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
