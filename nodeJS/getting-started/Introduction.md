@@ -1,4 +1,4 @@
-NodeJS (or just 'Node') has been steadily gaining popularity since it's creation in 2009. The internet is flooded with courses and articles about it, installing it is a prerequisite for pretty much any front-end development work, and of course the amount of jobs that require knowledge of it is also on the rise.
+NodeJS (or just 'Node') has been steadily gaining popularity since its creation in 2009. The internet is flooded with courses and articles about it, installing it is a prerequisite for pretty much any front-end development work, and of course the amount of jobs that require knowledge of it is also on the rise.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
