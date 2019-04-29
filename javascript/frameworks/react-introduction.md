@@ -12,7 +12,7 @@ React is not only limited to the web. React Native can be used to develop cross-
 
 A note about Redux:
 
-When reading about the react framework, one might hear the term 'redux' thrown around. Redux is not exactly a part of react and can be used seperately from it. Redux is a way to manage the state of an application. While react containers, (a type of react component), have state themselves: redux handles the state of the entire application by using a single point of truth, making the appliation easier to manage for a developer. If you don't know if you need redux, you probably don't, as stated on their website. If you choose to go deep in learning React you will eventually want to learn Redux as well.  However it is best to learn vanilla React first.
+When reading about the react framework, one might hear the term 'redux' thrown around. Redux is not exactly a part of react and can be used seperately from it. Redux is a way to manage the state of an application. While react containers, (a type of react component), have state themselves: redux handles the state of the entire application by using a single point of truth, making the application easier to manage for a developer. If you don't know if you need redux, you probably don't, as stated on their website. If you choose to go deep in learning React you will eventually want to learn Redux as well.  However it is best to learn vanilla React first.
 
 ### Getting Started
 
