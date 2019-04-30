@@ -2114,7 +2114,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dreamarcitect's solution(Easy)](https://github.com/dreamarcitect/google-homepage) - [View in browser](https://dreamarcitect.github.io/google-homepage/)
 * [Kalmod's Solution (Easy)](https://github.com/kalmod/google-homepage) - [View in Browser](https://kalmod.github.io/google-homepage/)
 * [Kalmod's Solution (Difficult)](https://github.com/kalmod/google-searchpage) - [View in Browser](https://kalmod.github.io/google-searchpage/)
+* [Rafael's Solution (Easy)](https://github.com/rafaelg1402/google-homepage) - [View in Browser](https://rafaelg1402.github.io/google-homepage/)
+* [Rafael's Solution (Difficult)](https://github.com/rafaelg1402/google-search-results) - [View in Browser](https://rafaelg1402.github.io/google-search-results/)
 </details>
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
