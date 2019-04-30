@@ -2112,8 +2112,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rakesh's solution(Easy)](https://github.io/rakesh-mariyaplar/Ghomepage) - [View in Browser](https://rakesh-mariyaplar.github.io/Ghomepage)
 * [badziobw's solution(Easy)](https://github.com/badziobw/google_homepage) - [View in browser](https://badziobw.github.io/google_homepage/)
 * [Dreamarcitect's solution(Easy)](https://github.com/dreamarcitect/google-homepage) - [View in browser](https://dreamarcitect.github.io/google-homepage/)
-* [Kalmod's Solution (Easy)]  (https://github.com/kalmod/google-homepage) - [View in Browser] (https://kalmod.github.io/google-homepage/)
-* [Kalmod's Solution (Difficult)] (https://github.com/kalmod/google-searchpage) - [View in Browser] (https://kalmod.github.io/google-searchpage/)
+* [Kalmod's Solution (Easy)](https://github.com/kalmod/google-homepage) - [View in Browser](https://kalmod.github.io/google-homepage/)
+* [Kalmod's Solution (Difficult)](https://github.com/kalmod/google-searchpage) - [View in Browser](https://kalmod.github.io/google-searchpage/)
 </details>
 
 ### Additional Resources
