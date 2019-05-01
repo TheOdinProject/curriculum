@@ -280,4 +280,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [alex-sir's solution](https://github.com/alex-sir/calculator) - [View in Browser](https://alex-sir.github.io/calculator/)
 - [tronerta's solution](https://github.com/Tronerta/calculator) - [View in Browser](https://tronerta.github.io/calculator/)
 - [Muminjon's solution](https://github.com/MuminjonGuru/web_dev_101/tree/master/Calculator) - [View in Browser](https://codepen.io/MuminjonGuru/pen/MRLGdX)
+- [Arthur Johnson's solution](https://github.com/MoonKingArthur/online-calculator) - [View in Browser](https://moonkingarthur.github.io/online-calculator/)
 </details>
