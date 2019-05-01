@@ -384,4 +384,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Brandon Myles' Solution](https://github.com/bmyles10/Etch-A-Sketch) - [View in Browser](https://bmyles10.github.io/Etch-A-Sketch/)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/etch-a-sketch) - [View in Browser](https://cameronstamant.github.io/etch-a-sketch/)
 * [Nyaga Roy's Solution](https://github.com/RoyNyaga/ETCH-A-SKETCH) - [View in Browser](https://roynyaga.github.io/ETCH-A-SKETCH/)
+* [Arthur Johnson's Solution](https://github.com/MoonKingArthur/etch-a-sketch) - [View in Browser](https://moonkingarthur.github.io/etch-a-sketch/)
 </details>
