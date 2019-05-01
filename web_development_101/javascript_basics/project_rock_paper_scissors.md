@@ -606,7 +606,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/rock-paper-scissors) - [View in Browser](https://emmanuelnwankwo.github.io/rock-paper-scissors/)
 - [Kelly Joseph's GUI rock paper scissors](https://seisolo76.github.io/ROCK-PAPER-SCISSORS/)
 - [AdesojiCodeMaster's Solution](https://github.com/adesojicodemaster/RockPaperScissorsGame/) - [View in Browser](https://adesojicodemaster.github.io/RockPaperScissorsGame/)
--[AdesojiCodeMaster's UI-Solution](https://adesojicodemaster.github.io/RockPaperScissorsGame-UI/) - [View in Browser ](https://adesojicodemaster.github.io/RockPaperScissorsGame-UI/)
+- [AdesojiCodeMaster's UI-Solution](https://adesojicodemaster.github.io/RockPaperScissorsGame-UI/) - [View in Browser ](https://adesojicodemaster.github.io/RockPaperScissorsGame-UI/)
 - [Andre Roy's Solution](https://github.com/RoyNyaga/Rock-paper-scissors) - [View in Browser](https://RoyNyaga.github.io/Rock-paper-scissors/)
 - [Eric Lee's Solution](https://github.com/eelcire/rps)
 - [Márcio Rodrigo Solution](https://github.com/mrodrigochaves/rock-paper-scissors) - [View in Browser](https://rock-paper-scissors-bdab1.firebaseapp.com/)
