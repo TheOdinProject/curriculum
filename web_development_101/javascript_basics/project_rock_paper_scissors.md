@@ -601,7 +601,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alan Donohoe's Solution](https://github.com/donohoea/rock_paper_scissors)
 - [Nabil Shaahani Solution](https://github.com/Nabil19911/ROCK-PAPER-SCISSORS/settings) - [View in Brower](https://nabil19911.github.io/ROCK-PAPER-SCISSORS/)
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/jokenpo-revisited) - [View in Browser](https://adrieltrigger.github.io/jokenpo-revisited/)
-- [Amish Goel's Solution (GUI)](https://github.com/AmishGoel1/rps-visual) - [View in Browser]( https://amishgoel1.github.io/rps-visual/)
+- [Amish Goel's Solution (GUI)](https://github.com/AmishGoel1/rps-visual) - [View in Browser](https://amishgoel1.github.io/rps-visual/)
 - [Maddy's solution](https://github.com/maddybvh/Rock-Paper-Scissors) - [View in Browser](https://maddybvh.github.io/Rock-Paper-Scissors/)
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/rock-paper-scissors) - [View in Browser](https://emmanuelnwankwo.github.io/rock-paper-scissors/)
 - [Kelly Joseph's GUI rock paper scissors](https://seisolo76.github.io/ROCK-PAPER-SCISSORS/)
