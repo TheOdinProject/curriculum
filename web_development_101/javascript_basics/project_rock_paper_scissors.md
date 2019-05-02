@@ -616,4 +616,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sanyogita's Solution](https://github.com/SanyogitaPandit/Rock-Paper-Scissor) - [View in Browser](https://sanyogitapandit.github.io/Rock-Paper-Scissor/)
 - [Aleksandar's Solution](https://github.com/bestr32/rockpaperscissors) - [View in Browser](https://bestr32.github.io/rockpaperscissors/)
 - [Arthur Johnson's Solution](https://github.com/MoonKingArthur/rock-paper-scissors) - [View in Browser](https://moonkingarthur.github.io/rock-paper-scissors/)
+- [Charalampos Sarantoglou's Solution](https://github.com/csara1/rock-paper-scissors)
 </details>
