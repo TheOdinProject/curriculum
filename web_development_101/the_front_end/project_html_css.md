@@ -2105,6 +2105,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jake's Solution (Easy)](https://github.com/jakercates/google_homepage) - [View in Browser](https://jakercates.github.io/google_homepage/)
 * [Kelvin Tay's Solution (Easy)](https://github.com/KelTay/google-homepage) - [View in Browser](https://keltay.github.io/google-homepage/)
 * [Wen (Easy)](https://github.com/codepath2019/google-homepage) - [View in Browser](https://codepath2019.github.io/google-homepage/)
+* [Wen (Difficult)](https://github.com/codepath2019/google-search-result-example-page) - [View in Browser](https://codepath2019.github.io/google-search-result-example-page/)
 * [Yusuf Muktar (Difficult)](https://github.com/mayunited12/google-homepage/) - [View in Browser](https://mayunited12.github.io/google-homepage/)
 * [Shafie Rahim (Easy)](https://github.com/shafier/google-homepage) - [View in Browser](https://shafier.github.io/google-homepage/)
 * [Aleksandar's Solution (Easy)](https://github.com/bestr32/google-homepage) - [View in Browser](https://bestr32.github.io/google-homepage/)
