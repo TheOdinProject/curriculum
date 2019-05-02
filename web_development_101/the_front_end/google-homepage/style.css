@@ -1,0 +1,75 @@
+
+header {
+    position: fixed;
+    top: 0%;
+    width: 99%;
+}
+
+main {
+    position: relative;
+    margin-top: 15%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(196, 196, 196, 0.3);
+
+}
+
+li {
+    display: inline;
+    font-size: 12px;
+    font-family: monospace;
+    margin-right: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover {
+    text-decoration: underline;
+
+}
+
+.about, .ads {
+    float: left; 
+    margin-left: -3%;
+    
+}
+
+
+.services, .info {
+    float: right;
+    margin-right: 15px;
+    
+    
+}
+
+.logo {
+    display: block;
+    margin-left: 40%;
+}
+#Gsearch {
+    display: block;
+    margin-left: 28%;
+    border-radius: 20px;
+    height: 25px;
+    width: 600px;
+}
+
+#button {
+    display: inline;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: rgba(196, 196, 196, 0.3);
+    margin-left: 10px;
+} 
+
+.duo {
+    margin-left: 40%;
+    margin-top: 1%;
+}
