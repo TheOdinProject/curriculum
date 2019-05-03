@@ -287,49 +287,16 @@ Verify that you see `heroku` in the output.
 
 Heroku uses a slightly different setup than what we have on our machine. We need to configure the application to play nicely with both.
 
-#### Step 4.5.1: Configure the Gemfile
 
-To deploy a Rails application, we need to change some settings.
+#### Step 4.6: Configure the Root Route
 
-First, we need to open the `Gemfile` and edit it.
+The next thing we need to edit is the `routes.rb` file to set our root route. We're going to this so that we can see the application without having to append `/cars` at the end of the URL.
 
-In your terminal, type `ls` and verify that you see `Gemfile` in the output. If you don't see it, navigate to the directory you created in Steps 2.2 and 2.3.
+In your terminal, type `ls` and verify that you see  `routes.rb` in the output. If you don't see it, navigate to the directory you created in Steps 2.2 and 2.3.
 
-Then, we'll use VSCode to modify the `Gemfile`. Open your app in VSCode by typing `code .` (**NOTE: The period at the end is important!**) (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
+Then, we'll use VSCode to modify the `routes.rb`. Open your app in VSCode by typing `code .` (**NOTE: The period at the end is important!**) (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
 
-When VSCode opens, you should see a list of files on the left side of the screen. Click on `Gemfile` to open it in the editor. Then, delete the line that says,
-
-~~~ruby
-gem 'sqlite3' , '~> 1.3.13'
-~~~
-
-Replace the line you just deleted with the following:
-
-~~~ruby
-group :development, :test do
- gem 'sqlite3' , '~> 1.3.13'
-end
-
-group :production do
-  gem 'pg'
-end
-~~~
-
-Then, save the file. You can leave VSCode open since we're going to be coming back to it, but for the next step, go back to your terminal.
-
-#### Step 4.5.2: Install the Bundle
-
-Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To do this, we can simply run
-
-~~~bash
-bundle install --without production
-~~~
-
-#### Step 4.5.3: Configure the Root Route
-
-The next thing we need to edit is the `routes.rb` file to set our root route. We're going to this so that we can see the application without having to append `/cars` at the end of the URL. 
-
-Go back to VSCode and expand the `config` folder in the file list at the left-hand side of the screen. One of the files inside the folder will be named `routes.rb`. Open `routes.rb` and make it match the example below:
+When VSCode opens expand the `config` folder in the file list at the left-hand side of the screen. One of the files inside the folder will be named `routes.rb`. Open `routes.rb` and make it match the example below:
 
 ~~~ruby
 Rails.application.routes.draw do
@@ -340,7 +307,7 @@ end
 
 Save the file. You can close VSCode now; the rest of the steps take place in the terminal.
 
-#### Step 4.6: Add Changes to Git
+#### Step 4.7: Add Changes to Git
 
 Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
@@ -384,7 +351,7 @@ While we're here, we might as well push our changes to GitHub too:
 git push origin master
 ~~~
 
-#### Step 4.7: Push to Heroku
+#### Step 4.8: Push to Heroku
 
 Now that we've commited the files, we can push to Heroku:
 
@@ -410,7 +377,7 @@ remote:        https://random-words-73975.herokuapp.com/ deployed to Heroku
 
 This is the link to your new site! Yes, you have published something to the internet! You can click it now, but we aren't quite done setting everything up just yet.
 
-#### Step 4.8: Migrate the Database on Heroku
+#### Step 4.9: Migrate the Database on Heroku
 
 Similar to what we did locally before we launched our app, we need to migrate the database on Heroku, which we can do with the Heroku CLI.
 
@@ -424,7 +391,7 @@ You might see some strange output, but as long as you do not have an error, you 
 
 If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
 
-#### Step 4.9: Visit Your New Application
+#### Step 5: Visit Your New Application
 
 It's time to see your app on the web! If you are not using WSL, to quickly open your app, type
 
@@ -434,7 +401,7 @@ heroku open
 
 and play around with it! 
 
-### Step 5: Let us know how it went!
+### Step 6: Let us know how it went!
 
 You have successfully completed the installations. Congratulations!!! This was __the hardest part__ of the entire Odin Project.
 
