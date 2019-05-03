@@ -145,7 +145,7 @@ rails generate scaffold car make:string model:string year:integer
 
 **(Feb 8, 2019) NOTE: If you get an error with the above command, follow these steps:**
 
- 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3' , '~> 1.3.13'`. Save the file.
+ 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3', '~> 1.3.13'`. Save the file.
  2. In the terminal, run `bundle install`.
  3. Now that SQLite is working properly, run `rails generate scaffold car make:string model:string year:integer` again.
 
@@ -344,7 +344,13 @@ Save the file. You can close VSCode now; the rest of the steps take place in the
 
 Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
-First, we'll check which files have been updated by running `git status`:
+First, we'll check which files have been updated by running 
+
+~~~bash
+git status
+~~~
+
+the output should look like the exmaple below
 
 ~~~bash
 $ git status
