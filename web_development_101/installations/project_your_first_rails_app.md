@@ -143,13 +143,6 @@ Now, we're going to tell Rails to generate some templates for us. This will get 
 rails generate scaffold car make:string model:string year:integer
 ~~~
 
-**(Feb 8, 2019) NOTE: If you get an error with the above command, follow these steps:**
-
- 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3', '~> 1.3.13'`. Save the file.
- 2. In the terminal, run `bundle install`.
- 3. Now that SQLite is working properly, run `rails generate scaffold car make:string model:string year:integer` again.
-
-
 After generating the scaffolds, we need to migrate the database.
 
 ~~~bash
@@ -252,6 +245,8 @@ Run this command:
 curl https://cli-assets.heroku.com/install.sh | sh
 ~~~
 
+This command needs administrative access and will ask for your sudo password. Enter the password of your computer account and press enter to continue.
+
 Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
 
 
@@ -266,6 +261,8 @@ heroku keys:add
 ~~~
 
 Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
+
+Sometimes you get an error message saying that you are not logged in. If that happens then follow the URL provided to login on the webpage with your Heroku account. Follow the instructions and continue in the Terminal.
 
 #### Step 4.4: Create a Heroku Application
 
@@ -300,14 +297,14 @@ Then, we'll use VSCode to modify the `Gemfile`. Open your app in VSCode by typin
 When VSCode opens, you should see a list of files on the left side of the screen. Click on `Gemfile` to open it in the editor. Then, delete the line that says,
 
 ~~~ruby
-gem 'sqlite3' , '~> 1.3.13'
+gem 'sqlite3'
 ~~~
 
 Replace the line you just deleted with the following:
 
 ~~~ruby
 group :development, :test do
- gem 'sqlite3' , '~> 1.3.13'
+ gem 'sqlite3'
 end
 
 group :production do
