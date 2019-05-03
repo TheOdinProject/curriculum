@@ -619,4 +619,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Aleksandar's Solution](https://github.com/bestr32/rockpaperscissors) - [View in Browser](https://bestr32.github.io/rockpaperscissors/)
 - [Arthur Johnson's Solution](https://github.com/MoonKingArthur/rock-paper-scissors) - [View in Browser](https://moonkingarthur.github.io/rock-paper-scissors/)
 - [Charalampos Sarantoglou's Solution](https://github.com/csara1/rock-paper-scissors)
+- [Doug Heatter's GUI Solution](https://github.com/drheatter/JS-rock-paper-scissors) - [View in Browser](https://drheatter.github.io/JS-rock-paper-scissors/)
 </details>
+
