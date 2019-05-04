@@ -89,18 +89,6 @@ create_or_update_lesson(
   repo: 'curriculum'
 )
 
-lesson_position += 1
-create_or_update_lesson(
-  title: "Command Line Basics",
-  title_url: "Command Line Basics".parameterize,
-  description: "The command line: loved, hated, and feared... but no longer by you.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/the_basics/command_line_basics.md",
-  repo: 'curriculum'
-)
-
 # ++++++++++++++++++++
 # SECTION - Installations
 # ++++++++++++++++++++
@@ -147,6 +135,18 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: "/web_development_101/installations/text_editors.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Command Line Basics",
+  title_url: "Command Line Basics".parameterize,
+  description: "The command line: loved, hated, and feared... but no longer by you.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/the_basics/command_line_basics.md",
   repo: 'curriculum'
 )
 
