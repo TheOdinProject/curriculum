@@ -726,7 +726,7 @@ Let's look for a solution before we attempt to build a solution.
 ### Installing the Google API Client
 
 Ruby comes packaged with the `gem` command. This tool allows you to download
-libraries simply knowing the name of the library you want to install.
+libraries by simply knowing the name of the library you want to install.
 
 
 ~~~bash
@@ -763,7 +763,7 @@ $ response = civic_info.representative_info_by_address(address: 80202, levels: '
 => #<Google::Apis::CivicinfoV2::RepresentativeInfoResponse:0x007faf2d9088d0 @divisions={"ocd-division/country:us/state:co"=>#<Google::Apis::CivicinfoV2::GeographicDivision:0x007faf2e55ea80 @name="Colorado", @office_indices=[0]> } > ...continues...
 ~~~
 
-Whoa. That's a lot of information.  Buried in there are the names our legislators.  We can access them by calling the `.officials` method on the `response`.  Now that we know how to access the information we want, we can focus our attention back on our program.
+Whoa. That's a lot of information.  Buried in there are the names of our legislators.  We can access them by calling the `.officials` method on the `response`.  Now that we know how to access the information we want, we can focus our attention back on our program.
 
 ~~~ruby
 require 'csv'
@@ -881,7 +881,7 @@ Sarah 33703 ["Marco Rubio", "Bill Nelson", "C. Young"]
 ...
 ~~~
 
-The problem now is that we are still sending the `to_s` message to our new array of legislator names and by default an array does not know how you want to display the contents.
+The problem now is that when using string interpolation, Ruby is converting our new array of legislator names into a string but Ruby does not know exactly how _you_ want to display the contents.
 
 We need to explicitly convert our array of legislator names to a string. This way we are sure it will output correctly. This could be tedious work except Array again comes to the rescue with the [Array#join](http://rubydoc.info/stdlib/core/Array#join-instance_method) method.
 
@@ -960,7 +960,7 @@ def legislators_by_zipcode(zip)
                                   roles: ['legislatorUpperBody', 'legislatorLowerBody'])
     legislators = legislators.officials
     legislator_names = legislators.map(&:name)
-    legislators_string = legislator_names.join(", ")
+    legislator_names.join(", ")
   rescue
     "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
   end
