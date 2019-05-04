@@ -521,6 +521,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Barbara Lucas' Solution](https://github.com/LucasBarbara/learn_ruby)
 * [LastCapricorn's Solutions](https://github.com/LastCapricorn/learn_ruby)
 * [Tronerta's Solution](https://github.com/Tronerta/learn_ruby)
+* [Muminjon's Solution](https://github.com/MuminjonGuru/learn_ruby)
+* [Doug Heatter's solution](https://github.com/drheatter/learn_ruby)
 
 </details>
 
