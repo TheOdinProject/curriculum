@@ -479,7 +479,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
 * [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)
 * [vanny96's Solution (partial AI)](https://github.com/vanny96/OOP)
-
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/mastermind_game) - [Live Version](https://repl.it/@SergejJurchenko/mastermind)
 </details>
 
 ### Additional Resources
