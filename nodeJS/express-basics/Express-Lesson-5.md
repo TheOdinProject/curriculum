@@ -6,6 +6,9 @@ This is the last lesson on the MDN tutorial. The last step, listed below takes y
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
+- Describe form handling process.
+- Describe validation and sanitization.
+- Describe routes,
 - Work with HTML forms in Express using Pug.
 - Use forms to get data from users and update the database with this data.
 - Validate and sanitize input using express-validator.
