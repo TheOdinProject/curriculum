@@ -31,6 +31,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [todoroff's solution](https://github.com/todoroff/learn_ruby)
+* [Luis Rivera's solution](https://github.com/Luis846/learn_ruby)
+* [Rafe Draper's solution](https://github.com/rafeDraper/learn_ruby)
 * [Josh Single's solution](https://github.com/jkyereh/learn_ruby)
 * [Kirubiel Shimeles' solution](https://github.com/kirubiel/learn_ruby)
 * [Samuel Alonso's solution](https://github.com/samontenegro/learn_ruby)
@@ -518,6 +521,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [KvotheNOR's Solution](https://github.com/KvotheNOR/learn_ruby)
 * [Barbara Lucas' Solution](https://github.com/LucasBarbara/learn_ruby)
 * [LastCapricorn's Solutions](https://github.com/LastCapricorn/learn_ruby)
+* [Tronerta's Solution](https://github.com/Tronerta/learn_ruby)
+* [Muminjon's Solution](https://github.com/MuminjonGuru/learn_ruby)
+* [Doug Heatter's solution](https://github.com/drheatter/learn_ruby)
 
 </details>
 

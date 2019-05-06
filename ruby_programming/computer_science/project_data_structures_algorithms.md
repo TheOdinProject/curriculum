@@ -29,6 +29,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Arilson Souza Solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_data_structures_and_algorithms/binary_tree.rb)
 * [Vollantre's Solution](https://github.com/vollantre/binary_tree/blob/master/binary_tree.rb)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/binary_trees)
 * [Kevin Vuong's Solution](https://github.com/fffear/binary_search_tree)
@@ -204,6 +205,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Arilson Souza Solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_data_structures_and_algorithms/knight_moves.rb)
+* [Vollantre's solution](https://github.com/vollantre/knight_moves)
 * [Kevin Vuong's solution](https://github.com/fffear/knight_travails)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/knight_moves)
 * [Nicolas Espinoza's solution](https://github.com/nicospz/knight-moves/blob/master/knight-moves.rb)
