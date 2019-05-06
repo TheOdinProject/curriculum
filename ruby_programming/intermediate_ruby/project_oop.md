@@ -490,7 +490,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)
 * [vanny96's Solution (partial AI)](https://github.com/vanny96/OOP)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/oop-project/tree/master/mastermind)
-
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/mastermind_game) - [Live Version](https://repl.it/@SergejJurchenko/mastermind)
 </details>
 
 ### Additional Resources
