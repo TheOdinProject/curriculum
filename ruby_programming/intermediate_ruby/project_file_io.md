@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vollantre's solution](https://github.com/vollantre/Hangman)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/hangman)
 * [Kevin Vuong's solution](https://github.com/fffear/hangman)
 * [Nicolas Espinoza's Soultion](https://github.com/nicospz/hangman)

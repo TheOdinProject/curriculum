@@ -109,6 +109,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Slaven's solution [Github](https://github.com/Everdrought/sinatra_caesar_cypher) / [See it on the web](https://cryptic-earth-54812.herokuapp.com/)
 * Alex's solution (portfolio) [Github](https://github.com/alexcorremans/sinatra_projects) / [See it on the web](https://blooming-woodland-49549.herokuapp.com/caesar_cipher)
 * Leila Alderman's solution [GitHub](https://github.com/leila-alderman/caesar_cipher) / [Heroku](https://stormy-sea-24508.herokuapp.com/)
+* JamCry's Solution [GitHub](https://github.com/jamcry/sinatra-caesar-cipher) - [Live on Heroku](https://jamcry-caesar-cipher.herokuapp.com/)
 
 </details>
 

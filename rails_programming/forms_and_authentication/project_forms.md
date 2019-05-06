@@ -117,6 +117,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/re-former)
 * [Simon Tharby's solution](https://github.com/jinjagit/re-former)
 * [Stefano Merazzi's solution](https://github.com/ste001/re-former)
 * [Jason McKee's solution](https://github.com/jttmckee/re-former)

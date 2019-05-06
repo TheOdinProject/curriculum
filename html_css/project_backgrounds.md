@@ -23,6 +23,10 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [bcikota's solution](https://github.com/bcikota/apple) - [View in browser](https://bcikota.github.io/apple/)
+* [Ohlie's solution](https://github.com/lco1220/apple_bg-gradients) - [View in browser](https://lco1220.github.io/apple_bg-gradients/)
+* [Bola Buari's solution](https://github.com/bolah2009/apple-clone) - [View in browser](https://bolah2009.github.io/apple-clone/)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-apple) - [View in browser](https://jttmckee.github.io/odin-apple/)
 * [Bojo's solution](https://github.com/BojoZahariev/Apple-old) - [View in browser](https://bojozahariev.github.io/Apple-old/)
 * [Ricala's solution](https://github.com/Ricala/apple-mock-page) - [View in browser](https://ricala.github.io/apple-mock-page/)
 * [ARaut9's solution](https://github.com/ARaut9/apple.com_old) - [View in browser](https://araut9.github.io/apple.com_old/)
@@ -87,7 +91,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Taylor J's solution](https://github.com/taylorjohannsen/applemockup) - [View in browser](https://taylorjohannsen.github.io/applemockup/)
 * [Ghassan's solution](https://github.com/GT001/TOP-Apple.com-Clone) - [View in browser](https://gt001.github.io/TOP-Apple.com-Clone/)
 * [Doris's solution](https://github.com/dsmchen/apple-homepage) - [view in browser](https://dsmchen.github.io/apple-homepage/)
-
+* [Kelvin L's Solution](https://github.com/kelvin8773/apple-homepage) - [view in browser](https://kelvin8773.github.io/apple-homepage/)
+* [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/apple-clone-homepage) - [view in browser](https://amarcoscastelo.github.io/apple-clone-homepage/)
 </details>
 
 ### Additional Resources

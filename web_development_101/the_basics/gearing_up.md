@@ -18,7 +18,6 @@ To give your motivation a bit of a boost, you can read about the success of othe
 * [A woman who taught herself enough to land a job in 5 months](http://newcodegirl.blogspot.co.uk)
 * [A blacksmith who taught himself how to code](http://joshuakemp.blogspot.co.uk/2013/11/how-blacksmith-learned-to-code-and-9.html)
 * [A 32 year old who taught himself programming using The Odin Project over a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
-* [Another guy who used The Odin Project to get a job](https://www.reddit.com/r/learnprogramming/comments/4goiwx/i_got_hiredagain/?)
 
 
 ### Growth Mindset
