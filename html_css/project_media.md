@@ -113,7 +113,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [tholymap's solution](https://github.com/tholymap/youtube) - [View in browser](http://htmlpreview.github.io/?https://github.com/tholymap/youtube/blob/master/youtube.html)
 * [Swedina's solution](https://github.com/swedinay/UTub-) - [View in browser](https://swedinay.github.io/UTub-/)
 * [DV's solution](https://github.com/dvislearning/odin-yt-clone) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-yt-clone/blob/master/home.html)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/youtube_page) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/youtube_page/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/youtube_page) - [View in browser](https://fcarlosdev.github.io/youtube_page/)
 * [Mike Smith's solution](https://github.com/MikeSS281986/YouTube-Clone-Page) - [View in browser](https://mikess281986.github.io/YouTube-Clone-Page/)
 * [Elena's solution](https://github.com/elena-sam/youtube-replica-project) - [View in browser](https://elena-sam.github.io/youtube-replica-project/)
 * [Punnadittr's solution](https://github.com/punnadittr/u-tube) - [View in browser](https://punnadittr.github.io/u-tube/)
