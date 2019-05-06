@@ -12,7 +12,7 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - Installation Overview - [lesson](installations/installation_overview.md)
   - Prerequsites - [lesson](installations/prerequisites.md)
   - Text Editors - [lesson](installations/text_editors.md)
-  - Command Line Basics - [lesson](the_basics/command_line_basics.md)
+  - Command Line Basics - [lesson](installations/command_line_basics.md)
   - Installing Ruby - [lesson](installations/installing_ruby.md)
   - [Project: Your First Rails Application](installations/project_your_first_rails_app.md)
 - Git Basics
