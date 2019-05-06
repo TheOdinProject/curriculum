@@ -59,7 +59,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Beth Rathbone's solution](https://github.com/bethrath/bootstrap-test) - [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/bootstrap-test/blob/master/index.html)
 * [husein ghafari's solution](https://github.com/hosghf/newsweek) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/newsweek/blob/master/index.html)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Newsweek/) - [View in browser](https://ncud4bloc.github.io/Newsweek/HTML/index.html)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/newsweek-project) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/newsweek-project/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/newsweek-project) - [View in browser](https://fcarlosdev.github.io/newsweek-project/)
 * [aznafro's solution](https://github.com/aznafro/newsweek/) - [View in browser](https://aznafro.github.io/newsweek/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Newsweek) - [View in browser](https://areebaishtiaq.github.io/Newsweek/)
 
