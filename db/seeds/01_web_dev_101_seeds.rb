@@ -146,7 +146,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/the_basics/command_line_basics.md",
+  url: "/web_development_101/installations/command_line_basics.md",
   repo: 'curriculum'
 )
 
