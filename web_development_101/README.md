@@ -8,11 +8,11 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - Gearing Up - [lesson](the_basics/gearing_up.md)
   - Join the Odin Community - [lesson](the_basics/join_the_odin_community.md)
   - How Does the Web Work? - [lesson](the_basics/how_does_the_web_work.md)
-  - Command Line Basics - [lesson](the_basics/command_line_basics.md)
 - Installations
   - Installation Overview - [lesson](installations/installation_overview.md)
   - Prerequsites - [lesson](installations/prerequisites.md)
   - Text Editors - [lesson](installations/text_editors.md)
+  - Command Line Basics - [lesson](the_basics/command_line_basics.md)
   - Installing Ruby - [lesson](installations/installing_ruby.md)
   - [Project: Your First Rails Application](installations/project_your_first_rails_app.md)
 - Git Basics
