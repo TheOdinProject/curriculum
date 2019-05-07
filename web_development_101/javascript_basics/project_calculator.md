@@ -284,4 +284,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Muminjon's solution](https://github.com/MuminjonGuru/web_dev_101/tree/master/Calculator) - [View in Browser](https://codepen.io/MuminjonGuru/pen/MRLGdX)
 - [Arthur Johnson's solution](https://github.com/MoonKingArthur/online-calculator) - [View in Browser](https://moonkingarthur.github.io/online-calculator/)
 - [Doug Heatter's solution](https://github.com/drheatter/Calculator) - [View in Browser](https://drheatter.github.io/Calculator/)
+- [Nyaga Roy's solution](https://github.com/RoyNyaga/Calculator-in-javascript) - [View in Browser](https://roynyaga.github.io/Calculator-in-javascript/)
 </details>
