@@ -118,6 +118,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [LeonJMac's & Esme's solution](https://github.com/leonjmac/pomodoro-timer) - [View in Browser](https://leonjmac.github.io/pomodoro-timer/)
 * [Edehlol's solution](https://github.com/edehlol/pomodoro_timer) - [View in Browser](https://edehlol.github.io/pomodoro_timer/)
 * [antdricot's solution](https://github.com/antdricot/pomodoro) - [View in Browser](https://antdricot.github.io/pomodoro/)
+* [LastCapricorn's solution](https://github.com/LastCapricorn/pairing) - [View in Browser](https://lastcapricorn.github.io/pairing/)
 
 </details>
 
