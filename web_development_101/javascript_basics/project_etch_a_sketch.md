@@ -390,5 +390,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Doug Heatter's solution](https://github.com/drheatter/Etch-a-Sketch) - [View in Browser](https://drheatter.github.io/Etch-a-Sketch/)
 * [Esau Guerra's Solution](https://github.com/esaug/ETC-A-SKETCH-.git) - [View in Browser](https://esaug.github.io/ETC-A-SKETCH-/)
 </details>
-
-
