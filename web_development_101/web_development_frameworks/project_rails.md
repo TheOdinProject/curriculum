@@ -377,7 +377,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [LeonJMac's Solution](https://github.com/leonjmac/blogger) - [View in Browser](https://shrouded-mesa-76487.herokuapp.com/)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/blogger) - [View in Browser](https://evening-wave-31483.herokuapp.com/articles/)
 * [Barbara Lucas' Solution](https://github.com/LucasBarbara/blogger) - [View in Browser](https://quiet-garden-45158.herokuapp.com/)
-
+* [antdricot's Solution](https://github.com/antdricot/odin-rails-project-blogger) - [View in Browser](https://protected-meadow-96769.herokuapp.com/)
+* [Doug Heatter's Solution](https://github.com/drheatter/rails_tutorial) - [View in Browser](https://obscure-peak-64307.herokuapp.com/)
 
 </details>
 

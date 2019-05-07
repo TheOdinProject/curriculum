@@ -345,6 +345,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/bubble_sort.rb)
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/bubble-sort/blob/master/bubble-sort.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/ruby_advanced_building_blocks/blob/master/bubble_sort.rb)
+* [Bendee48's Solution](https://github.com/bendee48/advanced_building_blocks/blob/master/bubble_sort.rb)
 
 </details>
 
@@ -660,6 +661,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Wesley Wang's Solution](https://github.com/wesleymellon/ruby-building-blocks/blob/master/enumerable_methods.rb)
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/enumerable-methods/blob/master/enumerable-methods.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/ruby_advanced_building_blocks/blob/master/enumerable.rb)
+* [Bendee48's Solution](https://github.com/bendee48/advanced_building_blocks/blob/master/enumerable_methods.rb)
 
 </details>
 
