@@ -72,7 +72,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Punnadittr's solution](https://github.com/punnadittr/restaurant_page) - [View in browser](https://punnadittr.github.io/restaurant_page/)
 - [AlexFuro's Solution](https://github.com/alexfuro/odin_restaurant) - [View in Browser](https://alexfuro-restaurant.netlify.com/)
 - [Kyouyatamax's solution](https://github.com/kyouyatamax/restaurantpageJS) - [View in browser](https://kyouyatamax.github.io/restaurantpageJS/)
-- [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/restaurant-page) - [View in browser](https://fcarlosdev.github.io/restaurant-page/)
+- [Francisco Carlos's solution](https://github.com/fcarlosdev/restaurant-page) - [View in browser](https://fcarlosdev.github.io/restaurant-page/)
 - [aznafro's solution](https://github.com/aznafro/restaurant) - [View in browser](https://aznafro.github.io/restaurant/)
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Restaurant-page) - [View in browser](https://areebaishtiaq.github.io/Restaurant-page/)
 - [Valentino Valenti's solution](https://github.com/1ba1/restaurant-page) - [View in browser](https://1ba1.github.io/restaurant-page/)

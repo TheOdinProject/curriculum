@@ -3,7 +3,7 @@ In this course, you'll learn HTML5 and CSS3, the foundations of building and sty
 
 If you haven't completed it already, the first place to start is the [Web Development 101 lesson on HTML and CSS](/courses/web-development-101/lessons/html-and-css-basics), which covers a lot of ground so you can get up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.
 
-This course is designed to follow that introductory material with more depth so you can start to flex your design muscles to produce more appealing and easy-to-use websites.  Luckily for you, there are an enormous amount of resources available on the web to learn front end development, so if you ever get stuck, Google is your friend.
+This course is designed to follow that introductory material with more depth so you can start to flex your design muscles to produce more appealing and easy-to-use websites.  Luckily for you, there is an enormous amount of resources available on the web to learn front end development, so if you ever get stuck, Google is your friend.
 
 If you've completed the Ruby on Rails course already, you can safely skip to the CSS3 section.
 
