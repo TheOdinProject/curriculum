@@ -17,7 +17,17 @@ You will be building a simple command line Hangman game where one player plays a
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Joe Lee's Solution](https://github.com/JoeDravarol/hangman) - [View in repl.it](https://repl.it/@JoeDravarol/Hangman-Game)
+* [George Zhu'solution](https://github.com/georgezhu11/hangman)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/tree/master/ruby/project_file_io_and_serialization/hangman)
+* [Vollantre's solution](https://github.com/vollantre/Hangman)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/hangman)
+* [Kevin Vuong's solution](https://github.com/fffear/hangman)
+* [Nicolas Espinoza's Soultion](https://github.com/nicospz/hangman)
 * [Learnsometing's Solution NO SAVES](https://github.com/learnsometing/TOP-ruby-projects/tree/master/ruby/intermediate/ruby-intermediate/hangman)
 * [Rudi Boshoff's Soultion](https://github.com/RudiBoshoff/hang-man) - [Repl.it executable](https://Hangman.rudiboshoff.repl.run)
 * [Khari's Soultion](https://github.com/kjwebdev/TOP_Projects/tree/master/hangman)
@@ -212,3 +222,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_programming/hangman) - [Play on Repl.it](https://repl.it/@Brendaneus/JuniorTroubledCodec)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/hangman) - [Play on repl.it](https://repl.it/@imemdm/IllfatedButteryKernel)
 * [Leila Alderman's solution](https://github.com/leila-alderman/hangman)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/tree/master/hangman) - [Play on repl.it](https://repl.it/@vi7ali/Hangman-game)
+* [vanny96's solution](https://github.com/vanny96/hangman)
+* [JamCry's Solution](https://github.com/jamcry/ruby-hangman) - [Play on Repl.it](https://repl.it/@jamcry/Ruby-Hangman-Game)
+
+</details>

@@ -45,8 +45,8 @@ But what if you want to have two types of users that the post belongs to -- the 
 ~~~ruby
   # app/models/post.rb
   class Post < ActiveRecord::Base
-    belongs_to :author, :class_name => "User"
-    belongs_to :editor, :class_name => "User"
+    belongs_to :author, class_name: "User"
+    belongs_to :editor, class_name: "User"
   end
 ~~~
 
@@ -59,8 +59,8 @@ But now Rails doesn't have the foggiest idea where to look and what to look for.
 ~~~ruby
   # app/models/user.rb
   class User < ActiveRecord::Base
-    has_many :authored_posts, :foreign_key => "author_id", :class_name => "Post"
-    has_many :edited_posts, :foreign_key => "editor_id", :class_name => "Post"
+    has_many :authored_posts, foreign_key: "author_id", class_name: "Post"
+    has_many :edited_posts, foreign_key: "editor_id", class_name: "Post"
   end
 ~~~
 
@@ -75,24 +75,24 @@ For example, perhaps we change the example above so a Post actually can have mul
 ~~~ruby
   # app/models/post.rb
   class Post < ActiveRecord::Base
-    has_many :post_authorings, :foreign_key => :authored_post_id
-    has_many :authors, :through => :post_authorings, :source => :post_author
-    belongs_to :editor, :class_name => "User"
+    has_many :post_authorings, foreign_key: :authored_post_id
+    has_many :authors, through: :post_authorings, source: :post_author
+    belongs_to :editor, class_name: "User"
   end
 ~~~
 ~~~ruby
   # app/models/user.rb
   class User < ActiveRecord::Base
-    has_many :post_authorings, :foreign_key => :post_author_id
-    has_many :authored_posts, :through => :post_authorings
-    has_many :edited_posts, :foreign_key => :editor_id, :class_name => "Post"
+    has_many :post_authorings, foreign_key: :post_author_id
+    has_many :authored_posts, through: :post_authorings
+    has_many :edited_posts, foreign_key: :editor_id, class_name: "Post"
   end
 ~~~
 ~~~ruby
   # app/models/post_authoring.rb
   class PostAuthoring < ActiveRecord::Base
-    belongs_to :post_author, :class_name => "User"
-    belongs_to :authored_post, :class_name => "Post"
+    belongs_to :post_author, class_name: "User"
+    belongs_to :authored_post, class_name: "Post"
   end
 ~~~
 
@@ -141,7 +141,7 @@ We have to call our foreign key something a bit different from the normal case s
 ~~~ruby
   # app/models/comments.rb
   class Comment < ActiveRecord::Base
-    belongs_to :commentable, :polymorphic => true
+    belongs_to :commentable, polymorphic: true
   end
 ~~~
 
@@ -150,12 +150,12 @@ On the other side of the association, you just treat your comment like any other
 ~~~ruby
   # app/models/post.rb
   class Post < ActiveRecord::Base
-    has_many :comments, :as => :commentable
+    has_many :comments, as: :commentable
   end
 
   # app/models/picture.rb
   class Picture < ActiveRecord::Base
-    has_many :comments, :as => :commentable
+    has_many :comments, as: :commentable
   end
 ~~~
 
@@ -184,18 +184,18 @@ There's a couple of shortcuts for creating new association objects.  The first i
 ~~~bash
   # Long version:
   > user = User.first
-  > post = Post.create(:title => "sample", :user_id => user.id)
+  > post = Post.create(title: "sample", user_id: user.id)
 
   # Shorter version:
   > user = User.first
-  > user.posts.create(:title => "sample")
+  > user.posts.create(title: "sample")
 ~~~
 
 Another nifty trick is to create a new object and then use the shovel operator to add it to the association.  This is just one of the ways that **associations sometimes act like arrays**:
 
 ~~~bash
-  > user = User.create(:name => "foobar")
-  > post = Post.new(:title => "sample")
+  > user = User.create(name: "foobar")
+  > post = Post.new(title: "sample")
   > user.posts << post
 ~~~
 
@@ -217,12 +217,12 @@ If you really want to, you can actually replace the entire association with a ne
 
 #### Destroying Dependents
 
-If your user has created a bunch of posts and then decides to delete her account, how do you delete all the associated posts?  Specify the `:dependent => :destroy` option when first declaring the association:
+If your user has created a bunch of posts and then decides to delete her account, how do you delete all the associated posts?  Specify the `dependent: :destroy` option when first declaring the association:
 
 ~~~ruby
   # app/models/user.rb
   class User < ActiveRecord::Base
-    has_many :posts, :dependent => :destroy
+    has_many :posts, dependent: :destroy
   end
 ~~~
 

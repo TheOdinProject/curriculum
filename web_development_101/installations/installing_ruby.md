@@ -20,7 +20,7 @@ Before we can install Ruby, we need to install some base packages.
 
 #### Step 1.1: Open the Terminal
 
-We'll use the terminal to install all of the programs. 
+We'll use the terminal to install all of the programs.
 
 If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
@@ -53,7 +53,7 @@ When it prompts you, press `y` and then `enter`. You may or may not have to type
 
 ### Step 2: Install Ruby
 
-Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions. 
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions.
 
 #### Step 2.1: Install rbenv
 
@@ -85,8 +85,8 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 Finally, run `rbenv -v` from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number similar to this:
 
 ~~~bash
-$ rbenv -v
-rbenv 1.1.1-39-g59785f6
+rbenv -v
+rbenv 1.1.1-40-g483e7f9
 ~~~
 
 If you do not get a version number, please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
@@ -98,7 +98,7 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ~~~bash
-rbenv install 2.6.0 --verbose
+rbenv install 2.6.1 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
@@ -106,7 +106,7 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 When the last command is finished, set the Ruby version and verify that it's working:
 
 ~~~bash
-rbenv global 2.6.0
+rbenv global 2.6.1
 ~~~
 
 Then,
@@ -118,7 +118,7 @@ ruby -v
 The above command should return something similar to this:
 
 ~~~bash
-ruby 2.6.0pxx (20xx-xx-xx revision xxxx) [x86_64-linux]
+ruby 2.6.1pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
@@ -185,7 +185,7 @@ This command will install the command line interface for Heroku, a free website 
 
 ### Step 3: Install Ruby
 
-Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions. 
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions.
 
 #### Step 3.1: Install rbenv
 
@@ -204,8 +204,8 @@ rbenv init
 You should see the following after the command has run:
 
 ~~~bash
-# Load rbenv automatically by appending 
-# the following to ~/.bash_profile: 
+# Load rbenv automatically by appending
+# the following to ~/.bash_profile:
 
 eval "$(rbenv init -)"
 ~~~
@@ -216,14 +216,14 @@ You'll do as it suggests by running the following command in the terminal:
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ~~~
 
-At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
+You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
 
 #### Step 3.3: Install Ruby
 
-We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.0:
+We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.1:
 
 ~~~bash
-rbenv install 2.6.0 --verbose
+rbenv install 2.6.1 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
@@ -231,14 +231,14 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
-rbenv global 2.6.0
+rbenv global 2.6.1
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.0:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.1:
 
 ~~~bash
 $ ruby -v
-ruby 2.6.0p0 (2018-12-25 revision 66547)
+ruby 2.6.1pxx (20xx-xx-xx revision xxxxx)
 ~~~
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!

@@ -2,6 +2,15 @@
 
 With Ruby installed, you're all set to create your first Ruby on Rails application!
 
+Before continuing, let's review a few best practices to keep in mind:
+
+* Follow the directions closely, and don't skip over any sections.
+* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this advice can cause *a lot* of headaches. In some instances, you might see a message in the terminal telling you to use `sudo` and/or to install something with `apt`. **Ignore what the terminal says** and follow the instructions below.
+* Copy and paste the commands to avoid typos.
+* If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
+
+In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/hvqVr6d).
+
 ### Your First Rails App
 
 #### Step 1: Configure Git and GitHub
@@ -38,7 +47,7 @@ git config --get user.email
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
 
-#### step 1.3: Create an SSH Key
+#### Step 1.3: Create an SSH Key
 
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
@@ -136,7 +145,7 @@ rails generate scaffold car make:string model:string year:integer
 
 **(Feb 8, 2019) NOTE: If you get an error with the above command, follow these steps:**
 
- 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3' , '~> 1.3.13'`. Save the file.
+ 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3', '~> 1.3.13'`. Save the file.
  2. In the terminal, run `bundle install`.
  3. Now that SQLite is working properly, run `rails generate scaffold car make:string model:string year:integer` again.
 
@@ -335,7 +344,13 @@ Save the file. You can close VSCode now; the rest of the steps take place in the
 
 Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
-First, we'll check which files have been updated by running `git status`:
+First, we'll check which files have been updated by running 
+
+~~~bash
+git status
+~~~
+
+the output should look like the exmaple below
 
 ~~~bash
 $ git status
