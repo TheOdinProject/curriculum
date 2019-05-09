@@ -488,7 +488,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joe Himes' Solution](https://github.com/deedle42/rock-paper-scissors) - [View in Browser](https://deedle42.github.io/rock-paper-scissors/)
 - [iameddieyayaya's Solution](https://github.com/iameddieyayaya/rockpaperscissors)
 - [DaveAlexander's Solution](https://github.com/davealexander/rockpaperscissors) - [View in Browser](https://davealexander.github.io/rockpaperscissors/)
-- [Andrea Diotallevi's Solution](https://github.com/AndreaDiotallevi/rock_paper_scissors)
+- [Andrea Diotallevi's Console Solution](https://github.com/AndreaDiotallevi/rock_paper_scissors) - [GUI Solution](https://github.com/AndreaDiotallevi/rock_paper_scissors_GUI) - [View in Browser](https://andreadiotallevi.github.io/rock_paper_scissors_GUI/)
 - [TheEdenProject's Solution](https://github.com/TheEdenProject/rock-paper-scissors) - [View in Browser](https://theedenproject.github.io/rock-paper-scissors/)
 - [Doris's solution](https://github.com/dsmchen/rock-paper-scissors/blob/master/index.html) - [view in browser](https://dsmchen.github.io/rock-paper-scissors/index.html) - [simple UI solution](https://github.com/dsmchen/rock-paper-scissors/blob/master/index2.html) - [view in browser](https://dsmchen.github.io/rock-paper-scissors/index2.html)
 - [Dhruvi's solution](https://github.com/DhruviJariwala/Rock-Paper-Scissors) - [View in Browser](https://dhruvijariwala.github.io/Rock-Paper-Scissors/)
