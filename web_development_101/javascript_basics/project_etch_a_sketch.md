@@ -394,5 +394,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Arthur Johnson's Solution](https://github.com/MoonKingArthur/etch-a-sketch) - [View in Browser](https://moonkingarthur.github.io/etch-a-sketch/)
 * [Aleksandar's Solution] (https://github.com/bestr32/etchasketch) - [View in Browser] (https://bestr32.github.io/etchasketch)
 * [Doug Heatter's solution](https://github.com/drheatter/Etch-a-Sketch) - [View in Browser](https://drheatter.github.io/Etch-a-Sketch/)
+* [AdesojiCodeMaster's Solution](https://adesojicodemaster.github.io/Etch-A-Sketch/) - [View in Browser](https://adesojicodemaster.github.io/Etch-A-Sketch/)
 * [Chris Villere's solution](https://github.com/cvillere/Etch_A_Sketch) - [View in Browser](https://cvillere.github.io/Etch_A_Sketch/)
 </details>
