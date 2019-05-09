@@ -524,7 +524,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tronerta's Solution](https://github.com/Tronerta/learn_ruby)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/learn_ruby)
 * [Doug Heatter's solution](https://github.com/drheatter/learn_ruby)
-
+* [Nyaga Roy's solution].(https://github.com/RoyNyaga/Project_ruby_by_Roy)
 </details>
 
 ### Additional Resources
