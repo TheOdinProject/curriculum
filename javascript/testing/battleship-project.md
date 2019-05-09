@@ -42,7 +42,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
 - [Ryan's and Dipto's solution](https://github.com/rvvergara/battleship) - [View in browser](https://ryto-battleship-game.netlify.com/)
 - [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/battleship) - [View in browser](https://bubblebooy.github.io/Odin-Javascript/battleship/build/index.html)
 - [Kyle and Paul's solution](https://github.com/jklemon17/battleship) - [View in browser](https://jklemon17.github.io/battleship)
