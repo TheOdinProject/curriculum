@@ -509,3 +509,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Denis Rajlic's Solution](https://github.com/denisRajlic/RPS_Game) - [View in Browser](https://denisrajlic.github.io/RPS_Game/)
 - [J Lyons' Solution](https://github.com/UncleArtie/rockpaperscissors)
 - [Alex Krewson's Solution](https://github.com/alexkrewson/rock-paper-scissors)
+- [Sherman's Solution](https://github.com/shermansjliu/rock-paper-scissors) - [View in Browser](https://shermansjliu.github.io/rock-paper-scissors/)
