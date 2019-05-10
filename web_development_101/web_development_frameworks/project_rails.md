@@ -27,6 +27,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Daniel Ryu's solution](https://github.com/dryu99/blogger) - [View in browser](https://stormy-basin-60364.herokuapp.com/articles)
+* [todoroff's solution](https://github.com/todoroff/odin-blog) - [View in browser](https://polar-lake-81082.herokuapp.com/)
 * [George Zhu's solution](https://github.com/georgezhu11/rails-blogger) - [View in browser](https://quiet-cove-12628.herokuapp.com/articles)
 * [Om Dhiraj's Solution](https://github.com/odgripginger/blogger) -  [View in browser](https://intense-bastion-50359.herokuapp.com/ )
 * [Vollantre's Solution](https://github.com/vollantre/blogger) -  [View in browser](https://salty-caverns-97809.herokuapp.com/)
@@ -377,7 +378,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ben Fowler's Solution](https://github.com/benfowler04/blogger) - [View in Browser](https://secure-fjord-73494.herokuapp.com/)
 * [LeonJMac's Solution](https://github.com/leonjmac/blogger) - [View in Browser](https://shrouded-mesa-76487.herokuapp.com/)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/blogger) - [View in Browser](https://evening-wave-31483.herokuapp.com/articles/)
-
+* [Barbara Lucas' Solution](https://github.com/LucasBarbara/blogger) - [View in Browser](https://quiet-garden-45158.herokuapp.com/)
+* [antdricot's Solution](https://github.com/antdricot/odin-rails-project-blogger) - [View in Browser](https://protected-meadow-96769.herokuapp.com/)
+* [Doug Heatter's Solution](https://github.com/drheatter/rails_tutorial) - [View in Browser](https://obscure-peak-64307.herokuapp.com/)
 
 </details>
 

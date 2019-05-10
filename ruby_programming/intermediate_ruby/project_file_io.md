@@ -21,6 +21,9 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Joe Lee's Solution](https://github.com/JoeDravarol/hangman) - [View in repl.it](https://repl.it/@JoeDravarol/Hangman-Game)
+* [George Zhu'solution](https://github.com/georgezhu11/hangman)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/tree/master/ruby/project_file_io_and_serialization/hangman)
 * [Vollantre's solution](https://github.com/vollantre/Hangman)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/hangman)
 * [Kevin Vuong's solution](https://github.com/fffear/hangman)
