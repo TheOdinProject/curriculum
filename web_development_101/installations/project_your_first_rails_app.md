@@ -244,7 +244,7 @@ Go to the [Heroku website](https://www.heroku.com/) and create an account using 
 
 #### Step 4.2: Heroku CLI
 
-Activate your account from the email they sent you. Now, we'll install the Heroku command line so that we can interact with the Heroku service. We will use `curl` to download a script and run it to install the Heroku CLI.
+Activate your account from the email they sent you. Now, we'll install the Heroku command line so that we can interact with the Heroku service. We will use `curl` to download a script and run it to install the Heroku CLI. This script may ask for your `sudo` password, this is expected. Go ahead and type it in after running the command below.
 
 Run this command:
 
