@@ -432,6 +432,29 @@ It's time to see your app on the web! If you are not using WSL, to quickly open 
 heroku open
 ~~~
 
+WSL users can copy the link generated at the end of step 4.7 
+or
+You can open VSCode by typing the command below(the steps below require Windows users to install the [Heroku CLI for windows](https://devcenter.heroku.com/articles/heroku-cli) following the instructions in the given link)
+
+~~~bash
+code .
+~~~
+once VSCode is open press
+
+```
+ctrl+shift+`
+```
+this opens a command prompt within VSCode in the command prompt make sure you're inside the project directory by runing the following command
+
+~~~bash
+cd
+~~~
+once verified run the command 
+
+~~~bash
+heroku open
+~~~
+
 and play around with it! 
 
 ### Step 5: Let us know how it went!
