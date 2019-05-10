@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Daniel Ryu's solution](https://github.com/dryu99/blogger) - [View in browser](https://stormy-basin-60364.herokuapp.com/articles)
 * [George Zhu's solution](https://github.com/georgezhu11/rails-blogger) - [View in browser](https://quiet-cove-12628.herokuapp.com/articles)
 * [Om Dhiraj's Solution](https://github.com/odgripginger/blogger) -  [View in browser](https://intense-bastion-50359.herokuapp.com/ )
 * [Vollantre's Solution](https://github.com/vollantre/blogger) -  [View in browser](https://salty-caverns-97809.herokuapp.com/)
