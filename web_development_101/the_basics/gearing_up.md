@@ -11,7 +11,7 @@ Take a moment to think about why you have decided to learn programming.
 * Are you determined to develop the skills and abilities to build any app you can think of? 
 * Do you want to start your own company by turning an app idea into reality?
 
-Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motiviation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
+Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
 
 To give your motivation a bit of a boost, you can read about the success of others:
 

@@ -9,7 +9,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 1. If you haven't already, set up your project with skeleton HTML/CSS and JS files.
 2. All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user's input and store the new book objects into an array. Your code should look something like this:
 
-   ```javascript
+   ~~~javascript
    let myLibrary = [];
 
    function Book() {
@@ -19,7 +19,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
    function addBookToLibrary() {
      // do stuff here
    }
-   ```
+   ~~~
 
 3. Hook the array up to your HTML with a `render()` function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own "card". It might help for now to manually add a few books to your array so you can see the display.
 4. Add a "NEW BOOK" button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether it's been read and anything else you might want.
@@ -40,7 +40,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
+- [ARaut9's solution](https://github.com/ARaut9/book_library) - [View in Browser](https://araut9.github.io/book_library/)
+- [learnsometing's solution](https://github.com/learnsometing/JS-Library) - [View in Browser](https://learnsometing.github.io/JS-Library/)
+- [Jason McKee's solution](https://github.com/jttmckee/odin-library-js) - [View in Browser](https://jttmckee.github.io/odin-library-js/)
+- [Simon Tharby's solution](https://github.com/jinjagit/library) - [View in Browser](https://jinjagit.github.io/library/)
 - [dane's Solution](https://github.com/daneOmega/bookLibrary) - [View in Browser](https://daneomega.github.io/)
 - [djolesuseranem's Solution](https://github.com/djolesusername/libraryh) - [View in Browser](https://djolesusername.github.io/libraryh/)
 - [Ricala's Solution](https://github.com/Ricala/library) - [View in Browser](https://ricala.github.io/library/)
@@ -88,7 +91,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Uy Bình's Solution](https://github.com/uybinh/odin-js-library) - [View in browser](https://uybinh.github.io/odin-js-library/)
 - [Punnadittr's Solution](https://github.com/punnadittr/library) - [View in browser](https://punnadittr.github.io/library/index.html/)
 - [Sava's Solution](https://github.com/SavaVuckovic/Library-App)
-- [Francisco Carlos's Solution](https://github.com/fcarlosdev/the_odin_project/tree/master/library) - [View in browser](https://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/library/index.html)
+- [Francisco Carlos's Solution](https://github.com/fcarlosdev/library) - [View in browser](https://fcarlosdev.github.io/library/)
 - [Kyouyatamax Solution](https://github.com/kyouyatamax/jsLibraryOdinProject) - [View in browser](https://kyouyatamax.github.io/jsLibraryOdinProject/)
 - [MPalhidai's Solution](https://github.com/MPalhidai/Library) - [View in browser](https://www.michaelpalhidai.com/Library/)
 - [aznafro's Solution](https://github.com/aznafro/library) - [View in browser](https://aznafro.github.io/library/)
