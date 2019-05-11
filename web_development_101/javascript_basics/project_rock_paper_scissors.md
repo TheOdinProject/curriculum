@@ -42,7 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Santiago Martinez's Solution](https://github.com/samart333/Rock-Paper-Scissors-DOM)
 - [Reece White's Solution](https://github.com/brplatinum/scissors-paper-rock)
 - [Joe Lee's Solution](https://github.com/JoeDravarol/rock_paper_scissors) - [View in Browser](https://joedravarol.github.io/rock_paper_scissors/)
-- [ab510's Solution](https://github.com/ab510/rock-paper-scissors) - [View in Browser](https://ab510.github.io/rock-paper-scissors/)
+- [ab510's Solution](https://github.com/ab510/rock-paper-scissors_gui) - [View in Browser](https://ab510.github.io/rock-paper-scissors_gui/)
 - [Elevin14's Solution](https://github.com/elevin14/rock-paper-scissors) - [View in Browser](https://elevin14.github.io/rock-paper-scissors/)
 - [Henry's Solution](https://github.com/heberleh/rock-paper-scissors) - [View in Browser (GUI)](https://heberleh.github.io/rock-paper-scissors/index.html)
 - [John's Solution](https://github.com/JohnStaAna/Rock-paper-scissors) - [View in Browser](https://johnstaana.github.io/Rock-paper-scissors/)
