@@ -39,6 +39,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Atul's Solution](https://github.com/tuleaux/rock-paper-scissors)
 - [Santiago Martinez's Solution](https://github.com/samart333/Rock-Paper-Scissors-DOM)
 - [Reece White's Solution](https://github.com/brplatinum/scissors-paper-rock)
 - [Joe Lee's Solution](https://github.com/JoeDravarol/rock_paper_scissors) - [View in Browser](https://joedravarol.github.io/rock_paper_scissors/)
