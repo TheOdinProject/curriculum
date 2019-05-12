@@ -87,6 +87,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Allan Glasier's Solution (Difficult)](https://github.com/allan-glasier/google-search-results) - [View in Browser](https://allan-glasier.github.io/google-search-results/)
 * [Pstyne's Solution (Easy)](https://github.com/Pstyne/google-homepage) - [View in Browser](https://pstyne.github.io/google-homepage/)
 * [Pstyne's Solution (Difficult)](https://github.com/Pstyne/google-results-page) - [View in Browser](https://pstyne.github.io/google-results-page/)
 * [rjardimfilho's Solution (Easy)](https://github.com/rjardimfilho/google-homepage) - [View in Browser](https://rjardimfilho.github.io/google-homepage/)
@@ -180,8 +181,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kemi Thomas' Solution (Easy)](https://github.com/kem247/google_homepage) - [View in Browser](https://kem247.github.io/google_homepage/)
 * [Samuel Marcus' Solution (Difficult)](https://github.com/smarcus4/GoogleSearchpage) - [View in Browser](https://smarcus4.github.io/GoogleSearchpage/)
 * [Samuel Marcus' Solution (Easy)](https://github.com/smarcus4/GoogleHomepage) - [View in Browser](https://smarcus4.github.io/GoogleHomepage/)
-* [Allan Glasier's Solution (Easy)](http://allanglasier.com/google-homepage/) - [View in Browser](http://allanglasier.com/google-homepage/)
-* [Allan Glasier's Solution (Difficult)](http://allanglasier.com/google-search-results/) - [View in Browser](http://allanglasier.com/google-search-results/)
 * [Carlos Ávila's Solution (Easy)](https://cravila.github.io/google-homepage/) - [View in Browser](https://cravila.github.io/google-homepage/)
 * [Carlos Ávila's Solution (Difficult)](https://cravila.github.io/google-search-results/) - [View in Browser](https://cravila.github.io/google-search-results/)
 * [Nicolas Figueroa's Solution (Easy)](https://github.com/nicolasfig/google-homepage) - [View in Browser](https://nicolasfig.github.io/google-homepage/)
