@@ -181,6 +181,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/recursion/fibonacci.rb)
 * [vanny96's Solution](https://github.com/vanny96/recursion)
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/tree/master/recursion-odin-exercises/fibonacci)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/recursion-examples/tree/master/fibonacci)
 
 </details>
 
@@ -375,6 +376,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/recursion/merge.rb)
 * [vanny96's Solution](https://github.com/vanny96/recursion)
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/tree/master/recursion-odin-exercises/mergesort)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/recursion-examples/tree/master/merge_sort)
 
 </details>
 
