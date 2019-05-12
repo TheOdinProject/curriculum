@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ofperfection's Solution](https://github.com/ofperfection/TOP_ruby_buildingblocks/blob/master/substrings_method.rb)
 * [Elias White's Solution](https://github.com/elias-white/theodinproject/blob/master/Ruby/caesarcipher.rb)
 * [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/caesar_cipher.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/caesar_cipher.rb)
