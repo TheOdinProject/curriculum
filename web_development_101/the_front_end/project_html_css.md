@@ -87,6 +87,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Pstyne's Solution (Easy)](https://github.com/Pstyne/google-homepage) - [View in Browser](https://pstyne.github.io/google-homepage/)
+* [Pstyne's Solution (Difficult)](https://github.com/Pstyne/google-results-page) - [View in Browser](https://pstyne.github.io/google-results-page/)
+* [rjardimfilho's Solution (Easy)](https://github.com/rjardimfilho/google-homepage) - [View in Browser](https://rjardimfilho.github.io/google-homepage/)
 * [ab510's Solution (Easy)](https://github.com/ab510/google-homepage) - [View in Browser](https://ab510.github.io/google-homepage/)
 * [Marta's Solution (Easy)](https://github.com/Martavipo/google-homepage) - [View in Browser](https://martavipo.github.io/google-homepage/)
 * [Biodun's Solution (Easy)](https://github.com/faddaful/google-homepage) - [View in Browser](https://faddaful.github.io/google-homepage/)
@@ -2124,6 +2127,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Matt P's Solution (Easy)](https://github.com/mrparker1991/google-homepage) - [View in Browser](https://mrparker1991.github.io/google-homepage/)
 * [Doug Heatter's Solution (Easy)](https://github.com/drheatter/google-homepage) - [View in Browser](https://drheatter.github.io/google-homepage/)
 * [Schickmeister's Solution (Easy)](https://github.com/jasonschickel/google-homepage) - [View in Browser](https://jasonschickel.github.io/google-homepage/)
+* [SameerLag's Solution (Easy)](https://github.com/SameerLags/google-homepage) - [View in Browser](https://sameerlags.github.io/google-homepage/)
+* [Rcuesta00's Solution (Easy)](https://github.com/rcuesta00/google-homepage) - [View in Browser](https://rcuesta00.github.io/google-homepage/)
+* [koppenj's Solution (easy)](https://github.com/koppenj/google-homepage) - [View in Browser](https://koppenj.github.io/google-homepage/)
+* [Konrad Zagozda's solution(Easy)](https://github.com/konradzagozda/google-homepage) - [View in Browser](https://konradzagozda.github.io/google-homepage/)
+* [Konrad Zagozda's solution(Hard)](https://github.com/konradzagozda/google_result_page) - [View in Browser](https://konradzagozda.github.io/google_result_page/)
 </details>
 
 ### Additional Resources
