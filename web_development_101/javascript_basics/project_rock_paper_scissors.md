@@ -39,9 +39,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [chrisjwelly's solution](https://github.com/chrisjwelly/rock-paper-scissors)
+- [rjardimfilho's solution](https://github.com/rjardimfilho/rock-paper-scissors.git) 
+- [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/Rock-Paper-Scissors) - [View in Browser](https://kikupiku.github.io/Rock-Paper-Scissors/)
+- [Atul's Solution](https://github.com/tuleaux/rock-paper-scissors)
+- [Santiago Martinez's Solution](https://github.com/samart333/Rock-Paper-Scissors-DOM)
 - [Reece White's Solution](https://github.com/brplatinum/scissors-paper-rock)
 - [Joe Lee's Solution](https://github.com/JoeDravarol/rock_paper_scissors) - [View in Browser](https://joedravarol.github.io/rock_paper_scissors/)
-- [ab510's Solution](https://github.com/ab510/rock-paper-scissors) - [View in Browser](https://ab510.github.io/rock-paper-scissors/)
+- [ab510's Solution](https://github.com/ab510/rock-paper-scissors_gui) - [View in Browser](https://ab510.github.io/rock-paper-scissors_gui/)
 - [Elevin14's Solution](https://github.com/elevin14/rock-paper-scissors) - [View in Browser](https://elevin14.github.io/rock-paper-scissors/)
 - [Henry's Solution](https://github.com/heberleh/rock-paper-scissors) - [View in Browser (GUI)](https://heberleh.github.io/rock-paper-scissors/index.html)
 - [John's Solution](https://github.com/JohnStaAna/Rock-paper-scissors) - [View in Browser](https://johnstaana.github.io/Rock-paper-scissors/)
@@ -629,4 +634,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [JohnL's Solution](https://github.com/CocoThePimp/Rock-Paper-Scissors) - [View in Browser](https://cocothepimp.github.io/Rock-Paper-Scissors/)
 - [Sherman's Solution](https://github.com/shermansjliu/rock-paper-scissors) - [View in Browser](https://shermansjliu.github.io/rock-paper-scissors/)
 - [SameerLags' Solution](https://github.com/SameerLags/rock_paper_scissors) - [View in Browser](https://sameerlags.github.io/rock_paper_scissors/)
+- [Nearcited's Solution](https://github.com/nearcited/rock-paper-scissors/) - [View in Browser](https://nearcited.github.io/rock-paper-scissors/)
 </details>
