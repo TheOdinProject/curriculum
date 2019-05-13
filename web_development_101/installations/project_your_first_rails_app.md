@@ -258,7 +258,7 @@ In your terminal, type
 heroku keys:add
 ~~~
 
-Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
+Next, follow the directions to sign into heroku. Push a button to open the web interface and sign in there.
 
 #### Step 4.4: Create a Heroku Application
 
