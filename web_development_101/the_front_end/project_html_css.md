@@ -87,6 +87,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [mawil583's Solution (Easy)] (https://github.com/mawil583/google-homepage) - [View in Browser] (file:///Users/MichaelW/Desktop/Projects/the_odin_project/google-homepage/index.html)
 * [Allan Glasier's Solution (Difficult)](https://github.com/allan-glasier/google-search-results) - [View in Browser](https://allan-glasier.github.io/google-search-results/)
 * [Pstyne's Solution (Easy)](https://github.com/Pstyne/google-homepage) - [View in Browser](https://pstyne.github.io/google-homepage/)
 * [Pstyne's Solution (Difficult)](https://github.com/Pstyne/google-results-page) - [View in Browser](https://pstyne.github.io/google-results-page/)
