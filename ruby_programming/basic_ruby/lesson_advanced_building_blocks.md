@@ -136,6 +136,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Writing your Own Methods](http://rubylearning.com/satishtalim/writing_own_ruby_methods.html)
 * A quick guide on writing methods from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)
 * [Getting to Hello World](http://en.wikibooks.org/wiki/Ruby_Programming/Hello_world)
-* [LRTHW chapters 13-14](http://ruby.learncodethehardway.org/book/)
+* [LRTHW chapters 13-14](https://learnrubythehardway.org/book/)
 * [Converting between Blocks & Procs](https://medium.com/@sihui/proc-code-block-conversion-and-ampersand-in-ruby-35cf524eef55)
 * Want to get some feedback on your code? Try problems and submit your solutions on [Exercism](http://exercism.io/languages/ruby)

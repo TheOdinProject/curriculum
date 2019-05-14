@@ -108,7 +108,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Siri's easy solution (Old google version)](https://github.com/Siri-walkaa/google-homepage) - [View in browser](https://htmlpreview.github.io/?https://github.com/Siri-walkaa/google-homepage/blob/master/index.html)
 * [Joe Westons solution](https://github.com/joeeeeeeeeeeeee/project_html_forms) - [View in browser](https://joeeeeeeeeeeeee.github.io/project_html_forms/)
 * [Nana's solution](https://github.com/nessuman/google-homepage) - [View in browser](https://nessuman.github.io/google-homepage/)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/mint-signup-page) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/mint-signup-page/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/mint-signup-page) - [View in browser](https://fcarlosdev.github.io/mint-signup-page/)
 * [Mike Smith's solution](https://github.com/MikeSS281986/Intuit-Mint-Login-Page-Clone) - [View in Browser](https://mikess281986.github.io/Intuit-Mint-Login-Page-Clone/)
 * [Elena's solution](https://github.com/elena-sam/mint-signup-clone) - [View in Browser](https://elena-sam.github.io/mint-signup-clone/)
 * [Punnadittr's solution](https://github.com/punnadittr/mint-signup) - [View in Browser](https://punnadittr.github.io/mint-signup/)

@@ -86,7 +86,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Husein's solution](https://github.com/hosghf/new-york-times-articl-html-css) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/new-york-times-articl-html-css/blob/master/index.html)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/nyt-article) - [View in browser](https://thiswillhavetodo.github.io/nyt-article/)
 * [DV's solution](https://github.com/dvislearning/odin-nyt-article) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-nyt-article/blob/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/nyt-project) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/nyt-project/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/nyt-project) - [View in browser](https://fcarlosdev.github.io/nyt-project/)
 * [Mike Smith's solution](https://github.com/MikeSS281986/New-York-Times-Snippet) - [View in browser](https://mikess281986.github.io/New-York-Times-Snippet/)
 * [Elena's solution](https://github.com/elena-sam/nytimes-clone) - [View in browser](elena-sam.github.io/nytimes-clone)
 * [Punnadittr's solution](https://github.com/punnadittr/nyt-article) - [View in browser](https://punnadittr.github.io/nyt-article/)
@@ -97,6 +97,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [bchalman's solution](https://github.com/bchalman/NYT-positioning-practice) - [View in browser](https://bchalman.github.io/NYT-positioning-practice/)
 * [Doris's solution](https://github.com/dsmchen/nyt-article) - [view in browser](https://dsmchen.github.io/nyt-article/)
 * [Kelvin Liang's solution](https://github.com/kelvin8773/NYT-Clone-Page) - [View in browser](https://kelvin8773.github.io/NYT-Clone-Page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/NYT-clone-page) - [View in browser](https://amarcoscastelo.github.io/NYT-clone-page/)
 
 </details>
 

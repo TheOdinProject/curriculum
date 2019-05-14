@@ -82,7 +82,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Apple/) - [View in browser](https://ncud4bloc.github.io/Apple/HTML/index.html)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/apple-background-images) - [View in browser](https://thiswillhavetodo.github.io/apple-background-images/index.html)
 * [DV's solution](https://github.com/dvislearning/odin-apple-clone) - [View in browser](https://htmlpreview.github.io/?https://github.com/dvislearning/odin-apple-clone/blob/master/index.html)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/apple-old-layout) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/apple-old-layout/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/apple-old-layout) - [View in browser](https://fcarlosdev.github.io/apple-old-layout/)
 * [Mike Smith's solution](https://github.com/MikeSS281986/Old-School-Apple-Page) - [View in browser](https://mikess281986.github.io/Old-School-Apple-Page/)
 * [Elena's solution](https://github.com/elena-sam/css-backgrounds) - [View in browser](https://elena-sam.github.io/css-backgrounds/)
 * [Punnadittr's solution](https://github.com/punnadittr/apple-home) - [View in browser](https://punnadittr.github.io/apple-home/)
@@ -92,6 +92,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Ghassan's solution](https://github.com/GT001/TOP-Apple.com-Clone) - [View in browser](https://gt001.github.io/TOP-Apple.com-Clone/)
 * [Doris's solution](https://github.com/dsmchen/apple-homepage) - [view in browser](https://dsmchen.github.io/apple-homepage/)
 * [Kelvin L's Solution](https://github.com/kelvin8773/apple-homepage) - [view in browser](https://kelvin8773.github.io/apple-homepage/)
+* [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/apple-clone-homepage) - [view in browser](https://amarcoscastelo.github.io/apple-clone-homepage/)
 </details>
 
 ### Additional Resources

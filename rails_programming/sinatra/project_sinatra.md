@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Learnsometing's Solution [Github](https://github.com/learnsometing/Sinatra-Caesar_Cipher) [Live](https://learnsometing-caesar-cipher.herokuapp.com/)
 * Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/caesar_cipher) [Live](https://secure-escarpment-83147.herokuapp.com)
 * Smetanca52's Solution [GitHub](https://github.com/Smetanca52/sinatra_project) [Live](https://boiling-refuge-38884.herokuapp.com/)
 * Jason McKee's Solution [GitHub](https://github.com/jttmckee/sinatra-caesar-cipher) [Live](https://limitless-wave-11721.herokuapp.com)
@@ -109,6 +110,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Slaven's solution [Github](https://github.com/Everdrought/sinatra_caesar_cypher) / [See it on the web](https://cryptic-earth-54812.herokuapp.com/)
 * Alex's solution (portfolio) [Github](https://github.com/alexcorremans/sinatra_projects) / [See it on the web](https://blooming-woodland-49549.herokuapp.com/caesar_cipher)
 * Leila Alderman's solution [GitHub](https://github.com/leila-alderman/caesar_cipher) / [Heroku](https://stormy-sea-24508.herokuapp.com/)
+* JamCry's Solution [GitHub](https://github.com/jamcry/sinatra-caesar-cipher) - [Live on Heroku](https://jamcry-caesar-cipher.herokuapp.com/)
+* vanny96's Solution [GitHub](https://github.com/vanny96/sinatra_projects) - [Heroku](https://peaceful-fjord-85935.herokuapp.com/)
 
 </details>
 
@@ -132,6 +135,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Learnsometing's Solution [Github](https://github.com/learnsometing/Sinatra-Hangman)
 * Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/hangman) [Live](https://peaceful-taiga-48900.herokuapp.com/?)
 * Smetanca52's Solution [GitHub](https://github.com/Smetanca52) [Live](https://radiant-earth-83625.herokuapp.com/)
 * Jason McKee's Solution [GitHub](https://github.com/jttmckee/sinatra-hangman) [Live](https://agile-coast-84094.herokuapp.com)
@@ -208,5 +212,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * BrianEspo's Solution (Hangman): [Github](https://github.com/bribrah/Sinatra-Projects/tree/master/hangman_site) / [Live Demo](https://brianshangman.herokuapp.com/)
 * Alex's solution (Hangman, portfolio) [Github](https://github.com/alexcorremans/sinatra_projects) / [See it on the web](https://blooming-woodland-49549.herokuapp.com/)
 * Leila Alderman's solution (Hipster Hangman) [GitHub](https://github.com/leila-alderman/hipster_hangman) / [Heroku](https://stark-brook-74152.herokuapp.com/)
+* vanny96's Solution [GitHub](https://github.com/vanny96/sinatra_projects) - [Heroku](https://peaceful-fjord-85935.herokuapp.com/)
 
 </details>

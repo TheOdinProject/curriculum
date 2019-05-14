@@ -33,6 +33,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ARaut9's solution - Framework](https://github.com/ARaut9/css_framework) - [View in browser](https://araut9.github.io/css_framework/test.html)
+* [ARaut9's solution - Example Site](https://github.com/ARaut9/itunes_clone) - [View in browser](https://araut9.github.io/itunes_clone/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/framework) - [View in browser](https://n00bg1rl.github.io/framework/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/cloud9-clone) - [View in Browser](https://javier-machin.github.io/cloud9-clone/)
 * [nmac's solution](https://github.com/nmacawile/css-framework) - [View](https://htmlpreview.github.io/?https://github.com/nmacawile/css-framework/blob/master/index.html)
@@ -52,7 +54,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Devon's solution](https://github.com/defitjo/grid-based-framework) - [Example Site](https://defitjo.github.io/grid-based-framework/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/My_Frame/) - [View in browser](https://ncud4bloc.github.io/My_Frame/HTML/index.html)
 * [husein ghafari's solution](https://github.com/hosghf/css-grid-framework) - [Example Site](https://htmlpreview.github.io/?https://github.com/hosghf/final-prj/blob/master/index.html)
-* [Francisco Carlos's - Scaffold Framework](https://github.com/fcarlosdev/the_odin_project/tree/master/grid-framework) - [Example Site](https://github.com/fcarlosdev/the_odin_project/blob/master/thoughco) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/thoughco/index.html)
+* [Francisco Carlos's - Scaffold Framework](https://github.com/fcarlosdev/grid-framework) - [Example Site](https://github.com/fcarlosdev/thoughco) - [View in browser](https://fcarlosdev.github.io/thoughco/)
 * [aznafro's CSS Framework - Flik](https://github.com/aznafro/flik) - [Final Project Git Page](https://github.com/aznafro/natgeo) - [View site in browser](https://aznafro.github.io/natgeo/)
 
 </details>

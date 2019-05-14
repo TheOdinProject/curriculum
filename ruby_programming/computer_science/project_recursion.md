@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_recursion/fibonacci.rb)
 * [Vollantre's solution](https://github.com/vollantre/ruby_basic/blob/master/fibonacci.rb)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/recursion_quiz/blob/master/recursion_project1.rb)
 * [Kevin Vuong's solution](https://github.com/fffear/recursion/tree/master/fibonacci_sequence)
@@ -180,6 +181,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/recursion/fibonacci.rb)
 * [vanny96's Solution](https://github.com/vanny96/recursion)
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/tree/master/recursion-odin-exercises/fibonacci)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/recursion-examples/tree/master/fibonacci)
 
 </details>
 
@@ -212,6 +214,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_recursion/merge_sort.rb)
 * [Vollantre's solution](https://github.com/vollantre/ruby_basic/blob/master/merge_sort.rb)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/recursion_quiz/blob/master/recursion_project2.rb)
 * [Kevin Vuong's solution](https://github.com/fffear/recursion/tree/master/merge_sort)
@@ -373,6 +376,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/blob/master/recursion/merge.rb)
 * [vanny96's Solution](https://github.com/vanny96/recursion)
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/tree/master/recursion-odin-exercises/mergesort)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/recursion-examples/tree/master/merge_sort)
 
 </details>
 

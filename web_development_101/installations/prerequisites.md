@@ -5,7 +5,7 @@ If you are already using **MacOS** or **Linux**, you can skip this section. Othe
 
 
 <details markdown="block">
-<summary class="dropDown-header">Virtual Machine (Easiest)
+<summary class="dropDown-header">Virtual Machine (Recommended)
 </summary>
 
 Installing a virtual machine (VM) is the easiest and most reilable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance though.
@@ -181,4 +181,4 @@ ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
 
 **Please Note: We do not support Windows without a VM or WSL at this time, as many people have had problems developing with Rails while using Windows.** 
 
-The Odin Project has great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contrubute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
+The Odin Project has great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.

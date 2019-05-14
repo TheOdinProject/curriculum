@@ -48,6 +48,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ARaut9's solution](https://github.com/ARaut9/restaurant_page) - [View in Browser](https://araut9.github.io/restaurant_page/)
+- [Jason McKee's solution](https://github.com/jttmckee/odin-restaurant) - [View in Browser](https://jttmckee.github.io/odin-restaurant/)
 - [Ricala's solution](https://github.com/Ricala/restaurant-page) - [View in Browser](https://ricala.github.io/restaurant-page/)
 - [Aggy's solution](https://github.com/atarsa/odin-restaurant) - [View in Browser](https://atarsa.github.io/odin-restaurant/)
 - [Hammad Ahmed's solution](https://github.com/shammadahmed/restaurant-page) - [View in Browser](https://shammadahmed.github.io/restaurant-page)
@@ -71,7 +73,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Punnadittr's solution](https://github.com/punnadittr/restaurant_page) - [View in browser](https://punnadittr.github.io/restaurant_page/)
 - [AlexFuro's Solution](https://github.com/alexfuro/odin_restaurant) - [View in Browser](https://alexfuro-restaurant.netlify.com/)
 - [Kyouyatamax's solution](https://github.com/kyouyatamax/restaurantpageJS) - [View in browser](https://kyouyatamax.github.io/restaurantpageJS/)
-- [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/restaurant-page) - [View in browser](https://fcarlosdev.github.io/restaurant-page/)
+- [Francisco Carlos's solution](https://github.com/fcarlosdev/restaurant-page) - [View in browser](https://fcarlosdev.github.io/restaurant-page/)
 - [aznafro's solution](https://github.com/aznafro/restaurant) - [View in browser](https://aznafro.github.io/restaurant/)
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Restaurant-page) - [View in browser](https://areebaishtiaq.github.io/Restaurant-page/)
 - [Valentino Valenti's solution](https://github.com/1ba1/restaurant-page) - [View in browser](https://1ba1.github.io/restaurant-page/)

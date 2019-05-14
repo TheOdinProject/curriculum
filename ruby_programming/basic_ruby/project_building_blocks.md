@@ -37,6 +37,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ofperfection's Solution](https://github.com/ofperfection/TOP_ruby_buildingblocks/blob/master/substrings_method.rb)
+* [Elias White's Solution](https://github.com/elias-white/theodinproject/blob/master/Ruby/caesarcipher.rb)
+* [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/caesar_cipher.rb)
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/caesar_cipher.rb)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/ruby/ruby/project_building_blocks/caesar_cipher.rb)
+* [Vollantre's Solution](https://github.com/vollantre/ruby_basic/blob/master/caesar_cipher.rb)
 * [Kenneth Auwers's Solution](https://github.com/R0259640/Project-Building-Blocks/blob/master/ceasar_cipher.rb)
 * [Jacques Hovine's Solution](https://github.com/jacqueshovine/TOP_Ruby/blob/master/caesar_cipher.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/caesar_cipher.rb)
@@ -427,6 +433,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/caesar.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/caesar_cipher.rb)
 * [Jean Merlet's Solution](https://github.com/jeanmerlet/ruby_misc/blob/master/building_blocks/caesar_cipher.rb)
+* [Bendee48's Solution](https://github.com/bendee48/ruby_building_blocks/blob/master/caesar_cipher.rb)
+* [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/63c56c72ac85672b2e3a3007c7e6c515)
+* [Brett McStotts' Solution](https://github.com/bretticus-mc/ruby_exercises/blob/master/caesar_cipher.rb)
 
 </details>
 
@@ -454,6 +463,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/stock_picker.rb)
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/stock_picker.rb)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_building_blocks/stock_picker.rb)
+* [Vollantre's Solution](https://github.com/vollantre/ruby_basic/blob/master/stock_picker.rb)
 * [Jacques Hovine's Solution](https://github.com/jacqueshovine/TOP_Ruby/blob/master/stock_picker.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/stock_picker.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/stock-picker.rb)
@@ -806,6 +819,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/stock.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/stock_picker.rb)
 * [Jean Merlet's Solution](https://github.com/jeanmerlet/ruby_misc/blob/master/building_blocks/stock_picker.rb)
+* [Bendee48's Solution](https://github.com/bendee48/ruby_building_blocks/blob/master/stock_picker.rb)
+* [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/f9c1b1d73f3d148715f014f131d711ec)
 
 </details>
 
@@ -841,6 +856,10 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/substrings.rb)
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/substrings.rb)
+* [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_building_blocks/substrings.rb)
+* [Vollantre's Solution](https://github.com/vollantre/ruby_basic/blob/master/substrings.rb)
 * [Jacques Hovine's Solution](https://github.com/jacqueshovine/TOP_Ruby/blob/master/substrings.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/basic_ruby/substrings.rb)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/ruby-building-blocks/blob/master/substrings.rb)
@@ -1187,5 +1206,6 @@ Next, make sure your method can handle multiple words:
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-building-blocks/blob/master/substrings.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/ruby_building_blocks/blob/master/substrings.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/project_building_blocks/blob/master/substrings.rb)
-
+* [Bendee48's Solution](https://github.com/bendee48/ruby_building_blocks/blob/master/substrings.rb)
+* [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/79800be59bd54ec764dba061278a7811)
 </details>
