@@ -35,7 +35,7 @@ Next create a simple script file which will run RestClient and allow you to star
 
 #### Sending Requests
 
-1. Run the script using `$ ruby script/rest_requestor.rb`.  Error! You don't have anyone waiting for the request.
+1. Run the script using `$ ruby app/script/rest_requestor.rb`.  Error! You don't have anyone waiting for the request.
 2. You'll need to fire up your rails server.  Go to a new tab or window (but make sure you're in your application's directory still) and run the server using `$ rails server`
 3. Try to run the script again.  It should output a whole bunch of HTML which represents the default Rails homepage.
 4. Change your script file to go to `http://localhost:3000/users` instead.  Run it again.

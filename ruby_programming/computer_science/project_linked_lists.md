@@ -65,7 +65,17 @@ A head node is the first node in the list, a tail node is the last node in the l
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_linked_lists.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Arilson Souza Solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_linked_lists/linked_list.rb)
+* [Vollantre's Solution](https://github.com/vollantre/linked_list/blob/master/linked_list.rb)
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/linked_lists)
+* [Kevin Vuong's Solution](https://github.com/fffear/linked_lists)
+* [Nicolas Espinoza's Solution](https://github.com/nicospz/linked_lists)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/linked-list)
+* [Learnsometing's Solution w/extras](https://github.com/learnsometing/TOP-ruby-projects/tree/master/ruby/computer-science/linked-list)
 * [Simon Tharby's solution](https://github.com/jinjagit/linked_list/blob/master/linked.rb)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/linked_list)
 * [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/linked_lists.rb)
@@ -121,7 +131,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Earth35's solution](https://github.com/Earth35/linked-list/blob/master/linked_list.rb)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/linked_list.rb)
 * [Amrr Bakry's solution - with extra credit](https://github.com/Amrrbakry/learning_ruby/blob/master/LinkedList/linked_list.rb)
-* [Jean Merlet's solution](https://github.com/jeanmerlet/linked_lists/blob/master/linked_list.rb)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_misc/blob/master/data_structures/linked_list.rb)
 * [Manu Phatak's HIGH ENERGY solution](https://github.com/bionikspoon/ruby_linked_list)
 * [fugumagu's solution with extra credit](https://github.com/fugumagu/the_odin_project/tree/master/linked_list)
 * [Sasho's solution /w extra credit](https://github.com/sashoa/the-odin-project/tree/master/project-linked-lists)
@@ -169,4 +179,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tommy's Solution](https://github.com/hoangtommy/linkedLists/blob/master/LinkedList.rb)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/linked_list)
 * [EdwardHeath's Solution (with extra credit)](https://github.com/EdwardHeath/linked_list/tree/master)
+* [Leila Alderman's solution](https://github.com/leila-alderman/TOP_ruby_exercises/tree/master/08_linked_list)
+* [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/linked-list)
+* [vanny96's Solution](https://github.com/vanny96/linked_lists)
+* [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/linked_lists.rb)
 
+</details>

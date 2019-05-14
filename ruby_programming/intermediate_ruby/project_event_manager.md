@@ -258,6 +258,8 @@ lines.each do |line|
 end
 ~~~
 
+When this program is run, the `next if` line checks every line to see if it matches the provided string. If so, it skips that line from the rest of the loop
+
 A problem with this solution is that the content of our header row could change
 in the future. Additional columns could be added or the existing columns
 updated.
@@ -422,7 +424,7 @@ solve the second issue and the third issue.
 
 * Some zip codes are represented with less than a five-digit number
 
-If we looked at the [larger sample of data](event_attendees_full.csv) we would
+If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/intermediate_ruby/event_attendees_full.csv) we would
 see that the majority of the shorter zip codes are from individuals from states
 in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text,
 which caused the leading zeros to be removed.
@@ -689,7 +691,7 @@ end
 We now have our list of attendees with their valid zip codes (at least for most
 of them). Using their zip code and the
 [Google Civic Information](https://developers.google.com/civic-information/)
-webservice we are able query for the representatives for a given area.
+webservice we are able to query for the representatives for a given area.
 
 The Civic Information API allows registered individuals (registration is free) to obtain some information about the representatives for each level of government for an address.
 
@@ -703,7 +705,7 @@ The Civic Information API allows registered individuals (registration is free) t
 
 Take a close look at that address. Here's how it breaks down:
 
-* `http://` : Use the HTTP protocol
+* `https://` : Use the Secure HTTP protocol
 * `www.googleapis.com/civicinfo/v2/` : The API server address on the internet
 * `representatives` : The method called on that server
 * `?` : Parameters to the method
@@ -712,9 +714,9 @@ Take a close look at that address. Here's how it breaks down:
   * `levels=country` : The level of government we want to select
   * `roles=legislatorUpperBody` : Return the representatives from the Senate
   * `roles=legislatorLowerBody` : Returns the representatives from the House
-  * `apikey=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw` : A registered API Key to authenticate our requests
+  * `key=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw` : A registered API Key to authenticate our requests
 
-We're accessing the `representatives` method of their API, we send in an `apikey` which is the string that identifies JumpstartLab as the accessor of
+We're accessing the `representatives` method of their API, we send in a `key` which is the string that identifies JumpstartLab as the accessor of
 the API, then we select the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
 
 This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](http://jsonprettyprint.com/), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
@@ -724,7 +726,7 @@ Let's look for a solution before we attempt to build a solution.
 ### Installing the Google API Client
 
 Ruby comes packaged with the `gem` command. This tool allows you to download
-libraries simply knowing the name of the library you want to install.
+libraries by simply knowing the name of the library you want to install.
 
 
 ~~~bash
@@ -761,7 +763,7 @@ $ response = civic_info.representative_info_by_address(address: 80202, levels: '
 => #<Google::Apis::CivicinfoV2::RepresentativeInfoResponse:0x007faf2d9088d0 @divisions={"ocd-division/country:us/state:co"=>#<Google::Apis::CivicinfoV2::GeographicDivision:0x007faf2e55ea80 @name="Colorado", @office_indices=[0]> } > ...continues...
 ~~~
 
-Whoa. That's a lot of information.  Buried in there are the names our legislators.  We can access them by calling the `.officials` method on the `response`.  Now that we know how to access the information we want, we can focus our attention back on our program.
+Whoa. That's a lot of information.  Buried in there are the names of our legislators.  We can access them by calling the `.officials` method on the `response`.  Now that we know how to access the information we want, we can focus our attention back on our program.
 
 ~~~ruby
 require 'csv'
@@ -879,7 +881,7 @@ Sarah 33703 ["Marco Rubio", "Bill Nelson", "C. Young"]
 ...
 ~~~
 
-The problem now is that we are still sending the `to_s` message to our new array of legislator names and by default an array does not know how you want to display the contents.
+The problem now is that when using string interpolation, Ruby is converting our new array of legislator names into a string but Ruby does not know exactly how _you_ want to display the contents.
 
 We need to explicitly convert our array of legislator names to a string. This way we are sure it will output correctly. This could be tedious work except Array again comes to the rescue with the [Array#join](http://rubydoc.info/stdlib/core/Array#join-instance_method) method.
 
@@ -958,7 +960,7 @@ def legislators_by_zipcode(zip)
                                   roles: ['legislatorUpperBody', 'legislatorLowerBody'])
     legislators = legislators.officials
     legislator_names = legislators.map(&:name)
-    legislators_string = legislator_names.join(", ")
+    legislator_names.join(", ")
   rescue
     "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
   end
@@ -1257,7 +1259,7 @@ We now need to update our application to:
 
 * Require the ERB library
 * Create the ERB template from the contents of the template file
-* Simplify our `legislators_by_zipcode` to return the the original array of legislators
+* Simplify our `legislators_by_zipcode` to return the original array of legislators
 
 ~~~ruby
 require 'csv'
@@ -1397,7 +1399,7 @@ it will be destroyed.
 
 Afterwards we actually send the entire form letter content to the file
 object. The `file` object responds to the message `puts`. The method
-[file#puts](http://rubydoc.info/stdlib/core/IO#puts-instance_method) is similar to
+[IO#puts](http://rubydoc.info/stdlib/core/IO#puts-instance_method), from which the `file` object inherits, is similar to
  [Kernel#puts](http://rubydoc.info/stdlib/core/Kernel#puts-instance_method)
 which we have been using up to this point.
 

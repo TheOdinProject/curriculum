@@ -18,8 +18,20 @@ The page is very straightforward, so you should be able to clone it even if your
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) or by editing [this file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_html_forms.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
-* [Helari's solution] (https://helaris.github.io/mint-project/) - [View in browser]
+* [bcikota's solution](https://github.com/bcikota/Mint.com) - [View in browser](https://bcikota.github.io/Mint.com/)
+* [Bola Buari's solution](https://github.com/bolah2009/mint-clone) - [View in browser](https://bolah2009.github.io/mint-clone)
+* [Ohlie's solution](https://github.com/lco1220/mint_signup_page) - [View in browser](https://lco1220.github.io/mint_signup_page/)
+* [Jason McKee's solution](https://github.com/jttmckee/mint-signup) - [View in browser](https://jttmckee.github.io/mint-signup/)
+* [Ricala's solution](https://github.com/Ricala/mint-signup) - [View in browser](https://ricala.github.io/mint-signup/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/form) - [View in browser](https://n00bg1rl.github.io/form/)
+* [ARaut9's solution](https://github.com/ARaut9/mint_sign_up_page) - [View in browser](https://araut9.github.io/mint_sign_up_page/)
+* [Bojo's solution](https://github.com/BojoZahariev/MintSignUp) - [View in browser](https://bojozahariev.github.io/MintSignUp/)
+* [balowulf's solution](https://github.com/balowulf/mint_signup) - [View in browser](https://balowulf.github.io/mint_signup/)
+* [Helari's solution](https://github.com/helaris/mint-project/) - [View in browser](https://helaris.github.io/mint-project/)
 * [Bojana Karakacev's solution](https://github.com/bojana12/project-html-forms) - [View in browser](https://bojana12.github.io/project-html-forms/)
 * [rvalentin1010's solution](https://github.com/rvalentin1010/mint-signup) - [View in browser](https://rvalentin1010.github.io/mint-signup/)
 * [Qin's solution](https://github.com/hyathynth/mint) - [View in browser](https://hyathynth.github.io/mint/)
@@ -96,7 +108,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Siri's easy solution (Old google version)](https://github.com/Siri-walkaa/google-homepage) - [View in browser](https://htmlpreview.github.io/?https://github.com/Siri-walkaa/google-homepage/blob/master/index.html)
 * [Joe Westons solution](https://github.com/joeeeeeeeeeeeee/project_html_forms) - [View in browser](https://joeeeeeeeeeeeee.github.io/project_html_forms/)
 * [Nana's solution](https://github.com/nessuman/google-homepage) - [View in browser](https://nessuman.github.io/google-homepage/)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/mint-signup-page) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/mint-signup-page/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/mint-signup-page) - [View in browser](https://fcarlosdev.github.io/mint-signup-page/)
 * [Mike Smith's solution](https://github.com/MikeSS281986/Intuit-Mint-Login-Page-Clone) - [View in Browser](https://mikess281986.github.io/Intuit-Mint-Login-Page-Clone/)
 * [Elena's solution](https://github.com/elena-sam/mint-signup-clone) - [View in Browser](https://elena-sam.github.io/mint-signup-clone/)
 * [Punnadittr's solution](https://github.com/punnadittr/mint-signup) - [View in Browser](https://punnadittr.github.io/mint-signup/)
@@ -107,6 +119,11 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Taylor J's solution](https://github.com/taylorjohannsen/mintmockup) - [View in Browser](https://taylorjohannsen.github.io/mintmockup/)
 * [Anh Pati's solution](https://github.com/AnhPati/OdinProject_css_html/tree/master/HTML_forms) - [View in Browser](http://dwj.miste.io/odinproject/html_form/)
 * [Ghassan's Solution](https://github.com/GT001/TOP-Mint.com-Signup) - [View in Browser](https://gt001.github.io/TOP-Mint.com-Signup/)
+* [Valentino Valenti's solution](https://github.com/1ba1/html-form) - [View in Browser](https://1ba1.github.io/html-form/)
+* [Doris's solution](https://github.com/dsmchen/intuit-sign-up-page) - [view in browser](https://dsmchen.github.io/intuit-sign-up-page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/intuit-signup-page) - [view in browser](https://amarcoscastelo.github.io/intuit-signup-page/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

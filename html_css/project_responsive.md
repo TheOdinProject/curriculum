@@ -20,9 +20,21 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_responsive.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bojo's solution](https://github.com/BojoZahariev/TheNextWeb-homepage) - [View in browser](https://bojozahariev.github.io/TheNextWeb-homepage/)
+* [bcikota's solution](https://github.com/bcikota/the_next_web) - [View in browser](https://bcikota.github.io/the_next_web/)
+* [Ohlie's solution](https://github.com/lco1220/theNextWeb_RWD) - [View in browser](https://lco1220.github.io/theNextWeb_RWD)
+* [Bola Buari's solution](https://github.com/bolah2009/tnw-clone) - [View in browser](https://bolah2009.github.io/tnw-clone)
+* [Jason McKee's solution](https://github.com/jttmckee/responsive-practice) - [View in browser](https://jttmckee.github.io/responsive-practice/)
+* [ARaut9's solution](https://github.com/ARaut9/TNW_responsive_homepage) - [View in browser](https://araut9.github.io/TNW_responsive_homepage/)
+* [Ricala's solution](https://github.com/Ricala/tnw-responsive-design) - [View in browser](https://ricala.github.io/tnw-responsive-design/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/responsive) - [View in browser](https://n00bg1rl.github.io/responsive/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/thenextweb.html)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/responsive_design) - [View in browser](https://cmacswan07.github.io/responsive_design/index.html)
 * [Javier Machin's solution](https://github.com/Javier-Machin/responsive-design) - [View in browser](https://javier-machin.github.io/responsive-design/)
@@ -61,10 +73,12 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Neil Cudden's solution](https://github.com/ncud4bloc/NextWeb/) - [View in browser](https://ncud4bloc.github.io/NextWeb/HTML.index.html)
 * [Matteo's solution](https://github.com/naufragio/thenextweb) - [View in browser](https://naufragio.github.io/thenextweb/)
 * [Aram Shelton's solution](https://github.com/tonalmasher/next-web/settings) [View in browser](https://tonalmasher.github.io/next-web/)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/responsive_design) [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/responsive_design/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/responsive_design) [View in browser](https://fcarlosdev.github.io/responsive_design/)
 * [aznafro's solution](https://github.com/aznafro/tnw) - [View in browser](https://aznafro.github.io/thenextweb/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/The-next-web) - [View in browser](https://areebaishtiaq.github.io/The-next-web/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/thenextwebmockup) - [View in browser](https://taylorjohannsen.github.io/thenextwebmockup/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

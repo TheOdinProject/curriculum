@@ -18,7 +18,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.railstutorial.org/book/beginning).
 3. If you haven't done either of these, you should go back to the [Web Development 101](/courses/web-development-101) course and at least do the [Web Development Frameworks section](/courses/web-development-101/#web-development-frameworks).
 
-4. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.railstutorial.org/book/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over github because bitbucket has free private repos. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public.  If you feel a little lost, it might not hurt to go back and re-read chapter 1.
+4. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.railstutorial.org/book/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above, you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over GitHub because bitbucket has free private repos. However, GitHub [recently announced](https://blog.github.com/2019-01-07-new-year-new-github/) that they now also offer free private repos. If you choose to make your repositories private, keep in mind that your solution will not be able to be viewed by others.  If you feel a little lost, it might not hurt to go back and re-read Chapter 1.
 </div>
 
 ### Student Solutions
@@ -26,7 +26,15 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Zeha's solution](https://github.com/JangkarBumi/odin-toy-app)
+* [Smetanca52's Solution](https://github.com/Smetanca52/toy_app) - [Live](https://serene-chamber-16862.herokuapp.com/)
+* [Noah Maizels' Solution](https://github.com/noahniuwa/rails-tutorial-toy-app) - [Live](https://ancient-river-40245.herokuapp.com/users)
+* [Simon Tharby's Solution](https://github.com/jinjagit/toy_app) - [Live](https://vast-spire-64894.herokuapp.com/)
+* [Stefano Merazzi's Solution](https://github.com/ste001/toy-app) - [Live](https://ancient-lake-46665.herokuapp.com/)
 * [Jason McKee's Solution](https://github.com/jttmckee/toy_app) - [Live](https://damp-fjord-77322.herokuapp.com)
 * [prw001's Solution](https://github.com/prw001/toy_app) - [Live](https://desolate-sands-86183.herokuapp.com/)
 * [Malaika's Solution](https://github.com/malaikaMI/toy_app/tree/master/toy_app)
@@ -129,6 +137,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Slaven's solution](https://github.com/Everdrought/toy-app) - [Heroku](https://fast-island-19763.herokuapp.com/)
 * [Tommy's solution](https://github.com/hoangtommy/toy-app)
 * [Alex's solution](https://github.com/alexcorremans/toy_app) - [Heroku](https://shielded-anchorage-68758.herokuapp.com/)
+* [Leila Alderman's solution](https://github.com/leila-alderman/toy_app) - [Heroku](https://shielded-mesa-98541.herokuapp.com/users)
+* [JamCry's Solution](https://github.com/jamcry/rails-toy-app) - [Heroku](https://jamcry-toy-app.herokuapp.com/)
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+</details>

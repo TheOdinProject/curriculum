@@ -45,7 +45,7 @@ You can easily run your own JavaScript code from files you create on your comput
 </head>
 <body>
   <script>
- 	// Your JavaScript goes here!
+    // Your JavaScript goes here!
     console.log("Hello, World!")
   </script>
 </body>
