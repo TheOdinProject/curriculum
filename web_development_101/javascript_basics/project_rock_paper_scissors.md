@@ -599,3 +599,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [AdesojiCodeMaster's Solution](https://github.com/adesojicodemaster/RockPaperScissorsGame/) - [View in Browser](https://adesojicodemaster.github.io/RockPaperScissorsGame/)
 - [Andre Roy's Solution](https://github.com/RoyNyaga/Rock-paper-scissors) - [View in Browser](https://RoyNyaga.github.io/Rock-paper-scissors/)
 - [Richie Tyler's Solution](https://github.com/richietyler/paper-rock-scissors)
+</details>
