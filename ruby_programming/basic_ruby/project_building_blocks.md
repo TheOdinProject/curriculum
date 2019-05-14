@@ -435,6 +435,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jean Merlet's Solution](https://github.com/jeanmerlet/ruby_misc/blob/master/building_blocks/caesar_cipher.rb)
 * [Bendee48's Solution](https://github.com/bendee48/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/63c56c72ac85672b2e3a3007c7e6c515)
+* [Brett McStotts' Solution](https://github.com/bretticus-mc/ruby_exercises/blob/master/caesar_cipher.rb)
 
 </details>
 
