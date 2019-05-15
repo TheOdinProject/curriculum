@@ -1,5 +1,5 @@
 ### Introduction
- 
+
 We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson.  When you get there don't forget to come back and add  your link!
 
 ### Assignment
@@ -40,10 +40,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Carlos Plaza's solution](https://github.com/carlos-plaza/top-rock-paper-scissors)
 - [Luky's solution](https://lcyne.github.io/top-rock-paper-scissors/)
 - [Dean's solution](https://github.com/JuicyMelon/RPS) - [View in Browser](https://juicymelon.github.io/RPS/)
 - [chrisjwelly's solution](https://github.com/chrisjwelly/rock-paper-scissors)
-- [rjardimfilho's solution](https://github.com/rjardimfilho/rock-paper-scissors.git) 
+- [rjardimfilho's solution](https://github.com/rjardimfilho/rock-paper-scissors.git)
 - [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/Rock-Paper-Scissors) - [View in Browser](https://kikupiku.github.io/Rock-Paper-Scissors/)
 - [Atul's Solution](https://github.com/tuleaux/rock-paper-scissors)
 - [Santiago Martinez's Solution](https://github.com/samart333/Rock-Paper-Scissors-DOM)
@@ -182,7 +183,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Albert's Console Solution](https://github.com/CWMo/RPS_text_version) - [View in Browser](https://cwmo.github.io/RPS_text_version/)
 - [Alptekin's solution](https://github.com/alpwoo/RockPaperScissorGame)
 - [Stephen's Solution](https://github.com/babahyaga/RockPaperScissors)
-- [Tobenski's Console Solution](https://github.com/tobenski/RockPaperScissor/)  
+- [Tobenski's Console Solution](https://github.com/tobenski/RockPaperScissor/)
 - [Anis' Console Solution](https://github.com/AnisBouhadida/RockPaperScissors) [View in Browser](https://anisbouhadida.github.io/RockPaperScissors/)
 - [Barry's Solution](https://github.com/barry505/rock-paper-scissors) - [View in Browser](https://barry505.github.io/rock-paper-scissors/)
 - [deegeebee's Console Solution](https://github.com/deegeebee/TOP_RockPaperScissors.git) - [UI Solution](https://github.com/deegeebee/TOP_RockPaperScissorsUI)
