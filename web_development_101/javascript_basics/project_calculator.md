@@ -289,5 +289,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Arthur Johnson's solution](https://github.com/MoonKingArthur/online-calculator) - [View in Browser](https://moonkingarthur.github.io/online-calculator/)
 - [Doug Heatter's solution](https://github.com/drheatter/Calculator) - [View in Browser](https://drheatter.github.io/Calculator/)
 - [Nyaga Roy's solution](https://github.com/RoyNyaga/Calculator-in-javascript) - [View in Browser](https://roynyaga.github.io/Calculator-in-javascript/)
+- [Eric Lee's solution](https://github.com/eelcire/calculator) - [View in Browser](https://eelcire.github.io/calculator/)
 - [Tristan Ross's solution](https://github.com/TristanRoss/WebCalculator) - [View in Browser](https://tristanross.github.io/WebCalculator/)
+- [JMG1995's solution](https://github.com/JMG1995/js-electron-calculator) - [View in Browser](https://jmg1995.github.io/js-electron-calculator/)
+- [Esau Guerra's solution](https://github.com/esaug/calculator) - [View in Browser](https://esaug.github.io/calculator/)
 </details>

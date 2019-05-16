@@ -24,7 +24,7 @@ In this project, you'll be building an exclusive clubhouse where your members ca
 
 This will be a chance for you to "roll your own" authentication system, very similar to how you did in the tutorial.  As usual, we will be focusing on data and function, not style.  If you want to add your own stylistic flourishes, consider it extra credit.
 
-It's easy to feel a bit overwhelmed by building your own authentication.  That's because there are several moving parts -- the session controller/form, hanging onto and refreshing the remember token when necessary, and using that token to check up on the current user.  It may help if you write out the steps as you understand them prior to getting started, so you know what you're shaky on and will need to pay attention to.
+It's easy to feel a bit overwhelmed when building your own authentication.  That's because there are several moving parts -- the session controller/form, hanging onto and refreshing the remember token when necessary, and using that token to check up on the current user.  It may help if you write out the steps as you understand them prior to getting started, so you know what you're shaky on and will need to pay attention to.
 
 ### Your Task
 
@@ -193,6 +193,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex's solution](https://github.com/alexcorremans/members-only)
 * [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/members-only) - [View in browser](https://guarded-escarpment-32564.herokuapp.com/posts)
 * [Leila Alderman's solution](https://github.com/leila-alderman/members-only) - [View in Browser](https://fierce-bayou-19850.herokuapp.com/)
+* [JamCry's solution](https://github.com/jamcry/members-only-app) - [View on Heroku](https://quiet-hamlet-54958.herokuapp.com/)
 
 </details>
 

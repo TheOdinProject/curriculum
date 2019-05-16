@@ -15,7 +15,7 @@ In this project, we're going to build a fully functional Rails application. The 
 
 #### Step 1: Configure Git and GitHub
 
-Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the cirriculum.
+Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the curriculum.
 
 GitHub is a service that allows you to upload your code using Git and to manage your code with a nice web interface. GitHub and Git are not the same thing or even the same company.
 
@@ -259,6 +259,8 @@ heroku keys:add
 ~~~
 
 Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
+
+The termial may read `Invalid credentials provided`. Just press any key and the Heroku website will open in your browser. Log in with the information you created your account with, and the terminal will reappear and accept your public SSH key.
 
 #### Step 4.4: Create a Heroku Application
 
