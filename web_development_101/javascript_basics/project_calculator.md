@@ -292,4 +292,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Eric Lee's solution](https://github.com/eelcire/calculator) - [View in Browser](https://eelcire.github.io/calculator/)
 - [Tristan Ross's solution](https://github.com/TristanRoss/WebCalculator) - [View in Browser](https://tristanross.github.io/WebCalculator/)
 - [JMG1995's solution](https://github.com/JMG1995/js-electron-calculator) - [View in Browser](https://jmg1995.github.io/js-electron-calculator/)
+- [Esau Guerra's solution](https://github.com/esaug/calculator) - [View in Browser](https://esaug.github.io/calculator/)
 </details>
