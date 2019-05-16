@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Simon Tharby's solution](https://github.com/jinjagit/restaurant) - [View in browser](https://jinjagit.github.io/restaurant/)
 - [ARaut9's solution](https://github.com/ARaut9/restaurant_page) - [View in Browser](https://araut9.github.io/restaurant_page/)
 - [Jason McKee's solution](https://github.com/jttmckee/odin-restaurant) - [View in Browser](https://jttmckee.github.io/odin-restaurant/)
 - [Ricala's solution](https://github.com/Ricala/restaurant-page) - [View in Browser](https://ricala.github.io/restaurant-page/)
