@@ -194,6 +194,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/members-only) - [View in browser](https://guarded-escarpment-32564.herokuapp.com/posts)
 * [Leila Alderman's solution](https://github.com/leila-alderman/members-only) - [View in Browser](https://fierce-bayou-19850.herokuapp.com/)
 * [JamCry's solution](https://github.com/jamcry/members-only-app) - [View on Heroku](https://quiet-hamlet-54958.herokuapp.com/)
+* [vanny96's solution](https://github.com/vanny96/clubhouse) - [View on Heroku](https://shrouded-brushlands-95445.herokuapp.com/)
 
 </details>
 
