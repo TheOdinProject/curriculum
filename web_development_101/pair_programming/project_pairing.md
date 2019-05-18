@@ -121,6 +121,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [LastCapricorn's solution](https://github.com/LastCapricorn/pairing) - [View in Browser](https://lastcapricorn.github.io/pairing/)
 * [alex-sir's solution](https://github.com/alex-sir/pomodoro) - [View in Browser](https://alex-sir.github.io/pomodoro/)
 * [Tronerta's solution](https://github.com/Tronerta/pomodoro_clock) - [View in Browser](https://tronerta.github.io/pomodoro_clock/)
+* [Bendee48's Solution](https://github.com/bendee48/pomodoro) - [View in Browser](https://bendee48.github.io/pomodoro/)
 
 </details>
 
