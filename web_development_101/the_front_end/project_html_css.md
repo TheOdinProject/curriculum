@@ -87,6 +87,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Lele's Solution (Easy)](https://github.com/Lele992/googlehome-clone) - [View in Browser](https://lele992.github.io/googlehome-clone/)
 * [Sierra's Solution (Easy)](https://github.com/sierra073/google-homepage) - [View in Browser](https://sierra073.github.io/google-homepage/)
 * [Sarp's Solution (Easy)](https://github.com/sarpisik/google-homepage) - [View in Browser](https://sarpisik.github.io/google-homepage/)
 * [Allan Glasier's Solution (Difficult)](https://github.com/allan-glasier/google-search-results) - [View in Browser](https://allan-glasier.github.io/google-search-results/)
