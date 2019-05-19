@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Allan Glasier's Console Solution](https://allan-glasier.github.io/rock-paper-scissors)
 - [Sarp's solution](https://github.com/sarpisik/rock-paper-scissors) - [View in Browser](https://sarpisik.github.io/rock-paper-scissors/)
 - [Carlos Plaza's solution](https://github.com/carlos-plaza/top-rock-paper-scissors)
 - [Luky's solution](https://lcyne.github.io/top-rock-paper-scissors/)
@@ -138,8 +139,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [joshhammer's Solution](https://joshhammer.github.io/rock-paper-scissors/)
 - [Eliezer's Console Solution](https://github.com/vzla0094/rock_paper_scissors/blob/master/practica.js)
 - [Jieselle's Console Solution](https://github.com/jieselle/Rock-Paper-Scissors-Game)
-- [Allan Glasier's Solution](http://allanglasier.com/rock-paper-scissors/) - [View in Browser](http://allanglasier.com/rock-paper-scissors/)
-- [Allan Glasier's Console Solution](https://github.com/allan-glasier/rock-paper-scissors/blob/master/index(original).html)
 - [Dale Thompson's Solution](https://github.com/Dale-Thompson/rock-paper-scissors) - [View in Browser](https://dale-thompson.github.io/rock-paper-scissors/)
 - [Nicolas Figueroa's Console Solution](https://github.com/nicolasfig/rock-paper-scissors) - [View in Browser](https://nicolasfig.github.io/rock-paper-scissors/)
 - [Joe Vilasi's Console Solution](https://github.com/Vilasi/rock-paper-scissors)
