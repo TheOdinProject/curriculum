@@ -103,6 +103,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex's solution](https://github.com/alexcorremans/chess)
 * [Leila Alderman's solution](https://github.com/leila-alderman/chess)
 * [vanny96's solution](https://github.com/vanny96/chess)
+* [Vitaly Osipov's solution](https://github.com/vi7ali/chess)
 
 </details>
 
