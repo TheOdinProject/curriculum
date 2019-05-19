@@ -2139,7 +2139,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tony Dehnke's solution(Easy)](https://github.com/tonydehnke/TOP-google-homepage) - [View in Browser](https://tonydehnke.github.io/TOP-google-homepage)
 * [loumstr's solution(Easy)](https://github.com/loumstr/google-homepage) - [View in Browser](https://loumstr.github.io/google-homepage/)
 * [progress2019 solution(Easy)](https://github.com/progress2023/google-homepage) - [View in Browser](https://progress2023.github.io/google-homepage/)
-
+* [Jocundity's solution(Easy)](https://github.com/Jocundity/google-homepage) - [View in Browser](https://jocundity.github.io/google-homepage/)
 
 </details>
 
