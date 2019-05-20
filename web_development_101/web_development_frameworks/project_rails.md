@@ -385,7 +385,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [antdricot's Solution](https://github.com/antdricot/odin-rails-project-blogger) - [View in Browser](https://protected-meadow-96769.herokuapp.com/)
 * [Doug Heatter's Solution](https://github.com/drheatter/rails_tutorial) - [View in Browser](https://obscure-peak-64307.herokuapp.com/)
 * [JFAldridge's Solution](https://github.com/JFAldridge/second_rails_blog) - [View in Browser](https://morning-ridge-71514.herokuapp.com/)
-
+* [Andre Roy's solution](https://github.com/RoyNyaga/Ruby_project) - [view on browser](https://boiling-garden-17682.herokuapp.com/)
 </details>
 
 ### Additional Resources
