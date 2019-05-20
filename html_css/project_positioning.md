@@ -23,7 +23,18 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_positioning.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [bcikota's solution](https://github.com/bcikota/the_NYT_article) - [View in browser](https://bcikota.github.io/the_NYT_article/)
+* [Ohlie's solution](https://github.com/lco1220/nyt_article) - [View in browser](https://lco1220.github.io/nyt_article/)
+* [Bola Buari's solution](https://github.com/bolah2009/nyt-clone) - [View in browser](https://bolah2009.github.io/nyt-clone/)
+* [Jason McKee's solution](https://github.com/jttmckee/nyt-pretend.git) - [View in browser](https://jttmckee.github.io/nyt-pretend/index.html)
+* [Ricala's solution](https://github.com/Ricala/NYT-article-clone) - [View in browser](https://ricala.github.io/NYT-article-clone/)
+* [Bojo's solution](https://github.com/BojoZahariev/NY_Times_article) - [View in browser](https://bojozahariev.github.io/NY_Times_article/)
+* [ARaut9's solution](https://github.com/ARaut9/nyt_Article_clone) - [View in browser](https://araut9.github.io/nyt_Article_clone/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/article) - [View in browser](https://n00bg1rl.github.io/article/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View In Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 * [Bojana Karakacev's solution](https://github.com/bojana12/positions-and-floats-css) - [View In Browser](https://bojana12.github.io/positions-and-floats-css/)
 * [Chris MacSwan's solution](https://github.com/cmacswan07/nyt-article) - [View In Browser](https://cmacswan07.github.io/nyt-article/index.html)
@@ -75,7 +86,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Husein's solution](https://github.com/hosghf/new-york-times-articl-html-css) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/new-york-times-articl-html-css/blob/master/index.html)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/nyt-article) - [View in browser](https://thiswillhavetodo.github.io/nyt-article/)
 * [DV's solution](https://github.com/dvislearning/odin-nyt-article) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-nyt-article/blob/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/nyt-project) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/nyt-project/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/nyt-project) - [View in browser](https://fcarlosdev.github.io/nyt-project/)
 * [Mike Smith's solution](https://github.com/MikeSS281986/New-York-Times-Snippet) - [View in browser](https://mikess281986.github.io/New-York-Times-Snippet/)
 * [Elena's solution](https://github.com/elena-sam/nytimes-clone) - [View in browser](elena-sam.github.io/nytimes-clone)
 * [Punnadittr's solution](https://github.com/punnadittr/nyt-article) - [View in browser](https://punnadittr.github.io/nyt-article/)
@@ -84,7 +95,11 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Taylor J's solution](https://github.com/taylorjohannsen/nytmockup) - [View in browser](https://taylorjohannsen.github.io/nytmockup/)
 * [Ghassan's solution](https://github.com/GT001/TOP-NYT-Article) - [View in browser](https://gt001.github.io/TOP-NYT-Article/)
 * [bchalman's solution](https://github.com/bchalman/NYT-positioning-practice) - [View in browser](https://bchalman.github.io/NYT-positioning-practice/)
+* [Doris's solution](https://github.com/dsmchen/nyt-article) - [view in browser](https://dsmchen.github.io/nyt-article/)
+* [Kelvin Liang's solution](https://github.com/kelvin8773/NYT-Clone-Page) - [View in browser](https://kelvin8773.github.io/NYT-Clone-Page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/NYT-clone-page) - [View in browser](https://amarcoscastelo.github.io/NYT-clone-page/)
 
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

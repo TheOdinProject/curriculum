@@ -55,7 +55,11 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/odin-facebook) | [Live](https://safe-sierra-89344.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Growlither) - [View in Browser](https://growlithe.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-facebook) - [View in Browser](https://vast-springs-17117.herokuapp.com/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Life-Invader) - [View in Browser](https://life-invader-fb.herokuapp.com/)
@@ -111,6 +115,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Punnadittr's solution (Bootstrap4, Ajax, Active Storage & Mobile Support)](https://github.com/punnadittr/festbrooke) - [View in browser](https://festbrooke.herokuapp.com)
 * [Agon's solution](https://github.com/AgonIdrizi/socialize) - [View in browser](https://socializeer.herokuapp.com/about)
 * [bchalman's solution](https://github.com/bchalman/odin-spacebook)
+* [Ryan's and Dipto's solution](https://github.com/dipto0321/facialbook) - [View in browser](https://facials.herokuapp.com/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

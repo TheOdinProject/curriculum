@@ -6,7 +6,7 @@ Like me, you've probably experienced real-life loops when you were given detenti
 
 If you find yourself needing to repeat an action more than once in your code, you probably need loops in your life.
 
-For all of the examples throughout this lesson, it will be beneficial for you to code along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples in this lesson, you should code along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain what `#updo` and `#downto` loops are and how to use them.
 
 ### Loop
-The `loop` loop (say what????) is Ruby's loop that just don't quit. It's an infinite loop that will keep going unless you specifically request for it to stop using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
+The `loop` loop (say what????) is Ruby's loop that just won't quit. It's an infinite loop that will keep going unless you specifically request for it to stop using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
 
 ~~~ruby
 i = 0
@@ -47,7 +47,7 @@ end
 
 This is an example of using a `while` loop with a count. Because you declare the condition that breaks the loop up front, the intention of your code is much clearer, making this code easier to read than our `loop` loop above.
 
-You can also use `while` loops to repeatedly ask a question of the user until they give an appropriate response:
+You can also use `while` loops to repeatedly ask a question of the user until they give the desired response:
 
 ~~~ruby
 while gets.chomp != "yes" do
@@ -55,7 +55,19 @@ while gets.chomp != "yes" do
 end
 ~~~
 
-This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? In real life, of course, you should really just take "no" for an answer the first time.
+This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Of course, in real life, you should really just take "no" for an answer the first time.
+
+### Ranges
+
+What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://ruby-doc.org/core-2.6.1/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive. 
+
+~~~ruby
+(1..5)      # inclusive range: 1, 2, 3, 4, 5
+(1...5)     # exclusive range: 1, 2, 3, 4
+
+# We can make ranges of letters, too!
+('a'..'d')  # a, b, c, d
+~~~
 
 ### For Loop
 
@@ -63,12 +75,11 @@ A `for` loop is used to iterate through a collection of information such as an a
 
 ~~~ruby
 for i in 0..5
-  puts "The number of zombies I'd take out before succumbing is #{i}."
+  puts "#{i} zombies incoming!."
 end
 ~~~
 
 That's really all there is to it.
-
 
 ### Times Loop
 
@@ -94,7 +105,7 @@ Remember, loops will start counting from a zero index unless specified otherwise
 
 The `until` loop is the opposite of the `while` loop. A `while` loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false. These two loops can therefore be used pretty much interchangeably. Ultimately, what your break condition is will determine which one is more readable.
 
-As much as possible, you should avoid negating your logical expressions using `!` (not). First, it can be difficult to actually notice the exclamation point, and second, using negation makes the logic more difficult to reason through and therefore your code more difficult to understand. These situations are where `until` shines.
+As much as possible, you should avoid negating your logical expressions using `!` (not). First, it can be difficult to actually notice the exclamation point in your code. Second, using negation makes the logic more difficult to reason through and therefore makes your code more difficult to understand. These situations are where `until` shines.
 
 We can re-write our `while` loop examples using `until`.
 
@@ -116,7 +127,7 @@ until gets.chomp == "yes" do
 end
 ~~~
 
-Much more readable! This code is guaranteed to get you a "yes".
+Much more readable! This code is guaranteed to get you a "yes". 
 
 ### Upto and Downto Loops
 

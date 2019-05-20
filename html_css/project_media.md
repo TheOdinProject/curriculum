@@ -31,7 +31,18 @@ Also, don't worry about making the comment form work properly... your goal is to
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [bcikota's solution](https://github.com/bcikota/youtube) - [View in browser](https://bcikota.github.io/youtube/)
+* [Bola Buari's solution](https://github.com/bolah2009/youtube-clone) - [View in browser](https://bolabuari.com/youtube-clone/)
+* [Ricala's solution](https://github.com/Ricala/mock-youtube-page) - [View in browser](https://ricala.github.io/mock-youtube-page/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/videopage) - [View in browser](https://n00bg1rl.github.io/videopage/)
+* [Jason McKee's solution](https://github.com/jttmckee/youtube) | [Live](https://jttmckee.github.io/youtube/)
+* [Ohlie's solutuin](https://github.com/lco1220/youtube_player_page) - [View in browser](https://lco1220.github.io/youtube_player_page/)
+* [ARaut9's solution](https://github.com/ARaut9/youtube_player_page) - [View in browser](https://araut9.github.io/youtube_player_page/)
+* [Bojo's solution](https://github.com/BojoZahariev/youtube_video) - [View in browser](https://bojozahariev.github.io/youtube_video/)
 * [Hammad Ahmed's solution](https://github.com/shammadahmed/youtube-video-page) - [View in browser](https://shammadahmed.github.io/youtube-video-page)
 * [Helari's solution](https://helaris.github.io/YouTube/)
 * [Smetanca52's solution](https://github.com/Smetanca52/) - [View in browser](https://smetanca52.github.io/youtubelike_page/)
@@ -102,7 +113,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [tholymap's solution](https://github.com/tholymap/youtube) - [View in browser](http://htmlpreview.github.io/?https://github.com/tholymap/youtube/blob/master/youtube.html)
 * [Swedina's solution](https://github.com/swedinay/UTub-) - [View in browser](https://swedinay.github.io/UTub-/)
 * [DV's solution](https://github.com/dvislearning/odin-yt-clone) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-yt-clone/blob/master/home.html)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/youtube_page) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/youtube_page/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/youtube_page) - [View in browser](https://fcarlosdev.github.io/youtube_page/)
 * [Mike Smith's solution](https://github.com/MikeSS281986/YouTube-Clone-Page) - [View in browser](https://mikess281986.github.io/YouTube-Clone-Page/)
 * [Elena's solution](https://github.com/elena-sam/youtube-replica-project) - [View in browser](https://elena-sam.github.io/youtube-replica-project/)
 * [Punnadittr's solution](https://github.com/punnadittr/u-tube) - [View in browser](https://punnadittr.github.io/u-tube/)
@@ -114,6 +125,10 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Gough's solution](https://github.com/Joel-Price/youtube-clone) - [View in browser](https://joel-price.github.io/youtube-clone/)
 * [Ghassan's solution](https://github.com/GT001/TOP-Youtube-Player) - [View in browser](https://gt001.github.io/TOP-Youtube-Player/)
 * [Valentino Valenti's solution](https://github.com/1ba1/youtube-video-player-page) - [View in Browser](https://1ba1.github.io/youtube-video-player-page/)
- 
+* [Doris's solution](https://github.com/dsmchen/youtube-video-player-page) - [View in browser](https://dsmchen.github.io/youtube-video-player-page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/youtube-video-player-page) - [View in browser](https://amarcoscastelo.github.io/youtube-video-player-page/)
+
+</details>
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
