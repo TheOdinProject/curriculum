@@ -63,6 +63,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [aznafro's solution](https://github.com/aznafro/newsweek/) - [View in browser](https://aznafro.github.io/newsweek/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Newsweek) - [View in browser](https://areebaishtiaq.github.io/Newsweek/)
 * [Kelvin Liang's solution](https://github.com/kelvin8773/clone-newsweek) - [View in browser](https://kelvin8773.github.io/clone-newsweek/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/newsweek-bootstrap) - [View in browser](https://amarcoscastelo.github.io/newsweek-bootstrap/)
 
 </details>
 

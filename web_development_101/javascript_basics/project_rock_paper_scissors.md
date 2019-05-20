@@ -644,4 +644,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Den Danilkov Solution](https://github.com/Hloppchik/Rock-Paper-Scissors_TOP) 
 - [Shafie´s Solution](https://github.com/shafier/RockPaperScissors) 
 - [Matt P's Solution](https://github.com/mrparker1991/Rckpprscssrs)
+- [Michael W's Solution](https://github.com/michaelw1421/paper-rock-scissors) - [View in Browser](https://michaelw1421.github.io/paper-rock-scissors/)
+- [Swagat's Solution](https://github.com/SonGoku281/Rock-Paper-Scissors)
 </details>
