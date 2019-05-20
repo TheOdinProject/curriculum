@@ -71,6 +71,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [bchalman's Solution](https://github.com/bchalman/sql-zoo/blob/master/sql_zoo_tutorials.sql)
 * [Slaven K's solution](https://github.com/Everdrought/sql-zoo-projects)
 * [Jake's solution](https://github.com/jakercates/SQL-Practice)
+* [Chris A's solution](https://github.com/SoftwareDevPro/SQLZoo)
 
 </details>
 
