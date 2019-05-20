@@ -5,7 +5,7 @@ For this mini-project, you'll deconstruct an existing web page and rebuild it.  
 Using the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [CodePen](http://codepen.io/pen/) or [jsfiddle.net](http://www.jsfiddle.net)).
 
 
-### Try These Before Starting
+#Try These Before Starting
 
 These skills will be helpful for you when you start building.  Either try them yourself or at least make sure you know how to do it:
 
