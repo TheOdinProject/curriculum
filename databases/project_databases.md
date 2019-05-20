@@ -15,6 +15,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Henry Naoto Ishiyama's Solution](https://github.com/TheDemonGuard/TheOdinProject/tree/master/Projects/Databases/SQLZoo)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/SQL_ZOO)
 * [LCDonadio's solution](https://github.com/LCDonadio/odin_project_sql)
 * [Learnsometing's solution](https://github.com/learnsometing/Odin_SQL_project)
