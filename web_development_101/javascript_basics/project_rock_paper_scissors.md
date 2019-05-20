@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Allan Glasier's Console Solution](https://allan-glasier.github.io/rock-paper-scissors)
+- [Lele's solution](https://github.com/Lele992/rock-paper-scissor)
 - [Sarp's solution](https://github.com/sarpisik/rock-paper-scissors) - [View in Browser](https://sarpisik.github.io/rock-paper-scissors/)
 - [Carlos Plaza's solution](https://github.com/carlos-plaza/top-rock-paper-scissors)
 - [Luky's solution](https://lcyne.github.io/top-rock-paper-scissors/)
