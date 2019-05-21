@@ -41,5 +41,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [aznafro's Solution](https://github.com/aznafro/goodmorning) - [View in browser](https://aznafro.github.io/goodmorning/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Weather-app) - [View in browser](https://areebaishtiaq.github.io/Weather-app/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/weather-app) - [View in browser](https://taylorjohannsen.github.io/weather-app/)
+* [Halkim's solution](https://github.com/halkim44/react-weather-app) - [View in browser](https://halkim44.github.io/react-weather-app/)
 
 </details>
