@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Joe Lee's Solution](https://github.com/JoeDravarol/pomodoro-timer) - [View in Browser](https://joedravarol.github.io/pomodoro-timer/)
 * [Loumarven's Solution](https://github.com/loumarven/pomodoro) - [View in Browser](https://loumarven.github.io/pomodoro/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/pomodoro) - [View in Browser](https://braxtonlemmon.github.io/pomodoro/)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/TOP-pomodoro) - [View in Browser](https://jaybur1.github.io/TOP-pomodoro/)
@@ -114,6 +115,13 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Franklyn Afeso's solution](https://github.com/afeso/pomodoro) - [View in Browser](https://afeso.github.io/pomodoro)
 * [keskiviikko's solution](https://github.com/keskiviikko/project-pomodoro) - [View in Browser](https://keskiviikko.github.io/project-pomodoro/)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/pomodoro-clock) - [View in Browser](https://sergyurch.github.io/pomodoro-clock/)
+* [LeonJMac's & Esme's solution](https://github.com/leonjmac/pomodoro-timer) - [View in Browser](https://leonjmac.github.io/pomodoro-timer/)
+* [Edehlol's solution](https://github.com/edehlol/pomodoro_timer) - [View in Browser](https://edehlol.github.io/pomodoro_timer/)
+* [antdricot's solution](https://github.com/antdricot/pomodoro) - [View in Browser](https://antdricot.github.io/pomodoro/)
+* [LastCapricorn's solution](https://github.com/LastCapricorn/pairing) - [View in Browser](https://lastcapricorn.github.io/pairing/)
+* [alex-sir's solution](https://github.com/alex-sir/pomodoro) - [View in Browser](https://alex-sir.github.io/pomodoro/)
+* [Tronerta's solution](https://github.com/Tronerta/pomodoro_clock) - [View in Browser](https://tronerta.github.io/pomodoro_clock/)
+* [Bendee48's Solution](https://github.com/bendee48/pomodoro) - [View in Browser](https://bendee48.github.io/pomodoro/)
 
 </details>
 

@@ -40,7 +40,9 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
+- [ARaut9's solution](https://github.com/ARaut9/book_library) - [View in Browser](https://araut9.github.io/book_library/)
+- [learnsometing's solution](https://github.com/learnsometing/JS-Library) - [View in Browser](https://learnsometing.github.io/JS-Library/)
+- [Jason McKee's solution](https://github.com/jttmckee/odin-library-js) - [View in Browser](https://jttmckee.github.io/odin-library-js/)
 - [Simon Tharby's solution](https://github.com/jinjagit/library) - [View in Browser](https://jinjagit.github.io/library/)
 - [dane's Solution](https://github.com/daneOmega/bookLibrary) - [View in Browser](https://daneomega.github.io/)
 - [djolesuseranem's Solution](https://github.com/djolesusername/libraryh) - [View in Browser](https://djolesusername.github.io/libraryh/)
@@ -89,7 +91,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Uy Bình's Solution](https://github.com/uybinh/odin-js-library) - [View in browser](https://uybinh.github.io/odin-js-library/)
 - [Punnadittr's Solution](https://github.com/punnadittr/library) - [View in browser](https://punnadittr.github.io/library/index.html/)
 - [Sava's Solution](https://github.com/SavaVuckovic/Library-App)
-- [Francisco Carlos's Solution](https://github.com/fcarlosdev/the_odin_project/tree/master/library) - [View in browser](https://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/library/index.html)
+- [Francisco Carlos's Solution](https://github.com/fcarlosdev/library) - [View in browser](https://fcarlosdev.github.io/library/)
 - [Kyouyatamax Solution](https://github.com/kyouyatamax/jsLibraryOdinProject) - [View in browser](https://kyouyatamax.github.io/jsLibraryOdinProject/)
 - [MPalhidai's Solution](https://github.com/MPalhidai/Library) - [View in browser](https://www.michaelpalhidai.com/Library/)
 - [aznafro's Solution](https://github.com/aznafro/library) - [View in browser](https://aznafro.github.io/library/)

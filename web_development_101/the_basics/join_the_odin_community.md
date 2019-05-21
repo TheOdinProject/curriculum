@@ -1,5 +1,5 @@
 ### Introduction
-Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online [chat community](https://discord.gg/5v6s6rs) and [forum](https://forum.theodinproject.com), where we can all grow together and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/) and follow us on Twitter [@TheOdinProject](https://twitter.com/TheOdinProject).
+Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online [chat community](https://discord.gg/hvqVr6d) and [forum](https://forum.theodinproject.com), where we can all grow together and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/) and follow us on Twitter [@TheOdinProject](https://twitter.com/TheOdinProject).
 
 ### Assignment
 

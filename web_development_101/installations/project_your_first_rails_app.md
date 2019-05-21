@@ -15,7 +15,7 @@ In this project, we're going to build a fully functional Rails application. The 
 
 #### Step 1: Configure Git and GitHub
 
-Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the cirriculum.
+Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the curriculum.
 
 GitHub is a service that allows you to upload your code using Git and to manage your code with a nice web interface. GitHub and Git are not the same thing or even the same company.
 
@@ -143,13 +143,6 @@ Now, we're going to tell Rails to generate some templates for us. This will get 
 rails generate scaffold car make:string model:string year:integer
 ~~~
 
-**(Feb 8, 2019) NOTE: If you get an error with the above command, follow these steps:**
-
- 1. Open your Gemfile in a text editor. If you use VSCode, you can do that by typing `code Gemfile`. Change the line that reads `gem ‘sqlite3’` to `gem 'sqlite3', '~> 1.3.13'`. Save the file.
- 2. In the terminal, run `bundle install`.
- 3. Now that SQLite is working properly, run `rails generate scaffold car make:string model:string year:integer` again.
-
-
 After generating the scaffolds, we need to migrate the database.
 
 ~~~bash
@@ -244,7 +237,7 @@ Go to the [Heroku website](https://www.heroku.com/) and create an account using 
 
 #### Step 4.2: Heroku CLI
 
-Activate your account from the email they sent you. Now, we'll install the Heroku command line so that we can interact with the Heroku service. We will use `curl` to download a script and run it to install the Heroku CLI.
+Activate your account from the email they sent you. Now, we'll install the Heroku command line so that we can interact with the Heroku service. We will use `curl` to download a script and run it to install the Heroku CLI. This script may ask for your `sudo` password, this is expected. Go ahead and type it in after running the command below.
 
 Run this command:
 
@@ -266,6 +259,8 @@ heroku keys:add
 ~~~
 
 Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
+
+The termial may read `Invalid credentials provided`. Just press any key and the Heroku website will open in your browser. Log in with the information you created your account with, and the terminal will reappear and accept your public SSH key.
 
 #### Step 4.4: Create a Heroku Application
 
@@ -300,14 +295,14 @@ Then, we'll use VSCode to modify the `Gemfile`. Open your app in VSCode by typin
 When VSCode opens, you should see a list of files on the left side of the screen. Click on `Gemfile` to open it in the editor. Then, delete the line that says,
 
 ~~~ruby
-gem 'sqlite3' , '~> 1.3.13'
+gem 'sqlite3'
 ~~~
 
 Replace the line you just deleted with the following:
 
 ~~~ruby
 group :development, :test do
- gem 'sqlite3' , '~> 1.3.13'
+ gem 'sqlite3'
 end
 
 group :production do
