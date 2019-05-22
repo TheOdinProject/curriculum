@@ -154,6 +154,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's solution](https://github.com/bchalman/private-events)
 * [Alex's solution](https://github.com/alexcorremans/private-events)
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/private-events) - [View in browser](https://odin-private-events-0.herokuapp.com/events)
+* [vanny96's Solution](https://github.com/vanny96/private-events) - [View in Browser](https://rocky-eyrie-58239.herokuapp.com/)
+
 
 </details>
 
