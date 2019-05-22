@@ -49,7 +49,10 @@ For example:
 
   <body>
     <h1>Open your console to test out your functions!</h1>
-    <!-- Note: Below is the important part where you are linking your code to the HTML page. Please replace filename.js appropriately -->
+    <!-- 
+    Below is the important part where you are linking your code to the HTML page. 
+    Please replace filename.js appropriately.
+    -->
     <script src="filename.js"></script>
   </body>
 </html>
