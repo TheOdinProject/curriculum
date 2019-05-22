@@ -41,13 +41,16 @@ Tip: To help you debug your code, it may be helpful to link your `.js` files to 
 For example:
 ```html
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <title>A page where I can test my code!</title>
-</head>
-<body>
-  <h1>Open your console to test out your functions!</h1>
-  <!-- Note: Below is the important part where you are linking your code to the HTML page -->
-  <script src="filename.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>A page where I can test my code!</title>
+  </head>
+
+  <body>
+    <h1>Open your console to test out your functions!</h1>
+    <!-- Note: Below is the important part where you are linking your code to the HTML page. Please replace filename.js appropriately -->
+    <script src="filename.js"></script>
+  </body>
+</html>
 ```
