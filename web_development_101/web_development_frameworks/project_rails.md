@@ -26,7 +26,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/rails-blogger) - [View in browser](https://nameless-falls-57483.herokuapp.com/)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/portfolio_Ruby_on_rails) - [View in browser](https://rafedraper-blog.herokuapp.com/) - I0-I5
 * [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/blogger) - [View in browser](https://lit-waters-16551.herokuapp.com)
 * [Billy's Solution](https://github.com/bcoffin9/civil-war) - [View in browser](https://glacial-island-56719.herokuapp.com)
@@ -388,6 +387,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Doug Heatter's Solution](https://github.com/drheatter/rails_tutorial) - [View in Browser](https://obscure-peak-64307.herokuapp.com/)
 * [JFAldridge's Solution](https://github.com/JFAldridge/second_rails_blog) - [View in Browser](https://morning-ridge-71514.herokuapp.com/)
 * [Andre Roy's solution](https://github.com/RoyNyaga/Ruby_project) - [view on browser](https://boiling-garden-17682.herokuapp.com/)
+* [Muminjon's Solution](https://github.com/MuminjonGuru/effective-blogger) - [view on browser](https://intense-beach-63601.herokuapp.com/) Completed to I5
 </details>
 
 ### Additional Resources
