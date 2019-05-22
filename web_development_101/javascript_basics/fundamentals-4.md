@@ -36,7 +36,7 @@ Complete the following exercises:
 - leapYears
 - tempConversion
 
-Tip: To help you debug your code, it may be helpful to link your `.js` files to a HTML page and test the functions you have defined on the console.
+Tip: To help you debug your code, it may be helpful to link your `.js` files to a HTML page and test the functions you have defined on the console. This also allows you to add `console.log`s for debugging purposes.
 
 For example:
 ```html
@@ -54,3 +54,4 @@ For example:
   </body>
 </html>
 ```
+Once you open your console, you may see a `ReferenceError: module is not defined`. Do not panic as this is caused by the `module.exports` required for Jasmine (the testing framework used in this set of exercises). You should still be able to call your functions normally.
