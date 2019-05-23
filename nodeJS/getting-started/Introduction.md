@@ -73,14 +73,16 @@ This snippet is from the very first lesson in a tutorial that you'll be followin
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-- link to stuff!
+
+- Check out [this free book](http://visionmedia.github.io/masteringnode/) - Mastering NodeJS
+- [Read this article](https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f) on storing and reading **environment variables** with `process.env`. Environment variables, or values that are based on the environment or computer where the Node process is currently running, can be used to store and read sensitive information.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 
 <details>
-<summary>a question</summary>
+<summary>What is Node and what can you use it for?</summary>
 <ul><ul>
-  <li>the answer to that question</li>
+  <li>Node.js is an open-source, cross-platform runtime JavaScript environment built to be run outside of the browser. It can be used for things like building web applications, building real-time chat applications, and network programs like web servers.</li>
 </ul></ul>
 </details>
