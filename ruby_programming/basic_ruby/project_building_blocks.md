@@ -1216,5 +1216,6 @@ Next, make sure your method can handle multiple words:
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/79800be59bd54ec764dba061278a7811)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/substrings/blob/master/substrings.rb)
 * [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/substrings.rb)
+* [Nyaga Roy's Solution](https://github.com/RoyNyaga/ruby_on_rails_building_block_odin_project/blob/master/Caesar_cipher.rb)
 
 </details>
