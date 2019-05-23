@@ -12,7 +12,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 2. Create a webpage with a 16x16 grid of square divs
    1. Create the divs using JavaScript... don't try making them by hand with copy and pasting in your html file!
    2. Best to put your grid squares inside another "container" div \(that one can go directly in your html\)
-   3. There are several different ways to make the divs appear as a grid \(verses just one on each line\) feel free to use any or play with each of them:
+   3. There are several different ways to make the divs appear as a grid \(versus just one on each line\) feel free to use any or play with each of them:
       1. float/clear
       2. inline-block
       3. flexbox
@@ -43,6 +43,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Jake Young solution](https://github.com/BraveYoungJake/Etch-e-Sketch) - [View in browser](https://braveyoungjake.github.io/Etch-e-Sketch/)
+* [John Sta Ana solution](https://github.com/JohnStaAna/etch-a-sketch) - [View in browser](https://johnstaana.github.io/etch-a-sketch/)
+* [Sarp's Object Oriented solution](https://github.com/sarpisik/etch-a-sketch) - [View in browser](https://sarpisik.github.io/etch-a-sketch/)
+* [Santiago Martinez's solution](https://github.com/samart333/Etch-a-Sketch-Project.git) - [View in browser](https://samart333.github.io/Etch-a-Sketch-Project/)
+* [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/Etch-a-Sketch) - [View in browser](https://kikupiku.github.io/Etch-a-Sketch/)
 * [Reece White's solution](https://github.com/brplatinum/etch-a-sketch) - [View in browser](https://brplatinum.github.io/etch-a-sketch/)
 * [Sherman's solution](https://github.com/shermansjliu/etch-a-sketch) - [View in browser](https://shermansjliu.github.io/etch-a-sketch/)
 * [Daniel Prince's solution](https://github.com/danielambroius/etch-a-sketch) - [View in browser](https://danielambroius.github.io/etch-a-sketch/)
@@ -403,4 +408,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Chris Villere's solution](https://github.com/cvillere/Etch_A_Sketch) - [View in Browser](https://cvillere.github.io/Etch_A_Sketch/)
 * [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/Etch-a-Sketch) - [View in Browser](https://sanyogitapandit.github.io/Etch-a-Sketch/)
 * [SameerLags' solution](https://github.com/SameerLags/Etch-a-Sketch) - [View in Browser](https://sameerlags.github.io/Etch-a-Sketch/)
+* [sconeil's solution](https://github.com/sconeil/etch-a-sketch) - [View in Browser](https://sconeil.github.io/etch-a-sketch/)
 </details>

@@ -44,6 +44,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sarp's Solution](https://github.com/sarpisik/calculator) - [View in Browser](https://sarpisik.github.io/calculator/)
+- [Elevin14's Solution](https://github.com/elevin14/calculator) - [View in Browser](https://elevin14.github.io/calculator/)
 - [Nicolás Nisoria's Solution](https://github.com/niconisoria/calculator) - [View in Browser](https://niconisoria.github.io/calculator)
 - [John Kripp's Solution](https://github.com/JohnKripp/TOP-Calculator) - [View in Browser](https://johnkripp.github.io/TOP-Calculator/)
 - [Sizigia's Solution](https://github.com/sizigia/javascript-calculator) - [View in Browser](https://sizigia.github.io/javascript-calculator/)
@@ -293,4 +295,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tristan Ross's solution](https://github.com/TristanRoss/WebCalculator) - [View in Browser](https://tristanross.github.io/WebCalculator/)
 - [JMG1995's solution](https://github.com/JMG1995/js-electron-calculator) - [View in Browser](https://jmg1995.github.io/js-electron-calculator/)
 - [Esau Guerra's solution](https://github.com/esaug/calculator) - [View in Browser](https://esaug.github.io/calculator/)
+- [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/Calculator) - [View in Browser](https://sanyogitapandit.github.io/Calculator/)
 </details>
