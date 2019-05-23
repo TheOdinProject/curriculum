@@ -36,25 +36,13 @@ Complete the following exercises:
 - leapYears
 - tempConversion
 
-Tip: To help you debug your code, it may be helpful to link your `.js` files to a HTML page and test the functions you have defined on the console. This also allows you to add `console.log`s for debugging purposes.
+Tip: To help you debug your code, it may be helpful to use an online interpreter such as [repl.it](https://repl.it). This allows you to add `console.log`s for debugging purposes as well as testing your functions with your own input values.
 
-For example:
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>A page where I can test my code!</title>
-  </head>
+Follow these steps to set up the online environment:
 
-  <body>
-    <h1>Open your console to test out your functions!</h1>
-    <!-- 
-    Below is the important part where you are linking your code to the HTML page. 
-    Please replace filename.js appropriately.
-    -->
-    <script src="filename.js"></script>
-  </body>
-</html>
-```
-Once you open your console, you may see a `ReferenceError: module is not defined`. Do not panic as this is caused by the `module.exports` required for Jasmine (the testing framework used in this set of exercises). You should still be able to call your functions normally.
+1. Login or sign up if you have not done so already.
+2. Click on 'new repl'.
+3. Select 'Nodejs' as the programming language. (You can choose JavaScript as well but it automatically redirects the repl to a Nodejs one. You can read more about this [here](https://repl.it/talk/announcements/Recent-Changes-to-JavaScript-greater-Nodejs/10045)).
+4. Create repl and good luck!
+
+If you are working offline, an alternative way is to link your `.js` files to a HTML page via the `src` attribute of the `<script>` tag. You can then test the functions you have defined on the developer tools' console.
