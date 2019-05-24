@@ -296,4 +296,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [JMG1995's solution](https://github.com/JMG1995/js-electron-calculator) - [View in Browser](https://jmg1995.github.io/js-electron-calculator/)
 - [Esau Guerra's solution](https://github.com/esaug/calculator) - [View in Browser](https://esaug.github.io/calculator/)
 - [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/Calculator) - [View in Browser](https://sanyogitapandit.github.io/Calculator/)
+- [Adriel Bruno's solution](https://github.com/AdrielTrigger/calculator-project) - [View in Browser](https://adrieltrigger.github.io/calculator-project/)
 </details>
