@@ -142,6 +142,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [View in Browser](https://redux-flights.herokuapp.com/)
 * [bchalman's Solution](https://github.com/bchalman/odin-flight-booker)
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/odin-flight-booker) - [View in Browser](https://intense-sea-16053.herokuapp.com/)
+* [vanny96's Solution](https://github.com/vanny96/flight-booker) - [View in Browser](https://fast-savannah-97084.herokuapp.com/)
 
 </details>
 
