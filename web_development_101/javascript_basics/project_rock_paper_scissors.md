@@ -653,4 +653,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Solucion de Alvaro](https://mendozalvaritosalas.github.io/piedrapapeltijera/)
 - [MagnusHJensens Solution](https://github.com/MagnusHJensen/rock_paper_scissors)
 - [Robert Dunbar's Solution](https://github.com/RobertDunbar/rock-paper-scissors) - [View in Browser](https://robertdunbar.github.io/rock-paper-scissors/)
+- [Konrad Zagozda's Solution](https://github.com/konradzagozda/rock-paper-scissors) - [View in Browser](https://konradzagozda.github.io/rock-paper-scissors/)
 </details>
