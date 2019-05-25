@@ -345,7 +345,7 @@ First, we'll check which files have been updated by running
 git status
 ~~~
 
-the output should look like the exmaple below
+the output should look like the example below
 
 ~~~bash
 $ git status
