@@ -87,6 +87,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Sampajanno's Solution (Easy)](https://github.com/Sampajanno/google-homepage) - [View in Browser](https://sampajanno.github.io/google-homepage/)
 * [williamkarras' Solution (Easy)](https://github.com/Williamkarras/google-homepage) - [View in Browser](https://williamkarras.github.io/google-homepage/)
 * [Lele's Solution (Easy)](https://github.com/Lele992/googlehome-clone) - [View in Browser](https://lele992.github.io/googlehome-clone/)
 * [Sierra's Solution (Easy)](https://github.com/sierra073/google-homepage) - [View in Browser](https://sierra073.github.io/google-homepage/)
@@ -2143,6 +2144,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jocundity's solution(Easy)](https://github.com/Jocundity/google-homepage) - [View in Browser](https://jocundity.github.io/google-homepage/)
 * [redbone1983's solution(Easy)](https://github.com/redbone1983/google-homepage) - [View in Browser](https://redbone1983.github.io/google-homepage/)
 * [kachi-awaji's solution (Easy)](https://github.com/Kachi-Awaji/google-homepage/)- [View in Browser](https://kachi-awaji.github.io/google-homepage/)
+* [cxxiii's solution(Easy)](https://github.com/cxxiii/google-homepage) - [View in Browser](https://cxxiii.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

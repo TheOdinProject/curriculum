@@ -122,6 +122,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [alex-sir's solution](https://github.com/alex-sir/pomodoro) - [View in Browser](https://alex-sir.github.io/pomodoro/)
 * [Tronerta's solution](https://github.com/Tronerta/pomodoro_clock) - [View in Browser](https://tronerta.github.io/pomodoro_clock/)
 * [Bendee48's Solution](https://github.com/bendee48/pomodoro) - [View in Browser](https://bendee48.github.io/pomodoro/)
+* [Muminjon's solution](https://github.com/MuminjonGuru/pomodoro-time) - [View in Browser](https://codepen.io/MuminjonGuru/pen/yWjOBw)
 
 </details>
 

@@ -268,6 +268,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/tic_tac_toe_game/blob/master/tic_tac_toe.rb)
 * [HerrCaesar's solution (with AI)](https://github.com/HerrCaesar/logic_games) - [play in repl.it](https://repl.it/@HerrCaesar/logicgames)
 * [Alex Krewson's solution](https://github.com/alexkrewson/oop/blob/master/tic_tac_toe.rb)
+* [Bendee48's Solution](https://github.com/bendee48/tictactoe) - [Play on Repl.it](https://repl.it/@bendee48/TicTacToe)
 
 </details>
 
