@@ -409,4 +409,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/Etch-a-Sketch) - [View in Browser](https://sanyogitapandit.github.io/Etch-a-Sketch/)
 * [SameerLags' solution](https://github.com/SameerLags/Etch-a-Sketch) - [View in Browser](https://sameerlags.github.io/Etch-a-Sketch/)
 * [sconeil's solution](https://github.com/sconeil/etch-a-sketch) - [View in Browser](https://sconeil.github.io/etch-a-sketch/)
+* [Konrad Zagozda's Solution](https://github.com/konradzagozda/etch-a-sketch-2) - [View in Browser](https://konradzagozda.github.io/etch-a-sketch-2/)
 </details>
