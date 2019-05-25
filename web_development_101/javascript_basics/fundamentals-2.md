@@ -43,9 +43,9 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 
 ### Practice
 
-To give you a good bit of practice, we have created an online classroom on repl.it.  In general we believe that it's best to work on programming on your _own_ computer rather than in an online environment but we'll get to that soon enough.
+To give you a good bit of practice, we have created an online classroom on repl.it. In general, we believe that it's best to practice programming on your _own_ computer rather than in an online environment, but we'll get to that soon enough.
 
-- The classroom and lessons can be found [here](https://repl.it/community/classrooms/34425). Do the lessons in order.  Please sign up or login to repl.it to do the course, you can submit your answers to check them and see 'model solutions' on a couple of the lessons.
+- The classroom and lessons can be found [here](https://repl.it/community/classrooms/34425). Be sure to do the lessons in order. Although it's not requied to complete the lessons, you can optionally sign up or login to repl.it for a slightly better user experience. You can submit your answers to check them, and a couple of the lessons include 'model solutions'.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
