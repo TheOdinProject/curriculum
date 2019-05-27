@@ -2148,7 +2148,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Barrie Lake's solution (Easy)](https://github.com/barrielake/google-homepage) - [View in Browser](https://barrielake.github.io/google-homepage/)
 * [Teffany English’s solution (Easy)](https://github.com/teffyeng/google-homepage) [View in Browser](https://teffyeng.github.io/google-homepage/)
 * [Brampijper's solution (Hard)](https://github.com/brampijper/google-homepage/) [View in Browser](https://brampijper.github.io/google-homepage/)
-
 </details>
 
 ### Additional Resources
