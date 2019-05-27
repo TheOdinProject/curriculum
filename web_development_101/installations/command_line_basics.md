@@ -20,12 +20,18 @@ By the end of this lesson, you should be able to do the following:
 - Use the command line to rename or destroy a directory and a file.
 
 ### Assignment
-Note: Many of these resources assume you're using a Mac or Linux environment. You can either skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [AWS Cloud9](https://aws.amazon.com/cloud9/), which provides a terminal window that you can use to practice.
+**Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot, a virtual machine, or Windows Substem for Linux. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/web-development-101/lessons/prerequisites).
 
-<div class="lesson-content__panel" markdown="1">
-  1. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
-  2. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
-</div>
+
+1. Open a terminal on your computer. On Linux: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard. On Mac: open your applications folder and find "Terminal". Take it for a test run! Make sure your terminal is open, type the command below, and press enter:
+    ```bash 
+    whoami
+    ```
+    It returns your username. Cool!
+
+2. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
+3. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
+
 
 #### Use the Command Line Like a Pro
 There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. If they are forced to do something over and over again, odds are good that they'll figure out a way to automate it instead. The good news is that you get benefit from the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way). 
