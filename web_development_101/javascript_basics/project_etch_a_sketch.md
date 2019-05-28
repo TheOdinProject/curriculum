@@ -412,4 +412,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [sconeil's solution](https://github.com/sconeil/etch-a-sketch) - [View in Browser](https://sconeil.github.io/etch-a-sketch/)
 * [Konrad Zagozda's Solution](https://github.com/konradzagozda/etch-a-sketch-2) - [View in Browser](https://konradzagozda.github.io/etch-a-sketch-2/)
 * [Rebeccode's Solution](https://github.com/rebeccode/etch-a-sketch) - [View in Browser](https://rebeccode.github.io/etch-a-sketch/)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/etch-a-sketch) - [View in Browser](https://robertdunbar.github.io/etch-a-sketch/)
 </details>
