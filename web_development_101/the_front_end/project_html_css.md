@@ -87,7 +87,6 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Jeffreyvdk's Solution (Easy)](https://github.com/Jeffreyvdk/google-homepage) - [View in Browser](https://jeffreyvdk.github.io/google-homepage/)
 * [Natkarr's Solutions (Easy)](https://github.com/natkarr/google-homepage)
 * [Sampajanno's Solution (Easy)](https://github.com/Sampajanno/google-homepage) - [View in Browser](https://sampajanno.github.io/google-homepage/)
 * [williamkarras' Solution (Easy)](https://github.com/Williamkarras/google-homepage) - [View in Browser](https://williamkarras.github.io/google-homepage/)
@@ -2150,6 +2149,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Barrie Lake's solution (Easy)](https://github.com/barrielake/google-homepage) - [View in Browser](https://barrielake.github.io/google-homepage/)
 * [Teffany English’s solution (Easy)](https://github.com/teffyeng/google-homepage) - [View in Browser](https://teffyeng.github.io/google-homepage/)
 * [Brampijper's solution (Hard)](https://github.com/brampijper/google-homepage/) - [View in Browser](https://brampijper.github.io/google-homepage/)
+* [Hstrodtman's solution (Easy)](https://github.com/hstrodtman/google-homepage) - [View in Browser](https://hstrodtman.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
