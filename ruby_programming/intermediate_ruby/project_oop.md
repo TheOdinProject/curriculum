@@ -270,6 +270,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex Krewson's solution](https://github.com/alexkrewson/oop/blob/master/tic_tac_toe.rb)
 * [Bendee48's Solution](https://github.com/bendee48/tictactoe) - [Play on Repl.it](https://repl.it/@bendee48/TicTacToe)
 * [Reynard van den Berg's Solution](https://github.com/Rey810/OOP/blob/master/TicTacToe.rb)
+* [keskiviikko's Solution](https://github.com/keskiviikko/project_tictactoe)
 
 </details>
 
