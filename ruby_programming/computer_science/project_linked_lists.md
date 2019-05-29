@@ -183,5 +183,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/ruby-practice/tree/master/linked-list)
 * [vanny96's Solution](https://github.com/vanny96/linked_lists)
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/linked_lists.rb)
-
+* [Wesley Wang's Solution (with extra credit)](https://github.com/wesleymellon/linked-list-structure)
 </details>

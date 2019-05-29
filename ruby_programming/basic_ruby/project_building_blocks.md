@@ -437,6 +437,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/63c56c72ac85672b2e3a3007c7e6c515)
 * [Brett McStotts' Solution](https://github.com/bretticus-mc/ruby_exercises/blob/master/caesar_cipher.rb)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/caesar_cipher/blob/master/caesar.rb)
+* [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/caesar_cipher.rb)
 
 </details>
 
@@ -464,6 +465,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Emmanuel Oni's solution](https://github.com/emmaoni/the-odin-pj/blob/master/ruby/basic_building_blocks/stockpicker.rb)
 * [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/stock_picker.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/stock_picker.rb)
 * [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_building_blocks/stock_picker.rb)
@@ -823,6 +825,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee48's Solution](https://github.com/bendee48/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/f9c1b1d73f3d148715f014f131d711ec)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/stock_picker/blob/master/stock_picker.rb)
+* [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/stock_picker.rb)
 
 </details>
 
@@ -858,6 +861,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Emmanuel Oni's solution](https://github.com/emmaoni/the-odin-pj/blob/master/ruby/basic_building_blocks/substrings.rb)
 * [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/substrings.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/substrings.rb)
 * [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_building_blocks/substrings.rb)
@@ -1211,5 +1215,7 @@ Next, make sure your method can handle multiple words:
 * [Bendee48's Solution](https://github.com/bendee48/ruby_building_blocks/blob/master/substrings.rb)
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/79800be59bd54ec764dba061278a7811)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/substrings/blob/master/substrings.rb)
+* [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/substrings.rb)
+* [Nyaga Roy's Solution](https://github.com/RoyNyaga/ruby_on_rails_building_block_odin_project)
 
 </details>

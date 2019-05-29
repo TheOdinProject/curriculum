@@ -11,6 +11,14 @@ Before continuing, let's review a few best practices to keep in mind:
 
 In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/hvqVr6d).
 
+**Reminder**: In this lesson you'll see shaded boxes that contain text like the one below.
+
+~~~bash
+whoami
+~~~
+
+Those are terminal commands and you'll need to enter them on the terminal in your operating system. Forgot how to open your terminal? Try googling "how to open terminal in [**your operating system**]".
+
 ### Your First Rails App
 
 #### Step 1: Configure Git and GitHub
@@ -23,7 +31,7 @@ GitHub is a service that allows you to upload your code using Git and to manage 
 
 For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
-The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks)!
+The commands below will configure Git. Be sure to open your terminal and enter your own information inside the quotes (but include the quotation marks)!
 
 ~~~bash
 git config --global user.name "Your Name"
@@ -345,7 +353,7 @@ First, we'll check which files have been updated by running
 git status
 ~~~
 
-the output should look like the exmaple below
+The output should look similar to the example below:
 
 ~~~bash
 $ git status
