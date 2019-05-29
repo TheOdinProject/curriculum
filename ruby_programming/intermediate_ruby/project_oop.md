@@ -496,7 +496,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Wesley Wang's Solution](https://github.com/wesleymellon/oop-project/tree/master/mastermind)
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/mastermind_game) - [Live Version](https://repl.it/@SergejJurchenko/mastermind)
 * [Alex Krewson's solution](https://github.com/alexkrewson/oop/blob/master/mastermind.rb)
-# [Reynard van den Berg's solution] (https://github.com/Rey810/OOP/blob/master/mastermind.rb)
+* [Reynard van den Berg's solution](https://github.com/Rey810/OOP/blob/master/mastermind.rb)
 </details>
 
 ### Additional Resources
