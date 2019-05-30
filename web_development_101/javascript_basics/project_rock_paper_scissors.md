@@ -660,4 +660,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Konrad Zagozda's Solution](https://github.com/konradzagozda/rock-paper-scissors) - [View in Browser](https://konradzagozda.github.io/rock-paper-scissors/)
 - [Marcus Calgar's Solution](https://github.com/MarcusCalgar/rock-paper-scissors) - [View in Browser](https://marcuscalgar.github.io/rock-paper-scissors-UI/)
 - [Kachi-Awaji's solution](https://github.com/Kachi-Awaji/rock-paper-scissors)
+- [Agnes-Mwaniki's-Solution] (https://github.com/AgnesNM/rock-paper-scissors) - [View-in-Browser] (https://agnesnm.github.io/rock-paper-scissors/)
 </details>
