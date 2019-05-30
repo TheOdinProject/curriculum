@@ -2145,11 +2145,13 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [progress2019 solution(Easy)](https://github.com/progress2023/google-homepage) - [View in Browser](https://progress2023.github.io/google-homepage/)
 * [Jocundity's solution(Easy)](https://github.com/Jocundity/google-homepage) - [View in Browser](https://jocundity.github.io/google-homepage/)
 * [redbone1983's solution(Easy)](https://github.com/redbone1983/google-homepage) - [View in Browser](https://redbone1983.github.io/google-homepage/)
+* [Rayshey's Solution (Easy)](https://github.com/Rayshey/google-homepage)
 * [kachi-awaji's solution (Easy)](https://github.com/Kachi-Awaji/google-homepage/)- [View in Browser](https://kachi-awaji.github.io/google-homepage/)
 * [cxxiii's solution(Easy)](https://github.com/cxxiii/google-homepage) - [View in Browser](https://cxxiii.github.io/google-homepage/)
 * [Barrie Lake's solution (Easy)](https://github.com/barrielake/google-homepage) - [View in Browser](https://barrielake.github.io/google-homepage/)
 * [Teffany English’s solution (Easy)](https://github.com/teffyeng/google-homepage) - [View in Browser](https://teffyeng.github.io/google-homepage/)
 * [Brampijper's solution (Hard)](https://github.com/brampijper/google-homepage/) - [View in Browser](https://brampijper.github.io/google-homepage/)
+* [ddmorgan92's solution (Easy)](https://github.com/ddmorgan92/google-homepage) - [View in Browser](https://ddmorgan92.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
