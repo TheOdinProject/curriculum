@@ -52,7 +52,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/Etch-a-Sketch) - [View in browser](https://kikupiku.github.io/Etch-a-Sketch/)
 * [Reece White's solution](https://github.com/brplatinum/etch-a-sketch) - [View in browser](https://brplatinum.github.io/etch-a-sketch/)
 * [Sherman's solution](https://github.com/shermansjliu/etch-a-sketch) - [View in browser](https://shermansjliu.github.io/etch-a-sketch/)
-* [Daniel Prince's solution](https://github.com/danielambroius/etch-a-sketch) - [View in browser](https://danielambroius.github.io/etch-a-sketch/)
+* [Daniel Prince's solution](https://github.com/danielambrosius/etch-a-sketch) - [View in browser](https://danielambrosius.github.io/etch-a-sketch/)
 * [Elevin14's solution](https://github.com/elevin14/etch-a-sketch) - [View in browser](https://elevin14.github.io/etch-a-sketch/)
 * [ab510's Solution](https://github.com/ab510/etch-a-sketch) - [View in browser](https://ab510.github.io/etch-a-sketch/)
 * [Joe Lee's Solution](https://github.com/JoeDravarol/Etch-A-Sketch) - [View in browser](https://joedravarol.github.io/Etch-A-Sketch/)
@@ -414,4 +414,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Konrad Zagozda's Solution](https://github.com/konradzagozda/etch-a-sketch-2) - [View in Browser](https://konradzagozda.github.io/etch-a-sketch-2/)
 * [Rebeccode's Solution](https://github.com/rebeccode/etch-a-sketch) - [View in Browser](https://rebeccode.github.io/etch-a-sketch/)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/etch-a-sketch) - [View in Browser](https://robertdunbar.github.io/etch-a-sketch/)
+* [Matt P's Solution](https://github.com/mrparker1991/EtchASketch) - [View in Browser](https://mrparker1991.github.io/EtchASketch/)
 </details>
