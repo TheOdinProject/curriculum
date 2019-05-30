@@ -2155,6 +2155,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Brampijper's solution (Hard)](https://github.com/brampijper/google-homepage/) - [View in Browser](https://brampijper.github.io/google-homepage/)
 * [ddmorgan92's solution (Easy)](https://github.com/ddmorgan92/google-homepage) - [View in Browser](https://ddmorgan92.github.io/google-homepage/)
 * [Hstrodtman's solution (Easy)](https://github.com/hstrodtman/google-homepage) - [View in Browser](https://hstrodtman.github.io/google-homepage/)
+* [Vincent Bonaobra’s solution (Easy)](https://github.com/vincheee/google_homepage) - [View in Browser](https://vincheee.github.io/google_homepage/)
+* [Vincent Bonaobra's solution (Hard)](https://github.com/vincheee/google-search-page/) - [View in Browser](https://vincheee.github.io/google-search-page/)
 </details>
 
 ### Additional Resources
