@@ -665,3 +665,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kachi-Awaji's solution](https://github.com/Kachi-Awaji/rock-paper-scissors)
 - [Agnes-Mwaniki's-Solution] (https://github.com/AgnesNM/rock-paper-scissors) - [View-in-Browser] (https://agnesnm.github.io/rock-paper-scissors/)
 </details>
+- [Shourov's solution](https://github.com/Shourov1/Rock-Paper-Scissors) - [View in Browser](https://shourov1.github.io/Rock-Paper-Scissors/)
