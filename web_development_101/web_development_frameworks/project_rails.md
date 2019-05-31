@@ -26,6 +26,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sizigia's Solution](https://github.com/sizigia/blogger) - [View in browser](https://top-blogger.herokuapp.com/)
+* [Neill Hennings's Solution](https://github.com/Rabidza/blogger) - [View in browser](https://safe-caverns-93859.herokuapp.com/)
+* [Sarp's Solution](https://github.com/sarpisik/rails-blogger) - [View in browser](https://mighty-fjord-33192.herokuapp.com/articles)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/rails-blogger) - [View in browser](https://nameless-falls-57483.herokuapp.com/)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/portfolio_Ruby_on_rails) - [View in browser](https://rafedraper-blog.herokuapp.com/) - I0-I5
 * [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/blogger) - [View in browser](https://lit-waters-16551.herokuapp.com)
@@ -389,6 +392,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [JFAldridge's Solution](https://github.com/JFAldridge/second_rails_blog) - [View in Browser](https://morning-ridge-71514.herokuapp.com/)
 * [Andre Roy's solution](https://github.com/RoyNyaga/Ruby_project) - [View in Browser](https://boiling-garden-17682.herokuapp.com/)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/effective-blogger) - [View in Browser](https://intense-beach-63601.herokuapp.com/) Completed to I5
+* [Tronerta's Solution](https://github.com/Tronerta/blogger) - [View in Browser](https://glacial-oasis-31653.herokuapp.com/) Completed to I6 + Extras
+* [DensenKG's solution](https://github.com/DensenKG/ruby-blog-tutorial) - [View in Browser](https://glacial-cove-81460.herokuapp.com/)
+* [Tristan Ross's solution](https://github.com/TristanRoss/RailsTutorial) - [View in Browser](https://protected-bayou-40626.herokuapp.com/)
 </details>
 
 ### Additional Resources

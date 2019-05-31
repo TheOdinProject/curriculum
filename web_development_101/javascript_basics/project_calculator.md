@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Alain Suarez's Solution](https://gitlab.com/asuar/calculator) - [View in Browser](https://asuar.gitlab.io/calculator/)
 - [Sarp's Solution](https://github.com/sarpisik/calculator) - [View in Browser](https://sarpisik.github.io/calculator/)
 - [Elevin14's Solution](https://github.com/elevin14/calculator) - [View in Browser](https://elevin14.github.io/calculator/)
 - [Nicolás Nisoria's Solution](https://github.com/niconisoria/calculator) - [View in Browser](https://niconisoria.github.io/calculator)
@@ -53,8 +54,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dylan's Solution](https://github.com/proto-dylan/Calculator) - [View in Browser](https://proto-dylan.github.io/Calculator/)
 - [todoroff's Solution](https://github.com/todoroff/calculator) - [View in Browser](https://todoroff.github.io/calculator/)
 - [Niccolas' Solution](https://github.com/niccomaganeli/calculator) - [View in Browser](https://niccomaganeli.github.io/calculator/)
-- [Iacob Sorin Solution](https://github.com/Iacobssorin/calculator_js) - [View in Browser](https://iacobssorin.github.io/calculator_js/) 
-- [Daniel Ryu's Solution](https://github.com/dryu99/Calculator) - [View in Browser](https://dryu99.github.io/Calculator/) 
+- [Iacob Sorin Solution](https://github.com/Iacobssorin/calculator_js) - [View in Browser](https://iacobssorin.github.io/calculator_js/)
+- [Daniel Ryu's Solution](https://github.com/dryu99/Calculator) - [View in Browser](https://dryu99.github.io/Calculator/)
 - [John Paul's Solution](https://github.com/Omulosi/calculator) - [View in Browser](https://omulosi.github.io/calculator/)
 - [Wayland's Solution](https://github.com/chinwayland/calculator) - [View in Browser](https://chinwayland.github.io/calculator/)
 - [Christine Gierer's Solution](https://github.com/beansprout/calculator) - [View in Browser](https://beansprout.github.io/calculator/)
@@ -296,4 +297,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [JMG1995's solution](https://github.com/JMG1995/js-electron-calculator) - [View in Browser](https://jmg1995.github.io/js-electron-calculator/)
 - [Esau Guerra's solution](https://github.com/esaug/calculator) - [View in Browser](https://esaug.github.io/calculator/)
 - [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/Calculator) - [View in Browser](https://sanyogitapandit.github.io/Calculator/)
+- [DensenKG's solution](https://github.com/DensenKG/calculator) - [View in Browser](https://densenkg.github.io/calculator/)
+- [Adriel Bruno's solution](https://github.com/AdrielTrigger/calculator-project) - [View in Browser](https://adrieltrigger.github.io/calculator-project/)
 </details>

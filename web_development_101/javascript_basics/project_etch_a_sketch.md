@@ -43,6 +43,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Allan Glasier's Solution](https://github.com/allan-glasier/etch-a-sketch) - [View in Browser](https://allan-glasier.github.io/etch-a-sketch/)
+* [Luky's solution](https://github.com/lcyne/top-etchpad) - [View in browser](https://lcyne.github.io/top-etchpad/)
+* [Sviperm's solution](https://github.com/sviperm/etch-a-sketch) - [View in browser](https://sviperm.github.io/etch-a-sketch/)
 * [Jake Young solution](https://github.com/BraveYoungJake/Etch-e-Sketch) - [View in browser](https://braveyoungjake.github.io/Etch-e-Sketch/)
 * [John Sta Ana solution](https://github.com/JohnStaAna/etch-a-sketch) - [View in browser](https://johnstaana.github.io/etch-a-sketch/)
 * [Sarp's Object Oriented solution](https://github.com/sarpisik/etch-a-sketch) - [View in browser](https://sarpisik.github.io/etch-a-sketch/)
@@ -50,7 +53,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/Etch-a-Sketch) - [View in browser](https://kikupiku.github.io/Etch-a-Sketch/)
 * [Reece White's solution](https://github.com/brplatinum/etch-a-sketch) - [View in browser](https://brplatinum.github.io/etch-a-sketch/)
 * [Sherman's solution](https://github.com/shermansjliu/etch-a-sketch) - [View in browser](https://shermansjliu.github.io/etch-a-sketch/)
-* [Daniel Prince's solution](https://github.com/danielambroius/etch-a-sketch) - [View in browser](https://danielambroius.github.io/etch-a-sketch/)
+* [Daniel Prince's solution](https://github.com/danielambrosius/etch-a-sketch) - [View in browser](https://danielambrosius.github.io/etch-a-sketch/)
 * [Elevin14's solution](https://github.com/elevin14/etch-a-sketch) - [View in browser](https://elevin14.github.io/etch-a-sketch/)
 * [ab510's Solution](https://github.com/ab510/etch-a-sketch) - [View in browser](https://ab510.github.io/etch-a-sketch/)
 * [Joe Lee's Solution](https://github.com/JoeDravarol/Etch-A-Sketch) - [View in browser](https://joedravarol.github.io/Etch-A-Sketch/)
@@ -105,7 +108,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Billy's Solution](https://github.com/bcoffin9/etch-a-sketch)
 * [Moe's Solution](https://github.com/moenegm/sketch) - [View in Browser](https://moenegm.github.io/sketch/)
 * [Hammad Ahmed's Solution](https://github.com/shammadahmed/Etch-A-Sketch) - [View in Browser](https://shammadahmed.github.io/Etch-A-Sketch/)
-* [Allan Glasier's Solution](http://allanglasier.com/etch-a-sketch/) - [View in Browser](http://allanglasier.com/etch-a-sketch/)
 * [Radu's Solution](https://github.com/radu-man/etch_a_sketch) - [View in Browser](https://radu-man.github.io/etch_a_sketch/)
 * [Eddy's solution](https://github.com/sudo-eddy/the-odin-project-my-portfolio/tree/master/Etch-a-Sketch)
 * [Dale Thompson's Solution](https://github.com/Dale-Thompson/rock-paper-scissors) - [View in Browser](https://dale-thompson.github.io/etch-a-sketch/)
@@ -409,4 +411,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/Etch-a-Sketch) - [View in Browser](https://sanyogitapandit.github.io/Etch-a-Sketch/)
 * [SameerLags' solution](https://github.com/SameerLags/Etch-a-Sketch) - [View in Browser](https://sameerlags.github.io/Etch-a-Sketch/)
 * [sconeil's solution](https://github.com/sconeil/etch-a-sketch) - [View in Browser](https://sconeil.github.io/etch-a-sketch/)
+* [Konrad Zagozda's Solution](https://github.com/konradzagozda/etch-a-sketch-2) - [View in Browser](https://konradzagozda.github.io/etch-a-sketch-2/)
+* [Rebeccode's Solution](https://github.com/rebeccode/etch-a-sketch) - [View in Browser](https://rebeccode.github.io/etch-a-sketch/)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/etch-a-sketch) - [View in Browser](https://robertdunbar.github.io/etch-a-sketch/)
+* [Matt P's Solution](https://github.com/mrparker1991/EtchASketch) - [View in Browser](https://mrparker1991.github.io/EtchASketch/)
 </details>
