@@ -392,6 +392,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [JFAldridge's Solution](https://github.com/JFAldridge/second_rails_blog) - [View in Browser](https://morning-ridge-71514.herokuapp.com/)
 * [Andre Roy's solution](https://github.com/RoyNyaga/Ruby_project) - [View in Browser](https://boiling-garden-17682.herokuapp.com/)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/effective-blogger) - [View in Browser](https://intense-beach-63601.herokuapp.com/) Completed to I5
+* [Tronerta's Solution](https://github.com/Tronerta/blogger) - [View in Browser](https://glacial-oasis-31653.herokuapp.com/) Completed to I6 + Extras
+* [DensenKG's solution](https://github.com/DensenKG/ruby-blog-tutorial) - [View in Browser](https://glacial-cove-81460.herokuapp.com/)
+* [Tristan Ross's solution](https://github.com/TristanRoss/RailsTutorial) - [View in Browser](https://protected-bayou-40626.herokuapp.com/)
 </details>
 
 ### Additional Resources
