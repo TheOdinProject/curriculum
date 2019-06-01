@@ -271,6 +271,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee48's Solution](https://github.com/bendee48/tictactoe) - [Play on Repl.it](https://repl.it/@bendee48/TicTacToe)
 * [Reynard van den Berg's Solution](https://github.com/Rey810/OOP/blob/master/TicTacToe.rb)
 * [keskiviikko's Solution](https://github.com/keskiviikko/project_tictactoe)
+* [Tronerta's Solution](https://github.com/Tronerta/oop/blob/master/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Tronerta/Tic-Tac-Toe)
 
 </details>
 
@@ -498,6 +499,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sergej Jurchenko's Solution](https://github.com/Sergyurch/mastermind_game) - [Live Version](https://repl.it/@SergejJurchenko/mastermind)
 * [Alex Krewson's solution](https://github.com/alexkrewson/oop/blob/master/mastermind.rb)
 * [Reynard van den Berg's solution](https://github.com/Rey810/OOP/blob/master/mastermind.rb)
+* [Tronerta's Solution](https://github.com/Tronerta/oop/blob/master/mastermind.rb) - [Play on Repl.it](https://repl.it/@Tronerta/Mastermind)
 </details>
 
 ### Additional Resources
