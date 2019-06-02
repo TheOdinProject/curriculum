@@ -44,7 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Sviperm's Solution](https://github.com/sviperm/js-calculator) - [View in browser](https://sviperm.github.io/js-calculator/index.html, [CodePen Live Editor](https://codepen.io/sviperm/pen/GawKOg)
+- [Sviperm's Solution](https://github.com/sviperm/js-calculator) - [View in browser](https://sviperm.github.io/js-calculator/index.html)
 - [Sherman's Solution](https://github.com/shermansjliu/calculator) - [View in browser](https://shermansjliu.github.io/calculator/)
 - [Daniel Prince's Solution](https://github.com/danielambrosius/calculator) - [View in Browser](https://danielambrosius.github.io/calculator/)
 - [Alain Suarez's Solution](https://gitlab.com/asuar/calculator) - [View in Browser](https://asuar.gitlab.io/calculator/)
