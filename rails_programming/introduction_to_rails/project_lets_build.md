@@ -84,7 +84,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/rest-client/blob/master/rest-client.rb)
 * [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
 * [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
-
+* [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
 </details>
 
 ### Project: Ruby on Rails Tutorial
