@@ -2160,6 +2160,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Vincent Bonaobra's solution (Hard)](https://github.com/vincheee/google-search-page/) - [View in Browser](https://vincheee.github.io/google-search-page/)
 * [Adrian Gajda's solution (Easy)](https://github.com/totallycrow/google-homepage) - [View in Browser](https://totallycrow.github.io/google-homepage/)
 * [Paul Okoh's solution (Easy)](https://github.com/PaulOkoh/google_task) - [View in Browser](https://paulokoh.github.io/google_task/)
+* [M_June's solution (Easy)](https://github.com/MrkH615/google-homepage) - [View in Browser](https://mrkh615.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
