@@ -126,7 +126,7 @@ hash2 = { "b" => 254, "c" => 300 }
 hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 ~~~
 
-Notice that the hash getting merged in (in this case, `hash2`) has precedence over the hash getting... uh, merged *at* when both hashes share a key.
+Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same. 
 
 For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-2.6/Hash.html).
 
@@ -160,6 +160,7 @@ japanese_cars[:honda]   #=> "Accord"
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
 </div>
 

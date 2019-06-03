@@ -18,4 +18,10 @@ Links that may help with the project if any
 
 Submit a solution with a pull request to this...
 
--   Add your solution below this line!
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
+  * Add your solution below this line!
+  * [Solution Title](https://somelinkToSolution)
+
+</details>

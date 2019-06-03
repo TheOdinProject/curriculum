@@ -11,14 +11,13 @@ Take a moment to think about why you have decided to learn programming.
 * Are you determined to develop the skills and abilities to build any app you can think of? 
 * Do you want to start your own company by turning an app idea into reality?
 
-Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motiviation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
+Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
 
 To give your motivation a bit of a boost, you can read about the success of others:
 
 * [A woman who taught herself enough to land a job in 5 months](http://newcodegirl.blogspot.co.uk)
 * [A blacksmith who taught himself how to code](http://joshuakemp.blogspot.co.uk/2013/11/how-blacksmith-learned-to-code-and-9.html)
 * [A 32 year old who taught himself programming using The Odin Project over a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
-* [Another guy who used The Odin Project to get a job](https://www.reddit.com/r/learnprogramming/comments/4goiwx/i_got_hiredagain/?)
 
 
 ### Growth Mindset
