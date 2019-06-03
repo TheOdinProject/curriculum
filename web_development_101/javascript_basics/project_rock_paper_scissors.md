@@ -44,7 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Barrie's solution](https://github.com/barrielake/rock-paper-scissors) - [View in Browser](https://barrielake.github.io/rock-paper-scissors/)
 - [Kevin Patricio's solution](https://github.com/Skepsis101/rock_paper_scissors_js)
 - [Jacek Jarczok's solution](https://github.com/k-son/Ro-Sham-Bo) - [View in Browser](http://roshambo.k-son.eu/)
-- [Dominic Laube's solution](https://github.com/Laubenstein/rock_paper_scissors)
+- [Dominic Laube's solution](https://github.com/Laubenstein/rock_paper_scissors) - [View in Browser](https://laubenstein.github.io/rock_paper_scissors/)
 - [Chris' solution](https://github.com/CSalois114/Rock-Paper-Scissors)
 - [Jason's solution](https://github.com/RealJasonA/RockPaperScrissors)
 - [Ashish's solution](https://github.com/VampishWolf/rock_paper_scissor_game) - [View in Browser](https://vampishwolf.github.io/rock_paper_scissor_game/)
