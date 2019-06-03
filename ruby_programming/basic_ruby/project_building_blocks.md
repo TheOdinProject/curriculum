@@ -442,6 +442,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/caesar_cipher/blob/master/caesar.rb)
 * [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/caesar_cipher.rb)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/caesar_cipher.rb)
+* [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/caesar_cipher.rb)
 
 </details>
 
@@ -833,6 +834,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/stock_picker/blob/master/stock_picker.rb)
 * [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/stock_picker.rb)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/stock_picker.rb)
+* [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/stock_picker.rb)
 
 </details>
 
@@ -1227,5 +1229,6 @@ Next, make sure your method can handle multiple words:
 * [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/substrings.rb)
 * [Nyaga Roy's Solution](https://github.com/RoyNyaga/ruby_on_rails_building_block_odin_project)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/substrings.rb)
+* [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/substrings.rb)
 
 </details>
