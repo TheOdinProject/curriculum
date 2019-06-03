@@ -355,6 +355,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Brett McStotts' Solution](https://github.com/bretticus-mc/ruby_exercises/blob/master/bubble_sort.rb)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/bubble_sort)
 * [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/bubble_sort.rb)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/advanced_ruby_building_blocks/blob/master/bubble_sort.rb)
 
 </details>
 
