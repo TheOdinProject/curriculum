@@ -44,6 +44,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sviperm's Solution](https://github.com/sviperm/js-calculator) - [View in browser](https://sviperm.github.io/js-calculator/index.html)
+- [Sherman's Solution](https://github.com/shermansjliu/calculator) - [View in browser](https://shermansjliu.github.io/calculator/)
+- [Daniel Prince's Solution](https://github.com/danielambrosius/calculator) - [View in Browser](https://danielambrosius.github.io/calculator/)
 - [Alain Suarez's Solution](https://gitlab.com/asuar/calculator) - [View in Browser](https://asuar.gitlab.io/calculator/)
 - [Sarp's Solution](https://github.com/sarpisik/calculator) - [View in Browser](https://sarpisik.github.io/calculator/)
 - [Elevin14's Solution](https://github.com/elevin14/calculator) - [View in Browser](https://elevin14.github.io/calculator/)
@@ -256,6 +259,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [vulence's Solution (mobile responsive)](https://github.com/vulence/calculator) - [View in Browser](https://vulence.github.io/calculator/)
 - [allden's Solution](https://github.com/allden/calculator) - [View in Browser](https://allden.github.io/calculator/)
 - [Doris's solution](https://github.com/dsmchen/calculator) - [view in browser](https://dsmchen.github.io/calculator/)
+- [canicodenow's Solution](https://github.com/canicodenow/calculator) - [View in browser](https://canicodenow.github.io/calculator/)
 - [Natcancein's solution](https://github.com/Natcancein/the_odin_project/tree/master/calculator) - [view in browser](https://natcancein.github.io/the_odin_project/calculator/)
 - [Nick Trahan's Solution](https://github.com/Nick-Trahan/calculator-odin) - [View in browser](https://nick-trahan.github.io/calculator-odin/)
 - [antdricot's Solution](https://github.com/antdricot/odin-project-calculator) - [View in browser](https://antdricot.github.io/odin-project-calculator/)
@@ -299,4 +303,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/Calculator) - [View in Browser](https://sanyogitapandit.github.io/Calculator/)
 - [DensenKG's solution](https://github.com/DensenKG/calculator) - [View in Browser](https://densenkg.github.io/calculator/)
 - [Adriel Bruno's solution](https://github.com/AdrielTrigger/calculator-project) - [View in Browser](https://adrieltrigger.github.io/calculator-project/)
+- [Konrad Zagozda's solution](https://github.com/konradzagozda/calculator) - [View in Browser](https://konradzagozda.github.io/calculator/)
 </details>
