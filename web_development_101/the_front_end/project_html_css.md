@@ -2168,6 +2168,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Isaac Kelly's solution (Easy)](https://github.com/isaackelly0/google-homepage) - [View in Browser](https://isaackelly0.github.io/google-homepage/)
 * [github1029's Solution (Difficult)](https://github.com/github1029/learning_pathway/tree/master/docs/projects/google) - [View in Browser (Easy)](https://github1029.github.io/learning_pathway/projects/google/google.html) - [View in Browser (Difficult)](https://github1029.github.io/learning_pathway/projects/google/search.html)
 * [Ousmane SYlla solution (Easy-solution)](https://github.com/kitague/google-homepage) - [View in Browser](https://kitague.github.io/google-homepage/)
+* [Samuel Davis' solution (Difficult)](https://github.com/samlynndavis/google-homepage) - [View in Browser](https://samlynndavis.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
