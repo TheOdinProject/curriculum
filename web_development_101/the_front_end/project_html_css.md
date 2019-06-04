@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [CoderOO7 Solution (Easy)](https://github.com/coderoo7/google_homepage) - [View in Browser](https://coderoo7.github.io/google_homepage)
+* [CoderOO7 Soution (Difficult)-I have design searchpage according mobile-view](https://github.com/coderoo7/google-searchpage) - [View in Browser](https://coderoo7.github.io/google-searchpage)
 * [Ylli's Solution (Easy)](https://github.com/yllabazi/google-homepage) - [View in Browser](https://yllabazi.github.io/google-homepage/)
 * [Sampajanno's Solution (Difficult)](https://github.com/Sampajanno/google-search) - [View in Browser](https://sampajanno.github.io/google-search/)
 * [Jeffreyvdk's Solution (Easy)](https://github.com/Jeffreyvdk/google-homepage) - [View in Browser](https://jeffreyvdk.github.io/google-homepage/)
