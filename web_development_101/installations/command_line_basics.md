@@ -6,6 +6,15 @@ That black screen or window is the command line interface (CLI), where you're ab
 
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't be intimidated by the prospect of using the command line for the first time.
 
+#### Test Drive Your Terminal
+Open a terminal on your computer. On Linux: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard. On Mac: open your applications folder and find "Terminal". Take it for a test run! Make sure your terminal is open, type the command below, and press enter:
+
+```bash 
+whoami
+```
+    
+It returns your username. Cool!
+
 ## Why learn this now?
 
 You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will require you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
@@ -22,13 +31,8 @@ By the end of this lesson, you should be able to do the following:
 ### Assignment
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot, a virtual machine, or Windows Subsystem for Linux. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/web-development-101/lessons/prerequisites).
 
-1. Open a terminal on your computer. On Linux: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard. On Mac: open your applications folder and find "Terminal". Take it for a test run! Make sure your terminal is open, type the command below, and press enter:
-    ```bash 
-    whoami
-    ```
-    It returns your username. Cool!
-2. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
-3. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
+1. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
+2. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
 
 
 #### Use the Command Line Like a Pro

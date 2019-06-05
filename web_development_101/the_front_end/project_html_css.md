@@ -31,6 +31,7 @@ If you do not know how to setup a repository, follow the instructions found in [
 5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
 If you are having trouble:
+
   * Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
   * Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
 
@@ -87,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [CoderOO7 Solution (Easy)](https://github.com/coderoo7/google_homepage) - [View in Browser](https://coderoo7.github.io/google_homepage)
+* [CoderOO7 Soution (Difficult)](https://github.com/coderoo7/google-searchpage) - [View in Browser](https://coderoo7.github.io/google-searchpage)
 * [Ylli's Solution (Easy)](https://github.com/yllabazi/google-homepage) - [View in Browser](https://yllabazi.github.io/google-homepage/)
 * [Sampajanno's Solution (Difficult)](https://github.com/Sampajanno/google-search) - [View in Browser](https://sampajanno.github.io/google-search/)
 * [Jeffreyvdk's Solution (Easy)](https://github.com/Jeffreyvdk/google-homepage) - [View in Browser](https://jeffreyvdk.github.io/google-homepage/)
@@ -2161,8 +2164,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Adrian Gajda's solution (Easy)](https://github.com/totallycrow/google-homepage) - [View in Browser](https://totallycrow.github.io/google-homepage/)
 * [Paul Okoh's solution (Easy)](https://github.com/PaulOkoh/google_task) - [View in Browser](https://paulokoh.github.io/google_task/)
 * [M_June's solution (Easy)](https://github.com/MrkH615/google-homepage) - [View in Browser](https://mrkh615.github.io/google-homepage/)
+* [NashvilleChris's solution (Easy)](https://github.com/nashvillechris/google-homepage) - [View in Browser](https://nashvillechris.github.io/google-homepage/)
 * [Isaac Kelly's solution (Easy)](https://github.com/isaackelly0/google-homepage) - [View in Browser](https://isaackelly0.github.io/google-homepage/)
 * [github1029's Solution (Difficult)](https://github.com/github1029/learning_pathway/tree/master/docs/projects/google) - [View in Browser (Easy)](https://github1029.github.io/learning_pathway/projects/google/google.html) - [View in Browser (Difficult)](https://github1029.github.io/learning_pathway/projects/google/search.html)
+* [Ousmane SYlla solution (Easy-solution)](https://github.com/kitague/google-homepage) - [View in Browser](https://kitague.github.io/google-homepage/)
+* [Samuel Davis' solution (Difficult)](https://github.com/samlynndavis/google-homepage) - [View in Browser](https://samlynndavis.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
