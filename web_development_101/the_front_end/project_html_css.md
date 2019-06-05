@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [MrNotKindHeart Solution (Easy)](https://github.com/Diegohndev/Google_Homepage) - [View in Browser](https://diegohndev.github.io/Google_Homepage/)
 * [CoderOO7 Solution (Easy)](https://github.com/coderoo7/google_homepage) - [View in Browser](https://coderoo7.github.io/google_homepage)
 * [CoderOO7 Soution (Difficult)](https://github.com/coderoo7/google-searchpage) - [View in Browser](https://coderoo7.github.io/google-searchpage)
 * [Ylli's Solution (Easy)](https://github.com/yllabazi/google-homepage) - [View in Browser](https://yllabazi.github.io/google-homepage/)
@@ -2169,6 +2170,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [github1029's Solution (Difficult)](https://github.com/github1029/learning_pathway/tree/master/docs/projects/google) - [View in Browser (Easy)](https://github1029.github.io/learning_pathway/projects/google/google.html) - [View in Browser (Difficult)](https://github1029.github.io/learning_pathway/projects/google/search.html)
 * [Ousmane SYlla solution (Easy-solution)](https://github.com/kitague/google-homepage) - [View in Browser](https://kitague.github.io/google-homepage/)
 * [Samuel Davis' solution (Difficult)](https://github.com/samlynndavis/google-homepage) - [View in Browser](https://samlynndavis.github.io/google-homepage/)
+*
 </details>
 
 ### Additional Resources
