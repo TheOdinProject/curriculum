@@ -29,7 +29,7 @@ There are thousands of versions of Linux out there, but Ubuntu is undoubtedly on
 Installing VirtualBox is very straightforward. It doesn't require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded file will start the installation process. During the installation, you'll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish. 
 
 #### Step 2.2: Set up Xubuntu
-Now that you have VirtualBox installed, launch the program. Once open, should see the start screen.
+Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen.
 
 Click on the "New" button to create a virtual operating system. Give it a name of "Xubuntu", leave the "Machine Folder" as is, set the "Type" to "Linux" and be sure "Version" is set to "Ubuntu (64-bit)". Continue by pressing "Next", and choose the following options in the next steps:
 
