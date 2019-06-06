@@ -183,7 +183,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [vanny96's Solution](https://github.com/vanny96/recursion)
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/tree/master/recursion-odin-exercises/fibonacci)
 * [Wesley Wang's Solution](https://github.com/wesleymellon/recursion-examples/tree/master/fibonacci)
-* [Rey van den Berg's Solution] (https://github.com/Rey810/Recursion)
+* [Rey van den Berg's Solution](https://github.com/Rey810/Recursion)
 
 </details>
 
