@@ -443,6 +443,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/caesar_cipher.rb)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/caesar_cipher.rb)
 * [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/caesar_cipher.rb)
+* [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/caesarCiper.rb)
 
 </details>
 
@@ -835,7 +836,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/stock_picker.rb)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/stock_picker.rb)
 * [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/stock_picker.rb)
-
+* [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/stock_picker.rb)
 </details>
 
 ### Project 3: Substrings
