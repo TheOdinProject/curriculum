@@ -8,7 +8,7 @@ If you are already using **MacOS** or **Linux**, you can skip this section. Othe
 <summary class="dropDown-header">Virtual Machine (Recommended)
 </summary>
 
-Installing a virtual machine (VM) is the easiest and most reilable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance though.
+Installing a virtual machine (VM) is the easiest and most reilable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance.
 
 ### Step 1: Download VirtualBox and Linux
 
@@ -20,20 +20,20 @@ Installating a VM is a simple process. This guide uses Oracle's VirtualBox progr
 
 #### Step 1.2: Download Linux
 
-There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso) and installing [Xubuntu 18.04](https://xubuntu.org/release/18-04/). Xubuntu uses the same base software as Ubuntu but has a display that requires fewer computer resources and is therefore better for VM environments. If you decide to get your own download link (The one above works fine, however), make sure you get the `amd64` version or you will run into issues.
+There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 18.04](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
 
 ### Step 2: Install VirtualBox and Set up Xubuntu
 
 #### Step 2.1: Install VirtualBox
 
-Installing VirtualBox is very straightforward. It doesn't require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded file will start the installation process. Any additional options prompted by the installation, such as creating a desktop icon, are left for you to decide. During installation, the progress bar might get stuck for a few minutes; just wait for it to finish. After the installation is finished, search for your newly installed VirtualBox program and run it.
+Installing VirtualBox is very straightforward. It doesn't require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded file will start the installation process. During the installation, you'll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish. 
 
 #### Step 2.2: Set up Xubuntu
-Now that you have VirtualBox installed, double click the icon, and you should see the start screen.
+Now that you have VirtualBox installed, launch the program. Once open, should see the start screen.
 
 Click on the "New" button to create a virtual operating system. Give it a name of "Xubuntu", leave the "Machine Folder" as is, set the "Type" to "Linux" and be sure "Version" is set to "Ubuntu (64-bit)". Continue by pressing "Next", and choose the following options in the next steps:
 
-  1. Memory size: Use 2048 MB or more if possible. Ideally, this amount should be about half of your computer's maximum memory. For example, if you have 8 GB of RAM, allocate 4 GB to your VM's operating system.
+  1. Memory size: Use 2048 MB or more if possible. Ideally, this amount should be about half of your computer's maximum memory. For example, if you have 8 GB of RAM, allocate 4048 MB to your VM's operating system.
 
   2. Hard disk: "Create a virtual hard disk".
 
@@ -43,15 +43,15 @@ Click on the "New" button to create a virtual operating system. Give it a name o
 
   5. File location and size: We recommend at least 20 GB for the virtual hard disk.
 
-After completing the last step, click the "Create" button. Your new virtual OS should be in the menu now. Right click on it, and go to "Settings". Click on the "System" tab and then the "Processor" tab. Increase the Processor(s) to 2.
+After completing the last step, click the "Create" button. Your new virtual OS should now appear in the menu. Right click on it, and go to "Settings". Click on the "System" tab and then the "Processor" tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer's BIOS/UEFI settings](https://www.google.com/search?q=enable+virtualization+windows).
 
-Next, go to the "Storage" tab and click the "Empty" CD icon. Add the Xubuntu iso file you downloaded earlier:
+Next, go to the "Storage" tab and click the "Empty" CD icon. Select the Xubuntu iso file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
 
 With all that complete, click "OK" to save the changes.
 
 You can start the VM by right clicking on the icon in the menu and by clicking the large "Start" arrow at the top.
 
-When the VM starts up, you'll be asked to install Xubuntu. The process is very simple, and all of the default options can be left alone, including the Installation type ("Erase disk and install Ubuntu"). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
+When the VM starts up, you'll be asked to install Xubuntu. All of the default options can be left alone, including the Installation type ("Erase disk and install Ubuntu"). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
 
 The rest of the installation is pretty straightforward, but if you have any questions, you can find Ubuntu's official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0).
 
@@ -62,33 +62,24 @@ The rest of the installation is pretty straightforward, but if you have any ques
 While your VM is running, do the following steps:
 
   1. Click "Devices" -> "Insert Guest additions CD image" in the menu bar
-  2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal
-     does not open, click anywhere on the desktop of the VM and try again.
-  3. Type the following command into the terminal: `sudo apt install gcc make
-     perl` You will be asked to type in the password you setup earlier, when
-you type, it won't show up, but trust that it is taking you input. (Just type
-it and then push enter). If an error is thrown, reboot the VM and try the steps
-in this list again.
-  4. then run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This may ask you for
-     a password as well.
-  5. Run `reboot` in the terminal, and the VM should reboot. If this does not
-     work, reboot the VM by clicking the "start" menu, and selecting "reboot"
+  2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
+  3. Type the following command into the terminal: `sudo apt install gcc make perl` You will be asked to type in the password you setup earlier. As you type your password, you'll notice there is no visual feedback. This is a security measure. Trust that it is taking you input. (Just type it and then push enter). If an error is thrown, reboot the VM and try the steps in this list again.
+  4. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This may ask you for a password as well.
+  5. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
   
-NOTE: If upon trying to start the VM you only get a black screen, close and
-"power off" the VM, click "settings -> display" and make sure "Enable 3D
-Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
+NOTE: If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "settings -> display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
 
 ### Step 4: Understand Your New VM
 
-Here are some tips to help you get started coding in a virtual environment:
+Here are some tips to help you get started in a virtual environment:
 
-* All installations are done in the VM. You will install everything you need for coding, including Ruby, VSCode, Rails, and Node, inside the Guest OS.
+* All installations are done in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM.
 
 * To install software on your VM, you will follow the Linux installation instructions from inside the Xubuntu VM.
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
-* We recommend going full screen (Edit > Full-Screen Mode) and forgetting about your host OS (Windows).
+* We recommend going full screen (Edit > Full-Screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
 </details>
 
