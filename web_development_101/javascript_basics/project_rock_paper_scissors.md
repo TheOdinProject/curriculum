@@ -653,8 +653,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [SameerLags' Solution](https://github.com/SameerLags/rock_paper_scissors) - [View in Browser](https://sameerlags.github.io/rock_paper_scissors/)
 - [Nearcited's Solution](https://github.com/nearcited/rock-paper-scissors/) - [View in Browser](https://nearcited.github.io/rock-paper-scissors/)
 - [Scott O'Neil's Solution](https://github.com/sconeil/rock-paper-scissors) - [View in Browser](https://sconeil.github.io/rock-paper-scissors/)
-- [Den Danilkov Solution](https://github.com/Hloppchik/Rock-Paper-Scissors_TOP) 
-- [Shafie´s Solution](https://github.com/shafier/RockPaperScissors) 
+- [Den Danilkov Solution](https://github.com/Hloppchik/Rock-Paper-Scissors_TOP)
+- [Shafie´s Solution](https://github.com/shafier/RockPaperScissors)
 - [Matt P's Solution](https://github.com/mrparker1991/Rckpprscssrs) - [View in Browser](https://mrparker1991.github.io/RockPaperScissors/)
 - [Michael W's Solution](https://github.com/michaelw1421/paper-rock-scissors) - [View in Browser](https://michaelw1421.github.io/paper-rock-scissors/)
 - [Swagat's Solution](https://github.com/SonGoku281/Rock-Paper-Scissors)
@@ -667,6 +667,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Agnes-Mwaniki's-Solution](https://github.com/AgnesNM/rock-paper-scissors) - [View-in-Browser](https://agnesnm.github.io/rock-paper-scissors/)
 - [Shourov's solution](https://github.com/Shourov1/Rock-Paper-Scissors) - [View in Browser](https://shourov1.github.io/Rock-Paper-Scissors/)
 - [Nathan-Choi's solution](https://github.com/sihoonathan/rock-paper-scissors) - [View in Browser](https://sihoonathan.github.io/rock-paper-scissors/)
+- [Isaac Kelly's Solution](https://github.com/isaackelly0/rock-paper-scissors)
 - [Ortheas's Solution](https://github.com/Ortheas/rock_paper_scissors/blob/master/rock_paper_scissors/rock_paper_scissors.html)
 - [ddmorgan92's solution](https://github.com/ddmorgan92/rock-paper-scissors-project) - [View in Browser](https://ddmorgan92.github.io/rock-paper-scissors-project/)
 </details>
