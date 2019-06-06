@@ -227,5 +227,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/tree/master/hangman) - [Play on repl.it](https://repl.it/@vi7ali/Hangman-game)
 * [vanny96's solution](https://github.com/vanny96/hangman)
 * [JamCry's Solution](https://github.com/jamcry/ruby-hangman) - [Play on Repl.it](https://repl.it/@jamcry/Ruby-Hangman-Game)
-
+* [Sergei Jurchenko's Solution](https://github.com/Sergyurch/hangman_game) - [Play on Repl.it](https://repl.it/@SergejJurchenko/hangmangame)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/hangman)
+* [Rey's Solution](https://github.com/Rey810/Hangman-Game/)
 </details>
