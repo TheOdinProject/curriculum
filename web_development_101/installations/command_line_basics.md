@@ -9,7 +9,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 #### Test Drive Your Terminal
 Open a terminal on your computer. On Linux: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard. On Mac: open your applications folder and find "Terminal". Take it for a test run! Make sure your terminal is open, type the command below, and press enter:
 
-```bash 
+``` 
 whoami
 ```
     
