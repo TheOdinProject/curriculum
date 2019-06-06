@@ -1230,5 +1230,5 @@ Next, make sure your method can handle multiple words:
 * [Nyaga Roy's Solution](https://github.com/RoyNyaga/ruby_on_rails_building_block_odin_project)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/substrings.rb)
 * [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/substrings.rb)
-
+* [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/substrings.rb)
 </details>
