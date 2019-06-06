@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [MrNotKindHeart Solution (Easy)](https://github.com/Diegohndev/Google_Homepage) - [View in Browser](https://diegohndev.github.io/Google_Homepage/)
 * [CoderOO7 Solution (Easy)](https://github.com/coderoo7/google_homepage) - [View in Browser](https://coderoo7.github.io/google_homepage)
 * [CoderOO7 Soution (Difficult)](https://github.com/coderoo7/google-searchpage) - [View in Browser](https://coderoo7.github.io/google-searchpage)
 * [Ylli's Solution (Easy)](https://github.com/yllabazi/google-homepage) - [View in Browser](https://yllabazi.github.io/google-homepage/)
