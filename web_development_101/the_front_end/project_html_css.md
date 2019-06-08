@@ -88,7 +88,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+<<<<<<< HEAD
 * [VincentDania Solution(Easy)] (https://github.com/vincentdania/google-homepage) - [View in Browser] (https://vincentdania.github.io/google-homepage/)
+=======
+* [Maquinde's Solution (Easy)](https://maquinde.github.io/The-Odin-Project/google-homepage/index.html) - [View in Browser](https://maquinde.github.io/The-Odin-Project/google-homepage/index.html)
+>>>>>>> upstream/master
 * [MrNotKindHeart Solution (Easy)](https://github.com/Diegohndev/Google_Homepage) - [View in Browser](https://diegohndev.github.io/Google_Homepage/)
 * [CoderOO7 Solution (Easy)](https://github.com/coderoo7/google_homepage) - [View in Browser](https://coderoo7.github.io/google_homepage)
 * [CoderOO7 Soution (Difficult)](https://github.com/coderoo7/google-searchpage) - [View in Browser](https://coderoo7.github.io/google-searchpage)
@@ -2174,6 +2178,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Robin Wagner's solution (Easy)](https://github.com/RobinWagner/google-homepage) - [View in Browser](https://robinwagner.github.io/google-homepage/)
 * [LFsolar's solution(Easy)](https://github.com/LFsolar/google-homepage) - [View in Browser](https://LFsolar.github.io/google-homepage/)
 * [Justin Rice's solution (Easy)](https://github.com/JustinRiceATX/google-homepage) - [View in Browser](https://justinriceatx.github.io/google-homepage/)
+* [Piter Hofstra's solution (Easy)](https://github.com/Piter1975/google-homepage) - [View in Browser](https://piter1975.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
