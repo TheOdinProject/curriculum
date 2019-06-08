@@ -126,6 +126,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Bendee48's Solution](https://github.com/bendee48/pomodoro) - [View in Browser](https://bendee48.github.io/pomodoro/)
 * [Muminjon's solution](https://github.com/MuminjonGuru/pomodoro-time) - [View in Browser](https://codepen.io/MuminjonGuru/pen/yWjOBw)
 * [JFAldridge's solution](https://github.com/JFAldridge/the_productive_egg) - [View in Browser](https://jfaldridge.github.io/the_productive_egg/)
+* [John-san's solution](https://github.com/john-san/pomodoro) - [View in Browser](https://john-san.github.io/pomodoro/)
 
 </details>
 
