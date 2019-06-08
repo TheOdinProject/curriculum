@@ -274,6 +274,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [keskiviikko's Solution](https://github.com/keskiviikko/project_tictactoe)
 * [Tronerta's Solution](https://github.com/Tronerta/oop/blob/master/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Tronerta/Tic-Tac-Toe)
 * [HanJosmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/object_oriented_programming/tic_tac_toe.rb)
+* [LastCapricorn's Solution](https://github.com/LastCapricorn/the_odin_project/tree/master/ruby_programming/project_oop/tic_tac_toe)
 
 </details>
 
