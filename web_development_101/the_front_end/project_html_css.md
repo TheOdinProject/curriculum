@@ -2173,6 +2173,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Robin Wagner's solution (Easy)](https://github.com/RobinWagner/google-homepage) - [View in Browser](https://robinwagner.github.io/google-homepage/)
 * [LFsolar's solution(Easy)](https://github.com/LFsolar/google-homepage) - [View in Browser](https://LFsolar.github.io/google-homepage/)
 * [Justin Rice's solution (Easy)](https://github.com/JustinRiceATX/google-homepage) - [View in Browser](https://justinriceatx.github.io/google-homepage/)
+* [Piter Hofstra's solution (Easy)](https://github.com/Piter1975/google-homepage) - [View in Browser](https://piter1975.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
