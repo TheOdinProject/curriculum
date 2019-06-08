@@ -276,7 +276,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [HanJosmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/object_oriented_programming/tic_tac_toe.rb)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/the_odin_project/tree/master/ruby_programming/project_oop/tic_tac_toe)
 * [Kelvin & Denis' Solution](https://github.com/DenisCuencaBrex/tic-tac-toe) - [Play on Repl.it](https://repl.it/@KelvinLiang/tic-tac-toe)
-
+* [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@BenFowler/Tic-Tac-Toe)
 </details>
 
 ### Project 2: Mastermind
@@ -507,6 +507,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Tronerta's Solution](https://github.com/Tronerta/oop/blob/master/mastermind.rb) - [Play on Repl.it](https://repl.it/@Tronerta/Mastermind)
 * [HanJosmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/object_oriented_programming/mastermind.rb)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/o_o_p_microverse_games)
+* [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@BenFowler/Mastermind)
 </details>
 
 ### Additional Resources
