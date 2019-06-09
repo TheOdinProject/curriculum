@@ -42,7 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Ben's solution](https://github.com/Koshoo/Rock-Paper-Scissors)
 - [Jordan's solution](https://github.com/jmccaskey01/rockpaperscissors)
-- [Barrie's solution](https://github.com/barrielake/rock-paper-scissors) - [View in Browser](https://barrielake.github.io/rock-paper-scissors/)
+- [Barrie's solution (with GUI)](https://github.com/barrielake/rock-paper-scissors) - [View in Browser](https://barrielake.github.io/rock-paper-scissors/)
 - [Kevin Patricio's solution](https://github.com/Skepsis101/rock_paper_scissors_js)
 - [Jacek Jarczok's solution](https://github.com/k-son/Ro-Sham-Bo) - [View in Browser](http://roshambo.k-son.eu/)
 - [Dominic Laube's solution](https://github.com/Laubenstein/rock_paper_scissors) - [View in Browser](https://laubenstein.github.io/rock_paper_scissors/)
