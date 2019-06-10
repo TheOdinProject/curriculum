@@ -104,5 +104,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [tnharvey's Solution](https://github.com/tnharvey/library) - [View in browser](https://tnharvey.github.io/library/)
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Book-Manager) - [View in Browser](https://ubaid-manzoor.github.io/Book-Manager/)
 - [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/library)
-
+- [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/library) - [View in Browser](https://amarcoscastelo.github.io/library/)
 </details>

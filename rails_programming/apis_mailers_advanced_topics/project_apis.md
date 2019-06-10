@@ -155,6 +155,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Malaika's Solution](https://github.com/malaikaMI/odin-kittens)
 * [bchalman's solution](https://github.com/bchalman/odin-kittens)
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/odin-kittens) - [View in Browser](https://odin-kittens-0.herokuapp.com/)
+* [vanny96's Solution](https://github.com/vanny96/odin-kittens)
+* [JamCry's Solution](https://github.com/jamcry/odin-kittens-api)
 
 </details>
 
