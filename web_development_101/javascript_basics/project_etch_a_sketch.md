@@ -421,3 +421,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Charalampos Sarantoglou's Solution](https://github.com/csara1/etch-a-sketch) - [View in Browser](https://csara1.github.io/etch-a-sketch/)
 * [Andrea Diotallevi's Solution](https://github.com/AndreaDiotallevi/etch-a-sketch) - [View in Browser](https://andreadiotallevi.github.io/etch-a-sketch/)
 </details>
+[Etch a sketch project](https://briantuju.github.io/odinProject/e-a-sketch/index.html)
