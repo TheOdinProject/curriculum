@@ -673,3 +673,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ortheas's Solution](https://github.com/Ortheas/rock_paper_scissors/blob/master/rock_paper_scissors/rock_paper_scissors.html)
 - [ddmorgan92's solution](https://github.com/ddmorgan92/rock-paper-scissors-project) - [View in Browser](https://ddmorgan92.github.io/rock-paper-scissors-project/)
 </details>
+[Rock Paper Scissors game](https://briantuju.github.io/odinProject/rps-game/index.html)
