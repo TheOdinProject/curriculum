@@ -40,8 +40,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sierra's solution (with GUI)](https://github.com/sierra073/rock-paper-scissors/) - [View in Browser](https://sierra073.github.io/rock-paper-scissors/)
+- [Ben's solution](https://github.com/Koshoo/Rock-Paper-Scissors)
+- [Jordan's solution](https://github.com/jmccaskey01/rockpaperscissors)
+- [Barrie's solution (with GUI)](https://github.com/barrielake/rock-paper-scissors) - [View in Browser](https://barrielake.github.io/rock-paper-scissors/)
+- [Kevin Patricio's solution](https://github.com/Skepsis101/rock_paper_scissors_js)
 - [Jacek Jarczok's solution](https://github.com/k-son/Ro-Sham-Bo) - [View in Browser](http://roshambo.k-son.eu/)
-- [Dominic Laube's solution](https://github.com/Laubenstein/rock_paper_scissors)
+- [Dominic Laube's solution](https://github.com/Laubenstein/rock_paper_scissors) - [View in Browser](https://laubenstein.github.io/rock_paper_scissors/)
 - [Chris' solution](https://github.com/CSalois114/Rock-Paper-Scissors)
 - [Jason's solution](https://github.com/RealJasonA/RockPaperScrissors)
 - [Ashish's solution](https://github.com/VampishWolf/rock_paper_scissor_game) - [View in Browser](https://vampishwolf.github.io/rock_paper_scissor_game/)
@@ -650,8 +655,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [SameerLags' Solution](https://github.com/SameerLags/rock_paper_scissors) - [View in Browser](https://sameerlags.github.io/rock_paper_scissors/)
 - [Nearcited's Solution](https://github.com/nearcited/rock-paper-scissors/) - [View in Browser](https://nearcited.github.io/rock-paper-scissors/)
 - [Scott O'Neil's Solution](https://github.com/sconeil/rock-paper-scissors) - [View in Browser](https://sconeil.github.io/rock-paper-scissors/)
-- [Den Danilkov Solution](https://github.com/Hloppchik/Rock-Paper-Scissors_TOP) 
-- [Shafie´s Solution](https://github.com/shafier/RockPaperScissors) 
+- [Den Danilkov Solution](https://github.com/Hloppchik/Rock-Paper-Scissors_TOP)
+- [Shafie´s Solution](https://github.com/shafier/RockPaperScissors) - [View in Browser](https://shafier.github.io/UI_RockPaperScissors/)
 - [Matt P's Solution](https://github.com/mrparker1991/Rckpprscssrs) - [View in Browser](https://mrparker1991.github.io/RockPaperScissors/)
 - [Michael W's Solution](https://github.com/michaelw1421/paper-rock-scissors) - [View in Browser](https://michaelw1421.github.io/paper-rock-scissors/)
 - [Swagat's Solution](https://github.com/SonGoku281/Rock-Paper-Scissors)
@@ -661,5 +666,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Konrad Zagozda's Solution](https://github.com/konradzagozda/rock-paper-scissors) - [View in Browser](https://konradzagozda.github.io/rock-paper-scissors/)
 - [Marcus Calgar's Solution](https://github.com/MarcusCalgar/rock-paper-scissors) - [View in Browser](https://marcuscalgar.github.io/rock-paper-scissors-UI/)
 - [Kachi-Awaji's solution](https://github.com/Kachi-Awaji/rock-paper-scissors)
-- [Agnes-Mwaniki's-Solution] (https://github.com/AgnesNM/rock-paper-scissors) - [View-in-Browser] (https://agnesnm.github.io/rock-paper-scissors/)
+- [Agnes-Mwaniki's-Solution](https://github.com/AgnesNM/rock-paper-scissors) - [View-in-Browser](https://agnesnm.github.io/rock-paper-scissors/)
+- [Shourov's solution](https://github.com/Shourov1/Rock-Paper-Scissors) - [View in Browser](https://shourov1.github.io/Rock-Paper-Scissors/)
+- [Nathan-Choi's solution](https://github.com/sihoonathan/rock-paper-scissors) - [View in Browser](https://sihoonathan.github.io/rock-paper-scissors/)
+- [Isaac Kelly's Solution](https://github.com/isaackelly0/rock-paper-scissors)
+- [Ortheas's Solution](https://github.com/Ortheas/rock_paper_scissors/blob/master/rock_paper_scissors/rock_paper_scissors.html)
+- [ddmorgan92's solution](https://github.com/ddmorgan92/rock-paper-scissors-project) - [View in Browser](https://ddmorgan92.github.io/rock-paper-scissors-project/)
 </details>
