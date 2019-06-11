@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jason McKee's solution](https://github.com/jttmckee/testing-javascript)
 - [Max Garbers's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/jest-testing)
 - [theghall's solution](https://github.com/theghall/odin-jestpractice)
 - [Jmooree30's solution](https://github.com/jmooree30/Jest-Tests)
@@ -49,5 +50,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Mike Smith's solution](https://github.com/MikeSS281986/Unit-Testing-)
 - [MPalhidai's solution](https://github.com/MPalhidai/testing)
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Jest-testing-project)
-
+- [scotth527's solution](https://github.com/scotth527/jest_practice)
 </details>
+
