@@ -838,6 +838,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/stock_picker.rb)
 * [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/stock_picker.rb)
 * [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/stock_picker.rb)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/stock_picker)
 </details>
 
 ### Project 3: Substrings
