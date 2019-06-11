@@ -1234,4 +1234,5 @@ Next, make sure your method can handle multiple words:
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/substrings.rb)
 * [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/substrings.rb)
 * [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/substrings.rb)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/substring)
 </details>
