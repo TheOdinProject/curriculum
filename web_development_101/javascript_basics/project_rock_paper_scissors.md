@@ -642,4 +642,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nearcited's Solution](https://github.com/nearcited/rock-paper-scissors/) - [View in Browser](https://nearcited.github.io/rock-paper-scissors/)
 - [Den Danilkov Solution](https://github.com/Hloppchik/Rock-Paper-Scissors_TOP) 
 - [Shafie´s Solution](https://github.com/shafier/RockPaperScissors) 
+- [Lou´s Solution](https://github.com/loumstr/rock-paper-scissors) 
 </details>
