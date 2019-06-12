@@ -233,4 +233,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Rey's Solution](https://github.com/Rey810/Hangman-Game/)
 * [HanJosmer's Solution](https://github.com/HanJosmer/ruby_programming/tree/master/hangman)
 * [keskiviikko's Solution](https://github.com/keskiviikko/project_hangman)
+* [Nyaga Roy's Solution](https://github.com/RoyNyaga/hangman_game_odin_project)
 </details>
