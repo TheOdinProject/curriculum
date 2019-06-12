@@ -186,5 +186,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/linked_lists.rb)
 * [Wesley Wang's Solution (with extra credit)](https://github.com/wesleymellon/linked-list-structure)
 * [Alex Krewson's Solution (with extra credit)](https://github.com/alexkrewson/linked_lists)
-* [Rey van den Berg's Solution (with extra credit)] (https://github.com/Rey810/Linked-List-Data-Structure-)
+* [Rey van den Berg's Solution (with extra credit)](https://github.com/Rey810/Linked-List-Data-Structure-)
 </details>
