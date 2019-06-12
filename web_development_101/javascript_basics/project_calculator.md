@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [John Sta Ana Solution](https://github.com/JohnStaAna/Calculator) - [View in Browser](https://johnstaana.github.io/Calculator/)
 - [Sviperm's Solution](https://github.com/sviperm/js-calculator) - [View in browser](https://sviperm.github.io/js-calculator/index.html)
 - [Sherman's Solution](https://github.com/shermansjliu/calculator) - [View in browser](https://shermansjliu.github.io/calculator/)
 - [Daniel Prince's Solution](https://github.com/danielambrosius/calculator) - [View in Browser](https://danielambrosius.github.io/calculator/)
@@ -304,4 +305,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DensenKG's solution](https://github.com/DensenKG/calculator) - [View in Browser](https://densenkg.github.io/calculator/)
 - [Adriel Bruno's solution](https://github.com/AdrielTrigger/calculator-project) - [View in Browser](https://adrieltrigger.github.io/calculator-project/)
 - [Konrad Zagozda's solution](https://github.com/konradzagozda/calculator) - [View in Browser](https://konradzagozda.github.io/calculator/)
+- [Robert Dunbar's solution](https://github.com/RobertDunbar/calculator) - [View in Browser](https://robertdunbar.github.io/calculator/)
+- [Charalampos Sarantoglou's solution](https://github.com/csara1/calculator) - [View in Browser](https://csara1.github.io/calculator/)
 </details>
