@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [MrNotKindHeart's solution](https://github.com/Diegohndev/Rock-Paper-Scissor)
 - [Krystell's solution (with GUI)](https://github.com/KrystellBarraza/rockpaperscissors) - [View in Browser](https://krystellbarraza.github.io/rockpaperscissors/)
 - [Sierra's solution (with GUI)](https://github.com/sierra073/rock-paper-scissors/) - [View in Browser](https://sierra073.github.io/rock-paper-scissors/)
 - [Ben's solution](https://github.com/Koshoo/Rock-Paper-Scissors)
