@@ -40,9 +40,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sierra's solution (with GUI)](https://github.com/sierra073/rock-paper-scissors/) - [View in Browser](https://sierra073.github.io/rock-paper-scissors/)
 - [Ben's solution](https://github.com/Koshoo/Rock-Paper-Scissors)
 - [Jordan's solution](https://github.com/jmccaskey01/rockpaperscissors)
-- [Barrie's solution](https://github.com/barrielake/rock-paper-scissors) - [View in Browser](https://barrielake.github.io/rock-paper-scissors/)
+- [Barrie's solution (with GUI)](https://github.com/barrielake/rock-paper-scissors) - [View in Browser](https://barrielake.github.io/rock-paper-scissors/)
 - [Kevin Patricio's solution](https://github.com/Skepsis101/rock_paper_scissors_js)
 - [Jacek Jarczok's solution](https://github.com/k-son/Ro-Sham-Bo) - [View in Browser](http://roshambo.k-son.eu/)
 - [Dominic Laube's solution](https://github.com/Laubenstein/rock_paper_scissors) - [View in Browser](https://laubenstein.github.io/rock_paper_scissors/)
@@ -671,4 +672,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Isaac Kelly's Solution](https://github.com/isaackelly0/rock-paper-scissors)
 - [Ortheas's Solution](https://github.com/Ortheas/rock_paper_scissors/blob/master/rock_paper_scissors/rock_paper_scissors.html)
 - [ddmorgan92's solution](https://github.com/ddmorgan92/rock-paper-scissors-project) - [View in Browser](https://ddmorgan92.github.io/rock-paper-scissors-project/)
+- [Ousmane Sylla's Solution](https://github.com/kitague/Rock_Paper_Scissors) - [View in Browser](https://kitague.github.io/Rock_Paper_Scissors/)
+- [Robin's Solution](https://github.com/RobinWagner/rock-paper-scissors)
+- [Danish's Solution](https://github.com/Danish099/RockPaperScissor) 
 </details>

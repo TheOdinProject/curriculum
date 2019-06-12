@@ -444,6 +444,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/caesar_cipher.rb)
 * [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/caesar_cipher.rb)
 * [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/caesarCiper.rb)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/caeser_cipher)
 
 </details>
 
@@ -471,6 +472,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/stock_picker)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/stockPicker.rb)
 * [Sarp's solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/stock_picker.rb)
 * [Emmanuel Oni's solution](https://github.com/emmaoni/the-odin-pj/blob/master/ruby/basic_building_blocks/stockpicker.rb)
@@ -837,6 +839,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/stock_picker.rb)
 * [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/stock_picker.rb)
 * [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/stock_picker.rb)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/stock_picker)
 </details>
 
 ### Project 3: Substrings
@@ -871,6 +874,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/substrings)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/subStrings.rb)
 * [Sarp's solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/substrings.rb)
 * [Emmanuel Oni's solution](https://github.com/emmaoni/the-odin-pj/blob/master/ruby/basic_building_blocks/substrings.rb)
@@ -1232,4 +1236,5 @@ Next, make sure your method can handle multiple words:
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/substrings.rb)
 * [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/substrings.rb)
 * [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/substrings.rb)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/substring)
 </details>

@@ -25,11 +25,11 @@ Those are terminal commands and you'll need to enter them on the terminal in you
 
 Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are multiple lessons focused on Git later in the curriculum.
 
-GitHub is a service that allows you to upload your code using Git and to manage your code with a nice web interface. GitHub and Git are not the same thing or even the same company.
+GitHub is a service that allows you to upload your code using Git and to manage your code with a nice web interface. GitHub and Git are not the same thing or even the same company, but it's important to understand and be able to use both.
 
 #### Step 1.1: Setup Git
 
-For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
+For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When you're working as part of a team, Git allows you and your teammates to see who committed each line of code.
 
 The commands below will configure Git. Be sure to open your terminal and enter your own information inside the quotes (but include the quotation marks)!
 
@@ -80,7 +80,7 @@ ssh-keygen -C yourname@example.com
 
 Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
 
-First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu. 
+First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu.
 
 Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
 
@@ -90,7 +90,7 @@ Now you need to copy your public SSH key. To do this, we're going to use a comma
 cat ~/.ssh/id_rsa.pub
 ~~~
 
-Highlight and copy the output, which starts with `ssh-rsa` and ends with your email address. 
+Highlight and copy the output, which starts with `ssh-rsa` and ends with your email address.
 
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
@@ -108,7 +108,7 @@ gem install rails
 
 #### Step 2.2: Lay the Groundwork
 
-Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like! 
+Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
 
 **NOTE TO WSL USERS:** If you are on WSL, you MUST `cd` into your `Projects` folder to avoid issues.
 
@@ -179,7 +179,7 @@ To push our app to GitHub and Heroku, we need to use Git.
 
 To tell Git we want to use version control on the directory we are in, we need to initialize it.
 
-Verify you're in the `my_first_rails_app` directory by using the `pwd` (print working directory) command. 
+Verify you're in the `my_first_rails_app` directory by using the `pwd` (print working directory) command.
 
 ~~~bash
 $ pwd
@@ -278,7 +278,7 @@ First, run
 heroku create
 ~~~
 
-Then, run 
+Then, run
 
 ~~~bash
 git remote show
@@ -330,7 +330,7 @@ bundle install --without production
 
 #### Step 4.5.3: Configure the Root Route
 
-The next thing we need to edit is the `routes.rb` file to set our root route. We're going to this so that we can see the application without having to append `/cars` at the end of the URL. 
+The next thing we need to edit is the `routes.rb` file to set our root route. We're going to this so that we can see the application without having to append `/cars` at the end of the URL.
 
 Go back to VSCode and expand the `config` folder in the file list at the left-hand side of the screen. One of the files inside the folder will be named `routes.rb`. Open `routes.rb` and make it match the example below:
 
@@ -347,7 +347,7 @@ Save the file. You can close VSCode now; the rest of the steps take place in the
 
 Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
-First, we'll check which files have been updated by running 
+First, we'll check which files have been updated by running
 
 ~~~bash
 git status
@@ -395,11 +395,11 @@ Now that we've commited the files, we can push to Heroku:
 git push heroku master
 ~~~
 
-  **UPDATE 2019-01-04:** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run: 
+  **UPDATE 2019-01-04:** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run:
 
 ```
 heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
-``` 
+```
 
   and then run the `git push heroku master` command again.
 
@@ -423,7 +423,7 @@ Run this command:
 heroku run rails db:migrate
 ~~~
 
-You might see some strange output, but as long as you do not have an error, you have successfully deployed a Rails application! 
+You might see some strange output, but as long as you do not have an error, you have successfully deployed a Rails application!
 
 If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
 
@@ -435,7 +435,7 @@ It's time to see your app on the web! If you are not using WSL, to quickly open 
 heroku open
 ~~~
 
-and play around with it! 
+and play around with it!
 
 ### Step 5: Let us know how it went!
 

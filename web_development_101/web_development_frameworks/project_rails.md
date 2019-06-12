@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/blogger) - [View in browser](https://niconibloggerapp.herokuapp.com)
 * [Daniel Prince's Solution](https://github.com/danielambrosius/my_second_rails_app) - [View in browser](https://glacial-refuge-28698.herokuapp.com/)
 * [Sizigia's Solution](https://github.com/sizigia/blogger) - [View in browser](https://top-blogger.herokuapp.com/)
 * [Neill Hennings's Solution](https://github.com/Rabidza/blogger) - [View in browser](https://safe-caverns-93859.herokuapp.com/)
