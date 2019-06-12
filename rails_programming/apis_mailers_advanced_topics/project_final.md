@@ -115,6 +115,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Punnadittr's solution (Bootstrap4, Ajax, Active Storage & Mobile Support)](https://github.com/punnadittr/festbrooke) - [View in browser](https://festbrooke.herokuapp.com)
 * [Agon's solution](https://github.com/AgonIdrizi/socialize) - [View in browser](https://socializeer.herokuapp.com/about)
 * [bchalman's solution](https://github.com/bchalman/odin-spacebook)
+* [Ryan's and Dipto's solution](https://github.com/dipto0321/facialbook) - [View in browser](https://facials.herokuapp.com/)
+* [vanny96's solution](https://github.com/vanny96/fakebook) - [View in browser](https://rocky-ravine-56988.herokuapp.com)
 
 </details>
 

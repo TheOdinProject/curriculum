@@ -29,6 +29,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [George Zhu's Solution](https://github.com/georgezhu11/binary_tree/blob/master/binary_tree.rb)
+* [Arilson Souza Solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_data_structures_and_algorithms/binary_tree.rb)
+* [Vollantre's Solution](https://github.com/vollantre/binary_tree/blob/master/binary_tree.rb)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/binary_trees)
+* [Kevin Vuong's Solution](https://github.com/fffear/binary_search_tree)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/binary_tree.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/binary-tree)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/binary_trees)
@@ -119,7 +124,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/DataStructures-In-Ruby)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/basic_data_structure/blob/master/binary_trees.rb)
 * [John Connor's solution](https://github.com/jacgitcz/binary_tree)
-* [Jean Merlet's solution](https://github.com/jeanmerlet/data_structures/blob/master/binary_tree.rb)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_misc/blob/master/data_structures/binary_tree.rb)
 * [Austin Mason's solution](https://github.com/CouchofTomato/algorithm/blob/master/binary_search_tree.rb)
 * [Loris Aranda's solution](https://github.com/LorisProg/ruby-binary_search_tree-knight_travails/blob/master/binary_search_tree.rb)
 * [Joanna Takesian's solution](https://github.com/joannatakesian/data-structures/blob/master/binary-tree/binary-tree.rb)
@@ -153,6 +158,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Mojotron's solution](https://github.com/mojotron/binary-search-tree)
 * [vanny96's Solution](https://github.com/vanny96/binary-trees)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/binary_tree.rb)
+* [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/binary_search_tree.rb)
 
 </details>
 
@@ -200,6 +206,11 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [George Zhu's solution](https://github.com/georgezhu11/knight_moves/blob/master/knight_moves.rb)
+* [Arilson Souza Solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_data_structures_and_algorithms/knight_moves.rb)
+* [Vollantre's solution](https://github.com/vollantre/knight_moves)
+* [Kevin Vuong's solution](https://github.com/fffear/knight_travails)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/knight_moves)
 * [Nicolas Espinoza's solution](https://github.com/nicospz/knight-moves/blob/master/knight-moves.rb)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/binary-search-tree/blob/master/knight_moves.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/computer-science/knights-moves)

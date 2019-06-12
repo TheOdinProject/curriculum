@@ -35,6 +35,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Carmine's Solution](https://github.com/cgrossi/odin-project-youtube-clone) - [View in browser](https://cgrossi.github.io/odin-project-youtube-clone/)
+* [bcikota's solution](https://github.com/bcikota/youtube) - [View in browser](https://bcikota.github.io/youtube/)
 * [Bola Buari's solution](https://github.com/bolah2009/youtube-clone) - [View in browser](https://bolabuari.com/youtube-clone/)
 * [Ricala's solution](https://github.com/Ricala/mock-youtube-page) - [View in browser](https://ricala.github.io/mock-youtube-page/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/videopage) - [View in browser](https://n00bg1rl.github.io/videopage/)
@@ -112,7 +114,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [tholymap's solution](https://github.com/tholymap/youtube) - [View in browser](http://htmlpreview.github.io/?https://github.com/tholymap/youtube/blob/master/youtube.html)
 * [Swedina's solution](https://github.com/swedinay/UTub-) - [View in browser](https://swedinay.github.io/UTub-/)
 * [DV's solution](https://github.com/dvislearning/odin-yt-clone) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-yt-clone/blob/master/home.html)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/youtube_page) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/youtube_page/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/youtube_page) - [View in browser](https://fcarlosdev.github.io/youtube_page/)
 * [Mike Smith's solution](https://github.com/MikeSS281986/YouTube-Clone-Page) - [View in browser](https://mikess281986.github.io/YouTube-Clone-Page/)
 * [Elena's solution](https://github.com/elena-sam/youtube-replica-project) - [View in browser](https://elena-sam.github.io/youtube-replica-project/)
 * [Punnadittr's solution](https://github.com/punnadittr/u-tube) - [View in browser](https://punnadittr.github.io/u-tube/)
@@ -124,7 +126,10 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Gough's solution](https://github.com/Joel-Price/youtube-clone) - [View in browser](https://joel-price.github.io/youtube-clone/)
 * [Ghassan's solution](https://github.com/GT001/TOP-Youtube-Player) - [View in browser](https://gt001.github.io/TOP-Youtube-Player/)
 * [Valentino Valenti's solution](https://github.com/1ba1/youtube-video-player-page) - [View in Browser](https://1ba1.github.io/youtube-video-player-page/)
-* [Doris's solution](https://github.com/dsmchen/youtube-video-player-page) - [view in browser](https://dsmchen.github.io/youtube-video-player-page/)
+* [Doris's solution](https://github.com/dsmchen/youtube-video-player-page) - [View in browser](https://dsmchen.github.io/youtube-video-player-page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/youtube-video-player-page) - [View in browser](https://amarcoscastelo.github.io/youtube-video-player-page/)
+* [vanny96's solution](https://github.com/vanny96/embed-video) - [View in browser](https://vanny96.github.io/embed-video/)
+* [Carlos Del Real & Gabriela's solution](https://viricruz.github.io/doogle-homepage/) - [View in browser](https://viricruz.github.io/doogle-homepage/)
 
 </details>
 
