@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Jason McKee's Vue Library](https://github.com/jttmckee/vue-library) - [View in Browser](https://jttmckee.github.io/vue-library/)
 * [Andrew's Vue.js Solution](https://github.com/andrewr224/readersite) - [View in Browser](https://andrewr224.github.io/readersite/#/)
 * [autumnchris's React Library Solution](https://github.com/autumnchris/reading-list-reactjs) - [View in Browser](https://autumnchris.github.io/reading-list-reactjs)
 * [nmac's solution](https://github.com/nmacawile/ng-to-do-list) - [Angular To-do List](https://ng-to-do-list-239a2.firebaseapp.com)
