@@ -102,6 +102,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Natkarr's Solutions (Easy)](https://github.com/natkarr/google-homepage)
 * [Sampajanno's Solution (Easy)](https://github.com/Sampajanno/google-homepage) - [View in Browser](https://sampajanno.github.io/google-homepage/)
 * [williamkarras' Solution (Easy)](https://github.com/Williamkarras/google-homepage) - [View in Browser](https://williamkarras.github.io/google-homepage/)
+* [Ashish's Solution (Easy)](https://github.com/VampishWolf/google_replica_TOP) - [View in Browser](https://vampishwolf.github.io/google_replica_TOP-master/)
 * [Lele's Solution (Easy)](https://github.com/Lele992/googlehome-clone) - [View in Browser](https://lele992.github.io/googlehome-clone/)
 * [Sierra's Solution (Easy)](https://github.com/sierra073/google-homepage) - [View in Browser](https://sierra073.github.io/google-homepage/)
 * [Sarp's Solution (Easy)](https://github.com/sarpisik/google-homepage) - [View in Browser](https://sarpisik.github.io/google-homepage/)
