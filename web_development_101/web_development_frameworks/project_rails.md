@@ -398,6 +398,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [DensenKG's solution](https://github.com/DensenKG/ruby-blog-tutorial) - [View in Browser](https://glacial-cove-81460.herokuapp.com/)
 * [Tristan Ross's solution](https://github.com/TristanRoss/RailsTutorial) - [View in Browser](https://protected-bayou-40626.herokuapp.com/)
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/rails-blogger) - [View in Browser](https://dry-spire-74608.herokuapp.com)
+* [Sanyogita's solution](https://github.com/SanyogitaPandit/blogger) - [View in Browser](https://aqueous-crag-86287.herokuapp.com/)
 </details>
 
 ### Additional Resources
