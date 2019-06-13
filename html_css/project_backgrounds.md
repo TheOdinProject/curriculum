@@ -95,6 +95,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Doris's solution](https://github.com/dsmchen/apple-homepage) - [view in browser](https://dsmchen.github.io/apple-homepage/)
 * [Kelvin L's Solution](https://github.com/kelvin8773/apple-homepage) - [view in browser](https://kelvin8773.github.io/apple-homepage/)
 * [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/apple-clone-homepage) - [view in browser](https://amarcoscastelo.github.io/apple-clone-homepage/)
+* [Carlos Del Real's Solution](https://github.com/carloshdelreal/Building-with-Backgrounds-and-Gradients) - [view in browser](https://carloshdelreal.github.io/Building-with-Backgrounds-and-Gradients/)
 </details>
 
 ### Additional Resources
