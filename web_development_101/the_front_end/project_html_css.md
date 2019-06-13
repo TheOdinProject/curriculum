@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [danh4648's Solution(Easy)](https://github.com/danh4648/google-homepage) - [View in Browser](https://danh4648.github.io/google-homepage/)
 * [Mugilan's Solution(Difficult)](https://github.com/Mugilan23/google-search-results) - [View in Browser](https://mugilan23.github.io/google-search-results/)
 * [Mugilan's Solution(Easy)](https://github.com/Mugilan23/google-homepage-easy) - [View in Browser](https://mugilan23.github.io/google-homepage-easy/)
 * [VincentDania Solution(Easy)](https://github.com/vincentdania/google-homepage) - [View in Browser](https://vincentdania.github.io/google-homepage/)
@@ -2074,7 +2075,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kirill Novikov's solution (Easy)](https://github.com/kerbasi/google-homepage) - [View in Broswer](https://kerbasi.github.io/google-homepage/)
 * [Kirill Novikov's solution (Difficult)](https://github.com/kerbasi/google-homepage-hard) - [View in Broswer](https://kerbasi.github.io/google-homepage-hard/)
 * [Nabil Shaahani's solution (Easy)](https://github.com/Nabil19911/Sample.google.style) - [View in Broswer](https://nabil19911.github.io/Sample.google.style/)
-* [Shubham sharma's solution(Easy)](https://github.com/Officialshubham/google-homepage/) - [View in Broswer](https://Officialshubham.github.io/google-homepage/)   
+* [Shubham sharma's solution(Easy)](https://github.com/Officialshubham/google-homepage/) - [View in Broswer](https://Officialshubham.github.io/google-homepage/)
 * [Steven' Solution (Easy)](https://github.com/DuckEggs/google-homepage.git) - [View in Browser](https://duckeggs.github.io/google-homepage/)
 * [Brandon's Solution (Easy)](https://github.com/bwkrayb/google-homepage-2) - [View in Browser](https://bwkrayb.github.io/google-homepage-2/)
 * [Javier's Solution (Easy)](https://github.com/javialeman/google-homepage) - [View in Browser](https://javialeman.github.io/google-homepage/)
