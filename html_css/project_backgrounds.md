@@ -23,6 +23,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Eapen's solution](https://github.com/eapenzacharias/backgrounds-gradients) - [View in browser](https://eapenzacharias.github.io/backgrounds-gradients/)
 * [Benjamin Poore's solution](https://github.com/bpoore0614/apple-project) - [View in browser](https://bpoore0614.github.io/apple-project/)
 * [bcikota's solution](https://github.com/bcikota/apple) - [View in browser](https://bcikota.github.io/apple/)
 * [Ohlie's solution](https://github.com/lco1220/apple_bg-gradients) - [View in browser](https://lco1220.github.io/apple_bg-gradients/)
