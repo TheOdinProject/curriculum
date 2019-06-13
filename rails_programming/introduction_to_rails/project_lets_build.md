@@ -23,6 +23,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rudi Boshoff's solution]{https://github.com/RudiBoshoff/rails-exercises/tree/master/rest-client}
 * [Simon Tharby's solution](https://github.com/jinjagit/rest_client)
 * [Jason McKee's Solution (with Regex to get results and links)](https://github.com/jttmckee/rest-client/tree/master)
 * [Isil Donmez's solution](https://github.com/isildonmez/rest_client)
