@@ -364,6 +364,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/60e8497115b422afa6bceafd6fa2d57c)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/tree/master/Challenges/Advanced%20Building%20Blocks/Sorting)
 * [Tristan Ross's Solution](https://github.com/TristanRoss/bubble_sort)
+* [Franklyn Afeso's Solution](https://github.com/afeso/building_blocks/blob/master/sorting.rb)
 </details>
 >>>>>>> 703701cdb4298695956df7c6a7cd17799451bf82
 
