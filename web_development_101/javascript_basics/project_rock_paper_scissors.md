@@ -657,6 +657,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sherman's Solution](https://github.com/shermansjliu/rock-paper-scissors) - [View in Browser](https://shermansjliu.github.io/rock-paper-scissors/)
 - [SameerLags' Solution](https://github.com/SameerLags/rock_paper_scissors) - [View in Browser](https://sameerlags.github.io/rock_paper_scissors/)
 - [Nearcited's Solution](https://github.com/nearcited/rock-paper-scissors/) - [View in Browser](https://nearcited.github.io/rock-paper-scissors/)
+- [Lou´s Solution](https://github.com/loumstr/rock-paper-scissors) 
 - [Scott O'Neil's Solution](https://github.com/sconeil/rock-paper-scissors) - [View in Browser](https://sconeil.github.io/rock-paper-scissors/)
 - [Den Danilkov Solution](https://github.com/Hloppchik/Rock-Paper-Scissors_TOP)
 - [Shafie´s Solution](https://github.com/shafier/RockPaperScissors) - [View in Browser](https://shafier.github.io/UI_RockPaperScissors/)
@@ -677,5 +678,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ddmorgan92's solution](https://github.com/ddmorgan92/rock-paper-scissors-project) - [View in Browser](https://ddmorgan92.github.io/rock-paper-scissors-project/)
 - [Ousmane Sylla's Solution](https://github.com/kitague/Rock_Paper_Scissors) - [View in Browser](https://kitague.github.io/Rock_Paper_Scissors/)
 - [Robin's Solution](https://github.com/RobinWagner/rock-paper-scissors)
-- [Danish's Solution](https://github.com/Danish099/RockPaperScissor) 
+- [Danish's Solution](https://github.com/Danish099/RockPaperScissor)
+- [Tom Bell's Solution](https://github.com/thomasjbell7/rock-paper-scissors) - [View in Browser](https://thomasjbell7.github.io/rock-paper-scissors/)
 </details>

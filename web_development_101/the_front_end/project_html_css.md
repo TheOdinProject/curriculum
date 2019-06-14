@@ -2183,6 +2183,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Phillip Jackson's solution (Easy)](https://github.com/psfjackson/google-homepage) - [View in Browser](https://psfjackson.github.io/google-homepage/)
 * [Tom Bell's solution (Easy)](https://github.com/thomasjbell7/google-homepage) - [View in Browser](https://thomasjbell7.github.io/google-homepage/)
 * [Duon's Solution (Easy)](https://duonthecyborg.github.io/google-homepage)
+* [Vera's solution (Easy)](https://github.com/overaaloe/google-homepage) - [View in Browser](https://overaaloe.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
