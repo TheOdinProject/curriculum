@@ -2186,6 +2186,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Duon's Solution (Easy)](https://duonthecyborg.github.io/google-homepage)
 * [Vera's solution (Easy)](https://github.com/overaaloe/google-homepage) - [View in Browser](https://overaaloe.github.io/google-homepage/)
 * [Thomas Chaigneau's solution (Easy)](https://github.com/ChainYo/google-homepage) - [view in Browser](https://chainyo.github.io/google-homepage/)
+* [mre91's solution (Easy)](https://github.com/mre91/google-homepage) - [View in Browser](https://mre91.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
