@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Brian's Solution](https://github.com/briantuju/odinProject/tree/master/e-a-sketch) - [View in Browser](https://briantuju.github.io/odinProject/e-a-sketch/index.html)
 * [Lele's Solution](https://github.com/Lele992/etch-a-sketch) - [View in Browser](https://lele992.github.io/etch-a-sketch/)
 * [Allan Glasier's Solution](https://github.com/allan-glasier/etch-a-sketch) - [View in Browser](https://allan-glasier.github.io/etch-a-sketch/)
 * [Luky's solution](https://github.com/lcyne/top-etchpad) - [View in browser](https://lcyne.github.io/top-etchpad/)
@@ -421,4 +422,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Charalampos Sarantoglou's Solution](https://github.com/csara1/etch-a-sketch) - [View in Browser](https://csara1.github.io/etch-a-sketch/)
 * [Andrea Diotallevi's Solution](https://github.com/AndreaDiotallevi/etch-a-sketch) - [View in Browser](https://andreadiotallevi.github.io/etch-a-sketch/)
 </details>
-[Etch a sketch project](https://briantuju.github.io/odinProject/e-a-sketch/index.html)
