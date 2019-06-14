@@ -2177,6 +2177,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [LFsolar's solution(Easy)](https://github.com/LFsolar/google-homepage) - [View in Browser](https://LFsolar.github.io/google-homepage/)
 * [Justin Rice's solution (Easy)](https://github.com/JustinRiceATX/google-homepage) - [View in Browser](https://justinriceatx.github.io/google-homepage/)
 * [Piter Hofstra's solution (Easy)](https://github.com/Piter1975/google-homepage) - [View in Browser](https://piter1975.github.io/google-homepage/)
+* [Brian Tuju's Solution (Easy)](https://github.com/briantuju/odinProject/tree/master/google-homepage) - [View in Browser](https://briantuju.github.io/odinProject/google-homepage/index.html)
 </details>
 
 ### Additional Resources
@@ -2187,4 +2188,3 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
 * Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
-[Google homepage](https://briantuju.github.io/odinProject/google-homepage/index.html)
