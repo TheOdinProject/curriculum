@@ -88,7 +88,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [danh4648's Solution(Easy)](https://github.com/danh4648/google-homepage) - [View in Browser](https://danh4648.github.io/google-homepage/)
+* [austinerb's Solution(Difficult)](https://github.com/Mugilan23/google-search-results) - [View in Browser](https://mugilan23.github.io/google-search-results/)
+* [austinerb's Solution(Easy)](https://github.com/austinerb/google-homepage) - [View in Browser](https://austinerb.github.io/google-homepage/)
+* [danh4648's Solution(Easy)](https://github.com/austinerb/google-search) - [View in Browser](https://austinerb.github.io/google-search/)
 * [Mugilan's Solution(Difficult)](https://github.com/Mugilan23/google-search-results) - [View in Browser](https://mugilan23.github.io/google-search-results/)
 * [Mugilan's Solution(Easy)](https://github.com/Mugilan23/google-homepage-easy) - [View in Browser](https://mugilan23.github.io/google-homepage-easy/)
 * [VincentDania Solution(Easy)](https://github.com/vincentdania/google-homepage) - [View in Browser](https://vincentdania.github.io/google-homepage/)
