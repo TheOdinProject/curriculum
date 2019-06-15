@@ -160,6 +160,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/binary_tree.rb)
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/binary_search_tree.rb)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 
 </details>
 
@@ -334,5 +335,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Mojotron's solution](https://github.com/mojotron/graph_with_knights_travails)
 * [vanny96's solution](https://github.com/vanny96/binary-trees)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/knight_moves.rb)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 
 </details>
