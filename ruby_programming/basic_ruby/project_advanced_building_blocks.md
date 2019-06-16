@@ -688,6 +688,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Barbara Lucas' solution](https://github.com/LucasBarbara/enumerable_methods/blob/master/enumerable_methods.rb)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/tree/master/Challenges/Advanced%20Building%20Blocks)
 * [Leo Holanda's Solution](https://github.com/leo-holanda/building_blocks/tree/master/advanced_building_blocks/enumerable_methods)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/enumerable)
 
 </details>
 
