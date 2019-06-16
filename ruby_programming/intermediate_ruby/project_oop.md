@@ -510,6 +510,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [HanJosmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/object_oriented_programming/mastermind.rb)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/o_o_p_microverse_games)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@BenFowler/Mastermind)
+* [Bendee48's solution](https://github.com/bendee48/mastermind) - [Play on Repl.it](https://repl.it/@bendee48/Mastermind)
 </details>
 
 ### Additional Resources
