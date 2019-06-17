@@ -115,6 +115,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Leila Alderman's solution [GitHub](https://github.com/leila-alderman/caesar_cipher) / [Heroku](https://stormy-sea-24508.herokuapp.com/)
 * JamCry's Solution [GitHub](https://github.com/jamcry/sinatra-caesar-cipher) - [Live on Heroku](https://jamcry-caesar-cipher.herokuapp.com/)
 * vanny96's Solution [GitHub](https://github.com/vanny96/sinatra_projects) - [Heroku](https://peaceful-fjord-85935.herokuapp.com/)
+* Vitaly Osipov's Solution [GitHub](https://github.com/vi7ali/caesar-sinatra) - [Heroku](https://immense-mountain-15356.herokuapp.com/)
 
 </details>
 
