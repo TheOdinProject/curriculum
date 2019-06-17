@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Henri's solution ](https://github.com/harrika/odinjs) 
 - [Brian's solution (with GUI)](https://github.com/briantuju/odinProject/tree/master/rps-game) - [View in Browser](https://briantuju.github.io/odinProject/rps-game/index.html)
 - [Vera' Solution](https://github.com/overaaloe/rock_paper_scissors) - [View in Browser](https://overaaloe.github.io/rock_paper_scissors/)
 - [MrNotKindHeart's solution](https://github.com/Diegohndev/Rock-Paper-Scissor)
