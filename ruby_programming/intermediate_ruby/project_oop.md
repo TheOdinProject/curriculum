@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line! 
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/intermediate-Ruby/blob/master/tic-tac-toe.rb)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Intermediate_Ruby_Projects/tic_tac_toe.rb) - [Live](https://repl.it/@sarpisik/Tic-Tac-Toe-Game) 
 * [Guanacone's Solution](https://github.com/guanacone/oop/blob/master/tic_tac_toe.rb)
 * [Joe Lee's Solution](https://github.com/JoeDravarol/tic-tac-toe) - [View in repl.it](https://repl.it/@JoeDravarol/Tic-Tac-Toe-Game)
@@ -303,6 +304,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line! 
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/intermediate-Ruby/blob/master/mastermind.rb)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Intermediate_Ruby_Projects/mastermind.rb) - [Live](https://repl.it/@sarpisik/Mastermind-Game)
 * [Joe Lee's Solution](https://github.com/JoeDravarol/mastermind) - [View in repl.it](https://repl.it/@JoeDravarol/Mastermind-Game)
 * [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/tree/master/ruby/project_oop/mastermind)
@@ -508,6 +510,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [HanJosmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/object_oriented_programming/mastermind.rb)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/o_o_p_microverse_games)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@BenFowler/Mastermind)
+* [Bendee48's solution](https://github.com/bendee48/mastermind) - [Play on Repl.it](https://repl.it/@bendee48/Mastermind)
 </details>
 
 ### Additional Resources

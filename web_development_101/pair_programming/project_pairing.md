@@ -128,6 +128,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [JFAldridge's solution](https://github.com/JFAldridge/the_productive_egg) - [View in Browser](https://jfaldridge.github.io/the_productive_egg/)
 * [John-san's solution](https://github.com/john-san/pomodoro) - [View in Browser](https://john-san.github.io/pomodoro/)
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/pomodoro-clock) - [View in Browser](https://robertdunbar.github.io/pomodoro-clock/)
+* [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/pairing_project) - [View in Browser](https://sanyogitapandit.github.io/pairing_project/)
 </details>
 
 ### Next Steps

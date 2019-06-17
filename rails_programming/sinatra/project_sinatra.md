@@ -28,7 +28,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* Braxton Lemmon's Solution[Github](https://github.com/braxtonlemmon/caesar_cipher_reloaded) [Live](https://safe-shelf-68210.herokuapp.com/)
+* Kevin Vuong's Solution [Github](https://github.com/fffear/caesar_cipher_application) [Live](https://obscure-atoll-85647.herokuapp.com/)
+* Braxton Lemmon's Solution [Github](https://github.com/braxtonlemmon/caesar_cipher_reloaded) [Live](https://safe-shelf-68210.herokuapp.com/)
 * Rudi Boshoff's Solution [Github](https://github.com/RudiBoshoff/rails-exercises/tree/master/sinatra/caesar-cipher) [Live](https://mighty-atoll-97084.herokuapp.com/)
 * Learnsometing's Solution [Github](https://github.com/learnsometing/Sinatra-Caesar_Cipher) [Live](https://learnsometing-caesar-cipher.herokuapp.com/)
 * Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/caesar_cipher) [Live](https://secure-escarpment-83147.herokuapp.com)
