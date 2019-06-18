@@ -425,4 +425,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Charalampos Sarantoglou's Solution](https://github.com/csara1/etch-a-sketch) - [View in Browser](https://csara1.github.io/etch-a-sketch/)
 * [Andrea Diotallevi's Solution](https://github.com/AndreaDiotallevi/etch-a-sketch) - [View in Browser](https://andreadiotallevi.github.io/etch-a-sketch/)
 * [Willie Jones III's Solution](https://github.com/wjone005/Etch-A-Sketch) - [View in Browser](https://wjone005.github.io/Etch-A-Sketch/)
+* [Danish's Solution](https://github.com/Danish099/EtchASketch) - [View in Browser](https://danish099.github.io/EtchASketch/)
 </details>
