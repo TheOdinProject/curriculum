@@ -92,6 +92,22 @@ To learn more about the Pomodoro Technique, read this [great article](https://me
 
 If you want to try it out, [TomatoTimer](http://tomato-timer.com/#) is an easy-to-use Pomodoro timer.
 
+#### Take Breaks!
+Few people realize this, but you tend to get more done when you step back and recharge the brain and body. Studies show that performance increases after breaks of all durations: from extended vacations down to microbreaks of 30 seconds. John Trougakos, Associate Professor of Management at the University of Toronto, says that mental concentration is similar to a muscle. It becomes fatigued after sustained use and needs a rest period before it can recover. Just like a bodybuilder needs to rest between set at the gym.
+
+**Solution:** Use the previously mentioned Pomodoro Technique to time how often and how long to take these helpful, well needed breaks.
+
+What to do during your break
+
+* Listen to music.
+* Do some journaling
+* Do some doodling. 
+* Try guided meditation. 
+* Play a quick game or solve a puzzle. 
+* Move away from your desk. 
+
+Click [Here](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on Breaks & Productivity.
+
 #### Digital Distractions
 Digital distractions are email and Facebook notifications and time-wasting websites, such as social media. These distractions break your focus and make procrastination tempting. Therefore, they should be avoided during study time.
 
