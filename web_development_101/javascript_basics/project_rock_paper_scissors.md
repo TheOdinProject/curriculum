@@ -685,4 +685,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tom Bell's Solution](https://github.com/thomasjbell7/rock-paper-scissors) - [View in Browser](https://thomasjbell7.github.io/rock-paper-scissors/)
 - [Danish's Solution With UI](https://github.com/Danish099/RockPaperScissorUI) - [View in Browser](https://danish099.github.io/RockPaperScissorUI/)
 - [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/rock-paper-scissors.git) - [View in Browser](https://oluwadamilareolusakin.github.io/rock-paper-scissors/)
+- [Kalmod's Solution](https://github.com/kalmod/rock_paper_scissors) - [View in Browser](https://kalmod.github.io/rock_paper_scissors/)
 </details>
