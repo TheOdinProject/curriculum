@@ -33,7 +33,7 @@ Depending on what kind of work you're doing, you might end up working more with 
 
 ### Conditionals
 
-Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that.
+Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that. Before we delve deeper, here is a quick read on [Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy).
 
 1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison) and [logical operators](http://javascript.info/logical-operators).
 2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
