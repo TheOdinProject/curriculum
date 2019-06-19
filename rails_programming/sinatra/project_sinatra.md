@@ -219,5 +219,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Leila Alderman's solution (Hipster Hangman) [GitHub](https://github.com/leila-alderman/hipster_hangman) / [Heroku](https://stark-brook-74152.herokuapp.com/)
 * vanny96's Solution [GitHub](https://github.com/vanny96/sinatra_projects) - [Heroku](https://peaceful-fjord-85935.herokuapp.com/)
 * jeanmerlet's solution (Full Color Webstermind) [GitHub](https://github.com/jeanmerlet/sinatra/tree/master/webstermind) / [Heroku](https://ruby-mastermindgame.herokuapp.com)
+* Vitaly Osipov's solution Hangman [GitHub](https://github.com/vi7ali/hangman) / [Heroku](https://protected-temple-67525.herokuapp.com)
 
 </details>
