@@ -428,3 +428,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Danish's Solution](https://github.com/Danish099/EtchASketch) - [View in Browser](https://danish099.github.io/EtchASketch/)
 * [Ousmane SYlla's Solution](https://github.com/kitague/ETCH-A-SKETCH) - [View in Browser](https://kitague.github.io/ETCH-A-SKETCH/)
 </details>
+*[Ousmane Sylla's Solution](https://github.com/kitague/NewEtch-A-Sketch)View-on Browser(https://github.com/kitague/NewEtch-A-Sketch.git)-
