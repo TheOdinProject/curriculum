@@ -139,6 +139,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Kevin Vuong's Solution [Github](https://github.com/fffear/sinatra_hangman) - [Live](https://immense-basin-91290.herokuapp.com/)
 * Braxton Lemmon's Solution [GitHub](https://github.com/braxtonlemmon/mastermind-sinatra) - [Live](https://mighty-island-47536.herokuapp.com/)
 * Learnsometing's Solution [GitHub](https://github.com/learnsometing/Sinatra-Hangman)
 * Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/hangman) - [Live](https://peaceful-taiga-48900.herokuapp.com/?)
