@@ -2193,6 +2193,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [davidmaurio's Solution(Easy)](https://github.com/davidmaurio/google-homepage) - [View in Browser](https://davidmaurio.github.io/google-homepage/) 
 * [nadjastojanovic's Solution(Easy)](https://github.com/nadjastojanovic/google-homepage) - [View in Browser](https://nadjastojanovic.github.io/google-homepage/) 
 * [Alejandro Ket's Solution(Easy)](https://github.com/alejandrocket/google-homepage) - [View in Browser](https://alejandrocket.github.io/google-homepage/) 
+* [nadjastojanovic's Solution(Easy)](https://github.com/nadjastojanovic/google-homepage) - [View in Browser](https://nadjastojanovic.github.io/google-homepage/)
+* [nadjastojanovic's Solution(Difficult)](https://github.com/nadjastojanovic/google-search) - [View in Browser](https://nadjastojanovic.github.io/google-search/)  
 </details>
 
 ### Additional Resources
