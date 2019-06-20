@@ -382,6 +382,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Wesley Wang's Solution](https://github.com/wesleymellon/recursion-examples/tree/master/merge_sort)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/mergesort)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Recursion/blob/master/merge_sort.rb)
+* [Han Josmer's solution](https://github.com/HanJosmer/ruby_programming/blob/master/recursive_methods/merge_sort.rb)
 
 </details>
 
