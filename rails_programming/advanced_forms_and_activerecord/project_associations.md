@@ -77,6 +77,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/rails-private_events)
 * [Simon Tharby's solution](https://github.com/jinjagit/social_light) - [View in browser](https://social-light-simontharby.herokuapp.com/)
 * [prw001's solution](https://github.com/prw001/private_events)
 * [Max Garber's solution](https://github.com/bubblebooy/private-events)

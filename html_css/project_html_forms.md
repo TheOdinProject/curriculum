@@ -22,6 +22,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sampajanno's solution](https://github.com/Sampajanno/building-forms) - [View in browser](https://sampajanno.github.io/building-forms/)
+* [Carmine's solution](https://github.com/cgrossi/odin-project-form) - [View in browser](https://cgrossi.github.io/odin-project-form/)
 * [Ben Poore's solution](https://github.com/bpoore0614/intuit-copy) - [View in browser](https://bpoore0614.github.io/intuit-copy/index.html)
 * [bcikota's solution](https://github.com/bcikota/Mint.com) - [View in browser](https://bcikota.github.io/Mint.com/)
 * [Bola Buari's solution](https://github.com/bolah2009/mint-clone) - [View in browser](https://bolah2009.github.io/mint-clone)
@@ -123,6 +125,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Valentino Valenti's solution](https://github.com/1ba1/html-form) - [View in Browser](https://1ba1.github.io/html-form/)
 * [Doris's solution](https://github.com/dsmchen/intuit-sign-up-page) - [view in browser](https://dsmchen.github.io/intuit-sign-up-page/)
 * [Antonio Marcos's solution](https://github.com/AMarcosCastelo/intuit-signup-page) - [view in browser](https://amarcoscastelo.github.io/intuit-signup-page/)
+* [vanny96's solution](https://github.com/vanny96/form-project/blob/master/README.md) - [View in browser](https://vanny96.github.io/form-project/)
 
 </details>
 
