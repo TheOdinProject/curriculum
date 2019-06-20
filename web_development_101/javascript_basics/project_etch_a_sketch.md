@@ -427,5 +427,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Willie Jones III's Solution](https://github.com/wjone005/Etch-A-Sketch) - [View in Browser](https://wjone005.github.io/Etch-A-Sketch/)
 * [Danish's Solution](https://github.com/Danish099/EtchASketch) - [View in Browser](https://danish099.github.io/EtchASketch/)
 * [Ousmane SYlla's Solution](https://github.com/kitague/ETCH-A-SKETCH) - [View in Browser](https://kitague.github.io/ETCH-A-SKETCH/)
+* [Ousmane Sylla's Solution](https://github.com/kitague/NewEtch-A-Sketch)- [View in Browser](https://github.com/kitague/NewEtch-A-Sketch.git)-
+
 </details>
-*[Ousmane Sylla's Solution](https://github.com/kitague/NewEtch-A-Sketch)View-on Browser(https://github.com/kitague/NewEtch-A-Sketch.git)-
