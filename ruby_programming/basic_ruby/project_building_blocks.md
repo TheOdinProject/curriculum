@@ -475,6 +475,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/stock_picker.rb)
 * [John-san's Solution](https://github.com/john-san/basic_ruby/blob/master/stock_picker.rb)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/stock_picker)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/stockPicker.rb)
@@ -879,6 +880,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/substrings.rb)
 * [John-san's Solution](https://github.com/john-san/basic_ruby/blob/master/substrings.rb)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/substrings)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/subStrings.rb)
