@@ -92,10 +92,12 @@ To learn more about the Pomodoro Technique, read this [great article](https://me
 
 If you want to try it out, [TomatoTimer](http://tomato-timer.com/#) is an easy-to-use Pomodoro timer.
 
-#### Take Breaks!
+#### Not Taking Breaks
+There are many students that will feel compelled to skip breaks frequently.  It might seem like you are getting more work done at first, but this often leads to burnout which consequently results in lower productivity.
+
 Few people realize this, but you tend to get more done when you step back and recharge the brain and body. Studies show that performance increases after breaks of all durations: from extended vacations down to microbreaks of 30 seconds. John Trougakos, Associate Professor of Management at the University of Toronto, says that mental concentration is similar to a muscle. It becomes fatigued after sustained use and needs a rest period before it can recover. Just like a bodybuilder needs to rest between set at the gym.
 
-**Solution:** Use the previously mentioned Pomodoro Technique to time how often and how long to take these helpful, well needed breaks.
+**Solution:** Use the previously mentioned Pomodoro Technique to time how often and how long to take these well needed breaks. Break times can be adjusted to preference.
 
 What to do during your break
 
