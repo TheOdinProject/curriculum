@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Doris's solution](https://github.com/dsmchen/smashing-magazine-homepage) - [View in browser](https://dsmchen.github.io/smashing-magazine-homepage/)
 * [Ohlie's solution](https://github.com/lco1220/smashing_mag) - [View in browser](https://lco1220.github.io/smashing_mag/)
 * [Bojo's solution](https://github.com/BojoZahariev/SmashingDesignTeardown) - [View in browser](https://bojozahariev.github.io/SmashingDesignTeardown/)
 * [Bola Buari's solution](https://github.com/bolah2009/design-teardown) - [View in browser](https://bolah2009.github.io/design-teardown/)
@@ -72,7 +73,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Beth Rathbone's solution](https://github.com/bethrath/visual-hierarchy) - [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/visual-hierarchy/blob/master/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/design-teardown) - [View in browser](https://adoniasdantas.github.io/design-teardown/)
 * [huseins's solution](https://github.com/hosghf/Design-html-css) - [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/blob/master/teardown/) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/teardown/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/teardown) - [View in browser](https://fcarlosdev.github.io/teardown/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
 
 </details>
