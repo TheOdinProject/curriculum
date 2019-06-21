@@ -48,6 +48,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+- [Djo1e's solution](https://github.com/Djo1e/restaurant) - [View in Browser](https://djo1e.github.io/restaurant/)
+- [John Kripp's Solution](https://github.com/JohnKripp/Restaurant-Page) - [View in Browser](https://johnkripp.github.io/Restaurant-Page/)
 - [Simon Tharby's solution](https://github.com/jinjagit/restaurant) - [View in browser](https://jinjagit.github.io/restaurant/)
 - [ARaut9's solution](https://github.com/ARaut9/restaurant_page) - [View in Browser](https://araut9.github.io/restaurant_page/)
 - [Jason McKee's solution](https://github.com/jttmckee/odin-restaurant) - [View in Browser](https://jttmckee.github.io/odin-restaurant/)
@@ -79,5 +82,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Restaurant-page) - [View in browser](https://areebaishtiaq.github.io/Restaurant-page/)
 - [Valentino Valenti's solution](https://github.com/1ba1/restaurant-page) - [View in browser](https://1ba1.github.io/restaurant-page/)
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Restaurant-Page) - [View in Browser](https://ubaid-manzoor.github.io/Restaurant-Page/)
+- [Antonio Marcos's solution](https://github.com/AMarcosCastelo/restaurante_page) - [View in Browser](https://amarcoscastelo.github.io/restaurante_page/)
 
 </details>

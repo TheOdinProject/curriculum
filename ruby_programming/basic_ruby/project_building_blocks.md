@@ -37,6 +37,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/caesar_cipher.rb)
+* [John-san's Solution](https://github.com/john-san/basic_ruby/blob/master/caesar_cipher.rb)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/CaesarCipher.rb)
+* [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/blob/master/cipher_string.rb)
+* [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/caesar_cipher.rb)
 * [ofperfection's Solution](https://github.com/ofperfection/TOP_ruby_buildingblocks/blob/master/substrings_method.rb)
 * [Elias White's Solution](https://github.com/elias-white/theodinproject/blob/master/Ruby/caesarcipher.rb)
 * [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/caesar_cipher.rb)
@@ -437,6 +442,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/63c56c72ac85672b2e3a3007c7e6c515)
 * [Brett McStotts' Solution](https://github.com/bretticus-mc/ruby_exercises/blob/master/caesar_cipher.rb)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/caesar_cipher/blob/master/caesar.rb)
+* [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/caesar_cipher.rb)
+* [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/caesar_cipher.rb)
+* [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/caesar_cipher.rb)
+* [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/caesarCiper.rb)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/caeser_cipher)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-problems/blob/master/cipher.rb)
 
 </details>
 
@@ -464,6 +475,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/stock_picker.rb)
+* [John-san's Solution](https://github.com/john-san/basic_ruby/blob/master/stock_picker.rb)
+* [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/stock_picker)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/stockPicker.rb)
+* [Sarp's solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/stock_picker.rb)
+* [Emmanuel Oni's solution](https://github.com/emmaoni/the-odin-pj/blob/master/ruby/basic_building_blocks/stockpicker.rb)
 * [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/stock_picker.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/stock_picker.rb)
 * [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_building_blocks/stock_picker.rb)
@@ -823,7 +840,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee48's Solution](https://github.com/bendee48/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/f9c1b1d73f3d148715f014f131d711ec)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/stock_picker/blob/master/stock_picker.rb)
-
+* [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/stock_picker.rb)
+* [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/stock_picker.rb)
+* [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/stock_picker.rb)
+* [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/stock_picker.rb)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/stock_picker)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-problems/blob/master/stock-picker.rb)
 </details>
 
 ### Project 3: Substrings
@@ -858,6 +880,12 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/substrings.rb)
+* [John-san's Solution](https://github.com/john-san/basic_ruby/blob/master/substrings.rb)
+* [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/substrings)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/subStrings.rb)
+* [Sarp's solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/substrings.rb)
+* [Emmanuel Oni's solution](https://github.com/emmaoni/the-odin-pj/blob/master/ruby/basic_building_blocks/substrings.rb)
 * [Jacob Thompson's Solution](https://github.com/jacob-thompson/odin-project-solutions/blob/master/building-blocks/substrings.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_building_blocks/blob/master/substrings.rb)
 * [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_building_blocks/substrings.rb)
@@ -1211,5 +1239,11 @@ Next, make sure your method can handle multiple words:
 * [Bendee48's Solution](https://github.com/bendee48/ruby_building_blocks/blob/master/substrings.rb)
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/79800be59bd54ec764dba061278a7811)
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/substrings/blob/master/substrings.rb)
-
+* [Tronerta's Solution](https://github.com/Tronerta/ruby_problems/blob/master/substrings.rb)
+* [Nyaga Roy's Solution](https://github.com/RoyNyaga/ruby_on_rails_building_block_odin_project)
+* [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/blob/master/0%20Basics/Algorithms/substrings.rb)
+* [Leonardo's Solution](https://github.com/leo-holanda/building_blocks/blob/master/building_blocks/substrings.rb)
+* [Shehan's Solution](https://github.com/ShehanAT/Ruby_Projects/blob/master/substrings.rb)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/substring)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-problems/blob/master/substrings.rb)
 </details>

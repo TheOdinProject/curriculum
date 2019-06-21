@@ -116,6 +116,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/socialize) - [View in browser](https://socializeer.herokuapp.com/about)
 * [bchalman's solution](https://github.com/bchalman/odin-spacebook)
 * [Ryan's and Dipto's solution](https://github.com/dipto0321/facialbook) - [View in browser](https://facials.herokuapp.com/)
+* [vanny96's solution](https://github.com/vanny96/fakebook) - [View in browser](https://rocky-ravine-56988.herokuapp.com)
+* [JamCry's Solution](https://github.com/jamcry/rails-facebook) - [View in browser](https://protected-anchorage-21926.herokuapp.com/)
 
 </details>
 

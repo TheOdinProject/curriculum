@@ -7,4 +7,3 @@
 
 ### 2 The more involved but proper way
 * [Video](https://www.youtube.com/watch?v=mENDYhfxH-o)
-* [Article](https://kbroman.org/github_tutorial/pages/fork.html) - Stop when you reach "Pulling others’ changes".

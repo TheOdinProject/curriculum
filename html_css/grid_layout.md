@@ -9,7 +9,7 @@ Grid was introduced to fill this need.
 - How do you create a grid container?
 - How do you create a fixed track size?
 - How do you create a flexible track size?
-- What is the different between an implicit and explicit grid?
+- What is the difference between an implicit and explicit grid?
 - How is the fr unit used?
 - How do you place items into a precise location on the grid?
 - How does Grid handle overlapping content?
