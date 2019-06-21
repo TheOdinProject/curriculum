@@ -23,6 +23,7 @@ const messages = [
   }
 ];
 ~~~
+
 4. Next, in your index template (in the `"views"` folder) loop through the messages array using which ever templating language you selected and for each one, display the user, text and the date the message was added. Don't forget to make your messages available to your template by including it in the res.render 'locals' object (e.g. `res.render('index', { title: "Mini Messageboard", messages: messages })`.
 5. Next lets set up the new message form.  In the router add an `app.get()` for the `"/new"` route and point it to a template named `"form"`. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To make the form actually  make a network request you will need to define it with both a method and an action like so:
 
@@ -38,9 +39,28 @@ const messages = [
 ~~~javascript
 messages.push({text: messageText, user: messageUser, added: new Date()})
 ~~~
+
 9. At the end of the `app.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
 10.  At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
-11. ADD INSTRUCTIONS FOR DEPLOYMENT
+11. Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
+~~~json
+"engines": {
+    "node": "10.x.y"
+  },
+~~~
+12. Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it:
+```
+web: node ./bin/www
+```
+13. You're finally ready to deploy to Heroku! You can first try it on local, using
+```bash
+heroku local web
+```
+This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it and push it to your Heroku repository with:
+```bash
+heroku create
+git push heroku master
+```
 </div>
 
 ### Student Solutions
