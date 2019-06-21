@@ -35,8 +35,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Axel's solution](https://github.com/afuh/pinstagram) - [View in browser](https://pinstagram-app.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") - [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
 * [David Chapman's solution](https://github.com/davidchappy/lesson-scheduler) - [View in browser](http://lesson-scheduler.herokuapp.com/)
-* [Anjali Deshwani's Solution](https://github.com/AnjaliDeshwani/game)
-
 </details>
 
 ### Additional Resources
