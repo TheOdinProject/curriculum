@@ -2,6 +2,26 @@ In the previous lessons, you got up and running with Node. You learned how to se
 
 In this unit, we are going to be following the [express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) on MDN.  We'll go one lesson at a time, occasionally supplementing with a little deeper explanation or side projects to help you deepen your understanding of the material. There is a *ton* of information there, so be sure to take your time and READ EVERYTHING.  The yellow "notes" that are scattered throughout the tutorial often link to articles or other tutorials that will definitely improve your understanding of the content. Don't be lazy!
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+#### Express web framework
+- Describe Express and Node's main benefits.
+- Describe the relationship between Node and Express.
+- Explain what a module is and how Express fits in.
+- Import and create modules.
+- Describe asynchronous APIs.
+- Describe and create route handlers.
+- Describe and use middleware.
+- Describe error handling in Express.
+- Describe what the main parts of an Express app might look like.
+
+#### Setting up a Node development environment
+- Describe Express development environment.
+- Import Express into an application using NPM.
+- Create and run applications using the Express application generator tool.
+- Set up a development environment for Express on your computer.
+
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
