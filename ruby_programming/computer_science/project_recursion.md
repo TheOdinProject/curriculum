@@ -186,6 +186,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rey van den Berg's Solution](https://github.com/Rey810/Recursion)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/fibs)
 * [Han Josmer's solution](https://github.com/HanJosmer/ruby_programming/blob/master/recursive_methods/fibonacci.rb)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/ruby_fibonacci/blob/master/fibonacci.rb)
 
 </details>
 
