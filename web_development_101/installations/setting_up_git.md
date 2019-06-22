@@ -119,5 +119,9 @@ Highlight and copy the output, which starts with `ssh-rsa` and ends with your em
 
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
+#### Step 2.5 Testing your key
 
+https://help.github.com/en/articles/testing-your-ssh-connection
+
+Go to that link and verify everything matches up, if it doesn't try doing these steps again, or coming to the discord chat for help. 
 
