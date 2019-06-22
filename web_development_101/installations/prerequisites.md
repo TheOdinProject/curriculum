@@ -133,6 +133,7 @@ Microsoft has recently made a shift towards embracing open source and providing 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Having said that, setting it up is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
 =======
 With that being said, though, Ruby and Rails are still rather buggy on WSL (if you are doing the fullstack track), so we recommend using a virtual machine instead. In the long run, using a VM instead of WSL will save you time and headaches.
@@ -140,6 +141,9 @@ With that being said, though, Ruby and Rails are still rather buggy on WSL (if y
 =======
 Having said that, setting it up is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
 >>>>>>> Update prerequisites.md
+=======
+Having said that, setting it up is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
+>>>>>>> f721a4d667218f6eba8fddf2c52461abd31637ad
 
 Since the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
 
