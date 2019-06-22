@@ -131,9 +131,9 @@ For step-by-step instructions, please follow this [installation guide](https://t
 
 Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
-With that being said, though, Ruby and Rails are still rather buggy on WSL (if you are doing the fullstack track), so we recommend using a virtual machine instead. In the long run, using a VM instead of WSL will save you time and headaches.
+Having said that, setting up rails on WSL is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
 
-Since the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
+Since the 2017 Fall Creators Update, Microsoft has made it easier to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
 
 ### Step 1: Install WSL
 
