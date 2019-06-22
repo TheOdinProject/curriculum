@@ -1,5 +1,5 @@
 ### Introduction
-Before we can install Ruby and launch a Rails application, we need to set up a compatible operating system. 
+Before we can continue, we need to set up a development environment.
 
 If you are already using **MacOS** or **Linux**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
@@ -8,11 +8,11 @@ If you are already using **MacOS** or **Linux**, you can skip this section. Othe
 <summary class="dropDown-header">Virtual Machine (Recommended)
 </summary>
 
-Installing a virtual machine (VM) is the easiest and most reilable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance.
+Installing a virtual machine (VM) is the easiest and most reliable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance.
 
 ### Step 1: Download VirtualBox and Linux
 
-Installating a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
+Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
 #### Step 1.1: Download VirtualBox
 
@@ -131,9 +131,9 @@ For step-by-step instructions, please follow this [installation guide](https://t
 
 Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
-With that being said, though, Ruby and Rails are still rather buggy on WSL, so we recommend using a virtual machine instead. In the long run, using a VM instead of WSL will save you time and headaches.
+Having said that, setting up rails on WSL is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
 
-Since the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
+Since the 2017 Fall Creators Update, Microsoft has made it easier to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
 
 ### Step 1: Install WSL
 
