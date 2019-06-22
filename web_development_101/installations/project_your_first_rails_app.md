@@ -2,6 +2,7 @@
 
 With Ruby installed, you're all set to create your first Ruby on Rails application!
 
+<<<<<<< HEAD
 Before continuing, let's review a few best practices to keep in mind:
 
 * Follow the directions closely, and don't skip over any sections.
@@ -19,6 +20,8 @@ whoami
 
 Those are terminal commands and you'll need to enter them on the terminal in your operating system. Forgot how to open your terminal? Try googling "how to open terminal in [**your operating system**]".
 
+=======
+>>>>>>> e97a0ff94e6db16d47a9c5237c6909b6383e54c8
 ### Your First Rails App
 
 ### Step 1: Create Your First Ruby on Rails Web Application
@@ -195,8 +198,11 @@ heroku keys:add
 
 Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
 
+<<<<<<< HEAD
 The terminal may read `Invalid credentials provided`. Just press any key and the Heroku website will open in your browser. Log in with the information you created your account with, and the terminal will reappear and accept your public SSH key.
 
+=======
+>>>>>>> e97a0ff94e6db16d47a9c5237c6909b6383e54c8
 #### Step 3.4: Create a Heroku Application
 
 First, run

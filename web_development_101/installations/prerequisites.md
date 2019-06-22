@@ -73,7 +73,11 @@ NOTE: If upon trying to start the VM you only get a black screen, close and "pow
 
 Here are some tips to help you get started in a virtual environment:
 
+<<<<<<< HEAD
 * All installations are done in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM.
+=======
+* All installations are done in the VM. You will install everything you need for coding, inside the Guest OS.
+>>>>>>> e97a0ff94e6db16d47a9c5237c6909b6383e54c8
 
 * To install software on your VM, you will follow the Linux installation instructions from inside the Xubuntu VM.
 
