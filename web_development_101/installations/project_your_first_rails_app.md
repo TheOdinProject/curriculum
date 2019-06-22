@@ -63,7 +63,7 @@ This will do a bunch of things, and you'll see a lot of output in the terminal. 
 
 ~~~bash
 Bundle complete! 18 Gemfile dependencies, 79 gems now installed.
-Use `bundle info [gemname]` to see where a bundled gem is installed.
+Use `bundle info <gem name>` to see where a bundled gem is installed.
 ~~~
 
 In the above process, Rails created a new directory for us. Let's `cd` into it now:
