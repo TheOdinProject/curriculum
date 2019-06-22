@@ -164,6 +164,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Setting Up Git",
+  title_url: "Setting Up Git".parameterize,
+  description: "The Source Code Ambulance",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/installations/setting_up_git.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Your First Rails Application",
   title_url: "Your First Rails Application".parameterize,
   description: "Time to dig in by making your first Rails Application",
