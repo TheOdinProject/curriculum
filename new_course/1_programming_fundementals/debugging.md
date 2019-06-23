@@ -49,7 +49,7 @@ double_words_in_phrase("This is a test")
 
 Okay, that didn't work. We didn't expect that. The method didn't throw an exception, so we don't even have a line to start debugging at. Now what?
 
-We know that `string_array.join(' ')` returns `"This is a test"` since it's the last statement, so why not place a `puts` on the line before that to see what `string_array` is. As an alternative to `puts`, `p` is also commonly used for debugging; `p` is a combination of `puts` and `inspect` (more on that below). To better show the differences between what Ruby is printing to the terminal and returning, the examples in this section use the full irb syntax, which is exactly what you'd see if you typed these commands into your own terminal irb session.
+We know that `string_array.join(' ')` returns `"This is a test"` since it's the last statement, so why not place a `puts` on the line before that to see what `string_array` is. As an alternative to `puts`, `p` is also commonly used for debugging; `p` is a combination of `puts` and `inspect` (more on that below). To better show the differences between what Ruby is printing to the terminal and returning, the examples in this section use the full IRB syntax, which is exactly what you'd see if you typed these commands into your own terminal IRB session.
 
 ~~~ruby
 irb(main):001:0> def double_words_in_phrase(string)
@@ -108,9 +108,11 @@ p []
 
 To use Pry, you'll first need to install it in your terminal by running `gem install pry`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry, you just need to call `binding.pry` at any point in your program.
 
-~~~ruby
-# script.rb
+To follow along with the Pry examples here, you have two options: 
+ 1. You can open up a new IRB session and type all of the code in there. When the code hits the `binding.pry` statement, it will essentially open an IRB session inside of your current IRB session.
+ 2. You can save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`). When the code hits the `binding.pry` statement, a new IRB-like session will open inside the terminal.
 
+~~~ruby
 require 'pry'
 
 def double_words_in_phrase(string)
@@ -125,9 +127,29 @@ end
 double_words_in_phrase("This is a test")
 ~~~
 
-When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`.
+When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session. Thus, adding a `binding.pry` line in our code is similar to creating a breakpoint in JavaScript.
 
-Using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
+To see this point in action, try running the following:
+
+~~~ruby
+require 'pry'
+
+def yell_greeting(string)  
+  name = string
+
+  binding.pry 
+
+  name = name.upcase
+  greeting = "WASSAP, #{name}!"
+  puts greeting
+end
+
+yell_greeting("bob")
+~~~
+
+During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`. This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the `binding.pry` call and were never evaluated.   
+
+As you can see, using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
 
 There is far, far more that you can do with Pry, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
 
@@ -144,7 +166,7 @@ Obviously, if available, the stack trace is the first place you should look when
 <div class="lesson-content__panel" markdown="1">
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers everything about debugging in more depth.
-2. Read through the [Exceptions and Stack Traces]((https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces)) section of Launch School's online book *Introduction to Programming with Ruby*.
+2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
 3. Follow along with [this Pry tutorial](https://learn.co/lessons/debugging-with-pry) by Learn.co.
 </div>
 
