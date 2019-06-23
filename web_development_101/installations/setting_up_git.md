@@ -90,7 +90,7 @@ First, we need to see if you have an SSH key already installed. Type this into t
 ls ~/.ssh/id_rsa.pub
 ~~~
 
-If the message in the console contains `No such file or directory`, then you don't have an SSH key, and you'll need to create one. If you do not see `No such file or directory` in the output, you already have a key; proceed to step 1.4.
+If the message in the console contains `No such file or directory`, then you don't have an SSH key, and you'll need to create one. If you do not see `No such file or directory` in the output, you already have a key; proceed to step 2.4.
 
 To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by our email address ensures that GitHub knows who we are.
 
