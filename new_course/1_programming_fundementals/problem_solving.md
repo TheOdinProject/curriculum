@@ -1,9 +1,14 @@
 ### Introduction
 In the previous lessons in this section you learnt about the essential basic programming concepts. In this final basics lesson we will cover *problem solving*, the most important skill a developer needs.
 
-Problem solving with code, is the main thing a developer does, it can be anything from solving small simple exercises right up to building sprawling software platforms like google or facebook.
+Problem solving, is the core thing software developers do, the programming languages and tools they use are secondary to this fundamental skill.
 
-New programmers often find this the hardest skill to acquire, it's not uncommon for budding programs to breeze through learning syntax and programming concepts. Yet when trying to code something on their own they find themselves staring blankly at their text editor not knowing where to start.
+V. Anton Paul defines problem solving in programming as:
+> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. - Think Like a Programmer
+
+The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
+
+New programmers often find problem solving the hardest skill to build, it's not uncommon for budding programers to breeze through learning syntax and programming concepts. Yet when trying to code something on their own they find themselves staring blankly at their text editor not knowing where to start.
 
 The best way to improve your problem solving ability is by building experience by making lots and lots of programs. The more practice you have the better you'll be prepared to solve real world problems.
 
@@ -53,7 +58,7 @@ From your planning, you should have identified some sub problems of the big prob
 
 It's important to remember that you might not know all the steps that you might need up front so your algorithm may be incomplete, this is fine. Getting started with and solving one of the sub problems you have identified in the planning stage, often reveals the next sub problem you can work on. Or if you already know the next sub problem is it’s often simpler with the first sub problem solved.
 
-Many beginners try to solve the big problem in one go and. **Don’t do this**. If the problem is sufficiently complex enough you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller easier to solve sub problems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
+Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller easier to solve sub problems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
@@ -83,10 +88,10 @@ The algorithm in pseudo code for this problem:
 ```
 When a user inputs a number
 Loop from 1 to the entered number
-Print each number
 If the current number is divisible by 3 then print "Fizz"
 If the current number is divisible by 5 then print "Buzz"
 If the current number is divisible by 3 and 5 then print "FizzBuzz"
+Otherwise print the current number
 ```
 
 #### Divide and Conquer (Implement)
@@ -148,7 +153,7 @@ maximum_number = gets.chomp.to_i
 end
 ~~~
 
-We are using the modulus operator (`%`) here to divid the current number by three, if you recall from a previous lesson the modulus operator returns the remainder of a division. So if a remainder of 0 is returned from the division it means the `current_number` is divisible by 3.
+We are using the modulus operator (`%`) here to divide the current number by three, if you recall from a previous lesson the modulus operator returns the remainder of a division. So if a remainder of 0 is returned from the division it means the `current_number` is divisible by 3.
 
 After this change the program will now output this when you run it:
 
