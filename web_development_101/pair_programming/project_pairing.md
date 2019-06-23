@@ -109,6 +109,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [vulence's Solution](https://github.com/vulence/pomodoro-clock) - [View in Browser](https://vulence.github.io/pomodoro-clock/)
 * [Samuel Oswald's Solution](https://github.com/smozwald/pomodoro) - [View in Browser](https://smozwald.github.io/pomodoro/)
 * [Franklyn Afeso's solution](https://github.com/afeso/pomodoro) - [View in Browser](https://afeso.github.io/pomodoro)
+* [Jazzyclimber & Nicco's Solution](https://github.com/jazzyclimber/podomoro-timer) - [View in Browser](https://jazzyclimber.github.io/podomoro-timer/)
 
 ### Next Steps
 
