@@ -147,6 +147,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Smetanca52's Solution [GitHub](https://github.com/Smetanca52) - [Live](https://radiant-earth-83625.herokuapp.com/)
 * Jason McKee's Solution [GitHub](https://github.com/jttmckee/sinatra-hangman) - [Live](https://agile-coast-84094.herokuapp.com)
 * prw001's Solution [GitHub](https://github.com/prw001/sinatra_games_suite) - [Live](https://safe-peak-15193.herokuapp.com/)
+* Dennis Cope's Solution [GitHub](https://github.com/coped/sinatra-hangman) - [Live](https://radiant-caverns-76040.herokuapp.com/)
 * Brendan Tang's solution (Hangman) [GitHub](https://github.com/brendantang/hangman-sinatra) - [Live](https://radiant-temple-25499.herokuapp.com/)
 * Max Garber's solution (Hangman) [GitHub](https://github.com/bubblebooy/Sinatra_Hangman) - [Live](https://floating-atoll-54622.herokuapp.com/)
 * Nathan Sherburne's solution (Hangman) [GitHub](https://github.com/nathansherburne/caesar_cypher_reloaded) - [Live](https://glacial-springs-63073.herokuapp.com/)
