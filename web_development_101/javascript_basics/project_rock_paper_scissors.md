@@ -41,8 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Henri's solution ](https://github.com/harrika/odinjs) - [View in Browser](https://harrika.github.io/odinjs/)
+=======
+- [nadjastojanovic's solution](https://github.com/nadjastojanovic/rock-paper-scissors)
+>>>>>>> 7ee91a8f1f3fd9659efb62efab9f6ac6d102a24a
 - [Craig T's solution](https://github.com/ctomberg/Rock-Paper-Scissors) - [View in Browser](https://ctomberg.github.io/Rock-Paper-Scissors/)
 - [Jeffrey's solution](https://github.com/Jeffreyvdk/rock_paper_scissors)
 - [ZachHoskins' solution](https://github.com/ZachHoskins/rock-paper-scissors)

@@ -23,6 +23,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/bing_search)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/rest-client-warmup)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/rails-exercises/tree/master/rest-client)
 * [Simon Tharby's solution](https://github.com/jinjagit/rest_client)
