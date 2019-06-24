@@ -126,6 +126,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Doris's solution](https://github.com/dsmchen/intuit-sign-up-page) - [view in browser](https://dsmchen.github.io/intuit-sign-up-page/)
 * [Antonio Marcos's solution](https://github.com/AMarcosCastelo/intuit-signup-page) - [view in browser](https://amarcoscastelo.github.io/intuit-signup-page/)
 * [vanny96's solution](https://github.com/vanny96/form-project/blob/master/README.md) - [View in browser](https://vanny96.github.io/form-project/)
+* [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/ViriCruz/building-forms) - [View in Browser](https://viricruz.github.io/building-forms/)
 
 </details>
 
