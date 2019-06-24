@@ -692,6 +692,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Leo Holanda's Solution](https://github.com/leo-holanda/building_blocks/tree/master/advanced_building_blocks/enumerable_methods)
 * [Tristan Ross's Solution](https://github.com/TristanRoss/enumerable)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/advanced_ruby_building_blocks/blob/master/enumerable_methods.rb)
+* [Franklyn Afeso's Solution](https://github.com/afeso/building_blocks/blob/master/enumerables.rb)
 
 </details>
 
