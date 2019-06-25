@@ -197,7 +197,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's solution](https://github.com/jamcry/members-only-app) - [View on Heroku](https://quiet-hamlet-54958.herokuapp.com/)
 * [vanny96's solution](https://github.com/vanny96/clubhouse) - [View on Heroku](https://shrouded-brushlands-95445.herokuapp.com/)
 * [themetar's solution (Github)](https://github.com/themetar/members-only-top) - [Live on Heroku](https://mysterious-coast-30783.herokuapp.com/)
-
+* [Nyaga Roy's Solution](https://github.com/RoyNyaga/new_members_blog_odin)
 </details>
 
 ### Additional Resources
