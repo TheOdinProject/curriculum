@@ -40,8 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Henri's solution ](https://github.com/harrika/odinjs) - [View in Browser]
-(https://harrika.github.io/odinjs/)
+- [Henri's solution](https://github.com/harrika/odinjs) - [View in Browser](https://harrika.github.io/odinjs/)
 - [CoderOO7 solution (with GUI)](https://github.com/coderoo7/rockPaperScissor) - [View in Browser](https://coderoo7.github.io/rockPaperScissor)
 - [nadjastojanovic's solution](https://github.com/nadjastojanovic/rock-paper-scissors)
 - [Craig T's solution](https://github.com/ctomberg/Rock-Paper-Scissors) - [View in Browser](https://ctomberg.github.io/Rock-Paper-Scissors/)
