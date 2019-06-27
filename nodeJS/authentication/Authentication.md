@@ -193,7 +193,7 @@ app.post(
 );
 ~~~
 
-As you can see, all we have to do is call `passport.authenticate()`.  It is actually doing quite a bit of useful stuff behind the scenes. Among other things, it looks at the request body for parameters named `username` and `password` then runs the `LocalStrategy` function that we defined earlier to see if the username and password are in the database. It then creates a session cookie which gets stored in the user's browser, and that we can access in all future requests to see whether or not that user is logged it.  It can also redirect you to different routes based on whether the login is a success or a failure.  If we had a separate login page we might want to go back to that if the login failed, or we might want to take the user to their user dashboard if the login is successful.  Since we're keeping everything in the index we want to go back to "/" no matter what.
+As you can see, all we have to do is call `passport.authenticate()`.  It is actually doing quite a bit of useful stuff behind the scenes. Among other things, it looks at the request body for parameters named `username` and `password` then runs the `LocalStrategy` function that we defined earlier to see if the username and password are in the database. It then creates a session cookie which gets stored in the user's browser, and that we can access in all future requests to see whether or not that user is logged in.  It can also redirect you to different routes based on whether the login is a success or a failure.  If we had a separate login page we might want to go back to that if the login failed, or we might want to take the user to their user dashboard if the login is successful.  Since we're keeping everything in the index we want to go back to "/" no matter what.
 
 If you fill out and submit the form now, everything should technically work, but you won't actually SEE anything different on the page... let's fix that.
 
@@ -268,7 +268,7 @@ Now, lets go back and learn how to securely store user passwords so that if anyt
 
 First `npm install bcryptjs`. There is another module called `bcrypt` that does the same thing, but it is written in C++ and is sometimes a pain to get installed. The C++ `bcrypt` is technically faster, so in the future it might be worth getting it running, but for now the modules work the same so we can just use `bcryptjs`.
 
-Once it's installed you need to require it at the top of your app.js and then we are going to pput it to use where we save our passwords to the DB, and where we compare them inside the LocalStrategy.
+Once it's installed you need to require it at the top of your app.js and then we are going to put it to use where we save our passwords to the DB, and where we compare them inside the LocalStrategy.
 
 #### Storing hashed passwords:
 
@@ -288,7 +288,7 @@ The hash function is somewhat slow, so all of the DB storage stuff needs to go i
 inside your `LocalStrategy` function we need to replace the `user.password !== password` bit with the `bcrypt.compare()` function.
 
 ~~~javascript
-bcrypt.compare(password, user.password, (err, res)) {
+bcrypt.compare(password, user.password, (err, res) => {
   if (res) {
     // passwords match! log user in
     return done(null, user)
