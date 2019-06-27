@@ -9,7 +9,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 #### Test Drive Your Terminal
 Open a terminal on your computer. On Linux: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard. On Mac: open your applications folder and find "Terminal". Take it for a test run! Make sure your terminal is open, type the command below, and press enter:
 
-```bash 
+``` 
 whoami
 ```
     
@@ -51,7 +51,7 @@ But once you've typed in a little bit more, it will complete the name for you, m
 Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all of its files in one go. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period) to open up all of the project files. This shortcut is also commonly used with Git (which is covered in detail later on) with commands like `git add .` to add all of the files inside of a directory into Git's staging area.
 
 ### Exercise
-In this exercise, you will practice creating files and directories and deleting them.
+In this exercise, you will practice creating files and directories and deleting them. You'll need to enter the commands for this exercise in your terminal. If you aren't recalling on how to open a terminal, scroll up for a reminder.
 
 <div class="lesson-content__panel" markdown="1">
   1. Create a new directory in your home directory with the name `test`.

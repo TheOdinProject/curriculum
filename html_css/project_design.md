@@ -75,6 +75,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [huseins's solution](https://github.com/hosghf/Design-html-css) - [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/teardown) - [View in browser](https://fcarlosdev.github.io/teardown/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
+* [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/carloshdelreal/design-teardown) - [View in Browser](https://carloshdelreal.github.io/design-teardown/)
 
 </details>
 
