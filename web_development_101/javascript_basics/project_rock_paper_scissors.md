@@ -694,4 +694,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jake's Solution](https://github.com/jdonahue135/the_odin_project/tree/master/RockPaperScissors) - [View in Browser](https://github.com/jdonahue135/the_odin_project/tree/master/RockPaperScissors)
 - [Srini Kumar's Solution](https://github.com/megafauna64/rock-paper-scissors) - [View in Browser](https://github.com/megafauna64/rock-paper-scissors)
 - [mre91's Solution](https://github.com/mre91/rock-paper-scissors) - [View in Browser](https://mre91.github.io/rock-paper-scissors/)
+- [Oliver Burt's Solution](https://github.com/oliburt/rock-paper-scissors) - [View in Browser](https://oliburt.github.io/rock-paper-scissors/)
 </details>
