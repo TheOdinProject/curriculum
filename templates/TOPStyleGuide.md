@@ -66,19 +66,19 @@ Link to no more than three additional resources to avoid this section becoming t
 
 Should repeat learning outcomes with answers.
 
-<details>
+<details markdown="block">
   <summary>Learning outcome 1.</summary>
-    <ul>
-      <li>Learning outcome 1 answer</li>
-      <li>Learning outcome 1 answer</li>
-    </ul>
+  
+  *   Learning outcome 1 answer
+  *   Learning outcome 1 answer
+
 </details>
 
-<details>
+<details markdown="block">
   <summary>Learning outcome 2.</summary>
-    <ul>
-      <li>Learning outcome 2 answer</li>
-    </ul>
+
+  *   Learning outcome 2 answer
+
 </details>
 ~~~
 ## Project Layout
@@ -103,7 +103,12 @@ Links that may help with the project if any
 
 Submit a solution with a pull request to this...
 
--   Add your solution below this line!
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
+  *   Add your solution below this line!
+
+</details>
 
 ~~~
 

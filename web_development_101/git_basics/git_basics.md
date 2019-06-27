@@ -55,7 +55,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial) is an introductory guide on Git by [Michael Hartl](http://www.michaelhartl.com/).
 * An easy-to-read, pragmatic guide to using Git is available online from [RyPress](https://github.com/alokc83/Basic-Tutorials/blob/master/rypress.com%20Git/0_Ry's%20Git%20Tutorial.pdf) and also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC).
-* The [Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) from GitHub provides quick instructions for using common commands.
+* The [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub provides quick instructions for using common commands (you can find a webpage version [here](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)). 
 * [Atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control) has a very thorough and well laid out Git tutorial.
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2).
 
@@ -107,7 +107,7 @@ This section contains questions for you to check your understanding of this less
 <details>
 <summary>Explain the two-stage system that Git uses to save files.</summary>
 <ul><ul>
-  <li>A <strong>save</strong> in Git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.</li>
+  <li>A <strong>save</strong> in Git is divided into two terminal commands: <code>add</code> and <code>commit</code>. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.</li>
   <li><strong>Staging:</strong> Think of <code>add</code> as adjusting the number of people or elements to be included in a photo. With Git, you can select the changes you want to save with <code>git add</code>. Imagine a project that contains multiple files where changes have been made to several files. You want to save some of the changes you have made and leave some other changes to continue working on them.</li>
   <li><strong>Committing:</strong> Think of <code>commit</code> as actually taking a photo, resulting in a snapshot. For example, to commit a file named README.md, type <code>git commit -m "Add README.md"</code>. The <code>-m</code> flag stands for "message" and must always be followed by a commit message inside quotation marks. In this example, the commit message was <code>"Add README.md"</code>.</li>
 </ul></ul>

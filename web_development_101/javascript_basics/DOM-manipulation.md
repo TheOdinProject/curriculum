@@ -164,7 +164,8 @@ When your HTML code is parsed by a web browser, it is converted to the DOM as wa
 
 * _element_.querySelector\(_selector_\) returns reference to the first match of _selector_
 * _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_
-  \*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
+
+\*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
 
 It's important to note that when using querySelectorAll, the return value is **not** an array. It looks like an array, and it somewhat acts like an array, but it's really a "nodelist". The big distinction is that several array methods are missing from nodelists. One solution, if problems arise, is to convert the nodelist into an array. You can do this with Array.from\(\) or the [spread operator.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
@@ -384,7 +385,7 @@ function alertFunction() {
 }
 
 // METHOD 2
-btn.onclick = alertFunction
+btn.onclick = alertFunction;
 
 // METHOD 3
 btn.addEventListener('click', alertFunction);
@@ -396,7 +397,7 @@ With all three methods we can access more information about the event by passing
 
 ~~~javascript
 btn.addEventListener('click', function(e){
-  console.log(e)
+  console.log(e);
 })
 ~~~
 
@@ -406,7 +407,7 @@ Try this:
 
 ~~~javascript
 btn.addEventListener('click', function(e){
-  console.log(e.target)
+  console.log(e.target);
 })
 ~~~
 
@@ -414,7 +415,7 @@ and now this:
 
 ~~~javascript
 btn.addEventListener('click', function(e){
-  e.target.style.background = 'blue'
+  e.target.style.background = 'blue';
 })
 ~~~
 
