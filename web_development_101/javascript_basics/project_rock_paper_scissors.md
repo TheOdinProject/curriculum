@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [slotthy's GUI solution](https://github.com/slotthy/ROCK-PAPER-SCISSORS-SHOOT)
+- [Robert Kalninss' solution](https://github.com/robertkalnins/rock-paper-scissors) - [View in Browser](https://robertkalnins.github.io/rock-paper-scissors/)
 - [Henri's solution](https://github.com/harrika/odinjs) - [View in Browser](https://harrika.github.io/odinjs/)
 - [CoderOO7 solution (with GUI)](https://github.com/coderoo7/rockPaperScissor) - [View in Browser](https://coderoo7.github.io/rockPaperScissor)
 - [nadjastojanovic's solution](https://github.com/nadjastojanovic/rock-paper-scissors)
@@ -695,4 +696,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jake's Solution](https://github.com/jdonahue135/the_odin_project/tree/master/RockPaperScissors) - [View in Browser](https://github.com/jdonahue135/the_odin_project/tree/master/RockPaperScissors)
 - [Srini Kumar's Solution](https://github.com/megafauna64/rock-paper-scissors) - [View in Browser](https://github.com/megafauna64/rock-paper-scissors)
 - [mre91's Solution](https://github.com/mre91/rock-paper-scissors) - [View in Browser](https://mre91.github.io/rock-paper-scissors/)
+- [Oliver Burt's Solution](https://github.com/oliburt/rock-paper-scissors) - [View in Browser](https://oliburt.github.io/rock-paper-scissors/)
 </details>
