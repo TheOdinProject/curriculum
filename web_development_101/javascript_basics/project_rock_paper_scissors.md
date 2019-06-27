@@ -40,13 +40,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Henri's solution](https://github.com/harrika/odinjs) - [View in Browser](https://harrika.github.io/odinjs/)
 - [CoderOO7 solution (with GUI)](https://github.com/coderoo7/rockPaperScissor) - [View in Browser](https://coderoo7.github.io/rockPaperScissor)
 - [nadjastojanovic's solution](https://github.com/nadjastojanovic/rock-paper-scissors)
 - [Craig T's solution](https://github.com/ctomberg/Rock-Paper-Scissors) - [View in Browser](https://ctomberg.github.io/Rock-Paper-Scissors/)
 - [Jeffrey's solution](https://github.com/Jeffreyvdk/rock_paper_scissors)
 - [ZachHoskins' solution](https://github.com/ZachHoskins/rock-paper-scissors)
 - [Az's soultion (console)](https://github.com/AztecianDev/RockPaperScissors) - [View in Browser](https://azteciandev.github.io/RockPaperScissors/)
-- [Henri's solution ](https://github.com/harrika/odinjs) 
 - [Brian's solution (with GUI)](https://github.com/briantuju/odinProject/tree/master/rps-game) - [View in Browser](https://briantuju.github.io/odinProject/rps-game/index.html)
 - [Vera' Solution](https://github.com/overaaloe/rock_paper_scissors) - [View in Browser](https://overaaloe.github.io/rock_paper_scissors/)
 - [MrNotKindHeart's solution](https://github.com/Diegohndev/Rock-Paper-Scissor)
