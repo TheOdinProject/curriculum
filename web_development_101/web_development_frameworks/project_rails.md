@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ben's Solution](https://github.com/Koshoo/Ruby-on-Rails-blog-project/) - [View in browser](http://blogger-ben.herokuapp.com/)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/blogger) - [View in browser](https://niconibloggerapp.herokuapp.com)
 * [Daniel Prince's Solution](https://github.com/danielambrosius/my_second_rails_app) - [View in browser](https://glacial-refuge-28698.herokuapp.com/)
 * [Sizigia's Solution](https://github.com/sizigia/blogger) - [View in browser](https://top-blogger.herokuapp.com/)
