@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>etch a sketch project by Azimuth Gambit</title>
+    <style>
+    
+    html, body {
+        text-align:center;
+        background-color:cornsilk;
+        font-family:sans-serif;
+    }
+
+    button {
+        background-color: lightgreen;
+        border: none;
+        border-radius: 0.8rem;
+        color: black;
+        padding: 1rem;
+        margin: 1rem;
+        margin-bottom:20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition: 0.2s;
+    }
+    
+    button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .container {
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom:30px;
+        display:grid;
+        grid-template-rows:;
+        grid-template-columns:;
+        width: 800px;
+        height: 800px;
+    }
+
+    .tile {
+        background-color:white;
+        border:0.1px solid lightgrey;
+        transition:0.2s;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>etch-a-sketch!</h1>
+
+    <div class="btns">
+        <button class="btn" id="reset-btn">RESET GRID</button>
+        <button class="btn" id="random-btn">RANDOM COLORS!</button>
+        <button class="btn" id="shades-btn">SHADES OF GREY?</button>
+    </div>
+
+    <div class="container" id="container"></div>
+
+    <p><br>by Azimuth Gambit<br>June 2019</p>
+
+</body>
+
+<script>
+    let gridDims = 16;
+    buildGrid(gridDims);
+
+    //Reset Button and grid building    
+    const resetBtn = document.getElementById("reset-btn");
+    resetBtn.onclick = () => resetPrompt();
+
+    // prompt for input, alert if not usable
+    function resetPrompt() {
+        let inGrid = prompt("enter grid size:", "16");
+        if (isNaN(inGrid)) {
+            alert('you must enter a number!')
+            return;
+        } else if (inGrid > 150) {
+            alert("too high! try again. less than 150, please.  mustn't crash the browser.");
+            return;
+        } else if (inGrid % 1 != 0) {
+            alert('must be an integer!')
+        } else {buildGrid(inGrid);}        
+    }
+
+    function buildGrid(gridDims) {        
+        const containerDiv = document.querySelector(".container");
+
+        // clear out any existing tiles
+        while (containerDiv.firstChild) {
+            containerDiv.firstChild.remove();
+        }
+
+        // build the CSS grid template columns and rows in containerDiv
+        let gridFr = "1fr ";
+        containerDiv.style.gridTemplateRows = gridFr.repeat(gridDims);
+        containerDiv.style.gridTemplateColumns = gridFr.repeat(gridDims);
+
+        // create tile div elements, assign class, append to containerDiv
+        for (let i = 0; i < gridDims * gridDims; i++) {
+            let tileDiv = document.createElement("DIV");
+            tileDiv.className = "tile";
+            tileDiv.id = i.toString();
+            document.getElementById("container").appendChild(tileDiv);
+        }
+
+        // build event listeners for tiles as an array
+        let tileGet = document.getElementsByClassName("tile");
+        let tileArr = Array.from(tileGet);
+        tileArr.forEach(tile => tile.onmouseover = () => tile.style.backgroundColor = "rgb(0, 0, 0)");
+        tileArr.forEach(tile => tile.onclick = () => tile.style.backgroundColor = "white");
+
+    }
+
+    let randomColor = () => {
+        let randA = [];
+        for (let i = 0; i < 3; i++) {
+            let randGen = Math.trunc(Math.ceil(Math.random() * 255));
+            randA.push(randGen);
+        }
+        let randOut = "rgb(" + randA[0] + ", " + randA[1] + ", " + randA[2] + ")";
+        return randOut;
+    }
+
+    // code for Random Colors button
+
+    const randBtn = document.getElementById("random-btn");
+
+    randBtn.onmouseover = () => randBtn.style.backgroundColor = randomColor();
+        
+    randBtn.onclick = () => {
+        let tileGet = document.getElementsByClassName("tile");
+        let tileArr = Array.from(tileGet);
+        tileArr.forEach(tile => tile.onmouseover = () => tile.style.backgroundColor = randomColor());
+        tileArr.forEach(tile => tile.onclick = () => tile.style.backgroundColor = "white");
+    }
+    
+    // code for Shades of Grey button
+
+    const shadesBtn = document.getElementById("shades-btn");
+
+    shadesBtn.onmouseover = () => shadesBtn.style.backgroundColor = 'lightgrey';
+
+    function incShade(tileId) {
+        let tile = document.getElementById(tileId);
+        let tileShade = 
+            tile.style.backgroundColor
+            .toString()
+            .slice(4,7);
+        
+        // filter out commas and spaces in tileShade using RegExp
+        if (tileShade.includes(',')) {
+            tileShade = tileShade.match(/\d+/g).toString();
+        }
+        
+        // increment shade to black
+        if (tileShade === '') {
+            tileShade = 230;
+        } else if (tileShade < 25) { 
+            tileShade = 0;
+        } else {
+            tileShade = tileShade - 25;
+        }
+        return "rgb(" + tileShade + ", " + tileShade + ", " + tileShade + ")";
+    }
+    
+    // increment shades of grey to black
+    shadesBtn.onclick = () => {
+        let tileGet = document.getElementsByClassName("tile");
+        let tileArr = Array.from(tileGet);
+        tileArr.forEach(tile => tile.onclick = () => tile.style.backgroundColor = "white");
+        tileArr.forEach(tile => tile.onmouseover = () => {
+            tile.style.backgroundColor = incShade(tile.id);
+        });        
+    }
+
+</script>
+
+</html>
