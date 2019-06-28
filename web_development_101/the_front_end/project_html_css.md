@@ -88,6 +88,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [CodingGeekOdin's Solution (Easy)](https://github.com/CodingGeekOdin/google-homepage) - [View in Browser](https://codinggeekodin.github.io/google-homepage/)
+* [David Solution (Easy)](https://github.com/david90278/google-homepage) - [View in Browser](https://david90278.github.io/google-homepage/)
+* [Aharon's Solution (Easy)](https://github.com/aharonwsmith/google-homepage) - [View in Browser](https://aharonwsmith.github.io/google-homepage/)
 * [Nitin's Solution (Easy)](https://github.com/Nitin529/google-homepage) - [View in Browser](https://nitin529.github.io/google-homepage/)
 * [Eric's Solution (Easy)](https://github.com/rollingpeanuts/google-homepage) - [View in Browser](https://rollingpeanuts.github.io/google-homepage/)
 * [Tiffany's Solution (Easy)](https://github.com/tiffanymatthe/google-homepage) - [View in Browser](https://tiffanymatthe.github.io/google-homepage/)
@@ -2201,8 +2204,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [nadjastojanovic's Solution(Easy)](https://github.com/nadjastojanovic/google-homepage) - [View in Browser](https://nadjastojanovic.github.io/google-homepage/)
 * [nadjastojanovic's Solution(Difficult)](https://github.com/nadjastojanovic/google-search) - [View in Browser](https://nadjastojanovic.github.io/google-search/)  
 * [Kai V's Solution (Easy)](https://github.com/KaiVandivier/google-homepage) - [View in Browser](https://kaivandivier.github.io/google-homepage/)
-* [ZachJohn64's Solution (Easy)](https://github.com/ZachJohn64/google-homepage) - [View in Browser]
-(https://zachjohn64.github.io/google-homepage/)
+* [ZachJohn64's Solution (Easy)](https://github.com/ZachJohn64/google-homepage) - [View in Browser](https://zachjohn64.github.io/google-homepage/)
+* [Nic M's Solution (Easy)](https://github.com/NicMetras/google-homepage) - [View in Browser](https://nicmetras.github.io/google-homepage/)
+* [CianMaggs Solution (Easy)](https://cianmaggs.github.io/google-homepage/) - [View in Browser]
 </details>
 
 ### Additional Resources

@@ -40,12 +40,15 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [slotthy's GUI solution](https://github.com/slotthy/ROCK-PAPER-SCISSORS-SHOOT)
+- [Robert Kalninss' solution](https://github.com/robertkalnins/rock-paper-scissors) - [View in Browser](https://robertkalnins.github.io/rock-paper-scissors/)
+- [Henri's solution](https://github.com/harrika/odinjs) - [View in Browser](https://harrika.github.io/odinjs/)
+- [CoderOO7 solution (with GUI)](https://github.com/coderoo7/rockPaperScissor) - [View in Browser](https://coderoo7.github.io/rockPaperScissor)
 - [nadjastojanovic's solution](https://github.com/nadjastojanovic/rock-paper-scissors)
 - [Craig T's solution](https://github.com/ctomberg/Rock-Paper-Scissors) - [View in Browser](https://ctomberg.github.io/Rock-Paper-Scissors/)
 - [Jeffrey's solution](https://github.com/Jeffreyvdk/rock_paper_scissors)
 - [ZachHoskins' solution](https://github.com/ZachHoskins/rock-paper-scissors)
 - [Az's soultion (console)](https://github.com/AztecianDev/RockPaperScissors) - [View in Browser](https://azteciandev.github.io/RockPaperScissors/)
-- [Henri's solution ](https://github.com/harrika/odinjs) 
 - [Brian's solution (with GUI)](https://github.com/briantuju/odinProject/tree/master/rps-game) - [View in Browser](https://briantuju.github.io/odinProject/rps-game/index.html)
 - [Vera' Solution](https://github.com/overaaloe/rock_paper_scissors) - [View in Browser](https://overaaloe.github.io/rock_paper_scissors/)
 - [MrNotKindHeart's solution](https://github.com/Diegohndev/Rock-Paper-Scissor)
@@ -692,4 +695,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kalmod's Solution](https://github.com/kalmod/rock_paper_scissors) - [View in Browser](https://kalmod.github.io/rock_paper_scissors/)
 - [Jake's Solution](https://github.com/jdonahue135/the_odin_project/tree/master/RockPaperScissors) - [View in Browser](https://github.com/jdonahue135/the_odin_project/tree/master/RockPaperScissors)
 - [Srini Kumar's Solution](https://github.com/megafauna64/rock-paper-scissors) - [View in Browser](https://github.com/megafauna64/rock-paper-scissors)
+- [mre91's Solution](https://github.com/mre91/rock-paper-scissors) - [View in Browser](https://mre91.github.io/rock-paper-scissors/)
+- [Oliver Burt's Solution](https://github.com/oliburt/rock-paper-scissors) - [View in Browser](https://oliburt.github.io/rock-paper-scissors/)
 </details>

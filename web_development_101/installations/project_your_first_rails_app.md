@@ -208,7 +208,7 @@ heroku create
 Then, run
 
 ~~~bash
-git remote show
+git remote
 ~~~
 
 Verify that you see `heroku` in the output.

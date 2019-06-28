@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [cotrones's Solution](https://github.com/cotrones/etch-a-sketch) - [View in Browser](https://cotrones.github.io/etch-a-sketch/)
+* [Henry M. Kirya's Solution](https://github.com/harrika/odinjs-sketch) - [View in Browser](https://harrika.github.io/odinjs-sketch/)
 * [Ben's Solution](https://github.com/Koshoo/etch-a-sketch) - [View in Browser](https://koshoo.github.io/etch-a-sketch/)
 * [Brian's Solution](https://github.com/briantuju/odinProject/tree/master/e-a-sketch) - [View in Browser](https://briantuju.github.io/odinProject/e-a-sketch/index.html)
 * [Barrie's solution](https://github.com/barrielake/etch-a-sketch) - [View in Browser](https://barrielake.github.io/etch-a-sketch/)
@@ -422,6 +424,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Matt P's Solution](https://github.com/mrparker1991/EtchASketch) - [View in Browser](https://mrparker1991.github.io/EtchASketch/)
 * [Agnes-Mwaniki's-Solution](https://github.com/AgnesNM/Etch-a-Sketch) - [View-in-Browser](https://agnesnm.github.io/Etch-a-Sketch/)
 * [Denis Danilkov's Solution](https://github.com/Hloppchik/ETCH-A-SKETCH) - [View in Browser](https://hloppchik.github.io/ETCH-A-SKETCH/)
+* [Charalampos Sarantoglou's Solution](https://github.com/csara1/etch-a-sketch) - [View in Browser](https://csara1.github.io/etch-a-sketch/) 
+* [Shafie's Solution](https://github.com/shafier/EtchASketch) - [View in Browser](https://shafier.github.io/EtchASketch/)
 * [Charalampos Sarantoglou's Solution](https://github.com/csara1/etch-a-sketch) - [View in Browser](https://csara1.github.io/etch-a-sketch/)
 * [Andrea Diotallevi's Solution](https://github.com/AndreaDiotallevi/etch-a-sketch) - [View in Browser](https://andreadiotallevi.github.io/etch-a-sketch/)
 * [Willie Jones III's Solution](https://github.com/wjone005/Etch-A-Sketch) - [View in Browser](https://wjone005.github.io/Etch-A-Sketch/)
