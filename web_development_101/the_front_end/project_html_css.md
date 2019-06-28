@@ -2208,6 +2208,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Nic M's Solution (Easy)](https://github.com/NicMetras/google-homepage) - [View in Browser](https://nicmetras.github.io/google-homepage/)
 * [CianMaggs Solution (Easy)](https://cianmaggs.github.io/google-homepage/) - [View in Browser]
 </details>
+* [Bruno Tostes Solution (Easy)](https://btfjulio.github.io/google-homepage/) - [View in Browser]
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
