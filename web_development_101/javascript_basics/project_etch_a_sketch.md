@@ -434,4 +434,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Chris K's Solution](https://github.com/c-tothe-k/etch-a-sketch) - [View in Browser](https://c-tothe-k.github.io/etch-a-sketch/)
 * [Bram Pijper's Solution](https://github.com/brampijper/etch-a-sketch) - [View in Browser](https://brampijper.github.io/etch-a-sketch/)
 * [Nathan Choi's Solution](https://github.com/sihoonathan/etch-a-sketch) - [View in Browser](https://sihoonathan.github.io/etch-a-sketch/)
+* [Oliver Burt's Solution](https://github.com/oliburt/etch-a-sketch) - [View in Browser](https://oliburt.github.io/etch-a-sketch/)
 </details>
