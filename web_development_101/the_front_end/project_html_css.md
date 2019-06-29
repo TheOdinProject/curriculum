@@ -2206,9 +2206,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kai V's Solution (Easy)](https://github.com/KaiVandivier/google-homepage) - [View in Browser](https://kaivandivier.github.io/google-homepage/)
 * [ZachJohn64's Solution (Easy)](https://github.com/ZachJohn64/google-homepage) - [View in Browser](https://zachjohn64.github.io/google-homepage/)
 * [Nic M's Solution (Easy)](https://github.com/NicMetras/google-homepage) - [View in Browser](https://nicmetras.github.io/google-homepage/)
-* [CianMaggs Solution (Easy)](https://cianmaggs.github.io/google-homepage/) - [View in Browser]
-</details>
-* [Bruno Tostes Solution (Easy)](https://btfjulio.github.io/google-homepage/) - [View in Browser]
+* [CianMaggs Solution (Easy)](https://cianmaggs.github.io/google-homepage/)
+* [Bruno Tostes Solution (Easy)](https://btfjulio.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
