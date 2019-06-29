@@ -7,12 +7,12 @@ That black screen or window is the command line interface (CLI), where you're ab
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't be intimidated by the prospect of using the command line for the first time.
 
 #### Test Drive Your Terminal
-Open a terminal on your computer. On Linux: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard. On Mac: open your applications folder and find "Terminal". Take it for a test run! Make sure your terminal is open, type the command below, and press enter:
-
+Open a terminal on your computer. On Linux: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard. On Mac: open your applications folder and find "Terminal". Before we do anything, take a look at the following text:
 ``` 
-whoami
+$ whoami
 ```
-    
+This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` does, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press enter on your keyboard.
+
 It returns your username. Cool!
 
 ## Why learn this now?
