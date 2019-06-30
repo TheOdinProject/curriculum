@@ -213,6 +213,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Tommy's solution](https://github.com/hoangtommy/re-former)
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/re-former)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/re-former)
+* [JamCry's Solution](https://github.com/jamcry/re-former)
+* [vanny96's Solution](https://github.com/vanny96/forms-project)
+* [Roy's solution](https://github.com/RoyNyaga/re_former_odin_project/tree/master/re_former)
 
 </details>
 

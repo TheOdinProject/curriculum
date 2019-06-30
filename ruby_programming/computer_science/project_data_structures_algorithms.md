@@ -29,6 +29,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [BShowen's Solution](https://github.com/BShowen/Linked_list_in_Ruby)
+* [George Zhu's Solution](https://github.com/georgezhu11/binary_tree/blob/master/binary_tree.rb)
+* [Arilson Souza Solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_data_structures_and_algorithms/binary_tree.rb)
 * [Vollantre's Solution](https://github.com/vollantre/binary_tree/blob/master/binary_tree.rb)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/binary_trees)
 * [Kevin Vuong's Solution](https://github.com/fffear/binary_search_tree)
@@ -157,6 +160,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [vanny96's Solution](https://github.com/vanny96/binary-trees)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/binary_tree.rb)
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/binary_search_tree.rb)
+* [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 
 </details>
 
@@ -204,6 +209,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [BShowen's Solution](https://github.com/BShowen/Knights_travails)
+* [George Zhu's solution](https://github.com/georgezhu11/knight_moves/blob/master/knight_moves.rb)
+* [Arilson Souza Solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_data_structures_and_algorithms/knight_moves.rb)
 * [Vollantre's solution](https://github.com/vollantre/knight_moves)
 * [Kevin Vuong's solution](https://github.com/fffear/knight_travails)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/knight_moves)
@@ -329,5 +337,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Mojotron's solution](https://github.com/mojotron/graph_with_knights_travails)
 * [vanny96's solution](https://github.com/vanny96/binary-trees)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/knight_moves.rb)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 
 </details>

@@ -86,7 +86,7 @@ Finally, run `rbenv -v` from your terminal to verify that `rbenv` has been insta
 
 ~~~bash
 rbenv -v
-rbenv 1.1.1-40-g483e7f9
+rbenv 1.1.2-2-g4e92322
 ~~~
 
 If you do not get a version number, please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
@@ -159,21 +159,11 @@ You will be prompted to enter your password. When typing your password, you may 
 
 Congratulations! You've installed the prerequisites!
 
-### Step 2: Install Git and Heroku
+### Step 2: Install Heroku
 
-Git is a version control program and one of the most powerful tools in your developer toolbelt. You'll learn more about Git later on.
+Heroku is a place to host your Rails applications
 
-#### Step 2.1: Update Git
-
-MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
-
-~~~bash
-brew install git
-~~~
-
-This will install the latest version of Git. Easy, right?
-
-#### Step 2.2: Install Heroku
+#### Step 1.1: Install Heroku
 
 Next, install Heroku:
 
@@ -220,7 +210,7 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 #### Step 3.3: Install Ruby
 
-We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.1:
+We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.3:
 
 ~~~bash
 rbenv install 2.6.3 --verbose
@@ -234,12 +224,14 @@ Once Ruby is installed, you need to tell rbenv which version to use by default. 
 rbenv global 2.6.3
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.1:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.3:
 
 ~~~bash
 $ ruby -v
 ruby 2.6.3pxx (20xx-xx-xx revision xxxxx)
 ~~~
+
+If you don't see the output above, log off and log back on, then try again.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 

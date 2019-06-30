@@ -227,6 +227,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex's Solution](https://github.com/alexcorremans/micro-reddit)
 * [Brendaneus' Solution](https://github.com/brendaneus/micro-reddit)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/micro-reddit)
+* [JamCry's Solution](https://github.com/jamcry/micro-reddit)
+* [Vanny96's Solution](https://github.com/vanny96/micro_reddit)
+* [Cody B's Solution](https://github.com/CodyLBuffaloe/micro-reddit)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/micro-reddit)
 
 </details>
 
