@@ -3,7 +3,7 @@ module Users
     before_action :authenticate_request
 
     def create
-      current_user.update_attributes(track_id: track_id)
+      current_user.update_attributes!(track_id: track_id)
       redirect_to track
     end
 
