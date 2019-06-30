@@ -438,4 +438,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Bram Pijper's Solution](https://github.com/brampijper/etch-a-sketch) - [View in Browser](https://brampijper.github.io/etch-a-sketch/)
 * [Nathan Choi's Solution](https://github.com/sihoonathan/etch-a-sketch) - [View in Browser](https://sihoonathan.github.io/etch-a-sketch/)
 * [Oliver Burt's Solution](https://github.com/oliburt/etch-a-sketch) - [View in Browser](https://oliburt.github.io/etch-a-sketch/)
+* [Oluwadamilare Olusakin's Solution](https://github.com/Oluwadamilareolusakin/etch-a-sketch) - [View in Browser](https://oluwadamilareolusakin.github.io/etch-a-sketch/)
 </details>
