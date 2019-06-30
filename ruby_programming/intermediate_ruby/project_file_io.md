@@ -236,4 +236,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Nyaga Roy's Solution](https://github.com/RoyNyaga/hangman_game_odin_project)
 * [Tronerta's Solution](https://github.com/Tronerta/hangman) - [Play on Repl.it](https://repl.it/@Tronerta/Hangman)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/hangman.rb) - [Play on Repl.it](https://repl.it/@BenFowler/Hangman)
+* [Bendee48's Solution](https://github.com/bendee48/hangman) - [Play on Repl.it](https://repl.it/@bendee48/Hangman)
 </details>
