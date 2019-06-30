@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line! 
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/intermediate-Ruby/blob/master/tic-tac-toe.rb)
+* [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Intermediate_Ruby_Projects/tic_tac_toe.rb) - [Live](https://repl.it/@sarpisik/Tic-Tac-Toe-Game) 
 * [Guanacone's Solution](https://github.com/guanacone/oop/blob/master/tic_tac_toe.rb)
 * [Joe Lee's Solution](https://github.com/JoeDravarol/tic-tac-toe) - [View in repl.it](https://repl.it/@JoeDravarol/Tic-Tac-Toe-Game)
 * [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_oop/tic_tac_toe.rb)
@@ -272,7 +274,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Reynard van den Berg's Solution](https://github.com/Rey810/OOP/blob/master/TicTacToe.rb)
 * [keskiviikko's Solution](https://github.com/keskiviikko/project_tictactoe)
 * [Tronerta's Solution](https://github.com/Tronerta/oop/blob/master/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Tronerta/Tic-Tac-Toe)
-
+* [HanJosmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/object_oriented_programming/tic_tac_toe.rb)
+* [LastCapricorn's Solution](https://github.com/LastCapricorn/the_odin_project/tree/master/ruby_programming/project_oop/tic_tac_toe)
+* [Kelvin & Denis' Solution](https://github.com/DenisCuencaBrex/tic-tac-toe) - [Play on Repl.it](https://repl.it/@KelvinLiang/tic-tac-toe)
+* [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@BenFowler/Tic-Tac-Toe)
 </details>
 
 ### Project 2: Mastermind
@@ -298,7 +303,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this line!
+* Add your solution below this line! 
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/intermediate-Ruby/blob/master/mastermind.rb)
+* [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Intermediate_Ruby_Projects/mastermind.rb) - [Live](https://repl.it/@sarpisik/Mastermind-Game)
 * [Joe Lee's Solution](https://github.com/JoeDravarol/mastermind) - [View in repl.it](https://repl.it/@JoeDravarol/Mastermind-Game)
 * [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/tree/master/ruby/project_oop/mastermind)
 * [George Zhu's Solution](https://github.com/georgezhu11/mastermind/blob/master/mastermind.rb)
@@ -500,6 +507,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex Krewson's solution](https://github.com/alexkrewson/oop/blob/master/mastermind.rb)
 * [Reynard van den Berg's solution](https://github.com/Rey810/OOP/blob/master/mastermind.rb)
 * [Tronerta's Solution](https://github.com/Tronerta/oop/blob/master/mastermind.rb) - [Play on Repl.it](https://repl.it/@Tronerta/Mastermind)
+* [HanJosmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/object_oriented_programming/mastermind.rb)
+* [Nyaga Roy's solution](https://github.com/RoyNyaga/o_o_p_microverse_games)
+* [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@BenFowler/Mastermind)
+* [Bendee48's solution](https://github.com/bendee48/mastermind) - [Play on Repl.it](https://repl.it/@bendee48/Mastermind)
 </details>
 
 ### Additional Resources

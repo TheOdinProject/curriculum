@@ -23,6 +23,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/bing_search)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/rest-client-warmup)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/rails-exercises/tree/master/rest-client)
 * [Simon Tharby's solution](https://github.com/jinjagit/rest_client)
 * [Jason McKee's Solution (with Regex to get results and links)](https://github.com/jttmckee/rest-client/tree/master)
 * [Isil Donmez's solution](https://github.com/isildonmez/rest_client)
@@ -84,7 +87,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/rest-client/blob/master/rest-client.rb)
 * [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
 * [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
-
+* [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
 </details>
 
 ### Project: Ruby on Rails Tutorial

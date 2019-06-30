@@ -31,6 +31,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lele's Solution](https://github.com/Lele992/learn_ruby)
+* [Allan Glasier's Solution](https://github.com/allan-glasier/ruby_problems)
+* [Basskip's Solution](https://github.com/Basskip/learn_ruby)
+* [Cayli's Solution](https://github.com/cayb0rg/learn_ruby)
+* [Sherman's Solution](https://github.com/shermansjliu/learn_ruby)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/learn_ruby)
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/learn_ruby)
 * [Daniel Prince's Solution](https://github.com/danielambrosius/learn_ruby)
 * [Sarp's Solution](https://github.com/sarpisik/learn_ruby)
 * [Emmanuel Oni's Solution](https://github.com/emmaoni/learn_ruby)
@@ -533,6 +540,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Doug Heatter's solution](https://github.com/drheatter/learn_ruby)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/Project_ruby_by_Roy)
 * [John-san's solution](https://github.com/john-san/learn_ruby)
+* [Robert Dunbar's solution](https://github.com/RobertDunbar/learn_ruby)
+* [Esau Guerra's solution](https://github.com/esaug/learn_ruby)
+* [Adriel Bruno's solution](https://github.com/AdrielTrigger/learn_ruby)
+* [Konrad Zagozda's solution](https://github.com/konradzagozda/learn_ruby)
+* [Neel Ratn's solution](https://github.com/neelra8n/learn_ruby)
 </details>
 
 ### Additional Resources
