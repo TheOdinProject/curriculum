@@ -14,28 +14,6 @@ FactoryBot.define do
     factory :admin do
       admin { true }
     end
-    association :track
-  end
-
-  factory :track do
-    sequence :title do |n|
-      "test lesson#{n}"
-    end
-
-    sequence :position do |n|
-      n
-    end
-    description { "A Track"}
-
-    factory :track_with_courses do
-      transient do
-        courses_count { 10 }
-      end
-
-      after(:create) do |track, evaluator|
-        create_list(:course, evaluator.courses_count, track: track)
-      end
-    end
   end
 
   factory :lesson do

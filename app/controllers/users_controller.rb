@@ -4,9 +4,8 @@ class UsersController < ApplicationController
   authorize_resource only: [:edit, :update]
 
   def show
-    @courses = decorated_track_courses
+    @courses = decorated_courses
     @projects = @user.projects_with_lesson
-    @track = @user.track
   end
 
   def update
@@ -16,10 +15,8 @@ class UsersController < ApplicationController
 
   private
 
-  def decorated_track_courses
-    @user.track.courses.track_order.map  do |course|
-      CourseDecorator.new(course)
-    end
+  def decorated_courses
+    courses.map { |course| CourseDecorator.new(course) }
   end
 
   def courses
@@ -37,7 +34,6 @@ class UsersController < ApplicationController
         :learning_goal,
         :uid,
         :provider,
-        :track_id,
       )
   end
 

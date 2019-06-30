@@ -17,23 +17,6 @@
 
 # Public: Only run this update attributes if all have one or more records
 # in thedatabase
-
-def create_or_update_track(track_attrs)
-  track = Track.where(title: track_attrs[:title]).first
-
-  if track.nil?
-    track = Track.create!(track_attrs)
-    Rails.logger.info ">>>> Created new track: #{track_attrs[:title]}!"
-  elsif track.attributes == track_attrs
-    Rails.logger.info "No changes to existing track: #{track_attrs[:title]}"
-  else
-    track.update_attributes(track_attrs)
-    Rails.logger.info "Updated existing << TRACK >>: #{track_attrs[:title]}"
-  end
-
-  track
-end
-
 def create_or_update_course(course_attrs)
   course = Course.where(title: course_attrs[:title]).first
 
@@ -97,35 +80,10 @@ load './db/seeds/04_rails_course_seeds.rb'
 load './db/seeds/05_html_css_course_seeds.rb'
 load './db/seeds/06_javascript_course_seeds.rb'
 load './db/seeds/07_getting_hired_course_seeds.rb'
-load './db/seeds/08_node_js_course_seeds.rb'
 
-
-Rails.logger.info "\n\n***** STARTING TRACKS *****"
-
-load './db/seeds/tracks/full_stack_rails.rb'
-load './db/seeds/tracks/full_stack_javascript.rb'
-load './db/seeds/tracks/front_end.rb'
 
 # GENERATE SUCCESS STORY Content
-load './db/seeds/success_stories.rb'
-
-# CREATE DEVELOPMENT USERS
-if Rails.env = "development"
-  User.delete_all
-  User.create(
-    email: 'user@example.com',
-    password: 'foobar',
-    password_confirmation: 'foobar',
-    username: 'user'
-  )
-  User.create(
-    email: 'admin@example.com',
-    password: 'foobar',
-    password_confirmation: 'foobar',
-    username: 'admin',
-    admin: true
-  )
-end
+# load './db/seeds/success_stories.rb'
 
 #################
 # SANITY CHECKS #
