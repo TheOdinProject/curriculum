@@ -8,3 +8,5 @@
 <% courses.each do |course| %>
   <%= render 'skill', course: course %>
 <% end %>
+
+<p class="text-center">You are currently enrolled in the <%= @track.title %> track. To view all available tracks <%= link_to 'click here', tracks_path %></p>
