@@ -73,7 +73,7 @@ NOTE: If upon trying to start the VM you only get a black screen, close and "pow
 
 Here are some tips to help you get started in a virtual environment:
 
-* All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. Your VM also comes with a web browser pre-installed.
+* All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The linux installation inside of your VM also comes with a web browser pre-installed.
 
 * To install software on your VM, you will follow the Linux installation instructions from inside the Xubuntu VM.
 
