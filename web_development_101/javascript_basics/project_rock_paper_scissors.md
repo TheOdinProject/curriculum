@@ -701,4 +701,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mre91's Solution](https://github.com/mre91/rock-paper-scissors) - [View in Browser](https://mre91.github.io/rock-paper-scissors/)
 - [Oliver Burt's Solution](https://github.com/oliburt/rock-paper-scissors) - [View in Browser](https://oliburt.github.io/rock-paper-scissors/)
 - [Bruno Tostes Solution](https://github.com/btfjulio/rock_paper_scissors) - [View in Browser](https://btfjulio.github.io/rock_paper_scissors/)
+- [Rosanne Nicolai's Solution](https://gitlab.com/rosannenicolai/rock-paper-scissors)
 </details>
