@@ -317,5 +317,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Marcus Calgar's solution](https://github.com/MarcusCalgar/javascript_calculator) - [View in Browser](https://marcuscalgar.github.io/javascript_calculator/)
 [Oluwadamilare Olusakin's solution](https://github.com/Oluwadamilareolusakin/calculator) - [View in Browser](https://oluwadamilareolusakin.github.io/calculator/)
 - [Cameron St. Amant's solution](https://github.com/CameronStAmant/calculator) - [View in Browser](https://cameronstamant.github.io/calculator/)
+- [Ousmane Sylla's solution](https://github.com/kitague/Calculator-Project/ - [View in Browser](https://kitague.github.io/Calculator-Project/)
 </details>
-**[Ousmane Sylla's Solution of Calculator] View in Browser--(https://kitague.github.io/Calculator-Project/.)
