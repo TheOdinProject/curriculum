@@ -318,3 +318,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 [Oluwadamilare Olusakin's solution](https://github.com/Oluwadamilareolusakin/calculator) - [View in Browser](https://oluwadamilareolusakin.github.io/calculator/)
 - [Cameron St. Amant's solution](https://github.com/CameronStAmant/calculator) - [View in Browser](https://cameronstamant.github.io/calculator/)
 </details>
+**[Ousmane Sylla's Solution of Calculator] View in Browser--(https://kitague.github.io/Calculator-Project/.)
