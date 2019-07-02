@@ -28,5 +28,6 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Faraz's Solution](https://github.com/frzkn/odin-projects/tree/master/basicinformationsite)
 
 </details>
