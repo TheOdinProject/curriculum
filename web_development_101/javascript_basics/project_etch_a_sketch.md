@@ -444,6 +444,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Oluwadamilare Olusakin's Solution](https://github.com/Oluwadamilareolusakin/etch-a-sketch) - [View in Browser](https://oluwadamilareolusakin.github.io/etch-a-sketch/)
 </details>
 * [Bruno Tostes Solution](https://github.com/btfjulio/etch-a-sketch) - [View in Browser](https://btfjulio.github.io/etch-a-sketch/)
+* [Alex Gioffre' Solution](https://github.com/AlexGioffre/EtchASketch) - [View in Browser](https://alexgioffre.github.io/EtchASketch/)
 </details>
 
 
