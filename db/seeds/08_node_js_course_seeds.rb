@@ -12,7 +12,7 @@ lesson_position = 0
 course = create_or_update_course(
   title: "NodeJS",
   title_url: "NodeJS".parameterize,
-  description: "You'll learn everything you need to take you're JavaScript skills to the server-side.",
+  description: "You'll learn everything you need to take your JavaScript skills to the server-side.",
   position: course_position
 )
 
