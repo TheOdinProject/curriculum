@@ -32,6 +32,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Maria Tikhonova's solution](https://github.com/MariaTikhonova/odin_rails/tree/master/rest_client)
 * [Omar Moataz's solution](https://github.com/OmarMoataz/bing_console)
 * [Andrew's solution](https://github.com/andrewr224/bing-search)
+* [Dennis Cope's Solution](https://github.com/coped/restclient-warmup)
 * [Jmooree30's solution](https://github.com/jmooree30/rest-client.git)
 * [Kasey Z's solution](https://github.com/kasey-z/bing_search)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/rest_client)
