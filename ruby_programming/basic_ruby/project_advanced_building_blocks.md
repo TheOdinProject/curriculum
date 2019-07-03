@@ -362,6 +362,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Barbara Lucas' Solution](https://gist.github.com/LucasBarbara/60e8497115b422afa6bceafd6fa2d57c)
 * [Muminjon's Solution](https://github.com/MuminjonGuru/Mastering-Ruby-Object-Oriented-Design/tree/master/Challenges/Advanced%20Building%20Blocks/Sorting)
 * [Tristan Ross's Solution](https://github.com/TristanRoss/bubble_sort)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/bubble-sort/blob/master/bubble.rb)
 </details>
 
 ### Project 2: Enumerable Methods
