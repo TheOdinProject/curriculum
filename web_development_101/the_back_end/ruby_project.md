@@ -544,6 +544,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Esau Guerra's solution](https://github.com/esaug/learn_ruby)
 * [Adriel Bruno's solution](https://github.com/AdrielTrigger/learn_ruby)
 * [Konrad Zagozda's solution](https://github.com/konradzagozda/learn_ruby)
+* [Cameron St. Amant's solution](https://github.com/CameronStAmant/learn_ruby)
 </details>
 
 ### Additional Resources
