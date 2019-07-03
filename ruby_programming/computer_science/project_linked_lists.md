@@ -187,4 +187,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Wesley Wang's Solution (with extra credit)](https://github.com/wesleymellon/linked-list-structure)
 * [Alex Krewson's Solution (with extra credit)](https://github.com/alexkrewson/linked_lists)
 * [Rey van den Berg's Solution (with extra credit)](https://github.com/Rey810/Linked-List-Data-Structure-)
+* [Sergej Jurchenko's Solution (with extra credit)](https://github.com/Sergyurch/linked_list/blob/master/linked_list.rb)
 </details>
