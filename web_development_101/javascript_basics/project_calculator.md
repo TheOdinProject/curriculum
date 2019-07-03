@@ -317,7 +317,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Robert Dunbar's solution](https://github.com/RobertDunbar/calculator) - [View in Browser](https://robertdunbar.github.io/calculator/)
 - [Charalampos Sarantoglou's solution](https://github.com/csara1/calculator) - [View in Browser](https://csara1.github.io/calculator/)
 - [Marcus Calgar's solution](https://github.com/MarcusCalgar/javascript_calculator) - [View in Browser](https://marcuscalgar.github.io/javascript_calculator/)
-[Oluwadamilare Olusakin's solution](https://github.com/Oluwadamilareolusakin/calculator) - [View in Browser](https://oluwadamilareolusakin.github.io/calculator/)
+- [Ousmane Sylla's solution](https://github.com/kitague/Calculator-Project/ - [View in Browser](https://kitague.github.io/Calculator-Project/)
+- [Oluwadamilare Olusakin's solution](https://github.com/Oluwadamilareolusakin/calculator) - [View in Browser](https://oluwadamilareolusakin.github.io/calculator/)
 - [Cameron St. Amant's solution](https://github.com/CameronStAmant/calculator) - [View in Browser](https://cameronstamant.github.io/calculator/)
 - [Nathan Choi's solution](https://github.com/sihoonathan/calculator) - [View in Browser](https://sihoonathan.github.io/calculator/)
 </details>
