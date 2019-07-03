@@ -18,8 +18,7 @@ There are three ways to open the Developer Tools menu:
 1. Head to the [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with (i.e. the Elements Panel):
     - Open DevTools
     - Device Mode
-        1. Device Mode
-        2. Test Responsive and Device-specific Viewports
+        1. Device Mode (Simulate Mobile Devices with Device Mode)
     - Elements panel
         1. Get Started With Viewing and Changing CSS
         2. Inspect and Tweak Your Pages

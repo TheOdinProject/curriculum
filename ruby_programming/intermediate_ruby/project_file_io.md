@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Onur Temiz's Solution](https://github.com/temizonur/hangman/blob/master/hangman.rb)
 * [Leonardo Vega's Solution](https://github.com/leonardovega/ruby_programming/blob/master/intermediate_ruby/project/hangman.rb)
 * [Guanacone's Solution](https://github.com/guanacone/hangman/blob/master/hangman.rb)
 * [BShowen's Solution](https://github.com/BShowen/ruby_terminal_hangman)
@@ -235,4 +236,6 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [keskiviikko's Solution](https://github.com/keskiviikko/project_hangman)
 * [Nyaga Roy's Solution](https://github.com/RoyNyaga/hangman_game_odin_project)
 * [Tronerta's Solution](https://github.com/Tronerta/hangman) - [Play on Repl.it](https://repl.it/@Tronerta/Hangman)
+* [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/hangman.rb) - [Play on Repl.it](https://repl.it/@BenFowler/Hangman)
+* [Bendee48's Solution](https://github.com/bendee48/hangman) - [Play on Repl.it](https://repl.it/@bendee48/Hangman)
 </details>

@@ -180,6 +180,8 @@ Run this command:
 curl https://cli-assets.heroku.com/install.sh | sh
 ~~~
 
+This command needs administrative access and will ask for your sudo password. Enter the password of your computer account and press enter to continue.
+
 Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
 
 
@@ -208,7 +210,7 @@ heroku create
 Then, run
 
 ~~~bash
-git remote show
+git remote
 ~~~
 
 Verify that you see `heroku` in the output.
