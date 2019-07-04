@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Reece White's Solution](https://github.com/brplatinum/calculator-3005) - [View in Browser](https://brplatinum.github.io/calculator-3005/)
 - [nadjastojanovic's Solution](https://github.com/nadjastojanovic/calculator) - [View in Browser](https://nadjastojanovic.github.io/calculator/)
 - [Luky's Solution](https://github.com/lcyne/top-calculator) - [View in Browser](https://lcyne.github.io/top-calculator/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/Calculator) - [View in Browser](https://kikupiku.github.io/Calculator)
