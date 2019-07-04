@@ -705,3 +705,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alex Gioffre's Solution](https://github.com/AlexGioffre/rockpaperscissors)
 - [Alex Gioffre's Solution With UI](https://github.com/AlexGioffre/rockpapperscissorsgui) - [View in Browser](https://alexgioffre.github.io/rockpapperscissorsgui/)
 </details>
+- [Ray Alvarez's Solution](https://github.com/gadget2013/RockPaperScissors) - [View in Browser]
