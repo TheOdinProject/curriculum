@@ -704,4 +704,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Rosanne Nicolai's Solution](https://gitlab.com/rosannenicolai/rock-paper-scissors)
 - [Alex Gioffre's Solution](https://github.com/AlexGioffre/rockpaperscissors)
 - [Alex Gioffre's Solution With UI](https://github.com/AlexGioffre/rockpapperscissorsgui) - [View in Browser](https://alexgioffre.github.io/rockpapperscissorsgui/)
+- [vang37's Solution With UI](https://github.com/vang37/RockPaperScissors)- [View in Browser] (https://vang37.github.io/RockPaperScissors)
 </details>
