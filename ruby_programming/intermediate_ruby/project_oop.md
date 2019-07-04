@@ -278,6 +278,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/the_odin_project/tree/master/ruby_programming/project_oop/tic_tac_toe)
 * [Kelvin & Denis' Solution](https://github.com/DenisCuencaBrex/tic-tac-toe) - [Play on Repl.it](https://repl.it/@KelvinLiang/tic-tac-toe)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@BenFowler/Tic-Tac-Toe)
+* [Eddie Ozuna's Solution](https://github.com/OzunaEdd/TicTacToe) 
 </details>
 
 ### Project 2: Mastermind
