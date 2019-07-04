@@ -108,6 +108,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [vanny96's solution](https://github.com/vanny96/chess)
 * [Vitaly Osipov's solution](https://github.com/vi7ali/chess)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/tree/master/chess)
+* [Alex Krewson's solution](https://github.com/alexkrewson/chess)
 
 </details>
 
