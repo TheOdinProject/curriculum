@@ -43,7 +43,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-* [Mitchell Glass's solution](https://github.com/mitchglass97/etch-a-sketch) - [View in Browser](https://mitchglass97.github.io/etch-a-sketch/)
+<<<<<<< HEAD
+* [Mitchell Glass' solution](https://github.com/mitchglass97/etch-a-sketch) - [View in Browser](https://mitchglass97.github.io/etch-a-sketch/)
+=======
+* [slotthy's Solution](https://github.com/slotthy/etch-a-sketch)
+* [Aaron's Solution](https://github.com/AztecianDev/Etch-a-Sketch) - [View in Browser](https://azteciandev.github.io/Etch-a-Sketch/)
+* [Dominic Laube's solution](https://github.com/Laubenstein/etch-a-sketch) - [View in Browser](https://laubenstein.github.io/etch-a-sketch/)
+>>>>>>> 282b2c08e1e9eecb3ebde527bdc7dd570d6d9339
 * [Isaac's solution](https://github.com/isaackelly0/etch-a-sketch/) - [View in Browser](https://isaackelly0.github.io/etch-a-sketch/)
 * [Sierra's solution](https://github.com/sierra073/etch-a-sketch) - [View in Browser](https://sierra073.github.io/etch-a-sketch/)
 * [nadjastojanovic's Solution](https://github.com/nadjastojanovic/etch-a-sketch) - [View in Browser](https://nadjastojanovic.github.io/etch-a-sketch/)
@@ -440,4 +446,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Nathan Choi's Solution](https://github.com/sihoonathan/etch-a-sketch) - [View in Browser](https://sihoonathan.github.io/etch-a-sketch/)
 * [Oliver Burt's Solution](https://github.com/oliburt/etch-a-sketch) - [View in Browser](https://oliburt.github.io/etch-a-sketch/)
 * [Oluwadamilare Olusakin's Solution](https://github.com/Oluwadamilareolusakin/etch-a-sketch) - [View in Browser](https://oluwadamilareolusakin.github.io/etch-a-sketch/)
+* [Bruno Tostes Solution](https://github.com/btfjulio/etch-a-sketch) - [View in Browser](https://btfjulio.github.io/etch-a-sketch/)
+* [Alex Gioffre' Solution](https://github.com/AlexGioffre/EtchASketch) - [View in Browser](https://alexgioffre.github.io/EtchASketch/)
 </details>
+</details>
+
+

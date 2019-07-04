@@ -4,6 +4,7 @@ In this unit, we are going to be following the [express tutorial](https://develo
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
+
 #### Express web framework
 - Describe Express and Node's main benefits.
 - Describe the relationship between Node and Express.
