@@ -706,4 +706,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alex Gioffre's Solution With UI](https://github.com/AlexGioffre/rockpapperscissorsgui) - [View in Browser](https://alexgioffre.github.io/rockpapperscissorsgui/)
 - [vang37's Solution With UI](https://github.com/vang37/RockPaperScissors)- [View in Browser](https://vang37.github.io/RockPaperScissors)
 - [Ray Alvarez's Solution](https://github.com/gadget2013/RockPaperScissors)
+- [Michael P's Solution] (https://github.com/MicoPham/project-rock-paper-scissors) - [View in Browser]
+(https://micopham.github.io/project-rock-paper-scissors/)
 </details>
