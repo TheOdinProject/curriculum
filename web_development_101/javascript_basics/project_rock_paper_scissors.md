@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Michael A' solution](https://github.com/malleyne747/cautious-spork-odin-rock-paper-scissors-) - [View in Browser](https://malleyne747.github.io/cautious-spork-odin-rock-paper-scissors-/)
 - [halftruth's solution](https://github.com/halftruth/rps)
 - [Ylli Abazi's solution](https://github.com/yllabazi/rock-paper-scissors)
 - [Flip-In's Solution](https://github.com/flip-in/Rock-Paper-Scissors) - [View in Browswer](https://flip-in.github.io/Rock-Paper-Scissors/)
@@ -671,7 +672,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sherman's Solution](https://github.com/shermansjliu/rock-paper-scissors) - [View in Browser](https://shermansjliu.github.io/rock-paper-scissors/)
 - [SameerLags' Solution](https://github.com/SameerLags/rock_paper_scissors) - [View in Browser](https://sameerlags.github.io/rock_paper_scissors/)
 - [Nearcited's Solution](https://github.com/nearcited/rock-paper-scissors/) - [View in Browser](https://nearcited.github.io/rock-paper-scissors/)
-- [Lou´s Solution](https://github.com/loumstr/rock-paper-scissors) 
+- [Lou´s Solution](https://github.com/loumstr/rock-paper-scissors)
 - [Scott O'Neil's Solution](https://github.com/sconeil/rock-paper-scissors) - [View in Browser](https://sconeil.github.io/rock-paper-scissors/)
 - [Den Danilkov Solution](https://github.com/Hloppchik/Rock-Paper-Scissors_TOP)
 - [Shafie´s Solution](https://github.com/shafier/RockPaperScissors) - [View in Browser](https://shafier.github.io/UI_RockPaperScissors/)
