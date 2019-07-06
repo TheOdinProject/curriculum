@@ -326,4 +326,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nathan Choi's solution](https://github.com/sihoonathan/calculator) - [View in Browser](https://sihoonathan.github.io/calculator/)
 - [Alex Gioffre's solution](https://github.com/AlexGioffre/Calculator) - [View in Browser](https://alexgioffre.github.io/Calculator/index.html)
 - [Kai V's solution](https://github.com/KaiVandivier/calculator) - [View in Browser](https://kaivandivier.github.io/calculator/) 
+- [David Bridges's solution](https://github.com/dvbridges/calculator) - [View in Browser](https://dvbridges.github.io/calculator/)
 </details>
