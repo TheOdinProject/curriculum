@@ -42,7 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Michael A' solution](https://github.com/malleyne747/cautious-spork-odin-rock-paper-scissors-) - [View in Browser](https://malleyne747.github.io/cautious-spork-odin-rock-paper-scissors-/)
 - [lmjcbs's solution](https://github.com/lmjcbs/rock-paper-scissors)
-- [GranthamAnthem's solution](https://github.com/GranthamAnthem/rock-paper-scissors)
+- [GranthamAnthem's solution](https://granthamanthem.github.io/rock-paper-scissors/rock-paper-scissors)
 - [halftruth's solution](https://github.com/halftruth/rps)
 - [Ylli Abazi's solution](https://github.com/yllabazi/rock-paper-scissors)
 - [Flip-In's Solution](https://github.com/flip-in/Rock-Paper-Scissors) - [View in Browswer](https://flip-in.github.io/Rock-Paper-Scissors/)
