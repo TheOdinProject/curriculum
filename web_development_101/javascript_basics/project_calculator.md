@@ -50,6 +50,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [nadjastojanovic's Solution](https://github.com/nadjastojanovic/calculator) - [View in Browser](https://nadjastojanovic.github.io/calculator/)
 - [Luky's Solution](https://github.com/lcyne/top-calculator) - [View in Browser](https://lcyne.github.io/top-calculator/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/Calculator) - [View in Browser](https://kikupiku.github.io/Calculator)
+- [Dennis Cope's Solution](https://github.com/coped/calculator) - [View in Browser](https://coped.github.io/calculator/)
 - [Djo1e's Solution](https://github.com/Djo1e/calculator) - [View in Browser](https://djo1e.github.io/calculator/)
 - [Aleksandar's Solution](https://github.com/bestr32/calculator) - [View in Browser](https://bestr32.github.io/calculator/)
 - [Ben's Solution](https://github.com/Koshoo/Calculator) - [View in Browser](https://koshoo.github.io/Calculator/)
