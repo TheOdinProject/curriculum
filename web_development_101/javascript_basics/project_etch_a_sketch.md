@@ -445,6 +445,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Bruno Tostes Solution](https://github.com/btfjulio/etch-a-sketch) - [View in Browser](https://btfjulio.github.io/etch-a-sketch/)
 * [Alex Gioffre' Solution](https://github.com/AlexGioffre/EtchASketch) - [View in Browser](https://alexgioffre.github.io/EtchASketch/)
 * [Rosanne Nicolai's Solution](https://github.com/rjnicolai/Etch-A-Sketch)
+* [Robin's Solution](https://github.com/RobinWagner/Etch-A-Sketch) - [View in Browser](https://robinwagner.github.io/Etch-A-Sketch/)
 </details>
 
 
