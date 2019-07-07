@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Henry Kirya's colution](https://github.com/harrika/odinjs-library) - [View in Browser](https://harrika.github.io/odinjs-brirary/)
 - [miang's solution](https://github.com/miang99/book-library) - [View in Browser](https://miang99.github.io/book-library/)
 - [Carmine's solution](https://github.com/cgrossi/Odin-Project-Library) - [View in Browser](https://cgrossi.github.io/Odin-Project-Library/)
 - [John Paul's solution](https://github.com/Omulosi/library) - [View in Broweser](https://omulosi.github.io/library/)
