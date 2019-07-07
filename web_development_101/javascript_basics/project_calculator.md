@@ -45,7 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [mistervoga's Solution](https://github.com/mistervoga/calculator) - [View in Browser](https://github.com/mistervoga/calculator)
+- [Reece White's Solution](https://github.com/brplatinum/calculator-3005) - [View in Browser](https://brplatinum.github.io/calculator-3005/)
+- [nadjastojanovic's Solution](https://github.com/nadjastojanovic/calculator) - [View in Browser](https://nadjastojanovic.github.io/calculator/)
+- [Luky's Solution](https://github.com/lcyne/top-calculator) - [View in Browser](https://lcyne.github.io/top-calculator/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/Calculator) - [View in Browser](https://kikupiku.github.io/Calculator)
+- [Dennis Cope's Solution](https://github.com/coped/calculator) - [View in Browser](https://coped.github.io/calculator/)
 - [Djo1e's Solution](https://github.com/Djo1e/calculator) - [View in Browser](https://djo1e.github.io/calculator/)
 - [Aleksandar's Solution](https://github.com/bestr32/calculator) - [View in Browser](https://bestr32.github.io/calculator/)
 - [Ben's Solution](https://github.com/Koshoo/Calculator) - [View in Browser](https://koshoo.github.io/Calculator/)
@@ -315,6 +320,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Robert Dunbar's solution](https://github.com/RobertDunbar/calculator) - [View in Browser](https://robertdunbar.github.io/calculator/)
 - [Charalampos Sarantoglou's solution](https://github.com/csara1/calculator) - [View in Browser](https://csara1.github.io/calculator/)
 - [Marcus Calgar's solution](https://github.com/MarcusCalgar/javascript_calculator) - [View in Browser](https://marcuscalgar.github.io/javascript_calculator/)
-[Oluwadamilare Olusakin's solution](https://github.com/Oluwadamilareolusakin/calculator) - [View in Browser](https://oluwadamilareolusakin.github.io/calculator/)
+- [Ousmane Sylla's solution](https://github.com/kitague/Calculator-Project/) - [View in Browser](https://kitague.github.io/Calculator-Project/)
+- [Oluwadamilare Olusakin's solution](https://github.com/Oluwadamilareolusakin/calculator) - [View in Browser](https://oluwadamilareolusakin.github.io/calculator/)
 - [Cameron St. Amant's solution](https://github.com/CameronStAmant/calculator) - [View in Browser](https://cameronstamant.github.io/calculator/)
+- [Nathan Choi's solution](https://github.com/sihoonathan/calculator) - [View in Browser](https://sihoonathan.github.io/calculator/)
+- [Alex Gioffre's solution](https://github.com/AlexGioffre/Calculator) - [View in Browser](https://alexgioffre.github.io/Calculator/index.html)
+- [Kai V's solution](https://github.com/KaiVandivier/calculator) - [View in Browser](https://kaivandivier.github.io/calculator/) 
+- [David Bridges's solution](https://github.com/dvbridges/calculator) - [View in Browser](https://dvbridges.github.io/calculator/)
 </details>

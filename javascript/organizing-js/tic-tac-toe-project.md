@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Bojo's solution](https://github.com/BojoZahariev/TicTacToe) - [View in Browser](https://bojozahariev.github.io/TicTacToe/)
 - [Daniel Ryu's solution](https://github.com/dryu99/tic-tac-toe) - [View in Browser](https://dryu99.github.io/tic-tac-toe/)
 - [ARaut9's solution](https://github.com/ARaut9/Tic-Tac-Toe) - [View in Browser](https://araut9.github.io/Tic-Tac-Toe/)
 - [Jason McKee's solution](https://github.com/jttmckee/odin-tic-tac-toe) - [View in Browser](https://jttmckee.github.io/odin-tic-tac-toe/)
@@ -69,5 +70,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Halkim44's game (PvP and P vs unbeatable CPU)](https://github.com/halkim44/tic-tac-toe-TOP) - [play Tic-Tac-Toe](https://halkim44.github.io/tic-tac-toe-TOP/)
 - [Valentino Valenti's solution (p1 vs p2 - minimax)](https://github.com/1ba1/tic-tac-toe) - [Play it in browser](https://1ba1.github.io/tic-tac-toe/)
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Tic-Tac-To) - [View in Browser](https://ubaid-manzoor.github.io/Tic-Tac-To/)
+- [JamCry's Solution](https://github.com/jamcry/js-tictactoe) - [View in Browser](https://jamcry.github.io/js-tictactoe/)
 
 </details>

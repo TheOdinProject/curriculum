@@ -67,7 +67,7 @@ While your VM is running, do the following steps:
   4. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This may ask you for a password as well.
   5. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
   
-NOTE: If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "settings -> display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
+NOTE: If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
 
 ### Step 4: Understand Your New VM
 
@@ -79,7 +79,7 @@ Here are some tips to help you get started in a virtual environment:
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
-* We recommend going full screen (Edit > Full-Screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+* We recommend going full screen (Edit > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
 </details>
 

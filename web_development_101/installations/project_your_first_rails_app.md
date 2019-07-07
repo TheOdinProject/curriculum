@@ -334,14 +334,6 @@ heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for it to finish.
 
-You can ignore most of this output for now, but take note of the line a couple lines above your command prompt that will look something like this:
-
-~~~bash
-remote:        https://random-words-73975.herokuapp.com/ deployed to Heroku
-~~~
-
-This is the link to your new site! Yes, you have published something to the internet! You can click it now, but we aren't quite done setting everything up just yet.
-
 #### Step 3.8: Migrate the Database on Heroku
 
 Similar to what we did locally before we launched our app, we need to migrate the database on Heroku, which we can do with the Heroku CLI.

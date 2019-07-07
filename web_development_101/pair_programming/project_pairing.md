@@ -130,6 +130,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [John-san's solution](https://github.com/john-san/pomodoro) - [View in Browser](https://john-san.github.io/pomodoro/)
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/pomodoro-clock) - [View in Browser](https://robertdunbar.github.io/pomodoro-clock/)
 * [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/pairing_project) - [View in Browser](https://sanyogitapandit.github.io/pairing_project/)
+* [Ousmane Sylla's Solution](https://github.com/kitague/Pomodoro-clock/) - [View in Browser](https://kitague.github.io/Pomodoro-clock/)
 </details>
 
 ### Next Steps

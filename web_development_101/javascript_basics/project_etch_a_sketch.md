@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [slotthy's Solution](https://github.com/slotthy/etch-a-sketch)
 * [Aaron's Solution](https://github.com/AztecianDev/Etch-a-Sketch) - [View in Browser](https://azteciandev.github.io/Etch-a-Sketch/)
 * [Dominic Laube's solution](https://github.com/Laubenstein/etch-a-sketch) - [View in Browser](https://laubenstein.github.io/etch-a-sketch/)
 * [Isaac's solution](https://github.com/isaackelly0/etch-a-sketch/) - [View in Browser](https://isaackelly0.github.io/etch-a-sketch/)
@@ -441,4 +442,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Nathan Choi's Solution](https://github.com/sihoonathan/etch-a-sketch) - [View in Browser](https://sihoonathan.github.io/etch-a-sketch/)
 * [Oliver Burt's Solution](https://github.com/oliburt/etch-a-sketch) - [View in Browser](https://oliburt.github.io/etch-a-sketch/)
 * [Oluwadamilare Olusakin's Solution](https://github.com/Oluwadamilareolusakin/etch-a-sketch) - [View in Browser](https://oluwadamilareolusakin.github.io/etch-a-sketch/)
+* [Bruno Tostes Solution](https://github.com/btfjulio/etch-a-sketch) - [View in Browser](https://btfjulio.github.io/etch-a-sketch/)
+* [Alex Gioffre' Solution](https://github.com/AlexGioffre/EtchASketch) - [View in Browser](https://alexgioffre.github.io/EtchASketch/)
+* [Rosanne Nicolai's Solution](https://github.com/rjnicolai/Etch-A-Sketch)
+* [Robin's Solution](https://github.com/RobinWagner/Etch-A-Sketch) - [View in Browser](https://robinwagner.github.io/Etch-A-Sketch/)
+* [David Bridges' solution](https://github.com/dvbridges/Etch-a-Sketch) - [View in Browser](https://dvbridges.github.io/Etch-a-Sketch/)
 </details>
+
+
+
