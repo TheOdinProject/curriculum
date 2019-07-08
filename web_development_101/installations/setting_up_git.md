@@ -121,6 +121,26 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
+First, verify that your new key is being used:
+
+~~~bash
+ssh-add -l -E md5
+~~~
+
+The output should be:
+
+~~~bash
+2048 MD5:[the signature] [your email] (RSA)
+~~~
+
+If the output is "The agent has no identities.", you need to add it. For Linux/WSL, enter:
+
+~~~bash
+echo 'ssh-add ~/.ssh/id_rsa &>/dev/null' >> ~/.bashrc
+~~~
+
+If you are on MacOS, simply replace "bashrc" with "bash_profile".
+
 https://help.github.com/en/articles/testing-your-ssh-connection
 
 Go to that link and verify everything matches up, if it doesn't try doing these steps again, or coming to the discord chat for help. 
