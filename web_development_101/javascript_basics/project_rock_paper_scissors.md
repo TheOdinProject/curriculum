@@ -713,4 +713,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Eduardo06sp's Solution](https://github.com/Eduardo06sp/rock-paper-scissors) - [View in Browser](https://eduardo06sp.github.io/rock-paper-scissors/)
 - [Michael's Solution](https://github.com/MicoPham/project-rock-paper-scissors) - [View in Browser](https://micopham.github.io/project-rock-paper-scissors/)
 - [David Bridges' Solution](https://github.com/dvbridges/RPS/) - [View in Browser](https://dvbridges.github.io/RPS/)
+- [JoshAubrey's Solution](https://github.com/JoshAubrey/rock-paper-scissors)
 </details>
