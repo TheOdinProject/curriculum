@@ -75,7 +75,7 @@ cd my_first_rails_app
 Now, we're going to tell Rails to generate some templates for us. This will get us up and running in no time at all.
 
 ~~~bash
-rails generate scaffold car make:string model:string year:integer
+rails generate scaffold car maker:string model:string year:integer
 ~~~
 
 After generating the scaffolds, we need to migrate the database.
