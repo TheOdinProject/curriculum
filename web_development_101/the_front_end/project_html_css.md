@@ -2219,7 +2219,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Gustavo Carvalho's Solution (Easy)](https://github.com/gustavohc07/google-homepage) - [View in Browser](https://gustavohc07.github.io/google-homepage/?search=)
 * [JoshAubrey's Solution (Easy)](https://github.com/JoshAubrey/google-homepage) - [View in Browser](https://joshaubrey.github.io/google-homepage/)
 * [Rafael Rodriguez Garcia's Solution (Easy)](https://github.com/rrg1459/google-homepage) - [View in Browser](https://rrg1459.github.io/google-homepage/)
-*[Hardik Upadhyay's Solution (Easy)](https://github.com/hardikvupadhyay/google-homepage) - [View in Browser](https://hardikvupadhyay.github.io/google-homepage/)
+* [Hardik Upadhyay's Solution (Easy)](https://github.com/hardikvupadhyay/google-homepage) - [View in Browser](https://hardikvupadhyay.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
