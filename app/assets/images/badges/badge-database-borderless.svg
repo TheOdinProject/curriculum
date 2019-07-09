@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="90" height="90" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;">
   <g id="badge.-database">
-    <circle id="Oval" cx="52" cy="52" r="50" fill="#FFF"/>
+    <circle id="Oval" cx="52" cy="52" r="50" fill="none"/>
     <path id="Shape" d="M26.603,27.571c-2.246,2.334 -4.159,4.967 -5.685,7.824l-8.331,0.13c-0.899,2.149 -1.62,4.37 -2.156,6.637l6.663,5.002c-0.445,3.208 -0.445,6.463 0,9.672l-6.664,5.001c0.537,2.268 1.258,4.488 2.157,6.638l8.331,0.13c1.526,2.857 3.44,5.49 5.685,7.825l-2.451,7.962c1.767,1.52 3.656,2.892 5.646,4.103l6.816,-4.792c2.914,1.415 6.009,2.421 9.198,2.989l2.698,7.883c2.323,0.191 4.657,0.191 6.98,0l2.697,-7.883c3.189,-0.569 6.284,-1.575 9.199,-2.989l6.815,4.792c1.991,-1.211 3.88,-2.583 5.647,-4.103l-2.451,-7.963c2.245,-2.334 4.159,-4.967 5.685,-7.824l8.331,-0.13c0.898,-2.15 1.62,-4.37 2.156,-6.638l-6.663,-5.001c0.444,-3.209 0.444,-6.464 0,-9.672l6.663,-5.002c-0.536,-2.267 -1.258,-4.488 -2.156,-6.638l-8.331,-0.129c-1.526,-2.857 -3.44,-5.49 -5.685,-7.825" style="fill:none;stroke:url(#_Linear2);stroke-width:1.5px;"/>
     <path id="Combined.-Shape" d="M52,48.5c-11.046,0 -20,-2.239 -20,-5c0,-2.761 8.954,-5 20,-5c11.046,0 20,2.239 20,5c0,2.761 -8.954,5 -20,5Zm20,23.75l0,-8.75l0,-20l0,28.75Z" style="fill:none;stroke:url(#_Linear3);stroke-width:1.5px;"/>
     <path id="Shape1" d="M72,53.5c0,2.76 -8.962,5 -20,5c-11.038,0 -20,-2.24 -20,-5" style="fill:none;stroke:url(#_Linear4);stroke-width:1.5px;"/>
