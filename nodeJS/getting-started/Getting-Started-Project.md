@@ -29,4 +29,11 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
 
 - Add your solution below this line!
 
+- [Carmine's Solution](https://github.com/cgrossi/node-beginner-project) - [View in browser](https://cgrossi.github.io/node-beginner-project/)
+- [Faraz's Solution](https://github.com/frzkn/odin-projects/tree/master/basicinformationsite)
+- [c-Nosetab's Solution](https://github.com/c-Nosetab/odin-project-assignments/tree/master/simpleSite)
+- [Dom's Solution](https://gist.github.com/domemvs/92d94b8e8291e7159cd734d85f702de0)
+- [Rayan's Solution](https://gist.github.com/RayanBassetti/61b73131cdf27cfd6acd95ef60aa7c82)
+
+
 </details>
