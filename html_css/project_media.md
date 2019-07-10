@@ -131,6 +131,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Antonio Marcos's solution](https://github.com/AMarcosCastelo/youtube-video-player-page) - [View in browser](https://amarcoscastelo.github.io/youtube-video-player-page/)
 * [vanny96's solution](https://github.com/vanny96/embed-video) - [View in browser](https://vanny96.github.io/embed-video/)
 * [Carlos Del Real & Gabriela's solution](https://viricruz.github.io/doogle-homepage/) - [View in browser](https://viricruz.github.io/doogle-homepage/)
+* [Alex Gioffre's Solution](https://github.com/AlexGioffre/Youtube_clone) - [View in browser](https://alexgioffre.github.io/Youtube_clone/)
 
 </details>
 
