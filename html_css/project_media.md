@@ -131,7 +131,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Antonio Marcos's solution](https://github.com/AMarcosCastelo/youtube-video-player-page) - [View in browser](https://amarcoscastelo.github.io/youtube-video-player-page/)
 * [vanny96's solution](https://github.com/vanny96/embed-video) - [View in browser](https://vanny96.github.io/embed-video/)
 * [Carlos Del Real & Gabriela's solution](https://viricruz.github.io/doogle-homepage/) - [View in browser](https://viricruz.github.io/doogle-homepage/)
-* [Nyaga Roy and Rinor Ajeti solution](https://github.com/RoyNyaga/microverse_embedded_video) - [view on browser](https://roynyaga.github.io/microverse_embedded_video/)
+* [Nyaga Roy and Rinor Ajeti solution](https://github.com/RoyNyaga/microverse_embedded_video) - [View in browser](https://roynyaga.github.io/microverse_embedded_video/)
 </details>
 
 ### Additional Resources
