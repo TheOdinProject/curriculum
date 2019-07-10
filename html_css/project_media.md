@@ -132,6 +132,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [vanny96's solution](https://github.com/vanny96/embed-video) - [View in browser](https://vanny96.github.io/embed-video/)
 * [Carlos Del Real & Gabriela's solution](https://viricruz.github.io/doogle-homepage/) - [View in browser](https://viricruz.github.io/doogle-homepage/)
 * [Nyaga Roy and Rinor Ajeti solution](https://github.com/RoyNyaga/microverse_embedded_video) - [View in browser](https://roynyaga.github.io/microverse_embedded_video/)
+* [Alex Gioffre's Solution](https://github.com/AlexGioffre/Youtube_clone) - [View in browser](https://alexgioffre.github.io/Youtube_clone/)
 </details>
 
 ### Additional Resources

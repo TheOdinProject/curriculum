@@ -24,6 +24,8 @@ If you get stuck at anytime, feel free to go back to the tutorial from the previ
 ### Student Solutions
 To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
+- Please note that if you're submitting a demo, you'll need to create a Node.js server somewhere like repl.it or Heroku. At this time, Github Pages does not allow you to do this.
+
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
