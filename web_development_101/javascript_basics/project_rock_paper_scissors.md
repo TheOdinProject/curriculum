@@ -40,6 +40,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+- [Arda Sevinç's solution](https://github.com/ardasevinc/rock-paper-scissors)
 - [DB17889's Solution](https://github.com/DB17889/project_rps) - [View in Browser](https://DB17889.github.io/project_rps/)
 - [lmjcbs's solution](https://github.com/lmjcbs/rock-paper-scissors) - [View in Browswer](https://lmjcbs.github.io/rock-paper-scissors/)
 - [Michael A' solution](https://github.com/malleyne747/cautious-spork-odin-rock-paper-scissors-) - [View in Browser](https://malleyne747.github.io/cautious-spork-odin-rock-paper-scissors-/)
