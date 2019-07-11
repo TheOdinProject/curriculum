@@ -716,4 +716,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [David Bridges' Solution](https://github.com/dvbridges/RPS/) - [View in Browser](https://dvbridges.github.io/RPS/)
 - [Zach Johnson's Solution](https://github.com/ZachJohn64/rockPaperScissors) - [View in Browser](https://zachjohn64.github.io/rock-paper-scissors/)
 - [Ben's Solution](https://github.com/BSourbeer/rockPaperScissors)
+- [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/rock-paper-scissors)
 </details>
