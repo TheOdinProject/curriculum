@@ -40,6 +40,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/bubble_sort)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/bubbleSort.rb)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/bubble_sort.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_advanced_building_blocks/tree/master/bubble_sort)
 * [Han Josmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/advanced_building_blocks/bubble_sort.rb)
