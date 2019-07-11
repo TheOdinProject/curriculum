@@ -2227,7 +2227,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hardik Upadhyay's Solution (Easy)](https://github.com/hardikvupadhyay/google-homepage) - [View in Browser](https://hardikvupadhyay.github.io/google-homepage/)
 * [S_basir's Solution (Easy)](https://github.com/SBasir1288/Google_homepage) - [View in Browser](https://sbasir1288.github.io/Google_homepage/)
 * [Andrey Solodov's Solution (Easy)](https://solodov-dev.github.io/google-homepage/) - [View in Browser](https://solodov-dev.github.io/google-homepage/) 
+<<<<<<< HEAD
 >>>>>>> 93502df119e26de16f22ef754f36347e53196449
+=======
+* [Sarah Quimpo's Solution (Easy)](https://github.com/awesomeredjuice/google-homepage) - [View in Browser](https://awesomeredjuice.github.io/google-homepage/) 
+
+>>>>>>> 330d4d4536e325e8be5d42e33dd7f4782e3f189d
 </details>
 
 ### Additional Resources
