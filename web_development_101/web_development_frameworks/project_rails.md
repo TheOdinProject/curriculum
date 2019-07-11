@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alain Suarez's Solution](https://gitlab.com/asuar/blogger) - [View in browser](https://secure-hamlet-95000.herokuapp.com/)
 * [Sherman's Solution](https://github.com/shermansjliu/blogger) - [View in browser](https://protected-plains-12122.herokuapp.com/)
 * [Ben's Solution](https://github.com/Koshoo/Ruby-on-Rails-blog-project/) - [View in browser](http://blogger-ben.herokuapp.com/)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/blogger) - [View in browser](https://niconibloggerapp.herokuapp.com)
@@ -402,6 +403,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/rails-blogger) - [View in Browser](https://dry-spire-74608.herokuapp.com)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/blogger) - [View in Browser](https://aqueous-crag-86287.herokuapp.com/)
 * [Alex Gioffre's solution](https://github.com/AlexGioffre/Blogger) - [View in Browser](https://blogger-alexgio.herokuapp.com/)
+* [Cameron St. Amant's solution](https://github.com/CameronStAmant/blog-rails) - [View in Browser](https://quiet-ridge-40484.herokuapp.com/)
 </details>
 
 ### Additional Resources
