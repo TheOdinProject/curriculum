@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ARaut9's solution](https://github.com/ARaut9/javascript_testing)
 - [Jason McKee's solution](https://github.com/jttmckee/testing-javascript)
 - [Max Garbers's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/jest-testing)
 - [theghall's solution](https://github.com/theghall/odin-jestpractice)
