@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Slotthy's Solution](https://github.com/slotthy/javascript-calculator) - [View in Browser](https://slotthy.github.io/javascript-calculator/)
 - [mistervoga's Solution](https://github.com/mistervoga/calculator) - [View in Browser](https://github.com/mistervoga/calculator)
 - [Reece White's Solution](https://github.com/brplatinum/calculator-3005) - [View in Browser](https://brplatinum.github.io/calculator-3005/)
 - [nadjastojanovic's Solution](https://github.com/nadjastojanovic/calculator) - [View in Browser](https://nadjastojanovic.github.io/calculator/)
@@ -327,4 +328,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alex Gioffre's solution](https://github.com/AlexGioffre/Calculator) - [View in Browser](https://alexgioffre.github.io/Calculator/index.html)
 - [Kai V's solution](https://github.com/KaiVandivier/calculator) - [View in Browser](https://kaivandivier.github.io/calculator/) 
 - [David Bridges's solution](https://github.com/dvbridges/calculator) - [View in Browser](https://dvbridges.github.io/calculator/)
+-[Rosanne Nicolai's solution](https://github.com/rjnicolai/Calculator)
 </details>
