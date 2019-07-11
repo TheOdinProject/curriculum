@@ -39,7 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/bubbleSort.rb)
+* [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/bubble_sort)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/bubble_sort.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_advanced_building_blocks/tree/master/bubble_sort)
 * [Han Josmer's Solution](https://github.com/HanJosmer/ruby_programming/blob/master/advanced_building_blocks/bubble_sort.rb)
@@ -406,6 +406,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/my_methods)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/enumerableMethods.rb)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/enumerable_methods.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_advanced_building_blocks/blob/master/enumerable.rb)
