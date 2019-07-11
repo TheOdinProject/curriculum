@@ -36,7 +36,7 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
 - [c-Nosetab's Solution](https://github.com/c-Nosetab/odin-project-assignments/tree/master/simpleSite)
 - [Dom's Solution](https://gist.github.com/domemvs/92d94b8e8291e7159cd734d85f702de0)
 - [Rayan's Solution](https://gist.github.com/RayanBassetti/61b73131cdf27cfd6acd95ef60aa7c82)
+- [Jacob's Solution](https://github.com/jacobodden/odin-nodejs-projects/tree/master/basicinfosite)
 - [Unwana's Solution](https://gist.github.com/afixoftrix/f5efeae6229f39fd4eb0787bd257cd7c)
-
 
 </details>
