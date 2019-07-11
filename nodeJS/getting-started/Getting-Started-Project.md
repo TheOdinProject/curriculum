@@ -24,6 +24,8 @@ If you get stuck at anytime, feel free to go back to the tutorial from the previ
 ### Student Solutions
 To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
+- Please note that if you're submitting a demo, you'll need to create a Node.js server somewhere like repl.it or Heroku. At this time, Github Pages does not allow you to do this.
+
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
@@ -34,6 +36,7 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
 - [c-Nosetab's Solution](https://github.com/c-Nosetab/odin-project-assignments/tree/master/simpleSite)
 - [Dom's Solution](https://gist.github.com/domemvs/92d94b8e8291e7159cd734d85f702de0)
 - [Rayan's Solution](https://gist.github.com/RayanBassetti/61b73131cdf27cfd6acd95ef60aa7c82)
+- [Unwana's Solution](https://gist.github.com/afixoftrix/f5efeae6229f39fd4eb0787bd257cd7c)
 
 
 </details>
