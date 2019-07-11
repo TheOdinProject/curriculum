@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sampajanno's solution](https://github.com/Sampajanno/embedding-video-images) - [View in browser](https://sampajanno.github.io/building-forms/)
 * [Carmine's Solution](https://github.com/cgrossi/odin-project-youtube-clone) - [View in browser](https://cgrossi.github.io/odin-project-youtube-clone/)
 * [bcikota's solution](https://github.com/bcikota/youtube) - [View in browser](https://bcikota.github.io/youtube/)
 * [Bola Buari's solution](https://github.com/bolah2009/youtube-clone) - [View in browser](https://bolabuari.com/youtube-clone/)
@@ -130,7 +131,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Antonio Marcos's solution](https://github.com/AMarcosCastelo/youtube-video-player-page) - [View in browser](https://amarcoscastelo.github.io/youtube-video-player-page/)
 * [vanny96's solution](https://github.com/vanny96/embed-video) - [View in browser](https://vanny96.github.io/embed-video/)
 * [Carlos Del Real & Gabriela's solution](https://viricruz.github.io/doogle-homepage/) - [View in browser](https://viricruz.github.io/doogle-homepage/)
-
+* [Nyaga Roy and Rinor Ajeti solution](https://github.com/RoyNyaga/microverse_embedded_video) - [View in browser](https://roynyaga.github.io/microverse_embedded_video/)
+* [Alex Gioffre's Solution](https://github.com/AlexGioffre/Youtube_clone) - [View in browser](https://alexgioffre.github.io/Youtube_clone/)
 </details>
 
 ### Additional Resources

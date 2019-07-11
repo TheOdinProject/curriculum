@@ -30,6 +30,8 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/toy_app) - [Live](https://agile-depths-49455.herokuapp.com/)
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/toy_app) - [Live](https://sheltered-headland-99847.herokuapp.com/)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/toy_app) - [Live](https://dry-plateau-33966.herokuapp.com/users)
 * [Zeha's solution](https://github.com/JangkarBumi/odin-toy-app)
 * [Smetanca52's Solution](https://github.com/Smetanca52/toy_app) - [Live](https://serene-chamber-16862.herokuapp.com/)
@@ -38,6 +40,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Stefano Merazzi's Solution](https://github.com/ste001/toy-app) - [Live](https://ancient-lake-46665.herokuapp.com/)
 * [Jason McKee's Solution](https://github.com/jttmckee/toy_app) - [Live](https://damp-fjord-77322.herokuapp.com)
 * [prw001's Solution](https://github.com/prw001/toy_app) - [Live](https://desolate-sands-86183.herokuapp.com/)
+* [Dennis Cope's Solution](https://github.com/coped/toy-app) - [Live](https://pacific-plateau-23942.herokuapp.com/)
 * [Malaika's Solution](https://github.com/malaikaMI/toy_app/tree/master/toy_app)
 * [Javier Machin's solution](https://github.com/Javier-Machin/toy_app)
 * Isil Donmez's solution: [Github](https://github.com/isildonmez/toy_app) - [Live](https://toy-app-.herokuapp.com/)
