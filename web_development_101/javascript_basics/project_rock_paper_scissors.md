@@ -710,6 +710,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Oliver Burt's Solution](https://github.com/oliburt/rock-paper-scissors) - [View in Browser](https://oliburt.github.io/rock-paper-scissors/)
 - [Bruno Tostes Solution](https://github.com/btfjulio/rock_paper_scissors) - [View in Browser](https://btfjulio.github.io/rock_paper_scissors/)
 - [Rosanne Nicolai's Solution](https://gitlab.com/rosannenicolai/rock-paper-scissors)
+- [Ian's Solution](https://github.com/IanMKesler/Rock-paper-scissors-JS)
 - [Alex Gioffre's Solution](https://github.com/AlexGioffre/rockpaperscissors)
 - [Alex Gioffre's Solution With UI](https://github.com/AlexGioffre/rockpapperscissorsgui) - [View in Browser](https://alexgioffre.github.io/rockpapperscissorsgui/)
 - [vang37's Solution With UI](https://github.com/vang37/RockPaperScissors)- [View in Browser](https://vang37.github.io/RockPaperScissors)
