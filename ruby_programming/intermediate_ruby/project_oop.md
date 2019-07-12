@@ -278,7 +278,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [LastCapricorn's Solution](https://github.com/LastCapricorn/the_odin_project/tree/master/ruby_programming/project_oop/tic_tac_toe)
 * [Kelvin & Denis' Solution](https://github.com/DenisCuencaBrex/tic-tac-toe) - [Play on Repl.it](https://repl.it/@KelvinLiang/tic-tac-toe)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@BenFowler/Tic-Tac-Toe)
-* [Eddie Ozuna's Solution](https://github.com/OzunaEdd/TicTacToe) 
+* [Eddie Ozuna's Solution](https://github.com/OzunaEdd/TicTacToe)
+* [Leo Holanda's Solution](https://github.com/leo-holanda/tic_tac_toe) - [Play on repl.it] (https://repl.it/@Leonardo_Holand/Tic-Tac-Toe)
 </details>
 
 ### Project 2: Mastermind
@@ -512,6 +513,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/o_o_p_microverse_games)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@BenFowler/Mastermind)
 * [Bendee48's solution](https://github.com/bendee48/mastermind) - [Play on Repl.it](https://repl.it/@bendee48/Mastermind)
+* [Leo Holanda's Solution](https://github.com/leo-holanda/mastermind)
 </details>
 
 ### Additional Resources
