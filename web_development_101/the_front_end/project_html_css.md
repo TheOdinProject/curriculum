@@ -2235,6 +2235,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sarah Quimpo's Solution (Easy)](https://github.com/awesomeredjuice/google-homepage) - [View in Browser](https://awesomeredjuice.github.io/google-homepage/) 
 * [rholderfield's Solution (Easy)](https://rholderfield.github.io/google-homepage/) - [View in Browser](https://rholderfield.github.io/google-homepage/) 
 * [Miguel Farias's Solution (Easy)](https://github.com/mkezmkez/google-homepage/) - [View in Browser](https://mkezmkez.github.io/google-homepage/) 
+* [lighthenry's solution (Easy)](https://github.com/lighthenry/google-homepage) - [View in Browser](https://lighthenry.github.io/google-homepage/#)
 
 </details>
 
