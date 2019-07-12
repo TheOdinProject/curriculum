@@ -43,6 +43,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+* [Mitchell Glass' solution](https://github.com/mitchglass97/etch-a-sketch) - [View in Browser](https://mitchglass97.github.io/etch-a-sketch/)
+* [lmjcbs's solution](https://github.com/lmjcbs/etch-a-sketch) - [View in Browser](https://lmjcbs.github.io/etch-a-sketch/)
 * [Kirill's Solution](https://github.com/kerbasi/ETCH-A-SKETCH) - [View in Browser](https://kerbasi.github.io/ETCH-A-SKETCH/)
 * [slotthy's Solution](https://github.com/slotthy/etch-a-sketch)
 * [Aaron's Solution](https://github.com/AztecianDev/Etch-a-Sketch) - [View in Browser](https://azteciandev.github.io/Etch-a-Sketch/)
@@ -449,6 +452,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Rosanne Nicolai's Solution](https://github.com/rjnicolai/Etch-A-Sketch)
 * [Robin's Solution](https://github.com/RobinWagner/Etch-A-Sketch) - [View in Browser](https://robinwagner.github.io/Etch-A-Sketch/)
 * [David Bridges' solution](https://github.com/dvbridges/Etch-a-Sketch) - [View in Browser](https://dvbridges.github.io/Etch-a-Sketch/)
+* [Kalmod's Solution](https://github.com/kalmod/etch_a_sketch) - [View in Browser](https://kalmod.github.io/etch_a_sketch/)
 </details>
 
 
