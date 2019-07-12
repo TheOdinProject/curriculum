@@ -724,6 +724,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sarah Jane Quimpo's Solution](https://github.com/awesomeredjuice/Project_RockPaperScissors) - [View in Browser](https://awesomeredjuice.github.io/Project_RockPaperScissors/)
 - [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/rock-paper-scissors)
 - [Ben's Solution](https://github.com/BSourbeer/rockPaperScissors)
+- [aytung's Solution](https://github.com/aytung/rock-paper-scissors) - [View in browser](https://aytung.github.io/rock-paper-scissors/)
 - [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/rock-paper-scissors)
 - [Socket0x01's Solution](https://github.com/Socket0x01/Rock-Paper-Scissors) - [View in Browser](https://socket0x01.github.io/Rock-Paper-Scissors/)
+
 </details>
