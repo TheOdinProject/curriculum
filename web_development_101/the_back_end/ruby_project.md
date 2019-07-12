@@ -550,6 +550,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cameron St. Amant's solution](https://github.com/CameronStAmant/learn_ruby)
 * [Alex Gioffre' solution](https://github.com/AlexGioffre/learn_ruby)
 * [Rosanne Nicolai's solution](https://github.com/rjnicolai/learn_ruby)
+* [Nathan Choi's solution](https://github.com/sihoonathan/coding-challenges2)
+
 </details>
 
 ### Additional Resources
