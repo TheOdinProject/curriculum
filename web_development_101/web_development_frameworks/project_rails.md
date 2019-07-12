@@ -403,6 +403,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/rails-blogger) - [View in Browser](https://dry-spire-74608.herokuapp.com)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/blogger) - [View in Browser](https://aqueous-crag-86287.herokuapp.com/)
 * [Alex Gioffre's solution](https://github.com/AlexGioffre/Blogger) - [View in Browser](https://blogger-alexgio.herokuapp.com/)
+* [Cameron St. Amant's solution](https://github.com/CameronStAmant/blog-rails) - [View in Browser](https://quiet-ridge-40484.herokuapp.com/)
 </details>
 
 ### Additional Resources
