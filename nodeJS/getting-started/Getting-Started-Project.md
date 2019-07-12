@@ -37,6 +37,7 @@ If you're planning to submit a live demo with your student solution, one of the 
 
 - Add your solution below this line!
 
+- [tbmreza's Solution](https://github.com/tbmreza/odinproject-node1/) - [View in browser](https://NodeJS-Basic-Informational-Site--tbmreza.repl.co)
 - [Carmine's Solution](https://github.com/cgrossi/node-beginner-project) - [View in browser](https://cgrossi.github.io/node-beginner-project/)
 - [Faraz's Solution](https://github.com/frzkn/odin-projects/tree/master/basicinformationsite)
 - [c-Nosetab's Solution](https://github.com/c-Nosetab/odin-project-assignments/tree/master/simpleSite)
