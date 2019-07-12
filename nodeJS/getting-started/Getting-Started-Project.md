@@ -14,7 +14,7 @@ If you get stuck at anytime, feel free to go back to the tutorial from the previ
     - contact-me.html
     - 404.html
 
-2. Create your node.js server file and add the code needed to serve the right page according to the url.
+2. Create your node.js server file `index.js` and add the code needed to serve the right page according to the url.
     - [localhost:8080](http://localhost:8080) should take users to index.html
     - [localhost:8080/about](http://localhost:8080/about) should take users to about.html
     - [localhost:8080/contact-me](http://localhost:8080/contact-me) should take users to contact-me.html
@@ -24,7 +24,13 @@ If you get stuck at anytime, feel free to go back to the tutorial from the previ
 ### Student Solutions
 To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
-- Please note that if you're submitting a demo, you'll need to create a Node.js server somewhere like repl.it or Heroku. At this time, Github Pages does not allow you to do this.
+If you're planning to submit a student solution, one of the easiest ways to do that is using Repl.it. To do this:
+
+1. Go to [Repl.it](https://repl.it)
+2. Create a new repl
+3. Select Node.js as the language
+4. Enter the url for your submission github repo and click "Import from GitHub"
+5. Click the "Run" button and you should get the URL to your demo in the URL bar of the repl's web view.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
