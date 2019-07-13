@@ -89,6 +89,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 
+* [thatsjordan's Solution (Easy)](https://github.com/thatsjordan/google-homepage) - [View in Browser](https://thatsjordan.github.io/google-homepage/)
 * [Alp7's Solution (Easy)](https://github.com/Alp7/google-homepage) - [View in Browser](https://alp7.github.io/google-homepage/)
 * [Mitch Glass' Solution](https://github.com/mitchglass97/google-homepage) - [View in Browser](https://mitchglass97.github.io/google-homepage/)
 * [big-meel's Solution (Easy)](https://github.com/big-meel/google-homepage.git) - [View in Browser](https://big-meel.github.io/google-homepage/)
