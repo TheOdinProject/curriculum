@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Chris McMillan's Solution](https://github.com/BuccoBruce/rockpaperscissors)
 - [Numka's Solution](https://github.com/Numka/rock-paper-scissors) - [View in Browser](https://numka.github.io/rock-paper-scissors//)
 - [Marcus Macklin's Solution](https://github.com/macsoa1/rockPaperScissorsProject/blob/master/rockPaperScissors.html)
 - [Mitchell Glass' Solution](https://github.com/mitchglass97/browser-rock-paper-scissors) - [View in Browswer](https://mitchglass97.github.io/browser-rock-paper-scissors/)
@@ -719,7 +720,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Eduardo06sp's Solution](https://github.com/Eduardo06sp/rock-paper-scissors) - [View in Browser](https://eduardo06sp.github.io/rock-paper-scissors/)
 - [Michael's Solution](https://github.com/MicoPham/project-rock-paper-scissors) - [View in Browser](https://micopham.github.io/project-rock-paper-scissors/)
 - [David Bridges' Solution](https://github.com/dvbridges/RPS/) - [View in Browser](https://dvbridges.github.io/RPS/)
-- [JoshAubrey's Solution](https://github.com/JoshAubrey/rock-paper-scissors)
+- [JoshAubrey's Solution](https://github.com/JoshAubrey/rock-paper-scissors) - [View in Browser](https://joshaubrey.github.io/rock-paper-scissors/) 
 - [Zach Johnson's Solution](https://github.com/ZachJohn64/rockPaperScissors) - [View in Browser](https://zachjohn64.github.io/rock-paper-scissors/)
 - [Sarah Jane Quimpo's Solution](https://github.com/awesomeredjuice/Project_RockPaperScissors) - [View in Browser](https://awesomeredjuice.github.io/Project_RockPaperScissors/)
 - [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/rock-paper-scissors)
