@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Chris McMillan's Solution](https://github.com/BuccoBruce/rockpaperscissors)
 - [Numka's Solution](https://github.com/Numka/rock-paper-scissors) - [View in Browser](https://numka.github.io/rock-paper-scissors//)
 - [Marcus Macklin's Solution](https://github.com/macsoa1/rockPaperScissorsProject/blob/master/rockPaperScissors.html)
 - [Mitchell Glass' Solution](https://github.com/mitchglass97/browser-rock-paper-scissors) - [View in Browswer](https://mitchglass97.github.io/browser-rock-paper-scissors/)
@@ -719,7 +720,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Eduardo06sp's Solution](https://github.com/Eduardo06sp/rock-paper-scissors) - [View in Browser](https://eduardo06sp.github.io/rock-paper-scissors/)
 - [Michael's Solution](https://github.com/MicoPham/project-rock-paper-scissors) - [View in Browser](https://micopham.github.io/project-rock-paper-scissors/)
 - [David Bridges' Solution](https://github.com/dvbridges/RPS/) - [View in Browser](https://dvbridges.github.io/RPS/)
-- [JoshAubrey's Solution](https://github.com/JoshAubrey/rock-paper-scissors)
+- [JoshAubrey's Solution](https://github.com/JoshAubrey/rock-paper-scissors) - [View in Browser](https://joshaubrey.github.io/rock-paper-scissors/) 
 - [Zach Johnson's Solution](https://github.com/ZachJohn64/rockPaperScissors) - [View in Browser](https://zachjohn64.github.io/rock-paper-scissors/)
 - [Sarah Jane Quimpo's Solution](https://github.com/awesomeredjuice/Project_RockPaperScissors) - [View in Browser](https://awesomeredjuice.github.io/Project_RockPaperScissors/)
 - [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/rock-paper-scissors)
@@ -728,5 +729,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [aytung's Solution](https://github.com/aytung/rock-paper-scissors) - [View in browser](https://aytung.github.io/rock-paper-scissors/)
 - [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/rock-paper-scissors)
 - [Socket0x01's Solution](https://github.com/Socket0x01/Rock-Paper-Scissors) - [View in Browser](https://socket0x01.github.io/Rock-Paper-Scissors/)
-
+- [WebDev2080's Solution](https://github.com/webdev2080/RockPaperScissors)
+- [Kelsey's Solution](https://github.com/ksiman14/rock_paper_scissors)
+- [ZShoals' Solution With UI](https://github.com/zshoals/rps-odin-project) - [View in Browser](https://zshoals.github.io/rps-odin-project/)
 </details>

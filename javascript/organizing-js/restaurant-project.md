@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 
+- [Ben's solution](https://github.com/Koshoo/Restaurant-page) - [View in Browser](https://koshoo.github.io/Restaurant-page/)
 - [Djo1e's solution](https://github.com/Djo1e/restaurant) - [View in Browser](https://djo1e.github.io/restaurant/)
 - [John Kripp's Solution](https://github.com/JohnKripp/Restaurant-Page) - [View in Browser](https://johnkripp.github.io/Restaurant-Page/)
 - [Simon Tharby's solution](https://github.com/jinjagit/restaurant) - [View in browser](https://jinjagit.github.io/restaurant/)
