@@ -729,7 +729,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [aytung's Solution](https://github.com/aytung/rock-paper-scissors) - [View in browser](https://aytung.github.io/rock-paper-scissors/)
 - [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/rock-paper-scissors)
 - [Socket0x01's Solution](https://github.com/Socket0x01/Rock-Paper-Scissors) - [View in Browser](https://socket0x01.github.io/Rock-Paper-Scissors/)
+- [WebDev2080's Solution](https://github.com/webdev2080/RockPaperScissors)
 - [Kelsey's Solution](https://github.com/ksiman14/rock_paper_scissors)
 - [ZShoals' Solution With UI](https://github.com/zshoals/rps-odin-project) - [View in Browser](https://zshoals.github.io/rps-odin-project/)
-
 </details>
