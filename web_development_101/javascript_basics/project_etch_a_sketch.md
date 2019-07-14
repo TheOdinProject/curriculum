@@ -43,6 +43,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+* [Mitchell Glass' solution](https://github.com/mitchglass97/etch-a-sketch) - [View in Browser](https://mitchglass97.github.io/etch-a-sketch/)
+* [lmjcbs's solution](https://github.com/lmjcbs/etch-a-sketch) - [View in Browser](https://lmjcbs.github.io/etch-a-sketch/)
+* [Kirill's Solution](https://github.com/kerbasi/ETCH-A-SKETCH) - [View in Browser](https://kerbasi.github.io/ETCH-A-SKETCH/)
 * [slotthy's Solution](https://github.com/slotthy/etch-a-sketch)
 * [Aaron's Solution](https://github.com/AztecianDev/Etch-a-Sketch) - [View in Browser](https://azteciandev.github.io/Etch-a-Sketch/)
 * [Dominic Laube's solution](https://github.com/Laubenstein/etch-a-sketch) - [View in Browser](https://laubenstein.github.io/etch-a-sketch/)
@@ -51,6 +55,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [nadjastojanovic's Solution](https://github.com/nadjastojanovic/etch-a-sketch) - [View in Browser](https://nadjastojanovic.github.io/etch-a-sketch/)
 * [cotrones's Solution](https://github.com/cotrones/etch-a-sketch) - [View in Browser](https://cotrones.github.io/etch-a-sketch/)
 * [Henry M. Kirya's Solution](https://github.com/harrika/odinjs-sketch) - [View in Browser](https://harrika.github.io/odinjs-sketch/)
+* [Dennis Cope's Solution](https://github.com/coped/etch-a-sketch) - [View in Browser](https://coped.github.io/etch-a-sketch/)
 * [Ben's Solution](https://github.com/Koshoo/etch-a-sketch) - [View in Browser](https://koshoo.github.io/etch-a-sketch/)
 * [Brian's Solution](https://github.com/briantuju/odinProject/tree/master/e-a-sketch) - [View in Browser](https://briantuju.github.io/odinProject/e-a-sketch/index.html)
 * [Barrie's solution](https://github.com/barrielake/etch-a-sketch) - [View in Browser](https://barrielake.github.io/etch-a-sketch/)
@@ -447,6 +452,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Rosanne Nicolai's Solution](https://github.com/rjnicolai/Etch-A-Sketch)
 * [Robin's Solution](https://github.com/RobinWagner/Etch-A-Sketch) - [View in Browser](https://robinwagner.github.io/Etch-A-Sketch/)
 * [David Bridges' solution](https://github.com/dvbridges/Etch-a-Sketch) - [View in Browser](https://dvbridges.github.io/Etch-a-Sketch/)
+* [Kalmod's Solution](https://github.com/kalmod/etch_a_sketch) - [View in Browser](https://kalmod.github.io/etch_a_sketch/)
 </details>
 
 

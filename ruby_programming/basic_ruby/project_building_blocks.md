@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-building-blocks/blob/master/caesar-cipher.rb)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/caesar_cipher.rb)
 * [John-san's Solution](https://github.com/john-san/basic_ruby/blob/master/caesar_cipher.rb)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/CaesarCipher.rb)
@@ -450,6 +451,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-problems/blob/master/cipher.rb)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project---Ruby-Building-Blocks/blob/master/caesar_cipher.rb)
 * [faishalirwn's Solution](https://repl.it/@mfaishal/Project-1-Caesar-Cipher)
+* [Konrad Zagozda's Solution](https://github.com/konradzagozda/caesar_cipher_ruby)
 
 </details>
 
@@ -477,6 +479,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+
+* [Sherman's Solution](https://github.com/shermansjliu/project_building_blocks/blob/master/stock_picker.rb)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-building-blocks/blob/master/stock-picker.rb)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/stock_picker.rb)
 * [John-san's Solution](https://github.com/john-san/basic_ruby/blob/master/stock_picker.rb)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/stock_picker)
@@ -850,6 +855,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-problems/blob/master/stock-picker.rb)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project---Ruby-Building-Blocks/blob/master/stock_picker.rb)
 * [faishalirwn's Solution](https://repl.it/@mfaishal/Project-2-Stock-Picker)
+* [Konrad Zagozda's Solution](https://github.com/konradzagozda/ruby_building_blocks/blob/master/stock_picker.rb)
 
 </details>
 
@@ -885,6 +891,9 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+
+* [Sherman's Solution](https://github.com/shermansjliu/project_building_blocks/blob/master/substrings.rb)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-building-blocks/blob/master/substrings.rb)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/substrings.rb)
 * [John-san's Solution](https://github.com/john-san/basic_ruby/blob/master/substrings.rb)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/substrings)
