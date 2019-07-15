@@ -734,4 +734,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kelsey's Solution](https://github.com/ksiman14/rock_paper_scissors)
 - [ZShoals' Solution With UI](https://github.com/zshoals/rps-odin-project) - [View in Browser](https://zshoals.github.io/rps-odin-project/)
 - [Bernd's solution](https://github.com/berndbausch/odin-rockpaperscissors)
+- [Lighthenry's Solution](https://github.com/lighthenry/rock-paper-scissors)
 </details>
