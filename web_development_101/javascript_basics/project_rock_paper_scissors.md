@@ -723,5 +723,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Zach Johnson's Solution](https://github.com/ZachJohn64/rockPaperScissors) - [View in Browser](https://zachjohn64.github.io/rock-paper-scissors/)
 - [Ben's Solution](https://github.com/BSourbeer/rockPaperScissors)
 - [Socket0x01's Solution](https://github.com/Socket0x01/Rock-Paper-Scissors) - [View in Browser](https://socket0x01.github.io/Rock-Paper-Scissors/)
+- [Lighthenry's Solution](https://github.com/lighthenry/rock-paper-scissors) 
+
 
 </details>
