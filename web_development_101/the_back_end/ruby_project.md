@@ -553,6 +553,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex Gioffre' solution](https://github.com/AlexGioffre/learn_ruby)
 * [Rosanne Nicolai's solution](https://github.com/rjnicolai/learn_ruby)
 * [Nathan Choi's solution](https://github.com/sihoonathan/coding-challenges2)
+* [Robin's solution](https://github.com/RobinWagner/Ruby-Assignment)
 
 </details>
 
