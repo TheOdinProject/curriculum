@@ -2246,6 +2246,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Cyhyraeth's Solution (Easy)](https://github.com/Cyhyraethz/google-homepage) - [View in Browser](https://cyhyraethz.github.io/google-homepage/)
 * [Jamie Rookyard's Solution (Easy)](https://github.com/rooky-j/google_homepage) - [View in Browser](https://rooky-j.github.io/google_homepage/)
 * [Dustin Janssen's Solution (Easy)](https://github.com/dustinjanssen/google-homepage/) - [View in Browser](https://dustinjanssen.github.io/google-homepage/)
+* [James Komol's Solution (Easy)] (https://github.com/jameskomol/joogle) - [View in Browser] (https://jameskomol.github.io/joogle/)
 </details>
 
 ### Additional Resources
