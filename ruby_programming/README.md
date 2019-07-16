@@ -21,12 +21,12 @@ Time to dive deep into Ruby, the language 'designed for programmer happiness.' Y
   - Common Data Structures and Algorithms - [lesson](computer_science/lesson_common_data_structures_algorithms.md)
   - [Project: Linked Lists](computer_science/project_linked_lists.md)
   - [Project: Data Structures and Algorithms](computer_science/project_data_structures_algorithms.md)
-- Testing Ruby woth RSpec
+- Testing Ruby with RSpec
   - Test Driven Development - [lesson](testing_with_rspec/test_driven_development.md)
   - Introduction to RSpec - [lesson](testing_with_rspec/introduction_to_rspec.md)
   - [Project: Testing Your Ruby Code](testing_with_rspec/project_testing_your_ruby_code.md)
 - Git
-  -  A Deeper Look at Git - [lesson](git/lesson_a_deeper_look_at_git.md)
+  - A Deeper Look at Git - [lesson](git/lesson_a_deeper_look_at_git.md)
   - Using Git in the Real World - [lesson](git/lesson_using_git_in_the_real_world.md)
 - Conclusion
   - [Project: Ruby Final Project](conclusion/project_ruby_final.md)

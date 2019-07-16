@@ -24,7 +24,7 @@ In this project, you'll be building an exclusive clubhouse where your members ca
 
 This will be a chance for you to "roll your own" authentication system, very similar to how you did in the tutorial.  As usual, we will be focusing on data and function, not style.  If you want to add your own stylistic flourishes, consider it extra credit.
 
-It's easy to feel a bit overwhelmed by building your own authentication.  That's because there are several moving parts -- the session controller/form, hanging onto and refreshing the remember token when necessary, and using that token to check up on the current user.  It may help if you write out the steps as you understand them prior to getting started, so you know what you're shaky on and will need to pay attention to.
+It's easy to feel a bit overwhelmed when building your own authentication.  That's because there are several moving parts -- the session controller/form, hanging onto and refreshing the remember token when necessary, and using that token to check up on the current user.  It may help if you write out the steps as you understand them prior to getting started, so you know what you're shaky on and will need to pay attention to.
 
 ### Your Task
 
@@ -79,7 +79,7 @@ Now let's make sure our users can sign in.
 Let's build those secrets!  We'll need to make sure only signed in users can see the author of each post.  We're not going to worry about editing or deleting posts.
 
 1. Create a Post model and a Posts controller and a corresponding resource in your Routes file which allows the `[:new, :create, :index]` methods.
-2. Atop your Posts Controller, use a `#before_filter` to restrict access to the `#new` and `#create` methods to only users who are signed in. Create the necessary helper methods in your ApplicationController.
+2. Atop your Posts Controller, use a `#before_action` to restrict access to the `#new` and `#create` methods to only users who are signed in. Create the necessary helper methods in your ApplicationController.
 3. For your Posts Controller, prepare your `#new` action.
 4. Write a very simple form in the `app/views/posts/new.html.erb` view which will create a new Post.
 5. Make your corresponding `#create` action build a post where the foreign key for the author (e.g. `user_id`) is automatically populated based on whichever user is signed in.  Redirect to the Index view if successful.
@@ -99,6 +99,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/members_only)
+* [Learnsometing's solution](https://github.com/learnsometing/Rails-members_only)
 * [Simon Tharby's solution](https://github.com/jinjagit/members_only) - [View in browser](https://safe-falls-96496.herokuapp.com)
 * [Jason McKee's solution](https://github.com/jttmckee/members-only)
 * [prw001's solution](https://github.com/prw001/members_only)
@@ -193,7 +195,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex's solution](https://github.com/alexcorremans/members-only)
 * [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/members-only) - [View in browser](https://guarded-escarpment-32564.herokuapp.com/posts)
 * [Leila Alderman's solution](https://github.com/leila-alderman/members-only) - [View in Browser](https://fierce-bayou-19850.herokuapp.com/)
-
+* [JamCry's solution](https://github.com/jamcry/members-only-app) - [View on Heroku](https://quiet-hamlet-54958.herokuapp.com/)
+* [vanny96's solution](https://github.com/vanny96/clubhouse) - [View on Heroku](https://shrouded-brushlands-95445.herokuapp.com/)
+* [themetar's solution (Github)](https://github.com/themetar/members-only-top) - [Live on Heroku](https://mysterious-coast-30783.herokuapp.com/)
+* [Nyaga Roy's Solution](https://github.com/RoyNyaga/new_members_blog_odin)
 </details>
 
 ### Additional Resources

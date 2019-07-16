@@ -4,7 +4,16 @@ Feeling scared of the command line? You're not alone. We have this image of deve
 
 That black screen or window is the command line interface (CLI), where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
 
-In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't be intimated by the prospect of using the command line for the first time.
+In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't be intimidated by the prospect of using the command line for the first time.
+
+#### Test Drive Your Terminal
+Open a terminal on your computer. On Linux: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard. On Mac: open your applications folder and find "Terminal". Before we do anything, take a look at the following text:
+``` 
+$ whoami
+```
+This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` does, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press enter on your keyboard.
+
+It returns your username. Cool!
 
 ## Why learn this now?
 
@@ -20,12 +29,11 @@ By the end of this lesson, you should be able to do the following:
 - Use the command line to rename or destroy a directory and a file.
 
 ### Assignment
-Note: Many of these resources assume you're using a Mac or Linux environment. You can either skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [AWS Cloud9](https://aws.amazon.com/cloud9/), which provides a terminal window that you can use to practice.
+**Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot, a virtual machine, or Windows Subsystem for Linux. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/web-development-101/lessons/prerequisites).
 
-<div class="lesson-content__panel" markdown="1">
-  1. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
-  2. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
-</div>
+1. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
+2. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
+
 
 #### Use the Command Line Like a Pro
 There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. If they are forced to do something over and over again, odds are good that they'll figure out a way to automate it instead. The good news is that you get benefit from the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way). 
@@ -43,7 +51,7 @@ But once you've typed in a little bit more, it will complete the name for you, m
 Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all of its files in one go. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period) to open up all of the project files. This shortcut is also commonly used with Git (which is covered in detail later on) with commands like `git add .` to add all of the files inside of a directory into Git's staging area.
 
 ### Exercise
-In this exercise, you will practice creating files and directories and deleting them.
+In this exercise, you will practice creating files and directories and deleting them. You'll need to enter the commands for this exercise in your terminal. If you aren't recalling on how to open a terminal, scroll up for a reminder.
 
 <div class="lesson-content__panel" markdown="1">
   1. Create a new directory in your home directory with the name `test`.
@@ -58,7 +66,7 @@ That's it--you're done with command line basics! If you commit to doing most thi
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
 
-* The free online book [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. It goes into more depth than you really need at this point, so just focus on chapters 1 and 4. Feel free to refer to the rest of the book (it's great!) whenever you like.
+* The online book [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapter 1 is free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to purchase and read the rest of the book if you like.
 * [ExplainShell.com](http://explainshell.com/) is a great resource for if you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check.
 
 ### Knowledge Check

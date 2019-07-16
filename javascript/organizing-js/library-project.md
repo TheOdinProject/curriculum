@@ -40,7 +40,14 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
+- [Henry Kirya's solution](https://github.com/harrika/odinjs-library) - [View in Browser](https://harrika.github.io/odinjs-library/)
+- [Ben's solution](https://github.com/Koshoo/Library) - [View in Browser](https://koshoo.github.io/Library/)
+- [miang's solution](https://github.com/miang99/book-library) - [View in Browser](https://miang99.github.io/book-library/)
+- [Carmine's solution](https://github.com/cgrossi/Odin-Project-Library) - [View in Browser](https://cgrossi.github.io/Odin-Project-Library/)
+- [John Paul's solution](https://github.com/Omulosi/library) - [View in Broweser](https://omulosi.github.io/library/)
+- [Bojo's solution](https://github.com/BojoZahariev/My_Library) - [View in Browser](https://bojozahariev.github.io/My_Library/)
+- [ARaut9's solution](https://github.com/ARaut9/book_library) - [View in Browser](https://araut9.github.io/book_library/)
+- [learnsometing's solution](https://github.com/learnsometing/JS-Library) - [View in Browser](https://learnsometing.github.io/JS-Library/)
 - [Jason McKee's solution](https://github.com/jttmckee/odin-library-js) - [View in Browser](https://jttmckee.github.io/odin-library-js/)
 - [Simon Tharby's solution](https://github.com/jinjagit/library) - [View in Browser](https://jinjagit.github.io/library/)
 - [dane's Solution](https://github.com/daneOmega/bookLibrary) - [View in Browser](https://daneomega.github.io/)
@@ -90,7 +97,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Uy Bình's Solution](https://github.com/uybinh/odin-js-library) - [View in browser](https://uybinh.github.io/odin-js-library/)
 - [Punnadittr's Solution](https://github.com/punnadittr/library) - [View in browser](https://punnadittr.github.io/library/index.html/)
 - [Sava's Solution](https://github.com/SavaVuckovic/Library-App)
-- [Francisco Carlos's Solution](https://github.com/fcarlosdev/the_odin_project/tree/master/library) - [View in browser](https://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/library/index.html)
+- [Francisco Carlos's Solution](https://github.com/fcarlosdev/library) - [View in browser](https://fcarlosdev.github.io/library/)
 - [Kyouyatamax Solution](https://github.com/kyouyatamax/jsLibraryOdinProject) - [View in browser](https://kyouyatamax.github.io/jsLibraryOdinProject/)
 - [MPalhidai's Solution](https://github.com/MPalhidai/Library) - [View in browser](https://www.michaelpalhidai.com/Library/)
 - [aznafro's Solution](https://github.com/aznafro/library) - [View in browser](https://aznafro.github.io/library/)
@@ -103,5 +110,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [tnharvey's Solution](https://github.com/tnharvey/library) - [View in browser](https://tnharvey.github.io/library/)
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Book-Manager) - [View in Browser](https://ubaid-manzoor.github.io/Book-Manager/)
 - [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/library)
-
+- [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/library) - [View in Browser](https://amarcoscastelo.github.io/library/)
+- [JamCry's Solution](https://github.com/jamcry/js-library) - [View in Browser](https://jamcry.github.io/js-library/)
 </details>

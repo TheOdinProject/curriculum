@@ -288,7 +288,7 @@ The hash function is somewhat slow, so all of the DB storage stuff needs to go i
 inside your `LocalStrategy` function we need to replace the `user.password !== password` bit with the `bcrypt.compare()` function.
 
 ~~~javascript
-bcrypt.compare(password, user.password, (err, res)) {
+bcrypt.compare(password, user.password, (err, res) => {
   if (res) {
     // passwords match! log user in
     return done(null, user)

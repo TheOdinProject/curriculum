@@ -9,17 +9,16 @@ There are three ways to open the Developer Tools menu:
     - Chrome: Select the `Chrome Menu` > `More Tools` > `Developer Tools`
     - Firefox: Select the Firefox `Menu` > `Web Developer`> `Toggle Tools`  
 2. Right click anywhere on a webpage and select `Inspect`
-3. Use the keyboard shortcut `CTRL + Shift + I` (`option + command + I` on Mac)
+3. Use the keyboard shortcut `F12` or `CTRL + Shift + I` (`option + command + I` on Mac)
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Head to the [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools/) by Google. The following subsections cover is what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with (i.e. the Elements Panel):
+1. Head to the [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with (i.e. the Elements Panel):
     - Open DevTools
     - Device Mode
-        1. Device Mode
-        2. Test Responsive and Device-specific Viewports
+        1. Device Mode (Simulate Mobile Devices with Device Mode)
     - Elements panel
         1. Get Started With Viewing and Changing CSS
         2. Inspect and Tweak Your Pages

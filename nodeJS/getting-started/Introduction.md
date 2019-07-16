@@ -1,4 +1,4 @@
-NodeJS (or just 'Node') has been steadily gaining popularity since it's creation in 2009. The internet is flooded with courses and articles about it, installing it is a prerequisite for pretty much any front-end development work, and of course the amount of jobs that require knowledge of it is also on the rise.
+NodeJS (or just 'Node') has been steadily gaining popularity since its creation in 2009. The internet is flooded with courses and articles about it, installing it is a prerequisite for pretty much any front-end development work, and of course the amount of jobs that require knowledge of it are also on the rise.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
@@ -6,7 +6,7 @@ By the end of this lesson, you should be able to do the following:
  - Describe the purpose of a server.
  - Describe the differences between static and dynamic sites.
  - Explain why you might need a back-end for your project.
- - Explain when you would't need a back-end for a project.
+ - Explain when you wouldn't need a back-end for a project.
  - Explain the event loop.
  - Understand the origin of the Node.js runtime.
  - Write a simple "hello world" application and run it in the console of your machine.
@@ -20,12 +20,12 @@ The [Node.js website](https://nodejs.org/en/about/) declares:
 
 This is a definition that requires a little unpacking.
 
-The important bit to understand right up front is that Node is a "JavaScript runtime".  When JavaScript was first created, it was designed to run *in the browser*. This means that it was impossible to use JavaScript to write any kind of program that was not a web-site. Node brings JavaScript _out_ of browser-land. This allows developers to use JavaScript to accomplish pretty much anything that other popular server-side languages such as Ruby, PHP, C# and Python can do. So, at it's most basic level, Node simply allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web-browser.
+The important bit to understand right up front is that Node is a "JavaScript runtime".  When JavaScript was first created, it was designed to run *in the browser*. This means that it was impossible to use JavaScript to write any kind of program that was not a web-site. Node brings JavaScript _out_ of browser-land. This allows developers to use JavaScript to accomplish pretty much anything that other popular server-side languages such as Ruby, PHP, C# and Python can do. So, at its most basic level, Node simply allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web-browser.
 
 To facilitate this, Node has some added functionality that is not found in browser-based JavaScript, such as the ability to read and write local files, create http connections and listen to network requests.
 
 ### Event Driven
-Back to the defintion from Node's website: Node is an **asyncronous event driven** JavaScript runtime. In this context **asyncronous** means that when you write your code you do not try to predict the exact sequence in which every line will run.  Instead you write your code as a collection of smaller functions that get called in response to specific events such as a network request (**event driven**).
+Back to the defintion from Node's website: Node is an **asyncronous event driven** JavaScript runtime. In this context **asyncronous** means that when you write your code you do not try to predict the exact sequence in which every line will run. Instead you write your code as a collection of smaller functions that get called in response to specific events such as a network request (**event driven**).
 
 For example, let's say you are writing a program and you need it to do the following. It should read some text from a file, print that text to the console, query a database for a list of users and filter the users based on their age.
 
@@ -73,14 +73,15 @@ This snippet is from the very first lesson in a tutorial that you'll be followin
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-- link to stuff!
+
+- Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 
 <details>
-<summary>a question</summary>
+<summary>What is Node?</summary>
 <ul><ul>
-  <li>the answer to that question</li>
+  <li>Node.js is an open-source, cross-platform JavaScript runtime environment built to be run outside of the browser.</li>
 </ul></ul>
 </details>
