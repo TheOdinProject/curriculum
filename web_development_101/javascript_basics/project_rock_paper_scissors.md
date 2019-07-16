@@ -718,7 +718,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alex Gioffre's Solution With UI](https://github.com/AlexGioffre/rockpapperscissorsgui) - [View in Browser](https://alexgioffre.github.io/rockpapperscissorsgui/)
 - [vang37's Solution With UI](https://github.com/vang37/RockPaperScissors)- [View in Browser](https://vang37.github.io/RockPaperScissors)
 - [Ray Alvarez's Solution](https://github.com/gadget2013/RockPaperScissors)
-- [Eduardo06sp's Solution](https://github.com/Eduardo06sp/rock-paper-scissors) - [View in Browser](https://eduardo06sp.github.io/rock-paper-scissors/)
 - [Michael's Solution](https://github.com/MicoPham/project-rock-paper-scissors) - [View in Browser](https://micopham.github.io/project-rock-paper-scissors/)
 - [David Bridges' Solution](https://github.com/dvbridges/RPS/) - [View in Browser](https://dvbridges.github.io/RPS/)
 - [JoshAubrey's Solution](https://github.com/JoshAubrey/rock-paper-scissors) - [View in Browser](https://joshaubrey.github.io/rock-paper-scissors/) 
@@ -735,4 +734,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ZShoals' Solution With UI](https://github.com/zshoals/rps-odin-project) - [View in Browser](https://zshoals.github.io/rps-odin-project/)
 - [Bernd's solution](https://github.com/berndbausch/odin-rockpaperscissors)
 - [Lighthenry's Solution](https://github.com/lighthenry/rock-paper-scissors)
+- [Eduardo06sp's Solution](https://github.com/Eduardo06sp/rock-paper-scissors) - [View in Browser](https://eduardo06sp.github.io/rock-paper-scissors/)
+- [Eduardo06sp's Solution With UI](https://github.com/Eduardo06sp/rock-paper-scissors-gui) - [View in Browser](https://eduardo06sp.github.io/rock-paper-scissors-gui/)
 </details>
