@@ -18,7 +18,7 @@ If you start working on more public-facing applications, security will become mo
 
 #### Rails Tasks
 
-Rails tasks are a special way of running scripts that can use your application.  You're already familiar with some like `$ rails db:migrate`, but you can also create your own.  This website uses a Rails task to populate the curriculum from its Github repo.  Check out the [Rails Guide on Command Line](http://guides.rubyonrails.org/command_line.html) for more information.
+Rails tasks are a special way of running scripts that can use your application.  You're already familiar with some like `$ rails db:migrate`, but you can also create your own.  This website uses a Rails task to populate the curriculum from its Github repo.  Check out the [Rails Guide on Command Line and bin/rails](http://guides.rubyonrails.org/command_line.html) for more information.
 
 #### Caching
 
