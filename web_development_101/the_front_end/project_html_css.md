@@ -2234,12 +2234,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrey Solodov's Solution (Easy)](https://solodov-dev.github.io/google-homepage/) - [View in Browser](https://solodov-dev.github.io/google-homepage/)
 * [Kacper Cisowski's Solution (Difficult)](https://kylazath.github.io/google-homepage-adv/) - [View in Browser](https://kylazath.github.io/google-homepage-adv/)
 * [VectorpBR322's solution(Easy)](https://github.com/vectorpBR322/web-homepage) - [View in Browser](https://vectorpbr322.github.io/web-homepage/)
-* [Andrey Solodov's Solution (Easy)](https://solodov-dev.github.io/google-homepage/) - [View in Browser](https://solodov-dev.github.io/google-homepage/) 
-* [Albert Tung's Solution (Easy)](https://aytung.github.io/google-homepage/.) - [View in Browser](https://aytung.github.io/google-homepage/) 
+* [Andrey Solodov's Solution (Easy)](https://solodov-dev.github.io/google-homepage/) - [View in Browser](https://solodov-dev.github.io/google-homepage/)
+* [Albert Tung's Solution (Easy)](https://aytung.github.io/google-homepage/.) - [View in Browser](https://aytung.github.io/google-homepage/)
 * [Mierla Razvan's Solution (Easy)](https://github.com/razvanmierla/google-homepage) - [View in Browser](https://razvanmierla.github.io/google-homepage/)
-* [Sarah Quimpo's Solution (Easy)](https://github.com/awesomeredjuice/google-homepage) - [View in Browser](https://awesomeredjuice.github.io/google-homepage/) 
-* [rholderfield's Solution (Easy)](https://rholderfield.github.io/google-homepage/) - [View in Browser](https://rholderfield.github.io/google-homepage/) 
-* [Miguel Farias's Solution (Easy)](https://github.com/mkezmkez/google-homepage/) - [View in Browser](https://mkezmkez.github.io/google-homepage/) 
+* [Sarah Quimpo's Solution (Easy)](https://github.com/awesomeredjuice/google-homepage) - [View in Browser](https://awesomeredjuice.github.io/google-homepage/)
+* [rholderfield's Solution (Easy)](https://rholderfield.github.io/google-homepage/) - [View in Browser](https://rholderfield.github.io/google-homepage/)
+* [Miguel Farias's Solution (Easy)](https://github.com/mkezmkez/google-homepage/) - [View in Browser](https://mkezmkez.github.io/google-homepage/)
 * [lighthenry's solution (Easy)](https://github.com/lighthenry/google-homepage) - [View in Browser](https://lighthenry.github.io/google-homepage/#)
 * [Martink-rsa's Solution (Easy)](https://github.com/martink-rsa/google-homepage) - [View in Browser](https://martink-rsa.github.io/google-homepage/)
 * [RandomGuyJCI's Solution (Easy)](https://github.com/RandomGuyJCI/google-homepage) - [View in Browser](https://randomguyjci.github.io/google-homepage/)
@@ -2248,6 +2248,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dustin Janssen's Solution (Easy)](https://github.com/dustinjanssen/google-homepage/) - [View in Browser](https://dustinjanssen.github.io/google-homepage/)
 * [James Komol's Solution (Easy)](https://github.com/jameskomol/joogle) - [View in Browser](https://jameskomol.github.io/joogle/)
 </details>
+Add my Solution please
+* [Levan Mebonia's Solution (Easy)] (https://github.com/Levo96/google_homepage)
+[View in Browser ] - (https://levo96.github.io/google_homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
