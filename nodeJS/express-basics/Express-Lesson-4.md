@@ -2,6 +2,7 @@ This lesson is fun! You'll be setting up several views, and you'll start to see 
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
+
 - Describe asynchronous functions.
 - Manage asynchronous operations in controller functions.
 - Manage flow control when using asynchronous operations.
