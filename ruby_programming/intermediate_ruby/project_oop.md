@@ -516,6 +516,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@BenFowler/Mastermind)
 * [Bendee48's solution](https://github.com/bendee48/mastermind) - [Play on Repl.it](https://repl.it/@bendee48/Mastermind)
 * [Leo Holanda's Solution](https://github.com/leo-holanda/mastermind)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-oop/tree/master/mastermind)
 </details>
 
 ### Additional Resources

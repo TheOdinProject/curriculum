@@ -370,6 +370,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Gareth Woodman's Solution](https://github.com/GarethWoodman/RubyBuildingBlocks/blob/master/bubble_sort.rb)
 * [Konrad Zagozda's Solution](https://github.com/konradzagozda/ruby_building_blocks/blob/master/bubble_sort.rb) 
 * [Carlos Del Real's and António Fernandes's Solution](https://github.com/carloshdelreal/ruby_programming/blob/master/1_Bubble_Sort.rb)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Adv_Ruby_Building_Blocks/blob/master/bubble_sort.rb)
 
 </details>
 
@@ -708,6 +709,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Franklyn Afeso's Solution](https://github.com/afeso/building_blocks/blob/master/enumerables.rb)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-problems/blob/master/enumerable.rb)
 * [Gareth Woodman's Solution](https://github.com/GarethWoodman/RubyBuildingBlocks/blob/master/enumerable.rb)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Adv_Ruby_Building_Blocks/blob/master/my_methods.rb)
 
 </details>
 
