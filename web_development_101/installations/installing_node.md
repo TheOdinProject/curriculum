@@ -48,7 +48,13 @@ Run:
 nvm install node
 ~~~
 
-This will install the most recent verson of node.
+This will install the most recent verson of node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
+
+~~~bash
+Downloading and installing node v12.6.0...
+~~~
+
+If not, close the terminal, re-open it and run `nvm install node` again.
 
 #### Step 2.2: Setting the node Version
 
