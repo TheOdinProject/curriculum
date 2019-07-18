@@ -6,29 +6,6 @@ We're going to install it using `nvm` (Node Version Manager), because it makes i
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
-### Step 0: Prerequisites
-
-We need to make sure we have everything  we need to install and run nvm, node, and npm. Even if you have already installed the prerequisites, it won't hurt to install them again.
-
-#### Step 0.1: Installing Curl
-
-Curl is used to install `nvm`, let's install it:
-
-First we update the system:
-
-~~~bash
-sudo apt update
-sudo apt upgrade
-~~~
-
-When this is complete, run:
-
-~~~bash
-sudo apt install curl
-~~~
-
-Now you're ready to download and install `nvm`
-
 ### Step 1: Downloading and Installing `nvm`
 
 #### Step 1.1: Download and Install
