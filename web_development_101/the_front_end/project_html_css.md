@@ -2251,6 +2251,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dean Rossano's Solution (Easy)](https://github.com/drossano/google-homepage) - [View in Browser](https://drossano.github.io/google-homepage/#)
 * [Levan Mebonia's Solution (Easy)](https://github.com/Levo96/google_homepage) - [View in Browser](https://levo96.github.io/google_homepage/)
 * [Debola's Solution (Easy)](https://github.com/blakbloke/google-homepage) - [View in browser](https://blakbloke.github.io/google-homepage/)
+* [Carlos' Solution (Easy)](https://github.com/floydfish/google-homepage) - [View in browser](https://floydfish.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
