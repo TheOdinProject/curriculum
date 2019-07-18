@@ -456,6 +456,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Kalmod's Solution](https://github.com/kalmod/etch_a_sketch) - [View in Browser](https://kalmod.github.io/etch_a_sketch/)
 * [mrchip2k's Solution](https://github.com/mrchip2k/odin_etch_a_sketch) - [View in Browser](https://mrchip2k.github.io/odin_etch_a_sketch/)
 * [ZShoals' Solution](https://github.com/zshoals/etch-a-sketch_odinproject) - [View in Browser](https://zshoals.github.io/etch-a-sketch_odinproject/index.html)
+* [Ian's Solution](https://github.com/IanMKesler/Etch-a-sketch) - [View in Browser](https://ianmkesler.github.io/Etch-a-sketch/)
 </details>
 
 
