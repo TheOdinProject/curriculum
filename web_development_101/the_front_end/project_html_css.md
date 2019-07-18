@@ -1,5 +1,4 @@
-### Introduction
-* [Debola's solution (Easy)] (https://github.com/blakbloke/google-homepage) -[View in browser] https://blakbloke.github.io/google-homepage/
+
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
@@ -89,7 +88,12 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-
+* [eljoeys' Solution (Easy)](https://github.com/eljoey/google_homepage) - [View in Browser](https://eljoey.github.io/google_homepage/)
+* [vladutclp' Solution (Easy)](https://github.com/vladutclp/google-homepage) - [View in Browser](https://vladutclp.github.io/google-homepage/)
+* [evan-kapantais' Solution (Easy)](https://github.com/evan-kapantais/google-homepage) - [View in Browser](https://evan-kapantais.github.io/google-homepage/)
+* [bollinca's Solution (Easy)](https://github.com/bollinca/google-homepage) - [View in Browser](https://bollinca.github.io/google-homepage/)
+* [thatsjordan's Solution (Easy)](https://github.com/thatsjordan/google-homepage) - [View in Browser](https://thatsjordan.github.io/google-homepage/)
+* [Alp7's Solution (Easy)](https://github.com/Alp7/google-homepage) - [View in Browser](https://alp7.github.io/google-homepage/)
 * [Mitch Glass' Solution](https://github.com/mitchglass97/google-homepage) - [View in Browser](https://mitchglass97.github.io/google-homepage/)
 * [big-meel's Solution (Easy)](https://github.com/big-meel/google-homepage.git) - [View in Browser](https://big-meel.github.io/google-homepage/)
 * [PSteinweg's Solution (Easy)](https://github.com/psteinweg/google-homepage) - [View in Browser](https://psteinweg.github.io/google-homepage/)
@@ -2237,7 +2241,13 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rholderfield's Solution (Easy)](https://rholderfield.github.io/google-homepage/) - [View in Browser](https://rholderfield.github.io/google-homepage/) 
 * [Miguel Farias's Solution (Easy)](https://github.com/mkezmkez/google-homepage/) - [View in Browser](https://mkezmkez.github.io/google-homepage/) 
 * [lighthenry's solution (Easy)](https://github.com/lighthenry/google-homepage) - [View in Browser](https://lighthenry.github.io/google-homepage/#)
-
+* [Martink-rsa's Solution (Easy)](https://github.com/martink-rsa/google-homepage) - [View in Browser](https://martink-rsa.github.io/google-homepage/)
+* [RandomGuyJCI's Solution (Easy)](https://github.com/RandomGuyJCI/google-homepage) - [View in Browser](https://randomguyjci.github.io/google-homepage/)
+* [Cyhyraeth's Solution (Easy)](https://github.com/Cyhyraethz/google-homepage) - [View in Browser](https://cyhyraethz.github.io/google-homepage/)
+* [Jamie Rookyard's Solution (Easy)](https://github.com/rooky-j/google_homepage) - [View in Browser](https://rooky-j.github.io/google_homepage/)
+* [Dustin Janssen's Solution (Easy)](https://github.com/dustinjanssen/google-homepage/) - [View in Browser](https://dustinjanssen.github.io/google-homepage/)
+* [James Komol's Solution (Easy)](https://github.com/jameskomol/joogle) - [View in Browser](https://jameskomol.github.io/joogle/)
+* [Debola's Solution (Easy)](https://github.com/blakbloke/google-homepage) - [View in browser](https://blakbloke.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

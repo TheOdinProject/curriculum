@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+* [Numka's solution](https://github.com/numka/etch-a-sketch) - [View in Browser](https://numka.github.io/etch-a-sketch/)
 * [Mitchell Glass' solution](https://github.com/mitchglass97/etch-a-sketch) - [View in Browser](https://mitchglass97.github.io/etch-a-sketch/)
 * [lmjcbs's solution](https://github.com/lmjcbs/etch-a-sketch) - [View in Browser](https://lmjcbs.github.io/etch-a-sketch/)
 * [Kirill's Solution](https://github.com/kerbasi/ETCH-A-SKETCH) - [View in Browser](https://kerbasi.github.io/ETCH-A-SKETCH/)
@@ -453,6 +454,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Robin's Solution](https://github.com/RobinWagner/Etch-A-Sketch) - [View in Browser](https://robinwagner.github.io/Etch-A-Sketch/)
 * [David Bridges' solution](https://github.com/dvbridges/Etch-a-Sketch) - [View in Browser](https://dvbridges.github.io/Etch-a-Sketch/)
 * [Kalmod's Solution](https://github.com/kalmod/etch_a_sketch) - [View in Browser](https://kalmod.github.io/etch_a_sketch/)
+* [mrchip2k's Solution](https://github.com/mrchip2k/odin_etch_a_sketch) - [View in Browser](https://mrchip2k.github.io/odin_etch_a_sketch/)
+* [ZShoals' Solution](https://github.com/zshoals/etch-a-sketch_odinproject) - [View in Browser](https://zshoals.github.io/etch-a-sketch_odinproject/index.html)
+* [Eduardo06sp's Solution](https://github.com/Eduardo06sp/etch-a-sketch) - [View in Browser](https://eduardo06sp.github.io/etch-a-sketch/)
 </details>
 
 

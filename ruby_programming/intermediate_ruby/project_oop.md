@@ -18,7 +18,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this line! 
+* Add your solution below this line!
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/intermediate-Ruby/blob/master/tic-tac-toe.rb)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Intermediate_Ruby_Projects/tic_tac_toe.rb) - [Live](https://repl.it/@sarpisik/Tic-Tac-Toe-Game) 
 * [Guanacone's Solution](https://github.com/guanacone/oop/blob/master/tic_tac_toe.rb)
@@ -279,7 +280,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kelvin & Denis' Solution](https://github.com/DenisCuencaBrex/tic-tac-toe) - [Play on Repl.it](https://repl.it/@KelvinLiang/tic-tac-toe)
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@BenFowler/Tic-Tac-Toe)
 * [Eddie Ozuna's Solution](https://github.com/OzunaEdd/TicTacToe)
-* [Leo Holanda's Solution](https://github.com/leo-holanda/tic_tac_toe) - [Play on repl.it] (https://repl.it/@Leonardo_Holand/Tic-Tac-Toe)
+* [Leo Holanda's Solution](https://github.com/leo-holanda/tic_tac_toe) - [Play on repl.it](https://repl.it/@Leonardo_Holand/Tic-Tac-Toe)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-oop/tree/master/tic-tac-toe)
 </details>
 
 ### Project 2: Mastermind
