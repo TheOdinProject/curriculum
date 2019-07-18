@@ -741,4 +741,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Eduardo06sp's Solution With UI](https://github.com/Eduardo06sp/rock-paper-scissors-gui) - [View in Browser](https://eduardo06sp.github.io/rock-paper-scissors-gui/)
 - [akashdas98's Solution](https://github.com/akashdas98/RockPaperSissors) 
 - [Omar Collado's Solution with UI](https://github.com/Omar-Collado/RPS-js) - [View in Browser](https://omar-collado.github.io/RPS-js/)
+- [Harshit Goyal's Solution](https://github.com/hg333/rock_paper_scissors_) - [View in Browser](https://hg333.github.io/rock_paper_scissors_/)
 </details>
