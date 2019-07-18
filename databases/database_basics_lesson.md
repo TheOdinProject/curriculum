@@ -25,7 +25,8 @@ Look through these now and then use them to test yourself after doing the assign
 
   1. Check out this [introduction](https://launchschool.com/books/sql/read/introduction) of how SQL can be used to organise and manage an overwhelming amount of data. (You do not need to go any further than the first page on introductions.)
   2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
-  3. Go through this [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), to get a feel for actually creating and manipulating databases
+  3. Go through this [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), to get a feel for actually creating and manipulating databases.
+  4. Read [this article on CRUD](https://www.mssqltips.com/sqlservertip/5569/crud-operations-in-sql-server/) in the context of a SQL server. 
 
 </div>
 
