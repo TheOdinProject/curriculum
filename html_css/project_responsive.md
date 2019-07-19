@@ -77,6 +77,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [aznafro's solution](https://github.com/aznafro/tnw) - [View in browser](https://aznafro.github.io/thenextweb/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/The-next-web) - [View in browser](https://areebaishtiaq.github.io/The-next-web/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/thenextwebmockup) - [View in browser](https://taylorjohannsen.github.io/thenextwebmockup/)
+* [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/carloshdelreal/building-with-responsive-design) - [View in browser](https://carloshdelreal.github.io/building-with-responsive-design/)
 
 </details>
 

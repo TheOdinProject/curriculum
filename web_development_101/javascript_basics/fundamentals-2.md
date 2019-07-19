@@ -28,7 +28,7 @@ Look through these now and then use them to test yourself after doing the assign
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A __string__ is simply a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic.
-2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a more about what you can do with strings... be sure to do the exercises at the end!
+2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to do the exercises at the end!
 3. Vocabulary time: a __method__ is a bit of functionality that is built into the language or into specific data types.  In the previous lesson you learned a few methods that can be used on strings such as `indexOf` and `search`.  An exhaustive list of methods that can be used on strings can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
 ### Conditionals
@@ -43,9 +43,9 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 
 ### Practice
 
-To give you a good bit of practice, we have created an online classroom on repl.it.  In general we believe that it's best to work on programming on your _own_ computer rather than in an online environment but we'll get to that soon enough.
+To give you a good bit of practice, we have created an online classroom on repl.it. In general, we believe that it's best to practice programming on your _own_ computer rather than in an online environment, but we'll get to that soon enough.
 
-- The classroom and lessons can be found [here](https://repl.it/community/classrooms/34425). Do the lessons in order.  You do not have to sign up or login to repl.it to do the course, but doing so makes the user experience a little nicer.. you can submit your answers to check them and see 'model solutions' on a couple of the lessons.
+- The classroom and lessons can be found [here](https://repl.it/community/classrooms/34425). Sign up or login to repl.it to see the lessons, and be sure to do the lessons in order. You can submit your answers to check them, and a couple of the lessons include 'model solutions'.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

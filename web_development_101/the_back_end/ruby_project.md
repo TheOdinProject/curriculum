@@ -31,7 +31,25 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+<<<<<<< HEAD
 * [Johns's soution](https://github.com/JohnStaAna/learn_ruby)
+=======
+* [mistervoga's solution](https://github.com/mistervoga/learn_ruby)
+* [nadjastojanovic's solution](https://github.com/nadjastojanovic/learn_ruby)
+* [Chris' solutions](https://github.com/CSalois114/learn_ruby)
+* [Henry Kirya's solution](https://github.com/harrika/learn_ruby)
+* [Lele's Solution](https://github.com/Lele992/learn_ruby)
+* [Allan Glasier's Solution](https://github.com/allan-glasier/ruby_problems)
+* [Basskip's Solution](https://github.com/Basskip/learn_ruby)
+* [Cayli's Solution](https://github.com/cayb0rg/learn_ruby)
+* [Sherman's Solution](https://github.com/shermansjliu/learn_ruby)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/learn_ruby)
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/learn_ruby)
+* [Daniel Prince's Solution](https://github.com/danielambrosius/learn_ruby)
+* [Sarp's Solution](https://github.com/sarpisik/learn_ruby)
+* [Emmanuel Oni's Solution](https://github.com/emmaoni/learn_ruby)
+* [Neill Henning's solution](https://github.com/Rabidza/learn_ruby)
+>>>>>>> 4eaf2a6d2054e2238a8590364ec6dd93cf361e8a
 * [Iacobssorin soution](https://github.com/Iacobssorin/learn_ruby)
 * [Dylan's soution](https://github.com/proto-dylan/learn_ruby)
 * [Sizigia's solution](https://github.com/sizigia/learn_ruby)
@@ -530,6 +548,17 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Doug Heatter's solution](https://github.com/drheatter/learn_ruby)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/Project_ruby_by_Roy)
 * [John-san's solution](https://github.com/john-san/learn_ruby)
+* [Robert Dunbar's solution](https://github.com/RobertDunbar/learn_ruby)
+* [Esau Guerra's solution](https://github.com/esaug/learn_ruby)
+* [Adriel Bruno's solution](https://github.com/AdrielTrigger/learn_ruby)
+* [Konrad Zagozda's solution](https://github.com/konradzagozda/learn_ruby)
+* [Neel Ratn's solution](https://github.com/neelra8n/learn_ruby)
+* [Cameron St. Amant's solution](https://github.com/CameronStAmant/learn_ruby)
+* [Alex Gioffre' solution](https://github.com/AlexGioffre/learn_ruby)
+* [Rosanne Nicolai's solution](https://github.com/rjnicolai/learn_ruby)
+* [Nathan Choi's solution](https://github.com/sihoonathan/coding-challenges2)
+* [Robin's solution](https://github.com/RobinWagner/Ruby-Assignment)
+
 </details>
 
 ### Additional Resources

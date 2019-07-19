@@ -13,4 +13,5 @@ Once you've worked through your negotiation and hopefully had the chance to rank
 
 ### Links
 
+* [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) - Long blog but worth the read to get in the right mindset.
 * [Negotiating your Startup Offer from Rob.by](http://rob.by/2013/negotiating-your-startup-job-offer/) gets into the equity component of some offers.
