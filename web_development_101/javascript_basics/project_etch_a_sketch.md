@@ -459,6 +459,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [ZShoals' Solution](https://github.com/zshoals/etch-a-sketch_odinproject) - [View in Browser](https://zshoals.github.io/etch-a-sketch_odinproject/index.html)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/etch-a-sketch) - [View in Browser](https://eduardo06sp.github.io/etch-a-sketch/)
 * [Ian's Solution](https://github.com/IanMKesler/Etch-a-sketch) - [View in Browser](https://ianmkesler.github.io/Etch-a-sketch/)
+* [JoshAubrey's Solution (w/RGB)](https://github.com/JoshAubrey/etch-a-sketch) - [View in Browser](https://joshaubrey.github.io/etch-a-sketch/)
 </details>
 
 
