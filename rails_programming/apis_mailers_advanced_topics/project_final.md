@@ -27,7 +27,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 8. Users can Like Posts.
 9. Users can Comment on Posts.
 10. Posts should always display with the post content, author, comments and likes.
-11. Treat the Posts Index page like the real Facebook's "Timeline" feature -- show all the recent posts from the current user and users she is friends with.
+11. Treat the Posts Index page like the real Facebook's "Timeline" feature -- show all the recent posts from the current user and users she/he is friends with.
 12. Users can create a Profile with a Photo (just start by using the Gravatar image like you did in the Rails Tutorial).
 13. The User Show page contains their Profile information, photo, and Posts.
 14. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
