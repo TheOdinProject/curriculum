@@ -133,6 +133,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Carlos Del Real & Gabriela's solution](https://viricruz.github.io/doogle-homepage/) - [View in browser](https://viricruz.github.io/doogle-homepage/)
 * [Nyaga Roy and Rinor Ajeti solution](https://github.com/RoyNyaga/microverse_embedded_video) - [View in browser](https://roynyaga.github.io/microverse_embedded_video/)
 * [Alex Gioffre's Solution](https://github.com/AlexGioffre/Youtube_clone) - [View in browser](https://alexgioffre.github.io/Youtube_clone/)
+* [Dolunaykiz's soluiton](https://github.com/dolunaykiz/youtube-mockup) - [View in browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/youtube-mockup/blob/master/index.html)
 </details>
 
 ### Additional Resources

@@ -68,5 +68,7 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/mini_msg_board)
+- [tbmreza's Solution](https://github.com/tbmreza/odinproject-node2/) - [View in browser](https://reza-message-board.herokuapp.com)
 
 </details>

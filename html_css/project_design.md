@@ -76,7 +76,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/teardown) - [View in browser](https://fcarlosdev.github.io/teardown/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
 * [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/carloshdelreal/design-teardown) - [View in Browser](https://carloshdelreal.github.io/design-teardown/)
-
+* [Scott McKell's solution](https://github.com/zottwickel/heatmap) - [View in Browser](https://zottwickel.github.io/heatmap/)
 </details>
 
 ### Additional Resources
