@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Barrie Lake's Solution](https://github.com/barrielake/calculator) - [View in Browser](https://barrielake.github.io/calculator/)
 - [Mitchell Glass' Solution](https://github.com/mitchglass97/calculator) - [View in Browser](https://mitchglass97.github.io/calculator/)
 - [Slotthy's Solution](https://github.com/slotthy/javascript-calculator) - [View in Browser](https://slotthy.github.io/javascript-calculator/)
 - [mistervoga's Solution](https://github.com/mistervoga/calculator) - [View in Browser](https://github.com/mistervoga/calculator)
