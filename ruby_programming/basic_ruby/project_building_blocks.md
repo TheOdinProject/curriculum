@@ -452,7 +452,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project---Ruby-Building-Blocks/blob/master/caesar_cipher.rb)
 * [faishalirwn's Solution](https://repl.it/@mfaishal/Project-1-Caesar-Cipher)
 * [Konrad Zagozda's Solution](https://github.com/konradzagozda/caesar_cipher_ruby)
-
+* [Rosanne Nicolai's Solution](https://github.com/rjnicolai/Caesar-Cipher)
 </details>
 
 ### Project 2: Stock Picker
@@ -1261,4 +1261,5 @@ Next, make sure your method can handle multiple words:
 * [Tristan Ross's Solution](https://github.com/TristanRoss/substring)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-problems/blob/master/substrings.rb)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project---Ruby-Building-Blocks/blob/master/substrings.rb)
+* [Rosanne Nicolai's Solution](https://github.com/rjnicolai/Substrings)
 </details>
