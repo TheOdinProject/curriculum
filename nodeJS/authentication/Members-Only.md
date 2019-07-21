@@ -26,7 +26,7 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
+* [Saif Mode's solution](https://saifmode.github.io/secret-club-house) - [View in browser](https://secret-club-house.herokuapp.com)
 </details>
 
 

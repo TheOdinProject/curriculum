@@ -122,6 +122,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/micro_reddit)
 * [Learnsometing's Solution](https://github.com/learnsometing/Rails-Micro_Reddit)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/micro_reddit)
 * [Noah Maizels' Solution](https://github.com/noahniuwa/micro-reddit-odin-tutorial-project)
@@ -230,6 +231,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's Solution](https://github.com/jamcry/micro-reddit)
 * [Vanny96's Solution](https://github.com/vanny96/micro_reddit)
 * [Cody B's Solution](https://github.com/CodyLBuffaloe/micro-reddit)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/micro-reddit)
 
 </details>
 

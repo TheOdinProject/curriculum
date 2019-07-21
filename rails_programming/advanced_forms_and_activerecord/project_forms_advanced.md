@@ -71,6 +71,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/rails-flight_booker)
 * [Simon Tharby's solution](https://github.com/jinjagit/flight-booker) | [View in browser](https://aqueous-citadel-60266.herokuapp.com)
 * [amundskm's Solution](https://github.com/amundskm/odin-flight-booker)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker) | [Live](https://safe-peak-87499.herokuapp.com)
