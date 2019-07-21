@@ -546,6 +546,16 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/Project_ruby_by_Roy)
 * [John-san's solution](https://github.com/john-san/learn_ruby)
 * [canicodenow's solution](https://github.com/canicodenow/learn_ruby)
+* [Robert Dunbar's solution](https://github.com/RobertDunbar/learn_ruby)
+* [Esau Guerra's solution](https://github.com/esaug/learn_ruby)
+* [Adriel Bruno's solution](https://github.com/AdrielTrigger/learn_ruby)
+* [Konrad Zagozda's solution](https://github.com/konradzagozda/learn_ruby)
+* [Neel Ratn's solution](https://github.com/neelra8n/learn_ruby)
+* [Cameron St. Amant's solution](https://github.com/CameronStAmant/learn_ruby)
+* [Alex Gioffre' solution](https://github.com/AlexGioffre/learn_ruby)
+* [Rosanne Nicolai's solution](https://github.com/rjnicolai/learn_ruby)
+* [Nathan Choi's solution](https://github.com/sihoonathan/coding-challenges2)
+* [Robin's solution](https://github.com/RobinWagner/Ruby-Assignment)
 </details>
 
 ### Additional Resources
