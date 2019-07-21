@@ -2259,6 +2259,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Carlos' Solution (Easy)](https://github.com/floydfish/google-homepage) - [View in browser](https://floydfish.github.io/google-homepage/)
 * [Jay Conner's Solution (Easy)](https://github.com/cleve703/google-homepage) - [View in browser](https://cleve703.github.io/google-homepage/)
 * [Purva's Solution (Easy)](https://github.com/singularity48021/google-homepage) - [View in browser](https://singularity48021.github.io/google-homepage/)
+* [jcai8649's Solution (Easy)](https://github.com/jcai8649/google-homepage) - [View in browser](https://jcai8649.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
