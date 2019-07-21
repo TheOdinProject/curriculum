@@ -2250,6 +2250,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [RandomGuyJCI's Solution (Easy)](https://github.com/RandomGuyJCI/google-homepage) - [View in Browser](https://randomguyjci.github.io/google-homepage/)
 * [Cyhyraeth's Solution (Easy)](https://github.com/Cyhyraethz/google-homepage) - [View in Browser](https://cyhyraethz.github.io/google-homepage/)
 * [Jamie Rookyard's Solution (Easy)](https://github.com/rooky-j/google_homepage) - [View in Browser](https://rooky-j.github.io/google_homepage/)
+* [Jamie Rookyard's Solution (Difficult)](https://github.com/rooky-j/google_results) - [View in Browser](https://rooky-j.github.io/google_results/)
 * [Dustin Janssen's Solution (Easy)](https://github.com/dustinjanssen/google-homepage/) - [View in Browser](https://dustinjanssen.github.io/google-homepage/)
 * [James Komol's Solution (Easy)](https://github.com/jameskomol/joogle) - [View in Browser](https://jameskomol.github.io/joogle/)
 * [Harshit Goyal's Solution (Easy)](https://github.com/hg333/google_homepage) - [View in Browser]( https://hg333.github.io/google_homepage/)
