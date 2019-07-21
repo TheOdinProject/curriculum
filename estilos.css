@@ -1,0 +1,37 @@
+body{
+    height: 100% !important;
+    background-image: linear-gradient(to bottom, #ed9c0b, #f38119, #f5632a, #f3423b, #eb124c);
+}
+#titulo{
+text-align: center;
+padding: 20px;
+color: white;
+font-family: 'Luckiest Guy', cursive;
+text-shadow: 2px 3px 0px #898999;
+line-height: 1.2;
+}
+
+#botones{
+    color: white;
+font-family: 'Luckiest Guy', cursive;
+text-shadow: 2px 3px 0px #898999;
+line-height: 1.2;
+    text-align: center;
+    padding: 20px;
+    }
+
+#jugadores{
+ text-align: center;
+ color: white;
+ font-family: 'Sanchez', serif;
+text-shadow: 1px 1px 0px #898999;
+line-height: 1.2;
+}
+
+#resultado{
+    background-color: #363636;
+    padding: 16px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
