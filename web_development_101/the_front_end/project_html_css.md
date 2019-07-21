@@ -2262,7 +2262,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Purva's Solution (Easy)](https://github.com/singularity48021/google-homepage) - [View in browser](https://singularity48021.github.io/google-homepage/)
 * [jcai8649's Solution (Easy)](https://github.com/jcai8649/google-homepage) - [View in browser](https://jcai8649.github.io/google-homepage/)
 </details>
-
+Kenneths Solution Easy https://codepen.io/BinarySamurai/full/gVpEoo
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
