@@ -123,6 +123,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [BShowen's Solution](https://github.com/bshowen/cl_connect_four)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/connect_four)
 * [Vollantre's solution](https://github.com/vollantre/connect_four)
 * [Kevin Vuong's solution](https://github.com/fffear/connect-four)
