@@ -88,9 +88,10 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Jitendra's Solution (Easy)](https://github.com/jitendrrathore/google-homepage) - [View in Browser](https://jitendrrathore.github.io/google-homepage/)
 * [nilajawill's Solution (Easy)](https://github.com/nilajawill/google-homepage) - [View in Browser](https://nilajawill.github.io/google-homepage/)
 * [jwhudson's Solution (Easy)](https://github.com/jwhudson/google-homepage) - [View in Browser](https://jwhudson.github.io/google-homepage/)
-* [flo-a's Solution (Easy)](https:// github.com/flo-a/google-homepage/) - [View in Browser](https://flo-a.github.io/google-homepage/)
+* [flo-a's Solution (Easy)](https://github.com/flo-a/google-homepage/) - [View in Browser](https://flo-a.github.io/google-homepage/)
 * [Alex's solution  (Easy)](https://github.com/AstringentBeet/google-clone) - [View in Browser](https://astringentbeet.github.io/google-clone/)
 * [Tijanif's Solution (Easy)](https://github.com/Tijanif/google-homepage) - [View in Browser](https://tijanif.github.io/google-homepage/)
 * [coldice1915's Solution (Easy)](https://github.com/coldice1915/google-homepage) - [View in Browser](https://coldice1915.github.io/google-homepage//)
