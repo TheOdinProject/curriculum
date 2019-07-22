@@ -95,8 +95,10 @@ If the message in the console contains `No such file or directory`, then you don
 To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by our email address ensures that GitHub knows who we are.
 
 ~~~bash
-ssh-keygen -C <youremail>
+ssh-keygen -C youremail
 ~~~
+
+For example: `ssh-keygen -C youremail@email.com`
 
 * When it prompts you for a location to save the generated key, just push `Enter`.
 * Next, it will ask you for a password; enter one if you wish, but it's not required.
