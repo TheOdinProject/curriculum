@@ -44,6 +44,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+* [Eljoey's Solution](https://github.com/eljoey/Etch-a-Sketch) - [View in Browser](https://eljoey.github.io/Etch-a-Sketch)
+* [Evan's solution](https://github.com/evan-kapantais/etch-a-sketch) - [View in Browser](https://evan-kapantais.github.io/etch-a-sketch/)
 * [Numka's solution](https://github.com/numka/etch-a-sketch) - [View in Browser](https://numka.github.io/etch-a-sketch/)
 * [Mitchell Glass' solution](https://github.com/mitchglass97/etch-a-sketch) - [View in Browser](https://mitchglass97.github.io/etch-a-sketch/)
 * [lmjcbs's solution](https://github.com/lmjcbs/etch-a-sketch) - [View in Browser](https://lmjcbs.github.io/etch-a-sketch/)
@@ -458,6 +460,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [ZShoals' Solution](https://github.com/zshoals/etch-a-sketch_odinproject) - [View in Browser](https://zshoals.github.io/etch-a-sketch_odinproject/index.html)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/etch-a-sketch) - [View in Browser](https://eduardo06sp.github.io/etch-a-sketch/)
 * [Ian's Solution](https://github.com/IanMKesler/Etch-a-sketch) - [View in Browser](https://ianmkesler.github.io/Etch-a-sketch/)
+* [JoshAubrey's Solution (w/RGB)](https://github.com/JoshAubrey/etch-a-sketch) - [View in Browser](https://joshaubrey.github.io/etch-a-sketch/)
+* [machineshot's Solution](https://github.com/MachineShot/etch_a_sketch) - [View in Browser](https://machineshot.github.io/etch_a_sketch/)
+* [aytung's Solution](https://github.com/aytung/etch-a-sketch) - [View in Browser](https://aytung.github.io/etch-a-sketch/)
 </details>
 
 
