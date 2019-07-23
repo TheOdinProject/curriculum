@@ -58,7 +58,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Numka's Solution](https://github.com/Numka/rock-paper-scissors) - [View in Browser](https://numka.github.io/rock-paper-scissors//)
 - [Marcus Macklin's Solution](https://github.com/macsoa1/rockPaperScissorsProject/blob/master/rockPaperScissorsPart2.html) - [View in Browswer](https://macsoa1.github.io/)
 - [Mitchell Glass' Solution](https://github.com/mitchglass97/browser-rock-paper-scissors) - [View in Browswer](https://mitchglass97.github.io/browser-rock-paper-scissors/)
-- [Arda Sevinç's solution](https://github.com/ardasevinc/rock-paper-scissors)
+- [Arda Sevinç's solution](https://github.com/ardasevinc/rock-paper-scissors) - [View in Browser](https://ardasevinc.me/rock-paper-scissors/)
 - [DB17889's Solution](https://github.com/DB17889/project_rps) - [View in Browser](https://DB17889.github.io/project_rps/)
 - [lmjcbs's solution](https://github.com/lmjcbs/rock-paper-scissors) - [View in Browswer](https://lmjcbs.github.io/rock-paper-scissors/)
 - [Michael A' solution](https://github.com/malleyne747/cautious-spork-odin-rock-paper-scissors-) - [View in Browser](https://malleyne747.github.io/cautious-spork-odin-rock-paper-scissors-/)
