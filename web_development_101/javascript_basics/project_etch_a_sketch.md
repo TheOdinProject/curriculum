@@ -463,8 +463,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [JoshAubrey's Solution (w/RGB)](https://github.com/JoshAubrey/etch-a-sketch) - [View in Browser](https://joshaubrey.github.io/etch-a-sketch/)
 * [machineshot's Solution](https://github.com/MachineShot/etch_a_sketch) - [View in Browser](https://machineshot.github.io/etch_a_sketch/)
 * [aytung's Solution](https://github.com/aytung/etch-a-sketch) - [View in Browser](https://aytung.github.io/etch-a-sketch/)
+* [Patrick's Solutution](https://github.com/patsProject/etch-a-sketch)
 </details>
-*Patrick's Solutution (https://github.com/patsProject/etch-a-sketch.git)
 
 
 
