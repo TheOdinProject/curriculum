@@ -162,6 +162,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/binary_search_tree.rb)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees)
 
 </details>
 
