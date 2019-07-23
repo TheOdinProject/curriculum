@@ -30,6 +30,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/toy_app) - [Live](https://evening-basin-88314.herokuapp.com/)
 * [Kevin Vuong's Solution](https://github.com/fffear/toy_app) - [Live](https://agile-depths-49455.herokuapp.com/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/toy_app) - [Live](https://sheltered-headland-99847.herokuapp.com/)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/toy_app) - [Live](https://dry-plateau-33966.herokuapp.com/users)
