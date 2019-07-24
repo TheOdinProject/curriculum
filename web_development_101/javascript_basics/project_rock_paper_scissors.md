@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Lucas's solution](https://github.com/LucasEstebe/RockPaperScissors) - [View in Browser](https://lucasestebe.github.io/RockPaperScissors/)
+- [Andrey Solodov's solution](https://github.com/solodov-dev/rock-paper-scissors) - [View in Browser](https://solodov-dev.github.io/rock-paper-scissors/)
+- [Akashdeep's Solution](https://github.com/adsk3003/Rock_paper_scissors) - [View in Browser](https://adsk3003.github.io/Rock_paper_scissors/)
 - [mvedataydin's solution](https://github.com/mvedataydin/rock_paper_scissors) - [View in Browser](https://mvedataydin.github.io/rock_paper_scissors/)
 - [Pointlessrapunzel's console solution](https://github.com/pointlessrapunzel/rock-paper-scissors-console) - [View in Browser](https://pointlessrapunzel.github.io/rock-paper-scissors-console/)
 - [David's solution](https://github.com/david90278/rock_paper_scissors)
@@ -59,7 +61,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Numka's Solution](https://github.com/Numka/rock-paper-scissors) - [View in Browser](https://numka.github.io/rock-paper-scissors//)
 - [Marcus Macklin's Solution](https://github.com/macsoa1/rockPaperScissorsProject/blob/master/rockPaperScissorsPart2.html) - [View in Browswer](https://macsoa1.github.io/)
 - [Mitchell Glass' Solution](https://github.com/mitchglass97/browser-rock-paper-scissors) - [View in Browswer](https://mitchglass97.github.io/browser-rock-paper-scissors/)
-- [Arda Sevinç's solution](https://github.com/ardasevinc/rock-paper-scissors)
+- [Arda Sevinç's solution](https://github.com/ardasevinc/rock-paper-scissors) - [View in Browser](https://ardasevinc.me/rock-paper-scissors/)
 - [DB17889's Solution](https://github.com/DB17889/project_rps) - [View in Browser](https://DB17889.github.io/project_rps/)
 - [lmjcbs's solution](https://github.com/lmjcbs/rock-paper-scissors) - [View in Browswer](https://lmjcbs.github.io/rock-paper-scissors/)
 - [Michael A' solution](https://github.com/malleyne747/cautious-spork-odin-rock-paper-scissors-) - [View in Browser](https://malleyne747.github.io/cautious-spork-odin-rock-paper-scissors-/)

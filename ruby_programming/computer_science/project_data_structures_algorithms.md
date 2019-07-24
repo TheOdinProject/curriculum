@@ -340,5 +340,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/knight_moves.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms/tree/master/Knights%20Travails)
-
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees/blob/master/knight.rb)
 </details>
