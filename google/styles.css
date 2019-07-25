@@ -1,0 +1,229 @@
+/* Basic */
+
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: right;
+    padding: 16px;
+}
+
+/* Google Apps*/
+.google-apps {
+    padding-right: 0;
+}
+.google-apps a {
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.google-apps a:hover {
+    text-decoration: underline;
+}
+
+.google-apps img {
+    width: 24px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.google-apps a,
+.google-apps img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Account */
+
+.account {
+    padding-left: 0;
+}
+.account button {
+    padding: 8px 12px;
+    margin: 0 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(108, 108, 248);
+    color: white;
+    cursor: pointer;
+}
+
+
+.google-logo,
+.search,
+.international {
+    margin: 32px;
+}
+
+/* Search Form */
+
+.search {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 33%;
+    text-align: center;
+}
+
+.search-form {
+    margin: 32px 0;
+    position: relative;
+    width:100%;
+}
+
+.search-form input,
+.search-form img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-form input {
+    position: relative;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 4%;
+    border-radius: 24px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: lightgray;
+    outline: none;
+}
+
+.search-form input:hover {
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.20), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.text-box {
+    display: inline;
+}
+
+.search-form img {
+    width: 24px;
+}
+
+.search-form button {
+    padding: 12px 16px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    margin: 1%;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #f2f2f2;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.search-form button:hover {
+    color: black;
+    border-color: lightgray;
+}
+
+.voice-search {
+    /* Layout */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.voice-search img {
+    padding: 10px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.international {
+    font-size: small;
+}
+
+.international a {
+    text-decoration: none;
+}
+
+.international a:hover {
+    text-decoration: underline;
+}
+
+.navigation a {
+    color: black;
+}
+
+/* Header */
+
+.google-apps,
+.account {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 13px;
+}
+
+/* Main */
+
+main {
+    text-align: center;
+}
+
+.google-logo {
+    margin-top: 7%;
+}
+
+/* Footer */
+
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.location {
+    text-align: left;
+    padding: 16px;
+    padding-left: 32px;
+    border-bottom-width: 1px;
+    background-color: rgb(241, 234, 234);
+    border-bottom-color: rgb(97, 95, 95);
+}
+
+footer .navigation {
+    padding: 16px;
+    background-color: rgb(241, 234, 234);
+    border-top: 1px;
+}
+
+footer .navigation a {
+    margin: 16px;
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.nav-left {
+    text-align: left;
+    display: inline-block;
+}
+
+.nav-right {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+}
+
+::-webkit-search-decoration,
+::-webkit-search-cancel-button,
+::-webkit-search-results-button,
+::-webkit-search-results-decoration { 
+  display: none; 
+}
