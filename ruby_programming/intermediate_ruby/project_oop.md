@@ -19,10 +19,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sherman's Solution](https://github.com/shermansjliu/tic-tac-toe/blob/master/main.rb)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/tic_tac_toe/tic_tac_toe.rb) - [View in repl.it](https://repl.it/@Jaybur1/rubytictactoe)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/intermediate-Ruby/blob/master/tic-tac-toe.rb)
-* [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Intermediate_Ruby_Projects/tic_tac_toe.rb) - [Live](https://repl.it/@sarpisik/Tic-Tac-Toe-Game) 
+* [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Intermediate_Ruby_Projects/tic_tac_toe.rb) - [Live](https://repl.it/@sarpisik/Tic-Tac-Toe-Game)
 * [Guanacone's Solution](https://github.com/guanacone/oop/blob/master/tic_tac_toe.rb)
 * [Joe Lee's Solution](https://github.com/JoeDravarol/tic-tac-toe) - [View in repl.it](https://repl.it/@JoeDravarol/Tic-Tac-Toe-Game)
 * [Arilson Souza](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_oop/tic_tac_toe.rb)
@@ -308,7 +309,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this line! 
+* Add your solution below this line!
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/mastermind/mastermind.rb) - [View in repl.it](https://repl.it/@Jaybur1/Mastermind)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/intermediate-Ruby/blob/master/mastermind.rb)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Intermediate_Ruby_Projects/mastermind.rb) - [Live](https://repl.it/@sarpisik/Mastermind-Game)
