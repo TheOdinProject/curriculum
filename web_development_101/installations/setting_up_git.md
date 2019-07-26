@@ -92,13 +92,13 @@ ls ~/.ssh/id_rsa.pub
 
 If the message in the console contains `No such file or directory`, then you don't have an SSH key, and you'll need to create one. If you do not see `No such file or directory` in the output, you already have a key; proceed to step 2.4.
 
-To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by our email address ensures that GitHub knows who we are. 
+To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are. 
+
+**Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `odin@valhalla.com`, then you would type `ssh-keygen -C odin@valhalla.com`. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project's curriculum and other coding websites, so it's good to be familiar with what it means.
 
 ~~~bash
 ssh-keygen -C <youremail>
 ~~~
-
-Be aware that angle brackets ( `< >`) indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in the command line. For example: `ssh-keygen -C youremail@email.com`
 
 * When it prompts you for a location to save the generated key, just push `Enter`.
 * Next, it will ask you for a password; enter one if you wish, but it's not required.
