@@ -47,7 +47,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [mvedataydin's Solution](https://github.com/mvedataydin/etch-a-sketch) - [View in Browser](https://mvedataydin.github.io/etch-a-sketch/)
 * [bollinca's Solution](https://github.com/bollinca/etch-a-sketch) - [View in Browser](https://bollinca.github.io/etch-a-sketch/)
 * [Krystell's Solution](https://github.com/KrystellBarraza/Inkblot) - [View in Browser](https://krystellbarraza.github.io/Inkblot/)
-* [Evan's Solution](https://github.com/satisfiedPunk/etchasketch)
+* [Evan's Solution](https://github.com/satisfiedPunk/etchasketch) - [View in Browser](https://satisfiedpunk.github.io/etchasketch/)
 * [Eljoey's Solution](https://github.com/eljoey/Etch-a-Sketch) - [View in Browser](https://eljoey.github.io/Etch-a-Sketch)
 * [Evan's solution](https://github.com/evan-kapantais/etch-a-sketch) - [View in Browser](https://evan-kapantais.github.io/etch-a-sketch/)
 * [Numka's solution](https://github.com/numka/etch-a-sketch) - [View in Browser](https://numka.github.io/etch-a-sketch/)
