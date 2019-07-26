@@ -1,7 +1,5 @@
 Let's take a quick break from the main Express tutorial to practice what we've already learned.  At this point you should know enough to use Express to make some fun interactive web apps! We're going to create a super simple message board.
 
-SHOULD PROBABLY HAVE SOME NEWB GO THROUGH THIS TO MAKE SURE I DIDN'T MISS ANYTHING IMPORTANT LOL
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -70,5 +68,8 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/mini_msg_board)
+- [tbmreza's Solution](https://github.com/tbmreza/odinproject-node2/) - [View in browser](https://reza-message-board.herokuapp.com)
+- [Morgan's Solution](https://github.com/morgando/message-board) - [View in browser](https://polar-meadow-92800.herokuapp.com/)
 
 </details>
