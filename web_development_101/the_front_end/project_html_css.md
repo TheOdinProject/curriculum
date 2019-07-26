@@ -2270,6 +2270,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Gerardo Larreinegabe (Easy)](https://github.com/alarreine/google-homepage) - [View in browser](https://alarreine.github.io/google-homepage/)
 * [Noah Dayson (Easy)](https://github.com/ndayson02/google-homepage) - [View in browser](https://ndayson02.github.io/google-homepage/)
 * [Chris M's Solution (Easy)](https://github.com/chris-mahmood/google-homepage) - [View in browser](https://chris-mahmood.github.io/google-homepage/)
+* [ohsjc's Solution (Easy)](https://github.com/ohsjc/google-homepage) - [View in browser](https://ohsjc.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
