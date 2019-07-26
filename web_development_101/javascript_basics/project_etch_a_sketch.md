@@ -466,7 +466,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [machineshot's Solution](https://github.com/MachineShot/etch_a_sketch) - [View in Browser](https://machineshot.github.io/etch_a_sketch/)
 * [aytung's Solution](https://github.com/aytung/etch-a-sketch) - [View in Browser](https://aytung.github.io/etch-a-sketch/)
 * [Patrick's Solutution](https://github.com/patsProject/etch-a-sketch)
-* [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/etch-a-sketch) - [View in Browser](https://rrg1459.github.io/etch-a-sketch/)
+* [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/etch-a-sketch) - [View in Browser](https://rrg1459.github.io/etch-a-sketch/)
 </details>
 
 
