@@ -43,7 +43,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
+* [Andrey's Solution](https://github.com/solodov-dev/etch-a-sketch) - [View in Browser](https://solodov-dev.github.io/etch-a-sketch/)
+* [mvedataydin's Solution](https://github.com/mvedataydin/etch-a-sketch) - [View in Browser](https://mvedataydin.github.io/etch-a-sketch/)
+* [bollinca's Solution](https://github.com/bollinca/etch-a-sketch) - [View in Browser](https://bollinca.github.io/etch-a-sketch/)
+* [Krystell's Solution](https://github.com/KrystellBarraza/Inkblot) - [View in Browser](https://krystellbarraza.github.io/Inkblot/)
+* [Evan's Solution](https://github.com/satisfiedPunk/etchasketch)
 * [Eljoey's Solution](https://github.com/eljoey/Etch-a-Sketch) - [View in Browser](https://eljoey.github.io/Etch-a-Sketch)
 * [Evan's solution](https://github.com/evan-kapantais/etch-a-sketch) - [View in Browser](https://evan-kapantais.github.io/etch-a-sketch/)
 * [Numka's solution](https://github.com/numka/etch-a-sketch) - [View in Browser](https://numka.github.io/etch-a-sketch/)
@@ -463,6 +467,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [JoshAubrey's Solution (w/RGB)](https://github.com/JoshAubrey/etch-a-sketch) - [View in Browser](https://joshaubrey.github.io/etch-a-sketch/)
 * [machineshot's Solution](https://github.com/MachineShot/etch_a_sketch) - [View in Browser](https://machineshot.github.io/etch_a_sketch/)
 * [aytung's Solution](https://github.com/aytung/etch-a-sketch) - [View in Browser](https://aytung.github.io/etch-a-sketch/)
+* [Patrick's Solutution](https://github.com/patsProject/etch-a-sketch)
+* [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/etch-a-sketch) - [View in Browser](https://rrg1459.github.io/etch-a-sketch/)
 </details>
 
 
