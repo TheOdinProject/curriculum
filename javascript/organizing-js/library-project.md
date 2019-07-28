@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Solodov's solution](https://github.com/solodov-dev/library) - [View in Browser](https://solodov-dev.github.io/library/)
 - [Vollantre's solution](https://github.com/vollantre/JS-library) - [View in Browser](https://vollantre.github.io/JS-library/)
 - [Henry Kirya's solution](https://github.com/harrika/odinjs-library) - [View in Browser](https://harrika.github.io/odinjs-library/)
 - [Ben's solution](https://github.com/Koshoo/Library) - [View in Browser](https://koshoo.github.io/Library/)
