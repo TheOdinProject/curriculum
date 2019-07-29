@@ -210,7 +210,7 @@ div.setAttribute('style', 'color: blue; background: white');
 // adds several style rules
 ~~~
 
-See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
+See [Chapter 6 - Element Node Inline Styles](http://domenlightenment.com/#chapter6) of DOM Enlightenment for more info on inline styles.
 
 Generally style rules are the same as in CSS with the exception that hyphenated rules are changed to camelCase. I.E. "background-color" becomes "backgroundColor".
 
