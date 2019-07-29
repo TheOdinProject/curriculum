@@ -2277,6 +2277,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mike D's Solution (Easy)](https://github.com/ipcmlr/google-homepage) - [View in browser](https://ipcmlr.github.io/google-homepage/)
 * [Keith P's Solution (Easy)](https://github.com/KeithPrinkey/google-homepage) - [View in browser](https://keithprinkey.github.io/google-homepage/)
 * [Tim Shea's Solution (Easy)](https://github.com/tpsst5/google-homepage) - [View in browser](https://tpsst5.github.io/google-homepage/)
+* [Luke Pritchett's Solution (Easy)](https://github.com/LukePritchett/google) - [View in browser](https://lukepritchett.github.io/google/)
 </details>
 
 
