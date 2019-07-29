@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Solodov's solution](https://github.com/solodov-dev/library) - [View in Browser](https://solodov-dev.github.io/library/)
+- [Vollantre's solution](https://github.com/vollantre/JS-library) - [View in Browser](https://vollantre.github.io/JS-library/)
 - [Henry Kirya's solution](https://github.com/harrika/odinjs-library) - [View in Browser](https://harrika.github.io/odinjs-library/)
 - [Ben's solution](https://github.com/Koshoo/Library) - [View in Browser](https://koshoo.github.io/Library/)
 - [miang's solution](https://github.com/miang99/book-library) - [View in Browser](https://miang99.github.io/book-library/)
@@ -112,4 +114,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/library)
 - [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/library) - [View in Browser](https://amarcoscastelo.github.io/library/)
 - [JamCry's Solution](https://github.com/jamcry/js-library) - [View in Browser](https://jamcry.github.io/js-library/)
+-[akashdas98's Solution](https://github.com/akashdas98/library) - [View in Browser](https://akashdas98.github.io/library/)
 </details>
