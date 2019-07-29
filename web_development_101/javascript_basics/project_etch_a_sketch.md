@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Ann Nguyens's solution](https://github.com/anncancode/top-etch-a-sketch) - [View in Browser](https://anncancode.github.io/top-etch-a-sketch/)
 * [Joey Van Lierop's solution](https://github.com/bananashavings/etch-a-sketch) - [View in Browser](https://bananashavings.github.io/etch-a-sketch/)
 * [Andrécio Bezerra's solution](https://github.com/andreciobezerra/etch-a-sketch) - [View in Browser](https://andreciobezerra.github.io/etch-a-sketch/)
 * [Arda Sevinç's solution](https://github.com/ardasevinc/etch-a-sketch) - [View in Browser](https://ardasevinc.me/etch-a-sketch/)
