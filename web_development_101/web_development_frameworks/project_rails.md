@@ -408,6 +408,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cameron St. Amant's solution](https://github.com/CameronStAmant/blog-rails) - [View in Browser](https://quiet-ridge-40484.herokuapp.com/)
 * [Rosanne Nicolai's solution](https://github.com/rjnicolai/blogger) - [View in Browser](https://bref-moliere-78914.herokuapp.com)
 * [Nathan Choi's solution](https://github.com/sihoonathan/blogger) - [View in Browser](https://calm-garden-13460.herokuapp.com/)
+* [Carlos Del Real solution](https://github.com/carloshdelreal/blogger) - [View in Browser](https://murmuring-plateau-19342.herokuapp.com/)
+
 </details>
 
 ### Additional Resources
