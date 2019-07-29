@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Joey Van Lierop's Solution (Easy)](https://github.com/bananashavings/google-homepage) - [View in Browser](https://bananashavings.github.io/google-homepage/)
 * [Ammar Seliaman's Solution (Easy)](https://github.com/Am00702/Google-replica) - [View in Browser](https://am00702.github.io/Google-replica/)
 * [David Tan's Solution (Easy)](https://github.com/davecmd/google-homepage) - [View in Browser](https://davecmd.github.io/google-homepage/)
 * [Jagdeep's Solution (Easy)](https://github.com/Jsran98/google-homepage) - [View in Browser](https://jsran98.github.io/google-homepage/)
