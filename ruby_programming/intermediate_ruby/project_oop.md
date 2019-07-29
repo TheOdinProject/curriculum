@@ -262,7 +262,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Encolpius's solution](https://github.com/Encolpius/OOP-Projects/tree/master/tic-tac-toe)
 * [Tommy's solution](https://github.com/hoangtommy/tic-tac-toe) - [Play it](https://repl.it/@tommyhoang1/TictheTacwithYourToe)
 * [bchalman's solution](https://github.com/bchalman/tic_tac_toe) - [Play it](https://repl.it/@bchalman/Tic-Tac-Toe)
-* [Emil Dimitrov's solution](https://github.com/imemdm/tic-tac-toe) - [Play on repl.it](https://repl.it/repls/SufficientInstructiveApache)
+* [Emil Dimitrov's solution](https://github.com/imemdm/tic-tac-toe) - [Play on repl.it](https://repl.it/@imemdm/tictactoe)
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/tic_tac_toe.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/LustrousHeartfeltDefragment)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/tree/master/tic-tac-toe)
 * [EdwardHeath's solution](https://github.com/EdwardHeath/tic_tac_toe/blob/master/tic_tac_toe.rb)
