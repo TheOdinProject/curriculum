@@ -474,6 +474,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Patrick's Solutution](https://github.com/patsProject/etch-a-sketch)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/etch-a-sketch) - [View in Browser](https://rrg1459.github.io/etch-a-sketch/)
 * [Gene Mecija's solution](https://github.com/genemecija/Etch-a-Sketch) - [View in Browser](https://genemecija.github.io/Etch-a-Sketch/)
+* [Manuel Mier's solution](https://github.com/MannyTrejo/EtchaSketch) - [View in Browser](https://MannyTrejo.github.io/EtchaSketch/)
 </details>
 
 
