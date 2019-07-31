@@ -40,7 +40,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [uuhibs Solution](https://github.com/uuhib/rock-paper-scissors)
+- [uuhibs Solution](https://github.com/uuhib/rock-paper-scissors) - [View in Browser](https://uuhib.github.io/rock-paper-scissors-ui/)
+- [b3p0's Solution](https://github.com/b3p0/rockPaperScissors)
 - [ArmandC19's Solution](https://github.com/ArmandC19/rockpappersissors)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-js-basics1/)
 - [Chris' Solution](https://github.com/red2blue/rock-paper-scissors) - [View in Browser](https://red2blue.github.io/rock-paper-scissors/index.html)
@@ -766,5 +767,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Agustin Larreinegabe's Solution](https://github.com/alarreine/rock_paper_scissors) - [View in Browser](https://alarreine.github.io/rock_paper_scissors/)
 - [Martink-rsa's Solution](https://github.com/martink-rsa/rock_paper_scissors) - [View in Browser](https://martink-rsa.github.io/rock_paper_scissors/rock_paper_scissors.html)
 - [Gustavo Carvalho's Solution](https://github.com/gustavohc07/paper-rock-scissor) - [View in Browser](https://gustavohc07.github.io/paper-rock-scissor/)
-[Yash Boura's Solution] (https://github.com/yashboura303/rock_paper_scissor_js)
+- [Yash Boura's Solution](https://github.com/yashboura303/rock_paper_scissor_js)
+- [Manuel Mier's Solution](https://github.com/MannyTrejo/RockPaperScissors) - [View in Browser](https://MannyTrejo.github.io/RockPaperScissors/)
 </details>
