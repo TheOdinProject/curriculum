@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Vera's solution](https://github.com/overaaloe/ETCH-A-SKETCH) - [View in Browser](https://overaaloe.github.io/ETCH-A-SKETCH/)
 * [Ann Nguyens's solution](https://github.com/anncancode/top-etch-a-sketch) - [View in Browser](https://anncancode.github.io/top-etch-a-sketch/)
 * [Joey Van Lierop's solution](https://github.com/bananashavings/etch-a-sketch) - [View in Browser](https://bananashavings.github.io/etch-a-sketch/)
 * [Andrécio Bezerra's solution](https://github.com/andreciobezerra/etch-a-sketch) - [View in Browser](https://andreciobezerra.github.io/etch-a-sketch/)
@@ -474,6 +475,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Patrick's Solutution](https://github.com/patsProject/etch-a-sketch)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/etch-a-sketch) - [View in Browser](https://rrg1459.github.io/etch-a-sketch/)
 * [Gene Mecija's solution](https://github.com/genemecija/Etch-a-Sketch) - [View in Browser](https://genemecija.github.io/Etch-a-Sketch/)
+* [Manuel Mier's solution](https://github.com/MannyTrejo/EtchaSketch) - [View in Browser](https://MannyTrejo.github.io/EtchaSketch/)
 </details>
 
 
