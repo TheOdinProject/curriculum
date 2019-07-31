@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Bollinca's Solution](https://github.com/bollinca/calculator) - [View in Browser](https://bollinca.github.io/calculator/)
 - [Eljoey's Solution](https://github.com/eljoey/Calculator) - [View in Browser](https://eljoey.github.io/Calculator/)
 - [Evan's Solution](https://github.com/evan-kapantais/calculator) - [View in Browser](https://evan-kapantais.github.io/calculator/)
 - [Sierra's Solution](https://github.com/sierra073/simple-calculator/) - [View in Browser](https://sierra073.github.io/simple-calculator/)
@@ -339,4 +340,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [akashdas98's solution](https://github.com/akashdas98/calculator) - [View in Browser](https://akashdas98.github.io/calculator/)
 - [Gene Mecija's solution](https://github.com/genemecija/calculator) - [View in Browser](https://genemecija.github.io/Calculator/)
 - [Andrea Diotallevi's solution](https://github.com/AndreaDiotallevi/calculator) - [View in Browser](https://AndreaDiotallevi.github.io/calculator/)
+- [Manuel Mier's solution](https://github.com/MannyTrejo/HTMLCalculator) - [View in Browser](https://MannyTrejo.github.io/HTMLCalculator/)
 </details>
