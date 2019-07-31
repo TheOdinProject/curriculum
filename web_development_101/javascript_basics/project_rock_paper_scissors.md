@@ -774,4 +774,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Yash Boura's Solution](https://github.com/yashboura303/rock_paper_scissor_js)
 - [Manuel Mier's Solution](https://github.com/MannyTrejo/RockPaperScissors) - [View in Browser](https://MannyTrejo.github.io/RockPaperScissors/)
 - [Robert Suazo's Solution](https://github.com/rsuazo/Rock-Paper-Scissors)
+- [Arthur Abia's Solution with UI](https://github.com/ArthurAbia/shifumi2) - [View in Browser](https://arthurabia.github.io/shifumi2/)
 </details>
