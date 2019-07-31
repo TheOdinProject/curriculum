@@ -771,4 +771,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Gustavo Carvalho's Solution](https://github.com/gustavohc07/paper-rock-scissor) - [View in Browser](https://gustavohc07.github.io/paper-rock-scissor/)
 - [Yash Boura's Solution](https://github.com/yashboura303/rock_paper_scissor_js)
 - [Manuel Mier's Solution](https://github.com/MannyTrejo/RockPaperScissors) - [View in Browser](https://MannyTrejo.github.io/RockPaperScissors/)
+- [Robert Suazo's Solution](https://github.com/rsuazo/Rock-Paper-Scissors)
 </details>
