@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [James Hudson's Solution](https://github.com/jwhudson/Rock-Paper-Scissors) - [View in Browser](https://jwhudson.github.io/Rock-Paper-Scissors/)
 - [smfcodev's Solution](https://github.com/smfcodev9/rock-paper-scissors)
 - [Diaz's Solution](https://github.com/diazd01/rockpaperscissors) - [View in Browser](https://diazd01.github.io/rockpaperscissors/)
 - [austinstockhecke's Solution](https://github.com/austinstockhecke/rock-paper-scissors)
@@ -775,4 +776,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Manuel Mier's Solution](https://github.com/MannyTrejo/RockPaperScissors) - [View in Browser](https://MannyTrejo.github.io/RockPaperScissors/)
 - [Robert Suazo's Solution](https://github.com/rsuazo/Rock-Paper-Scissors)
 - [Padraig O'Rúis's Solution](https://github.com/anarchomushroom/rock-paper-scissors)
+- [Arthur Abia's Solution with UI](https://github.com/ArthurAbia/shifumi2) - [View in Browser](https://arthurabia.github.io/shifumi2/)
 </details>
