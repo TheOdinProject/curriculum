@@ -123,6 +123,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Stefano Merazzi's solution](https://github.com/ste001/re-former)
 * [Jason McKee's solution](https://github.com/jttmckee/re-former)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/re-former)
+* [Dennis Cope's Solution](https://github.com/coped/Re-former)
 * [goodjobbin85's solution](https://github.com/goodjobbin85/odin-re-former)
 * [Jeremy-D's solution](https://github.com/Jeremy-D/re-former)
 * [prw001's solution](https://github.com/prw001/re-former)
