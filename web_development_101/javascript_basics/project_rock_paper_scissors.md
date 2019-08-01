@@ -778,3 +778,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Padraig O'Rúis's Solution](https://github.com/anarchomushroom/rock-paper-scissors)
 - [Arthur Abia's Solution with UI](https://github.com/ArthurAbia/shifumi2) - [View in Browser](https://arthurabia.github.io/shifumi2/)
 </details>
+-[Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor)
