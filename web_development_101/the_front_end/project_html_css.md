@@ -2287,6 +2287,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [SlickNick88's Solution(Easy)](https://github.com/SlickNick88/google-homepage) - [View in Browser](https://slicknick88.github.io/google-homepage/)
 * [LauPss's Solution(Easy+Difficult)](https://github.com/LauPss/google_homepage/) - [View in Browser (Easy)](https://laupss.github.io/google_homepage/google-homepage/) - [View in Browser (Difficult)](https://laupss.github.io/google_homepage/google-search-results/)
 * [Mueed Ur Rehman's Solution (Easy)](https://github.com/mueedurrehman/google-homepage) - [View in Browser](https://mueedurrehman.github.io/google-homepage/)
+* [James' Immanuel's Solution (Easy)](https://github.com/starchturrets/google-homepage-clone) - [View in Browser](https://silly-einstein-5e7b71.netlify.com/)
 </details>
 
 
