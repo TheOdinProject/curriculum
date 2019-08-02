@@ -420,6 +420,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chris' Solution](https://github.com/CSalois114/project_building_blocks/blob/master/enumerable.rb)
 * [Sherman's Solution](https://github.com/shermansjliu/advanced_ruby_building_blocks/blob/master/my-enumerable.rb)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-advanced-building-blocks/blob/master/my-enumerable.rb)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/my_methods)
