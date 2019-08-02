@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ajibade Abiodun's Solution](https://github.com/Tripple-A/rock-paper-scissors-console-game)-[View in Browser](https://tripple-a.github.io/rock-paper-scissors-console-game/)
 - [James Hudson's Solution](https://github.com/jwhudson/Rock-Paper-Scissors) - [View in Browser](https://jwhudson.github.io/Rock-Paper-Scissors/)
 - [smfcodev's Solution](https://github.com/smfcodev9/rock-paper-scissors)
 - [Diaz's Solution](https://github.com/diazd01/rockpaperscissors) - [View in Browser](https://diazd01.github.io/rockpaperscissors/)
@@ -778,4 +779,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Padraig O'Rúis's Solution](https://github.com/anarchomushroom/rock-paper-scissors)
 - [Arthur Abia's Solution with UI](https://github.com/ArthurAbia/shifumi2) - [View in Browser](https://arthurabia.github.io/shifumi2/)
 - [Mueed Ur Rehman's Solution](https://github.com/mueedurrehman/rock-paper-scissors)
+- [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor)
 </details>
