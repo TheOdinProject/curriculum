@@ -191,4 +191,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rey van den Berg's Solution (with extra credit)](https://github.com/Rey810/Linked-List-Data-Structure-)
 * [Sergej Jurchenko's Solution (with extra credit)](https://github.com/Sergyurch/linked_list/blob/master/linked_list.rb)
 * [Han Josmer's solution (with extra credit)](https://github.com/HanJosmer/ruby_programming/blob/master/linked_lists/linked_lists.rb)
+* [Robert Dunbar's solution (with extra credit)](https://github.com/RobertDunbar/ruby-linked-list)
+* [Ben Fowler's solution (with extra credit)](https://github.com/benfowler04/ruby-cs/blob/master/linked_list.rb)
+* [Bendee48's solution (with extra credit)](https://github.com/bendee48/Data-Structures/blob/master/linked_lists.rb)
 </details>

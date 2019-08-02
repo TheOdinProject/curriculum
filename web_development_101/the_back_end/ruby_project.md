@@ -31,6 +31,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Joey Van Lierop's Solution](https://github.com/bananashavings/learn_ruby)
+* [Eljoey's Solution](https://github.com/eljoey/learn_ruby)
 * [Johns's soution](https://github.com/JohnStaAna/learn_ruby)
 * [mistervoga's solution](https://github.com/mistervoga/learn_ruby)
 * [nadjastojanovic's solution](https://github.com/nadjastojanovic/learn_ruby)
@@ -545,6 +547,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Doug Heatter's solution](https://github.com/drheatter/learn_ruby)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/Project_ruby_by_Roy)
 * [John-san's solution](https://github.com/john-san/learn_ruby)
+* [canicodenow's solution](https://github.com/canicodenow/learn_ruby)
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/learn_ruby)
 * [Esau Guerra's solution](https://github.com/esaug/learn_ruby)
 * [Adriel Bruno's solution](https://github.com/AdrielTrigger/learn_ruby)
@@ -555,7 +558,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rosanne Nicolai's solution](https://github.com/rjnicolai/learn_ruby)
 * [Nathan Choi's solution](https://github.com/sihoonathan/coding-challenges2)
 * [Robin's solution](https://github.com/RobinWagner/Ruby-Assignment)
-
 </details>
 
 ### Additional Resources

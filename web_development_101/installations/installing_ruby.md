@@ -82,10 +82,15 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ~~~
 
-Finally, run `rbenv -v` from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number similar to this:
+Finally, run 
 
 ~~~bash
 rbenv -v
+~~~~
+
+ from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number similar to this:
+
+~~~bash
 rbenv 1.1.2-2-g4e92322
 ~~~
 
