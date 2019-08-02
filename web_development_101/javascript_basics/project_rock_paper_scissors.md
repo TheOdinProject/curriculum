@@ -61,7 +61,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jitendra's solution](https://github.com/jitendrrathore/rock-paper-scissors-game) - [View in Browser](https://jitendrrathore.github.io/rock-paper-scissors-game/)
 - [Bollinca's solution](https://github.com/bollinca/rock-paper-scissors) - [View in Browser](https://bollinca.github.io/rock-paper-scissors/)
 - [Andrécio's solution](https://github.com/andreciobezerra/jokenpo) - [View in Browser](https://andreciobezerra.github.io/jokenpo/)
-- [Ann Nguyen's Solution](https://github.com/anncancode/top-rock-paper-scissors) - [View in Browser](https://anncancode.github.io/top-rock-paper-scissors/)
+- [Ann Nguyen's Solution](https://github.com/ann-codes/top-rock-paper-scissors) - [View in Browser](https://ann-codes.github.io/top-rock-paper-scissors/)
 - [Eljoey's Solution](https://github.com/eljoey/RockPaperScissors)
 - [Cchel's Solution](https://cchel.github.io/rock_paper_scissors/)
 - [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors)
