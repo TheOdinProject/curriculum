@@ -225,7 +225,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this line!)
+* Add your solution below this line!
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/recursive/merge_sort.rb)
 * [Leonardo Vega's solution](https://github.com/leonardovega/ruby_programming/blob/master/computer_science/merge_sort.rb)
 * [Arilson Souza's solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_recursion/merge_sort.rb)
