@@ -42,7 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/rock-paper-scissors-console-game)-[View in Browser](https://tripple-a.github.io/rock-paper-scissors-console-game/)
 - [James Hudson's Solution](https://github.com/jwhudson/Rock-Paper-Scissors) - [View in Browser](https://jwhudson.github.io/Rock-Paper-Scissors/)
-- [smfcodev's Solution](https://github.com/smfcodev9/rock-paper-scissors)
+- [smfcodev's Solution](https://github.com/smfcodev9/rock-paper-scissors) - [View in Browser](https://smfcodev9.github.io/rock-paper-scissors/)
 - [Diaz's Solution](https://github.com/diazd01/rockpaperscissors) - [View in Browser](https://diazd01.github.io/rockpaperscissors/)
 - [austinstockhecke's Solution](https://github.com/austinstockhecke/rock-paper-scissors)
 - [Tunztunztunz's Solution](https://github.com/tunztunztunz/Rock-Paper-Scissors)
