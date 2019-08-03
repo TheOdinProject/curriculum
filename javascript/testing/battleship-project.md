@@ -50,5 +50,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [brxck's solution](https://github.com/brxck/odin-battleship) - [View in browser](https://brockmcelroy.com/odin-battleship/)
 - [alexfuro's solution](https://github.com/alexfuro/odin_battleship) - [View in browser](https://alexfuro.github.io/odin_battleship/)
 - [Heyalvaro's solution](https://github.com/heyalvaro/battleship.js) - [View in browser](http://heyalvaro.com/battleship.js/)
+- [Halkim44's solution](https://github.com/halkim44/battleship-game) - [View in browser](https://halkim44.github.io/battleship-game/)
 
 </details>
