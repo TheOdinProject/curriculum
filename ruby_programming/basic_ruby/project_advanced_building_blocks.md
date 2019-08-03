@@ -40,6 +40,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/bubble_sort.rb)
+* [Tolulope Olusakin's Solution - Enumerable Module Methods](https://github.com/Oluwadamilareolusakin/ruby-enumerable-module-replica/tree/development)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/bubbleSort.rb)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/bubble_sort.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_advanced_building_blocks/tree/master/bubble_sort)
