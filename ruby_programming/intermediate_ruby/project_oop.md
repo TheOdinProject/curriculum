@@ -285,6 +285,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Eddie Ozuna's Solution](https://github.com/OzunaEdd/TicTacToe)
 * [Leo Holanda's Solution](https://github.com/leo-holanda/tic_tac_toe) - [Play on repl.it](https://repl.it/@Leonardo_Holand/Tic-Tac-Toe)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-oop/tree/master/tic-tac-toe)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/tic-tac-toe)
 </details>
 
 ### Project 2: Mastermind
