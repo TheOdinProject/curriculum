@@ -44,7 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [Vera's solution](https://github.com/overaaloe/ETCH-A-SKETCH) - [View in Browser](https://overaaloe.github.io/ETCH-A-SKETCH/)
-* [Ann Nguyens's solution](https://github.com/anncancode/top-etch-a-sketch) - [View in Browser](https://anncancode.github.io/top-etch-a-sketch/)
+* [Ann Nguyens's solution](https://github.com/ann-codes/top-etch-a-sketch) - [View in Browser](https://ann-codes.github.io/top-etch-a-sketch/)
 * [Joey Van Lierop's solution](https://github.com/bananashavings/etch-a-sketch) - [View in Browser](https://bananashavings.github.io/etch-a-sketch/)
 * [Andrécio Bezerra's solution](https://github.com/andreciobezerra/etch-a-sketch) - [View in Browser](https://andreciobezerra.github.io/etch-a-sketch/)
 * [Arda Sevinç's solution](https://github.com/ardasevinc/etch-a-sketch) - [View in Browser](https://ardasevinc.me/etch-a-sketch/)
