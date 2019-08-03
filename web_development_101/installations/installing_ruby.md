@@ -70,10 +70,9 @@ Note: Run these commands one by one in sequence. They will not provide any outpu
 ~~~bash
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-exit
+source ~/.bashrc
 ~~~
 
-After running the final `exit` command, you will need to re-open the terminal (see Step 1.1 above).
 
 Next, you need to install `ruby-build` to help compile the Ruby binaries. Run these commands in the terminal to create a directory for the ruby-build plugin and then download it to the proper directory.
 
