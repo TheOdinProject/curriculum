@@ -4,6 +4,7 @@ In this unit, we are going to be following the [express tutorial](https://develo
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
+
 #### Express web framework
 - Describe Express and Node's main benefits.
 - Describe the relationship between Node and Express.
@@ -31,3 +32,8 @@ By the end of this lesson, you should be able to do the following:
 2. If you've gotten this far, you should already have node and npm set up and running smoothly.. the second lesson on MDN's website walks you through setting that up and then goes on to talk about a couple of ways to install and get started with Express. Read the [second half](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment) of that article.
 3. Once you're all set up, take a look at the simple Node site you created in our first project. Rewrite it using express! You should be able to do this with just one app.js file and a few `app.get()`s.
 </div>
+
+
+### Additional Resources
+
+1. The book [Express in Action](https://www.manning.com/books/express-in-action?a_bid=fe3fcff7&a_aid=express-in-action) by Evan M. Hahn is an incredible resource for Express beginners. The book is free online and is highly recommended. 
