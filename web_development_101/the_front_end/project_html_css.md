@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Saranoya's Solution (Easy)](https://github.com/Saranoya/odin/tree/master/html_css/google/homepage) - [View in Browser](https://saranoya.github.io/odin/html_css/google/homepage/)
+* [Saranoya's Solution (Difficult)](https://github.com/Saranoya/odin/tree/master/html_css/google/search_results) - [View in Browser](https://saranoya.github.io/odin/html_css/google/search_results/)
 * [Skivernaught's Solution (Easy)](https://github.com/skivernaught/google-homepage) -  [View in Browser](https://skivernaught.github.io/google-homepage/)
 * [Biggin's Solution (Easy)](https://github.com/Biggin/google-homepage)  -  [View in Browser](https://biggin.github.io/google-homepage/)
 * [Mary Cheung's Solution (Easy)](https://github.com/marybcheung/google-homepage) - [View in Browser](https://marybcheung.github.io/google-homepage/)
@@ -2290,6 +2292,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [SlickNick88's Solution(Easy)](https://github.com/SlickNick88/google-homepage) - [View in Browser](https://slicknick88.github.io/google-homepage/)
 * [LauPss's Solution(Easy+Difficult)](https://github.com/LauPss/google_homepage/) - [View in Browser (Easy)](https://laupss.github.io/google_homepage/google-homepage/) - [View in Browser (Difficult)](https://laupss.github.io/google_homepage/google-search-results/)
 * [Mueed Ur Rehman's Solution (Easy)](https://github.com/mueedurrehman/google-homepage) - [View in Browser](https://mueedurrehman.github.io/google-homepage/)
+* [Johana Morales's solution (Easy)](https://github.com/jmoralesg/google-homepage) - [View in Browser](https://jmoralesg.github.io/google-homepage/)
+
 </details>
 
 
