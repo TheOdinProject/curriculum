@@ -88,8 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Saranoya's Solution (Easy)](https://github.com/saranoya/odin/html_css/google/homepage/) - [View in Browser](https://saranoya.github.io/odin/html_css/google/homepage/)
-* [Saranoya's Solution (Difficult)](https://github.com/saranoya/odin/html_css/google/search_results/) - [View in Browser](https://saranoya.github.io/odin/html_css/google/search_results/)
+* [Saranoya's Solution (Easy)](https://github.com/Saranoya/odin/tree/master/html_css/google/homepage) - [View in Browser](https://saranoya.github.io/odin/html_css/google/homepage/)
+* [Saranoya's Solution (Difficult)](https://github.com/Saranoya/odin/tree/master/html_css/google/search_results) - [View in Browser](https://saranoya.github.io/odin/html_css/google/search_results/)
 * [Skivernaught's Solution (Easy)](https://github.com/skivernaught/google-homepage) -  [View in Browser](https://skivernaught.github.io/google-homepage/)
 * [Biggin's Solution (Easy)](https://github.com/Biggin/google-homepage)  -  [View in Browser](https://biggin.github.io/google-homepage/)
 * [Mary Cheung's Solution (Easy)](https://github.com/marybcheung/google-homepage) - [View in Browser](https://marybcheung.github.io/google-homepage/)
