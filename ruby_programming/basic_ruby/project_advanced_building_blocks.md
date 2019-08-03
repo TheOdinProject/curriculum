@@ -45,7 +45,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_programming/tree/master/bubble_sort)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/project_building_blocks/blob/master/bubble_sort.rb)
-* [Tolulope Olusakin's Solution - Enumerable Module Methods](https://github.com/Oluwadamilareolusakin/ruby-enumerable-module-replica/tree/development)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Basic-Ruby-Projects/blob/master/bubbleSort.rb)
 * [Sarp's Solution](https://github.com/sarpisik/ruby_programming/blob/master/Basic_Ruby_Projects/bubble_sort.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_advanced_building_blocks/tree/master/bubble_sort)
@@ -713,7 +712,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-problems/blob/master/enumerable.rb)
 * [Gareth Woodman's Solution](https://github.com/GarethWoodman/RubyBuildingBlocks/blob/master/enumerable.rb)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Adv_Ruby_Building_Blocks/blob/master/my_methods.rb)
-
+* [Tolulope Olusakin's Solution - Enumerable Module Methods](https://github.com/Oluwadamilareolusakin/ruby-enumerable-module-replica/tree/development)
 </details>
 
 ### Additional Resources
