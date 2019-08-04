@@ -162,6 +162,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [JamCry's Solution](https://github.com/jamcry/ruby-advanced-exercises/blob/master/binary_search_tree.rb)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees)
 
 </details>
 
@@ -338,5 +339,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [vanny96's solution](https://github.com/vanny96/binary-trees)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/blob/master/binary-tree/knight_moves.rb)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
-
+* [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms/tree/master/Knights%20Travails)
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees/blob/master/knight.rb)
+* [Gareth Woodman's Solution](https://github.com/GarethWoodman/knights_travails/blob/master/knights_travails.rb)
 </details>

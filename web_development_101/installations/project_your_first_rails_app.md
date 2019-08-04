@@ -180,6 +180,8 @@ Run this command:
 curl https://cli-assets.heroku.com/install.sh | sh
 ~~~
 
+This command needs administrative access and will ask for your sudo password. Enter the password of your computer account and press enter to continue.
+
 Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
 
 
@@ -331,14 +333,6 @@ heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
   and then run the `git push heroku master` command again.
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for it to finish.
-
-You can ignore most of this output for now, but take note of the line a couple lines above your command prompt that will look something like this:
-
-~~~bash
-remote:        https://random-words-73975.herokuapp.com/ deployed to Heroku
-~~~
-
-This is the link to your new site! Yes, you have published something to the internet! You can click it now, but we aren't quite done setting everything up just yet.
 
 #### Step 3.8: Migrate the Database on Heroku
 
