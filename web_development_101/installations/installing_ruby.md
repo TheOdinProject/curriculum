@@ -35,8 +35,8 @@ The rest of the installation will take place inside the terminal window.
 First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
 
 ~~~bash
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 ~~~
 
 When it prompts you, press `y` and then `enter`.
@@ -46,7 +46,7 @@ When it prompts you, press `y` and then `enter`.
 Next, you need to install some required packages that do not come preinstalled. Be sure to copy and paste this command.
 
 ~~~bash
-sudo apt-get install curl git nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
+sudo apt install curl git nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 ~~~
 
 When it prompts you, press `y` and then `enter`. You may or may not have to type your password after pressing `enter`.
