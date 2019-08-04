@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Hexadius' Solution (Easy)](https://github.com/Hexadius/google-homepage) - [View in Browser](https://hexadius.github.io/google-homepage)
 * [Saranoya's Solution (Easy)](https://github.com/Saranoya/odin/tree/master/html_css/google/homepage) - [View in Browser](https://saranoya.github.io/odin/html_css/google/homepage/)
 * [Saranoya's Solution (Difficult)](https://github.com/Saranoya/odin/tree/master/html_css/google/search_results) - [View in Browser](https://saranoya.github.io/odin/html_css/google/search_results/)
 * [Skivernaught's Solution (Easy)](https://github.com/skivernaught/google-homepage) -  [View in Browser](https://skivernaught.github.io/google-homepage/)
