@@ -40,7 +40,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Evan's Solution](https://github.com/evan-kapantais/library) - [View in Browser](https://evan-kapantais.github.io/library/)
 - [Eljoey's Solution](https://github.com/eljoey/Library) - [View in Browser](https://eljoey.github.io/Library/)
 - [Solodov's solution](https://github.com/solodov-dev/library) - [View in Browser](https://solodov-dev.github.io/library/)
 - [Vollantre's solution](https://github.com/vollantre/JS-library) - [View in Browser](https://vollantre.github.io/JS-library/)
