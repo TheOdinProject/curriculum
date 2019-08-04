@@ -344,4 +344,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrea Diotallevi's solution](https://github.com/AndreaDiotallevi/calculator) - [View in Browser](https://AndreaDiotallevi.github.io/calculator/)
 - [Manuel Mier's solution](https://github.com/MannyTrejo/HTMLCalculator) - [View in Browser](https://MannyTrejo.github.io/HTMLCalculator/)
 - [JoshAubrey's solution](https://github.com/JoshAubrey/calculator) - [View in Browser](https://joshaubrey.github.io/calculator/)
+- [Rafal Rodriguez Garcia's solution](https://github.com/rrg1459/calculator) - [View in Browser](https://rrg1459.github.io/calculator/)
 </details>
