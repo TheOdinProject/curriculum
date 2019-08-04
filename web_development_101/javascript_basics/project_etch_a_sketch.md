@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Saranoya's solution](https://github.com/Saranoya/odin/tree/master/javascript/etch_a_sketch) - [View in Browser](https://saranoya.github.io/odin/javascript/etch_a_sketch/)
 * [Armand's solution](https://github.com/ArmandC19/Etch-a-sketch) - [View in Browser](https://armandc19.github.io/etch-a-sketch/)
 * [Vera's solution](https://github.com/overaaloe/ETCH-A-SKETCH) - [View in Browser](https://overaaloe.github.io/ETCH-A-SKETCH/)
 * [Ann Nguyens's solution](https://github.com/ann-codes/top-etch-a-sketch) - [View in Browser](https://ann-codes.github.io/top-etch-a-sketch/)
