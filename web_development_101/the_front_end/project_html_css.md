@@ -2288,6 +2288,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Keith P's Solution (Easy)](https://github.com/KeithPrinkey/google-homepage) - [View in browser](https://keithprinkey.github.io/google-homepage/)
 * [Tim Shea's Solution (Easy)](https://github.com/tpsst5/google-homepage) - [View in browser](https://tpsst5.github.io/google-homepage/)
 * [Luke Pritchett's Solution (Easy)](https://github.com/LukePritchett/google) - [View in browser](https://lukepritchett.github.io/google/)
+* [Luke Pritchett's Solution (Hard)](https://github.com/LukePritchett/google-hard) - [View in browser](https://lukepritchett.github.io/google-hard/)
 * [b3p0's Solution(Easy)](https://github.com/b3p0/google-homepage) - [View in Browser](https://b3p0.github.io/google-homepage/)
 * [SlickNick88's Solution(Easy)](https://github.com/SlickNick88/google-homepage) - [View in Browser](https://slicknick88.github.io/google-homepage/)
 * [LauPss's Solution(Easy+Difficult)](https://github.com/LauPss/google_homepage/) - [View in Browser (Easy)](https://laupss.github.io/google_homepage/google-homepage/) - [View in Browser (Difficult)](https://laupss.github.io/google_homepage/google-search-results/)
