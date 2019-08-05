@@ -784,5 +784,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mueed Ur Rehman's Solution](https://github.com/mueedurrehman/rock-paper-scissors)
 - [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor)
 - [Luis Puente's Solution](https://github.com/mkezmkez/rps)
+- [Javier Arias's Solution](https://github.com/jfariasf08/TOP-rockpaperscissor)
 
 </details>
