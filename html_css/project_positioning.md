@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Carmine Grossi's solution](https://github.com/cgrossi/odin-project-positioning-project) - [View in browser](https://cgrossi.github.io/odin-project-positioning-project/)
 * [Sampajanno's solution](https://github.com/Sampajanno/floating-positioning) - [View in browser](https://sampajanno.github.io/floating-positioning/)
 * [bcikota's solution](https://github.com/bcikota/the_NYT_article) - [View in browser](https://bcikota.github.io/the_NYT_article/)
 * [Ohlie's solution](https://github.com/lco1220/nyt_article) - [View in browser](https://lco1220.github.io/nyt_article/)
