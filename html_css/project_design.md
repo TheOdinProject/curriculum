@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Doris's solution](https://github.com/dsmchen/smashing-magazine-homepage) - [View in browser](https://dsmchen.github.io/smashing-magazine-homepage/)
 * [Ohlie's solution](https://github.com/lco1220/smashing_mag) - [View in browser](https://lco1220.github.io/smashing_mag/)
 * [Bojo's solution](https://github.com/BojoZahariev/SmashingDesignTeardown) - [View in browser](https://bojozahariev.github.io/SmashingDesignTeardown/)
 * [Bola Buari's solution](https://github.com/bolah2009/design-teardown) - [View in browser](https://bolah2009.github.io/design-teardown/)
@@ -74,7 +75,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [huseins's solution](https://github.com/hosghf/Design-html-css) - [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/teardown) - [View in browser](https://fcarlosdev.github.io/teardown/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
-
+* [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/carloshdelreal/design-teardown) - [View in Browser](https://carloshdelreal.github.io/design-teardown/)
+* [Scott McKell's solution](https://github.com/zottwickel/heatmap) - [View in Browser](https://zottwickel.github.io/heatmap/)
 </details>
 
 ### Additional Resources
