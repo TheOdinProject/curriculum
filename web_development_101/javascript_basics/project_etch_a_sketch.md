@@ -480,6 +480,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Manuel Mier's solution](https://github.com/MannyTrejo/EtchaSketch) - [View in Browser](https://MannyTrejo.github.io/EtchaSketch/)
 * [Ryan Holderfield's solution](https://github.com/rholderfield/etch-a-sketch-project) - [View in Browser](https://rholderfield.github.io/etch-a-sketch-project/)
 * [Ryan Floyd's solution](https://github.com/MrRyanFloyd/etch_a_sketch) - [View in Browser](https://mrryanfloyd.github.io/etch_a_sketch/)
+* [Martink-rsa's solution](https://github.com/martink-rsa/etch_a_sketch) - [View in Browser](https://martink-rsa.github.io/etch_a_sketch/etch_a_sketch.html)
 </details>
 
 
