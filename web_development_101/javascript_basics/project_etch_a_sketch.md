@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Ylli Abazi's Solution](https://github.com/yllabazi/Etch-a-Sketch) - [View in Browser](https://yllis-etch-a-sketch.herokuapp.com/)
 * [Armand's solution](https://github.com/ArmandC19/Etch-a-sketch) - [View in Browser](https://armandc19.github.io/etch-a-sketch/)
 * [Vera's solution](https://github.com/overaaloe/ETCH-A-SKETCH) - [View in Browser](https://overaaloe.github.io/ETCH-A-SKETCH/)
 * [Ann Nguyens's solution](https://github.com/ann-codes/top-etch-a-sketch) - [View in Browser](https://ann-codes.github.io/top-etch-a-sketch/)
@@ -479,6 +480,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Manuel Mier's solution](https://github.com/MannyTrejo/EtchaSketch) - [View in Browser](https://MannyTrejo.github.io/EtchaSketch/)
 * [Ryan Holderfield's solution](https://github.com/rholderfield/etch-a-sketch-project) - [View in Browser](https://rholderfield.github.io/etch-a-sketch-project/)
 * [Ryan Floyd's solution](https://github.com/MrRyanFloyd/etch_a_sketch) - [View in Browser](https://mrryanfloyd.github.io/etch_a_sketch/)
+* [Martink-rsa's solution](https://github.com/martink-rsa/etch_a_sketch) - [View in Browser](https://martink-rsa.github.io/etch_a_sketch/etch_a_sketch.html)
 </details>
 
 
