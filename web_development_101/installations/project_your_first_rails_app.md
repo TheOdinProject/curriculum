@@ -182,6 +182,8 @@ curl https://cli-assets.heroku.com/install.sh | sh
 
 This command needs administrative access and will ask for your sudo password. Enter the password of your computer account and press enter to continue.
 
+**NOTE TO WSL USERS:** WSL users can choose to install [Heroku CLI for windows](https://devcenter.heroku.com/articles/heroku-cli) following the instructions given in the link so they can have a more seamless experience as we progress
+
 Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
 
 
@@ -357,9 +359,9 @@ heroku open
 ~~~
 
 
-WSL users can copy the link generated at the end of step 4.7 
+WSL users can copy the link generated at the end of step 3.7 
 or
-You can open VSCode by typing the command below(the steps below require Windows users to install the [Heroku CLI for windows](https://devcenter.heroku.com/articles/heroku-cli) following the instructions in the given link)
+You can open VSCode by typing the command below(Provided you have installed Heroku CLI for windows as given in step 3.2)
 
 ~~~bash
 code .
