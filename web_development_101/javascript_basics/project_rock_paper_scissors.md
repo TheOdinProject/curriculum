@@ -41,8 +41,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/UserFriendly-Rock-Paper-Scissors)-[View in Browser](https://tripple-a.github.io/UserFriendly-Rock-Paper-Scissors/)
+- [ericlyeric's Solution](https://github.com/ericlyeric/rps) - [View in Browser](https://ericlyeric.github.io/rps/)
+- [Aken6's Solution](https://github.com/Aken6/RockPaperScissors) - [View in Browser](https://aken6.github.io/RockPaperScissors/)
+- [Saranoya's Solution](https://github.com/Saranoya/odin/tree/master/javascript/rock_paper_scissors) - [View in Browser](https://saranoya.github.io/odin/javascript/rock_paper_scissors/)
 - [James Hudson's Solution](https://github.com/jwhudson/Rock-Paper-Scissors) - [View in Browser](https://jwhudson.github.io/Rock-Paper-Scissors/)
-- [smfcodev's Solution](https://github.com/smfcodev9/rock-paper-scissors)
+- [smfcodev's Solution](https://github.com/smfcodev9/rock-paper-scissors) - [View in Browser](https://smfcodev9.github.io/rock-paper-scissors/)
 - [Diaz's Solution](https://github.com/diazd01/rockpaperscissors) - [View in Browser](https://diazd01.github.io/rockpaperscissors/)
 - [austinstockhecke's Solution](https://github.com/austinstockhecke/rock-paper-scissors)
 - [Tunztunztunz's Solution](https://github.com/tunztunztunz/Rock-Paper-Scissors)
@@ -61,7 +64,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jitendra's solution](https://github.com/jitendrrathore/rock-paper-scissors-game) - [View in Browser](https://jitendrrathore.github.io/rock-paper-scissors-game/)
 - [Bollinca's solution](https://github.com/bollinca/rock-paper-scissors) - [View in Browser](https://bollinca.github.io/rock-paper-scissors/)
 - [Andrécio's solution](https://github.com/andreciobezerra/jokenpo) - [View in Browser](https://andreciobezerra.github.io/jokenpo/)
-- [Ann Nguyen's Solution](https://github.com/anncancode/top-rock-paper-scissors) - [View in Browser](https://anncancode.github.io/top-rock-paper-scissors/)
+- [Ann Nguyen's Solution](https://github.com/ann-codes/top-rock-paper-scissors) - [View in Browser](https://ann-codes.github.io/top-rock-paper-scissors/)
 - [Eljoey's Solution](https://github.com/eljoey/RockPaperScissors)
 - [Cchel's Solution](https://cchel.github.io/rock_paper_scissors/)
 - [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors)
@@ -778,4 +781,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Robert Suazo's Solution](https://github.com/rsuazo/Rock-Paper-Scissors)
 - [Padraig O'Rúis's Solution](https://github.com/anarchomushroom/rock-paper-scissors)
 - [Arthur Abia's Solution with UI](https://github.com/ArthurAbia/shifumi2) - [View in Browser](https://arthurabia.github.io/shifumi2/)
+- [Mueed Ur Rehman's Solution](https://github.com/mueedurrehman/rock-paper-scissors)
+- [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor)
+- [Luis Puente's Solution](https://github.com/mkezmkez/rps)
+
 </details>
