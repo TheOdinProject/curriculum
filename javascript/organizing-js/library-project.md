@@ -119,4 +119,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [JamCry's Solution](https://github.com/jamcry/js-library) - [View in Browser](https://jamcry.github.io/js-library/)
 - [akashdas98's Solution](https://github.com/akashdas98/library) - [View in Browser](https://akashdas98.github.io/library/)
 - [Ousmane Sylla's Solution](https://kitague.github.io/Book-Library/) - [View in Browser](https://kitague.github.io/Book-Library/)
+- [Gene Mecija's Solution](https://github.com/genemecija/LibraryApp) - [View in Browser](https://genemecija.github.io/LibraryApp/)
 </details>
