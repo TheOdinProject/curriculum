@@ -32,6 +32,9 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [mistervoga's Solution](https://github.com/mistervoga/pomodoro) - [View in Browser](https://mistervoga.github.io/pomodoro/)
+* [mvedataydin's Solution](https://github.com/mvedataydin/pomodoro_timer) - [View in Browser](https://mvedataydin.github.io/pomodoro_timer/)
+* [Eljoey's Solution](https://github.com/eljoey/Pomodoro-Clock) - [View in Browser](https://eljoey.github.io/Pomodoro-Clock/)
 * [Dennis' Solution](https://github.com/DennisKraaijeveld/PomodoroClock) - [View in Browser](https://denniskraaijeveld.github.io/PomodoroClock/)
 * [nadjastojanovic's Solution](https://github.com/nadjastojanovic/pomodoro-clock) - [View in Browser](https://nadjastojanovic.github.io/pomodoro-clock/)
 * [Sherman's Solution](https://github.com/shermansjliu/pomodoro) - [View in Browser](https://shermansjliu.github.io/pomodoro/)
@@ -134,6 +137,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/pomodoro-clock) - [View in Browser](https://robertdunbar.github.io/pomodoro-clock/)
 * [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/pairing_project) - [View in Browser](https://sanyogitapandit.github.io/pairing_project/)
 * [Ousmane Sylla's Solution](https://github.com/kitague/Pomodoro-clock/) - [View in Browser](https://kitague.github.io/Pomodoro-clock/)
+* [Gene Mecija's Solution](https://github.com/genemecija/PomodoroClock/) - [View in Browser](https://genemecija.github.io/PomodoroClock/)
 </details>
 
 ### Next Steps
