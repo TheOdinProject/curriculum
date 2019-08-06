@@ -1,9 +1,10 @@
 ### Introduction
+
 At this point you've already had a fair amount of practice using the various techniques we've shown you. But we've been throwing a _lot_ of information your way, so before we move on we're going to take a minute to slow down and work on one more great portfolio project.
 
 # The Todo List
 
-Todo lists are a staple in beginning webdev tutorials because they can be very simple.  There is, however, a lot of room for improvement and many features that can be added.  
+Todo lists are a staple in beginning webdev tutorials because they can be very simple. There is, however, a lot of room for improvement and many features that can be added.
 
 Before diving into the code, take a minute to think about how you are going to want to organize your project
 
@@ -29,38 +30,40 @@ Before diving into the code, take a minute to think about how you are going to w
 </div>
 
 ### Student Solutions
+
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this line!
-* [Simon Tharby's solution](https://github.com/jinjagit/todo) - [View in browser](https://to-do.simontharby.com/)
-* [ARaut9's solution](https://github.com/ARaut9/to-do-list) - [View in Browser](https://araut9.github.io/to-do-list/)
-* [Jason McKee's solution](https://github.com/jttmckee/odin-todo-list) - [View in Browser](https://jttmckee.github.io/odin-todo-list/)
-* [Ricala's solution](https://github.com/Ricala/to-do-list) - [View in Browser](https://ricala.github.io/to-do-list/)
-* [Hammad Ahmed's solution](https://github.com/shammadahmed/task-manager) - [Live preview](https://shammadahmed.github.io/task-manager)
-* [Roman Alenskiy's solution](https://github.com/romalenskiy/todo) - [Live preview](https://romalenskiy.github.io/todo/)
-* [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/todos) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/todos/dist/index.html)
-* [VladL2c's solution](https://vladl2c.github.io/Project-Manager/) - [View in Browser](https://vladl2c.github.io/Project-Manager/)
-* [Javier Machin's solution](https://github.com/Javier-Machin/js-to-do-list) - [View in Browser](https://javier-machin.github.io/js-to-do-list/)
-* [Kyle and Paul's solution](https://github.com/jklemon17/todo-list) - [View in Browser](https://jklemon17.github.io/todo-list/)
-* [nmac's solution](https://github.com/nmacawile/to-do-list) - [View](https://nmacawile.github.io/to-do-list/)
-* [brxck's solution](https://github.com/brxck/odin-tasks) - [View in Browser](http://brockmcelroy.com/odin-tasks/)
-* [theghall's solution](https://github.com/theghall/odin-todo) - [View in Browser](https://theghall.github.io/odin-todo/)
-* [Andrew's Solution](https://github.com/andrewr224/to-dodo/) - [View in Browser](https://andrewr224.github.io/to-dodo/)
-* [mindovermiles262's Solution](https://github.com/mindovermiles262/honeydew) - [View in Browser](https://mindovermiles262.github.io/honeydew/)
-* [Pedro's solution](https://github.com/dracollin/todoList-project) - [View in browser](https://codepen.io/dracollin/pen/eWrdyN)
-* [Ezequiel Espinoza's Solution](https://github.com/ezeaspie/todo-app) - [View in browser](https://ezeaspie.github.io/todo-app/)
-* [Jmooree30's solution](https://github.com/jmooree30/JS-Todo-List) - [View in browser](https://jmooree30.github.io/JS-Todo-List/)
-* [Remy's solution](https://codepen.io/beumsk/pen/QvqyMM) - [View in browser](https://codepen.io/beumsk/full/QvqyMM)
-* [Caner Sezgin's solution](https://github.com/CanerSezgin/TodoList/tree/master/Source%20Codes) - [View in browser](https://canersezgin.github.io/TodoList/)
-* [aznafro's solution](https://github.com/aznafro/todo) - [View in browser](https://aznafro.github.io/todo/)
-* [Areeba's solution](https://github.com/AREEBAISHTIAQ/Todolist) - [View in browser](https://areebaishtiaq.github.io/Todolist)
-* [Taylor J's solution](https://github.com/taylorjohannsen/todolist) - [View in browser](https://taylorjohannsen.github.io/todolist/)
-* [Halkim44's solution](https://github.com/halkim44/todoListApp) - [View App Online](https://halkim44.github.io/todoListApp/)
-* [Valentino Valenti's solution](https://github.com/1ba1/todo-list) - [View in browser](https://1ba1.github.io/todo-list/)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/fcarlosdev.github.io/tree/master/todo-app) - [View in browser](https://fcarlosdev.github.io/todo-app/)
-* [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
+-   Add your solution below this line!
+-   [Djo1e's solution](https://github.com/Djo1e/Todo) - [View in browser](https://djo1e.github.io/Todo//)
+-   [Simon Tharby's solution](https://github.com/jinjagit/todo) - [View in browser](https://to-do.simontharby.com/)
+-   [ARaut9's solution](https://github.com/ARaut9/to-do-list) - [View in Browser](https://araut9.github.io/to-do-list/)
+-   [Jason McKee's solution](https://github.com/jttmckee/odin-todo-list) - [View in Browser](https://jttmckee.github.io/odin-todo-list/)
+-   [Ricala's solution](https://github.com/Ricala/to-do-list) - [View in Browser](https://ricala.github.io/to-do-list/)
+-   [Hammad Ahmed's solution](https://github.com/shammadahmed/task-manager) - [Live preview](https://shammadahmed.github.io/task-manager)
+-   [Roman Alenskiy's solution](https://github.com/romalenskiy/todo) - [Live preview](https://romalenskiy.github.io/todo/)
+-   [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/todos) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/todos/dist/index.html)
+-   [VladL2c's solution](https://vladl2c.github.io/Project-Manager/) - [View in Browser](https://vladl2c.github.io/Project-Manager/)
+-   [Javier Machin's solution](https://github.com/Javier-Machin/js-to-do-list) - [View in Browser](https://javier-machin.github.io/js-to-do-list/)
+-   [Kyle and Paul's solution](https://github.com/jklemon17/todo-list) - [View in Browser](https://jklemon17.github.io/todo-list/)
+-   [nmac's solution](https://github.com/nmacawile/to-do-list) - [View](https://nmacawile.github.io/to-do-list/)
+-   [brxck's solution](https://github.com/brxck/odin-tasks) - [View in Browser](http://brockmcelroy.com/odin-tasks/)
+-   [theghall's solution](https://github.com/theghall/odin-todo) - [View in Browser](https://theghall.github.io/odin-todo/)
+-   [Andrew's Solution](https://github.com/andrewr224/to-dodo/) - [View in Browser](https://andrewr224.github.io/to-dodo/)
+-   [mindovermiles262's Solution](https://github.com/mindovermiles262/honeydew) - [View in Browser](https://mindovermiles262.github.io/honeydew/)
+-   [Pedro's solution](https://github.com/dracollin/todoList-project) - [View in browser](https://codepen.io/dracollin/pen/eWrdyN)
+-   [Ezequiel Espinoza's Solution](https://github.com/ezeaspie/todo-app) - [View in browser](https://ezeaspie.github.io/todo-app/)
+-   [Jmooree30's solution](https://github.com/jmooree30/JS-Todo-List) - [View in browser](https://jmooree30.github.io/JS-Todo-List/)
+-   [Remy's solution](https://codepen.io/beumsk/pen/QvqyMM) - [View in browser](https://codepen.io/beumsk/full/QvqyMM)
+-   [Caner Sezgin's solution](https://github.com/CanerSezgin/TodoList/tree/master/Source%20Codes) - [View in browser](https://canersezgin.github.io/TodoList/)
+-   [aznafro's solution](https://github.com/aznafro/todo) - [View in browser](https://aznafro.github.io/todo/)
+-   [Areeba's solution](https://github.com/AREEBAISHTIAQ/Todolist) - [View in browser](https://areebaishtiaq.github.io/Todolist)
+-   [Taylor J's solution](https://github.com/taylorjohannsen/todolist) - [View in browser](https://taylorjohannsen.github.io/todolist/)
+-   [Halkim44's solution](https://github.com/halkim44/todoListApp) - [View App Online](https://halkim44.github.io/todoListApp/)
+-   [Valentino Valenti's solution](https://github.com/1ba1/todo-list) - [View in browser](https://1ba1.github.io/todo-list/)
+-   [Francisco Carlos's solution](https://github.com/fcarlosdev/fcarlosdev.github.io/tree/master/todo-app) - [View in browser](https://fcarlosdev.github.io/todo-app/)
+-   [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
 
 </details>
