@@ -12,7 +12,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
   1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
   2. Do the [Jumpstart Lab's Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
-  3. After you finish going through the tutorial, you'll notice that if you delete a tag, all related orphaned taggings will remain there. You can solve this by enforcing [Referential Integrity](https://en.wikipedia.org/wiki/Referential_integrity) by applying the `dependent: :destroy` option for the `has_many` method in the right model. You can learn about it in [This Entry of the Rails Guides](http://guides.rubyonrails.org/association_basics.html)
+  3. At the end of I3: Tags when you're attempting to delete your Article tags, you'll run into an error along the lines of "FOREIGN KEY constraint failed". You can solve this by enforcing [Referential Integrity](https://en.wikipedia.org/wiki/Referential_integrity) by applying the `dependent: :destroy` option for the `has_many` method in the right model. You can learn about it in [This Entry of the Rails Guides](http://guides.rubyonrails.org/association_basics.html)
   4. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
   5. If you're feeling ambitious, add in authentication in section I5.
   6. If you're feeling very ambitious, try doing the final Extras section I6.
@@ -26,6 +26,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Eljoey's Solution](https://github.com/eljoey/Ruby-project) - [View in browser](https://calm-fortress-57875.herokuapp.com/)
+* [nadjastojanovic's Solution](https://github.com/nadjastojanovic/blogger)
+* [Chris' Solution](https://github.com/CSalois114/web101-rails_project)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/blogger) - [View in browser](https://secure-hamlet-95000.herokuapp.com/)
+* [Sherman's Solution](https://github.com/shermansjliu/blogger) - [View in browser](https://protected-plains-12122.herokuapp.com/)
+* [Ben's Solution](https://github.com/Koshoo/Ruby-on-Rails-blog-project/) - [View in browser](http://blogger-ben.herokuapp.com/)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/blogger) - [View in browser](https://niconibloggerapp.herokuapp.com)
 * [Daniel Prince's Solution](https://github.com/danielambrosius/my_second_rails_app) - [View in browser](https://glacial-refuge-28698.herokuapp.com/)
 * [Sizigia's Solution](https://github.com/sizigia/blogger) - [View in browser](https://top-blogger.herokuapp.com/)
@@ -399,6 +405,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tristan Ross's solution](https://github.com/TristanRoss/RailsTutorial) - [View in Browser](https://protected-bayou-40626.herokuapp.com/)
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/rails-blogger) - [View in Browser](https://dry-spire-74608.herokuapp.com)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/blogger) - [View in Browser](https://aqueous-crag-86287.herokuapp.com/)
+* [Alex Gioffre's solution](https://github.com/AlexGioffre/Blogger) - [View in Browser](https://blogger-alexgio.herokuapp.com/)
+* [Cameron St. Amant's solution](https://github.com/CameronStAmant/blog-rails) - [View in Browser](https://quiet-ridge-40484.herokuapp.com/)
+* [Rosanne Nicolai's solution](https://github.com/rjnicolai/blogger) - [View in Browser](https://bref-moliere-78914.herokuapp.com)
+* [Nathan Choi's solution](https://github.com/sihoonathan/blogger) - [View in Browser](https://calm-garden-13460.herokuapp.com/)
+* [Carlos Del Real solution](https://github.com/carloshdelreal/blogger) - [View in Browser](https://murmuring-plateau-19342.herokuapp.com/)
+* [Ray Alvarez's solution](https://github.com/ray-alvarez/blogger) - [View in Browser](https://immense-lake-67875.herokuapp.com/)
+* [Robin's solution](https://github.com/RobinWagner/blogger) - [View in Browser](https://stormy-dusk-73994.herokuapp.com/)
+
 </details>
 
 ### Additional Resources

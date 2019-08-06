@@ -35,8 +35,8 @@ The rest of the installation will take place inside the terminal window.
 First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
 
 ~~~bash
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 ~~~
 
 When it prompts you, press `y` and then `enter`.
@@ -46,7 +46,7 @@ When it prompts you, press `y` and then `enter`.
 Next, you need to install some required packages that do not come preinstalled. Be sure to copy and paste this command.
 
 ~~~bash
-sudo apt-get install curl git nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
+sudo apt install curl git nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 ~~~
 
 When it prompts you, press `y` and then `enter`. You may or may not have to type your password after pressing `enter`.
@@ -82,10 +82,15 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ~~~
 
-Finally, run `rbenv -v` from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number similar to this:
+Finally, run 
 
 ~~~bash
 rbenv -v
+~~~~
+
+ from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number similar to this:
+
+~~~bash
 rbenv 1.1.2-2-g4e92322
 ~~~
 
@@ -159,21 +164,11 @@ You will be prompted to enter your password. When typing your password, you may 
 
 Congratulations! You've installed the prerequisites!
 
-### Step 2: Install Git and Heroku
+### Step 2: Install Heroku
 
-Git is a version control program and one of the most powerful tools in your developer toolbelt. You'll learn more about Git later on.
+Heroku is a place to host your Rails applications
 
-#### Step 2.1: Update Git
-
-MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
-
-~~~bash
-brew install git
-~~~
-
-This will install the latest version of Git. Easy, right?
-
-#### Step 2.2: Install Heroku
+#### Step 1.1: Install Heroku
 
 Next, install Heroku:
 

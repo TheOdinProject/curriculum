@@ -36,6 +36,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 * Add your solution below this line!
 * [Djo1e's solution](https://github.com/Djo1e/Todo) - [View in browser](https://djo1e.github.io/Todo/)
+* [Henry Kirya's Solution](https://github.com/harrika/todo-list) - [View in browser](https://harrika.github.io/todo-list/)
+* [John Kripp's Solution](https://github.com/JohnKripp/Todo-App) - [View in browser](https://johnkripp.github.io/Todo-App/)
 * [Simon Tharby's solution](https://github.com/jinjagit/todo) - [View in browser](https://to-do.simontharby.com/)
 * [ARaut9's solution](https://github.com/ARaut9/to-do-list) - [View in Browser](https://araut9.github.io/to-do-list/)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-todo-list) - [View in Browser](https://jttmckee.github.io/odin-todo-list/)
@@ -63,5 +65,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Valentino Valenti's solution](https://github.com/1ba1/todo-list) - [View in browser](https://1ba1.github.io/todo-list/)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/fcarlosdev.github.io/tree/master/todo-app) - [View in browser](https://fcarlosdev.github.io/todo-app/)
 * [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
+* [JamCry's solution](https://github.com/jamcry/got2do) - [View in Browser](https://jamcry.github.io/got2do/)
 
 </details>

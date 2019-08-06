@@ -122,12 +122,14 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/micro_reddit)
 * [Learnsometing's Solution](https://github.com/learnsometing/Rails-Micro_Reddit)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/micro_reddit)
 * [Noah Maizels' Solution](https://github.com/noahniuwa/micro-reddit-odin-tutorial-project)
 * [Simon Tharby's solution](https://github.com/jinjagit/micro-reddit)
 * [Stefano Merazzi's solution](https://github.com/ste001/micro-reddit)
 * [Jason McKee's solution](https://github.com/jttmckee/micro-reddit)
+* [Dennis Cope's Solution](https://github.com/coped/micro-reddit)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/micro-reddit)
 * [goodjobbin85's solution](https://github.com/goodjobbin85/micro-reddit)
 * [prw001's Solution](https://github.com/prw001/micro_reddit)
@@ -230,6 +232,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's Solution](https://github.com/jamcry/micro-reddit)
 * [Vanny96's Solution](https://github.com/vanny96/micro_reddit)
 * [Cody B's Solution](https://github.com/CodyLBuffaloe/micro-reddit)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/micro-reddit)
 
 </details>
 

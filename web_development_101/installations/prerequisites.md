@@ -1,5 +1,5 @@
 ### Introduction
-Before we can install Ruby and launch a Rails application, we need to set up a compatible operating system. 
+Before we can continue, we need to set up a development environment.
 
 If you are already using **MacOS** or **Linux**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
@@ -8,11 +8,11 @@ If you are already using **MacOS** or **Linux**, you can skip this section. Othe
 <summary class="dropDown-header">Virtual Machine (Recommended)
 </summary>
 
-Installing a virtual machine (VM) is the easiest and most reilable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance.
+Installing a virtual machine (VM) is the easiest and most reliable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance.
 
 ### Step 1: Download VirtualBox and Linux
 
-Installating a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
+Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
 #### Step 1.1: Download VirtualBox
 
@@ -45,7 +45,7 @@ Click on the "New" button to create a virtual operating system. Give it a name o
 
 After completing the last step, click the "Create" button. Your new virtual OS should now appear in the menu. Right click on it, and go to "Settings". Click on the "System" tab and then the "Processor" tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer's BIOS/UEFI settings](https://www.google.com/search?q=enable+virtualization+windows).
 
-Next, go to the "Storage" tab and click the "Empty" CD icon. Select the Xubuntu iso file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
+Next, go to the "Storage" tab and in the "Attributes" column, beside the "Optical Drive" indicator, click the round, blue icon. This will present a drop-down menu. Click "Choose Virtual Optical Disk File..." and select the Xubuntu ISO file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
 
 With all that complete, click "OK" to save the changes.
 
@@ -67,19 +67,19 @@ While your VM is running, do the following steps:
   4. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This may ask you for a password as well.
   5. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
   
-NOTE: If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "settings -> display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
+NOTE: If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
 
 ### Step 4: Understand Your New VM
 
 Here are some tips to help you get started in a virtual environment:
 
-* All installations are done in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM.
+* All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The linux installation inside of your VM also comes with a web browser pre-installed.
 
 * To install software on your VM, you will follow the Linux installation instructions from inside the Xubuntu VM.
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
-* We recommend going full screen (Edit > Full-Screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+* We recommend going full screen (Edit > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
 </details>
 
@@ -131,9 +131,9 @@ For step-by-step instructions, please follow this [installation guide](https://t
 
 Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
-With that being said, though, Ruby and Rails are still rather buggy on WSL, so we recommend using a virtual machine instead. In the long run, using a VM instead of WSL will save you time and headaches.
+Having said that, setting up rails on WSL is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
 
-Since the 2017 Fall Creators Update, Microsoft has made it easy to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
+Since the 2017 Fall Creators Update, Microsoft has made it easier to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
 
 ### Step 1: Install WSL
 

@@ -99,6 +99,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/members_only)
 * [Learnsometing's solution](https://github.com/learnsometing/Rails-members_only)
 * [Simon Tharby's solution](https://github.com/jinjagit/members_only) - [View in browser](https://safe-falls-96496.herokuapp.com)
 * [Jason McKee's solution](https://github.com/jttmckee/members-only)
@@ -197,7 +198,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's solution](https://github.com/jamcry/members-only-app) - [View on Heroku](https://quiet-hamlet-54958.herokuapp.com/)
 * [vanny96's solution](https://github.com/vanny96/clubhouse) - [View on Heroku](https://shrouded-brushlands-95445.herokuapp.com/)
 * [themetar's solution (Github)](https://github.com/themetar/members-only-top) - [Live on Heroku](https://mysterious-coast-30783.herokuapp.com/)
-
+* [Nyaga Roy's Solution](https://github.com/RoyNyaga/new_members_blog_odin)
 </details>
 
 ### Additional Resources
