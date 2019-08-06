@@ -40,9 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Noah's Solution](https://github.com/ndayson02/rock-paper-scissors)
-=======
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/UserFriendly-Rock-Paper-Scissors)-[View in Browser](https://tripple-a.github.io/UserFriendly-Rock-Paper-Scissors/)
 - [ericlyeric's Solution](https://github.com/ericlyeric/rps) - [View in Browser](https://ericlyeric.github.io/rps/)
 - [Aken6's Solution](https://github.com/Aken6/RockPaperScissors) - [View in Browser](https://aken6.github.io/RockPaperScissors/)
@@ -56,7 +54,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [b3p0's Solution](https://github.com/b3p0/rockPaperScissors)
 - [ArmandC19's Solution](https://github.com/ArmandC19/rockpappersissors)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-js-basics1/)
->>>>>>> 128164a9f627277a17201177e94ecaea7d38f770
 - [Chris' Solution](https://github.com/red2blue/rock-paper-scissors) - [View in Browser](https://red2blue.github.io/rock-paper-scissors/index.html)
 - [Merc's Solution](https://github.com/MercilessMcKie/rockPaperScissors) - [View in Browser](https://MercilessMcKie.github.io/rockPaperScissors)
 - [Lucas's solution](https://github.com/LucasEstebe/RockPaperScissors) - [View in Browser](https://lucasestebe.github.io/RockPaperScissors/)
