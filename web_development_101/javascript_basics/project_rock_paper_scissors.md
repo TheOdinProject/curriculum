@@ -786,5 +786,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor)
 - [Luis Puente's Solution](https://github.com/mkezmkez/rps)
 - [Javier Arias's Solution](https://github.com/jfariasf08/TOP-rockpaperscissor)
-
+- [Pavel Konovalov's Solution](https://github.com/imbapokah/theOdinProject_rps)
 </details>
