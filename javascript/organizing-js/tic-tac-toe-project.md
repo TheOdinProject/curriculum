@@ -75,6 +75,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Tic-Tac-To) - [View in Browser](https://ubaid-manzoor.github.io/Tic-Tac-To/)
 - [JamCry's Solution](https://github.com/jamcry/js-tictactoe) - [View in Browser](https://jamcry.github.io/js-tictactoe/)
 - [Maxime's Solution](https://github.com/Maxime-Beaufils/JS-TicTacToe-PvsAI) - [View in Browser](https://maxime-beaufils.github.io/JS-TicTacToe-PvsAI/)
-- [Ousmane' solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in browser]. (https://kitague.github.io/Tic-Tac-Toe-Game/)
-
+- [Ousmane's solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in Browser](https://kitague.github.io/Tic-Tac-Toe-Game/) 
 </details>
