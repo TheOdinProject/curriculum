@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [James Hudson's Soultion](https://github.com/jwhudson/EtchASketch) - [View in Browser](https://jwhudson.github.io/EtchASketch/)
 * [zelumine's solution](https://github.com/zelumine/etch-a-sketch) - [View in Browser](https://zelumine.github.io/etch-a-sketch/)
 * [Alexander's solution](https://github.com/allun26/ETCH-A-SKETCH) - [View in Browser](https://allun26.github.io/ETCH-A-SKETCH/)
 * [Saranoya's solution](https://github.com/Saranoya/odin/tree/master/javascript/etch_a_sketch) - [View in Browser](https://saranoya.github.io/odin/javascript/etch_a_sketch/)
@@ -485,6 +486,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Ryan Floyd's solution](https://github.com/MrRyanFloyd/etch_a_sketch) - [View in Browser](https://mrryanfloyd.github.io/etch_a_sketch/)
 * [Martink-rsa's solution](https://github.com/martink-rsa/etch_a_sketch) - [View in Browser](https://martink-rsa.github.io/etch_a_sketch/etch_a_sketch.html)
 </details>
-
-
-
