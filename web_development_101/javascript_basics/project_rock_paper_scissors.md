@@ -68,7 +68,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ann Nguyen's Solution](https://github.com/ann-codes/top-rock-paper-scissors) - [View in Browser](https://ann-codes.github.io/top-rock-paper-scissors/)
 - [Eljoey's Solution](https://github.com/eljoey/RockPaperScissors)
 - [Cchel's Solution](https://cchel.github.io/rock_paper_scissors/)
-- [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors) [View in Browser](https://krummb.github.io/RockPaperScissors/)
+- [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors) - [View in Browser](https://krummb.github.io/RockPaperScissors/)
 - [Eric's Solution](https://github.com/RollingPeanuts/rock-paper-scissors)
 - [Nico's Solution](https://github.com/niconacht/rock-paper-scissors)
 - [Evan's Solution](https://github.com/satisfiedPunk/rockpaperscissors)
