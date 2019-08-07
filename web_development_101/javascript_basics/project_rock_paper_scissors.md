@@ -40,6 +40,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [vladutclp's Solution](https://github.com/vladutclp/rock-paper-scissors)
+- [mike d's Solution](https://github.com/ipcmlr/rps) - [View in Browser](https://ipcmlr.github.io/rps/) 
+- [Noah's Solution](https://github.com/ndayson02/rock-paper-scissors)
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/UserFriendly-Rock-Paper-Scissors)-[View in Browser](https://tripple-a.github.io/UserFriendly-Rock-Paper-Scissors/)
 - [ericlyeric's Solution](https://github.com/ericlyeric/rps) - [View in Browser](https://ericlyeric.github.io/rps/)
 - [Aken6's Solution](https://github.com/Aken6/RockPaperScissors) - [View in Browser](https://aken6.github.io/RockPaperScissors/)
@@ -67,7 +70,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ann Nguyen's Solution](https://github.com/ann-codes/top-rock-paper-scissors) - [View in Browser](https://ann-codes.github.io/top-rock-paper-scissors/)
 - [Eljoey's Solution](https://github.com/eljoey/RockPaperScissors)
 - [Cchel's Solution](https://cchel.github.io/rock_paper_scissors/)
-- [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors)
+- [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors) - [View in Browser](https://krummb.github.io/RockPaperScissors/)
 - [Eric's Solution](https://github.com/RollingPeanuts/rock-paper-scissors)
 - [Nico's Solution](https://github.com/niconacht/rock-paper-scissors)
 - [Evan's Solution](https://github.com/satisfiedPunk/rockpaperscissors)
@@ -784,5 +787,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mueed Ur Rehman's Solution](https://github.com/mueedurrehman/rock-paper-scissors)
 - [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor)
 - [Luis Puente's Solution](https://github.com/mkezmkez/rps)
-
+- [Javier Arias's Solution](https://github.com/jfariasf08/TOP-rockpaperscissor)
+- [LauPss's Solution](https://github.com/LauPss/Rock-Paper-Scissor)
+- [Pavel Konovalov's Solution](https://github.com/imbapokah/theOdinProject_rps)
 </details>

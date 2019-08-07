@@ -47,7 +47,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Armand's Solution](https://github.com/ArmandC19/calculator) - [View in Browser](https://armandc19.github.io/calculator/)
 - [mvedataydin's Solution](https://github.com/mvedataydin/calculator) - [View in Browser](https://mvedataydin.github.io/calculator/)
-- [Andrécio's Solution](https://github.com/andreciobezerra/calculator)
+- [Andrécio's Solution](https://github.com/andreciobezerra/calculator) - [View in Browser](https://andreciobezerra.github.io/calculator/)
 - [Evan's Solution](https://github.com/satisfiedPunk/calculator) - [View in Browser](https://satisfiedpunk.github.io/calculator/)
 - [Joey Van Lierop's Solution](https://github.com/bananashavings/calculator) - [View in Browser](https://bananashavings.github.io/calculator/)
 - [Bollinca's Solution](https://github.com/bollinca/calculator) - [View in Browser](https://bollinca.github.io/calculator/)
@@ -348,4 +348,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Manuel Mier's solution](https://github.com/MannyTrejo/HTMLCalculator) - [View in Browser](https://MannyTrejo.github.io/HTMLCalculator/)
 - [JoshAubrey's solution](https://github.com/JoshAubrey/calculator) - [View in Browser](https://joshaubrey.github.io/calculator/)
 - [Rafal Rodriguez Garcia's solution](https://github.com/rrg1459/calculator) - [View in Browser](https://rrg1459.github.io/calculator/)
+- [Omar Collado's solution](https://github.com/Omar-Collado/calculator-js) - [View in Browser](https://omar-collado.github.io/calculator-js/)
 </details>
