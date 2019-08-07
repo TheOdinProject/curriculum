@@ -69,7 +69,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ann Nguyen's Solution](https://github.com/ann-codes/top-rock-paper-scissors) - [View in Browser](https://ann-codes.github.io/top-rock-paper-scissors/)
 - [Eljoey's Solution](https://github.com/eljoey/RockPaperScissors)
 - [Cchel's Solution](https://cchel.github.io/rock_paper_scissors/)
-- [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors)
+- [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors) - [View in Browser](https://krummb.github.io/RockPaperScissors/)
 - [Eric's Solution](https://github.com/RollingPeanuts/rock-paper-scissors)
 - [Nico's Solution](https://github.com/niconacht/rock-paper-scissors)
 - [Evan's Solution](https://github.com/satisfiedPunk/rockpaperscissors)
@@ -787,5 +787,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor)
 - [Luis Puente's Solution](https://github.com/mkezmkez/rps)
 - [Javier Arias's Solution](https://github.com/jfariasf08/TOP-rockpaperscissor)
-
+- [LauPss's Solution](https://github.com/LauPss/Rock-Paper-Scissor)
+- [Pavel Konovalov's Solution](https://github.com/imbapokah/theOdinProject_rps)
 </details>
