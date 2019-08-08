@@ -285,6 +285,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Eddie Ozuna's Solution](https://github.com/OzunaEdd/TicTacToe)
 * [Leo Holanda's Solution](https://github.com/leo-holanda/tic_tac_toe) - [Play on repl.it](https://repl.it/@Leonardo_Holand/Tic-Tac-Toe)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-oop/tree/master/tic-tac-toe)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/tic-tac-toe)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project-Ruby-OOP/blob/master/tic_tac_toe.rb)
 </details>
 
 ### Project 2: Mastermind
@@ -522,6 +524,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Bendee48's solution](https://github.com/bendee48/mastermind) - [Play on Repl.it](https://repl.it/@bendee48/Mastermind)
 * [Leo Holanda's Solution](https://github.com/leo-holanda/mastermind)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-oop/tree/master/mastermind)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/Mastermind)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project-Ruby-OOP/blob/master/mastermind.rb)
 </details>
 
 ### Additional Resources
