@@ -2303,6 +2303,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Vedant Shetty's Solution (Easy)](https://github.com/vedantshetty/google-homepage) - [View in Browser](https://vedantshetty.github.io/google-homepage/)
 * [Nihir Agarwal's Solution (Easy)](https://github.com/nihirag/google-homepage) -[View in Browser](https://nihirag.github.io/google-homepage/)
 * [Samuel Salles's Solution (Easy + Difficult)](https://github.com/samuelrs25/firstproject-google-homepage) - [View in Browser (Easy)](https://samuelrs25.github.io/firstproject-google-homepage/) - [View in Browser (Difficult)](https://samuelrs25.github.io/firstproject-google-homepage/searchpage.html)
+* [Andrija Jelenkovic's Solution (Easy)](https://github.com/Amdrija/google-homepage) -[View in Browser](https://amdrija.github.io/google-homepage)
 </details>
 
 
