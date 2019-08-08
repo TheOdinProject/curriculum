@@ -791,4 +791,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Javier Arias's Solution](https://github.com/jfariasf08/TOP-rockpaperscissor)
 - [LauPss's Solution](https://github.com/LauPss/Rock-Paper-Scissor)
 - [Pavel Konovalov's Solution](https://github.com/imbapokah/theOdinProject_rps)
+- [jcai8649' Solution](https://jcai8649.github.io/Rock-Paper-Scissors/)
 </details>
