@@ -797,4 +797,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Pavel Konovalov's Solution](https://github.com/imbapokah/theOdinProject_rps)
 - [jcai8649' Solution](https://jcai8649.github.io/Rock-Paper-Scissors/)
 - [Samuel Salles's Solution](https://github.com/samuelrs25/rock-paper-scissors)
+- [Andrija Jelenkovic's Solution](https://github.com/Amdrija/rock-paper-scissors)
 </details>
