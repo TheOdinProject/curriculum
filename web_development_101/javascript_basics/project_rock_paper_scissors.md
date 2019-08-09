@@ -40,6 +40,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Nils M's solution](https://github.com/matic1909/rock-paper-scissors)
+- [Vedant's Solution](https://github.com/vedantshetty/rock_paper_scissor) - [View in Browser](https://vedantshetty.github.io/rock_paper_scissor/)
+- [Nsingh93's Solution](https://github.com/nsingh-93/rock-paper-scissors) - [View in Browser](https://nsingh-93.github.io/rock-paper-scissors/)
 - [Hexadius' Solution](https://github.com/Hexadius/rock-paper-scissors)
 - [vladutclp's Solution](https://github.com/vladutclp/rock-paper-scissors)
 - [mike d's Solution](https://github.com/ipcmlr/rps) - [View in Browser](https://ipcmlr.github.io/rps/) 
@@ -792,4 +795,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [LauPss's Solution](https://github.com/LauPss/Rock-Paper-Scissor)
 - [Pavel Konovalov's Solution](https://github.com/imbapokah/theOdinProject_rps)
 - [jcai8649' Solution](https://jcai8649.github.io/Rock-Paper-Scissors/)
+- [Samuel Salles's Solution](https://github.com/samuelrs25/rock-paper-scissors)
 </details>
