@@ -45,5 +45,8 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Rayan's Solution](https://gist.github.com/RayanBassetti/61b73131cdf27cfd6acd95ef60aa7c82)
 - [Jacob's Solution](https://github.com/jacobodden/odin-nodejs-projects/tree/master/basicinfosite)
 - [Unwana's Solution](https://gist.github.com/afixoftrix/f5efeae6229f39fd4eb0787bd257cd7c)
+- [Khalal's Solution](https://github.com/khalalw/The-Odin-Project/blob/master/node/infoSite/server.js)
+- [Jake's Solution](https://github.com/jdonahue135/basic-informational-site)
+- [ericzlmd's Solution](https://github.com/ericzlmd/The-Odin-Project---NodeJS)
 
 </details>

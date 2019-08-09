@@ -6,29 +6,6 @@ We're going to install it using `nvm` (Node Version Manager), because it makes i
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
-### Step 0: Prerequisites
-
-We need to make sure we have everything  we need to install and run nvm, node, and npm. Even if you have already installed the prerequisites, it won't hurt to install them again.
-
-#### Step 0.1: Installing Curl
-
-Curl is used to install `nvm`, let's install it:
-
-First we update the system:
-
-~~~bash
-sudo apt update
-sudo apt upgrade
-~~~
-
-When this is complete, run:
-
-~~~bash
-sudo apt install curl
-~~~
-
-Now you're ready to download and install `nvm`
-
 ### Step 1: Downloading and Installing `nvm`
 
 #### Step 1.1: Download and Install
@@ -71,7 +48,13 @@ Run:
 nvm install node
 ~~~
 
-This will install the most recent verson of node.
+This will install the most recent verson of node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
+
+~~~bash
+Downloading and installing node v12.6.0...
+~~~
+
+If not, close the terminal, re-open it and run `nvm install node` again.
 
 #### Step 2.2: Setting the node Version
 

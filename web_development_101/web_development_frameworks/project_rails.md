@@ -26,6 +26,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Eljoey's Solution](https://github.com/eljoey/Ruby-project) - [View in browser](https://calm-fortress-57875.herokuapp.com/)
+* [nadjastojanovic's Solution](https://github.com/nadjastojanovic/blogger)
+* [Chris' Solution](https://github.com/CSalois114/web101-rails_project)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/blogger) - [View in browser](https://secure-hamlet-95000.herokuapp.com/)
 * [Sherman's Solution](https://github.com/shermansjliu/blogger) - [View in browser](https://protected-plains-12122.herokuapp.com/)
 * [Ben's Solution](https://github.com/Koshoo/Ruby-on-Rails-blog-project/) - [View in browser](http://blogger-ben.herokuapp.com/)
@@ -405,6 +408,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex Gioffre's solution](https://github.com/AlexGioffre/Blogger) - [View in Browser](https://blogger-alexgio.herokuapp.com/)
 * [Cameron St. Amant's solution](https://github.com/CameronStAmant/blog-rails) - [View in Browser](https://quiet-ridge-40484.herokuapp.com/)
 * [Rosanne Nicolai's solution](https://github.com/rjnicolai/blogger) - [View in Browser](https://bref-moliere-78914.herokuapp.com)
+* [Nathan Choi's solution](https://github.com/sihoonathan/blogger) - [View in Browser](https://calm-garden-13460.herokuapp.com/)
+* [Carlos Del Real solution](https://github.com/carloshdelreal/blogger) - [View in Browser](https://murmuring-plateau-19342.herokuapp.com/)
+* [Ray Alvarez's solution](https://github.com/ray-alvarez/blogger) - [View in Browser](https://immense-lake-67875.herokuapp.com/)
+* [Robin's solution](https://github.com/RobinWagner/blogger) - [View in Browser](https://stormy-dusk-73994.herokuapp.com/)
+
 </details>
 
 ### Additional Resources
