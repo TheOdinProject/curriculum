@@ -2308,6 +2308,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrija Jelenkovic's Solution (Easy)](https://github.com/Amdrija/google-homepage) -[View in Browser](https://amdrija.github.io/google-homepage)
 * [Tom Strat's Solution (Easy)](https://github.com/tomstrat/google-homepage) - [View in Browser](https://tomstrat.github.io/google-homepage)
 * [a baby duck's Solution (Easy + Difficult)](https://ababyduck.github.io/odin_google-homepage/) - [View in Browser](https://ababyduck.github.io/odin_google-homepage/)
+* [Dave Watkin's Solution (Easy)](https://davidwatkincode.github.io/google-homepage/) - [View in Browser](https://davidwatkincode.github.io/google-homepage/)
 </details>
 
 
