@@ -1,0 +1,75 @@
+body{
+    background: rgb(200,200,200)
+}
+
+.board{
+    background: rgb(120,120,120);
+    display:block;
+    padding:1px 5px 5px 5px;
+    border-radius: 100px;
+    width:50%;
+    margin:auto;
+    position: relative;
+    
+}
+.logos{
+    background: rgb(40,40,40);
+    display: inline-block;
+    border-radius:40px;
+    padding:10px 10px 10px 10px;
+    position: relative;
+    left:30px;
+    
+}
+
+img{
+    padding:3px 3px 3px 3px;
+    height:100px;
+    width:100px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#round_result,#winner_result{
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#reset_btn{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(0,0,0);
+    color:white;
+    border-radius:7px;
+    border-color:white;
+    border-width:2px;
+    padding:5px 10px 5px 10px;
+    position: relative;
+    margin:5px;
+    left:160px;
+}
+
+.score{
+    text-align:center;
+}
+
+table{
+    display: inline-block;
+    list-style: none;
+    padding:5px 10px 5px 10px;
+    text-align: center;
+}
+
+th{
+    width:100px;
+}
