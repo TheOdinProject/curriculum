@@ -2,15 +2,11 @@
 
 The Odin Project's online communities are intended to be informative and relaxing spaces where Odinites can find answers to their programming questions or simply hang out.  Since we aim to be an inclusive and friendly community, we request that all Odinites follow the guidelines laid out in this Code of Conduct.  Following these guidelines will ensure that all Odinites have a positive learning experience:
 
-1. Be polite.  Inappropriate conduct or harassment towards chat participants will not be tolerated.
+1. Be polite, welcoming, and inclusive.  Inappropriate conduct or harassment will not be tolerated. Racisism, sexual harrasment, and religious persecution will not be tolerated. Harassment of any kind will not be tolerated. Any such remarks will result in an immediate ban.
 
-2. Racist remarks, sexually orientated remarks, and religious persecution will not be tolerated. Any such remarks will result in an immediate ban.
+2. Actions that seem specifically designed to test the limits of what is not offensive and serve no other purpose (a.k.a. trolling) will not be tolerated and such sessions will be immediately terminated.
 
-3. Harassment of any kind will not be tolerated.
-
-4. Actions that seem specifically designed to test the limits of what is not offensive and serve no other purpose (a.k.a. trolling) will not be tolerated and such sessions will be immediately terminated.
-
-5. Do not post someone's personal information or post links to personal information.
+3. Do not post someone's personal information or post links to personal information.
 
 Additionally, The Odin Project and it's core members reserve the right to ban or otherwise disable the account(s) of users in defiance with this code of conduct or for any other reason they see fit.
 
