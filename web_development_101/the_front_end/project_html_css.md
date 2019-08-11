@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Mighil's Solution (Easy)](https://github.com/Mighil31/google-homepage) - [View in Browser](https://mighil31.github.io/google-homepage/)
+* [Igorashs's Solution (Difficult)](https://github.com/igorashs/google-search-result) - [View in Browser](https://igorashs.github.io/google-search-result/)
 * [Derek-Aung' Solution (Easy)](https://github.com/igorashs/google-homepage) - [View in Browser](https://derek-aung.github.io/google-homepage/)
 * [MidgarFlowerGirl's Solution (Easy)](https://midgarflowergirl.github.io/google-homepage/) - [View in Browser](https://midgarflowergirl.github.io/google-homepage/)
 * [Igorashs' Solution (Easy)](https://github.com/igorashs/google-homepage) - [View in Browser](https://igorashs.github.io/google-homepage/)
@@ -2303,6 +2305,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Vedant Shetty's Solution (Easy)](https://github.com/vedantshetty/google-homepage) - [View in Browser](https://vedantshetty.github.io/google-homepage/)
 * [Nihir Agarwal's Solution (Easy)](https://github.com/nihirag/google-homepage) -[View in Browser](https://nihirag.github.io/google-homepage/)
 * [Samuel Salles's Solution (Easy + Difficult)](https://github.com/samuelrs25/firstproject-google-homepage) - [View in Browser (Easy)](https://samuelrs25.github.io/firstproject-google-homepage/) - [View in Browser (Difficult)](https://samuelrs25.github.io/firstproject-google-homepage/searchpage.html)
+* [Andrija Jelenkovic's Solution (Easy)](https://github.com/Amdrija/google-homepage) -[View in Browser](https://amdrija.github.io/google-homepage)
+* [Tom Strat's Solution (Easy)](https://github.com/tomstrat/google-homepage) - [View in Browser](https://tomstrat.github.io/google-homepage)
+* [a baby duck's Solution (Easy + Difficult)](https://ababyduck.github.io/odin_google-homepage/) - [View in Browser](https://ababyduck.github.io/odin_google-homepage/)
+* [Dave Watkin's Solution (Easy)](https://davidwatkincode.github.io/google-homepage/) - [View in Browser](https://davidwatkincode.github.io/google-homepage/)
 </details>
 
 
