@@ -802,4 +802,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Samuel Salles's Solution](https://github.com/samuelrs25/rock-paper-scissors)
 - [Andrija Jelenkovic's Solution](https://github.com/Amdrija/rock-paper-scissors)
 - [David Watkins's Solution](https://github.com/DavidWatkinCode/rock_paper_scissors)
+- [Jamie Rookyard's Solution](https://github.com/rooky-j/rock_paper_scissors)
 </details>
