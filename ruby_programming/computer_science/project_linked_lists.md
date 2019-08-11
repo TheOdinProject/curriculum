@@ -69,6 +69,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alain Suarez's Solution with extra credit](https://gitlab.com/asuar/ruby-linkedlist)
+* [Jay Burbyga's Solution (w/ extra credit)](https://github.com/Jaybur1/ruby_exercises/blob/master/linked_list/linked_list.rb)
 * [JFAldridge's Solution (w/ extra credit)](https://github.com/JFAldridge/ruby_linked_list)
 * [Leonardo Vega's Solution (with extra credit)](https://github.com/leonardovega/ruby_programming/blob/master/computer_science/project_linked_lists.rb)
 * [BShowen's Solution w/extra credit](https://github.com/BShowen/Linked_list_in_Ruby)
