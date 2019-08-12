@@ -2318,6 +2318,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [AlexARNcode's Solution (Easy)](https://github.com/alexarncode/google-clone/) - [View in Browser](https://alexarncode.github.io/google-clone/)
 * [Joe Vinten's Solution (Easy)](https://github.com/JoeVinten/google-homepage) - [View in Browser](https://joevinten.github.io/google-homepage)
 * [Glenn Meyer's Solution (Easy)](https://github.com/grossmeyer/google-homepage) - [View in Browser](https://grossmeyer.github.io/google-homepage)
+* [Patrick Holt's Solution (Easy)](https://github.com/patrick-holt/google-homepage) - [View in Browser](https://patrick-holt.github.io/google-homepage/)
 </details>
 
 
