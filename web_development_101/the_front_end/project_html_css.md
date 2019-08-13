@@ -2319,6 +2319,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Joe Vinten's Solution (Easy)](https://github.com/JoeVinten/google-homepage) - [View in Browser](https://joevinten.github.io/google-homepage)
 * [Glenn Meyer's Solution (Easy)](https://github.com/grossmeyer/google-homepage) - [View in Browser](https://grossmeyer.github.io/google-homepage)
 * [Patrick Holt's Solution (Easy)](https://github.com/patrick-holt/google-homepage) - [View in Browser](https://patrick-holt.github.io/google-homepage/)
+* [Antonio Chadwick's Solution (Easy)](https://github.com/sykist2754/google-homepage) - [View in Browser](https://github.com/sykist2754/google-homepage) 
 </details>
 
 

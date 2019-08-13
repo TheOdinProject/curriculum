@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ajibade Abiodun's Solution](https://github.com/Tripple-A/Calculator) - [View in Browser](https://tripple-a.github.io/Calculator/)
 - [Saranoya's Solution](https://github.com/saranoya/odin/tree/master/javascript/calculator) - [View in Browser](https://saranoya.github.io/odin/javascript/calculator/)
 - [Ann Nguyen's Solution](https://github.com/ann-codes/javascript-calculator) - [View in Browser](https://ann-codes.github.io/javascript-calculator/)
 - [Armand's Solution](https://github.com/ArmandC19/calculator) - [View in Browser](https://armandc19.github.io/calculator/)
