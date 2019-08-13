@@ -13,7 +13,7 @@ Remember that project you struggled so hard to figure out and that you're so pro
 
 We are working hard to update existing lessons and produce new content, so we would love to hear your feedback on the lessons and projects. We hope you find the lessons fun, engaging, and informative and find the projects challenging but achievable. So please let us know your thoughts!
 
-### Before Asking for help
+### Before asking for help
 
 As most of the projects are designed to push you to your limit, please remember that there is always a community to turn to! You don't need to know how to solve every problem straight away, BUT you do need to have a general idea of where you are going. This becomes really important when asking your questions because sometimes the problem is your **approach** and not your code.
 
