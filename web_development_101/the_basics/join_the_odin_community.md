@@ -17,7 +17,11 @@ We are working hard to update existing lessons and produce new content, so we wo
 
 As most of the projects are designed to push you to your limit, please remember that there is always a community to turn to! You don't need to know how to solve every problem straight away, BUT you do need to have a general idea of where you are going. This becomes really important when asking your questions because sometimes the problem is your **approach** and not your code.
 
-If you're feeling stuck, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back. We call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging). You can also try doing a [google search](https://www.google.com/). Google is a very powerful tool that can present relevant information, depending on what you enter. Read this post about [How to use Google to solve your programming questions](https://codinginflow.com/google-programming-questions). You could also look back at relevant lessons for tools to take on the current task. If these methods don't yield a solution for you, it's time to reach out to the community and ask for help.
+If you're feeling stuck, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back. We call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging). 
+
+You should also do a [Google search](https://www.google.com/) to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task. 
+
+If these methods don't yield a solution for you, then it's time to reach out to the Odin community and ask for help.
 
 ### Asking for help
 
