@@ -37,7 +37,7 @@ When asking your question, please remember to include the context:
 * How did you get there?
 * What have you tried so far?
 
-If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it. In the forums, hit the 'Upload' button on a new reply. If you aren't aware of how to take a screenshot, now is a good time to search on Google.
+If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. In the forums, hit the 'Upload' button on a new reply. If you don't know how to take a screenshot on your computer, this is a good time to ask Google.
 
 If the puzzle still can't be solved, push your project to GitHub or put your code in a [repl.it](https://repl.it/) so that others can comb through and debug the code. You'll learn all about GitHub very soon.
 
