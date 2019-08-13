@@ -66,7 +66,7 @@ That's it--you're done with command line basics! If you commit to doing most thi
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
 
-* The free online book [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. It goes into more depth than you really need at this point, so just focus on chapters 1 and 4. Feel free to refer to the rest of the book (it's great!) whenever you like.
+* The online book [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapter 1 is free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to purchase and read the rest of the book if you like.
 * [ExplainShell.com](http://explainshell.com/) is a great resource for if you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check.
 
 ### Knowledge Check

@@ -27,6 +27,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Onur Temiz's solution](https://github.com/temizonur/chess)
 * [Kevin Vuong's solution](https://github.com/fffear/chess)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/chess)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/chess)
@@ -109,6 +110,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vitaly Osipov's solution](https://github.com/vi7ali/chess)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/tree/master/chess)
 * [Alex Krewson's solution](https://github.com/alexkrewson/chess)
+* [Robert Dunbar's solution](https://github.com/RobertDunbar/ruby-chess)
 
 </details>
 
