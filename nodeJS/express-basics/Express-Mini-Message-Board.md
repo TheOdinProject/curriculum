@@ -72,5 +72,6 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node2/) - [View in browser](https://reza-message-board.herokuapp.com)
 - [Morgan's Solution](https://github.com/morgando/message-board) - [View in browser](https://polar-meadow-92800.herokuapp.com/)
 - [JamCry's Solution](https://github.com/jamcry/express-message-board) - [View in browser](https://pacific-beach-38765.herokuapp.com/)
+- [Agnieszka's Solution](https://github.com/atarsa/mini-msg-board-express) - [View in browser](https://quiet-hollows-16705.herokuapp.com)
 
 </details>
