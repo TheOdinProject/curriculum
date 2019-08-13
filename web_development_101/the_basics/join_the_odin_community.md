@@ -25,7 +25,9 @@ If these methods don't yield a solution for you, then it's time to reach out to 
 
 ### Asking for help
 
-One of the first things to keep in mind is that [You don't need to ask to ask](https://dontasktoask.com/). While a simple idea, it can help you get answers to your questions a lot faster. However, you'll want to make sure that you help the community help you by putting together a great question.
+So you've spent some time struggling to solve the problem on your own, and now it's time to fire up the Odin Discord and ask for help. The first thing to keep in mind is [don't ask to ask](https://dontasktoask.com/). While this a simple idea (with a pretty catchy motto!), it can help you get answers to your questions much faster and will make it easier to others to feel comfortable offering you help.
+
+In addition, when you ask your questions, you should help the community help you by putting together a great question.
 
 When asking your question, please remember to include the context:
 
