@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Joey Van Lierop's Solution](https://github.com/bananashavings/library) - [View in Browser](https://bananashavings.github.io/library/)
 - [mvedataydin's Solution](https://github.com/mvedataydin/Library/) - [View in Browser](https://mvedataydin.github.io/Library/)
 - [Evan's Solution](https://github.com/evan-kapantais/library) - [View in Browser](https://evan-kapantais.github.io/library/)
 - [Eljoey's Solution](https://github.com/eljoey/Library) - [View in Browser](https://eljoey.github.io/Library/)
@@ -120,4 +121,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [akashdas98's Solution](https://github.com/akashdas98/library) - [View in Browser](https://akashdas98.github.io/library/)
 - [Ousmane Sylla's Solution](https://kitague.github.io/Book-Library/) - [View in Browser](https://kitague.github.io/Book-Library/)
 - [Gene Mecija's Solution](https://github.com/genemecija/LibraryApp) - [View in Browser](https://genemecija.github.io/LibraryApp/)
+- [Vitaly Osipov's Solution](https://github.com/vi7ali/book-library) - [View in Browser](https://vi7ali.github.io/book-library/)
 </details>

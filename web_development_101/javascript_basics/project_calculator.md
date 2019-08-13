@@ -46,6 +46,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/Calculator) - [View in Browser](https://tripple-a.github.io/Calculator/)
+- [Saranoya's Solution](https://github.com/saranoya/odin/tree/master/javascript/calculator) - [View in Browser](https://saranoya.github.io/odin/javascript/calculator/)
+- [Ann Nguyen's Solution](https://github.com/ann-codes/javascript-calculator) - [View in Browser](https://ann-codes.github.io/javascript-calculator/)
 - [Armand's Solution](https://github.com/ArmandC19/calculator) - [View in Browser](https://armandc19.github.io/calculator/)
 - [mvedataydin's Solution](https://github.com/mvedataydin/calculator) - [View in Browser](https://mvedataydin.github.io/calculator/)
 - [Andrécio's Solution](https://github.com/andreciobezerra/calculator) - [View in Browser](https://andreciobezerra.github.io/calculator/)
@@ -350,4 +352,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [JoshAubrey's solution](https://github.com/JoshAubrey/calculator) - [View in Browser](https://joshaubrey.github.io/calculator/)
 - [Rafal Rodriguez Garcia's solution](https://github.com/rrg1459/calculator) - [View in Browser](https://rrg1459.github.io/calculator/)
 - [Omar Collado's solution](https://github.com/Omar-Collado/calculator-js) - [View in Browser](https://omar-collado.github.io/calculator-js/)
+- [martink-rsa's solution](https://github.com/martink-rsa/calculator/) - [View in Browser](https://martink-rsa.github.io/calculator/calculator.html)
 </details>

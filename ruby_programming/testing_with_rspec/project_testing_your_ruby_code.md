@@ -223,6 +223,7 @@ connect_four)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/connect-four). [Play on Repl.it](https://repl.it/@vi7ali/Connect-Four-game)
 * [JamCry's Solution](https://github.com/jamcry/ruby-connect-four) - [Play on Repl.it](https://repl.it/@jamcry/Connect4-the-game)
 * [Alex Krewson's solutions](https://github.com/alexkrewson/ruby_testing)
+* [JFAldridge's solution](https://github.com/JFAldridge/ruby_connect_four)
 * [Robert Dunbar's solutions](https://github.com/RobertDunbar/ruby-connect-four)
 * [Rey van den Berg's solution](https://github.com/Rey810/ruby-connect4)
 </details>

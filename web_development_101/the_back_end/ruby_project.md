@@ -561,6 +561,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Nathan Choi's solution](https://github.com/sihoonathan/coding-challenges2)
 * [Robin's solution](https://github.com/RobinWagner/Ruby-Assignment)
 * [Andrea Diotallevi's solution](https://github.com/AndreaDiotallevi/learn_ruby)
+* [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/learn_ruby)
 </details>
 
 ### Additional Resources
