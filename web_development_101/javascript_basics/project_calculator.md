@@ -354,4 +354,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Omar Collado's solution](https://github.com/Omar-Collado/calculator-js) - [View in Browser](https://omar-collado.github.io/calculator-js/)
 - [martink-rsa's solution](https://github.com/martink-rsa/calculator/) - [View in Browser](https://martink-rsa.github.io/calculator/calculator.html)
 - [Javier Arias's solution](https://github.com/jfariasf/TOP-calculator) - [View in Browser](https://jfariasf.github.io/TOP-calculator/index.html)
+- [Ryan Holderfield's solution](https://github.com/rholderfield/calc) - [View in Browser](https://rholderfield.github.io/calc/)
 </details>
