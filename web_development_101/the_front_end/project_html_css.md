@@ -2328,7 +2328,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mjwills-inf's Solution (Easy)](https://github.com/mjwills-inf/google-homepage.git) - [View in Browser](https://mjwills-inf.github.io/google-homepage)
 * [Anthony Bronkema's Solution (Easy)](https://github.com/abronkema/google-homepage.git) - [View in Browser](https://abronkema.github.io/google-homepage)
 * [Archana Subramanian's Solution (Easy)](https://github.com/arch-code19/google-homepage.git) - [View in Browser](https://arch-code19.github.io/google-homepage)
-
+* [DregoZ's Solution (Easy  + halfway difficult)](https://github.com/DregoZ/google-homepage)
 </details>
 
 

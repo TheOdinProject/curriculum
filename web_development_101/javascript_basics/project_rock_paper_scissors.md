@@ -811,4 +811,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [David Watkins's Solution](https://github.com/DavidWatkinCode/rock_paper_scissors)
 - [Jamie Rookyard's Solution](https://github.com/rooky-j/rock_paper_scissors)
 - [lindnermarci's Solution with UI](https://github.com/lindnermarci/rockpaperscissors-odin-project) - [View in Browser](https://lindnermarci.github.io/rockpaperscissors-odin-project/)
+- [Jonikiro's Solution](https://github.com/Jonikiro/rock_paper_scissors_odin)
 </details>
