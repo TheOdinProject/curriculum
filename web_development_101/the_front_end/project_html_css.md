@@ -2327,7 +2327,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dany Ing's Solution (Easy)](https://dany-ing.github.io/google-homepage/)
 * [mjwills-inf's Solution (Easy)](https://github.com/mjwills-inf/google-homepage.git) - [View in Browser](https://mjwills-inf.github.io/google-homepage)
 * [Anthony Bronkema's Solution (Easy)](https://github.com/abronkema/google-homepage.git) - [View in Browser](https://abronkema.github.io/google-homepage)
-
+https://zack-ari.github.io/google-homepage/
 </details>
 
 
