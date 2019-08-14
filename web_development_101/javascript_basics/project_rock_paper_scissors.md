@@ -40,6 +40,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- JeremyBeyond's solution 
+* view in browswer
+(https://ugsh7hby.github.io/rock-paper-scissor/) 
+* view code
+(https://github.com/ugSh7hbY/rock-paper-scissor)
+
 - [Joe the Code Monkey's solution](https://github.com/JoeTheCodeMonkey/jtcm_rock_paper_scissors)
 - [Nikola Jovanovic's solution](https://github.com/nikola1912/rock-paper-scissors)
 - [Nihir Agarwal's Solution](https://github.com/nihirag/rock-paper-scissors) - [View in Browser](https://nihirag.github.io/rock-paper-scissors/)
