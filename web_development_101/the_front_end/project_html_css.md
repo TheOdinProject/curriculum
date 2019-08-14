@@ -2325,6 +2325,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Christian Bonilla's Solution (Easy)](https://github.com/Cabonilla/googlehomepage) - [View in Browser](https://cabonilla.github.io/googlehomepage/) 
 * [AlexARNcode's Solution (Difficult)](https://github.com/alexarncode/google-clone/) - [View in Browser](https://alexarncode.github.io/google-searchpage-clone/)
 * [Dany Ing's Solution (Easy)](https://dany-ing.github.io/google-homepage/)
+* [mjwills-inf's Solution (Easy)] (https://github.com/mjwills-inf/google-homepage.git) - [View in Browser] (https://mjwills-inf.github.io/google-homepage)
 
 </details>
 
