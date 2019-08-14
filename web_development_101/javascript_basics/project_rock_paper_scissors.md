@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Joe the Code Monkey's solution] (https://github.com/JoeTheCodeMonkey/jtcm_rock_paper_scissors)
 - [Nikola Jovanovic's solution](https://github.com/nikola1912/rock-paper-scissors)
 - [Nihir Agarwal's Solution](https://github.com/nihirag/rock-paper-scissors) - [View in Browser](https://nihirag.github.io/rock-paper-scissors/)
 - [hussien hossam's solution](https://github.com/Hussein-Hossam-Idris/rock-paper-scissors.git)
@@ -56,7 +57,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nsingh93's Solution](https://github.com/nsingh-93/rock-paper-scissors) - [View in Browser](https://nsingh-93.github.io/rock-paper-scissors/)
 - [Hexadius' Solution](https://github.com/Hexadius/rock-paper-scissors)
 - [vladutclp's Solution](https://github.com/vladutclp/rock-paper-scissors)
-- [mike d's Solution](https://github.com/ipcmlr/rps) - [View in Browser](https://ipcmlr.github.io/rps/) 
+- [mike d's Solution](https://github.com/ipcmlr/rps) - [View in Browser](https://ipcmlr.github.io/rps/)
 - [Noah's Solution](https://github.com/ndayson02/rock-paper-scissors)
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/UserFriendly-Rock-Paper-Scissors)-[View in Browser](https://tripple-a.github.io/UserFriendly-Rock-Paper-Scissors/)
 - [ericlyeric's Solution](https://github.com/ericlyeric/rps) - [View in Browser](https://ericlyeric.github.io/rps/)
