@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+-[Ukeje Michgolden's solution](https://github.com/mikenath223/Rock-Paper-Scissors-game-Console-based) -[View in browser](https://mikenath223.github.io/Rock-Paper-Scissors-game-Console-based/)
 - [JeremyBeyond's solution](https://github.com/ugSh7hbY/rock-paper-scissor) - [View in Browser](https://ugsh7hby.github.io/rock-paper-scissor/) 
 - [Chris M's solution](https://github.com/chris-mahmood/rock-paper-scissors) - [View in Browser](https://chris-mahmood.github.io/rock-paper-scissors/)
 - [Joe the Code Monkey's solution](https://github.com/JoeTheCodeMonkey/jtcm_rock_paper_scissors)
