@@ -40,7 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Jackovi29 solution](https://github.com/jackovi29/Project-rock-paper-scissors) - [View in Browser](file:///C:/Users/HP/Google%20Drive/MICROVERSE/the_odin_project/Project-rock-paper-scissors/index.html)
+- [Jackovi29 solution](https://github.com/jackovi29/Project-rock-paper-scissors) - [View in Browser](https://jackovi29.github.io/Project-rock-paper-scissors/)
 - [Nikola Jovanovic's solution](https://github.com/nikola1912/rock-paper-scissors)
 - [Nihir Agarwal's Solution](https://github.com/nihirag/rock-paper-scissors) - [View in Browser](https://nihirag.github.io/rock-paper-scissors/)
 - [hussien hossam's solution](https://github.com/Hussein-Hossam-Idris/rock-paper-scissors.git)
