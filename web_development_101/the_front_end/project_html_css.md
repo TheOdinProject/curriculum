@@ -2332,6 +2332,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [DregoZ's Solution (Easy  + halfway difficult)](https://github.com/DregoZ/google-homepage)
 * [Tyler's Solution (Easy)](https://github.com/tsears17/google-homepage)
 * [TuSeMorte's Solution (Easy)](https://github.com/TuSeMorte/google-homepage) - [View in Browser](https://tusemorte.github.io/google-homepage/)
+* [GaganBhullar's Solution(Easy)](https://github.com/bhullargagan15/google-homepage) - [View in Browser](https://bhullargagan15.github.io/google-homepage/)
 </details>
 
 
