@@ -88,8 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [levo96' Solution (difficult) (https://github.com/Levo96/google_search_results_page) - [View in Browser] (https://levo96.github.io/google_search_results_page/) 
- - levo96: Could you please make that as link for me , i mean could you please make the mark up for me as i don't know how to do it
+* [levan mebonia's Solution (difficult) (https://github.com/Levo96/google_search_results_page) - [View in Browser] (https://levo96.github.io/google_search_results_page/) 
+ - levan mebonia: Could you please make that as link for me , i mean could you please make the mark up for me as i don't know how to do it
 -  and didn't find a Solution on OdinProject how to do it thank you very much | PS : did both easy and difficult version of this project :)
 * [eljoeys' Solution (Easy)](https://github.com/eljoey/google_homepage) - [View in Browser](https://eljoey.github.io/google_homepage/)
 * [vladutclp' Solution (Easy)](https://github.com/vladutclp/google-homepage) - [View in Browser](https://vladutclp.github.io/google-homepage/)
