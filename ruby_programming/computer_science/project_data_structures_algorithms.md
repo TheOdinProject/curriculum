@@ -164,6 +164,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees)
+* [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/binary_tree.rb)
 
 </details>
 
@@ -344,4 +345,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms/tree/master/Knights%20Travails)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees/blob/master/knight.rb)
 * [Gareth Woodman's Solution](https://github.com/GarethWoodman/knights_travails/blob/master/knights_travails.rb)
+* [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/knight_moves.rb)
 </details>

@@ -1321,7 +1321,7 @@ template_letter = File.read "form_letter.erb"
 erb_template = ERB.new template_letter
 ~~~
 
-* Simplify our `legislators_by_zipcode` to return the the original array of legislators
+* Simplify our `legislators_by_zipcode` to return the original array of legislators
 
 ~~~ruby
 def legislators_by_zipcode(zip)
@@ -1461,7 +1461,7 @@ contents.each do |row|
 end
 ~~~
 
-The method `save_thank_you_letter` requires the id of the attendee and the form letter
+The method `save_thank_you_letters` requires the id of the attendee and the form letter
 output.
 
 ## Iteration: Clean Phone Numbers
