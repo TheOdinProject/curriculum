@@ -212,6 +212,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [JFAldridge's Solution](https://github.com/JFAldridge/knight_moves)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/knights_travails/knights_travails.rb)
 * [BShowen's Solution](https://github.com/BShowen/Knights_travails)
 * [George Zhu's solution](https://github.com/georgezhu11/knight_moves/blob/master/knight_moves.rb)
