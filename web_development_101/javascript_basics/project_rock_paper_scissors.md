@@ -40,7 +40,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
--[Ukeje Michgolden's DOM manipulation solution](https://github.com/mikenath223/project_rock_paper_scissors)-[View in Browser](https://mikenath223.github.io/project_rock_paper_scissors/)
+- [Ukeje Michgolden's solution](https://github.com/mikenath223/project_rock_paper_scissors) - [View in Browser](https://mikenath223.github.io/project_rock_paper_scissors/)
+- [Carlos 'Bauer' Rocha's solution](https://github.com/CarlosRenan/rock-paper-scissors)
+- [Ukeje Michgolden's solution](https://github.com/mikenath223/Rock-Paper-Scissors-game-Console-based) -[View in browser](https://mikenath223.github.io/Rock-Paper-Scissors-game-Console-based/)
 - [JeremyBeyond's solution](https://github.com/ugSh7hbY/rock-paper-scissor) - [View in Browser](https://ugsh7hby.github.io/rock-paper-scissor/) 
 - [Chris M's solution](https://github.com/chris-mahmood/rock-paper-scissors) - [View in Browser](https://chris-mahmood.github.io/rock-paper-scissors/)
 - [Joe the Code Monkey's solution](https://github.com/JoeTheCodeMonkey/jtcm_rock_paper_scissors)
@@ -812,8 +814,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jcai8649' Solution](https://jcai8649.github.io/Rock-Paper-Scissors/)
 - [Samuel Salles's Solution](https://github.com/samuelrs25/rock-paper-scissors)
 - [Andrija Jelenkovic's Solution](https://github.com/Amdrija/rock-paper-scissors)
-- [David Watkins's Solution](https://github.com/DavidWatkinCode/rock_paper_scissors)
+- [David Watkins's Solution (non GUI)](https://github.com/DavidWatkinCode/rock_paper_scissors) - [View in Browser (GUI)](https://DavidWatkinCode.github.io/rock_paper_scissors_gui)
 - [Jamie Rookyard's Solution](https://github.com/rooky-j/rock_paper_scissors)
 - [lindnermarci's Solution with UI](https://github.com/lindnermarci/rockpaperscissors-odin-project) - [View in Browser](https://lindnermarci.github.io/rockpaperscissors-odin-project/)
 - [Jonikiro's Solution](https://github.com/Jonikiro/rock_paper_scissors_odin)
+- [Randolph Cisneros' Solution](https://randolphcisneros.github.io/rock-paper-scissors/)
+- [Tomstrat's Solution](https://github.com/tomstrat/rock-paper-scissors)
 </details>
