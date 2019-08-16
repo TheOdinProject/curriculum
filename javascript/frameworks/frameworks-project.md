@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Henry Kirya's Svelte solution](https://github.com/harrika/library-svelte) - [View in Browser](https://harrika.github.io/library-svelte/)
 * [ARaut9's React Library](https://github.com/ARaut9/book_library_react) - [View in Browser](https://araut9.github.io/book_library_react/)
 * [Jason McKee's Vue Library](https://github.com/jttmckee/vue-library) - [View in Browser](https://jttmckee.github.io/vue-library/)
 * [Andrew's Vue.js Solution](https://github.com/andrewr224/readersite) - [View in Browser](https://andrewr224.github.io/readersite/#/)
@@ -34,5 +35,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Areeba's Vue TodoList solution](https://github.com/AREEBAISHTIAQ/Todolist) - [View in browser](https://areebaishtiaq.github.io/Todolist/)
 * [Taylor J's React TodoList solution](https://github.com/taylorjohannsen/react-todo) - [View in browser](https://taylorjohannsen.github.io/react-todo/)
 * [Halkim44's React Library App solution](https://github.com/halkim44/react-my-library/tree/master) - [View in browser](https://halkim44.github.io/react-my-library/)
+* [Tronerta's Vue Todo-List solution](https://github.com/Tronerta/vue-todolist) - [View in browser](https://morning-meadow-39929.herokuapp.com)
 
 </details>
