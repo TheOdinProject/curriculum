@@ -49,5 +49,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Jake's Solution](https://github.com/jdonahue135/basic-informational-site)
 - [ericzlmd's Solution](https://github.com/ericzlmd/The-Odin-Project---NodeJS)
 - [GustavoRdz's Solution](https://github.com/GustavoRdz/odin-nodejs/tree/master/basic-informational-site)
+- [Viho Serge](https://github.com/VihoSerge/node-simple-website/blob/master/index.js)
 
 </details>
