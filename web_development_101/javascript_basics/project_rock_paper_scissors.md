@@ -808,7 +808,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Padraig O'Rúis's Solution](https://github.com/anarchomushroom/rock-paper-scissors)
 - [Arthur Abia's Solution with UI](https://github.com/ArthurAbia/shifumi2) - [View in Browser](https://arthurabia.github.io/shifumi2/)
 - [Mueed Ur Rehman's Solution](https://github.com/mueedurrehman/rock-paper-scissors)
-- [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor)
+- [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor) - [View in Browser](https://dikshantagarwal.github.io/RockPaperScissor/)
 - [Luis Puente's Solution](https://github.com/mkezmkez/rps)
 - [Javier Arias's Solution](https://github.com/jfariasf08/TOP-rockpaperscissor)
 - [LauPss's Solution](https://github.com/LauPss/Rock-Paper-Scissor)
