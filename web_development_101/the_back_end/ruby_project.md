@@ -33,6 +33,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Add your solution below this line!
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/learn_ruby)
 * [Noah T's Solution](https://github.com/noahtalerman/learn_ruby)
+* [Carlos' Solution](https://github.com/bycdiaz/learn_ruby)
 * [Bollinca's Solution](https://github.com/bollinca/learn_ruby)
 * [Joey Van Lierop's Solution](https://github.com/bananashavings/learn_ruby)
 * [Eljoey's Solution](https://github.com/eljoey/learn_ruby)
