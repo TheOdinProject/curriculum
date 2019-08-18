@@ -48,7 +48,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [JeremyBeyond's solution](https://github.com/ugSh7hbY/rock-paper-scissor) - [View in Browser](https://ugsh7hby.github.io/rock-paper-scissor/) 
 - [Chris M's solution](https://github.com/chris-mahmood/rock-paper-scissors) - [View in Browser](https://chris-mahmood.github.io/rock-paper-scissors/)
 - [Joe the Code Monkey's solution](https://github.com/JoeTheCodeMonkey/jtcm_rock_paper_scissors)
-- [Nikola Jovanovic's solution](https://github.com/nikola1912/rock-paper-scissors)
+- [Nikola Jovanovic's solution](https://github.com/nikola1912/rock-paper-scissors) - [View in Browser](https://nikola1912.github.io/rock-paper-scissors/)
 - [Nihir Agarwal's Solution](https://github.com/nihirag/rock-paper-scissors) - [View in Browser](https://nihirag.github.io/rock-paper-scissors/)
 - [hussien hossam's solution](https://github.com/Hussein-Hossam-Idris/rock-paper-scissors.git)
 - [Danny Caulwell's solution](https://github.com/caulwell164/Odin-rock) - [View in Browser](https://caulwell164.github.io/Rock-Paper-Scissors/)
@@ -823,4 +823,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Randolph Cisneros' Solution](https://randolphcisneros.github.io/rock-paper-scissors/)
 - [Tomstrat's Solution](https://github.com/tomstrat/rock-paper-scissors)
 - [Rohan's Solution](https://github.com/RKRohk/rockPaperScissors)
+- [lavamoulton's Solution](https://github.com/lavamoulton/rockpaperscissors/) - [View in Browser](https://lavamoulton.github.io/rockpaperscissors/)
 </details>
