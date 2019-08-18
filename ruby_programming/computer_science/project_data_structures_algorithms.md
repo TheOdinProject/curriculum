@@ -214,6 +214,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [JFAldridge's Solution](https://github.com/JFAldridge/knight_moves)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Ruby-Data-Structures/blob/master/KnightsTravails.rb)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-knights-tour)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/knights_travails/knights_travails.rb)
