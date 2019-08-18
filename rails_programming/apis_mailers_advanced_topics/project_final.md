@@ -59,6 +59,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/dev-communities)| [Live](https://dev-communities.herokuapp.com/)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-facebook) | [Live](https://safe-sierra-89344.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Growlither) - [View in Browser](https://growlithe.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-facebook) - [View in Browser](https://vast-springs-17117.herokuapp.com/)
