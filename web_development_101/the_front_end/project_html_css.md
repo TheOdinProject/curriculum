@@ -90,7 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this list
 * [fobos531's Solution (Easy)](https://fobos531.github.io/google_homepage/)
 * [rsjkr's Solution (Easy)](https://github.com/rsjkr/google-homepage)
-* JeremyBeyond's Solution (EASY) (https://github.com/ugSh7hbY/google-homepage/tree/master/google-homepage)
+* [JeremyBeyond's Solution (EASY)](https://github.com/ugSh7hbY/google-homepage) - [View in Browser](https://ugsh7hby.github.io/google-homepage/) 
 * [Johongirr's Solution (Easy)](https://github.com/Johongirr/google-homepage) - [View in Browser](https://johongirr.github.io/google-homepage/)
 * [Marquesmwagner's Solution (Easy)](https://github.com/marquesmwagner/google-homepage) - [View in Browser](https://marquesmwagner.github.io/google-homepage/)
 * [Mighil's Solution (Easy)](https://github.com/Mighil31/google-homepage) - [View in Browser](https://mighil31.github.io/google-homepage/)
