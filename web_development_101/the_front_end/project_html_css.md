@@ -88,7 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [drohpok's Solution (Easy)] (https://drohpok.github.io/google-homepage/)
+* [MMJohnson385's Solution (Easy)](https://mmjohnson385.github.io/google-homepage/)
+* [drohpok's Solution (Easy)](https://drohpok.github.io/google-homepage/)
 * [S-Par's Solution (Easy)](https://s-par.github.io/google-homepage/index.html)
 * [BigVisTBE's Solution (Easy)](https://bigvistbe.github.io/google-homepage/)
 * [fobos531's Solution (Easy)](https://fobos531.github.io/google_homepage/)
