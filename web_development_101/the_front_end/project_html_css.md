@@ -2342,6 +2342,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [cl3lly's Solution (Easy)](https://cl3lly.github.io/google-homepage/)
 * [Michael Horn's Solution(Difficult)](https://github.com/HornMichaelS/google-search-results) - [View in Browser](https://hornmichaels.github.io/google-search-results/)
 * [ejwheelock's Solution(Easy)](https://github.com/ejwheelock/google-homepage) - [View in Browser](https://ejwheelock.github.io/google-homepage/)
+* [Alexander Nitiola's Solution(Easy)](https://github.com/TheCre8tor/google-homepage) - [View in Browser](https://thecre8tor.github.io/google-homepage/)
 </details>
 
 
