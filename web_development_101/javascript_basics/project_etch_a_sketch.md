@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Michael Horn's solution](https://github.com/HornMichaelS/Etch-A-Sketch) - [View in Browser](https://hornmichaels.github.io/Etch-A-Sketch/)
 * [Mary Cheung's solution](https://github.com/marybcheung/etch-a-sketch) - [View in Browser](https://marybcheung.github.io/etch-a-sketch/)
 * [Andrew's solution](https://github.com/MercilessMcKie/Etch-a-Sketch) - [View in Browser](https://MercilessMcKie.github.io/Etch-a-Sketch/)
 * [Ukeje Michgolden's solution](https://github.com/mikenath223/Project-ETCH-A-SKETCH) - [View in Browser](https://mikenath223.github.io/Project-ETCH-A-SKETCH/)
@@ -496,4 +497,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [lindnermarci's solution](https://github.com/lindnermarci/EtchASketch) - [View in Browser](https://lindnermarci.github.io/EtchASketch/)
 * [David Watkin's solution](https://github.com/DavidWatkinCode/Etch-a-Sketch) - [View in Browser](https://davidwatkincode.github.io/Etch-a-Sketch/)
 * [Robert Suazo's solution](https://github.com/rsuazo/ETCH-A-SKETCH) - [View in Browser](https://rsuazo.github.io/ETCH-A-SKETCH/)
+* [Husseinhewehii's Solution](https://github.com/Husseinhewehii/sketch) - [View in Browser](https://husseinhewehii.github.io/Sketch/)
 </details>

@@ -88,7 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [MMJohnson385's Solution (Easy)] (https://mmjohnson385.github.io/google-homepage/)
+* [MMJohnson385's Solution (Easy)](https://mmjohnson385.github.io/google-homepage/)
+* [drohpok's Solution (Easy)](https://drohpok.github.io/google-homepage/)
 * [S-Par's Solution (Easy)](https://s-par.github.io/google-homepage/index.html)
 * [BigVisTBE's Solution (Easy)](https://bigvistbe.github.io/google-homepage/)
 * [fobos531's Solution (Easy)](https://fobos531.github.io/google_homepage/)
@@ -2343,6 +2344,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [cl3lly's Solution (Easy)](https://cl3lly.github.io/google-homepage/)
 * [Michael Horn's Solution(Difficult)](https://github.com/HornMichaelS/google-search-results) - [View in Browser](https://hornmichaels.github.io/google-search-results/)
 * [ejwheelock's Solution(Easy)](https://github.com/ejwheelock/google-homepage) - [View in Browser](https://ejwheelock.github.io/google-homepage/)
+* [Alexander Nitiola's Solution(Easy)](https://github.com/TheCre8tor/google-homepage) - [View in Browser](https://thecre8tor.github.io/google-homepage/)
 </details>
 
 
