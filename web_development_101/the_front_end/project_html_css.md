@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Hilbert França's Solution (Easy)](https://github.com/Hilbertmf/hilbertmf.github.io/tree/master/projects/google-homepage) - [View in Browser](https://hilbertmf.github.io/projects/google-homepage/)
 * [MMJohnson385's Solution (Easy)](https://mmjohnson385.github.io/google-homepage/)
 * [drohpok's Solution (Easy)](https://drohpok.github.io/google-homepage/)
 * [S-Par's Solution (Easy)](https://s-par.github.io/google-homepage/index.html)
