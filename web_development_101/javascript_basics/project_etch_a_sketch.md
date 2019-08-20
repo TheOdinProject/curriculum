@@ -43,7 +43,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+<<<<<<< HEAD
 * [Nihir Agarwal's solution](https://github.com/nihirag/etch-a-sketch) - [View in Browser](https://nihirag.github.io/etch-a-sketch/)
+=======
+* [Michael Horn's solution](https://github.com/HornMichaelS/Etch-A-Sketch) - [View in Browser](https://hornmichaels.github.io/Etch-A-Sketch/)
+* [Mary Cheung's solution](https://github.com/marybcheung/etch-a-sketch) - [View in Browser](https://marybcheung.github.io/etch-a-sketch/)
+* [Andrew's solution](https://github.com/MercilessMcKie/Etch-a-Sketch) - [View in Browser](https://MercilessMcKie.github.io/Etch-a-Sketch/)
+* [Ukeje Michgolden's solution](https://github.com/mikenath223/Project-ETCH-A-SKETCH) - [View in Browser](https://mikenath223.github.io/Project-ETCH-A-SKETCH/)
+>>>>>>> 9bef3a18dbab98bfa6179096d5280a1f2a60e8f3
 * [Uzay-G's solution](https://github.com/Uzay-G/Etch-a-Sketch) - [View in Browser](https://uzay-g.github.io/Etch-a-Sketch/)
 * [James Hudson's solution](https://github.com/jwhudson/EtchASketch) - [View in Browser](https://jwhudson.github.io/EtchASketch/)
 * [mohib's solution](https://github.com/uuhib/Etch-a-Sketch) - [View in Browser](https://uuhib.github.io/Etch-a-Sketch/)
@@ -491,4 +498,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Martink-rsa's solution](https://github.com/martink-rsa/etch_a_sketch) - [View in Browser](https://martink-rsa.github.io/etch_a_sketch/etch_a_sketch.html)
 * [Javier Arias's solution](https://github.com/jfariasf08/TOP-etch-a-sketch) - [View in Browser](https://jfariasf08.github.io/TOP-etch-a-sketch/)
 * [Andrija Jelenkovic's solution](https://github.com/Amdrija/etch-a-sketch) - [View in Browser](https://amdrija.github.io/etch-a-sketch/)
+* [lindnermarci's solution](https://github.com/lindnermarci/EtchASketch) - [View in Browser](https://lindnermarci.github.io/EtchASketch/)
+* [David Watkin's solution](https://github.com/DavidWatkinCode/Etch-a-Sketch) - [View in Browser](https://davidwatkincode.github.io/Etch-a-Sketch/)
+* [Robert Suazo's solution](https://github.com/rsuazo/ETCH-A-SKETCH) - [View in Browser](https://rsuazo.github.io/ETCH-A-SKETCH/)
+* [Husseinhewehii's Solution](https://github.com/Husseinhewehii/sketch) - [View in Browser](https://husseinhewehii.github.io/Sketch/)
 </details>
