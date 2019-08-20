@@ -324,18 +324,6 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "CSS Grids",
-  title_url: "CSS Grids".parameterize,
-  description: "Content isn't just thrown onto the page without a care -- grid systems apply logic and order to the way information is displayed.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/html_css/css_grids.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
   title: "Design Teardown",
   title_url: "Design Teardown".parameterize,
   description: "The first step to understanding design is to train yourself to *see* design, so you'll get a chance to break down one of the hallmark Design publications, Smashing Magazine.",
