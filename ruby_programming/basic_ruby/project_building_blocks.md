@@ -484,6 +484,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [proto-dylan's Solution](https://github.com/proto-dylan/stock-picker)
 * [mistervoga's solution](https://github.com/mistervoga/stock_picker)
 * [Chris' solution](https://github.com/CSalois114/project_building_blocks/blob/master/stock_picker.rb)
 * [Tfantina's Solution](https://github.com/tfantina/Odin-Project-Ruby/blob/master/stock_picker.rb)
