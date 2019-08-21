@@ -88,6 +88,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [mjwills-inf's Solution (Easy)](https://github.com/mjwills-inf/google-homepage.git) - [View in Browser](https://mjwills-inf.github.io/google-homepage)
+* [mjwills-inf's Solution (Difficult)](https://github.com/mjwills-inf/google-homepage) - [View in Browser](https://mjwills-inf.github.io/google-searchpage/)
+* JeremyBeyond's Solution (EASY) (https://github.com/ugSh7hbY/google-homepage/tree/master/google-homepage)
 * [Hilbert França's Solution (Easy)](https://github.com/Hilbertmf/hilbertmf.github.io/tree/master/projects/google-homepage) - [View in Browser](https://hilbertmf.github.io/projects/google-homepage/)
 * [MMJohnson385's Solution (Easy)](https://mmjohnson385.github.io/google-homepage/)
 * [drohpok's Solution (Easy)](https://drohpok.github.io/google-homepage/)
@@ -2333,7 +2336,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Christian Bonilla's Solution (Easy)](https://github.com/Cabonilla/googlehomepage) - [View in Browser](https://cabonilla.github.io/googlehomepage/) 
 * [AlexARNcode's Solution (Difficult)](https://github.com/alexarncode/google-clone/) - [View in Browser](https://alexarncode.github.io/google-searchpage-clone/)
 * [Dany Ing's Solution (Easy)](https://dany-ing.github.io/google-homepage/)
-* [mjwills-inf's Solution (Easy)](https://github.com/mjwills-inf/google-homepage.git) - [View in Browser](https://mjwills-inf.github.io/google-homepage)
 * [Anthony Bronkema's Solution (Easy)](https://github.com/abronkema/google-homepage.git) - [View in Browser](https://abronkema.github.io/google-homepage)
 * [Archana Subramanian's Solution (Easy)](https://github.com/arch-code19/google-homepage.git) - [View in Browser](https://arch-code19.github.io/google-homepage)
 * [DregoZ's Solution (Easy  + halfway difficult)](https://github.com/DregoZ/google-homepage)
