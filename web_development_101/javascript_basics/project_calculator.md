@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [JB's solution](https://github.com/ugSh7hbY/calculator) - [View in Browser](https://ugsh7hby.github.io/calculator/)
+- [Uzay-G's solution](https://github.com/Uzay-G/calculator) - [View in Browser](https://uzay-g.github.io/calculator/)
+- [Ian's Solution](https://github.com/IanMKesler/Calculator) - [View in Browser](https://ianmkesler.github.io/Calculator/)
+- [Andrija Jelenkovic's Solution](https://github.com/Amdrija/calculator) - [View in Browser](https://amdrija.github.io/calculator/)
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/Calculator) - [View in Browser](https://tripple-a.github.io/Calculator/)
 - [Saranoya's Solution](https://github.com/saranoya/odin/tree/master/javascript/calculator) - [View in Browser](https://saranoya.github.io/odin/javascript/calculator/)
 - [Ann Nguyen's Solution](https://github.com/ann-codes/javascript-calculator) - [View in Browser](https://ann-codes.github.io/javascript-calculator/)
@@ -355,4 +359,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [martink-rsa's solution](https://github.com/martink-rsa/calculator/) - [View in Browser](https://martink-rsa.github.io/calculator/calculator.html)
 - [Javier Arias's solution](https://github.com/jfariasf/TOP-calculator) - [View in Browser](https://jfariasf.github.io/TOP-calculator/index.html)
 - [Ryan Holderfield's solution](https://github.com/rholderfield/calc) - [View in Browser](https://rholderfield.github.io/calc/)
+- [lindnermarci's solution](https://github.com/lindnermarci/Calculator) - [View in Browser](https://lindnermarci.github.io/Calculator/)
 </details>

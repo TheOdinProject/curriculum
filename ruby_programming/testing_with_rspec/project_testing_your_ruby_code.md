@@ -22,6 +22,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Alain Suarez's Solution: [Caesar Cipher](https://gitlab.com/asuar/ruby-building-blocks/blob/master/spec/caesar-cipher_spec.rb), [Enumerable Methods](https://gitlab.com/asuar/ruby-advanced-building-blocks/blob/master/spec/my-enumerable_spec.rb), [Tic Tac Toe](https://gitlab.com/asuar/ruby-tic-tac-toe/tree/master/spec)
 * Vollantre's Solution: [Caesar Cipher](https://github.com/vollantre/ruby_basic/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/vollantre/ruby_basic/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/vollantre/Tic_Tac_Toe/tree/master/spec)
 * Kevin Vuong's Solution: [Caesar Cipher](https://github.com/fffear/caesar_cipher), [Enumerable Methods](https://github.com/fffear/enumerable), [Tic Tac Toe](https://github.com/fffear/tic_tac_toe)
 * Rudi Boshoff's Solution[Caesar Cipher](https://github.com/RudiBoshoff/ruby-exercises/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/RudiBoshoff/ruby-exercises/tree/master/enumerable), [Tic Tac Toe](https://github.com/RudiBoshoff/ruby-exercises/tree/master/tic_tac_toe)
@@ -124,6 +125,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alain Suarez's Solution](https://gitlab.com/asuar/connect-four)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/tree/master/CONNECT_FOUR)
 * [BShowen's Solution](https://github.com/bshowen/cl_connect_four)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/connect_four)
