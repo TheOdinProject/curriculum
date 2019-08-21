@@ -827,4 +827,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Rohan's Solution](https://github.com/RKRohk/rockPaperScissors)
 - [lavamoulton's Solution](https://github.com/lavamoulton/rockpaperscissors/) - [View in Browser](https://lavamoulton.github.io/rockpaperscissors/)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/rock_paper_scissors) - [View in Browser](https://husseinhewehii.github.io/Rock_Paper_Scissors/)
+- [Kezzy007's Solution](https://github.com/kezzy007/rock-paper-scissors/) - [View in Browser](https://kezzy007.github.io/rock-paper-scissors-game/)
 </details>
