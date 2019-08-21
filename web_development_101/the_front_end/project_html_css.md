@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [mjwills-inf's Solution (Difficult)](https://github.com/mjwills-inf/google-homepage) - [View in Browser](https://mjwills-inf.github.io/google-searchpage/)
 * JeremyBeyond's Solution (EASY) (https://github.com/ugSh7hbY/google-homepage/tree/master/google-homepage)
 * [Johongirr's Solution (Easy)](https://github.com/Johongirr/google-homepage) - [View in Browser](https://johongirr.github.io/google-homepage/)
 * [Marquesmwagner's Solution (Easy)](https://github.com/marquesmwagner/google-homepage) - [View in Browser](https://marquesmwagner.github.io/google-homepage/)
@@ -2325,7 +2326,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Christian Bonilla's Solution (Easy)](https://github.com/Cabonilla/googlehomepage) - [View in Browser](https://cabonilla.github.io/googlehomepage/) 
 * [AlexARNcode's Solution (Difficult)](https://github.com/alexarncode/google-clone/) - [View in Browser](https://alexarncode.github.io/google-searchpage-clone/)
 * [Dany Ing's Solution (Easy)](https://dany-ing.github.io/google-homepage/)
-* [mjwills-inf's Solution (Easy)] (https://github.com/mjwills-inf/google-homepage.git) - [View in Browser] (https://mjwills-inf.github.io/google-homepage)
+* [mjwills-inf's Solution (Easy)] (https://github.com/mjwills-inf/google-homepage.git) - [View in Browser] (https://mjwills-inf.github .io/google-homepage)
 
 </details>
 
