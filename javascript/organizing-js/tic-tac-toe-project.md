@@ -25,6 +25,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vedat Aydin's Solution](https://github.com/mvedataydin/tic-tac-toe) - [View in Browser](https://mvedataydin.github.io/tic-tac-toe/)
+- [Joey Van Lierop's Solution](https://github.com/bananashavings/tic-tac-toe) - [View in Browser](https://bananashavings.github.io/tic-tac-toe/)
+- [Evan's Solution](https://github.com/evan-kapantais/tic-tac-toe) - [View in Browser](https://evan-kapantais.github.io/tic-tac-toe/)
 - [Eljoey's Solution](https://github.com/eljoey/Tic-Tac-Toe) - [View in Browser](https://eljoey.github.io/Tic-Tac-Toe/)
 - [Vollantre's solution](https://github.com/vollantre/tic_tac_toeJS) - [View in Browser](https://vollantre.github.io/tic_tac_toeJS/)
 - [Henry Kirya's solution](https://github.com/harrika/tictac) - [View in Browser](https://harrika.github.io/tictac/)
@@ -76,4 +79,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [JamCry's Solution](https://github.com/jamcry/js-tictactoe) - [View in Browser](https://jamcry.github.io/js-tictactoe/)
 - [Maxime's Solution](https://github.com/Maxime-Beaufils/JS-TicTacToe-PvsAI) - [View in Browser](https://maxime-beaufils.github.io/JS-TicTacToe-PvsAI/)
 - [Ousmane's solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in Browser](https://kitague.github.io/Tic-Tac-Toe-Game/) 
+- [Gene Mecija's Solution](https://github.com/genemecija/Tic-Tac-Toe) - [View in Browser](https://genemecija.github.io/Tic-Tac-Toe/) 
 </details>

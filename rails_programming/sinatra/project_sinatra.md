@@ -120,6 +120,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * vanny96's Solution [GitHub](https://github.com/vanny96/sinatra_projects) - [Heroku](https://peaceful-fjord-85935.herokuapp.com/)
 * Vitaly Osipov's Solution [GitHub](https://github.com/vi7ali/caesar-sinatra) - [Heroku](https://immense-mountain-15356.herokuapp.com/)
 * Alex Krewson's Solution [GitHub](https://github.com/alexkrewson/sinatra_caesar_cipher) - [Heroku](https://pure-garden-70536.herokuapp.com/)
+* HSaad's Solution [GitHub](https://github.com/HSaad/caesar-cipher) - [Heroku](https://stormy-eyrie-38792.herokuapp.com/)
 
 </details>
 

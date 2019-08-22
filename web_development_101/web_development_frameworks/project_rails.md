@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/jumpstart-lab-blogger-tutorial) - [View in browser](https://secret-forest-19270.herokuapp.com/)
 * [Eljoey's Solution](https://github.com/eljoey/Ruby-project) - [View in browser](https://calm-fortress-57875.herokuapp.com/)
 * [nadjastojanovic's Solution](https://github.com/nadjastojanovic/blogger)
 * [Chris' Solution](https://github.com/CSalois114/web101-rails_project)
@@ -412,6 +413,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Carlos Del Real solution](https://github.com/carloshdelreal/blogger) - [View in Browser](https://murmuring-plateau-19342.herokuapp.com/)
 * [Ray Alvarez's solution](https://github.com/ray-alvarez/blogger) - [View in Browser](https://immense-lake-67875.herokuapp.com/)
 * [Robin's solution](https://github.com/RobinWagner/blogger) - [View in Browser](https://stormy-dusk-73994.herokuapp.com/)
+* [aytung's solution](https://github.com/aytung/blogger) - [View in Browser](https://cryptic-dusk-16801.herokuapp.com/)
+* [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/blogger) - [View in Browser](https://blogger1459.herokuapp.com/) I0 - I5
 
 </details>
 
