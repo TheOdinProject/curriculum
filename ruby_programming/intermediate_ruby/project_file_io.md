@@ -21,6 +21,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chris' Solution](https://github.com/CSalois114/project_hangman/blob/master/lib/hangman.rb)
+* [Gabriel's Solution](https://github.com/gabytzubaws/Hangman-ruby)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-hangman)
 * [Sherman's Solution](https://github.com/shermansjliu/hangman)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/hangman/lib/hangman.rb) - [View in repl.it](https://repl.it/@Jaybur1/Hangman)
@@ -244,4 +246,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Ben Fowler's Solution](https://github.com/benfowler04/ruby-oop/blob/master/hangman.rb) - [Play on Repl.it](https://repl.it/@BenFowler/Hangman)
 * [Bendee48's Solution](https://github.com/bendee48/hangman) - [Play on Repl.it](https://repl.it/@bendee48/Hangman)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-oop/tree/master/hangman)
+* [Ray Alvarez's Solution](https://github.com/ray-alvarez/hangman)
 </details>
