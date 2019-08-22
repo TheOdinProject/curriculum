@@ -511,6 +511,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/stock_picker.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/basics-projects/stock-picker.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/stock_piper/stock.rb)
+* [Carlos' Solution](https://github.com/bycdiaz/stock-picker)
 * [Khari's Solution](https://github.com/kjwebdev/ceasar_shift/blob/master/stock_picker.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/stock_picker/stock_picker.rb)
 * [Origier's Solution](https://github.com/Origier/stock_picker/blob/master/main.rb)
