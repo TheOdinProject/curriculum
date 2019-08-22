@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/caesar_cipher.rb)
 * [Carlos' Solution](https://github.com/bycdiaz/caesar-cipher)
 * [JB's Solution](https://github.com/ugSh7hbY/CaeSar_CiPher/blob/master/script.rb)
 * [Nils' Solution](https://github.com/matic1909/caesar_cipher/blob/master/caesar_cipher.rb)
@@ -485,6 +486,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/stock_picker.rb)
 * [proto-dylan's Solution](https://github.com/proto-dylan/stock-picker)
 * [mistervoga's solution](https://github.com/mistervoga/stock_picker)
 * [Chris' solution](https://github.com/CSalois114/project_building_blocks/blob/master/stock_picker.rb)
@@ -900,7 +902,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-
+* [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/substrings.rb)
 * [Chris' Solution](https://github.com/CSalois114/project_building_blocks/blob/master/substring.rb)
 * [Sherman's Solution](https://github.com/shermansjliu/project_building_blocks/blob/master/substrings.rb)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-building-blocks/blob/master/substrings.rb)
