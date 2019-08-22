@@ -40,7 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
--[Harry Lawson's Solution](https://lawson7.github.io/book-library-app/) - [View in Browser](https://lawson7.github.io/book-library-app/)
+- [Harry Lawson's Solution](https://lawson7.github.io/book-library-app/) - [View in Browser](https://lawson7.github.io/book-library-app/)
 - [Bollinca's Solution](https://github.com/bollinca/library) - [View in Browser](https://bollinca.github.io/library/)
 - [Joey Van Lierop's Solution](https://github.com/bananashavings/library) - [View in Browser](https://bananashavings.github.io/library/)
 - [mvedataydin's Solution](https://github.com/mvedataydin/Library/) - [View in Browser](https://mvedataydin.github.io/Library/)
