@@ -359,4 +359,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [martink-rsa's solution](https://github.com/martink-rsa/calculator/) - [View in Browser](https://martink-rsa.github.io/calculator/calculator.html)
 - [Javier Arias's solution](https://github.com/jfariasf/TOP-calculator) - [View in Browser](https://jfariasf.github.io/TOP-calculator/index.html)
 - [Ryan Holderfield's solution](https://github.com/rholderfield/calc) - [View in Browser](https://rholderfield.github.io/calc/)
+- [lindnermarci's solution](https://github.com/lindnermarci/Calculator) - [View in Browser](https://lindnermarci.github.io/Calculator/)
+- [machineshot's solution](https://github.com/MachineShot/calculator) - [View in Browser](https://machineshot.github.io/calculator/)
+- [Eduardo06sp's solution](https://github.com/Eduardo06sp/calculator) - [View in Browser](https://eduardo06sp.github.io/calculator/)
 </details>
