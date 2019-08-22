@@ -361,4 +361,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ryan Holderfield's solution](https://github.com/rholderfield/calc) - [View in Browser](https://rholderfield.github.io/calc/)
 - [lindnermarci's solution](https://github.com/lindnermarci/Calculator) - [View in Browser](https://lindnermarci.github.io/Calculator/)
 - [machineshot's solution](https://github.com/MachineShot/calculator) - [View in Browser](https://machineshot.github.io/calculator/)
+- [Eduardo06sp's solution](https://github.com/Eduardo06sp/calculator) - [View in Browser](https://eduardo06sp.github.io/calculator/)
 </details>

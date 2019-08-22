@@ -2320,6 +2320,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Vedant Shetty's Solution (Easy)](https://github.com/vedantshetty/google-homepage) - [View in Browser](https://vedantshetty.github.io/google-homepage/)
 * [Nihir Agarwal's Solution (Easy)](https://github.com/nihirag/google-homepage) -[View in Browser](https://nihirag.github.io/google-homepage/)
 * [Samuel Salles's Solution (Easy + Difficult)](https://github.com/samuelrs25/firstproject-google-homepage) - [View in Browser (Easy)](https://samuelrs25.github.io/firstproject-google-homepage/) - [View in Browser (Difficult)](https://samuelrs25.github.io/firstproject-google-homepage/searchpage.html)
+* [Karthick's Solution (Easy)](https://github.com/karthicbz/google-homepage) - [View in Browser](https://karthicbz.github.io/google-homepage/)
 * [Andrija Jelenkovic's Solution (Easy)](https://github.com/Amdrija/google-homepage) -[View in Browser](https://amdrija.github.io/google-homepage)
 * [Tom Strat's Solution (Easy)](https://github.com/tomstrat/google-homepage) - [View in Browser](https://tomstrat.github.io/google-homepage)
 * [a baby duck's Solution (Easy + Difficult)](https://ababyduck.github.io/odin_google-homepage/) - [View in Browser](https://ababyduck.github.io/odin_google-homepage/)
@@ -2351,6 +2352,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alexander Nitiola's Solution(Easy)](https://github.com/TheCre8tor/google-homepage) - [View in Browser](https://thecre8tor.github.io/google-homepage/)
 * [Eduardo's Soltuion(Easy)](https://github.com/LaloCode/google-homepage) - [View in Browser](https://lalocode.github.io/google-homepage/)
 * [Wessel's Soltuion(Easy)](https://github.com/WKosterman/google-homepage)
+* [Hritik Agarwal's Solution](https://github.com/hritik-agarwal/google-homepage) - [View in Browser](https://hritik-agarwal.github.io/google-homepage)
+* [UpstairsBobcat's Soltuion(Easy)](https://github.com/UpstairsBobcat/google-homepage) - [View in Browser](https://upstairsbobcat.github.io/google-homepage/)
 </details>
 
 
