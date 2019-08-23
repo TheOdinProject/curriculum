@@ -824,14 +824,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jonikiro's Solution](https://github.com/Jonikiro/rock_paper_scissors_odin)
 - [Randolph Cisneros' Solution](https://randolphcisneros.github.io/rock-paper-scissors/)
 - [Tomstrat's Solution](https://github.com/tomstrat/rock-paper-scissors)
-<<<<<<< HEAD
 - [Gagan Bhullar's Solution](https://github.com/bhullargagan15/rock-paper-scissors)
-=======
 - [TuSeMorte's Solution](https://github.com/TuSeMorte/ROCK-PAPER-SCISSORS) - [View in Browser](https://tusemorte.github.io/ROCK-PAPER-SCISSORS/)
 - [Rohan's Solution](https://github.com/RKRohk/rockPaperScissors)
 - [lavamoulton's Solution](https://github.com/lavamoulton/rockpaperscissors/) - [View in Browser](https://lavamoulton.github.io/rockpaperscissors/)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/rock_paper_scissors) - [View in Browser](https://husseinhewehii.github.io/Rock_Paper_Scissors/)
 - [Kezzy007's Solution](https://github.com/kezzy007/rock-paper-scissors/) - [View in Browser](https://kezzy007.github.io/rock-paper-scissors-game/)
 - [Joe's Console Solution](https://github.com/JoeVinten/rock-paper-scissors)
->>>>>>> 2b04defdf6dc52c41a4bf487f6a15fdb5fa066f3
 </details>
