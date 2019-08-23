@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Solodov Andrey's Solution](https://github.com/solodov-dev/do) - [View in Browser](https://solodov-dev.github.io/do/)
 * [Joey Van Lierop's Solution](https://github.com/bananashavings/todo-list) - [View in Browser](https://bananashavings.github.io/todo-list/)
 * [ELjoey's Solution](https://github.com/eljoey/Todo-List) - [View in Browser](https://eljoey.github.io/Todo-List/)
 * [Djo1e's solution](https://github.com/Djo1e/Todo) - [View in browser](https://djo1e.github.io/Todo/)
@@ -42,11 +43,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [John Kripp's Solution](https://github.com/JohnKripp/Todo-App) - [View in browser](https://johnkripp.github.io/Todo-App/)
 * [Simon Tharby's solution](https://github.com/jinjagit/todo) - [View in browser](https://to-do.simontharby.com/)
 * [ARaut9's solution](https://github.com/ARaut9/to-do-list) - [View in Browser](https://araut9.github.io/to-do-list/)
-* [Jason McKee's solution](https://github.com/jttmckee/odin-todo-list) - [View in Browser](https://jttmckee.github.io/odin-todo-list/)
-* [Ricala's solution](https://github.com/Ricala/to-do-list) - [View in Browser](https://ricala.github.io/to-do-list/)
-* [Hammad Ahmed's solution](https://github.com/shammadahmed/task-manager) - [Live preview](https://shammadahmed.github.io/task-manager)
-* [Roman Alenskiy's solution](https://github.com/romalenskiy/todo) - [Live preview](https://romalenskiy.github.io/todo/)
-* [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/todos) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/todos/dist/index.html)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-todo-list) - [View in Browser](https://jttmckee.github.io/odin-todo-list/) * [Ricala's solution](https://github.com/Ricala/to-do-list) - [View in Browser](https://ricala.github.io/to-do-list/) * [Hammad Ahmed's solution](https://github.com/shammadahmed/task-manager) - [Live preview](https://shammadahmed.github.io/task-manager)
+* [Roman Alenskiy's solution](https://github.com/romalenskiy/todo) - [Live preview](https://romalenskiy.github.io/todo/) * [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/todos) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/todos/dist/index.html)
 * [VladL2c's solution](https://vladl2c.github.io/Project-Manager/) - [View in Browser](https://vladl2c.github.io/Project-Manager/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/js-to-do-list) - [View in Browser](https://javier-machin.github.io/js-to-do-list/)
 * [Kyle and Paul's solution](https://github.com/jklemon17/todo-list) - [View in Browser](https://jklemon17.github.io/todo-list/)
