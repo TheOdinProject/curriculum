@@ -30,7 +30,7 @@ Don't worry if you don't totally understand what you are doing in these next ste
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
-gem install rails
+gem install rails -v 5.2.3
 ~~~
 
 #### Step 1.2: Lay the Groundwork
