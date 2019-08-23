@@ -940,6 +940,7 @@ Next, make sure your method can handle multiple words:
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/substrings.rb)
 * [Tim Dowd's Solution](https://github.com/timothydowd/substrings/blob/master/substrings.rb)
 * [sametcilli's solution](https://github.com/sametcilli/ruby_exercises_substrings/blob/master/substrings.rb)
+* [Carlos' solution](https://github.com/bycdiaz/substrings/blob/master/substrings.rb)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Substrings.rb)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/sub-string/blob/master/sub-string.rb)
 * [brndntng's Solution](https://github.com/brndntng/substrings)
