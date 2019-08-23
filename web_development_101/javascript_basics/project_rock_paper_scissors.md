@@ -824,6 +824,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jonikiro's Solution](https://github.com/Jonikiro/rock_paper_scissors_odin)
 - [Randolph Cisneros' Solution](https://randolphcisneros.github.io/rock-paper-scissors/)
 - [Tomstrat's Solution](https://github.com/tomstrat/rock-paper-scissors)
+- [Gagan Bhullar's Solution](https://github.com/bhullargagan15/rock-paper-scissors)
 - [TuSeMorte's Solution](https://github.com/TuSeMorte/ROCK-PAPER-SCISSORS) - [View in Browser](https://tusemorte.github.io/ROCK-PAPER-SCISSORS/)
 - [Rohan's Solution](https://github.com/RKRohk/rockPaperScissors)
 - [lavamoulton's Solution](https://github.com/lavamoulton/rockpaperscissors/) - [View in Browser](https://lavamoulton.github.io/rockpaperscissors/)
