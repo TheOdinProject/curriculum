@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [JB's Solution](https://github.com/ugSh7hbY/tictactoe) - [View in Browser] https://ugsh7hby.github.io/tictactoe/
 - [Vedat Aydin's Solution](https://github.com/mvedataydin/tic-tac-toe) - [View in Browser](https://mvedataydin.github.io/tic-tac-toe/)
 - [Joey Van Lierop's Solution](https://github.com/bananashavings/tic-tac-toe) - [View in Browser](https://bananashavings.github.io/tic-tac-toe/)
 - [Evan's Solution](https://github.com/evan-kapantais/tic-tac-toe) - [View in Browser](https://evan-kapantais.github.io/tic-tac-toe/)
