@@ -905,6 +905,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Norman's Solution](https://github.com/isaza00/project_building_blocks/blob/master/substrings.rb)
 * [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/substrings.rb)
 * [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/substrings.rb)
 * [Chris' Solution](https://github.com/CSalois114/project_building_blocks/blob/master/substring.rb)
