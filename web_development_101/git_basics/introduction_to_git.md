@@ -42,6 +42,8 @@ By the end of this lesson, you should be able to do the following:
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Git and Github in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
+* [Learn Git in 30 Minutes - from codeSTACKr]
+(https://www.youtube.com/watch?v=N_bMCff8q6A&feature=youtu.be)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.

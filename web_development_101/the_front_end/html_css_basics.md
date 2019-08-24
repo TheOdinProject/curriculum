@@ -45,3 +45,5 @@ This section contains helpful links to other content. It isn't required, so cons
 * [OverAPI's HTML Cheat Sheet](http://overapi.com/html)
 * [OverAPI's CSS Cheat Sheet](http://overapi.com/css)
 * [Learn CSS Layout](http://learnlayout.com/)
+* HTML Crash Course for Beginners[codeSTACKr](http://www.codestackr.com/)
+* CSS Crash Course for Beginners [codeSTACKr](https://www.youtube.com/watch?v=Tfjd5yzCaxk)
