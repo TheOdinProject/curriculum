@@ -2359,6 +2359,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [UpstairsBobcat's Solution (Easy)](https://github.com/UpstairsBobcat/google-homepage) - [View in Browser](https://upstairsbobcat.github.io/google-homepage/)
 * [p0rt3rd's Solution (Easy)](https://github.com/p0rt3rd/google-homepage) - [View in Browser](https://p0rt3rd.github.io/google-homepage/)
 * [MJae's Solution (Easy)](https://github.com/MJae/MV-prj/tree/master/the_odin_project/google-homepage) - [View in Browser](https://mjae.github.io/MV-prj/the_odin_project/google-homepage/index.html)
+* [kosmos434's Solution (Easy)](https://github.com/kosmos434/google-homepage) - [View in Browser](https://kosmos434.github.io/google-homepage/)
 </details>
 
 
