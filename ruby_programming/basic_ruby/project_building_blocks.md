@@ -37,6 +37,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/caesar-cipher.rb)
+* [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/caesar_cipher.rb)
 * [Carlos' Solution](https://github.com/bycdiaz/caesar-cipher)
 * [JB's Solution](https://github.com/ugSh7hbY/CaeSar_CiPher/blob/master/script.rb)
 * [Nils' Solution](https://github.com/matic1909/caesar_cipher/blob/master/caesar_cipher.rb)
@@ -485,6 +487,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/stock-picker.rb)
+* [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/stock_picker.rb)
 * [proto-dylan's Solution](https://github.com/proto-dylan/stock-picker)
 * [mistervoga's solution](https://github.com/mistervoga/stock_picker)
 * [Chris' solution](https://github.com/CSalois114/project_building_blocks/blob/master/stock_picker.rb)
@@ -509,6 +513,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/stock_picker.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/basics-projects/stock-picker.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/stock_piper/stock.rb)
+* [Carlos' Solution](https://github.com/bycdiaz/stock-picker)
 * [Khari's Solution](https://github.com/kjwebdev/ceasar_shift/blob/master/stock_picker.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/stock_picker/stock_picker.rb)
 * [Origier's Solution](https://github.com/Origier/stock_picker/blob/master/main.rb)
@@ -900,7 +905,9 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-
+* [Norman's Solution](https://github.com/isaza00/project_building_blocks/blob/master/substrings.rb)
+* [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/substrings.rb)
+* [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/substrings.rb)
 * [Chris' Solution](https://github.com/CSalois114/project_building_blocks/blob/master/substring.rb)
 * [Sherman's Solution](https://github.com/shermansjliu/project_building_blocks/blob/master/substrings.rb)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-building-blocks/blob/master/substrings.rb)
@@ -937,6 +944,7 @@ Next, make sure your method can handle multiple words:
 * [Ajani Stewart's Solution](https://github.com/AjaniStewart/ruby-tutorial/blob/master/substrings.rb)
 * [Tim Dowd's Solution](https://github.com/timothydowd/substrings/blob/master/substrings.rb)
 * [sametcilli's solution](https://github.com/sametcilli/ruby_exercises_substrings/blob/master/substrings.rb)
+* [Carlos' solution](https://github.com/bycdiaz/substrings/blob/master/substrings.rb)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Substrings.rb)
 * [Malaika(Mic) Solution](https://github.com/malaikaMI/sub-string/blob/master/sub-string.rb)
 * [brndntng's Solution](https://github.com/brndntng/substrings)

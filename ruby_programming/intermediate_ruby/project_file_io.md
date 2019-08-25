@@ -247,4 +247,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Bendee48's Solution](https://github.com/bendee48/hangman) - [Play on Repl.it](https://repl.it/@bendee48/Hangman)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-oop/tree/master/hangman)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/hangman)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/hangman)
+* [Theonlycat's Solution](https://github.com/Theonlycatmc/ruby-hangman) - [Play on Repl.it](https://repl.it/@Theonlycatmc/ruby-hangman-w-savefile)
+
 </details>

@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Igorashs's solution](https://github.com/igorashs/calculator) - [View in Browser](https://igorashs.github.io/calculator/)
+- [Michael Horn's solution](https://github.com/HornMichaelS/web-calculator) - [View in Browser](https://hornmichaels.github.io/web-calculator/)
 - [JB's solution](https://github.com/ugSh7hbY/calculator) - [View in Browser](https://ugsh7hby.github.io/calculator/)
 - [Uzay-G's solution](https://github.com/Uzay-G/calculator) - [View in Browser](https://uzay-g.github.io/calculator/)
 - [Ian's Solution](https://github.com/IanMKesler/Calculator) - [View in Browser](https://ianmkesler.github.io/Calculator/)
@@ -361,4 +363,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ryan Holderfield's solution](https://github.com/rholderfield/calc) - [View in Browser](https://rholderfield.github.io/calc/)
 - [lindnermarci's solution](https://github.com/lindnermarci/Calculator) - [View in Browser](https://lindnermarci.github.io/Calculator/)
 - [machineshot's solution](https://github.com/MachineShot/calculator) - [View in Browser](https://machineshot.github.io/calculator/)
+- [Eduardo06sp's solution](https://github.com/Eduardo06sp/calculator) - [View in Browser](https://eduardo06sp.github.io/calculator/)
 </details>

@@ -100,6 +100,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Vitaly Osipov's solutions: [Caesar's Cipher](https://github.com/vi7ali/caesar-cipher/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/vi7ali/my-enum-methods/blob/master/spec/my_enum_methods_spec.rb)
 * [Alex Krewson's solutions](https://github.com/alexkrewson/ruby_testing)
 * Robert Dunbar's solutions: [Caesar's Cipher](https://github.com/RobertDunbar/ruby-problems/blob/master/spec/cipher_spec.rb), [Enumerable](https://github.com/RobertDunbar/ruby-problems/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/RobertDunbar/ruby-oop/blob/master/tic-tac-toe/spec/tic-tac-toe_spec.rb)
+* Ben Fowler's solutions: [Caesar Cipher](https://github.com/benfowler04/ruby-building-blocks/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/benfowler04/ruby-building-blocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/benfowler04/ruby-oop/blob/master/spec/tic_tac_toe_spec.rb)
 </details>
 
 ### Project: TDD Connect Four
@@ -229,6 +230,7 @@ connect_four)
 * [JFAldridge's solution](https://github.com/JFAldridge/ruby_connect_four)
 * [Robert Dunbar's solutions](https://github.com/RobertDunbar/ruby-connect-four)
 * [Rey van den Berg's solution](https://github.com/Rey810/ruby-connect4)
+* [Ben Fowler's solution](https://github.com/benfowler04/connect-four) - [Play on repl.it](https://repl.it/@BenFowler/Connect-Four)
 </details>
 
 ### Additional Resources
