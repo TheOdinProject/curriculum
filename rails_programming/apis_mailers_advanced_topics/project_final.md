@@ -59,6 +59,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/dev-communities)| [Live](https://dev-communities.herokuapp.com/)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-facebook) | [Live](https://safe-sierra-89344.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Growlither) - [View in Browser](https://growlithe.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-facebook) - [View in Browser](https://vast-springs-17117.herokuapp.com/)
@@ -116,6 +117,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/socialize) - [View in browser](https://socializeer.herokuapp.com/about)
 * [bchalman's solution](https://github.com/bchalman/odin-spacebook)
 * [Ryan's and Dipto's solution](https://github.com/dipto0321/facialbook) - [View in browser](https://facials.herokuapp.com/)
+* [vanny96's solution](https://github.com/vanny96/fakebook) - [View in browser](https://rocky-ravine-56988.herokuapp.com)
+* [JamCry's Solution](https://github.com/jamcry/rails-facebook) - [View in browser](https://protected-anchorage-21926.herokuapp.com/)
 
 </details>
 
