@@ -834,4 +834,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kezzy007's Solution](https://github.com/kezzy007/rock-paper-scissors/) - [View in Browser](https://kezzy007.github.io/rock-paper-scissors-game/)
 - [Joe's Console Solution](https://github.com/JoeVinten/rock-paper-scissors)
 - [Wessel's Solution](https://github.com/WKosterman/rock-paper-scissors/)
+- [Eduardo's Solution](https://github.com/LaloCode/TOP-Rock-Paper-Scissors)
 </details>
