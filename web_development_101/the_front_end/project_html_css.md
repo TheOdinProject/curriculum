@@ -2366,6 +2366,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [trucktechturner's Solution (Easy)](https://github.com/trucktechturner/google-homepage) - [View in Browser](https://trucktechturner.github.io/google-homepage/)
 * [Temmarie's Solution (Easy)](https://github.com/Temmarie/google-homepage)
 * [Ryan's Solution (Easy)](https://noirviper.github.io/google-homepage/) - [View in Browser](https://noirviper.github.io/google-homepage/)
+* [Trevor's Solution (Easy)](https://toakes0421.github.io/google-homepage/)
 </details>
 
 
