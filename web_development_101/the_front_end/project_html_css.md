@@ -2363,7 +2363,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [kosmos434's Solution (Easy)](https://github.com/kosmos434/google-homepage) - [View in Browser](https://kosmos434.github.io/google-homepage/)
 * [Ross's Solution (Easy)](https://github.com/RHoneyman/google-homepage) - [View in Browser](https://rhoneyman.github.io/google-homepage/)
 * [Christie's Solution (Easy)](https://github.com/dissovldgrl/google-homepage) - [View in Browser](https://dissovldgrl.github.io/google-homepage/)
-* [trucktechturner's Solution (Easy)] (https://github.com/trucktechturner/google-homepage) - [View in Browser] (https://trucktechturner.github.io/google-homepage/)
+* [trucktechturner's Solution (Easy)](https://github.com/trucktechturner/google-homepage) - [View in Browser](https://trucktechturner.github.io/google-homepage/)
+* [Temmarie's Solution (Easy)](https://github.com/Temmarie/google-homepage)
+* [Ryan's Solution (Easy)](https://noirviper.github.io/google-homepage/) - [View in Browser](https://noirviper.github.io/google-homepage/)
 </details>
 
 
