@@ -78,7 +78,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - make sure that the main html file of your project is called `index.html`.  If it is not, you will need to rename it.
 - go to your GitHub repo on the web and click the __Settings__ button
 - scroll down until you find the __GitHub Pages__ section
-- change the __Source__ from _none_ to _master branch_ and click Save.
+- change the __Source__ from _none_ to _master branch_ (Github will automatically Save changes made to settings).
 - it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-gh-username.github.io/your-github-repo-name` (obviously substituting your own details in the link)
 
 ### Student Solutions
