@@ -40,7 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [hamilto8's solution] (https://github.com/hamilto8/rock-paper-scissors)
+- [hamilto8's solution](https://github.com/hamilto8/rock-paper-scissors)
 - [Kristi Dugan's solution](https://github.com/KristiDugan/rock_paper_scissors)
 - [Jackovi29 solution](https://github.com/jackovi29/Project-rock-paper-scissors) - [View in Browser](https://jackovi29.github.io/Project-rock-paper-scissors/)
 - [Purva's Solution](https://github.com/singularity48021/rock-paper-scissors) - [View in Browser](https://singularity48021.github.io/rock-paper-scissors/)
