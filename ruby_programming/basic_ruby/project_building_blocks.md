@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby)
 * [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/caesar-cipher.rb)
 * [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/caesar_cipher.rb)
 * [Carlos' Solution](https://github.com/bycdiaz/caesar-cipher)
