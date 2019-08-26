@@ -835,4 +835,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joe's Console Solution](https://github.com/JoeVinten/rock-paper-scissors)
 - [Wessel's Solution](https://github.com/WKosterman/rock-paper-scissors/)
 - [Eduardo's Solution](https://github.com/LaloCode/TOP-Rock-Paper-Scissors)
+- ['Karthick's Solution](https://github.com/karthicbz/rps) - [View in Browser](https://karthicbz.github.io/rps/)
 </details>
