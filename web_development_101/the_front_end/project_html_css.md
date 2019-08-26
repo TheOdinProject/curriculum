@@ -2370,8 +2370,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [c30net's Solution(Easy)](https://github.com/c30net/google-homepage) - [View in Browser](https://nadjastojanovic.github.io/google-homepage/) 
 * [c30net's Solution(Difficult)](https://github.com/c30net/google-search) - [View in Browser](https://c30net.github.io/google-search/) 
 * [Ronald's Solution (Easy)](https://github.com/Glocker134/google-homepage/) - [View in Browser](https://glocker134.github.io/google-homepage/)
-* [Levan Mebonia's (Easy) ] (https://levo96.github.io/google_homepage/)
-* [Levan Mebonia's (Difficult) ] (https://levo96.github.io/google_search_results_page/)
+* [Levan Mebonia's (Easy)](https://github.com/levo96/google_homepage/) [View in Browser](https://levo96.github.io/google_homepage/)
+* [Levan Mebonia's (Difficult)](https://github.com/levo96/google_search_results_page/) - [View in Browser](https://levo96.github.io/google_search_results_page/)
 </details>
 
 
@@ -2383,4 +2383,3 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
 * Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
-https://levo96.github.io/google_homepage/
