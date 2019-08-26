@@ -835,4 +835,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joe's Console Solution](https://github.com/JoeVinten/rock-paper-scissors)
 - [Wessel's Solution](https://github.com/WKosterman/rock-paper-scissors/)
 - [Eduardo's Solution](https://github.com/LaloCode/TOP-Rock-Paper-Scissors)
+- [MJae's Solution](https://github.com/MJae/MV-prj/tree/master/the_odin_project/rock-paper-scissors) - [View in Browser](https://mjae.github.io/MV-prj/the_odin_project/rock-paper-scissors/index.html)
 </details>
