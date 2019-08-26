@@ -2370,8 +2370,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [c30net's Solution(Easy)](https://github.com/c30net/google-homepage) - [View in Browser](https://nadjastojanovic.github.io/google-homepage/) 
 * [c30net's Solution(Difficult)](https://github.com/c30net/google-search) - [View in Browser](https://c30net.github.io/google-search/) 
 * [Ronald's Solution (Easy)](https://github.com/Glocker134/google-homepage/) - [View in Browser](https://glocker134.github.io/google-homepage/)
-* [Levan Mebonia's (Easy)](https://github.com/levo96/google_homepage/) - [View in Browser](https://levo96.github.io/google_homepage/)
-* [Levan Mebonia's (Difficult)](https://github.com/levo96/google_search_results_page/) - [View in Browser](https://levo96.github.io/google_search_results_page/)
+* [Levan Mebonia's Solution (Easy)](https://github.com/levo96/google_homepage/) - [View in Browser](https://levo96.github.io/google_homepage/)
+* [Levan Mebonia's Solution (Difficult)](https://github.com/levo96/google_search_results_page/) - [View in Browser](https://levo96.github.io/google_search_results_page/)
 </details>
 
 
