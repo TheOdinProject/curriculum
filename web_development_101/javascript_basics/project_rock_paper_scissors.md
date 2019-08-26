@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lucas 'Nativo' Sampaio's solution](https://github.com/lucasnativo/rock-paper-scissors) - [View in Browser](https://lucasnativo.github.io/rock-paper-scissors/)
 - [hamilto8's solution](https://github.com/hamilto8/rock-paper-scissors)
 - [Kristi Dugan's solution](https://github.com/KristiDugan/rock_paper_scissors)
 - [Jackovi29 solution](https://github.com/jackovi29/Project-rock-paper-scissors) - [View in Browser](https://jackovi29.github.io/Project-rock-paper-scissors/)
@@ -830,10 +831,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [TuSeMorte's Solution](https://github.com/TuSeMorte/ROCK-PAPER-SCISSORS) - [View in Browser](https://tusemorte.github.io/ROCK-PAPER-SCISSORS/)
 - [Rohan's Solution](https://github.com/RKRohk/rockPaperScissors)
 - [lavamoulton's Solution](https://github.com/lavamoulton/rockpaperscissors/) - [View in Browser](https://lavamoulton.github.io/rockpaperscissors/)
-* [Husseinhewehii's Solution](https://github.com/Husseinhewehii/rock_paper_scissors) - [View in Browser](https://husseinhewehii.github.io/Rock_Paper_Scissors/)
+- [Husseinhewehii's Solution](https://github.com/Husseinhewehii/rock_paper_scissors) - [View in Browser](https://husseinhewehii.github.io/Rock_Paper_Scissors/)
 - [Kezzy007's Solution](https://github.com/kezzy007/rock-paper-scissors/) - [View in Browser](https://kezzy007.github.io/rock-paper-scissors-game/)
 - [Joe's Console Solution](https://github.com/JoeVinten/rock-paper-scissors)
 - [Wessel's Solution](https://github.com/WKosterman/rock-paper-scissors/)
 - [Eduardo's Solution](https://github.com/LaloCode/TOP-Rock-Paper-Scissors)
 - [MJae's Solution](https://github.com/MJae/MV-prj/tree/master/the_odin_project/rock-paper-scissors) - [View in Browser](https://mjae.github.io/MV-prj/the_odin_project/rock-paper-scissors/index.html)
+- ['Karthick's Solution](https://github.com/karthicbz/rps) - [View in Browser](https://karthicbz.github.io/rps/)
 </details>
