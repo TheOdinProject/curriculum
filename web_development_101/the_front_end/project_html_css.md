@@ -2367,6 +2367,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Temmarie's Solution (Easy)](https://github.com/Temmarie/google-homepage)
 * [Ryan's Solution (Easy)](https://noirviper.github.io/google-homepage/) - [View in Browser](https://noirviper.github.io/google-homepage/)
 * [Trevor's Solution (Easy)](https://toakes0421.github.io/google-homepage/)
+* [Ronald's Solution (Easy)](https://github.com/Glocker134/google-homepage/) - [View in Browser](https://glocker134.github.io/google-homepage/)
 </details>
 
 
