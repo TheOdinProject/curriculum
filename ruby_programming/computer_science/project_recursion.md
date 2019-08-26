@@ -198,6 +198,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee48's Solution](https://github.com/bendee48/recursion/blob/master/fibonnaci.rb)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-recursion/blob/master/fib.rb)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/project-recursion/blob/master/fibonacci.rb)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/recursion/blob/master/fibs.rb)
+
 
 </details>
 
@@ -407,6 +409,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Bendee48's Solution](https://github.com/bendee48/recursion/blob/master/merge_sort.rb)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-recursion/blob/master/merge.rb)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/project-recursion/blob/master/merge_sort.rb)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/recursion/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources
