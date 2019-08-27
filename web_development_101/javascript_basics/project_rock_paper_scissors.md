@@ -756,5 +756,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Harshit Goyal's Solution](https://github.com/hg333/rock_paper_scissors_) - [View in Browser](https://hg333.github.io/rock_paper_scissors_/)
 - [Rakesh M R's Solution with UI](https://github.com/rakesh-m-r/RockPaperScissor) -[View in Browser](https://rakesh-m-r.github.io/RockPaperScissor/)
 - [Patrick Neill's Solution](https://github.com/patsProject/rock-paper-scissors.git)
-- [vlad Solution](https://github.com/vladserikov/rock_paper_scissors)
+- [Vlad Solution](https://github.com/vladserikov/rock_paper_scissors) - [View in Browser](https://vladserikov.github.io/rock_paper_scissors/)
 </details>
