@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jitendra Rathore's solution](https://github.com/jitendrrathore/html-form) - [View in browser](https://jitendrrathore.github.io/html-form/)
 * [Sampajanno's solution](https://github.com/Sampajanno/building-forms) - [View in browser](https://sampajanno.github.io/building-forms/)
 * [Carmine's solution](https://github.com/cgrossi/odin-project-form) - [View in browser](https://cgrossi.github.io/odin-project-form/)
 * [Ben Poore's solution](https://github.com/bpoore0614/intuit-copy) - [View in browser](https://bpoore0614.github.io/intuit-copy/index.html)
@@ -128,6 +129,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [vanny96's solution](https://github.com/vanny96/form-project/blob/master/README.md) - [View in browser](https://vanny96.github.io/form-project/)
 * [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/ViriCruz/building-forms) - [View in Browser](https://viricruz.github.io/building-forms/)
 * [Alex Gioffre's solution](https://github.com/AlexGioffre/form_html) - [View in Browser](https://alexgioffre.github.io/form_html/index.html)
+* [Dolunaykiz's solution](https://github.com/dolunaykiz/mint-mockup) - [View in Browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/mint-mockup/blob/master/index.html)
 </details>
 
 ### Additional Resources

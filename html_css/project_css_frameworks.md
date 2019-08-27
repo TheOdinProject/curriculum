@@ -56,8 +56,9 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [husein ghafari's solution](https://github.com/hosghf/css-grid-framework) - [Example Site](https://htmlpreview.github.io/?https://github.com/hosghf/final-prj/blob/master/index.html)
 * [Francisco Carlos's - Scaffold Framework](https://github.com/fcarlosdev/grid-framework) - [Example Site](https://github.com/fcarlosdev/thoughco) - [View in browser](https://fcarlosdev.github.io/thoughco/)
 * [aznafro's CSS Framework - Flik](https://github.com/aznafro/flik) - [Final Project Git Page](https://github.com/aznafro/natgeo) - [View site in browser](https://aznafro.github.io/natgeo/)
+* [Oluwadamilare Olusakin's CSS Framework - Sphinx](https://github.com/Oluwadamilareolusakin/sphinx)
 * [Carlos Del Real's and Gabriela Cruz's Solutions](https://github.com/carloshdelreal/caby_cssframework) - [Example Site](https://carloshdelreal.github.io/caby_cssframework/)
-
+* [Ohlie's Solutions](https://github.com/lco1220/grid_based_framework) - [Example Site](https://lco1220.github.io/grid_based_framework/)
 </details>
 
 ### Additional Resources
