@@ -365,4 +365,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [lindnermarci's solution](https://github.com/lindnermarci/Calculator) - [View in Browser](https://lindnermarci.github.io/Calculator/)
 - [machineshot's solution](https://github.com/MachineShot/calculator) - [View in Browser](https://machineshot.github.io/calculator/)
 - [Eduardo06sp's solution](https://github.com/Eduardo06sp/calculator) - [View in Browser](https://eduardo06sp.github.io/calculator/)
+- [Husseinhewehii's solution](https://github.com/Husseinhewehii/Calculator) - [View in Browser](https://husseinhewehii.github.io/Calculator/)
 </details>
