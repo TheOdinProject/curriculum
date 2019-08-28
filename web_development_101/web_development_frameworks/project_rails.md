@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Uzay-G's Solution](https://github.com/Uzay-G/blogger) - [View in Browser](https://etherealuni.herokuapp.com/articles)
 * [Luky's Solution](https://github.com/lcyne/blogger) - [View in browser](https://mighty-reaches-78310.herokuapp.com/)
 * [Ian's Solution](https://github.com/IanMKesler/rails-blog) - [View in browser](https://fathomless-depths-49999.herokuapp.com)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/jumpstart-lab-blogger-tutorial) - [View in browser](https://secret-forest-19270.herokuapp.com/)
