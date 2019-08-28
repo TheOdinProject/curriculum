@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rtheory's solution](https://github.com/rtheory/RPS)
 - [sl16's solution](https://github.com/sl16/rockPaperScissorsJS)
 - [bartjo666's solution](https://github.com/bartjo666/rps_top)
 - [p0rt3rd's solution](https://github.com/p0rt3rd/rock-paper-scissors)
