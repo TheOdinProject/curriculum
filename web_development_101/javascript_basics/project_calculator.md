@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Christian Bonilla's solution](https://github.com/Cabonilla/modularCalc) - [View in Browser](https://cabonilla.github.io/modularCalc/)
 - [Nikola Jovanovic's solution](https://github.com/nikola1912/calculator) - [View in Browser](https://nikola1912.github.io/calculator/)
 - [Igorashs's solution](https://github.com/igorashs/calculator) - [View in Browser](https://igorashs.github.io/calculator/)
 - [Michael Horn's solution](https://github.com/HornMichaelS/web-calculator) - [View in Browser](https://hornmichaels.github.io/web-calculator/)
