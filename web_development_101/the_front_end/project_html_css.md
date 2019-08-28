@@ -2372,6 +2372,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ronald's Solution (Easy)](https://github.com/Glocker134/google-homepage/) - [View in Browser](https://glocker134.github.io/google-homepage/)
 * [Levan Mebonia's Solution (Easy)](https://github.com/levo96/google_homepage/) - [View in Browser](https://levo96.github.io/google_homepage/)
 * [Levan Mebonia's Solution (Difficult)](https://github.com/levo96/google_search_results_page/) - [View in Browser](https://levo96.github.io/google_search_results_page/)
+* [Ben Henson's Solution (Easy)](https://github.com/hippocodes/google-homepage) - [View in Browser](https://hippocodes.github.io/google-homepage/)
 </details>
 
 
