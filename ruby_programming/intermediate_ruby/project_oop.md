@@ -510,7 +510,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Encolpius's Solution](https://github.com/Encolpius/OOP-Projects/tree/master/mastermind)
 * [bchalman's Solution](https://github.com/bchalman/Mastermind) - [Live Version](https://repl.it/@bchalman/Mastermind)
 * [themetar's solution](https://repl.it/@themetar/MinimalMastermind)
-* [Emil Dimitrov's solution(with AI)](https://github.com/imemdm/mastermind) - [Play on repl.it](https://repl.it/@imemdm/ChartreuseWittyEllipses)
+* [Emil Dimitrov's solution(with AI)](https://github.com/imemdm/mastermind) - [Play on repl.it](https://repl.it/@imemdm/mastermind)
 * [Brendaneus' Solution (with AI)](https://github.com/Brendaneus/the_odin_project/blob/master/ruby_programming/mastermind.rb) - [Play on Repl.it](https://repl.it/@Brendaneus/WebbedAccomplishedDrawing)
 * [Slaven Karamatic's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/mastermind/script.rb)
 * [Leila Alderman's solution (no AI)](https://github.com/leila-alderman/mastermind/blob/master/mastermind.rb)

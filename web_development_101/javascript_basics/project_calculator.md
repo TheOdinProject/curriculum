@@ -45,8 +45,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rTheory's Solution](https://github.com/rtheory/calculator) - [View in Browser](https://rtheory.github.io/calculator/)
+- [Christian Bonilla's solution](https://github.com/Cabonilla/modularCalc) - [View in Browser](https://cabonilla.github.io/modularCalc/)
+- [Nikola Jovanovic's solution](https://github.com/nikola1912/calculator) - [View in Browser](https://nikola1912.github.io/calculator/)
+- [Igorashs's solution](https://github.com/igorashs/calculator) - [View in Browser](https://igorashs.github.io/calculator/)
+- [Michael Horn's solution](https://github.com/HornMichaelS/web-calculator) - [View in Browser](https://hornmichaels.github.io/web-calculator/)
+- [JB's solution](https://github.com/ugSh7hbY/calculator) - [View in Browser](https://ugsh7hby.github.io/calculator/)
 - [Uzay-G's solution](https://github.com/Uzay-G/calculator) - [View in Browser](https://uzay-g.github.io/calculator/)
-- [JB's solution](https://github.com/ugSh7hbY/calculator) 
 - [Ian's Solution](https://github.com/IanMKesler/Calculator) - [View in Browser](https://ianmkesler.github.io/Calculator/)
 - [Andrija Jelenkovic's Solution](https://github.com/Amdrija/calculator) - [View in Browser](https://amdrija.github.io/calculator/)
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/Calculator) - [View in Browser](https://tripple-a.github.io/Calculator/)
@@ -359,5 +364,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [martink-rsa's solution](https://github.com/martink-rsa/calculator/) - [View in Browser](https://martink-rsa.github.io/calculator/calculator.html)
 - [Javier Arias's solution](https://github.com/jfariasf/TOP-calculator) - [View in Browser](https://jfariasf.github.io/TOP-calculator/index.html)
 - [Ryan Holderfield's solution](https://github.com/rholderfield/calc) - [View in Browser](https://rholderfield.github.io/calc/)
+- [lindnermarci's solution](https://github.com/lindnermarci/Calculator) - [View in Browser](https://lindnermarci.github.io/Calculator/)
+- [machineshot's solution](https://github.com/MachineShot/calculator) - [View in Browser](https://machineshot.github.io/calculator/)
+- [Eduardo06sp's solution](https://github.com/Eduardo06sp/calculator) - [View in Browser](https://eduardo06sp.github.io/calculator/)
+- [Husseinhewehii's solution](https://github.com/Husseinhewehii/Calculator) - [View in Browser](https://husseinhewehii.github.io/Calculator/)
 - [Dave Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/calculator) - [View in browser](https://davidwatkincode.github.io/the_odin_project/javascript/calculator)
 </details>
