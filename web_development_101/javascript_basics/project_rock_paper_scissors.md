@@ -820,7 +820,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mueed Ur Rehman's Solution](https://github.com/mueedurrehman/rock-paper-scissors)
 - [Dikshant Agarwal Solution](https://github.com/DikshantAgarwal/RockPaperScissor) - [View in Browser](https://dikshantagarwal.github.io/RockPaperScissor/)
 - [Luis Puente's Solution](https://github.com/mkezmkez/rps)
-- [Javier Arias's Solution](https://github.com/jfariasf08/TOP-rockpaperscissor)
+- [Javier Arias's Solution](https://github.com/jfariasf/TOP-rockpaperscissor) - [View in Browser](https://jfariasf.github.io/TOP-rockpaperscissor/)
 - [LauPss's Solution](https://github.com/LauPss/Rock-Paper-Scissor)
 - [Pavel Konovalov's Solution](https://github.com/imbapokah/theOdinProject_rps)
 - [jcai8649' Solution](https://jcai8649.github.io/Rock-Paper-Scissors/)
