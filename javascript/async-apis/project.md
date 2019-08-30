@@ -19,6 +19,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [John Paul's solution](https://github.com/Omulosi/weather-app) - [View in Browser](https://omulosi.github.io/weather-app/)
 * [Henry M. Kirya's solution](https://github.com/harrika/oikendi) - [View in Browser](https://sveather.herokuapp.com/index.html)
 * [Eljoey's Solution](https://github.com/eljoey/weather-2) - [View in Browser](https://eljoey.github.io/weather-2/)
 * [ARaut9's solution](https://github.com/ARaut9/weather_app) - [View in browser](https://araut9.github.io/weather_app/)
