@@ -2327,7 +2327,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrija Jelenkovic's Solution (Easy)](https://github.com/Amdrija/google-homepage) -[View in Browser](https://amdrija.github.io/google-homepage)
 * [Tom Strat's Solution (Easy)](https://github.com/tomstrat/google-homepage) - [View in Browser](https://tomstrat.github.io/google-homepage)
 * [a baby duck's Solution (Easy + Difficult)](https://ababyduck.github.io/odin_google-homepage/) - [View in Browser](https://ababyduck.github.io/odin_google-homepage/)
-* [Dave Watkin's Solution (Easy)](https://davidwatkincode.github.io/google-homepage/) - [View in Browser](https://davidwatkincode.github.io/google-homepage/)
+* [Dave Watkin's Solution (Easy)](https://github.com/DavidWatkinCode/the_odin_project/tree/master/html_css/google_homepage) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/html_css/google_homepage/)
 * [James Miller's Solution (Easy)](https://github.com/JamesRexMiller4/google-homepage) - [View in Browser](https://github.com/JamesRexMiller4/google-homepage)
 * [Casey Jett's Solution (Easy)](https://github.com/crjett01/google_homepage) - [View in Browswer](https://crjett01.github.io/google_homepage/)
 * [GL's Solution (Easy)](https://github.com/GaiaLancer/google-homepage) - [View in Browser](https://gaialancer.github.io/google-homepage)
@@ -2375,6 +2375,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ben Henson's Solution (Easy)](https://github.com/hippocodes/google-homepage) - [View in Browser](https://hippocodes.github.io/google-homepage/)
 * [Javier Arias's Solution (Easy)](https://github.com/jfariasf/TOP-google-homepage) - [View in Browser](https://jfariasf.github.io/TOP-google-homepage/)
 * [jpr2000's Solution (Easy)](https://github.com/jpr2000/google-homepage) - [View in Browser](https://jpr2000.github.io/google-homepage/)
+* [Jabberwoockey's Solution (Easy)](https://github.com/jabberwoockey/google-homepage) - [View in Browser](https://jabberwoockey.github.io/google-homepage/)
 </details>
 
 
