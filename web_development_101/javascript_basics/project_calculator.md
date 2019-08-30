@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Hussien hossam's Solution](https://github.com/Hussein-Hossam-Idris/Calculator)
 - [rTheory's Solution](https://github.com/rtheory/calculator) - [View in Browser](https://rtheory.github.io/calculator/)
 - [Christian Bonilla's solution](https://github.com/Cabonilla/modularCalc) - [View in Browser](https://cabonilla.github.io/modularCalc/)
 - [Nikola Jovanovic's solution](https://github.com/nikola1912/calculator) - [View in Browser](https://nikola1912.github.io/calculator/)
