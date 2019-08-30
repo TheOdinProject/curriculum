@@ -2374,6 +2374,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Levan Mebonia's Solution (Difficult)](https://github.com/levo96/google_search_results_page/) - [View in Browser](https://levo96.github.io/google_search_results_page/)
 * [Ben Henson's Solution (Easy)](https://github.com/hippocodes/google-homepage) - [View in Browser](https://hippocodes.github.io/google-homepage/)
 * [Javier Arias's Solution (Easy)](https://github.com/jfariasf/TOP-google-homepage) - [View in Browser](https://jfariasf.github.io/TOP-google-homepage/)
+* [Jabberwoockey's Solution (Easy)](https://github.com/jabberwoockey/google-homepage) - [View in Browser](https://jabberwoockey.github.io/google-homepage/)
 
 </details>
 
