@@ -423,6 +423,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [proto-dylan's Solution](https://github.com/proto-dylan/enumerables/blob/master/enumerables.rb)
 * [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/my_enumerable.rb)
 * [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/my_enumerables.rb)
 * [mistervoga's Solution](https://github.com/mistervoga/advanced_building_blocks/blob/master/script_enumerable.rb)
