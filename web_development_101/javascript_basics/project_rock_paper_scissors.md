@@ -107,6 +107,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cchel's Solution](https://cchel.github.io/rock_paper_scissors/)
 - [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors) - [View in Browser](https://krummb.github.io/RockPaperScissors/)
 - [Eric's Solution](https://github.com/RollingPeanuts/rock-paper-scissors)
+- [Eric's Solution](https://github.com/RollingPeanuts/rock-paper-scissors-js) - [View in Browser](https://rollingpeanuts.github.io/rock-paper-scissors-js/)
 - [Nico's Solution](https://github.com/niconacht/rock-paper-scissors)
 - [Evan's Solution](https://github.com/satisfiedPunk/rockpaperscissors)
 - [Evan's Solution](https://github.com/evan-kapantais/rock-paper-scissors) - [View in Browser](https://evan-kapantais.github.io/rock-paper-scissors/)
