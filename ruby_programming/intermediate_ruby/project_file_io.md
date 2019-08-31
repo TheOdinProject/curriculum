@@ -231,7 +231,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Petrarch1603's solution](https://github.com/petrarch1603/Ruby-Hangman)
 * [Slaven's solution](https://github.com/Everdrought/intermediate-rb-projects/blob/master/hangman/hangman.rb)
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_programming/hangman) - [Play on Repl.it](https://repl.it/@Brendaneus/JuniorTroubledCodec)
-* [Emil Dimitrov's Solution](https://github.com/imemdm/hangman) - [Play on repl.it](https://repl.it/@imemdm/IllfatedButteryKernel)
+* [Emil Dimitrov's Solution](https://github.com/imemdm/hangman) - [Play on repl.it](https://repl.it/@imemdm/hangman)
 * [Leila Alderman's solution](https://github.com/leila-alderman/hangman)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/ruby-practice/tree/master/hangman) - [Play on repl.it](https://repl.it/@vi7ali/Hangman-game)
 * [vanny96's solution](https://github.com/vanny96/hangman)
@@ -248,4 +248,6 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-oop/tree/master/hangman)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/hangman)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/hangman)
+* [Theonlycat's Solution](https://github.com/Theonlycatmc/ruby-hangman) - [Play on Repl.it](https://repl.it/@Theonlycatmc/ruby-hangman-w-savefile)
+
 </details>
