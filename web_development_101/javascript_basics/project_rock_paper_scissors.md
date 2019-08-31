@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Ryan's solution](https://github.com/noirviper/rock_paper_scissor)
+- [Johongirr's solution](https://github.com/Johongirr/rock-paper-scizzors/)
 - [UpstairsBobcat's solution](https://github.com/UpstairsBobcat/rock-paper-scissors)
 - [jacavena's solution](https://github.com/Jacavena/rockpaperscissorsJS)
 - [rtheory's solution](https://github.com/rtheory/RPS)
@@ -107,6 +108,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cchel's Solution](https://cchel.github.io/rock_paper_scissors/)
 - [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors) - [View in Browser](https://krummb.github.io/RockPaperScissors/)
 - [Eric's Solution](https://github.com/RollingPeanuts/rock-paper-scissors)
+- [Eric's Solution](https://github.com/RollingPeanuts/rock-paper-scissors-js) - [View in Browser](https://rollingpeanuts.github.io/rock-paper-scissors-js/)
 - [Nico's Solution](https://github.com/niconacht/rock-paper-scissors)
 - [Evan's Solution](https://github.com/satisfiedPunk/rockpaperscissors)
 - [Evan's Solution](https://github.com/evan-kapantais/rock-paper-scissors) - [View in Browser](https://evan-kapantais.github.io/rock-paper-scissors/)
