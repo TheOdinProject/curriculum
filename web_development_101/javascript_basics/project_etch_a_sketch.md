@@ -509,5 +509,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Robert Suazo's solution](https://github.com/rsuazo/ETCH-A-SKETCH) - [View in Browser](https://rsuazo.github.io/ETCH-A-SKETCH/)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/sketch) - [View in Browser](https://husseinhewehii.github.io/Sketch/)
 * [Aron's Solution](https://github.com/aronfischer/Etch_a_sketch) - [View in Browser](https://aronfischer.github.io/ETCH_A_SKETCH/)
-*[Dikshant Agarwal's Solution](https://github.com/DikshantAgarwal/Etch-a-sketch.git) - [View in Browser](https://dikshantagarwal.github.io/Etch-a-sketch/)
+* [Dikshant Agarwal's Solution](https://github.com/DikshantAgarwal/Etch-a-sketch.git) - [View in Browser](https://dikshantagarwal.github.io/Etch-a-sketch/)
 </details>
