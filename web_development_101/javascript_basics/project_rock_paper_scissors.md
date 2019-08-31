@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Ryan's solution](https://github.com/noirviper/rock_paper_scissor)
+- [Johongirr's solution](https://github.com/Johongirr/rock-paper-scizzors/)
 - [UpstairsBobcat's solution](https://github.com/UpstairsBobcat/rock-paper-scissors)
 - [jacavena's solution](https://github.com/Jacavena/rockpaperscissorsJS)
 - [rtheory's solution](https://github.com/rtheory/RPS)
