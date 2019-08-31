@@ -30,6 +30,10 @@ Look through these now and then use them to test yourself after doing the assign
 * What is a view?
 * What is a controller?
 * What is a model?
+* What is the Ruby Standard Library?
+* What does the Bundler do for Ruby Gems?
+* What is the Ruby load path?
+
 
 ### Assignment
 
@@ -39,6 +43,7 @@ Look through these now and then use them to test yourself after doing the assign
   2. The main [Odin Rails course](http://www.theodinproject.com/courses/ruby-on-rails) primarily uses Michael Hartl's fantastic "Ruby on Rails tutorial".  Get started coding right away by diving into [Chapter 1](https://www.railstutorial.org/book/beginning) of the book now! Hartl spends a fair amount of time getting everything setup correctly, and he suggests using a Cloud9 development environment. At this point, you should have already done the [installations](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav) that will allow you to work on your own machine.  You can skip section 1.2 and pick it up at 1.3.  The rest of the book is covered in a later section, so stick to chapter 1 for now.
   3. Get another quick explanation of Model/View/Controller in [this short Youtube video from Lynda.com](http://www.youtube.com/watch?v=3mQjtk2YDkM)
   4. Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time you do the Rails course later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.
+  5. Check out the [Using Libraries section](http://webapps-for-beginners.rubymonstas.org/libraries.html) from Ruby Monstas to learn about the Ruby Standard Library, Rubygems, Bundler, and the Ruby Load Path.
 
 </div>
 
