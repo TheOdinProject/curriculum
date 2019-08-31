@@ -120,7 +120,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * vanny96's Solution [GitHub](https://github.com/vanny96/sinatra_projects) - [Heroku](https://peaceful-fjord-85935.herokuapp.com/)
 * Vitaly Osipov's Solution [GitHub](https://github.com/vi7ali/caesar-sinatra) - [Heroku](https://immense-mountain-15356.herokuapp.com/)
 * Alex Krewson's Solution [GitHub](https://github.com/alexkrewson/sinatra_caesar_cipher) - [Heroku](https://pure-garden-70536.herokuapp.com/)
-
+* HSaad's Solution [GitHub](https://github.com/HSaad/caesar-cipher) - [Heroku](https://stormy-eyrie-38792.herokuapp.com/)
+* Robert Dunbar's Solution [GitHub](https://github.com/RobertDunbar/sinatra/tree/master/cipher) - [Heroku](https://sheltered-wave-74275.herokuapp.com/)
 </details>
 
 ### Project 2: Another Web-Game
@@ -143,6 +144,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Sherman's Solution [Github](https://github.com/shermansjliu/sinatra) - [Live](https://radiant-beach-22046.herokuapp.com)
 * Kevin Vuong's Solution [Github](https://github.com/fffear/sinatra_hangman) - [Live](https://immense-basin-91290.herokuapp.com/)
 * Braxton Lemmon's Solution [GitHub](https://github.com/braxtonlemmon/mastermind-sinatra) - [Live](https://mighty-island-47536.herokuapp.com/)
 * Learnsometing's Solution [GitHub](https://github.com/learnsometing/Sinatra-Hangman)
