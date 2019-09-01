@@ -571,6 +571,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/learn_ruby)
 * [Martink-rsa's solution](https://github.com/martink-rsa/learn_ruby)
 * [Walter Melo's solution](https://github.com/walmello24/learn_ruby)
+* [Padraig O'Rúis' solution](https://github.com/anarchomushroom/learn_ruby)
 </details>
 
 ### Additional Resources
