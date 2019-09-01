@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Uzay-G's solution](https://github.com/Uzay-G/command_line_games) - [Live repl](https://repl.it/@UzayGirit/commandlinegames)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-tic-tac-toe)
 * [Sherman's Solution](https://github.com/shermansjliu/tic-tac-toe/blob/master/main.rb)
