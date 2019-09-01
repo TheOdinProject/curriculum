@@ -40,6 +40,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Didisha's solution](https://github.com/didishas/RockPaperScissors) - [View in Browser](https://didishas.github.io/RockPaperScissors/)
+- [James Miller's solution](https://github.com/JamesRexMiller4/rckpprscrs) - [View in Browser](https://jamesrexmiller4.github.io/rckpprscrs/)
 - [Ryan's solution](https://github.com/noirviper/rock_paper_scissor)
 - [Johongirr's solution](https://github.com/Johongirr/rock-paper-scizzors/)
 - [UpstairsBobcat's solution](https://github.com/UpstairsBobcat/rock-paper-scissors)
@@ -848,4 +850,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MJae's Solution](https://github.com/MJae/MV-prj/tree/master/the_odin_project/rock-paper-scissors) - [View in Browser](https://mjae.github.io/MV-prj/the_odin_project/rock-paper-scissors/index.html)
 - [Karthick's Solution](https://github.com/karthicbz/rps) - [View in Browser](https://karthicbz.github.io/rps/)
 - [Zecheeseking's solution](https://github.com/zecheeseking/rock_paper_scissors) - [View in Browser](https://zecheeseking.github.io/rock_paper_scissors/)
+- [jpr2000's Solution](https://github.com/jpr2000/rock-paper-scissors) - [View in Browser](https://jpr2000.github.io/rock-paper-scissors/)
 </details>

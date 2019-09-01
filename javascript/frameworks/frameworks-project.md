@@ -37,5 +37,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Taylor J's React TodoList solution](https://github.com/taylorjohannsen/react-todo) - [View in browser](https://taylorjohannsen.github.io/react-todo/)
 * [Halkim44's React Library App solution](https://github.com/halkim44/react-my-library/tree/master) - [View in browser](https://halkim44.github.io/react-my-library/)
 * [Tronerta's Vue Todo-List solution](https://github.com/Tronerta/vue-todolist) - [View in browser](https://morning-meadow-39929.herokuapp.com)
+* [Yash's React Todo-List solution](https://github.com/yashboura303/todoReact)
 
 </details>
