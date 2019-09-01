@@ -849,4 +849,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MJae's Solution](https://github.com/MJae/MV-prj/tree/master/the_odin_project/rock-paper-scissors) - [View in Browser](https://mjae.github.io/MV-prj/the_odin_project/rock-paper-scissors/index.html)
 - [Karthick's Solution](https://github.com/karthicbz/rps) - [View in Browser](https://karthicbz.github.io/rps/)
 - [Zecheeseking's solution](https://github.com/zecheeseking/rock_paper_scissors) - [View in Browser](https://zecheeseking.github.io/rock_paper_scissors/)
+- [jpr2000's Solution](https://github.com/jpr2000/rock-paper-scissors) - [View in Browser](https://jpr2000.github.io/rock-paper-scissors/)
 </details>
