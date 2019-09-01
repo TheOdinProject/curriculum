@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Didisha's Solution (Easy)](https://github.com/didishas/google-homepage) - [View in Browser](https://didishas.github.io/google-homepage/)
 * [Zayeer's Solution (Difficult)](https://github.com/Zayeer/google-search-page) - [View in Browser](https://zayeer.github.io/google-search-page/)
 * [lesgarslaxistes's solution(Difficult)](https://github.com/lesgarslaxistes/google-homepage) - [View in Browser](https://lesgarslaxistes.github.io/google-homepage/)
 * [BigVisTBE's Solution (Easy)](https://github.com/BigVisTBE/google-homepage) - [View in Browser](https://bigvistbe.github.io/google-homepage/)
