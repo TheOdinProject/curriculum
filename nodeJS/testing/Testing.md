@@ -47,6 +47,7 @@ To facilitate actually testing these routes we're going to use a library called 
 In the examples below we're going to use Supertest inside of a Jest style describe/test block, but the syntax and use of these are common among most testing libraries, so the concepts should be easily replicated in Mocha with Chai or Jasmine or Tape or whatever testing library you prefer.
 
 Here's our test file:
+
 ~~~javascript
 const index = require("../index");
 
@@ -81,11 +82,13 @@ test("testing route works", done => {
 Let's step through it piece by piece.
 
 To begin with we have to import the module we're testing, in this case it's the file `index.js` from above.
+
 ~~~javascript
 const index = require("../index");
 ~~~
 
 Next, we include both `supertest` and `express`.  We're setting up a new express app and then using the index router that we imported previously. The reason we have to do this setup here is because we are not actually touching our original `app.js` file. The main reason at this point that we're doing it this way is so that we can avoid calling the app.listen command and starting our server, but it's also useful because in larger apps we can skip some of the optional configuration steps and only include the bits that we need for our testing purposes.  In a larger test suite it would probably be useful to abstract this part out to it's own file that gets imported into each test file.
+
 ~~~javascript
 const request = require("supertest");
 const express = require("express");
@@ -98,6 +101,7 @@ app.use("/", index);
 The tests themselves are actually relatively simple thanks to the Supertest library! Remember that we imported supertest as the function `request` which we use as seen below. We call it on our freshly created express app, pass it our route and then use it to make sure that the responses match the types and content that we expect. 
 
 Notice the parameter `done` that is passed into the test callback.  Most testing libraries use this to signal that the test is complete in the case of asynchronous operations... in this case supertest allows us to pass it into the last `.expect` and calls it for us.  Thanks supertest!
+
 ~~~javascript
 test("index route works", done => {
   request(app)
