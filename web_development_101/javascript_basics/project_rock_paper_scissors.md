@@ -851,4 +851,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Karthick's Solution](https://github.com/karthicbz/rps) - [View in Browser](https://karthicbz.github.io/rps/)
 - [Zecheeseking's solution](https://github.com/zecheeseking/rock_paper_scissors) - [View in Browser](https://zecheeseking.github.io/rock_paper_scissors/)
 - [jpr2000's Solution](https://github.com/jpr2000/rock-paper-scissors) - [View in Browser](https://jpr2000.github.io/rock-paper-scissors/)
+- [Cacurriapower's Solution](https://github.com/Cacurriapower/Rockpaperscissors) - [View in Browser](https://Cacurriapower.github.io/Rockpaperscissors/)
 </details>
