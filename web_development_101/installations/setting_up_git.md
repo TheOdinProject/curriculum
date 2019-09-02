@@ -80,7 +80,7 @@ git config --get user.email
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
 
-#### step 2.3: Create an SSH Key
+#### Step 2.3: Create an SSH Key
 
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
@@ -92,7 +92,9 @@ ls ~/.ssh/id_rsa.pub
 
 If the message in the console contains `No such file or directory`, then you don't have an SSH key, and you'll need to create one. If you do not see `No such file or directory` in the output, you already have a key; proceed to step 2.4.
 
-To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by our email address ensures that GitHub knows who we are.
+To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are. 
+
+**Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `odin@valhalla.com`, then you would type `ssh-keygen -C odin@valhalla.com`. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project's curriculum and other coding websites, so it's good to be familiar with what it means.
 
 ~~~bash
 ssh-keygen -C <youremail>

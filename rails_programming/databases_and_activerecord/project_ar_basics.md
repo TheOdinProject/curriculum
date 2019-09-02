@@ -122,6 +122,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/micro-reddit)
+* [Onur Temiz's Solution](https://github.com/temizonur/micro-reddit)
 * [Kevin Vuong's Solution](https://github.com/fffear/micro_reddit)
 * [Learnsometing's Solution](https://github.com/learnsometing/Rails-Micro_Reddit)
 * [Chris Wegscheid's Solution](https://github.com/cwegscheid08/micro_reddit)
@@ -129,6 +131,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Simon Tharby's solution](https://github.com/jinjagit/micro-reddit)
 * [Stefano Merazzi's solution](https://github.com/ste001/micro-reddit)
 * [Jason McKee's solution](https://github.com/jttmckee/micro-reddit)
+* [Dennis Cope's Solution](https://github.com/coped/micro-reddit)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/micro-reddit)
 * [goodjobbin85's solution](https://github.com/goodjobbin85/micro-reddit)
 * [prw001's Solution](https://github.com/prw001/micro_reddit)
