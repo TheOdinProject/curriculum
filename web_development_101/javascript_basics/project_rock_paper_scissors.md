@@ -70,7 +70,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Uzay-G's solution](https://github.com/Uzay-G/rock-paper-scissors) - [View in Browser](https://uzay-g.github.io/rock-paper-scissors/)
 - [Luke Pritchett's solution](https://github.com/LukePritchett/PaperScissorsRock)
 - [Igorashs's solution](https://github.com/igorashs/rock-paper-scissors)
-- [Durran's solution](https://github.com/durran-wallace/Rock_Paper_Scissors) - [View in Browser](https://durran-wallace.github.io/Rock_Paper_Scissors/)
+- [Durran's solution](https://github.com/durran-wallace/Rock_Paper_Scissors) - [View in Browser](https://durran-wallace.github.io/Rock_Paper_Scissors/)https://github.com/Cacurriapower/Rockpaperscissors
 - [HangCcZ](https://github.com/HangCcZ/Rock_Paper_Scissors) - [View in Browser](https://hangccz.github.io/Rock_Paper_Scissors/)
 - [Mary Cheung's solution](https://github.com/marybcheung/rock-paper-scissors) - [View in Browser](https://marybcheung.github.io/rock-paper-scissors/)
 - [Mooniebanoonie](https://github.com/Mooniebanoonie/rock-paper-scissors) - [View in Browser](https://mooniebanoonie.github.io/rock-paper-scissors/)
@@ -851,5 +851,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Karthick's Solution](https://github.com/karthicbz/rps) - [View in Browser](https://karthicbz.github.io/rps/)
 - [Zecheeseking's solution](https://github.com/zecheeseking/rock_paper_scissors) - [View in Browser](https://zecheeseking.github.io/rock_paper_scissors/)
 - [jpr2000's Solution](https://github.com/jpr2000/rock-paper-scissors) - [View in Browser](https://jpr2000.github.io/rock-paper-scissors/)
-- [Cacurriapower's Solution](https://github.com/Cacurriapower/Rockpaperscissors) - [View in Browser](https://Cacurriapower.github.io/Rockpaperscissors/)
+- [Cacurriapower's Solution](https://github.com/Cacurriapower/Rockpaperscissors)
 </details>
