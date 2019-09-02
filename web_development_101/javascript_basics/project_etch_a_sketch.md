@@ -43,7 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-[Vedant's Solution](https://github.com/vedantshetty/etch-a-sketch) - [View in Browser](https://vedantshetty.github.io/etch-a-sketch/)
+* [Vedant's Solution](https://github.com/vedantshetty/etch-a-sketch) - [View in Browser](https://vedantshetty.github.io/etch-a-sketch/)
 * [Eric's Solution](https://github.com/RollingPeanuts/etch-a-sketch) - [View in Browser](https://rollingpeanuts.github.io/etch-a-sketch/)
 * [rTheory's Solution](https://github.com/rtheory/Etch-a-Sketch) - [View in Browser](https://rtheory.github.io/Etch-a-Sketch/)
 * [Jacavena's Solution](https://github.com/Jacavena/etch-a-sketch)
@@ -509,6 +509,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [David Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/etch_a_sketch) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/etch_a_sketch)
 * [Robert Suazo's solution](https://github.com/rsuazo/ETCH-A-SKETCH) - [View in Browser](https://rsuazo.github.io/ETCH-A-SKETCH/)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/sketch) - [View in Browser](https://husseinhewehii.github.io/Sketch/)
+* [Vlad Serikov's Solution](https://vladserikov.github.io/each-a-sletch/)
 * [Aron's Solution](https://github.com/aronfischer/Etch_a_sketch) - [View in Browser](https://aronfischer.github.io/ETCH_A_SKETCH/)
 * [Dikshant Agarwal's Solution](https://github.com/DikshantAgarwal/Etch-a-sketch.git) - [View in Browser](https://dikshantagarwal.github.io/Etch-a-sketch/)
 * [Tomstrat's Solution](https://github.com/tomstrat/Etch-a-sketch) - [View in Browser](https://tomstrat.github.io/Etch-a-sketch/)
