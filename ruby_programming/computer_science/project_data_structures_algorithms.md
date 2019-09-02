@@ -168,6 +168,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees)
 * [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/binary_tree.rb)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
 
 </details>
 
