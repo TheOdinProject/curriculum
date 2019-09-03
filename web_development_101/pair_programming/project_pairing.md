@@ -143,6 +143,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Ousmane Sylla's Solution](https://github.com/kitague/Pomodoro-clock/) - [View in Browser](https://kitague.github.io/Pomodoro-clock/)
 * [Gene Mecija's Solution](https://github.com/genemecija/PomodoroClock/) - [View in Browser](https://genemecija.github.io/PomodoroClock/)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/pomodoro/) - [View in Browser](https://rrg1459.github.io/pomodoro/)
+* [Husseinhewehii's Solution](https://github.com/Husseinhewehii/Pomodoro) - [View in Browser](https://husseinhewehii.github.io/Pomodoro/)
 </details>
 
 ### Next Steps
