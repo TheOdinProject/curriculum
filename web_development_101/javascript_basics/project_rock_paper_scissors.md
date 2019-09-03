@@ -40,11 +40,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Alexander Effanga's solution](https://github.com/AstringentBeet/rock-paper-scissors-console) - [View in Browser](https://astringentbeet.github.io/rock-paper-scissors-console/)
 - [Ann Nguyen's Solution](https://github.com/anncancode/top-rock-paper-scissors) - [View in Browser](https://anncancode.github.io/top-rock-paper-scissors/)
 - [Eljoey's Solution](https://github.com/eljoey/RockPaperScissors) 
-=======
 - [Didisha's solution](https://github.com/didishas/RockPaperScissors) - [View in Browser](https://didishas.github.io/RockPaperScissors/)
 - [James Miller's solution](https://github.com/JamesRexMiller4/rckpprscrs) - [View in Browser](https://jamesrexmiller4.github.io/rckpprscrs/)
 - [Ryan's solution](https://github.com/noirviper/rock_paper_scissor)
@@ -112,7 +110,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrécio's solution](https://github.com/andreciobezerra/jokenpo) - [View in Browser](https://andreciobezerra.github.io/jokenpo/)
 - [Ann Nguyen's Solution](https://github.com/ann-codes/top-rock-paper-scissors) - [View in Browser](https://ann-codes.github.io/top-rock-paper-scissors/)
 - [Eljoey's Solution](https://github.com/eljoey/RockPaperScissors)
->>>>>>> ad0776e10938cfa1ede27d44c18040525f69fc29
 - [Cchel's Solution](https://cchel.github.io/rock_paper_scissors/)
 - [Mark Hanna's Solution](https://github.com/krummb/RockPaperScissors) - [View in Browser](https://krummb.github.io/RockPaperScissors/)
 - [Eric's Solution](https://github.com/RollingPeanuts/rock-paper-scissors)
