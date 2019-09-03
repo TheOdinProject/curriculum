@@ -41,8 +41,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Alexander Effanga's solution](https://github.com/AstringentBeet/rock-paper-scissors-console) - [View in Browser](https://astringentbeet.github.io/rock-paper-scissors-console/)
-- [Ann Nguyen's Solution](https://github.com/anncancode/top-rock-paper-scissors) - [View in Browser](https://anncancode.github.io/top-rock-paper-scissors/)
-- [Eljoey's Solution](https://github.com/eljoey/RockPaperScissors) 
 - [Didisha's solution](https://github.com/didishas/RockPaperScissors) - [View in Browser](https://didishas.github.io/RockPaperScissors/)
 - [James Miller's solution](https://github.com/JamesRexMiller4/rckpprscrs) - [View in Browser](https://jamesrexmiller4.github.io/rckpprscrs/)
 - [Ryan's solution](https://github.com/noirviper/rock_paper_scissor)
