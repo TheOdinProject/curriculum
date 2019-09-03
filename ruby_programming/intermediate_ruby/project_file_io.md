@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Uzay-G's Solution](https://github.com/Uzay-G/command_line_games/tree/master/hangman)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_exercises/tree/master/Hangman)
 * [Chris' Solution](https://github.com/CSalois114/project_hangman/blob/master/lib/hangman.rb)
 * [Gabriel's Solution](https://github.com/gabytzubaws/Hangman-ruby)
