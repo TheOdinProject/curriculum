@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Alexander Effanga's solution](https://github.com/AstringentBeet/rock-paper-scissors-console) - [View in Browser](https://astringentbeet.github.io/rock-paper-scissors-console/)
 - [Didisha's solution](https://github.com/didishas/RockPaperScissors) - [View in Browser](https://didishas.github.io/RockPaperScissors/)
 - [James Miller's solution](https://github.com/JamesRexMiller4/rckpprscrs) - [View in Browser](https://jamesrexmiller4.github.io/rckpprscrs/)
 - [Ryan's solution](https://github.com/noirviper/rock_paper_scissor)
@@ -833,7 +834,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Samuel Salles's Solution](https://github.com/samuelrs25/rock-paper-scissors)
 - [Andrija Jelenkovic's Solution](https://github.com/Amdrija/rock-paper-scissors)
 - [David Watkins's Solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/rock_paper_scissors_gui) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/rock_paper_scissors_gui/)
-- [Jamie Rookyard's Solution](https://github.com/rooky-j/rock_paper_scissors)
+- [Jamie Rookyard's Solution](https://github.com/rooky-j/rock_paper_scissors) - [View in Browser](https://rooky-j.github.io/rock_paper_scissors_browser/)
 - [lindnermarci's Solution with UI](https://github.com/lindnermarci/rockpaperscissors-odin-project) - [View in Browser](https://lindnermarci.github.io/rockpaperscissors-odin-project/)
 - [Jonikiro's Solution](https://github.com/Jonikiro/rock_paper_scissors_odin)
 - [Randolph Cisneros' Solution](https://randolphcisneros.github.io/rock-paper-scissors/)
@@ -851,4 +852,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Karthick's Solution](https://github.com/karthicbz/rps) - [View in Browser](https://karthicbz.github.io/rps/)
 - [Zecheeseking's solution](https://github.com/zecheeseking/rock_paper_scissors) - [View in Browser](https://zecheeseking.github.io/rock_paper_scissors/)
 - [jpr2000's Solution](https://github.com/jpr2000/rock-paper-scissors) - [View in Browser](https://jpr2000.github.io/rock-paper-scissors/)
+- [Cacurriapower's Solution](https://github.com/Cacurriapower/Rockpaperscissors)
 </details>
