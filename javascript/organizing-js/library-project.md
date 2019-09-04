@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jacavena's Solution](https://github.com/Jacavena/library)
 - [Ohlie's Solution](https://github.com/lco1220/js_library) - [View in Browser](https://lco1220.github.io/js_library/)
 - [Saad Tarhi's Solution (w/Firebase)](https://github.com/tarhi-saad/Library) - [View in Browser](https://tarhi-saad.github.io/Library/)
 - [Kai's Solution](https://github.com/KaiVandivier/library) - [View in Browser](https://kaivandivier.github.io/library/)
