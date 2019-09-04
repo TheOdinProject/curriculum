@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Vedat's React solution](https://github.com/mvedataydin/react-todo) - [View in Browser](https://mvedataydin.github.io/react-todo/)
 * [Solodov's Vue solution](https://github.com/solodov-dev/todo-vue) - [View in Browser](https://solodov-dev.github.io/todo-vue/)
 * [Eljoey's React TodoList](https://github.com/eljoey/React-todo-2) - [View in Browser](https://eljoey.github.io/React-todo-2/)
 * [Henry Kirya's Svelte solution](https://github.com/harrika/library-svelte) - [View in Browser](https://harrika.github.io/library-svelte/)
