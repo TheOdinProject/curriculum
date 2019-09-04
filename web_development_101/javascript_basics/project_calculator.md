@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Nihir Agarwal's Solution](https://github.com/nihirag/calculator) - [View in Browser](https://nihirag.github.io/calculator)
 - [Jacavena's Solution](https://github.com/Jacavena/calculator)
 - [Isaac Kelly's Solution](https://github.com/isaackelly0/calculator) - [View in Browser](https://isaackelly0.github.io/calculator/)
 - [Hussien hossam's Solution](https://github.com/Hussein-Hossam-Idris/Calculator)
