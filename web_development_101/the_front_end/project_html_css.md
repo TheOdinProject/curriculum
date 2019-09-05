@@ -2392,6 +2392,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hosidev's Solution(Easy)](https://github.com/hosidev/google-homepage) - [View in Browser](https://hosidev.github.io/google-homepage/)
 * [Steve Lally's Solution (Easy)](https://github.com/slally89/google-homepage-clone) - [View in Browser](https://slally89.github.io/google-homepage-clone/)
 * [Luis's Solution (Easy)](https://github.com/luisn101/google-homepage) - [View in Browser](https://luisn101.github.io/google-homepage/)
+* [Hyperturing's Solution (Easy)](https://hyperturing.github.io/google-homepage/) - [View in Browser](https://hyperturing.github.io/google-homepage/)
 * [Kichilu's Solution (Easy)](https://github.com/kichilu/google-homepage) - [View in Browser](https://kichilu.github.io/google-homepage/)
 * [Tony Moreno's Solution (Easy)](https://github.com/tonymoreno86/google-homepage) - [View in Browser](https://tonymoreno86.github.io/google-homepage/)
 * [Harry Coburn's Solution(Easy)](https://github.com/mattibun/google-homepage) - [View in Browser](https://mattibun.github.io/google-homeplage/)
