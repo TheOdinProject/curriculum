@@ -1461,7 +1461,7 @@ contents.each do |row|
 end
 ~~~
 
-The method `save_thank_you_letter` requires the id of the attendee and the form letter
+The method `save_thank_you_letters` requires the id of the attendee and the form letter
 output.
 
 ## Iteration: Clean Phone Numbers

@@ -29,6 +29,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Chris' Solution](https://github.com/CSalois114/project_searching_binary_trees/blob/master/searching_binary_trees.rb)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Ruby-Data-Structures/blob/master/binaryTree.rb)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-binary-search-tree)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/binary_search/binary_search.rb)
 * [BShowen's Solution](https://github.com/BShowen/Linked_list_in_Ruby)
 * [George Zhu's Solution](https://github.com/georgezhu11/binary_tree/blob/master/binary_tree.rb)
@@ -165,6 +168,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees)
 * [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/binary_tree.rb)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
 
 </details>
 
@@ -212,6 +216,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Chris' Solution](https://github.com/CSalois114/project_knight_moves/blob/master/knight_moves.rb)
+* [JFAldridge's Solution](https://github.com/JFAldridge/knight_moves)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Ruby-Data-Structures/blob/master/KnightsTravails.rb)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-knights-tour)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/blob/master/knights_travails/knights_travails.rb)
 * [BShowen's Solution](https://github.com/BShowen/Knights_travails)
 * [George Zhu's solution](https://github.com/georgezhu11/knight_moves/blob/master/knight_moves.rb)
@@ -346,4 +354,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees/blob/master/knight.rb)
 * [Gareth Woodman's Solution](https://github.com/GarethWoodman/knights_travails/blob/master/knights_travails.rb)
 * [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/knight_moves.rb)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/knight_moves/blob/master/knight_moves.rb)
 </details>

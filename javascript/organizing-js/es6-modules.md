@@ -102,8 +102,7 @@ function component() {
   return element;
 }
 
-  document.body.appendChild(component());
-
+document.body.appendChild(component());
 ~~~
 
 Easy! Now, if you run `webpack` in your project directory your page should show our new function being used.
@@ -115,8 +114,8 @@ const functionOne = () => 'ONE'
 const functionTwo = () => 'TWO'
 
 export {
- functionOne,
-   functionTwo
+  functionOne,
+  functionTwo
 }
 ~~~
 

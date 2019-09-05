@@ -28,5 +28,6 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/inventory) - [View in browser](https://inventoryapp--briantuju.repl.co)
 
 </details>
