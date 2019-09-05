@@ -2393,6 +2393,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Steve Lally's Solution (Easy)](https://github.com/slally89/google-homepage-clone) - [View in Browser](https://slally89.github.io/google-homepage-clone/)
 * [Luis's Solution (Easy)](https://github.com/luisn101/google-homepage) - [View in Browser](https://luisn101.github.io/google-homepage/)
 * [Kichilu's Solution (Easy)](https://github.com/kichilu/google-homepage) - [View in Browser](https://kichilu.github.io/google-homepage/)
+* [Gabriel Davison's's Solution (Easy)](https://github.com/gabrieldavison/google-homepage) - [View in Browser](https://gabrieldavison.github.io/google-homepage/)
+
 
 </details>
 
