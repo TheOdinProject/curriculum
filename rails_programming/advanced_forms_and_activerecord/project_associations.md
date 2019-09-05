@@ -21,7 +21,7 @@ As with the previous chapter, just make sure you're writing the test specs in th
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-  * Do the [Ruby on Rails Tutorial Chapter 13](https://www.railstutorial.org/book/user_microposts), "User microposts".
+  * Do the [Ruby on Rails Tutorial Chapter 13](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/user_microposts), "User microposts".
 </div>
 
 ### Project 2: Private Events
