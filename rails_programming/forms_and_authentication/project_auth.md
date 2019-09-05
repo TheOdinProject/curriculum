@@ -11,11 +11,11 @@ You'll implement signin and signout functionality for the user, which opens the 
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-  1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.railstutorial.org/book/basic_login), "Basic Login"
-  2. Do the [Ruby on Rails Tutorial Chapter 9](https://www.railstutorial.org/book/advanced_login), "Advanced Login"
-  3. Do the [Ruby on Rails Tutorial Chapter 10](https://www.railstutorial.org/book/updating_and_deleting_users) "Updating, showing, and deleting users"
-  4. Do the [Ruby on Rails Tutorial Chapter 11](https://www.railstutorial.org/book/account_activation), "Account Activation"
-  5. Do the [Ruby on Rails Tutorial Chapter 12](https://www.railstutorial.org/book/password_reset), "Password Reset"
+  1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/basic_login), "Basic Login"
+  2. Do the [Ruby on Rails Tutorial Chapter 9](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/advanced_login), "Advanced Login"
+  3. Do the [Ruby on Rails Tutorial Chapter 10](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/updating_and_deleting_users) "Updating, showing, and deleting users"
+  4. Do the [Ruby on Rails Tutorial Chapter 11](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/account_activation), "Account Activation"
+  5. Do the [Ruby on Rails Tutorial Chapter 12](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/password_reset), "Password Reset"
 </div>
 
 ### Project 2: Members Only!
