@@ -231,7 +231,7 @@ This chapter will take what you now know about forms and make it part of a real 
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-1. Do the [Ruby on Rails Tutorial Chapter 7](https://www.railstutorial.org/book/sign_up), "Sign-Up".
+1. Do the [Ruby on Rails Tutorial Chapter 7](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/sign_up), "Sign-Up".
 </div>
 
 ### Additional Resources
