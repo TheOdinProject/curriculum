@@ -490,4 +490,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Martink-rsa's solution](https://github.com/martink-rsa/etch_a_sketch) - [View in Browser](https://martink-rsa.github.io/etch_a_sketch/etch_a_sketch.html)
 * [Javier Arias's solution](https://github.com/jfariasf08/TOP-etch-a-sketch) - [View in Browser](https://jfariasf08.github.io/TOP-etch-a-sketch/)
 * [Andrija Jelenkovic's solution](https://github.com/Amdrija/etch-a-sketch) - [View in Browser](https://amdrija.github.io/etch-a-sketch/)
+* [Jonikiro's solution](https://github.com/Jonikiro/Etch-a-Sketch) - [View in Browser](https://jonikiro.github.io/Etch-a-Sketch/)
 </details>
