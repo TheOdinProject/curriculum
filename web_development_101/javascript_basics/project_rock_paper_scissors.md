@@ -855,4 +855,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cacurriapower's Solution](https://github.com/Cacurriapower/Rockpaperscissors)
 - [Ronald's Solution](https://github.com/Glocker134/RPS-project) - [View in Browser](https://glocker134.github.io/RPS-project/)
 - [Steve Lally's Solution](https://github.com/slally89/console-rock-paper-scissor) - [View in Browser](https://slally89.github.io/console-rock-paper-scissor/)
+- [Harry Coburn's Solution](https://github.com/mattibun/rps-odin)
 </details>
