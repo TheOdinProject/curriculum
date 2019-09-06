@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jacavena's Solution](https://github.com/Jacavena/tic-tac-toe) - [View in Browser](https://jacavena.github.io/tic-tac-toe/)
 - [Bollinca's Solution](https://github.com/bollinca/tic-tac-toe) - [View in Browser](https://bollinca.github.io/tic-tac-toe/)
 - [JB's Solution](https://github.com/ugSh7hbY/tictactoe) - [View in Browser](https://ugsh7hby.github.io/tictactoe/)
 - [Vedat Aydin's Solution](https://github.com/mvedataydin/tic-tac-toe) - [View in Browser](https://mvedataydin.github.io/tic-tac-toe/)
@@ -83,4 +84,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ousmane's solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in Browser](https://kitague.github.io/Tic-Tac-Toe-Game/) 
 - [Gene Mecija's Solution](https://github.com/genemecija/Tic-Tac-Toe) - [View in Browser](https://genemecija.github.io/Tic-Tac-Toe/) 
 - [Javier Arias's Solution](https://github.com/jfariasf/TOP-tictactoe) - [View in Browser](https://jfariasf.github.io/TOP-tictactoe/) 
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/tictactoe) - [View in Browser](https://mrryanfloyd.github.io/tictactoe/) 
 </details>
