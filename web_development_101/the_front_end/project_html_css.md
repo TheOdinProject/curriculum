@@ -1730,7 +1730,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Erika's Solution (Easy)](https://github.com/Karmaqueen84/google-homepage) - [View in Browser](https://github.com/Karmaqueen84/curriculum)
 * [Jack Goy's Solution (Easy + Difficult)](https://github.com/jalexoy/google-homepage/) - [View Easy in Browser](https://jalexoy.github.io/google-homepage/) + [View Difficult in Browser](https://jalexoy.github.io/google-results-page/)
 * [PenguinAgen's Solution (Easy)](https://github.com/PenguinAgen/google-homepage) - [View in Browser](https://dxshura.github.io/google-homepage/)
- * [Koutselakis Manos's Solution (Easy)](https://github.com/KoutselakisManos/google-homepage) - [View in Browser](https://koutselakismanos.github.io/google-homepage/)
+* [Koutselakis Manos's Solution (Easy)](https://github.com/KoutselakisManos/google-homepage) - [View in Browser](https://koutselakismanos.github.io/google-homepage/)
 * [Adhithyan Vijayakumar's Solution (Easy)](https://github.com/v-adhithyan/google_hompage) - [View in Browser](https://v-adhithyan.github.io/google_hompage)
 * [ruanha's Solution (Easy)](https://github.com/ruanha/google-homepage) - [View in Browser](https://ruanha.github.io/google-homepage/)
 * [Dom9999's Solution (Easy)](https://github.com/Dom9999/google-homepage) - [View in Browser](https://dom9999.github.io/google-homepage/)
