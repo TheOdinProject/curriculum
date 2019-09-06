@@ -346,7 +346,7 @@ heroku run rails db:migrate
 
 You might see some strange output, but as long as you do not have an error, you have successfully deployed a Rails application!
 
-If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
+If you have an error, come to our [chat room](https://discord.gg/hvqVr6d), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
 
 #### Step 3.9: Visit Your New Application
 

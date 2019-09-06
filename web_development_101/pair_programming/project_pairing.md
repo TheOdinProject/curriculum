@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Michael Horn's Solution](https://github.com/HornMichaelS/pomodoro) - [View in Browser](https://hornmichaels.github.io/pomodoro/)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/pomodoro-clock) - [View in Browser](https://amdrija.github.io/pomodoro-clock/)
 * [Ann Nguyen's Solution](https://github.com/ann-codes/javascript-pomodoro-clock) - [View in Browser](https://ann-codes.github.io/javascript-pomodoro-clock/)
 * [proto-dylan's Solution](https://github.com/proto-dylan/Pomodoro) - [View in Browser](https://proto-dylan.github.io/Pomodoro/)
@@ -142,6 +143,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Ousmane Sylla's Solution](https://github.com/kitague/Pomodoro-clock/) - [View in Browser](https://kitague.github.io/Pomodoro-clock/)
 * [Gene Mecija's Solution](https://github.com/genemecija/PomodoroClock/) - [View in Browser](https://genemecija.github.io/PomodoroClock/)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/pomodoro/) - [View in Browser](https://rrg1459.github.io/pomodoro/)
+* [Husseinhewehii's Solution](https://github.com/Husseinhewehii/Pomodoro) - [View in Browser](https://husseinhewehii.github.io/Pomodoro/)
 </details>
 
 ### Next Steps

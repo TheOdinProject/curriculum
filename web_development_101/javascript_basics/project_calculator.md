@@ -45,6 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Nihir Agarwal's Solution](https://github.com/nihirag/calculator) - [View in Browser](https://nihirag.github.io/calculator)
+- [Jacavena's Solution](https://github.com/Jacavena/calculator)
+- [Isaac Kelly's Solution](https://github.com/isaackelly0/calculator) - [View in Browser](https://isaackelly0.github.io/calculator/)
 - [Hussien hossam's Solution](https://github.com/Hussein-Hossam-Idris/Calculator)
 - [rTheory's Solution](https://github.com/rtheory/calculator) - [View in Browser](https://rtheory.github.io/calculator/)
 - [Christian Bonilla's solution](https://github.com/Cabonilla/modularCalc) - [View in Browser](https://cabonilla.github.io/modularCalc/)
@@ -351,7 +354,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cameron St. Amant's solution](https://github.com/CameronStAmant/calculator) - [View in Browser](https://cameronstamant.github.io/calculator/)
 - [Nathan Choi's solution](https://github.com/sihoonathan/calculator) - [View in Browser](https://sihoonathan.github.io/calculator/)
 - [Alex Gioffre's solution](https://github.com/AlexGioffre/Calculator) - [View in Browser](https://alexgioffre.github.io/Calculator/index.html)
-- [Kai V's solution](https://github.com/KaiVandivier/calculator) - [View in Browser](https://kaivandivier.github.io/calculator/) 
+- [Kai V's solution](https://github.com/KaiVandivier/calculator) - [View in Browser](https://kaivandivier.github.io/calculator/)
 - [David Bridges's solution](https://github.com/dvbridges/calculator) - [View in Browser](https://dvbridges.github.io/calculator/)
 - [Rosanne Nicolai's solution](https://github.com/rjnicolai/Calculator)
 - [Robin's solution](https://github.com/RobinWagner/Project-Calculator) - [View in Browser](https://robinwagner.github.io/Project-Calculator/)
@@ -370,4 +373,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Eduardo06sp's solution](https://github.com/Eduardo06sp/calculator) - [View in Browser](https://eduardo06sp.github.io/calculator/)
 - [Husseinhewehii's solution](https://github.com/Husseinhewehii/Calculator) - [View in Browser](https://husseinhewehii.github.io/Calculator/)
 - [Dave Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/calculator) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/calculator)
+- [TuSeMorte's solution](https://github.com/TuSeMorte/CALCULATOR) - [View in Browser](https://tusemorte.github.io/CALCULATOR/)
 </details>
