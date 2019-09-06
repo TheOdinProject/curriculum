@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hammad Ahmed's Solution](https://github.com/shammadahmed/pomodoro_timer) - [View in Browser](https://shammadahmed.github.io/pomodoro_timer/)
 * [Michael Horn's Solution](https://github.com/HornMichaelS/pomodoro) - [View in Browser](https://hornmichaels.github.io/pomodoro/)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/pomodoro-clock) - [View in Browser](https://amdrija.github.io/pomodoro-clock/)
 * [Ann Nguyen's Solution](https://github.com/ann-codes/javascript-pomodoro-clock) - [View in Browser](https://ann-codes.github.io/javascript-pomodoro-clock/)
