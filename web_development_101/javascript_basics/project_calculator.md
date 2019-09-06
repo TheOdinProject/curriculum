@@ -374,4 +374,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Husseinhewehii's solution](https://github.com/Husseinhewehii/Calculator) - [View in Browser](https://husseinhewehii.github.io/Calculator/)
 - [Dave Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/calculator) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/calculator)
 - [TuSeMorte's solution](https://github.com/TuSeMorte/CALCULATOR) - [View in Browser](https://tusemorte.github.io/CALCULATOR/)
+- [Aron's solution](https://github.com/aronfischer/calculator)- [View in Browser](https://aronfischer.github.io/calculator/)
 </details>
