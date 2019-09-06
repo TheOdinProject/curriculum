@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Odunsi Joseph's Solution(Easy)](https://github.com/dhatGuy/google) - [View in Browser](https://dhatguy.github.io/google/)
 * [WeirdCole's Solution (Easy)](https://github.com/WeirdCole/google-homepage) - [View in Browser](https://weirdcole.github.io/google-homepage/)
 * [Emil-nici's Solution (Easy)](https://github.com/emil-nici/google-homepage) - [View in Browser](https://emil-nici.github.io/google-homepage/)
 * [Emil-nici's Solution (Difficult)](https://github.com/emil-nici/google-search-result) - [View in Browser](https://emil-nici.github.io/google-search-result/)
@@ -2400,8 +2401,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Harry Coburn's Solution(Easy)](https://github.com/mattibun/google-homepage) - [View in Browser](https://mattibun.github.io/google-homeplage/)
 * [TS Solution (Easy)](https://github.com/itspuppet/Google-Homepage/) - [View in Browser](https://itspuppet.github.io/Google-Homepage/)
 * [Gabriel Davison's's Solution (Easy)](https://github.com/gabrieldavison/google-homepage) - [View in Browser](https://gabrieldavison.github.io/google-homepage/)
-* [Themba Dombo's's Solution (Difficult)](https://github.com/Huge-The-Hand/google_homepage) - [View in Browser](https://huge-the-hand.github.io/google_homepage/)
-* [SuperbHaggis' Solution (Easy)](https://github.com/SuperbHaggis/google-homepage) - [View in Browser](https://superbhaggis.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
