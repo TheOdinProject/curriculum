@@ -43,7 +43,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-https://noirviper.github.io/etch-a-sketch/
 * [Ryan's solution](https://github.com/noirviper/etch-a-sketch) - [View in Browser](https://noirviper.github.io/etch-a-sketch/)
 * [rTheory's Solution](https://github.com/rtheory/Etch-a-Sketch) - [View in Browser](https://rtheory.github.io/Etch-a-Sketch/)
 * [Jacavena's Solution](https://github.com/Jacavena/etch-a-sketch)
