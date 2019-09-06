@@ -117,6 +117,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Carlos Del Real's and António's Solution](https://github.com/carloshdelreal/re-former)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/re-former)
 * [Kevin Vuong's solution](https://github.com/fffear/re-former)
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/re-former)
