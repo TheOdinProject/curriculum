@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Ryan's solution](https://github.com/noirviper/etch-a-sketch) - [View in Browser](https://noirviper.github.io/etch-a-sketch/)
 * [Chris M's Solution](https://github.com/chris-mahmood/etch-a-sketch) - [View in Browser](https://chris-mahmood.github.io/etch-a-sketch/)
 * [hamilto8's Solution](https://github.com/hamilto8/etch-a-sketch) - [View in Browser](https://hamilto8.github.io/etch-a-sketch/)
 * [jcai8649's Solution](https://github.com/jcai8649/Etch-a-Sketch/tree/master) - [View in Browser](https://jcai8649.github.io/Etch-a-Sketch/)
@@ -521,4 +522,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [jpr2000's Solution](https://github.com/jpr2000/etch-a-sketch) - [View in Browser](https://jpr2000.github.io/etch-a-sketch/)
 * [DigDug's Solution](https://github.com/DigDug10/Etch-It) - [View in Browser](https://digdug10.github.io/Etch-It/)
 * [Jonikiro's solution](https://github.com/Jonikiro/Etch-a-Sketch) - [View in Browser](https://jonikiro.github.io/Etch-a-Sketch/)
+* [Gustavo Carvalho's Solution](https://github.com/gustavohc07/etch-a-sketch) - [View in Browser](https://gustavohc07.github.io/etch-a-sketch/)
+* [Jamie Rookyard's solution](https://github.com/rooky-j/etch_a_sketch) - [View in Browser](https://rooky-j.github.io/etch_a_sketch/)
 </details>

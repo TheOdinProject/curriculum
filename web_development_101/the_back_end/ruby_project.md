@@ -573,6 +573,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Walter Melo's solution](https://github.com/walmello24/learn_ruby)
 * [Padraig O'Rúis' solution](https://github.com/anarchomushroom/learn_ruby)
 * [Wayland's solution](https://github.com/chinwayland/learn_ruby)
+* [TuSeMorte's solution](https://github.com/TuSeMorte/learn_ruby)
+
 </details>
 
 ### Additional Resources
