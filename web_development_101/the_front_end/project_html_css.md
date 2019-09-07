@@ -2405,6 +2405,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Themba Dombo's's Solution (Difficult)](https://github.com/Huge-The-Hand/google_homepage) - [View in Browser](https://huge-the-hand.github.io/google_homepage/)
 * [SuperbHaggis' Solution (Easy)](https://github.com/SuperbHaggis/google-homepage) - [View in Browser](https://superbhaggis.github.io/google-homepage/)
 * [DevilMayCry-5's Solution (Easy) ](https://github.com/DevilMayCry-5/google-homepage) - [View in Browser](https://devilmaycry-5.github.io/google-homepage/)
+* [CJaquier85's Solution (Easy) ](https://github.com/CJaquier85/google-homepage) - [View in Browser](https://cjaquier85.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
