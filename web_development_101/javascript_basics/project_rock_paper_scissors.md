@@ -55,7 +55,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [p0rt3rd's solution](https://github.com/p0rt3rd/rock-paper-scissors)
 - [Lucas 'Nativo' Sampaio's solution](https://github.com/lucasnativo/rock-paper-scissors) - [View in Browser](https://lucasnativo.github.io/rock-paper-scissors/)
 - [hamilto8's solution](https://github.com/hamilto8/rock-paper-scissors)
-- [Kristi Dugan's solution](https://github.com/KristiDugan/rock_paper_scissors)
+- [Kristi Dugan's solution](https://github.com/KristiDugan/rock_paper_scissors) - [View in Browser](https://kristidugan.github.io/rock_paper_scissors/)
 - [Jackovi29 solution](https://github.com/jackovi29/Project-rock-paper-scissors) - [View in Browser](https://jackovi29.github.io/Project-rock-paper-scissors/)
 - [Purva's Solution](https://github.com/singularity48021/rock-paper-scissors) - [View in Browser](https://singularity48021.github.io/rock-paper-scissors/)
 - [Igorashs's solution (v2GUI)](https://github.com/igorashs/rock-paper-scissors) - [View in Browser](https://igorashs.github.io/rock-paper-scissors/)
