@@ -140,10 +140,10 @@ See [w3 schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates.  So say I only want to display users who have written more than 10 posts:
 
 ~~~sql
-  SELECT users.name, COUNT(posts.*) AS posts_written
+  SELECT users.id, users.name, COUNT(posts.*) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
-  GROUP BY users.name
+  GROUP BY users.id
   HAVING posts_written >= 10;
 ~~~
 
