@@ -129,10 +129,10 @@ You often see aliases (`AS`) used to rename columns or aggregate functions so yo
 Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which return just a single value for your whole dataset are nice, but they become really useful when you want to use them on very specific chunks of your data and then group them together, e.g. displaying the `COUNT` of posts for EACH user (as opposed to the count of all posts by all users).  That would look like:
 
 ~~~sql
-  SELECT users.name, COUNT(posts.*) AS posts_written
+  SELECT users.id, users.name, COUNT(posts.*) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
-  GROUP BY users.name;
+  GROUP BY users.id;
 ~~~
 
 See [w3 schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
