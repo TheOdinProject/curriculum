@@ -92,5 +92,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Antonio Marcos's solution](https://github.com/AMarcosCastelo/restaurante_page) - [View in Browser](https://amarcoscastelo.github.io/restaurante_page/)
 - [JamCry's solution](https://github.com/jamcry/odin-restaurant-page) - [View in Browser](https://jamcry.github.io/odin-restaurant-page/)
 - [Gene Mecija's solution](https://github.com/genemecija/Restaurant) - [View in Browser](https://genemecija.github.io/Restaurant/)
+- [Ryan Floyd's solution](https://github.com/MrRyanFloyd/restaurant) - [View in Browser](https://mrryanfloyd.github.io/restaurant/)
 
 </details>
