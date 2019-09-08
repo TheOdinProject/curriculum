@@ -524,4 +524,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jonikiro's solution](https://github.com/Jonikiro/Etch-a-Sketch) - [View in Browser](https://jonikiro.github.io/Etch-a-Sketch/)
 * [Gustavo Carvalho's Solution](https://github.com/gustavohc07/etch-a-sketch) - [View in Browser](https://gustavohc07.github.io/etch-a-sketch/)
 * [Jamie Rookyard's solution](https://github.com/rooky-j/etch_a_sketch) - [View in Browser](https://rooky-j.github.io/etch_a_sketch/)
+* [Harry Coburn's solution](https://github.com/Mattibun/etch-a-sketch) - [View in Browser](https://mattibun.github.io/etch-a-sketch/)
 </details>
