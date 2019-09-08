@@ -2408,6 +2408,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [DevilMayCry-5's Solution (Easy) ](https://github.com/DevilMayCry-5/google-homepage) - [View in Browser](https://devilmaycry-5.github.io/google-homepage/)
 * [CJaquier85's Solution (Easy) ](https://github.com/CJaquier85/google-homepage) - [View in Browser](https://cjaquier85.github.io/google-homepage/)
 * [FedeHR's Solution (Easy)](https://github.com/FedeHR/google-homepage) - [View in Browser](https://fedehr.github.io/google-homepage/)
+* [Vinnav's Solution (Easy)](https://github.com/vinnav/google-homepage) - [View in Browser](https://vinnav.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
