@@ -2407,6 +2407,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [SuperbHaggis' Solution (Easy)](https://github.com/SuperbHaggis/google-homepage) - [View in Browser](https://superbhaggis.github.io/google-homepage/)
 * [DevilMayCry-5's Solution (Easy) ](https://github.com/DevilMayCry-5/google-homepage) - [View in Browser](https://devilmaycry-5.github.io/google-homepage/)
 * [CJaquier85's Solution (Easy) ](https://github.com/CJaquier85/google-homepage) - [View in Browser](https://cjaquier85.github.io/google-homepage/)
+* [FedeHR's Solution (Easy)](https://github.com/FedeHR/google-homepage) - [View in Browser](https://fedehr.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
