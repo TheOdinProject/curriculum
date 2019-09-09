@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [b33bl3brox42's Solution (Easy)](https://github.com/b33bl3brox42/google-homepage/) - [View in Browser](https://b33bl3brox42.github.io/google-homepage/)
+* [Odunsi Joseph's Solution(Easy)](https://github.com/dhatGuy/google) - [View in Browser](https://dhatguy.github.io/google/)
 * [WeirdCole's Solution (Easy)](https://github.com/WeirdCole/google-homepage) - [View in Browser](https://weirdcole.github.io/google-homepage/)
 * [Emil-nici's Solution (Easy)](https://github.com/emil-nici/google-homepage) - [View in Browser](https://emil-nici.github.io/google-homepage/)
 * [Emil-nici's Solution (Difficult)](https://github.com/emil-nici/google-search-result) - [View in Browser](https://emil-nici.github.io/google-search-result/)
@@ -2404,6 +2406,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Themba Dombo's's Solution (Difficult)](https://github.com/Huge-The-Hand/google_homepage) - [View in Browser](https://huge-the-hand.github.io/google_homepage/)
 * [SuperbHaggis' Solution (Easy)](https://github.com/SuperbHaggis/google-homepage) - [View in Browser](https://superbhaggis.github.io/google-homepage/)
 * [DevilMayCry-5's Solution (Easy) ](https://github.com/DevilMayCry-5/google-homepage) - [View in Browser](https://devilmaycry-5.github.io/google-homepage/)
+* [CJaquier85's Solution (Easy) ](https://github.com/CJaquier85/google-homepage) - [View in Browser](https://cjaquier85.github.io/google-homepage/)
+* [FedeHR's Solution (Easy)](https://github.com/FedeHR/google-homepage) - [View in Browser](https://fedehr.github.io/google-homepage/)
+* [Vinnav's Solution (Easy)](https://github.com/vinnav/google-homepage) - [View in Browser](https://vinnav.github.io/google-homepage/)
+* [gitforodin's Solution (Easy)](https://github.com/gitforodin/google-homepage/) - [View in Browser](https://gitforodin.github.io/google-homepage/)
+* [Shahin Bayvari's solution (Easy)](https://github.com/shahinbayvari/google-homepage) - [View in Browser](https://shahinbayvari.github.io/google-homepage/)
+* [DalandanJuice' solution (Easy)](https://github.com/DalandanJuice/google-homepage) - [View in Browser](https://dalandanjuice.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

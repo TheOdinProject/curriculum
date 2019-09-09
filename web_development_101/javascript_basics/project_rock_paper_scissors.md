@@ -40,6 +40,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [James Wong's solution](https://github.com/jwong112/rock_paper_scissors) - [View in Browser](https://jwong112.github.io/)
+- [LadyLorien's solution](https://github.com/LadyLorien/rps) - [View in Browser](https://ladylorien.github.io/rps/index.html)
+- [Siddharth Parmar's solution](https://github.com/s-par/Rock-Paper-Scissors/) - [View in Browser](https://s-par.github.io/Rock-Paper-Scissors/)
 - [Odunsi Joseph's solution](https://github.com/dhatGuy/rock-paper-scissors) - [View in Browser](https://dhatguy.github.io/rock-paper-scissors/)
 - [John Herrera's solution](https://github.com/JohnHerrera14/Rock-Paper-Scissors)
 - [Alexander Effanga's solution](https://github.com/AstringentBeet/rock-paper-scissors-console) - [View in Browser](https://astringentbeet.github.io/rock-paper-scissors-console/)
@@ -55,7 +58,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [p0rt3rd's solution](https://github.com/p0rt3rd/rock-paper-scissors)
 - [Lucas 'Nativo' Sampaio's solution](https://github.com/lucasnativo/rock-paper-scissors) - [View in Browser](https://lucasnativo.github.io/rock-paper-scissors/)
 - [hamilto8's solution](https://github.com/hamilto8/rock-paper-scissors)
-- [Kristi Dugan's solution](https://github.com/KristiDugan/rock_paper_scissors)
+- [Kristi Dugan's solution](https://github.com/KristiDugan/rock_paper_scissors) - [View in Browser](https://kristidugan.github.io/rock_paper_scissors/)
 - [Jackovi29 solution](https://github.com/jackovi29/Project-rock-paper-scissors) - [View in Browser](https://jackovi29.github.io/Project-rock-paper-scissors/)
 - [Purva's Solution](https://github.com/singularity48021/rock-paper-scissors) - [View in Browser](https://singularity48021.github.io/rock-paper-scissors/)
 - [Igorashs's solution (v2GUI)](https://github.com/igorashs/rock-paper-scissors) - [View in Browser](https://igorashs.github.io/rock-paper-scissors/)
@@ -860,4 +863,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Harry Coburn's Solution](https://github.com/mattibun/rps-odin)
 - [Hosidev's Solution](https://github.com/hosidev/rock_paper_scissors) - [View in Browser](https://hosidev.github.io/rock_paper_scissors/)
 - [Juan St's Solution](https://github.com/jcstarna/rock-paper-scissor/) - [View in Browser](https://jcstarna.github.io/rock-paper-scissor/)
+- [kosmos434's Solution](https://github.com/kosmos434/Rock-Paper-Scissors)
 </details>

@@ -126,6 +126,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chirs' Solution](https://github.com/CSalois114/project_connect_four)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/connect-four)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/tree/master/CONNECT_FOUR)
 * [BShowen's Solution](https://github.com/bshowen/cl_connect_four)
@@ -231,6 +232,7 @@ connect_four)
 * [Robert Dunbar's solutions](https://github.com/RobertDunbar/ruby-connect-four)
 * [Rey van den Berg's solution](https://github.com/Rey810/ruby-connect4)
 * [Ben Fowler's solution](https://github.com/benfowler04/connect-four) - [Play on repl.it](https://repl.it/@BenFowler/Connect-Four)
+* [Ray Alvarez's solution](https://github.com/ray-alvarez/connect_four)
 </details>
 
 ### Additional Resources
