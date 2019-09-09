@@ -2409,6 +2409,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [CJaquier85's Solution (Easy) ](https://github.com/CJaquier85/google-homepage) - [View in Browser](https://cjaquier85.github.io/google-homepage/)
 * [FedeHR's Solution (Easy)](https://github.com/FedeHR/google-homepage) - [View in Browser](https://fedehr.github.io/google-homepage/)
 * [Vinnav's Solution (Easy)](https://github.com/vinnav/google-homepage) - [View in Browser](https://vinnav.github.io/google-homepage/)
+* [gitforodin's Solution (Easy)](https://github.com/gitforodin/google-homepage/) - [View in Browser](https://gitforodin.github.io/google-homepage/)
+* [Shahin Bayvari's solution (Easy)](https://github.com/shahinbayvari/google-homepage) - [View in Browser](https://shahinbayvari.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
