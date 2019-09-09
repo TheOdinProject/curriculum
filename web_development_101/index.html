@@ -1,0 +1,83 @@
+<!DOCtype html>
+ <html>
+  <script>
+function invalid(){
+console.log('Please input rock,paper or scissors!')
+playerPlay()
+
+}
+    
+let computerSelection
+function computerPlay(){
+play = Math.floor(Math.random()*2)
+     
+      if(play === 0){
+      computerSelection = 'ROCK'
+      console.log('Computer played ' + computerSelection)
+       
+      }else if(play === 1){
+     computerSelection = 'PAPER'
+          console.log('Computer played ' + computerSelection)
+     }else{
+        computerSelection = 'SCISSORS'
+          console.log('Computer played ' + computerSelection)
+        }
+       
+     return computerSelection
+}
+ function playerPlay(){
+playerSelection = prompt('What do you want to play').toUpperCase()
+console.log('You played ' + playerSelection)
+if(playerSelection !== 'ROCK' && playerSelection !== 'PAPER' && playerSelection !==  'SCISSORS'){invalid()}
+
+ 
+  return playerSelection 
+ } 
+function playRound(){
+computerPlay()
+playerPlay()
+ 
+
+ if(computerSelection==='ROCK' && playerSelection==='SCISSORS'){
+   console.log('Rock beats scissor. Computer wins') 
+ }else if(computerSelection==='SCISSORS' && playerSelection==='PAPER'){
+  console.log('Scissor beats paper. Computer wins')
+ }else if(computerSelection==='PAPER' && playerSelection==='ROCK'){
+   console.log('Paper beats rock. Computer wins')
+ }else if(computerSelection==='SCISSORS' && playerSelection==='ROCK'){
+   console.log('Rock beats scissor. You win') 
+ }else if(computerSelection==='PAPER' && playerSelection==='SCISSORS'){
+   console.log('Scissor beats paper. You win')
+ }else if(computerSelection==='ROCK' && playerSelection==='PAPER'){
+   console.log('Paper beats rock. You win')
+ }else if(computerSelection === playerSelection){
+  console.log('It\'s a tie') 
+ }
+}
+
+playRound()
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
