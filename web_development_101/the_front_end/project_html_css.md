@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Leticia's Solution (Easy)](https://github.com/gradiva/google-homepage) - [View in Browser](https://gradiva.github.io/google-homepage/)
 * [b33bl3brox42's Solution (Easy)](https://github.com/b33bl3brox42/google-homepage/) - [View in Browser](https://b33bl3brox42.github.io/google-homepage/)
 * [Odunsi Joseph's Solution(Easy)](https://github.com/dhatGuy/google) - [View in Browser](https://dhatguy.github.io/google/)
 * [WeirdCole's Solution (Easy)](https://github.com/WeirdCole/google-homepage) - [View in Browser](https://weirdcole.github.io/google-homepage/)
