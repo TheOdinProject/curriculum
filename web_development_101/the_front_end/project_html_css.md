@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Leticia's Solution (Easy)](https://github.com/gradiva/google-homepage) - [View in Browser](https://gradiva.github.io/google-homepage/)
 * [b33bl3brox42's Solution (Easy)](https://github.com/b33bl3brox42/google-homepage/) - [View in Browser](https://b33bl3brox42.github.io/google-homepage/)
 * [Odunsi Joseph's Solution(Easy)](https://github.com/dhatGuy/google) - [View in Browser](https://dhatguy.github.io/google/)
 * [WeirdCole's Solution (Easy)](https://github.com/WeirdCole/google-homepage) - [View in Browser](https://weirdcole.github.io/google-homepage/)
@@ -2414,6 +2415,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [DalandanJuice' solution (Easy)](https://github.com/DalandanJuice/google-homepage) - [View in Browser](https://dalandanjuice.github.io/google-homepage/)
 * [Vorelli's solution (Easy)](https://github.com/Vorelli/google-homepage) - [View in Browser](https://vorelli.github.io/google-homepage/)
 * [Sergey's solution (Easy)](https://github.com/Sergey271195/google-homepage) - [View in Browser](https://sergey271195.github.io/google-homepage/)
+* [Vinicius Bonifácio's Solution (Easy)](https://github.com/vinicius77/google-homepage) - [View in Browser](https://vinicius77.github.io/google-homepage/)
+* [bohledevs' Solution (Easy)](https://github.com/bohledevs/google-homepage) - [View in Browser](https://bohledevs.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
