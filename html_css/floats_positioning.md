@@ -1,6 +1,6 @@
 ### Introduction
 
-A major question all CSS-ers have again and again is "how can I get this stupid element where exactly on the page I want it to go!?!?!".  Usually, the answer lies in using floats and/or position attributes in combination with margins.  You'll need to develop a mental model for what's happening on the page when you float elements and when you use the different positioning types.
+A major question all CSS-ers have again and again is "how can I get this stupid element exactly where I want it to go on the page!?!?!". Traditionally, the answer lied in using floats and/or position attributes in combination with margins. You may still see this in use and may find it useful in some situations so we'll start by learning about float based layouts.  You'll need to develop a mental model for what's happening on the page when you float elements and when you use the different positioning types.
 Pay particular attention to which element acts as the parent of the element you're messing with -- there are some rules about that which get a bit confusing and can cause hair-pulling frustration.  If you absolutely position an element inside an absolutely positioned element, where does the first element go?
 
 ### Learning Outcomes
@@ -29,6 +29,7 @@ Pay particular attention to which element acts as the parent of the element you'
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
+* [Video: Positioning Elements](https://www.youtube.com/watch?v=TiY5FuwgocI) - amazing video giving a general overview of the different CSS position values and how they work.
 * [Absolute Horizontal and Vertical Positioning in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/) is a great resource for when you begin worrying about the finer details of positioning elements.
 * [CSS Float docs](http://www.w3schools.com/css/css_float.asp)
 * [CSS Position docs](http://www.w3schools.com/css/css_positioning.asp)
