@@ -2412,6 +2412,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [gitforodin's Solution (Easy)](https://github.com/gitforodin/google-homepage/) - [View in Browser](https://gitforodin.github.io/google-homepage/)
 * [Shahin Bayvari's solution (Easy)](https://github.com/shahinbayvari/google-homepage) - [View in Browser](https://shahinbayvari.github.io/google-homepage/)
 * [DalandanJuice' solution (Easy)](https://github.com/DalandanJuice/google-homepage) - [View in Browser](https://dalandanjuice.github.io/google-homepage/)
+* [Vorelli's solution (Easy)](https://github.com/Vorelli/google-homepage) - [View in Browser](https://vorelli.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
