@@ -61,7 +61,7 @@ This chapter of the tutorial will give you a chance to start working with the da
 
 ### Your Task
 <div class="lesson-content__panel" markdown="1">
-  1. Do the [Ruby on Rails Tutorial chapter 6](https://www.railstutorial.org/book/modeling_users), "Modeling Users".
+  1. Do the [Ruby on Rails Tutorial chapter 6](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/modeling_users), "Modeling Users".
 </div>
 
 ### Project 2: Micro-Reddit
@@ -122,6 +122,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/micro-reddit)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/micro-reddit)
 * [Onur Temiz's Solution](https://github.com/temizonur/micro-reddit)
 * [Kevin Vuong's Solution](https://github.com/fffear/micro_reddit)
