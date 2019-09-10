@@ -2413,6 +2413,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Shahin Bayvari's solution (Easy)](https://github.com/shahinbayvari/google-homepage) - [View in Browser](https://shahinbayvari.github.io/google-homepage/)
 * [DalandanJuice' solution (Easy)](https://github.com/DalandanJuice/google-homepage) - [View in Browser](https://dalandanjuice.github.io/google-homepage/)
 * [Vorelli's solution (Easy)](https://github.com/Vorelli/google-homepage) - [View in Browser](https://vorelli.github.io/google-homepage/)
+* [Vinicius Bonifácio's Solution (Easy)](https://github.com/vinicius77/google-homepage) - [View in Browser](https://vinicius77.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
