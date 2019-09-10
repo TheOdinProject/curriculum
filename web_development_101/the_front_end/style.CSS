@@ -1,0 +1,78 @@
+body {
+  font-family: arial;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+.top_left_menu {
+  margin: 15px;
+  position: fixed;
+  left: 0;
+  top: 10;
+}
+
+.top_right_menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 10px;
+}
+
+.bottom_left_menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.bottom_right_menu {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 20%;
+  padding-top: 200px;
+}
+
+.search_bar {
+  width: 500px;
+  height: 30px;
+  border-radius: 25px;
+  border: 2px solid #DEDADA;
+}
+
+.search_box {
+  display: flex;
+  justify-content: center;
+}
+
+.search_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  background-color: #EEEEEE;
+  height: 25px;
+}
+
+.lucky {
+  background-color: #EEE;
+}
+
+.search_buttons input{
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #3B3B3B;
+}
