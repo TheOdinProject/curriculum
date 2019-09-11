@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/Tic-Tac-Toe)
 * [proto-dylan's Solution](https://github.com/proto-dylan/Tic-Tac-Toe)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/tic-tac-toe)
 * [Uzay-G's solution](https://github.com/Uzay-G/command_line_games) - [Live repl](https://repl.it/@UzayGirit/commandlinegames)
@@ -320,6 +321,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/Mastermind)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/mastermind)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/mastermind)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-mastermind)
