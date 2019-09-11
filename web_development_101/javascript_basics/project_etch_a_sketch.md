@@ -530,4 +530,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Harry Coburn's solution](https://github.com/Mattibun/etch-a-sketch) - [View in Browser](https://mattibun.github.io/etch-a-sketch/)
 * [ZeCheeseKing's solution](https://github.com/zecheeseking/etch_a_sketch) - [View in Browser](https://zecheeseking.github.io/etch_a_sketch/)
 * [Cacurriapower's Solution](https://github.com/Cacurriapower/Etch_a_Sketch) - [View in Browser](https://Cacurriapower.github.io/Etch_a_Sketch/)
+* [Steve Lally's Solution](https://github.com/slally89/Etch-a-Sketch) - [View in Browser](https://slally89.github.io/Etch-a-Sketch/)
 </details>
