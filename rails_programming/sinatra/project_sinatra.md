@@ -22,7 +22,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to [the Github repo](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/sinatra/project_sinatra.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
@@ -139,7 +139,7 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the [Github repo](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/sinatra/project_sinatra.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
