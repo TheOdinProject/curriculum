@@ -29,6 +29,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Bollinca's Solution](https://github.com/bollinca/tic-tac-toe) - [View in Browser](https://bollinca.github.io/tic-tac-toe/)
 - [JB's Solution](https://github.com/ugSh7hbY/tictactoe) - [View in Browser](https://ugsh7hby.github.io/tictactoe/)
 - [Vedat Aydin's Solution](https://github.com/mvedataydin/tic-tac-toe) - [View in Browser](https://mvedataydin.github.io/tic-tac-toe/)
+- [Kai's Solution](https://github.com/KaiVandivier/tic-tac-toe-js) - [View in Browser](https://kaivandivier.github.io/tic-tac-toe-js/)
 - [Joey Van Lierop's Solution](https://github.com/bananashavings/tic-tac-toe) - [View in Browser](https://bananashavings.github.io/tic-tac-toe/)
 - [Evan's Solution](https://github.com/evan-kapantais/tic-tac-toe) - [View in Browser](https://evan-kapantais.github.io/tic-tac-toe/)
 - [Eljoey's Solution](https://github.com/eljoey/Tic-Tac-Toe) - [View in Browser](https://eljoey.github.io/Tic-Tac-Toe/)

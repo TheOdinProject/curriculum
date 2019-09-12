@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [George Random's solution](https://github.com/GeorgeRandom/rps)
 - [James Wong's solution](https://github.com/jwong112/rock_paper_scissors) - [View in Browser](https://jwong112.github.io/)
 - [LadyLorien's solution](https://github.com/LadyLorien/rps) - [View in Browser](https://ladylorien.github.io/rps/index.html)
 - [Siddharth Parmar's solution](https://github.com/s-par/Rock-Paper-Scissors/) - [View in Browser](https://s-par.github.io/Rock-Paper-Scissors/)
@@ -84,7 +85,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vedant's Solution](https://github.com/vedantshetty/rock_paper_scissor) - [View in Browser](https://vedantshetty.github.io/rock_paper_scissor/)
 - [Nsingh93's Solution](https://github.com/nsingh-93/rock-paper-scissors) - [View in Browser](https://nsingh-93.github.io/rock-paper-scissors/)
 - [Hexadius' Solution](https://github.com/Hexadius/rock-paper-scissors) - [View in Browser](https://hexadius.github.io/rock-paper-scissors/)
-- [vladutclp's Solution](https://github.com/vladutclp/rock-paper-scissors)
+- [vladutclp's Solution](https://github.com/vladutclp/rock-paper-scissors) - [View in Browser](https://vladutclp.github.io/rock-paper-scissors/)
 - [mike d's Solution](https://github.com/ipcmlr/rps) - [View in Browser](https://ipcmlr.github.io/rps/)
 - [Noah's Solution](https://github.com/ndayson02/rock-paper-scissors)
 - [Ajibade Abiodun's Solution](https://github.com/Tripple-A/UserFriendly-Rock-Paper-Scissors)-[View in Browser](https://tripple-a.github.io/UserFriendly-Rock-Paper-Scissors/)
@@ -862,5 +863,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Steve Lally's Solution](https://github.com/slally89/console-rock-paper-scissor) - [View in Browser](https://slally89.github.io/console-rock-paper-scissor/)
 - [Harry Coburn's Solution](https://github.com/mattibun/rps-odin)
 - [Hosidev's Solution](https://github.com/hosidev/rock_paper_scissors) - [View in Browser](https://hosidev.github.io/rock_paper_scissors/)
+- [Juan St's Solution](https://github.com/jcstarna/rock-paper-scissor/) - [View in Browser](https://jcstarna.github.io/rock-paper-scissor/)
 - [kosmos434's Solution](https://github.com/kosmos434/Rock-Paper-Scissors)
 </details>
