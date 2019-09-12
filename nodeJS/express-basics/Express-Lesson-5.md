@@ -31,6 +31,6 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Jake's Solution](https://github.com/jdonahue135/localLibrary)
+- [Jake's Solution](https://github.com/jdonahue135/localLibrary) - [View in browser](https://secure-shore-83072.herokuapp.com/)
 
 </details>
