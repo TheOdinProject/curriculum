@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/03-JavaScript_Basics/rock-paper-scissors) - [View in Browser](https://enigmatic-caverns-74021.herokuapp.com/)
 - [George Random's solution](https://github.com/GeorgeRandom/rps)
 - [James Wong's solution](https://github.com/jwong112/rock_paper_scissors) - [View in Browser](https://jwong112.github.io/)
 - [LadyLorien's solution](https://github.com/LadyLorien/rps) - [View in Browser](https://ladylorien.github.io/rps/index.html)
@@ -865,4 +866,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Hosidev's Solution](https://github.com/hosidev/rock_paper_scissors) - [View in Browser](https://hosidev.github.io/rock_paper_scissors/)
 - [Juan St's Solution](https://github.com/jcstarna/rock-paper-scissor/) - [View in Browser](https://jcstarna.github.io/rock-paper-scissor/)
 - [kosmos434's Solution](https://github.com/kosmos434/Rock-Paper-Scissors)
+- [Luis's Solution](https://github.com/luisn101/rock-paper-scissors)
 </details>
