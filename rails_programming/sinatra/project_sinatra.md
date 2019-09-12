@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Uzay-G's solution [Github](https://github.com/Uzay-G/simple-cipher) - [Live](https://caesar-ciphers.herokuapp.com/)
 * Onur Temiz's Solution [Github](https://github.com/temizonur/ceasar_cipher) [Heroku](https://afternoon-taiga-26969.herokuapp.com/)
 * Airi Chow's Solution [Github](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/sinatra/caesar_cipher) [Heroku](https://fast-crag-35094.herokuapp.com)
 * Kevin Vuong's Solution [Github](https://github.com/fffear/caesar_cipher_application) [Live](https://obscure-atoll-85647.herokuapp.com/)
