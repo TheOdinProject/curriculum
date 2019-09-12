@@ -40,6 +40,13 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Aleksandar J's solution](https://github.com/bestr32/TOPlibrary) - [View in Browser](https://bestr32.github.io/TOPlibrary/)
+- [igorashs's Solution (Firebase + LocalStorage](https://github.com/igorashs/library) - [View in Browser](https://igorashs.github.io/library/)
+- [Jacavena's Solution](https://github.com/Jacavena/library)
+- [Ohlie's Solution](https://github.com/lco1220/js_library) - [View in Browser](https://lco1220.github.io/js_library/)
+- [Saad Tarhi's Solution (w/Firebase)](https://github.com/tarhi-saad/Library) - [View in Browser](https://tarhi-saad.github.io/Library/)
+- [Kai's Solution](https://github.com/KaiVandivier/library) - [View in Browser](https://kaivandivier.github.io/library/)
+- [Harry Lawson's Solution](https://lawson7.github.io/book-library-app/) - [View in Browser](https://lawson7.github.io/book-library-app/)
 - [Bollinca's Solution](https://github.com/bollinca/library) - [View in Browser](https://bollinca.github.io/library/)
 - [Joey Van Lierop's Solution](https://github.com/bananashavings/library) - [View in Browser](https://bananashavings.github.io/library/)
 - [mvedataydin's Solution](https://github.com/mvedataydin/Library/) - [View in Browser](https://mvedataydin.github.io/Library/)
@@ -125,4 +132,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Vitaly Osipov's Solution](https://github.com/vi7ali/book-library) - [View in Browser](https://vi7ali.github.io/book-library/)
 - [Javier Arias's Solution](https://github.com/jfariasf/TOP-library) - [View in Browser](https://jfariasf.github.io/TOP-library/)
 - [JoshAubrey's Solution (w/localStorage)](https://github.com/JoshAubrey/library) - [View in Browser](https://joshaubrey.github.io/library/)
+- [rholderfield's Solution](https://github.com/rholderfield/Book-Library) - [View in Browser](https://rholderfield.github.io/Book-Library/)
+- [martink-rsa's Solution](https://github.com/martink-rsa/booksLibrary) - [View in Browser](https://martink-rsa.github.io/booksLibrary/index.html)
 </details>
