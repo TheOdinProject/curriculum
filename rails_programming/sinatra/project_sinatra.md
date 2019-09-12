@@ -22,12 +22,13 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to [the Github repo](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/sinatra/project_sinatra.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Uzay-G's solution [Github](https://github.com/Uzay-G/simple-cipher) - [Live](https://caesar-ciphers.herokuapp.com/)
 * Onur Temiz's Solution [Github](https://github.com/temizonur/ceasar_cipher) [Heroku](https://afternoon-taiga-26969.herokuapp.com/)
 * Airi Chow's Solution [Github](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/sinatra/caesar_cipher) [Heroku](https://fast-crag-35094.herokuapp.com)
 * Kevin Vuong's Solution [Github](https://github.com/fffear/caesar_cipher_application) [Live](https://obscure-atoll-85647.herokuapp.com/)
@@ -139,7 +140,7 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the [Github repo](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/sinatra/project_sinatra.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
