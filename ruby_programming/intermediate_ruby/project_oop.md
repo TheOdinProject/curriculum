@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_oop)
+* [Michael Marchand's Solution](https://github.com/MarchandMD/TicTacToeGemTutorial)
 * [Ian's Solution](https://github.com/IanMKesler/Tic-Tac-Toe)
 * [proto-dylan's Solution](https://github.com/proto-dylan/Tic-Tac-Toe)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/tic-tac-toe)
