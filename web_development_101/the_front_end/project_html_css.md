@@ -2423,6 +2423,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [michaelimai's Solution (Easy)](https://github.com/michaelimai/google_homepage) - [View in Browser](https://michaelimai.github.io/google_homepage/)
 * [cbhaugen's Solution (Easy)](https://cbhaugen.github.io/google-homepage/)
 * [mattpyle's Solution (Easy)](https://github.com/mattpyle/google-homepage) - [View in Browser](https://mattpyle.github.io/google-homepage/)
+* [nearmint's Solution (Easy)](https://github.com/nearmint/google-homepage) - [View in Browser](https://nearmint.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
