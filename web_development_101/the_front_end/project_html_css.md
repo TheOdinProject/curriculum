@@ -2424,6 +2424,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [cbhaugen's Solution (Easy)](https://cbhaugen.github.io/google-homepage/)
 * [mattpyle's Solution (Easy)](https://github.com/mattpyle/google-homepage) - [View in Browser](https://mattpyle.github.io/google-homepage/)
 * [nearmint's Solution (Easy)](https://github.com/nearmint/google-homepage) - [View in Browser](https://nearmint.github.io/google-homepage/)
+* [Vinícius Bonifácio's Solution (Hard)](https://github.com/vinicius77/google-homepage-version2) - [View in Browser](https://vinicius77.github.io/google-homepage-version2/)
 </details>
 
 ### Additional Resources
