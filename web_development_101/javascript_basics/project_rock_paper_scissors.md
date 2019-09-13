@@ -743,6 +743,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/jokenpo-revisited) - [View in Browser](https://adrieltrigger.github.io/jokenpo-revisited/)
 - [Amish Goel's Solution (GUI)](https://github.com/AmishGoel1/rps-visual) - [View in Browser](https://amishgoel1.github.io/rps-visual/)
 - [Maddy's solution](https://github.com/maddybvh/Rock-Paper-Scissors) - [View in Browser](https://maddybvh.github.io/Rock-Paper-Scissors/)
+- [Jimmyak's Solution](https://github.com/jimmyak91/rockpaperscissors) - [View in Browser](https://jimmyak91.github.io/rockpaperscissors/)
 - [Emmanuel Nwankwo's Solution](https://github.com/emmanuelnwankwo/rock-paper-scissors) - [View in Browser](https://emmanuelnwankwo.github.io/rock-paper-scissors/)
 - [Kelly Joseph's GUI rock paper scissors](https://seisolo76.github.io/ROCK-PAPER-SCISSORS/)
 - [AdesojiCodeMaster's Solution](https://github.com/adesojicodemaster/RockPaperScissorsGame/) - [View in Browser](https://adesojicodemaster.github.io/RockPaperScissorsGame/)
