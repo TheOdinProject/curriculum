@@ -29,6 +29,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/rails-flight_booker)
 * [Simon Tharby's solution](https://github.com/jinjagit/flight-mailer)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker.git) | [Live](https://safe-peak-87499.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/growlithe)
@@ -81,6 +82,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/flight-booker)
 * [Malaika's Solution](https://github.com/malaikaMI/AirFly)
 * [bchalman's solution](https://github.com/bchalman/odin-flight-booker)
+* [JamCry's Solution](https://github.com/jamcry/flight-booker) - [Live on Heroku](https://dry-caverns-97659.herokuapp.com/)
+* [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [Live on Heroku](https://redux-flights.herokuapp.com/)
 
 </details>
 

@@ -25,6 +25,22 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Igorashs's Solution](https://github.com/igorashs/tic-tac-toe) - [View in Browser](https://igorashs.github.io/tic-tac-toe/)
+- [Jacavena's Solution](https://github.com/Jacavena/tic-tac-toe) - [View in Browser](https://jacavena.github.io/tic-tac-toe/)
+- [Bollinca's Solution](https://github.com/bollinca/tic-tac-toe) - [View in Browser](https://bollinca.github.io/tic-tac-toe/)
+- [JB's Solution](https://github.com/ugSh7hbY/tictactoe) - [View in Browser](https://ugsh7hby.github.io/tictactoe/)
+- [Vedat Aydin's Solution](https://github.com/mvedataydin/tic-tac-toe) - [View in Browser](https://mvedataydin.github.io/tic-tac-toe/)
+- [Kai's Solution](https://github.com/KaiVandivier/tic-tac-toe-js) - [View in Browser](https://kaivandivier.github.io/tic-tac-toe-js/)
+- [Joey Van Lierop's Solution](https://github.com/bananashavings/tic-tac-toe) - [View in Browser](https://bananashavings.github.io/tic-tac-toe/)
+- [Evan's Solution](https://github.com/evan-kapantais/tic-tac-toe) - [View in Browser](https://evan-kapantais.github.io/tic-tac-toe/)
+- [Eljoey's Solution](https://github.com/eljoey/Tic-Tac-Toe) - [View in Browser](https://eljoey.github.io/Tic-Tac-Toe/)
+- [Vollantre's solution](https://github.com/vollantre/tic_tac_toeJS) - [View in Browser](https://vollantre.github.io/tic_tac_toeJS/)
+- [Henry Kirya's solution](https://github.com/harrika/tictac) - [View in Browser](https://harrika.github.io/tictac/)
+- [Bojo's solution](https://github.com/BojoZahariev/TicTacToe) - [View in Browser](https://bojozahariev.github.io/TicTacToe/)
+- [Daniel Ryu's solution](https://github.com/dryu99/tic-tac-toe) - [View in Browser](https://dryu99.github.io/tic-tac-toe/)
+- [ARaut9's solution](https://github.com/ARaut9/Tic-Tac-Toe) - [View in Browser](https://araut9.github.io/Tic-Tac-Toe/)
+- [Jason McKee's solution](https://github.com/jttmckee/odin-tic-tac-toe) - [View in Browser](https://jttmckee.github.io/odin-tic-tac-toe/)
+- [Simon Tharby's solution](https://github.com/jinjagit/ticTacToe) - [View in browser](https://jinjagit.github.io/ticTacToe/)
 - [Ricala's Solution](https://github.com/Ricala/tic-tac-toe) - [View in Browser](https://ricala.github.io/tic-tac-toe/)
 - [Djo1e's Solution](https://github.com/Djo1e/tic-tac-toe) - [View in Browser](https://djo1e.github.io/tic-tac-toe/)
 - [balowulf's Solution](https://github.com/balowulf/ticTacToe) - [View in Browser](https://balowulf.github.io/ticTacToe/)
@@ -65,5 +81,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Halkim44's game (PvP and P vs unbeatable CPU)](https://github.com/halkim44/tic-tac-toe-TOP) - [play Tic-Tac-Toe](https://halkim44.github.io/tic-tac-toe-TOP/)
 - [Valentino Valenti's solution (p1 vs p2 - minimax)](https://github.com/1ba1/tic-tac-toe) - [Play it in browser](https://1ba1.github.io/tic-tac-toe/)
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Tic-Tac-To) - [View in Browser](https://ubaid-manzoor.github.io/Tic-Tac-To/)
-
+- [JamCry's Solution](https://github.com/jamcry/js-tictactoe) - [View in Browser](https://jamcry.github.io/js-tictactoe/)
+- [Maxime's Solution](https://github.com/Maxime-Beaufils/JS-TicTacToe-PvsAI) - [View in Browser](https://maxime-beaufils.github.io/JS-TicTacToe-PvsAI/)
+- [Ousmane's solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in Browser](https://kitague.github.io/Tic-Tac-Toe-Game/) 
+- [Gene Mecija's Solution](https://github.com/genemecija/Tic-Tac-Toe) - [View in Browser](https://genemecija.github.io/Tic-Tac-Toe/) 
+- [Javier Arias's Solution](https://github.com/jfariasf/TOP-tictactoe) - [View in Browser](https://jfariasf.github.io/TOP-tictactoe/) 
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/tictactoe) - [View in Browser](https://mrryanfloyd.github.io/tictactoe/)
+- [JoshAubrey's Solution](https://github.com/JoshAubrey/tic-tac-toe) - [View in Browser](https://joshaubrey.github.io/tic-tac-toe/) 
 </details>

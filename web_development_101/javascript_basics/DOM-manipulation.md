@@ -385,7 +385,7 @@ function alertFunction() {
 }
 
 // METHOD 2
-btn.onclick = alertFunction
+btn.onclick = alertFunction;
 
 // METHOD 3
 btn.addEventListener('click', alertFunction);
@@ -397,7 +397,7 @@ With all three methods we can access more information about the event by passing
 
 ~~~javascript
 btn.addEventListener('click', function(e){
-  console.log(e)
+  console.log(e);
 })
 ~~~
 
@@ -407,7 +407,7 @@ Try this:
 
 ~~~javascript
 btn.addEventListener('click', function(e){
-  console.log(e.target)
+  console.log(e.target);
 })
 ~~~
 
@@ -415,7 +415,7 @@ and now this:
 
 ~~~javascript
 btn.addEventListener('click', function(e){
-  e.target.style.background = 'blue'
+  e.target.style.background = 'blue';
 })
 ~~~
 
