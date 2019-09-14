@@ -2429,8 +2429,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Vinícius Bonifácio's Solution (Hard)](https://github.com/vinicius77/google-homepage-version2) - [View in Browser](https://vinicius77.github.io/google-homepage-version2/)
 * [Fastine's Solution (Easy)](https://github.com/Fastine/google-homepage) - [View in Browser](https://fastine.github.io/google-homepage/)
 * [Kevin Hall's Solution (Easy)](https://github.com/mrhallonline/google-homepage) - [View in browser](https://mrhallonline.github.io/google-homepage/)
-</details>
 [Takhmina's solution is here (Easy)](https://github.com/MinaAhamd/google-homepage.git) - [View in Browser](https://minaahamd.github.io/google-homepage/)
+</details>
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
