@@ -2431,6 +2431,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kevin Hall's Solution (Easy)](https://github.com/mrhallonline/google-homepage) - [View in browser](https://mrhallonline.github.io/google-homepage/)
 [Takhmina's solution is here (Easy)](https://github.com/MinaAhamd/google-homepage.git) - [View in Browser](https://minaahamd.github.io/google-homepage/)
 * [Ogunmola Israel's Solution (Easy)](https://github.com/Lippins/google-homepage.git) - [View in Browser](https://lippins.github.io/google-homepage/)
+* [MichaeB's Solution (Easy)](hhttps://github.com/MichaelB-99/google-replica.git) - [View in Browser](https://michaelb-99.github.io/google-replica/)
 </details>
 
 ### Additional Resources
