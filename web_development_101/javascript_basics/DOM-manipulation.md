@@ -267,7 +267,7 @@ div.innerHTML = '<span>Hello World!</span>';
 Let's take a minute to review what we've covered and give you a chance to practice this stuff before moving on.  Check out this example of creating and appending a DOM element to a webpage.
 
 ~~~html
-// your html file:
+<!-- your html file: -->
 <body>
   <h1>
     THE TITLE OF YOUR WEBPAGE
@@ -290,7 +290,7 @@ container.appendChild(content);
 In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
 
 ~~~html
-// The DOM
+<!-- The DOM -->
 <body>
   <h1>
     THE TITLE OF YOUR WEBPAGE
@@ -340,7 +340,7 @@ This solution is less than ideal because we're cluttering our HTML with JavaScri
 #### method 2
 
 ~~~HTML
-// the html file
+<!-- the html file -->
 <button id="btn">Click Me</button>
 ~~~
 
@@ -357,7 +357,7 @@ This is a little better. We've moved the JS out of the HTML and into a JS file, 
 #### method 3
 
 ~~~html
-// the html file
+<!-- the html file -->
 <button id="btn">Click Me Too</button>
 ~~~
 
@@ -374,8 +374,8 @@ Now, we maintain separation of concerns, and we also allow multiple event listen
 Note that all 3 of these methods can be used with named functions like so:
 
 ~~~html
-// the html file
-// METHOD 1
+<!-- the html file -->
+<!-- METHOD 1 -->
 <button onclick="alertFunction()">CLICK ME BABY</button>
 ~~~
 
