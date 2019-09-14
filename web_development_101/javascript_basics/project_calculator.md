@@ -381,4 +381,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jpr2000's solution](https://github.com/jpr2000/calculator) - [View in Browser](https://jpr2000.github.io/calculator/)
 - [Harry Coburn's solution](https://github.com/Mattibun/calculator) - [View in Browser](https://mattibun.github.io/calculator/)
 - [Tomstrat's solution](https://github.com/tomstrat/Calculator) - [View in Browser](https://tomstrat.github.io/Calculator/)
+- [crongle's solution](https://github.com/crongle/calculator) - [View in Browser](https://crongle.github.io/calculator/)
 </details>
