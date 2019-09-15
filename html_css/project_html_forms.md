@@ -131,6 +131,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/ViriCruz/building-forms) - [View in Browser](https://viricruz.github.io/building-forms/)
 * [Alex Gioffre's solution](https://github.com/AlexGioffre/form_html) - [View in Browser](https://alexgioffre.github.io/form_html/index.html)
 * [Dolunaykiz's solution](https://github.com/dolunaykiz/mint-mockup) - [View in Browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/mint-mockup/blob/master/index.html)
+* [Halkim's solution](https://github.com/halkim44/mint.com-signup-rebuild) - [View in Browser](http://halkim44.github.io/mint.com-signup-rebuild/)
 </details>
 
 ### Additional Resources

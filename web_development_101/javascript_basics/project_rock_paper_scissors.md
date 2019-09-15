@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Paul Wu's solution](https://github.com/wutangme/rock-paper-scissors) - [View in Browser](https://wutangme.github.io/)
+- [Aaron Atkins's solution](https://github.com/atkinsio/rock-paper-scissors/) - [View in Browser](https://atkinsio.com/rock-paper-scissors/)
+- [Nathan Collins solution](https://github.com/spuddie1984/The-Odin-Project-Web-Dev-101/tree/master/Rock%20Paper%20Scissors)
 - [Jakub Rafal Rafinski's solution](https://github.com/jamesreef/rock-paper-scissors) - [View in Browser](https://jamesreef.github.io/rock-paper-scissors/)
 - [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/03-JavaScript_Basics/rock-paper-scissors) - [View in Browser](https://enigmatic-caverns-74021.herokuapp.com/)
 - [George Random's solution](https://github.com/GeorgeRandom/rps)
@@ -872,4 +874,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Luis's Solution](https://github.com/luisn101/rock-paper-scissors)
 - [Tony Moreno's Solution](https://github.com/tonymoreno86/rockpaperscissors)
 - [Matt Pyle's solution](https://github.com/mattpyle/rock-paper-scissors) - [View in Browser](https://mattpyle.github.io/rock-paper-scissors/)
+- [Cowlickcoleman's Solution](https://github.com/Cowlickcoleman/rock-paper-scissors) - [View in Browser](https://cowlickcoleman.github.io/rock-paper-scissors/)
 </details>

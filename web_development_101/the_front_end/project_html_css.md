@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Patrick Silvestre's Solution (Easy)](https://github.com/pjsilvestre/top-google-homepage) - [View in Browser](https://pjsilvestre.github.io/top-google-homepage/)
 * [Olugbade Olalekan's Solution (Easy)](https://github.com/gbadesimple/google-homepage) - [View in Browser](https://gbadesimple.github.io/google-homepage/)
 * [Aaron Atkins's Solution (Easy)](https://github.com/atkinsio/google-homepage) - [View in Browser](https://atkinsio.com/google-homepage/)
 * [Matt Jaylee's Solution(Easy)](https://github.com/mattjaylee/google-homepage)
