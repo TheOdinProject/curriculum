@@ -2434,6 +2434,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ogunmola Israel's Solution (Easy)](https://github.com/Lippins/google-homepage.git) - [View in Browser](https://lippins.github.io/google-homepage/)
 * [MichaelB's Solution (Easy)](https://github.com/MichaelB-99/google-replica.git) - [View in Browser](https://michaelb-99.github.io/google-replica/)
 * [Patricio Ra's Solution (Easy)](https://github.com/Patricio-Ra/google-copy) - [View in Browser](https://patricio-ra.github.io/google-copy/)
+* [Synte's Solution (Easy)](https://github.com/Synte/google-homepage) - [View in Browser](https://synte.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
