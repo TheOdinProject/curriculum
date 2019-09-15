@@ -465,7 +465,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rosanne Nicolai's Solution](https://github.com/rjnicolai/Caesar-Cipher)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project_Public/blob/master/Ruby_projects/Caesar_cipher.rb)
 * [Robin Wagner's Solution](https://github.com/RobinWagner/Ruby-Building-Blocks/blob/master/caesar_cipher.rb)
-* [Anna Olak's Solution] (https://github.com/anna1901/ruby_building_blocks_exercises/blob/master/caesar_cipher.rb)
+* [Anna Olak's Solution](https://github.com/anna1901/ruby_building_blocks_exercises/blob/master/caesar_cipher.rb)
 </details>
 
 ### Project 2: Stock Picker
@@ -880,7 +880,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Konrad Zagozda's Solution](https://github.com/konradzagozda/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project_Public/blob/master/Ruby_projects/Stock_picker.rb)
 * [Robin Wagner's Solution](https://github.com/RobinWagner/Ruby-Building-Blocks/blob/master/stock_picker.rb)
-* [Anna Olak's Solution] (https://github.com/anna1901/ruby_building_blocks_exercises/blob/master/stock_picker.rb)
+* [Anna Olak's Solution](https://github.com/anna1901/ruby_building_blocks_exercises/blob/master/stock_picker.rb)
 </details>
 
 ### Project 3: Substrings
@@ -1294,5 +1294,5 @@ Next, make sure your method can handle multiple words:
 * [Rosanne Nicolai's Solution](https://github.com/rjnicolai/Substrings)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project_Public/blob/master/Ruby_projects/Substrings.rb)
 * [Robin Wagner's Solution](https://github.com/RobinWagner/Ruby-Building-Blocks/blob/master/substrings.rb)
-* [Anna Olak's Solution] (https://github.com/anna1901/ruby_building_blocks_exercises/blob/master/substrings.rb)
+* [Anna Olak's Solution](https://github.com/anna1901/ruby_building_blocks_exercises/blob/master/substrings.rb)
 </details>
