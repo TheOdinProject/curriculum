@@ -147,5 +147,5 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [JamCry's Solution](https://github.com/jamcry/rails-toy-app) - [Heroku](https://jamcry-toy-app.herokuapp.com/)
 * [Andre Roy's Solution](https://github.com/RoyNyaga/toy_app_odin_project)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/rails_feet_wet) - [Heroku](https://lit-castle-34505.herokuapp.com/)
-
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/toy-app) - [Heroku](https://hidden-brushlands-06627.herokuapp.com)
 </details>
