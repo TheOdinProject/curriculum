@@ -1,6 +1,6 @@
 ### Introduction
 
-Node is a JavaScript intreperter that doesn't run in the browser, there are many tools that require this to be installed. Testing frameworks and bundlers are two of many.
+Node is a JavaScript interpreter that doesn't run in the browser, there are many tools that require this to be installed. Testing frameworks and bundlers are two of many.
 
 We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change node versions and upgrade node.  There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in javascript environment.  It can be easy to confuse these two so read carefully!
 
