@@ -200,8 +200,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-recursion/blob/master/fib.rb)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/project-recursion/blob/master/fibonacci.rb)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/recursion/blob/master/fibs.rb)
-
-
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Ruby-Recursion---TOP/blob/master/fib_seq_gen.rb)
 </details>
 
 ### Project: Merge Sort
@@ -412,6 +411,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-recursion/blob/master/merge.rb)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/project-recursion/blob/master/merge_sort.rb)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/recursion/blob/master/merge_sort.rb)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Ruby-Recursion---TOP/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources
