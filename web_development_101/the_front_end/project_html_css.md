@@ -2438,6 +2438,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Synte's Solution (Easy)](https://github.com/Synte/google-homepage) - [View in Browser](https://synte.github.io/google-homepage/)
 * [Roockeyzz's Solution (Easy)](https://github.com/roockeyzz/roockeyzz.github.io) - [View in Browser](https://roockeyzz.github.io)
 * [zgparsons's Solution (Easy)](https://github.com/zgparsons/google-homepage) - [View in Browser](https://zgparsons.github.io/google-homepage/)
+* [anth-dev's Solution (Easy)](https://github.com/anth-dev/google-homepage) - [View in Browser](https://anth-dev.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
