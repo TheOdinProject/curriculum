@@ -2437,6 +2437,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Patricio Ra's Solution (Easy)](https://github.com/Patricio-Ra/google-copy) - [View in Browser](https://patricio-ra.github.io/google-copy/)
 * [Synte's Solution (Easy)](https://github.com/Synte/google-homepage) - [View in Browser](https://synte.github.io/google-homepage/)
 * [Roockeyzz's Solution (Easy)](https://github.com/roockeyzz/roockeyzz.github.io) - [View in Browser](https://roockeyzz.github.io)
+* [zgparsons's Solution (Easy)](https://github.com/zgparsons/google-homepage) - [View in Browser](https://zgparsons.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
