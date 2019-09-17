@@ -56,8 +56,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Didisha's solution](https://github.com/didishas/RockPaperScissors) - [View in Browser](https://didishas.github.io/RockPaperScissors/)
 - [James Miller's solution](https://github.com/JamesRexMiller4/rckpprscrs) - [View in Browser](https://jamesrexmiller4.github.io/rckpprscrs/)
 - [Ryan's solution](https://github.com/noirviper/rock_paper_scissor) - [View in Browser](https://noirviper.github.io/rock_paper_scissor/)
-- [Johongirr's solution](https://github.com/Johongirr/rock-paper-scizzors/) - [View in Browser]
-(https://johongirr.github.io/rock-paper-scizzors/)
+- [Johongirr's solution](https://github.com/Johongirr/rock-paper-scizzors/) - [View in Browser](https://johongirr.github.io/rock-paper-scizzors/)
 - [UpstairsBobcat's solution](https://github.com/UpstairsBobcat/rock-paper-scissors)
 - [jacavena's solution](https://github.com/Jacavena/rockpaperscissorsJS)
 - [rtheory's solution](https://github.com/rtheory/RPS)
