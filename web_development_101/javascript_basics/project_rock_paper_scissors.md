@@ -877,4 +877,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Matt Pyle's solution](https://github.com/mattpyle/rock-paper-scissors) - [View in Browser](https://mattpyle.github.io/rock-paper-scissors/)
 - [Cowlickcoleman's Solution](https://github.com/Cowlickcoleman/rock-paper-scissors) - [View in Browser](https://cowlickcoleman.github.io/rock-paper-scissors/)
 - [BlameMe's Solution](https://github.com/BlameMe/RPSOdin) - [View in Browser](https://blameme.github.io/RPSOdin/)
+- [Vinnav's Solution](https://github.com/vinnav/Odin-RockPaperScissor) - [View in Browser](https://vinnav.github.io/Odin-RockPaperScissor/)
 </details>
