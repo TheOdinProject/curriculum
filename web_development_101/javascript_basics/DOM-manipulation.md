@@ -212,7 +212,14 @@ div.setAttribute('style', 'color: blue; background: white');
 
 See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
 
-Generally style rules are the same as in CSS with the exception that hyphenated rules are changed to camelCase. I.E. "background-color" becomes "backgroundColor".
+Note that if you're accessing a kebab-cased css rule from JS, you'll either need to use camelcase or you'll need to use bracket notation instead of dot notation.
+
+~~~JavaScript
+div.style.background-color // doesn't work - attempts to subtract color from div.style.background
+div.style.backgroundColor // accesses the divs background-color style
+div.style['background-color'] // also works
+div.style.cssText = "background-color: white" // ok in a string
+~~~
 
 #### Editing Attributes
 
