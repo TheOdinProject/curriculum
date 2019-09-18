@@ -51,7 +51,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [LadyLorien's solution](https://github.com/LadyLorien/rps) - [View in Browser](https://ladylorien.github.io/rps/index.html)
 - [Siddharth Parmar's solution](https://github.com/s-par/Rock-Paper-Scissors/) - [View in Browser](https://s-par.github.io/Rock-Paper-Scissors/)
 - [Odunsi Joseph's solution](https://github.com/dhatGuy/rock-paper-scissors) - [View in Browser](https://dhatguy.github.io/rock-paper-scissors/)
-- [John Herrera's solution](https://github.com/JohnHerrera14/Rock-Paper-Scissors)
+- [John Herrera's solution]updated!(https://github.com/JohnHerrera14/Rock-Paper-Scissors)
 - [Alexander Effanga's solution](https://github.com/AstringentBeet/rock-paper-scissors-console) - [View in Browser](https://astringentbeet.github.io/rock-paper-scissors-console/)
 - [Didisha's solution](https://github.com/didishas/RockPaperScissors) - [View in Browser](https://didishas.github.io/RockPaperScissors/)
 - [James Miller's solution](https://github.com/JamesRexMiller4/rckpprscrs) - [View in Browser](https://jamesrexmiller4.github.io/rckpprscrs/)
