@@ -2433,6 +2433,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kevin Hall's Solution (Easy)](https://github.com/mrhallonline/google-homepage) - [View in browser](https://mrhallonline.github.io/google-homepage/)
 [Takhmina's solution is here (Easy)](https://github.com/MinaAhamd/google-homepage.git) - [View in Browser](https://minaahamd.github.io/google-homepage/)
 * [Ogunmola Israel's Solution (Easy)](https://github.com/Lippins/google-homepage.git) - [View in Browser](https://lippins.github.io/google-homepage/)
+* [Ogunmola Israel's Solution (Difficult)](https://github.com/Lippins/google_searchpage.git) - [View in Browser](https://lippins.github.io/google_searchpage/)
 * [MichaelB's Solution (Easy)](https://github.com/MichaelB-99/google-replica.git) - [View in Browser](https://michaelb-99.github.io/google-replica/)
 * [Patricio Ra's Solution (Easy)](https://github.com/Patricio-Ra/google-copy) - [View in Browser](https://patricio-ra.github.io/google-copy/)
 * [Synte's Solution (Easy)](https://github.com/Synte/google-homepage) - [View in Browser](https://synte.github.io/google-homepage/)
