@@ -35,7 +35,7 @@ Here are some use cases (abilities your project needs to have):
 8. EXTRA CREDIT: Make it look nice! This can be a good portfolio project... but not if it's UGLY. At least make the operations a different color from the keypad buttons.
 9. EXTRA CREDIT: Add a "backspace" button, so the user can undo if they click the wrong number.
 10. EXTRA CREDIT: Add keyboard support!
-</div>
+    </div>
 
 ### Student Solutions
 
@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [LucasNativo's Solution](https://github.com/lucasnativo/calculator) - [View in Browser](https://github.com/lucasnativo/calculator)
 - [hamilto8's Solution](https://github.com/hamilto8/javascript_calculator) - [View in Browser](https://hamilto8.github.io/javascript_calculator/)
 - [fobos531's Solution](https://github.com/fobos531/calculator) - [View in Browser](https://fobos531.github.io/calculator)
 - [Nihir Agarwal's Solution](https://github.com/nihirag/calculator) - [View in Browser](https://nihirag.github.io/calculator)
@@ -383,4 +384,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tomstrat's solution](https://github.com/tomstrat/Calculator) - [View in Browser](https://tomstrat.github.io/Calculator/)
 - [crongle's solution](https://github.com/crongle/calculator) - [View in Browser](https://crongle.github.io/calculator/)
 - [Robert Suazo's solution](https://github.com/rsuazo/calculator) - [View in Browser](https://rsuazo.github.io/calculator/)
-</details>
+  </details>
