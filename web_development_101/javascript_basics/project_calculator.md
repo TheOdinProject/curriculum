@@ -35,7 +35,7 @@ Here are some use cases (abilities your project needs to have):
 8. EXTRA CREDIT: Make it look nice! This can be a good portfolio project... but not if it's UGLY. At least make the operations a different color from the keypad buttons.
 9. EXTRA CREDIT: Add a "backspace" button, so the user can undo if they click the wrong number.
 10. EXTRA CREDIT: Add keyboard support!
-    </div>
+</div>
 
 ### Student Solutions
 
@@ -384,4 +384,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tomstrat's solution](https://github.com/tomstrat/Calculator) - [View in Browser](https://tomstrat.github.io/Calculator/)
 - [crongle's solution](https://github.com/crongle/calculator) - [View in Browser](https://crongle.github.io/calculator/)
 - [Robert Suazo's solution](https://github.com/rsuazo/calculator) - [View in Browser](https://rsuazo.github.io/calculator/)
-  </details>
+</details>
