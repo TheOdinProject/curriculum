@@ -88,7 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Noelle Anderson's Solution (Difficult)](https://elleon003.github.io/google-homepage/)
+* [Noelle Anderson's Solution (Difficult)](https://github.com/elleon003/google-homepage) - [View in Browser](https://elleon003.github.io/google-homepage/)
 * [Albert Jiang's Solution (Easy)](https://github.com/albertj320/google-homepage) - [View in Browser](https://albertj320.github.io/google-homepage/)
 * [Patrick Silvestre's Solution (Easy)](https://github.com/pjsilvestre/top-google-homepage) - [View in Browser](https://pjsilvestre.github.io/top-google-homepage/)
 * [Olugbade Olalekan's Solution (Easy)](https://github.com/gbadesimple/google-homepage) - [View in Browser](https://gbadesimple.github.io/google-homepage/)
