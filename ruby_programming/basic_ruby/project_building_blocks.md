@@ -915,6 +915,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vivien Keegan's Solution](https://github.com/vktion/theodinproject_ruby_assignments/blob/master/caesar_cipher.rb)
 * [Uzay-G's solution](https://github.com/Uzay-G/ruby_exercises/blob/master/substrings.rb)
 * [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby)
 * [Norman's Solution](https://github.com/isaza00/project_building_blocks/blob/master/substrings.rb)
