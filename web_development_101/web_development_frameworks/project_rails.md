@@ -420,7 +420,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/blogger) - [View in Browser](https://blogger1459.herokuapp.com/) I0 - I5
 * [Martink-rsa's solution](https://github.com/martink-rsa/blogger)
 * [TuSeMorte's solution](https://github.com/TuSeMorte/blogger) - [View in Browser](https://hidden-escarpment-21981.herokuapp.com/)
-
+* [David Watkin's solution](https://github.com/DavidWatkinCode/blogger) - [View in browser](https://whispering-harbor-45352.herokuapp.com/)
 </details>
 
 ### Additional Resources
