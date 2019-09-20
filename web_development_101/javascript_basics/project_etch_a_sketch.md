@@ -541,4 +541,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Cacurriapower's Solution](https://github.com/Cacurriapower/Etch_a_Sketch) - [View in Browser](https://Cacurriapower.github.io/Etch_a_Sketch/)
 * [Steve Lally's Solution](https://github.com/slally89/Etch-a-Sketch) - [View in Browser](https://slally89.github.io/Etch-a-Sketch/)
 * [Pedro Windisch's Solution](https://github.io/pedrowindisch/TOP-etch-a-sketch) - [View in Browser](https://pedrowindisch.github.io/TOP-etch-a-sketch/)
+* [Vinnav's Solution](https://github.com/vinnav/Odin-Etch-a-sketch) - [View in Browser](https://vinnav.github.io/Odin-Etch-a-sketch/)
 </details>
