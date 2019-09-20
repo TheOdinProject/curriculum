@@ -881,4 +881,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vinnav's Solution](https://github.com/vinnav/Odin-RockPaperScissor) - [View in Browser](https://vinnav.github.io/Odin-RockPaperScissor/)
 - [Bennion's Solution](https://github.com/Samyo07/Rock-Paper-Scissors)
 - [Begum's Solution](https://github.com/beguminanc/rock_paper_scissors) - [View in Browser](https://beguminanc.github.io/rock_paper_scissors/)
+- [dan-z-haas's Solution](https://github.com/dan-z-haas/Project-Rock-Paper-Scissors) - [View in Browser](https://dan-z-haas.github.io/Project-Rock-Paper-Scissors/)
 </details>
