@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/odin-kittens)
 * [Learnsometing's Solution](https://github.com/learnsometing/rails-odin-apis_users)
 * [Simon Tharby's solution](https://github.com/jinjagit/kittens-api)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-kittens)
