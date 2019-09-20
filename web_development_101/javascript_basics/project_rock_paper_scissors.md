@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Bryan Carbone's solution](https://github.com/carbone84/rock-paper-scissors)
 - [kichilu's solution](https://github.com/kichilu/Rock-Paper-Scissors)
 - [nearmint's solution](https://github.com/nearmint/rock-paper-scissors) - [View in Browser](https://nearmint.github.io/rock-paper-scissors/)
 - [Paul Wu's solution](https://github.com/wutangme/rock-paper-scissors) - [View in Browser](https://wutangme.github.io/)
