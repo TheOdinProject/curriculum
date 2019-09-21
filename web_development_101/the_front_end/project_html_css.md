@@ -2445,8 +2445,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Branden Carney's Solution (Easy)](https://github.com/BCarney1989/google-homepage) - [View in Browser](https://bcarney1989.github.io/google-homepage/)
 * [Siddhanth's Solution (Easy)](https://github.com/vinecreeper888/google-homepage) - [View in Browser](https://vinecreeper888.github.io/google-homepage/)
 * [Christopher's Solution (Easy)](https://github.com/gandolfthewise/google-homepage) - [View in Browser](https://gandolfthewise.github.io/google-homepage/) 
-
-https://qgeo.github.io/google-homepage/
+* [qgeo's Solution (Easy)](https://github.com/qgeo/google-homepage) - [View in Browser](https://qgeo.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
