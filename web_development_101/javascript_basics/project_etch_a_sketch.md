@@ -43,6 +43,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Esteban's Solution](https://github.com/estebanmoroy/etch-a-sketch) - [View in Browser](https://estebanmoroy.github.io/etch-a-sketch/)
+* [Kristi Dugan's Solution](https://github.com/KristiDugan/etch-a-sketch) - [View in Browser](https://kristidugan.github.io/etch-a-sketch/)
+* [nearmint's Solution](https://github.com/nearmint/etch-a-sketch) - [View in Browser](https://nearmint.github.io/etch-a-sketch/)
+* [vladutclp's Solution](https://github.com/vladutclp/Etch-a-Sketch) - [View in Browser](https://vladutclp.github.io/Etch-a-Sketch/)
+* [Nico's Solution](https://github.com/niconacht/etch-a-sketch) - [View in Browser](https://niconacht.github.io/etch-a-sketch/)
+* [LadyLorien's Solution](https://github.com/LadyLorien/etch-a-sketch) - [View in Browser](https://ladylorien.github.io/etch-a-sketch/index.html)
 * [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/03-JavaScript_Basics/etch-a-sketch) - [View in Browser](https://limitless-crag-49299.herokuapp.com/)
 * [Graeme Allen's Solution](https://github.com/Graeme-Allen/etcha-sketch) - [View in Browser](https://graeme-allen.github.io/etcha-sketch/)
 * [Jitendra Rathore's Solution](https://github.com/jitendrrathore/etch-a-sketch) - [View in Browser](https://jitendrrathore.github.io/etch-a-sketch/)
@@ -535,4 +541,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Cacurriapower's Solution](https://github.com/Cacurriapower/Etch_a_Sketch) - [View in Browser](https://Cacurriapower.github.io/Etch_a_Sketch/)
 * [Steve Lally's Solution](https://github.com/slally89/Etch-a-Sketch) - [View in Browser](https://slally89.github.io/Etch-a-Sketch/)
 * [Pedro Windisch's Solution](https://github.io/pedrowindisch/TOP-etch-a-sketch) - [View in Browser](https://pedrowindisch.github.io/TOP-etch-a-sketch/)
+* [Vinnav's Solution](https://github.com/vinnav/Odin-Etch-a-sketch) - [View in Browser](https://vinnav.github.io/Odin-Etch-a-sketch/)
 </details>

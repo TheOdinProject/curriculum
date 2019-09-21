@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/responsive-design) - [View in browser](https://learnsometing.github.io/responsive-design/)
 * [Bojo's solution](https://github.com/BojoZahariev/TheNextWeb-homepage) - [View in browser](https://bojozahariev.github.io/TheNextWeb-homepage/)
 * [bcikota's solution](https://github.com/bcikota/the_next_web) - [View in browser](https://bcikota.github.io/the_next_web/)
 * [Ohlie's solution](https://github.com/lco1220/theNextWeb_RWD) - [View in browser](https://lco1220.github.io/theNextWeb_RWD)
