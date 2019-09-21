@@ -879,9 +879,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tony Moreno's Solution](https://github.com/tonymoreno86/rockpaperscissors)
 - [Matt Pyle's solution](https://github.com/mattpyle/rock-paper-scissors) - [View in Browser](https://mattpyle.github.io/rock-paper-scissors/)
 - [Cowlickcoleman's Solution](https://github.com/Cowlickcoleman/rock-paper-scissors) - [View in Browser](https://cowlickcoleman.github.io/rock-paper-scissors/)
-<<<<<<< HEAD
-- [Roockeyzz's Solution] (https://github.com/roockeyzz/rockPaperScissors)
-=======
 - [BlameMe's Solution](https://github.com/BlameMe/RPSOdin) - [View in Browser](https://blameme.github.io/RPSOdin/)
 - [Vinnav's Solution](https://github.com/vinnav/Odin-RockPaperScissor) - [View in Browser](https://vinnav.github.io/Odin-RockPaperScissor/)
 - [Bennion's Solution](https://github.com/Samyo07/Rock-Paper-Scissors)
@@ -890,5 +887,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vinícius Bonifácio's Solution](https://github.com/vinicius77/rock-paper-scissor)
 - [Michaelimai's Solution](https://github.com/michaelimai/RPS-project-v1)
 - [vinnav's Solution](https://github.com/vinnav/Odin-RockPaperScissor) - [View in Browser](https://vinnav.github.io/Odin-RockPaperScissor/)
->>>>>>> 24bdf50b31f2fda082e3906c8554228886ad6bea
+- [Synte's Solution](https://github.com/Synte/rock-paper-scissors)
+- [Roockeyzz's Solution](https://github.com/roockeyzz/rockPaperScissors)
 </details>
