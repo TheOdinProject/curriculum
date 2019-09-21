@@ -888,4 +888,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Michaelimai's Solution](https://github.com/michaelimai/RPS-project-v1)
 - [vinnav's Solution](https://github.com/vinnav/Odin-RockPaperScissor) - [View in Browser](https://vinnav.github.io/Odin-RockPaperScissor/)
 - [Synte's Solution](https://github.com/Synte/rock-paper-scissors)
+- [Roockeyzz's Solution](https://github.com/roockeyzz/rockPaperScissors)
 </details>
