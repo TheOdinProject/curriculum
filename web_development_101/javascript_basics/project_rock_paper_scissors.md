@@ -885,4 +885,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Begum's Solution](https://github.com/beguminanc/rock_paper_scissors) - [View in Browser](https://beguminanc.github.io/rock_paper_scissors/)
 - [dan-z-haas's Solution](https://github.com/dan-z-haas/Project-Rock-Paper-Scissors) - [View in Browser](https://dan-z-haas.github.io/Project-Rock-Paper-Scissors/)
 - [Vinícius Bonifácio's Solution](https://github.com/vinicius77/rock-paper-scissor)
+- [Michaelimai's Solution](https://github.com/michaelimai/RPS-project-v1)
 </details>
