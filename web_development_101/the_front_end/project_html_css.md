@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [FranzYoseph's Solution (Easy)](https://github.com/FranzYoseph/google-project) - [View in Browser](https://franzyoseph.github.io/)
 * [Abimael's Solution (Easy and Difficult)](https://github.com/Abimael1996/my-google)
 * [Paris' Solution (Easy)](https://github.com/Woodhouse1919/google-homepage) - [View in Browser](https://woodhouse1919.github.io/google-homepage/)
 * [Paris' Solution (Difficult)](https://github.com/Woodhouse1919/google-searchpage) - [View in Browser](https://woodhouse1919.github.io/google-searchpage/)
