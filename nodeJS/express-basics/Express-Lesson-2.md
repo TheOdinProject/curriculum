@@ -1,5 +1,17 @@
 After setting up the skeleton for your project it's time to set up the database.  As usual, there's quite a bit of background information that you will find useful as you progress.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Explain CRUD and how it correlates to HTTP methods in Express.
+- Describe MVC and how it correlates to Express.
+- Describe databases and ORMs as well as how to use them with Node/Express apps.
+- Design and create your own models using Mongoose.
+- Declare object schema and models.
+- Describe the main field types and basic validation.
+- List a few ways to access model data.
+- Test models by creating a number of instances (using a standalone script). 
+
 ### CRUD
 
 CRUD is a concept that comes up a lot in web development, and it's the type of thing that might show up in interview questions so it's worth taking a little time to make sure you understand what it refers to. Thankfully, it's a relatively simple concept.

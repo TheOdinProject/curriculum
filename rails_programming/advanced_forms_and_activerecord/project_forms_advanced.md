@@ -71,6 +71,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/odin-flight-booker)
 * [Learnsometing's solution](https://github.com/learnsometing/rails-flight_booker)
 * [Simon Tharby's solution](https://github.com/jinjagit/flight-booker) | [View in browser](https://aqueous-citadel-60266.herokuapp.com)
 * [amundskm's Solution](https://github.com/amundskm/odin-flight-booker)
@@ -145,6 +146,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/odin-flight-booker) - [View in Browser](https://intense-sea-16053.herokuapp.com/)
 * [vanny96's Solution](https://github.com/vanny96/flight-booker) - [View in Browser](https://fast-savannah-97084.herokuapp.com/)
 * [JamCry's Solution](https://github.com/jamcry/flight-booker) - [Live on Heroku](https://dry-caverns-97659.herokuapp.com/)
+* [themetar's Solution](https://github.com/themetar/flight-booker-top)
 
 </details>
 

@@ -21,7 +21,7 @@ As with the previous chapter, just make sure you're writing the test specs in th
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-  * Do the [Ruby on Rails Tutorial Chapter 13](https://www.railstutorial.org/book/user_microposts), "User microposts".
+  * Do the [Ruby on Rails Tutorial Chapter 13](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/user_microposts), "User microposts".
 </div>
 
 ### Project 2: Private Events
@@ -77,6 +77,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/private-events)
 * [Learnsometing's solution](https://github.com/learnsometing/rails-private_events)
 * [Simon Tharby's solution](https://github.com/jinjagit/social_light) - [View in browser](https://social-light-simontharby.herokuapp.com/)
 * [prw001's solution](https://github.com/prw001/private_events)

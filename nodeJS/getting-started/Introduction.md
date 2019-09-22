@@ -45,7 +45,7 @@ When you run this program Node will start at the top and begin reading the file 
 
 While both of these processes are running, Node sits and waits on an _event_.  In this case, it is waiting on the completion of both processes, the reading of a file and the database query. When either of these tasks are finished, Node will fire off an event that will run the next function we've defined. So if the read-file process finishes first, it will print the file contents. If the database query finishes first, it will start the filtering process. As the programmer, we don't know or care which order the two processes are going to be completed. If this code was processed syncronously (rather than asyncronously) we would have to wait for each step in the program before moving on to the next one, which could cause things to slow down considerably.  If the file that we needed to read was really long then we might have to wait a few seconds before the database query could begin.
 
-This process is almost exactly like they way that you would use `addEventListener` in front-end JavaScript to wait for a user action such as a mouse-click or keyboard press.  The main difference is that the events are going to be things such as network requests and database queries. This functionality is facilitated through the use of callbacks. Callbacks are incredibly important to Node so take a minute to read through [this article](https://briggs.dev/blog/understanding-callbacks), to make sure you're up to speed.
+This process is almost exactly like the way that you would use `addEventListener` in front-end JavaScript to wait for a user action such as a mouse-click or keyboard press.  The main difference is that the events are going to be things such as network requests and database queries. This functionality is facilitated through the use of callbacks. Callbacks are incredibly important to Node so take a minute to read through [this article](https://briggs.dev/blog/understanding-callbacks), to make sure you're up to speed.
 
 Let's look at a quick real-world example:
 
@@ -73,14 +73,15 @@ This snippet is from the very first lesson in a tutorial that you'll be followin
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-- link to stuff!
+
+- Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 
 <details>
-<summary>a question</summary>
+<summary>What is Node?</summary>
 <ul><ul>
-  <li>the answer to that question</li>
+  <li>Node.js is an open-source, cross-platform JavaScript runtime environment built to be run outside of the browser.</li>
 </ul></ul>
 </details>

@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/responsive-design) - [View in browser](https://learnsometing.github.io/responsive-design/)
 * [Bojo's solution](https://github.com/BojoZahariev/TheNextWeb-homepage) - [View in browser](https://bojozahariev.github.io/TheNextWeb-homepage/)
 * [bcikota's solution](https://github.com/bcikota/the_next_web) - [View in browser](https://bcikota.github.io/the_next_web/)
 * [Ohlie's solution](https://github.com/lco1220/theNextWeb_RWD) - [View in browser](https://lco1220.github.io/theNextWeb_RWD)
@@ -77,6 +78,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [aznafro's solution](https://github.com/aznafro/tnw) - [View in browser](https://aznafro.github.io/thenextweb/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/The-next-web) - [View in browser](https://areebaishtiaq.github.io/The-next-web/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/thenextwebmockup) - [View in browser](https://taylorjohannsen.github.io/thenextwebmockup/)
+* [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/carloshdelreal/building-with-responsive-design) - [View in browser](https://carloshdelreal.github.io/building-with-responsive-design/)
 
 </details>
 

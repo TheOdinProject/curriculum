@@ -69,6 +69,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrija Jelenkovic's Solution with extra credit](https://github.com/Amdrija/ruby-practice)
+* [Chris' Solution w/ extra credit](https://github.com/CSalois114/project_linked_list/blob/master/linked_list.rb)
+* [Jose Salvador's Solution with extra credit](https://github.com/Jsalvadorpp/Ruby-Data-Structures/blob/master/linkedLists.rb)
+* [Alain Suarez's Solution with extra credit](https://gitlab.com/asuar/ruby-linkedlist)
+* [Jay Burbyga's Solution (w/ extra credit)](https://github.com/Jaybur1/ruby_exercises/blob/master/linked_list/linked_list.rb)
+* [JFAldridge's Solution (w/ extra credit)](https://github.com/JFAldridge/ruby_linked_list)
+* [Leonardo Vega's Solution (with extra credit)](https://github.com/leonardovega/ruby_programming/blob/master/computer_science/project_linked_lists.rb)
 * [BShowen's Solution w/extra credit](https://github.com/BShowen/Linked_list_in_Ruby)
 * [Arilson Souza Solution](https://github.com/arilsonsouza/the_odin_project/blob/master/ruby/project_linked_lists/linked_list.rb)
 * [Vollantre's Solution](https://github.com/vollantre/linked_list/blob/master/linked_list.rb)
@@ -187,4 +194,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Wesley Wang's Solution (with extra credit)](https://github.com/wesleymellon/linked-list-structure)
 * [Alex Krewson's Solution (with extra credit)](https://github.com/alexkrewson/linked_lists)
 * [Rey van den Berg's Solution (with extra credit)](https://github.com/Rey810/Linked-List-Data-Structure-)
+* [Sergej Jurchenko's Solution (with extra credit)](https://github.com/Sergyurch/linked_list/blob/master/linked_list.rb)
+* [Han Josmer's solution (with extra credit)](https://github.com/HanJosmer/ruby_programming/blob/master/linked_lists/linked_lists.rb)
+* [Robert Dunbar's solution (with extra credit)](https://github.com/RobertDunbar/ruby-linked-list)
+* [Ben Fowler's solution (with extra credit)](https://github.com/benfowler04/ruby-cs/blob/master/linked_list.rb)
+* [Bendee48's solution (with extra credit)](https://github.com/bendee48/Data-Structures/blob/master/linked_lists.rb)
+* [Ray Alvarez's solution (with extra credit)](https://github.com/ray-alvarez/linkedlists)
+* [Brett Bonnet's solution (with extra credit)](https://github.com/Brett-Bonnet/linked_lists)
+
 </details>
