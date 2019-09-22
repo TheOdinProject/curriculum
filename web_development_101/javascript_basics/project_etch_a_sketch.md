@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Anmol's Solution](https://github.com/6point022/Etch-a-Sketch) - [View in Browser](https://6point022.github.io/Etch-a-Sketch/)
 * [Ben's Solution](https://github.com/Koshoo/etch-a-sketch) - [View in Browser](https://koshoo.github.io/etch-a-sketch/)
 * [Brian's Solution](https://github.com/briantuju/odinProject/tree/master/e-a-sketch) - [View in Browser](https://briantuju.github.io/odinProject/e-a-sketch/index.html)
 * [Barrie's solution](https://github.com/barrielake/etch-a-sketch) - [View in Browser](https://barrielake.github.io/etch-a-sketch/)
