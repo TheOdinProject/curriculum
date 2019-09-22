@@ -34,7 +34,15 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ~~~
 
-if this returns `nvm: command not found` close the terminal and re-open it. Then try running the above command again. If you get anything else, you're good to continue!
+if this returns `nvm: command not found` close the terminal and re-open it.
+
+On OS X you may continue to see the same message. If this happens, open your .bash_profile and add the following line of code:
+~~~
+source ~/.bashrc
+~~~
+For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+
+Then try running the above command again. If you get anything else, you're good to continue!
 
 ### Step 2: Installing Node
 
