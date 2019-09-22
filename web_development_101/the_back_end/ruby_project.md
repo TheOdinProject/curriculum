@@ -580,6 +580,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Halkim44's solution](https://github.com/halkim44/learn_ruby)
 * [Kelly Joseph's solution](https://github.com/seisolo76/learn_ruby)
 * [David Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/ruby/exercises)
+* [ZeCheeseKing's solution](https://github.com/zecheeseking/learn_ruby)
 
 </details>
 
