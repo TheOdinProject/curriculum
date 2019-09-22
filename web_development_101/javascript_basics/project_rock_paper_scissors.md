@@ -889,4 +889,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [vinnav's Solution](https://github.com/vinnav/Odin-RockPaperScissor) - [View in Browser](https://vinnav.github.io/Odin-RockPaperScissor/)
 - [Synte's Solution](https://github.com/Synte/rock-paper-scissors)
 - [Roockeyzz's Solution](https://github.com/roockeyzz/rockPaperScissors)
+- [DalandanJuice's Console Solution](https://github.com/DalandanJuice/rock-paper-scissors) - [View in Browser](https://dalandanjuice.github.io/rock-paper-scissors/)
 </details>
