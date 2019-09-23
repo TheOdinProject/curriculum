@@ -60,6 +60,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Daniel Prince's Solution](https://github.com/danielambrosius/learn_ruby)
 * [Sarp's Solution](https://github.com/sarpisik/learn_ruby)
 * [Emmanuel Oni's Solution](https://github.com/emmaoni/learn_ruby)
+* [BasicBrownie's Solution](https://github.com/basicbrownie/learn_ruby)
 * [Neill Henning's solution](https://github.com/Rabidza/learn_ruby)
 * [Iacobssorin solution](https://github.com/Iacobssorin/learn_ruby)
 * [Dylan's solution](https://github.com/proto-dylan/learn_ruby)
