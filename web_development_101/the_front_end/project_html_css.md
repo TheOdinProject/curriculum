@@ -2451,7 +2451,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Christopher's Solution (Easy)](https://github.com/gandolfthewise/google-homepage) - [View in Browser](https://gandolfthewise.github.io/google-homepage/) 
 * [qgeo's Solution (Easy)](https://github.com/qgeo/google-homepage) - [View in Browser](https://qgeo.github.io/google-homepage/)
 * [elsmog's Solution (Easy)](https://github.com/elsmog/google-homepage) - [View in Browser](https://github.com/elsmog/google-homepage/)
-* [Nahabwe's Solution (Easy)] (https://https://musicmeetscode.github.io/google-homepage/) - [View in Browser] (https://github.com/musicmeetscode/google-homepage/)
+* [Nahabwe's Solution (Easy)](https://github.com/musicmeetscode/google-homepage/)
 </details>
 
 ### Additional Resources
