@@ -896,5 +896,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vorelli's Solution](https://github.com/Vorelli/rock-paper-scissors) - [View in Browser](https://vorelli.github.io/rock-paper-scissors/)
 - [Hyperturing's Solution](https://github.com/hyperturing/TOP-RockPaperScissors) - [View in Browser](https://github.com/hyperturing/TOP-RockPaperScissors)
 - [Dominic's solution](https://github.com/dowo13/Finished-Rock-Paper-Scissors.git) - [View in Browser](https://dowo13.github.io/Finished-Rock-Paper-Scissors/)
+- [Sam Akers' Solution](https://github.com/samakers/rock-paper-scissors) 
 </details>
 
