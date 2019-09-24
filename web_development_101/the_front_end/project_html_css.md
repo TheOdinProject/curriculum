@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Amin's Solution (Easy)](http://amino.design/minoSearch) - [View in Browser](https://hanamin.github.io/minoSearch/)
 * [FranzYoseph's Solution (Easy)](https://github.com/FranzYoseph/google-project) - [View in Browser](https://franzyoseph.github.io/)
 * [sphuong95's Solution (Easy)](https://github.com/sphuong95/google-homepage) - [View in Browser](https://sphuong95.github.io/google-homepage/)
 * [Abimael's Solution (Easy and Difficult)](https://github.com/Abimael1996/my-google)
