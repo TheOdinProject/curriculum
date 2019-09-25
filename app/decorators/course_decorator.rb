@@ -34,7 +34,8 @@ class CourseDecorator < ApplicationDecorator
       'Javascript' => 'badge-javascript.svg',
       'Ruby on Rails' => 'badge-ruby-on-rails.svg',
       'Getting Hired' => 'badge-getting-hired.svg',
-      'Databases' => 'badge-database.svg'
+      'Databases' => 'badge-database.svg',
+      'NodeJS' => 'badge-nodejs.svg'
     }
   end
 
