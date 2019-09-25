@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [cbhaugen's solution](https://github.com/cbhaugen/RockPaperScissors.git)
 - [William Bowen's solution](https://github.com/WillWBowen/rock-paper-scissors)
 - [Patrick Silvestre's solution](https://github.com/pjsilvestre/top-rock-paper-scissors)
 - [Nahabwe's solution](https://github.com/musicmeetscode/rock-paper-scissor)
@@ -81,7 +82,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ukeje Michgolden's solution](https://github.com/mikenath223/project_rock_paper_scissors) - [View in Browser](https://mikenath223.github.io/project_rock_paper_scissors/)
 - [Carlos 'Bauer' Rocha's solution](https://github.com/CarlosRenan/rock-paper-scissors)
 - [Ukeje Michgolden's solution](https://github.com/mikenath223/Rock-Paper-Scissors-game-Console-based) -[View in browser](https://mikenath223.github.io/Rock-Paper-Scissors-game-Console-based/)
-- [JeremyBeyond's solution](https://github.com/ugSh7hbY/rock-paper-scissor) - [View in Browser](https://ugsh7hby.github.io/rock-paper-scissor/) 
+- [JeremyBeyond's solution](https://github.com/ugSh7hbY/rock-paper-scissor) - [View in Browser](https://ugsh7hby.github.io/rock-paper-scissor/)
 - [Chris M's solution](https://github.com/chris-mahmood/rock-paper-scissors) - [View in Browser](https://chris-mahmood.github.io/rock-paper-scissors/)
 - [Joe the Code Monkey's solution](https://github.com/JoeTheCodeMonkey/jtcm_rock_paper_scissors)
 - [Nikola Jovanovic's solution](https://github.com/nikola1912/rock-paper-scissors) - [View in Browser](https://nikola1912.github.io/rock-paper-scissors/)
@@ -897,6 +898,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vorelli's Solution](https://github.com/Vorelli/rock-paper-scissors) - [View in Browser](https://vorelli.github.io/rock-paper-scissors/)
 - [Hyperturing's Solution](https://github.com/hyperturing/TOP-RockPaperScissors) - [View in Browser](https://github.com/hyperturing/TOP-RockPaperScissors)
 - [Dominic's solution](https://github.com/dowo13/Finished-Rock-Paper-Scissors.git) - [View in Browser](https://dowo13.github.io/Finished-Rock-Paper-Scissors/)
-- [Sam Akers' Solution](https://github.com/samakers/rock-paper-scissors) 
+- [Sam Akers' Solution](https://github.com/samakers/rock-paper-scissors)
 </details>
-
