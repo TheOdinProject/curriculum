@@ -2454,7 +2454,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [elsmog's Solution (Easy)](https://github.com/elsmog/google-homepage) - [View in Browser](https://github.com/elsmog/google-homepage/)
 * [Nahabwe's Solution (Easy)](https://github.com/musicmeetscode/google-homepage/)
 * [Zamir's Solution (Easy)](https://github.com/zamirkanji/google-homepage) - [View in Browser](https://zamirkanji.github.io/google-homepage/)
-* [Jeffrey's Solution (Easy)](https://github.com/Jding9/google-homepage) - [View in Browser](https://jding9.github.io/google-homepage/)
+* [Omar's Solution (Easy)](https://github.com/hunterv3/google-homepage) - [View in Browser](https://hunterv3.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
