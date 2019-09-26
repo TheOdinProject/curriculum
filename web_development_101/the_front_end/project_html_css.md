@@ -2444,7 +2444,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Vinícius Bonifácio's Solution (Hard)](https://github.com/vinicius77/google-homepage-version2) - [View in Browser](https://vinicius77.github.io/google-homepage-version2/)
 * [Fastine's Solution (Easy)](https://github.com/Fastine/google-homepage) - [View in Browser](https://fastine.github.io/google-homepage/)
 * [Kevin Hall's Solution (Easy)](https://github.com/mrhallonline/google-homepage) - [View in browser](https://mrhallonline.github.io/google-homepage/)
-[Takhmina's solution is here (Easy)](https://github.com/MinaAhamd/google-homepage.git) - [View in Browser](https://minaahamd.github.io/google-homepage/)
+* [Takhmina's Solution (Easy)](https://github.com/MinaAhamd/google-homepage.git) - [View in Browser](https://minaahamd.github.io/google-homepage/)
 * [Ogunmola Israel's Solution (Easy)](https://github.com/Lippins/google-homepage.git) - [View in Browser](https://lippins.github.io/google-homepage/)
 * [Ogunmola Israel's Solution (Difficult)](https://github.com/Lippins/google_searchpage.git) - [View in Browser](https://lippins.github.io/google_searchpage/)
 * [MichaelB's Solution (Easy)](https://github.com/MichaelB-99/google-replica.git) - [View in Browser](https://michaelb-99.github.io/google-replica/)
@@ -2460,6 +2460,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [elsmog's Solution (Easy)](https://github.com/elsmog/google-homepage) - [View in Browser](https://github.com/elsmog/google-homepage/)
 * [Nahabwe's Solution (Easy)](https://github.com/musicmeetscode/google-homepage/)
 * [Zamir's Solution (Easy)](https://github.com/zamirkanji/google-homepage) - [View in Browser](https://zamirkanji.github.io/google-homepage/)
+* [HelixF's Solution (Easy)](https://github.com/HelixF/Google-Homepage) - [View in Browser](https://helixf.github.io/Google-Homepage/)
 * [Jeffrey's Solution (Easy)](https://github.com/Jding9/google-homepage) - [View in Browser](https://jding9.github.io/google-homepage/)
 * [Omar's Solution (Easy)](https://github.com/hunterv3/google-homepage) - [View in Browser](https://hunterv3.github.io/google-homepage/)
 </details>
