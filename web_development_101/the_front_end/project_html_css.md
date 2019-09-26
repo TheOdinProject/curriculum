@@ -88,12 +88,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Kosher's Solution (Hard)](https://kosherkill.github.io/google-results/) - [View in Browser](https://kosherkill.github.io/google-results/)
+* [Kosher's Solution (Easy)](https://kosherkill.github.io/google-homepage/) - [View in Browser](https://kosherkill.github.io/google-homepage/)
 * [Argel's Solution (Easy)](https://github.com/argelomnes/google-homepage) - [View in Browser](https://argelomnes.github.io/google-homepage/)
-=======
 * [Matt's Solution (Easy)](https://github.com/misterlewis07/google-homepage) - [View in Browser](https://misterlewis07.github.io/google-homepage/)
-=======
 * [Mohamed Sabry's Solution (Easy)](https://github.com/pysabry/google-homepage) - [View in Browser](https://pysabry.github.io/google-homepage/)
-=======
 * [Nathaniades' Solution (Easy)](https://github.com/nathaniades/google-homepage) - [View in Browser](https://nathaniades.github.io/google-homepage/)
 * [Amin's Solution (Easy)](http://amino.design/minoSearch) - [View in Browser](https://hanamin.github.io/minoSearch/)
 * [FranzYoseph's Solution (Easy)](https://github.com/FranzYoseph/google-project) - [View in Browser](https://franzyoseph.github.io/)
@@ -2461,6 +2460,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [elsmog's Solution (Easy)](https://github.com/elsmog/google-homepage) - [View in Browser](https://github.com/elsmog/google-homepage/)
 * [Nahabwe's Solution (Easy)](https://github.com/musicmeetscode/google-homepage/)
 * [Zamir's Solution (Easy)](https://github.com/zamirkanji/google-homepage) - [View in Browser](https://zamirkanji.github.io/google-homepage/)
+* [Jeffrey's Solution (Easy)](https://github.com/Jding9/google-homepage) - [View in Browser](https://jding9.github.io/google-homepage/)
 * [Omar's Solution (Easy)](https://github.com/hunterv3/google-homepage) - [View in Browser](https://hunterv3.github.io/google-homepage/)
 </details>
 
