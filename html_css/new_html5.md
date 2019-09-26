@@ -19,7 +19,7 @@ HTML5 brought in a lot of nice new features, many geared specifically towards gi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Check out [Dive into HTML5](http://diveintohtml5.info), which is a website and book on the cool stuff about HTML5.
+1. Check out [Dive into HTML5](http://diveintohtml5.it/), which is a website and book on the cool stuff about HTML5.
 2. Look over [What's new in HTML5 from About](http://webdesign.about.com/od/html5/a/html_5_whats_new.htm)
 </div>
 

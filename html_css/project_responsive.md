@@ -12,7 +12,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Try to discover which browser widths are "breakpoints" where element properties change (e.g. the sidebar disappearing).  Make a plan for which elements need to be modified at which widths.
-6. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+6. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 7. Now -- before you've filled in any of these divs -- add in the media queries and positioning/floating attributes that are needed to make them rearrange as necessary when the browser changes sizes.
 8. Once you've got the page layout performing as it should, fill in the divs and style them to look like the original homepage.  Don't get lost in the details -- it's okay if it isn't exact.
 9. Double check that all the elements still behave just like the original when the browser size is changed.
@@ -20,9 +20,32 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_responsive.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Learnsometing's solution](https://github.com/learnsometing/responsive-design) - [View in browser](https://learnsometing.github.io/responsive-design/)
+* [Bojo's solution](https://github.com/BojoZahariev/TheNextWeb-homepage) - [View in browser](https://bojozahariev.github.io/TheNextWeb-homepage/)
+* [bcikota's solution](https://github.com/bcikota/the_next_web) - [View in browser](https://bcikota.github.io/the_next_web/)
+* [Ohlie's solution](https://github.com/lco1220/theNextWeb_RWD) - [View in browser](https://lco1220.github.io/theNextWeb_RWD)
+* [Bola Buari's solution](https://github.com/bolah2009/tnw-clone) - [View in browser](https://bolah2009.github.io/tnw-clone)
+* [Jason McKee's solution](https://github.com/jttmckee/responsive-practice) - [View in browser](https://jttmckee.github.io/responsive-practice/)
+* [ARaut9's solution](https://github.com/ARaut9/TNW_responsive_homepage) - [View in browser](https://araut9.github.io/TNW_responsive_homepage/)
+* [Ricala's solution](https://github.com/Ricala/tnw-responsive-design) - [View in browser](https://ricala.github.io/tnw-responsive-design/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/responsive) - [View in browser](https://n00bg1rl.github.io/responsive/)
+* [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/thenextweb.html)
+* [Chris MacSwan's solution](https://github.com/cmacswan07/responsive_design) - [View in browser](https://cmacswan07.github.io/responsive_design/index.html)
+* [Javier Machin's solution](https://github.com/Javier-Machin/responsive-design) - [View in browser](https://javier-machin.github.io/responsive-design/)
+* [nmac's solution](https://github.com/nmacawile/thenextweb-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/thenextweb-layout/blob/master/index.html)
+* [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Building-with-Responsive-Design) - [View in browser]( https://sarfrazanjum.github.io/TOP_Building-with-Responsive-Design/)
+* [Henry Kirya's solution](https://github.com/harrika/nextweb) - [View in browser](https://harrika.github.io/nextweb/)
+* [Adrien Pardo's solution](https://github.com/Shieboo/responsive-design) - [View in browser](https://shieboo.github.io/responsive-design/)
+* [theghall's solution](https://github.com/theghall/odin-responsive-design) - [View in browser](https://theghall.github.io/odin-responsive-design/)
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/the-next-web) - [View in browser](http://jonathanyiv.com/the-next-web/)
+* [Jmooree's solution](https://github.com/jmooree30/the-next-web) - [View in browser](https://jmooree30.github.io/the-next-web/)
 * [Axel's solution](https://github.com/afuh/next-web) - [View in browser](http://next-web.surge.sh/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/next-web) - [View in browser](https://yilmazgunalp.github.io/next-web/)
 * [Leah Xia's solution](https://github.com/LeahXia/the-next-web.git) - [View in browser](http://leahxia.com/internal-links/the-next-web/index.html)
@@ -51,6 +74,13 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Neil Cudden's solution](https://github.com/ncud4bloc/NextWeb/) - [View in browser](https://ncud4bloc.github.io/NextWeb/HTML.index.html)
 * [Matteo's solution](https://github.com/naufragio/thenextweb) - [View in browser](https://naufragio.github.io/thenextweb/)
 * [Aram Shelton's solution](https://github.com/tonalmasher/next-web/settings) [View in browser](https://tonalmasher.github.io/next-web/)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/responsive_design) [View in browser](https://fcarlosdev.github.io/responsive_design/)
+* [aznafro's solution](https://github.com/aznafro/tnw) - [View in browser](https://aznafro.github.io/thenextweb/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/The-next-web) - [View in browser](https://areebaishtiaq.github.io/The-next-web/)
+* [Taylor J's solution](https://github.com/taylorjohannsen/thenextwebmockup) - [View in browser](https://taylorjohannsen.github.io/thenextwebmockup/)
+* [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/carloshdelreal/building-with-responsive-design) - [View in browser](https://carloshdelreal.github.io/building-with-responsive-design/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -1,7 +1,7 @@
 ### Introduction
 In this simple project, you'll be breaking apart the website for a popular design magazine with which you're probably familiar by now -- [Smashing Magazine](http://smashingmagazine.com).  The goal for this exercise is to start training yourself to think in terms of visual hierarchy, typography and design principles.
 
-Your job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.  For inspiration, check out [this image from vanseodesign.com](http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png) which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right.  Your final product will look much like the site on the right.
+Your job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.  For inspiration, check out [this image from vanseodesign.com](https://web.archive.org/web/20170628134444/http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png) which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right.  Your final product will look much like the site on the right.
 
 This is also an opportunity to get better at positioning `<div>` elements without worrying too much about what's inside them, which will serve you well later.
 
@@ -15,7 +15,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 3. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 4. Create a new HTML document.
 5. Think about all the elements on the Smashing homepage and how they are grouped together.
-6. Copy the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.
+6. Copy the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
 7. Now make the background colors of those divs different shades of gray which correspond to their visual weight on the Smashing homepage.  If you squint your eyes and look from your solution to their page, does your eye get drawn to the same places?
 
 #### Playing with Typography
@@ -28,9 +28,30 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_design.md) on The Odin Project's curriculum GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Doris's solution](https://github.com/dsmchen/smashing-magazine-homepage) - [View in browser](https://dsmchen.github.io/smashing-magazine-homepage/)
+* [Ohlie's solution](https://github.com/lco1220/smashing_mag) - [View in browser](https://lco1220.github.io/smashing_mag/)
+* [Bojo's solution](https://github.com/BojoZahariev/SmashingDesignTeardown) - [View in browser](https://bojozahariev.github.io/SmashingDesignTeardown/)
+* [Bola Buari's solution](https://github.com/bolah2009/design-teardown) - [View in browser](https://bolah2009.github.io/design-teardown/)
+* [Ricala's solution](https://github.com/Ricala/design-teardown) - [View in browser](https://ricala.github.io/design-teardown/)
+* [ARaut9's solution](https://github.com/ARaut9/smashing_design_teardown) - [View in browser](https://araut9.github.io/smashing_design_teardown/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/design) - [View in browser](https://n00bg1rl.github.io/design/)
+* [Billy's solution](https://github.com/bcoffin9/SmashingBreakdown) - [View in Browser](https://bcoffin9.github.io/SmashingBreakdown/)
+* [Max Garber's solution](https://github.com/bubblebooy/Odin-HTML5andCSS3) - [View in Browser](https://bubblebooy.github.io/Odin-HTML5andCSS3/smashing.html)
+* [Chris MacSwan's solution](https://github.com/cmacswan07/design_teardown) - [View in Browser](https://cmacswan07.github.io/design_teardown/)
+* [Javier Machin's solution](https://github.com/Javier-Machin/design-teardown) - [View in Browser](https://javier-machin.github.io/design-teardown/)
+* [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Design-Teardown) - [View in Browser](https://sarfrazanjum.github.io/TOP_Design-Teardown/)
+* [nmac's solution](https://github.com/nmacawile/smash-magazine-layout) - [Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/smash-magazine-layout/blob/master/smash.html)
+* [Henry Kirya's solution](https://github.com/harrika/smashing) - [View in Browser](https://harrika.github.io/smashing/)
+* [theghall's solution](https://github.com/theghall/odin-grayscale-map) - [View in Browser](https://theghall.github.io/odin-grayscale-map/)
+* [Jmooree30's solution](https://github.com/jmooree30/smashing-magazine) - [View in Browser](https://jmooree30.github.io/smashing-magazine/)
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/design-teardown) - [View in Browser](http://jonathanyiv.com/design-teardown/)
 * [yilmazgunalp's Solution](https://github.com/yilmazgunalp/design-tear-down) - [View in Browser](https://yilmazgunalp.github.io/design-tear-down/)
 * [Jeff's Solution](https://github.com/jmbothe/smashing-homepage) - [View in Browser](https://jmbothe.github.io/smashing-homepage/)
 * [Austin's solution](https://github.com/CouchofTomato/smashing_design_teardown) - [View in Browser](https://couchoftomato.github.io/smashing_design_teardown/)
@@ -52,6 +73,11 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Beth Rathbone's solution](https://github.com/bethrath/visual-hierarchy) - [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/visual-hierarchy/blob/master/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/design-teardown) - [View in browser](https://adoniasdantas.github.io/design-teardown/)
 * [huseins's solution](https://github.com/hosghf/Design-html-css) - [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/teardown) - [View in browser](https://fcarlosdev.github.io/teardown/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
+* [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/carloshdelreal/design-teardown) - [View in Browser](https://carloshdelreal.github.io/design-teardown/)
+* [Scott McKell's solution](https://github.com/zottwickel/heatmap) - [View in Browser](https://zottwickel.github.io/heatmap/)
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

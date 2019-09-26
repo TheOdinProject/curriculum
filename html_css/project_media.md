@@ -18,7 +18,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 2. Create a blank HTML document.
 3. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
-4. Create empty `<div>` tags to enclose those sections.
+4. Create empty semantic HTML elements to enclose those sections.
 5. Use basic CSS to size and position them appropriately on the page.  It may be helpful to make their backgrounds different colors so you can see the different sections.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 6. Now let's start filling in those divs with content by creating the navbar.
 7. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=ZnuwB35GYMY).
@@ -29,16 +29,54 @@ Also, don't worry about making the comment form work properly... your goal is to
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the Github [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vedat's solution](https://github.com/mvedataydin/youtube-video-page) - [View in browser](https://mvedataydin.github.io/youtube-video-page/)
+* [Zayeer's solution](https://github.com/Zayeer/Youtube-s-video-player-page) - [View in browser](https://zayeer.github.io/Youtube-s-video-player-page/)
+* [David Tan's solution](https://github.com/davecmd/youtube-replica) - [View in browser](https://davecmd.github.io/youtube-replica/)
+* [Jitendra Rathore's solution](https://github.com/jitendrrathore/embedding-video-images) - [View in browser](https://jitendrrathore.github.io/embedding-video-images/)
+* [Sampajanno's solution](https://github.com/Sampajanno/embedding-video-images) - [View in browser](https://sampajanno.github.io/building-forms/)
+* [Carmine's Solution](https://github.com/cgrossi/odin-project-youtube-clone) - [View in browser](https://cgrossi.github.io/odin-project-youtube-clone/)
+* [bcikota's solution](https://github.com/bcikota/youtube) - [View in browser](https://bcikota.github.io/youtube/)
+* [Bola Buari's solution](https://github.com/bolah2009/youtube-clone) - [View in browser](https://bolabuari.com/youtube-clone/)
+* [Ricala's solution](https://github.com/Ricala/mock-youtube-page) - [View in browser](https://ricala.github.io/mock-youtube-page/)
+* [N00bG1rl's solution](https://github.com/N00bG1rl/videopage) - [View in browser](https://n00bg1rl.github.io/videopage/)
+* [Jason McKee's solution](https://github.com/jttmckee/youtube) | [Live](https://jttmckee.github.io/youtube/)
+* [Ohlie's solutuin](https://github.com/lco1220/youtube_player_page) - [View in browser](https://lco1220.github.io/youtube_player_page/)
+* [ARaut9's solution](https://github.com/ARaut9/youtube_player_page) - [View in browser](https://araut9.github.io/youtube_player_page/)
+* [Bojo's solution](https://github.com/BojoZahariev/youtube_video) - [View in browser](https://bojozahariev.github.io/youtube_video/)
+* [Hammad Ahmed's solution](https://github.com/shammadahmed/youtube-video-page) - [View in browser](https://shammadahmed.github.io/youtube-video-page)
+* [Helari's solution](https://helaris.github.io/YouTube/)
+* [Smetanca52's solution](https://github.com/Smetanca52/) - [View in browser](https://smetanca52.github.io/youtubelike_page/)
+* [Bojana Karakacev's solution](https://github.com/bojana12/youtube-homepage) - [View in browser](https://bojana12.github.io/youtube-homepage/)
+* [rvalentin1010's solution](https://github.com/rvalentin1010/youtube-video-player) - [View in browser](https://rvalentin1010.github.io/youtube-video-player/)
+* [Qin's solution](https://github.com/hyathynth/youtube_mockup) - [View in browser](https://hyathynth.github.io/youtube_mockup/)
+* [0zra's (scaffold)solution](https://github.com/0zra/embedding) - [View in browser](https://0zra.github.io/embedding/)
+* [Chris MacSwan's solution](https://github.com/cmacswan07/youtubecopy) - [View in browser](https://cmacswan07.github.io/youtubecopy/)
+* [Javier Machin's solution](https://github.com/Javier-Machin/youtube_player) - [View in browser](https://javier-machin.github.io/youtube_player/)
+* [yakherder's basic solution](https://github.com/yakherder614/you-tube)-[View in Browser](https://yakherder614.github.io/you-tube/)
+* [Johan Morin's Solution](https://github.com/MorrisMalone/youtube-copy) - [View in Browser](https://morrismalone.github.io/youtube-copy/)
+* [Ayoub's solution](https://github.com/Skobraf/Youtube_Player_Page) - [View in browser](https://skobraf.github.io/Youtube_Player_Page/)
+* [Jesus' Solution](https://github.com/jsgilberto/Youtube-Video-Page) - [View in browser](https://jsgilberto.github.io/Youtube-Video-Page/)
+* [SarfrazAnjum's solution](https://github.com/SarfrazAnjum/TOP_Embedding-Images-And-Videos) - [View in browser](https://sarfrazanjum.github.io/TOP_Embedding-Images-And-Videos/)
+* [Henry Kirya's solution](https://github.com/harrika/utube/tree/master/utube) - [View in browser](https://harrika.github.io/utube/utube/)
+* [Agnieszka's solution](https://github.com/elPetit69/mock-youtube) - [View in browser](https://elpetit69.github.io/mock-youtube/)
+* [Nate Dimock's solution](https://github.com/Flakari/youtube-page) - [View in browser](https://flakari.github.io/youtube-page/)
+* [walnutdust's solution](https://github.com/walnutdust/mock-youtube) - [View in browser](https://walnutdust.github.io/mock-youtube/)
+* [theghall's solution](https://github.com/theghall/odin-youtube.git) - [View in browser](https://theghall.github.io/odin-youtube/)
+* [Josh Archer's solution](https://gitlab.com/odin-project-josh-archer/embedding-images-and-video) - [View in browser](https://www.josharcher.uk/static/projects/odinproject/embeddingimagesvideo/)
+* [Jmooree30's solution](https://github.com/jmooree30/youtube) - [Live](https://jmooree30.github.io/youtube/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/youtube-video-page) - [Live](https://jonathanyiv.github.io/youtube-video-page/)
 * [holdercp's solution](https://github.com/holdercp/bluetube) - [Live](https://holdercp.github.io/bluetube/)
 * [Justine Cantado's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/yt) - [View in Browser](https://hannibalony.github.io/yt)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/youtube_page) - [View in Browser](https://yilmazgunalp.github.io/youtube_page/)
 * [Bottlecap's solution](https://github.com/Bottlecaps4/YouTube-video-page) - [View in Browser](https://bottlecaps4.github.io/YouTube-video-page/)
 * [Jeff's Solution](https://github.com/jmbothe/youtube-homepage) - [View in Browser](https://jmbothe.github.io/youtube-homepage/)
-* [Andrew's solution](https://github.com/andrewr224/embedding-video-project) - [View in browse](https://andrewr224.github.io/embedding-video-project/)
+* [Andrew's solution](https://github.com/andrewr224/embedding-video-project) - [View in browser](https://andrewr224.github.io/embedding-video-project/)
 * [Austin's solution](https://github.com/CouchofTomato/youtube-clone)
 * [Flint Mayers' solution](https://github.com/FlintMayers/youtube_player) - [View in browser](https://flintmayers.github.io/youtube_player/)
 * [Javal's solution](https://github.com/javalnanda/youtube_player_page) - [View in browser](https://javalnanda.github.io/youtube_player_page/)
@@ -79,6 +117,29 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Beth Rathbone's solution](https://github.com/bethrath/youtube-page)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/youtube-video-player) - [View in browser](https://thiswillhavetodo.github.io/youtube-video-player/index.html)
 * [tholymap's solution](https://github.com/tholymap/youtube) - [View in browser](http://htmlpreview.github.io/?https://github.com/tholymap/youtube/blob/master/youtube.html)
+* [Swedina's solution](https://github.com/swedinay/UTub-) - [View in browser](https://swedinay.github.io/UTub-/)
+* [DV's solution](https://github.com/dvislearning/odin-yt-clone) - [View in browser](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-yt-clone/blob/master/home.html)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/youtube_page) - [View in browser](https://fcarlosdev.github.io/youtube_page/)
+* [Mike Smith's solution](https://github.com/MikeSS281986/YouTube-Clone-Page) - [View in browser](https://mikess281986.github.io/YouTube-Clone-Page/)
+* [Elena's solution](https://github.com/elena-sam/youtube-replica-project) - [View in browser](https://elena-sam.github.io/youtube-replica-project/)
+* [Punnadittr's solution](https://github.com/punnadittr/u-tube) - [View in browser](https://punnadittr.github.io/u-tube/)
+* [Sam C's solution](https://github.com/JimmyNeutron8/youtube-clone) - [View in browser](https://jimmyneutron8.github.io/youtube-clone/)
+* [aznafro's solution](https://github.com/aznafro/youtube) - [View in browser](https://aznafro.github.io/youtube/)
+* [Areeba's solution](https://github.com/AREEBAISHTIAQ/youtube-video-page) - [View in browser](https://areebaishtiaq.github.io/youtube-video-page/)
+* [Taylor Johannsen's solution](https://github.com/taylorjohannsen/youtube-mockup) - [View in browser](https://taylorjohannsen.github.io/youtube-mockup/)
+* [Anh Pati's solution](https://github.com/AnhPati/OdinProject_css_html/tree/master/Embendding_images_and_video) - [View in browser](http://dwj.miste.io/odinproject/embedding_images_and_video/)
+* [Gough's solution](https://github.com/Joel-Price/youtube-clone) - [View in browser](https://joel-price.github.io/youtube-clone/)
+* [Ghassan's solution](https://github.com/GT001/TOP-Youtube-Player) - [View in browser](https://gt001.github.io/TOP-Youtube-Player/)
+* [Valentino Valenti's solution](https://github.com/1ba1/youtube-video-player-page) - [View in Browser](https://1ba1.github.io/youtube-video-player-page/)
+* [Doris's solution](https://github.com/dsmchen/youtube-video-player-page) - [View in browser](https://dsmchen.github.io/youtube-video-player-page/)
+* [Antonio Marcos's solution](https://github.com/AMarcosCastelo/youtube-video-player-page) - [View in browser](https://amarcoscastelo.github.io/youtube-video-player-page/)
+* [vanny96's solution](https://github.com/vanny96/embed-video) - [View in browser](https://vanny96.github.io/embed-video/)
+* [Carlos Del Real & Gabriela's solution](https://viricruz.github.io/doogle-homepage/) - [View in browser](https://viricruz.github.io/doogle-homepage/)
+* [Nyaga Roy and Rinor Ajeti solution](https://github.com/RoyNyaga/microverse_embedded_video) - [View in browser](https://roynyaga.github.io/microverse_embedded_video/)
+* [Alex Gioffre's Solution](https://github.com/AlexGioffre/Youtube_clone) - [View in browser](https://alexgioffre.github.io/Youtube_clone/)
+* [Dolunaykiz's solution](https://github.com/dolunaykiz/youtube-mockup) - [View in browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/youtube-mockup/blob/master/index.html)
+* [Halkim44's solution](https://github.com/halkim44/youtube-clone) - [View in browser](https://halkim44.github.io/youtube-clone/)
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
