@@ -900,4 +900,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sam Akers' Solution](https://github.com/samakers/rock-paper-scissors) 
 - [MrkH615's Console Solution](https://github.com/MrkH615/RockPaperScissors)
 </details>
+- [Dominic H solution](https://github.com/dowo13/Finished-Rock-Paper-Scissors) - [View in Browser](https://dowo13.github.io/Finished-Rock-Paper-Scissors/)
 
