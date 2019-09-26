@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [John's Solution](https://github.com/JohnHerrera14/Etch-A-Sketch)
 * [Luke's Solution](https://github.com/LukePritchett/sketchpad) - [View in Browser](https://lukepritchett.github.io/sketchpad/)
 * [Anmol's Solution](https://github.com/6point022/Etch-a-Sketch) - [View in Browser](https://6point022.github.io/Etch-a-Sketch/)
 * [Esteban's Solution](https://github.com/estebanmoroy/etch-a-sketch) - [View in Browser](https://estebanmoroy.github.io/etch-a-sketch/)
@@ -544,4 +545,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Steve Lally's Solution](https://github.com/slally89/Etch-a-Sketch) - [View in Browser](https://slally89.github.io/Etch-a-Sketch/)
 * [Pedro Windisch's Solution](https://github.io/pedrowindisch/TOP-etch-a-sketch) - [View in Browser](https://pedrowindisch.github.io/TOP-etch-a-sketch/)
 * [Vinnav's Solution](https://github.com/vinnav/Odin-Etch-a-sketch) - [View in Browser](https://vinnav.github.io/Odin-Etch-a-sketch/)
+* [mre91's Solution](https://github.com/mre91/etch-a-sketch) - [View in Browser](https://mre91.github.io/etch-a-sketch/)
 </details>
