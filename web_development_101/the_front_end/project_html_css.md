@@ -2463,6 +2463,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [HelixF's Solution (Easy)](https://github.com/HelixF/Google-Homepage) - [View in Browser](https://helixf.github.io/Google-Homepage/)
 * [Jeffrey's Solution (Easy)](https://github.com/Jding9/google-homepage) - [View in Browser](https://jding9.github.io/google-homepage/)
 * [Omar's Solution (Easy)](https://github.com/hunterv3/google-homepage) - [View in Browser](https://hunterv3.github.io/google-homepage/)
+* [Matheus's Solution (Easy)](https://github.com/matheusmarkus/google-homepage) - [View in Browser](https://matheusmarkus.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
