@@ -2466,6 +2466,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Omar's Solution (Easy)](https://github.com/hunterv3/google-homepage) - [View in Browser](https://hunterv3.github.io/google-homepage/)
 * [Matheus's Solution (Easy)](https://github.com/matheusmarkus/google-homepage) - [View in Browser](https://matheusmarkus.github.io/google-homepage/)
 * [Udit's Solution (uditj97) (Easy)](https://github.com/uditj97/google-homepage)
+[Virgil-Toppins' Solution](https://virgil-toppins.github.io/duckduckgo-homepage/)
 </details>
 
 ### Additional Resources
