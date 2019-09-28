@@ -139,6 +139,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Alex Gioffre's Solution](https://github.com/AlexGioffre/Youtube_clone) - [View in browser](https://alexgioffre.github.io/Youtube_clone/)
 * [Dolunaykiz's solution](https://github.com/dolunaykiz/youtube-mockup) - [View in browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/youtube-mockup/blob/master/index.html)
 * [Halkim44's solution](https://github.com/halkim44/youtube-clone) - [View in browser](https://halkim44.github.io/youtube-clone/)
+* [Aron's solution](https://github.com/aronfischer/Youtube_video_Player) - [View in browser](https://aronfischer.github.io/Youtube_video_Player/)
 </details>
 
 ### Additional Resources
