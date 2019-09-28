@@ -2466,6 +2466,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Matheus's Solution (Easy)](https://github.com/matheusmarkus/google-homepage) - [View in Browser](https://matheusmarkus.github.io/google-homepage/)
 * [Udit's Solution (uditj97) (Easy)](https://github.com/uditj97/google-homepage)
 //My SOlution Here //
+* [Scy's Solution](https://scychu.github.io/google-home-page/)
 </details>
 
 ### Additional Resources
