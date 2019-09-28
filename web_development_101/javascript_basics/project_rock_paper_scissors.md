@@ -901,7 +901,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sam Akers' Solution](https://github.com/samakers/rock-paper-scissors)
 - [MrkH615's Console Solution](https://github.com/MrkH615/RockPaperScissors)
 - [Gandolf's Solution](https://github.com/gandolfthewise/Rock-Paper_Scissors)
-- [Udit's Solution (uditj97)](https://github.com/uditj97/rock-paper-scissor
+- [Udit's Solution](https://github.com/uditj97/rock-paper-scissor)
 - [bohledevs's Solution](https://github.com/bohledevs/rockpapperscissors) - [View in Browser](https://bohledevs.github.io/rockpapperscissors/)
 
 </details>
