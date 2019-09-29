@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+
+* [Diego's Solution (Difficult)](https://github.com/dhna32/Google-Page-Results) - [View in Browser](https://dhna32.github.io/Google-Page-Results/)
 * [Diego's Solution (Easy)](https://github.com/dhna32/Google-homepage) - [View in Browser](https://dhna32.github.io/Google-homepage/)
 * [Kosher's Solution (Hard)](https://kosherkill.github.io/google-results/) - [View in Browser](https://kosherkill.github.io/google-results/)
 * [Kosher's Solution (Easy)](https://kosherkill.github.io/google-homepage/) - [View in Browser](https://kosherkill.github.io/google-homepage/)
