@@ -15,8 +15,8 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Complete the first interactive lesson in the Codecademy [Basic Git Workflow](https://www.codecademy.com/learn/learn-git) course. Try to look for a pattern in the commands you are running.
-  2. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
+  1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
+  2. Complete [Tower's Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start) lesson. **Please note**: 1. Skip the "Getting Ready" section because you should have already installed Git by now. 2. Ignore the invitation to do the lessons with the Desktop GUI. Complete the Command Line version. 3. Only do "Part 1 - The Basics."
 
 </div>
 
@@ -54,7 +54,7 @@ Don't worry if you don't know all the commands yet or if they aren't quite stick
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial) is an introductory guide on Git by [Michael Hartl](http://www.michaelhartl.com/).
-* An easy-to-read, pragmatic guide to using Git is available online from [RyPress](https://github.com/alokc83/Basic-Tutorials/blob/master/rypress.com%20Git/0_Ry's%20Git%20Tutorial.pdf) and also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC).
+* An easy-to-read, pragmatic guide to using Git is available online from [RyPress](https://github.com/alokc83/Basic-Tutorials/tree/master/rypress.com%20Git) and also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC).
 * The [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub provides quick instructions for using common commands (you can find a webpage version [here](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)). 
 * [Atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control) has a very thorough and well laid out Git tutorial.
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2).

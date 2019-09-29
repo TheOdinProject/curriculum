@@ -22,6 +22,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Tan's solution](https://github.com/davecmd/mint-login-replica/) - [View in browser](https://davecmd.github.io/mint-login-replica/)
+* [Lucila Pastore's solution](https://github.com/lucilapastore/HTML-Forms) - [View in browser](https://lucilapastore.github.io/HTML-Forms/)
+* [Jitendra Rathore's solution](https://github.com/jitendrrathore/html-form) - [View in browser](https://jitendrrathore.github.io/html-form/)
 * [Sampajanno's solution](https://github.com/Sampajanno/building-forms) - [View in browser](https://sampajanno.github.io/building-forms/)
 * [Carmine's solution](https://github.com/cgrossi/odin-project-form) - [View in browser](https://cgrossi.github.io/odin-project-form/)
 * [Ben Poore's solution](https://github.com/bpoore0614/intuit-copy) - [View in browser](https://bpoore0614.github.io/intuit-copy/index.html)
@@ -128,6 +131,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [vanny96's solution](https://github.com/vanny96/form-project/blob/master/README.md) - [View in browser](https://vanny96.github.io/form-project/)
 * [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/ViriCruz/building-forms) - [View in Browser](https://viricruz.github.io/building-forms/)
 * [Alex Gioffre's solution](https://github.com/AlexGioffre/form_html) - [View in Browser](https://alexgioffre.github.io/form_html/index.html)
+* [Dolunaykiz's solution](https://github.com/dolunaykiz/mint-mockup) - [View in Browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/mint-mockup/blob/master/index.html)
+* [Halkim's solution](https://github.com/halkim44/mint.com-signup-rebuild) - [View in Browser](http://halkim44.github.io/mint.com-signup-rebuild/)
 </details>
 
 ### Additional Resources

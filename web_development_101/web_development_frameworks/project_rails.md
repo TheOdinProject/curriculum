@@ -26,6 +26,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [hamilto8's solution](https://github.com/hamilto8/blogger)
+* [John Piatras' solution](https://github.com/JohnPiatras/blogger) - [View in browser](https://piatras-blogger-project.herokuapp.com/articles)
+* [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/05-Web_Development_Frameworks/blogger)
+* [Luky's Solution](https://github.com/lcyne/blogger) - [View in browser](https://mighty-reaches-78310.herokuapp.com/)
+* [Ian's Solution](https://github.com/IanMKesler/rails-blog) - [View in browser](https://fathomless-depths-49999.herokuapp.com)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/jumpstart-lab-blogger-tutorial) - [View in browser](https://secret-forest-19270.herokuapp.com/)
+* [Eljoey's Solution](https://github.com/eljoey/Ruby-project) - [View in browser](https://calm-fortress-57875.herokuapp.com/)
+* [nadjastojanovic's Solution](https://github.com/nadjastojanovic/blogger)
+* [Chris' Solution](https://github.com/CSalois114/web101-rails_project)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/blogger) - [View in browser](https://secure-hamlet-95000.herokuapp.com/)
 * [Sherman's Solution](https://github.com/shermansjliu/blogger) - [View in browser](https://protected-plains-12122.herokuapp.com/)
 * [Ben's Solution](https://github.com/Koshoo/Ruby-on-Rails-blog-project/) - [View in browser](http://blogger-ben.herokuapp.com/)
@@ -405,6 +414,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex Gioffre's solution](https://github.com/AlexGioffre/Blogger) - [View in Browser](https://blogger-alexgio.herokuapp.com/)
 * [Cameron St. Amant's solution](https://github.com/CameronStAmant/blog-rails) - [View in Browser](https://quiet-ridge-40484.herokuapp.com/)
 * [Rosanne Nicolai's solution](https://github.com/rjnicolai/blogger) - [View in Browser](https://bref-moliere-78914.herokuapp.com)
+* [Nathan Choi's solution](https://github.com/sihoonathan/blogger) - [View in Browser](https://calm-garden-13460.herokuapp.com/)
+* [Carlos Del Real solution](https://github.com/carloshdelreal/blogger) - [View in Browser](https://murmuring-plateau-19342.herokuapp.com/)
+* [Ray Alvarez's solution](https://github.com/ray-alvarez/blogger) - [View in Browser](https://immense-lake-67875.herokuapp.com/)
+* [Robin's solution](https://github.com/RobinWagner/blogger) - [View in Browser](https://stormy-dusk-73994.herokuapp.com/)
+* [aytung's solution](https://github.com/aytung/blogger) - [View in Browser](https://cryptic-dusk-16801.herokuapp.com/)
+* [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/blogger) - [View in Browser](https://blogger1459.herokuapp.com/) I0 - I5
+* [Martink-rsa's solution](https://github.com/martink-rsa/blogger)
+* [TuSeMorte's solution](https://github.com/TuSeMorte/blogger) - [View in Browser](https://hidden-escarpment-21981.herokuapp.com/)
+* [David Watkin's solution](https://github.com/DavidWatkinCode/blogger) - [View in browser](https://whispering-harbor-45352.herokuapp.com/)
 </details>
 
 ### Additional Resources

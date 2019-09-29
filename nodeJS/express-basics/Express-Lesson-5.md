@@ -6,6 +6,7 @@ This is the last lesson on the MDN tutorial. The last step, listed below takes y
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
+
 - Describe form handling process.
 - Describe validation and sanitization.
 - Describe routes.
@@ -20,7 +21,7 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
 1. Let's get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)
-2. Read about deploying your app in the [last article](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data) in this tutorial.
+2. Read about deploying your app in the [last article](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment) in this tutorial.
 </div>
 
 ### Student Solutions
@@ -30,5 +31,6 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jake's Solution](https://github.com/jdonahue135/localLibrary) - [View in browser](https://secure-shore-83072.herokuapp.com/)
 
 </details>
