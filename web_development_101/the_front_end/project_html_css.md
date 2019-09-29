@@ -2471,6 +2471,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Codenstuff's Solution (Easy)](https://github.com/codenstuff/google-homepage) - [View in Browser](https://codenstuff.github.io/google-homepage/)
 * [Virgil-Toppins' Solution](https://virgil-toppins.github.io/duckduckgo-homepage/)
 * [childsluke's Solution (Easy)](https://github.com/childsluke/google_homepage) - [View in Browser](https://childsluke.github.io/google_homepage/)
+* [Mmollerr's Solution (Easy)](https://github.com/mmollerr/google-homepage) - [View in Browser](https://mmollerr.github.io/google-homepage/)
+* [Mmollerr's Solution (Difficult)](https://github.com/mmollerr/google-search-results) - [View in Browser](https://mmollerr.github.io/google-search-results/)
 </details>
 
 ### Additional Resources
