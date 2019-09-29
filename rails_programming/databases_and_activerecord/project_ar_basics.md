@@ -236,6 +236,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Vanny96's Solution](https://github.com/vanny96/micro_reddit)
 * [Cody B's Solution](https://github.com/CodyLBuffaloe/micro-reddit)
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/micro-reddit)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/micro-reddit)
 
 </details>
 
