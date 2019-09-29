@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lazizhon's Solution](https://github.com/Lazizhon/rock_paper_scissor)
 - [ZachHoskins' Solution](https://github.com/ZachHoskins/rock-paper-scissors) - [View in Browser](https://zachhoskins.github.io/rock-paper-scissors)
 - [cbhaugen's solution](https://github.com/cbhaugen/RockPaperScissors.git)
 - [William Bowen's solution](https://github.com/WillWBowen/rock-paper-scissors)
@@ -892,7 +893,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vinícius Bonifácio's Solution](https://github.com/vinicius77/rock-paper-scissor)
 - [Michaelimai's Solution](https://github.com/michaelimai/RPS-project-v1)
 - [vinnav's Solution](https://github.com/vinnav/Odin-RockPaperScissor) - [View in Browser](https://vinnav.github.io/Odin-RockPaperScissor/)
-- [Synte's Solution](https://github.com/Synte/rock-paper-scissors)
+- [Synte's Solution](https://github.com/Synte/rock-paper-scissors) - [View in Browser](https://synte.github.io/rock-paper-scissors/)
 - [Roockeyzz's Solution](https://github.com/roockeyzz/rockPaperScissors)
 - [DalandanJuice's Console Solution](https://github.com/DalandanJuice/rock-paper-scissors) - [View in Browser](https://dalandanjuice.github.io/rock-paper-scissors/)
 - [Vorelli's Solution](https://github.com/Vorelli/rock-paper-scissors) - [View in Browser](https://vorelli.github.io/rock-paper-scissors/)
@@ -901,5 +902,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sam Akers' Solution](https://github.com/samakers/rock-paper-scissors)
 - [MrkH615's Console Solution](https://github.com/MrkH615/RockPaperScissors)
 - [Gandolf's Solution](https://github.com/gandolfthewise/Rock-Paper_Scissors)
-- [Udit's Solution (uditj97)](https://github.com/uditj97/rock-paper-scissor)
+- [Udit's Solution](https://github.com/uditj97/rock-paper-scissor)
+- [bohledevs's Solution](https://github.com/bohledevs/rockpapperscissors) - [View in Browser](https://bohledevs.github.io/rockpapperscissors/)
 </details>

@@ -88,6 +88,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Darren's Solution (Easy)](https://github.com/KindaAverageGuy/google_homepage) - [View in Browser](https://kindaaverageguy.github.io/google_homepage/)
+* [Diego's Solution (Difficult)](https://github.com/dhna32/Google-Page-Results) - [View in Browser](https://dhna32.github.io/Google-Page-Results/)
+* [Diego's Solution (Easy)](https://github.com/dhna32/Google-homepage) - [View in Browser](https://dhna32.github.io/Google-homepage/)
 * [Kosher's Solution (Hard)](https://kosherkill.github.io/google-results/) - [View in Browser](https://kosherkill.github.io/google-results/)
 * [Kosher's Solution (Easy)](https://kosherkill.github.io/google-homepage/) - [View in Browser](https://kosherkill.github.io/google-homepage/)
 * [Argel's Solution (Easy)](https://github.com/argelomnes/google-homepage) - [View in Browser](https://argelomnes.github.io/google-homepage/)
@@ -2465,8 +2468,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Omar's Solution (Easy)](https://github.com/hunterv3/google-homepage) - [View in Browser](https://hunterv3.github.io/google-homepage/)
 * [Matheus's Solution (Easy)](https://github.com/matheusmarkus/google-homepage) - [View in Browser](https://matheusmarkus.github.io/google-homepage/)
 * [Udit's Solution (uditj97) (Easy)](https://github.com/uditj97/google-homepage)
-//My SOlution Here //
 * [Scy's Solution](https://scychu.github.io/google-home-page/)
+* [Codenstuff's Solution (Easy)](https://github.com/codenstuff/google-homepage) - [View in Browser](https://codenstuff.github.io/google-homepage/)
+* [Virgil-Toppins' Solution](https://virgil-toppins.github.io/duckduckgo-homepage/)
+* [childsluke's Solution (Easy)](https://github.com/childsluke/google_homepage) - [View in Browser](https://childsluke.github.io/google_homepage/)
+* [Mmollerr's Solution (Easy)](https://github.com/mmollerr/google-homepage) - [View in Browser](https://mmollerr.github.io/google-homepage/)
+* [Mmollerr's Solution (Difficult)](https://github.com/mmollerr/google-search-results) - [View in Browser](https://mmollerr.github.io/google-search-results/)
 </details>
 
 ### Additional Resources
