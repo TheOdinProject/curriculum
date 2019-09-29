@@ -2467,6 +2467,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Matheus's Solution (Easy)](https://github.com/matheusmarkus/google-homepage) - [View in Browser](https://matheusmarkus.github.io/google-homepage/)
 * [Udit's Solution (uditj97) (Easy)](https://github.com/uditj97/google-homepage)
 [Virgil-Toppins' Solution](https://virgil-toppins.github.io/duckduckgo-homepage/)
+* [Codenstuff's Solution (Easy)](https://github.com/codenstuff/google-homepage) - [View in Browser](https://codenstuff.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
