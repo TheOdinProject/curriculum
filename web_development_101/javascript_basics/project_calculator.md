@@ -387,4 +387,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [crongle's solution](https://github.com/crongle/calculator) - [View in Browser](https://crongle.github.io/calculator/)
 - [Robert Suazo's solution](https://github.com/rsuazo/calculator) - [View in Browser](https://rsuazo.github.io/calculator/)
 - [ZeCheeseKing's solution](https://github.com/zecheeseking/javascript_calculator) - [View in Browser](https://zecheeseking.github.io/javascript_calculator/)
+- [Gustavo Carvalho's solution](https://github.com/gustavohc07/calculator) - [View in Browser](https://gustavohc07.github.io/calculator/)
+- [Steve Lally's solution](https://github.com/slally89/Calculator) - [View in Browser](https://slally89.github.io/Calculator/)
 </details>
