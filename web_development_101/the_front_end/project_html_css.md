@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Kurt's Solution (Easy)](https://github.com/KurtYilmaz/google-homepage) - [View in Browser](https://kurtyilmaz.github.io/google-homepage/)
 * [Kenan's Solution (Easy)](https://github.com/ikenan9/google-homepage) - [View in Browser](https://ikenan9.github.io/google-homepage/)
 * [Darren's Solution (Easy)](https://github.com/KindaAverageGuy/google_homepage) - [View in Browser](https://kindaaverageguy.github.io/google_homepage/)
 * [Diego's Solution (Difficult)](https://github.com/dhna32/Google-Page-Results) - [View in Browser](https://dhna32.github.io/Google-Page-Results/)
