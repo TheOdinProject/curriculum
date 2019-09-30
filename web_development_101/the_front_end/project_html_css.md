@@ -2475,6 +2475,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [childsluke's Solution (Easy)](https://github.com/childsluke/google_homepage) - [View in Browser](https://childsluke.github.io/google_homepage/)
 * [Mmollerr's Solution (Easy)](https://github.com/mmollerr/google-homepage) - [View in Browser](https://mmollerr.github.io/google-homepage/)
 * [Mmollerr's Solution (Difficult)](https://github.com/mmollerr/google-search-results) - [View in Browser](https://mmollerr.github.io/google-search-results/)
+* [Sher's Solution (Difficult)](https://github.com/sher-s7/google-search-page) - [View in Browser](https://sher-s7.github.io/google-search-page/)
 </details>
 
 ### Additional Resources
