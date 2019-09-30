@@ -29,5 +29,6 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
 
 - Add your solution below this line!
 - [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/inventory) - [View in browser](https://inventoryapp--briantuju.repl.co)
+- [rbkjefkj's Solution](https://github.com/rbkjefkj/inventory-app) - [View in browser](https://glacial-mountain-36822.herokuapp.com/)
 
 </details>
