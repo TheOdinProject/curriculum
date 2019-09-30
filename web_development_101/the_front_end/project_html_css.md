@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Kenan's Solution (Easy)](https://github.com/ikenan9/google-homepage) - [View in Browser](https://ikenan9.github.io/google-homepage/)
 * [Darren's Solution (Easy)](https://github.com/KindaAverageGuy/google_homepage) - [View in Browser](https://kindaaverageguy.github.io/google_homepage/)
 * [Diego's Solution (Difficult)](https://github.com/dhna32/Google-Page-Results) - [View in Browser](https://dhna32.github.io/Google-Page-Results/)
 * [Diego's Solution (Easy)](https://github.com/dhna32/Google-homepage) - [View in Browser](https://dhna32.github.io/Google-homepage/)
@@ -2474,6 +2475,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [childsluke's Solution (Easy)](https://github.com/childsluke/google_homepage) - [View in Browser](https://childsluke.github.io/google_homepage/)
 * [Mmollerr's Solution (Easy)](https://github.com/mmollerr/google-homepage) - [View in Browser](https://mmollerr.github.io/google-homepage/)
 * [Mmollerr's Solution (Difficult)](https://github.com/mmollerr/google-search-results) - [View in Browser](https://mmollerr.github.io/google-search-results/)
+* [Sher's Solution (Difficult)](https://github.com/sher-s7/google-search-page) - [View in Browser](https://sher-s7.github.io/google-search-page/)
 </details>
 
 ### Additional Resources
