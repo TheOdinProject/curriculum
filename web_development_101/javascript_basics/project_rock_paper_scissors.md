@@ -904,4 +904,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Gandolf's Solution](https://github.com/gandolfthewise/Rock-Paper_Scissors)
 - [Udit's Solution](https://github.com/uditj97/rock-paper-scissor)
 - [bohledevs's Solution](https://github.com/bohledevs/rockpapperscissors) - [View in Browser](https://bohledevs.github.io/rockpapperscissors/)
+- [sydrobhez's Solution](https://github.com/sydrobhez/rock-paper-scissors) - [View in Browser](https://sydrobhez.github.io/rock-papper-scissors)
 </details>
