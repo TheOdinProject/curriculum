@@ -2485,6 +2485,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tomas Solution (Easy)](https://github.com/tomasbrunog/google-homepage) - [View in Browser](https://tomasbrunog.github.io/google-homepage/)
 * [Mallory's Solution (Easy)](https://github.com/malworks/google_homepage) - [View in Browser](https://malworks.github.io/google_homepage/index.html)
 </details>
+* [Mubiru's Solution (Easy)](https://github.com/Mubirupatrick2040/google-homepage) - [View in Browser](https://mubirupatrick2040.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
