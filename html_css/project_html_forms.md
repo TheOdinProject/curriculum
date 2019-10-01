@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vedat's solution](https://github.com/mvedataydin/signup-form) - [View in browser](https://mvedataydin.github.io/signup-form/)
 * [David Tan's solution](https://github.com/davecmd/mint-login-replica/) - [View in browser](https://davecmd.github.io/mint-login-replica/)
 * [Lucila Pastore's solution](https://github.com/lucilapastore/HTML-Forms) - [View in browser](https://lucilapastore.github.io/HTML-Forms/)
 * [Jitendra Rathore's solution](https://github.com/jitendrrathore/html-form) - [View in browser](https://jitendrrathore.github.io/html-form/)
