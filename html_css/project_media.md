@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Solodov's solution](https://github.com/solodov-dev/top-youtube) - [View in browser](https://solodov-dev.github.io/top-youtube/)
 * [Vedat's solution](https://github.com/mvedataydin/youtube-video-page) - [View in browser](https://mvedataydin.github.io/youtube-video-page/)
 * [Zayeer's solution](https://github.com/Zayeer/Youtube-s-video-player-page) - [View in browser](https://zayeer.github.io/Youtube-s-video-player-page/)
 * [David Tan's solution](https://github.com/davecmd/youtube-replica) - [View in browser](https://davecmd.github.io/youtube-replica/)
