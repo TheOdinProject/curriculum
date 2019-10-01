@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Varras' Solution (Easy)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/)
+* [Varras' Solution (Difficult)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/results.html)
 * [Ashsih's Solution (Easy)](https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/home-page.html)
 * [Ashsih's Solution (Difficult)](https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/search-result-page.html)
 * [Kurt's Solution (Easy)](https://github.com/KurtYilmaz/google-homepage) - [View in Browser](https://kurtyilmaz.github.io/google-homepage/)
