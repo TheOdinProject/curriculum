@@ -33,6 +33,27 @@ Write tests for the following functions, and then make the tests pass!
    ~~~
 </div>
 
+### Special Note on using ES6 import statements with Jest
+
+The current version of Jest as it is does not recognize the import statement. In order for you to be able to use ES6 modules for this project you may do the following:
+
+1. Install the @babel/preset-env pacakge
+
+
+```
+npm i -D @babel/preset-env
+```
+
+2. Create a .babelrc file in the project's root with the following lines of code:
+
+```
+{
+  "presets": ["@babel/preset-env"]
+ }
+```
+
+This will allow you to use import statements. Note that in the Jest docs a similar instruction is laid out [here](https://jestjs.io/docs/en/getting-started#using-babel)
+
 ###  Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
