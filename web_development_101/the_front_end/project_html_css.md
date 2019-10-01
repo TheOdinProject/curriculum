@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this list
 * [Varras' Solution (Easy)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/)
 * [Varras' Solution (Difficult)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/results.html)
+  [Forest's Solution (Easy)](https://github.com/foburch/google-homepage) - [View in Browser](https://foburch.github.io/google-homepage/) 
 * [Ashsih's Solution (Easy)](https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/home-page.html)
 * [Ashsih's Solution (Difficult)](https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/search-result-page.html)
 * [Kurt's Solution (Easy)](https://github.com/KurtYilmaz/google-homepage) - [View in Browser](https://kurtyilmaz.github.io/google-homepage/)
@@ -2482,6 +2483,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mmollerr's Solution (Difficult)](https://github.com/mmollerr/google-search-results) - [View in Browser](https://mmollerr.github.io/google-search-results/)
 * [Sher's Solution (Difficult)](https://github.com/sher-s7/google-search-page) - [View in Browser](https://sher-s7.github.io/google-search-page/)
 * [Tomas Solution (Easy)](https://github.com/tomasbrunog/google-homepage) - [View in Browser](https://tomasbrunog.github.io/google-homepage/)
+* [Mallory's Solution (Easy)](https://github.com/malworks/google_homepage) - [View in Browser](https://malworks.github.io/google_homepage/index.html)
 </details>
 
 ### Additional Resources
