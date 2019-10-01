@@ -88,8 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Ashsih's Solution (Easy)] (https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/home-page.html)
-* [Ashsih's Solution (Difficult)] (https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/search-result-page.html)
+* [Ashsih's Solution (Easy)](https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/home-page.html)
+* [Ashsih's Solution (Difficult)](https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/search-result-page.html)
 * [Kurt's Solution (Easy)](https://github.com/KurtYilmaz/google-homepage) - [View in Browser](https://kurtyilmaz.github.io/google-homepage/)
 * [Kenan's Solution (Easy)](https://github.com/ikenan9/google-homepage) - [View in Browser](https://ikenan9.github.io/google-homepage/)
 * [Darren's Solution (Easy)](https://github.com/KindaAverageGuy/google_homepage) - [View in Browser](https://kindaaverageguy.github.io/google_homepage/)
@@ -133,7 +133,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [hamilto8's Solution (Difficult)](https://hamilto8.github.io/google-homepage/)
 * [mjwills-inf's Solution (Easy)](https://github.com/mjwills-inf/google-homepage.git) - [View in Browser](https://mjwills-inf.github.io/google-homepage)
 * [mjwills-inf's Solution (Difficult)](https://github.com/mjwills-inf/google-homepage) - [View in Browser](https://mjwills-inf.github.io/google-searchpage/)
-* JeremyBeyond's Solution (EASY) (https://github.com/ugSh7hbY/google-homepage/tree/master/google-homepage)
+* [JeremyBeyond's Solution (EASY)](https://github.com/ugSh7hbY/google-homepage/tree/master/google-homepage)
 * [Hilbert França's Solution (Easy)](https://github.com/Hilbertmf/hilbertmf.github.io/tree/master/projects/google-homepage) - [View in Browser](https://hilbertmf.github.io/projects/google-homepage/)
 * [MMJohnson385's Solution (Easy)](https://mmjohnson385.github.io/google-homepage/)
 * [drohpok's Solution (Easy)](https://drohpok.github.io/google-homepage/)
