@@ -101,6 +101,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex Krewson's solutions](https://github.com/alexkrewson/ruby_testing)
 * Robert Dunbar's solutions: [Caesar's Cipher](https://github.com/RobertDunbar/ruby-problems/blob/master/spec/cipher_spec.rb), [Enumerable](https://github.com/RobertDunbar/ruby-problems/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/RobertDunbar/ruby-oop/blob/master/tic-tac-toe/spec/tic-tac-toe_spec.rb)
 * Ben Fowler's solutions: [Caesar Cipher](https://github.com/benfowler04/ruby-building-blocks/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/benfowler04/ruby-building-blocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/benfowler04/ruby-oop/blob/master/spec/tic_tac_toe_spec.rb)
+* Sergej Jurchenko's solutions: [Caesar Cipher](https://github.com/Sergyurch/ruby_problems/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/Sergyurch/ruby_problems/blob/master/spec/enumerable-methods_spec.rb), [Tic Tac Toe](https://github.com/Sergyurch/ruby_problems/blob/master/spec/tic_tac_toe_game_spec.rb)
 </details>
 
 ### Project: TDD Connect Four
@@ -126,6 +127,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
+* [Chirs' Solution](https://github.com/CSalois114/project_connect_four)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/connect-four)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/tree/master/CONNECT_FOUR)
 * [BShowen's Solution](https://github.com/bshowen/cl_connect_four)

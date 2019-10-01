@@ -19,6 +19,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_oop)
+* [Michael Marchand's Solution](https://github.com/MarchandMD/TicTacToeGemTutorial)
+* [Ian's Solution](https://github.com/IanMKesler/Tic-Tac-Toe)
 * [proto-dylan's Solution](https://github.com/proto-dylan/Tic-Tac-Toe)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/tic-tac-toe)
 * [Uzay-G's solution](https://github.com/Uzay-G/command_line_games) - [Live repl](https://repl.it/@UzayGirit/commandlinegames)
@@ -320,6 +323,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/Mastermind)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/mastermind)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/mastermind)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-mastermind)
@@ -536,6 +540,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/Mastermind)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project-Ruby-OOP/blob/master/mastermind.rb)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/mastermind)
+* [Husseinhewehii's Solution](https://github.com/Husseinhewehii/Mastermind)
 </details>
 
 ### Additional Resources

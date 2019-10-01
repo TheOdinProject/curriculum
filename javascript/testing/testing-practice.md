@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vedat's solution](https://github.com/mvedataydin/tdd-jest)
 - [Ben's solution](https://github.com/Koshoo/jest-testing-practice)
 - [Solodov's solution](https://github.com/solodov-dev/top-js-tdd)
 - [ARaut9's solution](https://github.com/ARaut9/javascript_testing)

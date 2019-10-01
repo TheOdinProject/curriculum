@@ -31,6 +31,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [hamilto8's solution](https://github.com/hamilto8/learn-ruby)
+* [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/04-The_Backend/learning-ruby)
+* [Nihir Agarwal's Solution](https://github.com/nihirag/learn_ruby)
 * [Nikola Jovanovic's Solution](https://github.com/nikola1912/learn_ruby)
 * [Michael Horn's Solution](https://github.com/HornMichaelS/learn_ruby)
 * [Ian's Solution](https://github.com/IanMKesler/learn_ruby)
@@ -57,6 +60,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Daniel Prince's Solution](https://github.com/danielambrosius/learn_ruby)
 * [Sarp's Solution](https://github.com/sarpisik/learn_ruby)
 * [Emmanuel Oni's Solution](https://github.com/emmaoni/learn_ruby)
+* [BasicBrownie's Solution](https://github.com/basicbrownie/learn_ruby)
 * [Neill Henning's solution](https://github.com/Rabidza/learn_ruby)
 * [Iacobssorin solution](https://github.com/Iacobssorin/learn_ruby)
 * [Dylan's solution](https://github.com/proto-dylan/learn_ruby)
@@ -576,6 +580,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [TuSeMorte's solution](https://github.com/TuSeMorte/learn_ruby)
 * [Halkim44's solution](https://github.com/halkim44/learn_ruby)
 * [Kelly Joseph's solution](https://github.com/seisolo76/learn_ruby)
+* [David Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/ruby/exercises)
+* [ZeCheeseKing's solution](https://github.com/zecheeseking/learn_ruby)
 
 </details>
 
