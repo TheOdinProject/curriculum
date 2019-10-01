@@ -777,4 +777,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Robert Suazo's Solution](https://github.com/rsuazo/Rock-Paper-Scissors)
 - [Padraig O'Rúis's Solution](https://github.com/anarchomushroom/rock-paper-scissors)
 - [Arthur Abia's Solution with UI](https://github.com/ArthurAbia/shifumi2) - [View in Browser](https://arthurabia.github.io/shifumi2/)
+- [Bradley Peterson's Solution](https://github.com/spaceincase/rock-paper-scissors) - [View in Browser](https://spaceincase.github.io/rock-paper-scissors/)
 </details>
