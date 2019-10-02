@@ -360,4 +360,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/knight_moves.rb)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/knight_moves/blob/master/knight_moves.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/knight-moves)
+* [Husseinhewehii's solution](https://github.com/Husseinhewehii/Knight_Moves)
 </details>
