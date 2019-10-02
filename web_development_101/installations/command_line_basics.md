@@ -33,7 +33,6 @@ By the end of this lesson, you should be able to do the following:
 
 1. Learn how to create a new file using `touch` command with [this article](https://www.geeksforgeeks.org/touch-command-in-linux-with-examples/). 
 2. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
-3. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
 
 
 #### Use the Command Line Like a Pro
