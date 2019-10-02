@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Helmi's Solution (Easy)](https://github.com/helmihidzir/google-homepage) - [View in Browser](https://helmihidzir.github.io/google-homepage/)
 * [Varras' Solution (Easy)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/)
 * [Varras' Solution (Difficult)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/results.html)
   [Forest's Solution (Easy)](https://github.com/foburch/google-homepage) - [View in Browser](https://foburch.github.io/google-homepage/) 
@@ -2485,6 +2486,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tomas Solution (Easy)](https://github.com/tomasbrunog/google-homepage) - [View in Browser](https://tomasbrunog.github.io/google-homepage/)
 * [Mallory's Solution (Easy)](https://github.com/malworks/google_homepage) - [View in Browser](https://malworks.github.io/google_homepage/index.html)
 * David's Solution(Easy) https://daveguz97.github.io/google/
+* [Chris Coe's Solution (Easy)](https://github.com/chrisdcoe/google-homepage) - [View in Broswer](https://chrisdcoe.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
