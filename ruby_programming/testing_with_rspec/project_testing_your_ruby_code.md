@@ -236,6 +236,7 @@ connect_four)
 * [Rey van den Berg's solution](https://github.com/Rey810/ruby-connect4)
 * [Ben Fowler's solution](https://github.com/benfowler04/connect-four) - [Play on repl.it](https://repl.it/@BenFowler/Connect-Four)
 * [Ray Alvarez's solution](https://github.com/ray-alvarez/connect_four)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/connect_four_game) - [Play on repl.it](https://repl.it/@SergejJurchenko/connectfourgame)
 </details>
 
 ### Additional Resources
