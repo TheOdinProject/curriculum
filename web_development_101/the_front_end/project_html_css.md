@@ -2490,6 +2490,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mubiru's Solution (Easy)](https://github.com/Mubirupatrick2040/google-homepage) - [View in Browser](https://mubirupatrick2040.github.io/google-homepage/)
 * [David's Solution(Easy)](https://daveguz97.github.io/google/)
 * [Chris Coe's Solution (Easy)](https://github.com/chrisdcoe/google-homepage) - [View in Broswer](https://chrisdcoe.github.io/google-homepage/)
+* [Sarah Beck's Solution (Easy)](https://github.com/sarahdev626/google-homepage) - [View in Browser](https://sarahdev626.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
