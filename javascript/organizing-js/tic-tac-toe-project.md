@@ -25,6 +25,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/02-JavaScript/01-Organizing_JavaScript_Code/02-Factory_Functions_and_Module_Pattern/tic-tac-toe) - [View in Browser](https://hidden-castle-05197.herokuapp.com/)
+- [Esteban's Solution](https://github.com/estebanmoroy/tic-tac-toe) - [View in Browser](https://estebanmoroy.github.io/tic-tac-toe/)
 - [Igorashs's Solution](https://github.com/igorashs/tic-tac-toe) - [View in Browser](https://igorashs.github.io/tic-tac-toe/)
 - [Jacavena's Solution](https://github.com/Jacavena/tic-tac-toe) - [View in Browser](https://jacavena.github.io/tic-tac-toe/)
 - [Bollinca's Solution](https://github.com/bollinca/tic-tac-toe) - [View in Browser](https://bollinca.github.io/tic-tac-toe/)
