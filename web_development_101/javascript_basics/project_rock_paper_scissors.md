@@ -40,7 +40,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Matt's Solution](httpshttps://github.com/mattjaylee/RockPaperScissors)
+- [Ulasaydin's Solution](https://github.com/ulasaydin/rock-paper-scissors) - [View in Browser](https://ulasaydin.github.io/rock-paper-scissors/)
+- [Helmi's Solution](https://github.com/helmihidzir/odin_rock_paper_scissors) - [View in Browser](https://helmihidzir.github.io/odin_rock_paper_scissors/)
+- [Christian Mejia's Solution](https://github.com/christian-mejia/rock-paper-scissors) 
+- [Matt's Solution](https://github.com/mattjaylee/RockPaperScissors)
 - [Albert's Solution](https://github.com/albertj320/rock_paper_scissors)
 - [Chris' Solution](https://github.com/cwray-tech/RockPaperScissors)
 - [Lazizhon's Solution](https://github.com/Lazizhon/rock_paper_scissor)
@@ -909,4 +912,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bohledevs's Solution](https://github.com/bohledevs/rockpapperscissors) - [View in Browser](https://bohledevs.github.io/rockpapperscissors/)
 - [sydrobhez's Solution](https://github.com/sydrobhez/rock-paper-scissors) - [View in Browser](https://sydrobhez.github.io/rock-papper-scissors)
 - [Bradley Peterson's Solution](https://github.com/spaceincase/rock-paper-scissors) - [View in Browser](https://spaceincase.github.io/rock-paper-scissors/)
+- [Connor Richmond-Clark's Solution](https://github.com/crichmond-clark/rock-paper-scissors)
+
 </details>
