@@ -42,6 +42,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/advanced_building_blocks/project1/bubble_sort.rb)
 * [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/bubble_sort.rb)
+* [Carlos Diaz's Solution](https://github.com/bycdiaz/bubble-sort)
 * [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/bubble_sort.rb)
 * [mistervoga's Solution](https://github.com/mistervoga/advanced_building_blocks/blob/master/bubble_sort.rb)
 * [Chris' Solution](https://github.com/CSalois114/project_building_blocks/blob/master/bubble_sort.rb)
