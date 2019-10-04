@@ -36,6 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vedat's Solution](https://github.com/mvedataydin/initiate-node) - [View in browser](https://repl.it/@mvedataydin/initiate-node)
 - [Henry Kirya's](https://github.com/harrika/nodemo) - [View in browser](https://repl.it/@HenryKirya/nodemo)
 - [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/basic_node_site)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node1/) - [View in browser](https://NodeJS-Basic-Informational-Site--tbmreza.repl.co)

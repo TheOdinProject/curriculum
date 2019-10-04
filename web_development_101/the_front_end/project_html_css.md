@@ -93,7 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Helmi's Solution (Easy)](https://github.com/helmihidzir/google-homepage) - [View in Browser](https://helmihidzir.github.io/google-homepage/)
 * [Varras' Solution (Easy)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/)
 * [Varras' Solution (Difficult)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/results.html)
-  [Forest's Solution (Easy)](https://github.com/foburch/google-homepage) - [View in Browser](https://foburch.github.io/google-homepage/) 
+*  [Forest's Solution (Easy)](https://github.com/foburch/google-homepage) - [View in Browser](https://foburch.github.io/google-homepage/) 
 * [Ashsih's Solution (Easy)](https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/home-page.html)
 * [Ashsih's Solution (Difficult)](https://github.com/CodersGas/google-page/) - [View in Browser](https://CodersGas.github.io/google-page/search-result-page.html)
 * [Kurt's Solution (Easy)](https://github.com/KurtYilmaz/google-homepage) - [View in Browser](https://kurtyilmaz.github.io/google-homepage/)
@@ -2493,6 +2493,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sarah Beck's Solution (Easy)](https://github.com/sarahdev626/google-homepage) - [View in Browser](https://sarahdev626.github.io/google-homepage/)
 * [Andrew's Solution (Easy)](https://github.com/CGoldMonkey/google-homepage-odin) - [View in Browser](https://cgoldmonkey.github.io/google-homepage-odin/)
 * [Karl Flexx's Solution (Easy)](https://github.com/winorwin/google-homepage) - [View in Browser](https://winorwin.github.io/google-homepage/)
+* [Tamás's Solution (Easy)](https://github.com/ftomika/google_homepage) - [View in Browser](https://ftomika.github.io/google_homepage/)
 </details>
 
 ### Additional Resources
