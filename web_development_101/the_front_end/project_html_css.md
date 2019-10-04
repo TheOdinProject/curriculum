@@ -2496,6 +2496,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Nigel Volkmann's Solution (Easy)](https://github.com/Nekolike/google-homepage) - [View in Browser](https://nekolike.github.io/google-homepage/)
 * [Steve White's Solution (Easy)](https://github.com/swhite85/google-homepage) - [View in Browser](https://swhite85.github.io/google-homepage/)
 * [Tamás's Solution (Easy)](https://github.com/ftomika/google_homepage) - [View in Browser](https://ftomika.github.io/google_homepage/)
+* [Hardy's Solution (Easy)](https://github.com/SurfingChewie/google-homepage) - [View in Browser](https://SurfingChewie.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
