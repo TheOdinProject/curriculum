@@ -557,5 +557,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [RKRohk's Solution](https://github.com/RKRohk/EtchASketch) - [View in Browser](https://rkrohk.github.io/EtchASketch/)
 * [MJae's Solution](https://github.com/MJae/MV-prj/tree/master/the_odin_project/etch-a-sketch) - [View in Browser](https://mjae.github.io/MV-prj/the_odin_project/etch-a-sketch/index.html)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/etch-a-sketch) - [View in Browser](https://dalandanjuice.github.io/etch-a-sketch/)
+* [Vinícius Bonifácio's Solution](https://github.com/vinicius77/sketchpad) - [View in Browser](https://vinicius77.github.io/sketchpad/)
+* [bohledevs's Solution](https://github.com/bohledevs/PROJECT-ETCH-A-SKETCH/) - [View in Browser](https://bohledevs.github.io/PROJECT-ETCH-A-SKETCH/)
 </details>
 
