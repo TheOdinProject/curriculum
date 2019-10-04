@@ -23,6 +23,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Tan's solution](https://github.com/davecmd/apple-old-webpage-replica) - [View in Browser](https://davecmd.github.io/apple-old-webpage-replica/)
 * [Carmine Grossi's solution](https://github.com/cgrossi/odinproject-apple-clone) - [View in Browser](https://cgrossi.github.io/odinproject-apple-clone/)
 * [Eapen's solution](https://github.com/eapenzacharias/backgrounds-gradients) - [View in Browser](https://eapenzacharias.github.io/backgrounds-gradients/)
 * [Benjamin Poore's solution](https://github.com/bpoore0614/apple-project) - [View in Browser](https://bpoore0614.github.io/apple-project/)
@@ -97,6 +98,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Kelvin L's Solution](https://github.com/kelvin8773/apple-homepage) - [View in Browser](https://kelvin8773.github.io/apple-homepage/)
 * [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/apple-clone-homepage) - [View in Browser](https://amarcoscastelo.github.io/apple-clone-homepage/)
 * [Carlos Del Real's Solution](https://github.com/carloshdelreal/Building-with-Backgrounds-and-Gradients) - [View in Browser](https://carloshdelreal.github.io/Building-with-Backgrounds-and-Gradients/)
+* [Halkim's Solution](https://github.com/halkim44/apple-site-clone) - [View in Browser](https://halkim44.github.io/apple-site-clone/)
 </details>
 
 ### Additional Resources

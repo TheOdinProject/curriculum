@@ -40,6 +40,11 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andrew MacLeod's Solution](https://github.com/a6macleod/javascript_library) - [View in Browser](https://a6macleod.github.io/javascript_library/)
+- [Julian's solution](https://github.com/Julian-quintero/Library) - [View in Browser](https://julian-quintero.github.io/Library/)
+- [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/02-JavaScript/01-Organizing_JavaScript_Code/01-Objects_And_Object_Constructors/library) - [View in Browser](https://sheltered-falls-65724.herokuapp.com/)
+- [Esteban's Solution](https://github.com/estebanmoroy/library) - [View in Browser](https://estebanmoroy.github.io/library/)
+- [Luky's solution](https://github.com/lcyne/top-library) - [View in Browser](https://lcyne.github.io/top-library/)
 - [Aleksandar J's solution](https://github.com/bestr32/TOPlibrary) - [View in Browser](https://bestr32.github.io/TOPlibrary/)
 - [igorashs's Solution (Firebase + LocalStorage](https://github.com/igorashs/library) - [View in Browser](https://igorashs.github.io/library/)
 - [Jacavena's Solution](https://github.com/Jacavena/library)
@@ -135,4 +140,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [rholderfield's Solution](https://github.com/rholderfield/Book-Library) - [View in Browser](https://rholderfield.github.io/Book-Library/)
 - [martink-rsa's Solution](https://github.com/martink-rsa/booksLibrary) - [View in Browser](https://martink-rsa.github.io/booksLibrary/index.html)
 - [Harry Coburn's Solution](https://github.com/mattibun/odin-library) - [View in Browser](https://mattibun.github.io/odin-library/index.html)
+- [Aron's Solution](https://github.com/aronfischer/Library-Application) - [View in Browser](https://aronfischer.github.io/Library-Application/)
+- [Joe Lee's Solution](https://github.com/JoeDravarol/library) - [View in Browser](https://JoeDravarol.github.io/library)
 </details>

@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Tan's solution](https://github.com/davecmd/NYT-space-article-replica) - [View in browser](https://davecmd.github.io/NYT-space-article-replica/)
 * [Jitendra Rathore's solution](https://github.com/jitendrrathore/positioning-and-floating-elements) - [View in browser](https://jitendrrathore.github.io/positioning-and-floating-elements)
 * [Carmine Grossi's solution](https://github.com/cgrossi/odin-project-positioning-project) - [View in browser](https://cgrossi.github.io/odin-project-positioning-project/)
 * [Sampajanno's solution](https://github.com/Sampajanno/floating-positioning) - [View in browser](https://sampajanno.github.io/floating-positioning/)
@@ -102,6 +103,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Kelvin Liang's solution](https://github.com/kelvin8773/NYT-Clone-Page) - [View in browser](https://kelvin8773.github.io/NYT-Clone-Page/)
 * [Antonio Marcos's solution](https://github.com/AMarcosCastelo/NYT-clone-page) - [View in browser](https://amarcoscastelo.github.io/NYT-clone-page/)
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/ViriCruz/positioning-and-floating-elements) - [View in Browser](https://viricruz.github.io/positioning-and-floating-elements/)
+* [Halkim's Solution](https://github.com/halkim44/nytimes-article-rebuild) - [View in Browser](https://halkim44.github.io/nytimes-article-rebuild/)
 
 </details>
 

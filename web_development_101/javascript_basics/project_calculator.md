@@ -45,6 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Christopher Wray's Solution](https://github.com/cwray-tech/calculator-project) - [View in Browser](https://cwray-tech.github.io/calculator-project/)
+- [vladutclp's Solution](https://github.com/vladutclp/JSCalculator)-[View in Browser](https://vladutclp.github.io/JSCalculator/)
+- [nearmint's Solution](https://github.com/nearmint/calculator) - [View in Browser](https://nearmint.github.io/calculator/)
+- [Esteban's Solution](https://github.com/estebanmoroy/js-calculator) - [View in Browser](https://estebanmoroy.github.io/js-calculator/)
+- [LucasNativo's Solution](https://github.com/lucasnativo/calculator) - [View in Browser](https://lucasnativo.github.io/calculator/)
 - [hamilto8's Solution](https://github.com/hamilto8/javascript_calculator) - [View in Browser](https://hamilto8.github.io/javascript_calculator/)
 - [fobos531's Solution](https://github.com/fobos531/calculator) - [View in Browser](https://fobos531.github.io/calculator)
 - [Nihir Agarwal's Solution](https://github.com/nihirag/calculator) - [View in Browser](https://nihirag.github.io/calculator)
@@ -383,4 +388,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tomstrat's solution](https://github.com/tomstrat/Calculator) - [View in Browser](https://tomstrat.github.io/Calculator/)
 - [crongle's solution](https://github.com/crongle/calculator) - [View in Browser](https://crongle.github.io/calculator/)
 - [Robert Suazo's solution](https://github.com/rsuazo/calculator) - [View in Browser](https://rsuazo.github.io/calculator/)
+- [ZeCheeseKing's solution](https://github.com/zecheeseking/javascript_calculator) - [View in Browser](https://zecheeseking.github.io/javascript_calculator/)
+- [Gustavo Carvalho's solution](https://github.com/gustavohc07/calculator) - [View in Browser](https://gustavohc07.github.io/calculator/)
+- [Steve Lally's solution](https://github.com/slally89/Calculator) - [View in Browser](https://slally89.github.io/Calculator/)
+- [Cacurriapower's solution](https://github.com/Cacurriapower/Calculator) - [View in Browser](https://Cacurriapower.github.io/Calculator/)
 </details>
