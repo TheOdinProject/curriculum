@@ -31,8 +31,8 @@ By the end of this lesson, you should be able to do the following:
 ### Assignment
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot, a virtual machine, or Windows Subsystem for Linux. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/web-development-101/lessons/prerequisites).
 
-1. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
-2. (Optional) If you'd like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/learn/learn-the-command-line) to get practice navigating and manipulating directories and files.
+1. Learn how to create a new file using `touch` command with [this article](https://www.geeksforgeeks.org/touch-command-in-linux-with-examples/). 
+2. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
 
 
 #### Use the Command Line Like a Pro
