@@ -2493,6 +2493,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sarah Beck's Solution (Easy)](https://github.com/sarahdev626/google-homepage) - [View in Browser](https://sarahdev626.github.io/google-homepage/)
 * [Andrew's Solution (Easy)](https://github.com/CGoldMonkey/google-homepage-odin) - [View in Browser](https://cgoldmonkey.github.io/google-homepage-odin/)
 * [Karl Flexx's Solution (Easy)](https://github.com/winorwin/google-homepage) - [View in Browser](https://winorwin.github.io/google-homepage/)
+* [Tamás's Solution (Easy)](https://github.com/ftomika/google_homepage) - [View in Browser](https://ftomika.github.io/google_homepage/)
 </details>
 
 ### Additional Resources
