@@ -323,6 +323,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Michael Marchand's Solution](https://github.com/MarchandMD/mastermind)
 * [Ian's Solution](https://github.com/IanMKesler/Mastermind)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/mastermind)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/mastermind)
