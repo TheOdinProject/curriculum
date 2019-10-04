@@ -89,6 +89,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 
+* [Kris Tobiasson's Solution (Easy)](https://github.com/highpockets/google-homepage) - [View in Browser](https://highpockets.github.io/google-homepage/)
 * [Alex Crazy Solution (Easy)](https://github.com/AlejandroNav/google-clonEster) - [View in Browser](https://alejandronav.github.io/google-clonEster/)
 * [Helmi's Solution (Easy)](https://github.com/helmihidzir/google-homepage) - [View in Browser](https://helmihidzir.github.io/google-homepage/)
 * [Varras' Solution (Easy)](https://github.com/Varras/google-homepage) - [View in Browser](https://varras.github.io/google-homepage/)
