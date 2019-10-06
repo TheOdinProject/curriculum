@@ -40,7 +40,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Tamerlan1993's solution](https://codepen.io/Tamerlan1993/pen/bGGGRdL)
 - [Robert P's solution](https://github.com/robbiesoho/PROJECT-ROCK-PAPER-SCISSORS)
 - [Nathan Dimitriades' solution](https://github.com/nathaniades/rock-paper-scissors)
 - [Diego's Solution](https://github.com/dhna32/Rock-Paper-Scissor-ODIN)
@@ -919,4 +918,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sydrobhez's Solution](https://github.com/sydrobhez/rock-paper-scissors) - [View in Browser](https://sydrobhez.github.io/rock-papper-scissors)
 - [Bradley Peterson's Solution](https://github.com/spaceincase/rock-paper-scissors) - [View in Browser](https://spaceincase.github.io/rock-paper-scissors/)
 - [Connor Richmond-Clark's Solution](https://github.com/crichmond-clark/rock-paper-scissors)
+- [childsluke's Solution](https://github.com/childsluke/jsconsolerps)
 </details>
