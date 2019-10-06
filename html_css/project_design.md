@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Tan's solution](https://github.com/davecmd/smashing-magazine-design-teardown) - [View in browser](https://davecmd.github.io/smashing-magazine-design-teardown/)
 * [Doris's solution](https://github.com/dsmchen/smashing-magazine-homepage) - [View in browser](https://dsmchen.github.io/smashing-magazine-homepage/)
 * [Ohlie's solution](https://github.com/lco1220/smashing_mag) - [View in browser](https://lco1220.github.io/smashing_mag/)
 * [Bojo's solution](https://github.com/BojoZahariev/SmashingDesignTeardown) - [View in browser](https://bojozahariev.github.io/SmashingDesignTeardown/)
