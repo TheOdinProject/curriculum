@@ -9,7 +9,7 @@ A typical airline booking flow:
 3. Enter passenger information for all passengers
 4. Enter billing information
 
-Step 4 would be done via integration of something like [Paypal](http://coding.smashingmagazine.com/2011/09/05/getting-started-with-the-paypal-api/), via [a gem](https://github.com/nov/paypal-express) or [an SDK](http://www.tommyblue.it/2013/07/03/paypal-express-checkout-with-ruby-on-rails-and-paypal-sdk-merchant) or [Stripe](https://stripe.com/docs/checkout/guides/rails).
+Step 4 would be done via integration of something like [Paypal](http://coding.smashingmagazine.com/2011/09/05/getting-started-with-the-paypal-api/), via [a gem](https://github.com/nov/paypal-express) or [an SDK](https://www.tommyblue.it/2013/07/02/paypal-express-checkout-with-ruby-on-rails-and-paypal-sdk-merchant/) or [Stripe](https://stripe.com/docs/checkout/guides/rails).
 
 ### Assignment
 
@@ -71,11 +71,12 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-flight-booker) - [View in browser](https://stormy-woodland-85583.herokuapp.com/)
 * [Kevin Vuong's solution](https://github.com/fffear/odin-flight-booker)
 * [Learnsometing's solution](https://github.com/learnsometing/rails-flight_booker)
-* [Simon Tharby's solution](https://github.com/jinjagit/flight-booker) | [View in browser](https://aqueous-citadel-60266.herokuapp.com)
+* [Simon Tharby's solution](https://github.com/jinjagit/flight-booker) - [View in browser](https://aqueous-citadel-60266.herokuapp.com)
 * [amundskm's Solution](https://github.com/amundskm/odin-flight-booker)
-* [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker) | [Live](https://safe-peak-87499.herokuapp.com)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker) - [Live](https://safe-peak-87499.herokuapp.com)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-flight-booker)
 * [Javier Machin's solution](https://github.com/Javier-Machin/flight-booker) - [Live](https://easy-flight.herokuapp.com/)
 * [nmac's solution](https://github.com/nmacawile/fly-me-there) - [Heroku](http://protected-castle-72511.herokuapp.com)

@@ -10,7 +10,7 @@ In this project you'll clone the website of one of the most design-forward compa
 4. Think about all the elements on the page and how they are grouped together.
 5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 6. Set up the top navigation bar.  How is that gradient achieved?
-7. Set up the main background image.  You can grab that exact image from their webpage by finding the `<section id="hero">` tag in your inspector and checking out its background image.
+7. Set up the main background image.  You can grab that exact image from their webpage by finding the `<section class="hero">` tag in your inspector and checking out its background image.
 6. Fill in and position the additional sections.  Don't worry about enclosing every paragraph of text in `<p>` tags.
 7. Push your solution to Github.
 </div>
@@ -98,6 +98,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Kelvin L's Solution](https://github.com/kelvin8773/apple-homepage) - [View in Browser](https://kelvin8773.github.io/apple-homepage/)
 * [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/apple-clone-homepage) - [View in Browser](https://amarcoscastelo.github.io/apple-clone-homepage/)
 * [Carlos Del Real's Solution](https://github.com/carloshdelreal/Building-with-Backgrounds-and-Gradients) - [View in Browser](https://carloshdelreal.github.io/Building-with-Backgrounds-and-Gradients/)
+* [Halkim's Solution](https://github.com/halkim44/apple-site-clone) - [View in Browser](https://halkim44.github.io/apple-site-clone/)
 </details>
 
 ### Additional Resources
