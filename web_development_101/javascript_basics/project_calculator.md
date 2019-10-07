@@ -45,6 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Julio's solution](https://github.com/julio22b/calculator) - [View in Browser](https://julio22b.github.io/calculator/)
+- [Andrew MacLeod's Solution](https://github.com/a6macleod/JavaScriptCalculator) - [View in Browser](https://a6macleod.github.io/JavaScriptCalculator/)
+- [John's solution](https://github.com/JohnHerrera14/Calculator)
+- [Christopher Wray's Solution](https://github.com/cwray-tech/calculator-project) - [View in Browser](https://cwray-tech.github.io/calculator-project/)
+- [vladutclp's Solution](https://github.com/vladutclp/JSCalculator)-[View in Browser](https://vladutclp.github.io/JSCalculator/)
 - [nearmint's Solution](https://github.com/nearmint/calculator) - [View in Browser](https://nearmint.github.io/calculator/)
 - [Esteban's Solution](https://github.com/estebanmoroy/js-calculator) - [View in Browser](https://estebanmoroy.github.io/js-calculator/)
 - [LucasNativo's Solution](https://github.com/lucasnativo/calculator) - [View in Browser](https://lucasnativo.github.io/calculator/)
