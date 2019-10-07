@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Christopher Wray's Solution](https://github.com/cwray-tech/etch-a-sketch) - [View in Browser](https://cwray-tech.github.io/etch-a-sketch/)
 * [Spencer Freebairn's Solution](https://github.com/darman12/etch) - [View in Browser](https://darman12.github.io/etch/)
 * [ZachHoskins' Solution](https://github.com/zachhoskins/etch-a-sketch) - [View in Browser](https://zachhoskins.github.io/etch-a-sketch/)
 * [Farrukh's Solution](https://github.com/augini/Etch-Sketch) - [View in Browser](https://augini.github.io/Etch-Sketch/)
@@ -554,4 +555,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Synte's Solution](https://github.com/Synte/etch-a-sketch) - [View in Browser](https://synte.github.io/etch-a-sketch/)
 * [kosmos434's Solution](https://github.com/kosmos434/Etch-a-Sketch) - [View in Browser](https://kosmos434.github.io/Etch-a-Sketch/)
 * [RKRohk's Solution](https://github.com/RKRohk/EtchASketch) - [View in Browser](https://rkrohk.github.io/EtchASketch/)
+* [MJae's Solution](https://github.com/MJae/MV-prj/tree/master/the_odin_project/etch-a-sketch) - [View in Browser](https://mjae.github.io/MV-prj/the_odin_project/etch-a-sketch/index.html)
+* [DalandanJuice's Solution](https://github.com/DalandanJuice/etch-a-sketch) - [View in Browser](https://dalandanjuice.github.io/etch-a-sketch/)
+* [Vinícius Bonifácio's Solution](https://github.com/vinicius77/sketchpad) - [View in Browser](https://vinicius77.github.io/sketchpad/)
+* [bohledevs's Solution](https://github.com/bohledevs/PROJECT-ETCH-A-SKETCH/) - [View in Browser](https://bohledevs.github.io/PROJECT-ETCH-A-SKETCH/)
+* [hyperturing's Solution](https://github.com/hyperturing/etch-a-sketch) - [View in Browser](https://hyperturing.github.io/etchasketch/)
+* [Bradley Peterson's Solution](https://github.com/spaceincase/easRedux) - [View in Browser](https://spaceincase.github.io/easRedux/)
 </details>
+
