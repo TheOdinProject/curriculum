@@ -30,7 +30,7 @@ Don't worry if you don't totally understand what you are doing in these next ste
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
-gem install rails
+gem install rails -v 5.2.3
 ~~~
 
 #### Step 1.2: Lay the Groundwork
@@ -259,7 +259,7 @@ bundle install --without production
 
 #### Step 3.5.3: Configure the Root Route
 
-The next thing we need to edit is the `routes.rb` file to set our root route. We're going to this so that we can see the application without having to append `/cars` at the end of the URL.
+The next thing we need to edit is the `routes.rb` file to set our root route. We're going to do this so that we can see the application without having to append `/cars` at the end of the URL.
 
 Go back to VSCode and expand the `config` folder in the file list at the left-hand side of the screen. One of the files inside the folder will be named `routes.rb`. Open `routes.rb` and make it match the example below:
 
@@ -346,7 +346,7 @@ heroku run rails db:migrate
 
 You might see some strange output, but as long as you do not have an error, you have successfully deployed a Rails application!
 
-If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
+If you have an error, come to our [chat room](https://discord.gg/hvqVr6d), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
 
 #### Step 3.9: Visit Your New Application
 

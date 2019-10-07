@@ -268,7 +268,7 @@ Now, lets go back and learn how to securely store user passwords so that if anyt
 
 First `npm install bcryptjs`. There is another module called `bcrypt` that does the same thing, but it is written in C++ and is sometimes a pain to get installed. The C++ `bcrypt` is technically faster, so in the future it might be worth getting it running, but for now the modules work the same so we can just use `bcryptjs`.
 
-Once it's installed you need to require it at the top of your app.js and then we are going to pput it to use where we save our passwords to the DB, and where we compare them inside the LocalStrategy.
+Once it's installed you need to require it at the top of your app.js and then we are going to put it to use where we save our passwords to the DB, and where we compare them inside the LocalStrategy.
 
 #### Storing hashed passwords:
 
