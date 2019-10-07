@@ -89,6 +89,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 
+* [Shubham Singh's Solution (Both)](https://github.com/Shubham0812/google_homepage) - [View in Browser](https://shubham0812.github.io/google_homepage/)
 * [Kris Tobiasson's Solution (Easy)](https://github.com/highpockets/google-homepage) - [View in Browser](https://highpockets.github.io/google-homepage/)
 * [Alex Crazy Solution (Easy)](https://github.com/AlejandroNav/google-clonEster) - [View in Browser](https://alejandronav.github.io/google-clonEster/)
 * [Helmi's Solution (Easy)](https://github.com/helmihidzir/google-homepage) - [View in Browser](https://helmihidzir.github.io/google-homepage/)
@@ -2501,6 +2502,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hardy's Solution (Easy)](https://github.com/SurfingChewie/google-homepage) - [View in Browser](https://SurfingChewie.github.io/google-homepage/)
 * [Muhammad Ahmad's Solution (Easy)](https://github.com/thisisMAhmad/google-homepage) - [View in Browser](https://thisismahmad.github.io/google-homepage/)
 * [Muhammad Ahmad's Solution (Difficult)](https://github.com/thisisMAhmad/google-searchpage) - [View in Browser](https://thisismahmad.github.io/google-searchpage/)
+* [MemMori's Solution (Difficult)](https://github.com/Mem-Mori/Google-Replication) - [View in Browser](https://mem-mori.github.io/Google-Replication/)
 </details>
 
 ### Additional Resources

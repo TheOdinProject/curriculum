@@ -40,6 +40,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [matchewbie's Solution](https://github.com/matchewbie/rock-paper-scissors) - [View in Browser](https://matchewbie.github.io/rock-paper-scissors/)
+- [Kurt's Solution](https://github.com/KurtYilmaz/rock-paper-scissors) - [View in Browser](https://kurtyilmaz.github.io/rock-paper-scissors/)
+- [Noelle Anderson's solution](https://github.com/elleon003/rock-paper-scissors) - [View in Browser](https://elleon003.github.io/rock-paper-scissors/)
+- [Tim's Solution](https://github.com/tpsst5/rock_paper_scissors) - [View in Browser](https://tpsst5.github.io/rock_paper_scissors/)
+- [sphuong95' Solution](https://github.com/sphuong95/rock-paper-scissor) - [View in Browser](https://sphuong95.github.io/rock-paper-scissor/)
+- [Julio's solution](https://github.com/julio22b/rock-paper-scissors) - [View in Browser](https://julio22b.github.io/rock-paper-scissors/)
 - [Jedensuscg's Solution](https://github.com/jedensuscg/rock-paper-scissors) - [View in Browser](https://jedensuscg.github.io/RPS/)
 - [Tamerlan1993's solution](https://codepen.io/Tamerlan1993/pen/bGGGRdL)
 - [Robert P's solution](https://github.com/robbiesoho/PROJECT-ROCK-PAPER-SCISSORS)
@@ -920,4 +926,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sydrobhez's Solution](https://github.com/sydrobhez/rock-paper-scissors) - [View in Browser](https://sydrobhez.github.io/rock-papper-scissors)
 - [Bradley Peterson's Solution](https://github.com/spaceincase/rock-paper-scissors) - [View in Browser](https://spaceincase.github.io/rock-paper-scissors/)
 - [Connor Richmond-Clark's Solution](https://github.com/crichmond-clark/rock-paper-scissors)
+- [childsluke's Solution](https://github.com/childsluke/jsconsolerps)
 </details>
