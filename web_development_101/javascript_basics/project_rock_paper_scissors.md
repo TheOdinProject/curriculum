@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kurt's Solution](https://github.com/KurtYilmaz/rock-paper-scissors) - [View in Browser](https://kurtyilmaz.github.io/rock-paper-scissors/)
 - [Noelle Anderson's solution](https://github.com/elleon003/rock-paper-scissors) - [View in Browser](https://elleon003.github.io/rock-paper-scissors/)
 - [Tim's Solution](https://github.com/tpsst5/rock_paper_scissors) - [View in Browser](https://tpsst5.github.io/rock_paper_scissors/)
 - [sphuong95' Solution](https://github.com/sphuong95/rock-paper-scissor) - [View in Browser](https://sphuong95.github.io/rock-paper-scissor/)
