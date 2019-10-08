@@ -42,8 +42,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
-- [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/calculator) - [View in browser](https://vanessacor.github.io/site/experiments/calculator/)
-- [George Zhu's solution](https://github.com/georgezhu11/calculator) - [View in browser](https://georgezhu11.github.io/calculator/)
+- [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/calculator) - [View in Browser](https://vanessacor.github.io/site/experiments/calculator/)
+- [George Zhu's solution](https://github.com/georgezhu11/calculator) - [View in Browser](https://georgezhu11.github.io/calculator/)
 - [Om Dhiraj's Solution](https://github.com/odgripginger/calculator-odin) - [View in Browser](https://odgripginger.github.io/calculator-odin/)
 - [Vollantre's Solution](https://github.com/vollantre/calculator)
 - [Ricala's Solution](https://github.com/Ricala/calculator) - [View in Browser](https://ricala.github.io/Calculator/)
