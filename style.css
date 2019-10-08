@@ -1,0 +1,77 @@
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.nav li {
+  float: right;
+}
+
+.nav a {
+  font-size: 14px;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.logo  {
+  display: block;
+  margin-left:  auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.box {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.box .container-1 input{
+   width: 100%;
+}
+
+.label {
+  margin: auto;
+  width: 15%;
+  padding: 25px;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar a {
+  font-size: 14px;
+  color: grey;
+  float: rigth;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
