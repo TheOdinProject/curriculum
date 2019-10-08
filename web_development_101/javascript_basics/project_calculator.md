@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/calculator) - [View in Browser](https://vanessacor.github.io/site/experiments/calculator/)
 - [Julio's solution](https://github.com/julio22b/calculator) - [View in Browser](https://julio22b.github.io/calculator/)
 - [Andrew MacLeod's Solution](https://github.com/a6macleod/JavaScriptCalculator) - [View in Browser](https://a6macleod.github.io/JavaScriptCalculator/)
 - [John's solution](https://github.com/JohnHerrera14/Calculator)
