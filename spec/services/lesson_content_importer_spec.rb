@@ -36,6 +36,20 @@ RSpec.describe LessonContentImporter do
       and_return(markdown_converter)
   end
 
+  describe '.import_all' do
+    let(:lessons) { [build_stubbed(:lesson)] * 3 }
+
+    before do
+      allow(Lesson).to receive(:all).
+        and_return(lessons)
+    end
+
+    it 'updates the content for all lessons' do
+      expect(LessonContentImporter).to receive(:for).thrice
+      LessonContentImporter.import_all
+    end
+  end
+
   describe '#import' do
 
     it 'updates the lesson content' do

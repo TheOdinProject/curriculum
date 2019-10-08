@@ -1,4 +1,4 @@
-class RemoveUnusedColumnsFromCourse < ActiveRecord::Migration[5.0]
+class RemoveUnusedColumnsFromCourse < ActiveRecord::Migration[5.0][5.0]
   def change
     remove_column :courses, :you_learn
     remove_column :courses, :you_build

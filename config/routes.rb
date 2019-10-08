@@ -30,8 +30,11 @@ Rails.application.routes.draw do
 
   # failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
-
   resources :users, only: [:show, :update]
+
+  namespace :users do
+    resources :tracks, only: :create
+  end
   get 'dashboard' => 'users#show', as: :dashboard
 
   # Deprecated Route to Introduction to Web Development from external links
@@ -56,8 +59,9 @@ Rails.application.routes.draw do
   match '/404' => 'errors#not_found', via: [ :get, :post, :patch, :delete ]
 
   # Explicitly redirect deprecated routes (301)
-
   get '/courses/curriculum' => redirect('/courses')
   get 'curriculum' => redirect('/courses')
   get 'scheduler' => redirect('/courses')
+
+  resources :tracks, only: [:index, :show]
 end

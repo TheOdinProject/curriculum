@@ -22,7 +22,7 @@ class LessonCompletionsController < ApplicationController
   end
 
   def set_user
-      @user = User.includes(:lesson_completions).find(current_user.id)
+    @user = User.includes(:lesson_completions).find(current_user.id)
   end
 
   def new_lesson_completion

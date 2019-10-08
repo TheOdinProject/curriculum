@@ -1,4 +1,4 @@
-class RemoveIndexFromLessonNames < ActiveRecord::Migration
+class RemoveIndexFromLessonNames < ActiveRecord::Migration[5.0]
   def up
     remove_index :lessons, :column => :title
   end

@@ -1,4 +1,4 @@
-class RemoveUserFields < ActiveRecord::Migration[5.0]
+class RemoveUserFields < ActiveRecord::Migration[5.0][5.0]
   def change
     remove_column :users, :github
     remove_column :users, :twitter
