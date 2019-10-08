@@ -27,4 +27,6 @@ Now get your head out of the clouds, stop dreaming about how you'll get hired, a
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Add some!
+* [Getting your first IT job from InformationWeek](https://www.informationweek.com/team-building-and-staffing/how-to-land-your-first-it-job/d/d-id/1111584)
+* [Engineer’s Guide to US Visas](http://blog.sourcing.io/visa-guide)
+* [Lessons from a Silicon Valley Job Search by Robert Heaton](https://robertheaton.com/2014/03/07/lessons-from-a-silicon-valley-job-search/)

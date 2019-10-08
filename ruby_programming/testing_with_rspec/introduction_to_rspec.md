@@ -37,7 +37,7 @@ project
   |__.spec
 ~~~
 
-That's it. Within two steps, you're up and running with RSpec. That was so hard, wasn't it?
+That's it. Within two steps, you're up and running with RSpec. That wasn't so hard, was it?
 
 #### Basic syntax
 How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby_testing", change into it, and initiate RSpec.
