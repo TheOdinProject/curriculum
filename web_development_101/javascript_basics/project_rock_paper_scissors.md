@@ -40,6 +40,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/games/rock-paper-scissors) - [View in Browser](https://vanessacor.github.io/site/experiments/games/rock-paper-scissors)
+- [Ogunmola Israel's solution](https://github.com/Lippins/rock_paper_scissors)
+- [matchewbie's Solution](https://github.com/matchewbie/rock-paper-scissors) - [View in Browser](https://matchewbie.github.io/rock-paper-scissors/)
 - [Kurt's Solution](https://github.com/KurtYilmaz/rock-paper-scissors) - [View in Browser](https://kurtyilmaz.github.io/rock-paper-scissors/)
 - [Noelle Anderson's solution](https://github.com/elleon003/rock-paper-scissors) - [View in Browser](https://elleon003.github.io/rock-paper-scissors/)
 - [Tim's Solution](https://github.com/tpsst5/rock_paper_scissors) - [View in Browser](https://tpsst5.github.io/rock_paper_scissors/)
@@ -926,4 +929,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Bradley Peterson's Solution](https://github.com/spaceincase/rock-paper-scissors) - [View in Browser](https://spaceincase.github.io/rock-paper-scissors/)
 - [Connor Richmond-Clark's Solution](https://github.com/crichmond-clark/rock-paper-scissors)
 - [childsluke's Solution](https://github.com/childsluke/jsconsolerps)
+- [mothmanex's Solution](https://github.com/mothmanex/js_rock_paper_scissors)
 </details>

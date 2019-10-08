@@ -2504,6 +2504,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Muhammad Ahmad's Solution (Difficult)](https://github.com/thisisMAhmad/google-searchpage) - [View in Browser](https://thisismahmad.github.io/google-searchpage/)
 * [MemMori's Solution (Difficult)](https://github.com/Mem-Mori/Google-Replication) - [View in Browser](https://mem-mori.github.io/Google-Replication/)
 * [Mehmet's Solution (Easy)](https://mehmetshams.github.io/google-homepage/) - [View in Browser](https://mehmetshams.github.io/google-homepage/)
+* [Impulse Dev's Solution (Easy)](https://github.com/impulsedevlog/google-homepage) - [View in Browser](https://impulsedevlog.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
