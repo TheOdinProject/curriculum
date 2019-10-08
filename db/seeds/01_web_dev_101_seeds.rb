@@ -89,18 +89,6 @@ create_or_update_lesson(
   repo: 'curriculum'
 )
 
-lesson_position += 1
-create_or_update_lesson(
-  title: "Command Line Basics",
-  title_url: "Command Line Basics".parameterize,
-  description: "The command line: loved, hated, and feared... but no longer by you.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/the_basics/command_line_basics.md",
-  repo: 'curriculum'
-)
-
 # ++++++++++++++++++++
 # SECTION - Installations
 # ++++++++++++++++++++
@@ -152,6 +140,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Command Line Basics",
+  title_url: "Command Line Basics".parameterize,
+  description: "The command line: loved, hated, and feared... but no longer by you.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/installations/command_line_basics.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Installing Ruby",
   title_url: "Installing Ruby".parameterize,
   description: "Let's get started with installing Ruby!",
@@ -159,6 +159,18 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: "/web_development_101/installations/installing_ruby.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Setting Up Git",
+  title_url: "Setting Up Git".parameterize,
+  description: "The Source Code Ambulance",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/installations/setting_up_git.md",
   repo: 'curriculum'
 )
 

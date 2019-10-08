@@ -15,6 +15,7 @@ class User < ApplicationRecord
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
   has_many :projects, dependent: :destroy
   has_many :user_providers, dependent: :destroy
+  belongs_to :track
 
   def progress_for(course)
     @progress ||= Hash.new { |h, c| h[c] = CourseProgress.new(c, self) }

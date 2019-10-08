@@ -1,4 +1,4 @@
-class ChangeHtmlLessonTitles < ActiveRecord::Migration[5.0]
+class ChangeHtmlLessonTitles < ActiveRecord::Migration[5.0][5.0]
   def up
     change_course_title('HTML5 and CSS3', 'HTML and CSS')
     change_section_titles(section_titles)

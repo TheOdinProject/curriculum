@@ -23,6 +23,7 @@ class CourseDecorator < ApplicationDecorator
       'Ruby on Rails' => 'badges/badge-ruby-on-rails-borderless.svg',
       'Getting Hired' => 'badges/badge-getting-hired-borderless.svg',
       'Databases' => 'badges/badge-database-borderless.svg',
+      'NodeJS' => 'badges/badge-nodejs-borderless.svg'
     }
   end
 
@@ -34,7 +35,8 @@ class CourseDecorator < ApplicationDecorator
       'Javascript' => 'badge-javascript.svg',
       'Ruby on Rails' => 'badge-ruby-on-rails.svg',
       'Getting Hired' => 'badge-getting-hired.svg',
-      'Databases' => 'badge-database.svg'
+      'Databases' => 'badge-database.svg',
+      'NodeJS' => 'badge-nodejs.svg'
     }
   end
 

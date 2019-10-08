@@ -1,0 +1,23 @@
+<div class="curriculum-background">
+  <div class="container tracks-index">
+    <h1 class="text-center camel light">Learning Tracks</h1>
+    <h2 class="text-center">
+      Select from our available learning tracks below
+    </h2>
+    <p class="text-center">Tracks are our way of offering multiple paths through our curriculum.</p>
+    <p class="text-center">  
+      You can change your track at any time, and your progress will not be lost.  Many of our tracks share the same fundamental lessons, so any progress you've made on any shared courses or lessons will transfer between tracks.</p>
+  
+  
+    <% @tracks.each do |track| %>
+      <div class="card-main track-card">
+        <div class="track-card-title">
+          <h1><%=track.title%></h1>
+          <%= link_to "View track", track_path(track), class:"button button--secondary" %>
+        </div>
+        <p><%= track.description%></p>
+      </div>
+    <% end %>
+  </div>
+</div>
+
