@@ -927,4 +927,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Bradley Peterson's Solution](https://github.com/spaceincase/rock-paper-scissors) - [View in Browser](https://spaceincase.github.io/rock-paper-scissors/)
 - [Connor Richmond-Clark's Solution](https://github.com/crichmond-clark/rock-paper-scissors)
 - [childsluke's Solution](https://github.com/childsluke/jsconsolerps)
+- [mothmanex's Solution](https://github.com/mothmanex/js_rock_paper_scissors)
 </details>
