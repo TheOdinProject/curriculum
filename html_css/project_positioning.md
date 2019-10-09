@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Solodov's solution](https://github.com/solodov-dev/top-nyt) - [View in browser](https://solodov-dev.github.io/top-nyt/)
 * [David Tan's solution](https://github.com/davecmd/NYT-space-article-replica) - [View in browser](https://davecmd.github.io/NYT-space-article-replica/)
 * [Jitendra Rathore's solution](https://github.com/jitendrrathore/positioning-and-floating-elements) - [View in browser](https://jitendrrathore.github.io/positioning-and-floating-elements)
 * [Carmine Grossi's solution](https://github.com/cgrossi/odin-project-positioning-project) - [View in browser](https://cgrossi.github.io/odin-project-positioning-project/)

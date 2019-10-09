@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Vanessacor's Solution](https://github.com/vanessacor/site/tree/master/experiments/etch-a-sketch) - [View in Browser](https://vanessacor.github.io/site/experiments/etch-a-sketch/)
+* [jedensuscg's Solution](https://github.com/jedensuscg/etch-a-sketch) - [View in Browser](https://jedensuscg.github.io/etch-a-sketch/)
 * [Christopher Wray's Solution](https://github.com/cwray-tech/etch-a-sketch) - [View in Browser](https://cwray-tech.github.io/etch-a-sketch/)
 * [Spencer Freebairn's Solution](https://github.com/darman12/etch) - [View in Browser](https://darman12.github.io/etch/)
 * [ZachHoskins' Solution](https://github.com/zachhoskins/etch-a-sketch) - [View in Browser](https://zachhoskins.github.io/etch-a-sketch/)
@@ -559,5 +561,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/etch-a-sketch) - [View in Browser](https://dalandanjuice.github.io/etch-a-sketch/)
 * [Vinícius Bonifácio's Solution](https://github.com/vinicius77/sketchpad) - [View in Browser](https://vinicius77.github.io/sketchpad/)
 * [bohledevs's Solution](https://github.com/bohledevs/PROJECT-ETCH-A-SKETCH/) - [View in Browser](https://bohledevs.github.io/PROJECT-ETCH-A-SKETCH/)
+* [hyperturing's Solution](https://github.com/hyperturing/etch-a-sketch) - [View in Browser](https://hyperturing.github.io/etchasketch/)
+* [Bradley Peterson's Solution](https://github.com/spaceincase/easRedux) - [View in Browser](https://spaceincase.github.io/easRedux/)
 </details>
 

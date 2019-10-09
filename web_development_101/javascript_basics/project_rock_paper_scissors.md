@@ -58,7 +58,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Shahin Bayvari's solution](https://github.com/shahinbayvari/rock_paper_scissors)
 - [Mooniebanoonie](https://github.com/Mooniebanoonie/Rock-paper-scissors) - [View in Browser](https://mooniebanoonie.github.io/Rock-paper-scissors/)
 - [Bryan Carbone's solution](https://github.com/carbone84/rock-paper-scissors) - [View in Browser](https://carbone84.github.io/rock-paper-scissors/)
-- [kichilu's solution](https://github.com/kichilu/Rock-Paper-Scissors)
+- [kichilu's solution](https://github.com/kichilu/Rock-Paper-Scissors) - [View in Browser](https://kichilu.github.io/Rock-Paper-Scissors/)
 - [nearmint's solution](https://github.com/nearmint/rock-paper-scissors) - [View in Browser](https://nearmint.github.io/rock-paper-scissors/)
 - [Paul Wu's solution](https://github.com/wutangme/rock-paper-scissors) - [View in Browser](https://wutangme.github.io/)
 - [Aaron Atkins's solution](https://github.com/atkinsio/rock-paper-scissors/) - [View in Browser](https://atkinsio.com/rock-paper-scissors/)
@@ -916,4 +916,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sydrobhez's Solution](https://github.com/sydrobhez/rock-paper-scissors) - [View in Browser](https://sydrobhez.github.io/rock-papper-scissors)
 - [Bradley Peterson's Solution](https://github.com/spaceincase/rock-paper-scissors) - [View in Browser](https://spaceincase.github.io/rock-paper-scissors/)
 - [Connor Richmond-Clark's Solution](https://github.com/crichmond-clark/rock-paper-scissors)
+- [childsluke's Solution](https://github.com/childsluke/jsconsolerps)
+- [mothmanex's Solution](https://github.com/mothmanex/js_rock_paper_scissors)
 </details>
