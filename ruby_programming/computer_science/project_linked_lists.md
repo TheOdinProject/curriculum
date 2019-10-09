@@ -202,5 +202,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee48's solution (with extra credit)](https://github.com/bendee48/Data-Structures/blob/master/linked_lists.rb)
 * [Ray Alvarez's solution (with extra credit)](https://github.com/ray-alvarez/linkedlists)
 * [Brett Bonnet's solution (with extra credit)](https://github.com/Brett-Bonnet/linked_lists)
+* [Adriel Bruno's solution (with extra credit)](https://github.com/AdrielTrigger/Ruby-Linked-List/blob/master/linked_list.rb)
 
 </details>
