@@ -898,5 +898,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Hyperturing's Solution](https://github.com/hyperturing/TOP-RockPaperScissors) - [View in Browser](https://github.com/hyperturing/TOP-RockPaperScissors)
 - [Dominic's solution](https://github.com/dowo13/Finished-Rock-Paper-Scissors.git) - [View in Browser](https://dowo13.github.io/Finished-Rock-Paper-Scissors/)
 - [Sam Akers' Solution](https://github.com/samakers/rock-paper-scissors) 
+- [Jeffrey Ding's Solution] (https://github.com/Jding9/RockPaperScissors)
 </details>
 
