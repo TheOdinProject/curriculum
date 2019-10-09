@@ -2508,6 +2508,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mehmet's Solution (Easy)](https://mehmetshams.github.io/google-homepage/) - [View in Browser](https://mehmetshams.github.io/google-homepage/)
 * [Impulse Dev's Solution (Easy)](https://github.com/impulsedevlog/google-homepage) - [View in Browser](https://impulsedevlog.github.io/google-homepage/)
 * [akayjo's Solution (Easy)](https://github.com/impulsedevlog/google-homepage) - [View in Browser](https://akayjo.github.io/google-homepage/)
+* [Kelsey's Solution (Easy)](https://kelsey-myers.github.io/google-homepage/) - [View in Browser](https://kelsey-myers.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
