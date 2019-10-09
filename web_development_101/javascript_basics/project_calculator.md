@@ -397,4 +397,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Steve Lally's solution](https://github.com/slally89/Calculator) - [View in Browser](https://slally89.github.io/Calculator/)
 - [Cacurriapower's solution](https://github.com/Cacurriapower/Calculator) - [View in Browser](https://Cacurriapower.github.io/Calculator/)
 - [Synte's Solution](https://github.com/Synte/calculator) - [View in Browser](https://synte.github.io/calculator/)
+- [RKRohk's Solution](https://github.com/RKRohk/OnlineCalculator) - [View in Browser](https://rkrohk.github.io/OnlineCalculator/)
 </details>
