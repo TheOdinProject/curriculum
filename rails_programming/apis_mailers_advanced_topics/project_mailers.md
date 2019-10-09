@@ -29,6 +29,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-flight-booker) - [View in Browser](https://stormy-woodland-85583.herokuapp.com)
 * [Kevin Vuong's solution](https://github.com/fffear/odin-flight-booker)
 * [Learnsometing's solution](https://github.com/learnsometing/rails-flight_booker)
 * [Simon Tharby's solution](https://github.com/jinjagit/flight-mailer)
