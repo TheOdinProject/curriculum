@@ -2505,6 +2505,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MemMori's Solution (Difficult)](https://github.com/Mem-Mori/Google-Replication) - [View in Browser](https://mem-mori.github.io/Google-Replication/)
 * [Mehmet's Solution (Easy)](https://mehmetshams.github.io/google-homepage/) - [View in Browser](https://mehmetshams.github.io/google-homepage/)
 * [Impulse Dev's Solution (Easy)](https://github.com/impulsedevlog/google-homepage) - [View in Browser](https://impulsedevlog.github.io/google-homepage/)
+* [akayjo's Solution (Easy)](https://github.com/impulsedevlog/google-homepage) - [View in Browser](https://akayjo.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
