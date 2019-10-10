@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Kris Tobiasson's Solution](https://github.com/highpockets/etch-a-sketch.git) - [View in Browser](https://highpockets.github.io/etch-a-sketch/)
 * [Julio's solution](https://github.com/julio22b/etch-a-sketch) - [View in Browser](https://julio22b.github.io/etch-a-sketch/)
 * [David Tan's Solution](https://github.com/davecmd/etch-a-sketch) - [View in Browser](https://davecmd.github.io/etch-a-sketch/)
 * [Vanessacor's Solution](https://github.com/vanessacor/site/tree/master/experiments/etch-a-sketch) - [View in Browser](https://vanessacor.github.io/site/experiments/etch-a-sketch/)
