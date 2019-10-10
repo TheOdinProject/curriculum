@@ -77,4 +77,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Agnieszka's Solution](https://github.com/atarsa/mini-msg-board-express) - [View in Browser](https://quiet-hollows-16705.herokuapp.com)
 - [Jake's Solution](https://github.com/jdonahue135/miniMessageBoard) - [View in Browser](https://sheltered-hollows-81080.herokuapp.com/)
 - [Andrécio's Solution](https://github.com/andreciobezerra/Messages-board) - [View in Browser](https://safe-wave-54774.herokuapp.com/)
+- [Ifeanyichukwu's Solution](https://github.com/Anyitechs/Message_boardApp) - [View in Browser](https://boiling-temple-35917.herokuapp.com/)
 </details>
