@@ -15,6 +15,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Tan's Solution](https://github.com/davecmd/SQL-Zoo-Solutions)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/SQL-Zoo)
 * [Sherman's Solution](https://github.com/shermansjliu/sql-zoo)
 * [Martinez's Santiago Solution](https://github.com/samart333/SQLZOO-project.git)
