@@ -15,7 +15,18 @@ The best way to actually learn something is to _use_ it! We've directed you to b
 
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/frameworks/frameworks-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Vedat's React solution](https://github.com/mvedataydin/react-todo) - [View in Browser](https://mvedataydin.github.io/react-todo/)
+* [Solodov's Vue solution](https://github.com/solodov-dev/todo-vue) - [View in Browser](https://solodov-dev.github.io/todo-vue/)
+* [Eljoey's React TodoList](https://github.com/eljoey/React-todo-2) - [View in Browser](https://eljoey.github.io/React-todo-2/)
+* [Henry Kirya's Svelte solution](https://github.com/harrika/library-svelte) - [View in Browser](https://harrika.github.io/library-svelte/)
+* [ARaut9's React Library](https://github.com/ARaut9/book_library_react) - [View in Browser](https://araut9.github.io/book_library_react/)
+* [Jason McKee's Vue Library](https://github.com/jttmckee/vue-library) - [View in Browser](https://jttmckee.github.io/vue-library/)
+* [Andrew's Vue.js Solution](https://github.com/andrewr224/readersite) - [View in Browser](https://andrewr224.github.io/readersite/#/)
+* [autumnchris's React Library Solution](https://github.com/autumnchris/reading-list-reactjs) - [View in Browser](https://autumnchris.github.io/reading-list-reactjs)
 * [nmac's solution](https://github.com/nmacawile/ng-to-do-list) - [Angular To-do List](https://ng-to-do-list-239a2.firebaseapp.com)
 * [Tamerlan1993's Todo-list solution](https://github.com/Tamerlan1993/hactktoberfest-2018/tree/master/vuex-todo-app) - [View in browser](https://vuex-todomvc-1.netlify.com/)
 * [Luján Fernaud's React book-library solution](https://github.com/lujanfernaud/react-reading-list) - [View in browser](http://lujanfernaud.com/react-reading-list/)
@@ -24,5 +35,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Katineto's React todo-list solution](https://github.com/Katineto/avocado) - [View in browser](https://katineto.github.io/avocado/)
 * [Caner Sezgin's solution](https://github.com/CanerSezgin/TodoList/tree/master/Source%20Codes) - [View in browser](https://canersezgin.github.io/TodoList/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/react-simple-library) - [View in browser](https://javier-machin.github.io/react-simple-library/)
-* [Areeba's Vue TodoList solution](https://github.com/AREEBAISHTIAQ/Todolist) - [View in browser](https://areebaishtiaq.github.io/Todolist/) 
+* [Areeba's Vue TodoList solution](https://github.com/AREEBAISHTIAQ/Todolist) - [View in browser](https://areebaishtiaq.github.io/Todolist/)
 * [Taylor J's React TodoList solution](https://github.com/taylorjohannsen/react-todo) - [View in browser](https://taylorjohannsen.github.io/react-todo/)
+* [Halkim44's React Library App solution](https://github.com/halkim44/react-my-library/tree/master) - [View in browser](https://halkim44.github.io/react-my-library/)
+* [Tronerta's Vue Todo-List solution](https://github.com/Tronerta/vue-todolist) - [View in browser](https://morning-meadow-39929.herokuapp.com)
+* [Yash's React Todo-List solution](https://github.com/yashboura303/todoReact)
+* [Kai's React Library Solution](https://github.com/KaiVandivier/library-react) - [View in Browser](https://kaivandivier.github.io/library-react/)
+
+</details>
