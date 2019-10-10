@@ -584,6 +584,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [David Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/ruby/exercises)
 * [ZeCheeseKing's solution](https://github.com/zecheeseking/learn_ruby)
 * [Branden's solution](https://github.com/redbeardaz/learn_ruby)
+* [Mallory's solution](https://github.com/malworks/learn_ruby)
 
 </details>
 
