@@ -44,6 +44,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [dticed's Solution](https://github.com/dticed/Etch-a-Sketch) - [View in Browser](https://dticed.github.io/Etch-a-Sketch/)
+* [Kris Tobiasson's Solution](https://github.com/highpockets/etch-a-sketch.git) - [View in Browser](https://highpockets.github.io/etch-a-sketch/)
+* [Julio's solution](https://github.com/julio22b/etch-a-sketch) - [View in Browser](https://julio22b.github.io/etch-a-sketch/)
+* [David Tan's Solution](https://github.com/davecmd/etch-a-sketch) - [View in Browser](https://davecmd.github.io/etch-a-sketch/)
 * [Vanessacor's Solution](https://github.com/vanessacor/site/tree/master/experiments/etch-a-sketch) - [View in Browser](https://vanessacor.github.io/site/experiments/etch-a-sketch/)
 * [jedensuscg's Solution](https://github.com/jedensuscg/etch-a-sketch) - [View in Browser](https://jedensuscg.github.io/etch-a-sketch/)
 * [Christopher Wray's Solution](https://github.com/cwray-tech/etch-a-sketch) - [View in Browser](https://cwray-tech.github.io/etch-a-sketch/)
