@@ -137,6 +137,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Dolunaykiz's solution](https://github.com/dolunaykiz/mint-mockup) - [View in Browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/mint-mockup/blob/master/index.html)
 * [Halkim's solution](https://github.com/halkim44/mint.com-signup-rebuild) - [View in Browser](http://halkim44.github.io/mint.com-signup-rebuild/)
 * [Mihai Negrisan's solution](https://github.com/mihainegrisan/mint-s-sign-in-page-replica) - [View in Browser](https://mihainegrisan.github.io/mint-s-sign-in-page-replica/index.html)
+* [Aron's solution](https://github.com/aronfischer/Mint-sign-up-page) - [View in Browser](https://aronfischer.github.io/Mint-sign-up-page/)
 </details>
 
 ### Additional Resources
