@@ -931,5 +931,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Connor Richmond-Clark's Solution](https://github.com/crichmond-clark/rock-paper-scissors)
 - [childsluke's Solution](https://github.com/childsluke/jsconsolerps)
 - [mothmanex's Solution](https://github.com/mothmanex/js_rock_paper_scissors)
-- [Jeffrey Ding's Solution] (https://github.com/Jding9/RockPaperScissors)
+- [Jeffrey Ding's Solution](https://github.com/Jding9/RockPaperScissors)
 </details>
