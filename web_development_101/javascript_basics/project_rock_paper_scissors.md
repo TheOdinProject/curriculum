@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Gui Recordon's Solution](git@github.com:guirecordon/paperrockscissors.git) - [View in Browser](https://github.com/guirecordon/paperrockscissors.git)
 - [David Tan's Solution](https://github.com/davecmd/rock-paper-scissors-with-ui) - [View in Browser](https://davecmd.github.io/rock-paper-scissors-with-ui/)
 - [Sadiq Aliyu's Solution](https://github.com/sadiiqaliiyu/Rock-Paper-Scissors) - [View in Browser](https://sadiiqaliiyu.github.io/Rock-Paper-Scissors/)
 - [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/games/rock-paper-scissors) - [View in Browser](https://vanessacor.github.io/site/experiments/games/rock-paper-scissors)
