@@ -40,7 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Paris' Solution](https://github.com/Woodhouse1919/rock_paper_scissors_game) - [View in Browser] (https://woodhouse1919.github.io/rock_paper_scissors_game/)
+- [Paris' Solution](https://github.com/Woodhouse1919/rock_paper_scissors_game) - [View in Browser](https://woodhouse1919.github.io/rock_paper_scissors_game/)
 - [Kris Tobiasson's Solution](https://github.com/highpockets/rock-paper-scissors) - [View in Browser](https://highpockets.github.io/rock-paper-scissors/)
 - [Gui Recordon's Solution](git@github.com:guirecordon/paperrockscissors.git) - [View in Browser](https://github.com/guirecordon/paperrockscissors.git)
 - [David Tan's Solution](https://github.com/davecmd/rock-paper-scissors-with-ui) - [View in Browser](https://davecmd.github.io/rock-paper-scissors-with-ui/)
