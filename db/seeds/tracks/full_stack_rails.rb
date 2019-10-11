@@ -3,7 +3,7 @@
 
 track = create_or_update_track(
   title: "Full Stack Ruby on Rails",
-  description: "This track takes you through our entire curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch. This is our default track. If you do not know where to start, select this track.",
+  description: "This track takes you through our entire Ruby on Rails curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch. This is our default track. If you do not know where to start, select this track.",
   position: 1,
   default: true,
 )
