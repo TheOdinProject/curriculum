@@ -37,6 +37,12 @@ To find out more about how you can contribute, please read our [contributing gui
 * [Abby Jones](http://github.com/AbbyJonesDev)
 * [Kevin Mulhern](https://github.com/KevinMulhern)
 * [Arun Kumar](https://github.com/arku)
+* [Cody Loyd](https://github.com/codyloyd)
+* [Austin Mason](https://github.com/CouchofTomato)
+* [Briggs Elsperger](https://github.com/I3uckwheat)
+* [Rhys](https://github.com/105ron)
+* [L. P. Soai-Van](https://github.com/leosoaivan)
+* [Andy Duss](https://github.com/mindovermiles262)
 
 ---
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
