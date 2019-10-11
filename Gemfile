@@ -59,4 +59,5 @@ group :development do
   gem 'derailed'
   gem 'reek'
   gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
 end
