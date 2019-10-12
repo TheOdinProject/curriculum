@@ -17,5 +17,5 @@ courses_in_track = [
 ]
 
 courses_in_track.each do |course_attrs|
-  track.track_courses.create!(course_attrs)
+  track.track_courses.create!(course_attrs) unless track.track_courses.map(&:course_id).include? course_attrs[:course_id] 
 end
