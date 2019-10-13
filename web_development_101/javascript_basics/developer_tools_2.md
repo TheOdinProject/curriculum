@@ -22,7 +22,7 @@ There are three ways to open the Developer Tools menu:
     - Elements panel
         1. Get Started With Viewing and Changing CSS
         2. Inspect and Tweak Your Pages
-        3. Edit Styles
+        3. CSS Reference
         4. Edit the DOM
     - Using the Console
     - Sources panel
