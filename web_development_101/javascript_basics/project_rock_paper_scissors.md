@@ -939,4 +939,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ionut's Solution](https://github.com/ionutmatea/rock_paper) - [View in Browser](https://ionutmatea.github.io/rock_paper/)
 - [Steve White's Solution](https://github.com/swhite85/rock-paper-scissors/)
 - [Paul CB's Solution](https://github.com/faux-pas/rock-paper-scissors) - [View in Browser](https://faux-pas.github.io/rock-paper-scissors/)
+- [Scy's solution]  (https://github.com/scychu/RPS_Game) 
 </details>
