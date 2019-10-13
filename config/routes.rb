@@ -40,6 +40,7 @@ Rails.application.routes.draw do
   # Deprecated Route to Introduction to Web Development from external links
   get '/courses/introduction-to-web-development' => redirect('/courses/web-development-101')
 
+  get '/courses' => redirect('/tracks')
   resources :courses, only: %i(index show) do
     resources :lessons, only: :show
   end
