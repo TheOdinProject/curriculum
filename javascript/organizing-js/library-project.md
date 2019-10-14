@@ -55,7 +55,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Kai's Solution](https://github.com/KaiVandivier/library) - [View in Browser](https://kaivandivier.github.io/library/)
 - [Harry Lawson's Solution](https://lawson7.github.io/book-library-app/) - [View in Browser](https://lawson7.github.io/book-library-app/)
 - [Bollinca's Solution](https://github.com/bollinca/library) - [View in Browser](https://bollinca.github.io/library/)
-- [Joey Van Lierop's Solution](https://github.com/bananashavings/library) - [View in Browser](https://bananashavings.github.io/library/)
+- [Joey Van Lierop's Solution](https://github.com/joeyvanlierop/library) - [View in Browser](https://joeyvanlierop.github.io/library/)
 - [mvedataydin's Solution](https://github.com/mvedataydin/Library/) - [View in Browser](https://mvedataydin.github.io/Library/)
 - [Evan's Solution](https://github.com/evan-kapantais/library) - [View in Browser](https://evan-kapantais.github.io/library/)
 - [Eljoey's Solution](https://github.com/eljoey/Library) - [View in Browser](https://eljoey.github.io/Library/)
