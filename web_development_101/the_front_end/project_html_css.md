@@ -2512,7 +2512,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [disco-coder's Solution (Easy)](https://github.com/disco-coder/google-homepage) - [View in Browser](https://disco-coder.github.io/google-homepage/)
 * [movealongg's Solution (Easy)](https://github.com/movealongg/google-homepage) - [View in Browser](https://movealongg.github.io/google-homepage/)
 * [Chad Emery's Solution (Easy)](https://github.com/cemery65/google-homepage) - [View in Browser](https://cemery65.github.io/google-homepage/)
+* [Chad Emery's Solution (Advanced)](https://github.com/cemery65/google-homepage-advanced) - [View in Browser](https://cemery65.github.io/google-homepage-advanced/) 
 * [Twincaret's Solution (Difficult)](https://github.com/Twincaret/SkyNet) - [View in Browser](https://twincaret.github.io/SkyNet/)
+* [Kalon Hinds' Solution (Easy)](https://github.com/kjhinds/google-homepage) - [View in Browser](https://kjhinds.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
