@@ -917,7 +917,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Begum's Solution](https://github.com/beguminanc/rock_paper_scissors) - [View in Browser](https://beguminanc.github.io/rock_paper_scissors/)
 - [dan-z-haas's Solution](https://github.com/dan-z-haas/Project-Rock-Paper-Scissors) - [View in Browser](https://dan-z-haas.github.io/Project-Rock-Paper-Scissors/)
 - [Vinícius Bonifácio's Solution](https://github.com/vinicius77/rock-paper-scissor) - [View in Browser](https://vinicius77.github.io/rock-paper-scissor/)
-- [Michaelimai's Solution](https://github.com/michaelimai/RPS-project-v1)
+- [Michaelimai's Solution with UI](https://github.com/michaelimai/RPS-project-v2) - [View in Browser](https://michaelimai.github.io/rps-project-v2/)
 - [vinnav's Solution](https://github.com/vinnav/Odin-RockPaperScissor) - [View in Browser](https://vinnav.github.io/Odin-RockPaperScissor/)
 - [Synte's Solution](https://github.com/Synte/rock-paper-scissors) - [View in Browser](https://synte.github.io/rock-paper-scissors/)
 - [Roockeyzz's Solution](https://github.com/roockeyzz/rockPaperScissors)
