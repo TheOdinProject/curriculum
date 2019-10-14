@@ -585,6 +585,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [ZeCheeseKing's solution](https://github.com/zecheeseking/learn_ruby)
 * [Branden's solution](https://github.com/redbeardaz/learn_ruby)
 * [Mallory's solution](https://github.com/malworks/learn_ruby)
+* [Rohan's solution](https://github.com/RKRohk/learn_ruby)
 
 </details>
 
