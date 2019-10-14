@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jakob's Solution](https://github.com/jodokusquack/rock_paper_scissors_js)
 - [Olugbade Olalekan's Solution](https://github.com/gbadesimple/rock_paper_scissors)
 - [Ulasaydin's Solution](https://github.com/ulasaydin/rock-paper-scissors) - [View in Browser](https://ulasaydin.github.io/rock-paper-scissors/)
+- [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/rock-paper-scissors) - [View in Browser](https://thisismahmad.github.io/rock-paper-scissors/)
 - [Helmi's Solution](https://github.com/helmihidzir/odin_rock_paper_scissors) - [View in Browser](https://helmihidzir.github.io/odin_rock_paper_scissors/)
 - [Christian Mejia's Solution](https://github.com/christian-mejia/rock-paper-scissors) 
 - [Matt's Solution](https://github.com/mattjaylee/RockPaperScissors)
