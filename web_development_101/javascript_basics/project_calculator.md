@@ -77,7 +77,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mvedataydin's Solution](https://github.com/mvedataydin/calculator) - [View in Browser](https://mvedataydin.github.io/calculator/)
 - [Andrécio's Solution](https://github.com/andreciobezerra/calculator) - [View in Browser](https://andreciobezerra.github.io/calculator/)
 - [Evan's Solution](https://github.com/satisfiedPunk/calculator) - [View in Browser](https://satisfiedpunk.github.io/calculator/)
-- [Joey Van Lierop's Solution](https://github.com/bananashavings/calculator) - [View in Browser](https://bananashavings.github.io/calculator/)
+- [Joey Van Lierop's Solution](https://github.com/joeyvanlierop/calculator) - [View in Browser](https://joeyvanlierop.github.io/calculator/)
 - [Bollinca's Solution](https://github.com/bollinca/calculator) - [View in Browser](https://bollinca.github.io/calculator/)
 - [Eljoey's Solution](https://github.com/eljoey/Calculator) - [View in Browser](https://eljoey.github.io/Calculator/)
 - [Evan's Solution](https://github.com/evan-kapantais/calculator) - [View in Browser](https://evan-kapantais.github.io/calculator/)
