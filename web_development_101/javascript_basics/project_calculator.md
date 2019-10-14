@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Kris Tobiasson's solution](https://https://github.com/highpockets/calculator) - [View in Browser](https://highpockets.github.io/calculator/) 
+- [Kris Tobiasson's solution](https://github.com/highpockets/calculator) - [View in Browser](https://highpockets.github.io/calculator/) 
 - [Odunsi's solution](https://github.com/dhatGuy/calculator) - [View in Browser](https://dhatguy.github.io/calculator) 
 - [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/calculator) - [View in Browser](https://vanessacor.github.io/site/experiments/calculator/)
 - [Julio's solution](https://github.com/julio22b/calculator) - [View in Browser](https://julio22b.github.io/calculator/)
