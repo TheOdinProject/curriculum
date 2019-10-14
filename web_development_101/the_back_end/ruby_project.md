@@ -31,6 +31,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [vladutclp's Solution](https://github.com/vladutclp/learn_ruby)
 * [Vedant's Solution](https://github.com/vedantshetty/learn_ruby)
 * [hamilto8's Solution](https://github.com/hamilto8/learn-ruby)
 * [Leticia's Solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/04-The_Backend/learning-ruby)
