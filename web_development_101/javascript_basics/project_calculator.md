@@ -400,4 +400,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Synte's Solution](https://github.com/Synte/calculator) - [View in Browser](https://synte.github.io/calculator/)
 - [RKRohk's Solution](https://github.com/RKRohk/OnlineCalculator) - [View in Browser](https://rkrohk.github.io/OnlineCalculator/)
 - [Rakesh M R's Solution](https://github.com/rakesh-m-r/Calculator) - [View in Browser](https://rakesh-m-r.github.io/Calculator/)
+- [DalandanJuice's Solution](https://github.com/DalandanJuice/calculator) - [View in Browser](https://dalandanjuice.github.io/calculator/)
 </details>
