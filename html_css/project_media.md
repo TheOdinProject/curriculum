@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gabriel's solution](https://github.com/gabytzubaws/Youtube_embedded_player_clone) 
 * [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/01-Basic_HTML_Page-Structure/youtube-clone) - [View in browser](https://gradiva.github.io/youtube-clone/)
 * [Kevin Vuong's](https://github.com/fffear/embedding_images_and_video) - [View in browser](https://fffear.github.io/embedding_images_and_video/)
 * [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/youtube-copy) - [View in browser](https://kikupiku.github.io/youtube-copy/)
