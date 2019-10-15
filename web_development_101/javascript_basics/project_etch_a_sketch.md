@@ -569,6 +569,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [hyperturing's Solution](https://github.com/hyperturing/etch-a-sketch) - [View in Browser](https://hyperturing.github.io/etchasketch/)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/easRedux) - [View in Browser](https://spaceincase.github.io/easRedux/)
 * [Steve White's Solution](https://github.com/swhite85/etch-a-sketch) - [View in Browser](https://swhite85.github.io/etch-a-sketch/)
+* [Karthick's Solution](https://github.com/karthicbz/etch-a-sketch) - [View in Browser](https://karthicbz.github.io/etch-a-sketch/)
 * [Luke Childs' Solution](https://github.com/childsluke/etchasketch) - [View in Browser](https://childsluke.github.io/etchasketch/)
 </details>
 
