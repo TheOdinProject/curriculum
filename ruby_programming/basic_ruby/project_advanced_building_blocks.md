@@ -39,9 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [Noah T's Solution](https://github.com/noahtalerman/odin_project_solutions/blob/master/advanced_building_blocks_ruby/bubble_sort.rb)
-=======
 * [Allan Glasier's Solution](https://www.theodinproject.com/lessons/advanced-building-blocks)
 * [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/advanced_building_blocks/project1/bubble_sort.rb)
@@ -49,7 +47,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Carlos Diaz's Solution](https://github.com/bycdiaz/bubble-sort)
 * [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/bubble_sort.rb)
 * [mistervoga's Solution](https://github.com/mistervoga/advanced_building_blocks/blob/master/bubble_sort.rb)
->>>>>>> 44a29a1406960938048a587ae8459122c44210e9
 * [Chris' Solution](https://github.com/CSalois114/project_building_blocks/blob/master/bubble_sort.rb)
 * [Sherman's Solution](https://github.com/shermansjliu/advanced_ruby_building_blocks/blob/master/bubble_sort.rb)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-advanced-building-blocks/blob/master/bubble-sort.rb)
