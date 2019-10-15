@@ -40,6 +40,13 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Michael Horn's Solution](https://github.com/HornMichaelS/odin-library) - [View in Browser](https://hornmichaels.github.io/odin-library/)
+- [Anmol's Solution](https://github.com/6point022/my-library-app) - [View in Browser](https://6point022.github.io/my-library-app/)
+- [Andrew MacLeod's Solution](https://github.com/a6macleod/javascript_library) - [View in Browser](https://a6macleod.github.io/javascript_library/)
+- [Julian's solution](https://github.com/Julian-quintero/Library) - [View in Browser](https://julian-quintero.github.io/Library/)
+- [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/02-JavaScript/01-Organizing_JavaScript_Code/01-Objects_And_Object_Constructors/library) - [View in Browser](https://sheltered-falls-65724.herokuapp.com/)
+- [Esteban's Solution](https://github.com/estebanmoroy/library) - [View in Browser](https://estebanmoroy.github.io/library/)
+- [Luky's solution](https://github.com/lcyne/top-library) - [View in Browser](https://lcyne.github.io/top-library/)
 - [Aleksandar J's solution](https://github.com/bestr32/TOPlibrary) - [View in Browser](https://bestr32.github.io/TOPlibrary/)
 - [igorashs's Solution (Firebase + LocalStorage](https://github.com/igorashs/library) - [View in Browser](https://igorashs.github.io/library/)
 - [Jacavena's Solution](https://github.com/Jacavena/library)
@@ -48,7 +55,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Kai's Solution](https://github.com/KaiVandivier/library) - [View in Browser](https://kaivandivier.github.io/library/)
 - [Harry Lawson's Solution](https://lawson7.github.io/book-library-app/) - [View in Browser](https://lawson7.github.io/book-library-app/)
 - [Bollinca's Solution](https://github.com/bollinca/library) - [View in Browser](https://bollinca.github.io/library/)
-- [Joey Van Lierop's Solution](https://github.com/bananashavings/library) - [View in Browser](https://bananashavings.github.io/library/)
+- [Joey Van Lierop's Solution](https://github.com/joeyvanlierop/library) - [View in Browser](https://joeyvanlierop.github.io/library/)
 - [mvedataydin's Solution](https://github.com/mvedataydin/Library/) - [View in Browser](https://mvedataydin.github.io/Library/)
 - [Evan's Solution](https://github.com/evan-kapantais/library) - [View in Browser](https://evan-kapantais.github.io/library/)
 - [Eljoey's Solution](https://github.com/eljoey/Library) - [View in Browser](https://eljoey.github.io/Library/)
@@ -135,4 +142,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [rholderfield's Solution](https://github.com/rholderfield/Book-Library) - [View in Browser](https://rholderfield.github.io/Book-Library/)
 - [martink-rsa's Solution](https://github.com/martink-rsa/booksLibrary) - [View in Browser](https://martink-rsa.github.io/booksLibrary/index.html)
 - [Harry Coburn's Solution](https://github.com/mattibun/odin-library) - [View in Browser](https://mattibun.github.io/odin-library/index.html)
+- [Aron's Solution](https://github.com/aronfischer/Library-Application) - [View in Browser](https://aronfischer.github.io/Library-Application/)
+- [Joe Lee's Solution](https://github.com/JoeDravarol/library) - [View in Browser](https://JoeDravarol.github.io/library)
 </details>

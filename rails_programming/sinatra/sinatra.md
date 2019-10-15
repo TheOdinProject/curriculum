@@ -48,3 +48,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Gentle intro to Sinatra from Ruby Monstas](http://webapps-for-beginners.rubymonstas.org/sinatra.html) if you find the Sinatra README too overwhelming. Their section on [sessions](http://webapps-for-beginners.rubymonstas.org/sessions.html) will be helpful in the upcoming project.
 * Just Do It: Learn Sinatra by Darren Jones [Part 1](https://www.sitepoint.com/just-do-it-learn-sinatra-i/) and [Part 2](https://www.sitepoint.com/just-do-it-learn-sinatra-ii-2/). But don’t worry too much about the commands you haven’t seen yet… 
 * The [Ideabox project](http://tutorials.jumpstartlab.com/projects/idea_box.html) from JumpstartLab is another great bit of practice.
+* [Learn.co](https://learn.co/lessons/what-is-sinatra) has a fantastic tutorial using the very basics of Sinatra. If this lesson didn't satisfy your learning need i would do this.

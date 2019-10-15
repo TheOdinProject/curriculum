@@ -128,7 +128,6 @@ Note: If you want to actually write and run your own Ruby code, you can either u
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * If you still don't understand certain topics or don't like my summary, look them up in the [Bastard's Book](http://ruby.bastardsbook.com/)
-* Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html) for a basic treatment of numbers.
 * Read [Zetcode's Data Types section](http://zetcode.com/lang/rubytutorial/datatypes/) for a bit more depth on the subject.
 * [Alex Chaffee's brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects)
 * [Ruby Inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)

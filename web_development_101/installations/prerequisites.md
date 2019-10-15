@@ -68,7 +68,10 @@ While your VM is running, do the following steps:
   5. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
   6. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
   
-NOTE: If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
+  **NOTE**: 
+
+* If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
+* If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"), please reboot your host (Windows/OSX) operating system. Afterwards, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM. 
 
 ### Step 4: Understand Your New VM
 
