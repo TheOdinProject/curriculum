@@ -8,9 +8,9 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 
 We will be using the Ruby on Rails Tutorial by Michael Hartl throughout this course.  It is a complete, step-by-step walkthrough of building and testing a Twitter-like microblogging application.  It covers a lot of material but so does this course, so we'll be spacing out the chapters along the way to go with the appropriate lesson material.
 
-Though this tutorial is a major common theme across all the coming lessons and serves to tie them together into one major project, we'll also be building plenty of independent projects along the way.
+Through this tutorial is a major common theme across all the coming lessons which serves to tie them together into one major project. We'll also be building plenty of independent projects along the way.
 
-In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as complicated as the Blogger Tutorial was and is really just to make sure your system is all set up and your brain is switched into Rails mode.
+In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as complicated as the Blogger Tutorial was, and is really just to make sure your system is all set up and your brain is switched into Rails mode.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
@@ -18,7 +18,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/beginning).
 3. If you haven't done either of these, you should go back to the [Web Development 101](/courses/web-development-101) course and at least do the [Web Development Frameworks section](/courses/web-development-101/#web-development-frameworks).
 
-4. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above, you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over GitHub because bitbucket has free private repos. However, GitHub [recently announced](https://blog.github.com/2019-01-07-new-year-new-github/) that they now also offer free private repos. If you choose to make your repositories private, keep in mind that your solution will not be able to be viewed by others.  If you feel a little lost, it might not hurt to go back and re-read Chapter 1.
+4. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above, then you should be good to go on your own machine. Michael also favors [Bitbucket](https://bitbucket.org/) over GitHub because Bitbucket has free private repos. However, GitHub [recently announced](https://blog.github.com/2019-01-07-new-year-new-github/) that they now also offer free private repos. If you choose to make your repositories private, keep in mind that your solution will not be able to be viewed by others.  If you feel a little lost, it might not hurt to go back and re-read [chapter 1](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/beginning#cha-beginning).
 </div>
 
 ### Student Solutions
