@@ -81,7 +81,7 @@ Bootstrap will do a lot of the heavy lifting for you -- instead of having to fig
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-  1. Do the [Rails Tutorial Chapter 5](https://www.railstutorial.org/book/filling_in_the_layout), "Filling in the Layout"
+  1. Do the [Rails Tutorial Chapter 5](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/filling_in_the_layout), "Filling in the Layout"
 </div>
 
 ### Additional Resources
