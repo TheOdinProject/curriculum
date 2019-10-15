@@ -25,6 +25,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Luky's Solution](https://github.com/lcyne/tic-tac-toe) - [View in Browser](https://lcyne.github.io/tic-tac-toe/)
+- [Anmol's Solution](https://github.com/6point022/tic-tac-toe) - [View in Browser](https://6point022.github.io/tic-tac-toe/)
+-[Andrew M's Solution](https://github.com/a6macleod/js_tictactoe) - [View in Browser](https://a6macleod.github.io/js_tictactoe/)
 - [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/02-JavaScript/01-Organizing_JavaScript_Code/02-Factory_Functions_and_Module_Pattern/tic-tac-toe) - [View in Browser](https://hidden-castle-05197.herokuapp.com/)
 - [Esteban's Solution](https://github.com/estebanmoroy/tic-tac-toe) - [View in Browser](https://estebanmoroy.github.io/tic-tac-toe/)
 - [Igorashs's Solution](https://github.com/igorashs/tic-tac-toe) - [View in Browser](https://igorashs.github.io/tic-tac-toe/)
@@ -33,7 +36,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [JB's Solution](https://github.com/ugSh7hbY/tictactoe) - [View in Browser](https://ugsh7hby.github.io/tictactoe/)
 - [Vedat Aydin's Solution](https://github.com/mvedataydin/tic-tac-toe) - [View in Browser](https://mvedataydin.github.io/tic-tac-toe/)
 - [Kai's Solution](https://github.com/KaiVandivier/tic-tac-toe-js) - [View in Browser](https://kaivandivier.github.io/tic-tac-toe-js/)
-- [Joey Van Lierop's Solution](https://github.com/bananashavings/tic-tac-toe) - [View in Browser](https://bananashavings.github.io/tic-tac-toe/)
+- [Joey Van Lierop's Solution](https://github.com/joeyvanlierop/tic-tac-toe) - [View in Browser](https://joeyvanlierop.github.io/tic-tac-toe/)
 - [Evan's Solution](https://github.com/evan-kapantais/tic-tac-toe) - [View in Browser](https://evan-kapantais.github.io/tic-tac-toe/)
 - [Eljoey's Solution](https://github.com/eljoey/Tic-Tac-Toe) - [View in Browser](https://eljoey.github.io/Tic-Tac-Toe/)
 - [Vollantre's solution](https://github.com/vollantre/tic_tac_toeJS) - [View in Browser](https://vollantre.github.io/tic_tac_toeJS/)

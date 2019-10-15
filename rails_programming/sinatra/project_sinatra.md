@@ -30,7 +30,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
 * Add your solution below this line!
 * Uzay-G's solution [Github](https://github.com/Uzay-G/simple-cipher) - [Live](https://caesar-ciphers.herokuapp.com/)
 * Onur Temiz's Solution [Github](https://github.com/temizonur/ceasar_cipher) [Heroku](https://afternoon-taiga-26969.herokuapp.com/)
-* Airi Chow's Solution [Github](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/sinatra/caesar_cipher) [Heroku](https://fast-crag-35094.herokuapp.com)
+* Airi Chow's Solution [Github](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/sinatra/caesar_cipher) [Heroku](https://fast-crag-35094.herokuapp.com)
 * Kevin Vuong's Solution [Github](https://github.com/fffear/caesar_cipher_application) [Live](https://obscure-atoll-85647.herokuapp.com/)
 * Braxton Lemmon's Solution [Github](https://github.com/braxtonlemmon/caesar_cipher_reloaded) [Live](https://safe-shelf-68210.herokuapp.com/)
 * Rudi Boshoff's Solution [Github](https://github.com/RudiBoshoff/rails-exercises/tree/master/sinatra/caesar-cipher) [Live](https://mighty-atoll-97084.herokuapp.com/)
@@ -147,6 +147,7 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* J C Gollnick's Solution (Hangman) [GitLab](https://gitlab.com/jcgollnick/hangman) [Live](http://www.jcgollnick.vip/hangman)
 * Sherman's Solution [Github](https://github.com/shermansjliu/sinatra) - [Live](https://radiant-beach-22046.herokuapp.com)
 * Kevin Vuong's Solution [Github](https://github.com/fffear/sinatra_hangman) - [Live](https://immense-basin-91290.herokuapp.com/)
 * Braxton Lemmon's Solution [GitHub](https://github.com/braxtonlemmon/mastermind-sinatra) - [Live](https://mighty-island-47536.herokuapp.com/)
@@ -234,4 +235,5 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
 * Alex Krewson's Solution [GitHub](https://github.com/alexkrewson/sinatra_hangman) - [Heroku](https://damp-meadow-16569.herokuapp.com/)
 * Leo Holanda's Solution [Github](https://github.com/leo-holanda/sinatra_mastermind) - [See it on the web](https://hidden-dawn-45108.herokuapp.com/)
 * Robert Dunbar's Solution [GitHub](https://github.com/RobertDunbar/sinatra/tree/master/games) - [Heroku](https://lit-refuge-73632.herokuapp.com/)
+* Joe Lee Hangman's Solution [GitHub](https://github.com/JoeDravarol/sinatra_hangman) - [Heroku](https://blooming-crag-69548.herokuapp.com/)
 </details>
