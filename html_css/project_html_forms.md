@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gabriel's Solution](https://github.com/gabytzubaws/mint-signup-page) - [View in browser](https://gabytzubaws.github.io/mint-signup-page/)
 * [Kevin Vuong's solution](https://github.com/fffear/html-forms) - [View in browser](https://fffear.github.io/html-forms/)
 * [Vedat's solution](https://github.com/mvedataydin/signup-form) - [View in browser](https://mvedataydin.github.io/signup-form/)
 * [Solodov's solution](https://github.com/solodov-dev/top-forms) - [View in browser](https://solodov-dev.github.io/top-forms/)
