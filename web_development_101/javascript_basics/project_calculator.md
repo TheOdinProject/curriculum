@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kris Tobiasson's solution](https://github.com/highpockets/calculator) - [View in Browser](https://highpockets.github.io/calculator/) 
 - [Odunsi's solution](https://github.com/dhatGuy/calculator) - [View in Browser](https://dhatguy.github.io/calculator) 
 - [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/calculator) - [View in Browser](https://vanessacor.github.io/site/experiments/calculator/)
 - [Julio's solution](https://github.com/julio22b/calculator) - [View in Browser](https://julio22b.github.io/calculator/)
@@ -77,7 +78,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mvedataydin's Solution](https://github.com/mvedataydin/calculator) - [View in Browser](https://mvedataydin.github.io/calculator/)
 - [Andrécio's Solution](https://github.com/andreciobezerra/calculator) - [View in Browser](https://andreciobezerra.github.io/calculator/)
 - [Evan's Solution](https://github.com/satisfiedPunk/calculator) - [View in Browser](https://satisfiedpunk.github.io/calculator/)
-- [Joey Van Lierop's Solution](https://github.com/bananashavings/calculator) - [View in Browser](https://bananashavings.github.io/calculator/)
+- [Joey Van Lierop's Solution](https://github.com/joeyvanlierop/calculator) - [View in Browser](https://joeyvanlierop.github.io/calculator/)
 - [Bollinca's Solution](https://github.com/bollinca/calculator) - [View in Browser](https://bollinca.github.io/calculator/)
 - [Eljoey's Solution](https://github.com/eljoey/Calculator) - [View in Browser](https://eljoey.github.io/Calculator/)
 - [Evan's Solution](https://github.com/evan-kapantais/calculator) - [View in Browser](https://evan-kapantais.github.io/calculator/)
@@ -400,4 +401,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Synte's Solution](https://github.com/Synte/calculator) - [View in Browser](https://synte.github.io/calculator/)
 - [RKRohk's Solution](https://github.com/RKRohk/OnlineCalculator) - [View in Browser](https://rkrohk.github.io/OnlineCalculator/)
 - [Rakesh M R's Solution](https://github.com/rakesh-m-r/Calculator) - [View in Browser](https://rakesh-m-r.github.io/Calculator/)
+- [DalandanJuice's Solution](https://github.com/DalandanJuice/calculator) - [View in Browser](https://dalandanjuice.github.io/calculator/)
 </details>
