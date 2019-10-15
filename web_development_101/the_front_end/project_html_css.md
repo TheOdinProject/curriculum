@@ -88,7 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Antonio's Solution (Easy)](https://github.com/Ton-IO-S3r/google-homepage) - [View in Browser](https://ton-io-s3r.github.io/google-homepage/)
+* [Kevin Brinkley's Solution (Easy)](https://github.com/kevintbrinkley/google-homepage) - [View in Bowser](https://kevintbrinkley.github.io/google-homepage/)
+* [Antonio's Solution (Easy)](https://github.com/Ton-IO-S3r/google-homepage) - [View in Browser](https://ton-io-s3r.github.io/google-homepage/)
 * [Manwani's Solution (Easy)](https://github.com/Manwani/google-homepage) - [View in Browser](https://manwani.github.io/google-homepage/)
 * [Sadiq Aliyu's Solution (Easy)](https://github.com/sadiiqaliiyu/google-homepage) - [View in Browser](https://sadiiqaliiyu.github.io/google-homepage/)
 * [Sadiq Aliyu's Solution (Difficult)](https://github.com/sadiiqaliiyu/google-searchpage) - [View in Browser](https://sadiiqaliiyu.github.io/google-searchpage/)
@@ -2517,6 +2518,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Twincaret's Solution (Difficult)](https://github.com/Twincaret/SkyNet) - [View in Browser](https://twincaret.github.io/SkyNet/)
 * [Kalon Hinds' Solution (Easy)](https://github.com/kjhinds/google-homepage) - [View in Browser](https://kjhinds.github.io/google-homepage/)
 * [Andrea Sepha' Solution (Easy)](https://github.com/sepharvaim/google-homepage) - [View in Browser](https://sepharvaim.github.io/google-homepage/?)
+* [Mansur Ahmed's Solution (Easy)](https://github.com/demharusnam/google-homepage) - [View in Browser](https://demharusnam.github.io/google-homepage/)
 
 </details>
 
