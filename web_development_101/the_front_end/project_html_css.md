@@ -2517,6 +2517,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Twincaret's Solution (Difficult)](https://github.com/Twincaret/SkyNet) - [View in Browser](https://twincaret.github.io/SkyNet/)
 * [Kalon Hinds' Solution (Easy)](https://github.com/kjhinds/google-homepage) - [View in Browser](https://kjhinds.github.io/google-homepage/)
 * [Andrea Sepha' Solution (Easy)](https://github.com/sepharvaim/google-homepage) - [View in Browser](https://sepharvaim.github.io/google-homepage/?)
+* [Mansur Ahmed's Solution (Easy)](https://github.com/demharusnam/google-homepage) - [View in Browser](https://demharusnam.github.io/google-homepage/)
 
 </details>
 
