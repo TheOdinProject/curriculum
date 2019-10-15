@@ -47,7 +47,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [David Tan's Solution](https://github.com/davecmd/rock-paper-scissors-with-ui) - [View in Browser](https://davecmd.github.io/rock-paper-scissors-with-ui/)
 - [Sadiq Aliyu's Solution](https://github.com/sadiiqaliiyu/Rock-Paper-Scissors) - [View in Browser](https://sadiiqaliiyu.github.io/Rock-Paper-Scissors/)
 - [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/games/rock-paper-scissors) - [View in Browser](https://vanessacor.github.io/site/experiments/games/rock-paper-scissors)
-- [Ogunmola Israel's solution](https://github.com/Lippins/rock_paper_scissors)
+- [Ogunmola Israel's solution](https://github.com/Lippins/rock_paper_scissors) - [View in Browser](https://lippins.github.io/rock_paper_scissors/)
 - [matchewbie's Solution](https://github.com/matchewbie/rock-paper-scissors) - [View in Browser](https://matchewbie.github.io/rock-paper-scissors/)
 - [Kurt's Solution](https://github.com/KurtYilmaz/rock-paper-scissors) - [View in Browser](https://kurtyilmaz.github.io/rock-paper-scissors/)
 - [Noelle Anderson's solution](https://github.com/elleon003/rock-paper-scissors) - [View in Browser](https://elleon003.github.io/rock-paper-scissors/)
