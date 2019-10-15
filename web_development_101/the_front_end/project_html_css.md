@@ -2517,9 +2517,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Chad Emery's Solution (Advanced)](https://github.com/cemery65/google-homepage-advanced) - [View in Browser](https://cemery65.github.io/google-homepage-advanced/) 
 * [Twincaret's Solution (Difficult)](https://github.com/Twincaret/SkyNet) - [View in Browser](https://twincaret.github.io/SkyNet/)
 * [Kalon Hinds' Solution (Easy)](https://github.com/kjhinds/google-homepage) - [View in Browser](https://kjhinds.github.io/google-homepage/)
+* [Archan's Solution (Easy)](https://github.com/Archan-cloud/google-homepage) - [View in Browser](https://archan-cloud.github.io/google-homepage/)
+* [Archan's Solution (Difficult)](https://github.com/Archan-cloud/google.com-search-results-page) - [View in Browser](https://archan-cloud.github.io/google.com-search-results-page/)
 * [Andrea Sepha' Solution (Easy)](https://github.com/sepharvaim/google-homepage) - [View in Browser](https://sepharvaim.github.io/google-homepage/?)
 * [Mansur Ahmed's Solution (Easy)](https://github.com/demharusnam/google-homepage) - [View in Browser](https://demharusnam.github.io/google-homepage/)
-
 </details>
 
 ### Additional Resources
