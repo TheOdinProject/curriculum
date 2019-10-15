@@ -1,5 +1,6 @@
 ### Introduction
-In this project you'll clone the website of one of the most design-forward companies in the world.  It's not a very complex site but it uses background photos well and the navbar at the top contains a gradient that you should be able to mimic.
+
+In this project you'll clone the website of one of the most design-forward companies in the world. It's not a very complex site but it uses background photos well and the navbar at the top contains a gradient that you should be able to mimic.
 
 ### Assignment
 
@@ -23,6 +24,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Solodov's solution](https://github.com/solodov-dev/top-apple/) - [View in Browser](https://solodov-dev.github.io/top-apple/)
+* [Oluka Denis's solution](https://github.com/OlukaDenis/Apple-Clone) - [View in Browser](https://rawcdn.githack.com/OlukaDenis/Apple-Clone/b48760e8c8391405f512d89738dbbc5a074aac61/index.html)
 * [David Tan's solution](https://github.com/davecmd/apple-old-webpage-replica) - [View in Browser](https://davecmd.github.io/apple-old-webpage-replica/)
 * [Carmine Grossi's solution](https://github.com/cgrossi/odinproject-apple-clone) - [View in Browser](https://cgrossi.github.io/odinproject-apple-clone/)
 * [Eapen's solution](https://github.com/eapenzacharias/backgrounds-gradients) - [View in Browser](https://eapenzacharias.github.io/backgrounds-gradients/)
@@ -102,6 +105,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 </details>
 
 ### Additional Resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Add some!
