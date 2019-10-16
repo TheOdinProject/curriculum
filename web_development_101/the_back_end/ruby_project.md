@@ -31,7 +31,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Kris Tobiasson's Solution](https://github.com/highpockets/learn_ruby.git)
+* [Kris Tobiasson's Solution](https://github.com/highpockets/learn_ruby)
 * [vladutclp's Solution](https://github.com/vladutclp/learn_ruby)
 * [Vedant's Solution](https://github.com/vedantshetty/learn_ruby)
 * [hamilto8's Solution](https://github.com/hamilto8/learn-ruby)
