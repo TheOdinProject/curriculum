@@ -59,7 +59,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Robert P's solution](https://github.com/robbiesoho/PROJECT-ROCK-PAPER-SCISSORS)
 - [Nathan Dimitriades' solution](https://github.com/nathaniades/rock-paper-scissors)
 - [Diego's Solution](https://github.com/dhna32/Rock-Paper-Scissor-ODIN)
-- [Jakob's Solution](https://github.com/jodokusquack/rock_paper_scissors_js)
+- [Jakob's Solution](https://github.com/jodokusquack/rock_paper_scissors_js) - [View in Browser](https://jodokusquack.github.io/rock_paper_scissors_UI/)
 - [Olugbade Olalekan's Solution](https://github.com/gbadesimple/rock_paper_scissors)
 - [Ulasaydin's Solution](https://github.com/ulasaydin/rock-paper-scissors) - [View in Browser](https://ulasaydin.github.io/rock-paper-scissors/)
 - [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/rock-paper-scissors) - [View in Browser](https://thisismahmad.github.io/rock-paper-scissors/)
