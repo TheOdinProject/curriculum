@@ -19,9 +19,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Austn Fisher's Solution](https://github.com/Austin2016/tictactoe)
 * [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby/tree/master/tic-tac-toe)
 * [Sancbellas's Solution](https://github.com/Sancbella/OdinProjects/tree/master/Ruby-Projects/Ruby%20Basics/Project%20OOP/Tictactoe/TictacToe%20Public)- [Live repl](https://repl.it/@Sancbella/Tic-Tac-Toe)
-* [Loumarven's Solution](https://github.com/loumarven/top_ruby_oop)
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_oop/tree/master/tictactoe)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/TicTacToeGemTutorial)
 * [Ian's Solution](https://github.com/IanMKesler/Tic-Tac-Toe)
 * [proto-dylan's Solution](https://github.com/proto-dylan/Tic-Tac-Toe)
@@ -325,6 +326,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Austin Fisher's Solution](https://github.com/Austin2016/mastermind_game)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/mastermind)
 * [Ian's Solution](https://github.com/IanMKesler/Mastermind)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/mastermind)
