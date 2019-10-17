@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [sphuong95's Solution](https://github.com/sphuong95/etch-a-sketch) - [View in Browser](https://sphuong95.github.io/etch-a-sketch/)
+* [Jakob's Solution](https://github.com/jodokusquack/etch_a_sketch) - [View in Browser](https://jodokusquack.github.io/etch_a_sketch/)
 * [matchewbie's Solution](https://github.com/matchewbie/etch-a-sketch) - [View in Browser](https://matchewbie.github.io/etch-a-sketch/)
 * [dticed's Solution](https://github.com/dticed/Etch-a-Sketch) - [View in Browser](https://dticed.github.io/Etch-a-Sketch/)
 * [Kris Tobiasson's Solution](https://github.com/highpockets/etch-a-sketch.git) - [View in Browser](https://highpockets.github.io/etch-a-sketch/)
@@ -572,5 +573,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Steve White's Solution](https://github.com/swhite85/etch-a-sketch) - [View in Browser](https://swhite85.github.io/etch-a-sketch/)
 * [Karthick's Solution](https://github.com/karthicbz/etch-a-sketch) - [View in Browser](https://karthicbz.github.io/etch-a-sketch/)
 * [Luke Childs' Solution](https://github.com/childsluke/etchasketch) - [View in Browser](https://childsluke.github.io/etchasketch/)
+* [Sher's Solution](https://github.com/sher-s7/etch-a-sketch) - [View in Browser](https://sher-s7.github.io/etch-a-sketch/)
 </details>
 

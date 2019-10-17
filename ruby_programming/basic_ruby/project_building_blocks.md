@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Guillaume Occuly's Solution](https://github.com/GuillaumeOcculy/caesar_cipher/blob/master/caesar_cipher.rb)
 * [Run After's Solution](https://github.com/run-after/caesar_cipher/blob/master/caesar_cipher.rb)
 * [William Bowen's Solution](https://github.com/WillWBowen/ruby_projects/blob/master/caesar_cipher/caesar_cipher.rb)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/caeser_cipher/caeser_cipher.rb)
@@ -499,6 +500,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Guillaume Occuly's Solution](https://github.com/GuillaumeOcculy/stock_picker/blob/master/stock_picker.rb)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/caeser_cipher/stock_picker.rb)
 * [Paulo Felipe Souza Solution](https://github.com/Pauloparakleto/stock_picker)
 * [Uzay-G's solution](https://github.com/Uzay-G/ruby_exercises/blob/master/stockpicker.rb)
