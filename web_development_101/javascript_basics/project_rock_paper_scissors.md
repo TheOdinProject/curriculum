@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sgmullins' Solution](https://github.com/sgmullins/OdinFundamentals)
 - [Andrew S's Solution](https://github.com/CGoldMonkey/rock-paper-scissors-game)
 - [disco-coder's Solution](https://github.com/disco-coder/rock-paper-scissors)
 - [Fastine's Solution](https://github.com/fastine/rock-paper-scissors) - [View in Browser](https://fastine.github.io/rock-paper-scissors)
