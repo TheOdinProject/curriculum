@@ -501,6 +501,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Guillaume Occuly's Solution](https://github.com/GuillaumeOcculy/TheOdinProject/tree/master/stock_picker)
+* [Run After's Solution](https://github.com/run-after/stock_picker/blob/master/stock_picker.rb)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/caeser_cipher/stock_picker.rb)
 * [Paulo Felipe Souza Solution](https://github.com/Pauloparakleto/stock_picker)
 * [Uzay-G's solution](https://github.com/Uzay-G/ruby_exercises/blob/master/stockpicker.rb)

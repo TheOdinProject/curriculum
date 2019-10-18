@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [matchewbie's Solution](https://github.com/matchewbie/calculator) - [View in Browser](https://matchewbie.github.io/calculator/)
 - [Kris Tobiasson's solution](https://github.com/highpockets/calculator) - [View in Browser](https://highpockets.github.io/calculator/) 
 - [Odunsi's solution](https://github.com/dhatGuy/calculator) - [View in Browser](https://dhatguy.github.io/calculator) 
 - [Vanessacor's solution](https://github.com/vanessacor/site/tree/master/experiments/calculator) - [View in Browser](https://vanessacor.github.io/site/experiments/calculator/)
@@ -403,4 +404,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Rakesh M R's Solution](https://github.com/rakesh-m-r/Calculator) - [View in Browser](https://rakesh-m-r.github.io/Calculator/)
 - [DalandanJuice's Solution](https://github.com/DalandanJuice/calculator) - [View in Browser](https://dalandanjuice.github.io/calculator/)
 - [Hyperturing's Solution](https://github.com/hyperturing/calculator) - [View in Browser](https://hyperturing.github.io/calculator/)
+- [Steve White's Solution](https://github.com/swhite85/calculator/) - [View in Browser](https://swhite85.github.io/calculator/)
 </details>
