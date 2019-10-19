@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gabriel's Solution](https://github.com/gabytzubaws/nyt_article_odin) - [View in Browser](https://gabytzubaws.github.io/nyt_article_odin/)
 * [Kevin Vuong's solution](https://github.com/fffear/positioning_and_floating_elements) - [View in browser](https://fffear.github.io/positioning_and_floating_elements/)
 * [Lucila Pastore's Solution](https://github.com/lucilapastore/new-york-times-clone) - [View in browser](https://lucilapastore.github.io/new-york-times-clone/)
 * [Solodov's solution](https://github.com/solodov-dev/top-nyt) - [View in browser](https://solodov-dev.github.io/top-nyt/)
