@@ -2525,7 +2525,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mansur Ahmed's Solution (Easy)](https://github.com/demharusnam/google-homepage) - [View in Browser](https://demharusnam.github.io/google-homepage/)
 * [Siliwinter's Solution (Easy)](https://github.com/Siliwinter/google-homepage) - [View in Browser](https://siliwinter.github.io/google-homepage/)
 * [Shane Gilbert's Solution (Easy)](https://github.com/shanedgilbert/google-homepage) - [View in Browser](https://shanedgilbert.github.io/google-homepage/)
-* [Shez32's Solution (Easy)] (https://github.com/shez32/google-homepage) - [View in Browser] (https://shez32.github.io/google-homepage/)
+* [Shez32's Solution (Easy)](https://github.com/shez32/google-homepage) - [View in Browser](https://shez32.github.io/google-homepage/)
+* [Steffen's Solution (Easy)](https://github.com/shammelow/odin-project-google-page) - [View in Browser](https://shammelow.github.io/odin-project-google-page/)
 </details>
 
 ### Additional Resources
