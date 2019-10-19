@@ -81,3 +81,5 @@ For now, concentrate on using the basics of Git that you've learned here with al
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) by [Chris Beams](https://github.com/cbeams) provides guidelines for writing neat and concise commit messages.
+
+* [Learn Github in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s&t=952s) by [Colt Steele] provides more knowledge on learning to use GIT and GitHub.
