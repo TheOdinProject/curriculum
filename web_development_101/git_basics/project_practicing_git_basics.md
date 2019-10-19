@@ -82,4 +82,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) by [Chris Beams](https://github.com/cbeams) provides guidelines for writing neat and concise commit messages.
 
-* [Learn Github in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s&t=952s) by [Colt Steele] provides more knowledge on learning to use GIT and GitHub.
+* [Learn Github in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s&t=952s) by [Colt Steele](https://www.youtube.com/channel/UCrqAGUPPMOdo0jfQ6grikZw) provides more knowledge on learning to use GIT and GitHub.
