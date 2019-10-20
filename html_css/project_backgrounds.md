@@ -24,6 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/apple-clone) - [View in Browser](https://fffear.github.io/apple-clone/)
 * [Solodov's solution](https://github.com/solodov-dev/top-apple/) - [View in Browser](https://solodov-dev.github.io/top-apple/)
 * [Oluka Denis's solution](https://github.com/OlukaDenis/Apple-Clone) - [View in Browser](https://rawcdn.githack.com/OlukaDenis/Apple-Clone/b48760e8c8391405f512d89738dbbc5a074aac61/index.html)
 * [David Tan's solution](https://github.com/davecmd/apple-old-webpage-replica) - [View in Browser](https://davecmd.github.io/apple-old-webpage-replica/)
