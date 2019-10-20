@@ -168,7 +168,7 @@ Congratulations! You've installed the prerequisites!
 
 Heroku is a place to host your Rails applications
 
-#### Step 1.1: Install Heroku
+#### Step 2.1: Install Heroku
 
 Next, install Heroku:
 
