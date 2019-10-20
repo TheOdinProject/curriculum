@@ -89,6 +89,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [MikkRou's Solution (Easy)](https://github.com/MikkRou/google-homepage) - [View in Browser](https://mikkrou.github.io/google-homepage/)
+* [Christian Mejia's Solution (Easy)](https://github.com/christian-mejia/google-homepage) - [View in Browser](https://christian-mejia.github.io/google-homepage/)
 * [Brandon's Solution (Easy)](https://github.com/bstottler/google-homepage) - [View in Browser](http://bstottler.github.io/google-homepage/)
 * [Branimir's Solution (Easy)](https://github.com/rijavecb/The-Odin-Project/tree/master/Web-Development-101/google-homepage) - [View in Browser](http://rijavecb.github.io/The-Odin-Project/Web-Development-101/google-homepage/)
 * [Kevin Brinkley's Solution (Easy)](https://github.com/kevintbrinkley/google-homepage) - [View in Bowser](https://kevintbrinkley.github.io/google-homepage/)
@@ -2528,6 +2529,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Shane Gilbert's Solution (Easy)](https://github.com/shanedgilbert/google-homepage) - [View in Browser](https://shanedgilbert.github.io/google-homepage/)
 * [Shez32's Solution (Easy)](https://github.com/shez32/google-homepage) - [View in Browser](https://shez32.github.io/google-homepage/)
 * [Steffen's Solution (Easy)](https://github.com/shammelow/odin-project-google-page) - [View in Browser](https://shammelow.github.io/odin-project-google-page/)
+* [Yi Hao's Solution (Easy)](https://github.com/yihaot/google-homepage) - [View in Browser](https://yihaot.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
