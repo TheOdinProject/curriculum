@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Ogunmola Israel's Solution](https://github.com/Lippins/Etch-a-sketch) - [Veiw in Browser](https://lippins.github.io/Etch-a-sketch/.)
 * [sphuong95's Solution](https://github.com/sphuong95/etch-a-sketch) - [View in Browser](https://sphuong95.github.io/etch-a-sketch/)
 * [Jakob's Solution](https://github.com/jodokusquack/etch_a_sketch) - [View in Browser](https://jodokusquack.github.io/etch_a_sketch/)
 * [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/etch-a-sketch) - [View in Browser](https://thisismahmad.github.io/etch-a-sketch/)
@@ -421,7 +422,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [iameddieyayaya's solution](https://github.com/iameddieyayaya/etch-a-sketch) - [View in Browser](https://iameddieyayaya.github.io/etch-a-sketch/)
 * [GustavoRdz's solution](https://github.com/GustavoRdz/etch-a-sketch) - [View in Browser](https://gustavordz.github.io/etch-a-sketch/)
 * [Daniel Ryu's Solution](https://github.com/dryu99/etch-a-sketch) - [View in Browser](https://dryu99.github.io/etch-a-sketch/)
-* [Tristan Ross's Solution](https://github.com/TristanRoss/Etch-a-Sketch) - [View in Browser](https://tristanross.github.io/Etch-a-Sketch/)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/Etch-a-Sketch) - [View in Browser](https://tristanross.github.io/Etch-a-Sketch/)* [Ogunmola Israel's Solution](https://github.com/Lippins/Etch-a-sketch) - [Veiw in Browser](https://lippins.github.io/Etch-a-sketch/.)
 * [Abdirahman's Etch A Sketch solution](https://github.com/Murabac/Etch-Sketch) - [View in Browser](https://murabac.github.io/Etch-Sketch/)
 * [Mohamed's Solution](https://github.com/mohamedcutte/etch-a-sketch) - [View in Browser](https://mohamedcutte.github.io/etch-a-sketch/)
 * [Quilme's Solution](https://github.com/guanacone/etch-a-sketch) - [View in Browser](https://guanacone.github.io/etch-a-sketch/)
