@@ -2532,6 +2532,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Steffen's Solution (Easy)](https://github.com/shammelow/odin-project-google-page) - [View in Browser](https://shammelow.github.io/odin-project-google-page/)
 * [Yi Hao's Solution (Easy)](https://github.com/yihaot/google-homepage) - [View in Browser](https://yihaot.github.io/google-homepage/)
 * [Jed Pulley's Solution (Easy)](https://github.com/cardboardkungfu/google-homepage) - [View in Browser](https://cardboardkungfu.github.io/google-homepage/)
+* [Doskzorak's Solution (Easy)](https://github.com/doskzorak/google-homepage)
 </details>
 
 ### Additional Resources
