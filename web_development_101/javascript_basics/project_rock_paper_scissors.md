@@ -40,7 +40,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-Add my solution!
+- [Doskzorak Solution](#)
+- [Antonio's Solution](https://github.com/Ton-IO-S3r/rock-paper-scissors)
 - [Rlaake's Solution](https://github.com/rlaake/rock-paper-scissors)
 - [Lou Vang's Solution](https://github.com/louvang/rock-paper-scissors) - [View in Browser](https://louvang.github.io/rock-paper-scissors/)
 - [Amin's Solution](https://github.com/hanamin/janken)
@@ -954,4 +955,5 @@ Add my solution!
 - [Dustin Janssen's solution](https://github.com/DustinJanssen/RockPaperScissors)- [View in Browser](https://dustinjanssen.github.io/RockPaperScissors/)
 - [Kendra Moyars's solution](https://github.com/kendramoyars/rock-paper-scissors)- [View in Browser](https://kendramoyars.github.io/rock-paper-scissors/)
 - [Marcus Little's Console Solution](https://github.com/MarcusCole518/RPSGame)
+- [Chucksef's solution](https://github.com/Chucksef/rps)- [View in Browser](https://chucksef.github.io/rps/)
 </details>
