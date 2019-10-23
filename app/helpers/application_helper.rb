@@ -175,6 +175,10 @@ module ApplicationHelper
         badge_alt_text: 'ruby on rails badge',
         title: 'Ruby on Rails'
       },
+      { badge_image_url: 'badge-nodejs.svg',
+        badge_alt_text: 'nodejs badge',
+        title: 'NodeJS'
+      },
       { badge_image_url: 'badge-getting-hired.svg',
         badge_alt_text: 'getting hired badge',
         title: 'Getting Hired'
