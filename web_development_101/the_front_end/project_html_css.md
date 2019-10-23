@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Lord Artchur's Solution (Easy)](https://github.com/lord-artchur/google-homepage) - [View in Browser](https://lord-artchur.github.io/google-homepage/)
 * [Delta Sierra's Solution (Easy)](https://github.com/Delta-a-Sierra/Google-Homepage) - [View in Browser](https://delta-a-sierra.github.io/Google-Homepage/)
 * [MikkRou's Solution (Easy)](https://github.com/MikkRou/google-homepage) - [View in Browser](https://mikkrou.github.io/google-homepage/)
 * [Christian Mejia's Solution (Easy)](https://github.com/christian-mejia/google-homepage) - [View in Browser](https://christian-mejia.github.io/google-homepage/)
