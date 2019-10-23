@@ -960,4 +960,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Marcus Little's Console Solution](https://github.com/MarcusCole518/RPSGame)
 - [Kevin Hall's Solution](https://github.com/mrhallonline/rock-paper-scissors-js) - [View in Browser](https://mrhallonline.github.io/rock-paper-scissors-js/)
 - [Chucksef's solution](https://github.com/Chucksef/rps)- [View in Browser](https://chucksef.github.io/rps/)
+-[Shez32's solution](https://github.com/shez32/Rock-Papers_scissors) - [View in Browser](https://shez32.github.io/Rock-Papers_scissors/)
 </details>
