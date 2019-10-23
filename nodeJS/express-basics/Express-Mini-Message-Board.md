@@ -62,15 +62,23 @@ git push heroku master
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/express-basics/Express-Mini-Message-Board.md). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/mini_msg_board)
-- [tbmreza's Solution](https://github.com/tbmreza/odinproject-node2/) - [View in browser](https://reza-message-board.herokuapp.com)
-- [Morgan's Solution](https://github.com/morgando/message-board) - [View in browser](https://polar-meadow-92800.herokuapp.com/)
-- [JamCry's Solution](https://github.com/jamcry/express-message-board) - [View in browser](https://pacific-beach-38765.herokuapp.com/)
-
+- [Eljoey's Solution](https://github.com/eljoey/message_board) - [View in Browswer](https://salty-river-84330.herokuapp.com/)
+- [Vedat's Solution](https://github.com/mvedataydin/express-message-board) - [View in Browser](https://immense-woodland-14248.herokuapp.com/)
+- [Henry Kirya](https://github.com/harrika/messakira) - [View in Browser](https://messakira.herokuapp.com/)
+- [djolesusername's Solution](https://messages2019.herokuapp.com/) - [View in Browser](https://messages2019.herokuapp.com/)
+- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/mini_msg_board) - [View in browser](https://minimsgboard--briantuju.repl.co)
+- [tbmreza's Solution](https://github.com/tbmreza/odinproject-node2/) - [View in Browser](https://reza-message-board.herokuapp.com)
+- [Morgan's Solution](https://github.com/morgando/message-board) - [View in Browser](https://polar-meadow-92800.herokuapp.com/)
+- [JamCry's Solution](https://github.com/jamcry/express-message-board) - [View in Browser](https://pacific-beach-38765.herokuapp.com/)
+- [Agnieszka's Solution](https://github.com/atarsa/mini-msg-board-express) - [View in Browser](https://quiet-hollows-16705.herokuapp.com)
+- [Jake's Solution](https://github.com/jdonahue135/miniMessageBoard) - [View in Browser](https://sheltered-hollows-81080.herokuapp.com/)
+- [Andrécio's Solution](https://github.com/andreciobezerra/Messages-board) - [View in Browser](https://safe-wave-54774.herokuapp.com/)
+- [Ifeanyichukwu's Solution](https://github.com/Anyitechs/Message_boardApp) - [View in Browser](https://boiling-temple-35917.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/mini-message-board) - [View in Browser](https://odin-mini-message-board.herokuapp.com/)
 </details>
