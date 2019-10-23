@@ -2535,6 +2535,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Yi Hao's Solution (Easy)](https://github.com/yihaot/google-homepage) - [View in Browser](https://yihaot.github.io/google-homepage/)
 * [Jed Pulley's Solution (Easy)](https://github.com/cardboardkungfu/google-homepage) - [View in Browser](https://cardboardkungfu.github.io/google-homepage/)
 * [Doskzorak's Solution (Easy)](https://github.com/doskzorak/google-homepage)
+* [Gautier's Solution (Easy)](https://gautier19.github.io/google-hp/)
 </details>
 
 ### Additional Resources
