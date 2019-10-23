@@ -59,6 +59,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-facebook) - [Live](https://murmuring-wave-95625.herokuapp.com/)
 * [Helmi's Solution](https://github.com/helmihidzir/odin-facebook)
 * [Kevin Vuong's solution](https://github.com/fffear/odin-facebook/) - [Live](https://shielded-mesa-75331.herokuapp.com/)
 * [Learnsometing's solution](https://github.com/learnsometing/dev-communities) - [Live](https://dev-communities.herokuapp.com/)
