@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Olugbade Olalekan's Solution](https://github.com/gbadesimple/calculator) - [View in Browser](https://gbadesimple.github.io/calculator/)
 - [matchewbie's Solution](https://github.com/matchewbie/calculator) - [View in Browser](https://matchewbie.github.io/calculator/)
 - [Kris Tobiasson's solution](https://github.com/highpockets/calculator) - [View in Browser](https://highpockets.github.io/calculator/) 
 - [Odunsi's solution](https://github.com/dhatGuy/calculator) - [View in Browser](https://dhatguy.github.io/calculator) 
@@ -62,6 +63,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nihir Agarwal's Solution](https://github.com/nihirag/calculator) - [View in Browser](https://nihirag.github.io/calculator)
 - [Jacavena's Solution](https://github.com/Jacavena/calculator)
 - [Isaac Kelly's Solution](https://github.com/isaackelly0/calculator) - [View in Browser](https://isaackelly0.github.io/calculator/)
+- [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/calculator) - [View in Browser](https://thisismahmad.github.io/calculator/)
 - [Hussien hossam's Solution](https://github.com/Hussein-Hossam-Idris/Calculator)
 - [rTheory's Solution](https://github.com/rtheory/calculator) - [View in Browser](https://rtheory.github.io/calculator/)
 - [Christian Bonilla's solution](https://github.com/Cabonilla/modularCalc) - [View in Browser](https://cabonilla.github.io/modularCalc/)
@@ -407,4 +409,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Steve White's Solution](https://github.com/swhite85/calculator/) - [View in Browser](https://swhite85.github.io/calculator/)
 - [Kalmod's Solution](https://github.com/kalmod/calculator/) - [View in Browser](https://kalmod.github.io/calculator/)
 - [Bradley Peterson's Solution](https://github.com/spaceincase/calculator/) - [View in Browser](https://spaceincase.github.io/calculator/)
+- [bohledevs's Solution](https://github.com/bohledevs/Calculator) - [View in Browser](https://bohledevs.github.io/Calculator/)
 </details>
