@@ -2540,6 +2540,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Gautier's Solution (Easy)](https://gautier19.github.io/google-hp/)
 * [Mitchell's Solution (Easy)](https://github.com/mleers/google_homepage) - [View in Browser](https://mleers.github.io/google_homepage/)
 * [Daryll's Solution (Easy)](https://github.com/daryllrsy/eggloo) - [View in Browser](https://daryllrsy.github.io/eggloo/)
+* [Kat's Solution (Easy)](https://github.com/anyretak/google-homepage) - [View in Browser](https://anyretak.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
