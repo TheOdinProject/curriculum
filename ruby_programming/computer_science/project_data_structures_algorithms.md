@@ -52,6 +52,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/binary_search_tree)
 * [Ian's Solution](https://github.com/IanMKesler/binary_tree)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
 * [Chris' Solution](https://github.com/CSalois114/project_searching_binary_trees/blob/master/searching_binary_trees.rb)
