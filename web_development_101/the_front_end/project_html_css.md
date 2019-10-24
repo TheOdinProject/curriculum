@@ -26,7 +26,7 @@ If you do not know how to setup a repository, follow the instructions found in [
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
-3. Then move that repository onto your local machine. The command should look like: `git clone https://github.com/YourUserName/google-homepage`
+3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH)
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
 5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
@@ -2542,6 +2542,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Siegmeister's Solution (Easy)](https://github.com/the-siegmeister/google-homepage) - [View in Browser](https://the-siegmeister.github.io/google-homepage/)
 * [Daryll's Solution (Easy)](https://github.com/daryllrsy/eggloo) - [View in Browser](https://daryllrsy.github.io/eggloo/)
 * [Kat's Solution (Easy)](https://github.com/anyretak/google-homepage) - [View in Browser](https://anyretak.github.io/google-homepage/)
+* [MikeMitchell's Solution (Easy)](https://github.com/mikemitchell574/google-homepage) - [View in Browser](https://mikemitchell574.github.io/google-homepage/)
+* [MikeMitchell's Solution (Difficult)](https://github.com/mikemitchell574/google-search-results-page) - [View in Browser](https://mikemitchell574.github.io/google-search-results-page/)
 </details>
 
 ### Additional Resources
