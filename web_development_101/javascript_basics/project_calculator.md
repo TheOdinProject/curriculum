@@ -410,4 +410,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kalmod's Solution](https://github.com/kalmod/calculator/) - [View in Browser](https://kalmod.github.io/calculator/)
 - [Bradley Peterson's Solution](https://github.com/spaceincase/calculator/) - [View in Browser](https://spaceincase.github.io/calculator/)
 - [bohledevs's Solution](https://github.com/bohledevs/Calculator) - [View in Browser](https://bohledevs.github.io/Calculator/)
+- [Sher's Solution](https://github.com/sher-s7/calculator) - [View in Browser](https://sher-s7.github.io/calculator/)
 </details>
