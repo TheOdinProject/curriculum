@@ -2542,6 +2542,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Siegmeister's Solution (Easy)](https://github.com/the-siegmeister/google-homepage) - [View in Browser](https://the-siegmeister.github.io/google-homepage/)
 * [Daryll's Solution (Easy)](https://github.com/daryllrsy/eggloo) - [View in Browser](https://daryllrsy.github.io/eggloo/)
 * [Kat's Solution (Easy)](https://github.com/anyretak/google-homepage) - [View in Browser](https://anyretak.github.io/google-homepage/)
+* [MikeMitchell's Solution (Easy)](https://github.com/mikemitchell574/google-homepage) - [View in Browser](https://mikemitchell574.github.io/google-homepage/)
+* [MikeMitchell's Solution (Difficult)](https://github.com/mikemitchell574/google-search-results-page) - [View in Browser](https://mikemitchell574.github.io/google-search-results-page/)
 </details>
 
 ### Additional Resources
