@@ -88,7 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Robin's Solution (Easy)](https://coolglasses.github.io/google-homepage/)
+* [Robin's Solution (Easy)](https://github.com/CoolGlasses/google-homepage) - [View in Browser](https://coolglasses.github.io/google-homepage/)
 * [Lord Artchur's Solution (Easy)](https://github.com/lord-artchur/google-homepage) - [View in Browser](https://lord-artchur.github.io/google-homepage/)
 * [Delta Sierra's Solution (Easy)](https://github.com/Delta-a-Sierra/Google-Homepage) - [View in Browser](https://delta-a-sierra.github.io/Google-Homepage/)
 * [MikkRou's Solution (Easy)](https://github.com/MikkRou/google-homepage) - [View in Browser](https://mikkrou.github.io/google-homepage/)
@@ -2536,6 +2536,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jed Pulley's Solution (Easy)](https://github.com/cardboardkungfu/google-homepage) - [View in Browser](https://cardboardkungfu.github.io/google-homepage/)
 * [Doskzorak's Solution (Easy)](https://github.com/doskzorak/google-homepage)
 * [Gautier's Solution (Easy)](https://gautier19.github.io/google-hp/)
+* [Mitchell's Solution (Easy)](https://github.com/mleers/google_homepage) - [View in Browser](https://mleers.github.io/google_homepage/)
 </details>
 
 ### Additional Resources
