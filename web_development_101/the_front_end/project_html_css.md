@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Dustin's Solution (Easy)](https://github.com/MurdockDM/google_homepage) - [View in Browser](https://murdockdm.github.io/google_homepage/)
 * [Robin's Solution (Easy)](https://github.com/CoolGlasses/google-homepage) - [View in Browser](https://coolglasses.github.io/google-homepage/)
 * [Lord Artchur's Solution (Easy)](https://github.com/lord-artchur/google-homepage) - [View in Browser](https://lord-artchur.github.io/google-homepage/)
 * [Delta Sierra's Solution (Easy)](https://github.com/Delta-a-Sierra/Google-Homepage) - [View in Browser](https://delta-a-sierra.github.io/Google-Homepage/)
@@ -2535,9 +2536,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Yi Hao's Solution (Easy)](https://github.com/yihaot/google-homepage) - [View in Browser](https://yihaot.github.io/google-homepage/)
 * [Jed Pulley's Solution (Easy)](https://github.com/cardboardkungfu/google-homepage) - [View in Browser](https://cardboardkungfu.github.io/google-homepage/)
 * [Doskzorak's Solution (Easy)](https://github.com/doskzorak/google-homepage)
+* [Jeremy's Solution (Easy)](https://github.com/jlittle94/google-homepage) - [View in Browser](https://jlittle94.github.io/google-homepage/)
 * [Gautier's Solution (Easy)](https://gautier19.github.io/google-hp/)
 * [Mitchell's Solution (Easy)](https://github.com/mleers/google_homepage) - [View in Browser](https://mleers.github.io/google_homepage/)
-* [Siegmeister's Solution (Easy)] (https://github.com/the-siegmeister/google-homepage) - [View in Browser](https://the-siegmeister.github.io/google-homepage/)
+* [Siegmeister's Solution (Easy)](https://github.com/the-siegmeister/google-homepage) - [View in Browser](https://the-siegmeister.github.io/google-homepage/)
+* [Daryll's Solution (Easy)](https://github.com/daryllrsy/eggloo) - [View in Browser](https://daryllrsy.github.io/eggloo/)
+* [Kat's Solution (Easy)](https://github.com/anyretak/google-homepage) - [View in Browser](https://anyretak.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
