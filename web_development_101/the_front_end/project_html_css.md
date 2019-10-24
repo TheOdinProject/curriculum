@@ -2537,6 +2537,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Doskzorak's Solution (Easy)](https://github.com/doskzorak/google-homepage)
 * [Gautier's Solution (Easy)](https://gautier19.github.io/google-hp/)
 * [Mitchell's Solution (Easy)](https://github.com/mleers/google_homepage) - [View in Browser](https://mleers.github.io/google_homepage/)
+* [Siegmeister's Solution (Easy)] (https://github.com/the-siegmeister/google-homepage) - [View in Browser](https://the-siegmeister.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
