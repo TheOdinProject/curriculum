@@ -2539,6 +2539,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jeremy's Solution (Easy)](https://github.com/jlittle94/google-homepage) - [View in Browser](https://jlittle94.github.io/google-homepage/)
 * [Gautier's Solution (Easy)](https://gautier19.github.io/google-hp/)
 * [Mitchell's Solution (Easy)](https://github.com/mleers/google_homepage) - [View in Browser](https://mleers.github.io/google_homepage/)
+* [Kat's Solution (Easy)](https://github.com/anyretak/google-homepage) - [View in Browser](https://anyretak.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
