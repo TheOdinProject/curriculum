@@ -409,4 +409,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Steve White's Solution](https://github.com/swhite85/calculator/) - [View in Browser](https://swhite85.github.io/calculator/)
 - [Kalmod's Solution](https://github.com/kalmod/calculator/) - [View in Browser](https://kalmod.github.io/calculator/)
 - [Bradley Peterson's Solution](https://github.com/spaceincase/calculator/) - [View in Browser](https://spaceincase.github.io/calculator/)
+- [bohledevs's Solution](https://github.com/bohledevs/Calculator) - [View in Browser](https://bohledevs.github.io/Calculator/)
 </details>
