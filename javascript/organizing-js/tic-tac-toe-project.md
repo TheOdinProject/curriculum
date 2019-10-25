@@ -1,4 +1,5 @@
 ### Introduction
+
 We're making a Tic Tac Toe game you can play in your browser!
 
 ### Assignment
@@ -19,12 +20,14 @@ We're making a Tic Tac Toe game you can play in your browser!
 </div>
 
 ### Student Solutions
+
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/tic-tac-toe-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Saad Tarhi's Solution (AI: Alpha-Beta Pruning (Improved Mini-Max) & Great UI/UX design)](https://github.com/tarhi-saad/tic-tac-toe) - [Play in Browser](https://tarhi-saad.github.io/tic-tac-toe/)
 - [JB's Solution](https://github.com/ugSh7hbY/tictactoe) - [View in Browser](https://ugsh7hby.github.io/tictactoe/)
 - [Vedat Aydin's Solution](https://github.com/mvedataydin/tic-tac-toe) - [View in Browser](https://mvedataydin.github.io/tic-tac-toe/)
 - [Joey Van Lierop's Solution](https://github.com/bananashavings/tic-tac-toe) - [View in Browser](https://bananashavings.github.io/tic-tac-toe/)
@@ -79,7 +82,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Tic-Tac-To) - [View in Browser](https://ubaid-manzoor.github.io/Tic-Tac-To/)
 - [JamCry's Solution](https://github.com/jamcry/js-tictactoe) - [View in Browser](https://jamcry.github.io/js-tictactoe/)
 - [Maxime's Solution](https://github.com/Maxime-Beaufils/JS-TicTacToe-PvsAI) - [View in Browser](https://maxime-beaufils.github.io/JS-TicTacToe-PvsAI/)
-- [Ousmane's solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in Browser](https://kitague.github.io/Tic-Tac-Toe-Game/) 
-- [Gene Mecija's Solution](https://github.com/genemecija/Tic-Tac-Toe) - [View in Browser](https://genemecija.github.io/Tic-Tac-Toe/) 
-- [Javier Arias's Solution](https://github.com/jfariasf/TOP-tictactoe) - [View in Browser](https://jfariasf.github.io/TOP-tictactoe/) 
-</details>
+- [Ousmane's solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in Browser](https://kitague.github.io/Tic-Tac-Toe-Game/)
+- [Gene Mecija's Solution](https://github.com/genemecija/Tic-Tac-Toe) - [View in Browser](https://genemecija.github.io/Tic-Tac-Toe/)
+- [Javier Arias's Solution](https://github.com/jfariasf/TOP-tictactoe) - [View in Browser](https://jfariasf.github.io/TOP-tictactoe/)
+  </details>
