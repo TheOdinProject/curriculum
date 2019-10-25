@@ -21,7 +21,7 @@ As with the previous chapter, just make sure you're writing the test specs in th
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-  * Do the [Ruby on Rails Tutorial Chapter 13](https://www.railstutorial.org/book/user_microposts), "User microposts".
+  * Do the [Ruby on Rails Tutorial Chapter 13](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/user_microposts), "User microposts".
 </div>
 
 ### Project 2: Private Events
@@ -77,6 +77,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/private-events) - [View in browser](https://safe-retreat-68130.herokuapp.com/)
+* [Kevin Vuong's solution](https://github.com/fffear/private-events)
 * [Learnsometing's solution](https://github.com/learnsometing/rails-private_events)
 * [Simon Tharby's solution](https://github.com/jinjagit/social_light) - [View in browser](https://social-light-simontharby.herokuapp.com/)
 * [prw001's solution](https://github.com/prw001/private_events)
@@ -157,6 +159,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/private-events) - [View in browser](https://odin-private-events-0.herokuapp.com/events)
 * [vanny96's Solution](https://github.com/vanny96/private-events) - [View in Browser](https://rocky-eyrie-58239.herokuapp.com/)
 * [JamCry's Solution](https://github.com/jamcry/private-events) - [View in Browser](https://gentle-journey-93500.herokuapp.com/)
+* [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/eventor) - [View in browser](http://eventor-io.herokuapp.com/)
 
 </details>
 

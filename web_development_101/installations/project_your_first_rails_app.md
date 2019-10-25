@@ -346,17 +346,17 @@ heroku run rails db:migrate
 
 You might see some strange output, but as long as you do not have an error, you have successfully deployed a Rails application!
 
-If you have an error, come to our [chat room](https://discord.gg/5v6s6rs), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
+If you have an error, come to our [chat room](https://discord.gg/hvqVr6d), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
 
 #### Step 3.9: Visit Your New Application
 
-It's time to see your app on the web! If you are not using WSL, to quickly open your app, type
+It's time to see your app on the web! If you are using Linux or Mac, you can quickly open your app with the command below. If you are using WSL it will not open automatically, however, you will get an error message containing the link to copy and paste in your browser:
 
 ~~~bash
 heroku open
 ~~~
 
-and play around with it!
+Now go and play around with it!
 
 ### Step 4: Let us know how it went!
 
