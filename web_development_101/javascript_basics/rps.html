@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    let computerSelection;
+    let computerScore = 0;
+    let playerScore = 0;
+
+    function computerPlay() {
+        let random = Math.random();
+        
+        if (random < 0.3) {
+            computerSelection = 'rock';
+        } else if (random > 0.3 && random < 0.6) {
+            computerSelection = 'paper';
+        } else if (random > 0.6) {
+            computerSelection = 'scissors';
+        }
+        return computerSelection;
+    }
+
+    function oneRound(playerChoice, computerChoice) {
+      playerChoice = playerChoice.toLowerCase();
+
+      if (playerChoice === computerChoice) {
+        return 'It is a tie!';
+      } 
+      
+      else if (playerChoice === 'rock') {
+        if (computerChoice === 'scissors') {
+          playerScore++;
+          return 'Rock beats scissors. Human wins!';
+        } else {
+          computerScore++;
+          return 'Paper beats rock. Computer wins!';
+        }
+      }
+
+      else if (playerChoice === 'paper') {
+        if (computerChoice === 'rock') {
+          playerScore++;
+          return 'Paper beats rock. Human wins!'
+        } else {
+          computerScore++;
+          return 'Scissors beats paper. Computer wins!';
+        }
+      }
+
+      else if (playerChoice === 'scissors') {
+        if (computerChoice === 'paper') {
+          playerScore++;
+          return 'Scissors beats paper. Human wins!';
+        } else {
+          computerScore++;
+          return 'Rock beats scissors. Computer wins!';
+        }
+      }
+    
+    }
+
+    function game(){
+      
+      for (let i = 0; i < 5; i++) {
+        let input = prompt('Rock, paper, or scissors?');
+        console.log(oneRound(input, computerPlay()));
+        console.log('Computer: ' + computerScore);
+        console.log('Human: ' + playerScore);
+      }
+      
+    }
+
+  </script>
+</body>
+</html>
