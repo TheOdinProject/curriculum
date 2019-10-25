@@ -43,6 +43,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+* [Cody's Solution](https://github.com/codydegen/etch_a_sketch) - [View in Browser](https://codydegen.github.io/etch_a_sketch/)
+* [Emmanuel's Solution](https://github.com/emmaoni/etch-sketch)
+* [Ashish's Solution](https://github.com/CodersGas/etch-a-sketch) - [View in Browser](https://codersgas.github.io/etch-a-sketch/main-page.html)
+* [Matt Lee's Solution](https://github.com/mattjaylee/etch_a_sketch)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/etch-a-sketch) - [View in Browser](https://gbadesimple.github.io/etch-a-sketch/)
 * [Ogunmola Israel's Solution](https://github.com/Lippins/Etch-a-sketch) - [Veiw in Browser](https://lippins.github.io/Etch-a-sketch/.)
 * [sphuong95's Solution](https://github.com/sphuong95/etch-a-sketch) - [View in Browser](https://sphuong95.github.io/etch-a-sketch/)
 * [Jakob's Solution](https://github.com/jodokusquack/etch_a_sketch) - [View in Browser](https://jodokusquack.github.io/etch_a_sketch/)
@@ -576,5 +582,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Karthick's Solution](https://github.com/karthicbz/etch-a-sketch) - [View in Browser](https://karthicbz.github.io/etch-a-sketch/)
 * [Luke Childs' Solution](https://github.com/childsluke/etchasketch) - [View in Browser](https://childsluke.github.io/etchasketch/)
 * [Sher's Solution](https://github.com/sher-s7/etch-a-sketch) - [View in Browser](https://sher-s7.github.io/etch-a-sketch/)
+* [Dustin Janssen's Solution](https://github.com/DustinJanssen/SketchBook) - [View in Browser](https://dustinjanssen.github.io/SketchBook/)
+* [Paul's Solution](https://github.com/faux-pas/etch-a-sketch/) - [View in Browser](https://faux-pas.github.io/etch-a-sketch/)
 </details>
-
