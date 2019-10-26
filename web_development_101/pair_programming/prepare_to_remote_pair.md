@@ -3,7 +3,7 @@
 As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:
 
 * Screen Sharing Options. There may be more, but these are a few of the most popular:
-  * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/kb/PH18686).
+  * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
   * Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is a free plugin for Atom that allows you to easily share your workspace with other Atom users remotely.
 * Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
   * [Screenhero](https://screenhero.com/) has its own built in voice chat, but as mentioned above, unless you already have an account you are currently out of luck.
