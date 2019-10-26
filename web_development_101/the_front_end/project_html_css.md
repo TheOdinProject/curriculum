@@ -2546,6 +2546,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MikeMitchell's Solution (Difficult)](https://github.com/mikemitchell574/google-search-results-page) - [View in Browser](https://mikemitchell574.github.io/google-search-results-page/)
 * [Rian's Solution (Easy)](https://github.com/rsruggles/google-homepage) - [View in Browser](https://rsruggles.github.io/google-homepage/)
 * [realestDuck's Solution (Difficult)](https://github.com/joaogui3856/google_search) - [View in Browser](https://joaogui3856.github.io/google_search/)
+* [RedRope's Solution (Easy)](https://xredrope.github.io/google-homepage) - [View in Browser](https://xredrope.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
