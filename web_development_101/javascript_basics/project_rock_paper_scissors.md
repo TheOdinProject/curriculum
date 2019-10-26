@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Elsmog's Solution] (https://github.com/elsmog/rock-paper-scissors)
 - [Hilbert França's Solution](https://github.com/Hilbertmf/LearningWeb/tree/master/the-odin-projects/rock-paper-scissors) - [View in Browser](https://hilbertmf.github.io/projects/rock-paper-scissors/)
 - [Will's Solution](https://github.com/GroverW/projects/tree/master/rock-paper-scissors)
 - [Robin's Solution](https://github.com/CoolGlasses/Rock-Paper-Scissors-Game) - [View in Browser](https://coolglasses.github.io/Rock-Paper-Scissors-Game/) 
