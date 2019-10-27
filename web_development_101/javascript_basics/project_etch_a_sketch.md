@@ -584,7 +584,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Sher's Solution](https://github.com/sher-s7/etch-a-sketch) - [View in Browser](https://sher-s7.github.io/etch-a-sketch/)
 * [Dustin Janssen's Solution](https://github.com/DustinJanssen/SketchBook) - [View in Browser](https://dustinjanssen.github.io/SketchBook/)
 * [Paul's Solution](https://github.com/faux-pas/etch-a-sketch/) - [View in Browser](https://faux-pas.github.io/etch-a-sketch/)
-* [Cowlickcoleman's Solution] (https://github.com/Cowlickcoleman/etchasketch) - [View in Browser] (https://cowlickcoleman.github.io/etchasketch/)
+* [Cowlickcoleman's Solution](https://github.com/Cowlickcoleman/etchasketch) - [View in Browser](https://cowlickcoleman.github.io/etchasketch/)
 * [Shez32's Solution](https://github.com/shez32/Etch-A-Sketch) - [View in Browser](https://shez32.github.io/Etch-A-Sketch/) 
 
 </details>
