@@ -966,7 +966,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Heather DaSilva Solution](https://github.com/HeatherDaSilva/Rock_Paper_Scissors.git)
 - [Kevin Hall's Solution](https://github.com/mrhallonline/rock-paper-scissors-js) - [View in Browser](https://mrhallonline.github.io/rock-paper-scissors-js/)
 - [Chucksef's solution](https://github.com/Chucksef/rps)- [View in Browser](https://chucksef.github.io/rps/)
--[Shez32's solution](https://github.com/shez32/Rock-Papers_scissors) - [View in Browser](https://shez32.github.io/Rock-Papers_scissors/)
+- [Shez32's solution](https://github.com/shez32/Rock-Papers_scissors) - [View in Browser](https://shez32.github.io/Rock-Papers_scissors/)
 - [jkraf002's solution](https://github.com/jkraf002/rock-paper-scissors)
 - [anth-dev's solution](https://github.com/anth-dev/rock-paper-scissors-lizard-spock) - [View in Browser](https://anth-dev.github.io/rock-paper-scissors-lizard-spock/)
 </details>
