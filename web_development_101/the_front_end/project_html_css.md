@@ -2550,6 +2550,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [realestDuck's Solution (Difficult)](https://github.com/joaogui3856/google_search) - [View in Browser](https://joaogui3856.github.io/google_search/)
 * [RedRope's Solution (Easy)](https://xredrope.github.io/google-homepage) - [View in Browser](https://xredrope.github.io/google-homepage/)
 * [squidsomething's Solution (Easy)](https://github.com/squidsomething/google-homepage) - [View in Browser](https://squidsomething.github.io/google-homepage/)
+* [charliebarbers's Solution (Easy)](https://github.com/charliebarber/google-homepage) - [View in Browser] (https://charliebarber.github.io/google-homepage/)
+* [singhmi4's solution](https://github.com/singhmi4/google-homepage) - [View in Browser](https://singhmi4.github.io/google-homepage)
+* [Vuyani's solution](https://github.com/vuyanir/google-homepage) - [View in Browser](https://github.com/vuyanir/google-homepage/)
 </details>
 
 ### Additional Resources
