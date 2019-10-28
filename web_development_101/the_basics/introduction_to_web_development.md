@@ -50,6 +50,17 @@ These are some of the basic tools you will use regularly. You may not know what 
 * **[Git](https://git-scm.com/)**
 * **[GitHub](https://github.com/)**
 
+### Motivation
+
+Learning to code is incredibly rewarding but can also be difficult and frustrating.
+The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
+
+The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
+
+Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
+
+Read [this comprehensive blog post from Happy Bear Software](http://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
+
 ### Why Odin?
 
 I want you to know that this will not be easy.
