@@ -2553,6 +2553,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [charliebarbers's Solution (Easy)](https://github.com/charliebarber/google-homepage) - [View in Browser](https://charliebarber.github.io/google-homepage/)
 * [singhmi4's solution](https://github.com/singhmi4/google-homepage) - [View in Browser](https://singhmi4.github.io/google-homepage)
 * [Vuyani's solution](https://github.com/vuyanir/google-homepage) - [View in Browser](https://github.com/vuyanir/google-homepage/)
+* [Eric Fetterolf's Solution (Easy)](https://github.com/BrokeChewbacca/google-homepage) - [View in Browser](https://brokechewbacca.github.io/google-homepage/)
+* [Eric Fetterolf's Solution (Difficult)](https://github.com/BrokeChewbacca/google-results-page) - [View in Browser](https://brokechewbacca.github.io/google-results-page/)
 </details>
 
 ### Additional Resources
