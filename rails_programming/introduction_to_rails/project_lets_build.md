@@ -92,6 +92,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
 * [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
+* [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
 </details>
 
 ### Project: Ruby on Rails Tutorial

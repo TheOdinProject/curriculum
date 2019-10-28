@@ -68,6 +68,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Eljoey's Solution](https://github.com/eljoey/message_board) - [View in Browswer](https://salty-river-84330.herokuapp.com/)
 - [Vedat's Solution](https://github.com/mvedataydin/express-message-board) - [View in Browser](https://immense-woodland-14248.herokuapp.com/)
 - [Henry Kirya](https://github.com/harrika/messakira) - [View in Browser](https://messakira.herokuapp.com/)
 - [djolesusername's Solution](https://messages2019.herokuapp.com/) - [View in Browser](https://messages2019.herokuapp.com/)
@@ -79,4 +80,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Jake's Solution](https://github.com/jdonahue135/miniMessageBoard) - [View in Browser](https://sheltered-hollows-81080.herokuapp.com/)
 - [Andrécio's Solution](https://github.com/andreciobezerra/Messages-board) - [View in Browser](https://safe-wave-54774.herokuapp.com/)
 - [Ifeanyichukwu's Solution](https://github.com/Anyitechs/Message_boardApp) - [View in Browser](https://boiling-temple-35917.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/mini-message-board) - [View in Browser](https://odin-mini-message-board.herokuapp.com/)
 </details>
