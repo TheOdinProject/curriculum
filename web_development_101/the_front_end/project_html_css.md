@@ -2509,6 +2509,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [David's Solution(Easy)](https://daveguz97.github.io/google/)
 * [Chris Coe's Solution (Easy)](https://github.com/chrisdcoe/google-homepage) - [View in Broswer](https://chrisdcoe.github.io/google-homepage/)
 * [Sarah Beck's Solution (Easy)](https://github.com/sarahdev626/google-homepage) - [View in Browser](https://sarahdev626.github.io/google-homepage/)
+* [evinton1's Solution (Easy)](https://github.com/evinton1/google-homepage) - [View in Browser](https://evinton1.github.io/google-homepage/)
+* [evinton1's Solution (Hard)](https://github.com/evinton1/google-advanced) - [View in Browser](https://evinton1.github.io/google-advanced/)
 * [Andrew's Solution (Easy)](https://github.com/CGoldMonkey/google-homepage-odin) - [View in Browser](https://cgoldmonkey.github.io/google-homepage-odin/)
 * [Karl Flexx's Solution (Easy)](https://github.com/winorwin/google-homepage) - [View in Browser](https://winorwin.github.io/google-homepage/)
 * [Nigel Volkmann's Solution (Easy)](https://github.com/Nekolike/google-homepage) - [View in Browser](https://nekolike.github.io/google-homepage/)
