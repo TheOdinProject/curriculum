@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kris Tobiasson's solution](https://github.com/highpockets/blogger.git) - [View in browser](https://fathomless-peak-19657.herokuapp.com)
 * [hamilto8's solution](https://github.com/hamilto8/blogger)
 * [John Piatras' solution](https://github.com/JohnPiatras/blogger) - [View in browser](https://piatras-blogger-project.herokuapp.com/articles)
 * [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/05-Web_Development_Frameworks/blogger)
