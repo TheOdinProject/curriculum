@@ -2559,6 +2559,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Eric Fetterolf's Solution (Easy)](https://github.com/BrokeChewbacca/google-homepage) - [View in Browser](https://brokechewbacca.github.io/google-homepage/)
 * [Eric Fetterolf's Solution (Difficult)](https://github.com/BrokeChewbacca/google-results-page) - [View in Browser](https://brokechewbacca.github.io/google-results-page/)
 * [Kineara's Solution (Easy)](https://github.com/Kineara/google-homepage) - [View in Browser](https://kineara.github.io/google-homepage/)
+* [Hunt's Solution (Easy)](https://github.com/huntdavid175/google_homepage) - [View in Browser](https://huntdavid175.github.io/google_homepage/)
 </details>
 
 ### Additional Resources
