@@ -244,6 +244,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/knights_travails)
 * [Ian's Solution](https://github.com/IanMKesler/knight-s_travails)
 * [Chris' Solution](https://github.com/CSalois114/project_knight_moves/blob/master/knight_moves.rb)
 * [JFAldridge's Solution](https://github.com/JFAldridge/knight_moves)
