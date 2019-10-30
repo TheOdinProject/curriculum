@@ -31,7 +31,27 @@ Before diving into the code, take a minute to think about how you are going to w
 ### Student Solutions
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [bollinca's Solution](https://github.com/bollinca/to-do-list) - [View in Browser](https://bollinca.github.io/to-do-list/)
+* [ejoflo's Solution](https://github.com/ejoflo/to_do_list) - [View in Browser](https://ejoflo.github.io/to_do_list/)
+* [miang's solution](https://github.com/miang99/todolist) - [View in Browser](https://miang99.github.io/todolist/)
+* [Igorashs's Solution](https://github.com/igorashs/todo-list) - [View in Browser](https://igorashs.github.io/todo-list/)
+* [Jacavena's Solution](https://github.com/Jacavena/todo-list) - [View in Browser](https://jacavena.github.io/todo-list/)
+* [Bojo's Solution](https://github.com/BojoZahariev/ToDo) - [View in Browser](https://bojozahariev.github.io/ToDo/)
+* [Solodov Solution](https://github.com/solodov-dev/do) - [View in Browser](https://solodov-dev.github.io/do/)
+* [Vedat's Solution](https://github.com/mvedataydin/todo-list) - [View in Browser](https://mvedataydin.github.io/todo-list/)
+* [Joey Van Lierop's Solution](https://github.com/joeyvanlierop/todo-list) - [View in Browser](https://joeyvanlierop.github.io/todo-list/)
+* [ELjoey's Solution](https://github.com/eljoey/Todo-List) - [View in Browser](https://eljoey.github.io/Todo-List/)
+* [Djo1e's solution](https://github.com/Djo1e/Todo) - [View in browser](https://djo1e.github.io/Todo/)
+* [Henry Kirya's Solution](https://github.com/harrika/todo-list) - [View in browser](https://harrika.github.io/todo-list/)
+* [John Kripp's Solution](https://github.com/JohnKripp/Todo-App) - [View in browser](https://johnkripp.github.io/Todo-App/)
+* [Simon Tharby's solution](https://github.com/jinjagit/todo) - [View in browser](https://to-do.simontharby.com/)
+* [ARaut9's solution](https://github.com/ARaut9/to-do-list) - [View in Browser](https://araut9.github.io/to-do-list/)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-todo-list) - [View in Browser](https://jttmckee.github.io/odin-todo-list/)
+* [Ricala's solution](https://github.com/Ricala/to-do-list) - [View in Browser](https://ricala.github.io/to-do-list/)
 * [Hammad Ahmed's solution](https://github.com/shammadahmed/task-manager) - [Live preview](https://shammadahmed.github.io/task-manager)
 * [Roman Alenskiy's solution](https://github.com/romalenskiy/todo) - [Live preview](https://romalenskiy.github.io/todo/)
 * [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/todos) - [View in Browser](https://bubblebooy.github.io/Odin-Javascript/todos/dist/index.html)
@@ -51,3 +71,12 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [aznafro's solution](https://github.com/aznafro/todo) - [View in browser](https://aznafro.github.io/todo/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Todolist) - [View in browser](https://areebaishtiaq.github.io/Todolist)
 * [Taylor J's solution](https://github.com/taylorjohannsen/todolist) - [View in browser](https://taylorjohannsen.github.io/todolist/)
+* [Halkim44's solution](https://github.com/halkim44/todoListApp) - [View App Online](https://halkim44.github.io/todoListApp/)
+* [Valentino Valenti's solution](https://github.com/1ba1/todo-list) - [View in browser](https://1ba1.github.io/todo-list/)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/fcarlosdev.github.io/tree/master/todo-app) - [View in browser](https://fcarlosdev.github.io/todo-app/)
+* [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
+* [JamCry's solution](https://github.com/jamcry/got2do) - [View in Browser](https://jamcry.github.io/got2do/)
+* [Martink-rsa's solution](https://github.com/martink-rsa/ToDoList) - [View in Browser](https://martink-rsa.github.io/ToDoList/)
+* [dvbridges solution](https://github.com/dvbridges/masterplan) - [View in browser](https://dvbridges.github.io/masterplan/)
+
+</details>
