@@ -737,6 +737,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Adeleke Temitayo's GUI Solution](https://github.com/leketemi/rock-paper-scissors---GUI) - [View in Browser](https://leketemi.github.io/rock-paper-scissors---GUI/)
 - [Diego's Console and Interface Solution](https://github.com/dandradec98/rock-paper-scissors) - [View in Browser](https://dandradec98.github.io/rock-paper-scissors/)
 - [Suka George Console Solution](https://github.com/addisuka25/Rock-Paper-Scissors) - [View in Browser](https://addisuka25.github.io/Rock-Paper-Scissors/)
+- [Suka George UI Solution](https://github.com/addisuka25/RockPaperScissorsUI-Version) - [View in Browser](https://addisuka25.github.io/RockPaperScissorsUI-Version/)
 - [Goldkoyne88's Interface Solution](https://github.com/goldkoyne88/rock-paper-scissors) - [View in Browser](https://goldkoyne88.github.io/rock-paper-scissors/)
 - [Samuel Oswald's Solution](https://github.com/smozwald/002-Rock-Paper-Scissors)
 - [Valentino Valenti's Console Solution](https://1ba1.github.io/rock-paper-scissors/)
