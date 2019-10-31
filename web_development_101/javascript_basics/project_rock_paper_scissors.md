@@ -981,4 +981,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [singhmi4's solution](https://github.com/singhmi4/rock-paper-scissors) - [View in Browser](https://singhmi4.github.io/rock-paper-scissors)
 - [MikeMitchell's solution](https://github.com/mikemitchell574/rock-paper-scissors) - [View in Browser](https://mikemitchell574.github.io/rock-paper-scissors)
 - [kris solution](https://github.com/KristianaGaizauskiene/Rock_paper_scissors)
+- [Vishnu's Solution](https://github.com/vishnuchandrappan/rock-paper-scissors) - [View in Browser](https://vishnuchandrappan.github.io/rock-paper-scissors/)
 </details>
