@@ -548,6 +548,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project-Ruby-OOP/blob/master/mastermind.rb)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/mastermind)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/Mastermind)
+* [Toberoni's Solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/mastermind)
 </details>
 
 ### Additional Resources
