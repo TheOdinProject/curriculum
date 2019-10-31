@@ -147,4 +147,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Joe Lee's Solution](https://github.com/JoeDravarol/library) - [View in Browser](https://JoeDravarol.github.io/library)
 - [crongle's Solution](https://github.com/crongle/librio) - [View in Browser](https://crongle.github.io/librio/)
 </details>
+- [Emil Dimitrov's Solution](https://github.com/edmtrv/library) - [View in Browser](https://edmtrv.github.io/library/)
 
