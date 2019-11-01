@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Auza's and Eduardo Reis's Solution](https://github.com/davidauza-engineer/Positioning-and-Floating-Elements) - [View in Browser](https://davidauza-engineer.github.io/Positioning-and-Floating-Elements/)
 * [Gabriel's Solution](https://github.com/gabytzubaws/nyt_article_odin) - [View in Browser](https://gabytzubaws.github.io/nyt_article_odin/)
 * [Kevin Vuong's solution](https://github.com/fffear/positioning_and_floating_elements) - [View in browser](https://fffear.github.io/positioning_and_floating_elements/)
 * [Lucila Pastore's Solution](https://github.com/lucilapastore/new-york-times-clone) - [View in browser](https://lucilapastore.github.io/new-york-times-clone/)

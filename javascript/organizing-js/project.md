@@ -77,5 +77,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
 * [JamCry's solution](https://github.com/jamcry/got2do) - [View in Browser](https://jamcry.github.io/got2do/)
 * [Martink-rsa's solution](https://github.com/martink-rsa/ToDoList) - [View in Browser](https://martink-rsa.github.io/ToDoList/)
+* [dvbridges solution](https://github.com/dvbridges/masterplan) - [View in browser](https://dvbridges.github.io/masterplan/)
 
 </details>
