@@ -178,6 +178,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrey Solodov's solution](https://github.com/solodov-dev/rock-paper-scissors) - [View in Browser](https://solodov-dev.github.io/rock-paper-scissors/)
 - [Akashdeep's Solution](https://github.com/adsk3003/Rock_paper_scissors) - [View in Browser](https://adsk3003.github.io/Rock_paper_scissors/)
 - [mvedataydin's solution](https://github.com/mvedataydin/rock_paper_scissors) - [View in Browser](https://mvedataydin.github.io/rock_paper_scissors/)
+- [Olsi Qatipi's solution](https://github.com/olsi2984/rock_paper_scissors) - [View in Browser](https://olsi2984.github.io/rock_paper_scissors/)
 - [Pointlessrapunzel's console solution](https://github.com/pointlessrapunzel/rock-paper-scissors-console) - [View in Browser](https://pointlessrapunzel.github.io/rock-paper-scissors-console/)
 - [David's solution](https://github.com/david90278/rock_paper_scissors)
 - [Jitendra's solution](https://github.com/jitendrrathore/rock-paper-scissors-game) - [View in Browser](https://jitendrrathore.github.io/rock-paper-scissors-game/)
