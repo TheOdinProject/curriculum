@@ -41,13 +41,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Lexolf's solution](https://github.com/lexolf/rock-paper-scissors-TOP) - [View in Browser](https://lexolf.github.io/rock-paper-scissors-TOP)
+- [Brandon's solution](https://github.com/bstottler/rockpaperscissors)
 - [Ivancito's solution](https://github.com/fivan18/rock-paper-scissors) - [View in Browser](https://fivan18.github.io/rock-paper-scissors/)
 - [Fernis' solution](https://github.com/Menneskefernis/rock-paper-scissors) - [View in Browser](https://menneskefernis.github.io/rock-paper-scissors/)
 - [emackinnon1's Solution](https://github.com/emackinnon1/rock-paper-scissors/blob/master/rps.html)
 - [Branimir's Solution](https://github.com/rijavecb/The-Odin-Project/tree/master/Web-Development-101/rock-paper-scissors)
 - [Brian's Solution](https://github.com/yoobrian77/Rock-Paper-Scissors)
 - [Eric's Solution](https://github.com/evinton1/Full-RPS) - [View in Browser](https://evinton1.github.io/Full-RPS/)
-- [Brooke's Solution](https://github.com/BrookesCodeStuff/rock-paper-scissors)
+- [Brooke's Solution](https://github.com/BrookesCodeStuff/rock-paper-scissors) - [View in Browser] (https://brookescodestuff.github.io/rps-gui/)
 - [Daryll's Solution](https://github.com/daryllrsy/rock-paper-scissors)
 - [Elsmog's Solution](https://github.com/elsmog/rock-paper-scissors)
 - [Hilbert França's Solution](https://github.com/Hilbertmf/LearningWeb/tree/master/the-odin-projects/rock-paper-scissors) - [View in Browser](https://hilbertmf.github.io/projects/rock-paper-scissors/)
