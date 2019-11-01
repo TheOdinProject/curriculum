@@ -131,7 +131,7 @@ For step-by-step instructions, please follow this [installation guide](https://t
 <summary class="dropDown-header">Windows 10 WSL (Not Supported and Not Recommended)
 </summary>
   
-**Please note**: *Windows Subsystem for Linux is **highly discouraged and not recommended** for those unfamiliar with Linux. Specifically, those unfamiliar with with the Command Line. Please consider installing Linux in a virtual machine or dual-boot*.
+**Please note**: *Windows Subsystem for Linux is **highly discouraged and not recommended** for those unfamiliar with Linux and advanced Windows features. Specifically, those unfamiliar with with the Command Line. Please consider installing Linux in a virtual machine or dual-boot*.
 
 Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
