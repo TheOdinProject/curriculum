@@ -40,7 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Brooke's Solution](https://github.com/BrookesCodeStuff/rock-paper-scissors)
+- [C-Squid's solution](https://github.com/C-Squid/JS-Rock-Paper-Scissors)
 - [Lexolf's solution](https://github.com/lexolf/rock-paper-scissors-TOP) - [View in Browser](https://lexolf.github.io/rock-paper-scissors-TOP)
 - [Brandon's solution](https://github.com/bstottler/rockpaperscissors)
 - [Ivancito's solution](https://github.com/fivan18/rock-paper-scissors) - [View in Browser](https://fivan18.github.io/rock-paper-scissors/)
@@ -49,7 +49,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Branimir's Solution](https://github.com/rijavecb/The-Odin-Project/tree/master/Web-Development-101/rock-paper-scissors)
 - [Brian's Solution](https://github.com/yoobrian77/Rock-Paper-Scissors)
 - [Eric's Solution](https://github.com/evinton1/Full-RPS) - [View in Browser](https://evinton1.github.io/Full-RPS/)
-- [Brooke's Solution](https://github.com/BrookesCodeStuff/rock-paper-scissors) - [View in Browser] (https://brookescodestuff.github.io/rps-gui/)
+- [Brooke's Solution](https://github.com/BrookesCodeStuff/rock-paper-scissors) - [View in Browser](https://brookescodestuff.github.io/rps-gui/)
 - [Joshysmart's Solution](https://github.com/joshysmart/rock-paper-scissors) - [View in Browser](https://joshysmart.github.io/rock-paper-scissors/) 
 - [Daryll's Solution](https://github.com/daryllrsy/rock-paper-scissors)
 - [Elsmog's Solution](https://github.com/elsmog/rock-paper-scissors)
