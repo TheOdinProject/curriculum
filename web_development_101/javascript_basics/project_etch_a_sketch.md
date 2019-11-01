@@ -178,6 +178,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Luka Salevic's Solution](https://github.com/Sensanaty/etch_a_sketch) - [View in Browser](https://sensanaty.github.io/etch_a_sketch/)
 * [Amir Farmanara's Solution](https://github.com/Farmanara/etch-a-sketch) - [View in Browser](https://farmanara.github.io/etch-a-sketch)
 * [George Zhu's solution](https://github.com/georgezhu11/etch-a-sketch) - [View in browser](https://georgezhu11.github.io/etch-a-sketch/)
+* [Olsi Qatipi's solution](https://github.com/olsi2984/Etch_a_sketch) - [View in browser](https://olsi2984.github.io/Etch_a_sketch/)
 * [vollantre Solution](https://github.com/vollantre/etch-a-sketch)
 * [evilla-19's Solution](https://github.com/evilla-19/odin-etch-a-sketch) - [View in Browser](https://evilla-19.github.io/odin-etch-a-sketch/index.html)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/etch-a-sketch) - [View in Browser](https://rafedraper.github.io/etch-a-sketch/)
