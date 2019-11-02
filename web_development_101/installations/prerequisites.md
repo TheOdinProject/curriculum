@@ -63,14 +63,14 @@ While your VM is running, do the following steps:
 
   1. Click "Devices" -> "Insert Guest additions CD image" in the menu bar
   2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
-  3. Type the following command into the terminal: `sudo apt install gcc make perl` You will be asked to type in the password you setup earlier. As you type your password, you'll notice there is no visual feedback. This is a security measure. Trust that it is taking you input. (Just type it and then push enter). If an error is thrown, reboot the VM and try the steps in this list again.
-  4. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This may ask you for a password as well.
-  5. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
-  6. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
+  3. Type the following commands into the terminal: `sudo apt-get update`, then `sudo apt-get upgrade`. You will be asked to type in the password you setup earlier. As you type your password, you'll notice there is no visual feedback. This is a security measure. Trust that it is taking you input. (Just type it and then push Enter).
+  4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
+  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password.
+  6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
+  7. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
   
   **NOTE**: 
 
-* If you encounter the error `... E: Package 'make' has no installation candidate` when running the command `sudo apt install gcc make perl`, please run the two following commands and then try again: `sudo apt-get update`, then `sudo apt-get upgrade`.
 * If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
 * If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"), please reboot your host (Windows/OSX) operating system. Afterwards, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM. 
 
