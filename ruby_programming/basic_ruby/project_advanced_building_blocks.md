@@ -732,6 +732,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Adv_Ruby_Building_Blocks/blob/master/my_methods.rb)
 * [Tolulope Olusakin's Solution - Enumerable Module Methods](https://github.com/Oluwadamilareolusakin/ruby-enumerable-module-replica/tree/development)
 * [Miguel's Solution](https://github.com/mapra99/EnnumerableMethods)
+* [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/blob/master/ruby/ruby_programming/enumerable_methods.rb)
 </details>
 
 ### Additional Resources
