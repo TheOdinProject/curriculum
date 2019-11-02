@@ -36,7 +36,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
 * Braxton Lemmon's Solution [Github](https://github.com/braxtonlemmon/caesar_cipher_reloaded) - [Live](https://safe-shelf-68210.herokuapp.com/)
 * Rudi Boshoff's Solution [Github](https://github.com/RudiBoshoff/rails-exercises/tree/master/sinatra/caesar-cipher) - [Live](https://mighty-atoll-97084.herokuapp.com/)
 * Learnsometing's Solution [Github](https://github.com/learnsometing/Sinatra-Caesar_Cipher) - [Live](https://learnsometing-caesar-cipher.herokuapp.com/)
-* Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/caesar_cipher) [Live](https://secure-escarpment-83147.herokuapp.com)
+* Chris Wegscheid's Solution [GitHub](https://github.com/cwegscheid08/caesar_cipher) - [Live](https://secure-escarpment-83147.herokuapp.com)
 * Smetanca52's Solution [GitHub](https://github.com/Smetanca52/sinatra_project) - [Live](https://boiling-refuge-38884.herokuapp.com/)
 * Jason McKee's Solution [GitHub](https://github.com/jttmckee/sinatra-caesar-cipher) - [Live](https://limitless-wave-11721.herokuapp.com)
 * Stefano Merazzi's Solution [GitHub](https://github.com/ste001/caesar-cipher-reloaded) - [Live](https://fathomless-savannah-14730.herokuapp.com/)
