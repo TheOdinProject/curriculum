@@ -21,6 +21,8 @@ We use a fork-and-pull method to accept pull requests.
 1. Add, commit, and push to your local fork on Github
 1. Submit a PR back to the `python-course` branch on Github
 
+![Select python-course](https://imgur.com/OgIZa4Y.png)
+
 ## If you've already made a request
 
 1. Update your local repository
@@ -34,6 +36,8 @@ We use a fork-and-pull method to accept pull requests.
  ```
 1. Add, commit, and push to your local fork on Github
 1. Submit a PR back to the `python-course` branch on Github
+
+![Select python-course](https://imgur.com/OgIZa4Y.png)
 
 ## Questions? Comments? Trouble?
 
