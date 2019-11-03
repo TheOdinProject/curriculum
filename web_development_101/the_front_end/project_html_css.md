@@ -89,6 +89,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Vince Nguyen's Solution (Easy)](https://github.com/vincengocnguyen/google-homepage) - [View in Browser](https://vincengocnguyen.github.io/google-homepage/)
+* [Hae Choi's Solution (Difficult)](https://github.com/cognis006/google-results) - [View in Browser](https://cognis006.github.io/google-results/)
 * [C-Squid's solution(Easy)](https://github.com/C-Squid/google-homepage)
 * [Nasius's Solution (Easy)](https://github.com/Nasius/google-homepage) - [View in Browser](https://nasius.github.io/google-homepage/)
 * [Alex's solution (Easy)](https://github.com/AlexOk564/google-homepage)
