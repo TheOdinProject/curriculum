@@ -12,7 +12,7 @@ Folks, we're here to tell you there *IS* a better way. Hoping is for that exam y
 
 ### What is Test-Driven Development?
 
-[Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) is a process and technique of software development that relies on the repetition of a very short and specific development cycle. In each cycle, requirements (i.e., what you want your code to do) are turned into specific test cases first. These requirements could be anything from an entire feature that requires end-to-end (E2E) testing, such as a tests that cover a user logging into your website succesfully AND unsuccessfully, to a new Ruby class you've devised, for which unit tests might suffice. Either way, the test suite for these requirements fail initially, since actual code hasn't been written yet. 
+[Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) is a process and technique of software development that relies on the repetition of a very short and specific development cycle. In each cycle, requirements (i.e., what you want your code to do) are turned into specific test cases first. These requirements could be anything from an entire feature that requires end-to-end (E2E) testing, such as a tests that cover a user logging into your website successfully AND unsuccessfully, to a new Ruby class you've devised, for which unit tests might suffice. Either way, the test suite for these requirements fail initially, since actual code hasn't been written yet. 
 
 Once the code is written and passes our test suite, you can move onto refactoring. As you might have guessed, running the test suite against the changes we make to our features or units enables us to refactor *while* making sure everything still works.
 

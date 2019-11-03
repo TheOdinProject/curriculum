@@ -37,7 +37,7 @@ Write tests for the following functions, and then make the tests pass!
 
 The current version of Jest as it is does not recognize the import statement. In order for you to be able to use ES6 modules for this project you may do the following:
 
-1. Install the @babel/preset-env pacakge
+1. Install the @babel/preset-env package
 
 
 ```
