@@ -2576,6 +2576,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JohnUrb's Solution (Easy)](https://github.com/johnurb/google-homepage) - [View in Browser](https://johnurb.github.io/google-homepage/)
 * [Matthew's Solution (Easy)](http://github.com/mtelks10/google-homepage) - [View in Browser](https://mtelks10.github.io/google-homepage)
 * [SwifferWarrior's Solution (Easy)](http://github.com/swifferwarrior/google-homepage) - [View in Browswer](https://swifferwarrior.github.io/google-homepage)
+* [Brittany's Solution (Easy)](https://github.com/LINDGRENBA/google-homepage) - [View in Browser](https://lindgrenba.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
