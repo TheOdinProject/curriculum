@@ -318,7 +318,7 @@ git push origin master
 
 #### Step 3.7: Push to Heroku
 
-Now that we've commited the files, we can push to Heroku:
+Now that we've committed the files, we can push to Heroku:
 
 ~~~bash
 git push heroku master
