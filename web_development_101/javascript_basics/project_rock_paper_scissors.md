@@ -40,10 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Oscar's Solution](https://github.com/lookupforsirius/rock-paper-sissors) - [View in Browser](https://lookupforsirius.github.io/rock-paper-sissors/)
-- [Elsmog's Solution] (https://github.com/elsmog/rock-paper-scissors)
-=======
 - [Joe B's solution](https://github.com/JosephPBallantyne/odinProject/tree/master/rockPaperScissors)
 - [C-Squid's solution](https://github.com/C-Squid/JS-Rock-Paper-Scissors)
 - [Lexolf's solution](https://github.com/lexolf/rock-paper-scissors-TOP) - [View in Browser](https://lexolf.github.io/rock-paper-scissors-TOP)
@@ -58,7 +55,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joshysmart's Solution](https://github.com/joshysmart/rock-paper-scissors) - [View in Browser](https://joshysmart.github.io/rock-paper-scissors/) 
 - [Daryll's Solution](https://github.com/daryllrsy/rock-paper-scissors)
 - [Elsmog's Solution](https://github.com/elsmog/rock-paper-scissors)
->>>>>>> 8819f99f814cb19ab7af95df6bd59e1e950c3c01
 - [Hilbert França's Solution](https://github.com/Hilbertmf/LearningWeb/tree/master/the-odin-projects/rock-paper-scissors) - [View in Browser](https://hilbertmf.github.io/projects/rock-paper-scissors/)
 - [Will's Solution](https://github.com/GroverW/projects/tree/master/rock-paper-scissors)
 - [Robin's Solution](https://github.com/CoolGlasses/Rock-Paper-Scissors-Game) - [View in Browser](https://coolglasses.github.io/Rock-Paper-Scissors-Game/) 
