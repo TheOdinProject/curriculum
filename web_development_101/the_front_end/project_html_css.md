@@ -2246,7 +2246,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [DB17889's Solution (Hard)](https://github.com/DB17889/google-results) - [View in Browser](https://db17889.github.io/google-results/)
 * [Muhymenul's Solution (Easy)](https://github.com/muhymenulhaque/google-homepage) - [View in Browser](https://muhymenulhaque.github.io/google-homepage/)
 * [Colleen Higgins's Solution (Easy)](https://coggins87.github.io/google-homepage/) - [View in Browser](https://coggins87.github.io/google-homepage/)
-* [Jeremy's Solution (Easy)](https://ulysses78.github.io/google-homepage/) - [View in Browser](https://ulysses78.github.io/google-homepage/)
+* [Jeremy Bottorff's Solution (Easy)](https://github.com/Ulysses78/google_test) - [View in Browser](https://github.com/Ulysses78/google_test)
 * [Sanyogita's Solution (Hard)](https://github.com/SanyogitaPandit/google_homepage) - [View in Browser](https://sanyogitapandit.github.io/google_homepage/)
 * [Minimal's Solution (Easy)](https://github.com/ivahub/google-homepage) - [View in Browser](https://ivahub.github.io/google-homepage/)
 * [Minimal's Solution (Difficult)](https://github.com/ivahub/google-results/) - [View in Browser](https://ivahub.github.io/google-results/)
