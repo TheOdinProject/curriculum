@@ -36,6 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Eljoey's Solution](https://github.com/eljoey/Basic_Node_Site)
 - [Vedat's Solution](https://github.com/mvedataydin/initiate-node) - [View in browser](https://repl.it/@mvedataydin/initiate-node)
 - [Henry Kirya's](https://github.com/harrika/nodemo) - [View in browser](https://repl.it/@HenryKirya/nodemo)
 - [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/basic_node_site)
@@ -52,5 +53,7 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [ericzlmd's Solution](https://github.com/ericzlmd/The-Odin-Project---NodeJS)
 - [GustavoRdz's Solution](https://github.com/GustavoRdz/odin-nodejs/tree/master/basic-informational-site)
 - [Viho Serge](https://github.com/VihoSerge/node-simple-website/blob/master/index.js)
+- [Avic Ndugu](https://repl.it/repls/AuthenticRepulsiveCells) - [View in browser](https://authenticrepulsivecells--five-nine.repl.co/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/first-node-site)
 
 </details>
