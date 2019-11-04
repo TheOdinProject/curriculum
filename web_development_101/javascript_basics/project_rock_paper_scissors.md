@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Oscar's Solution](https://github.com/lookupforsirius/rock-paper-sissors) - [View in Browser](https://lookupforsirius.github.io/rock-paper-sissors/)
 - [Joe B's solution](https://github.com/JosephPBallantyne/odinProject/tree/master/rockPaperScissors)
 - [C-Squid's solution](https://github.com/C-Squid/JS-Rock-Paper-Scissors)
 - [Lexolf's solution](https://github.com/lexolf/rock-paper-scissors-TOP) - [View in Browser](https://lexolf.github.io/rock-paper-scissors-TOP)
@@ -990,4 +991,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vishnu's Solution](https://github.com/vishnuchandrappan/rock-paper-scissors) - [View in Browser](https://vishnuchandrappan.github.io/rock-paper-scissors/)
 - [RafaellSerra's Solution](https://github.com/RafaellSerra/rock-paper-scissors) - [View in Browser](https://rafaellserra.github.io/rock-paper-scissors/)
 - [Shane Gilbert's Solution](https://github.com/shanedgilbert/RockPaperScissors) - [View in Browser](https://shanedgilbert.github.io/RockPaperScissors/)
+- [fernandopaz1's Solution](https://github.com/fernandopaz1/rock-paper-scissors) - [View in Browser](https://fernandopaz1.github.io/rock-paper-scissors/)
 </details>
