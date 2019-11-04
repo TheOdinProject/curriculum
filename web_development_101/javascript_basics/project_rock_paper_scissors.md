@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Oscar's Solution](https://github.com/lookupforsirius/rock-paper-sissors) - [View in Browser](https://lookupforsirius.github.io/rock-paper-sissors/)
 - [Elsmog's Solution] (https://github.com/elsmog/rock-paper-scissors)
 - [Hilbert França's Solution](https://github.com/Hilbertmf/LearningWeb/tree/master/the-odin-projects/rock-paper-scissors) - [View in Browser](https://hilbertmf.github.io/projects/rock-paper-scissors/)
 - [Will's Solution](https://github.com/GroverW/projects/tree/master/rock-paper-scissors)
