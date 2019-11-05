@@ -22,6 +22,15 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Raiko's solution](https://github.com/Cypher0/project-html-forms) - [View in browser](https://cypher0.github.io/project-html-forms/)
+* [David Auza's and Eduardo Reis's solution](https://github.com/eduardoreisalvarenga/HTML-Forms.github.io) - [View in browser](https://eduardoreisalvarenga.github.io/HTML-Forms.github.io/)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/mint-clone) - [View in browser](https://braxtonlemmon.github.io/mint-clone/)
+* [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/mint-form-clone) - [View in browser](https://kikupiku.github.io/mint-form-clone/)
+* [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/02-Displaying_And_Inputting_Data/html-forms) - [View in browser](https://gradiva.github.io/mint-form-clone/)
+* [Gabriel's Solution](https://github.com/gabytzubaws/mint-signup-page) - [View in browser](https://gabytzubaws.github.io/mint-signup-page/)
+* [Kevin Vuong's solution](https://github.com/fffear/html-forms) - [View in browser](https://fffear.github.io/html-forms/)
+* [Vedat's solution](https://github.com/mvedataydin/signup-form) - [View in browser](https://mvedataydin.github.io/signup-form/)
+* [Solodov's solution](https://github.com/solodov-dev/top-forms) - [View in browser](https://solodov-dev.github.io/top-forms/)
 * [David Tan's solution](https://github.com/davecmd/mint-login-replica/) - [View in browser](https://davecmd.github.io/mint-login-replica/)
 * [Lucila Pastore's solution](https://github.com/lucilapastore/HTML-Forms) - [View in browser](https://lucilapastore.github.io/HTML-Forms/)
 * [Jitendra Rathore's solution](https://github.com/jitendrrathore/html-form) - [View in browser](https://jitendrrathore.github.io/html-form/)
@@ -133,6 +142,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex Gioffre's solution](https://github.com/AlexGioffre/form_html) - [View in Browser](https://alexgioffre.github.io/form_html/index.html)
 * [Dolunaykiz's solution](https://github.com/dolunaykiz/mint-mockup) - [View in Browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/mint-mockup/blob/master/index.html)
 * [Halkim's solution](https://github.com/halkim44/mint.com-signup-rebuild) - [View in Browser](http://halkim44.github.io/mint.com-signup-rebuild/)
+* [Mihai Negrisan's solution](https://github.com/mihainegrisan/mint-s-sign-in-page-replica) - [View in Browser](https://mihainegrisan.github.io/mint-s-sign-in-page-replica/index.html)
+* [Aron's solution](https://github.com/aronfischer/Mint-sign-up-page) - [View in Browser](https://aronfischer.github.io/Mint-sign-up-page/)
 </details>
 
 ### Additional Resources

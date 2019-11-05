@@ -490,3 +490,6 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 * [An introduction to DOM](https://leila-alderman.github.io/javascript/2018/12/05/Intro-to-the-Document-Object-Model.html)
 * If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
 * This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
+* [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media. 
+* [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. 
+* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by Digital Ocean. 

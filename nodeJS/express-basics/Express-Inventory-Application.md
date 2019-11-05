@@ -28,6 +28,7 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/inventory) - [View in browser](https://inventoryapp--briantuju.repl.co)
-
+- [rbkjefkj's Solution](https://github.com/rbkjefkj/inventory-app) - [View in browser](https://glacial-mountain-36822.herokuapp.com/)
+- [jdonahue135's Solution](https://github.com/jdonahue135/golf_store) - [View in browser](https://quiet-reaches-49920.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/odin-inventory-application) - [View in browser](https://aqueous-plateau-09755.herokuapp.com/)
 </details>

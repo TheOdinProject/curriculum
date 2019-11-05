@@ -22,6 +22,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nikolas Broman's solutions](https://github.com/nikolasbroman/testing_rspec)
+* Ian's Solutions: [Caesar Cipher](https://github.com/IanMKesler/practice/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/IanMKesler/practice/tree/master/enumerable), [Tic Tac Toe](https://github.com/IanMKesler/Tic-Tac-Toe)
 * Alain Suarez's Solution: [Caesar Cipher](https://gitlab.com/asuar/ruby-building-blocks/blob/master/spec/caesar-cipher_spec.rb), [Enumerable Methods](https://gitlab.com/asuar/ruby-advanced-building-blocks/blob/master/spec/my-enumerable_spec.rb), [Tic Tac Toe](https://gitlab.com/asuar/ruby-tic-tac-toe/tree/master/spec)
 * Vollantre's Solution: [Caesar Cipher](https://github.com/vollantre/ruby_basic/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/vollantre/ruby_basic/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/vollantre/Tic_Tac_Toe/tree/master/spec)
 * Kevin Vuong's Solution: [Caesar Cipher](https://github.com/fffear/caesar_cipher), [Enumerable Methods](https://github.com/fffear/enumerable), [Tic Tac Toe](https://github.com/fffear/tic_tac_toe)
@@ -127,6 +129,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/connect_four_TDD)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
 * [Chirs' Solution](https://github.com/CSalois114/project_connect_four)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/connect-four)
@@ -235,6 +238,7 @@ connect_four)
 * [Rey van den Berg's solution](https://github.com/Rey810/ruby-connect4)
 * [Ben Fowler's solution](https://github.com/benfowler04/connect-four) - [Play on repl.it](https://repl.it/@BenFowler/Connect-Four)
 * [Ray Alvarez's solution](https://github.com/ray-alvarez/connect_four)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/connect_four_game) - [Play on repl.it](https://repl.it/@SergejJurchenko/connectfourgame)
 </details>
 
 ### Additional Resources

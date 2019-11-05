@@ -35,12 +35,15 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [bollinca's Solution](https://github.com/bollinca/to-do-list) - [View in Browser](https://bollinca.github.io/to-do-list/)
+* [ejoflo's Solution](https://github.com/ejoflo/to_do_list) - [View in Browser](https://ejoflo.github.io/to_do_list/)
+* [miang's solution](https://github.com/miang99/todolist) - [View in Browser](https://miang99.github.io/todolist/)
 * [Igorashs's Solution](https://github.com/igorashs/todo-list) - [View in Browser](https://igorashs.github.io/todo-list/)
 * [Jacavena's Solution](https://github.com/Jacavena/todo-list) - [View in Browser](https://jacavena.github.io/todo-list/)
 * [Bojo's Solution](https://github.com/BojoZahariev/ToDo) - [View in Browser](https://bojozahariev.github.io/ToDo/)
 * [Solodov Solution](https://github.com/solodov-dev/do) - [View in Browser](https://solodov-dev.github.io/do/)
 * [Vedat's Solution](https://github.com/mvedataydin/todo-list) - [View in Browser](https://mvedataydin.github.io/todo-list/)
-* [Joey Van Lierop's Solution](https://github.com/bananashavings/todo-list) - [View in Browser](https://bananashavings.github.io/todo-list/)
+* [Joey Van Lierop's Solution](https://github.com/joeyvanlierop/todo-list) - [View in Browser](https://joeyvanlierop.github.io/todo-list/)
 * [ELjoey's Solution](https://github.com/eljoey/Todo-List) - [View in Browser](https://eljoey.github.io/Todo-List/)
 * [Djo1e's solution](https://github.com/Djo1e/Todo) - [View in browser](https://djo1e.github.io/Todo/)
 * [Henry Kirya's Solution](https://github.com/harrika/todo-list) - [View in browser](https://harrika.github.io/todo-list/)
@@ -73,5 +76,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/fcarlosdev.github.io/tree/master/todo-app) - [View in browser](https://fcarlosdev.github.io/todo-app/)
 * [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
 * [JamCry's solution](https://github.com/jamcry/got2do) - [View in Browser](https://jamcry.github.io/got2do/)
+* [Martink-rsa's solution](https://github.com/martink-rsa/ToDoList) - [View in Browser](https://martink-rsa.github.io/ToDoList/)
+* [dvbridges solution](https://github.com/dvbridges/masterplan) - [View in browser](https://dvbridges.github.io/masterplan/)
 
 </details>

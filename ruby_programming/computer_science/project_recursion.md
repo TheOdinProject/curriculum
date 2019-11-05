@@ -16,6 +16,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Uzay-G's solution](https://github.com/Uzay-G/recursive/blob/master/merge_sort.rb)
+* [Rafe Draper's solution](https://github.com/rafeDraper/ruby_exercises/blob/master/recursion_exercises/recursion_template.rb)
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/fibonacci)
 * [Ian's Solution](https://github.com/IanMKesler/fibonacci/blob/master/fibonacci.rb)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
 * [Chris' Solution](https://github.com/CSalois114/project_recursion/blob/master/recursion.rb)
@@ -233,6 +236,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/merge_sort)
+* [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_exercises/blob/master/recursion_exercises/merge_sort.rb)
 * [Ian's Solution](https://github.com/IanMKesler/merge_sort/blob/master/merge_sort.rb)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/Recursion/blob/master/merge_sort.rb)
@@ -249,7 +254,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Chris Wegscheid's solution](https://github.com/cwegscheid08/recursive)
 * [Stefano Merazzi's solution](https://github.com/ste001/ruby-exercises/blob/master/computer_science/merge_sort.rb)
 * [Smetanca52's Solution](https://github.com/Smetanca52/ruby_exercices/blob/master/merge_sort.rb)
-* [Dreniak's Solution](https://gist.github.com/Dreniak/9b2b10c2c117b735b2d381b5104af254) - With normal sort time comparation!
+* [Dreniak's Solution](https://gist.github.com/Dreniak/9b2b10c2c117b735b2d381b5104af254) - With normal sort time comparison!
 * [Mohamed Elattar Solution](https://github.com/mohamed-elattar/odin-project-recursion/blob/master/merge_sort.rb)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/Merge%20Sort.rb)
 * [Nathan Sherburne's solution](https://github.com/nathansherburne/ruby_practice/blob/master/merge_sort.rb)

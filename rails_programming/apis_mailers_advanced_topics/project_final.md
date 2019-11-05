@@ -59,8 +59,11 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Learnsometing's solution](https://github.com/learnsometing/dev-communities)| [Live](https://dev-communities.herokuapp.com/)
-* [Jason McKee's solution](https://github.com/jttmckee/odin-facebook) | [Live](https://safe-sierra-89344.herokuapp.com)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-facebook) - [Live](https://murmuring-wave-95625.herokuapp.com/)
+* [Helmi's Solution](https://github.com/helmihidzir/odin-facebook)
+* [Kevin Vuong's solution](https://github.com/fffear/odin-facebook/) - [Live](https://shielded-mesa-75331.herokuapp.com/)
+* [Learnsometing's solution](https://github.com/learnsometing/dev-communities) - [Live](https://dev-communities.herokuapp.com/)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-facebook) - [Live](https://safe-sierra-89344.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Growlither) - [View in Browser](https://growlithe.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-facebook) - [View in Browser](https://vast-springs-17117.herokuapp.com/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Life-Invader) - [View in Browser](https://life-invader-fb.herokuapp.com/)
@@ -119,7 +122,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ryan's and Dipto's solution](https://github.com/dipto0321/facialbook) - [View in browser](https://facials.herokuapp.com/)
 * [vanny96's solution](https://github.com/vanny96/fakebook) - [View in browser](https://rocky-ravine-56988.herokuapp.com)
 * [JamCry's Solution](https://github.com/jamcry/rails-facebook) - [View in browser](https://protected-anchorage-21926.herokuapp.com/)
-
+* [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/the-pub) - [View in browser](https://thepub-io.herokuapp.com)
 </details>
 
 ### Additional Resources
