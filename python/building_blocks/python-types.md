@@ -64,7 +64,7 @@ True. Words are stored as <b>strings.</b>
 
 
 <details>
-<summary>2. The number 42 is a/an ______ </summary>
+<summary>2. The number 42 is a ____________ </summary>
 <br>
 The number 42 is an <b>integer</b>
 </details>
