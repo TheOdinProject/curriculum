@@ -83,6 +83,12 @@ False. We use <b>lists</b> and <b>dictionaries</b> to store organized data
 False. The number 8.42 is a <b>float</b>
 </details>
 
+<details>
+<summary>5. T/F: This question is a <b>boolean</b></summary>
+<br>
+True. True/False questions are <b>boolean</b> values.
+</details>
+
 ### Conclusion
 
-These 5 python types are the most important building blocks of any programming language. Knowing when to use a float over an integer or a dictionary over a list is a key concept that you can guarantee you'll be asked about in an interview when the time comes.
+These 6 python types are the most important building blocks of any programming language. Knowing when to use a float over an integer or a dictionary over a list is a key concept that you can guarantee you'll be asked about in an interview when the time comes.
