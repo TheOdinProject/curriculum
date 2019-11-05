@@ -476,6 +476,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Anna Olak's Solution](https://github.com/anna1901/ruby_building_blocks_exercises/blob/master/caesar_cipher.rb)
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/blob/master/ruby/ruby_programming/caesar_cipher.rb)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/caeser)
+* [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/tree/master/caesar)
 </details>
 
 ### Project 2: Stock Picker
