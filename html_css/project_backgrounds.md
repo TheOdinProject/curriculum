@@ -24,6 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/apple-clone) - [View in Browser](https://braxtonlemmon.github.io/apple-clone/)
 * [David Auza's Solution](https://github.com/davidauza-engineer/Building-with-Backgrounds-and-Gradients) - [View in Browser](https://davidauza-engineer.github.io/Building-with-Backgrounds-and-Gradients/)
 * [Kevin Vuong's solution](https://github.com/fffear/apple-clone) - [View in Browser](https://fffear.github.io/apple-clone/)
 * [Gabriel's solution](https://github.com/gabytzubaws/old-apple-odin) - [View in Browser](https://gabytzubaws.github.io/old-apple-odin/)
