@@ -1322,4 +1322,5 @@ Next, make sure your method can handle multiple words:
 * [Anna Olak's Solution](https://github.com/anna1901/ruby_building_blocks_exercises/blob/master/substrings.rb)
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/blob/master/ruby/ruby_programming/substrings.rb)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/substrings/blob/master/substrings.rb)
+* [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/blob/master/substrings/substrings.rb)
 </details>
