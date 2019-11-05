@@ -996,4 +996,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Soumya Ghosh's Solution](https://github.com/ghosht1999/R_P_S) - [View in Browser](https://github.com/ghosht1999/R_P_S)
 - [fernandopaz1's Solution](https://github.com/fernandopaz1/rock-paper-scissors) - [View in Browser](https://fernandopaz1.github.io/rock-paper-scissors/)
 - [Sepharvaim's Solution](https://github.com/sepharvaim/Rock-paper-scissors)
+- [Travis's Solution](https://github.com/travisreiter/rockPaperScissors)
 </details>
