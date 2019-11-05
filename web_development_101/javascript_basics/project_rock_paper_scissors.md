@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Hans Nery's Solution](https://github.com/hansnery/jokenpo) - [View in Browser](https://hansnery.github.io/jokenpo/)
 - [Oscar's Solution](https://github.com/lookupforsirius/rock-paper-sissors) - [View in Browser](https://lookupforsirius.github.io/rock-paper-sissors/)
 - [Joe B's solution](https://github.com/JosephPBallantyne/odinProject/tree/master/rockPaperScissors)
 - [C-Squid's solution](https://github.com/C-Squid/JS-Rock-Paper-Scissors)
