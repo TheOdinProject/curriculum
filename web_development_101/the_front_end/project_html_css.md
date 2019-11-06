@@ -2580,6 +2580,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Brittany's Solution (Easy)](https://github.com/LINDGRENBA/google-homepage) - [View in Browser](https://lindgrenba.github.io/google-homepage/)
 * [JeffreyLubin's Solution (Easy)](https://https://jeffreylubin.github.io/google-homepage/) - [View in Browser](https://https://jeffreylubin.github.io/google-homepage/)
 * [Codeslav's Solution (Both)](https://github.com/codeslav/google-homepage) - [View in Browser](https://codeslav.github.io/google-homepage/)
+* [NicolasPaulRamirezMoreale's Solution (Easy)](https://github.com/nramrezmoreale/google-homepage.git) - [View in Browser](https://github.com/nramrezmoreale/google-homepage.git)
+
+
 </details>
 
 ### Additional Resources
