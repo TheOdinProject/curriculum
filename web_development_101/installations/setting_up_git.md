@@ -123,5 +123,5 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
-Go to [that link](https://help.github.com/en/articles/testing-your-ssh-connection) and verify everything matches up, if it doesn't try doing these steps again, or come to the discord chat for help. 
+Go to [this article](https://help.github.com/en/articles/testing-your-ssh-connection) and verify everything matches up, if it doesn't try doing these steps again, or come to the discord chat for help. 
 
