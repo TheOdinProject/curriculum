@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kris Tobiasson's solution](https://github.com/highpockets/books.git) - [View in Browser](https://highpockets.github.io/books/)
 - [Julio's solution](https://github.com/julio22b/library-top) - [View in Browser](https://julio22b.github.io/library-top/)
 - [Michael Horn's Solution](https://github.com/HornMichaelS/odin-library) - [View in Browser](https://hornmichaels.github.io/odin-library/)
 - [Anmol's Solution](https://github.com/6point022/my-library-app) - [View in Browser](https://6point022.github.io/my-library-app/)
