@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [disco-coder's Solution](https://github.com/disco-coder/etch-a-sketch) - [View in Browser](https://disco-coder.github.io/etch-a-sketch/)
 * [Will's Solution](https://github.com/GroverW/site/tree/master/projects/etch-a-sketch) - [View in Browser](https://groverw.github.io/site/projects/etch-a-sketch/index.html)
 * [Noelle's Solution](https://github.com/elleon003/etch-a-sketch) - [View in Browser](https://elleon003.github.io/etch-a-sketch/)
 * [Helmi's Solution](https://github.com/helmihidzir/odin_etch_a_sketch) - [View in Browser](https://helmihidzir.github.io/odin_etch_a_sketch/)
