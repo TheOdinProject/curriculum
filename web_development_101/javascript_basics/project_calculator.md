@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Robin's Solution](https://github.com/CoolGlasses/calculator) - [View in Browser](https://coolglasses.github.io/calculator/)
 - [MikkRou's Solution](https://github.com/MikkRou/calculator) - [View in Browser](https://mikkrou.github.io/calculator/)
 - [Kristi Dugan's Solution](https://github.com/KristiDugan/calculator) - [View in Browser](https://kristidugan.github.io/calculator/)
 - [Cody's Solution](https://github.com/codydegen/calculator) - [View in Browser](https://codydegen.github.io/calculator/)
@@ -417,4 +418,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bohledevs's Solution](https://github.com/bohledevs/Calculator) - [View in Browser](https://bohledevs.github.io/Calculator/)
 - [Sher's Solution](https://github.com/sher-s7/calculator) - [View in Browser](https://sher-s7.github.io/calculator/)
 - [Chucksef's Solution](https://github.com/chucksef/calculator) - [View in Browser](https://chucksef.github.io/calculator/)
+- [Nigel Volkmanns Solution](https://github.com/Nekolike/Calculator) - [View in Browser](https://nekolike.github.io/Calculator/)
 </details>

@@ -98,4 +98,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Martink-rsa's Solution](https://github.com/martink-rsa/tic_tac_toe/) - [View in Browser](https://martink-rsa.github.io/tic_tac_toe/)
 - [Joe Lee's Solution](https://github.com/joedravarol/tic_tac_toe) - [View in Browser](https://joedravarol.github.io/tic_tac_toe/)
 - [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/tic_tac_toe)
+- [Andrécio's Solution](https://github.com/andreciobezerra/tic-tac-toe) - [View in Browser](https://andreciobezerra.github.io/tic-tac-toe/)
 </details>

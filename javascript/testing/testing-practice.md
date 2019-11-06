@@ -61,6 +61,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Igorashs's solution](https://github.com/igorashs/tdd-jest-practice)
 - [Vedat's solution](https://github.com/mvedataydin/tdd-jest)
 - [Ben's solution](https://github.com/Koshoo/jest-testing-practice)
 - [Solodov's solution](https://github.com/solodov-dev/top-js-tdd)
