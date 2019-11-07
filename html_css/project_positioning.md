@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's solution](https://github.com/Cabonilla/nyt_replica) - [View in Browser](https://cabonilla.github.io/nyt_replica/)
 * [Braxton's solution](https://github.com/braxtonlemmon/nyt-clone) - [View in Browser](https://braxtonlemmon.github.io/nyt-clone/)
 * [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/03-CSS/01-Positioning_and_Floating_Elements/ny-times-clone) - [View in Browser](https://gradiva.github.io/ny-times-clone/)
 * [David Auza's and Eduardo Reis's Solution](https://github.com/davidauza-engineer/Positioning-and-Floating-Elements) - [View in Browser](https://davidauza-engineer.github.io/Positioning-and-Floating-Elements/)
