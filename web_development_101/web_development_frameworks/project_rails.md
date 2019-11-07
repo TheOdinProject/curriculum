@@ -425,6 +425,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [TuSeMorte's solution](https://github.com/TuSeMorte/blogger) - [View in Browser](https://hidden-escarpment-21981.herokuapp.com/)
 * [David Watkin's solution](https://github.com/DavidWatkinCode/blogger) - [View in browser](https://whispering-harbor-45352.herokuapp.com/)
 * [Robert Suazo's solution](https://github.com/rsuazo/blogger) - [View in browser](https://morning-gorge-75442.herokuapp.com/)
+* [DalandanJuice's solution](https://github.com/DalandanJuice/rails_blogger) - [View in browser](https://pacific-escarpment-46091.herokuapp.com/)
+
 </details>
 
 ### Additional Resources
