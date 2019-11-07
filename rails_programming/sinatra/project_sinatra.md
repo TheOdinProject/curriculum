@@ -29,6 +29,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
 
 * Add your solution below this line!
 * Vedant's Solution [Github](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/Sinatra/Caesar%20Cipher) - [Live](https://whispering-stream-93717.herokuapp.com/)
+* Ians Solution [Github](https://github.com/IanMKesler/caesar_cipher) - [Live](https://stark-scrubland-86790.herokuapp.com)
 * Chris' Solution [Github](https://github.com/CSalois114/project_caesar_cipher) - [Live](https://mysterious-badlands-40427.herokuapp.com/)
 * Uzay-G's solution [Github](https://github.com/Uzay-G/simple-cipher) - [Live](https://caesar-ciphers.herokuapp.com/)
 * Onur Temiz's Solution [Github](https://github.com/temizonur/ceasar_cipher) - [Heroku](https://afternoon-taiga-26969.herokuapp.com/)
@@ -149,6 +150,7 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Ian's Solution (Mastermind) [Github](https://github.com/IanMKesler/sinatra_mastermind)
 * J C Gollnick's Solution (Hangman) [GitLab](https://gitlab.com/jcgollnick/hangman) [Live](http://www.jcgollnick.vip/hangman)
 * Sherman's Solution [Github](https://github.com/shermansjliu/sinatra) - [Live](https://radiant-beach-22046.herokuapp.com)
 * Kevin Vuong's Solution [Github](https://github.com/fffear/sinatra_hangman) - [Live](https://immense-basin-91290.herokuapp.com/)
