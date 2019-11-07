@@ -2589,6 +2589,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ulamtrees' Solution (Easy)](https://github.com/ulamtrees/google-homepage) - [View in Browser](https://ulamtrees.github.io/google-homepage/)
 * [Allen Alvarado's Solution (Easy)](https://github.com/506allen/google-homepage)
 * [Kieran Holland's Solution (Easy)](https://github.com/kie96/google-homepage) - [View in Browser](https://kie96.github.io/google-homepage/)
+* [Vadevious' Solution (Easy)](https://github.com/Vadevious/google-homepage) - [View in Browser](https://vadevious.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
