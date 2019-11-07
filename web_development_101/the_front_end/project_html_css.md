@@ -2584,6 +2584,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Maggie's Solution (Easy)](https://mag-goertzen.github.io/google-homepage/) - [View in Browser](https://mag-goertzen.github.io/google-homepage/)
 * [Codeslav's Solution (Both)](https://github.com/codeslav/google-homepage) - [View in Browser](https://codeslav.github.io/google-homepage/)
 * [NicolasPaulRamirezMoreale's Solution (Easy)](https://github.com/nramrezmoreale/google-homepage.git) - [View in Browser](https://github.com/nramrezmoreale/google-homepage.git)
+* [Abdel's Solution (Easy)](https://github.com/abdelp/google-homepage) - [View in Browser](https://abdelp.github.io/google-homepage/)
+* [Vicmi-Dev's Solution (Both)](https://github.com/vicmi-dev/google-homepage) - [View in Browser](https://vicmi-dev.github.io/google-homepage/)
+* [ulamtrees' Solution (Easy)](https://github.com/ulamtrees/google-homepage) - [View in Browser](https://ulamtrees.github.io/google-homepage/)
+* [Allen Alvarado's Solution (Easy)](https://github.com/506allen/google-homepage)
+* [Kieran Holland's Solution (Easy)](https://github.com/kie96/google-homepage) - [View in Browser](https://kie96.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

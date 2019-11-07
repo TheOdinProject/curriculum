@@ -26,6 +26,7 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
 * [rvalentin1010's solution](https://github.com/rvalentin1010/rvalentin1010.github.io) - [View in Browser](https://rvalentin1010.github.io/)
 * [thghall's solution](https://github.com/theghall/portfolio) - [View in Browser](https://theghall.github.io/portfolio/)
 * [David Chapman's solution - Source Code](https://github.com/davidchappy/wp-portfoliosite) - [Live website](http://portfolio.dachapman.com/)
+* [Dennis Cope's solution - Live website](https://coped.dev/)
 * [Eric Gonzalez solution - Source Code](https://github.com/Twinpair/Personal-Website) - [Live website](https://www.eric-gonzalez.com/)
 * [Jonathan Yiv's solution Source Code](https://github.com/JonathanYiv/jonathanyiv.github.io) - [Live website](https://jonathanyiv.github.io)
 * [Brian Kang's solution - Source Code](https://github.com/bhkangw/PersonalPortfolio) - [Live website](https://www.briankang.co/)
