@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Maggie's Solution](https://mag-goertzen.github.io/rock-paper-scissors/.) - [View in Browser](https://mag-goertzen.github.io/rock-paper-scissors/.)
 - [Shane Avila's Solution](https://github.com/shaneavila/rock-paper-scissors) - [View in Browser](https://shaneavila.github.io/rock-paper-scissors/)
 - [Hans Nery's Solution](https://github.com/hansnery/jokenpo) - [View in Browser](https://hansnery.github.io/jokenpo/)
 - [Oscar's Solution](https://github.com/lookupforsirius/rock-paper-sissors) - [View in Browser](https://lookupforsirius.github.io/rock-paper-sissors/)
