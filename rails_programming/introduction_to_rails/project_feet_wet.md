@@ -30,6 +30,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's solution](https://github.com/IanMKesler/rails_toy_app) - [Live](https://whispering-journey-28034.herokuapp.com)
 * [Sherman's Solution](https://github.com/shermansjliu/toy-app)
 * [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/toy_app) - [Live](https://evening-basin-88314.herokuapp.com/)
 * [Carlos Diaz's Solution](https://github.com/bycdiaz/toy_app) - [Live](https://fathomless-dawn-20866.herokuapp.com/)
