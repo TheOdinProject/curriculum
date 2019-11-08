@@ -384,6 +384,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Adv_Ruby_Building_Blocks/blob/master/bubble_sort.rb)
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/blob/master/ruby/ruby_programming/bubble_sort.rb)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Advanced_Building_Blocks/bubble_sort.rb)
+* [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
