@@ -88,7 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Ken Yu's Solution (Easy)](https://github.com/kendinh216/google-homepage) - [View in Browser]   (https://kendinh216.github.io/google-clone/)
+* [Ken Yu's Solution (Easy)](https://github.com/kendinh216/google-homepage) - [View in Browser](https://kendinh216.github.io/google-clone/)
 * [Elisha Jobe's Solution (Easy)](https://imleesha.github.io/google-clone/) - [View in Browser](https://imleesha.github.io/google-clone/) 
 * [Akram's Solution (Easy)](https://github.com/Ghanna96/google-homepage) - [View in Browser](https://ghanna96.github.io/google-homepage/)
 * [Shane Avila's Solution (Easy)](https://github.com/shaneavila/google-homepage) - [View in Browser](https://shaneavila.github.io/google-homepage/)
@@ -2590,6 +2590,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ulamtrees' Solution (Easy)](https://github.com/ulamtrees/google-homepage) - [View in Browser](https://ulamtrees.github.io/google-homepage/)
 * [Allen Alvarado's Solution (Easy)](https://github.com/506allen/google-homepage)
 * [Kieran Holland's Solution (Easy)](https://github.com/kie96/google-homepage) - [View in Browser](https://kie96.github.io/google-homepage/)
+* [Vadevious' Solution (Easy)](https://github.com/Vadevious/google-homepage) - [View in Browser](https://vadevious.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
