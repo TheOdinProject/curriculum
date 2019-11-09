@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Spencer Kenealy's Solution (Easy)] (https://github.com/SpencerKK/google-homepage) - [View in Browser](https://spencerkk.github.io/google-homepage/)
 * [Ken Yu's Solution (Easy)](https://github.com/kendinh216/google-homepage) - [View in Browser](https://kendinh216.github.io/google-clone/)
 * [Baron  Solution (Easy)](https://github.com/BaronInjusticia/OdinGoogle) - [View in Browser](https://baroninjusticia.github.io/OdinGoogle/)
 * [Philipp Solution (Easy)](https://github.com/philipp-mcvity/google-homepage) - [View in Browser](https://philipp-mcvity.github.io/google-homepage/)
