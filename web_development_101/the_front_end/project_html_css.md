@@ -2594,6 +2594,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kieran Holland's Solution (Easy)](https://github.com/kie96/google-homepage) - [View in Browser](https://kie96.github.io/google-homepage/)
 * [Sahmie's Solution (Easy)](https://sahmie.github.io/google-homepage)
 * [Vadevious' Solution (Easy)](https://github.com/Vadevious/google-homepage) - [View in Browser](https://vadevious.github.io/google-homepage/)
+* [Johann's Solution (Easy)] (https://github.com/jknoepffler/google-homepage) - [View in Browser](https://jknoepffler.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
