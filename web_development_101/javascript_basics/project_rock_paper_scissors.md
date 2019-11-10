@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Jasper's solution](https://github.com/DreadfulPhD/rock-paper-scissors)
+- [johnbdot's Solution](https://github.com/johnbdot/rock_paper_scissors)
 - [Mary's solution](https://github.com/MaryTalvistu/rock-paper-scissors)
 - [Mallory's Solution](https://github.com/MalloryShae/rock-paper-scissors)
 - [Maggie's Solution](https://mag-goertzen.github.io/rock-paper-scissors/.) - [View in Browser](https://mag-goertzen.github.io/rock-paper-scissors/.)
@@ -1001,8 +1002,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Soumya Ghosh's Solution](https://github.com/ghosht1999/R_P_S) - [View in Browser](https://github.com/ghosht1999/R_P_S)
 - [fernandopaz1's Solution](https://github.com/fernandopaz1/rock-paper-scissors) - [View in Browser](https://fernandopaz1.github.io/rock-paper-scissors/)
 - [Sepharvaim's Solution](https://github.com/sepharvaim/Rock-paper-scissors)
+- [jeffreyLubin's Solution](https://jeffreylubin.github.io/R_P_S/) - [View in Browser](https://jeffreylubin.github.io/R_P_S/)
 - [Travis's Solution](https://github.com/travisreiter/rockPaperScissors)
 - [AbdelP's Solution](https://github.com/abdelp/rock-paper-scissors) - [View in Browser](https://abdelp.github.io/rock-paper-scissors/)
 - [guacamobley's Solution](https://github.com/guacamobley/rock-paper-scissors)
 - [Ujjwal's Solution](https://github.com/ujjwal37/odin-project/tree/master/WebDelvelopment%20101/Javascript)
+
 </details>
