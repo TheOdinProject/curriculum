@@ -22,7 +22,7 @@ If you get stuck at anytime, feel free to go back to the tutorial from the previ
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/getting-started/Getting-Started-Project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 If you're planning to submit a live demo with your student solution, one of the easiest ways to do that is using Repl.it. To do this:
 
