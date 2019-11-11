@@ -88,6 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Spencer Kenealy's Solution (Easy)](https://github.com/SpencerKK/google-homepage) - [View in Browser](https://spencerkk.github.io/google-homepage/)
 * [Ken Yu's Solution (Easy)](https://github.com/kendinh216/google-homepage) - [View in Browser](https://kendinh216.github.io/google-clone/)
 * [Baron  Solution (Easy)](https://github.com/BaronInjusticia/OdinGoogle) - [View in Browser](https://baroninjusticia.github.io/OdinGoogle/)
 * [Philipp Solution (Easy)](https://github.com/philipp-mcvity/google-homepage) - [View in Browser](https://philipp-mcvity.github.io/google-homepage/)
@@ -2400,6 +2401,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrija Jelenkovic's Solution (Easy)](https://github.com/Amdrija/google-homepage) -[View in Browser](https://amdrija.github.io/google-homepage)
 * [Tom Strat's Solution (Easy)](https://github.com/tomstrat/google-homepage) - [View in Browser](https://tomstrat.github.io/google-homepage)
 * [a baby duck's Solution (Easy + Difficult)](https://ababyduck.github.io/odin_google-homepage/) - [View in Browser](https://ababyduck.github.io/odin_google-homepage/)
+* [Lete Nwibasi's Solution (Esay)](https://marcodredd.github.io/google-homepage)
 * [Dave Watkin's Solution (Easy)](https://github.com/DavidWatkinCode/the_odin_project/tree/master/html_css/google_homepage) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/html_css/google_homepage/)
 * [James Miller's Solution (Easy)](https://github.com/JamesRexMiller4/google-homepage) - [View in Browser](https://github.com/JamesRexMiller4/google-homepage)
 * [Casey Jett's Solution (Easy)](https://github.com/crjett01/google_homepage) - [View in Browswer](https://crjett01.github.io/google_homepage/)
@@ -2594,6 +2596,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kieran Holland's Solution (Easy)](https://github.com/kie96/google-homepage) - [View in Browser](https://kie96.github.io/google-homepage/)
 * [Sahmie's Solution (Easy)](https://sahmie.github.io/google-homepage)
 * [Vadevious' Solution (Easy)](https://github.com/Vadevious/google-homepage) - [View in Browser](https://vadevious.github.io/google-homepage/)
+* [Johann's Solution (Easy)](https://github.com/jknoepffler/google-homepage) - [View in Browser](https://jknoepffler.github.io/google-homepage/)
+* [Lete's solution (Easy)](https://marcodredd.github.io/google-homepage)
+* [Robin Ward's Solution (Easy)](https://github.com/rward-bot/google-homepage)
+* [Rarysson's Solution (Both)](https://github.com/rarysson/google-homepage) - [View in Browser](https://rarysson.github.io/google-homepage/)
+* [AlexGioffDev's Solution (Easy)](https://github.com/AlexGioffDev/google-homepage) - [View in Browser](https://alexgioffdev.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

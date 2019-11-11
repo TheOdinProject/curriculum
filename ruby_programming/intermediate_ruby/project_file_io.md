@@ -256,5 +256,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/hangman)
 * [Theonlycat's Solution](https://github.com/Theonlycatmc/ruby-hangman) - [Play on Repl.it](https://repl.it/@Theonlycatmc/ruby-hangman-w-savefile)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Ruby-Hangman---TOP/blob/master/hangman.rb)
-
+* [Toberoni's Solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/hangman)
 </details>
