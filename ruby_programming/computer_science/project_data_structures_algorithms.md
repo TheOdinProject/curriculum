@@ -197,6 +197,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/binary-search-tree)
 * [Drew Goddyn's solution](https://github.com/Drew-Goddyn/binary_search_tree)
+* [Scott Robel](https://github.com/scottrobel/knight_moves)
 
 </details>
 
