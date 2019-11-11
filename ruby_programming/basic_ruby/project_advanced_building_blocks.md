@@ -736,6 +736,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Miguel's Solution](https://github.com/mapra99/EnnumerableMethods)
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/blob/master/ruby/ruby_programming/enumerable_methods.rb)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Advanced_Building_Blocks/enumerable_methods.rb)
+* [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/blob/master/enumerable/enumerable.rb)
 </details>
 
 ### Additional Resources
