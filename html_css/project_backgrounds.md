@@ -109,6 +109,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Miguel's Solution](https://github.com/mapra99/appleClone)
 * [Aron's Solution](https://github.com/aronfischer/old-apple-homepage) - [View in Browser](https://aronfischer.github.io/old-apple-homepage/)
 </details>
+
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
