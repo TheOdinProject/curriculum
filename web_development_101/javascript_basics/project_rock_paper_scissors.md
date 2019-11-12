@@ -40,7 +40,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
 - [Yeffry's Solution](https://github.com/Yeffry921/rock-paper-scissors)
+- [Faby Giacomini's Solution](https://github.com/fabygiacomini/rock-paper-scissors-odin) - [View in Browser](https://fabygiacomini.github.io/rock-paper-scissors-odin/)
+- [Zayeer's Solution](https://github.com/Zayeer/Rock-Paper-Scissors) - [View in Browser](https://zayeer.github.io/Rock-Paper-Scissors/)
 - [AlexOk564's Solution](https://github.com/AlexOk564/Rock-Paper-Scissor/)
 - [Sverrir's Solution](https://github.com/Sverrirbk/rockpapaerscissors/) - [View in Browser](https://sverrirbk.github.io/rockpapersword/)
 - [losquevedo's solution](https://github.com/losquevedo/rock-paper-scissors)
@@ -49,7 +52,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [johnbdot's Solution](https://github.com/johnbdot/rock_paper_scissors)
 - [Mary's solution](https://github.com/MaryTalvistu/rock-paper-scissors)
 - [Mallory's Solution](https://github.com/MalloryShae/rock-paper-scissors)
-- [Maggie's Solution](https://mag-goertzen.github.io/rock-paper-scissors/.) - [View in Browser](https://mag-goertzen.github.io/rock-paper-scissors/.)
+- [Maggie's Solution](https://mag-goertzen.github.io/UI-for-rock-paper-scissors/.) - [View in Browser](https://mag-goertzen.github.io/UI-for-rock-paper-scissors/.)
 - [Philipp's Solution](https://github.com/philipp-mcvity/rock-paper-scissors)
 - [Shane Avila's Solution](https://github.com/shaneavila/rock-paper-scissors) - [View in Browser](https://shaneavila.github.io/rock-paper-scissors/)
 - [Hans Nery's Solution](https://github.com/hansnery/jokenpo) - [View in Browser](https://hansnery.github.io/jokenpo/)
