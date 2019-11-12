@@ -129,6 +129,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/connect_four)
 * [Ian's Solution](https://github.com/IanMKesler/connect_four_TDD)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
 * [Chirs' Solution](https://github.com/CSalois114/project_connect_four)
