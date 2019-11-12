@@ -54,7 +54,7 @@ app.get("/", (req, res) => res.render("index"));
 app.listen(3000, () => console.log(`app listening on port 3000!`));
 ~~~
 
-Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be useing express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
+Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be using express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
 
 To keep things simple, our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
 

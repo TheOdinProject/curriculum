@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/tic_tac_toe)
 * [Austn Fisher's Solution](https://github.com/Austin2016/tictactoe)
 * [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby/tree/master/tic-tac-toe)
 * [Sancbellas's Solution](https://github.com/Sancbella/OdinProjects/tree/master/Ruby-Projects/Ruby%20Basics/Project%20OOP/Tictactoe/TictacToe%20Public)- [Live repl](https://repl.it/@Sancbella/Tic-Tac-Toe)
@@ -326,6 +327,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/mastermind)
+* [Loumarven's Solution](https://github.com/loumarven/top_ruby_oop/tree/master/mastermind)
 * [Austin Fisher's Solution](https://github.com/Austin2016/mastermind_game)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/mastermind)
 * [Ian's Solution](https://github.com/IanMKesler/Mastermind)
@@ -546,6 +549,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Odin-Project-Ruby-OOP/blob/master/mastermind.rb)
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/mastermind)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/Mastermind)
+* [Toberoni's Solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/mastermind)
 </details>
 
 ### Additional Resources
