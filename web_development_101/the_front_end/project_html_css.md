@@ -2601,6 +2601,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Robin Ward's Solution (Easy)](https://github.com/rward-bot/google-homepage)
 * [Rarysson's Solution (Both)](https://github.com/rarysson/google-homepage) - [View in Browser](https://rarysson.github.io/google-homepage/)
 * [AlexGioffDev's Solution (Easy)](https://github.com/AlexGioffDev/google-homepage) - [View in Browser](https://alexgioffdev.github.io/google-homepage/)
+* [Johncoryk's Solution (Easy)](https://github.com/johncoryk/google-homepage)
 </details>
 
 ### Additional Resources
