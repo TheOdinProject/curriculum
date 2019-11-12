@@ -1009,4 +1009,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ujjwal's Solution](https://github.com/ujjwal37/odin-project/tree/master/WebDelvelopment%20101/Javascript)
 - [Levan Mebonia 's Solution](https://github.com/Levo96/rock_paper_scissors_game) - [View in Browser](https://levo96.github.io/rock_paper_scissors_game/)  
 - [Rarysson's Solution](https://github.com/rarysson/rock-paper-scissors) - [View in Browser](https://rarysson.github.io/rock-paper-scissors/)
+- [Johncoryk' Solution](https://github.com/johncoryk/rock-paper-scissors) - [View in Browser](https://johncoryk.github.io/rock-paper-scissors/)
 </details>
