@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugade Olalekan's Solution](https://github.com/gbadesimple/blogger) -[View in Browser](https://aqueous-garden-12719.herokuapp.com/)
 * [Kris Tobiasson's solution](https://github.com/highpockets/blogger.git) - [View in browser](https://fathomless-peak-19657.herokuapp.com)
 * [hamilto8's solution](https://github.com/hamilto8/blogger)
 * [John Piatras' solution](https://github.com/JohnPiatras/blogger) - [View in browser](https://piatras-blogger-project.herokuapp.com/articles)

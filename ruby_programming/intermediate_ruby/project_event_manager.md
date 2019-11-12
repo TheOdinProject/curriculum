@@ -160,7 +160,7 @@ contents of each line.
 
 ### Display the First Names of All Attendees
 
-Instead of outputing the entire contents of each line we want to show only the
+Instead of outputting the entire contents of each line we want to show only the
 first name. That requires us to look at the current contents of our Event
 Attendees file.
 
@@ -531,7 +531,7 @@ lib/event_manager.rb:11:in `block in <main>': undefined method `length' for nil:
 	from lib/event_manager.rb:7:in `<main>'
 ~~~
 
-* What is the error mesage "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
+* What is the error message "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
 
 Reviewing our CSV data we notice that the next row specifies no value. An empty
 field translates into a nil instead of an empty string. This is a choice made by

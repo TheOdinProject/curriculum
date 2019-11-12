@@ -23,7 +23,7 @@ The way that these components are created differs greatly between frameworks, bu
 
 Most frameworks also include some sort of state-management system.  State management means that your components can know certain things about the current environment and then present themselves differently based on those variables.  For example if you have a header component with a `log-in` button you would want to show it only when the user is not logged in (or replace it with a `log-out` button). Somewhere in your app (again, this will differ **greatly** from framework to framework) you will have a variable like `isUserLoggedIn` that you can use to change the header-component content.
 
-Different frameworks will have various other tools built-in (or easily included with plugins) such as routing (changing the view based on the URL), rendering arrays as lists, and animation. In essense frameworks make creating complex and robust web applications much easier.
+Different frameworks will have various other tools built-in (or easily included with plugins) such as routing (changing the view based on the URL), rendering arrays as lists, and animation. In essence frameworks make creating complex and robust web applications much easier.
 
 ### Which framework then?
 

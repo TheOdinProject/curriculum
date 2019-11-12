@@ -61,7 +61,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 2. Create and migrate all necessary tables and foreign keys.  This will require a "through" table since an Event can have many Attendees and a single User (Attendee) can attend many Events... many-to-many.
 3. Now make an Event's Show page display a list of attendees.
 4. Make a User's Show page display a list of events they are attending.
-5. Modify the User's Show page to separate those events which have occurred in the past ("Previously attended events") from those which are occuring in the future ("Upcoming events").  You could do this by putting logic in your view.  Don't.  Have your controller call separate model methods to retrieve each, e.g. `@upcoming_events = current_user.upcoming_events` and `@prev_events = current_user.previous_events`.  You'll get some practice with working with dates as well as building some queries.
+5. Modify the User's Show page to separate those events which have occurred in the past ("Previously attended events") from those which are occurring in the future ("Upcoming events").  You could do this by putting logic in your view.  Don't.  Have your controller call separate model methods to retrieve each, e.g. `@upcoming_events = current_user.upcoming_events` and `@prev_events = current_user.previous_events`.  You'll get some practice with working with dates as well as building some queries.
 6. Modify the Event Index page to list all events, separated into Past and Upcoming categories.  Use a class method on Event (e.g. `Event.past`).
 7. Refactor the "upcoming" and "past" methods into simple scopes (remember scopes??).
 8. Put navigation links across the top to help you jump around.
