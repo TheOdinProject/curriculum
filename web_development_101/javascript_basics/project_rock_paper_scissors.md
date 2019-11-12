@@ -48,6 +48,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mary's solution](https://github.com/MaryTalvistu/rock-paper-scissors)
 - [Mallory's Solution](https://github.com/MalloryShae/rock-paper-scissors)
 - [Maggie's Solution](https://mag-goertzen.github.io/rock-paper-scissors/.) - [View in Browser](https://mag-goertzen.github.io/rock-paper-scissors/.)
+- [Philipp's Solution](https://github.com/philipp-mcvity/rock-paper-scissors)
 - [Shane Avila's Solution](https://github.com/shaneavila/rock-paper-scissors) - [View in Browser](https://shaneavila.github.io/rock-paper-scissors/)
 - [Hans Nery's Solution](https://github.com/hansnery/jokenpo) - [View in Browser](https://hansnery.github.io/jokenpo/)
 - [Oscar's Solution](https://github.com/lookupforsirius/rock-paper-sissors) - [View in Browser](https://lookupforsirius.github.io/rock-paper-sissors/)
