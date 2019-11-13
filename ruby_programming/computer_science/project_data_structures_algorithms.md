@@ -29,7 +29,7 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
   8. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree is not more than 1.
 
   9. Write a `#rebalance!` method which rebalances an unbalanced tree.
-  **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+  **Tip:** You can create a level-order array of the tree before passing the array back into the `#build_tree` method, but this way is not garaunteed to rebalance your tree.
 
   10. Write a simple driver script that does the following:
 
