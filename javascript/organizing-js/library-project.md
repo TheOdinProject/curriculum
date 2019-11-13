@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lou Vang's Solution](https://github.com/louvang/library) - [View in Browser](https://louvang.github.io/library/)
 - [Kristi Dugan's solution](https://github.com/KristiDugan/my-library) - [View in Browser](https://kristidugan.github.io/my-library/)
 - [todoroff's solution](https://github.com/todoroff/book-library-app) - [View in Browser](https://todoroff.github.io/book-library-app/)
 - [Kris Tobiasson's solution](https://github.com/highpockets/books.git) - [View in Browser](https://highpockets.github.io/books/)
