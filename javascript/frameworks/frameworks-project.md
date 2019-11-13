@@ -19,6 +19,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Elias White's Angular Solution - Library](https://github.com/elias-white/AngularLibrary) - [View in Browser](https://elias-white.github.io/AngularLibrary/)
+* [Igorashs's Vue solution](https://github.com/igorashs/vue-todo-list) - [View in Browser](https://igorashs.github.io/vue-todo-list/)
+* [Bojo's React solution](https://github.com/BojoZahariev/Restaurant_react) - [View in Browser](https://bojozahariev.github.io/Restaurant_react/)
+* [Vedat's React solution](https://github.com/mvedataydin/react-todo) - [View in Browser](https://mvedataydin.github.io/react-todo/)
+* [Solodov's Vue solution](https://github.com/solodov-dev/todo-vue) - [View in Browser](https://solodov-dev.github.io/todo-vue/)
 * [Eljoey's React TodoList](https://github.com/eljoey/React-todo-2) - [View in Browser](https://eljoey.github.io/React-todo-2/)
 * [Henry Kirya's Svelte solution](https://github.com/harrika/library-svelte) - [View in Browser](https://harrika.github.io/library-svelte/)
 * [ARaut9's React Library](https://github.com/ARaut9/book_library_react) - [View in Browser](https://araut9.github.io/book_library_react/)
@@ -38,5 +43,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Halkim44's React Library App solution](https://github.com/halkim44/react-my-library/tree/master) - [View in browser](https://halkim44.github.io/react-my-library/)
 * [Tronerta's Vue Todo-List solution](https://github.com/Tronerta/vue-todolist) - [View in browser](https://morning-meadow-39929.herokuapp.com)
 * [Yash's React Todo-List solution](https://github.com/yashboura303/todoReact)
+* [Kai's React Library Solution](https://github.com/KaiVandivier/library-react) - [View in Browser](https://kaivandivier.github.io/library-react/)
 
 </details>

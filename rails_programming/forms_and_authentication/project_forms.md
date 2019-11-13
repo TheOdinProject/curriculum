@@ -117,6 +117,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/re-former) - complete with index page
 * [Carlos Del Real's and António's Solution](https://github.com/carloshdelreal/re-former)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/re-former)
 * [Kevin Vuong's solution](https://github.com/fffear/re-former)
@@ -221,6 +222,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [vanny96's Solution](https://github.com/vanny96/forms-project)
 * [Roy's solution](https://github.com/RoyNyaga/re_former_odin_project/tree/master/re_former)
 * [Cody Buffaloe's Solution](https://github.com/CodyLBuffaloe/Re-Former)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/re-former)
 
 </details>
 
@@ -231,7 +233,7 @@ This chapter will take what you now know about forms and make it part of a real 
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-1. Do the [Ruby on Rails Tutorial Chapter 7](https://www.railstutorial.org/book/sign_up), "Sign-Up".
+1. Do the [Ruby on Rails Tutorial Chapter 7](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/sign_up), "Sign-Up".
 </div>
 
 ### Additional Resources

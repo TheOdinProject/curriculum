@@ -85,7 +85,7 @@ end
 Remember, loops will start counting from a zero index unless specified otherwise so the first loop iteration will output `Alternative fact number 0`.
 
 ### Until Loop
-The until loop is the opposite of the while loop. A while loop continues while the condition is true. An until loop continues while the condition is false so they can be used pretty much interchangably. It will ultimately be what your condition is checking that will determine which one is more readable.
+The until loop is the opposite of the while loop. A while loop continues while the condition is true. An until loop continues while the condition is false so they can be used pretty much interchangeably. It will ultimately be what your condition is checking that will determine which one is more readable.
 
 You should, as much as possible, avoid trying to negate your logical expressions using `!`(not) and this is where using unless will shine.
 

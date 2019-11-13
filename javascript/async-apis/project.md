@@ -19,6 +19,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Igorashs's solution](https://github.com/igorashs/vue-weather-app) - [View in Browser](https://igorashs.github.io/vue-weather-app/)
+* [Vedat's solution](https://github.com/mvedataydin/react-weather) - [View in Browser](https://mvedataydin.github.io/react-weather/)
+* [Solodov's solution](https://github.com/solodov-dev/drops) - [View in Browser](https://solodov-dev.github.io/drops/)
 * [John Paul's solution](https://github.com/Omulosi/weather-app) - [View in Browser](https://omulosi.github.io/weather-app/)
 * [Henry M. Kirya's solution](https://github.com/harrika/oikendi) - [View in Browser](https://sveather.herokuapp.com/index.html)
 * [Eljoey's Solution](https://github.com/eljoey/weather-2) - [View in Browser](https://eljoey.github.io/weather-2/)

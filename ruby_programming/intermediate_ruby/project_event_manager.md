@@ -160,7 +160,7 @@ contents of each line.
 
 ### Display the First Names of All Attendees
 
-Instead of outputing the entire contents of each line we want to show only the
+Instead of outputting the entire contents of each line we want to show only the
 first name. That requires us to look at the current contents of our Event
 Attendees file.
 
@@ -531,7 +531,7 @@ lib/event_manager.rb:11:in `block in <main>': undefined method `length' for nil:
 	from lib/event_manager.rb:7:in `<main>'
 ~~~
 
-* What is the error mesage "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
+* What is the error message "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
 
 Reviewing our CSV data we notice that the next row specifies no value. An empty
 field translates into a nil instead of an empty string. This is a choice made by
@@ -716,8 +716,8 @@ Take a close look at that address. Here's how it breaks down:
   * `roles=legislatorLowerBody` : Returns the representatives from the House
   * `key=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw` : A registered API Key to authenticate our requests
 
-We're accessing the `representatives` method of their API, we send in a `key` which is the string that identifies JumpstartLab as the accessor of
-the API, then we select the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
+When we're accessing the `representatives` method of their API, we're sending in a `key` which is the string that identifies JumpstartLab as the accessor of
+the API, then we're selecting the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
 
 This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](http://jsonprettyprint.com/), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
 

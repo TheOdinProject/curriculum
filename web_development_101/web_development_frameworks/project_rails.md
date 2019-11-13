@@ -26,6 +26,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugade Olalekan's Solution](https://github.com/gbadesimple/blogger) -[View in Browser](https://aqueous-garden-12719.herokuapp.com/)
+* [Kris Tobiasson's solution](https://github.com/highpockets/blogger.git) - [View in browser](https://fathomless-peak-19657.herokuapp.com)
+* [hamilto8's solution](https://github.com/hamilto8/blogger)
+* [John Piatras' solution](https://github.com/JohnPiatras/blogger) - [View in browser](https://piatras-blogger-project.herokuapp.com/articles)
+* [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/05-Web_Development_Frameworks/blogger)
 * [Luky's Solution](https://github.com/lcyne/blogger) - [View in browser](https://mighty-reaches-78310.herokuapp.com/)
 * [Ian's Solution](https://github.com/IanMKesler/rails-blog) - [View in browser](https://fathomless-depths-49999.herokuapp.com)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/jumpstart-lab-blogger-tutorial) - [View in browser](https://secret-forest-19270.herokuapp.com/)
@@ -418,6 +423,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [aytung's solution](https://github.com/aytung/blogger) - [View in Browser](https://cryptic-dusk-16801.herokuapp.com/)
 * [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/blogger) - [View in Browser](https://blogger1459.herokuapp.com/) I0 - I5
 * [Martink-rsa's solution](https://github.com/martink-rsa/blogger)
+* [TuSeMorte's solution](https://github.com/TuSeMorte/blogger) - [View in Browser](https://hidden-escarpment-21981.herokuapp.com/)
+* [David Watkin's solution](https://github.com/DavidWatkinCode/blogger) - [View in browser](https://whispering-harbor-45352.herokuapp.com/)
+* [Robert Suazo's solution](https://github.com/rsuazo/blogger) - [View in browser](https://morning-gorge-75442.herokuapp.com/)
+* [DalandanJuice's solution](https://github.com/DalandanJuice/rails_blogger) - [View in browser](https://pacific-escarpment-46091.herokuapp.com/)
 
 </details>
 
