@@ -63,10 +63,11 @@ While your VM is running, do the following steps:
 
   1. Click "Devices" -> "Insert Guest additions CD image" in the menu bar
   2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
-  3. Type the following command into the terminal: `sudo apt install gcc make perl` You will be asked to type in the password you setup earlier. As you type your password, you'll notice there is no visual feedback. This is a security measure. Trust that it is taking you input. (Just type it and then push enter). If an error is thrown, reboot the VM and try the steps in this list again.
-  4. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This may ask you for a password as well.
-  5. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
-  6. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
+  3. The following commands will ask you to type the password you setup earlier. As you type your password, you'll notice there is no visual feedback as this is a security measure. When prompted for your password, just type it and then push Enter on your keyboard. Enter the following command into the terminal: `sudo apt-get update`. Once the command has finished, enter `sudo apt-get upgrade`. 
+  4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
+  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password.
+  6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
+  7. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
   
   **NOTE**: 
 

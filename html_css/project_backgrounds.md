@@ -24,6 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Raiko's solution](https://github.com/Cypher0/odin-backgrounds-gradients) - [View in Browser](https://cypher0.github.io/odin-backgrounds-gradients/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/apple-clone) - [View in Browser](https://braxtonlemmon.github.io/apple-clone/)
 * [David Auza's Solution](https://github.com/davidauza-engineer/Building-with-Backgrounds-and-Gradients) - [View in Browser](https://davidauza-engineer.github.io/Building-with-Backgrounds-and-Gradients/)
 * [Kevin Vuong's solution](https://github.com/fffear/apple-clone) - [View in Browser](https://fffear.github.io/apple-clone/)
@@ -107,6 +108,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Carlos Del Real's Solution](https://github.com/carloshdelreal/Building-with-Backgrounds-and-Gradients) - [View in Browser](https://carloshdelreal.github.io/Building-with-Backgrounds-and-Gradients/)
 * [Halkim's Solution](https://github.com/halkim44/apple-site-clone) - [View in Browser](https://halkim44.github.io/apple-site-clone/)
 * [Miguel's Solution](https://github.com/mapra99/appleClone)
+* [Aron's Solution](https://github.com/aronfischer/old-apple-homepage) - [View in Browser](https://aronfischer.github.io/old-apple-homepage/)
 </details>
 
 ### Additional Resources

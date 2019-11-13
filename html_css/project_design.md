@@ -81,6 +81,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/design-teardown) - [View in browser](https://areebaishtiaq.github.io/design-teardown/)
 * [Carlos Del Real's and Gabriela Cruz's solution](https://github.com/carloshdelreal/design-teardown) - [View in Browser](https://carloshdelreal.github.io/design-teardown/)
 * [Scott McKell's solution](https://github.com/zottwickel/heatmap) - [View in Browser](https://zottwickel.github.io/heatmap/)
+* [Aron's  solution](https://github.com/aronfischer/grayscale-heat-map) - [View in Browser](https://aronfischer.github.io/grayscale-heat-map/)
 </details>
 
 ### Additional Resources
