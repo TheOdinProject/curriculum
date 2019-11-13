@@ -69,7 +69,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Eric's Solution](https://github.com/evinton1/Full-RPS) - [View in Browser](https://evinton1.github.io/Full-RPS/)
 - [Brooke's Solution](https://github.com/BrookesCodeStuff/rock-paper-scissors) - [View in Browser](https://brookescodestuff.github.io/rps-gui/)
 - [Joshysmart's Solution](https://github.com/joshysmart/rock-paper-scissors) - [View in Browser](https://joshysmart.github.io/rock-paper-scissors/) 
-- [Daryll's Solution](https://github.com/daryllrsy/rock-paper-scissors)
+- [Daryll's Solution](https://github.com/daryllrsy/rock-paper-scissors) - [View in Browser](https://daryllrsy.github.io/rock-paper-scissors/)
 - [Elsmog's Solution](https://github.com/elsmog/rock-paper-scissors)
 - [Hilbert França's Solution](https://github.com/Hilbertmf/LearningWeb/tree/master/the-odin-projects/rock-paper-scissors) - [View in Browser](https://hilbertmf.github.io/projects/rock-paper-scissors/)
 - [Will's Solution](https://github.com/GroverW/site/tree/master/rock-paper-scissors) - [View in Browser](https://groverw.github.io/site/rock-paper-scissors/)
