@@ -31,6 +31,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Robin's Solution](https://github.com/CoolGlasses/learn_ruby)
+* [Daryll's Solution](https://github.com/daryllrsy/learn_ruby)
+* [rc700's Solution](https://github.com/rc700/learn_rspec)
+* [matchewbie's Solution](https://github.com/matchewbie/learn_ruby)
+* [Kris Tobiasson's Solution](https://github.com/highpockets/learn_ruby)
 * [vladutclp's Solution](https://github.com/vladutclp/learn_ruby)
 * [Vedant's Solution](https://github.com/vedantshetty/learn_ruby)
 * [hamilto8's Solution](https://github.com/hamilto8/learn-ruby)
@@ -587,7 +592,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Branden's solution](https://github.com/redbeardaz/learn_ruby)
 * [Mallory's solution](https://github.com/malworks/learn_ruby)
 * [Rohan's solution](https://github.com/RKRohk/learn_ruby)
-
+* [Synte's solution](https://github.com/Synte/learn_ruby)
+* [Robert Suazo's solution](https://github.com/rsuazo/learn_ruby)
+* [Steve White's Solution](https://github.com/swhite85/learn_ruby)
+* [DalandanJuice's Solution](https://github.com/DalandanJuice/learn_ruby)
+* [Hyperturing's Solution](https://github.com/hyperturing/learn_ruby)
+* [Sean's Solution](https://github.com/seanrking/learn_ruby)
 </details>
 
 ### Additional Resources

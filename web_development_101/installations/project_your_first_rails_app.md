@@ -318,7 +318,7 @@ git push origin master
 
 #### Step 3.7: Push to Heroku
 
-Now that we've commited the files, we can push to Heroku:
+Now that we've committed the files, we can push to Heroku:
 
 ~~~bash
 git push heroku master
@@ -350,13 +350,13 @@ If you have an error, come to our [chat room](https://discord.gg/hvqVr6d), and a
 
 #### Step 3.9: Visit Your New Application
 
-It's time to see your app on the web! If you are not using WSL, to quickly open your app, type
+It's time to see your app on the web! If you are using Linux or Mac, you can quickly open your app with the command below. If you are using WSL it will not open automatically, however, you will get an error message containing the link to copy and paste in your browser:
 
 ~~~bash
 heroku open
 ~~~
 
-and play around with it!
+Now go and play around with it!
 
 ### Step 4: Let us know how it went!
 

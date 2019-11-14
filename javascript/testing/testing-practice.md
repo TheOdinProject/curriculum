@@ -37,7 +37,7 @@ Write tests for the following functions, and then make the tests pass!
 
 The current version of Jest as it is does not recognize the import statement. In order for you to be able to use ES6 modules for this project you may do the following:
 
-1. Install the @babel/preset-env pacakge
+1. Install the @babel/preset-env package
 
 
 ```
@@ -61,6 +61,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Igorashs's solution](https://github.com/igorashs/tdd-jest-practice)
 - [Vedat's solution](https://github.com/mvedataydin/tdd-jest)
 - [Ben's solution](https://github.com/Koshoo/jest-testing-practice)
 - [Solodov's solution](https://github.com/solodov-dev/top-js-tdd)
@@ -76,5 +77,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [MPalhidai's solution](https://github.com/MPalhidai/testing)
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Jest-testing-project)
 - [scotth527's solution](https://github.com/scotth527/jest_practice)
+- [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-test-driven-development)
 </details>
 

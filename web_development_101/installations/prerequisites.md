@@ -63,10 +63,11 @@ While your VM is running, do the following steps:
 
   1. Click "Devices" -> "Insert Guest additions CD image" in the menu bar
   2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
-  3. Type the following command into the terminal: `sudo apt install gcc make perl` You will be asked to type in the password you setup earlier. As you type your password, you'll notice there is no visual feedback. This is a security measure. Trust that it is taking you input. (Just type it and then push enter). If an error is thrown, reboot the VM and try the steps in this list again.
-  4. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This may ask you for a password as well.
-  5. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
-  6. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
+  3. The following commands will ask you to type the password you setup earlier. As you type your password, you'll notice there is no visual feedback as this is a security measure. When prompted for your password, just type it and then push Enter on your keyboard. Enter the following command into the terminal: `sudo apt-get update`. Once the command has finished, enter `sudo apt-get upgrade`. 
+  4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
+  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password.
+  6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
+  7. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
   
   **NOTE**: 
 
@@ -128,18 +129,23 @@ For step-by-step instructions, please follow this [installation guide](https://t
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Windows 10 WSL (Not Recommended)
+<summary class="dropDown-header">Windows 10 WSL (Not Supported and Not Recommended)
 </summary>
   
-**Please note**: *Windows Subsystem for Linux is **highly discouraged** for those unfamiliar with Linux. Specifically, those unfamiliar with with the Linux Command Line. Please consider installing Linux in a virtual machine or dual-boot*.
+**Please note**: *Windows Subsystem for Linux is **highly discouraged and not recommended** for those unfamiliar with Linux and advanced Windows features. Specifically, those unfamiliar with with the Command Line. Please consider installing Linux in a virtual machine or dual-boot*.
 
 Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
-Having said that, setting up rails on WSL is definitely not beginner friendly.  If you have run linux dev environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
+Having said that, setting up a development environment is not beginner friendly.  If you have run Linux environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
 
-Since the 2017 Fall Creators Update, Microsoft has made it easier to get up and running using [Windows Settings and the Microsoft Store](https://winaero.com/blog/enable-wsl-windows-10-fall-creators-update/). 
+The Odin Project has great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
 
-### Step 1: Install WSL
+If you'd like to move forward with WSL, despite the warning above, please see below for installation instructions.
+
+  <details markdown="block">
+  <summary class="dropDown-header">Windows Subsystem for Linux Directions
+  </summary>
+  ### Step 1: Install WSL
 
 Microsoft has made installing WSL super simple.
 
@@ -185,10 +191,9 @@ ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
 
 * Any projects created from the WSL terminal need to be placed inside the Projects directory.
 
+* Open all of your projects through the terminal. 
+
 * The WSL program files are well hidden, but it's super important that you do not edit these files from Windows. Altering these files will cause serious problems with your Ubuntu installation and possibly with your Windows installation.
+  </details>
 
 </details>
-
-**Please Note: We do not support Windows without a VM or WSL at this time, as many people have had problems developing with Rails while using Windows.** 
-
-The Odin Project has great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.

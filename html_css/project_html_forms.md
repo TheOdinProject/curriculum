@@ -22,6 +22,12 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Raiko's solution](https://github.com/Cypher0/project-html-forms) - [View in browser](https://cypher0.github.io/project-html-forms/)
+* [David Auza's and Eduardo Reis's solution](https://github.com/eduardoreisalvarenga/HTML-Forms.github.io) - [View in browser](https://eduardoreisalvarenga.github.io/HTML-Forms.github.io/)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/mint-clone) - [View in browser](https://braxtonlemmon.github.io/mint-clone/)
+* [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/mint-form-clone) - [View in browser](https://kikupiku.github.io/mint-form-clone/)
+* [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/02-Displaying_And_Inputting_Data/html-forms) - [View in browser](https://gradiva.github.io/mint-form-clone/)
+* [Gabriel's Solution](https://github.com/gabytzubaws/mint-signup-page) - [View in browser](https://gabytzubaws.github.io/mint-signup-page/)
 * [Kevin Vuong's solution](https://github.com/fffear/html-forms) - [View in browser](https://fffear.github.io/html-forms/)
 * [Vedat's solution](https://github.com/mvedataydin/signup-form) - [View in browser](https://mvedataydin.github.io/signup-form/)
 * [Solodov's solution](https://github.com/solodov-dev/top-forms) - [View in browser](https://solodov-dev.github.io/top-forms/)
