@@ -46,6 +46,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [disco-coder's Solution](https://github.com/disco-coder/calculator) - [View in Browser](https://disco-coder.github.io/calculator/)
+- [AbdelP's Solution](https://github.com/abdelp/calculator) - [View in Browser](https://abdelp.github.io/calculator/)
+- [Luke's Solution](https://github.com/LukePritchett/calculator) - [View in Browser](https://lukepritchett.github.io/calculator/)
 - [Fernis' Solution](https://github.com/Menneskefernis/calculator) - [View in Browser](https://menneskefernis.github.io/calculator/)
 - [Ogunmola Israel's Solution](https://github.com/Lippins/javascript_calculator) - [Veiw in Browser]( https://lippins.github.io/javascript_calculator/)
 - [Jedensuscg Solution](https://github.com/jedensuscg/calculator) - [View in Browser](https://jedensuscg.github.io/Calculator/)
