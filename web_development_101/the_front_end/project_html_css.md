@@ -2603,6 +2603,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [AlexGioffDev's Solution (Easy)](https://github.com/AlexGioffDev/google-homepage) - [View in Browser](https://alexgioffdev.github.io/google-homepage/)
 * [Johncoryk's Solution (Easy)](https://github.com/johncoryk/google-homepage)
 * [AlexGioffDev's Solution (Difficult)](https://github.com/AlexGioffDev/google-searchpage) - [View in Browser](https://alexgioffdev.github.io/google-searchpage/)
+* [mistercwood's Solution (Easy)](https://github.com/mistercwood/google-homepage) - [View in Browser](https://mistercwood.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
