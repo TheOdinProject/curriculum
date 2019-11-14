@@ -427,6 +427,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [David Watkin's solution](https://github.com/DavidWatkinCode/blogger) - [View in browser](https://whispering-harbor-45352.herokuapp.com/)
 * [Robert Suazo's solution](https://github.com/rsuazo/blogger) - [View in browser](https://morning-gorge-75442.herokuapp.com/)
 * [DalandanJuice's solution](https://github.com/DalandanJuice/rails_blogger) - [View in browser](https://pacific-escarpment-46091.herokuapp.com/)
+* [hyperturing's solution](https://github.com/hyperturing/rails-blog) - [View in browser](https://shielded-sierra-66737.herokuapp.com/)
 
 </details>
 
