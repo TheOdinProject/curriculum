@@ -92,7 +92,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ken Yu's Solution (Easy)](https://github.com/kendinh216/google-homepage) - [View in Browser](https://kendinh216.github.io/google-clone/)
 * [Baron  Solution (Easy)](https://github.com/BaronInjusticia/OdinGoogle) - [View in Browser](https://baroninjusticia.github.io/OdinGoogle/)
 * [Philipp Solution (Easy)](https://github.com/philipp-mcvity/google-homepage) - [View in Browser](https://philipp-mcvity.github.io/google-homepage/)
-* [Elisha Jobe's Solution (Easy)](https://imleesha.github.io/google-clone/) - [View in Browser](https://imleesha.github.io/google-clone/) 
+* [Elisha Jobe's Solution (Easy)](https://imleesha.github.io/google-clone/) - [View in Browser](https://imleesha.github.io/google-clone/)
 * [Akram's Solution (Easy)](https://github.com/Ghanna96/google-homepage) - [View in Browser](https://ghanna96.github.io/google-homepage/)
 * [Shane Avila's Solution (Easy)](https://github.com/shaneavila/google-homepage) - [View in Browser](https://shaneavila.github.io/google-homepage/)
 * [Vince Nguyen's Solution (Easy)](https://github.com/vincengocnguyen/google-homepage) - [View in Browser](https://vincengocnguyen.github.io/google-homepage/)
@@ -2603,6 +2603,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [AlexGioffDev's Solution (Easy)](https://github.com/AlexGioffDev/google-homepage) - [View in Browser](https://alexgioffdev.github.io/google-homepage/)
 * [Johncoryk's Solution (Easy)](https://github.com/johncoryk/google-homepage)
 * [AlexGioffDev's Solution (Difficult)](https://github.com/AlexGioffDev/google-searchpage) - [View in Browser](https://alexgioffdev.github.io/google-searchpage/)
+* [Nyandereian's Solution (Easy)](https://github.com/Nyandereian/google-homepage) - [View in Browser](https://nyandereian.github.io/google-homepage/)
+* [mistercwood's Solution (Easy)](https://github.com/mistercwood/google-homepage) - [View in Browser](https://mistercwood.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

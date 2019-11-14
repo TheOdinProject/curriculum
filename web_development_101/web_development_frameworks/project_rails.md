@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Robin's Solution](https://github.com/CoolGlasses/blogger) - [View in Browser](https://damp-wave-05629.herokuapp.com)
 * [Olugade Olalekan's Solution](https://github.com/gbadesimple/blogger) -[View in Browser](https://aqueous-garden-12719.herokuapp.com/)
 * [Kris Tobiasson's solution](https://github.com/highpockets/blogger.git) - [View in browser](https://fathomless-peak-19657.herokuapp.com)
 * [hamilto8's solution](https://github.com/hamilto8/blogger)
@@ -427,6 +428,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [David Watkin's solution](https://github.com/DavidWatkinCode/blogger) - [View in browser](https://whispering-harbor-45352.herokuapp.com/)
 * [Robert Suazo's solution](https://github.com/rsuazo/blogger) - [View in browser](https://morning-gorge-75442.herokuapp.com/)
 * [DalandanJuice's solution](https://github.com/DalandanJuice/rails_blogger) - [View in browser](https://pacific-escarpment-46091.herokuapp.com/)
+* [hyperturing's solution](https://github.com/hyperturing/rails-blog) - [View in browser](https://shielded-sierra-66737.herokuapp.com/)
 
 </details>
 
