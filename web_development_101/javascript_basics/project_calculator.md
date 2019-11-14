@@ -428,4 +428,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nigel Volkmanns Solution](https://github.com/Nekolike/Calculator) - [View in Browser](https://nekolike.github.io/Calculator/)
 - [kosmos434's Solution](https://github.com/kosmos434/calculator) - [View in Browser](https://kosmos434.github.io/calculator/)
 - [Vorelli's Solution](https://github.com/Vorelli/Calculator) - [View in Browser](https://vorelli.github.io/Calculator/)
+- [MortenEmde's solution](https://github.com/MortenEmde/Calculator.git) - [View in Browser](https://mortenemde.github.io/Calculator/Calculator.html)
 </details>
