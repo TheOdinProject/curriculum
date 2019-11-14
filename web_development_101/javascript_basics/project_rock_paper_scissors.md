@@ -942,4 +942,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Paul CB's Solution](https://github.com/faux-pas/rock-paper-scissors) - [View in Browser](https://faux-pas.github.io/rock-paper-scissors/)- [With GUI](https://faux-pas.github.io/rock-paper-scissors/rps-dom.html)
 - [Scy's solution](https://github.com/scychu/RPS_Game) 
 - [Dustin Janssen's solution](https://github.com/DustinJanssen/RockPaperScissors)- [View in Browser](https://dustinjanssen.github.io/RockPaperScissors/)
+- [Mansur Ahmed's solution](https://github.com/demharusnam/rock_paper_scissors_gui)- [View in Browser](https://demharusnam.github.io/rock_paper_scissors_gui/)
 </details>
