@@ -141,7 +141,7 @@ puts 'Hello, #{name}' #=> "Hello, #{name}"
 ```
 
 ### Concatenation
-In true Ruby style, there are plenty of ways to concatentate strings.
+In true Ruby style, there are plenty of ways to concatenate strings.
 
 ```ruby
 # with the plus operator

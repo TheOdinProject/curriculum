@@ -19,6 +19,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Elias White's Angular Solution - Library](https://github.com/elias-white/AngularLibrary) - [View in Browser](https://elias-white.github.io/AngularLibrary/)
+* [Igorashs's Vue solution](https://github.com/igorashs/vue-todo-list) - [View in Browser](https://igorashs.github.io/vue-todo-list/)
 * [Bojo's React solution](https://github.com/BojoZahariev/Restaurant_react) - [View in Browser](https://bojozahariev.github.io/Restaurant_react/)
 * [Vedat's React solution](https://github.com/mvedataydin/react-todo) - [View in Browser](https://mvedataydin.github.io/react-todo/)
 * [Solodov's Vue solution](https://github.com/solodov-dev/todo-vue) - [View in Browser](https://solodov-dev.github.io/todo-vue/)

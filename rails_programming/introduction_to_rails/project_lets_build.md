@@ -23,6 +23,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
 * [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/warmup_restclient)
 * [Kevin Vuong's Solution](https://github.com/fffear/bing_search)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/rest-client-warmup)
@@ -92,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
 * [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
+* [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
 </details>
 
 ### Project: Ruby on Rails Tutorial
