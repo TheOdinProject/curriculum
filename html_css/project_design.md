@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Raiko's solution](https://github.com/Cypher0/odin-design-teardown) - [View in Browser](https://cypher0.github.io/odin-design-teardown/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/design-teardown) - [View in Browser](https://braxtonlemmon.github.io/design-teardown/)
 * [David Auza's and Eduardo Reis's Solution](https://github.com/eduardoreisalvarenga/microverse-smashing-magazine) - [View in Browser](https://rawcdn.githack.com/eduardoreisalvarenga/microverse-smashing-magazine/0f3b4fd4a93648542dc8fa6ad416baabf269220a/index.html)
 * [Kevin Vuong's solution](https://github.com/fffear/design-teardown) - [View in Browser](https://fffear.github.io/design-teardown/)
