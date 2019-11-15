@@ -45,6 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [disco-coder's Solution](https://github.com/disco-coder/calculator) - [View in Browser](https://disco-coder.github.io/calculator/)
+- [AbdelP's Solution](https://github.com/abdelp/calculator) - [View in Browser](https://abdelp.github.io/calculator/)
+- [Luke's Solution](https://github.com/LukePritchett/calculator) - [View in Browser](https://lukepritchett.github.io/calculator/)
 - [Fernis' Solution](https://github.com/Menneskefernis/calculator) - [View in Browser](https://menneskefernis.github.io/calculator/)
 - [Ogunmola Israel's Solution](https://github.com/Lippins/javascript_calculator) - [Veiw in Browser]( https://lippins.github.io/javascript_calculator/)
 - [Jedensuscg Solution](https://github.com/jedensuscg/calculator) - [View in Browser](https://jedensuscg.github.io/Calculator/)
@@ -425,4 +428,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nigel Volkmanns Solution](https://github.com/Nekolike/Calculator) - [View in Browser](https://nekolike.github.io/Calculator/)
 - [kosmos434's Solution](https://github.com/kosmos434/calculator) - [View in Browser](https://kosmos434.github.io/calculator/)
 - [Vorelli's Solution](https://github.com/Vorelli/Calculator) - [View in Browser](https://vorelli.github.io/Calculator/)
+- [MortenEmde's solution](https://github.com/MortenEmde/Calculator.git) - [View in Browser](https://mortenemde.github.io/Calculator/Calculator.html)
 </details>
