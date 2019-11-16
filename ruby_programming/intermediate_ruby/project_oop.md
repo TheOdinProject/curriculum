@@ -328,6 +328,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Billy's Solution](https://github.com/bcoffin9/mastermind)
 * [Run After's Solution](https://github.com/run-after/mastermind)
 * [Loumarven's Solution](https://github.com/loumarven/top_ruby_oop/tree/master/mastermind)
 * [Austin Fisher's Solution](https://github.com/Austin2016/mastermind_game)
