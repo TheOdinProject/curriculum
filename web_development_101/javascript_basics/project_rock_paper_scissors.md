@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [fossegrim's Solution](https://github.com/olav35/Rock-Paper-Scissors)
 - [Juan Nava's Solution](https://github.com/JohannWolf/rock-paper-scissors-game) - [View in Browser](https://johannwolf.github.io/rock-paper-scissors-game/)
+- [Philipp's Solution](https://github.com/philipp-mcvity/rock-paper-scissors) - [View in Browser](https://philipp-mcvity.github.io/rock-paper-scissors/)
 - [c30net's Solution](https://github.com/c30net/rock-paper-scissors)
 - [Nyandereian's Solution](https://github.com/Nyandereian/rock-paper-scissors)
 - [Andres' Solution](https://github.com/Simbaxo/Rock-Paper-Scissors) - [View in Browser](https://simbaxo.github.io/Rock-Paper-Scissors/)
@@ -57,7 +58,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mary's solution](https://github.com/MaryTalvistu/rock-paper-scissors)
 - [Mallory's Solution](https://github.com/MalloryShae/rock-paper-scissors)
 - [Maggie's Solution](https://mag-goertzen.github.io/UI-for-rock-paper-scissors/.) - [View in Browser](https://mag-goertzen.github.io/UI-for-rock-paper-scissors/.)
-- [Philipp's Solution](https://github.com/philipp-mcvity/rock-paper-scissors)
 - [Shane Avila's Solution](https://github.com/shaneavila/rock-paper-scissors) - [View in Browser](https://shaneavila.github.io/rock-paper-scissors/)
 - [Hans Nery's Solution](https://github.com/hansnery/jokenpo) - [View in Browser](https://hansnery.github.io/jokenpo/)
 - [Oscar's Solution](https://github.com/lookupforsirius/rock-paper-sissors) - [View in Browser](https://lookupforsirius.github.io/rock-paper-sissors/)
