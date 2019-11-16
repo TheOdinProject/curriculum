@@ -1,19 +1,50 @@
-### Introduction
+<script>
+    const MOVE = ["rock", "paper", "scissors"]
+function computerPlay() {
+    // random a index from 0 to 2
+    let randomIndex = Math.floor(Math.random()*3)
+    return MOVE[randomIndex]
+}
 
-We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson.  When you get there don't forget to come back and add  your link!
+function playGround(playerSelection, computerSelection) {
+    playerSelection = playerSelection.toLowerCase()
+    switch (playerSelection) {
+        case MOVE[0]:
+            if (computerSelection === MOVE[0]) {
+                return "Even"
+            } else if (computerSelection === MOVE[2]) {
+                return "You win " + MOVE[0] + " beats " + MOVE[2]
+            } else {
+                return "You lose " + MOVE[1] + " beats " + MOVE[0] 
+            }
 
-### Assignment
+        case MOVE[1]:
+            if (computerSelection === MOVE[1]) {
+                return "Even"
+            } else if (computerSelection === MOVE[0]) {
+                return "You win " + MOVE[1] + " beats " + MOVE[0]
+            } else {
+                return "You lose " + MOVE[2] + " beats " + MOVE[1] 
+            }
 
-<div class="lesson-content__panel" markdown="1">
-1. Start a new git repo for your project.
-2. Create a blank HTML document with a script tag.  This game is going to be played
-    completely from the console, so don't worry about putting anything else in there.
-3. Your game is going to play against the computer, so begin with a function called `computerPlay` that will randomly return either 'Rock', 'Paper' or 'Scissors'.  We'll use this function in the game to make the computer's play.
-4. Write a function that plays a single round of Rock Paper Scissors.  The function should take two parameters - the `playerSelection` and `computerSelection` - and then return a string that declares the winner of the round like so: `"You Lose! Paper beats Rock"`
-   1. make your function case insensitive (so users can input `rock`, `ROCK`, `RocK` or any other variation)
+        case MOVE[2]:
+            if (computerSelection === MOVE[2]) {
+                return "Even"
+            } else if (computerSelection === MOVE[1]) {
+                return "You win " + MOVE[2] + " beats " + MOVE[1]
+            } else {
+                return "You lose " + MOVE[0] + " beats " + MOVE[2] 
+            }
+    }
+}
 
-   2. __Important note:__ you want to `return` the results of this function call, _not_ `console.log()` them.  To test this function console.log the results:
+function game(n) {
+    let score = {
+        "player" : 0,
+        "computer" : 0
+    }
 
+<<<<<<< HEAD
       ~~~javascript
       function playRound(playerSelection, computerSelection) {
       	// your code here!
@@ -1028,3 +1059,25 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mansur Ahmed's solution](https://github.com/demharusnam/rock_paper_scissors_gui)- [View in Browser](https://demharusnam.github.io/rock_paper_scissors_gui/)
 - [Vicmi-Dev's Solution](https://github.com/vicmi-dev/rock-paper-scissors) 
 </details>
+=======
+    for (let i = 0; i < n; i++) {
+        let computerSelection = computerPlay()
+        let playerSelection = prompt("Enter your move:")
+        let result = playGround(playerSelection, computerSelection)
+        if (result.indexOf("win") > 0) {
+            score.player += 1
+        } else if (result.indexOf("lose") > 0) {
+            score.computer += 1
+        }
+        console.log(result)
+    } 
+    if (score.player > score.computer) {
+        console.log("Player win")
+    } else if (score.player < score.computer) {
+        console.log("Computer win")
+    } else {
+        console.log("Even bro")
+    }
+}
+</script>
+>>>>>>> ac4181e967c291fcbaba3371e29e1da10732be83
