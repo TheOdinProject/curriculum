@@ -238,6 +238,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Vitaly Osipov's Solution](https://github.com/vi7ali/micro-reddit)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/micro-reddit)
 * [Leo Holanda's Solution](https://github.com/leo-holanda/micro_reddit)
+* [Rey van den Berg's Solution](https://github.com/Rey810/micro-reddit)
 
 </details>
 
