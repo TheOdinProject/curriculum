@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/etch-a-sketch-project) - [View in Browser](https://philipp-mcvity.github.io/etch-a-sketch-project/)
 * [Shane's Solution](https://github.com/shaneavila/etch-a-sketch) - [View in Browser](https://shaneavila.github.io/etch-a-sketch/)
 * [Maggies's Solution](https://mag-goertzen.github.io/etch-a-sketch/) - [View in Browser](https://mag-goertzen.github.io/etch-a-sketch/)
 * [Daryll's Solution](https://github.com/daryllrsy/etch-a-sketch) - [View in Browser](https://daryllrsy.github.io/etch-a-sketch/)
