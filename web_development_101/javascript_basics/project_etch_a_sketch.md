@@ -43,6 +43,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/etch-a-sketch-project) - [View in Browser](https://philipp-mcvity.github.io/etch-a-sketch-project/)
+* [Shane's Solution](https://github.com/shaneavila/etch-a-sketch) - [View in Browser](https://shaneavila.github.io/etch-a-sketch/)
+* [Maggies's Solution](https://mag-goertzen.github.io/etch-a-sketch/) - [View in Browser](https://mag-goertzen.github.io/etch-a-sketch/)
+* [Daryll's Solution](https://github.com/daryllrsy/etch-a-sketch) - [View in Browser](https://daryllrsy.github.io/etch-a-sketch/)
 * [Hans Nery's Solution](https://github.com/hansnery/etch_a_sketch) - [View in Browser](https://hansnery.github.io/etch_a_sketch/)
 * [Brooke's Solution](https://github.com/BrookesCodeStuff/etch-a-sketch) - [View in Browser](https://brookescodestuff.github.io/etch-a-sketch/)
 * [Jasper's Solution](https://github.com/DreadfulPhD/etch-a-sketch) - [View in Browser](https://dreadfulphd.github.io/etch-a-sketch/)
@@ -612,4 +616,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Rarysson's Solution](https://github.com/rarysson/etch-a-sketch) - [View in Browser](https://rarysson.github.io/etch-a-sketch/)
 * [Scy's Solution](https://github.com/scychu/Etch-a-Sketch) - [View in Browser](https://scychu.github.io/Etch-a-Sketch/)
 * [Guacamobley's solution](https://github.com/guacamobley/sketchpad) - [View in Browser](https://guacamobley.github.io/sketchpad/)
+* [xRedRope's solution](https://github.com/xRedRope/etch-a-sketch) - [View in Browser](https://xredrope.github.io/etch-a-sketch/)
+* [johncoryk's solution](https://github.com/johncoryk/etch-a-sketch) - [View in Browser](https://johncoryk.github.io/etch-a-sketch/)
 </details>
