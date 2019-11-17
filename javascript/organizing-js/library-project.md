@@ -45,6 +45,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [todoroff's solution](https://github.com/todoroff/book-library-app) - [View in Browser](https://todoroff.github.io/book-library-app/)
 - [Kris Tobiasson's solution](https://github.com/highpockets/books.git) - [View in Browser](https://highpockets.github.io/books/)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/library) - [View in Browser](https://edmtrv.github.io/library/)
+- [Dennis Cope's Solution](https://github.com/coped/library-project) - [View in Browser](https://coped.github.io/library-project/)
 - [Julio's solution](https://github.com/julio22b/library-top) - [View in Browser](https://julio22b.github.io/library-top/)
 - [Michael Horn's Solution](https://github.com/HornMichaelS/odin-library) - [View in Browser](https://hornmichaels.github.io/odin-library/)
 - [Anmol's Solution](https://github.com/6point022/my-library-app) - [View in Browser](https://6point022.github.io/my-library-app/)
