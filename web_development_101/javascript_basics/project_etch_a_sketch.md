@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Nyandereian's Solution](https://github.com/Nyandereian/etch-a-sketch) - [View in Browser](https://nyandereian.github.io/etch-a-sketch/)
 * [Philipp's Solution](https://github.com/philipp-mcvity/etch-a-sketch-project) - [View in Browser](https://philipp-mcvity.github.io/etch-a-sketch-project/)
 * [Shane's Solution](https://github.com/shaneavila/etch-a-sketch) - [View in Browser](https://shaneavila.github.io/etch-a-sketch/)
 * [Maggies's Solution](https://mag-goertzen.github.io/etch-a-sketch/) - [View in Browser](https://mag-goertzen.github.io/etch-a-sketch/)
@@ -606,7 +607,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Dustin Janssen's Solution](https://github.com/DustinJanssen/SketchBook) - [View in Browser](https://dustinjanssen.github.io/SketchBook/)
 * [Paul's Solution](https://github.com/faux-pas/etch-a-sketch/) - [View in Browser](https://faux-pas.github.io/etch-a-sketch/)
 * [Cowlickcoleman's Solution](https://github.com/Cowlickcoleman/etchasketch) - [View in Browser](https://cowlickcoleman.github.io/etchasketch/)
-* [Shez32's Solution](https://github.com/shez32/Etch-A-Sketch) - [View in Browser](https://shez32.github.io/Etch-A-Sketch/) 
+* [Shez32's Solution](https://github.com/shez32/Etch-A-Sketch) - [View in Browser](https://shez32.github.io/Etch-A-Sketch/)
 * [Nigel Volkmanns Solution](https://github.com/Nekolike/Etch-a-Sketch) - [View in Browser](https://nekolike.github.io/Etch-a-Sketch/)
 * [Veronika's Solution](https://github.com/veronika-s/etch-a-sketch) - [View in Browser](https://veronika.github.io/etch-a-sketch/)
 * [Vorelli's Solution](https://github.com/Vorelli/Etch-A-Sketch) - [View in Browser](https://vorelli.github.io/Etch-A-Sketch/)
