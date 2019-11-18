@@ -2613,6 +2613,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Edd Sansome's Solution (Easy)](https://casualc0der.github.io/google_homepage/) - [View in Browser](https://casualc0der.github.io/google_homepage/)
 * [DerekOwusu's Solution (Easy)](https://github.com/derekowusubekoe/google-homepage) - [View in Browser](https://derekowusubekoe.github.io/google-homepage/)
 * [Mika Bohinen's solution (Easy)](https://github.com/Confidanion/google-homepage) - [View in Browser](https://confidanion.github.io/google-homepage/)
+* [Rabinsky96's Solution (Easy)](https://https://github.com/Rabinsky96/google-homepage) - [View in Browser](https://Rabinsky96.github.io/google-homepage/)
+* [Ivan's Solution (Easy)](https://github.com/ivandjorgon/google-homepage/) - [View in Browser](https://ivandjorgon.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
