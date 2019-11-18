@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/mint-form-clone) - [View in browser](https://kikupiku.github.io/mint-form-clone/)
 * [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/02-Displaying_And_Inputting_Data/html-forms) - [View in browser](https://gradiva.github.io/mint-form-clone/)
 * [Gabriel's Solution](https://github.com/gabytzubaws/mint-signup-page) - [View in browser](https://gabytzubaws.github.io/mint-signup-page/)
+* [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/mint-signup-page) - [View in browser](https://thisismahmad.github.io/mint-signup-page/)
 * [Kevin Vuong's solution](https://github.com/fffear/html-forms) - [View in browser](https://fffear.github.io/html-forms/)
 * [Vedat's solution](https://github.com/mvedataydin/signup-form) - [View in browser](https://mvedataydin.github.io/signup-form/)
 * [Solodov's solution](https://github.com/solodov-dev/top-forms) - [View in browser](https://solodov-dev.github.io/top-forms/)
