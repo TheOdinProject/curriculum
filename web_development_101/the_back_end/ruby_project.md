@@ -31,6 +31,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ivancito's Solution](https://github.com/fivan18/learn_ruby)
 * [Robin's Solution](https://github.com/CoolGlasses/learn_ruby)
 * [Daryll's Solution](https://github.com/daryllrsy/learn_ruby)
 * [rc700's Solution](https://github.com/rc700/learn_rspec)
