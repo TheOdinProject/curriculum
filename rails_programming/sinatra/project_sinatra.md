@@ -150,6 +150,7 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Vedant's Solution: [Github](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/Sinatra/mastermind) - [Live](https://cryptic-plateau-69277.herokuapp.com/)
 * Ian's Solution (Mastermind) [Github](https://github.com/IanMKesler/sinatra_mastermind)
 * J C Gollnick's Solution (Hangman) [GitLab](https://gitlab.com/jcgollnick/hangman) [Live](http://www.jcgollnick.vip/hangman)
 * Sherman's Solution [Github](https://github.com/shermansjliu/sinatra) - [Live](https://radiant-beach-22046.herokuapp.com)
