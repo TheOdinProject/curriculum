@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [jsa44's Solution (Easy)](https://github.com/jsa44/google-homepage/) - [View in Broswer](https://jsa44.github.io/google-homepage/)
+* [Charlotte Hues' Solution (Both)](https://github.com/charlotte-hues/google-homepage) - [View in Browser](https://charlotte-hues.github.io/google-homepage/)
 * [mgrumbo's Solution (Easy)](https://github.com/mgrumbo/google-homepage/) - [View in Browser](https://mgrumbo.github.io/google-homepage/)
 * [Ceigyx's Solution (Easy)](https://ceigyx.github.io/google-homepage/) - [View in Browser](https://ceigyx.github.io/google-homepage/)
 * [TakoLee's Solution (Easy)](https://takolee713.github.io/google-homepage/) - [View in Browser](https://takolee713.github.io/google-homepage/)
@@ -2616,6 +2618,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rabinsky96's Solution (Easy)](https://https://github.com/Rabinsky96/google-homepage) - [View in Browser](https://Rabinsky96.github.io/google-homepage/)
 * [Ivan's Solution (Easy)](https://github.com/ivandjorgon/google-homepage/) - [View in Browser](https://ivandjorgon.github.io/google-homepage/)
 * [Tigerfire20's Solution (Easy)](https://github.com/Tigerfire20/google-homepage)
+* [Endia's Solution](https://github.com/endiawilliams/google-homepage) - [View in Browser](https://endiawilliams.github.io/google-homepage/)
+* [Louis Bui's Solution (Easy)](https://github.com/longlb/google-homepage) - [View in Browser](https://longlb.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

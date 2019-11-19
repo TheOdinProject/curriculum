@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Faby Giacomini's Solution](https://github.com/fabygiacomini/calculator-project) - [View in Browser](https://fabygiacomini.github.io/calculator-project/)
 - [Ivancito's Solution](https://github.com/fivan18/calculator) - [View in Browser](https://fivan18.github.io/calculator/)
 - [disco-coder's Solution](https://github.com/disco-coder/calculator) - [View in Browser](https://disco-coder.github.io/calculator/)
 - [AbdelP's Solution](https://github.com/abdelp/calculator) - [View in Browser](https://abdelp.github.io/calculator/)
