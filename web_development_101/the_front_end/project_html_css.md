@@ -2615,6 +2615,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mika Bohinen's solution (Easy)](https://github.com/Confidanion/google-homepage) - [View in Browser](https://confidanion.github.io/google-homepage/)
 * [Rabinsky96's Solution (Easy)](https://https://github.com/Rabinsky96/google-homepage) - [View in Browser](https://Rabinsky96.github.io/google-homepage/)
 * [Ivan's Solution (Easy)](https://github.com/ivandjorgon/google-homepage/) - [View in Browser](https://ivandjorgon.github.io/google-homepage/)
+* [Louis Bui's Solution (Easy)](https://github.com/longlb/google-homepage) - [View in Browser](https://longlb.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
