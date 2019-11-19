@@ -79,5 +79,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Martink-rsa's solution](https://github.com/martink-rsa/ToDoList) - [View in Browser](https://martink-rsa.github.io/ToDoList/)
 * [dvbridges solution](https://github.com/dvbridges/masterplan) - [View in Browser](https://dvbridges.github.io/masterplan/)
 * [Aron's solution](https://github.com/aronfischer/To-Do-List) - [View in Browser](https://aronfischer.github.io/To-Do-List/)
+* [JoshAubrey's solution](https://github.com/JoshAubrey/todo-list) - [View in Browser](https://joshaubrey.github.io/todo-list/)
 
 </details>
