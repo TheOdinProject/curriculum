@@ -11,7 +11,13 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
 
   1. Build a `Node` class.  It is should have attributes for the data it stores as well as its left and right children. As a bonus, try including the `Comparable` module and make nodes compare using their data attribute.
 
-  2. Write a method `#build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-1 root node.
+  2. Write a method `#build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a balanced binary tree full of `Node` objects appropriately placed. The `#build_tree` method should return the level-1 root node.
+  **Tip:** To create a balanced Binary tree, you first must sort the array (and don't forget
+  to remove the duplicate values as well). From there you will need to get to the 
+  middle of the array and make it the root of the BST. You will then need to use recursion to
+  get to the middle of the left half of the array and set that
+  value as the root's left child. Same goes for the right half of the array and the
+  root's right child. Remember, divide and conquor!
 
   2. Build a `Tree` class which accepts an array when initialized. The `Tree` class should have a `root` attribute which uses the return value of `#build_tree`.
 
