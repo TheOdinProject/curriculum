@@ -26,7 +26,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 
       ​
 5. Write a NEW function called `game()`. Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
-   1. At this point you should still just be using `console.log()` to display the results of each round and the winner at the end.
+   1. At this point you should be using `console.log()` to display the results of each round and the winner at the end.
    2. Use `prompt()` to get input from the user. [Read the docs here if you need to.](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
    3. Feel free to re-work your previous functions if you need to.  Specifically, you might want to change the return value to something more useful.
    4. Feel free to create more "helper" functions if you think it would be useful.
