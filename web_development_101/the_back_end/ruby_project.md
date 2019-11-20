@@ -601,6 +601,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Hyperturing's Solution](https://github.com/hyperturing/learn_ruby)
 * [Sean's Solution](https://github.com/seanrking/learn_ruby)
 * [guacamobley's solution](https://github.com/guacamobley/learn_ruby)
+* [Eduardo06sp's Solution](https://github.com/Eduardo06sp/learn_ruby)
 </details>
 
 ### Additional Resources
