@@ -2620,6 +2620,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tigerfire20's Solution (Easy)](https://github.com/Tigerfire20/google-homepage)
 * [Endia's Solution](https://github.com/endiawilliams/google-homepage) - [View in Browser](https://endiawilliams.github.io/google-homepage/)
 * [Louis Bui's Solution (Easy)](https://github.com/longlb/google-homepage) - [View in Browser](https://longlb.github.io/google-homepage/)
+* [Willy Wu's Solution (Easy)](https://loud-ninja.github.io/google-homepage/) - [View in Browser](https://loud-ninja.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
