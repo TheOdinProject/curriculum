@@ -357,7 +357,7 @@ var btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
 ~~~
 
-#### \(need to review arrow functions? [LINK](http://javascript.info/function-expressions-arrows#arrow-functions)\)
+#### \(need to review arrow functions? [LINK](http://javascript.info/arrow-functions-basics)\)
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property.
 
@@ -492,3 +492,4 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 * This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
 * [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media. 
 * [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. 
+* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by Digital Ocean. 

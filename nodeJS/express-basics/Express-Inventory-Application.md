@@ -22,12 +22,14 @@ Your Inventory app should have categories and items, so when the user goes to th
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/express-basics/Express-Inventory-Application.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Eljoey's Solution](https://github.com/eljoey/Game-Inventory) - [View in browser](https://immense-spire-45668.herokuapp.com/)
 - [rbkjefkj's Solution](https://github.com/rbkjefkj/inventory-app) - [View in browser](https://glacial-mountain-36822.herokuapp.com/)
 - [jdonahue135's Solution](https://github.com/jdonahue135/golf_store) - [View in browser](https://quiet-reaches-49920.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/odin-inventory-application) - [View in browser](https://aqueous-plateau-09755.herokuapp.com/)
 </details>
