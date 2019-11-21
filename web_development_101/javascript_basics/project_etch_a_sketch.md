@@ -622,4 +622,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [xRedRope's solution](https://github.com/xRedRope/etch-a-sketch) - [View in Browser](https://xredrope.github.io/etch-a-sketch/)
 * [johncoryk's solution](https://github.com/johncoryk/etch-a-sketch) - [View in Browser](https://johncoryk.github.io/etch-a-sketch/)
 * [jkraf002's solution](https://github.com/jkraf002/etch-a-sketch) - [View in Browser](https://jkraf002.github.io/etch-a-sketch/)
+* [AlexDevGioff's solution](https://github.com/AlexGioffDev/EtchASketch/) - [View in Browser](https://alexgioffdev.github.io/EtchASketch/index.html)
 </details>
