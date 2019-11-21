@@ -1030,7 +1030,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kasperbb's Solution](https://github.com/kasperbb/RockPaperScissor) - [View in Browser](https://kasperbb.github.io/RockPaperScissor/)
 - [Mansur Ahmed's solution](https://github.com/demharusnam/rock_paper_scissors_gui)- [View in Browser](https://demharusnam.github.io/rock_paper_scissors_gui/)
 - [Vicmi-Dev's Solution](https://github.com/vicmi-dev/rock-paper-scissors) 
-- [AlexGioffDev's Solution](https://github.com/AlexGioffDev/RockPaperScrissors)
+- [AlexGioffDev's Solution](https://github.com/AlexGioffDev/RockPaperScrissors) - [View in Browser](https://alexgioffdev.github.io/RockPaperScrissors/)
 - [HelixF's Solution](https://github.com/HelixF/Rock-Paper-Scissors) 
 - [Kineara's Solution](https://github.com/Kineara/rock-paper-scissors) - [View in Browser](https://kineara.github.io/rock-paper-scissors/)
 </details>
