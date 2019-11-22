@@ -2624,6 +2624,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Willy Wu's Solution (Easy)](https://github.com/loud-ninja/google-homepage/) - [View in Browser](https://loud-ninja.github.io/google-homepage/)
 * [Alex Cole's Solution (Easy)](https://github.com/rereon63/google-homepage) - [View in Browser](https://rereon63.github.io/google-homepage/)
 * [Nicole Barker's Solution (Easy)](https://nibarker.github.io/google_homepage)
+*Dean Whittens's Solution (Easy)](https://github.com/DeanWhitten/google-homepage) - [View in Browser](https://romantic-raman-1bad0d.netlify.com/)
 </details>
 
 ### Additional Resources
