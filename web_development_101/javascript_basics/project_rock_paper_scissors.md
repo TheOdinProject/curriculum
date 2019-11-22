@@ -56,7 +56,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [AlexOk564's Solution](https://github.com/AlexOk564/Rock-Paper-Scissor/)
 - [Sverrir's Solution](https://github.com/Sverrirbk/rockpapaerscissors/) - [View in Browser](https://sverrirbk.github.io/rockpapersword/)
 - [losquevedo's solution](https://github.com/losquevedo/rock-paper-scissors)
-- [Ken Yu's Solution](https://github.com/kendinh216/rockpaperscissor) - [View in Browser] (https://kendinh216.github.io/rockpaperscissor/)
+- [Ken Yu's Solution](https://github.com/kendinh216/rockpaperscissor) - [View in Browser](https://kendinh216.github.io/rockpaperscissor/)
 - [Jasper's solution](https://github.com/DreadfulPhD/rock-paper-scissors)
 - [johnbdot's Solution](https://github.com/johnbdot/rock_paper_scissors)
 - [Mary's solution](https://github.com/MaryTalvistu/rock-paper-scissors)
