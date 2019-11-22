@@ -39,6 +39,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Robin's Solution](https://github.com/CoolGlasses/advanced-building-blocks/blob/master/bubble_sort.rb)
+* [Run After's Solution](https://github.com/run-after/bubble_sort/blob/master/bubble_sort.rb)
+* [Noah T's Solution](https://github.com/noahtalerman/odin_project_solutions/blob/master/advanced_building_blocks_ruby/bubble_sort.rb)
+* [Allan Glasier's Solution](https://www.theodinproject.com/lessons/advanced-building-blocks)
+* [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby)
+* [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/advanced_building_blocks/project1/bubble_sort.rb)
+* [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/bubble_sort.rb)
+* [Carlos Diaz's Solution](https://github.com/bycdiaz/bubble-sort)
+* [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/bubble_sort.rb)
 * [mistervoga's Solution](https://github.com/mistervoga/advanced_building_blocks/blob/master/bubble_sort.rb)
 * [Chris' Solution](https://github.com/CSalois114/project_building_blocks/blob/master/bubble_sort.rb)
 * [Sherman's Solution](https://github.com/shermansjliu/advanced_ruby_building_blocks/blob/master/bubble_sort.rb)
@@ -372,8 +381,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Gareth Woodman's Solution](https://github.com/GarethWoodman/RubyBuildingBlocks/blob/master/bubble_sort.rb)
 * [Konrad Zagozda's Solution](https://github.com/konradzagozda/ruby_building_blocks/blob/master/bubble_sort.rb)
 * [Carlos Del Real's and António Fernandes's Solution](https://github.com/carloshdelreal/ruby_programming/blob/master/1_Bubble_Sort.rb)
+* [Jay Conner's Solution](https://github.com/cleve703/ruby/blob/master/bubble_sort_both.rb)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Adv_Ruby_Building_Blocks/blob/master/bubble_sort.rb)
-
+* [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/blob/master/ruby/ruby_programming/bubble_sort.rb)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Advanced_Building_Blocks/bubble_sort.rb)
+* [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
+* [DalandanJuice's SOlution](https://github.com/DalandanJuice/ruby-building-blocks/blob/master/bubble_sort.rb)
+* [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/ruby-building-blocks)
 </details>
 
 ### Project 2: Enumerable Methods
@@ -421,6 +435,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Robin's Solution](https://github.com/CoolGlasses/advanced-building-blocks/blob/master/enumerable_methods.rb)
+* [Mike Farias' Solution](https://github.com/mkezmkez/ruby-enumerables/blob/enumerables/enumerables.rb)
+* [Run After's Solution](https://github.com/run-after/enumerable/blob/master/enumerable.rb)
+* [Noah T's Solution](https://github.com/noahtalerman/odin_project_solutions/blob/master/advanced_building_blocks_ruby/enumerable_methods.rb)
+* [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby)
+* [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/advanced_building_blocks/project2/enumerable_methods.rb)
+* [proto-dylan's Solution](https://github.com/proto-dylan/enumerables/blob/master/enumerables.rb)
+* [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/my_enumerable.rb)
+* [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/my_enumerables.rb)
 * [mistervoga's Solution](https://github.com/mistervoga/advanced_building_blocks/blob/master/script_enumerable.rb)
 * [Chris' Solution](https://github.com/CSalois114/project_building_blocks/blob/master/enumerable.rb)
 * [Sherman's Solution](https://github.com/shermansjliu/advanced_ruby_building_blocks/blob/master/my-enumerable.rb)
@@ -715,6 +738,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Gareth Woodman's Solution](https://github.com/GarethWoodman/RubyBuildingBlocks/blob/master/enumerable.rb)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Adv_Ruby_Building_Blocks/blob/master/my_methods.rb)
 * [Tolulope Olusakin's Solution - Enumerable Module Methods](https://github.com/Oluwadamilareolusakin/ruby-enumerable-module-replica/tree/development)
+* [Miguel's Solution](https://github.com/mapra99/EnnumerableMethods)
+* [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/blob/master/ruby/ruby_programming/enumerable_methods.rb)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Advanced_Building_Blocks/enumerable_methods.rb)
+* [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/blob/master/enumerable/enumerable.rb)
+* [DalandanJuice's Solution](https://github.com/DalandanJuice/ruby-building-blocks/blob/master/enumerable-methods.rb)
 </details>
 
 ### Additional Resources

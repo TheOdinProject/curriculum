@@ -3,9 +3,8 @@
 As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:
 
 * Screen Sharing Options. There may be more, but these are a few of the most popular:
-  * [Screenhero](https://screenhero.com/) is a popular option, but as of December 2016 it is not open to new accounts while they are integrating with [Slack](https://slack.com/) but if you both already have Screenhero accounts, by all means use it.
-  * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/kb/PH18686).
-  * The Odin Project currently recommends [Cloud 9](https://c9.io). It's free, doesn't need to be installed, and it is easy to share your screen.
+  * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
+  * Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is a free plugin for Atom that allows you to easily share your workspace with other Atom users remotely.
 * Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
   * [Screenhero](https://screenhero.com/) has its own built in voice chat, but as mentioned above, unless you already have an account you are currently out of luck.
   * Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
@@ -15,14 +14,15 @@ As you learned in the last lesson, pairing in person is the best option, but if 
 
 ### Installing the Software
 
-  [Cloud 9](https://c9.io) is an online IDE that works out of your web browser so you don't need to install anything on your local computer. Just type in the email address in the middle of the screen and follow the prompts. If you have a [Github](https://github.com/) account, you can then link your Cloud 9 account to it.
+  If you're interested in using Teletype for Atom, you must first install [Atom](https://atom.io) (you can learn more about this text editor in the [Text Editors](https://www.theodinproject.com/courses/web-development-101/lessons/text-editors) section).
 
-**(Cloud 9 will ask for a credit card number as part of its procedure to make sure you are not a bot. It doesn't keep the information after you have been verified and it does not charge anything on the card.)**
+  With Atom installed, go to `Settings > Install`, and search for `Teletype`. In the search results, click on the `Install` button. More detailed instructions on package installation in Atom for your OS can be [found here](https://flight-manual.atom.io/using-atom/sections/atom-packages/) if you run into trouble.
 
-  If you want, you can use group chat window under the `collaborate` tab on the upper right side of your screen to start, but that is technically collaboration, not pairing. You will eventually want to sign up for and use one of the voice communication options above. You can just keep it open in another tab or minimized.
+  With Teletype now installed, open up the workspace you wish to share. On the bottom left-hand corner of your editor window, you will see an icon that looks like a radio tower, click on that icon. 
 
-  Once you have your account set up in Cloud 9, create a new workspace to start your project. You can link it to a Github repository, but that is not necessary right away. Initiating sharing is as simple as sharing the link to the workspace with your partner. They can click the link and you can accept them and just like that, you can both see and edit in real time the project you are working on.
+  The first time you attempt to share a workspace, a pop-up will appear, asking you to login to Github to generate an authentication token. Simply click on the link in the pop-up to authenticate with Github. You will be redirected to a page with an authentication token you can copy, then paste back into Atom. You should now be able to generate a link you can share for others to join your workspace remotely to pair program.
 
+  You can watch a detailed video on how to use Teletype [here](https://teletype.atom.io/).
 
 ### Finding a Partner
 

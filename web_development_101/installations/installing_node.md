@@ -1,6 +1,6 @@
 ### Introduction
 
-Node is a JavaScript intreperter that doesn't run in the browser, there are many tools that require this to be installed. Testing frameworks and bundlers are two of many.
+Node is a JavaScript interpreter that doesn't run in the browser, there are many tools that require this to be installed. Testing frameworks and bundlers are two of many.
 
 We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change node versions and upgrade node.  There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in javascript environment.  It can be easy to confuse these two so read carefully!
 
@@ -34,7 +34,15 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ~~~
 
-if this returns `nvm: command not found` close the terminal and re-open it. Then try running the above command again. If you get anything else, you're good to continue!
+if this returns `nvm: command not found` close the terminal and re-open it.
+
+On OS X you may continue to see the same message. If this happens, open your .bash_profile and add the following line of code:
+~~~
+source ~/.bashrc
+~~~
+For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+
+Then try running the above command again. If you get anything else, you're good to continue!
 
 ### Step 2: Installing Node
 
@@ -48,7 +56,7 @@ Run:
 nvm install node
 ~~~
 
-This will install the most recent verson of node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
+This will install the most recent version of node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
 
 ~~~bash
 Downloading and installing node v12.6.0...

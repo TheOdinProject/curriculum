@@ -57,11 +57,11 @@ In the chat rooms and forums, code can be displayed differently from normal sent
 
 \`\`\`
 
-#use three backticks on a separate line ABOVE your code
+`#use three backticks on a separate line ABOVE your code`
 
 Your Code
 
-#use three backticks on a separate line BELOW your code
+`#use three backticks on a separate line BELOW your code`
 
 \`\`\`
 

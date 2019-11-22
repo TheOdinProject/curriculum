@@ -27,6 +27,12 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's solution](https://github.com/fffear/responsive-design) - [View in browser](https://fffear.github.io/responsive-design/)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/tnw-clone) - [View in Browser](https://braxtonlemmon.github.io/tnw-clone/)
+* [Joan Currie's Solution](https://github.com/JECurrie/google-homepage/) - [View in Browser](https://jecurrie.github.io/google-homepage/)
+* [David Auza's and Eduardo Reis's Solution](https://github.com/davidauza-engineer/Building-with-Responsive-Design) - [View in Browser](https://davidauza-engineer.github.io/Building-with-Responsive-Design/)
+* [David Tan's solution](https://github.com/davecmd/the-next-web-responsive-design-replica) - [View in browser](https://davecmd.github.io/the-next-web-responsive-design-replica/)
+* [Learnsometing's solution](https://github.com/learnsometing/responsive-design) - [View in browser](https://learnsometing.github.io/responsive-design/)
 * [Bojo's solution](https://github.com/BojoZahariev/TheNextWeb-homepage) - [View in browser](https://bojozahariev.github.io/TheNextWeb-homepage/)
 * [bcikota's solution](https://github.com/bcikota/the_next_web) - [View in browser](https://bcikota.github.io/the_next_web/)
 * [Ohlie's solution](https://github.com/lco1220/theNextWeb_RWD) - [View in browser](https://lco1220.github.io/theNextWeb_RWD)
@@ -78,7 +84,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/The-next-web) - [View in browser](https://areebaishtiaq.github.io/The-next-web/)
 * [Taylor J's solution](https://github.com/taylorjohannsen/thenextwebmockup) - [View in browser](https://taylorjohannsen.github.io/thenextwebmockup/)
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/carloshdelreal/building-with-responsive-design) - [View in browser](https://carloshdelreal.github.io/building-with-responsive-design/)
-
+* [Halkim's Solution](https://github.com/halkim44/thenextweb-clone) - [View in browser](https://halkim44.github.io/thenextweb-clone/)
+* [Aron's Solution](https://github.com/aronfischer/responsive-TNV-homepage) - [View in browser](https://aronfischer.github.io/responsive-TNV-homepage/)
 </details>
 
 ### Additional Resources

@@ -19,6 +19,13 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bojo's solution](https://github.com/BojoZahariev/Weather-App) - [View in Browser](https://bojozahariev.github.io/Weather-App/)
+* [Igorashs's solution](https://github.com/igorashs/vue-weather-app) - [View in Browser](https://igorashs.github.io/vue-weather-app/)
+* [Vedat's solution](https://github.com/mvedataydin/react-weather) - [View in Browser](https://mvedataydin.github.io/react-weather/)
+* [Solodov's solution](https://github.com/solodov-dev/drops) - [View in Browser](https://solodov-dev.github.io/drops/)
+* [John Paul's solution](https://github.com/Omulosi/weather-app) - [View in Browser](https://omulosi.github.io/weather-app/)
+* [Henry M. Kirya's solution](https://github.com/harrika/oikendi) - [View in Browser](https://sveather.herokuapp.com/index.html)
+* [Eljoey's Solution](https://github.com/eljoey/weather-2) - [View in Browser](https://eljoey.github.io/weather-2/)
 * [ARaut9's solution](https://github.com/ARaut9/weather_app) - [View in browser](https://araut9.github.io/weather_app/)
 * [Jason McKee's solution](https://github.com/jttmckee/vue-weather-app) - [View in browser](https://jttmckee.github.io/vue-weather-app/)
 * [Max Garbers's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/weather) - [Live preview](https://bubblebooy.github.io/Odin-Javascript/weather/build/index.html)
@@ -44,5 +51,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Taylor J's solution](https://github.com/taylorjohannsen/weather-app) - [View in browser](https://taylorjohannsen.github.io/weather-app/)
 * [Halkim's solution](https://github.com/halkim44/react-weather-app) - [View in browser](https://halkim44.github.io/react-weather-app/)
 * [JamCry's solution](https://github.com/jamcry/js-weather-app) - [View in Browser](https://jamcry.github.io/js-weather-app/)
-
+* [Yash Boura's solution](https://github.com/yashboura303/weatherappReact) - [View in Browser](https://yashweatherapp.netlify.com/) 
 </details>

@@ -212,7 +212,14 @@ div.setAttribute('style', 'color: blue; background: white');
 
 See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
 
-Generally style rules are the same as in CSS with the exception that hyphenated rules are changed to camelCase. I.E. "background-color" becomes "backgroundColor".
+Note that if you're accessing a kebab-cased css rule from JS, you'll either need to use camelcase or you'll need to use bracket notation instead of dot notation.
+
+~~~JavaScript
+div.style.background-color // doesn't work - attempts to subtract color from div.style.background
+div.style.backgroundColor // accesses the divs background-color style
+div.style['background-color'] // also works
+div.style.cssText = "background-color: white" // ok in a string
+~~~
 
 #### Editing Attributes
 
@@ -267,7 +274,7 @@ div.innerHTML = '<span>Hello World!</span>';
 Let's take a minute to review what we've covered and give you a chance to practice this stuff before moving on.  Check out this example of creating and appending a DOM element to a webpage.
 
 ~~~html
-// your html file:
+<!-- your html file: -->
 <body>
   <h1>
     THE TITLE OF YOUR WEBPAGE
@@ -290,7 +297,7 @@ container.appendChild(content);
 In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
 
 ~~~html
-// The DOM
+<!-- The DOM -->
 <body>
   <h1>
     THE TITLE OF YOUR WEBPAGE
@@ -340,7 +347,7 @@ This solution is less than ideal because we're cluttering our HTML with JavaScri
 #### method 2
 
 ~~~HTML
-// the html file
+<!-- the html file -->
 <button id="btn">Click Me</button>
 ~~~
 
@@ -350,14 +357,14 @@ var btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
 ~~~
 
-#### \(need to review arrow functions? [LINK](http://javascript.info/function-expressions-arrows#arrow-functions)\)
+#### \(need to review arrow functions? [LINK](http://javascript.info/arrow-functions-basics)\)
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property.
 
 #### method 3
 
 ~~~html
-// the html file
+<!-- the html file -->
 <button id="btn">Click Me Too</button>
 ~~~
 
@@ -374,8 +381,8 @@ Now, we maintain separation of concerns, and we also allow multiple event listen
 Note that all 3 of these methods can be used with named functions like so:
 
 ~~~html
-// the html file
-// METHOD 1
+<!-- the html file -->
+<!-- METHOD 1 -->
 <button onclick="alertFunction()">CLICK ME BABY</button>
 ~~~
 
@@ -478,7 +485,11 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 * [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
 * [DOM Enlightenment](http://domenlightenment.com/)
+* [Dynamic style - manipulating CSS with JavaScript](https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript)
 * [JavaScript30](https://JavaScript30.com)
 * [An introduction to DOM](https://leila-alderman.github.io/javascript/2018/12/05/Intro-to-the-Document-Object-Model.html)
 * If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
 * This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
+* [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media. 
+* [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. 
+* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by Digital Ocean. 
