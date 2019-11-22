@@ -2622,6 +2622,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Endia's Solution](https://github.com/endiawilliams/google-homepage) - [View in Browser](https://endiawilliams.github.io/google-homepage/)
 * [Louis Bui's Solution (Easy)](https://github.com/longlb/google-homepage) - [View in Browser](https://longlb.github.io/google-homepage/)
 * [Alex Cole's Solution (Easy)](https://github.com/rereon63/google-homepage) - [View in Browser](https://rereon63.github.io/google-homepage/)
+Nicole Barker's Solution (Easy) https://nibarker.github.io/google_homepage
 </details>
 
 ### Additional Resources
