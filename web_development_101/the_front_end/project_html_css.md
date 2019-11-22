@@ -2544,7 +2544,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Impulse Dev's Solution (Easy)](https://github.com/impulsedevlog/google-homepage) - [View in Browser](https://impulsedevlog.github.io/google-homepage/)
 * [akayjo's Solution (Easy)](https://github.com/impulsedevlog/google-homepage) - [View in Browser](https://akayjo.github.io/google-homepage/)
 * [Kelsey's Solution (Easy)](https://kelsey-myers.github.io/google-homepage/) - [View in Browser](https://kelsey-myers.github.io/google-homepage/)
-* [disco-coder's Solution (Easy)](https://github.com/disco-coder/google-homepage) - [View in Browser](https://disco-coder.github.io/google-homepage/)
+* [Disco Trooper's Solution (Easy)](https://github.com/disco-trooper/google-homepage) - [View in Browser](https://disco-trooper.github.io/google-homepage/)
 * [movealongg's Solution (Easy)](https://github.com/movealongg/google-homepage) - [View in Browser](https://movealongg.github.io/google-homepage/)
 * [Chad Emery's Solution (Easy)](https://github.com/cemery65/google-homepage) - [View in Browser](https://cemery65.github.io/google-homepage/)
 * [Chad Emery's Solution (Advanced)](https://github.com/cemery65/google-homepage-advanced) - [View in Browser](https://cemery65.github.io/google-homepage-advanced/)

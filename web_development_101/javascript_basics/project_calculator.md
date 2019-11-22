@@ -49,7 +49,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joshysmart's Solution](https://github.com/joshysmart/javascript-calculator/) - [View in Browser](https://joshysmart.github.io/javascript-calculator/)
 - [Faby Giacomini's Solution](https://github.com/fabygiacomini/calculator-project) - [View in Browser](https://fabygiacomini.github.io/calculator-project/)
 - [Ivancito's Solution](https://github.com/fivan18/calculator) - [View in Browser](https://fivan18.github.io/calculator/)
-- [disco-coder's Solution](https://github.com/disco-coder/calculator) - [View in Browser](https://disco-coder.github.io/calculator/)
+- [Disco Trooper's Solution](https://github.com/disco-trooper/calculator) - [View in Browser](https://disco-trooper.github.io/calculator/)
 - [AbdelP's Solution](https://github.com/abdelp/calculator) - [View in Browser](https://abdelp.github.io/calculator/)
 - [Luke's Solution](https://github.com/LukePritchett/calculator) - [View in Browser](https://lukepritchett.github.io/calculator/)
 - [Fernis' Solution](https://github.com/Menneskefernis/calculator) - [View in Browser](https://menneskefernis.github.io/calculator/)
