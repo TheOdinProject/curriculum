@@ -57,7 +57,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Brett's Solution](https://github.com/BrettStapleton/Etch-a-Sketch) - [View in Browser](https://brettstapleton.github.io/Etch-a-Sketch/)
 * [Joshysmarty's Solution](https://github.com/joshysmart/etch-a-sketch) - [View in Browser](https://joshysmart.github.io/etch-a-sketch/)
 * [Andrew S's Solution](https://github.com/CGoldMonkey/etch-a-sketch) - [View in Browser](https://cgoldmonkey.github.io/etch-a-sketch/)
-* [disco-coder's Solution](https://github.com/disco-coder/etch-a-sketch) - [View in Browser](https://disco-coder.github.io/etch-a-sketch/)
+* [Disco Trooper's Solution](https://github.com/disco-trooper/etch-a-sketch) - [View in Browser](https://disco-trooper.github.io/etch-a-sketch/)
 * [Will's Solution](https://github.com/GroverW/site/tree/master/projects/etch-a-sketch) - [View in Browser](https://groverw.github.io/site/projects/etch-a-sketch/index.html)
 * [Noelle's Solution](https://github.com/elleon003/etch-a-sketch) - [View in Browser](https://elleon003.github.io/etch-a-sketch/)
 * [Helmi's Solution](https://github.com/helmihidzir/odin_etch_a_sketch) - [View in Browser](https://helmihidzir.github.io/odin_etch_a_sketch/)
@@ -622,4 +622,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [xRedRope's solution](https://github.com/xRedRope/etch-a-sketch) - [View in Browser](https://xredrope.github.io/etch-a-sketch/)
 * [johncoryk's solution](https://github.com/johncoryk/etch-a-sketch) - [View in Browser](https://johncoryk.github.io/etch-a-sketch/)
 * [jkraf002's solution](https://github.com/jkraf002/etch-a-sketch) - [View in Browser](https://jkraf002.github.io/etch-a-sketch/)
+* [AlexDevGioff's solution](https://github.com/AlexGioffDev/EtchASketch/) - [View in Browser](https://alexgioffdev.github.io/EtchASketch/index.html)
+* [Eric Fetterolf's solution](https://github.com/ericfetterolf/etch-a-sketch) - [View in Browser](https://ericfetterolf.github.io/etch-a-sketch/)
 </details>
