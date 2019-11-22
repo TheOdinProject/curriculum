@@ -1,25 +1,48 @@
-### Project 1: Searching Binary Trees
+### Project 1: Binary Search Trees
 
 You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".
 
-You also learned about tree search algorithms like breadth-first-search and depth-first-search.  You learned that BFS is best used to find the optimum solution but can take a very long time (impractically long for broad and deep data sets) while DFS is often much faster but will give you the FIRST solution, not necessarily the best.  Here you'll get a chance to implement both.
+You also learned about tree traversal algorithms like breadth-first and depth-first which we'll attempt to implement here.
 
 ### Assignment 1
-You'll build a simple binary tree data structure from some arbitrary input and also the "crawler" function that will locate data inside of it.
+You'll build a simple binary search tree in this assignment. In this lesson, our tree won't handle duplicate values as they are more complicated and result in trees that are much harder to balance. Be sure to always remove duplicate values or check for an existing value before inserting.
 
 <div class="lesson-content__panel" markdown="1">
-  1. Build a class `Node`.  It should have a `value` that it stores and also links to its parent and children (if they exist).  Build getters and setters for it (e.g. parent node, child node(s)).
-  2. Write a method `build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a binary tree full of `Node` objects appropriately placed.  Start by assuming the array you get is sorted.
-  3. Now refactor your `build_tree` to handle data that isn't presorted and cannot be easily sorted prior to building the tree.  You'll need to figure out how to add a node for each of the possible cases (e.g. if it's a leaf versus in the middle somewhere).
-  3. Write a simple script that runs `build_tree` so you can test it out.
-  5. Build a method `breadth_first_search` which takes a target value and returns the node at which it is located using the breadth first search technique.  **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to search and to add new ones to the list (as you saw in the [video](https://youtu.be/9RHO6jU--GU)).  If the target node value is not located, return `nil`.
-  4. Build a method `depth_first_search` which returns the node at which the target value is located using the depth first search technique.  Use an array acting as a *stack* to do this.
-  5. Next, build a new method `dfs_rec` which runs a depth first search as before but this time, instead of using a stack, make this method recursive.
-  6. Tips:
 
-    1. You can think of the `dfs_rec` method as a little robot that crawls down the tree, checking if a node is the correct node and spawning other little robots to keep searching the tree.  No robot is allowed to turn on, though, until all the robots to its left have finished their task.
-    2. The method will need to take in both the target value and the current node to compare against.
+  1. Build a `Node` class.  It is should have attributes for the data it stores as well as its left and right children. As a bonus, try including the `Comparable` module and make nodes compare using their data attribute.
 
+  2. Write a method `#build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-1 root node.
+
+  2. Build a `Tree` class which accepts an array when initialized. The `Tree` class should have a `root` attribute which uses the return value of `#build_tree`.
+
+  3. Write an `#insert` and `#delete` method which accepts a value to insert/delete (you'll have to deal with several cases for delete such as when a node has children or not).
+
+  4. Write a `#find` method which accepts a value and returns the node with the given value.
+
+  5. write a `#level_order` method which accepts a block. The method should traverse the tree in breadth-first level order and yield each node to the provided block. This method can be implemented using either iteration or recursion (try implementing both!). As a bonus, make the method return an array of values if no block is given.
+  **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://youtu.be/9RHO6jU--GU)).
+
+  6. Write `#inorder`, `#preorder`, and `#postorder` methods which accept a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. As a bonus, make the method return an array of values if no block is given.
+
+  7. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
+
+  8. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree is not more than 1.
+
+  9. Write a `#rebalance!` method which rebalances an unbalanced tree.
+  **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+
+  10. Write a simple driver script that does the following:
+
+    1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
+    2. Confirm that the tree is balanced by calling `#balanced?`
+    3. Print out all elements in level, pre, post, and in order
+    4. try to unbalance the tree by adding several numbers > 100
+    5. Confirm that the tree is unbalanced by calling `#balanced?`
+    6. Balance the tree by calling `#rebalance!`
+    7. Confirm that the tree is balanced by calling `#balanced?`
+    8. Print out all elements in level, pre, post, and in order
+
+Pat yourself on the back! As a super-duper bonus, notice how all the depth-first methods share a similar signature and are basically just a re-arrangement of the same 3 lines... try dynamically declaring the three methods using metaprogamming techniques like `#define_method`.
 </div>
 
 ### Student Solutions
@@ -29,6 +52,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/binary_search_tree)
 * [Ian's Solution](https://github.com/IanMKesler/binary_tree)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
 * [Chris' Solution](https://github.com/CSalois114/project_searching_binary_trees/blob/master/searching_binary_trees.rb)
@@ -172,6 +196,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/binary_tree.rb)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/binary-search-tree)
+* [Drew Goddyn's solution](https://github.com/Drew-Goddyn/binary_search_tree)
+* [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
 
 </details>
 
@@ -219,6 +245,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/knights_travails)
 * [Ian's Solution](https://github.com/IanMKesler/knight-s_travails)
 * [Chris' Solution](https://github.com/CSalois114/project_knight_moves/blob/master/knight_moves.rb)
 * [JFAldridge's Solution](https://github.com/JFAldridge/knight_moves)
@@ -361,4 +388,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/knight_moves/blob/master/knight_moves.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/knight-moves)
 * [Husseinhewehii's solution](https://github.com/Husseinhewehii/Knight_Moves)
+* [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/knights_travails)
+
 </details>

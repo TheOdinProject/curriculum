@@ -48,6 +48,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Julio's Solution](https://github.com/julio22b/restaurant-page) - [View in Browser](https://julio22b.github.io/restaurant-page/)
+- [Esteban's Solution](https://github.com/estebanmoroy/restaurant-page) - [View in Browser](https://estebanmoroy.github.io/restaurant-page)
+- [Luky's Solution](https://github.com/lcyne/restaurant-page) - [View in Browser](https://lcyne.github.io/restaurant-page)
 - [Igorashs's Solution](https://github.com/igorashs/restaurant-page) - [View in Browser](https://igorashs.github.io/restaurant-page/)
 - [Jacavena's Solution](https://github.com/Jacavena/restaurant-page) - [View in Browser](https://jacavena.github.io/restaurant-page/)
 - [Etheon's Solution](https://github.com/Etheonor/TOP-Restaurant-page) - [View in Browser](https://etheonor.github.io/TOP-Restaurant-page/)
@@ -98,5 +101,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Harry Coburn's solution](https://github.com/mattibun/odin-restaurant)
 - [Martink-rsa's solution](https://github.com/martink-rsa/restaurant-page) - [View in Browser](https://martink-rsa.github.io/restaurant-page/)
 - [JoshAubrey's solution](https://github.com/JoshAubrey/restaurant-page) - [View in Browser](https://joshaubrey.github.io/restaurant-page/)
+- [Aron's solution](https://github.com/aronfischer/Restaurant-page) - [View in Browser](https://aronfischer.github.io/Restaurant-page/)
+- [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/restaurant_page)
 
 </details>

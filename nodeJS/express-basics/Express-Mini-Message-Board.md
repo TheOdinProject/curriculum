@@ -32,10 +32,10 @@ const messages = [
 ~~~
 
 6. With your form set up like this, when you click on the submit button it should send a POST request to the url specified by the action attribute, so go back to your index router and add an `app.post()` for `"/new"`.
-7. To actually get and use the data from your form you should be able to access the contents of your form inside `app.post()` as an object called `req.body`. The individual fields inside the body object are named according to the `name` attribute on your inputs (the value of `<input name="message-text">` will show up as `req.body.message-text` inside the `app.post` function).
+7. To actually get and use the data from your form you should be able to access the contents of your form inside `app.post()` as an object called `req.body`. The individual fields inside the body object are named according to the `name` attribute on your inputs (the value of `<input name="messageText">` will show up as `req.body.messageText` inside the `app.post` function).
 8. In your `app.post()` take the contents of the form submission and push them into the messages array as an object that looks something like this:
 ~~~javascript
-messages.push({text: messageText, user: messageUser, added: new Date()})
+messages.push({text: messageText, user: messageUser, added: new Date()});
 ~~~
 
 9. At the end of the `app.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
@@ -43,8 +43,8 @@ messages.push({text: messageText, user: messageUser, added: new Date()})
 11. Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
 ~~~json
 "engines": {
-    "node": "10.x.y"
-  },
+  "node": "10.x.y"
+},
 ~~~
 12. Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it:
 ```
@@ -68,6 +68,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [MikkRou's Solution](https://github.com/MikkRou/mini-message-board) - [View in Browser](https://quiet-wave-64873.herokuapp.com/)
+- [Ryan Lewin's Solution](https://github.com/ryan-lewin/mini-message-board) - [View in Browswer](https://morning-stream-91838.herokuapp.com/)
+- [Eljoey's Solution](https://github.com/eljoey/message_board) - [View in Browswer](https://salty-river-84330.herokuapp.com/)
+- [Vedat's Solution](https://github.com/mvedataydin/express-message-board) - [View in Browser](https://immense-woodland-14248.herokuapp.com/)
 - [Henry Kirya](https://github.com/harrika/messakira) - [View in Browser](https://messakira.herokuapp.com/)
 - [djolesusername's Solution](https://messages2019.herokuapp.com/) - [View in Browser](https://messages2019.herokuapp.com/)
 - [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/mini_msg_board) - [View in browser](https://minimsgboard--briantuju.repl.co)
@@ -78,4 +82,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Jake's Solution](https://github.com/jdonahue135/miniMessageBoard) - [View in Browser](https://sheltered-hollows-81080.herokuapp.com/)
 - [Andrécio's Solution](https://github.com/andreciobezerra/Messages-board) - [View in Browser](https://safe-wave-54774.herokuapp.com/)
 - [Ifeanyichukwu's Solution](https://github.com/Anyitechs/Message_boardApp) - [View in Browser](https://boiling-temple-35917.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/mini-message-board) - [View in Browser](https://odin-mini-message-board.herokuapp.com/)
 </details>

@@ -4,7 +4,7 @@ There are a few extremely common types of data that you will encounter in Javasc
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* What are the seven data types of javascript?
+* What are the eight data types of javascript?
 * Which data type is NOT primitive?
 * What is the difference between single, double, and backtick quotes for strings?
 * Which type of quote lets you embed variables/expressions into a string?
@@ -35,11 +35,12 @@ Depending on what kind of work you're doing, you might end up working more with 
 
 Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that.
 
-1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison) and [logical operators](http://javascript.info/logical-operators).
+1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison).
 2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
-3. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
-4. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) And more importantly offers the usual 'tasks' at the bottom of the page!
-5. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
+3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators.
+4. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
+5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) And more importantly offers the usual 'tasks' at the bottom of the page!
+6. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
 
 ### Practice
 
