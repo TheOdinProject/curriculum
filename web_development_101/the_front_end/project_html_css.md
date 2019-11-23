@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [EmilioAK's Solution (Hard)](https://github.com/EmilioAK/google-results-page) - [View in Browser](https://emilioak.github.io/google-results-page/)
+* [EmilioAK's Solution (Easy)](https://github.com/EmilioAK/google-homepage) - [View in Browser](https://emilioak.github.io/google-homepage/index.html)
 * [Rae-Kwon's Solution (Easy)](https://github.com/Rae-Kwon/google-homepage) - [View in Browser](https://rae-kwon.github.io/google-homepage/)
 * [jsa44's Solution (Easy)](https://github.com/jsa44/google-homepage/) - [View in Broswer](https://jsa44.github.io/google-homepage/)
 * [Charlotte Hues' Solution (Both)](https://github.com/charlotte-hues/google-homepage) - [View in Browser](https://charlotte-hues.github.io/google-homepage/)
