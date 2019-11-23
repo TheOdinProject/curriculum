@@ -2626,6 +2626,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Willy Wu's Solution (Easy)](https://github.com/loud-ninja/google-homepage/) - [View in Browser](https://loud-ninja.github.io/google-homepage/)
 * [Alex Cole's Solution (Easy)](https://github.com/rereon63/google-homepage) - [View in Browser](https://rereon63.github.io/google-homepage/)
 * [Nicole Barker's Solution (Easy)](https://nibarker.github.io/google_homepage)
+* [Andrew Huntington's Solution (Easy)](https://github.com/AndrewHuntington/google-homepage) - [View in Browser](https://andrewhuntington.github.io/google-homepage/)
+* [Andrew Huntington's Solution (Difficult)](https://github.com/AndrewHuntington/google-results-page) - [View in Browser](https://andrewhuntington.github.io/google-results-page/)
 * [Zach Meyer's Solution (Easy)](https://github.com/zachmmeyer/google-homepage) - [View in Browser](https://zachmmeyer.github.io/google-homepage/)
 * [Anthony Raborn's Solution (Easy)](https://github.com/AnthonyRaborn/google-homepage)
 </details>
