@@ -5,7 +5,7 @@ You will often find yourself writing code that does the same thing in different 
 
 This concept allows for what programmers refer to as the **DRY** approach to programming: **Don't Repeat Yourself**. Recycling sections of code instead of repeating them throughout your programs can make your program more readable and manageable.
 
-As you read more about Ruby methods, you'll notice that the terms "methods" and "functions" are often used interchangably. What's the difference? According to [The Ruby Programming Language](https://www.amazon.com/dp/0596516177/?tag=stackoverfl08-20) book:
+As you read more about Ruby methods, you'll notice that the terms "methods" and "functions" are often used interchangeably. What's the difference? According to [The Ruby Programming Language](https://www.amazon.com/dp/0596516177/?tag=stackoverfl08-20) book:
 
 > Many languages distinguish between functions, which have no associated object, and methods, which are invoked on a receiver object. Because Ruby is a purely object-oriented language, all methods are true methods and are associated with at least one object.
 

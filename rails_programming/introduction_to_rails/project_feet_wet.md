@@ -15,10 +15,10 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 1. If you haven't already, do the [your first rails application](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** (at least) and **Ruby 2** working properly.
-2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.railstutorial.org/book/beginning).
+2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/beginning).
 3. If you haven't done either of these, you should go back to the [Web Development 101](/courses/web-development-101) course and at least do the [Web Development Frameworks section](/courses/web-development-101/#web-development-frameworks).
 
-4. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.railstutorial.org/book/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above, you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over GitHub because bitbucket has free private repos. However, GitHub [recently announced](https://blog.github.com/2019-01-07-new-year-new-github/) that they now also offer free private repos. If you choose to make your repositories private, keep in mind that your solution will not be able to be viewed by others.  If you feel a little lost, it might not hurt to go back and re-read Chapter 1.
+4. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above, you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over GitHub because bitbucket has free private repos. However, GitHub [recently announced](https://blog.github.com/2019-01-07-new-year-new-github/) that they now also offer free private repos. If you choose to make your repositories private, keep in mind that your solution will not be able to be viewed by others.  If you feel a little lost, it might not hurt to go back and re-read Chapter 1.
 </div>
 
 ### Student Solutions
@@ -30,7 +30,11 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/toy_app) - [Live](https://evening-basin-88314.herokuapp.com/)
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/toy_app) - [Live](https://fast-scrubland-64335.herokuapp.com/users)
+* [Ian's solution](https://github.com/IanMKesler/rails_toy_app) - [Live](https://whispering-journey-28034.herokuapp.com)
+* [Sherman's Solution](https://github.com/shermansjliu/toy-app)
+* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/toy_app) - [Live](https://evening-basin-88314.herokuapp.com/)
+* [Carlos Diaz's Solution](https://github.com/bycdiaz/toy_app) - [Live](https://fathomless-dawn-20866.herokuapp.com/)
 * [Kevin Vuong's Solution](https://github.com/fffear/toy_app) - [Live](https://agile-depths-49455.herokuapp.com/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/toy_app) - [Live](https://sheltered-headland-99847.herokuapp.com/)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/toy_app) - [Live](https://dry-plateau-33966.herokuapp.com/users)
@@ -146,5 +150,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [JamCry's Solution](https://github.com/jamcry/rails-toy-app) - [Heroku](https://jamcry-toy-app.herokuapp.com/)
 * [Andre Roy's Solution](https://github.com/RoyNyaga/toy_app_odin_project)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/rails_feet_wet) - [Heroku](https://lit-castle-34505.herokuapp.com/)
-
+* [Robert Dunbar's Solution](https://github.com/RobertDunbar/toy-app) - [Heroku](https://hidden-brushlands-06627.herokuapp.com)
+* [Rey's Solution](https://github.com/Rey810/Toy-App) - [Heroku](https://whispering-mountain-63621.herokuapp.com)
+* [Miguel's Solution](https://github.com/mapra99/toyApp)
 </details>

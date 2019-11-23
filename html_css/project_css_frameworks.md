@@ -33,6 +33,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Auza's and Eduardo Reis's Solution](https://github.com/eduardoreisalvarenga/CSS_Framework) - [View in Browser](https://rawcdn.githack.com/eduardoreisalvarenga/CSS_Framework/5aa808211fb83ef5e0715770a5820bf9cfa1ff48/index.html)
 * [ARaut9's solution - Framework](https://github.com/ARaut9/css_framework) - [View in browser](https://araut9.github.io/css_framework/test.html)
 * [ARaut9's solution - Example Site](https://github.com/ARaut9/itunes_clone) - [View in browser](https://araut9.github.io/itunes_clone/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/framework) - [View in browser](https://n00bg1rl.github.io/framework/)
@@ -58,6 +59,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [aznafro's CSS Framework - Flik](https://github.com/aznafro/flik) - [Final Project Git Page](https://github.com/aznafro/natgeo) - [View site in browser](https://aznafro.github.io/natgeo/)
 * [Oluwadamilare Olusakin's CSS Framework - Sphinx](https://github.com/Oluwadamilareolusakin/sphinx)
 * [Carlos Del Real's and Gabriela Cruz's Solutions](https://github.com/carloshdelreal/caby_cssframework) - [Example Site](https://carloshdelreal.github.io/caby_cssframework/)
+* [Ohlie's Solutions](https://github.com/lco1220/grid_based_framework) - [Example Site](https://lco1220.github.io/grid_based_framework/)
 </details>
 
 ### Additional Resources

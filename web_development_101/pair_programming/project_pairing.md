@@ -32,10 +32,22 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/pomodoro) - [View in Browser](https://gbadesimple.github.io/pomodoro/)
+* [Cody's Solution](https://github.com/codydegen/pomodoro_technique) - [View in Browser](https://codydegen.github.io/pomodoro_technique/)
+* [Lou Vang's Solution](https://github.com/louvang/pomodoro) - [View in Browser](https://louvang.github.io/pomodoro/)
+* [John Piatras' Solution](https://github.com/JohnPiatras/pomodoro) - [View in Browser](https://johnpiatras.github.io/pomodoro)
+* [Khalil O's Solution](https://github.com/Kh4lil/Pomodoro-App) - [View in Browser](https://kh4lil.github.io/Pomodoro-App/)
+* [Kris Tobiasson's Solution](https://github.com/highpockets/pomodoro-clock.git) - [View in Browser](https://highpockets.github.io/pomodoro-clock/)
+* [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/pomodoro-clock) - [View in Browser](https://kikupiku.github.io/pomodoro-clock/)
+* [Hammad Ahmed's Solution](https://github.com/shammadahmed/pomodoro_timer) - [View in Browser](https://shammadahmed.github.io/pomodoro_timer/)
+* [Michael Horn's Solution](https://github.com/HornMichaelS/pomodoro) - [View in Browser](https://hornmichaels.github.io/pomodoro/)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/pomodoro-clock) - [View in Browser](https://amdrija.github.io/pomodoro-clock/)
+* [Ann Nguyen's Solution](https://github.com/ann-codes/javascript-pomodoro-clock) - [View in Browser](https://ann-codes.github.io/javascript-pomodoro-clock/)
 * [proto-dylan's Solution](https://github.com/proto-dylan/Pomodoro) - [View in Browser](https://proto-dylan.github.io/Pomodoro/)
 * [mistervoga's Solution](https://github.com/mistervoga/pomodoro) - [View in Browser](https://mistervoga.github.io/pomodoro/)
 * [mvedataydin's Solution](https://github.com/mvedataydin/pomodoro_timer) - [View in Browser](https://mvedataydin.github.io/pomodoro_timer/)
 * [Eljoey's Solution](https://github.com/eljoey/Pomodoro-Clock) - [View in Browser](https://eljoey.github.io/Pomodoro-Clock/)
+* [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/pomodoro-clock) - [View in Browser](https://thisismahmad.github.io/pomodoro-clock/)
 * [Dennis' Solution](https://github.com/DennisKraaijeveld/PomodoroClock) - [View in Browser](https://denniskraaijeveld.github.io/PomodoroClock/)
 * [nadjastojanovic's Solution](https://github.com/nadjastojanovic/pomodoro-clock) - [View in Browser](https://nadjastojanovic.github.io/pomodoro-clock/)
 * [Sherman's Solution](https://github.com/shermansjliu/pomodoro) - [View in Browser](https://shermansjliu.github.io/pomodoro/)
@@ -139,6 +151,11 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Sanyogita Pandit's solution](https://github.com/SanyogitaPandit/pairing_project) - [View in Browser](https://sanyogitapandit.github.io/pairing_project/)
 * [Ousmane Sylla's Solution](https://github.com/kitague/Pomodoro-clock/) - [View in Browser](https://kitague.github.io/Pomodoro-clock/)
 * [Gene Mecija's Solution](https://github.com/genemecija/PomodoroClock/) - [View in Browser](https://genemecija.github.io/PomodoroClock/)
+* [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/pomodoro/) - [View in Browser](https://rrg1459.github.io/pomodoro/)
+* [Husseinhewehii's Solution](https://github.com/Husseinhewehii/Pomodoro) - [View in Browser](https://husseinhewehii.github.io/Pomodoro/)
+* [TuSeMorte's Solution](https://github.com/TuSeMorte/pomodoro) - [View in Browser](https://tusemorte.github.io/pomodoro/)
+* [Jahmzu's Solution](https://github.com/jahmzu/TOP-pomodoro) - [View in Browser](https://jahmzu.github.io/TOP-pomodoro/)
+* [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/pomodoro_timer) - [View in browser](https://davidwatkincode.github.io/the_odin_project/javascript/pomodoro_timer)
 </details>
 
 ### Next Steps
