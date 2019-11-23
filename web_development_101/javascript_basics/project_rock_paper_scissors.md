@@ -1036,4 +1036,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/RockPaperScrissors) - [View in Browser](https://alexgioffdev.github.io/RockPaperScrissors/)
 - [HelixF's Solution](https://github.com/HelixF/Rock-Paper-Scissors) 
 - [Kineara's Solution](https://github.com/Kineara/rock-paper-scissors) - [View in Browser](https://kineara.github.io/rock-paper-scissors/)
+- [DobreJakCyp's Solution](https://github.com/dobrejakcyp/RPSOdinProject)
 </details>
