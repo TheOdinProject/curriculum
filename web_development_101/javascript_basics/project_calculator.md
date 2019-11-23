@@ -46,6 +46,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Jakob's Solution](https://github.com/jodokusquack/calculator) - [View in Browser](https://jodokusquack.github.io/calculator/)
+- [Will's Solution](https://github.com/GroverW/site/tree/master/projects/calculator) - [View in Browser](https://groverw.github.io/site/projects/calculator/index.html)
 - [Philipp's Solution](https://github.com/philipp-mcvity/calculator-project) - [View in Browser](https://philipp-mcvity.github.io/calculator-project/)
 - [Joshysmart's Solution](https://github.com/joshysmart/javascript-calculator/) - [View in Browser](https://joshysmart.github.io/javascript-calculator/)
 - [Faby Giacomini's Solution](https://github.com/fabygiacomini/calculator-project) - [View in Browser](https://fabygiacomini.github.io/calculator-project/)
