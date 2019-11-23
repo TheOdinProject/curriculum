@@ -88,6 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [EmilioAK's Solution (Hard)](https://github.com/EmilioAK/google-results-page) - [View in Browser](https://emilioak.github.io/google-results-page/)
+* [EmilioAK's Solution (Easy)](https://github.com/EmilioAK/google-homepage) - [View in Browser](https://emilioak.github.io/google-homepage/index.html)
 * [Rae-Kwon's Solution (Easy)](https://github.com/Rae-Kwon/google-homepage) - [View in Browser](https://rae-kwon.github.io/google-homepage/)
 * [jsa44's Solution (Easy)](https://github.com/jsa44/google-homepage/) - [View in Broswer](https://jsa44.github.io/google-homepage/)
 * [Charlotte Hues' Solution (Both)](https://github.com/charlotte-hues/google-homepage) - [View in Browser](https://charlotte-hues.github.io/google-homepage/)
@@ -2624,7 +2626,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Willy Wu's Solution (Easy)](https://github.com/loud-ninja/google-homepage/) - [View in Browser](https://loud-ninja.github.io/google-homepage/)
 * [Alex Cole's Solution (Easy)](https://github.com/rereon63/google-homepage) - [View in Browser](https://rereon63.github.io/google-homepage/)
 * [Nicole Barker's Solution (Easy)](https://nibarker.github.io/google_homepage)
-*Dean Whittens's Solution (Easy)](https://github.com/DeanWhitten/google-homepage) - [View in Browser](https://romantic-raman-1bad0d.netlify.com/)
+* [Dean Whittens's Solution (Easy)](https://github.com/DeanWhitten/google-homepage) - [View in Browser](https://romantic-raman-1bad0d.netlify.com/)
+* [Andrew Huntington's Solution (Easy)](https://github.com/AndrewHuntington/google-homepage) - [View in Browser](https://andrewhuntington.github.io/google-homepage/)
+* [Andrew Huntington's Solution (Difficult)](https://github.com/AndrewHuntington/google-results-page) - [View in Browser](https://andrewhuntington.github.io/google-results-page/)
+* [Zach Meyer's Solution (Easy)](https://github.com/zachmmeyer/google-homepage) - [View in Browser](https://zachmmeyer.github.io/google-homepage/)
+* [Anthony Raborn's Solution (Easy)](https://github.com/AnthonyRaborn/google-homepage)
 </details>
 
 ### Additional Resources
