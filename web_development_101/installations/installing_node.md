@@ -31,7 +31,7 @@ You can verify `nvm` is installed by running the command:
 
 
 ~~~BASH
-command -v nvm
+command nvm -v
 ~~~
 
 if this returns `nvm: command not found` close the terminal and re-open it.
