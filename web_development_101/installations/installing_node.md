@@ -18,6 +18,22 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | b
 
 This will install `nvm`
 
+NOTE : since November 23th 2019, this command doesn't and the Github page of the project doesn't give any update. Anyway, nvm can be installed from git using this commands : 
+
+~~~bash 
+git clone https://github.com/nvm-sh/nvm.git .nvm
+~~~
+then 
+~~~bash 
+. nvm.sh
+~~~
+and finally  add these lines to your ~/.bashrc, ~/.profile, or ~/.zshrc file to have it automatically sourced upon login: (you may have to add to more than one of the above files)
+~~~bash 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+~~~
+
 #### Step 1.2: Initializing `nvm`
 
 In the terminal there should be some directions on how to initialize `nvm`, if not, (or you don't feel like copying from the terminal), run these commands:
@@ -52,7 +68,7 @@ Now that we have `nvm` installed: we can install Node.
 
 Run:
 
-~~~bash
+~~~basht
 nvm install node
 ~~~
 
