@@ -2644,6 +2644,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Charles Briggs's Solution (Easy)](https://github.com/ChuckBriggs/google-homepage) - [View in Browser](https://chuckbriggs.github.io/google-homepage/)
 * [Jason Rivera's Solution (Easy)](https://github.com/jasonrivera/google-homepage) - [View in Browser](https://jasonrivera.github.io/google-homepage/)
 * [Jason Rivera's Solution (Difficult)](https://github.com/jasonrivera/google-search-results) - [View in Browser](https://jasonrivera.github.io/google-search-results/)
+* [Kyle's Solution (Easy)](https://github.com/kcristin/google-homepage) - [View in Browser](https://kcristin.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
