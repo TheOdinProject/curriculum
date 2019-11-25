@@ -88,8 +88,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Travman's Solution (Easy)](https://github.com/tmbystedt/google-homepage) - [View in Browser]
-(https://tmbystedt.github.io/google-homepage/)
+* [Travman's Solution (Easy)](https://github.com/tmbystedt/google-homepage) - [View in Browser](https://tmbystedt.github.io/google-homepage/)
+* [Jckruger89's Solution (Easy)](https://github.com/jckruger89/google-homepage) - [View in Browser](https://jckruger89.github.io/google-homepage/)
 * [EmilioAK's Solution (Hard)](https://github.com/EmilioAK/google-results-page) - [View in Browser](https://emilioak.github.io/google-results-page/)
 * [EmilioAK's Solution (Easy)](https://github.com/EmilioAK/google-homepage) - [View in Browser](https://emilioak.github.io/google-homepage/index.html)
 * [Rae-Kwon's Solution (Easy)](https://github.com/Rae-Kwon/google-homepage) - [View in Browser](https://rae-kwon.github.io/google-homepage/)
@@ -2635,6 +2635,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Anthony Raborn's Solution (Easy)](https://github.com/AnthonyRaborn/google-homepage)
 * [Brian Ngetich's Solution (Easy)](https://github.com/Ghostscypher/google-homepage-) - [View in Browser](https://github.com/Ghostscypher/google-homepage-/)
 * [Yuliya's Khilko Solution (Easy)](https://github.com/momofcats/google-homepage)
+* [Animesh Singh's Solution (Easy)](https://github.com/AnimeshRy/google-homepage) - [View in Browser](https://animeshry.github.io/google-homepage/)
+* [Andres Ruiz's Solution (Easy)](https://github.com/Andrsrz/google-homepage) - [View in Browser](https://andrsrz.github.io/google-homepage/)
+* [Andres Ruiz's Solution (Difficult)](https://github.com/Andrsrz/google-searchpage) - [View in Browser](https://andrsrz.github.io/google-searchpage/)
+* [Raphael Lage's Solution (Easy)](https://github.com/raphaellage/google-homepage) - [View in Browser](https://raphaellage.github.io/google-homepage/)
+* [Masen's Solution (Easy)](https://github.com/by-masen/google_homepage) - [View in Browser](https://by-masen.github.io/google_homepage/)
+* [Charles Briggs's Solution (Easy)](https://github.com/ChuckBriggs/google-homepage) - [View in Browser](https://chuckbriggs.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
