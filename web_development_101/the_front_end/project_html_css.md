@@ -2635,6 +2635,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Anthony Raborn's Solution (Easy)](https://github.com/AnthonyRaborn/google-homepage)
 * [Brian Ngetich's Solution (Easy)](https://github.com/Ghostscypher/google-homepage-) - [View in Browser](https://github.com/Ghostscypher/google-homepage-/)
 * [Yuliya's Khilko Solution (Easy)](https://github.com/momofcats/google-homepage)
+* [Justin Whittington's Solution (Easy)](https://justinwhittington.github.io/google-homepage/)
 * [Animesh Singh's Solution (Easy)](https://github.com/AnimeshRy/google-homepage) - [View in Browser](https://animeshry.github.io/google-homepage/)
 * [Andres Ruiz's Solution (Easy)](https://github.com/Andrsrz/google-homepage) - [View in Browser](https://andrsrz.github.io/google-homepage/)
 * [Andres Ruiz's Solution (Difficult)](https://github.com/Andrsrz/google-searchpage) - [View in Browser](https://andrsrz.github.io/google-searchpage/)
