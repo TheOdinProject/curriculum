@@ -624,4 +624,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [jkraf002's solution](https://github.com/jkraf002/etch-a-sketch) - [View in Browser](https://jkraf002.github.io/etch-a-sketch/)
 * [AlexDevGioff's solution](https://github.com/AlexGioffDev/EtchASketch/) - [View in Browser](https://alexgioffdev.github.io/EtchASketch/index.html)
 * [Eric Fetterolf's solution](https://github.com/ericfetterolf/etch-a-sketch) - [View in Browser](https://ericfetterolf.github.io/etch-a-sketch/)
+* [cgardn's solution](https://github.com/cgardn/etch-a-sketch) - [View in Browser](https://cgardn.github.io/etch-a-sketch/)
 </details>
