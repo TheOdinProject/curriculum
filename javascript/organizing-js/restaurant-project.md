@@ -103,5 +103,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [JoshAubrey's solution](https://github.com/JoshAubrey/restaurant-page) - [View in Browser](https://joshaubrey.github.io/restaurant-page/)
 - [Aron's solution](https://github.com/aronfischer/Restaurant-page) - [View in Browser](https://aronfischer.github.io/Restaurant-page/)
 - [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/restaurant_page)
+- [Emil Dimitrov's Solution](https://github.com/edmtrv/game-page) - [View in Browser](https://edmtrv.github.io/game-page/)
 
 </details>
