@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Cody's solution](https://github.com/codydegen/youtube_mockup) - [View in browser](https://codydegen.github.io/youtube_mockup/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/youtube-clone) - [View in browser](https://braxtonlemmon.github.io/youtube-clone/)
 * [David Auza's and Eduardo Reis's solution](https://github.com/davidauza-engineer/Project-Embedding-Images-And-Video) - [View in browser](https://davidauza-engineer.github.io/Project-Embedding-Images-And-Video/)
 * [Gabriel's solution](https://github.com/gabytzubaws/Youtube_embedded_player_clone) 
@@ -148,6 +149,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Dolunaykiz's solution](https://github.com/dolunaykiz/youtube-mockup) - [View in browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/youtube-mockup/blob/master/index.html)
 * [Halkim44's solution](https://github.com/halkim44/youtube-clone) - [View in browser](https://halkim44.github.io/youtube-clone/)
 * [Aron's solution](https://github.com/aronfischer/Youtube_video_Player) - [View in browser](https://aronfischer.github.io/Youtube_video_Player/)
+* [Nigel Volkmann's solution](https://github.com/Nekolike/Embedded-videos) - [View in browser](https://nekolike.github.io/Embedded-videos/)
 </details>
 
 ### Additional Resources

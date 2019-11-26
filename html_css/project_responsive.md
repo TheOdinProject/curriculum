@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rbkjefkj's solution](https://github.com/rbkjefkj/TNW)
 * [Kevin Vuong's solution](https://github.com/fffear/responsive-design) - [View in browser](https://fffear.github.io/responsive-design/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/tnw-clone) - [View in Browser](https://braxtonlemmon.github.io/tnw-clone/)
 * [Joan Currie's Solution](https://github.com/JECurrie/google-homepage/) - [View in Browser](https://jecurrie.github.io/google-homepage/)
@@ -85,7 +86,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Taylor J's solution](https://github.com/taylorjohannsen/thenextwebmockup) - [View in browser](https://taylorjohannsen.github.io/thenextwebmockup/)
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/carloshdelreal/building-with-responsive-design) - [View in browser](https://carloshdelreal.github.io/building-with-responsive-design/)
 * [Halkim's Solution](https://github.com/halkim44/thenextweb-clone) - [View in browser](https://halkim44.github.io/thenextweb-clone/)
-
+* [Aron's Solution](https://github.com/aronfischer/responsive-TNV-homepage) - [View in browser](https://aronfischer.github.io/responsive-TNV-homepage/)
 </details>
 
 ### Additional Resources
