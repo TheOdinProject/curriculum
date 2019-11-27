@@ -1041,4 +1041,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DobreJakCyp's Solution](https://github.com/dobrejakcyp/RPSOdinProject)
 - [DamnedLag's Solution](https://github.com/Damnedlag/Rock-Paper-Scissors) 
 - [cgardn's Solution](https://github.com/cgardn/rps-odin-project) - [View in Browser](https://cgardn.github.io/rock-paper-scissors/)
+- [JR Nova's Solution](https://github.com/novakoda/paperRockScissors) - [View in Browser](https://novakoda.github.io/paperRockScissors/)
+
 </details>
