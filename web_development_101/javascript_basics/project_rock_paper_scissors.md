@@ -1043,4 +1043,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [cgardn's Solution](https://github.com/cgardn/rps-odin-project) - [View in Browser](https://cgardn.github.io/rock-paper-scissors/)
 - [Akhilesh Gupta's Solution](https://github.com/unix-linux007/rockPaperScissors)
 - [Andrew Huntington's Solution](https://github.com/AndrewHuntington/js-rps)
+- [Darren Levasseur's Solution](https://github.com/DarrenLevasseur/rock-papaer-scissors)
 </details>
