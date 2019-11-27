@@ -2652,6 +2652,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JR Nova's Solution (Difficult)](https://github.com/novakoda/google_search) - [View in Browser](https://novakoda.github.io/google_search/)
 * [Adam Poulton's Solution (Easy)](https://github.com/adam-poulton/google-homepage/) - [View in Browser](https://adam-poulton.github.io/google-homepage/)
 * [Simon Thompson's Solution (Easy)](https://github.com/realsimont/google-homepage) - [View in Browser](https://realsimont.github.io/google-homepage/)
+[Kale33's Solution(Easy)](https://github.com/poreniyi/google-homepage) - [View in Browser](https://poreniyi.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
