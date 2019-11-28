@@ -99,6 +99,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/members-only)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/members-only) - [Heroku](https://hidden-headland-49130.herokuapp.com/)
 * [Kevin Vuong's solution](https://github.com/fffear/members_only)
 * [Dennis Cope's solution](https://github.com/coped/members-only) - [View in browser](https://obscure-anchorage-03692.herokuapp.com)

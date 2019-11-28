@@ -117,6 +117,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/re-former)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/re-former) - complete with index page
 * [Carlos Del Real's and António's Solution](https://github.com/carloshdelreal/re-former)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/re-former)
@@ -223,6 +224,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Roy's solution](https://github.com/RoyNyaga/re_former_odin_project/tree/master/re_former)
 * [Cody Buffaloe's Solution](https://github.com/CodyLBuffaloe/Re-Former)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/re-former)
+* [Rey van den Berg's Solution](https://github.com/Rey810/Forms.git)
 
 </details>
 

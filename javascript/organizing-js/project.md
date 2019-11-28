@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew M's Solution](https://github.com/a6macleod/js_todo) - [View in Browser](https://a6macleod.github.io/js_todo/)
 * [bollinca's Solution](https://github.com/bollinca/to-do-list) - [View in Browser](https://bollinca.github.io/to-do-list/)
 * [ejoflo's Solution](https://github.com/ejoflo/to_do_list) - [View in Browser](https://ejoflo.github.io/to_do_list/)
 * [miang's solution](https://github.com/miang99/todolist) - [View in Browser](https://miang99.github.io/todolist/)
@@ -76,8 +77,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/fcarlosdev.github.io/tree/master/todo-app) - [View in browser](https://fcarlosdev.github.io/todo-app/)
 * [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor) - [View in Browser](https://ubaid-manzoor.github.io/ToDo-List/)
 * [JamCry's solution](https://github.com/jamcry/got2do) - [View in Browser](https://jamcry.github.io/got2do/)
+* [Gene Mecija's solution](https://github.com/genemecija/To-Do-List) - [View in Browser](https://genemecija.github.io/To-Do-List/)
 * [Martink-rsa's solution](https://github.com/martink-rsa/ToDoList) - [View in Browser](https://martink-rsa.github.io/ToDoList/)
 * [dvbridges solution](https://github.com/dvbridges/masterplan) - [View in Browser](https://dvbridges.github.io/masterplan/)
 * [Aron's solution](https://github.com/aronfischer/To-Do-List) - [View in Browser](https://aronfischer.github.io/To-Do-List/)
-
+* [JoshAubrey's solution](https://github.com/JoshAubrey/todo-list) - [View in Browser](https://joshaubrey.github.io/todo-list/)
+* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/todo_list)
 </details>

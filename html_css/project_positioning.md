@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/new-york-times-copy) - [View in Browser](https://kikupiku.github.io/new-york-times-copy/)
 * [Raiko's solution](https://github.com/Cypher0/odin-positioning-floating) - [View in Browser](https://cypher0.github.io/odin-positioning-floating/)
 * [Christian's solution](https://github.com/Cabonilla/nyt_replica) - [View in Browser](https://cabonilla.github.io/nyt_replica/)
 * [Braxton's solution](https://github.com/braxtonlemmon/nyt-clone) - [View in Browser](https://braxtonlemmon.github.io/nyt-clone/)
