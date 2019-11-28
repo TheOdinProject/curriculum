@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Cody Bromwich's Solution](https://github.com/CBromwich/theodinproject/tree/master/etchasketch)
 * [jackisadog97's Solution](https://github.com/jackisadog97/sketch_board) - [View in Browser](https://jackisadog97.github.io/sketch_board/)
 * [Chase's Solution](https://github.com/CharredChase/etch_a_sketch) - [View in Browser](https://charredchase.github.io/etch_a_sketch)
 * [Christy's Solution](https://github.com/cbhaugen/EtchASketch/)
