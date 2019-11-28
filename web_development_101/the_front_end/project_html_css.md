@@ -2656,6 +2656,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Simon Thompson's Solution (Easy)](https://github.com/realsimont/google-homepage) - [View in Browser](https://realsimont.github.io/google-homepage/)
 * [Aziz Mejri's Solution (Easy)](https://github.com/SpaYco/google-homepage) - [View in Browser](https://SpaYco.github.io/google-homepage/)
 [Kale33's Solution(Easy)](https://github.com/poreniyi/google-homepage) - [View in Browser](https://poreniyi.github.io/google-homepage/)
+* [Thomas Manwa's Solution (Easy)](https://github.com/thomasmanwa/Google_Homepage) - [View in Browser](https://thomasmanwa.github.io/Google_Homepage/)
+* [Thomas Manwa's Solution (Difficult)](https://github.com/thomasmanwa/Google_Searchpage) - [View in Browser](https://thomasmanwa.github.io/Google_Searchpage/)
 </details>
 
 ### Additional Resources
