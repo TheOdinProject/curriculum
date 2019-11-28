@@ -302,6 +302,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/tic_tac_toe)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/Tic_Tac_Toe)
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/blob/master/ruby/tictactoe/tictactoe.rb)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/tic_tac_toe.rb)
 
 </details>
 
@@ -554,6 +555,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ray Alvarez's Solution](https://github.com/ray-alvarez/mastermind)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/Mastermind)
 * [Toberoni's Solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/mastermind)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/mastermind.rb)
 </details>
 
 ### Additional Resources

@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Braxton Lemmon's solution](https://github.com/braxtonlemmon/js-book-library) - [View in Browser](https://braxtonlemmon.github.io/js-book-library/)
 - [Disco Trooper's Solution](https://github.com/disco-trooper/library) - [View in Browser](https://disco-trooper.github.io/library/)
 - [Nick Hunter's Solution](https://github.com/hunter497/TheOdinProjectJS) - [View in Browser](https://hunter497.github.io/TheOdinProjectJS/)
 - [MikkRou's Solution](https://github.com/MikkRou/library) - [View in Browser](https://mikkrou.github.io/library/)
