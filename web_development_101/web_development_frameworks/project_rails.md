@@ -376,7 +376,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [MrObele's Solution](https://github.com/MrObele/Rails_Blogger) - [View in Browser](https://davids-blog.herokuapp.com/)
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/blogger-app)
 * [Dima Konoval's Solution](https://github.com/DimaKonoval/RailsFirstProject) - [View in Browser](https://afternoon-lake-81884.herokuapp.com/articles)
-* [Brendaneus' Solution](https://github.com/Brendaneus/blogger) - [View in Browser](https://fierce-shelf-91817.herokuapp.com/)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/web-development-101/projects/blogger)
 * [TommyHoang's Solution](https://github.com/hoangtommy/blogger) - [View in Browser](https://thawing-headland-19216.herokuapp.com/)
 * [Emil Dimitrov's solution](https://github.com/imemdm/blogger) - [View in browser](https://ancient-shore-12666.herokuapp.com/)
 * [Husseyexplores' solution](https://github.com/husseyexplores/rails-blogger) - [View in browser](https://husseyblogapp.herokuapp.com/)
