@@ -1827,7 +1827,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Krystian's solution (Easy)](https://github.com/blahutakrystian/google-homepage)- [View in Browser](https://blahutakrystian.github.io/google-homepage/)
 * [kdclemaster's solution (Easy)](https://github.com/kdclemaster/google-homepage)- [View in Browser](https://kdclemaster.github.io/google-hompeage/)
 * [Scott McKell's solution (Easy)](https://github.com/zottwickel/google-homepage) - [View in Browser](https://zottwickel.github.io/google-homepage/)
-* [Brendaneus' Solution (Easy)](https://github.com/Brendaneus/google-homepage) - [View in Brpwser](https://brendaneus.github.io/google-homepage/)
+* [Brendaneus' Solution (Easy)](https://theodinprojects.live/courses/web-development-101/projects/google-mockup)
 * [Kristap's solution (Difficult)](https://github.com/narelskristaps/google-homepage) - [View in Browser](https://narelskristaps.github.io/google-homepage/)
 * [Brian's solution (Difficult)](https://github.com/brian-giordano/google-homepage) - [View in Browser](https://brian-giordano.github.io/google-homepage/)
 * [Najeeb Anwari's solution (Easy)](https://github.com/najeeb-anwari/google-homepage) - [View in Browser](https://najeeb-anwari.github.io/google-homepage/)
