@@ -104,5 +104,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Aron's solution](https://github.com/aronfischer/Restaurant-page) - [View in Browser](https://aronfischer.github.io/Restaurant-page/)
 - [Brendaneus' Solution](https://theodinprojects.live/courses/javascript/projects/restaurant-page)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/game-page) - [View in Browser](https://edmtrv.github.io/game-page/)
+- [Edehe's Solution](https://github.com/edehlol/restaurant) - [View in Browser](https://edehlol.github.io/restaurant/)
 
 </details>
