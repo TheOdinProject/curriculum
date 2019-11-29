@@ -2655,8 +2655,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Adam Poulton's Solution (Easy)](https://github.com/adam-poulton/google-homepage/) - [View in Browser](https://adam-poulton.github.io/google-homepage/)
 * [Simon Thompson's Solution (Easy)](https://github.com/realsimont/google-homepage) - [View in Browser](https://realsimont.github.io/google-homepage/)
 * [Aziz Mejri's Solution (Easy)](https://github.com/SpaYco/google-homepage) - [View in Browser](https://SpaYco.github.io/google-homepage/)
-[Kale33's Solution(Easy)](https://github.com/poreniyi/google-homepage) - [View in Browser](https://poreniyi.github.io/google-homepage/)
+* [Kale33's Solution(Easy)](https://github.com/poreniyi/google-homepage) - [View in Browser](https://poreniyi.github.io/google-homepage/)
 </details>
+* [Andrés Del Carpio's Solution (Easy)](https://github.com/echounit1/google-homepage) - [View in Browser](http://echounit1.github.io/google-homepage)
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
