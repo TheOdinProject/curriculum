@@ -526,7 +526,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [thesofakillers's Solution](https://github.com/thesofakillers/learn_ruby)
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/learn_ruby)
 * [MrObele's Solution](https://github.com/MrObele/learn_ruby)
-* [Brendaneus' Solution](https://github.com/Brendaneus/learn_ruby)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/web-development-101/projects/learn-ruby)
 * [IrritatedEllipses' Solution](https://github.com/IrritatedEllipses/learn_ruby)
 * [codyMalcolm's Solution](https://github.com/codyMalcolm/learn_ruby)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/learn_ruby)
