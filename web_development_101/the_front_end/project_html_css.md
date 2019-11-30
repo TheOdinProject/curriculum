@@ -2664,6 +2664,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kale33's Solution(Easy)](https://github.com/poreniyi/google-homepage) - [View in Browser](https://poreniyi.github.io/google-homepage/)
 * [Andrés Del Carpio's Solution (Easy)](https://github.com/echounit1/google-homepage) - [View in Browser](http://echounit1.github.io/google-homepage)
 * [MrLupines Solution (Easy)](https://github.com/MrLupine/google-clone) - [View in Browser](https://mrlupine.github.io/google-clone/)
+* [Brandon-R. Austin's Solution (Both)](https://github.com/brandonricharda/Google-Homepage-Project) - [View in Browser](https://brandonricharda.github.io/Google-Homepage-Project/)
 </details>
 
 
