@@ -142,7 +142,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Valentino Valenti's Solution](https://github.com/1ba1/library-app) - [View in browser](https://1ba1.github.io/library-app/)
 - [tnharvey's Solution](https://github.com/tnharvey/library) - [View in browser](https://tnharvey.github.io/library/)
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Book-Manager) - [View in Browser](https://ubaid-manzoor.github.io/Book-Manager/)
-- [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/library)
+- [Brendaneus' Solution](https://theodinprojects.live/courses/javascript/projects/library)
 - [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/library) - [View in Browser](https://amarcoscastelo.github.io/library/)
 - [JamCry's Solution](https://github.com/jamcry/js-library) - [View in Browser](https://jamcry.github.io/js-library/)
 - [akashdas98's Solution](https://github.com/akashdas98/library) - [View in Browser](https://akashdas98.github.io/library/)
