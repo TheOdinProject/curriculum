@@ -2659,8 +2659,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MichaelK's Solution (Easy)](https://github.com/a0x77ry/google-homepage) - [View in Browser](https://a0x77ry.github.io/google-homepage/)
 * [MichaelK's Solution (Difficult)](https://github.com/a0x77ry/google-search-results) - [View in Browser](https://a0x77ry.github.io/google-search-results/)
 * [Kale33's Solution(Easy)](https://github.com/poreniyi/google-homepage) - [View in Browser](https://poreniyi.github.io/google-homepage/)
-* [Thomas Manwa's Solution (Easy)](https://github.com/thomasmanwa/Google_Homepage) - [View in Browser](https://thomasmanwa.github.io/Google_Homepage/)
-* [Thomas Manwa's Solution (Difficult)](https://github.com/thomasmanwa/Google_Searchpage) - [View in Browser](https://thomasmanwa.github.io/Google_Searchpage/)
 * [Kale33's Solution(Easy)](https://github.com/poreniyi/google-homepage) - [View in Browser](https://poreniyi.github.io/google-homepage/)
 * [Andrés Del Carpio's Solution (Easy)](https://github.com/echounit1/google-homepage) - [View in Browser](http://echounit1.github.io/google-homepage)
 * [MrLupines Solution (Easy)](https://github.com/MrLupine/google-clone) - [View in Browser](https://mrlupine.github.io/google-clone/)
