@@ -445,4 +445,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [johncoryk's solution](https://github.com/johncoryk/calc) - [View in Browser](https://johncoryk.github.io/calc/)
 - [Chris Gardner's solution](https://github.com/cgardn/web-calculator) - [View in Browser](https://cgardn.github.io/web-calculator)
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/Calculator) - [View in Browser](https://alexgioffdev.github.io/Calculator/)
+- [jkraf002's solution](https://github.com/jkraf002/calculator) - [View in Browser](https://jkraf002.github.io/calculator/)
 </details>
