@@ -1047,4 +1047,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrew Huntington's Solution](https://github.com/AndrewHuntington/js-rps)
 - [Darren Levasseur's Solution](https://github.com/DarrenLevasseur/rock-papaer-scissors)
 - [Endia's Solution](https://endiawilliams.github.io/rock-paper-scissors)
+– [MrLupine's Solution](https://github.com/MrLupine/rock-paper-scissors/) - [View in Browser](https://mrlupine.github.io/rock-paper-scissors/)
 </details>
