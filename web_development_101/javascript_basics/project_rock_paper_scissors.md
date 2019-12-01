@@ -40,6 +40,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Charles Briggs's Solution](https://github.com/ChuckBriggs/rockPaperScissors) - [View in Browser](https://chuckbriggs.github.io/rockPaperScissors/)
+- [Armo's Solution](https://github.com/Armoilanea/rock-paper-scissors)
+- [ChiselD's Solution](https://github.com/ChiselD/rock-paper-scissors)
 - [Chase's Solution](https://github.com/CharredChase/rock_paper_scissors) - [View in Browser](https://charredchase.github.io/rock_paper_scissors/)
 - [EmilioAK's Solution](https://github.com/EmilioAK/rock_paper_scissors)
 - [Brian Ngetich's Solution](https://github.com/Ghostscypher/odin-project-game)
@@ -54,7 +57,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Juan Nava's Solution](https://github.com/JohannWolf/rock-paper-scissors-game) - [View in Browser](https://johannwolf.github.io/rock-paper-scissors-game/)
 - [Philipp's Solution](https://github.com/philipp-mcvity/rock-paper-scissors) - [View in Browser](https://philipp-mcvity.github.io/rock-paper-scissors/)
 - [c30net's Solution](https://github.com/c30net/rock-paper-scissors)
-- [Nyandereian's Solution](https://github.com/Nyandereian/rock-paper-scissors)
+- [Nyandereian's Solution](https://github.com/Nyandereian/rock-paper-scissors) - [View in Browser](https://nyandereian.github.io/rock-paper-scissors/)
 - [Andres' Solution](https://github.com/Simbaxo/Rock-Paper-Scissors) - [View in Browser](https://simbaxo.github.io/Rock-Paper-Scissors/)
 - [Yeffry's Solution](https://github.com/Yeffry921/rock-paper-scissors)
 - [Faby Giacomini's Solution](https://github.com/fabygiacomini/rock-paper-scissors-odin) - [View in Browser](https://fabygiacomini.github.io/rock-paper-scissors-odin/)
@@ -1042,8 +1045,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DobreJakCyp's Solution](https://github.com/dobrejakcyp/RPSOdinProject)
 - [DamnedLag's Solution](https://github.com/Damnedlag/Rock-Paper-Scissors)
 - [cgardn's Solution](https://github.com/cgardn/rps-odin-project) - [View in Browser](https://cgardn.github.io/rock-paper-scissors/)
+- [JR Nova's Solution](https://github.com/novakoda/paperRockScissors) - [View in Browser](https://novakoda.github.io/paperRockScissors/)
 - [Akhilesh Gupta's Solution](https://github.com/unix-linux007/rockPaperScissors)
 - [Andrew Huntington's Solution](https://github.com/AndrewHuntington/js-rps)
 - [Darren Levasseur's Solution](https://github.com/DarrenLevasseur/rock-papaer-scissors)
-- [Kale's Solution](https://github.com/poreniyi/Rock-Paper-Scissors)-[View in Browser](https://poreniyi.github.io/Rock-Paper-Scissors/)
+- [Kale's Solution](https://github.com/poreniyi/Rock-Paper-Scissors) - [View in Browser](https://poreniyi.github.io/Rock-Paper-Scissors/)
+- [Endia's Solution](https://endiawilliams.github.io/rock-paper-scissors)
+- [Procerus's Solution](https://github.com/Procerus/rock-paper-scissors)
 </details>
