@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/ceaser_shift.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/caesar_cipher)
 * [Robin's Solution](https://github.com/CoolGlasses/Building_Blocks/blob/master/caesar_cipher.rb)
 * [Awais Ali Khan](https://github.com/awaisalikhan/ruby_programming/blob/master/caesar_cipher.rb)
@@ -512,7 +513,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Add your solution below this line!
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/stock_picker)
 * [Robin's Solution](https://github.com/CoolGlasses/Building_Blocks/blob/master/stock_picker.rb)
-* [Mike Farias' Solution](https://github.com/mkezmkez/ruby-buildingblocks/blob/master/stock.rb) 
+* [Mike Farias' Solution](https://github.com/mkezmkez/ruby-buildingblocks/blob/master/stock.rb)
 * [Guillaume Occuly's Solution](https://github.com/GuillaumeOcculy/TheOdinProject/tree/master/stock_picker)
 * [Run After's Solution](https://github.com/run-after/stock_picker/blob/master/stock_picker.rb)
 * [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/caeser_cipher/stock_picker.rb)
