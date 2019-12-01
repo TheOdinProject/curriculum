@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ashish's Solution](https://github.com/CodersGas/Simple-login-page) - [View in Browser](https://codersgas.github.io/Simple-login-page/home-page.html)
 * [Zayeer's solution](https://github.com/Zayeer/html_forms_project) - [View in browser](https://zayeer.github.io/html_forms_project/)
 * [Raiko's solution](https://github.com/Cypher0/project-html-forms) - [View in browser](https://cypher0.github.io/project-html-forms/)
 * [David Auza's and Eduardo Reis's solution](https://github.com/eduardoreisalvarenga/HTML-Forms.github.io) - [View in browser](https://eduardoreisalvarenga.github.io/HTML-Forms.github.io/)
