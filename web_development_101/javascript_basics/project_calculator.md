@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Simon's Solution](https://github.com/Sim-frpt/calculator) - [View in Browser](https://sim-frpt.github.io/calculator/)
 - [Nyandereian's Solution](https://github.com/Nyandereian/calculator) - [View in Browser](https://nyandereian.github.io/calculator/)
 - [Rarysson's Solution](https://github.com/rarysson/calculator) - [View in Browser](https://rarysson.github.io/calculator/)
 - [Hans Oliveira's Solution](https://github.com/hansnery/calculator) - [View in Browser](https://hansnery.github.io/calculator/)
@@ -443,4 +444,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dustin Janssen's solution](https://github.com/DustinJanssen/calculator) - [View in Browser](https://dustinjanssen.github.io/calculator/)
 - [johncoryk's solution](https://github.com/johncoryk/calc) - [View in Browser](https://johncoryk.github.io/calc/)
 - [Chris Gardner's solution](https://github.com/cgardn/web-calculator) - [View in Browser](https://cgardn.github.io/web-calculator)
+- [AlexGioffDev's Solution](https://github.com/AlexGioffDev/Calculator) - [View in Browser](https://alexgioffdev.github.io/Calculator/)
+- [jkraf002's solution](https://github.com/jkraf002/calculator) - [View in Browser](https://jkraf002.github.io/calculator/)
 </details>
