@@ -1051,5 +1051,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Darren Levasseur's Solution](https://github.com/DarrenLevasseur/rock-papaer-scissors)
 - [Kale's Solution](https://github.com/poreniyi/Rock-Paper-Scissors) - [View in Browser](https://poreniyi.github.io/Rock-Paper-Scissors/)
 - [Endia's Solution](https://endiawilliams.github.io/rock-paper-scissors)
+– [MrLupine's Solution](https://github.com/MrLupine/rock-paper-scissors/) - [View in Browser](https://mrlupine.github.io/rock-paper-scissors/)
 - [Procerus's Solution](https://github.com/Procerus/rock-paper-scissors)
 </details>
