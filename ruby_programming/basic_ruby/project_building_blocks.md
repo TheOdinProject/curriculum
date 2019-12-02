@@ -949,6 +949,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/substrings.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/substring)
 * [Robin's Solution](https://github.com/CoolGlasses/Building_Blocks/blob/master/substrings.rb)
 * [Mike Farias' Solution](https://github.com/mkezmkez/ruby-buildingblocks/blob/master/substrings.rb)
