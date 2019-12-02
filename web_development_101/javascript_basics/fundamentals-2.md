@@ -4,7 +4,7 @@ There are a few extremely common types of data that you will encounter in Javasc
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* What are the seven data types of javascript?
+* What are the eight data types of javascript?
 * Which data type is NOT primitive?
 * What is the difference between single, double, and backtick quotes for strings?
 * Which type of quote lets you embed variables/expressions into a string?

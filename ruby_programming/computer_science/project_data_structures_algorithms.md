@@ -197,6 +197,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/binary-search-tree)
 * [Drew Goddyn's solution](https://github.com/Drew-Goddyn/binary_search_tree)
+* [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
+* [Bendee's Solution](https://github.com/bendee48/Data-Structures)
 
 </details>
 
@@ -387,4 +389,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/knight_moves/blob/master/knight_moves.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/knight-moves)
 * [Husseinhewehii's solution](https://github.com/Husseinhewehii/Knight_Moves)
+* [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/knights_travails)
+
 </details>
