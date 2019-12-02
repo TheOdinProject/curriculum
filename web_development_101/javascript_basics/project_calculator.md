@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rainmodred's Solution](https://github.com/rainmodred/calculator) - [View in Browser](https://rainmodred.github.io/calculator/)
 - [Mary Cheung's Solution](https://github.com/marybcheung/calculator) - [View in Browser](https://marybcheung.github.io/calculator/)
 - [Jfr's Solution](https://github.com/jfrcom/calculator) - [View in Browser](https://jfrcom.github.io/calculator/)
 - [Simon's Solution](https://github.com/Sim-frpt/calculator) - [View in Browser](https://sim-frpt.github.io/calculator/)
