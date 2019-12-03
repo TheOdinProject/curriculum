@@ -1053,4 +1053,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Endia's Solution](https://endiawilliams.github.io/rock-paper-scissors)
 – [MrLupine's Solution](https://github.com/MrLupine/rock-paper-scissors/) - [View in Browser](https://mrlupine.github.io/rock-paper-scissors/)
 - [Procerus's Solution](https://github.com/Procerus/rock-paper-scissors)
+- [Nestor's solution](https://github.com/nestor-c/roshambo) - [View in Browser](https://nestor-c.github.io/roshambo/)
 </details>
