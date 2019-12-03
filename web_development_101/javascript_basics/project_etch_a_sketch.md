@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Ken Yu's Solution](https://github.com/kendinh216/Etch-a-Sketch/) - [View in Browser] (https://kendinh216.github.io/Etch-a-Sketch/etch-a-sketch.html)
+* [Brian Ngetich's Solution](https://github.com/Ghostscypher/etch-a-sketch)
 * [Edison Escobar's Solution](https://github.com/Jhoneguitar/Etch-A-Sketch) - [View in Browser](https://jhoneguitar.github.io/Etch-A-Sketch/)
 * [Lyle Aigbedion's Solution](https://github.com/lyleaigbedion/etch_a_sketch) - [View in Browser](https://lyleaigbedion.github.io/etch_a_sketch/)
 * [Nyandereian's Solution](https://github.com/Nyandereian/etch-a-sketch) - [View in Browser](https://nyandereian.github.io/etch-a-sketch/)
@@ -635,4 +637,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Eric Fetterolf's solution](https://github.com/ericfetterolf/etch-a-sketch) - [View in Browser](https://ericfetterolf.github.io/etch-a-sketch/)
 * [cgardn's solution](https://github.com/cgardn/etch-a-sketch) - [View in Browser](https://cgardn.github.io/etch-a-sketch/)
 * [DamnedLag's solution](https://github.com/Damnedlag/Sketchy)
+* [Procerus's solution](https://github.com/Procerus/Etch-a-Sketch)
 </details>

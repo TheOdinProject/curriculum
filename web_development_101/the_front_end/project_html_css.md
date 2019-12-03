@@ -55,6 +55,8 @@ Inside your project folder, create your index.html file
       * DON'T BE A PERFECTIONIST!  You're just trying to make it *look* like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel.  Any dropdown menus or form submissions or hover-highlighting should be ignored.
       * USE GOOGLE! You'll probably run into roadblocks where you can't figure out how to do something so do what all good devs do... Google it!
       * If you're frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the css property `-webkit-appearance: none;` or `-moz-appearance` if you're using Firefox.
+      * [Here's a link to the Google Logo just in case they temporarily replace it with a Doodle!](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+      * [Here's a cached page of the Google home page for reference in case the original logo is not there](https://web.archive.org/web/20191130234759/https://www.google.com/)
   2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally.  You can either download the Google logo or link directly to its URL on the web in your `<img>` tag.
   3. Next do the navbar across the top, first building the content and then trying to position it.  Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
   4. Finally, put in the footer, which should be very similar to the top navbar.
@@ -88,6 +90,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Richard's Solution (Easy)](https://github.com/RichardDenton/google-homepage) - [View in Browser](https://richarddenton.github.io/google-homepage/)
+* [Andrew's Solution (Easy)](https://github.com/Andrew-Rush65/google-homepage) - [View in Browser](https://andrew-rush65.github.io/google-homepage/)
+* [Connie's Solution (Easy)](https://github.com/vonwong/google-homepage) - [View in Browser](https://vonwong.github.io/google-homepage/)
 * [Vincent's Solution (Easy)](https://github.com/vincent585/google-homepage) - [View in Browser](https://vincent585.github.io/google-homepage/)
 * [Rachel's Solution (Easy)](https://github.com/rlmoser99/google-homepage) - [View in Browser](https://rlmoser99.github.io/google-homepage/)
 * [Rachel's Solution (Hard)](https://github.com/rlmoser99/google-searchpage) - [View in Browser](https://rlmoser99.github.io/google-searchpage/)
@@ -2666,7 +2671,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Streetset's Solution (Easy)](https://github.com/madaja/google-homepage) - [View in Browser](https://madaja.github.io/google-homepage/)
 * [Brandon-R. Austin's Solution (Both)](https://github.com/brandonricharda/Google-Homepage-Project) - [View in Browser](https://brandonricharda.github.io/Google-Homepage-Project/)
 * [Justinkar's Solution (Easy)](https://github.com/Justinkar/google-homepage) - [View in Browser](https://github.com/justinkar/google-homepage/)
-https://witnessmyaxe.github.io/google-homepage/
+* [WitnessMyAxe's Solution (Easy)])https://github.com/witnessmyaxe/google-homepage) - [View in Browser](https://witnessmyaxe.github.io/google-homepage/)
+* [Joe Arndt's Solution (Easy)](https://github.com/jmarndt/google-homepage) - [View in Browser](https://jmarndt.github.io/google-homepage/)
+* [erdich's Solution (Easy)](https://github.com/erdich/google-homepage) - [View in Browser](https://erdich.github.io/google-homepage/)
 </details>
 
 
