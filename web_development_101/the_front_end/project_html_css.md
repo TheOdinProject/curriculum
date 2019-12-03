@@ -90,7 +90,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Richard's Solution (Easy)](https://github.com/RichardDenton/google-homepage) - [View in browser](https://richarddenton.github.io/google-homepage/)
+* [Richard's Solution (Easy)](https://github.com/RichardDenton/google-homepage) - [View in Browser](https://richarddenton.github.io/google-homepage/)
+* [Andrew's Solution (Easy)](https://github.com/Andrew-Rush65/google-homepage) - [View in Browser](https://andrew-rush65.github.io/google-homepage/)
+* [Connie's Solution (Easy)](https://github.com/vonwong/google-homepage) - [View in Browser](https://vonwong.github.io/google-homepage/)
 * [Vincent's Solution (Easy)](https://github.com/vincent585/google-homepage) - [View in Browser](https://vincent585.github.io/google-homepage/)
 * [Rachel's Solution (Easy)](https://github.com/rlmoser99/google-homepage) - [View in Browser](https://rlmoser99.github.io/google-homepage/)
 * [Rachel's Solution (Hard)](https://github.com/rlmoser99/google-searchpage) - [View in Browser](https://rlmoser99.github.io/google-searchpage/)
@@ -2669,6 +2671,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Streetset's Solution (Easy)](https://github.com/madaja/google-homepage) - [View in Browser](https://madaja.github.io/google-homepage/)
 * [Brandon-R. Austin's Solution (Both)](https://github.com/brandonricharda/Google-Homepage-Project) - [View in Browser](https://brandonricharda.github.io/Google-Homepage-Project/)
 * [Justinkar's Solution (Easy)](https://github.com/Justinkar/google-homepage) - [View in Browser](https://github.com/justinkar/google-homepage/)
+* [erdich's Solution (Easy)](https://github.com/erdich/google-homepage) - [View in Browser](https://erdich.github.io/google-homepage/)
 </details>
 
 
