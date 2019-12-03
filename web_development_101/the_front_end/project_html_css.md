@@ -90,9 +90,12 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+*[Andrew's Solution (Easy)] https://github.com/Andrew-Rush65/google-homepage - [View in Browser]
+(https://andrew-rush65.github.io/google-homepage/)
 * [Vincent's Solution (Easy)](https://github.com/vincent585/google-homepage) - [View in Browser](https://vincent585.github.io/google-homepage/)
 * [Rachel's Solution (Easy)](https://github.com/rlmoser99/google-homepage) - [View in Browser](https://rlmoser99.github.io/google-homepage/)
-* [Rachel's Solution (Hard)](https://github.com/rlmoser99/google-searchpage) - [View in Browser](https://rlmoser99.github.io/google-searchpage/)
+* [Rachel's Solution (Hard)](https://github.com/rlmoser99/google-searchpage) - [View in Browser]
+(https://rlmoser99.github.io/google-searchpage/)
 * [randrerd's Solution (Both)](https://github.com/randrerd/google-homepage) - [View in Browser](https://randrerd.github.io/google-homepage/)
 * [Venka's Solution (Easy)](https://github.com/Venka027/google-homepage) - [View in Browser](https://venka027.github.io/google-homepage/)
 * [Chase's Solution (Easy)](https://github.com/CharredChase/google_homepage) - [View in Browser](https://charredchase.github.io/google_homepage/)
