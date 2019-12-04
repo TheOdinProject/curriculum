@@ -2675,6 +2675,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [WitnessMyAxe's Solution (Easy)](https://github.com/witnessmyaxe/google-homepage) - [View in Browser](https://witnessmyaxe.github.io/google-homepage/)
 * [Joe Arndt's Solution (Easy)](https://github.com/jmarndt/google-homepage) - [View in Browser](https://jmarndt.github.io/google-homepage/)
 * [erdich's Solution (Easy)](https://github.com/erdich/google-homepage) - [View in Browser](https://erdich.github.io/google-homepage/)
+* [agarcia035's Solution (Easy)](https://github.com/agarcia035/google-homepage) - [View in Browser](https://agarcia035.github.io/google-homepage/)
 * [Momin's Solution (Easy)](https://github.com/mominqadri/google-homepage) - [View in Browser](https://mominqadri.github.io/google-homepage/)
 * [StarrySeedling's Solution (Easy)](https://github.com/StarrySeedling/google-homepage) - [View in Browser](https://starryseedling.github.io/google-homepage/)
 * [njferrari14's Solution (Easy)](https://github.com/njferrari14/google-homepage) - [View in Browser](https://njferrari14.github.io/google-homepage/)
