@@ -26,6 +26,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/blogger) 
+* [Ogunmola Israel's Solution](https://github.com/Lippins/blogger_app) - [View in Browser](https://guarded-wildwood-88330.herokuapp.com/)
 * [Robin's Solution](https://github.com/CoolGlasses/blogger) - [View in Browser](https://damp-wave-05629.herokuapp.com)
 * [Olugade Olalekan's Solution](https://github.com/gbadesimple/blogger) -[View in Browser](https://aqueous-garden-12719.herokuapp.com/)
 * [Kris Tobiasson's solution](https://github.com/highpockets/blogger.git) - [View in browser](https://fathomless-peak-19657.herokuapp.com)
@@ -376,7 +378,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [MrObele's Solution](https://github.com/MrObele/Rails_Blogger) - [View in Browser](https://davids-blog.herokuapp.com/)
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/blogger-app)
 * [Dima Konoval's Solution](https://github.com/DimaKonoval/RailsFirstProject) - [View in Browser](https://afternoon-lake-81884.herokuapp.com/articles)
-* [Brendaneus' Solution](https://github.com/Brendaneus/blogger) - [View in Browser](https://fierce-shelf-91817.herokuapp.com/)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/web-development-101/projects/blogger)
 * [TommyHoang's Solution](https://github.com/hoangtommy/blogger) - [View in Browser](https://thawing-headland-19216.herokuapp.com/)
 * [Emil Dimitrov's solution](https://github.com/imemdm/blogger) - [View in browser](https://ancient-shore-12666.herokuapp.com/)
 * [Husseyexplores' solution](https://github.com/husseyexplores/rails-blogger) - [View in browser](https://husseyblogapp.herokuapp.com/)
@@ -431,6 +433,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [hyperturing's solution](https://github.com/hyperturing/rails-blog) - [View in browser](https://shielded-sierra-66737.herokuapp.com/)
 * [Steve White's solution](https://github.com/swhite85/blogger) - [View in broswer](https://afternoon-anchorage-29859.herokuapp.com/)
 * [canicodenow's solution](https://github.com/canicodenow/project_ruby) - [View in browser](https://damp-sea-26254.herokuapp.com/)
+* [Chris Gardner's solution](https://github.com/cgardn/blogger) - [View in browser](https://masterful-blagger.herokuapp.com)
 
 </details>
 
