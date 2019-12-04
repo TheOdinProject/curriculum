@@ -433,6 +433,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [hyperturing's solution](https://github.com/hyperturing/rails-blog) - [View in browser](https://shielded-sierra-66737.herokuapp.com/)
 * [Steve White's solution](https://github.com/swhite85/blogger) - [View in broswer](https://afternoon-anchorage-29859.herokuapp.com/)
 * [canicodenow's solution](https://github.com/canicodenow/project_ruby) - [View in browser](https://damp-sea-26254.herokuapp.com/)
+* [Chris Gardner's solution](https://github.com/cgardn/blogger) - [View in browser](https://masterful-blagger.herokuapp.com)
 
 </details>
 
