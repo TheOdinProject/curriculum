@@ -2676,6 +2676,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Joe Arndt's Solution (Easy)](https://github.com/jmarndt/google-homepage) - [View in Browser](https://jmarndt.github.io/google-homepage/)
 * [erdich's Solution (Easy)](https://github.com/erdich/google-homepage) - [View in Browser](https://erdich.github.io/google-homepage/)
 * [StarrySeedling's Solution (Easy)](https://github.com/StarrySeedling/google-homepage) - [View in Browser](https://starryseedling.github.io/google-homepage/)
+* [njferrari14's Solution (Easy)](https://github.com/njferrari14/google-homepage) - [View in Browser](https://njferrari14.github.io/google-homepage/)
+* [Tenacious-Qi's Solution (Easy)](https://tenacious-qi.github.io/google-homepage/) - [View in Browser](https://tenacious-qi.github.io/google-homepage/)
 </details>
 
 
