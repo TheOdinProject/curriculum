@@ -46,3 +46,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [OverAPI's HTML Cheat Sheet](http://overapi.com/html)
 * [OverAPI's CSS Cheat Sheet](http://overapi.com/css)
 * [Learn CSS Layout](http://learnlayout.com/)
+
+
+Adding the link to the assignment by mickconz here: https://mickconz.github.io/google-homepage/
