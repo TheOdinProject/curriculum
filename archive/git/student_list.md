@@ -1,2 +1,2 @@
 Add your name and link to your GitHub profile below this line...
-* [Odin-Student](https://github.com/odin-student/)
+* [inner-valor](https://github.com/inner-valor/)
