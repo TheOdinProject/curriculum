@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [James's Solution](https://github.com/ericksen-github/rock_paper_scissors)
 - [Paul's Solution](https://github.com/ppayne12/rock-paper-scissors)
 - [Rachel's solution](https://github.com/rlmoser99/rock-paper-scissors)
 - [JohnUrb's Solution](https://github.com/johnurb/rock-paper-scissors) 
