@@ -1060,4 +1060,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrés' solution](https://github.com/echounit1/rps) - [View in Browser](https://echounit1.github.io/rps/)
 - [Streetset's Solution](https://github.com/madaja/Rock-Paper-Scissors)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/rock-paper-scissors)
+- [Jocelyn's Solution](https://github.com/Jocundity/rock-paper-scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/Jocundity/rock-paper-scissors/blob/master/rockpaperscissors.html)
 </details>
