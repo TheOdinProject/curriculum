@@ -231,7 +231,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's Soltuion](https://github.com/bchalman/micro-reddit)
 * [Tommy's Solution](https://github.com/hoangtommy/micro-reddit)
 * [Alex's Solution](https://github.com/alexcorremans/micro-reddit)
-* [Brendaneus' Solution](https://github.com/brendaneus/micro-reddit)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/micro-reddit)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/micro-reddit)
 * [JamCry's Solution](https://github.com/jamcry/micro-reddit)
 * [Vanny96's Solution](https://github.com/vanny96/micro_reddit)

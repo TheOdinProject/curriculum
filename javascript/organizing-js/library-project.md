@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Braxton Lemmon's solution](https://github.com/braxtonlemmon/js-book-library) - [View in Browser](https://braxtonlemmon.github.io/js-book-library/)
 - [Disco Trooper's Solution](https://github.com/disco-trooper/library) - [View in Browser](https://disco-trooper.github.io/library/)
 - [Nick Hunter's Solution](https://github.com/hunter497/TheOdinProjectJS) - [View in Browser](https://hunter497.github.io/TheOdinProjectJS/)
 - [MikkRou's Solution](https://github.com/MikkRou/library) - [View in Browser](https://mikkrou.github.io/library/)
@@ -141,7 +142,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Valentino Valenti's Solution](https://github.com/1ba1/library-app) - [View in browser](https://1ba1.github.io/library-app/)
 - [tnharvey's Solution](https://github.com/tnharvey/library) - [View in browser](https://tnharvey.github.io/library/)
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Book-Manager) - [View in Browser](https://ubaid-manzoor.github.io/Book-Manager/)
-- [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/library)
+- [Brendaneus' Solution](https://theodinprojects.live/courses/javascript/projects/library)
 - [Antonio Marcos's Solution](https://github.com/AMarcosCastelo/library) - [View in Browser](https://amarcoscastelo.github.io/library/)
 - [JamCry's Solution](https://github.com/jamcry/js-library) - [View in Browser](https://jamcry.github.io/js-library/)
 - [akashdas98's Solution](https://github.com/akashdas98/library) - [View in Browser](https://akashdas98.github.io/library/)
@@ -157,5 +158,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Joe Lee's Solution](https://github.com/JoeDravarol/library) - [View in Browser](https://JoeDravarol.github.io/library)
 - [crongle's Solution](https://github.com/crongle/librio) - [View in Browser](https://crongle.github.io/librio/)
 - [Emilie Humbert's Solution](https://github.com/EmilieHumbert/library) - [View in Browser](https://emiliehumbert.github.io/library/)
+- [Vorelli's Solution](https://github.com/Vorelli/Library) - [View in Browser](https://github.com/Vorelli/Library)
 </details>
 
