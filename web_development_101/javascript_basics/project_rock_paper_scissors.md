@@ -1058,4 +1058,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nestor's solution](https://github.com/nestor-c/roshambo) - [View in Browser](https://nestor-c.github.io/roshambo/)
 - [Andrés' solution](https://github.com/echounit1/rps) - [View in Browser](https://echounit1.github.io/rps/)
 - [Streetset's Solution](https://github.com/madaja/Rock-Paper-Scissors)
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/rock-paper-scissors)
 </details>
