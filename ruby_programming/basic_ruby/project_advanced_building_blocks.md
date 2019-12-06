@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/bubble_sort/blob/master/bubble_sort.rb)
 * [Robin's Solution](https://github.com/CoolGlasses/advanced-building-blocks/blob/master/bubble_sort.rb)
 * [Run After's Solution](https://github.com/run-after/bubble_sort/blob/master/bubble_sort.rb)
 * [Noah T's Solution](https://github.com/noahtalerman/odin_project_solutions/blob/master/advanced_building_blocks_ruby/bubble_sort.rb)
@@ -388,6 +389,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
 * [DalandanJuice's SOlution](https://github.com/DalandanJuice/ruby-building-blocks/blob/master/bubble_sort.rb)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/ruby-building-blocks)
+* [hyperturing's Solution](https://github.com/hyperturing/bubble-sort)
 </details>
 
 ### Project 2: Enumerable Methods

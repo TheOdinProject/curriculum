@@ -45,6 +45,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [KenYu's Solution](https://github.com/kendinh216/calculator) - [View in Browser](https://kendinh216.github.io/calculator/calculator.html)
+- [rainmodred's Solution](https://github.com/rainmodred/calculator) - [View in Browser](https://rainmodred.github.io/calculator/)
+- [Mary Cheung's Solution](https://github.com/marybcheung/calculator) - [View in Browser](https://marybcheung.github.io/calculator/)
+- [Jfr's Solution](https://github.com/jfrcom/calculator) - [View in Browser](https://jfrcom.github.io/calculator/)
+- [Simon's Solution](https://github.com/Sim-frpt/calculator) - [View in Browser](https://sim-frpt.github.io/calculator/)
+- [Nyandereian's Solution](https://github.com/Nyandereian/calculator) - [View in Browser](https://nyandereian.github.io/calculator/)
+- [Rarysson's Solution](https://github.com/rarysson/calculator) - [View in Browser](https://rarysson.github.io/calculator/)
+- [Hans Oliveira's Solution](https://github.com/hansnery/calculator) - [View in Browser](https://hansnery.github.io/calculator/)
 - [Jakob's Solution](https://github.com/jodokusquack/calculator) - [View in Browser](https://jodokusquack.github.io/calculator/)
 - [Will's Solution](https://github.com/GroverW/site/tree/master/projects/calculator) - [View in Browser](https://groverw.github.io/site/projects/calculator/index.html)
 - [Philipp's Solution](https://github.com/philipp-mcvity/calculator-project) - [View in Browser](https://philipp-mcvity.github.io/calculator-project/)
@@ -438,4 +446,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MortenEmde's solution](https://github.com/MortenEmde/Calculator.git) - [View in Browser](https://mortenemde.github.io/Calculator/Calculator.html)
 - [guacamobley's solution](https://github.com/guacamobley/simple-calculator) - [View in Browser](https://guacamobley.github.io/simple-calculator/index.html)
 - [Dustin Janssen's solution](https://github.com/DustinJanssen/calculator) - [View in Browser](https://dustinjanssen.github.io/calculator/)
+- [johncoryk's solution](https://github.com/johncoryk/calc) - [View in Browser](https://johncoryk.github.io/calc/)
+- [Chris Gardner's solution](https://github.com/cgardn/web-calculator) - [View in Browser](https://cgardn.github.io/web-calculator)
+- [AlexGioffDev's Solution](https://github.com/AlexGioffDev/Calculator) - [View in Browser](https://alexgioffdev.github.io/Calculator/)
+- [jkraf002's solution](https://github.com/jkraf002/calculator) - [View in Browser](https://jkraf002.github.io/calculator/)
 </details>
