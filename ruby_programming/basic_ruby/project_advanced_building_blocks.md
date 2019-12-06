@@ -437,6 +437,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+*[Olugbade Olalekan's Solution](https://github.com/gbadesimple/enumerable_module/blob/master/enumerable_module.rb)
 * [Robin's Solution](https://github.com/CoolGlasses/advanced-building-blocks/blob/master/enumerable_methods.rb)
 * [Mike Farias' Solution](https://github.com/mkezmkez/ruby-enumerables/blob/enumerables/enumerables.rb)
 * [Run After's Solution](https://github.com/run-after/enumerable/blob/master/enumerable.rb)
