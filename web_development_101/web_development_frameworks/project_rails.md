@@ -434,6 +434,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Steve White's solution](https://github.com/swhite85/blogger) - [View in broswer](https://afternoon-anchorage-29859.herokuapp.com/)
 * [canicodenow's solution](https://github.com/canicodenow/project_ruby) - [View in browser](https://damp-sea-26254.herokuapp.com/)
 * [Chris Gardner's solution](https://github.com/cgardn/blogger) - [View in browser](https://masterful-blagger.herokuapp.com)
+* [guacamobley's solution](https://github.com/guacamobley/rails-tutorial-project)
 
 </details>
 
