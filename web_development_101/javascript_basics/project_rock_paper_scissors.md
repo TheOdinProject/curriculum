@@ -26,6 +26,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 
       ​
 5. Write a NEW function called `game()`. Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
+   1. You have not officially learned how to "loop" over code to repeat function calls... if you already know about loops from somewhere else (or if you feel like doing some more learning) feel free to use them.  If not, don't worry! Just call your `playRound` function 5 times in a row.  Loops are covered in the next lesson.
    1. At this point you should be using `console.log()` to display the results of each round and the winner at the end.
    2. Use `prompt()` to get input from the user. [Read the docs here if you need to.](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
    3. Feel free to re-work your previous functions if you need to.  Specifically, you might want to change the return value to something more useful.
@@ -40,6 +41,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+- [James's Solution](https://github.com/ericksen-github/rock_paper_scissors)
+- [Paul's Solution](https://github.com/ppayne12/rock-paper-scissors)
+- [Rachel's solution](https://github.com/rlmoser99/rock-paper-scissors)
+- [JohnUrb's Solution](https://github.com/johnurb/rock-paper-scissors) 
 - [Lebogang's solution](https://github.com/lebogangolifant/rock_paper_scissors) - [View in Browser](https://lebogangolifant.github.io/rock_paper_scissors/)
 - [Armo's Solution](https://github.com/Armoilane/rock-paper-scissors)
 - [Charles Briggs's Solution](https://github.com/ChuckBriggs/rockPaperScissors) - [View in Browser](https://chuckbriggs.github.io/rockPaperScissors/)
@@ -1055,4 +1061,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 – [MrLupine's Solution](https://github.com/MrLupine/rock-paper-scissors/) - [View in Browser](https://mrlupine.github.io/rock-paper-scissors/)
 - [Procerus's Solution](https://github.com/Procerus/rock-paper-scissors)
 - [Nestor's solution](https://github.com/nestor-c/roshambo) - [View in Browser](https://nestor-c.github.io/roshambo/)
+- [Andrés' solution](https://github.com/echounit1/rps) - [View in Browser](https://echounit1.github.io/rps/)
+- [Streetset's Solution](https://github.com/madaja/Rock-Paper-Scissors)
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/rock-paper-scissors)
+- [Jocelyn's Solution](https://github.com/Jocundity/rock-paper-scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/Jocundity/rock-paper-scissors/blob/master/rockpaperscissors.html)
 </details>

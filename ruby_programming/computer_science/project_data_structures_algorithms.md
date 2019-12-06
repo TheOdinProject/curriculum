@@ -390,5 +390,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/knight-moves)
 * [Husseinhewehii's solution](https://github.com/Husseinhewehii/Knight_Moves)
 * [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/knights_travails)
+* [Bendee's Solution](https://github.com/bendee48/Data-Structures/blob/master/knight_moves.rb)
 
 </details>
