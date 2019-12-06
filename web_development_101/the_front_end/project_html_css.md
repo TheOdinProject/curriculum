@@ -2690,9 +2690,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Will's Solution (Both)](http://wmisback.github.io/google-homepage) - [View in Browser](https://wmisback.github.io/google-homepage/) 
 * [feseka61's Solution (Easy)](https://github.com/feseka61/google-homepage) - [View in Browser](https://feseka61.github.io/google-homepage/)
 * [pmwals09's Solution (Easy)](https://github.com/pmwals09/google-homepage) - [View in Browser](https://pmwals09.github.io/google-homepage/)
+* [Zane's Solution (Easy)](https://github.com/considine157/google-homepage) - [View in Browser](https://considine157.github.io/google-homepage/)
 * [Lucio's Solution (Easy)](https://github.com/JCarlosLucio/google-homepage) - [View in Browser](https://JCarlosLucio.github.io/google-homepage/)
 </details>
-
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
