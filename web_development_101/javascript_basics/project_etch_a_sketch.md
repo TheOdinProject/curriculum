@@ -644,4 +644,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/etch-a-sketch) - [View in Browser](https://github.com/AndrewHuntington/etch-a-sketch)
 * [SurfingChewie's solution] (https://github.com/SurfingChewie/etch-a-sketch)
 * [Shane Gilbert's solution](https://github.com/shanedgilbert/Etch-a-sketch) - [View in Browser](https://shanedgilbert.github.io/Etch-a-sketch/)
+[Kale'33's solution](https://github.com/poreniyi/Etch-a-Sketch) - [View in Browser](https://poreniyi.github.io/Etch-a-Sketch/)
 </details>
