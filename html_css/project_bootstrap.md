@@ -25,6 +25,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/bootstrap-project) - [View in Browser](https://fffear.github.io/bootstrap-project/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/newsweek-clone) - [View in Browser](https://braxtonlemmon.github.io/newsweek-clone/)
 * [David Auza's Solution](https://github.com/davidauza-engineer/Bootstrap-NewsweekClone) - [View in Browser](https://davidauza-engineer.github.io/Bootstrap-NewsweekClone/)
 * [Ohlie's solution](https://github.com/lco1220/newsweek_bootstrap) - [View in Browser](https://lco1220.github.io/newsweek_bootstrap/)
@@ -69,6 +70,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Antonio Marcos's solution](https://github.com/AMarcosCastelo/newsweek-bootstrap) - [View in browser](https://amarcoscastelo.github.io/newsweek-bootstrap/)
 * [Carlos Del Real's solution](https://github.com/carloshdelreal/using-bootstrap) - [View in Browser](https://carloshdelreal.github.io/using-bootstrap/)
 * [Miguel's solution](https://github.com/mapra99/NewsWeek)
+* [Aron's solution](https://github.com/aronfischer/bootstrap-newsweek-homepage) - [View in Browser](https://aronfischer.github.io/bootstrap-newsweek-homepage/)
 
 </details>
 
