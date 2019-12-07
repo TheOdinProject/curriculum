@@ -52,6 +52,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/binary_search_tree)
 * [Ian's Solution](https://github.com/IanMKesler/binary_tree)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
@@ -198,6 +199,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/binary-search-tree)
 * [Drew Goddyn's solution](https://github.com/Drew-Goddyn/binary_search_tree)
 * [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
+* [Bendee's Solution](https://github.com/bendee48/Data-Structures)
 
 </details>
 
@@ -389,5 +391,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/knight-moves)
 * [Husseinhewehii's solution](https://github.com/Husseinhewehii/Knight_Moves)
 * [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/knights_travails)
+* [Bendee's Solution](https://github.com/bendee48/Data-Structures/blob/master/knight_moves.rb)
 
 </details>

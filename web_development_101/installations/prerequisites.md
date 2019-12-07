@@ -145,7 +145,8 @@ If you'd like to move forward with WSL, despite the warning above, please see be
   <details markdown="block">
   <summary class="dropDown-header">Windows Subsystem for Linux Directions
   </summary>
-  ### Step 1: Install WSL
+
+### Step 1: Install WSL
 
 Microsoft has made installing WSL super simple.
 

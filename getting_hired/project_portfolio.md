@@ -33,4 +33,5 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
 * [Javier Machin's solution - Live website](https://www.javiermachin.com/)
 * [Tommy's solution - Live website](https://tommyhoang.com)
 * [Scott Huang's solution - Source Code](https://github.com/scotth527/gatsby_blog) - [Live website](https://www.huangscott.com)
+* [Krzysztof Sordyl's solution - Source Code](https://github.com/Verthon/portfolio) - [Live website](https://sordyl.me)
 </details>
