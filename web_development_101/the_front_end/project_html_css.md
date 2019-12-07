@@ -2686,7 +2686,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [pudu87's Solution (Easy)](https://github.com/pudu87/google-homepage/) - [View in Browser](https://pudu87.github.io/google-homepage/) - [pudu87's Solution (Difficult)](https://github.com/pudu87/google-searchpage/) - [View in Browser](https://pudu87.github.io/google-searchpage/)
 * [mmboyce's Solution (Easy)](https://github.com/mmboyce/google-homepage/) - [View in Browser](https://mmboyce.github.io/google-homepage/)
 * [Austin's Solution (Easy)](https://github.com/austinhulen/google-homepage) - [View in Browser](https://austinhulen.github.io/google-homepage/)
-* [Austin's Solution (Easy)](https://github.com/austinhulen/google-homepage) - [View in Browser] (https://austinhulen.github.io/google-homepage/)
+* [Austin's Solution (Easy)](https://github.com/austinhulen/google-homepage) - [View in Browser](https://austinhulen.github.io/google-homepage/)
 * [Jlengvarsky's Solution (Easy)](https://github.com/jlengvarsky/google-homepage) - [View in Browser](https://jlengvarsky.github.io/google-homepage/)
 * [Will's Solution (Both)](http://wmisback.github.io/google-homepage) - [View in Browser](https://wmisback.github.io/google-homepage/) 
 * [feseka61's Solution (Easy)](https://github.com/feseka61/google-homepage) - [View in Browser](https://feseka61.github.io/google-homepage/)
@@ -2694,6 +2694,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Zane's Solution (Easy)](https://github.com/considine157/google-homepage) - [View in Browser](https://considine157.github.io/google-homepage/)
 * [Lucio's Solution (Easy)](https://github.com/JCarlosLucio/google-homepage) - [View in Browser](https://JCarlosLucio.github.io/google-homepage/)
 * [Michelle12188's Solution (Easy)](https://github.com/Michelle12188/html-css-project) - [View in Browser](https://michelle12188.github.io/html-css-project/)
+* [JDPescosta's Solution (Easy)](https://github.com/JDPescosta/html-css-project) - [View in Browser](https://jdpescosta.github.io/html-css-project/)
+* [JustCourt's Solution (Easy)](https://github.com/JustCourt/google-homepage) - [View in Browser](https://justcourt.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
