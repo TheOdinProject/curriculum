@@ -1065,4 +1065,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Streetset's Solution](https://github.com/madaja/Rock-Paper-Scissors)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/rock-paper-scissors)
 - [Jocelyn's Solution](https://github.com/Jocundity/rock-paper-scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/Jocundity/rock-paper-scissors/blob/master/rockpaperscissors.html)
+- [Ivan's Solution](https://github.com/ivandjorgon/rock-paper-scissors-odin)
 </details>
