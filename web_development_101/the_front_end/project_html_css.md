@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Ana's Solution (Easy)] (https://github.com/Pokemarzel/The-Odin-Project-Journey/tree/master/Projects/google-homepage-01) - [View in Browser] (https://pokemarzel.github.io/The-Odin-Project-Journey/Projects/google-homepage-01/)
 * [Viktorbjorn's Solution (Easy)](https://github.com/ViktorBjorn/google-homepage) - [View in Browser](https://viktorbjorn.github.io/google-homepage/)
 * [AJ's Solution (Easy)](https://github.com/ajmcquay/google-homepage) - [View in Browser](https://ajmcquay.github.io/google-homepage/)
 * [Paul's Solution (Easy)](https://github.com/ppayne12/google-homepage) - [View in Browser](https://ppayne12.github.io/google-homepage/)
