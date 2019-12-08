@@ -217,13 +217,14 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's solution](https://github.com/bchalman/odin-re-former)
 * [Alex's solution](https://github.com/alexcorremans/re-former)
 * [Tommy's solution](https://github.com/hoangtommy/re-former)
-* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/re-former)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/re-former)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/re-former)
 * [JamCry's Solution](https://github.com/jamcry/re-former)
 * [vanny96's Solution](https://github.com/vanny96/forms-project)
 * [Roy's solution](https://github.com/RoyNyaga/re_former_odin_project/tree/master/re_former)
 * [Cody Buffaloe's Solution](https://github.com/CodyLBuffaloe/Re-Former)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/re-former)
+* [Rey van den Berg's Solution](https://github.com/Rey810/Forms.git)
 
 </details>
 
