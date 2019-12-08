@@ -116,6 +116,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/ViriCruz/positioning-and-floating-elements) - [View in Browser](https://viricruz.github.io/positioning-and-floating-elements/)
 * [Halkim's Solution](https://github.com/halkim44/nytimes-article-rebuild) - [View in Browser](https://halkim44.github.io/nytimes-article-rebuild/)
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
+* [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
 
 </details>
 
