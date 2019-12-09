@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+- [ViktorBjorn' Solution](https://github.com/ViktorBjorn/rock-paper-scissors)
 - [Megalopsychic's Solution](https://github.com/Megalopsychic/rock-paper-scissors-lizard-spock)
 - [Charlotte Hues' Solution](https://github.com/charlotte-hues/rock_paper_scissors) - [View in Browser](https://charlotte-hues.github.io/rock_paper_scissors/)
 - [Yuliya Khilko's Solution](https://github.com/momofcats/ROCK-PAPER-SCISSORS)
