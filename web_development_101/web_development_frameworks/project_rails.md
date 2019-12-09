@@ -26,6 +26,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/blogger) 
 * [nearmint's Solution](https://github.com/nearmint/rails-blogger) - [View in Browser](https://protected-shelf-44996.herokuapp.com/) - Partner: [colecrowder](https://github.com/colecrowder/blogger)
 * [Philipp's Solution](https://github.com/philipp-mcvity/blogger) 
 * [Ogunmola Israel's Solution](https://github.com/Lippins/blogger_app) - [View in Browser](https://guarded-wildwood-88330.herokuapp.com/)
