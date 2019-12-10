@@ -90,7 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-
+* [Lakshya's Solution (Easy)](https://github.com/king-11/google-homepage)] - [View in Browser](https://king-11.github.io/google-homepage/)
 * [Nizar's Solution (Easy)](https://github.com/nizgrira/google-homepage) - [View in Browser](https://nizgrira.github.io/google-homepage/)
 * [Requiem's Solution (Easy)](https://github.com/Requiem00/google-homepage) - [View in Browser](https://requiem00.github.io/google-homepage/)
 * [Requiem's Solution (Hard)](https://github.com/Requiem00/google-search-results) - [View in Browser](https://requiem00.github.io/google-search-results/)
