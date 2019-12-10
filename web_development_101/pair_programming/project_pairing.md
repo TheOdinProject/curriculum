@@ -158,6 +158,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Jahmzu's Solution](https://github.com/jahmzu/TOP-pomodoro) - [View in Browser](https://jahmzu.github.io/TOP-pomodoro/)
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/pomodoro_timer) - [View in browser](https://davidwatkincode.github.io/the_odin_project/javascript/pomodoro_timer)
 * [Kevin Charles's Solution](https://github.com/kevinbcharles/pomodoro) - [View in Browser](https://kevinbcharles.github.io/pomodoro/)
+* [AlexGioffDev's Solution](https://github.com/AlexGioffDev/Pomodoro) - [View in Browser](https://alexgioffdev.github.io/Pomodoro/index.html)
 </details>
 
 ### Next Steps
