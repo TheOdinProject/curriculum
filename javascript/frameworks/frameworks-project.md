@@ -45,5 +45,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Tronerta's Vue Todo-List solution](https://github.com/Tronerta/vue-todolist) - [View in browser](https://morning-meadow-39929.herokuapp.com)
 * [Yash's React Todo-List solution](https://github.com/yashboura303/todoReact)
 * [Kai's React Library Solution](https://github.com/KaiVandivier/library-react) - [View in Browser](https://kaivandivier.github.io/library-react/)
+* [Aron's Solution (Restaurant Page)] (https://github.com/aronfischer/react_restaurant_page) - [View in Browser] (https://aronfischer.github.io/react_restaurant_page/)
 
 </details>
