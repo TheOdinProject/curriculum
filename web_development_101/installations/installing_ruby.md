@@ -224,7 +224,7 @@ If the previous message stated you should append to your bash_profile then run:
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ~~~
 
-If the previous message stated you should append to your zshrc then run:
+Otherwise if it mentioned zshrc then run:
 
 ~~~bash
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
