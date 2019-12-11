@@ -1236,7 +1236,7 @@ return to the application.
           <td><%= "#{legislator.name}" %></td>
           <td><%= "#{legislator.urls.join}" %></td>
         </tr>
-      <% end %>
+        <% end %>
     <% else %>
       <th></th>
       <td><%= "#{legislators}" %></td>
