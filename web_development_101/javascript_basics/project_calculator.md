@@ -416,7 +416,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [machineshot's solution](https://github.com/MachineShot/calculator) - [View in Browser](https://machineshot.github.io/calculator/)
 - [Eduardo06sp's solution](https://github.com/Eduardo06sp/calculator) - [View in Browser](https://eduardo06sp.github.io/calculator/)
 - [Husseinhewehii's solution](https://github.com/Husseinhewehii/Calculator) - [View in Browser](https://husseinhewehii.github.io/Calculator/)
-- [Dave Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/calculator) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/calculator)
+- [Dave Watkin's solution](https://github.com/DavidWatkinCode/web_dev_101/tree/master/javascript/calculator) - [View in Browser](https://davidwatkincode.github.io/web_dev_101/javascript/calculator)
 - [TuSeMorte's solution](https://github.com/TuSeMorte/CALCULATOR) - [View in Browser](https://tusemorte.github.io/CALCULATOR/)
 - [Aron's solution](https://github.com/aronfischer/calculator) - [View in Browser](https://aronfischer.github.io/calculator/)
 - [Juan St's solution](https://jcstarna.github.io/calculator/) - [View in Browser](https://github.com/jcstarna/calculator)
