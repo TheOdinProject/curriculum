@@ -103,4 +103,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Brendaneus' Solution](https://theodinprojects.live/courses/javascript/projects/tic-tac-toe-(javascript))
 - [Andrécio's Solution](https://github.com/andreciobezerra/tic-tac-toe) - [View in Browser](https://andreciobezerra.github.io/tic-tac-toe/)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/tictactoe-js) - [View in Browser](https://edmtrv.github.io/tictactoe-js/)
+- [Vorelli's Solution](https://github.com/Vorelli/Tic-Tac-Toe) - [View in Browser](https://vorelli.github.io/Tic-Tac-Toe/)
 </details>
