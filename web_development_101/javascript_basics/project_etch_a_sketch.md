@@ -587,7 +587,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Javier Arias's Solution](https://github.com/jfariasf/TOP-etch-a-sketch) - [View in Browser](https://jfariasf.github.io/TOP-etch-a-sketch/)
 * [Andrija Jelenkovic's solution](https://github.com/Amdrija/etch-a-sketch) - [View in Browser](https://amdrija.github.io/etch-a-sketch/)
 * [lindnermarci's solution](https://github.com/lindnermarci/EtchASketch) - [View in Browser](https://lindnermarci.github.io/EtchASketch/)
-* [David Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/etch_a_sketch) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/etch_a_sketch)
+* [David Watkin's solution](https://github.com/DavidWatkinCode/web_dev_101/tree/master/javascript/etch_a_sketch) - [View in Browser](https://davidwatkincode.github.io/web_dev_101/javascript/etch_a_sketch)
 * [Robert Suazo's solution](https://github.com/rsuazo/ETCH-A-SKETCH) - [View in Browser](https://rsuazo.github.io/ETCH-A-SKETCH/)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/sketch) - [View in Browser](https://husseinhewehii.github.io/Sketch/)
 * [Vlad Serikov's Solution](https://vladserikov.github.io/each-a-sletch/)
