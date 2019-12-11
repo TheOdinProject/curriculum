@@ -1073,4 +1073,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ivan's Solution](https://github.com/ivandjorgon/rock-paper-scissors-odin)
 - [Cbo-11's Solution](https://github.com/Cbo-11/RockPaperScissorsJSExcersise)
 - [Amy's Solution](https://github.com/achoo-o/paper-scissors-rock) - [View in Browser](https://achoo-o.github.io/paper-scissors-rock/paperScissorsRock.html)
+- [Ross's Solution](https://github.com/RHoneyman/rock_paper_scissors) - [View in Browser](https://rhoneyman.github.io/rock_paper_scissors/)
 </details>
