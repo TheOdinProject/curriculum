@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [Jonathan's Solution](https://github.com/jcy1011/rock-paper-scissors)
 - [ozymandias' Solution](https://github.com/orzymandias/rock-paper-scissors)
 - [ViktorBjorn' Solution](https://github.com/ViktorBjorn/rock-paper-scissors)
 - [Megalopsychic's Solution](https://github.com/Megalopsychic/rock-paper-scissors-lizard-spock)
