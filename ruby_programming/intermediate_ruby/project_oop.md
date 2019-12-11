@@ -558,6 +558,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Toberoni's Solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/mastermind)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/mastermind.rb)
 * [Sher's solution](https://github.com/sher-s7/mastermind)
+* [Robert Suazo's solution](https://github.com/rsuazo/mastermind/blob/master/mastermind.rb)
 </details>
 
 ### Additional Resources
