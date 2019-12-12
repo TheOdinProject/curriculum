@@ -2708,6 +2708,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Thaddeus Flynn's Solution (Easy)](https://github.com/Tflynn94/google-homepage) - [View in Browser](https://tflynn94.github.io/google-homepage/)
 * [Andy Glover's Solution (Easy)](https://github.com/andyglover/odin_google-homepage) - [View in Browser](https://andyglover.github.io/odin_google-homepage/)
 * [Ludivine Poussier's Solution (Easy)](https://github.com/ludivinepoussier/google-homepage) - [View in Browser](https://ludivinepoussier.github.io/google-homepage/)
+* [Chow Jia Ying's Solution (Easy)](https://github.com/C-likethis123/google-homepage) - [View in Browser](https://c-likethis123.github.io/google_homepage/index.html)
 
 </details>
 
