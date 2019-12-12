@@ -105,4 +105,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Andrécio's Solution](https://github.com/andreciobezerra/tic-tac-toe) - [View in Browser](https://andreciobezerra.github.io/tic-tac-toe/)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/tictactoe-js) - [View in Browser](https://edmtrv.github.io/tictactoe-js/)
 - [Vorelli's Solution](https://github.com/Vorelli/Tic-Tac-Toe) - [View in Browser](https://vorelli.github.io/Tic-Tac-Toe/)
+- [Jkraf002's Solution](https://github.com/jkraf002/tic-tac-toe) - [View in Browser](https://jkraf002.github.io/tic-tac-toe/)
 </details>
