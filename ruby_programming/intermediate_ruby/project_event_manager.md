@@ -1236,7 +1236,7 @@ return to the application.
           <td><%= "#{legislator.name}" %></td>
           <td><%= "#{legislator.urls.join}" %></td>
         </tr>
-      <% end %>
+        <% end %>
     <% else %>
       <th></th>
       <td><%= "#{legislators}" %></td>
@@ -1432,7 +1432,7 @@ def legislators_by_zipcode(zip)
   end
 end
 
-def save_thank_you_letters(id,form_letter)
+def save_thank_you_letter(id,form_letter)
   Dir.mkdir("output") unless Dir.exists?("output")
 
   filename = "output/thanks_#{id}.html"
@@ -1457,11 +1457,11 @@ contents.each do |row|
 
   form_letter = erb_template.result(binding)
 
-  save_thank_you_letters(id,form_letter)
+  save_thank_you_letter(id,form_letter)
 end
 ~~~
 
-The method `save_thank_you_letters` requires the id of the attendee and the form letter
+The method `save_thank_you_letter` requires the id of the attendee and the form letter
 output.
 
 ## Iteration: Clean Phone Numbers
