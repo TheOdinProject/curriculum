@@ -1079,4 +1079,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mmboyce's Solution (GUI)](https://github.com/mmboyce/rock-paper-scissors) - [View in Browser](https://mmboyce.github.io/rock-paper-scissors/) - [Console Solution](https://github.com/mmboyce/rock-paper-scissors/commit/6d90fa29a7f9bd788075577be0f94746c260dfdd)
 - [Kassim's Solution](https://github.com/kassim99/rockpaperscissors) - [View in Browser](https://kassim99.github.io/rockpaperscissors/)
 - [Chow Jia Ying's Solution](https://github.com/C-likethis123/rock-paper-scissors)
+- [StrY's solution](https://github.com/J-StrY/rockPaperScissors) - [View in Browser](https://J-StrY.github.io/rockPaperScissors)
 </details> 
