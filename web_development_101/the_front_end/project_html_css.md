@@ -2711,6 +2711,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Chow Jia Ying's Solution (Easy)](https://github.com/C-likethis123/google-homepage) - [View in Browser](https://c-likethis123.github.io/google_homepage/index.html)
 * [Dan Beard's Solution (Difficult)](https://github.com/danbeard1/google-homepage) - [View in Browser](https://danbeard1.github.io/google-homepage/)
 * [Sasa Milo's Solution (Easy)](https://github.com/sasamilo/google-homepage) - [View in Browser](https://sasamilo.github.io/google-homepage/)
+* [J-StrY's Solution (Easy)](https://github.com/J-StrY/gooogle_look) - [View in Browser](https://j-stry.github.io/gooogle_look)
 </details>
 
 ### Additional Resources
