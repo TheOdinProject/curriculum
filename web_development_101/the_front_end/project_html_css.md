@@ -291,6 +291,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [chepyego Solution (Easy)](https://github.com/chepyego/google-homepage) - [View in Browser](https://chepyego.github.io/google-homepage/)
 * [Samuels Solution (Easy)](https://github.com/samuel-projects/google-homepage) - [View in Browser](https://samuel-projects.github.io/google-homepage/)
 * [Gary Rotter's Solution (Easy)](https://github.com/garythedamnsnail/google-homepage) - [View in Browser](https://garythedamnsnail.github.io/google-homepage/)
+* [Daniel Arku's Solution (Easy)](https://github.com/darku7/google-homepage) - [View in Browser] (https://darku7.github.io/google-homepage/)
 * [Jose Salvador's Solution (Easy)](https://github.com/Jsalvadorpp/google-homepage) - [View in Browser](https://jsalvadorpp.github.io/google-homepage/)
 * [Jose Salvador's Solution (Difficult)](https://github.com/Jsalvadorpp/google-results-page) - [View in Browser](https://jsalvadorpp.github.io/google-results-page/)
 * [bcikota's Solution (Easy)](https://bcikota.github.io/google-homepage/) - [View in Browser](https://github.com/bcikota/google-homepage) - [bcikota's Solution (Difficult)](https://bcikota.github.io/google-search/) - [View in Browser](https://github.com/bcikota/google-search)
@@ -2708,7 +2709,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Thaddeus Flynn's Solution (Easy)](https://github.com/Tflynn94/google-homepage) - [View in Browser](https://tflynn94.github.io/google-homepage/)
 * [Andy Glover's Solution (Easy)](https://github.com/andyglover/odin_google-homepage) - [View in Browser](https://andyglover.github.io/odin_google-homepage/)
 * [Ludivine Poussier's Solution (Easy)](https://github.com/ludivinepoussier/google-homepage) - [View in Browser](https://ludivinepoussier.github.io/google-homepage/)
-
+* [Chow Jia Ying's Solution (Easy)](https://github.com/C-likethis123/google-homepage) - [View in Browser](https://c-likethis123.github.io/google_homepage/index.html)
+* [Dan Beard's Solution (Difficult)](https://github.com/danbeard1/google-homepage) - [View in Browser](https://danbeard1.github.io/google-homepage/)
+* [Sasa Milo's Solution (Easy)](https://github.com/sasamilo/google-homepage) - [View in Browser](https://sasamilo.github.io/google-homepage/)
+* [J-StrY's Solution (Easy)](https://github.com/J-StrY/gooogle_look) - [View in Browser](https://j-stry.github.io/gooogle_look)
 </details>
 
 ### Additional Resources
