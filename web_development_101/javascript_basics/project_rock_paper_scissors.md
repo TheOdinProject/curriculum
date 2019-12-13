@@ -1080,4 +1080,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kassim's Solution](https://github.com/kassim99/rockpaperscissors)
 - [Chow Jia Ying's Solution](https://github.com/C-likethis123/rock-paper-scissors)
 - [StrY's solution](https://github.com/J-StrY/rockPaperScissors) - [View in Browser](https://J-StrY.github.io/rockPaperScissors)
+- [LenaChestnut's solution] (https://github.com/LenaChestnut/rock-paper-scissors)
 </details> 
