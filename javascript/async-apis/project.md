@@ -19,6 +19,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Daniel Wesego's solution](https://github.com/DanielMitiku/weather-app) - [View in Browser](https://danielmitiku.github.io/weather-app)
 * [Alain Suarez's solution](https://gitlab.com/asuar/react-weather) - [View in Browser](https://asuar.gitlab.io/react-weather/)
 * [Bojo's solution](https://github.com/BojoZahariev/Weather-App) - [View in Browser](https://bojozahariev.github.io/Weather-App/)
 * [Igorashs's solution](https://github.com/igorashs/vue-weather-app) - [View in Browser](https://igorashs.github.io/vue-weather-app/)
