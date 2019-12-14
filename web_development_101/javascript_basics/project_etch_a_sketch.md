@@ -43,8 +43,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-* [James's Solution](https://github.com/ericksen-github/etch_a_sketch)- [View in Browser](https://ericksen-github.github.io/etch_a_sketch/)
-* [Paul's Solution](https://github.com/ppayne12/Etch-a-Sketch)- [View in Brower](https://ppayne12.github.io/etch-a-sketch/)
+* [yldrmali's Solution](https://github.com/yldrmali/Etch-a-Sketch) - [View in Browser](https://yldrmali.github.io/Etch-a-Sketch/)
+* [James's Solution](https://github.com/ericksen-github/etch_a_sketch) - [View in Browser](https://ericksen-github.github.io/etch_a_sketch/)
+* [Paul's Solution](https://github.com/ppayne12/Etch-a-Sketch) - [View in Brower](https://ppayne12.github.io/etch-a-sketch/)
 * [Alex's Solution](https://github.com/AlexOk564/Etch-a-Sketch)
 * * [Dan's Solution](https://github.com/DanPete/etch-a-sketch-es6) - [View in Brower](https://danpete.github.io/etch-a-sketch-es6/)
 * * [Nadine's Solution](https://github.com/nadineeen/ETCH-A-SKETCH) - [View in Brower](https://nadineeen.github.io/ETCH-A-SKETCH/)
