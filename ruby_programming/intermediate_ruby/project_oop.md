@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/tic_tac_toe)
 * [Robin's Solution](https://github.com/CoolGlasses/project_oop/blob/master/tic_tac_toe.rb)
 * [Run After's Solution](https://github.com/run-after/tic_tac_toe)
 * [Austn Fisher's Solution](https://github.com/Austin2016/tictactoe)
@@ -331,6 +332,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/mastermind)
 * [Robin's Solution](https://github.com/CoolGlasses/project_oop/blob/master/mastermind.rb)
 * [Billy's Solution](https://github.com/bcoffin9/mastermind)
 * [Run After's Solution](https://github.com/run-after/mastermind)
