@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Zakariye Yusuf's Solution (Easy)](https://github.com/ZYusuf10/Google-Clone) - [View in Browser](https://zyusuf10.github.io/Google-Clone/)
 * [Saumya's Solution (Easy)](https://github.com/iamsaumya/google-homepage) - [View in Browser](https://iamsaumya.github.io/google-homepage/)
 * [Ash's Solution (Easy)](https://github.com/VenomSnakeEater/google-homepage)- [View in Browser] (https://venomsnakeeater.github.io/google-homepage/)
 * [WonderNote18's Solution (Easy)](https://github.com/WonderNote18/top-google-homepage) - [View in Browser](https://wondernote18.github.io/top-google-homepage/)
