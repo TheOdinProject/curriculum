@@ -2723,6 +2723,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mrdsantos's Solution (Difficult)](https://github.com/mrdsantos/google-results) - [View in Browser](https://mrdsantos.github.io/google-results/)
 * [BusyBee Solution (Both)](https://github.com/swissbusybee/google-homepage) - [View in Browser](https://swissbusybee.github.io/google-homepage/)
 * [msrdinesh's Solution (Easy)](https://github.com/msrdinesh/google-homepage) - [View in Browser](https://msrdinesh.github.io/google-homepage/)
+* [Tisicky's Solution (Easy)](https://github.com/Tisicky/google-homepage) - [view in Browser](https://tisicky.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
