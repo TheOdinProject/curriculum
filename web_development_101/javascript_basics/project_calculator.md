@@ -45,6 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andrew S's Solution](https://github.com/CGoldMonkey/calculator) - [View in Browser](https://cgoldmonkey.github.io/calculator/)
+- [Brian Ngetich's Solution](https://github.com/Ghostscypher/odin-calculator) - [View in browser](https://ghostscypher.github.io/odin-calculator/)
+- [KenYu's Solution](https://github.com/kendinh216/calculator) - [View in Browser](https://kendinh216.github.io/calculator/calculator.html)
 - [rainmodred's Solution](https://github.com/rainmodred/calculator) - [View in Browser](https://rainmodred.github.io/calculator/)
 - [Mary Cheung's Solution](https://github.com/marybcheung/calculator) - [View in Browser](https://marybcheung.github.io/calculator/)
 - [Jfr's Solution](https://github.com/jfrcom/calculator) - [View in Browser](https://jfrcom.github.io/calculator/)
@@ -414,7 +417,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [machineshot's solution](https://github.com/MachineShot/calculator) - [View in Browser](https://machineshot.github.io/calculator/)
 - [Eduardo06sp's solution](https://github.com/Eduardo06sp/calculator) - [View in Browser](https://eduardo06sp.github.io/calculator/)
 - [Husseinhewehii's solution](https://github.com/Husseinhewehii/Calculator) - [View in Browser](https://husseinhewehii.github.io/Calculator/)
-- [Dave Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/calculator) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/calculator)
+- [Dave Watkin's solution](https://github.com/DavidWatkinCode/web_dev_101/tree/master/javascript/calculator) - [View in Browser](https://davidwatkincode.github.io/web_dev_101/javascript/calculator)
 - [TuSeMorte's solution](https://github.com/TuSeMorte/CALCULATOR) - [View in Browser](https://tusemorte.github.io/CALCULATOR/)
 - [Aron's solution](https://github.com/aronfischer/calculator) - [View in Browser](https://aronfischer.github.io/calculator/)
 - [Juan St's solution](https://jcstarna.github.io/calculator/) - [View in Browser](https://github.com/jcstarna/calculator)
@@ -449,4 +452,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Chris Gardner's solution](https://github.com/cgardn/web-calculator) - [View in Browser](https://cgardn.github.io/web-calculator)
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/Calculator) - [View in Browser](https://alexgioffdev.github.io/Calculator/)
 - [jkraf002's solution](https://github.com/jkraf002/calculator) - [View in Browser](https://jkraf002.github.io/calculator/)
+- [Nadine N's solution](https://github.com/nadineeen/js-calculator) - [View in Browser](https://nadineeen.github.io/js-calculator/)
+- [Andrew Huntington's Solution](https://github.com/AndrewHuntington/js-calc) - [View in Browser](https://andrewhuntington.github.io/js-calc/)
 </details>
