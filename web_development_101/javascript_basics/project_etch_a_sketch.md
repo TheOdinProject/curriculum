@@ -653,4 +653,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Andrés' solution](https://github.com/echounit1/etch-a-sketch) - [View in Browser](https://echounit1.github.io/etch-a-sketch/)
 * [Kristiana's solution](https://github.com/KristianaGaizauskiene/etch_a_sketch) 
 * [MichaelK's solution](https://github.com/a0x77ry/etch-a-sketch) - [View in Browser](https://a0x77ry.github.io/etch-a-sketch/)
+* [Lete Nwibasi's solution](https://github.com/Marcodredd/etch-a-sketch) - [View in Browser](https://marcodredd.github.io/etch-a-sketch/)
 </details>
