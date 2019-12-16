@@ -238,6 +238,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/recursion/blob/master/merge_sort.rb)
 * [Robin's Solution](https://github.com/CoolGlasses/recursion_project/blob/master/merge_sort.rb)
 * [Austin Fisher's solution](https://github.com/Austin2016/merge_sort)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/merge_sort)
