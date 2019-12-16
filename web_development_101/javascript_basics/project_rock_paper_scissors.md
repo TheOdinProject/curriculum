@@ -1085,4 +1085,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [LenaChestnut's solution](https://github.com/LenaChestnut/rock-paper-scissors)
 - [pmwals09's solution](https://github.com/pmwals09/rock-paper-scissors))
 - [arifsetyo21's solution](https://github.com/arifsetyo21/rock-paper-scissors) - [View in Browser](https://simple-game-rock-paper-scissors.netlify.com/)
+- [hadouken-ryu's solution](https://github.com/hadouken-ryu/rock_paper_scissors) - [View in Browser](https://hadouken-ryu.github.io/rock_paper_scissors/)
 </details> 
