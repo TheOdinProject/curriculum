@@ -439,6 +439,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Chris Gardner's solution](https://github.com/cgardn/blogger) - [View in browser](https://masterful-blagger.herokuapp.com)
 * [guacamobley's solution](https://github.com/guacamobley/rails-tutorial-project)
 * [AlexGioffDev's solution](https://github.com/AlexGioffDev/Blogger) - [View in browser](https://blogger-rails-alexgioff.herokuapp.com/)
+* [Singhmi4's solution](https://github.com/singhmi4/blogger) - [View in browser](https://powerful-coast-29786.herokuapp.com/)
 </details>
 
 ### Additional Resources
