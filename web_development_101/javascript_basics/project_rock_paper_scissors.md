@@ -1088,5 +1088,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [arifsetyo21's Solution](https://github.com/arifsetyo21/rock-paper-scissors) - [View in Browser](https://simple-game-rock-paper-scissors.netlify.com/)
 - [hadouken-ryu's Solution](https://github.com/hadouken-ryu/rock_paper_scissors) - [View in Browser](https://hadouken-ryu.github.io/rock_paper_scissors/)
 - [rhath32's Solution](https://github.com/rhath32/rock_paper_scissors)
+- [Jeroen-editing's Solution](git@github.com:Jeroen-editing/Rock-Paper-Scissors.git)
 - [josia's Solution](https://github.com/rindrajosia/game) - [View in Browser](https://rindrajosia.github.io/game/)
+
 </details> 
