@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [nbarker's Solution (https://github.com/nibarker/rockPaperScissors/)] - [View in Browser](https://nibarker.github.io/rockPaperScissors/)
+- [nbarker's Solution](https://github.com/nibarker/rockPaperScissors/) - [View in Browser](https://nibarker.github.io/rockPaperScissors/)
 - [justinkar's Solution](https://github.com/justinkar/rock_paper_scissors) - [View in Browser](https://justinkar.github.io/rock_paper_scissors/)
 - [Armo's Solution](https://github.com/Armoilanea/rock-paper-scissors) - [View in Browser](https://github.io/rock-paper-scissors)
 - [bkonicek's Solution](https://gitlab.com/bkonicek/rock-paper-scissors-js)
@@ -1083,9 +1083,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kassim's Solution](https://github.com/kassim99/rockpaperscissors) - [View in Browser](https://kassim99.github.io/rockpaperscissors/)
 - [Chow Jia Ying's Solution](https://github.com/C-likethis123/rock-paper-scissors)
 - [StrY's solution](https://github.com/J-StrY/rockPaperScissors) - [View in Browser](https://J-StrY.github.io/rockPaperScissors)
-- [LenaChestnut's solution](https://github.com/LenaChestnut/rock-paper-scissors)
-- [pmwals09's solution](https://github.com/pmwals09/rock-paper-scissors))
-- [arifsetyo21's solution](https://github.com/arifsetyo21/rock-paper-scissors) - [View in Browser](https://simple-game-rock-paper-scissors.netlify.com/)
-- [hadouken-ryu's solution](https://github.com/hadouken-ryu/rock_paper_scissors) - [View in Browser](https://hadouken-ryu.github.io/rock_paper_scissors/)
-- [rhath32's solution](https://github.com/rhath32/rock_paper_scissors) *PLEASE ADD MY SUBMISSION*
+- [LenaChestnut's Solution](https://github.com/LenaChestnut/rock-paper-scissors)
+- [pmwals09's Solution](https://github.com/pmwals09/rock-paper-scissors))
+- [arifsetyo21's Solution](https://github.com/arifsetyo21/rock-paper-scissors) - [View in Browser](https://simple-game-rock-paper-scissors.netlify.com/)
+- [hadouken-ryu's Solution](https://github.com/hadouken-ryu/rock_paper_scissors) - [View in Browser](https://hadouken-ryu.github.io/rock_paper_scissors/)
+- [rhath32's Solution](https://github.com/rhath32/rock_paper_scissors)
 </details> 
