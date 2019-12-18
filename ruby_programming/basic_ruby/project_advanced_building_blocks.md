@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.advanced_building_blocks/blob/master/bubble_sort/bubble_sort.rb)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/bubble_sort.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/bubble_sort/blob/master/bubble_sort.rb)
 * [Robin's Solution](https://github.com/CoolGlasses/advanced-building-blocks/blob/master/bubble_sort.rb)
@@ -439,6 +440,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods.rb)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/enum.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/enumerable_module/blob/master/enumerable_module.rb)
 * [Robin's Solution](https://github.com/CoolGlasses/advanced-building-blocks/blob/master/enumerable_methods.rb)
