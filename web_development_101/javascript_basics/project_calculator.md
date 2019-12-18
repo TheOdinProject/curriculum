@@ -457,4 +457,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nadine N's solution](https://github.com/nadineeen/js-calculator) - [View in Browser](https://nadineeen.github.io/js-calculator/)
 - [Andrew Huntington's Solution](https://github.com/AndrewHuntington/js-calc) - [View in Browser](https://andrewhuntington.github.io/js-calc/)
 [Bastillze's Solution](https://github.com/Bastillze/Calculator) - [View in Browser](https://github.com/Bastillze/Calculator/blob/master/Calculator.html)
+[MichaelK's Solution](https://github.com/a0x77ry/calculator) - [View in Browser](https://a0x77ry.github.io/calculator/)
 </details>
