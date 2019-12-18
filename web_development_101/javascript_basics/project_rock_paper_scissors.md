@@ -1083,17 +1083,17 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kassim's Solution](https://github.com/kassim99/rockpaperscissors) - [View in Browser](https://kassim99.github.io/rockpaperscissors/)
 - [Chow Jia Ying's Solution](https://github.com/C-likethis123/rock-paper-scissors)
 - [StrY's solution](https://github.com/J-StrY/rockPaperScissors) - [View in Browser](https://J-StrY.github.io/rockPaperScissors)
-<<<<<<< HEAD
 - [LenaChestnut's solution](https://github.com/LenaChestnut/rock-paper-scissors)
 - [pmwals09's solution](https://github.com/pmwals09/rock-paper-scissors))
 - [arifsetyo21's solution](https://github.com/arifsetyo21/rock-paper-scissors) - [View in Browser](https://simple-game-rock-paper-scissors.netlify.com/)
 - [hadouken-ryu's solution](https://github.com/hadouken-ryu/rock_paper_scissors) - [View in Browser](https://hadouken-ryu.github.io/rock_paper_scissors/)
 - [Justin Welsh's Solution](https://github.com/Justin-Welsh/rock-paper-scissors)
-=======
 - [LenaChestnut's Solution](https://github.com/LenaChestnut/rock-paper-scissors)
 - [pmwals09's Solution](https://github.com/pmwals09/rock-paper-scissors))
 - [arifsetyo21's Solution](https://github.com/arifsetyo21/rock-paper-scissors) - [View in Browser](https://simple-game-rock-paper-scissors.netlify.com/)
 - [hadouken-ryu's Solution](https://github.com/hadouken-ryu/rock_paper_scissors) - [View in Browser](https://hadouken-ryu.github.io/rock_paper_scissors/)
 - [rhath32's Solution](https://github.com/rhath32/rock_paper_scissors)
->>>>>>> 58e282efde05a500fb3a265270b7aeffdf4bf219
+- [Jeroen-editing's Solution](git@github.com:Jeroen-editing/Rock-Paper-Scissors.git)
+- [josia's Solution](https://github.com/rindrajosia/game) - [View in Browser](https://rindrajosia.github.io/game/)
+- [feseka61's Solution](https://github.com/feseka61/rock-paper-scissors.git)
 </details> 

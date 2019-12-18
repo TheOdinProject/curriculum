@@ -391,6 +391,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [DalandanJuice's SOlution](https://github.com/DalandanJuice/ruby-building-blocks/blob/master/bubble_sort.rb)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/ruby-building-blocks)
 * [hyperturing's Solution](https://github.com/hyperturing/advanced-building-blocks/tree/master/bubble-sort)
+* [guacamobley's solution](https://github.com/guacamobley/ruby-advanced-building-blocks/blob/master/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
@@ -749,6 +750,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/blob/master/enumerable/enumerable.rb)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/ruby-building-blocks/blob/master/enumerable-methods.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/advanced-building-blocks/tree/master/enumerable)
+* [guacamobley's solution](https://github.com/guacamobley/ruby-advanced-building-blocks/blob/master/enumerable_methods.rb)
 </details>
 
 ### Additional Resources
