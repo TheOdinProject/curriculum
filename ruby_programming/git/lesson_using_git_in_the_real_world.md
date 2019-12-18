@@ -26,7 +26,7 @@ The key players in this story will be the `upstream` (the original Github reposi
 
 1. Fork the original ("upstream") repository into your own Github account by using the "fork" button at the top of that repo's page on Github.
 2. Clone your forked repository onto your local machine using something like `$ git clone git@github.com:your_user_name_here/theodinproject.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on Github)
-3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on Github.  You will use this to push changes back up to Github.  You'll also want to be able to pull directly from the original repository on Github, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git`.
+3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on Github.  You will use this to push changes back up to Github.  You'll also want to be able to pull directly from the original repository on Github, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git` inside the project folder `theodinproject`.
 4. If this is your first time using git, don't forget to set your username and email using:
 
 ~~~bash
