@@ -90,7 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [higgabes's Solution (Easy)](https://github.com/higgabes/top) - [View in Browser](higgabes.github.io/top)
+* [higgabes's Solution (Easy)](https://github.com/higgabes/top) - [View in Browser](https://higgabes.github.io/top)
+* [jacobo's Solution(easy way)](https://github.com/jacobo12montes/google-homepage) - [View in Browser](https://jacobo12montes.github.io/google-homepage)
 * [Helms0713's Solution (Easy)](https://github.com/Helms0713/google-homepage) - [View in Browser](https://Helms0713.github.io/google-homepage/)
 * [Aniket's Solution (Easy)](https://github.com/aniketuu/Google_homepage) - [View in Browser](https://aniketuu.github.io/Google_homepage/)
 * [Randyfoo07's Solution (Easy)](https://github.com/RandyFoo07/google-homepage) - [View in Browser](https://randyfoo07.github.io/google-homepage/)
@@ -2727,6 +2728,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [BusyBee Solution (Both)](https://github.com/swissbusybee/google-homepage) - [View in Browser](https://swissbusybee.github.io/google-homepage/)
 * [msrdinesh's Solution (Easy)](https://github.com/msrdinesh/google-homepage) - [View in Browser](https://msrdinesh.github.io/google-homepage/)
 * [bigsmokered's Solution (Easy)](https://github.com/bigsmokered/google-homepage) - [View in Browser](https://bigsmokered.github.io/google-homepage/)
+* [Dasun's Solution (Easy)](https://github.com/IamDZN/GoogleHomepage) - [View in Browser](https://iamdzn.github.io/GoogleHomepage/)
 * [rhath32's Solution (Easy)](https://github.com/rhath32/google-homepage)
 * [Alexander's Solution (Easy)](https://github.com/alex-ndr/google-homepage) - [View in Browser](https://alex-ndr.github.io/google-homepage/)
 * [Alexander's Solution (Hard)](https://github.com/alex-ndr/google-search-page) [View in Browser](https://alex-ndr.github.io/google-search-page/)
