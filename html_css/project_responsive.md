@@ -32,6 +32,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Kevin Vuong's solution](https://github.com/fffear/responsive-design) - [View in browser](https://fffear.github.io/responsive-design/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/tnw-clone) - [View in Browser](https://braxtonlemmon.github.io/tnw-clone/)
 * [Joan Currie's Solution](https://github.com/JECurrie/google-homepage/) - [View in Browser](https://jecurrie.github.io/google-homepage/)
+* [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/thenextweb) - [View in Browser](https://thisismahmad.github.io/thenextweb/)
 * [David Auza's and Eduardo Reis's Solution](https://github.com/davidauza-engineer/Building-with-Responsive-Design) - [View in Browser](https://davidauza-engineer.github.io/Building-with-Responsive-Design/)
 * [David Tan's solution](https://github.com/davecmd/the-next-web-responsive-design-replica) - [View in browser](https://davecmd.github.io/the-next-web-responsive-design-replica/)
 * [Learnsometing's solution](https://github.com/learnsometing/responsive-design) - [View in browser](https://learnsometing.github.io/responsive-design/)
