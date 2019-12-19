@@ -2744,6 +2744,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Josia's Solution (Easy)](https://github.com/rindrajosia/google-homepage) - [View in Browser](https://rindrajosia.github.io/google-homepage/)
 * [Lasse Maidal Pedersens Solution (Easy)](https://github.com/lassemaidalpedersen/google-homepage) - [View in Browser](https://lassemaidalpedersen.github.io/google-homepage/)
 * [ailequal's Solution (Easy)](https://github.com/ailequal/google-homepage) - [View in Browser](https://ailequal.github.io/google-homepage)
+* [wilmir's Solution (Easy)](https://github.com/Wilmir/google-homepage) - [View in Browser](https://wilmir.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
