@@ -89,6 +89,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/carloshdelreal/building-with-responsive-design) - [View in browser](https://carloshdelreal.github.io/building-with-responsive-design/)
 * [Halkim's Solution](https://github.com/halkim44/thenextweb-clone) - [View in browser](https://halkim44.github.io/thenextweb-clone/)
 * [Aron's Solution](https://github.com/aronfischer/responsive-TNV-homepage) - [View in browser](https://aronfischer.github.io/responsive-TNV-homepage/)
+* [Moin & Angel's Solution](https://github.com/moinkhanif/tnw-responsive-clone) - [View in browser](https://moinkhanif.github.io/tnw-responsive-clone/)
 </details>
 
 ### Additional Resources
