@@ -1092,5 +1092,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jeroen-editing's Solution](git@github.com:Jeroen-editing/Rock-Paper-Scissors.git)
 - [josia's Solution](https://github.com/rindrajosia/game) - [View in Browser](https://rindrajosia.github.io/game/)
 - [feseka61's Solution](https://github.com/feseka61/rock-paper-scissors.git)
-- [eest's solution] (https://github.com/eestsaid/top_rps)
+- [eest's solution](https://github.com/eestsaid/top_rps)
 </details> 
