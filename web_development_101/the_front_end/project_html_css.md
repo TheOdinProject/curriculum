@@ -2748,6 +2748,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ailequal's Solution (Easy)](https://github.com/ailequal/google-homepage) - [View in Browser](https://ailequal.github.io/google-homepage)
 * [wilmir's Solution (Easy)](https://github.com/Wilmir/google-homepage) - [View in Browser](https://wilmir.github.io/google-homepage/)
 * [lazy-void's Solution (Easy)](https://github.com/lazy-void/google-homepage) - [View in Browser](https://lazy-void.github.io/google-homepage/)
+fluffyblanket's solution is here :)
 
 </details>
 
