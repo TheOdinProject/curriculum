@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Rob Dulabon's Soultion](https://github.com/RDulabon/RPS) - [View in Browser](https://rdulabon.github.io/RPS/)
+- [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/rockPaperScissors) - [View in Browser](https://zyusuf10.github.io/rockPaperScissors/)
 - [Richard's Solution](https://github.com/RichardDenton/rock-paper-scissors)
 - [nbarker's Solution](https://github.com/nibarker/rockPaperScissors/) - [View in Browser](https://nibarker.github.io/rockPaperScissors/)
 - [justinkar's Solution](https://github.com/justinkar/rock_paper_scissors) - [View in Browser](https://justinkar.github.io/rock_paper_scissors/)
@@ -1093,5 +1095,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jeroen-editing's Solution](git@github.com:Jeroen-editing/Rock-Paper-Scissors.git)
 - [josia's Solution](https://github.com/rindrajosia/game) - [View in Browser](https://rindrajosia.github.io/game/)
 - [feseka61's Solution](https://github.com/feseka61/rock-paper-scissors.git)
-- [Jamie's Solution] (https://github.com/Duguggo/rock-paper-scissors)
+- [Jamie's Solution](https://github.com/Duguggo/rock-paper-scissors)
+- [eest's solution](https://github.com/eestsaid/top_rps)
+- [barrysweeney's Solution](https://github.com/barrysweeney/rock-paper-scissors) - [View in Browser](https://barrysweeney.github.io/rock-paper-scissors/)
+- [agarcia035's Solution](https://github.com/agarcia035/rock-paper-scissors)
 </details> 
