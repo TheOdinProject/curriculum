@@ -26,6 +26,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 - [Kevin Vuong's solution](https://github.com/fffear/tic-tac-toe-js) - [View in Browser](https://fffear.github.io/tic-tac-toe-js/)
+- [Disco-Trooper's solution (with Minimax)](https://github.com/disco-trooper/tic-tac-toe) - [View in Browser](http://disco-trooper.github.io/tic-tac-toe/)
+- [Braxton's solution](https://github.com/braxtonlemmon/tic-tac-toe-js) - [View in Browser](https://braxtonlemmon.github.io/tic-tac-toe-js/)
+- [Alex's solution](https://github.com/AlexDorrington/Tic-Tac-Toe) - [View in Browser](https://alexdorrington.github.io/Tic-Tac-Toe/)
 - [Kris Tobiasson's solution (with Minimax)](https://github.com/highpockets/tic-tac-toe) - [View in Browser](https://highpockets.github.io/tic-tac-toe/)
 - [todoroff's solution (with Minimax)](https://github.com/todoroff/tic-tac-toe) - [View in Browser](https://todoroff.github.io/tic-tac-toe/)
 - [Julio's solution](https://github.com/julio22b/tic-tac-toe) - [View in Browser](https://julio22b.github.io/tic-tac-toe/)
@@ -104,4 +107,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Brendaneus' Solution](https://theodinprojects.live/courses/javascript/projects/tic-tac-toe-(javascript))
 - [Andrécio's Solution](https://github.com/andreciobezerra/tic-tac-toe) - [View in Browser](https://andreciobezerra.github.io/tic-tac-toe/)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/tictactoe-js) - [View in Browser](https://edmtrv.github.io/tictactoe-js/)
+- [Vorelli's Solution](https://github.com/Vorelli/Tic-Tac-Toe) - [View in Browser](https://vorelli.github.io/Tic-Tac-Toe/)
+- [Jkraf002's Solution](https://github.com/jkraf002/tic-tac-toe) - [View in Browser](https://jkraf002.github.io/tic-tac-toe/)
 </details>

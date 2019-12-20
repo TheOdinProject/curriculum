@@ -152,6 +152,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Halkim44's solution](https://github.com/halkim44/youtube-clone) - [View in browser](https://halkim44.github.io/youtube-clone/)
 * [Aron's solution](https://github.com/aronfischer/Youtube_video_Player) - [View in browser](https://aronfischer.github.io/Youtube_video_Player/)
 * [Nigel Volkmann's solution](https://github.com/Nekolike/Embedded-videos) - [View in browser](https://nekolike.github.io/Embedded-videos/)
+* [Ludivine Poussier's solution](https://github.com/ludivinepoussier/embedded-video) - [View in browser](https://ludivinepoussier.github.io/embedded-video/)
 </details>
 
 ### Additional Resources
