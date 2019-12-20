@@ -14,7 +14,7 @@
 * Clone the forked repository to your local system
 * Make changes to files
 * Add the files to the staging area (`git add .`) and then commit the files (`git commit -m "your message"`)
-* Add the original repo as a remote, so you can pull from it: 
+* Add the original repo as a remote, so you can pull from it:  
 `git remote add upstream git@github.com:<USER>/<REPO>.git`
 * `git pull upstream <BRANCH>` (usually the branch is master)
 * Resolve any merge conflicts
