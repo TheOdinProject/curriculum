@@ -247,6 +247,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms/blob/master/knights_travails.rb)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/knights_travails)
 * [Ian's Solution](https://github.com/IanMKesler/knight-s_travails)
 * [Chris' Solution](https://github.com/CSalois114/project_knight_moves/blob/master/knight_moves.rb)
