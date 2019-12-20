@@ -90,7 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [alexnorris's Solution(Easy)](https://github.com/AlexNorris/alexnorris.github.io)- [View in Browser](https://alexnorris.github.io)
+* [alexnorris's Solution (Easy)](https://github.com/AlexNorris/alexnorris.github.io)- [View in Browser](https://alexnorris.github.io)
 * [Randyfoo07's Solution (Difficult)](https://github.com/RandyFoo07/google-search-results-page) - [View in Browser](https://randyfoo07.github.io/google-search-results-page/)
 * [hectorgarcia07's Solution(Easy)](https://github.com/hectorgarcia07/google-homepage)- [View in Browser](https://hectorgarcia07.github.io/google-homepage/)
 * [Druashley's Solution(Easy)](https://github.com/Druashley/google-homepage)- [View in Browser](https://druashley.github.io/google-homepage/)
@@ -2750,6 +2750,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ailequal's Solution (Easy)](https://github.com/ailequal/google-homepage) - [View in Browser](https://ailequal.github.io/google-homepage)
 * [wilmir's Solution (Easy)](https://github.com/Wilmir/google-homepage) - [View in Browser](https://wilmir.github.io/google-homepage/)
 * [lazy-void's Solution (Easy)](https://github.com/lazy-void/google-homepage) - [View in Browser](https://lazy-void.github.io/google-homepage/)
+* [fluffyblanket's Solution (Easy)](https://github.com/fluffyblanket/google-homepage) - [View in Browser](https://fluffyblanket.github.io/google-homepage/)
 * [coih's Solution (Easy)](https://github.com/coih/Google-Homepage) - [View in Browser](https://coih.github.io/Google-Homepage/)
 </details>
 
