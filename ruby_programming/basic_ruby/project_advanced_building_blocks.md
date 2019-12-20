@@ -753,6 +753,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/ruby-building-blocks/blob/master/enumerable-methods.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/advanced-building-blocks/tree/master/enumerable)
 * [guacamobley's solution](https://github.com/guacamobley/ruby-advanced-building-blocks/blob/master/enumerable_methods.rb)
+* [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/my_enumerable/blob/master/enumerable.rb)
 </details>
 
 ### Additional Resources
