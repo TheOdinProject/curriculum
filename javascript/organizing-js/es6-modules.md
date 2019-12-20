@@ -78,7 +78,7 @@ To pull it all together, let's write a simple module and then include it in our 
 └── webpack.config.js
 ~~~
 
-and you should be able to bundle and run webpack by simply typing `webpack` in the terminal.
+and you should be able to bundle and run webpack by simply typing `npx webpack` in the terminal.
 
 Add a new file to the `src` directory called `myName.js` with the following contents:
 
@@ -105,7 +105,7 @@ function component() {
 document.body.appendChild(component());
 ~~~
 
-Easy! Now, if you run `webpack` in your project directory your page should show our new function being used.
+Easy! Now, if you run `npx webpack` in your project directory your page should show our new function being used.
 
 There are 2 different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. As a general rule if you want to export multiple functions use named exports with this pattern:
 
