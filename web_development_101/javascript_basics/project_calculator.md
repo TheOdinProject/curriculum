@@ -56,7 +56,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jfr's Solution](https://github.com/jfrcom/calculator) - [View in Browser](https://jfrcom.github.io/calculator/)
 - [Simon's Solution](https://github.com/Sim-frpt/calculator) - [View in Browser](https://sim-frpt.github.io/calculator/)
 - [Nyandereian's Solution](https://github.com/Nyandereian/calculator) - [View in Browser](https://nyandereian.github.io/calculator/)
-- [Rarysson's Solution](https://github.com/rarysson/calculator) - [View in Browser](https://rarysson.github.io/calculator/)
+- [Rarysson's Solution](https://github.com/rarysson/Calculator) - [View in Browser](https://rarysson.github.io/Calculator/)
 - [Hans Oliveira's Solution](https://github.com/hansnery/calculator) - [View in Browser](https://hansnery.github.io/calculator/)
 - [Jakob's Solution](https://github.com/jodokusquack/calculator) - [View in Browser](https://jodokusquack.github.io/calculator/)
 - [Will's Solution](https://github.com/GroverW/site/tree/master/projects/calculator) - [View in Browser](https://groverw.github.io/site/projects/calculator/index.html)
