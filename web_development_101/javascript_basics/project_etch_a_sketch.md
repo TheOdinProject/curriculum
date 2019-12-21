@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Charles Briggs's Solution](https://github.com/ChuckBriggs/etch-a-sketch) - [View in Browser](https://chuckbriggs.github.io/etch-a-sketch/)
 * [Dante's Solution](https://github.com/Dantedavidson/etch) - [View in Browser](https://dantedavidson.github.io/etch/)
 * [robo-monk's Solution](https://github.com/robo-monk/etch) - [View in Browser](https://robo-monk.github.io/etch/)
 * [justinkar's Solution](https://github.com/justinkar/Etch-a-Sketch) - [View in Browser](https://justinkar.github.io/Etch-a-Sketch/)
@@ -660,4 +661,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Lete Nwibasi's solution](https://github.com/Marcodredd/etch-a-sketch) - [View in Browser](https://marcodredd.github.io/etch-a-sketch/)
 * [mmboyce's solution](https://github.com/mmboyce/etch-a-sketch) - [View in Browser](https://mmboyce.github.io/etch-a-sketch/)
 * [oakami's solution](https://github.com/oakami/etch-a-sketch) - [View in Browser](https://oakami.github.io/etch-a-sketch/)
+* [wmisback's Solution](https://github.com/wmisback/Etch-A-Sketch) - [View in Browser](https://periodicreflections.com/Etch-A-Sketch/)
 </details>
