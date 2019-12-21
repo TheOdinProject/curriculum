@@ -2754,6 +2754,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [coih's Solution (Easy)](https://github.com/coih/Google-Homepage) - [View in Browser](https://coih.github.io/Google-Homepage/)
 * [Mauriciomathias' Solution(Easy)](https://mauriciomathias.github.io/google-homepage/)
 * [sunnyprogram's Solution (Easy)](https://github.com/sunnyprogram/google-homepage) - [View in Browser](https://sunnyprogram.github.io/google-homepage/)
+* [afb989's Solution (Easy)] (https://github.com/afb989/google-hompage) - [View in Browser] (https://afb989.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
