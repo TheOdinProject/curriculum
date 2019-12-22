@@ -2758,9 +2758,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [afb989's Solution (Easy)](https://github.com/afb989/google-hompage) - [View in Browser](https://afb989.github.io/google-homepage/)
 * [Daniel Muriano's Solution (Easy)](https://github.com/Daniel-Muriano/google-homepage) - [View in Browser](https://Daniel-Muriano.github.io/google-homepage/)
 * [Joon Hyun's Solution (Easy)](https://github.com/joon-hyun/google-homepage) - [View in Browser](https://joon-hyun.github.io/google-homepage/)
-* [Crinkles' Solution(Easy)](https://crinkles.github.io/google-homepage/)
-* [Ambuj's Solution(Easy + Difficult)](https://github.com/ambujc25/google-homepage) - [View in Browser](https://ambujc25.github.io/google-homepage/)
-* [mkcvh's Solution(Easy)](https://mkcvh.github.io/google-homepage) - [View in Browser](https://mkcvh.github.io/google-homepage/)
+* [Crinkles' Solution (Easy)](https://crinkles.github.io/google-homepage/)
+* [Ambuj's Solution (Easy + Difficult)](https://github.com/ambujc25/google-homepage) - [View in Browser](https://ambujc25.github.io/google-homepage/)
+* [mkcvh's Solution (Easy)](https://mkcvh.github.io/google-homepage) - [View in Browser](https://mkcvh.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
