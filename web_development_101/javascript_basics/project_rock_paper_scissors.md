@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [higgabes's Solution](https://github.com/higgabes/top2) - [View in Browser](https://higgabes.github.io/top2/)
 - [Saumya Pandey's Solution](https://github.com/iamsaumya/rock-paper-scissors) - [View in Browser](https://iamsaumya.github.io/rock-paper-scissors/)
 - [Shivam Gupta's Solution](https://github.com/shivamsaigupta/rock-paper-scissors) - [View in Browser](https://shivamsaigupta.github.io/rock-paper-scissors/)
 - [Rob Dulabon's Soultion](https://github.com/RDulabon/RPS) - [View in Browser](https://rdulabon.github.io/RPS/)
@@ -58,7 +59,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [James's Solution](https://github.com/ericksen-github/new_rock_paper_scissors) - [View in Browser](https://ericksen-github.github.io/new_rock_paper_scissors/)
 - [Paul's Solution](https://github.com/ppayne12/rock-paper-scissors) -  [View in Browser](https://ppayne12.github.io/rock-paper-scissors/)
 - [Rachel's solution](https://github.com/rlmoser99/rock-paper-scissors)
-- [JohnUrb's Solution](https://github.com/johnurb/rock-paper-scissors) 
+- [JohnUrb's Solution](https://github.com/johnurb/rock-paper-scissors)
 - [Lebogang's solution](https://github.com/lebogangolifant/rock_paper_scissors) - [View in Browser](https://lebogangolifant.github.io/rock_paper_scissors/)
 - [Charles Briggs's Solution](https://github.com/ChuckBriggs/rockPaperScissors) - [View in Browser](https://chuckbriggs.github.io/rockPaperScissors/)
 - [ChiselD's Solution](https://github.com/ChiselD/rock-paper-scissors)
@@ -1103,4 +1104,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [agarcia035's Solution](https://github.com/agarcia035/rock-paper-scissors)
 - [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/Rock_Paper_Scissor)
 - [Wilmir's Solution](https://github.com/Wilmir/rock-paper-scissors) - [View in Browser](https://wilmir.github.io/rock-paper-scissors/)
-</details> 
+</details>
