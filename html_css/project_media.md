@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+Okay, I tried adding the actual link.  Sorry if this is wrong.  
 * [MikkRou's Solution](https://github.com/MikkRou/embeding-images-and-video) - [View in browser](https://mikkrou.github.io/embeding-images-and-video/)
 * [Ivancito and Carlos' Solution](https://github.com/canriquez/html-youtube) - [View in browser](https://canriquez.github.io/html-youtube/)
 * [Ashish's Solution](https://github.com/CodersGas/YouTube-Clone) - [View in browser](https://codersgas.github.io/YouTube-Clone/home-page.html)
