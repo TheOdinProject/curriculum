@@ -52,6 +52,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/binary_search_trees)
 * [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/binary_search_tree)
 * [Ian's Solution](https://github.com/IanMKesler/binary_tree)
@@ -248,6 +249,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/knights_travails)
 * [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms/blob/master/knights_travails.rb)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/knights_travails)
 * [Ian's Solution](https://github.com/IanMKesler/knight-s_travails)
