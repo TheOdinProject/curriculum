@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Saumya Pandey's Solution](https://github.com/iamsaumya/rock-paper-scissors) - [View in Browser](https://iamsaumya.github.io/rock-paper-scissors/)
+- [Shivam Gupta's Solution](https://github.com/shivamsaigupta/rock-paper-scissors) - [View in Browser](https://shivamsaigupta.github.io/rock-paper-scissors/)
 - [Rob Dulabon's Soultion](https://github.com/RDulabon/RPS) - [View in Browser](https://rdulabon.github.io/RPS/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/rockPaperScissors) - [View in Browser](https://zyusuf10.github.io/rockPaperScissors/)
 - [Richard's Solution](https://github.com/RichardDenton/rock-paper-scissors)
@@ -1051,7 +1053,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [guacamobley's Solution](https://github.com/guacamobley/rock-paper-scissors)
 - [Ujjwal's Solution](https://github.com/ujjwal37/odin-project/tree/master/WebDelvelopment%20101/Javascript)
 - [Levan Mebonia 's Solution](https://github.com/Levo96/rock_paper_scissors_game) - [View in Browser](https://levo96.github.io/rock_paper_scissors_game/)
-- [Rarysson's Solution](https://github.com/rarysson/rock-paper-scissors) - [View in Browser](https://rarysson.github.io/rock-paper-scissors/)
+- [Rarysson's Solution](https://github.com/rarysson/Rock-Paper-Scissors) - [View in Browser](https://rarysson.github.io/Rock-Paper-Scissors/)
 - [Johncoryk' Solution](https://github.com/johncoryk/rock-paper-scissors) - [View in Browser](https://johncoryk.github.io/rock-paper-scissors/)
 - [Kasperbb's Solution](https://github.com/kasperbb/RockPaperScissor) - [View in Browser](https://kasperbb.github.io/RockPaperScissor/)
 - [Mansur Ahmed's solution](https://github.com/demharusnam/rock_paper_scissors_gui)- [View in Browser](https://demharusnam.github.io/rock_paper_scissors_gui/)
