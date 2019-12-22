@@ -1103,3 +1103,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [agarcia035's Solution](https://github.com/agarcia035/rock-paper-scissors)
 - [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/Rock_Paper_Scissor)
 </details> 
+- [Wilmir's Solution](https://github.com/Wilmir/rock-paper-scissors) - [View in Browser](https://wilmir.github.io/rock-paper-scissors/)
