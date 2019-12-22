@@ -19,6 +19,6 @@
 * `git pull upstream <BRANCH>` (usually the branch is master)
 * Resolve any merge conflicts
 * `git push origin`
-* Go to the original repo and open a pull request
+* Go to your forked repo on github to open a pull request
 
 #### All of this is described in detail in the video above!
