@@ -52,7 +52,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bkonicek's Solution](https://gitlab.com/bkonicek/rock-paper-scissors-js)
 - [ozymandias' Solution](https://github.com/orzymandias/rock-paper-scissors)
 - [ViktorBjorn' Solution](https://github.com/ViktorBjorn/rock-paper-scissors)
-- [Megalopsychic's Solution](https://github.com/Megalopsychic/rock-paper-scissors-lizard-spock)
+- [Megalopsychic's Solution](https://github.com/Megalopsychic/rock-paper-scissors-lizard-spock) - [View in Browser](https://megalopsychic.github.io/rock-paper-scissors-lizard-spock/)
 - [Charlotte Hues' Solution](https://github.com/charlotte-hues/rock_paper_scissors) - [View in Browser](https://charlotte-hues.github.io/rock_paper_scissors/)
 - [Yuliya Khilko's Solution](https://github.com/momofcats/ROCK-PAPER-SCISSORS)
 - [James's Solution](https://github.com/ericksen-github/new_rock_paper_scissors) - [View in Browser](https://ericksen-github.github.io/new_rock_paper_scissors/)
