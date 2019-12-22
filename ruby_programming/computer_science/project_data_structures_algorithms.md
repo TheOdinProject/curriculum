@@ -200,6 +200,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Drew Goddyn's solution](https://github.com/Drew-Goddyn/binary_search_tree)
 * [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
 * [Bendee's Solution](https://github.com/bendee48/Data-Structures)
+* [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/binary_search_tree.rb)
 
 </details>
 
@@ -393,5 +394,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Husseinhewehii's solution](https://github.com/Husseinhewehii/Knight_Moves)
 * [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/knights_travails)
 * [Bendee's Solution](https://github.com/bendee48/Data-Structures/blob/master/knight_moves.rb)
+* [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/knights_travails.rb)
 
 </details>
