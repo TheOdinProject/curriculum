@@ -30,7 +30,7 @@ const variable = 'property'
 
 myObject.variable // this gives us 'undefined' because it's looking for a property named 'variable' in our object
 
-myObject[variable] // same as myObject["property"] and gives us 'Value!'
+myObject[variable] // same as myObject['property'] and gives us 'Value!'
 ~~~
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) from our JavaScript 101 course.
