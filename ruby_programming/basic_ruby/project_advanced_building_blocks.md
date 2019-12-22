@@ -440,6 +440,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/ruby_custom_methods/enumarable.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods.rb)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/enum.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/enumerable_module/blob/master/enumerable_module.rb)
