@@ -28,3 +28,5 @@ On Windows and Linux, you can open VSCode from the command line by typing `code`
 #### WSL Users
 
 Although you just installed Ubuntu on your computer, you should still install the Windows version of the code editor you choose. You will edit the files in your Projects directory with the code editor, and WSL will be able to read these files.
+
+**VSCode Users:** Be sure to install the "Remote - WSL" extension when prompted. This extension will allow you to directly access your Linux files. Once installed, select the green icon in the lower left corner to connect to WSL.

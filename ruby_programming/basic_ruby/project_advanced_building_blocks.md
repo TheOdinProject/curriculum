@@ -39,6 +39,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/bubble_sort.rb)
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/bubble_sort)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.advanced_building_blocks/blob/master/bubble_sort/bubble_sort.rb)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/bubble_sort.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/bubble_sort/blob/master/bubble_sort.rb)
@@ -440,6 +442,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/ruby_custom_methods/enumarable.rb)
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/enumerable)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods.rb)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/enum.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/enumerable_module/blob/master/enumerable_module.rb)
@@ -752,7 +756,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Suazo's Solution](https://github.com/rsuazo/ruby_exercises/blob/master/enumerable/enumerable.rb)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/ruby-building-blocks/blob/master/enumerable-methods.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/advanced-building-blocks/tree/master/enumerable)
-* [guacamobley's solution](https://github.com/guacamobley/ruby-advanced-building-blocks/blob/master/enumerable_methods.rb)
+* [guacamobley's Solution](https://github.com/guacamobley/ruby-advanced-building-blocks/blob/master/enumerable_methods.rb)
+* [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/my_enumerable/blob/master/enumerable.rb)
 </details>
 
 ### Additional Resources
