@@ -667,4 +667,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [wmisback's Solution](https://github.com/wmisback/Etch-A-Sketch) - [View in Browser](https://periodicreflections.com/Etch-A-Sketch/)
 * [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/Etch-a-Sketch)
 * [Amy's Solution](https://github.com/achoo-o/etch-a-sketch/settings) - [View in Browser](https://achoo-o.github.io/etch-a-sketch/etchASketch.html)
+* [barrysweeney's Solution](https://github.com/barrysweeney/etch-a-sketch) - [View in Browser](https://barrysweeney.github.io/etch-a-sketch/)
 </details>
