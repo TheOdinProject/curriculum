@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+    </head>
+
+    <script>
+
+        let finalScore=0;
+
+        function computerPlay() {
+    
+            let randNum = getRandNum(1, 3);
+            let computerAction = "";
+
+            switch(randNum) {
+                case 1: 
+                    return computerAction = "rock";
+                    break;
+                case 2:
+                    return computerAction = "scissors";
+                    break;
+                case 3:
+                    return computerAction = "paper";
+                    break;
+                default:
+                    console.log("number generated is not btwn 1 & 3");
+            }
+        }
+
+        function getPlayerInput() {
+            let playerSelection = prompt("Welcome to Rock Paper Scissors. Enter one object (rock, paper or scissors):");
+
+            if (playerSelection == null) {
+                return console.log("Okie thankss");
+            }
+
+            playerSelection = playerSelection.toLowerCase();
+            console.log(playerSelection);
+
+            if ((playerSelection != "rock" && playerSelection != "paper" && playerSelection != "scissors") || playerSelection == "") {
+                console.log("Please enter one of the objects.");
+                getPlayerInput();
+            }
+
+            return playerSelection;
+        }
+
+        function playRound(playerSelection, computerSelection = computerPlay()) {
+            if ((playerSelection == "rock" && computerSelection == "rock") || (playerSelection =="scissors" && computerSelection =="scissors") || (playerSelection =="paper" && computerSelection =="paper")) {
+                return whoWins(0.5, computerSelection); //IDK IF THIS WILL WORK, RETURN A FUNCTION??
+            } 
+
+            if((playerSelection =="rock" && computerSelection =="scissors") || (playerSelection =="scissors" && computerSelection == "paper") || (playerSelection=="paper" && computerSelection =="rock")) {
+                return whoWins(1, computerSelection);
+            } else {
+                return whoWins(0, computerSelection); 
+            }
+
+            console.log("If this executes, it means something went wrong with the if statements");
+        }
+
+        function whoWins(score, computerSelection) {
+            if (score == 1) {
+                console.log("You have won this round against " + computerSelection);
+                finalScore++;
+
+            } else if (score == 0.5) {
+                console.log("Its a draw, its okie, try again! Computer chose: " + computerSelection);
+                finalScore += 0.5;
+
+            } else if (score == 0) {
+                console.log("You have lost this round. Try again. Opponent randomed " + computerSelection);
+
+            } else {
+                console.log("The score is not 0,0.5 or 1. Something went wrong");
+            }
+        }
+
+        function getRandNum(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function game() {
+            const numRounds = 5;
+            for(let i = 0; i < 5; i++) {
+                playRound(getPlayerInput(), computerPlay());
+            }
+
+            if (finalScore > 2.5) {
+                console.log("Congrats! Over 5 rounds, you have won against the computer");
+            } else if (finalScore == 2.5) {
+                console.log("You have drawn with the computer. Good job");
+            } else {
+                console.log("You have lost. Try again!");
+            }
+        }
+
+        game();
+        
+    </script>
+</html>
