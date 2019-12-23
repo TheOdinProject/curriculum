@@ -42,6 +42,8 @@ Once you get a key (try this now if you like!) you can paste the URL into the br
 {"coord":{"lon":-77.73,"lat":38.77},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":75.74,"pressure":1017,"humidity":57,"temp_min":71.6,"temp_max":78.8},"visibility":16093,"wind":{"speed":3.87,"deg":291},"clouds":{"all":1},"dt":1504188900,"sys":{"type":1,"id":2886,"message":0.0053,"country":"US","sunrise":1504175992,"sunset":1504222878},"id":4775660,"name":"New Baltimore","cod":200}
 ~~~
 
+**Note:** There is a waiting period for the OpenWeather API key to become active which could take up to 2 hours. If you encounter a 401 error, try again at a later stage.
+
 ### Fetching Data
 
 So how do we actually get the data from an API into our code?
