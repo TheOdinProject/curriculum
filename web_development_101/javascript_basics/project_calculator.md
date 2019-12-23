@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [James's Solution](https://github.com/ericksen-github/calculator) - [View in Browser](https://ericksen-github.github.io/calculator/)
 - [Paul's Solution](https://github.com/ppayne12/calculator) - [View in Browser](https://ppayne12.github.io/calculator/)
 - [Oscar's Solution](https://github.com/lookupforsirius/OdinCalculator) - [View in Browser](https://lookupforsirius.github.io/OdinCalculator/)
 - [fossegrim's Solution](https://github.com/olav35/calculator) - [View in Browser](https://olav35.github.io/calculator/)
