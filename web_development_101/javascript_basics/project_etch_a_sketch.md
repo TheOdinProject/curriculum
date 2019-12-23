@@ -666,4 +666,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [oakami's solution](https://github.com/oakami/etch-a-sketch) - [View in Browser](https://oakami.github.io/etch-a-sketch/)
 * [wmisback's Solution](https://github.com/wmisback/Etch-A-Sketch) - [View in Browser](https://periodicreflections.com/Etch-A-Sketch/)
 * [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/Etch-a-Sketch)
+* please add my solution: https://github.com/rhath32/etch-a-sketch
 </details>
