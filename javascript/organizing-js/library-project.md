@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Luke Pritchett's solution](https://github.com/LukePritchett/library-app) - [View in Browser](https://lukepritchett.github.io/library-app/)
 - [Kevin Vuong's solution](https://github.com/fffear/library) - [View in Browser](https://fffear.github.io/library/)
 - [Alex's solution](https://github.com/AlexDorrington/Library-1) - [View in Browser](https://alexdorrington.github.io/Library-1/)
 - [Odunsi Joseph's Solution](https://github.com/dhatGuy/library) - [View in Browser](https://dhatguy.github.io/library/)

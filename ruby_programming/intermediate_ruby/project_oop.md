@@ -566,6 +566,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sher's solution](https://github.com/sher-s7/mastermind)
 * [Robert Suazo's solution](https://github.com/rsuazo/mastermind/blob/master/mastermind.rb)
 * [guacamobley's solution](https://github.com/guacamobley/mastermind)
+* [David Watkin's Solution](https://github.com/DavidWatkinCode/mastermind/)
 </details>
 
 ### Additional Resources
