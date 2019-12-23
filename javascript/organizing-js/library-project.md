@@ -40,6 +40,9 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Luke Pritchett's solution](https://github.com/LukePritchett/library-app) - [View in Browser](https://lukepritchett.github.io/library-app/)
+- [Kevin Vuong's solution](https://github.com/fffear/library) - [View in Browser](https://fffear.github.io/library/)
+- [Alex's solution](https://github.com/AlexDorrington/Library-1) - [View in Browser](https://alexdorrington.github.io/Library-1/)
 - [Odunsi Joseph's Solution](https://github.com/dhatGuy/library) - [View in Browser](https://dhatguy.github.io/library/)
 - [Joshysmart's Solution](https://github.com/joshysmart/book-library) - [View in Browser](https://joshysmart.github.io/book-library/)
 - [Will's solution](https://github.com/GroverW/site/tree/master/projects/bookshelf) - [View in Browser](https://groverw.github.io/site/projects/bookshelf/index.html)
@@ -163,5 +166,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Emilie Humbert's Solution](https://github.com/EmilieHumbert/library) - [View in Browser](https://emiliehumbert.github.io/library/)
 - [Vorelli's Solution](https://github.com/Vorelli/Library) - [View in Browser](https://github.com/Vorelli/Library)
 - [jkraf002's Solution](https://github.com/jkraf002/library) - [View in Browser](https://jkraf002.github.io/library/)
+- [Tom Strat's Solution](https://github.com/tomstrat/library) - [View in Browser](https://tomstrat.github.io/library/)
+- [AlexGioffDev's Solution](https://github.com/AlexGioffDev/library) - [View in Browser](https://alexgioffdev.github.io/library/index.html)
 </details>
 

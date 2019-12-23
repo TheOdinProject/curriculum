@@ -68,6 +68,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Slashflex's Solution](https://github.com/Slashflex/Basic-node-setup) - [View in Browser](https://basic-node-setup.herokuapp.com/)
+- [Vollantre's Solution](https://github.com/vollantre/mini_message_board) - [View in Browser](https://minimessageboard.herokuapp.com/)
 - [MikkRou's Solution](https://github.com/MikkRou/mini-message-board) - [View in Browser](https://quiet-wave-64873.herokuapp.com/)
 - [Ryan Lewin's Solution](https://github.com/ryan-lewin/mini-message-board) - [View in Browswer](https://morning-stream-91838.herokuapp.com/)
 - [Eljoey's Solution](https://github.com/eljoey/message_board) - [View in Browswer](https://salty-river-84330.herokuapp.com/)
