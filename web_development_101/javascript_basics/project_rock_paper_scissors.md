@@ -1,7 +1,3 @@
-
-
-https://lucas-bide.github.io/rockpaperscissors/
-
 ### Introduction
 
 We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson.  When you get there don't forget to come back and add  your link!
@@ -1094,5 +1090,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [rhath32's Solution](https://github.com/rhath32/rock_paper_scissors)
 - [Jeroen-editing's Solution](git@github.com:Jeroen-editing/Rock-Paper-Scissors.git)
 - [josia's Solution](https://github.com/rindrajosia/game) - [View in Browser](https://rindrajosia.github.io/game/)
-
+- [Lucas-Bide's Solution](https://github.com/Lucas-Bide/rockpaperscissors) - [View in Browser](https://lucas-bide.github.io/rockpaperscissors/)
 </details> 
