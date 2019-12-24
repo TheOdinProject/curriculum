@@ -441,6 +441,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [guacamobley's solution](https://github.com/guacamobley/rails-tutorial-project)
 * [AlexGioffDev's solution](https://github.com/AlexGioffDev/Blogger) - [View in browser](https://blogger-rails-alexgioff.herokuapp.com/)
 * [Singhmi4's solution](https://github.com/singhmi4/blogger) - [View in browser](https://powerful-coast-29786.herokuapp.com/)
+* [Andrew Huntington's solution](https://github.com/AndrewHuntington/rails_project) - [View in browser](https://fast-brook-55206.herokuapp.com/)
 </details>
 
 ### Additional Resources
