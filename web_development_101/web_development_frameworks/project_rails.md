@@ -27,6 +27,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 
+* [Jakob's Solution](https://github.com/jodokusquack/blogger) - [View in Browser](https://salty-reef-56881.herokuapp.com/)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/blogger)
 * [nearmint's Solution](https://github.com/nearmint/rails-blogger) - [View in Browser](https://protected-shelf-44996.herokuapp.com/) - Partner: [colecrowder](https://github.com/colecrowder/blogger)
 * [Philipp's Solution](https://github.com/philipp-mcvity/blogger)
