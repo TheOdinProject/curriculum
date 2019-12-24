@@ -2766,6 +2766,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [marcheweczka007's Solution (Easy)](https://marcheweczka007.github.io/Lesson1HTML/)
 * [chriskoder's Solution (Easy)](https://chrissanke.github.io/google-homepage/)
 * [aqib21's Solution (Easy)](https://github.com/aqib21/google-homepage) - [View in Browser](https://aqib21.github.io/google-homepage/)
+* [jes7er's solution (Easy)](https://jes7er.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
