@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Ahmed Chaudry's Solution (Easy)](https://github.com/xazzer81/google-homepage-) - [View in Browser](https://xazzer81.github.io/google-homepage-/)
+* [tacodtripe's Solution (Easy)](https://github.com/tacodtripe/google-homepage) - [View in Browser](https://tacodtripe.github.io/google-homepage/)
 * [ryannathanwilson's Solution (Easy)](https://github.com/ryannathanwilson/google_homepage) - [View in Browser](https://ryannathanwilson.github.io/google_homepage/)
 * [alexnorris's Solution (Easy)](https://github.com/AlexNorris/alexnorris.github.io)- [View in Browser](https://alexnorris.github.io)
 * [Randyfoo07's Solution (Difficult)](https://github.com/RandyFoo07/google-search-results-page) - [View in Browser](https://randyfoo07.github.io/google-search-results-page/)
@@ -2762,6 +2764,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ambuj's Solution (Easy + Difficult)](https://github.com/ambujc25/google-homepage) - [View in Browser](https://ambujc25.github.io/google-homepage/)
 * [mkcvh's Solution (Easy)](https://mkcvh.github.io/google-homepage) - [View in Browser](https://mkcvh.github.io/google-homepage/)
 * [marcheweczka007's Solution (Easy)](https://marcheweczka007.github.io/Lesson1HTML/)
+* [chriskoder's Solution (Easy)](https://chrissanke.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
