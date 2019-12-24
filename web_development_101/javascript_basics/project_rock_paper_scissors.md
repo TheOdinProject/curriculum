@@ -1112,3 +1112,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Busy Bee's Solution](https://github.com/swissbusybee/Rock-Paper-Scissors-Project) - [View in Browser](https://swissbusybee.github.io/Rock-Paper-Scissors-Project/)
 - [Kieran Holland's Solution](https://github.com/kie96/rock-paper-scissors)
 </details>
+- [Derek Bekoe's Solution](https://github.com/https://github.com/derekowusubekoe/rock_paper_scissors) - [View in Browser](https://derekowusubekoe.github.io/rock_paper_scissors.io/)
