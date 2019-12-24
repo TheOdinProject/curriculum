@@ -670,4 +670,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Amy's Solution](https://github.com/achoo-o/etch-a-sketch/settings) - [View in Browser](https://achoo-o.github.io/etch-a-sketch/etchASketch.html)
 * [barrysweeney's Solution](https://github.com/barrysweeney/etch-a-sketch) - [View in Browser](https://barrysweeney.github.io/etch-a-sketch/)
 * [wilmir's Solution](https://github.com/Wilmir/etch-a-sketch) - [View in Browser](https://wilmir.github.io/etch-a-sketch/)
+* [hadouken-ryu's Solution](https://github.com/hadouken-ryu/etch-a-sketch) - [View in Browser](https://hadouken-ryu.github.io/etch-a-sketch/)
 </details>
