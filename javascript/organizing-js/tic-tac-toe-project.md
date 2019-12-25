@@ -110,4 +110,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Vorelli's Solution](https://github.com/Vorelli/Tic-Tac-Toe) - [View in Browser](https://vorelli.github.io/Tic-Tac-Toe/)
 - [Jkraf002's Solution](https://github.com/jkraf002/tic-tac-toe) - [View in Browser](https://jkraf002.github.io/tic-tac-toe/)
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/JS_TicTacToeGame) - [View in Browser](https://alexgioffdev.github.io/JS_TicTacToeGame/)
+- [Supasus's Solution](https://supasus.github.io/js-tictactoe/) - [View in Browser](https://github.com/supasus/js-tictactoe)
 </details>
