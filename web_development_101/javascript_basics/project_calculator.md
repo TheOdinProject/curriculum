@@ -464,5 +464,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DamnedLag's Solution](https://github.com/Damnedlag/Calculator) - [View in Browser](https://damnedlag.github.io/Calculator/)
 - [Michelle12188's solution](https://github.com/Michelle12188/calculator-js) - [View in Browser](https://michelle12188.github.io/calculator-js/)
 - [Daniel Muriano's solution](https://github.com/Daniel-Muriano/Calculator)
+- [SurfingChewie's solution](https://github.com/SurfingChewie/Calculator)
 
 </details>
