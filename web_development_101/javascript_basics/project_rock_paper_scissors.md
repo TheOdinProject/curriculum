@@ -1113,5 +1113,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Busy Bee's Solution](https://github.com/swissbusybee/Rock-Paper-Scissors-Project) - [View in Browser](https://swissbusybee.github.io/Rock-Paper-Scissors-Project/)
 - [Kieran Holland's Solution](https://github.com/kie96/rock-paper-scissors)
 - [Derek Bekoe's Solution](https://github.com/https://github.com/derekowusubekoe/rock_paper_scissors) - [View in Browser](https://derekowusubekoe.github.io/rock_paper_scissors.io/)
-- [Tyler Knapp's Solution](https://github.com/knapptr/RockPaperScissors) - [View In Browser](https://knapptr.github.io/RockPaperScissors/)
+- [Tyler Knapp's Solution](https://github.com/knapptr/RockPaperScissors) - [View in Browser](https://knapptr.github.io/RockPaperScissors/)
+- [chriskoder's Solution](https://github.com/chriskoder/ropasc/)
 </details>
