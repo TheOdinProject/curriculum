@@ -73,6 +73,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Carlos Del Real's solution](https://github.com/carloshdelreal/using-bootstrap) - [View in Browser](https://carloshdelreal.github.io/using-bootstrap/)
 * [Miguel's solution](https://github.com/mapra99/NewsWeek)
 * [Aron's solution](https://github.com/aronfischer/bootstrap-newsweek-homepage) - [View in Browser](https://aronfischer.github.io/bootstrap-newsweek-homepage/)
+* [Halkim's solution](https://github.com/halkim44/newsweek.com_clone) - [View in Browser](https://halkim44.github.io/newsweek.com_clone/)
 
 </details>
 
