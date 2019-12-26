@@ -29,6 +29,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [David Tan's Solution](https://github.com/davecmd/newsweek-replica-bootstrap) - [View in Browser](https://davecmd.github.io/newsweek-replica-bootstrap/)
 * [Kevin Vuong's Solution](https://github.com/fffear/bootstrap-project) - [View in Browser](https://fffear.github.io/bootstrap-project/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/newsweek-clone) - [View in Browser](https://braxtonlemmon.github.io/newsweek-clone/)
+* [Muhammad Ahmad's solution](https://github.com/thisisMAhmad/newsweek) - [View in Browser](https://thisismahmad.github.io/newsweek/)
 * [David Auza's Solution](https://github.com/davidauza-engineer/Bootstrap-NewsweekClone) - [View in Browser](https://davidauza-engineer.github.io/Bootstrap-NewsweekClone/)
 * [Ohlie's solution](https://github.com/lco1220/newsweek_bootstrap) - [View in Browser](https://lco1220.github.io/newsweek_bootstrap/)
 * [Bojo's solution](https://github.com/BojoZahariev/NewsWeek) - [View in Browser](https://bojozahariev.github.io/NewsWeek/)
