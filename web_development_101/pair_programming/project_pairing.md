@@ -163,6 +163,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Andrés' (echounit1) Solution](https://github.com/echounit1/pomodoro) - [View in Browser](https://echounit1.github.io/pomodoro/)
 * [Aron's Solution](https://github.com/aronfischer/react_pomodoro_clock) - [View in Browser](https://aronfischer.github.io/react_pomodoro_clock/)
 * [Rarysson's Solution](https://github.com/rarysson/Pomodoro) - [View in Broswer](https://rarysson.github.io/Pomodoro/)
+* [Supasus's Solution](https://github.com/supasus/pomodoro-timer-) - [View in Broswer](https://supasus.github.io/pomodoro-timer-/)
 </details>
 
 ### Next Steps

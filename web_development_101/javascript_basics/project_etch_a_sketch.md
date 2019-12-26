@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Purple's Solution](https://github.com/PurpleCodes42/EtchASketch) - [View in Browser](https://purplecodes42.github.io/EtchASketch/)
 * [Shivam Gupta's Solution](https://github.com/shivamsaigupta/etch-a-sketch-project) - [View in Browser](https://shivamsaigupta.github.io/etch-a-sketch-project/)
 * [Mark Kourie's Solution](https://github.com/Megalopsychic/etch-a-sketch) - [View in Browser](https://megalopsychic.github.io/etch-a-sketch/)
 * [Charles Briggs's Solution](https://github.com/ChuckBriggs/etch-a-sketch) - [View in Browser](https://chuckbriggs.github.io/etch-a-sketch/)
@@ -668,4 +669,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/Etch-a-Sketch)
 * [Amy's Solution](https://github.com/achoo-o/etch-a-sketch/settings) - [View in Browser](https://achoo-o.github.io/etch-a-sketch/etchASketch.html)
 * [barrysweeney's Solution](https://github.com/barrysweeney/etch-a-sketch) - [View in Browser](https://barrysweeney.github.io/etch-a-sketch/)
+* [wilmir's Solution](https://github.com/Wilmir/etch-a-sketch) - [View in Browser](https://wilmir.github.io/etch-a-sketch/)
+* [hadouken-ryu's Solution](https://github.com/hadouken-ryu/etch-a-sketch) - [View in Browser](https://hadouken-ryu.github.io/etch-a-sketch/)
 </details>

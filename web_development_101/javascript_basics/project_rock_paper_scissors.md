@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Reece Trevenen's Solution](https://github.com/Cyber-Spud/paper-scissors-rock-gui) - [View in Browser](https://cyber-spud.github.io/paper-scissors-rock-gui/)
 - [Prae-torius's Solution](https://github.com/Prae-torius/rps-game)
 - [Ahmed Chaudry's Solution](https://github.com/xazzer81/rock-paper-scissors)
 - [higgabes's Solution](https://github.com/higgabes/top2) - [View in Browser](https://higgabes.github.io/top2/)
@@ -1101,6 +1102,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [rhath32's Solution](https://github.com/rhath32/rock_paper_scissors)
 - [Jeroen-editing's Solution](git@github.com:Jeroen-editing/Rock-Paper-Scissors.git)
 - [josia's Solution](https://github.com/rindrajosia/game) - [View in Browser](https://rindrajosia.github.io/game/)
+- [Lucas-Bide's Solution](https://github.com/Lucas-Bide/rockpaperscissors) - [View in Browser](https://lucas-bide.github.io/rockpaperscissors/)
 - [feseka61's Solution](https://github.com/feseka61/rock-paper-scissors.git)
 - [Jamie's Solution](https://github.com/Duguggo/rock-paper-scissors)
 - [eest's solution](https://github.com/eestsaid/top_rps)
@@ -1108,4 +1110,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [agarcia035's Solution](https://github.com/agarcia035/rock-paper-scissors)
 - [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/Rock_Paper_Scissor)
 - [Wilmir's Solution](https://github.com/Wilmir/rock-paper-scissors) - [View in Browser](https://wilmir.github.io/rock-paper-scissors/)
+- [Lasse Maidal Pedersen's Solution](https://github.com/lassemaidalpedersen/rock-paper-scissors) - [View in Browser](https://lassemaidalpedersen.github.io/rock-paper-scissors/)
+- [Busy Bee's Solution](https://github.com/swissbusybee/Rock-Paper-Scissors-Project) - [View in Browser](https://swissbusybee.github.io/Rock-Paper-Scissors-Project/)
+- [Kieran Holland's Solution](https://github.com/kie96/rock-paper-scissors)
+- [Derek Bekoe's Solution](https://github.com/https://github.com/derekowusubekoe/rock_paper_scissors) - [View in Browser](https://derekowusubekoe.github.io/rock_paper_scissors.io/)
+- [chriskoder's Solution](https://github.com/chriskoder/ropasc/)
 </details>

@@ -2764,6 +2764,13 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ambuj's Solution (Easy + Difficult)](https://github.com/ambujc25/google-homepage) - [View in Browser](https://ambujc25.github.io/google-homepage/)
 * [mkcvh's Solution (Easy)](https://mkcvh.github.io/google-homepage) - [View in Browser](https://mkcvh.github.io/google-homepage/)
 * [marcheweczka007's Solution (Easy)](https://marcheweczka007.github.io/Lesson1HTML/)
+* [chriskoder's Solution (Easy)](https://chrissanke.github.io/google-homepage/)
+* [aqib21's Solution (Easy)](https://github.com/aqib21/google-homepage) - [View in Browser](https://aqib21.github.io/google-homepage/)
+* [jes7er's solution (Easy)](https://jes7er.github.io/google-homepage/)
+* [Lucas-Bide's Solution (Easy)](https://github.com/Lucas-Bide/google-results-page) - [View in Browser](https://lucas-bide.github.io/google-results-page/)
+* [niharGharat's Solution (Easy)](https://nihargharat.github.io/google-homepage/)
+* [Richard Vu's Solution (Easy)](https://github.com/richardtvu/google-homepage) - [View in Browser](https://richardtvu.github.io/google-homepage/)
+* [Tyler Knapp's Solution (Easy)](https://github.com/Knapptr/google-homepage/) - [View in Browser](https://knapptr.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
