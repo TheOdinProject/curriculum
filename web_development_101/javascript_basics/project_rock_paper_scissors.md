@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Reece Trevenen's Solution](https://github.com/Cyber-Spud/paper-scissors-rock-gui) - [View in Browser](https://cyber-spud.github.io/paper-scissors-rock-gui/)
 - [Prae-torius's Solution](https://github.com/Prae-torius/rps-game)
+- [Ahmed Chaudry's Solution](https://github.com/xazzer81/rock-paper-scissors)
 - [higgabes's Solution](https://github.com/higgabes/top2) - [View in Browser](https://higgabes.github.io/top2/)
 - [Callum's Solution](https://github.com/Callumm0/rock-paper-scissors) - [View in Browser](https://callumm0.github.io/rock-paper-scissors/)
 - [Diane998's Solution](https://github.com/Diane998/rock-paper-scissors) - [View in Browser](https://diane998.github.io/rock-paper-scissors/)
@@ -1113,4 +1114,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Busy Bee's Solution](https://github.com/swissbusybee/Rock-Paper-Scissors-Project) - [View in Browser](https://swissbusybee.github.io/Rock-Paper-Scissors-Project/)
 - [Kieran Holland's Solution](https://github.com/kie96/rock-paper-scissors)
 - [Derek Bekoe's Solution](https://github.com/https://github.com/derekowusubekoe/rock_paper_scissors) - [View in Browser](https://derekowusubekoe.github.io/rock_paper_scissors.io/)
+- [Tyler Knapp's Solution](https://github.com/knapptr/RockPaperScissors) - [View in Browser](https://knapptr.github.io/RockPaperScissors/)
+- [chriskoder's Solution](https://github.com/chriskoder/ropasc/)
+- [rebiculs's Solution](https://github.com/Rebicul/Rock-Paper-Scissors)
 </details>
