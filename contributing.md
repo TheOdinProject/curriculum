@@ -7,8 +7,5 @@
 
 ### 2 The more involved but proper way
 * [Video](https://www.youtube.com/watch?v=mENDYhfxH-o)
-
-#### Short description of the proper way
-
-* [https://www.theodinproject.com/courses/ruby-programming/lessons/using-git-in-the-real-world#a-git-workflow-for-open-source-contribution](https://www.theodinproject.com/courses/ruby-programming/lessons/using-git-in-the-real-world#a-git-workflow-for-open-source-contribution) 
-* [https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
+* [Odin Project lesson](https://www.theodinproject.com/courses/ruby-programming/lessons/using-git-in-the-real-world#a-git-workflow-for-open-source-contribution) 
+* [Article with quick reference flow](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
