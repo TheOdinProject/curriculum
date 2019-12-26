@@ -1119,4 +1119,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [chriskoder's Solution](https://github.com/chriskoder/ropasc/)
 - [rebiculs's Solution](https://github.com/Rebicul/Rock-Paper-Scissors)
 - [Ricardo's Solution](https://ricardo-gonzalez-villegas.github.io/rock-paper-scissors/)
+- [Alex's Solution](https://github.com/rereon63/rock-paper-scissors/)
 </details>
