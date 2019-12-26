@@ -657,4 +657,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Kristiana's solution](https://github.com/KristianaGaizauskiene/etch_a_sketch) 
 * [MichaelK's solution](https://github.com/a0x77ry/etch-a-sketch) - [View in Browser](https://a0x77ry.github.io/etch-a-sketch/)
 * [Lete Nwibasi's solution](https://github.com/Marcodredd/etch-a-sketch) - [View in Browser](https://marcodredd.github.io/etch-a-sketch/)
+* [Lucas-Bide's solution](https://github.com/Lucas-Bide/Etch-a-Sketch) - [View in Browser](https://lucas-bide.github.io/Etch-a-Sketch/)
 </details>
