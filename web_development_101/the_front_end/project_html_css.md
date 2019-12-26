@@ -2771,7 +2771,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [niharGharat's Solution (Easy)](https://nihargharat.github.io/google-homepage/)
 * [Richard Vu's Solution (Easy)](https://github.com/richardtvu/google-homepage) - [View in Browser](https://richardtvu.github.io/google-homepage/)
 * [Tyler Knapp's Solution (Easy)](https://github.com/Knapptr/google-homepage/) - [View in Browser](https://knapptr.github.io/google-homepage/)
-* [bmagginis's Solution (Easy)] (https://github.com/bmagginis/google-homepage) [View in Browser](https://bmagginis.github.io/google-homepage/)
+* [bmagginis's Solution (Easy)](https://github.com/bmagginis/google-homepage) - [View in Browser](https://bmagginis.github.io/google-homepage/)
+* [MiDDiz's Solution (Easy)](https://github.com/MiDDiz/odin-google-homepage) - [View in Browser](https://middiz.github.io/odin-google-homepage/)
 </details>
 
 ### Additional Resources

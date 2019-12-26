@@ -69,6 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sher's solution (with extra credit)](https://github.com/sher-s7/linkedlist)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/linked-list)
 * [Run After's Solution](https://github.com/run-after/curriculum/blob/master/ruby_programming/computer_science/project_linked_lists.md)
 * [Robin's Solution](https://github.com/CoolGlasses/linked_list/blob/master/linked_list.rb)
