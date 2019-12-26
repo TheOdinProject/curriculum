@@ -22,6 +22,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nasser Abachi's solutions](https://github.com/abachi/theodinproject/tree/master/building-projects/connect_four)
 * [Nikolas Broman's solutions](https://github.com/nikolasbroman/testing_rspec)
 * Ian's Solutions: [Caesar Cipher](https://github.com/IanMKesler/practice/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/IanMKesler/practice/tree/master/enumerable), [Tic Tac Toe](https://github.com/IanMKesler/Tic-Tac-Toe)
 * Alain Suarez's Solution: [Caesar Cipher](https://gitlab.com/asuar/ruby-building-blocks/blob/master/spec/caesar-cipher_spec.rb), [Enumerable Methods](https://gitlab.com/asuar/ruby-advanced-building-blocks/blob/master/spec/my-enumerable_spec.rb), [Tic Tac Toe](https://gitlab.com/asuar/ruby-tic-tac-toe/tree/master/spec)

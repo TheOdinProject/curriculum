@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Hassanbhb's Solution](https://github.com/Hassanbhb/Vegi) - [View in Browser](https://hassanbhb.github.io/Vegi/)
 - [Braxton's Solution](https://github.com/braxtonlemmon/restaurant-page) - [View in Browser](https://braxtonlemmon.github.io/restaurant-page/)
 - [Julio's Solution](https://github.com/julio22b/restaurant-page) - [View in Browser](https://julio22b.github.io/restaurant-page/)
 - [Esteban's Solution](https://github.com/estebanmoroy/restaurant-page) - [View in Browser](https://estebanmoroy.github.io/restaurant-page)

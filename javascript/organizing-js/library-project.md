@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Shivam's solution](https://github.com/shivamsaigupta/bookshelf) - [View in Browser](https://shivamsaigupta.github.io/bookshelf/)
 - [Luke Pritchett's solution](https://github.com/LukePritchett/library-app) - [View in Browser](https://lukepritchett.github.io/library-app/)
 - [Kevin Vuong's solution](https://github.com/fffear/library) - [View in Browser](https://fffear.github.io/library/)
 - [Alex's solution](https://github.com/AlexDorrington/Library-1) - [View in Browser](https://alexdorrington.github.io/Library-1/)
@@ -168,5 +169,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [jkraf002's Solution](https://github.com/jkraf002/library) - [View in Browser](https://jkraf002.github.io/library/)
 - [Tom Strat's Solution](https://github.com/tomstrat/library) - [View in Browser](https://tomstrat.github.io/library/)
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/library) - [View in Browser](https://alexgioffdev.github.io/library/index.html)
+- [Supasus's Solution (w/localstorage)](https://github.com/supasus/Js-library) - [View in Browser](https://supasus.github.io/Js-library/)
 </details>
 

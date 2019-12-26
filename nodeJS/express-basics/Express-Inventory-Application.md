@@ -31,5 +31,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Eljoey's Solution](https://github.com/eljoey/Game-Inventory) - [View in browser](https://immense-spire-45668.herokuapp.com/)
 - [rbkjefkj's Solution](https://github.com/rbkjefkj/inventory-app) - [View in browser](https://glacial-mountain-36822.herokuapp.com/)
 - [jdonahue135's Solution](https://github.com/jdonahue135/golf_store) - [View in browser](https://quiet-reaches-49920.herokuapp.com/)
-- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/odin-inventory-application) - [View in browser](https://aqueous-plateau-09755.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/odin-inventory-application) - [View in browser](https://odin-inventory-application.herokuapp.com/)
 </details>
