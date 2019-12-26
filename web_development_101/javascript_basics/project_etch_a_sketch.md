@@ -43,14 +43,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
-* [Zakariye Yusuf's Solution] (https://github.com/ZYusuf10/coolscetch/blob/master/index.html) - [View in Browser] (https://zyusuf10.github.io/coolscetch/index.html)
-=======
+* [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/coolscetch/blob/master/index.html) - [View in Browser] (https://zyusuf10.github.io/coolscetch/index.html)
 * [Purple's Solution](https://github.com/PurpleCodes42/EtchASketch) - [View in Browser](https://purplecodes42.github.io/EtchASketch/)
 * [Shivam Gupta's Solution](https://github.com/shivamsaigupta/etch-a-sketch-project) - [View in Browser](https://shivamsaigupta.github.io/etch-a-sketch-project/)
 * [Mark Kourie's Solution](https://github.com/Megalopsychic/etch-a-sketch) - [View in Browser](https://megalopsychic.github.io/etch-a-sketch/)
 * [Charles Briggs's Solution](https://github.com/ChuckBriggs/etch-a-sketch) - [View in Browser](https://chuckbriggs.github.io/etch-a-sketch/)
->>>>>>> b5757e13bffe10b5cf38ec1395eaa91d9055fa8a
 * [Dante's Solution](https://github.com/Dantedavidson/etch) - [View in Browser](https://dantedavidson.github.io/etch/)
 * [robo-monk's Solution](https://github.com/robo-monk/etch) - [View in Browser](https://robo-monk.github.io/etch/)
 * [justinkar's Solution](https://github.com/justinkar/Etch-a-Sketch) - [View in Browser](https://justinkar.github.io/Etch-a-Sketch/)
