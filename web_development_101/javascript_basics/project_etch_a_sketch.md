@@ -663,10 +663,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [MichaelK's solution](https://github.com/a0x77ry/etch-a-sketch) - [View in Browser](https://a0x77ry.github.io/etch-a-sketch/)
 * [arifsetyo21's Solution](https://github.com/arifsetyo21/etch-a-sketch) - [View in Browser](https://simple-etch-a-sketch.netlify.com/)
 * [Lete Nwibasi's solution](https://github.com/Marcodredd/etch-a-sketch) - [View in Browser](https://marcodredd.github.io/etch-a-sketch/)
-<<<<<<< HEAD
 * [Lucas-Bide's solution](https://github.com/Lucas-Bide/Etch-a-Sketch) - [View in Browser](https://lucas-bide.github.io/Etch-a-Sketch/)
-</details>
-=======
 * [mmboyce's solution](https://github.com/mmboyce/etch-a-sketch) - [View in Browser](https://mmboyce.github.io/etch-a-sketch/)
 * [oakami's solution](https://github.com/oakami/etch-a-sketch) - [View in Browser](https://oakami.github.io/etch-a-sketch/)
 * [wmisback's Solution](https://github.com/wmisback/Etch-A-Sketch) - [View in Browser](https://periodicreflections.com/Etch-A-Sketch/)
@@ -676,4 +673,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [wilmir's Solution](https://github.com/Wilmir/etch-a-sketch) - [View in Browser](https://wilmir.github.io/etch-a-sketch/)
 * [hadouken-ryu's Solution](https://github.com/hadouken-ryu/etch-a-sketch) - [View in Browser](https://hadouken-ryu.github.io/etch-a-sketch/)
 </details>
->>>>>>> 99315bbee437b845ceededd235e69291ca510f9a
