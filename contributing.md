@@ -10,15 +10,5 @@
 
 #### Short description of the proper way
 
-* Fork the original repository
-* Clone the forked repository to your local system
-* Make changes to files
-* Add the files to the staging area (`git add .`) and then commit the files (`git commit -m "your message"`)
-* Add the original repo as a remote, so you can pull from it:  
-`git remote add upstream git@github.com:<USER>/<REPO>.git`
-* `git pull upstream <BRANCH>` (usually the branch is master)
-* Resolve any merge conflicts
-* `git push origin`
-* Go to your forked repo on github to open a pull request
-
-#### All of this is described in detail in the video above!
+* [https://www.theodinproject.com/courses/ruby-programming/lessons/using-git-in-the-real-world#a-git-workflow-for-open-source-contribution](https://www.theodinproject.com/courses/ruby-programming/lessons/using-git-in-the-real-world#a-git-workflow-for-open-source-contribution) 
+* [https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
