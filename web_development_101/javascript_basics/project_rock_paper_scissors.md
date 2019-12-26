@@ -1114,4 +1114,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kieran Holland's Solution](https://github.com/kie96/rock-paper-scissors)
 - [Derek Bekoe's Solution](https://github.com/https://github.com/derekowusubekoe/rock_paper_scissors) - [View in Browser](https://derekowusubekoe.github.io/rock_paper_scissors.io/)
 - [chriskoder's Solution](https://github.com/chriskoder/ropasc/)
+- [rebiculs's Solution](https://github.com/Rebicul/Rock-Paper-Scissors)
 </details>
