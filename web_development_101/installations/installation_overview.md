@@ -36,7 +36,7 @@ If you're using a Mac, you're in great shape. Most professional developers rely 
 
 #### Linux
 
-[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
+[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available. **If you don't use a Mac, we recommend that you use Linux.** It's that simple. If you opt to use Linux on a computer with 4gb RAM or less, it's best to use a light-weight version of Ubuntu to avoid lag or even freezing of the system. For more information on light-weight options, refer to this [table](https://www.reddit.com/r/Ubuntu/comments/8fz0dv/disk_and_ram_usage_of_ubuntu_kubuntu_lubuntu/dy7iye5/).
 
 #### Virtual Machines and Dual-Boots
 
