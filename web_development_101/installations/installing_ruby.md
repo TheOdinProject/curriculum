@@ -230,7 +230,7 @@ Otherwise if it mentioned zshrc then run:
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 ~~~
 
-You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
+You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
 
 #### Step 3.3: Install Ruby
 

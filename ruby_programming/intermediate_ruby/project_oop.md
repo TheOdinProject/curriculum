@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/tic-tac-toe)
 * [Jithin's Solution](https://github.com/jithindasad/tic_tac_toe)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/tic_tac_toe)
 * [Robin's Solution](https://github.com/CoolGlasses/project_oop/blob/master/tic_tac_toe.rb)
@@ -334,6 +335,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/mastermind)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/mastermind)
 * [Robin's Solution](https://github.com/CoolGlasses/project_oop/blob/master/mastermind.rb)
 * [Billy's Solution](https://github.com/bcoffin9/mastermind)
@@ -564,6 +566,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sher's solution](https://github.com/sher-s7/mastermind)
 * [Robert Suazo's solution](https://github.com/rsuazo/mastermind/blob/master/mastermind.rb)
 * [guacamobley's solution](https://github.com/guacamobley/mastermind)
+* [David Watkin's Solution](https://github.com/DavidWatkinCode/mastermind/)
 </details>
 
 ### Additional Resources
