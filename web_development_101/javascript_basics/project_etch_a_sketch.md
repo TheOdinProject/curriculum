@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Saumya's solution](https://github.com/iamsaumya/ETCH-A-SKETCH) - [View in Browser](https://github.com/iamsaumya/ETCH-A-SKETCH)
 * [Prae-torius's Solution](https://github.com/Prae-torius/etch-a-sketch) - [View in Browser](https://prae-torius.github.io/etch-a-sketch/)
 * [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/coolscetch/blob/master/index.html) - [View in Browser](https://zyusuf10.github.io/coolscetch/index.html)
 * [Purple's Solution](https://github.com/PurpleCodes42/EtchASketch) - [View in Browser](https://purplecodes42.github.io/EtchASketch/)
@@ -665,6 +666,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [MichaelK's solution](https://github.com/a0x77ry/etch-a-sketch) - [View in Browser](https://a0x77ry.github.io/etch-a-sketch/)
 * [arifsetyo21's Solution](https://github.com/arifsetyo21/etch-a-sketch) - [View in Browser](https://simple-etch-a-sketch.netlify.com/)
 * [Lete Nwibasi's solution](https://github.com/Marcodredd/etch-a-sketch) - [View in Browser](https://marcodredd.github.io/etch-a-sketch/)
+* [Lucas-Bide's solution](https://github.com/Lucas-Bide/Etch-a-Sketch) - [View in Browser](https://lucas-bide.github.io/Etch-a-Sketch/)
 * [mmboyce's solution](https://github.com/mmboyce/etch-a-sketch) - [View in Browser](https://mmboyce.github.io/etch-a-sketch/)
 * [oakami's solution](https://github.com/oakami/etch-a-sketch) - [View in Browser](https://oakami.github.io/etch-a-sketch/)
 * [wmisback's Solution](https://github.com/wmisback/Etch-A-Sketch) - [View in Browser](https://periodicreflections.com/Etch-A-Sketch/)
@@ -675,4 +677,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [hadouken-ryu's Solution](https://github.com/hadouken-ryu/etch-a-sketch) - [View in Browser](https://hadouken-ryu.github.io/etch-a-sketch/)
 * [BusyBee's Solution](https://github.com/swissbusybee/Etch-A-Sketch-Project) - [View in Browser](https://swissbusybee.github.io/Etch-A-Sketch-Project/)
 * [Rhath32's Solution](https://github.com/rhath32/etch-a-sketch)
+* [Lasse Maidal Pedersen's Solution](https://github.com/lassemaidalpedersen/etch-a-sketch) - [View in Browser](https://lassemaidalpedersen.github.io/etch-a-sketch/)
 </details>
