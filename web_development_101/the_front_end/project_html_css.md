@@ -2781,6 +2781,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [aqib21's Solution (Difficult)](https://github.com/aqib21/google-results-page) - [View in Browser](https://aqib21.github.io/google-results-page/)
 * [le-santos's Solution (Easy)](https://github.com/le-santos/google-homepage) - [View in Browser](https://le-santos.github.io/google-homepage/)
 * [ofthesoul's Solution (Easy)](https://github.com/ofthesoul/google-homepage) - [View in Browser](https://ofthesoul.github.io/google-homepage/)
+* [mattcosta617's solution (Easy)](https://github.com/mattcosta617/google-homepage)
 </details>
 
 ### Additional Resources
