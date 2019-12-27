@@ -55,4 +55,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [JamCry's solution](https://github.com/jamcry/js-weather-app) - [View in Browser](https://jamcry.github.io/js-weather-app/)
 * [Yash Boura's solution](https://github.com/yashboura303/weatherappReact) - [View in Browser](https://yashweatherapp.netlify.com/)
 * [Krzysztof Sordyl's solution](https://github.com/Verthon/Weather-App) - [View in Browser](https://verthon.github.io/Weather-App/)
+* [Aron's solution](https://github.com/aronfischer/react_weather_app) - [View in Browser](https://aronfischer.github.io/react_weather_app/)
 </details>

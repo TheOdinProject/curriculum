@@ -27,6 +27,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 
+* [Jakob's Solution](https://github.com/jodokusquack/blogger) - [View in Browser](https://salty-reef-56881.herokuapp.com/)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/blogger)
 * [nearmint's Solution](https://github.com/nearmint/rails-blogger) - [View in Browser](https://protected-shelf-44996.herokuapp.com/) - Partner: [colecrowder](https://github.com/colecrowder/blogger)
 * [Philipp's Solution](https://github.com/philipp-mcvity/blogger)
@@ -440,6 +441,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [guacamobley's solution](https://github.com/guacamobley/rails-tutorial-project)
 * [AlexGioffDev's solution](https://github.com/AlexGioffDev/Blogger) - [View in browser](https://blogger-rails-alexgioff.herokuapp.com/)
 * [Singhmi4's solution](https://github.com/singhmi4/blogger) - [View in browser](https://powerful-coast-29786.herokuapp.com/)
+* [Andrew Huntington's solution](https://github.com/AndrewHuntington/rails_project) - [View in browser](https://fast-brook-55206.herokuapp.com/)
 </details>
 
 ### Additional Resources
