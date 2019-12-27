@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [higgabes's Solution](https://github.com/higgabes/top3) - [View in Browser](https://github.com/higgabes/top3)
 * [Saumya's solution](https://github.com/iamsaumya/ETCH-A-SKETCH) - [View in Browser](https://github.com/iamsaumya/ETCH-A-SKETCH)
 * [Prae-torius's Solution](https://github.com/Prae-torius/etch-a-sketch) - [View in Browser](https://prae-torius.github.io/etch-a-sketch/)
 * [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/coolscetch/blob/master/index.html) - [View in Browser](https://zyusuf10.github.io/coolscetch/index.html)
@@ -662,7 +663,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Shane Gilbert's solution](https://github.com/shanedgilbert/Etch-a-sketch) - [View in Browser](https://shanedgilbert.github.io/Etch-a-sketch/)
 * [Kale'33's solution](https://github.com/poreniyi/Etch-a-Sketch) - [View in Browser](https://poreniyi.github.io/Etch-a-Sketch/)
 * [Andrés' solution](https://github.com/echounit1/etch-a-sketch) - [View in Browser](https://echounit1.github.io/etch-a-sketch/)
-* [Kristiana's solution](https://github.com/KristianaGaizauskiene/etch_a_sketch) 
+* [Kristiana's solution](https://github.com/KristianaGaizauskiene/etch_a_sketch)
 * [MichaelK's solution](https://github.com/a0x77ry/etch-a-sketch) - [View in Browser](https://a0x77ry.github.io/etch-a-sketch/)
 * [arifsetyo21's Solution](https://github.com/arifsetyo21/etch-a-sketch) - [View in Browser](https://simple-etch-a-sketch.netlify.com/)
 * [Lete Nwibasi's solution](https://github.com/Marcodredd/etch-a-sketch) - [View in Browser](https://marcodredd.github.io/etch-a-sketch/)
