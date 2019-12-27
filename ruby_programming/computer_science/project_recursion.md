@@ -17,6 +17,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Billy's Solution](https://github.com/bcoffin9/project_recursion_ruby)
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/blob/master/building-projects/recursion/fibonacci.rb)
+* [Run After's Solution](https://github.com/run-after/recursion/blob/master/fibonacci.rb)
+* [Robin's Solution](https://github.com/CoolGlasses/recursion_project/blob/master/fibonacci.rb)
 * [Uzay-G's solution](https://github.com/Uzay-G/recursive/blob/master/merge_sort.rb)
 * [Rafe Draper's solution](https://github.com/rafeDraper/ruby_exercises/blob/master/recursion_exercises/recursion_template.rb)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/fibonacci)
@@ -238,6 +241,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 * Add your solution below this line!
 * [Billy's Solution](https://github.com/bcoffin9/project_recursion_ruby)    
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/blob/master/building-projects/recursion/merge_sort.rb)
+* [Run After's Solution](https://github.com/run-after/recursion/blob/master/merge_sort.rb)
+* [Robin's Solution](https://github.com/CoolGlasses/recursion_project/blob/master/merge_sort.rb)
 * [Austin Fisher's solution](https://github.com/Austin2016/merge_sort)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/merge_sort)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/ruby_exercises/blob/master/recursion_exercises/merge_sort.rb)

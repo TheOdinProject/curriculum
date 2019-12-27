@@ -52,6 +52,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/binary_search_trees)
+* [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/binary_search_tree)
 * [Ian's Solution](https://github.com/IanMKesler/binary_tree)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
@@ -197,6 +199,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/binary-search-tree)
 * [Drew Goddyn's solution](https://github.com/Drew-Goddyn/binary_search_tree)
+* [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
+* [Bendee's Solution](https://github.com/bendee48/Data-Structures)
+* [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/binary_search_tree.rb)
 
 </details>
 
@@ -244,6 +249,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/knights_travails)
+* [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms/blob/master/knights_travails.rb)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/knights_travails)
 * [Ian's Solution](https://github.com/IanMKesler/knight-s_travails)
 * [Chris' Solution](https://github.com/CSalois114/project_knight_moves/blob/master/knight_moves.rb)
@@ -387,4 +394,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/knight_moves/blob/master/knight_moves.rb)
 * [Brett Bonnet's solution](https://github.com/Brett-Bonnet/knight-moves)
 * [Husseinhewehii's solution](https://github.com/Husseinhewehii/Knight_Moves)
+* [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/knights_travails)
+* [Bendee's Solution](https://github.com/bendee48/Data-Structures/blob/master/knight_moves.rb)
+* [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/knights_travails.rb)
+
 </details>

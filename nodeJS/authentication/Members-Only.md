@@ -20,14 +20,17 @@ This will be a chance for you to use the authentication skills we learned in the
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/authentication/Members-Only.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Eljoey's solution](https://github.com/eljoey/Members-Only-MsgBoard) - [View in browser](https://warm-garden-53847.herokuapp.com)
 * [Saif Mode's solution](https://saifmode.github.io/secret-club-house) - [View in browser](https://secret-club-house.herokuapp.com)
 * [Brian Tuju's solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/members_only) - [View in browser](https://members-only--briantuju.repl.co/)
+* [Jdonahue135's solution](https://github.com/jdonahue135/members-only) - [View in browser](https://desolate-reef-04961.herokuapp.com/)
+* [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-members-only) - [View in browser](https://odin-members-only.herokuapp.com/)
 </details>
 
 
