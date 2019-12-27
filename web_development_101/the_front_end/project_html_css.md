@@ -2777,6 +2777,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [bmagginis's Solution (Easy)](https://github.com/bmagginis/google-homepage) - [View in Browser](https://bmagginis.github.io/google-homepage/)
 * [MiDDiz's Solution (Easy)](https://github.com/MiDDiz/odin-google-homepage) - [View in Browser](https://middiz.github.io/odin-google-homepage/)
 * [Samuel Katamba's Solution (Easy)](https://samikats.github.io/google-homepage/)
+* [xOC97's Solution (Easy)](https://github.com/xOC97/google-homepage) - [View in Browser](https://xoc97.github.io/google-homepage/)
 * [aqib21's Solution (Difficult)](https://github.com/aqib21/google-results-page) - [View in Browser](https://aqib21.github.io/google-results-page/)
 * [le-santos's Solution (Easy)](https://github.com/le-santos/google-homepage) - [View in Browser](https://le-santos.github.io/google-homepage/)
 * [ofthesoul's Solution (Easy)](https://github.com/ofthesoul/google-homepage) - [View in Browser](https://ofthesoul.github.io/google-homepage/)
