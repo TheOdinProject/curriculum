@@ -454,4 +454,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jkraf002's solution](https://github.com/jkraf002/calculator) - [View in Browser](https://jkraf002.github.io/calculator/)
 - [Nadine N's solution](https://github.com/nadineeen/js-calculator) - [View in Browser](https://nadineeen.github.io/js-calculator/)
 - [Andrew Huntington's Solution](https://github.com/AndrewHuntington/js-calc) - [View in Browser](https://andrewhuntington.github.io/js-calc/)
+- [arifsetyo21's Solution](https://github.com/arifsetyo21/calculator-js) - [View in Browser](https://simple-calculator-javascript.netlify.com/)
 </details>
