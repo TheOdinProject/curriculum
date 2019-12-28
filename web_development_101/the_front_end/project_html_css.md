@@ -2782,6 +2782,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [le-santos's Solution (Easy)](https://github.com/le-santos/google-homepage) - [View in Browser](https://le-santos.github.io/google-homepage/)
 * [ofthesoul's Solution (Easy)](https://github.com/ofthesoul/google-homepage) - [View in Browser](https://ofthesoul.github.io/google-homepage/)
 * [mattcosta617's solution (Easy)](https://github.com/mattcosta617/google-homepage)
+* [Septiana Yoga's Solution (difficult)](https://github.com/yoga1234/google-homepage-2) - [View in Browser](https://yoga1234.github.io/google-homepage-2/)
 </details>
 
 ### Additional Resources
