@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Ken Choi's Solution (Easy)](https://github.com/kkckrnz/google-homepage) - [View in Browser](https://kkckrnz.github.io/google-homepage/)
 * [Peter Davis' Solution (Easy)](https://github.com/therealquaid/google-homepage) - [View in Broswer](https://therealquaid.github.io/google-homepage/)
 * [Cody Wright's Solution (Easy)](https://github.com/Cwright911/google-homepage) - [View in Browser](https://Cwright911.github.io/google-homepage/)
 * [Ahmed Chaudry's Solution (Easy)](https://github.com/xazzer81/google-homepage-) - [View in Browser](https://xazzer81.github.io/google-homepage-/)
