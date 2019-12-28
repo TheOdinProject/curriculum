@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/caesar_cipher.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/caesar_cipher/)
 * [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.building_blocks/blob/master/caesar_cipher/caesar-cipher.rb)
@@ -517,6 +518,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/stock_picker.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/stock_picker)
 * [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
 * [Philipp's solution](https://github.com/philipp-mcvity/Odin.Ruby.building_blocks/blob/master/stock_picker/stock_picker.rb)
@@ -960,6 +962,8 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+
+* [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/dictionary.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/substrings)
 * [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.building_blocks/blob/master/substrings/substrings.rb)
