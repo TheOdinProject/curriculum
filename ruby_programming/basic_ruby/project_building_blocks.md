@@ -962,7 +962,6 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-
 * [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/dictionary.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/substrings)
 * [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
