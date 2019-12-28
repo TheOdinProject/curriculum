@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [nabeel-h's Solution](https://github.com/nabeel-h/rock-paper-scissors)
+- [Randyfoo07's Solution](https://github.com/RandyFoo07/rock-paper-scissors)
 - [Ted S. Solution](https://github.com/itsPuppet/rockPaperScissors)
 - [Reece Trevenen's Solution](https://github.com/Cyber-Spud/paper-scissors-rock-gui) - [View in Browser](https://cyber-spud.github.io/paper-scissors-rock-gui/)
 - [Prae-torius's Solution](https://github.com/Prae-torius/rps-game)
@@ -1121,4 +1123,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ricardo's Solution](https://ricardo-gonzalez-villegas.github.io/rock-paper-scissors/)
 - [Wendigo9643's Solution](https://github.com/Wendigo9643/RPS.git)
 - [Alex's Solution](https://github.com/rereon63/rock-paper-scissors/)
+- [Astroid's Solution](https://github.com/GitAstroid/rock_paper_scissors)
+- [pudu87's Solution](https://github.com/pudu87/rock-paper-scissors/)
 </details>
