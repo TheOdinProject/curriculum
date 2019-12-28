@@ -124,6 +124,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [vanny96's solution](https://github.com/vanny96/fakebook) - [View in browser](https://rocky-ravine-56988.herokuapp.com)
 * [JamCry's Solution](https://github.com/jamcry/rails-facebook) - [View in browser](https://protected-anchorage-21926.herokuapp.com/)
 * [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/the-pub) - [View in browser](https://thepub-io.herokuapp.com)
+* [Jamesredux's Solution](https://github.com/Jamesredux/odin-facebook) - [View in browser](https://jamesreduxbook.herokuapp.com/)
 </details>
 
 ### Additional Resources
