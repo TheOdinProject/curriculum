@@ -1128,4 +1128,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [pudu87's Solution](https://github.com/pudu87/rock-paper-scissors/)
 - [MichelleP1's solution](https://github.com/MichelleP1/rock_paper_scissors) - [View in Browser](https://michellep1.github.io/rock_paper_scissors/)
 - [MiDDiz's solution](https://github.com/MiDDiz/RockPaperScissors) - [View in Browser](https://middiz.github.io/RockPaperScissors/)
+- [Ambuj's solution](https://github.com/ambujc25/js-rock-paper-scissors) - [View in Browser](https://ambujc25.github.io/js-rock-paper-scissors/)
 </details>
