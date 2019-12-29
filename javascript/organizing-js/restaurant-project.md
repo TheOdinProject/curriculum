@@ -110,4 +110,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/game-page) - [View in Browser](https://edmtrv.github.io/game-page/)
 - [Edehe's Solution](https://github.com/edehlol/restaurant) - [View in Browser](https://edehlol.github.io/restaurant/)
 - [AlexGioff's Solution](https://github.com/AlexGioffDev/Restaurant) - [View in Browser](https://alexgioffdev.github.io/Restaurant/)
+- [Supasus's Solution](https://github.com/supasus/js-restaurant-page) - [View in Browser](https://supasus.github.io/js-restaurant-page/)
 </details>
