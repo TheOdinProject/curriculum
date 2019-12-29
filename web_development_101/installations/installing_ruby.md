@@ -133,6 +133,174 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 
 <details markdown="block">
+<summary class="dropDown-header">Raspbian for Raspberry Pi
+</summary>
+
+### Step 1: Install Updates, Packages and Libraries
+
+Before we can re-install Ruby, we need to install some base packages.
+
+#### Step 1.1: Open the Terminal
+
+We'll use the terminal to install all of the programs. Open the terminal and verify your are using the newest version of the Raspbian OS on your RPi.
+
+Running your RPi, simply press Ctrl + Alt + T to open the terminal. (This may work in other Linux distributions; you’ll have to try!) 
+
+#### Step 1.2: Verify Raspbian Version
+
+The rest of the installation will take place inside the terminal window.
+
+First, we need to make sure your Raspbian distribution is up to date. For this installation, we are running Raspbian GNU/Linux 10 (buster)
+
+
+~~~bash
+cat /etc/os-release
+~~~
+
+#### Step 1.3: Download RVM
+
+Next, you need to install Ruby Version Manager (rvm). (Be sure to copy and paste this command.)
+
+~~~bash
+\curl -sSL https://get.rvm.io | bash
+~~~
+
+### Step 1.4: Set Source 
+
+To start using RVM, we need to ensure it loads properly. 
+
+In the script below, replace ‘user’ with the name of your machine (which is most likely ‘pi’). 
+
+You can enter this into the terminal to confirm the name of your machine and use the output to replace ‘user’
+
+~~~bash
+whoami
+source /home/`user`/.rvm/scripts/rvm
+~~~
+
+#### Step 2: Install Ruby
+
+Now you’re ready to re-install Ruby. We’re going to use a tool called rvm, which makes it easy to install and manage Ruby versions. We are using rvm 1.29.9, so let’s confirm this
+
+~~~bash
+rvm -v
+~~~
+
+#### Step 2.1: Install Ruby with RVM
+
+~~~bash
+rvm install ruby
+~~~
+
+After the installation completes, you should be running ruby 2.7.0p0. Let’s confirm this
+
+~~~bash
+ruby -v
+~~~
+
+#### Step 3: Install Ruby Gems
+
+~~~bash
+sudo apt-get install rubygems
+~~~
+
+#### Step 3.1: Update Gems
+
+Let’s make sure our gem files are up-to-date.
+
+~~~bash
+gem update
+~~~
+
+#### Step 3.2 Install Ruby Patch 
+ 
+~~~bash
+sudo apt-get install ruby-dev zlib1g-dev liblzma-dev build-essential patch
+~~~
+
+When it prompts you, press `y` and then `enter`. You may or may not have to type your password after pressing enter.
+
+#### Step 3.3 Gemset list
+
+~~~bash
+rvm gemset list
+~~~
+
+#### Step 4 Installing Rails
+
+You should now be running Rails 6.0.2.1. Let’s confirm this
+
+~~~bash
+rails -v
+~~~
+
+#### Step 4.1 Making Rails Directory
+
+We need to update some libraries to get Rails working properly on the RPi. Create a Rails directory.
+
+~~~bash
+mkdir odin_on_rails
+~~~
+
+Move to the directory.
+
+~~~bash
+cd odin_on_rails
+~~~
+
+#### Step 4.2 Making Rails App
+
+Create a Ruby on Rails application. This will take some time, so get a cup of coffee if you need it.
+
+~~~bash
+rails new my_first_rails_app
+~~~
+
+#### Step 4.3 Rails installations
+
+During the creation of your first Rails app, you will some requests to install additional  gems. Let’s move to our application.
+
+~~~bash
+cd my_first_rails_app 
+~~~
+
+We need to install Yarn, which is a Javascript package manager. Raspbian is a Debian based OS, so we’ll download and install the Debian / Ubuntu Stable (1.21.1) version of Yarn.
+
+~~~bash
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+~~~
+
+~~~bash
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+~~~
+
+Install the files.
+
+~~~bash
+sudo apt update && sudo apt install yarn
+~~~
+
+We need to install webpack, whose main purpose is to bundle JavaScript files for usage in a browser.
+
+~~~bash 
+rails  webpacker:install
+~~~
+#### Step 5 Boot up the Server
+
+With those additional gem installations, the Rails server works on the RPi.
+
+~~~bash
+rails server
+~~~
+
+In your web browser, visit http://localhost:3000 and you will see the Rails greeting screen.
+
+Well done! Pat yourself on the back! The hard part is done, and it’s time to move on to the next lesson!
+
+</details>
+
+
+<details markdown="block">
 <summary class="dropDown-header">MacOS
 </summary>
 
