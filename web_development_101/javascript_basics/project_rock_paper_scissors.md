@@ -42,7 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Richard's Solution](https://github.com/RichardDenton/rock-paper-scissors) - [View in Browser](https://richarddenton.github.io/rock-paper-scissors/)
-- [nabeel-h's Solution](https://github.com/nabeel-h/rock-paper-scissors)
+- [nabeel-h's Solution](https://github.com/nabeel-h/rock-paper-scissors) - [View in Browser](https://nabeel-h.github.io/rock-paper-scissors/)
 - [Randyfoo07's Solution](https://github.com/RandyFoo07/rock-paper-scissors)
 - [Ted S. Solution](https://github.com/itsPuppet/rockPaperScissors)
 - [Reece Trevenen's Solution](https://github.com/Cyber-Spud/paper-scissors-rock-gui) - [View in Browser](https://cyber-spud.github.io/paper-scissors-rock-gui/)
