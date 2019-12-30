@@ -2791,6 +2791,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Miguelus373's solution (Easy)](https://github.com/Miguelus373/GoogleCopy-Practice) - [View in Browser](https://miguelus373.github.io/)
 * [Woogyyy's Solution (Easy)](https://github.com/Woogyyy/google-homepage) - [View in Browser](https://woogyyy.github.io/google-homepage/) 
 * [Rjeunen's Solution (Easy)](https://github.com/rjeunen/google-homepage)
+* [Fabian's Solution (Easy)](https://github.com/fabianyater/Google) -[View in Browser](https://fabianyater.github.io/Google/)
 </details>
 
 ### Additional Resources
