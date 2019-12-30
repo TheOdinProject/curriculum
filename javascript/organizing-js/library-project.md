@@ -170,5 +170,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Tom Strat's Solution](https://github.com/tomstrat/library) - [View in Browser](https://tomstrat.github.io/library/)
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/library) - [View in Browser](https://alexgioffdev.github.io/library/index.html)
 - [Supasus's Solution (w/localstorage)](https://github.com/supasus/Js-library) - [View in Browser](https://supasus.github.io/Js-library/)
+- [Filip Grkinic's Solution (w/localstorage)](https://github.com/filipgrkinic/book-library) - [View in Browser](https://filipgrkinic.github.io/book-library/)
 </details>
 
