@@ -682,4 +682,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Rhath32's Solution](https://github.com/rhath32/etch-a-sketch)
 * [Lasse Maidal Pedersen's Solution](https://github.com/lassemaidalpedersen/etch-a-sketch) - [View in Browser](https://lassemaidalpedersen.github.io/etch-a-sketch/)
 * [chriskoder's Solution](https://github.com/chriskoder/etch_a_sketch) - [View in Browser](https://chriskoder.github.io/etch_a_sketch/)
+* [MichelleP1's Solution](https://github.com/MichelleP1/etch-a-sketch) - [View in Browser](https://michellep1.github.io/etch-a-sketch/)
+
 </details>
