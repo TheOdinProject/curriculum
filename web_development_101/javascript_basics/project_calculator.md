@@ -460,10 +460,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jkraf002's solution](https://github.com/jkraf002/calculator) - [View in Browser](https://jkraf002.github.io/calculator/)
 - [Nadine N's solution](https://github.com/nadineeen/js-calculator) - [View in Browser](https://nadineeen.github.io/js-calculator/)
 - [Andrew Huntington's Solution](https://github.com/AndrewHuntington/js-calc) - [View in Browser](https://andrewhuntington.github.io/js-calc/)
+- [arifsetyo21's Solution](https://github.com/arifsetyo21/calculator-js) - [View in Browser](https://simple-calculator-javascript.netlify.com/)
 - [Bastillze's Solution](https://github.com/Bastillze/Calculator) - [View in Browser](https://github.com/Bastillze/Calculator/blob/master/Calculator.html)
 - [MichaelK's Solution](https://github.com/a0x77ry/calculator) - [View in Browser](https://a0x77ry.github.io/calculator/)
 - [DamnedLag's Solution](https://github.com/Damnedlag/Calculator) - [View in Browser](https://damnedlag.github.io/Calculator/)
 - [Michelle12188's solution](https://github.com/Michelle12188/calculator-js) - [View in Browser](https://michelle12188.github.io/calculator-js/)
 - [Daniel Muriano's solution](https://github.com/Daniel-Muriano/Calculator)
-
+- [SurfingChewie's solution](https://github.com/SurfingChewie/Calculator)
+- [Wilmir's Solution](https://github.com/Wilmir/javascript-calculator) - [View in Browser](https://wilmir.github.io/javascript-calculator/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/calculator) - [View in Browser](https://barrysweeney.github.io/calculator/)
+- [Busy Bee's Solution](https://github.com/swissbusybee/Calculator-Project) - [View in Browser](https://swissbusybee.github.io/Calculator-Project/)
 </details>
