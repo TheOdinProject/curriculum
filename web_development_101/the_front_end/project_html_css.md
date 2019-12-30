@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [AlexBoonDev's Solution (Easy)](https://github.com/AlexBoonDev/google-home-page) - [View in Browser](https://alexboondev.github.io/google-home-page/)
 * [Kyle Harris's Solution (Easy)](https://github.com/KoderKow/google-homepage) - [View in Browser](https://koderkow.github.io/google-homepage/)
 * [Emir Selimovic's Solution (Easy)](https://github.com/emsnseli/google-homepage) - [View in Browser](https://emsnseli.github.io/google-homepage/)
 * [Ken Choi's Solution (Easy)](https://github.com/kkckrnz/google-homepage) - [View in Browser](https://kkckrnz.github.io/google-homepage/)
@@ -2740,7 +2741,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hadouken-Ryu's Solution (Easy)](https://github.com/hadouken-ryu/google-homepage)] - [View in Browser](https://hadouken-ryu.github.io/google-homepage/)
 * [Mrdsantos's Solution (Easy)](https://github.com/mrdsantos/google-homepage) - [View in Browser](https://mrdsantos.github.io/google-homepage/)
 * [Mrdsantos's Solution (Difficult)](https://github.com/mrdsantos/google-results) - [View in Browser](https://mrdsantos.github.io/google-results/)
-* [BusyBee Solution (Both)](https://github.com/swissbusybee/google-homepage) - [View in Browser](https://swissbusybee.github.io/google-homepage/)
+* [BusyBee Solution (Both)](https://github.com/swissbusybee/google-homepage) - [View in Browser](https://swissbusybee.github.io/Google-Homepage-Project/)
 * [msrdinesh's Solution (Easy)](https://github.com/msrdinesh/google-homepage) - [View in Browser](https://msrdinesh.github.io/google-homepage/)
 * [bigsmokered's Solution (Easy)](https://github.com/bigsmokered/google-homepage) - [View in Browser](https://bigsmokered.github.io/google-homepage/)
 * [Dasun's Solution (Easy)](https://github.com/IamDZN/GoogleHomepage) - [View in Browser](https://iamdzn.github.io/GoogleHomepage/)
@@ -2791,6 +2792,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Miguelus373's solution (Easy)](https://github.com/Miguelus373/GoogleCopy-Practice) - [View in Browser](https://miguelus373.github.io/)
 * [Woogyyy's Solution (Easy)](https://github.com/Woogyyy/google-homepage) - [View in Browser](https://woogyyy.github.io/google-homepage/) 
 * [Rjeunen's Solution (Easy)](https://github.com/rjeunen/google-homepage)
+* [Fabian's Solution (Easy)](https://github.com/fabianyater/Google) -[View in Browser](https://fabianyater.github.io/Google/)
 </details>
 
 ### Additional Resources
