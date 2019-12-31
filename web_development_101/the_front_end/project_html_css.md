@@ -2793,6 +2793,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Woogyyy's Solution (Easy)](https://github.com/Woogyyy/google-homepage) - [View in Browser](https://woogyyy.github.io/google-homepage/) 
 * [Rjeunen's Solution (Easy)](https://github.com/rjeunen/google-homepage)
 * [Fabian's Solution (Easy)](https://github.com/fabianyater/Google) -[View in Browser](https://fabianyater.github.io/Google/)
+* [Tony's Solution (Easy)](https://github.com/amart114/google-homepage) -[View in Browser](https://amart114.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
