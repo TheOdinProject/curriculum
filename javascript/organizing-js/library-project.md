@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 
 - Add your solution below this line!
 - [nearmint's solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
+- [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/BookShelf) - [View in Browser](https://zyusuf10.github.io/BookShelf/index.html)
 - [Shivam's solution](https://github.com/shivamsaigupta/bookshelf) - [View in Browser](https://shivamsaigupta.github.io/bookshelf/)
 - [Luke Pritchett's solution](https://github.com/LukePritchett/library-app) - [View in Browser](https://lukepritchett.github.io/library-app/)
 - [Kevin Vuong's solution](https://github.com/fffear/library) - [View in Browser](https://fffear.github.io/library/)
@@ -171,5 +172,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Tom Strat's Solution](https://github.com/tomstrat/library) - [View in Browser](https://tomstrat.github.io/library/)
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/library) - [View in Browser](https://alexgioffdev.github.io/library/index.html)
 - [Supasus's Solution (w/localstorage)](https://github.com/supasus/Js-library) - [View in Browser](https://supasus.github.io/Js-library/)
+- [Filip Grkinic's Solution (w/localstorage)](https://github.com/filipgrkinic/book-library) - [View in Browser](https://filipgrkinic.github.io/book-library/)
 </details>
 

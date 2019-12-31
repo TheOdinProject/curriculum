@@ -468,4 +468,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Daniel Muriano's solution](https://github.com/Daniel-Muriano/Calculator)
 - [SurfingChewie's solution](https://github.com/SurfingChewie/Calculator)
 - [Wilmir's Solution](https://github.com/Wilmir/javascript-calculator) - [View in Browser](https://wilmir.github.io/javascript-calculator/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/calculator) - [View in Browser](https://barrysweeney.github.io/calculator/)
+- [Busy Bee's Solution](https://github.com/swissbusybee/Calculator-Project) - [View in Browser](https://swissbusybee.github.io/Calculator-Project/)
 </details>
