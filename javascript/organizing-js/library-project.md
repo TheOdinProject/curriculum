@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [nearmint's solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/BookShelf) - [View in Browser](https://zyusuf10.github.io/BookShelf/index.html)
 - [Shivam's solution](https://github.com/shivamsaigupta/bookshelf) - [View in Browser](https://shivamsaigupta.github.io/bookshelf/)
 - [Luke Pritchett's solution](https://github.com/LukePritchett/library-app) - [View in Browser](https://lukepritchett.github.io/library-app/)
