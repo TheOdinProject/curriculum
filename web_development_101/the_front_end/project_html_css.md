@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Mothi Ghimire's Solution (Easy)](https://github.com/mothighimire/google-homepage-html-clone) - [View in Browser]
 * [AlexBoonDev's Solution (Easy)](https://github.com/AlexBoonDev/google-home-page) - [View in Browser](https://alexboondev.github.io/google-home-page/)
 * [Kyle Harris's Solution (Easy)](https://github.com/KoderKow/google-homepage) - [View in Browser](https://koderkow.github.io/google-homepage/)
 * [Emir Selimovic's Solution (Easy)](https://github.com/emsnseli/google-homepage) - [View in Browser](https://emsnseli.github.io/google-homepage/)
