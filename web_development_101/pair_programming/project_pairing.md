@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Justinkar's Solution](https://github.com/justinkar/pomodoro) - [View in Browser](https://justinkar.github.io/pomodoro/)
 * [colecrowder's and nearmint's Solution](https://github.com/colecrowder/pomodoro) - [View in Browser](https://colecrowder.github.io/pomodoro/)
 * [Joshysmart's Solution](https://github.com/joshysmart/javascript-pomodoro) - [View in Browser](https://joshysmart.github.io/javascript-pomodoro/)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/pomodoro) - [View in Browser](https://gbadesimple.github.io/pomodoro/)
@@ -161,6 +162,10 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Kevin Charles's Solution](https://github.com/kevinbcharles/pomodoro) - [View in Browser](https://kevinbcharles.github.io/pomodoro/)
 * [AlexGioffDev's Solution](https://github.com/AlexGioffDev/Pomodoro) - [View in Browser](https://alexgioffdev.github.io/Pomodoro/index.html)
 * [Andrés' (echounit1) Solution](https://github.com/echounit1/pomodoro) - [View in Browser](https://echounit1.github.io/pomodoro/)
+* [Aron's Solution](https://github.com/aronfischer/react_pomodoro_clock) - [View in Browser](https://aronfischer.github.io/react_pomodoro_clock/)
+* [Rarysson's Solution](https://github.com/rarysson/Pomodoro) - [View in Broswer](https://rarysson.github.io/Pomodoro/)
+* [Supasus's Solution](https://github.com/supasus/pomodoro-timer-) - [View in Broswer](https://supasus.github.io/pomodoro-timer-/)
+* [olsi2984's Solution](https://github.com/olsi2984/Pomodoro) - [View in Broswer](https://olsi2984.github.io/Pomodoro/)
 </details>
 
 ### Next Steps
