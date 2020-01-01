@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [nearmint's solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/BookShelf) - [View in Browser](https://zyusuf10.github.io/BookShelf/index.html)
 - [Shivam's solution](https://github.com/shivamsaigupta/bookshelf) - [View in Browser](https://shivamsaigupta.github.io/bookshelf/)
 - [Luke Pritchett's solution](https://github.com/LukePritchett/library-app) - [View in Browser](https://lukepritchett.github.io/library-app/)
@@ -172,5 +173,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/library) - [View in Browser](https://alexgioffdev.github.io/library/index.html)
 - [Supasus's Solution (w/localstorage)](https://github.com/supasus/Js-library) - [View in Browser](https://supasus.github.io/Js-library/)
 - [Filip Grkinic's Solution (w/localstorage)](https://github.com/filipgrkinic/book-library) - [View in Browser](https://filipgrkinic.github.io/book-library/)
+- [kylazath's Solution (w/firebase)](https://github.com/kylazath/my-bookshelf) - [View in Browser](https://my-library0.firebaseapp.com/)
 </details>
 
