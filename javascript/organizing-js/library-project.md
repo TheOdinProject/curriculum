@@ -173,5 +173,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/library) - [View in Browser](https://alexgioffdev.github.io/library/index.html)
 - [Supasus's Solution (w/localstorage)](https://github.com/supasus/Js-library) - [View in Browser](https://supasus.github.io/Js-library/)
 - [Filip Grkinic's Solution (w/localstorage)](https://github.com/filipgrkinic/book-library) - [View in Browser](https://filipgrkinic.github.io/book-library/)
+- [kylazath's Solution (w/firebase)](https://github.com/kylazath/my-bookshelf) - [View in Browser](https://my-library0.firebaseapp.com/)
 </details>
 
