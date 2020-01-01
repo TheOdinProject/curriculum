@@ -336,6 +336,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bradley Peterson's Solution](https://github.com/spaceincase/mastermind)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/mastermind)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/mastermind)
 * [Robin's Solution](https://github.com/CoolGlasses/project_oop/blob/master/mastermind.rb)
