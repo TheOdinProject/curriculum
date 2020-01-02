@@ -2801,10 +2801,14 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [dphtran501's Solution (Easy)](https://github.com/dphtran501/google-homepage) - [View in Browser](https://dphtran501.github.io/google-homepage/)
 * [Tony's Solution (Easy)](https://github.com/amart114/google-homepage) - [View in Browser](https://amart114.github.io/google-homepage/)
 * [Sean's Solution (Easy)](https://github.com/sismanik33/google-homepage) - [View in Browser](https://sismanik33.github.io/google-homepage/)
+* [Phoenix181's Solution (Easy)](https://github.com/Phoenix181/google-homepage) - [View in Browser](https://phoenix181.github.io/google-homepage/)
 * [Daniel's Solution (Easy)](https://github.com/amigoinsano/odin-project-google-homepage) - [View in Browser](https://amigoinsano.github.io/odin-project-google-homepage/)
 * [Physolia's Solution (Easy)](https://github.com/physolia/google-homepage) - [View in Browser](https://physolia.github.io/google-homepage/)
 * [alicee88's Solution (Easy)](https://github.com/alicee88/google-homepage) - [View in Browser](https://alicee88.github.io/google-homepage/)
 * [alicee88's Solution (Difficult)](https://github.com/alicee88/google-searchresults) - [View in Browser](https://alicee88.github.io/google-searchresults/)
+* [trenhel's Solution (Easy)](https://github.com/trenhel/google-homepage) - [View in Browser](https://trenhel.github.io/google-homepage/)
+* [Joseph7695's Solution (Easy)](https://joseph7695.github.io/Sample_GoogleHomePageClone/)
+* [Antony Ekirapa's Solution (Easy)](https://github.com/ekira/Easy-Version-Build-the-Google.com-homepage) - [View in Browser](https://ekira.github.io/Easy-Version-Build-the-Google.com-homepage/)
 </details>
 
 ### Additional Resources
