@@ -2803,6 +2803,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sean's Solution (Easy)](https://github.com/sismanik33/google-homepage) - [View in Browser](https://sismanik33.github.io/google-homepage/)
 * [Daniel's Solution (Easy)](https://github.com/amigoinsano/odin-project-google-homepage) - [View in Browser](https://amigoinsano.github.io/odin-project-google-homepage/)
 * [Physolia's Solution (Easy)](https://github.com/physolia/google-homepage) - [View in Browser](https://physolia.github.io/google-homepage/)
+* [alicee88's Solution (Easy)](https://github.com/alicee88/google-homepage) - [View in Browser](https://alicee88.github.io/google-homepage/)
+* [alicee88's Solution (Difficult)](https://github.com/alicee88/google-searchresults) - [View in Browser](https://alicee88.github.io/google-searchresults/)
 </details>
 
 ### Additional Resources
