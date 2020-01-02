@@ -19,6 +19,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bradley Peterson's Solution](https://github.com/spaceincase/tic_tac_toe)
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/tic-tac-toe)
+* [Jithin's Solution](https://github.com/jithindasad/tic_tac_toe)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/tic_tac_toe)
 * [Robin's Solution](https://github.com/CoolGlasses/project_oop/blob/master/tic_tac_toe.rb)
 * [Run After's Solution](https://github.com/run-after/tic_tac_toe)
 * [Austn Fisher's Solution](https://github.com/Austin2016/tictactoe)
@@ -304,6 +308,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/tictactoe/blob/master/tictactoe.rb)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/tic_tac_toe.rb)
 * [Sher's Solution](https://github.com/sher-s7/tictactoe)
+* [guacamobley's solution](https://github.com/guacamobley/tic-tac-toe)
 
 </details>
 
@@ -331,6 +336,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bradley Peterson's Solution](https://github.com/spaceincase/mastermind)
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/mastermind)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/mastermind)
 * [Robin's Solution](https://github.com/CoolGlasses/project_oop/blob/master/mastermind.rb)
 * [Billy's Solution](https://github.com/bcoffin9/mastermind)
 * [Run After's Solution](https://github.com/run-after/mastermind)
@@ -559,6 +567,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/mastermind.rb)
 * [Sher's solution](https://github.com/sher-s7/mastermind)
 * [Robert Suazo's solution](https://github.com/rsuazo/mastermind/blob/master/mastermind.rb)
+* [guacamobley's solution](https://github.com/guacamobley/mastermind)
+* [David Watkin's Solution](https://github.com/DavidWatkinCode/mastermind/)
 </details>
 
 ### Additional Resources
