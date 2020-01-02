@@ -2803,6 +2803,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sean's Solution (Easy)](https://github.com/sismanik33/google-homepage) - [View in Browser](https://sismanik33.github.io/google-homepage/)
 * [Daniel's Solution (Easy)](https://github.com/amigoinsano/odin-project-google-homepage) - [View in Browser](https://amigoinsano.github.io/odin-project-google-homepage/)
 * [Physolia's Solution (Easy)](https://github.com/physolia/google-homepage) - [View in Browser](https://physolia.github.io/google-homepage/)
+* [Joseph7695's Solution (Easy)](https://joseph7695.github.io/Sample_GoogleHomePageClone/)
 * [Antony Ekirapa's Solution (Easy)](https://github.com/ekira/Easy-Version-Build-the-Google.com-homepage) - [View in Browser](https://ekira.github.io/Easy-Version-Build-the-Google.com-homepage/)
 </details>
 
