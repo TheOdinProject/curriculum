@@ -1136,4 +1136,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Momin's Solution](https://github.com/mominqadri/rock-paper-scissors) - [View in Browser](https://mominqadri.github.io/rock-paper-scissors/)
 - [mkcvh's Solution](https://github.com/mkcvh/rock-paper-scissors) - [View in Browser](https://mkcvh.github.io/rock-paper-scissors/)
 - [aqib21's Solution](https://github.com/aqib21/rock-papaer-scissors-lizard-spock) - [View in Browser](https://aqib21.github.io/rock-papaer-scissors-lizard-spock/)
+- [Thaddeus's Solution](https://github.com/Tflynn94/rock_paper_scissors_app) - [View in Browser](https://tflynn94.github.io/rock_paper_scissors_app/)
 </details>
