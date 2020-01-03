@@ -36,7 +36,7 @@ Everyone is coming into this with a different goal in mind, so to accommodate th
 Some things you just won't pick up right away or their coverage by main resources will fall short of your expectations.  Luckily there are lots of options for places to shore up your understanding:
 
 1. The best free online book: Dan Nguyen's [Bastard's Book of Ruby](http://ruby.bastardsbook.com/).  Basically, if you don't like the content we've roped together, this is your resource to shore up your understanding.
-1. Another free online book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.  The downside is that the flow feels a bit choppy and parts aren't fully complete.
+1. Another free online book: Zed Shaw's [Learn Code the Hard Way](https://learnrubythehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.  The downside is that the flow feels a bit choppy and parts aren't fully complete.
 2. The other good book, available in the older edition online for free: [The "Pickaxe", or Programming Ruby 3rd Edition](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0).  This, too, is a bit outdated.
 
 ### Okay, enough talk... Let's get started learning Ruby!
