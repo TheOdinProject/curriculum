@@ -2799,6 +2799,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [dphtran501's Solution (Easy)](https://github.com/dphtran501/google-homepage) - [View in Browser](https://dphtran501.github.io/google-homepage/)
 * [Tony's Solution (Easy)](https://github.com/amart114/google-homepage) - [View in Browser](https://amart114.github.io/google-homepage/)
 * [Sean's Solution (Easy)](https://github.com/sismanik33/google-homepage) - [View in Browser](https://sismanik33.github.io/google-homepage/)
+* [Redflurry's Solution (Easy)](https://github.com/Redflurry/google-homepage) - [View in Browser](https://redflurry.github.io/google-homepage/)
+* [Redflurry's Solution (Difficult)](https://github.com/Redflurry/google-results) - [View in Browser](https://Redflurry.github.io/google-results/)
 </details>
 
 ### Additional Resources
