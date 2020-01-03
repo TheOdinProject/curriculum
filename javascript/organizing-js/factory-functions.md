@@ -1,62 +1,31 @@
-<style type='text/css'> 
-body {
-  padding: 100px;
-  font-size: 16px;
-}
+<style>
+
 pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 0.7rem;
-  line-height: 1.4;
-  white-space: pre;
-  overflow: auto;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: .5rem;
-  max-height: 800px;
   font-family: monospace;
-
-  code {
-    color: inherit;
-    background-color: transparent;
-    padding: 0;
-    display: block;
-  }
-  .line-number {
-    display: block;
-    float: left;
-    margin: 0 1em 0 -1em;
-    border-right: 1px solid #ddd;
-    text-align: right;
-    span {
-      display: block;
-      padding: 0 .5em 0 1em;
-      color: #ccc;
-    }
-  }
-  .cl {
-    display: block;
-    clear: both;
-  }
+  width: em(440);
+  margin: 4em auto;
+  padding: 0.5em;
+  border-radius: .25em;
+  counter-reset: line;
 }
+
+pre span {
+    line-height: 1.5rem;
+}
+
+pre span:before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 0 .5em;
+    margin-right: .5em;
+    color: #888;
+    -webkit-user-select: none;
+}
+
+
 </style>
-<script>
-(function() {
-  var pre = document.getElementsByTagName('pre'),
-    pl = pre.length;
-  for (var i = 0; i < pl; i++) {
-    pre[i].innerHTML = '<span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span>';
-    var num = pre[i].innerHTML.split(/\n/).length;
-    for (var j = 0; j < (num - 1); j++) {
-      var line_num = pre[i].getElementsByTagName('span')[0];
-      line_num.innerHTML += '<span>' + (j + 1) + '</span>';
-    }
-  }
-})();
-</script>
-
-
 
 ### What's wrong with constructors?
 
