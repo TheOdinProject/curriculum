@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+- [hectorgarcia07's Solution](https://github.com/hectorgarcia07/Rock-paper-scissor-odin-project) - [View in Browser](https://hectorgarcia07.github.io/Rock-paper-scissor-odin-project/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/rockPaperScissors) - [View in Browser](https://zyusuf10.github.io/rockPaperScissors/)
 - [Richard's Solution](https://github.com/RichardDenton/rock-paper-scissors)
 - [nbarker's Solution](https://github.com/nibarker/rockPaperScissors/) - [View in Browser](https://nibarker.github.io/rockPaperScissors/)
