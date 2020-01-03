@@ -41,9 +41,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [armagansnl's solution](https://github.com/armagansenol/rock-paper-scissors) - [View in Browser](https://armagansenol.github.io/rock-paper-scissors/)
-- [Mothi Ghimire's solution](https://github.com/mothighimire/rock_paper_scissors) - [View in Browser](https://mothighimire.github.io/rock_paper_scissors/)
-- [Torsion solution](https://github.com/TorsionSteel/Rock_Paper_Scissors) - [View in Browser](https://torsionsteel.github.io/Rock_Paper_Scissors/)
+- [hectorgarcia07's Solution](https://github.com/hectorgarcia07/Rock-paper-scissor-odin-project) - [View in Browser](https://hectorgarcia07.github.io/Rock-paper-scissor-odin-project/)
+- [armagansnl's Solution](https://github.com/armagansenol/rock-paper-scissors) - [View in Browser](https://armagansenol.github.io/rock-paper-scissors/)
+- [Mothi Ghimire's Solution](https://github.com/mothighimire/rock_paper_scissors) - [View in Browser](https://mothighimire.github.io/rock_paper_scissors/)
+- [Torsion Solution](https://github.com/TorsionSteel/Rock_Paper_Scissors) - [View in Browser](https://torsionsteel.github.io/Rock_Paper_Scissors/)
 - [Septiana Yoga's Solution](https://github.com/yoga1234/paper-rock-scissor) - [View in Browser](https://yoga1234.github.io/paper-rock-scissor/)
 - [Oussama TARHI's Solution](https://github.com/ousstarhi/rock-paper-scissors-v1)
 - [Brandon's Solution](https://github.com/brandonricharda/rockpaperscissors) - [View in Browser](https://brandonricharda.github.io/rockpaperscissors/)
