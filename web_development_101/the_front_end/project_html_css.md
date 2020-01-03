@@ -2809,7 +2809,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [trenhel's Solution (Easy)](https://github.com/trenhel/google-homepage) - [View in Browser](https://trenhel.github.io/google-homepage/)
 * [Joseph7695's Solution (Easy)](https://joseph7695.github.io/Sample_GoogleHomePageClone/)
 * [Antony Ekirapa's Solution (Easy)](https://github.com/ekira/Easy-Version-Build-the-Google.com-homepage) - [View in Browser](https://ekira.github.io/Easy-Version-Build-the-Google.com-homepage/)
-* [Straytjacquet's Solution (Easy)](https://straytjacquet.github.io/google-homepage/) - [View in Browser](https://straytjacquet.github.io/google-homepage/)
+* [Straytjacquet's Solution (Easy)](https://github.com/Straytjacquet/google-homepage) - [View in Browser](https://straytjacquet.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
