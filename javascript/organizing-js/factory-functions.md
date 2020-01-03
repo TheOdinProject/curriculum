@@ -1,29 +1,38 @@
 <style>
 
+@import "bourbon";
+
+body {
+  background-color: #eee;
+  color: #555;
+}
+
 pre {
   font-family: monospace;
+  background-color: #fff;
   width: em(440);
   margin: 4em auto;
   padding: 0.5em;
   border-radius: .25em;
+  box-shadow: .1em .1em .5em rgba(0,0,0,.45);
+  line-height: 0;
   counter-reset: line;
-}
-
-pre span {
+  
+  span {
+    display: block;
     line-height: 1.5rem;
+    
+    &:before {
+      counter-increment: line;
+      content: counter(line);
+      display: inline-block;
+      border-right: 1px solid #ddd;
+      padding: 0 .5em;
+      margin-right: .5em;
+      color: #888
+    }
+  }
 }
-
-pre span:before {
-    counter-increment: line;
-    content: counter(line);
-    display: inline-block;
-    border-right: 1px solid #ddd;
-    padding: 0 .5em;
-    margin-right: .5em;
-    color: #888;
-    -webkit-user-select: none;
-}
-
 
 </style>
 
