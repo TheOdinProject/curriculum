@@ -8,13 +8,9 @@ pre {
   padding: 0.5em;
   border-radius: .25em;
   counter-reset: line;
-}
 
-pre span {
-    line-height: 1.5rem;
-}
+line-height: 1.5rem;
 
-pre span:before {
     counter-increment: line;
     content: counter(line);
     display: inline-block;
@@ -23,6 +19,16 @@ pre span:before {
     margin-right: .5em;
     color: #888;
     -webkit-user-select: none;
+
+
+}
+
+pre span {
+    
+}
+
+pre span:before {
+  
 }
 
 
@@ -46,7 +52,7 @@ The factory function pattern is similar to constructors, but instead of using `n
 
 <pre>
 <span>const personFactory = (name, age) => { </span>
- <span> const sayHello = () => console.log('hello!');</span>
+<span> const sayHello = () => console.log('hello!');</span>
 <span>  return { name, age, sayHello };</span>
 <span>};</span>
 <span></span>
