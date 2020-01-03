@@ -26,7 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-My solution is here!
+* [Dsokzorak's Solution](https://www.github.com/doskzorak/rails_app_1)
 * [Hans Oliveira's Solution](https://github.com/hansnery/rails_blog) - [View in Browser](https://blooming-falls-02218.herokuapp.com/)
 * [Jakob's Solution](https://github.com/jodokusquack/blogger) - [View in Browser](https://salty-reef-56881.herokuapp.com/)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/blogger)
