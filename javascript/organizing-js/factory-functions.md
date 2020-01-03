@@ -1,5 +1,4 @@
-(setq markdown-xhtml-header-content 
-"<style type='text/css'> 
+<style type='text/css'> 
 body {
   padding: 100px;
   font-size: 16px;
@@ -17,6 +16,7 @@ pre {
   padding: .5rem;
   max-height: 800px;
   font-family: monospace;
+
   code {
     color: inherit;
     background-color: transparent;
@@ -56,7 +56,7 @@ pre {
 })();
 </script>
 
-")
+
 
 ### What's wrong with constructors?
 
