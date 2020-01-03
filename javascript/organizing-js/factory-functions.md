@@ -74,7 +74,7 @@ const jeff = new Person('jeff', 27);
 A quick note about line 3 from the factory function example. In 2015 a handy new shorthand for creating objects was added into JavaScript. Without the shorthand line 3 would have looked something like this:
 
 ~~~javascript
-`<span class="lineNumbers">` return {name: name, age: age, sayHello: sayHello} `</span>`
+``` <span class="lineNumbers"> ``` return {name: name, age: age, sayHello: sayHello} ```</span>```
 ~~~
 
 Put simply, if you are creating an object where you are referring to a variable that has the exact same name as the object property you're creating you can condense it like so:
