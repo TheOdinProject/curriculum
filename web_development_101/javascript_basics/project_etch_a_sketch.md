@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Torsion's solution](https://github.com/TorsionSteel/EtchASketch) - [View in Browser](https://torsionsteel.github.io/EtchASketch/)
 * [Dean's solution](https://github.com/diazd01/grid-sketch) - [View in Browser](https://diazd01.github.io/etch-a-sketch/)
 * [Richard's solution](https://github.com/RichardDenton/etch-a-sketch) - [View in Browser](https://richarddenton.github.io/etch-a-sketch/)
 * [nibarker's Solution](https://github.com/nibarker/etch_a_sketch) - [View in Browser](https://nibarker.github.io/etch_a_sketch/)
@@ -686,4 +687,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [chriskoder's Solution](https://github.com/chriskoder/etch_a_sketch) - [View in Browser](https://chriskoder.github.io/etch_a_sketch/)
 * [MichelleP1's Solution](https://github.com/MichelleP1/etch-a-sketch) - [View in Browser](https://michellep1.github.io/etch-a-sketch/)
 * [Fabian's Solution](https://github.com/fabianyater/Etch-a-Sketch) - [View in Browser](https://fabianyater.github.io/Etch-a-Sketch/)
+* [Feseka61's Solution](https://github.com/feseka61/etch-a-scetch) - [View in Browser](https://feseka61.github.io/etch-a-scetch/)
 </details>
