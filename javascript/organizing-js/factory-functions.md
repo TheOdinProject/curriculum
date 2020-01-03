@@ -219,6 +219,7 @@ jeff.doSomethingNerdy() // nerd stuff
 This pattern is _great_ because it allows you to pick and choose which functions you want to include in your new object. If you want to go ahead and lump ALL of another object in, you can certainly do that as well with `Object.assign` (read the docs for that one [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)).
 
 ~~~javascript
+TEST
 const Nerd = (name) => {
   const prototype = Person(name)
   const doSomethingNerdy = () => console.log('nerd stuff')
