@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
+  before_action :check_referal
   protect_from_forgery with: :exception
 
   rescue_from ActiveRecord::RecordNotFound, with: :not_found_error
@@ -48,5 +49,15 @@ class ApplicationController < ActionController::Base
         :learning_goal
       )
     end
+  end
+
+  def check_referal
+    if request.referer != nil && bad_referal.include?(URI(request.referer).host)
+      flash[:info] = "Did you know The Odin Project is 100% free of charge? #{view_context.link_to('Click Here', faq_path)} to learn more".html_safe
+    end
+  end
+
+  def bad_referal
+    ["microverse.org"]
   end
 end
