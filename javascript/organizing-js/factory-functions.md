@@ -1,38 +1,30 @@
 <style>
 
-@import "bourbon";
-
-body {
-  background-color: #eee;
-  color: #555;
-}
 
 pre {
   font-family: monospace;
-  background-color: #fff;
   width: em(440);
   margin: 4em auto;
   padding: 0.5em;
   border-radius: .25em;
-  box-shadow: .1em .1em .5em rgba(0,0,0,.45);
-  line-height: 0;
   counter-reset: line;
-  
-  span {
-    display: block;
-    line-height: 1.5rem;
-    
-    &:before {
-      counter-increment: line;
-      content: counter(line);
-      display: inline-block;
-      border-right: 1px solid #ddd;
-      padding: 0 .5em;
-      margin-right: .5em;
-      color: #888
-    }
-  }
 }
+
+pre span {
+    line-height: 1.5rem;
+}
+
+pre span:before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 0 .5em;
+    margin-right: .5em;
+    color: #888;
+    -webkit-user-select: none;
+}
+
 
 </style>
 
@@ -52,18 +44,18 @@ The main takeaway is that while constructors aren't necessarily _evil_, they are
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example.
 
-~~~javascript
-const personFactory = (name, age) => {
-  const sayHello = () => console.log('hello!');
-  return { name, age, sayHello };
-};
-
-const jeff = personFactory('jeff', 27);
-
-console.log(jeff.name); // 'jeff'
-
-jeff.sayHello(); // calls the function and logs 'hello!'
-~~~
+<pre>
+<span>const personFactory = (name, age) => { </span>
+ <span> const sayHello = () => console.log('hello!');</span>
+<span>  return { name, age, sayHello };</span>
+<span>};</span>
+<span></span>
+<span>const jeff = personFactory('jeff', 27);</span>
+<span></span>
+<span>console.log(jeff.name); // 'jeff'</span>
+<span></span>
+<span>jeff.sayHello(); // calls the function and logs 'hello!'</span>
+</pre>
 
 for reference, here is the same thing created using the Constructor pattern:
 
