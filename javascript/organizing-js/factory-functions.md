@@ -1,3 +1,33 @@
+<style>
+
+
+pre {
+  font-family: monospace;
+  width: em(440);
+  margin: 4em auto;
+  padding: 0.5em;
+  border-radius: .25em;
+  counter-reset: line;
+}
+
+pre .lineNumbers {
+    line-height: 1.5rem;
+}
+
+pre .lineNumbers:before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 0 .5em;
+    margin-right: .5em;
+    color: #888;
+    -webkit-user-select: none;
+}
+
+
+</style>
+
 ### What's wrong with constructors?
 
 Object constructors are one of about a million ways to start organizing your code. They are fairly common in the wild and are a fundamental building block of the JavaScript language.
@@ -14,18 +44,18 @@ The main takeaway is that while constructors aren't necessarily _evil_, they are
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example.
 
-~~~javascript
-const personFactory = (name, age) => {
-  const sayHello = () => console.log('hello!');
-  return { name, age, sayHello };
-};
-
-const jeff = personFactory('jeff', 27);
-
-console.log(jeff.name); // 'jeff'
-
-jeff.sayHello(); // calls the function and logs 'hello!'
-~~~
+<pre>
+<span>const personFactory = (name, age) => { </span>
+<span> const sayHello = () => console.log('hello!');</span>
+<span>  return { name, age, sayHello };</span>
+<span>};</span>
+<span></span>
+<span>const jeff = personFactory('jeff', 27);</span>
+<span></span>
+<span>console.log(jeff.name); // 'jeff'</span>
+<span></span>
+<span>jeff.sayHello(); // calls the function and logs 'hello!'</span>
+</pre>
 
 for reference, here is the same thing created using the Constructor pattern:
 
@@ -44,7 +74,7 @@ const jeff = new Person('jeff', 27);
 A quick note about line 3 from the factory function example. In 2015 a handy new shorthand for creating objects was added into JavaScript. Without the shorthand line 3 would have looked something like this:
 
 ~~~javascript
-return {name: name, age: age, sayHello: sayHello}
+``` <span class="lineNumbers"> ``` return {name: name, age: age, sayHello: sayHello} ```</span>```
 ~~~
 
 Put simply, if you are creating an object where you are referring to a variable that has the exact same name as the object property you're creating you can condense it like so:
