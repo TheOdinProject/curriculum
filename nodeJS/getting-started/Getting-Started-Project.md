@@ -36,6 +36,9 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Alain Suarez's Solution](https://gitlab.com/asuar/node-basic-info) - [View in browser](https://repl.it/@AlainSuarez/basic-info)
+- [ARaut9's Solution](https://github.com/ARaut9/basic-site)
+- [Vollantre's Solution](https://github.com/vollantre/BASIC_INFORMATIONAL_SITE)
 - [MikkRou's Solution](https://github.com/MikkRou/basic-informational-site) - [View in browser](https://basic-informational-site.mikkrou.repl.co)
 - [Eljoey's Solution](https://github.com/eljoey/Basic_Node_Site)
 - [Vedat's Solution](https://github.com/mvedataydin/initiate-node) - [View in browser](https://repl.it/@mvedataydin/initiate-node)
