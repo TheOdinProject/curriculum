@@ -2821,6 +2821,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Divya's Solution (Easy)](https://quickbrownsloth.github.io/google-homepage/) - [View in Browser](https://quickbrownsloth.github.io/google-homepage/)
 * [codekacode's Solution (Easy)](https://github.com/codekacode/google-home)
 * [akoenig1's Solution (Easy)](https://github.com/akoenig1/google-homepage) - [View in Browser](https://akoenig1.github.io/google-homepage/)
+* [hamohuh's Solution (Easy)](https://github.com/hamohuh/google-homepage) - [View in Browser](https://hamohuh.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
