@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [jwern's Solution (Easy)](https://github.com/jwern/google-homepage) - [View in Browser](https://jwern.github.io/google-homepage/)
 * [mkhan38's Solution (Easy)](https://github.com/mkhan38/google-homepage) - [View in Browser](https://mkhan38.github.io/google-homepage/)
 * [cheifdawg4624's Solution (Easy)](https://github.com/Cheifdawg4624/google-homepage)
 * [snakeisfun's Solution (Easy)](https://github.com/snakeisfun/google-homepage) - [View in Browser](https://snakeisfun.github.io/google-homepage/)
@@ -2824,9 +2825,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [akoenig1's Solution (Easy)](https://github.com/akoenig1/google-homepage) - [View in Browser](https://akoenig1.github.io/google-homepage/)
 * [hamohuh's Solution (Easy)](https://github.com/hamohuh/google-homepage) - [View in Browser](https://hamohuh.github.io/google-homepage/)
 * [PhumLWC's Solution (Easy)](https://github.com/PhumLWC/google-homepage) - [View in Browser](https://phumlwc.github.io/google-homepage/)
-
+* [Jakub Struczewski's Solution (Easy)](https://github.com/jstruczewski/google-homepage) - [View in Browser](https://jstruczewski.github.io/google-homepage/)
 </details>
-
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
