@@ -2823,7 +2823,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [codekacode's Solution (Easy)](https://github.com/codekacode/google-home)
 * [akoenig1's Solution (Easy)](https://github.com/akoenig1/google-homepage) - [View in Browser](https://akoenig1.github.io/google-homepage/)
 * [hamohuh's Solution (Easy)](https://github.com/hamohuh/google-homepage) - [View in Browser](https://hamohuh.github.io/google-homepage/)
+* [PhumLWC's Solution (Easy)](https://github.com/PhumLWC/google-homepage) - [View in Browser](https://phumlwc.github.io/google-homepage/)
+
 </details>
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
