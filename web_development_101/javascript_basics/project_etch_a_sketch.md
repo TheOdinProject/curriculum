@@ -690,4 +690,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [MichelleP1's Solution](https://github.com/MichelleP1/etch-a-sketch) - [View in Browser](https://michellep1.github.io/etch-a-sketch/)
 * [Fabian's Solution](https://github.com/fabianyater/Etch-a-Sketch) - [View in Browser](https://fabianyater.github.io/Etch-a-Sketch/)
 * [Feseka61's Solution](https://github.com/feseka61/etch-a-scetch) - [View in Browser](https://feseka61.github.io/etch-a-scetch/)
+* [Shahmir's Solution](https://github.com/Light2Dark/Etch-A-Sketch) - [View in Broswer](https://light2dark.github.io/Etch-A-Sketch/)
 </details>
