@@ -2827,6 +2827,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [PhumLWC's Solution (Easy)](https://github.com/PhumLWC/google-homepage) - [View in Browser](https://phumlwc.github.io/google-homepage/)
 * [Jakub Struczewski's Solution (Easy)](https://github.com/jstruczewski/google-homepage) - [View in Browser](https://jstruczewski.github.io/google-homepage/)
 * [Aportello's Solution (Easy)](https:github.com/aportello/google-homepage) - [View in Browser](https://aportello.github.io/google-homepage)
+* [Steve Blurr's Solution (Easy)](https://github.com/steveblurr/google-homepage) - [View in Browser](https://steveblurr.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
