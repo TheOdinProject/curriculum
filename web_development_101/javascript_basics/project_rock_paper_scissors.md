@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Tony's Solution](https://github.com/amart114/rock-paper-scissors)
 - [sariug's Solution](https://github.com/sariug/rock-scissors-paper-lizard-spock) - [View in Browser](https://sariug.github.io/rock-scissors-paper-lizard-spock/)
 - [WonderNote18's Solution](https://github.com/WonderNote18/top-rock-paper-scissors) - [View in Browser](https://wondernote18.github.io/top-rock-paper-scissors/)
 - [Peter Davis' Solution](https://github.com/therealquaid/rockpaperscissors)
