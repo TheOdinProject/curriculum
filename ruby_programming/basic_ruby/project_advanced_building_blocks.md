@@ -443,6 +443,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fossegrim's Solution](https://github.com/olav35/advanced-building-blocks/blob/master/enumerable_methods.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/blob/master/advanced_building_blocks/p2_enumerable_methods/enumerables.rb)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/ruby_custom_methods/enumarable.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/enumerable)
