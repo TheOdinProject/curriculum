@@ -1151,4 +1151,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Thaddeus's Solution](https://github.com/Tflynn94/rock_paper_scissors_app) - [View in Browser](https://tflynn94.github.io/rock_paper_scissors_app/)
 - [Daniel's Solution](https://github.com/amigoinsano/odin-project-rockPaperScissors)
 - [Aodham's Solution](https://github.com/Aodham/TOP-rock_paper_scissors) - [View in Browser](https://aodham.github.io/TOP-rock_paper_scissors/)
+- [Hamohuh's Solution](https://github.com/hamohuh/rock_paper_scissors) - [View in Browser](https://hamohuh.github.io/rock_paper_scissors/)
 </details>
