@@ -244,6 +244,7 @@ connect_four)
 * [Ray Alvarez's solution](https://github.com/ray-alvarez/connect_four)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/connect_four_game) - [Play on repl.it](https://repl.it/@SergejJurchenko/connectfourgame)
 * [guacamobley's solution](https://github.com/guacamobley/TDD-Connect-Four)
+* [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
 </details>
 
 ### Additional Resources
