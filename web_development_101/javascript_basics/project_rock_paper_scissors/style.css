@@ -1,0 +1,32 @@
+html {
+    background: url(https://freefrontend.com/assets/img/css-particle-backgrounds/thumb.png); 
+    background-size: cover;
+  }
+  
+body,html {
+    margin: 0;
+    padding: 0;
+
+  }
+h1{
+    font-family: monospace;
+    text-align: center;
+    font-size: 80px;
+  }
+#buttons{
+    text-align: center;
+    
+}
+
+.score{
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    color: darkblue;
+}
+
+#rock, #paper, #scissors{
+    background: none;
+    border: 0;
+}
+
