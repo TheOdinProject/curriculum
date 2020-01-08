@@ -2834,6 +2834,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [CPMSP's Solution (Easy)](https://github.com/CPMSP/google_homepage)
 * [Drew Goldstein's Solution (Easy)](https://github.com/drewgoldstein95/google-homepage) - [View in Browser](https://drewgoldstein95.github.io/google-homepage/)
 * [TomikBoi's Solution (Easy)](https://github.com/TomikBoi/google-homepage) - [View in Browser](https://tomikboi.github.io/google-homepage/)
+* [Timework's Solution (Easy)](https://timework.github.io/google-homepage) - [View in Browser](https://timework.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
