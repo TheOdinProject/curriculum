@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Jason Raj's Solution (Easy)](https://github.com/jasonrajcodes/google-homepage) - [View in Browser](https://jasonrajcodes.github.io/google-homepage/)
 * [jwern's Solution (Easy)](https://github.com/jwern/google-homepage) - [View in Browser](https://jwern.github.io/google-homepage/)
 * [mkhan38's Solution (Easy)](https://github.com/mkhan38/google-homepage) - [View in Browser](https://mkhan38.github.io/google-homepage/)
 * [cheifdawg4624's Solution (Easy)](https://github.com/Cheifdawg4624/google-homepage)
@@ -2829,7 +2830,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Aportello's Solution (Easy)](https:github.com/aportello/google-homepage) - [View in Browser](https://aportello.github.io/google-homepage)
 * [Steve Blurr's Solution (Easy)](https://github.com/steveblurr/google-homepage) - [View in Browser](https://steveblurr.github.io/google-homepage/)
 * [santimc's Solution (Easy)](https://github.com/santimc/googele-homepage) - [View in Browser](https://htmlpreview.github.io/?https://github.com/santimc/googele-homepage/blob/master/index.html)
-* [Shubham's Solution (Easy)](https://github.com/mubshah/google_homepage)- [View in Browser](https://mubshah.github.io/google_homepage/)
+* [Shubham's Solution (Easy)](https://github.com/mubshah/google_homepage) - [View in Browser](https://mubshah.github.io/google_homepage/)
+* [CPMSP's Solution (Easy)](https://github.com/CPMSP/google_homepage)
+* [Drew Goldstein's Solution (Easy)](https://github.com/drewgoldstein95/google-homepage) - [View in Browser](https://drewgoldstein95.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
