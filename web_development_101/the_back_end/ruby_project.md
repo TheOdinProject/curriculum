@@ -31,6 +31,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nix-star's solution](https://github.com/nix-star/learn_ruby/)
+* [Yusuf Abdulkarim's solution](https://github.com/haywhyze/learn_ruby/)
 * [Hans Oliveira's Solution](https://github.com/hansnery/learn_ruby)
 * [Jakob's Solution](https://github.com/jodokusquack/learn_ruby)
 * [nearmint's Solution](https://github.com/nearmint/learn_ruby)
@@ -619,6 +621,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/learn_ruby)
 * [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/learn_ruby)
 * [Damnedlag's Solution](https://github.com/Damnedlag/Ruby-exercises)
+* [Wilmir's Solution](https://github.com/Wilmir/ruby-exercises)
+* [Eduardo06sp's Solution](https://github.com/Eduardo06sp/blogger) - [View in Browser](https://shrouded-shore-17237.herokuapp.com/)
 </details>
 
 ### Additional Resources

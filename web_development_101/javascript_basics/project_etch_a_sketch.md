@@ -43,6 +43,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [nabeel-h's Solution](https://github.com/nabeel-h/etch-a-sketch) - [View in Browser](https://nabeel-h.github.io/etch-a-sketch/)
+* [benjorama's Solution](https://github.com/benjorama/pixel-painter) - [View in Browser](https://benjorama.github.io/pixel-painter/)
+* [xazzer81's Solution](https://github.com/xazzer81/etch-a-sketch) - [View in Browser](https://xazzer81.github.io/etch-a-sketch/)
+* [Torsion's Solution](https://github.com/TorsionSteel/EtchASketch) - [View in Browser](https://torsionsteel.github.io/EtchASketch/)
+* [Dean's Solution](https://github.com/diazd01/grid-sketch) - [View in Browser](https://diazd01.github.io/etch-a-sketch/)
+* [Richard's Solution](https://github.com/RichardDenton/etch-a-sketch) - [View in Browser](https://richarddenton.github.io/etch-a-sketch/)
 * [nibarker's Solution](https://github.com/nibarker/etch_a_sketch) - [View in Browser](https://nibarker.github.io/etch_a_sketch/)
 * [Shaamyl's Solution](https://github.com/Shaamyl/etch-a-sketch) - [View in Browser](https://shaamyl.github.io/etch-a-sketch/)
 * [higgabes's Solution](https://github.com/higgabes/top3) - [View in Browser](https://github.com/higgabes/top3)
@@ -682,4 +688,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Rhath32's Solution](https://github.com/rhath32/etch-a-sketch)
 * [Lasse Maidal Pedersen's Solution](https://github.com/lassemaidalpedersen/etch-a-sketch) - [View in Browser](https://lassemaidalpedersen.github.io/etch-a-sketch/)
 * [chriskoder's Solution](https://github.com/chriskoder/etch_a_sketch) - [View in Browser](https://chriskoder.github.io/etch_a_sketch/)
+* [MichelleP1's Solution](https://github.com/MichelleP1/etch-a-sketch) - [View in Browser](https://michellep1.github.io/etch-a-sketch/)
+* [Fabian's Solution](https://github.com/fabianyater/Etch-a-Sketch) - [View in Browser](https://fabianyater.github.io/Etch-a-Sketch/)
+* [Feseka61's Solution](https://github.com/feseka61/etch-a-scetch) - [View in Browser](https://feseka61.github.io/etch-a-scetch/)
+* [Shahmir's Solution](https://github.com/Light2Dark/Etch-A-Sketch) - [View in Broswer](https://light2dark.github.io/Etch-A-Sketch/)
 </details>
