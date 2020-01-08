@@ -2828,6 +2828,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jakub Struczewski's Solution (Easy)](https://github.com/jstruczewski/google-homepage) - [View in Browser](https://jstruczewski.github.io/google-homepage/)
 * [Aportello's Solution (Easy)](https:github.com/aportello/google-homepage) - [View in Browser](https://aportello.github.io/google-homepage)
 * [Steve Blurr's Solution (Easy)](https://github.com/steveblurr/google-homepage) - [View in Browser](https://steveblurr.github.io/google-homepage/)
+* [santimc's Solution (Easy)](https://github.com/santimc/googele-homepage) - [View in Browser](https://htmlpreview.github.io/?https://github.com/santimc/googele-homepage/blob/master/index.html)
 * [Shubham's Solution (Easy)](https://github.com/mubshah/google_homepage)- [View in Browser](https://mubshah.github.io/google_homepage/)
 </details>
 
