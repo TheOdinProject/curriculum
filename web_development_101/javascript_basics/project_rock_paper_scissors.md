@@ -1106,7 +1106,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/rock-paper-scissors)
 - [Jocelyn's Solution](https://github.com/Jocundity/rock-paper-scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/Jocundity/rock-paper-scissors/blob/master/rockpaperscissors.html)
 - [Ivan's Solution](https://github.com/ivandjorgon/rock-paper-scissors-odin)
-- [Cbo-11's Solution](https://github.com/Cbo-11/RockPaperScissorsJSExcersise)
+- [Cbo-11's Solution](https://github.com/Cbo-11/RockPaperScissorsJSExcersise) - [View in Browser] (https://cbo-11.github.io/RockPaperScissorsJSExcersise/)
 - [Amy's Solution](https://github.com/achoo-o/paper-scissors-rock) - [View in Browser](https://achoo-o.github.io/paper-scissors-rock/paperScissorsRock.html)
 - [Swinney's Solution](https://github.com/swinney2/RockPaperScissors)
 - [Ross's Solution](https://github.com/RHoneyman/rock_paper_scissors) - [View in Browser](https://rhoneyman.github.io/rock_paper_scissors/)
