@@ -479,4 +479,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Busy Bee's Solution](https://github.com/swissbusybee/Calculator-Project) - [View in Browser](https://swissbusybee.github.io/Calculator-Project/)
 - [mmboyce's Solution](https://github.com/mmboyce/calculator) - [View in Browser](https://mmboyce.github.io/calculator)
 - [unheavenlycreature's Solution](https://github.com/unheavenlycreature/calculator) - [View in Browser](https://unheavenlycreature.github.io/calculator)
+- [Amy's Solution](https://github.com/achoo-o/calculator) - [View in Browser](https://achoo-o.github.io/calculator/)
 </details>
