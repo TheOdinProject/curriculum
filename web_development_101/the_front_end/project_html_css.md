@@ -2841,7 +2841,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Shwig's Solution (Easy)](https://github.com/Shwig/google-homepage) - [View in Browser](https://Shwig.github.io/google-homepage/)
 * [Shwig's Solution (Difficult)](https://github.com/Shwig/google-resultspage) - [View in Browser](https://Shwig.github.io/google-resultspage/)
 * [Dreadbeardx's Solution (Easy)](https://github.com/Dreadbeardx/google-homepage) - [View in Browser](https://Dreadbeardx.github.io/google-homepage/)
+* [Greg's Solution (Easy)](https://github.com/brito9990/google-homepage) <a href="https://github.com/brito9990/google-homepage">View in Browser</a>
 </details>
+
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
