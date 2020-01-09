@@ -55,7 +55,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sarp's Solution](https://github.com/sarpisik/rails-blogger) - [View in browser](https://mighty-fjord-33192.herokuapp.com/articles)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/rails-blogger) - [View in browser](https://nameless-falls-57483.herokuapp.com/)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/portfolio_Ruby_on_rails) - [View in browser](https://rafedraper-blog.herokuapp.com/) - I0-I5
-* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/blogger) - [View in browser](https://lit-waters-16551.herokuapp.com)
+* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/blogger) - [View in browser](https://lit-waters-16551.herokuapp.com)
 * [Billy's Solution](https://github.com/bcoffin9/civil-war) - [View in browser](https://glacial-island-56719.herokuapp.com)
 * [Daniel Ryu's solution](https://github.com/dryu99/blogger) - [View in browser](https://stormy-basin-60364.herokuapp.com/articles)
 * [Jose Salvador's solution](https://github.com/Jsalvadorpp/blogger) - [View in browser](https://immense-inlet-47223.herokuapp.com/)
