@@ -2841,6 +2841,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Shwig's Solution (Easy)](https://github.com/Shwig/google-homepage) - [View in Browser](https://Shwig.github.io/google-homepage/)
 * [Shwig's Solution (Difficult)](https://github.com/Shwig/google-resultspage) - [View in Browser](https://Shwig.github.io/google-resultspage/)
 * [Dreadbeardx's Solution (Easy)](https://github.com/Dreadbeardx/google-homepage) - [View in Browser](https://Dreadbeardx.github.io/google-homepage/)
+* [Sayyod's Solution (Easy)](https://github.com/MrSayyod/Googlepage) - [View in Browser](https://MrSayyod.github.io/Googlepage/)
+
 </details>
 
 ### Additional Resources
