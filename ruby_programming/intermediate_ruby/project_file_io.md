@@ -21,6 +21,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Michael Marchand's Solution](https://github.com/marchandmd/my_hangman) - [Live version on Repl.it](https://repl.it/@KurtBrusselSpro/myhangman-7)
+* [Bradley Peterson's Solution](https://github.com/spaceincase/hangman)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/hangman)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/hangman)
 * [Robin's Solution](https://github.com/CoolGlasses/hangman)
@@ -264,4 +266,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Jay Conner's Solution](https://github.com/cleve703/hangman) - [Play on Repl.it](https://Hangman.cleve703.repl.run)
 * [Robert Suazo's Solution](https://github.com/rsuazo/hangman/blob/master/lib/hangman.rb)
 * [Sher's Solution](https://github.com/sher-s7/hangman)
+* [guacamobley's solution](https://github.com/guacamobley/hangman)
 </details>
