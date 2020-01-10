@@ -2840,6 +2840,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Courgette's Solution (Easy)](https://github.com/bing0i/google-homepage) - [View in Browser](https://bing0i.github.io/google-homepage/)
 * [Shwig's Solution (Easy)](https://github.com/Shwig/google-homepage) - [View in Browser](https://Shwig.github.io/google-homepage/)
 * [Shwig's Solution (Difficult)](https://github.com/Shwig/google-resultspage) - [View in Browser](https://Shwig.github.io/google-resultspage/)
+* [Andrei Lucu's Solution (Easy)](https://github.com/astamicu/google-homepage) - [View in Browser](https://astamicu.github.io/google-homepage/)
+* [Andrei Lucu's Solution (Difficult)](https://github.com/astamicu/google-homepage) - [View in Browser](https://astamicu.github.io/google-homepage/search-results.html)
 * [Dreadbeardx's Solution (Easy)](https://github.com/Dreadbeardx/google-homepage) - [View in Browser](https://Dreadbeardx.github.io/google-homepage/)
 * [Greg's Solution (Easy)](https://github.com/brito9990/google-homepage)
 * [Sayyod's Solution (Easy)](https://github.com/MrSayyod/Googlepage) - [View in Browser](https://MrSayyod.github.io/Googlepage/)
