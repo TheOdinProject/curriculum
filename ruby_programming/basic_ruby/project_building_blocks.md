@@ -37,6 +37,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
+* [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/caesar_cipher.rb)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p1_caesar_cipher)
 * [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/caesar_cipher.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/caesar_cipher/)
 * [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
@@ -492,6 +495,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Dave Guymon's Solution](https://github.com/daveguymon/the_odin_project/blob/master/ruby_programming/ceaser_cipher.rb)
 * [guacamobley's solution](https://github.com/guacamobley/ruby-building-blocks/blob/master/caesar-cipher.rb)
 * [AlexGioffDev's solution](https://github.com/AlexGioffDev/ruby_CaesarCipher)
+* [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Caesar_cipher/caesar_cipher.rb)
+* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/caesar_cipher.rb)
+
 </details>
 
 ### Project 2: Stock Picker
@@ -518,6 +524,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
+* [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/stock_picker.rb)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p2_stock_picker)
 * [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/stock_picker.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/stock_picker)
 * [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
@@ -928,6 +937,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Dave Guymon's Solution](https://github.com/daveguymon/the_odin_project/blob/master/ruby_programming/stock_picker.rb)
 * [guacamobley's solution](https://github.com/guacamobley/ruby-building-blocks/blob/master/stock-picker.rb)
 * [AlexGioffDev's solution](https://github.com/AlexGioffDev/ruby_stock_picker)
+* [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Stock_picker/stock_picker.rb)
+* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/stock_picker.rb)
 </details>
 
 ### Project 3: Substrings
@@ -962,6 +973,9 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
+* [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/substrings.rb)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p3_substrings)
 * [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/dictionary.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/substrings)
 * [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
@@ -1363,4 +1377,6 @@ Next, make sure your method can handle multiple words:
 * [hyperturing's Solution](https://github.com/hyperturing/building-blocks/blob/master/substring.rb)
 * [guacamobley's solution](https://github.com/guacamobley/ruby-building-blocks/blob/master/substrings.rb)
 * [AlexGioffre's solution](https://github.com/AlexGioffDev/ruby_substring)
+* [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Substrings/substrings.rb)
+* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/substrings.rb)
 </details>
