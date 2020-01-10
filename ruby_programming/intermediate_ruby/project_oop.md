@@ -310,6 +310,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sher's Solution](https://github.com/sher-s7/tictactoe)
 * [guacamobley's solution](https://github.com/guacamobley/tic-tac-toe)
 * [hyperturing's solution](https://github.com/hyperturing/tictactoe)
+* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/tree/master/tic_tac_toe)
 
 </details>
 
