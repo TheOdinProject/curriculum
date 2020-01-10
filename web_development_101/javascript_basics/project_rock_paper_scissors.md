@@ -1148,9 +1148,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ambuj's Solution](https://github.com/ambujc25/js-rock-paper-scissors) - [View in Browser](https://ambujc25.github.io/js-rock-paper-scissors/)
 - [Momin's Solution](https://github.com/mominqadri/rock-paper-scissors) - [View in Browser](https://mominqadri.github.io/rock-paper-scissors/)
 - [mkcvh's Solution](https://github.com/mkcvh/rock-paper-scissors) - [View in Browser](https://mkcvh.github.io/rock-paper-scissors/)
-<<<<<<< HEAD
 - [dphtran501's Solution](https://github.com/dphtran501/rock-paper-scissors)
-=======
 - [Sean's Solution](https://github.com/sismanik33/rock-paper-scissors)
 - [alicee88's Solution](https://github.com/alicee88/rockpaperscissors) - [View in Browser](https://alicee88.github.io/rockpaperscissors/)
 - [aqib21's Solution](https://github.com/aqib21/rock-papaer-scissors-lizard-spock) - [View in Browser](https://aqib21.github.io/rock-papaer-scissors-lizard-spock/)
@@ -1161,5 +1159,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Y02WK's Solution](https://github.com/Y02WK/Rock-Paper-Scissors)
 - [Agney's Solution](https://AgneyPraseed.github.io/ROCK-PAPER-SCISSORS/)
 - [Kielx's Solution](https://github.com/Kielx/Rock-Paper-Scissors)
->>>>>>> 5e9f199a4a3b5585d417a96a5c85c616364ba5e3
 </details>
