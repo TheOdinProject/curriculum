@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Hahlh's Solution (Easy)](https://github.com/hahlh/google-homepage) - [View in Browser](https://hahlh.github.io/google-homepage/)
 * [Jason Raj's Solution (Easy)](https://github.com/jasonrajcodes/google-homepage) - [View in Browser](https://jasonrajcodes.github.io/google-homepage/)
 * [jwern's Solution (Easy)](https://github.com/jwern/google-homepage) - [View in Browser](https://jwern.github.io/google-homepage/)
 * [mkhan38's Solution (Easy)](https://github.com/mkhan38/google-homepage) - [View in Browser](https://mkhan38.github.io/google-homepage/)
@@ -2840,6 +2841,14 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Courgette's Solution (Easy)](https://github.com/bing0i/google-homepage) - [View in Browser](https://bing0i.github.io/google-homepage/)
 * [Shwig's Solution (Easy)](https://github.com/Shwig/google-homepage) - [View in Browser](https://Shwig.github.io/google-homepage/)
 * [Shwig's Solution (Difficult)](https://github.com/Shwig/google-resultspage) - [View in Browser](https://Shwig.github.io/google-resultspage/)
+* [Kielx's Solution (Easy)](https://github.com/Kielx/google-homepage) - [View in Browser](https://kielx.github.io/google-homepage/)
+* [nodonut's Solution (Easy)](https://nodonut.github.io/google-homepage/) - [View in Browser](https://nodonut.github.io/google-homepage/)
+* [Andrei Lucu's Solution (Easy)](https://github.com/astamicu/google-homepage) - [View in Browser](https://astamicu.github.io/google-homepage/)
+* [Andrei Lucu's Solution (Difficult)](https://github.com/astamicu/google-homepage) - [View in Browser](https://astamicu.github.io/google-homepage/search-results.html)
+* [Dreadbeardx's Solution (Easy)](https://github.com/Dreadbeardx/google-homepage) - [View in Browser](https://Dreadbeardx.github.io/google-homepage/)
+* [Greg's Solution (Easy)](https://github.com/brito9990/google-homepage)
+* [Sayyod's Solution (Easy)](https://github.com/MrSayyod/Googlepage) - [View in Browser](https://MrSayyod.github.io/Googlepage/)
+* [Tori's Solution (Easy)](https://github.com/ToriPotts/google-homepage) - [View in Browser](https://toripotts.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
