@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [nsn20's Solution (Easy)](https://github.com/nsn20/google-homepage) - [View in Browser](https://nsn20.github.io/google-homepage/)
 * [Hahlh's Solution (Easy)](https://github.com/hahlh/google-homepage) - [View in Browser](https://hahlh.github.io/google-homepage/)
 * [Jason Raj's Solution (Easy)](https://github.com/jasonrajcodes/google-homepage) - [View in Browser](https://jasonrajcodes.github.io/google-homepage/)
 * [jwern's Solution (Easy)](https://github.com/jwern/google-homepage) - [View in Browser](https://jwern.github.io/google-homepage/)
@@ -2849,6 +2850,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Greg's Solution (Easy)](https://github.com/brito9990/google-homepage)
 * [Sayyod's Solution (Easy)](https://github.com/MrSayyod/Googlepage) - [View in Browser](https://MrSayyod.github.io/Googlepage/)
 * [Tori's Solution (Easy)](https://github.com/ToriPotts/google-homepage) - [View in Browser](https://toripotts.github.io/google-homepage/)
+* [vladslg's Solution (Easy)](https://github.com/vladslg/google-homepage) - [View in Browser](https://vladslg.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
