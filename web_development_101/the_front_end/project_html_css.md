@@ -2841,6 +2841,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Shwig's Solution (Easy)](https://github.com/Shwig/google-homepage) - [View in Browser](https://Shwig.github.io/google-homepage/)
 * [Shwig's Solution (Difficult)](https://github.com/Shwig/google-resultspage) - [View in Browser](https://Shwig.github.io/google-resultspage/)
 * [Kielx's Solution (Easy)](https://github.com/Kielx/google-homepage) - [View in Browser](https://kielx.github.io/google-homepage/)
+* [Andrei Lucu's Solution (Easy)](https://github.com/astamicu/google-homepage) - [View in Browser](https://astamicu.github.io/google-homepage/)
+* [Andrei Lucu's Solution (Difficult)](https://github.com/astamicu/google-homepage) - [View in Browser](https://astamicu.github.io/google-homepage/search-results.html)
+* [Dreadbeardx's Solution (Easy)](https://github.com/Dreadbeardx/google-homepage) - [View in Browser](https://Dreadbeardx.github.io/google-homepage/)
+* [Greg's Solution (Easy)](https://github.com/brito9990/google-homepage)
+* [Sayyod's Solution (Easy)](https://github.com/MrSayyod/Googlepage) - [View in Browser](https://MrSayyod.github.io/Googlepage/)
+* [Tori's Solution (Easy)](https://github.com/ToriPotts/google-homepage) - [View in Browser](https://toripotts.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
