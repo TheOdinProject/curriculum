@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Robin's Solution](https://github.com/Robinnnnnn/Odin_calculator) - [View in Browser](https://Robinnnnnn.github.io/)
 - [Charles Briggs's Solution](https://github.com/ChuckBriggs/calculator) - [View in Browser](https://chuckbriggs.github.io/calculator/)
 - [CharlotteHues' Solution](https://github.com/charlotte-hues/calculator) - [View in Browser](https://charlotte-hues.github.io/calculator/)
 - [Purple's solution](https://github.com/PurpleCodes42/Calculator) - [View in Browser](https://purplecodes42.github.io/Calculator/)
@@ -478,4 +479,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Busy Bee's Solution](https://github.com/swissbusybee/Calculator-Project) - [View in Browser](https://swissbusybee.github.io/Calculator-Project/)
 - [mmboyce's Solution](https://github.com/mmboyce/calculator) - [View in Browser](https://mmboyce.github.io/calculator)
 - [unheavenlycreature's Solution](https://github.com/unheavenlycreature/calculator) - [View in Browser](https://unheavenlycreature.github.io/calculator)
+- [Amy's Solution](https://github.com/achoo-o/calculator) - [View in Browser](https://achoo-o.github.io/calculator/)
 </details>
