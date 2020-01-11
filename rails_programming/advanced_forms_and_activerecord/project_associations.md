@@ -77,6 +77,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's solution](https://github.com/IanMKesler/private_events)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/private-events) - [View in browser](https://safe-retreat-68130.herokuapp.com/)
 * [Kevin Vuong's solution](https://github.com/fffear/private-events)
 * [Learnsometing's solution](https://github.com/learnsometing/rails-private_events)

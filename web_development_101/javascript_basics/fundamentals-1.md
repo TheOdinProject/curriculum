@@ -42,6 +42,7 @@ You can easily run your own JavaScript code from files you create on your comput
 <html>
 <head>
   <title>Page Title</title>
+  <meta charset="UTF-8"/>
 </head>
 <body>
   <script>
