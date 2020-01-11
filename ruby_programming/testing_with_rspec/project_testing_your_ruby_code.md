@@ -132,6 +132,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sher's solution](https://github.com/sher-s7/connect4)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/connect_four)
 * [Ian's Solution](https://github.com/IanMKesler/connect_four_TDD)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
@@ -244,6 +245,7 @@ connect_four)
 * [Ray Alvarez's solution](https://github.com/ray-alvarez/connect_four)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/connect_four_game) - [Play on repl.it](https://repl.it/@SergejJurchenko/connectfourgame)
 * [guacamobley's solution](https://github.com/guacamobley/TDD-Connect-Four)
+* [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
 </details>
 
 ### Additional Resources
