@@ -168,6 +168,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Rarysson's Solution](https://github.com/rarysson/Pomodoro) - [View in Broswer](https://rarysson.github.io/Pomodoro/)
 * [Supasus's Solution](https://github.com/supasus/pomodoro-timer-) - [View in Broswer](https://supasus.github.io/pomodoro-timer-/)
 * [olsi2984's Solution](https://github.com/olsi2984/Pomodoro) - [View in Broswer](https://olsi2984.github.io/Pomodoro/)
+* [Busy Bee's Solution](https://github.com/swissbusybee/Pomodoro-Project) - [View in Broswer](https://swissbusybee.github.io/Pomodoro-Project/)
 </details>
 
 ### Next Steps
