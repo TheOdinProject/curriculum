@@ -333,7 +333,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [chepyego Solution (Easy)](https://github.com/chepyego/google-homepage) - [View in Browser](https://chepyego.github.io/google-homepage/)
 * [Samuels Solution (Easy)](https://github.com/samuel-projects/google-homepage) - [View in Browser](https://samuel-projects.github.io/google-homepage/)
 * [Gary Rotter's Solution (Easy)](https://github.com/garythedamnsnail/google-homepage) - [View in Browser](https://garythedamnsnail.github.io/google-homepage/)
-* [Daniel Arku's Solution (Easy)](https://github.com/darku7/google-homepage) - [View in Browser] (https://darku7.github.io/google-homepage/)
+* [Daniel Arku's Solution (Easy)](https://github.com/darku7/google-homepage) - [View in Browser](https://darku7.github.io/google-homepage/)
 * [Jose Salvador's Solution (Easy)](https://github.com/Jsalvadorpp/google-homepage) - [View in Browser](https://jsalvadorpp.github.io/google-homepage/)
 * [Jose Salvador's Solution (Difficult)](https://github.com/Jsalvadorpp/google-results-page) - [View in Browser](https://jsalvadorpp.github.io/google-results-page/)
 * [bcikota's Solution (Easy)](https://bcikota.github.io/google-homepage/) - [View in Browser](https://github.com/bcikota/google-homepage) - [bcikota's Solution (Difficult)](https://bcikota.github.io/google-search/) - [View in Browser](https://github.com/bcikota/google-search)
