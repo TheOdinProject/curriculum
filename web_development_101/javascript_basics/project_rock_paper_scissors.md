@@ -1166,4 +1166,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kielx's Solution](https://github.com/Kielx/Rock-Paper-Scissors)
 - [M_June's Solution](https://github.com/MrkH615/RockPaperScissors-GUI) - [View in Browser](https://mrkh615.github.io/RockPaperScissors-GUI/)
 - [lazy-void's Solution](https://github.com/lazy-void/rock-paper-scissors) - [View in Browser](https://lazy-void.github.io/rock-paper-scissors/)
+- [elram's Solution](https://github.com/erampono/scissors-paper-rock) - [View in Browser](https://erampono.github.io/scissors-paper-rock/)
 </details>
