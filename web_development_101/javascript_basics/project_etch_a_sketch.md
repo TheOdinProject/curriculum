@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [losquevedo's Solution](https://github.com/losquevedo/etch-a-sketch) - [View in Browser](losquevedo.github.io/etch-a-sketch)  
 * [mjwills-inf's Solution](https://github.com/mjwills-inf/etchasketch) - [View in Browser](https://mjwills-inf.github.io/etchasketch/)                                                                           
 * [are92592's Solution](https://github.com/are92592/EAS) - [View in Browser](https://are92592.github.io/EAS/)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/etch-a-sketch) - [View in Browser](https://brandonricharda.github.io/etch-a-sketch/)
@@ -699,5 +700,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Feseka61's Solution](https://github.com/feseka61/etch-a-scetch) - [View in Browser](https://feseka61.github.io/etch-a-scetch/)
 * [Shahmir's Solution](https://github.com/Light2Dark/Etch-A-Sketch) - [View in Broswer](https://light2dark.github.io/Etch-A-Sketch/)
 * [Cbo-11's Solution](https://github.com/Cbo-11/ETCH-A-SKETCH) - [View in Browser](https://cbo-11.github.io/ETCH-A-SKETCH/)
+* [mkcvh's solution](https://github.com/mkcvh/etch-a-sketch) - [View in Browser](https://mkcvh.github.io/etch-a-sketch/)
 </details>
 

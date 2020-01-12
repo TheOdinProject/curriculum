@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Dandush03's Solution (Hard)](https://github.com/Dandush03/google-homepage/) - [View in Browser](https://dandush03.github.io/google-homepage/)
 * [isg007's Solution (Easy)](https://github.com/isg007/google_homepage) - [View in Browser](https://isg007.github.io/google_homepage/)
 * [nelsonskywalker's Solution (Easy)](https://github.com/nelsonskywalker/google-homepage) - [View in Browser](https://nelsonskywalker.github.io/google-homepage/)
 * [nsn20's Solution (Easy)](https://github.com/nsn20/google-homepage) - [View in Browser](https://nsn20.github.io/google-homepage/)
@@ -332,7 +333,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [chepyego Solution (Easy)](https://github.com/chepyego/google-homepage) - [View in Browser](https://chepyego.github.io/google-homepage/)
 * [Samuels Solution (Easy)](https://github.com/samuel-projects/google-homepage) - [View in Browser](https://samuel-projects.github.io/google-homepage/)
 * [Gary Rotter's Solution (Easy)](https://github.com/garythedamnsnail/google-homepage) - [View in Browser](https://garythedamnsnail.github.io/google-homepage/)
-* [Daniel Arku's Solution (Easy)](https://github.com/darku7/google-homepage) - [View in Browser] (https://darku7.github.io/google-homepage/)
+* [Daniel Arku's Solution (Easy)](https://github.com/darku7/google-homepage) - [View in Browser](https://darku7.github.io/google-homepage/)
 * [Jose Salvador's Solution (Easy)](https://github.com/Jsalvadorpp/google-homepage) - [View in Browser](https://jsalvadorpp.github.io/google-homepage/)
 * [Jose Salvador's Solution (Difficult)](https://github.com/Jsalvadorpp/google-results-page) - [View in Browser](https://jsalvadorpp.github.io/google-results-page/)
 * [bcikota's Solution (Easy)](https://bcikota.github.io/google-homepage/) - [View in Browser](https://github.com/bcikota/google-homepage) - [bcikota's Solution (Difficult)](https://bcikota.github.io/google-search/) - [View in Browser](https://github.com/bcikota/google-search)
