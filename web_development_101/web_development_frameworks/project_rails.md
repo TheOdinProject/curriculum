@@ -446,6 +446,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Andrew Huntington's solution](https://github.com/AndrewHuntington/rails_project) - [View in browser](https://fast-brook-55206.herokuapp.com/)
 * [Busy Bee's solution](https://github.com/swissbusybee/Project-Ruby-on-Rails) 
 </details>
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/blogger) - [View in browser](https://uc-blogger.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
