@@ -41,10 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Shubham's Solution](https://github.com/mubshah/Rock_paper_scissors) - [View in Browser](https://mubshah.github.io/Rock_paper_scissors/)
-=======
->>>>>>> a04b95e495bada351594eb8e7d3c8fc1af0e6b68
 - [Stephen Tozer's solution](https://github.com/kboy77/RockPaperScissors) - [View in Browser](https://kboy77.github.io/RockPaperScissors/)
 - [Dandush03's Solution](https://github.com/Dandush03/Rock-Paper-Scissors) - [View in Browser](https://dandush03.github.io/Rock-Paper-Scissors/)
 - [mjwills-inf's Solution](https://github.com/mjwills-inf/rockpaperscissors) - [View in Browser](https://mjwills-inf.github.io/rockpaperscissors/)
@@ -1168,8 +1165,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Agney's Solution](https://AgneyPraseed.github.io/ROCK-PAPER-SCISSORS/)
 - [Kielx's Solution](https://github.com/Kielx/Rock-Paper-Scissors)
 - [M_June's Solution](https://github.com/MrkH615/RockPaperScissors-GUI) - [View in Browser](https://mrkh615.github.io/RockPaperScissors-GUI/)
-<<<<<<< HEAD
-
-=======
->>>>>>> a04b95e495bada351594eb8e7d3c8fc1af0e6b68
 </details>
