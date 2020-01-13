@@ -2862,6 +2862,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [elram's Solution (Easy)](https://github.com/erampono/google-homepage) - [View in Browser](https://erampono.github.io/google-homepage/)
 * [Waltsdog37's Solution (Easy)](https://waltsdog37.github.io/Google-clone/)
 * [rfb0’s Solution (Easy)](https://github.com/rfb0/google-homepage) - [View in Browser](https://rfb0.github.io/google-homepage/)
+* [gregory-mc’s Solution (Easy)](https://https://github.com/gregory-mc/gregory-mc.github.io/tree/master/buscador-interfaz) - [View in Browser](https://gregory-mc.github.io/buscador-interfaz/)
 </details>
 
 ### Additional Resources
