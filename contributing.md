@@ -7,3 +7,5 @@
 
 ### 2 The more involved but proper way
 * [Video](https://www.youtube.com/watch?v=mENDYhfxH-o)
+* [Odin Project lesson](https://www.theodinproject.com/courses/ruby-programming/lessons/using-git-in-the-real-world#a-git-workflow-for-open-source-contribution) 
+* [Article with quick reference flow](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)

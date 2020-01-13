@@ -118,6 +118,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alex Krewson's solution](https://github.com/alexkrewson/chess)
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/ruby-chess)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/chess_game)
+* [Husseinhewehiis solution](https://github.com/Husseinhewehii/Chess)
+* [Ben Fowler's solution](https://github.com/benfowler04/chess) - [Play on repl.it](https://repl.it/@BenFowler/chess)
+
 
 </details>
 

@@ -26,7 +26,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Philipp's Solution](https://github.com/philipp-mcvity/blogger) 
+* [Armo's Solution](https://github.com/Armoilane/blogger)
+* [Nasser Abachi's Solution](https://github.com/abachi/rails-blogger) - [View in Browser](https://abachidev-rails-blogger.herokuapp.com/)
+* [Dsokzorak's Solution](https://www.github.com/doskzorak/rails_app_1)
+* [Hans Oliveira's Solution](https://github.com/hansnery/rails_blog) - [View in Browser](https://blooming-falls-02218.herokuapp.com/)
+* [Jakob's Solution](https://github.com/jodokusquack/blogger) - [View in Browser](https://salty-reef-56881.herokuapp.com/)
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/blogger)
+* [nearmint's Solution](https://github.com/nearmint/rails-blogger) - [View in Browser](https://protected-shelf-44996.herokuapp.com/) - Partner: [colecrowder](https://github.com/colecrowder/blogger)
+* [Philipp's Solution](https://github.com/philipp-mcvity/blogger)
 * [Ogunmola Israel's Solution](https://github.com/Lippins/blogger_app) - [View in Browser](https://guarded-wildwood-88330.herokuapp.com/)
 * [Robin's Solution](https://github.com/CoolGlasses/blogger) - [View in Browser](https://damp-wave-05629.herokuapp.com)
 * [Olugade Olalekan's Solution](https://github.com/gbadesimple/blogger) -[View in Browser](https://aqueous-garden-12719.herokuapp.com/)
@@ -50,7 +57,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sarp's Solution](https://github.com/sarpisik/rails-blogger) - [View in browser](https://mighty-fjord-33192.herokuapp.com/articles)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/rails-blogger) - [View in browser](https://nameless-falls-57483.herokuapp.com/)
 * [Rafe Draper's Solution](https://github.com/rafeDraper/portfolio_Ruby_on_rails) - [View in browser](https://rafedraper-blog.herokuapp.com/) - I0-I5
-* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/blogger) - [View in browser](https://lit-waters-16551.herokuapp.com)
+* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/blogger) - [View in browser](https://lit-waters-16551.herokuapp.com)
 * [Billy's Solution](https://github.com/bcoffin9/civil-war) - [View in browser](https://glacial-island-56719.herokuapp.com)
 * [Daniel Ryu's solution](https://github.com/dryu99/blogger) - [View in browser](https://stormy-basin-60364.herokuapp.com/articles)
 * [Jose Salvador's solution](https://github.com/Jsalvadorpp/blogger) - [View in browser](https://immense-inlet-47223.herokuapp.com/)
@@ -434,8 +441,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Steve White's solution](https://github.com/swhite85/blogger) - [View in broswer](https://afternoon-anchorage-29859.herokuapp.com/)
 * [canicodenow's solution](https://github.com/canicodenow/project_ruby) - [View in browser](https://damp-sea-26254.herokuapp.com/)
 * [Chris Gardner's solution](https://github.com/cgardn/blogger) - [View in browser](https://masterful-blagger.herokuapp.com)
-
+* [guacamobley's solution](https://github.com/guacamobley/rails-tutorial-project)
+* [AlexGioffDev's solution](https://github.com/AlexGioffDev/Blogger) - [View in browser](https://blogger-rails-alexgioff.herokuapp.com/)
+* [Singhmi4's solution](https://github.com/singhmi4/blogger) - [View in browser](https://powerful-coast-29786.herokuapp.com/)
+* [Andrew Huntington's solution](https://github.com/AndrewHuntington/rails_project) - [View in browser](https://fast-brook-55206.herokuapp.com/)
+* [Busy Bee's solution](https://github.com/swissbusybee/Project-Ruby-on-Rails) 
+* [DamnedLag's solution](https://github.com/Damnedlag/blog-on-rails)
 </details>
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/blogger) - [View in browser](https://uc-blogger.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

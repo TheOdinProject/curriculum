@@ -78,5 +78,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Areeba's solution](https://github.com/AREEBAISHTIAQ/Jest-testing-project)
 - [scotth527's solution](https://github.com/scotth527/jest_practice)
 - [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-test-driven-development)
+- [Aron's solution](https://github.com/aronfischer/jest_testing_basic_exercises)
 </details>
 
