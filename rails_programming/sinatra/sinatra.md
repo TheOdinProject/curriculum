@@ -35,7 +35,7 @@ From the command line install the Sinatra gem by typing `gem install sinatra` th
 
 If you use [cloud9](https://c9.io) instead of a local environment then you can follow the above instructions but instead run `ruby frank_says.rb -o $IP -p $PORT` from the terminal and it will provide you with a link to view your application in the browser. You then simply need to add `/frank-says` to the address bar in the browser window that opens running your app.
 
-* Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Labs. Be sure to try out some of the Extensions at the end of the tutorial; that's the fun stuff!
+* Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Lab. Be sure to try out some of the Extensions at the end of the tutorial; that's the fun stuff!
 * Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers"). Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
 
 </div>

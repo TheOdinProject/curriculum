@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Nasser Abachi's Solution [Github](https://github.com/abachi/caesar_cipher) - [Live](https://shielded-island-76960.herokuapp.com/)
 * BShowen's Solution [Github](https://github.com/BShowen/ruby_CaesarCipher) - [Live](https://sinatra-ruby-cipher.herokuapp.com/)
 * Vedant's Solution [Github](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/Sinatra/Caesar%20Cipher) - [Live](https://whispering-stream-93717.herokuapp.com/)
 * Ians Solution [Github](https://github.com/IanMKesler/caesar_cipher) - [Live](https://stark-scrubland-86790.herokuapp.com)
@@ -151,8 +152,9 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Nasser Abachi's Solution [Github](https://github.com/abachi/mastermind) - [Live](https://stark-sands-24734.herokuapp.com/)
 * BShowen's Solutuon [Github](https://github.com/BShowen/sinatra_mastermind_game) - [Live](https://bradley-mastermind.herokuapp.com/)
-* Chris' Solution [Github](https://github.com/CSalois114/project_sinatra_mastermind) - [Live](https://dashboard.heroku.com/apps/sinatra-mastermind-chris)
+* Chris' Solution [Github](https://github.com/CSalois114/project_sinatra_mastermind) - [Live](https://sinatra-mastermind-chris.herokuapp.com/)
 * Vedant's Solution: [Github](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/Sinatra/mastermind) - [Live](https://cryptic-plateau-69277.herokuapp.com/)
 * Ian's Solution (Mastermind) [Github](https://github.com/IanMKesler/sinatra_mastermind)
 * J C Gollnick's Solution (Hangman) [GitLab](https://gitlab.com/jcgollnick/hangman) [Live](http://www.jcgollnick.vip/hangman)
