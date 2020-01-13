@@ -1174,4 +1174,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [akoenig1's Solution](https://github.com/akoenig1/rock_paper_scissors)
 - [Codinglinga's Solution](https://github.com/Codinglinga/rock-paper-scissors)
 - [elram's Solution](https://github.com/erampono/scissors-paper-rock) - [View in Browser](https://erampono.github.io/scissors-paper-rock/)
+- [0xtaf's Solution](https://github.com/0xtaf/rock-paper-scissors) - [View in Browser](https://0xtaf.github.io/rock-paper-scissors/)
 </details>
