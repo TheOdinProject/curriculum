@@ -766,6 +766,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/my_enumerable/blob/master/enumerable.rb)
 * [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/enumerable_methods.rb)
 * [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Bubble_sort/bubble_sort.rb)
+* [Busy Bee's solution](https://github.com/swissbusybee/Advanced_ruby_building_blocks_Projects)
 </details>
 
 ### Additional Resources
