@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [chickenwing123's Solution (Easy)](https://github.com/chickenwings123/google-homepage) - [View in Browser](https://chickenwings123.github.io/google-homepage/)
+* [jonaselder's Solution (Easy)](https://github.com/jonaselder/google-homepage) - [View in Browser](https://jonaselder.github.io/google-homepage/)
 * [JManikiza's Solution (Easy)](https://github.com/JManikiza/google-homepage) - [View in Browser](https://jmanikiza.github.io/google-homepage/)
 * [Dandush03's Solution (Hard)](https://github.com/Dandush03/google-homepage/) - [View in Browser](https://dandush03.github.io/google-homepage/)
 * [isg007's Solution (Easy)](https://github.com/isg007/google_homepage) - [View in Browser](https://isg007.github.io/google_homepage/)
@@ -2857,6 +2859,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [prbouchard9's (Easy)](https://github.com/prbouchard9/google-homepage) - [View in Browser](https://prbouchard9.github.io/google-homepage)
 * [vladslg's Solution (Easy)](https://github.com/vladslg/google-homepage) - [View in Browser](https://vladslg.github.io/google-homepage/)
 * [elram's Solution (Easy)](https://github.com/erampono/google-homepage) - [View in Browser](https://erampono.github.io/google-homepage/)
+* [Waltsdog37's Solution (Easy)](https://waltsdog37.github.io/Google-clone/)
 </details>
 
 ### Additional Resources
