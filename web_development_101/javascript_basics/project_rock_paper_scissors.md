@@ -1170,4 +1170,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mtthwmths's Solution](https://github.com/mtthwmths/odin-project/tree/master/javascript-basics/rock-paper-scissors-project) - [View in Browser](https://mtthwmths.github.io/odin-project/javascript-basics/rock-paper-scissors-project/rock-paper-scissors.html)
 - [akoenig1's Solution](https://github.com/akoenig1/rock_paper_scissors)
 - [Codinglinga's Solution](https://github.com/Codinglinga/rock-paper-scissors)
+- [elram's Solution](https://github.com/erampono/scissors-paper-rock) - [View in Browser](https://erampono.github.io/scissors-paper-rock/)
 </details>
