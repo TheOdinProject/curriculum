@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [driver fossegrim + navigator darklord's Solution](https://olav35.github.io/pomodoro/)
 * [doskzorak's Solution](https://github.com/doskzorak/Pomodoro-Clock)
 * [Hans Oliveira's Solution](https://github.com/hansnery/banana_timer) - [View in Browser](https://hansnery.github.io/banana_timer/)
 * [Justinkar's Solution](https://github.com/justinkar/pomodoro) - [View in Browser](https://justinkar.github.io/pomodoro/)
@@ -168,6 +169,10 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Rarysson's Solution](https://github.com/rarysson/Pomodoro) - [View in Broswer](https://rarysson.github.io/Pomodoro/)
 * [Supasus's Solution](https://github.com/supasus/pomodoro-timer-) - [View in Broswer](https://supasus.github.io/pomodoro-timer-/)
 * [olsi2984's Solution](https://github.com/olsi2984/Pomodoro) - [View in Broswer](https://olsi2984.github.io/Pomodoro/)
+* [Busy Bee's Solution](https://github.com/swissbusybee/Pomodoro-Project) - [View in Broswer](https://swissbusybee.github.io/Pomodoro-Project/)
+* [Hamohuh's Solution](https://github.com/hamohuh/Pomodro_clock) - [View in Broswer](https://hamohuh.github.io/Pomodro_clock/)
+* [DamnedLag's Solution](https://github.com/Damnedlag/pomodoro) - [View in Broswer](https://damnedlag.github.io/pomodoro/)
+
 </details>
 
 ### Next Steps
