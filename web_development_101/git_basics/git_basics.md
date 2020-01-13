@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
   1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
-  2. Complete [Tower's Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start) lesson. **Please note**: 1. Skip the "Getting Ready" section because you should have already installed Git by now. 2. Ignore the invitation to do the lessons with the Desktop GUI. Complete the Command Line version. 3. Only do "Part 1 - The Basics."
+  2. In the following lesson, there is a page titled Starting with an Unversioned Project. You'll need some sample files to see the result of some commands so let's create them now. Open your terminal and enter `mkdir some-sample-project` then `touch some-sample-project/example.html some-sample-project/example.txt`. Once you get to that lesson, make sure you `cd` into `some-sample-project`.  Complete [Tower's Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start) lesson. **Please note**: 1. Skip the "Getting Ready" section because you should have already installed Git by now. 2. Ignore the invitation to do the lessons with the Desktop GUI. Complete the Command Line version. 3. Only do "Part 1 - The Basics."
 
 </div>
 
