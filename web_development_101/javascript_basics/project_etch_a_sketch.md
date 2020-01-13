@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+* [Armo's Solution](https://github.com/Armoilane/etchasketch)
 * [losquevedo's Solution](https://github.com/losquevedo/etch-a-sketch) - [View in Browser](losquevedo.github.io/etch-a-sketch)  
 * [mjwills-inf's Solution](https://github.com/mjwills-inf/etchasketch) - [View in Browser](https://mjwills-inf.github.io/etchasketch/)                                                                           
 * [are92592's Solution](https://github.com/are92592/EAS) - [View in Browser](https://are92592.github.io/EAS/)
