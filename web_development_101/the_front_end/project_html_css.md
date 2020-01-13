@@ -90,9 +90,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-<<<<<<< HEAD
 * [zkiu's Solution (Easy)](https://github.com/zkiu/google-homepage) - [View in Browser](https://zkiu.github.io/google-homepage/)
-=======
+* [chickenwing123's Solution (Easy)](https://github.com/chickenwings123/google-homepage) - [View in Browser](https://chickenwings123.github.io/google-homepage/)
+* [jonaselder's Solution (Easy)](https://github.com/jonaselder/google-homepage) - [View in Browser](https://jonaselder.github.io/google-homepage/)
 * [JManikiza's Solution (Easy)](https://github.com/JManikiza/google-homepage) - [View in Browser](https://jmanikiza.github.io/google-homepage/)
 * [Dandush03's Solution (Hard)](https://github.com/Dandush03/google-homepage/) - [View in Browser](https://dandush03.github.io/google-homepage/)
 * [isg007's Solution (Easy)](https://github.com/isg007/google_homepage) - [View in Browser](https://isg007.github.io/google_homepage/)
@@ -103,7 +103,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [jwern's Solution (Easy)](https://github.com/jwern/google-homepage) - [View in Browser](https://jwern.github.io/google-homepage/)
 * [mkhan38's Solution (Easy)](https://github.com/mkhan38/google-homepage) - [View in Browser](https://mkhan38.github.io/google-homepage/)
 * [cheifdawg4624's Solution (Easy)](https://github.com/Cheifdawg4624/google-homepage)
->>>>>>> c68ecf893cc63841e570c160002f9c40f1378764
 * [snakeisfun's Solution (Easy)](https://github.com/snakeisfun/google-homepage) - [View in Browser](https://snakeisfun.github.io/google-homepage/)
 * [kenneth326's Solution (Easy)](https://github.com/kenneth326/google-homepage) - [View in Browser](https://kenneth326.github.io/google-homepage/)
 * [kboy77's Solution (Easy)](https://github.com/kboy77/google-homepage) - [View in Browser](https://kboy77.github.io/google-homepage/)
@@ -2861,6 +2860,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [prbouchard9's (Easy)](https://github.com/prbouchard9/google-homepage) - [View in Browser](https://prbouchard9.github.io/google-homepage)
 * [vladslg's Solution (Easy)](https://github.com/vladslg/google-homepage) - [View in Browser](https://vladslg.github.io/google-homepage/)
 * [elram's Solution (Easy)](https://github.com/erampono/google-homepage) - [View in Browser](https://erampono.github.io/google-homepage/)
+* [Waltsdog37's Solution (Easy)](https://waltsdog37.github.io/Google-clone/)
 </details>
 
 ### Additional Resources
