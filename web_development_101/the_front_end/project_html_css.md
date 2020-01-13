@@ -2857,6 +2857,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [prbouchard9's (Easy)](https://github.com/prbouchard9/google-homepage) - [View in Browser](https://prbouchard9.github.io/google-homepage)
 * [vladslg's Solution (Easy)](https://github.com/vladslg/google-homepage) - [View in Browser](https://vladslg.github.io/google-homepage/)
 * [elram's Solution (Easy)](https://github.com/erampono/google-homepage) - [View in Browser](https://erampono.github.io/google-homepage/)
+Waltsdog37's Solution (Easy) https://waltsdog37.github.io/Google-clone/
 </details>
 
 ### Additional Resources
