@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Armo's Solution](https://github.com/Armoilane/calculator) - [View in Browser](https://armoilane.github.io)
+- [mjwills-inf' Solution](https://github.com/mjwills-inf/calculator) - [View in Browser](https://mjwills-inf.github.io/calculator/)
 - [Robin's Solution](https://github.com/Robinnnnnn/Odin_calculator) - [View in Browser](https://Robinnnnnn.github.io/)
 - [Charles Briggs's Solution](https://github.com/ChuckBriggs/calculator) - [View in Browser](https://chuckbriggs.github.io/calculator/)
 - [CharlotteHues' Solution](https://github.com/charlotte-hues/calculator) - [View in Browser](https://charlotte-hues.github.io/calculator/)

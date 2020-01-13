@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Armo's Solution](https://github.com/Armoilane/blogger)
 * [Nasser Abachi's Solution](https://github.com/abachi/rails-blogger) - [View in Browser](https://abachidev-rails-blogger.herokuapp.com/)
 * [Dsokzorak's Solution](https://www.github.com/doskzorak/rails_app_1)
 * [Hans Oliveira's Solution](https://github.com/hansnery/rails_blog) - [View in Browser](https://blooming-falls-02218.herokuapp.com/)
@@ -447,6 +448,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Busy Bee's solution](https://github.com/swissbusybee/Project-Ruby-on-Rails) 
 * [DamnedLag's solution](https://github.com/Damnedlag/blog-on-rails)
 </details>
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/blogger) - [View in browser](https://uc-blogger.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
