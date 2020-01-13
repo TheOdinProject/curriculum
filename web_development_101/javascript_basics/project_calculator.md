@@ -45,9 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Armo's Solution](https://github.com/Armoilane/calculator) - [View in Browser](https://armoilane.github.io)
-=======
 - [mjwills-inf' Solution](https://github.com/mjwills-inf/calculator) - [View in Browser](https://mjwills-inf.github.io/calculator/)
 - [Robin's Solution](https://github.com/Robinnnnnn/Odin_calculator) - [View in Browser](https://Robinnnnnn.github.io/)
 - [Charles Briggs's Solution](https://github.com/ChuckBriggs/calculator) - [View in Browser](https://chuckbriggs.github.io/calculator/)
@@ -55,7 +53,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Purple's solution](https://github.com/PurpleCodes42/Calculator) - [View in Browser](https://purplecodes42.github.io/Calculator/)
 - [Saumya's solution](https://github.com/iamsaumya/CALCULATOR) - [View in Browser](https://iamsaumya.github.io/CALCULATOR/)
 - [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/calculator-project) - [View in Browser](https://randolphcisneros.github.io/calculator-project/)
->>>>>>> c68ecf893cc63841e570c160002f9c40f1378764
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/Culculater) - [View in Browser](https://zyusuf10.github.io/Culculater/culculater.html)
 - [Justinkar's Solution](https://github.com/justinkar/calculator) - [View in Browser](https://justinkar.github.io/calculator/)
 - [James's Solution](https://github.com/ericksen-github/calculator) - [View in Browser](https://ericksen-github.github.io/calculator/)
