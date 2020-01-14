@@ -212,6 +212,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Ruby-Recursion---TOP/blob/master/fib_seq_gen.rb)
 * [guacamobley's solution](https://github.com/guacamobley/recursion-project/blob/master/fibonacci.rb)
 * [Robert Suazo's solution](https://github.com/rsuazo/fibonacci/blob/master/fibonacci.rb)
+* [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
