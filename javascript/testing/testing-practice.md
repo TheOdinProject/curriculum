@@ -61,6 +61,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Martink-rsa's solution](https://github.com/martink-rsa/Jest-testing)
 - [Igorashs's solution](https://github.com/igorashs/tdd-jest-practice)
 - [Vedat's solution](https://github.com/mvedataydin/tdd-jest)
 - [Ben's solution](https://github.com/Koshoo/jest-testing-practice)
