@@ -313,7 +313,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [hyperturing's solution](https://github.com/hyperturing/tictactoe)
 * [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/tree/master/tic_tac_toe)
 * [DalandanJuice's solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/tic-tac-toe.rb)
-
+* [Busy Bee's](https://github.com/swissbusybee/Tic_Tac_Toe_Project)
 </details>
 
 ### Project 2: Mastermind
