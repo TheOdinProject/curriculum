@@ -433,6 +433,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/recursion/blob/master/merge_sort.rb)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Ruby-Recursion---TOP/blob/master/merge_sort.rb)
 * [guacamobley's solution](https://github.com/guacamobley/recursion-project/blob/master/merge_sort.rb)
+* [Robert Suazo's solution](https://github.com/rsuazo/merge_sort/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources
