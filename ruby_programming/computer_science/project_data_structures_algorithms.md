@@ -11,15 +11,15 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
 
   1. Build a `Node` class.  It is should have attributes for the data it stores as well as its left and right children. As a bonus, try including the `Comparable` module and make nodes compare using their data attribute.
 
-  2. Write a method `#build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-1 root node.
+  2. Build a `Tree` class which accepts an array when initialized. The `Tree` class should have a `root` attribute which uses the return value of `#build_tree` which you'll write next.
 
-  2. Build a `Tree` class which accepts an array when initialized. The `Tree` class should have a `root` attribute which uses the return value of `#build_tree`.
+  3. Write a `#build_tree` method which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-1 root node.
 
   3. Write an `#insert` and `#delete` method which accepts a value to insert/delete (you'll have to deal with several cases for delete such as when a node has children or not).
 
   4. Write a `#find` method which accepts a value and returns the node with the given value.
 
-  5. write a `#level_order` method which accepts a block. The method should traverse the tree in breadth-first level order and yield each node to the provided block. This method can be implemented using either iteration or recursion (try implementing both!). As a bonus, make the method return an array of values if no block is given.
+  5. Write a `#level_order` method which accepts a block. The method should traverse the tree in breadth-first level order and yield each node to the provided block. This method can be implemented using either iteration or recursion (try implementing both!). As a bonus, make the method return an array of values if no block is given.
   **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://youtu.be/9RHO6jU--GU)).
 
   6. Write `#inorder`, `#preorder`, and `#postorder` methods which accept a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. As a bonus, make the method return an array of values if no block is given.
@@ -52,6 +52,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Bradley's Solution with Extra Credit](https://github.com/spaceincase/odin-project-exercises/tree/master/binary_search_trees)
+* [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/binary_search_tree.rb)
 * [Sher's solution](https://github.com/sher-s7/binary_search_tree)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/binary_search_trees)
 * [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms)
@@ -251,6 +253,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/knight_moves.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/knights_travails)
 * [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms/blob/master/knights_travails.rb)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/knights_travails)
