@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [mjwills-inf's Solution](https://github.com/mjwills-inf/myPomo) - [View in Browser](https://mjwills-inf.github.io/myPomo/)
 * [driver fossegrim + navigator darklord's Solution](https://olav35.github.io/pomodoro/)
 * [doskzorak's Solution](https://github.com/doskzorak/Pomodoro-Clock)
 * [Hans Oliveira's Solution](https://github.com/hansnery/banana_timer) - [View in Browser](https://hansnery.github.io/banana_timer/)
