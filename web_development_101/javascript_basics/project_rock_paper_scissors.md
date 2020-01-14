@@ -41,9 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Shwig's Solution](https://github.com/Shwig/rock-paper-scissors) - [View in Browser](https://shwig.github.io/rock-paper-scissors/)
-=======
 - [Chris Hilborne's Solution](https://github.com/ChrisHilborne/rock-paper-scissors) 
 - [Oussama TARHI's Solution with UI](https://github.com/ousstarhi/rock-paper-scissors-v2.0-UI) - [View in Browser](https://ousstarhi.github.io/rock-paper-scissors-v2.0-UI)
 - [Oussama TARHI's Solution](https://github.com/ousstarhi/rock-paper-scissors-v1)
@@ -53,7 +51,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dandush03's Solution](https://github.com/Dandush03/Rock-Paper-Scissors) - [View in Browser](https://dandush03.github.io/Rock-Paper-Scissors/)
 - [mjwills-inf's Solution](https://github.com/mjwills-inf/rockpaperscissors) - [View in Browser](https://mjwills-inf.github.io/rockpaperscissors/)
 - [Huutu's Solution](https://github.com/Huutu-dev/oantuty) - [View in Browser](https://huutu-dev.github.io/oantuty/)
->>>>>>> f13dd9771bcd0ec5fa6fd7ff2f9306bb9d947ccd
 - [Emir's Solution](https://github.com/EmsnSeli/rock-paper-scissors) - [View in Browser](https://emsnseli.github.io/rock-paper-scissors/)
 - [Physolia's Solution](https://github.com/Physolia/TOP-Rock-Paper-Scissors) - [View in Browser](https://physolia.github.io/TOP-Rock-Paper-Scissors/)
 - [santimc's Solution](https://github.com/santimc/rock_paper_scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/santimc/rock_paper_scissors/blob/master/index.html)
