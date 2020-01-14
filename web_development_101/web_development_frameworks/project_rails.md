@@ -26,6 +26,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Armo's Solution](https://github.com/Armoilane/blogger)
+* [Nasser Abachi's Solution](https://github.com/abachi/rails-blogger) - [View in Browser](https://abachidev-rails-blogger.herokuapp.com/)
 * [Dsokzorak's Solution](https://www.github.com/doskzorak/rails_app_1)
 * [Hans Oliveira's Solution](https://github.com/hansnery/rails_blog) - [View in Browser](https://blooming-falls-02218.herokuapp.com/)
 * [Jakob's Solution](https://github.com/jodokusquack/blogger) - [View in Browser](https://salty-reef-56881.herokuapp.com/)
@@ -443,7 +445,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [AlexGioffDev's solution](https://github.com/AlexGioffDev/Blogger) - [View in browser](https://blogger-rails-alexgioff.herokuapp.com/)
 * [Singhmi4's solution](https://github.com/singhmi4/blogger) - [View in browser](https://powerful-coast-29786.herokuapp.com/)
 * [Andrew Huntington's solution](https://github.com/AndrewHuntington/rails_project) - [View in browser](https://fast-brook-55206.herokuapp.com/)
+* [Busy Bee's solution](https://github.com/swissbusybee/Project-Ruby-on-Rails) 
+* [DamnedLag's solution](https://github.com/Damnedlag/blog-on-rails)
 </details>
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/blogger) - [View in browser](https://uc-blogger.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

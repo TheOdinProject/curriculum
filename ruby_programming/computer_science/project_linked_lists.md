@@ -214,4 +214,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adriel Bruno's solution (with extra credit)](https://github.com/AdrielTrigger/Ruby-Linked-List/blob/master/linked_list.rb)
 * [Toberoni's solution (with extra credit)](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/linked_lists)
 * [guacamobley's solution](https://github.com/guacamobley/linked-list)
+* [Robert Suazo's solution](https://github.com/rsuazo/linked_lists/blob/master/linked_lists.rb)
 </details>
