@@ -704,5 +704,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Cbo-11's Solution](https://github.com/Cbo-11/ETCH-A-SKETCH) - [View in Browser](https://cbo-11.github.io/ETCH-A-SKETCH/)
 * [mkcvh's solution](https://github.com/mkcvh/etch-a-sketch) - [View in Browser](https://mkcvh.github.io/etch-a-sketch/)
 * [vuyani's solution](https://github.com/vuyanir/Etch-A-Sketch) - [View in Browser](https://vuyanir.github.io/Etch-A-Sketch/)
+* [Y02WK's solution](https://github.com/Y02WK/EtchASketch) - [View in Browser](https://y02wk.github.io/EtchASketch/)
 </details>
 
