@@ -31,6 +31,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/learn_ruby)
+* [Andrew S's Solution](https://github.com/CGoldMonkey/learn_ruby)
+* [Nix-star's solution](https://github.com/nix-star/learn_ruby/)
+* [Yusuf Abdulkarim's solution](https://github.com/haywhyze/learn_ruby/)
+* [Hans Oliveira's Solution](https://github.com/hansnery/learn_ruby)
+* [Jakob's Solution](https://github.com/jodokusquack/learn_ruby)
+* [nearmint's Solution](https://github.com/nearmint/learn_ruby)
 * [Nyandereian's Solution](https://github.com/Nyandereian/learn_ruby)
 * [Philipp's Solution](https://github.com/philipp-mcvity/learn_ruby)
 * [Ogunmola Israel's Solution](https://github.com/Lippins/learn_ruby)
@@ -526,7 +533,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [thesofakillers's Solution](https://github.com/thesofakillers/learn_ruby)
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/learn_ruby)
 * [MrObele's Solution](https://github.com/MrObele/learn_ruby)
-* [Brendaneus' Solution](https://github.com/Brendaneus/learn_ruby)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/web-development-101/projects/learn-ruby)
 * [IrritatedEllipses' Solution](https://github.com/IrritatedEllipses/learn_ruby)
 * [codyMalcolm's Solution](https://github.com/codyMalcolm/learn_ruby)
 * [Emil Dimitrov's Solution](https://github.com/imemdm/learn_ruby)
@@ -592,7 +599,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [TuSeMorte's solution](https://github.com/TuSeMorte/learn_ruby)
 * [Halkim44's solution](https://github.com/halkim44/learn_ruby)
 * [Kelly Joseph's solution](https://github.com/seisolo76/learn_ruby)
-* [David Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/ruby/exercises)
+* [David Watkin's solution](https://github.com/DavidWatkinCode/web_dev_101/tree/master/ruby/exercises)
 * [ZeCheeseKing's solution](https://github.com/zecheeseking/learn_ruby)
 * [Branden's solution](https://github.com/redbeardaz/learn_ruby)
 * [Mallory's solution](https://github.com/malworks/learn_ruby)
@@ -608,6 +615,19 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kalmod's Solution](https://github.com/kalmod/learn_ruby)
 * [Signhmi4's Solution](https://github.com/singhmi4/learn_ruby)
 * [Dustin Janssen's Solution](https://github.com/DustinJanssen/learn_ruby)
+* [Chris Gardner's Solution](https://github.com/cgardn/learn_ruby)
+* [AlexGioffDev's Solution](https://github.com/AlexGioffDev/learn_ruby)
+* [Eduardo06sp's Solution](https://github.com/Eduardo06sp/learn_ruby)
+* [Hanming Zhu's Solution](https://github.com/zhuhanming/learn_ruby)
+* [Andrés' (echounit1) Solution](https://github.com/echounit1/learn_ruby)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/learn_ruby)
+* [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/learn_ruby)
+* [Damnedlag's Solution](https://github.com/Damnedlag/Ruby-exercises)
+* [Wilmir's Solution](https://github.com/Wilmir/ruby-exercises)
+* [Michael K's Solution](https://github.com/a0x77ry/learn_ruby)
+* [BusyBee's Solution](https://github.com/swissbusybee/learn_ruby)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/learn_ruby)
+* [barrysweeney's Solution](https://github.com/barrysweeney/learn_ruby)
 </details>
 
 ### Additional Resources

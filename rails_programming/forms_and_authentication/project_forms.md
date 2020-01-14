@@ -117,6 +117,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/re-former)
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby_On_Rails/ReFormer)
 * [Ian's Solution](https://github.com/IanMKesler/re-former)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/re-former) - complete with index page
 * [Carlos Del Real's and António's Solution](https://github.com/carloshdelreal/re-former)
@@ -217,7 +219,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's solution](https://github.com/bchalman/odin-re-former)
 * [Alex's solution](https://github.com/alexcorremans/re-former)
 * [Tommy's solution](https://github.com/hoangtommy/re-former)
-* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/re-former)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/re-former)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/re-former)
 * [JamCry's Solution](https://github.com/jamcry/re-former)
 * [vanny96's Solution](https://github.com/vanny96/forms-project)

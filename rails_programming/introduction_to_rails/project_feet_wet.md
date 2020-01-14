@@ -30,6 +30,8 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/toy-app) - [Live](https://abachidev-toy-app.herokuapp.com/)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/toy-app)
 * [BShowen's Solution](https://github.com/BShowen/rails_toy_app) - [Live](https://bradley-toy-app.herokuapp.com)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/toy_app) - [Live](https://fast-scrubland-64335.herokuapp.com/users)
 * [Ian's solution](https://github.com/IanMKesler/rails_toy_app) - [Live](https://whispering-journey-28034.herokuapp.com)
