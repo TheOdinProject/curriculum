@@ -1158,4 +1158,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Y02WK's Solution](https://github.com/Y02WK/Rock-Paper-Scissors)
 - [Agney's Solution](https://AgneyPraseed.github.io/ROCK-PAPER-SCISSORS/)
 - [Kielx's Solution](https://github.com/Kielx/Rock-Paper-Scissors)
+- [Tori's Solution](https://github.com/ToriPotts/rock-paper-scissors/) - [View in Browser](https://toripotts.github.io/rock-paper-scissors/)
+
 </details>
