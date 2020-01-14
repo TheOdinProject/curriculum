@@ -2868,7 +2868,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [UlisesVil Solution (Easy)](https://github.com/UlisesVil/google-homepage) - [View in Browser](https://ulisesvil.github.io/google-homepage/)
 </details>
 * [Northrain's Solution (Easy)](https://northrain-cmd.github.io/google-homepage/)
-
+* [Dameon Wilson's Solution (Easy)] (https://github.com/theBrownCoder/google-homepage) - [View in Browser]
+(https://thebrowncoder.github.io/google-homepage/)
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
