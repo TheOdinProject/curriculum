@@ -435,6 +435,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Ruby-Recursion---TOP/blob/master/merge_sort.rb)
 * [guacamobley's solution](https://github.com/guacamobley/recursion-project/blob/master/merge_sort.rb)
 * [Robert Suazo's solution](https://github.com/rsuazo/merge_sort/blob/master/merge_sort.rb)
+* [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources
