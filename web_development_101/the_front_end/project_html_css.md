@@ -2871,6 +2871,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dameon Wilson's Solution (Easy)](https://github.com/theBrownCoder/google-homepage) - [View in Browser](https://thebrowncoder.github.io/google-homepage/)
 * [Northrain's Solution (Easy)](https://github.com/Northrain-cmd/google-homepage) - [View in Browser](https://northrain-cmd.github.io/google-homepage/)
 [Coralt's solution (Easy)](https://github.com/coralt/google-homepage) - [View in Browser](https://coralt.github.io/google-homepage/)
+* [Laz-k's solution (Easy)](https://github.com/laz-k/google-homepage) - [View in Browser](https://laz-k.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
