@@ -92,6 +92,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this list
 [Lyle Aigbedion's Solution (Easy)](https://github.com/lyleaigbedion/google-homepage) - [View in Browser](https://lyleaigbedion.github.io/google-homepage/)
 * [Brianna Tobin's Solution (Easy)](https://github.com/btobin86/google-hompage-emulation.git) - [View in Browser](https://btobin86.github.io/google-hompage-emulation/)
+* [Soul Tatsu's Soultion(Both)](https://soultatsui.github.io/google-homepage/)
 * [zkiu's Solution (Easy)](https://github.com/zkiu/google-homepage) - [View in Browser](https://zkiu.github.io/google-homepage/)
 * [chickenwing123's Solution (Easy)](https://github.com/chickenwings123/google-homepage) - [View in Browser](https://chickenwings123.github.io/google-homepage/)
 * [jonaselder's Solution (Easy)](https://github.com/jonaselder/google-homepage) - [View in Browser](https://jonaselder.github.io/google-homepage/)
@@ -2866,8 +2867,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rfb0’s Solution (Easy)](https://github.com/rfb0/google-homepage) - [View in Browser](https://rfb0.github.io/google-homepage/)
 * [gregory-mc’s Solution (Easy)](https://https://github.com/gregory-mc/gregory-mc.github.io/tree/master/buscador-interfaz) - [View in Browser](https://gregory-mc.github.io/buscador-interfaz/)
 * [UlisesVil Solution (Easy)](https://github.com/UlisesVil/google-homepage) - [View in Browser](https://ulisesvil.github.io/google-homepage/)
-* [Northrain's Solution (Easy)](https://northrain-cmd.github.io/google-homepage/)
 * [Dameon Wilson's Solution (Easy)](https://github.com/theBrownCoder/google-homepage) - [View in Browser](https://thebrowncoder.github.io/google-homepage/)
+* [Northrain's Solution (Easy)](https://github.com/Northrain-cmd/google-homepage) - [View in Browser](https://northrain-cmd.github.io/google-homepage/)
+[Coralt's solution (Easy)](https://github.com/coralt/google-homepage) - [View in Browser](https://coralt.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

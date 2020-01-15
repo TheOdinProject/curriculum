@@ -309,11 +309,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/tictactoe/blob/master/tictactoe.rb)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/tic_tac_toe.rb)
 * [Sher's Solution](https://github.com/sher-s7/tictactoe)
-* [guacamobley's solution](https://github.com/guacamobley/tic-tac-toe)
-* [hyperturing's solution](https://github.com/hyperturing/tictactoe)
-* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/tree/master/tic_tac_toe)
-* [DalandanJuice's solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/tic-tac-toe.rb)
-
+* [guacamobley's Solution](https://github.com/guacamobley/tic-tac-toe)
+* [hyperturing's Solution](https://github.com/hyperturing/tictactoe)
+* [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/tree/master/tic_tac_toe)
+* [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/tic-tac-toe.rb)
+* [Busy Bee's Solution](https://github.com/swissbusybee/Tic_Tac_Toe_Project)
 </details>
 
 ### Project 2: Mastermind
