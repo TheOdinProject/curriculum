@@ -106,6 +106,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Ben Fowler's solutions: [Caesar Cipher](https://github.com/benfowler04/ruby-building-blocks/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/benfowler04/ruby-building-blocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/benfowler04/ruby-oop/blob/master/spec/tic_tac_toe_spec.rb)
 * Sergej Jurchenko's solutions: [Caesar Cipher](https://github.com/Sergyurch/ruby_problems/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/Sergyurch/ruby_problems/blob/master/spec/enumerable-methods_spec.rb), [Tic Tac Toe](https://github.com/Sergyurch/ruby_problems/blob/master/spec/tic_tac_toe_game_spec.rb)
 * Bendee's Solutions: [Caesar Cipher](https://github.com/bendee48/ruby_building_blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/bendee48/advanced_building_blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/bendee48/tictactoe/blob/master/spec/tictactoe_spec.rb)
+* guacamobley's solutions: [Caesar Cipher](https://github.com/guacamobley/ruby-building-blocks), [Enumerable](https://github.com/guacamobley/ruby-advanced-building-blocks), [Tic Tac Toe](https://github.com/guacamobley/tic-tac-toe)
 </details>
 
 ### Project: TDD Connect Four
@@ -131,6 +132,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/tdd_connect_four)
+* [Sher's solution](https://github.com/sher-s7/connect4)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/connect_four)
 * [Ian's Solution](https://github.com/IanMKesler/connect_four_TDD)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
@@ -242,6 +245,8 @@ connect_four)
 * [Ben Fowler's solution](https://github.com/benfowler04/connect-four) - [Play on repl.it](https://repl.it/@BenFowler/Connect-Four)
 * [Ray Alvarez's solution](https://github.com/ray-alvarez/connect_four)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/connect_four_game) - [Play on repl.it](https://repl.it/@SergejJurchenko/connectfourgame)
+* [guacamobley's solution](https://github.com/guacamobley/TDD-Connect-Four)
+* [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
 </details>
 
 ### Additional Resources

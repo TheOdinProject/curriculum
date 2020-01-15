@@ -22,8 +22,8 @@ There are three ways to open the Developer Tools menu:
     - Elements panel
         1. Get Started With Viewing and Changing CSS
         2. Inspect and Tweak Your Pages
-        3. CSS Reference
-        4. DOM - Get Started
+        3. Edit Styles
+        4. Edit the DOM
     - Using the Console
     - Sources panel
         1. Get Started With Debugging JavaScript

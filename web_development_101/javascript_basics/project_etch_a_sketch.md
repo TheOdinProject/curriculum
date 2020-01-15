@@ -43,8 +43,23 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-* [Dean's solution](https://github.com/diazd01/grid-sketch) - [View in Browser](https://diazd01.github.io/etch-a-sketch/)
-* [Richard's solution](https://github.com/RichardDenton/etch-a-sketch) - [View in Browser](https://richarddenton.github.io/etch-a-sketch/)
+* [tacodtripa's Solution](https://github.com/tacodtripe/etch-a-sketch) - [View in Browser](https://tacodtripe.github.io/etch-a-sketch/)
+* [rawnoodle's Solution](https://github.com/DiegoASandoval/Etch-a-Sketch) - [View in Browser](https://diegoasandoval.github.io/Etch-a-Sketch/)
+* [Emir Selimovic's Solution](https://github.com/emsnseli/etch-a-sketch) - [View in Browser](https://emsnseli.github.io/etch-a-sketch/)
+* [Armo's Solution](https://github.com/Armoilane/etchasketch)
+* [losquevedo's Solution](https://github.com/losquevedo/etch-a-sketch) - [View in Browser](losquevedo.github.io/etch-a-sketch)  
+* [mjwills-inf's Solution](https://github.com/mjwills-inf/etchasketch) - [View in Browser](https://mjwills-inf.github.io/etchasketch/)                                                                           
+* [are92592's Solution](https://github.com/are92592/EAS) - [View in Browser](https://are92592.github.io/EAS/)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/etch-a-sketch) - [View in Browser](https://brandonricharda.github.io/etch-a-sketch/)
+* [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
+* [developmentgb's Solution](https://github.com/DevelopmentGB/Etch_a_Sketch) - [View in Browser](https://developmentgb.github.io/Etch_a_Sketch/)
+* [Rachel's Solution](https://github.com/rlmoser99/etch-a-sketch) - [View in Browser](https://rlmoser99.github.io/etch-a-sketch/)=
+* [nabeel-h's Solution](https://github.com/nabeel-h/etch-a-sketch) - [View in Browser](https://nabeel-h.github.io/etch-a-sketch/)
+* [benjorama's Solution](https://github.com/benjorama/pixel-painter) - [View in Browser](https://benjorama.github.io/pixel-painter/)
+* [xazzer81's Solution](https://github.com/xazzer81/etch-a-sketch) - [View in Browser](https://xazzer81.github.io/etch-a-sketch/)
+* [Torsion's Solution](https://github.com/TorsionSteel/EtchASketch) - [View in Browser](https://torsionsteel.github.io/EtchASketch/)
+* [Dean's Solution](https://github.com/diazd01/grid-sketch) - [View in Browser](https://diazd01.github.io/etch-a-sketch/)
+* [Richard's Solution](https://github.com/RichardDenton/etch-a-sketch) - [View in Browser](https://richarddenton.github.io/etch-a-sketch/)
 * [nibarker's Solution](https://github.com/nibarker/etch_a_sketch) - [View in Browser](https://nibarker.github.io/etch_a_sketch/)
 * [Shaamyl's Solution](https://github.com/Shaamyl/etch-a-sketch) - [View in Browser](https://shaamyl.github.io/etch-a-sketch/)
 * [higgabes's Solution](https://github.com/higgabes/top3) - [View in Browser](https://github.com/higgabes/top3)
@@ -687,4 +702,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [MichelleP1's Solution](https://github.com/MichelleP1/etch-a-sketch) - [View in Browser](https://michellep1.github.io/etch-a-sketch/)
 * [Fabian's Solution](https://github.com/fabianyater/Etch-a-Sketch) - [View in Browser](https://fabianyater.github.io/Etch-a-Sketch/)
 * [Feseka61's Solution](https://github.com/feseka61/etch-a-scetch) - [View in Browser](https://feseka61.github.io/etch-a-scetch/)
+* [Shahmir's Solution](https://github.com/Light2Dark/Etch-A-Sketch) - [View in Broswer](https://light2dark.github.io/Etch-A-Sketch/)
+* [Cbo-11's Solution](https://github.com/Cbo-11/ETCH-A-SKETCH) - [View in Browser](https://cbo-11.github.io/ETCH-A-SKETCH/)
+* [mkcvh's solution](https://github.com/mkcvh/etch-a-sketch) - [View in Browser](https://mkcvh.github.io/etch-a-sketch/)
+* [vuyani's solution](https://github.com/vuyanir/Etch-A-Sketch) - [View in Browser](https://vuyanir.github.io/Etch-A-Sketch/)
+* [Y02WK's solution](https://github.com/Y02WK/EtchASketch) - [View in Browser](https://y02wk.github.io/EtchASketch/)
 </details>
+
