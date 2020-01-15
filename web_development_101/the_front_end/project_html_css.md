@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Kevin Dayno's Solution (Easy)](https://github.com/kdayno/google-homepage) - [View in Broswer](https://kdayno.github.io/google-homepage/)
 * [Lyle Aigbedion's Solution (Easy)](https://github.com/lyleaigbedion/google-homepage) - [View in Browser](https://lyleaigbedion.github.io/google-homepage/)
 * [Brianna Tobin's Solution (Easy)](https://github.com/btobin86/google-hompage-emulation.git) - [View in Browser](https://btobin86.github.io/google-hompage-emulation/)
 * [Soul Tatsu's Soultion(Both)](https://soultatsui.github.io/google-homepage/)
