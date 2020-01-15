@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_tictactoe)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/tic_tac_toe)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/tic-tac-toe)
 * [Jithin's Solution](https://github.com/jithindasad/tic_tac_toe)
@@ -308,10 +309,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/tictactoe/blob/master/tictactoe.rb)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/tic_tac_toe.rb)
 * [Sher's Solution](https://github.com/sher-s7/tictactoe)
-* [guacamobley's solution](https://github.com/guacamobley/tic-tac-toe)
-* [hyperturing's solution](https://github.com/hyperturing/tictactoe)
-* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/tree/master/tic_tac_toe)
-
+* [guacamobley's Solution](https://github.com/guacamobley/tic-tac-toe)
+* [hyperturing's Solution](https://github.com/hyperturing/tictactoe)
+* [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/tree/master/tic_tac_toe)
+* [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/tic-tac-toe.rb)
+* [Busy Bee's Solution](https://github.com/swissbusybee/Tic_Tac_Toe_Project)
 </details>
 
 ### Project 2: Mastermind
@@ -338,6 +340,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_mastermind)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/mastermind)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/mastermind)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/mastermind)
@@ -572,6 +575,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [guacamobley's solution](https://github.com/guacamobley/mastermind)
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/mastermind/)
 * [hyperturing's Solution (with 6-move AI)](https://github.com/hyperturing/mastermind)
+* [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/mastermind.rb)
+
 </details>
 
 ### Additional Resources
