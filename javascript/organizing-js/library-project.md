@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+Please add my solution! https://github.com/doskzorak/Library_Project
 [Lyle Aigbedion's solution](https://github.com/lyleaigbedion/library) - [View in Browser](https://lyleaigbedion.github.io/library/)
 [James's solution](https://github.com/ericksen-github/Library) - [View in Browser](https://ericksen-github.github.io/Library/)
 - [Justinkar's solution](https://github.com/justinkar/library) - [View in Browser](https://justinkar.github.io/library/)
