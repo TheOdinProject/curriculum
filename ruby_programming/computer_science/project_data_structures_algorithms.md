@@ -253,6 +253,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [fossegrim's solution](https://github.com/olav35/data-structures-and-algorithms/blob/master/knight's_travails.rb)
 * [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/knight_moves.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/knights_travails)
 * [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms/blob/master/knights_travails.rb)
