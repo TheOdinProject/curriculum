@@ -1172,7 +1172,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Agney's Solution](https://AgneyPraseed.github.io/ROCK-PAPER-SCISSORS/)
 - [Kielx's Solution](https://github.com/Kielx/Rock-Paper-Scissors)
 - [M_June's Solution](https://github.com/MrkH615/RockPaperScissors-GUI) - [View in Browser](https://mrkh615.github.io/RockPaperScissors-GUI/)
-- [Kyle's Updated Solution] (https://github.com/kcristin/rps-v2) - [View in Browser](https://kcristin.github.io/rps-v2/)
+- [Kyle's Updated Solution](https://github.com/kcristin/rps-v2) - [View in Browser](https://kcristin.github.io/rps-v2/)
 - [nodonut's Solution](https://github.com/nodonut/odinproject_rockPaperScissors) - [View in Browser](https://nodonut.github.io/odinproject_rockPaperScissors/)
 - [lazy-void's Solution](https://github.com/lazy-void/rock-paper-scissors) - [View in Browser](https://lazy-void.github.io/rock-paper-scissors/)
 - [mtthwmths's Solution](https://github.com/mtthwmths/odin-project/tree/master/javascript-basics/rock-paper-scissors-project) - [View in Browser](https://mtthwmths.github.io/odin-project/javascript-basics/rock-paper-scissors-project/rock-paper-scissors.html)
