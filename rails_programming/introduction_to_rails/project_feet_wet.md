@@ -156,4 +156,5 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/toy-app) - [Heroku](https://hidden-brushlands-06627.herokuapp.com)
 * [Rey's Solution](https://github.com/Rey810/Toy-App) - [Heroku](https://whispering-mountain-63621.herokuapp.com)
 * [Miguel's Solution](https://github.com/mapra99/toyApp)
+* [Hunter Marshall's Solution](https://github.com/Beidah/rails-toy-app)
 </details>
