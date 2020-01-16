@@ -25,8 +25,8 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 4. Add a "NEW BOOK" button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether it's been read and anything else you might want.
 5. Add a button on each book's display to remove the book from the library.
    1. You will need to associate your DOM elements with the actual book objects in some way. One easy solution is giving them a data-attribute that corresponds to the index of the library array.
-6. Add a button on each book's display to change it's `read` status.
-   1. To facilitate this you will want to create the function that toggles a book's `read` status on your `Book` prototype.
+6. Add a button on each book's display to change its `read` status.
+   1. To facilitate this you will want to create the function that toggles a book's `read` status on your `Book` prototype instance.
 7. Optional -we haven't learned any techniques for actually storing our data anywhere, so when the user refreshes the page all of their books will disappear! If you want, you are capable of adding some persistence to this library app using one of the following techniques:
    1. localStorage ([docs here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)) allows you to save data on the user's computer. The downside here is that the data is ONLY accessible on the computer that it was created on. Even so, it's pretty handy! Set up a function that saves the whole library array to localStorage every time a new book is created, and another function that looks for that array in localStorage when your app is first loaded. (make sure your app doesn't crash if the array isn't there!)
    2. Firebase ([check it out!](https://firebase.google.com/docs/?authuser=0)) is an online database that can be set up relatively easily, allowing you to save your data to a server in the cloud! Teaching you how to use it is beyond the scope of this tutorial, but it is almost definitely within your skill set. If you're interested, check out [this video](https://www.youtube.com/watch?v=noB98K6A0TY) to see what it's all about.
@@ -40,6 +40,15 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Paul's solution](https://github.com/ppayne12/library) - [View in Browser](https://ppayne12.github.io/library/)
+- [Lyle Aigbedion's solution](https://github.com/lyleaigbedion/library) - [View in Browser](https://lyleaigbedion.github.io/library/)
+- [James's solution](https://github.com/ericksen-github/Library) - [View in Browser](https://ericksen-github.github.io/Library/)
+- [Justinkar's solution](https://github.com/justinkar/library) - [View in Browser](https://justinkar.github.io/library/)
+- [Simon's solution](https://github.com/Sim-frpt/basic-library) - [View in Browser](https://sim-frpt.github.io/basic-library/)
+- [nearmint's solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
+- [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/BookShelf) - [View in Browser](https://zyusuf10.github.io/BookShelf/index.html)
+- [Shivam's solution](https://github.com/shivamsaigupta/bookshelf) - [View in Browser](https://shivamsaigupta.github.io/bookshelf/)
+- [Luke Pritchett's solution](https://github.com/LukePritchett/library-app) - [View in Browser](https://lukepritchett.github.io/library-app/)
 - [Kevin Vuong's solution](https://github.com/fffear/library) - [View in Browser](https://fffear.github.io/library/)
 - [Alex's solution](https://github.com/AlexDorrington/Library-1) - [View in Browser](https://alexdorrington.github.io/Library-1/)
 - [Odunsi Joseph's Solution](https://github.com/dhatGuy/library) - [View in Browser](https://dhatguy.github.io/library/)
@@ -165,5 +174,12 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Emilie Humbert's Solution](https://github.com/EmilieHumbert/library) - [View in Browser](https://emiliehumbert.github.io/library/)
 - [Vorelli's Solution](https://github.com/Vorelli/Library) - [View in Browser](https://github.com/Vorelli/Library)
 - [jkraf002's Solution](https://github.com/jkraf002/library) - [View in Browser](https://jkraf002.github.io/library/)
+- [Tom Strat's Solution](https://github.com/tomstrat/library) - [View in Browser](https://tomstrat.github.io/library/)
+- [AlexGioffDev's Solution](https://github.com/AlexGioffDev/library) - [View in Browser](https://alexgioffdev.github.io/library/index.html)
+- [Supasus's Solution (w/localstorage)](https://github.com/supasus/Js-library) - [View in Browser](https://supasus.github.io/Js-library/)
+- [Filip Grkinic's Solution (w/localstorage)](https://github.com/filipgrkinic/book-library) - [View in Browser](https://filipgrkinic.github.io/book-library/)
+- [kylazath's Solution (w/firebase)](https://github.com/kylazath/my-bookshelf) - [View in Browser](https://my-library0.firebaseapp.com/)
+- [mmboyce's Solution (w/localstorage)](https://github.com/mmboyce/Library) - [View in Browser](https://mmboyce.github.io/Library/)
+- [Hamohuh's Solution](https://github.com/hamohuh/library) - [View in Browser](https://hamohuh.github.io/library)
 </details>
 

@@ -19,6 +19,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Martink-rsa's solution](https://github.com/martink-rsa/weather-forecast) - [View in browser](https://martink-rsa.github.io/weather-forecast/)
+* [Learnsometing's solution](https://github.com/learnsometing/JS-weather-api-app) - [View in browser](https://learnsometing.github.io/JS-weather-api-app/)
+* [Daniel Wesego's solution](https://github.com/DanielMitiku/weather-app) - [View in Browser](https://danielmitiku.github.io/weather-app)
+* [Alain Suarez's solution](https://gitlab.com/asuar/react-weather) - [View in Browser](https://asuar.gitlab.io/react-weather/)
 * [Bojo's solution](https://github.com/BojoZahariev/Weather-App) - [View in Browser](https://bojozahariev.github.io/Weather-App/)
 * [Igorashs's solution](https://github.com/igorashs/vue-weather-app) - [View in Browser](https://igorashs.github.io/vue-weather-app/)
 * [Vedat's solution](https://github.com/mvedataydin/react-weather) - [View in Browser](https://mvedataydin.github.io/react-weather/)
@@ -53,4 +57,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [JamCry's solution](https://github.com/jamcry/js-weather-app) - [View in Browser](https://jamcry.github.io/js-weather-app/)
 * [Yash Boura's solution](https://github.com/yashboura303/weatherappReact) - [View in Browser](https://yashweatherapp.netlify.com/)
 * [Krzysztof Sordyl's solution](https://github.com/Verthon/Weather-App) - [View in Browser](https://verthon.github.io/Weather-App/)
+* [Aron's solution](https://github.com/aronfischer/react_weather_app) - [View in Browser](https://aronfischer.github.io/react_weather_app/)
 </details>

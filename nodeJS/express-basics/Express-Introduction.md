@@ -37,3 +37,4 @@ By the end of this lesson, you should be able to do the following:
 ### Additional Resources
 
 1. The book [Express in Action](https://www.manning.com/books/express-in-action?a_bid=fe3fcff7&a_aid=express-in-action) by Evan M. Hahn is an incredible resource for Express beginners. The book is free online and is highly recommended. 
+2. [This](https://www.youtube.com/watch?v=L72fhGm1tfE) video crash course provides you with all the basic concepts.
