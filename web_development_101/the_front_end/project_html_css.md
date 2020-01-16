@@ -2870,7 +2870,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [UlisesVil Solution (Easy)](https://github.com/UlisesVil/google-homepage) - [View in Browser](https://ulisesvil.github.io/google-homepage/)
 * [Dameon Wilson's Solution (Easy)](https://github.com/theBrownCoder/google-homepage) - [View in Browser](https://thebrowncoder.github.io/google-homepage/)
 * [Northrain's Solution (Easy)](https://github.com/Northrain-cmd/google-homepage) - [View in Browser](https://northrain-cmd.github.io/google-homepage/)
-[Coralt's solution (Easy)](https://github.com/coralt/google-homepage) - [View in Browser](https://coralt.github.io/google-homepage/)
+* [Coralt's solution (Easy)](https://github.com/coralt/google-homepage) - [View in Browser](https://coralt.github.io/google-homepage/)
+* [Franciutte's solution (Easy)](https://github.com/Franciutte/google-homepage) - [View in Browser](https://franciutte.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
