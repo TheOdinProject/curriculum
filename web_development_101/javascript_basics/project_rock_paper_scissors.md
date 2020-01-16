@@ -42,7 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [AlexBoonDev's Solution](https://github.com/AlexBoonDev/RockPaperScissors/)
-- [jes7er's Solution](https://github.com/jes7er/rps) - [View in Browser](https://jes7er.github.io/rps/)
+- [Tim's Solution](https://github.com/timothydadams/rps) - [View in Browser](https://timothydadams.github.io/rps/)
 - [chickenwing123's Solution](https://github.com/chickenwings123/first_javascript_project) - [View in Browser](https://chickenwings123.github.io/first_javascript_project/) 
 - [Shwig's Solution](https://github.com/Shwig/rock-paper-scissors) - [View in Browser](https://shwig.github.io/rock-paper-scissors/)
 - [Chris Hilborne's Solution](https://github.com/ChrisHilborne/rock-paper-scissors) 
