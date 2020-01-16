@@ -25,7 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Simon's Solution](https://github.com/Sim-frpt/tic-tac-toe) - [View in Browser](https://sim-frpt.github.io/tic-tac-toe/  )
+- [Simon's Solution](https://github.com/Sim-frpt/tic-tac-toe) - [View in Browser](https://sim-frpt.github.io/tic-tac-toe/)
 - [Joshysmart's solution (with Minimax)](https://github.com/igorashs/tic-tac-toe) - [View in Browser](https://joshysmart.github.io/tic-tac-toe/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/TicTacTo) - [View in Browser](https://zyusuf10.github.io/TicTacTo/index.html)
 - [Shivam's Solution](https://github.com/shivamsaigupta/tic-tac-toe) - [View in Browser](https://shivamsaigupta.github.io/tic-tac-toe/)
