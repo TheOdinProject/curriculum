@@ -2871,6 +2871,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dameon Wilson's Solution (Easy)](https://github.com/theBrownCoder/google-homepage) - [View in Browser](https://thebrowncoder.github.io/google-homepage/)
 * [Northrain's Solution (Easy)](https://github.com/Northrain-cmd/google-homepage) - [View in Browser](https://northrain-cmd.github.io/google-homepage/)
 [Coralt's solution (Easy)](https://github.com/coralt/google-homepage) - [View in Browser](https://coralt.github.io/google-homepage/)
+* [Antony Ekirapa's Solution (Difficult)](https://github.com/ekira/DIfficult-Version-Build-the-Google.com-search-results-page) - [View in Browser](https://ekira.github.io/DIfficult-Version-Build-the-Google.com-search-results-page/)
 </details>
 
 ### Additional Resources
