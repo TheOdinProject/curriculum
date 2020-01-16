@@ -43,17 +43,18 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 * [hectorgarcia07's solution](https://github.com/hectorgarcia07/ETCH-A-SKETCH) - [View in Browser] (https://hectorgarcia07.github.io/ETCH-A-SKETCH/)
 * [Dean's solution](https://github.com/diazd01/grid-sketch) - [View in Browser](https://diazd01.github.io/etch-a-sketch/)
 * [Richard's solution](https://github.com/RichardDenton/etch-a-sketch) - [View in Browser](https://richarddenton.github.io/etch-a-sketch/)
-=======
+* [jam-chalm's Solution](https://github.com/jam-chalm/etch-a-sketch) - [View in Browser](https://jam-chalm.github.io/etch-a-sketch/)
+* [armagansnl's Solution](https://github.com/armagansenol/etch-a-sketch) - [View in Browser](https://armagansenol.github.io/etch-a-sketch/)
+* [yogasmara's Solution](https://github.com/yoga1234/etch-a-sketch) - [View in Browser](https://yoga1234.github.io/etch-a-sketch/)
 * [tacodtripa's Solution](https://github.com/tacodtripe/etch-a-sketch) - [View in Browser](https://tacodtripe.github.io/etch-a-sketch/)
 * [rawnoodle's Solution](https://github.com/DiegoASandoval/Etch-a-Sketch) - [View in Browser](https://diegoasandoval.github.io/Etch-a-Sketch/)
 * [Emir Selimovic's Solution](https://github.com/emsnseli/etch-a-sketch) - [View in Browser](https://emsnseli.github.io/etch-a-sketch/)
 * [Armo's Solution](https://github.com/Armoilane/etchasketch)
-* [losquevedo's Solution](https://github.com/losquevedo/etch-a-sketch) - [View in Browser](losquevedo.github.io/etch-a-sketch)  
-* [mjwills-inf's Solution](https://github.com/mjwills-inf/etchasketch) - [View in Browser](https://mjwills-inf.github.io/etchasketch/)                                                                           
+* [losquevedo's Solution](https://github.com/losquevedo/etch-a-sketch) - [View in Browser](losquevedo.github.io/etch-a-sketch)
+* [mjwills-inf's Solution](https://github.com/mjwills-inf/etchasketch) - [View in Browser](https://mjwills-inf.github.io/etchasketch/)
 * [are92592's Solution](https://github.com/are92592/EAS) - [View in Browser](https://are92592.github.io/EAS/)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/etch-a-sketch) - [View in Browser](https://brandonricharda.github.io/etch-a-sketch/)
 * [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
@@ -65,7 +66,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Torsion's Solution](https://github.com/TorsionSteel/EtchASketch) - [View in Browser](https://torsionsteel.github.io/EtchASketch/)
 * [Dean's Solution](https://github.com/diazd01/grid-sketch) - [View in Browser](https://diazd01.github.io/etch-a-sketch/)
 * [Richard's Solution](https://github.com/RichardDenton/etch-a-sketch) - [View in Browser](https://richarddenton.github.io/etch-a-sketch/)
->>>>>>> 4a3585a1dc2c54189dbcf8aa45bdf9db77f92c44
 * [nibarker's Solution](https://github.com/nibarker/etch_a_sketch) - [View in Browser](https://nibarker.github.io/etch_a_sketch/)
 * [Shaamyl's Solution](https://github.com/Shaamyl/etch-a-sketch) - [View in Browser](https://shaamyl.github.io/etch-a-sketch/)
 * [higgabes's Solution](https://github.com/higgabes/top3) - [View in Browser](https://github.com/higgabes/top3)
@@ -713,5 +713,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [mkcvh's solution](https://github.com/mkcvh/etch-a-sketch) - [View in Browser](https://mkcvh.github.io/etch-a-sketch/)
 * [vuyani's solution](https://github.com/vuyanir/Etch-A-Sketch) - [View in Browser](https://vuyanir.github.io/Etch-A-Sketch/)
 * [Y02WK's solution](https://github.com/Y02WK/EtchASketch) - [View in Browser](https://y02wk.github.io/EtchASketch/)
+* [0xtaf's solution](https://github.com/0xtaf/etch-a-sketch) - [View in Browser](https://0xtaf.github.io/etch-a-sketch/)
+* [Kyle's Solution](https://github.com/kcristin/sketchpad) - [View in Browser](https://kcristin.github.io/sketchpad/)
+* [elram's solution](https://github.com/erampono/etch-a-sketch) - [View in Browser](https://erampono.github.io/etch-a-sketch/)
 </details>
 
