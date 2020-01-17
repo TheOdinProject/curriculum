@@ -90,7 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [CJ's Solution (Easy)](https://github.com/constantjoannes/google-homepage) - [View in Browser](https://constantjoannes.github.io/google-homepage/) - [CJ's Solution (Difficult)](https://github.com/constantjoannes/google-searchpage) - [View in Browser](https://constantjoannes.github.io/google-searchpage/)
+* [CJ's Solution (Easy)](https://github.com/constantjoannes/google-homepage) - [View in Browser](https://constantjoannes.github.io/google-homepage/)
+* [CJ's Solution (Difficult)](https://github.com/constantjoannes/google-searchpage) - [View in Browser](https://constantjoannes.github.io/google-searchpage/)
 * [Kevin Dayno's Solution (Easy)](https://github.com/kdayno/google-homepage) - [View in Broswer](https://kdayno.github.io/google-homepage/)
 * [Lyle Aigbedion's Solution (Easy)](https://github.com/lyleaigbedion/google-homepage) - [View in Browser](https://lyleaigbedion.github.io/google-homepage/)
 * [Brianna Tobin's Solution (Easy)](https://github.com/btobin86/google-hompage-emulation.git) - [View in Browser](https://btobin86.github.io/google-hompage-emulation/)
@@ -2876,6 +2877,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Coralt's solution (Easy)](https://github.com/coralt/google-homepage) - [View in Browser](https://coralt.github.io/google-homepage/)
 * [Antony Ekirapa's Solution (Difficult)](https://github.com/ekira/DIfficult-Version-Build-the-Google.com-search-results-page) - [View in Browser](https://ekira.github.io/DIfficult-Version-Build-the-Google.com-search-results-page/)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/Google-homepage) - [View in Browser](https://cinthiagodoi.github.io/Google-homepage/)
+* [MuratCG's Solution](https://github.com/muratcangumuslu/google-homepage) - [View in Browser](https://muratcangumuslu.github.io/google-homepage/)
 * [Waruiru's Solution (Easy)](https://github.com/Waruiru/google-homepage) - [View in Browser](https://waruiru.github.io/google-homepage/)
 * [Nicholas Salvatore's Solution (Easy)](https://github.com/nmsalvatore/google-homepage) - [View in Browser](https://nmsalvatore.github.io/google-homepage/)
 </details>
