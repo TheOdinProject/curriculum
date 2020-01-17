@@ -215,4 +215,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Toberoni's solution (with extra credit)](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/linked_lists)
 * [guacamobley's solution](https://github.com/guacamobley/linked-list)
 * [Robert Suazo's solution](https://github.com/rsuazo/linked_lists/blob/master/linked_lists.rb)
+* [Ranon Martin's solution (with extra credit)](https://github.com/ranonm/TheOdinProjectExercises/tree/master/linked_list)
 </details>
