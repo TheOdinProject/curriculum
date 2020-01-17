@@ -270,4 +270,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Sher's Solution](https://github.com/sher-s7/hangman)
 * [guacamobley's solution](https://github.com/guacamobley/hangman)
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/tree/master/hangman)
+* [Hyperturing's Solution](https://github.com/hyperturing/Hangman)
 </details>
