@@ -487,4 +487,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [unheavenlycreature's Solution](https://github.com/unheavenlycreature/calculator) - [View in Browser](https://unheavenlycreature.github.io/calculator)
 - [Amy's Solution](https://github.com/achoo-o/calculator) - [View in Browser](https://achoo-o.github.io/calculator/)
 - [Fabian's Solution](https://github.com/fabianyater/Calculadora) - [View in Browser](https://fabianyater.github.io/Calculadora/)
+- [mthsgrc's Solution](https://github.com/mthsgrc/calculator_odin) - [View in Browser](https://mthsgrc.github.io/calculator_odin/)
+
 </details>
