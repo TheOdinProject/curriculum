@@ -2875,6 +2875,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Coralt's solution (Easy)](https://github.com/coralt/google-homepage) - [View in Browser](https://coralt.github.io/google-homepage/)
 * [Antony Ekirapa's Solution (Difficult)](https://github.com/ekira/DIfficult-Version-Build-the-Google.com-search-results-page) - [View in Browser](https://ekira.github.io/DIfficult-Version-Build-the-Google.com-search-results-page/)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/Google-homepage) - [View in Browser](https://cinthiagodoi.github.io/Google-homepage/)
+* [Waruiru's Solution (Easy)](https://github.com/Waruiru/google-homepage) - [View in Browser](https://waruiru.github.io/google-homepage/)
 * [Nicholas Salvatore's Solution (Easy)](https://github.com/nmsalvatore/google-homepage) - [View in Browser](https://nmsalvatore.github.io/google-homepage/)
 </details>
 
