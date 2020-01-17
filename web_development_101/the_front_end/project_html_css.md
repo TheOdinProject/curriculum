@@ -93,6 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [CJ's Solution (Easy)](https://github.com/constantjoannes/google-homepage) - [View in Browser](https://constantjoannes.github.io/google-homepage/)
 * [CJ's Solution (Difficult)](https://github.com/constantjoannes/google-searchpage) - [View in Browser](https://constantjoannes.github.io/google-searchpage/)
 * [Kevin Dayno's Solution (Easy)](https://github.com/kdayno/google-homepage) - [View in Broswer](https://kdayno.github.io/google-homepage/)
+* [Vic-Ro's Solution (Both)](https://github.com/vic-Ro/google-homepage) - [View in Broswer](https://vic-ro.github.io/google-homepage/)
 * [Lyle Aigbedion's Solution (Easy)](https://github.com/lyleaigbedion/google-homepage) - [View in Browser](https://lyleaigbedion.github.io/google-homepage/)
 * [Brianna Tobin's Solution (Easy)](https://github.com/btobin86/google-hompage-emulation.git) - [View in Browser](https://btobin86.github.io/google-hompage-emulation/)
 * [Soul Tatsu's Soultion(Both)](https://soultatsui.github.io/google-homepage/)
