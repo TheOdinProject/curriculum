@@ -43,9 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Tim's Solution](https://github.com/timothydadams/etch-a-sketch) - [View in Browser](https://timothydadams.github.io/etch-a-sketch/)
 * [hectorgarcia07's solution](https://github.com/hectorgarcia07/ETCH-A-SKETCH) - [View in Browser] (https://hectorgarcia07.github.io/ETCH-A-SKETCH/)
-* [Dean's solution](https://github.com/diazd01/grid-sketch) - [View in Browser](https://diazd01.github.io/etch-a-sketch/)
-* [Richard's solution](https://github.com/RichardDenton/etch-a-sketch) - [View in Browser](https://richarddenton.github.io/etch-a-sketch/)
 * [jam-chalm's Solution](https://github.com/jam-chalm/etch-a-sketch) - [View in Browser](https://jam-chalm.github.io/etch-a-sketch/)
 * [armagansnl's Solution](https://github.com/armagansenol/etch-a-sketch) - [View in Browser](https://armagansenol.github.io/etch-a-sketch/)
 * [yogasmara's Solution](https://github.com/yoga1234/etch-a-sketch) - [View in Browser](https://yoga1234.github.io/etch-a-sketch/)
