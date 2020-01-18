@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+
+
+    <script>
+
+        //Choices for Computer
+        var choices = [
+            "rock",
+            "paper",
+            "scissors",
+        ];
+
+        var score = 0;
+        var playerScore = 0;
+        var result;
+        var playerChoice;
+        var computerChoiceGlobal;
+
+        var validationToken;
+        
+       //Compares user and computer choice and outputs a win/loss/tie result 
+        function playRound() {   
+
+           
+            
+            var playerChoiceLocal = prompt("Pick Rock, Paper, or Scissors.").toLowerCase();
+            playerChoice = playerChoiceLocal;
+            console.log("playerchoice object=", playerChoiceLocal);
+
+
+            //if player choice is not valid, ends function
+            if (playerChoiceLocal != "paper" &&
+                playerChoiceLocal != "rock"  &&
+                playerChoiceLocal != "scissors") {
+                validationToken = false;
+                alert("Choose only rock, paper, or scissors!")
+                return 
+            }   
+            
+           validationToken = true;
+
+            //chooses random choice from choices array
+            var computerChoice = choices[Math.floor(Math.random()*choices.length)];
+            computerChoiceGlobal = computerChoice;
+            console.log("computerchoice object=", computerChoice);
+
+            if (computerChoice === "rock" && playerChoiceLocal === "scissors") {
+                result = "lose";
+                console.log(result, computerChoice, playerChoiceLocal);
+                ++score
+                var message = "You lose! " + computerChoice + " beats " + playerChoice + ".";
+                return "You lose! " + computerChoice + " beats " + playerChoice + "."
+                
+            
+            
+            }
+
+            else if (computerChoice === "scissors" &&
+                     playerChoiceLocal === "paper") {
+                            result = "lose";
+                            console.log(result, computerChoice, playerChoiceLocal);
+                            ++score
+                            return "You lose! " + computerChoice + " beats " + playerChoice + "." 
+                
+            }
+
+            else if (computerChoice === "paper" && 
+                    playerChoiceLocal === "rock") {
+                            result = "lose";
+                            console.log(result, computerChoice, playerChoiceLocal);
+                            ++score
+                            return "You lose! " + computerChoice + " beats " + playerChoice + "." ;
+            }
+
+            else if (computerChoice === playerChoiceLocal) {
+                            result = "tie";
+                            console.log(result, computerChoice, playerChoiceLocal);
+                            return "It's a tie!"
+            }
+
+            
+
+            else {
+                result = "win";
+                console.log(result, computerChoice, playerChoice);
+                ++playerScore
+                return "You win! " + playerChoice + " beats " + computerChoice + ".";
+            }       
+            
+        }
+
+
+
+     
+
+        //main game loop. completes when either score reaches 5 
+        function game() {
+                
+                score = 0;
+                playerScore = 0;
+
+                while (score < 5 && playerScore < 5) {
+                    playRound();
+                    if (validationToken == true) {
+                        alert("Computer plays " + computerChoiceGlobal + "! " + 
+                        "You picked " + playerChoice + " !" + " You " + result + "!" +
+                        "\n Player score " + playerScore + " ---------- " + score + " Computer Score" );
+                }   }
+
+                //Code below ends game and returns win/loss alert
+                if (score == 5) {
+                    return alert("You lose!")
+                }
+
+                else if (playerScore == 5) {
+                    return alert("You win!")
+                }
+            }
+        
+        
+        
+        </script>
+
+
+
+</body>
+
+
+</html>
