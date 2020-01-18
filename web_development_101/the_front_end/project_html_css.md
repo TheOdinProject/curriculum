@@ -2881,7 +2881,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MuratCG's Solution](https://github.com/muratcangumuslu/google-homepage) - [View in Browser](https://muratcangumuslu.github.io/google-homepage/)
 * [Waruiru's Solution (Easy)](https://github.com/Waruiru/google-homepage) - [View in Browser](https://waruiru.github.io/google-homepage/)
 * [Nicholas Salvatore's Solution (Easy)](https://github.com/nmsalvatore/google-homepage) - [View in Browser](https://nmsalvatore.github.io/google-homepage/)
-* [Andrea's Solution (easy)](https://github.com/andrea-maiolo/google-test) - [View in Browser] (https://andrea-maiolo.github.io/google-test/)
+* [Andrea Maiolo's Solution (easy)](https://github.com/andrea-maiolo/google-test) - [View in Browser] (https://andrea-maiolo.github.io/google-test/)
 </details>
 
 ### Additional Resources
