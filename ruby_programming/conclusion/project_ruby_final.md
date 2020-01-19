@@ -120,6 +120,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/chess_game)
 * [Husseinhewehiis solution](https://github.com/Husseinhewehii/Chess)
 * [Ben Fowler's solution](https://github.com/benfowler04/chess) - [Play on repl.it](https://repl.it/@BenFowler/chess)
+* [guacamobley's solution](https://github.com/guacamobley/chess)
 
 
 </details>
