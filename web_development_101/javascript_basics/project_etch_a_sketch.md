@@ -718,6 +718,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [0xtaf's solution](https://github.com/0xtaf/etch-a-sketch) - [View in Browser](https://0xtaf.github.io/etch-a-sketch/)
 * [Kyle's Solution](https://github.com/kcristin/sketchpad) - [View in Browser](https://kcristin.github.io/sketchpad/)
 * [elram's solution](https://github.com/erampono/etch-a-sketch) - [View in Browser](https://erampono.github.io/etch-a-sketch/)
+* [Courgette's solution](https://github.com/bing0i/etch-a-sketch) - [View in Browser](https://bing0i.github.io/etch-a-sketch/)
 * [pudu87's solution](https://github.com/pudu87/etch-a-sketch) - [View in Browser](https://pudu87.github.io/etch-a-sketch/)
 </details>
 
