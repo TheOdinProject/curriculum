@@ -1187,5 +1187,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Courgette's Solution](https://github.com/bing0i/rock-paper-scissors) - [View in Browser](https://bing0i.github.io/rock-paper-scissors/)
 - [endymi0n's Solution](https://github.com/3ndymi0n/SPR) - [View in Browser](https://3ndymi0n.github.io/SPR/index.html)
 - [Timework's Solution](https://github.com/Timework/firstGame/blob/master/index.html) - [View in Browser](https://timework.github.io/firstGame/)
-- [Nicholas Salvatore's Solution](https://github.com/nmsalvatore/rock-paper-scissors) - [View in Browser](https://nmsalvatore.github.io/rock-paper-scissors/)
 </details>
