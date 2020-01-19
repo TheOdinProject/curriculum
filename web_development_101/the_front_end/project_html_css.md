@@ -2890,6 +2890,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Franciutte's solution (Easy)](https://github.com/Franciutte/google-homepage) - [View in Browser](https://franciutte.github.io/google-homepage/)
 * [Neo's solution (Easy)](https://github.com/neowebdeveloper7/google-homepage) - [View in Browser](https://neowebdeveloper7.github.io/)google-homepage/)
 * [Ildar's Solution (Easy)](https://github.com/beisekenov/google-homepage) - [View in Browser](https://beisekenov.github.io/google-homepage/)
+* [pthompson09 Solution (Easy)](https://pthompson09.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
