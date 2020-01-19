@@ -248,6 +248,7 @@ connect_four)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/connect_four_game) - [Play on repl.it](https://repl.it/@SergejJurchenko/connectfourgame)
 * [guacamobley's solution](https://github.com/guacamobley/TDD-Connect-Four)
 * [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
+* [Busy Bee's Solution](https://github.com/swissbusybee/Connect_Four_Project)
 </details>
 
 ### Additional Resources
