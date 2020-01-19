@@ -37,6 +37,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Armo's Solution](https://github.com/Armoilane/ruby_exercises/)
+* [Zach's Solution](https://github.com/ZachBaird/CaesarCipher)
+* [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
+* [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/caesar_cipher.rb)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p1_caesar_cipher)
+* [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/caesar_cipher.rb)
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/caesar_cipher/)
+* [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.building_blocks/blob/master/caesar_cipher/caesar-cipher.rb)
 * [Noelle's Solution](https://github.com/elleon003/Caesar-Cipher)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/ceaser_shift.rb)
@@ -488,6 +496,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [hyperturing's Solution](https://github.com/hyperturing/building-blocks/blob/master/caesar_cipher.rb)
 * [Dave Guymon's Solution](https://github.com/daveguymon/the_odin_project/blob/master/ruby_programming/ceaser_cipher.rb)
 * [guacamobley's solution](https://github.com/guacamobley/ruby-building-blocks/blob/master/caesar-cipher.rb)
+* [AlexGioffDev's solution](https://github.com/AlexGioffDev/ruby_CaesarCipher)
+* [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Caesar_cipher/caesar_cipher.rb)
+* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/caesar_cipher.rb)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/caesar_cipher.rb)
+
 </details>
 
 ### Project 2: Stock Picker
@@ -514,6 +527,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Zach's Solution](https://github.com/ZachBaird/StockPicker)
+* [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
+* [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/stock_picker.rb)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p2_stock_picker)
+* [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/stock_picker.rb)
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/stock_picker)
+* [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
 * [Philipp's solution](https://github.com/philipp-mcvity/Odin.Ruby.building_blocks/blob/master/stock_picker/stock_picker.rb)
 * [Jithin's solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/stock_picker.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/stock_picker)
@@ -920,6 +940,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [hyperturing's Solution](https://github.com/hyperturing/building-blocks/blob/master/stock_picker.rb)
 * [Dave Guymon's Solution](https://github.com/daveguymon/the_odin_project/blob/master/ruby_programming/stock_picker.rb)
 * [guacamobley's solution](https://github.com/guacamobley/ruby-building-blocks/blob/master/stock-picker.rb)
+* [AlexGioffDev's solution](https://github.com/AlexGioffDev/ruby_stock_picker)
+* [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Stock_picker/stock_picker.rb)
+* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/stock_picker.rb)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/stock_picker.rb)
+
 </details>
 
 ### Project 3: Substrings
@@ -954,6 +979,13 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Zach's Solution](https://github.com/ZachBaird/RubySubstringCounter)
+* [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
+* [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/substrings.rb)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p3_substrings)
+* [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/dictionary.rb)
+* [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/substrings)
+* [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.building_blocks/blob/master/substrings/substrings.rb)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/substrings.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/substring)
@@ -1351,5 +1383,8 @@ Next, make sure your method can handle multiple words:
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/substrings/blob/master/substrings.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/building-blocks/blob/master/substring.rb)
 * [guacamobley's solution](https://github.com/guacamobley/ruby-building-blocks/blob/master/substrings.rb)
-
+* [AlexGioffre's solution](https://github.com/AlexGioffDev/ruby_substring)
+* [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Substrings/substrings.rb)
+* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/substrings.rb)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/substrings.rb)
 </details>

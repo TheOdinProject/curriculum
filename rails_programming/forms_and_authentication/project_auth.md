@@ -204,6 +204,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [themetar's solution (Github)](https://github.com/themetar/members-only-top) - [Live on Heroku](https://mysterious-coast-30783.herokuapp.com/)
 * [Nyaga Roy's Solution](https://github.com/RoyNyaga/new_members_blog_odin)
 * [Miguel Prada's Solution](https://github.com/mapra99/m-only)
+* [Rey van den Berg's Solution](https://github.com/Rey810/members-only-app.git)
 </details>
 
 ### Additional Resources
