@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 
+- [jfr's Solution](https://github.com/jfrcom/restaurant-page) - [View in Browser](https://jfrcom.github.io/restaurant-page/index.html)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/restrauntPage) - [View in Browser](https://zyusuf10.github.io/restrauntPage/)
 - [Kevin Vuong's Solution](https://github.com/fffear/restaurant-page-project-js) - [View in Browser](https://fffear.github.io/restaurant-page-project-js/)
 - [Hassanbhb's Solution](https://github.com/Hassanbhb/Vegi) - [View in Browser](https://hassanbhb.github.io/Vegi/)
