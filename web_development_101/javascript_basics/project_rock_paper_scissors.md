@@ -41,13 +41,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [bach2o's Solution] (https://github.com/bach2o/rock-paper-scissors)
+- [bach2o's Solution](https://github.com/bach2o/rock-paper-scissors)
+- [LorriAnn's Solution](https://github.com/TechnicolorPanda/rock-paper-scissors.git) - [View in Browser](https://TechnicolorPanda.github.io/rock-paper-scissors/)
 - [Checkmate360's Solution](https://github.com/checkmate360/RPS-Game)
 - [AlexBoonDev's Solution](https://github.com/AlexBoonDev/RockPaperScissors/)
 - [Tim's Solution](https://github.com/timothydadams/rps) - [View in Browser](https://timothydadams.github.io/rps/)
-- [chickenwing123's Solution](https://github.com/chickenwings123/first_javascript_project) - [View in Browser](https://chickenwings123.github.io/first_javascript_project/) 
+- [chickenwing123's Solution](https://github.com/chickenwings123/first_javascript_project) - [View in Browser](https://chickenwings123.github.io/first_javascript_project/)
 - [Shwig's Solution](https://github.com/Shwig/rock-paper-scissors) - [View in Browser](https://shwig.github.io/rock-paper-scissors/)
-- [Chris Hilborne's Solution](https://github.com/ChrisHilborne/rock-paper-scissors) 
+- [Chris Hilborne's Solution](https://github.com/ChrisHilborne/rock-paper-scissors)
 - [Oussama TARHI's Solution with UI](https://github.com/ousstarhi/rock-paper-scissors-v2.0-UI) - [View in Browser](https://ousstarhi.github.io/rock-paper-scissors-v2.0-UI)
 - [Oussama TARHI's Solution](https://github.com/ousstarhi/rock-paper-scissors-v1)
 - [tacodtripa's Solution](https://github.com/tacodtripe/rock-paper-scissors) -[View in Browser](https://tacodtripe.github.io/rock-paper-scissors/)
@@ -1187,4 +1188,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Courgette's Solution](https://github.com/bing0i/rock-paper-scissors) - [View in Browser](https://bing0i.github.io/rock-paper-scissors/)
 - [endymi0n's Solution](https://github.com/3ndymi0n/SPR) - [View in Browser](https://3ndymi0n.github.io/SPR/index.html)
 - [Timework's Solution](https://github.com/Timework/firstGame/blob/master/index.html) - [View in Browser](https://timework.github.io/firstGame/)
+- [StraytJacquet's Solution](https://github.com/Straytjacquet/Rock_Paper_Scissors) - [View in Browser](https://straytjacquet.github.io/Rock_Paper_Scissors/) 
 </details>
