@@ -1132,7 +1132,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kassim's Solution](https://github.com/kassim99/rockpaperscissors) - [View in Browser](https://kassim99.github.io/rockpaperscissors/)
 - [Chow Jia Ying's Solution](https://github.com/C-likethis123/rock-paper-scissors)
 - [StrY's solution](https://github.com/J-StrY/rockPaperScissors) - [View in Browser](https://J-StrY.github.io/rockPaperScissors)
-- [LenaChestnut's solution](https://github.com/LenaChestnut/rock-paper-scissors)
+- [LenaChestnut's solution](https://github.com/LenaChestnut/rock-paper-scissors) - [Browser Solution](https://lenachestnut.github.io/rockPaperScissorsBrowser/)
 - [pmwals09's solution](https://github.com/pmwals09/rock-paper-scissors))
 - [arifsetyo21's solution](https://github.com/arifsetyo21/rock-paper-scissors) - [View in Browser](https://simple-game-rock-paper-scissors.netlify.com/)
 - [hadouken-ryu's solution](https://github.com/hadouken-ryu/rock_paper_scissors) - [View in Browser](https://hadouken-ryu.github.io/rock_paper_scissors/)
@@ -1191,4 +1191,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [endymi0n's Solution](https://github.com/3ndymi0n/SPR) - [View in Browser](https://3ndymi0n.github.io/SPR/index.html)
 - [Timework's Solution](https://github.com/Timework/firstGame/blob/master/index.html) - [View in Browser](https://timework.github.io/firstGame/)
 - [StraytJacquet's Solution](https://github.com/Straytjacquet/Rock_Paper_Scissors) - [View in Browser](https://straytjacquet.github.io/Rock_Paper_Scissors/) 
+- [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/rock-paper-scissors) - [View in Browser](https://blessedonekobo.github.io/rock-paper-scissors/)
 </details>
