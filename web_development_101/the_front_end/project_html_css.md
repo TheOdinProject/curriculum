@@ -1781,8 +1781,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Josiah's Solution (Easy)](https://github.com/jdonor/google-homepage) - [View in Browser](https://jdonor.github.io/google-homepage/)
 * [Swedina's Solution (Easy)](https://github.com/Verine00/google-homepage) - [View in Browser](https://verine00.github.io/google-homepage/)
 * [Nitesh's Solution (Easy)](https://github.com/niteshkumarniranjan/google-homepage) - [View in Browser](http://niteshkumarniranjan.me/google-homepage/)
-* [Ryoma's Solution (Easy)](https://github.com/ryozCA
-ume/google-homepage) - [View in Browser](https://ryozume.github.io/google-homepage/)
+* [Ryoma's Solution (Easy)](https://github.com/ryozume/google-homepage) - [View in Browser](https://ryozume.github.io/google-homepage/)
 * [WausauBill's Solution (Easy](https://github.com/WausauBill/WausauBill.github.io/tree/master/the_odin_project/google_homepage) - [View in Browser](https://wausaubill.github.io/the_odin_project/google_homepage/index.html)
 * [HSaad's Solution (Easy)](https://github.com/HSaad/google-homepage) - [View in Browser](https://hsaad.github.io/google-homepage/)
 * [HSaads's Solution (Difficult)](https://github.com/HSaad/google-search-results) - [View in Browser](https://hsaad.github.io/google-search-results/)
