@@ -44,6 +44,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [santimc's Solution](https://github.com/santimc/Etch-a-Sketch) - [View in Browser](https://santimc.github.io/Etch-a-Sketch/)
+* [Oussama TARHI's solution](https://github.com/ousstarhi/Etch-A-Sketch) - [View in Browser](https://ousstarhi.github.io/Etch-A-Sketch/)
+* [Rae-Kwon's Solution](https://github.com/Rae-Kwon/etch-a-sketch) - [View in Browser](https://rae-kwon.github.io/etch-a-sketch/)
+* [Randyfoo07's Solution](https://github.com/RandyFoo07/etch-a-sketch) - [View in Browser](https://randyfoo07.github.io/etch-a-sketch/)
+* [WonderNote18's Solution](https://github.com/WonderNote18/top-etch-a-sketch) - [View in Browser](https://wondernote18.github.io/top-etch-a-sketch/)
+* [Tim's Solution](https://github.com/timothydadams/etch-a-sketch) - [View in Browser](https://timothydadams.github.io/etch-a-sketch/)
+* [hectorgarcia07's Solution](https://github.com/hectorgarcia07/ETCH-A-SKETCH) - [View in Browser](https://hectorgarcia07.github.io/ETCH-A-SKETCH/)
+* [jam-chalm's Solution](https://github.com/jam-chalm/etch-a-sketch) - [View in Browser](https://jam-chalm.github.io/etch-a-sketch/)
 * [armagansnl's Solution](https://github.com/armagansenol/etch-a-sketch) - [View in Browser](https://armagansenol.github.io/etch-a-sketch/)
 * [yogasmara's Solution](https://github.com/yoga1234/etch-a-sketch) - [View in Browser](https://yoga1234.github.io/etch-a-sketch/)
 * [tacodtripa's Solution](https://github.com/tacodtripe/etch-a-sketch) - [View in Browser](https://tacodtripe.github.io/etch-a-sketch/)
