@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Armo's Solution](https://github.com/Armoilane/ruby_exercises/)
 * [Zach's Solution](https://github.com/ZachBaird/CaesarCipher)
 * [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
 * [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/caesar_cipher.rb)
@@ -498,6 +499,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [AlexGioffDev's solution](https://github.com/AlexGioffDev/ruby_CaesarCipher)
 * [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Caesar_cipher/caesar_cipher.rb)
 * [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/caesar_cipher.rb)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/caesar_cipher.rb)
 
 </details>
 
@@ -941,6 +943,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [AlexGioffDev's solution](https://github.com/AlexGioffDev/ruby_stock_picker)
 * [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Stock_picker/stock_picker.rb)
 * [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/stock_picker.rb)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/stock_picker.rb)
+
 </details>
 
 ### Project 3: Substrings
@@ -1382,4 +1386,5 @@ Next, make sure your method can handle multiple words:
 * [AlexGioffre's solution](https://github.com/AlexGioffDev/ruby_substring)
 * [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Substrings/substrings.rb)
 * [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/substrings.rb)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/substrings.rb)
 </details>
