@@ -40,8 +40,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-[Lyle Aigbedion's solution](https://github.com/lyleaigbedion/library) - [View in Browser](https://lyleaigbedion.github.io/library/)
-[James's solution](https://github.com/ericksen-github/Library) - [View in Browser](https://ericksen-github.github.io/Library/)
+- [Greg's solution](https://github.com/gregbast1994/odin-library) - [View in Browser](https://gregbast1994.github.io/odin-library/)
+- [Paul's solution](https://github.com/ppayne12/library) - [View in Browser](https://ppayne12.github.io/library/)
+- [Lyle Aigbedion's solution](https://github.com/lyleaigbedion/library) - [View in Browser](https://lyleaigbedion.github.io/library/)
+- [James's solution](https://github.com/ericksen-github/Library) - [View in Browser](https://ericksen-github.github.io/Library/)
 - [Justinkar's solution](https://github.com/justinkar/library) - [View in Browser](https://justinkar.github.io/library/)
 - [Simon's solution](https://github.com/Sim-frpt/basic-library) - [View in Browser](https://sim-frpt.github.io/basic-library/)
 - [nearmint's solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
