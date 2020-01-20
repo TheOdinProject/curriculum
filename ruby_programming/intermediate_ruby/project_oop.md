@@ -579,6 +579,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/mastermind/)
 * [hyperturing's Solution (with 6-move AI)](https://github.com/hyperturing/mastermind)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/mastermind.rb)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/Mastermind)
 </details>
 
 ### Additional Resources
