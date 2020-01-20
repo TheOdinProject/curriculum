@@ -1190,11 +1190,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Courgette's Solution](https://github.com/bing0i/rock-paper-scissors) - [View in Browser](https://bing0i.github.io/rock-paper-scissors/)
 - [endymi0n's Solution](https://github.com/3ndymi0n/SPR) - [View in Browser](https://3ndymi0n.github.io/SPR/index.html)
 - [Timework's Solution](https://github.com/Timework/firstGame/blob/master/index.html) - [View in Browser](https://timework.github.io/firstGame/)
-<<<<<<< HEAD
-- [ScottB's Solution](https://scottbowles.github.io/rockpaperscissors/)
-=======
 - [StraytJacquet's Solution](https://github.com/Straytjacquet/Rock_Paper_Scissors) - [View in Browser](https://straytjacquet.github.io/Rock_Paper_Scissors/) 
 - [gwen's Solution](https://github.com/gwnm/rock_paper_scissors/blob/master/index.html) - [View in Browser](https://gwnm.github.io/rock_paper_scissors/)
 - [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/rock-paper-scissors) - [View in Browser](https://blessedonekobo.github.io/rock-paper-scissors/)
->>>>>>> 32dd458f42501f134189ec69b051b836dfcb4919
+- [ScottB's Solution](https://scottbowles.github.io/rockpaperscissors/)
 </details>
