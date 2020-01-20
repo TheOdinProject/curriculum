@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [dzarrr's Solution (Easy)](https://github.com/dzarrr/odin-project-html-css) - [View in Browser](https://dzarrr.github.io/odin-project-html-css/)
 * [Vlad's Solution (Easy)](https://github.com/vladmyshchuk/google-homepage) - [View in Browser](https://vladmyshchuk.github.io/google-homepage/)
 * [Mvk Solution (Easy)](https://github.com/mvkxo/google-homepage) - [View in Browser](https://mvkxo.github.io/google-homepage/)
 * [CJ's Solution (Easy)](https://github.com/constantjoannes/google-homepage) - [View in Browser](https://constantjoannes.github.io/google-homepage/)
@@ -2892,6 +2893,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [pthompson09 Solution (Easy)](https://pthompson09.github.io/google-homepage/)
 * [Kris2585's Solution (Easy)](https://github.com/Kris2585/google-homepage)
 * [BlessedOneKobo's Solution (Both)](https://github.com/BlessedOneKobo/google-homepage) - [View in Browser](https://blessedonekobo.github.io/google-homepage/)
+* [Bradley's Solution (Easy)](https://github.com/bglick1/google-homepage) - [View in Browser](https://bglick1.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
