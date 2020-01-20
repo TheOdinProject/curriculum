@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [santimc's Solution](https://github.com/santimc/Etch-a-Sketch) - [View in Browser](https://santimc.github.io/Etch-a-Sketch/)
 * [Oussama TARHI's solution](https://github.com/ousstarhi/Etch-A-Sketch) - [View in Browser](https://ousstarhi.github.io/Etch-A-Sketch/)
 * [Rae-Kwon's Solution](https://github.com/Rae-Kwon/etch-a-sketch) - [View in Browser](https://rae-kwon.github.io/etch-a-sketch/)
 * [Randyfoo07's Solution](https://github.com/RandyFoo07/etch-a-sketch) - [View in Browser](https://randyfoo07.github.io/etch-a-sketch/)
@@ -722,4 +723,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [nodonut's Solution](https://github.com/nodonut/etch_a_sketch) - [View in Browser](https://nodonut.github.io/etch_a_sketch/)
 * [Courgette's Solution](https://github.com/bing0i/etch-a-sketch) - [View in Browser](https://bing0i.github.io/etch-a-sketch/)
 * [pudu87's Solution](https://github.com/pudu87/etch-a-sketch) - [View in Browser](https://pudu87.github.io/etch-a-sketch/)
+* [Tori's solution](https://github.com/ToriPotts/etch-a-sketch) - [View in Browser](https://toripotts.github.io/etch-a-sketch/)
 </details>
