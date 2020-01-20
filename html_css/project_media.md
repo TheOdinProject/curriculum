@@ -158,6 +158,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Nigel Volkmann's solution](https://github.com/Nekolike/Embedded-videos) - [View in browser](https://nekolike.github.io/Embedded-videos/)
 * [Ludivine Poussier's solution](https://github.com/ludivinepoussier/embedded-video) - [View in browser](https://ludivinepoussier.github.io/embedded-video/)
 * [Selene and Ruben solution](https://github.com/rubenpazch/YoutubeVideo) - [View in browser](https://github.com/rubenpazch/YoutubeVideo)
+* [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP---Youtube-Clone) - [View in browser](https://adrieltrigger.github.io/TOP---Youtube-Clone/)
 </details>
 
 ### Additional Resources
