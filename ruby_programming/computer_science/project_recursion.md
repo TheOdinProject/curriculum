@@ -213,6 +213,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [guacamobley's solution](https://github.com/guacamobley/recursion-project/blob/master/fibonacci.rb)
 * [Robert Suazo's solution](https://github.com/rsuazo/fibonacci/blob/master/fibonacci.rb)
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/fibonacci.rb)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/recursion/blob/master/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
@@ -436,6 +437,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [guacamobley's solution](https://github.com/guacamobley/recursion-project/blob/master/merge_sort.rb)
 * [Robert Suazo's solution](https://github.com/rsuazo/merge_sort/blob/master/merge_sort.rb)
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/merge_sort.rb)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/recursion/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources
