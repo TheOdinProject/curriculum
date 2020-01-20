@@ -90,10 +90,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Carl D'Oleo-Lundgren's Solution (Easy)] (https://github.com/carldoleolundgren/google-homepage) - [View in Browser](https://carldoleolundgren.github.io/google-homepage/)
 * [Vlad's Solution (Easy)](https://github.com/vladmyshchuk/google-homepage) - [View in Browser](https://vladmyshchuk.github.io/google-homepage/)
 * [Mvk Solution (Easy)](https://github.com/mvkxo/google-homepage) - [View in Browser](https://mvkxo.github.io/google-homepage/)
 * [CJ's Solution (Easy)](https://github.com/constantjoannes/google-homepage) - [View in Browser](https://constantjoannes.github.io/google-homepage/)
-* [CJ's Solution (Difficult)](https://github.com/constantjoannes/google-searchpage) - [View in Browser](https://constantjoannes.github.io/google-searchpage/)
+* [CJ's Solution (Difficult)] (https://github.com/constantjoannes/google-searchpage) - [View in Browser](https://constantjoannes.github.io/google-searchpage/)
 * [Kevin Dayno's Solution (Easy)](https://github.com/kdayno/google-homepage) - [View in Broswer](https://kdayno.github.io/google-homepage/)
 * [Vic-Ro's Solution (Both)](https://github.com/vic-Ro/google-homepage) - [View in Broswer](https://vic-ro.github.io/google-homepage/)
 * [Lyle Aigbedion's Solution (Easy)](https://github.com/lyleaigbedion/google-homepage) - [View in Browser](https://lyleaigbedion.github.io/google-homepage/)
