@@ -88,13 +88,13 @@ Finally, run
 rbenv -v
 ~~~~
 
- from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number similar to this:
+ from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number **similar** to this:
 
 ~~~bash
 rbenv 1.1.2-2-g4e92322
 ~~~
 
-If you do not get a version number, please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
+If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
 #### Step 2.2: Install Ruby
 
@@ -230,7 +230,7 @@ Otherwise if it mentioned zshrc then run:
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 ~~~
 
-You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, you'll need to restart the terminal for the changes to take effect. Click the red "x" and then re-open the terminal (see Step 1.1).
+You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
 
 #### Step 3.3: Install Ruby
 
