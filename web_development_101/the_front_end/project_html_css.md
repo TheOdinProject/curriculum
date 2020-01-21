@@ -2898,6 +2898,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Bradley's Solution (Easy)](https://github.com/bglick1/google-homepage) - [View in Browser](https://bglick1.github.io/google-homepage/)
 * [Benjamin-D's Solution (Easy)](https://github.com/benjamin-d/google-homepage) - [View in Browser](https://benjamin-d.github.io/google-homepage/)
 * [Molokdrone's's Solution (Hard)](https://github.com/Molokdrone/google-homepage) - [View in Browser](https://molokdrone.github.io/google-homepage/)
+* [Arf65's Solution (Easy)](https://github.com/arf65/google-homepage) - [View in Browser]
+(https://arf65.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
