@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 
+- [Simon's Solution](https://github.com/Sim-frpt/restaurant-page) - [View in Browser](https://sim-frpt.github.io/restaurant-page/)
 - [James's Solution](https://github.com/ericksen-github/restaurant_page) - [View in Browser](https://ericksen-github.github.io/restaurant_page/)
 - [jfr's Solution](https://github.com/jfrcom/restaurant-page) - [View in Browser](https://jfrcom.github.io/restaurant-page/index.html)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/restrauntPage) - [View in Browser](https://zyusuf10.github.io/restrauntPage/)
