@@ -48,7 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-findwaldo)
 * [David Chapman's solution](https://github.com/davidchappy/wheres-waldo) - [View in browser](https://dac-wheres-waldo.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) - [View in browser](https://frozen-stream-95035.herokuapp.com/)
-
+* [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/wheres-waldo) - [View in browser](https://theodinprojects.live/courses/javascript/projects/wheres-waldo)
 </details>
 
 ### Additional Resources
