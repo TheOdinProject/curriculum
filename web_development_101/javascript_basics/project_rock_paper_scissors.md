@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [nelsonskywalker's Solution](https://github.com/nelsonskywalker/rock-paper-scissors) - [View in Browser](https://nelsonskywalker.github.io/rock-paper-scissors/)
+- [Salvador Villalon's Solution](https://github.com/salvillalon45/theOdinProject-RockPaperScissors)
 - [leetie's Solution](https://github.com/leetie/rockPaperScissors)
 - [isg007's Solution](https://github.com/isg007/Rock_Paper_Scissors) - [View in Browser](https://isg007.github.io/Rock_Paper_Scissors/)
 - [bach2o's Solution](https://github.com/bach2o/rock-paper-scissors)
@@ -1196,4 +1198,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/rock-paper-scissors) - [View in Browser](https://blessedonekobo.github.io/rock-paper-scissors/)
 - [ScottB's Solution](https://scottbowles.github.io/rockpaperscissors/)
 - [phumLWC's Solution](https://github.com/PhumLWC/Rock-Paper-Scissors) - [View in Browser](https://phumlwc.github.io/Rock-Paper-Scissors/)
+- [Miguelus373's Solution](https://github.com/Miguelus373/Rock-Paper-Scissors_Script) - [View in Browser](https://miguelus373.github.io/Rock-Paper-Scissors_Script/)
 </details>

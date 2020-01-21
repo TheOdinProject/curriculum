@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 
+- [James's Solution](https://github.com/ericksen-github/restaurant_page) - [View in Browser](https://ericksen-github.github.io/restaurant_page/)
 - [jfr's Solution](https://github.com/jfrcom/restaurant-page) - [View in Browser](https://jfrcom.github.io/restaurant-page/index.html)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/restrauntPage) - [View in Browser](https://zyusuf10.github.io/restrauntPage/)
 - [Kevin Vuong's Solution](https://github.com/fffear/restaurant-page-project-js) - [View in Browser](https://fffear.github.io/restaurant-page-project-js/)
@@ -114,4 +115,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [AlexGioff's Solution](https://github.com/AlexGioffDev/Restaurant) - [View in Browser](https://alexgioffdev.github.io/Restaurant/)
 - [Supasus's Solution](https://github.com/supasus/js-restaurant-page) - [View in Browser](https://supasus.github.io/js-restaurant-page/)
 - [kylazath's Solution](https://github.com/kylazath/webpack-test) - [View in Browser](https://kylazath.github.io/webpack-test/index.html)
+- [mmboyce's Solution](https://github.com/mmboyce/restaurant-page) - [View in Browser](https://mmboyce.github.io/restaurant-page/)
 </details>
