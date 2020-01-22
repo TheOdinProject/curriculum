@@ -637,4 +637,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [cgardn's solution](https://github.com/cgardn/etch-a-sketch) - [View in Browser](https://cgardn.github.io/etch-a-sketch/)
 * [DamnedLag's solution](https://github.com/Damnedlag/Sketchy)
 * [Procerus's solution](https://github.com/Procerus/Etch-a-Sketch)
+* [nestor-c's Solution](https://github.com/nestor-c/etchasketch)
 </details>
