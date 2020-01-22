@@ -2,15 +2,13 @@
 
 The Odin Project's online communities are intended to be informative and relaxing spaces where Odinites can find answers to their programming questions or simply hang out.  Since we aim to be an inclusive and friendly community, we request that all Odinites follow the guidelines laid out in this Code of Conduct.  Following these guidelines will ensure that all Odinites have a positive learning experience:
 
-1. Be polite.  Inappropriate conduct or harassment towards chat participants will not be tolerated.
+1. Be polite, welcoming, and inclusive. 
 
-2. Racist remarks, sexually orientated remarks, and religious persecution will not be tolerated. Any such remarks will result in an immediate ban.
+2. Inappropriate conduct and harassment of any kind will not be tolerated. Any such remarks will result in an immediate ban.
 
-3. Harassment of any kind will not be tolerated.
+3. Actions that seem specifically designed to test the limits of what is offensive and serve no other purpose (i.e., trolling) will not be tolerated, and such sessions will be immediately terminated.
 
-4. Actions that seem specifically designed to test the limits of what is not offensive and serve no other purpose (a.k.a. trolling) will not be tolerated and such sessions will be immediately terminated.
-
-5. Do not post someone's personal information or post links to personal information.
+4. Do not post someone's personal information or post links to personal information.
 
 Additionally, The Odin Project and it's core members reserve the right to ban or otherwise disable the account(s) of users in defiance with this code of conduct or for any other reason they see fit.
 
@@ -36,4 +34,4 @@ The Odin Project's core members have the right and responsibility to remove, edi
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at <a href="mailto:contact@theodinproject.com">contact@theodinproject.com</a>. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at <a href="mailto:contact@theodinproject.com">contact@theodinproject.com</a>. After investigating and reviewing each complaint, the project team will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
