@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+// https://perezs12.github.io/google-homepage/
+
 * [abkhale Solutions (hard)](https://github.com/abkhale17/google-homepage) - [View in Browser](https://abkhale17.github.io/google-homepage/)
 * [Carl D'Oleo-Lundgren's Solution (Easy)](https://github.com/carldoleolundgren/google-homepage) - [View in Browser](https://carldoleolundgren.github.io/google-homepage/)
 * [dzarrr's Solution (Easy)](https://github.com/dzarrr/odin-project-html-css) - [View in Browser](https://dzarrr.github.io/odin-project-html-css/)
