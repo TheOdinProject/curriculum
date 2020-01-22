@@ -36,6 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/basic-informational-site) - [View in Browser](https://repl.it/@sousahenrique/basic-informational-site)
 - [autumnchris's Solution](https://github.com/autumnchris/nodejs-multi-page-site-demo) - [View in Browser](https://autumnchris-nodejs-site-demo.herokuapp.com)
 - [Brendo's Solution](https://github.com/BBrownley/Basic-info-site)
 - [Alain Suarez's Solution](https://gitlab.com/asuar/node-basic-info) - [View in browser](https://repl.it/@AlainSuarez/basic-info)
