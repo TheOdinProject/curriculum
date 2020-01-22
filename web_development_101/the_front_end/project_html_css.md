@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+// https://perezs12.github.io/google-homepage/
+
 * [abkhale Solutions (hard)](https://github.com/abkhale17/google-homepage) - [View in Browser](https://abkhale17.github.io/google-homepage/)
 * [Carl D'Oleo-Lundgren's Solution (Easy)](https://github.com/carldoleolundgren/google-homepage) - [View in Browser](https://carldoleolundgren.github.io/google-homepage/)
 * [dzarrr's Solution (Easy)](https://github.com/dzarrr/odin-project-html-css) - [View in Browser](https://dzarrr.github.io/odin-project-html-css/)
@@ -2901,6 +2903,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Arf65's Solution (Easy)](https://github.com/arf65/google-homepage) - [View in Browser](https://arf65.github.io/google-homepage/)
 * [ladiladi's Solution (Easy)](https://github.com/ladiladi/google-homepage) - [View in Browser](https://ladiladi.github.io/google-homepage/)
 * [duendecillo1982's Solution (Easy)](https://github.com/duendecillo1982/google-homepage) - [View in Browser](https://duendecillo1982.github.io/google-homepage/)
+* [anniemaejenkins' Solution (Easy)](https://github.com/anniemaejenkins/google-homepage) - [View in Browser](https://anniemaejenkins.github.io/google-homepage/)
+* [Sonyas Solution (Easy)](https://github.com/murdens/google_homepage) - [View in Browser](https://murdens.github.io/google_homepage/)
+* [Lucas-Vergara's Solution (Easy)](https://github.com/Lucas-Vergara/google-homepage) - [View in Browser](https://lucas-vergara.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
