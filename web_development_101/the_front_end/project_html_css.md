@@ -90,9 +90,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Ezekiel Mworekwa solution (Easy)](https://github.com/vanheaven-ui/google_home_clone) - [View in Browser](https://vanheaven-ui.github.io/google_home_clone/)
+* [Ezekiel Mworekwa Solution (Easy)](https://github.com/vanheaven-ui/google_home_clone) - [View in Browser](https://vanheaven-ui.github.io/google_home_clone/)
 * [perezs12's Solution (Easy)](https://perezs12.github.io/google-homepage/)
-* [abkhale Solutions (Difficult)](https://github.com/abkhale17/google-homepage) - [View in Browser](https://abkhale17.github.io/google-homepage/)
+* [abkhale Solution (Difficult)](https://github.com/abkhale17/google-homepage) - [View in Browser](https://abkhale17.github.io/google-homepage/)
 * [Carl D'Oleo-Lundgren's Solution (Easy)](https://github.com/carldoleolundgren/google-homepage) - [View in Browser](https://carldoleolundgren.github.io/google-homepage/)
 * [dzarrr's Solution (Easy)](https://github.com/dzarrr/odin-project-html-css) - [View in Browser](https://dzarrr.github.io/odin-project-html-css/)
 * [Vlad's Solution (Easy)](https://github.com/vladmyshchuk/google-homepage) - [View in Browser](https://vladmyshchuk.github.io/google-homepage/)
