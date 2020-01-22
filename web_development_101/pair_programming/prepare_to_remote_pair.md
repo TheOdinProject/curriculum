@@ -3,8 +3,9 @@
 As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:
 
 * Screen Sharing Options. There may be more, but these are a few of the most popular:
+  * A great option is [Live Share for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack). It is a free plugin for VSCode that allows you to easily share your workspace with other VSCode users remotely. If you're both using VSCode already, this might be the best option for you.
   * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
-  * Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is a free plugin for Atom that allows you to easily share your workspace with other Atom users remotely.
+  * Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is similar to the Live Share plugin, but for the editor Atom.
 * Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
   * [Screenhero](https://screenhero.com/) has its own built in voice chat, but as mentioned above, unless you already have an account you are currently out of luck.
   * Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
@@ -14,15 +15,15 @@ As you learned in the last lesson, pairing in person is the best option, but if 
 
 ### Installing the Software
 
-  If you're interested in using Teletype for Atom, you must first install [Atom](https://atom.io) (you can learn more about this text editor in the [Text Editors](https://www.theodinproject.com/courses/web-development-101/lessons/text-editors) section).
+  To use Live Share for Visual Studio Code, you open up Visual Studio Code and then launch VSCode Quick Open using the command `Ctrl+P`. In there, paste the following command: `ext install MS-vsliveshare.vsliveshare-pack`. Hit `Enter` to install the free plugin. Live Share should show up as an icon on your left-hand menu bar. From there, you can start or join a collaboration session easily.
+
+  If you're interested in using Teletype for Atom instead, you must first install [Atom](https://atom.io) (you can learn more about this text editor in the [Text Editors](https://www.theodinproject.com/courses/web-development-101/lessons/text-editors) section).
 
   With Atom installed, go to `Settings > Install`, and search for `Teletype`. In the search results, click on the `Install` button. More detailed instructions on package installation in Atom for your OS can be [found here](https://flight-manual.atom.io/using-atom/sections/atom-packages/) if you run into trouble.
 
   With Teletype now installed, open up the workspace you wish to share. On the bottom left-hand corner of your editor window, you will see an icon that looks like a radio tower, click on that icon. 
 
   The first time you attempt to share a workspace, a pop-up will appear, asking you to login to Github to generate an authentication token. Simply click on the link in the pop-up to authenticate with Github. You will be redirected to a page with an authentication token you can copy, then paste back into Atom. You should now be able to generate a link you can share for others to join your workspace remotely to pair program.
-
-  You can watch a detailed video on how to use Teletype [here](https://teletype.atom.io/).
 
 ### Finding a Partner
 

@@ -81,6 +81,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Jake's solution](https://github.com/jakercates/SQL-Practice)
 * [Chris A's solution](https://github.com/SoftwareDevPro/SQLZoo)
 * [Forison's solution](https://github.com/Forison/sql_practice)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/SQLZoo)
 
 </details>
 

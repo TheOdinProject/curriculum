@@ -25,8 +25,12 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Carlos Anriquez's solution](https://github.com/canriquez/using-bootstrap) - [View in Browser](https://canriquez.github.io/using-bootstrap/)
+* [Raiko's solution](https://github.com/Cypher0/odin-bootstrap) - [View in Browser](https://cypher0.github.io/odin-bootstrap/)
+* [David Tan's Solution](https://github.com/davecmd/newsweek-replica-bootstrap) - [View in Browser](https://davecmd.github.io/newsweek-replica-bootstrap/)
 * [Kevin Vuong's Solution](https://github.com/fffear/bootstrap-project) - [View in Browser](https://fffear.github.io/bootstrap-project/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/newsweek-clone) - [View in Browser](https://braxtonlemmon.github.io/newsweek-clone/)
+* [Muhammad Ahmad's solution](https://github.com/thisisMAhmad/newsweek) - [View in Browser](https://thisismahmad.github.io/newsweek/)
 * [David Auza's Solution](https://github.com/davidauza-engineer/Bootstrap-NewsweekClone) - [View in Browser](https://davidauza-engineer.github.io/Bootstrap-NewsweekClone/)
 * [Ohlie's solution](https://github.com/lco1220/newsweek_bootstrap) - [View in Browser](https://lco1220.github.io/newsweek_bootstrap/)
 * [Bojo's solution](https://github.com/BojoZahariev/NewsWeek) - [View in Browser](https://bojozahariev.github.io/NewsWeek/)
@@ -71,6 +75,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Carlos Del Real's solution](https://github.com/carloshdelreal/using-bootstrap) - [View in Browser](https://carloshdelreal.github.io/using-bootstrap/)
 * [Miguel's solution](https://github.com/mapra99/NewsWeek)
 * [Aron's solution](https://github.com/aronfischer/bootstrap-newsweek-homepage) - [View in Browser](https://aronfischer.github.io/bootstrap-newsweek-homepage/)
+* [Halkim's solution](https://github.com/halkim44/newsweek.com_clone) - [View in Browser](https://halkim44.github.io/newsweek.com_clone/)
 
 </details>
 

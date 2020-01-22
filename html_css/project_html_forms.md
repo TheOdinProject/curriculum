@@ -22,6 +22,12 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Igorashs's solution](https://github.com/igorashs/html-forms) - [View in Browser](https://igorashs.github.io/html-forms/)
+* [MikkRou's solution](https://github.com/MikkRou/html-form) - [View in Browser](https://mikkrou.github.io/html-form/)
+* [TheGudu's solution](https://github.com/TheGudu/MintSignUpPage)
+* [Ludivine Poussier's solution](https://github.com/ludivinepoussier/sign-up-page) - [View in Browser](https://ludivinepoussier.github.io/sign-up-page/)
+* [Carlos and Ivancito's solution](https://github.com/fivan18/forms-html-css) - [View in Browser](https://fivan18.github.io/forms-html-css/)
+* [Adeyemi's Solution](https://hadeymike10.github.io/My-Appliction/) - [View in Browser](https://hadeymike10.github.io/My-Appliction/)
 * [Lebogang's solution](https://github.com/lebogangolifant/mint_signup_form) - [View in Browser](https://lebogangolifant.github.io/mint_signup_form/)
 * [Ashish's Solution](https://github.com/CodersGas/Simple-login-page) - [View in Browser](https://codersgas.github.io/Simple-login-page/home-page.html)
 * [Zayeer's solution](https://github.com/Zayeer/html_forms_project) - [View in Browser](https://zayeer.github.io/html_forms_project/)
@@ -149,6 +155,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Mihai Negrisan's solution](https://github.com/mihainegrisan/mint-s-sign-in-page-replica) - [View in Browser](https://mihainegrisan.github.io/mint-s-sign-in-page-replica/index.html)
 * [Aron's solution](https://github.com/aronfischer/Mint-sign-up-page) - [View in Browser](https://aronfischer.github.io/Mint-sign-up-page/)
 * [Nigel Volkmann's solution](https://github.com/Nekolike/SignUp) - [View in Browser](https://nekolike.github.io/SignUp/)
+* [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP-intuit-clone) - [View in Browser](https://adrieltrigger.github.io/TOP-intuit-clone/)
 </details>
 
 ### Additional Resources

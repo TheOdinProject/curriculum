@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/odin-kittens)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/odin-kittens)
 * [Helmi's Solution](https://github.com/helmihidzir/odin-kittens)
 * [Kevin Vuong's solution](https://github.com/fffear/odin-kittens)
@@ -162,6 +163,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [vanny96's Solution](https://github.com/vanny96/odin-kittens)
 * [JamCry's Solution](https://github.com/jamcry/odin-kittens-api)
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-kittens)
+* [Rey van den Berg's Solution](https://github.com/Rey810/odin-kittens-api)
 
 </details>
 
@@ -189,6 +191,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/flickr-widget)
 * [Helmi's Solution](https://github.com/helmihidzir/odin_flickr)
 * [Kevin Vuong's solution](https://github.com/fffear/odin_flickr)
 * [Learnsometing's Solution](https://github.com/learnsometing/Rails-flickr_api)
