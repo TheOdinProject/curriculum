@@ -93,5 +93,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [AWash227's Solution](https://github.com/AWash227/todo) - [View in Browser](https://awash227.github.io/todo/dist/)
 * [Supasus's Solution](https://github.com/supasus/js-todo-list) - [View in Browser](https://supasus.github.io/js-todo-list/)
 * [AlexGioffDev's Solution](https://github.com/AlexGioffDev/TODO_JS) - [View in Browser](https://alexgioffdev.github.io/TODO_JS/)
-* [kylazath's Solution](https://github.com/kylazath/todos) - [View in Browser](hhttps://kylazath.github.io/todos/index.html)
+* [kylazath's Solution](https://github.com/kylazath/todos) - [View in Browser](https://kylazath.github.io/todos/index.html)
+* [mmboyce's Solution](https://github.com/mmboyce/to-do) - [View in Browser](https://mmboyce.github.io/to-do)
 </details>
