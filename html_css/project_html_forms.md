@@ -155,6 +155,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Mihai Negrisan's solution](https://github.com/mihainegrisan/mint-s-sign-in-page-replica) - [View in Browser](https://mihainegrisan.github.io/mint-s-sign-in-page-replica/index.html)
 * [Aron's solution](https://github.com/aronfischer/Mint-sign-up-page) - [View in Browser](https://aronfischer.github.io/Mint-sign-up-page/)
 * [Nigel Volkmann's solution](https://github.com/Nekolike/SignUp) - [View in Browser](https://nekolike.github.io/SignUp/)
+* [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP-intuit-clone) - [View in Browser](https://adrieltrigger.github.io/TOP-intuit-clone/)
 </details>
 
 ### Additional Resources
