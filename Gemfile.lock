@@ -264,7 +264,8 @@ GEM
       method_source (~> 0.9.0)
     psych (3.1.0)
     public_suffix (3.0.3)
-    puma (3.12.2)
+    puma (4.3.1)
+      nio4r (~> 2.0)
     rack (2.0.8)
     rack-attack (5.4.2)
       rack (>= 1.0, < 3)
@@ -460,7 +461,7 @@ DEPENDENCIES
   pg (~> 0.19)
   premailer-rails (~> 1.9)
   pry (~> 0.12.2)
-  puma (~> 3.12.2)
+  puma (~> 4.3.1)
   rack-attack
   rack-timeout (~> 0.4)
   rails (~> 5.2)
