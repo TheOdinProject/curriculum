@@ -57,8 +57,8 @@ Build the following methods in your linked list class:
 
 ### Extra Credit
 
-1. `#insert_at(index)` that inserts the node at the given index
-2. `#remove_at(index)` that removes the node at the given index. (You will need to update the links of your nodes in the list when you remove a node.)
+1. `#insert_at(value, index)` that inserts the node with the provided `value` at the given `index`
+2. `#remove_at(index)` that removes the node at the given `index`. (You will need to update the links of your nodes in the list when you remove a node.)
    </div>
 
 ### Student Solutions
@@ -216,4 +216,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [guacamobley's solution](https://github.com/guacamobley/linked-list)
 - [Robert Suazo's solution](https://github.com/rsuazo/linked_lists/blob/master/linked_lists.rb)
 - [Ranon Martin's solution (with extra credit)](https://github.com/ranonm/TheOdinProjectExercises/tree/master/linked_list)
+- [unheavenlycreature's solution (with extra credit)](https://github.com/unheavenlycreature/linkedlist)
   </details>
