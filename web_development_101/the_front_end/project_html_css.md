@@ -2902,6 +2902,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Molokdrone's's Solution (Hard)](https://github.com/Molokdrone/google-homepage) - [View in Browser](https://molokdrone.github.io/google-homepage/)
 * [Arf65's Solution (Easy)](https://github.com/arf65/google-homepage) - [View in Browser](https://arf65.github.io/google-homepage/)
 * [ladiladi's Solution (Easy)](https://github.com/ladiladi/google-homepage) - [View in Browser](https://ladiladi.github.io/google-homepage/)
+* [duendecillo1982's Solution (Easy)](https://github.com/duendecillo1982/google-homepage) - [View in Browser](https://duendecillo1982.github.io/google-homepage/)
 * [anniemaejenkins' Solution (Easy)](https://github.com/anniemaejenkins/google-homepage) - [View in Browser](https://anniemaejenkins.github.io/google-homepage/)
 * [Sonyas Solution (Easy)](https://github.com/murdens/google_homepage) - [View in Browser](https://murdens.github.io/google_homepage/)
 * [Lucas-Vergara's Solution (Easy)](https://github.com/Lucas-Vergara/google-homepage) - [View in Browser](https://lucas-vergara.github.io/google-homepage/)
