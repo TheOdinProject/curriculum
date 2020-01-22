@@ -6,8 +6,7 @@ Rails uses, as you'll often hear, "convention over configuration".  That means t
 
 Think of it like buying a car -- you probably don't care about individual specifications of engine parts, which companies shipped the parts to the final production facility, or even what legislative requirements a car has to meet ... you trust the manufacturer to have figured all that out and you just want to be able to buy the nice looking car knowing that it works as intended.  Rails is your Ruby manufacturer.
 
-As you saw in the introduction:
->Why Rails?  Why not.  There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things.  Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it.  It lets you put up a functioning website in hours, not days or weeks.  The "in" tech will probably be something completely different in a few years, as it always is, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
+Why Rails?  Why not.  There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things.  Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it.  It lets you put up a functioning website in hours, not days or weeks.  The "in" tech will probably be something completely different in a few years, as it always is, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
 
 Because Rails has made a lot of decisions for you, you can work incredibly fast.  You can have a website up on the internet (though it won't look like much) within a couple minutes.  The very first time you generate a new project, everything is in place so you just have to fire up your local server (by typing simply `$ rails server`) and you'll already see the Rails welcome page up there.  Then it's just a matter of plugging in all the pieces you actually need to make your rich web application run.  
 
@@ -31,15 +30,20 @@ Look through these now and then use them to test yourself after doing the assign
 * What is a view?
 * What is a controller?
 * What is a model?
+* What is the Ruby Standard Library?
+* What does the Bundler do for Ruby Gems?
+* What is the Ruby load path?
+
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
   1. Read Daniel Kehoe's excellent [What is Ruby on Rails?](http://railsapps.github.io/what-is-ruby-rails.html) introduction to get a good grasp on what we're working with.
-  2. The main [Odin Rails course](http://www.theodinproject.com/courses/ruby-on-rails) primarily uses Michael Hartl's fantastic "Ruby on Rails tutorial".  Get started coding right away by diving into [Chapter 1](https://www.railstutorial.org/book/beginning) of the book now! Hartl spends a fair amount of time getting everything setup correctly, and he suggests using a Cloud9 development environment, but if you've already done the [installations](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav) that we link to you should be good to go on your own machine.  The rest of the book is covered in a later section, so stick to chapter 1 for now.
+  2. The main [Odin Rails course](http://www.theodinproject.com/courses/ruby-on-rails) primarily uses Michael Hartl's fantastic "Ruby on Rails Tutorial". Get started coding right away by diving into [Chapter 1](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial) of the book now! Hartl spends a fair amount of time getting everything setup correctly, and he suggests using a Cloud9 development environment. At this point, you should have already done the [installations](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav) that will allow you to work on your own machine, so you can skip section 1.2. The rest of the book is covered in a later section, so just work through Chapter 1 for now.
   3. Get another quick explanation of Model/View/Controller in [this short Youtube video from Lynda.com](http://www.youtube.com/watch?v=3mQjtk2YDkM)
-  4. Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time you do the Rails course later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.
+  4. Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough). By the end, your head will probably be spinning a bit but don't worry, that's normal. You'll understand this stuff no problem by the time you do the Rails course later in the curriculum. The Ruby on Rails Guides provide some of the best documentation for the Rails framework out there, so it's good to start getting familiar with how they look.
+  5. Check out the [Using Libraries section](http://webapps-for-beginners.rubymonstas.org/libraries.html) from Ruby Monstas to learn about the Ruby Standard Library, Rubygems, Bundler, and the Ruby Load Path.
 
 </div>
 

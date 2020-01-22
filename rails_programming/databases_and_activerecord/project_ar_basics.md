@@ -61,7 +61,7 @@ This chapter of the tutorial will give you a chance to start working with the da
 
 ### Your Task
 <div class="lesson-content__panel" markdown="1">
-  1. Do the [Ruby on Rails Tutorial chapter 6](https://www.railstutorial.org/book/modeling_users), "Modeling Users".
+  1. Do the [Ruby on Rails Tutorial chapter 6](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/modeling_users), "Modeling Users".
 </div>
 
 ### Project 2: Micro-Reddit
@@ -118,10 +118,24 @@ If any of those don't work, double check your associations.  Sometimes the error
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/micro-reddit)
+* [Vedant's Solution](https://github.com/vedantshetty/Reddit_On_Rails)
+* [Ian's Solution](https://github.com/IanMKesler/mini-reddit)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/micro-reddit)
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/micro-reddit)
+* [Onur Temiz's Solution](https://github.com/temizonur/micro-reddit)
+* [Kevin Vuong's Solution](https://github.com/fffear/micro_reddit)
+* [Learnsometing's Solution](https://github.com/learnsometing/Rails-Micro_Reddit)
+* [Chris Wegscheid's Solution](https://github.com/cwegscheid08/micro_reddit)
+* [Noah Maizels' Solution](https://github.com/noahniuwa/micro-reddit-odin-tutorial-project)
 * [Simon Tharby's solution](https://github.com/jinjagit/micro-reddit)
 * [Stefano Merazzi's solution](https://github.com/ste001/micro-reddit)
 * [Jason McKee's solution](https://github.com/jttmckee/micro-reddit)
+* [Dennis Cope's Solution](https://github.com/coped/micro-reddit)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/micro-reddit)
 * [goodjobbin85's solution](https://github.com/goodjobbin85/micro-reddit)
 * [prw001's Solution](https://github.com/prw001/micro_reddit)
@@ -219,7 +233,17 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's Soltuion](https://github.com/bchalman/micro-reddit)
 * [Tommy's Solution](https://github.com/hoangtommy/micro-reddit)
 * [Alex's Solution](https://github.com/alexcorremans/micro-reddit)
-* [Brendaneus' Solution](https://github.com/brendaneus/micro-reddit)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/micro-reddit)
+* [Leila Alderman's Solution](https://github.com/leila-alderman/micro-reddit)
+* [JamCry's Solution](https://github.com/jamcry/micro-reddit)
+* [Vanny96's Solution](https://github.com/vanny96/micro_reddit)
+* [Cody B's Solution](https://github.com/CodyLBuffaloe/micro-reddit)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/micro-reddit)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/micro-reddit)
+* [Leo Holanda's Solution](https://github.com/leo-holanda/micro_reddit)
+* [Rey van den Berg's Solution](https://github.com/Rey810/micro-reddit)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

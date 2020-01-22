@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to do the following:
 ### Arrays vs. Hashes
 You're sitting in your cubicle, diligently working away (because you would never dream of slacking off at work), when lunch time rolls around. You need to grab a bite to eat, but how are you going to go about requesting food? For the purposes of this parable, you have two options: a vending machine or a nice restaurant. 
 
-If you were to go to the vending machine, you would see nice, orderly rows of food where each option is labeled with a number. These labels are the indices of the vending machine array. It's important to note that the indices are not interchangable: "12" will always come before "13" and after "11". You request your food by using an index to tell the vending machine what you want. It understands the index and returns whatever lives in that spot. Mmmmm, nothing like a lunch of Flamin' Hot Cheetos and Diet Coke! You are a programmer, after all.
+If you were to go to the vending machine, you would see nice, orderly rows of food where each option is labeled with a number. These labels are the indices of the vending machine array. It's important to note that the indices are not interchangeable: "12" will always come before "13" and after "11". You request your food by using an index to tell the vending machine what you want. It understands the index and returns whatever lives in that spot. Mmmmm, nothing like a lunch of Flamin' Hot Cheetos and Diet Coke! You are a programmer, after all.
 
 Your other option is to sit yourself down at a table covered with a nice white tablecloth, where a pleasant waiter will see to your every need. The first thing they will do is bring you a menu, which for those of you that have only been eating out of vending machines so far in your life, lists out all of your dining options labeled with the name of the dish, such as ["sublimated artichoke frittata" or "whole pork belly, market acorns, and activated shell bean"](http://www.brooklynbarmenus.com/). In this menu hash, the dish names are called **keys**: they are the labels that are used to identify your dining options. The food that those dish names represent are the **values** that the keys point to. To order your food, you give your waiter the key (you tell him the name of the dish you want), and he returns the value of that key (food that matches the description on the menu). Mmmmm, nothing like a lunch of free-range bison with corn and peach compote and an IPA! You are a programmer, after all.
 
@@ -126,7 +126,7 @@ hash2 = { "b" => 254, "c" => 300 }
 hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 ~~~
 
-Notice that the hash getting merged in (in this case, `hash2`) has precedence over the hash getting... uh, merged *at* when both hashes share a key.
+Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same. 
 
 For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-2.6/Hash.html).
 
@@ -160,6 +160,7 @@ japanese_cars[:honda]   #=> "Accord"
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
 </div>
 

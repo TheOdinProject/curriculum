@@ -161,7 +161,7 @@ Sometimes you'll want to write an expression that contains more than one conditi
 
 The operators are `&&`(and), `||`(or) and `!`(not).
 
-There are some differences between the word versions and their symbolic equivalents, particulary the way they evaluate code. I recommend you read [this piece](http://www.virtuouscode.com/2010/08/02/using-and-and-or-in-ruby/) that will explain the differences.
+There are some differences between the word versions and their symbolic equivalents, particularly the way they evaluate code. I recommend you read [this piece](http://www.virtuouscode.com/2010/08/02/using-and-and-or-in-ruby/) that will explain the differences.
 
 The `&&` operator returns true if **both** the left and right expression return true.
 

@@ -12,7 +12,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
   1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
   2. Do the [Jumpstart Lab's Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
-  3. After you finish going through the tutorial, you'll notice that if you delete a tag, all related orphaned taggings will remain there. You can solve this by enforcing [Referential Integrity](https://en.wikipedia.org/wiki/Referential_integrity) by applying the `dependent: :destroy` option for the `has_many` method in the right model. You can learn about it in [This Entry of the Rails Guides](http://guides.rubyonrails.org/association_basics.html)
+  3. At the end of I3: Tags when you're attempting to delete your Article tags, you'll run into an error along the lines of "FOREIGN KEY constraint failed". You can solve this by enforcing [Referential Integrity](https://en.wikipedia.org/wiki/Referential_integrity) by applying the `dependent: :destroy` option for the `has_many` method in the right model. You can learn about it in [This Entry of the Rails Guides](http://guides.rubyonrails.org/association_basics.html)
   4. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
   5. If you're feeling ambitious, add in authentication in section I5.
   6. If you're feeling very ambitious, try doing the final Extras section I6.
@@ -22,7 +22,51 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Armo's Solution](https://github.com/Armoilane/blogger)
+* [Nasser Abachi's Solution](https://github.com/abachi/rails-blogger) - [View in Browser](https://abachidev-rails-blogger.herokuapp.com/)
+* [Dsokzorak's Solution](https://www.github.com/doskzorak/rails_app_1)
+* [Hans Oliveira's Solution](https://github.com/hansnery/rails_blog) - [View in Browser](https://blooming-falls-02218.herokuapp.com/)
+* [Jakob's Solution](https://github.com/jodokusquack/blogger) - [View in Browser](https://salty-reef-56881.herokuapp.com/)
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/blogger)
+* [nearmint's Solution](https://github.com/nearmint/rails-blogger) - [View in Browser](https://protected-shelf-44996.herokuapp.com/) - Partner: [colecrowder](https://github.com/colecrowder/blogger)
+* [Philipp's Solution](https://github.com/philipp-mcvity/blogger)
+* [Ogunmola Israel's Solution](https://github.com/Lippins/blogger_app) - [View in Browser](https://guarded-wildwood-88330.herokuapp.com/)
+* [Robin's Solution](https://github.com/CoolGlasses/blogger) - [View in Browser](https://damp-wave-05629.herokuapp.com)
+* [Olugade Olalekan's Solution](https://github.com/gbadesimple/blogger) -[View in Browser](https://aqueous-garden-12719.herokuapp.com/)
+* [Kris Tobiasson's solution](https://github.com/highpockets/blogger.git) - [View in browser](https://fathomless-peak-19657.herokuapp.com)
+* [hamilto8's solution](https://github.com/hamilto8/blogger)
+* [John Piatras' solution](https://github.com/JohnPiatras/blogger) - [View in browser](https://piatras-blogger-project.herokuapp.com/articles)
+* [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/05-Web_Development_Frameworks/blogger)
+* [Luky's Solution](https://github.com/lcyne/blogger) - [View in browser](https://mighty-reaches-78310.herokuapp.com/)
+* [Ian's Solution](https://github.com/IanMKesler/rails-blog) - [View in browser](https://fathomless-depths-49999.herokuapp.com)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/jumpstart-lab-blogger-tutorial) - [View in browser](https://secret-forest-19270.herokuapp.com/)
+* [Eljoey's Solution](https://github.com/eljoey/Ruby-project) - [View in browser](https://calm-fortress-57875.herokuapp.com/)
+* [nadjastojanovic's Solution](https://github.com/nadjastojanovic/blogger)
+* [Chris' Solution](https://github.com/CSalois114/web101-rails_project)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/blogger) - [View in browser](https://secure-hamlet-95000.herokuapp.com/)
+* [Sherman's Solution](https://github.com/shermansjliu/blogger) - [View in browser](https://protected-plains-12122.herokuapp.com/)
+* [Ben's Solution](https://github.com/Koshoo/Ruby-on-Rails-blog-project/) - [View in browser](http://blogger-ben.herokuapp.com/)
+* [Nicolás Nisoria's Solution](https://github.com/niconisoria/blogger) - [View in browser](https://niconibloggerapp.herokuapp.com)
+* [Daniel Prince's Solution](https://github.com/danielambrosius/my_second_rails_app) - [View in browser](https://glacial-refuge-28698.herokuapp.com/)
+* [Sizigia's Solution](https://github.com/sizigia/blogger) - [View in browser](https://top-blogger.herokuapp.com/)
+* [Neill Hennings's Solution](https://github.com/Rabidza/blogger) - [View in browser](https://safe-caverns-93859.herokuapp.com/)
+* [Sarp's Solution](https://github.com/sarpisik/rails-blogger) - [View in browser](https://mighty-fjord-33192.herokuapp.com/articles)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/rails-blogger) - [View in browser](https://nameless-falls-57483.herokuapp.com/)
+* [Rafe Draper's Solution](https://github.com/rafeDraper/portfolio_Ruby_on_rails) - [View in browser](https://rafedraper-blog.herokuapp.com/) - I0-I5
+* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/blogger) - [View in browser](https://lit-waters-16551.herokuapp.com)
+* [Billy's Solution](https://github.com/bcoffin9/civil-war) - [View in browser](https://glacial-island-56719.herokuapp.com)
+* [Daniel Ryu's solution](https://github.com/dryu99/blogger) - [View in browser](https://stormy-basin-60364.herokuapp.com/articles)
+* [Jose Salvador's solution](https://github.com/Jsalvadorpp/blogger) - [View in browser](https://immense-inlet-47223.herokuapp.com/)
+* [todoroff's solution](https://github.com/todoroff/odin-blog) - [View in browser](https://polar-lake-81082.herokuapp.com/)
+* [George Zhu's solution](https://github.com/georgezhu11/rails-blogger) - [View in browser](https://quiet-cove-12628.herokuapp.com/articles)
+* [Om Dhiraj's Solution](https://github.com/odgripginger/blogger) -  [View in browser](https://intense-bastion-50359.herokuapp.com/ )
+* [Vollantre's Solution](https://github.com/vollantre/blogger) -  [View in browser](https://salty-caverns-97809.herokuapp.com/)
+* [Ricala's Solution](https://github.com/Ricala/Blogger) - [View in browser](https://salty-mountain-26873.herokuapp.com/)
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/blogger-tutorial) - [View in browser](https://evening-scrubland-13985.herokuapp.com/)
 * [Jay Burbyga's Solution](https://github.com/Jaybur1/cubunu-article-hub) - [View in browser](https://cubunu-article-hub.herokuapp.com/)
 * [Kevin Vuong's Solution](https://github.com/fffear/blogger) - [View in browser](https://arcane-bayou-50051.herokuapp.com/)
 * [creep1g's Solution](https://github.com/creep1g/rails-blogger) - [View in browser](https://shrouded-forest-13723.herokuapp.com//)
@@ -341,7 +385,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [MrObele's Solution](https://github.com/MrObele/Rails_Blogger) - [View in Browser](https://davids-blog.herokuapp.com/)
 * [dmarkiewicz's Solution](https://github.com/dmarkiewicz/the-odin-project/tree/master/blogger-app)
 * [Dima Konoval's Solution](https://github.com/DimaKonoval/RailsFirstProject) - [View in Browser](https://afternoon-lake-81884.herokuapp.com/articles)
-* [Brendaneus' Solution](https://github.com/Brendaneus/blogger) - [View in Browser](https://fierce-shelf-91817.herokuapp.com/)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/web-development-101/projects/blogger)
 * [TommyHoang's Solution](https://github.com/hoangtommy/blogger) - [View in Browser](https://thawing-headland-19216.herokuapp.com/)
 * [Emil Dimitrov's solution](https://github.com/imemdm/blogger) - [View in browser](https://ancient-shore-12666.herokuapp.com/)
 * [Husseyexplores' solution](https://github.com/husseyexplores/rails-blogger) - [View in browser](https://husseyblogapp.herokuapp.com/)
@@ -361,6 +405,50 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jahmzu's Solution](https://github.com/jahmzu/TOP-blogger) - [View in browser](https://nameless-wildwood-31838.herokuapp.com/)
 * [HanJosmer's Solution](https://github.com/HanJosmer/blogger) - [View in browser](https://polar-harbor-47038.herokuapp.com/)
 * [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/blogger) - [View in browser](https://fast-meadow-27474.herokuapp.com/)
+* [Wesley Wang's Solution](https://github.com/wesleymellon/blogger) - [View in browser](https://desolate-brook-18571.herokuapp.com/)
+* [JamCry's Solution](https://github.com/jamcry/rails-blogger) - [View in browser](https://jamcrys-blogger.herokuapp.com/)
+* [vanny96's Solution](https://github.com/vanny96/blogger) - [View in browser](https://enigmatic-shore-20767.herokuapp.com/)
+* [keskiviikko's Solution](https://github.com/keskiviikko/blogger)
+* [Ben Fowler's Solution](https://github.com/benfowler04/blogger) - [View in Browser](https://secure-fjord-73494.herokuapp.com/)
+* [LeonJMac's Solution](https://github.com/leonjmac/blogger) - [View in Browser](https://shrouded-mesa-76487.herokuapp.com/)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/blogger) - [View in Browser](https://evening-wave-31483.herokuapp.com/articles/)
+* [Barbara Lucas' Solution](https://github.com/LucasBarbara/blogger) - [View in Browser](https://quiet-garden-45158.herokuapp.com/)
+* [antdricot's Solution](https://github.com/antdricot/odin-rails-project-blogger) - [View in Browser](https://protected-meadow-96769.herokuapp.com/)
+* [Doug Heatter's Solution](https://github.com/drheatter/rails_tutorial) - [View in Browser](https://obscure-peak-64307.herokuapp.com/)
+* [JFAldridge's Solution](https://github.com/JFAldridge/second_rails_blog) - [View in Browser](https://morning-ridge-71514.herokuapp.com/)
+* [Andre Roy's solution](https://github.com/RoyNyaga/Ruby_project) - [View in Browser](https://boiling-garden-17682.herokuapp.com/)
+* [Muminjon's Solution](https://github.com/MuminjonGuru/effective-blogger) - [View in Browser](https://intense-beach-63601.herokuapp.com/) Completed to I5
+* [Tronerta's Solution](https://github.com/Tronerta/blogger) - [View in Browser](https://glacial-oasis-31653.herokuapp.com/) Completed to I6 + Extras
+* [DensenKG's solution](https://github.com/DensenKG/ruby-blog-tutorial) - [View in Browser](https://glacial-cove-81460.herokuapp.com/)
+* [Tristan Ross's solution](https://github.com/TristanRoss/RailsTutorial) - [View in Browser](https://protected-bayou-40626.herokuapp.com/)
+* [Robert Dunbar's solution](https://github.com/RobertDunbar/rails-blogger) - [View in Browser](https://dry-spire-74608.herokuapp.com)
+* [Sanyogita's solution](https://github.com/SanyogitaPandit/blogger) - [View in Browser](https://aqueous-crag-86287.herokuapp.com/)
+* [Alex Gioffre's solution](https://github.com/AlexGioffre/Blogger) - [View in Browser](https://blogger-alexgio.herokuapp.com/)
+* [Cameron St. Amant's solution](https://github.com/CameronStAmant/blog-rails) - [View in Browser](https://quiet-ridge-40484.herokuapp.com/)
+* [Rosanne Nicolai's solution](https://github.com/rjnicolai/blogger) - [View in Browser](https://bref-moliere-78914.herokuapp.com)
+* [Nathan Choi's solution](https://github.com/sihoonathan/blogger) - [View in Browser](https://calm-garden-13460.herokuapp.com/)
+* [Carlos Del Real solution](https://github.com/carloshdelreal/blogger) - [View in Browser](https://murmuring-plateau-19342.herokuapp.com/)
+* [Ray Alvarez's solution](https://github.com/ray-alvarez/blogger) - [View in Browser](https://immense-lake-67875.herokuapp.com/)
+* [Robin's solution](https://github.com/RobinWagner/blogger) - [View in Browser](https://stormy-dusk-73994.herokuapp.com/)
+* [aytung's solution](https://github.com/aytung/blogger) - [View in Browser](https://cryptic-dusk-16801.herokuapp.com/)
+* [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/blogger) - [View in Browser](https://blogger1459.herokuapp.com/) I0 - I5
+* [Martink-rsa's solution](https://github.com/martink-rsa/blogger)
+* [TuSeMorte's solution](https://github.com/TuSeMorte/blogger) - [View in Browser](https://hidden-escarpment-21981.herokuapp.com/)
+* [David Watkin's solution](https://github.com/DavidWatkinCode/blogger) - [View in browser](https://whispering-harbor-45352.herokuapp.com/)
+* [Robert Suazo's solution](https://github.com/rsuazo/blogger) - [View in browser](https://morning-gorge-75442.herokuapp.com/)
+* [DalandanJuice's solution](https://github.com/DalandanJuice/rails_blogger) - [View in browser](https://pacific-escarpment-46091.herokuapp.com/)
+* [hyperturing's solution](https://github.com/hyperturing/rails-blog) - [View in browser](https://shielded-sierra-66737.herokuapp.com/)
+* [Steve White's solution](https://github.com/swhite85/blogger) - [View in broswer](https://afternoon-anchorage-29859.herokuapp.com/)
+* [canicodenow's solution](https://github.com/canicodenow/project_ruby) - [View in browser](https://damp-sea-26254.herokuapp.com/)
+* [Chris Gardner's solution](https://github.com/cgardn/blogger) - [View in browser](https://masterful-blagger.herokuapp.com)
+* [guacamobley's solution](https://github.com/guacamobley/rails-tutorial-project)
+* [AlexGioffDev's solution](https://github.com/AlexGioffDev/Blogger) - [View in browser](https://blogger-rails-alexgioff.herokuapp.com/)
+* [Singhmi4's solution](https://github.com/singhmi4/blogger) - [View in browser](https://powerful-coast-29786.herokuapp.com/)
+* [Andrew Huntington's solution](https://github.com/AndrewHuntington/rails_project) - [View in browser](https://fast-brook-55206.herokuapp.com/)
+* [Busy Bee's solution](https://github.com/swissbusybee/Project-Ruby-on-Rails) 
+* [DamnedLag's solution](https://github.com/Damnedlag/blog-on-rails)
+</details>
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/blogger) - [View in browser](https://uc-blogger.herokuapp.com/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

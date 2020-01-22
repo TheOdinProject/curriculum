@@ -79,7 +79,7 @@ Now it's time to make the Kittens resource available via API.
 2. You should get a sloppy mess of HTML.  If you check out your server output, it's probably processing as XML, e.g. `Processing by KittensController#index as XML`
 3. Try asking specifically for a JSON response by adding the option `:accept => :json`, e.g. `RestClient.get("http://localhost:3000/kittens", :accept => :json)`.  It should throw an error.
 4. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
-5. Test it out by making sure your RestClient calls return the proper JSON strings.
+5. Test it out by making sure your RestClient calls return the proper JSON strings, e.g. `$ r = RestClient.get("http://localhost:3000/kittens", :accept => :json)`, `$ puts r.body`.
 6. Do the same for your `#show` method, which will require you to provide an ID when making your request.  Your CSRF protection will prevent you from creating, updating or deleting kittens via the API, so it's not necessary to implement those.
 
 This project may seem simple, but now you've got a website that is both a normal HTML-producing back end AND an API that can be used to pull data from it.  You could use Javascript calls from the front end to dynamically refresh your data now or even to load the whole page in the first place.  Or maybe you'll be hooking up a Kittens app to your iPhone and need a back end.  It doesn't matter, since now you've got a RESTful API.
@@ -89,7 +89,16 @@ This project may seem simple, but now you've got a website that is both a normal
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/odin-kittens)
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/odin-kittens)
+* [Helmi's Solution](https://github.com/helmihidzir/odin-kittens)
+* [Kevin Vuong's solution](https://github.com/fffear/odin-kittens)
+* [Learnsometing's Solution](https://github.com/learnsometing/rails-odin-apis_users)
+* [Simon Tharby's solution](https://github.com/jinjagit/kittens-api)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-kittens)
 * [Chibuzor's solution](https://github.com/uzorjchibuzor/odin-kitten)
 * [Javier Machin's solution](https://github.com/Javier-Machin/odin-lizards)
@@ -150,6 +159,13 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/kitten)
 * [Malaika's Solution](https://github.com/malaikaMI/odin-kittens)
 * [bchalman's solution](https://github.com/bchalman/odin-kittens)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/kittens-api)
+* [vanny96's Solution](https://github.com/vanny96/odin-kittens)
+* [JamCry's Solution](https://github.com/jamcry/odin-kittens-api)
+* [Jamesredux's Solution](https://github.com/Jamesredux/odin-kittens)
+* [Rey van den Berg's Solution](https://github.com/Rey810/odin-kittens-api)
+
+</details>
 
 ### Project 2: Using a Third Party API
 
@@ -159,7 +175,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 
 <div class="lesson-content__panel" markdown="1">
 1. Go back to the [Flickr API Docs](http://www.flickr.com/services/api/) and click [Create an App](http://www.flickr.com/services/apps/create/) at the top.
-2. Follow the steps for getting your API key.  You'll have to sign in or sign up for Yahoo (someone has to these days) and give them some basic information about your app.  Select "Apply for a non-commercial key" and let them know how awesome your photo feed app will be.  You'll automatically get a key generated for you, in addition to a secret key.  Copy both of these somewhere you can get to them later.
+2. Follow the steps for getting your API key.  You'll have to sign in or sign up for Flickr (someone has to these days) and give them some basic information about your app.  Select "Apply for a non-commercial key" and let them know how awesome your photo feed app will be.  You'll automatically get a key generated for you, in addition to a secret key.  Copy both of these somewhere you can get to them later.
 3. Use the [idGettr](http://idgettr.com/) website to look up your ID by pasting in your flickr username in the example URL, e.g. `http://www.flickr.com/photos/eriktrautman/`.  You'll need that later for some of the API methods.
 4. Upload a few photos to your photostream!
 5. Create a new Rails app and add a gem for the [Flickr API](http://lmgtfy.com/?q=flickr+api+gem). There are gems for pretty much every API out there. They will all require you to include your API keys and secret keys somehow. Look for gems that are maintained (have recent commits) and well-adopted (GitHub stars is one way to get a good gauge for how valuable a gem is).
@@ -171,7 +187,15 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/flickr-widget)
+* [Helmi's Solution](https://github.com/helmihidzir/odin_flickr)
+* [Kevin Vuong's solution](https://github.com/fffear/odin_flickr)
+* [Learnsometing's Solution](https://github.com/learnsometing/Rails-flickr_api)
+* [Simon Tharby's solution](https://github.com/jinjagit/flickr-api) - [View in browser](https://findr-simontharby.herokuapp.com/)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-flickr.git) | [Live](https://immense-bayou-47624.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-flickr)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Flickr-API)
@@ -218,6 +242,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/Flickr_photos)
 * [Malaika's Solution](https://github.com/malaikaMI/flickr-browser)
 * [bchalman's solution](https://github.com/bchalman/odin-flickr-api)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/flickr-api)
+* [Jamesredux's solution](https://github.com/Jamesredux/flickr_app) - [View in Browser](https://sleepy-castle-29757.herokuapp.com/)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
