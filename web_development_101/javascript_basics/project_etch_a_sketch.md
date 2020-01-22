@@ -726,4 +726,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Tori's Solution](https://github.com/ToriPotts/etch-a-sketch) - [View in Browser](https://toripotts.github.io/etch-a-sketch/)
 * [Sepharvaim 's Solution](https://github.com/Sepharvaim/Project--Eatch-a-Sketch) - [View in Browser](https://sepharvaim.github.io/Project--Eatch-a-Sketch/)
 * [nestor-c's Solution](https://github.com/nestor-c/etchasketch)
+* [Nick's Solution](https://njferrari14.github.io/etch-a-sketch/) - [View in Browser](https://njferrari14.github.io/etch-a-sketch/)
 </details>
