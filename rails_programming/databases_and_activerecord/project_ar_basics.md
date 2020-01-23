@@ -122,6 +122,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/micro-reddit)
+* [Vedant's Solution](https://github.com/vedantshetty/Reddit_On_Rails)
 * [Ian's Solution](https://github.com/IanMKesler/mini-reddit)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/micro-reddit)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/micro-reddit)
@@ -231,7 +233,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's Soltuion](https://github.com/bchalman/micro-reddit)
 * [Tommy's Solution](https://github.com/hoangtommy/micro-reddit)
 * [Alex's Solution](https://github.com/alexcorremans/micro-reddit)
-* [Brendaneus' Solution](https://github.com/brendaneus/micro-reddit)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/micro-reddit)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/micro-reddit)
 * [JamCry's Solution](https://github.com/jamcry/micro-reddit)
 * [Vanny96's Solution](https://github.com/vanny96/micro_reddit)

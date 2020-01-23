@@ -99,6 +99,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nasser Abachi's Solution](https://github.com/abachi/clubhouse) - [Heroku](https://abachidev-clubhouse.herokuapp.com/)
+* [Ian's Solution](https://github.com/IanMKesler/members-only)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/members-only)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/members-only) - [Heroku](https://hidden-headland-49130.herokuapp.com/)
 * [Kevin Vuong's solution](https://github.com/fffear/members_only)
@@ -196,13 +198,14 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [ParamagicDev's Solution](https://github.com/ParamagicDev/clubhouse.git)
 * [bchalman's Solution](https://github.com/bchalman/members-only)
 * [Alex's solution](https://github.com/alexcorremans/members-only)
-* [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/members-only) - [View in browser](https://guarded-escarpment-32564.herokuapp.com/posts)
+* [Brendaneus' solution](https://theodinprojects.live/courses/ruby-on-rails/projects/members-only)
 * [Leila Alderman's solution](https://github.com/leila-alderman/members-only) - [View in Browser](https://fierce-bayou-19850.herokuapp.com/)
 * [JamCry's solution](https://github.com/jamcry/members-only-app) - [View on Heroku](https://quiet-hamlet-54958.herokuapp.com/)
 * [vanny96's solution](https://github.com/vanny96/clubhouse) - [View on Heroku](https://shrouded-brushlands-95445.herokuapp.com/)
 * [themetar's solution (Github)](https://github.com/themetar/members-only-top) - [Live on Heroku](https://mysterious-coast-30783.herokuapp.com/)
 * [Nyaga Roy's Solution](https://github.com/RoyNyaga/new_members_blog_odin)
 * [Miguel Prada's Solution](https://github.com/mapra99/m-only)
+* [Rey van den Berg's Solution](https://github.com/Rey810/members-only-app.git)
 </details>
 
 ### Additional Resources
