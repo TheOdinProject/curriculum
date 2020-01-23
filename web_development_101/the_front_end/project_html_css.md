@@ -2912,6 +2912,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sonyas Solution (Easy)](https://github.com/murdens/google_homepage) - [View in Browser](https://murdens.github.io/google_homepage/)
 * [Lucas-Vergara's Solution (Easy)](https://github.com/Lucas-Vergara/google-homepage) - [View in Browser](https://lucas-vergara.github.io/google-homepage/)
 * [Jeremy Ebinum's Solution (Both)](https://github.com/jeremy-ebinum/google-homepage) - [View in Browser](https://jeremy-ebinum.github.io/google-homepage/)
+* [Kuba Zawierucha's Solution (Both)](https://github.com/KubaZawierucha/google-homepage) - [View in Browser](https://kubazawierucha.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
