@@ -2761,6 +2761,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [pmwals09's Solution (Easy)](https://github.com/pmwals09/google-homepage) - [View in Browser](https://pmwals09.github.io/google-homepage/)
 * [Zane's Solution (Easy)](https://github.com/considine157/google-homepage) - [View in Browser](https://considine157.github.io/google-homepage/)
 * [Lucio's Solution (Easy)](https://github.com/JCarlosLucio/google-homepage) - [View in Browser](https://JCarlosLucio.github.io/google-homepage/)
+* [Lucio's Solution (Difficult)](https://github.com/JCarlosLucio/google-search-results) - [View in Browser](https://jcarloslucio.github.io/google-search-results/)
 * [Michelle12188's Solution (Easy)](https://github.com/Michelle12188/html-css-project) - [View in Browser](https://michelle12188.github.io/html-css-project/)
 * [JDPescosta's Solution (Easy)](https://github.com/JDPescosta/html-css-project) - [View in Browser](https://jdpescosta.github.io/html-css-project/)
 * [JustCourt's Solution (Easy)](https://github.com/JustCourt/google-homepage) - [View in Browser](https://justcourt.github.io/google-homepage/)
