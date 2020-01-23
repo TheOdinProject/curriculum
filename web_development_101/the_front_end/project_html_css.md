@@ -2900,6 +2900,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Molokdrone's's Solution (Hard)](https://github.com/Molokdrone/google-homepage) - [View in Browser](https://molokdrone.github.io/google-homepage/)
 * [Arf65's Solution (Easy)](https://github.com/arf65/google-homepage) - [View in Browser](https://arf65.github.io/google-homepage/)
 * [ladiladi's Solution (Easy)](https://github.com/ladiladi/google-homepage) - [View in Browser](https://ladiladi.github.io/google-homepage/)
+* [sebhobbs's Solution (Easy)](https://github.com/Sebhobbs/google-homepage) - [View in Browser](https://sebhobbs.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
