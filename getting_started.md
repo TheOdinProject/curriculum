@@ -1,5 +1,5 @@
 # Getting Started
-
+#Read_ME
 ## About The Odin Project
 
 *The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to get you on the path towards acquiring a job-ready skillset.*
