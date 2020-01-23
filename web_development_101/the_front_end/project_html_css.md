@@ -91,6 +91,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Camilo Caicedo Solution (Difficult)](https://camiloandrescaicedoguzman.github.io/google-homepage/) - [View in Browser](https://camiloandrescaicedoguzman.github.io/google-homepage/)
+* [Camilo Caicedo Solution (Easy)](https://camiloandrescaicedoguzman.github.io/google-homepage/) - [View in Browser](https://camiloandrescaicedoguzman.github.io/google-homepage/.)
+* [Satyam's Solution (Easy)](https://github.com/styamsingh/google-homepage) - [View in Browser](https://styamsingh.github.io/google-homepage)
 * [Ezekiel Mworekwa Solution (Easy)](https://github.com/vanheaven-ui/google_home_clone) - [View in Browser](https://vanheaven-ui.github.io/google_home_clone/)
 * [perezs12's Solution (Easy)](https://perezs12.github.io/google-homepage/)
 * [abkhale Solution (Difficult)](https://github.com/abkhale17/google-homepage) - [View in Browser](https://abkhale17.github.io/google-homepage/)
