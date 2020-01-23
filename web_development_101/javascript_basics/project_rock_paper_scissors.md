@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Eugene Grossman's Solution](https://github.com/eugenegrossman/RPS)
 - [Brianna Tobin's solution](https://github.com/btobin86/rock-paper-scissors)
 - [ryannathanwilson's Solution](https://github.com/ryannathanwilson/Rock_Paper_Scissors) - [View in Browser](https://ryannathanwilson.github.io/Rock_Paper_Scissors/)
 - [nelsonskywalker's Solution](https://github.com/nelsonskywalker/rock-paper-scissors) - [View in Browser](https://nelsonskywalker.github.io/rock-paper-scissors/)
@@ -1194,7 +1195,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Courgette's Solution](https://github.com/bing0i/rock-paper-scissors) - [View in Browser](https://bing0i.github.io/rock-paper-scissors/)
 - [endymi0n's Solution](https://github.com/3ndymi0n/SPR) - [View in Browser](https://3ndymi0n.github.io/SPR/index.html)
 - [Timework's Solution](https://github.com/Timework/firstGame/blob/master/index.html) - [View in Browser](https://timework.github.io/firstGame/)
-- [StraytJacquet's Solution](https://github.com/Straytjacquet/Rock_Paper_Scissors) - [View in Browser](https://straytjacquet.github.io/Rock_Paper_Scissors/) 
+- [StraytJacquet's Solution](https://github.com/Straytjacquet/Rock_Paper_Scissors) - [View in Browser](https://straytjacquet.github.io/Rock_Paper_Scissors/)
 - [Andrea Maiolo's Solution](https://github.com/andrea-maiolo/rockPaperScissor) - [View in Browser](https://andrea-maiolo.github.io/rockPaperScissor/)
 - [gwen's Solution](https://github.com/gwnm/rock_paper_scissors/blob/master/index.html) - [View in Browser](https://gwnm.github.io/rock_paper_scissors/)
 - [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/rock-paper-scissors) - [View in Browser](https://blessedonekobo.github.io/rock-paper-scissors/)
