@@ -712,5 +712,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Y02WK's solution](https://github.com/Y02WK/EtchASketch) - [View in Browser](https://y02wk.github.io/EtchASketch/)
 * [0xtaf's solution](https://github.com/0xtaf/etch-a-sketch) - [View in Browser](https://0xtaf.github.io/etch-a-sketch/)
 * [elram's solution](https://github.com/erampono/etch-a-sketch) - [View in Browser](https://erampono.github.io/etch-a-sketch/)
+* [Cinthia's solution](https://github.com/cinthiagodoi/ETCH-A-SKETCH) - [View in Browser](https://cinthiagodoi.github.io/ETCH-A-SKETCH/)
 </details>
 

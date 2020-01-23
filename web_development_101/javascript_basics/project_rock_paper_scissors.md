@@ -1183,4 +1183,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kimvitug05's Solution](https://github.com/kimvitug05/rock-paper-scissors) - [View in Browser](https://kimvitug05.github.io/rock-paper-scissors/)
 - [Courgette's Solution](https://github.com/bing0i/rock-paper-scissors) - [View in Browser](https://bing0i.github.io/rock-paper-scissors/)
 - [endymi0n's Solution](https://github.com/3ndymi0n/SPR) - [View in Browser](https://3ndymi0n.github.io/SPR/index.html)
+[Cinthia's Solution](https://github.com/cinthiagodoi/rock_paper_scissors) - [View in Browser](https://cinthiagodoi.github.io/rock_paper_scissors/)
 </details>
