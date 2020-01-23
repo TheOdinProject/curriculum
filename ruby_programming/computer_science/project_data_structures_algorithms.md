@@ -254,6 +254,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Billy's Solution](https://github.com/bcoffin9/project_springer_travails)
 * [proto-dylan's Solution](https://github.com/proto-dylan/knight_moves/blob/master/knight_moves.rb)
 * [fossegrim's Solution](https://github.com/olav35/data-structures-and-algorithms/blob/master/knight's_travails.rb)
 * [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/knight_moves.rb)
