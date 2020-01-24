@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Leonardo Rodriguez Solution (Easy)](https://github.com/leonardorleon/google-homepage) - [View in Browser](https://leonardorleon.github.io/google-homepage/)
 * [Camilo Caicedo Solution (Difficult)](https://camiloandrescaicedoguzman.github.io/google-homepage/) - [View in Browser](https://camiloandrescaicedoguzman.github.io/google-homepage/)
 * [Camilo Caicedo Solution (Easy)](https://camiloandrescaicedoguzman.github.io/google-homepage/) - [View in Browser](https://camiloandrescaicedoguzman.github.io/google-homepage/.)
 * [Satyam's Solution (Easy)](https://github.com/styamsingh/google-homepage) - [View in Browser](https://styamsingh.github.io/google-homepage)
@@ -2911,7 +2912,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [anniemaejenkins' Solution (Easy)](https://github.com/anniemaejenkins/google-homepage) - [View in Browser](https://anniemaejenkins.github.io/google-homepage/)
 * [Sonyas Solution (Easy)](https://github.com/murdens/google_homepage) - [View in Browser](https://murdens.github.io/google_homepage/)
 * [Lucas-Vergara's Solution (Easy)](https://github.com/Lucas-Vergara/google-homepage) - [View in Browser](https://lucas-vergara.github.io/google-homepage/)
-* [Jeremy Ebinum's Solution (Both)](https://github.com/jeremy-ebinum/google-homepage) - [View in Browser](https://jeremy-ebinum.github.io/google-homepage/)
+* [Jeremy Ebinum's Solution (Both)](https://github.com/jeremy-ebinum/top-google-homepage) - [View in Browser](https://jeremy-ebinum.github.io/top-google-homepage/)
+* [Kuba Zawierucha's Solution (Both)](https://github.com/KubaZawierucha/google-homepage) - [View in Browser](https://kubazawierucha.github.io/google-homepage/)
+* [Abdul Ebens' Solution (Easy)](https://github.com/abdulebens/google-homepage) - [View in Browser](https://abdulebens.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
