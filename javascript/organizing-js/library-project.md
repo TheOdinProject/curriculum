@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [chickenwing123's Solution](https://github.com/chickenwings123/Library) - [View in Browser](https://chickenwings123.github.io/Library/)
 - [Doskzorak's Solution](https://github.com/doskzorak/Library_Project)
 - [Greg's Solution](https://github.com/gregbast1994/odin-library) - [View in Browser](https://gregbast1994.github.io/odin-library/)
 - [Paul's Solution](https://github.com/ppayne12/library) - [View in Browser](https://ppayne12.github.io/library/)
