@@ -734,4 +734,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jamesredux's Solution](https://github.com/Jamesredux/sketch2/) - [View in Browser](https://jamesredux.github.io/sketch2/)
 * [lazy-void's Solution](https://github.com/lazy-void/etch-a-sketch) - [View in Browser](https://lazy-void.github.io/etch-a-sketch/)
 * [Ambujc's Solution](https://github.com/ambujc25/etch-a-sketch) - [View in Browser](https://ambujc25.github.io/etch-a-sketch/)
+* [Cinthia's Solution](https://github.com/cinthiagodoi/ETCH-A-SKETCH) - [View in Browser](https://cinthiagodoi.github.io/ETCH-A-SKETCH/)
 </details>
