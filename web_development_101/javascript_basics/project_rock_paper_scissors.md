@@ -1205,5 +1205,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ScottB's Solution](https://scottbowles.github.io/rockpaperscissors/)
 - [phumLWC's Solution](https://github.com/PhumLWC/Rock-Paper-Scissors) - [View in Browser](https://phumlwc.github.io/Rock-Paper-Scissors/)
 - [Miguelus373's Solution](https://github.com/Miguelus373/Rock-Paper-Scissors_Script) - [View in Browser](https://miguelus373.github.io/Rock-Paper-Scissors_Script/)
+- [Alex Burman's Solution](https://github.com/alex-burman/rock-paper-scissors)
 - [Richard Vu's Solution](https://github.com/richardtvu/rock-paper-scissors) - [View in Browser](https://richardtvu.github.io/rock-paper-scissors/)
 </details>
