@@ -130,6 +130,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
 * Robert Dunbar's Solution [GitHub](https://github.com/RobertDunbar/sinatra/tree/master/games) - [Heroku](https://lit-refuge-73632.herokuapp.com/)
 * Leo Holanda's Solution [Github](https://github.com/leo-holanda/sinatra_caesar_cipher) - [See it on the web](https://protected-dusk-87027.herokuapp.com)
 * Carlos Diaz's Solution [GitHub](https://github.com/bycdiaz/caesar-cipher-reloaded) - [Heroku](https://hidden-springs-00448.herokuapp.com/)
+* guacamobley's solution [Github](https://github.com/guacamobley/caesar-cipher-webapp) - [Heroku](https://guacamobley-caesar-cipher.herokuapp.com)
 </details>
 
 ### Project 2: Another Web-Game
@@ -246,4 +247,5 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
 * Leo Holanda's Solution [Github](https://github.com/leo-holanda/sinatra_mastermind) - [See it on the web](https://hidden-dawn-45108.herokuapp.com/)
 * Robert Dunbar's Solution [GitHub](https://github.com/RobertDunbar/sinatra/tree/master/games) - [Heroku](https://lit-refuge-73632.herokuapp.com/)
 * Joe Lee Hangman's Solution [GitHub](https://github.com/JoeDravarol/sinatra_hangman) - [Heroku](https://blooming-crag-69548.herokuapp.com/)
+* guacamobley's solution [Github](https://github.com/guacamobley/sinatra_mastermind) - [Heroku](https://guacamobley-sinatra-mastermind.herokuapp.com)
 </details>
