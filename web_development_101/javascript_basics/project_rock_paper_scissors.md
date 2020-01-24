@@ -60,7 +60,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tim's Solution](https://github.com/timothydadams/rps) - [View in Browser](https://timothydadams.github.io/rps/)
 - [chickenwing123's Solution](https://github.com/chickenwings123/first_javascript_project) - [View in Browser](https://chickenwings123.github.io/first_javascript_project/)
 - [Shwig's Solution](https://github.com/Shwig/rock-paper-scissors) - [View in Browser](https://shwig.github.io/rock-paper-scissors/)
-- [Chris Hilborne's Solution](https://github.com/ChrisHilborne/rock-paper-scissors)
+- [Chris Hilborne's Solution](https://github.com/ChrisHilborne/rock-paper-scissors) - [View in Browser](https://chrishilborne.github.io/rock-paper-scissors/index.html)
 - [Oussama TARHI's Solution with UI](https://github.com/ousstarhi/rock-paper-scissors-v2.0-UI) - [View in Browser](https://ousstarhi.github.io/rock-paper-scissors-v2.0-UI)
 - [Oussama TARHI's Solution](https://github.com/ousstarhi/rock-paper-scissors-v1)
 - [tacodtripa's Solution](https://github.com/tacodtripe/rock-paper-scissors) -[View in Browser](https://tacodtripe.github.io/rock-paper-scissors/)
