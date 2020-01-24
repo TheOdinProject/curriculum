@@ -25,6 +25,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ashish's Solution](https://github.com/CodersGas/bootstrap-project) - [View in Browser](https://codersgas.github.io/bootstrap-project/page.html)
 * [Kevin Vuong's Solution](https://github.com/fffear/bootstrap-project) - [View in Browser](https://fffear.github.io/bootstrap-project/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/newsweek-clone) - [View in Browser](https://braxtonlemmon.github.io/newsweek-clone/)
 * [David Auza's Solution](https://github.com/davidauza-engineer/Bootstrap-NewsweekClone) - [View in Browser](https://davidauza-engineer.github.io/Bootstrap-NewsweekClone/)
