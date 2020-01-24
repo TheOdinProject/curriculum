@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jodokusquack's solution](https://github.com/jodokusquack/Advanced_ruby_challenges)
 * [David Auza's and Falguni Islam's Solution](https://github.com/eng-monika/RUBY-PROJECT-Advanced-Building-Blocks---Bubble-Sort) - [View Demo](https://repl.it/@DavidAuza/Bubble-Sort-Algorithm-Demo)
 * [olsi2984's Solution](https://github.com/olsi2984/Ruby_projects/blob/master/Enumerable_methods/enumerable.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/advanced_building_blocks/p1_bubble_sort)
@@ -448,6 +449,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jodokusquack's solution](https://github.com/jodokusquack/Advanced_ruby_challenges)
 * [fossegrim's Solution](https://github.com/olav35/advanced-building-blocks/blob/master/enumerable_methods.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/blob/master/advanced_building_blocks/p2_enumerable_methods/enumerables.rb)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/ruby_custom_methods/enumarable.rb)
@@ -766,7 +768,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [hyperturing's Solution](https://github.com/hyperturing/advanced-building-blocks/tree/master/enumerable)
 * [guacamobley's Solution](https://github.com/guacamobley/ruby-advanced-building-blocks/blob/master/enumerable_methods.rb)
 * [Rafael Rodriguez Garcia's Solution](https://github.com/rrg1459/my_enumerable/blob/master/enumerable.rb)
-* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/enumerable_methods.rb)
+* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/enumerable_methods/lib/enumerable_methods.rb)
 * [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Bubble_sort/bubble_sort.rb)
 * [Busy Bee's solution](https://github.com/swissbusybee/Advanced_ruby_building_blocks_Projects)
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-advanced-building-blocks/blob/master/my_enumerable.rb)
