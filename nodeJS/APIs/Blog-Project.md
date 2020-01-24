@@ -32,6 +32,7 @@ To add your solution to the list below, edit this [file](#) (located on The Odin
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Eljoey's Solution](https://github.com/eljoey/Blog-Api) - [Blog Site](https://jh-blog.netlify.com/)
 
 </details>
 
