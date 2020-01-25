@@ -65,5 +65,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Mitchell's Solution](https://github.com/mleers/simple-node-website)
 - [Kale33's Soltuion](https://github.com/poreniyi/Basic-Informational-Site)
 - [Aron's Solution](https://github.com/aronfischer/first_nodejs_app)
-
+- [Fred's Solution](https://github.com/fchasin/FirstWebsite)
 </details>
