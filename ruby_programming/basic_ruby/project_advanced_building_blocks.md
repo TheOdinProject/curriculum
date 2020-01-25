@@ -449,6 +449,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Auza's Solution](https://github.com/davidauza-engineer/Ruby-Advanced-Building-Blocks-Enumerable-Methods) - [View Demo](https://repl.it/@DavidAuza/Ruby-Advanced-Building-Blocks-Enumerable-Methods)
 * [jodokusquack's solution](https://github.com/jodokusquack/Advanced_ruby_challenges)
 * [fossegrim's Solution](https://github.com/olav35/advanced-building-blocks/blob/master/enumerable_methods.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/blob/master/advanced_building_blocks/p2_enumerable_methods/enumerables.rb)
