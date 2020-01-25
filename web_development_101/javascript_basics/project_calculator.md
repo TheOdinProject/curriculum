@@ -496,4 +496,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mthsgrc's Solution](https://github.com/mthsgrc/calculator_odin) - [View in Browser](https://mthsgrc.github.io/calculator_odin/)
 - [kristiana's Solution](https://github.com/KristianaGaizauskiene/calculator)
 - [0xtaf's Solution](https://github.com/0xtaf/calculator) - [View in Browser](https://0xtaf.github.io/calculator/)
+- [Cinthia's Solution](https://github.com/cinthiagodoi/calculator) - [View in Browser](https://cinthiagodoi.github.io/calculator/)
 </details>
