@@ -2915,6 +2915,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jeremy Ebinum's Solution (Both)](https://github.com/jeremy-ebinum/top-google-homepage) - [View in Browser](https://jeremy-ebinum.github.io/top-google-homepage/)
 * [Kuba Zawierucha's Solution (Both)](https://github.com/KubaZawierucha/google-homepage) - [View in Browser](https://kubazawierucha.github.io/google-homepage/)
 * [Abdul Ebens' Solution (Easy)](https://github.com/abdulebens/google-homepage) - [View in Browser](https://abdulebens.github.io/google-homepage/)
+  [Blip's Solution (Easy)] (https://github.com/BlipOnNobodysRadar/google-homepage) - [View in Browser](https://bliponnobodysradar.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
