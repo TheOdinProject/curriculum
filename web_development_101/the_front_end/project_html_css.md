@@ -2917,6 +2917,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kuba Zawierucha's Solution (Both)](https://github.com/KubaZawierucha/google-homepage) - [View in Browser](https://kubazawierucha.github.io/google-homepage/)
 * [Abdul Ebens' Solution (Easy)](https://github.com/abdulebens/google-homepage) - [View in Browser](https://abdulebens.github.io/google-homepage/)
 * [Blip's Solution (Easy)](https://github.com/BlipOnNobodysRadar/google-homepage) - [View in Browser](https://bliponnobodysradar.github.io/google-homepage/)
+* [Mike Doyle's Solution (Easy)] (https://doyle9000.github.io/google-homepage) - [View in Browser] (https://doyle9000.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
