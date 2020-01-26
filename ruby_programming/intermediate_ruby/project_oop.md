@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [robo-monk's Solution](https://github.com/robo-monk/tic)
 * [Infectos's Solution](https://github.com/infectos/TicTacToe_Ruby)- [View in repl.it](https://repl.it/@infectos/TicTacToe)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_tictactoe)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/tic_tac_toe)
