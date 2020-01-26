@@ -1176,7 +1176,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ambuj's Solution](https://github.com/ambujc25/js-rock-paper-scissors) - [View in Browser](https://ambujc25.github.io/js-rock-paper-scissors/)
 - [Momin's Solution](https://github.com/mominqadri/rock-paper-scissors) - [View in Browser](https://mominqadri.github.io/rock-paper-scissors/)
 - [mkcvh's Solution](https://github.com/mkcvh/rock-paper-scissors) - [View in Browser](https://mkcvh.github.io/rock-paper-scissors/)
-- [dphtran501's Solution](https://github.com/dphtran501/rock-paper-scissors)
+- [dphtran501's Solution](https://github.com/dphtran501/rock-paper-scissors) - [View in Browser](https://dphtran501.github.io/rock-paper-scissors/)
 - [Sean's Solution](https://github.com/sismanik33/rock-paper-scissors)
 - [alicee88's Solution](https://github.com/alicee88/rockpaperscissors) - [View in Browser](https://alicee88.github.io/rockpaperscissors/)
 - [aqib21's Solution](https://github.com/aqib21/rock-papaer-scissors-lizard-spock) - [View in Browser](https://aqib21.github.io/rock-papaer-scissors-lizard-spock/)
