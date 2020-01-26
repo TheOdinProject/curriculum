@@ -30,6 +30,8 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/toy_app) - [Live](https://toy-app-54058.herokuapp.com/)
+* [Nasser Abachi's Solution](https://github.com/abachi/toy-app) - [Live](https://abachidev-toy-app.herokuapp.com/)
 * [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/toy-app)
 * [BShowen's Solution](https://github.com/BShowen/rails_toy_app) - [Live](https://bradley-toy-app.herokuapp.com)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/toy_app) - [Live](https://fast-scrubland-64335.herokuapp.com/users)
@@ -155,4 +157,6 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/toy-app) - [Heroku](https://hidden-brushlands-06627.herokuapp.com)
 * [Rey's Solution](https://github.com/Rey810/Toy-App) - [Heroku](https://whispering-mountain-63621.herokuapp.com)
 * [Miguel's Solution](https://github.com/mapra99/toyApp)
+* [Hunter Marshall's Solution](https://github.com/Beidah/rails-toy-app)
+* [Nick Sokolov's Solution](https://github.com/Nickollay/Odin_Hurtl_a_toy_app) - [Live](https://nkyejuov.herokuapp.com/)
 </details>
