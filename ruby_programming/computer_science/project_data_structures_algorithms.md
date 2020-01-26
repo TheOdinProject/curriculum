@@ -404,5 +404,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Bendee's Solution](https://github.com/bendee48/Data-Structures/blob/master/knight_moves.rb)
 * [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/knights_travails.rb)
 * [guacamobley's Solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/knights-travails.rb)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ds_and_algos/blob/master/knights_moves.rb)
 
 </details>
