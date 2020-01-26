@@ -207,6 +207,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee's Solution](https://github.com/bendee48/Data-Structures)
 * [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/binary_search_tree.rb)
 * [guacamobley's solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/binary-search-tree.rb)
+* [Robert Suazo's solution](https://github.com/rsuazo/binary_search_tree/blob/master/binary_search_tree.rb)
 
 </details>
 
