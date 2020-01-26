@@ -736,4 +736,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Ambujc's Solution](https://github.com/ambujc25/etch-a-sketch) - [View in Browser](https://ambujc25.github.io/etch-a-sketch/)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/ETCH-A-SKETCH) - [View in Browser](https://cinthiagodoi.github.io/ETCH-A-SKETCH/)
 * [Timework's Solution](https://github.com/Timework/sketch) - [View in Browser](https://timework.github.io/sketch/)
+* [Daniel's Solution](https://github.com/amigoinsano/TheOdinProject-Etch-a-Sketch/settings) - [View in Browser](https://amigoinsano.github.io/TheOdinProject-Etch-a-Sketch/index.html)
 </details>
