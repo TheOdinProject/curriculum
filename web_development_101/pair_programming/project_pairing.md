@@ -176,6 +176,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [DamnedLag's Solution](https://github.com/Damnedlag/pomodoro) - [View in Browser](https://damnedlag.github.io/pomodoro/)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/pomodoro) - [View in Browser](https://unheavenlycreature.github.io/pomodoro)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/pomodoro-clock) - [View in Browser](https://eduardo06sp.github.io/pomodoro-clock/)
+* [Courgette's Solution](https://github.com/bing0i/pomodoro-clock) - [View in Browser](https://bing0i.github.io/pomodoro-clock/)
 </details>
 
 ### Next Steps
