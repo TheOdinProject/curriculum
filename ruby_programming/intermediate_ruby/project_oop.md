@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [robo-monk's Solution](https://github.com/robo-monk/tic)
 * [Infectos's Solution](https://github.com/infectos/TicTacToe_Ruby)- [View in repl.it](https://repl.it/@infectos/TicTacToe)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_tictactoe)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/tic_tac_toe)
@@ -342,6 +343,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Infectos's Solution (with AI)](https://github.com/infectos/Mastermind) - [Live repl.it Version](https://repl.it/@infectos/Mastermind)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_mastermind)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/mastermind)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/mastermind)
@@ -578,6 +580,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/mastermind/)
 * [hyperturing's Solution (with 6-move AI)](https://github.com/hyperturing/mastermind)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/mastermind.rb)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/Mastermind)
 </details>
 
 ### Additional Resources
