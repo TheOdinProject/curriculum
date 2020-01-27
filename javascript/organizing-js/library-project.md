@@ -186,5 +186,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [mmboyce's Solution (w/localstorage)](https://github.com/mmboyce/Library) - [View in Browser](https://mmboyce.github.io/Library/)
 - [Hamohuh's Solution](https://github.com/hamohuh/library) - [View in Browser](https://hamohuh.github.io/library)
 - [DamnedLag's Solution](https://github.com/Damnedlag/project_library) - [View in Browser](https://damnedlag.github.io/project_library/)
+- [0xtaf's Solution](https://github.com/0xtaf/library) - [View in Browser](https://0xtaf.github.io/library/)
 </details>
 
