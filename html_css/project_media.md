@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Joshysmart's Solution](https://github.com/joshysmart/youtube-player-page) - [View in browser](https://joshysmart.github.io/youtube-player-page/)
 * [Igorashs's Solution](https://github.com/igorashs/embedding-images-and-video) - [View in browser](https://igorashs.github.io/embedding-images-and-video/)
 * [TheGudu's Solution](https://github.com/TheGudu/YouTubeProjectOdin)  
 * [MikkRou's Solution](https://github.com/MikkRou/embeding-images-and-video) - [View in browser](https://mikkrou.github.io/embeding-images-and-video/)
