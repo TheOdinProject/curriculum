@@ -724,4 +724,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Courgette's Solution](https://github.com/bing0i/etch-a-sketch) - [View in Browser](https://bing0i.github.io/etch-a-sketch/)
 * [pudu87's Solution](https://github.com/pudu87/etch-a-sketch) - [View in Browser](https://pudu87.github.io/etch-a-sketch/)
 * [Tori's solution](https://github.com/ToriPotts/etch-a-sketch) - [View in Browser](https://toripotts.github.io/etch-a-sketch/)
+* [LenaChestnut's solution](https://github.com/LenaChestnut/Etch-a-Sketch) - [View in Browser](https://lenachestnut.github.io/Etch-a-Sketch/)
 </details>
