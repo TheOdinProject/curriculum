@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [James Moua's (Easy)](https://github.com/huehealer/google-homepage/) - [View in Browser](https://huehealer.github.io/google-homepage/)
 * [Derek Holland's Solution (Easy)](https://github.com/derekholland/google-homepage/) - [View in Browser](https://derekholland.github.io/google-homepage/)
 * [Austin's Solution (Easy)](https://github.com/cudworth/google-homepage/) - [View in Browser](https://cudworth.github.io/google-homepage/)
 * [Leonardo Rodriguez Solution (Easy)](https://github.com/leonardorleon/google-homepage) - [View in Browser](https://leonardorleon.github.io/google-homepage/)
