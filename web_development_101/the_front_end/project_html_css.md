@@ -2922,7 +2922,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mike Doyle's Solution (Easy)](https://github.com/doyle9000/google-homepage) - [View in Browser](https://doyle9000.github.io/google-homepage/)
 * [Nic W's Solution (Easy)](https://github.com/nicbw/google-homepage) - [View in Browser](https://nicbw.github.io/google-homepage/)
 * [Safa ERDEN's Solution (Easy)](https://github.com/safaerden/google/) - [View in Browser](https://safaerden.github.io/google/)
-</details>
+</details> 
+*[Raymond Phelan's Solution (easy)](https://rayphe.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
