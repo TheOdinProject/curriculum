@@ -984,6 +984,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/substring.rb)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/substrings.rb)
 * [Zach's Solution](https://github.com/ZachBaird/RubySubstringCounter)
 * [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
