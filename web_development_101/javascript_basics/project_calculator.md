@@ -500,4 +500,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cinthia's Solution](https://github.com/cinthiagodoi/calculator) - [View in Browser](https://cinthiagodoi.github.io/calculator/)
 - [Vuyani's Solution](https://github.com/vuyanir/Calculator) - [View in Browser](https://vuyanir.github.io/Calculator/)
 - [Y02WK's Solution](https://github.com/Y02WK/project-calculator) - [View in Browser](https://y02wk.github.io/project-calculator/)
+- [Y0ss-Please's Solution](https://github.com/Y0ss-Please/javascript_calculator) - [View in Browser](https://y0ss-please.github.io/javascript_calculator/)
 </details>
