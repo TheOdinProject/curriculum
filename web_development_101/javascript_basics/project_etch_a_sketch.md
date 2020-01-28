@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 
+* [langarus' Solution](https://github.com/langarus/ETCH-A-SKETCH) - [View in Browser](https://langarus.github.io/ETCH-A-SKETCH/)
 * [abkhale's Solution](https://github.com/abkhale17/Etch-a-Sketch) - [View in Browser](https://abkhale17.github.io/Etch-a-Sketch/)
 * [gwen's solution](https://github.com/gwnm/EtchASketch) - [View in Browser](https://gwnm.github.io/EtchASketch/)
 * [kboy77's Solution](https://github.com/kboy77/EtchASketch) - [View in Browser](https://github.com/kboy77.github.io/EtchASketch)
