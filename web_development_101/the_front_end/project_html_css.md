@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Amr Elshenawy's Solution (Easy)](https://github.com/AmrElshenawy/google-homepage) - [View in Browser](https://amrelshenawy.github.io/google-homepage/)
+* [Amr Elshenawy's Solution (Difficult)](https://github.com/AmrElshenawy/google-resultspage) - [View In Browser](https://amrelshenawy.github.io/google-resultspage/)
 * [tofritz's Solution (Difficult)](https://github.com/tofritz/google-search-results/) - [View in Browser](https://tofritz.github.io/google-search-results/)
 * [tofritz's Solution (Easy)](https://github.com/tofritz/google-homepage/) - [View in Browser](https://tofritz.github.io/google-homepage/)
 * [James Moua's (Easy)](https://github.com/huehealer/google-homepage/) - [View in Browser](https://huehealer.github.io/google-homepage/)
