@@ -1216,4 +1216,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Richard Vu's Solution](https://github.com/richardtvu/rock-paper-scissors) - [View in Browser](https://richardtvu.github.io/rock-paper-scissors/)
 - [Cinthia's Solution](https://github.com/cinthiagodoi/rock_paper_scissors) - [View in Browser](https://cinthiagodoi.github.io/rock_paper_scissors/)
 - [Tenacious-Qi's Solution](https://github.com/Tenacious-Qi/rock-paper-scissors) - [View in Browser](https://tenacious-qi.github.io/rock-paper-scissors/)
+- [kalebleeroy13's Solution](https://github.com/kalebleeroy13/scissors-paper-rock-game)
 </details>
