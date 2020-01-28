@@ -727,10 +727,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [nodonut's Solution](https://github.com/nodonut/etch_a_sketch) - [View in Browser](https://nodonut.github.io/etch_a_sketch/)
 * [Courgette's Solution](https://github.com/bing0i/etch-a-sketch) - [View in Browser](https://bing0i.github.io/etch-a-sketch/)
 * [pudu87's Solution](https://github.com/pudu87/etch-a-sketch) - [View in Browser](https://pudu87.github.io/etch-a-sketch/)
-<<<<<<< HEAD
-* [Tori's solution](https://github.com/ToriPotts/etch-a-sketch) - [View in Browser](https://toripotts.github.io/etch-a-sketch/)
-* [LenaChestnut's solution](https://github.com/LenaChestnut/Etch-a-Sketch) - [View in Browser](https://lenachestnut.github.io/Etch-a-Sketch/)
-=======
 * [Tori's Solution](https://github.com/ToriPotts/etch-a-sketch) - [View in Browser](https://toripotts.github.io/etch-a-sketch/)
 * [Sepharvaim 's Solution](https://github.com/Sepharvaim/Project--Eatch-a-Sketch) - [View in Browser](https://sepharvaim.github.io/Project--Eatch-a-Sketch/)
 * [nestor-c's Solution](https://github.com/nestor-c/etchasketch)
@@ -742,5 +738,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Timework's Solution](https://github.com/Timework/sketch) - [View in Browser](https://timework.github.io/sketch/)
 * [Daniel's Solution](https://github.com/amigoinsano/TheOdinProject-Etch-a-Sketch/settings) - [View in Browser](https://amigoinsano.github.io/TheOdinProject-Etch-a-Sketch/index.html)
 * [Ben's soluton](https://github.com/benhorns/etch-a-sketch)
->>>>>>> 5ea4d33331039fa22371364f7bc601149830f90a
+* [duendecillo1982's Solution](https://github.com/duendecillo1982/etch-a-sketch) - [View in Browser](https://duendecillo1982.github.io/etch-a-sketch/)
+* [LenaChestnut's solution](https://github.com/LenaChestnut/Etch-a-Sketch) - [View in Browser](https://lenachestnut.github.io/Etch-a-Sketch/)
 </details>

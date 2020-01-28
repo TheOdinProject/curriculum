@@ -37,7 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/main.rb)
+* [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/caesar.rb)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/caeser_cypher.rb)
 * [Armo's Solution](https://github.com/Armoilane/ruby_exercises/)
 * [Zach's Solution](https://github.com/ZachBaird/CaesarCipher)
@@ -504,6 +504,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ruby-building-blocks/caesar_cipher.rb)
 * [Caleb's Solution](https://github.com/calebrauscher/The-Odin-Project/blob/master/Ruby/caesar_cipher.rb)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/caesar-cipher)
+* [Nathan Choi's Solution](https://github.com/sihoonathan/ruby_practice/blob/master/caesar_cipher.rb)
 </details>
 
 ### Project 2: Stock Picker
@@ -530,7 +531,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-
+* [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/stock_picker.rb)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/stock_picker.rb)
 * [Zach's Solution](https://github.com/ZachBaird/StockPicker)
 * [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
@@ -950,6 +951,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/stock_picker.rb)
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/stock_picker.rb)
 * [Caleb's solution](https://github.com/calebrauscher/The-Odin-Project/blob/master/Ruby/stock_picker.rb)
+* [Nathan Choi's solution](https://github.com/sihoonathan/ruby_practice/blob/master/stock_picker.rb)
 </details>
 
 ### Project 3: Substrings
