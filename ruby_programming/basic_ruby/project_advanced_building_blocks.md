@@ -40,6 +40,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Armo's Solution](https://github.com/Armoilane/ruby-exercises/)
+* [Nix-star](https://github.com/nix-star/abblock)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/bubble_sort.rb)
 * [jodokusquack's Solution](https://github.com/jodokusquack/Advanced_ruby_challenges)
 * [David Auza's and Falguni Islam's Solution](https://github.com/eng-monika/RUBY-PROJECT-Advanced-Building-Blocks---Bubble-Sort) - [View Demo](https://repl.it/@DavidAuza/Bubble-Sort-Algorithm-Demo)
