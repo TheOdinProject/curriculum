@@ -950,6 +950,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/stock_picker.rb)
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/stock_picker.rb)
 * [Caleb's solution](https://github.com/calebrauscher/The-Odin-Project/blob/master/Ruby/stock_picker.rb)
+* [Nathan Choi's solution](https://github.com/sihoonathan/ruby_practice/blob/master/stock_picker.rb)
 </details>
 
 ### Project 3: Substrings
