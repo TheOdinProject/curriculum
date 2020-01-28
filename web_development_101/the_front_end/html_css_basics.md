@@ -30,7 +30,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
  
-  1. Dive right into learning HTML and CSS with [freeCodeCamp's interactive tutorials](https://www.freecodecamp.org/learn). Do the entire section labeled "Responsive Web Design Certification".  It's long and if you're new will take you at least a few days to get through but it will give you a really solid foundation to build on moving forward.
+  1. Dive right into learning HTML and CSS with [freeCodeCamp's interactive tutorials](https://www.freecodecamp.org/learn). Do the entire section labeled "Responsive Web Design Certification".  It's long and if you're new will take you at least a few days to get through but it will give you a really solid foundation to build on moving forward. They have some projects at the end. They're good practice, but you can consider them optional. (A large part of their proposed '300 hours' for completion comes from these projects.. it probably won't take you that long)
  
   2. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](http://www.youtube.com/watch?v=14Vb6tZCjEY) (reset starting at the 2:00 mark).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.  If you're still curious, here's a [longer video](http://www.youtube.com/watch?v=HqRFPLP7Ffs) on resets.
 </div>
