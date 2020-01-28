@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [SantiMC's Solution](https://github.com/santimc/calculator-CASI) - [View in Browser](https://santimc.github.io/calculator-CASI/)
 - [Brandon Austin's Solution](https://github.com/brandonricharda/calculator) - [View in Browser](https://brandonricharda.github.io/calculator/)
 - [abkhale's Solution](https://github.com/abkhale17/calculator-vanillaJS) - [View in Browser](https://abkhale17.github.io/calculator-vanillaJS/)
 - [Rachel Moser's Solution](https://github.com/rlmoser99/calculator) - [View in Browser](https://rlmoser99.github.io/calculator/)
