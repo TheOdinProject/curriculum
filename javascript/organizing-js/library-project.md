@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [mjwills-inf's Solution](https://github.com/mjwills-inf/library) - [View in Browser](https://mjwills-inf.github.io/library/)
+- [chickenwing123's Solution](https://github.com/chickenwings123/Library) - [View in Browser](https://chickenwings123.github.io/Library/)
 - [Doskzorak's Solution](https://github.com/doskzorak/Library_Project)
 - [Greg's Solution](https://github.com/gregbast1994/odin-library) - [View in Browser](https://gregbast1994.github.io/odin-library/)
 - [Paul's Solution](https://github.com/ppayne12/library) - [View in Browser](https://ppayne12.github.io/library/)
@@ -184,5 +186,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [mmboyce's Solution (w/localstorage)](https://github.com/mmboyce/Library) - [View in Browser](https://mmboyce.github.io/Library/)
 - [Hamohuh's Solution](https://github.com/hamohuh/library) - [View in Browser](https://hamohuh.github.io/library)
 - [DamnedLag's Solution](https://github.com/Damnedlag/project_library) - [View in Browser](https://damnedlag.github.io/project_library/)
+- [0xtaf's Solution](https://github.com/0xtaf/library) - [View in Browser](https://0xtaf.github.io/library/)
 </details>
 
