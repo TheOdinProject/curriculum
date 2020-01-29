@@ -531,6 +531,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/stocl_picker.rb)
 * [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/stock_picker.rb)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/stock_picker.rb)
 * [Zach's Solution](https://github.com/ZachBaird/StockPicker)
@@ -986,6 +987,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/substrings.rb)
 * [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/substring.rb)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/substrings.rb)
 * [Zach's Solution](https://github.com/ZachBaird/RubySubstringCounter)
