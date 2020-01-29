@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Odysseusss's Solution](https://odysseusss.github.io/google-homepage/)
 * [Ivancito and Rodrige's solution](https://github.com/Trodrige/Heatmap-of-smashing-magazine) - [View in Browser](https://trodrige.github.io/Heatmap-of-smashing-magazine/)
 * [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/04-Design_And_UX/design-teardown) - [View in Browser](https://gradiva.github.io/design-teardown/)
 * [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/design-teardown) - [View in Browser](https://kikupiku.github.io/design-teardown)

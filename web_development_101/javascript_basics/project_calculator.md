@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [tracy2811's Solution](https://github.com/tracy2811/calculator) - [View in Browser](https://tracy2811.github.io/calculator/)
+- [Emir Selimovic's Solution](https://github.com/EmsnSeli/calculator) - [View in Browser](https://EmsnSeli.github.io/calculator/)
+- [SantiMC's Solution](https://github.com/santimc/calculator-CASI) - [View in Browser](https://santimc.github.io/calculator-CASI/)
+- [Brandon Austin's Solution](https://github.com/brandonricharda/calculator) - [View in Browser](https://brandonricharda.github.io/calculator/)
 - [abkhale's Solution](https://github.com/abkhale17/calculator-vanillaJS) - [View in Browser](https://abkhale17.github.io/calculator-vanillaJS/)
 - [Rachel Moser's Solution](https://github.com/rlmoser99/calculator) - [View in Browser](https://rlmoser99.github.io/calculator/)
 - [rawnoodle's Solution](https://github.com/DiegoASandoval/Calculator) - [View in Browser](https://diegoasandoval.github.io/Calculator/)
@@ -497,4 +501,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kristiana's Solution](https://github.com/KristianaGaizauskiene/calculator)
 - [0xtaf's Solution](https://github.com/0xtaf/calculator) - [View in Browser](https://0xtaf.github.io/calculator/)
 - [Cinthia's Solution](https://github.com/cinthiagodoi/calculator) - [View in Browser](https://cinthiagodoi.github.io/calculator/)
+- [Vuyani's Solution](https://github.com/vuyanir/Calculator) - [View in Browser](https://vuyanir.github.io/Calculator/)
+- [Y02WK's Solution](https://github.com/Y02WK/project-calculator) - [View in Browser](https://y02wk.github.io/project-calculator/)
+- [Y0ss-Please's Solution](https://github.com/Y0ss-Please/javascript_calculator) - [View in Browser](https://y0ss-please.github.io/javascript_calculator/)
 </details>
