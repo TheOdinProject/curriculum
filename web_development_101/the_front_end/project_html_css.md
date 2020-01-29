@@ -2925,11 +2925,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Nic W's Solution (Easy)](https://github.com/nicbw/google-homepage) - [View in Browser](https://nicbw.github.io/google-homepage/)
 * [Safa ERDEN's Solution (Easy)](https://github.com/safaerden/google/) - [View in Browser](https://safaerden.github.io/google/)
 * [Raymond Phelan's Solution (Easy)](https://rayphe.github.io/google-homepage/)
-* [seanw111's Solution(Easy)](https://github.com/seanw111/googleproject/) - [View in Browser](https://seanw111.github.io/googleproject/)
+* [seanw111's Solution (Easy)](https://github.com/seanw111/googleproject/) - [View in Browser](https://seanw111.github.io/googleproject/)
 * [Meena Iskandar's Solution (Easy)](https://github.com/meenaiskandar.github.io/google-homepage/)
 * [Tim Kelly's Solution (Easy)](https://github.com/TimKellyTK/google-homepage) - [View in Browser](https://timkellytk.github.io/google-homepage/)
 * [Sonyas Solution(Difficult)](https://github.com/murdens/google_searchresults) - [View in Browser](https://murdens.github.io/google_searchresults/)
-* [Mrillusion's Solution(Easy/Difficult)](https://github.com/mrillusion/google-homepage) - [View in Browser](https://mrillusion.github.io/google-homepage/) - Search buttons function and send query to google.com/search
+* [Mrillusion's Solution (Both)](https://github.com/mrillusion/google-homepage) - [View in Browser](https://mrillusion.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
