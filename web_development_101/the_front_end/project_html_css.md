@@ -2929,6 +2929,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Meena Iskandar's Solution (Easy)](https://github.com/meenaiskandar.github.io/google-homepage/)
 * [Tim Kelly's Solution (Easy)](https://github.com/TimKellyTK/google-homepage) - [View in Browser](https://timkellytk.github.io/google-homepage/)
 * [Sonyas Solution(Difficult)](https://github.com/murdens/google_searchresults) - [View in Browser](https://murdens.github.io/google_searchresults/)
+* [Mrillusion's Solution(Easy/Difficult)](https://github.com/mrillusion/google-homepage) - [View in Browser](https://mrillusion.github.io/google-homepage/) - Search buttons function and send query to google.com/search
 </details>
 
 ### Additional Resources
