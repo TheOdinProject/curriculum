@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [LorriAnn's solution](https://github.com/TechnicolorPanda/rock-paper-scissors.git) - [View in Browser](https://TechnicolorPanda.github.io/rock-paper-scissors/)
+- [LorriAnn's solution](https://github.com/TechnicolorPanda/rock-paper-scissors.git) - [View in Browser](https://github.com/TechnicolorPanda/rock-paper-scissors/blob/master/index.html/)
 - [Checkmate360's Solution](https://github.com/checkmate360/RPS-Game)
 - [AlexBoonDev's Solution](https://github.com/AlexBoonDev/RockPaperScissors/)
 - [Tim's Solution](https://github.com/timothydadams/rps) - [View in Browser](https://timothydadams.github.io/rps/)
