@@ -108,6 +108,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Sergej Jurchenko's solutions: [Caesar Cipher](https://github.com/Sergyurch/ruby_problems/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/Sergyurch/ruby_problems/blob/master/spec/enumerable-methods_spec.rb), [Tic Tac Toe](https://github.com/Sergyurch/ruby_problems/blob/master/spec/tic_tac_toe_game_spec.rb)
 * Bendee's Solutions: [Caesar Cipher](https://github.com/bendee48/ruby_building_blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/bendee48/advanced_building_blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/bendee48/tictactoe/blob/master/spec/tictactoe_spec.rb)
 * guacamobley's solutions: [Caesar Cipher](https://github.com/guacamobley/ruby-building-blocks), [Enumerable](https://github.com/guacamobley/ruby-advanced-building-blocks), [Tic Tac Toe](https://github.com/guacamobley/tic-tac-toe)
+* Ranon Martin's solutions: [Caesar Cipher](https://github.com/ranonm/TheOdinProjectExercises/blob/master/caesar_cipher/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/ranonm/TheOdinProjectExercises/blob/master/enumerable_methods/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/ranonm/TheOdinProjectExercises/blob/master/tic_tac_toe/spec/board_spec.rb)
 </details>
 
 ### Project: TDD Connect Four
@@ -248,6 +249,7 @@ connect_four)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/connect_four_game) - [Play on repl.it](https://repl.it/@SergejJurchenko/connectfourgame)
 * [guacamobley's solution](https://github.com/guacamobley/TDD-Connect-Four)
 * [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
+* [Busy Bee's Solution](https://github.com/swissbusybee/Connect_Four_Project)
 </details>
 
 ### Additional Resources
