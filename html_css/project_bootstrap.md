@@ -25,6 +25,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ashish's Solution](https://github.com/CodersGas/bootstrap-project) - [View in Browser](https://codersgas.github.io/bootstrap-project/page.html)
+* [Carlos Anriquez's solution](https://github.com/canriquez/using-bootstrap) - [View in Browser](https://canriquez.github.io/using-bootstrap/)
 * [Raiko's solution](https://github.com/Cypher0/odin-bootstrap) - [View in Browser](https://cypher0.github.io/odin-bootstrap/)
 * [David Tan's Solution](https://github.com/davecmd/newsweek-replica-bootstrap) - [View in Browser](https://davecmd.github.io/newsweek-replica-bootstrap/)
 * [Kevin Vuong's Solution](https://github.com/fffear/bootstrap-project) - [View in Browser](https://fffear.github.io/bootstrap-project/)
