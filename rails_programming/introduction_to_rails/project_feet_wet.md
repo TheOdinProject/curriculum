@@ -159,5 +159,5 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Miguel's Solution](https://github.com/mapra99/toyApp)
 * [Hunter Marshall's Solution](https://github.com/Beidah/rails-toy-app)
 * [Nick Sokolov's Solution](https://github.com/Nickollay/Odin_Hurtl_a_toy_app) - [Live](https://nkyejuov.herokuapp.com/)
-* [guacamobley's solution](https://github.com/guacamobley/toy_app) - [Heroku](https://damp-stream-31259.herokuapp.com/)
+* [guacamobley's Solution](https://github.com/guacamobley/toy_app) - [Heroku](https://damp-stream-31259.herokuapp.com/)
 </details>
