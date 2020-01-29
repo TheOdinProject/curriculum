@@ -2932,6 +2932,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tim Kelly's Solution (Easy)](https://github.com/TimKellyTK/google-homepage) - [View in Browser](https://timkellytk.github.io/google-homepage/)
 * [Sonyas Solution(Difficult)](https://github.com/murdens/google_searchresults) - [View in Browser](https://murdens.github.io/google_searchresults/)
 * [Mrillusion's Solution (Both)](https://github.com/mrillusion/google-homepage) - [View in Browser](https://mrillusion.github.io/google-homepage/)
+* [Luke's Solution (Easy)](https://github.com/lukeperez.github.io/google-homepage/)
+* [Luke's Solution (Difficult)](https://github.com/lukeperez.github.io/google-search-page/)
 </details>
 
 ### Additional Resources
