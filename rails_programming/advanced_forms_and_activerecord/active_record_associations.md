@@ -22,7 +22,7 @@ If you're still shaky on basic associations, go back and check out the Associati
 
 When you create an association, Rails makes two major assumptions -- first, that the class of the model your association points to is based directly off of the name of the association, and, second, that the foreign key in any `belongs_to` relationship will be called `yourassociationname_id`.  Any time you go away from these defaults, you just need to let Rails know what kind of class to look for and which foreign key to use.
 
-A very simple case would be a User who can create many Posts for a blog::
+A very simple case would be a User who can create many Posts for a blog:
 
 ~~~ruby
   # app/models/user.rb
@@ -94,6 +94,32 @@ For example, perhaps we change the example above so a Post actually can have mul
     belongs_to :post_author, class_name: "User"
     belongs_to :authored_post, class_name: "Post"
   end
+~~~
+
+And to recap, here is the current state of our database schema (without the timestamp columns):
+
+~~~ruby
+# db/schema.rb
+ActiveRecord::Schema.define(version: 2020_01_30_000000) do
+
+  create_table "posts", force: :cascade do |t|
+    t.text "content"
+    t.integer "editor_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+  end
+
+  create_table "post_authorings", force: :cascade do |t|
+    t.integer "authored_post_id"
+    t.integer "post_author_id"
+  end
+
+  add_foreign_key "posts", "users", column: "editor_id"
+  add_foreign_key "post_authorings", "posts", column: "authored_post_id"
+  add_foreign_key "post_authorings", "users", column: "post_author_id"
+end
 ~~~
 
 The major thing to note here is that with has-many-through associations, Rails uses *the name of the association in the through table* to determine which foreign key and table name to reach out to.  If it's named anything irregular, you'll use the `:source` option to specify which association actually points where we'd like to go.  You can think of `:source` as being just like `:class_name` but for the associations in the "through table".  
