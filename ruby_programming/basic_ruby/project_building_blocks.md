@@ -1400,4 +1400,5 @@ Next, make sure your method can handle multiple words:
 * [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/substrings.rb)
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/substrings.rb)
 * [Caleb's solution](https://github.com/calebrauscher/The-Odin-Project/blob/master/Ruby/substrings.rb)
+* [Nathan Choi's solution)(https://github.com/sihoonathan/ruby_practice/blob/master/substrings.rb)
 </details>
