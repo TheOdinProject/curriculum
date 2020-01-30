@@ -2936,6 +2936,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Luke's Solution (Easy)](https://github.com/lukeperez.github.io/google-homepage/)
 * [Luke's Solution (Difficult)](https://github.com/lukeperez.github.io/google-search-page/)
 * [Paidi's Solution (Easy)](https://padraigoneill1.github.io/google-homepage/)
+* [Joseph's Solution (Easy)](https://github.com/josephw1997/google-homepage/) - [View in Browser](https://josephw1997.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
