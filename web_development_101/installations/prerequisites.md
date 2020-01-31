@@ -67,7 +67,6 @@ While your VM is running, do the following steps:
   4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
   5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password.
   6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
-  7. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
   
   **NOTE**: 
 
