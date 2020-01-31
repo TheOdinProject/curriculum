@@ -745,4 +745,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [duendecillo1982's Solution](https://github.com/duendecillo1982/etch-a-sketch) - [View in Browser](https://duendecillo1982.github.io/etch-a-sketch/)
 * [LenaChestnut's solution](https://github.com/LenaChestnut/Etch-a-Sketch) - [View in Browser](https://lenachestnut.github.io/Etch-a-Sketch/)
 * [Moses's solution](https://github.com/mhobesong/etch-a-sketch) - [View in Browser](https://mhobesong.github.io/etch-a-sketch/)
+* [Kuba Zawierucha's solution](https://github.com/KubaZawierucha/etch-a-sketch) - [View in Browser](https://kubazawierucha.github.io/etch-a-sketch/)
 </details>
