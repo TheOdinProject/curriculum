@@ -2799,7 +2799,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MichelleP1's Solution (Easy)](https://github.com/MichelleP1/google-homepage) - [View in Browser](https://michellep1.github.io/google-homepage/)
 * [barrysweeney's Solution (Easy)](https://github.com/barrysweeney/google-homepage) - [View in Browser](https://barrysweeney.github.io/google-homepage/)
 * [Tisicky's Solution (Easy)](https://github.com/Tisicky/google-homepage) - [View in Browser](https://tisicky.github.io/google-homepage/)
-* [Matte997's Solution (Easy)](https://github.com/Matteogithub1997/google-homepage) - [View in Browser](https://matteogithub1997.github.io/google-homepage/)
+* [Matte997's Solution (Easy)](https://github.com/Matte997/google-homepage) - [View in Browser](https://matte997.github.io/google-homepage/)
 * [Justin Welsh's Solution (Easy)](https://github.com/Justin-Welsh/google-homepage) - [View in Browser](https://justin-welsh.github.io/google-homepage/)
 * [Josia's Solution (Easy)](https://github.com/rindrajosia/google-homepage) - [View in Browser](https://rindrajosia.github.io/google-homepage/)
 * [Lasse Maidal Pedersens Solution (Easy)](https://github.com/lassemaidalpedersen/google-homepage) - [View in Browser](https://lassemaidalpedersen.github.io/google-homepage/)
