@@ -2942,6 +2942,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Joseph's Solution (Easy)](https://github.com/josephw1997/google-homepage/) - [View in Browser](https://josephw1997.github.io/google-homepage/)
 * [Michael Doudy's Solution (Easy)](https://github.com/mdoudy90/google-homepage) - [View in Browser](https://mdoudy90.github.io/google-homepage/)
 * [GrahamLearnsCode's Solution (Easy)](https://github.com/Grahamlearnscode/google-homepage) - [View in Browser](https://grahamlearnscode.github.io/google-homepage/)
+* [Christian's Solution (Easy)](https://github.com/rueeazy/google-homepage) - [View in Browser](https://rueeazy.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
