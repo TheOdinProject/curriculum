@@ -19,6 +19,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Julio's solution](https://github.com/julio22b/weather-project) - [View in Browser](https://julio22b.github.io/weather-project/)
 * [Zakariye Yusuf's solution](https://github.com/ZYusuf10/weatherForcast) - [View in browser](https://zyusuf10.github.io/weatherForcast/)
 * [Martink-rsa's solution](https://github.com/martink-rsa/weather-forecast) - [View in browser](https://martink-rsa.github.io/weather-forecast/)
 * [Learnsometing's solution](https://github.com/learnsometing/JS-weather-api-app) - [View in browser](https://learnsometing.github.io/JS-weather-api-app/)
