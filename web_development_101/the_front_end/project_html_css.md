@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Ariel Rodriguez's Solution (Dificult)](https://github.com/Aanttrax/google-homepage) - [View in Browser](https://aanttrax.github.io/google-homepage/)
 * [Chau Nguyen's Solution (Easy)](https://github.com/VanQuishi/google-homepage) - [View in Browser](https://vanquishi.github.io/google-homepage/)
 * [Amr Elshenawy's Solution (Easy)](https://github.com/AmrElshenawy/google-homepage) - [View in Browser](https://amrelshenawy.github.io/google-homepage/)
 * [Amr Elshenawy's Solution (Difficult)](https://github.com/AmrElshenawy/google-resultspage) - [View In Browser](https://amrelshenawy.github.io/google-resultspage/)
