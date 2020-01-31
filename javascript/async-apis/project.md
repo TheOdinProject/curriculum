@@ -60,4 +60,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Yash Boura's Solution](https://github.com/yashboura303/weatherappReact) - [View in Browser](https://yashweatherapp.netlify.com/)
 * [Krzysztof Sordyl's Solution](https://github.com/Verthon/Weather-App) - [View in Browser](https://verthon.github.io/Weather-App/)
 * [Aron's Solution](https://github.com/aronfischer/react_weather_app) - [View in Browser](https://aronfischer.github.io/react_weather_app/)
+* [Kelvin Liang's Solution](https://github.com/kelvin8773/odin-weather-app) - [View in Browser](https://my-weather-now.netlify.com/)
 </details>
