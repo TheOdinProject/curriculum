@@ -134,6 +134,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [proto-dylan's Solution](https://github.com/proto-dylan/connect_four)
 * [Run After's Solution](https://github.com/run-after/tdd_connect_four)
 * [Sher's solution](https://github.com/sher-s7/connect4)
 * [Nikolas Broman's solution](https://github.com/nikolasbroman/connect_four)
