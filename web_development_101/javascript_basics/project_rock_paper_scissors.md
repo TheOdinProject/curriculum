@@ -41,9 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [cybmdm Solution](https://github.com/cybmdm/RockPaperScissors)
-=======
 - [Maurirlz's Solution](https://github.com/maurirlz/Rock-Paper-Scissors/) - [View in Browser](https://maurirlz.github.io/Rock-Paper-Scissors/)
 - [jwern's Solution](https://github.com/jwern/rock-paper-scissors) - [View in Browser](https://jwern.github.io/rock-paper-scissors/rps_game.html)
 - [Abhishek Mahajan's Solution](https://github.com/Lachrymouse/RockPaperScissors)
@@ -51,7 +49,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Charles Ivia's Solution](https://github.com/CharlesIvia/Rock-Paper-Scissors)
 - [tracy2811's Solution](https://github.com/tracy2811/rock-paper-scissors) - [View in Browser](https://tracy2811.github.io/rock-paper-scissors/)
 - [Lucio's Solution](https://github.com/JCarlosLucio/rock-paper-scissors) - [View in Browser](https://jcarloslucio.github.io/rock-paper-scissors/)
->>>>>>> 9210f326c8b8cb5c2cb7c9a3d8b0a4c37062b382
 - [jean2q's Solution](https://github.com/jean2q/pedra-papel-testoura) - [View in Browser](https://jean2q.github.io/pedra-papel-testoura/)
 - [LrdVinz's Solution](https://github.com/LrdVnz/RockPaperScissors)
 - [tofritz's Solution](https://github.com/tofritz/rock-paper-scissors)
