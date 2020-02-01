@@ -95,6 +95,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
 * [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
 * [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
+* [guacamobley's solution](https://github.com/guacamobley/rest-client-project)
 </details>
 
 ### Project: Ruby on Rails Tutorial
