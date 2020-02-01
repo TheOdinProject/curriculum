@@ -486,4 +486,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [unheavenlycreature's Solution](https://github.com/unheavenlycreature/calculator) - [View in Browser](https://unheavenlycreature.github.io/calculator)
 - [Amy's Solution](https://github.com/achoo-o/calculator) - [View in Browser](https://achoo-o.github.io/calculator/)
 - [Fabian's Solution](https://github.com/fabianyater/Calculadora) - [View in Browser](https://fabianyater.github.io/Calculadora/)
+- [Kyle's Solution](https://github.com/kcristin/calculator) - [View in Browser](https://kcristin.github.io/calculator/)
 </details>
