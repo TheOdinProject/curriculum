@@ -1231,4 +1231,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kalebleeroy13's Solution](https://github.com/kalebleeroy13/scissors-paper-rock-game)
 - [Bonobo's Solution](https://github.com/bonobobdt/rockpaperscissors) - [View in Browser](https://bonobobdt.github.io/rockpaperscissors/)
 - [Ulises V Solution](https://github.com/UlisesVil/project_rock_paper_scissors)
+- [EduardoSCosta's Solution](https://github.com/EduardoSCosta/rock_paper_scissors) - [View in Browser](https://eduardoscosta.github.io/rock_paper_scissors/)
 </details>
