@@ -252,6 +252,7 @@ connect_four)
 * [guacamobley's solution](https://github.com/guacamobley/TDD-Connect-Four)
 * [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
 * [Busy Bee's Solution](https://github.com/swissbusybee/Connect_Four_Project)
+* [Jay Conner's Solution](https://github.com/cleve703/connect4)
 </details>
 
 ### Additional Resources
