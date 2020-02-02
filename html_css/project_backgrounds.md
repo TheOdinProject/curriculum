@@ -24,7 +24,6 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [hypreme's solution](https://github.com/hypreme/google-homepage) - [View in Browser](https://hypreme.github.io/google-homepage/)
 * [Basskip's solution](https://github.com/Basskip/backgrounds-and-gradients) - [View in Browser](http://basskip.com/backgrounds-and-gradients/)
 * [Carlos Anriquez's solution](https://github.com/canriquez/backgrounds-gradients) - [View in Browser](https://canriquez.github.io/backgrounds-gradients/)
 * [Ivancito's solution](https://github.com/fivan18/apple-clone) - [View in Browser](https://fivan18.github.io/apple-clone/)
