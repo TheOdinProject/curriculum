@@ -122,6 +122,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fossegrim's Solution](https://github.com/olav35/micro-reddit)
+* [Nasser Abachi's Solution](https://github.com/abachi/micro-reddit)
+* [Vedant's Solution](https://github.com/vedantshetty/Reddit_On_Rails)
 * [Ian's Solution](https://github.com/IanMKesler/mini-reddit)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/micro-reddit)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/micro-reddit)

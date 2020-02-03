@@ -35,9 +35,13 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Odysseusss's Solution](https://odysseusss.github.io/google-homepage/)
+* [Ivancito and Rodrige's solution](https://github.com/Trodrige/Heatmap-of-smashing-magazine) - [View in Browser](https://trodrige.github.io/Heatmap-of-smashing-magazine/)
+* [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/04-Design_And_UX/design-teardown) - [View in Browser](https://gradiva.github.io/design-teardown/)
 * [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/design-teardown) - [View in Browser](https://kikupiku.github.io/design-teardown)
 * [Raiko's solution](https://github.com/Cypher0/odin-design-teardown) - [View in Browser](https://cypher0.github.io/odin-design-teardown/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/design-teardown) - [View in Browser](https://braxtonlemmon.github.io/design-teardown/)
+* [Muhammad Ahmad's solution](https://github.com/thisisMAhmad/smashing-magazine) - [View in Browser](https://thisismahmad.github.io/smashing-magazine/)
 * [David Auza's and Eduardo Reis's Solution](https://github.com/eduardoreisalvarenga/microverse-smashing-magazine) - [View in Browser](https://rawcdn.githack.com/eduardoreisalvarenga/microverse-smashing-magazine/0f3b4fd4a93648542dc8fa6ad416baabf269220a/index.html)
 * [Kevin Vuong's solution](https://github.com/fffear/design-teardown) - [View in Browser](https://fffear.github.io/design-teardown/)
 * [David Tan's solution](https://github.com/davecmd/smashing-magazine-design-teardown) - [View in browser](https://davecmd.github.io/smashing-magazine-design-teardown/)

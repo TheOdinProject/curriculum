@@ -27,6 +27,12 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Igorashs's Solution](https://github.com/igorashs/positioning-and-floating-elements) - [View in Browser](https://igorashs.github.io/positioning-and-floating-elements/)
+* [Zakariye's Solution](https://github.com/ZYusuf10/curriculum) - [View in Browser](https://zyusuf10.github.io/flex_practice/timesClone.html)
+* [Basskip's solution](https://github.com/Basskip/times-article-html-css) - [View in Browser](https://basskip.com/times-article-html-css/)
+* [Marian & Ivancito's solution](https://github.com/mariancristu/New-York-Times-Clone) - [View in Browser](https://mariancristu.github.io/New-York-Times-Clone/)
+* [Nurislam & Carlos Anriquez's solution](https://github.com/nurislam-ab/positioning_and_floating_elements) - [View in Browser](https://nurislam-ab.github.io/positioning_and_floating_elements/index.html)
+* [Ashish's Solution](https://github.com/CodersGas/article-layout) - [View in Browser](https://codersgas.github.io/article-layout/home-page.html)
 * [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/new-york-times-copy) - [View in Browser](https://kikupiku.github.io/new-york-times-copy/)
 * [Raiko's solution](https://github.com/Cypher0/odin-positioning-floating) - [View in Browser](https://cypher0.github.io/odin-positioning-floating/)
 * [Christian's solution](https://github.com/Cabonilla/nyt_replica) - [View in Browser](https://cabonilla.github.io/nyt_replica/)
@@ -116,6 +122,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/ViriCruz/positioning-and-floating-elements) - [View in Browser](https://viricruz.github.io/positioning-and-floating-elements/)
 * [Halkim's Solution](https://github.com/halkim44/nytimes-article-rebuild) - [View in Browser](https://halkim44.github.io/nytimes-article-rebuild/)
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
+* [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
 
 </details>
 

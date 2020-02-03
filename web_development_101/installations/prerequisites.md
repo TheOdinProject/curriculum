@@ -20,7 +20,7 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 
 #### Step 1.2: Download Linux
 
-There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 18.04](http://ftp.ussg.iu.edu/linux/xubuntu/18.04/release/xubuntu-18.04.3-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
+There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 18.04](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
 
 ### Step 2: Install VirtualBox and Set up Xubuntu
 
@@ -67,7 +67,6 @@ While your VM is running, do the following steps:
   4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
   5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password.
   6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
-  7. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
   
   **NOTE**: 
 
@@ -129,14 +128,16 @@ For step-by-step instructions, please follow this [installation guide](https://t
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Windows 10 WSL (Not Supported and Not Recommended)
+<summary class="dropDown-header">Windows 10 WSL (Not Supported)
 </summary>
   
-**Please note**: *Windows Subsystem for Linux is **highly discouraged and not recommended** for those unfamiliar with Linux and advanced Windows features. Specifically, those unfamiliar with with the Command Line. Please consider installing Linux in a virtual machine or dual-boot*.
+**Please note**: *Windows Subsystem for Linux is **not recommended** for those unfamiliar with Linux and advanced Windows features. Specifically, those unfamiliar with with the Command Line. Please consider installing Linux in a virtual machine or dual-boot*.
 
 Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
 
 Having said that, setting up a development environment is not beginner friendly.  If you have run Linux environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
+
+If you do choose to move forward with WSL, we recommend using VSCode as your text editor (we will get into text editors later), running with the "Remote - WSL" extension. This allows you to open your WSL files directly in the editor. The Linux subsystem is completely separate from your Windows subsystem and you will have to manually link them together otherwise.
 
 The Odin Project has great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
 
@@ -161,6 +162,8 @@ Note: If you run into an error, follow the directions [here](https://aka.ms/wsli
 ### Step 2: Start WSL
 
 WSL is nothing more than a Linux terminal inside Windows. To start the program, simply open your Start menu and search for "Ubuntu 18.04". The first time you run the program, you may get a message that says, "Installing. This may take a few minutes..." When it finishes, you will be asked to create a new username and password that will be used to log into WSL.
+
+*You can skip all of the following steps if you will be using VSCode with the "Remote - WSL" extension*
 
 ### Step 3: Set Up Symbolic Link
 
