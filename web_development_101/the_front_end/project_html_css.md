@@ -2952,10 +2952,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Joe Thompson's Solution (Easy)](https://github.com/jlthompso/google-homepage) - [View in Browser](https://jlthompso.github.io/google-homepage/)
 * [f-herge's Solution (Easy)](https://github.com/f-herge/google-homepage) - [View in Browser](https://f-herge.github.io/google-homepage/)
 * [f-herge's Solution (Hard)](https://github.com/f-herge/google-searchpage) - [View in Browser](https://f-herge.github.io/google-searchpage/)
-
-Please add my solution!
 * [Daegudude's Solution(Hard)](https://daegudude.github.io/top-google-project/)
-
 </details>
 
 ### Additional Resources
