@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [hypreme's Solution (Easy)](https://github.com/hypreme/google-homepage) - [View in Browser](https://hypreme.github.io/google-homepage/)
+* [Marcelo Fantinel's Solution (Easy)](https://github.com/marfantinel/google-homepage) - [View in Browser](https://marfantinel.github.io/google-homepage/)
 * [paleman's Solution (Easy)](https://github.com/paleman/google-homepage) - [View in Browser](https://paleman.github.io/google-homepage/)
 * [Ariel Rodriguez's Solution (Dificult)](https://github.com/Aanttrax/google-homepage) - [View in Browser](https://aanttrax.github.io/google-homepage/)
 * [Chau Nguyen's Solution (Easy)](https://github.com/VanQuishi/google-homepage) - [View in Browser](https://vanquishi.github.io/google-homepage/)
@@ -2947,6 +2949,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Christian's Solution (Easy)](https://github.com/rueeazy/google-homepage) - [View in Browser](https://rueeazy.github.io/google-homepage/)
 * [Michael Doudy's Solution (Hard)](https://github.com/mdoudy90/google-results-page) - [View in Browser](https://mdoudy90.github.io/google-results-page/)
 * [Joe Thompson's Solution (Easy)](https://github.com/jlthompso/google-homepage) - [View in Browser](https://jlthompso.github.io/google-homepage/)
+* [f-herge's Solution (Easy)](https://github.com/f-herge/google-homepage) - [View in Browser](https://f-herge.github.io/google-homepage/)
+* [f-herge's Solution (Hard)](https://github.com/f-herge/google-searchpage) - [View in Browser](https://f-herge.github.io/google-searchpage/)
 </details>
 
 ### Additional Resources
