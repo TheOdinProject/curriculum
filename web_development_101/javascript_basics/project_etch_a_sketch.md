@@ -43,10 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 * [Yuliya's Solution](https://github.com/momofcats/etch-a-sketch)
-=======
-
 * [nelsonskywalker's Solution](https://github.com/nelsonskywalker/etch-a-sketch) - [View in Browser](https://nelsonskywalker.github.io/etch-a-sketch/)
 * [tracy2811's Solution](https://github.com/tracy2811/etch-a-sketch/) - [View in Browser](https://tracy2811.github.io/etch-a-sketch/)
 * [Jeremy Ebinum's Solution](https://github.com/jeremy-ebinum/top-etch-a-sketch) - [View in Browser](https://jeremy-ebinum.github.io/top-etch-a-sketch/)
@@ -99,7 +96,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Paul's Solution](https://github.com/ppayne12/Etch-a-Sketch) - [View in Brower](https://ppayne12.github.io/etch-a-sketch/)
 * [Alex's Solution](https://github.com/AlexOk564/Etch-a-Sketch)
 * [Dan's Solution](https://github.com/DanPete/etch-a-sketch-es6) - [View in Brower](https://danpete.github.io/etch-a-sketch-es6/)
->>>>>>> 6f9d34c5231741b201e07f69b04cec563c83499d
 * [Nadine's Solution](https://github.com/nadineeen/ETCH-A-SKETCH) - [View in Brower](https://nadineeen.github.io/ETCH-A-SKETCH/)
 * [fossegrim's Solution](https://github.com/olav35/etch-a-sketch) - [View in Browser](https://olav35.github.io/etch-a-sketch/)
 * [Ken Yu's Solution](https://github.com/kendinh216/Etch-a-Sketch/) - [View in Browser](https://kendinh216.github.io/Etch-a-Sketch/etch-a-sketch.html)
@@ -747,8 +743,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Daniel's Solution](https://github.com/amigoinsano/TheOdinProject-Etch-a-Sketch/settings) - [View in Browser](https://amigoinsano.github.io/TheOdinProject-Etch-a-Sketch/index.html)
 * [Ben's soluton](https://github.com/benhorns/etch-a-sketch)
 * [duendecillo1982's Solution](https://github.com/duendecillo1982/etch-a-sketch) - [View in Browser](https://duendecillo1982.github.io/etch-a-sketch/)
-* [LenaChestnut's solution](https://github.com/LenaChestnut/Etch-a-Sketch) - [View in Browser](https://lenachestnut.github.io/Etch-a-Sketch/)
-* [Moses's solution](https://github.com/mhobesong/etch-a-sketch) - [View in Browser](https://mhobesong.github.io/etch-a-sketch/)
-* [Kuba Zawierucha's solution](https://github.com/KubaZawierucha/etch-a-sketch) - [View in Browser](https://kubazawierucha.github.io/etch-a-sketch/)
-* [BlessedOneKobo's solution](https://github.com/BlessedOneKobo/etch-a-sketch) - [View in Browser](https://blessedonekobo.github.io/etch-a-sketch/)
+* [LenaChestnut's Solution](https://github.com/LenaChestnut/Etch-a-Sketch) - [View in Browser](https://lenachestnut.github.io/Etch-a-Sketch/)
+* [Moses's Solution](https://github.com/mhobesong/etch-a-sketch) - [View in Browser](https://mhobesong.github.io/etch-a-sketch/)
+* [Kuba Zawierucha's Solution](https://github.com/KubaZawierucha/etch-a-sketch) - [View in Browser](https://kubazawierucha.github.io/etch-a-sketch/)
+* [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/etch-a-sketch) - [View in Browser](https://blessedonekobo.github.io/etch-a-sketch/)
 </details>
