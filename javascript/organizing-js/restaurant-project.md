@@ -50,6 +50,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - Add your solution below this line!
 
 - [Joshysmart's Solution](https://github.com/joshysmart/restaurant-page) - [View in Browser](https://joshysmart.github.io/restaurant-page/)
+-[chickenwing123's Solution](https://github.com/chickenwings123/Webpack-Restaurant) - [View in Browser](https://chickenwings123.github.io/Webpack-Restaurant/)
+- [Kris Tobiasson's 3D Solution](https://github.com/highpockets/restaurant.git) - [View in Browser](https://highpockets.github.io/restaurant/)
+- [tracy2811's Solution](https://github.com/tracy2811/restaurant-page) - [View in Browser](https://tracy2811.github.io/restaurant-page/)
 - [Simon's Solution](https://github.com/Sim-frpt/restaurant-page) - [View in Browser](https://sim-frpt.github.io/restaurant-page/)
 - [James's Solution](https://github.com/ericksen-github/restaurant_page) - [View in Browser](https://ericksen-github.github.io/restaurant_page/)
 - [jfr's Solution](https://github.com/jfrcom/restaurant-page) - [View in Browser](https://jfrcom.github.io/restaurant-page/index.html)
@@ -119,4 +122,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [kylazath's Solution](https://github.com/kylazath/webpack-test) - [View in Browser](https://kylazath.github.io/webpack-test/index.html)
 - [mmboyce's Solution](https://github.com/mmboyce/restaurant-page) - [View in Browser](https://mmboyce.github.io/restaurant-page/)
 - [Hamohuh's Solution](https://github.com/hamohuh/Restaurant) - [View in Browser](https://hamohuh.github.io/Restaurant/)
+- [0xtaf's Solution](https://github.com/0xtaf/restaurant) - [View in Browser](https://0xtaf.github.io/restaurant/)
 </details>

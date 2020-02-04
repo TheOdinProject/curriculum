@@ -28,6 +28,8 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Varras' Solution [Github](https://github.com/Varras/caesar_cipher) - [Live](https://tranquil-shelf-31549.herokuapp.com/)
+* fossegrim's Solution [Live](https://sheltered-inlet-54266.herokuapp.com/)
 * Nasser Abachi's Solution [Github](https://github.com/abachi/caesar_cipher) - [Live](https://shielded-island-76960.herokuapp.com/)
 * BShowen's Solution [Github](https://github.com/BShowen/ruby_CaesarCipher) - [Live](https://sinatra-ruby-cipher.herokuapp.com/)
 * Vedant's Solution [Github](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/Sinatra/Caesar%20Cipher) - [Live](https://whispering-stream-93717.herokuapp.com/)

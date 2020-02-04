@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [tracy2811's Solution](https://github.com/tracy2811/library) - [View in Browser](https://tracy2811.github.io/library/)
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/book-library) - [View in Browser](https://kikupiku.github.io/book-library/)
 - [mjwills-inf's Solution](https://github.com/mjwills-inf/library) - [View in Browser](https://mjwills-inf.github.io/library/)
 - [chickenwing123's Solution](https://github.com/chickenwings123/Library) - [View in Browser](https://chickenwings123.github.io/Library/)
 - [Doskzorak's Solution](https://github.com/doskzorak/Library_Project)
@@ -187,5 +189,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Hamohuh's Solution](https://github.com/hamohuh/library) - [View in Browser](https://hamohuh.github.io/library)
 - [DamnedLag's Solution](https://github.com/Damnedlag/project_library) - [View in Browser](https://damnedlag.github.io/project_library/)
 - [0xtaf's Solution](https://github.com/0xtaf/library) - [View in Browser](https://0xtaf.github.io/library/)
+- [Tori's Solution](https://github.com/ToriPotts/libraryPractice) - [View in Browser](https://toripotts.github.io/libraryPractice/)
+- [Fred's Solution](https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode) - [View in Browser](https://fredchasin.github.io/https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode)
+
 </details>
 
