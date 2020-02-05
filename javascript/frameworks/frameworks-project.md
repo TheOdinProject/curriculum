@@ -31,5 +31,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Javier Machin's solution](https://github.com/Javier-Machin/react-simple-library) - [View in browser](https://javier-machin.github.io/react-simple-library/)
 * [Areeba's Vue TodoList solution](https://github.com/AREEBAISHTIAQ/Todolist) - [View in browser](https://areebaishtiaq.github.io/Todolist/)
 * [Taylor J's React TodoList solution](https://github.com/taylorjohannsen/react-todo) - [View in browser](https://taylorjohannsen.github.io/react-todo/)
+* [Edehlol's React Library solution](https://github.com/edehlol/react-library) - [View in browser](https://edehlol.github.io/react-library/)
 
 </details>
