@@ -42,6 +42,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [martink-rsa's Solution](https://github.com/martink-rsa/Battleships) - [View in browser](https://martink-rsa.github.io/Battleships/)
 - [Igorashs's Solution](https://github.com/igorashs/vue-battleship) - [View in browser](https://igorashs.github.io/vue-battleship/)
 - [Jason McKee's Solution](https://github.com/jttmckee/vue-battleship) - [View in browser](https://jttmckee.github.io/vue-battleship/)
 - [Ryan's and Dipto's solution](https://github.com/rvvergara/battleship) - [View in browser](https://ryto-battleship-game.netlify.com/)
@@ -52,5 +53,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [alexfuro's solution](https://github.com/alexfuro/odin_battleship) - [View in browser](https://alexfuro.github.io/odin_battleship/)
 - [Heyalvaro's solution](https://github.com/heyalvaro/battleship.js) - [View in browser](http://heyalvaro.com/battleship.js/)
 - [Halkim44's solution](https://github.com/halkim44/battleship-game) - [View in browser](https://halkim44.github.io/battleship-game/)
+- [Kelvin Liang's Solution](https://github.com/kelvin8773/odin-battle-ship) - [View in browser](https://battleshipgame.netlify.com/)
 
 </details>
