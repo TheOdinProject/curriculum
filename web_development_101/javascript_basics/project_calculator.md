@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [yogasmara's Solution](https://github.com/yoga1234/calculator) - [View in Browser](https://yoga1234.github.io/calculator/)
 - [luan-nguyen20's Solution](https://github.com/luan-nguyen20/calculator) - [View in Browser](https://luan-nguyen20.github.io/calculator/)
 - [Jeremy Ebinum's Solution](https://github.com/jeremy-ebinum/top-calculator) - [View in Browser](https://jeremy-ebinum.github.io/top-calculator/)
 - [tracy2811's Solution](https://github.com/tracy2811/calculator) - [View in Browser](https://tracy2811.github.io/calculator/)
@@ -508,4 +509,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Y02WK's Solution](https://github.com/Y02WK/project-calculator) - [View in Browser](https://y02wk.github.io/project-calculator/)
 - [Y0ss-Please's Solution](https://github.com/Y0ss-Please/javascript_calculator) - [View in Browser](https://y0ss-please.github.io/javascript_calculator/)
 - [pudu87's Solution](https://github.com/pudu87/calculator) - [View in Browser](https://pudu87.github.io/calculator/)
+- [feseka61's Solution](https://github.com/feseka61/calculator) - [View in Browser](https://feseka61.github.io/calculator/)
+- [mre91's Solution](https://github.com/mre91/calculator) - [View in Browser](https://mre91.github.io/calculator/)
 </details>

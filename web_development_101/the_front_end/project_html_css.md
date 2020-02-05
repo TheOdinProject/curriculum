@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [tommydup's Solution (Easy)](https://github.com/tommydup/google-homepage) - [View in Browser](https://tommydup.github.io/google-homepage/)
 * [eriktn's Solution (Easy)](https://github.com/eriktn/google-homepage) - [View in Browser](https://eriktn.github.io/google-homepage/)
 * [hypreme's Solution (Easy)](https://github.com/hypreme/google-homepage) - [View in Browser](https://hypreme.github.io/google-homepage/)
 * [Marcelo Fantinel's Solution (Easy)](https://github.com/marfantinel/google-homepage) - [View in Browser](https://marfantinel.github.io/google-homepage/)
@@ -2952,6 +2953,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Joe Thompson's Solution (Easy)](https://github.com/jlthompso/google-homepage) - [View in Browser](https://jlthompso.github.io/google-homepage/)
 * [f-herge's Solution (Easy)](https://github.com/f-herge/google-homepage) - [View in Browser](https://f-herge.github.io/google-homepage/)
 * [f-herge's Solution (Hard)](https://github.com/f-herge/google-searchpage) - [View in Browser](https://f-herge.github.io/google-searchpage/)
+* [André Rodrigues's Solution (Easy)](https://github.com/ARodrigues92/google_homepage_practice) - [View in Browser](https://arodrigues92.github.io/google_homepage_practice/)
+* [Daegudude's Solution(Hard)](https://github.com/daegudude/top-google-project/) - [View in Browser](https://daegudude.github.io/top-google-project/)
+* [Ken Holston's Solution (Easy)](https://github.com/kholston/google-homepage) - [View in Browser](https://kholston.github.io/google-homepage/)
+* [Nelson's Solution (Easy)](https://github.com/Nelson116/google_homepage)- [View in Browser](https://nelson116.github.io/google_homepage/)
 </details>
 
 ### Additional Resources
