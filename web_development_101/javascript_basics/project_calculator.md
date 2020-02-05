@@ -26,7 +26,7 @@ Here are some use cases (abilities your project needs to have):
    1. You should already have the code that can populate the display, so once `operate()` has been called, update the display with the 'solution' to the operation.
    2. This is the hardest part of the project. You need to figure out how to store all the values and call the operate function with them. Don't feel bad if it takes you a while to figure out the logic.
 6. Gotchas: watch out for and fix these bugs if they show up in your code:
-   1. Users should be able to string together several operations and get the right answer: `12 + 7 - 5 * 3` etc.
+   1. Users should be able to string together several operations and get the right answer: `12 + 7 - 5 * 3` etc. The behavior we're looking for should be something like this https://www.online-calculator.com/.
    2. You should round answers with long decimals so that they don't overflow the screen.
    3. Pressing `=` before entering all of the numbers or an operator could cause problems!
    4. Pressing "clear" should wipe out any existing data.. make sure the user is really starting fresh after pressing "clear"
