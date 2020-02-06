@@ -634,6 +634,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/learn_ruby)
 * [barrysweeney's Solution](https://github.com/barrysweeney/learn_ruby)
 * [Cacurriapower's Solution](https://github.com/Cacurriapower/learn_ruby)
+* [Cbo-11's Solution](https://github.com/Cbo-11/Ruby-Basics-Project)
 </details>
 
 ### Additional Resources
