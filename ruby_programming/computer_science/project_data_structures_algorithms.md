@@ -199,15 +199,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees)
-* [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/binary_tree.rb)
-* [Sergej Jurchenko's solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
-* [Brett Bonnet's solution](https://github.com/Brett-Bonnet/binary-search-tree)
-* [Drew Goddyn's solution](https://github.com/Drew-Goddyn/binary_search_tree)
-* [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
+* [Ben Fowler's Solution](https://github.com/benfowler04/ruby-cs/blob/master/binary_tree.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/binary-search-tree)
+* [Drew Goddyn's Solution](https://github.com/Drew-Goddyn/binary_search_tree)
+* [Toberoni's Solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
 * [Bendee's Solution](https://github.com/bendee48/Data-Structures)
 * [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/binary_search_tree.rb)
-* [guacamobley's solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/binary-search-tree.rb)
-
+* [guacamobley's Solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/binary-search-tree.rb)
+* [Robert Suazo's Solution](https://github.com/rsuazo/binary_search_tree/blob/master/binary_search_tree.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -407,5 +407,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Bendee's Solution](https://github.com/bendee48/Data-Structures/blob/master/knight_moves.rb)
 * [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/knights_travails.rb)
 * [guacamobley's Solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/knights-travails.rb)
-
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ds_and_algos/blob/master/knights_moves.rb)
 </details>
