@@ -1243,4 +1243,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [André Rodrigues's Solution](https://github.com/ARodrigues92/rock-paper-scissors)
 - [Bekah's Solution](https://github.com/rbrakebill/console-game)
 - [jesse james johnson's Solution](https://github.com/pcfascist/pcfascist.github.io/tree/master/RPSLS) - [View in Browser](https://pcfascist.github.io/pcfascist.github.io/RPSLS/)
+- [Blake Hutchinson's Solution](https://github.com/tkdblake93/rock-paper-scissors)
 </details>
