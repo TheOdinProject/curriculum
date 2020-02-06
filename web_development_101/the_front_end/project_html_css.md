@@ -2960,6 +2960,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [threeace' Solution (Easy)](https://github.com/threeaces/google-homepage)- [View in Browser](https://threeaces.github.io/google-homepage/)
 * [threeace' Solution (Hard)](https://github.com/threeaces/google-search-results-page)- [View in Browser](https://threeaces.github.io/google-search-results-page/)
 </details>
+* [Emily Strongman's Solution (Easy)](https://github.com/estrongman/google_homepage)- [View in Browser](https://estrongman.github.io/google-homepage/)
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
