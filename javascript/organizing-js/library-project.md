@@ -192,6 +192,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [0xtaf's Solution](https://github.com/0xtaf/library) - [View in Browser](https://0xtaf.github.io/library/)
 - [Tori's Solution](https://github.com/ToriPotts/libraryPractice) - [View in Browser](https://toripotts.github.io/libraryPractice/)
 - [Fred's Solution](https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode) - [View in Browser](https://fredchasin.github.io/https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode)
+- [rhath32's Solution] (https://github.com/rhath32/library) Please add my solution
 
 </details>
 
