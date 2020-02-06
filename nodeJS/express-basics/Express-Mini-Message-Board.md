@@ -68,6 +68,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Henrique Sousa's solution](https://github.com/Henrique-Sousa/mini-message-board) - [View in Browser](https://desolate-sea-58239.herokuapp.com/)
 - [tracy2811's Solution](https://github.com/tracy2811/mini-message-board) - [View in Browser](https://mysterious-ravine-54562.herokuapp.com/)
 - [Alain Suarez's Solution](https://gitlab.com/asuar/node-message-board) - [View in Browser](https://calm-peak-40614.herokuapp.com/)
 - [Slashflex's Solution](https://github.com/Slashflex/Basic-node-setup) - [View in Browser](https://basic-node-setup.herokuapp.com/)
