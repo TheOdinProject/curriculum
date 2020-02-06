@@ -50,4 +50,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Kai's React Library Solution](https://github.com/KaiVandivier/library-react) - [View in Browser](https://kaivandivier.github.io/library-react/)
 * [Aron's Solution (Restaurant Page)](https://github.com/aronfischer/react_restaurant_page) - [View in Browser](https://aronfischer.github.io/react_restaurant_page/)
 * [Emil Dimitrov's React Page](https://github.com/edmtrv/game-page-react) - [View in Browser](https://edmtrv.github.io/game-page-react/) [React Library](https://github.com/edmtrv/game-library-react) - [View in Browser](https://edmtrv.github.io/game-library-react/)
+* [Edehlol's React Library Solution](https://github.com/edehlol/react-library) - [View in Browser](https://edehlol.github.io/react-library/)
 </details>
