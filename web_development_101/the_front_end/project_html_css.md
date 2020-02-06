@@ -2959,6 +2959,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Nelson's Solution (Easy)](https://github.com/Nelson116/google_homepage)- [View in Browser](https://nelson116.github.io/google_homepage/)
 * [threeace' Solution (Easy)](https://github.com/threeaces/google-homepage)- [View in Browser](https://threeaces.github.io/google-homepage/)
 * [threeace' Solution (Hard)](https://github.com/threeaces/google-search-results-page)- [View in Browser](https://threeaces.github.io/google-search-results-page/)
+* [Jahtzee's Solution (Hard)](https://github.com/jahtzee/TOP-google-search-results-page) - [View in Browser](https://jahtzee.github.io/TOP-google-search-results-page/)
 </details>
 
 ### Additional Resources
