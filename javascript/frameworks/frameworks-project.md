@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Braxton Lemmon's React Library Solution](https://github.com/braxtonlemmon/book-library-react) - [View in Browser](https://braxtonlemmon.github.io/book-library-react/)
 * [Zakariye Yusuf's React ToDoList Solution](https://github.com/ZYusuf10/timelyRe) - [View in Browser](https://zyusuf10.github.io/timelyRe/)
 * [Bollinca's React Library Solution](https://github.com/bollinca/library-react-version) - [View in Browser](https://bollinca.github.io/library-react-version/)
 * [Brendaneus' React Library Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/react-library) - [View in Browser](https://theodinprojects.live/courses/javascript/projects/react-library)
