@@ -163,6 +163,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [vanny96's Solution](https://github.com/vanny96/odin-kittens)
 * [JamCry's Solution](https://github.com/jamcry/odin-kittens-api)
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-kittens)
+* [Rey van den Berg's Solution](https://github.com/Rey810/odin-kittens-api)
 
 </details>
 
