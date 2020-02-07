@@ -2957,12 +2957,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [André Rodrigues's Solution (Easy)](https://github.com/ARodrigues92/google_homepage_practice) - [View in Browser](https://arodrigues92.github.io/google_homepage_practice/)
 * [Daegudude's Solution(Hard)](https://github.com/daegudude/top-google-project/) - [View in Browser](https://daegudude.github.io/top-google-project/)
 * [Ken Holston's Solution (Easy)](https://github.com/kholston/google-homepage) - [View in Browser](https://kholston.github.io/google-homepage/)
-* [Nelson's Solution (Easy)](https://github.com/Nelson116/google_homepage)- [View in Browser](https://nelson116.github.io/google_homepage/)
-* [threeace' Solution (Easy)](https://github.com/threeaces/google-homepage)- [View in Browser](https://threeaces.github.io/google-homepage/)
-* [threeace' Solution (Hard)](https://github.com/threeaces/google-search-results-page)- [View in Browser](https://threeaces.github.io/google-search-results-page/)
-* [Andrew Widdowson's Solution (Easy)](https://andydreww.github.io/google-homepage/)- [View in Browser](https://andydreww.github.io/google-homepage/)
-* [Andrew Widdowson's (Hard)](https://andydreww.github.io/google-homepage/search.html)- [View in Browser](https://andydreww.github.io/google-homepage/search.html)
-* [Veskenazi's (Easy)](https://github.com/veskenazi/google-homepage/)- [View in Browser](https://veskenazi.github.io/google-homepage/)
+* [Nelson's Solution (Easy)](https://github.com/Nelson116/google_homepage) - [View in Browser](https://nelson116.github.io/google_homepage/)
+* [threeace' Solution (Easy)](https://github.com/threeaces/google-homepage) - [View in Browser](https://threeaces.github.io/google-homepage/)
+* [threeace' Solution (Hard)](https://github.com/threeaces/google-search-results-page) - [View in Browser](https://threeaces.github.io/google-search-results-page/)
+* [Andrew Widdowson's Solution (Easy)](https://github.com/AndyDreww/google-homepage)- [View in Browser](https://andydreww.github.io/google-homepage/)
+* [Andrew Widdowson's (Hard)](https://github.com/AndyDreww/google-homepage) - [View in Browser](https://andydreww.github.io/google-homepage/search.html)
+* [Veskenazi's (Easy)](https://github.com/veskenazi/google-homepage/) - [View in Browser](https://veskenazi.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
