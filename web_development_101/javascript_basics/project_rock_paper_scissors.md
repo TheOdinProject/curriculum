@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [James's Solution](https://github.com/HueHealer/rock-paper-sci)
 - [Odyssseuss_Solution](https://github.com/Odysseusss/rps_game)
 - [Aanttrax's Solution](https://github.com/Aanttrax/rock-paper-scissors) - [View in Browser](https://aanttrax.github.io/rock-paper-scissors/)
 - [Austin's Solution](https://github.com/cudworth/rock-paper-scissors) - [View in Browser](https://cudworth.github.io/rock-paper-scissors/)
