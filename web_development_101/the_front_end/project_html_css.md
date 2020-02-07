@@ -2963,6 +2963,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrew Widdowson's Solution (Easy)](https://github.com/AndyDreww/google-homepage)- [View in Browser](https://andydreww.github.io/google-homepage/)
 * [Andrew Widdowson's (Hard)](https://github.com/AndyDreww/google-homepage) - [View in Browser](https://andydreww.github.io/google-homepage/search.html)
 * [Veskenazi's (Easy)](https://github.com/veskenazi/google-homepage/) - [View in Browser](https://veskenazi.github.io/google-homepage/)
+* [Jahtzee's Solution (Hard)](https://github.com/jahtzee/TOP-google-search-results-page) - [View in Browser](https://jahtzee.github.io/TOP-google-search-results-page/)
+
 </details>
 
 ### Additional Resources
