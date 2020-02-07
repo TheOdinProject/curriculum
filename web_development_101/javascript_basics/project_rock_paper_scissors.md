@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Aanttrax's Solution](https://github.com/Aanttrax/rock-paper-scissors) - [View in Browser](https://aanttrax.github.io/rock-paper-scissors/)
+- [Austin's Solution](https://github.com/cudworth/rock-paper-scissors) - [View in Browser](https://cudworth.github.io/rock-paper-scissors/)
+- [wenxchen's Solution](https://github.com/wenxchen/RockPaperScissors) - [View in Browser](https://wenxchen.github.io/RockPaperScissors/)
 - [ptrcktylr's Solution](https://github.com/ptrcktylr/rock_paper_scissors) - [View in Browser](https://ptrcktylr.github.io/rock_paper_scissors)
 - [lamontcreef's Solution](https://github.com/lamontcreef/TOP-Fundamentals-Rock-Paper-Scissors)
 - [Daegudude's Solution](https://github.com/DaeguDude/rock-paper-scissors)
@@ -1244,4 +1247,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Bekah's Solution](https://github.com/rbrakebill/console-game)
 - [jesse james johnson's Solution](https://github.com/pcfascist/pcfascist.github.io/tree/master/RPSLS) - [View in Browser](https://pcfascist.github.io/pcfascist.github.io/RPSLS/)
 - [Blake Hutchinson's Solution](https://github.com/tkdblake93/rock-paper-scissors)
+- [Michael Doudy's Solution](https://github.com/mdoudy90/rock-paper-scissors) - [View in Browser](https://mdoudy90.github.io/rock-paper-scissors/)
 </details>
