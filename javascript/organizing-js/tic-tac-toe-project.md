@@ -25,6 +25,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [mjwills-inf's Solution](https://github.com/mjwills-inf/TicTacToe) - [View in Browser](https://mjwills-inf.github.io/TicTacToe/)
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/tic-tac-toe) - [View in Browser](https://kikupiku.github.io/tic-tac-toe/)
+- [yldrmali's Solution](https://github.com/yldrmali/tictactoe) - [View in Browser](https://yldrmali.github.io/tictactoe/)
+- [LorenzoMarinucci's Solution](https://github.com/LorenzoMarinucci/tic-tac-toe) - [View in Browser](https://lorenzomarinucci.github.io/tic-tac-toe/)
+- [tracy2811's Solution](https://github.com/tracy2811/tic-tac-toe) - [View in Browser](https://tracy2811.github.io/tic-tac-toe/)
 - [Justinkar's Solution (with Minimax)](https://github.com/justinkar/tic-tac-toe) - [View in Browser](https://justinkar.github.io/tic-tac-toe/)
 - [dhatGuy & nearmint's Solution (with Minimax)](https://github.com/nearmint/tictactoe) - [View in Browser](https://nearmint.github.io/tictactoe/)
 - [James's Solution](https://github.com/ericksen-github/Tic_Tac_Toe) - [View in Browser](https://ericksen-github.github.io/Tic_Tac_Toe/)
