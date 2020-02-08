@@ -131,6 +131,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
 * Leo Holanda's Solution [Github](https://github.com/leo-holanda/sinatra_caesar_cipher) - [See it on the web](https://protected-dusk-87027.herokuapp.com)
 * Carlos Diaz's Solution [GitHub](https://github.com/bycdiaz/caesar-cipher-reloaded) - [Heroku](https://hidden-springs-00448.herokuapp.com/)
 * guacamobley's Solution [Github](https://github.com/guacamobley/caesar-cipher-webapp) - [Heroku](https://guacamobley-caesar-cipher.herokuapp.com)
+* unheavenlycreature's Solution [Github](https://github.com/unheavenlycreature/caesar-cipher-webapp) - [See it on the web](https://uc-caesar-sinatra.herokuapp.com/)
 </details>
 
 ### Project 2: Another Web-Game
