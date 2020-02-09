@@ -40,7 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
--[armagansenol's Solution](https://github.com/armagansenol/project-library) - [View in Browser](https://armagansenol.github.io/project-library/)
+- [mattjaylee's Solution](https://github.com/mattjaylee/library)
+- [armagansenol's Solution](https://github.com/armagansenol/project-library) - [View in Browser](https://armagansenol.github.io/project-library/)
 - [Ashish's Solution](https://github.com/CodersGas/project-library) - [View in Browser](https://codersgas.github.io/project-library/Library.html)
 - [tracy2811's Solution](https://github.com/tracy2811/library) - [View in Browser](https://tracy2811.github.io/library/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/book-library) - [View in Browser](https://kikupiku.github.io/book-library/)
