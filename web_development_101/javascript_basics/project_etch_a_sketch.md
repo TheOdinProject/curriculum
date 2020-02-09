@@ -752,4 +752,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Kuba Zawierucha's Solution](https://github.com/KubaZawierucha/etch-a-sketch) - [View in Browser](https://kubazawierucha.github.io/etch-a-sketch/)
 * [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/etch-a-sketch) - [View in Browser](https://blessedonekobo.github.io/etch-a-sketch/)
 * [Tenacious-Qi's Solution](https://github.com/Tenacious-Qi/Pixel-Sketch) - [View in Browser](https://tenacious-qi.github.io/Pixel-Sketch/)
+* [Dameon Wilson's Solution](https://github.com/theBrownCoder/etch-a-sketch) - [View in Browser](https://thebrowncoder.github.io/etch-a-sketch/)
 </details>
