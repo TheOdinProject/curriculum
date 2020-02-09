@@ -3,11 +3,11 @@
 You've seen how simple it can be to get something up and running using Sinatra, in these projects you will use the Caesar Cipher and either the Hangman or Mastermind games you built in the Ruby course to make a couple of web apps.
 
 ### A note on deploying your apps
-Deploying a Sinatra app to Heroku takes a little bit of work but the process is fairly straightforward. Instructions can be found [here](https://devcenter.heroku.com/articles/rack#sinatra)
+Deploying a Sinatra app to Heroku takes a little bit of work but the process is fairly straightforward. Instructions can be found [here](https://devcenter.heroku.com/articles/rack#sinatra).
 
-1. your `config.ru` file should require your main application file (This will be something like `web_guesser.rb` in the jumpstart tutorial)
-2. if you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
-3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku via `git push heroku master`.
+1. Your `config.ru` file should require your main application file (This will be something like `web_guesser.rb` in the jumpstart tutorial)
+2. If you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
+3. After creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku via `git push heroku master`.
 
 ### Project 1: Caesar Cipher _reloaded_
 
@@ -134,6 +134,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
 * Leo Holanda's Solution [Github](https://github.com/leo-holanda/sinatra_caesar_cipher) - [See it on the web](https://protected-dusk-87027.herokuapp.com)
 * Carlos Diaz's Solution [GitHub](https://github.com/bycdiaz/caesar-cipher-reloaded) - [Heroku](https://hidden-springs-00448.herokuapp.com/)
 * guacamobley's Solution [Github](https://github.com/guacamobley/caesar-cipher-webapp) - [Heroku](https://guacamobley-caesar-cipher.herokuapp.com)
+* unheavenlycreature's Solution [Github](https://github.com/unheavenlycreature/caesar-cipher-webapp) - [See it on the web](https://uc-caesar-sinatra.herokuapp.com/)
 </details>
 
 ### Project 2: Another Web-Game
