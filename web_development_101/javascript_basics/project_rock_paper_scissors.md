@@ -1250,7 +1250,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ulises V Solution](https://github.com/UlisesVil/project_rock_paper_scissors)
 - [EduardoSCosta's Solution](https://github.com/EduardoSCosta/rock_paper_scissors) - [View in Browser](https://eduardoscosta.github.io/rock_paper_scissors/)
 - [Sonyas Solution](https://github.com/murdens/Rock-Paper-Scissors)
-- [André Rodrigues's Solution](https://github.com/ARodrigues92/rock-paper-scissors) - - [View in Browser](https://arodrigues92.github.io/rock-paper-scissors/)
+- [André Rodrigues's Solution](https://github.com/ARodrigues92/rock-paper-scissors) - [View in Browser](https://arodrigues92.github.io/rock-paper-scissors/)
 - [Bekah's Solution](https://github.com/rbrakebill/console-game)
 - [jesse james johnson's Solution](https://github.com/pcfascist/pcfascist.github.io/tree/master/RPSLS) - [View in Browser](https://pcfascist.github.io/pcfascist.github.io/RPSLS/)
 - [Blake Hutchinson's Solution](https://github.com/tkdblake93/rock-paper-scissors)
