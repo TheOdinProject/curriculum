@@ -11,7 +11,7 @@ Before continuing, let's review a few best practices to keep in mind:
 Now, let's get started!
 
 <details markdown="block">
-<summary class="dropDown-header">Linux / WSL
+<summary class="dropDown-header">Ubuntu / Xubuntu / WSL
 </summary>
 
 ### Step 1: Install Updates, Packages and Libraries
