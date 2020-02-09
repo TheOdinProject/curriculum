@@ -89,4 +89,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ifeanyichukwu's Solution](https://github.com/Anyitechs/Message_boardApp) - [View in Browser](https://boiling-temple-35917.herokuapp.com/)
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/mini-message-board) - [View in Browser](https://odin-mini-message-board.herokuapp.com/)
 - [Aron's Solution](https://github.com/aronfischer/mern_message_board) - [View in Browser](https://aronfischer.github.io/mern_message_board/)
+- [Siegmeister's Solution](https://github.com/the-siegmeister/mini-message-board) - [View in Browser](https://salty-ridge-30513.herokuapp.com/)
 </details>

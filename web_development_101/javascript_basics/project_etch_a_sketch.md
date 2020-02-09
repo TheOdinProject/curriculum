@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [ScottB's Solution](https://github.com/scottBowles/Etch-A-Sketch) - [View in Browser](https://scottbowles.github.io/Etch-A-Sketch/)
 * [isg007's Solution](https://github.com/isg007/Etch-A-Sketch) - [View in Browser](https://isg007.github.io/Etch-A-Sketch/)
 * [gitoff's Solution](https://github.com/gitoff/etch-a-sketch) - [View in Browser](https://gitoff.github.io/etch-a-sketch/)
 * [Lucio's Solution](https://github.com/JCarlosLucio/etch-a-sketch) - [View in Browser](https://jcarloslucio.github.io/etch-a-sketch/)
@@ -753,4 +754,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/etch-a-sketch) - [View in Browser](https://blessedonekobo.github.io/etch-a-sketch/)
 * [Tenacious-Qi's Solution](https://github.com/Tenacious-Qi/Pixel-Sketch) - [View in Browser](https://tenacious-qi.github.io/Pixel-Sketch/)
 * [Michael Doudy's Solution](https://github.com/mdoudy90/etch-a-sketch) - [View in Browser](https://mdoudy90.github.io/etch-a-sketch/)
+* [Dameon Wilson's Solution](https://github.com/theBrownCoder/etch-a-sketch) - [View in Browser](https://thebrowncoder.github.io/etch-a-sketch/)
 </details>
