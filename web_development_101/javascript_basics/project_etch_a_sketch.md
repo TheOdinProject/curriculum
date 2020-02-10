@@ -43,7 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
+* [LorriAnn's Solution](https://github.com/TechnicolorPanda/etch-a-sketch) - [View in Browser](https://github.com/TechnicolorPanda.github.io/etch-a-sketch/)
 * [tracy2811's Solution](https://github.com/tracy2811/etch-a-sketch/) - [View in Browser](https://tracy2811.github.io/etch-a-sketch/)
 * [Jeremy Ebinum's Solution](https://github.com/jeremy-ebinum/top-etch-a-sketch) - [View in Browser](https://jeremy-ebinum.github.io/top-etch-a-sketch/)
 * [langarus' Solution](https://github.com/langarus/ETCH-A-SKETCH) - [View in Browser](https://langarus.github.io/ETCH-A-SKETCH/)
