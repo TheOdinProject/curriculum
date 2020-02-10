@@ -1255,4 +1255,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Michael Doudy's Solution](https://github.com/mdoudy90/rock-paper-scissors) - [View in Browser](https://mdoudy90.github.io/rock-paper-scissors/)
 - [Sonyas UI Solution](https://github.com/murdens/RPS_Browser) - [View in Browser](https://murdens.github.io/RPS_Browser/)
 - [Joseph's Solution](https://github.com/J-Cerdan/rock-scissors-paper)
+- [Jeff's Solution](https://github.com/LebJe/TOP/blob/master/RPS/RPS.html)
 </details>
