@@ -2967,9 +2967,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrew Widdowson's (Hard)](https://github.com/AndyDreww/google-homepage) - [View in Browser](https://andydreww.github.io/google-homepage/search.html)
 * [Veskenazi's (Easy)](https://github.com/veskenazi/google-homepage/) - [View in Browser](https://veskenazi.github.io/google-homepage/)
 * [Jahtzee's Solution (Hard)](https://github.com/jahtzee/TOP-google-search-results-page) - [View in Browser](https://jahtzee.github.io/TOP-google-search-results-page/)
-* [Emily Strongman's Solution (Easy)](https://github.com/estrongman/google_homepage)- [View in Browser](https://estrongman.github.io/google-homepage/)
-* [Andrew Parkinson's Solution (Easy)](https://github.com/andrew-p89/google-homepage)- [View in Browser](https://github.com/andrew-p89/google-homepage)
-* [Tognetti's Solution (Easy)](https://github.com/Tognetti/google-homepage)- [View in Browser](https://tognetti.github.io/google-homepage)
+* [Emily Strongman's Solution (Easy)](https://github.com/estrongman/google_homepage) - [View in Browser](https://estrongman.github.io/google-homepage/)
+* [Andrew Parkinson's Solution (Easy)](https://github.com/andrew-p89/google-homepage) - [View in Browser](https://github.com/andrew-p89/google-homepage)
+* [Shiglar's Solution (Easy)](https://github.com/shiglar/google-homepage) - [View in Browser](https://shiglar.github.io/google-homepage/)
+* [Tognetti's Solution (Easy)](https://github.com/Tognetti/google-homepage) - [View in Browser](https://tognetti.github.io/google-homepage)
 </details>
 
 ### Additional Resources
