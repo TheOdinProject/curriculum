@@ -2969,6 +2969,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jahtzee's Solution (Hard)](https://github.com/jahtzee/TOP-google-search-results-page) - [View in Browser](https://jahtzee.github.io/TOP-google-search-results-page/)
 * [Emily Strongman's Solution (Easy)](https://github.com/estrongman/google_homepage)- [View in Browser](https://estrongman.github.io/google-homepage/)
 * [Andrew Parkinson's Solution (Easy)](https://github.com/andrew-p89/google-homepage)- [View in Browser](https://github.com/andrew-p89/google-homepage)
+* [Shiglar's Solution (Easy)](https://github.com/shiglar/google-homepage)- [View in Browser](https://shiglar.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
