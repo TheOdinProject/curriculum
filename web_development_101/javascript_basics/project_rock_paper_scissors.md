@@ -1189,7 +1189,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Wilmir's Solution](https://github.com/Wilmir/rock-paper-scissors) - [View in Browser](https://wilmir.github.io/rock-paper-scissors/)
 - [Lasse Maidal Pedersen's Solution](https://github.com/lassemaidalpedersen/rock-paper-scissors) - [View in Browser](https://lassemaidalpedersen.github.io/rock-paper-scissors/)
 - [Busy Bee's Solution](https://github.com/swissbusybee/Rock-Paper-Scissors-Project) - [View in Browser](https://swissbusybee.github.io/Rock-Paper-Scissors-Project/)
-- [Kieran Holland's Solution](https://github.com/kie96/rock-paper-scissors)
+- [Kieran Holland's Solution](https://github.com/kie96/rock-paper-scissors) - [View in Browser](https://kie96.github.io/rock-paper-scissors/dom-manipulation/)
 - [Derek Bekoe's Solution](https://github.com/https://github.com/derekowusubekoe/rock_paper_scissors) - [View in Browser](https://derekowusubekoe.github.io/rock_paper_scissors.io/)
 - [Tyler Knapp's Solution](https://github.com/knapptr/RockPaperScissors) - [View in Browser](https://knapptr.github.io/RockPaperScissors/)
 - [chriskoder's Solution](https://github.com/chriskoder/ropasc/) - [View in Browser](https://chriskoder.github.io/ropasc/)
