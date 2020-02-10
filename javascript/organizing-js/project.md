@@ -96,4 +96,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [AlexGioffDev's Solution](https://github.com/AlexGioffDev/TODO_JS) - [View in Browser](https://alexgioffdev.github.io/TODO_JS/)
 * [kylazath's Solution](https://github.com/kylazath/todos) - [View in Browser](https://kylazath.github.io/todos/index.html)
 * [mmboyce's Solution](https://github.com/mmboyce/to-do) - [View in Browser](https://mmboyce.github.io/to-do)
+* [Hamohuh's Solution](https://github.com/hamohuh/todo) - [View in Browser](https://hamohuh.github.io/todo/)
+* [Vorelli's Solution](https://github.com/Vorelli/Goal_Tracker) - [View in Browser](https://vorelli.github.io/Goal_Tracker/)
+* [Y0ss-Please's Solution](https://github.com/Y0ss-Please/doitup) - [View in Browser](https://y0ss-please.github.io/doitup/public/index.html)
+* [0xtaf's Solution](https://github.com/0xtaf/todo) - [View in Browser](https://0xtaf.github.io/todo/)
 </details>
