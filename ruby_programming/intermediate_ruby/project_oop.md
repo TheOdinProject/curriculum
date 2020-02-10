@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Johongirr's Solution](https://github.com/Johongirr/tic-tac-toe_ruby) - [Play Demo]
+(https://repl.it/@Johongirr/TestyStylishApplicationprogram)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/tic_tac_toe.rb)
 * [David Auza's and Falguni Islam's Solution](https://github.com/eng-monika/Ruby-Programming-PROJECT-OOP) - [View Demo](https://repl.it/@islamfalguni/tic-tac-toe)
 * [robo-monk's Solution](https://github.com/robo-monk/tic)
