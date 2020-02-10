@@ -90,7 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [GraceSchwar's Solution (Easy)](https://github.com/GraceSchwar/google-homepage2) - [View in Browser](https://graceschwar.github.io/google-homepage2/)
+* [Chris Ewen's Solution (Easy)](https://github.com/chrisstophere/google-homepage/) - [View in Browser](https://www.ewentech.com/google-homepage/)
 * [David Nguyen's Solution (Easy)](https://github.com/dhnguy/googlepage) - [View in Browser](https://dhnguy.github.io/googlepage/)
 * [wenxchen's Solution (Easy)](https://github.com/wenxchen/google-homepage) - [View in Browser](https://wenxchen.github.io/google-homepage/)
 * [tommydup's Solution (Easy)](https://github.com/tommydup/google-homepage) - [View in Browser](https://tommydup.github.io/google-homepage/)
