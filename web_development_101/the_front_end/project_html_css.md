@@ -91,6 +91,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [GraceSchwar's Solution (Easy)](https://github.com/GraceSchwar/google-homepage2) - [View in Browser](https://graceschwar.github.io/google-homepage2/)
+* [Chris Ewen's Solution (Easy)](https://github.com/chrisstophere/google-homepage/) - [View in Browser](https://www.ewentech.com/google-homepage/)
 * [David Nguyen's Solution (Easy)](https://github.com/dhnguy/googlepage) - [View in Browser](https://dhnguy.github.io/googlepage/)
 * [wenxchen's Solution (Easy)](https://github.com/wenxchen/google-homepage) - [View in Browser](https://wenxchen.github.io/google-homepage/)
 * [tommydup's Solution (Easy)](https://github.com/tommydup/google-homepage) - [View in Browser](https://tommydup.github.io/google-homepage/)
@@ -2967,6 +2968,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Veskenazi's (Easy)](https://github.com/veskenazi/google-homepage/) - [View in Browser](https://veskenazi.github.io/google-homepage/)
 * [Jahtzee's Solution (Hard)](https://github.com/jahtzee/TOP-google-search-results-page) - [View in Browser](https://jahtzee.github.io/TOP-google-search-results-page/)
 * [Emily Strongman's Solution (Easy)](https://github.com/estrongman/google_homepage)- [View in Browser](https://estrongman.github.io/google-homepage/)
+* [Andrew Parkinson's Solution (Easy)](https://github.com/andrew-p89/google-homepage)- [View in Browser](https://github.com/andrew-p89/google-homepage)
 </details>
 
 ### Additional Resources
