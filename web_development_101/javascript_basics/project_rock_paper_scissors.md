@@ -1256,4 +1256,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sonyas UI Solution](https://github.com/murdens/RPS_Browser) - [View in Browser](https://murdens.github.io/RPS_Browser/)
 - [Joseph's Solution](https://github.com/J-Cerdan/rock-scissors-paper)
 - [Jeff's Solution](https://github.com/LebJe/TOP/blob/master/RPS/RPS.html)
+- [Amber's Solution](https://github.com/damned-albatross/rock_paper_scissors) - [View in Browser] (https://damned-albatross.github.io/rock_paper_scissors/)
 </details>
