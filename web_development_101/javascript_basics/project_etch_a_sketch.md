@@ -761,4 +761,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [alicee88's Solution](https://github.com/alicee88/Etch-a-Sketch) - [View in Browser](https://alicee88.github.io/Etch-a-Sketch/)
 * [Kendra Moyars's Solution](https://https://github.com/kendramoyars/etch-a-sketch) - [View in Browser](https://kendramoyars.github.io/etch-a-sketch/)
 * [Sonya's Solution](https://github.com/murdens/Etch-a-Sketch) - [View in Browser](https://murdens.github.io/Etch-a-Sketch/)
+* [Jeffrey's's Solution](https://github.com/Jding9/Etch-a-Sketch) - [View in Browser](https://github.com/Jding9/Etch-a-Sketch)
 </details>
