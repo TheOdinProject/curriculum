@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [brandonS's Solution](https://github.com/bstottler/rockpaperscissors)
 - [Mike McCain's Solution](https://github.com/mjmccain52/rps)
 - [BlipOnNobodysRadar's Solution](https://github.com/BlipOnNobodysRadar/RockPaperScissors) 
 - [ScottB's Solution](https://github.com/scottBowles/rockpaperscissors) - [View in Browser](https://scottbowles.github.io/rockpaperscissors/)
