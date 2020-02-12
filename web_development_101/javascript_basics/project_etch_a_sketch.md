@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Mr. Lupine's Solution](https://github.com/MrLupine/Etch-A-Sketch) - [View in Browser](https://MrLupine.github.io/Etch-A-Sketch/)
+* [Lauren's Solution](https://github.com/Kineara/etch-a-sketch) - [View in Browser](https://kineara.github.io/etch-a-sketch/)
 * [LorriAnn's Solution](https://github.com/TechnicolorPanda/etch-a-sketch) - [View in Browser](https://github.com/TechnicolorPanda.github.io/etch-a-sketch/)
 * [cmjnorman's Solution](https://github.com/cmjnorman/etch-a-sketch) - [View in Browser](https://cmjnorman.github.io/etch-a-sketch/)
 * [ScottB's Solution](https://github.com/scottBowles/Etch-A-Sketch) - [View in Browser](https://scottbowles.github.io/Etch-A-Sketch/)
@@ -761,4 +763,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Kendra Moyars's Solution](https://https://github.com/kendramoyars/etch-a-sketch) - [View in Browser](https://kendramoyars.github.io/etch-a-sketch/)
 * [Sonya's Solution](https://github.com/murdens/Etch-a-Sketch) - [View in Browser](https://murdens.github.io/Etch-a-Sketch/)
 * [André Rodrigues's Solution](https://github.com/ARodrigues92/etch-a-sketch) - [View in Browser](https://arodrigues92.github.io/etch-a-sketch/)
+* [peteydalite's Solution](https://github.com/peteydalite/etchysketchy) - [View in Browser](https://peteydalite.github.io/etchysketchy/)
+* [Jeffrey's's Solution](https://github.com/Jding9/Etch-a-Sketch) - [View in Browser](https://github.com/Jding9/Etch-a-Sketch)
+* [Alex Burman's Solution](https://github.com/alex-burman/etch-a-sketch)
 </details>
