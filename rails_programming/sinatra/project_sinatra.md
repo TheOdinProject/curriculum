@@ -252,4 +252,5 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
 * Robert Dunbar's Solution [GitHub](https://github.com/RobertDunbar/sinatra/tree/master/games) - [Heroku](https://lit-refuge-73632.herokuapp.com/)
 * Joe Lee Hangman's Solution [GitHub](https://github.com/JoeDravarol/sinatra_hangman) - [Heroku](https://blooming-crag-69548.herokuapp.com/)
 * guacamobley's Solution [Github](https://github.com/guacamobley/sinatra_mastermind) - [Heroku](https://guacamobley-sinatra-mastermind.herokuapp.com)
+* unheavenlycreature's Solution (Mastermind) - [Github](https://github.com/unheavenlycreature/sinatra-mastermind) - [Heroku](https://uc-mastermind.herokuapp.com)
 </details>
