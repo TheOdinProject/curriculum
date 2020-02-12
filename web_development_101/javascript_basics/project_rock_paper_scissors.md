@@ -1258,5 +1258,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joseph's Solution](https://github.com/J-Cerdan/rock-scissors-paper)
 - [Jeff's Solution](https://github.com/LebJe/TOP/blob/master/RPS/RPS.html)
 - [Rémi Borfigat’s Solution](https://github.com/remiborfigat/rock-paper-scissors)
-- [dhecker's Solution](https://dhecker.github.io/rps/rps.html) - [View in Browser](https://dhecker.github.io/rps/rps.html)
+- [dhecker's Solution](https://github.com/dhecker/rps) - [View in Browser](https://dhecker.github.io/rps/rps.html)
+- [Ken Holston's Solution](https://github.com/kholston/rock_paper_scissors)
 </details>
