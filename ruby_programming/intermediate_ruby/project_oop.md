@@ -347,6 +347,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Johongirr's Solution](https://github.com/Johongirr/mastermind_ruby/tree/masterd) - [Live repl.it Version](https://repl.it/@Johongirr/DapperGoodState)
 * [Infectos's Solution (with AI)](https://github.com/infectos/Mastermind) - [Live repl.it Version](https://repl.it/@infectos/Mastermind)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_mastermind)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/mastermind)
