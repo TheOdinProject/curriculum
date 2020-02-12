@@ -2971,6 +2971,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Andrew Parkinson's Solution (Easy)](https://github.com/andrew-p89/google-homepage) - [View in Browser](https://github.com/andrew-p89/google-homepage)
 * [Shiglar's Solution (Easy)](https://github.com/shiglar/google-homepage) - [View in Browser](https://shiglar.github.io/google-homepage/)
 * [Tognetti's Solution (Easy)](https://github.com/Tognetti/google-homepage) - [View in Browser](https://tognetti.github.io/google-homepage)
+* [Alex Drid's Solution (Easy)](https://github.com/alexdrid/google-homepage-mockup) - [View in Browser](https://alexdrid.github.io/google-homepage-mockup)
 </details>
 
 ### Additional Resources
