@@ -110,7 +110,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [fossegrim's Solution](https://github.com/olav35/etch-a-sketch) - [View in Browser](https://olav35.github.io/etch-a-sketch/)
 * [Ken Yu's Solution](https://github.com/kendinh216/Etch-a-Sketch/) - [View in Browser](https://kendinh216.github.io/Etch-a-Sketch/etch-a-sketch.html)
 * [Brian Ngetich's Solution](https://github.com/Ghostscypher/etch-a-sketch)
->>>>>>> af2cb9aaa8eb424c60cb98c1e938b4ef22666379
 * [Edison Escobar's Solution](https://github.com/Jhoneguitar/Etch-A-Sketch) - [View in Browser](https://jhoneguitar.github.io/Etch-A-Sketch/)
 * [Lyle Aigbedion's Solution](https://github.com/lyleaigbedion/etch_a_sketch) - [View in Browser](https://lyleaigbedion.github.io/etch_a_sketch/)
 * [Nyandereian's Solution](https://github.com/Nyandereian/etch-a-sketch) - [View in Browser](https://nyandereian.github.io/etch-a-sketch/)
