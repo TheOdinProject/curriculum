@@ -208,6 +208,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/binary_search_tree.rb)
 * [guacamobley's Solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/binary-search-tree.rb)
 * [Robert Suazo's Solution](https://github.com/rsuazo/binary_search_tree/blob/master/binary_search_tree.rb)
+* [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/binary_search_tree)
 </details>
 
 ### Project 2: Knight's Travails
@@ -409,4 +410,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [guacamobley's Solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/knights-travails.rb)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ds_and_algos/blob/master/knights_moves.rb)
 * [Robert Suazo's Solution](https://github.com/rsuazo/knights_travails/blob/master/main.rb)
+* [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/knight_moves)
 </details>
