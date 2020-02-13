@@ -990,6 +990,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hans Oliveira's Solution](https://github.com/hansnery/substrings/blob/master/substrings.rb)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/substrings.rb)
 * [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/substring.rb)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/substrings.rb)
