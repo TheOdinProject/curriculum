@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [llamalamps Solution (Easy)](https://github.com/llamalamp/google-homepage.git)[View in Browser] (https://github.com/llamalamp/google-homepage.git)
 * [vkunal1996's Solution (Easy)](https://github.com/vkunal1996/odin-google) - [View in Browser](https://vkunal1996.github.io/odin-google/)
 * [Crumbhustler's Solution (Easy)](https://github.com/crumbhustler/google-homepage) - [View in Browser](https://crumbhustler.github.io/google-homepage/)
 * [GraceSchwar's Solution (Easy)](https://github.com/GraceSchwar/google-homepage2) - [View in Browser](https://graceschwar.github.io/google-homepage2/)
