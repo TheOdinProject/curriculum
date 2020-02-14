@@ -23,6 +23,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Auza's Solution](https://github.com/davidauza-engineer/REST-Client-Gem)
 * [Nasser Abachi's Solution](https://github.com/abachi/rest-clinet-app)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
 * [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/warmup_restclient)
