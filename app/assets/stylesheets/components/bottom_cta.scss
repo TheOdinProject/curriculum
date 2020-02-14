@@ -1,0 +1,21 @@
+.bottom-cta {
+  font-weight: 100;
+  padding: 5em 2.5em;
+  text-align: center;
+
+  &__heading {
+    color: $grey;
+    font-size: 2.2em;
+    line-height: 1.5em;
+    margin: 0 auto 1rem;
+    max-width: 25em;
+    @media (max-width: 480px) {
+      font-size: 1.75rem;
+    }
+  }
+
+  &__sub-heading {
+    font-weight: normal;
+    margin-bottom: 2.5em;
+  }
+}

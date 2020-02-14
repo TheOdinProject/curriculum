@@ -1,0 +1,31 @@
+<div class="success-stories gradient">
+  <div class="success-stories-title">
+    <h2 class="bold">Success Stories</h2>
+  </div>
+
+  <div class="success-stories-container">
+    <% first_four_success_stories.each do |story| %>
+    <div class="success-story">
+      <div class="photo"> <%= image_tag "success_stories/#{story.avatar_path_name}" %> </div>
+
+      <div class="success-content">
+	       <div class="details">
+           <p><%= link_to story.student_name, story.social_media_link, class: 'accent' %></p>
+	       </div>
+         <p><%= story.story_content.truncate_words(30) %></p>
+      </div>
+    </div>
+    <% end %>
+  </div>
+
+  <div class="success-stories-read-more">
+    <%= link_to 'Read more success stories', success_stories_path, class: 'secondary' %>
+  </div> <!-- /.success-stories-read-more -->
+
+  <%= render 'shared/bottom_cta',
+    button: sign_in_or_view_curriculum_button,
+    heading: 'Start learning for free now!',
+    sub_heading: ''
+  %>
+
+</div> <!-- /.success-stories -->

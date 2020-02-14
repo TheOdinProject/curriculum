@@ -1,0 +1,50 @@
+<div class="card-main">
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: 'form' }) do |form| %>
+
+    <div class="form__section">
+      <span class="fas fa-user form__icon"></span>
+      <%= form.text_field :username, required: true, placeholder: 'Username', class: 'form__element form__element--with-icon' %>
+    </div>
+    <% if resource.errors[:username].present? %>
+      <div class="form__error-message push-down user_username"> <%=resource.errors[:username].first %></div>
+    <% end %>
+
+    <div class="form__section">
+      <span class="fas fa-envelope form__icon"></span>
+      <%= form.email_field :email, required: true, placeholder: 'Email', class: 'form__element form__element--with-icon '%>
+    </div>
+    <% if resource.errors[:email].present? %>
+      <div class="form__error-message push-down user_email"> <%=resource.errors[:email].first %></div>
+    <% end %>
+
+    <div class="form__section">
+      <span class="fas fa-lock form__icon"></span>
+      <%= form.password_field :password, required: true, placeholder: 'Password', class: 'form__element form__element--with-icon' %>
+    </div>
+    <% if resource.errors[:password].present? %>
+      <div class="form__error-message push-down user_password"> <%=resource.errors[:password].first %></div>
+    <% end %>
+
+    <div class="form__section">
+      <span class="fas fa-lock form__icon"></span>
+      <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'form__element form__element--with-icon' %>
+    </div>
+    <% if resource.errors[:password_confirmation].present? %>
+      <div class="form__error-message push-down user_password_confirmation"> <%=resource.errors[:password_confirmation].first %></div>
+    <% end %>
+
+    <div class="form__section">
+      <%= link_to 'By signing up, you agree to our terms of use.', terms_of_use_path, class: 'form__link' %>
+    </div>
+
+    <div class="form__button-section">
+      <%= form.submit 'Sign up', class: 'button button--primary full-width' %>
+    </div>
+  <% end %>
+
+  <div class="form-divider text-center">
+    <span class="form-divider__text">OR SIGN UP WITH</span>
+  </div>
+
+  <%= render 'shared/omniauth_buttons' %>
+</div>

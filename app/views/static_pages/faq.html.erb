@@ -1,0 +1,18 @@
+<%= title('FAQ') %>
+
+<div class="StaticPagesController gradient">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <h1 class="text-center accent faq-title">Frequently Asked Questions</h1>
+        <%= render 'static_pages/faq/faq_accordion'%>
+      </div>
+    </div> <!-- /.row -->
+
+    <%= render 'shared/bottom_cta',
+      button: chat_button,
+      heading: 'Have a question?',
+      sub_heading: 'Chat with our friendly Odin community in our Discord server!'
+    %>
+  </div> <!--  /.container -->
+</div> <!-- /.StaticPagesController -->

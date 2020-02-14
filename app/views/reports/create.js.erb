@@ -1,0 +1,10 @@
+<% if @reported %>
+  $('#project-report-modal').modal('hide');
+  $('#description').val('')
+  toastr.success("Thanks for reporting the submission, we'll have a look", 'Success!');
+<% else %>
+  toastr.error('Something went wrong, please try again', 'Error', {
+    closeButton: 'true',
+    tapToDismiss: false,
+  });
+<% end %>

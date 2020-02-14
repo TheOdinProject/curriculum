@@ -1,0 +1,48 @@
+<div class="card-main card-main--shadowless project-form">
+  <h1 class="text-center project-form__title accent">Upload your project</h1>
+
+  <%= form_for [lesson, project], remote: true, class: 'form' do |form| %>
+    <div class="form__section">
+      <span class="fab fa-github form__icon"></span>
+      <%= form.text_field :repo_url,
+        class: 'form__element form__element--with-icon',
+        placeholder: 'Repository URL'
+      %>
+    </div>
+
+    <% if lesson.has_live_preview? %>
+      <div class="form__section">
+        <span class="fas fa-paperclip form__icon"></span>
+        <%= form.text_field :live_preview,
+          class: 'form__element form__element--with-icon',
+          placeholder: 'Live Preview URL'
+        %>
+      </div>
+    <% end %>
+
+    <div class="form__section text-center">
+      <%= form.submit (project.new_record? ? 'Upload project' : 'Update project'),
+        class: 'button button--primary project-form__button project-form__submit-btn',
+        disable_with: (project.new_record? ? 'Uploading project...' : 'Updating project..')
+      %>
+    </div>
+
+    <div class="form__section text-center">
+      <%= button_tag 'Cancel',
+        type: 'button',
+        class: 'button project-form__button',
+        data: { dismiss: 'modal' }
+      %>
+    </div>
+
+    <% if project.persisted? %>
+      <div class="form__section text-center">
+        <%= button_tag 'Delete',
+          type: 'button',
+          class: 'button project-form__button btn-danger',
+          data: { toggle: 'modal', target: '#delete-project-modal' }
+        %>
+      </div>
+    <% end %>
+  <% end %>
+</div>

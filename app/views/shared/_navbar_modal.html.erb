@@ -1,0 +1,73 @@
+<div id="navbar-supported-content" class="modal modal-fullscreen-menu fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="navbar-brand">
+          <%= render 'shared/logo' %>
+        </div>
+        <button aria-label="Close" type="button" class="close" data-dismiss="modal">
+          <span class="sr-only">Close navigation</span>
+          <span class="close-icon">&times;</span>
+        </button>
+      </div>
+      <ul class="modal-links">
+        <% if user_signed_in? %>
+          <li class="nav-item <%= active_class(dashboard_path) %>">
+            <%= link_to 'Dashboard', dashboard_path(ref: 'homenav'), class: 'nav-link' %>
+          </li>
+
+          <li class="nav-item <%= active_class(courses_path) %>">
+            <%= link_to 'Curriculum', track_path(current_user.track_id), class: 'nav-link' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to 'Forum', forum_link, class: 'nav-link' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to 'Chat', chat_link, class: 'nav-link gitter-chat-link', target: '_blank', rel: 'noreferrer' %>
+          </li>
+
+          <div class="dropdown-divider"></div>
+          <li class="nav-item <%= active_class(edit_user_registration_path) %>">
+            <%= link_to "Settings", edit_user_registration_path, class: 'nav-link' %>
+          </li>
+
+          <li class="nav-item">
+            <%= link_to "Log Out", logout_path(ref: 'homenav'), class: 'nav-link' %>
+          </li>
+
+        <% else %>
+          <li class="nav-item <%= active_class(courses_path) %>">
+            <%= link_to 'Curriculum', tracks_path, class: 'nav-link' %>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#collapseCommunity" role="button" aria-expanded="false" aria-controls="collapseCommunity">
+              Community
+            </a>
+            <div class="collapse" id="collapseCommunity">
+              <%= link_to 'Forum', forum_link, class: 'nav-link' %>
+              <%= link_to 'Chat', chat_link, class: 'nav-link gitter-chat-link', target: '_blank', rel: 'noreferrer' %>
+            </div>
+          </li>
+
+          <li class="nav-item <%= active_class(about_path) %>">
+            <%= link_to 'About', about_path(ref: 'homenav'), class: 'nav-link' %>
+          </li>
+
+          <li class="nav-item <%= active_class(faq_path) %>">
+            <%= link_to "FAQ", faq_path(ref: 'homehav'), class: 'nav-link' %>
+          </li>
+
+          <div class="dropdown-divider"></div>
+
+          <li class="nav-item <%= active_class(sign_up_path) %>">
+            <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'nav-link' %>
+          </li>
+          <li class="nav-item <%= active_class(login_path) %>">
+            <%= link_to 'Log In', login_path(ref: 'homenav'), class: 'nav-link' %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<% if project.user == current_user %>
+  <%= link_to '#', data: { toggle: 'modal', target: '#project-submission-modal'} do %>
+    <%= project.owner_name.capitalize %>
+  <% end %>
+<% else %>
+  <% if user_signed_in? %>
+    <%= link_to '#',
+      class: 'project__report-link',
+      title: 'Report project',
+      data: {
+        'toggle' => 'modal',
+        'target' => '#project-report-modal',
+        'project-id' => project.id,
+      } do %>
+        <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+      <% end %>
+    <% end %>
+
+  <%= project.owner_name.capitalize %>
+<% end %>

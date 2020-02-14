@@ -1,0 +1,14 @@
+.project {
+  &__vote-button {
+    background: transparent;
+    box-shadow: none;
+    color: $whitish-grey;
+    cursor: pointer;
+    padding: 1em;
+
+    .fas{
+      font-size: 2rem;
+      color: $heart-red;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+<%= title(@lesson.title) %>
+
+<div class="container lesson">
+  <div class="row">
+    <div class="col-12">
+      <div class="lesson-header">
+        <%= link_to @lesson.course, class: 'course-card-header__link' do %>
+          <%= render 'courses/course/banner', course: @lesson.course %>
+        <% end %>
+        <h2 class="lesson-header__title accent"><%= @lesson.title %></h2>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="d-none d-lg-block d-xl-block lesson-navigation"></div>
+    </div>
+
+    <div class="col-lg-9">
+      <div class="lesson-content">
+        <%= @lesson.content.html_safe %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="lesson-functions">
+  <div class="container">
+    <div class="card-main">
+      <h1 class="lesson-functions__title">
+        <%= @lesson.course.title %>
+      </h1>
+
+      <h3 class="lesson-functions__sub-title accent bold">
+        <%= @lesson.title %>
+      </h3>
+
+      <div class="lesson-button-group">
+        <%= render 'lesson_buttons', lesson: @lesson, course: @lesson.course, user: @user %>
+      </div>
+
+      <% if @projects && ProjectSubmissionFeature.enabled? %>
+        <div id="submissions">
+          <%= render 'recent_submissions',
+            projects: @projects,
+            project: @project,
+            lesson: @lesson
+          %>
+        </div>
+      <% end %>
+    </div>
+
+    <%= render 'shared/bottom_cta',
+      button: chat_button,
+      heading: 'Have a question?',
+      sub_heading: 'Chat with our friendly Odin community in our Discord chatrooms!'
+    %>
+
+    <%= render 'viking-advert' %>
+  </div>
+</div>
+
+<% if user_signed_in? %>
+  <%= render 'projects/report_form_modal', lesson: @lesson %>
+<% end %>
+
+<% if user_signed_in? && @lesson.has_submission? %>
+  <div id="project-submission-modal-wrapper">
+    <%= render 'projects/form_modal', lesson: @lesson, project: @project %>
+  </div>
+<% end %>
+
+<% if @project&.persisted? %>
+  <%= render 'projects/delete_project_modal', lesson: @lesson, project: @project %>
+<% end %>

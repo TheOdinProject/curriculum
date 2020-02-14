@@ -1,0 +1,14 @@
+<% if @project.valid? %>
+  $('#project-submission-modal').modal('hide');
+  $('.modal-backdrop').remove();
+  toastr.success('Your project submission was updated!', 'Success');
+
+  $('#project-<%= @decorated_project.id %>')
+    .html("<%= j render 'projects/project', project: @decorated_project %>");
+
+<% else %>
+  toastr.error('<%= @decorated_project.errors.full_messages[0] %>', 'Error', {
+    closeButton: true,
+    tapToDismiss: false,
+  });
+<% end %>

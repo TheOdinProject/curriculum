@@ -1,0 +1,17 @@
+<%= title('Login') %>
+
+<div class="gradient">
+  <div class="container">
+    <div class="col-lg-6 col-md-10 offset-lg-3 offset-md-1">
+      <h1 class="text-center accent">Login</h1>
+        <%= render 'form' %>
+
+        <%= render 'shared/bottom_cta',
+          button: create_new_account_button,
+          heading: "Haven't signed up yet?",
+          sub_heading: ''
+        %>
+
+    </div>
+  </div>
+</div>
