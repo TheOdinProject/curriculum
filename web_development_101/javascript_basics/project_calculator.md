@@ -511,14 +511,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kristiana's Solution](https://github.com/KristianaGaizauskiene/calculator)
 - [0xtaf's Solution](https://github.com/0xtaf/calculator) - [View in Browser](https://0xtaf.github.io/calculator/)
 - [Cinthia's Solution](https://github.com/cinthiagodoi/calculator) - [View in Browser](https://cinthiagodoi.github.io/calculator/)
-<<<<<<< HEAD
 - [Kielx's Solution](https://github.com/Kielx/Calculator) - [View in Browser](https://kielx.github.io/Calculator/)
-=======
 - [Vuyani's Solution](https://github.com/vuyanir/Calculator) - [View in Browser](https://vuyanir.github.io/Calculator/)
 - [Y02WK's Solution](https://github.com/Y02WK/project-calculator) - [View in Browser](https://y02wk.github.io/project-calculator/)
 - [Y0ss-Please's Solution](https://github.com/Y0ss-Please/javascript_calculator) - [View in Browser](https://y0ss-please.github.io/javascript_calculator/)
 - [pudu87's Solution](https://github.com/pudu87/calculator) - [View in Browser](https://pudu87.github.io/calculator/)
 - [feseka61's Solution](https://github.com/feseka61/calculator) - [View in Browser](https://feseka61.github.io/calculator/)
 - [mre91's Solution](https://github.com/mre91/calculator) - [View in Browser](https://mre91.github.io/calculator/)
->>>>>>> 2a755c2a169efbc603d2734ea0f0e9ea346b27b3
 </details>
