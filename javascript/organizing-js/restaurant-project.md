@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [mjwills-inf's Solution](https://github.com/mjwills-inf/restaurant) - [View in Browser](https://mjwills-inf.github.io/restaurant/)
 - [Joshysmart's Solution](https://github.com/joshysmart/restaurant-page) - [View in Browser](https://joshysmart.github.io/restaurant-page/)
 - [JoeDravarol's and nearmint's Solution](https://github.com/nearmint/restaurant) - [View in Browser](https://nearmint.github.io/restaurant/)
 - [chickenwing123's Solution](https://github.com/chickenwings123/Webpack-Restaurant) - [View in Browser](https://chickenwings123.github.io/Webpack-Restaurant/)
