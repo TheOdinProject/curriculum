@@ -48,7 +48,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
--[chickenwing123's Solution](https://github.com/chickenwings123/Webpack-Restaurant) - [View in Browser](https://chickenwings123.github.io/Webpack-Restaurant/)
+- [Padraig O'Rúis's solution](https://github.com/anarchomushroom/js-restaurant) - [View in Browser](https://anarchomushroom.github.io/js-restaurant/)
+- [Joshysmart's Solution](https://github.com/joshysmart/restaurant-page) - [View in Browser](https://joshysmart.github.io/restaurant-page/)
+- [JoeDravarol's and nearmint's Solution](https://github.com/nearmint/restaurant) - [View in Browser](https://nearmint.github.io/restaurant/)
+- [chickenwing123's Solution](https://github.com/chickenwings123/Webpack-Restaurant) - [View in Browser](https://chickenwings123.github.io/Webpack-Restaurant/)
 - [Kris Tobiasson's 3D Solution](https://github.com/highpockets/restaurant.git) - [View in Browser](https://highpockets.github.io/restaurant/)
 - [tracy2811's Solution](https://github.com/tracy2811/restaurant-page) - [View in Browser](https://tracy2811.github.io/restaurant-page/)
 - [Simon's Solution](https://github.com/Sim-frpt/restaurant-page) - [View in Browser](https://sim-frpt.github.io/restaurant-page/)

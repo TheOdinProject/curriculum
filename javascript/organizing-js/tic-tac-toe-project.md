@@ -24,7 +24,13 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line! 
+- Add your solution below this line!
+- [Basskip's Solution](https://github.com/Basskip/tic-tac-toe)
+- [Joseph's Solution](https://github.com/JosephPBallantyne/odinProject/tree/master/ticTacToe)
+- [Odunsi Joseph's Solution](https://github.com/dhatguy/tictactoe) - [View in Browser](https://dhatguy.github.io/tictactoe) 
+- [mjwills-inf's Solution](https://github.com/mjwills-inf/TicTacToe) - [View in Browser](https://mjwills-inf.github.io/TicTacToe/)
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/tic-tac-toe) - [View in Browser](https://kikupiku.github.io/tic-tac-toe/)
+- [yldrmali's Solution](https://github.com/yldrmali/tictactoe) - [View in Browser](https://yldrmali.github.io/tictactoe/)
 - [LorenzoMarinucci's Solution](https://github.com/LorenzoMarinucci/tic-tac-toe) - [View in Browser](https://lorenzomarinucci.github.io/tic-tac-toe/)
 - [tracy2811's Solution](https://github.com/tracy2811/tic-tac-toe) - [View in Browser](https://tracy2811.github.io/tic-tac-toe/)
 - [Justinkar's Solution (with Minimax)](https://github.com/justinkar/tic-tac-toe) - [View in Browser](https://justinkar.github.io/tic-tac-toe/)
@@ -123,4 +129,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Supasus's Solution](https://supasus.github.io/js-tictactoe/) - [View in Browser](https://github.com/supasus/js-tictactoe)
 - [mmboyce's Solution](https://github.com/mmboyce/tic-tac-toe/) - [View in Browser](https://mmboyce.github.io/tic-tac-toe/)
 - [Hamohuh's Solution](https://github.com/hamohuh/tic_tac_toe) - [View in Browser](https://hamohuh.github.io/tic_tac_toe)
+- [Tomstrat's Solution](https://github.com/tomstrat/tictactoe) - [View in Browser](https://tomstrat.github.io/tictactoe)
 </details>
