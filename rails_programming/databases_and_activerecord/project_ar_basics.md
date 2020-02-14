@@ -122,7 +122,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-*[Airi's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/micro-reddit)
+* [Airi's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/micro-reddit)
 * [fossegrim's Solution](https://github.com/olav35/micro-reddit)
 * [Nasser Abachi's Solution](https://github.com/abachi/micro-reddit)
 * [Vedant's Solution](https://github.com/vedantshetty/Reddit_On_Rails)
