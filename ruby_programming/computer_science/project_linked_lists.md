@@ -217,4 +217,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Robert Suazo's solution](https://github.com/rsuazo/linked_lists/blob/master/linked_lists.rb)
 - [Ranon Martin's solution (with extra credit)](https://github.com/ranonm/TheOdinProjectExercises/tree/master/linked_list)
 - [unheavenlycreature's solution (with extra credit)](https://github.com/unheavenlycreature/linkedlist)
+- [hyperturing's solution (with extra credit)](https://github.com/hyperturing/linked-list)
   </details>
