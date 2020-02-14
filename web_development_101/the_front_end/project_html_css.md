@@ -2981,6 +2981,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alex Drid's Solution (Easy)](https://github.com/alexdrid/google-homepage-mockup) - [View in Browser](https://alexdrid.github.io/google-homepage-mockup)
 * [headgaar's Solution (Easy)](https://github.com/headgaar/google-homepage) - [View in Browser](https://headgaar.github.io/google-homepage/)
 * [rainleam's Solution (Easy)](https://github.com/Rainleam/google-homepage) - [View in Browser](https://rainleam.github.io/google-homepage/)
+* [Kenji's Solution (Easy)](https://github.com/KenjiAu-Creator/google-homepage) - [View in Browser]
+(https://kenjiau-creator.github.io/google-homepage/)
+* [Kenji's Solution (Hard)](https://github.com/KenjiAu-Creator/google-search) - [View in Browser]
+(https://kenjiau-creator.github.io/google-search/)
 </details>
 
 ### Additional Resources
