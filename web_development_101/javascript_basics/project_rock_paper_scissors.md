@@ -41,6 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rryand's Solution](https://github.com/rryand/rock-paper-scissors)
+- [kdayno's Solution](https://github.com/kdayno/rock-paper-scissors) - [View in Browser](https://kdayno.github.io/rock-paper-scissors/)
+- [eriktn's Solution](https://github.com/eriktn/rock-paper-scissors)
+- [JohnPCarvalho's Solution](https://https://github.com/JohnPCarvalho/rock-paper-scissors)
+- [GitanjaliM's Solution](https://github.com/gd-m/rock-paper-scissors-app) - [View in Browser](https://gd-m.github.io/rock-paper-scissors-app/)
+- [brandonS's Solution](https://github.com/bstottler/rockpaperscissors)
 - [Mike McCain's Solution](https://github.com/mjmccain52/rps)
 - [BlipOnNobodysRadar's Solution](https://github.com/BlipOnNobodysRadar/RockPaperScissors) 
 - [ScottB's Solution](https://github.com/scottBowles/rockpaperscissors) - [View in Browser](https://scottbowles.github.io/rockpaperscissors/)
@@ -1257,5 +1263,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sonyas UI Solution](https://github.com/murdens/RPS_Browser) - [View in Browser](https://murdens.github.io/RPS_Browser/)
 - [Joseph's Solution](https://github.com/J-Cerdan/rock-scissors-paper)
 - [Jeff's Solution](https://github.com/LebJe/TOP/blob/master/RPS/RPS.html)
+- [Veskenazi's Solution](https://github.com/veskenazi/rock-paper-scissors)
+- [Amber's Solution](https://github.com/damned-albatross/rock_paper_scissors) - [View in Browser](https://damned-albatross.github.io/rock_paper_scissors/)
 - [Rémi Borfigat’s Solution](https://github.com/remiborfigat/rock-paper-scissors)
+- [dhecker's Solution](https://github.com/dhecker/rps) - [View in Browser](https://dhecker.github.io/rps/rps.html)
+- [Ken Holston's Solution](https://github.com/kholston/rock_paper_scissors)
+- [Daki's Solution](https://github.com/Dakitou/TOP-RPS)
+- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/RPS)
 </details>
