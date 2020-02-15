@@ -31,6 +31,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Luan Nguyen's Solution](https://github.com/luan-nguyen20/learn_ruby)
+* [Rachel Moser's Solution](https://github.com/rlmoser99/learn_ruby)
+* [SantiMC's Solution](https://github.com/santimc/learn_ruby)
+* [Mark Kourie's Solution](https://github.com/MarkKourie/learn_ruby)
+* [Alexis Zambrano's Solution](https://github.com/Alexoid1/learn_ruby)
+* [Purple's Solution](https://github.com/PurpleCodes42/learn_ruby)
+* [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/learn_ruby)
+* [Andrew S's Solution](https://github.com/CGoldMonkey/learn_ruby)
+* [Nix-star's solution](https://github.com/nix-star/learn_ruby/)
 * [Yusuf Abdulkarim's solution](https://github.com/haywhyze/learn_ruby/)
 * [Hans Oliveira's Solution](https://github.com/hansnery/learn_ruby)
 * [Jakob's Solution](https://github.com/jodokusquack/learn_ruby)
@@ -621,7 +630,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Daniel Muriano's Solution](https://github.com/Daniel-Muriano/learn_ruby)
 * [Damnedlag's Solution](https://github.com/Damnedlag/Ruby-exercises)
 * [Wilmir's Solution](https://github.com/Wilmir/ruby-exercises)
-* [Eduardo06sp's Solution](https://github.com/Eduardo06sp/blogger) - [View in Browser](https://shrouded-shore-17237.herokuapp.com/)
+* [Michael K's Solution](https://github.com/a0x77ry/learn_ruby)
+* [BusyBee's Solution](https://github.com/swissbusybee/learn_ruby)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/learn_ruby)
+* [barrysweeney's Solution](https://github.com/barrysweeney/learn_ruby)
+* [Cacurriapower's Solution](https://github.com/Cacurriapower/learn_ruby)
+* [Cbo-11's Solution](https://github.com/Cbo-11/Ruby-Basics-Project)
+* [Cinthia's Solution](https://github.com/cinthiagodoi/learn_ruby)
+* [pudu87's Solution](https://github.com/pudu87/learn_ruby)
+* [feseka61's Solution](https://github.com/feseka61/learn_ruby)
 </details>
 
 ### Additional Resources
