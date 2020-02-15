@@ -99,4 +99,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Hamohuh's Solution](https://github.com/hamohuh/todo) - [View in Browser](https://hamohuh.github.io/todo/)
 * [Vorelli's Solution](https://github.com/Vorelli/Goal_Tracker) - [View in Browser](https://vorelli.github.io/Goal_Tracker/)
 * [Y0ss-Please's Solution](https://github.com/Y0ss-Please/doitup) - [View in Browser](https://y0ss-please.github.io/doitup/public/index.html)
+* [0xtaf's Solution](https://github.com/0xtaf/todo) - [View in Browser](https://0xtaf.github.io/todo/)
 </details>
