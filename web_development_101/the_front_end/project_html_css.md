@@ -2987,6 +2987,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [towelbot's Solution (Easy)](https://github.com/towelbot/google-homepage) - [View in Browser](https://towelbot.github.io/google-homepage/)
 * [Asiimwe Samuel's Solution (Easy)](https://github.com/asiimwesamuel/google-homepage) - [View in Browser](https://asiimwesamuel.github.io/google-homepage/)
 * [Peperonidas's Solution (Easy)](https://github.com/odiseon/google-homepage) - [View in Browser](https://github.com/odiseon/google-homepage)
+* [LevOli46's Solution (Easy)] (https://github.com/LevOli46/google-homepage) - [View in Browser] (https://levoli46.github.io/google-homepage)
 </details>
 
 ### Additional Resources
