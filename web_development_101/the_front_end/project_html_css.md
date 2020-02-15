@@ -90,7 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Ash Eileen's Solution (Easy)] (https://github.com/Ash-Eileen/google-homepage) - [View in Browser] (https://ash-eileen.github.io/google-homepage/)
+* [kfollen93's Solution (Easy)](https://github.com/Kfollen93/google-homepage) - [View in Browser](https://kfollen93.github.io/google-homepage/)
+* [Ash Eileen's Solution (Easy)](https://github.com/Ash-Eileen/google-homepage) - [View in Browser](https://ash-eileen.github.io/google-homepage/)
 * [llamalamps Solution (Easy)](https://github.com/llamalamp/google-homepage)
 * [rryand's Solution (Difficult)](https://github.com/rryand/google-homepage) - [View in Browser](https://rryand.github.io/google-homepage/search.html)
 * [rryand's Solution (Easy)](https://github.com/rryand/google-homepage) - [View in Browser](https://rryand.github.io/google-homepage/)
