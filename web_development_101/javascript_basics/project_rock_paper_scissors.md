@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [threeaces' Solution](https://github.com/threeaces/rock-paper-scissors)
+- [marfantinel's Solution](https://github.com/marfantinel/rock-paper-scissors)
 - [rryand's Solution](https://github.com/rryand/rock-paper-scissors)
 - [kdayno's Solution](https://github.com/kdayno/rock-paper-scissors) - [View in Browser](https://kdayno.github.io/rock-paper-scissors/)
 - [eriktn's Solution](https://github.com/eriktn/rock-paper-scissors)
@@ -94,7 +95,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bach2o's Solution](https://github.com/bach2o/rock-paper-scissors)
 - [LorriAnn's Solution](https://github.com/TechnicolorPanda/rock-paper-scissors.git) - [View in Browser](https://github.com/TechnicolorPanda/rock-paper-scissors/blob/master/index.html/)
 - [Checkmate360's Solution](https://github.com/checkmate360/RPS-Game)
-- [AlexBoonDev's Solution](https://github.com/AlexBoonDev/RockPaperScissors/)
+- [AlexBoonDev's Solution](https://github.com/AlexBoonDev/RockPaperScissors/) - [View in Browser](https://alexboondev.github.io/RockPaperScissors/)
 - [Tim's Solution](https://github.com/timothydadams/rps) - [View in Browser](https://timothydadams.github.io/rps/)
 - [chickenwing123's Solution](https://github.com/chickenwings123/first_javascript_project) - [View in Browser](https://chickenwings123.github.io/first_javascript_project/)
 - [Shwig's Solution](https://github.com/Shwig/rock-paper-scissors) - [View in Browser](https://shwig.github.io/rock-paper-scissors/)
