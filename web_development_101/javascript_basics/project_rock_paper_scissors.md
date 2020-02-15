@@ -1142,4 +1142,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [alicee88's Solution](https://github.com/alicee88/rockpaperscissors) - [View in Browser](https://alicee88.github.io/rockpaperscissors/)
 - [aqib21's Solution](https://github.com/aqib21/rock-papaer-scissors-lizard-spock) - [View in Browser](https://aqib21.github.io/rock-papaer-scissors-lizard-spock/)
 - [Thaddeus's Solution](https://github.com/Tflynn94/rock_paper_scissors_app) - [View in Browser](https://tflynn94.github.io/rock_paper_scissors_app/)
+- [xOC97's Solution](https://github.com/xOC97/rock-paper-scissors) - [View in Browser](https://xoc97.github.io/rock-paper-scissors/)
 </details>
