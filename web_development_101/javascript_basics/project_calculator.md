@@ -518,4 +518,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [feseka61's Solution](https://github.com/feseka61/calculator) - [View in Browser](https://feseka61.github.io/calculator/)
 - [mre91's Solution](https://github.com/mre91/calculator) - [View in Browser](https://mre91.github.io/calculator/)
 - [Daniel's Solution](https://github.com/amigoinsano/odinProject-calculator) - [View in Browser](https://amigoinsano.github.io/odinProject-calculator/)
+- [jamesredux's Solution](https://github.com/Jamesredux/jscalculator) - [View in Browser](https://jamesredux.github.io/jscalculator/)
 </details>
