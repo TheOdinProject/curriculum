@@ -1273,4 +1273,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Daki's Solution](https://github.com/Dakitou/TOP-RPS)
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/RPS)
 - [Peperonidas's Solution](https://github.com/odiseon/rock-paper-scissors) - [View in Browser](https://github.com/odiseon/rock-paper-scissors)
+- [xOC97's Solution](https://github.com/xOC97/rock-paper-scissors) - [View in Browser](https://xoc97.github.io/rock-paper-scissors/)
 </details>
