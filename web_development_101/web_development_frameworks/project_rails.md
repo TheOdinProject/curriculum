@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vlad's Solution](https://github.com/vladmyshchuk/ruby_on_rails_project)
 * [Armo's Solution](https://github.com/Armoilane/blogger)
 * [Nasser Abachi's Solution](https://github.com/abachi/rails-blogger) - [View in Browser](https://abachidev-rails-blogger.herokuapp.com/)
 * [Dsokzorak's Solution](https://www.github.com/doskzorak/rails_app_1)
