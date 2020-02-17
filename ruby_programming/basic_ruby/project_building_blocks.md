@@ -1409,4 +1409,5 @@ Next, make sure your method can handle multiple words:
 * [Nathan Choi's solution](https://github.com/sihoonathan/ruby_practice/blob/master/substrings.rb)
 * [Eduardo06sp's solution](https://github.com/Eduardo06sp/substrings/blob/master/substrings.rb)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/Substrings.rb)
+* [Wilmir's solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/substrings.rb)
 </details>
