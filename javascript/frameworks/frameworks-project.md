@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Braxton Lemmon's React Library Solution](https://github.com/braxtonlemmon/book-library-react) - [View in Browser](https://braxtonlemmon.github.io/book-library-react/)
 * [Zakariye Yusuf's React ToDoList Solution](https://github.com/ZYusuf10/timelyRe) - [View in Browser](https://zyusuf10.github.io/timelyRe/)
 * [Bollinca's React Library Solution](https://github.com/bollinca/library-react-version) - [View in Browser](https://bollinca.github.io/library-react-version/)
 * [Brendaneus' React Library Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/react-library) - [View in Browser](https://theodinprojects.live/courses/javascript/projects/react-library)
@@ -49,4 +50,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Yash's React Todo-List Solution](https://github.com/yashboura303/todoReact)
 * [Kai's React Library Solution](https://github.com/KaiVandivier/library-react) - [View in Browser](https://kaivandivier.github.io/library-react/)
 * [Aron's Solution (Restaurant Page)](https://github.com/aronfischer/react_restaurant_page) - [View in Browser](https://aronfischer.github.io/react_restaurant_page/)
+* [Emil Dimitrov's React Page](https://github.com/edmtrv/game-page-react) - [View in Browser](https://edmtrv.github.io/game-page-react/) [React Library](https://github.com/edmtrv/game-library-react) - [View in Browser](https://edmtrv.github.io/game-library-react/)
+* [Edehlol's React Library Solution](https://github.com/edehlol/react-library) - [View in Browser](https://edehlol.github.io/react-library/)
 </details>

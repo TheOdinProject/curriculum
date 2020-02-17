@@ -40,6 +40,11 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lenny's Solution](https://github.com/Lenn-e/the-reading-nook) - [View in Browser](https://lenn-e.github.io/the-reading-nook/)
+- [Langarus' Solution](https://github.com/langarus/library_of_books) - [View in Browser](https://langarus.github.io/library_of_books/)
+- [mattjaylee's Solution](https://github.com/mattjaylee/library)
+- [armagansenol's Solution](https://github.com/armagansenol/project-library) - [View in Browser](https://armagansenol.github.io/project-library/)
+- [Ashish's Solution](https://github.com/CodersGas/project-library) - [View in Browser](https://codersgas.github.io/project-library/Library.html)
 - [tracy2811's Solution](https://github.com/tracy2811/library) - [View in Browser](https://tracy2811.github.io/library/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/book-library) - [View in Browser](https://kikupiku.github.io/book-library/)
 - [mjwills-inf's Solution](https://github.com/mjwills-inf/library) - [View in Browser](https://mjwills-inf.github.io/library/)
@@ -190,6 +195,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [DamnedLag's Solution](https://github.com/Damnedlag/project_library) - [View in Browser](https://damnedlag.github.io/project_library/)
 - [0xtaf's Solution](https://github.com/0xtaf/library) - [View in Browser](https://0xtaf.github.io/library/)
 - [Tori's Solution](https://github.com/ToriPotts/libraryPractice) - [View in Browser](https://toripotts.github.io/libraryPractice/)
-
+- [Fred's Solution](https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode) - [View in Browser](https://fredchasin.github.io/https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode)
+- [rhath32's Solution](https://github.com/rhath32/library) Please add my solution
 </details>
-
