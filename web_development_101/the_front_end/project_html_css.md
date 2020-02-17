@@ -2989,7 +2989,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Peperonidas's Solution (Easy)](https://github.com/odiseon/google-homepage) - [View in Browser](https://github.com/odiseon/google-homepage)
 * [LevOli46's Solution (Easy)](https://github.com/LevOli46/google-homepage) - [View in Browser](https://levoli46.github.io/google-homepage)
 * [Akashdeep Ghosh's solution (Easy)](https://github.com/akashdeepghosh/google-homepage) - [View in Browser](https://akashdeepghosh.github.io/google-homepage)
-</details>
+* [Pmargetis solution (Easy)](https://github.com/Pmargetis/Google_homepage) - [view in Browser](https://pmargetis.github.io/Google_homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
