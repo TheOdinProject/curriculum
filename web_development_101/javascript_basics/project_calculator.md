@@ -522,4 +522,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Daniel's Solution](https://github.com/amigoinsano/odinProject-calculator) - [View in Browser](https://amigoinsano.github.io/odinProject-calculator/)
 - [jamesredux's Solution](https://github.com/Jamesredux/jscalculator) - [View in Browser](https://jamesredux.github.io/jscalculator/)
 - [Sonya's Solution](https://github.com/murdens/calculator) - [View in Browser](https://murdens.github.io/calculator/)
+add my solution to the calculator project here https://ricardo-gonzalez-villegas.github.io/calculator/
 </details>
