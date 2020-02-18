@@ -99,11 +99,11 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
 2. [This article](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/) starts simple and reiterates what the video covered, but goes deeper and is more specific about the appropriate terminology. At the end, he defines __closure__ _and_ describes the __module__ pattern, both of which we'll talk about more soon.
 
-3. The previous article is great, but there is one inaccurate statement:
+  * The previous article is great, but there is one inaccurate statement:
 
-   > All scopes in JavaScript are created with `Function Scope` *only*, they aren’t created by `for` or `while` loops or expression statements like `if` or `switch`. New functions = new scope - that’s the rule
+    > All scopes in JavaScript are created with `Function Scope` *only*, they aren’t created by `for` or `while` loops or expression statements like `if` or `switch`. New functions = new scope - that’s the rule
 
-   that statement _was_ true in 2013 when the article was written, but ES6 has rendered it incorrect. Read [this](http://wesbos.com/javascript-scoping/) article to get the scoop!
+    that statement _was_ true in 2013 when the article was written, but ES6 has rendered it incorrect. Read [this](http://wesbos.com/javascript-scoping/) article to get the scoop!
 
 ### Private Variables and Functions
 
@@ -258,7 +258,14 @@ calculator.mul(14,5534) // 77476
  The concepts are exactly the same as the factory function, however, instead of creating a factory that we can use over and over again to create multiple objects, the Module pattern wraps the factory in an IIFE (Immediately Invoked Function Expression).
 
 - Read up about IIFE's in [this article](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html). The concept is simple.. write a function, wrap it in parentheses and then immediately call the function by adding `()` to the end of it.
+- An example of creating and using a module pattern: [JavaScript Module Pattern Basics](https://coryrylan.com/blog/javascript-module-pattern-basics)
+- Additional example of creating and using a module pattern: [Module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
 
 In our calculator example, the function inside the IIFE is a simple factory function like we defined before, but we can just go ahead and assign the object to the variable `calculator` since we aren't going to need to be making lots of calculators, we only need one. Just like the Factory example, we can have as many private functions and variables as we want, and they stay neatly organized, tucked away inside of our module, only exposing the functions we actually want to use in our program.
 
 A useful side-effect of encapsulating the inner-workings of our programs into objects is __namespacing__. Namespacing is a technique that is used to avoid naming collisions in our programs. For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display or a function that added numbers and operators to our stack as the users input them. It is conceivable that we would want to call all 3 of these functions `add` which, of course, would cause trouble in our program. If all of them were nicely encapsulated inside of an object then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+* [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)

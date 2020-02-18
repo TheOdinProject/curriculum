@@ -14,14 +14,14 @@ Look through these now and then use them to test yourself after doing the assign
 
 * What are routes?
 * What are views?
-* what are _sessions_ in Sinatra, and how do you use them?
+* What are _sessions_ in Sinatra, and how do you use them?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 * Go to the [Sinatra website](http://www.sinatrarb.com/) and follow the (somewhat cryptic) instructions right on their front page:
 
-create a file called `frank_says.rb` with the following code:
+Create a file called `frank_says.rb` with the following code:
 
 ~~~ruby
   require 'sinatra'
@@ -35,15 +35,17 @@ From the command line install the Sinatra gem by typing `gem install sinatra` th
 
 If you use [cloud9](https://c9.io) instead of a local environment then you can follow the above instructions but instead run `ruby frank_says.rb -o $IP -p $PORT` from the terminal and it will provide you with a link to view your application in the browser. You then simply need to add `/frank-says` to the address bar in the browser window that opens running your app.
 
-* Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Labs. Be sure to try out some of the Extensions at the end of the tutorial, that's the fun stuff!
-* Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers").Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
+* Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Lab. Be sure to try out some of the Extensions at the end of the tutorial; that's the fun stuff!
+* Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers"). Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
 
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental if you need to dive deeper into something.
 
 * [Jump Start Sinatra](https://www.sitepoint.com/store/jump-start-sinatra/) is a really great and pretty thorough look at Sinatra, but it's not free.  A good resource if you're really interested.
 * [Sinatra Walkthrough from General Assembly](https://github.com/ga-wdi-lessons/sinatra-walkthrough) A tutorial for building an online database of fish called "Finatra". Includes three screencasts and is a bit easier to digest than the Sinatra README.  
-* [Gentle intro to Sinatra from rubymonstas](http://webapps-for-beginners.rubymonstas.org/sinatra.html) if you find Sinatra README too overwhelming. Their section on [sessions](http://webapps-for-beginners.rubymonstas.org/sessions.html) will be helpful in the upcoming project.
-* Just do it learn sinatra by Darren Jones [Part 1](https://www.sitepoint.com/just-do-it-learn-sinatra-i/) and [Part 2](https://www.sitepoint.com/just-do-it-learn-sinatra-ii-2/) But don’t worry too much about the commands you haven’t seen yet… 
+* [Gentle intro to Sinatra from Ruby Monstas](http://webapps-for-beginners.rubymonstas.org/sinatra.html) if you find the Sinatra README too overwhelming. Their section on [sessions](http://webapps-for-beginners.rubymonstas.org/sessions.html) will be helpful in the upcoming project.
+* Just Do It: Learn Sinatra by Darren Jones [Part 1](https://www.sitepoint.com/just-do-it-learn-sinatra-i/) and [Part 2](https://www.sitepoint.com/just-do-it-learn-sinatra-ii-2/). But don’t worry too much about the commands you haven’t seen yet… 
+* The [Ideabox project](http://tutorials.jumpstartlab.com/projects/idea_box.html) from JumpstartLab is another great bit of practice.
+* [Learn.co](https://learn.co/lessons/what-is-sinatra) has a fantastic tutorial using the very basics of Sinatra. If this lesson didn't satisfy your learning need i would do this.

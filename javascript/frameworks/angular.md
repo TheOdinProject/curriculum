@@ -46,7 +46,7 @@ You will need node and npm installed. I personally prefer to use [nvm](https://g
 
 1. Follow along with the getting started guide on the [Angular Site](https://angular.io/guide/quickstart) and ensure you have your environment set up correctly
 2. Skim through this [Angular Fundamentals](https://angular.io/guide/architecture) guide on the architecture an Angular app to get a high-level overview of how an app is put together
-3. Try [This Angular 6 Tutorial](https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course) to get an idea of the power of using a framework like Angular
+3. Try [This Angular 8 Tutorial](https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course) to get an idea of the power of using a framework like Angular
 
 ### Additional Resources
 

@@ -5,7 +5,7 @@ You've already completed the [Web Development 101 course](/courses/web-developme
 
 ### The Path
 
-So how is this course set up? It starts with a deeper look at the basics, just like the [Ruby Programming course](/courses/ruby-programming) did with Ruby. You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/courses/ruby-on-rails) to understand these basics but we won't be focusing deeply on the really basic coding items so it'll move quickly. You should, however, already have completed the [Web Development 101 course](/courses/web-development-101), specifically the [Front End Section](/courses/web-development-101#section-the-front-end) before starting this course.  
+So how is this course set up? It starts with a deeper look at the basics, just like the [Ruby Programming course](/courses/ruby-programming) did with Ruby. You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/courses/ruby-on-rails) to understand these basics but we won't be focusing deeply on the really basic coding items so it'll move quickly. You should, however, already have completed the [Web Development 101 course](/courses/web-development-101), specifically the [Front End Section](/courses/web-development-101#section-the-front-end) before starting this course. You might also find this [Git Section](https://www.theodinproject.com/courses/ruby-programming#git) on more intermediate-level uses of Git helpful. 
 
 The last thing you'll do is a final project which integrates everything you've learned in all the courses of this curriculum. This is the kind of project that you'll be telling employers all about and a great chance to prove that you're now, officially, a serious web developer.  
 

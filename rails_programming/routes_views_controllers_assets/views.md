@@ -19,7 +19,7 @@ Look through these now and then use them to test yourself after doing the assign
 * Why are preprocessors useful?
 * How do you make sure a preprocessor runs on your file?
 * What's the outputted filetype of a preprocessed `*.html.erb` file?  What about a `*.css.scss` file?
-* What is the difference between the `<%=` and `<%` tags?
+* What is the difference between the `<%=`, `<%`, and `<%#` tags?
 * What is a view partial?
 * How do you insert a partial into your view?
 * How can you tell that a view file is a partial?
@@ -41,11 +41,11 @@ The other thing you've undoubtedly noticed is the odd HTML code that goes inside
 
 What those tags do is execute whatever you see inside them exactly as if it was normal Ruby.  So `<%= "<em>I am emphasized</em>" %>` will output an emphasized piece of text like <em>I am emphasized</em> and `<%= @user.first_name %>` might output `joe`.
 
-The difference between `<%` and `<%=` is that the `<%=` version actually displays whatever is returned inside the ERB tags.  If you use `<%`, it will execute the code but, no matter what is returned by that line, it will not actually display anything in your HTML template.  
+The difference between `<%` and `<%=` is that the `<%=` version actually displays whatever is returned inside the ERB tags.  If you use `<%`, it will execute the code but, no matter what is returned by that line, it will not actually display anything in your HTML template. `<%#` is used to comment and will not execute.
 
 Most of your tags will be `<%=` because you'll find yourself often just outputting important pieces of the instance variables that you received from your controller, like in the `<%= @user.first_name %>` example above.  You use the `<%` for purely code-related stuff like `if` statements and `each` loops, where you don't actually WANT anything displayed (the stuff you display will occur inside the loop).  
 
-If this is confusing, here's an example.  Say we want to display the first names of all the users in our application but only if the current user is signed in.  This might look something like:
+If this is confusing, here's an example:  Say we want to display the first names of all the users in our application, but only if the current user is signed in.  This might look something like:
 
 ~~~erb
   <% if current_user.signed_in? %>
@@ -59,7 +59,7 @@ If this is confusing, here's an example.  Say we want to display the first names
 <% end %>
 ~~~
 
-Remember to close your statements and loops with `<% end %>`!  (You'll forget a few times).
+Remember to close your statements and loops with `<% end %>`!  (You'll forget a few times.)
 
 In the code above, if the user is signed in it will actually render to the web something like:
 
@@ -85,7 +85,7 @@ The important thing to note about the above code execution is that it is all don
 
 Rails starts from the outside in with extra extensions.  So it first processes the file using ERB, then treats it as regular HTML.  That's fine because ERB by definition outputs good clean HTML, like we saw above.  
 
-There are other preprocessors you'll run into as well.  `.css.scss` files use the SASS preprocessor and become regular CSS files.  `.js.coffee` files, which the Coffeescript preprocessor, become regular Javascript after it is run.  In both these cases, the preprocessor's language makes your life easier by giving you some additional tools you can use (like having loops and working with variables) and compiles back down into a plain vanilla CSS or Javascript or HTML.
+There are other preprocessors you'll run into as well.  `.css.scss` files use the SASS preprocessor and become regular CSS files.  `.js.coffee` files, which use the Coffeescript preprocessor, become regular Javascript after being run.  In both these cases, the preprocessor's language makes your life easier by giving you some additional tools you can use (like having loops and working with variables) and compiles back down into a plain vanilla CSS or Javascript or HTML.
 
 The point is, there are many different preprocessors.  They are usually gems that either already come with Rails or can easily be attached to it.  Rails then runs them automatically, so all you have to worry about is whether your file has the right extension(s) to tell the preprocessor to run.  
 
@@ -108,7 +108,7 @@ If there is no directory specified in partial's name, Rails will only look in th
 
 ### Passing Local Variables to Partials
 
-There's a lot you can do with partials and we won't dive into it all here, but the last thing that you might find yourself doing a lot is passing variables to partials.  A partial has access to all the variables that the calling view template does, but do NOT rely on them!  What if your partial is used by a different controller that uses a different structure for its instance variables?  It's bad code to expect an instance variable like `@user` to be there in the partial all the time. That means you've got to explicitly pass the partial whichever variables you want it to have access to.  
+There's a lot you can do with partials and we won't dive into it all here, but one thing that you might find yourself doing a lot is passing variables to partials.  A partial has access to all the variables that the calling view template does, but do NOT rely on them!  What if your partial is used by a different controller that uses a different structure for its instance variables?  It's bad code to expect an instance variable like `@user` to be there in the partial all the time. That means you've got to explicitly pass the partial whichever variables you want it to have access to.  
 
 In the example above, you most likely want to pass the `@user` variable to the partial so your code can render the right kind of form. `render` is just a regular method and it lets you pass it an [options hash](https://stackoverflow.com/questions/18407618/what-are-options-hashes).  One of those options is the `:locals` key, which will contain the variables you want to pass.  Your code might change to look like:
 
@@ -187,7 +187,7 @@ You write:
   <%= link_to "See All Users", users_path %>
 ~~~
 
-It's the Rails way.  And recall that `users_path` generates a relative URL like `/users` whereas `users_url` generates a full URL like `http://www.yourapp.com/users`.  In most cases, it isn't an important distinction because your browser can handle both but make sure you understand the difference.
+It's the Rails way.  And recall that `users_path` generates a relative URL like `/users` whereas `users_url` generates a full URL like `http://www.yourapp.com/users`.  In most cases, it isn't an important distinction because your browser can handle both, but make sure you understand the difference.
 
 ### Asset Tags
 

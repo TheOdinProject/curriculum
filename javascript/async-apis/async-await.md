@@ -5,9 +5,9 @@ For example, the two code blocks below do the exact same thing, they both get in
 
 ~~~javascript
 function getPersonsInfo(name) {
-  return server.getPeople().then((people) => {
-      return people.find(person => { return person.name === name });
-    });
+  return server.getPeople().then(people => {
+    return people.find(person => { return person.name === name });
+  });
 }
 ~~~
 
@@ -19,7 +19,7 @@ async function getPersonsInfo(name) {
 }
 ~~~
 
-The second example looks much more like the kind of functions you are used to writing, however, did you notice the `async` keyword before the function deceleration? How about the `await` keyword before `server.getPeople()`?
+The second example looks much more like the kind of functions you are used to writing, however, did you notice the `async` keyword before the function declaration? How about the `await` keyword before `server.getPeople()`?
 
 ### Learning Outcomes
 1. How do you declare an `async` function?
@@ -44,15 +44,15 @@ The `async` keyword can also be used with any of the ways a function can be crea
 ~~~
 
 ~~~javascript
- anArray.forEach(async (item) => {
+ anArray.forEach(async item => {
    // do something asynchronously for each item in 'anArray'
    // one could also use .map here to return an array of promises to use with 'Promise.all()'
  });
 ~~~
 
 ~~~javascript
-server.getPeople().then(async (people) => {
-  people.forEach((person) => {
+server.getPeople().then(async people => {
+  people.forEach(person => {
     // do something asynchronously for each person
   });
 });
@@ -65,7 +65,9 @@ server.getPeople().then(async (people) => {
 Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can simply call the function, and append a `.catch()` method to the end.
 
 ~~~javascript
-asyncFunctionCall().catch((err) => {console.error(err)});
+asyncFunctionCall().catch(err => {
+  console.error(err)
+});
 ~~~
 
 But there is another way: the mighty `try/catch` block! If you want to handle the error directly inside the `async` function, you can use `try/catch` just like you would inside synchronous code.
@@ -82,21 +84,21 @@ async function getPersonsInfo(name) {
 }
 ~~~
 
-Doing this can look messy, but it is a very easy way to handle errors without appending `.catch()` after your function calls. How you handle the errors is up to you, and which method you use should be determined by how your code was written. You will get a feel for what needs to be done over time. The assignments will also help you understand how to handle your errors
+Doing this can look messy, but it is a very easy way to handle errors without appending `.catch()` after your function calls. How you handle the errors is up to you, and which method you use should be determined by how your code was written. You will get a feel for what needs to be done over time. The assignments will also help you understand how to handle your errors.
 
 ### Practice
-Remember the Giphy API practice project? (If not, you should go back and complete the API lesson). We are going to convert the promise based code into `async/await` compatible code. Here's a refresher of the code we are starting with:
+Remember the Giphy API practice project? (If not, you should go back and complete the API lesson) We are going to convert the promise based code into `async/await` compatible code. Here's a refresher of the code we are starting with:
 
 ~~~javascript
 <script>
-  const img = document.querySelector('img')
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
     .then(function(response) {
-      return response.json()
+      return response.json();
     })
     .then(function(response) {
-      img.src = response.data.images.original.url
-    })
+      img.src = response.data.images.original.url;
+    });
 </script>
 ~~~
 
@@ -104,12 +106,12 @@ Since `await` does not work on the global scope, we will have to create an `asyn
 
 ~~~javascript
 <script>
-  const img = document.querySelector('img')
+  const img = document.querySelector('img');
 
   async function getCats() {
-    fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
+    fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
       .then(function(response) {
-        return response.json()
+        return response.json();
       })
       .then(function(response) {
         img.src = response.data.images.original.url;
@@ -118,18 +120,17 @@ Since `await` does not work on the global scope, we will have to create an `asyn
 </script>
 ~~~
 
-Now that we have a function that is asynchronous, we can then start refactoring from using promises to using `await`
+Now that we have a function that is asynchronous, we can then start refactoring from using promises to using `await`:
 
 ~~~javascript
 <script>
-  const img = document.querySelector('img')
+  const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'});
-    response.json()
-      .then(function(response) {
-        img.src = response.data.images.original.url;
-      });
+    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
+    response.json().then(function(response) {
+      img.src = response.data.images.original.url;
+    });
   }
 </script>
 ~~~
@@ -138,10 +139,10 @@ Since `response` is still the same object we have passed to the `.then()` block 
 
 ~~~javascript
 <script>
-  const img = document.querySelector('img')
+  const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'});
+    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
     const catData = await response.json();
     img.src = catData.data.images.original.url;
   }
@@ -152,10 +153,10 @@ To use this function, we just simply need to call it with `getCats()` in our cod
 
 ~~~javascript
 <script>
-  const img = document.querySelector('img')
+  const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'});
+    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
     const catData = await response.json();
     img.src = catData.data.images.original.url;
   }
@@ -174,4 +175,4 @@ This code will behave exactly like the code from the last lesson, it just looks 
 </div>
 
 ### Additional Resources
-1. [This video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await
+1. [This video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.

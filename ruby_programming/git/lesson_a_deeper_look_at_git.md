@@ -29,16 +29,11 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### Assignment
 
-**Note:** *Subversion* (SVN) was the widely used version control system prior to Git (and is still widely used in larger corporations) and that's why many of the readings below will reference it.  Just read the very top two sections of [this chapter from git-scm](http://git-scm.com/book/en/Git-and-Other-Systems-Git-and-Subversion) if you'd like a slightly better explanation.
-
 <div class="lesson-content__panel" markdown="1">
   1. If you haven't had the chance to do so, go through the [Web Development 101 Git Basics section](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git).
-  2. If you're still feeling a bit shaky, look at [Setting up a Repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository), [Saving Changes](https://www.atlassian.com/git/tutorials/saving-changes), and [Inspecting a Repository](https://www.atlassian.com/git/tutorials/inspecting-a-repository) from Atlassian.
-  3. Read the section on [Undoing Changes](https://www.atlassian.com/git/tutorials/undoing-changes) from the same site.
-  4. Read about [Using Feature Branches](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) and then look at how it fits into a real workflow in [this section](/courses/ruby-programming/lessons/using-git-in-the-real-world). (This takes you to the next lesson. Read through the workflow presented there but don't do the assignment yet, then go back to it after you've finished this lesson)
-  5. Take a look at [Rewriting Git History](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) to understand how Rebasing works.  There's a lot of debate out there about whether it's best to use a "Merge" or "Rebase" based workflow.  We'll stick with merge because it's a bit more straightforward and the errors can be a bit easy to get over, but you should be aware of rebasing as an alternative type of flow.
-  6. Read about working with [Remote Repositories](https://www.atlassian.com/git/tutorials/syncing), which should mostly be familiar to you by now.
-  7. Layer onto your knowledge a bit deeper by reading [Pro Git chapters 2 and 3](http://git-scm.com/book).
+  2. Read [Chapter 2: Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) of the [ProGit book](https://git-scm.com/book/en/v2). (Click "next" at the bottom of the page to get to the next page. You want to read from page 2.1 "Getting a Git Repository" through page 2.8 "Summary".)
+  3. Read [Chapter 3: Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) of the [ProGit book](https://git-scm.com/book/en/v2). (Click "next" at the bottom of the page to get to the next page. You want to read from page 3.1 "Branches in a Nutshell" through page 3.7 "Summary".)
+  4. To learn about some of the more advanced undo tools that Git offers, read these two additional pages from the [ProGit book](https://git-scm.com/book/en/v2): [Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) and [Reset Demystified](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified).
 </div>
 
 ### Additional Resources

@@ -11,11 +11,11 @@ You'll implement signin and signout functionality for the user, which opens the 
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-  1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.railstutorial.org/book/basic_login), "Basic Login"
-  2. Do the [Ruby on Rails Tutorial Chapter 9](https://www.railstutorial.org/book/advanced_login), "Advanced Login"
-  3. Do the [Ruby on Rails Tutorial Chapter 10](https://www.railstutorial.org/book/updating_and_deleting_users) "Updating, showing, and deleting users"
-  4. Do the [Ruby on Rails Tutorial Chapter 11](https://www.railstutorial.org/book/account_activation), "Account Activation"
-  5. Do the [Ruby on Rails Tutorial Chapter 12](https://www.railstutorial.org/book/password_reset), "Password Reset"
+  1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/basic_login), "Basic Login"
+  2. Do the [Ruby on Rails Tutorial Chapter 9](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/advanced_login), "Advanced Login"
+  3. Do the [Ruby on Rails Tutorial Chapter 10](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/updating_and_deleting_users) "Updating, showing, and deleting users"
+  4. Do the [Ruby on Rails Tutorial Chapter 11](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/account_activation), "Account Activation"
+  5. Do the [Ruby on Rails Tutorial Chapter 12](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/password_reset), "Password Reset"
 </div>
 
 ### Project 2: Members Only!
@@ -24,7 +24,7 @@ In this project, you'll be building an exclusive clubhouse where your members ca
 
 This will be a chance for you to "roll your own" authentication system, very similar to how you did in the tutorial.  As usual, we will be focusing on data and function, not style.  If you want to add your own stylistic flourishes, consider it extra credit.
 
-It's easy to feel a bit overwhelmed by building your own authentication.  That's because there are several moving parts -- the session controller/form, hanging onto and refreshing the remember token when necessary, and using that token to check up on the current user.  It may help if you write out the steps as you understand them prior to getting started, so you know what you're shaky on and will need to pay attention to.
+It's easy to feel a bit overwhelmed when building your own authentication.  That's because there are several moving parts -- the session controller/form, hanging onto and refreshing the remember token when necessary, and using that token to check up on the current user.  It may help if you write out the steps as you understand them prior to getting started, so you know what you're shaky on and will need to pay attention to.
 
 ### Your Task
 
@@ -79,7 +79,7 @@ Now let's make sure our users can sign in.
 Let's build those secrets!  We'll need to make sure only signed in users can see the author of each post.  We're not going to worry about editing or deleting posts.
 
 1. Create a Post model and a Posts controller and a corresponding resource in your Routes file which allows the `[:new, :create, :index]` methods.
-2. Atop your Posts Controller, use a `#before_filter` to restrict access to the `#new` and `#create` methods to only users who are signed in. Create the necessary helper methods in your ApplicationController.
+2. Atop your Posts Controller, use a `#before_action` to restrict access to the `#new` and `#create` methods to only users who are signed in. Create the necessary helper methods in your ApplicationController.
 3. For your Posts Controller, prepare your `#new` action.
 4. Write a very simple form in the `app/views/posts/new.html.erb` view which will create a new Post.
 5. Make your corresponding `#create` action build a post where the foreign key for the author (e.g. `user_id`) is automatically populated based on whichever user is signed in.  Redirect to the Index view if successful.
@@ -95,96 +95,120 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Joshua Aldridge's Solution](https://github.com/JFAldridge/members-only) - [Heroku](https://polar-mountain-42157.herokuapp.com/)
+* [Leo Holanda's Solution](https://github.com/leo-holanda/members-only) - [Heroku](https://boiling-hamlet-71286.herokuapp.com/)
+* [Nasser Abachi's Solution](https://github.com/abachi/clubhouse) - [Heroku](https://abachidev-clubhouse.herokuapp.com/)
+* [Ian's Solution](https://github.com/IanMKesler/members-only)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/members-only)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/members-only) - [Heroku](https://hidden-headland-49130.herokuapp.com/)
+* [Kevin Vuong's solution](https://github.com/fffear/members_only)
+* [Dennis Cope's solution](https://github.com/coped/members-only) - [View in browser](https://obscure-anchorage-03692.herokuapp.com)
+* [Learnsometing's solution](https://github.com/learnsometing/Rails-members_only)
+* [Simon Tharby's solution](https://github.com/jinjagit/members_only) - [View in browser](https://safe-falls-96496.herokuapp.com)
+* [Jason McKee's solution](https://github.com/jttmckee/members-only)
 * [prw001's solution](https://github.com/prw001/members_only)
-* [Donald Coleman's solution](https://bitbucket.org/drc000/members-only/src/master/) | [View live version](https://aqueous-mesa-83253.herokuapp.com/)
+* [Donald Coleman's solution](https://bitbucket.org/drc000/members-only/src/master/) - [View live version](https://aqueous-mesa-83253.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/members-only)
 * [Btreim's solution](https://github.com/btreim/members-only)
 * [0zra's solution](https://github.com/0zra/members-only)
 * Roman Alenskiy's solution (Mobile-friendly) [Github](https://github.com/romalenskiy/secret_lodge) / [Heroku](https://secret-lodge.herokuapp.com/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/members-only)
 * [theghall's solution](https://github.com/theghall/odin-members-only.git)
-* [Jmooree30's solution](https://github.com/jmooree30/members_only.git) | [View in browser](https://sheltered-chamber-33561.herokuapp.com/)
-* [Coconatsuki's solution](https://github.com/coconatsuki/members-only-clubhouse) | [View in browser](https://members-only-club.herokuapp.com/)
+* [Jmooree30's solution](https://github.com/jmooree30/members_only.git) - [View in browser](https://sheltered-chamber-33561.herokuapp.com/)
+* [Coconatsuki's solution](https://github.com/coconatsuki/members-only-clubhouse) - [View in browser](https://members-only-club.herokuapp.com/)
 * [Clayton Sweeten's solution](https://github.com/cjsweeten101/members-only)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/members-only), [Heroku](https://hidden-bastion-41826.herokuapp.com/)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/members-only)
-* [nmac's solution](https://github.com/nmacawile/members-only) | [Heroku](https://fathomless-woodland-93412.herokuapp.com/)
-* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/clubhouse) | [View in browser](https://milan-clubhouse.herokuapp.com)
-* [holdercp's solution](https://github.com/holdercp/members-only) | [View in broswer](https://quiet-plateau-84678.herokuapp.com)
-* [jfonz's solution](https://github.com/jfonz412/members-only)|[View in browser](https://glacial-basin-26789.herokuapp.com/posts)
+* [nmac's solution](https://github.com/nmacawile/members-only) - [Heroku](https://fathomless-woodland-93412.herokuapp.com/)
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/clubhouse) - [View in browser](https://milan-clubhouse.herokuapp.com)
+* [holdercp's solution](https://github.com/holdercp/members-only) - [View in broswer](https://quiet-plateau-84678.herokuapp.com)
+* [jfonz's solution](https://github.com/jfonz412/members-only) - [View in browser](https://glacial-basin-26789.herokuapp.com/posts)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/members-only)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Members_only)|[View in browser](https://owmembersonly.herokuapp.com/)
 * [Ayushka's solution](https://github.com/ayushkamadji/members-only)|[View in browser](https://salty-river-87868.herokuapp.com/)
 * [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_members_only)
-* [John Phelps's Solution](https://github.com/jphelps413/odin-rails-members-only) | [View in browser](https://jphelps413-rails-members-only.herokuapp.com/)
-* [Jib's Solution](https://github.com/NuclearMachine/members-only) | [live website!](https://afternoon-brook-94094.herokuapp.com/)
+* [John Phelps's Solution](https://github.com/jphelps413/odin-rails-members-only) - [View in browser](https://jphelps413-rails-members-only.herokuapp.com/)
+* [Jib's Solution](https://github.com/NuclearMachine/members-only) - [live website!](https://afternoon-brook-94094.herokuapp.com/)
 * [Austin's Solution](https://github.com/CouchofTomato/members_only/tree/master/members-only)
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/members_only)
-* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) - [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/members-only)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/membersOnly/members-only)
 * [Jonathan's solution](https://github.com/faulk49/members-only)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Gossip-Club)
-* [Erithair's solution](https://github.com/N19270/members-only) | [View in browser](https://members-only.herokuapp.com/)
+* [Erithair's solution](https://github.com/N19270/members-only) - [View in browser](https://members-only.herokuapp.com/)
 * [Vidul's Solution](https://github.com/viparthasarathy/members-only)
-* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/members-only) | [View in browser](https://members-only-sample-blog.herokuapp.com)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/members-only) - [View in browser](https://members-only-sample-blog.herokuapp.com)
 * [Nikola Čvorović's solution](https://github.com/cvorak/members-only)
 * [Jason Matthews' solution](https://github.com/fo0man/members-only)
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/clubhouse)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/members-only)
 * [Lara Finnegan's solution](https://github.com/lcf0285/members-only)
-* [Kevin Mulhern's solution](https://github.com/KevinMulhern/members-only) | [View in browser](https://mysterious-tundra-4233.herokuapp.com/)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/members-only) - [View in browser](https://mysterious-tundra-4233.herokuapp.com/)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/members-only)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/members_only)
-* [AtActionPark's solution](https://github.com/AtActionPark/odin_members_only) | [View in browser](https://serene-sands-9936.herokuapp.com/)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_members_only) - [View in browser](https://serene-sands-9936.herokuapp.com/)
 * [dchen71's solution](https://github.com/dchen71/members-only)
-* [Matias Pan's solution](https://github.com/kriox26/members-only) | [View in browser](https://stark-dawn-4299.herokuapp.com/)
+* [Matias Pan's solution](https://github.com/kriox26/members-only) - [View in browser](https://stark-dawn-4299.herokuapp.com/)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/members-only)
 * [Dan Hoying's solution](https://github.com/danhoying/members_only)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/members-only)
-* [Aviv Levinsky's solution](https://github.com/pugsiman/members-only) | [View in browser](https://guarded-brook-9440.herokuapp.com/)
-* [Hassan Mahmoud's solution](https://github.com/HassanTC/members-only) | [View in browser](https://sleepy-citadel-6281.herokuapp.com/)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/members-only) - [View in browser](https://guarded-brook-9440.herokuapp.com/)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/members-only) - [View in browser](https://sleepy-citadel-6281.herokuapp.com/)
 * [Radi Totev's solution](https://github.com/raditotev/members-only)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/members-only)
 * [srashidi's solution](https://github.com/srashidi/Authentication/tree/master/members-only)
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/members-only)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/members_only)
-* [Max Gallant's solution](https://github.com/mcgalcode/members-only) | [View in browser](https://grapefruitonly.herokuapp.com/)
+* [Max Gallant's solution](https://github.com/mcgalcode/members-only) - [View in browser](https://grapefruitonly.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/members-only)
-* [James Brooks's solution](https://github.com/jhbrooks/members-only) | [View in browser](https://powerful-bastion-24693.herokuapp.com/)
+* [James Brooks's solution](https://github.com/jhbrooks/members-only) - [View in browser](https://powerful-bastion-24693.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/members-only)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project8--members-only!/members-only)
 * [Akshay Bharwani's solution](https://github.com/akshaybharwani/members-only)
-* [Mateo Mejia's solution](https://github.com/mateomgj/rails_authentication_project) | [View in browser](https://enigmatic-reef-29029.herokuapp.com/)
-* [Fabricio Carrara's solution](https://github.com/fcarrara/members-only) | [View in browser](https://members-only-rails.herokuapp.com)
-* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/members-only) | [View in browser](https://members-only-dest.herokuapp.com/)
-* [Deepak's solution](https://github.com/Deepak5050/members-only.git) | [View in browser](https://dpoo-members-only.herokuapp.com/)
-* [Earth35's solution](https://github.com/Earth35/members_only) | [View in browser](https://limitless-waters-94136.herokuapp.com/)
-* [Shala Qweghen's solution](https://github.com/ShalaQweghen/members_only) | [View in browser](https://mysterious-reef-42520.herokuapp.com/)
-* [chrisnorwood's solution](https://github.com/chrisnorwood/members-only) | [View in browser](https://members-only-top.herokuapp.com/)
-* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/members-only) | [View in browser](https://members-only-by-jiazhi.herokuapp.com/)
-* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/members_only) | [View in browser](https://dry-ravine-33949.herokuapp.com/)
-* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/members-only) | [View in browser](https://polar-fjord-78673.herokuapp.com/)
+* [Mateo Mejia's solution](https://github.com/mateomgj/rails_authentication_project) - [View in browser](https://enigmatic-reef-29029.herokuapp.com/)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/members-only) - [View in browser](https://members-only-rails.herokuapp.com)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/members-only) - [View in browser](https://members-only-dest.herokuapp.com/)
+* [Deepak's solution](https://github.com/Deepak5050/members-only.git) - [View in browser](https://dpoo-members-only.herokuapp.com/)
+* [Earth35's solution](https://github.com/Earth35/members_only) - [View in browser](https://limitless-waters-94136.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/members_only) - [View in browser](https://mysterious-reef-42520.herokuapp.com/)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/members-only) - [View in browser](https://members-only-top.herokuapp.com/)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/members-only) - [View in browser](https://members-only-by-jiazhi.herokuapp.com/)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/members_only) - [View in browser](https://dry-ravine-33949.herokuapp.com/)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/members-only) - [View in browser](https://polar-fjord-78673.herokuapp.com/)
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/members-only)
-* [DV's solution](https://github.com/dvislearning/members-only) | [View in browser](https://fathomless-reef-68078.herokuapp.com/)
-* [Dckwong's solution](https://github.com/dckwong/members-only) | [View in browser](https://membersonly.herokuapp.com/)
-* [Sophia Wu's solution](https://github.com/SophiaLWu/members-only) | [View in browser](https://salty-mesa-44756.herokuapp.com/)
-* [at0micr3d's solution](https://github.com/at0micr3d/members-only) | [View in browser](https://floating-atoll-55409.herokuapp.com/)
-* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/members_only) | [View in browser](https://langenfeld-members-only.herokuapp.com/)
-* [Tom Westerhout's solution](https://github.com/TomWesterhout/Members_only) | [View in browser](https://membersonly-170388.herokuapp.com/)
-* [Luján's Fernaud solution](https://github.com/lujanfernaud/menbaa) | [View in browser](https://menbaa.herokuapp.com/)
+* [DV's solution](https://github.com/dvislearning/members-only) - [View in browser](https://fathomless-reef-68078.herokuapp.com/)
+* [Dckwong's solution](https://github.com/dckwong/members-only) - [View in browser](https://membersonly.herokuapp.com/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/members-only) - [View in browser](https://salty-mesa-44756.herokuapp.com/)
+* [at0micr3d's solution](https://github.com/at0micr3d/members-only) - [View in browser](https://floating-atoll-55409.herokuapp.com/)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/members_only) - [View in browser](https://langenfeld-members-only.herokuapp.com/)
+* [Tom Westerhout's solution](https://github.com/TomWesterhout/Members_only) - [View in browser](https://membersonly-170388.herokuapp.com/)
+* [Luján's Fernaud solution](https://github.com/lujanfernaud/menbaa) - [View in browser](https://menbaa.herokuapp.com/)
 * [Pat's solution](https://github.com/Pat878/members_only)
 * [Francisco's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/members-only)
-* [Punnadittr's solution](https://github.com/punnadittr/members-only) | [View in browser](https://lovely-mesa-verde-62169.herokuapp.com/)
-* [Uy Bình's solution](https://github.com/uybinh/member-only-odin) | [View in browser](https://member-only-summer.herokuapp.com)
-* [Agon's solution](https://github.com/AgonIdrizi/members-only) | [View in browser](https://serene-hollows-13658.herokuapp.com/)
+* [Punnadittr's solution](https://github.com/punnadittr/members-only) - [View in browser](https://lovely-mesa-verde-62169.herokuapp.com/)
+* [Uy Bình's solution](https://github.com/uybinh/member-only-odin) - [View in browser](https://member-only-summer.herokuapp.com)
+* [Agon's solution](https://github.com/AgonIdrizi/members-only) - [View in browser](https://serene-hollows-13658.herokuapp.com/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/members-only/tree/master/members-only)
-* [Malaika's Solution](https://github.com/malaikaMI/Nobuddies) | [View in browser](https://powerful-savannah-46992.herokuapp.com/)
-* [Jamesredux's Solution](https://github.com/Jamesredux/natter) | [View in browser](https://afternoon-coast-37994.herokuapp.com/)
+* [Malaika's Solution](https://github.com/malaikaMI/Nobuddies) - [View in browser](https://powerful-savannah-46992.herokuapp.com/)
+* [Jamesredux's Solution](https://github.com/Jamesredux/natter) - [View in browser](https://afternoon-coast-37994.herokuapp.com/)
 * [ParamagicDev's Solution](https://github.com/ParamagicDev/clubhouse.git)
 * [bchalman's Solution](https://github.com/bchalman/members-only)
+* [Alex's solution](https://github.com/alexcorremans/members-only)
+* [Brendaneus' solution](https://theodinprojects.live/courses/ruby-on-rails/projects/members-only)
+* [Leila Alderman's solution](https://github.com/leila-alderman/members-only) - [View in Browser](https://fierce-bayou-19850.herokuapp.com/)
+* [JamCry's solution](https://github.com/jamcry/members-only-app) - [View on Heroku](https://quiet-hamlet-54958.herokuapp.com/)
+* [vanny96's solution](https://github.com/vanny96/clubhouse) - [View on Heroku](https://shrouded-brushlands-95445.herokuapp.com/)
+* [themetar's solution (Github)](https://github.com/themetar/members-only-top) - [Live on Heroku](https://mysterious-coast-30783.herokuapp.com/)
+* [Nyaga Roy's Solution](https://github.com/RoyNyaga/new_members_blog_odin)
+* [Miguel Prada's Solution](https://github.com/mapra99/m-only)
+* [Rey van den Berg's Solution](https://github.com/Rey810/members-only-app.git)
+</details>
 
 ### Additional Resources
 

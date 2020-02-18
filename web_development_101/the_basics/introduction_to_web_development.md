@@ -57,9 +57,7 @@ The strongest assets you can have as a student are a desire to build, a problem-
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
 
-Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
-
-Read [this comprehensive blog post from Happy Bear Software](https://www.happybearsoftware.com/how-to-get-a-programmer-job) about the journey to getting hired as a brief introduction to what you will face ahead.
+Read [this comprehensive blog post from Happy Bear Software](http://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
 
 ### Why Odin?
 
@@ -72,6 +70,8 @@ The Odin Project takes a realistic view of what you need to know and has you set
 It acknowledges that you need a wide variety of skillsets and languages to reach an employable level.
 
 The Odin Project is constantly evolving because of people like you who get further along in the curriculum and pay it forward by incrementally improving our content over time.
+
+Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
 
 ### Conclusion
 

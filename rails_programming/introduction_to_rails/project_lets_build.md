@@ -2,28 +2,41 @@
 
 This is really a warmup -- you'll get a chance to poke around HTTP requests from the command line (IRB actually) and also to play around with a new gem called `rest-client`.  This is a useful (and powerful) gem which helps you make HTTP requests.  You can use it to do the basic stuff we're doing here or much more complicated authentication requests.
 
-You may find yourself using Rest Client down the road if you need to communicate with another web service that doesn't have an API library already written out for you (which is pretty rare these days).  Or if you get the inclination to test your own API from the command line later.
+You may find yourself using Rest Client down the road if you need to communicate with another web service that doesn't have an API library already written out for you (which is pretty rare these days) or if you get the inclination to test your own API from the command line.
 
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-1. Make sure that you've got Rest Client installed, do a `$ gem install rest-client`
-2. Head into IRB (`$ irb`)
-3. `require 'rest-client'`
-4. Now you're able to play with the gem.  Read its documentation over in the Github repo [HERE](https://github.com/rest-client/rest-client).  You'll end up doing this a whole lot -- using a new gem and going to its repo to check out the documentation, so get familiar with the process early!
-5. Use RestClient to do a Bing search (yes, Bing) and examine the results (you can find the parameters that Bing wants in the URL by simply making a search in a normal browser.  Pay attention to the `q=` parameter).
+1. Make sure that you've got Rest Client installed by running`$ gem install rest-client`.
+2. Head into IRB (`$ irb`).
+3. Run `require 'rest-client'` to bring the gem into your IRB session.
+4. Now you're able to play with the gem.  Read its documentation over in the Github repo [HERE](https://github.com/rest-client/rest-client). You'll end up doing this a whole lot — using a new gem and going to its repo to check out the documentation — so get familiar with the process early!
+5. Use Rest Client to do a Bing search (yes, Bing) and examine the results (you can find the parameters that Bing wants in the URL by simply making a search in a normal browser. Pay attention to the `q=` parameter).
 
-...that's it.  The point is to get familiar with making HTTP requests using your command line, which should prepare you for making them from within a Rails app later.
+That's it! The point is to get familiar with making HTTP requests using your command line, which should prepare you for making them from within a Rails app later.
 </div>
 
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [David Auza's Solution](https://github.com/davidauza-engineer/REST-Client-Gem)
+* [Nasser Abachi's Solution](https://github.com/abachi/rest-clinet-app)
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
+* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/warmup_restclient)
+* [Kevin Vuong's Solution](https://github.com/fffear/bing_search)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/rest-client-warmup)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/rails-exercises/tree/master/rest-client)
+* [Simon Tharby's solution](https://github.com/jinjagit/rest_client)
+* [Jason McKee's Solution (with Regex to get results and links)](https://github.com/jttmckee/rest-client/tree/master)
 * [Isil Donmez's solution](https://github.com/isildonmez/rest_client)
 * [Maria Tikhonova's solution](https://github.com/MariaTikhonova/odin_rails/tree/master/rest_client)
 * [Omar Moataz's solution](https://github.com/OmarMoataz/bing_console)
 * [Andrew's solution](https://github.com/andrewr224/bing-search)
+* [Dennis Cope's Solution](https://github.com/coped/restclient-warmup)
 * [Jmooree30's solution](https://github.com/jmooree30/rest-client.git)
 * [Kasey Z's solution](https://github.com/kasey-z/bing_search)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/rest_client)
@@ -52,6 +65,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex Tsiras' solution](https://github.com/arialblack14/rest_client)
 * [srashidi's solution](https://github.com/srashidi/The_Odin_Project/blob/master/Ruby%20on%20Rails/Web_Refresher/google_search.rb)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/rest_client_gem)
+* [Carlos Diaz's solution](https://github.com/bycdiaz/rest-client)
 * [Radi Totev's solution](https://github.com/raditotev/rest-tester)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/RestClient)
 * [Max Gallant's solution](https://github.com/mcgalcode/WebRefresher)
@@ -79,6 +93,11 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/rest-client/blob/master/rest-client.rb)
 * [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
 * [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
+* [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
+* [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
+* [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
+* [guacamobley's solution](https://github.com/guacamobley/rest-client-project)
+</details>
 
 ### Project: Ruby on Rails Tutorial
 
@@ -138,21 +157,21 @@ It's also important to note that **each test is completely independent of every 
 
 The first test (inside the block for the `#test` method) has just three lines.  The first, `get :home`, is just a necessary step to get you into position to run the test.  Because this is an extremely simple test file, that is inside the `#test` block.  If you ended up running multiple specs that relied on visiting that same page first, you'd see that line abstracted out into a `#before` block, which would be run before each test.
 
-The second line `assert_response :success`, makes sure that the home page returns an http status code of 200 or in other words success. The third line `assert_select "title", "Home | Ruby on Rails Tutorial Sample App"` is where the action happens.  `assert_select "title"` selects an element on the page—in this case the title element— and waits for some sort of definitive answer about whether the page passes or fails.  `"Home | Ruby on Rails Tutorial Sample App"` this is the expected value you are asserting the title will contain if the title matches this string the test will pass otherwise it will fail.  You don't actually need to know all the specifics of what's going on behind the scenes for a while, just how to apply them.
+The second line, `assert_response :success`, makes sure that the home page returns an HTTP status code of 200, which indicates success. The third line, `assert_select "title", "Home | Ruby on Rails Tutorial Sample App"`, is where the action happens.  `assert_select "title"` selects an element on the page — in this case the title element — and waits for some sort of definitive answer about whether the page passes or fails. `"Home | Ruby on Rails Tutorial Sample App"` is the expected value you are asserting the title will contain. If the title matches this string, the test will pass. Otherwise, it will fail. You don't actually need to know all the specifics of what's going on behind the scenes for a while; you just need to know how to apply them.
 
-If you're already scratching your head, don't worry (like I said, better explanations exist than mine).  The tutorial will cover testing along the way.  Hopefully your mind is warmed up right now and you won't be ambushed by suddenly being confronted with it.
+If you're already scratching your head, don't worry (like I said, better explanations exist than mine). The tutorial will cover testing along the way. Hopefully your mind is warmed up right now and you won't be ambushed by suddenly being confronted with it.
 
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
 1. If you'd still like a refresher on testing basics, check out [An Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse.
-2. Do [Chapter 3](https://www.railstutorial.org/book/static_pages) of the Ruby on Rails Tutorial to get started building the application.
-3. Do [Chapter 4](https://www.railstutorial.org/book/rails_flavored_ruby) of the tutorial to see how Ruby will be used in Rails.
+2. Do [Chapter 3](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/static_pages) of the Ruby on Rails Tutorial to get started building the application.
+3. Do [Chapter 4](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/rails_flavored_ruby) of the tutorial to see how Ruby will be used in Rails.
 4. Glance back at the [Deployment Lesson](/courses/ruby-on-rails/lessons/deployment) if you've got lingering questions or issues about the process of deployment.
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 
 * [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) Video from RailsConf2012 on YouTube.
