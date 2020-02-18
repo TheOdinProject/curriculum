@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [benjorama's Solution](https://github.com/benjorama/calculator) - [View in Browser](https://benjorama.github.io/calculator/)
 - [Lucio's Solution](https://github.com/JCarlosLucio/calculator) - [View in Browser](https://jcarloslucio.github.io/calculator/)
 - [Lenny's Solution](https://github.com/Lenn-e/calculator) - [View in Browser](https://lenn-e.github.io/calculator/)
 - [Nasius's Solution](https://github.com/Nasius/calculator-project) - [View in Browser](https://nasius.github.io/calculator-project/)
