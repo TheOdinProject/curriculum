@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Simon's Solution](https://github.com/Sim-frpt/todo-list) - [View in Browser](https://sim-frpt.github.io/todo-list/)
 * [Luky's solution](https://github.com/lcyne/todo-list/) - [View in Browser](https://lcyne.github.io/todo-list/)
 * [Kevin Vuong's Solution](https://github.com/fffear/js-to-do-list) - [View in Browser](https://fffear.github.io/js-to-do-list/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/todo-list) - [View in Browser](https://braxtonlemmon.github.io/todo-list/)
