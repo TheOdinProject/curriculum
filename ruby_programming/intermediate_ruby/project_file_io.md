@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [infectos's Solution](https://github.com/infectos/hangman) - [Live version on Repl.it](https://repl.it/@infectos/hangman)
 * [Loumarven's Solution](https://github.com/loumarven/top_hangman)
 * [fossegrim's Solution](https://github.com/olav35/hangman) - [Live version on Repl.it](https://repl.it/github/olav35/hangman)
 * [Michael Marchand's Solution](https://github.com/marchandmd/my_hangman) - [Live version on Repl.it](https://repl.it/@KurtBrusselSpro/myhangman-7)
@@ -272,4 +273,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/tree/master/hangman)
 * [Hyperturing's Solution](https://github.com/hyperturing/Hangman)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/hangman)
+* [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/tree/master/hangman)
 </details>

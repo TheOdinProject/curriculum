@@ -3,11 +3,11 @@
 You've seen how simple it can be to get something up and running using Sinatra, in these projects you will use the Caesar Cipher and either the Hangman or Mastermind games you built in the Ruby course to make a couple of web apps.
 
 ### A note on deploying your apps
-Deploying a Sinatra app to Heroku takes a little bit of work but the process is fairly straightforward. Instructions can be found [here](https://devcenter.heroku.com/articles/rack#sinatra)
+Deploying a Sinatra app to Heroku takes a little bit of work but the process is fairly straightforward. Instructions can be found [here](https://devcenter.heroku.com/articles/rack#sinatra).
 
-1. your `config.ru` file should require your main application file (This will be something like `web_guesser.rb` in the jumpstart tutorial)
-2. if you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
-3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku via `git push heroku master`.
+1. Your `config.ru` file should require your main application file (This will be something like `web_guesser.rb` in the jumpstart tutorial)
+2. If you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
+3. After creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku via `git push heroku master`.
 
 ### Project 1: Caesar Cipher _reloaded_
 
@@ -28,6 +28,9 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* robo-monk's Solution [Github](https://github.com/robo-monk/frank_ceasar) - [Live](https://frank-ceasar.herokuapp.com/)
+* Varras' Solution [Github](https://github.com/Varras/caesar_cipher) - [Live](https://tranquil-shelf-31549.herokuapp.com/)
+* fossegrim's Solution [Live](https://sheltered-inlet-54266.herokuapp.com/)
 * Nasser Abachi's Solution [Github](https://github.com/abachi/caesar_cipher) - [Live](https://shielded-island-76960.herokuapp.com/)
 * BShowen's Solution [Github](https://github.com/BShowen/ruby_CaesarCipher) - [Live](https://sinatra-ruby-cipher.herokuapp.com/)
 * Vedant's Solution [Github](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/Sinatra/Caesar%20Cipher) - [Live](https://whispering-stream-93717.herokuapp.com/)
@@ -130,6 +133,8 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
 * Robert Dunbar's Solution [GitHub](https://github.com/RobertDunbar/sinatra/tree/master/games) - [Heroku](https://lit-refuge-73632.herokuapp.com/)
 * Leo Holanda's Solution [Github](https://github.com/leo-holanda/sinatra_caesar_cipher) - [See it on the web](https://protected-dusk-87027.herokuapp.com)
 * Carlos Diaz's Solution [GitHub](https://github.com/bycdiaz/caesar-cipher-reloaded) - [Heroku](https://hidden-springs-00448.herokuapp.com/)
+* guacamobley's Solution [Github](https://github.com/guacamobley/caesar-cipher-webapp) - [Heroku](https://guacamobley-caesar-cipher.herokuapp.com)
+* unheavenlycreature's Solution [Github](https://github.com/unheavenlycreature/caesar-cipher-webapp) - [See it on the web](https://uc-caesar-sinatra.herokuapp.com/)
 </details>
 
 ### Project 2: Another Web-Game
@@ -246,4 +251,6 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
 * Leo Holanda's Solution [Github](https://github.com/leo-holanda/sinatra_mastermind) - [See it on the web](https://hidden-dawn-45108.herokuapp.com/)
 * Robert Dunbar's Solution [GitHub](https://github.com/RobertDunbar/sinatra/tree/master/games) - [Heroku](https://lit-refuge-73632.herokuapp.com/)
 * Joe Lee Hangman's Solution [GitHub](https://github.com/JoeDravarol/sinatra_hangman) - [Heroku](https://blooming-crag-69548.herokuapp.com/)
+* guacamobley's Solution [Github](https://github.com/guacamobley/sinatra_mastermind) - [Heroku](https://guacamobley-sinatra-mastermind.herokuapp.com)
+* unheavenlycreature's Solution (Mastermind) - [Github](https://github.com/unheavenlycreature/sinatra-mastermind) - [Heroku](https://uc-mastermind.herokuapp.com)
 </details>
