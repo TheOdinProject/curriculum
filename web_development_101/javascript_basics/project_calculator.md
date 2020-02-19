@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Edd Sansome's Solution](https://github.com/casualc0der/calculator) - [View in Browser](https://casualc0der.github.io/calculator/)
+- [benjorama's Solution](https://github.com/benjorama/calculator) - [View in Browser](https://benjorama.github.io/calculator/)
+- [Ichenn's Solution](https://github.com/Ichenn92/calculator) - [View in Browser](https://ichenn92.github.io/calculator/)
+- [Lucio's Solution](https://github.com/JCarlosLucio/calculator) - [View in Browser](https://jcarloslucio.github.io/calculator/)
 - [Lenny's Solution](https://github.com/Lenn-e/calculator) - [View in Browser](https://lenn-e.github.io/calculator/)
 - [Nasius's Solution](https://github.com/Nasius/calculator-project) - [View in Browser](https://nasius.github.io/calculator-project/)
 - [Erixun's Solution](https://github.com/Erixun/calculator) - [View in Browser](https://erixun.github.io/calculator/calc-alt/calculator%20copy.html)
@@ -520,4 +524,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kielx's Solution](https://github.com/Kielx/Calculator) - [View in Browser](https://kielx.github.io/Calculator/)
 - [Daniel's Solution](https://github.com/amigoinsano/odinProject-calculator) - [View in Browser](https://amigoinsano.github.io/odinProject-calculator/)
 - [jamesredux's Solution](https://github.com/Jamesredux/jscalculator) - [View in Browser](https://jamesredux.github.io/jscalculator/)
+- [MiDDiz's Solution](https://github.com/MiDDiz/OdinCalculator) - [View in Browser](https://middiz.github.io/OdinCalculator/)
+- [Sonya's Solution](https://github.com/murdens/calculator) - [View in Browser](https://murdens.github.io/calculator/)
 </details>
