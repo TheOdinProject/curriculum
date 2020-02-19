@@ -41,9 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ichenn's Solution](https://github.com/ichenn92/rock-paper-scissors) - [View in Browser](https://ichenn92.github.io/rock-paper-scissors/)
+- [Felipe Silveira's Solution](https://github.com/Silve1ra/rock-paper-scissors) 
+- [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/rock-paper-scissors.git)
 - [threeaces' Solution](https://github.com/threeaces/rock-paper-scissors)
 - [marfantinel's Solution](https://github.com/marfantinel/rock-paper-scissors)
-- [rryand's Solution](https://github.com/rryand/rock-paper-scissors)
+- [rryand's Solution](https://github.com/rryand/rock-paper-scissors) - [View in Browser](https://rryand.github.io/rock-paper-scissors/)
 - [kdayno's Solution](https://github.com/kdayno/rock-paper-scissors) - [View in Browser](https://kdayno.github.io/rock-paper-scissors/)
 - [eriktn's Solution](https://github.com/eriktn/rock-paper-scissors)
 - [JohnPCarvalho's Solution](https://https://github.com/JohnPCarvalho/rock-paper-scissors)
@@ -1274,4 +1277,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/RPS)
 - [Peperonidas's Solution](https://github.com/odiseon/rock-paper-scissors) - [View in Browser](https://github.com/odiseon/rock-paper-scissors)
 - [xOC97's Solution](https://github.com/xOC97/rock-paper-scissors) - [View in Browser](https://xoc97.github.io/rock-paper-scissors/)
+- [padraigoneill's Solution](https://github.com/padraigoneill1/rock-paper-scissors) - [View in Browser](https://padraigoneill1.github.io/rock-paper-scissors/)
 </details>
