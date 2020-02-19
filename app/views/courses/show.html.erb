@@ -1,0 +1,20 @@
+<%= title(@course.title) %>
+
+<div class="gradient">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+
+        <%= render 'courses/course/banner',course: @course %>
+
+        <div class="course-description">
+          <h2 class="course-description__heading">Overview</h2>
+          <p><%= @course.description %></p>
+        </div>
+
+        <%= render 'courses/course/sections', sections: @course.sections, course: @course %>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+#index-submissions {
+  .pagination {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .first a, .prev a, .page a {
+      color: $pale-grey;
+    }
+
+    .page {
+      margin-left: 4px;
+    }
+    .current, .next a, .last a {
+      color: $primary;
+      font-weight: bold;
+    }
+
+    .next {
+      margin-left: 30px;
+    }
+  }
+}

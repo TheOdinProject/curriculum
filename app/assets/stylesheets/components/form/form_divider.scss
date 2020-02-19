@@ -1,0 +1,13 @@
+.form-divider {
+  margin: 1.875rem 0;
+  font-size: 0.8em;
+  letter-spacing: 0.2px;
+  color: $pale-grey;
+  border-bottom: 1px solid $dark-grey;
+  line-height: 0;
+
+  &__text {
+    background: $white;
+    padding: 0 20px;
+  }
+}

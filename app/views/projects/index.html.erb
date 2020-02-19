@@ -1,0 +1,42 @@
+<%= title("#{@lesson.title} Submissions") %>
+
+<% if user_signed_in? %>
+  <%= render 'projects/report_form_modal', lesson: @lesson %>
+<% end %>
+
+<% if user_signed_in? && @project %>
+  <div id="project-submission-modal-wrapper">
+    <%= render 'projects/form_modal', lesson: @lesson, project: @project %>
+  </div>
+  <%= render 'projects/delete_project_modal', lesson: @lesson, project: @project %>
+<% end %>
+
+<div class="gradient">
+  <div class="container">
+    <div class="projects-header">
+      <%= render 'courses/course/banner', course: @course %>
+      <h2 class="projects-header__title accent"><%= "All Submissions - #{@lesson.title}"%></h2>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <div id="index-submissions" class="card-main">
+          <% if @lesson.has_submission? %>
+            <%= render 'lessons/index_submissions', projects: @projects %>
+            <%= paginate @projects %>
+          <% else %>
+            <h4 class="text-center accent">
+              This project does not accept submissions
+            </h4>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <%= render 'shared/bottom_cta',
+      heading: 'Have a question?',
+      sub_heading: 'Chat with our friendly Odin community in our Discord chatrooms!',
+      button: chat_button
+    %>
+  </div>
+</div>

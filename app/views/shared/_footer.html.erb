@@ -1,0 +1,24 @@
+<footer id="footer">
+  <div class="footer-brand">
+    <%= render "shared/logo" %>
+  </div>
+  <div class="footer-social">
+    <%= link_to "https://github.com/TheOdinProject" do %><span aria-label="github" class="accent fab fa-github"/><% end %>
+    <%= link_to "https://discord.gg/hvqVr6d" do %><span aria-label="discord chat" class="accent fab fa-discord"/><% end %>
+    <%= link_to "https://www.facebook.com/theodinproject/" do %><span aria-label="facebook" class="accent fab fa-facebook"/><% end %>
+    <%= link_to "https://twitter.com/TheOdinProject" do %><span aria-label="twitter" class="accent fab fa-twitter"/><% end %>
+  </div>
+  <div class="footer-links">
+    <div class="footer-links-container">
+      <%= link_to "About", about_path, class: "footer-link" %>
+      <%= link_to "FAQ", faq_path, class: "footer-link" %>
+      <%= link_to "Blog", medium_blog_path, target: "_blank", rel: "noreferrer", class: "footer-link" %>
+    </div>
+    <div class="footer-links-container">
+      <%= link_to "Success Stories", success_stories_path, class: "footer-link" %>
+      <%= link_to "Contribute", contributing_path, class: "footer-link" %>
+      <%= link_to "Terms of Use", terms_of_use_path, class: "footer-link" %>
+    </div>
+  </div>
+
+</footer>

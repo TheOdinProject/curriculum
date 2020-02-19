@@ -1,0 +1,127 @@
+.form {
+  padding-top: 1em;
+  
+  &__section {
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  &__button-section {
+    margin-top: 30px;
+  }
+
+  &__element {
+    width: 100%;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    border: none;
+    letter-spacing: 0.2px;
+    color: $text-primary;
+
+    &::placeholder {
+      color: $pale-grey;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &--with-icon {
+      padding: 1rem 0.5rem 1rem 3.75rem;
+    }
+
+    &--non-editable {
+      color: $grey;
+      padding: 0rem 1rem 0.5rem 0rem;
+      @include word-wrap();
+
+      @include media-breakpoint-down(sm) {
+        text-align: left;
+      }
+    }
+  }
+
+  &__label {
+    color: $text-primary;
+    font-size: 1.125em;
+    font-weight: bold;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    font-size: 1.75em;
+    left: 25px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__link {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    color: $grey;
+    font-size: 0.8125rem;
+
+    &:hover {
+      color: $text-primary;
+    }
+  }
+
+  &__error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: -20px;
+  }
+
+  &__link-section {
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: space-between;
+    align-items: center;
+
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+    }
+
+    &__item {
+      color: $pale-grey;
+    }
+  }
+
+  &__check-box {
+    display: none;
+
+    &:checked + .form__check-box-label:before {
+      content: '\f00c';
+      color: #4a4a4a;
+      font-size: 1rem;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+    }
+  }
+
+  &__check-box-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 15px;
+    }
+
+    &:before {
+      margin-right: 5px;
+      width: 1.5rem;
+      height: 1.5rem;
+      background-color: rgba(0,0,0,0.03);
+      cursor: pointer;
+      text-align: center;
+      content: "";
+    }
+  }
+}

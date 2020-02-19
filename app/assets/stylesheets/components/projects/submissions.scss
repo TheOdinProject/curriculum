@@ -1,0 +1,29 @@
+.submissions-container {
+  margin-top: 30px;
+  border-top: 1px solid $pale-grey;
+
+  &__header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+    }
+  }
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__instructions {
+    @include media-breakpoint-down(sm) {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.submissions-list {
+  margin: 1.25em 0;
+}

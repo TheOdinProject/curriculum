@@ -1,0 +1,17 @@
+<div class="section-lessons">
+  <% lessons.each_with_index do |lesson, lesson_index| %>
+    <div class="section-lessons__item">
+
+      <%= link_to course_lesson_path(course, lesson), class: 'section-lessons__item__link' do %>
+        <%= numbered_lesson_title(lesson, lesson_index) %>
+      <% end %>
+
+      <% if user_signed_in? %>
+        <div id="section-lessons__<%= lesson.id %>">
+          <%= render 'courses/course/lesson_completion_button', lesson: lesson, user: current_user %>
+        </div>
+      <% end %>
+
+    </div>
+  <% end %>
+</div>

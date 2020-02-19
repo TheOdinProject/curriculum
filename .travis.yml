@@ -1,0 +1,16 @@
+sudo: required
+language: ruby
+rvm:
+  - 2.6.2
+services:
+  - postgresql
+before_script:
+  - bundle install
+  - psql -c 'create database theodinproject_test;' -U postgres
+script:
+  - bundle exec rake bundler:audit
+  - bundle exec rake db:migrate RAILS_ENV=test
+  - bundle exec rspec
+test:
+  adapter: postgresql
+  database: theodinproject_test

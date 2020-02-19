@@ -1,0 +1,23 @@
+<%= title('Settings') %>
+
+<div class="gradient">
+  <div class="container">
+    <h1 class="text-center accent">Settings</h1>
+    <div class='col-lg-10 offset-lg-1'>
+
+      <%= render 'devise/registrations/profile', user: @user %>
+      <%= render 'devise/registrations/learning_goal', user: @user %>
+
+      <% if @user.provider.nil? %>
+        <%= render 'devise/registrations/password', user: @user %>
+      <% end %>
+
+      <%= link_to 'Delete my account',
+        registration_path(resource_name),
+        class: 'delete-account text-center',
+        data: { confirm: 'Are you sure?' },
+        method: :delete
+      %>
+    </div>
+  </div>
+</div>

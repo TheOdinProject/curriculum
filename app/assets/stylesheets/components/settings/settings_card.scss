@@ -1,0 +1,71 @@
+.settings-card {
+
+  &__heading {
+    font-weight: bold;
+    color: $text-primary;
+    margin-bottom: 1.5rem;
+  }
+
+  &__heading {
+    font-weight: bold;
+    color: $text-primary;
+  }
+
+  &__picture {
+    margin-right: 40px;
+    padding-right: 40px;
+    border-right: 1px solid $pale-grey;
+
+    img {
+      width:100px;
+      height:100px;
+      margin: 0 auto;
+      border-radius:50%;
+      overflow: hidden;
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 50px;
+      margin-right: 0;
+      padding-right: 0;
+      border-right: none;
+    }
+  }
+
+  &__content {
+    display: flex;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__edit-button {
+    color: $grey;
+    font-size: 1.125em;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    &:hover {
+      color: $black;
+    }
+
+    &--open {
+      &:before {
+        content: "\f044";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
+    }
+
+    &--close {
+      &:before {
+        content: "\f00d";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
+    }
+  }
+}

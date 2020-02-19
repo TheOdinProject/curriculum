@@ -1,0 +1,25 @@
+<div class="card-main card-main--shadowless report-project-form">
+  <div class="col-12">
+    <h1 class="text-center">Report project</h1>
+
+    <%= form_tag reports_path, remote: true, class: 'form' do %>
+      <%= hidden_field_tag :project_id %>
+
+      <div class="form__section">
+        <%= label_tag :description %>
+        <%= text_area_tag :description,
+          nil,
+          required: true,
+          class: 'form__element report-project-form__description',
+          placeholder: 'Tell us why you think we should flag the submission'
+        %>
+      </div>
+
+      <div class="text-center">
+        <%= submit_tag 'Report project',
+          class: 'button button--primary report-project-form__report-button'
+        %>
+      </div>
+    <% end %>
+  </div>
+</div>

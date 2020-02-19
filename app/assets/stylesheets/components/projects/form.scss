@@ -1,0 +1,21 @@
+.project-form {
+  margin-bottom: 0;
+  padding: 20px 60px;
+
+  &__title {
+    margin-bottom: 70px;
+  }
+
+  &__button {
+    width: 100%;
+
+    @media (min-width: 500px) {
+      width: 325px;
+    }
+  }
+
+  &__submit-btn {
+    border: 0;
+    margin-top: 40px;
+  }
+}

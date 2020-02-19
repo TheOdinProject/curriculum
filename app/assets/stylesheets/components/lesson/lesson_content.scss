@@ -1,0 +1,133 @@
+.lesson-content {
+  padding-bottom: 60px;
+
+  h3:nth-child(2) {
+    margin-top: 0;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: $text-primary;
+    font-size: 1.5em;
+
+    @include media-breakpoint-down(md) {
+      &:before {
+        @include internal-link-offset();
+      }
+    }
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: $text-primary;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+  }
+
+  p {
+    margin-bottom: 30px;
+    line-height: 1.9;
+    color: $text-primary;
+  }
+
+  pre {
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+  }
+
+  li {
+    color: $grey;
+    font-size: 1.125rem;
+  }
+
+  ul, ol {
+    line-height: 1.9;
+  }
+
+  ul {
+    padding-left: 1.25em;
+    color: $grey;
+    line-height: 1.9;
+    margin-bottom: 50px;
+
+    li {
+      border: none;
+      list-style-type: disc;
+    }
+  }
+
+  li {
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  ol {
+    padding-left: 1.25em;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    padding: 1em 0;
+  }
+
+  code {
+    word-wrap: break-word;
+  }
+
+  &__panel {
+    background-color: $white-smoke;
+    padding: 1.5em;
+    margin: 20px 0 50px 0;
+
+    ul:first-child {
+      margin-bottom: 0;
+    }
+
+    li, p {
+      color: $text-primary;
+    }
+
+    h4:not(:first-child) {
+      margin-top: 50px;
+    }
+
+    li {
+      margin: 15px 0;
+    }
+  }
+
+  &__small-image {
+    width: auto !important;
+  }
+
+  details {
+    summary {
+      color: $grey;
+      font-size: 1.125rem;
+    }
+    
+    ul {
+      margin: 15px;
+    }
+  }
+
+  details:last-child {
+    margin-bottom: 30px;
+  }
+
+  details .dropDown-header {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: $text-primary;
+    cursor: pointer;
+  }
+}
+
+

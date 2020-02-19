@@ -1,0 +1,11 @@
+.project {
+  &__report-link {
+    color: $primary;
+    cursor: pointer;
+    display: none;
+
+    &:hover, &:active {
+      color: darken($primary, 20%);
+    }
+  }
+}
