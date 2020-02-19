@@ -22,6 +22,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Joshysmart's solution](https://github.com/joshysmart/mint-signup-form) - [View in Browser](https://joshysmart.github.io/mint-signup-form/)
+* [Rarysson's solution](https://github.com/rarysson/sign-up-form) - [View in Browser](https://rarysson.github.io/sign-up-form/)
 * [Igorashs's solution](https://github.com/igorashs/html-forms) - [View in Browser](https://igorashs.github.io/html-forms/)
 * [MikkRou's solution](https://github.com/MikkRou/html-form) - [View in Browser](https://mikkrou.github.io/html-form/)
 * [TheGudu's solution](https://github.com/TheGudu/MintSignUpPage)
@@ -155,6 +157,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Mihai Negrisan's solution](https://github.com/mihainegrisan/mint-s-sign-in-page-replica) - [View in Browser](https://mihainegrisan.github.io/mint-s-sign-in-page-replica/index.html)
 * [Aron's solution](https://github.com/aronfischer/Mint-sign-up-page) - [View in Browser](https://aronfischer.github.io/Mint-sign-up-page/)
 * [Nigel Volkmann's solution](https://github.com/Nekolike/SignUp) - [View in Browser](https://nekolike.github.io/SignUp/)
+* [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP-intuit-clone) - [View in Browser](https://adrieltrigger.github.io/TOP-intuit-clone/)
 </details>
 
 ### Additional Resources
