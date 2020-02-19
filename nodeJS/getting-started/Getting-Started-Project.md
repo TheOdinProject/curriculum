@@ -36,6 +36,13 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [martink-rsa's Solution](https://github.com/martink-rsa/basic_website_nodejs) - [View in Browser](https://repl.it/@martinkrsa/basicwebsitenodejs)
+- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/basic-informational-site) - [View in Browser](https://repl.it/@sousahenrique/basic-informational-site)
+- [autumnchris's Solution](https://github.com/autumnchris/nodejs-multi-page-site-demo) - [View in Browser](https://autumnchris-nodejs-site-demo.herokuapp.com)
+- [Brendo's Solution](https://github.com/BBrownley/Basic-info-site)
+- [Alain Suarez's Solution](https://gitlab.com/asuar/node-basic-info) - [View in browser](https://repl.it/@AlainSuarez/basic-info)
+- [ARaut9's Solution](https://github.com/ARaut9/basic-site)
+- [Vollantre's Solution](https://github.com/vollantre/BASIC_INFORMATIONAL_SITE)
 - [MikkRou's Solution](https://github.com/MikkRou/basic-informational-site) - [View in browser](https://basic-informational-site.mikkrou.repl.co)
 - [Eljoey's Solution](https://github.com/eljoey/Basic_Node_Site)
 - [Vedat's Solution](https://github.com/mvedataydin/initiate-node) - [View in browser](https://repl.it/@mvedataydin/initiate-node)
@@ -57,5 +64,7 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Avic Ndugu](https://repl.it/repls/AuthenticRepulsiveCells) - [View in browser](https://authenticrepulsivecells--five-nine.repl.co/)
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/first-node-site)
 - [Mitchell's Solution](https://github.com/mleers/simple-node-website)
-
+- [Kale33's Soltuion](https://github.com/poreniyi/Basic-Informational-Site)
+- [Aron's Solution](https://github.com/aronfischer/first_nodejs_app)
+- [Fred's Solution](https://github.com/fchasin/FirstWebsite)
 </details>

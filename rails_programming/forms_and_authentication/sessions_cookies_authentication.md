@@ -22,7 +22,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### Cookies, Sessions, and Flashes
 
-Cookies, Sessions and Flashes are three special objects that Rails gives you which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
+Cookies, Sessions and Flashes are three special objects that Rails gives you in which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
 
 ### Cookies
 
