@@ -38,10 +38,21 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
 ###  Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 - Add your solution below this line!
+- [martink-rsa's Solution](https://github.com/martink-rsa/Battleships) - [View in browser](https://martink-rsa.github.io/Battleships/)
+- [Igorashs's Solution](https://github.com/igorashs/vue-battleship) - [View in browser](https://igorashs.github.io/vue-battleship/)
+- [Jason McKee's Solution](https://github.com/jttmckee/vue-battleship) - [View in browser](https://jttmckee.github.io/vue-battleship/)
+- [Ryan's and Dipto's solution](https://github.com/rvvergara/battleship) - [View in browser](https://ryto-battleship-game.netlify.com/)
 - [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/battleship) - [View in browser](https://bubblebooy.github.io/Odin-Javascript/battleship/build/index.html)
 - [Kyle and Paul's solution](https://github.com/jklemon17/battleship) - [View in browser](https://jklemon17.github.io/battleship)
 - [theghall's solution](https://github.com/theghall/odin-battleship) - [View in browser](https://theghall.github.io/odin-battleship/)
 - [brxck's solution](https://github.com/brxck/odin-battleship) - [View in browser](https://brockmcelroy.com/odin-battleship/)
 - [alexfuro's solution](https://github.com/alexfuro/odin_battleship) - [View in browser](https://alexfuro.github.io/odin_battleship/)
 - [Heyalvaro's solution](https://github.com/heyalvaro/battleship.js) - [View in browser](http://heyalvaro.com/battleship.js/)
+- [Halkim44's solution](https://github.com/halkim44/battleship-game) - [View in browser](https://halkim44.github.io/battleship-game/)
+- [Kelvin Liang's Solution](https://github.com/kelvin8773/odin-battle-ship) - [View in browser](https://battleshipgame.netlify.com/)
+
+</details>

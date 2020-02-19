@@ -5,7 +5,7 @@ This whole series of lessons has been about the "Object Oriented Programming" pa
 
 Luckily there are several concepts and principles that can guide us into making good decisions when it comes to our objects. This lesson is an introduction to the most important of those concepts. Keep in mind that there is not usually a very clear answer to your application design questions. Some patterns and ideas are obviously better than others, but there is often some trade-off when deciding where to put a specific function. In other words.. these principles are not _rules_- they're helpful guidelines.  
 
-As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on keep these things in mind when crafting new projects
+As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on keep these things in mind when crafting new projects.
 
 ### Single Responsibility
 
@@ -14,14 +14,14 @@ One of the most important things to remember as you craft your objects is the __
 So instead of this:
 
 ~~~javascript
-function is_game_over() {
+function isGameOver() {
 
   // game over logic goes here!
 
   if (gameOver){
     const gameOverDiv = document.createElement('div')
     gameOverDiv.classList.add('game-over')
- gameOverDiv.textContent = `${this.winner} won the game!`
+    gameOverDiv.textContent = `${this.winner} won the game!`
     document.body.appendChild(gameOverDiv)
   }
 }
@@ -30,7 +30,7 @@ function is_game_over() {
 You should extract all the DOM manipulation into it's own module and use it like so:
 
 ~~~javascript
-function is_game_over() {
+function isGameOver() {
 
   // game over logic goes here!
 
@@ -40,7 +40,7 @@ function is_game_over() {
 }
 ~~~
 
-In fact - the function `is_game_over` shouldn't be calling the DOM function anyway that should go elsewhere (directly in the game-loop)
+In fact - the function `isGameOver` shouldn't be calling the DOM function anyway that should go elsewhere (directly in the game-loop)
 
 > The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the __SOLID__ principles. Both of the following articles mention the acronym __SOLID__ before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5. Feel free to dig into the rest of the SOLID principles if you like.. but pay special attention to Single Responsibility.
 

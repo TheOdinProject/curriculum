@@ -78,10 +78,12 @@ More recently, however, web browsers have begun to implement a new native functi
 ~~~javascript
 // URL (required), options (optional)
 fetch('https://url.com/some/url')
-  .then(function(response) {
-}).catch(function(err) {
-  // Error :(
-});
+  .then(function(response) { 
+    // Successful response :)
+  })
+  .catch(function(err) {
+    // Error :(
+  });
 ~~~
 In case you've forgotten, scroll back up and look at how you would use XHR to do the same thing. While you're admiring how nice and clean that code is, notice the `.then()` and `.catch()` functions there. Do you remember what those are? (PROMISES!)
 
@@ -90,7 +92,7 @@ Let's change up our API for this example. We're going to walk through an example
 Giphy has several methods for searching and finding gifs which you can read about in their documentation. Today we're just going to use the 'translate' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [here](https://developers.giphy.com/docs/). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/translate` and that it requires 2 parameters, your `api_key` and a `s`earch term. If you put it all together correctly (with YOUR API key) you should get something like this:
 
 ~~~javascript
-'https://api.giphy.com/v1/gifs/translate?api_key=1111111&s=cats'
+'https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats'
 // of course we're searching for cats
 ~~~
 
@@ -105,7 +107,7 @@ Whether or not you took the detour to learn all about Cross Origin Resource Shar
 ~~~javascript
 fetch('url.url.com/api', {
   mode: 'cors'
-})
+});
 ~~~
 
 Simply adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
@@ -121,7 +123,7 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
   <title>Document</title>
 </head>
 <body>
-  <img src="#">
+  <img src="#" />
   <script>
   </script>
 </body>
@@ -132,7 +134,7 @@ In the script tag, let's start by selecting the image and assigning it to a vari
 
 ~~~HTML
 <script>
-  const img = document.querySelector('img')
+  const img = document.querySelector('img');
 </script>
 ~~~
 
@@ -140,11 +142,11 @@ Adding fetch with our URL from above is also relatively easy:
 
 ~~~HTML
 <script>
-  const img = document.querySelector('img')
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
     .then(function(response) {
-      console.log(response.json())
-    })
+      console.log(response.json());
+    });
 </script>
 ~~~
 
@@ -152,14 +154,14 @@ You should now be able to open the HTML file in your browser, and while you won'
 
 ~~~HTML
 <script>
-  const img = document.querySelector('img')
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
     .then(function(response) {
-      return response.json()
+      return response.json();
     })
     .then(function(response) {
-      console.log(response)
-    })
+      console.log(response);
+    });
 </script>
 ~~~
 
@@ -171,14 +173,14 @@ To get to the data we need to drill down through the layers of the object until 
 
 ~~~HTML
 <script>
-  const img = document.querySelector('img')
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
     .then(function(response) {
-      return response.json()
+      return response.json();
     })
     .then(function(response) {
-      console.log(response.data.images.original.url)
-    })
+      console.log(response.data.images.original.url);
+    });
 </script>
 ~~~
 
@@ -186,14 +188,14 @@ Running the file should now log the URL of the image. All that's left to do is s
 
 ~~~HTML
 <script>
-  const img = document.querySelector('img')
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=111111&s=cats', {mode: 'cors'})
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
     .then(function(response) {
-      return response.json()
+      return response.json();
     })
     .then(function(response) {
-      img.src = response.data.images.original.url
-    })
+      img.src = response.data.images.original.url;
+    });
 </script>
 ~~~
 

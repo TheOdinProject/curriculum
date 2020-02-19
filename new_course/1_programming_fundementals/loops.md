@@ -57,6 +57,34 @@ end
 
 This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Of course, in real life, you should really just take "no" for an answer the first time.
 
+### Until Loop
+
+The `until` loop is the opposite of the `while` loop. A `while` loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false. These two loops can therefore be used pretty much interchangeably. Ultimately, what your break condition is will determine which one is more readable.
+
+As much as possible, you should avoid negating your logical expressions using `!` (not). First, it can be difficult to actually notice the exclamation point in your code. Second, using negation makes the logic more difficult to reason through and therefore makes your code more difficult to understand. These situations are where `until` shines.
+
+We can re-write our `while` loop examples using `until`.
+
+~~~ruby
+i = 0
+until i > 10 do
+ puts "i is #{i}"
+ i += 1
+end
+~~~
+
+You can see here that using `until` means that the loop will continue running until the condition i > 10 is false.
+
+The next example shows how you can use `until` to avoid the negation `!` that the above `while` loop had to use.
+
+~~~ruby
+until gets.chomp == "yes" do
+  puts "Will you go to prom with me?"
+end
+~~~
+
+Much more readable! This code is guaranteed to get you a "yes".
+
 ### Ranges
 
 What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://ruby-doc.org/core-2.6.1/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive. 
@@ -99,35 +127,7 @@ I'm sure you can guess what that code does. Ruby is easily readable that way!
 end
 ~~~
 
-Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`.
-
-### Until Loop
-
-The `until` loop is the opposite of the `while` loop. A `while` loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false. These two loops can therefore be used pretty much interchangeably. Ultimately, what your break condition is will determine which one is more readable.
-
-As much as possible, you should avoid negating your logical expressions using `!` (not). First, it can be difficult to actually notice the exclamation point in your code. Second, using negation makes the logic more difficult to reason through and therefore makes your code more difficult to understand. These situations are where `until` shines.
-
-We can re-write our `while` loop examples using `until`.
-
-~~~ruby
-i = 0
-until i > 10 do
- puts "i is #{i}"
- i += 1
-end
-~~~
-
-You can see here that using `until` means that the loop will continue running until the condition i > 10 is false.
-
-The next example shows how you can use `until` to avoid the negation `!` that the above `while` loop had to use.
-
-~~~ruby
-until gets.chomp == "yes" do
-  puts "Will you go to prom with me?"
-end
-~~~
-
-Much more readable! This code is guaranteed to get you a "yes". 
+Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`. 
 
 ### Upto and Downto Loops
 
