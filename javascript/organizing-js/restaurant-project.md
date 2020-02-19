@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Justinkar's Solution](https://github.com/justinkar/restaurant-page) - [View in Browser](https://justinkar.github.io/restaurant-page/)
 - [mjwills-inf's Solution](https://github.com/mjwills-inf/restaurant) - [View in Browser](https://mjwills-inf.github.io/restaurant/)
 - [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/restaurant-page) - [View in Browser](https://kikupiku.github.io/restaurant-page/)
 - [Padraig O'Rúis's solution](https://github.com/anarchomushroom/js-restaurant) - [View in Browser](https://anarchomushroom.github.io/js-restaurant/)
@@ -126,4 +127,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [mmboyce's Solution](https://github.com/mmboyce/restaurant-page) - [View in Browser](https://mmboyce.github.io/restaurant-page/)
 - [Hamohuh's Solution](https://github.com/hamohuh/Restaurant) - [View in Browser](https://hamohuh.github.io/Restaurant/)
 - [0xtaf's Solution](https://github.com/0xtaf/restaurant) - [View in Browser](https://0xtaf.github.io/restaurant/)
+- [tomstrat's Solution](https://github.com/tomstrat/restaurant) - [View in Browser](https://tomstrat.github.io/restaurant/)
 </details>

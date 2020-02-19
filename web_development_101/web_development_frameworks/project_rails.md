@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew S's Solution](https://github.com/CGoldMonkey/rails-blogger) - [View in Browser](https://stark-inlet-82993.herokuapp.com/)
 * [Langarus' Solution](https://github.com/langarus/blog_with_rails)
 * [Mark's Solution](https://github.com/MarkKourie/blogger_tutorial)
 * [Armo's Solution](https://github.com/Armoilane/blogger)
