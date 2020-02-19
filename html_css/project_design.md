@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Igorashs's Solution](https://github.com/igorashs/design-teardown) - [View in Browser](https://igorashs.github.io/design-teardown/)
 * [Zuzanna's Solution](https://marcheweczka007.github.io/smashing-magazine-/) - [View in Browser](https://marcheweczka007.github.io/smashing-magazine-/)
 * [Odysseusss's Solution](https://odysseusss.github.io/google-homepage/)
 * [Ivancito and Rodrige's Solution](https://github.com/Trodrige/Heatmap-of-smashing-magazine) - [View in Browser](https://trodrige.github.io/Heatmap-of-smashing-magazine/)

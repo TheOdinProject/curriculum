@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [benjorama's Solution](https://github.com/benjorama/calculator) - [View in Browser](https://benjorama.github.io/calculator/)
+- [Ichenn's Solution](https://github.com/Ichenn92/calculator) - [View in Browser](https://ichenn92.github.io/calculator/)
+- [Lucio's Solution](https://github.com/JCarlosLucio/calculator) - [View in Browser](https://jcarloslucio.github.io/calculator/)
+- [Lenny's Solution](https://github.com/Lenn-e/calculator) - [View in Browser](https://lenn-e.github.io/calculator/)
 - [Nasius's Solution](https://github.com/Nasius/calculator-project) - [View in Browser](https://nasius.github.io/calculator-project/)
 - [Erixun's Solution](https://github.com/Erixun/calculator) - [View in Browser](https://erixun.github.io/calculator/calc-alt/calculator%20copy.html)
 - [kboy77's Solution](https://github.com/kboy77/calcuator) - [View in Browser](https://kboy.77.github.io/calcuator)
@@ -516,4 +520,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [pudu87's Solution](https://github.com/pudu87/calculator) - [View in Browser](https://pudu87.github.io/calculator/)
 - [feseka61's Solution](https://github.com/feseka61/calculator) - [View in Browser](https://feseka61.github.io/calculator/)
 - [mre91's Solution](https://github.com/mre91/calculator) - [View in Browser](https://mre91.github.io/calculator/)
+- [Kielx's Solution](https://github.com/Kielx/Calculator) - [View in Browser](https://kielx.github.io/Calculator/)
+- [Daniel's Solution](https://github.com/amigoinsano/odinProject-calculator) - [View in Browser](https://amigoinsano.github.io/odinProject-calculator/)
+- [jamesredux's Solution](https://github.com/Jamesredux/jscalculator) - [View in Browser](https://jamesredux.github.io/jscalculator/)
+- [Sonya's Solution](https://github.com/murdens/calculator) - [View in Browser](https://murdens.github.io/calculator/)
 </details>
