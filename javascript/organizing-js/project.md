@@ -3,7 +3,7 @@ At this point you've already had a fair amount of practice using the various tec
 
 # The Todo List
 
-Todo lists are a staple in beginning webdev tutorials because they can be very simple.  There is, however, a lot of room for improvement and many features that can be added.  
+Todo lists are a staple in beginning webdev tutorials because they can be very simple.  There is, however, a lot of room for improvement and many features that can be added.
 
 Before diving into the code, take a minute to think about how you are going to want to organize your project
 
@@ -35,6 +35,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Simon's Solution](https://github.com/Sim-frpt/todo-list) - [View in Browser](https://sim-frpt.github.io/todo-list/)
+* [yldrmali's Solution](https://github.com/yldrmali/todo_list/tree/master) - [View in Browser](https://yldrmali.github.io/todo_list/)
 * [Jonathan's Solution](https://github.com/jonfranche/todo-list) - [View in Browser](https://jonfranche.github.io/todo-list/dist/index.html)
 * [Luky's solution](https://github.com/lcyne/todo-list/) - [View in Browser](https://lcyne.github.io/todo-list/)
 * [Kevin Vuong's Solution](https://github.com/fffear/js-to-do-list) - [View in Browser](https://fffear.github.io/js-to-do-list/)
