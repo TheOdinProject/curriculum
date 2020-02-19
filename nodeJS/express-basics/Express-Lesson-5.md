@@ -31,6 +31,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/express-locallibrary-tutorial) - [View in browser](https://henriquesousa-locallibrary.herokuapp.com/)
+- [tracy2811's Solution](https://github.com/tracy2811/express-locallibrary-tutorial)
+- [Vollantre's Solution](https://github.com/vollantre/express-locallibrary-tutorial) - [View in browser](https://afternoon-reaches-87917.herokuapp.com/)
 - [Alain Suarez's Solution](https://gitlab.com/asuar/express-local-library) - [View in browser](https://nameless-ocean-77993.herokuapp.com/)
 - [Eljoey's Solution](https://github.com/eljoey/mdn_express_tut2) - [View in browser](https://fierce-ocean-59692.herokuapp.com/)
 - [Vedat's Solution](https://github.com/mvedataydin/express-local-library) - [View in browser](https://hidden-citadel-76837.herokuapp.com)

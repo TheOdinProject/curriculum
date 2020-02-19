@@ -19,6 +19,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/project_opp/tree/master/tic_tac_toe)
+* [Armo's Solution](https://github.com/Armoilane/ruby_excercises/tictactoe/)
+* [Johongirr's Solution](https://github.com/Johongirr/tic-tac-toe_ruby) - [View in repl.it](https://repl.it/@Johongirr/TestyStylishApplicationprogram)
+* [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/tic_tac_toe.rb)
+* [David Auza's and Falguni Islam's Solution](https://github.com/eng-monika/Ruby-Programming-PROJECT-OOP) - [View Demo](https://repl.it/@islamfalguni/tic-tac-toe)
+* [robo-monk's Solution](https://github.com/robo-monk/tic)
+* [Infectos's Solution](https://github.com/infectos/TicTacToe_Ruby) - [View in repl.it](https://repl.it/@infectos/TicTacToe)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_tictactoe)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/tic_tac_toe)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/tic-tac-toe)
@@ -34,7 +41,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ian's Solution](https://github.com/IanMKesler/Tic-Tac-Toe)
 * [proto-dylan's Solution](https://github.com/proto-dylan/Tic-Tac-Toe)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/tic-tac-toe)
-* [Uzay-G's solution](https://github.com/Uzay-G/command_line_games) - [Live repl](https://repl.it/@UzayGirit/commandlinegames)
+* [Uzay-G's solution](https://github.com/Uzay-G/command_line_games) - [View in repl.it](https://repl.it/@UzayGirit/commandlinegames)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-tic-tac-toe)
 * [Sherman's Solution](https://github.com/shermansjliu/tic-tac-toe/blob/master/main.rb)
@@ -315,6 +322,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [DalandanJuice's solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/tic-tac-toe.rb)
 * [Busy Bee's Solution](https://github.com/swissbusybee/Tic_Tac_Toe_Project)
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/tic-tac-toe)
+* [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Tic_Tac_Toe/tic_tac_toe.rb)
 </details>
 
 ### Project 2: Mastermind
@@ -341,6 +349,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/project_opp/tree/master/mastermind)
+* [Johongirr's Solution](https://github.com/Johongirr/mastermind_ruby/tree/masterd) - [Live repl.it Version](https://repl.it/@Johongirr/DapperGoodState)
+* [Infectos's Solution (with AI)](https://github.com/infectos/Mastermind) - [Live repl.it Version](https://repl.it/@infectos/Mastermind)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_mastermind)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/mastermind)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/mastermind)
@@ -577,6 +588,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/mastermind/)
 * [hyperturing's Solution (with 6-move AI)](https://github.com/hyperturing/mastermind)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/mastermind.rb)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/Mastermind)
+* [olsi2984's Solution](https://github.com/olsi2984/Ruby_projects/blob/master/Mastermind/mastermind.rb)
 </details>
 
 ### Additional Resources

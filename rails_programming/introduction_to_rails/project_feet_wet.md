@@ -22,7 +22,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/introduction_to_rails/project_feet_wet.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
 If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)
 
@@ -30,6 +30,8 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Auza's and Luis Novoa's Solution](https://github.com/luis-novoa/rails_toy_app) - [Live](https://shrouded-island-61851.herokuapp.com/)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/toy_app) - [Live](https://toy-app-54058.herokuapp.com/)
 * [Nasser Abachi's Solution](https://github.com/abachi/toy-app) - [Live](https://abachidev-toy-app.herokuapp.com/)
 * [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/toy-app)
 * [BShowen's Solution](https://github.com/BShowen/rails_toy_app) - [Live](https://bradley-toy-app.herokuapp.com)
@@ -157,4 +159,6 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Rey's Solution](https://github.com/Rey810/Toy-App) - [Heroku](https://whispering-mountain-63621.herokuapp.com)
 * [Miguel's Solution](https://github.com/mapra99/toyApp)
 * [Hunter Marshall's Solution](https://github.com/Beidah/rails-toy-app)
+* [Nick Sokolov's Solution](https://github.com/Nickollay/Odin_Hurtl_a_toy_app) - [Live](https://nkyejuov.herokuapp.com/)
+* [guacamobley's Solution](https://github.com/guacamobley/toy_app) - [Heroku](https://damp-stream-31259.herokuapp.com/)
 </details>
