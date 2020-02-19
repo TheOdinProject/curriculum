@@ -36,6 +36,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 * Add your solution below this line!
 * [Simon's Solution](https://github.com/Sim-frpt/todo-list) - [View in Browser](https://sim-frpt.github.io/todo-list/)
+* [yldrmali's Solution](https://github.com/yldrmali/todo_list/tree/master) - [View in Browser](https://yldrmali.github.io/todo_list/)
 * [Jonathan's Solution](https://github.com/jonfranche/todo-list) - [View in Browser](https://jonfranche.github.io/todo-list/dist/index.html)
 * [Luky's solution](https://github.com/lcyne/todo-list/) - [View in Browser](https://lcyne.github.io/todo-list/)
 * [Kevin Vuong's Solution](https://github.com/fffear/js-to-do-list) - [View in Browser](https://fffear.github.io/js-to-do-list/)
