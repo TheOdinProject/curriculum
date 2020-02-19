@@ -2989,6 +2989,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Peperonidas's Solution (Easy)](https://github.com/odiseon/google-homepage) - [View in Browser](https://github.com/odiseon/google-homepage)
 * [LevOli46's Solution (Easy)](https://github.com/LevOli46/google-homepage) - [View in Browser](https://levoli46.github.io/google-homepage)
 * [Akashdeep Ghosh's solution (Easy)](https://github.com/akashdeepghosh/google-homepage) - [View in Browser](https://akashdeepghosh.github.io/google-homepage)
+* [Pmargetis Solution (Easy)](https://github.com/Pmargetis/Google_homepage) - [View in Browser](https://pmargetis.github.io/Google_homepage/)
+* [Pikkuruusu's Solution (Easy)](https://github.com/pikkuruusu/google-homepage) – [View in Browser](https://pikkuruusu.github.io/google-homepage/)
+* [MartinSugasti's Solution (Easy)](https://github.com/martinsugasti/google-homepage) - [View in Browser](https://github.com/pikkuruusu/google-homepage)
 </details>
 
 ### Additional Resources

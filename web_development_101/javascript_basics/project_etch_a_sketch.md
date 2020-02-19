@@ -44,6 +44,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [checkmate360's Solution](https://github.com/checkmate360/sketch-pad) - [View in Browser](https://checkmate360.github.io/sketch-pad/)
+* [kimvitug05's Solution](https://github.com/kimvitug05/etch-a-sketch) - [View in Browser](https://kimvitug05.github.io/etch-a-sketch/)
+* [Austin's Solution](https://github.com/cudworth/etch-a-sketch) - [View in Browser](https://cudworth.github.io/etch-a-sketch/)
+* [Ichenn's Solution](https://github.com/ichenn92/Etch-a-Sketch) - [View in Browser](https://ichenn92.github.io/Etch-a-Sketch/)
+* [AlexBoonDev's Solution](https://github.com/AlexBoonDev/Etch-A-Sketch) - [View in Browser](https://alexboondev.github.io/Etch-A-Sketch/)
+* [jwern's Solution](https://github.com/jwern/etch-a-sketch) - [View in Browser](https://jwern.github.io/etch-a-sketch/)
 * [clavierbulb-green's Solution](https://github.com/clavierbulb-green/JS-Etch-a-Sketch) - [View in Browser](https://clavierbulb-green.github.io/JS-Etch-a-Sketch/)
 * [tofritz's Solution](https://github.com/tofritz/etch-a-sketch) - [View in Browser](https://tofritz.com/etch-a-sketch)
 * [Mr. Lupine's Solution](https://github.com/MrLupine/etch-a-sketch) - [View in Browser](https://MrLupine.github.io/etch-a-sketch/)
