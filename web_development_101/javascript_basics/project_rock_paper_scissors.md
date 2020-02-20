@@ -1282,4 +1282,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tim Kelly's Solution](https://github.com/TimKellyTK/project-rock-paper-scissors) - [View in Browser](https://timkellytk.github.io/project-rock-paper-scissors/)
 - [headgaar's Solution](https://github.com/headgaar/rock_paper_scissors)
 - [Ecclesiology's Solution](https://github.com/Ecclesiology/rock-paper-scissors)
+- [Safa ERDEN's Solution](https://github.com/SafaErden/rock-paper-scissors) - [View in Browser](https://safaerden.github.io/rock-paper-scissors/)
 </details>
