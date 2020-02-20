@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 
 - Add your solution below this line!
 - [Vanessacor's Solution](https://github.com/vanessacor/site/tree/master/experiments/library) - [View in Browser](https://vanessacor.github.io/site/experiments/library/)
+- [Edd Sansome's Solution](https://github.com/casualc0der/libraryBooks) - [View in Browser](https://casualc0der.github.io/libraryBooks/)
 - [Septiana's Solution](https://github.com/yoga1234/js-book-library) - [View in Browser](https://yoga1234.github.io/js-book-library/)
 - [Lenny's Solution](https://github.com/Lenn-e/the-reading-nook) - [View in Browser](https://lenn-e.github.io/the-reading-nook/)
 - [Langarus' Solution](https://github.com/langarus/library_of_books) - [View in Browser](https://langarus.github.io/library_of_books/)
