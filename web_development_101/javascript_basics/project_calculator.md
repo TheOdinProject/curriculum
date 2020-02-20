@@ -528,4 +528,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sonya's Solution](https://github.com/murdens/calculator) - [View in Browser](https://murdens.github.io/calculator/)
 - [Ricardo Gonzalez Villegas' Solution](https://ricardo-gonzalez-villegas.github.io/calculator/)
 - [Safa Erden's Solution](https://github.com/SafaErden/Calculator) - [View in Browser](https://safaerden.github.io/Calculator/)
+- [André Rodrigues's Solution](https://github.com/ARodrigues92/odin-calculator) - [View in Browser](https://arodrigues92.github.io/odin-calculator/)
 </details>
