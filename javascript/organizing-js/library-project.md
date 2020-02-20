@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Edd Sansome's Solution](https://github.com/casualc0der/libraryBooks) - [View in Browser](https://casualc0der.github.io/libraryBooks/
 - [Lenny's Solution](https://github.com/Lenn-e/the-reading-nook) - [View in Browser](https://lenn-e.github.io/the-reading-nook/)
 - [Langarus' Solution](https://github.com/langarus/library_of_books) - [View in Browser](https://langarus.github.io/library_of_books/)
 - [mattjaylee's Solution](https://github.com/mattjaylee/library)
