@@ -72,6 +72,17 @@ Hopefully this has been a useful adventure into the request cycle of a Rails app
 
 </div>
 
+### Student Solutions
+
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/routes_views_controllers_assets/project_basic_rvc.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+   
+   * Add your solution below this line!
+   
+</details>
+
 ### Project: Ruby on Rails Tutorial
 
 In this chapter of the tutorial you will build out the look and feel of the application using Twitter's Bootstrap CSS framework.  If you're feeling shaky on CSS, check out the [CSS Lesson in the Web Development 101 course](/courses/web-development-101/lessons/html-and-css-basics).
