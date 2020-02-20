@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vlad's Solution](https://github.com/vladmyshchuk/ruby_on_rails_project)
 * [Andrew S's Solution](https://github.com/CGoldMonkey/rails-blogger) - [View in Browser](https://stark-inlet-82993.herokuapp.com/)
 * [Langarus' Solution](https://github.com/langarus/blog_with_rails)
 * [Mark's Solution](https://github.com/MarkKourie/blogger_tutorial)
@@ -453,6 +454,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/blogger) - [View in Browser](https://uc-blogger.herokuapp.com/)
 * [Sahmie's Solution](https://intense-ravine-97351.herokuapp.com)
 * [Fabian Yate's Solution](https://github.com/fabianyater/Blog-on-Rails) - [View in Browser](https://powerful-sea-44102.herokuapp.com/)
+* [Cbo-11's solution](https://github.com/Cbo-11/OdinBlogger) - [View in Browser](https://dry-ridge-18075.herokuapp.com/)
 
 </details>
 

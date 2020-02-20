@@ -40,7 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Edd Sansome's Solution](https://github.com/casualc0der/libraryBooks) - [View in Browser](https://casualc0der.github.io/libraryBooks/
+- [Edd Sansome's Solution](https://github.com/casualc0der/libraryBooks) - [View in Browser](https://casualc0der.github.io/libraryBooks/)
+- [Septiana's Solution](https://github.com/yoga1234/js-book-library) - [View in Browser](https://yoga1234.github.io/js-book-library/)
 - [Lenny's Solution](https://github.com/Lenn-e/the-reading-nook) - [View in Browser](https://lenn-e.github.io/the-reading-nook/)
 - [Langarus' Solution](https://github.com/langarus/library_of_books) - [View in Browser](https://langarus.github.io/library_of_books/)
 - [mattjaylee's Solution](https://github.com/mattjaylee/library)
@@ -197,5 +198,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [0xtaf's Solution](https://github.com/0xtaf/library) - [View in Browser](https://0xtaf.github.io/library/)
 - [Tori's Solution](https://github.com/ToriPotts/libraryPractice) - [View in Browser](https://toripotts.github.io/libraryPractice/)
 - [Fred's Solution](https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode) - [View in Browser](https://fredchasin.github.io/https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode)
-- [rhath32's Solution](https://github.com/rhath32/library) Please add my solution
+- [rhath32's Solution](https://github.com/rhath32/library)
+- [Ricardo Gonzalez Villegas' Solution](https://github.com/ricardo-gonzalez-villegas/library) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library/index.html)
 </details>
