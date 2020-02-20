@@ -90,6 +90,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Marcelo Rios's Solution (Both)](https://github.com/mricab/google-top-project) - [View in Browser](https://mricab.github.io/google-top-project/)
+* [jessc003's Solution (Easy)](https://github.com/jessc003/google-homepage) - [View in Browser](https://jessc003.github.io/google-homepage/)
+* [jessc003's Solution (Difficult)](https://github.com/jessc003/google-search-page) - [View in Browser](https://jessc003.github.io/google-search-page/)
 * [obylisk's Solution (Easy)](https://github.com/obylisk/google-homepage) - [View in Browser](https://obylisk.github.io/google-homepage/)
 * [kfollen93's Solution (Easy)](https://github.com/Kfollen93/google-homepage) - [View in Browser](https://kfollen93.github.io/google-homepage/)
 * [Ash Eileen's Solution (Easy)](https://github.com/Ash-Eileen/google-homepage) - [View in Browser](https://ash-eileen.github.io/google-homepage/)
@@ -2993,6 +2996,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Pikkuruusu's Solution (Easy)](https://github.com/pikkuruusu/google-homepage) – [View in Browser](https://pikkuruusu.github.io/google-homepage/)
 * [MartinSugasti's Solution (Easy)](https://github.com/martinsugasti/google-homepage) - [View in Browser](https://martinsugasti.github.io/google-homepage/)
 * [Calvin's Solution (Easy)](https://github.com/two-claps/google-homepage) - [View in Browser](https://two-claps.github.io/google-homepage/)
+* [DcRonan's Solution (Easy)](https://github.com/dcronan/google-homepage) - [View in Browser](https://dcronan.github.io/google-homepage/)
+* [clarkey28's Solution (Easy)](https://github.com/Clarkey28/google-homepage) - [View in Browser](https://clarkey28.github.io/google-homepage/) 
+* [Ecclesiology's Solution (Easy)](https://github.com/Ecclesiology/google-homepage)
 </details>
 
 ### Additional Resources

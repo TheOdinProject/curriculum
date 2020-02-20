@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kfollen93's Soultion](https://github.com/Kfollen93/RockPaperScissors)
 - [Ichenn's Solution](https://github.com/ichenn92/rock-paper-scissors) - [View in Browser](https://ichenn92.github.io/rock-paper-scissors/)
 - [Felipe Silveira's Solution](https://github.com/Silve1ra/rock-paper-scissors) 
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/rock-paper-scissors.git)
@@ -1279,4 +1280,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [xOC97's Solution](https://github.com/xOC97/rock-paper-scissors) - [View in Browser](https://xoc97.github.io/rock-paper-scissors/)
 - [padraigoneill's Solution](https://github.com/padraigoneill1/rock-paper-scissors) - [View in Browser](https://padraigoneill1.github.io/rock-paper-scissors/)
 - [Tim Kelly's Solution](https://github.com/TimKellyTK/project-rock-paper-scissors) - [View in Browser](https://timkellytk.github.io/project-rock-paper-scissors/)
+- [headgaar's Solution](https://github.com/headgaar/rock_paper_scissors)
+- [Ecclesiology's Solution](https://github.com/Ecclesiology/rock-paper-scissors)
 </details>
