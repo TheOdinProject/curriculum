@@ -777,7 +777,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jeffrey's's Solution](https://github.com/Jding9/Etch-a-Sketch) - [View in Browser](https://github.com/Jding9/Etch-a-Sketch)
 * [Alex Burman's Solution](https://github.com/alex-burman/etch-a-sketch)
 * [akoenig1's Solution](https://github.com/akoenig1/etchasketch) - [View in Browser](https://akoenig1.github.io/etchasketch/)
-* [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/Etch-a-Sketch)
+* [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/Etch-a-Sketch) - [View in Browser](https://bunnythelifeguard.github.io/Etch-a-Sketch/)
 * [M_June's Solution](https://github.com/MrkH615/Etch-a-Sketch) - [View in Browser](https://mrkh615.github.io/Etch-a-Sketch/)
 * [Arf65's Solution](https://github.com/arf65/etch-a-sketch) - [View in Browser](https://arf65.github.io/etch-a-sketch/)
 * [RiceFree's Solution](https://github.com/RiceFree/etch-a-sketch) - [View in Browser](https://ricefree.github.io/etch-a-sketch/)
