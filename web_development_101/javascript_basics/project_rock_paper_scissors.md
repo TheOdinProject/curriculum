@@ -1285,6 +1285,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ecclesiology's Solution](https://github.com/Ecclesiology/rock-paper-scissors)
 - [Jahtzee's Solution](https://github.com/jahtzee/TOP-rock-paper-scissors) - [View in Browser](https://jahtzee.github.io/TOP-rock-paper-scissors/)
 - [Safa ERDEN's Solution](https://github.com/SafaErden/rock-paper-scissors) - [View in Browser](https://safaerden.github.io/rock-paper-scissors/)
-- [Christian's Solution](https://github.com/rueeazy/rock-paper-scissors) 
+- [Christian's Solution](https://github.com/rueeazy/rock-paper-scissors)
+- [Joe Thompson's Solution](https://github.com/jlthompso/rock_paper_scissors) - [View in Browser](https://jlthompso.github.io/rock_paper_scissors/) 
 - [emilmerle's Solution](https://github.com/emilmerle/RockPaperScissors) - [View in Browser](https://emilmerle.github.io/RockPaperScissors/)
 </details>
