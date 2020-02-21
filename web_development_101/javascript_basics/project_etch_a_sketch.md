@@ -784,4 +784,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [agarcia035's Solution](https://github.com/agarcia035/etch-a-sketch)
 * [Safa Erden' Solution](https://github.com/SafaErden/Etch-a-sketch) - [View in Browser](https://safaerden.github.io/Etch-a-sketch/)
 * [Jahtzee's Solution](https://github.com/jahtzee/top-etch-a-sketch) - [View in Browser](https://jahtzee.github.io/top-etch-a-sketch/)
+* [xOC97's Solution](https://github.com/xOC97/etch-a-sketch) - [View in Browser](https://xoc97.github.io/etch-a-sketch/)
 </details>
