@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/fibonacci_series)
 * [Nix-star's Solution](https://github.com/nix-star/repo/blob/master/recursion.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/fibonacci)
 * [niconisoria's Solution](https://github.com/niconisoria/recursion/blob/master/fibonacci.rb)
