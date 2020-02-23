@@ -3001,6 +3001,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ecclesiology's Solution (Easy)](https://github.com/Ecclesiology/google-homepage)
 * [missikk2's Solution (Easy)](https://github.com/missikk2/google-homepage) - [View in Browser](https://missikk2.github.io/google-homepage/)
 * [Lorenzo's Solution (Easy)](https://github.com/ldbert/google-homepage) - [View in Browser](https://ldbert.github.io/google-homepage/)
+* [MaibHassin's Solution (Both)](https://github.com/MaibHassin/google-homepage) - [View in Browser](https://maibhassin.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
