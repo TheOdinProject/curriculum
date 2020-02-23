@@ -162,6 +162,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Ludivine Poussier's solution](https://github.com/ludivinepoussier/embedded-video) - [View in browser](https://ludivinepoussier.github.io/embedded-video/)
 * [Selene and Ruben solution](https://github.com/rubenpazch/YoutubeVideo) - [View in browser](https://github.com/rubenpazch/YoutubeVideo)
 * [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP---Youtube-Clone) - [View in browser](https://adrieltrigger.github.io/TOP---Youtube-Clone/)
+* [Jamesredux's solution](https://github.com/Jamesredux/youtube-clone) - [View in browser](https://jamesredux.github.io/youtube-clone/)
 </details>
 
 ### Additional Resources
