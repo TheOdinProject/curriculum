@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Odunsi Joseph's Solution](https://github.com/dhatguy/blogger) - [View in Browser](https://lit-dawn-86296.herokuapp.com)
 * [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/blogger) - [View in Browser](http://agile-tor-69778.herokuapp.com//)
 * [Vlad's Solution](https://github.com/vladmyshchuk/ruby_on_rails_project)
 * [Andrew S's Solution](https://github.com/CGoldMonkey/rails-blogger) - [View in Browser](https://stark-inlet-82993.herokuapp.com/)
