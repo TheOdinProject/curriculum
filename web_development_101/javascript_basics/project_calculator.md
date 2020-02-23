@@ -45,6 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ikraamg's Solution](https://github.com/ikraamg/Calculator) - [View in Browser](https://ikraamg.github.io/Calculator/)
+- [Edd Sansome's Solution](https://github.com/casualc0der/calculator) - [View in Browser](https://casualc0der.github.io/calculator/)
+- [benjorama's Solution](https://github.com/benjorama/calculator) - [View in Browser](https://benjorama.github.io/calculator/)
+- [Ichenn's Solution](https://github.com/Ichenn92/calculator) - [View in Browser](https://ichenn92.github.io/calculator/)
+- [Lucio's Solution](https://github.com/JCarlosLucio/calculator) - [View in Browser](https://jcarloslucio.github.io/calculator/)
 - [Lenny's Solution](https://github.com/Lenn-e/calculator) - [View in Browser](https://lenn-e.github.io/calculator/)
 - [Nasius's Solution](https://github.com/Nasius/calculator-project) - [View in Browser](https://nasius.github.io/calculator-project/)
 - [Erixun's Solution](https://github.com/Erixun/calculator) - [View in Browser](https://erixun.github.io/calculator/calc-alt/calculator%20copy.html)
@@ -517,4 +522,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [pudu87's Solution](https://github.com/pudu87/calculator) - [View in Browser](https://pudu87.github.io/calculator/)
 - [feseka61's Solution](https://github.com/feseka61/calculator) - [View in Browser](https://feseka61.github.io/calculator/)
 - [mre91's Solution](https://github.com/mre91/calculator) - [View in Browser](https://mre91.github.io/calculator/)
+- [Kielx's Solution](https://github.com/Kielx/Calculator) - [View in Browser](https://kielx.github.io/Calculator/)
+- [Daniel's Solution](https://github.com/amigoinsano/odinProject-calculator) - [View in Browser](https://amigoinsano.github.io/odinProject-calculator/)
+- [jamesredux's Solution](https://github.com/Jamesredux/jscalculator) - [View in Browser](https://jamesredux.github.io/jscalculator/)
+- [MiDDiz's Solution](https://github.com/MiDDiz/OdinCalculator) - [View in Browser](https://middiz.github.io/OdinCalculator/)
+- [Sonya's Solution](https://github.com/murdens/calculator) - [View in Browser](https://murdens.github.io/calculator/)
+- [Ricardo Gonzalez Villegas' Solution](https://ricardo-gonzalez-villegas.github.io/calculator/)
+- [Safa Erden's Solution](https://github.com/SafaErden/Calculator) - [View in Browser](https://safaerden.github.io/Calculator/)
+- [André Rodrigues's Solution](https://github.com/ARodrigues92/odin-calculator) - [View in Browser](https://arodrigues92.github.io/odin-calculator/)
+- [Courgette's Solution](https://github.com/bing0i/calculator) - [View in Browser](https://bing0i.github.io/calculator/)
+- [alicee88's Solution](https://github.com/alicee88/calculator) - [View in Browser](https://alicee88.github.io/calculator/)
 </details>
