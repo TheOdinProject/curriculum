@@ -3000,7 +3000,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [clarkey28's Solution (Easy)](https://github.com/Clarkey28/google-homepage) - [View in Browser](https://clarkey28.github.io/google-homepage/) 
 * [Ecclesiology's Solution (Easy)](https://github.com/Ecclesiology/google-homepage)
 * [missikk2's Solution (Easy)](https://github.com/missikk2/google-homepage) - [View in Browser](https://missikk2.github.io/google-homepage/)
-* [claymw1292's Solution (Easy)] (git@github.com:claymw1292/google-homepage.git) - [View in Browser] (https://github.com/claymw1292/google-homepage.git)
+* [claymw1292's Solution (Easy)](https://github.comclaymw1292/google-homepage)
+* [Lorenzo's Solution (Easy)](https://github.com/ldbert/google-homepage) - [View in Browser](https://ldbert.github.io/google-homepage/)
+* [MaibHassin's Solution (Both)](https://github.com/MaibHassin/google-homepage) - [View in Browser](https://maibhassin.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
