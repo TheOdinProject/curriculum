@@ -64,10 +64,9 @@ The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put 
 
 <div class="lesson-content__panel" markdown="1">
   1. Read sections 1 and 2 of the [Rails Guide on ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html).  
-  2. Skim the brief [section 3 on receiving emails](https://guides.rubyonrails.org/action_mailer_basics.html#receiving-emails). You'll be able to refer back to it if you need to.
-  3. Read [sections 4 and 5](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks) to learn about callbacks and helpers.
-  4. Read [section 6](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration), which covers sending mail with your Gmail.  
-  5. Skim [sections 7 and 8](https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing) on testing and intercepting emails.
+  2. Read [sections 3 and 4](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks) to learn about callbacks and helpers.
+  3. Read [section 5.2](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration-for-gmail), which covers sending mail with your Gmail.  
+  4. Skim [sections 6 and 7](https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing) on testing and intercepting emails.
 </div>
 
 ### Conclusion

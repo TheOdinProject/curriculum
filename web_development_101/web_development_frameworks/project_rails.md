@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Mark's Solution](https://github.com/MarkKourie/blogger_tutorial)
 * [Armo's Solution](https://github.com/Armoilane/blogger)
 * [Nasser Abachi's Solution](https://github.com/abachi/rails-blogger) - [View in Browser](https://abachidev-rails-blogger.herokuapp.com/)
 * [Dsokzorak's Solution](https://www.github.com/doskzorak/rails_app_1)
@@ -449,6 +450,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [DamnedLag's Solution](https://github.com/Damnedlag/blog-on-rails)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/blogger) - [View in Browser](https://uc-blogger.herokuapp.com/)
 * [Sahmie's Solution](https://intense-ravine-97351.herokuapp.com)
+* [Fabian Yate's Solution](https://github.com/fabianyater/Blog-on-Rails) - [View in Browser](https://powerful-sea-44102.herokuapp.com/)
+
 </details>
 
 ### Additional Resources

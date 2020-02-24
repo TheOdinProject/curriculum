@@ -68,6 +68,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Henrique Sousa's solution](https://github.com/Henrique-Sousa/mini-message-board) - [View in Browser](https://desolate-sea-58239.herokuapp.com/)
+- [tracy2811's Solution](https://github.com/tracy2811/mini-message-board) - [View in Browser](https://mysterious-ravine-54562.herokuapp.com/)
 - [Alain Suarez's Solution](https://gitlab.com/asuar/node-message-board) - [View in Browser](https://calm-peak-40614.herokuapp.com/)
 - [Slashflex's Solution](https://github.com/Slashflex/Basic-node-setup) - [View in Browser](https://basic-node-setup.herokuapp.com/)
 - [Vollantre's Solution](https://github.com/vollantre/mini_message_board) - [View in Browser](https://minimessageboard.herokuapp.com/)
@@ -87,4 +89,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ifeanyichukwu's Solution](https://github.com/Anyitechs/Message_boardApp) - [View in Browser](https://boiling-temple-35917.herokuapp.com/)
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/mini-message-board) - [View in Browser](https://odin-mini-message-board.herokuapp.com/)
 - [Aron's Solution](https://github.com/aronfischer/mern_message_board) - [View in Browser](https://aronfischer.github.io/mern_message_board/)
+- [Siegmeister's Solution](https://github.com/the-siegmeister/mini-message-board) - [View in Browser](https://salty-ridge-30513.herokuapp.com/)
 </details>
