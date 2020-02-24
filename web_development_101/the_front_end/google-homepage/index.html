@@ -1,0 +1,168 @@
+<style>
+    #container{
+        font-family:arial;
+    }
+    #navcontainer{
+    }
+    
+    #img-container{
+        padding-top: 109;
+    }
+    
+    #search-container{
+        padding-top: 10px;
+    }
+    
+    .center{
+        text-align:center;
+    }
+    .right{
+        text-align:right;
+    }
+    
+    .navcontainer{
+        display:flex;
+    }
+    
+    .navleft{
+        width:50%;
+
+    }
+    .navright{
+        width:50%;
+        margin-left: auto;
+    }
+    .footerleft{
+        width:50%;
+
+    }
+    .footerright{
+        width:50%;
+        margin-left: auto;
+    }
+
+    .smallertext{
+        font-size: 0.85em;
+    }
+
+    ul{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        overflow: hidden;
+    }
+    li{
+        display:inline;
+    }
+    
+    li a{
+        text-align:right;
+        padding:14px 16px;
+        text-decoration:none;
+        color: #111;   
+    }
+    li:hover{
+        text-decoration:underline;
+    }
+    footer{
+        position:fixed;
+        bottom:0;
+        left: 0;
+        right: 0;
+        height:35px;
+        background: #eee;
+
+        display:flex;
+        align-items: center;
+    }
+    input{
+        background-attachment: scroll;
+        background-clip:border-box;
+        background-color:rgb(255, 255, 255);
+        background-image:none;
+        background-origin:padding-box;
+        background-position-x:0%;
+        background-position-y:0%;
+        background-size:auto;
+        border-bottom-color:rgb(223, 225, 229);
+        border-bottom-left-radius:24px;
+        border-bottom-right-radius:24px;
+        border-bottom-style:solid;
+        border-bottom-width:1px;
+        border-image-outset:0px;
+        border-image-repeat:stretch;
+        border-image-slice:100%;
+        border-image-source:none;
+        border-image-width:1;
+        border-left-color:rgb(223, 225, 229);
+        border-left-style:solid;
+        border-left-width:1px;
+        border-right-color:rgb(223, 225, 229);
+        border-right-style:solid;
+        border-right-width:1px;
+        border-top-color:rgb(223, 225, 229);
+        border-top-left-radius:24px;
+        border-top-right-radius:24px;
+        border-top-style:solid;
+        border-top-width:1px;
+        box-shadow:none;
+        color:rgb(34, 34, 34);
+        font-family:arial, sans-serif;
+        font-size:13px;height:44px;
+        margin-bottom:0px;
+        margin-left:0px; 
+        margin-right:0px; 
+        margin-top:0px; 
+        width:582px; 
+        z-index:auto;
+        text-indent: 15px;
+    }
+    
+</style>
+<body>
+    <div id="container">
+        <div class="navcontainer">
+            <div class="navleft smallertext">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </div>
+            <div class="navright smallertext"> 
+                <ul class="right">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="center" id="img-container">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+        </div>
+        <div class="center" id=search-container>
+            <form action="/search" class="center">
+                <input type=text placeholder="Search" size="40"></input>
+                <p></p>
+                <button type=submit>Search</button>
+                <button type=submit>I feel lucky</button>
+            </form>
+        </div>
+        <footer>
+            <div class="footerleft">    
+                <ul>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How search works</a></li>
+                </ul>
+            </div>
+            <div class="footerright">
+                <ul class="right">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
