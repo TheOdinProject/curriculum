@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian Bonilla's Solution](https://github.com/Cabonilla/bubble_sort_odin_ruby/)
 * [Armo's Solution](https://github.com/Armoilane/ruby-exercises/)
 * [Nix-star's Solution](https://github.com/nix-star/abblock)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/bubble_sort.rb)
@@ -406,6 +407,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/bubble_sort.rb)
 * [Busy Bee's Solution](https://github.com/swissbusybee/Advanced_ruby_building_blocks_Projects)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ruby-advanced-building-blocks/blob/master/bubble_sort.rb)
+* [Eduardo06sp's Solution](https://github.com/Eduardo06sp/bubble-sort/blob/master/sort.rb)
+* [Nathan Choi's Solution](https://github.com/sihoonathan/bubble_sort/blob/master/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
