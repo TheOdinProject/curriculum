@@ -1288,4 +1288,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Christian's Solution](https://github.com/rueeazy/rock-paper-scissors)
 - [Joe Thompson's Solution](https://github.com/jlthompso/rock_paper_scissors) - [View in Browser](https://jlthompso.github.io/rock_paper_scissors/) 
 - [emilmerle's Solution](https://github.com/emilmerle/RockPaperScissors) - [View in Browser](https://emilmerle.github.io/RockPaperScissors/)
+- [MaibHassin's Solution](https://github.com/MaibHassin/rock-paper-scissors) - [View in Browser](https://maibhassin.github.io/rock-paper-scissors/)
 </details>
