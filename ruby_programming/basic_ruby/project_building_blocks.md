@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Callie's Solution](https://github.com/callieglade/ruby_exercises/blob/master/caesar_cipher.rb)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/caesar_cipher.rb)
 * [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/caesar.rb)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/caeser_cypher.rb)
@@ -534,6 +535,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Callie's Solution](https://github.com/callieglade/ruby_exercises/blob/master/stock_picker.rb)
 * [Hans Oliveira's Solution](https://github.com/hansnery/stock_picker)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/stocl_picker.rb)
 * [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/stock_picker.rb)
@@ -950,15 +952,16 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/stock-picker/blob/master/stock-picker.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/building-blocks/blob/master/stock_picker.rb)
 * [Dave Guymon's Solution](https://github.com/daveguymon/the_odin_project/blob/master/ruby_programming/stock_picker.rb)
-* [guacamobley's solution](https://github.com/guacamobley/ruby-building-blocks/blob/master/stock-picker.rb)
-* [AlexGioffDev's solution](https://github.com/AlexGioffDev/ruby_stock_picker)
-* [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Stock_picker/stock_picker.rb)
-* [Ranon Martin's solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/stock_picker.rb)
-* [unheavenlycreature's solution](https://github.com/unheavenlycreature/ruby-building-blocks/stock_picker.rb)
-* [Caleb's solution](https://github.com/calebrauscher/The-Odin-Project/blob/master/Ruby/stock_picker.rb)
-* [Nathan Choi's solution](https://github.com/sihoonathan/ruby_practice/blob/master/stock_picker.rb)
-* [Eduardo06sp's solution](https://github.com/Eduardo06sp/stock-picker/blob/master/stock-picker.rb)
-* [Sanyogita's solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/StockPicker.rb)
+* [guacamobley's Solution](https://github.com/guacamobley/ruby-building-blocks/blob/master/stock-picker.rb)
+* [AlexGioffDev's Solution](https://github.com/AlexGioffDev/ruby_stock_picker)
+* [olsi2984's Solution](https://github.com/olsi2984/Ruby_projects/blob/master/Stock_picker/stock_picker.rb)
+* [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/stock_picker.rb)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ruby-building-blocks/stock_picker.rb)
+* [Caleb's Solution](https://github.com/calebrauscher/The-Odin-Project/blob/master/Ruby/stock_picker.rb)
+* [Nathan Choi's Solution](https://github.com/sihoonathan/ruby_practice/blob/master/stock_picker.rb)
+* [Eduardo06sp's Solution](https://github.com/Eduardo06sp/stock-picker/blob/master/stock-picker.rb)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/StockPicker.rb)
+* [Wilmir's Solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/stock_picker.rb)
 </details>
 
 ### Project 3: Substrings
@@ -993,6 +996,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Callie's Solution](https://github.com/callieglade/ruby_exercises/blob/master/substrings.rb)
 * [Hans Oliveira's Solution](https://github.com/hansnery/substrings/blob/master/substrings.rb)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/substrings.rb)
 * [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/substring.rb)
@@ -1409,4 +1413,5 @@ Next, make sure your method can handle multiple words:
 * [Nathan Choi's solution](https://github.com/sihoonathan/ruby_practice/blob/master/substrings.rb)
 * [Eduardo06sp's solution](https://github.com/Eduardo06sp/substrings/blob/master/substrings.rb)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/Substrings.rb)
+* [Wilmir's solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/substrings.rb)
 </details>

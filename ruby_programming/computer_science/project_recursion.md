@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/fibonacci_series)
 * [Nix-star's Solution](https://github.com/nix-star/repo/blob/master/recursion.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/fibonacci)
 * [niconisoria's Solution](https://github.com/niconisoria/recursion/blob/master/fibonacci.rb)
@@ -249,6 +250,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/merge_sort)
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/merge_sort)
 * [niconisoria's Solution](https://github.com/niconisoria/recursion/blob/master/merge_sort.rb)
 * [fossegrim's Solution](https://github.com/olav35/recursion/blob/master/merge_sort.rb)
