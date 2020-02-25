@@ -641,6 +641,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [pudu87's Solution](https://github.com/pudu87/learn_ruby)
 * [feseka61's Solution](https://github.com/feseka61/learn_ruby)
 * [Nina's Solution](https://github.com/niin44/learn_ruby)
+* [Sonya's Solution](https://github.com/murdens/learn_ruby_sonya)
 </details>
 
 ### Additional Resources

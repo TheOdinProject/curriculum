@@ -27,6 +27,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/chess)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/ruby_chess)
 * [Ian's Solution](https://github.com/IanMKesler/chess)
 * [BShowen's Solution](https://github.com/BShowen/ruby_chess)
