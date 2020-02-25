@@ -40,6 +40,18 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Georgius's Solution](https://github.com/georgius17/library) - [View in Browser](https://georgius17.github.io/library/)
+- [hu-ng's Solution](https://github.com/hu-ng/library-app-odin) - [View in Browser](https://hu-ng.github.io/library-app-odin/#)
+- [Vanessacor's Solution](https://github.com/vanessacor/site/tree/master/experiments/library) - [View in Browser](https://vanessacor.github.io/site/experiments/library/)
+- [Edd Sansome's Solution](https://github.com/casualc0der/libraryBooks) - [View in Browser](https://casualc0der.github.io/libraryBooks/)
+- [Septiana's Solution](https://github.com/yoga1234/js-book-library) - [View in Browser](https://yoga1234.github.io/js-book-library/)
+- [Lenny's Solution](https://github.com/Lenn-e/the-reading-nook) - [View in Browser](https://lenn-e.github.io/the-reading-nook/)
+- [Langarus' Solution](https://github.com/langarus/library_of_books) - [View in Browser](https://langarus.github.io/library_of_books/)
+- [mattjaylee's Solution](https://github.com/mattjaylee/library)
+- [armagansenol's Solution](https://github.com/armagansenol/project-library) - [View in Browser](https://armagansenol.github.io/project-library/)
+- [Ashish's Solution](https://github.com/CodersGas/project-library) - [View in Browser](https://codersgas.github.io/project-library/Library.html)
+- [tracy2811's Solution](https://github.com/tracy2811/library) - [View in Browser](https://tracy2811.github.io/library/)
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/book-library) - [View in Browser](https://kikupiku.github.io/book-library/)
 - [mjwills-inf's Solution](https://github.com/mjwills-inf/library) - [View in Browser](https://mjwills-inf.github.io/library/)
 - [chickenwing123's Solution](https://github.com/chickenwings123/Library) - [View in Browser](https://chickenwings123.github.io/Library/)
 - [Doskzorak's Solution](https://github.com/doskzorak/Library_Project)
@@ -186,5 +198,9 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [mmboyce's Solution (w/localstorage)](https://github.com/mmboyce/Library) - [View in Browser](https://mmboyce.github.io/Library/)
 - [Hamohuh's Solution](https://github.com/hamohuh/library) - [View in Browser](https://hamohuh.github.io/library)
 - [DamnedLag's Solution](https://github.com/Damnedlag/project_library) - [View in Browser](https://damnedlag.github.io/project_library/)
+- [0xtaf's Solution](https://github.com/0xtaf/library) - [View in Browser](https://0xtaf.github.io/library/)
+- [Tori's Solution](https://github.com/ToriPotts/libraryPractice) - [View in Browser](https://toripotts.github.io/libraryPractice/)
+- [Fred's Solution](https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode) - [View in Browser](https://fredchasin.github.io/https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode)
+- [rhath32's Solution](https://github.com/rhath32/library)
+- [Ricardo Gonzalez Villegas' Solution](https://github.com/ricardo-gonzalez-villegas/library) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library/index.html)
 </details>
-
