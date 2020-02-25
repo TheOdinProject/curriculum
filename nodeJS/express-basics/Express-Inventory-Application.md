@@ -28,6 +28,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Zakariye's Solution](https://github.com/ZYusuf10/PhoneInventory) - [View in browser](https://limitless-escarpment-68136.herokuapp.com/catalog)
 - [tracy2811's Solution](https://github.com/tracy2811/inventory) - [View in browser](https://fathomless-taiga-39964.herokuapp.com/)
 - [Vollantre's Solution](https://github.com/vollantre/inventory_app) - [View in browser](https://secure-lowlands-33834.herokuapp.com/inventory)
 - [Eljoey's Solution](https://github.com/eljoey/Game-Inventory) - [View in browser](https://immense-spire-45668.herokuapp.com/)
