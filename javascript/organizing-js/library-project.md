@@ -203,4 +203,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Fred's Solution](https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode) - [View in Browser](https://fredchasin.github.io/https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode)
 - [rhath32's Solution](https://github.com/rhath32/library)
 - [Ricardo Gonzalez Villegas' Solution](https://github.com/ricardo-gonzalez-villegas/library) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library/index.html)
+- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/mini-library) - [View in Browser](https://bunnythelifeguard.github.io/mini-library)
 </details>
