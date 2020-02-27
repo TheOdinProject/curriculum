@@ -22,6 +22,9 @@ On Windows and Linux, you can open VSCode from the command line by typing `code`
 #### MacOS Users:
 
 MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+##### Regarding Security Warning:
+
+A message may show, warning the user that VSCode is not trusted software. This is an expected message and VSCode can indeed be trusted. It is safe to ignore this warning.
 
 #### WSL Users:
 
