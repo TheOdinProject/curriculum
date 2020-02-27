@@ -43,6 +43,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [reneweisers's Solution](https://github.com/reneweiser/etch-a-sketch) - [View in Browser](https://reneweiser.github.io/etch-a-sketch/)
+* [kdayno's Solution](https://github.com/kdayno/etch-a-sketch) - [View in Browser](https://kdayno.github.io/etch-a-sketch/)
+* [Cristian's Solution](https://github.com/montescadenas/Etch-a-Sketch) - [View in Browser](https://montescadenas.github.io/Etch-a-Sketch/)
 * [benyan's Solution](https://github.com/OnlyByDesign/top-assignments/etch-a-sketch/) - [View in Browser](https://onlybydesign.github.io/etch-a-sketch/)
 * [rryand's Solution](https://github.com/rryand/sketchmatic) - [View in Browser](https://rryand.github.io/sketchmatic/)
 * [Zayeer's Solution](https://github.com/Zayeer/Etch-a-Sketch) - [View in Browser](https://zayeer.github.io/Etch-a-Sketch/)
@@ -787,4 +790,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jahtzee's Solution](https://github.com/jahtzee/top-etch-a-sketch) - [View in Browser](https://jahtzee.github.io/top-etch-a-sketch/)
 * [xOC97's Solution](https://github.com/xOC97/etch-a-sketch) - [View in Browser](https://xoc97.github.io/etch-a-sketch/)
 * [Tim Kelly's Solution](https://github.com/TimKellyTK/project-etch-a-sketch) - [View in Browser](https://timkellytk.github.io/project-etch-a-sketch/)
+* [Ken's H Solution](https://github.com/kholston/etch-a-sketch_js) - [View in Browser](https://kholston.github.io/etch-a-sketch_js/)
 </details>
