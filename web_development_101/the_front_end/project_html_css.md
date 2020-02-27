@@ -2751,7 +2751,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dean Whittens's Solution (Easy)](https://github.com/DeanWhitten/google-homepage) - [View in Browser](https://romantic-raman-1bad0d.netlify.com/)
 * [Andrew Huntington's Solution (Easy)](https://github.com/AndrewHuntington/google-homepage) - [View in Browser](https://andrewhuntington.github.io/google-homepage/)
 * [Andrew Huntington's Solution (Difficult)](https://github.com/AndrewHuntington/google-results-page) - [View in Browser](https://andrewhuntington.github.io/google-results-page/)
-* [Zach Meyer's Solution (Easy)](https://github.com/zachmmeyer/google-homepage) - [View in Browser](https://zachmmeyer.github.io/google-homepage/)
 * [Anthony Raborn's Solution (Easy)](https://github.com/AnthonyRaborn/google-homepage)
 * [Brian Ngetich's Solution (Easy)](https://github.com/Ghostscypher/google-homepage-) - [View in Browser](https://github.com/Ghostscypher/google-homepage-/)
 * [Yuliya's Khilko Solution (Easy)](https://github.com/momofcats/google-homepage)
