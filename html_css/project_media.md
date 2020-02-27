@@ -36,6 +36,16 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 
 * Add your solution below this line!
 * [Abdel Pérez's solution](https://github.com/abdelp/video-player) - [View in browser](https://abdelp.github.io/video-player/)
+* [Imahnama + Ikraamg Solution](https://github.com/imahnama/Youtube-replica) - [View in browser](https://imahnama.github.io/Youtube-replica/)
+* [Joshysmart's Solution](https://github.com/joshysmart/youtube-player-page) - [View in browser](https://joshysmart.github.io/youtube-player-page/)
+* [Zakariye's Solution](https://github.com/ZYusuf10/youtubePracticeClone) -[View in browser](https://zyusuf10.github.io/youtubePracticeClone/index.html)
+* [Rarysson's Solution](https://github.com/rarysson/youtube-player) - [View in browser](https://rarysson.github.io/youtube-player/)
+* [Igorashs's Solution](https://github.com/igorashs/embedding-images-and-video) - [View in browser](https://igorashs.github.io/embedding-images-and-video/)
+* [TheGudu's Solution](https://github.com/TheGudu/YouTubeProjectOdin)  
+* [MikkRou's Solution](https://github.com/MikkRou/embeding-images-and-video) - [View in browser](https://mikkrou.github.io/embeding-images-and-video/)
+* [Ivancito and Carlos' Solution](https://github.com/canriquez/html-youtube) - [View in browser](https://canriquez.github.io/html-youtube/)
+* [Ashish's Solution](https://github.com/CodersGas/YouTube-Clone) - [View in browser](https://codersgas.github.io/YouTube-Clone/home-page.html)
+* [Cody's solution](https://github.com/codydegen/youtube_mockup) - [View in browser](https://codydegen.github.io/youtube_mockup/)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/youtube-clone) - [View in browser](https://braxtonlemmon.github.io/youtube-clone/)
 * [David Auza's and Eduardo Reis's solution](https://github.com/davidauza-engineer/Project-Embedding-Images-And-Video) - [View in browser](https://davidauza-engineer.github.io/Project-Embedding-Images-And-Video/)
 * [Gabriel's solution](https://github.com/gabytzubaws/Youtube_embedded_player_clone)
