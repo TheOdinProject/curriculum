@@ -1296,4 +1296,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kmson7's Solution](https://github.com/kmson7/rockPaperScissors)
 - [Pikkuruusu's Solution](https://github.com/pikkuruusu/rock-paper-scissors)
 - [MaibHassin's Solution](https://github.com/MaibHassin/rock-paper-scissors) - [View in Browser](https://maibhassin.github.io/rock-paper-scissors/)
+- [MuratCG's solution](https://github.com/muratcangumuslu/Rock-Paper-Scissors-Game) - [View in Browser](https://muratcangumuslu.github.io/Rock-Paper-Scissors-Game/)
 </details>
