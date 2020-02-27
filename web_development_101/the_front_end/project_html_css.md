@@ -91,6 +91,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Héctor Espinoza's Solution (Easy)](https://github.com/iamamitito/google-homepage) - [View in Browser](https://iamamitito.github.io/google-homepage/)
+* [YesSeri's Solution (Easy)](https://github.com/YesSeri/google-homepage) - [View in Browser](https://yesseri.github.io/google-homepage/)
 * [Felipe Silveira's Solution (Easy)](https://github.com/Silve1ra/google-homepage) - [View in Browser](https://silve1ra.github.io/google-homepage/)
 * [Marcelo Rios's Solution (Both)](https://github.com/mricab/google-top-project) - [View in Browser](https://mricab.github.io/google-top-project/)
 * [jessc003's Solution (Easy)](https://github.com/jessc003/google-homepage) - [View in Browser](https://jessc003.github.io/google-homepage/)
@@ -3009,6 +3010,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ietienam's Solution (Easy)](https://github.com/ietienam/google-homepage) - [View in Browser](https://ietienam.github.io/google-homepage/)
 * [OmerGronich's Solution (Easy)](https://github.com/OmerGronich/google-homepage) - [View in Browser](https://omergronich.github.io/google-homepage/)
 * [jesstivey's Solution (Easy)](https://jesstivey.github.io/google-homepage) - [View in Browser](https://jesstivey.github.io/google-homepage/)
+* [MichalRey's Solution (Hard)](https://github.com/MichalRey/google-homepage) - [View in browser](https://michalrey.github.io/google-homepage/)
+* [thorney29's Solution (Easy)](https://github.com/thorney29/google-homepage) - [View in Browser](https://thorney29.github.io/google-homepage/)
+* [lhmson's Solution (Easy)](https://github.com/lhmson/google-homepage) - [View in Browser](https://lhmson.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

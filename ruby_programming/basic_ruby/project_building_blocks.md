@@ -509,6 +509,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Nathan Choi's Solution](https://github.com/sihoonathan/ruby_practice/blob/master/caesar_cipher.rb)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/CaesarCipher.rb)
 * [Wilmir's Solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/caesar_cipher.rb)
+* [Cbo-11's Solution](https://github.com/Cbo-11/RubyBuildingBlocks/blob/master/Ceaser.rb)
 </details>
 
 ### Project 2: Stock Picker
@@ -962,6 +963,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/stock-picker/blob/master/stock-picker.rb)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/StockPicker.rb)
 * [Wilmir's Solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/stock_picker.rb)
+* [Cbo-11's Solution](https://github.com/Cbo-11/RubyBuildingBlocks/blob/master/stockpicker.rb)
 </details>
 
 ### Project 3: Substrings
@@ -1414,4 +1416,5 @@ Next, make sure your method can handle multiple words:
 * [Eduardo06sp's solution](https://github.com/Eduardo06sp/substrings/blob/master/substrings.rb)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/Substrings.rb)
 * [Wilmir's solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/substrings.rb)
+* [Cbo-11's Solution](https://github.com/Cbo-11/RubyBuildingBlocks/blob/master/substrings.rb)
 </details>
