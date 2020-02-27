@@ -1280,7 +1280,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dhecker's Solution](https://github.com/dhecker/rps) - [View in Browser](https://dhecker.github.io/rps/rps.html)
 - [Ken Holston's Solution](https://github.com/kholston/rock_paper_scissors)
 - [Daki's Solution](https://github.com/Dakitou/TOP-RPS)
-- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/RPS)
+- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/rock-paper-scissors) - [View in Browser](https://bunnythelifeguard.github.io/rock-paper-scissors)
 - [Peperonidas's Solution](https://github.com/odiseon/rock-paper-scissors) - [View in Browser](https://github.com/odiseon/rock-paper-scissors)
 - [xOC97's Solution](https://github.com/xOC97/rock-paper-scissors) - [View in Browser](https://xoc97.github.io/rock-paper-scissors/)
 - [padraigoneill's Solution](https://github.com/padraigoneill1/rock-paper-scissors) - [View in Browser](https://padraigoneill1.github.io/rock-paper-scissors/)
