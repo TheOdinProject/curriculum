@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [YesSeri's Solution](https://github.com/YesSeri/rock-paper-scissor) - [View in Browser](https://yesseri.github.io/rock-paper-scissor/)
+- [reneweiser's Solution](https://github.com/reneweiser/rock-paper-scissors) - [View in Browser](https://reneweiser.github.io/rock-paper-scissors/)
+- [threeaces' Solution](https://github.com/threeaces/rock-paper-scissors) - [View in Browser](https://threeaces.github.io/rock-paper-scissors/)
 - [dzarrr's Solution](https://github.com/dzarrr/rock-paper-scissors)
 - [AndyDreww's Solution](https://github.com/AndyDreww/rock-paper-scissors) - [View in Browser](https://andydreww.github.io/rock-paper-scissors/)
 - [pmargetis's Solution](https://pmargetis.github.io/Rock_paper_scissors/) - [View in Browser](https://pmargetis.github.io/Rock_paper_scissors/)
@@ -51,11 +54,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ichenn's Solution](https://github.com/ichenn92/rock-paper-scissors) - [View in Browser](https://ichenn92.github.io/rock-paper-scissors/)
 - [Felipe Silveira's Solution](https://github.com/Silve1ra/rock-paper-scissors)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/rock-paper-scissors.git)
-- [threeaces' Solution](https://github.com/threeaces/rock-paper-scissors)
 - [marfantinel's Solution](https://github.com/marfantinel/rock-paper-scissors)
 - [rryand's Solution](https://github.com/rryand/rock-paper-scissors) - [View in Browser](https://rryand.github.io/rock-paper-scissors/)
 - [kdayno's Solution](https://github.com/kdayno/rock-paper-scissors) - [View in Browser](https://kdayno.github.io/rock-paper-scissors/)
-- [eriktn's Solution](https://github.com/eriktn/rock-paper-scissors)
+- [eriktn's Solution](https://github.com/eriktn/rock-paper-scissors) - [View in Browser](https://eriktn.github.io/rock-paper-scissors/)
 - [JohnPCarvalho's Solution](https://https://github.com/JohnPCarvalho/rock-paper-scissors)
 - [GitanjaliM's Solution](https://github.com/gd-m/rock-paper-scissors-app) - [View in Browser](https://gd-m.github.io/rock-paper-scissors-app/)
 - [brandonS's Solution](https://github.com/bstottler/rockpaperscissors)
@@ -1280,7 +1282,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dhecker's Solution](https://github.com/dhecker/rps) - [View in Browser](https://dhecker.github.io/rps/rps.html)
 - [Ken Holston's Solution](https://github.com/kholston/rock_paper_scissors)
 - [Daki's Solution](https://github.com/Dakitou/TOP-RPS)
-- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/RPS)
+- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/rock-paper-scissors) - [View in Browser](https://bunnythelifeguard.github.io/rock-paper-scissors)
 - [Peperonidas's Solution](https://github.com/odiseon/rock-paper-scissors) - [View in Browser](https://github.com/odiseon/rock-paper-scissors)
 - [xOC97's Solution](https://github.com/xOC97/rock-paper-scissors) - [View in Browser](https://xoc97.github.io/rock-paper-scissors/)
 - [padraigoneill's Solution](https://github.com/padraigoneill1/rock-paper-scissors) - [View in Browser](https://padraigoneill1.github.io/rock-paper-scissors/)
@@ -1295,4 +1297,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kmson7's Solution](https://github.com/kmson7/rockPaperScissors)
 - [Pikkuruusu's Solution](https://github.com/pikkuruusu/rock-paper-scissors)
 - [MaibHassin's Solution](https://github.com/MaibHassin/rock-paper-scissors) - [View in Browser](https://maibhassin.github.io/rock-paper-scissors/)
+- [Chi Bui's Solution](https://github.com/chibui191/rock-paper-scissors)
+- [Lucas' Solution](https://github.com/Lucas-Vergara/Cachipun)
+- [MuratCG's Solution](https://github.com/muratcangumuslu/Rock-Paper-Scissors-Game) - [View in Browser](https://muratcangumuslu.github.io/Rock-Paper-Scissors-Game/)
 </details>
