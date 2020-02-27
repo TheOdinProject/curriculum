@@ -1297,6 +1297,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kmson7's Solution](https://github.com/kmson7/rockPaperScissors)
 - [Pikkuruusu's Solution](https://github.com/pikkuruusu/rock-paper-scissors)
 - [MaibHassin's Solution](https://github.com/MaibHassin/rock-paper-scissors) - [View in Browser](https://maibhassin.github.io/rock-paper-scissors/)
+- [MartinSugasti's Solution](https://github.com/MartinSugasti/rock-paper-scissors)
 - [GrahamLearnsCode's Solution](https://github.com/Grahamlearnscode/rockpaperscissors) - [View in Browser](https://grahamlearnscode.github.io/rockpaperscissors/)
 - [Chi Bui's Solution](https://github.com/chibui191/rock-paper-scissors)
 - [Lucas' Solution](https://github.com/Lucas-Vergara/Cachipun)
