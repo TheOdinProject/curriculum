@@ -3013,6 +3013,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MichalRey's Solution (Hard)](https://github.com/MichalRey/google-homepage) - [View in browser](https://michalrey.github.io/google-homepage/)
 * [thorney29's Solution (Easy)](https://github.com/thorney29/google-homepage) - [View in Browser](https://thorney29.github.io/google-homepage/)
 * [lhmson's Solution (Easy)](https://github.com/lhmson/google-homepage) - [View in Browser](https://lhmson.github.io/google-homepage/)
+* [DiogoLuxa's Solution (Difficult)](https://github.com/diluxa/google-homepage) - [View in Browser](https://diluxa.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
