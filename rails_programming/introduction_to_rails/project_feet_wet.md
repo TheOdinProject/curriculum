@@ -22,15 +22,14 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 </div>
 
 ### Student Solutions
-Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/introduction_to_rails/project_feet_wet.md) so we can show others! Submit a link to the Github repository with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/introduction_to_rails/project_feet_wet.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
-Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it is in a repository that you will not overwrite when we move onto chapter 3 (which starts a new app).
+Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it's in a repository that you won't overwrite when we move onto chapter 3 (which starts a new app).
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [Paulo Felipe Souza](https://github.com/Pauloparakleto/toy_app) - [Heroku](https://protected-woodland-57701.herokuapp.com/)
 * [David Auza's and Luis Novoa's Solution](https://github.com/luis-novoa/rails_toy_app) - [Heroku](https://shrouded-island-61851.herokuapp.com/)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/toy_app) - [Heroku](https://toy-app-54058.herokuapp.com/)
@@ -39,7 +38,6 @@ Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it is i
 * [BShowen's Solution](https://github.com/BShowen/rails_toy_app) - [Heroku](https://bradley-toy-app.herokuapp.com)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby%20On%20Rails/toy_app) - [Heroku](https://fast-scrubland-64335.herokuapp.com/users)
 * [Ian's solution](https://github.com/IanMKesler/rails_toy_app) - [Heroku](https://whispering-journey-28034.herokuapp.com)
->>>>>>> 9aaafb64cc842b0568ce1e358992d1119a70c728
 * [Sherman's Solution](https://github.com/shermansjliu/toy-app)
 * [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/toy_app) - [Heroku](https://evening-basin-88314.herokuapp.com/)
 * [Carlos Diaz's Solution](https://github.com/bycdiaz/toy_app) - [Heroku](https://fathomless-dawn-20866.herokuapp.com/)
