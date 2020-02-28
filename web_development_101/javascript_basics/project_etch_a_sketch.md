@@ -790,10 +790,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jahtzee's Solution](https://github.com/jahtzee/top-etch-a-sketch) - [View in Browser](https://jahtzee.github.io/top-etch-a-sketch/)
 * [xOC97's Solution](https://github.com/xOC97/etch-a-sketch) - [View in Browser](https://xoc97.github.io/etch-a-sketch/)
 * [Tim Kelly's Solution](https://github.com/TimKellyTK/project-etch-a-sketch) - [View in Browser](https://timkellytk.github.io/project-etch-a-sketch/)
-<<<<<<< HEAD
 * [Maib Hassin's Solution](https://github.com/MaibHassin/etch-a-sketch) - [View in Browser](https://maibhassin.github.io/etch-a-sketch/)
-
-=======
 * [Ken's H Solution](https://github.com/kholston/etch-a-sketch_js) - [View in Browser](https://kholston.github.io/etch-a-sketch_js/)
->>>>>>> master
 </details>
