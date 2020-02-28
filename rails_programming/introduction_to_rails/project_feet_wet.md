@@ -22,7 +22,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 </div>
 
 ### Student Solutions
-Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/introduction_to_rails/project_feet_wet.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/introduction_to_rails/project_feet_wet.md) so we can show others! Submit a link to the Github repository with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
 Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it is in a repository that you will not overwrite when we move onto chapter 3 (which starts a new app).
 
