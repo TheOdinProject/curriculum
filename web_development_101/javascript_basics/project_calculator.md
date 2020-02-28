@@ -534,4 +534,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Courgette's Solution](https://github.com/bing0i/calculator) - [View in Browser](https://bing0i.github.io/calculator/)
 - [alicee88's Solution](https://github.com/alicee88/calculator) - [View in Browser](https://alicee88.github.io/calculator/)
 - [Jahtzee's Solution](https://github.com/jahtzee/top-calculator) - [View in Browser](https://jahtzee.github.io/top-calculator/)
+- [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/calculator) - [View in Browser](https://blessedonekobo.github.io/calculator/)
 </details>
