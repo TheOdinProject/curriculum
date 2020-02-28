@@ -32,7 +32,6 @@ Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it is i
 * Add your solution below this line!
 <<<<<<< HEAD
 * [Paulo Felipe Souza](https://github.com/Pauloparakleto/toy_app) - [Heroku](https://protected-woodland-57701.herokuapp.com/)
-=======
 * [David Auza's and Luis Novoa's Solution](https://github.com/luis-novoa/rails_toy_app) - [Heroku](https://shrouded-island-61851.herokuapp.com/)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/toy_app) - [Heroku](https://toy-app-54058.herokuapp.com/)
 * [Nasser Abachi's Solution](https://github.com/abachi/toy-app) - [Heroku](https://abachidev-toy-app.herokuapp.com/)
