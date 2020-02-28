@@ -119,7 +119,7 @@ You can access strings inside strings inside strings. Stringception! It's super 
 ~~~
 
 #### Escape characters
-Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidently ending it. As a reminder, escape characters only work inside double quotation marks.
+Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks.
 
 ~~~ruby
 \\  #=> Need a backslash in your string?

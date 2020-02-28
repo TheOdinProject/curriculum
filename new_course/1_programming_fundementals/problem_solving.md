@@ -8,7 +8,7 @@ V. Anton Paul defines problem solving in programming as:
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
-New programmers often find problem solving the hardest skill to build, it's not uncommon for budding programers to breeze through learning syntax and programming concepts. Yet when trying to code something on their own they find themselves staring blankly at their text editor not knowing where to start.
+New programmers often find problem solving the hardest skill to build, it's not uncommon for budding programmers to breeze through learning syntax and programming concepts. Yet when trying to code something on their own they find themselves staring blankly at their text editor not knowing where to start.
 
 The best way to improve your problem solving ability is by building experience by making lots and lots of programs. The more practice you have the better you'll be prepared to solve real world problems.
 
@@ -33,7 +33,7 @@ Some of the questions you should answer at this part of the process:
 
 * Does your program have a user interface? what will it look like? what functionality will the interface have? sketch this out on paper
 * What inputs will your program have? will the user enter data or will you get input from somewhere else
-* Whats the desired output?
+* What's the desired output?
 * Given your inputs, what are the steps necessary to return the desired output?
 
 The last question is where you will write out an algorithm to solve the problem. You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudo code.
@@ -79,7 +79,7 @@ Our FizzBuzz solution will be a command line program, so we don't need an interf
 What inputs will your program have? will the user enter data or will you get input from somewhere else
 The user will enter a number from the command line.
 
-Whats the desired output?
+What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output Fizz, each number that is divisible by 5 will output "Buzz" and each number that is divisible by both 3 and 5 will output "FizzBuzz"
 
 Given your inputs, what are the steps necessary to return the desired output?

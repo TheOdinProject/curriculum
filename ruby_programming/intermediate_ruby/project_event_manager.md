@@ -160,7 +160,7 @@ contents of each line.
 
 ### Display the First Names of All Attendees
 
-Instead of outputing the entire contents of each line we want to show only the
+Instead of outputting the entire contents of each line we want to show only the
 first name. That requires us to look at the current contents of our Event
 Attendees file.
 
@@ -531,7 +531,7 @@ lib/event_manager.rb:11:in `block in <main>': undefined method `length' for nil:
 	from lib/event_manager.rb:7:in `<main>'
 ~~~
 
-* What is the error mesage "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
+* What is the error message "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
 
 Reviewing our CSV data we notice that the next row specifies no value. An empty
 field translates into a nil instead of an empty string. This is a choice made by
@@ -1234,9 +1234,9 @@ return to the application.
         <% legislators.each do |legislator| %>
         <tr>
           <td><%= "#{legislator.name}" %></td>
-          <td><%= "#{legislator.urls.join}" %></td>
+          <td><%= "#{legislator.urls.join}" unless legislator.urls.nil? %></td>
         </tr>
-      <% end %>
+        <% end %>
     <% else %>
       <th></th>
       <td><%= "#{legislators}" %></td>
@@ -1432,7 +1432,7 @@ def legislators_by_zipcode(zip)
   end
 end
 
-def save_thank_you_letters(id,form_letter)
+def save_thank_you_letter(id,form_letter)
   Dir.mkdir("output") unless Dir.exists?("output")
 
   filename = "output/thanks_#{id}.html"
@@ -1457,11 +1457,11 @@ contents.each do |row|
 
   form_letter = erb_template.result(binding)
 
-  save_thank_you_letters(id,form_letter)
+  save_thank_you_letter(id,form_letter)
 end
 ~~~
 
-The method `save_thank_you_letters` requires the id of the attendee and the form letter
+The method `save_thank_you_letter` requires the id of the attendee and the form letter
 output.
 
 ## Iteration: Clean Phone Numbers

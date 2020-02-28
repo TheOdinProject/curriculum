@@ -61,7 +61,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 2. Create and migrate all necessary tables and foreign keys.  This will require a "through" table since an Event can have many Attendees and a single User (Attendee) can attend many Events... many-to-many.
 3. Now make an Event's Show page display a list of attendees.
 4. Make a User's Show page display a list of events they are attending.
-5. Modify the User's Show page to separate those events which have occurred in the past ("Previously attended events") from those which are occuring in the future ("Upcoming events").  You could do this by putting logic in your view.  Don't.  Have your controller call separate model methods to retrieve each, e.g. `@upcoming_events = current_user.upcoming_events` and `@prev_events = current_user.previous_events`.  You'll get some practice with working with dates as well as building some queries.
+5. Modify the User's Show page to separate those events which have occurred in the past ("Previously attended events") from those which are occurring in the future ("Upcoming events").  You could do this by putting logic in your view.  Don't.  Have your controller call separate model methods to retrieve each, e.g. `@upcoming_events = current_user.upcoming_events` and `@prev_events = current_user.previous_events`.  You'll get some practice with working with dates as well as building some queries.
 6. Modify the Event Index page to list all events, separated into Past and Upcoming categories.  Use a class method on Event (e.g. `Event.past`).
 7. Refactor the "upcoming" and "past" methods into simple scopes (remember scopes??).
 8. Put navigation links across the top to help you jump around.
@@ -77,6 +77,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/private_events)
+* [Dennis Cope's solution](https://github.com/coped/private-events) - [View in browser](https://private-events-top-coped.herokuapp.com/)
+* [Ian's solution](https://github.com/IanMKesler/private_events)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/private-events) - [View in browser](https://safe-retreat-68130.herokuapp.com/)
 * [Kevin Vuong's solution](https://github.com/fffear/private-events)
 * [Learnsometing's solution](https://github.com/learnsometing/rails-private_events)
@@ -156,10 +159,11 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/private-events) - [View in browser](https://infinite-basin-31084.herokuapp.com/)
 * [bchalman's solution](https://github.com/bchalman/private-events)
 * [Alex's solution](https://github.com/alexcorremans/private-events)
-* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/private-events) - [View in browser](https://odin-private-events-0.herokuapp.com/events)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/private-events)
 * [vanny96's Solution](https://github.com/vanny96/private-events) - [View in Browser](https://rocky-eyrie-58239.herokuapp.com/)
 * [JamCry's Solution](https://github.com/jamcry/private-events) - [View in Browser](https://gentle-journey-93500.herokuapp.com/)
 * [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/eventor) - [View in browser](http://eventor-io.herokuapp.com/)
+* [Rey van den Berg's Solution](https://github.com/Rey810/private-events)
 
 </details>
 

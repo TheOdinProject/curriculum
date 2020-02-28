@@ -35,7 +35,7 @@ end
 invited_list #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
-Thats not too hard, but imagine having to do that for every party you host from now until the end of time! It might be easier to just stop hanging out with Brian.
+That's not too hard, but imagine having to do that for every party you host from now until the end of time! It might be easier to just stop hanging out with Brian.
 
 Using the `#select` enumerable method (which we'll get into much more detail about later), you could change the above code to this:
 
@@ -348,7 +348,7 @@ Now that we know that this new hash with a default value of `0` is our accumulat
 Note that this example returns a hash with several `key => value` pairs. So even though the result is more complicated, `#reduce` still just returns one object, a hash.
 
 ### Bang Methods
-Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidently lose that information. For example, if enumerables did mutate the original array, then using `#select` to filter out Brian from our ivitation list would *permanently* remove him from our friends list. Whoah! That's a bit drastic. Brian may be a nutcase at parties, but he's still our friend.
+Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidentally lose that information. For example, if enumerables did mutate the original array, then using `#select` to filter out Brian from our ivitation list would *permanently* remove him from our friends list. Whoah! That's a bit drastic. Brian may be a nutcase at parties, but he's still our friend.
 
 To see this principle in action, let's go back to an earlier example where we wrote each of our friends' names in all caps:
 
