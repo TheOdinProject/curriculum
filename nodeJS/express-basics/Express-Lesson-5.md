@@ -25,11 +25,22 @@ By the end of this lesson, you should be able to do the following:
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" GitHub repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/express-basics/Express-Lesson-5.md) (located on The Odin Project's "curriculum" GitHub repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vanessacor's Solution](https://github.com/vanessacor/express-locallibrary-tutorial) - [View in browser](https://limitless-wildwood-80852.herokuapp.com/catalog)
+- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/express-locallibrary-tutorial) - [View in browser](https://henriquesousa-locallibrary.herokuapp.com/)
+- [tracy2811's Solution](https://github.com/tracy2811/express-locallibrary-tutorial)
+- [Vollantre's Solution](https://github.com/vollantre/express-locallibrary-tutorial) - [View in browser](https://afternoon-reaches-87917.herokuapp.com/)
+- [Alain Suarez's Solution](https://gitlab.com/asuar/express-local-library) - [View in browser](https://nameless-ocean-77993.herokuapp.com/)
+- [Eljoey's Solution](https://github.com/eljoey/mdn_express_tut2) - [View in browser](https://fierce-ocean-59692.herokuapp.com/)
+- [Vedat's Solution](https://github.com/mvedataydin/express-local-library) - [View in browser](https://hidden-citadel-76837.herokuapp.com)
+- [djolesusername's Solution](https://github.com/djolesusername/libraryMDN) - [View in browser](https://cool-library.herokuapp.com/catalog)
+- [Jake's Solution](https://github.com/jdonahue135/localLibrary) - [View in browser](https://secure-shore-83072.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/express-local-library) - [View in browser](https://secure-shelf-13534.herokuapp.com/)
+- [Mo's Solution](https://github.com/motr551/Library) - [View in browser](https://motrlibrary.herokuapp.com/)
 
 </details>

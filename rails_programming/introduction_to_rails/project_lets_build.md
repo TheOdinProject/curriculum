@@ -17,13 +17,16 @@ That's it! The point is to get familiar with making HTTP requests using your com
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/introduction_to_rails/project_lets_build.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/warmup_restclient)
+* [David Auza's Solution](https://github.com/davidauza-engineer/REST-Client-Gem)
+* [Nasser Abachi's Solution](https://github.com/abachi/rest-clinet-app)
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
+* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/warmup_restclient)
 * [Kevin Vuong's Solution](https://github.com/fffear/bing_search)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/rest-client-warmup)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/rails-exercises/tree/master/rest-client)
@@ -62,6 +65,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Alex Tsiras' solution](https://github.com/arialblack14/rest_client)
 * [srashidi's solution](https://github.com/srashidi/The_Odin_Project/blob/master/Ruby%20on%20Rails/Web_Refresher/google_search.rb)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/rest_client_gem)
+* [Carlos Diaz's solution](https://github.com/bycdiaz/rest-client)
 * [Radi Totev's solution](https://github.com/raditotev/rest-tester)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/RestClient)
 * [Max Gallant's solution](https://github.com/mcgalcode/WebRefresher)
@@ -90,6 +94,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
 * [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
+* [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
+* [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
+* [guacamobley's solution](https://github.com/guacamobley/rest-client-project)
 </details>
 
 ### Project: Ruby on Rails Tutorial
@@ -158,8 +165,8 @@ If you're already scratching your head, don't worry (like I said, better explana
 
 <div class="lesson-content__panel" markdown="1">
 1. If you'd still like a refresher on testing basics, check out [An Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse.
-2. Do [Chapter 3](https://www.railstutorial.org/book/static_pages) of the Ruby on Rails Tutorial to get started building the application.
-3. Do [Chapter 4](https://www.railstutorial.org/book/rails_flavored_ruby) of the tutorial to see how Ruby will be used in Rails.
+2. Do [Chapter 3](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/static_pages) of the Ruby on Rails Tutorial to get started building the application.
+3. Do [Chapter 4](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/rails_flavored_ruby) of the tutorial to see how Ruby will be used in Rails.
 4. Glance back at the [Deployment Lesson](/courses/ruby-on-rails/lessons/deployment) if you've got lingering questions or issues about the process of deployment.
 </div>
 

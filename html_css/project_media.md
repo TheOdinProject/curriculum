@@ -35,6 +35,27 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Imahnama + Ikraamg Solution](https://github.com/imahnama/Youtube-replica) - [View in browser](https://imahnama.github.io/Youtube-replica/)
+* [Joshysmart's Solution](https://github.com/joshysmart/youtube-player-page) - [View in browser](https://joshysmart.github.io/youtube-player-page/)
+* [Zakariye's Solution](https://github.com/ZYusuf10/youtubePracticeClone) -[View in browser](https://zyusuf10.github.io/youtubePracticeClone/index.html)
+* [Rarysson's Solution](https://github.com/rarysson/youtube-player) - [View in browser](https://rarysson.github.io/youtube-player/)
+* [Igorashs's Solution](https://github.com/igorashs/embedding-images-and-video) - [View in browser](https://igorashs.github.io/embedding-images-and-video/)
+* [TheGudu's Solution](https://github.com/TheGudu/YouTubeProjectOdin)  
+* [MikkRou's Solution](https://github.com/MikkRou/embeding-images-and-video) - [View in browser](https://mikkrou.github.io/embeding-images-and-video/)
+* [Ivancito and Carlos' Solution](https://github.com/canriquez/html-youtube) - [View in browser](https://canriquez.github.io/html-youtube/)
+* [Ashish's Solution](https://github.com/CodersGas/YouTube-Clone) - [View in browser](https://codersgas.github.io/YouTube-Clone/home-page.html)
+* [Cody's solution](https://github.com/codydegen/youtube_mockup) - [View in browser](https://codydegen.github.io/youtube_mockup/)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/youtube-clone) - [View in browser](https://braxtonlemmon.github.io/youtube-clone/)
+* [David Auza's and Eduardo Reis's solution](https://github.com/davidauza-engineer/Project-Embedding-Images-And-Video) - [View in browser](https://davidauza-engineer.github.io/Project-Embedding-Images-And-Video/)
+* [Gabriel's solution](https://github.com/gabytzubaws/Youtube_embedded_player_clone)
+* [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/01-Basic_HTML_Page-Structure/youtube-clone) - [View in browser](https://gradiva.github.io/youtube-clone/)
+* [Muhammad Ahmad's solution](https://github.com/thisisMAhmad/youtube-page) - [View in browser](https://thisismahmad.github.io/youtube-page/)
+* [Kevin Vuong's](https://github.com/fffear/embedding_images_and_video) - [View in browser](https://fffear.github.io/embedding_images_and_video/)
+* [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/youtube-copy) - [View in browser](https://kikupiku.github.io/youtube-copy/)
+* [Solodov's solution](https://github.com/solodov-dev/top-youtube) - [View in browser](https://solodov-dev.github.io/top-youtube/)
+* [Vedat's solution](https://github.com/mvedataydin/youtube-video-page) - [View in browser](https://mvedataydin.github.io/youtube-video-page/)
+* [Zayeer's solution](https://github.com/Zayeer/Youtube-s-video-player-page) - [View in browser](https://zayeer.github.io/Youtube-s-video-player-page/)
+* [David Tan's solution](https://github.com/davecmd/youtube-replica) - [View in browser](https://davecmd.github.io/youtube-replica/)
 * [Jitendra Rathore's solution](https://github.com/jitendrrathore/embedding-video-images) - [View in browser](https://jitendrrathore.github.io/embedding-video-images/)
 * [Sampajanno's solution](https://github.com/Sampajanno/embedding-video-images) - [View in browser](https://sampajanno.github.io/building-forms/)
 * [Carmine's Solution](https://github.com/cgrossi/odin-project-youtube-clone) - [View in browser](https://cgrossi.github.io/odin-project-youtube-clone/)
@@ -136,6 +157,12 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Alex Gioffre's Solution](https://github.com/AlexGioffre/Youtube_clone) - [View in browser](https://alexgioffre.github.io/Youtube_clone/)
 * [Dolunaykiz's solution](https://github.com/dolunaykiz/youtube-mockup) - [View in browser](http://htmlpreview.github.io/?https://github.com/dolunaykiz/youtube-mockup/blob/master/index.html)
 * [Halkim44's solution](https://github.com/halkim44/youtube-clone) - [View in browser](https://halkim44.github.io/youtube-clone/)
+* [Aron's solution](https://github.com/aronfischer/Youtube_video_Player) - [View in browser](https://aronfischer.github.io/Youtube_video_Player/)
+* [Nigel Volkmann's solution](https://github.com/Nekolike/Embedded-videos) - [View in browser](https://nekolike.github.io/Embedded-videos/)
+* [Ludivine Poussier's solution](https://github.com/ludivinepoussier/embedded-video) - [View in browser](https://ludivinepoussier.github.io/embedded-video/)
+* [Selene and Ruben solution](https://github.com/rubenpazch/YoutubeVideo) - [View in browser](https://github.com/rubenpazch/YoutubeVideo)
+* [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP---Youtube-Clone) - [View in browser](https://adrieltrigger.github.io/TOP---Youtube-Clone/)
+* [Jamesredux's solution](https://github.com/Jamesredux/youtube-clone) - [View in browser](https://jamesredux.github.io/youtube-clone/)
 </details>
 
 ### Additional Resources

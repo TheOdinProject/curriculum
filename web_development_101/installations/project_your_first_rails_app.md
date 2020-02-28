@@ -9,7 +9,7 @@ Before continuing, let's review a few best practices to keep in mind:
 * Copy and paste the commands to avoid typos.
 * If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
 
-In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/hvqVr6d).
+In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/hvqVr6d). You can also use the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) to check if someone else had a similar problem and how they solved it.
 
 **Reminder**: In this lesson you'll see shaded boxes that contain text like the one below.
 
@@ -94,9 +94,9 @@ In the terminal, type
 rails server
 ~~~
 
-Now, go to your browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like!
+Now, go to your browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! **Note:** If you're using a VM, you will need to open the browser inside of your VM in order for this to work.
 
-When you're satisfied, go back to the terminal where Rails is running, and type `Ctrl + C` to end the application.
+Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like! When you're satisfied, go back to the terminal where Rails is running, and type `Ctrl + C` to end the application.
 
 ### Step 2: Initialize Git and Push to GitHub
 
@@ -318,7 +318,7 @@ git push origin master
 
 #### Step 3.7: Push to Heroku
 
-Now that we've commited the files, we can push to Heroku:
+Now that we've committed the files, we can push to Heroku:
 
 ~~~bash
 git push heroku master
@@ -350,13 +350,13 @@ If you have an error, come to our [chat room](https://discord.gg/hvqVr6d), and a
 
 #### Step 3.9: Visit Your New Application
 
-It's time to see your app on the web! If you are not using WSL, to quickly open your app, type
+It's time to see your app on the web! If you are using Linux or Mac, you can quickly open your app with the command below. If you are using WSL it will not open automatically, however, you will get an error message containing the link to copy and paste in your browser:
 
 ~~~bash
 heroku open
 ~~~
 
-and play around with it!
+Now go and play around with it!
 
 ### Step 4: Let us know how it went!
 

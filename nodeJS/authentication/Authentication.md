@@ -27,7 +27,7 @@ const LocalStrategy = require("passport-local").Strategy;
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const mongoDb = `YOUR MONGO URL HERE`;
+const mongoDb = "YOUR MONGO URL HERE";
 mongoose.connect(mongoDb, { useNewUrlParser: true });
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "mongo connection error"));
@@ -51,10 +51,10 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => res.render("index"));
 
-app.listen(3000, () => console.log(`app listening on port 3000!`));
+app.listen(3000, () => console.log("app listening on port 3000!"));
 ~~~
 
-Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be useing express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
+Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be using express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
 
 To keep things simple, our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
 
@@ -88,9 +88,9 @@ Create a new template called `sign-up-form`, and a route for `/sign-up` that poi
   <h1>Sign Up</h1>
   <form action="" method="POST">
     <label for="username">Username</label>
-    <input name="username" placeholder="username" type="text">
+    <input name="username" placeholder="username" type="text" />
     <label for="password">Password</label>
-    <input name="password" type="password">
+    <input name="password" type="password" />
     <button>Sign Up</button>
   </form>
 </body>
@@ -104,7 +104,7 @@ app.get("/sign-up", (req, res) => res.render("sign-up-form"));
 
 ~~~
 
-Next, create an `app.post` for the sign up form so that we can add users to our database. (remember our notes about sanitation, and using plain text to store passwords...)
+Next, create an `app.post` for the sign up form so that we can add users to our database (remember our notes about sanitation, and using plain text to store passwords...).
 
 ~~~javascript
 app.post("/sign-up", (req, res, next) => {
@@ -112,7 +112,9 @@ app.post("/sign-up", (req, res, next) => {
     username: req.body.username,
     password: req.body.password
   }).save(err => {
-    if (err) return next(err);
+    if (err) { 
+      return next(err);
+    };
     res.redirect("/");
   });
 });
@@ -124,16 +126,18 @@ Let's re-iterate: this is not a particularly safe way to create users in your da
 
 Now that we have the ability to put users in our database, let's allow them to log-in to see a special message on our home page! We're going to step through the process one piece at a time, but first take a minute to glance at the [passportJS website](http://www.passportjs.org/docs/username-password/) the documentation here has pretty much everything you need to get set up. You're going to want to refer back to this when you're working on your project.
 
-PassportJs uses what they call _Strategies_ to authenticate users. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy`. [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!
+PassportJs uses what they call _Strategies_ to authenticate users. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!
 
-We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path.Add them somewhere before the line that initializes passport for us: `app.use(passport.initialise())`
+We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path. Add them somewhere before the line that initializes passport for us: `app.use(passport.initialise())`.
 
 #### Function one : setting up the LocalStrategy
 ~~~javascript
 passport.use(
   new LocalStrategy((username, password, done) => {
     User.findOne({ username: username }, (err, user) => {
-      if (err) return done(err);
+      if (err) { 
+        return done(err);
+      };
       if (!user) {
         return done(null, false, { msg: "Incorrect username" });
       }
@@ -174,9 +178,9 @@ To keep things nice and simple let's go ahead and add the login form directly to
 <h1>please log in</h1>
 <form action="/log-in" method="POST">
   <label for="username">Username</label>
-  <input name="username" placeholder="username" type="text">
+  <input name="username" placeholder="username" type="text" />
   <label for="password">Password</label>
-  <input name="password" type="password">
+  <input name="password" type="password" />
   <button>Log In</button>
 </form>
 ~~~
@@ -224,9 +228,9 @@ and then edit your view to make use of that object like this:
     <h1>please log in</h1>
     <form action="/log-in" method="POST">
       <label for="username">Username</label>
-      <input name="username" placeholder="username" type="text">
+      <input name="username" placeholder="username" type="text" />
       <label for="password">Password</label>
-      <input name="password" type="password">
+      <input name="password" type="password" />
       <button>Log In</button>
     </form>
   <%}%>
@@ -278,14 +282,14 @@ Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works lik
 bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
   // if err, do something
   // otherwise, store hashedPassword in DB
-})
+});
 ~~~
 
 The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right your password should have been transformed into a really long random string.
 
-#### comparing hashed passwords:
+#### Comparing hashed passwords:
 
-inside your `LocalStrategy` function we need to replace the `user.password !== password` bit with the `bcrypt.compare()` function.
+Inside your `LocalStrategy` function we need to replace the `user.password !== password` bit with the `bcrypt.compare()` function.
 
 ~~~javascript
 bcrypt.compare(password, user.password, (err, res) => {

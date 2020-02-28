@@ -15,6 +15,9 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/SQL-Zoo)
+* [David Tan's Solution](https://github.com/davecmd/SQL-Zoo-Solutions)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/SQL-Zoo)
 * [Sherman's Solution](https://github.com/shermansjliu/sql-zoo)
 * [Martinez's Santiago Solution](https://github.com/samart333/SQLZOO-project.git)
 * [Kevin Vuong's Solution](https://github.com/fffear/the_odin_project_sql)
@@ -30,6 +33,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Diana's Solution](https://github.com/dianastanciu/sql_zoo/blob/master/README.md)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/sql_zoo_tutorials/blob/master/sql_zoo_tutorials.sql)
 * [Malaika's Solution](https://github.com/malaikaMI/Project_SQL_Zoo)
+* [Rey's Solution](https://github.com/Rey810/SQL)
 * [Dennis Cope's Solution](https://github.com/coped/sqlzoo-tutorial)
 * [Max Garber's Solution](https://github.com/bubblebooy/miscellaneous-exercises/blob/master/SQL_zoo_solutions.sql)
 * [Jon Yoo's Solution](https://github.com/jonyoowa/sql_zoo_examples/blob/master/sqlzoo.sql)
@@ -78,6 +82,8 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Jake's solution](https://github.com/jakercates/SQL-Practice)
 * [Chris A's solution](https://github.com/SoftwareDevPro/SQLZoo)
 * [Forison's solution](https://github.com/Forison/sql_practice)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/SQLZoo)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/sqlzoo)
 
 </details>
 

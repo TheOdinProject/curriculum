@@ -9,7 +9,7 @@
 * array literals/initializing
 * negative indices
 * shift/unshift
-* concatenating/substracting
+* concatenating/subtracting
 * set operations?
 * other methods-->
 

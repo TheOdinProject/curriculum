@@ -8,7 +8,7 @@
 * Learning outcomes - a list of what the user should know at the end of this lesson
 * Main lesson body - This will follow a tutorial format that will go into all the main concepts the student needs to know
 * Exercise - This will link to a external repo which will include exercises and a test suite tailoured to the lesson
-* Futher Reading - Links to external resources which supplement the lesson.
+* Further Reading - Links to external resources which supplement the lesson.
   
 ## Lesson/Projects Order and who is working on them:
 

@@ -27,6 +27,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Robin's Solution](https://github.com/CoolGlasses/ruby_final_project)
+* [Run After's Solution](https://github.com/run-after/chess)
+* [Joshua Aldridge's Solution](https://github.com/JFAldridge/ruby_chess)
+* [Ian's Solution](https://github.com/IanMKesler/chess)
+* [BShowen's Solution](https://github.com/BShowen/ruby_chess)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-chess)
+* [Chris' Solution](https://github.com/CSalois114/project_chess)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-chess)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/chess-game)
 * [Onur Temiz's solution](https://github.com/temizonur/chess)
 * [Kevin Vuong's solution](https://github.com/fffear/chess)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/chess)
@@ -111,6 +120,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/tree/master/chess)
 * [Alex Krewson's solution](https://github.com/alexkrewson/chess)
 * [Robert Dunbar's solution](https://github.com/RobertDunbar/ruby-chess)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/chess_game)
+* [Husseinhewehiis solution](https://github.com/Husseinhewehii/Chess)
+* [Ben Fowler's solution](https://github.com/benfowler04/chess) - [Play on repl.it](https://repl.it/@BenFowler/chess)
+* [guacamobley's solution](https://github.com/guacamobley/chess)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/chess)
 
 </details>
 

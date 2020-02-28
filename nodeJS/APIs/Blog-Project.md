@@ -16,7 +16,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 2. Set up your express app, and define the models in mongoose.
 3. Set up your routes and controllers!  Think about RESTful organization for this one.  Most of the examples in the previous lesson were centered around posts and comments so this shouldn't be to tricky.
   - You can test your routes however you want. Using `curl` in a terminal is one handy way, but it can be just as effective to use a web browser.  There are some browser extensions that allow you to send `PUT` and `POST` requests from browsers without needing to set up and fill out HTML forms. [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) is probably the most popular.
-4. Once your API is working you can focus on your front-end code. Really, how you go about this is up to you.  If you are comfortable front-end framework then go for it! If you're happier in plain HTML and CSS that's fine too. All you should have to do to get your posts into a website is to `fetch` the correct API endpoint and then display the results.  Working with fetch and APIs from a front-end perspective is covered in [this lesson](#) 
+4. Once your API is working you can focus on your front-end code. Really, how you go about this is up to you.  If you are comfortable front-end framework then go for it! If you're happier in plain HTML and CSS that's fine too. All you should have to do to get your posts into a website is to `fetch` the correct API endpoint and then display the results.  Working with fetch and APIs from a front-end perspective is covered in [this lesson](https://www.theodinproject.com/courses/javascript/lessons/working-with-apis) 
 5. Create a second website for authoring and editing your posts. You can set this up however you like but the following features might be useful:
   - A list of all posts that shows whether or not they have been published.
   - A button to publish unpublished posts, or to unpublish published ones!
@@ -26,12 +26,14 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/APIs/Blog-Project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [tracy2811's Solution](https://github.com/tracy2811/blog-api)
+* [Eljoey's Solution](https://github.com/eljoey/Blog-Api) - [Blog Site](https://jh-blog.netlify.com/)
 
 </details>
 

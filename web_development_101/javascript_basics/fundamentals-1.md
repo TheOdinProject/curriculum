@@ -9,7 +9,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What are the rules for naming variables?
 * What are operators, operands, and operations?
 * What is concatenation and what happens when you add numbers and strings together?
-* What are the different type of operators in JavaScript?
+* What are the different types of operators in JavaScript?
 * What is the difference between `==` and `===`?
 * What are operator precedence values?
 * What are the increment/decrement operators?
@@ -42,6 +42,7 @@ You can easily run your own JavaScript code from files you create on your comput
 <html>
 <head>
   <title>Page Title</title>
+  <meta charset="UTF-8"/>
 </head>
 <body>
   <script>

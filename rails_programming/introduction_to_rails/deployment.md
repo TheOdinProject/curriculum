@@ -34,7 +34,7 @@ You'll also need to tell Heroku that you'd like to point your app to a custom do
 
 #### Addons
 
-Another great feature of Heroku is add-ons.  These are third party applications which have been designed to seamlessly add onto your own.  You can view the ones you have via the command line using `$ heroku addons` or add a new one using something like `$ heroku addons:add newrelic:standard`.  You can also work from the web interface.  
+Another great feature of Heroku is add-ons.  These are third party applications which have been designed to seamlessly add onto your own.  You can view the ones you have via the command line using `$ heroku addons` or add a new one using something like `$ heroku addons:create newrelic:standard`.  You can also work from the web interface.  
 
 [This article on Heroku Help](https://devcenter.heroku.com/articles/managing-add-ons) talks about how to work with addons.
 

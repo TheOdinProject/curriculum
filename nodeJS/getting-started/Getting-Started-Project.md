@@ -22,7 +22,7 @@ If you get stuck at anytime, feel free to go back to the tutorial from the previ
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/getting-started/Getting-Started-Project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 If you're planning to submit a live demo with your student solution, one of the easiest ways to do that is using Repl.it. To do this:
 
@@ -36,8 +36,19 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kris Tobiasson's Solution](https://github.com/highpockets/first-nodejs-site.git) - [View in Browser](https://repl.it/@highpockets/first-nodejs-site)
+- [martink-rsa's Solution](https://github.com/martink-rsa/basic_website_nodejs) - [View in Browser](https://repl.it/@martinkrsa/basicwebsitenodejs)
+- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/basic-informational-site) - [View in Browser](https://repl.it/@sousahenrique/basic-informational-site)
+- [autumnchris's Solution](https://github.com/autumnchris/nodejs-multi-page-site-demo) - [View in Browser](https://autumnchris-nodejs-site-demo.herokuapp.com)
+- [Brendo's Solution](https://github.com/BBrownley/Basic-info-site)
+- [Alain Suarez's Solution](https://gitlab.com/asuar/node-basic-info) - [View in browser](https://repl.it/@AlainSuarez/basic-info)
+- [ARaut9's Solution](https://github.com/ARaut9/basic-site)
+- [Vollantre's Solution](https://github.com/vollantre/BASIC_INFORMATIONAL_SITE)
+- [MikkRou's Solution](https://github.com/MikkRou/basic-informational-site) - [View in browser](https://basic-informational-site.mikkrou.repl.co)
+- [Eljoey's Solution](https://github.com/eljoey/Basic_Node_Site)
+- [Vedat's Solution](https://github.com/mvedataydin/initiate-node) - [View in browser](https://repl.it/@mvedataydin/initiate-node)
 - [Henry Kirya's](https://github.com/harrika/nodemo) - [View in browser](https://repl.it/@HenryKirya/nodemo)
-- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/basic_node_site) - [View in browser](https://node--briantuju.repl.co/)
+- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/basic_node_site)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node1/) - [View in browser](https://NodeJS-Basic-Informational-Site--tbmreza.repl.co)
 - [Carmine's Solution](https://github.com/cgrossi/node-beginner-project) - [View in browser](https://cgrossi.github.io/node-beginner-project/)
 - [Faraz's Solution](https://github.com/frzkn/odin-projects/tree/master/basicinformationsite)
@@ -51,5 +62,10 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [ericzlmd's Solution](https://github.com/ericzlmd/The-Odin-Project---NodeJS)
 - [GustavoRdz's Solution](https://github.com/GustavoRdz/odin-nodejs/tree/master/basic-informational-site)
 - [Viho Serge](https://github.com/VihoSerge/node-simple-website/blob/master/index.js)
-
+- [Avic Ndugu](https://repl.it/repls/AuthenticRepulsiveCells) - [View in browser](https://authenticrepulsivecells--five-nine.repl.co/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/first-node-site)
+- [Mitchell's Solution](https://github.com/mleers/simple-node-website)
+- [Kale33's Soltuion](https://github.com/poreniyi/Basic-Informational-Site)
+- [Aron's Solution](https://github.com/aronfischer/first_nodejs_app)
+- [Fred's Solution](https://github.com/fchasin/FirstWebsite)
 </details>

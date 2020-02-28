@@ -1,6 +1,6 @@
 ### Introduction
 
-In this unit you will learn Ruby, the language designed specifically with programmer happiness in mind.  It's a healthy chunk of learning but, by the end of it all, you'll have built some pretty sweet projects including **Tic Tac Toe**, **Hangman**, **a real web server**, and even **Chess**.  You'll be able to put together a **Twitter spambot** (that really spams!), save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems.  *Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.*
+In this unit you will learn Ruby, the language designed specifically with programmer happiness in mind.  It's a healthy chunk of learning but, by the end of it all, you'll have built some pretty sweet projects including **Tic Tac Toe**, **Hangman**, **a real web server**, and even **Chess**.  You'll be able to save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems.  *Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.*
 
 Some people believe you can just dive right into Rails and start firing out websites.  Rails is a framework built using Ruby and every piece of code in it is Ruby.  When (not *if*) something in your project breaks, you'd better be able to debug it.  And what happens when you want to stretch your wings and do something just a bit beyond what the vanilla tutorials show you how to do?  The amount of time you'd spend googling your error messages and staring blankly at help docs was better spent learning Ruby.  Despite this, we've offered the "cutting corners" path as an option below that gets you there faster.
 
@@ -36,7 +36,7 @@ Everyone is coming into this with a different goal in mind, so to accommodate th
 Some things you just won't pick up right away or their coverage by main resources will fall short of your expectations.  Luckily there are lots of options for places to shore up your understanding:
 
 1. The best free online book: Dan Nguyen's [Bastard's Book of Ruby](http://ruby.bastardsbook.com/).  Basically, if you don't like the content we've roped together, this is your resource to shore up your understanding.
-1. Another free online book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.  The downside is that the flow feels a bit choppy and parts aren't fully complete.
+1. Another free online book: Zed Shaw's [Learn Code the Hard Way](https://learnrubythehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.  The downside is that the flow feels a bit choppy and parts aren't fully complete.
 2. The other good book, available in the older edition online for free: [The "Pickaxe", or Programming Ruby 3rd Edition](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0).  This, too, is a bit outdated.
 
 ### Okay, enough talk... Let's get started learning Ruby!

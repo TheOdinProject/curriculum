@@ -41,6 +41,8 @@ If you can't pinpoint the problem, you can share a **screenshot**. This is espec
 
 If the puzzle still can't be solved, push your project to GitHub or put your code in a [repl.it](https://repl.it/) so that others can comb through and debug the code. You'll learn all about GitHub very soon.
 
+Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
+
 ### Formatting your questions
 
 Asking your questions in a readable format helps everyone debug them better. Here are some ways to go about that:
@@ -57,11 +59,11 @@ In the chat rooms and forums, code can be displayed differently from normal sent
 
 \`\`\`
 
-#use three backticks on a separate line ABOVE your code
+`#use three backticks on a separate line ABOVE your code`
 
 Your Code
 
-#use three backticks on a separate line BELOW your code
+`#use three backticks on a separate line BELOW your code`
 
 \`\`\`
 
