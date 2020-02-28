@@ -3016,6 +3016,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [lhmson's Solution (Easy)](https://github.com/lhmson/google-homepage) - [View in Browser](https://lhmson.github.io/google-homepage/)
 * [DiogoLuxa's Solution (Difficult)](https://github.com/diluxa/google-homepage) - [View in Browser](https://diluxa.github.io/google-homepage/)
 * [stancic's Solution (Easy)](https://github.com/stancic/google_homepage) - [View in Browser](https://stancic.github.io/google_homepage/)
+* [stancic's Solution (Difficult)](https://github.com/stancic/google-search-page) - [View in Browser](https://stancic.github.io/google-search-page/)
 </details>
 
 ### Additional Resources
