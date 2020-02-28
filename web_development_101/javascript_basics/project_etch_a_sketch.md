@@ -590,4 +590,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Shez32's Solution](https://github.com/shez32/Etch-A-Sketch) - [View in Browser](https://shez32.github.io/Etch-A-Sketch/) 
 * [Nigel Volkmanns Solution](https://github.com/Nekolike/Etch-a-Sketch) - [View in Browser](https://nekolike.github.io/Etch-a-Sketch/)
 * [Veronika's Solution](https://github.com/veronika-s/etch-a-sketch) - [View in Browser](https://veronika.github.io/etch-a-sketch/)
+* [Lexolf's Solution](https://github.com/lexolf/etch-a-sketch) - [View in Browser](https://lexolf.github.io/etch-a-sketch/)
 </details>
