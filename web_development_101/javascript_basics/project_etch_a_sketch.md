@@ -794,4 +794,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Maib Hassin's Solution](https://github.com/MaibHassin/etch-a-sketch) - [View in Browser](https://maibhassin.github.io/etch-a-sketch/)
 * [Ken's H Solution](https://github.com/kholston/etch-a-sketch_js) - [View in Browser](https://kholston.github.io/etch-a-sketch_js/)
 * [Lexolf's Solution](https://github.com/lexolf/etch-a-sketch) - [View in Browser](https://lexolf.github.io/etch-a-sketch/)
+* [Chi Bui's Solution](https://github.com/chibui191/ETCH-A-SKETCH) - [View in Browser](https://chibui191.github.io/ETCH-A-SKETCH/)
 </details>
