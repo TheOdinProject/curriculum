@@ -510,6 +510,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/CaesarCipher.rb)
 * [Wilmir's Solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/caesar_cipher.rb)
 * [Cbo-11's Solution](https://github.com/Cbo-11/RubyBuildingBlocks/blob/master/Ceaser.rb)
+#please add my solution
+[sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Building_blocks/caesar_cipher.rb)
 </details>
 
 ### Project 2: Stock Picker
