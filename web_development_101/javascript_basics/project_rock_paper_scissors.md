@@ -1304,4 +1304,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Chi Bui's Solution](https://github.com/chibui191/rock-paper-scissors)
 - [Lucas' Solution](https://github.com/Lucas-Vergara/Cachipun)
 - [MuratCG's Solution](https://github.com/muratcangumuslu/Rock-Paper-Scissors-Game) - [View in Browser](https://muratcangumuslu.github.io/Rock-Paper-Scissors-Game/)
+- [headnodic's Solution](https://github.com/headnodic/the-odin-project-coursework/tree/master/web-development-101/projects/rock-paper-scissors)
 </details>
