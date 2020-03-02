@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [gregggrose's Solution (Easy)](https://github.com/gregggrose/google-homepage) - [View in Browser](https://gregggrose.github.io/google-homepage/)
 * [kathyqat's Solution (Easy)](https://github.com/kathyqat/google_homepage) - [View in Browser](https://kathyqat.github.io/google_homepage/)
 * [YellapNave's Solution (Easy)](https://github.com/yellapnave/google-homepage/) - [View in Browser](https://yellapnave.github.io/google-homepage/)
 * [dondesconton's Solution (Easy)](https://github.com/dondesconton/googlehomepage/) - [View in Browser](https://dondesconton.github.io/googlehomepage/)
@@ -3022,6 +3023,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [headnodic's Solution (Easy)](https://github.com/headnodic/google-homepage-clone) - [View in Browser](https://headnodic.github.io/google-homepage-clone/)
 * [Oluwatobi's Solution (Easy)](https://github.com/Oluwatobi-S/google-homepage) - [View in Browser](https://oluwatobi-s.github.io/google-homepage/)
 * [Jimmy's (vincerhodes) Solution (Easy)](https://github.com/vincerhodes/google-homepage) - [View in Browser](https://vincerhodes.github.io/google-homepage/)
+* [Fosnine's Solution (Easy)](https://github.com/Fosnine/google-homepage) - [View in Browser](https://fosnine.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
