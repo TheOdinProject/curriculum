@@ -40,6 +40,11 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ian's Solution](https://github.com/ianistheguy/bookshelf-app) - [View in Browser](https://ianistheguy.github.io/bookshelf-app/)
+- [Georgius's Solution](https://github.com/georgius17/library) - [View in Browser](https://georgius17.github.io/library/)
+- [hu-ng's Solution](https://github.com/hu-ng/library-app-odin) - [View in Browser](https://hu-ng.github.io/library-app-odin/#)
+- [Vanessacor's Solution](https://github.com/vanessacor/site/tree/master/experiments/library) - [View in Browser](https://vanessacor.github.io/site/experiments/library/)
+- [Edd Sansome's Solution](https://github.com/casualc0der/libraryBooks) - [View in Browser](https://casualc0der.github.io/libraryBooks/)
 - [Septiana's Solution](https://github.com/yoga1234/js-book-library) - [View in Browser](https://yoga1234.github.io/js-book-library/)
 - [Lenny's Solution](https://github.com/Lenn-e/the-reading-nook) - [View in Browser](https://lenn-e.github.io/the-reading-nook/)
 - [Langarus' Solution](https://github.com/langarus/library_of_books) - [View in Browser](https://langarus.github.io/library_of_books/)
@@ -199,4 +204,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Fred's Solution](https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode) - [View in Browser](https://fredchasin.github.io/https://github.com/fchasin/JS-SectionPO/tree/master/OrganizingJSCode)
 - [rhath32's Solution](https://github.com/rhath32/library)
 - [Ricardo Gonzalez Villegas' Solution](https://github.com/ricardo-gonzalez-villegas/library) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library/index.html)
+- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/mini-library) - [View in Browser](https://bunnythelifeguard.github.io/mini-library)
 </details>
