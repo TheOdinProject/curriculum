@@ -3023,6 +3023,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [headnodic's Solution (Easy)](https://github.com/headnodic/google-homepage-clone) - [View in Browser](https://headnodic.github.io/google-homepage-clone/)
 * [Oluwatobi's Solution (Easy)](https://github.com/Oluwatobi-S/google-homepage) - [View in Browser](https://oluwatobi-s.github.io/google-homepage/)
 * [Jimmy's (vincerhodes) Solution (Easy)](https://github.com/vincerhodes/google-homepage) - [View in Browser](https://vincerhodes.github.io/google-homepage/)
+* [Fosnine's Solution (Easy)](https://github.com/Fosnine/google-homepage) - [View in Browser](https://fosnine.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
