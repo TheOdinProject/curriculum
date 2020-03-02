@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jason Raj's Solution](https://github.com/jasonrajcodes/Rock-Paper-Scissors)
 - [Ini Etienam's Solution](https://github.com/ietienam/Rock-Paper-Scissors) - [View in Browser](https://ietienam.github.io/Rock-Paper-Scissors)
 - [YellapNave's Solution](https://github.com/YellapNave/RockPaperScissors) - [View in Browser](https://yellapnave.github.io/RockPaperScissors/)
 - [jessc003's Solution](https://github.com/jessc003/rock-paper-scissors)
@@ -1307,4 +1308,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MuratCG's Solution](https://github.com/muratcangumuslu/Rock-Paper-Scissors-Game) - [View in Browser](https://muratcangumuslu.github.io/Rock-Paper-Scissors-Game/)
 - [MemMori's Solution](https://github.com/Mem-Mori/TOP-Rock-Paper-Scissors) - [View in Browser](https://mem-mori.github.io/TOP-Rock-Paper-Scissors/)
 - [headnodic's Solution](https://github.com/headnodic/the-odin-project-coursework/tree/master/web-development-101/projects/rock-paper-scissors)
+- [Joseph's Solution](https://github.com/josephw1997/rock-paper-scissors)
 </details>
