@@ -510,6 +510,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/CaesarCipher.rb)
 * [Wilmir's Solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/caesar_cipher.rb)
 * [Cbo-11's Solution](https://github.com/Cbo-11/RubyBuildingBlocks/blob/master/Ceaser.rb)
+* [sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Building_blocks/caesar_cipher.rb)
 </details>
 
 ### Project 2: Stock Picker
@@ -964,6 +965,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/StockPicker.rb)
 * [Wilmir's Solution](https://github.com/Wilmir/TheOdinProjectRubyProgramming/blob/master/stock_picker.rb)
 * [Cbo-11's Solution](https://github.com/Cbo-11/RubyBuildingBlocks/blob/master/stockpicker.rb)
+* [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Building_blocks/stock_picker.rb)
 </details>
 
 ### Project 3: Substrings

@@ -409,6 +409,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ruby-advanced-building-blocks/blob/master/bubble_sort.rb)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/bubble-sort/blob/master/sort.rb)
 * [Nathan Choi's Solution](https://github.com/sihoonathan/bubble_sort/blob/master/bubble_sort.rb)
+* [Wilmir's Solution](https://github.com/Wilmir/Advanced_Ruby_Building_Blocks_Projects/blob/master/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
@@ -783,6 +784,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [olsi2984's Solution](https://github.com/olsi2984/Ruby_projects/blob/master/Bubble_sort/bubble_sort.rb)
 * [Busy Bee's Solution](https://github.com/swissbusybee/Advanced_ruby_building_blocks_Projects)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ruby-advanced-building-blocks/blob/master/my_enumerable.rb)
+* [Wilmir's Solution](https://github.com/Wilmir/Advanced_Ruby_Building_Blocks_Projects)
 </details>
 
 ### Additional Resources
