@@ -23,6 +23,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Paulo Felipe Souza's solution](https://github.com/Pauloparakleto/bing_search)
 * [David Auza's Solution](https://github.com/davidauza-engineer/REST-Client-Gem)
 * [Nasser Abachi's Solution](https://github.com/abachi/rest-clinet-app)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
