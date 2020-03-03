@@ -37,15 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [Hector's Solution] (https://github.com/hectorgarcia07/caesar_cipher-odin/blob/master/caesar.rb)
-=======
-* [Callie's Solution](https://github.com/callieglade/ruby_exercises/blob/master/caesar_cipher.rb)
-* [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/caesar_cipher.rb)
-* [Nix-star's Solution](https://github.com/nix-star/caesar/blob/master/caesar.rb)
-* [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/caeser_cypher.rb)
-* [Armo's Solution](https://github.com/Armoilane/ruby_exercises/)
->>>>>>> upstream/master
 * [Zach's Solution](https://github.com/ZachBaird/CaesarCipher)
 * [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
 * [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/caesar_cipher.rb)
@@ -541,6 +533,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hector's Solution] (https://github.com/hectorgarcia07/stock_picker-odin/blob/master/stock-picker.rb)
 * [Callie's Solution](https://github.com/callieglade/ruby_exercises/blob/master/stock_picker.rb)
 * [Hans Oliveira's Solution](https://github.com/hansnery/stock_picker)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/stocl_picker.rb)
