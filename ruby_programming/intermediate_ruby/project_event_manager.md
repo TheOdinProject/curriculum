@@ -735,8 +735,7 @@ Successfully installed google-api-client-0.15.0
 1 gem installed
 ~~~
 
-
-If you recieve a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet(https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
+If you recieve a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
 
 ### Showing All Legislators in a Zip Code
 
