@@ -1295,4 +1295,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kmson7's Solution](https://github.com/kmson7/rockPaperScissors)
 - [Pikkuruusu's Solution](https://github.com/pikkuruusu/rock-paper-scissors)
 - [MaibHassin's Solution](https://github.com/MaibHassin/rock-paper-scissors) - [View in Browser](https://maibhassin.github.io/rock-paper-scissors/)
+- [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/rock_paper_scissors) - [View in Browser](https://thorney29.github.io/the_odin_project/rock_paper_scissors/)
 </details>
