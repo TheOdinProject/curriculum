@@ -3030,7 +3030,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [bertrando's Solution (Easy)](https://github.com/dobertrando/Google_site) - [View in Browser](https://dobertrando.github.io/Google_site/)
 * [shaneSC's Solution (Easy)](https://github.com/shaneSC/google-homepage) - [View in Browser](https://shanesc.github.io/google-homepage/)
 * [denvarel's Solution (Easy)](https://github.com/denvarel/google-homepage) - [View in Browser](https://denvarel.github.io/google-homepage)
-</details>
+</details> Solution is here: https://jnatc1.github.io/google-homepage/
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
