@@ -134,4 +134,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Hamohuh's Solution](https://github.com/hamohuh/Restaurant) - [View in Browser](https://hamohuh.github.io/Restaurant/)
 - [0xtaf's Solution](https://github.com/0xtaf/restaurant) - [View in Browser](https://0xtaf.github.io/restaurant/)
 - [tomstrat's Solution](https://github.com/tomstrat/restaurant) - [View in Browser](https://tomstrat.github.io/restaurant/)
+- [DamnedLag's Solution](https://github.com/Damnedlag/Project_restaurant) - [View in Browser](https://damnedlag.github.io/Project_restaurant/)
 </details>

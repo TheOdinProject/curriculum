@@ -460,6 +460,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cbo-11's Solution](https://github.com/Cbo-11/OdinBlogger) - [View in Browser](https://dry-ridge-18075.herokuapp.com/)
 * [pudu87's Solution](https://github.com/pudu87/blogger) - [View in Browser](https://obscure-chamber-58041.herokuapp.com/)
 * [Michael K's Solution](https://github.com/a0x77ry/blogger) - [View in Browser](https://infinite-fjord-55305.herokuapp.com/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/BlogUsingRails) - [View in Browser](https://nameless-hollows-31670.herokuapp.com/)
 
 </details>
 

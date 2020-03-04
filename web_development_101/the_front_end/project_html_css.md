@@ -3026,7 +3026,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JZXHanta's Solution (Easy)](https://github.com/JZXHanta/google-homepage)
 * [Jimmy's (vincerhodes) Solution (Easy)](https://github.com/vincerhodes/google-homepage) - [View in Browser](https://vincerhodes.github.io/google-homepage/)
 * [Fosnine's Solution (Easy)](https://github.com/Fosnine/google-homepage) - [View in Browser](https://fosnine.github.io/google-homepage/)
-*https://github.com/mturner556/google-homepage.git
+* [mturner556's Solution (Easy)](https://github.com/mturner556/google-homepage)
+* [bertrando's Solution (Easy)](https://github.com/dobertrando/Google_site) - [View in Browser](https://dobertrando.github.io/Google_site/)
+* [shaneSC's Solution (Easy)](https://github.com/shaneSC/google-homepage) - [View in Browser](https://shanesc.github.io/google-homepage/)
+* [denvarel's Solution (Easy)](https://github.com/denvarel/google-homepage) - [View in Browser](https://denvarel.github.io/google-homepage)
 </details>
 
 ### Additional Resources
