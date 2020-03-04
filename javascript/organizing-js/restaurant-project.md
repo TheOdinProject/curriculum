@@ -8,7 +8,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 1. Start the project the same way you began the webpack tutorial project.
     1. run `npm init` in your project directory to generate a `package.json` file.
     
-    1. run `npm install --save-dev webpack` to install webpack to the node_modules directory of your project.
+    1. run `npm install webpack webpack-cli --save-dev` to install webpack to the node_modules directory of your project.
    
         - Quick tip: the `node_modules` folder can get _really_ big. It is customary to   add a `.gitignore` file to your project so that you don't have to sync the contents of `node_modules` to github. The dependencies that are stored there can be installed from your package.json by running `npm install`, so you don't need to sync them.  
       
@@ -48,6 +48,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!`
+- [Edd Sansome's Solution](https://github.com/casualc0der/restaurant-project/) - [View in Browser](https://casualc0der.github.io/restaurant-project/)
+- [eapenzacharias's Solution](https://github.com/Lenn-e/restaurant-page) - [View in Browser](https://lenn-e.github.io/restaurant-page/)
 - [eapenzacharias's Solution](https://github.com/eapenzacharias/Restaurant-Theme) - [View in Browser](https://eapenzacharias.github.io/Restaurant-Theme/index.html)
 - [Odunsi Joseph's Solution](https://github.com/dhatguy/restaurant-page) - [View in Browser](https://dhatguy.github.io/restaurant-page/)
 - [clavierbulb-green's Solution](https://github.com/clavierbulb-green/Bulb-s-Restaurant-Page) - [View in Browser](https://clavierbulb-green.github.io/Bulb-s-Restaurant-Page/)
