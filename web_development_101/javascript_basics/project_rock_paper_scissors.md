@@ -1300,6 +1300,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Christian's Solution](https://github.com/rueeazy/rock-paper-scissors)
 - [Joe Thompson's Solution](https://github.com/jlthompso/rock_paper_scissors) - [View in Browser](https://jlthompso.github.io/rock_paper_scissors/)
 - [emilmerle's Solution](https://github.com/emilmerle/RockPaperScissors) - [View in Browser](https://emilmerle.github.io/RockPaperScissors/)
+- [claymw1292's Solution](https://github.com/emilmerle/claymw1292/rock-paper-scissors)
 - [kmson7's Solution](https://github.com/kmson7/rockPaperScissors)
 - [Pikkuruusu's Solution](https://github.com/pikkuruusu/rock-paper-scissors)
 - [MaibHassin's Solution](https://github.com/MaibHassin/rock-paper-scissors) - [View in Browser](https://maibhassin.github.io/rock-paper-scissors/)
@@ -1312,4 +1313,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [headnodic's Solution](https://github.com/headnodic/the-odin-project-coursework/tree/master/web-development-101/projects/rock-paper-scissors)
 - [Joseph's Solution](https://github.com/josephw1997/rock-paper-scissors)
 - [Jefersonmsantos's Solution](https://github.com/jefersonmsantos/rock-paper-scissors.git)
+- [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/rock_paper_scissors) - [View in Browser](https://thorney29.github.io/the_odin_project/rock_paper_scissors/)
 </details>
