@@ -138,5 +138,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Tomstrat's Solution](https://github.com/tomstrat/tictactoe) - [View in Browser](https://tomstrat.github.io/tictactoe)
 - [ricardo-gonzalez-villegas's Solution](https://github.com/ricardo-gonzalez-villegas/tic-tac-toe/) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/tic-tac-toe/)
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/tictactoe) - [View in Browser](https://bunnythelifeguard.github.io/tictactoe/)
+- [Ivnosing's Solution](https://github.com/Ivnosing/tic-tac-toe) - [View in Browser](https://ivnosing.github.io/tic-tac-toe/)
 - [DamnedLag's Solution](https://github.com/Damnedlag/Project-TicTacToe) - [View in Browser](https://damnedlag.github.io/Project-TicTacToe/)
 </details>
