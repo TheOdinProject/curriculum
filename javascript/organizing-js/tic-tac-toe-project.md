@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [armagansnl's Solution (with Minimax)](https://github.com/armagansenol/project-tic-tac-toe) - [View in Browser](https://armagansenol.github.io/project-tic-tac-toe/)
 - [Paul's Solution](https://github.com/ppayne12/tictactoe) - [View in Browser](https://ppayne12.github.io/tictactoe/)
 - [Cody Degen's Solution (with Minimax)](https://github.com/codydegen/tictactoe) - [View in Browser](https://codydegen.github.io/tictactoe/)
 - [Edd Sansome's Solution](https://github.com/casualc0der/tic-tac-toe/) - [View in Browser](https://casualc0der.github.io/tic-tac-toe/) 
@@ -138,4 +139,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [ricardo-gonzalez-villegas's Solution](https://github.com/ricardo-gonzalez-villegas/tic-tac-toe/) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/tic-tac-toe/)
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/tictactoe) - [View in Browser](https://bunnythelifeguard.github.io/tictactoe/)
 - [Ivnosing's Solution](https://github.com/Ivnosing/tic-tac-toe) - [View in Browser](https://ivnosing.github.io/tic-tac-toe/)
+- [DamnedLag's Solution](https://github.com/Damnedlag/Project-TicTacToe) - [View in Browser](https://damnedlag.github.io/Project-TicTacToe/)
 </details>
