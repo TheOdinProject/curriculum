@@ -1311,4 +1311,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MemMori's Solution](https://github.com/Mem-Mori/TOP-Rock-Paper-Scissors) - [View in Browser](https://mem-mori.github.io/TOP-Rock-Paper-Scissors/)
 - [headnodic's Solution](https://github.com/headnodic/the-odin-project-coursework/tree/master/web-development-101/projects/rock-paper-scissors)
 - [Joseph's Solution](https://github.com/josephw1997/rock-paper-scissors)
+- [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/rock_paper_scissors) - [View in Browser](https://thorney29.github.io/the_odin_project/rock_paper_scissors/)
 </details>
