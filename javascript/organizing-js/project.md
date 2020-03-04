@@ -17,7 +17,7 @@ Before diving into the code, take a minute to think about how you are going to w
 5. The look of the User Interface is up to you, but it should be able to do the following:
    1. view all projects
    2. view all todos in each project (probably just the title and duedate.. perhaps changing color for different priorities)
-   3. expand a single todo to see/edit it's details
+   3. expand a single todo to see/edit its details
    4. delete a todo
 6. For inspiration, check out the following great todo apps. (look at screenshots, watch their introduction videos etc.)
    1. [Todoist](https://en.todoist.com/)
@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Katarzyna Kaswen-Wilk](https://github.com/kikupiku/to-do-list) - [View in Browser](https://kikupiku.github.io/to-do-list/)
 * [Saad Tarhi's Solution](https://github.com/tarhi-saad/TodoMVC-Vanilla-ES6) - [View in Browser](https://tarhi-saad.github.io/TodoMVC-Vanilla-ES6/)
 * [Simon's Solution](https://github.com/Sim-frpt/todo-list) - [View in Browser](https://sim-frpt.github.io/todo-list/)
 * [yldrmali's Solution](https://github.com/yldrmali/todo_list/tree/master) - [View in Browser](https://yldrmali.github.io/todo_list/)

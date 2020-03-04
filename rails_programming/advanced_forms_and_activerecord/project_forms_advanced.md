@@ -71,6 +71,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/odin_flight_booker), [view in browser](https://ovsjazz-odin-flight-booker.herokuapp.com/)
+* [fossegrim's solution](https://github.com/olav35/odin-airlines) - [View in browser](https://murmuring-forest-28440.herokuapp.com/)
 * [Ian's solution](https://github.com/IanMKesler/odin-flight-booker)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-flight-booker) - [View in browser](https://stormy-woodland-85583.herokuapp.com/)
 * [Kevin Vuong's solution](https://github.com/fffear/odin-flight-booker)

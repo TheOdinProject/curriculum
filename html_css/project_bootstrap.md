@@ -25,6 +25,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Igorashs's Solution](https://github.com/igorashs/using-bootstrap) - [View in Browser](https://igorashs.github.io/using-bootstrap/)
 * [Ashish's Solution](https://github.com/CodersGas/bootstrap-project) - [View in Browser](https://codersgas.github.io/bootstrap-project/page.html)
 * [Carlos Anriquez's solution](https://github.com/canriquez/using-bootstrap) - [View in Browser](https://canriquez.github.io/using-bootstrap/)
 * [Raiko's solution](https://github.com/Cypher0/odin-bootstrap) - [View in Browser](https://cypher0.github.io/odin-bootstrap/)
