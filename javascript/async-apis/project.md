@@ -19,6 +19,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Vuong's Solution](https://github.com/fffear/weather-app) - [View in Browsesr](https://fffear.github.io/weather-app/)
+* [eapenzacharias's Solution](https://github.com/eapenzacharias/weatherapp) - [View in Browser](https://eapenzacharias.github.io/weatherapp/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/weather-app) - [View in Browser](https://braxtonlemmon.github.io/weather-app/)
 * [Bollinca's Solution](https://github.com/bollinca/weather-app) - [View in Browser](https://bollinca.github.io/weather-app/)
 * [Julio's Solution](https://github.com/julio22b/weather-project) - [View in Browser](https://julio22b.github.io/weather-project/)

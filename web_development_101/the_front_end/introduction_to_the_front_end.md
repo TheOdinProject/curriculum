@@ -25,6 +25,7 @@ Look through these now and then use them to test yourself after doing the assign
   2. Read about the [role of HTML](http://webapps-for-beginners.rubymonstas.org/html.html) from this Ruby Monstas page.
   3. Get a high-level overview of how all three languages work together in MDN's [Getting started with the web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web). Learners should only read: Dealing with files, HTML basics, CSS basics and JavaScript basics. There is no need to implement the website; simply read about the process at this point.
   4. Familiarize yourself with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). You will not understand most of what is there just yet, but bookmark the pages for later reference.
+  5. Bookmark [DevDocs.io](https://devdocs.io/). Read the "Welcome" message. Massive API documentation collection that even works offline. Essential collection of reference material for everything covered and more. (Maintained by [FreeCodeCamp](https://www.freecodecamp.org/))
 
 </div>
 
