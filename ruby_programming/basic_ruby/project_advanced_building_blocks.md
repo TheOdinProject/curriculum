@@ -785,6 +785,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Busy Bee's Solution](https://github.com/swissbusybee/Advanced_ruby_building_blocks_Projects)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ruby-advanced-building-blocks/blob/master/my_enumerable.rb)
 * [Wilmir's Solution](https://github.com/Wilmir/Advanced_Ruby_Building_Blocks_Projects)
+* [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_advanced_building_blocks/Enumerable_methods.rb)
 </details>
 
 ### Additional Resources
