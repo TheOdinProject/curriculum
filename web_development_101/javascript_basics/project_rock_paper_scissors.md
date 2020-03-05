@@ -1308,4 +1308,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MuratCG's Solution](https://github.com/muratcangumuslu/Rock-Paper-Scissors-Game) - [View in Browser](https://muratcangumuslu.github.io/Rock-Paper-Scissors-Game/)
 - [MemMori's Solution](https://github.com/Mem-Mori/TOP-Rock-Paper-Scissors) - [View in Browser](https://mem-mori.github.io/TOP-Rock-Paper-Scissors/)
 - [headnodic's Solution](https://github.com/headnodic/the-odin-project-coursework/tree/master/web-development-101/projects/rock-paper-scissors)
+- [Fosnine's Solution](https://github.com/Fosnine/RockPaperSciccors)
 </details>
