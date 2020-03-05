@@ -92,4 +92,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/mini-message-board) - [View in Browser](https://odin-mini-message-board.herokuapp.com/)
 - [Aron's Solution](https://github.com/aronfischer/mern_message_board) - [View in Browser](https://aronfischer.github.io/mern_message_board/)
 - [Siegmeister's Solution](https://github.com/the-siegmeister/mini-message-board) - [View in Browser](https://salty-ridge-30513.herokuapp.com/)
+- [Christian's Solution](https://github.com/calamis/mini-messageboard) - [View in Browser](https://lit-mountain-92977.herokuapp.com/)
 </details>
