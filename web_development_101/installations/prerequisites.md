@@ -45,7 +45,7 @@ Click on the "New" button to create a virtual operating system. Give it a name o
 
 After completing the last step, click the "Create" button. Your new virtual OS should now appear in the menu. Right click on it, and go to "Settings". Click on the "System" tab and then the "Processor" tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer's BIOS/UEFI settings](https://www.google.com/search?q=enable+virtualization+windows).
 
-Next, go to the "Storage" tab and in the "Storage Devices" column, beside the "Controller: IDE" indicator, click the round, blue icon with the green plus (Not the blue rectangular icon to the right). This will present a drop-down menu. Click "Choose Virtual Optical Disk File..." and select the Xubuntu ISO file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
+Next, go to the "Storage" tab and in the "Storage Devices" column, beside the "Controller: IDE" indicator, click the round, blue icon with the green plus (Not the blue rectangular icon to the right). This will open a window called "Optical Disk Selector". Click the "Add" button, which is another blue icon with a green plus. Please locate your Xubuntu ISO you downloaded earlier and select it. If you aren't sure where to find it, start by looking in your Downloads folder. Once you have selected your ISO, hit the "Choose" button.
 
 With all that complete, click "OK" to save the changes.
 
