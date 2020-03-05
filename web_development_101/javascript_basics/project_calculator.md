@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Tenacious Qi's Solution](https://github.com/Tenacious-Qi/calculator) - [View in Browser](https://tenacious-qi.github.io/calculator/)
 - [Lena Chestnut's Solution](https://github.com/LenaChestnut/calculator) - [View in Browser](https://lenachestnut.github.io/calculator/)
 - [tofritz's Solution](https://github.com/tofritz/calculator) - [View in Browser](https://tofritz.com/calculator)
 - [ikraamg's Solution](https://github.com/ikraamg/Calculator) - [View in Browser](https://ikraamg.github.io/Calculator/)
