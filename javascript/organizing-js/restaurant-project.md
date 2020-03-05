@@ -135,4 +135,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [0xtaf's Solution](https://github.com/0xtaf/restaurant) - [View in Browser](https://0xtaf.github.io/restaurant/)
 - [tomstrat's Solution](https://github.com/tomstrat/restaurant) - [View in Browser](https://tomstrat.github.io/restaurant/)
 - [DamnedLag's Solution](https://github.com/Damnedlag/Project_restaurant) - [View in Browser](https://damnedlag.github.io/Project_restaurant/)
+
+add my solution to the project here https://ricardo-gonzalez-villegas.github.io/restaurant-page/
 </details>
