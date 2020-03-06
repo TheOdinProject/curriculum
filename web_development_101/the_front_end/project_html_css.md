@@ -3033,7 +3033,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [SpyingEnvy's Solution (Easy)](https://github.com/SpyingEnvelope/google-homepage) - [View in Browser](https://spyingenvelope.github.io/google-homepage/)
 * [SpyingEnvy's Solution (Hard)](https://github.com/SpyingEnvelope/google-results) - [View in Browser](https://spyingenvelope.github.io/google-results/)
 * [fortypercenttitanium's Solution (Easy)](https://github.com/fortypercenttitanium/google-homepage) - [View in Browser](https://fortypercenttitanium.github.io/google-homepage/)
-[Dan North's Solution Easy] (https://github.com/almostkewl/google-homepage) - [View in Browser] ( https://almostkewl.github.io/google-homepage/index.html)
+* [Dan North's Solution Easy](https://github.com/almostkewl/google-homepage) - [View in Browser](https://almostkewl.github.io/google-homepage/index.html)
 </details>
 
 ### Additional Resources
