@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Fabio's Solution](https://github.com/ThomYorke7/rock-paper-scissors) - [View in Browser](https://thomyorke7.github.io/rock-paper-scissors/) 
 - [Rilinda's Solution](https://github.com/RilindaA/Rock---Paper---Scissors---Game-Javascript-console-) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Rock-Paper-Scissors-Web-Browser/blob/master/RockPaperScissors.html)
 - [Jimmy's Solution](https://github.com/vincerhodes/rock-paper-scissors) - [View in Browser](https://vincerhodes.github.io/rock-paper-scissors/)
 - [Kfollen93's Solution](https://github.com/Kfollen93/RockPaperScissors) - [View in Browser](https://kfollen93.github.io/RockPaperScissors/)
