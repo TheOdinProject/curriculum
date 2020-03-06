@@ -3036,6 +3036,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [fortypercenttitanium's Solution (Easy)](https://github.com/fortypercenttitanium/google-homepage) - [View in Browser](https://fortypercenttitanium.github.io/google-homepage/)
 * [Dan North's Solution Easy](https://github.com/almostkewl/google-homepage) - [View in Browser](https://almostkewl.github.io/google-homepage/index.html)
 * [Superboy20's Solution (Easy)](https://github.com/Superboy20/google-homepage)
+* [manuelbocchia's Solution (Easy)](https://manuelbocchia.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
