@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [ekoltonski's Solution (Easy)](https://github.com/ekoltonski/google-home-project) - [View in Browser]( https://ekoltonski.github.io/google-home-project/)
 * [Adub648's Solution (Easy)](https://github.com/Adub648/google-homepage) - [View in Browser](https://adub648.github.io/google-homepage/)
 * [gregggrose's Solution (Easy)](https://github.com/gregggrose/google-homepage) - [View in Browser](https://gregggrose.github.io/google-homepage/)
 * [kathyqat's Solution (Easy)](https://github.com/kathyqat/google_homepage) - [View in Browser](https://kathyqat.github.io/google_homepage/)
@@ -3030,6 +3031,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [bertrando's Solution (Easy)](https://github.com/dobertrando/Google_site) - [View in Browser](https://dobertrando.github.io/Google_site/)
 * [shaneSC's Solution (Easy)](https://github.com/shaneSC/google-homepage) - [View in Browser](https://shanesc.github.io/google-homepage/)
 * [denvarel's Solution (Easy)](https://github.com/denvarel/google-homepage) - [View in Browser](https://denvarel.github.io/google-homepage)
+* [SpyingEnvy's Solution (Easy)](https://github.com/SpyingEnvelope/google-homepage) - [View in Browser](https://spyingenvelope.github.io/google-homepage/)
+* [SpyingEnvy's Solution (Hard)](https://github.com/SpyingEnvelope/google-results) - [View in Browser](https://spyingenvelope.github.io/google-results/)
+* [fortypercenttitanium's Solution (Easy)](https://github.com/fortypercenttitanium/google-homepage) - [View in Browser](https://fortypercenttitanium.github.io/google-homepage/)
+* [Dan North's Solution Easy](https://github.com/almostkewl/google-homepage) - [View in Browser](https://almostkewl.github.io/google-homepage/index.html)
 </details>
 
 ### Additional Resources
