@@ -37,7 +37,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Hector's Solution] (https://github.com/hectorgarcia07/caesar_cipher-odin/blob/master/caesar.rb)
+* [Bruno Novais's Solution](https://gist.github.com/novasdream/9061d0536a148b1ce77a27438c2bce19)
+* [Hector's Solution](https://github.com/hectorgarcia07/caesar_cipher-odin/blob/master/caesar.rb)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/blob/master/caesar_cipher.rb)
 * [Callie's Solution](https://github.com/callieglade/ruby_exercises/blob/master/caesar_cipher.rb)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/algorithmic_challenges/caesar_cipher.rb)
@@ -539,7 +540,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Hector's Solution] (https://github.com/hectorgarcia07/stock_picker-odin/blob/master/stock-picker.rb)
+* [Hector's Solution](https://github.com/hectorgarcia07/stock_picker-odin/blob/master/stock-picker.rb)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/blob/master/stock_picker.rb)
 * [Callie's Solution](https://github.com/callieglade/ruby_exercises/blob/master/stock_picker.rb)
 * [Hans Oliveira's Solution](https://github.com/hansnery/stock_picker)
@@ -1004,7 +1005,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Hector's Solution] (https://github.com/hectorgarcia07/substrings-odin/blob/master/substrings.rb)
+* [Hector's Solution](https://github.com/hectorgarcia07/substrings-odin/blob/master/substrings.rb)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/blob/master/substrings.rb)
 * [Callie's Solution](https://github.com/callieglade/ruby_exercises/blob/master/substrings.rb)
 * [Hans Oliveira's Solution](https://github.com/hansnery/substrings/blob/master/substrings.rb)
