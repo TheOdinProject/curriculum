@@ -135,4 +135,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [0xtaf's Solution](https://github.com/0xtaf/restaurant) - [View in Browser](https://0xtaf.github.io/restaurant/)
 - [tomstrat's Solution](https://github.com/tomstrat/restaurant) - [View in Browser](https://tomstrat.github.io/restaurant/)
 - [DamnedLag's Solution](https://github.com/Damnedlag/Project_restaurant) - [View in Browser](https://damnedlag.github.io/Project_restaurant/)
+- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/restaurant-page) - [View in Browser](https://bunnythelifeguard.github.io/restaurant-page/)
 </details>
