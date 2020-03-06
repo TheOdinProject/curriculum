@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Abdel Pérez's Solution](https://github.com/abdelp/bubble-sort)
 * [Christian Bonilla's Solution](https://github.com/Cabonilla/bubble_sort_odin_ruby/)
 * [Armo's Solution](https://github.com/Armoilane/ruby-exercises/)
 * [Nix-star's Solution](https://github.com/nix-star/abblock)
@@ -458,6 +459,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Abdel Pérez's Solution](https://github.com/abdelp/enumerable-methods)
 * [Armo's Solution](https://github.com/Armoilane/ruby-exercises/)
 * [el's Solution](https://github.com/elxa-dal/ruby-exercises/blob/master/enumerables.rb)
 * [David Auza's Solution](https://github.com/davidauza-engineer/Ruby-Advanced-Building-Blocks-Enumerable-Methods) - [View Demo](https://repl.it/@DavidAuza/Ruby-Advanced-Building-Blocks-Enumerable-Methods)
