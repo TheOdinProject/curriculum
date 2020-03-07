@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [ekoltonski's Solution (Easy)](https://github.com/ekoltonski/google-home-project) - [View in Browser]( https://ekoltonski.github.io/google-home-project/)
 * [Adub648's Solution (Easy)](https://github.com/Adub648/google-homepage) - [View in Browser](https://adub648.github.io/google-homepage/)
 * [gregggrose's Solution (Easy)](https://github.com/gregggrose/google-homepage) - [View in Browser](https://gregggrose.github.io/google-homepage/)
 * [kathyqat's Solution (Easy)](https://github.com/kathyqat/google_homepage) - [View in Browser](https://kathyqat.github.io/google_homepage/)
@@ -3026,7 +3027,21 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JZXHanta's Solution (Easy)](https://github.com/JZXHanta/google-homepage)
 * [Jimmy's (vincerhodes) Solution (Easy)](https://github.com/vincerhodes/google-homepage) - [View in Browser](https://vincerhodes.github.io/google-homepage/)
 * [Fosnine's Solution (Easy)](https://github.com/Fosnine/google-homepage) - [View in Browser](https://fosnine.github.io/google-homepage/)
-* [Samantha's Solution (Easy)](https://github.com/SWFullPotential/google-homepage) - [View in browser](https://swfullpotential.github.io/google-homepage/)
+* [mturner556's Solution (Easy)](https://github.com/mturner556/google-homepage)
+* [bertrando's Solution (Easy)](https://github.com/dobertrando/Google_site) - [View in Browser](https://dobertrando.github.io/Google_site/)
+* [shaneSC's Solution (Easy)](https://github.com/shaneSC/google-homepage) - [View in Browser](https://shanesc.github.io/google-homepage/)
+* [denvarel's Solution (Easy)](https://github.com/denvarel/google-homepage) - [View in Browser](https://denvarel.github.io/google-homepage)
+* [SpyingEnvy's Solution (Easy)](https://github.com/SpyingEnvelope/google-homepage) - [View in Browser](https://spyingenvelope.github.io/google-homepage/)
+* [SpyingEnvy's Solution (Hard)](https://github.com/SpyingEnvelope/google-results) - [View in Browser](https://spyingenvelope.github.io/google-results/)
+* [fortypercenttitanium's Solution (Easy)](https://github.com/fortypercenttitanium/google-homepage) - [View in Browser](https://fortypercenttitanium.github.io/google-homepage/)
+* [Dan North's Solution Easy](https://github.com/almostkewl/google-homepage) - [View in Browser](https://almostkewl.github.io/google-homepage/index.html)
+* [Superboy20's Solution (Easy)](https://github.com/Superboy20/google-homepage)
+* [enzoperce35's Solution (Easy)](https://github.com/enzoperce35/google-homepage) - [View in Browser](https://enzoperce35.github.io/google-homepage/)
+* [manuelbocchia's Solution (Easy)](https://github.com/manuelbocchia/google-homepage) - [View in Browser](https://manuelbocchia.github.io/google-homepage/)
+* [mateuslucch Solution (Easy)](https://github.com/mateuslucch/google-homepage) - [View in Browser]( https://mateuslucch.github.io/google-homepage/)
+* [ahanasi's Solution (Easy)](https://github.com/ahanasi/google-homepage) - [View in Browser]( https://ahanasi.github.io/google-homepage/)
+* [jnatc1's Solution [Easy)](https://github.com/jnatc1/google-homepage/)  - [View in Browser](https://jnatc1.github.io/google-homepage/)
+* [Samantha's Solution (Easy)](https://github.com/SWFullPotential/google-homepage) - [View in Browser](https://swfullpotential.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

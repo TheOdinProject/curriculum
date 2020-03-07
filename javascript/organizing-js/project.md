@@ -17,7 +17,7 @@ Before diving into the code, take a minute to think about how you are going to w
 5. The look of the User Interface is up to you, but it should be able to do the following:
    1. view all projects
    2. view all todos in each project (probably just the title and duedate.. perhaps changing color for different priorities)
-   3. expand a single todo to see/edit it's details
+   3. expand a single todo to see/edit its details
    4. delete a todo
 6. For inspiration, check out the following great todo apps. (look at screenshots, watch their introduction videos etc.)
    1. [Todoist](https://en.todoist.com/)
