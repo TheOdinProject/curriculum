@@ -45,6 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [LorriAnn's Solution](https://github.com/TechnicolorPanda/calculator) - [View in Browser](https://TechnicolorPanda.github.io/calculator/)
+- [Austin's Solution](https://github.com/cudworth/calculator) - [View in Browser](https://cudworth.github.io/calculator/)
+- [Zayeer's Solution](https://github.com/Zayeer/Basic-Calculator) - [View in Browser](https://zayeer.github.io/Basic-Calculator/)
+- [Tenacious Qi's Solution](https://github.com/Tenacious-Qi/calculator) - [View in Browser](https://tenacious-qi.github.io/calculator/)
+- [Lena Chestnut's Solution](https://github.com/LenaChestnut/calculator) - [View in Browser](https://lenachestnut.github.io/calculator/)
+- [tofritz's Solution](https://github.com/tofritz/calculator) - [View in Browser](https://tofritz.com/calculator)
 - [ikraamg's Solution](https://github.com/ikraamg/Calculator) - [View in Browser](https://ikraamg.github.io/Calculator/)
 - [Edd Sansome's Solution](https://github.com/casualc0der/calculator) - [View in Browser](https://casualc0der.github.io/calculator/)
 - [benjorama's Solution](https://github.com/benjorama/calculator) - [View in Browser](https://benjorama.github.io/calculator/)
@@ -532,4 +538,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [André Rodrigues's Solution](https://github.com/ARodrigues92/odin-calculator) - [View in Browser](https://arodrigues92.github.io/odin-calculator/)
 - [Courgette's Solution](https://github.com/bing0i/calculator) - [View in Browser](https://bing0i.github.io/calculator/)
 - [alicee88's Solution](https://github.com/alicee88/calculator) - [View in Browser](https://alicee88.github.io/calculator/)
+- [Jahtzee's Solution](https://github.com/jahtzee/top-calculator) - [View in Browser](https://jahtzee.github.io/top-calculator/)
+- [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/calculator) - [View in Browser](https://blessedonekobo.github.io/calculator/)
+- [Timework's Solution](https://github.com/Timework/Calculator) - [View in Browser](https://timework.github.io/Calculator/)
+- [seansean's Solution](https://github.com/seanrson/calculator) - [View in Browser](https://seanrson.github.io/calculator/)
+- [lousaint's Solution](https://github.com/lousaint/calculator) - [View in Browswer](https://lousaint.github.io/calculator/)
 </details>

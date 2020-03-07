@@ -30,6 +30,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hector's Solution](https://github.com/hectorgarcia07/toy_app) - [Live](https://safe-mesa-63126.herokuapp.com/)
 * [David Auza's and Luis Novoa's Solution](https://github.com/luis-novoa/rails_toy_app) - [Live](https://shrouded-island-61851.herokuapp.com/)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/toy_app) - [Live](https://toy-app-54058.herokuapp.com/)
 * [Nasser Abachi's Solution](https://github.com/abachi/toy-app) - [Live](https://abachidev-toy-app.herokuapp.com/)
@@ -161,4 +162,5 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [Hunter Marshall's Solution](https://github.com/Beidah/rails-toy-app)
 * [Nick Sokolov's Solution](https://github.com/Nickollay/Odin_Hurtl_a_toy_app) - [Live](https://nkyejuov.herokuapp.com/)
 * [guacamobley's Solution](https://github.com/guacamobley/toy_app) - [Heroku](https://damp-stream-31259.herokuapp.com/)
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/toy_app)
 </details>
