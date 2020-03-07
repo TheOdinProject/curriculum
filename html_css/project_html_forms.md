@@ -22,6 +22,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ikraamg+imahnama solution](https://github.com/ikraamg/Mint-SignUp-Replica) - [View in Browser](https://ikraamg.github.io/Mint-SignUp-Replica/)
+* [Joshysmart's solution](https://github.com/joshysmart/mint-signup-form) - [View in Browser](https://joshysmart.github.io/mint-signup-form/)
 * [Rarysson's solution](https://github.com/rarysson/sign-up-form) - [View in Browser](https://rarysson.github.io/sign-up-form/)
 * [Igorashs's solution](https://github.com/igorashs/html-forms) - [View in Browser](https://igorashs.github.io/html-forms/)
 * [MikkRou's solution](https://github.com/MikkRou/html-form) - [View in Browser](https://mikkrou.github.io/html-form/)
