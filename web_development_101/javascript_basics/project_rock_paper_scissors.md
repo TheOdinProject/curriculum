@@ -1321,4 +1321,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [m-rejdych's Solution](https://github.com/m-rejdych/rock-paper-scissors)
 - [Rilinda-Abazi's Solution](https://github.com/RilindaA/Rock---Paper---Scissors---Game-Javascript-console-)
 - [Fosnine's Solution](https://github.com/Fosnine/RockPaperSciccors)
+- [Bomarkim's Solution](https://github.com/bomarkim/rpsJS)
 </details>
