@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Etch-a-Sketch) - [View in Browser](https://andrewbaldwin44.github.io/Etch-a-Sketch/)
 * [rryand's Solution](https://github.com/rryand/sketchmatic) - [View in Browser](https://rryand.github.io/sketchmatic/)
 * [Zayeer's Solution](https://github.com/Zayeer/Etch-a-Sketch) - [View in Browser](https://zayeer.github.io/Etch-a-Sketch/)
 * [checkmate360's Solution](https://github.com/checkmate360/sketch-pad) - [View in Browser](https://checkmate360.github.io/sketch-pad/)
