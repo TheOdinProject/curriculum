@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Fabio's Solution](https://github.com/ThomYorke7/rock-paper-scissors) - [View in Browser](https://thomyorke7.github.io/rock-paper-scissors/) 
 - [Rilinda's Solution](https://github.com/RilindaA/Rock---Paper---Scissors---Game-Javascript-console-) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Rock-Paper-Scissors-Web-Browser/blob/master/RockPaperScissors.html)
 - [Jimmy's Solution](https://github.com/vincerhodes/rock-paper-scissors) - [View in Browser](https://vincerhodes.github.io/rock-paper-scissors/)
 - [Kfollen93's Solution](https://github.com/Kfollen93/RockPaperScissors) - [View in Browser](https://kfollen93.github.io/RockPaperScissors/)
@@ -112,7 +113,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [leetie's Solution](https://github.com/leetie/rockPaperScissors)
 - [isg007's Solution](https://github.com/isg007/Rock_Paper_Scissors) - [View in Browser](https://isg007.github.io/Rock_Paper_Scissors/)
 - [bach2o's Solution](https://github.com/bach2o/rock-paper-scissors)
-- [LorriAnn's Solution](https://github.com/TechnicolorPanda/rock-paper-scissors.git) - [View in Browser](https://github.com/TechnicolorPanda/rock-paper-scissors/blob/master/index.html/)
+- [LorriAnn's Solution](https://github.com/TechnicolorPanda/rock-paper-scissors.git) - [View in Browser](https://technicolorpanda.github.io/rock-paper-scissors/)
 - [Checkmate360's Solution](https://github.com/checkmate360/RPS-Game)
 - [AlexBoonDev's Solution](https://github.com/AlexBoonDev/RockPaperScissors/) - [View in Browser](https://alexboondev.github.io/RockPaperScissors/)
 - [Tim's Solution](https://github.com/timothydadams/rps) - [View in Browser](https://timothydadams.github.io/rps/)
