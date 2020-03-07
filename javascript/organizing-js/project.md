@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Edd Sansome's Solution](https://github.com/casualc0der/to-do-two) - [View in Browser](https://casualc0der.github.io/to-do-two/)
 * [Saad Tarhi's Solution](https://github.com/tarhi-saad/TodoMVC-Vanilla-ES6) - [View in Browser](https://tarhi-saad.github.io/TodoMVC-Vanilla-ES6/)
 * [Simon's Solution](https://github.com/Sim-frpt/todo-list) - [View in Browser](https://sim-frpt.github.io/todo-list/)
 * [yldrmali's Solution](https://github.com/yldrmali/todo_list/tree/master) - [View in Browser](https://yldrmali.github.io/todo_list/)
