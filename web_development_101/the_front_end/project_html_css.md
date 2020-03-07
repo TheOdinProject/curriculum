@@ -3041,6 +3041,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mateuslucch Solution (Easy)](https://github.com/mateuslucch/google-homepage) - [View in Browser]( https://mateuslucch.github.io/google-homepage/)
 * [ahanasi's Solution (Easy)](https://github.com/ahanasi/google-homepage) - [View in Browser]( https://ahanasi.github.io/google-homepage/)
 * [jnatc1's Solution [Easy)](https://github.com/jnatc1/google-homepage/)  - [View in Browser](https://jnatc1.github.io/google-homepage/)
+* [Samantha's Solution (Easy)](https://github.com/SWFullPotential/google-homepage) - [View in Browser](https://swfullpotential.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
