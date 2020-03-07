@@ -27,7 +27,6 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Samantha's Solution](https://github.com/SWFullPotential/google-homepage) - [View in browser](https://swfullpotential.github.io/google-homepage/)
 * [Igorashs's Solution](https://github.com/igorashs/building-with-responsive-design) - [View in browser](https://igorashs.github.io/building-with-responsive-design/)
 * [Zuzanna's Solution](https://marcheweczka007.github.io/Responsive-desing/) - [View in browser](https://marcheweczka007.github.io/Responsive-desing/)
 * [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/tnw-clone) - [View in browser](https://kikupiku.github.io/tnw-clone/)
