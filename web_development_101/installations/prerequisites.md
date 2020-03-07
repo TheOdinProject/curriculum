@@ -47,6 +47,8 @@ After completing the last step, click the "Create" button. Your new virtual OS s
 
 Next, go to the "Storage" tab and in the "Storage Devices" column, beside the "Controller: IDE" indicator, click the round, blue icon with the green plus (Not the blue rectangular icon to the right). This will present a drop-down menu. Click "Choose Virtual Optical Disk File..." and select the Xubuntu ISO file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
 
+If you would like to utilize more than one monitor, you can increase the "Monitor Count" attribute in the "Display" column. You may need to add some more video memory to get the slider in the green range. Once you get your VM up and running, we will explain how to display additional screens.
+
 With all that complete, click "OK" to save the changes.
 
 You can start the VM by right clicking on the icon in the menu and by clicking the large "Start" arrow at the top.
@@ -84,6 +86,8 @@ Here are some tips to help you get started in a virtual environment:
 * All of the development that you'll do related to TOP will be done in the VM.
 
 * We recommend going full screen (Edit > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+
+* If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
 </details>
 
