@@ -45,7 +45,7 @@ Click on the "New" button to create a virtual operating system. Give it a name o
 
 After completing the last step, click the "Create" button. Your new virtual OS should now appear in the menu. Right click on it, and go to "Settings". Click on the "System" tab and then the "Processor" tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer's BIOS/UEFI settings](https://www.google.com/search?q=enable+virtualization+windows).
 
-Next, go to the "Storage" tab and in the "Attributes" column, beside the "Optical Drive" indicator, click the round, blue icon. This will present a drop-down menu. Click "Choose Virtual Optical Disk File..." and select the Xubuntu ISO file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
+Next, go to the "Storage" tab and in the "Storage Devices" column, beside the "Controller: IDE" indicator, click the round, blue icon with the green plus (Not the blue rectangular icon to the right). This will present a drop-down menu. Click "Choose Virtual Optical Disk File..." and select the Xubuntu ISO file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
 
 With all that complete, click "OK" to save the changes.
 
@@ -57,7 +57,7 @@ The rest of the installation is pretty straightforward, but if you have any ques
 
 ### Step 3: Install and Enable Guest Additions
 
- Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. Guest Additions add a lot of functionality to the Guest OS, such as "Drag n Drop" files, full-screen guest mode, shared folders, and copy/paste between the host and guest.
+Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode.
 
 While your VM is running, do the following steps:
 
@@ -65,7 +65,7 @@ While your VM is running, do the following steps:
   2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
   3. The following commands will ask you to type the password you setup earlier. As you type your password, you'll notice there is no visual feedback as this is a security measure. When prompted for your password, just type it and then push Enter on your keyboard. Enter the following command into the terminal: `sudo apt-get update`. Once the command has finished, enter `sudo apt-get upgrade`. 
   4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
-  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password.
+  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password. If the terminal throws back an error, you can try again but replace $USER with your username you created in Xubuntu, but this should not be necessary.
   6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
   
   **NOTE**: 

@@ -77,6 +77,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/private_events), [view in browser](https://ovsjah-private-events.herokuapp.com/)
 * [Dennis Cope's solution](https://github.com/coped/private-events) - [View in browser](https://private-events-top-coped.herokuapp.com/)
 * [Ian's solution](https://github.com/IanMKesler/private_events)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/private-events) - [View in browser](https://safe-retreat-68130.herokuapp.com/)
