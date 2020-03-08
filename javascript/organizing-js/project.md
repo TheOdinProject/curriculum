@@ -36,6 +36,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 * Add your solution below this line!
 * [Edd Sansome's Solution](https://github.com/casualc0der/to-do-two) - [View in Browser](https://casualc0der.github.io/to-do-two/)
+* [Lenny's Solution](https://github.com/Lenn-e/todo-list) - [View in Browser](https://lenn-e.github.io/todo-list/)
 * [Katarzyna Kaswen-Wilk](https://github.com/kikupiku/to-do-list) - [View in Browser](https://kikupiku.github.io/to-do-list/)
 * [Saad Tarhi's Solution](https://github.com/tarhi-saad/TodoMVC-Vanilla-ES6) - [View in Browser](https://tarhi-saad.github.io/TodoMVC-Vanilla-ES6/)
 * [Simon's Solution](https://github.com/Sim-frpt/todo-list) - [View in Browser](https://sim-frpt.github.io/todo-list/)
