@@ -3042,8 +3042,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ahanasi's Solution (Easy)](https://github.com/ahanasi/google-homepage) - [View in Browser]( https://ahanasi.github.io/google-homepage/)
 * [jnatc1's Solution [Easy)](https://github.com/jnatc1/google-homepage/)  - [View in Browser](https://jnatc1.github.io/google-homepage/)
 * [Samantha's Solution (Easy)](https://github.com/SWFullPotential/google-homepage) - [View in Browser](https://swfullpotential.github.io/google-homepage/)
-* [CodeNewbie131's Solution (Easy)](https://codenewbie131.github.io/google-homepage/) - [View in Browser](https://codenewbie131.github.io/google-homepage/)
-* [mwestep's Solution (Easy)](https://mwestep.github.io/google-homepage/) - [View in Browser](https://mwestep.github.io/google-homepage/)
+* [CodeNewbie131's Solution (Easy)](https://github.com/codenewbie131/google-homepage) - [View in Browser](https://codenewbie131.github.io/google-homepage/)
+* [mwestep's Solution (Easy)](https://github.com/mwestep/google-homepage) - [View in Browser](https://mwestep.github.io/google-homepage/)
+* [Stork90210 Solution (Easy)](https://github.com/stork90210/google-homepage) - [View in Browser](https://stork90210.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
