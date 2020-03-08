@@ -140,4 +140,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/tictactoe) - [View in Browser](https://bunnythelifeguard.github.io/tictactoe/)
 - [Ivnosing's Solution](https://github.com/Ivnosing/tic-tac-toe) - [View in Browser](https://ivnosing.github.io/tic-tac-toe/)
 - [DamnedLag's Solution](https://github.com/Damnedlag/Project-TicTacToe) - [View in Browser](https://damnedlag.github.io/Project-TicTacToe/)
+- Rye Guy (https://github.com/r-hathcock/tic_tac_toe) please add my solution.
 </details>
