@@ -22,7 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Johongir's solution](https://github.com/Johongirr/mint-signup-page) - [View in Browser](https://johongirr.github.io/mint-signup-page/)
+* [Johongir's solution](https://github.com/Johongirr/mint-signup-page)- [View in Browser](https://johongirr.github.io/mint-signup-page/)
 * [ikraamg+imahnama solution](https://github.com/ikraamg/Mint-SignUp-Replica) - [View in Browser](https://ikraamg.github.io/Mint-SignUp-Replica/)
 * [Joshysmart's solution](https://github.com/joshysmart/mint-signup-form) - [View in Browser](https://joshysmart.github.io/mint-signup-form/)
 * [Rarysson's solution](https://github.com/rarysson/sign-up-form) - [View in Browser](https://rarysson.github.io/sign-up-form/)
