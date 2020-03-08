@@ -3043,10 +3043,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [jnatc1's Solution [Easy)](https://github.com/jnatc1/google-homepage/)  - [View in Browser](https://jnatc1.github.io/google-homepage/)
 * [Samantha's Solution (Easy)](https://github.com/SWFullPotential/google-homepage) - [View in Browser](https://swfullpotential.github.io/google-homepage/)
 * [mwestep's Solution (Easy)](https://mwestep.github.io/google-homepage/) - [View in Browser](https://mwestep.github.io/google-homepage/)
+* [unelko's Solution (Easy)](https://github.com/Unelko/Google-Home/) - [View in Browser](https://unelko.github.io/Google-Home/)          
 </details>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into somethrowing.
 
 If you still feel shaky on your understanding of HTML and CSS, that's okay! You don't need to be an expert by any means yet. These resources should help if you want to shore up your understanding of things:
 
