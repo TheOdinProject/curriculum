@@ -43,9 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Etch-a-Sketch) - [View in Browser](https://andrewbaldwin44.github.io/Etch-a-Sketch/)
-=======
 * [LorriAnn's Solution](https://github.com/TechnicolorPanda/etch-a-sketch) - [View in Browser](https://TechnicolorPanda.github.io/etch-a-sketch/)
 * [Brandon's Solution](https://github.com/bstottler/etchasketch) - [View in Browser](https://bstottler.github.io/etchasketch/)
 * [YesSeri's Solution](https://github.com/YesSeri/etch-a-sketch) - [View in Browser](https://yesseri.github.io/etch-a-sketch/)
@@ -57,7 +55,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [kdayno's Solution](https://github.com/kdayno/etch-a-sketch) - [View in Browser](https://kdayno.github.io/etch-a-sketch/)
 * [Cristian's Solution](https://github.com/montescadenas/Etch-a-Sketch) - [View in Browser](https://montescadenas.github.io/Etch-a-Sketch/)
 * [benyan's Solution](https://github.com/OnlyByDesign/top-assignments/etch-a-sketch/) - [View in Browser](https://onlybydesign.github.io/etch-a-sketch/)
->>>>>>> a31aaf2a9e4f5bccca8123c36f9930cb0ccfbf3d
 * [rryand's Solution](https://github.com/rryand/sketchmatic) - [View in Browser](https://rryand.github.io/sketchmatic/)
 * [Zayeer's Solution](https://github.com/Zayeer/Etch-a-Sketch) - [View in Browser](https://zayeer.github.io/Etch-a-Sketch/)
 * [checkmate360's Solution](https://github.com/checkmate360/sketch-pad) - [View in Browser](https://checkmate360.github.io/sketch-pad/)
