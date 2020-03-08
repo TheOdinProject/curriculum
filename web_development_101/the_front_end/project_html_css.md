@@ -3044,6 +3044,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Samantha's Solution (Easy)](https://github.com/SWFullPotential/google-homepage) - [View in Browser](https://swfullpotential.github.io/google-homepage/)
 * [CodeNewbie131's Solution (Easy)](https://codenewbie131.github.io/google-homepage/) - [View in Browser](https://codenewbie131.github.io/google-homepage/)
 * [mwestep's Solution (Easy)](https://mwestep.github.io/google-homepage/) - [View in Browser](https://mwestep.github.io/google-homepage/)
+* [dm-murphy's Solution (Easy)](https://github.com/dm-murphy/google-homepage) - [View in Browser](https://dm-murphy.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
