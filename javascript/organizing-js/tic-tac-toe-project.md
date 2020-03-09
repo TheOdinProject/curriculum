@@ -1,9 +1,7 @@
 ### Introduction
-
 We're making a Tic Tac Toe game you can play in your browser!
 
 ### Assignment
-
 <div class="lesson-content__panel" markdown="1">
 1. Set up your project with a HTML, CSS and Javascript files and get the Git repo all set up.
 2. You're going to store the gameboard as an array inside of a Gameboard object, so start there!  Your players are also going to be stored in objects... and you're probably going to want an object to control the flow of the game itself.
@@ -142,4 +140,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/tictactoe) - [View in Browser](https://bunnythelifeguard.github.io/tictactoe/)
 - [Ivnosing's Solution](https://github.com/Ivnosing/tic-tac-toe) - [View in Browser](https://ivnosing.github.io/tic-tac-toe/)
 - [DamnedLag's Solution](https://github.com/Damnedlag/Project-TicTacToe) - [View in Browser](https://damnedlag.github.io/Project-TicTacToe/)
-  </details>
+- [Rye Guy's Solution](https://github.com/r-hathcock/tic_tac_toe)
+</details>

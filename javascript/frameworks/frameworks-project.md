@@ -59,4 +59,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [mmboyce's React Restaurant Page Solution](https://github.com/mmboyce/restaurant-page-react) - [View in Browser](https://mmboyce.github.io/restaurant-page-react/)
 * [Mo's React Todo App Solution](https://github.com/hamohuh/react-todo/tree/gh-pages) - [View in Browser](https://hamohuh.github.io/react-todo/)
 * [JoshAubrey's Vue Restaurant Page Solution](https://github.com/JoshAubrey/vue-restaurant-page) - [View in Browser](https://joshaubrey.github.io/vue-restaurant-page/)
+* [0xtaf's React Restaurant Page Solution](https://github.com/0xtaf/react-restaurant) - [View in Browser](https://0xtaf.github.io/react-restaurant/)
 </details>
