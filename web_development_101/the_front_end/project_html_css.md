@@ -3048,6 +3048,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Stork90210 Solution (Easy)](https://github.com/stork90210/google-homepage) - [View in Browser](https://stork90210.github.io/google-homepage/)
 * [dm-murphy's Solution (Easy)](https://github.com/dm-murphy/google-homepage) - [View in Browser](https://dm-murphy.github.io/google-homepage/)
 * [StephSz's Solution (Easy)](https://github.com/StephSz/google-homepage) - [View in Browser](https://stephsz.github.io/google-homepage/)
+* [derekdkim's Solution (Easy)](https://github.com/derekdkim/GoogleHomepageClone) - [View in Browser](https://derekdkim.github.io/GoogleHomepageClone/index.html/)
 </details>
 
 ### Additional Resources
