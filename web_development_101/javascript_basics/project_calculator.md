@@ -45,8 +45,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Diane998's Solution](https://github.com/Diane998/calculator) - [View in Browser](https://diane998.github.io/calculator/)
 - [LorriAnn's Solution](https://github.com/TechnicolorPanda/calculator) - [View in Browser](https://TechnicolorPanda.github.io/calculator/)
 - [Austin's Solution](https://github.com/cudworth/calculator) - [View in Browser](https://cudworth.github.io/calculator/)
