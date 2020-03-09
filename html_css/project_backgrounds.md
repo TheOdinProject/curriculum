@@ -24,6 +24,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+
+*[Estela's Solution] (https://estelajimero.github.io/building-background/) - [View in Browser](https://estelajimero.github.io/building-background/)
 * [ikraamg's Solution](https://github.com/ikraamg/apple.com-clone) - [View in Browser](https://ikraamg.github.io/apple.com-clone/)
 * [Igorashs's Solution](https://github.com/igorashs/building-with-backgrounds-and-gradients) - [View in Browser](https://igorashs.github.io/building-with-backgrounds-and-gradients/)
 * [Basskip's Solution](https://github.com/Basskip/backgrounds-and-gradients) - [View in Browser](http://basskip.com/backgrounds-and-gradients/)
