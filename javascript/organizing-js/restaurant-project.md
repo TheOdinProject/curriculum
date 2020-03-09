@@ -134,4 +134,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Hamohuh's Solution](https://github.com/hamohuh/Restaurant) - [View in Browser](https://hamohuh.github.io/Restaurant/)
 - [0xtaf's Solution](https://github.com/0xtaf/restaurant) - [View in Browser](https://0xtaf.github.io/restaurant/)
 - [tomstrat's Solution](https://github.com/tomstrat/restaurant) - [View in Browser](https://tomstrat.github.io/restaurant/)
+- [DamnedLag's Solution](https://github.com/Damnedlag/Project_restaurant) - [View in Browser](https://damnedlag.github.io/Project_restaurant/)
+- [ricardo-gonzalez-villegas' Solution](https://github.com/ricardo-gonzalez-villegas/restaurant-page/) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/restaurant-page/)
+- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/restaurant-page) - [View in Browser](https://bunnythelifeguard.github.io/restaurant-page/)
+- [Y02WK's Solution](https://github.com/Y02WK/cafe_toki) - [View in Browser](https://y02wk.github.io/cafe_toki/)
 </details>

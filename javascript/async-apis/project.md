@@ -19,6 +19,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [yldrmali's Solution](https://github.com/yldrmali/weather_app/tree/master) - [View in Browsesr](https://yldrmali.github.io/weather_app/)
 * [Kevin Vuong's Solution](https://github.com/fffear/weather-app) - [View in Browsesr](https://fffear.github.io/weather-app/)
 * [eapenzacharias's Solution](https://github.com/eapenzacharias/weatherapp) - [View in Browser](https://eapenzacharias.github.io/weatherapp/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/weather-app) - [View in Browser](https://braxtonlemmon.github.io/weather-app/)
@@ -65,4 +66,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Krzysztof Sordyl's Solution](https://github.com/Verthon/Weather-App) - [View in Browser](https://verthon.github.io/Weather-App/)
 * [Aron's Solution](https://github.com/aronfischer/react_weather_app) - [View in Browser](https://aronfischer.github.io/react_weather_app/)
 * [Kelvin Liang's Solution](https://github.com/kelvin8773/odin-weather-app) - [View in Browser](https://my-weather-now.netlify.com/)
+* [Emil Dimitrov's Solution](https://github.com/edmtrv/weather-app) - [View in Browser](https://edmtrv.github.io/weather-app/)
 </details>
