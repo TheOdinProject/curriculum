@@ -43,17 +43,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-* [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
-=======
-=======
 * [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
 * [developmentgb's Solution](https://github.com/DevelopmentGB/Etch_a_Sketch) - [View in Browser](https://developmentgb.github.io/Etch_a_Sketch/)
 * [Rachel's Solution](https://github.com/rlmoser99/etch-a-sketch) - [View in Browser](https://rlmoser99.github.io/etch-a-sketch/)
->>>>>>> 509d8c798059833f5e67214e51f70fa9e00dab31
-=======
+509d8c798059833f5e67214e51f70fa9e00dab31
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Etch-a-Sketch) - [View in Browser](https://andrewbaldwin44.github.io/Etch-a-Sketch/)
 * [LorriAnn's Solution](https://github.com/TechnicolorPanda/etch-a-sketch) - [View in Browser](https://TechnicolorPanda.github.io/etch-a-sketch/)
 * [Brandon's Solution](https://github.com/bstottler/etchasketch) - [View in Browser](https://bstottler.github.io/etchasketch/)
