@@ -2,6 +2,7 @@
 We're making a Tic Tac Toe game you can play in your browser!
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 1. Set up your project with a HTML, CSS and Javascript files and get the Git repo all set up.
 2. You're going to store the gameboard as an array inside of a Gameboard object, so start there!  Your players are also going to be stored in objects... and you're probably going to want an object to control the flow of the game itself.
@@ -18,7 +19,6 @@ We're making a Tic Tac Toe game you can play in your browser!
 </div>
 
 ### Student Solutions
-
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/tic-tac-toe-project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
@@ -46,7 +46,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Simon's Solution](https://github.com/Sim-frpt/tic-tac-toe) - [View in Browser](https://sim-frpt.github.io/tic-tac-toe/)
 - [Joshysmart's solution (with Minimax)](https://github.com/igorashs/tic-tac-toe) - [View in Browser](https://joshysmart.github.io/tic-tac-toe/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/TicTacTo) - [View in Browser](https://zyusuf10.github.io/TicTacTo/index.html)
-- [Shivam's Solution](https://github.com/shivamsaigupta/tic-tac-toe) - [View in Browser](https://shivamsaigupta.github.io/tic-tac-toe/) -[Sherman's Solution](https://github.com/shermansjliu/tic-tac-toe-js) - [View in Browser](https://shermansjliu.github.io/tic-tac-toe-js/.)
+- [Shivam's Solution](https://github.com/shivamsaigupta/tic-tac-toe) - [View in Browser](https://shivamsaigupta.github.io/tic-tac-toe/) -[Sherman's Solution](https://github.com/shermansjliu/tic-tac-toe-js) - [View in Browser](https://shermansjliu.github.io/tic-tac-toe-js/)
 - [Kevin Vuong's solution](https://github.com/fffear/tic-tac-toe-js) - [View in Browser](https://fffear.github.io/tic-tac-toe-js/)
 - [Disco-Trooper's solution (with Minimax)](https://github.com/disco-trooper/tic-tac-toe) - [View in Browser](http://disco-trooper.github.io/tic-tac-toe/)
 - [Braxton's solution](https://github.com/braxtonlemmon/tic-tac-toe-js) - [View in Browser](https://braxtonlemmon.github.io/tic-tac-toe-js/)
@@ -126,7 +126,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Harry Coburn's Solution](https://github.com/mattibun/odin-tic-tac-toe) - [View in Browser](https://mattibun.github.io/odin-tic-tac-toe)
 - [Martink-rsa's Solution](https://github.com/martink-rsa/tic_tac_toe/) - [View in Browser](https://martink-rsa.github.io/tic_tac_toe/)
 - [Joe Lee's Solution](https://github.com/joedravarol/tic_tac_toe) - [View in Browser](https://joedravarol.github.io/tic_tac_toe/)
-- [Brendaneus' Solution](<https://theodinprojects.live/courses/javascript/projects/tic-tac-toe-(javascript)>)
+- [Brendaneus' Solution](https://theodinprojects.live/courses/javascript/projects/tic-tac-toe-(javascript))
 - [Andrécio's Solution](https://github.com/andreciobezerra/tic-tac-toe) - [View in Browser](https://andreciobezerra.github.io/tic-tac-toe/)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/tictactoe-js) - [View in Browser](https://edmtrv.github.io/tictactoe-js/)
 - [Vorelli's Solution](https://github.com/Vorelli/Tic-Tac-Toe) - [View in Browser](https://vorelli.github.io/Tic-Tac-Toe/)
