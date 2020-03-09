@@ -69,6 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Olugbade Olalekan's Solution (with extra credit)](https://github.com/gbadesimple/data_structure_linked_list)
 - [Bradley's Solution (with extra credit)](https://github.com/spaceincase/odin-project-exercises/tree/master/linked_lists)
 - [Billy's Solution (with extra credit)](https://github.com/bcoffin9/project_linked_list)
 - [Sher's Solution (with extra credit)](https://github.com/sher-s7/linkedlist)
@@ -217,4 +218,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Robert Suazo's solution](https://github.com/rsuazo/linked_lists/blob/master/linked_lists.rb)
 - [Ranon Martin's solution (with extra credit)](https://github.com/ranonm/TheOdinProjectExercises/tree/master/linked_list)
 - [unheavenlycreature's solution (with extra credit)](https://github.com/unheavenlycreature/linkedlist)
+- [hyperturing's solution (with extra credit)](https://github.com/hyperturing/linked-list)
   </details>

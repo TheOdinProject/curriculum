@@ -32,6 +32,8 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Brandon Austin's Solution](https://github.com/brandonricharda/pomodoro) - [View in Browser](https://brandonricharda.github.io/pomodoro/)
+* [Ogunmola Israel's Solution](https://github.com/Lippins/pomodoro_timer) - [View in Browser](https://lippins.github.io/pomodoro_timer/)
 * [Tim Shea's Solution](https://github.com/tpsst5/pomodoro_timer) - [View in Browser](https://tpsst5.github.io/pomodoro_timer/)
 * [CharlotteHues' Solution](https://github.com/charlotte-hues/pomodoro) - [View in Browser](https://charlotte-hues.github.io/pomodoro/)
 * [mjwills-inf's Solution](https://github.com/mjwills-inf/myPomo) - [View in Browser](https://mjwills-inf.github.io/myPomo/)
@@ -178,6 +180,8 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/pomodoro) - [View in Browser](https://unheavenlycreature.github.io/pomodoro)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/pomodoro-clock) - [View in Browser](https://eduardo06sp.github.io/pomodoro-clock/)
 * [Courgette's Solution](https://github.com/bing0i/pomodoro-clock) - [View in Browser](https://bing0i.github.io/pomodoro-clock/)
+* [André Rodrigues's Solution](https://github.com/ARodrigues92/odin-pomodoro) - [View in Browser](https://arodrigues92.github.io/odin-pomodoro/)
+* [Sonya's Solution](https://github.com/murdens/Pomodoro) - [View in Browser](https://murdens.github.io/Pomodoro/)
 </details>
 
 ### Next Steps

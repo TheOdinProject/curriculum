@@ -31,6 +31,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Oscar's Solution](https://github.com/lookupforsirius/learn_ruby)
+* [Brandon-Richard Austin's Solution](https://github.com/brandonricharda/learn_ruby)
+* [Luan Nguyen's Solution](https://github.com/luan-nguyen20/learn_ruby)
+* [Rachel Moser's Solution](https://github.com/rlmoser99/learn_ruby)
 * [SantiMC's Solution](https://github.com/santimc/learn_ruby)
 * [Mark Kourie's Solution](https://github.com/MarkKourie/learn_ruby)
 * [Alexis Zambrano's Solution](https://github.com/Alexoid1/learn_ruby)
@@ -633,6 +637,17 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/learn_ruby)
 * [barrysweeney's Solution](https://github.com/barrysweeney/learn_ruby)
 * [Cacurriapower's Solution](https://github.com/Cacurriapower/learn_ruby)
+* [Cbo-11's Solution](https://github.com/Cbo-11/Ruby-Basics-Project)
+* [Cinthia's Solution](https://github.com/cinthiagodoi/learn_ruby)
+* [pudu87's Solution](https://github.com/pudu87/learn_ruby)
+* [feseka61's Solution](https://github.com/feseka61/learn_ruby)
+* [Nina's Solution](https://github.com/niin44/learn_ruby)
+* [Sonya's Solution](https://github.com/murdens/learn_ruby_sonya)
+* [Sahmie's Solution](https://github.com/Sahmie/learn_ruby)
+* [Jahtzee's Solution](https://github.com/jahtzee/learn_ruby)
+* [alicee88's Solution](https://github.com/alicee88/learn_ruby)
+* [Wmisback's Solution](https://github.com/wmisback/learn_ruby)
+* [seansean's Solution](https://github.com/seanrson/learn_ruby)
 </details>
 
 ### Additional Resources
