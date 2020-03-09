@@ -99,6 +99,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/members-only)
+* [Joshua Aldridge's Solution](https://github.com/JFAldridge/members-only) - [Heroku](https://polar-mountain-42157.herokuapp.com/)
+* [Leo Holanda's Solution](https://github.com/leo-holanda/members-only) - [Heroku](https://boiling-hamlet-71286.herokuapp.com/)
+* [Nasser Abachi's Solution](https://github.com/abachi/clubhouse) - [Heroku](https://abachidev-clubhouse.herokuapp.com/)
 * [Ian's Solution](https://github.com/IanMKesler/members-only)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/members-only)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/members-only) - [Heroku](https://hidden-headland-49130.herokuapp.com/)

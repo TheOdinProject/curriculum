@@ -11,7 +11,7 @@ Before continuing, let's review a few best practices to keep in mind:
 Now, let's get started!
 
 <details markdown="block">
-<summary class="dropDown-header">Linux / WSL
+<summary class="dropDown-header">Ubuntu / Xubuntu / WSL
 </summary>
 
 ### Step 1: Install Updates, Packages and Libraries
@@ -88,13 +88,13 @@ Finally, run
 rbenv -v
 ~~~~
 
- from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number similar to this:
+ from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number **similar** to this:
 
 ~~~bash
 rbenv 1.1.2-2-g4e92322
 ~~~
 
-If you do not get a version number, please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
+If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
 #### Step 2.2: Install Ruby
 

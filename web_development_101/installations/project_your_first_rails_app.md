@@ -9,7 +9,7 @@ Before continuing, let's review a few best practices to keep in mind:
 * Copy and paste the commands to avoid typos.
 * If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
 
-In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/hvqVr6d).
+In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/hvqVr6d). You can also use the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) to check if someone else had a similar problem and how they solved it.
 
 **Reminder**: In this lesson you'll see shaded boxes that contain text like the one below.
 
@@ -162,7 +162,7 @@ After the terminal finishes its magic, return to your GitHub repository and refr
 
 This marks the start of your Odin journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
 
-#### Step 3: Deploy Your Rails Application
+### Step 3: Deploy Your Rails Application
 
 Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working.
 
