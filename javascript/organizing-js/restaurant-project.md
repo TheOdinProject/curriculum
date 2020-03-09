@@ -48,6 +48,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+- [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/restrauntPage) - [View in Browser](https://zyusuf10.github.io/restrauntPage/)
+- [Kevin Vuong's Solution](https://github.com/fffear/restaurant-page-project-js) - [View in Browser](https://fffear.github.io/restaurant-page-project-js/)
+- [Hassanbhb's Solution](https://github.com/Hassanbhb/Vegi) - [View in Browser](https://hassanbhb.github.io/Vegi/)
 - [Braxton's Solution](https://github.com/braxtonlemmon/restaurant-page) - [View in Browser](https://braxtonlemmon.github.io/restaurant-page/)
 - [Julio's Solution](https://github.com/julio22b/restaurant-page) - [View in Browser](https://julio22b.github.io/restaurant-page/)
 - [Esteban's Solution](https://github.com/estebanmoroy/restaurant-page) - [View in Browser](https://estebanmoroy.github.io/restaurant-page)
@@ -106,5 +110,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Brendaneus' Solution](https://theodinprojects.live/courses/javascript/projects/restaurant-page)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/game-page) - [View in Browser](https://edmtrv.github.io/game-page/)
 - [Edehe's Solution](https://github.com/edehlol/restaurant) - [View in Browser](https://edehlol.github.io/restaurant/)
-
+- [AlexGioff's Solution](https://github.com/AlexGioffDev/Restaurant) - [View in Browser](https://alexgioffdev.github.io/Restaurant/)
+- [Supasus's Solution](https://github.com/supasus/js-restaurant-page) - [View in Browser](https://supasus.github.io/js-restaurant-page/)
+- [kylazath's Solution](https://github.com/kylazath/webpack-test) - [View in Browser](https://kylazath.github.io/webpack-test/index.html)
 </details>

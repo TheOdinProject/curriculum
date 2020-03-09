@@ -94,9 +94,9 @@ In the terminal, type
 rails server
 ~~~
 
-Now, go to your browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like!
+Now, go to your browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! **Note:** If you're using a VM, you will need to open the browser inside of your VM in order for this to work.
 
-When you're satisfied, go back to the terminal where Rails is running, and type `Ctrl + C` to end the application.
+Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like! When you're satisfied, go back to the terminal where Rails is running, and type `Ctrl + C` to end the application.
 
 ### Step 2: Initialize Git and Push to GitHub
 

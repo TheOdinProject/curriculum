@@ -25,6 +25,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/TicTacTo) - [View in Browser](https://zyusuf10.github.io/TicTacTo/index.html)
+- [Shivam's Solution](https://github.com/shivamsaigupta/tic-tac-toe) - [View in Browser](https://shivamsaigupta.github.io/tic-tac-toe/)
+-[Sherman's Solution](https://github.com/shermansjliu/tic-tac-toe-js) - [View in Browser](https://shermansjliu.github.io/tic-tac-toe-js/.)
+- [Kevin Vuong's solution](https://github.com/fffear/tic-tac-toe-js) - [View in Browser](https://fffear.github.io/tic-tac-toe-js/)
 - [Disco-Trooper's solution (with Minimax)](https://github.com/disco-trooper/tic-tac-toe) - [View in Browser](http://disco-trooper.github.io/tic-tac-toe/)
 - [Braxton's solution](https://github.com/braxtonlemmon/tic-tac-toe-js) - [View in Browser](https://braxtonlemmon.github.io/tic-tac-toe-js/)
 - [Alex's solution](https://github.com/AlexDorrington/Tic-Tac-Toe) - [View in Browser](https://alexdorrington.github.io/Tic-Tac-Toe/)
@@ -95,11 +99,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ubaid Manzoor Wani](https://github.com/Ubaid-Manzoor/Tic-Tac-To) - [View in Browser](https://ubaid-manzoor.github.io/Tic-Tac-To/)
 - [JamCry's Solution](https://github.com/jamcry/js-tictactoe) - [View in Browser](https://jamcry.github.io/js-tictactoe/)
 - [Maxime's Solution](https://github.com/Maxime-Beaufils/JS-TicTacToe-PvsAI) - [View in Browser](https://maxime-beaufils.github.io/JS-TicTacToe-PvsAI/)
-- [Ousmane's solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in Browser](https://kitague.github.io/Tic-Tac-Toe-Game/) 
-- [Gene Mecija's Solution](https://github.com/genemecija/Tic-Tac-Toe) - [View in Browser](https://genemecija.github.io/Tic-Tac-Toe/) 
-- [Javier Arias's Solution](https://github.com/jfariasf/TOP-tictactoe) - [View in Browser](https://jfariasf.github.io/TOP-tictactoe/) 
+- [Ousmane's solution](https://kitague.github.io/Tic-Tac-Toe-Game/) - [View in Browser](https://kitague.github.io/Tic-Tac-Toe-Game/)
+- [Gene Mecija's Solution](https://github.com/genemecija/Tic-Tac-Toe) - [View in Browser](https://genemecija.github.io/Tic-Tac-Toe/)
+- [Javier Arias's Solution](https://github.com/jfariasf/TOP-tictactoe) - [View in Browser](https://jfariasf.github.io/TOP-tictactoe/)
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/tictactoe) - [View in Browser](https://mrryanfloyd.github.io/tictactoe/)
-- [JoshAubrey's Solution](https://github.com/JoshAubrey/tic-tac-toe) - [View in Browser](https://joshaubrey.github.io/tic-tac-toe/) 
+- [JoshAubrey's Solution](https://github.com/JoshAubrey/tic-tac-toe) - [View in Browser](https://joshaubrey.github.io/tic-tac-toe/)
 - [Harry Coburn's Solution](https://github.com/mattibun/odin-tic-tac-toe) - [View in Browser](https://mattibun.github.io/odin-tic-tac-toe)
 - [Martink-rsa's Solution](https://github.com/martink-rsa/tic_tac_toe/) - [View in Browser](https://martink-rsa.github.io/tic_tac_toe/)
 - [Joe Lee's Solution](https://github.com/joedravarol/tic_tac_toe) - [View in Browser](https://joedravarol.github.io/tic_tac_toe/)
@@ -108,4 +112,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/tictactoe-js) - [View in Browser](https://edmtrv.github.io/tictactoe-js/)
 - [Vorelli's Solution](https://github.com/Vorelli/Tic-Tac-Toe) - [View in Browser](https://vorelli.github.io/Tic-Tac-Toe/)
 - [Jkraf002's Solution](https://github.com/jkraf002/tic-tac-toe) - [View in Browser](https://jkraf002.github.io/tic-tac-toe/)
+- [AlexGioffDev's Solution](https://github.com/AlexGioffDev/JS_TicTacToeGame) - [View in Browser](https://alexgioffdev.github.io/JS_TicTacToeGame/)
+- [Supasus's Solution](https://supasus.github.io/js-tictactoe/) - [View in Browser](https://github.com/supasus/js-tictactoe)
 </details>
+- [mmboyce's Solution](https://github.com/mmboyce/tic-tac-toe/) - [View in Browser](https://mmboyce.github.io/tic-tac-toe/)
