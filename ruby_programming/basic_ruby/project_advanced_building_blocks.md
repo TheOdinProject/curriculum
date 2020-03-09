@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [David Auza's and Falguni Islam's Solution](https://github.com/eng-monika/RUBY-PROJECT-Advanced-Building-Blocks---Bubble-Sort) - [View Demo](https://repl.it/@DavidAuza/Bubble-Sort-Algorithm-Demo)
 * [olsi2984's Solution](https://github.com/olsi2984/Ruby_projects/blob/master/Enumerable_methods/enumerable.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/advanced_building_blocks/p1_bubble_sort)
 * [Johongirr's Solution](https://github.com/Johongirr/ruby_coding_challenges/blob/master/bubble_sort.rb)

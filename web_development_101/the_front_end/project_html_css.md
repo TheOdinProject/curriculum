@@ -2834,7 +2834,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [CPMSP's Solution (Easy)](https://github.com/CPMSP/google_homepage)
 * [Drew Goldstein's Solution (Easy)](https://github.com/drewgoldstein95/google-homepage) - [View in Browser](https://drewgoldstein95.github.io/google-homepage/)
 * [TomikBoi's Solution (Easy)](https://github.com/TomikBoi/google-homepage) - [View in Browser](https://tomikboi.github.io/google-homepage/)
+* [Y02WK's Solution (Easy + Difficult)](https://github.com/Y02WK/google-homepage)
+* [Timework's Solution (Easy)](https://timework.github.io/google-homepage) - [View in Browser](https://timework.github.io/google-homepage/)
+* [Agney's Solution (Easy)](https://agneypraseed.github.io/google-homepage/)
 * [Courgette's Solution (Easy)](https://github.com/bing0i/google-homepage) - [View in Browser](https://bing0i.github.io/google-homepage/)
+* [Shwig's Solution (Easy)](https://github.com/Shwig/google-homepage) - [View in Browser](https://Shwig.github.io/google-homepage/)
+* [Shwig's Solution (Difficult)](https://github.com/Shwig/google-resultspage) - [View in Browser](https://Shwig.github.io/google-resultspage/)
 </details>
 
 ### Additional Resources
