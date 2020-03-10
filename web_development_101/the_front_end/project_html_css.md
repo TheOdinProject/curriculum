@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [wesgray76's Solution (Easy)](https://github.com/wesgray76/google_homepage) - [View in Browser](https://wesgray76.github.io/google_homepage/)
+* [Pratiks's Solution (Easy)](https://github.com/Pratik-Gohil/GoogleClone) - [View in Browser](https://pratik-gohil.github.io/GoogleClone/)
 * [ekoltonski's Solution (Easy)](https://github.com/ekoltonski/google-home-project) - [View in Browser]( https://ekoltonski.github.io/google-home-project/)
 * [Adub648's Solution (Easy)](https://github.com/Adub648/google-homepage) - [View in Browser](https://adub648.github.io/google-homepage/)
 * [gregggrose's Solution (Easy)](https://github.com/gregggrose/google-homepage) - [View in Browser](https://gregggrose.github.io/google-homepage/)
@@ -3049,6 +3051,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [dm-murphy's Solution (Easy)](https://github.com/dm-murphy/google-homepage) - [View in Browser](https://dm-murphy.github.io/google-homepage/)
 * [StephSz's Solution (Easy)](https://github.com/StephSz/google-homepage) - [View in Browser](https://stephsz.github.io/google-homepage/)
 * [derekdkim's Solution (Easy)](https://github.com/derekdkim/GoogleHomepageClone) - [View in Browser](https://derekdkim.github.io/GoogleHomepageClone/index.html/)
+* [Ahmed Magdy Seleem's Solution (Easy)](https://github.com/Ahmed-Magdy-S/Build-Google-Homepage-Easy-Version) - [View in Browser](https://ahmed-magdy-s.github.io/Build-Google-Homepage-Easy-Version/)
 </details>
 
 ### Additional Resources
