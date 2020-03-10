@@ -3053,6 +3053,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [derekdkim's Solution (Easy)](https://github.com/derekdkim/GoogleHomepageClone) - [View in Browser](https://derekdkim.github.io/GoogleHomepageClone/index.html/)
 * [Ahmed Magdy Seleem's Solution (Easy)](https://github.com/Ahmed-Magdy-S/Build-Google-Homepage-Easy-Version) - [View in Browser](https://ahmed-magdy-s.github.io/Build-Google-Homepage-Easy-Version/)
 </details>
+* [Erica Melo de Carvalho (Easy)] (https://github.com/ericamelocarvalho/google/) - [View in Browser] (https://ericamelocarvalho.github.io/google/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
