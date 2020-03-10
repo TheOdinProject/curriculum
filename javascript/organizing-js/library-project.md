@@ -208,6 +208,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [rhath32's Solution](https://github.com/rhath32/library)
 - [Ricardo Gonzalez Villegas' Solution](https://github.com/ricardo-gonzalez-villegas/library) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library/index.html)
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/mini-library) - [View in Browser](https://bunnythelifeguard.github.io/mini-library)
-[Rey van den Berg's Solution](https://github.com/Rey810/js-projects/tree/master/Library)
+- [blessedonekobo's Solution](https://github.com/BlessedOneKobo/library) - [View in Browser](https://blessedonekobo.github.io/library/)
+- [Rey van den Berg's Solution](https://github.com/Rey810/js-projects/tree/master/Library)
 - [seansean's Solution](https://github.com/seanrson/library/tree/master) - [View in Browser](https://seanrson.github.io/library/)
 </details>
