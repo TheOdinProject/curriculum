@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Stefan Dili's Solution](https://github.com/dili021/ruby-enumerables)
 * [Abdel Pérez's Solution](https://github.com/abdelp/bubble-sort)
 * [Christian Bonilla's Solution](https://github.com/Cabonilla/bubble_sort_odin_ruby/)
 * [Armo's Solution](https://github.com/Armoilane/ruby-exercises/)
