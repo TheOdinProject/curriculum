@@ -209,5 +209,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Ricardo Gonzalez Villegas' Solution](https://github.com/ricardo-gonzalez-villegas/library) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library/index.html)
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/mini-library) - [View in Browser](https://bunnythelifeguard.github.io/mini-library)
 [Rey van den Berg's Solution](https://github.com/Rey810/js-projects/tree/master/Library)
-</details>
 - [seansean's Solution](https://github.com/seanrson/library/tree/master) - [View in Browser](https://seanrson.github.io/library/)
+</details>
