@@ -43,7 +43,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-* [Fabio's Solution] (https://github.com/ThomYorke7/etch-a-sketch) - [View in Browser] (https://thomyorke7.github.io/etch-a-sketch)
+* [Fabio's Solution](https://github.com/ThomYorke7/etch-a-sketch) - [View in Browser](https://thomyorke7.github.io/etch-a-sketch)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Etch-A-Sketch) - [View in Browser](https://kfollen93.github.io/Etch-A-Sketch/)
+* [Pratik's Solution](https://github.com/Pratik-Gohil/ETCH-A-SKETCH) - [View in Browser](https://pratik-gohil.github.io/ETCH-A-SKETCH/)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Etch-a-Sketch) - [View in Browser](https://andrewbaldwin44.github.io/Etch-a-Sketch/)
 * [LorriAnn's Solution](https://github.com/TechnicolorPanda/etch-a-sketch) - [View in Browser](https://TechnicolorPanda.github.io/etch-a-sketch/)
 * [Brandon's Solution](https://github.com/bstottler/etchasketch) - [View in Browser](https://bstottler.github.io/etchasketch/)
@@ -804,4 +806,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Lexolf's Solution](https://github.com/lexolf/etch-a-sketch) - [View in Browser](https://lexolf.github.io/etch-a-sketch/)
 * [Chi Bui's Solution](https://github.com/chibui191/ETCH-A-SKETCH) - [View in Browser](https://chibui191.github.io/ETCH-A-SKETCH/)
 * [seansean's Solution](https://github.com/seanrson/etch_a_sketch) - [View in Browser](https://github.com/seanrson/etch_a_sketch)
+* [headnodic's Solution](https://github.com/headnodic/vue-the-odin-project-coursework/tree/master/src/components/web-development-101/projects/etch-a-sketch) - [View in Browser](https://headnodic-vue-top-course.netlify.com/etch-a-sketch)
 </details>
