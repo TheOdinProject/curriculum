@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Pratiks's Solution (Easy)](https://github.com/Pratik-Gohil/GoogleClone) - [View in Browser](https://pratik-gohil.github.io/GoogleClone/)
 * [ekoltonski's Solution (Easy)](https://github.com/ekoltonski/google-home-project) - [View in Browser]( https://ekoltonski.github.io/google-home-project/)
 * [Adub648's Solution (Easy)](https://github.com/Adub648/google-homepage) - [View in Browser](https://adub648.github.io/google-homepage/)
 * [gregggrose's Solution (Easy)](https://github.com/gregggrose/google-homepage) - [View in Browser](https://gregggrose.github.io/google-homepage/)
