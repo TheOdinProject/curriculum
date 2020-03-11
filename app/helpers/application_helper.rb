@@ -36,7 +36,7 @@ module ApplicationHelper
       {
         question: 'Who is The Odin Project for?',
         answer:
-          "<p>The Odin Project is for absolute beginners and those who have tried other resources without success.  In reality, The Odin Project is for anyone who wants to work as a web developer, do freelancing work, build a startup, or just hack together a homepage for yourself.  All the tools you need are here.</p>
+          "<p>The Odin Project is for absolute beginners in the world of web development and those who have tried other resources without success.  In reality, The Odin Project is for anyone who wants to work as a web developer, do freelancing work, build a startup, or just hack together a homepage for yourself.  All the tools you need are here. <strong>You should consider yourself fairly competent with personal computers and open to using a non-Windows based Operating System.</strong></p>
           <br />
           <p>We’ve built an in-depth curriculum designed to take you 100% of the way to becoming a web developer. Many other resources out there teach you just the basics of programming.  With The Odin Project you’ll create your own websites, games, and social media sites.</p>
           <br />
@@ -45,7 +45,8 @@ module ApplicationHelper
       {
         question: 'What is the goal of the The Odin Project?',
         answer:
-          '<p>The goal of The Odin Project is to provide a complete path for students to go from zero to employed as web developers while working with other students along the way.</p>'
+          "<p>The goal of The Odin Project is to provide a complete path for students to go from zero programming knowledge to employed as web developers while working with other students and picking up the skills to become self sufficient along the way.</p>"
+         
       },
       {
         question: 'How long does The Odin Project take?',
@@ -72,7 +73,7 @@ module ApplicationHelper
         answer:
           "<p>The Odin Project is different from other online programs in that it pulls the best resources from around the web and compiles them to create a complete curriculum.  In many other programs the material is formatted to meet their specific curriculum.  This means that not all of the lessons are top-notch. The Odin Project sidesteps this downfall by pulling various free resources from around the web and compiles them in one place.</p>
           <br />
-          <p>The Odin Project also develops your problem solving skills when it requires you to install programs on your local computer.  As developers, programming errors frequently arise and knowing how to decipher error messages is critical.  These problem solving skills are frequently ignored by other programs.</p>
+          <p>The Odin Project also attempts to develop your problem solving skills when it requires you to install programs on your local computer.  As developers, programming errors frequently arise and knowing how to decipher error messages is critical.  These problem solving skills are frequently ignored by other programs.</p>
           <br />
           <p>Lastly, The Odin Project is project based.  Other programs require you to simply input the correct answer. It is difficult to retain any knowledge by learning the bare minimum syntax. The Odin Project is designed with projects built from the ground up giving you real-world experience that you can use to build your portfolio and get hired as a web developer!</p>"
       },
@@ -122,7 +123,7 @@ module ApplicationHelper
       {
         question: 'How can I get in touch?',
         answer:
-        "<p>If you have questions about The Odin Project itself, feel free to <a href='mailto:contact@theodinproject.com'>contact us</a>.  There is also a friendly Odin community in our <a target='_blank' rel='noreferrer' href=#{chat_link}>Discord chat rooms</a></p>"
+        "<p>If you have questions about The Odin Project itself, feel free to <a href='mailto:contact@theodinproject.com'>contact us</a>.  There is also a friendly Odin community in our <a target='_blank' rel='noreferrer' href=#{chat_link}>Discord chat rooms.</a></p>"
       }
     ]
   end
