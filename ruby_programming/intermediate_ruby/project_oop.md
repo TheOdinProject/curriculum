@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jodokusquack's Solultion](https://github.com/jodokusquack/tic-tac-to)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/project_opp/tree/master/tic_tac_toe)
 * [Armo's Solution](https://github.com/Armoilane/ruby_excercises/tictactoe/)
 * [Johongirr's Solution](https://github.com/Johongirr/tic-tac-toe_ruby) - [View in repl.it](https://repl.it/@Johongirr/TestyStylishApplicationprogram)
@@ -323,6 +324,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Busy Bee's Solution](https://github.com/swissbusybee/Tic_Tac_Toe_Project)
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/tic-tac-toe)
 * [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Tic_Tac_Toe/tic_tac_toe.rb)
+* [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/tic_tac_toe)
+* [Sanyogita's solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/tic_tac_toe)
 </details>
 
 ### Project 2: Mastermind
@@ -349,6 +352,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jodokusquack's Solution](https://github.com/jodokusquack/mastermind) - [Live repl.it Version](https://repl.it/@jodokusquack/mastermind)
+* [Armo's Solution](https://github.com/Armoilane/ruby_exercises/mastermind)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/project_opp/tree/master/mastermind)
 * [Johongirr's Solution](https://github.com/Johongirr/mastermind_ruby/tree/masterd) - [Live repl.it Version](https://repl.it/@Johongirr/DapperGoodState)
 * [Infectos's Solution (with AI)](https://github.com/infectos/Mastermind) - [Live repl.it Version](https://repl.it/@infectos/Mastermind)
