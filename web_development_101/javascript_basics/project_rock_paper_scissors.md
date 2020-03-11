@@ -1321,7 +1321,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jefersonmsantos's Solution](https://github.com/jefersonmsantos/rock-paper-scissors.git)
 - [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/rock_paper_scissors) - [View in Browser](https://thorney29.github.io/the_odin_project/rock_paper_scissors/)
 - [Lepracone's Solution](https://github.com/Lepracone/Rock-Paper-Scissors) - [View in Browser](https://lepracone.github.io/Rock-Paper-Scissors/)
-- [m-rejdych's Solution](https://github.com/m-rejdych/rock-paper-scissors)
+- [m-rejdych's Solution](https://github.com/m-rejdych/rock-paper-scissors) - [View in Browser](https://m-rejdych.github.io/rock-paper-scissors/)
 - [Rilinda-Abazi's Solution](https://github.com/RilindaA/Rock---Paper---Scissors---Game-Javascript-console-)
 - [Fosnine's Solution](https://github.com/Fosnine/RockPaperSciccors)
 - [Bomarkim's Solution](https://github.com/bomarkim/rpsJS)
