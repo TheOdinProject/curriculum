@@ -21,7 +21,6 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Adam Demirel's solution](https://github.com/brasscapon/brasscapon.github.io) - [Live website](https://adamdemirel.com)
 * [Hammad Ahmed's solution](https://github.com/shammadahmed/shammadahmed.github.io) - [View in Browser](https://shammadahmed.github.io/)
 * [rvalentin1010's solution](https://github.com/rvalentin1010/rvalentin1010.github.io) - [View in Browser](https://rvalentin1010.github.io/)
 * [thghall's solution](https://github.com/theghall/portfolio) - [View in Browser](https://theghall.github.io/portfolio/)
@@ -33,4 +32,5 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
 * [Javier Machin's solution - Live website](https://www.javiermachin.com/)
 * [Tommy's solution - Live website](https://tommyhoang.com)
 * [Scott Huang's solution - Source Code](https://github.com/scotth527/gatsby_blog) - [Live website](https://www.huangscott.com)
+* [Krzysztof Sordyl's solution - Source Code](https://github.com/Verthon/portfolio) - [Live website](https://sordyl.me)
 </details>
