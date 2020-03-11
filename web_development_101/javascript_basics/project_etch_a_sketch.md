@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Rilinda's Solution](https://github.com/RilindaA/Etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Etch-a-sketch/blob/master/index.html)
 * [Fabio's Solution](https://github.com/ThomYorke7/etch-a-sketch) - [View in Browser](https://thomyorke7.github.io/etch-a-sketch)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Etch-A-Sketch) - [View in Browser](https://kfollen93.github.io/Etch-A-Sketch/)
 * [Pratik's Solution](https://github.com/Pratik-Gohil/ETCH-A-SKETCH) - [View in Browser](https://pratik-gohil.github.io/ETCH-A-SKETCH/)
@@ -807,5 +808,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Chi Bui's Solution](https://github.com/chibui191/ETCH-A-SKETCH) - [View in Browser](https://chibui191.github.io/ETCH-A-SKETCH/)
 * [seansean's Solution](https://github.com/seanrson/etch_a_sketch) - [View in Browser](https://github.com/seanrson/etch_a_sketch)
 * [headnodic's Solution](https://github.com/headnodic/vue-the-odin-project-coursework/tree/master/src/components/web-development-101/projects/etch-a-sketch) - [View in Browser](https://headnodic-vue-top-course.netlify.com/etch-a-sketch)
+* [OmerGronich's Solution](https://github.com/OmerGronich/etch-a-sketch) - [View in Browser](https://omergronich.github.io/etch-a-sketch/)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/etch-a-sketch)
 </details>
