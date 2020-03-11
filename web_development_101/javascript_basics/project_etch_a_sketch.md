@@ -810,4 +810,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [headnodic's Solution](https://github.com/headnodic/vue-the-odin-project-coursework/tree/master/src/components/web-development-101/projects/etch-a-sketch) - [View in Browser](https://headnodic-vue-top-course.netlify.com/etch-a-sketch)
 * [OmerGronich's Solution](https://github.com/OmerGronich/etch-a-sketch) - [View in Browser](https://omergronich.github.io/etch-a-sketch/)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/etch-a-sketch)
+* [kmson7's Solution](https://github.com/kmson7/etch-a-sketch) - [View in Browser](https://kmson7.github.io/etch-a-sketch/)
 </details>
