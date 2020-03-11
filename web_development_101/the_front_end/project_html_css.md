@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [tergitran's Solution (Easy)](https://github.com/tergitran/google-homepage) - [View in Browser](https://tergitran.github.io/google-homepage/)
 * [wesgray76's Solution (Easy)](https://github.com/wesgray76/google_homepage) - [View in Browser](https://wesgray76.github.io/google_homepage/)
 * [Pratiks's Solution (Easy)](https://github.com/Pratik-Gohil/GoogleClone) - [View in Browser](https://pratik-gohil.github.io/GoogleClone/)
 * [ekoltonski's Solution (Easy)](https://github.com/ekoltonski/google-home-project) - [View in Browser]( https://ekoltonski.github.io/google-home-project/)
@@ -3052,6 +3053,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [StephSz's Solution (Easy)](https://github.com/StephSz/google-homepage) - [View in Browser](https://stephsz.github.io/google-homepage/)
 * [derekdkim's Solution (Easy)](https://github.com/derekdkim/GoogleHomepageClone) - [View in Browser](https://derekdkim.github.io/GoogleHomepageClone/index.html/)
 * [Ahmed Magdy Seleem's Solution (Easy)](https://github.com/Ahmed-Magdy-S/Build-Google-Homepage-Easy-Version) - [View in Browser](https://ahmed-magdy-s.github.io/Build-Google-Homepage-Easy-Version/)
+* [Charles Keenan's Solution (Easy)](https://lunenburgfishfactory.github.io/TOP-Web-Dev101-HTMLCSS/) - [View in Browser](https://lunenburgfishfactory.github.io/TOP-Web-Dev101-HTMLCSS/)
+* [Atlas-Ma's Solution (Easy)](https://github.com/Atlas-Ma/Google-mock-page) - [View in Browser](https://atlas-ma.github.io/Google-mock-page/)
+* [Enes Terzi's solution (Easy)](https://github.com/enestrz/google-homepage) - [View in Browser](https://enestrz.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
