@@ -3052,10 +3052,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [StephSz's Solution (Easy)](https://github.com/StephSz/google-homepage) - [View in Browser](https://stephsz.github.io/google-homepage/)
 * [derekdkim's Solution (Easy)](https://github.com/derekdkim/GoogleHomepageClone) - [View in Browser](https://derekdkim.github.io/GoogleHomepageClone/index.html/)
 * [Ahmed Magdy Seleem's Solution (Easy)](https://github.com/Ahmed-Magdy-S/Build-Google-Homepage-Easy-Version) - [View in Browser](https://ahmed-magdy-s.github.io/Build-Google-Homepage-Easy-Version/)
-
-Easy submition: https://github.com/Atlas-Ma/Google-mock-page  Browser:https://atlas-ma.github.io/Google-mock-page/
-
-
+* [Atlas-Ma's Solution (Easy)](https://github.com/Atlas-Ma/Google-mock-page) - [View in Browser](https://atlas-ma.github.io/Google-mock-page/)
+* [Enes Terzi's solution (Easy)](https://github.com/enestrz/google-homepage) - [View in Browser](https://enestrz.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
