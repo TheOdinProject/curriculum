@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Run After's Solution [Github](https://github.com/run-after/sinatra_cipher) - [Live](https://murmuring-sierra-20010.herokuapp.com/)
 * robo-monk's Solution [Github](https://github.com/robo-monk/frank_ceasar) - [Live](https://frank-ceasar.herokuapp.com/)
 * Varras' Solution [Github](https://github.com/Varras/caesar_cipher) - [Live](https://tranquil-shelf-31549.herokuapp.com/)
 * fossegrim's Solution [Live](https://sheltered-inlet-54266.herokuapp.com/)
