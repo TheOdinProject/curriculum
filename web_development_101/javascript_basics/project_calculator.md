@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vic Ro's Solution](https://github.com/vic-Ro/calculator) - [View in Browser](https://vic-ro.github.io/calculator/)
 - [Vinz's Solution](https://lrdvnz.github.io/Calculator/)
 - [rryand's Solution](https://github.com/rryand/calculator) - [View in Browser](https://rryand.github.io/calculator/)
 - [Pratik's Solution](https://github.com/Pratik-Gohil/Calculator/tree/master/calc/usingClass) - [View in Browser](https://pratik-gohil.github.io/Calculator/calc/usingClass/index.html)

@@ -462,6 +462,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Michael K's Solution](https://github.com/a0x77ry/blogger) - [View in Browser](https://infinite-fjord-55305.herokuapp.com/)
 * [barrysweeney's Solution](https://github.com/barrysweeney/BlogUsingRails) - [View in Browser](https://nameless-hollows-31670.herokuapp.com/)
 * [Wmisback's Solution](https://github.com/wmisback/Rails-Blog) - [View in Browser](https://rocky-dawn-04070.herokuapp.com/)
+* [Timework's Solution](https://github.com/Timework/blogger) - [View in Browser](https://rocky-wildwood-83460.herokuapp.com/articles)
 
 </details>
 
