@@ -211,4 +211,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [blessedonekobo's Solution](https://github.com/BlessedOneKobo/library) - [View in Browser](https://blessedonekobo.github.io/library/)
 - [Rey van den Berg's Solution](https://github.com/Rey810/js-projects/tree/master/Library)
 - [seansean's Solution](https://github.com/seanrson/library/tree/master) - [View in Browser](https://seanrson.github.io/library/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/local-storage-book-library) - [View in Browser](https://barrysweeney.github.io/local-storage-book-library/)
 </details>
