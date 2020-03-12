@@ -88,8 +88,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-
+  
 * Add your solution below this list
+* [jvelardi's Solution (Easy)](https://github.com/jvelardi/google-homepage) - [View in Browser](https://jvelardi.github.io/google-homepage/)
 * [tergitran's Solution (Easy)](https://github.com/tergitran/google-homepage) - [View in Browser](https://tergitran.github.io/google-homepage/)
 * [wesgray76's Solution (Easy)](https://github.com/wesgray76/google_homepage) - [View in Browser](https://wesgray76.github.io/google_homepage/)
 * [Pratiks's Solution (Easy)](https://github.com/Pratik-Gohil/GoogleClone) - [View in Browser](https://pratik-gohil.github.io/GoogleClone/)
@@ -3056,6 +3057,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Charles Keenan's Solution (Easy)](https://lunenburgfishfactory.github.io/TOP-Web-Dev101-HTMLCSS/) - [View in Browser](https://lunenburgfishfactory.github.io/TOP-Web-Dev101-HTMLCSS/)
 * [Atlas-Ma's Solution (Easy)](https://github.com/Atlas-Ma/Google-mock-page) - [View in Browser](https://atlas-ma.github.io/Google-mock-page/)
 * [Enes Terzi's solution (Easy)](https://github.com/enestrz/google-homepage) - [View in Browser](https://enestrz.github.io/google-homepage/)
+* [Cerulean_Ash's Solution (Easy)](https://github.com/Cerulean-Ash/google-homepage) - [View in Browser](https://cerulean-ash.github.io/google-homepage/)
+* [kmson7's solution (Easy)](https://github.com/kmson7/google-homepage) - [View in Browser](https://kmson7.github.io/google-homepage/)
+* [Jakub Brezik's solution (Easy)](https://github.com/jbrezik/the_odin_project/tree/master/google-homepage/easy) - [View in Browser](https://jbrezik.github.io/the_odin_project/google-homepage/easy)
 </details>
 
 ### Additional Resources
