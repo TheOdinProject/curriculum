@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Llamalamps Solution](https://github.com/llamalamp/rock_paper_scissors) - [View in Browser](https://llamalamp.github.io/rock_paper_scissors/)
+- [retsofcm's Solution](https://github.com/retsofcm/rps-game)
 - [Chau Nguyen's Solution](https://github.com/VanQuishi/rock-paper-scissors)
 - [Pratiks's Solution](https://github.com/Pratik-Gohil/Rock-Paper-Sissors) - [View in Browser](https://pratik-gohil.github.io/Rock-Paper-Sissors/) 
 - [Amr Elshenawy's Solution](https://github.com/AmrElshenawy/rock-paper-scissors) - [View in Browser](https://amrelshenawy.github.io/rock-paper-scissors/)
@@ -1321,7 +1323,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jefersonmsantos's Solution](https://github.com/jefersonmsantos/rock-paper-scissors.git)
 - [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/rock_paper_scissors) - [View in Browser](https://thorney29.github.io/the_odin_project/rock_paper_scissors/)
 - [Lepracone's Solution](https://github.com/Lepracone/Rock-Paper-Scissors) - [View in Browser](https://lepracone.github.io/Rock-Paper-Scissors/)
-- [m-rejdych's Solution](https://github.com/m-rejdych/rock-paper-scissors)
+- [m-rejdych's Solution](https://github.com/m-rejdych/rock-paper-scissors) - [View in Browser](https://m-rejdych.github.io/rock-paper-scissors/)
 - [Rilinda-Abazi's Solution](https://github.com/RilindaA/Rock---Paper---Scissors---Game-Javascript-console-)
 - [Fosnine's Solution](https://github.com/Fosnine/RockPaperSciccors)
 - [Bomarkim's Solution](https://github.com/bomarkim/rpsJS)
@@ -1330,4 +1332,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [OmerGronich's Solution](https://github.com/OmerGronich/rock-paper-scissors) - [View in Browser](https://omergronich.github.io/rock-paper-scissors/)
 - [missikk2's Solution](https://github.com/missikk2/rockpaperscissors) - [View in Browser](https://missikk2.github.io/rockpaperscissors/)
 - [Enes Terzi's Solution](https://github.com/enestrz/rockpaperscissors) - [View in Browser](file:///home/enestrz/the_odin_project/rockpaperscissor/index.html)
+- [stancic's Solution (with GUI)](https://github.com/stancic/rockPaperScissors) - [View in Browser](https://stancic.github.io/rockPaperScissors/)
 </details>
