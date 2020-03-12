@@ -12,6 +12,8 @@ Installing a virtual machine (VM) is the easiest and most reliable way to get st
 
 ### Step 1: Download VirtualBox and Xubuntu
 
+TESTEST
+
 Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
 #### Step 1.1: Download VirtualBox
