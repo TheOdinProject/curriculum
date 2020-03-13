@@ -59,6 +59,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ian's Solution](https://github.com/IanMKesler/facebook-clone) - [View in browser](https://immense-sierra-65246.herokuapp.com/)
 * [MephistoDevelop & Sergio Diaz Solution](https://github.com/MephistoDevelop/fakebook/tree/master) - [View in browser](https://socialbook2019.herokuapp.com/users/sign_in)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-facebook) - [Live](https://murmuring-wave-95625.herokuapp.com/)
 * [Helmi's Solution](https://github.com/helmihidzir/odin-facebook)
