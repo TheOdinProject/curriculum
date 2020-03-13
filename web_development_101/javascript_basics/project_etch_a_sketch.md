@@ -811,4 +811,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [OmerGronich's Solution](https://github.com/OmerGronich/etch-a-sketch) - [View in Browser](https://omergronich.github.io/etch-a-sketch/)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/etch-a-sketch)
 * [kmson7's Solution](https://github.com/kmson7/etch-a-sketch) - [View in Browser](https://kmson7.github.io/etch-a-sketch/)
+* [m-rejdych's Solution](https://github.com/m-rejdych/Etch-a-Sketch) - [View in Browser](https://m-rejdych.github.io/Etch-a-Sketch/)
 </details>
