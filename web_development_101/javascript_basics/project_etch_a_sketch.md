@@ -88,7 +88,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [abkhale's Solution](https://github.com/abkhale17/Etch-a-Sketch) - [View in Browser](https://abkhale17.github.io/Etch-a-Sketch/)
 * [gwen's solution](https://github.com/gwnm/EtchASketch) - [View in Browser](https://gwnm.github.io/EtchASketch/)
 * [kboy77's Solution](https://github.com/kboy77/EtchASketch) - [View in Browser](https://github.com/kboy77.github.io/EtchASketch)
->>>>>>> d76209e6fd4537cc4b486355828b8ef17fad4e1e
 * [santimc's Solution](https://github.com/santimc/Etch-a-Sketch) - [View in Browser](https://santimc.github.io/Etch-a-Sketch/)
 * [Oussama TARHI's Solution](https://github.com/ousstarhi/Etch-A-Sketch) - [View in Browser](https://ousstarhi.github.io/Etch-A-Sketch/)
 * [Rae-Kwon's Solution](https://github.com/Rae-Kwon/etch-a-sketch) - [View in Browser](https://rae-kwon.github.io/etch-a-sketch/)
