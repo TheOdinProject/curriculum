@@ -3062,6 +3062,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jakub Brezik's solution (Easy)](https://github.com/jbrezik/the_odin_project/tree/master/google-homepage/easy) - [View in Browser](https://jbrezik.github.io/the_odin_project/google-homepage/easy)
 </details>
 
+*chandaT's solution (Kinda Easy) https://chandahonda87.github.io/google-homepage/
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
