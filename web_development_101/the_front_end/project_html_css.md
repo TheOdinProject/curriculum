@@ -3060,6 +3060,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Cerulean_Ash's Solution (Easy)](https://github.com/Cerulean-Ash/google-homepage) - [View in Browser](https://cerulean-ash.github.io/google-homepage/)
 * [kmson7's solution (Easy)](https://github.com/kmson7/google-homepage) - [View in Browser](https://kmson7.github.io/google-homepage/)
 * [Jakub Brezik's solution (Easy)](https://github.com/jbrezik/the_odin_project/tree/master/google-homepage/easy) - [View in Browser](https://jbrezik.github.io/the_odin_project/google-homepage/easy)
+* [chandaT's Solution (Easy)](https://chandahonda87.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
