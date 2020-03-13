@@ -61,6 +61,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kevin Vuong's solution](https://github.com/fffear/jest-testing-practice)
 - [Julio's solution](https://github.com/julio22b/tdd-jest)
 - [Martink-rsa's solution](https://github.com/martink-rsa/Jest-testing)
 - [Igorashs's solution](https://github.com/igorashs/tdd-jest-practice)
@@ -81,5 +82,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [scotth527's solution](https://github.com/scotth527/jest_practice)
 - [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-test-driven-development)
 - [Aron's solution](https://github.com/aronfischer/jest_testing_basic_exercises)
+- [Ivnosing's solution](https://github.com/Ivnosing/testing-practice)
 </details>
 
