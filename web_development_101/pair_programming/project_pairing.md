@@ -184,6 +184,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [André Rodrigues's Solution](https://github.com/ARodrigues92/odin-pomodoro) - [View in Browser](https://arodrigues92.github.io/odin-pomodoro/)
 * [Sonya's Solution](https://github.com/murdens/Pomodoro) - [View in Browser](https://murdens.github.io/Pomodoro/)
 * [Michael K's Solution](https://github.com/a0x77ry/pomodoro) - [View in Browser](https://a0x77ry.github.io/pomodoro/)
+* [alicee88 & Alex's solution](https://github.com/alicee88/odin-pomodoro) - [View in Browser](https://alicee88.github.io/odin-pomodoro/)
 </details>
 
 ### Next Steps
