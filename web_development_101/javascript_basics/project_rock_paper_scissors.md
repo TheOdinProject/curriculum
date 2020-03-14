@@ -1337,4 +1337,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Enes Terzi's Solution](https://github.com/enestrz/rockpaperscissors)
 - [stancic's Solution (with GUI)](https://github.com/stancic/rockPaperScissors) - [View in Browser](https://stancic.github.io/rockPaperScissors/)
 - [vongk97's Solution](https://github.com/vongk97/rps)
+- [Tuan Nguyen's Solution](https://github.com/Tuan96/rock-paper-scissors) - [View in Browser](https://tuan96.github.io/rock-paper-scissors/)
 </details>
