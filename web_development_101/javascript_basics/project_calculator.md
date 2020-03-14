@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Rilinda's Solution](https://github.com/RilindaA/Calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Calculator/blob/master/index.html)
 - [Vic Ro's Solution](https://github.com/vic-Ro/calculator) - [View in Browser](https://vic-ro.github.io/calculator/)
 - [Vinz's Solution](https://lrdvnz.github.io/Calculator/)
 - [rryand's Solution](https://github.com/rryand/calculator) - [View in Browser](https://rryand.github.io/calculator/)
@@ -548,4 +549,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Timework's Solution](https://github.com/Timework/Calculator) - [View in Browser](https://timework.github.io/Calculator/)
 - [seansean's Solution](https://github.com/seanrson/calculator) - [View in Browser](https://seanrson.github.io/calculator/)
 - [lousaint's Solution](https://github.com/lousaint/calculator) - [View in Browswer](https://lousaint.github.io/calculator/)
+- [Michael Doudy's Solution (Mobile Friendly)](https://github.com/mdoudy90/calculator) - [View in Browser](https://mdoudy90.github.io/calculator/)
 </details>
