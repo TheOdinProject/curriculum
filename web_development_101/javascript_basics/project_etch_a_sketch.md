@@ -43,6 +43,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Aanttrax's Solution](https://github.com/Aanttrax/Etch-a-Sketch) - [View in Browser](https://aanttrax.github.io/Etch-a-Sketch/)
+* [Cyhyraeth's Solution](https://github.com/Cyhyraethz/etch-a-sketch) - [View in Browser](https://cyhyraethz.github.io/etch-a-sketch/)
+* [dzarrr's Solution](https://github.com/dzarrr/etch-a-sketch) - [View in Browser](https://dzarrr.github.io/etch-a-sketch/)
+* [Amr Elshenawy's Solution](https://github.com/AmrElshenawy/etch-a-sketch) - [View in Browser](https://amrelshenawy.github.io/etch-a-sketch/)
 * [Rilinda's Solution](https://github.com/RilindaA/Etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Etch-a-sketch/blob/master/index.html)
 * [Fabio's Solution](https://github.com/ThomYorke7/etch-a-sketch) - [View in Browser](https://thomyorke7.github.io/etch-a-sketch)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Etch-A-Sketch) - [View in Browser](https://kfollen93.github.io/Etch-A-Sketch/)
@@ -811,4 +815,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [OmerGronich's Solution](https://github.com/OmerGronich/etch-a-sketch) - [View in Browser](https://omergronich.github.io/etch-a-sketch/)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/etch-a-sketch)
 * [kmson7's Solution](https://github.com/kmson7/etch-a-sketch) - [View in Browser](https://kmson7.github.io/etch-a-sketch/)
+* [m-rejdych's Solution](https://github.com/m-rejdych/Etch-a-Sketch) - [View in Browser](https://m-rejdych.github.io/Etch-a-Sketch/)
+* [Anthony G's Solution](https://github.com/anth-dev/etch-a-sketch) - [View in Browser](https://anth-dev.github.io/etch-a-sketch/)
+* [Fosnine's Solution](https://github.com/Fosnine/Etch-a-Sketch) - [View in Browser](https://fosnine.github.io/Etch-a-Sketch/)
+* [Ulises V's Solution](https://github.com/UlisesVil/Etch-a-sketch) - [View in Browser](https://ulisesvil.github.io/Etch-a-sketch/)
 </details>
