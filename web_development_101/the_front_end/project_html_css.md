@@ -3065,6 +3065,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rocinante02's Solution (Easy)](https://github.com/rocinante02/google-homepage) - [View in Browser](https://rocinante02.github.io/google-homepage/)
 * [epypoop's Solution (Easy)](https://github.com/epypoop/google-homepage) - [View in Browser](https://epypoop.github.io/google-homepage/)
 * [Ryan Early's Solution (Easy)](https://github.com/ryanfearly/google-homepage) - [View in Browser](https://ryanfearly.github.io/google-homepage/)
+* [Danny's Solution (Easy)](https://github.com/danG02/google-homepage) - [View in Browser](https://dang02.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
