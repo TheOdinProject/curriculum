@@ -551,4 +551,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [seansean's Solution](https://github.com/seanrson/calculator) - [View in Browser](https://seanrson.github.io/calculator/)
 - [lousaint's Solution](https://github.com/lousaint/calculator) - [View in Browswer](https://lousaint.github.io/calculator/)
 - [Michael Doudy's Solution (Mobile Friendly)](https://github.com/mdoudy90/calculator) - [View in Browser](https://mdoudy90.github.io/calculator/)
+- [Tim Kelly's Solution (Mobile Friendly)](https://github.com/TimKellyTK/project-calculator) - [View in Browser](https://timkellytk.github.io/project-calculator/)
 </details>
