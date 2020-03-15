@@ -3056,10 +3056,15 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ahmed Magdy Seleem's Solution (Easy)](https://github.com/Ahmed-Magdy-S/Build-Google-Homepage-Easy-Version) - [View in Browser](https://ahmed-magdy-s.github.io/Build-Google-Homepage-Easy-Version/)
 * [Charles Keenan's Solution (Easy)](https://lunenburgfishfactory.github.io/TOP-Web-Dev101-HTMLCSS/) - [View in Browser](https://lunenburgfishfactory.github.io/TOP-Web-Dev101-HTMLCSS/)
 * [Atlas-Ma's Solution (Easy)](https://github.com/Atlas-Ma/Google-mock-page) - [View in Browser](https://atlas-ma.github.io/Google-mock-page/)
-* [Enes Terzi's solution (Easy)](https://github.com/enestrz/google-homepage) - [View in Browser](https://enestrz.github.io/google-homepage/)
+* [Enes Terzi's Solution (Easy)](https://github.com/enestrz/google-homepage) - [View in Browser](https://enestrz.github.io/google-homepage/)
 * [Cerulean_Ash's Solution (Easy)](https://github.com/Cerulean-Ash/google-homepage) - [View in Browser](https://cerulean-ash.github.io/google-homepage/)
-* [kmson7's solution (Easy)](https://github.com/kmson7/google-homepage) - [View in Browser](https://kmson7.github.io/google-homepage/)
-* [Jakub Brezik's solution (Easy)](https://github.com/jbrezik/the_odin_project/tree/master/google-homepage/easy) - [View in Browser](https://jbrezik.github.io/the_odin_project/google-homepage/easy)
+* [kmson7's Solution (Easy)](https://github.com/kmson7/google-homepage) - [View in Browser](https://kmson7.github.io/google-homepage/)
+* [Jakub Brezik's Solution (Easy)](https://github.com/jbrezik/the_odin_project/tree/master/google-homepage/easy) - [View in Browser](https://jbrezik.github.io/the_odin_project/google-homepage/easy)
+* [chandaT's Solution (Easy)](https://chandahonda87.github.io/google-homepage/)
+* [Solomon Girma  Solution (Easy)](https://github.com/tolgit/google-homepage-) - [View in Browser](https://tolgit.github.io/google-homepage-/)
+* [rocinante02's Solution (Easy)](https://github.com/rocinante02/google-homepage) - [View in Browser](https://rocinante02.github.io/google-homepage/)
+* [epypoop's Solution (Easy)](https://github.com/epypoop/google-homepage) - [View in Browser](https://epypoop.github.io/google-homepage/)
+* [Ryan Early's Solution (Easy)](https://github.com/ryanfearly/google-homepage) - [View in Browser](https://ryanfearly.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
