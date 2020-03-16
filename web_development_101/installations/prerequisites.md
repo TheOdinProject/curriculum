@@ -42,30 +42,39 @@ Click on the “New” button to create a virtual operating system. Give it a na
   <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463663421882379/02_VirtualBox_Mem.png" alt="The VirtualBox RAM window" title="Please allow me to Google that for you">
 
   2. Hard disk: Click **“Create a virtual hard disk now”.**
+  
   <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463681331691585/03_VirtualBox_HardDisk.png" alt="The VirtualBox Create Hard Disk window 1" title="This is the default selection">
 
   3. Hard disk file type: Choose the **VDI (VirtualBox disk image)** option.
+  
   <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463702500475001/04_VirtualBox_HardDiskType.png" alt="The VirtualBox Create Virtual Hard Disk window 2" title="This is also the default selection">
 
   4. Storage on physical hard disk: **“Dynamically allocated”**.
+  
   <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463713716174881/05_VirtualBox_DynamicHardDisk.png" alt="The VirtualBox Create Virtual Hard Disk window 3" title="Yet another default selection">
                 
   5. File location and size: We recommend **at least 20 GB** for the virtual hard disk.
+  
   <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463723534778398/06_VirtualBox_HardDiskSize.png" alt="The VirtualBox Create Virtual Hard Disk window 4" title="You could make it 21 GB if you want">
 
 After completing the last step, click the **“Create”** button. Your new virtual OS should now appear in the menu. With **Lubuntu** selected, click on the **"Settings"** button on the navigation bar, highlighted in red below.
+
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687466148434149408/07_VirtualBox_SettingsButton.png" alt="The VirtualBox Home screen with Lubuntu" title="Or you can right-click Lubuntu and go to Settings">
 
  Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to <a href="https://www.google.com/search?q=enable+virtualization+windows" target="_blank">enable virtualization in your computer’s BIOS/UEFI settings</a>, or you have a single core processor.
+ 
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687479763723354200/08_VirtualBox_Processor.png" alt="The Lubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
 Next, go to the **“Storage”** tab and in the **“Storage Devices”** column, beside the “Controller: IDE” indicator, click the round, blue icon with the green plus.
+
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687480592199450744/09_VirtualBox_Storage.png" alt="The Lubuntu System Settings Storage window" title="Good-bye, CD-ROM Drive!">
 
 This will open a window called **“Optical Disk Selector”** Click the **“Add”** button, which is another blue icon with a green plus. Please locate your Lubuntu ISO you downloaded earlier and select it. If you are not sure where to find it, start by looking in your Downloads folder. Once you have selected your ISO, hit the **“Choose”** button.
+
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687481963430412300/10_VirtualBox_OpticalDiskSelector.png" alt="The Lubuntu System Settings Optical Disk Selector window" title="Hello, Virtually Mounted ISO file!">
 
 If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. <u>**All other settings should remain default.**</u>
+
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687484394264592535/11_VirtualBox_Monitors.png" alt="The Lubuntu System Settings Display window" title="This feature works surprisingly well">
 
 With all that complete, click **"OK"** to save the changes.
