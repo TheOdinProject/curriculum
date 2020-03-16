@@ -128,6 +128,12 @@ Here are some tips to help you get started in a virtual environment:
 
 * If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
+### Step 5: Repeat After Me
+
+Say outloud:
+
+***I, [Odinite's Name], will work out of the VM only. I will create as many monitors as needed to cover all of my screens. I will fullscreen my VM. I will open the web browser inside the VM so I can actively copy and paste commands so I do not make any mistakes. I will hopefully eventually upgrade to dual booting an Ubuntu flavor of my choice to make things easier on myself, but I understand that there is no rush and I have as much time as I need to become accustomed to Linux.***
+
 </details>
 
 <details markdown="block">
