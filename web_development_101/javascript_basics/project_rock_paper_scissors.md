@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Joel Bejot's Solution] (https://github.com/JoelBejot/RPS_with_front_end) 
 - [tergitran Solution](https://github.com/tergitran/rock-paper-scissors) - [View in Browser](https://tergitran.github.io/rock-paper-scissors/)
 - [Wayne Chang's Solution](https://github.com/username12345679/TheOdinProject-RockPaperScissors)
 - [PaulMalcom Solution](https://github.com/PaulMalcom25/Rock-Paper-Scissors_Project)
