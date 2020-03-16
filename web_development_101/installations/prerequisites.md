@@ -38,7 +38,8 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463655696367877/01_VirtualBox_OS.png" alt="The VirtualBox Create Virtual Machine window" title="Lubuntu should make the Version be Ubuntu (64-bit) automatically">
 
-  1. Memory size: Use 2048 MB or more if possible. Ideally, this amount should be about half of your computer’s maximum memory. For example, if you have 8 GB of RAM, allocate 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have).</br>
+  1. Memory size: Use 2048 MB or more if possible. Ideally, this amount should be about half of your computer’s maximum memory. For example, if you have 8 GB of RAM, allocate 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have).
+  
   <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463663421882379/02_VirtualBox_Mem.png" alt="The VirtualBox RAM window" title="Please allow me to Google that for you">
 
   2. Hard disk: Click **“Create a virtual hard disk now”.**
@@ -80,6 +81,7 @@ If you have more than one monitor, you can create additional monitors by increas
 With all that complete, click **"OK"** to save the changes.
 
 You can start the VM by double-clicking **"Lubuntu"** or by clicking the large green **"Start"** button on the navigation bar.
+
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687487045584683024/12_VirtualBox_StartItUp.png" alt="The VirtualBox start VM screen" title="Or you can right-click Lubuntu and hit Start">
 
 When the VM starts up, you’ll be asked to choose your language and to either try or install Lubuntu. If you make no decision for 30 seconds, it will launch the "Try Lubuntu without installing" option. You can reset, or double-click **"Install Lubuntu 16.04.3 LTS"**
