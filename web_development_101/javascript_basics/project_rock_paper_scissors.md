@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Tosh's Solution](https://github.com/adevkota/rock-paper-scissor) - [View in Broswer](https://adevkota.me/rock-paper-scissor/)
 - [MentalSkin's solution](https://github.com/MentalSkin/rock-paper-scissor) - [View in Browser](https://mentalskin.github.io/rock-paper-scissor/)
 - [tergitran Solution](https://github.com/tergitran/rock-paper-scissors) - [View in Browser](https://tergitran.github.io/rock-paper-scissors/)
 - [Wayne Chang's Solution](https://github.com/username12345679/TheOdinProject-RockPaperScissors)
