@@ -595,6 +595,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/mastermind.rb)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/Mastermind)
 * [olsi2984's Solution](https://github.com/olsi2984/Ruby_projects/blob/master/Mastermind/mastermind.rb)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/mastermind)
 </details>
 
 ### Additional Resources
