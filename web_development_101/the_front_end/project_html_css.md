@@ -3046,7 +3046,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ahanasi's Solution (Easy)](https://github.com/ahanasi/google-homepage) - [View in Browser]( https://ahanasi.github.io/google-homepage/)
 * [jnatc1's Solution [Easy)](https://github.com/jnatc1/google-homepage/)  - [View in Browser](https://jnatc1.github.io/google-homepage/)
 * [Samantha's Solution (Easy)](https://github.com/SWFullPotential/google-homepage) - [View in Browser](https://swfullpotential.github.io/google-homepage/)
-* [unelko's Solution (Easy)](https://github.com/Unelko/Google-Home/) - [View in Browser](https://unelko.github.io/Google-Home/)          
+* [unelko's Solution (Easy)](https://github.com/Unelko/Google-Home/) - [View in Browser](https://unelko.github.io/Google-Home/)
+* [Erica Melo de Carvalho (Easy)](https://github.com/ericamelocarvalho/google/) - [View in Browser](https://ericamelocarvalho.github.io/google/)
 * [CodeNewbie131's Solution (Easy)](https://github.com/codenewbie131/google-homepage) - [View in Browser](https://codenewbie131.github.io/google-homepage/)
 * [mwestep's Solution (Easy)](https://github.com/mwestep/google-homepage) - [View in Browser](https://mwestep.github.io/google-homepage/)
 * [Stork90210 Solution (Easy)](https://github.com/stork90210/google-homepage) - [View in Browser](https://stork90210.github.io/google-homepage/)
@@ -3065,6 +3066,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rocinante02's Solution (Easy)](https://github.com/rocinante02/google-homepage) - [View in Browser](https://rocinante02.github.io/google-homepage/)
 * [epypoop's Solution (Easy)](https://github.com/epypoop/google-homepage) - [View in Browser](https://epypoop.github.io/google-homepage/)
 * [Ryan Early's Solution (Easy)](https://github.com/ryanfearly/google-homepage) - [View in Browser](https://ryanfearly.github.io/google-homepage/)
+* [kasweigart's Solution (Easy)](https://github.com/kasweigart/Google-Homepage) - [View in Browser](https://kasweigart.github.io/Google-Homepage/)
+* [Danny's Solution (Easy)](https://github.com/danG02/google-homepage) - [View in Browser](https://dang02.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
