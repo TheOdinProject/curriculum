@@ -464,7 +464,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [barrysweeney's Solution](https://github.com/barrysweeney/BlogUsingRails) - [View in Browser](https://nameless-hollows-31670.herokuapp.com/)
 * [Wmisback's Solution](https://github.com/wmisback/Rails-Blog) - [View in Browser](https://rocky-dawn-04070.herokuapp.com/)
 * [Timework's Solution](https://github.com/Timework/blogger) - [View in Browser](https://rocky-wildwood-83460.herokuapp.com/articles)
-
+* [Niin's solution](https://github.com/niin44/ruby-on-rails-project) - [View in Browser](https://guarded-ravine-52379.herokuapp.com/)
 </details>
 
 ### Additional Resources
