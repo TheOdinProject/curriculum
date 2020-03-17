@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [threeaces' Solution](https://github.com/threeaces/calculator) - [View in Browser](https://threeaces.github.io/calculator/)
 - [MentalSkin's Solution](https://github.com/MentalSkin/calculator) - [View in Browser](https://mentalskin.github.io/calculator/)
 - [Cyhyraeth's Solution](https://github.com/Cyhyraethz/calculator) - [View in Browser](https://cyhyraethz.github.io/calculator/)
 - [Rilinda's Solution](https://github.com/RilindaA/Calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Calculator/blob/master/index.html)
