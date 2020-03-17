@@ -691,7 +691,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Charalamboss' solution(Easy)](https://github.com/Charalamboss/GoogleHomepage) - [View in Browser](https://charalamboss.github.io/GoogleHomepage/)
 * [Charalamboss' solution(Difficult)](https://github.com/Charalamboss/GoogleResults) - [View in Browser](https://charalamboss.github.io/GoogleResults/)
 * [Davand88's Solution (Easy)](https://github.com/Davand88/google-homepage)
-* [Jimmy Mannan's Solution (Easy)](https://github.com/jiimms/google-homepage)- [View in Browser](https://jiimms.github.io/google-homepage/)
+* [Jimmy Mannan's Solnution (Easy)](https://github.com/jiimms/google-homepage)- [View in Browser](https://jiimms.github.io/google-homepage/)
 * [Azmol Miah' Solution (Difficult)](https://github.com/azmol-siddaco/google-homepage-difficult)
 * [Azmol Miah' Solution (Easy)](https://github.com/azmol-siddaco/google-homepage)
 * [Shane Richards' Solution (Difficult)](https://github.com/ShaneRich5/google-search-results)- [View in Browser](https://shanerich5.github.io/google-search-results/)
@@ -1112,7 +1112,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Joe Pfohl's solution](https://github.com/japfohl/google-homepage) - [View in Browser: ](http://japfohl.github.io/google-homepage/)
 * [Corey Kazaks's easy solution](https://github.com/ck626/google-homepage) - [View in Browser: ](https://rawgit.com/ck626/google-homepage/master/index.html)
 * [Novneet's Solution](https://github.com/novneetnov/google-homepage) - [View in Browser](https://rawgit.com/novneetnov/google-homepage/master/index.html) - [Difficult version](https://rawgit.com/novneetnov/google-homepage/master/searchResults.html)
-* [Alex Martin's solution](https://github.com/AlexGM07/google-homepage) - [View in Browser](https://rawgit.com/AlexGM07/google-homepage/master/index.html)
+* [Alex Martin's solution](https://github.com/AlexGM07/google-homepage) - [View in Browser](https://rawgit.com/AlexGM07/google-homepage/master/index.html)n
 * [Ryan Chang's Solution](https://github.com/chang-ryan/google-homepage) - [View in Browser](https://rawgit.com/chang-ryan/google-homepage/master/index.html)
 * [CodeRobot's Solution](https://github.com/iashraful/top-google-homepage) - [View in Browser](https://rawgit.com/iashraful/top-google-homepage/master/index.html)
 * [Jim Lin's solution](https://github.com/miljinx/google-homepage) - [View in Browser](https://rawgit.com/miljinx/google-homepage/master/index.html)
@@ -3068,6 +3068,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ryan Early's Solution (Easy)](https://github.com/ryanfearly/google-homepage) - [View in Browser](https://ryanfearly.github.io/google-homepage/)
 * [kasweigart's Solution (Easy)](https://github.com/kasweigart/Google-Homepage) - [View in Browser](https://kasweigart.github.io/Google-Homepage/)
 * [Danny's Solution (Easy)](https://github.com/danG02/google-homepage) - [View in Browser](https://dang02.github.io/google-homepage/)
+* [martinsober's Solution (Easy)](https://github.com/martinsober/google-homepage-PC) - [View in Browser](https://martinsober.github.io/google-homepage-PC/)
 </details>
 
 ### Additional Resources
