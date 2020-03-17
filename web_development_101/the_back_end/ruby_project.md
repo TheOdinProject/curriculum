@@ -653,6 +653,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/learnRuby)
 * [Tomstrat's Solution](https://github.com/tomstrat/learnRuby)
 * [lousaint's Solution](https://github.com/lousaint/learn_ruby)
+* [MiDDiz's Solution](https://github.com/MiDDiz/LearnRuby)
 </details>
 
 ### Additional Resources
