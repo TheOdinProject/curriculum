@@ -46,6 +46,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Brandon's Solution](https://github.com/bstottler/calculator) - [View in Browser](https://bstottler.github.io/calculator/)
+- [Fabio's Solution](https://github.com/ThomYorke7/js-calculator) - [View in Browser](https://thomyorke7.github.io/js-calculator/)
+- [threeaces' Solution](https://github.com/threeaces/calculator) - [View in Browser](https://threeaces.github.io/calculator/)
+- [MentalSkin's Solution](https://github.com/MentalSkin/calculator) - [View in Browser](https://mentalskin.github.io/calculator/)
 - [Cyhyraeth's Solution](https://github.com/Cyhyraethz/calculator) - [View in Browser](https://cyhyraethz.github.io/calculator/)
 - [Rilinda's Solution](https://github.com/RilindaA/Calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Calculator/blob/master/index.html)
 - [Vic Ro's Solution](https://github.com/vic-Ro/calculator) - [View in Browser](https://vic-ro.github.io/calculator/)
@@ -552,4 +555,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [seansean's Solution](https://github.com/seanrson/calculator) - [View in Browser](https://seanrson.github.io/calculator/)
 - [lousaint's Solution](https://github.com/lousaint/calculator) - [View in Browswer](https://lousaint.github.io/calculator/)
 - [Michael Doudy's Solution (Mobile Friendly)](https://github.com/mdoudy90/calculator) - [View in Browser](https://mdoudy90.github.io/calculator/)
+- [headnodic's Solution](https://github.com/headnodic/vue-the-odin-project-coursework/tree/master/src/components/web-development-101/projects/calculator) - [View in Browser](https://headnodic-vue-top-course.netlify.com/calculator)
 </details>
