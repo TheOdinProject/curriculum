@@ -72,4 +72,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [mmboyce's Solution](https://github.com/mmboyce/weather-app) - [View in Browser](https://mmboyce.github.io/weather-app/)
 * [JoshAubrey's Solution](https://github.com/JoshAubrey/weather-app) - [View in Browser](https://joshaubrey.github.io/weather-app/)
 * [0xtaf's Solution](https://github.com/0xtaf/weather-app) - [View in Browser](https://0xtaf.github.io/weather-app/)
+* [Hamohuh's Solution](https://github.com/hamohuh/weather-app/tree/master) - [View in Browser](https://hamohuh.github.io/weather-app/)
 </details>

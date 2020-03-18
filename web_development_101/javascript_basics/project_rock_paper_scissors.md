@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Walmart-cashier's Solution](https://github.com/Walmart-cashier/Rock-Paper-Scissor) - [View in Browser](https://walmart-cashier.github.io/Rock-Paper-Scissor/)
+- [Snowmonkey's Solution](https://github.com/parent-tobias/TOP-rps-console)
 - [Joel Bejot's Solution](https://github.com/JoelBejot/RPS_with_front_end) 
 - [Tosh's Solution](https://github.com/adevkota/rock-paper-scissor) - [View in Broswer](https://adevkota.me/rock-paper-scissor/)
 - [MentalSkin's Solution](https://github.com/MentalSkin/rock-paper-scissor) - [View in Browser](https://mentalskin.github.io/rock-paper-scissor/)
@@ -1343,4 +1344,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [stancic's Solution (with GUI)](https://github.com/stancic/rockPaperScissors) - [View in Browser](https://stancic.github.io/rockPaperScissors/)
 - [vongk97's Solution](https://github.com/vongk97/rps)
 - [Tuan Nguyen's Solution](https://github.com/Tuan96/rock-paper-scissors) - [View in Browser](https://tuan96.github.io/rock-paper-scissors/)
+- [ahanasi's Solution](https://github.com/ahanasi/rock-paper-scissors) - [View in Browser](https://ahanasi.github.io/rock-paper-scissors/)
 </details>
