@@ -202,6 +202,5 @@ ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
 * Open all of your projects through the terminal. 
 
 * The WSL program files are well hidden, but it's super important that you do not edit these files from Windows. Altering these files will cause serious problems with your Ubuntu installation and possibly with your Windows installation.
-  </details>
 
 </details>
