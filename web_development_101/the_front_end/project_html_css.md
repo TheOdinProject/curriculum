@@ -1,8 +1,8 @@
-### Link to my project -->
+### --->
  
-https://github.com/flipsflops/top_google_home-page
+[link to my project](https://github.com/flipsflops/top_google_home-page)
 
-### <--- Link above to my project
+### <--- 
 
 ### Introduction
 
