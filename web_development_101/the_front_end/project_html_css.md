@@ -88,7 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-  
+
 * Add your solution below this list
 * [oumarhadrami's Solution (Easy)](https://github.com/oumarhadrami/google-home-page-1) - [View in Browser](https://oumarhadrami.github.io/google-home-page-1/)
 * [Scratch-code's Solution (Easy)](https://github.com/Scratch-code/google-homepage) - [View in Browser](https://scratch-code.github.io/google-homepage/)
@@ -3073,6 +3073,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Danny's Solution (Easy)](https://github.com/danG02/google-homepage) - [View in Browser](https://dang02.github.io/google-homepage/)
 * [martinsober's Solution (Easy)](https://github.com/martinsober/google-homepage-PC) - [View in Browser](https://martinsober.github.io/google-homepage-PC/)
 * [grueneich's Solution (Easy)](https://grueneich.github.io/google-homepage/) - [View in Browser](https://grueneich.github.io/google-homepage/)
+* [mooniiDev's Solution (Difficult)](https://github.com/mooniiDev/google-search-results-page) - [View in Browser](https://mooniidev.github.io/google-search-results-page/)
 </details>
 
 ### Additional Resources
