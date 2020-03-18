@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [MentalSkin's Solution](https://github.com/tergitran/etch-a-sketch) - [View in Browser](https://tergitran.github.io/etch-a-sketch/)
+* [MentalSkin's Solution](https://github.com/MentalSkin/etch-a-sketch) - [View in Browser](https://mentalskin.github.io/etch-a-sketch/)
 * [Aanttrax's Solution](https://github.com/Aanttrax/Etch-a-Sketch) - [View in Browser](https://aanttrax.github.io/Etch-a-Sketch/)
 * [Cyhyraeth's Solution](https://github.com/Cyhyraethz/etch-a-sketch) - [View in Browser](https://cyhyraethz.github.io/etch-a-sketch/)
 * [dzarrr's Solution](https://github.com/dzarrr/etch-a-sketch) - [View in Browser](https://dzarrr.github.io/etch-a-sketch/)
@@ -819,4 +821,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Anthony G's Solution](https://github.com/anth-dev/etch-a-sketch) - [View in Browser](https://anth-dev.github.io/etch-a-sketch/)
 * [Fosnine's Solution](https://github.com/Fosnine/Etch-a-Sketch) - [View in Browser](https://fosnine.github.io/Etch-a-Sketch/)
 * [Ulises V's Solution](https://github.com/UlisesVil/Etch-a-sketch) - [View in Browser](https://ulisesvil.github.io/Etch-a-sketch/)
+* [Dino's Solution](https://github.com/stancic/etchASketch) - [View in Browser](https://stancic.github.io/etchASketch/)
 </details>
