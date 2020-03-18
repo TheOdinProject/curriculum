@@ -1,6 +1,8 @@
-### Link to project -->
-### https://github.com/flipsflops/top_rock_paper_scissors
-### <---
+### --->
+ 
+[link to my project](https://github.com/flipsflops/top_rock_paper_scissors)
+
+### <--- 
 
 ### Introduction
 
