@@ -3069,6 +3069,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [kasweigart's Solution (Easy)](https://github.com/kasweigart/Google-Homepage) - [View in Browser](https://kasweigart.github.io/Google-Homepage/)
 * [Danny's Solution (Easy)](https://github.com/danG02/google-homepage) - [View in Browser](https://dang02.github.io/google-homepage/)
 * [martinsober's Solution (Easy)](https://github.com/martinsober/google-homepage-PC) - [View in Browser](https://martinsober.github.io/google-homepage-PC/)
+* [grueneich's Solution (Easy)](https://grueneich.github.io/google-homepage/) - [View in Browser](https://grueneich.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
