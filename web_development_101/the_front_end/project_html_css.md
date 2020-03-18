@@ -91,7 +91,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   
 * Add your solution below this list
 * [Scratch-code's Solution (Easy)](https://github.com/Scratch-code/google-homepage) - [View in Browser](https://scratch-code.github.io/google-homepage/)
-* [jvelardi's Solution (Easy)](https://github.com/jvelardi/google-homepage) - [View in Browser](https://github.com/Scratch-code/google-homepage/)
+* [jvelardi's Solution (Easy)](https://github.com/jvelardi/google-homepage) - [View in Browser](https://github.com/jvelardi/google-homepage/)
 * [tergitran's Solution (Easy)](https://github.com/tergitran/google-homepage) - [View in Browser](https://tergitran.github.io/google-homepage/)
 * [wesgray76's Solution (Easy)](https://github.com/wesgray76/google_homepage) - [View in Browser](https://wesgray76.github.io/google_homepage/)
 * [Pratiks's Solution (Easy)](https://github.com/Pratik-Gohil/GoogleClone) - [View in Browser](https://pratik-gohil.github.io/GoogleClone/)
