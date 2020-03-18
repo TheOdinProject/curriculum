@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Walmart-cashier's Solution](https://github.com/Walmart-cashier/Rock-Paper-Scissor) - [View in Browser](https://walmart-cashier.github.io/Rock-Paper-Scissor/)
 - [Snowmonkey's Solution](https://github.com/parent-tobias/TOP-rps-console)
 - [Joel Bejot's Solution](https://github.com/JoelBejot/RPS_with_front_end) 
 - [Tosh's Solution](https://github.com/adevkota/rock-paper-scissor) - [View in Broswer](https://adevkota.me/rock-paper-scissor/)
