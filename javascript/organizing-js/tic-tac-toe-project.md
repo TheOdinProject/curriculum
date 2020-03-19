@@ -142,4 +142,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [DamnedLag's Solution](https://github.com/Damnedlag/Project-TicTacToe) - [View in Browser](https://damnedlag.github.io/Project-TicTacToe/)
 - [Rye Guy's Solution](https://github.com/r-hathcock/tic_tac_toe)
 - [Rey van den Berg's Solution](https://github.com/Rey810/Tic-Tac-Toe) - [View in Browser](https://rey810.github.io/Tic-Tac-Toe/)
+- [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/tic-tac-toe) - [View in Browser](https://blessedonekobo.github.io/tic-tac-toe/)
 </details>
