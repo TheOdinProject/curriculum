@@ -3078,6 +3078,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [thatoldchap's Solution (Easy)](https://thatoldchap.github.io/google-homepage/) - [View in Browser](https://thatoldchap.github.io/google-homepage/)
 * [AJMcDee's Solution (Easy)](https://ajmcdee.github.io/google-homepage/) - [View in Browser](https://ajmcdee.github.io/google-homepage/)
 * [mooniiDev's Solution (Difficult)](https://github.com/mooniiDev/google-search-results-page) - [View in Browser](https://mooniidev.github.io/google-search-results-page/)
+* iStayGrizzly's Solution (Easy) (https://istaygrizzly.github.io/google-homepage2/)
+
 </details>
 
 ### Additional Resources
