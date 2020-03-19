@@ -1349,5 +1349,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ahanasi's Solution](https://github.com/ahanasi/rock-paper-scissors) - [View in Browser](https://ahanasi.github.io/rock-paper-scissors/)
 - [aadilayub's Solution](https://gitlab.com/aadilayub/rock-paper-scissors) - [View in Browser](https://rock-paper-scissors.aadil.tech)
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/rock-paper-scissors)
+- [kasweigart's Solution](https://github.com/kasweigart/Rock-Paper-Scissors) - [View in Browser](https://kasweigart.github.io/Rock-Paper-Scissors/)
 </details>
-Noobs make changes here
