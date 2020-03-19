@@ -32,6 +32,8 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Pratik's Solution](https://github.com/Pratik-Gohil/Pomodoro_Clock) - [View in Browser](https://pratik-gohil.github.io/Pomodoro_Clock/public/index.html)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/pomodoro) - [View in Browser](https://brandonricharda.github.io/pomodoro/)
 * [Ogunmola Israel's Solution](https://github.com/Lippins/pomodoro_timer) - [View in Browser](https://lippins.github.io/pomodoro_timer/)
 * [Tim Shea's Solution](https://github.com/tpsst5/pomodoro_timer) - [View in Browser](https://tpsst5.github.io/pomodoro_timer/)
 * [CharlotteHues' Solution](https://github.com/charlotte-hues/pomodoro) - [View in Browser](https://charlotte-hues.github.io/pomodoro/)
@@ -179,6 +181,11 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/pomodoro) - [View in Browser](https://unheavenlycreature.github.io/pomodoro)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/pomodoro-clock) - [View in Browser](https://eduardo06sp.github.io/pomodoro-clock/)
 * [Courgette's Solution](https://github.com/bing0i/pomodoro-clock) - [View in Browser](https://bing0i.github.io/pomodoro-clock/)
+* [André Rodrigues's Solution](https://github.com/ARodrigues92/odin-pomodoro) - [View in Browser](https://arodrigues92.github.io/odin-pomodoro/)
+* [Sonya's Solution](https://github.com/murdens/Pomodoro) - [View in Browser](https://murdens.github.io/Pomodoro/)
+* [Michael K's Solution](https://github.com/a0x77ry/pomodoro) - [View in Browser](https://a0x77ry.github.io/pomodoro/)
+* [Marius J's Solution](https://github.com/norkitorki/Pomodoro-Clock-Project) - [View in Browser](https://norkitorki.github.io/Pomodoro-Clock-Project/)
+* [alicee88 & Alex's solution](https://github.com/alicee88/odin-pomodoro) - [View in Browser](https://alicee88.github.io/odin-pomodoro/)
 </details>
 
 ### Next Steps

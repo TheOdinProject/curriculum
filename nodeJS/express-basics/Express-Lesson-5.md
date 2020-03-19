@@ -31,6 +31,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kris Tobiasson's Solution](https://github.com/highpockets/express-locallibrary-tutorial.git) - [View in browser](https://morning-basin-71826.herokuapp.com/catalog)
+- [Vanessacor's Solution](https://github.com/vanessacor/express-locallibrary-tutorial) - [View in browser](https://limitless-wildwood-80852.herokuapp.com/catalog)
+- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/express-locallibrary-tutorial) - [View in browser](https://henriquesousa-locallibrary.herokuapp.com/)
 - [tracy2811's Solution](https://github.com/tracy2811/express-locallibrary-tutorial)
 - [Vollantre's Solution](https://github.com/vollantre/express-locallibrary-tutorial) - [View in browser](https://afternoon-reaches-87917.herokuapp.com/)
 - [Alain Suarez's Solution](https://gitlab.com/asuar/express-local-library) - [View in browser](https://nameless-ocean-77993.herokuapp.com/)

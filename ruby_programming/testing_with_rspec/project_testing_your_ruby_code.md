@@ -22,7 +22,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* David Auza's and Falguni Islam's Solutions: [Tic Tac Toe](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Tic-Tac-Toe) => [Tic Tac Toe Demo](https://repl.it/@islamfalguni/tictactoe-1)
+* David Auza's and Falguni Islam's Solutions: [Tic Tac Toe](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Tic-Tac-Toe) => [Tic Tac Toe Demo](https://repl.it/@islamfalguni/tictactoe-1), [Enumerable Methods](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Enumerable) => [Enumerable Methods Demo](https://repl.it/@DavidAuza/PROJECT-TESTING-YOUR-RUBY-CODE-Enumerable)
 * fossegrim's solutions: [Caesar Cipher](https://github.com/olav35/building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/olav35/advanced-building-blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/olav35/tic-tac-toe/blob/master/spec/tic_tac_toe_spec.rb)
 * [Nasser Abachi's solutions](https://github.com/abachi/theodinproject/tree/master/building-projects/connect_four)
 * [Nikolas Broman's solutions](https://github.com/nikolasbroman/testing_rspec)
@@ -253,6 +253,8 @@ connect_four)
 * [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
 * [Busy Bee's Solution](https://github.com/swissbusybee/Connect_Four_Project)
 * [Jay Conner's Solution](https://github.com/cleve703/connect4)
+* [Hyperturing's Solution](https://github.com/hyperturing/connectfour)
+* [Robert Suazo's Solution](https://github.com/rsuazo/connect_four)
 </details>
 
 ### Additional Resources
