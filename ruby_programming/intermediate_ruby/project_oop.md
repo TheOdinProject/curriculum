@@ -325,6 +325,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/tic-tac-toe)
 * [olsi2984's solution](https://github.com/olsi2984/Ruby_projects/blob/master/Tic_Tac_Toe/tic_tac_toe.rb)
 * [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/tic_tac_toe)
+* [Sanyogita's solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/tic_tac_toe)
 </details>
 
 ### Project 2: Mastermind
@@ -594,6 +595,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/blob/master/mastermind.rb)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/Mastermind)
 * [olsi2984's Solution](https://github.com/olsi2984/Ruby_projects/blob/master/Mastermind/mastermind.rb)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/mastermind)
 </details>
 
 ### Additional Resources
