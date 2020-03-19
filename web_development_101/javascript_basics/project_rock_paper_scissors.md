@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Oluwatobi's solution](https://github.com/Oluwatobi-S/rock-paper-scissors) - [View in Browser](https://oluwatobi-s.github.io/rock-paper-scissors/)
 - [Larry's solution](https://github.com/ldbert/rock-paper-scissors/) - [View in Browser](https://ldbert.github.io/rock-paper-scissors/)
 - [Walmart-cashier's Solution](https://github.com/Walmart-cashier/Rock-Paper-Scissor) - [View in Browser](https://walmart-cashier.github.io/Rock-Paper-Scissor/)
 - [Snowmonkey's Solution](https://github.com/parent-tobias/TOP-rps-console)
@@ -1347,4 +1348,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tuan Nguyen's Solution](https://github.com/Tuan96/rock-paper-scissors) - [View in Browser](https://tuan96.github.io/rock-paper-scissors/)
 - [ahanasi's Solution](https://github.com/ahanasi/rock-paper-scissors) - [View in Browser](https://ahanasi.github.io/rock-paper-scissors/)
 - [aadilayub's Solution](https://gitlab.com/aadilayub/rock-paper-scissors) - [View in Browser](https://rock-paper-scissors.aadil.tech)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/rock-paper-scissors)
 </details>
+Noobs make changes here
