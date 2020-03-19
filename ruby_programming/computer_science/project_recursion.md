@@ -221,6 +221,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/fibonacci.rb)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/recursion/blob/master/fibonacci.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/recursion/blob/master/fibonacci.rb)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/recursion.rb)
 </details>
 
 ### Project: Merge Sort
@@ -451,7 +452,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/merge_sort.rb)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/recursion/blob/master/merge_sort.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/recursion/blob/master/merge-sort.rb)
-* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/recursion.rb)
 </details>
 
 ### Additional Resources
