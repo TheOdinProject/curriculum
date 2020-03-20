@@ -3082,6 +3082,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dennis's Solution (Easy)](https://github.com/denniskenneth/google-homepage) - [View in Browser](https://denniskenneth.github.io/google-homepage/)
 * [Dennis's Solution (Difficult))](https://github.com/denniskenneth/Google-Search-Result-Page) - [View in Browser](https://denniskenneth.github.io/Google-Search-Result-Page/)
 * [bayl0n's Solution (Easy)](https://github.com/bayl0n/Google) - [View in Browser](https://bayl0n.github.io/Google/)
+*[aexnimbus's Solution (Easy)](https://github.com/aexnimbus/google-homepage) [View in Browser]              (https://aexnimbus.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
