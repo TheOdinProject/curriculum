@@ -108,7 +108,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Vorelli's Solution](https://github.com/Vorelli/Goal_Tracker) - [View in Browser](https://vorelli.github.io/Goal_Tracker/)
 * [Y0ss-Please's Solution](https://github.com/Y0ss-Please/doitup) - [View in Browser](https://y0ss-please.github.io/doitup/public/index.html)
 * [0xtaf's Solution](https://github.com/0xtaf/todo) - [View in Browser](https://0xtaf.github.io/todo/)
-
-Please add my finihsed project here https://ricardo-gonzalez-villegas.github.io/to-do-list/
-
+* [ricardo's Solution](https://ricardo-gonzalez-villegas.github.io/to-do-list/)
 </details>
