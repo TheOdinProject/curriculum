@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Charles Ivia's Solution](https://github.com/CharlesIvia/Blog-App.git)
 * [killermag's Solution](https://github.com/killermag/blogger) - [View in Browser](https://secure-eyrie-19612.herokuapp.com/)
 * [Brandon's Solution](https://github.com/brandonricharda/blogger-project) - [View in Browser](https://guarded-harbor-95815.herokuapp.com/)
 * [Odunsi Joseph's Solution](https://github.com/dhatguy/blogger) - [View in Browser](https://lit-dawn-86296.herokuapp.com)
