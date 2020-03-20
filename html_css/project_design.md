@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Estela's Solution] (https://estelajimero.github.io/design-teardown/) - [View in Browser](https://estelajimero.github.io/design-teardown/)
 * [Johongirr's Solution](https://github.com/Johongirr/design-teardown) - [View in Browser](https://johongirr.github.io/design-teardown/)
 * [Ikraamg and Kubilay's Solution](https://github.com/ikraamg/Design-Teardown-Heatmap) - [View in Browser](https://ikraamg.github.io/Design-Teardown-Heatmap/)
 * [Igorashs's Solution](https://github.com/igorashs/design-teardown) - [View in Browser](https://igorashs.github.io/design-teardown/)
