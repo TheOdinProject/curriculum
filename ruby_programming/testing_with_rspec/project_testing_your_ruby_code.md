@@ -253,6 +253,8 @@ connect_four)
 * [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
 * [Busy Bee's Solution](https://github.com/swissbusybee/Connect_Four_Project)
 * [Jay Conner's Solution](https://github.com/cleve703/connect4)
+* [Hyperturing's Solution](https://github.com/hyperturing/connectfour)
+* [Robert Suazo's Solution](https://github.com/rsuazo/connect_four)
 </details>
 
 ### Additional Resources
