@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Estela's Solution](https://estelajimero.github.io/positioning-floating/) - [View in Browser](https://estelajimero.github.io/positioning-floating/)
 * [Igorashs's Solution](https://github.com/igorashs/positioning-and-floating-elements) - [View in Browser](https://igorashs.github.io/positioning-and-floating-elements/)
 * [Zakariye's Solution](https://github.com/ZYusuf10/curriculum) - [View in Browser](https://zyusuf10.github.io/flex_practice/timesClone.html)
 * [Basskip's solution](https://github.com/Basskip/times-article-html-css) - [View in Browser](https://basskip.com/times-article-html-css/)

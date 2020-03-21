@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fossegrim's Solution](https://github.com/olav35/odin-kittens)
 * [Ian's Solution](https://github.com/IanMKesler/odin-kittens)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/odin-kittens)
 * [Helmi's Solution](https://github.com/helmihidzir/odin-kittens)
@@ -191,6 +192,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fossegrim's Solution](https://github.com/olav35/odin-flickr)
 * [Ian's Solution](https://github.com/IanMKesler/flickr-widget)
 * [Helmi's Solution](https://github.com/helmihidzir/odin_flickr)
 * [Kevin Vuong's solution](https://github.com/fffear/odin_flickr)

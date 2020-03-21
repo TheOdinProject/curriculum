@@ -30,6 +30,7 @@ Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it's in
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hector's Solution](https://github.com/hectorgarcia07/toy_app) - [Heroku](https://safe-mesa-63126.herokuapp.com/)
 * [Paulo Felipe Souza](https://github.com/Pauloparakleto/toy_app) - [Heroku](https://protected-woodland-57701.herokuapp.com/)
 * [David Auza's and Luis Novoa's Solution](https://github.com/luis-novoa/rails_toy_app) - [Heroku](https://shrouded-island-61851.herokuapp.com/)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/toy_app) - [Heroku](https://toy-app-54058.herokuapp.com/)
