@@ -140,4 +140,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Y02WK's Solution](https://github.com/Y02WK/cafe_toki) - [View in Browser](https://y02wk.github.io/cafe_toki/)
 - [r-hathcock's Solution](https://github.com/r-hathcock/restaurant-page)
 - [Rey van den Berg's Solution](https://github.com/Rey810/restaurant-page) - [View in Browser](https://rey810.github.io/restaurant-page)
+- [barrysweeney's Solution](https://github.com/barrysweeney/restaurant-site) - [View in Browser](https://barrysweeney.github.io/restaurant-site/)
 </details>
