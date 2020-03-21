@@ -188,6 +188,8 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Marius J's Solution](https://github.com/norkitorki/Pomodoro-Clock-Project) - [View in Browser](https://norkitorki.github.io/Pomodoro-Clock-Project/)
 * [alicee88 & Alex's solution](https://github.com/alicee88/odin-pomodoro) - [View in Browser](https://alicee88.github.io/odin-pomodoro/)
 </details>
+* [Kendra Moyars's solution](https://github.com/kendramoyars/pomodoro_project) - [View in Browser](https://kendramoyars.github.io/pomodoro_project/)
+</details>
 
 ### Next Steps
 
