@@ -88,7 +88,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-  
+
 * Add your solution below this list
 * [oumarhadrami's Solution (Easy)](https://github.com/oumarhadrami/google-home-page-1) - [View in Browser](https://oumarhadrami.github.io/google-home-page-1/)
 * [Scratch-code's Solution (Easy)](https://github.com/Scratch-code/google-homepage) - [View in Browser](https://scratch-code.github.io/google-homepage/)
@@ -3073,7 +3073,15 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Danny's Solution (Easy)](https://github.com/danG02/google-homepage) - [View in Browser](https://dang02.github.io/google-homepage/)
 * [martinsober's Solution (Easy)](https://github.com/martinsober/google-homepage-PC) - [View in Browser](https://martinsober.github.io/google-homepage-PC/)
 * [grueneich's Solution (Easy)](https://grueneich.github.io/google-homepage/) - [View in Browser](https://grueneich.github.io/google-homepage/)
+* [Mpavcell's Solution (Easy)](https://mpavcell.github.io/google-homepage/)
+* [Alan's Solution (Easy)](https://github.com/aljones1816/google-homepage) - [View in Browser](https://almjones.com/google-homepage/)
 * [thatoldchap's Solution (Easy)](https://thatoldchap.github.io/google-homepage/) - [View in Browser](https://thatoldchap.github.io/google-homepage/)
+* [AJMcDee's Solution (Easy)](https://ajmcdee.github.io/google-homepage/) - [View in Browser](https://ajmcdee.github.io/google-homepage/)
+* [mooniiDev's Solution (Difficult)](https://github.com/mooniiDev/google-search-results-page) - [View in Browser](https://mooniidev.github.io/google-search-results-page/)
+* [iStayGrizzly's Solution (Easy)](https://istaygrizzly.github.io/google-homepage2/)
+* [Dennis's Solution (Easy)](https://github.com/denniskenneth/google-homepage) - [View in Browser](https://denniskenneth.github.io/google-homepage/)
+* [Dennis's Solution (Difficult))](https://github.com/denniskenneth/Google-Search-Result-Page) - [View in Browser](https://denniskenneth.github.io/Google-Search-Result-Page/)
+* [bayl0n's Solution (Easy)](https://github.com/bayl0n/Google) - [View in Browser](https://bayl0n.github.io/Google/)
 </details>
 
 ### Additional Resources
