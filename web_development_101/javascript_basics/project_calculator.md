@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Aanttrax's Solution](https://github.com/Aanttrax/Calculator) - [View in Browser](https://github.com/Aanttrax/Calculator/)
 - [cmjnorman's Solution](https://github.com/cmjnorman/calculator) - [View in Browser](https://cmjnorman.github.io/calculator/)
 - [Brandon's Solution](https://github.com/bstottler/calculator) - [View in Browser](https://bstottler.github.io/calculator/)
 - [Fabio's Solution](https://github.com/ThomYorke7/js-calculator) - [View in Browser](https://thomyorke7.github.io/js-calculator/)
@@ -558,4 +559,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Michael Doudy's Solution (Mobile Friendly)](https://github.com/mdoudy90/calculator) - [View in Browser](https://mdoudy90.github.io/calculator/)
 - [Tim Kelly's Solution (Mobile Friendly)](https://github.com/TimKellyTK/project-calculator) - [View in Browser](https://timkellytk.github.io/project-calculator/)
 - [headnodic's Solution](https://github.com/headnodic/vue-the-odin-project-coursework/tree/master/src/components/web-development-101/projects/calculator) - [View in Browser](https://headnodic-vue-top-course.netlify.com/calculator)
+- [Ulises V's Solution](https://github.com/UlisesVil/Calculator) - [View in Browser](https://ulisesvil.github.io/Calculator/)
 </details>
