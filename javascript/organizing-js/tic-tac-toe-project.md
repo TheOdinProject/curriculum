@@ -144,4 +144,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Rey van den Berg's Solution](https://github.com/Rey810/Tic-Tac-Toe) - [View in Browser](https://rey810.github.io/Tic-Tac-Toe/)
 - [barrysweeney's Solution](https://github.com/barrysweeney/tic-tac-toe) - [View in Browser](https://barrysweeney.github.io/tic-tac-toe/)
 - [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/tic-tac-toe) - [View in Browser](https://blessedonekobo.github.io/tic-tac-toe/)
+- [Michael Doudy's Solution (PvP and PvC)](https://github.com/mdoudy90/TicTacToe) - [View in Browser](https://mdoudy90.github.io/TicTacToe/)
 </details>
