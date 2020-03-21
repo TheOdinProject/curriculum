@@ -52,6 +52,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [jodokusquack's Solution with Extra Credit](https://github.com/jodokusquack/ruby_binary_search_tree)
 * [Billy's Solution](https://github.com/bcoffin9/project_binary_search_trees)
 * [Bradley's Solution with Extra Credit](https://github.com/spaceincase/odin-project-exercises/tree/master/binary_search_trees)
 * [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/binary_search_tree.rb)
@@ -209,6 +210,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [guacamobley's Solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/binary-search-tree.rb)
 * [Robert Suazo's Solution](https://github.com/rsuazo/binary_search_tree/blob/master/binary_search_tree.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/binary_search_tree)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/binary_search_tree)
 </details>
 
 ### Project 2: Knight's Travails
@@ -255,6 +257,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [jodokusquack's Solution](https://github.com/jodokusquack/knights_travails)
 * [Billy's Solution](https://github.com/bcoffin9/project_springer_travails)
 * [proto-dylan's Solution](https://github.com/proto-dylan/knight_moves/blob/master/knight_moves.rb)
 * [fossegrim's Solution](https://github.com/olav35/data-structures-and-algorithms/blob/master/knight's_travails.rb)
