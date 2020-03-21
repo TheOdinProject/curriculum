@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Jimmy's Solution](https://github.com/vincerhodes/etch-a-sketch) - [View in Browser](https://vincerhodes.github.io/etch-a-sketch/)
 * [MentalSkin's Solution](https://github.com/tergitran/etch-a-sketch) - [View in Browser](https://tergitran.github.io/etch-a-sketch/)
 * [MentalSkin's Solution](https://github.com/MentalSkin/etch-a-sketch) - [View in Browser](https://mentalskin.github.io/etch-a-sketch/)
 * [Aanttrax's Solution](https://github.com/Aanttrax/Etch-a-Sketch) - [View in Browser](https://aanttrax.github.io/Etch-a-Sketch/)
@@ -60,7 +61,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Vic-Ro's Solution](https://github.com/vic-Ro/etch-a-sketch) - [View in Browser](https://vic-ro.github.io/etch-a-sketch/)
 * [Meena's Solution](https://github.com/meenaiskandar/EtchASketch) - [View in Browser](https://github.com/meenaiskandar/EtchASketch)
 * [threeaces' Solution](https://github.com/threeaces/etch-a-sketch) - [View in Browser](https://threeaces.github.io/etch-a-sketch/)
-* [Daegudude's Solution](https://github.com/DaeguDude/Etch-a-Sketch-TOP) - [View in Browser](https://daegudude.github.io/Etch-a-Sketch-TOP/) 
+* [Daegudude's Solution](https://github.com/DaeguDude/Etch-a-Sketch-TOP) - [View in Browser](https://daegudude.github.io/Etch-a-Sketch-TOP/)
 * [reneweisers's Solution](https://github.com/reneweiser/etch-a-sketch) - [View in Browser](https://reneweiser.github.io/etch-a-sketch/)
 * [kdayno's Solution](https://github.com/kdayno/etch-a-sketch) - [View in Browser](https://kdayno.github.io/etch-a-sketch/)
 * [Cristian's Solution](https://github.com/montescadenas/Etch-a-Sketch) - [View in Browser](https://montescadenas.github.io/Etch-a-Sketch/)
@@ -823,4 +824,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Ulises V's Solution](https://github.com/UlisesVil/Etch-a-sketch) - [View in Browser](https://ulisesvil.github.io/Etch-a-sketch/)
 * [Dino's Solution](https://github.com/stancic/etchASketch) - [View in Browser](https://stancic.github.io/etchASketch/)
 * [ahanasi's Solution](https://github.com/ahanasi/etch-a-sketch) - [View in Browser](https://ahanasi.github.io/etch-a-sketch/)
+* [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/etch-a-sketch) - [View in Browser](https://ranmaru22.github.io/the_odin_project/etch-a-sketch/)
 </details>
