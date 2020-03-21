@@ -822,4 +822,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Fosnine's Solution](https://github.com/Fosnine/Etch-a-Sketch) - [View in Browser](https://fosnine.github.io/Etch-a-Sketch/)
 * [Ulises V's Solution](https://github.com/UlisesVil/Etch-a-sketch) - [View in Browser](https://ulisesvil.github.io/Etch-a-sketch/)
 * [Dino's Solution](https://github.com/stancic/etchASketch) - [View in Browser](https://stancic.github.io/etchASketch/)
+* [Veskenazi's Solution](https://github.com/veskenazi/etch-a-sketch) - [View in Browser](https://veskenazi.github.io/etch-a-sketch/)
 </details>
