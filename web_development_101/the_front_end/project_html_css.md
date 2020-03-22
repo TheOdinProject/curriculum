@@ -3084,6 +3084,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [bayl0n's Solution (Easy)](https://github.com/bayl0n/Google) - [View in Browser](https://bayl0n.github.io/Google/)
 * [aexnimbus's Solution (Easy)](https://github.com/aexnimbus/google-homepage) - [View in Browser](https://aexnimbus.github.io/google-homepage/)
 * [castle429's Solution (Easy)](https://github.com/castle429/google_homepage) - [View in Browser](https://castle429.github./google_homepage/)
+* [Givemore's Solution (Easy)](https://github.com/Givemo/google-homepage) - [View in Browser](https://givemo.github.io/google-homepage/)
+*[Givemore's Solution (Difficult)](https://github.com/Givemo/google-homepage_difficult) - [View in Browser](https://givemo.github.io/google-homepage_difficult/)
 </details>
 
 ### Additional Resources
