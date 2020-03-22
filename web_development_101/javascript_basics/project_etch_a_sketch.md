@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Walmart-cashier's Solution](https://github.com/Walmart-cashier/etch-a-sketch) - [View in Browser](https://walmart-cashier.github.io/etch-a-sketch/)
 * [Jimmy's Solution](https://github.com/vincerhodes/etch-a-sketch) - [View in Browser](https://vincerhodes.github.io/etch-a-sketch/)
 * [MentalSkin's Solution](https://github.com/tergitran/etch-a-sketch) - [View in Browser](https://tergitran.github.io/etch-a-sketch/)
 * [MentalSkin's Solution](https://github.com/MentalSkin/etch-a-sketch) - [View in Browser](https://mentalskin.github.io/etch-a-sketch/)
