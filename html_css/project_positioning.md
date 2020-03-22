@@ -126,6 +126,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Halkim's Solution](https://github.com/halkim44/nytimes-article-rebuild) - [View in Browser](https://halkim44.github.io/nytimes-article-rebuild/)
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
 * [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
+* [0xtaf's Solution](https://github.com/0xtaf/css-nyt) - [View in Browser](https://0xtaf.github.io/css-nyt/)
 
 </details>
 
