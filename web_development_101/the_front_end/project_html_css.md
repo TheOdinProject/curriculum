@@ -3093,6 +3093,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [doncilaarcadie's Solution (Easy)](https://doncilaarcadie.github.io/google-homepage/)
 * [FilipKralik's Solution (Easy)](https://github.com/FilipKralik94/google-homepage) - [View in Browser](https://filipkralik94.github.io/google-homepage/)
 * [ebergson's Solution (Easy)](https://github.com/ebergson/google-homepage) - [View in Browser](https://ebergson.github.io/google-homepage/)
+* [LeonidasTelik's Solution (Easy)](https://github.com/leonidastelik/google-homepage) - [View in Browser](https://leonidastelik.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
