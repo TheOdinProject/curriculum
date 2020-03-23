@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Kyle Judd's Solution (Easy)](https://github.com/kyle-judd/google-homepage) - [View in Browser](https://kyle-judd.github.io/google-homepage/)
+* [keifererikson's Solution (Easy)](https://github.com/keifererikson/google-homepage) - [View in Browser](https://keifererikson.github.io/google-homepage/)
 * [Walmart-cashier's Solution (Easy)](https://github.com/Walmart-cashier/google-homepage) - [View in Browser](https://walmart-cashier.github.io/google-homepage/)
 * [Walmart-cashier's Solution (Difficult)](https://github.com/Walmart-cashier/google-searchresult) - [View in Browser](https://walmart-cashier.github.io/google-searchresult/)
 * [oumarhadrami's Solution (Easy)](https://github.com/oumarhadrami/google-home-page-1) - [View in Browser](https://oumarhadrami.github.io/google-home-page-1/)
@@ -3087,6 +3089,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [aexnimbus's Solution (Easy)](https://github.com/aexnimbus/google-homepage) - [View in Browser](https://aexnimbus.github.io/google-homepage/)
 * [castle429's Solution (Easy)](https://github.com/castle429/google_homepage) - [View in Browser](https://castle429.github./google_homepage/)
 * [Wes's Solution (Easy)](https://github.com/WeKiBan/google-homepage) - [View in Browser](https://wekiban.github.io/google-homepage/)
+* [doncilaarcadie's Solution (Easy)](https://doncilaarcadie.github.io/google-homepage/)
+* [FilipKralik's Solution (Easy)](https://github.com/FilipKralik94/google-homepage) - [View in Browser](https://filipkralik94.github.io/google-homepage/)
+* [ebergson's Solution (Easy)](https://github.com/ebergson/google-homepage) - [View in Browser](https://ebergson.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
