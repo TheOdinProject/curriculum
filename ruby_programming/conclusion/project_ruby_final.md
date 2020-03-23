@@ -125,6 +125,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ben Fowler's solution](https://github.com/benfowler04/chess) - [Play on repl.it](https://repl.it/@BenFowler/chess)
 * [guacamobley's solution](https://github.com/guacamobley/chess)
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/chess)
+* [Bendee's Solution](https://github.com/bendee48/chess) - [Repl.it](https://repl.it/@bendee48/chess)
 
 </details>
 

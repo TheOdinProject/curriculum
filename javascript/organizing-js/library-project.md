@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Muhymenul's Solution (w/localstorage)](https://github.com/muhymenulhaque/library) - [View in Browser](https://muhymenulhaque.github.io/library/)
+- [Thomas Chaigneau's Solution](https://github.com/ChainYo/LibProject) - [View in Browser](http://thomaschaigneau.me/LibProject/)
 - [Wmiz's Solution](https://github.com/wmiz/library) - [View in Browser](https://wmiz.github.io/library)
 - [Pratik's Solution](https://github.com/Pratik-Gohil/JavasciptLibray_localStorage) - [View in Browser](https://pratik-gohil.github.io/JavasciptLibray_localStorage/)
 - [are92592's Solution](https://github.com/are92592/odinBook) - [View in Browser](https://are92592.github.io/odinBook/)
