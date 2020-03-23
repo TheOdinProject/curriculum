@@ -414,4 +414,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ds_and_algos/blob/master/knights_moves.rb)
 * [Robert Suazo's Solution](https://github.com/rsuazo/knights_travails/blob/master/main.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/knight_moves)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/knight_moves)
 </details>
