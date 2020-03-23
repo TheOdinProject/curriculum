@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Arf65's Solution](https://github.com/arf65/calculator) - [View in Browser](https://arf65.github.io/calculator/)
 - [Aanttrax's Solution](https://github.com/Aanttrax/Calculator) - [View in Browser](https://github.com/Aanttrax/Calculator/)
 - [cmjnorman's Solution](https://github.com/cmjnorman/calculator) - [View in Browser](https://cmjnorman.github.io/calculator/)
 - [Brandon's Solution](https://github.com/bstottler/calculator) - [View in Browser](https://bstottler.github.io/calculator/)
@@ -560,4 +561,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tim Kelly's Solution (Mobile Friendly)](https://github.com/TimKellyTK/project-calculator) - [View in Browser](https://timkellytk.github.io/project-calculator/)
 - [headnodic's Solution](https://github.com/headnodic/vue-the-odin-project-coursework/tree/master/src/components/web-development-101/projects/calculator) - [View in Browser](https://headnodic-vue-top-course.netlify.com/calculator)
 - [Ulises V's Solution](https://github.com/UlisesVil/Calculator) - [View in Browser](https://ulisesvil.github.io/Calculator/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/calculator) - [View in Browser](https://ranmaru22.github.io/the_odin_project/calculator/)
+- [m-rejdych's Solution](https://github.com/m-rejdych/Calculator) - [View in Browser](https://m-rejdych.github.io/Calculator/)
 </details>
