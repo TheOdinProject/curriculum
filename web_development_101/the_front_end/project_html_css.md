@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Kyle Judd's Solution (Easy)](https://github.com/kyle-judd/google-homepage) - [View in Browser](https://kyle-judd.github.io/google-homepage/)
 * [keifererikson's Solution (Easy)](https://github.com/keifererikson/google-homepage) - [View in Browser](https://keifererikson.github.io/google-homepage/)
 * [Walmart-cashier's Solution (Easy)](https://github.com/Walmart-cashier/google-homepage) - [View in Browser](https://walmart-cashier.github.io/google-homepage/)
 * [Walmart-cashier's Solution (Difficult)](https://github.com/Walmart-cashier/google-searchresult) - [View in Browser](https://walmart-cashier.github.io/google-searchresult/)
