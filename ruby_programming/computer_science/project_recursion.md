@@ -16,6 +16,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jodokusquack's solution](https://github.com/jodokusquack/ruby_recursion)
+* [Johongirr's solution](https://github.com/Johongirr/recursion_challenge)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/fibonacci_series)
 * [Nix-star's Solution](https://github.com/nix-star/repo/blob/master/recursion.rb)
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/fibonacci)
@@ -219,6 +221,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/fibonacci.rb)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/recursion/blob/master/fibonacci.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/recursion/blob/master/fibonacci.rb)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/recursion.rb)
 </details>
 
 ### Project: Merge Sort
@@ -250,6 +253,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jodokusquack's solution](https://github.com/jodokusquack/ruby_recursion)
+* [Johongirr's Solution](https://github.com/Johongirr/recursion_challenge/blob/master/merge_sort.rb)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/merge_sort)
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/merge_sort)
 * [niconisoria's Solution](https://github.com/niconisoria/recursion/blob/master/merge_sort.rb)
@@ -447,6 +452,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Ranon Martin's Solution](https://github.com/ranonm/TheOdinProjectExercises/blob/master/merge_sort.rb)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/recursion/blob/master/merge_sort.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/recursion/blob/master/merge-sort.rb)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/mergeSort.rb)
 </details>
 
 ### Additional Resources
