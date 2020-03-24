@@ -564,4 +564,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Veskenazi's Solution](https://github.com/veskenazi/calculator) - [View in Browser](https://veskenazi.github.io/calculator/)
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/calculator) - [View in Browser](https://ranmaru22.github.io/the_odin_project/calculator/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Calculator) - [View in Browser](https://m-rejdych.github.io/Calculator/)
+- [jcai8649's Solution](https://github.com/jcai8649/Calculator) - [View in Browser](https://jcai8649.github.io/Calculator/)
 </details>
