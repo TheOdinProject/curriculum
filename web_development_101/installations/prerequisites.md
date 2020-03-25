@@ -100,7 +100,7 @@ The rest of the installation is pretty straightforward, but if you have any ques
 
 Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode.
 
-Please follow the steps on this link from our [wiki](https://github.com/TheOdinProject/curriculum/wiki/Guest-Additions#2-mount-guest-additions-from-the-virtual-box-vm-title-bar "The Odin Project wiki")
+Please follow the steps on this link from our [wiki](https://github.com/TheOdinProject/curriculum/wiki/Guest-Additions#2-mount-guest-additions-from-the-virtual-box-vm-title-bar "The Odin Project wiki").
 
   **NOTE**: 
 
