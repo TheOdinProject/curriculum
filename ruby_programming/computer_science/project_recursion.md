@@ -222,6 +222,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/recursion/blob/master/fibonacci.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/recursion/blob/master/fibonacci.rb)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/recursion.rb)
+* [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
