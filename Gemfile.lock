@@ -306,7 +306,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
     rainbow (3.0.0)
-    rake (11.3.0)
+    rake (12.3.3)
     ransack (2.1.1)
       actionpack (>= 5.0)
       activerecord (>= 5.0)
@@ -467,7 +467,7 @@ DEPENDENCIES
   rails (~> 5.2)
   rails-controller-testing (~> 1.0)
   rails_12factor (~> 0.0.3)
-  rake (~> 11.3)
+  rake (~> 12.3)
   reek
   rspec-rails (~> 3.5)
   rubocop
