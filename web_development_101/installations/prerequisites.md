@@ -100,15 +100,8 @@ The rest of the installation is pretty straightforward, but if you have any ques
 
 Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode.
 
-While your VM is running, do the following steps:
+Please follow the steps on this link from our [wiki](https://github.com/TheOdinProject/curriculum/wiki/Guest-Additions#2-mount-guest-additions-from-the-virtual-box-vm-title-bar "The Odin Project wiki")
 
-  1. Click "Devices" -> "Insert Guest additions CD image" in the menu bar
-  2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
-  3. The following commands will ask you to type the password you setup earlier. As you type your password, you'll notice there is no visual feedback as this is a security measure. When prompted for your password, just type it and then push Enter on your keyboard. Enter the following command into the terminal: `sudo apt-get update`. Once the command has finished, enter `sudo apt-get upgrade`. 
-  4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
-  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password. If the terminal throws back an error, you can try again but replace $USER with your username you created in Lubuntu, but this should not be necessary.
-  6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
-  
   **NOTE**: 
 
 * If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
