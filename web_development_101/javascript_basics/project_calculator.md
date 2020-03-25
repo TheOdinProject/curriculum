@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Calculator) - [View in Browser](https://andrewbaldwin44.github.io/Calculator/)
 - [LorriAnn's Solution](https://github.com/TechnicolorPanda/calculator) - [View in Browser](https://TechnicolorPanda.github.io/calculator/)
 - [Austin's Solution](https://github.com/cudworth/calculator) - [View in Browser](https://cudworth.github.io/calculator/)
 - [Zayeer's Solution](https://github.com/Zayeer/Basic-Calculator) - [View in Browser](https://zayeer.github.io/Basic-Calculator/)
