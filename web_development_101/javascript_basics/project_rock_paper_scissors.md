@@ -43,7 +43,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 <<<<<<< HEAD
 - [James V's Solution](https://github.com/jamesspearsv/rockPaperScissors.git)
-=======
 - [Dhrubo's Solution](https://github.com/Dhrubot/the_odin_projects/tree/master/rock_paper_scissors)
 - [Coral T's Solution](https:https://github.com/coralt/rockpaperscissors)
 - [LancharroDav's Solution](https://github.com/LancharroDav/rock-paper-scissors-lizard-spock-game) - [View in Browser](https://lancharrodav.github.io/rock-paper-scissors-lizard-spock-game/)
