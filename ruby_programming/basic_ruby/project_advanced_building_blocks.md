@@ -465,6 +465,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/enumerable-methods/enumerable-methods.rb)
+* [Sebastian Gil's Solution](https://github.com/sebGilR/enumerables) - [View Demo](https://repl.it/github/sebGilR/enumerables)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/blob/master/enumerable_methods.rb)
 * [Abdel Pérez's Solution](https://github.com/abdelp/enumerable-methods)
 * [Armo's Solution](https://github.com/Armoilane/ruby-exercises/)
