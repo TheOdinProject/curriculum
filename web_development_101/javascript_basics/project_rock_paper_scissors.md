@@ -41,13 +41,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [James V's Solution](https://github.com/jamesspearsv/rockPaperScissors.git)
 - [Dhrubo's Solution](https://github.com/Dhrubot/the_odin_projects/tree/master/rock_paper_scissors)
 - [Coral T's Solution](https:https://github.com/coralt/rockpaperscissors)
 - [LancharroDav's Solution](https://github.com/LancharroDav/rock-paper-scissors-lizard-spock-game) - [View in Browser](https://lancharrodav.github.io/rock-paper-scissors-lizard-spock-game/)
 - [keifererikson's Solution](https://github.com/keifererikson/rock_paper_scissors) - [View in Browser](https://keifererikson.github.io/rock_paper_scissors/)
->>>>>>> 2ef7e1b83501e0c0bf103d38dcc1ca73847d4eb9
 - [AJMcDee's Solution](https://github.com/AJMcDee/rockPaperScissorsJS) - [View in Browser](https://ajmcdee.github.io/rockPaperScissorsJS/)
 - [Mr.Bowtie's Solution](https://github.com/Mr-Bowtie/rock-paper-scissors)
 - [RainDropsz's  Solution](https://github.com/RainDropsz/rock_paper_scissors) - [View in Browser](https://raindropsz.github.io/Rock_paper_scissor.html)
