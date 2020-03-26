@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 ruby '~> 2.6'
 
 gem 'rails',                      '~> 5.2'
-gem 'puma',                       '~> 4.3.1'
+
+gem 'puma'
 gem 'turbolinks'
 gem 'jquery-rails',               '~> 4.3.1'
 gem 'devise',                     '>= 4.7.1'
