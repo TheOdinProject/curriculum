@@ -149,4 +149,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [barrysweeney's Solution](https://github.com/barrysweeney/tic-tac-toe) - [View in Browser](https://barrysweeney.github.io/tic-tac-toe/)
 - [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/tic-tac-toe) - [View in Browser](https://blessedonekobo.github.io/tic-tac-toe/)
 - [Michael Doudy's Solution (PvP and PvC)](https://github.com/mdoudy90/TicTacToe) - [View in Browser](https://mdoudy90.github.io/TicTacToe/)
+- [Vitaly Osipov's Solution](https://github.com/vi7ali/tic-tac-toe) - [View in Browser](https://vi7ali.github.io/tic-tac-toe/)
 </details>
