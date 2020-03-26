@@ -833,3 +833,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Joe Thompson's Solution](https://github.com/jlthompso/etch-a-sketch) - [View in Browser](https://jlthompso.github.io/etch-a-sketch/)
 * [Straytjacquet's Solution](https://github.com/Straytjacquet/Etch-a-Sketch) - [View in Browser](https://straytjacquet.github.io/Etch-a-Sketch/)
 </details>
+* [kasweigart's Solution](https://github.com/kasweigart/Etch-A-Sketch) - [View in Browser](https://kasweigart.github.io/Etch-A-Sketch/)
