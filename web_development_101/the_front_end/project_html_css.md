@@ -3103,6 +3103,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [thecodediver's Solution (Easy)](https://github.com/thecodediver/google-homepage) - [View in Browser](https://thecodediver.github.io/google-homepage/)
 * [CodytheDoer's soultion (Easy)](https://github.com/codythedoer/google-homepage/) - [View in Browser](https://codythedoer.github.io/google-homepage/)
 * [Ozan's Solution (Difficult)](https://github.com/ozansozuozgit/google-search) - [View in Browser](https://ozansozuozgit.github.io/google-search/)
+* [marvkal's Solution (Easy)](https://github.com/marvkal/google-homepage) - [View in Browser](https://marvkal.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
