@@ -1359,6 +1359,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bayl0n's Solution](https://github.com/bayl0n/rock-paper-scissors) - [View in Browser](https://bayl0n.github.io/rock-paper-scissors/)
 - [gurucrunch's Solution](https://github.com/gurucrunch/roshambo) - [View in Browser](https://gurucrunch.github.io/roshambo/)
 - [SpyingEnvy's Solution](https://github.com/SpyingEnvelope/rpsgamewUI) - [View in Browser](https://spyingenvelope.github.io/rpsgamewUI/)
+- [iStayGrizzly's Solution](https://github.com/iStayGrizzly/rock-paper-scissors-app) - [View in Browser](https://istaygrizzly.github.io/rock-paper-scissors-app/)
 - [Danny's Solutioon](https://github.com/danG02/rock-paper-scissors) - [View in Browser](https://dang02.github.io/rock-paper-scissors/)
 - [Ryan Early's Solution](https://github.com/ryanfearly/rock-paper-scissors)
 </details>
