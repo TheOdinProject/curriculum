@@ -98,6 +98,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
 * [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
 * [guacamobley's solution](https://github.com/guacamobley/rest-client-project)
+* [Wilmir's Solutiom](https://github.com/Wilmir/ruby-rest-client/blob/master/rest_client.rb)
 </details>
 
 ### Project: Ruby on Rails Tutorial
