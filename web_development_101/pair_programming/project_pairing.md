@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Diane998's Solution](https://github.com/Diane998/pomodoro) - [View in Browser](https://diane998.github.io/pomodoro/)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/pomodoro) - [View in Browser](https://brandonricharda.github.io/pomodoro/)
 * [Ogunmola Israel's Solution](https://github.com/Lippins/pomodoro_timer) - [View in Browser](https://lippins.github.io/pomodoro_timer/)
 * [Tim Shea's Solution](https://github.com/tpsst5/pomodoro_timer) - [View in Browser](https://tpsst5.github.io/pomodoro_timer/)
