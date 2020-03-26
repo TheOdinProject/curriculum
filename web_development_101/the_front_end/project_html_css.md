@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [justonhart's Solution (Easy)](https://github.com/justonhart/google-homepage) - [View in Browser](https://justonh.art/google-homepage/)
 * [iamjethrooo's Solution (Easy)](https://github.com/iamjethrooo/google-homepage) - [View in Browser](https://iamjethrooo.github.io/google-homepage/)
 * [rpllpr's Solution (Easy)](https://github.com/rpllpr/google-homepage) - [View in Browser](https://rpllpr.github.io/google-homepage/)
 * [Kyle Judd's Solution (Easy)](https://github.com/kyle-judd/google-homepage) - [View in Browser](https://kyle-judd.github.io/google-homepage/)
@@ -3097,7 +3098,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ebergson's Solution (Easy)](https://github.com/ebergson/google-homepage) - [View in Browser](https://ebergson.github.io/google-homepage/)
 * [LeonidasTelik's Solution (Easy)](https://github.com/leonidastelik/google-homepage) - [View in Browser](https://leonidastelik.github.io/google-homepage/)
 * [Ozan's Solution (Easy)](https://github.com/ozansozuozgit/google-homepage) - [View in Browser](https://ozansozuozgit.github.io/google-homepage/)
-* [Anik's Solution (Easy)] (https://github.com/AnikIslam7/google-hompage) - [View in Browser] (https://anikislam7.github.io/google-hompage/)
+* [Anik's Solution (Easy)](https://github.com/AnikIslam7/google-hompage) - [View in Browser](https://anikislam7.github.io/google-hompage/)
+* [Laurens' Solution (Easy)](https://github.com/laurenskrom/google-homepage) - [View in Browser](https://laurenskrom.github.io/google-homepage/)
+* [thecodediver's Solution (Easy)](https://github.com/thecodediver/google-homepage) - [View in Browser](https://thecodediver.github.io/google-homepage/)
+* [CodytheDoer's soultion (Easy)](https://github.com/codythedoer/google-homepage/) - [View in Browser](https://codythedoer.github.io/google-homepage/)
+* [Ozan's Solution (Difficult)](https://github.com/ozansozuozgit/google-search) - [View in Browser](https://ozansozuozgit.github.io/google-search/)
 </details>
 
 ### Additional Resources
