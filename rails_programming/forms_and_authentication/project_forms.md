@@ -117,6 +117,8 @@ Send us your solution by editig this [file](https://github.com/TheOdinProject/cu
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Helmi's Solution](https://github.com/helmihidzir/re-former)
+* [David Auza's and Luis Novoa's Solution](https://github.com/davidauza-engineer/Ruby-on-Rails-Re-Former)
 * [Nasser Abachi's Solution](https://github.com/abachi/re-former)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby_On_Rails/ReFormer)
 * [Ian's Solution](https://github.com/IanMKesler/re-former)
