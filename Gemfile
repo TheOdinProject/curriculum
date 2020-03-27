@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '~> 2.6'
 
-gem 'rails',                      '~> 5.2'
+gem 'rails',                      '6'
 
 gem 'puma'
 gem 'turbolinks'
@@ -16,7 +16,7 @@ gem 'octokit',                    '~> 4.6'
 gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-rails_csrf_protection'
-gem 'bootstrap',                  '>= 4.3.1'
+gem 'bootstrap',                  '>= 4.4.1'
 gem 'uglifier',                   '~> 3.0'
 gem 'friendly_id',                '~> 5.1'
 gem 'cancancan',                  '~> 1.15'
@@ -28,9 +28,9 @@ gem 'toastr-rails'
 gem 'gibbon',                     '~> 3.2.0' # for Mailchimp
 gem 'nokogiri',                   '~> 1.10.8'
 gem 'sprockets',                  '~> 3.7.2'
-gem 'newrelic_rpm',               '~> 3.17'
+gem 'newrelic_rpm'
 gem 'activeadmin'
-gem 'bootsnap',                   '~> 1.4'
+gem 'coffee-rails'
 
 group :production do
   gem 'rails_12factor',           '~> 0.0.3'
@@ -38,27 +38,29 @@ group :production do
 end
 
 group :development, :test do
-  gem 'rspec-rails',                      '~> 3.5'
+  gem 'rspec-rails'
   gem 'simplecov', :require => false
   gem 'factory_bot_rails',                '~> 5'
   gem 'database_cleaner',                 '~> 1.5'
   gem 'webmock',                          '~> 2.1'
   gem 'vcr',                              '~> 3.0'
-  gem 'shoulda-matchers',                 '~> 3.1'
+  gem 'shoulda-matchers'
   gem 'rake',                             '~> 12.3'
-  gem 'rails-controller-testing',         '~> 1.0'
+  gem 'rails-controller-testing'
   gem 'dotenv-rails'
   gem 'bundle-audit'
   gem 'pry',                                '~> 0.12.2'
+  gem 'factory_bot'
 end
 
 group :development do
-  gem 'web-console',                       '~> 3.4'
-  gem 'better_errors',                     '~> 2.4'
+  gem 'web-console'
+  gem 'better_errors'
   gem 'binding_of_caller',                 '~> 0.8'
   gem 'letter_opener',                     '~> 1.4'
   gem 'derailed'
   gem 'reek'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
+  gem 'listen'
 end

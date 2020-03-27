@@ -37,12 +37,12 @@ RSpec.describe LessonContentImporter do
   end
 
   describe '.import_all' do
-    let(:lessons) { [build_stubbed(:lesson)] * 3 }
+    let(:lessons) { create_list(:lesson, 3) }
 
     before do
-      allow(Lesson).to receive(:all).
-        and_return(lessons)
+      lessons
     end
+
 
     it 'updates the content for all lessons' do
       expect(LessonContentImporter).to receive(:for).thrice
@@ -92,7 +92,8 @@ RSpec.describe LessonContentImporter do
         Lesson.new(
           title: 'Ruby Basics',
           repo: 'ruby_course',
-          url: '/ruby_basics/variables'
+          url: '/ruby_basics/variables',
+          section: Section.new
         )
       end
 

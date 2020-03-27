@@ -4,9 +4,9 @@ require 'cancan/matchers'
 describe Ability do
   describe 'Projects' do
     let(:user)         { FactoryBot.create(:user) }
-    let(:admin_user)   { FactoryBot.create(:admin) }
+    let(:admin_user)   { create(:user, admin: true) }
     let(:user_project) { FactoryBot.build(:project, user_id: user.id) }
-    let(:admin_project) { FactoryBot.build(:project, user_id: admin_user.id) }
+    let(:admin_project) { FactoryBot.build(:project, user: admin_user) }
 
     context 'standard user' do
       before do

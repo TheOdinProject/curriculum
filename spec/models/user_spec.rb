@@ -8,7 +8,8 @@ RSpec.describe User do
       password: 'foobar',
       provider: provider,
       uid: '',
-      avatar: avatar
+      avatar: avatar,
+      track: create(:track)
     )
   }
   let(:provider) { '' }

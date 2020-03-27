@@ -1,26 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Lesson do
-  subject(:lesson) {
-    Lesson.new(
-      title: 'test_lesson',
-      position: 1,
-      section_id: 2,
-      is_project: false,
-      url: '/README.md',
-      content: nil,
-      slug: 'test-lesson'
-    )
-  }
-
-  let(:course) { double('Course', title: 'web_dev_101') }
-  let(:section) { double('Section', lessons: lessons) }
-  let(:lessons) { [] }
-
-  before do
-    allow(lesson).to receive(:section).and_return(section)
-    allow(lesson).to receive(:course).and_return(course)
-  end
+  subject(:lesson) { described_class.new }
 
   it { is_expected.to belong_to(:section) }
   it { is_expected.to have_one(:course) }
@@ -29,16 +10,12 @@ RSpec.describe Lesson do
   it { is_expected.to validate_presence_of(:position) }
 
   describe '#position_in_section' do
-    let(:lessons) { [lesson, lesson2, lesson3] }
-    let(:lesson2) { double('Lesson', is_project: false, position: 2) }
-    let(:lesson3) { double('Lesson', is_project: true, position: 3) }
-    let(:appropiate_lessons) { [lesson, lesson2] }
+    let(:lesson) { create(:lesson) }
+    let(:other_lesson) { create(:lesson) }
+    let(:section) { create(:section, lessons: [other_lesson, lesson])}
 
     before do
-      allow(lesson).to receive(:position).and_return(3)
-      allow(lessons).to receive(:where)
-        .with('position <= ?', 3)
-        .and_return(appropiate_lessons)
+      section
     end
 
     it 'returns the position of the lesson in the section' do

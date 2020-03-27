@@ -13,7 +13,7 @@ describe ':curriculum' do
         :lesson,
         url: '/README.md',
         content: nil,
-        repo: 'curriculum'
+        repo: 'curriculum',
       )
     end
 

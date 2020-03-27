@@ -23,7 +23,7 @@ class RegistrationsController < Devise::RegistrationsController
   private
 
   def register_mailing_list
-    if resource.persisted? && ENV['MAILCHIMP_API_KEY']
+    if resource.persisted? && Rails.env.production?
       MailchimpSubscription.create(
         email: resource.email,
         username: resource.username,
