@@ -1,9 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe LessonCompletion do
-  subject(:lesson_completion) {
-    LessonCompletion.new(student_id: 1, lesson_id: 1)
-  }
+  subject { described_class.new }
 
   it { is_expected.to validate_presence_of(:student_id) }
   it { is_expected.to validate_presence_of(:lesson_id) }

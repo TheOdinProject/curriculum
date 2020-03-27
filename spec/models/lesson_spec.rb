@@ -7,6 +7,7 @@ RSpec.describe Lesson do
   it { is_expected.to have_one(:course) }
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completing_users) }
+
   it { is_expected.to validate_presence_of(:position) }
 
   describe '#position_in_section' do

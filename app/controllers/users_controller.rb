@@ -10,14 +10,14 @@ class UsersController < ApplicationController
   end
 
   def update
-    @user.update_attributes!(user_params)
+    @user.update!(user_params)
     render json: @user
   end
 
   private
 
   def decorated_track_courses
-    @user.track.courses.track_order.map  do |course|
+    @user.track.courses.map  do |course|
       CourseDecorator.new(course)
     end
   end
