@@ -53,7 +53,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [RainDropsz's  Solution](https://github.com/RainDropsz/rock_paper_scissors) - [View in Browser](https://raindropsz.github.io/Rock_paper_scissor.html)
 - [shaneSC's Solution](https://github.com/shanesc/rock-paper-scissors)
 - [Oluwatobi's solution](https://github.com/Oluwatobi-S/rock-paper-scissors) - [View in Browser](https://oluwatobi-s.github.io/rock-paper-scissors/)
-- [Larry's solution](https://github.com/ldbert/rock-paper-scissors/) - [View in Browser](https://ldbert.github.io/rock-paper-scissors/)
+- [Larry's solution](https://github.com/ldbert/PizzaPastaFishChips) - [View in Browser](https://ldbert.github.io/PizzaPastaFishChips)
 - [Walmart-cashier's Solution](https://github.com/Walmart-cashier/Rock-Paper-Scissor) - [View in Browser](https://walmart-cashier.github.io/Rock-Paper-Scissor/)
 - [Snowmonkey's Solution](https://github.com/parent-tobias/TOP-rps-console)
 - [Joel Bejot's Solution](https://github.com/JoelBejot/RPS_with_front_end) 
