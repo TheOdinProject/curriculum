@@ -45,9 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Kfollen93's Solution](https://github.com/Kfollen93/Calculator) - [View in Browser](https://kfollen93.github.io/Calculator/)
-=======
+- [Obylisk's Solution](https://github.com/obylisk/calculator) - [View in Browser](https://obylisk.github.io/calculator/)
 - [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Calculator) - [View in Browser](https://andrewbaldwin44.github.io/Calculator/)
 - [Arf65's Solution](https://github.com/arf65/calculator) - [View in Browser](https://arf65.github.io/calculator/)
 - [Aanttrax's Solution](https://github.com/Aanttrax/Calculator) - [View in Browser](https://github.com/Aanttrax/Calculator/)
@@ -63,7 +62,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [rryand's Solution](https://github.com/rryand/calculator) - [View in Browser](https://rryand.github.io/calculator/)
 - [Pratik's Solution](https://github.com/Pratik-Gohil/Calculator/tree/master/calc/usingClass) - [View in Browser](https://pratik-gohil.github.io/Calculator/calc/usingClass/index.html)
 - [Ini Etienam's Solution](https://github.com/ietienam/Calculator) - [View in Browser](https://ietienam.github.io/Calculator) 
->>>>>>> cc134caa77abb867691239757d345a90b3b3e98c
 - [LorriAnn's Solution](https://github.com/TechnicolorPanda/calculator) - [View in Browser](https://TechnicolorPanda.github.io/calculator/)
 - [Austin's Solution](https://github.com/cudworth/calculator) - [View in Browser](https://cudworth.github.io/calculator/)
 - [Zayeer's Solution](https://github.com/Zayeer/Basic-Calculator) - [View in Browser](https://zayeer.github.io/Basic-Calculator/)
