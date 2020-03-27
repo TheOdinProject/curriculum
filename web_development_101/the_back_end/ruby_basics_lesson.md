@@ -1,3 +1,5 @@
+https://github.com/flipsflops/learn_ruby
+
 ### Introduction
 
 Our back end focus will be on Ruby, the language designed for programmer happiness.  What takes dozens of lines of code in Java or a hundred in C could take just a couple in Ruby because it prepackages lots of sneaky functions into easy-to-use convenience methods.  
