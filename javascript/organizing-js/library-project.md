@@ -40,6 +40,11 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [MentalSkin's Solution (w/localstorage)](https://github.com/MentalSkin/library) - [View in Browser](https://mentalskin.github.io/library/)
+- [Muhymenul's Solution (w/localstorage)](https://github.com/muhymenulhaque/library) - [View in Browser](https://muhymenulhaque.github.io/library/)
+- [Thomas Chaigneau's Solution](https://github.com/ChainYo/LibProject) - [View in Browser](http://thomaschaigneau.me/LibProject/)
+- [Wmiz's Solution](https://github.com/wmiz/library) - [View in Browser](https://wmiz.github.io/library)
+- [Pratik's Solution](https://github.com/Pratik-Gohil/JavasciptLibray_localStorage) - [View in Browser](https://pratik-gohil.github.io/JavasciptLibray_localStorage/)
 - [are92592's Solution](https://github.com/are92592/odinBook) - [View in Browser](https://are92592.github.io/odinBook/)
 - [André Rodrigues's](https://github.com/ARodrigues92/library) - [View in Browser](https://arodrigues92.github.io/library/)
 - [Ian's Solution](https://github.com/ianistheguy/bookshelf-app) - [View in Browser](https://ianistheguy.github.io/bookshelf-app/)
@@ -207,4 +212,9 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [rhath32's Solution](https://github.com/rhath32/library)
 - [Ricardo Gonzalez Villegas' Solution](https://github.com/ricardo-gonzalez-villegas/library) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library/index.html)
 - [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/mini-library) - [View in Browser](https://bunnythelifeguard.github.io/mini-library)
+- [blessedonekobo's Solution](https://github.com/BlessedOneKobo/library) - [View in Browser](https://blessedonekobo.github.io/library/)
+- [Rey van den Berg's Solution](https://github.com/Rey810/js-projects/tree/master/Library)
+- [seansean's Solution](https://github.com/seanrson/library/tree/master) - [View in Browser](https://seanrson.github.io/library/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/local-storage-book-library) - [View in Browser](https://barrysweeney.github.io/local-storage-book-library/)
+- [Michael Doudy's Solution](https://github.com/mdoudy90/library) - [View in Browser](https://mdoudy90.github.io/library/)
 </details>

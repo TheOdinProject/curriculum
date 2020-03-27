@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_kittens) - [View in Browser](https://ovsjazz-odin-kittens.herokuapp.com/)
 * [robomonk's Solution](https://github.com/robo-monk/odin-kittens)
 * [fossegrim's Solution](https://github.com/olav35/odin-kittens)
 * [Ian's Solution](https://github.com/IanMKesler/odin-kittens)
@@ -193,6 +194,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/flickr_api) - [View in Browser](https://ovsjazz-flickr-api.herokuapp.com/)
 * [robomonk's solution](https://github.com/robo-monk/odin-timefreeze) - [View in browser](https://shielded-shore-35008.herokuapp.com/)
 * [fossegrim's Solution](https://github.com/olav35/odin-flickr)
 * [Ian's Solution](https://github.com/IanMKesler/flickr-widget)
