@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Game Rock Paper Scissors  against computer- in console</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+
+        //Funtions that ask the player about what he chose?
+		function playerPlayDecision() {
+			let playerSelection = prompt("Choose Rock, paper, scissors - best out of 5!").toLowerCase();
+			console.log("You chose " + playerSelection);
+			return playerSelection;
+		}
+
+        //Function that ask the computer what it chooses about rock, paper or scissors
+		function computerPlayDecision() {
+			let computerOptions = ["paper", "rock", "scissors"]
+			let computerSelection = computerOptions[Math.floor(Math.random() * 3)];
+			console.log("The Computer chose " + computerSelection);
+			return computerSelection;
+		}
+
+        //Function that have the game's dynamic
+		function playRound() {
+			let playerSelection = playerPlayDecision();
+			let computerSelection = computerPlayDecision();
+			let winner;
+			let result;
+			if (playerSelection == computerSelection) {
+				winner = "Draw";
+				result = "It's a draw!";
+			} else if (playerSelection == "rock" && computerSelection == "paper") {
+				winner = "Computer Wins";
+				result = "You lose, paper covers rock!";
+			} else if (playerSelection == "rock" && computerSelection == "scissors") {
+				winner = "Player Wins";
+				result = "You win, rock crushes scissors!";
+			} else if (playerSelection == "paper" && computerSelection == "scissors") {
+				winner = "Computer Wins";
+				result = "You lose, Scissors cuts Paper!";
+			} else if (playerSelection == "paper" && computerSelection == "rock") {
+				winner = "Player Wins";
+				result = "You win, Paper covers Rock!";
+			} else if (playerSelection == "scissors" && computerSelection == "rock") {
+				winner = "Computer Wins";
+				result = "You lose, Rock crushes Paper!";
+			} else if (playerSelection == "scissors" && computerSelection == "paper") {
+				winner = "Player Wins";
+				result = "You win, Scissors cuts Paper!";
+			}
+			console.log(result);
+			return winner;
+		}
+
+        //Function that increases the players' score		
+		function game() {
+            let score = 0;
+			let decision;	
+			let winner;
+			let count = 0;
+
+            while(count < 6){
+				count++;
+				winner = playRound();
+                if (winner == "Player Wins") {
+				    score++;
+                }
+				console.log(winner);
+				console.log("" + score);
+            }
+			if (score > 2) {
+				decision = 'Congratlations you have won!';
+			} else {
+				decision = 'The Computer wins, this time...'
+			}
+			return decision;
+		}
+
+	console.log(game());
+	
+	</script>
+</body>
+</html>
