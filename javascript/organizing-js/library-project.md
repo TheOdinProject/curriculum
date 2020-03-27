@@ -217,4 +217,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [seansean's Solution](https://github.com/seanrson/library/tree/master) - [View in Browser](https://seanrson.github.io/library/)
 - [barrysweeney's Solution](https://github.com/barrysweeney/local-storage-book-library) - [View in Browser](https://barrysweeney.github.io/local-storage-book-library/)
 - [Michael Doudy's Solution](https://github.com/mdoudy90/library) - [View in Browser](https://mdoudy90.github.io/library/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/library) - [View in Browser](https://ranmaru22.github.io/the_odin_project/library/)
 </details>
