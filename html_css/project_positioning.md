@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Morghan's Solution (https://github.com/morghan102/positioning_nyt_article.git)
 * [Rarysson's Solution](https://github.com/rarysson/nyt-article) - [View in Browser](https://rarysson.github.io/nyt-article/)
 * [Johongirr's Solution](https://github.com/Johongirr/NYT-website-copy) - [View in Browser](https://johongirr.github.io/NYT-website-copy/)
 * [Estela's Solution](https://estelajimero.github.io/positioning-floating/) - [View in Browser](https://estelajimero.github.io/positioning-floating/)
