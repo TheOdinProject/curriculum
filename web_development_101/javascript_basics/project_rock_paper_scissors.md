@@ -1373,4 +1373,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [stefank's Solution](https://github.com/stefank-29/RockPaperScissors) - [View in Browser](https://stefank-29.github.io/RockPaperScissors/)
 - [Bryn Wulff-John's Solution](https://github.com/BrynWulffJohn/rockpaperscissors)
 - [thecodediver's Solution](https://github.com/thecodediver/rock-paper-scissors) - [View in Browser](https://thecodediver.github.io/rock-paper-scissors/)
+- [Diluxa's Solution](https://github.com/diluxa/rock-paper-scissors) - [View in Browser](https://diluxa.github.io/rock-paper-scissors/)
 </details>
