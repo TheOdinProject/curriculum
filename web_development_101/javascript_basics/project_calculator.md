@@ -99,9 +99,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alexis Zambrano Solution](https://github.com/Alexoid1/Calculator) - [View in Browser](https://alexoid1.github.io/Calculator/)
 - [Armo's Solution](https://github.com/Armoilane/calculator) - [View in Browser](https://armoilane.github.io)
 - [mjwills-inf' Solution](https://github.com/mjwills-inf/calculator) - [View in Browser](https://mjwills-inf.github.io/calculator/)
- a80815bd8ed820bdb55bc69c479d2fcd1c5c183a
 - [Robin's Solution](https://github.com/Robinnnnnn/Odin_calculator) - [View in Browser](https://Robinnnnnn.github.io/)
- 509d8c798059833f5e67214e51f70fa9e00dab31
 - [Charles Briggs's Solution](https://github.com/ChuckBriggs/calculator) - [View in Browser](https://chuckbriggs.github.io/calculator/)
 - [CharlotteHues' Solution](https://github.com/charlotte-hues/calculator) - [View in Browser](https://charlotte-hues.github.io/calculator/)
 - [Purple's Solution](https://github.com/PurpleCodes42/Calculator) - [View in Browser](https://purplecodes42.github.io/Calculator/)
