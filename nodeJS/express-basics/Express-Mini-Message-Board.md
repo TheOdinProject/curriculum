@@ -68,6 +68,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Hammad Ahmed's Solution](https://github.com/shammadahmed/mini-message-board) - [View in Browser](https://express-mini-message-board.herokuapp.com/)
 - [Igorashs's Solution](https://github.com/igorashs/mini-message-board) - [View in Browser](https://damp-badlands-14798.herokuapp.com/)
 - [autumnchris's Solution](https://github.com/autumnchris/mini-message-board-demo) - [View in Browser](https://autumnchris-message-board-demo.herokuapp.com)
 - [Kris Tobiasson's Solution](https://github.com/highpockets/message-board.git) - [View in Browser](https://peaceful-spire-16849.herokuapp.com/)
