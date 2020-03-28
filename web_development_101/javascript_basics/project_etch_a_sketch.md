@@ -43,6 +43,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [sultan's Solution](https://github.com/Sultanc/Etch-a-Sketch) - [View in Browser](https://sultanc.github.io/Etch-a-Sketch/)
+* [brainzerg's Solution](https://github.com/brainzerg/EtchASketch) - [View in Browser](https://brainzerg.github.io/EtchASketch/)
+* [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/Etch-A-Sketch) - [View in Browser](https://vanquishi.github.io/Etch-A-Sketch/)
 * [Walmart-cashier's Solution](https://github.com/Walmart-cashier/etch-a-sketch) - [View in Browser](https://walmart-cashier.github.io/etch-a-sketch/)
 * [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/etch-a-sketch) - [View in Browser](https://carldoleolundgren.github.io/etch-a-sketch/)
@@ -117,7 +120,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Brandon Austin's Solution](https://github.com/brandonricharda/etch-a-sketch) - [View in Browser](https://brandonricharda.github.io/etch-a-sketch/)
 * [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
 * [developmentgb's Solution](https://github.com/DevelopmentGB/Etch_a_Sketch) - [View in Browser](https://developmentgb.github.io/Etch_a_Sketch/)
-* [Rachel's Solution](https://github.com/rlmoser99/etch-a-sketch) - [View in Browser](https://rlmoser99.github.io/etch-a-sketch/)=
+* [Rachel's Solution](https://github.com/rlmoser99/etch-a-sketch) - [View in Browser](https://rlmoser99.github.io/etch-a-sketch/)
 * [nabeel-h's Solution](https://github.com/nabeel-h/etch-a-sketch) - [View in Browser](https://nabeel-h.github.io/etch-a-sketch/)
 * [benjorama's Solution](https://github.com/benjorama/pixel-painter) - [View in Browser](https://benjorama.github.io/pixel-painter/)
 * [xazzer81's Solution](https://github.com/xazzer81/etch-a-sketch) - [View in Browser](https://xazzer81.github.io/etch-a-sketch/)

@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [farspear's Solution (Easy)](https://github.com/Farspear/top-google-homepage) - [View in Browser](https://farspear.github.io/top-google-homepage/)
+* [Maximiliano Bidegain's Solution (Difficult)](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/web-development-101/google-homepage) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
 * [rohan-soor's Solution (Easy)](https://github.com/rohan-soor/google-homepage) - [View in Browser](https://rohan-soor.github.io/google-homepage/)
 * [justonhart's Solution (Easy)](https://github.com/justonhart/google-homepage) - [View in Browser](https://justonh.art/google-homepage/)
 * [iamjethrooo's Solution (Easy)](https://github.com/iamjethrooo/google-homepage) - [View in Browser](https://iamjethrooo.github.io/google-homepage/)
@@ -3107,6 +3109,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ArtisDev's Solution (Difficult)](https://github.com/Artis-Dev/google-search-results) - [View in Browser](https://artis-dev.github.io/google-search-results/)
 * [marvkal's Solution (Easy)](https://github.com/marvkal/google-homepage) - [View in Browser](https://marvkal.github.io/google-homepage/)
 * [karthikrenjit's Solution (Easy)](https://github.com/karthikrenjit/google-homepage) - [View in Browser](https://karthikrenjit.github.io/google-homepage/)
+* [Mark's Solution (Easy)](https://github.com/getlostmark/google-home)
+* [Arturo's Solution (Easy)](https://github.com/StarSheriff2/google-homepage) - [View in Browser](https://starsheriff2.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
