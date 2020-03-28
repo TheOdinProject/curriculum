@@ -3107,6 +3107,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ArtisDev's Solution (Difficult)](https://github.com/Artis-Dev/google-search-results) - [View in Browser](https://artis-dev.github.io/google-search-results/)
 * [marvkal's Solution (Easy)](https://github.com/marvkal/google-homepage) - [View in Browser](https://marvkal.github.io/google-homepage/)
 * [karthikrenjit's Solution (Easy)](https://github.com/karthikrenjit/google-homepage) - [View in Browser](https://karthikrenjit.github.io/google-homepage/)
+* [Arturo's Solution (Easy)](https://github.com/StarSheriff2/google-homepage) - [View in Browser](https://starsheriff2.github.io/google-homepage/) 
 </details>
 
 ### Additional Resources
