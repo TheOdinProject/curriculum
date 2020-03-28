@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+,confluct
 - [Alison's Solution](https://github.com/chenalison/rock-paper-scissors) - [View in Browser](https://chenalison.github.io/rock-paper-scissors/)
 - [James V's Solution](https://github.com/jamesspearsv/rockPaperScissors.git)
 - [gregggrose's Solution](https://github.com/gregggrose/rock-paper-scissors-in-console) - [View in Browser](https://gregggrose.github.io/rock-paper-scissors-in-console/)
@@ -1373,6 +1374,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [stefank's Solution](https://github.com/stefank-29/RockPaperScissors) - [View in Browser](https://stefank-29.github.io/RockPaperScissors/)
 - [Bryn Wulff-John's Solution](https://github.com/BrynWulffJohn/rockpaperscissors)
 - [thecodediver's Solution](https://github.com/thecodediver/rock-paper-scissors) - [View in Browser](https://thecodediver.github.io/rock-paper-scissors/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/rockpaperscissors) - [View in Browser](https://fortypercenttitanium.github.io/rockpaperscissors/)
 - [Diluxa's Solution](https://github.com/diluxa/rock-paper-scissors) - [View in Browser](https://diluxa.github.io/rock-paper-scissors/)
 - [iStayGrizzly's Solution with UI](https://github.com/iStayGrizzly/Rock-Paper-Scissors-with-UI) - [View in Browser](https://istaygrizzly.github.io/Rock-Paper-Scissors-with-UI/)
 </details>
