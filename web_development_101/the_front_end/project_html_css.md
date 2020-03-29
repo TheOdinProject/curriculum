@@ -3033,6 +3033,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ietienam's Solution (Easy)](https://github.com/ietienam/google-homepage) - [View in Browser](https://ietienam.github.io/google-homepage/)
 * [OmerGronich's Solution (Easy)](https://github.com/OmerGronich/google-homepage) - [View in Browser](https://omergronich.github.io/google-homepage/)
 * [jesstivey's Solution (Easy)](https://jesstivey.github.io/google-homepage) - [View in Browser](https://jesstivey.github.io/google-homepage/)
+* [PlayingOnGitHub's Solution (Easy)](https://github.com/PlayingOnGitHub/google-homepage) - [View in Browser](https://playingongithub.github.io/google-homepage/)
 * [m-rejdych's Solution (Hard)](https://github.com/m-rejdych/google-homepage) - [View in browser](https://m-rejdych.github.io/google-homepage/)
 * [thorney29's Solution (Easy)](https://github.com/thorney29/google-homepage) - [View in Browser](https://thorney29.github.io/google-homepage/)
 * [lhmson's Solution (Easy)](https://github.com/lhmson/google-homepage) - [View in Browser](https://lhmson.github.io/google-homepage/)
