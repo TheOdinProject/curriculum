@@ -3112,6 +3112,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [karthikrenjit's Solution (Easy)](https://github.com/karthikrenjit/google-homepage) - [View in Browser](https://karthikrenjit.github.io/google-homepage/)
 * [Mark's Solution (Easy)](https://github.com/getlostmark/google-home)
 * [Arturo's Solution (Easy)](https://github.com/StarSheriff2/google-homepage) - [View in Browser](https://starsheriff2.github.io/google-homepage/)
+* [Yosbo's Solution (Easy)](https://github.com/Yosbo/google-homepage) - [View in Browser](https://yosbo.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
