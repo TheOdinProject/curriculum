@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/caesar-cipher.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/caesar)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/caesar-cipher/caesar-cipher.rb)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/caesar/blob/master/caesar.rb)
@@ -546,6 +547,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/stock-picker.rb)
 * [mart's Solution](https://github.com/martdmc/ruby_assignments/blob/master/ruby_assignments/stockpicker.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/stock_picker)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/stock-picker/stock-picker.rb)
@@ -1018,6 +1020,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/substrings.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/substrings)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/substrings/substrings.rb)
 * [Hector's Solution](https://github.com/hectorgarcia07/substrings-odin/blob/master/substrings.rb)
