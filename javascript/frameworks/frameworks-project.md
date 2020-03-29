@@ -19,6 +19,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Edd Sansome's React solution](https://github.com/casualc0der/burger-bar-react) - [View in Browser](https://casualc0der.github.io/burger-bar-react/)
+* [Simon Fraipont's React library solution](https://github.com/Sim-frpt/react-library) - [View in Browser](https://sim-frpt.github.io/react-library/)
+* [James's React Library Solution](https://github.com/ericksen-github/library_react) - [View in Browser](https://ericksen-github.github.io/library_react/)
+* [clavierbulb-green's React Library Solution](https://github.com/clavierbulb-green/React-Library) - [View in Browser](https://clavierbulb-green.github.io/React-Library/)
 * [Kevin Vuong's React Library Solution](https://github.com/fffear/react-lib) - [View in Browser](https://fffear.github.io/react-lib/)
 * [Braxton Lemmon's React Library Solution](https://github.com/braxtonlemmon/book-library-react) - [View in Browser](https://braxtonlemmon.github.io/book-library-react/)
 * [Zakariye Yusuf's React ToDoList Solution](https://github.com/ZYusuf10/timelyRe) - [View in Browser](https://zyusuf10.github.io/timelyRe/)
@@ -55,4 +59,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Edehlol's React Library Solution](https://github.com/edehlol/react-library) - [View in Browser](https://edehlol.github.io/react-library/)
 * [Vorelli's React Library Solution](https://github.com/Vorelli/Angular_Library) - [View in Browser](https://vorelli.github.io/Angular_Library)
 * [mmboyce's React Restaurant Page Solution](https://github.com/mmboyce/restaurant-page-react) - [View in Browser](https://mmboyce.github.io/restaurant-page-react/)
-</details>
+* [Mo's React Todo App Solution](https://github.com/hamohuh/react-todo/tree/gh-pages) - [View in Browser](https://hamohuh.github.io/react-todo/)
+* [JoshAubrey's Vue Restaurant Page Solution](https://github.com/JoshAubrey/vue-restaurant-page) - [View in Browser](https://joshaubrey.github.io/vue-restaurant-page/)
+* [0xtaf's React Restaurant Page Solution](https://github.com/0xtaf/react-restaurant) - [View in Browser](https://0xtaf.github.io/react-restaurant/)
+  </details>
