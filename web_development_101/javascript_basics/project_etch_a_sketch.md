@@ -838,5 +838,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Bozhidar-A's Solution](https://github.com/Bozhidar-A/Etch-a-Sketch) - [View in Browser](https://bozhidar-a.github.io/Etch-a-Sketch/)
 * [kasweigart's Solution](https://github.com/kasweigart/Etch-A-Sketch) - [View in Browser](https://kasweigart.github.io/Etch-A-Sketch/)
 * [Deni's Solution](https://github.com/denniskenneth/Etch-a-Sketch) - [View in Browser](https://denniskenneth.github.io/Etch-a-Sketch/)
+* [thecodediver's Solution](https://github.com/thecodediver/etch-a-sketch) - [View in Browser](https://thecodediver.github.io/etch-a-sketch/)
 * [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/etch-a-sketch) - [View in Browser](https://fortypercenttitanium.github.io/etch-a-sketch/)
 </details>
