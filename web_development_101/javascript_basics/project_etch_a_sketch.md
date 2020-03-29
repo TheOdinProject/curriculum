@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [sultan's Solution](https://github.com/Sultanc/Etch-a-Sketch) - [View in Browser](https://sultanc.github.io/Etch-a-Sketch/)
+* [brainzerg's Solution](https://github.com/brainzerg/EtchASketch) - [View in Browser](https://brainzerg.github.io/EtchASketch/)
 * [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/Etch-A-Sketch) - [View in Browser](https://vanquishi.github.io/Etch-A-Sketch/)
 * [Walmart-cashier's Solution](https://github.com/Walmart-cashier/etch-a-sketch) - [View in Browser](https://walmart-cashier.github.io/etch-a-sketch/)
@@ -834,5 +836,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Joe Thompson's Solution](https://github.com/jlthompso/etch-a-sketch) - [View in Browser](https://jlthompso.github.io/etch-a-sketch/)
 * [Straytjacquet's Solution](https://github.com/Straytjacquet/Etch-a-Sketch) - [View in Browser](https://straytjacquet.github.io/Etch-a-Sketch/)
 * [Bozhidar-A's Solution](https://github.com/Bozhidar-A/Etch-a-Sketch) - [View in Browser](https://bozhidar-a.github.io/Etch-a-Sketch/)
-</details>
 * [kasweigart's Solution](https://github.com/kasweigart/Etch-A-Sketch) - [View in Browser](https://kasweigart.github.io/Etch-A-Sketch/)
+* [Deni's Solution](https://github.com/denniskenneth/Etch-a-Sketch) - [View in Browser](https://denniskenneth.github.io/Etch-a-Sketch/)
+</details>
