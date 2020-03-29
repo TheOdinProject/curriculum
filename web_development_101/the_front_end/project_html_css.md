@@ -3113,6 +3113,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mark's Solution (Easy)](https://github.com/getlostmark/google-home)
 * [Arturo's Solution (Easy)](https://github.com/StarSheriff2/google-homepage) - [View in Browser](https://starsheriff2.github.io/google-homepage/)
 * [Yosbo's Solution (Easy)](https://github.com/Yosbo/google-homepage) - [View in Browser](https://yosbo.github.io/google-homepage/)
+* [meganeb-afk's Solution (Easy)](https://github.com/meganeb-afk/google-homepage) - [View in Browser](https://meganeb-afk.github.io/google-homepage/)
+* [Stinji's Solution (Easy)](https://github.com/Stinji/google-homepage) - [View in Browser](https://stinji.github.io/google-homepage/)
+* [Stinji's Solution (Difficult)](https://github.com/Stinji/google-search-results-page) - [View in Browser](https://stinji.github.io/google-search-results-page/)
+* [stephoon89's Solution(Easy)](https://github.com/stephoon89/google-homepage) - [View in Browser](https://stephoon89.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
