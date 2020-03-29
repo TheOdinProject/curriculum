@@ -546,6 +546,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [mart's Solution](https://github.com/martdmc/ruby_assignments/blob/master/ruby_assignments/stockpicker.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/stock_picker)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/stock-picker/stock-picker.rb)
 * [Brandon's Solution](https://github.com/brandonricharda/stock-picker/blob/master/stock_picker.rb)

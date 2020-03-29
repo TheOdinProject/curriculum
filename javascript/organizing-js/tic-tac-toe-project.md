@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [hu-ng's Solution](https://github.com/hu-ng/tictactoe) - [View in Browswer](https://hu-ng.github.io/tictactoe/)
 - [Muhymenul's Solution](https://github.com/muhymenulhaque/tic-tac-toe) - [View in Browser](https://muhymenulhaque.github.io/tic-tac-toe/)
 - [André Rodrigues's Solution](https://github.com/ARodrigues92/tic-tac-toe) - [View in Browser](https://arodrigues92.github.io/tic-tac-toe/)
 - [Charlotte Hues' Solution](https://github.com/charlotte-hues/Tic-Tac-Toe) - [View in Browser](https://charlotte-hues.github.io/Tic-Tac-Toe/)
@@ -33,6 +34,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Cody Degen's Solution (with Minimax)](https://github.com/codydegen/tictactoe) - [View in Browser](https://codydegen.github.io/tictactoe/)
 - [Edd Sansome's Solution](https://github.com/casualc0der/tic-tac-toe/) - [View in Browser](https://casualc0der.github.io/tic-tac-toe/)
 - [Lenny's Solution](https://github.com/Lenn-e/tic-tac-toe) - [View in Browser](https://lenn-e.github.io/tic-tac-toe/)
+- [Dennis Cope's Solution](https://github.com/coped/tictactoe-js) - [View in Browser](https://coped.github.io/tictactoe-js/)
 - [Langarus' Solution](https://github.com/langarus/TickTackToe) - [View in Browser](https://langarus.github.io/TickTackToe/)
 - [Basskip's Solution](https://github.com/Basskip/tic-tac-toe)
 - [Joseph's Solution](https://github.com/JosephPBallantyne/odinProject/tree/master/ticTacToe)
@@ -147,4 +149,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [barrysweeney's Solution](https://github.com/barrysweeney/tic-tac-toe) - [View in Browser](https://barrysweeney.github.io/tic-tac-toe/)
 - [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/tic-tac-toe) - [View in Browser](https://blessedonekobo.github.io/tic-tac-toe/)
 - [Michael Doudy's Solution (PvP and PvC)](https://github.com/mdoudy90/TicTacToe) - [View in Browser](https://mdoudy90.github.io/TicTacToe/)
+- [Vitaly Osipov's Solution](https://github.com/vi7ali/tic-tac-toe) - [View in Browser](https://vi7ali.github.io/tic-tac-toe/)
 </details>
