@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain how to look at the history of your previous commits from the command line.
 
 ### Assignment
-In this project, we'll walk through the basic Git workflow that you will use in all your projects. 
+In this project, we'll walk you through the basic Git workflow that you will use in all your projects. 
 
 #### Create the Repository
 
