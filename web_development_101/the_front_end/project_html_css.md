@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [John Michaels's Solution (Easy)](https://github.com/jm-staana/google-homepage) - [View in Browser](https://jm-staana.github.io/google-homepage/)
 * [farspear's Solution (Easy)](https://github.com/Farspear/top-google-homepage) - [View in Browser](https://farspear.github.io/top-google-homepage/)
 * [Maximiliano Bidegain's Solution (Difficult)](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/web-development-101/google-homepage) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
 * [rohan-soor's Solution (Easy)](https://github.com/rohan-soor/google-homepage) - [View in Browser](https://rohan-soor.github.io/google-homepage/)
