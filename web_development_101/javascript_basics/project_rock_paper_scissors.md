@@ -1377,4 +1377,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/rockpaperscissors) - [View in Browser](https://fortypercenttitanium.github.io/rockpaperscissors/)
 - [Diluxa's Solution](https://github.com/diluxa/rock-paper-scissors) - [View in Browser](https://diluxa.github.io/rock-paper-scissors/)
 - [iStayGrizzly's Solution with UI](https://github.com/iStayGrizzly/Rock-Paper-Scissors-with-UI) - [View in Browser](https://istaygrizzly.github.io/Rock-Paper-Scissors-with-UI/)
+- [Laurens' Solution](https://github.com/laurenskrom/rockpaperscissors) - [View in Browser](https://laurenskrom.github.io/rockpaperscissors/)
 </details>
