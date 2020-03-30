@@ -1373,7 +1373,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [SpyingEnvy's Solution](https://github.com/SpyingEnvelope/rpsgamewUI) - [View in Browser](https://spyingenvelope.github.io/rpsgamewUI/)
 - [iStayGrizzly's Solution](https://github.com/iStayGrizzly/rock-paper-scissors-app) - [View in Browser](https://istaygrizzly.github.io/rock-paper-scissors-app/)
 - [Danny's Solutioon](https://github.com/danG02/rock-paper-scissors) - [View in Browser](https://dang02.github.io/rock-paper-scissors/)
-- [Ryan Early's Solution](https://github.com/ryanfearly/rock-paper-scissors)
+- [Ryan Early's Solution](https://github.com/ryanfearly/rock-paper-scissors) - [View in Browser](https://ryanfearly.github.io/rock-paper-scissors/)
 - [MatejXYZ's Solution](https://github.com/MatejXYZ/Rock-paper-scissors) - [View in Browser](https://matejxyz.github.io/Rock-paper-scissors/)
 - [stefank's Solution](https://github.com/stefank-29/RockPaperScissors) - [View in Browser](https://stefank-29.github.io/RockPaperScissors/)
 - [Bryn Wulff-John's Solution](https://github.com/BrynWulffJohn/rockpaperscissors)
