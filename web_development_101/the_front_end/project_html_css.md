@@ -3096,6 +3096,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [bayl0n's Solution (Easy & Difficult)](https://github.com/bayl0n/Google) - [View in Browser](https://bayl0n.github.io/Google/)
 * [aexnimbus's Solution (Easy)](https://github.com/aexnimbus/google-homepage) - [View in Browser](https://aexnimbus.github.io/google-homepage/)
 * [castle429's Solution (Easy)](https://github.com/castle429/google_homepage) - [View in Browser](https://castle429.github./google_homepage/)
+<<<<<<< HEAD
 * [bubblemonkey-blip's Solution (Easy)](https://github.com/bubblemonkey-blip/google-homepage) - [View in Browser](https://bubblemonkey-blip.github.io/google-homepage/)
 * [Wes's Solution (Easy)](https://github.com/WeKiBan/google-homepage) - [View in Browser](https://wekiban.github.io/google-homepage/)
 * [doncilaarcadie's Solution (Easy)](https://doncilaarcadie.github.io/google-homepage/)
@@ -3114,16 +3115,13 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mark's Solution (Easy)](https://github.com/getlostmark/google-home)
 * [Arturo's Solution (Easy)](https://github.com/StarSheriff2/google-homepage) - [View in Browser](https://starsheriff2.github.io/google-homepage/)
 * [Yosbo's Solution (Easy)](https://github.com/Yosbo/google-homepage) - [View in Browser](https://yosbo.github.io/google-homepage/)
-<<<<<<< HEAD
 * [Givemore's Solution (Easy)](https://github.com/Givemo/google-homepage) - [View in Browser](https://givemo.github.io/google-homepage/)
 *[Givemore's Solution (Difficult)](https://github.com/Givemo/google-homepage_difficult) - [View in Browser](https://givemo.github.io/google-homepage_difficult/)
-=======
 * [Chandra's Solution (Easy)](https://github.com/CodeSurfer3022/google-homepage) - [View in Browser](https://codesurfer3022.github.io/google-homepage/)
 * [meganeb-afk's Solution (Easy)](https://github.com/meganeb-afk/google-homepage) - [View in Browser](https://meganeb-afk.github.io/google-homepage/)
 * [Stinji's Solution (Easy)](https://github.com/Stinji/google-homepage) - [View in Browser](https://stinji.github.io/google-homepage/)
 * [Stinji's Solution (Difficult)](https://github.com/Stinji/google-search-results-page) - [View in Browser](https://stinji.github.io/google-search-results-page/)
 * [stephoon89's Solution(Easy)](https://github.com/stephoon89/google-homepage) - [View in Browser](https://stephoon89.github.io/google-homepage/)
->>>>>>> 4775bcf9f2d124d608a67db2e24561bb417769db
 </details>
 
 ### Additional Resources
