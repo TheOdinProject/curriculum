@@ -40,6 +40,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [MentalSkin's Solution (w/localstorage)](https://github.com/MentalSkin/library) - [View in Browser](https://mentalskin.github.io/library/)
+- [Muhymenul's Solution (w/localstorage)](https://github.com/muhymenulhaque/library) - [View in Browser](https://muhymenulhaque.github.io/library/)
+- [Thomas Chaigneau's Solution](https://github.com/ChainYo/LibProject) - [View in Browser](http://thomaschaigneau.me/LibProject/)
+- [Wmiz's Solution](https://github.com/wmiz/library) - [View in Browser](https://wmiz.github.io/library)
 - [Pratik's Solution](https://github.com/Pratik-Gohil/JavasciptLibray_localStorage) - [View in Browser](https://pratik-gohil.github.io/JavasciptLibray_localStorage/)
 - [are92592's Solution](https://github.com/are92592/odinBook) - [View in Browser](https://are92592.github.io/odinBook/)
 - [André Rodrigues's](https://github.com/ARodrigues92/library) - [View in Browser](https://arodrigues92.github.io/library/)
@@ -213,5 +217,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [seansean's Solution](https://github.com/seanrson/library/tree/master) - [View in Browser](https://seanrson.github.io/library/)
 - [barrysweeney's Solution](https://github.com/barrysweeney/local-storage-book-library) - [View in Browser](https://barrysweeney.github.io/local-storage-book-library/)
 - [Michael Doudy's Solution](https://github.com/mdoudy90/library) - [View in Browser](https://mdoudy90.github.io/library/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/library) - [View in Browser](https://ranmaru22.github.io/the_odin_project/library/)
+- [Tim Kelly's Solution](https://github.com/TimKellyTK/project-library) - [View in Browser](https://timkellytk.github.io/project-library/)
 - [alicee88's Solution](https://github.com/alicee88/odin-library) - [View in Browser](https://alicee88.github.io/odin-library/)
 </details>

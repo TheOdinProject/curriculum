@@ -70,4 +70,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Kale33's Soltuion](https://github.com/poreniyi/Basic-Informational-Site)
 - [Aron's Solution](https://github.com/aronfischer/first_nodejs_app)
 - [Fred's Solution](https://github.com/fchasin/FirstWebsite)
+- [Emil Dimitrov's Solution](https://github.com/edmtrv/basic-information-site)
+- [0xtaf's Solution](https://github.com/0xtaf/basic-informational-site)
 </details>

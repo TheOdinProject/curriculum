@@ -26,6 +26,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alison's Solution](https://github.com/chenalison/blogger) - [View in Browser](https://damp-mountain-71957.herokuapp.com/)
+* [Charles Ivia's Solution](https://github.com/CharlesIvia/Blog-App.git)
 * [killermag's Solution](https://github.com/killermag/blogger) - [View in Browser](https://secure-eyrie-19612.herokuapp.com/)
 * [Brandon's Solution](https://github.com/brandonricharda/blogger-project) - [View in Browser](https://guarded-harbor-95815.herokuapp.com/)
 * [Odunsi Joseph's Solution](https://github.com/dhatguy/blogger) - [View in Browser](https://lit-dawn-86296.herokuapp.com)
@@ -464,7 +466,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [barrysweeney's Solution](https://github.com/barrysweeney/BlogUsingRails) - [View in Browser](https://nameless-hollows-31670.herokuapp.com/)
 * [Wmisback's Solution](https://github.com/wmisback/Rails-Blog) - [View in Browser](https://rocky-dawn-04070.herokuapp.com/)
 * [Timework's Solution](https://github.com/Timework/blogger) - [View in Browser](https://rocky-wildwood-83460.herokuapp.com/articles)
-
+* [Niin's solution](https://github.com/niin44/ruby-on-rails-project) - [View in Browser](https://guarded-ravine-52379.herokuapp.com/)
+* [headnodic's Solution](https://github.com/headnodic/top-coursework/tree/master/web-dev-101/blogger)
 </details>
 
 ### Additional Resources
