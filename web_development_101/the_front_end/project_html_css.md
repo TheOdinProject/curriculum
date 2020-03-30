@@ -3033,6 +3033,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ietienam's Solution (Easy)](https://github.com/ietienam/google-homepage) - [View in Browser](https://ietienam.github.io/google-homepage/)
 * [OmerGronich's Solution (Easy)](https://github.com/OmerGronich/google-homepage) - [View in Browser](https://omergronich.github.io/google-homepage/)
 * [jesstivey's Solution (Easy)](https://jesstivey.github.io/google-homepage) - [View in Browser](https://jesstivey.github.io/google-homepage/)
+* [PlayingOnGitHub's Solution (Easy)](https://github.com/PlayingOnGitHub/google-homepage) - [View in Browser](https://playingongithub.github.io/google-homepage/)
 * [m-rejdych's Solution (Hard)](https://github.com/m-rejdych/google-homepage) - [View in browser](https://m-rejdych.github.io/google-homepage/)
 * [thorney29's Solution (Easy)](https://github.com/thorney29/google-homepage) - [View in Browser](https://thorney29.github.io/google-homepage/)
 * [lhmson's Solution (Easy)](https://github.com/lhmson/google-homepage) - [View in Browser](https://lhmson.github.io/google-homepage/)
@@ -3113,8 +3114,16 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mark's Solution (Easy)](https://github.com/getlostmark/google-home)
 * [Arturo's Solution (Easy)](https://github.com/StarSheriff2/google-homepage) - [View in Browser](https://starsheriff2.github.io/google-homepage/)
 * [Yosbo's Solution (Easy)](https://github.com/Yosbo/google-homepage) - [View in Browser](https://yosbo.github.io/google-homepage/)
+<<<<<<< HEAD
 * [Givemore's Solution (Easy)](https://github.com/Givemo/google-homepage) - [View in Browser](https://givemo.github.io/google-homepage/)
 *[Givemore's Solution (Difficult)](https://github.com/Givemo/google-homepage_difficult) - [View in Browser](https://givemo.github.io/google-homepage_difficult/)
+=======
+* [Chandra's Solution (Easy)](https://github.com/CodeSurfer3022/google-homepage) - [View in Browser](https://codesurfer3022.github.io/google-homepage/)
+* [meganeb-afk's Solution (Easy)](https://github.com/meganeb-afk/google-homepage) - [View in Browser](https://meganeb-afk.github.io/google-homepage/)
+* [Stinji's Solution (Easy)](https://github.com/Stinji/google-homepage) - [View in Browser](https://stinji.github.io/google-homepage/)
+* [Stinji's Solution (Difficult)](https://github.com/Stinji/google-search-results-page) - [View in Browser](https://stinji.github.io/google-search-results-page/)
+* [stephoon89's Solution(Easy)](https://github.com/stephoon89/google-homepage) - [View in Browser](https://stephoon89.github.io/google-homepage/)
+>>>>>>> 4775bcf9f2d124d608a67db2e24561bb417769db
 </details>
 
 ### Additional Resources
