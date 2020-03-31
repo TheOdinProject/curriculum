@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [reneweiser's Solution](https://github.com/reneweiser/simple-book-library) - [View in Browser](https://reneweiser.github.io/simple-book-library/)
 - [Georgius's Solution](https://github.com/georgius17/library) - [View in Browser](https://georgius17.github.io/library/)
 - [hu-ng's Solution](https://github.com/hu-ng/library-app-odin) - [View in Browser](https://hu-ng.github.io/library-app-odin/#)
 - [Vanessacor's Solution](https://github.com/vanessacor/site/tree/master/experiments/library) - [View in Browser](https://vanessacor.github.io/site/experiments/library/)
