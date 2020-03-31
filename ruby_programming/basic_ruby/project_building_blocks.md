@@ -1448,4 +1448,5 @@ Next, make sure your method can handle multiple words:
 * [Timework's Solution](https://github.com/Timework/substrings/blob/master/substring.rb)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/ruby_practice/blob/master/substrings.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/substrings/substrings.rb)
+* [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/caesar_cipher/caesar_cipher.rb)
 </details>
