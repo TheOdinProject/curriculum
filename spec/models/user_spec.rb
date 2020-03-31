@@ -50,7 +50,7 @@ RSpec.describe User do
       .and_return(lesson_completions)
   end
 
-  it { is_expected.to validate_length_of(:username).is_at_least(4).is_at_most(20) }
+  it { is_expected.to validate_length_of(:username).is_at_least(4).is_at_most(100) }
   it { is_expected.to validate_length_of(:learning_goal).is_at_most(1700) }
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completed_lessons) }
