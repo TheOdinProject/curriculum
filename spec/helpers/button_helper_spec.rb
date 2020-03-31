@@ -17,7 +17,7 @@ RSpec.describe ButtonHelper do
     }
 
     before do
-      allow(helper).to receive(:chat_link).and_return('https://discord.gg/hvqVr6d')
+      allow(helper).to receive(:chat_link).and_return('https://discord.gg/V75WSQG')
     end
 
     it 'returns a chat button' do
