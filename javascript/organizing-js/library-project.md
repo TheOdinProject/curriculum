@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [reneweiser's Solution](https://github.com/reneweiser/simple-book-library) - [View in Browser](https://reneweiser.github.io/simple-book-library/)
 - [MentalSkin's Solution (w/localstorage)](https://github.com/MentalSkin/library) - [View in Browser](https://mentalskin.github.io/library/)
 - [Muhymenul's Solution (w/localstorage)](https://github.com/muhymenulhaque/library) - [View in Browser](https://muhymenulhaque.github.io/library/)
 - [Thomas Chaigneau's Solution](https://github.com/ChainYo/LibProject) - [View in Browser](http://thomaschaigneau.me/LibProject/)
