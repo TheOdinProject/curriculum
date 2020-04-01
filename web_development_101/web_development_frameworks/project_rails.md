@@ -468,6 +468,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/blogger) - [View in Browser](https://rocky-wildwood-83460.herokuapp.com/articles)
 * [Niin's solution](https://github.com/niin44/ruby-on-rails-project) - [View in Browser](https://guarded-ravine-52379.herokuapp.com/)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/tree/master/web-dev-101/blogger)
+* [Veskenazi's Solution](https://github.com/veskenazi/blogger-app) - [View in Browser](https://morning-crag-79127.herokuapp.com/)
 </details>
 
 ### Additional Resources
