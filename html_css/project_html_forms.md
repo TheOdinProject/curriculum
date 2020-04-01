@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+*[James's solution](https://github.com/ericksen-github/mint_login_clone) - [View in Browser](https://ericksen-github.github.io/mint_login_clone/)
 * [Andrija Jelenkovic's solution](https://github.com/Amdrija/htmlForm) - [View in Browser](https://amdrija.github.io/htmlForm/)
 * [Johongir's solution](https://github.com/Johongirr/mint-signup-page) - [View in Browser](https://johongirr.github.io/mint-signup-page/)
 * [ikraamg+imahnama solution](https://github.com/ikraamg/Mint-SignUp-Replica) - [View in Browser](https://ikraamg.github.io/Mint-SignUp-Replica/)
