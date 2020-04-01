@@ -36,6 +36,10 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Igorashs's Solution](https://github.com/igorashs/basic-informational-site) - [View in Browser](https://repl.it/@igorashs/basic-informational-site)
+- [Hammad Ahmed's Solution](https://github.com/shammadahmed/basic-node-site) - [View in Browser](https://BumpyWeightyMigration--five-nine.repl.co)
+- [Kris Tobiasson's Solution](https://github.com/highpockets/first-nodejs-site.git) - [View in Browser](https://repl.it/@highpockets/first-nodejs-site)
+- [martink-rsa's Solution](https://github.com/martink-rsa/basic_website_nodejs) - [View in Browser](https://repl.it/@martinkrsa/basicwebsitenodejs)
 - [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/basic-informational-site) - [View in Browser](https://repl.it/@sousahenrique/basic-informational-site)
 - [autumnchris's Solution](https://github.com/autumnchris/nodejs-multi-page-site-demo) - [View in Browser](https://autumnchris-nodejs-site-demo.herokuapp.com)
 - [Brendo's Solution](https://github.com/BBrownley/Basic-info-site)
@@ -66,4 +70,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Kale33's Soltuion](https://github.com/poreniyi/Basic-Informational-Site)
 - [Aron's Solution](https://github.com/aronfischer/first_nodejs_app)
 - [Fred's Solution](https://github.com/fchasin/FirstWebsite)
+- [Emil Dimitrov's Solution](https://github.com/edmtrv/basic-information-site)
+- [0xtaf's Solution](https://github.com/0xtaf/basic-informational-site)
 </details>

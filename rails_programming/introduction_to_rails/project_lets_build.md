@@ -17,12 +17,14 @@ That's it! The point is to get familiar with making HTTP requests using your com
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/introduction_to_rails/project_lets_build.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Paulo Felipe Souza's solution](https://github.com/Pauloparakleto/bing_search)
+* [David Auza's Solution](https://github.com/davidauza-engineer/REST-Client-Gem)
 * [Nasser Abachi's Solution](https://github.com/abachi/rest-clinet-app)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
 * [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/warmup_restclient)
@@ -95,6 +97,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
 * [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
 * [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
+* [guacamobley's solution](https://github.com/guacamobley/rest-client-project)
+* [Wilmir's Solutiom](https://github.com/Wilmir/ruby-rest-client/blob/master/rest_client.rb)
 </details>
 
 ### Project: Ruby on Rails Tutorial
