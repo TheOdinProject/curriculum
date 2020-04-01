@@ -22,6 +22,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrija Jelenkovic's solution](https://github.com/Amdrija/htmlForm) - [View in Browser](https://amdrija.github.io/htmlForm/)
+* [Johongir's solution](https://github.com/Johongirr/mint-signup-page) - [View in Browser](https://johongirr.github.io/mint-signup-page/)
 * [ikraamg+imahnama solution](https://github.com/ikraamg/Mint-SignUp-Replica) - [View in Browser](https://ikraamg.github.io/Mint-SignUp-Replica/)
 * [Joshysmart's solution](https://github.com/joshysmart/mint-signup-form) - [View in Browser](https://joshysmart.github.io/mint-signup-form/)
 * [Rarysson's solution](https://github.com/rarysson/sign-up-form) - [View in Browser](https://rarysson.github.io/sign-up-form/)
@@ -159,6 +161,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Aron's solution](https://github.com/aronfischer/Mint-sign-up-page) - [View in Browser](https://aronfischer.github.io/Mint-sign-up-page/)
 * [Nigel Volkmann's solution](https://github.com/Nekolike/SignUp) - [View in Browser](https://nekolike.github.io/SignUp/)
 * [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP-intuit-clone) - [View in Browser](https://adrieltrigger.github.io/TOP-intuit-clone/)
+* [Scott Bowles's solution](https://github.com/scottBowles/mint-signup-page-clone) - [View in Browser](https://scottbowles.github.io/mint-signup-page-clone/)
 </details>
 
 ### Additional Resources
