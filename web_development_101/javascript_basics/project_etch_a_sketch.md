@@ -44,6 +44,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [jdonahue135's Solution](https://github.com/jdonahue135/Etch-a-Sketch) - [View in Browser](https://jdonahue135.github.io/Etch-a-Sketch/)
+* [Parishrut's Solution](https://github.com/parish09/ETCH-A-SKETCH) - [View in Browser](https://parish09.github.io/ETCH-A-SKETCH/)
+* [iStayGrizzly's Solution](https://github.com/iStayGrizzly/Etch-A-Sketch) - [View in Browser](https://istaygrizzly.github.io/Etch-A-Sketch/)
 * [ray0h's Solution](https://github.com/ray0h/TheOdinProjectExercises/tree/master/etch_sketch) - [View in Browser](https://ray0h.github.io/etch_sketch)
 * [AJMcDee's Solution](https://github.com/AJMcDee/etchASketch) - [View in Browser](https://ajmcdee.github.io/etchASketch/)
 * [dphtran501's Solution](https://github.com/dphtran501/etch-a-sketch) - [View in Browser](https://dphtran501.github.io/etch-a-sketch/)
@@ -846,4 +848,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [thecodediver's Solution](https://github.com/thecodediver/etch-a-sketch) - [View in Browser](https://thecodediver.github.io/etch-a-sketch/)
 * [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/etch-a-sketch) - [View in Browser](https://fortypercenttitanium.github.io/etch-a-sketch/)
 * [Givemore's Solution](https://github.com/Givemo/Etch-a-Sketch) - [View in Browser](https://givemo.github.io/Etch-a-Sketch/)
+* [Ryan Early's Solution](https://github.com/ryanfearly/etch-a-sketch) - [View in Browser](https://ryanfearly.github.io/etch-a-sketch/)
 </details>
