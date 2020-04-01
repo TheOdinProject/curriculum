@@ -41,6 +41,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rpllpr's Solution](https://github.com/rpllpr/rock-paper-scissors) - [View in Browser](https://rpllpr.github.io/rock-paper-scissors/)
+- [Banho's Solution](https://github.com/Banho1/rock_paper_scissors)
+- [Parishrut's Solution](https://github.com/parish09/-BUTTONS-rock_paper_scissor) - [View in Browser](https://parish09.github.io/-BUTTONS-rock_paper_scissor/)
+- [hieu-ng's Solution](https://github.com/hieu-ng/rock-paper-scissors/) — [View in Browser](https://hieu-ng.github.io/rock-paper-scissors/)
 - [Aditya's Solution](https://github.com/BraveStone9/RockPaperScissors.github.io) - [View in Browser](https://bravestone9.github.io/RockPaperScissors.github.io/RPSGame.html)
 - [ThatOldChap's Solution](https://github.com/ThatOldChap/Rock-Paper-Scissors) - [View in Browser](https://thatoldchap.github.io/Rock-Paper-Scissors/)
 - [Ciwot18's Solution](https://github.com/Ciwot18/RockPaperScissor) - [View in Browser](https://ciwot18.github.io/RockPaperScissor/)
@@ -1383,4 +1387,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [iStayGrizzly's Solution with UI](https://github.com/iStayGrizzly/Rock-Paper-Scissors-with-UI) - [View in Browser](https://istaygrizzly.github.io/Rock-Paper-Scissors-with-UI/)
 - [Laurens' Solution](https://github.com/laurenskrom/rockpaperscissors) - [View in Browser](https://laurenskrom.github.io/rockpaperscissors/)
 - [Calvin's Solution](https://github.com/Two-Claps/Rock-Paper-Scissors) - [View in Browser](https://two-claps.github.io/Rock-Paper-Scissors/)
+- [Andrew's Solution](https://github.com/Aportello/rockpaperscissorsTOP) - [View in Browser](https://aportello.github.io/rockpaperscissorsTOP/)
 </details>
