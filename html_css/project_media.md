@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Leavims's solution](https://github.com/leavism/youtube-video-page) - [View in browser](https://leavism.github.io/youtube-video-page/)
 * [Mikael & Ezekiel's solution](https://github.com/mikearaya/youtube_clone) - [View in browser](https://mikearaya.github.io/youtube_clone)
 * [iamjethrooo's solution](https://github.com/iamjethrooo/embedding-images-and-video) - [View in browser](https://iamjethrooo.github.io/embedding-images-and-video/)
 * [Andrija Jelenkovic's solution](https://github.com/Amdrija/youtubeClone) - [View in browser](https://amdrija.github.io/youtubeClone/)
