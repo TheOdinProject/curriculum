@@ -150,4 +150,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/tic-tac-toe) - [View in Browser](https://blessedonekobo.github.io/tic-tac-toe/)
 - [Michael Doudy's Solution (PvP and PvC)](https://github.com/mdoudy90/TicTacToe) - [View in Browser](https://mdoudy90.github.io/TicTacToe/)
 - [Vitaly Osipov's Solution](https://github.com/vi7ali/tic-tac-toe) - [View in Browser](https://vi7ali.github.io/tic-tac-toe/)
+- [ranmaru22's Solution (including AI)](https://github.com/ranmaru22/the_odin_project/tree/master/tic-tac-toe) - [View in Browser](https://ranmaru22.github.io/the_odin_project/tic-tac-toe/)
+- [Tim Kelly's Solution](https://github.com/TimKellyTK/project-tic-tac-toe) - [View in Browser](https://timkellytk.github.io/project-tic-tac-toe/)
 </details>
