@@ -77,6 +77,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Duarte's Barebones Solution](https://github.com/Duartemartins/events-app)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/private-members)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/private-events) - [View in Browser](https://fathomless-scrubland-74558.herokuapp.com/)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/private_events) - [View in Browser](https://ovsjah-private-events.herokuapp.com/)
 * [Dennis Cope's Solution](https://github.com/coped/private-events) - [View in Browser](https://private-events-top-coped.herokuapp.com/)

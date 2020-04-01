@@ -37,6 +37,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/caesar-cipher.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/caesar)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/caesar-cipher/caesar-cipher.rb)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/caesar/blob/master/caesar.rb)
@@ -519,6 +520,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Building_blocks/caesar_cipher.rb)
 * [Timework's Solution](https://github.com/Timework/caesarCipher/blob/master/caesar.rb)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/ruby_practice/blob/master/ceasar_cipher.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/caesar_cipher/caesar_cipher.rb)
+* [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/caesar_cipher/caesar_cipher.rb)
 </details>
 
 ### Project 2: Stock Picker
@@ -545,6 +548,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/stock-picker.rb)
+* [mart's Solution](https://github.com/martdmc/ruby_assignments/blob/master/ruby_assignments/stockpicker.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/stock_picker)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/stock-picker/stock-picker.rb)
 * [Brandon's Solution](https://github.com/brandonricharda/stock-picker/blob/master/stock_picker.rb)
@@ -981,6 +986,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Building_blocks/stock_picker.rb)
 * [Timework's Solution](https://github.com/Timework/stockPicker/blob/master/picker.rb)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/ruby_practice/blob/master/stocker_picker.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/stock-picker/stock-picker.rb)
+* [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/stock_picker/stock_picker.rb)
 </details>
 
 ### Project 3: Substrings
@@ -1015,6 +1022,7 @@ Next, make sure your method can handle multiple words:
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/substrings.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/substrings)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/substrings/substrings.rb)
 * [Hector's Solution](https://github.com/hectorgarcia07/substrings-odin/blob/master/substrings.rb)
@@ -1441,4 +1449,6 @@ Next, make sure your method can handle multiple words:
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Building_blocks/substrings.rb)
 * [Timework's Solution](https://github.com/Timework/substrings/blob/master/substring.rb)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/ruby_practice/blob/master/substrings.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/substrings/substrings.rb)
+* [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/substrings/substrings.rb)
 </details>
