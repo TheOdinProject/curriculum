@@ -327,6 +327,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rafael Rodriguez Garcia's solution](https://github.com/rrg1459/tic_tac_toe)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/tic_tac_toe)
 * [Timework's solution](https://github.com/Timework/ticTac/blob/master/tic.rb)
+* [Kendra Moyars's solution](https://github.com/kendramoyars/tic-tac-toe/blob/master/tic-tac-toe.rb)
 </details>
 
 ### Project 2: Mastermind
