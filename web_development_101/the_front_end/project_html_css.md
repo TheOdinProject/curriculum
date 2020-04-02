@@ -3130,6 +3130,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Omega180's Solution(Easy)](https://omega180.github.io/Google-homepage/) - [View in Browser](https://omega180.github.io/Google-homepage/)
 * [Sarajvega's Solution(Easy)](https://sarajvega.github.io/google-homepg/) - [View in Browser](https://sarajvega.github.io/google-homepg/)
 * [jacobshiver's Solution (Easy)](https://github.com/jacobshiver/google-homepage) - [View in Browser](https://jacobshiver.github.io/google-homepage)
+* [wgoolsby's Solution (Easy)](https://github.com/wgoolsby/google-homepage) - [View in Browser](https://wgoolsby.github.io/google-homepage)
 </details>
 
 ### Additional Resources
