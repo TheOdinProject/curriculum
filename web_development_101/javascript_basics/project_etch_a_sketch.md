@@ -849,4 +849,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/etch-a-sketch) - [View in Browser](https://fortypercenttitanium.github.io/etch-a-sketch/)
 * [Givemore's Solution](https://github.com/Givemo/Etch-a-Sketch) - [View in Browser](https://givemo.github.io/Etch-a-Sketch/)
 * [Ryan Early's Solution](https://github.com/ryanfearly/etch-a-sketch) - [View in Browser](https://ryanfearly.github.io/etch-a-sketch/)
+* [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/etch-a-sketch) - [View in Browser](https://ozansozuozgit.github.io/etch-a-sketch/)
 </details>

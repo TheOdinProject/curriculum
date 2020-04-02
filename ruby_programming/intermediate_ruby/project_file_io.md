@@ -278,4 +278,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/tree/master/hangman)
 * [Rob Dulabon's Solution](https://github.com/RDulabon/Hangman) 
 * [Sanyogita's solutions](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/hangman)
+* [Timework's solutions](https://github.com/Timework/hangMan/blob/master/hang.rb)
 </details>
