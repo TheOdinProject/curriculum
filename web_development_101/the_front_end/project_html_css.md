@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [trypythy's Solution (Easy)](https://https://github.com/trypythy/google_homepage) - [View in Browser](https://trypythy.github.io/google_homepage/)
 * [WilmarvDijk's Solution (Difficult)](https://github.com/WilmarvanDijk/google-results) - [View in Browser](https://wilmarvandijk.github.io/google-results/)
 * [WilmarvDijk's Solution (Easy)](https://github.com/WilmarvanDijk/google-homepage) - [View in Browser](https://wilmarvandijk.github.io/google-homepage/)
 * [srilokanas's Solution (Easy)](https://github.com/srilokanas/google-homepage-)
