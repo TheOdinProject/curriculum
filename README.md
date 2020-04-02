@@ -1,7 +1,7 @@
 Hi I'm Cesar and this is my google homepage and google search result page project desing...
 so far I just learn a ton of things everything from use ubuntu to use git.
 
-
+If you want to... you can check my files and see how I get this pages done. git@github.com:Cesar-rdgz/google-homepage.git
 
 # Welcome to The Odin Project Curriculum
 
