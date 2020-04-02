@@ -48,6 +48,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!`
+- [Nick Haras' Solution](https://github.com/macnick/restaurant-page) - [View in Browser](https://macnick.github.io/Restaurant-Page/)
+- [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/restaurant-page) - [View in Browser](https://muhymenulhaque.github.io/restaurant-page/)
 - [Joe's Solution](https://github.com/JosephPBallantyne/odinRestaurant) - [View in Browser](https://josephpballantyne.github.io/odinRestaurant/)
 - [Edd Sansome's Solution](https://github.com/casualc0der/restaurant-project/) - [View in Browser](https://casualc0der.github.io/restaurant-project/)
 - [eapenzacharias's Solution](https://github.com/Lenn-e/restaurant-page) - [View in Browser](https://lenn-e.github.io/restaurant-page/)
@@ -142,4 +144,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [r-hathcock's Solution](https://github.com/r-hathcock/restaurant-page)
 - [Rey van den Berg's Solution](https://github.com/Rey810/restaurant-page) - [View in Browser](https://rey810.github.io/restaurant-page)
 - [barrysweeney's Solution](https://github.com/barrysweeney/restaurant-site) - [View in Browser](https://barrysweeney.github.io/restaurant-site/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/restaurant) - [View in Browser](https://ranmaru22.github.io/the_odin_project/restaurant/dist/)
 </details>
