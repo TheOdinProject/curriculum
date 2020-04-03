@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [RainDropsz Solution](https://github.com/RainDropsz/RainDropsz.github.io/tree/master/etch) - [View in Browser](https://RainDropsz.github.io/etch/)
+* [NotNullDev's Solution](https://github.com/NotNullDev/Etch-a-Sketch) - [View in Browser](https://notnulldev.github.io/Etch-a-Sketch/)
 * [jdonahue135's Solution](https://github.com/jdonahue135/Etch-a-Sketch) - [View in Browser](https://jdonahue135.github.io/Etch-a-Sketch/)
 * [Parishrut's Solution](https://github.com/parish09/ETCH-A-SKETCH) - [View in Browser](https://parish09.github.io/ETCH-A-SKETCH/)
 * [iStayGrizzly's Solution](https://github.com/iStayGrizzly/Etch-A-Sketch) - [View in Browser](https://istaygrizzly.github.io/Etch-A-Sketch/)
