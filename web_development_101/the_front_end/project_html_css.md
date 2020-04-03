@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [TheBluuDot's Solution (Easy)](https://github.com/thebluudot/google-homepage/) - [View in Browser](https://thebluudot.github.io/google-homepage/index.html)
 * [aaron-contreras's Solution (Both)](https://github.com/aaron-contreras/google-homepage/) - [View in Browser](https://aaron-contreras.github.io/google-homepage/)
 * [trypythy's Solution (Easy)](https://https://github.com/trypythy/google_homepage) - [View in Browser](https://trypythy.github.io/google_homepage/)
 * [WilmarvDijk's Solution (Difficult)](https://github.com/WilmarvanDijk/google-results) - [View in Browser](https://wilmarvandijk.github.io/google-results/)
@@ -3140,7 +3141,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [c-squared's Solution (Easy)](https://github.com/c-squared87/google-homepage) - [View in Browser](https://github.com/c-squared87/google-homepage)
 * [mrfannin's Solution (Easy)](https://github.com/mrfannin/google-homepage) - [View in Browser](https://mrfannin.github.io/google-homepage/)
 * [mrfannin's Solution (Difficult)](https://github.com/mrfannin/google-search-results) - [View in Browser](https://mrfannin.github.io/google-search-results/)
-[MattMiller1989's Solution (Easy)](https://mattmiller1989.github.io/google-homepage/) - [View in Browser](https://mattmiller1989.github.io/google-homepage/)
+* [MattMiller1989's Solution (Easy)](https://github.com/mattmiller1989/google-homepage/) - [View in Browser](https://mattmiller1989.github.io/google-homepage/)
+* [danizzaMoliv's Solution (Easy)](https://github.com/danizzaMoliv/google-homepage) - [View in Browser](https://danizzamoliv.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
