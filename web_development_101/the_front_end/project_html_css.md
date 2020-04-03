@@ -3141,6 +3141,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [c-squared's Solution (Easy)](https://github.com/c-squared87/google-homepage) - [View in Browser](https://github.com/c-squared87/google-homepage)
 * [mrfannin's Solution (Easy)](https://github.com/mrfannin/google-homepage) - [View in Browser](https://mrfannin.github.io/google-homepage/)
 * [mrfannin's Solution (Difficult)](https://github.com/mrfannin/google-search-results) - [View in Browser](https://mrfannin.github.io/google-search-results/)
+* [MattMiller1989's Solution (Easy)](https://github.com/mattmiller1989/google-homepage/) - [View in Browser](https://mattmiller1989.github.io/google-homepage/)
 * [danizzaMoliv's Solution (Easy)](https://github.com/danizzaMoliv/google-homepage) - [View in Browser](https://danizzamoliv.github.io/google-homepage/)
 </details>
 
