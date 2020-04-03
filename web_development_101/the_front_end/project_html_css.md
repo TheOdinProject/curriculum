@@ -3135,15 +3135,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [jacobshiver's Solution (Easy)](https://github.com/jacobshiver/google-homepage) - [View in Browser](https://jacobshiver.github.io/google-homepage)
 * [Codedubs's Solution (Easy)](https://codedubs.github.io/google-homepage/)
 * [wgoolsby's Solution (Easy)](https://github.com/wgoolsby/google-homepage) - [View in Browser](https://wgoolsby.github.io/google-homepage)
-<<<<<<< HEAD
-* [danizzaMoliv's Solution (Easy)](https://github.com/danizzaMoliv/google-homepage) - [View in Browser](https://danizzamoliv.github.io/google-homepage/)
-=======
 * [wrbookout's Solution (Easy)](https://github.com/wrbookout/google-homepage)
 * [AnsellMaximilian's Solution (Easy)](https://github.com/AnsellMaximilian/google-homepage) - [View in Browser](https://ansellmaximilian.github.io/google-homepage/)
 * [c-squared's Solution (Easy)](https://github.com/c-squared87/google-homepage) - [View in Browser](https://github.com/c-squared87/google-homepage)
 * [mrfannin's Solution (Easy)](https://github.com/mrfannin/google-homepage) - [View in Browser](https://mrfannin.github.io/google-homepage/)
 * [mrfannin's Solution (Difficult)](https://github.com/mrfannin/google-search-results) - [View in Browser](https://mrfannin.github.io/google-search-results/)
->>>>>>> 504b06bab531d597a087cc4f22a936000d559d23
+* [danizzaMoliv's Solution (Easy)](https://github.com/danizzaMoliv/google-homepage) - [View in Browser](https://danizzamoliv.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
