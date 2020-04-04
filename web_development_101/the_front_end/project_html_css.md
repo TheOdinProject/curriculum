@@ -48,7 +48,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 #### Easy Version: Build the [Google.com](http://www.google.com) homepage
 (the simple one with just a search box).
 
-
+My first change 
 Inside your project folder, create your index.html file
 
   1. Tips:
