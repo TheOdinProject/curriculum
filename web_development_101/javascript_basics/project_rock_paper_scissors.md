@@ -542,6 +542,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joe Vilasi's Console Solution](https://github.com/Vilasi/rock-paper-scissors)
 - [Akbar's console Solution](https://github.com/donatelloraphael/rock-paper-scissors) - [Akbar's GUI Solution](https://github.com/donatelloraphael/rock-paper-scissors-gui) - [View in browser](https://donatelloraphael.github.io/rock-paper-scissors-gui/)
 - [Tommy's UI Solution](https://github.com/Tommyisr/UI-rock-paper-scissors) - [View in Browser](https://tommyisr.github.io/UI-rock-paper-scissors/)
+- [enzoperce35's solution](https://github.com/enzoperce35/TOP_rock_paper_scissors_project)
 - [Michael Randrianarisona's console Solution](https://github.com/KhaelM/rock-paper-scissors) - [View in Browser](https://khaelm.github.io/rock-paper-scissors/)
 - [Origier's Solution using alerts](https://github.com/Origier/rock_paper_scissors)
 - [Marco Richetta's Console Solution](https://github.com/marcorichetta/rockpaperscissors)
