@@ -57,6 +57,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bradley's Solution with Extra Credit](https://github.com/spaceincase/odin-project-exercises/tree/master/binary_search_trees)
 * [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/binary_search_tree.rb)
 * [Sher's Solution](https://github.com/sher-s7/binary_search_tree)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/binary_tree)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/binary_search_trees)
 * [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms)
 * [Nikolas Broman's Solution](https://github.com/nikolasbroman/binary_search_tree)
