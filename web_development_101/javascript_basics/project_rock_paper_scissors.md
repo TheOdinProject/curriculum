@@ -24,7 +24,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
       console.log(playRound(playerSelection, computerSelection))
       ~~~
 
-      ​
+      
 5. Write a NEW function called `game()`. Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
    1. You have not officially learned how to "loop" over code to repeat function calls... if you already know about loops from somewhere else (or if you feel like doing some more learning) feel free to use them.  If not, don't worry! Just call your `playRound` function 5 times in a row.  Loops are covered in the next lesson.
    1. At this point you should be using `console.log()` to display the results of each round and the winner at the end.
@@ -53,7 +53,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [RainDropsz's  Solution](https://github.com/RainDropsz/rock_paper_scissors) - [View in Browser](https://raindropsz.github.io/Rock_paper_scissor.html)
 - [shaneSC's Solution](https://github.com/shanesc/rock-paper-scissors)
 - [Oluwatobi's solution](https://github.com/Oluwatobi-S/rock-paper-scissors) - [View in Browser](https://oluwatobi-s.github.io/rock-paper-scissors/)
-- [Larry's solution](https://github.com/ldbert/rock-paper-scissors/) - [View in Browser](https://ldbert.github.io/rock-paper-scissors/)
+- [Larry's solution](https://github.com/ldbert/PizzaPastaFishChips) - [View in Browser](https://ldbert.github.io/PizzaPastaFishChips)
 - [Walmart-cashier's Solution](https://github.com/Walmart-cashier/Rock-Paper-Scissor) - [View in Browser](https://walmart-cashier.github.io/Rock-Paper-Scissor/)
 - [Snowmonkey's Solution](https://github.com/parent-tobias/TOP-rps-console)
 - [Joel Bejot's Solution](https://github.com/JoelBejot/RPS_with_front_end) 
@@ -529,9 +529,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dale Thompson's Solution](https://github.com/Dale-Thompson/rock-paper-scissors) - [View in Browser](https://dale-thompson.github.io/rock-paper-scissors/)
 - [Nicolas Figueroa's Console Solution](https://github.com/nicolasfig/rock-paper-scissors) - [View in Browser](https://nicolasfig.github.io/rock-paper-scissors/)
 - [Joe Vilasi's Console Solution](https://github.com/Vilasi/rock-paper-scissors)
-- [Akbar's console Solution](https://github.com/donatelloraphael/rock-paper-scissors) - [Akbar's GUI Solution](https://github.com/donatelloraphael/rock-paper-scissors-gui) - [View in browser](https://donatelloraphael.github.io/rock-paper-scissors-gui/)
+- [Akbar's Console Solution](https://github.com/donatelloraphael/rock-paper-scissors) - [Akbar's GUI Solution](https://github.com/donatelloraphael/rock-paper-scissors-gui) - [View in browser](https://donatelloraphael.github.io/rock-paper-scissors-gui/)
 - [Tommy's UI Solution](https://github.com/Tommyisr/UI-rock-paper-scissors) - [View in Browser](https://tommyisr.github.io/UI-rock-paper-scissors/)
-- [Michael Randrianarisona's console Solution](https://github.com/KhaelM/rock-paper-scissors) - [View in Browser](https://khaelm.github.io/rock-paper-scissors/)
+- [enzoperce35's Solution](https://github.com/enzoperce35/TOP_rock_paper_scissors_project)
+- [Michael Randrianarisona's Console Solution](https://github.com/KhaelM/rock-paper-scissors) - [View in Browser](https://khaelm.github.io/rock-paper-scissors/)
 - [Origier's Solution using alerts](https://github.com/Origier/rock_paper_scissors)
 - [Marco Richetta's Console Solution](https://github.com/marcorichetta/rockpaperscissors)
 - [Kyle Bailey's Console Solution](https://github.com/2tonepantone/rock-paper-scissors)
@@ -1363,11 +1364,27 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/rock-paper-scissors)
 - [kasweigart's Solution](https://github.com/kasweigart/RPS-Buttons-Vers) - [View in Browser](https://kasweigart.github.io/RPS-Buttons-Vers/)
 - [Dennis's Solution](https://github.com/denniskenneth/Rock-Paper-Scissors) - [View in Browser](https://denniskenneth.github.io/Rock-Paper-Scissors/)
+- [Givemore's Solution](https://github.com/Givemo/Rock_Paper_Scissors) - [View in Browser](https://givemo.github.io/Rock_Paper_Scissors/)
 - [bayl0n's Solution](https://github.com/bayl0n/rock-paper-scissors) - [View in Browser](https://bayl0n.github.io/rock-paper-scissors/)
 - [gurucrunch's Solution](https://github.com/gurucrunch/roshambo) - [View in Browser](https://gurucrunch.github.io/roshambo/)
 - [SpyingEnvy's Solution](https://github.com/SpyingEnvelope/rpsgamewUI) - [View in Browser](https://spyingenvelope.github.io/rpsgamewUI/)
 - [iStayGrizzly's Solution](https://github.com/iStayGrizzly/rock-paper-scissors-app) - [View in Browser](https://istaygrizzly.github.io/rock-paper-scissors-app/)
 - [Danny's Solutioon](https://github.com/danG02/rock-paper-scissors) - [View in Browser](https://dang02.github.io/rock-paper-scissors/)
-- [Ryan Early's Solution](https://github.com/ryanfearly/rock-paper-scissors)
+- [Ryan Early's Solution](https://github.com/ryanfearly/rock-paper-scissors) - [View in Browser](https://ryanfearly.github.io/rock-paper-scissors/)
 - [MatejXYZ's Solution](https://github.com/MatejXYZ/Rock-paper-scissors) - [View in Browser](https://matejxyz.github.io/Rock-paper-scissors/)
+- [stefank's Solution](https://github.com/stefank-29/RockPaperScissors) - [View in Browser](https://stefank-29.github.io/RockPaperScissors/)
+- [Bryn Wulff-John's Solution](https://github.com/BrynWulffJohn/rockpaperscissors)
+- [thecodediver's Solution](https://github.com/thecodediver/rock-paper-scissors) - [View in Browser](https://thecodediver.github.io/rock-paper-scissors/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/rockpaperscissors) - [View in Browser](https://fortypercenttitanium.github.io/rockpaperscissors/)
+- [Diluxa's Solution](https://github.com/diluxa/rock-paper-scissors) - [View in Browser](https://diluxa.github.io/rock-paper-scissors/)
+- [iStayGrizzly's Solution with UI](https://github.com/iStayGrizzly/Rock-Paper-Scissors-with-UI) - [View in Browser](https://istaygrizzly.github.io/Rock-Paper-Scissors-with-UI/)
+- [Laurens' Solution](https://github.com/laurenskrom/rockpaperscissors) - [View in Browser](https://laurenskrom.github.io/rockpaperscissors/)
+- [CodeSurfer3022's Solution](https://github.com/CodeSurfer3022/Rock-paper-Scisscors) - [View in Browser](https://codesurfer3022.github.io/Rock-paper-Scisscors/)
+- [Calvin's Solution](https://github.com/Two-Claps/Rock-Paper-Scissors) - [View in Browser](https://two-claps.github.io/Rock-Paper-Scissors/)
+- [Bozhidar-A's Solution](https://github.com/Bozhidar-A/Rock-Paper-Scissors) - [View in Browser](https://bozhidar-a.github.io/Rock-Paper-Scissors/)
+- [Ozan's Solution](https://github.com/ozansozuozgit/rock-paper-scissors) - [View in Browser](https://ozansozuozgit.github.io/rock-paper-scissors/)
+- [Andrew's Solution](https://github.com/Aportello/rockpaperscissorsTOP) - [View in Browser](https://aportello.github.io/rockpaperscissorsTOP/)
+- [Matt's Solution](https://mattmiller1989.github.io/RockPaperScissors/) - [View in Browser](https://mattmiller1989.github.io/RockPaperScissors/)
+- [meganeb-afk's Solution](https://github.com/meganeb-afk/rps)
+- [Wil Goolsbys's Solution](https://wgoolsby.github.io/rock-paper-scissors) - [View in Browser](https://wgoolsby.github.io/rock-paper-scissors)
 </details>
