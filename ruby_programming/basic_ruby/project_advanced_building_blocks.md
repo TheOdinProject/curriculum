@@ -468,6 +468,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aulbourn's Solution](https://github.com/aulbytj/Enumerable/blob/develop/main.rb)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/enumerable.rb)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/enumerable-methods/enumerable-methods.rb)
 * [Sebastian Gil's Solution](https://github.com/sebGilR/enumerables) - [View Demo](https://repl.it/github/sebGilR/enumerables)
