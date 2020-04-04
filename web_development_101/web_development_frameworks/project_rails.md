@@ -26,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Edd's Solution](https://github.com/casualc0der/blogger) - [View in Browser](https://limitless-inlet-98594.herokuapp.com/)
 * [Alison's Solution](https://github.com/chenalison/blogger) - [View in Browser](https://damp-mountain-71957.herokuapp.com/)
 * [Charles Ivia's Solution](https://github.com/CharlesIvia/Blog-App.git)
 * [killermag's Solution](https://github.com/killermag/blogger) - [View in Browser](https://secure-eyrie-19612.herokuapp.com/)
@@ -468,6 +469,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/blogger) - [View in Browser](https://rocky-wildwood-83460.herokuapp.com/articles)
 * [Niin's solution](https://github.com/niin44/ruby-on-rails-project) - [View in Browser](https://guarded-ravine-52379.herokuapp.com/)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/tree/master/web-dev-101/blogger)
+* [Veskenazi's Solution](https://github.com/veskenazi/blogger-app) - [View in Browser](https://morning-crag-79127.herokuapp.com/)
 </details>
 
 ### Additional Resources
