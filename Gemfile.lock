@@ -288,6 +288,8 @@ GEM
     rack (2.2.2)
     rack-attack (6.2.2)
       rack (>= 1.0, < 3)
+    rack-proxy (0.6.5)
+      rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rack-timeout (0.6.0)
@@ -398,6 +400,7 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    semantic_range (2.3.0)
     shoulda-matchers (4.3.0)
       activesupport (>= 4.2.0)
     simplecov (0.18.5)
@@ -447,6 +450,11 @@ GEM
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
+    webpacker (5.0.1)
+      activesupport (>= 5.2)
+      rack-proxy (>= 0.6.1)
+      railties (>= 5.2)
+      semantic_range (>= 2.3.0)
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
@@ -509,6 +517,7 @@ DEPENDENCIES
   vcr (~> 3.0)
   web-console
   webmock (~> 2.1)
+  webpacker
 
 RUBY VERSION
    ruby 2.6.2p47
