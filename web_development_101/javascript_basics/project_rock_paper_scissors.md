@@ -1390,6 +1390,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Diluxa's Solution](https://github.com/diluxa/rock-paper-scissors) - [View in Browser](https://diluxa.github.io/rock-paper-scissors/)
 - [iStayGrizzly's Solution with UI](https://github.com/iStayGrizzly/Rock-Paper-Scissors-with-UI) - [View in Browser](https://istaygrizzly.github.io/Rock-Paper-Scissors-with-UI/)
 - [Laurens' Solution](https://github.com/laurenskrom/rockpaperscissors) - [View in Browser](https://laurenskrom.github.io/rockpaperscissors/)
+- [CodeSurfer3022's Solution](https://github.com/CodeSurfer3022/Rock-paper-Scisscors) - [View in Browser](https://codesurfer3022.github.io/Rock-paper-Scisscors/)
 - [Calvin's Solution](https://github.com/Two-Claps/Rock-Paper-Scissors) - [View in Browser](https://two-claps.github.io/Rock-Paper-Scissors/)
 - [Bozhidar-A's Solution](https://github.com/Bozhidar-A/Rock-Paper-Scissors) - [View in Browser](https://bozhidar-a.github.io/Rock-Paper-Scissors/)
 - [Ozan's Solution](https://github.com/ozansozuozgit/rock-paper-scissors) - [View in Browser](https://ozansozuozgit.github.io/rock-paper-scissors/)
