@@ -30,6 +30,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robin's Solution](https://github.com/CoolGlasses/ruby_final_project)
 * [Run After's Solution](https://github.com/run-after/chess)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/ruby_chess)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/command_line_chess)
 * [Ian's Solution](https://github.com/IanMKesler/chess)
 * [BShowen's Solution](https://github.com/BShowen/ruby_chess)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-chess)
