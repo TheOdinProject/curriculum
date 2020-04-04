@@ -24,6 +24,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/fibonacci)
 * [niconisoria's Solution](https://github.com/niconisoria/recursion/blob/master/fibonacci.rb)
 * [fossegrim's Solution](https://github.com/olav35/recursion/blob/master/fibs.rb)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/fibonacci/blob/master/fibonacci.rb)
 * [Billy's Solution](https://github.com/bcoffin9/project_recursion_ruby)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/blob/master/building-projects/recursion/fibonacci.rb)
 * [Run After's Solution](https://github.com/run-after/recursion/blob/master/fibonacci.rb)
@@ -224,6 +225,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [hyperturing's Solution](https://github.com/hyperturing/recursion/blob/master/fibonacci.rb)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/recursion.rb)
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/fibonacci.rb)
+* [Timework's Solution](https://github.com/Timework/fib/blob/master/fibb.rb)
 </details>
 
 ### Project: Merge Sort
@@ -262,6 +264,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/merge_sort)
 * [niconisoria's Solution](https://github.com/niconisoria/recursion/blob/master/merge_sort.rb)
 * [fossegrim's Solution](https://github.com/olav35/recursion/blob/master/merge_sort.rb)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/merge_sort/blob/master/merge_sort.rb)
 * [Billy's Solution](https://github.com/bcoffin9/project_recursion_ruby)    
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/blob/master/building-projects/recursion/merge_sort.rb)
 * [Run After's Solution](https://github.com/run-after/recursion/blob/master/merge_sort.rb)
@@ -457,6 +460,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [hyperturing's Solution](https://github.com/hyperturing/recursion/blob/master/merge-sort.rb)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/mergeSort.rb)
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/merge_sort.rb)
+* [Timework's Solution](https://github.com/Timework/merge/blob/master/merge.rb)
 </details>
 
 ### Additional Resources
