@@ -44,7 +44,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line!
+- Add your solution below this line! 
+- [ray0h's Solution](https://github.com/ray0h/TheOdinProjectExercises/tree/master/calculator) - [View in Browser](https://ray0h.github.io/calculator/)
 - [Diane998's Solution](https://github.com/Diane998/calculator) - [View in Browser](https://diane998.github.io/calculator/)
 - [Kfollen93's Solution](https://github.com/Kfollen93/Calculator) - [View in Browser](https://kfollen93.github.io/Calculator/)
 - [Obylisk's Solution](https://github.com/obylisk/calculator) - [View in Browser](https://obylisk.github.io/calculator/)
