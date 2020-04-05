@@ -9,7 +9,9 @@ document.addEventListener('turbolinks:load', function(element) {
       switchViews();
     });
 
-    $(settingsViewForm).on('ajax:success', function(event, data, settings) {
+    $(settingsViewForm).on('ajax:success', function(event) {
+      const data = event.detail[0]
+
       document.querySelector('.learning_goal').innerHTML = data.learning_goal
       document.querySelector('.username').innerHTML = data.username
       document.querySelector('.email').innerHTML = data.email
