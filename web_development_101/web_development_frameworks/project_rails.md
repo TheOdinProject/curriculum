@@ -470,6 +470,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Niin's solution](https://github.com/niin44/ruby-on-rails-project) - [View in Browser](https://guarded-ravine-52379.herokuapp.com/)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/tree/master/web-dev-101/blogger)
 * [Veskenazi's Solution](https://github.com/veskenazi/blogger-app) - [View in Browser](https://morning-crag-79127.herokuapp.com/)
+* [tomstrat's Solution](https://github.com/tomstrat/ruby_blogger) - [View in Browser](https://dry-peak-20557.herokuapp.com/)
 </details>
 
 ### Additional Resources
