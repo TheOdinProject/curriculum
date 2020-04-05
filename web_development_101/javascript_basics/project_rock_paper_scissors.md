@@ -1401,4 +1401,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [meganeb-afk's Solution](https://github.com/meganeb-afk/rps)
 - [Wil Goolsbys's Solution](https://wgoolsby.github.io/rock-paper-scissors) - [View in Browser](https://wgoolsby.github.io/rock-paper-scissors)
 </details>
+-[FilipKralik's Solution](https://github.com/FilipKralik94/rock_paper_scissors) - [View in Browser](https://filipkralik94.github.io/rock_paper_scissors/)
 
