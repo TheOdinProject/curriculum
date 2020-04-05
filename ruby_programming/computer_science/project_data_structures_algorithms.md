@@ -213,6 +213,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/binary_search_tree)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/binary_search_tree)
 * [Rob Dulabon's Solution](https://github.com/RDulabon/Binary_Search_Tree) 
+* [Timework's Solution](https://github.com/Timework/search_tree/blob/master/tree.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -417,4 +418,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Robert Suazo's Solution](https://github.com/rsuazo/knights_travails/blob/master/main.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/knight_moves)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/knight_moves)
+* [Timework's Solution](https://github.com/Timework/knight/blob/master/knight.rb)
 </details>
