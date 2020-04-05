@@ -97,6 +97,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Rock_Paper_Scissors) - [View in Browser](https://andrewbaldwin44.github.io/Rock_Paper_Scissors/)
 - [Zeetbor's Solution](https://github.com/Zeetbor/rock_paper_scissors)
 - [Daegudude's Solution](https://github.com/DaeguDude/rock-paper-scissors) - [View in Browser](https://daegudude.github.io/rock-paper-scissors/)
+- [dkolan's Solution](https://github.com/dkolan/rock_paper_scissors)
 - [Kfollen93's Soultion](https://github.com/Kfollen93/RockPaperScissors)
 - [Ichenn's Solution](https://github.com/ichenn92/rock-paper-scissors) - [View in Browser](https://ichenn92.github.io/rock-paper-scissors/)
 - [Felipe Silveira's Solution](https://github.com/Silve1ra/rock-paper-scissors) - [View in Browser](https://silve1ra.github.io/rock-paper-scissors/)
