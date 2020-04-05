@@ -212,6 +212,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Suazo's Solution](https://github.com/rsuazo/binary_search_tree/blob/master/binary_search_tree.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/binary_search_tree)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/binary_search_tree)
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Binary_Search_Tree) 
 </details>
 
 ### Project 2: Knight's Travails
