@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Rohansoor's Solution](https://github.com/rohan-soor/rock-paper-scissors)
 - [Sajjad's Solution](https://github.com/SajjadAhmad14/Rock_Papper_Scissors) - [View in Browser](https://sajjadahmad14.github.io/Rock_Papper_Scissors/)
 - [John's Solution](https://github.com/jm-staana/rock-paper-scissors) - [View in Browser](https://jm-staana.github.io/rock-paper-scissors/)
 - [srilokanas's Solution](https://github.com/srilokanas/_RockPaperScissors)
@@ -53,7 +54,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ciwot18's Solution](https://github.com/Ciwot18/RockPaperScissor) - [View in Browser](https://ciwot18.github.io/RockPaperScissor/)
 - [dr.Lobes's Solution](https://github.com/drlobes/RPS) - [View in Browser](https://codepen.io/drlobes/full/ExjGvRw)
 - [Alison's Solution](https://github.com/chenalison/rock-paper-scissors) - [View in Browser](https://chenalison.github.io/rock-paper-scissors/)
-- [James V's Solution](https://github.com/jamesspearsv/rockPaperScissors.git)
+- [James V's Solution](https://github.com/jamesspearsv/rockPaperScissors)
 - [gregggrose's Solution](https://github.com/gregggrose/rock-paper-scissors-in-console) - [View in Browser](https://gregggrose.github.io/rock-paper-scissors-in-console/)
 - [Dhrubo's Solution](https://github.com/Dhrubot/the_odin_projects/tree/master/rock_paper_scissors)
 - [Coral T's Solution](https:https://github.com/coralt/rockpaperscissors)
@@ -1400,3 +1401,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [meganeb-afk's Solution](https://github.com/meganeb-afk/rps)
 - [Wil Goolsbys's Solution](https://wgoolsby.github.io/rock-paper-scissors) - [View in Browser](https://wgoolsby.github.io/rock-paper-scissors)
 </details>
+
