@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [stefank-29's Solution](https://stefank-29.github.io/ETCH-A-SKETCH/)
+* [Skazitron's Solution](https://github.com/Skazitron/odin-project-2) - [View in Browser](https://skazitron.github.io/odin-project-2/)
 * [Cole-0's Solution](https://github.com/Cole-0/Etch-A-Sketch)
 * [MarcoDSilva Solution](https://github.com/MarcoDSilva/Etch-a-Sketch) - [View in Browser](https://marcodsilva.github.io/Etch-a-Sketch/)
 * [Salvador Villalon Solution](https://github.com/salvillalon45/theOdinProject-EtchASketch) - [View in Browser](https://salvillalon45.github.io/theOdinProject-EtchASketch/index.html)
@@ -857,4 +859,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/etch-a-sketch) - [View in Browser](https://ozansozuozgit.github.io/etch-a-sketch/)
 * [SpyingEnvy's Solution](https://github.com/SpyingEnvelope/etchasketch) - [View in Browser](https://spyingenvelope.github.io/etchasketch/)
 * [MatejXYZ's Solution](https://github.com/MatejXYZ/Etch-a-sketch) - [View in Browser](https://matejxyz.github.io/Etch-a-sketch/)
+* [Josh C's Solution](https:/github.com:jnatc1/Etch-a-Sketch) - [View in Browser](https://jnatc1.github.io/Etch-a-Sketch/)
+* [Matt Miller's Solution](https://mattmiller1989.github.io/Etch-a-Sketch/) - [View in Browser](https://mattmiller1989.github.io/Etch-a-Sketch/)
 </details>
