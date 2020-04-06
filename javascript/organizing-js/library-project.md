@@ -40,6 +40,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [AlexBoonDev's Solution](https://github.com/AlexBoonDev/Library) - [View in Browser](https://alexboondev.github.io/Library/)
+- [Adrian's Solution (w/localstorage)](https://github.com/Adrian-Cummings/library-project) - [View in Browser](https://adrian-cummings.github.io/library-project)
+- [levan mebonia Solution (w/localstorage)](https://github.com/Levo96/simpleLibrary) - [View in Browser](https://levo96.github.io/simpleLibrary/)
+- [avazkhan2808's Solution](https://github.com/avazkhan2808/project-library) - [View in Browser](https://avazkhan2808.github.io/project-library/)
 - [reneweiser's Solution](https://github.com/reneweiser/simple-book-library) - [View in Browser](https://reneweiser.github.io/simple-book-library/)
 - [MentalSkin's Solution (w/localstorage)](https://github.com/MentalSkin/library) - [View in Browser](https://mentalskin.github.io/library/)
 - [Muhymenul's Solution (w/localstorage)](https://github.com/muhymenulhaque/library) - [View in Browser](https://muhymenulhaque.github.io/library/)
@@ -47,7 +51,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Wmiz's Solution](https://github.com/wmiz/library) - [View in Browser](https://wmiz.github.io/library)
 - [Pratik's Solution](https://github.com/Pratik-Gohil/JavasciptLibray_localStorage) - [View in Browser](https://pratik-gohil.github.io/JavasciptLibray_localStorage/)
 - [are92592's Solution](https://github.com/are92592/odinBook) - [View in Browser](https://are92592.github.io/odinBook/)
-- [André Rodrigues's](https://github.com/ARodrigues92/library) - [View in Browser](https://arodrigues92.github.io/library/)
+- [André Rodrigues's Solution](https://github.com/ARodrigues92/library) - [View in Browser](https://arodrigues92.github.io/library/)
 - [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/library) - [View in Browser](https://thisismahmad.github.io/library/) 
 - [Ian's Solution](https://github.com/ianistheguy/bookshelf-app) - [View in Browser](https://ianistheguy.github.io/bookshelf-app/)
 - [Georgius's Solution](https://github.com/georgius17/library) - [View in Browser](https://georgius17.github.io/library/)
@@ -222,4 +226,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/library) - [View in Browser](https://ranmaru22.github.io/the_odin_project/library/)
 - [Tim Kelly's Solution](https://github.com/TimKellyTK/project-library) - [View in Browser](https://timkellytk.github.io/project-library/)
 - [alicee88's Solution](https://github.com/alicee88/odin-library) - [View in Browser](https://alicee88.github.io/odin-library/)
+- [thecodediver's Solution](https://github.com/thecodediver/library) - [View in Browser](https://thecodediver.github.io/library/)
+- [OmerGronich's Solution](https://github.com/OmerGronich/library-project) - [View in Browser](https://omergronich.github.io/library-project/)
 </details>
