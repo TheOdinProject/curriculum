@@ -59,6 +59,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [robomonk's Solution](https://github.com/robo-monk/zuccr) - [View in browser](https://zuccr.herokuapp.com/)
+* [Ian's Solution](https://github.com/IanMKesler/facebook-clone) - [View in browser](https://immense-sierra-65246.herokuapp.com/)
 * [MephistoDevelop & Sergio Diaz Solution](https://github.com/MephistoDevelop/fakebook/tree/master) - [View in browser](https://socialbook2019.herokuapp.com/users/sign_in)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-facebook) - [Live](https://murmuring-wave-95625.herokuapp.com/)
 * [Helmi's Solution](https://github.com/helmihidzir/odin-facebook)
@@ -125,6 +127,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's Solution](https://github.com/jamcry/rails-facebook) - [View in browser](https://protected-anchorage-21926.herokuapp.com/)
 * [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/the-pub) - [View in browser](https://thepub-io.herokuapp.com)
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-facebook) - [View in browser](https://jamesreduxbook.herokuapp.com/)
+* [themetar's solution](https://github.com/themetar/odin-facebook) - [View in browser](https://phacepook.herokuapp.com/)
 </details>
 
 ### Additional Resources

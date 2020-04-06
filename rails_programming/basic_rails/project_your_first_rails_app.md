@@ -164,7 +164,7 @@ After the terminal finishes its magic, return to your GitHub repository and refr
 
 This marks the start of your Odin journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
 
-#### Step 3: Deploy Your Rails Application
+### Step 3: Deploy Your Rails Application
 
 Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working.
 
