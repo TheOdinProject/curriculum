@@ -859,4 +859,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/etch-a-sketch) - [View in Browser](https://ozansozuozgit.github.io/etch-a-sketch/)
 * [SpyingEnvy's Solution](https://github.com/SpyingEnvelope/etchasketch) - [View in Browser](https://spyingenvelope.github.io/etchasketch/)
 * [MatejXYZ's Solution](https://github.com/MatejXYZ/Etch-a-sketch) - [View in Browser](https://matejxyz.github.io/Etch-a-sketch/)
+Josh C's Etch-a-sketch (git@github.com:jnatc1/Etch-a-Sketch.git)(https://jnatc1.github.io/Etch-a-Sketch/)
 </details>
