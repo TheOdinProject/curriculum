@@ -651,9 +651,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cbo-11's Solution](https://github.com/Cbo-11/Ruby-Basics-Project)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/learn_ruby)
 * [pudu87's Solution](https://github.com/pudu87/learn_ruby)
-<<<<<<< HEAD
-* [akoenig1's Solution](https://github.com/akoenig1/learn_ruby)
-=======
 * [feseka61's Solution](https://github.com/feseka61/learn_ruby)
 * [Nina's Solution](https://github.com/niin44/learn_ruby)
 * [Sonya's Solution](https://github.com/murdens/learn_ruby_sonya)
@@ -669,7 +666,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [RiceFree's Solution](https://github.com/RiceFree/learn_ruby)
 * [mre91's Solution](https://github.com/mre91/learn_ruby)
 * [Veskenazi's Solution](https://github.com/veskenazi/learn_ruby)
->>>>>>> upstream/master
+* [akoenig1's Solution](https://github.com/akoenig1/learn_ruby)
 </details>
 
 ### Additional Resources
