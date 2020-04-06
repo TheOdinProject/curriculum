@@ -228,4 +228,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [alicee88's Solution](https://github.com/alicee88/odin-library) - [View in Browser](https://alicee88.github.io/odin-library/)
 - [thecodediver's Solution](https://github.com/thecodediver/library) - [View in Browser](https://thecodediver.github.io/library/)
 - [OmerGronich's Solution](https://github.com/OmerGronich/library-project) - [View in Browser](https://omergronich.github.io/library-project/)
+- [kasweigart's Solution](https://github.com/kasweigart/Library) - [View in Browser](https://kasweigart.github.io/Library/)
 </details>
