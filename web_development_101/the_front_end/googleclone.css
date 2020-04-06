@@ -1,0 +1,254 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.grid-container{
+   
+    height: 100vh;
+   /**border: 10px solid #14a76c;**/
+    display: grid;
+    grid-template:
+   "header header header" 75px
+   "main main main" 1fr
+   "footer footer footer" 55px
+   / 20% 1fr 15%;
+
+}
+
+.grid-item {
+
+   /**background-color: #ccc;;
+   border: 4px solid #ff652f;**/
+   padding: 20px;
+   
+}
+
+
+.item-1{
+grid-area:header;
+
+}
+
+.item-3{
+grid-area:main;
+
+
+}
+
+img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+   
+}
+
+
+.item-5{
+grid-area:footer;
+background-color:#F2F2F2;
+height: 15px;
+
+}
+
+
+.navcontleft {
+   display: flex;
+   justify-content: flex-start;
+   width: 50%;
+   /**background-color: yellow;**/
+   position: relative;
+   bottom: 15px;
+   
+
+   
+}
+
+.navileft {
+   list-style: none;
+}
+
+.navileft li {
+   display:inline-block;
+   
+}
+
+.navileft li a {
+   font-size: 15px;
+   margin-right: 10px;
+   text-decoration: none;
+   font-family: arial,sans-serif;
+}
+
+.navileft li a:hover {
+   text-decoration: underline;
+}
+
+.navcontright {
+   display: flex;
+   justify-content: flex-end;
+   margin-left: 50%;
+   position: relative;
+   top: -50px;
+   /**background-color: teal;**/
+
+
+    
+   
+}
+
+.naviright {
+   list-style: none;
+
+   
+}
+
+.naviright li{
+   display:inline-block;
+   
+   
+}
+
+
+.naviright li a {
+   font-size: 15px;
+   margin-right: 10px;
+   text-decoration: none;
+   font-family: arial,sans-serif;
+
+   
+}
+
+.naviright li a:hover {
+   text-decoration: underline;
+}
+
+
+#search-box { 
+   background-color:#FFFFFF;
+   border-radius: 50px;
+   font-size:15px; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 600px;
+   height: 45px;
+   margin-top: 20px;
+
+} 
+
+input[type="search"] {
+   padding-left: 65px;
+   padding-right: 50px;
+
+}
+
+
+#mag {
+   width: 25px;
+   position: relative;
+   top: -42px;
+   left: -260px;
+    
+}
+
+#microf {
+   width: 30px;
+   position: relative;
+   top: -82px;
+   left: 260px;
+    
+}
+
+.centro {
+   display: flex;
+   justify-content: center;
+   /**background-color: violet;**/
+   height: 50px;   
+   
+
+}
+
+
+.button {
+       font-size: 16px;
+       width: 150px;
+       margin-right: 20px;
+       border:1px solid #f2f2f2;
+       border-radius: 5px;
+       height:35px;
+
+}
+
+.text { /**is the div that contains the paragraph belowtxt**/
+   
+   /**background-color: tomato;**/
+   display: flex;
+   justify-content: center;
+   height: 10vh;
+}
+
+.belowtxt a  {  /**this is the paragraph that has the link inside the div text**/
+   position:relative;
+   top: 10px;
+   font-size: 17px;
+   text-decoration: none;
+}
+.belowtxt a:hover  {  /**this is the paragraph that has the link inside the div text**/
+   
+   text-decoration: underline;
+}
+
+
+.onemore {
+   display: flex;
+   justify-content: center;
+   /**background-color: teal;**/
+   height: 10vh;
+}
+
+.offer  {
+   margin-top: 10px;
+   font-size:16px;  /**offer is the paragraph inside the div onemore**/
+}
+
+.offer a {
+   font-size:16px; /**offer a is the link inside the div onemore**/
+   text-decoration: none;
+}
+
+.offer a:hover {
+   
+   text-decoration: underline;
+}
+
+@media (max-width:600px) {
+ .img{
+    width:480px;
+    height:195px;
+    
+ }  
+}
+@media (max-width:600px) {
+ #search-box {
+    width: 385px;
+    height:35px;
+ }
+}
+
+@media (max-width:600px) {
+   #microf {
+      padding-right: 500px;
+   }
+
+}
+
+@media (max-width:600px) {
+   #mag {
+      padding-right: 420px;
+   }
+
+}
