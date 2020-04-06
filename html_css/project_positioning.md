@@ -129,6 +129,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
 * [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
 * [0xtaf's Solution](https://github.com/0xtaf/css-nyt) - [View in Browser](https://0xtaf.github.io/css-nyt/)
+* [Scott Bowles's Solution](https://github.com/scottBowles/nyt-article-layout-clone) - [View in Browser](https://scottbowles.github.io/nyt-article-layout-clone/)
 
 </details>
 
