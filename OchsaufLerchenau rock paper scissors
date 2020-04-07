@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <script>
+    //write your script here
+    let playerScore = 0;
+    let computerScore = 0;
+      //= {"Rock", "Paper", "Scissors"};
+      function computerPlay() {
+        let a = Math.floor(Math.random()*3);
+        if (a === 0) {return 'rock'}
+        else if (a === 1) {return 'paper'}
+        else {return 'scissors'}
+      }
+      
+      function playRound(playerSelection, computerSelection) {
+        playerSelection = prompt('Choose your hand: ')
+        playerSelection = playerSelection.toLowerCase();
+        computerSelection = computerPlay();
+        if (playerSelection === 'rock') {
+          if (computerSelection ==='rock') {
+            alert('Draw!')
+            playerScore++
+            computerScore++
+          } else if (computerSelection === 'paper') {
+            alert('You lose! Paper beats Rock.')
+            computerScore++
+          } else {
+            alert('You win! Rock beats Scissors.')
+            playerScore++
+          }
+        } else if (playerSelection === 'paper') {
+            if (computerSelection ==='paper') {
+              alert('Draw!')
+              playerScore++
+              computerScore++
+            } else if (computerSelection === 'rock') {
+              alert('You Win! Paper beats Rock.')
+              playerScore++
+            } else {
+              alert('You lose! Scissors beat Paper.')
+              computerScore++
+            }
+        } else if (playerSelection === 'scissors') { 
+          if (computerSelection === 'scissors') {
+            alert('Draw!')
+            playerScore++
+            computerScore++
+          } else if (computerSelection === 'paper') {
+            alert('You win! Scissors beat paper.')
+            playerScore++
+          } else {
+            alert('You lose! Rock beats Scissors.')
+            computerScore++
+          }
+        } else {
+          alert('wrong input')
+          computerScore++
+        }
+      }
+      
+      function game() {
+        
+        playRound();
+        playRound();
+        playRound();
+        playRound();
+        playRound();
+               
+        return ('The player\'s score is: ' + playerScore + 
+        '. The computer scored: ' + computerScore + '. Thank you for playing!')     
+      } 
+
+    console.log(game())
+    
+  </script>
+</body>
+</html>
