@@ -90,10 +90,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Himanshu1389;s Solution (Easy)](https://github.com/Himanshu1389/himanshu0103-google-homepage) - [View in Browser](https://himanshu1389.github.io/himanshu0103-google-homepage)
-* [Vicc30's Solution (Easy)](https://github.com/vicc30/google-homepage) -[View in Browser](https://vicc30.github.io/google-homepage/)
-* [Braxton's Solution (Easy)](https://github.com/BraxMassengale/google-homepage) -[View in Browser](https://braxmassengale.github.io/google-homepage/)
-* [Anubhav's Solution (Easy)](https://github.com/anubhav5095/google-homepage/) -[View in Browser](https://anubhav5095.github.io/google-homepage/)
+* [rbiddis1's Solution (Easy)](https://github.com/rbiddis1/google-homepage) - [View in Browser](https://rbiddis1.github.io/google-homepage/)
+* [Himanshu1389's Solution (Easy)](https://github.com/Himanshu1389/himanshu0103-google-homepage) - [View in Browser](https://himanshu1389.github.io/himanshu0103-google-homepage)
+* [Vicc30's Solution (Easy)](https://github.com/vicc30/google-homepage) - [View in Browser](https://vicc30.github.io/google-homepage/)
+* [Braxton's Solution (Easy)](https://github.com/BraxMassengale/google-homepage) - [View in Browser](https://braxmassengale.github.io/google-homepage/)
+* [Anubhav's Solution (Easy)](https://github.com/anubhav5095/google-homepage/) - [View in Browser](https://anubhav5095.github.io/google-homepage/)
 * [TheBluuDot's Solution (Easy)](https://github.com/thebluudot/google-homepage/) - [View in Browser](https://thebluudot.github.io/google-homepage/index.html)
 * [aaron-contreras's Solution (Both)](https://github.com/aaron-contreras/google-homepage/) - [View in Browser](https://aaron-contreras.github.io/google-homepage/)
 * [trypythy's Solution (Easy)](https://https://github.com/trypythy/google_homepage) - [View in Browser](https://trypythy.github.io/google_homepage/)
