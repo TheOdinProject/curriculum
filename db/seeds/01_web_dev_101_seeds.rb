@@ -152,18 +152,6 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Installing Ruby",
-  title_url: "Installing Ruby".parameterize,
-  description: "Let's get started with installing Ruby!",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/installations/installing_ruby.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
   title: "Setting Up Git",
   title_url: "Setting Up Git".parameterize,
   description: "The Source Code Ambulance",
@@ -171,18 +159,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: "/web_development_101/installations/setting_up_git.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Your First Rails Application",
-  title_url: "Your First Rails Application".parameterize,
-  description: "Time to dig in by making your first Rails Application",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/web_development_101/installations/project_your_first_rails_app.md",
   repo: 'curriculum'
 )
 
@@ -467,76 +443,16 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Ruby Basics",
-  title_url: "Ruby Basics".parameterize,
-  description: "A healthy dive into Ruby, where you'll spend a fair bit of time mastering the basics of this programmer-friendly language.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/the_back_end/ruby_basics_lesson.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Ruby",
-  title_url: "Ruby".parameterize,
-  description: "Time to apply what you've learned about Ruby by making the tests pass on a number of exercises that range from goofy to challenging",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/web_development_101/the_back_end/ruby_project.md",
-  repo: 'curriculum'
-)
-
-# +++++++++++
-# SECTION
-# +++++++++++
-
-section_position += 1
-section = create_or_update_section(
-  title: "Web Development Frameworks",
-  title_url: "Web Development Frameworks".parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: "You've probably heard about 'Ruby on Rails' and 'Backbone.js' and other sleek-sounding development frameworks.  In this section, you'll learn what a framework is, why we use them, and get acquainted with the ones we'll be covering in future courses."
-)
-
-lesson_position += 1
-create_or_update_lesson(
   title: "Introduction to Frameworks",
   title_url: "Introduction to Frameworks".parameterize,
   description: "Let's figure out what all the hubbub is all about.",
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/web_development_frameworks/introduction_to_frameworks.md",
+  url: "/web_development_101/the_back_end/introduction_to_frameworks.md",
   repo: 'curriculum'
 )
 
-lesson_position += 1
-create_or_update_lesson(
-  title: "Ruby on Rails Basics",
-  title_url: "Ruby on Rails Basics".parameterize,
-  description: "You'll learn the basics of the wildly popular framework that has made thousands of programmers highly productive and happy.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/web_development_frameworks/rails_basics.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Ruby on Rails",
-  title_url: "Ruby on Rails".parameterize,
-  description: "You've learned the basics, now let's put them to work by building a basic application.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/web_development_101/web_development_frameworks/project_rails.md",
-  repo: 'curriculum'
-)
 # +++++++++++
 # SECTION
 # +++++++++++

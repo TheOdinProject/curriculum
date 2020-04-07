@@ -43,6 +43,42 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Installing Ruby",
+  title_url: "Installing Ruby".parameterize,
+  description: "Let's get started with installing Ruby!",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby/installing_ruby.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Ruby Basics",
+  title_url: "Ruby Basics".parameterize,
+  description: "A healthy dive into Ruby, where you'll spend a fair bit of time mastering the basics of this programmer-friendly language.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby/ruby_basics_lesson.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Ruby",
+  title_url: "Ruby".parameterize,
+  description: "Time to apply what you've learned about Ruby by making the tests pass on a number of exercises that range from goofy to challenging",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: "/ruby_programming/basic_ruby/ruby_project.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Ruby Building Blocks",
   title_url: "Ruby Building Blocks".parameterize,
   description: "A more in-depth look at the Ruby fundamentals like Variables, Data Types, Strings, and Methods.",
