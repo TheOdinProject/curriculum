@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [leetie's Solution](https://github.com/leetie/Hangman)
 * [jodokusquack's Solution](https://github.com/jodokusquack/hangman) - [Live version on Repl.it](https://repl.it/@jodokusquack/hangman)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/hangman_game)
 * [infectos's Solution](https://github.com/infectos/hangman) - [Live version on Repl.it](https://repl.it/@infectos/hangman)

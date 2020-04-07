@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [leetie's Solution](https://github.com/leetie/tic_tac_toe)
 * [Sebastian Gil's Solution](https://github.com/sebGilR/tictactoe)
 * [pudu87's Solution](https://github.com/pudu87/tic-tac-toe)
 * [jodokusquack's Solultion](https://github.com/jodokusquack/tic-tac-to)
@@ -358,6 +359,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [leetie's Solution](https://github.com/leetie/Mastermind)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/mastermind.rb)
 * [pudu87's Solution](https://github.com/pudu87/mastermind)
 * [jodokusquack's Solution](https://github.com/jodokusquack/mastermind) - [Live repl.it Version](https://repl.it/@jodokusquack/mastermind)
