@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Lcdevi's Solution](https://github.com/Lcdevi/rock-paper-scissor)
+- [overdice's Solution](https://github.com/overd1ce/rock_paper_scissors) - [View in Browser](https://overd1ce.github.io/rock_paper_scissors/)
 - [Erdich's Solution](https://github.com/erdich/RPSProject) - [View in Browser](https://erdich.github.io/RPSProject)
 - [Afzaman's Solution](https://github.com/afzaman/rock_paper_scissors) - [View in Browser](https://afzaman.github.io/rock_paper_scissors/)
 - [mike-o31s Solution](https://github.com/mike-o31/rock-paper-scissor)
@@ -1408,5 +1409,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Wil Goolsbys's Solution](https://github.com/wgoolsby/rock-paper-scissors) - [View in Browser](https://wgoolsby.github.io/rock-paper-scissors)
 - [Josh C's Solution w/UI](https://github.com/jnatc1/Rock-Paper-Scissors-v2) - [View in Browser](https://jnatc1.github.io/Rock-Paper-Scissors-v2/)
 - [OchsaufLerchenau's Solution](https://github.com/OchsaufLerchenau/rock-paper-scissors)
+- [c-squared87's Solution](https://github.com/c-squared87/rock-paper-scissors) 
 </details>
 
