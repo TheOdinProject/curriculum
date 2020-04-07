@@ -1401,15 +1401,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Bozhidar-A's Solution](https://github.com/Bozhidar-A/Rock-Paper-Scissors) - [View in Browser](https://bozhidar-a.github.io/Rock-Paper-Scissors/)
 - [Ozan's Solution](https://github.com/ozansozuozgit/rock-paper-scissors) - [View in Browser](https://ozansozuozgit.github.io/rock-paper-scissors/)
 - [Andrew's Solution](https://github.com/Aportello/rockpaperscissorsTOP) - [View in Browser](https://aportello.github.io/rockpaperscissorsTOP/)
-<<<<<<< HEAD
-- [c-squared87's Solution](https://github.com/c-squared87/rock-paper-scissors) 
-=======
 - [Matt's Solution](https://mattmiller1989.github.io/RockPaperScissors/) - [View in Browser](https://mattmiller1989.github.io/RockPaperScissors/)
 - [FilipKralik's Solution](https://github.com/FilipKralik94/rock_paper_scissors) - [View in Browser](https://filipkralik94.github.io/rock_paper_scissors/)
 - [meganeb-afk's Solution](https://github.com/meganeb-afk/rps)
 - [Wil Goolsbys's Solution](https://github.com/wgoolsby/rock-paper-scissors) - [View in Browser](https://wgoolsby.github.io/rock-paper-scissors)
 - [Josh C's Solution w/UI](https://github.com/jnatc1/Rock-Paper-Scissors-v2) - [View in Browser](https://jnatc1.github.io/Rock-Paper-Scissors-v2/)
 - [OchsaufLerchenau's Solution](https://github.com/OchsaufLerchenau/rock-paper-scissors)
->>>>>>> c7c75abf82bfde09d746461aa54c9075bda4b5f2
+- [c-squared87's Solution](https://github.com/c-squared87/rock-paper-scissors) 
 </details>
 
