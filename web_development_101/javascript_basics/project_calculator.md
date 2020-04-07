@@ -45,6 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [AJMcDee's Solution](https://github.com/AJMcDee/onlineCalculator/) - [View in Browser](https://ajmcdee.github.io/onlineCalculator/)
+- [Lusiann's Solution](https://github.com/Lusiann/Calculator) - [View in Browser](https://lusiann.github.io/Calculator/)
+- [ray0h's Solution](https://github.com/ray0h/TheOdinProjectExercises/tree/master/calculator) - [View in Browser](https://ray0h.github.io/calculator/)
 - [Lokanadhan A S Solution](https://github.com/srilokanas/Calculator) - [View in Browser](https://srilokanas.github.io/Calculator/)
 - [Jdonahue135's Solution](https://github.com/jdonahue135/calculator) - [View in Browser](https://jdonahue135.github.io/calculator/)
 - [Joel Bejot's Solution](https://github.com/JoelBejot/calculator) - [View in Browser](https://joelbejot.github.io/calculator/index.html)
@@ -575,4 +578,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jcai8649's Solution](https://github.com/jcai8649/Calculator) - [View in Browser](https://jcai8649.github.io/Calculator/)
 - [kmson7's Solution](https://github.com/kmson7/calculator) - [View in Browser](https://kmson7.github.io/calculator/)
 - [kasweigart's Solution](https://github.com/kasweigart/Calculator) - [View in Browser](https://kasweigart.github.io/Calculator/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/calculator) - [View in Browser](https://fortypercenttitanium.github.io/calculator/)
 </details>
