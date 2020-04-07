@@ -24,6 +24,10 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rarysson's Solution](https://github.com/rarysson/apple-page-clone) - [View in Browser](https://rarysson.github.io/apple-page-clone/)
+* [Johongirr's Solution](https://github.com/Johongirr/apple-clone) - [View in Browser](https://johongirr.github.io/apple-clone/)
+* [Estela's Solution](https://estelajimero.github.io/building-background/) - [View in Browser](https://estelajimero.github.io/building-background/)
+* [ikraamg's Solution](https://github.com/ikraamg/apple.com-clone) - [View in Browser](https://ikraamg.github.io/apple.com-clone/)
 * [Igorashs's Solution](https://github.com/igorashs/building-with-backgrounds-and-gradients) - [View in Browser](https://igorashs.github.io/building-with-backgrounds-and-gradients/)
 * [Basskip's Solution](https://github.com/Basskip/backgrounds-and-gradients) - [View in Browser](http://basskip.com/backgrounds-and-gradients/)
 * [Carlos Anriquez's Solution](https://github.com/canriquez/backgrounds-gradients) - [View in Browser](https://canriquez.github.io/backgrounds-gradients/)
@@ -117,6 +121,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Miguel's Solution](https://github.com/mapra99/appleClone)
 * [Aron's Solution](https://github.com/aronfischer/old-apple-homepage) - [View in Browser](https://aronfischer.github.io/old-apple-homepage/)
 * [Sebastian's Solution](https://github.com/lBuggie/apple-2014-clone) - [View in Browser](https://lbuggie.github.io/apple-2014-clone/)
+* [0xtaf's Solution](https://github.com/0xtaf/css-apple) - [View in Browser](https://0xtaf.github.io/css-apple/)
 
 </details>
 

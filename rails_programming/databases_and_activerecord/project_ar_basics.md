@@ -123,6 +123,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 
 * Add your solution below this line!
 * [Hector's Solution](https://github.com/hectorgarcia07/activeRecordOdinProject)
+* [Varras' Solution](https://github.com/Varras/micro-reddit)
 * [David Auza's and Luis Novoa's Solution](https://github.com/luis-novoa/micro-reddit-dl)
 * [Airi's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/micro-reddit)
 * [fossegrim's Solution](https://github.com/olav35/micro-reddit)
