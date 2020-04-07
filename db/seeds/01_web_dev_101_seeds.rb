@@ -426,7 +426,7 @@ section = create_or_update_section(
   title_url: "The Back End".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "Here you'll learn about the back end, where we'll demystify what goes on behind the scenes on a web server.  You'll get to take a crack at Ruby, the sublimely awesome language that runs Ruby on Rails."
+  description: "Here you'll learn about the back end, where we'll demystify what goes on behind the scenes on a web server."
 )
 
 lesson_position += 1
