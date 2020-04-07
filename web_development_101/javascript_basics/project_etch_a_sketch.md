@@ -863,3 +863,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Matt Miller's Solution](https://mattmiller1989.github.io/Etch-a-Sketch/) - [View in Browser](https://mattmiller1989.github.io/Etch-a-Sketch/)
 * [Christian's Solution](https://github.com/rueeazy/etch-a-sketch) - [View in Browser](https://rueeazy.github.io/etch-a-sketch/)
 </details>
+* [Laurens' Solution](https://github.com/laurenskrom/etchasketch) - [View in Browser](https://laurenskrom.github.io/etchasketch/)
+</details>
+
