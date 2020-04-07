@@ -26,6 +26,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Joel Bejot's Solution](https://github.com/JoelBejot/blogger.git) - [View in Browser](https://stormy-waters-91981.herokuapp.com/)
+* [tenacious-qi's Solution](https://github.com/Tenacious-Qi/rails-blog) - [View in Browser](https://pure-tundra-06256.herokuapp.com/)
 * [Edd's Solution](https://github.com/casualc0der/blogger) - [View in Browser](https://limitless-inlet-98594.herokuapp.com/)
 * [Alison's Solution](https://github.com/chenalison/blogger) - [View in Browser](https://damp-mountain-71957.herokuapp.com/)
 * [Charles Ivia's Solution](https://github.com/CharlesIvia/Blog-App.git)
@@ -469,6 +471,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/blogger) - [View in Browser](https://rocky-wildwood-83460.herokuapp.com/articles)
 * [Niin's solution](https://github.com/niin44/ruby-on-rails-project) - [View in Browser](https://guarded-ravine-52379.herokuapp.com/)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/tree/master/web-dev-101/blogger)
+* [Veskenazi's Solution](https://github.com/veskenazi/blogger-app) - [View in Browser](https://morning-crag-79127.herokuapp.com/)
+* [tomstrat's Solution](https://github.com/tomstrat/ruby_blogger) - [View in Browser](https://dry-peak-20557.herokuapp.com/)
 </details>
 
 ### Additional Resources
