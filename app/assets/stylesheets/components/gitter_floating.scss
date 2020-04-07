@@ -1,0 +1,66 @@
+.floating-dropdown {
+  bottom: 20px;
+  position: fixed;
+  z-index: 1000;
+  right: 20px;
+
+  @media(max-width: 480px) {
+    display: none;
+  }
+
+  .floating-dropdown__item {
+    background: $button-primary;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+    padding: 1em;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 15px 6px rgba(0,0,0,0.2);
+    }
+
+    &.main-floating-btn {
+      position: relative;
+      z-index: 2;
+
+      .fas.fa-comments {
+        color: $white;
+        font-size: 2em;
+      }
+    }
+
+    &.floating-dropdown--hidden-item {
+      margin: 0 0 -50px 0;
+      opacity: 0;
+      transition: margin 1s ease-out, opacity 0.5s;
+      padding: 0.5em;
+      margin-right: 0.6em;
+      margin-left: 0.6em;
+      z-index: 1;
+      position: relative;
+
+      .fas {
+        color: $white;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+.floating-dropdown:hover {
+  .floating-dropdown--hidden-item {
+    margin: 0 9px 20px 9px;
+    opacity: 1;
+    transition: margin 1s, opacity 1s;
+  }
+}
+
+.gitter-chat-embed {
+  border-left: 0;
+  border-left-style: none;
+  box-shadow: -12px 0 18px 0 rgba(50,50,50,0.1);
+}
+
+.gitter-chat-embed-action-bar-item:active {
+  filter: none;
+}

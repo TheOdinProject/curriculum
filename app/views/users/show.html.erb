@@ -1,0 +1,21 @@
+<%= title('Dashboard') %>
+
+<div class="container">
+  <div class= 'col-lg-8 offset-lg-2'>
+    <h1 class="text-center camel">My Dashboard</h1>
+    <%= render 'profile_card', user: @user %>
+    <%= render 'skills', courses: @courses%>
+  </div>
+</div>
+
+<div class="gradient">
+  <% if @user.has_projects? && ProjectSubmissionFeature.enabled? %>
+    <%= render 'projects', projects: @projects %>
+  <% end %>
+
+  <%= render 'shared/bottom_cta',
+    button: chat_button,
+    heading: 'Have a question?',
+    sub_heading: 'Chat with our friendly Odin community in our Discord chatrooms!'
+  %>
+</div>

@@ -1,0 +1,11 @@
+$('#delete-project-modal').remove();
+$('.modal-backdrop').remove();
+$('#project-submission-modal').remove();
+toastr.success('Your submission was deleted', 'Success!');
+
+if ($('#index-submissions').length === 0) {
+  $('#submissions').html("<%= j render 'lessons/recent_submissions', projects: @projects, project: @project, lesson: @lesson %>");
+  $('#project-submission-modal-wrapper').html("<%= j render 'projects/form_modal', lesson: @lesson, project: @project %>");
+} else {
+  $('#index-submissions').html("<%= j render 'lessons/index_submissions', projects: @projects %>");
+}

@@ -1,0 +1,51 @@
+.skill {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.875rem;
+  margin-bottom: 1.875rem;
+  border-bottom: 1px solid $very-pale-grey;
+  color: $grey;
+
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__image {
+    padding-right: 1.5em;
+
+    @include media-breakpoint-down(md) {
+      padding-right: 0;
+      margin-bottom: 1em;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__title {
+    font-weight: bold;
+    color: $grey;
+    margin-bottom: 0;
+  }
+
+  &__sub-title {
+    font-size: 0.81em;
+    text-transform: uppercase;
+  }
+
+  &__button-wrapper {
+    margin-left: auto;
+    width: 11.6rem;
+
+    @include media-breakpoint-down(md) {
+      margin: 0 auto;
+      padding-top: 1.5em;
+    }
+  }
+
+  &__button {
+    width: 100%;
+  }
+}

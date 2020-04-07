@@ -1,0 +1,29 @@
+<div class="curriculum-details bg-whitesmoke">
+  <div class="curriculum-details-title">
+    <h2 class="bold">Learn everything you need to know to become a web developer</h2>
+  </div> <!-- /.curriculum-details-title -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-10 offset-xl-1">
+        <div class="row curriculum-details-grid">
+
+          <% available_courses.each do |course| %>
+          <div class="curriculum-details-tile align-items-center">
+            <%= image_tag course[:badge_image_url], alt: course[:badge_alt_text] %>
+            <h4 class="bold text-uppercase">
+              <%= course[:title] %>
+            </h4>
+          </div>
+          <% end %>
+
+        </div>
+      </div>
+    </div> <!-- /.row -->
+
+    <div class="text-center">
+      <%= link_to 'Get Started', courses_path,
+        class: 'button button--secondary' %>
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div>

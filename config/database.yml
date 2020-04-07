@@ -1,0 +1,33 @@
+# You may need to provide a username, in which case you'd use
+# your computer's user account (on a mac type $ echo $USER to
+# get it).
+
+default: &default
+  adapter: postgresql
+  username: <%= ENV['POSTGRES_USERNAME'] %>
+  password: <%= ENV['POSTGRES_PASSWORD'] %>
+  host: <%= ENV['POSTGRES_HOST'] || 'localhost' %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: <%= ENV['POSTGRES_DEV_DB'] || 'theodinproject' %>
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test: &test
+  <<: *default
+  database: <%= ENV['POSTGRES_TEST_DB'] || 'theodinproject_test' %>
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: db/production
+  pool: 10
+  username:
+  password:
+
+cucumber:
+  <<: *test

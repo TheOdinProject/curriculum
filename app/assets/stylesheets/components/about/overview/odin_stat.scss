@@ -1,0 +1,14 @@
+.odin-stat {
+  padding: 20px !important;
+
+  @include media-breakpoint-down(md) {
+    text-align: center;
+  }
+
+  &__content {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: $pale-grey;
+    letter-spacing: 0.4px;
+  }
+}

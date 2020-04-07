@@ -1,0 +1,21 @@
+<div class="row project">
+  <div class="col-5 col-sm-3 col-md-2 col-lg-3 project__votes">
+    <%= heart_icon_or_button_for(current_user, project) %>
+
+    <span class="project__votes-count">
+     <%= project.total_votes %>
+    </span>
+  </div>
+
+  <div class="col-7 col-sm-9 col-md-3 col-lg-3 project__owner-name bold">
+    <%= render 'projects/owner_name_and_report_link', project: project %>
+  </div>
+
+  <div class="col-md-7 col-lg-6 project__buttons">
+    <%= link_to 'View Code', project.repo_url, class: 'button project__button', target: '_blank' %>
+
+    <% if project.live_preview.present? %>
+      <%= link_to 'Live Preview', project.live_preview, class: 'button project__button live-preview-button', target: '_blank' %>
+    <% end %>
+  </div>
+</div>
