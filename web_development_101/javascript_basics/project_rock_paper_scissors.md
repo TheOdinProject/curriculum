@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Siddhardha's Solution] (https://github.com/SiddhardhaSaran/ropasci) - [View in Browser](https://siddhardhasaran.github.io/ropasci/)
 - [Lcdevi's Solution](https://github.com/Lcdevi/rock-paper-scissor)
 - [overdice's Solution](https://github.com/overd1ce/rock_paper_scissors) - [View in Browser](https://overd1ce.github.io/rock_paper_scissors/)
 - [Erdich's Solution](https://github.com/erdich/RPSProject) - [View in Browser](https://erdich.github.io/RPSProject)
