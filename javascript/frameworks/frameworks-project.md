@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Disco Trooper's Vue solution](https://github.com/disco-trooper/library-vue) - [View in Browser](https://disco-trooper.github.io/library-vue/)
 * [Edd Sansome's React solution](https://github.com/casualc0der/burger-bar-react) - [View in Browser](https://casualc0der.github.io/burger-bar-react/)
 * [Simon Fraipont's React library solution](https://github.com/Sim-frpt/react-library) - [View in Browser](https://sim-frpt.github.io/react-library/)
 * [James's React Library Solution](https://github.com/ericksen-github/library_react) - [View in Browser](https://ericksen-github.github.io/library_react/)
