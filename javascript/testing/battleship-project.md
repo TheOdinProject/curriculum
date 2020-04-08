@@ -42,6 +42,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Disco Trooper's solution](https://github.com/disco-trooper/battleship) - [View in Browser](https://disco-trooper.github.io/battleship/)
+- [Julio's solution](https://github.com/julio22b/battleship) - [View in Browser](https://julio22b.github.io/battleship/)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/battleship-react) - [View in Browser](https://braxtonlemmon.github.io/battleship-react/)
 - [rainmodred's Solution](https://github.com/rainmodred/react-battleship) - [View in Browser](https://rainmodred.github.io/react-battleship/)
 - [martink-rsa's Solution](https://github.com/martink-rsa/Battleships) - [View in Browser](https://martink-rsa.github.io/Battleships/)

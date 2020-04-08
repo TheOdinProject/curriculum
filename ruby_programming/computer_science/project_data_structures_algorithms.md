@@ -52,11 +52,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/binary_tree)
+* [leetie's Solution](https://github.com/leetie/Knights_travails)
 * [jodokusquack's Solution with Extra Credit](https://github.com/jodokusquack/ruby_binary_search_tree)
 * [Billy's Solution](https://github.com/bcoffin9/project_binary_search_trees)
 * [Bradley's Solution with Extra Credit](https://github.com/spaceincase/odin-project-exercises/tree/master/binary_search_trees)
 * [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/binary_search_tree.rb)
 * [Sher's Solution](https://github.com/sher-s7/binary_search_tree)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/binary_tree)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/binary_search_trees)
 * [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms)
 * [Nikolas Broman's Solution](https://github.com/nikolasbroman/binary_search_tree)
@@ -211,6 +214,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Suazo's Solution](https://github.com/rsuazo/binary_search_tree/blob/master/binary_search_tree.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/binary_search_tree)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/binary_search_tree)
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Binary_Search_Tree) 
+* [Timework's Solution](https://github.com/Timework/search_tree/blob/master/tree.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -257,6 +262,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
     
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/data-structure_knight_travail)
 * [jodokusquack's Solution](https://github.com/jodokusquack/knights_travails)
 * [Billy's Solution](https://github.com/bcoffin9/project_springer_travails)
 * [proto-dylan's Solution](https://github.com/proto-dylan/knight_moves/blob/master/knight_moves.rb)
@@ -415,4 +421,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Robert Suazo's Solution](https://github.com/rsuazo/knights_travails/blob/master/main.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/knight_moves)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/knight_moves)
+* [Timework's Solution](https://github.com/Timework/knight/blob/master/knight.rb)
 </details>

@@ -53,6 +53,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Zach's Solution](https://github.com/ZachBaird/CaesarCipher)
 * [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
 * [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/caesar_cipher.rb)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/caesar_cipher/blob/master/caesar_cipher.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p1_caesar_cipher)
 * [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/caesar_cipher.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/caesar_cipher/)
@@ -523,6 +524,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cinthia's Solution](https://github.com/cinthiagodoi/ruby_practice/blob/master/ceasar_cipher.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/caesar_cipher/caesar_cipher.rb)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/caesar_cipher/caesar_cipher.rb)
+* [tomstrat's Solution](https://github.com/tomstrat/caesar_cipher)
 </details>
 
 ### Project 2: Stock Picker
@@ -565,6 +567,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Zach's Solution](https://github.com/ZachBaird/StockPicker)
 * [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
 * [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/stock_picker.rb)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/stock_picker/blob/master/stock_picker.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p2_stock_picker)
 * [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/stock_picker.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/stock_picker)
@@ -990,6 +993,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cinthia's Solution](https://github.com/cinthiagodoi/ruby_practice/blob/master/stocker_picker.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/stock-picker/stock-picker.rb)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/stock_picker/stock_picker.rb)
+* [tomstrat's Solution](https://github.com/tomstrat/stock_picker)
 </details>
 
 ### Project 3: Substrings
@@ -1038,6 +1042,7 @@ Next, make sure your method can handle multiple words:
 * [Zach's Solution](https://github.com/ZachBaird/RubySubstringCounter)
 * [Jakob's Solution](https://github.com/jodokusquack/Ruby-Challenges)
 * [fossegrim's Solution](https://github.com/olav35/building-blocks-exercise/blob/master/substrings.rb)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/substrings/blob/master/substrings.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p3_substrings)
 * [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/dictionary.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/substrings)
@@ -1454,4 +1459,5 @@ Next, make sure your method can handle multiple words:
 * [Cinthia's Solution](https://github.com/cinthiagodoi/ruby_practice/blob/master/substrings.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/substrings/substrings.rb)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/substrings/substrings.rb)
+* [tomstrat's Solution](https://github.com/tomstrat/substrings)
 </details>
