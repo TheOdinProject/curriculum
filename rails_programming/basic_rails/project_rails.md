@@ -26,6 +26,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [LenaChestnut's Solution](https://github.com/LenaChestnut/rails-blog) - [View in Browser](https://powerful-wildwood-59785.herokuapp.com/)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Blogger) - [View in Browser](https://infinite-plains-44231.herokuapp.com/)
 * [Joel Bejot's Solution](https://github.com/JoelBejot/blogger.git) - [View in Browser](https://stormy-waters-91981.herokuapp.com/)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/rails-blog) - [View in Browser](https://pure-tundra-06256.herokuapp.com/)
 * [Edd's Solution](https://github.com/casualc0der/blogger) - [View in Browser](https://limitless-inlet-98594.herokuapp.com/)
