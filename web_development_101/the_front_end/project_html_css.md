@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [AGL9's Solution (Easy)](https://github.com/agl9/google-homepage) - [View in Browser](https://agl9.github.io/google-homepage)
+* [alanscarter's Solution (Easy)](https://github.com/alanscarter/googleHomepage) - [View in Browser](https://alanscarter.github.io/googleHomepage)
 * [overdice's Solution (Easy)](https://github.com/overd1ce/google-homepage/) - [View in Browser](https://overd1ce.github.io/google-homepage/index.html)
 * [rbiddis1's Solution (Easy)](https://github.com/rbiddis1/google-homepage) - [View in Browser](https://rbiddis1.github.io/google-homepage/)
 * [Himanshu1389's Solution (Easy)](https://github.com/Himanshu1389/himanshu0103-google-homepage) - [View in Browser](https://himanshu1389.github.io/himanshu0103-google-homepage)
@@ -3155,6 +3157,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MegRuf's Solution (Easy)](https://github.com/MegRuf/google-homepage) - [View in Browser](https://megruf.github.io/google-homepage/) 
 * [fussykyloren's Solution (Easy)](https://github.com/fussykyloren/google-homepage) - [View in Browser](https://fussykyloren.github.io/google-homepage/)
 * [kbrdsk's Solution (Both)](https://github.com/kbrdsk/google-homepage) - [View in Browser](https://kbrdsk.github.io/google-homepage/)
+* [Michan's Solution (Easy)](https://github.com/Michan0628/google-homepage) - [View in Browser](https://michan0628.github.io/google-homepage/)
+* [Chedda85's Solution (Easy)](https://chedda85.github.io/google-homepage/) - [View in Browser](https://chedda85.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
