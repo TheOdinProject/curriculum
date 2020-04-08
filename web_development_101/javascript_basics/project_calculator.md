@@ -582,4 +582,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kasweigart's Solution](https://github.com/kasweigart/Calculator) - [View in Browser](https://kasweigart.github.io/Calculator/)
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/calculator) - [View in Browser](https://fortypercenttitanium.github.io/calculator/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/calculator) - [View in Browser](https://jlthompso.github.io/calculator/)
+- [Matt Miller Solution](https://mattmiller1989.github.io/Calculator/) - [View in Browser](https://mattmiller1989.github.io/Calculator/)
 </details>
