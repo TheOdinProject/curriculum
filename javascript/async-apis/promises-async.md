@@ -75,3 +75,4 @@ Of course there many more occasions where one would want to use Promises beyond 
 2. The [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) for Promises.  It might not be the best resource for _learning_ all about them, but once you've read a more friendly article or tutorial, this will probably be the place you return to for a refresher.
 3. [This video](https://www.youtube.com/watch?v=vQ3MoXnKfuQ) and [this one too](https://www.youtube.com/watch?v=yswb4SkDoj0) are both nice introductions to Promises if you need more repetition.
 4. [This tutorial](https://scotch.io/tutorials/javascript-promises-for-dummies) is another good introduction.
+5. [This video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) dives into the event loop and how asynchronous code works in JavaScript.

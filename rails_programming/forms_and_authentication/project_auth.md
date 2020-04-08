@@ -93,12 +93,14 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/forms_and_authentication/project_auth.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Duarte's Solution](https://github.com/Duartemartins/auth)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/members-only)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/members-only) - [Heroku](https://polar-mountain-42157.herokuapp.com/)
 * [Leo Holanda's Solution](https://github.com/leo-holanda/members-only) - [Heroku](https://boiling-hamlet-71286.herokuapp.com/)
 * [Nasser Abachi's Solution](https://github.com/abachi/clubhouse) - [Heroku](https://abachidev-clubhouse.herokuapp.com/)
