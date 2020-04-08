@@ -813,6 +813,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kendra Moyars's Solution](https://github.com/kendramoyars/enumerable/blob/master/enumerable.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/my-enumerables/my_enumerables.rb)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/enumerable-methods/blob/master/methods.rb)
+* [tomstrat's Solution](https://github.com/tomstrat/bubble_sort/blob/master/bubble.rb)
 </details>
 
 ### Additional Resources
