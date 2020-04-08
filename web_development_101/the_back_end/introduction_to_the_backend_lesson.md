@@ -4,7 +4,7 @@ The three languages of the front end are fairly standardized -- HTML for Markup,
 
 That said, some languages are more popular and practical than others.  If you're running your own server, you have a ton of flexibility but plenty of headaches.  If you're deploying to the cloud (which we will be doing later), you may be restricted to those languages which your cloud provider has installed on their platform... it doesn't do you much good if the servers you're "borrowing" from can't understand your code!  
 
-Some of the most popular server-side languages are PHP, ASP.NET, Ruby, Python and Java (not to be confused with Javascript).  And just like I can say "which way to the nearest pub?" in Swedish, French, Italian, English and Bad English, all of those languages can perform almost exactly the same functions, just using different syntaxes.
+Some of the most popular server-side languages are PHP, ASP.NET, Ruby, Python and Java (not to be confused with Javascript).  Just as I can say "Which way to the nearest pub?" in Swedish, French, Italian, English, and Bad English, so too can all of those languages perform almost exactly the same functions, just using different syntaxes.
 
 As we covered back in the [Installations section](https://www.theodinproject.com/courses/web-development-101/lessons/installation-overview), the front end languages live in the browser so there's no extra installations required.  For the reasons listed above, the back end languages do require you to install them on your computer in order to get them running.  NodeJS has already been installed as it is required in the Javascript section of web dev 101. Ruby and Rails is installed in their own respective sections as they aren't required until then.
 
