@@ -560,4 +560,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tim Kelly's Solution (Mobile Friendly)](https://github.com/TimKellyTK/project-calculator) - [View in Browser](https://timkellytk.github.io/project-calculator/)
 - [headnodic's Solution](https://github.com/headnodic/vue-the-odin-project-coursework/tree/master/src/components/web-development-101/projects/calculator) - [View in Browser](https://headnodic-vue-top-course.netlify.com/calculator)
 - [Ulises V's Solution](https://github.com/UlisesVil/Calculator) - [View in Browser](https://ulisesvil.github.io/Calculator/)
+- [Joe Thompson's Solution](https://github.com/jlthompso/calculator) - [View in Browser](https://jlthompso.github.io/calculator/)
 </details>
