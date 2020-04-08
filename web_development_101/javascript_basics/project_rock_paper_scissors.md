@@ -1414,6 +1414,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [c-squared87's Solution](https://github.com/c-squared87/rock-paper-scissors) 
 - [fussykyloren's Solution](https://github.com/fussykyloren/rock-paper-scissors)
 - [mrfannin's Solution](https://github.com/mrfannin/rock-paper-scissors)
-</details>
 - [kbrdsk's Solution](https://github.com/kbrdsk/rock-paper-scissors) - [View in Browser](https://kbrdsk.github.io/rock-paper-scissors/)
+- [sokafootball's Solution](https://github.com/sokafootball/rock-paper-scissors) - [View in Browser](https://sokafootball.github.io/rock-paper-scissors/)
+</details>
 
