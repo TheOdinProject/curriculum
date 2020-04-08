@@ -262,6 +262,7 @@ connect_four)
 * [Jay Conner's Solution](https://github.com/cleve703/connect4)
 * [Hyperturing's Solution](https://github.com/hyperturing/connectfour)
 * [Robert Suazo's Solution](https://github.com/rsuazo/connect_four)
+* [Timework's Solution](https://github.com/Timework/connect)
 </details>
 
 ### Additional Resources
