@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Bogdan Bujor's Solution (Easy)](https://github.com/qSharpy/google-homepage) - [View in Browser](https://qsharpy.github.io/google-homepage)
 * [AGL9's Solution (Easy)](https://github.com/agl9/google-homepage) - [View in Browser](https://agl9.github.io/google-homepage)
 * [alanscarter's Solution (Easy)](https://github.com/alanscarter/googleHomepage) - [View in Browser](https://alanscarter.github.io/googleHomepage)
 * [overdice's Solution (Easy)](https://github.com/overd1ce/google-homepage/) - [View in Browser](https://overd1ce.github.io/google-homepage/index.html)
