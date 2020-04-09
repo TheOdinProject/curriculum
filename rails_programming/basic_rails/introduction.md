@@ -10,7 +10,7 @@ That tutorial is often too deep for fresh beginners to Rails but we'll be using 
 
 ### The Roadmap
 
-We'll be starting with an overview of important topics like HTTP, MVC, REST, APIs, Cookies and Authentication for some context before moving into the really fun stuff.
+After installing Rails, we'll be starting with an overview of important topics like HTTP, MVC, REST, APIs, Cookies and Authentication for some context before moving into the really fun stuff.
 
 We'll move front-to-back, starting with the routing layer and moving into controllers and views so you can build a functional (if not yet pretty) interface for your data.  Next you'll learn about storing and finding data in databases with SQL then how to turn that SQL into Active Record queries.  We next cover web forms, an area that has a lot more going on behind the scenes than you might expect, and authentication, which is essential to securing your application.  We'll cover some other intermediate topics like state and the asset pipeline to round out your initial understanding of Rails.
 
@@ -33,19 +33,6 @@ My typical workflow for a long time went sort of like this:
 3. I pull up my completed version of the Rails Tutorial to make sure I've got the syntax correct and possibly to help write tests while I implement the feature.
 
 As you can see, I frequently relied on the main resources you'll be learning from and you'll find them to be helpful long after you've completed this course, so it makes sense to get familiar with them!
-
-### Prerequisites
-
-**If you haven't completed these, be sure to do so before getting started:**
-
-<div class="lesson-content__panel" markdown="1">
-  * Your software should be installed, as listed in the [Installfest section](/courses/web-development-101/lessons/your-first-rails-application).
-  * You should really have gone through the full [Web Development 101](/courses/web-development-101) course, but the most important parts are listed below.
-      * Read the full [Back End section](/courses/web-development-101/lessons/introduction-to-the-back-end) of the Web Development 101 section for an introduction to Ruby.
-      * Complete at least the full [Ruby Basics](/courses/web-development-101/lessons/ruby-basics) lesson (all readings and projects) to have a solid grounding in Ruby basics.
-      * Read the [Rails portion of the Web Development 101](/courses/web-development-101/lessons/ruby-on-rails-basics) section for an overview of Rails.  
-      * Build the [Rails project from the Web Dev 101 section](/courses/web-development-101/lessons/ruby-on-rails) to get your hands dirty with Rails first.
-</div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

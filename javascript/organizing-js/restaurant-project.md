@@ -144,4 +144,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [r-hathcock's Solution](https://github.com/r-hathcock/restaurant-page)
 - [Rey van den Berg's Solution](https://github.com/Rey810/restaurant-page) - [View in Browser](https://rey810.github.io/restaurant-page)
 - [barrysweeney's Solution](https://github.com/barrysweeney/restaurant-site) - [View in Browser](https://barrysweeney.github.io/restaurant-site/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/restaurant) - [View in Browser](https://ranmaru22.github.io/the_odin_project/restaurant/dist/)
+- [crongle's Solution](https://github.com/crongle/) - [View in Browser](https://crongle.github.io/restaurant/)
+- [Tim Kelly's Solution](https://github.com/timkellytk/project-restaurant-page) - [View in Browser](https://timkellytk.github.io/project-restaurant-page/)
+- [thecodediver's Solution](https://github.com/thecodediver/restaurant_page) - [View in Browser](https://thecodediver.github.io/restaurant_page/)
 </details>
