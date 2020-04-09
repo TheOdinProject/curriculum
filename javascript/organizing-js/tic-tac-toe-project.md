@@ -157,4 +157,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [ranmaru22's Solution (including AI)](https://github.com/ranmaru22/the_odin_project/tree/master/tic-tac-toe) - [View in Browser](https://ranmaru22.github.io/the_odin_project/tic-tac-toe/)
 - [Tim Kelly's Solution](https://github.com/TimKellyTK/project-tic-tac-toe) - [View in Browser](https://timkellytk.github.io/project-tic-tac-toe/)
 - [OneBitBoi's Solution](https://github.com/OneBitBoi/tic_tac_toe) - [View in Browser](https://onebitboi.github.io/tic_tac_toe/)
+- [alicee88's Solution](https://github.com/alicee88/odin-tictactoe) - [View in Browser](https://alicee88.github.io/odin-tictactoe/)
 </details>
