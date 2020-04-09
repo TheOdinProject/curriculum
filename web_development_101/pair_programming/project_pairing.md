@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucio's Solution](https://github.com/JCarlosLucio/pomodoro) - [View in Browser](https://jcarloslucio.github.io/pomodoro/)
 * [Alan Contreras Solution](https://alancontrerasm.github.io/timerPomodoro/)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/tomato-timer) - [View in Browser](https://tenacious-qi.github.io/tomato-timer/)
 * [Diane998's Solution](https://github.com/Diane998/pomodoro) - [View in Browser](https://diane998.github.io/pomodoro/)
