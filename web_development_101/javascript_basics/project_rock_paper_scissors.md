@@ -1420,7 +1420,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [fussykyloren's Solution](https://github.com/fussykyloren/rock-paper-scissors)
 - [mrfannin's Solution](https://github.com/mrfannin/rock-paper-scissors)
 - [kbrdsk's Solution](https://github.com/kbrdsk/rock-paper-scissors) - [View in Browser](https://kbrdsk.github.io/rock-paper-scissors/)
+- [anik's Solution](https://github.com/AnikIslam7/rock-paper-scissors) - [View in Browser](https://anikislam7.github.io/rock-paper-scissors/)
 - [sokafootball's Solution](https://github.com/sokafootball/rock-paper-scissors) - [View in Browser](https://sokafootball.github.io/rock-paper-scissors/)
 - [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/rock-paper-scissors) - [View in Browser](https://ansellmaximilian.github.io/rock-paper-scissors/)
 </details>
-
