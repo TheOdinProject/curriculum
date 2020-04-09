@@ -862,4 +862,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Josh C's Solution](https:/github.com:jnatc1/Etch-a-Sketch) - [View in Browser](https://jnatc1.github.io/Etch-a-Sketch/)
 * [Matt Miller's Solution](https://mattmiller1989.github.io/Etch-a-Sketch/) - [View in Browser](https://mattmiller1989.github.io/Etch-a-Sketch/)
 * [Christian's Solution](https://github.com/rueeazy/etch-a-sketch) - [View in Browser](https://rueeazy.github.io/etch-a-sketch/)
+* [c-squared87's Solution](https://github.com/c-squared87/etch-a-sketch) - [View in Browser](https://c-squared87.github.io/etch-a-sketch/.)
 </details>
