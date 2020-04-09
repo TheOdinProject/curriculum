@@ -28,6 +28,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Lucas Bide's Solution [Github](https://github.com/Lucas-Bide/sinatra-portfolio) - [Live](https://cryptic-taiga-50931.herokuapp.com/)
 * CodingCop's Solution [Github](https://github.com/cleve703/caesar_cipher) - [Live](https://caesar-cipher-coding-cop.herokuapp.com/)
 * Run After's Solution [Github](https://github.com/run-after/sinatra_cipher) - [Live](https://murmuring-sierra-20010.herokuapp.com/)
 * robo-monk's Solution [Github](https://github.com/robo-monk/frank_ceasar) - [Live](https://frank-ceasar.herokuapp.com/)
