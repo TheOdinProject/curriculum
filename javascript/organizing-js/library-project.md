@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jdonahue's Solution](https://github.com/jdonahue135/javascriptLibrary) - [View in Browser](https://jdonahue135.github.io/javascriptLibrary/)
+- [Charles Ivia's Solution](https://github.com/CharlesIvia/Library-Tracker) - [View in Browser](https://charlesivia.github.io/Library-Tracker/)
 - [Zayeer's Solution](https://github.com/Zayeer/Library) - [View in Browser](https://zayeer.github.io/Library/)
 - [AlexBoonDev's Solution](https://github.com/AlexBoonDev/Library) - [View in Browser](https://alexboondev.github.io/Library/)
 - [Adrian's Solution (w/localstorage)](https://github.com/Adrian-Cummings/library-project) - [View in Browser](https://adrian-cummings.github.io/library-project)
@@ -230,4 +232,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [thecodediver's Solution](https://github.com/thecodediver/library) - [View in Browser](https://thecodediver.github.io/library/)
 - [OmerGronich's Solution](https://github.com/OmerGronich/library-project) - [View in Browser](https://omergronich.github.io/library-project/)
 - [kasweigart's Solution](https://github.com/kasweigart/Library) - [View in Browser](https://kasweigart.github.io/Library/)
+- [kmson7's Solution](https://github.com/kmson7/library) - [View in Browser](https://kmson7.github.io/library/)
 </details>
