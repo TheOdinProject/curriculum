@@ -39,7 +39,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line!
+- Add your solution below this line!\
+-[Charles Ivia's Solution] (https://github.com/CharlesIvia/Library-Tracker) - [View in Browser] (https://charlesivia.github.io/Library-Tracker/)
 - [Zayeer's Solution](https://github.com/Zayeer/Library) - [View in Browser](https://zayeer.github.io/Library/)
 - [AlexBoonDev's Solution](https://github.com/AlexBoonDev/Library) - [View in Browser](https://alexboondev.github.io/Library/)
 - [Adrian's Solution (w/localstorage)](https://github.com/Adrian-Cummings/library-project) - [View in Browser](https://adrian-cummings.github.io/library-project)
