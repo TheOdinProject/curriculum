@@ -90,6 +90,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Bogdan Bujor's Solution (Easy)](https://github.com/qSharpy/google-homepage) - [View in Browser](https://qsharpy.github.io/google-homepage)
+* [cmillsa2's Solution (Easy)](https://github.com/cmillsa2/google-homepage) - [View in Browser](https://cmillsa2.github.io/google-homepage/)
+* [leddins's Solution (Easy)](https://github.com/leddins/google-homepage)  - [View in Browser](https://leddins.github.io/google-homepage/)
 * [AGL9's Solution (Easy)](https://github.com/agl9/google-homepage) - [View in Browser](https://agl9.github.io/google-homepage)
 * [alanscarter's Solution (Easy)](https://github.com/alanscarter/googleHomepage) - [View in Browser](https://alanscarter.github.io/googleHomepage)
 * [overdice's Solution (Easy)](https://github.com/overd1ce/google-homepage/) - [View in Browser](https://overd1ce.github.io/google-homepage/index.html)
@@ -3162,6 +3165,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [siman-utfpr's Solution(Easy)](https://github.com/siman-utfpr/google-homepage) - [View in Browser](https://siman-utfpr.github.io/google-homepage/)
 * [kaizwebdesign's Solution (Easy)](https://github.com/kaizwebdesign/google-homepage) - [View in Browser](https://kaizwebdesign.github.io/google-homepage/)
 * [skele-666's Solution (Easy)](https://github.com/skele-666/google-homepage)  - [View in Browser](https://skele-666.github.io/google-homepage/)
+* [appelstrudel's Solution (Easy)](https://github.com/appelstrudel/google-homepage)  - [View in Browser](https://appelstrudel.github.io/google-homepage/)
+* [Muhammad Huzaifa's Solution](https://github.com/devngraphics/google-homepage) - [View in Browser](https://devngraphics.github.io/google-homepage/)
+* [Burisano's Solution (Easy)](https://github.com/burisano/google-homepage)  - [View in Browser](https://burisano.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
