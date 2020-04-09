@@ -3162,6 +3162,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [siman-utfpr's Solution(Easy)](https://github.com/siman-utfpr/google-homepage) - [View in Browser](https://siman-utfpr.github.io/google-homepage/)
 * [kaizwebdesign's Solution (Easy)](https://github.com/kaizwebdesign/google-homepage) - [View in Browser](https://kaizwebdesign.github.io/google-homepage/)
 * [skele-666's Solution (Easy)](https://github.com/skele-666/google-homepage)  - [View in Browser](https://skele-666.github.io/google-homepage/)
+* [Burisano's Solution (Easy)](https://github.com/burisano/google-homepage)  - [View in Browser](https://burisano.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
