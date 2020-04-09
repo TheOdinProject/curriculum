@@ -45,6 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [iStayGrizzly's Solution](https://github.com/iStayGrizzly/js-calculator) - [View in Browser](https://istaygrizzly.github.io/js-calculator/)
+- [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/calculator) - [View in Browser](https://aaronhalstonlee.github.io/calculator/)
+- [Cole-0's Solution](https://github.com/Cole-0/Simplest-of-calculators)
 - [MrLupine's Solution](https://github.com/MrLupine/calculator) - [View in Browser](https://mrlupine.github.io/calculator/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/calculator) - [View in Browser](https://carldoleolundgren.github.io/calculator/)
 - [AJMcDee's Solution](https://github.com/AJMcDee/onlineCalculator/) - [View in Browser](https://ajmcdee.github.io/onlineCalculator/)
@@ -582,4 +585,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kasweigart's Solution](https://github.com/kasweigart/Calculator) - [View in Browser](https://kasweigart.github.io/Calculator/)
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/calculator) - [View in Browser](https://fortypercenttitanium.github.io/calculator/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/calculator) - [View in Browser](https://jlthompso.github.io/calculator/)
+- [Matt Miller Solution](https://mattmiller1989.github.io/Calculator/) - [View in Browser](https://mattmiller1989.github.io/Calculator/)
 </details>
