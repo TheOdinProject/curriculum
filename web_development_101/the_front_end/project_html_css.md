@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [cmillsa2's Solution (Easy)](https://github.com/cmillsa2/google-homepage) - [View in Browser](https://cmillsa2.github.io/google-homepage/)
 * [leddins's Solution (Easy)](https://github.com/leddins/google-homepage)  - [View in Browser](https://leddins.github.io/google-homepage/)
 * [AGL9's Solution (Easy)](https://github.com/agl9/google-homepage) - [View in Browser](https://agl9.github.io/google-homepage)
 * [alanscarter's Solution (Easy)](https://github.com/alanscarter/googleHomepage) - [View in Browser](https://alanscarter.github.io/googleHomepage)
