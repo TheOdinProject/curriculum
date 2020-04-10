@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!`
+- [jc's Solution](https://github.com/avazkhan2808/project-restaurant) - [View in Browser](https://avazkhan2808.github.io/project-restaurant/)
 - [Nick Haras' Solution](https://github.com/macnick/restaurant-page) - [View in Browser](https://macnick.github.io/Restaurant-Page/)
 - [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/restaurant-page) - [View in Browser](https://muhymenulhaque.github.io/restaurant-page/)
 - [Joe's Solution](https://github.com/JosephPBallantyne/odinRestaurant) - [View in Browser](https://josephpballantyne.github.io/odinRestaurant/)
@@ -57,6 +58,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Odunsi Joseph's Solution](https://github.com/dhatguy/restaurant-page) - [View in Browser](https://dhatguy.github.io/restaurant-page/)
 - [clavierbulb-green's Solution](https://github.com/clavierbulb-green/Bulb-s-Restaurant-Page) - [View in Browser](https://clavierbulb-green.github.io/Bulb-s-Restaurant-Page/)
 - [Langarus' Solution](https://github.com/langarus/restaurant_webpage_with_JS) - [View in Browser](https://langarus.github.io/restaurant_webpage_with_JS/)
+- [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/restaurant-homepage) - [View in Browser](https://thisismahmad.github.io/restaurant-homepage/)
 - [Justinkar's Solution](https://github.com/justinkar/restaurant-page) - [View in Browser](https://justinkar.github.io/restaurant-page/)
 - [mjwills-inf's Solution](https://github.com/mjwills-inf/restaurant) - [View in Browser](https://mjwills-inf.github.io/restaurant/)
 - [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/restaurant-page) - [View in Browser](https://kikupiku.github.io/restaurant-page/)
