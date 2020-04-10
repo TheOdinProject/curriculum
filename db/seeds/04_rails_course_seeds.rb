@@ -37,7 +37,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/rails_programming/basic_rails/introduction.md",
+  url: "/rails_programming/introduction/introduction.md",
   repo: 'curriculum'
 )
 
@@ -49,7 +49,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/rails_programming/basic_rails/project_your_first_rails_app.md",
+  url: "/rails_programming/introduction/installing_rails.md",
   repo: 'curriculum'
 )
 
@@ -230,7 +230,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/rails_programming/basic_rails/project_rails.md",
+  url: "/rails_programming/routes_views_controllers_assets/project_rails.md",
   repo: 'curriculum'
 )
 
