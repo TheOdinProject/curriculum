@@ -53,65 +53,6 @@ create_or_update_lesson(
   repo: 'curriculum'
 )
 
-# +++++++++++
-# SECTION
-# +++++++++++
-section_position += 1
-section = create_or_update_section(
-  title: "Introduction to Rails",
-  title_url: "Introduction to Rails".parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: "In this section, we'll dive right into Rails and get you building from the start so you have an idea of what (and how) you'll learn going forward.  We'll get your feet planted in the right spot and your head pointed the right direction."
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Getting Your Feet Wet",
-  title_url: "Getting Your Feet Wet".parameterize,
-  description: "This will give you the chance to build a full Rails app using some of the special tools Rails provides.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/rails_programming/introduction_to_rails/project_feet_wet.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "A Railsy Web Refresher",
-  title_url: "A Railsy Web Refresher".parameterize,
-  description: "We're not just using the Web, we're living it.  This lesson will get you up to speed on how.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/rails_programming/introduction_to_rails/web_refresher.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Deployment",
-  title_url: "Deployment".parameterize,
-  description: "There's nothing quite like seeing your application on a real website.  We'll show you how it's done.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/rails_programming/introduction_to_rails/deployment.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Let's Get Building",
-  title_url: "Let's Get Building".parameterize,
-  description: "In this project, you'll get started with the core tutorial we'll be following throughout this course.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/rails_programming/introduction_to_rails/project_lets_build.md",
-  repo: 'curriculum'
-)
 
 # +++++++++++
 # SECTION
@@ -124,6 +65,18 @@ section = create_or_update_section(
   course_id: course.id,
   position: section_position,
   description: "Now that you've gotten your feet wet, it's time to start looking carefully into the foundational pieces of the Rails framework.  We'll cover the path of an HTTP request from entering your application to returning as an HTML page to the browser."
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "A Railsy Web Refresher",
+  title_url: "A Railsy Web Refresher".parameterize,
+  description: "We're not just using the Web, we're living it.  This lesson will get you up to speed on how.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/rails_programming/routes_views_controllers_assets/web_refresher.md",
+  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -171,6 +124,18 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: "/rails_programming/routes_views_controllers_assets/asset_pipeline.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Deployment",
+  title_url: "Deployment".parameterize,
+  description: "There's nothing quite like seeing your application on a real website.  We'll show you how it's done.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/rails_programming/routes_views_controllers_assets/deployment.md",
   repo: 'curriculum'
 )
 
