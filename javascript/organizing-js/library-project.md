@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Walmart-cashier's Solution](https://github.com/Walmart-cashier/Library) - [View in Browser](https://walmart-cashier.github.io/Library/)
 - [Jdonahue's Solution](https://github.com/jdonahue135/javascriptLibrary) - [View in Browser](https://jdonahue135.github.io/javascriptLibrary/)
 - [Charles Ivia's Solution](https://github.com/CharlesIvia/Library-Tracker) - [View in Browser](https://charlesivia.github.io/Library-Tracker/)
 - [Zayeer's Solution](https://github.com/Zayeer/Library) - [View in Browser](https://zayeer.github.io/Library/)
