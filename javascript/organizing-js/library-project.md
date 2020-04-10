@@ -233,4 +233,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [OmerGronich's Solution](https://github.com/OmerGronich/library-project) - [View in Browser](https://omergronich.github.io/library-project/)
 - [kasweigart's Solution](https://github.com/kasweigart/Library) - [View in Browser](https://kasweigart.github.io/Library/)
 - [kmson7's Solution](https://github.com/kmson7/library) - [View in Browser](https://kmson7.github.io/library/)
+- [m-rejdych's Solution](https://github.com/m-rejdych/Library) - [View in browser](https://m-rejdych.github.io/Library/)
 </details>
