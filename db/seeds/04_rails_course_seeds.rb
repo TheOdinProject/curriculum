@@ -58,42 +58,6 @@ create_or_update_lesson(
 # +++++++++++
 section_position += 1
 section = create_or_update_section(
-  title: "Sinatra",
-  title_url: "Sinatra".parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: "In this section we will look at sinatra, a light weight Ruby web framework. Learning Sinatra before tackling rails will reduce the learning curve in this course significantly as sinatra will expose most of the things that rails does under the hood for you. This should give you a better understanding about how everything works with Rails."
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Sinatra Basics",
-  title_url: "Sinatra Basics".parameterize,
-  description: "In this lesson you will learn the basics of Sinatra",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/rails_programming/sinatra/sinatra.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Sinatra Project",
-  title_url: "Sinatra Project".parameterize,
-  description: "In this project you will convert some of the projects you completed in Ruby Programming into web apps.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/rails_programming/sinatra/project_sinatra.md",
-  repo: 'curriculum'
-)
-
-# +++++++++++
-# SECTION
-# +++++++++++
-section_position += 1
-section = create_or_update_section(
   title: "Introduction to Rails",
   title_url: "Introduction to Rails".parameterize,
   course_id: course.id,
