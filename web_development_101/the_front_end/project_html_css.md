@@ -3169,6 +3169,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Muhammad Huzaifa's Solution](https://github.com/devngraphics/google-homepage) - [View in Browser](https://devngraphics.github.io/google-homepage/)
 * [Burisano's Solution (Easy)](https://github.com/burisano/google-homepage)  - [View in Browser](https://burisano.github.io/google-homepage/)
 * [Matyd's Solution (Both)](https://github.com/MatyD356/searchCopy) - [View in Browser](https://matyd356.github.io/searchCopy/)
+* [Neil Bock's Solution (Difficult)](https://github.com/ncbock/google-homepage)
+- [View in Browser](https://ncbock.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
