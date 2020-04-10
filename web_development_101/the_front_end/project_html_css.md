@@ -90,6 +90,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [kelem7's Solution (Easy)](https://github.com/kelem7/google-homepage) - [View in Browser](https://kelem7.github.io/google-homepage/)
+* [kelem7's Solution (Hard)](https://github.com/kelem7/google_results) - [View in Browser](https://kelem7.github.io/google_results/)
 * [Bogdan Bujor's Solution (Easy)](https://github.com/qSharpy/google-homepage) - [View in Browser](https://qsharpy.github.io/google-homepage)
 * [cmillsa2's Solution (Easy)](https://github.com/cmillsa2/google-homepage) - [View in Browser](https://cmillsa2.github.io/google-homepage/)
 * [leddins's Solution (Easy)](https://github.com/leddins/google-homepage)  - [View in Browser](https://leddins.github.io/google-homepage/)
@@ -3169,8 +3171,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Muhammad Huzaifa's Solution](https://github.com/devngraphics/google-homepage) - [View in Browser](https://devngraphics.github.io/google-homepage/)
 * [Burisano's Solution (Easy)](https://github.com/burisano/google-homepage)  - [View in Browser](https://burisano.github.io/google-homepage/)
 * [Matyd's Solution (Both)](https://github.com/MatyD356/searchCopy) - [View in Browser](https://matyd356.github.io/searchCopy/)
-* [Neil Bock's Solution (Difficult)](https://github.com/ncbock/google-homepage)
-- [View in Browser](https://ncbock.github.io/google-homepage/)
+* [Neil Bock's Solution (Difficult)](https://github.com/ncbock/google-homepage) - [View in Browser](https://ncbock.github.io/google-homepage/)
+* [Takuya's Solution (Easy)](https://github.com/TakuyaToyokawa/1-Google-Home-Page) - [View in Browser](https://takuyatoyokawa.github.io/1-Google-Home-Page/)
 </details>
 
 ### Additional Resources
