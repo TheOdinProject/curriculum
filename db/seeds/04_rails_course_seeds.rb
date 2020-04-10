@@ -22,11 +22,11 @@ course = create_or_update_course(
 
 section_position += 1
 section = create_or_update_section(
-  title: "The Track ahead",
-  title_url: "The Track ahead".parameterize,
+  title: "Introduction",
+  title_url: "Introduction".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section, have a look at the track ahead in this course."
+  description: "In this section, we will install Rails."
 )
 
 lesson_position += 1
@@ -43,37 +43,13 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Your First Rails Application",
-  title_url: "Your First Rails Application".parameterize,
-  description: "Time to dig in by making your first Rails Application",
+  title: "Installing Rails",
+  title_url: "Installing Rails".parameterize,
+  description: "Get setup for this course by installing Rails.",
   position: lesson_position,
   section_id: section.id,
   is_project: true,
   url: "/rails_programming/basic_rails/project_your_first_rails_app.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Ruby on Rails Basics",
-  title_url: "Ruby on Rails Basics".parameterize,
-  description: "You'll learn the basics of the wildly popular framework that has made thousands of programmers highly productive and happy.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/rails_programming/basic_rails/rails_basics.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Ruby on Rails",
-  title_url: "Ruby on Rails".parameterize,
-  description: "You've learned the basics, now let's put them to work by building a basic application.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/rails_programming/basic_rails/project_rails.md",
   repo: 'curriculum'
 )
 
@@ -243,6 +219,18 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: "/rails_programming/routes_views_controllers_assets/project_basic_rvc.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Ruby on Rails",
+  title_url: "Ruby on Rails".parameterize,
+  description: "You've learned the basics, now let's put them to work by building a basic application.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: "/rails_programming/basic_rails/project_rails.md",
   repo: 'curriculum'
 )
 
