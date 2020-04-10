@@ -869,4 +869,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Christian's Solution](https://github.com/rueeazy/etch-a-sketch) - [View in Browser](https://rueeazy.github.io/etch-a-sketch/)
 * [c-squared87's Solution](https://github.com/c-squared87/etch-a-sketch) - [View in Browser](https://c-squared87.github.io/etch-a-sketch/)
 * [kbrdsk's Solution](https://github.com/kbrdsk/etch-a-sketch) - [View in Browser](https://kbrdsk.github.io/etch-a-sketch/)
+* [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/etch_a_sketch) - [View in Browser](https://thorney29.github.io/the_odin_project/etch_a_sketch/index.html)
 </details>
