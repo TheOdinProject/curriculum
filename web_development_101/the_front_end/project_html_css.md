@@ -3170,6 +3170,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [appelstrudel's Solution (Easy)](https://github.com/appelstrudel/google-homepage)  - [View in Browser](https://appelstrudel.github.io/google-homepage/)
 * [Muhammad Huzaifa's Solution](https://github.com/devngraphics/google-homepage) - [View in Browser](https://devngraphics.github.io/google-homepage/)
 * [Burisano's Solution (Easy)](https://github.com/burisano/google-homepage)  - [View in Browser](https://burisano.github.io/google-homepage/)
+* [brandon_871's Solution (Easy)](https://github.com/brandon871/google-homepage)  - [View in Browser](https://github.com/brandon871/google-homepage)
 * [Matyd's Solution (Both)](https://github.com/MatyD356/searchCopy) - [View in Browser](https://matyd356.github.io/searchCopy/)
 * [Neil Bock's Solution (Difficult)](https://github.com/ncbock/google-homepage) - [View in Browser](https://ncbock.github.io/google-homepage/)
 * [Takuya's Solution (Easy)](https://github.com/TakuyaToyokawa/1-Google-Home-Page) - [View in Browser](https://takuyatoyokawa.github.io/1-Google-Home-Page/)
