@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [simmonsth's Solution](https://github.com/simmonsth/odin_sketchpad) - [View in Browser](https://simmonsth.github.io/odin_sketchpad/)
+* [Johongirr's Solution](https://github.com/Johongirr/etch-a-sketch/tree/master) - [View in Browser](https://johongirr.github.io/etch-a-sketch/)
 * [Lcdevi's Solution](https://github.com/Lcdevi/etch-a-sketch) - [View in Browser](https://lcdevi.github.io/etch-a-sketch/)
 * [powei94's Solution](https://github.com/powei94/etch_a_sketch) - [View in Browser](https://powei94.github.io/etch_a_sketch/)
 * [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/etchasketch) - [View in Browser](https://aaronhalstonlee.github.io/etchasketch/)

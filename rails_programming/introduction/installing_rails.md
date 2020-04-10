@@ -1,6 +1,6 @@
 ### Introduction
 
-You should have installed Ruby during that course. If you haven't you need to go back and make sure it is installed now.
+If you went through the [Ruby course](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) you will have already installed Ruby. But if you haven't done that, then now is the time to [install it](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) as you will need Ruby installed before we tackle installing Rails.
 
 With Ruby installed, you're all set to install Rails and create our first Rails app to ensure everything went smoothly.
 
