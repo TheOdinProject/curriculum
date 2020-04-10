@@ -60,11 +60,11 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Routes, Views, Controllers and Assets",
-  title_url: "Routes, Views, Controllers and Assets".parameterize,
+  title: "Rails Basics",
+  title_url: "Rails Basics".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "Now that you've gotten your feet wet, it's time to start looking carefully into the foundational pieces of the Rails framework.  We'll cover the path of an HTTP request from entering your application to returning as an HTML page to the browser."
+  description: "It's time to start looking carefully into the foundational pieces of the Rails framework.  We'll cover the path of an HTTP request from entering your application to returning as an HTML page to the browser."
 )
 
 lesson_position += 1
@@ -75,7 +75,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/rails_programming/routes_views_controllers_assets/web_refresher.md",
+  url: "/rails_programming/rails_basics/web_refresher.md",
   repo: 'curriculum'
 )
 
@@ -87,7 +87,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/rails_programming/routes_views_controllers_assets/routing.md",
+  url: "/rails_programming/rails_basics/routing.md",
   repo: 'curriculum'
 )
 
@@ -99,7 +99,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/rails_programming/routes_views_controllers_assets/controller_basics.md",
+  url: "/rails_programming/rails_basics/controller_basics.md",
   repo: 'curriculum'
 )
 
@@ -111,7 +111,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/rails_programming/routes_views_controllers_assets/views.md",
+  url: "/rails_programming/rails_basics/views.md",
   repo: 'curriculum'
 )
 
@@ -123,7 +123,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/rails_programming/routes_views_controllers_assets/asset_pipeline.md",
+  url: "/rails_programming/rails_basics/asset_pipeline.md",
   repo: 'curriculum'
 )
 
@@ -135,31 +135,19 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/rails_programming/routes_views_controllers_assets/deployment.md",
+  url: "/rails_programming/rails_basics/deployment.md",
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Basic Routes, Views and Controllers",
-  title_url: "Basic Routes, Views and Controllers".parameterize,
-  description: "You'll get to play with routing and build what you've learned in this section so far.",
+  title: "Blog App",
+  title_url: "Blog App".parameterize,
+  description: "You've learned the basics, now let's put them to work by building a basic blogging app.",
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/rails_programming/routes_views_controllers_assets/project_basic_rvc.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Ruby on Rails",
-  title_url: "Ruby on Rails".parameterize,
-  description: "You've learned the basics, now let's put them to work by building a basic application.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/rails_programming/routes_views_controllers_assets/project_rails.md",
+  url: "/rails_programming/rails_basics/project_blog_app.md",
   repo: 'curriculum'
 )
 
