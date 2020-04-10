@@ -1,6 +1,6 @@
 ### Introduction
 
-In this project, you'll get to spend some quality time with models.  The tutorial will give you a chance to apply some of what you've learned in a structured environment and then the additional project will give you the chance to do it on your own.
+In this project, you'll get to spend some quality time with models.  We will be doing some data modeling and putting your active record knowledge to practice by building your own light weight Reddit clone.
 
 ### Warmup: Thinking Data First
 
@@ -53,15 +53,6 @@ Remember, if you feel like you will be hard coding data multiple times, it's pro
   2. You are building the profile tab for a new user on your site.  You are already storing your user's username and email, but now you want to collect demographic information like city, state, country, age and gender.  Think -- how many profiles should a user have?  How would you relate this to the User model?
   3. You want to build a virtual pinboard, so you'll have users on your platform who can create "pins".  Each pin will contain the URL to an image on the web.  Users can comment on pins (but can't comment on comments).
   4. You want to build a message board like [Hacker News](http://news.ycombinator.com).  Users can post links.  Other users can comment on these submissions or comment on the comments.  How would you make sure a comment knows where in the hierarchy it lives?
-</div>
-
-### Project 1: Ruby on Rails Tutorial
-
-This chapter of the tutorial will give you a chance to start working with the database and models.  It will guide you through setting up your first database migrations, making sure your user inputs are properly validated, and how to add a secure password to your User model.
-
-### Your Task
-<div class="lesson-content__panel" markdown="1">
-  1. Do the [Ruby on Rails Tutorial chapter 6](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/modeling_users), "Modeling Users".
 </div>
 
 ### Project 2: Micro-Reddit
