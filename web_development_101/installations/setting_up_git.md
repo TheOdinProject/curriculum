@@ -40,6 +40,7 @@ sudo apt install curl git
   
 #### Step 1.0: Install Homebrew
 First, you'll need to install Homebrew. Copy and paste the following into your terminal:
+
 ~~~bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ~~~
