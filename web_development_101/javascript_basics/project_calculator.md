@@ -590,4 +590,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Lexolf's Solution](https://github.com/lexolf/calculator) - [View in Browser](https://lexolf.github.io/calculator/)
 - [OmerGronich's Solution](https://github.com/OmerGronich/calculator) - [View in Browser](https://omergronich.github.io/calculator/)
 - [kbrdsk's Solution](https://github.com/kbrdsk/calculator) - [View in Browser](https://kbrdsk.github.io/calculator/)
+- [Dams303's Solution](https://github.com/Dams303/calculator) - [View in Browser](https://dams303.github.io/calculator/)
 </details>
