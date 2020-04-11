@@ -45,6 +45,15 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [themansbak's Solution](https://github.com/themansbak/javascript-calculator) - [View in Browser](https://themansbak.github.io/javascript-calculator/)
+- [iStayGrizzly's Solution](https://github.com/iStayGrizzly/js-calculator) - [View in Browser](https://istaygrizzly.github.io/js-calculator/)
+- [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/calculator) - [View in Browser](https://aaronhalstonlee.github.io/calculator/)
+- [Cole-0's Solution](https://github.com/Cole-0/Simplest-of-calculators)
+- [MrLupine's Solution](https://github.com/MrLupine/calculator) - [View in Browser](https://mrlupine.github.io/calculator/)
+- [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/calculator) - [View in Browser](https://carldoleolundgren.github.io/calculator/)
+- [AJMcDee's Solution](https://github.com/AJMcDee/onlineCalculator/) - [View in Browser](https://ajmcdee.github.io/onlineCalculator/)
+- [Lusiann's Solution](https://github.com/Lusiann/Calculator) - [View in Browser](https://lusiann.github.io/Calculator/)
+- [ray0h's Solution](https://github.com/ray0h/TheOdinProjectExercises/tree/master/calculator) - [View in Browser](https://ray0h.github.io/calculator/)
 - [Lokanadhan A S Solution](https://github.com/srilokanas/Calculator) - [View in Browser](https://srilokanas.github.io/Calculator/)
 - [Jdonahue135's Solution](https://github.com/jdonahue135/calculator) - [View in Browser](https://jdonahue135.github.io/calculator/)
 - [Joel Bejot's Solution](https://github.com/JoelBejot/calculator) - [View in Browser](https://joelbejot.github.io/calculator/index.html)
@@ -575,4 +584,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jcai8649's Solution](https://github.com/jcai8649/Calculator) - [View in Browser](https://jcai8649.github.io/Calculator/)
 - [kmson7's Solution](https://github.com/kmson7/calculator) - [View in Browser](https://kmson7.github.io/calculator/)
 - [kasweigart's Solution](https://github.com/kasweigart/Calculator) - [View in Browser](https://kasweigart.github.io/Calculator/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/calculator) - [View in Browser](https://fortypercenttitanium.github.io/calculator/)
+- [Joe Thompson's Solution](https://github.com/jlthompso/calculator) - [View in Browser](https://jlthompso.github.io/calculator/)
+- [Matt Miller Solution](https://mattmiller1989.github.io/Calculator/) - [View in Browser](https://mattmiller1989.github.io/Calculator/)
+- [Lexolf's Solution](https://github.com/lexolf/calculator) - [View in Browser](https://lexolf.github.io/calculator/)
+- [OmerGronich's Solution](https://github.com/OmerGronich/calculator) - [View in Browser](https://omergronich.github.io/calculator/)
+- [kbrdsk's Solution](https://github.com/kbrdsk/calculator) - [View in Browser](https://kbrdsk.github.io/calculator/)
 </details>
