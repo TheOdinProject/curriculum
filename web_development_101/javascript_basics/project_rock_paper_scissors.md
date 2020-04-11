@@ -1419,11 +1419,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [OchsaufLerchenau's Solution](https://github.com/OchsaufLerchenau/rock-paper-scissors)
 - [c-squared87's Solution](https://github.com/c-squared87/rock-paper-scissors)
 - [fussykyloren's Solution](https://github.com/fussykyloren/rock-paper-scissors)
-- [mrfannin's Solution](https://github.com/mrfannin/rock-paper-scissors)
+- [mrfannin's Solution](https://github.com/mrfannin/rock-paper-scissors) - [View in Browser](https://mrfannin.github.io/rock-paper-scissors/)
 - [kbrdsk's Solution](https://github.com/kbrdsk/rock-paper-scissors) - [View in Browser](https://kbrdsk.github.io/rock-paper-scissors/)
 - [anik's Solution](https://github.com/AnikIslam7/rock-paper-scissors) - [View in Browser](https://anikislam7.github.io/rock-paper-scissors/)
 - [sokafootball's Solution](https://github.com/sokafootball/rock-paper-scissors) - [View in Browser](https://sokafootball.github.io/rock-paper-scissors/)
 - [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/rock-paper-scissors) - [View in Browser](https://ansellmaximilian.github.io/rock-paper-scissors/)
 - [Igor Tikush's solution](https://github.com/IgorTikush/rock-paper-scissors)
 - [Stinji's Solution](https://github.com/Stinji/rock-paper-scissors) - [View in Browser](https://stinji.github.io/rock-paper-scissors/)
+- [mnzeric's Solution](https://github.com/mnzeric/rock_paper_scissors)
 </details>
