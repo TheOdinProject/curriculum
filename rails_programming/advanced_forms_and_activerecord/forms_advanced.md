@@ -158,7 +158,7 @@ Don't get discouraged if you get some real head-scratcher moments when building 
 
 ### Simple Form
 
-`simple_form` is a gem by Platformatec which can really make your life easier (if you aren't doing anything too crazy).  It provides lots of user-friendly features for building forms and is in wide use today.  We won't cover it explicitly here (though it's used in the tutorial we're following).
+`simple_form` is a gem by Platformatec which can really make your life easier (if you aren't doing anything too crazy).  It provides lots of user-friendly features for building forms and is in wide use today.
 
 It's up to you to check out [the documentation](https://github.com/plataformatec/simple_form) and start using it in your own applications as desired.
 
