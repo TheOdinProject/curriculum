@@ -282,7 +282,7 @@ section = create_or_update_section(
   title_url: "JavaScript Basics".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "Here we finally dig in to JavaScript and learn how to make the web dynamic."
+  description: "Here we finally dig into JavaScript and learn how to make the web dynamic."
 )
 
 lesson_position += 1
