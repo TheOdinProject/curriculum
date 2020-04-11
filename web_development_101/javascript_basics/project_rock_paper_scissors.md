@@ -1427,4 +1427,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Igor Tikush's solution](https://github.com/IgorTikush/rock-paper-scissors)
 - [Stinji's Solution](https://github.com/Stinji/rock-paper-scissors) - [View in Browser](https://stinji.github.io/rock-paper-scissors/)
 - [mnzeric's Solution](https://github.com/mnzeric/rock_paper_scissors)
+- [fgostev's Solution] (https://github.com/fgostev/rock_paper_scissors/) 
 </details>
