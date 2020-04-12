@@ -91,6 +91,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [mattfergoda's Solution (Easy)](https://github.com/mattfergoda/google-homepage-replica) - [View in Browser](https://mattfergoda.github.io/google-homepage-replica/)
+* [SamEff's Solution (Easy)](https://github.com/SamEff/google-homepage) - [View in Browser](https://SamEff.github.io/google-homepage/)
 * [J-SophieCodes' Solution (Both)](https://j-sophiecodes.github.io/google-homepage/) - [View in Browser](https://j-sophiecodes.github.io/google-homepage/)
 * [andrewjh271's Solution (Both)](https://github.com/andrewjh271/google-homepage) - [View in Browser](https://andrewjh271.github.io/google-homepage/)
 * [kelem7's Solution (Easy)](https://github.com/kelem7/google-homepage) - [View in Browser](https://kelem7.github.io/google-homepage/)
@@ -3181,6 +3182,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Patricio1984's Solution (Easy)](https://github.com/patricio1984/google-homepage)  - [View in Browser](https://patricio1984.github.io/google-homepage)
 * [Lonewolf045's Solution (Easy)](https://github.com/lonewolf045/google-homepage)  - [View in Browser](https://lonewolf045.github.io/google-homepage)
 * [msespos's Solution (Easy)](https://github.com/msespos/google-homepage) - [View in Browser](https://msespos.github.io/google-homepage/)
+* [Saincurin Peterson Denis's Solution (Easy)](https://peterdenis.github.io/google-homepage/) - [View in Browser](https://msespos.github.io/google-homepage/)
+* [Szymon Chełkowski's Solution (Easy)](https://github.com/szchelkowski/google-homepage) - [View in Browser](https://szchelkowski.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
