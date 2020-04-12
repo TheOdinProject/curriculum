@@ -32,16 +32,13 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
-* [JoelBejot and Ciwot18's Solution] (https://github.com/Ciwot18/PomodoroStuff) - [View in Browser] (https://joelbejot.github.io/PomodoroClock/)
-=======
+* [JoelBejot and Ciwot18's Solution](https://github.com/Ciwot18/PomodoroStuff) - [View in Browser](https://joelbejot.github.io/PomodoroClock/)
 * [Lusiann's Solution](https://github.com/Lusiann/Pomodoro) - [View in Browser](https://lusiann.github.io/Pomodoro/)
 * [AJMcDee's Solution](https://github.com/AJMcDee/pomodoroClock) - [View in Browser](https://AJMcDee.github.io/pomodoroClock/)
 * [Lucio's Solution](https://github.com/JCarlosLucio/pomodoro) - [View in Browser](https://jcarloslucio.github.io/pomodoro/)
 * [Jdonahue135 and carldoleolundgren's Solution](https://github.com/jdonahue135/pomodoro) - [View in Browser](https://jdonahue135.github.io/pomodoro/)
 * [Alan Contreras Solution](https://alancontrerasm.github.io/timerPomodoro/)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/tomato-timer) - [View in Browser](https://tenacious-qi.github.io/tomato-timer/)
->>>>>>> 42ca411df5f61eb3a607c1ad2c58633d7949f543
 * [Diane998's Solution](https://github.com/Diane998/pomodoro) - [View in Browser](https://diane998.github.io/pomodoro/)
 * [Andrew S's Solution](https://github.com/CGoldMonkey/pomodoro_timer) - [View in Browser](https://cgoldmonkey.github.io/pomodoro_timer/)
 * [Pratik's Solution](https://github.com/Pratik-Gohil/Pomodoro_Clock) - [View in Browser](https://pratik-gohil.github.io/Pomodoro_Clock/public/index.html)
