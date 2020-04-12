@@ -33,6 +33,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 
 * Add your solution below this line!
 * [LenaChestnut's Solution](https://github.com/LenaChestnut/pomodoro_timer) - [View in Browser](https://lenachestnut.github.io/pomodoro_timer/)
+* [JoelBejot and Ciwot18's Solution](https://github.com/Ciwot18/PomodoroStuff) - [View in Browser](https://joelbejot.github.io/PomodoroClock/)
 * [Lusiann's Solution](https://github.com/Lusiann/Pomodoro) - [View in Browser](https://lusiann.github.io/Pomodoro/)
 * [AJMcDee's Solution](https://github.com/AJMcDee/pomodoroClock) - [View in Browser](https://AJMcDee.github.io/pomodoroClock/)
 * [Lucio's Solution](https://github.com/JCarlosLucio/pomodoro) - [View in Browser](https://jcarloslucio.github.io/pomodoro/)
