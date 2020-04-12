@@ -75,7 +75,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vinz's Solution](https://lrdvnz.github.io/Calculator/)
 - [rryand's Solution](https://github.com/rryand/calculator) - [View in Browser](https://rryand.github.io/calculator/)
 - [Pratik's Solution](https://github.com/Pratik-Gohil/Calculator/tree/master/calc/usingClass) - [View in Browser](https://pratik-gohil.github.io/Calculator/calc/usingClass/index.html)
-- [Ini Etienam's Solution](https://github.com/ietienam/Calculator) - [View in Browser](https://ietienam.github.io/Calculator) 
+- [Ini Etienam's Solution](https://github.com/ietienam/Calculator) - [View in Browser](https://ietienam.github.io/Calculator)
 - [LorriAnn's Solution](https://github.com/TechnicolorPanda/calculator) - [View in Browser](https://TechnicolorPanda.github.io/calculator/)
 - [Austin's Solution](https://github.com/cudworth/calculator) - [View in Browser](https://cudworth.github.io/calculator/)
 - [Zayeer's Solution](https://github.com/Zayeer/Basic-Calculator) - [View in Browser](https://zayeer.github.io/Basic-Calculator/)
@@ -591,4 +591,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [OmerGronich's Solution](https://github.com/OmerGronich/calculator) - [View in Browser](https://omergronich.github.io/calculator/)
 - [kbrdsk's Solution](https://github.com/kbrdsk/calculator) - [View in Browser](https://kbrdsk.github.io/calculator/)
 - [Dams303's Solution](https://github.com/Dams303/calculator) - [View in Browser](https://dams303.github.io/calculator/)
+- [Straytjacquet's Solution](https://github.com/Straytjacquet/Calculator) - [View in Browser](https://straytjacquet.github.io/Calculator/)
 </details>
