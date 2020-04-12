@@ -590,6 +590,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Lexolf's Solution](https://github.com/lexolf/calculator) - [View in Browser](https://lexolf.github.io/calculator/)
 - [OmerGronich's Solution](https://github.com/OmerGronich/calculator) - [View in Browser](https://omergronich.github.io/calculator/)
 - [kbrdsk's Solution](https://github.com/kbrdsk/calculator) - [View in Browser](https://kbrdsk.github.io/calculator/)
+- [meganeb-afk's Solution](https://github.com/meganeb-afk/Javascript-Calculator) - [View in Browser](https://meganeb-afk.github.io/Javascript-Calculator)
 - [Dams303's Solution](https://github.com/Dams303/calculator) - [View in Browser](https://dams303.github.io/calculator/)
 - [Straytjacquet's Solution](https://github.com/Straytjacquet/Calculator) - [View in Browser](https://straytjacquet.github.io/Calculator/)
 </details>
