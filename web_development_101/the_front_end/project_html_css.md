@@ -3182,6 +3182,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Patricio1984's Solution (Easy)](https://github.com/patricio1984/google-homepage)  - [View in Browser](https://patricio1984.github.io/google-homepage)
 * [Lonewolf045's Solution (Easy)](https://github.com/lonewolf045/google-homepage)  - [View in Browser](https://lonewolf045.github.io/google-homepage)
 * [msespos's Solution (Easy)](https://github.com/msespos/google-homepage) - [View in Browser](https://msespos.github.io/google-homepage/)
+* [leonbeckert's Solution (Easy)](https://github.com/leonbeckert/google-homepage) - [View in Browser](https://leonbeckert.github.io/google-homepage)
 * [ruben-ruiz's Solution (Easy)](https://ruben-ruiz.github.io/google-homepage/) - [View in Browser](https://ruben-ruiz.github.io/google-homepage/)
 * [Alejaldo's Solution (Easy)](https://github.com/Alejaldo/google-homepage) - [View in Browser](https://alejaldo.github.io/google-homepage/)
 * [Saincurin Peterson Denis's Solution (Easy)](https://peterdenis.github.io/google-homepage/) - [View in Browser](https://msespos.github.io/google-homepage/)
@@ -3196,3 +3197,4 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
 * Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
+
