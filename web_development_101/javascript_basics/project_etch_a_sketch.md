@@ -873,4 +873,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [kbrdsk's Solution](https://github.com/kbrdsk/etch-a-sketch) - [View in Browser](https://kbrdsk.github.io/etch-a-sketch/)
 * [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/etch_a_sketch) - [View in Browser](https://thorney29.github.io/the_odin_project/etch_a_sketch/index.html)
 * [mrfannin's Solution](https://github.com/mrfannin/etch-a-sketch) - [View in Browser](https://mrfannin.github.io/etch-a-sketch/)
+* [Dams303's Solution](https://github.com/Dams303/sketchpad) - [View in Browser](https://dams303.github.io/sketchpad/)
 </details>
