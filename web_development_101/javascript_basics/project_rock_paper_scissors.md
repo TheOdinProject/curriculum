@@ -1431,4 +1431,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [CodeSurfer3022's Solution](https://github.com/CodeSurfer3022/Rock-Paper-Scissors-2) - [View in Browser](https://codesurfer3022.github.io/Rock-Paper-Scissors-2/)
 - [fgostev's Solution](https://github.com/fgostev/rock_paper_scissors/)
 - [doncilaarcadie's Solution](https://github.com/doncilaarcadie/ROCK-PAPER-SCISSORS) - [View in Browser](https://doncilaarcadie.github.io/ROCK-PAPER-SCISSORS/)
+- [sahion's Solution](https://github.com/sahion/Rock-Paper-Scissors) - [View in Browser](https://sahion.github.io/Rock-Paper-Scissors/)
 </details>
