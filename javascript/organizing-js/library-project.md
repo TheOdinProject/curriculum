@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [AJMcDee's Solution (no storage)](https://github.com/AJMcDee/libraryProject) - [View in Browser](https://ajmcdee.github.io/libraryProject/)
 - [Andrija Jelenkovic's Solution (w/localstorage)](https://github.com/Amdrija/libraryApp) - [View in Browser](https://amdrija.github.io/libraryApp/)
 - [Walmart-cashier's Solution](https://github.com/Walmart-cashier/Library) - [View in Browser](https://walmart-cashier.github.io/Library/)
 - [Jdonahue's Solution](https://github.com/jdonahue135/javascriptLibrary) - [View in Browser](https://jdonahue135.github.io/javascriptLibrary/)
