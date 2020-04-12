@@ -80,6 +80,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Miguel's solution](https://github.com/mapra99/NewsWeek)
 * [Aron's solution](https://github.com/aronfischer/bootstrap-newsweek-homepage) - [View in Browser](https://aronfischer.github.io/bootstrap-newsweek-homepage/)
 * [Halkim's solution](https://github.com/halkim44/newsweek.com_clone) - [View in Browser](https://halkim44.github.io/newsweek.com_clone/)
+* [Hamohuh's solution](https://github.com/hamohuh/newsmagazine) - [View in Browser](https://hamohuh.github.io/newsmagazine/)
 
 </details>
 

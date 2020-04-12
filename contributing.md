@@ -1,5 +1,5 @@
 
-## How to add your solution to the curriculum
+## How to add and make changes to the curriculum
 
 ### 1 The easy way (through your browser)
 * [Video](https://www.youtube.com/watch?v=V74l_zS1x8E)

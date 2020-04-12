@@ -28,6 +28,8 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Lucas Bide's Solution [Github](https://github.com/Lucas-Bide/sinatra-portfolio) - [Live](https://cryptic-taiga-50931.herokuapp.com/)
+* CodingCop's Solution [Github](https://github.com/cleve703/caesar_cipher) - [Live](https://caesar-cipher-coding-cop.herokuapp.com/)
 * Run After's Solution [Github](https://github.com/run-after/sinatra_cipher) - [Live](https://murmuring-sierra-20010.herokuapp.com/)
 * robo-monk's Solution [Github](https://github.com/robo-monk/frank_ceasar) - [Live](https://frank-ceasar.herokuapp.com/)
 * Varras' Solution [Github](https://github.com/Varras/caesar_cipher) - [Live](https://tranquil-shelf-31549.herokuapp.com/)
@@ -136,6 +138,7 @@ Send us your solution so we can show others! Submit a link to [the Github repo](
 * Carlos Diaz's Solution [GitHub](https://github.com/bycdiaz/caesar-cipher-reloaded) - [Heroku](https://hidden-springs-00448.herokuapp.com/)
 * guacamobley's Solution [Github](https://github.com/guacamobley/caesar-cipher-webapp) - [Heroku](https://guacamobley-caesar-cipher.herokuapp.com)
 * unheavenlycreature's Solution [Github](https://github.com/unheavenlycreature/caesar-cipher-webapp) - [See it on the web](https://uc-caesar-sinatra.herokuapp.com/)
+* Sanyogita's Solution [Github](https://github.com/SanyogitaPandit/caesar_cipher) - [See it on the Web](https://gentle-meadow-36970.herokuapp.com/)
 </details>
 
 ### Project 2: Another Web-Game
@@ -158,6 +161,7 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* CodingCop's Solutoin [Github](https://github.com/cleve703/hangman_app) - [Live](https://hangman-coding-cop.herokuapp.com/)
 * Run After's Solution [Github](https://github.com/run-after/sinatra_hangman) - [Live](https://calm-cliffs-72266.herokuapp.com/)
 * Nasser Abachi's Solution [Github](https://github.com/abachi/mastermind) - [Live](https://stark-sands-24734.herokuapp.com/)
 * BShowen's Solutuon [Github](https://github.com/BShowen/sinatra_mastermind_game) - [Live](https://bradley-mastermind.herokuapp.com/)
@@ -255,4 +259,5 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
 * Joe Lee Hangman's Solution [GitHub](https://github.com/JoeDravarol/sinatra_hangman) - [Heroku](https://blooming-crag-69548.herokuapp.com/)
 * guacamobley's Solution [Github](https://github.com/guacamobley/sinatra_mastermind) - [Heroku](https://guacamobley-sinatra-mastermind.herokuapp.com)
 * unheavenlycreature's Solution (Mastermind) - [Github](https://github.com/unheavenlycreature/sinatra-mastermind) - [Heroku](https://uc-mastermind.herokuapp.com)
+* Sanyogita's Solution (Mastermind) - [Github](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/sinatra/mastermind)
 </details>

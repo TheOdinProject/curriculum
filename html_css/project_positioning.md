@@ -27,6 +27,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Julio's solution](https://github.com/julio22b/nyt-article-clone/) - [View in Browser](https://julio22b.github.io/nyt-article-clone/)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/newYorkTimesClone) - [View in Browser](https://amdrija.github.io/newYorkTimesClone/)
 * [Morghan's Solution](https://github.com/morghan102/positioning_nyt_article)
 * [Rarysson's Solution](https://github.com/rarysson/nyt-article) - [View in Browser](https://rarysson.github.io/nyt-article/)
 * [Johongirr's Solution](https://github.com/Johongirr/NYT-website-copy) - [View in Browser](https://johongirr.github.io/NYT-website-copy/)
@@ -128,6 +130,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
 * [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
 * [0xtaf's Solution](https://github.com/0xtaf/css-nyt) - [View in Browser](https://0xtaf.github.io/css-nyt/)
+* [Scott Bowles's Solution](https://github.com/scottBowles/nyt-article-layout-clone) - [View in Browser](https://scottbowles.github.io/nyt-article-layout-clone/)
 
 </details>
 
