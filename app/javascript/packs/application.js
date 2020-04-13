@@ -16,8 +16,22 @@
 // const imagePath = (name) => images(name, true)
 
 
+require("@rails/ujs").start();
+require("turbolinks").start();
+
 import "core-js/stable";
 import "regenerator-runtime/runtime";
+import 'bootstrap/dist/js/bootstrap'
 
+import "../src/js/analytics";
 import "../src/js/faq";
 import "../src/js/formValidations";
+import "../src/js/lessons";
+import "../src/js/bootstrapScripts";
+import "../src/js/settings";
+import "../src/js/navbar";
+import "../src/js/admin_flash";
+import "../src/js/prism";
+import "../src/js/projects";
+import "../src/js/scrollspy.min";
+import "../src/js/stickyFill.min";

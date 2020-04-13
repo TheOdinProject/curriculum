@@ -30,7 +30,6 @@ gem 'nokogiri',                   '~> 1.10.8'
 gem 'sprockets',                  '~> 3.7.2'
 gem 'newrelic_rpm'
 gem 'activeadmin'
-gem 'coffee-rails'
 gem 'webpacker'
 
 group :production do

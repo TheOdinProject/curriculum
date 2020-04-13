@@ -1,3 +1,5 @@
+import validate from 'validate.js';
+
 var constraints = {
   "user[username]": {
     length: {
