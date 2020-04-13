@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Byron Parker's Solution (Easy)](https://github.com/bzparkes/googlehp_project) - [View in Browser](https://bzparkes.github.io/googlehp_project/)
 * [ruizaj13's Solution (Easy)](https://github.com/ruizaj13/google-homepage) - [View in Browser](https://ruizaj13.github.io/google-homepage)
 * [mattfergoda's Solution (Easy)](https://github.com/mattfergoda/google-homepage-replica) - [View in Browser](https://mattfergoda.github.io/google-homepage-replica/)
 * [SamEff's Solution (Easy)](https://github.com/SamEff/google-homepage) - [View in Browser](https://SamEff.github.io/google-homepage/)
@@ -3202,4 +3203,3 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
 * Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
-
