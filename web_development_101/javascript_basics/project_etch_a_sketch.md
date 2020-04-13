@@ -43,7 +43,24 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+<<<<<<< HEAD
 * [John's Solution](https://github.com/jm-staana/etch-a-sketch) - [View in Browser](https://jm-staana.github.io/etch-a-sketch/)
+=======
+* [simmonsth's Solution](https://github.com/simmonsth/odin_sketchpad) - [View in Browser](https://simmonsth.github.io/odin_sketchpad/)
+* [Johongirr's Solution](https://github.com/Johongirr/etch-a-sketch/tree/master) - [View in Browser](https://johongirr.github.io/etch-a-sketch/)
+* [rafael-cagliari's Solution](https://github.com/rafael-cagliari/etch-a-sketch) 
+* [Lcdevi's Solution](https://github.com/Lcdevi/etch-a-sketch) - [View in Browser](https://lcdevi.github.io/etch-a-sketch/)
+* [powei94's Solution](https://github.com/powei94/etch_a_sketch) - [View in Browser](https://powei94.github.io/etch_a_sketch/)
+* [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/etchasketch) - [View in Browser](https://aaronhalstonlee.github.io/etchasketch/)
+* [Ross' Solution](https://github.com/RHoneyman/Etch-a-Sketch/) - [View in Brower](https://rhoneyman.github.io/Etch-a-Sketch/)
+* [stefank-29's Solution](https://stefank-29.github.io/ETCH-A-SKETCH/)
+* [Skazitron's Solution](https://github.com/Skazitron/odin-project-2) - [View in Browser](https://skazitron.github.io/odin-project-2/)
+* [Cole-0's Solution](https://github.com/Cole-0/Etch-A-Sketch)
+* [MarcoDSilva Solution](https://github.com/MarcoDSilva/Etch-a-Sketch) - [View in Browser](https://marcodsilva.github.io/Etch-a-Sketch/)
+* [Salvador Villalon Solution](https://github.com/salvillalon45/theOdinProject-EtchASketch) - [View in Browser](https://salvillalon45.github.io/theOdinProject-EtchASketch/index.html)
+* [RainDropsz Solution](https://github.com/RainDropsz/RainDropsz.github.io/tree/master/etch) - [View in Browser](https://RainDropsz.github.io/etch/)
+* [NotNullDev's Solution](https://github.com/NotNullDev/Etch-a-Sketch) - [View in Browser](https://notnulldev.github.io/Etch-a-Sketch/)
+>>>>>>> f36eaf5d6d9f8415e2e6c2ffef9de73f1382f35e
 * [jdonahue135's Solution](https://github.com/jdonahue135/Etch-a-Sketch) - [View in Browser](https://jdonahue135.github.io/Etch-a-Sketch/)
 * [Parishrut's Solution](https://github.com/parish09/ETCH-A-SKETCH) - [View in Browser](https://parish09.github.io/ETCH-A-SKETCH/)
 * [iStayGrizzly's Solution](https://github.com/iStayGrizzly/Etch-A-Sketch) - [View in Browser](https://istaygrizzly.github.io/Etch-A-Sketch/)
@@ -850,4 +867,16 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/etch-a-sketch) - [View in Browser](https://fortypercenttitanium.github.io/etch-a-sketch/)
 * [Givemore's Solution](https://github.com/Givemo/Etch-a-Sketch) - [View in Browser](https://givemo.github.io/Etch-a-Sketch/)
 * [Ryan Early's Solution](https://github.com/ryanfearly/etch-a-sketch) - [View in Browser](https://ryanfearly.github.io/etch-a-sketch/)
+* [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/etch-a-sketch) - [View in Browser](https://ozansozuozgit.github.io/etch-a-sketch/)
+* [SpyingEnvy's Solution](https://github.com/SpyingEnvelope/etchasketch) - [View in Browser](https://spyingenvelope.github.io/etchasketch/)
+* [MatejXYZ's Solution](https://github.com/MatejXYZ/Etch-a-sketch) - [View in Browser](https://matejxyz.github.io/Etch-a-sketch/)
+* [Josh C's Solution](https:/github.com:jnatc1/Etch-a-Sketch) - [View in Browser](https://jnatc1.github.io/Etch-a-Sketch/)
+* [Matt Miller's Solution](https://mattmiller1989.github.io/Etch-a-Sketch/) - [View in Browser](https://mattmiller1989.github.io/Etch-a-Sketch/)
+* [Laurens' Solution](https://github.com/laurenskrom/etchasketch) - [View in Browser](https://laurenskrom.github.io/etchasketch/)
+* [Christian's Solution](https://github.com/rueeazy/etch-a-sketch) - [View in Browser](https://rueeazy.github.io/etch-a-sketch/)
+* [c-squared87's Solution](https://github.com/c-squared87/etch-a-sketch) - [View in Browser](https://c-squared87.github.io/etch-a-sketch/)
+* [kbrdsk's Solution](https://github.com/kbrdsk/etch-a-sketch) - [View in Browser](https://kbrdsk.github.io/etch-a-sketch/)
+* [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/etch_a_sketch) - [View in Browser](https://thorney29.github.io/the_odin_project/etch_a_sketch/index.html)
+* [mrfannin's Solution](https://github.com/mrfannin/etch-a-sketch) - [View in Browser](https://mrfannin.github.io/etch-a-sketch/)
+* [Dams303's Solution](https://github.com/Dams303/sketchpad) - [View in Browser](https://dams303.github.io/sketchpad/)
 </details>
