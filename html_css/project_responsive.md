@@ -27,6 +27,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Mikael's Solution](https://github.com/Mikearaya/thenextweb-clone) - [View in browser](https://mikearaya.github.io/thenextweb-clone)
+* [Rarysson's Solution](https://github.com/rarysson/next-web-clone) - [View in browser](https://rarysson.github.io/next-web-clone/)
 * [Estela's Solution](https://estelajimero.github.io/responsive-design/) - [View in browser](https://estelajimero.github.io/responsive-design/)
 * [Johongirr's Solution](https://github.com/Johongirr/newsweek-copy) - [View in browser](https://johongirr.github.io/newsweek-copy/)
 * [Igorashs's Solution](https://github.com/igorashs/building-with-responsive-design) - [View in browser](https://igorashs.github.io/building-with-responsive-design/)
