@@ -1,6 +1,6 @@
 ### Introduction
 
-Now that you've installed your OS and text editor of choice, it's time to install the actual programming language. This section is where you will encounter the most errors.
+Before we start learning, we'll need to install Ruby first. This section is where you could potentially encounter a lot of errors.
 
 Before continuing, let's review a few best practices to keep in mind:
 
@@ -46,7 +46,7 @@ When it prompts you, press `y` and then `enter`.
 Next, you need to install some required packages that do not come preinstalled. Be sure to copy and paste this command.
 
 ~~~bash
-sudo apt install curl git nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
+sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 ~~~
 
 When it prompts you, press `y` and then `enter`. You may or may not have to type your password after pressing `enter`.
@@ -73,7 +73,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exit
 ~~~
 
-After running the final `exit` command, you will need to re-open the terminal (see Step 1.1 above).
+After running the final `exit` command, you will need to close and open a new terminal (see Step 1.1 above).
 
 Next, you need to install `ruby-build` to help compile the Ruby binaries. Run these commands in the terminal to create a directory for the ruby-build plugin and then download it to the proper directory.
 
@@ -106,7 +106,7 @@ Inside the terminal, run this command:
 rbenv install 2.6.5 --verbose
 ~~~
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
 When the last command is finished, set the Ruby version and verify that it's working:
 
@@ -240,7 +240,7 @@ We can now (finally) install Ruby! We recommend using the latest version, which 
 rbenv install 2.6.5 --verbose
 ~~~
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=GzkfOKkIteA) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
