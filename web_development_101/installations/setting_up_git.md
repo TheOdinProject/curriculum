@@ -37,6 +37,13 @@ sudo apt install curl git
 <details markdown="block">
 <summary class="dropDown-header">MacOS
 </summary>
+  
+#### Step 1.0: Install Homebrew
+First, you'll need to install Homebrew. Copy and paste the following into your terminal:
+
+~~~bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+~~~
 
 #### Step 1.1: Update Git
 

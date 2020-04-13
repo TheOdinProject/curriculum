@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Tunztunztunz's Solution](https://github.com/tunztunztunz/calculator) - [View in Browser](https://tunztunztunz.github.io/calculator/)
+- [themansbak's Solution](https://github.com/themansbak/javascript-calculator) - [View in Browser](https://themansbak.github.io/javascript-calculator/)
 - [iStayGrizzly's Solution](https://github.com/iStayGrizzly/js-calculator) - [View in Browser](https://istaygrizzly.github.io/js-calculator/)
 - [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/calculator) - [View in Browser](https://aaronhalstonlee.github.io/calculator/)
 - [Cole-0's Solution](https://github.com/Cole-0/Simplest-of-calculators)
@@ -74,7 +76,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vinz's Solution](https://lrdvnz.github.io/Calculator/)
 - [rryand's Solution](https://github.com/rryand/calculator) - [View in Browser](https://rryand.github.io/calculator/)
 - [Pratik's Solution](https://github.com/Pratik-Gohil/Calculator/tree/master/calc/usingClass) - [View in Browser](https://pratik-gohil.github.io/Calculator/calc/usingClass/index.html)
-- [Ini Etienam's Solution](https://github.com/ietienam/Calculator) - [View in Browser](https://ietienam.github.io/Calculator) 
+- [Ini Etienam's Solution](https://github.com/ietienam/Calculator) - [View in Browser](https://ietienam.github.io/Calculator)
 - [LorriAnn's Solution](https://github.com/TechnicolorPanda/calculator) - [View in Browser](https://TechnicolorPanda.github.io/calculator/)
 - [Austin's Solution](https://github.com/cudworth/calculator) - [View in Browser](https://cudworth.github.io/calculator/)
 - [Zayeer's Solution](https://github.com/Zayeer/Basic-Calculator) - [View in Browser](https://zayeer.github.io/Basic-Calculator/)
@@ -587,4 +589,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joe Thompson's Solution](https://github.com/jlthompso/calculator) - [View in Browser](https://jlthompso.github.io/calculator/)
 - [Matt Miller Solution](https://mattmiller1989.github.io/Calculator/) - [View in Browser](https://mattmiller1989.github.io/Calculator/)
 - [Lexolf's Solution](https://github.com/lexolf/calculator) - [View in Browser](https://lexolf.github.io/calculator/)
+- [OmerGronich's Solution](https://github.com/OmerGronich/calculator) - [View in Browser](https://omergronich.github.io/calculator/)
+- [kbrdsk's Solution](https://github.com/kbrdsk/calculator) - [View in Browser](https://kbrdsk.github.io/calculator/)
+- [meganeb-afk's Solution](https://github.com/meganeb-afk/Javascript-Calculator) - [View in Browser](https://meganeb-afk.github.io/Javascript-Calculator)
+- [Dams303's Solution](https://github.com/Dams303/calculator) - [View in Browser](https://dams303.github.io/calculator/)
+- [Straytjacquet's Solution](https://github.com/Straytjacquet/Calculator) - [View in Browser](https://straytjacquet.github.io/Calculator/)
+- [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/js-calculator) - [View in Browser](https://ozansozuozgit.github.io/js-calculator/)
 </details>
