@@ -875,4 +875,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/etch_a_sketch) - [View in Browser](https://thorney29.github.io/the_odin_project/etch_a_sketch/index.html)
 * [mrfannin's Solution](https://github.com/mrfannin/etch-a-sketch) - [View in Browser](https://mrfannin.github.io/etch-a-sketch/)
 * [Dams303's Solution](https://github.com/Dams303/sketchpad) - [View in Browser](https://dams303.github.io/sketchpad/)
+* [Wil Goolsby's Solution](https://github.com/wgoolsby/etch-a-sketch) - [View in Browser](https://wilgoolsby.com/etch-a-sketch/)
 </details>
