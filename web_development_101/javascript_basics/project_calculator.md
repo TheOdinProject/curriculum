@@ -594,4 +594,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [meganeb-afk's Solution](https://github.com/meganeb-afk/Javascript-Calculator) - [View in Browser](https://meganeb-afk.github.io/Javascript-Calculator)
 - [Dams303's Solution](https://github.com/Dams303/calculator) - [View in Browser](https://dams303.github.io/calculator/)
 - [Straytjacquet's Solution](https://github.com/Straytjacquet/Calculator) - [View in Browser](https://straytjacquet.github.io/Calculator/)
+- [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/js-calculator) - [View in Browser](https://ozansozuozgit.github.io/js-calculator/)
 </details>
