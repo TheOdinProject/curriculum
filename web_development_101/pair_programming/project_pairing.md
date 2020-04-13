@@ -201,8 +201,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [m-rejdych's Solution](https://github.com/m-rejdych/Pomodoro-clock) - [View in Browser](https://m-rejdych.github.io/Pomodoro-clock/)
 * [Veskenazi's Solution](https://github.com/veskenazi/pomodoro-timer) - [View in Browser](https://veskenazi.github.io/pomodoro-timer/)
 * [Matt Miller's Solution](https://github.com/mattmiller1989/Productivity-Timer/) - [View in Browser](https://mattmiller1989.github.io/Productivity-Timer/)
-*[meganeb-afk`s Solution](https://github.com/meganeb-afk/Pomodoro)- [View in Browser]
-https://meganeb-afk/github.io/Pomodoro/)
+* [meganeb-afk's Solution](https://github.com/meganeb-afk/Pomodoro)- [View in Browser](https://meganeb-afk/github.io/Pomodoro/)
 </details>
 
 ### Next Steps
