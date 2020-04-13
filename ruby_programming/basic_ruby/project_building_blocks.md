@@ -999,6 +999,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/stock-picker/stock-picker.rb)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/stock_picker/stock_picker.rb)
 * [tomstrat's Solution](https://github.com/tomstrat/stock_picker)
+* [Matt Miller's Solution](https://github.com/MattMiller1989/Stock-Picker/blob/master/stocks.rb)
 </details>
 
 ### Project 3: Substrings
