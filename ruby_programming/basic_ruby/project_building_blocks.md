@@ -554,6 +554,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [tenacious-qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/stock-picker.rb)
 * [Ogunmola Israel's Solution](https://github.com/Lippins/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Edd's Solution](https://github.com/casualc0der/odin-ruby/blob/master/stock-picker.rb)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/stock-picker.rb)
