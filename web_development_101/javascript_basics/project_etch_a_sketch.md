@@ -43,7 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-*[BraveStone9's Solution](https://github.com/BraveStone9/Etch-A-Sketch_with_sound) - [View in browser](https://bravestone9.github.io/Etch-A-Sketch_with_sound/EtchSketch.html)
+* [BraveStone9's Solution](https://github.com/BraveStone9/Etch-A-Sketch_with_sound) - [View in Browser](https://bravestone9.github.io/Etch-A-Sketch_with_sound/EtchSketch.html)
+* [tomigm's Solution](https://github.com/tomigm/etch_a_sketch) - [View in Browser](https://tomigm.github.io/etch_a_sketch/)
 * [simmonsth's Solution](https://github.com/simmonsth/odin_sketchpad) - [View in Browser](https://simmonsth.github.io/odin_sketchpad/)
 * [Johongirr's Solution](https://github.com/Johongirr/etch-a-sketch/tree/master) - [View in Browser](https://johongirr.github.io/etch-a-sketch/)
 * [rafael-cagliari's Solution](https://github.com/rafael-cagliari/etch-a-sketch) 
@@ -878,4 +879,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Dams303's Solution](https://github.com/Dams303/sketchpad) - [View in Browser](https://dams303.github.io/sketchpad/)
 * [Wil Goolsby's Solution](https://github.com/wgoolsby/etch-a-sketch) - [View in Browser](https://wilgoolsby.com/etch-a-sketch/)
 * [Filip Kralik's Solution](https://github.com/FilipKralik94/etch-a-sketch) - [View in Browser](https://filipkralik94.github.io/etch-a-sketch/index.html)
+* [fussykyloren's Solution](https://github.com/fussykyloren/etch-a-sketch) - [View in Browser](https://fussykyloren.github.io/etch-a-sketch/)
 </details>
