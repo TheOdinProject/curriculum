@@ -3187,6 +3187,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alejaldo's Solution (Easy)](https://github.com/Alejaldo/google-homepage) - [View in Browser](https://alejaldo.github.io/google-homepage/)
 * [Saincurin Peterson Denis's Solution (Easy)](https://peterdenis.github.io/google-homepage/) - [View in Browser](https://msespos.github.io/google-homepage/)
 * [Szymon Chełkowski's Solution (Easy)](https://github.com/szchelkowski/google-homepage) - [View in Browser](https://szchelkowski.github.io/google-homepage/)
+* [giantkelp's Solution (Easy)](https://github.com/giantkelp/odin-google-homepage) - [View in Browser](https://giantkelp.github.io/odin-google-homepage/)
 </details>
 
 ### Additional Resources
