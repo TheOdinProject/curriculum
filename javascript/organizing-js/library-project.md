@@ -237,4 +237,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [kasweigart's Solution](https://github.com/kasweigart/Library) - [View in Browser](https://kasweigart.github.io/Library/)
 - [kmson7's Solution](https://github.com/kmson7/library) - [View in Browser](https://kmson7.github.io/library/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Library) - [View in browser](https://m-rejdych.github.io/Library/)
+- [Nicholas Salvatore's Solution](https://github.com/nmsalvatore/the_odin_projects/tree/master/library_v2) - [View in browser](https://nmsalvatore.github.io/library_v2/)
 </details>
