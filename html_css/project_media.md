@@ -172,6 +172,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP---Youtube-Clone) - [View in browser](https://adrieltrigger.github.io/TOP---Youtube-Clone/)
 * [Jamesredux's solution](https://github.com/Jamesredux/youtube-clone) - [View in browser](https://jamesredux.github.io/youtube-clone/)
 * [Scott Bowles's solution](https://github.com/scottBowles/youtube-video-player) - [View in browser](https://scottbowles.github.io/youtube-video-player/)
+* [Veskenazi's solution](https://github.com/veskenazi/youtube-video-page) - [View in browser](https://veskenazi.github.io/youtube-video-page/)
 </details>
 
 ### Additional Resources
