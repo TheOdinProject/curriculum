@@ -1418,7 +1418,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [meganeb-afk's Solution](https://github.com/meganeb-afk/rps)
 - [Wil Goolsbys's Solution](https://github.com/wgoolsby/rock-paper-scissors) - [View in Browser](https://wgoolsby.github.io/rock-paper-scissors)
 - [Josh C's Solution w/UI](https://github.com/jnatc1/Rock-Paper-Scissors-v2) - [View in Browser](https://jnatc1.github.io/Rock-Paper-Scissors-v2/)
-- [OchsaufLerchenau's Solution](https://github.com/OchsaufLerchenau/rock-paper-scissors)
+- [OchsaufLerchenau's Solution with UI](https://github.com/OchsaufLerchenau/ochsauflerchenau.github.io)  - [View in Browser](https://ochsauflerchenau.github.io/)
 - [c-squared87's Solution](https://github.com/c-squared87/rock-paper-scissors)
 - [fussykyloren's Solution](https://github.com/fussykyloren/rock-paper-scissors) - [View in Browser](https://fussykyloren.github.io/rock-paper-scissors/)
 - [mrfannin's Solution](https://github.com/mrfannin/rock-paper-scissors) - [View in Browser](https://mrfannin.github.io/rock-paper-scissors/)
