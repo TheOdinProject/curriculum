@@ -1,4 +1,4 @@
-l### Introduction
+### Introduction
 By now you should feel pretty good working with strings, arrays and hashes.  We'll do a couple of classic "intro to programming" problems here to help solidify your knowledge and get warmed up to working on small projects.  You'll need to rely on some of your basic knowledge of conditionals and flow control from the prep work but you shouldn't need to do anything you haven't seen before.
 
 You can do these in IRB or create a separate script file to run from the command line if you know how to do that (we'll cover it in the next few sections).
