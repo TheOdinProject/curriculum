@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+*[BraveStone9's Solution](https://github.com/BraveStone9/Etch-A-Sketch_with_sound) - [View in browser](https://bravestone9.github.io/Etch-A-Sketch_with_sound/EtchSketch.html)
 * [simmonsth's Solution](https://github.com/simmonsth/odin_sketchpad) - [View in Browser](https://simmonsth.github.io/odin_sketchpad/)
 * [Johongirr's Solution](https://github.com/Johongirr/etch-a-sketch/tree/master) - [View in Browser](https://johongirr.github.io/etch-a-sketch/)
 * [rafael-cagliari's Solution](https://github.com/rafael-cagliari/etch-a-sketch) 
