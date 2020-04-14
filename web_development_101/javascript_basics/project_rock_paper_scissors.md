@@ -42,6 +42,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [BernardKwesi's solution](https://github.com/BernardKwesi/Rock_paper_scisssors) 
+- [Harold's Solution](https://github.com/harold-guido/rock-paper-scissors/settings) - [View in Browser](https://harold-guido.github.io/rock-paper-scissors/)
+- [ScotttP's Solution](https://github.com/ScotttP/rock-paper-scissors) - [View in Browser](https://scotttp.github.io/rock-paper-scissors/)
 - [mooniiDev's Solution](https://github.com/mooniiDev/rock-paper-scissors-game) - [View in Browser](https://mooniidev.github.io/rock-paper-scissors-game/)
 - [Braxton's Solution](https://github.com/BraxMassengale/rock-paper-scissors) - [View in Browser](https://braxmassengale.github.io/rock-paper-scissors/)
 - [kelem7's Solution](https://github.com/kelem7/rockpaperscissors)
@@ -1441,4 +1443,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [urosdrca22's Solution](https://github.com/urosdrca22/Rock-Paper-Scissors)
 - [siman-utfpr's Solution](https://github.com/siman-utfpr/rock-paper-scissors)
 - [marvkal's Solution](https://github.com/marvkal/Rock-Paper-Scissors)
+- [Takuya's Solution](https://github.com/TakuyaToyokawa/2-Rock-Paper-Scissors) - [View in Browser](https://takuyatoyokawa.github.io/2-Rock-Paper-Scissors/)
 </details>

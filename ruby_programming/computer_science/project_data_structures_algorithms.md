@@ -422,4 +422,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/knight_moves)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/knight_moves)
 * [Timework's Solution](https://github.com/Timework/knight/blob/master/knight.rb)
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Knight_Travails) 
 </details>
