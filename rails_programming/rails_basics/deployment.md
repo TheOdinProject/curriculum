@@ -51,7 +51,7 @@ Note that you'll probably be prompted for your billing information when installi
 
 If you haven't deployed to Heroku before and this is your first time, feel free to just skim this section.  It's meant to be a handy reference for later.
 
-The details of deployment will be left to Michael Hartl in the project, but we'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 5.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails5).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
+We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 5.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails5).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
 
 * Download and install the Heroku CLI.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
 * Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
