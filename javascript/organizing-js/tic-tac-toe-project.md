@@ -160,4 +160,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [OneBitBoi's Solution](https://github.com/OneBitBoi/tic_tac_toe) - [View in Browser](https://onebitboi.github.io/tic_tac_toe/)
 - [alicee88's Solution](https://github.com/alicee88/odin-tictactoe) - [View in Browser](https://alicee88.github.io/odin-tictactoe/)
 - [kasweigart's Solution](https://github.com/kasweigart/Tic-Tac-Toe) - [View in Browser](https://kasweigart.github.io/Tic-Tac-Toe/)
+- [m-rejdych's Solution](https://github.com/m-rejdych/Tic-Tac-Toe) - [View in Browser](https://m-rejdych.github.io/Tic-Tac-Toe/)
 </details>
