@@ -570,4 +570,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [m-rejdych's Solution](https://github.com/m-rejdych/Calculator) - [View in Browser](https://m-rejdych.github.io/Calculator/)
 - [jcai8649's Solution](https://github.com/jcai8649/Calculator) - [View in Browser](https://jcai8649.github.io/Calculator/)
 - [kmson7's Solution](https://github.com/kmson7/calculator) - [View in Browser](https://kmson7.github.io/calculator/)
+- [Givemore's Solution](https://github.com/Givemo/On-screen_Calculator) - [View in Browser](https://givemo.github.io/On-screen_Calculator/)
 </details>
