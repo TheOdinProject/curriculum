@@ -32,10 +32,30 @@ Don't worry if you don't totally understand what you are doing in these next ste
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
-gem install rails -v 5.2.3
+gem install rails
 ~~~
 
-#### Step 1.2: Lay the Groundwork
+#### Step 1.2: Install Yarn
+
+With Rails 6 came Webpacker, a Ruby Gem that integrates Webpack, the Javescript module bundler, with Rails.
+
+Javascript libraries used to be managed through the asset pipeline in Rails but as Javascript progressed it became a little dated, and made it hard to integrate the latest Javascript technologies.
+
+Yarn is a Javascript Package Manager, much like bundler for Ruby and allows you to easily manage your Javascript Libraries.
+
+Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install) and from the dropdown box choose the operating system you are using. It will then present you with instructions on how to install Yarn.
+
+Verify the install by running the following command
+
+~~~bash
+yarn --version
+~~~
+
+If you don't get a version number back then drop by the chatrooms for some assistance.
+
+You won't need to use Yarn for this tutorial but you do need it installed for rails to set up webpack correctly.
+
+#### Step 1.3: Lay the Groundwork
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
 
@@ -51,7 +71,7 @@ Then, move into the new directory:
 cd odin_on_rails
 ~~~
 
-#### Step 1.3: Create the Application
+#### Step 1.4: Create the Application
 
 This is where things might become more foreign. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
@@ -74,7 +94,13 @@ In the above process, Rails created a new directory for us. Let's `cd` into it n
 cd my_first_rails_app
 ~~~
 
-Now, we're going to tell Rails to generate some templates for us. This will get us up and running in no time at all.
+Now, we're going to tell Rails to generate some templates for us. This will get us up and running in no time at all. If you are using ruby 2.7 then you may see some deprecation warnings that look like errors in the console. Ruby made some changes in version 2.7 and it will take time for Rubygems to update their codebases, especially if they are as large as Rails. If you do see any deprecation warnings then don't worry, they will get fixed eventually and will look something like:
+
+~~~bash
+warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+~~~
+
+Run the following in the terminal:
 
 ~~~bash
 rails generate scaffold car make:string model:string year:integer
@@ -86,7 +112,7 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### Step 1.4: Start Up Your App
+#### Step 1.5: Start Up Your App
 
 Now that you have created a Rails application, you can start it up and see if it works!
 
@@ -106,7 +132,7 @@ To push our app to GitHub and Heroku, we need to use Git.
 
 ##### Step 2.1: Initialize git
 
-To tell Git we want to use version control on the directory we are in, we need to initialize it.
+Rails should initialise a git repository for us when we create a new app but as a sense check we will make sure one has been created.
 
 Verify you're in the `my_first_rails_app` directory by using the `pwd` (print working directory) command.
 
