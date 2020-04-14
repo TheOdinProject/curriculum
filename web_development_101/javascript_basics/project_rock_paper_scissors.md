@@ -1439,4 +1439,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/rockPaperScissors) - [View in Browser](https://playingongithub.github.io/rockPaperScissors/)
 - [urosdrca22's Solution](https://github.com/urosdrca22/Rock-Paper-Scissors)
 - [siman-utfpr's Solution](https://github.com/siman-utfpr/rock-paper-scissors)
+- [marvkal's Solution](https://github.com/marvkal/Rock-Paper-Scissors)
 </details>
