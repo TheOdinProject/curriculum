@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Thiago's Solution](https://github.com/SevlaMare/bubble_sort_ruby) - [View Demo](https://repl.it/@ThiagoMiranda2/bubblesortV0)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/bubble-sort.rb)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Bubble-Sort)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/tree/master/bubble-sort)
@@ -422,6 +423,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/bubbleSort/blob/master/bubble.rb)
 * [Kendra Moyars's Solution](https://github.com/kendramoyars/bubble-sort/blob/master/bubble_sort.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/bubble-sort)
+* [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/bubble_sort/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
@@ -469,6 +471,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Thiago Miranda's Solution](https://github.com/SevlaMare/enumerables) - [View Demo](https://repl.it/@ThiagoMiranda2/enumerables)
 * [Aulbourn's Solution](https://github.com/aulbytj/Enumerable/blob/develop/main.rb)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/enumerable.rb)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/enumerable-methods/enumerable-methods.rb)
@@ -812,6 +815,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kendra Moyars's Solution](https://github.com/kendramoyars/enumerable/blob/master/enumerable.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/blob/master/ruby-exercises/my-enumerables/my_enumerables.rb)
 * [Eduardo06sp's Solution](https://github.com/Eduardo06sp/enumerable-methods/blob/master/methods.rb)
+* [tomstrat's Solution](https://github.com/tomstrat/bubble_sort/blob/master/bubble.rb)
+* [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/enumerable/enumerable.rb)
 </details>
 
 ### Additional Resources
