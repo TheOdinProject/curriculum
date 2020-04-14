@@ -73,4 +73,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Fred's Solution](https://github.com/fchasin/FirstWebsite)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/basic-information-site)
 - [0xtaf's Solution](https://github.com/0xtaf/basic-informational-site)
+- [Scott Bowles's Solution](https://github.com/scottBowles/node-simple-informational-site) - [View in browser](https://node-simple-informational-site--scottbowles.repl.co)
 </details>
