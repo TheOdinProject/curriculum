@@ -3193,6 +3193,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [giantkelp's Solution (Easy)](https://github.com/giantkelp/odin-google-homepage) - [View in Browser](https://giantkelp.github.io/odin-google-homepage/)
 * [Jayermidis's Soltuion (Easy)](https://github.com/JayErmidis/google-homepage)
 * [Jocke1234's Solution (Easy)](https://github.com/jocke1234/google-homepage) - [View in Browser](https://jocke1234.github.io/google-homepage/)
+* [mrkdwd's Solution (Easy)](https://github.com/mrkdwd/google-homepage) - [View in Browser](https://mrkdwd.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
