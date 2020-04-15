@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sara's Solution] (https://github.com/Sarajvega/RockPaperScissors/blob/master/RPS.html) - [View in Browser] (https://Sarajvega.github.io/RockPaperScissors)
 - [andrewjh271's Solution](https://github.com/andrewjh271/RockPaperScissors)
 - [Nathan's Solution](https://github.com/NathanJReidy/SPR) - [View in Browser](https://nathanjreidy.github.io/SPR/#the_game)
 - [Tomodi98's Solution](https://github.com/Tomodi98/rock-paper-scissors)
