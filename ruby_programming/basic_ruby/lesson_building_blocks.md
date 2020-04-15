@@ -1,6 +1,6 @@
 ### Introduction
 
-Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](https://www.theodinproject.com/courses/web-development-101/lessons/ruby-basics) (if not, go do that first!), this should start as a healthy refresher of what you've already learned with *Variables, Data Types, Strings, and Methods*.  
+Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in [Ruby Basics](https://www.theodinproject.com/courses/ruby-programming/lessons/ruby-basics-ruby-programming), this section will reinforce what you've already learned with *Variables, Data Types, Strings, and Methods*.  
 
 But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.  There's a whole lot of stuff to cover.  These first couple of lessons cover the broadest swathe of material of the entire Ruby course, so get stretched out and warmed up, it's time to dive in!
 
@@ -105,7 +105,7 @@ Look through these now and then use them to test yourself after doing the assign
   2. Do the full [Codecademy Introduction to Ruby section](https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-ruby/) from their [Ruby Track](https://www.codecademy.com/catalog/language/ruby).
   3. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
   4. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so)
-  5. Glance over this list of [Escape Characters](https://github.com/ruby/ruby/blob/trunk/doc/syntax/literals.rdoc#strings) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
+  5. Glance over this list of [Escape Characters](https://docs.ruby-lang.org/en/2.7.0/syntax/literals_rdoc.html#label-Strings) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
   6. For a deeper look at certain underserved pieces of the above material, check out these posts from Erik Trautman:
       1. [Ruby Explained: Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
       2. [Ruby Explained: Objects and Methods](http://www.eriktrautman.com/posts/ruby-explained-objects-and-methods)
