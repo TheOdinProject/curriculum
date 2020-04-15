@@ -600,4 +600,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dams303's Solution](https://github.com/Dams303/calculator) - [View in Browser](https://dams303.github.io/calculator/)
 - [Straytjacquet's Solution](https://github.com/Straytjacquet/Calculator) - [View in Browser](https://straytjacquet.github.io/Calculator/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/js-calculator) - [View in Browser](https://ozansozuozgit.github.io/js-calculator/)
+- [mrfannin's Solution](https://github.com/mrfannin/calculator) - [View in Browser](https://mrfannin.github.io/calculator/)
 </details>
