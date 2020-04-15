@@ -240,7 +240,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Rey van den Berg's Solution](https://github.com/Rey810/micro-reddit)
 * [guacamobley's solution](https://github.com/guacamobley/micro-reddit)
 * [wilmir's solution](https://github.com/Wilmir/micro-reddit)
-
+* [Lucas' solution](https://github.com/Lucas-Vergara/micro-reddit)
 </details>
 
 ### Additional Resources
