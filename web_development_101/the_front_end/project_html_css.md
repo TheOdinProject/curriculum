@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [NickM-hash's Solution (Both)](https://github.com/NickM-hash/Simple-Projects/tree/master/google-copy) - [View in Browser](https://nickm-hash.github.io/Simple-Projects/google-copy/)
 * [BJCrossland's Solution (Easy)](https://github.com/bjcrossland/google-homepage) - [View in Browser](https://bjcrossland.github.io/google-homepage/)
 * [FirasGit's Solution (Easy)](https://github.com/FirasGit/google-homepage) - [View in Browser](https://firasgit.github.io/google-homepage/)
 * [Byron Parker's Solution (Easy)](https://github.com/bzparkes/googlehp_project) - [View in Browser](https://bzparkes.github.io/googlehp_project/)
