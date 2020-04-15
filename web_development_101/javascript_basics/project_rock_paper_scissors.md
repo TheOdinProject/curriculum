@@ -41,9 +41,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Nathan's solution](https://github.com/NathanJReidy/SPR) - [View in Browser](https://nathanjreidy.github.io/SPR/#the_game)
-- [leddins's solution](https://github.com/leddins/roshambo) - [View in Browser](https://leddins.github.io/roshambo/)
-- [BernardKwesi's solution](https://github.com/BernardKwesi/Rock_paper_scisssors) 
+- [Nathan's Solution](https://github.com/NathanJReidy/SPR) - [View in Browser](https://nathanjreidy.github.io/SPR/#the_game)
+- [Tomodi98's Solution](https://github.com/Tomodi98/rock-paper-scissors)
+- [leddins's Solution](https://github.com/leddins/roshambo) - [View in Browser](https://leddins.github.io/roshambo/)
+- [BernardKwesi's Solution](https://github.com/BernardKwesi/Rock_paper_scisssors) 
 - [Harold's Solution](https://github.com/harold-guido/rock-paper-scissors/settings) - [View in Browser](https://harold-guido.github.io/rock-paper-scissors/)
 - [ScotttP's Solution](https://github.com/ScotttP/rock-paper-scissors) - [View in Browser](https://scotttp.github.io/rock-paper-scissors/)
 - [mooniiDev's Solution](https://github.com/mooniiDev/rock-paper-scissors-game) - [View in Browser](https://mooniidev.github.io/rock-paper-scissors-game/)
