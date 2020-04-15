@@ -22,11 +22,11 @@ course = create_or_update_course(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Basic Ruby",
-  title_url: "Basic Ruby".parameterize,
+  title: "Introduction",
+  title_url: "Introduction".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section, we'll cover the basic building blocks of Ruby so you have them down cold.  Everything else you'll learn in programming builds on these concepts, so you'll be in a great place to take on additional projects and languages in the future."
+  description: "In this section, we'll look at the path ahead and install ruby."
 )
 
 lesson_position += 1
@@ -37,7 +37,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby/lesson_how_this_course_will_work.md",
+  url: "/ruby_programming/introduction/lesson_how_this_course_will_work.md",
   repo: 'curriculum'
 )
 
@@ -49,20 +49,21 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby/installing_ruby.md",
+  url: "/ruby_programming/introduction/installing_ruby.md",
   repo: 'curriculum'
 )
 
-lesson_position += 1
-create_or_update_lesson(
-  title: "Ruby Basics",
-  title_url: "Ruby Basics".parameterize,
-  description: "A healthy dive into Ruby, where you'll spend a fair bit of time mastering the basics of this programmer-friendly language.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/ruby_programming/basic_ruby/ruby_basics_lesson.md",
-  repo: 'curriculum'
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+  title: "Basic Ruby",
+  title_url: "Basic Ruby".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "In this section, we'll cover the basic building blocks of Ruby so you have them down cold.  Everything else you'll learn in programming builds on these concepts, so you'll be in a great place to take on additional projects and languages in the future."
 )
 
 lesson_position += 1
