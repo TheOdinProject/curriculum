@@ -21,6 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Add your solution below this line!
 * [Thiago Miranda's Solution](https://github.com/SevlaMare/TicTacToe_Ruby) - [View in repl.it](https://repl.it/@ThiagoMiranda2/tictactoeruby)
 * [leetie's Solution](https://github.com/leetie/tic_tac_toe)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Tic-Tac-Toe)
 * [Sebastian Gil's Solution](https://github.com/sebGilR/tictactoe)
 * [pudu87's Solution](https://github.com/pudu87/tic-tac-toe)
 * [jodokusquack's Solultion](https://github.com/jodokusquack/tic-tac-to)
