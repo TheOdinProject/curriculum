@@ -90,6 +90,10 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [DaniDjaoen's Solution (Easy)](https://github.com/DaniDjaoen/Google-Home-and-Search-Results-Page) - [View in Browser](https://danidjaoen.github.io/Google-Home-and-Search-Results-Page/)
+* [NickM-hash's Solution (Both)](https://github.com/NickM-hash/Simple-Projects/tree/master/google-copy) - [View in Browser](https://nickm-hash.github.io/Simple-Projects/google-copy/)
+* [BJCrossland's Solution (Easy)](https://github.com/bjcrossland/google-homepage) - [View in Browser](https://bjcrossland.github.io/google-homepage/)
+* [FirasGit's Solution (Easy)](https://github.com/FirasGit/google-homepage) - [View in Browser](https://firasgit.github.io/google-homepage/)
 * [Byron Parker's Solution (Easy)](https://github.com/bzparkes/googlehp_project) - [View in Browser](https://bzparkes.github.io/googlehp_project/)
 * [ruizaj13's Solution (Easy)](https://github.com/ruizaj13/google-homepage) - [View in Browser](https://ruizaj13.github.io/google-homepage)
 * [mattfergoda's Solution (Easy)](https://github.com/mattfergoda/google-homepage-replica) - [View in Browser](https://mattfergoda.github.io/google-homepage-replica/)
@@ -3195,6 +3199,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jayermidis's Soltuion (Easy)](https://github.com/JayErmidis/google-homepage)
 * [Jocke1234's Solution (Easy)](https://github.com/jocke1234/google-homepage) - [View in Browser](https://jocke1234.github.io/google-homepage/)
 * [mrkdwd's Solution (Easy)](https://github.com/mrkdwd/google-homepage) - [View in Browser](https://mrkdwd.github.io/google-homepage/)
+* [Concepta's Solution (Easy)]( https://conceptanjolima.github.io/the-google-homepage/) - [View in Browser](https://conceptanjolima.github.io/the-google-homepage/)
 </details>
 
 ### Additional Resources

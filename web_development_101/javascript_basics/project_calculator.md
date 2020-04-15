@@ -46,6 +46,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Johongirr's Solution](https://github.com/Johongirr/calculator) - [View in Browser](https://johongirr.github.io/calculator/)
+- [BeardedTortle's Solution](https://github.com/BeardedTortle/JavaScript-Calculator) - [View in Browser](https://BeardedTortle.github.io/JavaScript-Calculator/)
+- [ScotttP's Solution](https://github.com/ScotttP/calculator) - [View in Browser](https://scotttp.github.io/calculator/)
 - [Christian's Solution](https://github.com/rueeazy/calculator) - [View in Browser](https://rueeazy.github.io/calculator/)
 - [Tunztunztunz's Solution](https://github.com/tunztunztunz/calculator) - [View in Browser](https://tunztunztunz.github.io/calculator/)
 - [themansbak's Solution](https://github.com/themansbak/javascript-calculator) - [View in Browser](https://themansbak.github.io/javascript-calculator/)

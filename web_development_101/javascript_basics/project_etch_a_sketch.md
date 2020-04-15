@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [keifererikson's Solution](https://github.com/keifererikson/etch-a-sketch) - [View in Browser](https://keifererikson.github.io/etch-a-sketch/)
+- [ScotttP's Solution](https://github.com/ScotttP/etch-a-sketch) - [View in Browser](https://scotttp.github.io/etch-a-sketch/)
 * [John's Solution](https://github.com/jm-staana/etch-a-sketch) - [View in Browser](https://jm-staana.github.io/etch-a-sketch/)
 * [BraveStone9's Solution](https://github.com/BraveStone9/Etch-A-Sketch_with_sound) - [View in Browser](https://bravestone9.github.io/Etch-A-Sketch_with_sound/EtchSketch.html)
 * [tomigm's Solution](https://github.com/tomigm/etch_a_sketch) - [View in Browser](https://tomigm.github.io/etch_a_sketch/)
@@ -881,4 +883,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Wil Goolsby's Solution](https://github.com/wgoolsby/etch-a-sketch) - [View in Browser](https://wilgoolsby.com/etch-a-sketch/)
 * [Filip Kralik's Solution](https://github.com/FilipKralik94/etch-a-sketch) - [View in Browser](https://filipkralik94.github.io/etch-a-sketch/index.html)
 * [fussykyloren's Solution](https://github.com/fussykyloren/etch-a-sketch) - [View in Browser](https://fussykyloren.github.io/etch-a-sketch/)
+* [RackManyLoafs's Solution](https://github.com/RackManyLoafs/etch-a-sketch) - [View in Browser](https://rackmanyloafs.github.io/etch-a-sketch/)
 </details>
