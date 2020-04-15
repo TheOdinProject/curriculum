@@ -88,6 +88,7 @@ create_or_update_lesson(
   is_project: true,
   url: "/ruby_programming/basic_ruby/ruby_project.md",
   repo: 'curriculum'
+)
 
 lesson_position += 1
 create_or_update_lesson(
