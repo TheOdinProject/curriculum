@@ -1399,6 +1399,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tuan Nguyen's Solution](https://github.com/Tuan96/rock-paper-scissors) - [View in Browser](https://tuan96.github.io/rock-paper-scissors/)
 - [ferdinandodin's Solution](https://github.com/ferdinandodin/rock_paper_scissors_homepage) - [View in Browser](https://ferdinandodin.github.io/rock_paper_scissors_homepage/)
 - [ahanasi's Solution](https://github.com/ahanasi/rock-paper-scissors) - [View in Browser](https://ahanasi.github.io/rock-paper-scissors/)
+- [Alan's Solution](https://github.com/aljones1816/rock_paper_scissors) - [View in Browser](https://almjones.com/rock_paper_scissors/)
 - [aadilayub's Solution](https://gitlab.com/aadilayub/rock-paper-scissors) - [View in Browser](https://rock-paper-scissors.aadil.tech)
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/rock-paper-scissors)
 - [kasweigart's Solution](https://github.com/kasweigart/RPS-Buttons-Vers) - [View in Browser](https://kasweigart.github.io/RPS-Buttons-Vers/)
