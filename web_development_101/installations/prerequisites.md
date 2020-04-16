@@ -20,15 +20,15 @@ Installing a Virtual Machine (VM) is the easiest and most reliable way to get st
 
 #### Step 1.2: Download Lubuntu
 
-There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Lubuntu 16.04.3 LTS](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04.3-desktop-amd64.iso "Lubuntu download link") Lubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. It also looks like Windows!
+There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Lubuntu 18.04.4](http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso). Lubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. It also looks like Windows!
 
-### Step 2: Install VirtualBox and set it up for Lubuntu
+### Step 2: Install VirtualBox and set up Lubuntu
 
 #### Step 2.1: Install VirtualBox
 
-Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded file will start the installation process. During the installation, you’ll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish.
+Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded virtualbox file will start the installation process. During the installation, you’ll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish.
 
-#### Step 2.2: Make way for Lubuntu
+#### Step 2.2: Install Lubuntu
 
 Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen.
 
@@ -62,7 +62,7 @@ After completing the last step, click the **“Create”** button. Your new virt
 
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687466148434149408/07_VirtualBox_SettingsButton.png" alt="The VirtualBox Home screen with Lubuntu" title="Or you can right-click Lubuntu and go to Settings">
 
- Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to <a href="https://www.google.com/search?q=enable+virtualization+windows" target="_blank">enable virtualization in your computer’s BIOS/UEFI settings</a>, or you have a single core processor.
+ Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to <a href="https://www.google.com/search?q=enable+virtualization+windows" target="_blank">enable virtualization in your computer’s BIOS/UEFI settings</a>. If you have a single core processor, you will not be able to change this setting.
  
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687479763723354200/08_VirtualBox_Processor.png" alt="The Lubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
@@ -84,7 +84,7 @@ You can start the VM by double-clicking **"Lubuntu"** or by clicking the large g
 
 <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687487045584683024/12_VirtualBox_StartItUp.png" alt="The VirtualBox start VM screen" title="Or you can right-click Lubuntu and hit Start">
 
-When the VM starts up, you’ll be asked to choose your language and to either try or install Lubuntu. If you make no decision for 30 seconds, it will launch the "Try Lubuntu without installing" option. You can reset, or double-click **"Install Lubuntu 16.04.3 LTS"**
+When the VM starts up, you’ll be asked to choose your language and to either try or install Lubuntu. If you make no decision for 30 seconds, it will launch the "Try Lubuntu without installing" option. You can reset, or double-click **"Install Lubuntu 18.04.4 LTS"**
 
 Choose your language again, hit next, and check both boxes on the **"Preparing to install Lubuntu"** page.
 
@@ -120,12 +120,6 @@ Here are some tips to help you get started in a virtual environment:
 * We recommend going full screen (Edit > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
 * If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
-
-### Step 5: Repeat After Me
-
-Say outloud:
-
-***I, [Odinite's Name], will work out of the VM only. I will create as many monitors as needed to cover all of my screens. I will fullscreen my VM. I will open the web browser inside the VM so I can actively copy and paste commands so I do not make any mistakes. I will hopefully eventually upgrade to dual booting an Ubuntu flavor of my choice to make things easier on myself, but I understand that there is no rush and I have as much time as I need to become accustomed to Linux.***
 
 </details>
 
