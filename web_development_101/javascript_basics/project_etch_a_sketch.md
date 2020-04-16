@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [eugeneGrossman's Solution](https://github.com/eugenegrossman/sketchy) - [View in Browser](https://eugenegrossman.github.io/sketchy/)
 * [Alex Schwartz's Solution](https://github.com/ofthesoul/etchasketch) - [View in Browser](https://ofthesoul.github.io/etchasketch/)
 * [ryannathanwilson's Solution](https://github.com/ryannathanwilson/Etch-A-Sketch) - [View in Browser](https://ryannathanwilson.github.io/Etch-A-Sketch/)
 * [keifererikson's Solution](https://github.com/keifererikson/etch-a-sketch) - [View in Browser](https://keifererikson.github.io/etch-a-sketch/)
@@ -52,7 +53,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [tomigm's Solution](https://github.com/tomigm/etch_a_sketch) - [View in Browser](https://tomigm.github.io/etch_a_sketch/)
 * [simmonsth's Solution](https://github.com/simmonsth/odin_sketchpad) - [View in Browser](https://simmonsth.github.io/odin_sketchpad/)
 * [Johongirr's Solution](https://github.com/Johongirr/etch-a-sketch/tree/master) - [View in Browser](https://johongirr.github.io/etch-a-sketch/)
-* [rafael-cagliari's Solution](https://github.com/rafael-cagliari/etch-a-sketch) 
+* [rafael-cagliari's Solution](https://github.com/rafael-cagliari/etch-a-sketch)
 * [Lcdevi's Solution](https://github.com/Lcdevi/etch-a-sketch) - [View in Browser](https://lcdevi.github.io/etch-a-sketch/)
 * [powei94's Solution](https://github.com/powei94/etch_a_sketch) - [View in Browser](https://powei94.github.io/etch_a_sketch/)
 * [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/etchasketch) - [View in Browser](https://aaronhalstonlee.github.io/etchasketch/)
