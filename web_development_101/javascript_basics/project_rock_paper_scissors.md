@@ -1449,6 +1449,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [doncilaarcadie's Solution](https://github.com/doncilaarcadie/ROCK-PAPER-SCISSORS) - [View in Browser](https://doncilaarcadie.github.io/ROCK-PAPER-SCISSORS/)
 - [sahion's Solution](https://github.com/sahion/Rock-Paper-Scissors) - [View in Browser](https://sahion.github.io/Rock-Paper-Scissors/)
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/rockPaperScissors) - [View in Browser](https://playingongithub.github.io/rockPaperScissors/)
+- [Jocke1234's Solution](https://github.com/jocke1234/JS-Rock-Paper-Scissors)
 - [urosdrca22's Solution](https://github.com/urosdrca22/Rock-Paper-Scissors)
 - [siman-utfpr's Solution](https://github.com/siman-utfpr/rock-paper-scissors) - [View in Browser](https://siman-utfpr.github.io/rock-paper-scissors/)
 - [marvkal's Solution](https://github.com/marvkal/Rock-Paper-Scissors)
