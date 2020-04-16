@@ -39,6 +39,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Bubble_Sort/blob/master/bubble_sort.rb) - [View Demo](https://repl.it/@andrewbaldwin44/BubbleSort)
 * [Thiago's Solution](https://github.com/SevlaMare/bubble_sort_ruby) - [View Demo](https://repl.it/@ThiagoMiranda2/bubblesortV0)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/bubble-sort.rb)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Bubble-Sort)
@@ -472,6 +473,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [TAndrew Baldwin's Solution](https://github.com/andrewbaldwin44/Custom_Enumerables/blob/master/custom_enumerables.rb) - [View Demo](https://repl.it/@andrewbaldwin44/CustomEnumerables)
 * [Thiago Miranda's Solution](https://github.com/SevlaMare/enumerables) - [View Demo](https://repl.it/@ThiagoMiranda2/enumerables)
 * [Aulbourn's Solution](https://github.com/aulbytj/Enumerable/blob/develop/main.rb)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/enumerable.rb)
