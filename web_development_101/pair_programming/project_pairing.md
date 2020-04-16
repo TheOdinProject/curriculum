@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [iStayGrizzly and threeaces Solution](https://github.com/iStayGrizzly/Pomodoro-Pair-Programming) - [View in Browser](https://istaygrizzly.github.io/Pomodoro-Pair-Programming/)
 * [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/pomodoro) - [View in Browser](https://aaronhalstonlee.github.io/pomodoro/)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Pomodoro-Timer) - [View in Browser](https://kfollen93.github.io/Pomodoro-Timer/)
 * [LenaChestnut's Solution](https://github.com/LenaChestnut/pomodoro_timer) - [View in Browser](https://lenachestnut.github.io/pomodoro_timer/)
