@@ -20,7 +20,7 @@ Installing a Virtual Machine (VM) is the easiest and most reliable way to get st
 
 #### Step 1.2: Download Lubuntu
 
-There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Lubuntu 18.04.4](http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso). Lubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. It also looks like Windows!
+There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Lubuntu 18.04.4](http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso "Lubuntu download link"). Lubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. It also looks like Windows!
 
 ### Step 2: Install VirtualBox and set up Lubuntu
 
