@@ -3,7 +3,7 @@ This course assumes that you have a decent grasp on the fundamentals of JavaScri
 
 ### Review
 
-Our fundamentals course primarily focused on [MDN's JavaScript basics course](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) and the fantastic content from [javascript.info](http://javascript.info/).  Running through the first part of either of those exercises is a great idea for a refresher on the syntax. If you want a quicker, browser-based crash course you could race through [Codecademy](https://www.codecademy.com/learn) or [FreeCodeCamp](https://www.freecodecamp.org/) (skip the Bootstrap and jQuery sections!).
+Running through "part 1" of [MDN's JavaScript basics course](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) or doing the Basic JavaScript portion of [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) is a great idea for a refresher on the syntax. If you just want a quick reference to skim, try [LearnXinY](https://learnxinyminutes.com/docs/javascript/).
 
 It might also be a good idea to do a little practicing before moving on.  It may be a good idea to redo one of the later projects from our fundamentals course such as the calculator or rock-paper-scissors.  If you want something fresh to work on, now would be a fine time to do some coding exercises from across the net.  The following sites are all great places to look.
 

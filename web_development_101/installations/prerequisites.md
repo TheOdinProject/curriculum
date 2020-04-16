@@ -1,7 +1,7 @@
 ### Introduction
 Before we can continue, we need to set up a development environment.
 
-If you are already using **MacOS** or **Linux**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS** or **Ubuntu**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 
 <details markdown="block">
@@ -10,65 +10,98 @@ If you are already using **MacOS** or **Linux**, you can skip this section. Othe
 
 Installing a virtual machine (VM) is the easiest and most reliable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance.
 
-### Step 1: Download VirtualBox and Linux
+### Step 1: Download VirtualBox and Lubuntu
 
-Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
+Installing a Virtual Machine (VM) is the easiest and most reliable way to get started creating an environment for web development. A VM is an entire computer emulation that runs inside your current Operating System (OS), like Windows. The main drawback of a VM is that it can be slow because you’re essentially running two computers at the same time. We’ll do a few things to improve its performance.
 
 #### Step 1.1: Download VirtualBox
 
-[Click here](https://www.virtualbox.org/wiki/Downloads) and download VirtualBox for Windows hosts.
+[Click here](https://www.virtualbox.org/wiki/Downloads "VirtualBox Downloads") and download VirtualBox for Windows hosts.
 
-#### Step 1.2: Download Linux
+#### Step 1.2: Download Lubuntu
 
-There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 18.04](http://ftp.ussg.iu.edu/linux/xubuntu/18.04/release/xubuntu-18.04.3-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
+There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Lubuntu 18.04.4](http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso "Lubuntu download link"). Lubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. It also looks like Windows!
 
-### Step 2: Install VirtualBox and Set up Xubuntu
+### Step 2: Install VirtualBox and set up Lubuntu
 
 #### Step 2.1: Install VirtualBox
 
-Installing VirtualBox is very straightforward. It doesn't require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded file will start the installation process. During the installation, you'll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish. 
+Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded virtualbox file will start the installation process. During the installation, you’ll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish.
 
-#### Step 2.2: Set up Xubuntu
+#### Step 2.2: Install Lubuntu
+
 Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen.
 
-Click on the "New" button to create a virtual operating system. Give it a name of "Xubuntu", leave the "Machine Folder" as is, set the "Type" to "Linux" and be sure "Version" is set to "Ubuntu (64-bit)". Continue by pressing "Next", and choose the following options in the next steps:
+![The VirtualBox start screen](https://cdn.discordapp.com/attachments/594699048842297355/687463646523031552/00_VirtualBox_Start_Screen.png "A new start")
 
-  1. Memory size: Use 2048 MB or more if possible. Ideally, this amount should be about half of your computer's maximum memory. For example, if you have 8 GB of RAM, allocate 4048 MB to your VM's operating system.
+Click on the “New” button to create a virtual operating system. Give it a name of “Lubuntu”, leave the “Machine Folder” as is, set the “Type” to “Linux” and be sure “Version” is set to “Ubuntu (64-bit)”. Continue by pressing “Next”, and choose the following options in the next steps:
 
-  2. Hard disk: "Create a virtual hard disk".
+<img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463655696367877/01_VirtualBox_OS.png" alt="The VirtualBox Create Virtual Machine window" title="Lubuntu should make the Version be Ubuntu (64-bit) automatically">
 
-  3. Hard disk file type: Choose the VDI (VirtualBox disk image) option.
+  1. Memory size: Use 2048 MB or more if possible. Ideally, this amount should be about half of your computer’s maximum memory. For example, if you have 8 GB of RAM, allocate 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have).
+  
+  <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463663421882379/02_VirtualBox_Mem.png" alt="The VirtualBox RAM window" title="Please allow me to Google that for you">
 
-  4. Storage on physical hard disk: "Dynamically allocated".
+  2. Hard disk: Click **“Create a virtual hard disk now”.**
+  
+  <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463681331691585/03_VirtualBox_HardDisk.png" alt="The VirtualBox Create Hard Disk window 1" title="This is the default selection">
 
-  5. File location and size: We recommend at least 20 GB for the virtual hard disk.
+  3. Hard disk file type: Choose the **VDI (VirtualBox disk image)** option.
+  
+  <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463702500475001/04_VirtualBox_HardDiskType.png" alt="The VirtualBox Create Virtual Hard Disk window 2" title="This is also the default selection">
 
-After completing the last step, click the "Create" button. Your new virtual OS should now appear in the menu. Right click on it, and go to "Settings". Click on the "System" tab and then the "Processor" tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer's BIOS/UEFI settings](https://www.google.com/search?q=enable+virtualization+windows).
+  4. Storage on physical hard disk: **“Dynamically allocated”**.
+  
+  <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463713716174881/05_VirtualBox_DynamicHardDisk.png" alt="The VirtualBox Create Virtual Hard Disk window 3" title="Yet another default selection">
+                
+  5. File location and size: We recommend **at least 20 GB** for the virtual hard disk.
+  
+  <img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687463723534778398/06_VirtualBox_HardDiskSize.png" alt="The VirtualBox Create Virtual Hard Disk window 4" title="You could make it 21 GB if you want">
 
-Next, go to the "Storage" tab and in the "Attributes" column, beside the "Optical Drive" indicator, click the round, blue icon. This will present a drop-down menu. Click "Choose Virtual Optical Disk File..." and select the Xubuntu ISO file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
+After completing the last step, click the **“Create”** button. Your new virtual OS should now appear in the menu. With **Lubuntu** selected, click on the **"Settings"** button on the navigation bar, highlighted in red below.
 
-With all that complete, click "OK" to save the changes.
+<img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687466148434149408/07_VirtualBox_SettingsButton.png" alt="The VirtualBox Home screen with Lubuntu" title="Or you can right-click Lubuntu and go to Settings">
 
-You can start the VM by right clicking on the icon in the menu and by clicking the large "Start" arrow at the top.
+ Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to <a href="https://www.google.com/search?q=enable+virtualization+windows" target="_blank">enable virtualization in your computer’s BIOS/UEFI settings</a>. If you have a single core processor, you will not be able to change this setting.
+ 
+<img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687479763723354200/08_VirtualBox_Processor.png" alt="The Lubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
-When the VM starts up, you'll be asked to install Xubuntu. All of the default options can be left alone, including the Installation type ("Erase disk and install Ubuntu"). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
+Next, go to the **“Storage”** tab and in the **“Storage Devices”** column, beside the “Controller: IDE” indicator, click the round, blue icon with the green plus.
 
-The rest of the installation is pretty straightforward, but if you have any questions, you can find Ubuntu's official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0).
+<img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687480592199450744/09_VirtualBox_Storage.png" alt="The Lubuntu System Settings Storage window" title="Good-bye, CD-ROM Drive!">
+
+This will open a window called **“Optical Disk Selector”** Click the **“Add”** button, which is another blue icon with a green plus. Please locate your Lubuntu ISO you downloaded earlier and select it. If you are not sure where to find it, start by looking in your Downloads folder. Once you have selected your ISO, hit the **“Choose”** button.
+
+<img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687481963430412300/10_VirtualBox_OpticalDiskSelector.png" alt="The Lubuntu System Settings Optical Disk Selector window" title="Hello, Virtually Mounted ISO file!">
+
+If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. <u>**All other settings should remain default.**</u>
+
+<img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687484394264592535/11_VirtualBox_Monitors.png" alt="The Lubuntu System Settings Display window" title="This feature works surprisingly well">
+
+With all that complete, click **"OK"** to save the changes.
+
+You can start the VM by double-clicking **"Lubuntu"** or by clicking the large green **"Start"** button on the navigation bar.
+
+<img style="border-style:solid; border-width: thin;" src="https://cdn.discordapp.com/attachments/594699048842297355/687487045584683024/12_VirtualBox_StartItUp.png" alt="The VirtualBox start VM screen" title="Or you can right-click Lubuntu and hit Start">
+
+When the VM starts up, you’ll be asked to choose your language and to either try or install Lubuntu. If you make no decision for 30 seconds, it will launch the "Try Lubuntu without installing" option. You can reset, or double-click **"Install Lubuntu 18.04.4 LTS"**
+
+Choose your language again, hit next, and check both boxes on the **"Preparing to install Lubuntu"** page.
+
+The default options on the Installation type page should be used **(“Erase disk and install Lubuntu”)**. It may sound dangerous, but the VM can only see the “Hard Drive” of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
+
+The rest of the installation is pretty straightforward, but if you have any questions, you can find Ubuntu’s official installation guide for Ubuntu [here](https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview). Since Lubuntu is a flavor of Ubuntu, the installation is exactly the same across all flavors.
+
+**Note:** If at any point you cannot see the **"Continue"** button on your screen, pressing **"Enter"** on your keyboard will bring you to the next screen. You can also drag the installer window to the left to see the button.
+
+**Note:** If you have a Non-English-(US) keyboard, please utilize the **"Keyboard layout"** screen by clicking the **"Detect Keyboard Layout"** button and following the prompts.
 
 ### Step 3: Install and Enable Guest Additions
 
- Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. Guest Additions add a lot of functionality to the Guest OS, such as "Drag n Drop" files, full-screen guest mode, shared folders, and copy/paste between the host and guest.
+Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode.
 
-While your VM is running, do the following steps:
+Please follow the steps on this link from our [wiki](https://github.com/TheOdinProject/curriculum/wiki/Guest-Additions#2-mount-guest-additions-from-the-virtual-box-vm-title-bar "The Odin Project wiki").
 
-  1. Click "Devices" -> "Insert Guest additions CD image" in the menu bar
-  2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
-  3. The following commands will ask you to type the password you setup earlier. As you type your password, you'll notice there is no visual feedback as this is a security measure. When prompted for your password, just type it and then push Enter on your keyboard. Enter the following command into the terminal: `sudo apt-get update`. Once the command has finished, enter `sudo apt-get upgrade`. 
-  4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
-  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password.
-  6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
-  7. Click `devices` in the menu bar and go to `shared clipboard` then select the `bidirectional` option.
-  
   **NOTE**: 
 
 * If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb. 
@@ -78,27 +111,29 @@ While your VM is running, do the following steps:
 
 Here are some tips to help you get started in a virtual environment:
 
-* All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The linux installation inside of your VM also comes with a web browser pre-installed.
+* All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Lubuntu installation inside of your VM also comes with a web browser pre-installed.
 
-* To install software on your VM, you will follow the Linux installation instructions from inside the Xubuntu VM.
+* To install software on your VM, you will follow the Ubuntu installation instructions from inside the Lubuntu VM.
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
 * We recommend going full screen (Edit > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
+* If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
+
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Linux/Windows Dual-Boot
+<summary class="dropDown-header">Ubuntu/Windows Dual-Boot
 </summary>
 
 **Read this entire section before starting**
 
-Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
+Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200 "Please read the rules"). Come say "Hi"!
 
-### Step 1: Download Linux
+### Step 1: Download Ubuntu
 
-First, you need to download the version of Linux you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard [Ubuntu](https://www.ubuntu.com/download/desktop). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/). Be sure to download the 64-bit version of [Ubuntu](https://www.ubuntu.com/download/desktop/thank-you?version=18.04.1&architecture=amd64) or [Xubuntu](http://ftp.ussg.iu.edu/linux/xubuntu/18.04/release/xubuntu-18.04.3-desktop-amd64.iso).
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard [Ubuntu](https://www.ubuntu.com/download/desktop). If you're using an older computer, we recommend [Lubuntu](https://lubuntu.net/). Be sure to download the 64-bit version of [Ubuntu](https://www.ubuntu.com/download/desktop/thank-you?version=18.04.1&architecture=amd64) or [Lubuntu](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04.3-desktop-amd64.iso).
 
 ### Step 2: Create a Bootable Flash Drive
 
@@ -110,7 +145,7 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 #### Step 3.1: Boot from the Flash Drive
 
-First, you need to boot Linux on your flash drive. The exact steps may vary, but in general, you will need to do the following:
+First, you need to boot Ubuntu on your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
 * Insert the flash drive into the computer.
 * Reboot the computer.
@@ -122,7 +157,7 @@ For example, on a Dell computer, you would need to plug in the flash drive, rebo
 
 If you would like to test out the version of Ubuntu on the flash drive, click 'Try me'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step.
 
-Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Linux to 30 GB (or more if you can).
+Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
 
 For step-by-step instructions, please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
 
