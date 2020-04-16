@@ -890,4 +890,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [fussykyloren's Solution](https://github.com/fussykyloren/etch-a-sketch) - [View in Browser](https://fussykyloren.github.io/etch-a-sketch/)
 * [RackManyLoafs's Solution](https://github.com/RackManyLoafs/etch-a-sketch) - [View in Browser](https://rackmanyloafs.github.io/etch-a-sketch/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/etch-a-sketch) - [View in Browser](https://ansellmaximilian.github.io/etch-a-sketch/)
+* [OchsaufLerchenau's Solution](https://github.com/ochsauflerchenau/Etch-a-Sketch/) - [View in Browser](https://ochsauflerchenau.github.io/Etch-a-Sketch/)
 </details>
