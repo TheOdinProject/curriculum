@@ -20,7 +20,7 @@ You know what we're talking about here. Picture a nav-bar or a button and when y
 
 Mobile versions of your sites are almost definitely going to need their own menu implementation. Depending on how you decided to implement your drop-down, you _could_ reuse it here, but there are tons of more inventive options out there.
 
-1. [Browse the web](https://dribbble.com/search?q=mobile+menu) for [some](http://trydevkit.com/blog-post/steal-these-responsive-navigation-menu-ideas/bc8bec8d-ef4e-60bc-456c-525ed6f88db8) [inspiration](https://medium.com/@kollinz/hamburger-menu-alternatives-for-mobile-navigation-a3a3beb555b8), pick something and try to implement it!
+1. [Browse the web](https://dribbble.com/search?q=mobile+menu) for [some](https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0) [inspiration](https://medium.com/@kollinz/hamburger-menu-alternatives-for-mobile-navigation-a3a3beb555b8), pick something and try to implement it!
 
 ### Image slider
 
