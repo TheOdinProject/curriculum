@@ -37,7 +37,7 @@ group :production do
   gem 'skylight'
 end
 
-group :development, :test do
+group :development, :test, :docker do
   gem 'rspec-rails'
   gem 'simplecov', :require => false
   gem 'factory_bot_rails',                '~> 5'
@@ -53,7 +53,7 @@ group :development, :test do
   gem 'factory_bot'
 end
 
-group :development do
+group :development, :docker do
   gem 'web-console'
   gem 'better_errors'
   gem 'binding_of_caller',                 '~> 0.8'
