@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jeremiah's Solution](https://github.com/ToyStoryWoody/calculator) - [View in Browser](https://toystorywoody.github.io/calculator/)
 - [Johongirr's Solution](https://github.com/Johongirr/calculator) - [View in Browser](https://johongirr.github.io/calculator/)
 - [BeardedTortle's Solution](https://github.com/BeardedTortle/JavaScript-Calculator) - [View in Browser](https://BeardedTortle.github.io/JavaScript-Calculator/)
 - [ScotttP's Solution](https://github.com/ScotttP/calculator) - [View in Browser](https://scotttp.github.io/calculator/)
@@ -305,6 +306,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jstnlester's Solution](https://github.com/jstnlester/calculator) - [View in Browser](https://jstnlester.github.io/calculator/)
 - [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/TOP_JavaScript_Calculator) - [View in Browser](https://sarfrazanjum.github.io/TOP_JavaScript_Calculator/)
 - [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/calculator) - [View in Browser](https://ngovanhuong94.github.io/calculator/)
+- [Ivan's Solution](https://github.com/ivandjorgon/calculator)
 - [Mark Bungeroth's Solution](https://github.com/mbungeroth/calculator) - [View in Browser](https://mbungeroth.github.io/calculator/)
 - [autumnchris's Solution](https://github.com/autumnchris/calculator-vanilla-js) - [View in Browser](https://autumnchris.github.io/calculator-vanilla-js)
 - [Douglasbsx Solution](https://github.com/douglasbsx/calculator) - [View in Browser](https://douglasbsx.github.io/calculator/)
@@ -600,4 +602,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dams303's Solution](https://github.com/Dams303/calculator) - [View in Browser](https://dams303.github.io/calculator/)
 - [Straytjacquet's Solution](https://github.com/Straytjacquet/Calculator) - [View in Browser](https://straytjacquet.github.io/Calculator/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/js-calculator) - [View in Browser](https://ozansozuozgit.github.io/js-calculator/)
+- [mrfannin's Solution](https://github.com/mrfannin/calculator) - [View in Browser](https://mrfannin.github.io/calculator/)
 </details>

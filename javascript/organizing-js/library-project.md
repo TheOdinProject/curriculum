@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lusiann's Solution](https://github.com/Lusiann/ubiquitous-funicular) - [View in Browser](https://lusiann.github.io/ubiquitous-funicular/)
 - [PoveroCristo's Solution(no storage)](https://github.com/PoveroCristo/project-library) - [View in Browser](https://poverocristo.github.io/)
 - [AJMcDee's Solution (no storage)](https://github.com/AJMcDee/libraryProject) - [View in Browser](https://ajmcdee.github.io/libraryProject/)
 - [Andrija Jelenkovic's Solution (w/localstorage)](https://github.com/Amdrija/libraryApp) - [View in Browser](https://amdrija.github.io/libraryApp/)
