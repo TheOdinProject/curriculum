@@ -734,6 +734,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Vinnav's Solution](https://github.com/vinnav/Odin-Etch-a-sketch) - [View in Browser](https://vinnav.github.io/Odin-Etch-a-sketch/)
 * [mre91's Solution](https://github.com/mre91/etch-a-sketch) - [View in Browser](https://mre91.github.io/etch-a-sketch/)
 * [Udit's Solution (uditj97)](https://github.com/uditj97/etch-a-sketch)
+* [Ivan's Solution](https://github.com/ivandjorgon/etch-a-sketch)
 * [Synte's Solution](https://github.com/Synte/etch-a-sketch) - [View in Browser](https://synte.github.io/etch-a-sketch/)
 * [kosmos434's Solution](https://github.com/kosmos434/Etch-a-Sketch) - [View in Browser](https://kosmos434.github.io/Etch-a-Sketch/)
 * [RKRohk's Solution](https://github.com/RKRohk/EtchASketch) - [View in Browser](https://rkrohk.github.io/EtchASketch/)
