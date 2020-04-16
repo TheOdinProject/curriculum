@@ -527,4 +527,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MiDDiz's Solution](https://github.com/MiDDiz/OdinCalculator) - [View in Browser](https://middiz.github.io/OdinCalculator/)
 - [Sonya's Solution](https://github.com/murdens/calculator) - [View in Browser](https://murdens.github.io/calculator/)
 - [Ricardo Gonzalez Villegas' Solution](https://ricardo-gonzalez-villegas.github.io/calculator/)
+- [kchemutai's Solution](https://github.com/kchemutai/javascript-calculator) - [View in Browser](https://kchemutai.github.io/javascript-calculator/)
 </details>
