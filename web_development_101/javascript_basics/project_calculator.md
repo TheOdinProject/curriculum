@@ -305,6 +305,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jstnlester's Solution](https://github.com/jstnlester/calculator) - [View in Browser](https://jstnlester.github.io/calculator/)
 - [SarfrazAnjum's Solution](https://github.com/SarfrazAnjum/TOP_JavaScript_Calculator) - [View in Browser](https://sarfrazanjum.github.io/TOP_JavaScript_Calculator/)
 - [Ngo Van Huong's Solution](https://github.com/ngovanhuong94/calculator) - [View in Browser](https://ngovanhuong94.github.io/calculator/)
+- [Ivan's Solution](https://github.com/ivandjorgon/calculator)
 - [Mark Bungeroth's Solution](https://github.com/mbungeroth/calculator) - [View in Browser](https://mbungeroth.github.io/calculator/)
 - [autumnchris's Solution](https://github.com/autumnchris/calculator-vanilla-js) - [View in Browser](https://autumnchris.github.io/calculator-vanilla-js)
 - [Douglasbsx Solution](https://github.com/douglasbsx/calculator) - [View in Browser](https://douglasbsx.github.io/calculator/)
