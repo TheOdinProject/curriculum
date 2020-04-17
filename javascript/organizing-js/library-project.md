@@ -230,4 +230,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [thecodediver's Solution](https://github.com/thecodediver/library) - [View in Browser](https://thecodediver.github.io/library/)
 - [OmerGronich's Solution](https://github.com/OmerGronich/library-project) - [View in Browser](https://omergronich.github.io/library-project/)
 - [kasweigart's Solution](https://github.com/kasweigart/Library) - [View in Browser](https://kasweigart.github.io/Library/)
+- [Joe Thompson's Solution](https://github.com/jlthompso/library) - [View in Browser](https://jlthompso.github.io/library/)
 </details>
