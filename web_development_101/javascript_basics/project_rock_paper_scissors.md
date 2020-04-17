@@ -1455,5 +1455,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [marvkal's Solution](https://github.com/marvkal/Rock-Paper-Scissors)
 - [Takuya's Solution](https://github.com/TakuyaToyokawa/2-Rock-Paper-Scissors) - [View in Browser](https://takuyatoyokawa.github.io/2-Rock-Paper-Scissors/)
 - [msespos's Solution](https://github.com/msespos/rock-paper-scissors) - [View in Browser](https://msespos.github.io/rock-paper-scissors/)
+- [Kevin's Console Solution](https://github.com/kchemutai/Game) - [View in Browser](https://kchemutai.github.io/Game/)
+- [Kevin's Solution](https://github.com/kchemutai/RockPaperScissors) - [View in Browser](https://kchemutai.github.io/RockPaperScissors/)
 - [Arturo's Solution](https://github.com/StarSheriff2/Rock-Paper-Scissors---Arturo) - [View in Browser](https://starsheriff2.github.io/Rock-Paper-Scissors---Arturo/)
 </details>
