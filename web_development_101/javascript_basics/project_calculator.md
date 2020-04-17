@@ -572,6 +572,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MiDDiz's Solution](https://github.com/MiDDiz/OdinCalculator) - [View in Browser](https://middiz.github.io/OdinCalculator/)
 - [Sonya's Solution](https://github.com/murdens/calculator) - [View in Browser](https://murdens.github.io/calculator/)
 - [Ricardo Gonzalez Villegas' Solution](https://ricardo-gonzalez-villegas.github.io/calculator/)
+- [kchemutai's Solution](https://github.com/kchemutai/javascript-calculator) - [View in Browser](https://kchemutai.github.io/javascript-calculator/)
 - [Safa Erden's Solution](https://github.com/SafaErden/Calculator) - [View in Browser](https://safaerden.github.io/Calculator/)
 - [André Rodrigues's Solution](https://github.com/ARodrigues92/odin-calculator) - [View in Browser](https://arodrigues92.github.io/odin-calculator/)
 - [Courgette's Solution](https://github.com/bing0i/calculator) - [View in Browser](https://bing0i.github.io/calculator/)
@@ -603,4 +604,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Straytjacquet's Solution](https://github.com/Straytjacquet/Calculator) - [View in Browser](https://straytjacquet.github.io/Calculator/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/js-calculator) - [View in Browser](https://ozansozuozgit.github.io/js-calculator/)
 - [mrfannin's Solution](https://github.com/mrfannin/calculator) - [View in Browser](https://mrfannin.github.io/calculator/)
+- [fussykyloren's Solution](https://github.com/fussykyloren/calculator) - [View in Browser](https://fussykyloren.github.io/calculator/)
 </details>
