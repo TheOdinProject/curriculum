@@ -90,6 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Platyphyllum's Solution (Easy)](https://github.com/marboleda/google-homepage) - [View in Browser](https://marboleda.github.io/google-homepage/)
 * [AwayFromHomePlanet's Solution (Easy)](https://github.com/AwayFromHomePlanet/google-homepage) - [View in Browser](https://AwayFromHomePlanet.github.io/google-homepage/)
 * [aob123's Solution (Easy)](https://github.com/aob123/google-homepage) - [View in Browser](https://aob123.github.io/google-homepage/)
 * [Lam's Solution (Easy)](https://github.com/lamdayap/google-homepage) - [View in Browser](https://lamdayap.github.io/google-homepage/)
