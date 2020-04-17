@@ -614,6 +614,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Cinthia's Solution](https://github.com/cinthiagodoi/mastermind)
 * [Timework's Solution](https://github.com/Timework/mastermind/blob/master/mastermind.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/mastermind)
+* [Matt M's Solution](https://github.com/MattMiller1989/Mastermind)
 </details>
 
 ### Additional Resources
