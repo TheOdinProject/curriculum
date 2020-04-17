@@ -90,6 +90,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [FlamJam Solution (Easy)](https://github.com/FlamJam/google-homepage) - [View in Browser](https://flamjam.github.io/google-homepage/)
+* [Platyphyllum's Solution (Easy)](https://github.com/marboleda/google-homepage) - [View in Browser](https://marboleda.github.io/google-homepage/)
+* [AwayFromHomePlanet's Solution (Easy)](https://github.com/AwayFromHomePlanet/google-homepage) - [View in Browser](https://AwayFromHomePlanet.github.io/google-homepage/)
+* [aob123's Solution (Easy)](https://github.com/aob123/google-homepage) - [View in Browser](https://aob123.github.io/google-homepage/)
+* [Lam's Solution (Easy)](https://github.com/lamdayap/google-homepage) - [View in Browser](https://lamdayap.github.io/google-homepage/)
 * [DaniDjaoen's Solution (Easy)](https://github.com/DaniDjaoen/Google-Home-and-Search-Results-Page) - [View in Browser](https://danidjaoen.github.io/Google-Home-and-Search-Results-Page/)
 * [NickM-hash's Solution (Both)](https://github.com/NickM-hash/Simple-Projects/tree/master/google-copy) - [View in Browser](https://nickm-hash.github.io/Simple-Projects/google-copy/)
 * [BJCrossland's Solution (Easy)](https://github.com/bjcrossland/google-homepage) - [View in Browser](https://bjcrossland.github.io/google-homepage/)
@@ -3201,6 +3206,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mrkdwd's Solution (Easy)](https://github.com/mrkdwd/google-homepage) - [View in Browser](https://mrkdwd.github.io/google-homepage/)
 * [Concepta's Solution (Easy)]( https://conceptanjolima.github.io/the-google-homepage/) - [View in Browser](https://conceptanjolima.github.io/the-google-homepage/)
 * [ThomasRees42's Solution (Easy)](https://github.com/ThomasRees42/google-homepage) - [View in Browser](https://thomasrees42.github.io/google-homepage/)
+* [mkdyy´s Solution](https://github.com/NotAProgrammerdork/google-homepage) - [View in Browser](https://notaprogrammerdork.github.io/google-homepage/)
+* [Moses' solution (Easy)](https://mosesakor.github.io/google-homepage) - [View in Browser](https://mosesakor.github.io/google-homepage)
 </details>
 
 ### Additional Resources
