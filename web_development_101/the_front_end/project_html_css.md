@@ -3210,6 +3210,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Moses' solution (Easy)](https://mosesakor.github.io/google-homepage) - [View in Browser](https://mosesakor.github.io/google-homepage)
 </details>
 
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
