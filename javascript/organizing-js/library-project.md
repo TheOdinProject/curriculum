@@ -40,6 +40,14 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Arf65's Solution](https://github.com/arf65/book-list) - [View in Browser](https://arf65.github.io/book-list/)
+- [Lusiann's Solution](https://github.com/Lusiann/ubiquitous-funicular) - [View in Browser](https://lusiann.github.io/ubiquitous-funicular/)
+- [PoveroCristo's Solution(no storage)](https://github.com/PoveroCristo/project-library) - [View in Browser](https://poverocristo.github.io/)
+- [AJMcDee's Solution (no storage)](https://github.com/AJMcDee/libraryProject) - [View in Browser](https://ajmcdee.github.io/libraryProject/)
+- [Andrija Jelenkovic's Solution (w/localstorage)](https://github.com/Amdrija/libraryApp) - [View in Browser](https://amdrija.github.io/libraryApp/)
+- [Walmart-cashier's Solution](https://github.com/Walmart-cashier/Library) - [View in Browser](https://walmart-cashier.github.io/Library/)
+- [Jdonahue's Solution](https://github.com/jdonahue135/javascriptLibrary) - [View in Browser](https://jdonahue135.github.io/javascriptLibrary/)
+- [Charles Ivia's Solution](https://github.com/CharlesIvia/Library-Tracker) - [View in Browser](https://charlesivia.github.io/Library-Tracker/)
 - [Zayeer's Solution](https://github.com/Zayeer/Library) - [View in Browser](https://zayeer.github.io/Library/)
 - [AlexBoonDev's Solution](https://github.com/AlexBoonDev/Library) - [View in Browser](https://alexboondev.github.io/Library/)
 - [Adrian's Solution (w/localstorage)](https://github.com/Adrian-Cummings/library-project) - [View in Browser](https://adrian-cummings.github.io/library-project)
@@ -230,5 +238,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [thecodediver's Solution](https://github.com/thecodediver/library) - [View in Browser](https://thecodediver.github.io/library/)
 - [OmerGronich's Solution](https://github.com/OmerGronich/library-project) - [View in Browser](https://omergronich.github.io/library-project/)
 - [kasweigart's Solution](https://github.com/kasweigart/Library) - [View in Browser](https://kasweigart.github.io/Library/)
+- [kmson7's Solution](https://github.com/kmson7/library) - [View in Browser](https://kmson7.github.io/library/)
+- [m-rejdych's Solution](https://github.com/m-rejdych/Library) - [View in Browser](https://m-rejdych.github.io/Library/)
+- [Nicholas Salvatore's Solution](https://github.com/nmsalvatore/the_odin_projects/tree/master/library_v2) - [View in Browser](https://nmsalvatore.github.io/library_v2/)
+- [Givemore's Solution](https://github.com/Givemo/Library_App) - [View in Browser](https://givemo.github.io/Library_App/)
+- [Lexolf's Solution](https://github.com/lexolf/library/) - [View in Browser](https://lexolf.github.io/library/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/library) - [View in Browser](https://jlthompso.github.io/library/)
 </details>

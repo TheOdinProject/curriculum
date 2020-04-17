@@ -84,5 +84,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-test-driven-development)
 - [Aron's solution](https://github.com/aronfischer/jest_testing_basic_exercises)
 - [Ivnosing's solution](https://github.com/Ivnosing/testing-practice)
+- [barrysweeney's solution](https://github.com/barrysweeney/JestTestingPractice)
+- [gathoni's solution](https://github.com/gathoni-k/testing-practice-jest)
 </details>
 
