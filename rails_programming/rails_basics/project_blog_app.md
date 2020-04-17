@@ -18,7 +18,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/rails_basics/project_blog_app.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
