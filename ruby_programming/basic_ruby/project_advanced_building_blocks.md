@@ -428,6 +428,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/bubble_sort/bubble_sort.rb)
 * [Matt M's Solution](https://github.com/MattMiller1989/bubble-sort)
 * [mthsgrc's Solution](https://github.com/mthsgrc/sort_by/blob/master/bubble_sort.rb)
+* [Anna Olak's Solution] (https://github.com/anna1901/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
