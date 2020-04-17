@@ -240,4 +240,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [kmson7's Solution](https://github.com/kmson7/library) - [View in Browser](https://kmson7.github.io/library/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Library) - [View in Browser](https://m-rejdych.github.io/Library/)
 - [Nicholas Salvatore's Solution](https://github.com/nmsalvatore/the_odin_projects/tree/master/library_v2) - [View in Browser](https://nmsalvatore.github.io/library_v2/)
+- [Givemore's Solution](https://github.com/Givemo/Library_App) - [View in Browser](https://givemo.github.io/Library_App/)
+- [Lexolf's Solution](https://github.com/lexolf/library/) - [View in Browser](https://lexolf.github.io/library/)
 </details>

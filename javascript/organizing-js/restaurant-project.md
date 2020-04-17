@@ -151,4 +151,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [crongle's Solution](https://github.com/crongle/) - [View in Browser](https://crongle.github.io/restaurant/)
 - [Tim Kelly's Solution](https://github.com/timkellytk/project-restaurant-page) - [View in Browser](https://timkellytk.github.io/project-restaurant-page/)
 - [thecodediver's Solution](https://github.com/thecodediver/restaurant_page) - [View in Browser](https://thecodediver.github.io/restaurant_page/)
+- [m-rejdych's Solution](https://github.com/m-rejdych/Restaurant-Page) - [View in Browser](https://m-rejdych.github.io/Restaurant-Page/)
 </details>
