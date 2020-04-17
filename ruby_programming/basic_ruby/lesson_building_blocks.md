@@ -1,6 +1,6 @@
 ### Introduction
 
-Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](https://www.theodinproject.com/courses/web-development-101/lessons/ruby-basics) (if not, go do that first!), this should start as a healthy refresher of what you've already learned with *Variables, Data Types, Strings, and Methods*.  
+Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in [Ruby Basics](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/ruby_basics_lesson.md), this section will reinforce what you've already learned with *Variables, Data Types, Strings, and Methods*.  
 
 But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.  There's a whole lot of stuff to cover.  These first couple of lessons cover the broadest swathe of material of the entire Ruby course, so get stretched out and warmed up, it's time to dive in!
 

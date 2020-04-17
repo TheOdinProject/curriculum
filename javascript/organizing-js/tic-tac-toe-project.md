@@ -25,6 +25,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jdonahue135's Solution](https://github.com/jdonahue135/tic-tac-toe) - [View in Browser](https://jdonahue135.github.io/tic-tac-toe/)
+- [Andrija Jelenkovic's Solution](https://github.com/Amdrija/js-tic-tac-toe) - [View in Browser](https://amdrija.github.io/js-tic-tac-toe/)
+- [rlaake's Solution](https://github.com/rlaake/Tic-Tac-Toe) - [View in Browser](https://rlaake.github.io/Tic-Tac-Toe/)
 - [reneweiser's Solution](https://github.com/reneweiser/tictactoe) - [View in Browser](https://reneweiser.github.io/tictactoe/)
 - [jc's Solution](https://github.com/avazkhan2808/project-tic-tac) - [View in Browser](https://avazkhan2808.github.io/project-tic-tac/)
 - [MentalSkin's Solution (my own AI)](https://github.com/MentalSkin/tic-tac-toe) - [View on Browser](https://mentalskin.github.io/tic-tac-toe/)
@@ -157,4 +160,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [ranmaru22's Solution (including AI)](https://github.com/ranmaru22/the_odin_project/tree/master/tic-tac-toe) - [View in Browser](https://ranmaru22.github.io/the_odin_project/tic-tac-toe/)
 - [Tim Kelly's Solution](https://github.com/TimKellyTK/project-tic-tac-toe) - [View in Browser](https://timkellytk.github.io/project-tic-tac-toe/)
 - [OneBitBoi's Solution](https://github.com/OneBitBoi/tic_tac_toe) - [View in Browser](https://onebitboi.github.io/tic_tac_toe/)
+- [alicee88's Solution](https://github.com/alicee88/odin-tictactoe) - [View in Browser](https://alicee88.github.io/odin-tictactoe/)
+- [kasweigart's Solution](https://github.com/kasweigart/Tic-Tac-Toe) - [View in Browser](https://kasweigart.github.io/Tic-Tac-Toe/)
+- [m-rejdych's Solution](https://github.com/m-rejdych/Tic-Tac-Toe) - [View in Browser](https://m-rejdych.github.io/Tic-Tac-Toe/)
 </details>
