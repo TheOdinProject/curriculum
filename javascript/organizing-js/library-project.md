@@ -243,4 +243,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Nicholas Salvatore's Solution](https://github.com/nmsalvatore/the_odin_projects/tree/master/library_v2) - [View in Browser](https://nmsalvatore.github.io/library_v2/)
 - [Givemore's Solution](https://github.com/Givemo/Library_App) - [View in Browser](https://givemo.github.io/Library_App/)
 - [Lexolf's Solution](https://github.com/lexolf/library/) - [View in Browser](https://lexolf.github.io/library/)
+- [Joe Thompson's Solution](https://github.com/jlthompso/library) - [View in Browser](https://jlthompso.github.io/library/)
 </details>
