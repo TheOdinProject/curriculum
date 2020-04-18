@@ -27,11 +27,12 @@ If you do not know how to setup a repository, follow the instructions found in [
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH)
+- [Setting up SSH on Github](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github).
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
 5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
 If you are having trouble:
-
+  * Ensure you followed the steps [here on Step 2.3](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github) to clone from Github with SSH.
   * Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
   * Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
 
@@ -90,6 +91,10 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [FlamJam Solution (Easy)](https://github.com/FlamJam/google-homepage) - [View in Browser](https://flamjam.github.io/google-homepage/)
+* [Platyphyllum's Solution (Easy)](https://github.com/marboleda/google-homepage) - [View in Browser](https://marboleda.github.io/google-homepage/)
+* [AwayFromHomePlanet's Solution (Easy)](https://github.com/AwayFromHomePlanet/google-homepage) - [View in Browser](https://AwayFromHomePlanet.github.io/google-homepage/)
+* [aob123's Solution (Easy)](https://github.com/aob123/google-homepage) - [View in Browser](https://aob123.github.io/google-homepage/)
 * [Lam's Solution (Easy)](https://github.com/lamdayap/google-homepage) - [View in Browser](https://lamdayap.github.io/google-homepage/)
 * [DaniDjaoen's Solution (Easy)](https://github.com/DaniDjaoen/Google-Home-and-Search-Results-Page) - [View in Browser](https://danidjaoen.github.io/Google-Home-and-Search-Results-Page/)
 * [NickM-hash's Solution (Both)](https://github.com/NickM-hash/Simple-Projects/tree/master/google-copy) - [View in Browser](https://nickm-hash.github.io/Simple-Projects/google-copy/)
@@ -3202,6 +3207,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mrkdwd's Solution (Easy)](https://github.com/mrkdwd/google-homepage) - [View in Browser](https://mrkdwd.github.io/google-homepage/)
 * [Concepta's Solution (Easy)]( https://conceptanjolima.github.io/the-google-homepage/) - [View in Browser](https://conceptanjolima.github.io/the-google-homepage/)
 * [ThomasRees42's Solution (Easy)](https://github.com/ThomasRees42/google-homepage) - [View in Browser](https://thomasrees42.github.io/google-homepage/)
+* [mkdyy´s Solution](https://github.com/NotAProgrammerdork/google-homepage) - [View in Browser](https://notaprogrammerdork.github.io/google-homepage/)
+* [Moses' solution (Easy)](https://github.com/mosesakor/google-homepage) - [View in Browser](https://mosesakor.github.io/google-homepage)
+* [BatsWithHats Solution (Easy)]https://github.com/batswithhats/google-homepage/) - [View in Browser](https://batswithhats.github.io/google-homepage/)
+* [nevohesa's Solution (Easy)](https://github.com/nevohesa/google-homepage) - [View in Browser](https://nevohesa.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

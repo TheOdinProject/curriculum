@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/tic_tac_toe.rb)
 * [Thiago Miranda's Solution](https://github.com/SevlaMare/TicTacToe_Ruby) - [View in repl.it](https://repl.it/@ThiagoMiranda2/tictactoeruby)
 * [leetie's Solution](https://github.com/leetie/tic_tac_toe)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Tic-Tac-Toe)
@@ -335,6 +336,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cinthia's solution](https://github.com/cinthiagodoi/tic_tac_toe)
 * [Timework's solution](https://github.com/Timework/ticTac/blob/master/tic.rb)
 * [Kendra Moyars's solution](https://github.com/kendramoyars/tic-tac-toe/blob/master/tic-tac-toe.rb)
+* [Matt Miller's solution](https://github.com/MattMiller1989/Tic-Tac-Toe/blob/master/Tic-Tac-Toe.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/tic-tac-toe)
 </details>
 
 ### Project 2: Mastermind
@@ -611,6 +614,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/mastermind)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/mastermind)
 * [Timework's Solution](https://github.com/Timework/mastermind/blob/master/mastermind.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/mastermind)
+* [Matt M's Solution](https://github.com/MattMiller1989/Mastermind)
 </details>
 
 ### Additional Resources
