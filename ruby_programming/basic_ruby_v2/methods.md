@@ -1,5 +1,5 @@
 ### Introduction
-In Ruby, methods are where all the action happens! 
+In Ruby, methods are where all the action happens!
 
 You will often find yourself writing code that does the same thing in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time? This is what methods are for! Methods allow you to name sections of your code and then run that code anywhere in your program as many times as you need just by calling that name.
 
@@ -15,7 +15,7 @@ In this lesson, we're going to deconstruct what methods are, examine their behav
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
- 
+
  - Explain how to create and call a new method.
  - Explain how to pass variables to a method and how to define default parameters.
  - Describe the differences between implicit return and explicit return.
@@ -29,7 +29,7 @@ One of Ruby's great advantages for new programmers is its large number of built-
 
 If you're wondering about all of the pound signs (`#`), they're just [the convention](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign) for writing out Ruby instance methods. We can use them to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context. Note that in the development world, you shouldn't call these ["hashtags"](https://help.twitter.com/en/using-twitter/how-to-use-hashtags). If you want to be super awesome, though, you can call them ["octothorpes"](https://en.wiktionary.org/wiki/octothorpe). That word is totally trending.
 
-Methods are typically called by adding `.method_name` after an instance of the object that contains that method. 
+Methods are typically called by adding `.method_name` after an instance of the object that contains that method.
 
 ~~~ruby
 "anything".reverse
@@ -43,7 +43,7 @@ However, there are also some built-in methods that Ruby makes globally accessibl
 puts "anything" #=> anything
 ~~~
 
-It's worth noting that in most languages, arguments are passed to methods by wrapping them in parentheses `()`. In Ruby, however, the parentheses are *generally* optional. We could rewrite the above code as `puts("anything")`, which Ruby would interpret in the same way. 
+It's worth noting that in most languages, arguments are passed to methods by wrapping them in parentheses `()`. In Ruby, however, the parentheses are *generally* optional. We could rewrite the above code as `puts("anything")`, which Ruby would interpret in the same way.
 
 ### Creating a Method
 
@@ -80,7 +80,7 @@ Here are some things you are not allowed to do with your method names:
 
 Here are some examples of valid and invalid method names:
 
-~~~
+~~~ruby
 method_name      # valid
 _name_of_method  # valid
 1_method_name    # invalid
@@ -93,7 +93,7 @@ begin_count      # valid
 
 Can you tell why some of these names are invalid?
 
-In general, short but descriptive is the name of the naming game. You want to be able to tell what a method is expected to do based on its name, so please don't name your method `do_stuff`. 
+In general, short but descriptive is the name of the naming game. You want to be able to tell what a method is expected to do based on its name, so please don't name your method `do_stuff`.
 
 If your method does so many things that you feel it requires a very long name, then your method should probably be broken up into several smaller and simpler methods. Ideally, each method should do only one thing. This practice will pay dividends down the road in terms of readability, scalability, and maintainability. (It also makes testing your code a lot easier, which will be covered in a later lesson.)
 
@@ -128,7 +128,7 @@ puts greet #=> Hello, stranger!
 
 ### What Methods Return
 
-An important detail that a programmer must learn is understanding what your methods **return**. Having a good understanding of what your methods are returning is an important part of debugging your code when things don't behave as expected. 
+An important detail that a programmer must learn is understanding what your methods **return**. Having a good understanding of what your methods are returning is an important part of debugging your code when things don't behave as expected.
 
 How do we tell our methods what to return? Let's revisit our `my_name` example method:
 
@@ -205,7 +205,7 @@ A common source of confusion for new programmers is the difference between `puts
 
  * `puts` is a method that prints whatever argument you pass it to the console.
  * `return` is the final output of a method that you can use in other places throughout your code.
- 
+
 For example, we can write a method that calculates the square of a number and then `puts` the output to the console.
 
 ~~~ruby
@@ -298,8 +298,8 @@ Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.down
 
 1. For a good introduction to all the different concepts related to methods, read the [Methods chapter](https://launchschool.com/books/ruby/read/methods) from Launch School's *Introduction to Programming with Ruby*. Make sure to do the exercises at the end of the chapter too!
 2. To get a different take, read the part of the Objects section that discusses [Methods](http://ruby-for-beginners.rubymonstas.org/objects/methods.html) from Ruby Monsta's *Ruby for Beginners*.
-3. For more depth on how you can write your own methods, read the section on [Writing Methods](http://ruby-for-beginners.rubymonstas.org/writing_methods.html) from Ruby Monsta's *Ruby for Beginners*. 
-</div> 
+3. For more depth on how you can write your own methods, read the section on [Writing Methods](http://ruby-for-beginners.rubymonstas.org/writing_methods.html) from Ruby Monsta's *Ruby for Beginners*.
+</div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
