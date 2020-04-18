@@ -21,6 +21,7 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ahmad Ali's solution] - [Live website](https://www.ahmad-ali.co.uk/)
 * [Hammad Ahmed's solution] - [Live website](https://shammadahmed.github.io/)
 * [Kumar Shubhranshu's solution] - [Live website](https://kshubhranshu.github.io)
 * [thghall's solution] - [Live website](https://theghall.github.io/portfolio/)
