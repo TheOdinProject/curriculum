@@ -284,4 +284,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/hangman)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/hangman)
 * [Timework's Solution](https://github.com/Timework/hangMan/blob/master/hang.rb)
+* [Matt M's Solution](https://github.com/MattMiller1989/Hangman)
 </details>
