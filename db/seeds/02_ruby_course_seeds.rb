@@ -37,7 +37,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/introduction/lesson_how_this_course_will_work.md",
+  url: "/ruby_programming/introduction/how_this_course_will_work.md",
   repo: 'curriculum'
 )
 
@@ -74,7 +74,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/basic_data_types.md",
+  url: "/ruby_programming/basic_ruby/basic_data_types.md",
   repo: 'curriculum'
 )
 
@@ -86,7 +86,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/variables.md",
+  url: "/ruby_programming/basic_ruby/variables.md",
   repo: 'curriculum'
 )
 
@@ -98,7 +98,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/input_and_output.md",
+  url: "/ruby_programming/basic_ruby/input_and_output.md",
   repo: 'curriculum'
 )
 
@@ -110,7 +110,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/conditional_logic.md",
+  url: "/ruby_programming/basic_ruby/conditional_logic.md",
   repo: 'curriculum'
 )
 
@@ -122,7 +122,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/loops.md",
+  url: "/ruby_programming/basic_ruby/loops.md",
   repo: 'curriculum'
 )
 
@@ -134,7 +134,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/arrays.md",
+  url: "/ruby_programming/basic_ruby/arrays.md",
   repo: 'curriculum'
 )
 
@@ -146,7 +146,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/hashes.md",
+  url: "/ruby_programming/basic_ruby/hashes.md",
   repo: 'curriculum'
 )
 
@@ -158,7 +158,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/basic_enumerable_methods.md",
+  url: "/ruby_programming/basic_ruby/basic_enumerable_methods.md",
   repo: 'curriculum'
 )
 
@@ -170,7 +170,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/methods.md",
+  url: "/ruby_programming/basic_ruby/methods.md",
   repo: 'curriculum'
 )
 
@@ -182,7 +182,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/debugging.md",
+  url: "/ruby_programming/basic_ruby/debugging.md",
   repo: 'curriculum'
 )
 
@@ -194,7 +194,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby_v2/problem_solving.md",
+  url: "/ruby_programming/basic_ruby/problem_solving.md",
   repo: 'curriculum'
 )
 
