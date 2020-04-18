@@ -5,6 +5,20 @@ You don't need a personal website right off the bat but it's good to have and it
 For this project, it's best for you to identify the personal websites of several people you admire and see what you think they've done right.  In general, it's best to keep your site simple, clean and to the point rather than bloated and full of "look what I can do!" features.  Let your portfolio of work speak for itself.
 
 * [Why Every Job Seeker Should Have a Personal Website](http://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/)
+<details markdown="block">
+  <summary> Here are few personal porfolio list by Developers</summary>
+
+* [Vashisth Bhushan's solution] - [Live website](https://www.vashisthbhushan.com/)
+* [Javier Machin's solution] - [Live website](https://www.javiermachin.com/)
+* [Scott Huang's solution] - [Live website](https://www.huangscott.com)
+* [Krzysztof Sordyl's solution] - [Live website](https://sordyl.me)
+* [Mohd Danish's solution] - [Live website](https://mohddanish.me/)
+* [Robwert Wade's solution] - [Live website](https://www.robert-wade.de/)
+* [Joe Webster's solution] - [Live website](http://joewebsta.github.io/)
+* [Sparking2's solution] - [Live website](https://sparking2.github.io/)
+* [Braxton Massengale's solution] - [Live website](https://braxtonmassengale.com/)
+</details>
+
 
 ### Documentation
 
@@ -20,21 +34,17 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this line!
-* [Hammad Ahmed's solution] - [Live website](https://shammadahmed.github.io/)
+Here are some personal portfolio build by Odin's learners!
+* [Jonathan Yiv's solution] - [Live website](https://jonathanyiv.github.io)
 * [Kumar Shubhranshu's solution] - [Live website](https://kshubhranshu.github.io)
+* [Hammad Ahmed's solution] - [Live website](https://shammadahmed.github.io/)
 * [thghall's solution] - [Live website](https://theghall.github.io/portfolio/)
 * [David Chapman's solution] - [Live website](http://portfolio.dachapman.com/)
 * [Dennis Cope's solution] - [Live Website](https://coped.dev/)
 * [Eric Gonzalez solution] - [Live website](https://www.eric-gonzalez.com/)
-* [Jonathan Yiv's solution] - [Live website](https://jonathanyiv.github.io)
-* [Vashisth Bhushan's solution] - [Live website](https://www.vashisthbhushan.com/)
-* [Javier Machin's solution] - [Live website](https://www.javiermachin.com/)
 * [Tommy's solution] - [Live website](https://tommyhoang.com)//
-* [Scott Huang's solution] - [Live website](https://www.huangscott.com)
-* [Krzysztof Sordyl's solution] - [Live website](https://sordyl.me)
 * [Parth Vatsalya's solution] - [Live website](https://parthvatsalya.com/)
 * [Jure Sorn's solution] - [Live website](https://gto76.github.io/)
-* [Mohd Danish's solution] - [Live website](https://mohddanish.me/)
 * [Mark Lawrence's solution] - [Live website](https://mark-lawrence-dev.surge.sh/)
+* [Alex Schwartz's's solution] - [Live website](http://alex-schwartz.com/)
 </details>
