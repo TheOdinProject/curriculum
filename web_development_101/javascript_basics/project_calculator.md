@@ -53,7 +53,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Christian's Solution](https://github.com/rueeazy/calculator) - [View in Browser](https://rueeazy.github.io/calculator/)
 - [Tunztunztunz's Solution](https://github.com/tunztunztunz/calculator) - [View in Browser](https://tunztunztunz.github.io/calculator/)
 - [themansbak's Solution](https://github.com/themansbak/javascript-calculator) - [View in Browser](https://themansbak.github.io/javascript-calculator/)
-- [iStayGrizzly's Solution](https://github.com/iStayGrizzly/js-calculator) - [View in Browser](https://istaygrizzly.github.io/js-calculator/)
+- [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/js-calculator) - [View in Browser](https://saul-good-homie.github.io/js-calculator/)
 - [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/calculator) - [View in Browser](https://aaronhalstonlee.github.io/calculator/)
 - [Cole-0's Solution](https://github.com/Cole-0/Simplest-of-calculators)
 - [MrLupine's Solution](https://github.com/MrLupine/calculator) - [View in Browser](https://mrlupine.github.io/calculator/)
