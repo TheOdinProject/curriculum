@@ -3,3 +3,6 @@ This is a PR template. If you are adding a solution link to the curriculum, leav
 Thank you,
 
 The Odin Project team.
+adding my solution to the google project really not sure if this is how.
+
+https://brianwhelan1984.github.io/google-easy/
