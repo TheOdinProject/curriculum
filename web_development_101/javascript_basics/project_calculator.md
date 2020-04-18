@@ -607,4 +607,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mrfannin's Solution](https://github.com/mrfannin/calculator) - [View in Browser](https://mrfannin.github.io/calculator/)
 - [fussykyloren's Solution](https://github.com/fussykyloren/calculator) - [View in Browser](https://fussykyloren.github.io/calculator/)
 - [Rémi Borfigat’s Solution](https://github.com/remiborfigat/calculator)
+- [c-squared87's Solution](https://github.com/c-squared87/js_calculator) - [View in Browser](https://c-squared87.github.io/js_calculator/)
 </details>
