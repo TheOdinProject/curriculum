@@ -43,6 +43,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [rpllpr's Solution](https://github.com/rpllpr/etch-a-sketch) - [View in Browser](https://rpllpr.github.io/etch-a-sketch/)
+* [jvelardis Solution](https://github.com/jvelardi/etchasketch) - [View in Browser](https://jvelardi.github.io/etchasketch/)
 * [Shubham's Solution](https://github.com/mubshah/etch-a-sketch) - [View in Browser](https://mubshah.github.io/etch-a-sketch/)
 * [eugeneGrossman's Solution](https://github.com/eugenegrossman/sketchy) - [View in Browser](https://eugenegrossman.github.io/sketchy/)
 * [Alex Schwartz's Solution](https://github.com/ofthesoul/etchasketch) - [View in Browser](https://ofthesoul.github.io/etchasketch/)
@@ -891,4 +893,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [RackManyLoafs's Solution](https://github.com/RackManyLoafs/etch-a-sketch) - [View in Browser](https://rackmanyloafs.github.io/etch-a-sketch/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/etch-a-sketch) - [View in Browser](https://ansellmaximilian.github.io/etch-a-sketch/)
 * [OchsaufLerchenau's Solution](https://github.com/ochsauflerchenau/Etch-a-Sketch/) - [View in Browser](https://ochsauflerchenau.github.io/Etch-a-Sketch/)
+* [Kevin's Solution](https://github.com/kchemutai/Etch-A-Sketch) - [View in Browser](https://kchemutai.github.io/Etch-A-Sketch/)
+* [MatyD's Solution](https://github.com/MatyD356/drawfun) - [View in Browser](https://matyd356.github.io/drawfun/)
 </details>

@@ -39,6 +39,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+<<<<<<< HEAD
+=======
+* [tenacious-qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/bubble_sort.rb)
+>>>>>>> 09ddd28f6fc0a374d3c4ca174cd644154e1fd159
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Bubble_Sort/blob/master/bubble_sort.rb) - [View Demo](https://repl.it/@andrewbaldwin44/BubbleSort)
 * [Thiago's Solution](https://github.com/SevlaMare/bubble_sort_ruby) - [View Demo](https://repl.it/@ThiagoMiranda2/bubblesortV0)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/bubble-sort.rb)
@@ -426,6 +430,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/bubble-sort)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/bubble_sort/bubble_sort.rb)
 * [Matt M's Solution](https://github.com/MattMiller1989/bubble-sort)
+* [mthsgrc's Solution](https://github.com/mthsgrc/sort_by/blob/master/bubble_sort.rb)
+* [Anna Olak's Solution] (https://github.com/anna1901/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
