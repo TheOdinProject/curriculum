@@ -63,66 +63,199 @@ section = create_or_update_section(
   title_url: "Basic Ruby".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section, we'll cover the basic building blocks of Ruby so you have them down cold.  Everything else you'll learn in programming builds on these concepts, so you'll be in a great place to take on additional projects and languages in the future."
+  description: "In this section, we'll cover the basic building blocks of Ruby so you have them down cold. Everything else you'll learn in programming builds on these concepts, so you'll be in a great place to take on additional projects and languages in the future."
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Ruby Building Blocks",
-  title_url: "Ruby Building Blocks".parameterize,
-  description: "A more in-depth look at the Ruby fundamentals like Variables, Data Types, Strings, and Methods.",
+  title: "Basic Data Types",
+  title_url: "Basic Data Types".parameterize,
+  description: "In this lesson we will explore the basic data types at your disposal in Ruby.",
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby/lesson_building_blocks.md",
+  url: "/ruby_programming/basic_ruby_v2/basic_data_types.md",
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Ruby",
-  title_url: "Ruby".parameterize,
-  description: "Time to apply what you've learned about Ruby by making the tests pass on a number of exercises that range from goofy to challenging",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/ruby_programming/basic_ruby/ruby_project.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Building Blocks",
-  title_url: "Building Blocks".parameterize,
-  description: "It's time to start getting used to building scripts without the training wheels on.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: "/ruby_programming/basic_ruby/project_building_blocks.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Advanced Ruby Building Blocks",
-  title_url: "Advanced Ruby Building Blocks".parameterize,
-  description: "We'll continue our journey into the fundamentals, this time with Control Flow, Looping, Arrays, Hashes, Blocks and Sorting.",
+  title: "Variables",
+  title_url: "Variables".parameterize,
+  description: "In this lesson we will explore how to use Variables in Ruby.",
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/ruby_programming/basic_ruby/lesson_advanced_building_blocks.md",
+  url: "/ruby_programming/basic_ruby_v2/variables.md",
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Advanced Building Blocks",
-  title_url: "Advanced Building Blocks".parameterize,
-  description: "Now you'll get the chance to really apply what you've learned so far by building a simple cipher and rebuilding the Enumerable methods that you'll use all the time going forward.",
+  title: "Input and Output",
+  title_url: "Input and Output".parameterize,
+  description: "In this lesson we will explore how to input and output data in your Ruby programs.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/input_and_output.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Conditional Logic",
+  title_url: "Conditional Logic".parameterize,
+  description: "In this lesson we will explore how to make decisions in Ruby so your programs can take different paths.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/conditional_logic.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Loops",
+  title_url: "Loops".parameterize,
+  description: "In this lesson we will explore how to utilize loops in Ruby so you don't have to repeat yourself quite as much.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/loops.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Arrays",
+  title_url: "Arrays".parameterize,
+  description: "In this lesson we will explore how to use arrays in Ruby and start using lists of data.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/arrays.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Hashes",
+  title_url: "Arrays".parameterize,
+  description: "In this lesson we will explore how to use hashes in Ruby and start using key, value pairs of data.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/hashes.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Basic Enumerable Methods",
+  title_url: "Basic Enumerable Methods".parameterize,
+  description: "In this lesson we will explore Rubys secret weapon, its enumerable methods.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/basic_enumerable_methods.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Methods",
+  title_url: "Methods".parameterize,
+  description: "In this lesson we will explore how to make your code more modular with methods.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/methods.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Debugging",
+  title_url: "Debugging".parameterize,
+  description: "In this lesson we will explore how to debug your code when things go wrong.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/debugging.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Problem Solving",
+  title_url: "Problem Solving".parameterize,
+  description: "In this lesson we will explore how to approach solving programming problems.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby_v2/problem_solving.md",
+  repo: 'curriculum'
+)
+
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+  title: "Basic Ruby Projects",
+  title_url: "Basic Ruby Projects".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "In this section we will solidify your basic Ruby knowledge by practicing with a few small projects."
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Caesar Cipher",
+  title_url: "Caesar Cipher".parameterize,
+  description: "In this project you will build you're very own message encryption program.",
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/ruby_programming/basic_ruby/project_advanced_building_blocks.md",
+  url: "/ruby_programming/basic_ruby_projects/caesar_cipher.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Sub Strings",
+  title_url: "Sub Strings".parameterize,
+  description: "In this project you will build a program which identifies all the sub-strings in a larger string.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: "/ruby_programming/basic_ruby_projects/sub_strings.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Stock Picker",
+  title_url: "Stock Picker".parameterize,
+  description: "In this project you will build a simple program that will tell its user the best day to buy stocks.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: "/ruby_programming/basic_ruby_projects/stock_picker.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: "Bubble Sort",
+  title_url: "Bubble Sort".parameterize,
+  description: "In this project you will build a simple sorting algorithm.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: "/ruby_programming/basic_ruby_projects/bubble_sort.md",
   repo: 'curriculum'
 )
 
