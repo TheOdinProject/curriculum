@@ -428,6 +428,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/bubble_sort/bubble_sort.rb)
 * [Matt M's Solution](https://github.com/MattMiller1989/bubble-sort)
 * [mthsgrc's Solution](https://github.com/mthsgrc/sort_by/blob/master/bubble_sort.rb)
+* [Anna Olak's Solution] (https://github.com/anna1901/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
@@ -475,7 +476,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [TAndrew Baldwin's Solution](https://github.com/andrewbaldwin44/Custom_Enumerables/blob/master/custom_enumerables.rb) - [View Demo](https://repl.it/@andrewbaldwin44/CustomEnumerables)
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Custom_Enumerables/blob/master/custom_enumerables.rb) - [View Demo](https://repl.it/@andrewbaldwin44/CustomEnumerables)
 * [Thiago Miranda's Solution](https://github.com/SevlaMare/enumerables) - [View Demo](https://repl.it/@ThiagoMiranda2/enumerables)
 * [Aulbourn's Solution](https://github.com/aulbytj/Enumerable/blob/develop/main.rb)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/enumerable.rb)

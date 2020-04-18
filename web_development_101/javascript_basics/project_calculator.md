@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Le-santos's Solution](https://github.com/le-santos/basic-calculator) - [View in Browser](https://le-santos.github.io/basic-calculator/)  
 - [Jeremiah's Solution](https://github.com/ToyStoryWoody/calculator) - [View in Browser](https://toystorywoody.github.io/calculator/)
 - [Johongirr's Solution](https://github.com/Johongirr/calculator) - [View in Browser](https://johongirr.github.io/calculator/)
 - [BeardedTortle's Solution](https://github.com/BeardedTortle/JavaScript-Calculator) - [View in Browser](https://BeardedTortle.github.io/JavaScript-Calculator/)
@@ -605,4 +606,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/js-calculator) - [View in Browser](https://ozansozuozgit.github.io/js-calculator/)
 - [mrfannin's Solution](https://github.com/mrfannin/calculator) - [View in Browser](https://mrfannin.github.io/calculator/)
 - [fussykyloren's Solution](https://github.com/fussykyloren/calculator) - [View in Browser](https://fussykyloren.github.io/calculator/)
+- [Rémi Borfigat’s Solution](https://github.com/remiborfigat/calculator)
 </details>

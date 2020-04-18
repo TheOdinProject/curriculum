@@ -228,6 +228,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/recursion.rb)
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/fibonacci.rb)
 * [Timework's Solution](https://github.com/Timework/fib/blob/master/fibb.rb)
+* [Matt M's Solution](https://github.com/MattMiller1989/Fibonacci)
 </details>
 
 ### Project: Merge Sort
