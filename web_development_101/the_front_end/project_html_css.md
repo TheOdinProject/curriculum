@@ -92,6 +92,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Cesar's Solution (Both)](https://github.com/Cesar-rdgz/google-homepage) - [View in Browser](https://cesar-rdgz.github.io/google-homepage/)
+* [brianwhelan1984's Solution (Easy)](https://github.com/brianwhelan1984/google-easy) - [View in Browser](https://brianwhelan1984.github.io/google-easy/)
 * [ChargrilledChook's Solution (Easy)](https://github.com/ChargrilledChook/google-homepage) - [View in Browser](https://chargrilledchook.github.io/google-homepage/)
 * [FlamJam Solution (Easy)](https://github.com/FlamJam/google-homepage) - [View in Browser](https://flamjam.github.io/google-homepage/)
 * [Platyphyllum's Solution (Easy)](https://github.com/marboleda/google-homepage) - [View in Browser](https://marboleda.github.io/google-homepage/)
@@ -3214,8 +3215,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [BatsWithHats Solution (Easy)]https://github.com/batswithhats/google-homepage/) - [View in Browser](https://batswithhats.github.io/google-homepage/)
 * [nevohesa's Solution (Easy)](https://github.com/nevohesa/google-homepage) - [View in Browser](https://nevohesa.github.io/google-homepage/)
 * [Sandy's Solution (Easy)](https://github.com/kuosandys/google-homepage) - [View in Browser](https://kuosandys.github.io/google-homepage/)
-*[ArcadiaRift's Solution (Easy)](https://github.com/ArcadiaRift/google-homepage) - [View in Browser](https://arcadiarift.github.io/google-homepage)
-
+* [ArcadiaRift's Solution (Easy)](https://github.com/ArcadiaRift/google-homepage) - [View in Browser](https://arcadiarift.github.io/google-homepage)
+* [Javolpe's Solution (Easy)](https://github.com/javolpe/google-homepage)
 </details>
 
 ### Additional Resources
