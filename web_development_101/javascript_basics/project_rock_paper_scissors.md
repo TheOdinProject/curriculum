@@ -41,15 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Lam's Solution](https://lamdayap.github.io/rock-paper-scissors/)
-=======
 - [BargeLeveler7's Solution](https://github.com/BargeLeveler7/Rock_Paper_Scissors)
 - [nilsimda's Solution](https://github.com/nilsimda/rock-paper-scissors) - [View in Browser](https://nilsimda.github.io/rock-paper-scissors/)
 - [Vinu's Solution](https://github.com/Vinu-Devaraj/Rock-Paper-Scissor)
 - [Sara's Solution](https://github.com/Sarajvega/RockPaperScissors/blob/master/RPS.html) - [View in Browser](https://Sarajvega.github.io/RockPaperScissors)
 - [Spark's Solution](https://github.com/Sparking2/rock-paper-scissors)
->>>>>>> master
 - [andrewjh271's Solution](https://github.com/andrewjh271/RockPaperScissors)
 - [Nathan's Solution](https://github.com/NathanJReidy/SPR) - [View in Browser](https://nathanjreidy.github.io/SPR/#the_game)
 - [Tomodi98's Solution](https://github.com/Tomodi98/rock-paper-scissors)
