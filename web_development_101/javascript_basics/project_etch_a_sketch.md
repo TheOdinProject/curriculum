@@ -895,6 +895,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [OchsaufLerchenau's Solution](https://github.com/ochsauflerchenau/Etch-a-Sketch/) - [View in Browser](https://ochsauflerchenau.github.io/Etch-a-Sketch/)
 * [Kevin's Solution](https://github.com/kchemutai/Etch-A-Sketch) - [View in Browser](https://kchemutai.github.io/Etch-A-Sketch/)
 * [MatyD's Solution](https://github.com/MatyD356/drawfun) - [View in Browser](https://matyd356.github.io/drawfun/)
-* [sokafootball's Solution](https://sokafootball.github.io/etch-a-sketch/) - [View in Browser](https://sokafootball.github.io/etch-a-sketch/)
+* [sokafootball's Solution](https://github.com/sokafootball/etch-a-sketch/) - [View in Browser](https://sokafootball.github.io/etch-a-sketch/)
 
 </details>
