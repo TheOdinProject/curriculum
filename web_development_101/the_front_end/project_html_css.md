@@ -27,11 +27,12 @@ If you do not know how to setup a repository, follow the instructions found in [
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH)
+- [Setting up SSH on Github](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github).
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
 5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
 If you are having trouble:
-
+  * Ensure you followed the steps [here on Step 2.3](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github) to clone from Github with SSH.
   * Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
   * Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
 
@@ -90,6 +91,17 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [FlamJam Solution (Easy)](https://github.com/FlamJam/google-homepage) - [View in Browser](https://flamjam.github.io/google-homepage/)
+* [Platyphyllum's Solution (Easy)](https://github.com/marboleda/google-homepage) - [View in Browser](https://marboleda.github.io/google-homepage/)
+* [AwayFromHomePlanet's Solution (Easy)](https://github.com/AwayFromHomePlanet/google-homepage) - [View in Browser](https://AwayFromHomePlanet.github.io/google-homepage/)
+* [aob123's Solution (Easy)](https://github.com/aob123/google-homepage) - [View in Browser](https://aob123.github.io/google-homepage/)
+* [Lam's Solution (Easy)](https://github.com/lamdayap/google-homepage) - [View in Browser](https://lamdayap.github.io/google-homepage/)
+* [DaniDjaoen's Solution (Easy)](https://github.com/DaniDjaoen/Google-Home-and-Search-Results-Page) - [View in Browser](https://danidjaoen.github.io/Google-Home-and-Search-Results-Page/)
+* [NickM-hash's Solution (Both)](https://github.com/NickM-hash/Simple-Projects/tree/master/google-copy) - [View in Browser](https://nickm-hash.github.io/Simple-Projects/google-copy/)
+* [BJCrossland's Solution (Easy)](https://github.com/bjcrossland/google-homepage) - [View in Browser](https://bjcrossland.github.io/google-homepage/)
+* [FirasGit's Solution (Easy)](https://github.com/FirasGit/google-homepage) - [View in Browser](https://firasgit.github.io/google-homepage/)
+* [Byron Parker's Solution (Easy)](https://github.com/bzparkes/googlehp_project) - [View in Browser](https://bzparkes.github.io/googlehp_project/)
+* [ruizaj13's Solution (Easy)](https://github.com/ruizaj13/google-homepage) - [View in Browser](https://ruizaj13.github.io/google-homepage)
 * [mattfergoda's Solution (Easy)](https://github.com/mattfergoda/google-homepage-replica) - [View in Browser](https://mattfergoda.github.io/google-homepage-replica/)
 * [SamEff's Solution (Easy)](https://github.com/SamEff/google-homepage) - [View in Browser](https://SamEff.github.io/google-homepage/)
 * [J-SophieCodes' Solution (Both)](https://j-sophiecodes.github.io/google-homepage/) - [View in Browser](https://j-sophiecodes.github.io/google-homepage/)
@@ -3161,6 +3173,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [MattMiller1989's Solution (Easy)](https://github.com/mattmiller1989/google-homepage/) - [View in Browser](https://mattmiller1989.github.io/google-homepage/)
 * [danizzaMoliv's Solution (Easy)](https://github.com/danizzaMoliv/google-homepage) - [View in Browser](https://danizzamoliv.github.io/google-homepage/)
 * [zjohnson715's Solution (Easy)](https://github.com/zjohnson715/google-homepage) - [View in Browser](https://zjohnson715.github.io/google-homepage/)
+* [calista's Solution (Easy)](https://github.com/milicen/google-homepage) - [View in Browser](https://milicen.github.io/google-homepage/)
 * [sahion's Solution (Easy)](https://github.com/sahion/google-homepage) - [View in Browser](https://sahion.github.io/google-homepage/)
 * [NickDiPreta's Solution (Easy)](https://github.com/NickDiPreta/google-homepage) - [View in Browser](https://nickdipreta.github.io/google-homepage/)
 * [MegRuf's Solution (Easy)](https://github.com/MegRuf/google-homepage) - [View in Browser](https://megruf.github.io/google-homepage/) 
@@ -3189,6 +3202,15 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Szymon Chełkowski's Solution (Easy)](https://github.com/szchelkowski/google-homepage) - [View in Browser](https://szchelkowski.github.io/google-homepage/)
 * [Mousam's Solution (Easy)](https://github.com/mousamdhakal/google-homepage-clone) - [View in Browser](http://mousamdhakal.me/google-homepage-clone/)
 * [giantkelp's Solution (Easy)](https://github.com/giantkelp/odin-google-homepage) - [View in Browser](https://giantkelp.github.io/odin-google-homepage/)
+* [Jayermidis's Soltuion (Easy)](https://github.com/JayErmidis/google-homepage)
+* [Jocke1234's Solution (Easy)](https://github.com/jocke1234/google-homepage) - [View in Browser](https://jocke1234.github.io/google-homepage/)
+* [mrkdwd's Solution (Easy)](https://github.com/mrkdwd/google-homepage) - [View in Browser](https://mrkdwd.github.io/google-homepage/)
+* [Concepta's Solution (Easy)]( https://conceptanjolima.github.io/the-google-homepage/) - [View in Browser](https://conceptanjolima.github.io/the-google-homepage/)
+* [ThomasRees42's Solution (Easy)](https://github.com/ThomasRees42/google-homepage) - [View in Browser](https://thomasrees42.github.io/google-homepage/)
+* [mkdyy´s Solution](https://github.com/NotAProgrammerdork/google-homepage) - [View in Browser](https://notaprogrammerdork.github.io/google-homepage/)
+* [Moses' solution (Easy)](https://github.com/mosesakor/google-homepage) - [View in Browser](https://mosesakor.github.io/google-homepage)
+* [BatsWithHats Solution (Easy)]https://github.com/batswithhats/google-homepage/) - [View in Browser](https://batswithhats.github.io/google-homepage/)
+* [nevohesa's Solution (Easy)](https://github.com/nevohesa/google-homepage) - [View in Browser](https://nevohesa.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
@@ -3199,4 +3221,3 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
 * Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
-

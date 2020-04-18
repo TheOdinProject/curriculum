@@ -68,7 +68,7 @@ Let's add our first test. Let's say we want to create a calculator with a few me
 ~~~ruby
 #spec/calculator_spec.rb
 
-RSpec.describe Calculator do
+describe Calculator do
   describe "#add" do
     it "returns the sum of two numbers" do
       calculator = Calculator.new

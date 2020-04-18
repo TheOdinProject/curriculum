@@ -131,6 +131,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee's Solution](https://github.com/bendee48/chess) - [Repl.it](https://repl.it/@bendee48/chess)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/chess)
 * [CodingCop's Solution](https://github.com/cleve703/chess)
+* [Timework's Solution](https://github.com/Timework/chess)
 
 </details>
 

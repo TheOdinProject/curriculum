@@ -139,6 +139,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Billy Coffin's Solution](https://github.com/bcoffin9/connectfour)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/connect_four_tdd)
 * [jodokusquack's Solution](https://github.com/jodokusquack/connect_four)
 * [proto-dylan's Solution](https://github.com/proto-dylan/connect_four)

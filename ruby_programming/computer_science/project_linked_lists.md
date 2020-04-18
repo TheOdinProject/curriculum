@@ -226,4 +226,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [hyperturing's Solution (with extra credit)](https://github.com/hyperturing/linked-list)
 - [Rob Dulabon's Solution](https://github.com/RDulabon/linked_list)
 - [Timework's Solution (with extra credit)](https://github.com/Timework/linkedList/blob/master/list.rb)
+- [Cinthia's Solution (with extra credit)](https://github.com/cinthiagodoi/linked-lists)
   </details>
