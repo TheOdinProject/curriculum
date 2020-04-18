@@ -966,7 +966,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Adam Lecuyer's solution](https://github.com/antisense/google-homepage.git) - [View in Browser](https://rawgit.com/antisense/google-homepage/master/index.html)
 * [Matt Kimball's solution](https://github.com/mattj-kimball/google-homepage) - [View in Browser](https://rawgit.com/mattj-kimball/google-homepage/master/index.html)
 * [Emil Kaaen's solution](https://github.com/daulaus/google-homepage.git)
-* [Zane Bilous's solution](https://github.com/Zane-/googleHomepage/master/index.html) - [View in Browser](https://rawgit.com/Zane-/googleHomepage/master/index.html)
+* [Zane Bilous's solution](https://github.com/Zhttps://schwarzbaer2.github.io/google-homepage/ane-/googleHomepage/master/index.html) - [View in Browser](https://rawgit.com/Zane-/googleHomepage/master/index.html)
 * [Benjamin Wilhelms's solution](https://github.com/Nimorgs/google-homepage.git) - [View in Browser](https://rawgit.com/Nimorgs/google-homepage/master/index.html)
 * [Jason Matthews' solution](https://github.com/fo0man/google-homepage) - [View in Browser](https://rawgit.com/fo0man/google-homepage/master/index.html)
 * [Victor Sagrista's solution](https://github.com/citizenvsl/google_homepage_CSS.git)
@@ -3213,6 +3213,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [BatsWithHats Solution (Easy)]https://github.com/batswithhats/google-homepage/) - [View in Browser](https://batswithhats.github.io/google-homepage/)
 * [nevohesa's Solution (Easy)](https://github.com/nevohesa/google-homepage) - [View in Browser](https://nevohesa.github.io/google-homepage/)
 * [Sandy's Solution (Easy)](https://github.com/kuosandys/google-homepage) - [View in Browser](https://kuosandys.github.io/google-homepage/)
+* [Schwarzbaer2's Solution (Easy)](https://github.com/Schwarzbaer2/google-homepage) - [View in Browser](https://schwarzbaer2.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
