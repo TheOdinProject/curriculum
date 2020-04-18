@@ -43,8 +43,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
+
 - Add your solution below this line!
-- [Le-santos's Solution](https://github.com/le-santos/basic-calculator) - [View in Browser] (https://le-santos.github.io/basic-calculator/)  
+- [Le-santos's Solution](https://github.com/le-santos/basic-calculator) - [View in Browser](https://le-santos.github.io/basic-calculator/)  
 - [Jeremiah's Solution](https://github.com/ToyStoryWoody/calculator) - [View in Browser](https://toystorywoody.github.io/calculator/)
 - [Johongirr's Solution](https://github.com/Johongirr/calculator) - [View in Browser](https://johongirr.github.io/calculator/)
 - [BeardedTortle's Solution](https://github.com/BeardedTortle/JavaScript-Calculator) - [View in Browser](https://BeardedTortle.github.io/JavaScript-Calculator/)
