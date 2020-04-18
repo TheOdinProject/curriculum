@@ -91,6 +91,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Cesar's Solution (Both)](https://github.com/Cesar-rdgz/google-homepage) - [View in Browser](https://cesar-rdgz.github.io/google-homepage/)
+* [brianwhelan1984's Solution (Easy)](https://github.com/brianwhelan1984/google-easy) - [View in Browser](https://brianwhelan1984.github.io/google-easy/)
 * [ChargrilledChook's Solution (Easy)](https://github.com/ChargrilledChook/google-homepage) - [View in Browser](https://chargrilledchook.github.io/google-homepage/)
 * [FlamJam Solution (Easy)](https://github.com/FlamJam/google-homepage) - [View in Browser](https://flamjam.github.io/google-homepage/)
 * [Platyphyllum's Solution (Easy)](https://github.com/marboleda/google-homepage) - [View in Browser](https://marboleda.github.io/google-homepage/)
@@ -3130,7 +3132,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [thatoldchap's Solution (Easy)](https://thatoldchap.github.io/google-homepage/) - [View in Browser](https://thatoldchap.github.io/google-homepage/)
 * [AJMcDee's Solution (Easy)](https://ajmcdee.github.io/google-homepage/) - [View in Browser](https://ajmcdee.github.io/google-homepage/)
 * [mooniiDev's Solution (Difficult)](https://github.com/mooniiDev/google-search-results-page) - [View in Browser](https://mooniidev.github.io/google-search-results-page/)
-* [iStayGrizzly's Solution (Easy)](https://istaygrizzly.github.io/google-homepage2/)
+* [Saul-Good-Homie's Solution (Easy)](https://github.com/Saul-Good-Homie/google-homepage2) - [View in Browser] (https://saul-good-homie.github.io/google-homepage2/)
 * [Dennis's Solution (Easy)](https://github.com/denniskenneth/google-homepage) - [View in Browser](https://denniskenneth.github.io/google-homepage/)
 * [Dennis's Solution (Difficult))](https://github.com/denniskenneth/Google-Search-Result-Page) - [View in Browser](https://denniskenneth.github.io/Google-Search-Result-Page/)
 * [bayl0n's Solution (Easy & Difficult)](https://github.com/bayl0n/Google) - [View in Browser](https://bayl0n.github.io/Google/)
@@ -3214,6 +3216,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [nevohesa's Solution (Easy)](https://github.com/nevohesa/google-homepage) - [View in Browser](https://nevohesa.github.io/google-homepage/)
 * [Sandy's Solution (Easy)](https://github.com/kuosandys/google-homepage) - [View in Browser](https://kuosandys.github.io/google-homepage/)
 * [Schwarzbaer2's Solution (Easy)](https://github.com/Schwarzbaer2/google-homepage) - [View in Browser](https://schwarzbaer2.github.io/google-homepage/)
+* [ArcadiaRift's Solution (Easy)](https://github.com/ArcadiaRift/google-homepage) - [View in Browser](https://arcadiarift.github.io/google-homepage)
+* [Javolpe's Solution (Easy)](https://github.com/javolpe/google-homepage)
 </details>
 
 ### Additional Resources
