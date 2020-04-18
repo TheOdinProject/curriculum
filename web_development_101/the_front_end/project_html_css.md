@@ -91,6 +91,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [ChargrilledChook's Solution (Easy)](https://github.com/ChargrilledChook/google-homepage) - [View in Browser](https://chargrilledchook.github.io/google-homepage/)
 * [FlamJam Solution (Easy)](https://github.com/FlamJam/google-homepage) - [View in Browser](https://flamjam.github.io/google-homepage/)
 * [Platyphyllum's Solution (Easy)](https://github.com/marboleda/google-homepage) - [View in Browser](https://marboleda.github.io/google-homepage/)
 * [AwayFromHomePlanet's Solution (Easy)](https://github.com/AwayFromHomePlanet/google-homepage) - [View in Browser](https://AwayFromHomePlanet.github.io/google-homepage/)
