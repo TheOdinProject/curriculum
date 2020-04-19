@@ -39,7 +39,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/getting-started/Introduction.md",
+  url: "/nodeJS/getting-started/Introduction.md",
   repo: 'curriculum'
 )
 
@@ -51,7 +51,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/getting-started/Getting-Started.md",
+  url: "/nodeJS/getting-started/Getting-Started.md",
   repo: 'curriculum'
 )
 
@@ -63,7 +63,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "nodeJS/getting-started/Getting-Started-Project.md",
+  url: "/nodeJS/getting-started/Getting-Started-Project.md",
   repo: 'curriculum'
 )
 
@@ -84,7 +84,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/express-basics/Express-Introduction.md",
+  url: "/nodeJS/express-basics/Express-Introduction.md",
   repo: 'curriculum'
 )
 
@@ -96,7 +96,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/express-basics/Express-Lesson-1.md",
+  url: "/nodeJS/express-basics/Express-Lesson-1.md",
   repo: 'curriculum'
 )
 
@@ -108,7 +108,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/express-basics/Express-Lesson-2.md",
+  url: "/nodeJS/express-basics/Express-Lesson-2.md",
   repo: 'curriculum'
 )
 
@@ -120,7 +120,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "nodeJS/express-basics/Express-Mini-Message-Board.md",
+  url: "/nodeJS/express-basics/Express-Mini-Message-Board.md",
   repo: 'curriculum'
 )
 
@@ -132,7 +132,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/express-basics/Express-Lesson-3.md",
+  url: "/nodeJS/express-basics/Express-Lesson-3.md",
   repo: 'curriculum'
 )
 
@@ -144,7 +144,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/express-basics/Express-Lesson-4.md",
+  url: "/nodeJS/express-basics/Express-Lesson-4.md",
   repo: 'curriculum'
 )
 
@@ -156,7 +156,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/express-basics/Express-Lesson-5.md",
+  url: "/nodeJS/express-basics/Express-Lesson-5.md",
   repo: 'curriculum'
 )
 
@@ -169,7 +169,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "nodeJS/express-basics/Express-Inventory-Application.md",
+  url: "/nodeJS/express-basics/Express-Inventory-Application.md",
   repo: 'curriculum'
 )
 
@@ -190,7 +190,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/authentication/Authentication.md",
+  url: "/nodeJS/authentication/Authentication.md",
   repo: 'curriculum'
 )
 
@@ -202,7 +202,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/authentication/Security-Configuration.md",
+  url: "/nodeJS/authentication/Security-Configuration.md",
   repo: 'curriculum'
 )
 
@@ -214,7 +214,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "nodeJS/authentication/Members-Only.md",
+  url: "/nodeJS/authentication/Members-Only.md",
   repo: 'curriculum'
 )
 
@@ -235,7 +235,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/APIs/APIs.md",
+  url: "/nodeJS/APIs/APIs.md",
   repo: 'curriculum'
 )
 
@@ -247,7 +247,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/APIs/API-Security.md",
+  url: "/nodeJS/APIs/API-Security.md",
   repo: 'curriculum'
 )
 
@@ -259,7 +259,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "nodeJS/APIs/Blog-Project.md",
+  url: "/nodeJS/APIs/Blog-Project.md",
   repo: 'curriculum'
 )
 
@@ -280,7 +280,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/testing/Testing.md",
+  url: "/nodeJS/testing/Testing.md",
   repo: 'curriculum'
 )
 
@@ -292,7 +292,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "nodeJS/testing/Testing-Mongo.md",
+  url: "/nodeJS/testing/Testing-Mongo.md",
   repo: 'curriculum'
 )
 
@@ -317,6 +317,6 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "nodeJS/Odin-Book.md",
+  url: "/nodeJS/Odin-Book.md",
   repo: 'curriculum'
 )
