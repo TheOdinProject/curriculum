@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lucio's Solution w/localStorage](https://github.com/JCarlosLucio/library) - [View in Browser](https://jcarloslucio.github.io/library/)
 - [Hicham Maaqoul's Solution](https://github.com/maaqoul/ReadMe) - [View in Browser](https://maaqoul.github.io/ReadMe/)
 - [Cyhyraeth's Solution](https://github.com/Cyhyraethz/library) - [View in Browser](https://cyhyraethz.github.io/library/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/library) - [View in Browser](https://carldoleolundgren.github.io/library/)
@@ -248,4 +249,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Givemore's Solution](https://github.com/Givemo/Library_App) - [View in Browser](https://givemo.github.io/Library_App/)
 - [Lexolf's Solution](https://github.com/lexolf/library/) - [View in Browser](https://lexolf.github.io/library/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/library) - [View in Browser](https://jlthompso.github.io/library/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/library) - [View in Browser](https://fortypercenttitanium.github.io/library/)
 </details>
