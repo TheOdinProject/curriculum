@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Igor Tikush's Solution](https://github.com/IgorTikush/calculator-Project) - [View in Browser](https://igortikush.github.io/calculator-Project/)
 - [Le-santos's Solution](https://github.com/le-santos/basic-calculator) - [View in Browser](https://le-santos.github.io/basic-calculator/)  
 - [Jeremiah's Solution](https://github.com/ToyStoryWoody/calculator) - [View in Browser](https://toystorywoody.github.io/calculator/)
 - [Johongirr's Solution](https://github.com/Johongirr/calculator) - [View in Browser](https://johongirr.github.io/calculator/)
@@ -53,7 +54,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Christian's Solution](https://github.com/rueeazy/calculator) - [View in Browser](https://rueeazy.github.io/calculator/)
 - [Tunztunztunz's Solution](https://github.com/tunztunztunz/calculator) - [View in Browser](https://tunztunztunz.github.io/calculator/)
 - [themansbak's Solution](https://github.com/themansbak/javascript-calculator) - [View in Browser](https://themansbak.github.io/javascript-calculator/)
-- [iStayGrizzly's Solution](https://github.com/iStayGrizzly/js-calculator) - [View in Browser](https://istaygrizzly.github.io/js-calculator/)
+- [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/js-calculator) - [View in Browser](https://saul-good-homie.github.io/js-calculator/)
 - [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/calculator) - [View in Browser](https://aaronhalstonlee.github.io/calculator/)
 - [Cole-0's Solution](https://github.com/Cole-0/Simplest-of-calculators)
 - [MrLupine's Solution](https://github.com/MrLupine/calculator) - [View in Browser](https://mrlupine.github.io/calculator/)
@@ -607,4 +608,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mrfannin's Solution](https://github.com/mrfannin/calculator) - [View in Browser](https://mrfannin.github.io/calculator/)
 - [fussykyloren's Solution](https://github.com/fussykyloren/calculator) - [View in Browser](https://fussykyloren.github.io/calculator/)
 - [Rémi Borfigat’s Solution](https://github.com/remiborfigat/calculator)
+- [c-squared87's Solution](https://github.com/c-squared87/js_calculator) - [View in Browser](https://c-squared87.github.io/js_calculator/)
 </details>

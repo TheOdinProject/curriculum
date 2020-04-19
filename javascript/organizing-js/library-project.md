@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Hicham Maaqoul's Solution](https://github.com/maaqoul/ReadMe) - [View in Browser](https://maaqoul.github.io/ReadMe/)
+- [Cyhyraeth's Solution](https://github.com/Cyhyraethz/library) - [View in Browser](https://cyhyraethz.github.io/library/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/library) - [View in Browser](https://carldoleolundgren.github.io/library/)
 - [Alan Contreras's Solution w/localStorage](https://github.com/AlanContrerasM/LibraryBasic) - [View in Browser](https://alancontrerasm.github.io/LibraryBasic/)
 - [Arf65's Solution](https://github.com/arf65/book-list) - [View in Browser](https://arf65.github.io/book-list/)
