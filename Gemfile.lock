@@ -97,7 +97,7 @@ GEM
       bundler-audit
     bundler-audit (0.3.0)
       bundler (~> 1.2)
-    cancancan (1.17.0)
+    cancancan (3.1.0)
     codeclimate-engine-rb (0.4.1)
       virtus (~> 1.0)
     coderay (1.1.2)
@@ -275,7 +275,6 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     psych (3.1.0)
-    public_suffix (3.0.3)
     public_suffix (4.0.3)
     puma (4.3.3)
       nio4r (~> 2.0)
@@ -464,7 +463,7 @@ DEPENDENCIES
   binding_of_caller (~> 0.8)
   bootstrap (>= 4.4.1)
   bundle-audit
-  cancancan (~> 1.15)
+  cancancan
   database_cleaner (~> 1.5)
   derailed
   devise (>= 4.7.1)
