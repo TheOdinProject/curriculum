@@ -51,7 +51,7 @@ Just go for the latest version unless you have a compelling reason not to (it's 
 
 ### RESTful APIs
 
-Just like your routes should ideally be set up in a RESTful way, so too should APIs.  These days, most APIs are RESTful, meaning the usual batch of GET/PUT/PATCH/DELETE requests will retrieve resources as expected.  The good part about setting up your application routes RESTfully is that your API will be the same way.
+Just like your routes should ideally be set up in a RESTful way, so too should APIs.  These days, most APIs are RESTful, meaning the usual batch of HTTP methods (GET/POST/PUT/PATCH/DELETE) requests will retrieve resources as expected.  The good part about setting up your application routes RESTfully is that your API will be the same way.
 
 Working with RESTful APIs at least takes a lot of the headache out of the process since you can usually sort of guess what you should be doing, then can head over to the docs to figure out how exactly and what format you'll get the results back in.  For instance, just like you'd expect the GET request to the `/users` route in your app to display a page listing all its users, a GET request to a RESTful API for the same route should probably give you back a JSON or XML object filled with all the users (or at least some paginated sample of them).
 

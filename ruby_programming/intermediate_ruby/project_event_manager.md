@@ -160,7 +160,7 @@ contents of each line.
 
 ### Display the First Names of All Attendees
 
-Instead of outputing the entire contents of each line we want to show only the
+Instead of outputting the entire contents of each line we want to show only the
 first name. That requires us to look at the current contents of our Event
 Attendees file.
 
@@ -531,7 +531,7 @@ lib/event_manager.rb:11:in `block in <main>': undefined method `length' for nil:
 	from lib/event_manager.rb:7:in `<main>'
 ~~~
 
-* What is the error mesage "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
+* What is the error message "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
 
 Reviewing our CSV data we notice that the next row specifies no value. An empty
 field translates into a nil instead of an empty string. This is a choice made by
@@ -716,10 +716,10 @@ Take a close look at that address. Here's how it breaks down:
   * `roles=legislatorLowerBody` : Returns the representatives from the House
   * `key=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw` : A registered API Key to authenticate our requests
 
-We're accessing the `representatives` method of their API, we send in a `key` which is the string that identifies JumpstartLab as the accessor of
-the API, then we select the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
+When we're accessing the `representatives` method of their API, we're sending in a `key` which is the string that identifies JumpstartLab as the accessor of
+the API, then we're selecting the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
 
-This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](http://jsonprettyprint.com/), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
+This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](https://jsonformatter.org/json-pretty-print), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
 
 Let's look for a solution before we attempt to build a solution.
 
@@ -734,6 +734,8 @@ $ gem install google-api-client
 Successfully installed google-api-client-0.15.0
 1 gem installed
 ~~~
+
+If you recieve a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
 
 ### Showing All Legislators in a Zip Code
 
@@ -1234,9 +1236,9 @@ return to the application.
         <% legislators.each do |legislator| %>
         <tr>
           <td><%= "#{legislator.name}" %></td>
-          <td><%= "#{legislator.urls.join}" %></td>
+          <td><%= "#{legislator.urls.join}" unless legislator.urls.nil? %></td>
         </tr>
-      <% end %>
+        <% end %>
     <% else %>
       <th></th>
       <td><%= "#{legislators}" %></td>
@@ -1432,7 +1434,7 @@ def legislators_by_zipcode(zip)
   end
 end
 
-def save_thank_you_letters(id,form_letter)
+def save_thank_you_letter(id,form_letter)
   Dir.mkdir("output") unless Dir.exists?("output")
 
   filename = "output/thanks_#{id}.html"
@@ -1457,11 +1459,11 @@ contents.each do |row|
 
   form_letter = erb_template.result(binding)
 
-  save_thank_you_letters(id,form_letter)
+  save_thank_you_letter(id,form_letter)
 end
 ~~~
 
-The method `save_thank_you_letters` requires the id of the attendee and the form letter
+The method `save_thank_you_letter` requires the id of the attendee and the form letter
 output.
 
 ## Iteration: Clean Phone Numbers

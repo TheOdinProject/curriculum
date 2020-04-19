@@ -22,12 +22,20 @@ Your Inventory app should have categories and items, so when the user goes to th
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/express-basics/Express-Inventory-Application.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [rbkjefkj's Solution](https://github.com/rbkjefkj/inventory-app) - [View in browser](https://glacial-mountain-36822.herokuapp.com/)
-- [jdonahue135's Solution](https://github.com/jdonahue135/golf_store) - [View in browser](https://quiet-reaches-49920.herokuapp.com/)
+- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/inventory-application) - [View in Browser](https://henriquesousa-inventory.herokuapp.com/)
+- [Zakariye's Solution](https://github.com/ZYusuf10/PhoneInventory) - [View in Browser](https://limitless-escarpment-68136.herokuapp.com/catalog)
+- [Vanessacor's Solution](https://github.com/vanessacor/skateshop) - [View in Browser](https://skateshopinventory.herokuapp.com/catalog)
+- [tracy2811's Solution](https://github.com/tracy2811/inventory) - [View in Browser](https://fathomless-taiga-39964.herokuapp.com/)
+- [Vollantre's Solution](https://github.com/vollantre/inventory_app) - [View in Browser](https://secure-lowlands-33834.herokuapp.com/inventory)
+- [Eljoey's Solution](https://github.com/eljoey/Game-Inventory) - [View in Browser](https://immense-spire-45668.herokuapp.com/)
+- [rbkjefkj's Solution](https://github.com/rbkjefkj/inventory-app) - [View in Browser](https://glacial-mountain-36822.herokuapp.com/)
+- [jdonahue135's Solution](https://github.com/jdonahue135/golf_store) - [View in Browser](https://quiet-reaches-49920.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/odin-inventory-application) - [View in Browser](https://odin-inventory-application.herokuapp.com/)
+- [Aron's Solution](https://github.com/aronfischer/mern_inventory_project) - [View in Browser](https://aronfischer.github.io/mern_inventory_project/)
 </details>
