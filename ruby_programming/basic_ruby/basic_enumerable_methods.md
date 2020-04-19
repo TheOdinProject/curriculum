@@ -57,7 +57,7 @@ friends.reject { |friend| friend == 'Brian' }
 
 You just cut down what was previously an 8 line program down to 2 lines. Amazing! Imagine all the time you'll save sorting your invite lists now.
 
-### The `#each` Method
+### The each Method
 `#each` is the granddaddy of the enumerable methods. It's a bit like Chuck Norris: it can do anything. As you'll see throughout this lesson, though, just because you can use `#each` to do just about anything doesn't mean it's always the best or most efficient tool for the job.
 
 Calling `#each` on an array will iterate through that array and will yield each element to a code block, where a task can be performed:
@@ -131,7 +131,7 @@ friends.each { |friend| friend.upcase }
 
 You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong---dead wrong. It actually returns the original array you called `#each` on. You're *still* not invited, Brian.
 
-### The `#each_with_index` Method
+### The each_with_index Method
 This method is nearly the same as `#each`, but it provides some additional functionality by yielding two **block variables** instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex.
 
 For example, if we only want to print every other word from an array of strings, we can achieve this like so:
@@ -148,7 +148,7 @@ fruits.each_with_index { |fruit, index| puts fruit if index.even? }
 
 Just like with the `#each` method, `#each_with_index` returns the original array it's called on.
 
-### The `#map` Method
+### The map Method
 Remember when we tried to use `#each` to write all of your friends' names in all caps? For reference, this is the code that we tried:
 
 ~~~ruby
@@ -210,7 +210,7 @@ salaries.map { |salary| salary - 700 }
 
 Whenever you want to return a new array with the results of running your block of code, `#map` is the method for you!
 
-### The `#select` Method
+### The select Method
 You've already seen the `#select` method in action at the beginning of this lesson in our quest to make Brian an outcast.
 
 The `#select` method (also called `#filter`) passes every item in an array to a block and returns a new array with only the items for which the condition you set in the block evaluated to `true`.
@@ -251,7 +251,7 @@ responses.select { |person, response| response == 'yes'}
 
 Looks like only Sharon and Arun can go. You're going to need more people for a good party. Sounds like it's time for you to reluctantly call Brian, who you know will bring a batch of his awful home-brewed IPA. Maybe his last batch has gotten better?
 
-### The `#reduce` Method
+### The reduce Method
 The `#reduce` method (also called `#inject`) is possibly the most difficult-to-grasp enumerable for new coders. The idea is simple enough, though: it reduces an array or hash down to a single object. You should use `#reduce` when you want to get an output of a single value.
 
 A classic example of when `#reduce` is useful is obtaining the sum of an array of numbers. First, let's explore how we would achieve this using `#each`:
@@ -275,7 +275,7 @@ my_numbers.reduce { |sum, number| sum + number }
 #=> 26
 ~~~
 
-Woah! What?! There's a lot happening here, so let's walk through what it's doing step by step. 
+Woah! What?! There's a lot happening here, so let's walk through what it's doing step by step.
 
 The first block variable in the `#reduce` enumerable (`sum` in this example) is known as the **accumulator**. The result of each iteration is stored in the accumulator and then passed to the next iteration. The accumulator is also the value that the `#reduce` method returns at the end of its work. By default, the initial value of the accumulator is zero, so for each step of the iteration, we would have the following:
 
@@ -332,16 +332,16 @@ hundreds["new"]           #=> 99
 
 Now that we know that this new hash with a default value of `0` is our accumulator (which is called `result` in the code block), let's see what happens in each iteration:
 
- 1. Iteration 0: 
+ 1. Iteration 0:
     * result = {}
     * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] = 0` and `result["St. Mark's Bistro"] = 0`
- 2. Iteration 1: 
+ 2. Iteration 1:
     * The method runs `result["Bob's Dirty Burger Shack"] += 1`
     * result = {"Bob's Dirty Burger Shack" => 1}
  3. Iteration 2:
     * The method runs `result["St. Mark's Bistro"] += 1`
     * result = {"Bob's Dirty Burger Shack" => 1, "St. Mark's Bistro" => 1}
- 4. Iteration 3: 
+ 4. Iteration 3:
     * The method runs `result["Bob's Dirty Burger Shack"] += 1`
     * result = {"Bob's Dirty Burger Shack" => 2, "St. Mark's Bistro" => 1}
 

@@ -1,6 +1,25 @@
 Creating users and allowing them to log in and out of your web apps is a crucial functionality that we are finally ready to learn! There is quite a bit of setup involved here, but thankfully none of it is too tricky. You'll be up and running in no time! In this lesson we're going to be using [passportJs](http://www.passportjs.org) an excellent middleware to handle our authentication and sessions for us.
 
-We're going to be building a very minimal express app that will allow users to sign up, login and log out. For now we're just going to keep everything except the views in one file to make for easier demonstration, but in a real project you will of course want to split all of this stuff into modules.
+We're going to be building a very minimal express app that will allow users to sign up, login and log out. For now we're just going to keep everything except the views in one file to make for easier demonstration, but in a real world project, it is best practice to split our concerns and functionality into separate modules.
+
+### Learning Outcomes
+
+By the end of this lesson, you should be able to do the following:
+
+#### PassportJS
+
+- Understand the use order for the required middleware.
+- Describe what Strategies are.
+- Use the LocalStrategy to authenticate users.
+- Explain the purpose of cookies in authentication.
+- Refreshed on prior learning material (routes, templates, middleware)
+- Use PassportJS to setup user authentication with Express.
+
+#### Data Security/Safety
+
+- Describe what bcrypt is and its use
+- Explain the importance of password hashing.
+- Describe bcrypt's `compare` function.
 
 ### Set Up
 
@@ -197,7 +216,7 @@ app.post(
 );
 ~~~
 
-As you can see, all we have to do is call `passport.authenticate()`.  It is actually doing quite a bit of useful stuff behind the scenes. Among other things, it looks at the request body for parameters named `username` and `password` then runs the `LocalStrategy` function that we defined earlier to see if the username and password are in the database. It then creates a session cookie which gets stored in the user's browser, and that we can access in all future requests to see whether or not that user is logged it.  It can also redirect you to different routes based on whether the login is a success or a failure.  If we had a separate login page we might want to go back to that if the login failed, or we might want to take the user to their user dashboard if the login is successful.  Since we're keeping everything in the index we want to go back to "/" no matter what.
+As you can see, all we have to do is call `passport.authenticate()`. This middleware performs numerous functions behind the scenes. Among other things, it looks at the request body for parameters named `username` and `password` then runs the `LocalStrategy` function that we defined earlier to see if the username and password are in the database. It then creates a session cookie which gets stored in the user's browser, and that we can access in all future requests to see whether or not that user is logged it.  It can also redirect you to different routes based on whether the login is a success or a failure.  If we had a separate login page we might want to go back to that if the login failed, or we might want to take the user to their user dashboard if the login is successful.  Since we're keeping everything in the index we want to go back to "/" no matter what.
 
 If you fill out and submit the form now, everything should technically work, but you won't actually SEE anything different on the page... let's fix that.
 
@@ -238,9 +257,9 @@ and then edit your view to make use of that object like this:
 </html>
 ~~~
 
-So, this code checks to see if there is a user defined.. if so it offers a welcome message, and if NOT then it shows the login form.  Neat!
+So, this code checks to see if there is a user defined... if so it offers a welcome message, and if NOT then it shows the login form.  Neat!
 
-As one last step.. let's make that log out link actually work for us. As you can see it's simplt sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
+As one last step... let's make that log out link actually work for us. As you can see it's simply sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
 
 ~~~javascript
 app.get("/log-out", (req, res) => {
@@ -287,9 +306,13 @@ bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
 
 The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right your password should have been transformed into a really long random string.
 
+It's important to note that _how_ hashing works is beyond the scope of this lesson. Password hashes are the result of passing the user's password through a [one-way hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
+
 #### Comparing hashed passwords:
 
-Inside your `LocalStrategy` function we need to replace the `user.password !== password` bit with the `bcrypt.compare()` function.
+We will use the `bcrypt.compare()` function to validate the password input. The function compares the plain-text password in the request object to the hashed password.
+
+Inside your `LocalStrategy` function we need to replace the `user.password !== password` expression with the `bcrypt.compare()` function.
 
 ~~~javascript
 bcrypt.compare(password, user.password, (err, res) => {
