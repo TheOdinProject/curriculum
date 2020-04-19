@@ -527,4 +527,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [tomstrat's Solution](https://github.com/tomstrat/caesar_cipher)
 * [Matt's Solution](https://github.com/MattMiller1989/Caesar-Cipher)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/caesar-cipher)
+* [akoenig1's Solution](https://github.com/akoenig1/building_blocks/caesar_cipher.rb)
 </details>

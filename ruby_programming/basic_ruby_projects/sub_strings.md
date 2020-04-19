@@ -470,4 +470,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/substrings/substrings.rb)
 * [tomstrat's Solution](https://github.com/tomstrat/substrings)
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Substrings)
+* [akoenig1's Solution](https://github.com/akoenig1/building_blocks/substrings.rb)
 </details>
