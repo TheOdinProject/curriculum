@@ -210,6 +210,8 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [mousamdhakal & kbrdsk's Solution](https://github.com/kbrdsk/pomodoro) - [View in Browser](http://mousamdhakal.me/pomodoro/)
 * [meganeb-afk's Solution](https://github.com/meganeb-afk/Pomodoro)- [View in Browser](https://meganeb-afk/github.io/Pomodoro/)
 * [mthsgrc's Solution](https://github.com/mthsgrc/pomodore_app) - [View in Browser](https://mthsgrc.github.io/pomodore_app/)
+</details>]
+* [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/pomodoro) - [View in Browser](https://ozansozuozgit.github.io/pomodoro/)
 </details>
 
 ### Next Steps
