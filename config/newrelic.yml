@@ -192,7 +192,7 @@ development:
   # 'enabled').
   # NOTE: for initial evaluation purposes, you may want to temporarily
   # turn the agent on in development mode.
-  monitor_mode: true
+  monitor_mode: false
 
   # Rails Only - when running in Developer Mode, the New Relic Agent will
   # present performance information on the last 100 transactions you have
