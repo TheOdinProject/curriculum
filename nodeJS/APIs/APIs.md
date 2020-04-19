@@ -9,7 +9,7 @@ By the end of this lesson, you should be able to do the following:
 - Explain the purpose of CORS
 - Use CORS as middleware in Express (Globally and on a single route)
 - Configure CORS to only allow certain origins to access our API
-- Familiarity with CORS headers
+- Explain CORS headers
 
 ### Introduction
 In recent years a new pattern for developing websites has been gaining popularity.  Instead of creating an app that hosts both the database and view templates, many developers are breaking these two items up into separate projects, hosting their database on a server (either on something like [Heroku](https://www.heroku.com/), or on a VPS like [Digital Ocean](https://www.digitalocean.com/)) and then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend.
