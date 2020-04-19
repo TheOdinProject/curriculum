@@ -122,6 +122,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/micro-reddit)
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/micro-reddit)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/micro-reddit)
 * [Onur Temiz's Solution](https://github.com/temizonur/micro-reddit)
