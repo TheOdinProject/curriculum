@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Igor Tikush's](https://github.com/IgorTikush/calculator-Project) - [View in Browser](https://igortikush.github.io/calculator-Project/)
+- [Igor Tikush's Solution](https://github.com/IgorTikush/calculator-Project) - [View in Browser](https://igortikush.github.io/calculator-Project/)
 - [Le-santos's Solution](https://github.com/le-santos/basic-calculator) - [View in Browser](https://le-santos.github.io/basic-calculator/)  
 - [Jeremiah's Solution](https://github.com/ToyStoryWoody/calculator) - [View in Browser](https://toystorywoody.github.io/calculator/)
 - [Johongirr's Solution](https://github.com/Johongirr/calculator) - [View in Browser](https://johongirr.github.io/calculator/)
