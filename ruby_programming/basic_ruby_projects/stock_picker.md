@@ -474,4 +474,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/stock_picker/stock_picker.rb)
 * [tomstrat's Solution](https://github.com/tomstrat/stock_picker)
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Stock-Picker/blob/master/stocks.rb)
+* [akoenig1's Solution](https://github.com/akoenig1/building_blocks/stock_picker.rb)
 </details>
