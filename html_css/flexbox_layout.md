@@ -21,7 +21,7 @@ Flexbox is a new layout mode in CSS3 initially developed by Mozilla to make layo
 <div class="lesson-content__panel" markdown="1">
 * Watch [Wes Bos'](https://twitter.com/wesbos) tutorial [What the Flexbox?!](https://flexbox.io/). This course consists of 20 videos covering Flexbox and are all available to [watch on Youtube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid). 
 * Once you have completed the course you can read through [CSS-Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) should you want more in depth information. 
-* Read through [Interneting is hard's](https://internetingishard.com/html-and-css/flexbox/) tutorial to see how to use Flexbox to help create flexible layouts.
+* Read through [Interneting is hard's](https://www.internetingishard.com/html-and-css/flexbox/) tutorial to see how to use Flexbox to help create flexible layouts.
 </div>
 
 ### Additional Resources
