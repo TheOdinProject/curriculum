@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/tic_tac_toe.rb)
 * [Thiago Miranda's Solution](https://github.com/SevlaMare/TicTacToe_Ruby) - [View in repl.it](https://repl.it/@ThiagoMiranda2/tictactoeruby)
 * [leetie's Solution](https://github.com/leetie/tic_tac_toe)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Tic-Tac-Toe)
@@ -32,7 +33,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [David Auza's and Falguni Islam's Solution](https://github.com/eng-monika/Ruby-Programming-PROJECT-OOP) - [View Demo](https://repl.it/@islamfalguni/tic-tac-toe)
 * [robo-monk's Solution](https://github.com/robo-monk/tic)
 * [Infectos's Solution](https://github.com/infectos/TicTacToe_Ruby) - [View in repl.it](https://repl.it/@infectos/TicTacToe)
-* [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_tictactoe)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.tic_tac_toe)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/tictactoe)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/tic_tac_toe)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/tic-tac-toe)
@@ -371,7 +372,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/project_opp/tree/master/mastermind)
 * [Johongirr's Solution](https://github.com/Johongirr/mastermind_ruby/tree/masterd) - [Live repl.it Version](https://repl.it/@Johongirr/DapperGoodState)
 * [Infectos's Solution (with AI)](https://github.com/infectos/Mastermind) - [Live repl.it Version](https://repl.it/@infectos/Mastermind)
-* [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_mastermind)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.mastermind)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/mastermind)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/mastermind)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/mastermind)
