@@ -249,4 +249,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Givemore's Solution](https://github.com/Givemo/Library_App) - [View in Browser](https://givemo.github.io/Library_App/)
 - [Lexolf's Solution](https://github.com/lexolf/library/) - [View in Browser](https://lexolf.github.io/library/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/library) - [View in Browser](https://jlthompso.github.io/library/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/library) - [View in Browser](https://fortypercenttitanium.github.io/library/)
 </details>
