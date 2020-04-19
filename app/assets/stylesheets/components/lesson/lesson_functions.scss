@@ -10,4 +10,9 @@
   &__sub-title {
     text-transform: uppercase;
   }
+
+  &__edit-lesson-link {
+    color: $primary;
+    font-size: 1.125rem;
+  }
 }

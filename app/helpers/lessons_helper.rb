@@ -7,4 +7,8 @@ module LessonsHelper
       'button--secondary'
     end
   end
+
+  def github_edit_url(lesson)
+    github_link("curriculum/edit/master#{lesson.url}")
+  end
 end
