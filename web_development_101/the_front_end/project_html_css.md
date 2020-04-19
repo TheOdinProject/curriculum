@@ -3220,6 +3220,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Schwarzbaer2's Solution (Easy)](https://github.com/Schwarzbaer2/google-homepage) - [View in Browser](https://schwarzbaer2.github.io/google-homepage/)
 * [ArcadiaRift's Solution (Easy)](https://github.com/ArcadiaRift/google-homepage) - [View in Browser](https://arcadiarift.github.io/google-homepage)
 * [Javolpe's Solution (Easy)](https://github.com/javolpe/google-homepage)
+* [Myles519's Solution (Easy)](https://github.com/Spence19/google-homepage) - [View in Browser](https://spence19.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
