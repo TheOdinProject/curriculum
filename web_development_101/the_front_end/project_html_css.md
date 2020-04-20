@@ -29,7 +29,7 @@ If you do not know how to setup a repository, follow the instructions found in [
 3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH)
 - [Setting up SSH on Github](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github).
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
-5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
+5. If you want to share your solution, include a link in the markdown file included at the top of the student solutions section.
 
 If you are having trouble:
   * Ensure you followed the steps [here on Step 2.3](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github) to clone from Github with SSH.
