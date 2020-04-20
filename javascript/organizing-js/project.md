@@ -115,4 +115,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/to-do) - [View in Browser](https://ranmaru22.github.io/the_odin_project/to-do/dist/)
 * [Tim Kelly's Solution (Webpack, Moment.js and SortableJS)](https://github.com/timkellytk/project-to-do-list) - [View in Browser](https://timkellytk.github.io/project-to-do-list/)
 * [thecodediver's Solution](https://github.com/thecodediver/tasks_app) - [View in Browser](https://thecodediver.github.io/tasks_app/)
+* [m-rejdych's Solution](https://github.com/m-rejdych/Todo-List) - [View in Browser](https://m-rejdych.github.io/Todo-List/)
 </details>
