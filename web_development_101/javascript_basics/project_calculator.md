@@ -75,7 +75,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Calculator) - [View in Browser](https://andrewbaldwin44.github.io/Calculator/)
 - [Arf65's Solution](https://github.com/arf65/calculator) - [View in Browser](https://arf65.github.io/calculator/)
 - [Aanttrax's Solution](https://github.com/Aanttrax/Calculator) - [View in Browser](https://github.com/Aanttrax/Calculator/)
->>>>>>> master
 - [cmjnorman's Solution](https://github.com/cmjnorman/calculator) - [View in Browser](https://cmjnorman.github.io/calculator/)
 - [Brandon's Solution](https://github.com/bstottler/calculator) - [View in Browser](https://bstottler.github.io/calculator/)
 - [Fabio's Solution](https://github.com/ThomYorke7/js-calculator) - [View in Browser](https://thomyorke7.github.io/js-calculator/)
