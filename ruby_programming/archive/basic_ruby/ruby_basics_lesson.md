@@ -54,4 +54,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * Read [Smashing Magazine's Intro to Ruby article](https://www.smashingmagazine.com/2012/05/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
 * [OverAPI's (dense) Ruby Cheat Sheet](http://overapi.com/ruby)
-* Hunter Ducharme compiled together [an e-book](http://hgducharme.gitbooks.io/ruby-programming/) which covers all the basics in Ruby.
+* Hunter Ducharme compiled together [an e-book](https://app.gitbook.com/@hunter-ducharme/s/ruby-programming/) which covers all the basics in Ruby.
