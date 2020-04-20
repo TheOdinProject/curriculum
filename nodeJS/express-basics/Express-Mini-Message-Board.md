@@ -68,7 +68,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/message-board-express) - [View in Browser](https://serene-wildwood-68527.herokuapp.com/)
+- [Hammad Ahmed's Solution](https://github.com/shammadahmed/mini-message-board) - [View in Browser](https://express-mini-message-board.herokuapp.com/)
+- [Igorashs's Solution](https://github.com/igorashs/mini-message-board) - [View in Browser](https://damp-badlands-14798.herokuapp.com/)
 - [autumnchris's Solution](https://github.com/autumnchris/mini-message-board-demo) - [View in Browser](https://autumnchris-message-board-demo.herokuapp.com)
+- [Obylisk's Solution](https://github.com/obylisk/miniMessageBoard) - [View in Browser](https://obylisk-mini-message-board.herokuapp.com/)
 - [Kris Tobiasson's Solution](https://github.com/highpockets/message-board.git) - [View in Browser](https://peaceful-spire-16849.herokuapp.com/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/miniMsg) - [View in Browser](https://infinite-beyond-66667.herokuapp.com/)
 - [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/mini-message-board) - [View in Browser](https://desolate-sea-58239.herokuapp.com/)
@@ -94,4 +98,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Aron's Solution](https://github.com/aronfischer/mern_message_board) - [View in Browser](https://aronfischer.github.io/mern_message_board/)
 - [Siegmeister's Solution](https://github.com/the-siegmeister/mini-message-board) - [View in Browser](https://salty-ridge-30513.herokuapp.com/)
 - [Christian's Solution](https://github.com/calamis/mini-messageboard) - [View in Browser](https://lit-mountain-92977.herokuapp.com/)
+- [0xtaf's Solution](https://github.com/0xtaf/mini-message-board) - [View in Browser](https://immense-hamlet-03503.herokuapp.com/)
+- [Emil Dimitrov's Solution](https://github.com/edmtrv/mini-message-board) - [View in Browser](https://thawing-badlands-31259.herokuapp.com/)
+- [mmboyce's Solution](https://github.com/mmboyce/mini-message-board) - [View in Browser](https://enigmatic-taiga-64239.herokuapp.com/)
 </details>
