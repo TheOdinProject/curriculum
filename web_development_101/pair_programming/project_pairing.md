@@ -32,6 +32,8 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saranoya's Solution](https://github.com/Saranoya/odin/tree/master/javascript/pomodoro) - [View in Browser](https://saranoya.github.io/odin/javascript/pomodoro/)
+* [iStayGrizzly and threeaces Solution](https://github.com/iStayGrizzly/Pomodoro-Pair-Programming) - [View in Browser](https://istaygrizzly.github.io/Pomodoro-Pair-Programming/)
 * [themansbak's Solution](https://github.com/themansbak/Pomodoro/) - [View in Browser](https://themansbak.github.io/Pomodoro/)
 * [markvong's Solution](https://github.com/markvong/Pomodoro/) - [View in Browser](https://markvong.github.io/Pomodoro/)
 * [Andrew Baldwin and Tunztunztunz's Solution](https://github.com/andrewbaldwin44/Pomodoro_Clock) – [View in Browser](https://andrewbaldwin44.github.io/Pomodoro_Clock/)
