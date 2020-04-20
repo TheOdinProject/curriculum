@@ -49,7 +49,7 @@ friends.select { |friend| friend != 'Brian' }
 or even better and more to the point:
 
 ~~~ruby
-friends = ['Sharon', 'Leo', 'Leila', 'Brain', 'Arun']
+friends = ['Sharon', 'Leo', 'Leila', 'Brian', 'Arun']
 
 friends.reject { |friend| friend == 'Brian' }
  #=> ["Sharon", "Leo", "Leila", "Arun"]
