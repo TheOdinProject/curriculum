@@ -19,6 +19,7 @@ irb(main):002:0> print "1234"
 ~~~
 
 We can also use the `puts` command:
+
 ~~~ruby
 irb(main):001:0> puts "Learning to code is cool!!"
 Learning to code is cool!!
@@ -34,10 +35,9 @@ irb(main):003:0> x = "My name is ALEX! :)"
 irb(main):004:0> puts x
 My name is ALEX! :)
 => nil
-
 ~~~
 
-As you can see, the `puts` and `print` commands are quite similar, but you should have already noticed the small difference between the two: `puts` appends a new line to the argument passed in, whereas `print` keeps things all on one line. A very important thing to notice for both commands is that after printing whatever argument they are passed, `puts` and `print` both return `nil`. 
+As you can see, the `puts` and `print` commands are quite similar, but you should have already noticed the small difference between the two: `puts` appends a new line to the argument passed in, whereas `print` keeps things all on one line. A very important thing to notice for both commands is that after printing whatever argument they are passed, `puts` and `print` both return `nil`.
 
 To highlight the difference between `puts` and `print`, we're going to pull out a piece of rarely used Ruby syntax: [the semicolon](https://stackoverflow.com/questions/3953846/can-you-use-semicolons-in-ruby). In short, semicolons are never required in Ruby, but they allow you to run multiple Ruby commands all on one line. This type of [code golf](https://en.wikipedia.org/wiki/Code_golf) is not generally recommended, but it's helpful for this example. In a REPL, such as repl.it, the two statements can be written on separate lines without the semicolon and still produce the desired output. However, irb can read only one statement at a time, making the semicolons necessary for this code to work as intended.
 
@@ -81,7 +81,7 @@ This is a sentence.
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. Read through the simple [Hello, World](https://www.learnrubyonline.org/en/Hello%2C_World%21) lesson and exercise from [www.learnrubyonline.org](www.learnrubyonline.org).
+1. Read through the simple [Hello, World](https://www.learnrubyonline.org/en/Hello_World) lesson and exercise from [www.learnrubyonline.org](www.learnrubyonline.org).
 2. Read the first four sections of the [Ruby - File I/0](https://www.tutorialspoint.com/ruby/ruby_input_output.htm) from TutorialsPoint on `puts`, `gets`, `putc`, and `print`.
 3. [Read this article from Ruby Guides](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between puts, print and p.
 </div>
