@@ -32,6 +32,7 @@ If you do not know how to setup a repository, follow the instructions found in [
 5. If you want to share your solution, include a link in the markdown file included at the top of the student solutions section.
 
 If you are having trouble:
+
   * Ensure you followed the steps [here on Step 2.3](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github) to clone from Github with SSH.
   * Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
   * Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
