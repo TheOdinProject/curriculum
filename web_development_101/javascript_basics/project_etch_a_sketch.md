@@ -901,5 +901,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [MatyD's Solution](https://github.com/MatyD356/drawfun) - [View in Browser](https://matyd356.github.io/drawfun/)
 * [sokafootball's Solution](https://github.com/sokafootball/etch-a-sketch/) - [View in Browser](https://sokafootball.github.io/etch-a-sketch/)
 * [siman-utfpr's Solution](https://github.com/siman-utfpr/etch-a-sketch) - [View in Browser](https://siman-utfpr.github.io/etch-a-sketch/)
-
+* [Aportello's Solution](https://github.com/Aportello/Etch-a-Sketch) - [View in Browser] (https://aportello.github.io/Etch-a-Sketch/)
 </details>
