@@ -1466,6 +1466,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kevin's Solution](https://github.com/kchemutai/RockPaperScissors) - [View in Browser](https://kchemutai.github.io/RockPaperScissors/)
 - [Arturo's Solution](https://github.com/StarSheriff2/Rock-Paper-Scissors---Arturo) - [View in Browser](https://starsheriff2.github.io/Rock-Paper-Scissors---Arturo/)
 - [Anik's Solution](https://github.com/AnikIslam7/rock-paper-scissors) - [View in Browser](https://anikislam7.github.io/rock-paper-scissors/)
-- [Nick's Solution] (https://github.com/SonofaSon/rock-paper-scissors-) - [View in Browser] (https://sonofason.github.io/rock-paper-scissors-/)
-- [cxxiii's Solution] (https://github.com/cxxiii/rock-paper-scissors) - [View in Browser](https://cxxiii.github.io/rock-paper-scissors)
+- [Nick's Solution](https://github.com/SonofaSon/rock-paper-scissors-) - [View in Browser](https://sonofason.github.io/rock-paper-scissors-/)
+- [cxxiii's Solution](https://github.com/cxxiii/rock-paper-scissors) - [View in Browser](https://cxxiii.github.io/rock-paper-scissors)
 </details>
