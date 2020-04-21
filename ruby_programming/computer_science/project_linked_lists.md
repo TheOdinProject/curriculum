@@ -228,4 +228,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Rob Dulabon's Solution](https://github.com/RDulabon/linked_list)
 - [Timework's Solution (with extra credit)](https://github.com/Timework/linkedList/blob/master/list.rb)
 - [Cinthia's Solution (with extra credit)](https://github.com/cinthiagodoi/linked-lists)
+- [Matt M's Solution (with extra credit)](https://github.com/MattMiller1989/Linked-List)
   </details>

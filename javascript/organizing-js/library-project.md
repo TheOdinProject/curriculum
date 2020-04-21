@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [LenaChestnuts's Solution w/localStorage](https://github.com/LenaChestnut/library) - [View in Browser](https://lenachestnut.github.io/library/)
 - [Lucio's Solution w/localStorage](https://github.com/JCarlosLucio/library) - [View in Browser](https://jcarloslucio.github.io/library/)
 - [Hicham Maaqoul's Solution](https://github.com/maaqoul/ReadMe) - [View in Browser](https://maaqoul.github.io/ReadMe/)
 - [Cyhyraeth's Solution](https://github.com/Cyhyraethz/library) - [View in Browser](https://cyhyraethz.github.io/library/)
