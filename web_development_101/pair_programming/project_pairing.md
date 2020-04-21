@@ -216,6 +216,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [mthsgrc's Solution](https://github.com/mthsgrc/pomodore_app) - [View in Browser](https://mthsgrc.github.io/pomodore_app/)
 * [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/pomodoro) - [View in Browser](https://ozansozuozgit.github.io/pomodoro/)
 * [guyroberts21 & hayzzie](https://github.com/guyroberts21/Pomodoro) - [View in Browser](https://guyroberts21.github.io/Pomodoro/)
+* [Sepharvaim's Solution](https://github.com/Sepharvaim/PomodoroTimer) - [View in Browser](https://sepharvaim.github.io/PomodoroTimer/)
 </details>
 
 ### Next Steps

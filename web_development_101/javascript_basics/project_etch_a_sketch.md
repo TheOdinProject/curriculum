@@ -43,6 +43,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Harold's solution](https://github.com/harold-guido/etch-a-sketch) - [View in Browser](https://harold-guido.github.io/etch-a-sketch/)
+* [iamjethrooo's Solution](https://github.com/iamjethrooo/etch-a-sketch) - [View in Browser](https://iamjethrooo.github.io/etch-a-sketch/)
+* [Joewebsta's Solution](https://github.com/Joewebsta/etch-a-sketch) - [View in Browser](https://joewebsta.github.io/etch-a-sketch/)
+* [Diego's Solution](https://github.com/dhna32/Project--Etch-a-Sketch) - [View in Browser](https://dhna32.github.io/Project--Etch-a-Sketch/)
 * [Nathan's Solution](https://github.com/NathanJReidy/ETCH-A-SKETCH) - [View in Browser](https://nathanjreidy.github.io/ETCH-A-SKETCH/)
 * [AmirHossein's Solution](https://github.com/AmirHosseinParsapour/etch-a-sketch) - [View in Browser](https://amirhosseinparsapour.github.io/etch-a-sketch/)
 * [Matt Fergoda's Solution](https://github.com/mattfergoda/etch-a-sketch) - [View in Browser](https://mattfergoda.github.io/etch-a-sketch/)
@@ -900,5 +904,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [MatyD's Solution](https://github.com/MatyD356/drawfun) - [View in Browser](https://matyd356.github.io/drawfun/)
 * [sokafootball's Solution](https://github.com/sokafootball/etch-a-sketch/) - [View in Browser](https://sokafootball.github.io/etch-a-sketch/)
 * [siman-utfpr's Solution](https://github.com/siman-utfpr/etch-a-sketch) - [View in Browser](https://siman-utfpr.github.io/etch-a-sketch/)
-
+* [HelixF's Solution](https://github.com/HelixF/Etch-a-Sketch) - [View in Browser](https://helixf.github.io/Etch-a-Sketch/)
+* [Aportello's Solution](https://github.com/Aportello/Etch-a-Sketch) - [View in Browser](https://aportello.github.io/Etch-a-Sketch/)
 </details>
