@@ -36,7 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Thanusha Jakkula's Solution] (https://github.com/ThanushaJ/basic-nodejs-website) - [View in Browser] (https://repl.it/github/ThanushaJ/basic-nodejs-website)
+- [Thanusha Jakkula's Solution](https://github.com/ThanushaJ/basic-nodejs-website) - [View in Browser](https://repl.it/github/ThanushaJ/basic-nodejs-website)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/basic-node-site) - [View in Browser](https://repl.it/@braxtonlemmon/basic-node-site-3)
 - [Igorashs's Solution](https://github.com/igorashs/basic-informational-site) - [View in Browser](https://repl.it/@igorashs/basic-informational-site)
 - [Hammad Ahmed's Solution](https://github.com/shammadahmed/basic-node-site) - [View in Browser](https://BumpyWeightyMigration--five-nine.repl.co)
