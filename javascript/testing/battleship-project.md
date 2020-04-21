@@ -59,4 +59,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Halkim44's Solution](https://github.com/halkim44/battleship-game) - [View in Browser](https://halkim44.github.io/battleship-game/)
 - [Kelvin Liang's Solution](https://github.com/kelvin8773/odin-battle-ship) - [View in Browser](https://battleshipgame.netlify.com/)
 - [Austin Ftacnik's Solution](https://github.com/aplyd/battleship) - [View in Browser](https://aplyd.github.io/battleship/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/battleship) - [View in Browser](https://ranmaru22.github.io/battleship/)
 </details>
