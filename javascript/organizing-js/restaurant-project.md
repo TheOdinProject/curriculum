@@ -21,9 +21,9 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    
 1. Set up an HTML skeleton inside of `dist/index.html` with single `<div id="content">`.
 
-1. Inside of `src/index.js` write a simple console.log or alert statement and then run `webpack` (or `npx webpack` for newer npm versions). Load up `dist/index.html` in a browser to make sure everything is working correctly.
+1. Inside of `src/index.js` write a simple console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
 
-    - Quick tip #2: if you run `webpack --watch` (or `npx webpack --watch` as above) you will not have to rerun webpack every time you make a change.
+    - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
    
 1. Create a bare-bones homepage for a restaurant. Include an image, headline, and some copy about how wonderful the restaurant is. It’s okay to hard-code these into the HTML for now just to see how they look on the page.
 
