@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [shrinathrao97's Solution](https://github.com/shrinathrao97/rpsWebsiteGame) - [View in Browser](https://shrinathrao97.github.io/rpsWebsiteGame/)
 - [iamjethrooo's Solution](https://github.com/iamjethrooo/rock-paper-scissors) - [View in Browser](https://iamjethrooo.github.io/rock-paper-scissors/)
 - [Platyphyllum's Solution](https://github.com/marboleda/rock-paper-scissors) - [View in Browser](https://marboleda.github.io/rock-paper-scissors/)
 - [Logowish's Solution](https://github.com/Logowish/Rock-Paper-Scissor)
