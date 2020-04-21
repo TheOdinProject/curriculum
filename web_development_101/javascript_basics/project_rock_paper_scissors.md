@@ -1477,4 +1477,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [cxxiii's Solution](https://github.com/cxxiii/rock-paper-scissors) - [View in Browser](https://cxxiii.github.io/rock-paper-scissors)
 - [wrtyy's Solution](https://github.com/NotAProgrammerdork/rock-paper-scissors) - [View in Browser](https://notaprogrammerdork.github.io/rock-paper-scissors/)
 - [seangoat's Solution](https://github.com/seangoats/Project-Rock-Paper-Scissors-TOP-)
+- [mgin's Solution](https://github.com/mvangin/rock-paper-scissors) [View in Browser](https://mvangin.github.io/rock-paper-scissors/)
 </details>
