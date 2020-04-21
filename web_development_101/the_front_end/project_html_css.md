@@ -3233,6 +3233,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ncd123's Solution (Easy)](https://github.com/ncd123/google-homepage) - [View in Browser](https://ncd123.github.io/google-homepage/)
 * [jingjing142's Solution (Easy)](https://github.com/jingjing142/google-homepage) - [View in Browser](https://jingjing142.github.io/google-homepage/)
 * [bhenning83's Solution (Easy)](https://github.com/bhenning83/google-homepage) - [View in Browser](https://bhenning83.github.io/google-homepage/)
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
