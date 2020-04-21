@@ -42,6 +42,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Platyphyllum's Solution](https://github.com/marboleda/rock-paper-scissors) - [View in Browser](https://marboleda.github.io/rock-paper-scissors/)
+- [Logowish's Solution](https://github.com/Logowish/Rock-Paper-Scissor)
+- [ThatOldChap's Solution](https://github.com/ThatOldChap/Rock-Paper-Scissors/) - [View in Browser] (https://thatoldchap.github.io/Rock-Paper-Scissors/)
 - [BassArt94's Solution](https://github.com/bassart94/rockpaperscissors)
 - [Zieeco's Solution](https://github.com/zieeco/rock-paper-scissors) - [View in Browser](https://zieeco.github.io/rock-paper-scissors/)Add your solution below this line!
 - [ChargrilledChook's Solution](https://github.com/ChargrilledChook/RockPaperScissors)
