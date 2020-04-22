@@ -22,7 +22,6 @@ require("turbolinks").start();
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 import 'bootstrap/dist/js/bootstrap';
-import 'prismjs';
 
 import "../src/js/analytics";
 import "../src/js/faq";
@@ -32,6 +31,5 @@ import "../src/js/bootstrapScripts";
 import "../src/js/settings";
 import "../src/js/navbar";
 import "../src/js/admin_flash";
-import "../src/js/prism";
 import "../src/js/projects";
 import "../src/js/scrollspy.min";

@@ -1,4 +1,5 @@
 import Stickyfill from 'stickyfilljs';
+import Prism from 'prismjs';
 
 var LESSON_HEADINGS = [
   'Introduction',
@@ -141,12 +142,14 @@ function spyLessonSections() {
 
 document.addEventListener('turbolinks:load', function() {
   if (!isLessonPage()) return;
+
+  Prism.highlightAll();
   setTargetForExternalLinks();
   constructLessonSections(); 
 
   if (!window.matchMedia('(min-width: 992px)').matches) {
     return;
-  } 
+  }
   constructLessonNavigation();
   spyLessonSections();
 });
