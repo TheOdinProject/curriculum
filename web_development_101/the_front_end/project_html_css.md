@@ -3234,8 +3234,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [jingjing142's Solution (Easy)](https://github.com/jingjing142/google-homepage) - [View in Browser](https://jingjing142.github.io/google-homepage/)
 * [ParchedPanda's Solution (Easy)](https://github.com/parchedpanda/google_homepage/) - [View in Browser](https://parchedpanda.github.io/google_homepage/)
 * [bhenning83's Solution (Easy)](https://github.com/bhenning83/google-homepage) - [View in Browser](https://bhenning83.github.io/google-homepage/)
-* [Adalessandro21's Solution (Easy](https://github.com/adalessandro21/google-homepage) - [View In Browser](https://adalessandro21.github.io/google-homepage/)
+* [Adalessandro21's Solution (Easy)](https://github.com/adalessandro21/google-homepage) - [View In Browser](https://adalessandro21.github.io/google-homepage/)
 * [Nathan Parles' Solution(Easy)](https://nathanparle.github.io/Google-homepage/) - [View In Browser](https://nathanparle.github.io/Google-homepage/)
+* [novibonjovi's Solution (Easy)](https://github.com/novibonjovi/google-homepage) - [View In Browser](https://novibonjovi.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
