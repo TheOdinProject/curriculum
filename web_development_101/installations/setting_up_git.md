@@ -28,7 +28,7 @@ It's likely you have `git` installed already, but it won't hurt to try to instal
 simply run the command 
 
 ~~~bash
-sudo apt install git
+sudo apt install curl git
 ~~~
 
 </details>
@@ -37,6 +37,13 @@ sudo apt install git
 <details markdown="block">
 <summary class="dropDown-header">MacOS
 </summary>
+  
+#### Step 1.0: Install Homebrew
+First, you'll need to install Homebrew. Copy and paste the following into your terminal:
+
+~~~bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+~~~
 
 #### Step 1.1: Update Git
 
@@ -125,3 +132,8 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/hvqVr6d) to ask for help. 
 
+### Step 3: Let us know how it went!
+
+You have successfully completed the installations section. If you are doing the front-end of Node courses then you have everything you need. If you're doing Ruby and Rails we'll install those tools when you get to those courses.
+
+You probably felt like you were in way over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.

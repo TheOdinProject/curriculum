@@ -21,7 +21,7 @@ Frameworks let you focus more on building great sites and less on how they are a
 <div class="lesson-content__panel" markdown="1">
 1. Read [From A List Apart, Frameworks for Designers](http://alistapart.com/article/frameworksfordesigners)
 2. Read [From A List Apart, Building Twitter Bootstrap](http://alistapart.com/article/building-twitter-bootstrap)
-2. [Choosing Bootstrap or Foundation](https://medium.com/frontend-and-beyond/8b3812c7007c)
+2. [Choosing Bootstrap or Foundation](https://medium.com/@davegenge/bootstrap-vs-foundation-which-front-end-framework-to-use-e85319258b88)
 3. Browse through [Getting Started with Foundation](http://foundation.zurb.com/docs/) for an idea of how that framework operates.  Observe the similarities and differences between that and Bootstrap.
 </div>
 

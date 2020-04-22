@@ -36,6 +36,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/waldo-react-rails) - [View in browser](https://pumpkin-surprise-94026.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/waldo) - [View in browser](https://guarded-citadel-26034.herokuapp.com/)
 * [brxck's solution](https://github.com/brxck/odin-waldo) - [View in browser](https://pure-springs-85665.herokuapp.com/)
 * [theghall's solution - API](https://github.com/theghall/odin-phototag-api) - [APP](https://github.com/theghall/odin-phototag-app) - [View in browser](https://theghall.github.io/odin-phototag-app/)
@@ -48,7 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-findwaldo)
 * [David Chapman's solution](https://github.com/davidchappy/wheres-waldo) - [View in browser](https://dac-wheres-waldo.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) - [View in browser](https://frozen-stream-95035.herokuapp.com/)
-
+* [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/wheres-waldo) - [View in browser](https://theodinprojects.live/courses/javascript/projects/wheres-waldo)
 </details>
 
 ### Additional Resources

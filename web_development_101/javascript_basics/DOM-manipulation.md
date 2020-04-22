@@ -87,7 +87,7 @@ One of the most unique and useful abilities of JavaScript is its ability to mani
         &lt;button id="btn"&gt;Click Me&lt;/button&gt;<br />
         <br />
         // the JavaScript file<br />
-        var btn = document.querySelector(&lsquo;&#35;btn&rsquo;);<br />
+        const btn = document.querySelector(&lsquo;&#35;btn&rsquo;);<br />
         btn.onclick = (e) =&gt; alert(e.target.tagName);<br />
       </code></ul>
       <li>By attaching event listeners to the nodes in your JavaScript.</li>
@@ -96,7 +96,7 @@ One of the most unique and useful abilities of JavaScript is its ability to mani
         &lt;button id="btn"&gt;Click Me Too&lt;/button&gt;<br />
         <br />
         // the JavaScript file<br />
-        var btn = document.querySelector('#btn');<br />
+        const btn = document.querySelector('#btn');<br />
         btn.addEventListener(&lsquo;click&rsquo;, (e) => {<br />
           &nbsp;&nbsp;alert(e.target.tagName);<br />
         });<br />
@@ -353,7 +353,7 @@ This solution is less than ideal because we're cluttering our HTML with JavaScri
 
 ~~~JavaScript
 // the JavaScript file
-var btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
 ~~~
 
@@ -370,7 +370,7 @@ This is a little better. We've moved the JS out of the HTML and into a JS file, 
 
 ~~~JavaScript
 // the JavaScript file
-var btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
   alert("Hello World");
 });
