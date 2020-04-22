@@ -34,4 +34,3 @@ import "../src/js/admin_flash";
 import "../src/js/prism";
 import "../src/js/projects";
 import "../src/js/scrollspy.min";
-import "../src/js/stickyFill.min";

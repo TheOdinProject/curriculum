@@ -8,6 +8,7 @@
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1",
     "regenerator-runtime": "^0.13.5",
+    "stickyfilljs": "^2.1.0",
     "toaster": "^0.1.2",
     "turbolinks": "^5.2.0",
     "validate.js": "^0.13.1"

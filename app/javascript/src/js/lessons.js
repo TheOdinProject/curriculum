@@ -1,3 +1,5 @@
+import Stickyfill from 'stickyfilljs';
+
 var LESSON_HEADINGS = [
   'Introduction',
   'Learning Outcomes',
