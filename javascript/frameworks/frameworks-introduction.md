@@ -1,8 +1,8 @@
-## Front-end Frameworks
+### Front-end Frameworks
 
 By this point you have probably heard about JavaScript frameworks such as React, Angular or Vue. Almost all major web apps being built today use frameworks and many job postings ask for experience with at least one of them. But what are they? We aren't going to spend too much time teaching you all the nitty-gritty details of each of these frameworks, but knowing what they do and how to get started with one of them is crucial in todays web-dev world.
 
-### What _is_ a framework?
+### What is a framework?
 
 Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time manipulating the DOM with code like `document.createElement` or `element.innerHTML`. Every time you wanted to change some data like marking a todo complete, or adding a book to your library you had run a function that updates your entire page just to keep your view in sync with the data.  This is a very verbose and error-prone way of doing things! 
 
@@ -12,7 +12,7 @@ The various frameworks (there _are_ a lot of them) tend to have a few things in 
 
 Imagine the power of being able to do something like this as many times as you like across your whole project to get a nice looking card:
 
-~~~
+~~~javascript
 <my-card-component>
   <h1>Card title</h1>
   <p>Card Content</p>
