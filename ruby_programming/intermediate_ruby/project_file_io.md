@@ -21,12 +21,18 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/hangman)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.hangman)
+* [pudu87's Solution](https://github.com/pudu87/hangman)
+* [leetie's Solution](https://github.com/leetie/Hangman)
+* [jodokusquack's Solution](https://github.com/jodokusquack/hangman) - [Live version on Repl.it](https://repl.it/@jodokusquack/hangman)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/hangman_game)
 * [infectos's Solution](https://github.com/infectos/hangman) - [Live version on Repl.it](https://repl.it/@infectos/hangman)
 * [Loumarven's Solution](https://github.com/loumarven/top_hangman)
 * [fossegrim's Solution](https://github.com/olav35/hangman) - [Live version on Repl.it](https://repl.it/github/olav35/hangman)
 * [Michael Marchand's Solution](https://github.com/marchandmd/my_hangman) - [Live version on Repl.it](https://repl.it/@KurtBrusselSpro/myhangman-7)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/hangman)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/hangman)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/hangman)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/hangman)
 * [Robin's Solution](https://github.com/CoolGlasses/hangman)
@@ -275,5 +281,10 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Hyperturing's Solution](https://github.com/hyperturing/Hangman)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/hangman)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/tree/master/hangman)
-* [Rob Dulabon's Solution](https://github.com/RDulabon/Hangman) 
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Hangman)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/hangman)
+* [Cinthia's Solution](https://github.com/cinthiagodoi/hangman)
+* [Timework's Solution](https://github.com/Timework/hangMan/blob/master/hang.rb)
+* [Matt M's Solution](https://github.com/MattMiller1989/Hangman)
+* [Michael K's Solution](https://github.com/a0x77ry/hangman)
 </details>
