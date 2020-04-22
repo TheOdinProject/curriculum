@@ -68,7 +68,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Spark's Solution](https://github.com/Sparking2/rock-paper-scissors)
 - [andrewjh271's Solution](https://github.com/andrewjh271/RockPaperScissors) - [View in Browser](https://andrewjh271.github.io/RockPaperScissors/)
 - [Nathan's Solution](https://github.com/NathanJReidy/SPR) - [View in Browser](https://nathanjreidy.github.io/SPR/#the_game)
-- [Tomodi98's Solution](https://github.com/Tomodi98/rock-paper-scissors)
+- [Tomodi98's Solution](https://github.com/Tomodi98/rock-paper-scissors) - [View in Browser](https://tomodi98.github.io/rock-paper-scissors/)
 - [leddins's Solution](https://github.com/leddins/roshambo) - [View in Browser](https://leddins.github.io/roshambo/)
 - [BernardKwesi's Solution](https://github.com/BernardKwesi/Rock_paper_scisssors) 
 - [Harold's Solution](https://github.com/harold-guido/rock-paper-scissors/settings) - [View in Browser](https://harold-guido.github.io/rock-paper-scissors/)
