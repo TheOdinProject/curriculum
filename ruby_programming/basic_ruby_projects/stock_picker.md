@@ -21,7 +21,7 @@ Note: If you want to actually write and run your own Ruby code, you can either u
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby_projects/stock_picker.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
