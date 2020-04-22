@@ -21,7 +21,8 @@ require("turbolinks").start();
 
 import "core-js/stable";
 import "regenerator-runtime/runtime";
-import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap/dist/js/bootstrap';
+import 'prismjs';
 
 import "../src/js/analytics";
 import "../src/js/faq";
