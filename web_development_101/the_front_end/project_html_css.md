@@ -92,6 +92,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Andrey Skopintsev's Solution](https://github.com/AndreySkopintsev/google-homepage) - [View in Browser](https://andreyskopintsev.github.io/google-homepage/)
 * [Zieeco's Solution](https://github.com/zieeco/google_homepage) - [View in Browser](https://zieeco.github.io/google_homepage/)
 * [XXIXIMMI's Solution (Easy)](https://github.com/XXIXIMMI/google-homepage) - [View in Browser](https://xxiximmi.github.io/google-homepage/)
 * [XXIXIMMI's Solution (Hard)](https://github.com/XXIXIMMI/google-search) - [View in Browser](https://xxiximmi.github.io/google-search/)
@@ -3238,6 +3239,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Adalessandro21's Solution (Easy)](https://github.com/adalessandro21/google-homepage) - [View In Browser](https://adalessandro21.github.io/google-homepage/)
 * [Nathan Parles' Solution(Easy)](https://github.com/nathanparle/Google-homepage/) - [View In Browser](https://nathanparle.github.io/Google-homepage/)
 * [novibonjovi's Solution (Easy)](https://github.com/novibonjovi/google-homepage) - [View In Browser](https://novibonjovi.github.io/google-homepage/)
+* [fviccia's Solution (Easy)](https://github.com/fviccia/google-homepage) - [View In Browser](https://fviccia.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
