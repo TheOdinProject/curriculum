@@ -4,8 +4,6 @@ In this project, you'll get the opportunity to actually build a real rails appli
 
 To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient.
 
-Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -16,16 +14,21 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
   4. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
   5. If you're feeling ambitious, add in authentication in section I5.
   6. If you're feeling very ambitious, try doing the final Extras section I6.
-  7. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav)
+  7. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment)
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/rails_basics/project_blog_app.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Powei94's Solution](https://github.com/powei94/rails_blog_app) - [View in Browswer](https://shrouded-waters-51084.herokuapp.com/)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/blog_tutorial) - [View in Browswer](https://shielded-basin-69335.herokuapp.com/articles)
+* [Run After's Solution](https://github.com/run-after/blogger)
+* [LenaChestnut's Solution](https://github.com/LenaChestnut/rails-blog) - [View in Browser](https://powerful-wildwood-59785.herokuapp.com/)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Blogger) - [View in Browser](https://infinite-plains-44231.herokuapp.com/)
 * [Joel Bejot's Solution](https://github.com/JoelBejot/blogger.git) - [View in Browser](https://stormy-waters-91981.herokuapp.com/)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/rails-blog) - [View in Browser](https://pure-tundra-06256.herokuapp.com/)
 * [Edd's Solution](https://github.com/casualc0der/blogger) - [View in Browser](https://limitless-inlet-98594.herokuapp.com/)

@@ -43,7 +43,7 @@ end
 #=> Hot diggity, 1 is less than 2!
 ~~~
 
-If there is only one line of code to be evaluated inside the block, then you can rewrite the code to be more succient and take up only one line:
+If there is only one line of code to be evaluated inside the block, then you can rewrite the code to be more succinct and take up only one line:
 
 ~~~ruby
 puts "Hot diggity damn, 1 is less than 2" if 1 < 2

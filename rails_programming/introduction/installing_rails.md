@@ -1,6 +1,8 @@
 ### Introduction
 
-With Ruby installed, you're all set to create your first Ruby on Rails application!
+If you went through the [Ruby course](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) you will have already installed Ruby. But if you haven't done that, then now is the time to [install it](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) as you will need Ruby installed before we tackle installing Rails.
+
+With Ruby installed, you're all set to install Rails and create our first Rails app to ensure everything went smoothly.
 
 Before continuing, let's review a few best practices to keep in mind:
 
@@ -357,9 +359,3 @@ heroku open
 ~~~
 
 Now go and play around with it!
-
-### Step 4: Let us know how it went!
-
-You have successfully completed the installations. Congratulations!!! This was __the hardest part__ of the entire Odin Project.
-
-You probably felt like you were in way over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.

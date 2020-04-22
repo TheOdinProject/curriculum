@@ -24,6 +24,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Mikael's solution](https://github.com/Mikearaya/apple-clone) - [View in Browser](https://mikearaya.github.io/apple-clone)
+* [Julio's solution](https://github.com/julio22b/backgrounds-gradients) - [View in Browser](https://julio22b.github.io/backgrounds-gradients/)
 * [Rarysson's Solution](https://github.com/rarysson/apple-page-clone) - [View in Browser](https://rarysson.github.io/apple-page-clone/)
 * [Johongirr's Solution](https://github.com/Johongirr/apple-clone) - [View in Browser](https://johongirr.github.io/apple-clone/)
 * [Estela's Solution](https://estelajimero.github.io/building-background/) - [View in Browser](https://estelajimero.github.io/building-background/)

@@ -19,7 +19,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rryand's Solution](https://github.com/rryand/tic_tac_toe_ruby) - [View in repl.it](https://repl.it/@rryand/tictactoeruby)
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_TicTacToe) - [View in repl.it](https://repl.it/@rlmoser/rubyTicTacToe)
+* [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/tic_tac_toe.rb)
+* [Thiago Miranda's Solution](https://github.com/SevlaMare/TicTacToe_Ruby) - [View in repl.it](https://repl.it/@ThiagoMiranda2/tictactoeruby)
 * [leetie's Solution](https://github.com/leetie/tic_tac_toe)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Tic-Tac-Toe)
 * [Sebastian Gil's Solution](https://github.com/sebGilR/tictactoe)
 * [pudu87's Solution](https://github.com/pudu87/tic-tac-toe)
 * [jodokusquack's Solultion](https://github.com/jodokusquack/tic-tac-to)
@@ -30,7 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [David Auza's and Falguni Islam's Solution](https://github.com/eng-monika/Ruby-Programming-PROJECT-OOP) - [View Demo](https://repl.it/@islamfalguni/tic-tac-toe)
 * [robo-monk's Solution](https://github.com/robo-monk/tic)
 * [Infectos's Solution](https://github.com/infectos/TicTacToe_Ruby) - [View in repl.it](https://repl.it/@infectos/TicTacToe)
-* [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_tictactoe)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.tic_tac_toe)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/tictactoe)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/tic_tac_toe)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/tic-tac-toe)
@@ -333,6 +338,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cinthia's solution](https://github.com/cinthiagodoi/tic_tac_toe)
 * [Timework's solution](https://github.com/Timework/ticTac/blob/master/tic.rb)
 * [Kendra Moyars's solution](https://github.com/kendramoyars/tic-tac-toe/blob/master/tic-tac-toe.rb)
+* [Matt Miller's solution](https://github.com/MattMiller1989/Tic-Tac-Toe/blob/master/Tic-Tac-Toe.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/tic-tac-toe)
 </details>
 
 ### Project 2: Mastermind
@@ -359,6 +366,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_Mastermind) - [View in repl.it](https://repl.it/@rlmoser/rubyMastermind)
 * [leetie's Solution](https://github.com/leetie/Mastermind)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/mastermind.rb)
 * [pudu87's Solution](https://github.com/pudu87/mastermind)
@@ -367,7 +375,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/project_opp/tree/master/mastermind)
 * [Johongirr's Solution](https://github.com/Johongirr/mastermind_ruby/tree/masterd) - [Live repl.it Version](https://repl.it/@Johongirr/DapperGoodState)
 * [Infectos's Solution (with AI)](https://github.com/infectos/Mastermind) - [Live repl.it Version](https://repl.it/@infectos/Mastermind)
-* [Philipp's Solution](https://github.com/philipp-mcvity/Odin.intermediate_ruby/tree/master/project_oop/project_mastermind)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.mastermind)
 * [Bradley Peterson's Solution](https://github.com/spaceincase/mastermind)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/mastermind)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/mastermind)
@@ -609,6 +617,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/mastermind)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/mastermind)
 * [Timework's Solution](https://github.com/Timework/mastermind/blob/master/mastermind.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/mastermind)
+* [Matt M's Solution](https://github.com/MattMiller1989/Mastermind)
 </details>
 
 ### Additional Resources

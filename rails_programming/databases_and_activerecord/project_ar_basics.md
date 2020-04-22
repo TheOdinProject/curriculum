@@ -1,6 +1,6 @@
 ### Introduction
 
-In this project, you'll get to spend some quality time with models.  The tutorial will give you a chance to apply some of what you've learned in a structured environment and then the additional project will give you the chance to do it on your own.
+In this project, you'll get to spend some quality time with models.  We will be doing some data modeling and putting your active record knowledge to practice by building your own light weight Reddit clone.
 
 ### Warmup: Thinking Data First
 
@@ -55,16 +55,7 @@ Remember, if you feel like you will be hard coding data multiple times, it's pro
   4. You want to build a message board like [Hacker News](http://news.ycombinator.com).  Users can post links.  Other users can comment on these submissions or comment on the comments.  How would you make sure a comment knows where in the hierarchy it lives?
 </div>
 
-### Project 1: Ruby on Rails Tutorial
-
-This chapter of the tutorial will give you a chance to start working with the database and models.  It will guide you through setting up your first database migrations, making sure your user inputs are properly validated, and how to add a secure password to your User model.
-
-### Your Task
-<div class="lesson-content__panel" markdown="1">
-  1. Do the [Ruby on Rails Tutorial chapter 6](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/modeling_users), "Modeling Users".
-</div>
-
-### Project 2: Micro-Reddit
+### Project: Micro-Reddit
 
 Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of it called `micro-reddit`.  In this project, you'll build the data structures necessary to support link submissions and commenting.  We won't build a front end for it because we don't need to... you can use the Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views.
 
@@ -122,6 +113,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Powei94's Solution](https://github.com/powei94/micro-reddit)
+* [Run After's Solution](https://github.com/run-after/micro-reddit)
 * [Hector's Solution](https://github.com/hectorgarcia07/activeRecordOdinProject)
 * [Varras' Solution](https://github.com/Varras/micro-reddit)
 * [David Auza's and Luis Novoa's Solution](https://github.com/luis-novoa/micro-reddit-dl)
@@ -248,7 +241,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Leo Holanda's Solution](https://github.com/leo-holanda/micro_reddit)
 * [Rey van den Berg's Solution](https://github.com/Rey810/micro-reddit)
 * [guacamobley's solution](https://github.com/guacamobley/micro-reddit)
-
+* [wilmir's solution](https://github.com/Wilmir/micro-reddit)
+* [Lucas' solution](https://github.com/Lucas-Vergara/micro-reddit)
 </details>
 
 ### Additional Resources
