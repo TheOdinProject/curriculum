@@ -41,11 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Charles Keenan's Solution](https://github.com/lunenburgfishfactory/Learning-Projects/blob/master/index.html) - [View in Browser](https://lunenburgfishfactory.github.io/Learning-Projects/)
 - [Chau Nguyen's Solution](https://github.com/VanQuishi/rock-paper-scissors)
 - [Pratiks's Solution](https://github.com/Pratik-Gohil/Rock-Paper-Sissors) - [View in Browser](https://pratik-gohil.github.io/Rock-Paper-Sissors/) 
-=======
 - [aaron-contreras's Solution](https://github.com/aaron-contreras/drunk-paper-scissors) - [View in Browser](https://aaron-contreras.github.io/drunk-paper-scissors)
 - [GraceSchawr's Solution](https://github.com/GraceSchwar/Project-Rock-Paper-Scissors)
 - [vicc30's Solution](https://github.com/vicc30/Project-Rock-Paper-Scissors/)
@@ -130,7 +128,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [retsofcm's Solution](https://github.com/retsofcm/rps-game)
 - [Chau Nguyen's Solution](https://github.com/VanQuishi/rock-paper-scissors) - [View in Browser](https://vanquishi.github.io/rock-paper-scissors/)
 - [Pratiks's Solution](https://github.com/Pratik-Gohil/Rock-Paper-Sissors) - [View in Browser](https://pratik-gohil.github.io/Rock-Paper-Sissors/)
->>>>>>> 039bc4e1a512a2fec1309a1c087acc5ac25d2952
 - [Amr Elshenawy's Solution](https://github.com/AmrElshenawy/rock-paper-scissors) - [View in Browser](https://amrelshenawy.github.io/rock-paper-scissors/)
 - [Fabio's Solution](https://github.com/ThomYorke7/rock-paper-scissors) - [View in Browser](https://thomyorke7.github.io/rock-paper-scissors/)
 - [Rilinda's Solution](https://github.com/RilindaA/Rock---Paper---Scissors---Game-Javascript-console-) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Rock-Paper-Scissors-Web-Browser/blob/master/RockPaperScissors.html)
