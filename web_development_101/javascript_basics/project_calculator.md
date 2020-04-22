@@ -615,4 +615,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Rémi Borfigat’s Solution](https://github.com/remiborfigat/calculator)
 - [c-squared87's Solution](https://github.com/c-squared87/js_calculator) - [View in Browser](https://c-squared87.github.io/js_calculator/)
 - [Matyd's solution](https://github.com/MatyD356/jsCalc) - [View in Browser](https://matyd356.github.io/jsCalc/)
+- [Ryan Early's Solution](https://github.com/ryanfearly/calculator-project) - [View in Browser](https://ryanfearly.github.io/calculator-project/)
 </details>
