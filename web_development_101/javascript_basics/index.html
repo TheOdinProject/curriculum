@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcStyle.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="display">
+            <div id="history"></div>
+            <div id="total"></div>
+        </div>
+
+        <div id="keypad">
+            <div id="row1" class="row">
+                <button type="button" data-key="67">C</button>
+                <button type="button" data-key="8">DEL</button>
+                <button type="button" data-key="111">÷</button>
+                <button type="button" data-key="106">×</button>
+            </div>
+            <div id="row2" class="row">
+                <button type="button" data-key="103">7</button>
+                <button type="button" data-key="104">8</button>
+                <button type="button" data-key="105">9</button>
+                <button type="button" data-key="109">-</button>
+            </div>
+            <div id="row3" class="row">
+                <div id="innerRow">
+                    <div id="innerRow1">
+                        <button type="button" data-key="100">4</button>
+                        <button type="button" data-key="101">5</button>
+                        <button type="button" data-key="102">6</button>
+                    </div>
+                    <div id="innerRow2">
+                        <button type="button" data-key="97">1</button>
+                        <button type="button" data-key="98">2</button>
+                        <button type="button" data-key="99">3</button>
+                    </div>
+                </div>
+                <button type="button" data-key="107">+</button>
+            </div>
+            <div id="row4" class="row">
+                <button type="button" data-key="96">0</button>
+                <button type="button" id="dot" data-key="110">.</button>
+                <button type="button" data-key="13">=</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="calcScript.js" charset="utf-8"></script>
+
+</html>

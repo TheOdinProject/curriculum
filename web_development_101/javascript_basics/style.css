@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+html {
+  min-height: 100%;
+}
+
+body {
+  background: #72AAFF;
+  background: -webkit-linear-gradient(45.34deg, #1D2252 5.66%, #72AAFF 50.01%, #00FFFF 94.35%);
+  background: linear-gradient(45.34deg, #1D2252 5.66%, #72AAFF 50.01%, #00FFFF 94.35%);
+}
+
+body, button {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+#container {
+  max-width: 380px;
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 6em;
+  background: rgba(0,0,0,0.2);
+  box-shadow: 8px 12px 9px 1px rgba(0,0,0,0.5);
+}
+
+#display {
+  color: hsla(234, 47.7%, 14.8%, 1);
+}
+#history {
+  font-size: 1.5em;
+  text-align: right;
+  min-height: 1em;
+}
+#total {
+  font-size: 4em;
+  text-align: right;
+  min-height: 1em;
+}
+
+#row1, #row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#row3 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+#row4 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+#innerRow1, #innerRow2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 1em 1em;
+  border: none;
+  background: rgba(0,0,0,0.1);
+  transition: 0.07s ease;
+}
+button[data-key="8"]:hover {
+  background: rgba(233, 119, 0, 0.5);
+}
+button[data-key="67"]:hover {
+  background: rgba(255, 0, 0, 0.4);
+}
+button[data-key="13"]:hover {
+  background: rgba(0, 200, 255, 0.5);
+}
+button[data-key="107"]:hover,
+button[data-key="109"]:hover,
+button[data-key="106"]:hover,
+button[data-key="111"]:hover {
+  background: rgba(0, 200, 0, 0.5);
+}
+button:hover {
+  background: rgba(255,255,255,0.3);
+}
+button:active{
+  transform: scale(0.95);
+}
