@@ -113,6 +113,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Powei94's Solution](https://github.com/powei94/micro-reddit)
+* [Run After's Solution](https://github.com/run-after/micro-reddit)
 * [Hector's Solution](https://github.com/hectorgarcia07/activeRecordOdinProject)
 * [Varras' Solution](https://github.com/Varras/micro-reddit)
 * [David Auza's and Luis Novoa's Solution](https://github.com/luis-novoa/micro-reddit-dl)
@@ -240,7 +242,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Rey van den Berg's Solution](https://github.com/Rey810/micro-reddit)
 * [guacamobley's solution](https://github.com/guacamobley/micro-reddit)
 * [wilmir's solution](https://github.com/Wilmir/micro-reddit)
-
+* [Lucas' solution](https://github.com/Lucas-Vergara/micro-reddit)
 </details>
 
 ### Additional Resources
