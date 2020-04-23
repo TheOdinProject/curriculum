@@ -25,6 +25,12 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Alan Contreras's Solution](https://github.com/AlanContrerasM/Tic-Tac-Toe) - [View in Browser](https://alancontrerasm.github.io/Tic-Tac-Toe/)
+- [Zayeer's Solution (my own AI)](https://github.com/Zayeer/TIC-TAC-TOE) - [View in Browser](https://zayeer.github.io/TIC-TAC-TOE/)
+- [Arthur Abia's Solution](https://github.com/arthurabia/Tic-Tac-Toe) - [View in Browser](https://arthurabia.github.io/Tic-Tac-Toe/)
+- [AJMcDee's Solution (with own AI)](https://github.com/AJMcDee/TicTacToe) - [View in Browser](https://ajmcdee.github.io/TicTacToe/)
+- [Jdonahue135's Solution](https://github.com/jdonahue135/tic-tac-toe) - [View in Browser](https://jdonahue135.github.io/tic-tac-toe/)
+- [Andrija Jelenkovic's Solution](https://github.com/Amdrija/js-tic-tac-toe) - [View in Browser](https://amdrija.github.io/js-tic-tac-toe/)
 - [rlaake's Solution](https://github.com/rlaake/Tic-Tac-Toe) - [View in Browser](https://rlaake.github.io/Tic-Tac-Toe/)
 - [reneweiser's Solution](https://github.com/reneweiser/tictactoe) - [View in Browser](https://reneweiser.github.io/tictactoe/)
 - [jc's Solution](https://github.com/avazkhan2808/project-tic-tac) - [View in Browser](https://avazkhan2808.github.io/project-tic-tac/)
@@ -161,4 +167,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [alicee88's Solution](https://github.com/alicee88/odin-tictactoe) - [View in Browser](https://alicee88.github.io/odin-tictactoe/)
 - [kasweigart's Solution](https://github.com/kasweigart/Tic-Tac-Toe) - [View in Browser](https://kasweigart.github.io/Tic-Tac-Toe/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Tic-Tac-Toe) - [View in Browser](https://m-rejdych.github.io/Tic-Tac-Toe/)
+- [Joe Thompson's Solution](https://github.com/jlthompso/tic-tac-toe) - [View in Browser](https://jlthompso.github.io/tic-tac-toe/)
 </details>

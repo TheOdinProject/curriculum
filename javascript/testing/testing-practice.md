@@ -85,5 +85,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Aron's solution](https://github.com/aronfischer/jest_testing_basic_exercises)
 - [Ivnosing's solution](https://github.com/Ivnosing/testing-practice)
 - [barrysweeney's solution](https://github.com/barrysweeney/JestTestingPractice)
+- [gathoni's solution](https://github.com/gathoni-k/testing-practice-jest)
+- [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/js_testing)
 </details>
 

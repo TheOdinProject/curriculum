@@ -21,6 +21,9 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/hangman)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.hangman)
+* [pudu87's Solution](https://github.com/pudu87/hangman)
 * [leetie's Solution](https://github.com/leetie/Hangman)
 * [jodokusquack's Solution](https://github.com/jodokusquack/hangman) - [Live version on Repl.it](https://repl.it/@jodokusquack/hangman)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/hangman_game)
@@ -278,8 +281,10 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Hyperturing's Solution](https://github.com/hyperturing/Hangman)
 * [unheavenlycreature's Solution](https://github.com/unheavenlycreature/hangman)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/intermediate-ruby-projects/tree/master/hangman)
-* [Rob Dulabon's Solution](https://github.com/RDulabon/Hangman) 
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Hangman)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/hangman)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/hangman)
 * [Timework's Solution](https://github.com/Timework/hangMan/blob/master/hang.rb)
+* [Matt M's Solution](https://github.com/MattMiller1989/Hangman)
+* [Michael K's Solution](https://github.com/a0x77ry/hangman)
 </details>
