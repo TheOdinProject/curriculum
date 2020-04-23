@@ -92,6 +92,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Brian Whelans Solution (Difficult)](https://github.com/brianwhelan1984/google-difficult) - [View in Browser](https://brianwhelan1984.github.io/google-difficult/)
 * [Andrey Skopintsev's Solution](https://github.com/AndreySkopintsev/google-homepage) - [View in Browser](https://andreyskopintsev.github.io/google-homepage/)
 * [Zieeco's Solution](https://github.com/zieeco/google_homepage) - [View in Browser](https://zieeco.github.io/google_homepage/)
 * [XXIXIMMI's Solution (Easy)](https://github.com/XXIXIMMI/google-homepage) - [View in Browser](https://xxiximmi.github.io/google-homepage/)
