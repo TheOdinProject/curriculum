@@ -21,12 +21,13 @@ Note: If you want to actually write and run your own Ruby code, you can either u
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby_projects/stock_picker.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/stock_picker.rb)
 * [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/building_blocks/blob/master/stock_picker.rb)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Stockpicker/blob/master/stockpicker.rb)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/stock-picker.rb)
