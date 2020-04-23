@@ -35,6 +35,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alexander Nitiola's Solution](https://github.com/TheCre8tor/youtube_clone) - [View in browser](https://thecre8tor.github.io/youtube_clone/)
+* [skele-666's solution](https://github.com/skele-666/youtube-player-page) - [View in browser](https://skele-666.github.io/youtube-player-page/)
 * [Le-Xandar's solution](https://le-xandar.github.io/youtube-clone/) - [View in browser](https://github.com/Le-Xandar/youtube-clone)
 * [Julio's solution](https://github.com/julio22b/youtube-clone) - [View in browser](https://julio22b.github.io/youtube-clone/)
 * [Leavims's solution](https://github.com/leavism/youtube-video-page) - [View in browser](https://leavism.github.io/youtube-video-page/)
