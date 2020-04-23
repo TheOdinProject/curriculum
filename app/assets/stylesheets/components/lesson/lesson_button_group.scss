@@ -1,6 +1,5 @@
 .lesson-button-group {
   display: flex;
-  margin-top: 1.5rem;
 
   @include media-breakpoint-down(md) {
     display: block;
