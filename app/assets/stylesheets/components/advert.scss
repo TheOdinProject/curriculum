@@ -1,4 +1,4 @@
-.viking-advert {
+.advert {
 
   &__header {
     display: flex;
@@ -27,7 +27,6 @@
         padding-bottom: 20px;
       }
   }
-
 
   &__body {
     display: flex;
@@ -70,7 +69,7 @@
   &__brand-name {
     font-weight: bold;
     font-size: 1.5em;
-    color: $viking-logo-text;
+    color: $advert-logo-text;
     margin-bottom: 0;
   }
 
