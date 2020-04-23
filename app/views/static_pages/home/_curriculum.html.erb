@@ -9,14 +9,14 @@
         <div class="row curriculum-details-grid">
 
           <% available_courses.each do |course| %>
-          <div class="curriculum-details-tile align-items-center">
-            <%= image_tag course[:badge_image_url], alt: course[:badge_alt_text] %>
-            <h4 class="bold text-uppercase">
-              <%= course[:title] %>
-            </h4>
-          </div>
+            <%= link_to course[:path], :class =>"curriculum-details-tile align-items-center" do %>  
+              <%= image_tag course[:badge_image_url], alt: course[:badge_alt_text] %>
+                <h4 class="bold text-uppercase">
+                  <%= course[:title] %>
+                </h4>
+            <% end %>      
           <% end %>
-
+          
         </div>
       </div>
     </div> <!-- /.row -->

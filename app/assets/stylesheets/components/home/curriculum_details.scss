@@ -20,7 +20,7 @@
     @include media-breakpoint-down(xs) {
       flex-direction: column;
     }
-
+    
     .curriculum-details-tile {
       @include box-shadow(0 7px 16px 0 rgba(0, 0, 0, 0.05));
       background: $white;
@@ -32,6 +32,7 @@
       padding: 23px 46px 25px;
       text-align: center;
       width: 254px;
+      text-decoration: none;
 
       img {
         height: 160px;
