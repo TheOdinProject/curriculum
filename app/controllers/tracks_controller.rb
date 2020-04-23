@@ -1,6 +1,6 @@
 class TracksController < ApplicationController
   def show
-    @track = Track.find(params[:id])
+    @track = Track.friendly.find(params[:id])
     @courses = decorated_courses
     @user = current_user
   end
