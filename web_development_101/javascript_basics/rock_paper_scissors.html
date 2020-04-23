@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<script>
+    function computerPlay(){
+        //choose a random number, turn it into an array index.
+        let selection = Math.floor(Math.random()*3);
+        let choices = ['rock', 'paper', 'scissors'];
+        return (choices[selection]);
+    }
+    function playRound(playerSelection, computerSelection){
+        //put the strings in lowercase so that the player can type in any case they want.
+        //computer selection shouldnt neeeed the lowercase thing but i did just in case.
+        playerSelection=playerSelection.toLowerCase();
+        computerSelection=computerSelection.toLowerCase();
+        if((playerSelection !== 'rock' && playerSelection !== 'scissors' && playerSelection !== 'paper') || !playerSelection){
+            return("play nicely, please choose rock, paper, or scissors (I'm counting this in computer's favour you jerk)");
+        }
+        //these could be nicely upgraded to use ternary operator...
+        if(playerSelection === computerSelection){
+            return ("you have a draw! play again")
+        }else if(playerSelection=== 'rock'){
+            if(computerSelection=== 'paper'){
+                return("you lose! paper beats rock");
+            }else if(computerSelection === 'scissors'){
+                return("you win! rock beats scissors");
+            }
+        }else if(playerSelection === 'paper'){
+            if(computerSelection==='rock'){
+                return('you win! paper beats rock');
+            }else if (computerSelection === 'scissors'){
+                return('you lose! scissors beats paper');
+            }
+        }else if (playerSelection === 'scissors'){
+            if(computerSelection==='rock'){
+                return('you lose! rock beats scissors');
+            }else if(computerSelection==='paper'){
+                return ('you win! scissors beats paper!');
+            }
+        }
+
+    }
+
+    function game(){
+        let humanWins = 0;
+        let computerWins = 0;
+        let draws = 0;
+        for(let i = 0; i<5; i++){
+            let playerSelection = prompt("Rock Paper Scissors Shoot!");
+            let outcomeString = playRound(playerSelection, computerPlay());
+            //if the function returns a string that says win, lets add a win to the human wins.
+            let playerWin = outcomeString.includes('win');
+            if(playerWin){
+                humanWins += 1;
+            }else if(outcomeString.includes('draw')){
+                draws += 1;
+            }else{
+                computerWins += 1;
+            }
+            console.log(outcomeString);
+            console.log(`the score is human: ${humanWins} to computer: ${computerWins} draws: ${draws}`);
+            
+
+        }
+    }
+    game();
+</script>
