@@ -56,5 +56,5 @@ Obviously, all of our objects are intended to work together to form our final ap
 
 This one is related pretty strongly to 'Single Responsibility' but takes a different angle. As an example, if we were writing a game and wanted to completely change how the User Interface worked, we should be able to do that without completely reworking the game logic. So we should be able to start off writing our game using primarily `console.logs()` and then add in a bunch of `DOM` functions later without touching the game logic.
 
-1. [This article](https://www.innoarchitech.com/scalable-maintainable-javascript-coupling/) explains it pretty well.
+1. [This article](https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains it pretty well.
 2. The best book we've ever read on this subject is [Practical Object-Oriented Design In Ruby](http://www.poodr.com/). Unfortunately, it is not free.. and not JavaScript. We feel confident in recommending it anyway. If you don't know Ruby, it is a clear enough language that you don't really need to learn it to follow the examples and the content of the book is sincerely fantastic.
