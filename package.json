@@ -3,6 +3,7 @@
   "dependencies": {
     "@rails/ujs": "^6.0.2-2",
     "@rails/webpacker": "5.0.1",
+    "babel-plugin-prismjs": "^2.0.1",
     "bootstrap": "^4.4.1",
     "core-js": "^3.6.4",
     "jquery": "^3.4.1",
@@ -15,7 +16,6 @@
     "validate.js": "^0.13.1"
   },
   "devDependencies": {
-    "babel-plugin-prismjs": "^2.0.1",
     "webpack-dev-server": "^3.10.3"
   }
 }
