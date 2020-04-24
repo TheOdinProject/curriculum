@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+-[TunzTunzTunz's Solution](https://github.com/tunztunztunz/My-Reading-List) - [View in Browser](https://tunztunztunz.github.io/My-Reading-List/)
 - [Scottt P's Solution](https://github.com/ScotttP/library) - [View in Browser](https://scotttp.github.io/library/)
 - [Austin's Solution](https://github.com/cudworth/library-project) - [View in Browser](https://cudworth.github.io/library-project/)
 - [Mousam's Solution](https://github.com/mousamdhakal/library-project) - [View in Browser](http://mousamdhakal.me/library-project/)
