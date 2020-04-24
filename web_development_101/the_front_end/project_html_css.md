@@ -3252,6 +3252,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Foolmonkey's Solution (Easy)](https://github.com/foolmonkey/google-homepage) - [View In Browser](https://foolmonkey.github.io/google-homepage/)
 * [jtor8's Solution (Easy)](https://github.com/jtor8/google-homepage) - [View In Browser](https://jtor8.github.io/google-homepage/)
 </details>
+* [tim87henry's Solution (Easy)](https://github.com/tim87henry/google_home_page) - [View In Browser](https://tim87henry.github.io/google_home_page/)
+* [tim87henry's Solution (Hard)](https://github.com/tim87henry/google_results_page) - [View In Browser](https://tim87henry.github.io/google_results_page/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
