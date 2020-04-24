@@ -105,7 +105,7 @@ Create a new template called `sign-up-form`, and a route for `/sign-up` that poi
 </head>
 <body>
   <h1>Sign Up</h1>
-  <form action="" method="POST">
+  <form action="/sign-up" method="POST">
     <label for="username">Username</label>
     <input name="username" placeholder="username" type="text" />
     <label for="password">Password</label>
