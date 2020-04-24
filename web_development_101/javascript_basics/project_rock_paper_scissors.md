@@ -41,6 +41,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [syeo-1's Solution](https://github.com/syeo-1/rock-paper-scissors)
+- [Charles Keenan's Solution](https://github.com/lunenburgfishfactory/Learning-Projects/blob/master/index.html) - [View in Browser](https://lunenburgfishfactory.github.io/Learning-Projects/)
+- [Chau Nguyen's Solution](https://github.com/VanQuishi/rock-paper-scissors)
+- [Pratiks's Solution](https://github.com/Pratik-Gohil/Rock-Paper-Sissors) - [View in Browser](https://pratik-gohil.github.io/Rock-Paper-Sissors/) 
 - [aaron-contreras's Solution](https://github.com/aaron-contreras/drunk-paper-scissors) - [View in Browser](https://aaron-contreras.github.io/drunk-paper-scissors)
 - [GraceSchawr's Solution](https://github.com/GraceSchwar/Project-Rock-Paper-Scissors)
 - [vicc30's Solution](https://github.com/vicc30/Project-Rock-Paper-Scissors/)
@@ -64,7 +68,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Spark's Solution](https://github.com/Sparking2/rock-paper-scissors)
 - [andrewjh271's Solution](https://github.com/andrewjh271/RockPaperScissors) - [View in Browser](https://andrewjh271.github.io/RockPaperScissors/)
 - [Nathan's Solution](https://github.com/NathanJReidy/SPR) - [View in Browser](https://nathanjreidy.github.io/SPR/#the_game)
-- [Tomodi98's Solution](https://github.com/Tomodi98/rock-paper-scissors)
+- [Tomodi98's Solution](https://github.com/Tomodi98/rock-paper-scissors) - [View in Browser](https://tomodi98.github.io/rock-paper-scissors/)
 - [leddins's Solution](https://github.com/leddins/roshambo) - [View in Browser](https://leddins.github.io/roshambo/)
 - [BernardKwesi's Solution](https://github.com/BernardKwesi/Rock_paper_scisssors) 
 - [Harold's Solution](https://github.com/harold-guido/rock-paper-scissors/settings) - [View in Browser](https://harold-guido.github.io/rock-paper-scissors/)
@@ -1481,4 +1485,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [wrtyy's Solution](https://github.com/NotAProgrammerdork/rock-paper-scissors) - [View in Browser](https://notaprogrammerdork.github.io/rock-paper-scissors/)
 - [seangoat's Solution](https://github.com/seangoats/Project-Rock-Paper-Scissors-TOP-)
 - [mgin's Solution](https://github.com/mvangin/rock-paper-scissors) [View in Browser](https://mvangin.github.io/rock-paper-scissors/)
+- [FBRAA's Solution](https://github.com/FBRAA/OdinProject.git) 
+- [Joseph's Solution](https://github.com/15jjg6/rock-paper-scissors) - [View in Browser](https://15jjg6.github.io/rock-paper-scissors/)
 </details>
