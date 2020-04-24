@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ryannathanwilson's Solution](https://github.com/ryannathanwilson/calculator) - [View in Browser](https://ryannathanwilson.github.io/calculator/)
+- [justonhart's Solution](https://github.com/justonhart/Calculator) - [View in Browser](https://justonh.art/Calculator/)
 - [Johns's Solution](https://github.com/jm-staana/basic-calculator) - [View in Browser](https://jm-staana.github.io/basic-calculator/)
 - [iamjethrooo's Solution](https://github.com/iamjethrooo/calculator) - [View in Browser](https://iamjethrooo.github.io/calculator/)
 - [shaneSC's Solution](https://github.com/shanesc/calculator) - [View in Browser](https://shanesc.github.io/calculator/)
@@ -616,4 +618,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [c-squared87's Solution](https://github.com/c-squared87/js_calculator) - [View in Browser](https://c-squared87.github.io/js_calculator/)
 - [Matyd's solution](https://github.com/MatyD356/jsCalc) - [View in Browser](https://matyd356.github.io/jsCalc/)
 - [Ryan Early's Solution](https://github.com/ryanfearly/calculator-project) - [View in Browser](https://ryanfearly.github.io/calculator-project/)
+- [MatejXYZ's solution](https://github.com/MatejXYZ/Calculator) - [View in Browser](https://matejxyz.github.io/Calculator/)
 </details>
