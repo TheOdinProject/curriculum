@@ -3252,6 +3252,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [duopica's Solution (Easy)](https://github.com/duopica/google-homepage) - [View In Browser](https://duopica.github.io/google-homepage/)
 * [Notstoe's Solution (Easy)](https://github.com/notstoe/google-homepage) - [View In Browser](https://notstoe.github.io/google-homepage/)
 * [Foolmonkey's Solution (Easy)](https://github.com/foolmonkey/google-homepage) - [View In Browser](https://foolmonkey.github.io/google-homepage/)
+* [Elise Chavez's Solution (Easy)](https://github.com/eliseachavez/google-homepage) - [View In Browser](https://eliseachavez.github.io/google-homepage/)
 * [jtor8's Solution (Easy)](https://github.com/jtor8/google-homepage) - [View In Browser](https://jtor8.github.io/google-homepage/)
 </details>
 
