@@ -3251,7 +3251,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Notstoe's Solution (Easy)](https://github.com/notstoe/google-homepage) - [View In Browser](https://notstoe.github.io/google-homepage/)
 * [Foolmonkey's Solution (Easy)](https://github.com/foolmonkey/google-homepage) - [View In Browser](https://foolmonkey.github.io/google-homepage/)
 * [jtor8's Solution (Easy)](https://github.com/jtor8/google-homepage) - [View In Browser](https://jtor8.github.io/google-homepage/)
-Add my solution here!
 </details>
 
 ### Additional Resources
