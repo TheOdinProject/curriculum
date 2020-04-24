@@ -35,6 +35,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/substring-project/blob/master/lib/substring.rb)
+* [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/substrings.rb)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/substring.rb)
 * [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/building_blocks/blob/master/substrings.rb)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/substrings.rb)
