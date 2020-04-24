@@ -2248,7 +2248,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Magda's solution (easy)](https://0000magda0000.github.io/google-homepage/) - [View in Browser](https://0000magda0000.github.io/google-homepage/)
 * [cvillere solution (easy)](https://github.com/cvillere/google-homepage) - [View in Browser](https://cvillere.github.io/google-homepage/)
 * [Abdirahman's solution (easy & difficult) click enter on the search bar to view The Result Page](https://murabac.github.io/Google-Clone/) - [View in Browser (difficult)](https://murabac.github.io/Google-Clone/result.html?)
-* [Tristan Ross's Solution (Easy)](https://github.com/TristanRoss/google-homepage) - [View in Browser (Easy)](https://tristanross.github.io/google-homepage/)
+* [Tristan Ross's Solution (Difficult)](https://github.com/TristanRoss/google-homepage) - [View in Browser (Difficult)](https://tristanross.github.io/google-homepage/)
 * [Mohamed's solution (easy & difficult) click enter on the search bar to view The Result Page](https://mohamedcutte.github.io/google_hargeisa/) - [View in Browser (difficult)](https://mohamedcutte.github.io/google_hargeisa/result.html)
 * [Ballurw's Solution (Easy)](https://github.com/Ballurw/google-homepage) - [View in Browser (Easy)](https://ballurw.github.io/google-homepage/)
 * [Tanya's Solution (Easy)](https://github.com/tanyalai/Odin-Project-Tutorials/tree/master/Web%20Dev%20101/HTML-CSS%20Project) - [View in Browser (Easy)](http://htmlpreview.github.io/?https://github.com/tanyalai/Odin-Project-Tutorials/blob/master/Web%20Dev%20101/HTML-CSS%20Project/googleproj.html)
