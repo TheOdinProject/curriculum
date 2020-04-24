@@ -92,7 +92,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-[Kidkaze's Solution (easy)](https://github.com/Kidkaze/google-homepage) - [view in Browser](https://kidkaze.github.io/google-homepage/)
+* [arndzk's Solution (Easy)](https://github.com/arndzk/google-homepage) - [View in Browser](https://arndzk.github.io/google-homepage/)
+* [Kidkaze's Solution (Easy)](https://github.com/Kidkaze/google-homepage) - [View in Browser](https://kidkaze.github.io/google-homepage/)
 * [chunfai's Solution (Easy)](https://github.com/ashchunfai/google-homepage) - [View in Browser](https://ashchunfai.github.io/google-homepage/)
 * [Jessie Jalca's Solution (Both)](https://github.com/jessiejalca/google-homepage) - [View in Browser](https://jessiejalca.github.io/google-homepage/)
 * [Brian Whelans Solution (Difficult)](https://github.com/brianwhelan1984/google-difficult) - [View in Browser](https://brianwhelan1984.github.io/google-difficult/)
