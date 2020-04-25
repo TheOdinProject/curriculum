@@ -1,4 +1,4 @@
-### Introduction
+﻿### Introduction
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
@@ -92,6 +92,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [t00mstone's Solution (Easy)](https://github.com/t00mstone/google-homepage) - [View in Browser](https://t00mstone.github.io/google-homepage/)
 * [Tim's Solution (Easy)](https://github.com/TIMDILLAMORE/google-homepage) - [View in Browser](https://timdillamore.github.io/google-homepage/) 
 * [Nspnosa's Solution (Both)](https://github.com/Nspnosa/google-homepage) - [View in Browser](https://nspnosa.github.io/google-homepage/)
 * [Cristian's Solution (Both)](https://github.com/cristianCeamatu/googleclone) - [View in Browser](https://cristianceamatu.github.io/googleclone/)
@@ -3263,6 +3264,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [sptyi's Solution (Easy)](https://github.com/sptyi/google-homepage) - [View In Browser](https://sptyi.github.io/google-homepage/)
 * [bitmeg's Solution (Easy)](https://github.com/bitmeg/google-homepage) - [View In Browser](https://bitmeg.github.io/google-homepage/)
 * [patrickronn's Solution (Both)](https://github.com/patrickronn/google-homepage) - [View in Browser](https://patrickronn.github.io/google-homepage/search.html)
+* [TildaDares' Solution (Both)](https://github.com/TildaDares/the_odin_project) - [View In Browser](https://tildadares.github.io/the_odin_project/google-homepage)
 </details>
 
 ### Additional Resources
