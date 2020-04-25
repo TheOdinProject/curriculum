@@ -43,7 +43,7 @@ end
 #=> Hot diggity, 1 is less than 2!
 ~~~
 
-If there is only one line of code to be evaluated inside the block, then you can rewrite the code to be more succient and take up only one line:
+If there is only one line of code to be evaluated inside the block, then you can rewrite the code to be more succinct and take up only one line:
 
 ~~~ruby
 puts "Hot diggity damn, 1 is less than 2" if 1 < 2
@@ -155,9 +155,10 @@ This happens because computers can't store strings in the same efficient way the
 In addition to the above operators, Ruby has a special operator that is affectionately referred to as the **spaceship operator**. Unlike the other comparison operators, which all return `true` or `false`, the spaceship operator returns one of three numerical values.
 
 `<=>` (spaceship operator) returns the following:
- - `-1` if the value on the left is less than the value on the right;
- - `0` if the value on the left is equal to the value on the right; and
- - `1` if the value on the left is greater than the value on the right.
+
+- `-1` if the value on the left is less than the value on the right;
+- `0` if the value on the left is equal to the value on the right; and
+- `1` if the value on the left is greater than the value on the right.
 
 ~~~ruby
 5 <=> 10    #=> -1

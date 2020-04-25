@@ -476,6 +476,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [tenacious qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/enumerable-methods.rb)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Custom_Enumerables/blob/master/custom_enumerables.rb) - [View Demo](https://repl.it/@andrewbaldwin44/CustomEnumerables)
 * [Thiago Miranda's Solution](https://github.com/SevlaMare/enumerables) - [View Demo](https://repl.it/@ThiagoMiranda2/enumerables)
 * [Aulbourn's Solution](https://github.com/aulbytj/Enumerable/blob/develop/main.rb)

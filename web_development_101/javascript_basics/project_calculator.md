@@ -45,6 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ryannathanwilson's Solution](https://github.com/ryannathanwilson/calculator) - [View in Browser](https://ryannathanwilson.github.io/calculator/)
+- [justonhart's Solution](https://github.com/justonhart/Calculator) - [View in Browser](https://justonh.art/Calculator/)
+- [Johns's Solution](https://github.com/jm-staana/basic-calculator) - [View in Browser](https://jm-staana.github.io/basic-calculator/)
+- [iamjethrooo's Solution](https://github.com/iamjethrooo/calculator) - [View in Browser](https://iamjethrooo.github.io/calculator/)
+- [shaneSC's Solution](https://github.com/shanesc/calculator) - [View in Browser](https://shanesc.github.io/calculator/)
+- [Chau Nguyen's solution](https://github.com/VanQuishi/calculator) - [View in Browser](https://vanquishi.github.io/calculator/)
 - [paolotiu17's solution](https://github.com/paolotiu17/calculator) - [View in Browser](https://paolotiu17.github.io/calculator/)
 - [Igor Tikush's Solution](https://github.com/IgorTikush/calculator-Project) - [View in Browser](https://igortikush.github.io/calculator-Project/)
 - [Le-santos's Solution](https://github.com/le-santos/basic-calculator) - [View in Browser](https://le-santos.github.io/basic-calculator/)  
@@ -610,4 +616,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [fussykyloren's Solution](https://github.com/fussykyloren/calculator) - [View in Browser](https://fussykyloren.github.io/calculator/)
 - [Rémi Borfigat’s Solution](https://github.com/remiborfigat/calculator)
 - [c-squared87's Solution](https://github.com/c-squared87/js_calculator) - [View in Browser](https://c-squared87.github.io/js_calculator/)
+- [Matyd's solution](https://github.com/MatyD356/jsCalc) - [View in Browser](https://matyd356.github.io/jsCalc/)
+- [Ryan Early's Solution](https://github.com/ryanfearly/calculator-project) - [View in Browser](https://ryanfearly.github.io/calculator-project/)
+- [MatejXYZ's solution](https://github.com/MatejXYZ/Calculator) - [View in Browser](https://matejxyz.github.io/Calculator/)
 </details>
