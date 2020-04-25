@@ -34,7 +34,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [tracy2811's Solution](https://github.com/tracy2811/members-only) - [View in browser](https://nameless-hollows-72372.herokuapp.com/)
 * [Eljoey's solution](https://github.com/eljoey/Members-Only-MsgBoard) - [View in browser](https://warm-garden-53847.herokuapp.com)
 * [Saif Mode's solution](https://saifmode.github.io/secret-club-house) - [View in browser](https://secret-club-house.herokuapp.com)
-* [Brian Tuju's solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/members_only) - [View in browser](https://members-only--briantuju.repl.co/)
+* [Brian Tuju's solution](https://github.com/briantuju/op-members-only) - [View in browser](https://op-members-only.briantuju.repl.co)
 * [Jdonahue135's solution](https://github.com/jdonahue135/members-only) - [View in browser](https://desolate-reef-04961.herokuapp.com/)
 * [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-members-only) - [View in browser](https://odin-members-only.herokuapp.com/)
 </details>

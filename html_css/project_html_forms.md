@@ -1,5 +1,5 @@
 ### Introduction
-In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users.  They have been highly praised for the design and simplicity of their site, and their signup process is very clean.
+In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users.  They have been highly praised for the design and simplicity of their site, and their signup process is very clean.  If the link isn't working for you, an alternative form to rebuild is by [Mailchimp.com](https://login.mailchimp.com/signup/).
 
 The page is very straightforward, so you should be able to clone it even if your CSS skills aren't perfect.  As usual, don't worry about any of the dynamic functionality on the page or finding the specific icons they use or having the form actually submit.  The point is to make it *look* like the real page as much as you reasonably can.
 
