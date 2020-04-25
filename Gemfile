@@ -48,7 +48,6 @@ group :development, :test, :docker do
   gem 'rake',                             '~> 12.3'
   gem 'rails-controller-testing'
   gem 'dotenv-rails'
-  gem 'bundle-audit'
   gem 'pry',                                '~> 0.12.2'
   gem 'factory_bot'
 end

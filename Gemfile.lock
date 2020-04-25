@@ -93,10 +93,6 @@ GEM
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
     builder (3.2.4)
-    bundle-audit (0.1.0)
-      bundler-audit
-    bundler-audit (0.3.0)
-      bundler (~> 1.2)
     cancancan (3.1.0)
     codeclimate-engine-rb (0.4.1)
       virtus (~> 1.0)
@@ -462,7 +458,6 @@ DEPENDENCIES
   better_errors
   binding_of_caller (~> 0.8)
   bootstrap (>= 4.4.1)
-  bundle-audit
   cancancan
   database_cleaner (~> 1.5)
   derailed
