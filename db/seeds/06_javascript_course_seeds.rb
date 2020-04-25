@@ -478,7 +478,7 @@ section = create_or_update_section(
   title_url: "JavaScript and Rails".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end. You'll also get a chance to work with external APIs like Google Maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future."
+  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end. You'll also get a chance to work with external APIs like Google Maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future. Note: if you've opted to skip the Ruby/Rails portion of the curriculum to do (only) full stack JS, you can safely skip this unit, too."
 )
 
 lesson_position += 1
