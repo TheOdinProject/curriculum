@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Wlmart-Cashier's Solution](https://github.com/Walmart-cashier/tic-tac-toe) - [View in Browser] https://walmart-cashier.github.io/tic-tac-toe/)
 - [Denis Oluka's Solution](https://github.com/OlukaDenis/TicTacToe-Javascript) - [View in Browser](https://raw.githack.com/OlukaDenis/TicTacToe-Javascript/development/index.html)
 - [Alan Contreras's Solution](https://github.com/AlanContrerasM/Tic-Tac-Toe) - [View in Browser](https://alancontrerasm.github.io/Tic-Tac-Toe/)
 - [Zayeer's Solution (my own AI)](https://github.com/Zayeer/TIC-TAC-TOE) - [View in Browser](https://zayeer.github.io/TIC-TAC-TOE/)
