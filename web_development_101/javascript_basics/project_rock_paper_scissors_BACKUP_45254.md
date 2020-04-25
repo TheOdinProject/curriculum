@@ -1490,10 +1490,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [FBRAA's Solution](https://github.com/FBRAA/OdinProject.git)
 - [Joseph's Solution](https://github.com/15jjg6/rock-paper-scissors) - [View in Browser](https://15jjg6.github.io/rock-paper-scissors/)
 <<<<<<< HEAD
-
+https://github.com/lauragyre/rockpaperscissors 
 =======
 - [christian-ortega's Solution](https://github.com/christian-ortega/rock-paper-scissors) - [View in Browser](https://christian-ortega.github.io/rock-paper-scissors/)
 - [sptyi's Solution](https://github.com/sptyi/Rock-Paper-Scissors)
 >>>>>>> upstream/master
-https://github.com/lauragyre/rockpaperscissors 
 </details>

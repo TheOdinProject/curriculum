@@ -67,7 +67,7 @@ This section contains questions for you to check your understanding of this less
 <details>
 <summary>What is the Git command used to get a full copy of an existing Git repository from Github?</summary>
 <ul><ul>
-  <li>Use <code>git clone git@github.com:&lt;your-respository-name&gt;</code> to clone a GitHub repository onto your local machine.</li>
+  <li>Use <code>git clone git@github.com:&lt;your-github-username&gt;/&lt;your-respository-name&gt;</code> to clone a GitHub repository onto your local machine.</li>
 </ul></ul>
 </details>
 
