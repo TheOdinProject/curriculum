@@ -3262,6 +3262,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [tim87henry's Solution (Hard)](https://github.com/tim87henry/google_results_page) - [View In Browser](https://tim87henry.github.io/google_results_page/)
 * [sptyi's Solution (Easy)](https://github.com/sptyi/google-homepage) - [View In Browser](https://sptyi.github.io/google-homepage/)
 * [bitmeg's Solution (Easy)](https://github.com/bitmeg/google-homepage) - [View In Browser](https://bitmeg.github.io/google-homepage/)
+* [patrickronn's Solution (Both)](https://github.com/patrickronn/google-homepage) - [View in Browser](https://patrickronn.github.io/google-homepage/search.html)
 </details>
 
 ### Additional Resources
