@@ -3263,7 +3263,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [sptyi's Solution (Easy)](https://github.com/sptyi/google-homepage) - [View In Browser](https://sptyi.github.io/google-homepage/)
 * [bitmeg's Solution (Easy)](https://github.com/bitmeg/google-homepage) - [View In Browser](https://bitmeg.github.io/google-homepage/)
 * [patrickronn's Solution (Both)](https://github.com/patrickronn/google-homepage) - [View in Browser](https://patrickronn.github.io/google-homepage/search.html)
-*[TildaDares' Solution (Both)](https://github.com/TildaDares/the_odin_project) - [View In Browser](https://tildadares.github.io/the_odin_project/google-homepage)
+* [TildaDares' Solution (Both)](https://github.com/TildaDares/the_odin_project) - [View In Browser](https://tildadares.github.io/the_odin_project/google-homepage)
 </details>
 
 ### Additional Resources
