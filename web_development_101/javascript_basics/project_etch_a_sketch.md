@@ -921,4 +921,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Aportello's Solution](https://github.com/Aportello/Etch-a-Sketch) - [View in Browser](https://aportello.github.io/Etch-a-Sketch/)
 * [morganbonhomme's Solution](https://github.com/morganbonhomme/ETCH-A-SKETCH) - [View in Browser](https://morganbonhomme.github.io/ETCH-A-SKETCH/)
 * [Sally Chhuon's Solution](https://github.com/sc2225/etch_a_sketch) - [View in Browser](https://sc2225.github.io/etch_a_sketch/)
+* [Laura Gyre's Solution](https://github.com/lauragyre/etch-a-sketch) - [View in Browser](https://lauragyre.github.io/etch-a-sketch/)
 </details>
