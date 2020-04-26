@@ -369,6 +369,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [rryand's Solution](https://github.com/rryand/mastermind_ruby) - [View in repl.it](https://repl.it/@rryand/mastermindruby)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_Mastermind) - [View in repl.it](https://repl.it/@rlmoser/rubyMastermind)
 * [leetie's Solution](https://github.com/leetie/Mastermind)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Mastermind)
 * [Jithin's Solution](https://github.com/jithindasad/odin-ruby-exercise/blob/master/mastermind.rb)
 * [pudu87's Solution](https://github.com/pudu87/mastermind)
 * [jodokusquack's Solution](https://github.com/jodokusquack/mastermind) - [Live repl.it Version](https://repl.it/@jodokusquack/mastermind)
