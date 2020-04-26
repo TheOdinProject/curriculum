@@ -618,6 +618,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [c-squared87's Solution](https://github.com/c-squared87/js_calculator) - [View in Browser](https://c-squared87.github.io/js_calculator/)
 - [Matyd's solution](https://github.com/MatyD356/jsCalc) - [View in Browser](https://matyd356.github.io/jsCalc/)
 - [Ryan Early's Solution](https://github.com/ryanfearly/calculator-project) - [View in Browser](https://ryanfearly.github.io/calculator-project/)
+- [FilipKralik’s Solution](https://github.com/FilipKralik94/calculator/) - [View in Browser](https://filipkralik94.github.io/calculator/index.html)
 - [MatejXYZ's Solution](https://github.com/MatejXYZ/Calculator) - [View in Browser](https://matejxyz.github.io/Calculator/)
 - [MichelleP1’s Solution](https://github.com/MichelleP1/calculator) - [View in Browser](http://michellepeters.me/calculator/)
 - [OchsaufLerchenau’s Solution](https://github.com/OchsaufLerchenau/Calculator) - [View in Browser](https://ochsauflerchenau.github.io/Calculator/)
