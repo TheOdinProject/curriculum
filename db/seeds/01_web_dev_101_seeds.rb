@@ -26,7 +26,7 @@ section = create_or_update_section(
   title_url: "The Basics".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "This section will cover the baseline knowledge you need before getting into the more 'programming' aspects of web development.  You'll also get a chance to install the necessary software on your computer."
+  description: "This section will cover the baseline knowledge you need before getting into the more 'programming' aspects of web development."
 )
 
 lesson_position += 1
@@ -99,7 +99,7 @@ section = create_or_update_section(
   title_url: "Installations".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section you will configure your development environment, install Ruby and Rails, and launch your first rails application."
+  description: "In this section you will configure your development environment and install some software necessary for web development."
 )
 
 lesson_position += 1
@@ -172,7 +172,7 @@ section = create_or_update_section(
   title_url: "Git Basics".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section you will learn the basics of Git and how you can upload your future projects to Github so you can share your work and collaborate with others on projects easily."
+  description: "In this section you will learn the basics of Git and how you can upload your future projects to GitHub so you can share your work and collaborate with others on projects easily."
 )
 
 lesson_position += 1
@@ -221,7 +221,7 @@ section = create_or_update_section(
   title_url: "The Front End".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section you'll spend a good deal of time getting familiar with the major client-side (browser-based) languages like HTML, CSS, and Javascript.  You'll get to build a webpage with HTML/CSS and learn some programming fundamentals with Javascript."
+  description: "In this section you'll spend a good deal of time getting familiar with the major client-side (browser-based) languages like HTML, CSS, and JavaScript.  You'll get to build a webpage with HTML/CSS and learn some programming fundamentals with JavaScript."
 )
 
 lesson_position += 1
