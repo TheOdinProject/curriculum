@@ -166,7 +166,9 @@ This marks the start of your Odin journey! Later on, you'll be able to look back
 
 ### Step 3: Deploy Your Rails Application
 
-Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working.
+Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working. 
+
+Recall, in the [previous lesson](https://www.theodinproject.com/courses/ruby-on-rails/lessons/preparing-for-deployment) we set up our Heroku account to deploy our web applications. If you have not already done so, go back and complete the lesson.
 
 #### Step 3.1: Create a Heroku Application
 
