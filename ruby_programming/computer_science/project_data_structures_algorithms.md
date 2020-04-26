@@ -265,7 +265,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Philipp's Soltion](https://github.com/philipp-mcvity/odin-ruby.knight-s_travails)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.knight-s_travails)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/data-structure_knight_travail)
 * [jodokusquack's Solution](https://github.com/jodokusquack/knights_travails)
 * [Billy's Solution](https://github.com/bcoffin9/project_springer_travails)
