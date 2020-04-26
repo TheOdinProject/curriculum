@@ -620,4 +620,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ryan Early's Solution](https://github.com/ryanfearly/calculator-project) - [View in Browser](https://ryanfearly.github.io/calculator-project/)
 - [MatejXYZ's solution](https://github.com/MatejXYZ/Calculator) - [View in Browser](https://matejxyz.github.io/Calculator/)
 - [MichelleP1’s solution](https://github.com/MichelleP1/calculator) - [View in Browser](http://michellepeters.me/calculator/)
+- [OchsaufLerchenau’s solution](https://github.com/OchsaufLerchenau/Calculator) - [View in Browser](https://ochsauflerchenau.github.io/Calculator/)
 </details>
