@@ -35,6 +35,12 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alexander Nitiola's Solution](https://github.com/TheCre8tor/youtube_clone) - [View in browser](https://thecre8tor.github.io/youtube_clone/)
+* [skele-666's solution](https://github.com/skele-666/youtube-player-page) - [View in browser](https://skele-666.github.io/youtube-player-page/)
+* [Le-Xandar's solution](https://le-xandar.github.io/youtube-clone/) - [View in browser](https://github.com/Le-Xandar/youtube-clone)
+* [Julio's solution](https://github.com/julio22b/youtube-clone) - [View in browser](https://julio22b.github.io/youtube-clone/)
+* [Leavims's solution](https://github.com/leavism/youtube-video-page) - [View in browser](https://leavism.github.io/youtube-video-page/)
+* [Mikael & Ezekiel's solution](https://github.com/mikearaya/youtube_clone) - [View in browser](https://mikearaya.github.io/youtube_clone)
 * [iamjethrooo's solution](https://github.com/iamjethrooo/embedding-images-and-video) - [View in browser](https://iamjethrooo.github.io/embedding-images-and-video/)
 * [Andrija Jelenkovic's solution](https://github.com/Amdrija/youtubeClone) - [View in browser](https://amdrija.github.io/youtubeClone/)
 * [Johongirr's solution](https://github.com/Johongirr/youtube-clone) - [View in browser](https://johongirr.github.io/youtube-clone/)
@@ -168,6 +174,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Adriel Bruno's solution](https://github.com/AdrielTrigger/TOP---Youtube-Clone) - [View in browser](https://adrieltrigger.github.io/TOP---Youtube-Clone/)
 * [Jamesredux's solution](https://github.com/Jamesredux/youtube-clone) - [View in browser](https://jamesredux.github.io/youtube-clone/)
 * [Scott Bowles's solution](https://github.com/scottBowles/youtube-video-player) - [View in browser](https://scottbowles.github.io/youtube-video-player/)
+* [Veskenazi's solution](https://github.com/veskenazi/youtube-video-page) - [View in browser](https://veskenazi.github.io/youtube-video-page/)
+* [m-rejdych's solution](https://github.com/m-rejdych/Youtube-page) - [View in browser](https://m-rejdych.github.io/Youtube-page/)
 </details>
 
 ### Additional Resources

@@ -29,6 +29,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 - [Simon's Solution](https://github.com/Sim-frpt/music-shop-inventory) - [View in Browser](https://agile-springs-42318.herokuapp.com/inventory/)
+- [Brian Tuju's Solution](https://github.com/briantuju/op-inventory-app) - [View in browser](https://op-inventory-app--briantuju.repl.co/)
+- [Igorashs's Solution](https://github.com/igorashs/inventory-application) - [View in Browser](https://nameless-harbor-47929.herokuapp.com/catalog)
+- [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/boardgame-inventory) - [View in Browser](https://young-springs-70277.herokuapp.com/game/5e9d4fda3b91bf29f9b9f0ae)
 - [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/inventory-application) - [View in Browser](https://henriquesousa-inventory.herokuapp.com/)
 - [Zakariye's Solution](https://github.com/ZYusuf10/PhoneInventory) - [View in Browser](https://limitless-escarpment-68136.herokuapp.com/catalog)
 - [Vanessacor's Solution](https://github.com/vanessacor/skateshop) - [View in Browser](https://skateshopinventory.herokuapp.com/catalog)
