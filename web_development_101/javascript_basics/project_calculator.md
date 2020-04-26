@@ -619,4 +619,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Matyd's solution](https://github.com/MatyD356/jsCalc) - [View in Browser](https://matyd356.github.io/jsCalc/)
 - [Ryan Early's Solution](https://github.com/ryanfearly/calculator-project) - [View in Browser](https://ryanfearly.github.io/calculator-project/)
 - [MatejXYZ's solution](https://github.com/MatejXYZ/Calculator) - [View in Browser](https://matejxyz.github.io/Calculator/)
+- [MichelleP1’s solution](https://github.com/MichelleP1/calculator) - [View in Browser](http://michellepeters.me/calculator/)
 </details>
