@@ -3267,7 +3267,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [TildaDares' Solution (Both)](https://github.com/TildaDares/the_odin_project) - [View In Browser](https://tildadares.github.io/the_odin_project/google-homepage)
 * [Mint's Solution (Easy)](https://github.com/devonkhosa/the-odin-project/tree/master/google-remake) - [View in Browser](https://devonkhosa.github.io/exercises/google-remake/)
 * [Olamide Olaniyan's Solution (Easy)](https://github.com/cyber-mat/google_homepage) - [View in Browser](https://cyber-mat.github.io/google_homepage)
-[Olamide Olaniyan's Solution (Hard)](https://github.com/cyber-mat/google_searchpage) - [View in Browser](https://cyber-mat.github.io/google_searchpage)
+* [Olamide Olaniyan's Solution (Hard)](https://github.com/cyber-mat/google_searchpage) - [View in Browser](https://cyber-mat.github.io/google_searchpage)
 </details>
 
 ### Additional Resources
