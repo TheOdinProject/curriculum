@@ -1496,4 +1496,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joseph's Solution](https://github.com/15jjg6/rock-paper-scissors) - [View in Browser](https://15jjg6.github.io/rock-paper-scissors/)
 - [christian-ortega's Solution](https://github.com/christian-ortega/rock-paper-scissors) - [View in Browser](https://christian-ortega.github.io/rock-paper-scissors/)
 - [sptyi's Solution](https://github.com/sptyi/Rock-Paper-Scissors)
+- [Sandy's Solution](https://github.com/kuosandys/rock_paper_scissors)
 </details>
