@@ -33,6 +33,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Julio's solution - Framework](https://github.com/julio22b/my-CSS-framework) - [Letterboxd clone](https://github.com/julio22b/letterboxd-home) - [View in Browser](https://julio22b.github.io/letterboxd-home/)
 * [Igorashs's Solution - Framework](https://github.com/igorashs/gridlay) - [The Odin Project Clone](https://github.com/igorashs/the-odin-project-page) - [View in browser](https://igorashs.github.io/the-odin-project-page/)
 * [Kevin Vuong's Solution](https://github.com/fffear/my_grid_framework) - [The Odin Project Clone](https://github.com/fffear/the_odin_project_home_page_clone) - [View in browser](https://fffear.github.io/the_odin_project_home_page_clone/)
 * [David Auza's and Eduardo Reis's Solution](https://github.com/eduardoreisalvarenga/CSS_Framework) - [View in Browser](https://rawcdn.githack.com/eduardoreisalvarenga/CSS_Framework/5aa808211fb83ef5e0715770a5820bf9cfa1ff48/index.html)

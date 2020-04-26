@@ -43,6 +43,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/sketchy) - [View In Browser](https://chargrilledchook.github.io/sketchy/)
+* [kelem7's Solution](https://github.com/kelem7/etch-a-sketch) - [View In Browser](https://kelem7.github.io/etch-a-sketch/)
+* [hieu-ng's Solution](https://github.com/hieu-ng/etch-a-sketch/) - [View in Browser](https://hieu-ng.github.io/etch-a-sketch/)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/etch-a-sketch/) - [View in Browser](https://aaron-contreras.github.io/etch-a-sketch/)
 * [Larry's Solution](https://github.com/ldbert/Etch-a-Sketch) - [View in Browser](https://ldbert.github.io/Etch-a-Sketch/)
 * [Platyphyllum's Solution](https://github.com/marboleda/etch-a-sketch) - [View in Browser](https://marboleda.github.io/etch-a-sketch/)
 * [andrewjh271's Solution](https://github.com/andrewjh271/etch-a-sketch) - [View in Browser](https://andrewjh271.github.io/etch-a-sketch/)
@@ -917,5 +921,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [HelixF's Solution](https://github.com/HelixF/Etch-a-Sketch) - [View in Browser](https://helixf.github.io/Etch-a-Sketch/)
 * [Aportello's Solution](https://github.com/Aportello/Etch-a-Sketch) - [View in Browser](https://aportello.github.io/Etch-a-Sketch/)
 * [morganbonhomme's Solution](https://github.com/morganbonhomme/ETCH-A-SKETCH) - [View in Browser](https://morganbonhomme.github.io/ETCH-A-SKETCH/)
+* [Joseph's Solution](https://github.com/15jjg6/etch-a-sketch) - [View in Browser](https://15jjg6.github.io/etch-a-sketch/)
 * [Sally Chhuon's Solution](https://github.com/sc2225/etch_a_sketch) - [View in Browser](https://sc2225.github.io/etch_a_sketch/)
 </details>
