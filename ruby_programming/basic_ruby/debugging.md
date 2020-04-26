@@ -99,7 +99,7 @@ This is one instance where using `p` will yield more information. As mentioned a
 ~~~ruby
 puts "Using puts:"
 puts []
-puts "Using p:"
+p "Using p:"
 p []
 ~~~
 
