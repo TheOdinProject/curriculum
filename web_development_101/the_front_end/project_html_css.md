@@ -3268,8 +3268,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mint's Solution (Easy)](https://github.com/devonkhosa/the-odin-project/tree/master/google-remake) - [View in Browser](https://devonkhosa.github.io/exercises/google-remake/)
 * [Olamide Olaniyan's Solution (Easy)](https://github.com/cyber-mat/google_homepage) - [View in Browser](https://cyber-mat.github.io/google_homepage)
 * [Olamide Olaniyan's Solution (Hard)](https://github.com/cyber-mat/google_searchpage) - [View in Browser](https://cyber-mat.github.io/google_searchpage)
+* [dqmatthew's Solution (Easy)](https://github.com/dqmatthew/google_homepage) - [View in Browser](https://dqmatthew.github.io/google-homepage/)
 * [JonathanAltine's Solution (Easy)](https://github.com/JonathanAltine/google-homepage) - [View in Browser](https://jonathanaltine.github.io/google-homepage)
-*
 </details>
 
 ### Additional Resources
