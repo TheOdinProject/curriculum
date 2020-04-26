@@ -50,8 +50,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-    
+
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.binary_search_trees)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/binary_tree)
 * [leetie's Solution](https://github.com/leetie/Knights_travails)
 * [jodokusquack's Solution with Extra Credit](https://github.com/jodokusquack/ruby_binary_search_tree)
@@ -214,7 +215,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Suazo's Solution](https://github.com/rsuazo/binary_search_tree/blob/master/binary_search_tree.rb)
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/binary_search_tree)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/binary_search_tree)
-* [Rob Dulabon's Solution](https://github.com/RDulabon/Binary_Search_Tree) 
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Binary_Search_Tree)
 * [Timework's Solution](https://github.com/Timework/search_tree/blob/master/tree.rb)
 * [Matt M's Solution](https://github.com/MattMiller1989/Binary-Tree)
 
@@ -262,8 +263,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-    
+
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.knight-s_travails)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/data-structure_knight_travail)
 * [jodokusquack's Solution](https://github.com/jodokusquack/knights_travails)
 * [Billy's Solution](https://github.com/bcoffin9/project_springer_travails)
@@ -424,5 +426,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/knight_moves)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/knight_moves)
 * [Timework's Solution](https://github.com/Timework/knight/blob/master/knight.rb)
-* [Rob Dulabon's Solution](https://github.com/RDulabon/Knight_Travails) 
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Knight_Travails)
 </details>

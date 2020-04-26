@@ -75,7 +75,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine.  The good news is that if you have your project on GitHub (as described above) doing this is incredibly simple.
 
-Github allows you to publish web projects directly from a GitHub repository.  Doing this will allow you to access your project from `your-gh-username.github.io/your-github-repo-name`
+Github allows you to publish web projects directly from a GitHub repository.  Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`
 
 There are a couple of ways to go about doing this, but the simplest is this:
 
@@ -83,7 +83,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - go to your GitHub repo on the web and click the __Settings__ button
 - scroll down until you find the __GitHub Pages__ section
 - change the __Source__ from _none_ to _master branch_ and click Save.
-- it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-gh-username.github.io/your-github-repo-name` (obviously substituting your own details in the link)
+- it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link)
 
 ### Student Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
@@ -3265,6 +3265,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [bitmeg's Solution (Easy)](https://github.com/bitmeg/google-homepage) - [View In Browser](https://bitmeg.github.io/google-homepage/)
 * [patrickronn's Solution (Both)](https://github.com/patrickronn/google-homepage) - [View in Browser](https://patrickronn.github.io/google-homepage/search.html)
 * [TildaDares' Solution (Both)](https://github.com/TildaDares/the_odin_project) - [View In Browser](https://tildadares.github.io/the_odin_project/google-homepage)
+* [Mint's Solution (Easy)](https://github.com/devonkhosa/the-odin-project/tree/master/google-remake) - [View in Browser](https://devonkhosa.github.io/exercises/google-remake/)
+* [Olamide Olaniyan's Solution (Easy)](https://github.com/cyber-mat/google_homepage) - [View in Browser](https://cyber-mat.github.io/google_homepage)
+* [Olamide Olaniyan's Solution (Hard)](https://github.com/cyber-mat/google_searchpage) - [View in Browser](https://cyber-mat.github.io/google_searchpage)
 </details>
 
 ### Additional Resources

@@ -166,6 +166,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/TOP-intuit-clone) - [View in Browser](https://adrieltrigger.github.io/TOP-intuit-clone/)
 * [Scott Bowles's Solution](https://github.com/scottBowles/mint-signup-page-clone) - [View in Browser](https://scottbowles.github.io/mint-signup-page-clone/)
 * [Veskenazi's Solution](https://github.com/veskenazi/html-forms) - [View in Browser](https://veskenazi.github.io/html-forms/)
+* [m-rejdych's Solution](https://github.com/m-rejdych/Form-Mint) - [View in browser](https://m-rejdych.github.io/Form-Mint/)
 </details>
 
 ### Additional Resources
