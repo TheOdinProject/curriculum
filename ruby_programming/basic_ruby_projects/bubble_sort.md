@@ -424,4 +424,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Anna Olak's Solution](https://github.com/anna1901/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/bubble-sort)
 * [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/bubble-sort.rb)
+* [akoenig1's Solution](https://github.com/akoenig1/building_blocks/bubble_sort.rb)
 </details>
+
