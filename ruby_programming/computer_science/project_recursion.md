@@ -229,6 +229,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/fibonacci.rb)
 * [Timework's Solution](https://github.com/Timework/fib/blob/master/fibb.rb)
 * [Matt M's Solution](https://github.com/MattMiller1989/Fibonacci)
+* [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/fib.rb)
+
+
 </details>
 
 ### Project: Merge Sort
@@ -466,6 +469,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/mergeSort.rb)
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/merge_sort.rb)
 * [Timework's Solution](https://github.com/Timework/merge/blob/master/merge.rb)
+* [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources
