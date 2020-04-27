@@ -1,5 +1,5 @@
 ### Introduction
-We have one last thing to attend to before getting the ball rolling with Ruby on Rails. We are putting in all of this hard work to make great projects, so naturally we want to show them off to the world, right? In future lessons, we will be **deploying** our applications to a cloud platform, Heroku. Heroku will enable us to run, build, and operate our web applications in the cloud!
+We have one thing to attend to before progressing in our web development journey. We are putting in all of this hard work to make great projects, so naturally we want to show them off to the world, right? In future lessons, we will be **deploying** our applications to a cloud platform, Heroku. Heroku will enable us to run, build, and operate our web applications in the cloud!
 
 ### Step 1: Create a Heroku Account
 
