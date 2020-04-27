@@ -149,7 +149,7 @@ This concept is an important one, so you've got some reading to do. Make sure yo
 If you've understood the concept of the prototype then this next bit about constructors will not be confusing at all!
 
 ~~~javascript
-function Student(name) {
+function Student(name, grade) {
   this.name = name
   this.grade = grade
 }
