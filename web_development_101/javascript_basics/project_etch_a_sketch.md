@@ -47,7 +47,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [justonhart's solution](https://github.com/justonhart/Etch-a-Sketch) - [View in Browser](https://justonh.art/Etch-a-Sketch/)
 * [gurucrunch's solution](https://github.com/gurucrunch/sketchy_sketch) - [View in Browser](https://gurucrunch.github.io/sketchy_sketch/)
 * [Nick DiPreta's solution](https://github.com/NickDiPreta/etch-a-sketch) - [View in Browser](https://nickdipreta.github.io/etch-a-sketch/)
-=======
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/sketchy) - [View In Browser](https://chargrilledchook.github.io/sketchy/)
 * [kelem7's Solution](https://github.com/kelem7/etch-a-sketch) - [View In Browser](https://kelem7.github.io/etch-a-sketch/)
 * [hieu-ng's Solution](https://github.com/hieu-ng/etch-a-sketch/) - [View in Browser](https://hieu-ng.github.io/etch-a-sketch/)
@@ -60,7 +59,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [justonhart's Solution](https://github.com/justonhart/Etch-a-Sketch) - [View in Browser](https://justonh.art/Etch-a-Sketch/)
 * [gurucrunch's Solution](https://github.com/gurucrunch/sketchy_sketch) - [View in Browser](https://gurucrunch.github.io/sketchy_sketch/)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/etch-a-sketch) - [View in Browser](https://nickdipreta.github.io/etch-a-sketch/)
->>>>>>> d60522ba09de9f6c24f8d22eded12f6e93250955
 * [justasdap Solution](https://github.com/JustasDap/etchasketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/JustasDap/etchasketch/blob/master/index.html)
 * [Harold's Solution](https://github.com/harold-guido/etch-a-sketch) - [View in Browser](https://harold-guido.github.io/etch-a-sketch/)
 * [iamjethrooo's Solution](https://github.com/iamjethrooo/etch-a-sketch) - [View in Browser](https://iamjethrooo.github.io/etch-a-sketch/)
