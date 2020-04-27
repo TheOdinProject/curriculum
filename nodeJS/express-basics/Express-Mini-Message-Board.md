@@ -51,21 +51,23 @@ Let's take a quick break from the main Express tutorial to practice what we've a
    ~~~
 
 12. Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it: 
-```
-web: node ./bin/www
-```
+
+   ~~~
+   web: node ./bin/www
+   ~~~
+
 13. You're finally ready to deploy to Heroku! You can first try it on local, using 
 
-~~~bash
-heroku local web
-~~~
+   ~~~bash
+   heroku local web
+   ~~~
 
 This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it and push it to your Heroku repository with:  
 
-~~~bash  
-heroku create  
-git push heroku master
-~~~
+   ~~~bash  
+   heroku create  
+   git push heroku master
+   ~~~
 
 </div>
 
