@@ -24,6 +24,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jithin's solution](https://github.com/jithindasad/jumpstart-blogger)
 * [Powei94's Solution](https://github.com/powei94/rails_blog_app) - [View in Browswer](https://shrouded-waters-51084.herokuapp.com/)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/blog_tutorial) - [View in Browswer](https://shielded-basin-69335.herokuapp.com/articles)
 * [Run After's Solution](https://github.com/run-after/blogger)
