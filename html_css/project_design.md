@@ -35,6 +35,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Julio's solution](https://github.com/julio22b/greyscale-hierarchy-heatmap) - [View in Browser](https://julio22b.github.io/greyscale-hierarchy-heatmap/)
+* [Mikael's Solution](https://github.com/Mikearaya/smashing-magazine-heat-map) - [View in Browser](https://mikearaya.github.io/smashing-magazine-heat-map/)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/smashingUXgreyscale) - [View in Browser](https://amdrija.github.io/smashingUXgreyscale/)
 * [Estela's Solution](https://estelajimero.github.io/design-teardown/) - [View in Browser](https://estelajimero.github.io/design-teardown/)
 * [Johongirr's Solution](https://github.com/Johongirr/design-teardown) - [View in Browser](https://johongirr.github.io/design-teardown/)
@@ -94,6 +96,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/carloshdelreal/design-teardown) - [View in Browser](https://carloshdelreal.github.io/design-teardown/)
 * [Scott McKell's Solution](https://github.com/zottwickel/heatmap) - [View in Browser](https://zottwickel.github.io/heatmap/)
 * [Aron's  Solution](https://github.com/aronfischer/grayscale-heat-map) - [View in Browser](https://aronfischer.github.io/grayscale-heat-map/)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-design-teardown-project) - [View in Browser](https://adrieltrigger.github.io/top-design-teardown-project/)
 </details>
 
 ### Additional Resources

@@ -68,9 +68,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/message-board-express) - [View in Browser](https://serene-wildwood-68527.herokuapp.com/)
 - [Hammad Ahmed's Solution](https://github.com/shammadahmed/mini-message-board) - [View in Browser](https://express-mini-message-board.herokuapp.com/)
 - [Igorashs's Solution](https://github.com/igorashs/mini-message-board) - [View in Browser](https://damp-badlands-14798.herokuapp.com/)
 - [autumnchris's Solution](https://github.com/autumnchris/mini-message-board-demo) - [View in Browser](https://autumnchris-message-board-demo.herokuapp.com)
+- [Obylisk's Solution](https://github.com/obylisk/miniMessageBoard) - [View in Browser](https://obylisk-mini-message-board.herokuapp.com/)
 - [Kris Tobiasson's Solution](https://github.com/highpockets/message-board.git) - [View in Browser](https://peaceful-spire-16849.herokuapp.com/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/miniMsg) - [View in Browser](https://infinite-beyond-66667.herokuapp.com/)
 - [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/mini-message-board) - [View in Browser](https://desolate-sea-58239.herokuapp.com/)
@@ -84,7 +86,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Vedat's Solution](https://github.com/mvedataydin/express-message-board) - [View in Browser](https://immense-woodland-14248.herokuapp.com/)
 - [Henry Kirya's Solution](https://github.com/harrika/messakira) - [View in Browser](https://messakira.herokuapp.com/)
 - [djolesusername's Solution](https://messages2019.herokuapp.com/) - [View in Browser](https://messages2019.herokuapp.com/)
-- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/mini_msg_board) - [View in browser](https://minimsgboard--briantuju.repl.co)
+- [Brian Tuju's Solution - Browser](https://op-mini-message-board.briantuju.repl.co)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node2/) - [View in Browser](https://reza-message-board.herokuapp.com)
 - [Morgan's Solution](https://github.com/morgando/message-board) - [View in Browser](https://polar-meadow-92800.herokuapp.com/)
 - [JamCry's Solution](https://github.com/jamcry/express-message-board) - [View in Browser](https://pacific-beach-38765.herokuapp.com/)
@@ -98,4 +100,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Christian's Solution](https://github.com/calamis/mini-messageboard) - [View in Browser](https://lit-mountain-92977.herokuapp.com/)
 - [0xtaf's Solution](https://github.com/0xtaf/mini-message-board) - [View in Browser](https://immense-hamlet-03503.herokuapp.com/)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/mini-message-board) - [View in Browser](https://thawing-badlands-31259.herokuapp.com/)
+- [mmboyce's Solution](https://github.com/mmboyce/mini-message-board) - [View in Browser](https://enigmatic-taiga-64239.herokuapp.com/)
+- [Scott Bowles's Solution](https://github.com/scottBowles/express-practice-mini-messageboard) - [View in Browser](https://salty-savannah-75073.herokuapp.com/)
 </details>
