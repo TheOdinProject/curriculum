@@ -92,6 +92,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Br3ikros's Solution (Easy)](https://github.com/br3ikros/google-homepage/) - [View in Browser](https://br3ikros.github.io/google-homepage/)
+* [rchlkr's Solution (Easy)](https://github.com/rchlkr/google-homepage) - [View in Browser](https://rchlkr.github.io/google-homepage/)
 * [t00mstone's Solution (Easy)](https://github.com/t00mstone/google-homepage) - [View in Browser](https://t00mstone.github.io/google-homepage/)
 * [Tim's Solution (Easy)](https://github.com/TIMDILLAMORE/google-homepage) - [View in Browser](https://timdillamore.github.io/google-homepage/) 
 * [Nspnosa's Solution (Both)](https://github.com/Nspnosa/google-homepage) - [View in Browser](https://nspnosa.github.io/google-homepage/)
@@ -3270,6 +3272,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Olamide Olaniyan's Solution (Hard)](https://github.com/cyber-mat/google_searchpage) - [View in Browser](https://cyber-mat.github.io/google_searchpage)
 * [dqmatthew's Solution (Easy)](https://github.com/dqmatthew/google_homepage) - [View in Browser](https://dqmatthew.github.io/google-homepage/)
 * [JonathanAltine's Solution (Easy)](https://github.com/JonathanAltine/google-homepage) - [View in Browser](https://jonathanaltine.github.io/google-homepage)
+* [Brenton393's Solution (Easy)](https://github.com/Brenton393/google-homepage) - [View in Browser](https://brenton393.github.io/google-homepage)
 </details>
 
 ### Additional Resources
