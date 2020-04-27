@@ -217,8 +217,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/binary_search_tree)
 * [Rob Dulabon's Solution](https://github.com/RDulabon/Binary_Search_Tree)
 * [Timework's Solution](https://github.com/Timework/search_tree/blob/master/tree.rb)
+* [Cinthia's Solution](https://github.com/cinthiagodoi/binary_search_tree)
 * [Matt M's Solution](https://github.com/MattMiller1989/Binary-Tree)
-
 </details>
 
 ### Project 2: Knight's Travails
