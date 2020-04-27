@@ -11,7 +11,7 @@ Code style is important! Having a consistent set of style rules for things such 
 The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a _lot_ of rules - it can be difficult to internalize them all. __Linters__ are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! The following articles explain in more detail the benefits of using a linter while you code.
 
   1. [This article](http://mikecavaliere.com/javascript-linting-what-developers-need-to-know/) gets right to the point... start here!
-  2. [This article](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe) goes a little further by discussing exactly _how_ linters do what they do.
+  2. [This article](https://medium.com/hackernoon/how-linting-and-eslint-improve-code-quality-fa83d2469efe) goes a little further by discussing exactly _how_ linters do what they do.
 
 There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [eslint](https://eslint.org/). Getting it installed and the initial set-up is fairly simple.
 
