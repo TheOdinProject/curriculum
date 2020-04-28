@@ -3273,7 +3273,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [dqmatthew's Solution (Easy)](https://github.com/dqmatthew/google_homepage) - [View in Browser](https://dqmatthew.github.io/google-homepage/)
 * [JonathanAltine's Solution (Easy)](https://github.com/JonathanAltine/google-homepage) - [View in Browser](https://jonathanaltine.github.io/google-homepage)
 * [Brenton393's Solution (Easy)](https://github.com/Brenton393/google-homepage) - [View in Browser](https://brenton393.github.io/google-homepage)
-* [Squeekoo's Solution (Easy)](https://github.com/Squeekoo/google-homepage) - [View in Browser](file:///C:/Users/edczj/google-homepage/index.html)
+* [Squeekoo's Solution (Easy)](https://github.com/Squeekoo/google-homepage) - [View in Browser](https://squeekoo.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
