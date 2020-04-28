@@ -44,6 +44,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [Cristian's Solution](https://github.com/cristianCeamatu/etch-a-sketch) - [View In Browser](https://cristianceamatu.github.io/etch-a-sketch/)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/Etch-a-Sketch) - [View In Browser](https://qazaqpyn.github.io/Etch-a-Sketch/)
 * [leddins's Solution](https://github.com/leddins/pixel-doodle) - [View In Browser](https://leddins.github.io/pixel-doodle/)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/sketchy) - [View In Browser](https://chargrilledchook.github.io/sketchy/)
 * [kelem7's Solution](https://github.com/kelem7/etch-a-sketch) - [View In Browser](https://kelem7.github.io/etch-a-sketch/)
