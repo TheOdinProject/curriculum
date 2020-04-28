@@ -18,6 +18,9 @@
 
 require("@rails/ujs").start();
 require("turbolinks").start();
+const componentRequireContext = require.context("components", true);
+const ReactRailsUJS = require("react_ujs");
+ReactRailsUJS.useContext(componentRequireContext);
 
 import "core-js/stable";
 import "regenerator-runtime/runtime";

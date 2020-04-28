@@ -31,6 +31,7 @@ gem 'sprockets',                  '~> 3.7.2'
 gem 'newrelic_rpm'
 gem 'activeadmin'
 gem 'webpacker'
+gem 'react-rails'
 
 group :production do
   gem 'rails_12factor',           '~> 0.0.3'

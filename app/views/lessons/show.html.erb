@@ -27,6 +27,28 @@
   <div class="container">
     <div class="card-main">
 
+      <% if  ProjectSubmissionFeature.enabled? %>
+        <%= react_component(
+          "project-submissions/index",
+          {
+            course: @lesson.course.as_json,
+            lesson: @lesson.as_json,
+            submissions: [
+              {
+                user_name: "Frank the Tank",
+                repo_url: "test repo",
+                live_preview: "test preview"
+              },
+              {
+                user_name: "Jimmy Tight Lips",
+                repo_url: "test repo",
+                live_preview: "test preview"
+              }
+            ]
+          }
+        ) %>
+      <% end %>
+
       <div class="lesson-button-group">
         <%= render 'lesson_buttons', lesson: @lesson, course: @lesson.course, user: @user %>
       </div>

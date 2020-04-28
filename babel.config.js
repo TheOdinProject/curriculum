@@ -22,8 +22,10 @@ module.exports = function(api) {
         {
           targets: {
             node: 'current'
-          }
-        }
+          },
+          modules: 'commonjs'
+        },
+        '@babel/preset-react'
       ],
       (isProductionEnv || isDevelopmentEnv) && [
         '@babel/preset-env',
@@ -33,6 +35,13 @@ module.exports = function(api) {
           corejs: 3,
           modules: false,
           exclude: ['transform-typeof-symbol']
+        }
+      ],
+      [
+        '@babel/preset-react',
+        {
+          development: isDevelopmentEnv || isTestEnv,
+          useBuiltIns: true
         }
       ]
     ].filter(Boolean),
@@ -65,6 +74,12 @@ module.exports = function(api) {
         '@babel/plugin-transform-regenerator',
         {
           async: false
+        }
+      ],
+      isProductionEnv && [
+        'babel-plugin-transform-react-remove-prop-types',
+        {
+          removeImport: true
         }
       ]
     ].filter(Boolean)
