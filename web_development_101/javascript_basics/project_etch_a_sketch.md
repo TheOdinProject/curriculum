@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [overdice Solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Etch-A-Sketch) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Etch-A-Sketch/index.html)
 * [Cole-0's Solution](https://github.com/Cole-0/Etch-A-Sketch)
 * [MarcoDSilva Solution](https://github.com/MarcoDSilva/Etch-a-Sketch) - [View in Browser](https://marcodsilva.github.io/Etch-a-Sketch/)
 * [Salvador Villalon Solution](https://github.com/salvillalon45/theOdinProject-EtchASketch) - [View in Browser](https://salvillalon45.github.io/theOdinProject-EtchASketch/index.html)
