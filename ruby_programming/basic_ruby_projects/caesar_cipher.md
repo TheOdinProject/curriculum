@@ -64,6 +64,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/p1_caesar_cipher)
 * [Will's Solution](https://github.com/dunlapww/odin_project/blob/master/project_odin/caesar_cipher.rb)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/caesar_cipher/)
+* [beyondinfinity's Solution](https://github.com/beyondinifnities/theodinproject/tree/master/building-projects/caesar_cipher/)
 * [Bradley's Solution](https://github.com/spaceincase/ruby_exercises/blob/master/building_blocks.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/Odin.Ruby.building_blocks/blob/master/caesar_cipher/caesar-cipher.rb)
 * [Noelle's Solution](https://github.com/elleon003/Caesar-Cipher)
