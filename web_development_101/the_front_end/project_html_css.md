@@ -92,6 +92,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Neeraj Gupta's Solution (Easy)](https://github.com/neerajgupta041/google-homepage) - [View in Browser](https://neerajgupta041.github.io/google-homepage/)
 * [Br3ikros's Solution (Easy)](https://github.com/br3ikros/google-homepage/) - [View in Browser](https://br3ikros.github.io/google-homepage/)
 * [rchlkr's Solution (Easy)](https://github.com/rchlkr/google-homepage) - [View in Browser](https://rchlkr.github.io/google-homepage/)
 * [t00mstone's Solution (Easy)](https://github.com/t00mstone/google-homepage) - [View in Browser](https://t00mstone.github.io/google-homepage/)
@@ -3274,6 +3275,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JonathanAltine's Solution (Easy)](https://github.com/JonathanAltine/google-homepage) - [View in Browser](https://jonathanaltine.github.io/google-homepage)
 * [Brenton393's Solution (Easy)](https://github.com/Brenton393/google-homepage) - [View in Browser](https://brenton393.github.io/google-homepage)
 * [evanakelly’s Solution (Easy)](https://github.com/evanakelly/google-homepage) - [View in Browser](https://evanakelly.github.io/google-homepage/)
+* [Matt Kissinger's Solution (Difficult)](https://github.com/MatthewKissinger/google-search-results-page) - [View in Browser](https://matthewkissinger.github.io/google-search-results-page/)
 </details>
 
 ### Additional Resources
