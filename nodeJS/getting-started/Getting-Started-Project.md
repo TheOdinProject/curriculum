@@ -36,6 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Thanusha Jakkula's Solution](https://github.com/ThanushaJ/basic-nodejs-website) - [View in Browser](https://repl.it/github/ThanushaJ/basic-nodejs-website)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/basic-node-site) - [View in Browser](https://repl.it/@braxtonlemmon/basic-node-site-3)
 - [Igorashs's Solution](https://github.com/igorashs/basic-informational-site) - [View in Browser](https://repl.it/@igorashs/basic-informational-site)
 - [Hammad Ahmed's Solution](https://github.com/shammadahmed/basic-node-site) - [View in Browser](https://BumpyWeightyMigration--five-nine.repl.co)
@@ -51,7 +52,7 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Eljoey's Solution](https://github.com/eljoey/Basic_Node_Site)
 - [Vedat's Solution](https://github.com/mvedataydin/initiate-node) - [View in Browser](https://repl.it/@mvedataydin/initiate-node)
 - [Henry Kirya's](https://github.com/harrika/nodemo) - [View in Browser](https://repl.it/@HenryKirya/nodemo)
-- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/basic_node_site)
+- [Brian Tuju's Solution - Browser](https://op-basic-info-site.briantuju.repl.co)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node1/) - [View in Browser](https://NodeJS-Basic-Informational-Site--tbmreza.repl.co)
 - [Carmine's Solution](https://github.com/cgrossi/node-beginner-project) - [View in Browser](https://cgrossi.github.io/node-beginner-project/)
 - [Faraz's Solution](https://github.com/frzkn/odin-projects/tree/master/basicinformationsite)

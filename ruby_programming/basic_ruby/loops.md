@@ -17,7 +17,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain what a `for` loop is and how to use it.
  - Explain what a `#times` loop is and how to use it.
  - Explain what an `until` loop is and how to use it.
- - Explain what `#updo` and `#downto` loops are and how to use them.
+ - Explain what `#upto` and `#downto` loops are and how to use them.
 
 ### Loop
 The `loop` loop (say what????) is Ruby's loop that just won't quit. It's an infinite loop that will keep going unless you specifically request for it to stop using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.

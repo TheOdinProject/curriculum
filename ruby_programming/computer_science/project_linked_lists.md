@@ -69,6 +69,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [pudu87's Solution](https://github.com/pudu87/linked-lists)
+- [Philipp's Solution (with extra credit)](https://github.com/philipp-mcvity/odin-ruby.linked_lists)
 - [YesSeri's Solution](https://github.com/YesSeri/linked-list/blob/master/linked-list.rb)
 - [Austin Fisher's Solution](https://github.com/Austin2016/linked_list)
 - [Lucas Bide's Solution (with extra credit)](https://github.com/Lucas-Bide/linked_list)
@@ -226,4 +228,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [hyperturing's Solution (with extra credit)](https://github.com/hyperturing/linked-list)
 - [Rob Dulabon's Solution](https://github.com/RDulabon/linked_list)
 - [Timework's Solution (with extra credit)](https://github.com/Timework/linkedList/blob/master/list.rb)
+- [Cinthia's Solution (with extra credit)](https://github.com/cinthiagodoi/linked-lists)
+- [Matt M's Solution (with extra credit)](https://github.com/MattMiller1989/Linked-List)
   </details>
