@@ -19,6 +19,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lenny's Solution](https://github.com/Lenn-e/weather-app) - [View in Browser](https://lenn-e.github.io/weather-app/)
 * [Disco Trooper's Solution](https://github.com/disco-trooper/weather-app) - [View in Browser](https://disco-trooper.github.io/weather-app/)
 * [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/weather-app) - [View in Browser](https://kikupiku.github.io/weather-app/)
 * [Simon's Solution](https://github.com/Sim-frpt/weather-app) - [View in Browser](https://sim-frpt.github.io/weather-app/)
@@ -78,5 +79,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [0xtaf's Solution](https://github.com/0xtaf/weather-app) - [View in Browser](https://0xtaf.github.io/weather-app/)
 * [Hamohuh's Solution](https://github.com/hamohuh/weather-app/tree/master) - [View in Browser](https://hamohuh.github.io/weather-app/)
 * [barrysweeney's Solution](https://github.com/barrysweeney/weather-app) - [View in Browser](https://barrysweeney.github.io/weather-app/)
-* [ranmaru22's solution](https://github.com/ranmaru22/my-weather) - [View in Browser](https://ranmaru22.github.io/my-weather/)
+* [ranmaru22's Solution](https://github.com/ranmaru22/my-weather) - [View in Browser](https://ranmaru22.github.io/my-weather/)
+* [Rey van den Berg's Solution](https://github.com/Rey810/Weather-App) - [View in Browser](https://rey810.github.io/Weather-App/)
 </details>

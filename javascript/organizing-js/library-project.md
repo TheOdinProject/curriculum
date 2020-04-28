@@ -40,6 +40,13 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [justonhart's Solution](https://github.com/justonhart/OdinLibrary) - [View in Browser](https://justonh.art/OdinLibrary)
+- [Vedant Shetty's Solution](https://github.com/vedantshetty/ReadingList) - [View in Browser](https://vedantshetty.github.io/ReadingList/)
+- [Denis Oluka's Solution](https://github.com/OlukaDenis/library) - [View in Browser](https://raw.githack.com/kalavhan/library/development/index.html)
+- [TunzTunzTunz's Solution](https://github.com/tunztunztunz/My-Reading-List) - [View in Browser](https://tunztunztunz.github.io/My-Reading-List/)
+- [Scottt P's Solution](https://github.com/ScotttP/library) - [View in Browser](https://scotttp.github.io/library/)
+- [Austin's Solution](https://github.com/cudworth/library-project) - [View in Browser](https://cudworth.github.io/library-project/)
+- [Mousam's Solution](https://github.com/mousamdhakal/library-project) - [View in Browser](http://mousamdhakal.me/library-project/)
 - [Johongirr's Solution w/localStorage](https://github.com/Johongirr/library/tree/master) - [View in Browser](https://johongirr.github.io/library/)
 - [LenaChestnuts's Solution w/localStorage](https://github.com/LenaChestnut/library) - [View in Browser](https://lenachestnut.github.io/library/)
 - [Lucio's Solution w/localStorage](https://github.com/JCarlosLucio/library) - [View in Browser](https://jcarloslucio.github.io/library/)
@@ -253,4 +260,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Joe Thompson's Solution](https://github.com/jlthompso/library) - [View in Browser](https://jlthompso.github.io/library/)
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/library) - [View in Browser](https://fortypercenttitanium.github.io/library/)
 - [JCoen's Solution (w/localStorage)](https://github.com/J-coen/Odin-library-project) - [View in Browser](https://j-coen.github.io/Odin-library-project/)
+- [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/library) - [View in Browser](https://ozansozuozgit.github.io/library/)
 </details>
