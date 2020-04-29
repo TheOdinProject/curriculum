@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+-[Levan Mebonia's Solution with Minmax](https://github.com/Levo96/TicTacToe_JS) - [View in Browser] (https://levo96.github.io/TicTacToe_JS/)
 - [Kris Tobiasson's solution (with Minimax)](https://github.com/highpockets/tic-tac-toe) - [View in Browser](https://highpockets.github.io/tic-tac-toe/)
 - [todoroff's solution (with Minimax)](https://github.com/todoroff/tic-tac-toe) - [View in Browser](https://todoroff.github.io/tic-tac-toe/)
 - [Julio's solution](https://github.com/julio22b/tic-tac-toe) - [View in Browser](https://julio22b.github.io/tic-tac-toe/)
