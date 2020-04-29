@@ -637,4 +637,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [OchsaufLerchenau’s Solution](https://github.com/OchsaufLerchenau/Calculator) - [View in Browser](https://ochsauflerchenau.github.io/Calculator/)
 - [Dennis Kenneth’s Solution](https://github.com/denniskenneth/Calculator) - [View in Browser](https://denniskenneth.github.io/Calculator/)
 - [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/calculator) - [View in Browser](https://ansellmaximilian.github.io/calculator/)
+- [Wil Goolsby's Solution](https://github.com/wgoolsby/calculator) - [View in Browser](https://wilgoolsby.com/calculator/)
 </details>
