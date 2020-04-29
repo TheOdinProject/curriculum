@@ -92,7 +92,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [levan mebonia's Solution (difficult)](https://github.com/Levo96/google_search_results_page) - [View in Browser](https://levo96.github.io/google_search_results_page/)
+* [Dothetuna's Solution (Easy)](https://github.com/dothetuna/google-homepage) - [View in Browser](https://dothetuna.github.io/google-homepage/)
+* [levan mebonia's Solution (Difficult)](https://github.com/Levo96/google_search_results_page) - [View in Browser](https://levo96.github.io/google_search_results_page/)
 * [wardworks' Solution (Easy)](https://github.com/wardworks/google-homepage) - [View in Browser](https://wardworks.github.io/google-homepage/)
 * [Neeraj Gupta's Solution (Easy)](https://github.com/neerajgupta041/google-homepage) - [View in Browser](https://neerajgupta041.github.io/google-homepage/)
 * [Br3ikros's Solution (Easy)](https://github.com/br3ikros/google-homepage/) - [View in Browser](https://br3ikros.github.io/google-homepage/)
