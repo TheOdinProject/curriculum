@@ -28,9 +28,9 @@ Which method you use will depend on context. Dot notation is cleaner and is usua
 ~~~javascript
 const variable = 'property'
 
-myObject.variable // this gives us 'undefined' because it's literally looking for a property named 'variable' in our object
+myObject.variable // this gives us 'undefined' because it's looking for a property named 'variable' in our object
 
-myObject[variable] // 'Value!'
+myObject[variable] // this is equivalent to myObject['property'] and returns 'Value!'
 ~~~
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) from our JavaScript 101 course.
@@ -149,7 +149,7 @@ This concept is an important one, so you've got some reading to do. Make sure yo
 If you've understood the concept of the prototype then this next bit about constructors will not be confusing at all!
 
 ~~~javascript
-function Student(name) {
+function Student(name, grade) {
   this.name = name
   this.grade = grade
 }

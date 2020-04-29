@@ -28,7 +28,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 9. Users can Comment on Posts.
 10. Posts should always display with the post content, author, comments and likes.
 11. Treat the Posts Index page like the real Facebook's "Timeline" feature -- show all the recent posts from the current user and users she is friends with.
-12. Users can create a Profile with a Photo (just start by using the Gravatar image like you did in the Rails Tutorial).
+12. Users can create a Profile with a Photo.
 13. The User Show page contains their Profile information, photo, and Posts.
 14. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
 15. Sign in should use [Omniauth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
@@ -59,6 +59,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-facebook) - [View in browser](http://ruby-facebook.herokuapp.com/)
+* [robomonk's Solution](https://github.com/robo-monk/zuccr) - [View in browser](https://zuccr.herokuapp.com/)
+* [Ian's Solution](https://github.com/IanMKesler/facebook-clone) - [View in browser](https://immense-sierra-65246.herokuapp.com/)
 * [MephistoDevelop & Sergio Diaz Solution](https://github.com/MephistoDevelop/fakebook/tree/master) - [View in browser](https://socialbook2019.herokuapp.com/users/sign_in)
 * [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-facebook) - [Live](https://murmuring-wave-95625.herokuapp.com/)
 * [Helmi's Solution](https://github.com/helmihidzir/odin-facebook)
@@ -124,6 +127,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [vanny96's solution](https://github.com/vanny96/fakebook) - [View in browser](https://rocky-ravine-56988.herokuapp.com)
 * [JamCry's Solution](https://github.com/jamcry/rails-facebook) - [View in browser](https://protected-anchorage-21926.herokuapp.com/)
 * [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/the-pub) - [View in browser](https://thepub-io.herokuapp.com)
+* [Jamesredux's Solution](https://github.com/Jamesredux/odin-facebook) - [View in browser](https://jamesreduxbook.herokuapp.com/)
+* [themetar's solution](https://github.com/themetar/odin-facebook) - [View in browser](https://phacepook.herokuapp.com/)
 </details>
 
 ### Additional Resources
