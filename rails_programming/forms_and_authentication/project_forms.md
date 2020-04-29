@@ -232,6 +232,7 @@ Send us your solution by editig this [file](https://github.com/TheOdinProject/cu
 * [Alex Krewson's Solution](https://github.com/alexkrewson/re-former)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Forms.git)
 * [guacamobley's Solution](https://github.com/guacamobley/re-former)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/re-former)
 
 </details>
 
