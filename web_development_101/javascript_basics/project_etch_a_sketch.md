@@ -586,9 +586,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Javier Arias's Solution](https://github.com/jfariasf/TOP-etch-a-sketch) - [View in Browser](https://jfariasf.github.io/TOP-etch-a-sketch/)
 * [Andrija Jelenkovic's solution](https://github.com/Amdrija/etch-a-sketch) - [View in Browser](https://amdrija.github.io/etch-a-sketch/)
 * [lindnermarci's solution](https://github.com/lindnermarci/EtchASketch) - [View in Browser](https://lindnermarci.github.io/EtchASketch/)
-<<<<<<< HEAD
 * [Levan Mebonia's solution](https://github.com/Levo96/etch_a_sketch) - [View in Browser](https://levo96.github.io/etch_a_sketch/)
-=======
 * [David Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/etch_a_sketch) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/etch_a_sketch)
 * [Robert Suazo's solution](https://github.com/rsuazo/ETCH-A-SKETCH) - [View in Browser](https://rsuazo.github.io/ETCH-A-SKETCH/)
 * [Husseinhewehii's Solution](https://github.com/Husseinhewehii/sketch) - [View in Browser](https://husseinhewehii.github.io/Sketch/)
@@ -649,5 +647,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [SurfingChewie's solution] (https://github.com/SurfingChewie/etch-a-sketch)
 * [Shane Gilbert's solution](https://github.com/shanedgilbert/Etch-a-sketch) - [View in Browser](https://shanedgilbert.github.io/Etch-a-sketch/)
 * [Kale'33's solution](https://github.com/poreniyi/Etch-a-Sketch) - [View in Browser](https://poreniyi.github.io/Etch-a-Sketch/)
->>>>>>> c06d31247ffd3adb1021b5914b7a36d8fcffbfcf
 </details>
