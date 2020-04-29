@@ -27,9 +27,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [proto-dylan's Solution](https://github.com/proto-dylan/chess)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/ruby_final_project)
 * [Robin's Solution](https://github.com/CoolGlasses/ruby_final_project)
 * [Run After's Solution](https://github.com/run-after/chess)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/ruby_chess)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/command_line_chess)
 * [Ian's Solution](https://github.com/IanMKesler/chess)
 * [BShowen's Solution](https://github.com/BShowen/ruby_chess)
 * [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-chess)
@@ -128,6 +131,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee's Solution](https://github.com/bendee48/chess) - [Repl.it](https://repl.it/@bendee48/chess)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/chess)
 * [CodingCop's Solution](https://github.com/cleve703/chess)
+* [Timework's Solution](https://github.com/Timework/chess)
+* [Robert Suazo's Solution](https://github.com/rsuazo/chess)
 
 </details>
 

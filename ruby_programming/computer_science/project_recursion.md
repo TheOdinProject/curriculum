@@ -16,6 +16,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin_ruby_recursion/blob/master/fibonacci.rb)
+* [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/fibonacci/fibonacci.rb)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/odin_cs_projects/blob/master/recursion/fibonacci.rb)
 * [jodokusquack's Solution](https://github.com/jodokusquack/ruby_recursion)
 * [Johongirr's Solution](https://github.com/Johongirr/recursion_challenge)
@@ -24,6 +26,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/fibonacci)
 * [niconisoria's Solution](https://github.com/niconisoria/recursion/blob/master/fibonacci.rb)
 * [fossegrim's Solution](https://github.com/olav35/recursion/blob/master/fibs.rb)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/fibonacci/blob/master/fibonacci.rb)
 * [Billy's Solution](https://github.com/bcoffin9/project_recursion_ruby)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/blob/master/building-projects/recursion/fibonacci.rb)
 * [Run After's Solution](https://github.com/run-after/recursion/blob/master/fibonacci.rb)
@@ -225,6 +228,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/recursion.rb)
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/fibonacci.rb)
 * [Timework's Solution](https://github.com/Timework/fib/blob/master/fibb.rb)
+* [Matt M's Solution](https://github.com/MattMiller1989/Fibonacci)
+* [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/fib.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/fibonacci)
+
+
 </details>
 
 ### Project: Merge Sort
@@ -256,6 +264,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin_ruby_recursion/blob/master/merge_sort.rb)
+* [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/merge_sort/merge_sort.rb)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/odin_cs_projects/blob/master/recursion/merge_sort.rb)
 * [jodokusquack's Solution](https://github.com/jodokusquack/ruby_recursion)
 * [Johongirr's Solution](https://github.com/Johongirr/recursion_challenge/blob/master/merge_sort.rb)
@@ -263,6 +273,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Loumarven's Solution](https://github.com/loumarven/top_recursion/tree/master/merge_sort)
 * [niconisoria's Solution](https://github.com/niconisoria/recursion/blob/master/merge_sort.rb)
 * [fossegrim's Solution](https://github.com/olav35/recursion/blob/master/merge_sort.rb)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/merge_sort/blob/master/merge_sort.rb)
 * [Billy's Solution](https://github.com/bcoffin9/project_recursion_ruby)    
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/blob/master/building-projects/recursion/merge_sort.rb)
 * [Run After's Solution](https://github.com/run-after/recursion/blob/master/merge_sort.rb)
@@ -459,6 +470,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/blob/master/mergeSort.rb)
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/merge_sort.rb)
 * [Timework's Solution](https://github.com/Timework/merge/blob/master/merge.rb)
+* [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/merge_sort.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/merge_sort)
 </details>
 
 ### Additional Resources

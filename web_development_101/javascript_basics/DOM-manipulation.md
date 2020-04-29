@@ -484,6 +484,7 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 
 * [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
+* [Event Capture, Propagation and Bubbling video by Wes Bos](https://www.youtube.com/watch?v=F1anRyL37lE)
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [Dynamic style - manipulating CSS with JavaScript](https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript)
 * [JavaScript30](https://JavaScript30.com)
