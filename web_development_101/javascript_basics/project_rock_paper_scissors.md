@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jbautista1056's Solution](https://github.com/Jbautista1056/RPSproject.io) - [View in Browser](https://jbautista1056.github.io/RPSproject.io/) 
+- [James Coen's Solution](https://github.com/J-coen/rock-paper-scissors/blob/master/script)
 - [rjpmagalang's Solution](https://github.com/rjpmagalang/rock-paper-scissors) - [View in Browser](https://rjpmagalang.github.io/rock-paper-scissors/)
 - [chunfai's Solution](https://github.com/ashchunfai/rock-paper-scissors)
 - [Christian Robinson's Solution](https://github.com/crobbo/rock-paper-scissors)
@@ -1289,7 +1291,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nick's Solution](https://github.com/njferrari14/rock-paper-scissors) - [View in Browser](https://njferrari14.github.io/rock-paper-scissors/)
 - [Andrés' Solution](https://github.com/echounit1/rps) - [View in Browser](https://echounit1.github.io/rps/)
 - [Streetset's Solution](https://github.com/madaja/Rock-Paper-Scissors)
-- [Andres Ruiz's Solution](https://github.com/Andrsrz/rock-paper-scissors)
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/rock-paper-scissors) - [View in Browser](https://andrsrz.github.io/rock-paper-scissors/)
 - [Jocelyn's Solution](https://github.com/Jocundity/rock-paper-scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/Jocundity/rock-paper-scissors/blob/master/rockpaperscissors.html)
 - [Ivan's Solution](https://github.com/ivandjorgon/rock-paper-scissors-odin) - [View in Browser](https://ivandjorgon.github.io/rock-paper-scissors-odin/)
 - [Cbo-11's Solution](https://github.com/Cbo-11/RockPaperScissorsJSExcersise) - [View in Browser](https://cbo-11.github.io/RockPaperScissorsJSExcersise/)
@@ -1500,4 +1502,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sptyi's Solution](https://github.com/sptyi/Rock-Paper-Scissors)
 - [Sandy's Solution](https://github.com/kuosandys/rock_paper_scissors)
 - [Brenton393's Solution](https://github.com/Brenton393/rock-paper-scissors) - [View in Browser](https://brenton393.github.io/rock-paper-scissors)
+- [ebergson's Solution](https://github.com/ebergson/rock-paper-scissors)
+- [Tegristh's Solution](https://github.com/Tegristh/RPS)
 </details>
