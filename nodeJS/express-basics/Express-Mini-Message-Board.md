@@ -11,14 +11,14 @@ Let's take a quick break from the main Express tutorial to practice what we've a
    ~~~javascript
    const messages = [
       {
-      text: "Hi there!",
-      user: "Amando",
-      added: new Date()
+        text: "Hi there!",
+        user: "Amando",
+        added: new Date()
       },
       {
-      text: "Hello World!",
-      user: "Charles",
-      added: new Date()
+        text: "Hello World!",
+        user: "Charles",
+        added: new Date()
       }
    ];
    ~~~
@@ -45,9 +45,7 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 11. Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
 
    ~~~json
-   "engines": {
-      "node": "10.x.y"
-   },
+   "engines": { "node": "10.x.y" },
    ~~~
 
 12. Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it: 
