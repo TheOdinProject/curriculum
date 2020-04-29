@@ -92,6 +92,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [devcsantos Solution (Both)](https://github.com/devcsantos/GoogleClone) - [View in Browser](https://devcsantos.github.io/GoogleClone/)
 * [Dothetuna's Solution (Easy)](https://github.com/dothetuna/google-homepage) - [View in Browser](https://dothetuna.github.io/google-homepage/)
 * [levan mebonia's Solution (Difficult)](https://github.com/Levo96/google_search_results_page) - [View in Browser](https://levo96.github.io/google_search_results_page/)
 * [wardworks' Solution (Easy)](https://github.com/wardworks/google-homepage) - [View in Browser](https://wardworks.github.io/google-homepage/)
