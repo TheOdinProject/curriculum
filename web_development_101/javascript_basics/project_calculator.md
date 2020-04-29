@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/calculator) - [View in Browser](https://kaliberpoziomka.github.io/calculator/)
 - [Platyphyllum's Solution](https://github.com/marboleda/calculator) - [View in Browser](https://marboleda.github.io/calculator/)
 - [andrewjh271's Solution](https://github.com/andrewjh271/calculator) - [View in Browser](https://andrewjh271.github.io/calculator/)
 - [Matt Fergoda's Solution](https://github.com/mattfergoda/calculator) - [View in Browser](https://mattfergoda.github.io/calculator/)
