@@ -90,15 +90,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-* [levan mebonia's Solution (difficult) (https://github.com/Levo96/google_search_results_page) - [View in Browser] (https://levo96.github.io/google_search_results_page/)
- - levan mebonia: Could you please make that as link for me , i mean could you please make the mark up for me as i don't know how to do it
--  and didn't find a Solution on OdinProject how to do it thank you very much | PS : did both easy and difficult version of this project :)
-
-=======
-=======
+* [levan mebonia's Solution (difficult)](https://github.com/Levo96/google_search_results_page) - [View in Browser](https://levo96.github.io/google_search_results_page/)
 * [AJ's Solution (Easy)](https://github.com/ajmcquay/google-homepage) - [View in Browser](https://ajmcquay.github.io/google-homepage/)
 * [Paul's Solution (Easy)](https://github.com/ppayne12/google-homepage) - [View in Browser](https://ppayne12.github.io/google-homepage/)
 * [Richard's Solution (Easy)](https://github.com/RichardDenton/google-homepage) - [View in Browser](https://richarddenton.github.io/google-homepage/)
@@ -112,7 +104,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Chase's Solution (Easy)](https://github.com/CharredChase/google_homepage) - [View in Browser](https://charredchase.github.io/google_homepage/)
 * [Travman's Solution (Easy)](https://github.com/tmbystedt/google-homepage) - [View in Browser](https://tmbystedt.github.io/google-homepage/)
 * [Jckruger89's Solution (Easy)](https://github.com/jckruger89/google-homepage) - [View in Browser](https://jckruger89.github.io/google-homepage/)
->>>>>>> c06d31247ffd3adb1021b5914b7a36d8fcffbfcf
 * [EmilioAK's Solution (Hard)](https://github.com/EmilioAK/google-results-page) - [View in Browser](https://emilioak.github.io/google-results-page/)
 * [EmilioAK's Solution (Easy)](https://github.com/EmilioAK/google-homepage) - [View in Browser](https://emilioak.github.io/google-homepage/index.html)
 * [Rae-Kwon's Solution (Easy)](https://github.com/Rae-Kwon/google-homepage) - [View in Browser](https://rae-kwon.github.io/google-homepage/)
@@ -208,7 +199,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [drohpok's Solution (Easy)](https://drohpok.github.io/google-homepage/)
 * [S-Par's Solution (Easy)](https://s-par.github.io/google-homepage/index.html)
 * [fobos531's Solution (Easy)](https://fobos531.github.io/google_homepage/)
->>>>>>> 6d087f2b01049145281ead6ef192c4bc0077c219
 * [rsjkr's Solution (Easy)](https://github.com/rsjkr/google-homepage)
 * [JeremyBeyond's Solution (EASY)](https://github.com/ugSh7hbY/google-homepage) - [View in Browser](https://ugsh7hby.github.io/google-homepage/)
 * [Johongirr's Solution (Easy)](https://github.com/Johongirr/google-homepage) - [View in Browser](https://johongirr.github.io/google-homepage/)
@@ -239,7 +229,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Alex's solution  (Easy)](https://github.com/AstringentBeet/google-clone) - [View in Browser](https://astringentbeet.github.io/google-clone/)
 * [Tijanif's Solution (Easy)](https://github.com/Tijanif/google-homepage) - [View in Browser](https://tijanif.github.io/google-homepage/)
 * [coldice1915's Solution (Easy)](https://github.com/coldice1915/google-homepage) - [View in Browser](https://coldice1915.github.io/google-homepage//)
->>>>>>> 9f0564f3d45764f92705aba3bccff6f535ae8376
 * [eljoeys' Solution (Easy)](https://github.com/eljoey/google_homepage) - [View in Browser](https://eljoey.github.io/google_homepage/)
 * [vladutclp' Solution (Easy)](https://github.com/vladutclp/google-homepage) - [View in Browser](https://vladutclp.github.io/google-homepage/)
 * [evan-kapantais' Solution (Easy)](https://github.com/evan-kapantais/google-homepage) - [View in Browser](https://evan-kapantais.github.io/google-homepage/)
