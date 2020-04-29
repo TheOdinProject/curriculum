@@ -43,13 +43,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Tomodi98's Solution](https://github.com/Tomodi98/etch-a-sketch) - [View in Browser](https://tomodi98.github.io/etch-a-sketch/)
 * [overdice Solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Etch-A-Sketch) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Etch-A-Sketch/index.html)
-* [Andres Ruiz's Solution](https://github.com/Andrsrz/etch-a-sketch) - [View In Browser](https://andrsrz.github.io/etch-a-sketch/)
-* [Cristian's Solution](https://github.com/cristianCeamatu/etch-a-sketch) - [View In Browser](https://cristianceamatu.github.io/etch-a-sketch/)
-* [qazaqpyn's Solution](https://github.com/qazaqpyn/Etch-a-Sketch) - [View In Browser](https://qazaqpyn.github.io/Etch-a-Sketch/)
-* [leddins's Solution](https://github.com/leddins/pixel-doodle) - [View In Browser](https://leddins.github.io/pixel-doodle/)
-* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/sketchy) - [View In Browser](https://chargrilledchook.github.io/sketchy/)
-* [kelem7's Solution](https://github.com/kelem7/etch-a-sketch) - [View In Browser](https://kelem7.github.io/etch-a-sketch/)
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/etch-a-sketch) - [View in Browser](https://andrsrz.github.io/etch-a-sketch/)
+* [Cristian's Solution](https://github.com/cristianCeamatu/etch-a-sketch) - [View in Browser](https://cristianceamatu.github.io/etch-a-sketch/)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/Etch-a-Sketch) - [View in Browser](https://qazaqpyn.github.io/Etch-a-Sketch/)
+* [leddins's Solution](https://github.com/leddins/pixel-doodle) - [View in Browser](https://leddins.github.io/pixel-doodle/)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/sketchy) - [View in Browser](https://chargrilledchook.github.io/sketchy/)
+* [kelem7's Solution](https://github.com/kelem7/etch-a-sketch) - [View in Browser](https://kelem7.github.io/etch-a-sketch/)
 * [hieu-ng's Solution](https://github.com/hieu-ng/etch-a-sketch/) - [View in Browser](https://hieu-ng.github.io/etch-a-sketch/)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/etch-a-sketch/) - [View in Browser](https://aaron-contreras.github.io/etch-a-sketch/)
 * [Larry's Solution](https://github.com/ldbert/Etch-a-Sketch) - [View in Browser](https://ldbert.github.io/Etch-a-Sketch/)
