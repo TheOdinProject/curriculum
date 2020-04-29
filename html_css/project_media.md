@@ -176,6 +176,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Scott Bowles's solution](https://github.com/scottBowles/youtube-video-player) - [View in browser](https://scottbowles.github.io/youtube-video-player/)
 * [Veskenazi's solution](https://github.com/veskenazi/youtube-video-page) - [View in browser](https://veskenazi.github.io/youtube-video-page/)
 * [m-rejdych's solution](https://github.com/m-rejdych/Youtube-page) - [View in browser](https://m-rejdych.github.io/Youtube-page/)
+* [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/youtube-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/youtube-clone/)
 </details>
 
 ### Additional Resources
