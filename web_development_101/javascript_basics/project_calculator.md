@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Platyphyllum's Solution](https://github.com/marboleda/calculator) - [View in Browser](https://marboleda.github.io/calculator/)
+- [andrewjh271's Solution](https://github.com/andrewjh271/calculator) - [View in Browser](https://andrewjh271.github.io/calculator/)
+- [Matt Fergoda's Solution](https://github.com/mattfergoda/calculator) - [View in Browser](https://mattfergoda.github.io/calculator/)
+- [Davic64's Solution](https://github.com/davic64/calculator) - [View in Browser](https://davic64.github.io/calculator/)
 - [Stephan du Plessis's Solution](https://github.com/Pr0ph3t-287/Javascript-Calculator) - [View in Browser](https://pr0ph3t-287.github.io/Javascript-Calculator/) 
 - [Nick DiPreta's Solution](https://github.com/NickDiPreta/project_calculator) - [View in Browser](https://nickdipreta.github.io/project_calculator/) 
 - [ryannathanwilson's Solution](https://github.com/ryannathanwilson/calculator) - [View in Browser](https://ryannathanwilson.github.io/calculator/)
@@ -542,6 +546,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nigel Volkmanns Solution](https://github.com/Nekolike/Calculator) - [View in Browser](https://nekolike.github.io/Calculator/)
 - [kosmos434's Solution](https://github.com/kosmos434/calculator) - [View in Browser](https://kosmos434.github.io/calculator/)
 - [Vorelli's Solution](https://github.com/Vorelli/Calculator) - [View in Browser](https://vorelli.github.io/Calculator/)
+- [MortenEmde's solution](https://github.com/MortenEmde/Calculator.git) - [View in Browser](https://mortenemde.github.io/Calculator/Calculator.html)
+- [guacamobley's solution](https://github.com/guacamobley/simple-calculator) - [View in Browser](https://guacamobley.github.io/simple-calculator/index.html)
+- [Dustin Janssen's solution](https://github.com/DustinJanssen/calculator) - [View in Browser](https://dustinjanssen.github.io/calculator/)
+- [Levan Mebonia's solution](https://github.com/Levo96/simple_calculator_js) - [View in Browser](https://levo96.github.io/simple_calculator_js/)
+- [johncoryk's solution](https://github.com/johncoryk/calc) - [View in Browser](https://johncoryk.github.io/calc/)
+- [Chris Gardner's solution](https://github.com/cgardn/web-calculator) - [View in Browser](https://cgardn.github.io/web-calculator)
 - [MortenEmde's Solution](https://github.com/MortenEmde/Calculator.git) - [View in Browser](https://mortenemde.github.io/Calculator/Calculator.html)
 - [guacamobley's Solution](https://github.com/guacamobley/simple-calculator) - [View in Browser](https://guacamobley.github.io/simple-calculator/index.html)
 - [Dustin Janssen's Solution](https://github.com/DustinJanssen/calculator) - [View in Browser](https://dustinjanssen.github.io/calculator/)
@@ -624,4 +634,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MatejXYZ's Solution](https://github.com/MatejXYZ/Calculator) - [View in Browser](https://matejxyz.github.io/Calculator/)
 - [MichelleP1’s Solution](https://github.com/MichelleP1/calculator) - [View in Browser](http://michellepeters.me/calculator/)
 - [OchsaufLerchenau’s Solution](https://github.com/OchsaufLerchenau/Calculator) - [View in Browser](https://ochsauflerchenau.github.io/Calculator/)
+- [Dennis Kenneth’s Solution](https://github.com/denniskenneth/Calculator) - [View in Browser](https://denniskenneth.github.io/Calculator/)
+- [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/calculator) - [View in Browser](https://ansellmaximilian.github.io/calculator/)
 </details>
