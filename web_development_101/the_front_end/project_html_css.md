@@ -3278,6 +3278,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [evanakelly’s Solution (Easy)](https://github.com/evanakelly/google-homepage) - [View in Browser](https://evanakelly.github.io/google-homepage/)
 * [Matt Kissinger's Solution (Difficult)](https://github.com/MatthewKissinger/google-search-results-page) - [View in Browser](https://matthewkissinger.github.io/google-search-results-page/)
 * [Dyrit's Solution (Easy)](https://github.com/Dyrits/WEBDEV-TOP-GOOGLE) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-GOOGLE/)
+* [Deadparadise's Solution (Easy)](https://github.com/DeadParadise/google-homepage) - [View in Browser](https://deadparadise.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
