@@ -32,6 +32,7 @@ gem 'newrelic_rpm'
 gem 'activeadmin'
 gem 'webpacker'
 gem 'react-rails'
+gem 'discordrb-webhooks'
 
 group :production do
   gem 'rails_12factor',           '~> 0.0.3'
@@ -43,8 +44,8 @@ group :development, :test, :docker do
   gem 'simplecov', :require => false
   gem 'factory_bot_rails',                '~> 5'
   gem 'database_cleaner',                 '~> 1.5'
-  gem 'webmock',                          '~> 2.1'
-  gem 'vcr',                              '~> 3.0'
+  gem 'webmock',                          '~> 3.8'
+  gem 'vcr',                              '~> 5.1'
   gem 'shoulda-matchers'
   gem 'rake',                             '~> 12.3'
   gem 'rails-controller-testing'

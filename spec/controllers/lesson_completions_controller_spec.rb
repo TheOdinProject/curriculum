@@ -30,6 +30,7 @@ RSpec.describe LessonCompletionsController do
   context 'authenticated user' do
     before do
       allow(controller).to receive(:current_user).and_return(user)
+      allow(DiscordNotifier).to receive(:notify)
     end
 
     describe 'POST #create' do

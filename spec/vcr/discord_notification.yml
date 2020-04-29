@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://discordapp.com/api/webhooks/
+    body:
+      encoding: UTF-8
+      string: '{"content":"A MESSAGE","username":null,"avatar_url":null,"tts":false,"embeds":[]}'
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin18.6.0 x86_64) ruby/2.6.1p33
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '81'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - discordapp.com
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Date:
+      - Wed, 29 Apr 2020 18:46:25 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3cfd6a0575d48d33d595a984b6e8dff71588185985; expires=Fri, 29-May-20
+        18:46:25 GMT; path=/; domain=.discordapp.com; HttpOnly; SameSite=Lax
+      - __cfruid=3b09753b5b6f9f153855a35f71c9979fa867f885-1588185985; path=/; domain=.discordapp.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Ratelimit-Bucket:
+      - 3cd1f278bd0ecaf11e0d2391374c011d
+      X-Ratelimit-Limit:
+      - '5'
+      X-Ratelimit-Remaining:
+      - '4'
+      X-Ratelimit-Reset:
+      - '1588185988'
+      X-Ratelimit-Reset-After:
+      - '2'
+      X-Envoy-Upstream-Service-Time:
+      - '29'
+      Via:
+      - 1.1 google
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 58bb2f89b95bbfed-MAN
+      Cf-Request-Id:
+      - '0268dc0a0f0000bfed36905200000001'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: null
+  recorded_at: Wed, 29 Apr 2020 18:46:25 GMT
+recorded_with: VCR 5.1.0
