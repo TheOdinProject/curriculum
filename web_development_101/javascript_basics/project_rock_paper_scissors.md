@@ -41,7 +41,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Platyphyllum's Solution](https://github.com/marboleda/calculator) - [View in Browser](https://marboleda.github.io/calculator/)
 - [rjpmagalang's Solution](https://github.com/rjpmagalang/rock-paper-scissors) - [View in Browser](https://rjpmagalang.github.io/rock-paper-scissors/)
 - [chunfai's Solution](https://github.com/ashchunfai/rock-paper-scissors)
 - [Christian Robinson's Solution](https://github.com/crobbo/rock-paper-scissors)
@@ -1501,4 +1500,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sptyi's Solution](https://github.com/sptyi/Rock-Paper-Scissors)
 - [Sandy's Solution](https://github.com/kuosandys/rock_paper_scissors)
 - [Brenton393's Solution](https://github.com/Brenton393/rock-paper-scissors) - [View in Browser](https://brenton393.github.io/rock-paper-scissors)
+- [ebergson's Solution](https://github.com/ebergson/rock-paper-scissors)
+- [Tegristh's Solution](https://github.com/Tegristh/RPS)
 </details>
