@@ -446,12 +446,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MortenEmde's solution](https://github.com/MortenEmde/Calculator.git) - [View in Browser](https://mortenemde.github.io/Calculator/Calculator.html)
 - [guacamobley's solution](https://github.com/guacamobley/simple-calculator) - [View in Browser](https://guacamobley.github.io/simple-calculator/index.html)
 - [Dustin Janssen's solution](https://github.com/DustinJanssen/calculator) - [View in Browser](https://dustinjanssen.github.io/calculator/)
-<<<<<<< HEAD
 - [Levan Mebonia's solution](https://github.com/Levo96/simple_calculator_js) - [View in Browser](https://levo96.github.io/simple_calculator_js/)
-=======
 - [johncoryk's solution](https://github.com/johncoryk/calc) - [View in Browser](https://johncoryk.github.io/calc/)
 - [Chris Gardner's solution](https://github.com/cgardn/web-calculator) - [View in Browser](https://cgardn.github.io/web-calculator)
 - [AlexGioffDev's Solution](https://github.com/AlexGioffDev/Calculator) - [View in Browser](https://alexgioffdev.github.io/Calculator/)
 - [jkraf002's solution](https://github.com/jkraf002/calculator) - [View in Browser](https://jkraf002.github.io/calculator/)
->>>>>>> c06d31247ffd3adb1021b5914b7a36d8fcffbfcf
 </details>
