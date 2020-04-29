@@ -230,6 +230,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/fib/blob/master/fibb.rb)
 * [Matt M's Solution](https://github.com/MattMiller1989/Fibonacci)
 * [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/fib.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/fibonacci)
 
 
 </details>
@@ -470,6 +471,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/merge_sort.rb)
 * [Timework's Solution](https://github.com/Timework/merge/blob/master/merge.rb)
 * [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/merge_sort.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/merge_sort)
 </details>
 
 ### Additional Resources
