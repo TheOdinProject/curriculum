@@ -3283,6 +3283,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dyrit's Solution (Easy)](https://github.com/Dyrits/WEBDEV-TOP-GOOGLE) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-GOOGLE/)
 * [Deadparadise's Solution (Easy)](https://github.com/DeadParadise/google-homepage) - [View in Browser](https://deadparadise.github.io/google-homepage/)
 * [Big Floating Death Panda's Solution (Easy)](https://github.com/BigFloatinDeathPanda/google-homepage) - [View in Browser](https://bigfloatingdeathpanda.github.io/google-homepage/)
+* [NightShop's Solution (Both)](https://github.com/NightShop/google-homepage) - [View in Browser](https://nightshop.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
