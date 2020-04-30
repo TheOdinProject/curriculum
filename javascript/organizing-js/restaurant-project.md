@@ -1,5 +1,5 @@
 ### Introduction
-Let's use what we've learned and take a chance to continue practicing DOM manipulation - dynamically rendering a simple restaurant homepage! By the end, we are going to be using only JavaScript to generate the entire contents of the website!
+Let's use what we've learned and take a chance to continue practicing DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
 
 ### Assignment
 
@@ -21,14 +21,14 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    
 1. Set up an HTML skeleton inside of `dist/index.html` with single `<div id="content">`.
 
-1. Inside of `src/index.js` write a simple console.log or alert statement and then run `webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
+1. Inside of `src/index.js` write a simple console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
 
-    - Quick tip #2: if you run `webpack --watch` you will not have to rerun webpack every time you make a change.
+    - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
    
-1. Create a bare-bones home page for a restaurant. Include an image, headline, and some copy about how wonderful the restaurant is. It’s okay to hard-code these into the HTML for now just to see how they look on the page.
+1. Create a bare-bones homepage for a restaurant. Include an image, headline, and some copy about how wonderful the restaurant is. It’s okay to hard-code these into the HTML for now just to see how they look on the page.
 
 
-1. Now remove those elements from the HTML (so leave only the `<html>`, `<body>`, and `<div id="content">` tags) and instead create them by using Javascript only, e.g. by appending each new element to the `div#content`once the page is first loaded. Since we're all set up to write our code in multiple files write this initial page-load function inside of it's own module and then import and call it inside of `index.js`.
+1. Now remove those elements from the HTML (so leave only the `<html>`, `<body>`, and `<div id="content">` tags) and instead create them by using JavaScript only, e.g. by appending each new element to `div#content` once the page is first loaded. Since we're all set up to write our code in multiple files, let's write this initial page-load function inside of it's own module and then import and call it inside of `index.js`.
 
 1. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages. [Look at #7 on this hongkiat post](http://www.hongkiat.com/blog/50-nice-clean-css-tab-based-navigation-scripts/) for visual inspiration.
 
@@ -48,6 +48,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!`
+- [Arf65's Solution](https://github.com/arf65/restaurant-homepage) - [View in Browser](https://arf65.github.io/restaurant-homepage/)
+- [Denis Oluka's Solution](https://github.com/OlukaDenis/restaurant-page) - [View in Browser](https://dennys.netlify.app/)
+- [Sherman's Solution](https://github.com/shermansjliu/project-restaurant-page) - [View in Browser](https://shermansjliu.github.io/project-restaurant-page/)
 - [jdonahhue135's Solution](https://github.com/jdonahue135/restaurant-page) - [View in Browser](https://jdonahue135.github.io/restaurant-page/)
 - [jc's Solution](https://github.com/avazkhan2808/project-restaurant) - [View in Browser](https://avazkhan2808.github.io/project-restaurant/)
 - [Nick Haras' Solution](https://github.com/macnick/restaurant-page) - [View in Browser](https://macnick.github.io/Restaurant-Page/)
@@ -152,4 +155,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Tim Kelly's Solution](https://github.com/timkellytk/project-restaurant-page) - [View in Browser](https://timkellytk.github.io/project-restaurant-page/)
 - [thecodediver's Solution](https://github.com/thecodediver/restaurant_page) - [View in Browser](https://thecodediver.github.io/restaurant_page/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Restaurant-Page) - [View in Browser](https://m-rejdych.github.io/Restaurant-Page/)
+- [alicee88's Solution](https://github.com/alicee88/odin-restaurant) - [View in Browser](https://alicee88.github.io/odin-restaurant/)
 </details>

@@ -40,6 +40,20 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Diane998's Solution(Firebase storage)](https://github.com/Diane998/library) - [View in Browser](https://diane998.github.io/library/)
+- [vedvardhan 's Solution](https://vedvardhan.github.io/Library/) - [View in Browser](https://vedvardhan.github.io/Library) 
+- [justonhart's Solution](https://github.com/justonhart/OdinLibrary) - [View in Browser](https://justonh.art/OdinLibrary)
+- [Vedant Shetty's Solution](https://github.com/vedantshetty/ReadingList) - [View in Browser](https://vedantshetty.github.io/ReadingList/)
+- [Denis Oluka's Solution](https://github.com/OlukaDenis/library) - [View in Browser](https://raw.githack.com/kalavhan/library/development/index.html)
+- [TunzTunzTunz's Solution](https://github.com/tunztunztunz/My-Reading-List) - [View in Browser](https://tunztunztunz.github.io/My-Reading-List/)
+- [Scottt P's Solution](https://github.com/ScotttP/library) - [View in Browser](https://scotttp.github.io/library/)
+- [Austin's Solution](https://github.com/cudworth/library-project) - [View in Browser](https://cudworth.github.io/library-project/)
+- [Mousam's Solution](https://github.com/mousamdhakal/library-project) - [View in Browser](http://mousamdhakal.me/library-project/)
+- [Johongirr's Solution w/localStorage](https://github.com/Johongirr/library/tree/master) - [View in Browser](https://johongirr.github.io/library/)
+- [LenaChestnuts's Solution w/localStorage](https://github.com/LenaChestnut/library) - [View in Browser](https://lenachestnut.github.io/library/)
+- [Lucio's Solution w/localStorage](https://github.com/JCarlosLucio/library) - [View in Browser](https://jcarloslucio.github.io/library/)
+- [Hicham Maaqoul's Solution](https://github.com/maaqoul/ReadMe) - [View in Browser](https://maaqoul.github.io/ReadMe/)
+- [Cyhyraeth's Solution](https://github.com/Cyhyraethz/library) - [View in Browser](https://cyhyraethz.github.io/library/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/library) - [View in Browser](https://carldoleolundgren.github.io/library/)
 - [Alan Contreras's Solution w/localStorage](https://github.com/AlanContrerasM/LibraryBasic) - [View in Browser](https://alancontrerasm.github.io/LibraryBasic/)
 - [Arf65's Solution](https://github.com/arf65/book-list) - [View in Browser](https://arf65.github.io/book-list/)
@@ -246,4 +260,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Givemore's Solution](https://github.com/Givemo/Library_App) - [View in Browser](https://givemo.github.io/Library_App/)
 - [Lexolf's Solution](https://github.com/lexolf/library/) - [View in Browser](https://lexolf.github.io/library/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/library) - [View in Browser](https://jlthompso.github.io/library/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/library) - [View in Browser](https://fortypercenttitanium.github.io/library/)
+- [JCoen's Solution (w/localStorage)](https://github.com/J-coen/Odin-library-project) - [View in Browser](https://j-coen.github.io/Odin-library-project/)
+- [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/library) - [View in Browser](https://ozansozuozgit.github.io/library/)
 </details>
