@@ -179,5 +179,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Lexolf's Solution](https://github.com/lexolf/tic-tac-toe) - [View in Browser](https://lexolf.github.io/tic-tac-toe/)
 - [Mousam's Solution](https://github.com/mousamdhakal/tic-tac-toe) - [View in Browser](http://mousamdhakal.me/tic-tac-toe/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/tic-tac-toe) - [View in Browser](https://ozansozuozgit.github.io/tic-tac-toe/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/tictactoe) - [View in Browser](https://fortypercenttitanium.github.io/tictactoe/)
 
 </details>
