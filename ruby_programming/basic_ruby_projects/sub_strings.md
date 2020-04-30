@@ -483,5 +483,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [c-squared87's Solution](https://github.com/c-squared87/basic-ruby-projects-TOP/blob/master/substrings.rb)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/substrings)
 * [Vuyani’s Solution](https://github.com/vuyanir/substrings)
-
+* [meganeb-afk's Solution](https://github.com/meganeb-afk/Substring)
 </details>
