@@ -27,6 +27,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nick DiPreta's Solution](https://github.com/NickDiPreta/stocks/blob/master/stocks.rb)
+* [AmirHossein's Solution](https://github.com/ahparsapour/ruby-stockpicker/blob/master/stock_picker.rb)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Ruby_Building_Blocks/blob/master/stocks.rb)
+* [threeaces' Solution](https://github.com/threeaces/odin_ruby_basic_projects/blob/master/stock_picker.rb)
+* [Vinz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/blob/master/stockpicker.rb)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/stock_picker.rb)
 * [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/building_blocks/blob/master/stock_picker.rb)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Stockpicker/blob/master/stockpicker.rb)
@@ -477,4 +482,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [tomstrat's Solution](https://github.com/tomstrat/stock_picker)
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Stock-Picker/blob/master/stocks.rb)
 * [akoenig1's Solution](https://github.com/akoenig1/building_blocks/stock_picker.rb)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/stock-picker)
+* [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/stock-picker.rb)
+* [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/stock_picker.rb)
 </details>

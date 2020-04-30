@@ -4,7 +4,7 @@ I hope you enjoyed this course and the projects you've completed.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Copy your favorite website as well as you can.  Pinterest, Facebook, Twitter... Just make sure it's got lots of interesting functionality.  You'll be integrating your full array skills into this one.... if you're following the Rails track definitely set up the project with Ruby on Rails!  This should prove to you that you now have all the tools you need to build a website just like the ones you use every day.  
+Copy your favorite website as well as you can.  Pinterest, Facebook, Twitter... Just make sure it's got lots of interesting functionality.  You'll be integrating your full array of skills into this one.... if you're following the Rails track definitely set up the project with Ruby on Rails!  This should prove to you that you now have all the tools you need to build a website just like the ones you use every day.  
 
 Of course, you can't copy every single feature and a lot of the user interface will be a bit clunkier, but you can get yourself 80% of the way there.  And that's darn impressive.
 
