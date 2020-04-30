@@ -1510,4 +1510,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ebergson's Solution](https://github.com/ebergson/rock-paper-scissors)
 - [Tegristh's Solution](https://github.com/Tegristh/RPS)
 - [jingjing142's Solution](https://github.com/jingjing142/rock-paper-scissors) - [View in Browser](https://jingjing142.github.io/rock-paper-scissors/)
+- [ Jonathan Fallas's Solution](https://github.com/Elfjhon/RockPaper) -[View in Browser](https://elfjhon.github.io/RockPaper/)
 </details>
