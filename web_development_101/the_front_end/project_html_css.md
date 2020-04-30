@@ -3286,6 +3286,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Big Floating Death Panda's Solution (Easy)](https://github.com/BigFloatinDeathPanda/google-homepage) - [View in Browser](https://bigfloatingdeathpanda.github.io/google-homepage/)
 * [NightShop's Solution (Both)](https://github.com/NightShop/google-homepage) - [View in Browser](https://nightshop.github.io/google-homepage/)
 * [Squeekoo's Solution (Easy)](https://github.com/Squeekoo/google-homepage) - [View in Browser](https://squeekoo.github.io/google-homepage/)
+* [Lucian Caraba's Solution (Easy)](https://github.com/watchsomegoals/Google-Homepage) - [View in Browser](https://watchsomegoals.github.io/Google-Homepage/)
 </details>
 
 ### Additional Resources
