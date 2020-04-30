@@ -92,7 +92,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-  [Dunphi's Solution (Easy)](https://github.com/Dunphi/google-homepage) - [View in Browser](https://dunphi.github.io/google-homepage/)
+* [lalfiler's Solution (Easy)](https://github.com/Korak-997/google-website-test) - [View In Browser](https://korak-997.github.io/google-website-test/)
+* [Dunphi's Solution (Easy)](https://github.com/Dunphi/google-homepage) - [View in Browser](https://dunphi.github.io/google-homepage/)
 * [devcsantos Solution (Both)](https://github.com/devcsantos/GoogleClone) - [View in Browser](https://devcsantos.github.io/GoogleClone/)
 * [Dothetuna's Solution (Easy)](https://github.com/dothetuna/google-homepage) - [View in Browser](https://dothetuna.github.io/google-homepage/)
 * [levan mebonia's Solution (Difficult)](https://github.com/Levo96/google_search_results_page) - [View in Browser](https://levo96.github.io/google_search_results_page/)
