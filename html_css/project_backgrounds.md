@@ -125,6 +125,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Sebastian's Solution](https://github.com/lBuggie/apple-2014-clone) - [View in Browser](https://lbuggie.github.io/apple-2014-clone/)
 * [0xtaf's Solution](https://github.com/0xtaf/css-apple) - [View in Browser](https://0xtaf.github.io/css-apple/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-apple-page-clone) - [View in Browser](https://adrieltrigger.github.io/top-apple-page-clone/)
+* [Veskenazi's Solution](https://github.com/veskenazi/apple-homepage-clone) - [View in Browser](https://veskenazi.github.io/apple-homepage-clone/)
 
 </details>
 
