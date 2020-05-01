@@ -117,6 +117,7 @@ Send us your solution by editig this [file](https://github.com/TheOdinProject/cu
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Grant Cottle's Solution](https://github.com/grantmaster89/re-former)
 * [Powei94's Solution](https://github.com/powei94/rails_re-former)
 * [Run After's Solution](https://github.com/run-after/re-former)
 * [Helmi's Solution](https://github.com/helmihidzir/re-former)
@@ -232,6 +233,7 @@ Send us your solution by editig this [file](https://github.com/TheOdinProject/cu
 * [Alex Krewson's Solution](https://github.com/alexkrewson/re-former)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Forms.git)
 * [guacamobley's Solution](https://github.com/guacamobley/re-former)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/re-former)
 
 </details>
 
