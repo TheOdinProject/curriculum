@@ -1507,7 +1507,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joseph's Solution](https://github.com/15jjg6/rock-paper-scissors) - [View in Browser](https://15jjg6.github.io/rock-paper-scissors/)
 - [christian-ortega's Solution](https://github.com/christian-ortega/rock-paper-scissors) - [View in Browser](https://christian-ortega.github.io/rock-paper-scissors/)
 - [sptyi's Solution](https://github.com/sptyi/Rock-Paper-Scissors)
-- [Sandy's Solution](https://github.com/kuosandys/rock_paper_scissors)
+- [Sandy's Solution](https://github.com/kuosandys/rock_paper_scissors) - [View in Browser](https://kuosandys.github.io/rock_paper_scissors/)
 - [Brenton393's Solution](https://github.com/Brenton393/rock-paper-scissors) - [View in Browser](https://brenton393.github.io/rock-paper-scissors)
 - [ebergson's Solution](https://github.com/ebergson/rock-paper-scissors)
 - [Tegristh's Solution](https://github.com/Tegristh/RPS)
