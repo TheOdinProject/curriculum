@@ -3019,7 +3019,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Qxzz2's Solution (Easy)](https://github.com/Qxzz2/google-homepage) - [View in Browser](https://qxzz2.github.io/google-homepage/)
 * [Scott Bowles' Solution (Easy)](https://scottbowles.github.io/google-homepage/)
 * [EduardoSCosta's Solution (Easy)](https://github.com/EduardoSCosta/google-homepage) - [View in Browser](https://eduardoscosta.github.io/google-homepage/)
-* [Andrea Maiolo's Solution (Easy)](https://github.com/andrea-maiolo/google-test) - [View in Browser](https://andrea-maiolo.github.io/google-test/)
+* [Andrea Maiolo's Solution (Easy)](https://github.com/andrea-maiolo/google-searchbar) - [View in Browser](https://andrea-maiolo.github.io/google-searchbar/)
 * [Andrea Maiolo's Solution (Hard)](https://gtihub.com/andrea-maiolo/build-this-webpage) - [View in Browser](https://andrea-maiolo.github.io/build-this-webpage/)
 * [Franciutte's solution (Easy)](https://github.com/Franciutte/google-homepage) - [View in Browser](https://franciutte.github.io/google-homepage/)
 * [Neo's solution (Easy)](https://github.com/neowebdeveloper7/google-homepage) - [View in Browser](https://neowebdeveloper7.github.io/)google-homepage/)
