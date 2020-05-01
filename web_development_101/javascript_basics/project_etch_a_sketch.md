@@ -43,6 +43,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [sahion's Solution](https://github.com/sahion/Etch-a-Sketch) - [View in Browser](https://sahion.github.io/Etch-a-Sketch/)
+* [Hauiiuah's Solution](https://github.com/Hauiiuah/etch-a-sketch) - [View in Browser](https://hauiiuah.github.io/etch-a-sketch/)
+* [ThatOldChap's Solution](https://github.com/ThatOldChap/Etch-a-Sketch) - [View in Browser](https://thatoldchap.github.io/Etch-a-Sketch/)
 * [Tomodi98's Solution](https://github.com/Tomodi98/etch-a-sketch) - [View in Browser](https://tomodi98.github.io/etch-a-sketch/)
 * [overdice Solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Etch-A-Sketch) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Etch-A-Sketch/index.html)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/etch-a-sketch) - [View in Browser](https://andrsrz.github.io/etch-a-sketch/)
@@ -935,4 +938,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Joseph's Solution](https://github.com/15jjg6/etch-a-sketch) - [View in Browser](https://15jjg6.github.io/etch-a-sketch/)
 * [Sally Chhuon's Solution](https://github.com/sc2225/etch_a_sketch) - [View in Browser](https://sc2225.github.io/etch_a_sketch/)
 * [Stinji's Solution](https://github.com/Stinji/etch-a-sketch) - [View in Browser](https://stinji.github.io/etch-a-sketch/)
+* [Tuan Nguyen's Solution](https://github.com/Tuan96/TuanSketch) - [View in Browser](https://tuan96.github.io/TuanSketch/)
+* [Jonathan Fallas's Solution](https://github.com/Elfjhon/ETCH-A-SKETCH) -[View in Browser]( https://elfjhon.github.io/ETCH-A-SKETCH/)
+* [bhenning83's Solution](https://github.com/bhenning83/etch-a-sketch) -[View in Browser](https://bhenning83.github.io/etch-a-sketch/)
 </details>
