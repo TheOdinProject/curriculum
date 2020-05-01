@@ -50,7 +50,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [notstoe's solution](https://github.com/notstoe/rock-paper-scissors)
 - [fviccia's Solution](https://github.com/fviccia/rock-paper-scissors)
 - [Jbautista1056's Solution](https://github.com/Jbautista1056/RPSproject.io) - [View in Browser](https://jbautista1056.github.io/RPSproject.io/) 
-- [James Coen's Solution](https://github.com/J-coen/rock-paper-scissors/blob/master/script)
+- [Jcoen's Solution](https://github.com/J-coen/rock-paper-scissors) - [View in Browser](https://j-coen.github.io/rock-paper-scissors/)
 - [rjpmagalang's Solution](https://github.com/rjpmagalang/rock-paper-scissors) - [View in Browser](https://rjpmagalang.github.io/rock-paper-scissors/)
 - [chunfai's Solution](https://github.com/ashchunfai/rock-paper-scissors) - [View in Browser](https://ashchunfai.github.io/rock-paper-scissors/)
 - [Christian Robinson's Solution](https://github.com/crobbo/rock-paper-scissors)
@@ -1513,4 +1513,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ebergson's Solution](https://github.com/ebergson/rock-paper-scissors)
 - [Tegristh's Solution](https://github.com/Tegristh/RPS)
 - [jingjing142's Solution](https://github.com/jingjing142/rock-paper-scissors) - [View in Browser](https://jingjing142.github.io/rock-paper-scissors/)
+- [Dyrits's Pokemon Version Solution](https://github.com/Dyrits/WEBDEV-TOP-PRB) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PRB) - [CodePen](https://codepen.io/Dyrits/full/GRpMOQg)
 </details>
