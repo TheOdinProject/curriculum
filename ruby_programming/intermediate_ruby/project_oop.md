@@ -370,6 +370,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/mastermind.rb)
 * [Christian's Solution](https://github.com/rueeazy/OOP/blob/master/mastermind.rb)
 * [rryand's Solution](https://github.com/rryand/mastermind_ruby) - [View in repl.it](https://repl.it/@rryand/mastermindruby)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_Mastermind) - [View in repl.it](https://repl.it/@rlmoser/rubyMastermind)
