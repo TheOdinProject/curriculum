@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Chun's Solution](https://github.com/ashchunfai/etch-a-sketch) - [View in Browser](https://ashchunfai.github.io/etch-a-sketch/)
 * [Kevin's Solution](https://github.com/Kevlar2222/Etch-a-Sketch) - [View in Browser](https://kevlar2222.github.io/Etch-a-Sketch/)
 * [rjpmagalang's Solution](https://github.com/rjpmagalang/etch-a-sketch) - [View in Browser](https://rjpmagalang.github.io/etch-a-sketch/)
 * [syeo-1's Solution](https://github.com/syeo-1/etch-a-sketch) - [View in Browser](https://syeo-1.github.io/etch-a-sketch/)
@@ -944,4 +945,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Tuan Nguyen's Solution](https://github.com/Tuan96/TuanSketch) - [View in Browser](https://tuan96.github.io/TuanSketch/)
 * [Jonathan Fallas's Solution](https://github.com/Elfjhon/ETCH-A-SKETCH) -[View in Browser]( https://elfjhon.github.io/ETCH-A-SKETCH/)
 * [bhenning83's Solution](https://github.com/bhenning83/etch-a-sketch) -[View in Browser](https://bhenning83.github.io/etch-a-sketch/)
+* [Andrea Maiolo's Solution](https://github.com/andrea-maiolo/etch-a-sketch) - [View in Browser](https://andrea-maiolo.github.io/etch-a-sketch/)
 </details>
