@@ -1518,4 +1518,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dyrits's Pokemon Version Solution](https://github.com/Dyrits/WEBDEV-TOP-PRB) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PRB) - [CodePen](https://codepen.io/Dyrits/full/GRpMOQg)
 - [harisbegic's Solution](https://github.com/harisbegic/rock-paper-scissors)
 - [evanakelly's Solution](https://github.com/evanakelly/rock-paper-scissors)
+- [mangakiko's Solution](https://github.com/magakiko/rock-paper-scissors)
 </details>
