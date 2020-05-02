@@ -1,8 +1,8 @@
 ### Introduction
 
-These projects will give you a chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.  The tutorial chapter will cover integrating a signup form with your Rails application and providing help if the user enters incorrect information.
+These projects will give you a chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
-### Project 1: Bare Metal Forms and Helpers
+### Project: Bare Metal Forms and Helpers
 
 In this project, you'll build a form the old fashioned way and then the Rails way.
 
@@ -117,6 +117,9 @@ Send us your solution by editig this [file](https://github.com/TheOdinProject/cu
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/re-former)
+* [Grant Cottle's Solution](https://github.com/grantmaster89/re-former)
+* [Powei94's Solution](https://github.com/powei94/rails_re-former)
 * [Run After's Solution](https://github.com/run-after/re-former)
 * [Helmi's Solution](https://github.com/helmihidzir/re-former)
 * [David Auza's and Luis Novoa's Solution](https://github.com/davidauza-engineer/Ruby-on-Rails-Re-Former)
@@ -231,18 +234,9 @@ Send us your solution by editig this [file](https://github.com/TheOdinProject/cu
 * [Alex Krewson's Solution](https://github.com/alexkrewson/re-former)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Forms.git)
 * [guacamobley's Solution](https://github.com/guacamobley/re-former)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/re-former)
 
 </details>
-
-### Project 2: Ruby on Rails Tutorial
-
-This chapter will take what you now know about forms and make it part of a real application instead of just a learning exercise.  You'll build out the user signup form for the Twitter-clone project and integrate it with the validations you created on the database in the previous chapter.
-
-### Your Task
-
-<div class="lesson-content__panel" markdown="1">
-1. Do the [Ruby on Rails Tutorial Chapter 7](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/sign_up), "Sign-Up".
-</div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

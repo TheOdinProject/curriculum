@@ -259,4 +259,5 @@ Send us your solution so we can show others! Submit a link to the [Github repo](
 * Joe Lee Hangman's Solution [GitHub](https://github.com/JoeDravarol/sinatra_hangman) - [Heroku](https://blooming-crag-69548.herokuapp.com/)
 * guacamobley's Solution [Github](https://github.com/guacamobley/sinatra_mastermind) - [Heroku](https://guacamobley-sinatra-mastermind.herokuapp.com)
 * unheavenlycreature's Solution (Mastermind) - [Github](https://github.com/unheavenlycreature/sinatra-mastermind) - [Heroku](https://uc-mastermind.herokuapp.com)
+* Sanyogita's Solution (Mastermind) - [Github](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/sinatra/mastermind)
 </details>

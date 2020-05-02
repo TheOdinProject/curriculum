@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Jdonahue135's React Library solution](https://github.com/jdonahue135/react-library)
 * [mjwills-inf's Vue Library solution](https://github.com/mjwills-inf/library-vue) - [View in Browser](https://mjwills-inf.github.io/library-vue/#/)
 * [Lenny's React solution](https://github.com/Lenn-e/react-practice) - [View in Browser](https://lenn-e.github.io/react-practice/)
 * [Disco Trooper's Vue solution](https://github.com/disco-trooper/library-vue) - [View in Browser](https://disco-trooper.github.io/library-vue/)
@@ -66,4 +67,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [JoshAubrey's Vue Restaurant Page Solution](https://github.com/JoshAubrey/vue-restaurant-page) - [View in Browser](https://joshaubrey.github.io/vue-restaurant-page/)
 * [0xtaf's React Restaurant Page Solution](https://github.com/0xtaf/react-restaurant) - [View in Browser](https://0xtaf.github.io/react-restaurant/)
 * [barrysweeney's React Rock Paper Scissors Solution](https://github.com/barrysweeney/react-rock-paper-scissors) - [View in Browser](https://barrysweeney.github.io/react-rock-paper-scissors/)
+* [ranmaru22's Angular Library Solution](https://github.com/ranmaru22/ng-library) - [View in Browser](https://ranmaru22.github.io/ng-library/)
+* [thecodediver's Solution](https://github.com/thecodediver/library_react) - [View in Browser](https://thecodediver.github.io/library_react/)
+* [Rey van den Berg's Solution](https://github.com/Rey810/library-react)
 </details>

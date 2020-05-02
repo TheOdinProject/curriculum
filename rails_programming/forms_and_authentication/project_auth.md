@@ -2,77 +2,36 @@
 
 In these projects, you'll be working to implement authentication systems so users can only access areas of a site they are authorized to.
 
-### Project 1: Ruby on Rails Tutorial
+### Project 1: Building a Twitter Clone
 
-We're starting to get into the meaty stuff with the tutorial.  Take your time and pay attention to which file (especially for the specs) you're supposed to be writing in.  A common and frustrating mistake is to put your `describe` block in the wrong place.
-
-You'll implement signin and signout functionality for the user, which opens the door to allow more destructive user behaviors like editing and deleting things (which should only be allowed for a given user or admin).  In Chapter 10, you'll get the chance to implement these functions.
+In this project you'll follow along to Andy Leverenz's brilliant Building a Twitter Clone screen casts. You'll be building a light weight version of Twitter and get lot of healthy experience with using Devise in the process.
 
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
-  1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/basic_login), "Basic Login"
-  2. Do the [Ruby on Rails Tutorial Chapter 9](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/advanced_login), "Advanced Login"
-  3. Do the [Ruby on Rails Tutorial Chapter 10](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/updating_and_deleting_users) "Updating, showing, and deleting users"
-  4. Do the [Ruby on Rails Tutorial Chapter 11](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/account_activation), "Account Activation"
-  5. Do the [Ruby on Rails Tutorial Chapter 12](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/password_reset), "Password Reset"
+  1. Complete [A Twitter Clone Lets Build with Ruby on Rails Part 1](https://www.youtube.com/watch?time_continue=1&v=5gUysPm64a4&feature=emb_logo)
+  2. Complete [A Twitter Clone Lets Build with Ruby on Rails Part 2](https://www.youtube.com/watch?v=ZxkbFOe3lRY&t)
+  3. Complete [A Twitter Clone Lets Build with Ruby on Rails Part 3](https://www.youtube.com/watch?v=V4h7-hR_WME)
 </div>
 
 ### Project 2: Members Only!
 
 In this project, you'll be building an exclusive clubhouse where your members can write embarrassing posts about non-members.  Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
-This will be a chance for you to "roll your own" authentication system, very similar to how you did in the tutorial.  As usual, we will be focusing on data and function, not style.  If you want to add your own stylistic flourishes, consider it extra credit.
-
-It's easy to feel a bit overwhelmed when building your own authentication.  That's because there are several moving parts -- the session controller/form, hanging onto and refreshing the remember token when necessary, and using that token to check up on the current user.  It may help if you write out the steps as you understand them prior to getting started, so you know what you're shaky on and will need to pay attention to.
+If you want to add your own stylistic flourishes, consider it extra credit.
 
 ### Your Task
 
-The projects will be less and less explicit about how to achieve their goals, since we expect you to build on your previous knowledge.  If you don't know how to do something, feel free to check back in previous lessons or projects or Google the correct way to implement it (though be careful, because that may take you deeper down the road than we intended).  The Ruby on Rails Tutorial will be a good reference.
-
-Up until now, we've been treating the "password" field of user submissions pretty cavalierly... it's mostly been an afterthought included for the sake of completeness.  We certainly haven't been storing them properly or encrypting them, which we should.  So wipe all that stuff from your memory because now you've got the tools to properly encrypt user passwords and we'll be doing it from now on.  Actually, you've had the tools since back when you did chapter 6 of the Ruby on Rails Tutorial.
+The projects will be less and less explicit about how to achieve their goals, since we expect you to build on your previous knowledge.  If you don't know how to do something, feel free to check back in previous lessons or projects or Google the correct way to implement it (though be careful, because that may take you deeper down the road than we intended).
 
 If you'd like to challenge yourself, don't even follow the steps below, just go ahead and build the app!
 
 <div class="lesson-content__panel" markdown="1">
 #### Basic Setup
 
-1. Think about and spec out how to set up your data models for this application.  You'll need users with the usual simple identification attributes like name and email and password but also some sort of indicator of their member status.  They'll need to create posts as well.  Given what you know about passwords, you'll be using a `:password_digest` field instead of a `:password` field.
+1. Think about and spec out how to set up your data models for this application.  You'll need users with the usual simple identification attributes like name and email and password but also some sort of indicator of their member status.  They'll need to create posts as well.
 2. Create your new `members-only` Rails app and Github repo.  Update your README.
-3. Start by migrating and setting up your basic User model (no membership attributes yet).
-4. Include the `bcrypt-ruby` gem in your Gemfile.  `$ bundle install` it.  (note: This might just be `bcrypt`)
-5. Add the `#has_secure_password` method to your User file.
-6. Go into your Rails console and create a sample user to make sure it works properly. It probably looks something like: `User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")`
-7. Test the `#authenticate` command which is now available on your User model (thanks to `#has_secure_password`) on the command line -- does it return the user if you give it the correct password?
-
-   ~~~ruby
-   > user = User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")
-   > user.authenticate("somethingelse")
-   => false
-   > user.authenticate("foobar")
-   => #<User id: 1, name: "foobar", email: "foo@bar.com", password_digest: "$2a$10$9Lx...", created_at: "2016...", updated_at: "2016...">
-   ~~~
-
-#### Sessions and Sign In
-
-Now let's make sure our users can sign in.
-
-1. Create a `sessions_controller.rb` and the corresponding routes.  Make "sign in" links in the layout as necessary.
-2. Fill in the `#new` action to create a blank session and send it to the view.
-3. Build a simple form with `#form_for` to sign in the user at `app/views/sessions/new.html.erb`.  Verify that you can see the form.
-4. We want to remember that our user is signed in, so you'll need to create a new string column for your User table called something like `:remember_token` which will store that user's special token.
-5. When you create a new user, you'll want to give that user a brand new token.  Use a `#before_create` callback on your User model to:
-    1. Create a remember token (use `SecureRandom.urlsafe_base64` to generate a random string)
-    2. Encrypt that token (with the `Digest::SHA1.hexdigest` method on the stringified (`#to_s`) version of your token)
-    3. Save it for your user.
-6. Create a couple of users to populate your app with.  We won't be building a sign up form, so you'll need to create new users via the command line.  Your `#before_create` should now properly give each newly created user a special token.
-7. Now fill in the `#create` action of your SessionsController to actually create the user's session.  The first step is to find the user based on their email address and then compare the hash of the password they submitted in the params to the hashed password stored in the database (using `#authenticate`).  See [Chapter 8](https://www.railstutorial.org/book/basic_login#sec-finding_and_authenticating_a_user) with questions but try not to immediately copy verbatim -- you're doing this to learn.
-8. Once you've verified that the user has submitted the proper password, sign that user in.
-9. Create a new method in your ApplicationController which performs this sign in for you.  Give the user a new remember token (so they don't get stolen or stale).  Store the remember token in the user's browser using a cookie so whenever they visit a new page, we can check whether they are signed in or not.  Use the `cookies.permanent` "hash" to do this.
-10. Create two other helpful methods in your ApplicationController -- one to retrieve your current user (`#current_user`) and another to set it (`#current_user=(user)`).  Retrieving your current user should use the `||=` operator -- if the current user is already set, you should return that user, otherwise you'll need to pull out the remember token from the cookie and search for it in your database to pull up the corresponding user.  If you can't find a current_user, return `nil`.
-11. Set your current user whenever a user signs in.
-12. Build sign out functionality in your `SessionsController#delete` action which removes the current user and deletes the remember token from the cookie.  It's best if you make a call to a method (e.g. `#sign_out`) in your ApplicationController instead of just writing all the functionality inside the SessionsController.
-13. Create a link for signing out which calls the `#delete` method of your session controller.  You'll need to spoof the DELETE HTTP method, but that's easily done by passing `#link_to` the option `:method => :delete`.
+3. Add devise to your Gemfile and install it in your app using set up instructions on the devise [README](https://github.com/heartcombo/devise)
 
 #### Authentication and Posts
 
@@ -88,7 +47,6 @@ Let's build those secrets!  We'll need to make sure only signed in users can see
 8. Sign in and create a few secret posts.
 9. Test it out -- sign out and go to the index page.  You should see a list of the posts but no author names.  Sign in and the author names should appear.  Your secrets are safe!
 
-This is obviously a somewhat incomplete solution... We currently need to create new users from the Rails console.  But it should give you some practice figuring out authentication.  Feel free to improve it... maybe you'll be the next SnapChat.
 
 </div>
 
@@ -99,6 +57,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Powei94's Solution](https://github.com/powei94/members-only) - [View in browser](https://enigmatic-headland-51358.herokuapp.com/)
 * [Duarte's Solution](https://github.com/Duartemartins/auth)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/members-only)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/members-only) - [Heroku](https://polar-mountain-42157.herokuapp.com/)
