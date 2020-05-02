@@ -19,6 +19,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrea's Solution](https://github.com/fioriandrea/weather_app) - [View in Browser](https://fioriandrea.github.io/weather_app/)
 * [Lenny's Solution](https://github.com/Lenn-e/weather-app) - [View in Browser](https://lenn-e.github.io/weather-app/)
 * [Disco Trooper's Solution](https://github.com/disco-trooper/weather-app) - [View in Browser](https://disco-trooper.github.io/weather-app/)
 * [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/weather-app) - [View in Browser](https://kikupiku.github.io/weather-app/)
