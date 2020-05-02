@@ -1519,4 +1519,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [harisbegic's Solution](https://github.com/harisbegic/rock-paper-scissors)
 - [evanakelly's Solution](https://github.com/evanakelly/rock-paper-scissors)
 - [mangakiko's Solution](https://github.com/magakiko/rock-paper-scissors)
+- [alxmkh's Solution](https://github.com/alxmkh/rock_paper_scissors) - [View in Browser](https://alxmkh.github.io/rock_paper_scissors/)
 </details>
