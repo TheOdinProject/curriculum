@@ -87,6 +87,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Dean Oh's Solution (Easy)](https://github.com/JuicyMelon/google-demo) - [View in Browser](https://juicymelon.github.io/google-demo/)
 * [Alain Suarez's Solution (Easy)](https://gitlab.com/asuar/google-homepage) - [View in Browser](https://asuar.gitlab.io/google-homepage/) - [Alain Suarez's Solution (Difficult)](https://gitlab.com/asuar/google-search-results) - [View in Browser](https://asuar.gitlab.io/google-search-results/)
 * [Dylan Maloney's Solution (easy)](https://github.com/DylanJamesMaloney/google-homepage)-
 [View in Browser](https://dylanjamesmaloney.github.io/google-homepage/)
