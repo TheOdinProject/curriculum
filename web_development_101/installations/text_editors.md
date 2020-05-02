@@ -33,8 +33,8 @@ Although you just installed Ubuntu on your computer, you should still install th
 
 ### Additional Set Up: Live Server Extension for VSCode
 
-First of all, What is an Extension? To put it in simple terms, it is a program that is meant to enhance your experience by modifying the capabilities of a software. 
+An extension is a program that is meant to enhance your experience by modifying the capabilities of a software. 
 
-Just like the Google Chrome Web Browser, VSCode supports extensions and [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) is one of them that has been made to save the time of developers like "you". So basically, this extension will save you from the hassle of refreshing the browser window repeatedly to see the changes and instead, will automatically load the most recent change in the browser window.
+Just like the Google Chrome Web Browser, VSCode supports extensions and one useful one is [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It has been made to save the time of developers like yourself. This extension will save you from the hassle of refreshing the browser window repeatedly to see changes made in your code and will automatically load the most recent change in the browser window.
 
 Refer to [this video](https://youtu.be/mGORIVStWWc) for installation details.
