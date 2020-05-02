@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Justasdap's Solution](https://github.com/JustasDap/calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/JustasDap/calculator/blob/master/index.html)
 - [Cristian's Solution](https://github.com/cristianCeamatu/jscalculator) - [View in Browser](https://cristianceamatu.github.io/jscalculator/)
 - [hieu-ng's Solution](https://github.com/hieu-ng/odin/tree/master/Calculator%20project)
 - [Nathan's Solution](https://github.com/NathanJReidy/Calculator) - [View in Browser](https://nathanjreidy.github.io/Calculator/)
@@ -645,4 +646,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dennis Kenneth’s Solution](https://github.com/denniskenneth/Calculator) - [View in Browser](https://denniskenneth.github.io/Calculator/)
 - [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/calculator) - [View in Browser](https://ansellmaximilian.github.io/calculator/)
 - [Wil Goolsby's Solution](https://github.com/wgoolsby/calculator) - [View in Browser](https://wilgoolsby.com/calculator/)
+- [Jonathan Fallas's Solution](https://github.com/Elfjhon/calculator) - [View in Browser](https://elfjhon.github.io/calculator/)
 </details>

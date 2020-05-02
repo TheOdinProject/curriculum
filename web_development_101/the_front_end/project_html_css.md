@@ -93,6 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+[Neeraj Gupta's Solution (Difficult)](https://github.com/neerajgupta041/google-search-page-hard) - [View In Browser](https://neerajgupta041.github.io/google-search-page-hard/)
 * [LornaP's Solution (Easy)](https://github.com/LornaP5/google-homepage) - [View In Browser](https://LornaP5.github.io/google-homepage/)
 * [Isale Brian's Solution (Easy)](https://github.com/BryanAim/google-homepage) - [View In Browser](https://isalebryan.me/google-homepage)
 * [RyanAmeri's Solution (Easy)](https://github.com/RyanAmeri/google-homepage) - [View in Browser](https://ryanameri.github.io/google-homepage//)
@@ -3299,6 +3300,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [alxmkh's Solution (Easy)](https://github.com/alxmkh/google-homepage) - [View in Browser](https://alxmkh.github.io/google-homepage/)
 * [FrMazzo's Solution (Easy)](https://github.com/FrMazzo/google-homepage) - [View in Browser](https://frmazzo.github.io/google-homepage/)
 * [pabloitzeder's Solution (Easy)](https://github.com/pabloitzeder/google-homepage) - [View in Browser](https://pabloitzeder.github.io/google-homepage/)
+* [Maheswar's Solution (Easy)](https://github.com/mahesh12393/google-homepage) - [View in Browser](https://mahesh12393.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
