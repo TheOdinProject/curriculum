@@ -57,6 +57,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Powei94's Solution](https://github.com/powei94/members-only) - [View in browser](https://enigmatic-headland-51358.herokuapp.com/)
 * [Duarte's Solution](https://github.com/Duartemartins/auth)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/members-only)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/members-only) - [Heroku](https://polar-mountain-42157.herokuapp.com/)
