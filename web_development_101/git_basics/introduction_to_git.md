@@ -8,17 +8,17 @@ A *save* in a text editor records all of the words in a document as a single fil
 
 However, a *save* in Git records differences in the files and folders AND keeps a **historical record of each save**. This feature is a game changer. As an individual developer, Git enables you to review how your project grows and to easily look at or restore file states from the past. Once connected to a network, Git allows you to push your project to GitHub for sharing and collaborating with other developers.
 
-While Git works on your *local* machine, GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for a modern web developer to have. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
+While Git works on your *local* machine, GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
 
 In this lesson, we will briefly explore the history of Git, what it is, and what it's useful for.
 
 In the next lesson, we will go over the basic workflow for using Git, which should enhance your understanding and demonstrate why Git is so useful.
 
-Finally, you will set up a project with Git that will serve as a template for setting up your future projects.
+Finally, you will set up a project with Git that will serve as a template for your future projects.
 
 For now, let's learn what Git is and why it's so powerful!
 
-## Learning Outcomes:
+### Learning Outcomes:
 By the end of this lesson, you should be able to do the following:
 
  - Explain what Git and GitHub are and the differences between the two.
@@ -29,12 +29,10 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read Chapter 1 in [this book about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
+  1. Read Chapter 1.1 through 1.4 in [this book about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
   2. Watch [this video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how Git can improve the workflow of both an individual and a team of developers.
   3. Watch [this video](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) for some history on Git and GitHub, and make sure you know the difference between the two. Git is a technology used in the command line while GitHub is a [website](https://github.com/) you can visit.
-  4. If you haven't yet, install Git on your computer. This is one of the steps of the Installation lessons that you should have already completed:
-  * For Windows Subsystem for Linux, see [Installation Prerequisites](https://www.theodinproject.com/courses/web-development-101/lessons/prerequisites).
-  * For Linux or MacOS, see [Project: Your First Rails Application](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application?ref=lnav).
+  4. If you haven't yet installed Git, visit the [Setting Up Git](https://www.theodinproject.com/courses/web-development-101/lessons/setting-up-git) lesson.
   5. Take a look at The Odin Project's very own [GitHub repository](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored! While you're there, look at all our [contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
 </div>
 
@@ -83,8 +81,8 @@ This section contains questions for you to check your understanding of this less
 </details>
 
 <details>
-<summary>Why is Git/GitHub useful for a team of developers?</summary>
+<summary>Why are Git and GitHub useful for a team of developers?</summary>
 <ul><ul>
-  <li>Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git/GitHub to easily combine their changes.</li>
+  <li>Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git and GitHub to easily combine their changes.</li>
 </ul></ul>
 </details>

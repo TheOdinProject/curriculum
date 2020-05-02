@@ -9,7 +9,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What are the rules for naming variables?
 * What are operators, operands, and operations?
 * What is concatenation and what happens when you add numbers and strings together?
-* What are the different type of operators in JavaScript?
+* What are the different types of operators in JavaScript?
 * What is the difference between `==` and `===`?
 * What are operator precedence values?
 * What are the increment/decrement operators?
@@ -42,10 +42,11 @@ You can easily run your own JavaScript code from files you create on your comput
 <html>
 <head>
   <title>Page Title</title>
+  <meta charset="UTF-8"/>
 </head>
 <body>
   <script>
- 	// Your JavaScript goes here!
+    // Your JavaScript goes here!
     console.log("Hello, World!")
   </script>
 </body>
@@ -73,3 +74,8 @@ Try the following exercises:
    3. Set another variable `percentage` to `actual / max`
    4. If you type `percentage` in the console and press enter you should see a value like `0.7719`
 6. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+[Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)

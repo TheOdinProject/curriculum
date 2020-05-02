@@ -1,0 +1,41 @@
+Good web design doesn't happen by accident. Learn how to make all that work you've done on the backend look great in a web browser! You'll be equipped to deeply understand and create your own design frameworks.
+
+## The Outline
+
+- Basic HTML Page Structure
+  - How This Course Will Work - [lesson](introduction.md)
+  - HTML Basics - [lesson](html5_basics.md)
+  - Linking Internal and Extrernal Pages - [lesson](links.md)
+  - Working with Images, Video and Other Media - [lesson](images.md)
+  - [Project: Embedding Images and Video](project_media.md)
+  - What's New in HTML5 - [lesson](new_html5.md)
+- Displaying and Inputting Data
+  - Tables in HTML - [lesson](tables.md)
+  - Ordered and Unordered Lists - [lesson](lists.md)
+  - Forms for Collecting Data - [lesson](html_forms.md)
+  - [Project: HTML Forms](project_html_forms.md)
+- CSS
+  - CSS Basics - [lesson](css_basics.md)
+  - The Box Model - [lesson](box_model.md)
+  - Floats and Positioning - [lesson](floats_positioning.md)
+  - Flexbox - [lesson](flexbox_layout.md)
+  - Grid - [lesson](grid_layout.md)
+  - [Project: Positioning and Floating Elements](project_positioning.md)
+  - Best Practices - [lesson](best_practices.md)
+  - Backgrounds and Gradients - [lesson](backgrounds.md)
+  - [Project: Building with Backgrounds and Gradients](project_backgrounds.md)
+- Design and UX
+  - Introduction to Design and UX - [lesson](design_ux.md)
+  - Fonts and Typography - [lesson](typography.md)
+  - CSS Grids - [lesson](css_grids.md)
+  - [Project: Design Teardown](project_design.md)
+- Responsive Design and CSS Frameworks
+  - Responsive Design - [lesson](responsive_design.md)
+  - [Project: Building With Responsive Design](project_responsive.md)
+  - CSS Frameworks like Bootstrap and Foundation - [lesson](css_frameworks.md)
+  - [Project: Using Bootstrap](project_bootstrap.md)
+- Advanced CSS
+  - Animations, Subtle Effects and Compatibility - [lesson](stylings.md)
+  - Using CSS Preprocessors to Save Time - [lesson](preprocessors.md)
+  - [Project: Design Your Own Grid-Based Framework](project_css_frameworks.md)
+  - Conclusion - [lesson](conclusion.md)

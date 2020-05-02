@@ -1,6 +1,8 @@
 ### Introduction
 
-Learning how to program takes work. Like any skill worth knowing, it takes time to acquire, and it can't be learned in a weekend or even a month. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort. So before we get into the meat of the curriculum, we're going to go over the following to help you get the most out of The Odin Project: the things that will help you succeed in your goal of learning to code and the pitfalls that you should try to avoid.
+Learning to code is incredibly rewarding but can also be difficult and frustrating. Like any skill worth knowing, it takes time to acquire, and it can't be learned in a weekend or even a month. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort.
+
+So before we get into the meat of the curriculum, we're going to go over the following to help you get the most out of The Odin Project: the things that will help you succeed in your goal of learning to code and the pitfalls that you should try to avoid.
 
 ### Motivation
 
@@ -11,14 +13,13 @@ Take a moment to think about why you have decided to learn programming.
 * Are you determined to develop the skills and abilities to build any app you can think of? 
 * Do you want to start your own company by turning an app idea into reality?
 
-Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motiviation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
+Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
 
 To give your motivation a bit of a boost, you can read about the success of others:
 
 * [A woman who taught herself enough to land a job in 5 months](http://newcodegirl.blogspot.co.uk)
 * [A blacksmith who taught himself how to code](http://joshuakemp.blogspot.co.uk/2013/11/how-blacksmith-learned-to-code-and-9.html)
 * [A 32 year old who taught himself programming using The Odin Project over a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
-* [Another guy who used The Odin Project to get a job](https://www.reddit.com/r/learnprogramming/comments/4goiwx/i_got_hiredagain/?)
 
 
 ### Growth Mindset
@@ -46,11 +47,9 @@ To learn more about the growth mindset, check out these resources:
 
 ### The Learning Process
 
-Learning concepts and then practicing them will help you to more fully understand how things work and fit together. Projects are
-the ultimate method for ensuring that your theoretical understanding aligns with how the programming concepts and techniques actually operate.
+Learning concepts and then practicing them will help you to more fully understand how things work and fit together. Projects are the ultimate method for ensuring that your theoretical understanding aligns with how the programming concepts and techniques actually operate.
 
-When learning, your mind will consistently switch between focus mode and diffuse mode. **Focus mode** occurs when you are consciously focusing on learning, reading, watching videos, or working on a project. **Diffuse mode** occurs subconsciously, at times when you are not actively learning, such as when you're doing the dishes, exercising, or sleeping. In this state, your mind
-goes about the business of connecting what you have been learning to the other things you know. This is where breakthroughs happen.
+When learning, your mind will consistently switch between focus mode and diffuse mode. **Focus mode** occurs when you are consciously focusing on learning, reading, watching videos, or working on a project. **Diffuse mode** occurs subconsciously, at times when you are not actively learning, such as when you're doing the dishes, exercising, or sleeping. In this state, your mind goes about the business of connecting what you have been learning to the other things you know. This is where breakthroughs happen.
 
 It's important to know that your mind goes through these two states when learning because you can utilise this to make your learning more efficient. When stuck on a concept or project, taking a break to refresh and let your subconscious work on making connections more often than not yields a solution to your problem. The trick is to put effort into solving the problem first and then take a break.
 
@@ -62,18 +61,15 @@ You can practice this method of learning by helping others in our community.
 
 * To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
-* The Ruby Rogues have a [podcast on How to Learn](http://rubyrogues.com/131-rr-how-to-learn/), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
+* The Ruby Rogues have a [podcast on How to Learn](https://devchat.tv/ruby-rogues/131-rr-how-to-learn/), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
 ### What To Do When You're Stuck
 
 You will inevitably get stuck at some point in the curriculum, perhaps due to a concept that you are having difficulty understanding or perhaps due to something not working correctly in a project. Whatever it is, use the following tools to get unstuck:
 
-* Google it: You can be certain someone else out there has encountered the same problem as
-you at some point. A quick Google search can often lead to a solution.
+* Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
 * Take a break: Allow your diffuse learning state to work on the problem.
-* Ask for help in our [chat](https://discord.gg/hvqVr6d): Come prepared
-with your research. People will be more willing to help you when they can see
-you have already put effort into trying to figure out the solution on your own.
+* Ask for help in our [chat](https://discord.gg/hvqVr6d): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
 ### Managing Your Study Time
 
@@ -92,6 +88,24 @@ The Pomodoro technique is great for avoiding procrastination as it forces you to
 To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
 
 If you want to try it out, [TomatoTimer](http://tomato-timer.com/#) is an easy-to-use Pomodoro timer.
+
+#### Not Taking Breaks
+As you get into the material, you may feel compelled to continuously study for long periods of time. It might seem like you are getting more work done at first, but this often leads to burnout, which consequently results in lower productivity.
+
+It may seem counterintuitive, but you will actually get more done if you regularly step back to recharge your brain and body. Studies show that performance increases after breaks of all durations: from extended vacations down to microbreaks of 30 seconds. John Trougakos, Associate Professor of Management at the University of Toronto, says that mental concentration is similar to a muscle. Our focus becomes fatigued after sustained use and needs a rest period to recover, just like a bodybuilder resting between sets at the gym.
+
+**Solution:** Use the previously mentioned Pomodoro Technique to time how often and how long to take your well-deserved breaks. Feel free to play around and experiment with different frequencies and durations of breaks.
+
+What to do during your break:
+
+* listen to music
+* journal
+* doodle
+* meditate 
+* play a quick game
+* go for a short walk outside 
+
+Read [this article](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on breaks & productivity.
 
 #### Digital Distractions
 Digital distractions are email and Facebook notifications and time-wasting websites, such as social media. These distractions break your focus and make procrastination tempting. Therefore, they should be avoided during study time.
@@ -120,6 +134,6 @@ Without further ado, let's jump in to learning web development!
 
 ### Additional Resources
 * [Managing inspiration and motivation](https://markmanson.net/do-something)
-* [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
+* [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
-* [Improve your typing skills with Klavarog](http://klava.org) Use this keyboard trainer if you find your typing speed is holding you back. We recommend to spend 5 mins everyday after you start your PC.
+* [Improve your typing skills with Keybr.com](https://www.keybr.com/) Use this keyboard trainer if you find your typing speed is holding you back. We recommend to spend 5 mins everyday after you start your PC.

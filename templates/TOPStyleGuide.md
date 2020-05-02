@@ -136,7 +136,7 @@ Text after...
 
 ### Sub-Headers
 
-Use `####` for sub-headers that are on thier own line and `**Sub-header**` for inline.
+Use `####` for sub-headers that are on their own line and `**Sub-header**` for inline.
 
 ~~~markdown
 ...text before.

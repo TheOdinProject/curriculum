@@ -2,7 +2,7 @@
 
 Working with APIs is awesome and frustrating at the same time.  On the one hand, interfacing with other applications out there can greatly improve the reach and "cool factor" of your own app.  On the other, it involves lots of reading through documentation, figuring out authentication strategies, and parsing bad (or nonexistent) error messages.
 
-Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read the Skillcrush explanation](http://skillcrush.com/2012/07/04/api-2/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
+Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read the Skillcrush explanation](https://skillcrush.com/2012/04/16/api/1346413073000/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
 
 "API" is an incredibly broad concept -- any time your application talks to another application, that's via some sort of API.  The components within your own application, e.g. the different pieces of Rails, also talk to each other via APIs... they are more or less independent sub-applications that pass along the data they each need to complete their particular task.  Everything's an API in application-land!
 
@@ -13,7 +13,7 @@ In this lesson, we'll cover how to build your own API.  In the following lesson,
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* How Rails knows which type of file you are expecting back when you make an HTTP request.
+* How does Rails know which type of file you are expecting back when you make an HTTP request.
 * What is the purpose of the `#respond_to` method?
 * How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?
 * What are the two steps performed behind the scenes by the `#to_json` method?
@@ -160,13 +160,13 @@ Right now you've got the ability to use your Rails app to serve up not just HTML
 
 This is a good time to introduce an architectural concept called "Service Oriented Architecture".  The basic idea is that your application will likely have many different services within it, for instance the payments processing, user registration, recommendation engine, etc.  Instead of building all of these under the same master application, you break them out into fully independent pieces and have them talk to each other using internally facing APIs.  
 
-This is good for many reasons.  Because each piece of your application doesn't care how the other pieces work and it only knows how to ask for data via their APIs, it allows you to make major changes to the code within a service and the rest of your application works just the same.  You can completely substitute one service for another and, as long as it communicates using the same API methods, it's easy.  You can use an external API for a part of your app (like payments) instead of an internal one.  You can have a PHP app talking to a Python app talking to a Rails app and no one cares since they're all communicating using APIs
+This is good for many reasons.  Because each piece of your application doesn't care how the other pieces work and it only knows how to ask for data via their APIs, it allows you to make major changes to the code within a service and the rest of your application works just the same.  You can completely substitute one service for another and, as long as it communicates using the same API methods, it's easy.  You can use an external API for a part of your app (like payments) instead of an internal one.  You can have a PHP app talking to a Python app talking to a Rails app and no one cares since they're all communicating using APIs.
 
 It's usually a good idea to strive to keep independent pieces of your application as independent as possible anyway.  Formalizing this under the umbrella of SOA forces you to think in terms of exactly which methods you want to expose to the other parts of your application and it will make your code better along the way.  An added benefit is that, when you assume that each major component of your application is independent, you can also isolate issues much easier and will be forced to handle errors in a reasonable way.  
 
-Using an SOA architecure for your whole application is sort of like breaking up a giant and complicated Ruby script into nice neat classes and methods, just on a broader scale.
+Using an SOA architecture for your whole application is sort of like breaking up a giant and complicated Ruby script into nice neat classes and methods, just on a broader scale.
 
-One of the best known cases of switching to a service-oriented architecture was Amazon.com.  Sometime in 2002, Jeff Bezos basically dictated that every group would switch to SOA or be fired.  An [infamous blog post](https://plus.google.com/+RipRowan/posts/eVeouesvaVX) from a Google Employee, accidentally released to the public instead of staying internal to the company, talked about Amazon's strength with SOA.  It's a great read so check it out, but the basics of Bezos' email are, as quoted from the post:
+One of the best known cases of switching to a service-oriented architecture was Amazon.com.  Sometime in 2002, Jeff Bezos basically dictated that every group would switch to SOA or be fired.  An [infamous blog post](https://gist.github.com/chitchcock/1281611) from a Google Employee, accidentally released to the public instead of staying internal to the company, talked about Amazon's strength with SOA.  It's a great read so check it out, but the basics of Bezos' email are, as quoted from the post:
 
 > 1) All teams will henceforth expose their data and functionality through service interfaces.
 

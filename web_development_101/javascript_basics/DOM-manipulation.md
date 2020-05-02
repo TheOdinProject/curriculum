@@ -87,7 +87,7 @@ One of the most unique and useful abilities of JavaScript is its ability to mani
         &lt;button id="btn"&gt;Click Me&lt;/button&gt;<br />
         <br />
         // the JavaScript file<br />
-        var btn = document.querySelector(&lsquo;&#35;btn&rsquo;);<br />
+        const btn = document.querySelector(&lsquo;&#35;btn&rsquo;);<br />
         btn.onclick = (e) =&gt; alert(e.target.tagName);<br />
       </code></ul>
       <li>By attaching event listeners to the nodes in your JavaScript.</li>
@@ -96,7 +96,7 @@ One of the most unique and useful abilities of JavaScript is its ability to mani
         &lt;button id="btn"&gt;Click Me Too&lt;/button&gt;<br />
         <br />
         // the JavaScript file<br />
-        var btn = document.querySelector('#btn');<br />
+        const btn = document.querySelector('#btn');<br />
         btn.addEventListener(&lsquo;click&rsquo;, (e) => {<br />
           &nbsp;&nbsp;alert(e.target.tagName);<br />
         });<br />
@@ -164,7 +164,8 @@ When your HTML code is parsed by a web browser, it is converted to the DOM as wa
 
 * _element_.querySelector\(_selector_\) returns reference to the first match of _selector_
 * _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_
-  \*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
+
+\*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
 
 It's important to note that when using querySelectorAll, the return value is **not** an array. It looks like an array, and it somewhat acts like an array, but it's really a "nodelist". The big distinction is that several array methods are missing from nodelists. One solution, if problems arise, is to convert the nodelist into an array. You can do this with Array.from\(\) or the [spread operator.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
@@ -211,7 +212,14 @@ div.setAttribute('style', 'color: blue; background: white');
 
 See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
 
-Generally style rules are the same as in CSS with the exception that hyphenated rules are changed to camelCase. I.E. "background-color" becomes "backgroundColor".
+Note that if you're accessing a kebab-cased css rule from JS, you'll either need to use camelcase or you'll need to use bracket notation instead of dot notation.
+
+~~~JavaScript
+div.style.background-color // doesn't work - attempts to subtract color from div.style.background
+div.style.backgroundColor // accesses the divs background-color style
+div.style['background-color'] // also works
+div.style.cssText = "background-color: white" // ok in a string
+~~~
 
 #### Editing Attributes
 
@@ -266,7 +274,7 @@ div.innerHTML = '<span>Hello World!</span>';
 Let's take a minute to review what we've covered and give you a chance to practice this stuff before moving on.  Check out this example of creating and appending a DOM element to a webpage.
 
 ~~~html
-// your html file:
+<!-- your html file: -->
 <body>
   <h1>
     THE TITLE OF YOUR WEBPAGE
@@ -289,7 +297,7 @@ container.appendChild(content);
 In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
 
 ~~~html
-// The DOM
+<!-- The DOM -->
 <body>
   <h1>
     THE TITLE OF YOUR WEBPAGE
@@ -339,30 +347,30 @@ This solution is less than ideal because we're cluttering our HTML with JavaScri
 #### method 2
 
 ~~~HTML
-// the html file
+<!-- the html file -->
 <button id="btn">Click Me</button>
 ~~~
 
 ~~~JavaScript
 // the JavaScript file
-var btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
 ~~~
 
-#### \(need to review arrow functions? [LINK](http://javascript.info/function-expressions-arrows#arrow-functions)\)
+#### \(need to review arrow functions? [LINK](http://javascript.info/arrow-functions-basics)\)
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property.
 
 #### method 3
 
 ~~~html
-// the html file
+<!-- the html file -->
 <button id="btn">Click Me Too</button>
 ~~~
 
 ~~~JavaScript
 // the JavaScript file
-var btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
   alert("Hello World");
 });
@@ -373,8 +381,8 @@ Now, we maintain separation of concerns, and we also allow multiple event listen
 Note that all 3 of these methods can be used with named functions like so:
 
 ~~~html
-// the html file
-// METHOD 1
+<!-- the html file -->
+<!-- METHOD 1 -->
 <button onclick="alertFunction()">CLICK ME BABY</button>
 ~~~
 
@@ -384,7 +392,7 @@ function alertFunction() {
 }
 
 // METHOD 2
-btn.onclick = alertFunction
+btn.onclick = alertFunction;
 
 // METHOD 3
 btn.addEventListener('click', alertFunction);
@@ -395,9 +403,9 @@ Using named functions can clean up your code considerably, and is a _really_ goo
 With all three methods we can access more information about the event by passing a parameter to the function that we are calling.  Try this out on your own machine:
 
 ~~~javascript
-btn.addEventListener('click', function(e){
-  console.log(e)
-})
+btn.addEventListener('click', function (e) {
+  console.log(e);
+});
 ~~~
 
 The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
@@ -405,17 +413,17 @@ The `e` in that function is an object that references the __event__ itself.  Wit
 Try this:
 
 ~~~javascript
-btn.addEventListener('click', function(e){
-  console.log(e.target)
-})
+btn.addEventListener('click', function (e) {
+  console.log(e.target);
+});
 ~~~
 
 and now this:
 
 ~~~javascript
-btn.addEventListener('click', function(e){
-  e.target.style.background = 'blue'
-})
+btn.addEventListener('click', function (e) {
+  e.target.style.background = 'blue';
+});
 ~~~
 
 pretty cool eh?
@@ -476,8 +484,12 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 
 * [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
+* [Event Capture, Propagation and Bubbling video by Wes Bos](https://www.youtube.com/watch?v=F1anRyL37lE)
 * [DOM Enlightenment](http://domenlightenment.com/)
+* [Dynamic style - manipulating CSS with JavaScript](https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript)
 * [JavaScript30](https://JavaScript30.com)
 * [An introduction to DOM](https://leila-alderman.github.io/javascript/2018/12/05/Intro-to-the-Document-Object-Model.html)
-* If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
+* [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
 * This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
+* [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
+* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by Digital Ocean.

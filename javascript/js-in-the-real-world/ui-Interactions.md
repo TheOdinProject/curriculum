@@ -20,7 +20,7 @@ You know what we're talking about here. Picture a nav-bar or a button and when y
 
 Mobile versions of your sites are almost definitely going to need their own menu implementation. Depending on how you decided to implement your drop-down, you _could_ reuse it here, but there are tons of more inventive options out there.
 
-1. [Browse the web](https://dribbble.com/search?q=mobile+menu) for [some](http://trydevkit.com/blog-post/steal-these-responsive-navigation-menu-ideas/bc8bec8d-ef4e-60bc-456c-525ed6f88db8) [inspiration](https://medium.com/@kollinz/hamburger-menu-alternatives-for-mobile-navigation-a3a3beb555b8), pick something and try to implement it!
+1. [Browse the web](https://dribbble.com/search?q=mobile+menu) for [some](https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0) [inspiration](https://medium.com/@kollinz/hamburger-menu-alternatives-for-mobile-navigation-a3a3beb555b8), pick something and try to implement it!
 
 ### Image slider
 
@@ -31,7 +31,7 @@ Create a simple image carousel. It should contain arrows on each side to advance
 Don't spend too much time worrying about getting your images to display at the correct size -- it's more important to get the slider sliding.
 
 1. This one is a little more involved than the last two, so think about how you would set up the different elements within the site.  
-2. Set up a very wide div which will contain the individual "slides" of each image. By appropriately positioning that div inside a container div (which acts like a picture frame), you can choose which slide is visible at any given time.
+2. Set up a very wide `div` which will contain the individual "slides" of each image. By appropriately positioning that `div` inside a container `div` (which acts like a picture frame), you can choose which slide is visible at any given time.
 3. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly. Make the transitions smooth using simple effects.
 4. Set up arrow buttons which activate those functions and play with cycling through the images.
 5. Add in some navigation dots at the bottom of the slides. Make a horizontal series of empty circles with CSS immediately below the slideshow. Each circle represents a slide, so whenever a new slide is activated, its corresponding circle gets filled in so you can tell where in the show you are. Make each circle link to that particular slide, so you can click on the circle and it will jump to that slide.

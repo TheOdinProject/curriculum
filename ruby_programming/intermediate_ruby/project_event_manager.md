@@ -160,7 +160,7 @@ contents of each line.
 
 ### Display the First Names of All Attendees
 
-Instead of outputing the entire contents of each line we want to show only the
+Instead of outputting the entire contents of each line we want to show only the
 first name. That requires us to look at the current contents of our Event
 Attendees file.
 
@@ -531,7 +531,7 @@ lib/event_manager.rb:11:in `block in <main>': undefined method `length' for nil:
 	from lib/event_manager.rb:7:in `<main>'
 ~~~
 
-* What is the error mesage "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
+* What is the error message "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
 
 Reviewing our CSV data we notice that the next row specifies no value. An empty
 field translates into a nil instead of an empty string. This is a choice made by
@@ -716,17 +716,17 @@ Take a close look at that address. Here's how it breaks down:
   * `roles=legislatorLowerBody` : Returns the representatives from the House
   * `key=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw` : A registered API Key to authenticate our requests
 
-We're accessing the `representatives` method of their API, we send in a `key` which is the string that identifies JumpstartLab as the accessor of
-the API, then we select the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
+When we're accessing the `representatives` method of their API, we're sending in a `key` which is the string that identifies JumpstartLab as the accessor of
+the API, then we're selecting the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
 
-This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](http://jsonprettyprint.com/), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
+This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](https://jsonformatter.org/json-pretty-print), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
 
 Let's look for a solution before we attempt to build a solution.
 
 ### Installing the Google API Client
 
 Ruby comes packaged with the `gem` command. This tool allows you to download
-libraries simply knowing the name of the library you want to install.
+libraries by simply knowing the name of the library you want to install.
 
 
 ~~~bash
@@ -734,6 +734,8 @@ $ gem install google-api-client
 Successfully installed google-api-client-0.15.0
 1 gem installed
 ~~~
+
+If you recieve a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
 
 ### Showing All Legislators in a Zip Code
 
@@ -763,7 +765,7 @@ $ response = civic_info.representative_info_by_address(address: 80202, levels: '
 => #<Google::Apis::CivicinfoV2::RepresentativeInfoResponse:0x007faf2d9088d0 @divisions={"ocd-division/country:us/state:co"=>#<Google::Apis::CivicinfoV2::GeographicDivision:0x007faf2e55ea80 @name="Colorado", @office_indices=[0]> } > ...continues...
 ~~~
 
-Whoa. That's a lot of information.  Buried in there are the names our legislators.  We can access them by calling the `.officials` method on the `response`.  Now that we know how to access the information we want, we can focus our attention back on our program.
+Whoa. That's a lot of information.  Buried in there are the names of our legislators.  We can access them by calling the `.officials` method on the `response`.  Now that we know how to access the information we want, we can focus our attention back on our program.
 
 ~~~ruby
 require 'csv'
@@ -881,7 +883,7 @@ Sarah 33703 ["Marco Rubio", "Bill Nelson", "C. Young"]
 ...
 ~~~
 
-The problem now is that we are still sending the `to_s` message to our new array of legislator names and by default an array does not know how you want to display the contents.
+The problem now is that when using string interpolation, Ruby is converting our new array of legislator names into a string but Ruby does not know exactly how _you_ want to display the contents.
 
 We need to explicitly convert our array of legislator names to a string. This way we are sure it will output correctly. This could be tedious work except Array again comes to the rescue with the [Array#join](http://rubydoc.info/stdlib/core/Array#join-instance_method) method.
 
@@ -960,7 +962,7 @@ def legislators_by_zipcode(zip)
                                   roles: ['legislatorUpperBody', 'legislatorLowerBody'])
     legislators = legislators.officials
     legislator_names = legislators.map(&:name)
-    legislators_string = legislator_names.join(", ")
+    legislator_names.join(", ")
   rescue
     "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
   end
@@ -1234,9 +1236,9 @@ return to the application.
         <% legislators.each do |legislator| %>
         <tr>
           <td><%= "#{legislator.name}" %></td>
-          <td><%= "#{legislator.urls.join}" %></td>
+          <td><%= "#{legislator.urls.join}" unless legislator.urls.nil? %></td>
         </tr>
-      <% end %>
+        <% end %>
     <% else %>
       <th></th>
       <td><%= "#{legislators}" %></td>
@@ -1321,7 +1323,7 @@ template_letter = File.read "form_letter.erb"
 erb_template = ERB.new template_letter
 ~~~
 
-* Simplify our `legislators_by_zipcode` to return the the original array of legislators
+* Simplify our `legislators_by_zipcode` to return the original array of legislators
 
 ~~~ruby
 def legislators_by_zipcode(zip)
@@ -1432,7 +1434,7 @@ def legislators_by_zipcode(zip)
   end
 end
 
-def save_thank_you_letters(id,form_letter)
+def save_thank_you_letter(id,form_letter)
   Dir.mkdir("output") unless Dir.exists?("output")
 
   filename = "output/thanks_#{id}.html"
@@ -1457,7 +1459,7 @@ contents.each do |row|
 
   form_letter = erb_template.result(binding)
 
-  save_thank_you_letters(id,form_letter)
+  save_thank_you_letter(id,form_letter)
 end
 ~~~
 

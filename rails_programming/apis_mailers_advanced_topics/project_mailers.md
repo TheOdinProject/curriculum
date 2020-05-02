@@ -29,6 +29,14 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Duarte's Solution](https://github.com/Duartemartins/flight-booker)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-flight-booker)
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_flight_booker) - [View in Browser](https://ovsjazz-odin-flight-booker.herokuapp.com)
+* [Ian's solution](https://github.com/IanMKesler/odin-flight-booker) - [View in Browser](https://imk-flight-booker.herokuapp.com)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-flight-booker) - [View in Browser](https://stormy-woodland-85583.herokuapp.com)
+* [Kevin Vuong's solution](https://github.com/fffear/odin-flight-booker)
+* [Learnsometing's solution](https://github.com/learnsometing/rails-flight_booker)
+* [Simon Tharby's solution](https://github.com/jinjagit/flight-mailer)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker.git) | [Live](https://safe-peak-87499.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/growlithe)
 * [Raiko's solution](https://github.com/Cypher0/odin-flight-booker) - [View in Browser](https://salty-anchorage-35246.herokuapp.com/)
@@ -80,6 +88,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Agon's solution](https://github.com/AgonIdrizi/flight-booker)
 * [Malaika's Solution](https://github.com/malaikaMI/AirFly)
 * [bchalman's solution](https://github.com/bchalman/odin-flight-booker)
+* [JamCry's Solution](https://github.com/jamcry/flight-booker) - [Live on Heroku](https://dry-caverns-97659.herokuapp.com/)
+* [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [Live on Heroku](https://redux-flights.herokuapp.com/)
+* [Rey van den Berg's Solution](https://github.com/Rey810/flight-booker)
 
 </details>
 

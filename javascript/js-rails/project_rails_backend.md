@@ -12,7 +12,7 @@ To start with, you'll need to choose a photo and identify where exactly each per
 
 When the user selects one of these characters, you should check with your Rails Backend to see if that character is actually within the targeting box.  Provide the user with appropriate feedback (e.g. if wrong, an error message).  If correct, place a marker on the photo in the character's location.  In either case, remove the targeting box until the user clicks again.
 
-Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score).  Once a round is complete, ask the user for his/her name and record that time.  This will get a bit tricky since you'll have annonymous users you need to keep track of!
+Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score).  Once a round is complete, ask the user for his/her name and record that time.  This will get a bit tricky since you'll have anonymous users you need to keep track of!
 
 1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) if you need help.
 1. Think about what you'll need to do to get this all working together.  This is where it's really helpful to think it completely through on paper or whiteboard ahead of time!  A few minutes of thought can save you from wasting an hour of coding.
@@ -36,6 +36,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/waldo-react-rails) - [View in browser](https://pumpkin-surprise-94026.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/waldo) - [View in browser](https://guarded-citadel-26034.herokuapp.com/)
 * [brxck's solution](https://github.com/brxck/odin-waldo) - [View in browser](https://pure-springs-85665.herokuapp.com/)
 * [theghall's solution - API](https://github.com/theghall/odin-phototag-api) - [APP](https://github.com/theghall/odin-phototag-app) - [View in browser](https://theghall.github.io/odin-phototag-app/)
@@ -48,7 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-findwaldo)
 * [David Chapman's solution](https://github.com/davidchappy/wheres-waldo) - [View in browser](https://dac-wheres-waldo.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) - [View in browser](https://frozen-stream-95035.herokuapp.com/)
-
+* [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/wheres-waldo) - [View in browser](https://theodinprojects.live/courses/javascript/projects/wheres-waldo)
 </details>
 
 ### Additional Resources

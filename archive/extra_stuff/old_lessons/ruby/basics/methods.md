@@ -35,15 +35,15 @@ puts my_name #=> "Joe Smith"
 Lets breake it down:
 `def` - is a built in Ruby keyword. It lets Ruby know this is the start of a method *definition*. 
 
-`my_name` - is the name of the method. You can name pretty much name it whatever you want. But there are some contraints and conventions which are described in the next section.
+`my_name` - is the name of the method. You can name pretty much name it whatever you want. But there are some constraints and conventions which are described in the next section.
 
-`"Joe Smith"` - is in the *method body*. The method body is where the logic of your method goes.This paticular method will just *return* a string when its *called*
+`"Joe Smith"` - is in the *method body*. The method body is where the logic of your method goes.This particular method will just *return* a string when its *called*
 
 `end` - as you might have guessed `end` marks the *end* of the method definition. Its another Ruby keyword.
 
 To call the method you simply need to use its name, as shown in the last line of the example `puts my_name`
 
-## Paramaters and Arguments
+## Parameters and Arguments
 * basics about what parametrs are
 * default parameters
 
@@ -55,7 +55,7 @@ To call the method you simply need to use its name, as shown in the last line of
 
 ## Best practices
 * naming them
-* not too many paramaters
+* not too many parameters
 * bang methods
 * predicate methods
 

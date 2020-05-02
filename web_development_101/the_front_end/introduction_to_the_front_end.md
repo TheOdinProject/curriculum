@@ -21,13 +21,16 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read a brief intro to front-end development from this [interview with Nick Schaden](https://generalassemb.ly/blog/what-is-front-end-web-development/)
-  2. Get a high-level overview of how all three languages work together in MDN's [Getting started with the web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web). Learners should only read: Dealing with files, HTML basics, CSS basics and JavaScript basics. There is no need to implement the website; simply read about the process at this point.
-  3. Familiarize yourself with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), and [jQuery](http://api.jquery.com/). You will not understand most of what is there just yet, but bookmark the pages for later reference.
+  1. Read a brief intro to front-end development from this [interview with Nick Schaden](https://generalassemb.ly/blog/what-is-front-end-web-development/).
+  2. Read about the [role of HTML](http://webapps-for-beginners.rubymonstas.org/html.html) from this Ruby Monstas page.
+  3. Get a high-level overview of how all three languages work together in MDN's [Getting started with the web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web). Learners should only read: Dealing with files, HTML basics, CSS basics and JavaScript basics. There is no need to implement the website; simply read about the process at this point.
+  4. Familiarize yourself with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). You will not understand most of what is there just yet, but bookmark the pages for later reference.
+  5. Bookmark [DevDocs.io](https://devdocs.io/). Read the "Welcome" message. Massive API documentation collection that even works offline. Essential collection of reference material for everything covered and more. (Maintained by [FreeCodeCamp](https://www.freecodecamp.org/))
 
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
+* [This video](https://www.youtube.com/watch?v=BANChTkxYYY&list=PLwqG3V3cExWpCgHOcLEKg6z-InpjHr7MB) is another great introduction to how the various front-end technologies interact.
 * [Skills of a Successful Front-End Web Developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).

@@ -9,7 +9,7 @@ Grid was introduced to fill this need.
 - How do you create a grid container?
 - How do you create a fixed track size?
 - How do you create a flexible track size?
-- What is the different between an implicit and explicit grid?
+- What is the difference between an implicit and explicit grid?
 - How is the fr unit used?
 - How do you place items into a precise location on the grid?
 - How does Grid handle overlapping content?
@@ -28,6 +28,7 @@ If you have any experience with other css layout options like floats then Grid c
 1) Draw your grid first on paper. It really helps you have a visual representation of what you are trying to achieve and makes it much easier to set up the grid in the right way. You don't want to have to keep making major adjustments for things you haven't accounted for.
 
 2) Take care when using fractions. Grid offers a powerful feature to set widths as fractions of the available space. If you mix fractions and non-flexible spacing, such as pixels, fractions are calculated based on the space remaining after the fixed width elements are accounted for. This can mean the grid doesn't end up looking how you pictured it.
+
 3) If your layout includes any rows or columns with no elements, you need to account for this whitespace too. Be sure to account for empty contents as much as elements.
 
 4) Understand how explicit and implicit grids are formed. This will be covered more in the assignments but implicit grids can be formed when Grid is using your explicit grid template. Understanding how Grid forms these will really help you set up your grid properly and avoid unexpected results.

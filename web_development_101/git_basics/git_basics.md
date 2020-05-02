@@ -15,8 +15,10 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Complete the first interactive lesson in the Codecademy [Basic Git Workflow](https://www.codecademy.com/learn/learn-git) course. Try to look for a pattern in the commands you are running.
-  2. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
+  1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
+  2. Complete "Part 1 - The Basics" of [Tower's Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start). Feel free to start with the section titled "Starting with an Unversioned Project". Some steps to get you started:
+      * Create a test project with `mkdir some-sample-project`.
+      * Create a few test files with `touch some-sample-project/example.html` and `touch some-sample-project/example.txt`.
 
 </div>
 
@@ -24,8 +26,8 @@ By the end of this lesson, you should be able to do the following:
 This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:
 
 * Commands related to a remote repository:
-  * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git` 
-  or 
+  * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
+  or
   `git clone https://github.com/user-name/repository-name.git`
   * `git push origin master`
 * Commands related to workflow:
@@ -54,8 +56,8 @@ Don't worry if you don't know all the commands yet or if they aren't quite stick
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial) is an introductory guide on Git by [Michael Hartl](http://www.michaelhartl.com/).
-* An easy-to-read, pragmatic guide to using Git is available online from [RyPress](https://github.com/alokc83/Basic-Tutorials/blob/master/rypress.com%20Git/0_Ry's%20Git%20Tutorial.pdf) and also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC).
-* The [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub provides quick instructions for using common commands (you can find a webpage version [here](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)). 
+* An easy-to-read, pragmatic guide to using Git is available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC).
+* The [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub provides quick instructions for using common commands (you can find a webpage version [here](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)).
 * [Atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control) has a very thorough and well laid out Git tutorial.
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2).
 
@@ -65,7 +67,7 @@ This section contains questions for you to check your understanding of this less
 <details>
 <summary>What is the Git command used to get a full copy of an existing Git repository from Github?</summary>
 <ul><ul>
-  <li>Use <code>git clone git@github.com:&lt;your-respository-name&gt;</code> to clone a GitHub repository onto your local machine.</li>
+  <li>Use <code>git clone git@github.com:&lt;your-github-username&gt;/&lt;your-respository-name&gt;</code> to clone a GitHub repository onto your local machine.</li>
 </ul></ul>
 </details>
 
@@ -107,7 +109,7 @@ This section contains questions for you to check your understanding of this less
 <details>
 <summary>Explain the two-stage system that Git uses to save files.</summary>
 <ul><ul>
-  <li>A <strong>save</strong> in Git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.</li>
+  <li>A <strong>save</strong> in Git is divided into two terminal commands: <code>add</code> and <code>commit</code>. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.</li>
   <li><strong>Staging:</strong> Think of <code>add</code> as adjusting the number of people or elements to be included in a photo. With Git, you can select the changes you want to save with <code>git add</code>. Imagine a project that contains multiple files where changes have been made to several files. You want to save some of the changes you have made and leave some other changes to continue working on them.</li>
   <li><strong>Committing:</strong> Think of <code>commit</code> as actually taking a photo, resulting in a snapshot. For example, to commit a file named README.md, type <code>git commit -m "Add README.md"</code>. The <code>-m</code> flag stands for "message" and must always be followed by a commit message inside quotation marks. In this example, the commit message was <code>"Add README.md"</code>.</li>
 </ul></ul>

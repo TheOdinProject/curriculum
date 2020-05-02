@@ -13,12 +13,11 @@ In the following sections, we'll go over the steps for setting up your environme
 In the next few lessons, we will walk through these installation steps together:
 
 * installing the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of your choice;
-* installing Ruby, Rails, and Git;
 * installing a code editor;
 * creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using); and
 * creating and deploying a very basic Ruby on Rails application to make sure it all works. 
 
-At the end of this section, you'll be able to show off this app to your friends and family! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
+At the end of this section, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
 
 * Parse the terminal output for the actual error.
 * Google, Google, Google.
@@ -38,11 +37,13 @@ If you're using a Mac, you're in great shape. Most professional developers rely 
 
 #### Linux
 
-[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
+[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available, or the lighter weight alternative Xubuntu. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
 
 #### Virtual Machines and Dual-Boots
 
-A **virtual machine** is an emulation of a computer that runs within your existing OS. They're as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
+A **virtual machine** is an emulation of a computer that runs within your existing OS. It's like running a whole operating system inside of a program on your current operating system. For example, a virtual machine allows you to run a linux operating system inside of a windows computer. Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
+
+Still unsure about virtual machines? [Watch this video](https://youtu.be/yIVXjl4SwVo) or [read this article](https://www.howtogeek.com/196060/beginner-geek-how-to-create-and-use-virtual-machines/) for more information on virtual machines. 
 
 **Dual-booting** means installing two operating systems on your computer, which can give you the option to boot either Linux or Windows when your computer first starts up. The advantage of dual-booting over a virtual machine is that the OS can use all of your computer's resources, resulting in much faster operation. There is some risk to installing a dual-boot system because you're changing your hard drive partitions, but the risk is very low. You'll be okay as long as you take your time and read the instructions.
 

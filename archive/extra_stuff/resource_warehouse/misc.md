@@ -5,7 +5,7 @@
 
 ### Planning for web apps
 
-* Lauch Schools intro to agile book: https://launchschool.com/books/agile_planning/read/introduction
+* Launch Schools intro to agile book: https://launchschool.com/books/agile_planning/read/introduction
 
 
 

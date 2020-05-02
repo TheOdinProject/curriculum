@@ -1,8 +1,8 @@
 ### Introduction
 
-These projects will give you a chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.  The tutorial chapter will cover integrating a signup form with your Rails application and providing help if the user enters incorrect information.
+These projects will give you a chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
-### Project 1: Bare Metal Forms and Helpers
+### Project: Bare Metal Forms and Helpers
 
 In this project, you'll build a form the old fashioned way and then the Rails way.
 
@@ -111,16 +111,31 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution by editig this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/forms_and_authentication/project_forms.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/re-former)
+* [Grant Cottle's Solution](https://github.com/grantmaster89/re-former)
+* [Powei94's Solution](https://github.com/powei94/rails_re-former)
+* [Run After's Solution](https://github.com/run-after/re-former)
+* [Helmi's Solution](https://github.com/helmihidzir/re-former)
+* [David Auza's and Luis Novoa's Solution](https://github.com/davidauza-engineer/Ruby-on-Rails-Re-Former)
+* [Nasser Abachi's Solution](https://github.com/abachi/re-former)
+* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby_On_Rails/ReFormer)
+* [Ian's Solution](https://github.com/IanMKesler/re-former)
+* [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/re-former) - complete with index page
+* [Carlos Del Real's and António's Solution](https://github.com/carloshdelreal/re-former)
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/re-former)
+* [Kevin Vuong's solution](https://github.com/fffear/re-former)
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/re-former)
 * [Simon Tharby's solution](https://github.com/jinjagit/re-former)
 * [Stefano Merazzi's solution](https://github.com/ste001/re-former)
 * [Jason McKee's solution](https://github.com/jttmckee/re-former)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/re-former)
+* [Dennis Cope's Solution](https://github.com/coped/Re-former)
 * [goodjobbin85's solution](https://github.com/goodjobbin85/odin-re-former)
 * [Jeremy-D's solution](https://github.com/Jeremy-D/re-former)
 * [prw001's solution](https://github.com/prw001/re-former)
@@ -210,20 +225,18 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's solution](https://github.com/bchalman/odin-re-former)
 * [Alex's solution](https://github.com/alexcorremans/re-former)
 * [Tommy's solution](https://github.com/hoangtommy/re-former)
-* [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/ruby_on_rails/re-former)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/re-former)
 * [Leila Alderman's Solution](https://github.com/leila-alderman/re-former)
+* [JamCry's Solution](https://github.com/jamcry/re-former)
+* [vanny96's Solution](https://github.com/vanny96/forms-project)
+* [Roy's solution](https://github.com/RoyNyaga/re_former_odin_project/tree/master/re_former)
+* [Cody Buffaloe's Solution](https://github.com/CodyLBuffaloe/Re-Former)
+* [Alex Krewson's Solution](https://github.com/alexkrewson/re-former)
+* [Rey van den Berg's Solution](https://github.com/Rey810/Forms.git)
+* [guacamobley's Solution](https://github.com/guacamobley/re-former)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/re-former)
 
 </details>
-
-### Project 2: Ruby on Rails Tutorial
-
-This chapter will take what you now know about forms and make it part of a real application instead of just a learning exercise.  You'll build out the user signup form for the Twitter-clone project and integrate it with the validations you created on the database in the previous chapter.
-
-### Your Task
-
-<div class="lesson-content__panel" markdown="1">
-1. Do the [Ruby on Rails Tutorial Chapter 7](https://www.railstutorial.org/book/sign_up), "Sign-Up".
-</div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
