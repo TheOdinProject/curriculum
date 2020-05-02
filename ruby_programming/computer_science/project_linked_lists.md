@@ -230,4 +230,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Timework's Solution (with extra credit)](https://github.com/Timework/linkedList/blob/master/list.rb)
 - [Cinthia's Solution (with extra credit)](https://github.com/cinthiagodoi/linked-lists)
 - [Matt M's Solution (with extra credit)](https://github.com/MattMiller1989/Linked-List)
+- [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/linked_list)
   </details>

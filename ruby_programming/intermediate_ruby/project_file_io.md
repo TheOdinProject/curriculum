@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rryand's Solution](https://github.com/rryand/hangman_ruby) - [View in Repl.it](https://repl.it/@rryand/hangmanruby)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/hangman)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.hangman)
 * [pudu87's Solution](https://github.com/pudu87/hangman)
