@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 15px 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #364747;
+}
+
+.header {
+  font-size: 50px;
+}
+.container::after {
+  content: "";
+  background: url(images/background.png) no-repeat center center/cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.show-score {
+  background: #2c5755;
+  margin: 10px 25%;
+  padding: 10px 0;
+  color: #fff;
+  border-radius: 3%;
+}
+.game-over {
+  visibility: hidden;
+  font-size: x-large;
+}
+.btn {
+  cursor: pointer;
+  background: #2c5755;
+  border: 1px solid black;
+  padding: 8px 14px;
+  color: #fff;
+  font-size: 1.4;
+  border-radius: 5%;
+}
+.btn:hover {
+  background: #5fa3a0;
+}
+
+#moves {
+  display: flex;
+}
+.move {
+  border: 1px solid black;
+  background-color: #5fa3a0;
+  border-radius: 50%;
+  margin: 30px;
+  cursor: pointer;
+  width: 150px;
+}
+.move:hover {
+  background: #2c5755;
+}
+
+img {
+  width: 100%;
+}
+.round {
+  margin: 20px;
+  font-size: xx-large;
+}
+.winner {
+  color: #53a355;
+}
+
+.loser {
+  color: #b52510;
+}
+
+@media only screen and (max-width: 736px) {
+  .game-over {
+    font-size: large;
+  }
+  .move {
+    width: 100px;
+    margin: 20px 5px;
+  }
+  .show-score {
+    margin: 0 10%;
+  }
+}
