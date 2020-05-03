@@ -92,6 +92,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/sqlzoo)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/sql/blob/master/sql_zoo.sql)
 * [CodingCop's solution](https://github.com/cleve703/sqlZoo)
+* [Hyperturing's solution](https://github.com/hyperturing/SQLZoo/tree/master/SQLZoo)
 
 </details>
 
