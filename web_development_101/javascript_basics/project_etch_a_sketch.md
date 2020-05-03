@@ -1,7 +1,8 @@
 ### Introduction
-In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
-This project should _not_ be easy for you.  You'll probably have to Google frequently to get the right JavaScript methods and CSS to use - in fact, that's the point!  You _can_ build this using the tools that you have already learned and there are plenty of resources on the net for learning stuff that we haven't covered yet if you decide you need it.  We'll walk you through the basic steps, but it will be up to you to actually implement them.
+In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills. You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
+
+This project should _not_ be easy for you. You'll probably have to Google frequently to get the right JavaScript methods and CSS to use - in fact, that's the point! You _can_ build this using the tools that you have already learned and there are plenty of resources on the net for learning stuff that we haven't covered yet if you decide you need it. We'll walk you through the basic steps, but it will be up to you to actually implement them.
 
 If you get totally stuck drop by the chatroom.. someone will be there to point you in the right direction.
 
@@ -37,12 +38,15 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 </div>
 
 ### Student Solutions
+
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+* [James V's Solution](https://github.com/jamesspearsv/project_etch-a-sketch) - [View in Browser](https://jamesspearsv.github.io/project_etch-a-sketch/)
 * [Chun's Solution](https://github.com/ashchunfai/etch-a-sketch) - [View in Browser](https://ashchunfai.github.io/etch-a-sketch/)
 * [Kevin's Solution](https://github.com/Kevlar2222/Etch-a-Sketch) - [View in Browser](https://kevlar2222.github.io/Etch-a-Sketch/)
 * [rjpmagalang's Solution](https://github.com/rjpmagalang/etch-a-sketch) - [View in Browser](https://rjpmagalang.github.io/etch-a-sketch/)
@@ -943,7 +947,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Sally Chhuon's Solution](https://github.com/sc2225/etch_a_sketch) - [View in Browser](https://sc2225.github.io/etch_a_sketch/)
 * [Stinji's Solution](https://github.com/Stinji/etch-a-sketch) - [View in Browser](https://stinji.github.io/etch-a-sketch/)
 * [Tuan Nguyen's Solution](https://github.com/Tuan96/TuanSketch) - [View in Browser](https://tuan96.github.io/TuanSketch/)
-* [Jonathan Fallas's Solution](https://github.com/Elfjhon/ETCH-A-SKETCH) -[View in Browser]( https://elfjhon.github.io/ETCH-A-SKETCH/)
+* [Jonathan Fallas's Solution](https://github.com/Elfjhon/ETCH-A-SKETCH) -[View in Browser](https://elfjhon.github.io/ETCH-A-SKETCH/)
 * [bhenning83's Solution](https://github.com/bhenning83/etch-a-sketch) -[View in Browser](https://bhenning83.github.io/etch-a-sketch/)
 * [Andrea Maiolo's Solution](https://github.com/andrea-maiolo/etch-a-sketch) - [View in Browser](https://andrea-maiolo.github.io/etch-a-sketch/)
 </details>
