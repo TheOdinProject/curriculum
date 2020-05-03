@@ -42,4 +42,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [jdonahue135's Solution](https://github.com/jdonahue135/golf_store) - [View in Browser](https://quiet-reaches-49920.herokuapp.com/)
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/odin-inventory-application) - [View in Browser](https://odin-inventory-application.herokuapp.com/)
 - [Aron's Solution](https://github.com/aronfischer/mern_inventory_project) - [View in Browser](https://aronfischer.github.io/mern_inventory_project/)
+- [Tayfun Sur's Solution](https://github.com/0xtaf/inventory-app) - [View in Browser](https://thawing-ocean-46751.herokuapp.com/)
 </details>
