@@ -41,11 +41,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+  
 - [HD's Solution](https://github.com/hxnrydavid/rock-paper-scissors)
 - [Michan's Solution](https://github.com/Michan0628/rock-paper-scissors)
 - [SnegoWed's Solution](https://github.com/SnegoWed/ROCK-PAPER-SCISSORS)
 - [Awry Oyster's Solution](https://github.com/awryoyster/rock-paper-scissors)
 - [deen85's Solution](https://github.com/deen85/paper-rock-scissors)
+  https://github.com/mohamednasr20/rock-paper-scissors.git
 - [Ruben-Ruiz's Solution](https://github.com/ruben-ruiz/rock-paper-scissors) - [View in Browser](https://ruben-ruiz.github.io/rock-paper-scissors/)
 - [Jared's Solution](https://github.com/jaredaritter/rock-paper-scissors)
 - [devcsantos' Solution](https://github.com/devcsantos/rock-paper-scissors) - [View in Browser](https://devcsantos.github.io/rock-paper-scissors/)
@@ -60,6 +62,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cristian's Solution](https://github.com/cristianCeamatu/rock-paper-scissors) - [View in Browser](https://cristianceamatu.github.io/rock-paper-scissors/)
 - [SometimesTheFur's Solution](https://github.com/SometimesTheFur/rock-paper-scissors) 
 - [Dani Djaoen's Solution](https://github.com/DaniDjaoen/Rock-Paper-Scissors) - [View in Browser](https://danidjaoen.github.io/Rock-Paper-Scissors/)
+
 - [m1ch3l99's solution](https://github.com/m1ch3l99/RPS)
 - [Sam Eff's Solution](https://github.com/SamEff/RockPaperScissors)
 - [RannoL's Solution](https://github.com/RannoL/rock-paper-scissors)
