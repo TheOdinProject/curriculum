@@ -21,21 +21,9 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    
 1. Set up an HTML skeleton inside of `dist/index.html` with single `<div id="content">`.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. Inside of `src/index.js` write a simple console.log or alert statement and then run `webpack` (or `npx webpack` for newer npm versions). Load up `dist/index.html` in a browser to make sure everything is working correctly.
-
-    - Quick tip #2: if you run `webpack --watch` (or `npx webpack --watch` as above) you will not have to rerun webpack every time you make a change.
-=======
 1. Inside of `src/index.js` write a simple console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
 
     - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
->>>>>>> 88c56b4ccac3e3e0b2efb37e4d619f2674b87a9a
-=======
-1. Inside of `src/index.js` write a simple console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
-
-    - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
->>>>>>> 7a95248d41a3e4368cec99f0d3d2fd2cbdfb0c83
    
 1. Create a bare-bones homepage for a restaurant. Include an image, headline, and some copy about how wonderful the restaurant is. It’s okay to hard-code these into the HTML for now just to see how they look on the page.
 
@@ -59,20 +47,14 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line!`
-<<<<<<< HEAD
+- Add your solution below this line!
+- [AJMcDee's Solution](github.com/AJMcDee/restaurantExample) - [View in Browser](https://ajmcdee.github.io/restaurantExample/)
 - [Lexolf's Solution](https://github.com/lexolf/restaurant-page) - [View in Browser](https://lexolf.github.io/restaurant-page/)
 - [Andrea's Solution](https://github.com/fioriandrea/restaurant) - [View in Browser](https://fioriandrea.github.io/restaurant/)
 - [Arf65's Solution](https://github.com/arf65/restaurant-homepage) - [View in Browser](https://arf65.github.io/restaurant-homepage/)
 - [Denis Oluka's Solution](https://github.com/OlukaDenis/restaurant-page) - [View in Browser](https://dennys.netlify.app/)
-=======
-<<<<<<< HEAD
-- [AJMcDee's Solution](github.com/AJMcDee/restaurantExample) - [View in Browser](https://ajmcdee.github.io/restaurantExample/) 
-=======
->>>>>>> be0ade3a1c7fe4bcc3682b53f99f13cc6fffb5f2
 - [Sherman's Solution](https://github.com/shermansjliu/project-restaurant-page) - [View in Browser](https://shermansjliu.github.io/project-restaurant-page/)
 - [jdonahhue135's Solution](https://github.com/jdonahue135/restaurant-page) - [View in Browser](https://jdonahue135.github.io/restaurant-page/)
->>>>>>> master
 - [jc's Solution](https://github.com/avazkhan2808/project-restaurant) - [View in Browser](https://avazkhan2808.github.io/project-restaurant/)
 - [Nick Haras' Solution](https://github.com/macnick/restaurant-page) - [View in Browser](https://macnick.github.io/Restaurant-Page/)
 - [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/restaurant-page) - [View in Browser](https://muhymenulhaque.github.io/restaurant-page/)
