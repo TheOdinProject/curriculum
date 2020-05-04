@@ -21,6 +21,7 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/portfolio) - [View in Browser](https://www.braxtonlemmon.com/)
 * [Ahmad Ali's Solution - Live website](https://www.ahmad-ali.co.uk/)
 * [Hammad Ahmed's Solution](https://github.com/shammadahmed/shammadahmed.github.io) - [View in Browser](https://shammadahmed.github.io/)
 * [rvalentin1010's Solution](https://github.com/rvalentin1010/rvalentin1010.github.io) - [View in Browser](https://rvalentin1010.github.io/)
