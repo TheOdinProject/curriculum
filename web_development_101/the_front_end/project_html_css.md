@@ -3310,6 +3310,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Culinarytracker's Solution (Easy)](https://github.com/Culinarytracker/google-homepage) - [View in Browser](https://Culinarytracker.github.io/google-homepage/)
 * [eckoman33's Solution (Easy)](https://eckoman33.github.io/google-homepage) - [View in Browser](https://eckoman33.github.io/google-homepage/)
 * [Pipa's Solution (Easy)](https://pipa10.github.io/googleHomepage/) - [View in Browser](https://pipa10.github.io/googleHomepage/)
+* [Kmt5422's Solution (Both)](https://github.com/kmt5422/google-homepage-clone) - [View in Browser](https://kmt5422.github.io/google-homepage-clone/)
 </details>
 
 ### Additional Resources
