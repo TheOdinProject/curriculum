@@ -1530,4 +1530,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Peuchen's Solution](https://github.com/Peuchen/rock-paper-scissors)
 - [Alejaldo's Solution](https://github.com/Alejaldo/suefa)
 - [Demian's Solution](https://github.com/Demian31/RPS)
+- [Foolmonkey's Solution](https://github.com/foolmonkey/rock-paper-scissors)
 </details>
