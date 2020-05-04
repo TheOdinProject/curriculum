@@ -75,4 +75,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/basic-information-site)
 - [0xtaf's Solution](https://github.com/0xtaf/basic-informational-site)
 - [Scott Bowles's Solution](https://github.com/scottBowles/node-simple-informational-site) - [View in Browser](https://node-simple-informational-site--scottbowles.repl.co)
+- [Carlos Del Real's Solution](https://github.com/carloshdelreal/simple-node-website) - [View in Browser](https://repl.it/@carloshdelreal/simple-node-website-2)
+- [Hamohuh's Solution](https://github.com/hamohuh/simple-node) - [View in Browser](https://TragicCaringCustomization--five-nine.repl.co)
 </details>

@@ -47,7 +47,14 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line!`
+- Add your solution below this line!
+- [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/restaurant-page) - [View in Browser](https://carldoleolundgren.github.io/restaurant-page/)
+- [Zayeer's Solution](https://github.com/Zayeer/restaurant-page) - [View in Browser](https://zayeer.github.io/restaurant-page/#)
+- [TunzTunzTunz's Solution](https://github.com/tunztunztunz/restaraunt-exercise) - [View in Browser](https://tunztunztunz.github.io/restaraunt-exercise/)
+- [AJMcDee's Solution](github.com/AJMcDee/restaurantExample) - [View in Browser](https://ajmcdee.github.io/restaurantExample/)
+- [Lexolf's Solution](https://github.com/lexolf/restaurant-page) - [View in Browser](https://lexolf.github.io/restaurant-page/)
+- [Andrea's Solution](https://github.com/fioriandrea/restaurant) - [View in Browser](https://fioriandrea.github.io/restaurant/)
+- [Arf65's Solution](https://github.com/arf65/restaurant-homepage) - [View in Browser](https://arf65.github.io/restaurant-homepage/)
 - [Denis Oluka's Solution](https://github.com/OlukaDenis/restaurant-page) - [View in Browser](https://dennys.netlify.app/)
 - [Sherman's Solution](https://github.com/shermansjliu/project-restaurant-page) - [View in Browser](https://shermansjliu.github.io/project-restaurant-page/)
 - [jdonahhue135's Solution](https://github.com/jdonahue135/restaurant-page) - [View in Browser](https://jdonahue135.github.io/restaurant-page/)
