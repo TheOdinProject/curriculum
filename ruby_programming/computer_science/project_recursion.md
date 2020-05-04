@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/blob/master/fibonacci.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin_ruby_recursion/blob/master/fibonacci.rb)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/fibonacci/fibonacci.rb)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/odin_cs_projects/blob/master/recursion/fibonacci.rb)
@@ -230,6 +231,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/fib/blob/master/fibb.rb)
 * [Matt M's Solution](https://github.com/MattMiller1989/Fibonacci)
 * [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/fib.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/fibonacci)
 
 
 </details>
@@ -263,6 +265,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/blob/master/merge_sort.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin_ruby_recursion/blob/master/merge_sort.rb)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/merge_sort/merge_sort.rb)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/odin_cs_projects/blob/master/recursion/merge_sort.rb)
@@ -470,6 +473,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/merge_sort.rb)
 * [Timework's Solution](https://github.com/Timework/merge/blob/master/merge.rb)
 * [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/merge_sort.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/merge_sort)
 </details>
 
 ### Additional Resources

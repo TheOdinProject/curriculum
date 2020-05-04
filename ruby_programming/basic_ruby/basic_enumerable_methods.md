@@ -99,7 +99,7 @@ end
 #=> [1, 2]
 ~~~
 
-`#each` also works for hashes with a bit of added functionality. By default, each iteraction will yield both the key and value individually or together (as an array) to the block depending on how you define your block variable:
+`#each` also works for hashes with a bit of added functionality. By default, each iteration will yield both the key and value individually or together (as an array) to the block depending on how you define your block variable:
 
 ~~~ruby
 my_hash = { "one" => 1, "two" => 2 }
