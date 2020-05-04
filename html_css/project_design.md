@@ -97,6 +97,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Scott McKell's Solution](https://github.com/zottwickel/heatmap) - [View in Browser](https://zottwickel.github.io/heatmap/)
 * [Aron's  Solution](https://github.com/aronfischer/grayscale-heat-map) - [View in Browser](https://aronfischer.github.io/grayscale-heat-map/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-design-teardown-project) - [View in Browser](https://adrieltrigger.github.io/top-design-teardown-project/)
+* [Veskenazi's Solution](https://github.com/veskenazi/design-teardown) - [View in Browser](https://veskenazi.github.io/design-teardown/)
 </details>
 
 ### Additional Resources

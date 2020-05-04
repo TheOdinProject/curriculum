@@ -41,11 +41,17 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Big Floating Death Panda's Solution](https://github.com/BigFloatingDeathPanda/rock-paper-scissors) - [View in Browser](https://bigfloatingdeathpanda.github.io/rock-paper-scissors/)
+- [Lee Massey's Solution](https://github.com/LeeMassey/rock_paper_scissors)
+- [Dean Oh's Solution](https://github.com/JuicyMelon/RPC)
+- [Nspnosa's Solution](https://github.com/Nspnosa/rock-paper-scissors) - [View in Browser](https://nspnosa.github.io/rock-paper-scissors/)
+- [HD's Solution](https://github.com/hxnrydavid/rock-paper-scissors)
 - [Michan's Solution](https://github.com/Michan0628/rock-paper-scissors)
 - [SnegoWed's Solution](https://github.com/SnegoWed/ROCK-PAPER-SCISSORS)
 - [Awry Oyster's Solution](https://github.com/awryoyster/rock-paper-scissors)
 - [deen85's Solution](https://github.com/deen85/paper-rock-scissors)
 - [Ruben-Ruiz's Solution](https://github.com/ruben-ruiz/rock-paper-scissors) - [View in Browser](https://ruben-ruiz.github.io/rock-paper-scissors/)
+- [mohamednasr20's Solution](https://github.com/mohamednasr20/rock-paper-scissors)
 - [Jared's Solution](https://github.com/jaredaritter/rock-paper-scissors)
 - [devcsantos' Solution](https://github.com/devcsantos/rock-paper-scissors) - [View in Browser](https://devcsantos.github.io/rock-paper-scissors/)
 - [Duopica's Solution](https://github.com/duopica/rock-paper-scissors) - [View in Browser](https://duopica.github.io/rock-paper-scissors/) 
@@ -1515,10 +1521,15 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ebergson's Solution](https://github.com/ebergson/rock-paper-scissors)
 - [Tegristh's Solution](https://github.com/Tegristh/RPS)
 - [jingjing142's Solution](https://github.com/jingjing142/rock-paper-scissors) - [View in Browser](https://jingjing142.github.io/rock-paper-scissors/)
+- [Jonathan Fallas's Solution](https://github.com/Elfjhon/RockPaper) - [View in Browser](https://elfjhon.github.io/RockPaper)
 - [Dyrits's Pokemon Version Solution](https://github.com/Dyrits/WEBDEV-TOP-PRB) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PRB) - [CodePen](https://codepen.io/Dyrits/full/GRpMOQg)
 - [harisbegic's Solution](https://github.com/harisbegic/rock-paper-scissors)
 - [evanakelly's Solution](https://github.com/evanakelly/rock-paper-scissors)
 - [mangakiko's Solution](https://github.com/magakiko/rock-paper-scissors)
 - [alxmkh's Solution](https://github.com/alxmkh/rock_paper_scissors) - [View in Browser](https://alxmkh.github.io/rock_paper_scissors/)
 - [Peuchen's Solution](https://github.com/Peuchen/rock-paper-scissors)
+- [Alejaldo's Solution](https://github.com/Alejaldo/suefa)
+- [Demian's Solution](https://github.com/Demian31/RPS)
+- [Foolmonkey's Solution](https://github.com/foolmonkey/rock-paper-scissors)
+- [Tristan Carey's solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
 </details>

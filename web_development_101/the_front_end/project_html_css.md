@@ -93,10 +93,12 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Aaron's Solution (Difficult)](https://github.com/Aaron-McD/google-search-result) - [View in Browser](https://aaron-mcd.github.io/google-search-result/)
+* [Aaron's Solution (Easy)](https://github.com/Aaron-McD/google-homepage) - [View in Browser](https://aaron-mcd.github.io/google-homepage/)
 * [Dean Oh's Solution (Easy)](https://github.com/JuicyMelon/google-demo) - [View in Browser](https://juicymelon.github.io/google-demo/)
-* [Neeraj Gupta's Solution (Difficult)](https://github.com/neerajgupta041/google-search-page-hard) - [View In Browser](https://neerajgupta041.github.io/google-search-page-hard/)
-* [LornaP's Solution (Easy)](https://github.com/LornaP5/google-homepage) - [View In Browser](https://LornaP5.github.io/google-homepage/)
-* [Isale Brian's Solution (Easy)](https://github.com/BryanAim/google-homepage) - [View In Browser](https://isalebryan.me/google-homepage)
+* [Neeraj Gupta's Solution (Difficult)](https://github.com/neerajgupta041/google-search-page-hard) - [View in Browser](https://neerajgupta041.github.io/google-search-page-hard/)
+* [LornaP's Solution (Easy)](https://github.com/LornaP5/google-homepage) - [View in Browser](https://LornaP5.github.io/google-homepage/)
+* [Isale Brian's Solution (Easy)](https://github.com/BryanAim/google-homepage) - [View in Browser](https://isalebryan.me/google-homepage)
 * [RyanAmeri's Solution (Easy)](https://github.com/RyanAmeri/google-homepage) - [View in Browser](https://ryanameri.github.io/google-homepage//)
 * [Rahul Naik's Solution (Easy)](https://github.com/the-goan-guy/google-homepage) - [View in Browser](https://the-goan-guy.github.io/google-homepage/)
 * [lalfiler's Solution (Easy)](https://github.com/Korak-997/google-website-test) - [View in Browser](https://korak-997.github.io/google-website-test/)
@@ -3302,7 +3304,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [FrMazzo's Solution (Easy)](https://github.com/FrMazzo/google-homepage) - [View in Browser](https://frmazzo.github.io/google-homepage/)
 * [pabloitzeder's Solution (Easy)](https://github.com/pabloitzeder/google-homepage) - [View in Browser](https://pabloitzeder.github.io/google-homepage/)
 * [Maheswar's Solution (Easy)](https://github.com/mahesh12393/google-homepage) - [View in Browser](https://mahesh12393.github.io/google-homepage/)
-* [Andrew S's Solution (Easy)](https://github.com/apsip/google-homepage) 
+* [Andrew S's Solution (Easy)](https://github.com/apsip/google-homepage)
+* [zg912's Solution (Easy)](https://github.com/zg912/google-homepage) - [View in Browser](https://zg912.github.io/google-homepage/)
+* [dissChris97's Solution (Easy)](https://github.com/dissChris97/google_homepage) - [View in Browser](https://disschris97.github.io/google_homepage/)
+* [Culinarytracker's Solution (Easy)](https://github.com/Culinarytracker/google-homepage) - [View in Browser](https://Culinarytracker.github.io/google-homepage/)
+* [eckoman33's Solution (Easy)](https://eckoman33.github.io/google-homepage) - [View in Browser](https://eckoman33.github.io/google-homepage/)
+* [Pipa's Solution (Easy)](https://pipa10.github.io/googleHomepage/) - [View in Browser](https://pipa10.github.io/googleHomepage/)
 </details>
 
 ### Additional Resources
