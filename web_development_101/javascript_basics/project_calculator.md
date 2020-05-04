@@ -45,6 +45,18 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [sahion's Solution](https://github.com/sahion/calculator) - [View in Browser](https://sahion.github.io/calculator/)
+- [Chun's Solution](https://github.com/ashchunfai/calculator) - [View in Browser](https://ashchunfai.github.io/calculator)
+- [Justasdap's Solution](https://github.com/JustasDap/calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/JustasDap/calculator/blob/master/index.html)
+- [Cristian's Solution](https://github.com/cristianCeamatu/jscalculator) - [View in Browser](https://cristianceamatu.github.io/jscalculator/)
+- [hieu-ng's Solution](https://github.com/hieu-ng/odin/tree/master/Calculator%20project)
+- [Nathan's Solution](https://github.com/NathanJReidy/Calculator) - [View in Browser](https://nathanjreidy.github.io/Calculator/)
+- [stefank-29's Solution](https://github.com/stefank-29/Calculator) - [View in Browser](https://stefank-29.github.io/Calculator/)
+- [Aaron Contreras's Solution](https://github.com/aaron-contreras/calculator) - [View in Browser](https://aaron-contreras.github.io/calculator)
+- [AlexBoonDev's Solution](https://github.com/AlexBoonDev/Calculator-2) - [View in Browser](https://alexboondev.github.io/Calculator-2/)
+- [qazaqpyn's Solution](https://github.com/qazaqpyn/calculator) - [View in Browser](https://qazaqpyn.github.io/calculator/index.html)
+- [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/calculator) - [View in Browser](https://kaliberpoziomka.github.io/calculator/)
+- [Platyphyllum's Solution](https://github.com/marboleda/calculator) - [View in Browser](https://marboleda.github.io/calculator/)
 - [andrewjh271's Solution](https://github.com/andrewjh271/calculator) - [View in Browser](https://andrewjh271.github.io/calculator/)
 - [Matt Fergoda's Solution](https://github.com/mattfergoda/calculator) - [View in Browser](https://mattfergoda.github.io/calculator/)
 - [Davic64's Solution](https://github.com/davic64/calculator) - [View in Browser](https://davic64.github.io/calculator/)
@@ -617,6 +629,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joe Thompson's Solution](https://github.com/jlthompso/calculator) - [View in Browser](https://jlthompso.github.io/calculator/)
 - [Matt Miller Solution](https://mattmiller1989.github.io/Calculator/) - [View in Browser](https://mattmiller1989.github.io/Calculator/)
 - [Lexolf's Solution](https://github.com/lexolf/calculator) - [View in Browser](https://lexolf.github.io/calculator/)
+- [thorney29's Solution](https://github.com/thorney29/the_odin_project/blob/master/calculator/) - [View in Browser](https://thorney29.github.io/the_odin_project/calculator/)
 - [OmerGronich's Solution](https://github.com/OmerGronich/calculator) - [View in Browser](https://omergronich.github.io/calculator/)
 - [kbrdsk's Solution](https://github.com/kbrdsk/calculator) - [View in Browser](https://kbrdsk.github.io/calculator/)
 - [meganeb-afk's Solution](https://github.com/meganeb-afk/Javascript-Calculator) - [View in Browser](https://meganeb-afk.github.io/Javascript-Calculator)
@@ -634,4 +647,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [MichelleP1’s Solution](https://github.com/MichelleP1/calculator) - [View in Browser](http://michellepeters.me/calculator/)
 - [OchsaufLerchenau’s Solution](https://github.com/OchsaufLerchenau/Calculator) - [View in Browser](https://ochsauflerchenau.github.io/Calculator/)
 - [Dennis Kenneth’s Solution](https://github.com/denniskenneth/Calculator) - [View in Browser](https://denniskenneth.github.io/Calculator/)
+- [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/calculator) - [View in Browser](https://ansellmaximilian.github.io/calculator/)
+- [Wil Goolsby's Solution](https://github.com/wgoolsby/calculator) - [View in Browser](https://wilgoolsby.com/calculator/)
+- [Jonathan Fallas's Solution](https://github.com/Elfjhon/calculator) - [View in Browser](https://elfjhon.github.io/calculator/)
 </details>
