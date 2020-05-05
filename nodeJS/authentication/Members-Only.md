@@ -38,6 +38,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Brian Tuju's solution](https://github.com/briantuju/op-members-only) - [View in browser](https://op-members-only.briantuju.repl.co)
 * [Jdonahue135's solution](https://github.com/jdonahue135/members-only) - [View in browser](https://desolate-reef-04961.herokuapp.com/)
 * [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-members-only) - [View in browser](https://odin-members-only.herokuapp.com/)
+* [Halkim's solution](https://github.com/halkim44/members_only) - [View in browser](https://aqueous-meadow-62293.herokuapp.com/)
 </details>
 
 

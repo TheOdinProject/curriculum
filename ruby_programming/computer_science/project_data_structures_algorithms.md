@@ -52,6 +52,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [pudu87's Solution](https://github.com/pudu87/binary-search-trees)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.binary_search_trees)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/binary_tree)
 * [leetie's Solution](https://github.com/leetie/Knights_travails)
@@ -217,8 +218,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/binary_search_tree)
 * [Rob Dulabon's Solution](https://github.com/RDulabon/Binary_Search_Tree)
 * [Timework's Solution](https://github.com/Timework/search_tree/blob/master/tree.rb)
+* [Cinthia's Solution](https://github.com/cinthiagodoi/binary_search_tree)
 * [Matt M's Solution](https://github.com/MattMiller1989/Binary-Tree)
-
 </details>
 
 ### Project 2: Knight's Travails
@@ -265,6 +266,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [pudu87's Solution](https://github.com/pudu87/knights-travails)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.knight-s_travails)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/data-structure_knight_travail)
 * [jodokusquack's Solution](https://github.com/jodokusquack/knights_travails)

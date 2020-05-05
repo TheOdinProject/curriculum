@@ -40,6 +40,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [MarcoDSilva's Solution(w/localStorage)](https://github.com/MarcoDSilva/Library-JS) - [View in Browser](https://marcodsilva.github.io/Library-JS/)
+- [Diane998's Solution(Firebase storage)](https://github.com/Diane998/library) - [View in Browser](https://diane998.github.io/library/)
+- [vedvardhan 's Solution](https://vedvardhan.github.io/Library/) - [View in Browser](https://vedvardhan.github.io/Library) 
+- [justonhart's Solution](https://github.com/justonhart/OdinLibrary) - [View in Browser](https://justonh.art/OdinLibrary)
 - [Vedant Shetty's Solution](https://github.com/vedantshetty/ReadingList) - [View in Browser](https://vedantshetty.github.io/ReadingList/)
 - [Denis Oluka's Solution](https://github.com/OlukaDenis/library) - [View in Browser](https://raw.githack.com/kalavhan/library/development/index.html)
 - [TunzTunzTunz's Solution](https://github.com/tunztunztunz/My-Reading-List) - [View in Browser](https://tunztunztunz.github.io/My-Reading-List/)
@@ -258,5 +262,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Lexolf's Solution](https://github.com/lexolf/library/) - [View in Browser](https://lexolf.github.io/library/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/library) - [View in Browser](https://jlthompso.github.io/library/)
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/library) - [View in Browser](https://fortypercenttitanium.github.io/library/)
+- [JCoen's Solution (w/localStorage)](https://github.com/J-coen/Odin-library-project) - [View in Browser](https://j-coen.github.io/Odin-library-project/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/library) - [View in Browser](https://ozansozuozgit.github.io/library/)
+- [kbrdsk's Solution (w/firebase)](https://github.com/kbrdsk/library) - [View in Browser](https://kbrdsk.github.io/library/)
 </details>
