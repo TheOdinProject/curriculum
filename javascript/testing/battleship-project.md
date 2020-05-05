@@ -42,6 +42,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kevin Vuong's solution](https://github.com/fffear/battleship) - [View in Browser](https://fffear.github.io/battleship/)
 - [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/battleships) - [View in Browser](https://kikupiku.github.io/battleships/)
 - [Disco Trooper's solution](https://github.com/disco-trooper/battleship) - [View in Browser](https://disco-trooper.github.io/battleship/)
 - [Julio's solution](https://github.com/julio22b/battleship) - [View in Browser](https://julio22b.github.io/battleship/)
