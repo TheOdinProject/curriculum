@@ -1539,5 +1539,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Avian_Eli's Solution](https://github.com/Eli-b-good/rock-paper-scissors)
 - [Tristan Carey's Solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
 - [Tai's Solution](https://github.com/kimtaisuk/rock-paper-scissor)
+- [mangakiko's Solution](https://github.com/magakiko/rock-paper-scissors)
 </details>
 
