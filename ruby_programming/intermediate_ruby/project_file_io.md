@@ -260,4 +260,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/Ruby-Hangman---TOP/blob/master/hangman.rb)
 * [Toberoni's Solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/hangman)
 * [Jay Conner's Solution](https://github.com/cleve703/hangman) - [Play on Repl.it](https://Hangman.cleve703.repl.run)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Hangman/hangman.rb)
 </details>
