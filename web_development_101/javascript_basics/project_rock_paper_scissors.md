@@ -1521,9 +1521,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ebergson's Solution](https://github.com/ebergson/rock-paper-scissors)
 - [Tegristh's Solution](https://github.com/Tegristh/RPS)
 - [jingjing142's Solution](https://github.com/jingjing142/rock-paper-scissors) - [View in Browser](https://jingjing142.github.io/rock-paper-scissors/)
-<<<<<<< HEAD
-- [Tai's Solution](https://github.com/kimtaisuk/rock-paper-scissor)
-=======
 - [Jonathan Fallas's Solution](https://github.com/Elfjhon/RockPaper) - [View in Browser](https://elfjhon.github.io/RockPaper)
 - [Dyrits's Pokemon Version Solution](https://github.com/Dyrits/WEBDEV-TOP-PRB) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PRB) - [CodePen](https://codepen.io/Dyrits/full/GRpMOQg)
 - [harisbegic's Solution](https://github.com/harisbegic/rock-paper-scissors)
@@ -1535,5 +1532,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Demian's Solution](https://github.com/Demian31/RPS)
 - [Foolmonkey's Solution](https://github.com/foolmonkey/rock-paper-scissors)
 - [Tristan Carey's solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
->>>>>>> 1d322060b518886cab407b8d6b0659f4d355e364
+- [Tai's Solution](https://github.com/kimtaisuk/rock-paper-scissor)
 </details>
