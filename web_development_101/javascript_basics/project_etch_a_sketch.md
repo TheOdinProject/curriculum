@@ -1,7 +1,8 @@
 ### Introduction
-In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
-This project should _not_ be easy for you.  You'll probably have to Google frequently to get the right JavaScript methods and CSS to use - in fact, that's the point!  You _can_ build this using the tools that you have already learned and there are plenty of resources on the net for learning stuff that we haven't covered yet if you decide you need it.  We'll walk you through the basic steps, but it will be up to you to actually implement them.
+In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills. You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
+
+This project should _not_ be easy for you. You'll probably have to Google frequently to get the right JavaScript methods and CSS to use - in fact, that's the point! You _can_ build this using the tools that you have already learned and there are plenty of resources on the net for learning stuff that we haven't covered yet if you decide you need it. We'll walk you through the basic steps, but it will be up to you to actually implement them.
 
 If you get totally stuck drop by the chatroom.. someone will be there to point you in the right direction.
 
@@ -37,18 +38,63 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 </div>
 
 ### Student Solutions
+
 Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_etch_a_sketch.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+* [devcsantos' Solution](https://github.com/devcsantos/etch-a-sketch) - [View in Browser](https://devcsantos.github.io/etch-a-sketch/)
+* [James V's Solution](https://github.com/jamesspearsv/project_etch-a-sketch) - [View in Browser](https://jamesspearsv.github.io/project_etch-a-sketch/)
+* [Chun's Solution](https://github.com/ashchunfai/etch-a-sketch) - [View in Browser](https://ashchunfai.github.io/etch-a-sketch/)
+* [Kevin's Solution](https://github.com/Kevlar2222/Etch-a-Sketch) - [View in Browser](https://kevlar2222.github.io/Etch-a-Sketch/)
+* [rjpmagalang's Solution](https://github.com/rjpmagalang/etch-a-sketch) - [View in Browser](https://rjpmagalang.github.io/etch-a-sketch/)
+* [syeo-1's Solution](https://github.com/syeo-1/etch-a-sketch) - [View in Browser](https://syeo-1.github.io/etch-a-sketch/)
+* [sahion's Solution](https://github.com/sahion/Etch-a-Sketch) - [View in Browser](https://sahion.github.io/Etch-a-Sketch/)
+* [Hauiiuah's Solution](https://github.com/Hauiiuah/etch-a-sketch) - [View in Browser](https://hauiiuah.github.io/etch-a-sketch/)
+* [ThatOldChap's Solution](https://github.com/ThatOldChap/Etch-a-Sketch) - [View in Browser](https://thatoldchap.github.io/Etch-a-Sketch/)
+* [Tomodi98's Solution](https://github.com/Tomodi98/etch-a-sketch) - [View in Browser](https://tomodi98.github.io/etch-a-sketch/)
+* [overdice Solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Etch-A-Sketch) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Etch-A-Sketch/index.html)
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/etch-a-sketch) - [View in Browser](https://andrsrz.github.io/etch-a-sketch/)
+* [Cristian's Solution](https://github.com/cristianCeamatu/etch-a-sketch) - [View in Browser](https://cristianceamatu.github.io/etch-a-sketch/)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/Etch-a-Sketch) - [View in Browser](https://qazaqpyn.github.io/Etch-a-Sketch/)
+* [leddins's Solution](https://github.com/leddins/pixel-doodle) - [View in Browser](https://leddins.github.io/pixel-doodle/)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/sketchy) - [View in Browser](https://chargrilledchook.github.io/sketchy/)
+* [kelem7's Solution](https://github.com/kelem7/etch-a-sketch) - [View in Browser](https://kelem7.github.io/etch-a-sketch/)
+* [hieu-ng's Solution](https://github.com/hieu-ng/etch-a-sketch/) - [View in Browser](https://hieu-ng.github.io/etch-a-sketch/)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/etch-a-sketch/) - [View in Browser](https://aaron-contreras.github.io/etch-a-sketch/)
+* [Larry's Solution](https://github.com/ldbert/Etch-a-Sketch) - [View in Browser](https://ldbert.github.io/Etch-a-Sketch/)
+* [Platyphyllum's Solution](https://github.com/marboleda/etch-a-sketch) - [View in Browser](https://marboleda.github.io/etch-a-sketch/)
+* [andrewjh271's Solution](https://github.com/andrewjh271/etch-a-sketch) - [View in Browser](https://andrewjh271.github.io/etch-a-sketch/)
+* [Lam's Solution](https://github.com/lamdayap/etch-a-sketch) - [View in Browser](https://lamdayap.github.io/etch-a-sketch/)
+* [Afzaman's Solution](https://github.com/afzaman/etch-a-sketch) - [View in Browser](https://afzaman.github.io/etch-a-sketch/)
+* [justonhart's Solution](https://github.com/justonhart/Etch-a-Sketch) - [View in Browser](https://justonh.art/Etch-a-Sketch/)
+* [gurucrunch's Solution](https://github.com/gurucrunch/sketchy_sketch) - [View in Browser](https://gurucrunch.github.io/sketchy_sketch/)
+* [Nick DiPreta's Solution](https://github.com/NickDiPreta/etch-a-sketch) - [View in Browser](https://nickdipreta.github.io/etch-a-sketch/)
+* [justasdap Solution](https://github.com/JustasDap/etchasketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/JustasDap/etchasketch/blob/master/index.html)
+* [Harold's Solution](https://github.com/harold-guido/etch-a-sketch) - [View in Browser](https://harold-guido.github.io/etch-a-sketch/)
+* [iamjethrooo's Solution](https://github.com/iamjethrooo/etch-a-sketch) - [View in Browser](https://iamjethrooo.github.io/etch-a-sketch/)
+* [Joewebsta's Solution](https://github.com/Joewebsta/etch-a-sketch) - [View in Browser](https://joewebsta.github.io/etch-a-sketch/)
+* [Diego's Solution](https://github.com/dhna32/Project--Etch-a-Sketch) - [View in Browser](https://dhna32.github.io/Project--Etch-a-Sketch/)
+* [Nathan's Solution](https://github.com/NathanJReidy/ETCH-A-SKETCH) - [View in Browser](https://nathanjreidy.github.io/ETCH-A-SKETCH/)
+* [AmirHossein's Solution](https://github.com/AmirHosseinParsapour/etch-a-sketch) - [View in Browser](https://amirhosseinparsapour.github.io/etch-a-sketch/)
+* [Matt Fergoda's Solution](https://github.com/mattfergoda/etch-a-sketch) - [View in Browser](https://mattfergoda.github.io/etch-a-sketch/)
+* [rpllpr's Solution](https://github.com/rpllpr/etch-a-sketch) - [View in Browser](https://rpllpr.github.io/etch-a-sketch/)
+* [jvelardis Solution](https://github.com/jvelardi/etchasketch) - [View in Browser](https://jvelardi.github.io/etchasketch/)
+* [Shubham's Solution](https://github.com/mubshah/etch-a-sketch) - [View in Browser](https://mubshah.github.io/etch-a-sketch/)
+* [eugeneGrossman's Solution](https://github.com/eugenegrossman/sketchy) - [View in Browser](https://eugenegrossman.github.io/sketchy/)
+* [Alex Schwartz's Solution](https://github.com/ofthesoul/etchasketch) - [View in Browser](https://ofthesoul.github.io/etchasketch/)
+* [ryannathanwilson's Solution](https://github.com/ryannathanwilson/Etch-A-Sketch) - [View in Browser](https://ryannathanwilson.github.io/Etch-A-Sketch/)
+* [keifererikson's Solution](https://github.com/keifererikson/etch-a-sketch) - [View in Browser](https://keifererikson.github.io/etch-a-sketch/)
+* [ScotttP's Solution](https://github.com/ScotttP/etch-a-sketch) - [View in Browser](https://scotttp.github.io/etch-a-sketch/)
 * [John's Solution](https://github.com/jm-staana/etch-a-sketch) - [View in Browser](https://jm-staana.github.io/etch-a-sketch/)
 * [BraveStone9's Solution](https://github.com/BraveStone9/Etch-A-Sketch_with_sound) - [View in Browser](https://bravestone9.github.io/Etch-A-Sketch_with_sound/EtchSketch.html)
 * [tomigm's Solution](https://github.com/tomigm/etch_a_sketch) - [View in Browser](https://tomigm.github.io/etch_a_sketch/)
 * [simmonsth's Solution](https://github.com/simmonsth/odin_sketchpad) - [View in Browser](https://simmonsth.github.io/odin_sketchpad/)
 * [Johongirr's Solution](https://github.com/Johongirr/etch-a-sketch/tree/master) - [View in Browser](https://johongirr.github.io/etch-a-sketch/)
-* [rafael-cagliari's Solution](https://github.com/rafael-cagliari/etch-a-sketch) 
+* [rafael-cagliari's Solution](https://github.com/rafael-cagliari/etch-a-sketch)
 * [Lcdevi's Solution](https://github.com/Lcdevi/etch-a-sketch) - [View in Browser](https://lcdevi.github.io/etch-a-sketch/)
 * [powei94's Solution](https://github.com/powei94/etch_a_sketch) - [View in Browser](https://powei94.github.io/etch_a_sketch/)
 * [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/etchasketch) - [View in Browser](https://aaronhalstonlee.github.io/etchasketch/)
@@ -62,7 +108,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [NotNullDev's Solution](https://github.com/NotNullDev/Etch-a-Sketch) - [View in Browser](https://notnulldev.github.io/Etch-a-Sketch/)
 * [jdonahue135's Solution](https://github.com/jdonahue135/Etch-a-Sketch) - [View in Browser](https://jdonahue135.github.io/Etch-a-Sketch/)
 * [Parishrut's Solution](https://github.com/parish09/ETCH-A-SKETCH) - [View in Browser](https://parish09.github.io/ETCH-A-SKETCH/)
-* [iStayGrizzly's Solution](https://github.com/iStayGrizzly/Etch-A-Sketch) - [View in Browser](https://istaygrizzly.github.io/Etch-A-Sketch/)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/Etch-A-Sketch) - [View in Browser](https://saul-good-homie.github.io/Etch-A-Sketch/)
 * [ray0h's Solution](https://github.com/ray0h/TheOdinProjectExercises/tree/master/etch_sketch) - [View in Browser](https://ray0h.github.io/etch_sketch)
 * [AJMcDee's Solution](https://github.com/AJMcDee/etchASketch) - [View in Browser](https://ajmcdee.github.io/etchASketch/)
 * [dphtran501's Solution](https://github.com/dphtran501/etch-a-sketch) - [View in Browser](https://dphtran501.github.io/etch-a-sketch/)
@@ -142,6 +188,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [are92592's Solution](https://github.com/are92592/EAS) - [View in Browser](https://are92592.github.io/EAS/)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/etch-a-sketch) - [View in Browser](https://brandonricharda.github.io/etch-a-sketch/)
 * [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
+* [enzoperce35's Solution](https://github.com/enzoperce35/Etch_a_Sketch) - [View in Browser](https://enzoperce35.github.io/Etch_a_Sketch/)
 * [developmentgb's Solution](https://github.com/DevelopmentGB/Etch_a_Sketch) - [View in Browser](https://developmentgb.github.io/Etch_a_Sketch/)
 * [Rachel's Solution](https://github.com/rlmoser99/etch-a-sketch) - [View in Browser](https://rlmoser99.github.io/etch-a-sketch/)
 * [nabeel-h's Solution](https://github.com/nabeel-h/etch-a-sketch) - [View in Browser](https://nabeel-h.github.io/etch-a-sketch/)
@@ -709,6 +756,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/etch_a_sketch) - [View in Browser](https://mrryanfloyd.github.io/etch_a_sketch/)
 * [Martink-rsa's Solution](https://github.com/martink-rsa/etch_a_sketch) - [View in Browser](https://martink-rsa.github.io/etch_a_sketch/etch_a_sketch.html)
 * [Javier Arias's Solution](https://github.com/jfariasf/TOP-etch-a-sketch) - [View in Browser](https://jfariasf.github.io/TOP-etch-a-sketch/)
+* [Andrija Jelenkovic's solution](https://github.com/Amdrija/etch-a-sketch) - [View in Browser](https://amdrija.github.io/etch-a-sketch/)
+* [lindnermarci's solution](https://github.com/lindnermarci/EtchASketch) - [View in Browser](https://lindnermarci.github.io/EtchASketch/)
+* [Levan Mebonia's solution](https://github.com/Levo96/etch_a_sketch) - [View in Browser](https://levo96.github.io/etch_a_sketch/)
+* [David Watkin's solution](https://github.com/DavidWatkinCode/the_odin_project/tree/master/javascript/etch_a_sketch) - [View in Browser](https://davidwatkincode.github.io/the_odin_project/javascript/etch_a_sketch)
+* [Robert Suazo's solution](https://github.com/rsuazo/ETCH-A-SKETCH) - [View in Browser](https://rsuazo.github.io/ETCH-A-SKETCH/)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/etch-a-sketch) - [View in Browser](https://amdrija.github.io/etch-a-sketch/)
 * [lindnermarci's Solution](https://github.com/lindnermarci/EtchASketch) - [View in Browser](https://lindnermarci.github.io/EtchASketch/)
 * [David Watkin's Solution](https://github.com/DavidWatkinCode/web_dev_101/tree/master/javascript/etch_a_sketch) - [View in Browser](https://davidwatkincode.github.io/web_dev_101/javascript/etch_a_sketch)
@@ -732,6 +784,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Vinnav's Solution](https://github.com/vinnav/Odin-Etch-a-sketch) - [View in Browser](https://vinnav.github.io/Odin-Etch-a-sketch/)
 * [mre91's Solution](https://github.com/mre91/etch-a-sketch) - [View in Browser](https://mre91.github.io/etch-a-sketch/)
 * [Udit's Solution (uditj97)](https://github.com/uditj97/etch-a-sketch)
+* [Ivan's Solution](https://github.com/ivandjorgon/etch-a-sketch)
 * [Synte's Solution](https://github.com/Synte/etch-a-sketch) - [View in Browser](https://synte.github.io/etch-a-sketch/)
 * [kosmos434's Solution](https://github.com/kosmos434/Etch-a-Sketch) - [View in Browser](https://kosmos434.github.io/Etch-a-Sketch/)
 * [RKRohk's Solution](https://github.com/RKRohk/EtchASketch) - [View in Browser](https://rkrohk.github.io/EtchASketch/)
@@ -881,4 +934,23 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Wil Goolsby's Solution](https://github.com/wgoolsby/etch-a-sketch) - [View in Browser](https://wilgoolsby.com/etch-a-sketch/)
 * [Filip Kralik's Solution](https://github.com/FilipKralik94/etch-a-sketch) - [View in Browser](https://filipkralik94.github.io/etch-a-sketch/index.html)
 * [fussykyloren's Solution](https://github.com/fussykyloren/etch-a-sketch) - [View in Browser](https://fussykyloren.github.io/etch-a-sketch/)
+* [msespos's Solution](https://github.com/msespos/etch-a-sketch) - [View in Browser](https://msespos.github.io/etch-a-sketch/)
+* [RackManyLoafs's Solution](https://github.com/RackManyLoafs/etch-a-sketch) - [View in Browser](https://rackmanyloafs.github.io/etch-a-sketch/)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/etch-a-sketch) - [View in Browser](https://ansellmaximilian.github.io/etch-a-sketch/)
+* [OchsaufLerchenau's Solution](https://github.com/ochsauflerchenau/Etch-a-Sketch/) - [View in Browser](https://ochsauflerchenau.github.io/Etch-a-Sketch/)
+* [Kevin's Solution](https://github.com/kchemutai/Etch-A-Sketch) - [View in Browser](https://kchemutai.github.io/Etch-A-Sketch/)
+* [MatyD's Solution](https://github.com/MatyD356/drawfun) - [View in Browser](https://matyd356.github.io/drawfun/)
+* [sokafootball's Solution](https://github.com/sokafootball/etch-a-sketch/) - [View in Browser](https://sokafootball.github.io/etch-a-sketch/)
+* [siman-utfpr's Solution](https://github.com/siman-utfpr/etch-a-sketch) - [View in Browser](https://siman-utfpr.github.io/etch-a-sketch/)
+* [HelixF's Solution](https://github.com/HelixF/Etch-a-Sketch) - [View in Browser](https://helixf.github.io/Etch-a-Sketch/)
+* [Aportello's Solution](https://github.com/Aportello/Etch-a-Sketch) - [View in Browser](https://aportello.github.io/Etch-a-Sketch/)
+* [morganbonhomme's Solution](https://github.com/morganbonhomme/ETCH-A-SKETCH) - [View in Browser](https://morganbonhomme.github.io/ETCH-A-SKETCH/)
+* [Joseph's Solution](https://github.com/15jjg6/etch-a-sketch) - [View in Browser](https://15jjg6.github.io/etch-a-sketch/)
+* [Sally Chhuon's Solution](https://github.com/sc2225/etch_a_sketch) - [View in Browser](https://sc2225.github.io/etch_a_sketch/)
+* [Stinji's Solution](https://github.com/Stinji/etch-a-sketch) - [View in Browser](https://stinji.github.io/etch-a-sketch/)
+* [Tuan Nguyen's Solution](https://github.com/Tuan96/TuanSketch) - [View in Browser](https://tuan96.github.io/TuanSketch/)
+* [Jonathan Fallas's Solution](https://github.com/Elfjhon/ETCH-A-SKETCH) -[View in Browser](https://elfjhon.github.io/ETCH-A-SKETCH/)
+* [bhenning83's Solution](https://github.com/bhenning83/etch-a-sketch) -[View in Browser](https://bhenning83.github.io/etch-a-sketch/)
+* [Andrea Maiolo's Solution](https://github.com/andrea-maiolo/etch-a-sketch) - [View in Browser](https://andrea-maiolo.github.io/etch-a-sketch/)
+* [Chandra's solution](https://github.com/CodeSurfer3022/Etch-a-Sketch) - [View in Browser](https://codesurfer3022.github.io/Etch-a-Sketch/)
 </details>
