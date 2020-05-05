@@ -1,5 +1,5 @@
 ### Introduction
-In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users.  They have been highly praised for the design and simplicity of their site, and their signup process is very clean.
+In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users.  They have been highly praised for the design and simplicity of their site, and their signup process is very clean.  If the link isn't working for you, an alternative form to rebuild is by [Mailchimp.com](https://login.mailchimp.com/signup/).
 
 The page is very straightforward, so you should be able to clone it even if your CSS skills aren't perfect.  As usual, don't worry about any of the dynamic functionality on the page or finding the specific icons they use or having the form actually submit.  The point is to make it *look* like the real page as much as you reasonably can.
 
@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [skele-666's solution](https://github.com/skele-666/mint.com-signup-form) - [View in Browser](https://skele-666.github.io/mint.com-signup-form/)
 * [Mikael's solution](https://github.com/Mikearaya/signup-form) - [View in Browser](https://mikearaya.github.io/signup-form)
 * [Julio's solution](https://github.com/julio22b/html-form) - [View in Browser](https://julio22b.github.io/html-form/)
 * [James's Solution](https://github.com/ericksen-github/mint_login_clone) - [View in Browser](https://ericksen-github.github.io/mint_login_clone/)
@@ -164,6 +165,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Nigel Volkmann's Solution](https://github.com/Nekolike/SignUp) - [View in Browser](https://nekolike.github.io/SignUp/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/TOP-intuit-clone) - [View in Browser](https://adrieltrigger.github.io/TOP-intuit-clone/)
 * [Scott Bowles's Solution](https://github.com/scottBowles/mint-signup-page-clone) - [View in Browser](https://scottbowles.github.io/mint-signup-page-clone/)
+* [Veskenazi's Solution](https://github.com/veskenazi/html-forms) - [View in Browser](https://veskenazi.github.io/html-forms/)
+* [m-rejdych's Solution](https://github.com/m-rejdych/Form-Mint) - [View in browser](https://m-rejdych.github.io/Form-Mint/)
+* [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/forms-practice) - [View in Browser](https://ranmaru22.github.io/the_odin_project/forms-practice/)
 </details>
 
 ### Additional Resources

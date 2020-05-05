@@ -39,6 +39,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Mikael's Solution](https://github.com/Mikearaya/enumerable-methods) - [View Demo](https://repl.it/@MichaelAraya1/enumerable-methods)
+* [tenacious-qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/bubble_sort.rb)
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Bubble_Sort/blob/master/bubble_sort.rb) - [View Demo](https://repl.it/@andrewbaldwin44/BubbleSort)
 * [Thiago's Solution](https://github.com/SevlaMare/bubble_sort_ruby) - [View Demo](https://repl.it/@ThiagoMiranda2/bubblesortV0)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/bubble-sort.rb)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Bubble-Sort)
@@ -424,6 +427,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kendra Moyars's Solution](https://github.com/kendramoyars/bubble-sort/blob/master/bubble_sort.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/bubble-sort)
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/bubble_sort/bubble_sort.rb)
+* [Matt M's Solution](https://github.com/MattMiller1989/bubble-sort)
+* [mthsgrc's Solution](https://github.com/mthsgrc/sort_by/blob/master/bubble_sort.rb)
+* [Anna Olak's Solution] (https://github.com/anna1901/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
 </details>
 
 ### Project 2: Enumerable Methods
@@ -471,6 +477,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [tenacious qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/enumerable-methods.rb)
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Custom_Enumerables/blob/master/custom_enumerables.rb) - [View Demo](https://repl.it/@andrewbaldwin44/CustomEnumerables)
 * [Thiago Miranda's Solution](https://github.com/SevlaMare/enumerables) - [View Demo](https://repl.it/@ThiagoMiranda2/enumerables)
 * [Aulbourn's Solution](https://github.com/aulbytj/Enumerable/blob/develop/main.rb)
 * [Alison's Solution](https://github.com/chenalison/ruby_programming/blob/master/enumerable.rb)

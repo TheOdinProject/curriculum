@@ -16,7 +16,9 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
   1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
-  2. In the following lesson, there is a page titled Starting with an Unversioned Project. You'll need some sample files to see the result of some commands so let's create them now. Open your terminal and enter `mkdir some-sample-project` then `touch some-sample-project/example.html some-sample-project/example.txt`. Once you get to that lesson, make sure you `cd` into `some-sample-project`.  Complete [Tower's Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start) lesson. **Please note**: 1. Skip the "Getting Ready" section because you should have already installed Git by now. 2. Ignore the invitation to do the lessons with the Desktop GUI. Complete the Command Line version. 3. Only do "Part 1 - The Basics."
+  2. Complete "Part 1 - The Basics" of [Tower's Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start). Feel free to start with the section titled "Starting with an Unversioned Project". Some steps to get you started:
+      * Create a test project with `mkdir some-sample-project`.
+      * Create a few test files with `touch some-sample-project/example.html` and `touch some-sample-project/example.txt`.
 
 </div>
 
@@ -24,8 +26,8 @@ By the end of this lesson, you should be able to do the following:
 This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:
 
 * Commands related to a remote repository:
-  * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git` 
-  or 
+  * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
+  or
   `git clone https://github.com/user-name/repository-name.git`
   * `git push origin master`
 * Commands related to workflow:
@@ -55,7 +57,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial) is an introductory guide on Git by [Michael Hartl](http://www.michaelhartl.com/).
 * An easy-to-read, pragmatic guide to using Git is available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC).
-* The [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub provides quick instructions for using common commands (you can find a webpage version [here](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)). 
+* The [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub provides quick instructions for using common commands (you can find a webpage version [here](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)).
 * [Atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control) has a very thorough and well laid out Git tutorial.
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2).
 
@@ -65,7 +67,7 @@ This section contains questions for you to check your understanding of this less
 <details>
 <summary>What is the Git command used to get a full copy of an existing Git repository from Github?</summary>
 <ul><ul>
-  <li>Use <code>git clone git@github.com:&lt;your-respository-name&gt;</code> to clone a GitHub repository onto your local machine.</li>
+  <li>Use <code>git clone git@github.com:&lt;your-github-username&gt;/&lt;your-respository-name&gt;</code> to clone a GitHub repository onto your local machine.</li>
 </ul></ul>
 </details>
 

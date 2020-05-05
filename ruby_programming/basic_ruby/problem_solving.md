@@ -4,7 +4,9 @@ In the previous lessons in this section you learnt about the essential basic pro
 Problem solving, is the core thing software developers do, the programming languages and tools they use are secondary to this fundamental skill.
 
 V. Anton Paul defines problem solving in programming as:
-> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. - Think Like a Programmer
+
+> "Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints."
+- Think Like a Programmer
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 

@@ -35,6 +35,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jc's Solution](https://github.com/avazkhan2808/project-todo) - [View in Browser](https://avazkhan2808.github.io/project-todo/)
+* [AJMcDee's Solution](https://github.com/ajmcdee/ToDoApp) - [View in Browser](https://ajmcdee.github.io/ToDoApp)
+* [simonevaglietti's Solution](https://github.com/simonevaglietti/Todo-App) - [View in Browser](https://simonevaglietti.github.io/Todo-App/dist/)
 * [Justinkar's Solution](https://github.com/justinkar/todo-list) - [View in Browser](https://justinkar.github.io/todo-list/)
 * [mjwills-inf's Solution](https://github.com/mjwills-inf/todo) - [View in Browser](https://mjwills-inf.github.io/todo/)
 * [Edd Sansome's Solution](https://github.com/casualc0der/to-do-two) - [View in Browser](https://casualc0der.github.io/to-do-two/)
@@ -114,4 +117,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/to-do) - [View in Browser](https://ranmaru22.github.io/the_odin_project/to-do/dist/)
 * [Tim Kelly's Solution (Webpack, Moment.js and SortableJS)](https://github.com/timkellytk/project-to-do-list) - [View in Browser](https://timkellytk.github.io/project-to-do-list/)
 * [thecodediver's Solution](https://github.com/thecodediver/tasks_app) - [View in Browser](https://thecodediver.github.io/tasks_app/)
+* [m-rejdych's Solution](https://github.com/m-rejdych/Todo-List) - [View in Browser](https://m-rejdych.github.io/Todo-List/)
 </details>
