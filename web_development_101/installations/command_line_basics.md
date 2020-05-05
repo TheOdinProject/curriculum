@@ -63,6 +63,13 @@ In this exercise, you will practice creating files and directories and deleting 
 
 That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
+
+### MIT TERMINUS GAME
+For more practice on the terminal, Terminus was developed at MIT and is a great way to learn to navigate the terminal while you move throught the world of Terminus.
+[Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
+
+
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
 
