@@ -26,6 +26,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Simon Fraipont's Solution](https://github.com/Sim-frpt/members-only) - [View in Browser](https://calm-castle-28467.herokuapp.com/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/members-only-node) - [View in browser](https://still-crag-16430.herokuapp.com/)
 * [Abhishek Khale's Solution](https://github.com/abkhale17/Members-only) - [View in browser](https://roast-non-club-members.herokuapp.com/)
 * [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/exclusiveOrg) - [View in browser](https://exclusiveorg.herokuapp.com/)
