@@ -3316,6 +3316,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rareapple's Solution (Both)](https://github.com/rareapple/New-Google-Homepage) - [View in Browser](https://rareapple.github.io/New-Google-Homepage/)
 * [Kenny Wang's Solution (Easy)](https://github.com/nankan6111/google_homepage/) - [View in Browser](https://nankan6111.github.io/google_homepage/)
 * [Zeebear's Solution (Easy)](https://github.com/zeebear/google-homepage) - [View in Browser](https://zeebear.github.io/google-homepage/)
+* [ayush12jain's Solution (Easy)](https://github.com/ayush12jain/google-homepage) - [View in Browser](https://ayush12jain.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
