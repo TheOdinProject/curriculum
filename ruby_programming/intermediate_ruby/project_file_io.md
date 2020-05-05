@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/hangman/lib/hangman.rb)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_hangman) - [View in Repl.it](https://repl.it/@rlmoser/rubyhangman)
 * [rryand's Solution](https://github.com/rryand/hangman_ruby) - [View in Repl.it](https://repl.it/@rryand/hangmanruby)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/hangman)
