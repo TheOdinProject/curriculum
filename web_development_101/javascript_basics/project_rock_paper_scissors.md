@@ -1531,6 +1531,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alejaldo's Solution](https://github.com/Alejaldo/suefa)
 - [Demian's Solution](https://github.com/Demian31/RPS)
 - [Foolmonkey's Solution](https://github.com/foolmonkey/rock-paper-scissors)
-- [Tristan Carey's solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
+- [Tristan Carey's Solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
 - [Tai's Solution](https://github.com/kimtaisuk/rock-paper-scissor)
 </details>
