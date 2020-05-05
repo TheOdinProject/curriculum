@@ -486,4 +486,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vuyani’s Solution](https://github.com/vuyanir/substrings)
 * [meganeb-afk's Solution](https://github.com/meganeb-afk/Substring)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/substrings.rb)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/substring.rb)
 </details>
