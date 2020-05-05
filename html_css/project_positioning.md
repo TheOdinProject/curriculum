@@ -27,10 +27,25 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrea's solution](https://github.com/fioriandrea/nyt-article) - [View in Browser](https://fioriandrea.github.io/nyt-article/)
+* [Mikael's solution](https://github.com/Mikearaya/new-york-times-clone) - [View in Browser](https://mikearaya.github.io/new-york-times-clone/)
+* [Julio's solution](https://github.com/julio22b/nyt-article-clone/) - [View in Browser](https://julio22b.github.io/nyt-article-clone/)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/newYorkTimesClone) - [View in Browser](https://amdrija.github.io/newYorkTimesClone/)
+* [Morghan's Solution](https://github.com/morghan102/positioning_nyt_article)
+* [Rarysson's Solution](https://github.com/rarysson/nyt-article) - [View in Browser](https://rarysson.github.io/nyt-article/)
+* [Johongirr's Solution](https://github.com/Johongirr/NYT-website-copy) - [View in Browser](https://johongirr.github.io/NYT-website-copy/)
+* [Estela's Solution](https://estelajimero.github.io/positioning-floating/) - [View in Browser](https://estelajimero.github.io/positioning-floating/)
+* [Igorashs's Solution](https://github.com/igorashs/positioning-and-floating-elements) - [View in Browser](https://igorashs.github.io/positioning-and-floating-elements/)
+* [Zakariye's Solution](https://github.com/ZYusuf10/curriculum) - [View in Browser](https://zyusuf10.github.io/flex_practice/timesClone.html)
+* [Basskip's solution](https://github.com/Basskip/times-article-html-css) - [View in Browser](https://basskip.com/times-article-html-css/)
+* [Marian & Ivancito's solution](https://github.com/mariancristu/New-York-Times-Clone) - [View in Browser](https://mariancristu.github.io/New-York-Times-Clone/)
+* [Nurislam & Carlos Anriquez's solution](https://github.com/nurislam-ab/positioning_and_floating_elements) - [View in Browser](https://nurislam-ab.github.io/positioning_and_floating_elements/index.html)
+* [Ashish's Solution](https://github.com/CodersGas/article-layout) - [View in Browser](https://codersgas.github.io/article-layout/home-page.html)
 * [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/new-york-times-copy) - [View in Browser](https://kikupiku.github.io/new-york-times-copy/)
 * [Raiko's solution](https://github.com/Cypher0/odin-positioning-floating) - [View in Browser](https://cypher0.github.io/odin-positioning-floating/)
 * [Christian's solution](https://github.com/Cabonilla/nyt_replica) - [View in Browser](https://cabonilla.github.io/nyt_replica/)
 * [Braxton's solution](https://github.com/braxtonlemmon/nyt-clone) - [View in Browser](https://braxtonlemmon.github.io/nyt-clone/)
+* [Muhammad Ahmad's solution](https://github.com/thisisMAhmad/nyt-article) - [View in Browser](https://thisismahmad.github.io/nyt-article/)
 * [Leticia's solution](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/03-CSS/01-Positioning_and_Floating_Elements/ny-times-clone) - [View in Browser](https://gradiva.github.io/ny-times-clone/)
 * [David Auza's and Eduardo Reis's Solution](https://github.com/davidauza-engineer/Positioning-and-Floating-Elements) - [View in Browser](https://davidauza-engineer.github.io/Positioning-and-Floating-Elements/)
 * [Gabriel's Solution](https://github.com/gabytzubaws/nyt_article_odin) - [View in Browser](https://gabytzubaws.github.io/nyt_article_odin/)
@@ -115,6 +130,11 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/ViriCruz/positioning-and-floating-elements) - [View in Browser](https://viricruz.github.io/positioning-and-floating-elements/)
 * [Halkim's Solution](https://github.com/halkim44/nytimes-article-rebuild) - [View in Browser](https://halkim44.github.io/nytimes-article-rebuild/)
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
+* [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
+* [0xtaf's Solution](https://github.com/0xtaf/css-nyt) - [View in Browser](https://0xtaf.github.io/css-nyt/)
+* [Scott Bowles's Solution](https://github.com/scottBowles/nyt-article-layout-clone) - [View in Browser](https://scottbowles.github.io/nyt-article-layout-clone/)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-nyt-page-clone) - [View in Browser](https://adrieltrigger.github.io/top-nyt-page-clone/)
+* [Veskenazi's Solution](https://github.com/veskenazi/new-york-times-article-clone) - [View in Browser](https://veskenazi.github.io/new-york-times-article-clone/)
 
 </details>
 

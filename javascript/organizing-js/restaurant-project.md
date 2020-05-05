@@ -1,5 +1,5 @@
 ### Introduction
-Let's use what we've learned and take a chance to continue practicing DOM manipulation - dynamically rendering a simple restaurant homepage! By the end, we are going to be using only JavaScript to generate the entire contents of the website!
+Let's use what we've learned and take a chance to continue practicing DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
 
 ### Assignment
 
@@ -8,7 +8,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 1. Start the project the same way you began the webpack tutorial project.
     1. run `npm init` in your project directory to generate a `package.json` file.
     
-    1. run `npm install --save-dev webpack` to install webpack to the node_modules directory of your project.
+    1. run `npm install webpack webpack-cli --save-dev` to install webpack to the node_modules directory of your project.
    
         - Quick tip: the `node_modules` folder can get _really_ big. It is customary to   add a `.gitignore` file to your project so that you don't have to sync the contents of `node_modules` to github. The dependencies that are stored there can be installed from your package.json by running `npm install`, so you don't need to sync them.  
       
@@ -21,14 +21,14 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    
 1. Set up an HTML skeleton inside of `dist/index.html` with single `<div id="content">`.
 
-1. Inside of `src/index.js` write a simple console.log or alert statement and then run `webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
+1. Inside of `src/index.js` write a simple console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
 
-    - Quick tip #2: if you run `webpack --watch` you will not have to rerun webpack every time you make a change.
+    - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
    
-1. Create a bare-bones home page for a restaurant. Include an image, headline, and some copy about how wonderful the restaurant is. It’s okay to hard-code these into the HTML for now just to see how they look on the page.
+1. Create a bare-bones homepage for a restaurant. Include an image, headline, and some copy about how wonderful the restaurant is. It’s okay to hard-code these into the HTML for now just to see how they look on the page.
 
 
-1. Now remove those elements from the HTML (so leave only the `<html>`, `<body>`, and `<div id="content">` tags) and instead create them by using Javascript only, e.g. by appending each new element to the `div#content`once the page is first loaded. Since we're all set up to write our code in multiple files write this initial page-load function inside of it's own module and then import and call it inside of `index.js`.
+1. Now remove those elements from the HTML (so leave only the `<html>`, `<body>`, and `<div id="content">` tags) and instead create them by using JavaScript only, e.g. by appending each new element to `div#content` once the page is first loaded. Since we're all set up to write our code in multiple files, let's write this initial page-load function inside of it's own module and then import and call it inside of `index.js`.
 
 1. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages. [Look at #7 on this hongkiat post](http://www.hongkiat.com/blog/50-nice-clean-css-tab-based-navigation-scripts/) for visual inspiration.
 
@@ -48,6 +48,43 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rlaake's Solution](https://rlaake.github.io/Restaurant-Page/)
+- [Zayeer's Solution](https://github.com/Zayeer/restaurant-page) - [View in Browser](https://zayeer.github.io/restaurant-page/#)
+- [TunzTunzTunz's Solution](https://github.com/tunztunztunz/restaraunt-exercise) - [View in Browser](https://tunztunztunz.github.io/restaraunt-exercise/)
+- [AJMcDee's Solution](github.com/AJMcDee/restaurantExample) - [View in Browser](https://ajmcdee.github.io/restaurantExample/)
+- [Lexolf's Solution](https://github.com/lexolf/restaurant-page) - [View in Browser](https://lexolf.github.io/restaurant-page/)
+- [Andrea's Solution](https://github.com/fioriandrea/restaurant) - [View in Browser](https://fioriandrea.github.io/restaurant/)
+- [Arf65's Solution](https://github.com/arf65/restaurant-homepage) - [View in Browser](https://arf65.github.io/restaurant-homepage/)
+- [Denis Oluka's Solution](https://github.com/OlukaDenis/restaurant-page) - [View in Browser](https://dennys.netlify.app/)
+- [Sherman's Solution](https://github.com/shermansjliu/project-restaurant-page) - [View in Browser](https://shermansjliu.github.io/project-restaurant-page/)
+- [jdonahhue135's Solution](https://github.com/jdonahue135/restaurant-page) - [View in Browser](https://jdonahue135.github.io/restaurant-page/)
+- [jc's Solution](https://github.com/avazkhan2808/project-restaurant) - [View in Browser](https://avazkhan2808.github.io/project-restaurant/)
+- [Nick Haras' Solution](https://github.com/macnick/restaurant-page) - [View in Browser](https://macnick.github.io/Restaurant-Page/)
+- [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/restaurant-page) - [View in Browser](https://muhymenulhaque.github.io/restaurant-page/)
+- [Joe's Solution](https://github.com/JosephPBallantyne/odinRestaurant) - [View in Browser](https://josephpballantyne.github.io/odinRestaurant/)
+- [Edd Sansome's Solution](https://github.com/casualc0der/restaurant-project/) - [View in Browser](https://casualc0der.github.io/restaurant-project/)
+- [eapenzacharias's Solution](https://github.com/Lenn-e/restaurant-page) - [View in Browser](https://lenn-e.github.io/restaurant-page/)
+- [eapenzacharias's Solution](https://github.com/eapenzacharias/Restaurant-Theme) - [View in Browser](https://eapenzacharias.github.io/Restaurant-Theme/index.html)
+- [Odunsi Joseph's Solution](https://github.com/dhatguy/restaurant-page) - [View in Browser](https://dhatguy.github.io/restaurant-page/)
+- [clavierbulb-green's Solution](https://github.com/clavierbulb-green/Bulb-s-Restaurant-Page) - [View in Browser](https://clavierbulb-green.github.io/Bulb-s-Restaurant-Page/)
+- [Langarus' Solution](https://github.com/langarus/restaurant_webpage_with_JS) - [View in Browser](https://langarus.github.io/restaurant_webpage_with_JS/)
+- [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/restaurant-homepage) - [View in Browser](https://thisismahmad.github.io/restaurant-homepage/)
+- [Justinkar's Solution](https://github.com/justinkar/restaurant-page) - [View in Browser](https://justinkar.github.io/restaurant-page/)
+- [mjwills-inf's Solution](https://github.com/mjwills-inf/restaurant) - [View in Browser](https://mjwills-inf.github.io/restaurant/)
+- [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/restaurant-page) - [View in Browser](https://kikupiku.github.io/restaurant-page/)
+- [Padraig O'Rúis's solution](https://github.com/anarchomushroom/js-restaurant) - [View in Browser](https://anarchomushroom.github.io/js-restaurant/)
+- [Joshysmart's Solution](https://github.com/joshysmart/restaurant-page) - [View in Browser](https://joshysmart.github.io/restaurant-page/)
+- [JoeDravarol's and nearmint's Solution](https://github.com/nearmint/restaurant) - [View in Browser](https://nearmint.github.io/restaurant/)
+- [chickenwing123's Solution](https://github.com/chickenwings123/Webpack-Restaurant) - [View in Browser](https://chickenwings123.github.io/Webpack-Restaurant/)
+- [Kris Tobiasson's 3D Solution](https://github.com/highpockets/restaurant.git) - [View in Browser](https://highpockets.github.io/restaurant/)
+- [tracy2811's Solution](https://github.com/tracy2811/restaurant-page) - [View in Browser](https://tracy2811.github.io/restaurant-page/)
+- [Simon's Solution](https://github.com/Sim-frpt/restaurant-page) - [View in Browser](https://sim-frpt.github.io/restaurant-page/)
+- [James's Solution](https://github.com/ericksen-github/restaurant_page) - [View in Browser](https://ericksen-github.github.io/restaurant_page/)
+- [jfr's Solution](https://github.com/jfrcom/restaurant-page) - [View in Browser](https://jfrcom.github.io/restaurant-page/index.html)
+- [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/restrauntPage) - [View in Browser](https://zyusuf10.github.io/restrauntPage/)
+- [Kevin Vuong's Solution](https://github.com/fffear/restaurant-page-project-js) - [View in Browser](https://fffear.github.io/restaurant-page-project-js/)
+- [Hassanbhb's Solution](https://github.com/Hassanbhb/Vegi) - [View in Browser](https://hassanbhb.github.io/Vegi/)
+- [Braxton's Solution](https://github.com/braxtonlemmon/restaurant-page) - [View in Browser](https://braxtonlemmon.github.io/restaurant-page/)
 - [Julio's Solution](https://github.com/julio22b/restaurant-page) - [View in Browser](https://julio22b.github.io/restaurant-page/)
 - [Esteban's Solution](https://github.com/estebanmoroy/restaurant-page) - [View in Browser](https://estebanmoroy.github.io/restaurant-page)
 - [Luky's Solution](https://github.com/lcyne/restaurant-page) - [View in Browser](https://lcyne.github.io/restaurant-page)
@@ -102,7 +139,27 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Martink-rsa's solution](https://github.com/martink-rsa/restaurant-page) - [View in Browser](https://martink-rsa.github.io/restaurant-page/)
 - [JoshAubrey's solution](https://github.com/JoshAubrey/restaurant-page) - [View in Browser](https://joshaubrey.github.io/restaurant-page/)
 - [Aron's solution](https://github.com/aronfischer/Restaurant-page) - [View in Browser](https://aronfischer.github.io/Restaurant-page/)
-- [Brendaneus' Solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/restaurant_page)
+- [Brendaneus' Solution](https://theodinprojects.live/courses/javascript/projects/restaurant-page)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/game-page) - [View in Browser](https://edmtrv.github.io/game-page/)
-
+- [Edehe's Solution](https://github.com/edehlol/restaurant) - [View in Browser](https://edehlol.github.io/restaurant/)
+- [AlexGioff's Solution](https://github.com/AlexGioffDev/Restaurant) - [View in Browser](https://alexgioffdev.github.io/Restaurant/)
+- [Supasus's Solution](https://github.com/supasus/js-restaurant-page) - [View in Browser](https://supasus.github.io/js-restaurant-page/)
+- [kylazath's Solution](https://github.com/kylazath/webpack-test) - [View in Browser](https://kylazath.github.io/webpack-test/index.html)
+- [mmboyce's Solution](https://github.com/mmboyce/restaurant-page) - [View in Browser](https://mmboyce.github.io/restaurant-page/)
+- [Hamohuh's Solution](https://github.com/hamohuh/Restaurant) - [View in Browser](https://hamohuh.github.io/Restaurant/)
+- [0xtaf's Solution](https://github.com/0xtaf/restaurant) - [View in Browser](https://0xtaf.github.io/restaurant/)
+- [tomstrat's Solution](https://github.com/tomstrat/restaurant) - [View in Browser](https://tomstrat.github.io/restaurant/)
+- [DamnedLag's Solution](https://github.com/Damnedlag/Project_restaurant) - [View in Browser](https://damnedlag.github.io/Project_restaurant/)
+- [ricardo-gonzalez-villegas' Solution](https://github.com/ricardo-gonzalez-villegas/restaurant-page/) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/restaurant-page/)
+- [BunnyTheLifeguard's Solution](https://github.com/BunnyTheLifeguard/restaurant-page) - [View in Browser](https://bunnythelifeguard.github.io/restaurant-page/)
+- [Y02WK's Solution](https://github.com/Y02WK/cafe_toki) - [View in Browser](https://y02wk.github.io/cafe_toki/)
+- [r-hathcock's Solution](https://github.com/r-hathcock/restaurant-page)
+- [Rey van den Berg's Solution](https://github.com/Rey810/restaurant-page) - [View in Browser](https://rey810.github.io/restaurant-page)
+- [barrysweeney's Solution](https://github.com/barrysweeney/restaurant-site) - [View in Browser](https://barrysweeney.github.io/restaurant-site/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/restaurant) - [View in Browser](https://ranmaru22.github.io/the_odin_project/restaurant/dist/)
+- [crongle's Solution](https://github.com/crongle/) - [View in Browser](https://crongle.github.io/restaurant/)
+- [Tim Kelly's Solution](https://github.com/timkellytk/project-restaurant-page) - [View in Browser](https://timkellytk.github.io/project-restaurant-page/)
+- [thecodediver's Solution](https://github.com/thecodediver/restaurant_page) - [View in Browser](https://thecodediver.github.io/restaurant_page/)
+- [m-rejdych's Solution](https://github.com/m-rejdych/Restaurant-Page) - [View in Browser](https://m-rejdych.github.io/Restaurant-Page/)
+- [alicee88's Solution](https://github.com/alicee88/odin-restaurant) - [View in Browser](https://alicee88.github.io/odin-restaurant/)
 </details>

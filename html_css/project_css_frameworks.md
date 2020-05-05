@@ -33,6 +33,9 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Julio's solution - Framework](https://github.com/julio22b/my-CSS-framework) - [Letterboxd clone](https://github.com/julio22b/letterboxd-home) - [View in Browser](https://julio22b.github.io/letterboxd-home/)
+* [Igorashs's Solution - Framework](https://github.com/igorashs/gridlay) - [The Odin Project Clone](https://github.com/igorashs/the-odin-project-page) - [View in browser](https://igorashs.github.io/the-odin-project-page/)
+* [Kevin Vuong's Solution](https://github.com/fffear/my_grid_framework) - [The Odin Project Clone](https://github.com/fffear/the_odin_project_home_page_clone) - [View in browser](https://fffear.github.io/the_odin_project_home_page_clone/)
 * [David Auza's and Eduardo Reis's Solution](https://github.com/eduardoreisalvarenga/CSS_Framework) - [View in Browser](https://rawcdn.githack.com/eduardoreisalvarenga/CSS_Framework/5aa808211fb83ef5e0715770a5820bf9cfa1ff48/index.html)
 * [ARaut9's solution - Framework](https://github.com/ARaut9/css_framework) - [View in browser](https://araut9.github.io/css_framework/test.html)
 * [ARaut9's solution - Example Site](https://github.com/ARaut9/itunes_clone) - [View in browser](https://araut9.github.io/itunes_clone/)
@@ -56,6 +59,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Neil Cudden's solution](https://github.com/ncud4bloc/My_Frame/) - [View in browser](https://ncud4bloc.github.io/My_Frame/HTML/index.html)
 * [husein ghafari's solution](https://github.com/hosghf/css-grid-framework) - [Example Site](https://htmlpreview.github.io/?https://github.com/hosghf/final-prj/blob/master/index.html)
 * [Francisco Carlos's - Scaffold Framework](https://github.com/fcarlosdev/grid-framework) - [Example Site](https://github.com/fcarlosdev/thoughco) - [View in browser](https://fcarlosdev.github.io/thoughco/)
+* [Muhammad Ahmad's CSS Framework - Pure Grid](https://github.com/thisisMAhmad/pure-grid) - [Final Project Git Page](https://github.com/thisisMAhmad/the-odin-project) - [View site in browser](https://thisismahmad.github.io/the-odin-project/)
 * [aznafro's CSS Framework - Flik](https://github.com/aznafro/flik) - [Final Project Git Page](https://github.com/aznafro/natgeo) - [View site in browser](https://aznafro.github.io/natgeo/)
 * [Oluwadamilare Olusakin's CSS Framework - Sphinx](https://github.com/Oluwadamilareolusakin/sphinx)
 * [Carlos Del Real's and Gabriela Cruz's Solutions](https://github.com/carloshdelreal/caby_cssframework) - [Example Site](https://carloshdelreal.github.io/caby_cssframework/)
