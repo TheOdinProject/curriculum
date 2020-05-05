@@ -3312,6 +3312,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Pipa's Solution (Easy)](https://pipa10.github.io/googleHomepage/) - [View in Browser](https://pipa10.github.io/googleHomepage/)
 * [Kmt5422's Solution (Both)](https://github.com/kmt5422/google-homepage-clone) - [View in Browser](https://kmt5422.github.io/google-homepage-clone/)
 * [HardcoreDesk's Solution (Easy)](https://github.com/HardcoreDesk/google-homepage/) - [View in Browser](https://hardcoredesk.github.io/google-homepage/)
+* [Zeebear's Solution (Easy)](https://github.com/zeebear/google-homepage) - [View in Browser](https://zeebear.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
