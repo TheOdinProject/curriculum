@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rlaake's Solution](https://rlaake.github.io/Restaurant-Page/)
 - [Zayeer's Solution](https://github.com/Zayeer/restaurant-page) - [View in Browser](https://zayeer.github.io/restaurant-page/#)
 - [TunzTunzTunz's Solution](https://github.com/tunztunztunz/restaraunt-exercise) - [View in Browser](https://tunztunztunz.github.io/restaraunt-exercise/)
 - [AJMcDee's Solution](github.com/AJMcDee/restaurantExample) - [View in Browser](https://ajmcdee.github.io/restaurantExample/)
