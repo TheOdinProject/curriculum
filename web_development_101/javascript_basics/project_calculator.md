@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Afzaman's Solution](https://github.com/afzaman/calculator) - [View in Browser](https://afzaman.github.io/calculator)
 - [leddins's Solution](https://github.com/leddins/calculator) - [View in Browser](https://leddins.github.io/calculator/)
 - [sahion's Solution](https://github.com/sahion/calculator) - [View in Browser](https://sahion.github.io/calculator/)
 - [Chun's Solution](https://github.com/ashchunfai/calculator) - [View in Browser](https://ashchunfai.github.io/calculator)
