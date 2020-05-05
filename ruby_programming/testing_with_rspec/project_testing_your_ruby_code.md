@@ -141,6 +141,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.connect_four)
 * [YesSeri's Solution](https://github.com/YesSeri/connect_four)
 * [Billy Coffin's Solution](https://github.com/bcoffin9/connectfour)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/connect_four_tdd)

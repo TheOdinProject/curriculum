@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [LenaChestnut's Solution](https://github.com/LenaChestnut/tic-tac-toe) - [View in Browser](https://lenachestnut.github.io/tic-tac-toe/)
 - [MorganBonhomme's Solution](https://github.com/morganbonhomme/TicTacToe) - [View in Browser](https://morganbonhomme.github.io/TicTacToe/)
 - [Johongirr's Solution](https://github.com/Johongirr/tic-tac-toe) - [View in Browser](https://johongirr.github.io/tic-tac-toe/)
 - [TunzTunzTunz's Solution](https://github.com/tunztunztunz/Tic-Tac-Toe) - [View in Browser](https://tunztunztunz.github.io/Tic-Tac-Toe/)
@@ -181,5 +182,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Mousam's Solution](https://github.com/mousamdhakal/tic-tac-toe) - [View in Browser](http://mousamdhakal.me/tic-tac-toe/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/tic-tac-toe) - [View in Browser](https://ozansozuozgit.github.io/tic-tac-toe/)
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/tictactoe) - [View in Browser](https://fortypercenttitanium.github.io/tictactoe/)
+- [kbrdsk's Solution](https://github.com/kbrdsk/tic-tac-toe) - [View in Browser](https://kbrdsk.github.io/tic-tac-toe/)
 
 </details>

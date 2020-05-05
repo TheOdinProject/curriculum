@@ -264,4 +264,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/library) - [View in Browser](https://fortypercenttitanium.github.io/library/)
 - [JCoen's Solution (w/localStorage)](https://github.com/J-coen/Odin-library-project) - [View in Browser](https://j-coen.github.io/Odin-library-project/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/library) - [View in Browser](https://ozansozuozgit.github.io/library/)
+- [kbrdsk's Solution (w/firebase)](https://github.com/kbrdsk/library) - [View in Browser](https://kbrdsk.github.io/library/)
 </details>
