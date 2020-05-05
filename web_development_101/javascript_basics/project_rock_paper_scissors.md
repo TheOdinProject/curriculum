@@ -1533,3 +1533,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Foolmonkey's Solution](https://github.com/foolmonkey/rock-paper-scissors)
 - [Tristan Carey's solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
 </details>
+- [Knuckles' solution](https://github.com/mosesakor/rock-paper-scissors) - [View in Browser](https://mosesakor.github.io/rock-paper-scissors/)
