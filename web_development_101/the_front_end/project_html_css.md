@@ -93,6 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [JHPHamwise's Solution (Easy)](https://github.com/JHPHamwise/google-homepage) - [View in Browser](https://jhphamwise.github.io/google-homepage/)
 * [Aaron's Solution (Difficult)](https://github.com/Aaron-McD/google-search-result) - [View in Browser](https://aaron-mcd.github.io/google-search-result/)
 * [Aaron's Solution (Easy)](https://github.com/Aaron-McD/google-homepage) - [View in Browser](https://aaron-mcd.github.io/google-homepage/)
 * [Dean Oh's Solution (Easy)](https://github.com/JuicyMelon/google-demo) - [View in Browser](https://juicymelon.github.io/google-demo/)
@@ -3316,6 +3317,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rareapple's Solution (Both)](https://github.com/rareapple/New-Google-Homepage) - [View in Browser](https://rareapple.github.io/New-Google-Homepage/)
 * [Kenny Wang's Solution (Easy)](https://github.com/nankan6111/google_homepage/) - [View in Browser](https://nankan6111.github.io/google_homepage/)
 * [Zeebear's Solution (Easy)](https://github.com/zeebear/google-homepage) - [View in Browser](https://zeebear.github.io/google-homepage/)
+* [ayush12jain's Solution (Easy)](https://github.com/ayush12jain/google-homepage) - [View in Browser](https://ayush12jain.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
