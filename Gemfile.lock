@@ -291,7 +291,7 @@ GEM
     puma (4.3.3)
       nio4r (~> 2.0)
     rack (2.2.2)
-    rack-attack (6.2.2)
+    rack-attack (6.3.0)
       rack (>= 1.0, < 3)
     rack-proxy (0.6.5)
       rack
