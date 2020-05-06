@@ -114,6 +114,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Preparing for Deployment",
+  title_url: "Preparing for Deployment".parameterize,
+  description: "Get setup to use Heroku to deploy our web applications",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/rails_programming/introduction/preparing_for_deployment.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Mini Message Board",
   title_url: "Mini-message-board".parameterize,
   description: "We take a break from the main tutorial and create a simple message board.",
