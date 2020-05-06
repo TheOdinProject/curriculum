@@ -209,7 +209,8 @@ GEM
       activerecord
       kaminari-core (= 1.2.0)
     kaminari-core (1.2.0)
-    kramdown (2.1.0)
+    kramdown (2.2.1)
+      rexml
     kwalify (0.7.2)
     launchy (2.5.0)
       addressable (~> 2.7)
