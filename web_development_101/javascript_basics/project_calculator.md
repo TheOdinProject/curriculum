@@ -49,6 +49,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Scott D's Solution](https://github.com/WebDevBrum/ODIN-Calculator-App) - [View in Browser](https://webdevbrum.github.io/ODIN-Calculator-App/)
 - [Afzaman's Solution](https://github.com/afzaman/calculator) - [View in Browser](https://afzaman.github.io/calculator)
 - [leddins's Solution](https://github.com/leddins/calculator) - [View in Browser](https://leddins.github.io/calculator/)
+- [Billi0ns' Solution](https://github.com/Billi0ns/calculator) - [View in Browser](https://billi0ns.github.io/calculator/)
 - [sahion's Solution](https://github.com/sahion/calculator) - [View in Browser](https://sahion.github.io/calculator/)
 - [Chun's Solution](https://github.com/ashchunfai/calculator) - [View in Browser](https://ashchunfai.github.io/calculator)
 - [Justasdap's Solution](https://github.com/JustasDap/calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/JustasDap/calculator/blob/master/index.html)
