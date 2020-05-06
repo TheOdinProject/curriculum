@@ -2,7 +2,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/preset-react": "^7.9.4",
-    "@rails/ujs": "^6.0.2-2",
+    "@rails/ujs": "^6.0.3",
     "@rails/webpacker": "5.0.1",
     "babel-plugin-prismjs": "^2.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
