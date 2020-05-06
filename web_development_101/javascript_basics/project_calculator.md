@@ -652,4 +652,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/calculator) - [View in Browser](https://ansellmaximilian.github.io/calculator/)
 - [Wil Goolsby's Solution](https://github.com/wgoolsby/calculator) - [View in Browser](https://wilgoolsby.com/calculator/)
 - [Jonathan Fallas's Solution](https://github.com/Elfjhon/calculator) - [View in Browser](https://elfjhon.github.io/calculator/)
+- [toddzal's Solution](https://github.com/toddzal/odin-project-calculator) - [View in Browser](https://toddzal.github.io/odin-project-calculator/)
 </details>
