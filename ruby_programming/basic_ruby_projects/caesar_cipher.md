@@ -33,6 +33,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Harold Guido's Solution](https://github.com/harold-guido/ruby-beginner-exercises/blob/master/caesar_cipher/caesar_cipher.rb)
 * [Ornick Pouth's Solution](https://github.com/opouth/RubyProjects/blob/master/caesar_cipher.rb)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/caesar.rb)
 * [Peter Meglis's Solution](https://github.com/petermeglis/ruby/blob/master/theodinproject/basic_projects/caesar_cipher.rb)
