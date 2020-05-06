@@ -35,6 +35,15 @@ myObject[variable] // this is equivalent to myObject['property'] and returns 'Va
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) from our JavaScript 101 course.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Write an object constructor and instantiate the object.
+- Describe what a prototype is and how it can be used.
+- Explain prototypal inheritance.
+- Understand the basic do's and don't's of prototypical inheritance.
+- Explain what `Object.create` does.
+
 ### Objects as a Design Pattern
 
 One of the simplest ways you can begin to organize your code is by simply grouping things into objects. Take these examples from a 'tic tac toe' game:
