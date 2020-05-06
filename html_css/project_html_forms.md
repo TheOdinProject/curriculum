@@ -22,6 +22,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka/HTMLforms/) - [View in Browser](https://kaliberpoziomka.github.io/HTMLforms/)
+* [Alexander Nitiola's solution](https://github.com/TheCre8tor/mint_signup_form) - [View in Browser](https://thecre8tor.github.io/mint_signup_form/)
 * [skele-666's solution](https://github.com/skele-666/mint.com-signup-form) - [View in Browser](https://skele-666.github.io/mint.com-signup-form/)
 * [Mikael's solution](https://github.com/Mikearaya/signup-form) - [View in Browser](https://mikearaya.github.io/signup-form)
 * [Julio's solution](https://github.com/julio22b/html-form) - [View in Browser](https://julio22b.github.io/html-form/)
@@ -168,6 +170,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Veskenazi's Solution](https://github.com/veskenazi/html-forms) - [View in Browser](https://veskenazi.github.io/html-forms/)
 * [m-rejdych's Solution](https://github.com/m-rejdych/Form-Mint) - [View in browser](https://m-rejdych.github.io/Form-Mint/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/forms-practice) - [View in Browser](https://ranmaru22.github.io/the_odin_project/forms-practice/)
+* [Caosmagnvm's solution](https://github.com/caosmagnvm/MailchimpForm) - [View in Browser](https://caosmagnvm.github.io/MailchimpForm/)
+
 </details>
 
 ### Additional Resources

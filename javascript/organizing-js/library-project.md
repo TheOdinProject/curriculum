@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Davic64's Solution](https://github.com/davic64/library) - [View in Browser](https://davic64.github.io/library/)
+- [niconacht's Solution(Firebase Storage)](https://github.com/niconacht/Library_App) - [View in Browser](https://niconacht.github.io/Library_App/)
 - [MarcoDSilva's Solution(w/localStorage)](https://github.com/MarcoDSilva/Library-JS) - [View in Browser](https://marcodsilva.github.io/Library-JS/)
 - [Diane998's Solution(Firebase storage)](https://github.com/Diane998/library) - [View in Browser](https://diane998.github.io/library/)
 - [vedvardhan 's Solution](https://vedvardhan.github.io/Library/) - [View in Browser](https://vedvardhan.github.io/Library) 
@@ -92,7 +94,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Ashish's Solution](https://github.com/CodersGas/project-library) - [View in Browser](https://codersgas.github.io/project-library/Library.html)
 - [tracy2811's Solution](https://github.com/tracy2811/library) - [View in Browser](https://tracy2811.github.io/library/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/book-library) - [View in Browser](https://kikupiku.github.io/book-library/)
-- [mjwills-inf's Solution](https://github.com/mjwills-inf/library) - [View in Browser](https://mjwills-inf.github.io/library/)
+- [mjwills-inf's Solution](https://github.com/mjwills-inf/-TOP-library) - [View in Browser](https://mjwills-inf.github.io/-TOP-library/)
 - [chickenwing123's Solution](https://github.com/chickenwings123/Library) - [View in Browser](https://chickenwings123.github.io/Library/)
 - [Doskzorak's Solution](https://github.com/doskzorak/Library_Project)
 - [Greg's Solution](https://github.com/gregbast1994/odin-library) - [View in Browser](https://gregbast1994.github.io/odin-library/)

@@ -19,6 +19,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jc's Solution](https://github.com/avazkhan2808/project-weather) - [View in Browser](https://avazkhan2808.github.io/project-weather/)
 * [Andrea's Solution](https://github.com/fioriandrea/weather_app) - [View in Browser](https://fioriandrea.github.io/weather_app/)
 * [Lenny's Solution](https://github.com/Lenn-e/weather-app) - [View in Browser](https://lenn-e.github.io/weather-app/)
 * [Disco Trooper's Solution](https://github.com/disco-trooper/weather-app) - [View in Browser](https://disco-trooper.github.io/weather-app/)
@@ -82,4 +83,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [barrysweeney's Solution](https://github.com/barrysweeney/weather-app) - [View in Browser](https://barrysweeney.github.io/weather-app/)
 * [ranmaru22's Solution](https://github.com/ranmaru22/my-weather) - [View in Browser](https://ranmaru22.github.io/my-weather/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Weather-App) - [View in Browser](https://rey810.github.io/Weather-App/)
+* [thecodediver's Solution](https://github.com/thecodediver/api_testing) - [View in Browser](https://thecodediver.github.io/api_testing/)
 </details>
