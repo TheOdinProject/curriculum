@@ -69,6 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/tree/master/linked_list)
 - [pudu87's Solution](https://github.com/pudu87/linked-lists)
 - [Philipp's Solution (with extra credit)](https://github.com/philipp-mcvity/odin-ruby.linked_lists)
 - [YesSeri's Solution](https://github.com/YesSeri/linked-list/blob/master/linked-list.rb)

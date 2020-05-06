@@ -347,6 +347,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kendra Moyars's solution](https://github.com/kendramoyars/tic-tac-toe/blob/master/tic-tac-toe.rb)
 * [Matt Miller's solution](https://github.com/MattMiller1989/Tic-Tac-Toe/blob/master/Tic-Tac-Toe.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/tic-tac-toe)
+* [akoenig1's Solution](https://github.com/akoenig1/oop_project)
 </details>
 
 ### Project 2: Mastermind
@@ -632,6 +633,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/mastermind/blob/master/mastermind.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/mastermind)
 * [Matt M's Solution](https://github.com/MattMiller1989/Mastermind)
+* [akoenig1's Solution](https://github.com/akoenig1/oop_project/tree/master/mastermind)
 </details>
 
 ### Additional Resources
