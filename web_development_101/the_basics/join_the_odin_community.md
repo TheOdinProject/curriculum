@@ -92,7 +92,7 @@ Your Colorful Code
 <div class="lesson-content__panel" markdown="1">
 
   1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
-  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). Jump in and introduce yourself in the [introductions category](https://forum.theodinproject.com/c/introductions). Tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code. We also have [forum categories](https://forum.theodinproject.com/categories) for asking for help, working on Odin, and hanging out. 
-  3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
+  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). The primary use of the forum is to seek help within the community. We used to encourage introductions on there so you may see a lot of old introduction posts when you login for the first time but that meant a lot of questions for help got buried and went unanswered. We encourage introductions in the chat rooms and both the chat rooms and forum be used when seeking help.
+  3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
 
 </div>

@@ -1,7 +1,7 @@
 ### Introduction
 Before we can continue, we need to set up a development environment.
 
-If you are already using **MacOS** or **Linux**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS** or **Ubuntu**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 
 <details markdown="block">
@@ -10,7 +10,7 @@ If you are already using **MacOS** or **Linux**, you can skip this section. Othe
 
 Installing a virtual machine (VM) is the easiest and most reliable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance.
 
-### Step 1: Download VirtualBox and Linux
+### Step 1: Download VirtualBox and Xubuntu
 
 Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
@@ -18,7 +18,7 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 
 [Click here](https://www.virtualbox.org/wiki/Downloads) and download VirtualBox for Windows hosts.
 
-#### Step 1.2: Download Linux
+#### Step 1.2: Download Xubuntu
 
 There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 18.04](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
 
@@ -45,7 +45,9 @@ Click on the "New" button to create a virtual operating system. Give it a name o
 
 After completing the last step, click the "Create" button. Your new virtual OS should now appear in the menu. Right click on it, and go to "Settings". Click on the "System" tab and then the "Processor" tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer's BIOS/UEFI settings](https://www.google.com/search?q=enable+virtualization+windows).
 
-Next, go to the "Storage" tab and in the "Attributes" column, beside the "Optical Drive" indicator, click the round, blue icon. This will present a drop-down menu. Click "Choose Virtual Optical Disk File..." and select the Xubuntu ISO file you downloaded earlier. If you aren't sure where to find it, start by looking in your Downloads folder.
+Next, go to the "Storage" tab and in the "Storage Devices" column, beside the "Controller: IDE" indicator, click the round, blue icon with the green plus (Not the blue rectangular icon to the right). This will open a window called "Optical Disk Selector". Click the "Add" button, which is another blue icon with a green plus. Please locate your Xubuntu ISO you downloaded earlier and select it. If you aren't sure where to find it, start by looking in your Downloads folder. Once you have selected your ISO, hit the "Choose" button.
+
+If you would like to utilize more than one monitor, you can increase the "Monitor Count" attribute in the "Display" column. You may need to add some more video memory to get the slider in the green range. Once you get your VM up and running, we will explain how to display additional screens.
 
 With all that complete, click "OK" to save the changes.
 
@@ -57,7 +59,7 @@ The rest of the installation is pretty straightforward, but if you have any ques
 
 ### Step 3: Install and Enable Guest Additions
 
- Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. Guest Additions add a lot of functionality to the Guest OS, such as "Drag n Drop" files, full-screen guest mode, shared folders, and copy/paste between the host and guest.
+Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode.
 
 While your VM is running, do the following steps:
 
@@ -65,7 +67,7 @@ While your VM is running, do the following steps:
   2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
   3. The following commands will ask you to type the password you setup earlier. As you type your password, you'll notice there is no visual feedback as this is a security measure. When prompted for your password, just type it and then push Enter on your keyboard. Enter the following command into the terminal: `sudo apt-get update`. Once the command has finished, enter `sudo apt-get upgrade`. 
   4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
-  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password.
+  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password. If the terminal throws back an error, you can try again but replace $USER with your username you created in Xubuntu, but this should not be necessary.
   6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
   
   **NOTE**: 
@@ -77,27 +79,29 @@ While your VM is running, do the following steps:
 
 Here are some tips to help you get started in a virtual environment:
 
-* All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The linux installation inside of your VM also comes with a web browser pre-installed.
+* All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed.
 
-* To install software on your VM, you will follow the Linux installation instructions from inside the Xubuntu VM.
+* To install software on your VM, you will follow the Ubuntu installation instructions from inside the Xubuntu VM.
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
 * We recommend going full screen (Edit > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
+* If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
+
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Linux/Windows Dual-Boot
+<summary class="dropDown-header">Ubuntu/Windows Dual-Boot
 </summary>
 
 **Read this entire section before starting**
 
 Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
-### Step 1: Download Linux
+### Step 1: Download Ubuntu
 
-First, you need to download the version of Linux you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard [Ubuntu](https://www.ubuntu.com/download/desktop). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/). Be sure to download the 64-bit version of [Ubuntu](https://www.ubuntu.com/download/desktop/thank-you?version=18.04.1&architecture=amd64) or [Xubuntu](http://ftp.ussg.iu.edu/linux/xubuntu/18.04/release/xubuntu-18.04.3-desktop-amd64.iso).
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard [Ubuntu](https://www.ubuntu.com/download/desktop). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/). Be sure to download the 64-bit version of [Ubuntu](https://www.ubuntu.com/download/desktop/thank-you?version=18.04.1&architecture=amd64) or [Xubuntu](http://ftp.ussg.iu.edu/linux/xubuntu/18.04/release/xubuntu-18.04.3-desktop-amd64.iso).
 
 ### Step 2: Create a Bootable Flash Drive
 
@@ -109,7 +113,7 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 #### Step 3.1: Boot from the Flash Drive
 
-First, you need to boot Linux on your flash drive. The exact steps may vary, but in general, you will need to do the following:
+First, you need to boot Ubuntu on your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
 * Insert the flash drive into the computer.
 * Reboot the computer.
@@ -117,11 +121,11 @@ First, you need to boot Linux on your flash drive. The exact steps may vary, but
 
 For example, on a Dell computer, you would need to plug in the flash drive, reboot the computer, and press the F12 key while the computer is first booting up to bring up the boot menu. From there, you can select to boot from the flash drive. Your computer may not be exactly the same, but Google can help you figure it out.
 
-#### Step 3.1: Install Ubuntu
+#### Step 3.2: Install Ubuntu
 
 If you would like to test out the version of Ubuntu on the flash drive, click 'Try me'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step.
 
-Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Linux to 30 GB (or more if you can).
+Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
 
 For step-by-step instructions, please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
 
