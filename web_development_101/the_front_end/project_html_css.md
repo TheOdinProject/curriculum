@@ -116,6 +116,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Nspnosa's Solution (Both)](https://github.com/Nspnosa/google-homepage) - [View in Browser](https://nspnosa.github.io/google-homepage/)
 * [Cristian's Solution (Both)](https://github.com/cristianCeamatu/googleclone) - [View in Browser](https://cristianceamatu.github.io/googleclone/)
 * [arndzk's Solution (Easy)](https://github.com/arndzk/google-homepage) - [View in Browser](https://arndzk.github.io/google-homepage/)
+* [arndzk's Solution (Difficult)](https://github.com/arndzk/google-search-results) - [View in Browser](https://arndzk.github.io/google-search-results/)
 * [Kidkaze's Solution (Easy)](https://github.com/Kidkaze/google-homepage) - [View in Browser](https://kidkaze.github.io/google-homepage/)
 * [chunfai's Solution (Easy)](https://github.com/ashchunfai/google-homepage) - [View in Browser](https://ashchunfai.github.io/google-homepage/)
 * [Jessie Jalca's Solution (Both)](https://github.com/jessiejalca/google-homepage) - [View in Browser](https://jessiejalca.github.io/google-homepage/)
