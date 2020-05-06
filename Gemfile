@@ -47,7 +47,7 @@ group :development, :test, :docker do
   gem 'webmock',                          '~> 3.8'
   gem 'vcr',                              '~> 5.1'
   gem 'shoulda-matchers'
-  gem 'rake',                             '~> 12.3'
+  gem 'rake',                             '~> 13.0'
   gem 'rails-controller-testing'
   gem 'dotenv-rails'
   gem 'pry',                                '~> 0.13.1'
