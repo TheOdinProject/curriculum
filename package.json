@@ -3,7 +3,7 @@
   "dependencies": {
     "@babel/preset-react": "^7.9.4",
     "@rails/ujs": "^6.0.3",
-    "@rails/webpacker": "5.0.1",
+    "@rails/webpacker": "5.1.1",
     "babel-plugin-prismjs": "^2.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "^4.4.1",
