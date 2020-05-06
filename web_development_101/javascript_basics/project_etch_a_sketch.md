@@ -957,4 +957,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Dyrits's solution](https://github.com/Dyrits/WEBDEV-TOP-EAS) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-EAS/)
 * [alxmkh's solution](https://github.com/alxmkh/etch_a_sketch) - [View in Browser](https://alxmkh.github.io/etch_a_sketch/)
 * [mangakiko's Solution](https://github.com/magakiko/Etch-a-Sketch)
+* [toddzal's solution](https://github.com/toddzal/odin-project-etch-a-sketch) - [View in Browser](https://toddzal.github.io/odin-project-etch-a-sketch/)
 </details>
