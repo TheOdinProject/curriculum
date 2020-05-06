@@ -397,8 +397,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [TamerlanG's Solution (Difficult)](https://github.com/TamerlanG/google-search-page) - [View in Browser](https://tamerlang.github.io/google-search-page/)
 * [TamerlanG's Solution (Easy)](https://github.com/TamerlanG/google-homepage) - [View in Browser](https://tamerlang.github.io/google-homepage/)
 * [hamilto8's Solution (Difficult)](https://hamilto8.github.io/google-homepage/)
-* [mjwills-inf's Solution (Easy)](https://github.com/mjwills-inf/-TOP-google-homepage) - [View in Browser](https://mjwills-inf.github.io/google-homepage)
-* [mjwills-inf's Solution (Difficult)](https://github.com/mjwills-inf/-TOP-google-searchpage) - [View in Browser](https://mjwills-inf.github.io/-TOP-google-searchpage/)
 * [JeremyBeyond's Solution (EASY)](https://github.com/ugSh7hbY/google-homepage/tree/master/google-homepage)
 * [Hilbert França's Solution (Easy)](https://github.com/Hilbertmf/hilbertmf.github.io/tree/master/projects/google-homepage) - [View in Browser](https://hilbertmf.github.io/projects/google-homepage/)
 * [MMJohnson385's Solution (Easy)](https://mmjohnson385.github.io/google-homepage/)

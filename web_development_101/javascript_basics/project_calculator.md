@@ -146,7 +146,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [tacodtripa's Solution](https://github.com/tacodtripe/calculator) - [View in Broser](https://tacodtripe.github.io/calculator/)
 - [Alexis Zambrano Solution](https://github.com/Alexoid1/Calculator) - [View in Browser](https://alexoid1.github.io/Calculator/)
 - [Armo's Solution](https://github.com/Armoilane/calculator) - [View in Browser](https://armoilane.github.io)
-- [mjwills-inf' Solution](https://github.com/mjwills-inf/-TOP-calculator) - [View in Browser](https://mjwills-inf.github.io/-TOP-calculator/)
 - [Robin's Solution](https://github.com/Robinnnnnn/Odin_calculator) - [View in Browser](https://Robinnnnnn.github.io/)
 - [Charles Briggs's Solution](https://github.com/ChuckBriggs/calculator) - [View in Browser](https://chuckbriggs.github.io/calculator/)
 - [CharlotteHues' Solution](https://github.com/charlotte-hues/calculator) - [View in Browser](https://charlotte-hues.github.io/calculator/)
