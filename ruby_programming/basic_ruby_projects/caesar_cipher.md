@@ -34,7 +34,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Harold Guido's Solution](https://github.com/harold-guido/ruby-beginner-exercises/blob/master/caesar_cipher/caesar_cipher.rb)
-* [Ornick Pouth's Solution @opouth](https://github.com/opouth/RubyProjects/blob/master/caesar_cipher.rb)
+* [Ornick Pouth's Solution](https://github.com/opouth/RubyProjects/blob/master/caesar_cipher.rb)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/caesar.rb)
 * [Peter Meglis's Solution](https://github.com/petermeglis/ruby/blob/master/theodinproject/basic_projects/caesar_cipher.rb)
 * [Braxton Massengale's Solution](https://github.com/BraxMassengale/caesar-cipher-ruby/blob/master/main.rb)
@@ -85,7 +85,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Michael Marchand's Solution](https://github.com/MarchandMD/Odin_Project_coursework/blob/master/caeser_cipher/caeser_cipher.rb)
 * [Paulo Felipe's Solution](https://github.com/Pauloparakleto/caesar_cipher/blob/master/caesar_cipher_case_sensitive.rb)
 * [Uzay-G's Solution](https://github.com/Uzay-G/ruby_exercises/blob/master/caesar.rb)
-* [BasicBrownie](https://github.com/basicbrownie/ruby_basics)
+* [BasicBrownie Solution](https://github.com/basicbrownie/ruby_basics)
 * [Billy Coffin's Solution](https://github.com/bcoffin9/odin-ruby)
 * [Ian's Solution](https://github.com/IanMKesler/practice/blob/master/caesar-cipher.rb)
 * [Saranoya's Solution](https://github.com/Saranoya/odin/blob/master/ruby/basics/caesar_cipher.rb)
