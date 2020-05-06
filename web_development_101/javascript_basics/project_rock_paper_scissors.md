@@ -62,7 +62,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [devcsantos' Solution](https://github.com/devcsantos/rock-paper-scissors) - [View in Browser](https://devcsantos.github.io/rock-paper-scissors/)
 - [Duopica's Solution](https://github.com/duopica/rock-paper-scissors) - [View in Browser](https://duopica.github.io/rock-paper-scissors/) 
 - [notstoe's solution](https://github.com/notstoe/rock-paper-scissors)
-- [fviccia's Solution](https://github.com/fviccia/rock-paper-scissors)
+- [fviccia's Solution](https://github.com/fviccia/rock-paper-scissors) - [View in Browser](https://fviccia.github.io/rock-paper-scissors/) 
 - [Jbautista1056's Solution](https://github.com/Jbautista1056/RPSproject.io) - [View in Browser](https://jbautista1056.github.io/RPSproject.io/) 
 - [Jcoen's Solution](https://github.com/J-coen/rock-paper-scissors) - [View in Browser](https://j-coen.github.io/rock-paper-scissors/)
 - [rjpmagalang's Solution](https://github.com/rjpmagalang/rock-paper-scissors) - [View in Browser](https://rjpmagalang.github.io/rock-paper-scissors/)
