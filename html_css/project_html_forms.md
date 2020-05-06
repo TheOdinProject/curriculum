@@ -170,6 +170,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Veskenazi's Solution](https://github.com/veskenazi/html-forms) - [View in Browser](https://veskenazi.github.io/html-forms/)
 * [m-rejdych's Solution](https://github.com/m-rejdych/Form-Mint) - [View in browser](https://m-rejdych.github.io/Form-Mint/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/forms-practice) - [View in Browser](https://ranmaru22.github.io/the_odin_project/forms-practice/)
+* [Caosmagnvm's solution](https://github.com/caosmagnvm/MailchimpForm) - [View in Browser](https://caosmagnvm.github.io/MailchimpForm/)
+
 </details>
 
 ### Additional Resources
