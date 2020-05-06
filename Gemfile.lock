@@ -280,14 +280,14 @@ GEM
       addressable
       css_parser (>= 1.6.0)
       htmlentities (>= 4.0.0)
-    premailer-rails (1.11.0)
+    premailer-rails (1.11.1)
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
     psych (3.1.0)
-    public_suffix (4.0.3)
+    public_suffix (4.0.4)
     puma (4.3.3)
       nio4r (~> 2.0)
     rack (2.2.2)
@@ -502,7 +502,7 @@ DEPENDENCIES
   omniauth-google-oauth2
   omniauth-rails_csrf_protection
   pg (~> 0.19)
-  premailer-rails (~> 1.9)
+  premailer-rails (~> 1.11)
   pry (~> 0.13.1)
   puma
   rack-attack
