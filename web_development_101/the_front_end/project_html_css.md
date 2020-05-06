@@ -3319,6 +3319,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Zeebear's Solution (Easy)](https://github.com/zeebear/google-homepage) - [View in Browser](https://zeebear.github.io/google-homepage/)
 * [ayush12jain's Solution (Easy)](https://github.com/ayush12jain/google-homepage) - [View in Browser](https://ayush12jain.github.io/google-homepage/)
 * [Knuttas's Solution (Easy)](https://github.com/Knuttas/google-homepage)
+* [pizzanomicz's Solutions (Easy)] (https://github.com/pizzanomicz/google-homepage) - [View in Browser] (https://pizzanomicz.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
