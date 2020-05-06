@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+-[Nelson116's Solution](
+https://github.com/Nelson116/RPS) - [View in Browser](https://nelson116.github.io/RPS/)
 - [rEdDz's Solution](https://github.com/rEdDz45/rock-paper-scissors) - [View in Browser](https://reddz45.github.io/rock-paper-scissors/)
 - [grogsden's Solution](https://github.com/grogsden/rockPaperScissors)
 - [cybmdm Solution](https://github.com/cybmdm/RockPaperScissors)
