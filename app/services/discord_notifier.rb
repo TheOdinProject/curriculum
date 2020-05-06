@@ -18,6 +18,6 @@ class DiscordNotifier
   attr_reader :notification
 
   def client
-    Discordrb::Webhooks::Client.new(url: ENV['DISCORD_LESSON_COMPLETION_WEBHOOK_URL'])
+    Discordrb::Webhooks::Client.new(url: notification.destination)
   end
 end

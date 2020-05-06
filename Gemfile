@@ -52,6 +52,8 @@ group :development, :test, :docker do
   gem 'dotenv-rails'
   gem 'pry',                                '~> 0.13.1'
   gem 'factory_bot'
+  gem 'climate_control'
+  gem 'timecop'
 end
 
 group :development, :docker do

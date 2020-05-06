@@ -4,10 +4,7 @@ class LessonCompletionsController < ApplicationController
   before_action :set_user
 
   def create
-    lesson_completion =  LessonCompletion.create(student_id: current_user.id, lesson_id: @lesson.id)
-    notification = Notifications::LessonCompletion.new(lesson_completion)
-
-    DiscordNotifier.notify(notification)
+    LessonCompletion.create(student_id: current_user.id, lesson_id: @lesson.id)
   end
 
   def destroy

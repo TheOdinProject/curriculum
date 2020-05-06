@@ -98,6 +98,7 @@ GEM
       sassc-rails (>= 2.0.0)
     builder (3.2.4)
     cancancan (3.1.0)
+    climate_control (0.2.0)
     codeclimate-engine-rb (0.4.1)
       virtus (~> 1.0)
     coderay (1.1.2)
@@ -429,6 +430,7 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
+    timecop (0.9.1)
     toastr-rails (1.0.3)
       railties (>= 3.1.0)
     turbolinks (5.2.1)
@@ -481,6 +483,7 @@ DEPENDENCIES
   binding_of_caller (~> 0.8)
   bootstrap (>= 4.4.1)
   cancancan
+  climate_control
   database_cleaner (~> 1.5)
   derailed
   devise (>= 4.7.1)
@@ -522,6 +525,7 @@ DEPENDENCIES
   simplecov
   skylight
   sprockets (~> 3.7.2)
+  timecop
   toastr-rails
   turbolinks
   uglifier (~> 3.0)
