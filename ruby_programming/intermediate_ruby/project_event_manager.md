@@ -123,7 +123,7 @@ most straightforward is `File.read`
 ~~~ruby
 puts "EventManager initialized."
 
-contents = File.read "event_attendees.csv"
+contents = File.read "../event_attendees.csv"
 puts contents
 ~~~
 
