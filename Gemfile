@@ -50,7 +50,7 @@ group :development, :test, :docker do
   gem 'rake',                             '~> 12.3'
   gem 'rails-controller-testing'
   gem 'dotenv-rails'
-  gem 'pry',                                '~> 0.12.2'
+  gem 'pry',                                '~> 0.13.1'
   gem 'factory_bot'
 end
 

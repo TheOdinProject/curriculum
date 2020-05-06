@@ -226,7 +226,7 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     memory_profiler (0.9.14)
-    method_source (0.9.2)
+    method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2020.0425)
@@ -283,9 +283,9 @@ GEM
     premailer-rails (1.11.0)
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
-    pry (0.12.2)
-      coderay (~> 1.1.0)
-      method_source (~> 0.9.0)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     psych (3.1.0)
     public_suffix (4.0.3)
     puma (4.3.3)
@@ -512,7 +512,7 @@ DEPENDENCIES
   omniauth-rails_csrf_protection
   pg (~> 0.19)
   premailer-rails (~> 1.9)
-  pry (~> 0.12.2)
+  pry (~> 0.13.1)
   puma
   rack-attack
   rack-timeout (~> 0.4)
