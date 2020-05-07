@@ -134,6 +134,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [CodingCop's Solution](https://github.com/cleve703/chess)
 * [Timework's Solution](https://github.com/Timework/chess)
 * [Robert Suazo's Solution](https://github.com/rsuazo/chess)
+* [Matt Miller's Solution](https://github.com/MattMiller1989/Chess)
 
 </details>
 

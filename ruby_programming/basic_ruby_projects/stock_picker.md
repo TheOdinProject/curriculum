@@ -27,6 +27,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/stock-picker-project)
+* [Peter Meglis's Solution](https://github.com/petermeglis/ruby/blob/master/theodinproject/basic_projects/stock_picker.rb)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/stocks/blob/master/stocks.rb)
 * [AmirHossein's Solution](https://github.com/ahparsapour/ruby-stockpicker/blob/master/stock_picker.rb)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Ruby_Building_Blocks/blob/master/stocks.rb)
@@ -485,4 +487,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/stock-picker)
 * [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/stock-picker.rb)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/stock_picker.rb)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/stock-picker.rb)
 </details>
