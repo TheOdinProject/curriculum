@@ -45,7 +45,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
 * [Jcoen solution](https://github.com/J-coen/odin-etch) - [View in Browser](https://j-coen.github.io/odin-etch/)
 * [cxxiii's Solution](https://github.com/cxxiii/etch-a-sketch) - [View in Browser](https://cxxiii.github.io/etch-a-sketch/)
 * [Bassart94's Solution](https://github.com/bassart94/Etch-A-Sketch) - [View in Browser](https://bassart94.github.io/Etch-A-Sketch/)
