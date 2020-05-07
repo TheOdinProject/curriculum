@@ -164,4 +164,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [thecodediver's Solution](https://github.com/thecodediver/restaurant_page) - [View in Browser](https://thecodediver.github.io/restaurant_page/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Restaurant-Page) - [View in Browser](https://m-rejdych.github.io/Restaurant-Page/)
 - [alicee88's Solution](https://github.com/alicee88/odin-restaurant) - [View in Browser](https://alicee88.github.io/odin-restaurant/)
+- [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/restaurant-page/settings) - [View in Browser](https://ozansozuozgit.github.io/restaurant-page/)
 </details>
