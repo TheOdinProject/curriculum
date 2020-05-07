@@ -3321,6 +3321,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kenny Wang's Solution (Easy)](https://github.com/nankan6111/google_homepage/) - [View in Browser](https://nankan6111.github.io/google_homepage/)
 * [Zeebear's Solution (Easy)](https://github.com/zeebear/google-homepage) - [View in Browser](https://zeebear.github.io/google-homepage/)
 * [ayush12jain's Solution (Easy)](https://github.com/ayush12jain/google-homepage) - [View in Browser](https://ayush12jain.github.io/google-homepage/)
+* [dinoburoh's solution(Easy)](https://github.com/dinoburoh/google-homepage.git) - [View in Browser](https://dinoburoh.github.io/google-homepage/)
 * [Knuttas's Solution (Easy)](https://github.com/Knuttas/google-homepage)
 * [pizzanomicz's Solutions (Easy)](https://github.com/pizzanomicz/google-homepage) - [View in Browser](https://pizzanomicz.github.io/google-homepage/)
 * [whitekoel's Solution (Easy)](https://github.com/whitekoel/google-homepage) - [View in Browser](https://whitekoel.github.io/google-homepage/)
