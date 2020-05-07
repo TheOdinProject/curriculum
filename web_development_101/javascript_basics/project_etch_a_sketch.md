@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Oluwatobi Sofela's solution](https://github.com/Oluwatobi-S/etch-a-sketch) - [View in browser](https://oluwatobi-s.github.io/etch-a-sketch/)
 * [Nico's solution](https://github.com/niconap/etch-a-sketch) - [View in browser](https://niconap.github.io/etch-a-sketch/)
 * [Jcoen solution](https://github.com/J-coen/odin-etch) - [View in Browser](https://j-coen.github.io/odin-etch/)
 * [cxxiii's Solution](https://github.com/cxxiii/etch-a-sketch) - [View in Browser](https://cxxiii.github.io/etch-a-sketch/)
@@ -962,5 +963,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [mangakiko's Solution](https://github.com/magakiko/Etch-a-Sketch)
 * [toddzal's solution](https://github.com/toddzal/odin-project-etch-a-sketch) - [View in Browser](https://toddzal.github.io/odin-project-etch-a-sketch/)
 * [Sandy's solution](https://github.com/kuosandys/etch-a-sketch) - [View in Browser](https://kuosandys.github.io/etch-a-sketch/)
-* [Sofie's solution](https://github.com/sofdit76139/Etch-a-Sketch) - [View in Browser](https://sofdit76139.github.io/Etch-a-Sketch/)
 </details>
