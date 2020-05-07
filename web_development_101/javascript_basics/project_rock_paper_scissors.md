@@ -1485,4 +1485,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [seangoat's Solution](https://github.com/seangoats/Project-Rock-Paper-Scissors-TOP-)
 - [mgin's Solution](https://github.com/mvangin/rock-paper-scissors) [View in Browser](https://mvangin.github.io/rock-paper-scissors/)
 - [FBRAA's Solution](https://github.com/FBRAA/OdinProject.git) 
+- [Dyskgo's Solution](https://github.com/dyskgo/rockpaperscissors) - [View in Browser](https://dyskgo.github.io/rockpaperscissors/)
 </details>
