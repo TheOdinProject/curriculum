@@ -63,12 +63,21 @@ Your regular operating system (Windows in this case) is called the **Host**, and
 
 While your VM is running, do the following steps:
 
-  1. Click "Devices" -> "Insert Guest additions CD image" in the menu bar
-  2. Open a terminal by pushing `ctrl + alt+ t` on the keyboard, if a terminal does not open, click anywhere on the desktop of the VM and try again.
-  3. The following commands will ask you to type the password you setup earlier. As you type your password, you'll notice there is no visual feedback as this is a security measure. When prompted for your password, just type it and then push Enter on your keyboard. Enter the following command into the terminal: `sudo apt-get update`. Once the command has finished, enter `sudo apt-get upgrade`. 
-  4. Type the following command into the terminal: `sudo apt install gcc make perl`. You might be requested to enter in your password again. If an error is thrown, reboot the VM and try the steps in this list again.
-  5. Run: `sudo /media/$USER/VBox*/VBoxLinux*.run` This might also require you to enter your password. If the terminal throws back an error, you can try again but replace $USER with your username you created in Xubuntu, but this should not be necessary.
-  6. Run `reboot` in the terminal, and the VM should reboot. If this does not work, reboot the VM by clicking the "start" menu, and selecting "reboot."
+  1. Click the **Whisker Menu** <img width=25px src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/xubuntu-512.png" alt="Whisker Menu Icon"> on the top left of the desktop.
+  2. Type `Software Updater` in the text field that opens up and click on the item with the same name.
+  3. Install all available updates. If there are no available updates, move on to Step 5.
+  4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
+  5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
+  6. Copy and paste this into the terminal and hit enter: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to.
+  7. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
+  8. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
+  9. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
+  10. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
+  11. Double-click on the CD icon on the VM desktop.
+  12. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
+  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
+  14. Once it finishes, reboot your VM (which you can do by typing `reboot` and hitting enter).
+  15. You can now maximize the VM window, use the shared clipboard, and create additional displays, among many other useful features. These options are available on the VM toolbar under **View** and **Device**.
   
   **NOTE**: 
 
