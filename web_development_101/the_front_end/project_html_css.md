@@ -93,6 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Christoph's Solution (Easy)](https://github.com/vertskater/google-homepage) - [View in Browser](https://vertskater.github.io/google-homepage)
 * [Evan Chipman's Solution (Easy)](https://github.com/AntwuanDixon/google_mirror_odin) - [View in Browser](http://chipman-google-mirror.surge.sh/)
 * [Roger Jiang's Solution (Easy)](https://github.com/imrogerjiang/google-homepage) - [View in Browser](https://imrogerjiang.github.io/google-homepage/)
 * [JHPHamwise's Solution (Easy)](https://github.com/JHPHamwise/google-homepage) - [View in Browser](https://jhphamwise.github.io/google-homepage/)
