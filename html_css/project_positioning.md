@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrea's solution](https://github.com/fioriandrea/nyt-article) - [View in Browser](https://fioriandrea.github.io/nyt-article/)
 * [Mikael's solution](https://github.com/Mikearaya/new-york-times-clone) - [View in Browser](https://mikearaya.github.io/new-york-times-clone/)
 * [Julio's solution](https://github.com/julio22b/nyt-article-clone/) - [View in Browser](https://julio22b.github.io/nyt-article-clone/)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/newYorkTimesClone) - [View in Browser](https://amdrija.github.io/newYorkTimesClone/)
@@ -133,6 +134,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [0xtaf's Solution](https://github.com/0xtaf/css-nyt) - [View in Browser](https://0xtaf.github.io/css-nyt/)
 * [Scott Bowles's Solution](https://github.com/scottBowles/nyt-article-layout-clone) - [View in Browser](https://scottbowles.github.io/nyt-article-layout-clone/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-nyt-page-clone) - [View in Browser](https://adrieltrigger.github.io/top-nyt-page-clone/)
+* [Veskenazi's Solution](https://github.com/veskenazi/new-york-times-article-clone) - [View in Browser](https://veskenazi.github.io/new-york-times-article-clone/)
+* [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/nyt_article_clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/nyt_article_clone/)
 
 </details>
 
