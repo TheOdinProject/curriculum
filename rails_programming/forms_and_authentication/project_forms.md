@@ -81,8 +81,8 @@ That looks a whole lot like what you normally see when Rails does it, right?
 Now we'll start morphing our form into a full Rails form using the `#form_tag` and `#*_tag` helpers.  There's actually very little additional help that's going on and you'll find that you're mostly just renaming HTML tags into Rails tags.
 
 1. Comment out your entire HTML form.  It may be helpful to save it for later on if you get stuck.
-2. Convert your `<form>` tag to use a `#form_tag` helper and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically.
-3. See the [Form Tag API Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) for a list and usage of all the input methods you can use with `#form_tag`. 
+2. Convert your `<form>` tag to use a `#form_tag` helper and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically. `#form_tag` is soft-depracated as stated in the current Rails Guide. You can find the older documentation [here](https://guides.rubyonrails.org/v5.2/form_helpers.html).
+3. See the [Form Tag API Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) for a list and usage of all the input methods you can use with `#form_tag`.
 4. Test out your form.  You'll need to change your `#create` method in the controller to once again accept normal top level User attributes, so uncomment the old `User.new` line and comment out the newer one.
 5. You've just finished the first step.
 
@@ -117,6 +117,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_forms)
 * [leetie's Solution](https://github.com/leetie/re-former)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/re-former)
 * [Grant Cottle's Solution](https://github.com/grantmaster89/re-former)
