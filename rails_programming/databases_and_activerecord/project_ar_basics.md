@@ -247,6 +247,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [guacamobley's solution](https://github.com/guacamobley/micro-reddit)
 * [wilmir's Solution](https://github.com/Wilmir/micro-reddit)
 * [Lucas' Solution](https://github.com/Lucas-Vergara/micro-reddit)
+* [Timework's Solution](https://github.com/Timework/micro_reddit)
 </details>
 
 ### Additional Resources
