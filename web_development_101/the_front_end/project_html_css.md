@@ -3324,11 +3324,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Knuttas's Solution (Easy)](https://github.com/Knuttas/google-homepage)
 * [pizzanomicz's Solutions (Easy)](https://github.com/pizzanomicz/google-homepage) - [View in Browser](https://pizzanomicz.github.io/google-homepage/)
 * [whitekoel's Solution (Easy)](https://github.com/whitekoel/google-homepage) - [View in Browser](https://whitekoel.github.io/google-homepage/)
-<<<<<<< HEAD
 * [vic betancourt's Solution (Easy)](https://github.com/vic-betvncourt/google-homepage) - [View in Browser](https://vic-betvncourt.github.io/google-homepage/)
-=======
 * [Oscar Palomec's Solution (Easy)](https://github.com/oscarpalomec/google-homepage) - [View in Browser](https://oscarpalomec.github.io/google-homepage/)
->>>>>>> aafd29831b35f7f54f697a06dd850cc1b1c53788
+* [Manu Ferreira's Solution (Easy)](https://github.com/manuferreira/google-homepage) - [View in Browser](https://manuferreira.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
