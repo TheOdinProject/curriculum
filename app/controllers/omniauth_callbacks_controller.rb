@@ -7,6 +7,7 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
     update_users_avatar if avatar_needs_updated?
 
     if @user.persisted?
+      @user.remember_me = true
       sign_in_and_redirect @user
       set_flash_message(:notice, :success, :kind => provider_title)
     else
@@ -27,9 +28,6 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
     auth.provider.capitalize
   end
 
-  def provider_data
-    "#devise.#{auth}_data"
-  end
 
   def update_users_avatar
     @user.update_avatar(avatar_from_provider)
