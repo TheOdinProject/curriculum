@@ -550,4 +550,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/caesar-cipher.rb)
 * [Wuna's Solution](https://github.com/Wuna-muhammad/Ceaser_Cipher_ruby/blob/master/Caecer_cipher.rb)
 * [ExcentricEevee's Solution](https://github.com/ExcentricEevee/caeser_cipher/blob/master/caesar_cipher.rb)
+* [OchsafuLerchenau's Solution](https://github.com/OchsaufLerchenau/caesar-ruby/blob/master/caesar_cipher.rb)
 </details>
