@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Tic_Tac_Toe) - [View in Browser](https://vedantshetty.github.io/Odin_Project_Code/Tic_Tac_Toe/)
 - [Lucio's Solution](https://github.com/JCarlosLucio/tic-tac-toe) - [View in Browser](https://jcarloslucio.github.io/tic-tac-toe/)
 - [Austin's Solution](https://github.com/cudworth/tic-tac-toe) - [View in Browser](https://cudworth.github.io/tic-tac-toe/)
 - [LenaChestnut's Solution](https://github.com/LenaChestnut/tic-tac-toe) - [View in Browser](https://lenachestnut.github.io/tic-tac-toe/)
