@@ -42,7 +42,7 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
 9. At the end of the `app.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
 10.  At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
-11. Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
+11.   Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
 
    ~~~json
    "engines": { "node": "10.x.y" },
