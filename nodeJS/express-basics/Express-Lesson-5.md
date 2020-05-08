@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Igorashs's Solution](https://github.com/igorashs/express-locallibrary) - [View in Browser](https://peaceful-refuge-59435.herokuapp.com/catalog)
 - [Kris Tobiasson's Solution](https://github.com/highpockets/express-locallibrary-tutorial.git) - [View in Browser](https://morning-basin-71826.herokuapp.com/catalog)
 - [Vanessacor's Solution](https://github.com/vanessacor/express-locallibrary-tutorial) - [View in Browser](https://limitless-wildwood-80852.herokuapp.com/catalog)
+- [Obylisk's Solution](https://github.com/obylisk/local-library) - [View in Browser](https://quiet-peak-91437.herokuapp.com/catalog)
 - [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/express-locallibrary-tutorial) - [View in Browser](https://henriquesousa-locallibrary.herokuapp.com/)
 - [tracy2811's Solution](https://github.com/tracy2811/express-locallibrary-tutorial)
 - [Vollantre's Solution](https://github.com/vollantre/express-locallibrary-tutorial) - [View in Browser](https://afternoon-reaches-87917.herokuapp.com/)
@@ -45,5 +46,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Jake's Solution](https://github.com/jdonahue135/localLibrary) - [View in Browser](https://secure-shore-83072.herokuapp.com/)
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/express-local-library) - [View in Browser](https://secure-shelf-13534.herokuapp.com/)
 - [Mo's Solution](https://github.com/motr551/Library) - [View in Browser](https://motrlibrary.herokuapp.com/)
+- [Tayfun Sur's Solution](https://github.com/0xtaf/local-library) - [View in Browser](https://guarded-falls-62198.herokuapp.com/)
 
 </details>
