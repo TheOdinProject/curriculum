@@ -93,6 +93,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [bobbychicano's Solution (Easy)](https://bobbychicano.github.io/google-homepage/) - [View in Browser](https://bobbychicano.github.io/google-homepage/)
+* [Salvador Villalon's Solution (Easy)](https://github.com/salvillalon45/theOdinProject-GoogleHomePage) - [View in Browser](https://salvillalon45.github.io/theOdinProject-GoogleHomePage/index.html)
 * [Christoph's Solution (Easy)](https://github.com/vertskater/google-homepage) - [View in Browser](https://vertskater.github.io/google-homepage)
 * [Evan Chipman's Solution (Easy)](https://github.com/AntwuanDixon/google_mirror_odin) - [View in Browser](http://chipman-google-mirror.surge.sh/)
 * [Roger Jiang's Solution (Easy)](https://github.com/imrogerjiang/google-homepage) - [View in Browser](https://imrogerjiang.github.io/google-homepage/)
@@ -3328,6 +3330,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [vic betancourt's Solution (Easy)](https://github.com/vic-betvncourt/google-homepage) - [View in Browser](https://vic-betvncourt.github.io/google-homepage/)
 * [Oscar Palomec's Solution (Easy)](https://github.com/oscarpalomec/google-homepage) - [View in Browser](https://oscarpalomec.github.io/google-homepage/)
 * [Manu Ferreira's Solution (Easy)](https://github.com/manuferreira/google-homepage) - [View in Browser](https://manuferreira.github.io/google-homepage/)
+* [Christos's Solution (Easy)](https://github.com/ChristosRaptis/google-homepage-) - [View in Browser](https://christosraptis.github.io/google-homepage-/)
+* [Viral Haria's Solution (Easy)](https://github.com/viralharia/google-homepage) - [View in Browser](https://viralharia.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
