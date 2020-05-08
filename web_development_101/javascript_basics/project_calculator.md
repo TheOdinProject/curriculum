@@ -658,4 +658,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [toddzal's Solution](https://github.com/toddzal/odin-project-calculator) - [View in Browser](https://toddzal.github.io/odin-project-calculator/)
 - [msespos's Solution](https://github.com/msespos/calculator) - [View in Browser](https://msespos.github.io/calculator/)
 - [Dyrit's Solution](https://github.com/Dyrits/WEBDEV-TOP-CALCULATOR) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-CALCULATOR)
+- [sokafootball's Solution](https://github.com/sokafootball/js-calculator) - [View in Browser](https://sokafootball.github.io/js-calculator/)
 </details>
