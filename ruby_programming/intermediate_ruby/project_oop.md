@@ -19,9 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [Kfollen93's Solution](https://github.com/Kfollen93/Tic_Tac_Toe)
-=======
 * [Mikael's Solution](https://mikearaya.github.io/tic-tac-toe) - [Vew in repl.it](https://repl.it/@MichaelAraya1/tic-tac-toe)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/tic_tac_toe) - [Vew in repl.it](https://repl.it/@NickDiPreta/tictactoe-2)
 * [threeaces' Solution](https://github.com/threeaces/tic_tac_toe_ruby_top/blob/master/tic_tac_toe.rb)  
@@ -30,7 +28,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Christian's Solution](https://github.com/rueeazy/OOP/blob/master/tic-tac-toe.rb)
 * [AmirHossein's Solution](https://github.com/ahparsapour/tick-tock-toe) - [View in repl.it](https://repl.it/@AmirHosseinPars/tick-tock-toe)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/tictactoe.rb)
->>>>>>> d61588c0da0e027c80fca06c6c4307f29beee8f7
 * [rryand's Solution](https://github.com/rryand/tic_tac_toe_ruby) - [View in repl.it](https://repl.it/@rryand/tictactoeruby)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_TicTacToe) - [View in repl.it](https://repl.it/@rlmoser/rubyTicTacToe)
 * [Servante's Solution](https://github.com/Servante/Odin-Projects/blob/master/tic_tac_toe.rb)
