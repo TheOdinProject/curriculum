@@ -53,7 +53,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [milicen's Solution](https://github.com/milicen/RockPaperScissors.git) - [View in Browser](https://milicen.github.io/RockPaperScissors/)
 - [Big Floating Death Panda's Solution](https://github.com/BigFloatingDeathPanda/rock-paper-scissors) - [View in Browser](https://bigfloatingdeathpanda.github.io/rock-paper-scissors/)
 - [Lee Massey's Solution](https://github.com/LeeMassey/rock_paper_scissors) - [View in Browser](https://leemassey.github.io/rock_paper_scissors/)
-- [Dean Oh's Solution](https://github.com/JuicyMelon/RPC)
+- [Dean Oh's Solution](https://github.com/JuicyMelon/RPC) - [View in Browser] (https://juicymelon.github.io/RPC/)
 - [Nspnosa's Solution](https://github.com/Nspnosa/rock-paper-scissors) - [View in Browser](https://nspnosa.github.io/rock-paper-scissors/)
 - [HD's Solution](https://github.com/hxnrydavid/rock-paper-scissors)
 - [Michan's Solution](https://github.com/Michan0628/rock-paper-scissors)
