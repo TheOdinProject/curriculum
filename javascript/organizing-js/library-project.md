@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Platyphyllum's Solution (w/ Firebase)](https://github.com/marboleda/library) - [View in Browser](https://marboleda.github.io/library/)
 - [Davic64's Solution](https://github.com/davic64/library) - [View in Browser](https://davic64.github.io/library/)
 - [niconacht's Solution(Firebase Storage)](https://github.com/niconacht/Library_App) - [View in Browser](https://niconacht.github.io/Library_App/)
 - [MarcoDSilva's Solution(w/localStorage)](https://github.com/MarcoDSilva/Library-JS) - [View in Browser](https://marcodsilva.github.io/Library-JS/)
@@ -267,4 +268,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [JCoen's Solution (w/localStorage)](https://github.com/J-coen/Odin-library-project) - [View in Browser](https://j-coen.github.io/Odin-library-project/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/library) - [View in Browser](https://ozansozuozgit.github.io/library/)
 - [kbrdsk's Solution (w/firebase)](https://github.com/kbrdsk/library) - [View in Browser](https://kbrdsk.github.io/library/)
+- [Tristan Ross's Solution](https://github.com/TristanRoss/Library) - [View in Browser](https://tristanross.github.io/Library/)
 </details>
+
