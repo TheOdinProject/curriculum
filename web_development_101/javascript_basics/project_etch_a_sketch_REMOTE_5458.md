@@ -45,8 +45,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
-* [Cesar's Solution](https://github.com/Cesar-rdgz/Etch-A-Sketch) - [View in Browser](https://cesar-rdgz.github.io/Etch-A-Sketch/)
 * [RannoL's Solution](https://github.com/RannoL/Etch-a-Sketch) - [View in Browser](https://rannol.github.io/Etch-a-Sketch/)
 * [Lee Massey's Solution](https://github.com/LeeMassey/etch_a_sketch) - [View in Browser](https://leemassey.github.io/etch_a_sketch)
 * [Oluwatobi Sofela's Solution](https://github.com/Oluwatobi-S/etch-a-sketch) - [View in Browser](https://oluwatobi-s.github.io/etch-a-sketch/)
@@ -92,7 +90,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Nathan's Solution](https://github.com/NathanJReidy/ETCH-A-SKETCH) - [View in Browser](https://nathanjreidy.github.io/ETCH-A-SKETCH/)
 * [AmirHossein's Solution](https://github.com/AmirHosseinParsapour/etch-a-sketch) - [View in Browser](https://amirhosseinparsapour.github.io/etch-a-sketch/)
 * [Matt Fergoda's Solution](https://github.com/mattfergoda/etch-a-sketch) - [View in Browser](https://mattfergoda.github.io/etch-a-sketch/)
->>>>>>> master
 * [rpllpr's Solution](https://github.com/rpllpr/etch-a-sketch) - [View in Browser](https://rpllpr.github.io/etch-a-sketch/)
 * [jvelardis Solution](https://github.com/jvelardi/etchasketch) - [View in Browser](https://jvelardi.github.io/etchasketch/)
 * [Shubham's Solution](https://github.com/mubshah/etch-a-sketch) - [View in Browser](https://mubshah.github.io/etch-a-sketch/)

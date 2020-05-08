@@ -28,12 +28,22 @@ Next, make sure your method can handle multiple words:
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/project_building_blocks.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby_projects/sub_strings.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Harold Guido's Solution](https://github.com/harold-guido/ruby-beginner-exercises/tree/master/substring)
+* [Peter Meglis's Solution](https://github.com/petermeglis/ruby/blob/master/theodinproject/basic_projects/sub_strings.rb)
+* [Nick DiPreta's Solution](https://github.com/NickDiPreta/substringsmethod/blob/master/subs.rb)
+* [AmirHossein's Solution](https://github.com/ahparsapour/ruby-substrings/blob/master/substrings.rb)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Ruby_Building_Blocks/blob/master/substrings.rb)
+* [threeaces' Solution](https://github.com/threeaces/odin_ruby_basic_projects/blob/master/substring.rb)
+* [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/substring-project/blob/master/lib/substring.rb)
+* [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/substrings.rb)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/substring.rb)
+* [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/building_blocks/blob/master/substrings.rb)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/substrings.rb)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Substrings/blob/master/substrings.rb)
 * [Ogunmola Israel's Solution](https://github.com/Lippins/ruby_building_blocks/blob/master/substrings.rb)
@@ -90,6 +100,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [BShowen's solution](https://github.com/BShowen/Ruby_substrings/blob/master/substrings.rb)
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/substrings.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/basics-projects/substrings.rb)
+* [TJJV's Solution](https://github.com/viei0628/substrings/blob/master/substrings.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/substrings/substrings.rb)
 * [Khari's Solutiuon](https://github.com/kjwebdev/ceasar_shift/blob/master/substrings.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/substrings/substrings.rb)
@@ -470,4 +481,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/blob/master/ruby-programming/substrings/substrings.rb)
 * [tomstrat's Solution](https://github.com/tomstrat/substrings)
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Substrings)
+* [akoenig1's Solution](https://github.com/akoenig1/building_blocks/substrings.rb)
+* [c-squared87's Solution](https://github.com/c-squared87/basic-ruby-projects-TOP/blob/master/substrings.rb)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/substrings)
+* [Vuyani’s Solution](https://github.com/vuyanir/substrings)
+* [meganeb-afk's Solution](https://github.com/meganeb-afk/Substring)
+* [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/substrings.rb)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/substring.rb)
 </details>
