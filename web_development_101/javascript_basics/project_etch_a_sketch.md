@@ -962,4 +962,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [mangakiko's Solution](https://github.com/magakiko/Etch-a-Sketch)
 * [toddzal's solution](https://github.com/toddzal/odin-project-etch-a-sketch) - [View in Browser](https://toddzal.github.io/odin-project-etch-a-sketch/)
 * [Sandy's solution](https://github.com/kuosandys/etch-a-sketch) - [View in Browser](https://kuosandys.github.io/etch-a-sketch/)
+* [Dyskgo's solution](https://github.com/dyskgo/etchasketch)  -  [View in Browser](https://dyskgo.github.io/etchasketch/)
 </details>
