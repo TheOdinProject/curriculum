@@ -76,6 +76,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/mini-message-board) - [View in Browser](https://afternoon-hamlet-45199.herokuapp.com/)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/message-board-express) - [View in Browser](https://serene-wildwood-68527.herokuapp.com/)
 - [Hammad Ahmed's Solution](https://github.com/shammadahmed/mini-message-board) - [View in Browser](https://express-mini-message-board.herokuapp.com/)
 - [Igorashs's Solution](https://github.com/igorashs/mini-message-board) - [View in Browser](https://damp-badlands-14798.herokuapp.com/)
@@ -110,4 +111,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/mini-message-board) - [View in Browser](https://thawing-badlands-31259.herokuapp.com/)
 - [mmboyce's Solution](https://github.com/mmboyce/mini-message-board) - [View in Browser](https://enigmatic-taiga-64239.herokuapp.com/)
 - [Scott Bowles's Solution](https://github.com/scottBowles/express-practice-mini-messageboard) - [View in Browser](https://salty-savannah-75073.herokuapp.com/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/mini-message-board) - [View in Browser](https://dry-reaches-26545.herokuapp.com/)
 </details>
