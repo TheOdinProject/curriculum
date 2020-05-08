@@ -47,7 +47,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 * [Oluwatobi Sofela's Solution](https://github.com/Oluwatobi-S/etch-a-sketch) - [View in Browser](https://oluwatobi-s.github.io/etch-a-sketch/)
 * [Nico's Solution](https://github.com/niconap/etch-a-sketch) - [View in Browser](https://niconap.github.io/etch-a-sketch/)
-* [Mohamednasr20's Solution](https://github.com/mohamednasr20/Etch-a-Sketch) - [View in Browser](https://github.com/mohamednasr20/Etch-a-Sketch)
+* [Mohamednasr20's Solution](https://github.com/mohamednasr20/Etch-a-Sketch)
 * [Jcoen Solution](https://github.com/J-coen/odin-etch) - [View in Browser](https://j-coen.github.io/odin-etch/)
 * [cxxiii's Solution](https://github.com/cxxiii/etch-a-sketch) - [View in Browser](https://cxxiii.github.io/etch-a-sketch/)
 * [Bassart94's Solution](https://github.com/bassart94/Etch-A-Sketch) - [View in Browser](https://bassart94.github.io/Etch-A-Sketch/)
