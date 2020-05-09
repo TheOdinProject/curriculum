@@ -59,7 +59,7 @@ Build the following methods in your linked list class:
 
 1. `#insert_at(value, index)` that inserts the node with the provided `value` at the given `index`
 2. `#remove_at(index)` that removes the node at the given `index`. (You will need to update the links of your nodes in the list when you remove a node.)
-   </div>
+</div>
 
 ### Student Solutions
 
