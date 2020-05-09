@@ -43,7 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-  
+
 - Add your solution below this line!
 * [Cesar's Solution](https://github.com/Cesar-rdgz/Etch-A-Sketch) - [View in Browser](https://cesar-rdgz.github.io/Etch-A-Sketch/)
 * [blackstate's Solution](https://github.com/blackstate/etch-a-sketch) - [View in Browser](https://blackstate.github.io/etch-a-sketch/)
