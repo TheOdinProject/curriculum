@@ -4,61 +4,70 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Use `express-generator` to set up a basic project using whichever templating language you prefer. If you prefer you can set it all up manually -- it doesn't really take that much longer.
-2. We are going to have 2 routes, the index (`"/"`) and a new-message form (`"/new"`). The generator already created a router for our index so find that file and open it up.  It can be found at `routes/index.js`. There is already an router.get for `"/"` that should be rendering your index view, so lets add some messages to it.
-3. Create an array at the top of your index router called `messages` and put a couple of sample messages inside of it like this:
-~~~javascript
-const messages = [
-  {
-    text: "Hi there!",
-    user: "Amando",
-    added: new Date()
-  },
-  {
-    text: "Hello World!",
-    user: "Charles",
-    added: new Date()
-  }
-];
-~~~
+1.   Use `express-generator` to set up a basic project using whichever templating language you prefer. If you prefer you can set it all up manually -- it doesn't really take that much longer.
+2.   We are going to have 2 routes, the index (`"/"`) and a new-message form (`"/new"`). The generator already created a router for our index so find that file and open it up.  It can be found at `routes/index.js`. There is already an router.get for `"/"` that should be rendering your index view, so lets add some messages to it.
+3.   Create an array at the top of your index router called `messages` and put a couple of sample messages inside of it like this:
 
-4. Next, in your index template (in the `"views"` folder) loop through the messages array using which ever templating language you selected and for each one, display the user, text and the date the message was added. Don't forget to make your messages available to your template by including it in the res.render 'locals' object (e.g. `res.render('index', { title: "Mini Messageboard", messages: messages })`.
-5. Next lets set up the new message form.  In the router add an `app.get()` for the `"/new"` route and point it to a template named `"form"`. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To make the form actually  make a network request you will need to define it with both a method and an action like so:
+     ~~~javascript
+     const messages = [
+       {
+         text: "Hi there!",
+         user: "Amando",
+         added: new Date()
+       },
+       {
+         text: "Hello World!",
+         user: "Charles",
+         added: new Date()
+       }
+     ];
+     ~~~
 
-~~~html
-<form method="POST" action="/new">
-  put your inputs and buttons in here!
-</form>
-~~~
+4.   Next, in your index template (in the `"views"` folder) loop through the messages array using which ever templating language you selected and for each one, display the user, text and the date the message was added. Don't forget to make your messages available to your template by including it in the res.render 'locals' object (e.g. `res.render('index', { title: "Mini Messageboard", messages: messages })`.
+5.   Next lets set up the new message form.  In the router add an `app.get()` for the `"/new"` route and point it to a template named `"form"`. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To make the form actually  make a network request you will need to define it with both a method and an action like so:
 
-6. With your form set up like this, when you click on the submit button it should send a POST request to the url specified by the action attribute, so go back to your index router and add an `app.post()` for `"/new"`.
-7. To actually get and use the data from your form you should be able to access the contents of your form inside `app.post()` as an object called `req.body`. The individual fields inside the body object are named according to the `name` attribute on your inputs (the value of `<input name="messageText">` will show up as `req.body.messageText` inside the `app.post` function).
-8. In your `app.post()` take the contents of the form submission and push them into the messages array as an object that looks something like this:
-~~~javascript
-messages.push({text: messageText, user: messageUser, added: new Date()});
-~~~
+     ~~~html
+     <form method="POST" action="/new">
+       put your inputs and buttons in here!
+     </form>
+     ~~~
 
-9. At the end of the `app.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
+6.   With your form set up like this, when you click on the submit button it should send a POST request to the url specified by the action attribute, so go back to your index router and add an `app.post()` for `"/new"`.
+7.   To actually get and use the data from your form you should be able to access the contents of your form inside `app.post()` as an object called `req.body`. The individual fields inside the body object are named according to the `name` attribute on your inputs (the value of `<input name="messageText">` will show up as `req.body.messageText` inside the `app.post` function).
+8.   In your `app.post()` take the contents of the form submission and push them into the messages array as an object that looks something like this:
+
+     ~~~javascript
+     messages.push({text: messageText, usemessageUser,       added: new Date()});
+     ~~~
+
+9.   At the end of the `app.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
 10.  At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
-11. Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
+11.   Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
+
 ~~~json
 "engines": {
   "node": "10.x.y"
 },
 ~~~
-12. Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it:
-```
-web: node ./bin/www
-```
-13. You're finally ready to deploy to Heroku! You can first try it on local, using
-```bash
+
+12.   Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it:
+
+  ```
+  web: node ./bin/www
+  ```
+
+You're finally ready to deploy to Heroku! You can first try it on local, using
+
+~~~bash
 heroku local web
-```
+~~~
+
 This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it and push it to your Heroku repository with:
-```bash
+
+~~~bash
 heroku create
 git push heroku master
-```
+~~~
 </div>
 
 ### Student Solutions
@@ -68,6 +77,12 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/mini-message-board) - [View in Browser](https://afternoon-hamlet-45199.herokuapp.com/)
+- [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/message-board-express) - [View in Browser](https://serene-wildwood-68527.herokuapp.com/)
+- [Hammad Ahmed's Solution](https://github.com/shammadahmed/mini-message-board) - [View in Browser](https://express-mini-message-board.herokuapp.com/)
+- [Igorashs's Solution](https://github.com/igorashs/mini-message-board) - [View in Browser](https://damp-badlands-14798.herokuapp.com/)
+- [autumnchris's Solution](https://github.com/autumnchris/mini-message-board-demo) - [View in Browser](https://autumnchris-message-board-demo.herokuapp.com)
+- [Obylisk's Solution](https://github.com/obylisk/miniMessageBoard) - [View in Browser](https://obylisk-mini-message-board.herokuapp.com/)
 - [Kris Tobiasson's Solution](https://github.com/highpockets/message-board.git) - [View in Browser](https://peaceful-spire-16849.herokuapp.com/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/miniMsg) - [View in Browser](https://infinite-beyond-66667.herokuapp.com/)
 - [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/mini-message-board) - [View in Browser](https://desolate-sea-58239.herokuapp.com/)
@@ -81,7 +96,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Vedat's Solution](https://github.com/mvedataydin/express-message-board) - [View in Browser](https://immense-woodland-14248.herokuapp.com/)
 - [Henry Kirya's Solution](https://github.com/harrika/messakira) - [View in Browser](https://messakira.herokuapp.com/)
 - [djolesusername's Solution](https://messages2019.herokuapp.com/) - [View in Browser](https://messages2019.herokuapp.com/)
-- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/mini_msg_board) - [View in browser](https://minimsgboard--briantuju.repl.co)
+- [Brian Tuju's Solution - Browser](https://op-mini-message-board.briantuju.repl.co)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node2/) - [View in Browser](https://reza-message-board.herokuapp.com)
 - [Morgan's Solution](https://github.com/morgando/message-board) - [View in Browser](https://polar-meadow-92800.herokuapp.com/)
 - [JamCry's Solution](https://github.com/jamcry/express-message-board) - [View in Browser](https://pacific-beach-38765.herokuapp.com/)
@@ -93,4 +108,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Aron's Solution](https://github.com/aronfischer/mern_message_board) - [View in Browser](https://aronfischer.github.io/mern_message_board/)
 - [Siegmeister's Solution](https://github.com/the-siegmeister/mini-message-board) - [View in Browser](https://salty-ridge-30513.herokuapp.com/)
 - [Christian's Solution](https://github.com/calamis/mini-messageboard) - [View in Browser](https://lit-mountain-92977.herokuapp.com/)
+- [0xtaf's Solution](https://github.com/0xtaf/mini-message-board) - [View in Browser](https://immense-hamlet-03503.herokuapp.com/)
+- [Emil Dimitrov's Solution](https://github.com/edmtrv/mini-message-board) - [View in Browser](https://thawing-badlands-31259.herokuapp.com/)
+- [mmboyce's Solution](https://github.com/mmboyce/mini-message-board) - [View in Browser](https://enigmatic-taiga-64239.herokuapp.com/)
+- [Scott Bowles's Solution](https://github.com/scottBowles/express-practice-mini-messageboard) - [View in Browser](https://salty-savannah-75073.herokuapp.com/)
+ - [barrysweeney's Solution](https://github.com/barrysweeney/mini-message-board) - [View in Browser](https://dry-reaches-26545.herokuapp.com/)
 </details>

@@ -68,7 +68,7 @@ We'll start by building our Kitten application to work normally in the browser w
 3. Set your default route to `KittensController#index`
 5. Fill out each of your controller actions and their corresponding views to display a very basic HTML page -- `#index` should just list all Kittens, `#show` should display a single Kitten, `#new` should render a simple Kitten creation form, `#edit` should use the same form (which should be a partial used by both the New and Edit views) to Edit the Kitten, `#create` and `#update` should do their jobs.
 6. Make a `delete` link on the Kitten's Show and Edit pages, as well as next to each Kitten listed in the Index page.
-7. Implement a simple display of the `flash` hash (like you did in the tutorial) which congratulates you on adding or editing or deleting kittens and makes fun of you for errors in your form.
+7. Implement a simple display of the `flash` hash which congratulates you on adding or editing or deleting kittens and makes fun of you for errors in your form.
 8. Test out your Kitten creation machine to make sure all your controller actions are running properly.
 
 ### JSON API
@@ -93,6 +93,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-kittens)
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_kittens) - [View in Browser](https://ovsjazz-odin-kittens.herokuapp.com/)
+* [robomonk's Solution](https://github.com/robo-monk/odin-kittens)
 * [fossegrim's Solution](https://github.com/olav35/odin-kittens)
 * [Ian's Solution](https://github.com/IanMKesler/odin-kittens)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/odin-kittens)
@@ -192,6 +195,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [BShowen's Solution](https://github.com/BShowen/flickr_search_api) - [Live](https://flick-r.herokuapp.com/)
+* [Duarte's Solution](https://github.com/Duartemartins/odin-flickr)
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/flickr_api) - [View in Browser](https://ovsjazz-flickr-api.herokuapp.com/)
+* [robomonk's solution](https://github.com/robo-monk/odin-timefreeze) - [View in browser](https://shielded-shore-35008.herokuapp.com/)
 * [fossegrim's Solution](https://github.com/olav35/odin-flickr)
 * [Ian's Solution](https://github.com/IanMKesler/flickr-widget)
 * [Helmi's Solution](https://github.com/helmihidzir/odin_flickr)

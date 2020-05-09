@@ -19,6 +19,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Andrey's React To-Do list solution](https://andreyskopintsev.github.io/react-todo)
+* [Jdonahue135's React Library solution](https://github.com/jdonahue135/react-library)
+* [mjwills-inf's Vue Library solution](https://github.com/mjwills-inf/-TOP-library-vue) - [View in Browser](https://mjwills-inf.github.io/-TOP-library-vue/#/)
+* [Lenny's React solution](https://github.com/Lenn-e/react-practice) - [View in Browser](https://lenn-e.github.io/react-practice/)
+* [Disco Trooper's Vue solution](https://github.com/disco-trooper/library-vue) - [View in Browser](https://disco-trooper.github.io/library-vue/)
+* [Edd Sansome's React solution](https://github.com/casualc0der/burger-bar-react) - [View in Browser](https://casualc0der.github.io/burger-bar-react/)
+* [Simon Fraipont's React library solution](https://github.com/Sim-frpt/react-library) - [View in Browser](https://sim-frpt.github.io/react-library/)
 * [James's React Library Solution](https://github.com/ericksen-github/library_react) - [View in Browser](https://ericksen-github.github.io/library_react/)
 * [clavierbulb-green's React Library Solution](https://github.com/clavierbulb-green/React-Library) - [View in Browser](https://clavierbulb-green.github.io/React-Library/)
 * [Kevin Vuong's React Library Solution](https://github.com/fffear/react-lib) - [View in Browser](https://fffear.github.io/react-lib/)
@@ -59,4 +66,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [mmboyce's React Restaurant Page Solution](https://github.com/mmboyce/restaurant-page-react) - [View in Browser](https://mmboyce.github.io/restaurant-page-react/)
 * [Mo's React Todo App Solution](https://github.com/hamohuh/react-todo/tree/gh-pages) - [View in Browser](https://hamohuh.github.io/react-todo/)
 * [JoshAubrey's Vue Restaurant Page Solution](https://github.com/JoshAubrey/vue-restaurant-page) - [View in Browser](https://joshaubrey.github.io/vue-restaurant-page/)
+* [0xtaf's React Restaurant Page Solution](https://github.com/0xtaf/react-restaurant) - [View in Browser](https://0xtaf.github.io/react-restaurant/)
+* [barrysweeney's React Rock Paper Scissors Solution](https://github.com/barrysweeney/react-rock-paper-scissors) - [View in Browser](https://barrysweeney.github.io/react-rock-paper-scissors/)
+* [ranmaru22's Angular Library Solution](https://github.com/ranmaru22/ng-library) - [View in Browser](https://ranmaru22.github.io/ng-library/)
+* [thecodediver's Solution](https://github.com/thecodediver/library_react) - [View in Browser](https://thecodediver.github.io/library_react/)
+* [Rey van den Berg's Solution](https://github.com/Rey810/library-react)
 </details>
