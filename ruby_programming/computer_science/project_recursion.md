@@ -16,6 +16,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/ruby-recursion/blob/master/fibonacci.rb)
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Ruby_Fibonacci_Sequence/blob/master/fibonacci_sequence.rb)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/project_recursion/fibonacci)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/fibonacci.rb)
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/blob/master/fibonacci.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin_ruby_recursion/blob/master/fibonacci.rb)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/fibonacci/fibonacci.rb)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/odin_cs_projects/blob/master/recursion/fibonacci.rb)
@@ -230,8 +235,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/fib/blob/master/fibb.rb)
 * [Matt M's Solution](https://github.com/MattMiller1989/Fibonacci)
 * [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/fib.rb)
-
-
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/fibonacci)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Recursion/fibs.rb)
 </details>
 
 ### Project: Merge Sort
@@ -257,12 +262,17 @@ The first step is to actually understand what the merge sort algorithm is doing:
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_recursion.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/ruby-recursion/blob/master/merge-sort.rb)
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Ruby_Merge_Sort/blob/master/merge_sort.rb) - [View Demo](https://repl.it/@andrewbaldwin44/RubyMergeSort)
+* [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/project_recursion/merge_sort)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/mergesort.rb)
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/blob/master/merge_sort.rb)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin_ruby_recursion/blob/master/merge_sort.rb)
 * [pudu87's Solution](https://github.com/pudu87/ruby-exercises/blob/master/merge_sort/merge_sort.rb)
 * [DalandanJuice's Solution](https://github.com/DalandanJuice/odin_cs_projects/blob/master/recursion/merge_sort.rb)
@@ -470,6 +480,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Sahmie's Solution](https://github.com/Sahmie/TOP_Projects/blob/master/Ruby_programming/Project_Recursion/merge_sort.rb)
 * [Timework's Solution](https://github.com/Timework/merge/blob/master/merge.rb)
 * [kwambugu's Solution](https://github.com/kwambugu/recursion_ruby/blob/master/merge_sort.rb)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/merge_sort)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Recursion/merge_sort.rb)
 </details>
 
 ### Additional Resources
