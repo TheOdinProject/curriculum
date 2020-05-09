@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lorri's Solution (with local storage)](https://github.com/TechnicolorPanda/library) - [View in Browser](https://TechnicolorPanda.github.io/library/)
 - [Ian's Solution](https://github.com/ianistheguy/bookshelf-app) - [View in Browser](https://ianistheguy.github.io/bookshelf-app/)
 - [Georgius's Solution](https://github.com/georgius17/library) - [View in Browser](https://georgius17.github.io/library/)
 - [hu-ng's Solution](https://github.com/hu-ng/library-app-odin) - [View in Browser](https://hu-ng.github.io/library-app-odin/#)
