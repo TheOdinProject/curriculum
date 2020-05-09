@@ -1535,7 +1535,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jonathan Fallas's Solution](https://github.com/Elfjhon/RockPaper) - [View in Browser](https://elfjhon.github.io/RockPaper)
 - [Dyrits's Pokemon Version Solution](https://github.com/Dyrits/WEBDEV-TOP-PRB) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PRB) - [CodePen](https://codepen.io/Dyrits/full/GRpMOQg)
 - [harisbegic's Solution](https://github.com/harisbegic/rock-paper-scissors)
-- [evanakelly's Solution](https://github.com/evanakelly/rock-paper-scissors)
+- [evanakelly's Solution](https://github.com/evanakelly/rock-paper-scissors) - [View in Browser](https://evanakelly.github.io/rock-paper-scissors/)
 - [mangakiko's Solution](https://github.com/magakiko/rock-paper-scissors)
 - [alxmkh's Solution](https://github.com/alxmkh/rock_paper_scissors) - [View in Browser](https://alxmkh.github.io/rock_paper_scissors/)
 - [Peuchen's Solution](https://github.com/Peuchen/rock-paper-scissors)
