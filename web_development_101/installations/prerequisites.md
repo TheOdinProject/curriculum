@@ -63,7 +63,7 @@ Your regular operating system (Windows in this case) is called the **Host**, and
 
 While your VM is running, do the following steps:
 
-  1. Click the **Whisker Menu** <img width=25px src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/xubuntu-512.png" alt="Whisker Menu Icon"> on the top left of the desktop.
+  1. Click the **Whisker Menu** <img src="https://i.imgur.com/EjSLkCZ.png" alt="Whisker Menu Icon"> on the top left of the desktop.
   2. Type `Software Updater` in the text field that opens up and click on the item with the same name.
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
