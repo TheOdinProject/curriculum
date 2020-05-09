@@ -93,6 +93,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Eva-Unit's Solution (Easy)](https://github.com/Eva-Unit/google-homepage) - [View in Browser](https://Eva-Unit.github.io/google-homepage/)
+* [Qazi Moin's Solution (Easy)](https://github.com/HolyMoin/google-mockup) - [View in Browser](https://holymoin.github.io/google-mockup/)
+* [Ryaaahs's Solution (Easy)](https://github.com/Ryaaahs/google-homepage) - [View in Browser](https://ryaaahs.github.io/google-homepage/)
 * [bobbychicano's Solution (Easy)](https://bobbychicano.github.io/google-homepage/) - [View in Browser](https://bobbychicano.github.io/google-homepage/)
 * [Salvador Villalon's Solution (Easy)](https://github.com/salvillalon45/theOdinProject-GoogleHomePage) - [View in Browser](https://salvillalon45.github.io/theOdinProject-GoogleHomePage/index.html)
 * [Christoph's Solution (Easy)](https://github.com/vertskater/google-homepage) - [View in Browser](https://vertskater.github.io/google-homepage)
