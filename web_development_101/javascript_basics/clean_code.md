@@ -88,4 +88,4 @@ Read through these articles that discuss a few elements of writing good clean co
 * [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 * THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
 * [Airbnb style guide](https://github.com/airbnb/javascript)  
-* [Chaining methods to write sentences](https://web.archive.org/web/20200416025635/http://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
+* [Chaining methods to write sentences](https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
