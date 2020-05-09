@@ -66,7 +66,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Matt Fergoda's Solution](https://github.com/mattfergoda/calculator) - [View in Browser](https://mattfergoda.github.io/calculator/)
 - [Davic64's Solution](https://github.com/davic64/calculator) - [View in Browser](https://davic64.github.io/calculator/)
 - [Stephan du Plessis's Solution](https://github.com/Pr0ph3t-287/Javascript-Calculator) - [View in Browser](https://pr0ph3t-287.github.io/Javascript-Calculator/) 
->>>>>>> bf04bc3c172d39b2fe534c7fee892bf26007028d
 - [Nick DiPreta's Solution](https://github.com/NickDiPreta/project_calculator) - [View in Browser](https://nickdipreta.github.io/project_calculator/) 
 - [ryannathanwilson's Solution](https://github.com/ryannathanwilson/calculator) - [View in Browser](https://ryannathanwilson.github.io/calculator/)
 - [justonhart's Solution](https://github.com/justonhart/Calculator) - [View in Browser](https://justonh.art/Calculator/)
