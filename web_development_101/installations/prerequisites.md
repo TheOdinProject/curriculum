@@ -8,8 +8,6 @@ If you are already using **MacOS** or **Ubuntu**, you can skip this section. Oth
 <summary class="dropDown-header">Virtual Machine (Recommended)
 </summary>
 
-Installing a virtual machine (VM) is the easiest and most reliable way to get started with web development. A VM is an entire computer emulation that runs inside your current OS. The main drawback of a VM is that it can be slow because you're essentially running two computers at the same time. We'll do a few things to improve its performance.
-
 Installing a Virtual Machine (VM) is the easiest and most reliable way to get started creating an environment for web development. A VM is an entire computer emulation that runs inside your current Operating System (OS), like Windows. The main drawback of a VM is that it can be slow because you’re essentially running two computers at the same time. We’ll do a few things to improve its performance.
 
 ### Step 1: Download VirtualBox and Xubuntu
