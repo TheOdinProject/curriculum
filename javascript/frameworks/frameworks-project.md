@@ -21,7 +21,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
 * [Andrey's React To-Do list solution](https://andreyskopintsev.github.io/react-todo)
 * [Jdonahue135's React Library solution](https://github.com/jdonahue135/react-library)
-* [mjwills-inf's Vue Library solution](https://github.com/mjwills-inf/library-vue) - [View in Browser](https://mjwills-inf.github.io/library-vue/#/)
+* [mjwills-inf's Vue Library solution](https://github.com/mjwills-inf/-TOP-library-vue) - [View in Browser](https://mjwills-inf.github.io/-TOP-library-vue/#/)
 * [Lenny's React solution](https://github.com/Lenn-e/react-practice) - [View in Browser](https://lenn-e.github.io/react-practice/)
 * [Disco Trooper's Vue solution](https://github.com/disco-trooper/library-vue) - [View in Browser](https://disco-trooper.github.io/library-vue/)
 * [Edd Sansome's React solution](https://github.com/casualc0der/burger-bar-react) - [View in Browser](https://casualc0der.github.io/burger-bar-react/)
