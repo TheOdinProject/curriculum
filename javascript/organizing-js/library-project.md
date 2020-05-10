@@ -40,14 +40,11 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
 - [Ebru's Solution](https://github.com/naturelle/OdinBookList) - [View in Browser](https://naturelle.github.io/OdinBookList/)
-
 - [Chun's Solution (w/ localStorage)](https://github.com/ashchunfai/library) - [View in Browser](https://ashchunfai.github.io/library/)
 - [Lorri's Solution (with local storage)](https://github.com/TechnicolorPanda/library) - [View in Browser](https://TechnicolorPanda.github.io/library/)
 - [hieu-ng's Solution](https://github.com/hieu-ng/odin/tree/master/Library%20project)
 - [syeo-1's Solution](https://github.com/syeo-1/library) - [View in Browser](https://syeo-1.github.io/library/)
-
 - [Platyphyllum's Solution (w/ Firebase)](https://github.com/marboleda/library) - [View in Browser](https://marboleda.github.io/library/)
 - [Davic64's Solution](https://github.com/davic64/library) - [View in Browser](https://davic64.github.io/library/)
 - [niconacht's Solution(Firebase Storage)](https://github.com/niconacht/Library_App) - [View in Browser](https://niconacht.github.io/Library_App/)
