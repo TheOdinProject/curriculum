@@ -40,7 +40,12 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
 - [Ebru's Solution](https://github.com/naturelle/OdinBookList) - [View in Browser](https://naturelle.github.io/OdinBookList/)
+
+- [hieu-ng's Solution](https://github.com/hieu-ng/odin/tree/master/Library%20project)
+- [syeo-1's Solution](https://github.com/syeo-1/library) - [View in Browser](https://syeo-1.github.io/library/)
+
 - [Platyphyllum's Solution (w/ Firebase)](https://github.com/marboleda/library) - [View in Browser](https://marboleda.github.io/library/)
 - [Davic64's Solution](https://github.com/davic64/library) - [View in Browser](https://davic64.github.io/library/)
 - [niconacht's Solution(Firebase Storage)](https://github.com/niconacht/Library_App) - [View in Browser](https://niconacht.github.io/Library_App/)
@@ -270,5 +275,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/library) - [View in Browser](https://ozansozuozgit.github.io/library/)
 - [kbrdsk's Solution (w/firebase)](https://github.com/kbrdsk/library) - [View in Browser](https://kbrdsk.github.io/library/)
 - [Tristan Ross's Solution](https://github.com/TristanRoss/Library) - [View in Browser](https://tristanross.github.io/Library/)
+- [Danyl Matviyenko's Solution](https://github.com/DanylMatviyenko/TheOdinProject-LIBRARY-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-LIBRARY-/)
 </details>
 
