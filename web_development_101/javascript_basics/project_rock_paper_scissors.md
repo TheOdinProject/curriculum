@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [RobisonWebDev's Solution](https://github.com/robisonwebdev/rockPaperScissors)
 - [fillingthemoon's Solution](https://github.com/fillingthemoon/rock-paper-scissors)
 - [Tegristh's Solution](https://github.com/Tegristh/rock-paper-scissors-lizard-spock) - [View in Browser](https://tegristh.github.io/rock-paper-scissors-lizard-spock/)
 - [Platyphyllum's Solution](https://github.com/marboleda/calculator) - [View in Browser](https://marboleda.github.io/calculator/)
@@ -1546,6 +1547,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Demian's Solution](https://github.com/Demian31/RPS)
 - [Foolmonkey's Solution](https://github.com/foolmonkey/rock-paper-scissors)
 - [Tristan Carey's solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
+- [Kmt5422's Solution](https://github.com/kmt5422/rock-paper-scissors/blob/master/index.html)
 - [Knuckles' solution](https://github.com/mosesakor/rock-paper-scissors) - [View in Browser](https://mosesakor.github.io/rock-paper-scissors/)
 - [Avian_Eli's Solution](https://github.com/Eli-b-good/rock-paper-scissors)
 - [Tristan Carey's Solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
@@ -1556,4 +1558,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dyskgo's Solution](https://github.com/dyskgo/rockpaperscissors) - [View in Browser](https://dyskgo.github.io/rockpaperscissors/)
 - [Kaizwebdesign's Solution](https://github.com/kaizwebdesign/rock-paper-scissors)
 </details>
-

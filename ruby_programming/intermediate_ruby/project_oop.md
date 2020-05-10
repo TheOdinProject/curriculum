@@ -377,6 +377,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [threeaces' Solution](https://github.com/threeaces/mastermind_ruby_top) - [View in repl.it](https://repl.it/@threeaces/mastermindrubytop)  
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/mastermind/blob/master/mastermind.rb) -[View in repl.it](https://repl.it/@NickDiPreta/mastermind)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Mastermind) - [View in repl.it](https://repl.it/@andrewbaldwin44/Mastermind)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/mastermind.rb)

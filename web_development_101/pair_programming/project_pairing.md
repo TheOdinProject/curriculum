@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [andrewjh271](https://github.com/andrewjh271) and [Aaron Contreras's](https://github.com/aaron-contreras) [Solution](https://github.com/andrewjh271/pomodoro) - [View in Browser](https://andrewjh271.github.io/pomodoro/)
 * [leddins's Solution](https://github.com/leddins/interval-timer) - [View in Browser](https://leddins.github.io/interval-timer/)
 * [Cristian's Solution](https://github.com/cristianCeamatu/pomodoro-clock) - [View in Browser](https://cristianceamatu.github.io/pomodoro-clock/)
 * [iamjethrooo's Solution](https://github.com/iamjethrooo/pomodoro) - [View in Browser](https://iamjethrooo.github.io/pomodoro/)
@@ -232,6 +233,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Sepharvaim's Solution](https://github.com/Sepharvaim/PomodoroTimer) - [View in Browser](https://sepharvaim.github.io/PomodoroTimer/)
 * [MichelleP1's Solution](https://github.com/MichelleP1/pomodorotimer) - [View in Browser](http://michellepeters.me/pomodorotimer/)
 * [Tristan Ross's Solution](https://github.com/TristanRoss/pomodoro-clock) - [View in Browser](https://tristanross.github.io/pomodoro-clock/)
+* [Knuttas's Solution](https://github.com/Knuttas/pomodoro-clock) - [View in Browser](https://knuttas.github.io/projects/pomodoro-clock/index.html)
 </details>
 
 ### Next Steps
