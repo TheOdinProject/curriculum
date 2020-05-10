@@ -35,6 +35,15 @@ myObject[variable] // this is equivalent to myObject['property'] and returns 'Va
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-5) from our JavaScript 101 course.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Write an object constructor and instantiate the object.
+- Describe what a prototype is and how it can be used.
+- Explain prototypal inheritance.
+- Understand the basic do's and don't's of prototypical inheritance.
+- Explain what `Object.create` does.
+
 ### Objects as a Design Pattern
 
 One of the simplest ways you can begin to organize your code is by simply grouping things into objects. Take these examples from a 'tic tac toe' game:
@@ -143,7 +152,7 @@ Before we go much further, there's something important you need to understand ab
 
 This concept is an important one, so you've got some reading to do. Make sure you really get this before moving on!
 
-1. [This article](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics are 'Prototype-based inheritance' and the 'Prototype chain'
+1. [This article](https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics are 'Prototype-based inheritance' and the 'Prototype chain'
 2. To go a bit deeper into both the chain and inheritance spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: this article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
 
 If you've understood the concept of the prototype then this next bit about constructors will not be confusing at all!

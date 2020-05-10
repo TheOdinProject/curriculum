@@ -59,7 +59,7 @@ Build the following methods in your linked list class:
 
 1. `#insert_at(value, index)` that inserts the node with the provided `value` at the given `index`
 2. `#remove_at(index)` that removes the node at the given `index`. (You will need to update the links of your nodes in the list when you remove a node.)
-   </div>
+</div>
 
 ### Student Solutions
 
@@ -69,6 +69,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Saul-Good-Homie's Solution (with XC)](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/linked_list.rb)
+- [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/tree/master/linked_list)
 - [pudu87's Solution](https://github.com/pudu87/linked-lists)
 - [Philipp's Solution (with extra credit)](https://github.com/philipp-mcvity/odin-ruby.linked_lists)
 - [YesSeri's Solution](https://github.com/YesSeri/linked-list/blob/master/linked-list.rb)
@@ -230,4 +232,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Timework's Solution (with extra credit)](https://github.com/Timework/linkedList/blob/master/list.rb)
 - [Cinthia's Solution (with extra credit)](https://github.com/cinthiagodoi/linked-lists)
 - [Matt M's Solution (with extra credit)](https://github.com/MattMiller1989/Linked-List)
+- [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/linked_list)
   </details>
