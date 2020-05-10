@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [shaneSC's Solution](https://github.com/shanesc/library) - [View in Browser](https://shanesc.github.io/library/)
 - [justonhart's Solution](https://github.com/justonhart/OdinLibrary) - [View in Browser](https://justonh.art/OdinLibrary)
 - [Vedant Shetty's Solution](https://github.com/vedantshetty/ReadingList) - [View in Browser](https://vedantshetty.github.io/ReadingList/)
 - [Denis Oluka's Solution](https://github.com/OlukaDenis/library) - [View in Browser](https://raw.githack.com/kalavhan/library/development/index.html)
