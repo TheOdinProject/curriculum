@@ -1,0 +1,46 @@
+* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font: 15px/1.5 Arial, Helvetica, sans-serif;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.container {
+			width: 27%;
+			margin: 0 auto;
+			margin-top: 20px;
+			background: #ccc;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: center;
+			border-radius: 20px 20px 0px 0px;
+			box-shadow: 0px -2px 0px 2px darkred;
+			text-align: center;
+			color: darkred;
+		}
+
+
+		.container .show-calc {
+			min-width: 100%;
+			margin: 20px;
+			font-size: 35px;
+		}
+
+
+		.container .box {
+			width: 5vw;
+			height: 5vw;
+			margin: 10px;
+			font-size: 25px;
+			cursor: pointer;
+		}
+
+
+		.container .box:hover {
+			transform: scale(1.07,1.07);
+			transition: 0.7s;
+		}
