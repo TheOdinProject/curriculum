@@ -667,4 +667,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dyskgo's solution](https://github.com/dyskgo/calculator) - [View in Browser](https://dyskgo.github.io/calculator/)
 - [Sandy's Solution](https://github.com/kuosandys/top-calculator) - [View in Browser](https://kuosandys.github.io/top-calculator)
 - [Chandra's Solution](https://github.com/CodeSurfer3022/calculator) - [View in Browser](https://codesurfer3022.github.io/calculator/)
+- [mangakiko's Solution](https://github.com/magakiko/Calculator) - [View in Browser](https://magakiko.github.io/Calculator/)
 </details>
