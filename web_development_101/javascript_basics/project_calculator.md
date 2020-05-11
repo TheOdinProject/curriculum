@@ -45,14 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
-
 - [Phank's Solution](https://github.com/phankthusar/calculator) - [View in Browser](https://phankthusar.github.io/calculator/)
-=======
 - [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/calculator) - [View in Browser](https://muhymenulhaque.github.io/calculator/)
 - [BraveStone9's Solution](https://github.com/BraveStone9/Calculator) - [View in Browser](https://bravestone9.github.io/Calculator/index.html) 
 - [syeo-1's Solution](https://github.com/syeo-1/calculator) - [View in Browser](https://syeo-1.github.io/calculator/)
->>>>>>> cb94c6c0310ce54bb19a2fc245502217843a9dbf
 - [Scott D's Solution](https://github.com/WebDevBrum/ODIN-Calculator-App) - [View in Browser](https://webdevbrum.github.io/ODIN-Calculator-App/)
 - [Afzaman's Solution](https://github.com/afzaman/calculator) - [View in Browser](https://afzaman.github.io/calculator)
 - [leddins's Solution](https://github.com/leddins/calculator) - [View in Browser](https://leddins.github.io/calculator/)
