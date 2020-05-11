@@ -351,6 +351,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Michael K's Solution](https://github.com/a0x77ry/tic-tac-toe)
 * [akoenig1's Solution](https://github.com/akoenig1/oop_project)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/tic_tac_toe)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/tic-tac-toe.rb)
 </details>
 
 ### Project 2: Mastermind
