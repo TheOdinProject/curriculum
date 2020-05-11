@@ -350,6 +350,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matt Miller's solution](https://github.com/MattMiller1989/Tic-Tac-Toe/blob/master/Tic-Tac-Toe.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/tic-tac-toe)
 * [akoenig1's Solution](https://github.com/akoenig1/oop_project)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/tic_tac_toe)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/tic-tac-toe.rb)
 </details>
 
 ### Project 2: Mastermind
@@ -376,6 +378,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [threeaces' Solution](https://github.com/threeaces/mastermind_ruby_top) - [View in repl.it](https://repl.it/@threeaces/mastermindrubytop)  
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/mastermind/blob/master/mastermind.rb) -[View in repl.it](https://repl.it/@NickDiPreta/mastermind)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Mastermind) - [View in repl.it](https://repl.it/@andrewbaldwin44/Mastermind)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/mastermind.rb)
