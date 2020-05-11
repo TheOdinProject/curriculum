@@ -664,5 +664,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dyrit's Solution](https://github.com/Dyrits/WEBDEV-TOP-CALCULATOR) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-CALCULATOR)
 - [sokafootball's Solution](https://github.com/sokafootball/js-calculator) - [View in Browser](https://sokafootball.github.io/js-calculator/)
 - [Knuttas's Solution](https://github.com/Knuttas/calculator) - [View in Browser](https://knuttas.github.io/projects/calculator/index.html)
-
+- [Chandra's Solution](https://github.com/CodeSurfer3022/calculator) - [View in Browser](https://codesurfer3022.github.io/calculator/)
 </details>
