@@ -93,5 +93,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/js_testing)
 - [Rey van den Berg's solution](https://github.com/Rey810/jest-practice)
 - [Emil Dimitrov's solution](https://github.com/edmtrv/testing-practice)
+- [JoshAubrey's solution](https://github.com/JoshAubrey/jest-testing-practice)
 </details>
 
