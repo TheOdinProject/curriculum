@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain what `#upto` and `#downto` loops are and how to use them.
 
 ### Loop
-The `loop` loop (say what????) is Ruby's loop that just won't quit. It's an infinite loop that will keep going unless you specifically request for it to stop using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
+The `loop` loop (say what????) is Ruby's loop that just won't quit. It's an infinite loop that will keep going unless you specifically request for it to stop, using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
 
 ~~~ruby
 i = 0
@@ -73,7 +73,7 @@ until i > 10 do
 end
 ~~~
 
-You can see here that using `until` means that the loop will continue running until the condition i > 10 is false.
+You can see here that using `until` means that the loop will continue running until the condition i > 10 is true.
 
 The next example shows how you can use `until` to avoid the negation `!` that the above `while` loop had to use.
 

@@ -45,7 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
+- [mortvicious's solution](https://mortvicious.github.io/calculatefancy/) - [View in Browser](https://mortvicious.github.io/calculatefancy/)
+- [Phank's Solution](https://github.com/phankthusar/calculator) - [View in Browser](https://phankthusar.github.io/calculator/)
+- [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/calculator) - [View in Browser](https://muhymenulhaque.github.io/calculator/)
+- [BraveStone9's Solution](https://github.com/BraveStone9/Calculator) - [View in Browser](https://bravestone9.github.io/Calculator/index.html) 
+- [syeo-1's Solution](https://github.com/syeo-1/calculator) - [View in Browser](https://syeo-1.github.io/calculator/)
 - [Scott D's Solution](https://github.com/WebDevBrum/ODIN-Calculator-App) - [View in Browser](https://webdevbrum.github.io/ODIN-Calculator-App/)
 - [Afzaman's Solution](https://github.com/afzaman/calculator) - [View in Browser](https://afzaman.github.io/calculator)
 - [leddins's Solution](https://github.com/leddins/calculator) - [View in Browser](https://leddins.github.io/calculator/)
@@ -88,6 +92,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cole-0's Solution](https://github.com/Cole-0/Simplest-of-calculators)
 - [MrLupine's Solution](https://github.com/MrLupine/calculator) - [View in Browser](https://mrlupine.github.io/calculator/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/calculator) - [View in Browser](https://carldoleolundgren.github.io/calculator/)
+- [mohamednasr20's Solution](https://github.com/mohamednasr20/calculator) - [View in Browser]( https://mohamednasr20.github.io/calculator/)
 - [AJMcDee's Solution](https://github.com/AJMcDee/onlineCalculator/) - [View in Browser](https://ajmcdee.github.io/onlineCalculator/)
 - [Lusiann's Solution](https://github.com/Lusiann/Calculator) - [View in Browser](https://lusiann.github.io/Calculator/)
 - [ray0h's Solution](https://github.com/ray0h/TheOdinProjectExercises/tree/master/calculator) - [View in Browser](https://ray0h.github.io/calculator/)
@@ -656,5 +661,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jonathan Fallas's Solution](https://github.com/Elfjhon/calculator) - [View in Browser](https://elfjhon.github.io/calculator/)
 - [toddzal's Solution](https://github.com/toddzal/odin-project-calculator) - [View in Browser](https://toddzal.github.io/odin-project-calculator/)
 - [msespos's Solution](https://github.com/msespos/calculator) - [View in Browser](https://msespos.github.io/calculator/)
+- [Dyrit's Solution](https://github.com/Dyrits/WEBDEV-TOP-CALCULATOR) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-CALCULATOR)
+- [sokafootball's Solution](https://github.com/sokafootball/js-calculator) - [View in Browser](https://sokafootball.github.io/js-calculator/)
+- [Knuttas's Solution](https://github.com/Knuttas/calculator) - [View in Browser](https://knuttas.github.io/projects/calculator/index.html)
 - [Dyskgo's solution](https://github.com/dyskgo/calculator) - [View in Browser](https://dyskgo.github.io/calculator/)
+
 </details>

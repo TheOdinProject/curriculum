@@ -28,6 +28,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/bubble_sort.rb)
+* [Evelyn's Solution](https://github.com/evive82/Odin-Project-Ruby-Basics-Projects/blob/master/bubble-sort/bubble-sort.rb)
 * [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/bubble-sort-project)
 * [Peter Meglis's Solution](https://github.com/petermeglis/ruby/blob/master/theodinproject/basic_projects/bubble_sort.rb)
 * [Nick DiPreta's Soltion](https://github.com/NickDiPreta/bubble_sort/blob/master/bubble_sort.rb)
@@ -432,4 +434,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [akoenig1's Solution](https://github.com/akoenig1/building_blocks/blob/master/bubble_sort.rb)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/bubble_sort.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/bubble-sort.rb)
+* [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/bubble_sort.rb)
 </details>
