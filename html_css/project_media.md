@@ -35,6 +35,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Billi0ns' Solution](https://github.com/Billi0ns/Youtube_clone) - [View in browser](https://billi0ns.github.io/Youtube_clone/)
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/youtube-player-page) - [View in browser](https://acushlakoncept.github.io/youtube-player-page/)
 * [Cristian's Solution](https://github.com/cristianCeamatu/youtubeclone) - [View in browser](https://cristianceamatu.github.io/youtubeclone/)
 * [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/youtube-clone) - [View in browser](https://kaliberpoziomka.github.io/youtube-clone/)
 * [Andrea's Solution](https://github.com/fioriandrea/youtube-page) - [View in browser](https://youtube.andreafiori.now.sh/)
