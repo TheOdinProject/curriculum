@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ichenn's Solution](https://github.com/Ichenn92/tic-tac-toe) - [Vew in repl.it](https://repl.it/@Ichenn92/tic-tac-toe)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Tic_Tac_Toe)
 * [Mikael's Solution](https://mikearaya.github.io/tic-tac-toe) - [Vew in repl.it](https://repl.it/@MichaelAraya1/tic-tac-toe)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/tic_tac_toe) - [Vew in repl.it](https://repl.it/@NickDiPreta/tictactoe-2)
