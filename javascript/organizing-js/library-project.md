@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [zhi-k's Solution (w/ firebase)](https://github.com/zhi-k/TOR_Library_App) - [View in Browser](https://zhi-k.github.io/TOR_Library_App/)
 - [shaneSC's Solution](https://github.com/shanesc/library) - [View in Browser](https://shanesc.github.io/library/)
 - [Ebru's Solution](https://github.com/naturelle/OdinBookList) - [View in Browser](https://naturelle.github.io/OdinBookList/)
 - [Chun's Solution (w/ localStorage)](https://github.com/ashchunfai/library) - [View in Browser](https://ashchunfai.github.io/library/)
