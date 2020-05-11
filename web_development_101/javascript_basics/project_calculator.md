@@ -665,5 +665,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sokafootball's Solution](https://github.com/sokafootball/js-calculator) - [View in Browser](https://sokafootball.github.io/js-calculator/)
 - [Knuttas's Solution](https://github.com/Knuttas/calculator) - [View in Browser](https://knuttas.github.io/projects/calculator/index.html)
 - [Dyskgo's solution](https://github.com/dyskgo/calculator) - [View in Browser](https://dyskgo.github.io/calculator/)
-
+- [Sandy's Solution](https://github.com/kuosandys/top-calculator) - [View in Browser](https://kuosandys.github.io/top-calculator)
+- [Chandra's Solution](https://github.com/CodeSurfer3022/calculator) - [View in Browser](https://codesurfer3022.github.io/calculator/)
 </details>
