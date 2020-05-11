@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [overdice's solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Calculator) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Calculator/index.html)
 - [mortvicious's solution](https://mortvicious.github.io/calculatefancy/) - [View in Browser](https://mortvicious.github.io/calculatefancy/)
 - [Phank's Solution](https://github.com/phankthusar/calculator) - [View in Browser](https://phankthusar.github.io/calculator/)
 - [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/calculator) - [View in Browser](https://muhymenulhaque.github.io/calculator/)
@@ -667,4 +668,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Dyskgo's solution](https://github.com/dyskgo/calculator) - [View in Browser](https://dyskgo.github.io/calculator/)
 - [Sandy's Solution](https://github.com/kuosandys/top-calculator) - [View in Browser](https://kuosandys.github.io/top-calculator)
 - [Chandra's Solution](https://github.com/CodeSurfer3022/calculator) - [View in Browser](https://codesurfer3022.github.io/calculator/)
+- [mangakiko's Solution](https://github.com/magakiko/Calculator) - [View in Browser](https://magakiko.github.io/Calculator/)
 </details>

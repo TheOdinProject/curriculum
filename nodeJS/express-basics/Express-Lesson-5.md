@@ -47,5 +47,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/express-local-library) - [View in Browser](https://secure-shelf-13534.herokuapp.com/)
 - [Mo's Solution](https://github.com/motr551/Library) - [View in Browser](https://motrlibrary.herokuapp.com/)
 - [Tayfun Sur's Solution](https://github.com/0xtaf/local-library) - [View in Browser](https://guarded-falls-62198.herokuapp.com/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/express-library-tutorial) - [View in Browser](https://fathomless-beach-16334.herokuapp.com/catalog)
 
 </details>
