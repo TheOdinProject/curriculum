@@ -3,6 +3,13 @@ By this point, you will have learned and had a chance to practice the most commo
 
 This whole series of lessons has been about the "Object Oriented Programming" paradigm (OOP). The basics of creating objects and classes are relatively straightforward. But it is not straightforward to decide what to put in each object, or when to make a new object, or when to let an object 'inherit' from another one.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Explain the "Single Responsibility Principle".
+- Briefly explain the additional SOLID principles.
+- Explain what "tightly coupled" objects are and why we want to avoid them.
+
 Luckily there are several concepts and principles that can guide us into making good decisions when it comes to our objects. This lesson is an introduction to the most important of those concepts. Keep in mind that there is not usually a very clear answer to your application design questions. Some patterns and ideas are obviously better than others, but there is often some trade-off when deciding where to put a specific function. In other words.. these principles are not _rules_- they're helpful guidelines.  
 
 As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on keep these things in mind when crafting new projects.
