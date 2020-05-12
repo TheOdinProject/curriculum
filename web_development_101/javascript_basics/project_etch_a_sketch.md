@@ -944,9 +944,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [c-squared87's Solution](https://github.com/c-squared87/etch-a-sketch) - [View in Browser](https://c-squared87.github.io/etch-a-sketch/)
 * [kbrdsk's Solution](https://github.com/kbrdsk/etch-a-sketch) - [View in Browser](https://kbrdsk.github.io/etch-a-sketch/)
 * [thorney29's Solution](https://github.com/thorney29/the_odin_project/tree/master/etch_a_sketch) - [View in Browser](https://thorney29.github.io/the_odin_project/etch_a_sketch/index.html)
-<<<<<<< HEAD
 * [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/grids-and-colors) - [View in Browser](https://playingongithub.github.io/grids-and-colors/)
-=======
 * [mrfannin's Solution](https://github.com/mrfannin/etch-a-sketch) - [View in Browser](https://mrfannin.github.io/etch-a-sketch/)
 * [Dams303's Solution](https://github.com/Dams303/sketchpad) - [View in Browser](https://dams303.github.io/sketchpad/)
 * [Wil Goolsby's Solution](https://github.com/wgoolsby/etch-a-sketch) - [View in Browser](https://wilgoolsby.com/etch-a-sketch/)
@@ -984,5 +982,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Alan's Solution](https://github.com/aljones1816/etch-a-sketch) - [View in Browser](https://almjones.com/etch-a-sketch/)
 * [Viral Haria's Solution](https://github.com/viralharia/etch-a-sketch) - [View in Browser](https://viralharia.github.io/etch-a-sketch/)
 * [Maheswar's Solution](https://github.com/mahesh12393/Etch--A-Sketch.git) - [View in Browser](https://mahesh12393.github.io/Etch--A-Sketch/)
->>>>>>> c631cf6405f6d035191f68d189a8e8edfebb79b4
 </details>
