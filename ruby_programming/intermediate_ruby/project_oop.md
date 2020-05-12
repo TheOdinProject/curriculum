@@ -380,7 +380,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Matt Fergoda's Solution](https://github.com/mattfergoda/mastermind/blob/master/README.md) - [View in repl.it](https://repl.it/@mattfergoda/mastermind)
+* [Matt Fergoda's Solution](https://github.com/mattfergoda/mastermind) - [View in repl.it](https://repl.it/@mattfergoda/mastermind)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/OOP-project/tree/master/mastermind) - [View in repl.it](https://repl.it/@TenaciousQi/mastermind)
 * [Peter Meglis's Solution](https://github.com/petermeglis/ruby/tree/master/theodinproject/mastermind)
 * [threeaces' Solution](https://github.com/threeaces/mastermind_ruby_top) - [View in repl.it](https://repl.it/@threeaces/mastermindrubytop)  
