@@ -34,6 +34,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Damian Tabor's Solution](https://github.com/blunt008/odin-project-ruby-basic-projects/blob/master/sub_strings/solution.rb)
 * [andrewjh271's Solution](https://github.com/andrewjh271/basic_ruby_projects/tree/master/substrings)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/substrings.rb)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Ruby-Basics-Projects/blob/master/sub_strings/sub_strings.rb)
@@ -492,4 +493,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/substrings.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/substring.rb)
 * [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/substring.rb)
+* [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/sub-string.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/substrings.rb)
 </details>

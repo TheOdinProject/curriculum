@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Matt Fergoda's Solution](https://github.com/mattfergoda/tic-tac-toe) - [View in repl.it](https://repl.it/@mattfergoda/tic-tac-toe)
 * [Peter Meglis's Solution](https://github.com/petermeglis/ruby/tree/master/theodinproject/tic_tac_toe)
 * [Ichenn's Solution](https://github.com/Ichenn92/tic-tac-toe) - [Vew in repl.it](https://repl.it/@Ichenn92/tic-tac-toe)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Tic_Tac_Toe)
@@ -380,6 +381,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ichenn's Solution](https://github.com/Ichenn92/mastermind) - [View in repl.it](https://mastermind.ichenn92.repl.run)
+* [Matt Fergoda's Solution](https://github.com/mattfergoda/mastermind) - [View in repl.it](https://repl.it/@mattfergoda/mastermind)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/OOP-project/tree/master/mastermind) - [View in repl.it](https://repl.it/@TenaciousQi/mastermind)
 * [Peter Meglis's Solution](https://github.com/petermeglis/ruby/tree/master/theodinproject/mastermind)
 * [threeaces' Solution](https://github.com/threeaces/mastermind_ruby_top) - [View in repl.it](https://repl.it/@threeaces/mastermindrubytop)  
