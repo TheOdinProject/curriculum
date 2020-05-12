@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [fviccia's Solution](https://github.com/fviccia/Etch-A-Sketch) - [View in Browser](https://fviccia.github.io/Etch-A-Sketch/)
 * [Spark's Solution](https://github.com/Sparking2/ETCH-A-SKETCH)
 * [aholdrick's Solution](https://github.com/aholdrick/etch-a-sketch) - [View in Browser](https://aholdrick.github.io/etch-a-sketch/)
 * [Cesar's Solution](https://github.com/Cesar-rdgz/Etch-A-Sketch) - [View in Browser](https://cesar-rdgz.github.io/Etch-A-Sketch/)
@@ -983,4 +984,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Viral Haria's Solution](https://github.com/viralharia/etch-a-sketch) - [View in Browser](https://viralharia.github.io/etch-a-sketch/)
 * [Maheswar's Solution](https://github.com/mahesh12393/Etch--A-Sketch.git) - [View in Browser](https://mahesh12393.github.io/Etch--A-Sketch/)
 * [evanakelly's Solution](https://github.com/evanakelly/etch-a-sketch) - [View in Browser](https://evanakelly.github.io/etch-a-sketch/)
+* [jingjing142's Solution](https://github.com/jingjing142/etch-a-sketch) - [View in Browser](https://jingjing142.github.io/etch-a-sketch/)
 </details>
