@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [notstoe's Solution](https://github.com/notstoe/Etch-a-Sketch) - [View in Browser](https://notstoe.github.io/Etch-a-Sketch/)
 * [Aaron's Solution](https://github.com/Aaron-McD/etch-a-sketch) - [View in Browser](https://aaron-mcd.github.io/etch-a-sketch/)
 * [fviccia's Solution](https://github.com/fviccia/Etch-A-Sketch) - [View in Browser](https://fviccia.github.io/Etch-A-Sketch/)
 * [Spark's Solution](https://github.com/Sparking2/ETCH-A-SKETCH)
