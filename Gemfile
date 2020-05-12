@@ -5,7 +5,7 @@ gem 'rails',                      '6.0.2.2'
 
 gem 'puma'
 gem 'turbolinks'
-gem 'jquery-rails',               '~> 4.3.1'
+gem 'jquery-rails',               '~> 4.4.0'
 gem 'devise',                     '>= 4.7.1'
 gem 'rack-timeout',               '~> 0.4'
 gem 'kaminari',                   '~> 1.0', '>= 1.0.1'
