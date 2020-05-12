@@ -18,12 +18,21 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 </div>
 
 ### Student Solutions
-Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/web_development_frameworks/project_rails.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
+Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/rails_basics/project_blog_app.md) with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+
+* [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/Blogger) - [View in Browser](https://fast-harbor-38452.herokuapp.com/)
+* [Grant Cottle's Solution](https://github.com/grantmaster89/rails_blog) - [View in Browser](https://peaceful-inlet-81561.herokuapp.com/)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/blog_app_project) - [View in Browser](https://whispering-crag-79843.herokuapp.com/)
+* [leetie's Solution](https://github.com/leetie/bloggerV2) - [View in Browser](http://www.leetie.blog/)
+* [Jithin's Solution](https://github.com/jithindasad/jumpstart-blogger)
+* [Powei94's Solution](https://github.com/powei94/rails_blog_app) - [View in Browswer](https://shrouded-waters-51084.herokuapp.com/)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/blog_tutorial) - [View in Browswer](https://shielded-basin-69335.herokuapp.com/articles)
+* [Run After's Solution](https://github.com/run-after/blogger)
 * [LenaChestnut's Solution](https://github.com/LenaChestnut/rails-blog) - [View in Browser](https://powerful-wildwood-59785.herokuapp.com/)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Blogger) - [View in Browser](https://infinite-plains-44231.herokuapp.com/)
 * [Joel Bejot's Solution](https://github.com/JoelBejot/blogger.git) - [View in Browser](https://stormy-waters-91981.herokuapp.com/)
