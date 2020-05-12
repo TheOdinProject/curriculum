@@ -166,42 +166,11 @@ This marks the start of your Odin journey! Later on, you'll be able to look back
 
 ### Step 3: Deploy Your Rails Application
 
-Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working.
+Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working. 
 
-#### Step 3.1: Create a Heroku Account
+Recall, in the [previous lesson](https://www.theodinproject.com/courses/ruby-on-rails/lessons/preparing-for-deployment) we set up our Heroku account to deploy our web applications. If you have not already done so, go back and complete the lesson.
 
-Go to the [Heroku website](https://www.heroku.com/) and create an account using the same email address you used for GitHub and Git.
-
-#### Step 3.2: Heroku CLI
-
-Activate your account from the email they sent you. Now, we'll install the Heroku command line so that we can interact with the Heroku service. We will use `curl` to download a script and run it to install the Heroku CLI. This script may ask for your `sudo` password, this is expected. Go ahead and type it in after running the command below.
-
-Run this command:
-
-~~~bash
-curl https://cli-assets.heroku.com/install.sh | sh
-~~~
-
-This command needs administrative access and will ask for your sudo password. Enter the password of your computer account and press enter to continue.
-
-Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
-
-
-#### Step 3.3: Add your SSH Key to Heroku
-
-Adding your SSH key lets Heroku know what machine the commands are coming from, similar to how GitHub uses SSH keys.
-
-In your terminal, type
-
-~~~bash
-heroku keys:add
-~~~
-
-Next, press `y` and then `Enter`. Now, type in the email address you used to create your Heroku account and press `Enter`. Then, type in the password for your Heroku account. Next, press `y` and `Enter` to allow Heroku to upload your public SSH key.
-
-The terminal may read `Invalid credentials provided`. Just press any key and the Heroku website will open in your browser. Log in with the information you created your account with, and the terminal will reappear and accept your public SSH key.
-
-#### Step 3.4: Create a Heroku Application
+#### Step 3.1: Create a Heroku Application
 
 First, run
 
@@ -217,11 +186,11 @@ git remote
 
 Verify that you see `heroku` in the output.
 
-#### Step 3.5: Prepare Rails for Heroku Deployment
+#### Step 3.2: Prepare Rails for Heroku Deployment
 
 Heroku uses a slightly different setup than what we have on our machine. We need to configure the application to play nicely with both.
 
-#### Step 3.5.1: Configure the Gemfile
+#### Step 3.2.1: Configure the Gemfile
 
 To deploy a Rails application, we need to change some settings.
 
@@ -251,7 +220,7 @@ end
 
 Then, save the file. You can leave VSCode open since we're going to be coming back to it, but for the next step, go back to your terminal.
 
-#### Step 3.5.2: Install the Bundle
+#### Step 3.2.2: Install the Bundle
 
 Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To do this, we can simply run
 
@@ -259,7 +228,7 @@ Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To
 bundle install --without production
 ~~~
 
-#### Step 3.5.3: Configure the Root Route
+#### Step 3.2.3: Configure the Root Route
 
 The next thing we need to edit is the `routes.rb` file to set our root route. We're going to do this so that we can see the application without having to append `/cars` at the end of the URL.
 
@@ -274,7 +243,7 @@ end
 
 Save the file. You can close VSCode now; the rest of the steps take place in the terminal.
 
-#### Step 3.6: Add Changes to Git
+#### Step 3.3: Add Changes to Git
 
 Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
 
@@ -318,7 +287,7 @@ While we're here, we might as well push our changes to GitHub too:
 git push origin master
 ~~~
 
-#### Step 3.7: Push to Heroku
+#### Step 3.4: Push to Heroku
 
 Now that we've committed the files, we can push to Heroku:
 
@@ -336,7 +305,7 @@ heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for it to finish.
 
-#### Step 3.8: Migrate the Database on Heroku
+#### Step 3.5: Migrate the Database on Heroku
 
 Similar to what we did locally before we launched our app, we need to migrate the database on Heroku, which we can do with the Heroku CLI.
 
@@ -350,7 +319,7 @@ You might see some strange output, but as long as you do not have an error, you 
 
 If you have an error, come to our [chat room](https://discord.gg/hvqVr6d), and ask for help. Be sure to include the entire output from your terminal when you ask your question.
 
-#### Step 3.9: Visit Your New Application
+#### Step 3.6: Visit Your New Application
 
 It's time to see your app on the web! If you are using Linux or Mac, you can quickly open your app with the command below. If you are using WSL it will not open automatically, however, you will get an error message containing the link to copy and paste in your browser:
 

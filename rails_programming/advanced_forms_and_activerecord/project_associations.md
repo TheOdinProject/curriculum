@@ -63,6 +63,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Cristobal Becerra's Solution](https://github.com/powei94/private-events) - [View in Browser](https://sheltered-mountain-61366.herokuapp.com/)
 * [Duarte's Barebones Solution](https://github.com/Duartemartins/events-app)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/private-members)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/private-events) - [View in Browser](https://fathomless-scrubland-74558.herokuapp.com/)
@@ -78,7 +79,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Austin Fisher's Solution](https://thawing-everglades-63943.herokuapp.com/)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/private-events) - [View in Browser](https://social-boost-app.herokuapp.com/)
 * [0zra's Solution](https://github.com/0zra/event-planner)
-* [Raiko's Solution](https://github.com/Cypher0/private-events) - [View in Browser](https://radiant-brook-28646.herokuapp.com/)
 * [Jmooree30's Solution](https://github.com/jmooree30/private-events.git) - [View in Broswer](https://sleepy-wildwood-90425.herokuapp.com/)
 * [theghall's Solution](https://github.com/theghall/odin-private-events.git)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/private-events)
