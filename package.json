@@ -22,6 +22,6 @@
     "validate.js": "^0.13.1"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.11.0"
   }
 }
