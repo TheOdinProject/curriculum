@@ -19,6 +19,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Matt Fergoda's Solution](https://github.com/mattfergoda/tic-tac-toe) - [View in repl.it](https://repl.it/@mattfergoda/tic-tac-toe)
+* [Peter Meglis's Solution](https://github.com/petermeglis/ruby/tree/master/theodinproject/tic_tac_toe)
+* [Ichenn's Solution](https://github.com/Ichenn92/tic-tac-toe) - [Vew in repl.it](https://repl.it/@Ichenn92/tic-tac-toe)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Tic_Tac_Toe)
 * [Mikael's Solution](https://mikearaya.github.io/tic-tac-toe) - [Vew in repl.it](https://repl.it/@MichaelAraya1/tic-tac-toe)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/tic_tac_toe) - [Vew in repl.it](https://repl.it/@NickDiPreta/tictactoe-2)
@@ -350,6 +353,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matt Miller's solution](https://github.com/MattMiller1989/Tic-Tac-Toe/blob/master/Tic-Tac-Toe.rb)
 * [Michael K's Solution](https://github.com/a0x77ry/tic-tac-toe)
 * [akoenig1's Solution](https://github.com/akoenig1/oop_project)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/tic_tac_toe)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/tic-tac-toe.rb)
 </details>
 
 ### Project 2: Mastermind
@@ -376,6 +381,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Matt Fergoda's Solution](https://github.com/mattfergoda/mastermind) - [View in repl.it](https://repl.it/@mattfergoda/mastermind)
+* [tenacious-qi's Solution](https://github.com/Tenacious-Qi/OOP-project/tree/master/mastermind) - [View in repl.it](https://repl.it/@TenaciousQi/mastermind)
+* [Peter Meglis's Solution](https://github.com/petermeglis/ruby/tree/master/theodinproject/mastermind)
+* [threeaces' Solution](https://github.com/threeaces/mastermind_ruby_top) - [View in repl.it](https://repl.it/@threeaces/mastermindrubytop)  
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/mastermind/blob/master/mastermind.rb) -[View in repl.it](https://repl.it/@NickDiPreta/mastermind)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Mastermind) - [View in repl.it](https://repl.it/@andrewbaldwin44/Mastermind)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/mastermind.rb)
@@ -636,6 +645,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Michael K's Solution](https://github.com/a0x77ry/mastermind)
 * [Matt M's Solution](https://github.com/MattMiller1989/Mastermind)
 * [akoenig1's Solution](https://github.com/akoenig1/oop_project/tree/master/mastermind)
+* [Vuyani's Solution](https://github.com/vuyanir/tictactoe)
 </details>
 
 ### Additional Resources
