@@ -274,7 +274,7 @@ GEM
     parallel (1.19.1)
     parser (2.7.1.2)
       ast (~> 2.4.0)
-    pg (0.21.0)
+    pg (1.2.3)
     polyamorous (2.3.2)
       activerecord (>= 5.2.1)
     popper_js (1.16.0)
@@ -505,7 +505,7 @@ DEPENDENCIES
   omniauth-github
   omniauth-google-oauth2
   omniauth-rails_csrf_protection
-  pg (~> 0.19)
+  pg (~> 1.2)
   premailer-rails (~> 1.11)
   pry (~> 0.13.1)
   puma
