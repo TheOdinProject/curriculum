@@ -483,6 +483,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Veskenazi's Solution](https://github.com/veskenazi/blogger-app) - [View in Browser](https://morning-crag-79127.herokuapp.com/)
 * [tomstrat's Solution](https://github.com/tomstrat/ruby_blogger) - [View in Browser](https://dry-peak-20557.herokuapp.com/)
 </details>
+* [Robert Suazo's Solution](https://github.com/rsuazo/blogger) - [View in Browser](https://vast-bastion-98472.herokuapp.com/)
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
