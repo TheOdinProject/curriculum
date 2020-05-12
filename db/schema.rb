@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_23_213901) do
+ActiveRecord::Schema.define(version: 2020_04_27_171828) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,8 +22,8 @@ ActiveRecord::Schema.define(version: 2020_04_23_213901) do
     t.bigint "resource_id"
     t.string "author_type"
     t.bigint "author_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
     t.index ["author_type", "author_id"], name: "index_active_admin_comments_on_author_type_and_author_id"
     t.index ["namespace"], name: "index_active_admin_comments_on_namespace"
     t.index ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id"
@@ -95,6 +95,18 @@ ActiveRecord::Schema.define(version: 2020_04_23_213901) do
     t.index ["lesson_id"], name: "index_projects_on_lesson_id"
     t.index ["user_id", "lesson_id"], name: "index_projects_on_user_id_and_lesson_id", unique: true
     t.index ["user_id"], name: "index_projects_on_user_id"
+  end
+
+  create_table "reports", force: :cascade do |t|
+    t.integer "reporter_id", null: false
+    t.bigint "project_id", null: false
+    t.text "reason", default: "", null: false
+    t.integer "status", default: 0, null: false
+    t.integer "action_taken", default: 0, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["project_id"], name: "index_reports_on_project_id"
+    t.index ["reporter_id"], name: "index_reports_on_reporter_id"
   end
 
   create_table "sections", id: :serial, force: :cascade do |t|
@@ -196,4 +208,6 @@ ActiveRecord::Schema.define(version: 2020_04_23_213901) do
 
   add_foreign_key "projects", "lessons"
   add_foreign_key "projects", "users"
+  add_foreign_key "reports", "projects"
+  add_foreign_key "reports", "users", column: "reporter_id"
 end

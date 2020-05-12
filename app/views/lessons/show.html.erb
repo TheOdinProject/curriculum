@@ -82,10 +82,6 @@
   </div>
 </div>
 
-<% if user_signed_in? %>
-  <%= render 'projects/report_form_modal', lesson: @lesson %>
-<% end %>
-
 <% if user_signed_in? && @lesson.has_submission? %>
   <div id="project-submission-modal-wrapper">
     <%= render 'projects/form_modal', lesson: @lesson, project: @project %>

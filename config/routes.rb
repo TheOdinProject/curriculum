@@ -47,6 +47,7 @@ Rails.application.routes.draw do
 
   resources :lessons, only: :show do
     resources :projects, only: %i(index create update destroy) do
+      resources :reports, only: %i[create]
       resources :votes, only: %i(create)
       delete 'vote', to: 'votes#destroy'
     end
@@ -54,8 +55,6 @@ Rails.application.routes.draw do
     resources :lesson_completions, only: %i(create), as: 'completions'
     delete 'lesson_completions' => 'lesson_completions#destroy', :as => 'lesson_completions'
   end
-
-  resources :reports, only: :create
 
   match '/404' => 'errors#not_found', via: [ :get, :post, :patch, :delete ]
 
