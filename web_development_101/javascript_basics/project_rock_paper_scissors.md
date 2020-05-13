@@ -1556,7 +1556,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Knuckles' solution](https://github.com/mosesakor/rock-paper-scissors) - [View in Browser](https://mosesakor.github.io/rock-paper-scissors/)
 - [Avian_Eli's Solution](https://github.com/Eli-b-good/rock-paper-scissors)
 - [Tristan Carey's Solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
-- [Tai's Solution](https://github.com/kimtaisuk/rock-paper-scissor)
+- [Tai's Solution](https://github.com/kimtaisuk/rock-paper-scissors) - [View in Browser](https://kimtaisuk.github.io/rock-paper-scissors/)
 - [mangakiko's Solution](https://github.com/magakiko/rock-paper-scissors)
 - [toddzal's solution](https://github.com/toddzal/odin-project-rock-paper-scissors) - [View in Browser](https://toddzal.github.io/odin-project-rock-paper-scissors/)
 - [Knuttas's solution](https://github.com/Knuttas/rock-paper-scissors)
