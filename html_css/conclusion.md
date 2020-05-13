@@ -8,7 +8,6 @@ Luckily, that's the next course!  Onwaaaaaaard!!!
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Web Fundamentals](https://developers.google.com/web/fundamentals/)... tons of links to articles specific to your goals.
-* [Codecademy's Learn Sass](http://www.codecademy.com/learn/learn-sass)
 * [Shay Howe's Beginner's Guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
 * [HTML5 Tutorial](http://www.html-5-tutorial.com/start-html5-tutorial.htm)
 * [Responsive Prototyping with Foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)
