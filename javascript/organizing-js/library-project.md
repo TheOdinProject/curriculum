@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [GERRG's Solution (w/ local storage)](https://github.com/gerrgg/gregslib) - [View in Browser](https://gerrgg.github.io/gregslib/)
 - [zhi-k's Solution (w/ firebase)](https://github.com/zhi-k/TOR_Library_App) - [View in Browser](https://zhi-k.github.io/TOR_Library_App/)
 - [shaneSC's Solution](https://github.com/shanesc/library) - [View in Browser](https://shanesc.github.io/library/)
 - [Ebru's Solution](https://github.com/naturelle/OdinBookList) - [View in Browser](https://naturelle.github.io/OdinBookList/)
@@ -276,6 +277,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [JCoen's Solution (w/localStorage)](https://github.com/J-coen/Odin-library-project) - [View in Browser](https://j-coen.github.io/Odin-library-project/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/library) - [View in Browser](https://ozansozuozgit.github.io/library/)
 - [kbrdsk's Solution (w/firebase)](https://github.com/kbrdsk/library) - [View in Browser](https://kbrdsk.github.io/library/)
+- [thorney29's Solution (w/localstorage)](https://github.com/thorney29/the_odin_project/tree/master/book-library) - [View in Browser](https://thorney29.github.io/the_odin_project/book-library/)
 - [Tristan Ross's Solution](https://github.com/TristanRoss/Library) - [View in Browser](https://tristanross.github.io/Library/)
 - [Danyl Matviyenko's Solution](https://github.com/DanylMatviyenko/TheOdinProject-LIBRARY-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-LIBRARY-/)
 </details>
