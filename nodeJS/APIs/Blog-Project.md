@@ -34,7 +34,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - Add your solution below this line!
 * [tracy2811's Solution](https://github.com/tracy2811/blog-api)
 * [Eljoey's Solution](https://github.com/eljoey/Blog-Api) - [Blog Site](https://jh-blog.netlify.com/)
-* [Brian Tuju's Solution (API)](https://github.com/briantuju/odin-blog-api) - [Live Site](https://odin-blog.netlify.com/)
+* [Brian Tuju's Solution (API)](https://github.com/briantuju/op-blog-api) - [Live Site](https://odin-blog.netlify.com/)
 
 </details>
 

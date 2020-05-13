@@ -134,6 +134,6 @@ Follow the directions in [this article from GitHub](https://help.github.com/en/a
 
 ### Step 3: Let us know how it went!
 
-You have successfully completed the installations section. If you are doing the front-end of Node courses then you have everything you need. If you're doing Ruby and Rails we'll install those tools when you get to those courses.
+You have successfully completed the installations section. If you are doing the front-end or Node courses then you have everything you need. If you're doing Ruby and Rails we'll install those tools when you get to those courses.
 
 You probably felt like you were in way over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.

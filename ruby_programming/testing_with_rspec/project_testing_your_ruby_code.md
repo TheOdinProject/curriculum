@@ -21,6 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* YesSeri's Solutions: [Caesar Cipher](https://github.com/YesSeri/caesar_cipher)
 * Olugbade Olalekan's Solutions: [Tic Tac Toe](https://github.com/gbadesimple/tic_tac_toe_implementation_tdd), [Enumerable Module](https://github.com/gbadesimple/enumerable_module_implementation_TDD), [Caesar Cipher](https://github.com/gbadesimple/caesar_cipher_implementation_TDD)
 * jodokusquack's solutions: [Builduing Blocks](https://github.com/jodokusquack/Ruby-Challenges), [Enumerable Methods](https://github.com/jodokusquack/Advanced_ruby_challenges), [Tic-Tac-Toe](https://github.com/jodokusquack/tic-tac-toe)
 * David Auza's and Falguni Islam's Solutions: [Tic Tac Toe](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Tic-Tac-Toe) => [Tic Tac Toe Demo](https://repl.it/@islamfalguni/tictactoe-1), [Enumerable Methods](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Enumerable) => [Enumerable Methods Demo](https://repl.it/@DavidAuza/PROJECT-TESTING-YOUR-RUBY-CODE-Enumerable)
@@ -113,6 +114,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * guacamobley's solutions: [Caesar Cipher](https://github.com/guacamobley/ruby-building-blocks), [Enumerable](https://github.com/guacamobley/ruby-advanced-building-blocks), [Tic Tac Toe](https://github.com/guacamobley/tic-tac-toe)
 * Ranon Martin's solutions: [Caesar Cipher](https://github.com/ranonm/TheOdinProjectExercises/blob/master/caesar_cipher/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/ranonm/TheOdinProjectExercises/blob/master/enumerable_methods/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/ranonm/TheOdinProjectExercises/blob/master/tic_tac_toe/spec/board_spec.rb)
 * Timework's Solutions: [Caesar Cipher](https://github.com/Timework/caesarCipher/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/Timework/enumerable/blob/master/spec/enum_spec.rb), [Tic Tac Toe](https://github.com/Timework/ticTac/blob/master/spec/tic_spec.rb)
+* Matt M's Solutions: [Caesar Cipher](https://github.com/MattMiller1989/Caesar-Cipher), [Tic Tac Toe](https://github.com/MattMiller1989/Tic-Tac-Toe)
+
 </details>
 
 ### Project: TDD Connect Four
@@ -138,6 +141,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.connect_four)
+* [YesSeri's Solution](https://github.com/YesSeri/connect_four)
 * [Billy Coffin's Solution](https://github.com/bcoffin9/connectfour)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/connect_four_tdd)
 * [jodokusquack's Solution](https://github.com/jodokusquack/connect_four)
