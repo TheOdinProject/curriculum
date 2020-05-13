@@ -43,4 +43,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/odin-inventory-application) - [View in Browser](https://odin-inventory-application.herokuapp.com/)
 - [Aron's Solution](https://github.com/aronfischer/mern_inventory_project) - [View in Browser](https://aronfischer.github.io/mern_inventory_project/)
 - [Tayfun Sur's Solution](https://github.com/0xtaf/inventory-app) - [View in Browser](https://thawing-ocean-46751.herokuapp.com/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/buzzword-bazaar) - [View in Browser](https://secure-anchorage-38844.herokuapp.com/catalog)
 </details>
