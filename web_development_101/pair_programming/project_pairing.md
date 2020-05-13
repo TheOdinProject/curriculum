@@ -235,6 +235,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Tristan Ross's Solution](https://github.com/TristanRoss/pomodoro-clock) - [View in Browser](https://tristanross.github.io/pomodoro-clock/)
 * [Knuttas's Solution](https://github.com/Knuttas/pomodoro-clock) - [View in Browser](https://knuttas.github.io/projects/pomodoro-clock/index.html)
 * [fussykyloren's Solution](https://github.com/fussykyloren/pomodoro) - [View in Browser](https://fussykyloren.github.io/pomodoro/)
+* [Ebenezer Koodi's Solution] (https://codepen.io/mrkoodi/pen/VGqPbr) - [View in Browser] (https://codepen.io/mrkoodi/pen/VGqPbr)
 </details>
 
 ### Next Steps
