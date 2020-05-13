@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [blackstate's Solution](https://github.com/blackstate/calculator) - [View in Browser](https://blackstate.github.io/calculator/)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/calculator) - [View in Browser](https://andrsrz.github.io/calculator/)
 - [overdice's solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Calculator) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Calculator/index.html)
 - [mortvicious's solution](https://mortvicious.github.io/calculatefancy/) - [View in Browser](https://mortvicious.github.io/calculatefancy/)
