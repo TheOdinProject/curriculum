@@ -9,7 +9,7 @@ After each lesson or two, you'll be asked to build one or more independent proje
 
 ### The Roadmap
 
-After installing Rails, we'll be starting with an overview of important topics like HTTP, MVC, REST, APIs, Cookies and Authentication for some context before moving into the really fun stuff.
+After preparing for deployment and installing Rails, we'll be starting with an overview of important topics like HTTP, MVC, REST, APIs, Cookies and Authentication for some context before moving into the really fun stuff.
 
 We'll move front-to-back, starting with the routing layer and moving into controllers and views so you can build a functional (if not yet pretty) interface for your data.  Next you'll learn about storing and finding data in databases with SQL then how to turn that SQL into Active Record queries.  We next cover web forms, an area that has a lot more going on behind the scenes than you might expect, and authentication, which is essential to securing your application.  We'll cover some other intermediate topics like state and the asset pipeline to round out your initial understanding of Rails.
 

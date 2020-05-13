@@ -19,6 +19,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ludo's Solution](https://github.com/ludocourbin/weather-app/) - [View in Browser](https://weather-app-ludo.netlify.app/)
+* [mjwills-inf's Solution](https://github.com/mjwills-inf/-TOP-weather/) - [View in Browser](https://mjwills-inf.github.io/-TOP-weather/)
+* [jc's Solution](https://github.com/avazkhan2808/project-weather) - [View in Browser](https://avazkhan2808.github.io/project-weather/)
 * [Andrea's Solution](https://github.com/fioriandrea/weather_app) - [View in Browser](https://fioriandrea.github.io/weather_app/)
 * [Lenny's Solution](https://github.com/Lenn-e/weather-app) - [View in Browser](https://lenn-e.github.io/weather-app/)
 * [Disco Trooper's Solution](https://github.com/disco-trooper/weather-app) - [View in Browser](https://disco-trooper.github.io/weather-app/)
@@ -83,4 +86,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [ranmaru22's Solution](https://github.com/ranmaru22/my-weather) - [View in Browser](https://ranmaru22.github.io/my-weather/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/Weather-App) - [View in Browser](https://rey810.github.io/Weather-App/)
 * [thecodediver's Solution](https://github.com/thecodediver/api_testing) - [View in Browser](https://thecodediver.github.io/api_testing/)
+* [m-rejdych's Solution](https://github.com/m-rejdych/Weather-App) - [View in Browser](https://m-rejdych.github.io/Weather-App/)
 </details>
