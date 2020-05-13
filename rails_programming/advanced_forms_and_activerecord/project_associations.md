@@ -63,6 +63,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Cristobal Becerra's Solution](https://github.com/powei94/private-events) - [View in Browser](https://sheltered-mountain-61366.herokuapp.com/)
 * [Duarte's Barebones Solution](https://github.com/Duartemartins/events-app)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/private-members)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/private-events) - [View in Browser](https://fathomless-scrubland-74558.herokuapp.com/)
