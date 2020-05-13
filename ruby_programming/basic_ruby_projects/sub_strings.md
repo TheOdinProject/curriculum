@@ -496,4 +496,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/substring.rb)
 * [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/sub-string.rb)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/substrings.rb)
+* [Justin's Solution](https://github.com/Justin-Meffs/ruby-projects/blob/master/sub_strings.rb)
 </details>

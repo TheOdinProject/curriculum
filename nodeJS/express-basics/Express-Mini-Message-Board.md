@@ -77,6 +77,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [sodip's solution](https://github.com/sodip101/MiniMessageboard) - [View in Browser](https://mini-messageboard.herokuapp.com/)
 - [yldrmali's solution](https://github.com/yldrmali/mini_message_board) - [View in Browser](https://sleepy-harbor-09438.herokuapp.com/)
 - [Julio's solution](https://github.com/julio22b/mini-message-board) - [View in Browser](https://tranquil-earth-41894.herokuapp.com/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/mini-message-board) - [View in Browser](https://afternoon-hamlet-45199.herokuapp.com/)
