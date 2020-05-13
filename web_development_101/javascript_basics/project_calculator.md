@@ -46,10 +46,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [aholdrick's Solution](https://github.com/aholdrick/calculator-site) - [View in Browser](https://aholdrick.github.io/calculator-site/)
+- [blackstate's Solution](https://github.com/blackstate/calculator) - [View in Browser](https://blackstate.github.io/calculator/)
 - [Lee Massey's Solution](https://github.com/LeeMassey/js_calculator) - [View in Browser](https://leemassey.github.io/js_calculator/)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/calculator) - [View in Browser](https://andrsrz.github.io/calculator/)
-- [overdice's solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Calculator) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Calculator/index.html)
-- [mortvicious's solution](https://mortvicious.github.io/calculatefancy/) - [View in Browser](https://mortvicious.github.io/calculatefancy/)
+- [overdice's Solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Calculator) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Calculator/index.html)
+- [mortvicious's Solution](https://mortvicious.github.io/calculatefancy/) - [View in Browser](https://mortvicious.github.io/calculatefancy/)
 - [Phank's Solution](https://github.com/phankthusar/calculator) - [View in Browser](https://phankthusar.github.io/calculator/)
 - [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/calculator) - [View in Browser](https://muhymenulhaque.github.io/calculator/)
 - [BraveStone9's Solution](https://github.com/BraveStone9/Calculator) - [View in Browser](https://bravestone9.github.io/Calculator/index.html) 
