@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+My solution with local storage: https://github.com/stefank-29/Library Live demo: https://stefank-29.github.io/Library/
 - [mortvicious's Solution](https://github.com/mortvicious/library) - [View in Browser](https://mortvicious.github.io/library/)
 - [GERRG's Solution (w/ local storage)](https://github.com/gerrgg/gregslib) - [View in Browser](https://gerrgg.github.io/gregslib/)
 - [zhi-k's Solution (w/ firebase)](https://github.com/zhi-k/TOR_Library_App) - [View in Browser](https://zhi-k.github.io/TOR_Library_App/)
