@@ -3356,6 +3356,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [pablov-1995's Solution (Easy)](https://github.com/pablov-1995/google-homepage) - [View in Browser](https://pablov-1995.github.io/google-homepage/)
 * [helendevelops's Solution (Easy)](https://github.com/helendevelops/google-homepage) - [View in Browser](https:/github.com/helendevelops/google-homepage)
 * [AAGRU's Solution (Easy)](https://github.com/AAGRU/TOD_Google_homepage/) - [View in Browser](https://aagru.github.io/TOD_Google_homepage/)
+* [dzalee16 Solution (Easy)](https://github.com/dzalee16/google-homepage) - [View in Browser](https://dzalee16.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
