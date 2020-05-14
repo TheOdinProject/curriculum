@@ -93,6 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Jeremy Thomas's Solution (Easy)] (https://github.com/saucebox11/google-homepage) - [View in Browser](https://saucebox11.github.io/google-homepage/)
 * [benjamin-gambling's Solution (Easy)](https://github.com/benjamin-gambling/google-homepage) - [View in Browser](https://benjamin-gambling.github.io/google-homepage/)
 * [Digthedill's Solution (Easy)](https://github.com/digthedill/goggle-homepage) - [View in Browser](https://digthedill.github.io/goggle-homepage/)
 * [Kristopher Sach's Solution (Easy)](https://github.com/risma-labs/google-homepage) - [View in Browser](https://risma-labs.github.io/google-homepage/)
