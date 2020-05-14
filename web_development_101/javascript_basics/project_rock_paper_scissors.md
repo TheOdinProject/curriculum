@@ -1573,4 +1573,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [pabloitzeder's Solution](https://github.com/pabloitzeder/rock-paper-scissors)
 - [Viral Haria's Solution](https://github.com/viralharia/rock-paper-scissors) - [View in Browser](https://viralharia.github.io/rock-paper-scissors/)
 </details>
-- [eckoman33's Solution] (https://github.com/eckoman33/project_rock_paper_scissors)
+- [eckoman33's Solution] (https://eckoman33.github.io/project_rock_paper_scissors/)
