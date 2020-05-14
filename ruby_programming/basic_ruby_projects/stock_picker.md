@@ -27,6 +27,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Laurens' Solution](https://github.com/laurenskrom/TOPrubyprojects/blob/master/stockpicker.rb)
+* [Damian Tabor's Solution](https://github.com/blunt008/odin-project-ruby-basic-projects/blob/master/stock_picker/solution.rb)
+* [andrewjh271's Solution](https://github.com/andrewjh271/basic_ruby_projects/tree/master/stock_picker)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/stock_picker.rb)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Ruby-Basics-Projects/blob/master/stock-picker/stock-picker.rb)
 * [Harold Guido's Solution](https://github.com/harold-guido/ruby-beginner-exercises/blob/master/stock_picker/stock_picker.rb)
 * [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/stock-picker-project)
@@ -491,4 +495,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/stock_picker.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/stock-picker.rb)
 * [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/stock_picker.rb)
+* [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/stock-picker.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/stock_picker.rb)
 </details>

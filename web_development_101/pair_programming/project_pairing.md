@@ -32,6 +32,8 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Laurens' Solution](https://github.com/laurenskrom/pomodoro) - [View in Browser](https://laurenskrom.github.io/pomodoro/)
+* [mortvicious's Solution](https://mortvicious.github.io/pomodoroclock/) - [View in Browser](https://mortvicious.github.io/pomodoroclock/)
 * [andrewjh271](https://github.com/andrewjh271) and [Aaron Contreras's](https://github.com/aaron-contreras) [Solution](https://github.com/andrewjh271/pomodoro) - [View in Browser](https://andrewjh271.github.io/pomodoro/)
 * [leddins's Solution](https://github.com/leddins/interval-timer) - [View in Browser](https://leddins.github.io/interval-timer/)
 * [Cristian's Solution](https://github.com/cristianCeamatu/pomodoro-clock) - [View in Browser](https://cristianceamatu.github.io/pomodoro-clock/)
@@ -234,6 +236,11 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [MichelleP1's Solution](https://github.com/MichelleP1/pomodorotimer) - [View in Browser](http://michellepeters.me/pomodorotimer/)
 * [Tristan Ross's Solution](https://github.com/TristanRoss/pomodoro-clock) - [View in Browser](https://tristanross.github.io/pomodoro-clock/)
 * [Knuttas's Solution](https://github.com/Knuttas/pomodoro-clock) - [View in Browser](https://knuttas.github.io/projects/pomodoro-clock/index.html)
+* [fussykyloren's Solution](https://github.com/fussykyloren/pomodoro) - [View in Browser](https://fussykyloren.github.io/pomodoro/)
+* [Ebenezer Koodi's Solution](https://codepen.io/mrkoodi/pen/VGqPbr) - [View in Browser](https://codepen.io/mrkoodi/pen/VGqPbr)
+* [feseka's Solution](https://github.com/feseka61/chrono-tomato/) - [View in Browser](https://feseka61.github.io/chrono-tomato/)
+* [Dyrit's Solution](https://github.com/Dyrits/WEBDEV-TOP-PP) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PP/)
+* [msespos's & dyskgo's Solution](https://github.com/msespos/pomodoro) - [View in Browser](https://msespos.github.io/pomodoro/)
 </details>
 
 ### Next Steps

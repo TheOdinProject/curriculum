@@ -113,6 +113,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [YesSeri's Solution](https://github.com/YesSeri/micro-reddit)
 * [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/Micro-Reddit)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/building_with_active_record_project)
 * [leetie's Solution!](https://github.com/leetie/rails_association_practice)

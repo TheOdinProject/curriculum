@@ -69,6 +69,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Christian's Solution](https://github.com/rueeazy/ruby-exercises/blob/master/linked_list.rb)
+- [rryand's Solution (with extra credit)](https://github.com/rryand/ruby_linked_list/tree/master/classes)
 - [Saul-Good-Homie's Solution (with XC)](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/linked_list.rb)
 - [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/tree/master/linked_list)
 - [pudu87's Solution](https://github.com/pudu87/linked-lists)
@@ -233,4 +235,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Cinthia's Solution (with extra credit)](https://github.com/cinthiagodoi/linked-lists)
 - [Matt M's Solution (with extra credit)](https://github.com/MattMiller1989/Linked-List)
 - [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/linked_list)
+- [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Linked_lists/LinkedList.rb)
   </details>
