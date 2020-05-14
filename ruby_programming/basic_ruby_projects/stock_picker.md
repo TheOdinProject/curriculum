@@ -496,4 +496,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/stock-picker.rb)
 * [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/stock_picker.rb)
 * [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/stock-picker.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/stock_picker.rb)
 </details>
