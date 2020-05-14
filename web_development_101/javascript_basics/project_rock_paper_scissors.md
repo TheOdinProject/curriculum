@@ -1572,4 +1572,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [pablov-1995's Solution](https://github.com/pablov-1995/rock-paper-scissors) - [View in Browser](https://pablov-1995.github.io/rock-paper-scissors/)
 - [pabloitzeder's Solution](https://github.com/pabloitzeder/rock-paper-scissors)
 - [Viral Haria's Solution](https://github.com/viralharia/rock-paper-scissors) - [View in Browser](https://viralharia.github.io/rock-paper-scissors/)
+- [tim87henry's Solution](https://github.com/tim87henry/rock_paper_scissors) - [View in Browser](https://tim87henry.github.io/rock_paper_scissors/)
 </details>
