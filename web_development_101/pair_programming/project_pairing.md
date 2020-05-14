@@ -239,6 +239,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [fussykyloren's Solution](https://github.com/fussykyloren/pomodoro) - [View in Browser](https://fussykyloren.github.io/pomodoro/)
 * [Ebenezer Koodi's Solution](https://codepen.io/mrkoodi/pen/VGqPbr) - [View in Browser](https://codepen.io/mrkoodi/pen/VGqPbr)
 * [feseka's Solution](https://github.com/feseka61/chrono-tomato/) - [View in Browser](https://feseka61.github.io/chrono-tomato/)
+* [Dyrit's Solution](https://github.com/Dyrits/WEBDEV-TOP-PP) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PP/)
 </details>
 
 ### Next Steps
