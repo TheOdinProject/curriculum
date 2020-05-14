@@ -101,7 +101,7 @@ As we can see from the algorithm we developed, the first sub problem we can solv
 With JavaScript, we'll use the "prompt" method.
 
 ~~~javascript
-let answer = prompt("Please enter the number you would like to FizzBuss up to: ");
+let answer = prompt("Please enter the number you would like to FizzBuzz up to: ");
 ~~~
 
 The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`.
@@ -109,7 +109,7 @@ The above code should create a little popup box that asks the user for a number.
 With that done let's move on to the next sub problem "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-lop:
 
 ~~~javascript
-let answer = prompt("Please enter the number you would like to FizzBuss up to: ");
+let answer = prompt("Please enter the number you would like to FizzBuzz up to: ");
 
 for (let i = 1; i <= answer; i++) {
   console.log(i);
@@ -121,7 +121,7 @@ If you haven't seen this before and it looks strange, it's actually straightforw
 With that working, lets move on to the next problem: If the current number is divisible by 3 then print "Fizz"
 
 ~~~javascript
-let answer = prompt("Please enter the number you would like to FizzBuss up to: ");
+let answer = prompt("Please enter the number you would like to FizzBuzz up to: ");
 
 for (let i = 1; i < answer; i++) {
   if (i % 3 === 0) {
@@ -152,7 +152,7 @@ Fizz
 The program is starting to take shape, the final few sub problems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisble by 5 then print "Buzz"
 
 ~~~javascript
-let answer = prompt("Please enter the number you would like to FizzBuss up to: ");
+let answer = prompt("Please enter the number you would like to FizzBuzz up to: ");
 
 for (let i = 1; i < answer; i++) {
   if (i % 3 === 0) {
@@ -183,7 +183,7 @@ Buzz
 We have one more sub problem to solve to complete the program: If the current number is divisible by 3 and 5 then print "FizzBuzz"
 
 ~~~javascript
-let answer = prompt("Please enter the number you would like to FizzBuss up to: ");
+let answer = prompt("Please enter the number you would like to FizzBuzz up to: ");
 
 for (let i = 1; i < answer; i++) {
   if ( i % 3 === 0 && i % 5 == 0) {
@@ -214,7 +214,7 @@ Fizz
 7
 8
 Fizz
-Buss
+Buzz
 11
 Fizz
 13
