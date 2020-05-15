@@ -10,6 +10,19 @@ One of the biggest issues with constructors is that while they _look_ just like 
 
 The main takeaway is that while constructors aren't necessarily _evil_, they aren't the only way, and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Describe common bugs you might run into using constructors.
+- Write a factory method that returns an object.
+- Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!).
+- Explain what Closure is and how it impacts private functions & variables.
+- Describe how private functions & variables are useful.
+- Use inheritance in objects using the factory pattern.
+- Explain the module pattern.
+- Describe IIFE. What does it stand for?
+- Briefly explain namespacing and how it's useful.
+
 ### Factory function introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
@@ -260,6 +273,7 @@ The concepts are exactly the same as the factory function. However, instead of c
 - Read up about IIFE's in [this article](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html). The concept is simple: write a function, wrap it in parentheses, and then immediately call the function by adding `()` to the end of it.
 - An example of creating and using a module pattern: [JavaScript Module Pattern Basics](https://coryrylan.com/blog/javascript-module-pattern-basics).
 - Additional example of creating and using a module pattern: [Module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm).
+- For those who prefer video lessons, here is an excellent YouTube series on modular JS that covers most of the content in this guide: [Modular Javascript](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f).
 
 In our calculator example above, the function inside the IIFE is a simple factory function, but we can just go ahead and assign the object to the variable `calculator` since we aren't going to need to be making lots of calculators, we only need one. Just like the factory example, we can have as many private functions and variables as we want, and they stay neatly organized, tucked away inside of our module, only exposing the functions we actually want to use in our program.
 

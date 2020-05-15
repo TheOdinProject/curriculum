@@ -34,6 +34,20 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ash Karai's Solution](https://github.com/ashwiniraokarai/ruby-projects/blob/master/substrings.rb)
+* [Laurens' Solution](https://github.com/laurenskrom/TOPrubyprojects/blob/master/substrings.rb)
+* [Damian Tabor's Solution](https://github.com/blunt008/odin-project-ruby-basic-projects/blob/master/sub_strings/solution.rb)
+* [andrewjh271's Solution](https://github.com/andrewjh271/basic_ruby_projects/tree/master/substrings)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/substrings.rb)
+* [Evelyn's Solution](https://github.com/evive82/Odin-Project-Ruby-Basics-Projects/blob/master/sub_strings/sub_strings.rb)
+* [Harold Guido's Solution](https://github.com/harold-guido/ruby-beginner-exercises/tree/master/substring)
+* [Peter Meglis's Solution](https://github.com/petermeglis/ruby/blob/master/theodinproject/basic_projects/sub_strings.rb)
+* [Nick DiPreta's Solution](https://github.com/NickDiPreta/substringsmethod/blob/master/subs.rb)
+* [AmirHossein's Solution](https://github.com/ahparsapour/ruby-substrings/blob/master/substrings.rb)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Ruby_Building_Blocks/blob/master/substrings.rb)
+* [threeaces' Solution](https://github.com/threeaces/odin_ruby_basic_projects/blob/master/substring.rb)
+* [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/substring-project/blob/master/lib/substring.rb)
+* [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/substrings.rb)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/substring.rb)
 * [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/building_blocks/blob/master/substrings.rb)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/substrings.rb)
@@ -92,6 +106,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [BShowen's solution](https://github.com/BShowen/Ruby_substrings/blob/master/substrings.rb)
 * [Tyler Devers's Solution](https://github.com/TylerDevers/OdinWebDev/blob/master/rubyProgramming/substrings.rb)
 * [Learnsometing's Solution](https://github.com/learnsometing/TOP-ruby-projects/blob/master/ruby-basics/basics-projects/substrings.rb)
+* [TJJV's Solution](https://github.com/viei0628/substrings/blob/master/substrings.rb)
 * [Tommy's Solution](https://github.com/Tommyisr/Odin_Prog_sol/blob/master/substrings/substrings.rb)
 * [Khari's Solutiuon](https://github.com/kjwebdev/ceasar_shift/blob/master/substrings.rb)
 * [Akbar's Solution](https://github.com/donatelloraphael/The_Odin_Project/blob/master/Ruby/substrings/substrings.rb)
@@ -475,5 +490,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [akoenig1's Solution](https://github.com/akoenig1/building_blocks/substrings.rb)
 * [c-squared87's Solution](https://github.com/c-squared87/basic-ruby-projects-TOP/blob/master/substrings.rb)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/substrings)
-
+* [Vuyani’s Solution](https://github.com/vuyanir/substrings)
+* [meganeb-afk's Solution](https://github.com/meganeb-afk/Substring)
+* [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/substrings.rb)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/substring.rb)
+* [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/substring.rb)
+* [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/sub-string.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/substrings.rb)
+* [Justin's Solution](https://github.com/Justin-Meffs/ruby-projects/blob/master/sub_strings.rb)
 </details>

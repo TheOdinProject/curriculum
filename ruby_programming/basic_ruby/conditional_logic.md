@@ -110,7 +110,7 @@ To determine whether an expression evaluates to `true` or `false`, you'll need a
 
 ~~~ruby
 5 < 7 #=> true
-7 > 5 #=> false
+7 < 5 #=> false
 ~~~
 
 `>=` (greater than or equal to) returns `true` if the value on the left of the operator is larger than or equal to the value on the right.
@@ -155,9 +155,10 @@ This happens because computers can't store strings in the same efficient way the
 In addition to the above operators, Ruby has a special operator that is affectionately referred to as the **spaceship operator**. Unlike the other comparison operators, which all return `true` or `false`, the spaceship operator returns one of three numerical values.
 
 `<=>` (spaceship operator) returns the following:
- - `-1` if the value on the left is less than the value on the right;
- - `0` if the value on the left is equal to the value on the right; and
- - `1` if the value on the left is greater than the value on the right.
+
+- `-1` if the value on the left is less than the value on the right;
+- `0` if the value on the left is equal to the value on the right; and
+- `1` if the value on the left is greater than the value on the right.
 
 ~~~ruby
 5 <=> 10    #=> -1
