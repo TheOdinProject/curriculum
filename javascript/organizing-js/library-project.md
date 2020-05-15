@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [John's Solution](https://github.com/jm-staana/Library) - [View in Browser](https://jm-staana.github.io/Library/)
 - [stefank's Solution(w/ local storage)](https://github.com/stefank-29/Library) - [View in Browser](https://stefank-29.github.io/Library/)
 - [mortvicious's Solution](https://github.com/mortvicious/library) - [View in Browser](https://mortvicious.github.io/library/)
 - [GERRG's Solution (w/ local storage)](https://github.com/gerrgg/gregslib) - [View in Browser](https://gerrgg.github.io/gregslib/)
@@ -284,4 +285,3 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Danyl Matviyenko's Solution](https://github.com/DanylMatviyenko/TheOdinProject-LIBRARY-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-LIBRARY-/)
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-library-project) - [View in Browser](https://adrieltrigger.github.io/top-library-project/)
 </details>
-
