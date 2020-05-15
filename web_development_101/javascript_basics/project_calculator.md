@@ -45,15 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [fillingthemoon's Solution](https://github.com/fillingthemoon/calculator) - [View in Browser](https://fillingthemoon.github.io/calculator/)
-=======
 - [Dani's Solution](https://github.com/Korak-997/jsCalculator) - [View in Browser](https://korak-997.github.io/jsCalculator/)
 - [Tomodi98's Solution](https://github.com/Tomodi98/calculator) - [View in Browser](https://tomodi98.github.io/calculator/)
 - [Galexy5's Solution](https://github.com/Galexy5/calculator) - [View in Browser](https://galexy5.github.io/calculator/)
 - [aholdrick's Solution](https://github.com/aholdrick/calculator-site) - [View in Browser](https://aholdrick.github.io/calculator-site/)
 - [blackstate's Solution](https://github.com/blackstate/calculator) - [View in Browser](https://blackstate.github.io/calculator/)
->>>>>>> 1ddfc1b4bda5068822295d4ba64cd4f756acb134
 - [Lee Massey's Solution](https://github.com/LeeMassey/js_calculator) - [View in Browser](https://leemassey.github.io/js_calculator/)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/calculator) - [View in Browser](https://andrsrz.github.io/calculator/)
 - [overdice's Solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/Calculator) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/Calculator/index.html)
