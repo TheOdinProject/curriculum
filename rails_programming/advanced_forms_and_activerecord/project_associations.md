@@ -155,6 +155,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/eventor) - [View in Browser](http://eventor-io.herokuapp.com/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/private-events)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/private-events)
+* [Timework's Solution](https://github.com/Timework/private-events)
 </details>
 
 ### Additional Resources
