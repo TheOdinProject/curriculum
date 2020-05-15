@@ -13,11 +13,11 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
    let myLibrary = [];
 
    function Book() {
-      // the constructor...
+     // the constructor...
    }
 
    function addBookToLibrary() {
-      // do stuff here
+     // do stuff here
    }
    ~~~
 
