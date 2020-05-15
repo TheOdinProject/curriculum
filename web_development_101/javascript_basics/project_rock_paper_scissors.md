@@ -51,7 +51,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jasmeet's Solution](https://github.com/jasmeet9323/Rock-Paper-Scissors)
 - [fillingthemoon's Solution](https://github.com/fillingthemoon/rock-paper-scissors-v2)
 - [Nathan's Solution](https://nathanparle.github.io/RockPaperScissors/)
-- [Tilda Udufo's Solution](https://github.com/TildaDares/rockPaperScissors)
+- [Tilda Udufo's Solution](https://github.com/TildaDares/rockPaperScissors)  - [View in Browser](https://tildadares.github.io/rockPaperScissors/)
 - [RobisonWebDev's Solution](https://github.com/robisonwebdev/rockPaperScissors)
 - [Tegristh's Solution](https://github.com/Tegristh/rock-paper-scissors-lizard-spock) - [View in Browser](https://tegristh.github.io/rock-paper-scissors-lizard-spock/)
 - [Platyphyllum's Solution](https://github.com/marboleda/calculator) - [View in Browser](https://marboleda.github.io/calculator/)
