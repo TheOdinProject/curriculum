@@ -243,6 +243,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Dyrit's Solution](https://github.com/Dyrits/WEBDEV-TOP-PP) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PP/)
 * [msespos's & dyskgo's Solution](https://github.com/msespos/pomodoro) - [View in Browser](https://msespos.github.io/pomodoro/)
 * [mkcvh's solution](https://github.com/mkcvh/pomodoro) - [View in Browser](https://mkcvh.github.io/pomodoro/)
+* [mangakiko's Solution] (https://github.com/magakiko/Pomodoro-Timer) - [View in Browser] (https://magakiko.github.io/Pomodoro-Timer/)
 </details>
 
 ### Next Steps
