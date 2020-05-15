@@ -23,7 +23,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this line!
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka/apple-clone) - [View in Browser](https://kaliberpoziomka.github.io/apple-clone/)
 * [Uduak Essien's solution](https://acushlakoncept.github.io/old_version_apple/) - [View in Browser](https://github.com/acushlakoncept/old_version_apple)
 * [Mikael's solution](https://github.com/Mikearaya/apple-clone) - [View in Browser](https://mikearaya.github.io/apple-clone)
 * [Julio's solution](https://github.com/julio22b/backgrounds-gradients) - [View in Browser](https://julio22b.github.io/backgrounds-gradients/)
