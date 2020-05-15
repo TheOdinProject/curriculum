@@ -17,6 +17,16 @@ Open up the migration and add `null: false` to the room name. Then save the file
 rails db:migrate
 ```
 
+Open up the model in app/models/room.rb
+
+Add validations:
+
+```ruby
+class Room < ApplicationRecord
+  validates :name, presence: true, uniqueness: true, length: { in: 4..20 }
+end
+```
+
 ### Step 2: Creating the controller
 
 #### Step 2.1: Create the controller
@@ -48,23 +58,50 @@ resources :rooms
 
 ### Step 3: Creating the index view
 
+Let us first consider how we want our Rooms to look.
+
+#TODO add image of rooms index page to show intended look
+
+We need a left sidebar which provides a link to all of the rooms and a larger display area. As this is an index page we aren't showing any messages but we can fill it with .... 
+
+#TODO decide what to fill rooms index page with
+
 #### Step 3.1: Create the view file
 
 In the app/views/rooms directory create a file called `index.html.erb`
 
-#### Step 3.2: Add a title to the index view
+#### Step 3.2: Create the index page template
 
-Open the file and at the top let's add a header. As we added Bulma earlier this is a good opportunity to test out some of their stylings. Bulma comes with a (titles)[https://bulma.io/documentation/elements/title/] style that looks perfect for what we want. We will just add the default standard style but if you want to play around with them a bit more try adding some of the other classes and find a size and style that you like.
+The first step is to create the template for our sidebar and main page areas. We installed Bulma earlier and this is a good chance to use the stylings they provide to keep it as simple as possible. Bulma uses a (column)[https://bulma.io/documentation/columns/] template system which we can use to break up the page into column sections of varying sizes. We want to avoid getting dragged into the details too much but you can read through the columns pages to get a feel for the possibilities. A sidebar about a fifth of the page seems about right so let's start with that. We will also use the section and container bulma stylings.
 
 ```html
-<h1 class="title">Rooms</h1>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-one-fifth">
+      </div>
+      <div class="column">
+      </div>
+    </div>
+  </div>
+</section>
 ```
 
-Spin up a rails server and navigate in your browser to `localhost:3000/rooms` and you should see Rooms proudly displayed.
+We can add the code to display a list of rooms inside the first column that takes up a fifth of the page.
 
-#### Step 3.3: Add index call to rooms controller
+To be sure our code is displaying properly let's add a title to the left column which will simply state "Room List". Inside the first column we can add the following code
+
+```html
+<h3 class="subtitle">Room List</h3>
+```
+
+Spin up a rails server and navigate in your browser to `localhost:3000/rooms` and you should see the subtitle on the left.
+
+#### Step 3.3: Get a list of rooms for the index action
 
 In the rooms controller inside the index action we need to load in all of the rooms.
+
+#TODO explain about the all method
 
 ```ruby
 def index
@@ -78,13 +115,13 @@ We need to list all of the rooms in the view. If there are no rooms created yet 
 
 This is a good place to start. Writing a small amount of code to get started and then filling in the details as we go.
 
-Open up app/views/index.html.erb and below your h1 tag add the following.
+Open up app/views/index.html.erb and below your h3 tag add the following.
 
 ```html
 <% if @rooms.present? %>
   <-- Here is where we will write the code to display our rooms -->
 <% else %>
-  <div>
+  <div class="notification is-info">
     There are no rooms
   </div>
 <% end %>
@@ -100,11 +137,21 @@ Inside the `if` statement we can add the code to iterate each room. The each met
 
 As we iterate each room in the `@rooms` variable we want to provide a link that the user can click on to show the room. We'll deal with the link in a moment but let's first write the code to iterate our rooms. Again, this is just standard Ruby code. Nothing magical about it
 
+HTML provides us with the list element for such a task and since our list has no particular order we'll use the `<ul>` tag
+
+When displaying the rooms we want to present them nicely. Bulma has a (menu)[https://bulma.io/documentation/components/menu/] item that can jazz up our lists to look nice
+
 ```html
 <% if @rooms.present? %>
-  <% @rooms.each do |room| %>
-    <-- Here we will add the link for each room -->
-  <% end %>
+  <aside class="menu">
+    <ul class="menu-list">
+      <% @rooms.each do |room| %>
+        <li>
+          <-- Here we will add the link for each room -->
+        </li>
+      <% end %>
+    </ul>
+  </aside>
 <% else %>
   <div>
     There are no rooms
@@ -148,9 +195,15 @@ In our app/views/index.html.erb file add the link_to code shown below.
 
 ```html
 <% if @rooms.present? %>
-  <% @rooms.each do |room| %>
-    <%= link_to room.name, room_path(room) %>
-  <% end %>
+  <aside class="menu">
+    <ul class="menu-list">
+      <% @rooms.each do |room| %>
+        <li>
+          <%= link_to room.name, room_path(room) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
 <% else %>
   <div>
     There are no rooms
@@ -167,6 +220,37 @@ You may be wondering how we generate the correct path when we are passing in a r
 Refreshing your browser should still show the message that there are no rooms. We need to create some rooms first in order to show up in our list. Let's tackle that next.
 
 ### Step 4: Create a new room.
+
+Before we actually build out the rooms we need to create a link to click on to take us to the new room form. We can place it in the left sidebar in the index page just below our subtitle. The link will be similar to the one we've already created but the path will be different. Referring back to the routes that Rails created for us we can see the prefix for a new room is unsurprisingly `new_room`.
+
+```
+               Prefix     Verb    URI Pattern
+rooms#index    rooms      GET     /rooms(.:format)
+rooms#create              POST    /rooms(.:format)
+rooms#new      new_room   GET     /rooms/new(.:format)
+rooms#edit     edit_room  GET     /rooms/:id/edit(.:format)
+rooms#show     room       GET     /rooms/:id(.:format)
+rooms#update              PATCH   /rooms/:id(.:format)
+rooms#update              PUT     /rooms/:id(.:format)
+rooms#destroy             DELETE  /rooms/:id(.:format)
+```
+
+Open up the index.html.erb view from the room views and below the subtitle let's create a link. This may be a good time to try writing your own link_to before looking at our solution. It will differ slightly as we will be using some Bulma stylings but you can add those afterwards. This is a good opportunity to practice writing your own. A button is an inline element but we don't want anything to wrap next to it to we should wrap it in a div. Bulma has a nice field class you can add which gives the div a bit of space around it.
+
+```html
+<div class="field">
+</div>
+```
+
+Now try writing your own link inside that div and then check the code below.
+
+```html
+<div class="field">
+  <%= link_to "Create Room", new_room_path, class: 'button is-link' %>
+</div>
+```
+
+If you have a Rails server running refresh it now and you'll see the nice button on the page to create a new button.
 
 In order to create new rooms there are two actions we need to take. Firstly we need a `new` action in the rooms controller with a corresponding view and secondly we need a `create` action in order to actually process the change.
 
@@ -238,5 +322,3 @@ end
 ```
 
 Navigate to `localhost:3000/rooms/new` and try to create a new room. If it's successful it should take you back to the room index page and now you should see a link to the room you created instead of the message that there are no rooms.
-
-# TODO: Make links look nicer
