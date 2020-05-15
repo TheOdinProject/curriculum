@@ -93,6 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Gio's Solution(Difficult)](https://github.com/giovannylimin/google-homepage/tree/master/difficult-version) - [View in Browser](https://giovannylimin.github.io/google-homepage/difficult-version)
 * [Emilf's Solution (Easy)](https://github.com/emilf44/google-homepage) - [View in Browser](https://emilf44.github.io/google-homepage/)
 * [Jeremy Thomas's Solution (Easy)](https://github.com/saucebox11/google-homepage) - [View in Browser](https://saucebox11.github.io/google-homepage/)
 * [acchang's Solution (Easy)](https://github.com/acchang/google-homepage) - [View in Browser](https://acchang.github.io/google-homepage/)
