@@ -236,4 +236,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Matt M's Solution (with extra credit)](https://github.com/MattMiller1989/Linked-List)
 - [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/linked_list)
 - [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Linked_lists/LinkedList.rb)
+- [Kenneth Holston's Solution](https://github.com/kholston/linked_list)
   </details>
