@@ -271,6 +271,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jose Bohorquez's Solution](https://github.com/Bhrqz/knight_moves/blob/master/knigth_moves.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/knights_travails)
 * [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/knights_travails)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/tree/master/knights_travails)
