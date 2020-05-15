@@ -11,7 +11,7 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 ### Learning Outcomes
 
 * What is the difference between front-end and back-end development ?
-* Why you need to install Ruby but not JavaScript ? 
+* Why you need to install different technologies for Backend ? 
 
 ### Assignment
 
