@@ -3365,6 +3365,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [adilahmad321's Solution (Easy)](https://github.com/adilahmad321/google-homepage) - [View in Browser](https://adilahmad321.github.io/google-homepage/)
 * [adilahmad321's Solution (Difficult)](https://github.com/adilahmad321/google-searchpage) - [View in Browser](https://adilahmad321.github.io/google-searchpage/)
 * [jugnugs's Solution (Easy)](https://github.com/jugnugs/google-homepage) - [View in Browser](https://jugnugs.github.io/google-homepage/)
+* [brxndonlee's Solution (Easy)](https://github.com/brxndonlee/google_homepage) - [View in Browser](https://brxndonlee.github.io/google_homepage)
 </details>
 
 ### Additional Resources
