@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [arndzk's Solution](https://github.com/arndzk/rock-paper-scissors) - [View in Browser](https://arndzk.github.io/rock-paper-scissors/)
 - [AwayFromHomePlanet's Solution](https://github.com/AwayFromHomePlanet/rock-paper-scissors) - [View in Browser](https://AwayFromHomePlanet.github.io/rock-paper-scissors/)
 - [Yasin's Solution](https://github.com/kollegian/rock-paper-scissors)
 - [Alex's Solution](https://github.com/AlexJ-Cole/RockPaperScissors)
