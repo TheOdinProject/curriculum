@@ -33,8 +33,8 @@ Now that you know what you're aiming to solve, don't jump into coding just yet i
 
 Some of the questions you should answer at this part of the process:
 
-* Does your program have a user interface? what will it look like? what functionality will the interface have? sketch this out on paper
-* What inputs will your program have? will the user enter data or will you get input from somewhere else
+* Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper
+* What inputs will your program have? Will the user enter data or will you get input from somewhere else
 * What's the desired output?
 * Given your inputs, what are the steps necessary to return the desired output?
 
@@ -75,7 +75,7 @@ This is the big picture problem we will be solving. It's pretty simple so we may
 Write a problem that allows the user to enter a number, Print each number between one the number the user entered, but for numbers that divide by three cleanly without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
 
 #### Plan
-Does your program have an interface? what will it look like?
+Does your program have an interface? What will it look like?
 Our FizzBuzz solution will be a command line program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
 
 What inputs will your program have? will the user enter data or will you get input from somewhere else
