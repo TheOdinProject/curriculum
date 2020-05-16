@@ -1585,5 +1585,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [hamparmin's Solution](https://github.com/hamparmin/JS_rps_game) - [View in Browser](https://hamparmin.github.io/JS_rps_game/)
 - [Christos's Solution](https://github.com/ChristosRaptis/rockPaperScissors)
 - [bhenning83's Solution](https://github.com/bhenning83/rock-paper-scissors) - [View in Browser](https://bhenning83.github.io/rock-paper-scissors/)
+- [Bella Buchanan's Solution](https://github.com/bellabuchanan/Rock-Paper-Scissors) - [View in Browser](https://bellabuchanan.github.io/Rock-Paper-Scissors/)
 </details>
 
