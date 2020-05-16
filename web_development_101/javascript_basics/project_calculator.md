@@ -45,7 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Galexy5's Solution](https://github.com/Galexy5/calculator)
+- [fillingthemoon's Solution](https://github.com/fillingthemoon/calculator) - [View in Browser](https://fillingthemoon.github.io/calculator/)
+- [Dani's Solution](https://github.com/Korak-997/jsCalculator) - [View in Browser](https://korak-997.github.io/jsCalculator/)
+- [Tomodi98's Solution](https://github.com/Tomodi98/calculator) - [View in Browser](https://tomodi98.github.io/calculator/)
+- [Galexy5's Solution](https://github.com/Galexy5/calculator) - [View in Browser](https://galexy5.github.io/calculator/)
 - [aholdrick's Solution](https://github.com/aholdrick/calculator-site) - [View in Browser](https://aholdrick.github.io/calculator-site/)
 - [blackstate's Solution](https://github.com/blackstate/calculator) - [View in Browser](https://blackstate.github.io/calculator/)
 - [Lee Massey's Solution](https://github.com/LeeMassey/js_calculator) - [View in Browser](https://leemassey.github.io/js_calculator/)
@@ -677,4 +680,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [alxmkh's Solution](https://github.com/alxmkh/calculator_js) - [View in Browser](https://alxmkh.github.io/calculator_js/)
 - [Bhenning83's Solution](https://github.com/bhenning83/calculator) - [View in Browser](https://bhenning83.github.io/calculator/)
 - [jding9's Solution](https://github.com/Jding9/Calculator) - [View in Browser](https://jding9.github.io/Calculator/)
+- [Aportello's Solution](https://github.com/Aportello/TOPcalculator) - [View in Browser](https://aportello.github.io/TOPcalculator/)
 </details>

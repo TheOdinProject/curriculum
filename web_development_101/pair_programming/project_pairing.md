@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/pomodoro) - [View in Browser](https://andrsrz.github.io/pomodoro/)
 * [Laurens' Solution](https://github.com/laurenskrom/pomodoro) - [View in Browser](https://laurenskrom.github.io/pomodoro/)
 * [mortvicious's Solution](https://mortvicious.github.io/pomodoroclock/) - [View in Browser](https://mortvicious.github.io/pomodoroclock/)
 * [andrewjh271](https://github.com/andrewjh271) and [Aaron Contreras's](https://github.com/aaron-contreras) [Solution](https://github.com/andrewjh271/pomodoro) - [View in Browser](https://andrewjh271.github.io/pomodoro/)
@@ -240,6 +241,9 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [Ebenezer Koodi's Solution](https://codepen.io/mrkoodi/pen/VGqPbr) - [View in Browser](https://codepen.io/mrkoodi/pen/VGqPbr)
 * [feseka's Solution](https://github.com/feseka61/chrono-tomato/) - [View in Browser](https://feseka61.github.io/chrono-tomato/)
 * [Dyrit's Solution](https://github.com/Dyrits/WEBDEV-TOP-PP) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PP/)
+* [msespos's & dyskgo's Solution](https://github.com/msespos/pomodoro) - [View in Browser](https://msespos.github.io/pomodoro/)
+* [mkcvh's solution](https://github.com/mkcvh/pomodoro) - [View in Browser](https://mkcvh.github.io/pomodoro/)
+* [mangakiko's Solution](https://github.com/magakiko/Pomodoro-Timer) - [View in Browser](https://magakiko.github.io/Pomodoro-Timer/)
 </details>
 
 ### Next Steps
