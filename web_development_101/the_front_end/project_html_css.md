@@ -93,7 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Blaze Vincent's Solution (Easy)] (https://github.com/blaze-vincent/google-homepage) - [View in Browser](https://blaze-vincent.github.io/google-homepage/)
+* [Blaze Vincent's Solution (Easy)](https://github.com/blaze-vincent/google-homepage) - [View in Browser](https://blaze-vincent.github.io/google-homepage/)
 * [OptiPrime's Solution (Easy)](https://github.com/OptiPrime64/google-homepage) - [View in Browser](https://optiprime64.github.io/google-homepage/)
 * [Gio's Solution(Difficult)](https://github.com/giovannylimin/google-homepage/tree/master/difficult-version) - [View in Browser](https://giovannylimin.github.io/google-homepage/difficult-version)
 * [Emilf's Solution (Easy)](https://github.com/emilf44/google-homepage) - [View in Browser](https://emilf44.github.io/google-homepage/)
