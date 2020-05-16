@@ -93,6 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+
 * [Blaze Vincent's Solution (Easy)](https://github.com/blaze-vincent/google-homepage) - [View in Browser](https://blaze-vincent.github.io/google-homepage/)
 * [OptiPrime's Solution (Easy)](https://github.com/OptiPrime64/google-homepage) - [View in Browser](https://optiprime64.github.io/google-homepage/)
 * [Gio's Solution(Difficult)](https://github.com/giovannylimin/google-homepage/tree/master/difficult-version) - [View in Browser](https://giovannylimin.github.io/google-homepage/difficult-version)
@@ -3365,6 +3366,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [adilahmad321's Solution (Easy)](https://github.com/adilahmad321/google-homepage) - [View in Browser](https://adilahmad321.github.io/google-homepage/)
 * [adilahmad321's Solution (Difficult)](https://github.com/adilahmad321/google-searchpage) - [View in Browser](https://adilahmad321.github.io/google-searchpage/)
 * [jugnugs's Solution (Easy)](https://github.com/jugnugs/google-homepage) - [View in Browser](https://jugnugs.github.io/google-homepage/)
+* [brxndonlee's Solution (Easy)](https://github.com/brxndonlee/google_homepage) - [View in Browser] (https://brxndonlee.github.io/google_homepage)
 </details>
 
 ### Additional Resources
