@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [MatthewKissinger's Solution](https://github.com/MatthewKissinger/rockpaperscissors) - [View in Browser](https://matthewkissinger.github.io/rockpaperscissors/)
+- [Blaze Vincent's Solution](https://github.com/blaze-vincent/rock-paper-scissors-odin/) - [View in Browser](https://blaze-vincent.github.io/rock-paper-scissors-odin/)
 - [adamperrry's Solution](https://github.com/adamperrry/rock-paper-scissors) - [View in Browser](https://adamperrry.github.io/rock-paper-scissors/)
 - [Christoph's Solution](https://github.com/vertskater/rock-paper-scissor) - [View in Browser](https://vertskater.github.io/rock-paper-scissor)
 - [arndzk's Solution](https://github.com/arndzk/rock-paper-scissors) - [View in Browser](https://arndzk.github.io/rock-paper-scissors/)
