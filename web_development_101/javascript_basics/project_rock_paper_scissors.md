@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Foolmonkey's Solution](https://github.com/foolmonkey/rock-paper-scissors) - [View in Browser](https:/foolmonkey.github.io/rock-paper-scissors/) 
 - [MatthewKissinger's Solution](https://github.com/MatthewKissinger/rockpaperscissors) - [View in Browser](https://matthewkissinger.github.io/rockpaperscissors/)
 - [Blaze Vincent's Solution](https://github.com/blaze-vincent/rock-paper-scissors-odin/) - [View in Browser](https://blaze-vincent.github.io/rock-paper-scissors-odin/)
 - [adamperrry's Solution](https://github.com/adamperrry/rock-paper-scissors) - [View in Browser](https://adamperrry.github.io/rock-paper-scissors/)
@@ -1565,7 +1566,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Peuchen's Solution](https://github.com/Peuchen/rock-paper-scissors) - [View in Browser](https://peuchen.github.io/rock-paper-scissors/)
 - [Alejaldo's Solution](https://github.com/Alejaldo/suefa)
 - [Demian's Solution](https://github.com/Demian31/RPS)
-- [Foolmonkey's Solution](https://github.com/foolmonkey/rock-paper-scissors)
 - [Tristan Carey's solution](https://github.com/TristanCarey/Rock-Paper-Scissors)
 - [Kmt5422's Solution](https://github.com/kmt5422/rock-paper-scissors/blob/master/index.html)
 - [Knuckles' solution](https://github.com/mosesakor/rock-paper-scissors) - [View in Browser](https://mosesakor.github.io/rock-paper-scissors/)
