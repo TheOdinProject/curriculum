@@ -684,5 +684,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jding9's Solution](https://github.com/Jding9/Calculator) - [View in Browser](https://jding9.github.io/Calculator/)
 - [Aportello's Solution](https://github.com/Aportello/TOPcalculator) - [View in Browser](https://aportello.github.io/TOPcalculator/)
 - [Knuckle's Solution](https://github.com/mosesakor/calculator) - [View in Browser](https://mosesakor.github.io/calculator/)
+- [Austin's Solution](https://github.com/austinhulen/calculator) - [View in Browser](https://austinhulen.github.io/calculator/)
 
 </details>
