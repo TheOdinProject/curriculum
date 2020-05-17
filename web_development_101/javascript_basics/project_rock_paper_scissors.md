@@ -1590,5 +1590,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bhenning83's Solution](https://github.com/bhenning83/rock-paper-scissors) - [View in Browser](https://bhenning83.github.io/rock-paper-scissors/)
 - [Bella Buchanan's Solution](https://github.com/bellabuchanan/Rock-Paper-Scissors)
 - [Bryan's Solution](https://github.com/bryanluu/TOP_rockpaperscissors) - [View in Browser](https://bryanluu.github.io/TOP_rockpaperscissors/)
+- [adilahmad321's Solution](https://github.com/adilahmad321/Rock-Papers-Scissors)
 </details>
 
