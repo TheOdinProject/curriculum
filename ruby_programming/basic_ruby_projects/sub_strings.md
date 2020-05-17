@@ -34,6 +34,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/sub_strings.rb)
 * [Wuna's Solution](https://https://github.com/Wuna-muhammad/Substring_ruby/blob/master/Substring.rb)
 * [Ash Karai's Solution](https://github.com/ashwiniraokarai/ruby-projects/blob/master/substrings.rb)
 * [Laurens' Solution](https://github.com/laurenskrom/TOPrubyprojects/blob/master/substrings.rb)
