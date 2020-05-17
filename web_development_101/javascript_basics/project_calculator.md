@@ -46,6 +46,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Aaron's Solution](https://github.com/Aaron-McD/calculator) - [View in Browser](https://aaron-mcd.github.io/calculator/)
+- [HeliumAce's Solution](https://github.com/HeliumAce/calculator) - [View in Browser](https://heliumace.github.io/calculator/)
 - [kynki7's Solution](https://github.com/kynki7/calculator) - [View in Browser](https://kynki7.github.io/calculator/)
 - [fillingthemoon's Solution](https://github.com/fillingthemoon/calculator) - [View in Browser](https://fillingthemoon.github.io/calculator/)
 - [Dani's Solution](https://github.com/Korak-997/jsCalculator) - [View in Browser](https://korak-997.github.io/jsCalculator/)
@@ -684,5 +685,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jding9's Solution](https://github.com/Jding9/Calculator) - [View in Browser](https://jding9.github.io/Calculator/)
 - [Aportello's Solution](https://github.com/Aportello/TOPcalculator) - [View in Browser](https://aportello.github.io/TOPcalculator/)
 - [Knuckle's Solution](https://github.com/mosesakor/calculator) - [View in Browser](https://mosesakor.github.io/calculator/)
+- [Austin's Solution](https://github.com/austinhulen/calculator) - [View in Browser](https://austinhulen.github.io/calculator/)
 
 </details>
