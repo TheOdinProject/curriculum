@@ -3368,6 +3368,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [jugnugs's Solution (Easy)](https://github.com/jugnugs/google-homepage) - [View in Browser](https://jugnugs.github.io/google-homepage/)
 * [brxndonlee's Solution (Easy)](https://github.com/brxndonlee/google_homepage) - [View in Browser](https://brxndonlee.github.io/google_homepage)
 * [TheCodingArchi's Solution (Easy)](https://github.com/TheCodingArchi/google-homepage) - [View in Browser](https://thecodingarchi.github.io/google-homepage/)
+* [Bryan L's Solution (Easy)](https://github.com/bryanluu/TOP_google) - [View in Browser](https://bryanluu.github.io/TOP_google/)
 </details>
 
 ### Additional Resources
