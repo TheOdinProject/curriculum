@@ -17,6 +17,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Christian's Solution](https://github.com/rueeazy/ruby-recursion/blob/master/fibonacci.rb)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Recursion-Exercises/blob/master/merge_sort.rb)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Ruby_Fibonacci_Sequence/blob/master/fibonacci_sequence.rb)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/ruby_projects/tree/master/project_recursion/fibonacci)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/fibonacci.rb)
