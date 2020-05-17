@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka) - [View in Browser](https://kaliberpoziomka.github.io/visual-hierarchy-smashing-magazine/)
 * [Julio's solution](https://github.com/julio22b/greyscale-hierarchy-heatmap) - [View in Browser](https://julio22b.github.io/greyscale-hierarchy-heatmap/)
 * [Mikael's Solution](https://github.com/Mikearaya/smashing-magazine-heat-map) - [View in Browser](https://mikearaya.github.io/smashing-magazine-heat-map/)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/smashingUXgreyscale) - [View in Browser](https://amdrija.github.io/smashingUXgreyscale/)
@@ -97,6 +98,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Scott McKell's Solution](https://github.com/zottwickel/heatmap) - [View in Browser](https://zottwickel.github.io/heatmap/)
 * [Aron's  Solution](https://github.com/aronfischer/grayscale-heat-map) - [View in Browser](https://aronfischer.github.io/grayscale-heat-map/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-design-teardown-project) - [View in Browser](https://adrieltrigger.github.io/top-design-teardown-project/)
+* [Veskenazi's Solution](https://github.com/veskenazi/design-teardown) - [View in Browser](https://veskenazi.github.io/design-teardown/)
+* [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/design-teardown) - [View in Browser](https://ranmaru22.github.io/the_odin_project/design-teardown/)
 </details>
 
 ### Additional Resources
