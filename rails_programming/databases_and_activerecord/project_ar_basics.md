@@ -251,6 +251,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [wilmir's Solution](https://github.com/Wilmir/micro-reddit)
 * [Lucas' Solution](https://github.com/Lucas-Vergara/micro-reddit)
 * [Timework's Solution](https://github.com/Timework/micro_reddit)
+* [Bendee's Solution](https://github.com/bendee48/micro-reddit)
 </details>
 
 ### Additional Resources
