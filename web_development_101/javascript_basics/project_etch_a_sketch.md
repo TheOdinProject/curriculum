@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Big Floating Death Panda's Solution](https://github.com/BigFloatingDeathPanda/etch-a-sketch) - [View in Browser](https://bigfloatingdeathpanda.github.io/etch-a-sketch/)
 * [AlexJ-Cole's Solution](https://github.com/AlexJ-Cole/Etch-A-Sketch/) - [View in Browser](https://alexj-cole.github.io/Etch-A-Sketch/)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/EtchaSketch) - [View in Browser](https://tildadares.github.io/EtchaSketch/)
 * [Virus's Solution](https://github.com/Virus35/Etch-a-sketch) - [View in Browser](https://virus35.github.io/Etch-a-sketch/Index.html)
