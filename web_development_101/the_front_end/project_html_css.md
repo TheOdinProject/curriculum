@@ -3374,7 +3374,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [tiris08's Solution (Easy)](https://github.com/tiris08/google-homepage) - [View in Browser](https://tiris08.github.io/google-homepage/#)
 * [Miguel-stacb's Solution (Easy)](https://github.com/Miguel-stacb/google-homepage.git) - [View in Browser](https://miguel-stacb.github.io/google-homepage/)
 </details>
- ### Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 If you still feel shaky on your understanding of HTML and CSS, that's okay! You don't need to be an expert by any means yet. These resources should help if you want to shore up your understanding of things:
