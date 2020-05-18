@@ -186,6 +186,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [m-rejdych's solution](https://github.com/m-rejdych/Youtube-page) - [View in browser](https://m-rejdych.github.io/Youtube-page/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/youtube-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/youtube-clone/)
 * [Caosmagnvm's solution](https://github.com/caosmagnvm/youtube-homepage) - [View in Browser](https://caosmagnvm.github.io/youtube-homepage/)
+* [mangakiko's Solution](https://github.com/magakiko/Youtube-Videopage) - [View in Browser](https://magakiko.github.io/Youtube-Videopage/)
 </details>
 
 ### Additional Resources
