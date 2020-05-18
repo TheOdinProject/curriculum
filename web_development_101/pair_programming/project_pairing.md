@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [overdice solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/pomodoro) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/pomodoro/index.html)
 * [Lam's Solution](https://github.com/lamdayap/pomodoro-project) - [View in Browser](https://lamdayap.github.io/pomodoro-project/)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/pomodoro) - [View in Browser](https://andrsrz.github.io/pomodoro/)
 * [Laurens' Solution](https://github.com/laurenskrom/pomodoro) - [View in Browser](https://laurenskrom.github.io/pomodoro/)
