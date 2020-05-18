@@ -192,4 +192,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Matyd's Solution](https://github.com/MatyD356/tic-tac-toe) - [View in Browser](https://matyd356.github.io/tic-tac-toe/)
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-tictactoe) - [View in Browser](https://adrieltrigger.github.io/top-tictactoe/)
 - [kmson7's Solution](https://github.com/kmson7/ticTacToe) - [View in Browser](https://kmson7.github.io/ticTacToe/)
+- [Tristan Ross's Solution](https://github.com/TristanRoss/tic-tac-toe) - [View in Browser](https://tristanross.github.io/tic-tac-toe/)
 </details>
