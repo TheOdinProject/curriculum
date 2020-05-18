@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka/tnw-responsive) - [View in Browser](https://kaliberpoziomka.github.io/tnw-responsive/)
 * [Julio's solution](https://github.com/julio22b/top-responsive-design/tree/master) - [View in Browser](https://julio22b.github.io/top-responsive-design/)
 * [Mikael's Solution](https://github.com/Mikearaya/thenextweb-clone) - [View in browser](https://mikearaya.github.io/thenextweb-clone)
 * [Rarysson's Solution](https://github.com/rarysson/next-web-clone) - [View in browser](https://rarysson.github.io/next-web-clone/)
