@@ -20,7 +20,7 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
   4. Write a `#find` method which accepts a value and returns the node with the given value.
 
   5. Write a `#level_order` method which accepts a block. The method should traverse the tree in breadth-first level order and yield each node to the provided block. This method can be implemented using either iteration or recursion (try implementing both!). As a bonus, make the method return an array of values if no block is given.
-  **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://youtu.be/9RHO6jU--GU)).
+  **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://www.youtube.com/watch?v=86g8jAQug04)).
 
   6. Write `#inorder`, `#preorder`, and `#postorder` methods which accept a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. As a bonus, make the method return an array of values if no block is given.
 
@@ -50,12 +50,24 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-    
+
 * Add your solution below this line!
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/binary_search)
+* [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/binary_search_tree)
+* [YesSeri's Solution](https://github.com/YesSeri/binary_search_tree)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/binary_tree)
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/tree/master/binary_search_tree)
+* [Jose Bohorquez's Solution](https://github.com/Bhrqz/binary_tree_search/blob/master/binary_tree_search.rb)
+* [pudu87's Solution](https://github.com/pudu87/binary-search-trees)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.binary_search_trees)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/binary_tree)
+* [leetie's Solution](https://github.com/leetie/Knights_travails)
+* [jodokusquack's Solution with Extra Credit](https://github.com/jodokusquack/ruby_binary_search_tree)
 * [Billy's Solution](https://github.com/bcoffin9/project_binary_search_trees)
 * [Bradley's Solution with Extra Credit](https://github.com/spaceincase/odin-project-exercises/tree/master/binary_search_trees)
 * [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/binary_search_tree.rb)
 * [Sher's Solution](https://github.com/sher-s7/binary_search_tree)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/binary_tree)
 * [Nasser Abachi's Solution](https://github.com/abachi/theodinproject/tree/master/building-projects/binary_search_trees)
 * [Robin's Solution](https://github.com/CoolGlasses/data_structures_algorithms)
 * [Nikolas Broman's Solution](https://github.com/nikolasbroman/binary_search_tree)
@@ -199,15 +211,21 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rey van den Berg's Solution](https://github.com/Rey810/Data-Structures-and-Algorithms)
 * [Alex Krewson's Solution](https://github.com/alexkrewson/data_structures_and_algorithms)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/ruby-binary-trees)
-* [Ben Fowler's solution](https://github.com/benfowler04/ruby-cs/blob/master/binary_tree.rb)
-* [Sergej Jurchenko's solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
-* [Brett Bonnet's solution](https://github.com/Brett-Bonnet/binary-search-tree)
-* [Drew Goddyn's solution](https://github.com/Drew-Goddyn/binary_search_tree)
-* [Toberoni's solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
+* [Ben Fowler's Solution](https://github.com/benfowler04/ruby-cs/blob/master/binary_tree.rb)
+* [Sergej Jurchenko's Solution](https://github.com/Sergyurch/BinaryTree/blob/master/BinaryTree.rb)
+* [Brett Bonnet's Solution](https://github.com/Brett-Bonnet/binary-search-tree)
+* [Drew Goddyn's Solution](https://github.com/Drew-Goddyn/binary_search_tree)
+* [Toberoni's Solution](https://github.com/toberoni/the_odin_project/tree/master/ruby_programming/binary_search_tree)
 * [Bendee's Solution](https://github.com/bendee48/Data-Structures)
 * [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/binary_search_tree.rb)
-* [guacamobley's solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/binary-search-tree.rb)
-
+* [guacamobley's Solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/binary-search-tree.rb)
+* [Robert Suazo's Solution](https://github.com/rsuazo/binary_search_tree/blob/master/binary_search_tree.rb)
+* [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/binary_search_tree)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/binary_search_tree)
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Binary_Search_Tree)
+* [Timework's Solution](https://github.com/Timework/search_tree/blob/master/tree.rb)
+* [Cinthia's Solution](https://github.com/cinthiagodoi/binary_search_tree)
+* [Matt M's Solution](https://github.com/MattMiller1989/Binary-Tree)
 </details>
 
 ### Project 2: Knight's Travails
@@ -252,8 +270,18 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-    
+
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/knights-travails)
+* [Jose Bohorquez's Solution](https://github.com/Bhrqz/knight_moves/blob/master/knigth_moves.rb)
+* [YesSeri's Solution](https://github.com/YesSeri/knights_travails)
+* [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/knights_travails)
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/tree/master/knights_travails)
+* [pudu87's Solution](https://github.com/pudu87/knights-travails)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.knight-s_travails)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/data-structure_knight_travail)
+* [jodokusquack's Solution](https://github.com/jodokusquack/knights_travails)
+* [Billy's Solution](https://github.com/bcoffin9/project_springer_travails)
 * [proto-dylan's Solution](https://github.com/proto-dylan/knight_moves/blob/master/knight_moves.rb)
 * [fossegrim's Solution](https://github.com/olav35/data-structures-and-algorithms/blob/master/knight's_travails.rb)
 * [Run After's Solution](https://github.com/run-after/data_structures-algorithms/blob/master/knight_moves.rb)
@@ -406,5 +434,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Bendee's Solution](https://github.com/bendee48/Data-Structures/blob/master/knight_moves.rb)
 * [Jay Conner's Solution](https://github.com/cleve703/data_structures_algorithms/knights_travails.rb)
 * [guacamobley's Solution](https://github.com/guacamobley/data-structures-and-algorithms/blob/master/knights-travails.rb)
-
+* [unheavenlycreature's Solution](https://github.com/unheavenlycreature/ds_and_algos/blob/master/knights_moves.rb)
+* [Robert Suazo's Solution](https://github.com/rsuazo/knights_travails/blob/master/main.rb)
+* [hyperturing's Solution](https://github.com/hyperturing/data-structures/tree/master/knight_moves)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/knight_moves)
+* [Timework's Solution](https://github.com/Timework/knight/blob/master/knight.rb)
+* [Rob Dulabon's Solution](https://github.com/RDulabon/Knight_Travails)
 </details>

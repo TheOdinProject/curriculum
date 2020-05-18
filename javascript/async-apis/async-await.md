@@ -19,7 +19,7 @@ async function getPersonsInfo(name) {
 }
 ~~~
 
-The second example looks much more like the kind of functions you are used to writing, however, did you notice the `async` keyword before the function deceleration? How about the `await` keyword before `server.getPeople()`?
+The second example looks much more like the kind of functions you are used to writing, however, did you notice the `async` keyword before the function declaration? How about the `await` keyword before `server.getPeople()`?
 
 ### Learning Outcomes
 1. How do you declare an `async` function?
