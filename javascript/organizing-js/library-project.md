@@ -285,4 +285,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Tristan Ross's Solution](https://github.com/TristanRoss/Library) - [View in Browser](https://tristanross.github.io/Library/)
 - [Danyl Matviyenko's Solution](https://github.com/DanylMatviyenko/TheOdinProject-LIBRARY-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-LIBRARY-/)
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-library-project) - [View in Browser](https://adrieltrigger.github.io/top-library-project/)
+- [Eren Cataltepe's Solution](https://github.com/erencataltepe/library) - [View in Browser](https://erencataltepe.github.io/library/)
 </details>
