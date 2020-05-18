@@ -113,6 +113,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nestor's Solution](https://github.com/nestor-c/Odin_Projects/tree/master/micro-reddit)
 * [Jithin's Solution](https://github.com/jithindasad/micro-reddit)
 * [YesSeri's Solution](https://github.com/YesSeri/micro-reddit)
 * [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/Micro-Reddit)
