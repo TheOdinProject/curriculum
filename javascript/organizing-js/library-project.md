@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Mary Cheung's Solution (w/ firebase)](https://github.com/marybcheung/MyLibrary) - [View in Browser](https://marybcheung.github.io/MyLibrary/)
 - [John's Solution](https://github.com/jm-staana/Library) - [View in Browser](https://jm-staana.github.io/Library/)
 - [stefank's Solution(w/ local storage)](https://github.com/stefank-29/Library) - [View in Browser](https://stefank-29.github.io/Library/)
 - [mortvicious's Solution](https://github.com/mortvicious/library) - [View in Browser](https://mortvicious.github.io/library/)
