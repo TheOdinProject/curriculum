@@ -3378,7 +3378,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Miguel-stacb's Solution (Easy)](https://github.com/Miguel-stacb/google-homepage.git) - [View in Browser](https://miguel-stacb.github.io/google-homepage/)
 * [Haroldooo's Solution (Easy)](https://github.com/Haroldooo/google-homepage) - [View in Browser](https://haroldooo.github.io/google-homepage/)
 * [Timsternations's Solution (Easy)](https://github.com/timsternation/google_homepage) - [View in Browser](https://timsternation.github.io/google_homepage/)
-* [Robbie B's Solution (Easy)] https://babsonrobert.github.io/google_clone/
+* [Robbie B's Solution (Easy)](https://github.com/babsonrobert/google_clone/) - [View in Browser](https://babsonrobert.github.io/google_clone/)
 </details>
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
