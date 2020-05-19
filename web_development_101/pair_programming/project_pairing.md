@@ -35,7 +35,6 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/pomodoro-timer) - [View in Browser](https://fillingthemoon.github.io/pomodoro-timer/)
 * [overdice solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/pomodoro) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/pomodoro/index.html)
 * [Lam's Solution](https://github.com/lamdayap/pomodoro-project) - [View in Browser](https://lamdayap.github.io/pomodoro-project/)
->>>>>>> 07688e2f294860770d5226bd74f550f8a5750660
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/pomodoro) - [View in Browser](https://andrsrz.github.io/pomodoro/)
 * [Laurens' Solution](https://github.com/laurenskrom/pomodoro) - [View in Browser](https://laurenskrom.github.io/pomodoro/)
 * [mortvicious's Solution](https://mortvicious.github.io/pomodoroclock/) - [View in Browser](https://mortvicious.github.io/pomodoroclock/)
