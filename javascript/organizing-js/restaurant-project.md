@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lucio's Solution](https://github.com/JCarlosLucio/restaurant-page) - [View in Browser](https://jcarloslucio.github.io/restaurant-page/)
 - [MarcoDSilva's Solution](https://github.com/MarcoDSilva/Restaurant_Page) - [View in Browser](https://marcodsilva.github.io/Restaurant_Page/dist/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/restaurant-page) - [View in Browser](https://carldoleolundgren.github.io/restaurant-page/)
 - [hu-ng's Solution](https://github.com/hu-ng/simple-restaurant) - [View in Browser](https://hu-ng.github.io/simple-restaurant/)
