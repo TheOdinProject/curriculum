@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Blaze Vincent's Solution](https://github.com/blaze-vincent/rock-paper-scissors-odin/) - [View in Browser](https://blaze-vincent.github.io/rock-paper-scissors-odin/) 
 - [jjfreeley's Solution](https://github.com/jjfreeley/rock-paper-scissors)
 - [Digthedill's solution](https://github.com/digthedill/rock-paper-scissor)
 - [Kevin's solution](https://github.com/koryo88/rock)
