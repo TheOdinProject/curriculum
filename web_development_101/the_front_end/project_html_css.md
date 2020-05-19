@@ -201,6 +201,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [farspear's Solution (Easy)](https://github.com/Farspear/top-google-homepage) - [View in Browser](https://farspear.github.io/top-google-homepage/)
 * [Maximiliano Bidegain's Solution (Difficult)](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/web-development-101/google-homepage) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
 * [rohan-soor's Solution (Easy)](https://github.com/rohan-soor/google-homepage) - [View in Browser](https://rohan-soor.github.io/google-homepage/)
+*[ezekielenns Solution (Easy)](https://ezekielenns.github.io/google-homepage) - [View in Browser](https://ezekielenns.github.io/google-homepage/)
 * [justonhart's Solution (Easy)](https://github.com/justonhart/google-homepage) - [View in Browser](https://justonh.art/google-homepage/)
 * [iamjethrooo's Solution (Easy)](https://github.com/iamjethrooo/google-homepage) - [View in Browser](https://iamjethrooo.github.io/google-homepage/)
 * [rpllpr's Solution (Easy)](https://github.com/rpllpr/google-homepage) - [View in Browser](https://rpllpr.github.io/google-homepage/)
