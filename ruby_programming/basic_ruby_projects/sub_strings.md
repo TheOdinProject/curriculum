@@ -500,4 +500,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/sub-string.rb)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/substrings.rb)
 * [Justin's Solution](https://github.com/Justin-Meffs/ruby-projects/blob/master/sub_strings.rb)
+* [msespos's Solution](https://github.com/msespos/substrings/blob/master/substrings.rb)
 </details>
