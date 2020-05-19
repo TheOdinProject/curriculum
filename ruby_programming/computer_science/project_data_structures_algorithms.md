@@ -52,6 +52,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rryand's Solution](https://github.com/rryand/ruby_binary_search_tree)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/binary_search)
 * [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/binary_search_tree)
 * [YesSeri's Solution](https://github.com/YesSeri/binary_search_tree)
@@ -272,6 +273,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rryand's Solution](https://github.com/rryand/knight_moves)
 * [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/knights-travails)
 * [Jose Bohorquez's Solution](https://github.com/Bhrqz/knight_moves/blob/master/knigth_moves.rb)
 * [YesSeri's Solution](https://github.com/YesSeri/knights_travails)
