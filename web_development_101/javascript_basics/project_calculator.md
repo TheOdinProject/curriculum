@@ -686,5 +686,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Aportello's Solution](https://github.com/Aportello/TOPcalculator) - [View in Browser](https://aportello.github.io/TOPcalculator/)
 - [Knuckle's Solution](https://github.com/mosesakor/calculator) - [View in Browser](https://mosesakor.github.io/calculator/)
 - [Austin's Solution](https://github.com/austinhulen/calculator) - [View in Browser](https://austinhulen.github.io/calculator/)
+- [sptyi's Solution](https://github.com/sptyi/Calculator) - [View in Browser](https://sptyi.github.io/Calculator/)
 
 </details>
