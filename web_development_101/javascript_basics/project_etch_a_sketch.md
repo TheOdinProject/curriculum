@@ -45,6 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Big Floating Death Panda's Solution](https://github.com/BigFloatingDeathPanda/etch-a-sketch) - [View in Browser](https://bigfloatingdeathpanda.github.io/etch-a-sketch/)
+* [AlexJ-Cole's Solution](https://github.com/AlexJ-Cole/Etch-A-Sketch/) - [View in Browser](https://alexj-cole.github.io/Etch-A-Sketch/)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/EtchaSketch) - [View in Browser](https://tildadares.github.io/EtchaSketch/)
+* [Virus's Solution](https://github.com/Virus35/Etch-a-sketch) - [View in Browser](https://virus35.github.io/Etch-a-sketch/Index.html)
+* [Roger's Solution](https://github.com/imrogerjiang/etch-a-sketch) - [View in Browser](https://imrogerjiang.github.io/etch-a-sketch/)
 * [Carlos's Solution](https://github.com/carlosmatos13/etch-a-sketch) - [View in Browser](https://carlosmatos13.github.io/etch-a-sketch/)
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/etch-a-sketch) - [View in Browser](https://omarmasri-91.github.io/etch-a-sketch/)  
 * [Kimberly's Solution](https://github.com/kimberlyohq/etch-a-sketch) - [View in Browser](https://kimberlyohq.github.io/etch-a-sketch/)
@@ -997,4 +1002,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [pablov1995's Solution](https://github.com/pablov-1995/etch-a-sketch/) - [View in Browser](https://pablov-1995.github.io/etch-a-sketch/)
 * [marvkal's Solution](https://github.com/marvkal/etch-a-sketch/) - [View in Browser](https://marvkal.github.io/etch-a-sketch/)
 * [Brenton393's Solution](https://github.com/Brenton393/etch-a-sketch/) - [View in Browser](https://Brenton393.github.io/etch-a-sketch/)
+* [Marci's Solution](https://github.com/NotAProgrammerdork/Etch-a-Sketch) - [View in Browser](https://notaprogrammerdork.github.io/Etch-a-Sketch/)
+* [castle429's Solution](https://github.com/castle429/etch-a-sketch) - [View in Browser](https://castle429.github.io/etch-a-sketch/)
 </details>

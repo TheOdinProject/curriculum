@@ -93,6 +93,12 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Lcdevi's solution (Easy)](https://github.com/Lcdevi/google-homepage) - [View in Browser](https://lcdevi.github.io/google-homepage/)
+* [Alisha Hwee's Solution (Easy)](https://github.com/alishahwee/google-homepage) - [View in Browser](https://alishahwee.github.io/google-homepage/)
+* [Ciaran Concannon's Solution (Easy)](https://github.com/cjcon90/google-homepage) - [View in Browser](https://cjcon90.github.io/google-homepage/)
+* [Adil Ahmed's Solution (Easy)](https://github.com/Adil-Bub/google-homepage) - [View in Browser](https://adil-bub.github.io/google-homepage/)
+* [Coding Shawn's Solution (Easy)](https://github.com/CodingShawn/google-homepage) - [View in Browser](https://codingshawn.github.io/google-homepage/)
+* [Blaze Vincent's Solution (Easy)](https://github.com/blaze-vincent/google-homepage) - [View in Browser](https://blaze-vincent.github.io/google-homepage/)
 * [OptiPrime's Solution (Easy)](https://github.com/OptiPrime64/google-homepage) - [View in Browser](https://optiprime64.github.io/google-homepage/)
 * [Gio's Solution(Difficult)](https://github.com/giovannylimin/google-homepage/tree/master/difficult-version) - [View in Browser](https://giovannylimin.github.io/google-homepage/difficult-version)
 * [Emilf's Solution (Easy)](https://github.com/emilf44/google-homepage) - [View in Browser](https://emilf44.github.io/google-homepage/)
@@ -3361,8 +3367,17 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [AAGRU's Solution (Easy)](https://github.com/AAGRU/TOD_Google_homepage/) - [View in Browser](https://aagru.github.io/TOD_Google_homepage/)
 * [dzalee16 Solution (Easy)](https://github.com/dzalee16/google-homepage) - [View in Browser](https://dzalee16.github.io/google-homepage/)
 * [dgamarra93's Solution (Easy)](https://github.com/dgamarra93/google_homepage) - [View in Browser](https://dgamarra93.github.io/google_homepage/)
+* [adilahmad321's Solution (Easy)](https://github.com/adilahmad321/google-homepage) - [View in Browser](https://adilahmad321.github.io/google-homepage/)
+* [adilahmad321's Solution (Difficult)](https://github.com/adilahmad321/google-searchpage) - [View in Browser](https://adilahmad321.github.io/google-searchpage/)
+* [jugnugs's Solution (Easy)](https://github.com/jugnugs/google-homepage) - [View in Browser](https://jugnugs.github.io/google-homepage/)
+* [brxndonlee's Solution (Easy)](https://github.com/brxndonlee/google_homepage) - [View in Browser](https://brxndonlee.github.io/google_homepage)
+* [TheCodingArchi's Solution (Easy)](https://github.com/TheCodingArchi/google-homepage) - [View in Browser](https://thecodingarchi.github.io/google-homepage/)
+* [Bryan L's Solution (Easy)](https://github.com/bryanluu/TOP_google) - [View in Browser](https://bryanluu.github.io/TOP_google/)
+* [tiris08's Solution (Easy)](https://github.com/tiris08/google-homepage) - [View in Browser](https://tiris08.github.io/google-homepage/#)
+* [Miguel-stacb's Solution (Easy)](https://github.com/Miguel-stacb/google-homepage.git) - [View in Browser](https://miguel-stacb.github.io/google-homepage/)
+* [Haroldooo's Solution (Easy)](https://github.com/Haroldooo/google-homepage) - [View in Browser](https://haroldooo.github.io/google-homepage/)
+* [Timsternations's Solution (Easy)](https://github.com/timsternation/google_homepage) - [View in Browser](https://timsternation.github.io/google_homepage/)
 </details>
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

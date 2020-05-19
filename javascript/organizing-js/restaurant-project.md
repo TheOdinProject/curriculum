@@ -48,6 +48,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [MarcoDSilva's Solution](https://github.com/MarcoDSilva/Restaurant_Page) - [View in Browser](https://marcodsilva.github.io/Restaurant_Page/dist/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/restaurant-page) - [View in Browser](https://carldoleolundgren.github.io/restaurant-page/)
 - [hu-ng's Solution](https://github.com/hu-ng/simple-restaurant) - [View in Browser](https://hu-ng.github.io/simple-restaurant/)
 - [Walmart-cashier's Solution](https://github.com/Walmart-cashier/restaurant-page) - [View in Browser](https://walmart-cashier.github.io/restaurant-page/)
@@ -165,4 +166,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [m-rejdych's Solution](https://github.com/m-rejdych/Restaurant-Page) - [View in Browser](https://m-rejdych.github.io/Restaurant-Page/)
 - [alicee88's Solution](https://github.com/alicee88/odin-restaurant) - [View in Browser](https://alicee88.github.io/odin-restaurant/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/restaurant-page/settings) - [View in Browser](https://ozansozuozgit.github.io/restaurant-page/)
+- [Matyd's Solution](https://github.com/MatyD356/restaurant-page/tree/master) - [View in Browser](https://matyd356.github.io/restaurant-page/)
 </details>
