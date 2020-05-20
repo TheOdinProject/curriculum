@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Mr.Bowtie's Solution](https://github.com/Mr-Bowtie/rock-paper-scissors) - [View in Browser](https://mr-bowtie.github.io/rock-paper-scissors/)
 - [Blaze Vincent's Solution](https://github.com/blaze-vincent/rock-paper-scissors-odin/) - [View in Browser](https://blaze-vincent.github.io/rock-paper-scissors-odin/) 
 - [jjfreeley's Solution](https://github.com/jjfreeley/rock-paper-scissors)
 - [Digthedill's solution](https://github.com/digthedill/rock-paper-scissor)
@@ -179,7 +180,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [LancharroDav's Solution](https://github.com/LancharroDav/rock-paper-scissors-lizard-spock-game) - [View in Browser](https://lancharrodav.github.io/rock-paper-scissors-lizard-spock-game/)
 - [keifererikson's Solution](https://github.com/keifererikson/rock_paper_scissors) - [View in Browser](https://keifererikson.github.io/rock_paper_scissors/)
 - [AJMcDee's Solution](https://github.com/AJMcDee/rockPaperScissorsJS) - [View in Browser](https://ajmcdee.github.io/rockPaperScissorsJS/)
-- [Mr.Bowtie's Solution](https://github.com/Mr-Bowtie/rock-paper-scissors)
 - [RainDropsz's  Solution](https://github.com/RainDropsz/rock_paper_scissors) - [View in Browser](https://raindropsz.github.io/Rock_paper_scissor.html)
 - [shaneSC's Solution](https://github.com/shanesc/rock-paper-scissors) - [View in Browser](https://shanesc.github.io/rock-paper-scissors/)
 - [Oluwatobi's solution](https://github.com/Oluwatobi-S/rock-paper-scissors) - [View in Browser](https://oluwatobi-s.github.io/rock-paper-scissors/)
