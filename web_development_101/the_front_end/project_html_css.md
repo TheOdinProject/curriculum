@@ -92,7 +92,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this list
+* Add your solution below this list https://donn-chan.github.io/google-results-page/
+* [donn-chan's solution (Hard)](https://donn-chan.github.io/google-results-page/) - [View in Browser](https://donn-chan.github.io/google-results-page/)
+* [donn-chan's solution (Easy)](https://donn-chan.github.io/google-homepage/) - [View in Browser](https://donn-chan.github.io/google-homepage/)
 * [CHANG-CHING-CHUNG's solution (Hard)](https://chang-ching-chung.github.io/google-search-result-page/) - [View in Browser](https://chang-ching-chung.github.io/google-search-result-page/)
 * [CHANG-CHING-CHUNG's solution (Easy)](https://chang-ching-chung.github.io/google-homepage/) - [View in Browser](https://chang-ching-chung.github.io/google-homepage/)
 * [gerhernandez7's solution (Hard)](https://github.com/ger-hernandez/google-homepage) - [View in Browser](https://ger-hernandez.github.io/google-homepage/)
