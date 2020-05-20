@@ -3389,6 +3389,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Brett Wilson's Solution (Easy)](https://17wilsonb.github.io/google-homepage) - [View in Browser](https://17wilsonb.github.io/google-homepage)
 * [fleur's solution (Easy)](https://github.com/fleurlocke/google-homepage) - [View in Browser](https://fleurlocke.github.io/google-homepage/)
 * [Bliguy's solution (Easy)](https://github.com/bliguy/google-homepage) - [View in Browser](https://bliguy.github.io/google-homepage/)
+* [mrbuddh4's solution (Easy)](https://github.com/mrbuddh4/google-homepage) - [View in Browser](https://mrbuddh4.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
