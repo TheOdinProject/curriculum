@@ -143,6 +143,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/connect_four)
 * [pudu87's Solution](https://github.com/pudu87/connect_four)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.connect_four)
 * [YesSeri's Solution](https://github.com/YesSeri/connect_four)
