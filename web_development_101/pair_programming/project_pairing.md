@@ -32,6 +32,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ChargrilledChook and MotorMouse's Solution](https://github.com/ChargrilledChook/pomodoro) - [View in Broswer](https://chargrilledchook.github.io/pomodoro/)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/pomodoro-timer) - [View in Browser](https://fillingthemoon.github.io/pomodoro-timer/)
 * [overdice solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/pomodoro) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/pomodoro/index.html)
 * [Lam's Solution](https://github.com/lamdayap/pomodoro-project) - [View in Browser](https://lamdayap.github.io/pomodoro-project/)
