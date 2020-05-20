@@ -3384,7 +3384,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Robbie B's Solution (Easy)](https://github.com/babsonrobert/google_clone/) - [View in Browser](https://babsonrobert.github.io/google_clone/)
 * [Ashu-r's Solution (Hard)](https://github.com/ashu-r/google_home) - [View in Browser](https://ashu-r.github.io/google_home/)
 * [mapleserum's Solution (Easy)](https://github.com/mapleserum/google-homepage) - [View in Browser](https://mapleserum.github.io/google-homepage)
-* [Brett Wilson's Solution (Easy)](https://17wilsonb.github.io/google-homepage) - [View in Browser] (https://17wilsonb.github.io/google-homepage)
+* [Brett Wilson's Solution (Easy)](https://17wilsonb.github.io/google-homepage) - [View in Browser](https://17wilsonb.github.io/google-homepage)
 </details>
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
