@@ -384,6 +384,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Edd Sansome's Solution (15% win rate AI)](https://github.com/casualc0der/odin-ruby/tree/master/mastermind)
 * [Ichenn's Solution](https://github.com/Ichenn92/mastermind) - [View in repl.it](https://mastermind.ichenn92.repl.run)
 * [Matt Fergoda's Solution](https://github.com/mattfergoda/mastermind) - [View in repl.it](https://repl.it/@mattfergoda/mastermind)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/OOP-project/tree/master/mastermind) - [View in repl.it](https://repl.it/@TenaciousQi/mastermind)
