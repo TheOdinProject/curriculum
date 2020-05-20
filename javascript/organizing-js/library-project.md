@@ -287,4 +287,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Danyl Matviyenko's Solution](https://github.com/DanylMatviyenko/TheOdinProject-LIBRARY-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-LIBRARY-/)
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-library-project) - [View in Browser](https://adrieltrigger.github.io/top-library-project/)
 - [Eren Cataltepe's Solution](https://github.com/erencataltepe/library) - [View in Browser](https://erencataltepe.github.io/library/)
+- [Wil Goolsby's Solution](https://github.com/wgoolsby/library) - [View in Browser](https://wilgoolsby.com/library/)
 </details>
