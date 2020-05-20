@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Kristopher Sach's Solution](https://github.com/risma-labs/etch-a-sketch) - [View in Browser](https://risma-labs.github.io/etch-a-sketch/)
 * [Foolmonkey's Solution](https://github.com/foolmonkey/etch-a-sketch) - [View in Browser](https://foolmonkey.github.io/etch-a-sketch/)
 * [Ryan's Solution](https://github.com/RyanAmeri/odin-etch-a-sketch) - [View in Browser](https://ryanameri.github.io/odin-etch-a-sketch/index.html)
 * [Big Floating Death Panda's Solution](https://github.com/BigFloatingDeathPanda/etch-a-sketch) - [View in Browser](https://bigfloatingdeathpanda.github.io/etch-a-sketch/)
