@@ -273,6 +273,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/knight_moves)
 * [rryand's Solution](https://github.com/rryand/knight_moves)
 * [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/knights-travails)
 * [Jose Bohorquez's Solution](https://github.com/Bhrqz/knight_moves/blob/master/knigth_moves.rb)
