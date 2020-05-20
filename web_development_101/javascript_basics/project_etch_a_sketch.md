@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Kristopher Sach's Solution](https://github.com/risma-labs/etch-a-sketch) - [View in Browser](https://risma-labs.github.io/etch-a-sketch/)
 * [Foolmonkey's Solution](https://github.com/foolmonkey/etch-a-sketch) - [View in Browser](https://foolmonkey.github.io/etch-a-sketch/)
 * [Ryan's Solution](https://github.com/RyanAmeri/odin-etch-a-sketch) - [View in Browser](https://ryanameri.github.io/odin-etch-a-sketch/index.html)
 * [Big Floating Death Panda's Solution](https://github.com/BigFloatingDeathPanda/etch-a-sketch) - [View in Browser](https://bigfloatingdeathpanda.github.io/etch-a-sketch/)
@@ -1006,4 +1007,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Brenton393's Solution](https://github.com/Brenton393/etch-a-sketch/) - [View in Browser](https://Brenton393.github.io/etch-a-sketch/)
 * [Marci's Solution](https://github.com/NotAProgrammerdork/Etch-a-Sketch) - [View in Browser](https://notaprogrammerdork.github.io/Etch-a-Sketch/)
 * [castle429's Solution](https://github.com/castle429/etch-a-sketch) - [View in Browser](https://castle429.github.io/etch-a-sketch/)
+* [hamparmin's Solution](https://github.com/hamparmin/etchsketch) - [View in Browser](https://hamparmin.github.io/etchsketch/)
 </details>

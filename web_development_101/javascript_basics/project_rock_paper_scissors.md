@@ -41,7 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Parri's solution] (https://github.com/parrithomas/rockpaperscissors)
+- [Parri's solution](https://github.com/parrithomas/rockpaperscissors)
+- [SebastiaanDXB's Solution](https://github.com/SebastiaanDXB/RPS) - [View in Browser](https://sebastiaandxb.github.io/RPS/)
 - [jioneeu's Solution](https://github.com/jioneeu/js-rock-paper-scissor/blob/master/src/index.html)
 - [Mr.Bowtie's Solution](https://github.com/Mr-Bowtie/rock-paper-scissors) - [View in Browser](https://mr-bowtie.github.io/rock-paper-scissors/)
 - [Blaze Vincent's Solution](https://github.com/blaze-vincent/rock-paper-scissors-odin/) - [View in Browser](https://blaze-vincent.github.io/rock-paper-scissors-odin/) 
@@ -1596,9 +1597,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bhenning83's Solution](https://github.com/bhenning83/rock-paper-scissors) - [View in Browser](https://bhenning83.github.io/rock-paper-scissors/)
 - [Bella Buchanan's Solution](https://github.com/bellabuchanan/Rock-Paper-Scissors)
 - [Bryan's Solution](https://github.com/bryanluu/TOP_rockpaperscissors) - [View in Browser](https://bryanluu.github.io/TOP_rockpaperscissors/)
-- [adilahmad321's Solution](https://github.com/adilahmad321/Rock-Papers-Scissors)
+- [adilahmad321's Solution](https://github.com/adilahmad321/Rock-Paper-Scissors) - [View in Browser](https://adilahmad321.github.io/Rock-Paper-Scissors/)
 - [Karafakioglu's Solution](https://github.com/Karafakioglu/Rock-Paper-Scissors) - [View in Browser](https://karafakioglu.github.io/Rock-Paper-Scissors/)
 - [dzalee16's Solution](https://github.com/dzalee16/Rock_Paper_Scissors) - [View in Browser](https://dzalee16.github.io/Rock_Paper_Scissors/)
 - [Arindam-7's solution](https://github.com/Arindam-7/RockPaperScissor)
+- [ypc-dev's Solution](https://github.com/ypc-dev/rock-paper-scissors) - [View in Browser](https://ypc-dev.github.io/rock-paper-scissors/)
 </details>
+
 
