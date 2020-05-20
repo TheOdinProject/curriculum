@@ -27,6 +27,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/stock-picker)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/stock_picker.rb)
+* [Laurens' Solution](https://github.com/laurenskrom/TOPrubyprojects/blob/master/stockpicker.rb)
+* [Damian Tabor's Solution](https://github.com/blunt008/odin-project-ruby-basic-projects/blob/master/stock_picker/solution.rb)
+* [andrewjh271's Solution](https://github.com/andrewjh271/basic_ruby_projects/tree/master/stock_picker)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/stock_picker.rb)
+* [Evelyn's Solution](https://github.com/evive82/Odin-Project-Ruby-Basics-Projects/blob/master/stock-picker/stock-picker.rb)
+* [Harold Guido's Solution](https://github.com/harold-guido/ruby-beginner-exercises/blob/master/stock_picker/stock_picker.rb)
 * [Randolph Cisneros' Solution](https://github.com/RandolphCisneros/stock-picker-project)
 * [Peter Meglis's Solution](https://github.com/petermeglis/ruby/blob/master/theodinproject/basic_projects/stock_picker.rb)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/stocks/blob/master/stocks.rb)
@@ -488,4 +496,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/stock-picker.rb)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/stock_picker.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/stock-picker.rb)
+* [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/stock_picker.rb)
+* [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/stock-picker.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/stock_picker.rb)
+* [msespos's Solution](https://github.com/msespos/stock_picker/blob/master/stock_picker.rb)
 </details>

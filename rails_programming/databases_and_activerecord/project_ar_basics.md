@@ -113,6 +113,10 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nestor's Solution](https://github.com/nestor-c/Odin_Projects/tree/master/micro-reddit)
+* [Jithin's Solution](https://github.com/jithindasad/micro-reddit)
+* [YesSeri's Solution](https://github.com/YesSeri/micro-reddit)
+* [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/Micro-Reddit)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/building_with_active_record_project)
 * [leetie's Solution!](https://github.com/leetie/rails_association_practice)
 * [Grant C's Solution](https://github.com/grantmaster89/micro-reddit)
@@ -248,6 +252,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [wilmir's Solution](https://github.com/Wilmir/micro-reddit)
 * [Lucas' Solution](https://github.com/Lucas-Vergara/micro-reddit)
 * [Timework's Solution](https://github.com/Timework/micro_reddit)
+* [Bendee's Solution](https://github.com/bendee48/micro-reddit)
 </details>
 
 ### Additional Resources
