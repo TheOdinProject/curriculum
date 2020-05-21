@@ -43,7 +43,7 @@ group :development, :test, :docker do
   gem 'rspec-rails'
   gem 'simplecov', :require => false
   gem 'factory_bot_rails',                '~> 5'
-  gem 'database_cleaner',                 '~> 1.5'
+  gem 'database_cleaner',                 '~> 1.8'
   gem 'webmock',                          '~> 3.8'
   gem 'vcr',                              '~> 5.1'
   gem 'shoulda-matchers'
