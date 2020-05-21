@@ -14,7 +14,7 @@ New programmers often find problem solving the hardest skill to build, it's not 
 
 The best way to improve your problem solving ability is by building experience by making lots and lots of programs. The more practice you have the better you'll be prepared to solve real world problems.
 
-In this lesson we will walk through a few techniques that can used to help with the problem solving process.
+In this lesson we will walk through a few techniques that can be used to help with the problem solving process.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
@@ -29,12 +29,12 @@ The first step to solving a problem is understanding exactly what the problem is
 To gain clarity and understanding of the problem, write it down on paper, reword it in plain english until it makes sense to you, draw diagrams if that helps. When you can explain the problem to someone else in plain english, you understand it.
 
 ### Plan
-Now that you know what you're aiming to solve, don't jump into coding just yet its time to plan out how you're going to solve it first.
+Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
 
 Some of the questions you should answer at this part of the process:
 
-* Does your program have a user interface? what will it look like? what functionality will the interface have? sketch this out on paper
-* What inputs will your program have? will the user enter data or will you get input from somewhere else
+* Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
+* What inputs will your program have? Will the user enter data or will you get input from somewhere else?
 * What's the desired output?
 * Given your inputs, what are the steps necessary to return the desired output?
 
@@ -43,23 +43,23 @@ The last question is where you will write out an algorithm to solve the problem.
 #### Pseudo Code
 Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.
 
-Heres an example of what the pseudo code for a simple program that prints all numbers up to a inputted number might look like:
+Here's an example of what the pseudo code for a simple program that prints all numbers up to an entered number might look like:
 
 ```
 When the user inputs a number
 Initialize a counter variable and set its value to zero
-While counter is smaller than user inputted number
+While counter is smaller than user entered number
 Print the value of the counter variable
 ```
 
-This is a very simple program to demonstrate how pseudo code looks, there will be more examples of pseudo code included in the assignments.
+This is a very simple program to demonstrate how pseudo code looks. There will be more examples of pseudo code included in the assignments.
 
 ### Divide and Conquer
 From your planning, you should have identified some sub problems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are sub problems. Pick the smallest or simplest one and start there with coding.
 
-It's important to remember that you might not know all the steps that you might need up front so your algorithm may be incomplete, this is fine. Getting started with and solving one of the sub problems you have identified in the planning stage, often reveals the next sub problem you can work on. Or if you already know the next sub problem is it’s often simpler with the first sub problem solved.
+It's important to remember that you might not know all the steps that you might need up front so your algorithm may be incomplete — this is fine. Getting started with and solving one of the sub problems you have identified in the planning stage, often reveals the next sub problem you can work on. Or if you already know the next sub problem, is it’s often simpler with the first sub problem solved.
 
-Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller easier to solve sub problems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
+Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller, easier to solve sub problems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
@@ -67,17 +67,17 @@ In short, break the big problem down and solve each of the smaller problems unti
 To demonstrate this workflow in action lets solve a common programming exercise, [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz)
 
 #### Understanding The Problem
-> Write a program takes a users input and prints the numbers from one to the number the user inputed. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+> Write a program takes a user's input and prints the numbers from one to the number the user entered. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
-Write a problem that allows the user to enter a number, Print each number between one the number the user entered, but for numbers that divide by three cleanly without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
+Write a problem that allows the user to enter a number, print each number between one the number the user entered, but for numbers that divide by three without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
 
 #### Plan
-Does your program have an interface? what will it look like?
+Does your program have an interface? What will it look like?
 Our FizzBuzz solution will be a command line program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
 
-What inputs will your program have? will the user enter data or will you get input from somewhere else
+What inputs will your program have? Will the user enter data or will you get input from somewhere else?
 The user will enter a number from the command line.
 
 What's the desired output?
