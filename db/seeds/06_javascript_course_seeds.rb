@@ -10,8 +10,8 @@ section_position = 0
 lesson_position = 0
 
 course = create_or_update_course(
-  title: "Javascript",
-  title_url: "Javascript".parameterize,
+  title: 'Javascript',
+  title_url: 'Javascript'.parameterize,
   description: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This course will wrap everything you've learned at The Odin Project into one, final capstone project.",
   position: course_position
 )
@@ -24,34 +24,46 @@ course = create_or_update_course(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Introduction",
-  title_url: "Introduction".parameterize,
+  title: 'Introduction',
+  title_url: 'Introduction'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: "Welcome to the JavaScript course!  Start here!"
+  description: 'Welcome to the JavaScript course!  Start here!'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "How this course will work",
-  title_url: "How this course will work".parameterize,
-  description: "How this course will work",
+  title: 'Problem Solving',
+  title_url: 'Problem Solving'.parameterize,
+  section_id: section.id,
+  position: lesson_position,
+  description: 'In this lesson we will explore how to approach solving programming problems.',
+  url: '/javascript/introduction/problem_solving.md',
+  repo: 'curriculum',
+  is_project: false
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'How this course will work',
+  title_url: 'How this course will work'.parameterize,
+  description: 'How this course will work',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/introduction/introduction.md",
+  url: '/javascript/introduction/introduction.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "A quick review",
-  title_url: "A quick review".parameterize,
-  description: "A quick review",
+  title: 'A quick review',
+  title_url: 'A quick review'.parameterize,
+  description: 'A quick review',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/introduction/js101-review.md",
+  url: '/javascript/introduction/js101-review.md',
   repo: 'curriculum'
 )
 
@@ -61,131 +73,130 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Organizing your JavaScript Code",
-  title_url: "Organizing JavaScript".parameterize,
+  title: 'Organizing your JavaScript Code',
+  title_url: 'Organizing JavaScript'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: "This series digs in to the things you need to write larger and larger applications with JavaScript.  This is where it gets real!"
+  description: 'This series digs in to the things you need to write larger and larger applications with JavaScript.  This is where it gets real!'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Introduction",
-  title_url: "organizing introduction".parameterize,
-  description: "introduction",
+  title: 'Introduction',
+  title_url: 'organizing introduction'.parameterize,
+  description: 'introduction',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/organizing-js/organizing-introduction.md",
+  url: '/javascript/organizing-js/organizing-introduction.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Objects and Object Constructors",
-  title_url: "Objects and Object Constructors".parameterize,
-  description: "Covers plain old javascript objects and object constructors",
+  title: 'Objects and Object Constructors',
+  title_url: 'Objects and Object Constructors'.parameterize,
+  description: 'Covers plain old javascript objects and object constructors',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/organizing-js/objects-constructors.md",
+  url: '/javascript/organizing-js/objects-constructors.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Library",
-  title_url: "Library".parameterize,
-  description: "Library",
+  title: 'Library',
+  title_url: 'Library'.parameterize,
+  description: 'Library',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/organizing-js/library-project.md",
+  url: '/javascript/organizing-js/library-project.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Factory Functions and the Module Pattern",
-  title_url: "Factory Functions and the Module Pattern".parameterize,
-  description: "Factory Functions and the Module Pattern",
+  title: 'Factory Functions and the Module Pattern',
+  title_url: 'Factory Functions and the Module Pattern'.parameterize,
+  description: 'Factory Functions and the Module Pattern',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/organizing-js/factory-functions.md",
+  url: '/javascript/organizing-js/factory-functions.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Tic Tac Toe",
-  title_url: "Tic Tac Toe".parameterize,
-  description: "Tic Tac Toe",
+  title: 'Tic Tac Toe',
+  title_url: 'Tic Tac Toe'.parameterize,
+  description: 'Tic Tac Toe',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/organizing-js/tic-tac-toe-project.md",
+  url: '/javascript/organizing-js/tic-tac-toe-project.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Classes",
-  title_url: "JavaScript Classes".parameterize,
-  description: "Classes",
+  title: 'Classes',
+  title_url: 'JavaScript Classes'.parameterize,
+  description: 'Classes',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/organizing-js/classes.md",
+  url: '/javascript/organizing-js/classes.md',
   repo: 'curriculum'
 )
 
-
 lesson_position += 1
 create_or_update_lesson(
-  title: "ES6 Modules",
-  title_url: "ES6 Modules".parameterize,
-  description: "ES6 Modules",
+  title: 'ES6 Modules',
+  title_url: 'ES6 Modules'.parameterize,
+  description: 'ES6 Modules',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/organizing-js/es6-modules.md",
+  url: '/javascript/organizing-js/es6-modules.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Restaurant Page",
-  title_url: "Restaurant Page".parameterize,
-  description: "Restaurant Page",
+  title: 'Restaurant Page',
+  title_url: 'Restaurant Page'.parameterize,
+  description: 'Restaurant Page',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/organizing-js/restaurant-project.md",
+  url: '/javascript/organizing-js/restaurant-project.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "OOP Principles",
-  title_url: "OOP Principles".parameterize,
-  description: "OOP Principles",
+  title: 'OOP Principles',
+  title_url: 'OOP Principles'.parameterize,
+  description: 'OOP Principles',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/organizing-js/oop-concepts.md",
+  url: '/javascript/organizing-js/oop-concepts.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Todo List",
-  title_url: "Todo List".parameterize,
-  description: "Todo List",
+  title: 'Todo List',
+  title_url: 'Todo List'.parameterize,
+  description: 'Todo List',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/organizing-js/project.md",
+  url: '/javascript/organizing-js/project.md',
   repo: 'curriculum'
 )
 
@@ -195,8 +206,8 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "JavaScript in the Real World",
-  title_url: "JavaScript in the Real World".parameterize,
+  title: 'JavaScript in the Real World',
+  title_url: 'JavaScript in the Real World'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "Let's look at a few more practical applications of JavaScript and learn about a few useful tools that are widely used in the industry."
@@ -204,61 +215,61 @@ section = create_or_update_section(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Linting",
-  title_url: "Linting".parameterize,
-  description: "Linting",
+  title: 'Linting',
+  title_url: 'Linting'.parameterize,
+  description: 'Linting',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/js-in-the-real-world/linting.md",
+  url: '/javascript/js-in-the-real-world/linting.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Dynamic User Interface Interactions",
-  title_url: "User Interface Interactions".parameterize,
-  description: "UI Interactions",
+  title: 'Dynamic User Interface Interactions',
+  title_url: 'User Interface Interactions'.parameterize,
+  description: 'UI Interactions',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/js-in-the-real-world/ui-Interactions.md",
+  url: '/javascript/js-in-the-real-world/ui-Interactions.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Forms",
-  title_url: "Forms".parameterize,
-  description: "Forms",
+  title: 'Forms',
+  title_url: 'Forms'.parameterize,
+  description: 'Forms',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/js-in-the-real-world/forms.md",
+  url: '/javascript/js-in-the-real-world/forms.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Webpack 2",
-  title_url: "Webpack 2".parameterize,
-  description: "Webpack 2",
+  title: 'Webpack 2',
+  title_url: 'Webpack 2'.parameterize,
+  description: 'Webpack 2',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/js-in-the-real-world/webpack-2.md",
+  url: '/javascript/js-in-the-real-world/webpack-2.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "ES?",
-  title_url: "ES?".parameterize,
-  description: "ES?",
+  title: 'ES?',
+  title_url: 'ES?'.parameterize,
+  description: 'ES?',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/js-in-the-real-world/es6-features.md",
+  url: '/javascript/js-in-the-real-world/es6-features.md',
   repo: 'curriculum'
 )
 
@@ -268,8 +279,8 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Front End Frameworks",
-  title_url: "front end frameworks".parameterize,
+  title: 'Front End Frameworks',
+  title_url: 'front end frameworks'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "We'll take a brief look at the most popular JavaScript frameworks."
@@ -277,61 +288,61 @@ section = create_or_update_section(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Introduction to Frameworks",
-  title_url: "frameworks introduction".parameterize,
-  description: "intro",
+  title: 'Introduction to Frameworks',
+  title_url: 'frameworks introduction'.parameterize,
+  description: 'intro',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/frameworks/frameworks-introduction.md",
+  url: '/javascript/frameworks/frameworks-introduction.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Angular",
-  title_url: "Angular".parameterize,
-  description: "Angular",
+  title: 'Angular',
+  title_url: 'Angular'.parameterize,
+  description: 'Angular',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/frameworks/angular.md",
+  url: '/javascript/frameworks/angular.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "React",
-  title_url: "React".parameterize,
-  description: "React",
+  title: 'React',
+  title_url: 'React'.parameterize,
+  description: 'React',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/frameworks/react-introduction.md",
+  url: '/javascript/frameworks/react-introduction.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Vue",
-  title_url: "Vue".parameterize,
-  description: "Vue",
+  title: 'Vue',
+  title_url: 'Vue'.parameterize,
+  description: 'Vue',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/frameworks/vue.md",
+  url: '/javascript/frameworks/vue.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Frameworks",
-  title_url: "Frameworks".parameterize,
-  description: "Project: Frameworks",
+  title: 'Frameworks',
+  title_url: 'Frameworks'.parameterize,
+  description: 'Project: Frameworks',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/frameworks/frameworks-project.md",
+  url: '/javascript/frameworks/frameworks-project.md',
   repo: 'curriculum'
 )
 
@@ -341,70 +352,70 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Asynchronous JavaScript and APIs",
-  title_url: "Asynchronous JavaScript".parameterize,
+  title: 'Asynchronous JavaScript and APIs',
+  title_url: 'Asynchronous JavaScript'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: "Asynchronous JavaScript"
+  description: 'Asynchronous JavaScript'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "JSON",
-  title_url: "JSON".parameterize,
-  description: "JSON",
+  title: 'JSON',
+  title_url: 'JSON'.parameterize,
+  description: 'JSON',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/async-apis/json.md",
+  url: '/javascript/async-apis/json.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Async",
-  title_url: "Async".parameterize,
-  description: "Async",
+  title: 'Async',
+  title_url: 'Async'.parameterize,
+  description: 'Async',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/async-apis/promises-async.md",
+  url: '/javascript/async-apis/promises-async.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Working with APIs",
-  title_url: "Working with APIs".parameterize,
-  description: "Working with APIs",
+  title: 'Working with APIs',
+  title_url: 'Working with APIs'.parameterize,
+  description: 'Working with APIs',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/async-apis/APIs.md",
+  url: '/javascript/async-apis/APIs.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Async and Await",
-  title_url: "Async and Await".parameterize,
-  description: "Async and Await",
+  title: 'Async and Await',
+  title_url: 'Async and Await'.parameterize,
+  description: 'Async and Await',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/async-apis/async-await.md",
+  url: '/javascript/async-apis/async-await.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Weather App",
-  title_url: "Weather App".parameterize,
-  description: "Weather App",
+  title: 'Weather App',
+  title_url: 'Weather App'.parameterize,
+  description: 'Weather App',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/async-apis/project.md",
+  url: '/javascript/async-apis/project.md',
   repo: 'curriculum'
 )
 
@@ -414,8 +425,8 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Testing JavaScript",
-  title_url: "Testing JavaScript".parameterize,
+  title: 'Testing JavaScript',
+  title_url: 'Testing JavaScript'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "Test driven development is an important skill in today's dev world.  This section digs into the details of writing automated JavaScript tests."
@@ -423,49 +434,49 @@ section = create_or_update_section(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Testing Basics",
-  title_url: "Testing Basics".parameterize,
-  description: "Testing Basics",
+  title: 'Testing Basics',
+  title_url: 'Testing Basics'.parameterize,
+  description: 'Testing Basics',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/testing/testing-1.md",
+  url: '/javascript/testing/testing-1.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Testing Practice",
-  title_url: "Testing Practice".parameterize,
-  description: "Testing Practice",
+  title: 'Testing Practice',
+  title_url: 'Testing Practice'.parameterize,
+  description: 'Testing Practice',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/testing/testing-practice.md",
+  url: '/javascript/testing/testing-practice.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "More Testing",
-  title_url: "More Testing".parameterize,
-  description: "More Testing",
+  title: 'More Testing',
+  title_url: 'More Testing'.parameterize,
+  description: 'More Testing',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/testing/testing-2.md",
+  url: '/javascript/testing/testing-2.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Battleship",
-  title_url: "Battleship".parameterize,
-  description: "Battleship",
+  title: 'Battleship',
+  title_url: 'Battleship'.parameterize,
+  description: 'Battleship',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/testing/battleship-project.md",
+  url: '/javascript/testing/battleship-project.md',
   repo: 'curriculum'
 )
 # +++++++++++
@@ -474,8 +485,8 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "JavaScript and the Backend",
-  title_url: "JavaScript and the Backend".parameterize,
+  title: 'JavaScript and the Backend',
+  title_url: 'JavaScript and the Backend'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end, and/or how to outsource your backend to a Backend-as-a-Service company like Firebase. You'll also get a chance to work with external APIs, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future."
@@ -483,13 +494,13 @@ section = create_or_update_section(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Using Ruby on Rails or BaaS For Your Back End",
-  title_url: "Using Ruby on Rails or BaaS For Your Back End".parameterize,
-  description: "You've got experience working with APIs, now it's time to treat your app like one.",
+  title: 'Using Ruby on Rails or BaaS For Your Back End',
+  title_url: 'Using Ruby on Rails or BaaS For Your Back End'.parameterize,
+  description: 'You've got experience working with APIs, now it's time to treat your app like one.',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/js-rails/rails_backend.md",
+  url: '/javascript/js-rails/rails_backend.md',
   repo: 'curriculum'
 )
 
@@ -501,7 +512,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/js-rails/project_rails_backend.md",
+  url: '/javascript/js-rails/project_rails_backend.md',
   repo: 'curriculum'
 )
 
@@ -511,8 +522,8 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Finishing Up with Javascript",
-  title_url: "Finishing Up with Javascript".parameterize,
+  title: 'Finishing Up with Javascript',
+  title_url: 'Finishing Up with Javascript'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "You've learned everything you need and all that remains to do is apply that knowledge to a worthy task.  In this section, we'll briefly cover how to test Javascript using Jasmine and then get you started with your capstone project so you can show off your range of skills."
@@ -520,24 +531,24 @@ section = create_or_update_section(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Final Project",
-  title_url: "Final Project".parameterize,
+  title: 'Final Project',
+  title_url: 'Final Project'.parameterize,
   description: "Tie everything you've learned from every course so far into one project where you'll build your favorite website from scratch.",
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: "/javascript/finishing-up/project_final_js.md",
+  url: '/javascript/finishing-up/project_final_js.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Conclusion",
-  title_url: "Conclusion".parameterize,
-  description: "Well, that was easy, right?",
+  title: 'Conclusion',
+  title_url: 'Conclusion'.parameterize,
+  description: 'Well, that was easy, right?',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: "/javascript/finishing-up/conclusion.md",
+  url: '/javascript/finishing-up/conclusion.md',
   repo: 'curriculum'
 )
