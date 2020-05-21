@@ -35,10 +35,13 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
     1. Put the contents of each 'tab' inside of it's own module. Each module will export a function that creates a div element, adds the appropriate content and styles to that element and then appends it to the DOM.
    
     1. Write the tab-switching logic inside of `index.js`. You should have event listeners for each tab that wipes out the current contents and then runs the correct 'tab module' to populate it again.
+    
+    1. If you are using images or any other assets, make sure to put them in a folder inside your dist folder (as opposed to root or source). This will prevent problems later when we deploy to GitHub Pages.
    
 1. If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running `webpack` the full bundled version of your site is available in the `dist` folder, but GH pages is looking for an index.html in the root directory of your project.
 
     1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
+    1. Make sure your your GitHub Pages source is now pointed to your gh-pages branch.
 </div>
 
 ### Student Solutions
