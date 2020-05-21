@@ -474,18 +474,18 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "JavaScript and Rails",
-  title_url: "JavaScript and Rails".parameterize,
+  title: "JavaScript and the Backend",
+  title_url: "JavaScript and the Backend".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end. You'll also get a chance to work with external APIs like Google Maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future. Note: if you've opted to skip the Ruby/Rails portion of the curriculum to do (only) full stack JS, you can safely skip this unit, too."
+  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end, and/or how to outsource your backend to a Backend-as-a-Service company like Firebase. You'll also get a chance to work with external APIs, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future."
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: "Using Ruby on Rails For Your Back End",
-  title_url: "Using Ruby on Rails For Your Back End".parameterize,
-  description: "You've got experience working with APIs, now it's time to treat your Rails app like one.",
+  title: "Using Ruby on Rails or BaaS For Your Back End",
+  title_url: "Using Ruby on Rails or BaaS For Your Back End".parameterize,
+  description: "You've got experience working with APIs, now it's time to treat your app like one.",
   position: lesson_position,
   section_id: section.id,
   is_project: false,
