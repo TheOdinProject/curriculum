@@ -652,6 +652,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matt M's Solution](https://github.com/MattMiller1989/Mastermind)
 * [akoenig1's Solution](https://github.com/akoenig1/oop_project/tree/master/mastermind)
 * [Vuyani's Solution](https://github.com/vuyanir/tictactoe)
+* [fussykyloren's Solution](https://github.com/fussykyloren/mastermind-v2) - [Play on repl.it](https://repl.it/github/fussykyloren/mastermind-v2)
 </details>
 
 ### Additional Resources
