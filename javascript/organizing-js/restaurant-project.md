@@ -172,4 +172,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/restaurant-page/settings) - [View in Browser](https://ozansozuozgit.github.io/restaurant-page/)
 - [Matyd's Solution](https://github.com/MatyD356/restaurant-page/tree/master) - [View in Browser](https://matyd356.github.io/restaurant-page/)
 - [Tristan Ross's Solution](https://github.com/TristanRoss/restaurant-page) - [View in Browser](https://tristanross.github.io/restaurant-page/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/restaurantpage) - [View in Browser](https://fortypercenttitanium.github.io/restaurantpage/)
 </details>
