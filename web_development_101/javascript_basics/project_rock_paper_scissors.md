@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Edwardo's solution](https://github.com/ed-web/RPC)
+- [Alisha Hwee's solution](https://github.com/alishahwee/rock-paper-scissors) - [View in Browser](https://alishahwee.github.io/rock-paper-scissors/)
 - [DavBio's solution](https://github.com/DavBio/rockPaperScissors) - [View in Browser](https://davbio.github.io/rockPaperScissors/)
 - [Parri's solution](https://github.com/parrithomas/rockpaperscissors)
 - [SebastiaanDXB's Solution](https://github.com/SebastiaanDXB/RPS) - [View in Browser](https://sebastiaandxb.github.io/RPS/)

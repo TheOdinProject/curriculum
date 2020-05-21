@@ -39,6 +39,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 1. If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running `webpack` the full bundled version of your site is available in the `dist` folder, but GH pages is looking for an index.html in the root directory of your project.
 
     1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
+    1. Recall that the __source branch__ for Github Pages is set in your repository's settings.
 </div>
 
 ### Student Solutions
@@ -172,4 +173,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/restaurant-page/settings) - [View in Browser](https://ozansozuozgit.github.io/restaurant-page/)
 - [Matyd's Solution](https://github.com/MatyD356/restaurant-page/tree/master) - [View in Browser](https://matyd356.github.io/restaurant-page/)
 - [Tristan Ross's Solution](https://github.com/TristanRoss/restaurant-page) - [View in Browser](https://tristanross.github.io/restaurant-page/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/restaurantpage) - [View in Browser](https://fortypercenttitanium.github.io/restaurantpage/)
 </details>
