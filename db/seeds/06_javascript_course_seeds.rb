@@ -33,18 +33,6 @@ section = create_or_update_section(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Problem Solving',
-  title_url: 'Problem Solving'.parameterize,
-  section_id: section.id,
-  position: lesson_position,
-  description: 'In this lesson we will explore how to approach solving programming problems.',
-  url: '/javascript/introduction/problem_solving.md',
-  repo: 'curriculum',
-  is_project: false
-)
-
-lesson_position += 1
-create_or_update_lesson(
   title: 'How this course will work',
   title_url: 'How this course will work'.parameterize,
   description: 'How this course will work',
@@ -53,6 +41,18 @@ create_or_update_lesson(
   is_project: false,
   url: '/javascript/introduction/introduction.md',
   repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Problem Solving',
+  title_url: 'Problem Solving'.parameterize,
+  section_id: section.id,
+  position: lesson_position,
+  description: 'In this lesson we will explore how to approach solving programming problems.',
+  url: '/javascript/introduction/problem_solving.md',
+  repo: 'curriculum',
+  is_project: false
 )
 
 lesson_position += 1
