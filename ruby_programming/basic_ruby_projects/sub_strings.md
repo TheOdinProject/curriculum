@@ -504,4 +504,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/substrings.rb)
 * [Justin's Solution](https://github.com/Justin-Meffs/ruby-projects/blob/master/sub_strings.rb)
 * [msespos's Solution](https://github.com/msespos/substrings/blob/master/substrings.rb)
+* [brentcam250's Solution](https://github.com/brentcam250/Ruby-practice/blob/master/substring/substring.rb)
 </details>
