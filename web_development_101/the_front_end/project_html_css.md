@@ -3399,6 +3399,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [sa3adrehman's solution (Easy)](https://sa3adrehman.github.io/google-homepage/) - [View in Browser](https://sa3adrehman.github.io/google-homepage/)
 * [Robert Woods' Solution (Easy)](https://github.com/robertssj2/google-homepage) - [View in Browser](https://Robertssj2.github.io/google-homepage/)
 * [Victor Orlunda's Solution (Easy)](https://github.com/dev-opus/google-homepage) - [View in Browser](https://dev-opus.github.io/google-homepage/)
+* [Jordan Perkins' Solution (Easy)](https://github.com/jordanperkins98/Google-Clone) - [View in Browser](https://jordanperkins98.github.io/Google-Clone/)
 </details>
 
 ### Additional Resources
