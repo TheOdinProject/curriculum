@@ -244,6 +244,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kenneth Holston's Solution](https://github.com/kholston/ruby_recursion/blob/master/fibonacci.rb)
 * [meganeb-afk's Solution](https://github.com/meganeb-afk/fib/blob/master/FIBO.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/recursion/blob/master/fibonacci.rb)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-recursion/tree/master/fibonacci)
 </details>
 
 ### Project: Merge Sort
@@ -494,6 +495,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Recursion/merge_sort.rb)
 * [Kenneth Holston's Solution](https://github.com/kholston/ruby_recursion/blob/master/merge_sort.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/recursion/blob/master/merge_sort.rb)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-recursion/tree/master/merge_sort)
 </details>
 
 ### Additional Resources
