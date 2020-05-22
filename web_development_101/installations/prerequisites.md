@@ -66,7 +66,7 @@ After completing the last step, click the **“Create”** button. Your new virt
  
 <img style="width:initial; padding: 0em;" src="https://i.imgur.com/WAW79ep.png" alt="The Xubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
-If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. <u>**All other settings should remain default.**</u>
+If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. **All other settings should remain default.**
 
 <img style="width:initial; padding: 0em;" src="https://i.imgur.com/qtJdmAo.png" alt="The Xubuntu System Settings Display window" title="This feature works surprisingly well">
 
@@ -101,16 +101,18 @@ While your VM is running, do the following steps:
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  6. Copy and paste this into the terminal and hit enter: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to.
+  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to.
   7. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
   8. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   9. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
   10. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
   11. Double-click on the CD icon on the VM desktop.
   12. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
-  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
-  14. Once it finishes, reboot your VM (which you can do by typing `reboot` and hitting enter).
-  15. You can now maximize the VM window, use the shared clipboard, and create additional displays, among many other useful features. These options are available on the VM toolbar under **View** and **Device**.
+  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter. You will know it is finished when it asks you to close the window.
+  14. Once it finishes, close the terminal and the CD folder.
+  15. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
+  16. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
+  17. You can now maximize the VM window, use the shared clipboard, and create additional displays, among many other useful features. These options are available on the VM toolbar under **View** and **Device**.
   
   **NOTE**: 
 
@@ -172,78 +174,15 @@ Installing Ubuntu is where the real changes start happening on your computer. Th
 For step-by-step instructions, please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
 
 </details>
-
-<details markdown="block">
-<summary class="dropDown-header">Windows 10 WSL (Not Supported)
-</summary>
   
-**Please note**: *Windows Subsystem for Linux is **not recommended** for those unfamiliar with Linux and advanced Windows features. Specifically, those unfamiliar with with the Command Line. Please consider installing Linux in a virtual machine or dual-boot*.
+**A note to those who are wondering why they're being asked to install an entire new operating system**
 
-Microsoft has recently made a shift towards embracing open source and providing more developer support. One of the biggest features they added with Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. With the exception of a few minor adjustments, once you have WSL up and running, you can essentially follow the Ubuntu instructions.
+Why is everyone who comes to The Odin Project 'forced' to switch to Linux or macOS for development? Are there *no* web developers out there who use Windows as their main operating system? 
 
-Having said that, setting up a development environment is not beginner friendly.  If you have run Linux environments in the past you will likely be able to get up and running, but if this is all new to you it is probably more trouble than it's worth.
+The answer to that question is: [well, not that many](https://onezero.medium.com/microsoft-failed-developers-and-now-it-has-a-plan-to-win-them-back-ecdafde5b20). One of the reasons is that Ruby (on Rails) and Node.js, popular backend technologies taught by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform. And while Apple's operating systems have all included the XNU kernel, originally based on the [FreeBSD flavor of UNIX](https://www.freebsd.org/) since the transition from System 9 to Mac OS X in 2001, Microsoft has only recently commited to embracing open source and providing more support for the way people approach web development today.   
 
-If you do choose to move forward with WSL, we recommend using VSCode as your text editor (we will get into text editors later), running with the "Remote - WSL" extension. This allows you to open your WSL files directly in the editor. The Linux subsystem is completely separate from your Windows subsystem and you will have to manually link them together otherwise.
+One of the biggest features added in Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. Setting up a development environment inside WSL is not beginner friendly, though, which is why The Odin Project chooses **not** to recommend and/or support this approach. All instructions you encounter here will assume you're running either MacOS or Linux. Using WSL with these instructions may cause problems we are not able to help you resolve. 
 
-The Odin Project has great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
+We do have great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
 
-If you'd like to move forward with WSL, despite the warning above, please see below for installation instructions.
 
-  <details markdown="block">
-  <summary class="dropDown-header">Windows Subsystem for Linux Directions
-  </summary>
-
-### Step 1: Install WSL
-
-Microsoft has made installing WSL super simple.
-
-* Open your Start menu and search for "Microsoft Store". Open the Store.
-* Enter "Ubuntu" in the search field of the Store. 
-* Click on the orange "Ubuntu 18.04" button and then click "Get".
-
-This will install WSL on your computer. The process will take about 10 minutes to complete, depending on your internet connection.
-
-Note: If you run into an error, follow the directions [here](https://aka.ms/wslinstall) to enable and install WSL.
-
-### Step 2: Start WSL
-
-WSL is nothing more than a Linux terminal inside Windows. To start the program, simply open your Start menu and search for "Ubuntu 18.04". The first time you run the program, you may get a message that says, "Installing. This may take a few minutes..." When it finishes, you will be asked to create a new username and password that will be used to log into WSL.
-
-*You can skip all of the following steps if you will be using VSCode with the "Remote - WSL" extension*
-
-### Step 3: Set Up Symbolic Link
-
-When Ubuntu was set up, your Windows file system (C:\ drive) was mapped to the `/mnt` directory in Ubuntu. To make your life much easier, we are going to set up a shortcut between your C:\ drive and your "Home" folder inside WSL.
-
-#### Step 3.1: Create a Projects Directory
-
-You can choose to put your project files anywhere you want, but to make your life easier, we recommend adding a Projects folder inside your Documents folder.
-
-From inside the Ubuntu terminal, type:
-
-~~~bash
-mkdir /mnt/c/Users/<Your Windows Username>/Documents/Projects
-~~~
-
-Be sure to replace `<Your Windows Username>` with your Windows username in the above code.
-
-#### Step 3.2: Create the Symbolic Link
-
-Next, we're going to establish a link to connect this new Projects folder to your WSL "Home" directory. This is important for many behind-the-scenes processes.
-
-Inside the Ubuntu terminal, type:
-
-~~~bash
-ln -s /mnt/c/Users/<your windows user name>/Documents/Projects ~/Projects
-~~~
-
-### Important Notes
-
-* Any projects created from the WSL terminal need to be placed inside the Projects directory.
-
-* Open all of your projects through the terminal. 
-
-* The WSL program files are well hidden, but it's super important that you do not edit these files from Windows. Altering these files will cause serious problems with your Ubuntu installation and possibly with your Windows installation.
-  </details>
-
-</details>

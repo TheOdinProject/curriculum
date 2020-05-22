@@ -38,8 +38,14 @@ Send us your solution so we can show others! Submit a link below to this [file](
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-
+   
 - Add your solution below this line!
+- [blackstate's Solution](https://github.com/blackstate/library) - [View in Browser](https://blackstate.github.io/library/)
+- [Mary Cheung's Solution (w/ firebase)](https://github.com/marybcheung/MyLibrary) - [View in Browser](https://marybcheung.github.io/MyLibrary/)
+- [John's Solution](https://github.com/jm-staana/Library) - [View in Browser](https://jm-staana.github.io/Library/)
+- [stefank's Solution(w/ local storage)](https://github.com/stefank-29/Library) - [View in Browser](https://stefank-29.github.io/Library/)
+- [mortvicious's Solution](https://github.com/mortvicious/library) - [View in Browser](https://mortvicious.github.io/library/)
+- [GERRG's Solution (w/ local storage)](https://github.com/gerrgg/gregslib) - [View in Browser](https://gerrgg.github.io/gregslib/)
 - [zhi-k's Solution (w/ firebase)](https://github.com/zhi-k/TOR_Library_App) - [View in Browser](https://zhi-k.github.io/TOR_Library_App/)
 - [shaneSC's Solution](https://github.com/shanesc/library) - [View in Browser](https://shanesc.github.io/library/)
 - [Ebru's Solution](https://github.com/naturelle/OdinBookList) - [View in Browser](https://naturelle.github.io/OdinBookList/)
@@ -266,6 +272,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [OmerGronich's Solution](https://github.com/OmerGronich/library-project) - [View in Browser](https://omergronich.github.io/library-project/)
 - [kasweigart's Solution](https://github.com/kasweigart/Library) - [View in Browser](https://kasweigart.github.io/Library/)
 - [kmson7's Solution](https://github.com/kmson7/library) - [View in Browser](https://kmson7.github.io/library/)
+- [Kevin Chemutai's Solution](https://github.com/kchemutai/Javascript-Library-App) - [View in Browser](https://kchemutai.github.io/Javascript-Library-App/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Library) - [View in Browser](https://m-rejdych.github.io/Library/)
 - [Nicholas Salvatore's Solution](https://github.com/nmsalvatore/the_odin_projects/tree/master/library_v2) - [View in Browser](https://nmsalvatore.github.io/library_v2/)
 - [Givemore's Solution](https://github.com/Givemo/Library_App) - [View in Browser](https://givemo.github.io/Library_App/)
@@ -275,7 +282,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [JCoen's Solution (w/localStorage)](https://github.com/J-coen/Odin-library-project) - [View in Browser](https://j-coen.github.io/Odin-library-project/)
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/library) - [View in Browser](https://ozansozuozgit.github.io/library/)
 - [kbrdsk's Solution (w/firebase)](https://github.com/kbrdsk/library) - [View in Browser](https://kbrdsk.github.io/library/)
+- [thorney29's Solution (w/localstorage)](https://github.com/thorney29/the_odin_project/tree/master/book-library) - [View in Browser](https://thorney29.github.io/the_odin_project/book-library/)
 - [Tristan Ross's Solution](https://github.com/TristanRoss/Library) - [View in Browser](https://tristanross.github.io/Library/)
 - [Danyl Matviyenko's Solution](https://github.com/DanylMatviyenko/TheOdinProject-LIBRARY-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-LIBRARY-/)
+- [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-library-project) - [View in Browser](https://adrieltrigger.github.io/top-library-project/)
+- [Eren Cataltepe's Solution](https://github.com/erencataltepe/library) - [View in Browser](https://erencataltepe.github.io/library/)
+- [Wil Goolsby's Solution](https://github.com/wgoolsby/library) - [View in Browser](https://wilgoolsby.com/library/)
 </details>
-

@@ -27,6 +27,10 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Haroon Abdulrazaq's Solution](https://github.com/DejazmachMolla/newyork_times) - [View in browser](https://dejazmachmolla.github.io/newyork_times/)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/nytimes-html) - [View in browser](https://jsalvadorpp.github.io/nytimes-html/)
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka/nytimesArticle) - [View in Browser](https://kaliberpoziomka.github.io/nytimesArticle/)
+* [Uduak Essien's solution](https://github.com/acushlakoncept/newyork_times_clone) - [View in Browser](https://acushlakoncept.github.io/newyork_times_clone/)
 * [Andrea's solution](https://github.com/fioriandrea/nyt-article) - [View in Browser](https://fioriandrea.github.io/nyt-article/)
 * [Mikael's solution](https://github.com/Mikearaya/new-york-times-clone) - [View in Browser](https://mikearaya.github.io/new-york-times-clone/)
 * [Julio's solution](https://github.com/julio22b/nyt-article-clone/) - [View in Browser](https://julio22b.github.io/nyt-article-clone/)
