@@ -21,6 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Christian's Solutions: [Caesar Cipher](https://github.com/rueeazy/ruby-building-blocks/tree/master/caesar-cipher), [Tic-Tac-Toe](https://github.com/rueeazy/OOP/tree/master/tic-tac-toe)
 * pudu87's Solutions: [Caesar Cipher](https://github.com/pudu87/ruby-exercises/tree/master/caesar-cipher), [Tic Tac Toe](https://github.com/pudu87/tic-tac-toe)
 * YesSeri's Solutions: [Caesar Cipher](https://github.com/YesSeri/caesar_cipher)
 * Olugbade Olalekan's Solutions: [Tic Tac Toe](https://github.com/gbadesimple/tic_tac_toe_implementation_tdd), [Enumerable Module](https://github.com/gbadesimple/enumerable_module_implementation_TDD), [Caesar Cipher](https://github.com/gbadesimple/caesar_cipher_implementation_TDD)
@@ -142,6 +143,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/connect_four)
 * [pudu87's Solution](https://github.com/pudu87/connect_four)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.connect_four)
 * [YesSeri's Solution](https://github.com/YesSeri/connect_four)

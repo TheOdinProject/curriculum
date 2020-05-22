@@ -27,6 +27,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sara's solution](https://github.com/Sarajvega/stock_picker)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/stock-picker)
+* [Richard's solution](https://github.com/RichardDenton/stock-picker)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/stock-picker)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/stock_picker.rb)
 * [Laurens' Solution](https://github.com/laurenskrom/TOPrubyprojects/blob/master/stockpicker.rb)
 * [Damian Tabor's Solution](https://github.com/blunt008/odin-project-ruby-basic-projects/blob/master/stock_picker/solution.rb)
@@ -498,4 +502,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/stock_picker.rb)
 * [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/stock-picker.rb)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/stock_picker.rb)
+* [msespos's Solution](https://github.com/msespos/stock_picker/blob/master/stock_picker.rb)
 </details>
