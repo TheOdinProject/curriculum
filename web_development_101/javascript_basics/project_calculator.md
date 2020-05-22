@@ -698,4 +698,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Spark's Solution](https://github.com/Sparking2/Calculator)
 - [Bryan L's Solution](https://github.com/bryanluu/TOP_calculator) - [View in Browser](https://bryanluu.github.io/TOP_calculator/)
 - [adilahmad321's Solution](https://github.com/adilahmad321/Calculator) - [View in Browser](https://adilahmad321.github.io/Calculator/)
+- [HelixF's Solution](https://github.com/HelixF/Calculator) - [View in Browser](https://helixf.github.io/Calculator/)
 </details>
