@@ -96,7 +96,7 @@ Otherwise print the current number
 ```
 
 #### Divide and Conquer (Implement)
-As we can see from the algorithm we developed, the first sub problem we can solve is getting input from the user. So let's start there and verity it works by printing the entered number.
+As we can see from the algorithm we developed, the first sub problem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
 
 With JavaScript, we'll use the "prompt" method.
 
