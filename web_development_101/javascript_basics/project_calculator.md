@@ -676,4 +676,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mangakiko's Solution](https://github.com/magakiko/Calculator) - [View in Browser](https://magakiko.github.io/Calculator/)
 - [alxmkh's Solution](https://github.com/alxmkh/calculator_js) - [View in Browser](https://alxmkh.github.io/calculator_js/)
 - [Bhenning83's Solution](https://github.com/bhenning83/calculator) - [View in Browser](https://bhenning83.github.io/calculator/)
+- [Kmt5422's Solution](https://github.com/kmt5422/calculator) - [View inb Browser](https://kmt5422.github.io/calculator/)
 </details>
