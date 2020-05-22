@@ -242,6 +242,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [guacamobley's Solution](https://github.com/guacamobley/re-former)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/re-former)
 * [Timework's Solution](https://github.com/Timework/re-former)
+* [Bendee's Solution](https://github.com/bendee48/rails-reformer)
 
 </details>
 
