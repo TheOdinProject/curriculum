@@ -32,6 +32,12 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Richard's solution](https://github.com/RichardDenton/pomodoro-clock) - [View in Browser](https://richarddenton.github.io/pomodoro-clock/)
+* [ChargrilledChook and MotorMouse's Solution](https://github.com/ChargrilledChook/pomodoro) - [View in Broswer](https://chargrilledchook.github.io/pomodoro/)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/pomodoro-timer) - [View in Browser](https://fillingthemoon.github.io/pomodoro-timer/)
+* [overdice solution](https://github.com/overd1ce/JavaScriptSimpleExercises/tree/master/pomodoro) - [View in Browser](https://overd1ce.github.io/JavaScriptSimpleExercises/pomodoro/index.html)
+* [Lam's Solution](https://github.com/lamdayap/pomodoro-project) - [View in Browser](https://lamdayap.github.io/pomodoro-project/)
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/pomodoro) - [View in Browser](https://andrsrz.github.io/pomodoro/)
 * [Laurens' Solution](https://github.com/laurenskrom/pomodoro) - [View in Browser](https://laurenskrom.github.io/pomodoro/)
 * [mortvicious's Solution](https://mortvicious.github.io/pomodoroclock/) - [View in Browser](https://mortvicious.github.io/pomodoroclock/)
 * [andrewjh271](https://github.com/andrewjh271) and [Aaron Contreras's](https://github.com/aaron-contreras) [Solution](https://github.com/andrewjh271/pomodoro) - [View in Browser](https://andrewjh271.github.io/pomodoro/)
@@ -241,6 +247,9 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [feseka's Solution](https://github.com/feseka61/chrono-tomato/) - [View in Browser](https://feseka61.github.io/chrono-tomato/)
 * [Dyrit's Solution](https://github.com/Dyrits/WEBDEV-TOP-PP) - [View in Browser](https://dyrits.github.io/WEBDEV-TOP-PP/)
 * [msespos's & dyskgo's Solution](https://github.com/msespos/pomodoro) - [View in Browser](https://msespos.github.io/pomodoro/)
+* [mkcvh's solution](https://github.com/mkcvh/pomodoro) - [View in Browser](https://mkcvh.github.io/pomodoro/)
+* [mangakiko's Solution](https://github.com/magakiko/Pomodoro-Timer) - [View in Browser](https://magakiko.github.io/Pomodoro-Timer/)
+* [jding9's Solution](https://github.com/jding9/pomodoro) - [View in Browser](https://jding9.github.io/pomodoro/)
 </details>
 
 ### Next Steps
