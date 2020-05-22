@@ -117,6 +117,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nestor's solution](https://github.com/nestor-c/Odin_Re-former)
 * [Jithin's Solution](https://github.com/jithindasad/re-former)
 * [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/reformer)
 * [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Rails/tree/master/re-former)
