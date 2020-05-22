@@ -92,6 +92,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's Solution](https://github.com/jamcry/flight-booker) - [Live on Heroku](https://dry-caverns-97659.herokuapp.com/)
 * [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [Live on Heroku](https://redux-flights.herokuapp.com/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/flight-booker)
+* [Timework's Solution](https://github.com/Timework/odin-flight-booker)
 
 </details>
 
