@@ -43,12 +43,12 @@ The last question is where you will write out an algorithm to solve the problem.
 #### Pseudo Code
 Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.
 
-Here's an example of what the pseudo code for a simple program that prints all numbers up to an entered number might look like:
+Here's an example of what the pseudo code for a simple program that prints all numbers up to an inputted number might look like:
 
 ```
 When the user inputs a number
 Initialize a counter variable and set its value to zero
-While counter is smaller than user entered number
+While counter is smaller than user inputted number
 Print the value of the counter variable
 ```
 
@@ -57,9 +57,9 @@ This is a very simple program to demonstrate how pseudo code looks. There will b
 ### Divide and Conquer
 From your planning, you should have identified some sub problems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are sub problems. Pick the smallest or simplest one and start there with coding.
 
-It's important to remember that you might not know all the steps that you might need up front so your algorithm may be incomplete — this is fine. Getting started with and solving one of the sub problems you have identified in the planning stage, often reveals the next sub problem you can work on. Or if you already know the next sub problem, is it’s often simpler with the first sub problem solved.
+It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete — this is fine. Getting started with and solving one of the sub problems you have identified in the planning stage, often reveals the next sub problem you can work on. Or if you already know the next sub problem, is it’s often simpler with the first sub problem solved.
 
-Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller, easier to solve sub problems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
+Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller, easier to solve sub problems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
@@ -67,7 +67,7 @@ In short, break the big problem down and solve each of the smaller problems unti
 To demonstrate this workflow in action lets solve a common programming exercise, [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz)
 
 #### Understanding The Problem
-> Write a program takes a user's input and prints the numbers from one to the number the user entered. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+> Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
