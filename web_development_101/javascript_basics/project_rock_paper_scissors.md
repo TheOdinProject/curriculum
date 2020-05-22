@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [CHANG-CHING-CHUNG 's solution](https://github.com/CHANG-CHING-CHUNG/rock-paper-scissors) - [View in Browser](https://chang-ching-chung.github.io/rock-paper-scissors/)
 - [acchang's solution](https://github.com/acchang/Rock-Paper-Scissors)
 - [Edwardo's solution](https://github.com/ed-web/RPC)
 - [Alisha Hwee's solution](https://github.com/alishahwee/rock-paper-scissors) - [View in Browser](https://alishahwee.github.io/rock-paper-scissors/)
