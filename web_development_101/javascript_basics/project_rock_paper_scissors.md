@@ -1608,6 +1608,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dzalee16's Solution](https://github.com/dzalee16/Rock_Paper_Scissors) - [View in Browser](https://dzalee16.github.io/Rock_Paper_Scissors/)
 - [Arindam-7's solution](https://github.com/Arindam-7/RockPaperScissor)
 - [ypc-dev's Solution](https://github.com/ypc-dev/rock-paper-scissors) - [View in Browser](https://ypc-dev.github.io/rock-paper-scissors/)
+- [aditditto's Solution](https://github.com/aditditto/rock-paper-scissors-site) - [View in Browser](https://aditditto.github.io/rock-paper-scissors-site/)
 </details>
 
 
