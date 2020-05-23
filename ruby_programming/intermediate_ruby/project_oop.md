@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sef Hill's Solution](https://github.com/Sef-Hill/NoughtsAndCrosses) - [View in repl.it](https://repl.it/@sefhill/NoughtsAndCrosses)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/tictactoe.rb)
 * [Edd Sansome's Solution](https://github.com/casualc0der/odin-ruby/tree/master/tictactoe)
 * [andrewjh271's Solution](https://github.com/andrewjh271/tic_tac_toe) - [View in repl.it](https://repl.it/@andrewjh271/tictactoe)
