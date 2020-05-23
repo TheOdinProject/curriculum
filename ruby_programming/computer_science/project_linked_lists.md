@@ -243,4 +243,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Kenneth Holston's Solution](https://github.com/kholston/linked_list)
 - [AnsellMaximilian's Solution (with extra credit)](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/linked_list.rb)
 - [fussykyloren's Solution (with extra credit)](https://github.com/fussykyloren/ruby-linked-list)
+- [ttzv's Solution (with extra credit)](https://github.com/ttzv-training-repos/ruby_cs_projects)
   </details>
