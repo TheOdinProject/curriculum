@@ -222,4 +222,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [unheavenlycreature's Solution (with extra credit)](https://github.com/unheavenlycreature/linkedlist)
 - [hyperturing's Solution (with extra credit)](https://github.com/hyperturing/linked-list)
 - [Rob Dulabon's Solution](https://github.com/RDulabon/linked_list)
+- [ttzv's Solution (with extra credit)](https://github.com/ttzv-training-repos/ruby_cs_projects)
   </details>
