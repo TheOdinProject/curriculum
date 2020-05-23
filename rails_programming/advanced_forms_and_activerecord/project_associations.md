@@ -1,6 +1,6 @@
 ### Introduction
 
-In these projects, you'll finally really get to dive into ActiveRecord's associations, one of the best features it offers.  The tutorial chapter will have you creating microposts for your users and the other project will give you a chance to add some more interesting associations to your previous work.
+In these projects, you'll finally really get to dive into ActiveRecord's associations, one of the best features it offers.
 
 ### Warmup: Thinking Data First
 
@@ -10,21 +10,7 @@ Lay out the data architecture you'd need to implement to build the following sce
 4. You like hosting people for dinner so you want to build a dinner party invitation site.  A user can create parties, invite people to a party, and accept an invitation to someone else's party.
 5. Extra credit (tricky): You and your friends just love posting things and following each other.  How would you set up the models so a user can follow another user?
 
-### Project 1: Ruby on Rails Tutorial
-
-This chapter of the tutorial begins the conceptual heavy lifting.  For beginners trying to plough through the tutorial, this is usually the beginning of the "I'm doing it but not understanding it" phase. Luckily, you've already learned everything that will be covered in the tutorial and this should be a great chance to see it in action as part of a real website.
-
-The basic gist of it is that, to have a microposting site like Twitter, you've got to actually have microposts.  Users create microposts, so you can surely expect that a User will `has_many` microposts.  With the association done, the rest is really just about setting up the correct views to display the microposts.
-
-As with the previous chapter, just make sure you're writing the test specs in the correct files and stick with it.  There's a lot of ground to cover but, again, the conceptual hurdles should be well within reach at this point.
-
-### Your Task
-
-<div class="lesson-content__panel" markdown="1">
-  * Do the [Ruby on Rails Tutorial Chapter 13](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/user_microposts), "User microposts".
-</div>
-
-### Project 2: Private Events
+### Project: Private Events
 
 You want to build a site similar to a private [Eventbrite](http://www.eventbrite.com) which allows users to create events and then manage user signups.  Users can create events and send invitations and parties (sound familiar?).  Events take place at a specific date and at a location (which you can just store as a string, like "Andy's House").
 
@@ -77,6 +63,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [CodingCop's Solution](https://github.com/cleve703/private-events)
+* [leetie's Solution](https://github.com/leetie/private-events) - [View in Browser](https://damp-ocean-10801.herokuapp.com/)
+* [Run After's Solution](https://github.com/run-after/private-events)
+* [Cristobal Becerra's Solution](https://github.com/powei94/private-events) - [View in Browser](https://sheltered-mountain-61366.herokuapp.com/)
 * [Duarte's Barebones Solution](https://github.com/Duartemartins/events-app)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/private-members)
 * [Joshua Aldridge's Solution](https://github.com/JFAldridge/private-events) - [View in Browser](https://fathomless-scrubland-74558.herokuapp.com/)
@@ -92,7 +82,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Austin Fisher's Solution](https://thawing-everglades-63943.herokuapp.com/)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/private-events) - [View in Browser](https://social-boost-app.herokuapp.com/)
 * [0zra's Solution](https://github.com/0zra/event-planner)
-* [Raiko's Solution](https://github.com/Cypher0/private-events) - [View in Browser](https://radiant-brook-28646.herokuapp.com/)
 * [Jmooree30's Solution](https://github.com/jmooree30/private-events.git) - [View in Broswer](https://sleepy-wildwood-90425.herokuapp.com/)
 * [theghall's Solution](https://github.com/theghall/odin-private-events.git)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/private-events)
@@ -167,6 +156,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's Solution](https://github.com/jamcry/private-events) - [View in Browser](https://gentle-journey-93500.herokuapp.com/)
 * [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/eventor) - [View in Browser](http://eventor-io.herokuapp.com/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/private-events)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/private-events)
+* [Timework's Solution](https://github.com/Timework/private-events)
 </details>
 
 ### Additional Resources

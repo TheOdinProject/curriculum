@@ -59,7 +59,7 @@ Build the following methods in your linked list class:
 
 1. `#insert_at(value, index)` that inserts the node with the provided `value` at the given `index`
 2. `#remove_at(index)` that removes the node at the given `index`. (You will need to update the links of your nodes in the list when you remove a node.)
-   </div>
+</div>
 
 ### Student Solutions
 
@@ -69,6 +69,19 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [qazaqpyn's Solution (with extra credit)](https://github.com/qazaqpyn/linkedlistruby)
+- [Nick DiPreta's Solution (with extra credit)](https://github.com/NickDiPreta/-linkedlist)
+- [Andrew Huntington's Solution (with extra credit)](https://github.com/AndrewHuntington/ruby_projects/tree/master/linked_lists)
+- [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Ruby_Linked_List/blob/master/bin/linked_list_demo.rb) - [View Demo](https://repl.it/@andrewbaldwin44/RubyLinkedList)
+- [Christian's Solution](https://github.com/rueeazy/ruby-exercises/blob/master/linked_list.rb)
+- [rryand's Solution (with extra credit)](https://github.com/rryand/ruby_linked_list/tree/master/classes)
+- [Saul-Good-Homie's Solution (with XC)](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/linked_list.rb)
+- [rlmoser's Solution](https://github.com/rlmoser99/ruby_exercises/tree/master/linked_list)
+- [pudu87's Solution](https://github.com/pudu87/linked-lists)
+- [Philipp's Solution (with extra credit)](https://github.com/philipp-mcvity/odin-ruby.linked_lists)
+- [YesSeri's Solution](https://github.com/YesSeri/linked-list/blob/master/linked-list.rb)
+- [Austin Fisher's Solution](https://github.com/Austin2016/linked_list)
+- [Lucas Bide's Solution (with extra credit)](https://github.com/Lucas-Bide/linked_list)
 - [DalandanJuice's Solution (with extra credit)](https://github.com/DalandanJuice/odin_cs_projects/blob/master/linked_lists/linked_lists.rb)
 - [jodokusquack's Solution (with extra credit)](https://github.com/jodokusquack/ruby_linked_list)
 - [Olugbade Olalekan's Solution (with extra credit)](https://github.com/gbadesimple/data_structure_linked_list)
