@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Alex's Solution](https://github.com/AlexJ-Cole/calcy) - [View in Browser](https://alexj-cole.github.io/calcy/)
 - [Frankie's Solution](https://github.com/frankie-njie/calculator) - [View in Browser](https://frankie-njie.github.io/calculator/)
 - [fviccia's Solution](https://github.com/fviccia/calculator) - [View in Browser](https://fviccia.github.io/calculator/)
 - [Chaitanya's Solution](https://github.com/Chaitanya-Raj/Calc.js) - [View in Browser](https://chaitanya-raj.github.io/Calc.js/)
