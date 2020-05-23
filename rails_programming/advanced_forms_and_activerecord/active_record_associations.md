@@ -22,7 +22,7 @@ If you're still shaky on basic associations, go back and check out the Associati
 
 When you create an association, Rails makes two major assumptions -- first, that the class of the model your association points to is based directly off of the name of the association, and, second, that the foreign key in any `belongs_to` relationship will be called `yourassociationname_id`.  Any time you go away from these defaults, you just need to let Rails know what kind of class to look for and which foreign key to use.
 
-A very simple case would be a User who can create many Posts for a blog::
+A very simple case would be a User who can create many Posts for a blog:
 
 ~~~ruby
   # app/models/user.rb
@@ -95,6 +95,28 @@ For example, perhaps we change the example above so a Post actually can have mul
     belongs_to :authored_post, class_name: "Post"
   end
 ~~~
+
+And our data model looks like:
+
+| **users**  |            |
+| ---------- | ---------- |
+| name       | *string*   |
+| created_at | *datetime* |
+| updated_at | *datetime* | 
+
+| **posts**  |            |
+| -----------| ---------- |
+| content    | *text*     |
+| editor_id  | *integer*  |
+| created_at | *datetime* |
+| updated_at | *datetime* |
+
+| **post_authorings**  |            |
+| -------------------- | ---------- |
+| authored_post_id     | *integer*  |
+| post_author_id       | *integer*  |
+| created_at           | *datetime* |
+| updated_at           | *datetime* |
 
 The major thing to note here is that with has-many-through associations, Rails uses *the name of the association in the through table* to determine which foreign key and table name to reach out to.  If it's named anything irregular, you'll use the `:source` option to specify which association actually points where we'd like to go.  You can think of `:source` as being just like `:class_name` but for the associations in the "through table".  
 
@@ -245,7 +267,8 @@ In this lesson we covered some of the more advanced associations material.  Asso
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
-* [An example of polymorphic associations](http://terenceponce.github.io/blog/2012/03/02/polymorphic-associations-in-rails-32/)
+* [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
+* [Understanding Polymorphic Associations in Rails](https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
 * [RailsCasts #154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
 * [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
 * [RailsCasts Pro #394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)

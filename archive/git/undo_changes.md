@@ -19,7 +19,7 @@ In this lesson you will learn all of the different ways you can undo changes wit
 * You know how to clean new files from your project with git
 
 ## Assignment
-1. Complete the second interactive lesson in Codecademys exellent Git course, [How to back track in git](https://www.codecademy.com/learn/learn-git) to get a feel for some of the basic ways to undo changes in Git.
+1. Complete the second interactive lesson in Codecademys excellent Git course, [How to back track in git](https://www.codecademy.com/learn/learn-git) to get a feel for some of the basic ways to undo changes in Git.
 2. Read through this [short tutorial from Atlassian](https://www.atlassian.com/git/tutorials/undoing-changes) which covers all you need to know about undoing changes in git.
 
 ## Additional Resources

@@ -26,7 +26,7 @@ The key players in this story will be the `upstream` (the original Github reposi
 
 1. Fork the original ("upstream") repository into your own Github account by using the "fork" button at the top of that repo's page on Github.
 2. Clone your forked repository onto your local machine using something like `$ git clone git@github.com:your_user_name_here/theodinproject.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on Github)
-3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on Github.  You will use this to push changes back up to Github.  You'll also want to be able to pull directly from the original repository on Github, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git`.
+3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on Github.  You will use this to push changes back up to Github.  You'll also want to be able to pull directly from the original repository on Github, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git` inside the project folder `theodinproject`.
 4. If this is your first time using git, don't forget to set your username and email using:
 
 ~~~bash
@@ -83,7 +83,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Git Immersion](http://gitimmersion.com/lab_01.html) is another great tutorial to learn the shortcuts of git.
 * [Contributing to Open Source](https://youtu.be/mENDYhfxH-o) is a tutorial video reviewing this lesson.
 
-Sometimes (okay, maybe a lot of times) when you're working with Git, something goes terribly wrong. Don't panic! Git is designed to help you recover from your misfortune. These resouces will help you get back on track towards version control nirvana:
+Sometimes (okay, maybe a lot of times) when you're working with Git, something goes terribly wrong. Don't panic! Git is designed to help you recover from your misfortune. These resources will help you get back on track towards version control nirvana:
 
 * [Oh sh!t git](http://ohshitgit.com/) is a quick reference to get you out of common Git problems.
 * This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.

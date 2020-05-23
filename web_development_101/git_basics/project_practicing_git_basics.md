@@ -16,11 +16,11 @@ By the end of this lesson, you should be able to do the following:
  - Explain how to look at the history of your previous commits from the command line.
 
 ### Assignment
-In this project, we'll walk through the basic Git workflow that you will use in all your projects. 
+In this project, we'll walk through the basic Git workflow that you will use in all your projects.
 
 #### Create the Repository
 
-1. You should have already created a GitHub account in [Project: Your First Rails App](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application). If you haven't done that yet, you can sign up [here](https://github.com/).
+1. You should have already created a GitHub account in the [Setting up Git](https://www.theodinproject.com/courses/web-development-101/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
   <a href="https://imgur.com/LURPUjP"><img class="tutorial-img" src="https://i.imgur.com/LURPUjP.png" title="source: imgur.com" /></a>
@@ -48,8 +48,8 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 1. Create a new file in the `git_test` folder called `hello_world.txt`. In the terminal, type `git status`, and notice `hello_world.txt` is not staged.
   <a href="https://imgur.com/0LDzazi"><img class="tutorial-img" src="https://i.imgur.com/0LDzazi.png" title="source: imgur.com" /></a>
 2. Open README.md in your text editor of choice and add the text "This is (YourUsername)'s first git project!" and then save the file.
-  <a href="http://imgur.com/a/2B4Lw"><img class="tutorial-img" src="http://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
-3. Back in your terminal, type `git status`, and notice that README.md is no longer staged.
+  <a href="https://imgur.com/a/2B4Lw"><img class="tutorial-img" src="https://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
+3. Back in your terminal, type `git status`, and notice that README.md is now shown as modified, and not staged or committed.  This is because you made a change to it, and it is already a tracked file.
   <a href="https://imgur.com/AlUO59b"><img class="tutorial-img" src="https://i.imgur.com/AlUO59b.png" title="source: imgur.com" /></a>
 4. Add README.md to the staging area with `git add README.md`.
 5. Can you guess what `git status` will output now? README.md will be displayed in green text, while hello_world.txt will still be in red. This means that only README.md has been added to the staging area.

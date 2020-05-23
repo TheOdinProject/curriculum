@@ -1,10 +1,17 @@
 ### Introduction
 
-Node is a JavaScript intreperter that doesn't run in the browser, there are many tools that require this to be installed. Testing frameworks and bundlers are two of many.
+Node is a JavaScript interpreter that doesn't run in the browser, there are many tools that require this to be installed. Testing frameworks and bundlers are two of many.
 
 We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change node versions and upgrade node.  There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in javascript environment.  It can be easy to confuse these two so read carefully!
 
 Node is also very easy to install using nvm, so this should go quickly :)
+
+### Step 0: Prerequisites For Linux
+To install NVM properly, you'll need `curl`. Simply run the command below:
+
+~~~bash
+sudo apt install curl
+~~~ 
 
 ### Step 1: Downloading and Installing `nvm`
 
@@ -23,7 +30,7 @@ This will install `nvm`
 In the terminal there should be some directions on how to initialize `nvm`, if not, (or you don't feel like copying from the terminal), run these commands:
 
 ~~~bash
-export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ~~~
 
@@ -34,7 +41,15 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ~~~
 
-if this returns `nvm: command not found` close the terminal and re-open it. Then try running the above command again. If you get anything else, you're good to continue!
+if this returns `nvm: command not found` close the terminal and re-open it.
+
+On OS X you may continue to see the same message. If this happens, open your .bash_profile and add the following line of code:
+~~~
+source ~/.bashrc
+~~~
+For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+
+Then try running the above command again. If you get anything else, you're good to continue!
 
 ### Step 2: Installing Node
 
@@ -48,7 +63,7 @@ Run:
 nvm install node
 ~~~
 
-This will install the most recent verson of node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
+This will install the most recent version of node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
 
 ~~~bash
 Downloading and installing node v12.6.0...
