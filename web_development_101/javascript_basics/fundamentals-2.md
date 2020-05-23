@@ -17,7 +17,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is nesting?
 * What are truthy and falsy values?
 * What are the falsy values in Javascript?
-* What is the syntax for an if/else if/else conditional?
+* What is the syntax for an if/else conditional?
 * What is the syntax for a switch statement?
 * What is the syntax for a ternary operator?
 * What is the relationship between null and undefined?
