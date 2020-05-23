@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor)
 - [Nathaniel's Solution](https://github.com/nthw11/rps/blob/master/index.html)
 - [Simonoob's Solution](https://github.com/Simonoob/rock-paper-scissors-game) - [View in Browser](https://codepen.io/SimoneBu/full/ExVeVWO)
 - [benjamin-gambling's Solution](https://github.com/benjamin-gambling/rock-paper-scissors)
