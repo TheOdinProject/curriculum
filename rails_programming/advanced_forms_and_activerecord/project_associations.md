@@ -63,6 +63,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [CodingCop's Solution](https://github.com/cleve703/private-events)
 * [leetie's Solution](https://github.com/leetie/private-events) - [View in Browser](https://damp-ocean-10801.herokuapp.com/)
 * [Run After's Solution](https://github.com/run-after/private-events)
 * [Cristobal Becerra's Solution](https://github.com/powei94/private-events) - [View in Browser](https://sheltered-mountain-61366.herokuapp.com/)

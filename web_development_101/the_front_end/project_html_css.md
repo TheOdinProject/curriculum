@@ -3401,6 +3401,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Victor Orlunda's Solution (Easy)](https://github.com/dev-opus/google-homepage) - [View in Browser](https://dev-opus.github.io/google-homepage/)
 * [Jordan Perkins' Solution (Easy)](https://github.com/jordanperkins98/Google-Clone) - [View in Browser](https://jordanperkins98.github.io/Google-Clone/)
 * [Louis Ruff's Solution (Easy)](https://github.com/Boknowpyro/google-homepage) - [View in Browser](https://boknowpyro.github.io/google-homepage/)
+* [Mo-coding's Solution (Easy)](https://github.com/Mo-coding/google-homepage) - [View in Browser](https://mo-coding.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
