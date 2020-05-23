@@ -19,9 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
-<<<<<<< HEAD
 * [Ylli's React Library](https://github.com/yllabazi/myLibrary-ReactJS) - [View in Browser](https://yllabazi.github.io/myLibrary-ReactJS/)
-=======
 * [Andrey's React To-Do list solution](https://andreyskopintsev.github.io/react-todo)
 * [Jdonahue135's React Library solution](https://github.com/jdonahue135/react-library)
 * [mjwills-inf's Vue Library solution](https://github.com/mjwills-inf/-TOP-library-vue) - [View in Browser](https://mjwills-inf.github.io/-TOP-library-vue/#/)
@@ -44,7 +42,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Solodov's Vue Solution](https://github.com/solodov-dev/todo-vue) - [View in Browser](https://solodov-dev.github.io/todo-vue/)
 * [Eljoey's React TodoList Solution](https://github.com/eljoey/React-todo-2) - [View in Browser](https://eljoey.github.io/React-todo-2/)
 * [Henry Kirya's Svelte Solution](https://github.com/harrika/library-svelte) - [View in Browser](https://harrika.github.io/library-svelte/)
->>>>>>> f4ec04f04a9993d9de707348726b544eb8075c3c
 * [ARaut9's React Library](https://github.com/ARaut9/book_library_react) - [View in Browser](https://araut9.github.io/book_library_react/)
 * [Jason McKee's Vue Library](https://github.com/jttmckee/vue-library) - [View in Browser](https://jttmckee.github.io/vue-library/)
 * [Andrew's Vue.js Solution](https://github.com/andrewr224/readersite) - [View in Browser](https://andrewr224.github.io/readersite/#/)
