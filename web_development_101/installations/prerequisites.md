@@ -66,7 +66,7 @@ After completing the last step, click the **“Create”** button. Your new virt
  
 <img style="width:initial; padding: 0em;" src="https://i.imgur.com/WAW79ep.png" alt="The Xubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
-If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. <u>**All other settings should remain default.**</u>
+If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. **All other settings should remain default.**
 
 <img style="width:initial; padding: 0em;" src="https://i.imgur.com/qtJdmAo.png" alt="The Xubuntu System Settings Display window" title="This feature works surprisingly well">
 
@@ -101,16 +101,18 @@ While your VM is running, do the following steps:
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  6. Copy and paste this into the terminal and hit enter: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to.
+  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to.
   7. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
   8. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   9. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
   10. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
   11. Double-click on the CD icon on the VM desktop.
   12. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
-  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
-  14. Once it finishes, reboot your VM (which you can do by typing `reboot` and hitting enter).
-  15. You can now maximize the VM window, use the shared clipboard, and create additional displays, among many other useful features. These options are available on the VM toolbar under **View** and **Device**.
+  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter. You will know it is finished when it asks you to close the window.
+  14. Once it finishes, close the terminal and the CD folder.
+  15. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
+  16. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
+  17. You can now maximize the VM window, use the shared clipboard, and create additional displays, among many other useful features. These options are available on the VM toolbar under **View** and **Device**.
   
   **NOTE**: 
 

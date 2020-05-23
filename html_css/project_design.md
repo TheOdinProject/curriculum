@@ -35,6 +35,9 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/design-teardown) - [View in Browser](https://jsalvadorpp.github.io/design-teardown/)
+* [Uduak Essien's solution](https://github.com/acushlakoncept/smashing-magazine) - [View in Browser](https://raw.githack.com/acushlakoncept/smashing-magazine/feature-home/index.html)
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka) - [View in Browser](https://kaliberpoziomka.github.io/visual-hierarchy-smashing-magazine/)
 * [Julio's solution](https://github.com/julio22b/greyscale-hierarchy-heatmap) - [View in Browser](https://julio22b.github.io/greyscale-hierarchy-heatmap/)
 * [Mikael's Solution](https://github.com/Mikearaya/smashing-magazine-heat-map) - [View in Browser](https://mikearaya.github.io/smashing-magazine-heat-map/)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/smashingUXgreyscale) - [View in Browser](https://amdrija.github.io/smashingUXgreyscale/)

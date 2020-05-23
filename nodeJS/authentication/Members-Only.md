@@ -26,6 +26,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+
+* [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/members-only) - [View in Browser](https://henriquesousa-members-only.herokuapp.com/)
 * [Igorashs's Solution](https://github.com/igorashs/members-only) - [View in Browser](https://enigmatic-harbor-15560.herokuapp.com/)
 * [Simon Fraipont's Solution](https://github.com/Sim-frpt/members-only) - [View in Browser](https://calm-castle-28467.herokuapp.com/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/members-only-node) - [View in browser](https://still-crag-16430.herokuapp.com/)

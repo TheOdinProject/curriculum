@@ -35,6 +35,8 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Haroon Abdulrazaq's Solution](https://github.com/paulzay/youtube) - [View in Browser](https://paulzay.github.io/youtube/)
+* [Mugilan's Solution](https://github.com/Mugilan-Codes/youtube-clone) - [View in Browser](https://mugilan-codes.github.io/youtube-clone/)
 * [Abdulaziz Ali's solution](https://github.com/abredi/youtube-clone) - [View in Browser](https://rawcdn.githack.com/abredi/youtube-clone/b5c8c05e6db13109e3118af097b7590c33b71587/index.html)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/youtube-html) - [View in browser](https://jsalvadorpp.github.io/youtube-html/)
 * [Billi0ns' Solution](https://github.com/Billi0ns/Youtube_clone) - [View in browser](https://billi0ns.github.io/Youtube_clone/)
@@ -185,6 +187,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [m-rejdych's solution](https://github.com/m-rejdych/Youtube-page) - [View in browser](https://m-rejdych.github.io/Youtube-page/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/youtube-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/youtube-clone/)
 * [Caosmagnvm's solution](https://github.com/caosmagnvm/youtube-homepage) - [View in Browser](https://caosmagnvm.github.io/youtube-homepage/)
+* [mangakiko's Solution](https://github.com/magakiko/Youtube-Videopage) - [View in Browser](https://magakiko.github.io/Youtube-Videopage/)
 </details>
 
 ### Additional Resources
