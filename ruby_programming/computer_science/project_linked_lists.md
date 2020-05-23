@@ -235,5 +235,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [unheavenlycreature's Solution (with extra credit)](https://github.com/unheavenlycreature/linkedlist)
 - [hyperturing's Solution (with extra credit)](https://github.com/hyperturing/linked-list)
 - [Rob Dulabon's Solution](https://github.com/RDulabon/linked_list)
+- [Timework's Solution (with extra credit)](https://github.com/Timework/linkedList/blob/master/list.rb)
+- [Cinthia's Solution (with extra credit)](https://github.com/cinthiagodoi/linked-lists)
+- [Matt M's Solution (with extra credit)](https://github.com/MattMiller1989/Linked-List)
+- [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/linked_list)
+- [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Linked_lists/LinkedList.rb)
+- [Kenneth Holston's Solution](https://github.com/kholston/linked_list)
+- [AnsellMaximilian's Solution (with extra credit)](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/linked_list.rb)
+- [fussykyloren's Solution (with extra credit)](https://github.com/fussykyloren/ruby-linked-list)
 - [ttzv's Solution (with extra credit)](https://github.com/ttzv-training-repos/ruby_cs_projects)
   </details>
