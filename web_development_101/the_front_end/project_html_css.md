@@ -93,6 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [PraifonD's solution (Easy)](https://github.com/PraifonD/google-homepage) - [View in Browser](https://praifond.github.io/google-homepage/) 
 * [Kurt Magsipoc-Wilson's solution (Easy)](https://github.com/kurtmw/google-homepage) - [View in Browser](https://kurtmw.github.io/google-homepage/) 
 * [invaderace's solution (Easy)](https://github.com/invaderace/google-homepage) - [View in Browser](https://invaderace.github.io/google-homepage/)
 * [donn-chan's solution (Hard)](https://donn-chan.github.io/google-results-page/) - [View in Browser](https://donn-chan.github.io/google-results-page/)
@@ -3397,6 +3398,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [constantinginga's solution (Easy)](https://github.com/constantinginga/google-homepage) - [View in Browser](https://constantinginga.github.io/google-homepage/)
 * [bradg4508's solution (Easy)](https://github.com/bradg4508/google-homepage) - [View in Browser](https://bradg4508.github.io/google-homepage/)
 * [sa3adrehman's solution (Easy)](https://sa3adrehman.github.io/google-homepage/) - [View in Browser](https://sa3adrehman.github.io/google-homepage/)
+* [Robert Woods' Solution (Easy)](https://github.com/robertssj2/google-homepage) - [View in Browser](https://Robertssj2.github.io/google-homepage/)
+* [Victor Orlunda's Solution (Easy)](https://github.com/dev-opus/google-homepage) - [View in Browser](https://dev-opus.github.io/google-homepage/)
+* [Jordan Perkins' Solution (Easy)](https://github.com/jordanperkins98/Google-Clone) - [View in Browser](https://jordanperkins98.github.io/Google-Clone/)
+* [Louis Ruff's Solution (Easy)](https://github.com/Boknowpyro/google-homepage) - [View in Browser](https://boknowpyro.github.io/google-homepage/)
+* [Mo-coding's Solution (Easy)](https://github.com/Mo-coding/google-homepage) - [View in Browser](https://mo-coding.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
