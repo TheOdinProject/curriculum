@@ -1,14 +1,14 @@
 ### Introduction
 
-React was created by facebook in 2013 to help with creating user interfaces. It quickly became a popular framework and many companies use it for their own web development needs. It is often used to create single page applications.
+React was created by Facebook in 2013 to help with creating user interfaces. It quickly became a popular framework and many companies use it for their own web development needs. It is often used to create single-page applications.
 
 ### Overview
 
-React is used most in conjunction with the react router to create single page web-applications that feel like multi-page websites. This can make websites feel very fast when a user does not have to wait for different pages to load. It can also reduce strain on the server by having the client render the requested web page for you. 
+React is used most in conjunction with the react router to create single-page web-applications that feel like multi-page websites. This can make websites feel very fast when a user does not have to wait for different pages to load. It can also reduce strain on the server by having the client render the requested web page for you. 
 
 This framework's most defining feature is its components. React was developed to be modular, and have easy to use 'parts' that can be plugged into different parts of your application. React heavily uses a syntax called **JSX**, which is an html like syntax for JavaScript (This can be used without react, as it is just syntactic sugar over creating DOM elements manually using `document.createElement('div')`, for example). Anything written in react is simply javascript, and can be treated as such. React stays performant by utilizing what they call a virtual DOM. The framework utilizes this virtual DOM by comparing it with the real DOM to tell which elements need to be updated and which ones do not. This keeps react fast. 
 
-React is not only limited to the web. React Native can be used to develop cross-platform mobile applications with the same languages you are familiar with in the web browser.
+React is not only limited to the web. React Native can be used to develop cross-platform mobile applications with the same languages you are familiar within the web browser.
 
 A note about Redux:
 
