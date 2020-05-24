@@ -161,7 +161,7 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 #### Step 3.1: Boot from the Flash Drive
 
-First, you need to boot Ubuntu on your flash drive. The exact steps may vary, but in general, you will need to do the following:
+First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
 * Insert the flash drive into the computer.
 * Reboot the computer.
