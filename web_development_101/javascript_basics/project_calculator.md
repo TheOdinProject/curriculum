@@ -47,6 +47,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [ThatOldChap's Solution](https://github.com/ThatOldChap/Calculator) - [View in Browser](https://thatoldchap.github.io/Calculator/)
 - [VitsenYL's](https://github.com/vitsenyl/calculator) - [View in Browser](https://vitsenyl.github.io/calculator/)
+- [Gael's Solution](https://github.com/lungla-gael/Calculator) - [View in Browser](https://lungla-gael.github.io/Calculator/)
+- [VitsenYL's Solution](https://github.com/vitsenyl/calculator) - [View in Browser](https://vitsenyl.github.io/calculator/)
 - [Kristopher Sach's Solution](https://github.com/risma-labs/js-calculator) - [View in Browser](https://risma-labs.github.io/js-calculator/)
 - [Alex's Solution](https://github.com/AlexJ-Cole/calcy) - [View in Browser](https://alexj-cole.github.io/calcy/)
 - [Frankie's Solution](https://github.com/frankie-njie/calculator) - [View in Browser](https://frankie-njie.github.io/calculator/)
@@ -706,4 +708,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Bryan L's Solution](https://github.com/bryanluu/TOP_calculator) - [View in Browser](https://bryanluu.github.io/TOP_calculator/)
 - [adilahmad321's Solution](https://github.com/adilahmad321/Calculator) - [View in Browser](https://adilahmad321.github.io/Calculator/)
 - [HelixF's Solution](https://github.com/HelixF/Calculator) - [View in Browser](https://helixf.github.io/Calculator/)
+- [ypc-dev's Solution](https://github.com/ypc-dev/calculator) - [View in Browser](https://ypc-dev.github.io/calculator/)
 </details>
