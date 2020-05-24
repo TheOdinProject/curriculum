@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ThatOldChap's Solution](https://github.com/ThatOldChap/Calculator) - [View in Browser](https://thatoldchap.github.io/Calculator/)
+- [VitsenYL's](https://github.com/vitsenyl/calculator) - [View in Browser](https://vitsenyl.github.io/calculator/)
 - [Gael's Solution](https://github.com/lungla-gael/Calculator) - [View in Browser](https://lungla-gael.github.io/Calculator/)
 - [VitsenYL's Solution](https://github.com/vitsenyl/calculator) - [View in Browser](https://vitsenyl.github.io/calculator/)
 - [Kristopher Sach's Solution](https://github.com/risma-labs/js-calculator) - [View in Browser](https://risma-labs.github.io/js-calculator/)
