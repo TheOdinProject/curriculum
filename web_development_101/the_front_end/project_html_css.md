@@ -3406,6 +3406,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Mo-coding's Solution (Easy)](https://github.com/Mo-coding/google-homepage) - [View in Browser](https://mo-coding.github.io/google-homepage/)
 * [Caleb's Solution (Easy)](https://github.com/sparechange169/google-homepage) - [View in Browser](https://sparechange169.github.io/google-homepage/)
 * [Falc0n89's Solution (Easy)] (https://github.com/Falc0n89/google-homepage) - [View in Browser] (https://falc0n89.github.io/google-homepage/)
+* [Toyosil Solution](https://github.com/Toyosil/google-homepage) - [View in Browser](https://toyosil.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
