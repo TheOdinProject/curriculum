@@ -1614,7 +1614,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [aditditto's Solution](https://github.com/aditditto/rock-paper-scissors-site) - [View in Browser](https://aditditto.github.io/rock-paper-scissors-site/)
 - [victor orlund's solution] (https://github.com/dev-opus/RPS) - [View in Browser] 
 (https://dev-opus.github.io/RPS/)
-[Superboy20's Solution](https://github.com/Superboy20/RockPaperScissorTOP)
+- [Superboy20's Solution](https://github.com/Superboy20/RockPaperScissorTOP)
 </details>
 
 
