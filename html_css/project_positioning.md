@@ -140,6 +140,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-nyt-page-clone) - [View in Browser](https://adrieltrigger.github.io/top-nyt-page-clone/)
 * [Veskenazi's Solution](https://github.com/veskenazi/new-york-times-article-clone) - [View in Browser](https://veskenazi.github.io/new-york-times-article-clone/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/nyt_article_clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/nyt_article_clone/)
+* [jamesredux's solution](https://github.com/Jamesredux/nytimes-page) - [View in Browser](https://jamesredux.github.io/nytimes-page/)
 
 </details>
 
