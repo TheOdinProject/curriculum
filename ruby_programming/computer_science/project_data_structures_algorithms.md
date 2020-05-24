@@ -227,6 +227,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Timework's Solution](https://github.com/Timework/search_tree/blob/master/tree.rb)
 * [Cinthia's Solution](https://github.com/cinthiagodoi/binary_search_tree)
 * [Matt M's Solution](https://github.com/MattMiller1989/Binary-Tree)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-data-structures/tree/master/binary-search-tree)
 </details>
 
 ### Project 2: Knight's Travails
