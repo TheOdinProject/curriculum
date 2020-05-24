@@ -112,7 +112,7 @@ numbers.any? { |number| item < 20 }
 #=> false
 ~~~
 
-### The `#all?` Method
+### The all? Method
 The `all?` method is also fairly intuitive. It only returns `true` if *all* the elements in your array or hash match the condition you set within the block; otherwise, it will return `false`.
 
 Let's say that we want to check whether all the words in our list are more than 6 characters long. First,let's see how we could achieve this using `#each`:
