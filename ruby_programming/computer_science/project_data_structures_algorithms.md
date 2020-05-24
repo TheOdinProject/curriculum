@@ -444,4 +444,5 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/knight_moves)
 * [Timework's Solution](https://github.com/Timework/knight/blob/master/knight.rb)
 * [Rob Dulabon's Solution](https://github.com/RDulabon/Knight_Travails)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-data-structures/tree/master/knights-travail)
 </details>
