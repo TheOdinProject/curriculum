@@ -164,6 +164,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Predicate Enumerable Methods",
+  title_url: "Predicate Enumerable Methods".parameterize,
+  description: "In this lesson we will explore more enumerable methods that return true or false against a collection of data.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby/predicate_enumerable_methods.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Methods",
   title_url: "Methods".parameterize,
   description: "In this lesson we will explore how to make your code more modular with methods.",
