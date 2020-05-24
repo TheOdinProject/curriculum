@@ -1020,4 +1020,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [ypc-dev's Solution](https://github.com/ypc-dev/etch-a-sketch) - [View in Browser](https://ypc-dev.github.io/etch-a-sketch/)
 * [tim87henry's Solution](https://github.com/tim87henry/etch_a_sketch) - [View in Browser](https://tim87henry.github.io/etch_a_sketch/)
 * [christian-ortega's Solution](https://github.com/christian-ortega/etch-a-sketch) - [View in Browser](https://christian-ortega.github.io/etch-a-sketch/)
+* [Matt DeCesare's Solution](https://github.com/mdecesare13/etch-a-sketch) - [View in Browser](https://mdecesare13.github.io/etch-a-sketch/)
 </details>

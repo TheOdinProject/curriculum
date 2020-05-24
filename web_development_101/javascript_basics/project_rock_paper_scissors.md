@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ciaran Concannon's Solution](https://github.com/cjcon90/rock-paper-scissors) - [View in Browser](https://cjcon90.github.io/rock-paper-scissors/)
 - [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor)
 - [HadrienLap's solution](https://github.com/HadrienLap/rock-paper-scissors) - [View in Browser](https://hadrienlap.github.io/rock-paper-scissors/)
 - [smtjong's solution](https://github.com/smtjong/rock-paper-scissors) - [View in Browser](https://smtjong.github.io/rock-paper-scissors/)
@@ -1612,6 +1613,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Arindam-7's solution](https://github.com/Arindam-7/RockPaperScissor)
 - [ypc-dev's Solution](https://github.com/ypc-dev/rock-paper-scissors) - [View in Browser](https://ypc-dev.github.io/rock-paper-scissors/)
 - [aditditto's Solution](https://github.com/aditditto/rock-paper-scissors-site) - [View in Browser](https://aditditto.github.io/rock-paper-scissors-site/)
+- [victor orlund's solution] (https://github.com/dev-opus/RPS) - [View in Browser] 
+(https://dev-opus.github.io/RPS/)
+- [Superboy20's Solution](https://github.com/Superboy20/RockPaperScissorTOP)
+- [jugnugs's Solution](https://github.com/jugnugs/rock-paper-scissors)
 </details>
 
 
