@@ -69,6 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Loumarven's Solution (with extra credit)](https://github.com/loumarven/top_ruby_linked_lists)
 - [qazaqpyn's Solution (with extra credit)](https://github.com/qazaqpyn/linkedlistruby)
 - [Nick DiPreta's Solution (with extra credit)](https://github.com/NickDiPreta/-linkedlist)
 - [Andrew Huntington's Solution (with extra credit)](https://github.com/AndrewHuntington/ruby_projects/tree/master/linked_lists)
