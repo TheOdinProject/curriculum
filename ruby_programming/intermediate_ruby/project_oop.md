@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sef Hill's Solution](https://github.com/Sef-Hill/NoughtsAndCrosses) - [View in repl.it](https://repl.it/@sefhill/NoughtsAndCrosses)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/tictactoe.rb)
 * [Edd Sansome's Solution](https://github.com/casualc0der/odin-ruby/tree/master/tictactoe)
 * [andrewjh271's Solution](https://github.com/andrewjh271/tic_tac_toe) - [View in repl.it](https://repl.it/@andrewjh271/tictactoe)
 * [Matt Fergoda's Solution](https://github.com/mattfergoda/tic-tac-toe) - [View in repl.it](https://repl.it/@mattfergoda/tic-tac-toe)
@@ -384,6 +386,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [andrewjh271's Solution](https://github.com/andrewjh271/mastermind) - [View in repl.it](https://mastermind.andrewjh271.repl.run/)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Mastermind) - [View in repl.it](https://repl.it/github/Kfollen93/Mastermind)
+* [Edd Sansome's Solution (15% win rate AI)](https://github.com/casualc0der/odin-ruby/tree/master/mastermind)
 * [Ichenn's Solution](https://github.com/Ichenn92/mastermind) - [View in repl.it](https://mastermind.ichenn92.repl.run)
 * [Matt Fergoda's Solution](https://github.com/mattfergoda/mastermind) - [View in repl.it](https://repl.it/@mattfergoda/mastermind)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/OOP-project/tree/master/mastermind) - [View in repl.it](https://repl.it/@TenaciousQi/mastermind)
@@ -650,6 +655,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matt M's Solution](https://github.com/MattMiller1989/Mastermind)
 * [akoenig1's Solution](https://github.com/akoenig1/oop_project/tree/master/mastermind)
 * [Vuyani's Solution](https://github.com/vuyanir/tictactoe)
+* [fussykyloren's Solution](https://github.com/fussykyloren/mastermind-v2) - [Play on repl.it](https://repl.it/github/fussykyloren/mastermind-v2)
 </details>
 
 ### Additional Resources
