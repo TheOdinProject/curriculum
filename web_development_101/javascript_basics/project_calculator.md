@@ -705,4 +705,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Bryan L's Solution](https://github.com/bryanluu/TOP_calculator) - [View in Browser](https://bryanluu.github.io/TOP_calculator/)
 - [adilahmad321's Solution](https://github.com/adilahmad321/Calculator) - [View in Browser](https://adilahmad321.github.io/Calculator/)
 - [HelixF's Solution](https://github.com/HelixF/Calculator) - [View in Browser](https://helixf.github.io/Calculator/)
+- [ypc-dev's Solution](https://github.com/ypc-dev/calculator) - [View in Browser](https://ypc-dev.github.io/calculator/)
 </details>
