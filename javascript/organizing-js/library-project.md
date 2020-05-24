@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Salvador Villalon's Solution (w/ Firebase)](https://github.com/salvillalon45/theOdinProject-Library) - [View in Browser](https://salvillalon45.github.io/theOdinProject-Library/)
+- [jcai's Solution](https://github.com/jcai8649/TOP-Library) - [View in Browser](https://jcai8649.github.io/TOP-Library/)
 - [blackstate's Solution](https://github.com/blackstate/library) - [View in Browser](https://blackstate.github.io/library/)
 - [Mary Cheung's Solution (w/ firebase)](https://github.com/marybcheung/MyLibrary) - [View in Browser](https://marybcheung.github.io/MyLibrary/)
 - [John's Solution](https://github.com/jm-staana/Library) - [View in Browser](https://jm-staana.github.io/Library/)
@@ -287,4 +289,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Danyl Matviyenko's Solution](https://github.com/DanylMatviyenko/TheOdinProject-LIBRARY-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-LIBRARY-/)
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-library-project) - [View in Browser](https://adrieltrigger.github.io/top-library-project/)
 - [Eren Cataltepe's Solution](https://github.com/erencataltepe/library) - [View in Browser](https://erencataltepe.github.io/library/)
+- [Wil Goolsby's Solution](https://github.com/wgoolsby/library) - [View in Browser](https://wilgoolsby.com/library/)
+- [adilahmad321's Solution](https://github.com/adilahmad321/Library) - [View in Browser](https://adilahmad321.github.io/Library/)
 </details>
