@@ -361,6 +361,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/tic_tac_toe)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/tic-tac-toe.rb)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-tic-tac-toe)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/tic_tac_toe/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@abohannon/ruby-sandbox#projects/tic_tac_toe/tic_tac_toe.rb)
 </details>
 
 ### Project 2: Mastermind
