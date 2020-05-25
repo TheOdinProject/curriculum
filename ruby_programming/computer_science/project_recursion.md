@@ -279,6 +279,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Edd Sansome's solution](https://github.com/casualc0der/odin-ruby/blob/master/odin_cs/merge_sort.rb)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/merge_sort)
 * [threeaces' Solution](https://github.com/threeaces/recursion_ruby_TOP/blob/master/merge_sort.rb)  
 * [qazaqpyn's Solution](https://repl.it/@qazaqpyn/ThornyWealthyDatalogs)
