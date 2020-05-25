@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to do the following:
  - Describe what a predicate enumerable method is.
  - Explain how the `#include?` method works.
  - Explain how the `#any?` method works.
- - Explain how the `#any?` method works.
+ - Explain how the `#all?` method works.
  - Explain how the `#none?` method works.
 
 ### The include? Method
