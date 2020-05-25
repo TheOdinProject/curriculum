@@ -1617,6 +1617,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 (https://dev-opus.github.io/RPS/)
 - [Superboy20's Solution](https://github.com/Superboy20/RockPaperScissorTOP)
 - [jugnugs's Solution](https://github.com/jugnugs/rock-paper-scissors)
+- [ParchedPanda's Solution](https://github.com/ParchedPanda/rock-paper-scissors-odin-1)
 </details>
-- [ParchedPanda's Solution] (https://github.com/ParchedPanda/rock-paper-scissors-odin-1)
+
 
