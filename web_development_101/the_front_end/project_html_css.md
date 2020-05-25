@@ -93,6 +93,10 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [INTJBrandon's solution (Easy)](https://github.com/INTJBrandon/google_homepage) - [View in Browser](https://intjbrandon.github.io/google_homepage/)
+* [PraifonD's solution (Easy)](https://github.com/PraifonD/google-homepage) - [View in Browser](https://praifond.github.io/google-homepage/) 
+* [Kurt Magsipoc-Wilson's solution (Easy)](https://github.com/kurtmw/google-homepage) - [View in Browser](https://kurtmw.github.io/google-homepage/) 
+* [invaderace's solution (Easy)](https://github.com/invaderace/google-homepage) - [View in Browser](https://invaderace.github.io/google-homepage/)
 * [donn-chan's solution (Hard)](https://donn-chan.github.io/google-results-page/) - [View in Browser](https://donn-chan.github.io/google-results-page/)
 * [donn-chan's solution (Easy)](https://donn-chan.github.io/google-homepage/) - [View in Browser](https://donn-chan.github.io/google-homepage/)
 * [CHANG-CHING-CHUNG's solution (Hard)](https://chang-ching-chung.github.io/google-search-result-page/) - [View in Browser](https://chang-ching-chung.github.io/google-search-result-page/)
@@ -3390,6 +3394,22 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [fleur's solution (Easy)](https://github.com/fleurlocke/google-homepage) - [View in Browser](https://fleurlocke.github.io/google-homepage/)
 * [Bliguy's solution (Easy)](https://github.com/bliguy/google-homepage) - [View in Browser](https://bliguy.github.io/google-homepage/)
 * [mrbuddh4's solution (Easy)](https://github.com/mrbuddh4/google-homepage) - [View in Browser](https://mrbuddh4.github.io/google-homepage/)
+* [gitliffi's solution (Easy)](https://github.com/gitliffi/google_homepage) - [View in Browser](https://gitliffi.github.io/google_homepage/)
+* [yuliaux's solution (Easy)](https://github.com/yuliaux/google-homepage) - [View in Browser](https://yuliaux.github.io/google-homepage/)
+* [constantinginga's solution (Easy)](https://github.com/constantinginga/google-homepage) - [View in Browser](https://constantinginga.github.io/google-homepage/)
+* [bradg4508's solution (Easy)](https://github.com/bradg4508/google-homepage) - [View in Browser](https://bradg4508.github.io/google-homepage/)
+* [sa3adrehman's solution (Easy)](https://sa3adrehman.github.io/google-homepage/) - [View in Browser](https://sa3adrehman.github.io/google-homepage/)
+* [Robert Woods' Solution (Easy)](https://github.com/robertssj2/google-homepage) - [View in Browser](https://Robertssj2.github.io/google-homepage/)
+* [Victor Orlunda's Solution (Easy)](https://github.com/dev-opus/google-homepage) - [View in Browser](https://dev-opus.github.io/google-homepage/)
+* [Jordan Perkins' Solution (Easy)](https://github.com/jordanperkins98/Google-Clone) - [View in Browser](https://jordanperkins98.github.io/Google-Clone/)
+* [Louis Ruff's Solution (Easy)](https://github.com/Boknowpyro/google-homepage) - [View in Browser](https://boknowpyro.github.io/google-homepage/)
+* [Mo-coding's Solution (Easy)](https://github.com/Mo-coding/google-homepage) - [View in Browser](https://mo-coding.github.io/google-homepage/)
+* [Caleb's Solution (Easy)](https://github.com/sparechange169/google-homepage) - [View in Browser](https://sparechange169.github.io/google-homepage/)
+* [Falc0n89's Solution (Easy)](https://github.com/Falc0n89/google-homepage) - [View in Browser](https://falc0n89.github.io/google-homepage/)
+* [Falc0n89's Solution (Easy)](https://github.com/Falc0n89/google-homepage) - [View in Browser](https://falc0n89.github.io/google-homepage/)
+* [Toyosil Solution](https://github.com/Toyosil/google-homepage) - [View in Browser](https://toyosil.github.io/google-homepage/)
+* [HUe1998's Solution](https://github.com/HUe1998/google_homepage) - [View in Browser](https://hue1998.github.io/google_homepage/)
+* [liampc's Solution](https://github.com/liampc/google-homepage) - [View in Browser](https://liampc.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
