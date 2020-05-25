@@ -71,6 +71,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/odin-flight-booker)
 * [Duarte's simple solution](https://github.com/Duartemartins/flight-booker)
 * [robo-monk's Solution](https://github.com/robo-monk/odin-flights) - [View in Browser](https://infinite-ridge-41115.herokuapp.com/)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_flight_booker) - [View in Browser](https://ovsjazz-odin-flight-booker.herokuapp.com/)
