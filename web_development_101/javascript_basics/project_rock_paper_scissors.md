@@ -1618,4 +1618,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jugnugs's Solution](https://github.com/jugnugs/rock-paper-scissors)
 - [ParchedPanda's Solution](https://github.com/ParchedPanda/rock-paper-scissors-odin-1)
 - [Noah Snider's Solution](https://github.com/nosnider/rock_paper_scissors)
+- [constantinginga's Solution](https://github.com/constantinginga/rock-paper-scissors)
 </details>
