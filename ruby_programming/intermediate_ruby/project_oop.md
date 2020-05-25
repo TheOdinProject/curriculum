@@ -387,7 +387,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [fillingthemoon's Solution] (https://github.com/fillingthemoon/mastermind)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/mastermind)
 * [andrewjh271's Solution](https://github.com/andrewjh271/mastermind) - [View in repl.it](https://mastermind.andrewjh271.repl.run/)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Mastermind) - [View in repl.it](https://repl.it/github/Kfollen93/Mastermind)
 * [Edd Sansome's Solution (15% win rate AI)](https://github.com/casualc0der/odin-ruby/tree/master/mastermind)
