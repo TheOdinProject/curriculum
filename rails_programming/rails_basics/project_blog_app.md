@@ -482,6 +482,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/tree/master/web-dev-101/blogger)
 * [Veskenazi's Solution](https://github.com/veskenazi/blogger-app) - [View in Browser](https://morning-crag-79127.herokuapp.com/)
 * [tomstrat's Solution](https://github.com/tomstrat/ruby_blogger) - [View in Browser](https://dry-peak-20557.herokuapp.com/)
+* [Robert Suazo's Solution](https://github.com/rsuazo/blogger) - [View in Browser](https://vast-bastion-98472.herokuapp.com/)
+* [Bendee's Solution](https://github.com/bendee48/rails-blog) - [View in Browser](https://still-citadel-27600.herokuapp.com/articles)
 </details>
 
 ### Additional Resources
