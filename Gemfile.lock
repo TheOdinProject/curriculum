@@ -73,7 +73,7 @@ GEM
     arbre (1.2.1)
       activesupport (>= 3.0.0)
     ast (2.4.0)
-    autoprefixer-rails (9.7.5)
+    autoprefixer-rails (9.7.6)
       execjs
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
@@ -92,7 +92,7 @@ GEM
     bindex (0.8.1)
     binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
-    bootstrap (4.4.1)
+    bootstrap (4.5.0)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
