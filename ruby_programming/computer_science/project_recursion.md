@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/fibonacci)
 * [tenacious qi's Solution](https://github.com/Tenacious-Qi/fibonacci-methods/blob/master/fibonacci.rb)
 * [Edd Sansome's Solution (Dirty one liners)](https://github.com/casualc0der/odin-ruby/blob/master/odin_cs/fibonacci.rb)
 * [threeaces' Solution](https://github.com/threeaces/recursion_ruby_TOP/blob/master/fibonacci.rb)  
@@ -278,6 +279,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/merge_sort)
 * [threeaces' Solution](https://github.com/threeaces/recursion_ruby_TOP/blob/master/merge_sort.rb)  
 * [qazaqpyn's Solution](https://repl.it/@qazaqpyn/ThornyWealthyDatalogs)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/merge_sort/blob/master/merge_sort.rb)
