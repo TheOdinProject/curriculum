@@ -438,7 +438,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
-    uglifier (3.2.0)
+    uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
@@ -528,7 +528,7 @@ DEPENDENCIES
   timecop
   toastr-rails
   turbolinks
-  uglifier (~> 3.0)
+  uglifier (~> 4.2)
   vcr (~> 5.1)
   web-console
   webmock (~> 3.8)
