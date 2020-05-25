@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/tic-tac-toe)
 * [Edd Sansome's Solution](https://github.com/casualc0der/odin-ruby/tree/master/tictactoe)
 * [andrewjh271's Solution](https://github.com/andrewjh271/tic_tac_toe) - [View in repl.it](https://repl.it/@andrewjh271/tictactoe)
 * [Matt Fergoda's Solution](https://github.com/mattfergoda/tic-tac-toe) - [View in repl.it](https://repl.it/@mattfergoda/tic-tac-toe)
@@ -384,6 +385,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fillingthemoon's Solution] (https://github.com/fillingthemoon/mastermind)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Mastermind) - [View in repl.it](https://repl.it/github/Kfollen93/Mastermind)
 * [Edd Sansome's Solution (15% win rate AI)](https://github.com/casualc0der/odin-ruby/tree/master/mastermind)
 * [Ichenn's Solution](https://github.com/Ichenn92/mastermind) - [View in repl.it](https://mastermind.ichenn92.repl.run)
