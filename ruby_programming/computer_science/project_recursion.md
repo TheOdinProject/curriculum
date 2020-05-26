@@ -1,4 +1,4 @@
-ls### Warmup: Fibonacci
+### Warmup: Fibonacci
 
 The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which sums each number with the one before it, is a great example of a problem that can be solved recursively.
 
