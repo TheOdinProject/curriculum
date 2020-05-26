@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to do the following:
  - Describe what a predicate enumerable method is.
  - Explain how the `#include?` method works.
  - Explain how the `#any?` method works.
- - Explain how the `#any?` method works.
+ - Explain how the `#all?` method works.
  - Explain how the `#none?` method works.
 
 ### The include? Method
@@ -161,7 +161,7 @@ fruits.all? { |fruit| fruit.length > 6 }
 #=> false
 ~~~
 
-Special note to keep in mind while debugging: `#all?` will return `true` be default unless the block returns `false` or `nil`. So if you call `#all?` on an empty array or hash (i.e., there are no elements  for the block to evaluate), it will return `true`.
+Special note to keep in mind while debugging: `#all?` will return `true` by default unless the block returns `false` or `nil`. So if you call `#all?` on an empty array or hash (i.e., there are no elements  for the block to evaluate), it will return `true`.
 
 ### The none? Method
 As you might expect, `#none?` performs the opposite function of `#all?`. It returns `true` only if the condition in the block matches *none* of the elements in your array or hash; otherwise, it returns `false`.

@@ -36,6 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kevin Beall's Solution](https://github.com/kevinbeall/The-Odin-Project/tree/master/BasicInformationalSite) - [View in Browser](https://LongPossibleProspect--five-nine.repl.co)
 - [Julio's solution](https://github.com/julio22b/basic-informational-site) - [View in Browser](https://repl.it/@julio22b/ProudIntentionalTasks)
 - [Thanusha Jakkula's Solution](https://github.com/ThanushaJ/basic-nodejs-website) - [View in Browser](https://repl.it/github/ThanushaJ/basic-nodejs-website)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/basic-node-site) - [View in Browser](https://repl.it/@braxtonlemmon/basic-node-site-3)
@@ -79,4 +80,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Carlos Del Real's Solution](https://github.com/carloshdelreal/simple-node-website) - [View in Browser](https://repl.it/@carloshdelreal/simple-node-website-2)
 - [Hamohuh's Solution](https://github.com/hamohuh/simple-node) - [View in Browser](https://TragicCaringCustomization--five-nine.repl.co)
 - [barrysweeney's Solution](https://github.com/barrysweeney/node-basic-site) - [View in Browser](https://node-basic-site-2.barrysweeney.repl.co/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/node-sample) - [View In Browser](https://repl.it/@ranmaru22/OdinProjectSampleNodeFile)
 </details>

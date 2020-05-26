@@ -93,6 +93,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [pklepa's solution (Easy)](https://github.com/pklepa/google-homepage) - [View in Browser](https://pklepa.github.io/google-homepage/)
+* [AnthonyKuang's Solution (Easy)](https://github.com/AnthonyKuang/google-homepage) - [View in Browser](https://anthonykuang.github.io/google-homepage/)
 * [INTJBrandon's solution (Easy)](https://github.com/INTJBrandon/google_homepage) - [View in Browser](https://intjbrandon.github.io/google_homepage/)
 * [PraifonD's solution (Easy)](https://github.com/PraifonD/google-homepage) - [View in Browser](https://praifond.github.io/google-homepage/) 
 * [Kurt Magsipoc-Wilson's solution (Easy)](https://github.com/kurtmw/google-homepage) - [View in Browser](https://kurtmw.github.io/google-homepage/) 
@@ -3405,7 +3407,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Louis Ruff's Solution (Easy)](https://github.com/Boknowpyro/google-homepage) - [View in Browser](https://boknowpyro.github.io/google-homepage/)
 * [Mo-coding's Solution (Easy)](https://github.com/Mo-coding/google-homepage) - [View in Browser](https://mo-coding.github.io/google-homepage/)
 * [Caleb's Solution (Easy)](https://github.com/sparechange169/google-homepage) - [View in Browser](https://sparechange169.github.io/google-homepage/)
-* [Falc0n89's Solution (Easy)] (https://github.com/Falc0n89/google-homepage) - [View in Browser] (https://falc0n89.github.io/google-homepage/)
+* [Falc0n89's Solution (Easy)](https://github.com/Falc0n89/google-homepage) - [View in Browser](https://falc0n89.github.io/google-homepage/)
+* [Falc0n89's Solution (Easy)](https://github.com/Falc0n89/google-homepage) - [View in Browser](https://falc0n89.github.io/google-homepage/)
+* [Toyosil Solution](https://github.com/Toyosil/google-homepage) - [View in Browser](https://toyosil.github.io/google-homepage/)
+* [HUe1998's Solution](https://github.com/HUe1998/google_homepage) - [View in Browser](https://hue1998.github.io/google_homepage/)
+* [liampc's Solution](https://github.com/liampc/google-homepage) - [View in Browser](https://liampc.github.io/google-homepage/)
+* [olicox7's Solution](https://github.com/olicox7/google-homepage) - [View in Browser](https://olicox7.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
