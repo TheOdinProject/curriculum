@@ -28,6 +28,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Julio's solution](https://github.com/julio22b/inventory-application) - [View in browser](https://inventory-app-top.herokuapp.com/catalog/)
 - [Simon's Solution](https://github.com/Sim-frpt/music-shop-inventory) - [View in Browser](https://agile-springs-42318.herokuapp.com/inventory/)
 - [Brian Tuju's Solution](https://github.com/briantuju/op-inventory-app) - [View in browser](https://op-inventory-app--briantuju.repl.co/)
 - [Igorashs's Solution](https://github.com/igorashs/inventory-application) - [View in Browser](https://nameless-harbor-47929.herokuapp.com/catalog)
