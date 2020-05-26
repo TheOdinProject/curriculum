@@ -274,6 +274,7 @@ connect_four)
 * [Hyperturing's Solution](https://github.com/hyperturing/connectfour)
 * [Robert Suazo's Solution](https://github.com/rsuazo/connect_four)
 * [Timework's Solution](https://github.com/Timework/connect)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-connect-four) - [Play on Repl.it](https://repl.it/@fussykyloren/ruby-connect-four)
 </details>
 
 ### Additional Resources
