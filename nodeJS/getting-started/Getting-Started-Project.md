@@ -81,4 +81,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Hamohuh's Solution](https://github.com/hamohuh/simple-node) - [View in Browser](https://TragicCaringCustomization--five-nine.repl.co)
 - [barrysweeney's Solution](https://github.com/barrysweeney/node-basic-site) - [View in Browser](https://node-basic-site-2.barrysweeney.repl.co/)
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/node-sample) - [View In Browser](https://repl.it/@ranmaru22/OdinProjectSampleNodeFile)
+- [Theodore Kelechukwu Onyejiaku's Solution](https://a-simple-nodejs-website-1--theodore1250.repl.co/)
 </details>
