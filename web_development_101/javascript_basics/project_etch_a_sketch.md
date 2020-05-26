@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Christoph's Solution](https://github.com/vertskater/sketchpad) - [View in Browser](https://vertskater.github.io/sketchpad/)
 * [BernH4's Solution](https://github.com/BernH4/etch-a-sketch) - [View in Browser](https://bernh4.github.io/etch-a-sketch/)
 * [adamperrry's Solution](https://github.com/adamperrry/etch-a-sketch) - [View in Browser](https://adamperrry.github.io/etch-a-sketch/)
 * [vitsenYL's Solution](https://github.com/vitsenyl/etch-a-sketch/tree/master) - [View in Browser](https://vitsenyl.github.io/etch-a-sketch/)
