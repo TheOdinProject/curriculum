@@ -25,7 +25,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+<<<<<<< HEAD
 - [Nathan's Solution](https://github.com/NathanJReidy/TicTacToe) - [View in Browser](https://nathanjreidy.github.io/TicTacToe/)
+=======
+- [jcai's Solution](https://github.com/jcai8649/tic-tac-toe) - [View in Browser](https://jcai8649.github.io/tic-tac-toe/)
+>>>>>>> 3bb5b6c72db5dd8b4e28f3c7d97e5bc1312f3d1a
 - [blackstate's Solution](https://github.com/blackstate/tic-tac-toe) - [View in Browser](https://blackstate.github.io/tic-tac-toe/)
 - [syeo-1's Solution](https://github.com/syeo-1/tictactoe) - [View in Browser](https://syeo-1.github.io/tictactoe/)
 - [mortvicious's Solution](https://github.com/mortvicious/tic-tac-toe) - [View in Browser](https://mortvicious.github.io/tic-tac-toe/)
@@ -197,4 +201,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-tictactoe) - [View in Browser](https://adrieltrigger.github.io/top-tictactoe/)
 - [kmson7's Solution](https://github.com/kmson7/ticTacToe) - [View in Browser](https://kmson7.github.io/ticTacToe/)
 - [Tristan Ross's Solution](https://github.com/TristanRoss/tic-tac-toe) - [View in Browser](https://tristanross.github.io/tic-tac-toe/)
+- [adilahmad321's Solution](https://github.com/adilahmad321/Tic-Tac-Toe) - [View in Browser](https://adilahmad321.github.io/Tic-Tac-Toe/)
 </details>
