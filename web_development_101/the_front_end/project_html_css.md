@@ -93,7 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Davidvm1's Solution (Easy)](https://davidvm1.github.io/google-homepage-exercise)
+* [Davidvm1's Solution (Easy)](https://github.com/davidvm1/google-homepage-exercise) - [View in Browser](https://davidvm1.github.io/google-homepage-exercise)
 * [Pirategunk's Solution (Easy)](https://github.com/Pirategunk/google-homepage) - [View in Browser](https://pirategunk.github.io/google-homepage/)
 * [Marcela13's Solution (Easy)](https://github.com/Marcela13/google-homepage) - [View in Browser](https://marcela13.github.io/google-homepage/)
 * [Mohammed Sibahi's Solution (Easy)](https://github.com/Mohammed-Sibahi/google-homepage) - [View in Browser](https://mohammed-sibahi.github.io/google-homepage/)
