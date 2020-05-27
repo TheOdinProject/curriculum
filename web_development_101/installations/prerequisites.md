@@ -18,6 +18,10 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
   
 Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://i.imgur.com/EjSLkCZ.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
 
+#### Step 1.0: Watch this video
+
+[This video](https://youtu.be/yIVXjl4SwVo "What is a Virtual Machine (VM)? In 3 minutes - Virtual Machine Tutorial for Beginners - By Victor Dozal") is linked on the previous lesson, but just in-case you missed it, here it is again. It explains exactly what a Virtual Machine is and futher cements our **IMPORTANT** statement above this step.
+
 #### Step 1.1: Download VirtualBox
 
 [Click here](https://www.virtualbox.org/wiki/Downloads "VirtualBox Downloads") and download VirtualBox for Windows hosts.
