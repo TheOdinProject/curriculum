@@ -717,4 +717,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [HelixF's Solution](https://github.com/HelixF/Calculator) - [View in Browser](https://helixf.github.io/Calculator/)
 - [ypc-dev's Solution](https://github.com/ypc-dev/calculator) - [View in Browser](https://ypc-dev.github.io/calculator/)
 - [hamparmin's Solution](https://github.com/hamparmin/calculator) - [View in Browser](https://hamparmin.github.io/calculator/)
+- [Chow Jia Ying's Solution](https://github.com/C-likethis123/calculator) - [View in Browswer](https://c-likethis123.github.io/calculator)
 </details>
