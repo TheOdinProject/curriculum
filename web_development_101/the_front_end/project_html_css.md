@@ -93,7 +93,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-[kylecunningham's solution (Easy)](https://github.com/kylecunningham88/google-hompage) [View in Browser] (https://kylecunningham88.github.io/google-homepage/)
+* [kylecunningham's solution (Easy)](https://github.com/kylecunningham88/google-hompage) - [View in Browser](https://kylecunningham88.github.io/google-homepage/)
 * [Pirategunk's solution (Easy)](https://github.com/Pirategunk/google-homepage) - [View in Browser](https://pirategunk.github.io/google-homepage/)
 * [Marcela13's solution (Easy)](https://github.com/Marcela13/google-homepage) - [View in Browser](https://marcela13.github.io/google-homepage/)
 * [Mohammed Sibahi's Solution (Easy)](https://github.com/Mohammed-Sibahi/google-homepage) - [View in Browser](https://mohammed-sibahi.github.io/google-homepage/)
