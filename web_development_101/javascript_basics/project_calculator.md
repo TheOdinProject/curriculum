@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
--[Blaze Vincent's Solution](https://github.com/blaze-vincent/calculator-odin/) - [View in Browser](https://blaze-vincent.github.io/calculator-odin)
+- [Blaze Vincent's Solution](https://github.com/blaze-vincent/calculator-odin/) - [View in Browser](https://blaze-vincent.github.io/calculator-odin)
 - [Sam Eff's Solution](https://github.com/SamEff/Calculator)
 - [Tilda Udufo's Solution](https://github.com/TildaDares/Calculator) - [View in Browser](https://tildadares.github.io/Calculator/)
 - [Ryan Ameri's Solution](https://github.com/RyanAmeri/odin-project-calculator) - [View in Browser](https://ryanameri.github.io/odin-project-calculator/index.html)
