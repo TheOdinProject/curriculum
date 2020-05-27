@@ -10,7 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_27_171828) do
+
+ActiveRecord::Schema.define(version: 2020_05_24_130452) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -87,11 +88,13 @@ ActiveRecord::Schema.define(version: 2020_04_27_171828) do
 
   create_table "projects", id: :serial, force: :cascade do |t|
     t.string "repo_url"
-    t.string "live_preview"
+    t.string "live_preview_url"
     t.integer "user_id"
     t.integer "lesson_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "is_public", default: true, null: false
+    t.index ["is_public"], name: "index_projects_on_is_public"
     t.index ["lesson_id"], name: "index_projects_on_lesson_id"
     t.index ["user_id", "lesson_id"], name: "index_projects_on_user_id_and_lesson_id", unique: true
     t.index ["user_id"], name: "index_projects_on_user_id"

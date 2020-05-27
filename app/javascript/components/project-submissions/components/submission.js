@@ -7,7 +7,7 @@ const Submission = ({submission}) =>
       <div className="submissions__actions">
         <a href={""} className="submissions__button">View Code</a>
         <a href={""} className="submissions__button">Live Preview</a>
-        <a href={""} className="submissions__report"><i class="fas fa-flag"></i></a>
+        <a href={""} className="submissions__report"><i className="fas fa-flag"></i></a>
       </div>
     </div>
 

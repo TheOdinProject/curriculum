@@ -17,23 +17,6 @@ RSpec.describe Project, type: :model do
 
   it do
     is_expected.to validate_presence_of(:repo_url)
-      .with_message('must start with http://github.com/ or https://github.com/')
-  end
-
-  it do
-    is_expected.to allow_values(
-      'https://github.com/username/repo_name',
-      'http://github.com/username/repo_name'
-    ).for(:repo_url)
-  end
-
-  it do
-    is_expected.not_to allow_values(
-      'url',
-      'www.github.com',
-      'http://github.com',
-      'https://github.com'
-    ).for(:repo_url)
   end
 
   describe '#upvote_for' do

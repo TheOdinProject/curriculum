@@ -10,7 +10,7 @@ const ProjectSubmissions = ({ submissions, course, lesson }) => (
 ProjectSubmissions.propTypes = {
   submissions: PropTypes.array.isRequired,
   lesson: PropTypes.object.isRequired,
-  course: PropTypes.object.is_required,
+  course: PropTypes.object.isRequired,
 };
 
 export default ProjectSubmissions;

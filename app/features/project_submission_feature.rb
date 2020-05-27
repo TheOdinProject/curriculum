@@ -1,5 +1,5 @@
 class ProjectSubmissionFeature
   def self.enabled?
-    false
+    Rails.env.development?
   end
 end

@@ -1,9 +1,15 @@
 .form {
   padding-top: 1em;
-  
+
   &__section {
     margin-bottom: 20px;
     position: relative;
+
+    &--right-aligned {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
   }
 
   &__button-section {
