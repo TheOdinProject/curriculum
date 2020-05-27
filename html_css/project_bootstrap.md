@@ -25,6 +25,11 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/newsweek-bootstrap) - [View in Browser](https://kaliberpoziomka.github.io/newsweek-bootstrap/)
+* [Rarysson's Solution](https://github.com/rarysson/newsweek-clone) - [View in Browser](https://rarysson.github.io/newsweek-clone/)
+* [Estela's Solution](https://github.com/estelajimero/using-bootstrap/) - [View in Browser](https://estelajimero.github.io/using-bootstrap/)
+* [Julio's solution](https://github.com/julio22b/newsweek-bootstrap) - [View in Browser](https://julio22b.github.io/newsweek-bootstrap/)
+* [Mikael's Solution](https://github.com/mikearaya/newsweek-clone) - [View in Browser](https://mikearaya.github.io/newsweek-clone/)
 * [Johongirr's Solution](https://github.com/Johongirr/the-nextweb) - [View in Browser](https://johongirr.github.io/the-nextweb/)
 * [Sebastian Gil's Solution](https://github.com/lBuggie/newsweek) - [View in Browser](https://rawcdn.githack.com/lBuggie/newsweek/e3056048ef59b0f7aa621cdabf0235fe2f16b7ca/index.html)
 * [Igorashs's Solution](https://github.com/igorashs/using-bootstrap) - [View in Browser](https://igorashs.github.io/using-bootstrap/)
@@ -81,6 +86,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Aron's solution](https://github.com/aronfischer/bootstrap-newsweek-homepage) - [View in Browser](https://aronfischer.github.io/bootstrap-newsweek-homepage/)
 * [Halkim's solution](https://github.com/halkim44/newsweek.com_clone) - [View in Browser](https://halkim44.github.io/newsweek.com_clone/)
 * [Hamohuh's solution](https://github.com/hamohuh/newsmagazine) - [View in Browser](https://hamohuh.github.io/newsmagazine/)
+* [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/newsweek-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/newsweek-clone/)
 
 </details>
 
