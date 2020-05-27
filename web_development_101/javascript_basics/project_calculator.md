@@ -45,6 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Blaze Vincent's Solution](https://github.com/blaze-vincent/calculator-odin/) - [View in Browser](https://blaze-vincent.github.io/calculator-odin)
+- [Sam Eff's Solution](https://github.com/SamEff/Calculator)
+- [Tilda Udufo's Solution](https://github.com/TildaDares/Calculator) - [View in Browser](https://tildadares.github.io/Calculator/)
+- [Ryan Ameri's Solution](https://github.com/RyanAmeri/odin-project-calculator) - [View in Browser](https://ryanameri.github.io/odin-project-calculator/index.html)
+- [Harold's Solution](https://github.com/harold-guido/calculator) - [View in Browser](https://harold-guido.github.io/calculator/)
 - [Foolmonkey's Solution](https://github.com/foolmonkey/calculator) - [View in Browser](https://foolmonkey.github.io/calculator/)
 - [DavBio's Solution](https://github.com/DavBio/Calculator) - [View in Browser](https://davbio.github.io/Calculator/)
 - [ThatOldChap's Solution](https://github.com/ThatOldChap/Calculator) - [View in Browser](https://thatoldchap.github.io/Calculator/)
@@ -712,4 +717,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [HelixF's Solution](https://github.com/HelixF/Calculator) - [View in Browser](https://helixf.github.io/Calculator/)
 - [ypc-dev's Solution](https://github.com/ypc-dev/calculator) - [View in Browser](https://ypc-dev.github.io/calculator/)
 - [hamparmin's Solution](https://github.com/hamparmin/calculator) - [View in Browser](https://hamparmin.github.io/calculator/)
+- [Chow Jia Ying's Solution](https://github.com/C-likethis123/calculator) - [View in Browswer](https://c-likethis123.github.io/calculator)
 </details>
