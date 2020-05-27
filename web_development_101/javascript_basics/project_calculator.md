@@ -93,7 +93,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Chun's Solution](https://github.com/ashchunfai/calculator) - [View in Browser](https://ashchunfai.github.io/calculator)
 - [Justasdap's Solution](https://github.com/JustasDap/calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/JustasDap/calculator/blob/master/index.html)
 - [Cristian's Solution](https://github.com/cristianCeamatu/jscalculator) - [View in Browser](https://cristianceamatu.github.io/jscalculator/)
-- [hieu-ng's Solution](https://github.com/hieu-ng/Javascript-Calculator) — [View in Browser](https://github.com/hieu-ng/JavaScript-Calculator)
+- [hieu-ng's Solution](https://github.com/hieu-ng/Javascript-Calculator) — [View in Browser](https://hieu-ng.github.io/JavaScript-Calculator)
 - [Nathan's Solution](https://github.com/NathanJReidy/Calculator) - [View in Browser](https://nathanjreidy.github.io/Calculator/)
 - [stefank-29's Solution](https://github.com/stefank-29/Calculator) - [View in Browser](https://stefank-29.github.io/Calculator/)
 - [Aaron Contreras's Solution](https://github.com/aaron-contreras/calculator) - [View in Browser](https://aaron-contreras.github.io/calculator)
