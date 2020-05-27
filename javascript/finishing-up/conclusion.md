@@ -15,7 +15,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [jQuery Mobile from learn.jquery.com](http://learn.jquery.com/jquery-mobile/)
 * [An Android development tutorial from CodeLearn](http://www.codelearn.org/android-tutorial)
 * [PAID training webcasts on pretty much anything](https://www.bitcast.io/)
-* [Giant meta-list of screencasts by Avdi Grimm](http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/)
+* [Giant meta-list of screencasts by Avdi Grimm](https://www.rubytapas.com/2016/06/30/new-list-programming-screencast-series/)
 * [appendTo's Javascript track (incomplete)](http://learn.appendto.com/lesson/javascript-101)
 * [Front End Programming best practices from betterfrontend](http://betterfrontend.com/)
 * [D3 and other visualization tool examples](http://tributary.io)

@@ -41,6 +41,8 @@ If you can't pinpoint the problem, you can share a **screenshot**. This is espec
 
 If the puzzle still can't be solved, push your project to GitHub or put your code in a [repl.it](https://repl.it/) so that others can comb through and debug the code. You'll learn all about GitHub very soon.
 
+Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
+
 ### Formatting your questions
 
 Asking your questions in a readable format helps everyone debug them better. Here are some ways to go about that:
@@ -90,7 +92,7 @@ Your Colorful Code
 <div class="lesson-content__panel" markdown="1">
 
   1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
-  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). Jump in and introduce yourself in the [introductions category](https://forum.theodinproject.com/c/introductions). Tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code. We also have [forum categories](https://forum.theodinproject.com/categories) for asking for help, working on Odin, and hanging out. 
-  3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
+  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). The primary use of the forum is to seek help within the community. We used to encourage introductions on there so you may see a lot of old introduction posts when you login for the first time but that meant a lot of questions for help got buried and went unanswered. We encourage introductions in the chat rooms and both the chat rooms and forum be used when seeking help.
+  3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
 
 </div>

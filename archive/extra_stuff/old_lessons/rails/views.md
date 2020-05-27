@@ -227,3 +227,4 @@ Views in general make up the user-facing side of your app.  It can be a bit tric
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+* Using [Postman](https://www.postman.com/), this [video](https://vimeo.com/168501163) from Vimeo shows what changes in your request if you render different types of information, such as rendering json, HTML and so on.
