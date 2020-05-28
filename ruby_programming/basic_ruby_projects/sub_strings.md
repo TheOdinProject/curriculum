@@ -34,6 +34,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gael's Solution](https://github.com/lungla-gael/sub-strings)
 * [Ranno L's Solution](https://github.com/RannoL/sub_strings/blob/master/sub_strings.rb)
 * [Aaron's Solution](https://github.com/Aaron-McD/substrings)
 * [leddins's Solution](https://github.com/leddins/sub_strings)
