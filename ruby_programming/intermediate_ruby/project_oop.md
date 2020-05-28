@@ -19,6 +19,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Richard's Solution](https://github.com/RichardDenton/tic-tac-toe) - [View in repl.it](https://repl.it/@RichardDenton/tic-tac-toe)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/tic-tac-toe) - [View in repl.it](https://repl.it/@HappyFrog/tic-tac-toe#.replit)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/tic-tac-toe)
 * [lrdvnz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/blob/master/tic_tac_toe.rb) 
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/tic-tac-toe)
 * [Sef Hill's Solution](https://github.com/Sef-Hill/NoughtsAndCrosses) - [View in repl.it](https://repl.it/@sefhill/NoughtsAndCrosses)
@@ -27,7 +30,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [andrewjh271's Solution](https://github.com/andrewjh271/tic_tac_toe) - [View in repl.it](https://repl.it/@andrewjh271/tictactoe)
 * [Matt Fergoda's Solution](https://github.com/mattfergoda/tic-tac-toe) - [View in repl.it](https://repl.it/@mattfergoda/tic-tac-toe)
 * [Peter Meglis's Solution](https://github.com/petermeglis/ruby/tree/master/theodinproject/tic_tac_toe)
-* [Ichenn's Solution](https://github.com/Ichenn92/tic-tac-toe) - [Vew in repl.it](https://repl.it/@Ichenn92/tic-tac-toe)
+* [Ichenn's Solution](https://github.com/Ichenn92/tic-tac-toe) - [Vew in repl.it](https://tic-tac-toe.ichenn92.repl.run/)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Tic_Tac_Toe)
 * [Mikael's Solution](https://mikearaya.github.io/tic-tac-toe) - [Vew in repl.it](https://repl.it/@MichaelAraya1/tic-tac-toe)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/tic_tac_toe) - [Vew in repl.it](https://repl.it/@NickDiPreta/tictactoe-2)

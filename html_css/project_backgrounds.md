@@ -133,6 +133,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [themetar's Solution](https://github.com/themetar/apple-frontpage-mockup) - [View in Browser](https://themetar.github.io/apple-frontpage-mockup/)
 * [Veskenazi's Solution](https://github.com/veskenazi/apple-homepage-clone) - [View in Browser](https://veskenazi.github.io/apple-homepage-clone/)
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/old-apple-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/old-apple-clone/)
+* [jamesredux's Solution](https://github.com/Jamesredux/apple-clone) - [View in Browser](https://jamesredux.github.io/apple-clone/)
 
 </details>
 
