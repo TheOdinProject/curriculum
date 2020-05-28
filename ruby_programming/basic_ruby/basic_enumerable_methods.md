@@ -241,7 +241,7 @@ friends.select { |friend| friend != 'Brian' }
  #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
 
-Now that we've cut out Brian, we can send out the invites! Let's say that the friends who you invited to your party have gotten back to you, and their responses are all recorded in a hash. Let's use `#select` to see who's coming. Recall that when you use an emumerable method with a hash, you need to set up block variables for both the key and the value:
+Now that we've cut out Brian, we can send out the invites! Let's say that the friends who you invited to your party have gotten back to you, and their responses are all recorded in a hash. Let's use `#select` to see who's coming. Recall that when you use an enumerable method with a hash, you need to set up block variables for both the key and the value:
 
 ~~~ruby
 responses = { 'Sharon' => 'yes', 'Leo' => 'no', 'Leila' => 'no', 'Arun' => 'yes' }
@@ -383,7 +383,7 @@ As you'll recall from the Methods lesson, **bang methods** can be easily identif
 It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep that in mind when making the decision to use bang methods.
 
 ### Return Values of Enumerables
-So if it's not a good idea to use bang methods but we need to re-use the result of a enumerable method throughout our program, what can we do instead?
+So if it's not a good idea to use bang methods but we need to re-use the result of an enumerable method throughout our program, what can we do instead?
 
 One option is to put the result of an enumerable method into a local variable:
 
