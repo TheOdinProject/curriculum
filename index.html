@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+         let players = new Array('Rock','Paper','Scissors') // the choice avaible
+         let scorePlayer = 0
+         let scoreComputer = 0
+         let playerSelection = 0
+         let computerSelection = 0
+        // this function selects randomly one player
+        function computerPlay() {
+
+            return(players[(Math.floor(Math.random() * 3))])
+        }
+        
+        // this function indexes the winner between players by comparing them
+        function winner(player1, player2) {
+            return (player1.length == player2.length)? 'null' : (player1.length > player2.length) ? player1 : player2
+        }
+
+        // this function set to upperCase the first letter
+        function capitalize(text) {
+            return text.replace(text[0], text[0].toUpperCase())
+        }
+
+        // this function allow user to enter some text either Rock Paper Scissors  
+        function scanText() {
+            textInput = capitalize(prompt('which Rock, Paper, Scissors').toLowerCase())
+            if(players.indexOf(textInput) < 0) {
+                alert('you can\'t choice this value, please enter another')
+                return scanText();
+            }
+            else return textInput
+        }
+
+       // this function return the message to player      
+        function playRound(playerSelection, computerSelection) {
+            switch(winner(playerSelection,computerSelection)) {
+
+                case playerSelection : {
+
+                    scorePlayer +=1
+                    return alert(playerSelection+' beats '+computerSelection)
+                    break
+                }
+                case computerSelection : {
+                    scoreComputer +=1
+                    return alert(computerSelection+ ' beats '+playerSelection)
+                    break
+                }
+                default : return 'Egality'
+            }
+        }
+
+        // this function keeps the score and repports the winner to 5 rounds
+        function game (round) {
+            playerSelection = scanText()
+            computerSelection = computerPlay()
+            playRound(playerSelection, computerSelection)
+            round -=1
+            if(round > 0) {
+                return game(round)
+            }
+            else {
+                return (scorePlayer > scoreComputer ) ? 'You win! ' +scorePlayer+ ' - ' +scoreComputer : 'You lost! '+scorePlayer+ ' - ' +scoreComputer
+            }
+        }
+
+        console.log(game(5))
+    </script>
+</body>
+</html>
