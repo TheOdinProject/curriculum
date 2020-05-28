@@ -73,6 +73,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sherman's Solution](https://github.com/shermansjliu/blogger) - [View in Browser](https://protected-plains-12122.herokuapp.com/)
 * [Ben's Solution](https://github.com/Koshoo/Ruby-on-Rails-blog-project/) - [View in Browser](http://blogger-ben.herokuapp.com/)
 * [Nicolás Nisoria's Solution](https://github.com/niconisoria/blogger) - [View in Browser](https://niconibloggerapp.herokuapp.com)
+* [Precious's Solution](https://github.com/evabanegacom/blog_app) - [View in Browser](https://dashboard.heroku.com/apps/calm-taiga-22226)
+
 * [Daniel Prince's Solution](https://github.com/danielambrosius/my_second_rails_app) - [View in Browser](https://glacial-refuge-28698.herokuapp.com/)
 * [Sizigia's Solution](https://github.com/sizigia/blogger) - [View in Browser](https://top-blogger.herokuapp.com/)
 * [Neill Hennings's Solution](https://github.com/Rabidza/blogger) - [View in Browser](https://safe-caverns-93859.herokuapp.com/)
