@@ -1623,7 +1623,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jugnugs's Solution](https://github.com/jugnugs/rock-paper-scissors)
 - [ParchedPanda's Solution](https://github.com/ParchedPanda/rock-paper-scissors-odin-1)
 - [Noah Snider's Solution](https://github.com/nosnider/rock_paper_scissors)
-- [constantinginga's Solution](https://github.com/constantinginga/rock-paper-scissors)
+- [constantinginga's Solution](https://github.com/constantinginga/rock-paper-scissors) - [View in Browser](https://constantinginga.github.io/rock-paper-scissors/)
 - [jnjensen's Solution](https://github.com/jnjensen/Rock-Paper-Scissors-Lizzard-Spock) - [View in Browser](https://htmlpreview.github.io/?https://github.com/jnjensen/Rock-Paper-Scissors-Lizzard-Spock/blob/master/index.html)
 - [liampc's Solution](https://github.com/liampc/rock-paper-scissors) - [View in Browser](https://liampc.github.io/rock-paper-scissors/)
 - [DurandalOne's Solution](https://github.com/DurandalOne/rock_paper_scissors) - [View in Browser](https://durandalone.github.io/rock_paper_scissors/)
