@@ -1029,4 +1029,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [THREEhundo's Solution](https://github.com/THREEhundo/etch-a-sketch) - [View in Browser](https://threehundo.github.io/etch-a-sketch/)
 * [Peuchen's Solution](https://github.com/Peuchen/etch-a-sketch) - [View in Browser](https://peuchen.github.io/etch-a-sketch/)
 * [DurandalOne's Solution](https://github.com/DurandalOne/Etch-a-Sketch) - [View in Browser](https://durandalone.github.io/Etch-a-Sketch/)
+* [jorgevrgs's Solution](https://github.com/jorgevrgs/etch-a-sketch) - [View in Browser](https://jorgevrgs.github.io/etch-a-sketch/)
 </details>
