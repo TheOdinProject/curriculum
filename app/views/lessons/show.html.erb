@@ -33,20 +33,7 @@
           {
             course: @lesson.course.as_json,
             lesson: @lesson.as_json,
-            submissions: [
-              {
-                id: 1,
-                user_name: "Frank the Tank",
-                repo_url: "test repo",
-                live_preview_url: "test preview"
-              },
-              {
-                id: 2,
-                user_name: "Jimmy Tight Lips",
-                repo_url: "test repo",
-                live_preview_url: "test preview"
-              }
-            ]
+            submissions: @projects
           }
         ) %>
       <% end %>
@@ -54,16 +41,6 @@
       <div class="lesson-button-group">
         <%= render 'lesson_buttons', lesson: @lesson, course: @lesson.course, user: @user %>
       </div>
-
-      <% if @projects && ProjectSubmissionFeature.enabled? %>
-        <div id="submissions">
-          <%= render 'recent_submissions',
-            projects: @projects,
-            project: @project,
-            lesson: @lesson
-          %>
-        </div>
-      <% end %>
     </div>
 
     <%= link_to github_edit_url(@lesson),
@@ -83,13 +60,3 @@
     <%= render 'advert' %>
   </div>
 </div>
-
-<% if user_signed_in? && @lesson.has_submission? %>
-  <div id="project-submission-modal-wrapper">
-    <%= render 'projects/form_modal', lesson: @lesson, project: @project %>
-  </div>
-<% end %>
-
-<% if @project&.persisted? %>
-  <%= render 'projects/delete_project_modal', lesson: @lesson, project: @project %>
-<% end %>

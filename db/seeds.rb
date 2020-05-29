@@ -109,6 +109,9 @@ load './db/seeds/tracks/front_end.rb'
 # GENERATE SUCCESS STORY Content
 load './db/seeds/success_stories.rb'
 
+# GENERATE test projects
+load './db/seeds/test_projects.rb'
+
 #################
 # SANITY CHECKS #
 #################

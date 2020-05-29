@@ -1,12 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe LessonsController do
-  let(:lesson) { double('Lesson', id: 'abc123', has_submission?: false) }
+  let(:lesson) { create(:lesson, id: 'abc123') }
   let(:ad) { double('Ad') }
   let(:params) { { course_title: 'web-development-101', id: lesson_id } }
   let(:lesson_id) { 'abc123' }
   let(:course) { double('Course') }
-  let(:user) { double('User', id: '1') }
+  let(:user) { create(:user, id: '1') }
 
   before do
     allow(controller).to receive(:current_user).and_return(user)
@@ -14,7 +14,7 @@ RSpec.describe LessonsController do
     allow(User).to receive(:includes).with(:completed_lessons).
       and_return(user)
 
-    allow(user).to receive(:find).with('1').and_return(user)
+    allow(user).to receive(:find).with(1).and_return(user)
 
     allow(Lesson).to receive(:includes).
       with(:section, course: [:lessons, sections: [:lessons]]).
