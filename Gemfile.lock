@@ -187,18 +187,18 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     jwt (2.2.1)
-    kaminari (1.2.0)
+    kaminari (1.2.1)
       activesupport (>= 4.1.0)
-      kaminari-actionview (= 1.2.0)
-      kaminari-activerecord (= 1.2.0)
-      kaminari-core (= 1.2.0)
-    kaminari-actionview (1.2.0)
+      kaminari-actionview (= 1.2.1)
+      kaminari-activerecord (= 1.2.1)
+      kaminari-core (= 1.2.1)
+    kaminari-actionview (1.2.1)
       actionview
-      kaminari-core (= 1.2.0)
-    kaminari-activerecord (1.2.0)
+      kaminari-core (= 1.2.1)
+    kaminari-activerecord (1.2.1)
       activerecord
-      kaminari-core (= 1.2.0)
-    kaminari-core (1.2.0)
+      kaminari-core (= 1.2.1)
+    kaminari-core (1.2.1)
     kramdown (2.2.1)
       rexml
     kwalify (0.7.2)
@@ -480,7 +480,7 @@ DEPENDENCIES
   gibbon (~> 3.3.4)
   github_api (~> 0.14)
   jquery-rails (~> 4.4.0)
-  kaminari (~> 1.0, >= 1.0.1)
+  kaminari (~> 1.2)
   kramdown
   letter_opener (~> 1.4)
   listen
