@@ -91,4 +91,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Rey van den Berg's Solution](https://github.com/Rey810/Weather-App) - [View in Browser](https://rey810.github.io/Weather-App/)
 * [thecodediver's Solution](https://github.com/thecodediver/api_testing) - [View in Browser](https://thecodediver.github.io/api_testing/)
 * [m-rejdych's Solution](https://github.com/m-rejdych/Weather-App) - [View in Browser](https://m-rejdych.github.io/Weather-App/)
+* [Joe Thompson's Solution](https://github.com/jlthompso/weather) - [View in Browser](https://jlthompso.github.io/weather/)
+* [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/weather-app) - [View in Browser](https://ozansozuozgit.github.io/weather-app/)
 </details>

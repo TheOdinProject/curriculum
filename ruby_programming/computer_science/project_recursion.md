@@ -16,6 +16,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/fibonacci)
+* [tenacious qi's Solution](https://github.com/Tenacious-Qi/fibonacci-methods/blob/master/fibonacci.rb)
 * [Edd Sansome's Solution (Dirty one liners)](https://github.com/casualc0der/odin-ruby/blob/master/odin_cs/fibonacci.rb)
 * [threeaces' Solution](https://github.com/threeaces/recursion_ruby_TOP/blob/master/fibonacci.rb)  
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/fib/blob/master/fibonacci.rb)
@@ -246,6 +248,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [meganeb-afk's Solution](https://github.com/meganeb-afk/fib/blob/master/FIBO.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/recursion/blob/master/fibonacci.rb)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-recursion/tree/master/fibonacci)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/recursion/blob/master/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
@@ -258,7 +261,7 @@ It can be a bit strange to wrap your head around, but just remember you're "divi
 
 The first step is to actually understand what the merge sort algorithm is doing:
 
-1. Check out [this introductory video](http://www.youtube.com/watch?v=EeQ8pwjQxTM) from Harvard's CS50x course.
+1. Check out [this introductory video](https://youtu.be/Ns7tGNbtvV4) from Harvard's CS50x course.
 2. Check out [this more detailed explanation](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) by David J. Malan (watch only until 1:14:00).
 3. [Merge Sort -- How it Works part 1](https://www.youtube.com/watch?v=OAsokGNa18k) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube give you a more formal look at this problem if you're still unclear.
 
@@ -277,6 +280,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [tenacious-qi's solution](https://github.com/Tenacious-Qi/merge_sort_recursive/blob/master/merge_sort.rb)
+* [Edd Sansome's solution](https://github.com/casualc0der/odin-ruby/blob/master/odin_cs/merge_sort.rb)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/merge_sort)
 * [threeaces' Solution](https://github.com/threeaces/recursion_ruby_TOP/blob/master/merge_sort.rb)  
 * [qazaqpyn's Solution](https://repl.it/@qazaqpyn/ThornyWealthyDatalogs)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/merge_sort/blob/master/merge_sort.rb)
@@ -497,6 +503,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kenneth Holston's Solution](https://github.com/kholston/ruby_recursion/blob/master/merge_sort.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/recursion/blob/master/merge_sort.rb)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-recursion/tree/master/merge_sort)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/recursion/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources

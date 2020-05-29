@@ -72,4 +72,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [ranmaru22's Angular Library Solution](https://github.com/ranmaru22/ng-library) - [View in Browser](https://ranmaru22.github.io/ng-library/)
 * [thecodediver's Solution](https://github.com/thecodediver/library_react) - [View in Browser](https://thecodediver.github.io/library_react/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/library-react)
+* [Joe Thompson's Library Solution](https://github.com/jlthompso/library_react) - [View in Browser](https://jlthompso.github.io/library_react/)
 </details>
