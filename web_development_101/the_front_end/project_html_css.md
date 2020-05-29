@@ -3430,6 +3430,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [obliviousofcraps's Solution (easy)](https://github.com/obliviousofcraps/google-homepage) - [View in Browser](https://obliviousofcraps.github.io/google-homepage/)
 - [jorgevrgs's Solution](https://github.com/jorgevrgs/google-homepage) - [View in Browser](https://jorgevrgs.github.io/google-homepage/)
 - [jbhannon's Solution (Easy)](https://github.com/jbhannon/google-homepage) - [View in Browser](https://jbhannon.github.io/google-homepage/)
+- [Jeev's Solution (Easy)](https://github.com/jeevdev/google-homepage) - [View in Browser](https://jeevdev.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
