@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron's Solution](https://github.com/Aaron-McD/Tic-Tac-Toe)
+* [Richard's Solution](https://github.com/RichardDenton/tic-tac-toe) - [View in repl.it](https://repl.it/@RichardDenton/tic-tac-toe)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/tic-tac-toe) - [View in repl.it](https://repl.it/@HappyFrog/tic-tac-toe#.replit)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/tic-tac-toe)
 * [lrdvnz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/blob/master/tic_tac_toe.rb) 
