@@ -42,6 +42,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [nkitan's Solution](https://github.com/Ankit-SIT/rockPaperScissors) - [View in Browser](https://ankit-sit.github.io/rockPaperScissors)
+- [Estela's Solution](https://estelajimero.github.io/Rock-Paper-Scissors/)
+- [Amilkez's Solution](https://amilkez.github.io/rock-paper-scissors) 
 - [jincrypt's Solution](https://github.com/jincrypt/rockpaperscissors) 
 - [AnthonyKuang's Solution](https://github.com/AnthonyKuang/rock-paper-scissors)
 - [Bassel Alrefai's Solution](https://github.com/basselalrefai/rock-paper-scissors) - [View in Browser](https://basselalrefai.github.io/rock-paper-scissors/)
