@@ -9,7 +9,7 @@ Rich text editors, such as Microsoft Word and Libre-Office Writer, are great for
 
 You can think of code editors as specialized web development tools. They are highly customizable and offer many features that will make your life easier. There is nothing worse than spending 2 hours trying to figure out why your program isn't working only to realize that you missed a closing bracket. Plugins, syntax highlighting, auto-closing of brackets and braces, and linting are just a few of the benefits of using a code editor. There are many text editors out there to choose from, but we suggest starting with VSCode.
 
-**VSCode** is an excellent free code editor. It has outstanding add-on support and great Git integration. VSCode is the most popular code editor among Odin's students and moderators, so support is easy to find in the community. You can download and install it from [here](https://code.visualstudio.com/).
+**VSCode** is an excellent free code editor. It has outstanding add-on support and great Git integration. VSCode is the most popular code editor among Odin's students and moderators, so support is easy to find in the community. You can download the .deb file and install it from [here](https://code.visualstudio.com/).
 
 Which editor you use is generally a matter of preference, but for the purposes of this course, we are going to assume you're using VSCode, mainly because it's free, it's easy to use, and it works pretty much the same on every operating system. If you want to use something else, do it. However, using something other than VSCode may make it more difficult to get help in the chat room.
 
@@ -30,3 +30,11 @@ A message may show, warning the user that VSCode is not trusted software. This i
 #### WSL Users:
 
 Although you just installed Ubuntu on your computer, you should still install the Windows version of the code editor you choose. You will edit the files in your Projects directory with the code editor, and WSL will be able to read these files. If you are using VSCode, be sure to install the *"Remote - WSL"* extension when prompted. This extension will allow you to directly access your Linux files. Once installed, select the green icon in the lower left corner to connect to WSL.
+
+### Additional Set Up: Live Server Extension for VSCode
+
+An extension is a program that is meant to enhance your experience by modifying the capabilities of a software. 
+
+Just like the Google Chrome Web Browser, VSCode supports extensions and one useful one is [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It has been made to save the time of developers like yourself. This extension will save you from the hassle of refreshing the browser window repeatedly to see changes made in your code and will automatically load the most recent change in the browser window.
+
+Refer to [this video](https://youtu.be/mGORIVStWWc) for installation details.
