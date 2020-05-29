@@ -170,7 +170,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Aanttrax's Solution](https://github.com/Aanttrax/Etch-a-Sketch) - [View in Browser](https://aanttrax.github.io/Etch-a-Sketch/)
 * [Cyhyraeth's Solution](https://github.com/Cyhyraethz/etch-a-sketch) - [View in Browser](https://cyhyraethz.github.io/etch-a-sketch/)
 * [dzarrr's Solution](https://github.com/dzarrr/etch-a-sketch) - [View in Browser](https://dzarrr.github.io/etch-a-sketch/)
->>>>>>> master
 * [Amr Elshenawy's Solution](https://github.com/AmrElshenawy/etch-a-sketch) - [View in Browser](https://amrelshenawy.github.io/etch-a-sketch/)
 * [Rilinda's Solution](https://github.com/RilindaA/Etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RilindaA/Etch-a-sketch/blob/master/index.html)
 * [Fabio's Solution](https://github.com/ThomYorke7/etch-a-sketch) - [View in Browser](https://thomyorke7.github.io/etch-a-sketch)
