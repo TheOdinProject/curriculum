@@ -42,6 +42,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Bassel Alrefai's Solution](https://github.com/basselalrefai/rock-paper-scissors) - [View in Browser](https://basselalrefai.github.io/rock-paper-scissors/)
+- [pklepa's Solution](https://github.com/pklepa/rock-paper-scissors) - [View in Browser](https://pklepa.github.io/rock-paper-scissors)
+- [gerhernandez7's Solution](https://github.com/ger-hernandez/rock-paper-scissors)
+- [Anel Canto's Solution](https://github.com/anelcanto/rockpaperscissors)
+- [Matthew Kiefer's Solution](https://github.com/matthewkiefer/rock-paper-scissors/blob/master/rock-paper-scissors.html)
+- [Arthur Tripp's Solution](https://github.com/arthurktripp/rockpaperscissors/blob/master/index.html)
 - [Ciaran Concannon's Solution](https://github.com/cjcon90/rock-paper-scissors) - [View in Browser](https://cjcon90.github.io/rock-paper-scissors/)
 - [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor)
 - [HadrienLap's solution](https://github.com/HadrienLap/rock-paper-scissors) - [View in Browser](https://hadrienlap.github.io/rock-paper-scissors/)
@@ -1622,4 +1627,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [constantinginga's Solution](https://github.com/constantinginga/rock-paper-scissors)
 - [jnjensen's Solution](https://github.com/jnjensen/Rock-Paper-Scissors-Lizzard-Spock) - [View in Browser](https://htmlpreview.github.io/?https://github.com/jnjensen/Rock-Paper-Scissors-Lizzard-Spock/blob/master/index.html)
 - [liampc's Solution](https://github.com/liampc/rock-paper-scissors) - [View in Browser](https://liampc.github.io/rock-paper-scissors/)
+- [DurandalOne's Solution](https://github.com/DurandalOne/rock_paper_scissors) - [View in Browser](https://durandalone.github.io/rock_paper_scissors/)
+- [Brett's Solution](https://github.com/17wilsonb/rock-paper-scissors) - [View in Browser](https://17wilsonb.github.io/rock-paper-scissors)
 </details>
