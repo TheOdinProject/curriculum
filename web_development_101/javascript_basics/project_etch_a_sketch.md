@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Etch-a-Sketch) - [View in Browser](https://mr-bowtie.github.io/Etch-a-Sketch/)
 * [Alisha Hwee's Solution](https://github.com/alishahwee/etch-a-sketch) - [View in Browser](https://alishahwee.github.io/etch-a-sketch/)
 * [Christoph's Solution](https://github.com/vertskater/sketchpad) - [View in Browser](https://vertskater.github.io/sketchpad/)
 * [BernH4's Solution](https://github.com/BernH4/etch-a-sketch) - [View in Browser](https://bernh4.github.io/etch-a-sketch/)
@@ -1028,4 +1029,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [THREEhundo's Solution](https://github.com/THREEhundo/etch-a-sketch) - [View in Browser](https://threehundo.github.io/etch-a-sketch/)
 * [Peuchen's Solution](https://github.com/Peuchen/etch-a-sketch) - [View in Browser](https://peuchen.github.io/etch-a-sketch/)
 * [DurandalOne's Solution](https://github.com/DurandalOne/Etch-a-Sketch) - [View in Browser](https://durandalone.github.io/Etch-a-Sketch/)
+* [jorgevrgs's Solution](https://github.com/jorgevrgs/etch-a-sketch) - [View in Browser](https://jorgevrgs.github.io/etch-a-sketch/)
 </details>
