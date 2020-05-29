@@ -451,4 +451,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/bubble_sort.rb)
 * [msespos's Solution](https://github.com/msespos/bubble_sort/blob/master/bubble_sort.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/bubble_sort.rb)
+* [Justin's Solution](https://github.com/Justin-Meffs/ruby-projects/blob/master/bubble_sort.rb)
 </details>
