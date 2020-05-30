@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/newyork-clone) - [View in Browser](https://andrsrz.github.io/newyork-clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/DejazmachMolla/newyork_times) - [View in browser](https://dejazmachmolla.github.io/newyork_times/)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/nytimes-html) - [View in browser](https://jsalvadorpp.github.io/nytimes-html/)
 * [kaliberpoziomka's solution](https://github.com/kaliberpoziomka/nytimesArticle) - [View in Browser](https://kaliberpoziomka.github.io/nytimesArticle/)
@@ -141,7 +142,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Veskenazi's Solution](https://github.com/veskenazi/new-york-times-article-clone) - [View in Browser](https://veskenazi.github.io/new-york-times-article-clone/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/nyt_article_clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/nyt_article_clone/)
 * [jamesredux's solution](https://github.com/Jamesredux/nytimes-page) - [View in Browser](https://jamesredux.github.io/nytimes-page/)
-
+* [mangakiko's Solution](https://github.com/magakiko/New-York-Times) - [View in Browser](https://magakiko.github.io/New-York-Times/)
 </details>
 
 ### Additional Resources
