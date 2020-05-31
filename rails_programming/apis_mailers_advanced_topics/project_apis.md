@@ -196,6 +196,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/flickr-api)
 * [BShowen's Solution](https://github.com/BShowen/flickr_search_api) - [Live](https://flick-r.herokuapp.com/)
 * [Duarte's Solution](https://github.com/Duartemartins/odin-flickr)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/flickr_api) - [View in Browser](https://ovsjazz-flickr-api.herokuapp.com/)
