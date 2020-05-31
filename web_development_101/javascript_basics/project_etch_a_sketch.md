@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [GraceSchwar's Solution](https://github.com/GraceSchwar/Project-Etch-A-Sketch) - [View in Browser](https://graceschwar.github.io/Project-Etch-A-Sketch/)
 * [Mpavcell's solution](https://github.com/mpavcell/etchasketch/) - [View in Browser](https://mpavcell.github.io/etchasketch/)
 * [Nicolasalouf's Solution](https://github.com/nicolasalouf/etch-a-sketch)
 * [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Etch-a-Sketch) - [View in Browser](https://mr-bowtie.github.io/Etch-a-Sketch/)
@@ -1034,4 +1035,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [jorgevrgs's Solution](https://github.com/jorgevrgs/etch-a-sketch) - [View in Browser](https://jorgevrgs.github.io/etch-a-sketch/)
 * [oppowag's Solution](https://github.com/oppowag/etchasketch) - [View in Browser](https://oppowag.github.io/etchasketch/)
 * [Arturo's Solution](https://github.com/StarSheriff2/Etch-a-Sketch-Project---Arturo) - [View in Browser](https://starsheriff2.github.io/Etch-a-Sketch-Project---Arturo/)
+* [constantinginga's Solution](https://github.com/constantinginga/etch-a-sketch) - [View in Browser](https://constantinginga.github.io/etch-a-sketch/)
 </details>
