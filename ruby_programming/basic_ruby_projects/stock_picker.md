@@ -27,6 +27,18 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gael's Solution](https://github.com/lungla-gael/stock-picker)
+* [Ranno's Solution](https://github.com/RannoL/stock_picker/blob/master/stock_picker.rb)
+* [Aaron's Solution](https://github.com/Aaron-McD/stock_picker)
+* [leddins's Solution](https://github.com/leddins/stock-picker)
+* [Sara's Solution](https://github.com/Sarajvega/stock_picker)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/stock-picker)
+* [Richard's solution](https://github.com/RichardDenton/stock-picker)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/stock-picker)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/stock_picker.rb)
+* [Laurens' Solution](https://github.com/laurenskrom/TOPrubyprojects/blob/master/stockpicker.rb)
+* [Damian Tabor's Solution](https://github.com/blunt008/odin-project-ruby-basic-projects/blob/master/stock_picker/solution.rb)
+* [andrewjh271's Solution](https://github.com/andrewjh271/basic_ruby_projects/tree/master/stock_picker)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/stock_picker.rb)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Ruby-Basics-Projects/blob/master/stock-picker/stock-picker.rb)
 * [Harold Guido's Solution](https://github.com/harold-guido/ruby-beginner-exercises/blob/master/stock_picker/stock_picker.rb)
@@ -492,4 +504,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/stock_picker.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/stock-picker.rb)
 * [Ryan Early's Solution](https://github.com/ryanfearly/basic_ruby_projects/blob/master/stock_picker.rb)
+* [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/stock-picker.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/stock_picker.rb)
+* [msespos's Solution](https://github.com/msespos/stock_picker/blob/master/stock_picker.rb)
+* [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/stock_picker.rb)
+* [jding9's Solution](https://github.com/Jding9/ruby_stockpicker/blob/master/stockpicker.rb)
+* [Dyrit's Solution](https://github.com/Dyrits/BASIC-RUBY-PROJECTS/blob/master/Stock%20Picker/stock-picker.rb)
+* [Justin's solution](https://github.com/Justin-Meffs/ruby-projects/blob/master/stock_picker3.rb)
 </details>

@@ -27,6 +27,10 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Morgan's Solution](https://github.com/morganbonhomme/responsive-design) - [View in Browser](https://morganbonhomme.github.io/responsive-design/)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/TNW) - [View in Browser](https://jsalvadorpp.github.io/TNW/)
+* [Uduak Essien's solution](https://github.com/acushlakoncept/The-Next-Web) - [View in Browser](https://raw.githack.com/vmwhoami/The-Next-Web/feature-home/index.html)
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka/tnw-responsive) - [View in Browser](https://kaliberpoziomka.github.io/tnw-responsive/)
 * [Julio's solution](https://github.com/julio22b/top-responsive-design/tree/master) - [View in Browser](https://julio22b.github.io/top-responsive-design/)
 * [Mikael's Solution](https://github.com/Mikearaya/thenextweb-clone) - [View in browser](https://mikearaya.github.io/thenextweb-clone)
 * [Rarysson's Solution](https://github.com/rarysson/next-web-clone) - [View in browser](https://rarysson.github.io/next-web-clone/)
@@ -99,6 +103,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Aron's Solution](https://github.com/aronfischer/responsive-TNV-homepage) - [View in browser](https://aronfischer.github.io/responsive-TNV-homepage/)
 * [Moin & Angel's Solution](https://github.com/moinkhanif/tnw-responsive-clone) - [View in browser](https://moinkhanif.github.io/tnw-responsive-clone/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-next-web-clone-project) - [View in Browser](https://adrieltrigger.github.io/top-next-web-clone-project/)
+* [Veskenazi's Solution](https://github.com/veskenazi/building-with-responsive-design) - [View in Browser](https://veskenazi.github.io/building-with-responsive-design)
+* [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/responsive-design) - [View in Browser](https://ranmaru22.github.io/the_odin_project/responsive-design/)
 </details>
 
 ### Additional Resources
