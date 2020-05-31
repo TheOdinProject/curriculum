@@ -21,6 +21,20 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [andrewjh271's Solution](https://github.com/andrewjh271/hangman) - [View in Repl.it](https://repl.it/@andrewjh271/hangman)
+* [JoelBejot's Solution](https://github.com/JoelBejot/Hangman)
+* [Ichenn's Solution](https://github.com/Ichenn92/hangman) - [View in Repl.it](https://hangman.ichenn92.repl.run/)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/hangman)
+* [Edd Sansome's Solution](https://github.com/casualc0der/odin-ruby/tree/master/hangman) - [View in Repl.it](https://repl.it/@casualc0der/hangman)
+* [tenacious qi's Solution](https://github.com/Tenacious-Qi/hangman) - [View in Repl.it](https://repl.it/github/Tenacious-Qi/hangman)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/hangman)
+* [Nick DiPreta's Solution](https://github.com/NickDiPreta/hangman) - [View in Repl.it](https://repl.it/@NickDiPreta/hangman-2)
+* [threeaces' Solution](https://github.com/threeaces/hangman_ruby_top) - [View in Repl.it](https://repl.it/@threeaces/hangmanrubytop)  
+* [Christian's Solution](https://github.com/rueeazy/ruby-hangman) - [View in Repl.it](https://repl.it/@rueeazy/ruby-hangman)
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Hangman) - [View Demo](https://repl.it/@andrewbaldwin44/Hangman)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/blob/master/hangman/lib/hangman.rb)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/hangman)
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_hangman) - [View in Repl.it](https://repl.it/@rlmoser/rubyhangman)
 * [rryand's Solution](https://github.com/rryand/hangman_ruby) - [View in Repl.it](https://repl.it/@rryand/hangmanruby)
 * [Andrew Huntington's Solution](https://github.com/AndrewHuntington/hangman)
 * [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.hangman)
@@ -289,4 +303,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Matt M's Solution](https://github.com/MattMiller1989/Hangman)
 * [Michael K's Solution](https://github.com/a0x77ry/hangman)
 * [kwambugu's Solution](https://github.com/kwambugu/hangman)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Hangman/hangman.rb)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/hangman)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/hangman)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-hangman) - [Live version on Repl.it](https://repl.it/@fussykyloren/ruby-hangman)
 </details>
