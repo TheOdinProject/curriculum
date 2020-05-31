@@ -103,6 +103,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Aron's Solution](https://github.com/aronfischer/responsive-TNV-homepage) - [View in browser](https://aronfischer.github.io/responsive-TNV-homepage/)
 * [Moin & Angel's Solution](https://github.com/moinkhanif/tnw-responsive-clone) - [View in browser](https://moinkhanif.github.io/tnw-responsive-clone/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-next-web-clone-project) - [View in Browser](https://adrieltrigger.github.io/top-next-web-clone-project/)
+* [Veskenazi's Solution](https://github.com/veskenazi/building-with-responsive-design) - [View in Browser](https://veskenazi.github.io/building-with-responsive-design)
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/responsive-design) - [View in Browser](https://ranmaru22.github.io/the_odin_project/responsive-design/)
 </details>
 
