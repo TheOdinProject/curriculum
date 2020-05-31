@@ -96,5 +96,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Rey van den Berg's solution](https://github.com/Rey810/jest-practice)
 - [Emil Dimitrov's solution](https://github.com/edmtrv/testing-practice)
 - [JoshAubrey's solution](https://github.com/JoshAubrey/jest-testing-practice)
+- [Joe Thompson's Solution](https://github.com/jlthompso/js_tests)
 </details>
 
