@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [irlgabriel's solution(Hard)](https://github.com/irlgabriel/google-search-copy) - [View in Browser](https://irlgabriel.github.io/google-search-copy/)
+* [Benimanjaro's solution (Easy)](https://github.com/beniamanjaro/google-homepage) - [View in Browser](https://beniamanjaro.github.io/google-homepage/)
 * [kylecunningham's solution (Easy)](https://github.com/kylecunningham88/google-hompage) - [View in Browser](https://kylecunningham88.github.io/google-homepage/)
 * [Pirategunk's solution (Easy)](https://github.com/Pirategunk/google-homepage) - [View in Browser](https://pirategunk.github.io/google-homepage/)
 * [Marcela13's solution (Easy)](https://github.com/Marcela13/google-homepage) - [View in Browser](https://marcela13.github.io/google-homepage/)
