@@ -95,6 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [TheCodingArchi's Solution (Difficult)](https://github.com/TheCodingArchi/google-search-resultspage) - [View in Browser](https://thecodingarchi.github.io/google-search-resultspage/)
+* [TheCodingArchi's Solution (Easy)](https://github.com/TheCodingArchi/google-homepage) - [View in Browser](https://thecodingarchi.github.io/google-homepage/)
 * [Mohit paryani's solution (Easy)](https://github.com/paryanimohit/google-homepage) - [view in browser](https://paryanimohit.github.io/google-homepage/) 
 * [irlgabriel's solution(Hard)](https://github.com/irlgabriel/google-search-copy) - [View in Browser](https://irlgabriel.github.io/google-search-copy/)
 * [Benimanjaro's solution (Easy)](https://github.com/beniamanjaro/google-homepage) - [View in Browser](https://beniamanjaro.github.io/google-homepage/)
@@ -6731,7 +6733,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [adilahmad321's Solution (Difficult)](https://github.com/adilahmad321/google-searchpage) - [View in Browser](https://adilahmad321.github.io/google-searchpage/)
 - [jugnugs's Solution (Easy)](https://github.com/jugnugs/google-homepage) - [View in Browser](https://jugnugs.github.io/google-homepage/)
 - [brxndonlee's Solution (Easy)](https://github.com/brxndonlee/google_homepage) - [View in Browser](https://brxndonlee.github.io/google_homepage)
-- [TheCodingArchi's Solution (Easy)](https://github.com/TheCodingArchi/google-homepage) - [View in Browser](https://thecodingarchi.github.io/google-homepage/)
 - [Bryan L's Solution (Easy)](https://github.com/bryanluu/TOP_google) - [View in Browser](https://bryanluu.github.io/TOP_google/)
 - [tiris08's Solution (Easy)](https://github.com/tiris08/google-homepage) - [View in Browser](https://tiris08.github.io/google-homepage/#)
 - [Miguel-stacb's Solution (Easy)](https://github.com/Miguel-stacb/google-homepage.git) - [View in Browser](https://miguel-stacb.github.io/google-homepage/)
