@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Nenjamin's Solution](https://github.com/NebjaminCode/Odin_RPS) - [View in Browser](https://nebjamincode.github.io/Odin_RPS/)
 - [Frank Johnette's Solution](https://github.com/FJohnette/Rock-Paper-Scissors) - [View in Browser](https://fjohnette.github.io/Rock-Paper-Scissors/)
 - [Szymon Chełkowski's Solution](https://github.com/szchelkowski/RockPaperScissors)
 - [nkitan's Solution](https://github.com/Ankit-SIT/rockPaperScissors) - [View in Browser](https://ankit-sit.github.io/rockPaperScissors)
