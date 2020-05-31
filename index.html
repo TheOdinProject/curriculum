@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rock, Paper, Scissors game</title>
+    <meta name="description" content="Rock, Paper, Scissors game">
+    <meta name="Ogaga" content="">
+</head>
+
+<body>
+    <script>
+        function computerPlay() {
+            let x = Math.floor(Math.random() * 3) + 1;
+            if (x == 1) {
+                return "rock";
+            } else if (x == 2) {
+                return "paper";
+            } else {
+                return "scissors";
+            }
+        }
+        //prompt for players input
+        function playerTurn() {
+            return prompt("Select rock, paper or scissors: ").toLowerCase();
+        }
+
+        //Player vs computer play
+        function playRound(playerSelection, computerSelection) {
+            // checks players' input and converts it to small letters
+            while (playerSelection != "rock" && playerSelection != "paper" && playerSelection != "scissors") {
+                playerSelection = prompt("Error, replay your turn, must select rock, paper or scissors: ").toLowerCase();
+            }
+            //checks if its a draw between player and computer
+            while (playerSelection === computerSelection) {
+                playerSelection = prompt("It's a draw, replay your turn: ").toLowerCase();
+                computerSelection = computerPlay();
+                // checks players' input and converts it to small letters
+                while (playerSelection != "rock" && playerSelection != "paper" && playerSelection != "scissors") {
+                    playerSelection = prompt("Error, replay your turn, must select rock, paper or scissors: ").toLowerCase();
+                }
+            }
+            //Player wins
+            if (playerSelection === "rock" && computerSelection === "scissors" || playerSelection === "paper" && computerSelection === "rock" || playerSelection === "scissors" && computerSelection === "paper") {
+                console.log("The computer chose: ", computerSelection);
+                console.log("Player won this round!");
+                return "Player Wins";
+            } else {
+                //Computer wins
+                console.log("The computer chose: ", computerSelection)
+                console.log("Sorry, player lost this round.")
+                return "Computer Wins";
+            }
+        }
+        //Loop for 5 games between player and computer
+        function game() {
+            let playerScore = 0;
+            let computerScore = 0;
+            for (let i = 0; i < 5; i++) {
+                let result = playRound(playerTurn(), computerSelection);
+                if (result === "Player Wins") {
+                    playerScore += 1;
+                } else {
+                    computerScore += 1;
+                }
+                if (playerScore > computerScore) {
+                    console.log(`Congratulations! You won ${playerScore} of 5 games`);
+                } else {
+                    console.log(`Computer won ${computerScore} of 5 games`);
+                }
+            }
+        }
+
+
+        const computerSelection = computerPlay();
+        //console.log(playRound(playerTurn(), computerSelection));
+        console.log(game());
+    </script>
+</body>
+
+</html>
