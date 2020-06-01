@@ -18,7 +18,7 @@ Finally, you will set up a project with Git that will serve as a template for yo
 
 For now, let's learn what Git is and why it's so powerful!
 
-## Learning Outcomes:
+### Learning Outcomes:
 By the end of this lesson, you should be able to do the following:
 
  - Explain what Git and GitHub are and the differences between the two.
