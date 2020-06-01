@@ -6778,9 +6778,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [gitliffi's solution (Hard)](https://github.com/gitliffi/google_webpage/) - [View in Browser](https://gitliffi.github.io/google_webpage/)
 - [mpiriya's solution (Easy)](https://github.com/mpiriya/google-homepage/) - [View in Browser](https://mpiriya.github.io/google-homepage/)
 - [Marissa Bellusci's Solution (Easy)](https://github.com/marissabellusci/google-homepage.git) - [View in Browser](https://marissabellusci.github.io/google-homepage/)
-
 </details>
-
 
 ### Additional Resources
 
