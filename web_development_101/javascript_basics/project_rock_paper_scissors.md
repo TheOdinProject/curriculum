@@ -43,6 +43,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - Add your solution below this line!
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/rock-paper-scissors) - [View in Browser](https://cyber-mat.github.io/rock-paper-scissors/)
 - [Nenjamin's Solution](https://github.com/NebjaminCode/Odin_RPS) - [View in Browser](https://nebjamincode.github.io/Odin_RPS/)
+- [Coding Shawn's Solution](https://github.com/CodingShawn/Rock-Paper-Scissors) - [View in Browser](https://codingshawn.github.io/Rock-Paper-Scissors/)
 - [Frank Johnette's Solution](https://github.com/FJohnette/Rock-Paper-Scissors) - [View in Browser](https://fjohnette.github.io/Rock-Paper-Scissors/)
 - [Szymon Chełkowski's Solution](https://github.com/szchelkowski/RockPaperScissors)
 - [nkitan's Solution](https://github.com/Ankit-SIT/rockPaperScissors) - [View in Browser](https://ankit-sit.github.io/rockPaperScissors)
