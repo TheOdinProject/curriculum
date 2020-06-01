@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [jleivers's Solution (Easy)](https://github.com/jleivers/Odin_Project_Google)
+* [jleivers's Solution (Easy)](https://github.com/jleivers/Odin_Project_Google) - [View in Browser](https://jleivers.github.io/Odin_Project_Google/)
 * [TheCodingArchi's Solution (Difficult)](https://github.com/TheCodingArchi/google-search-resultspage) - [View in Browser](https://thecodingarchi.github.io/google-search-resultspage/)
 * [TheCodingArchi's Solution (Easy)](https://github.com/TheCodingArchi/google-homepage) - [View in Browser](https://thecodingarchi.github.io/google-homepage/)
 * [Mohit paryani's solution (Easy)](https://github.com/paryanimohit/google-homepage) - [view in browser](https://paryanimohit.github.io/google-homepage/) 
