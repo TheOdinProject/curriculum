@@ -123,4 +123,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [thecodediver's Solution](https://github.com/thecodediver/tasks_app) - [View in Browser](https://thecodediver.github.io/tasks_app/)
 * [Joe Thompson's Solution](https://github.com/jlthompso/todo) - [View in Browser](https://jlthompso.github.io/todo/)
 * [m-rejdych's Solution](https://github.com/m-rejdych/Todo-List) - [View in Browser](https://m-rejdych.github.io/Todo-List/)
+* [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/todolist) - [View in Browser](https://fortypercenttitanium.github.io/todolist/)
 </details>

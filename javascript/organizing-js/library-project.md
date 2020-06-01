@@ -40,6 +40,9 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [jingjing142's Solution (w/localstorage)](https://github.com/jingjing142/library) - [View in Browser](https://jingjing142.github.io/library/)
+- [kaliberpoziomka's Solution(w/ local storage)](https://github.com/kaliberpoziomka/library) - [View in Browser](https://kaliberpoziomka.github.io/library/)
+- [foolmonkey's Solution](https://github.com/foolmonkey/library) - [View in Browser](https://foolmonkey.github.io/library/)
 - [Alex Cole's Solution](https://github.com/AlexJ-Cole/Library) - [View in Browser](https://alexj-cole.github.io/Library/)
 - [Salvador Villalon's Solution (w/ Firebase)](https://github.com/salvillalon45/theOdinProject-Library) - [View in Browser](https://salvillalon45.github.io/theOdinProject-Library/)
 - [jcai's Solution](https://github.com/jcai8649/TOP-Library) - [View in Browser](https://jcai8649.github.io/TOP-Library/)
@@ -294,4 +297,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [adilahmad321's Solution](https://github.com/adilahmad321/Library) - [View in Browser](https://adilahmad321.github.io/Library/)
 - [themetar's Solution](https://github.com/themetar/library-app-top) - [View in Browser](https://themetar.github.io/library-app-top/)
 - [mkcvh's Solution](https://github.com/mkcvh/library) - [View in Browser](https://mkcvh.github.io/library) 
+- [HelixF's Solution](https://github.com/HelixF/book-library) - [View in Browser](https://helixf.github.io/book-library/)
+- [hamparmin's Solution](https://github.com/hamparmin/library) - [View in Browser](https://hamparmin.github.io/library/)
 </details>
+

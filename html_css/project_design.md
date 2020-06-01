@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/design-teardown) - [View in Browser](https://andrsrz.github.io/design-teardown/)
 * [Haroon Abdulrazaq's Solution](https://github.com/talhawaqar/design-teardown) - [View in Browser](https://raw.githack.com/talhawaqar/design-teardown/feature-page/index.html)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/design-teardown) - [View in Browser](https://jsalvadorpp.github.io/design-teardown/)
 * [Uduak Essien's solution](https://github.com/acushlakoncept/smashing-magazine) - [View in Browser](https://raw.githack.com/acushlakoncept/smashing-magazine/feature-home/index.html)

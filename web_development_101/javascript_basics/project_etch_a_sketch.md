@@ -45,6 +45,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [benjamin-gambling's Solution](https://github.com/benjamin-gambling/etch-a-sketch) - [View in Browser](https://benjamin-gambling.github.io/etch-a-sketch/)
+* [Omit1337's Solution](https://github.com/Orion-P/portfolio/tree/master/etch-a-sketch) - [View in Browser](https://orion-p.github.io/portfolio/etch-a-sketch/)
+* [Simonoob's Solution](https://github.com/Simonoob/Etch-aSketch) - [View in Browser](https://simonoob.github.io/Etch-aSketch/)
+* [Jordan Perkins' Solution](https://github.com/jordanperkins98/etch-a-sketch) - [View in Browser](https://jordanperkins98.github.io/etch-a-sketch/)
+* [GraceSchwar's Solution](https://github.com/GraceSchwar/Project-Etch-A-Sketch) - [View in Browser](https://graceschwar.github.io/Project-Etch-A-Sketch/)
+* [Mpavcell's solution](https://github.com/mpavcell/etchasketch/) - [View in Browser](https://mpavcell.github.io/etchasketch/)
+* [Nicolasalouf's Solution](https://github.com/nicolasalouf/etch-a-sketch)
 * [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Etch-a-Sketch) - [View in Browser](https://mr-bowtie.github.io/Etch-a-Sketch/)
 * [Alisha Hwee's Solution](https://github.com/alishahwee/etch-a-sketch) - [View in Browser](https://alishahwee.github.io/etch-a-sketch/)
 * [Christoph's Solution](https://github.com/vertskater/sketchpad) - [View in Browser](https://vertskater.github.io/sketchpad/)
@@ -1030,4 +1037,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Peuchen's Solution](https://github.com/Peuchen/etch-a-sketch) - [View in Browser](https://peuchen.github.io/etch-a-sketch/)
 * [DurandalOne's Solution](https://github.com/DurandalOne/Etch-a-Sketch) - [View in Browser](https://durandalone.github.io/Etch-a-Sketch/)
 * [jorgevrgs's Solution](https://github.com/jorgevrgs/etch-a-sketch) - [View in Browser](https://jorgevrgs.github.io/etch-a-sketch/)
+* [oppowag's Solution](https://github.com/oppowag/etchasketch) - [View in Browser](https://oppowag.github.io/etchasketch/)
+* [Arturo's Solution](https://github.com/StarSheriff2/Etch-a-Sketch-Project---Arturo) - [View in Browser](https://starsheriff2.github.io/Etch-a-Sketch-Project---Arturo/)
+* [constantinginga's Solution](https://github.com/constantinginga/etch-a-sketch) - [View in Browser](https://constantinginga.github.io/etch-a-sketch/)
 </details>
