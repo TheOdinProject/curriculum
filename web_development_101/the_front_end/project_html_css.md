@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Barnabas Btz (Easy)] (https://github.com/barnabtz/google-homepage) - [View in Browser] (https://barnabtz.github.io/google-homepage/)
+* [Barnabas Btz (Easy)](https://github.com/barnabtz/google-homepage) - [View in Browser](https://barnabtz.github.io/google-homepage/)
 * [PCervone's Solution (Easy)](https://github.com/pcervone/google-homepage) - [View in Browser](https://pcervone.github.io/google-homepage/)
 * [jleivers's Solution (Easy)](https://github.com/jleivers/Odin_Project_Google) - [View in Browser](https://jleivers.github.io/Odin_Project_Google/)
 * [TheCodingArchi's Solution (Difficult)](https://github.com/TheCodingArchi/google-search-resultspage) - [View in Browser](https://thecodingarchi.github.io/google-search-resultspage/)
