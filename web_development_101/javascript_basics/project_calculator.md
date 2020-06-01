@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lcdevi's Solution](https://github.com/Lcdevi/simple-calculator) - [View in Browser](https://lcdevi.github.io/simple-calculator/)
 - [notstoe's Solution](https://github.com/notstoe/online-calculator) - [View in Browser](https://notstoe.github.io/online-calculator/)
 - [aditditto's Solution](https://github.com/aditditto/web-calculator) - [View in Browser](https://aditditto.github.io/web-calculator/)
 - [Tristan Deane's Solution](https://github.com/IM-Deane/online-calculator)
