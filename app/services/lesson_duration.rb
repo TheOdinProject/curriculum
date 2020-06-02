@@ -23,13 +23,13 @@ class LessonDuration
 
   def durations
     lesson_completions
-      .where(lesson_id: [lesson.id, next_lesson.id])
+      .where(lesson_id: [lesson.id, previous_lesson.id])
       .group('lesson_completions.student_id')
       .having("count(lesson_completions) = 2")
       .pluck(Arel.sql("max(extract(epoch from created_at)) - min(extract(epoch from created_at))"))
   end
 
-  def next_lesson
-    FindLesson.new(lesson, lesson.course).next_lesson
+  def previous_lesson
+    FindLesson.new(lesson, lesson.course).previous_lesson
   end
 end

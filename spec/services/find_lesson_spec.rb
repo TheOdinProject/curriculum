@@ -1,27 +1,39 @@
 require 'rails_helper'
 
 RSpec.describe FindLesson do
-  subject(:find_lesson) { FindLesson.new(lesson, course) }
+  subject(:find_lesson) { FindLesson.new(current_lesson, course) }
 
-  let(:lesson)  { double('Lesson', position: position) }
-  let(:position) { 1 }
-  let(:course) { double('Course', lessons: lessons) }
-  let(:lessons)  { [lesson, lesson_two, lesson_three] }
-  let(:lesson_two) { double('Lesson', position: 2) }
-  let(:lesson_three) { double('Lesson', position: 3) }
-  let(:lesson_three_position) { 1 }
+  let(:current_lesson)  { middle_lesson }
+  let(:course) { instance_double(Course, lessons: [first_lesson, middle_lesson, last_lesson]) }
+  let(:first_lesson) { instance_double(Lesson, position: 1) }
+  let(:middle_lesson) { instance_double(Lesson, position: 2) }
+  let(:last_lesson) { instance_double(Lesson, position: 3) }
 
   describe '#next_lesson' do
 
-    it 'will return the next lesson' do
-      expect(find_lesson.next_lesson).to eql(lesson_two)
+    it 'returns the next lesson' do
+      expect(find_lesson.next_lesson).to eql(last_lesson)
     end
 
     context 'when the current lesson is the last lesson' do
-      let(:position) { 3 }
+      let(:current_lesson) { last_lesson }
 
-      it 'will return nil' do
+      it 'returns nil' do
         expect(find_lesson.next_lesson).to eql(nil)
+      end
+    end
+  end
+
+  describe '#previous_lesson' do
+    it 'returns the previous lesson' do
+      expect(find_lesson.previous_lesson).to eql(first_lesson)
+    end
+
+    context 'when the current lesson is the first lesson' do
+      let(:current_lesson) { first_lesson }
+
+      it 'returns nil' do
+        expect(find_lesson.previous_lesson).to eql(nil)
       end
     end
   end
