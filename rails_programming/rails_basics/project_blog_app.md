@@ -24,6 +24,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jose Bohorquez's Solution](https://github.com/Bhrqz/Rails_Blog_app) - [View in Browser](https://shrouded-hollows-77809.herokuapp.com/)
+* [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/Blogger) - [View in Browser](https://fast-harbor-38452.herokuapp.com/)
+* [Grant Cottle's Solution](https://github.com/grantmaster89/rails_blog) - [View in Browser](https://peaceful-inlet-81561.herokuapp.com/)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/blog_app_project) - [View in Browser](https://whispering-crag-79843.herokuapp.com/)
+* [leetie's Solution](https://github.com/leetie/bloggerV2) - [View in Browser](http://www.leetie.blog/)
+* [Jithin's Solution](https://github.com/jithindasad/jumpstart-blogger)
+* [Powei94's Solution](https://github.com/powei94/rails_blog_app) - [View in Browswer](https://shrouded-waters-51084.herokuapp.com/)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/blog_tutorial) - [View in Browswer](https://shielded-basin-69335.herokuapp.com/articles)
 * [Run After's Solution](https://github.com/run-after/blogger)
 * [LenaChestnut's Solution](https://github.com/LenaChestnut/rails-blog) - [View in Browser](https://powerful-wildwood-59785.herokuapp.com/)
@@ -475,6 +482,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [headnodic's Solution](https://github.com/headnodic/top-coursework/tree/master/web-dev-101/blogger)
 * [Veskenazi's Solution](https://github.com/veskenazi/blogger-app) - [View in Browser](https://morning-crag-79127.herokuapp.com/)
 * [tomstrat's Solution](https://github.com/tomstrat/ruby_blogger) - [View in Browser](https://dry-peak-20557.herokuapp.com/)
+* [Robert Suazo's Solution](https://github.com/rsuazo/blogger) - [View in Browser](https://vast-bastion-98472.herokuapp.com/)
+* [Bendee's Solution](https://github.com/bendee48/rails-blog) - [View in Browser](https://still-citadel-27600.herokuapp.com/articles)
 </details>
 
 ### Additional Resources
