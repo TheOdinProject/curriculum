@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Jared's Solution](https://github.com/jaredaritter/library)
 - [jingjing142's Solution (w/localstorage)](https://github.com/jingjing142/library) - [View in Browser](https://jingjing142.github.io/library/)
 - [kaliberpoziomka's Solution(w/ local storage)](https://github.com/kaliberpoziomka/library) - [View in Browser](https://kaliberpoziomka.github.io/library/)
 - [foolmonkey's Solution](https://github.com/foolmonkey/library) - [View in Browser](https://foolmonkey.github.io/library/)
