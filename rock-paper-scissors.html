@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock, paper, scissors</title>
+</head>
+
+<body>
+    <script>
+        'use strict'
+
+        function myGame() {
+            let playerScore = 0;
+            let computerScore = 0;
+
+            function completeRound() {
+
+                function computerPlay() {
+                    let cpuRandom = Math.floor(Math.random() * Math.floor(3))
+                    let cpuHand
+                    switch (cpuRandom) {
+                        case 0:
+                            cpuHand = 'rock'
+                            break
+                        case 1:
+                            cpuHand = 'paper'
+                            break
+                        case 2:
+                            cpuHand = 'scissors'
+                    }
+                    return cpuHand
+                }
+
+
+
+                //Assignment #4
+                /*
+                Write a function that plays a single round of Rock Paper Scissors.
+                The function should take two parameters - the playerSelection and
+                computerSelection - and then return a string that declares the winner
+                of the round like so: "You Lose! Paper beats Rock"
+                make your function case insensitive (so users can input rock, ROCK, 
+                RocK or any other variation)
+                Important note: you want to return the results of this function call,
+                not console.log() them. To test this function console.log the results:
+                */
+
+                const playerSelection = prompt('Please choose: rock, paper or scissors:')
+                let computerSelection = computerPlay()
+                console.log('The computer played: ' + computerSelection)
+                console.log('You entered: ' + playerSelection)
+
+                function playRound(playerSelection, computerSelection) {
+                    //making the user inputs case sensitive
+                    playerSelection = playerSelection.toLowerCase()
+
+                    if (playerSelection === computerSelection) {
+                        return "It's a draw!"
+                    } else if (
+                        playerSelection === 'rock' &&
+                        computerSelection == 'scissors'
+                    ) {
+                        playerScore += 1
+                        return 'Rock beats Scissors you win!'
+                    } else if (
+                        playerSelection === 'scissors' &&
+                        computerSelection === 'paper'
+                    ) {
+                        playerScore += 1
+                        return 'Scissors beats paper you win!'
+                    } else if (
+                        playerSelection === 'paper' &&
+                        computerSelection === 'rock'
+                    ) {
+                        playerScore += 1
+                        return 'Paper beats rock you win!'
+                    } else if (
+                        computerSelection === 'paper' &&
+                        playerSelection === 'rock'
+                    ) {
+                        computerScore += 1
+                        return 'Paper beats rock you lose!'
+                    } else if (
+                        computerSelection === 'rock' &&
+                        playerSelection === 'scissors'
+                    ) {
+                        computerScore += 1
+                        return 'Rock beats scissors you lose!'
+                    } else if (
+                        computerSelection === 'scissors' &&
+                        playerSelection === 'paper'
+                    ) {
+                        computerScore += 1
+                        return 'Scissors beats paper you lose!'
+                    }
+
+                }
+
+                console.log(playRound(playerSelection, computerSelection))
+
+            }
+
+
+            //Counting the number of games...
+            function myGameCount() {
+                for (let i = 1; i <= 5; i++) {
+                    if (playerScore == 3) {
+                        console.log('You beat the computer you win!')
+                        break
+                    } else if (computerScore == 3) {
+                        console.log('The computer beat you, you lose!')
+                        break
+                    }
+                    completeRound()
+                    console.log(`Round: ${i}`);
+                    console.log(`Computer score: ${computerScore}`);
+                    console.log(`Player score: ${playerScore}`);
+
+                }
+            }
+
+            //Declaring a winner...
+            function winner() {
+                if (computerScore < playerScore) {
+                    console.log('Wow...Congratulations!!! YOU WIN THE ROCK, PAPER, SCISSORS GAME!!!')
+                } else if (computerScore > playerScore) {
+                    console.log('You loose...try again please!')
+                } else if (computerScore == playerScore) {
+                    console.log("It's a draw, try again!")
+                }
+            }
+
+            //Calling the last two functions..
+            myGameCount();
+            winner();
+
+
+
+
+
+
+
+            //Assignment#5
+            /*
+            Write a NEW function called game(). 
+            Use the previous function inside of this one to play a 5 round game
+            that keeps score and reports a winner or loser at the end.
+            You have not officially learned how to “loop” over code to repeat 
+            function calls… if you already know about loops from somewhere else 
+            (or if you feel like doing some more learning) feel free to use them.
+            If not, don’t worry! Just call your playRound function 5 times in a row. 
+            Loops are covered in the next lesson.
+            At this point you should be using console.log() to display the results of
+            each round and the winner at the end.
+            Use prompt() to get input from the user. Read the docs here if you need to.
+            Feel free to re-work your previous functions if you need to. Specifically,
+            you might want to change the return value to something more useful.
+            Feel free to create more “helper” functions if you think it would be useful.    
+            */
+
+
+
+
+
+        }
+
+
+        //Assignment #3
+        /*
+Your game is going to play against the computer, 
+so begin with a function called computerPlay that 
+will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’.
+We’ll use this function in the game to make the computer’s play.
+        */
+
+
+
+
+
+
+        myGame()
+    </script>
+</body>
+
+</html>
