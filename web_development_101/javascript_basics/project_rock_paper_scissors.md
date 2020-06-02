@@ -1650,5 +1650,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jasen Johnston's Solution](https://github.com/CelticJasen/rockpaperscisors) - [View in Browser](https://celticjasen.github.io/rockpaperscisors/)
 - [jasonjoe1's Solution](https://github.com/jasonjoe1/rock_paper_scissors) - [View in Browser](https://jasonjoe1.github.io/rock_paper_scissors/)
 - [bradg4508's Solution](https://github.com/bradg4508/rock-paper-scissors) - [View in Browser](https://bradg4508.github.io/rock-paper-scissors/)
+- [mpiriya's Solution](https://github.com/mpiriya/rock-paper-scissors) - [View in Browser](https://mpiriya.github.io/rock-paper-scissors/)
 </details>
 
