@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [xandora's Solution](https://github.com/xandora/rock-paper-scissors) - [View in Browser](https://xandora.github.io/rock-paper-scissors/)
+- [Jessie Jalca's Solution](https://github.com/jessiejalca/rock-paper-scissors)
+- [jleivers's Solution](https://github.com/jleivers/Odin_Project_RPS) - [View in Browser](https://jleivers.github.io/Odin_Project_RPS/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/rock-paper-scissors) - [View in Browser](https://cyber-mat.github.io/rock-paper-scissors/)
 - [Nenjamin's Solution](https://github.com/NebjaminCode/Odin_RPS) - [View in Browser](https://nebjamincode.github.io/Odin_RPS/)
 - [Coding Shawn's Solution](https://github.com/CodingShawn/Rock-Paper-Scissors) - [View in Browser](https://codingshawn.github.io/Rock-Paper-Scissors/)
@@ -1644,5 +1647,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Toyosil's Solution](https://github.com/Toyosil/ROCK-PAPER-SCISSORS) - [View in Browser](https://toyosil.github.io/ROCK-PAPER-SCISSORS/)
 - [Jordan Perkins' Solution](https://github.com/jordanperkins98/RockPaperScissors) - [View in Browser](https://jordanperkins98.github.io/RockPaperScissors/)
 - [Jasen Johnston's Solution](https://github.com/CelticJasen/rockpaperscisors) - [View in Browser](https://celticjasen.github.io/rockpaperscisors/)
+- [jasonjoe1's Solution](https://github.com/jasonjoe1/rock_paper_scissors) - [View in Browser](https://jasonjoe1.github.io/rock_paper_scissors/)
+- [bradg4508's Solution](https://github.com/bradg4508/rock-paper-scissors) - [View in Browser](https://bradg4508.github.io/rock-paper-scissors/)
 </details>
 

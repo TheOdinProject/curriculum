@@ -95,6 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Barnabas Btz (Easy)](https://github.com/barnabtz/google-homepage) - [View in Browser](https://barnabtz.github.io/google-homepage/)
+* [PCervone's Solution (Easy)](https://github.com/pcervone/google-homepage) - [View in Browser](https://pcervone.github.io/google-homepage/)
 * [jleivers's Solution (Easy)](https://github.com/jleivers/Odin_Project_Google) - [View in Browser](https://jleivers.github.io/Odin_Project_Google/)
 * [TheCodingArchi's Solution (Difficult)](https://github.com/TheCodingArchi/google-search-resultspage) - [View in Browser](https://thecodingarchi.github.io/google-search-resultspage/)
 * [TheCodingArchi's Solution (Easy)](https://github.com/TheCodingArchi/google-homepage) - [View in Browser](https://thecodingarchi.github.io/google-homepage/)
@@ -6776,6 +6778,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [Jasen's solution (Easy)](https://github.com/celticjasen/google-homepage/) - [View in Browser](https://celticjasen.github.io/google-homepage/)
 - [gitliffi's solution (Hard)](https://github.com/gitliffi/google_webpage/) - [View in Browser](https://gitliffi.github.io/google_webpage/)
 - [mpiriya's solution (Easy)](https://github.com/mpiriya/google-homepage/) - [View in Browser](https://mpiriya.github.io/google-homepage/)
+- [caldrun's solution (Easy)](https://github.com/caldrun/google-homepage/) - [View in Browser](https://caldrun.github.io/google-homepage/)
+- [Marissa Bellusci's Solution (Easy)](https://github.com/marissabellusci/google-homepage.git) - [View in Browser](https://marissabellusci.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
