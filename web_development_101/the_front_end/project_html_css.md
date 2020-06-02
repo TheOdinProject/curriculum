@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Daniel Moderiano's Solution (Easy)](https://github.com/daniel-moderiano/google-homepage) - [View in Browser](https://daniel-moderiano.github.io/google-homepage/)
 * [Lipi Chatterjee's Solution (Easy)](https://github.com/Lipi70/google-homepage) - [View in Browser](https://lipi70.github.io/google-homepage/)
 * [Barnabas Btz (Easy)](https://github.com/barnabtz/google-homepage) - [View in Browser](https://barnabtz.github.io/google-homepage/)
 * [PCervone's Solution (Easy)](https://github.com/pcervone/google-homepage) - [View in Browser](https://pcervone.github.io/google-homepage/)
