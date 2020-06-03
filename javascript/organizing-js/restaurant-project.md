@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [HeliumAce's Solution](https://github.com/HeliumAce/resto-page-modules) - [View in Browser](https://heliumace.github.io/resto-page-modules/)
 - [Andrija Jelenkovic's Solution](https://github.com/Amdrija/restaurantPage) - [View in Browser](https://amdrija.github.io/restaurantPage/)
 - [guyroberts21's Solution](https://github.com/guyroberts21/Restaurant-Page) - [View in Browser](https://guyroberts21.github.io/Restaurant-Page/)
 - [Chun's Solution](https://github.com/ashchunfai/restaurant-page) - [View in Browser](https://ashchunfai.github.io/restaurant-page/)
