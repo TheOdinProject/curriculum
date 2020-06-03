@@ -6789,6 +6789,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [siyadgedi's Solution (Easy)](https://github.com/siyadgedi/google-homepage/) - [View in Browser](https://siyadgedi.github.io/google-homepage/)
 - [mohammad jawwad's solution (Easy)](https://github.com/mdJawwad96/google-homepage) - [View in Browser](https://mdjawwad96.github.io/google-homepage/)
 - [alwaysreturning's Solution (Easy)](https://github.com/alwaysreturning/google-homepage.git) - [View in Browser](https://alwaysreturning.github.io/google-homepage/)
+- [Kimaya Hajarnis's Solution (Easy)](https://github.com/Kimaya2704/google-homepage.git) - [View in Browser](https://kimaya2704.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
