@@ -726,4 +726,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [wawi's Solution](https://github.com/NotAProgrammerdork/Calculator) - [View in Browser](https://notaprogrammerdork.github.io/Calculator)
 - [DurandalOne's Solution](https://https://github.com/DurandalOne/calculator) - [View in Browser](https://durandalone.github.io/calculator/)
 - [oppowag's Solution](https://github.com/oppowag/calculator) - [View in Browser](https://oppowag.github.io/calculator/)
+- [tim87henry's Solution](https://github.com/tim87henry/simple_calculator) - [View in Browser](https://tim87henry.github.io/simple_calculator/)
 </details>
