@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [kyebrowning's Solution (Easy)](https://github.com/kyebrowning/google-homepage) - [View in Browser](https://kyebrowning.github.io/google-homepage/)
 * [Regadius' Solution (Easy)](https://github.com/regadius/google-homepage) - [View in Browser](https://regadius.github.io/google-homepage)
 * [Aarogya Rijal's Solution (Easy)](https://github.com/aarogyarijal/top-projects/tree/master/web-projects/1.4.2-HTML-and-CSS-Basics) - [View in Browser](https://aarogyarijal.github.io/top-projects/web-projects/1.4.2-HTML-and-CSS-Basics/index.html)
 * [Daniel Moderiano's Solution (Easy)](https://github.com/daniel-moderiano/google-homepage) - [View in Browser](https://daniel-moderiano.github.io/google-homepage/)
