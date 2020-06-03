@@ -49,6 +49,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [guyroberts21's Solution](https://github.com/guyroberts21/Restaurant-Page) - [View in Browser](https://guyroberts21.github.io/Restaurant-Page/)
+- [Chun's Solution](https://github.com/ashchunfai/restaurant-page) - [View in Browser](https://ashchunfai.github.io/restaurant-page/)
 - [LenaChestnut's Solution](https://github.com/LenaChestnut/restaurant_page) - [View in Browser](https://lenachestnut.github.io/restaurant_page/)
 - [Diane998's Solution](https://github.com/Diane998/restaurant-page) - [View in Browser](https://diane998.github.io/restaurant-page/)
 - [Austin's Solution](https://github.com/cudworth/restaurant-page) - [View in Browser](https://cudworth.github.io/restaurant-page/dist/index)
@@ -174,4 +176,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Matyd's Solution](https://github.com/MatyD356/restaurant-page/tree/master) - [View in Browser](https://matyd356.github.io/restaurant-page/)
 - [Tristan Ross's Solution](https://github.com/TristanRoss/restaurant-page) - [View in Browser](https://tristanross.github.io/restaurant-page/)
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/restaurantpage) - [View in Browser](https://fortypercenttitanium.github.io/restaurantpage/)
+- [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/restaurant-page/) - [View in Browser](https://blessedonekobo.github.io/restaurant-page/)
+- [jcai's Solution](https://github.com/jcai8649/restaurant_page/tree/master) - [View in Browser](https://jcai8649.github.io/restaurant_page/)
+- [adilahmad321's Solution](https://github.com/adilahmad321/Restaurant-Page) - [View in Browser](https://adilahmad321.github.io/Restaurant-Page/)
 </details>

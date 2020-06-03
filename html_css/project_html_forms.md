@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/html-form) - [View in Browser](https://andrsrz.github.io/html-form/)
 * [Cody Degen's Solution](https://github.com/codydegen/mint_signup) - [View in browser](https://codydegen.github.io/mint_signup/)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/Mint) - [View in browser](https://haroonabdulrazaq.github.io/Mint/)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/html-form) - [View in browser](https://jsalvadorpp.github.io/html-form/)
@@ -177,6 +178,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/forms-practice) - [View in Browser](https://ranmaru22.github.io/the_odin_project/forms-practice/)
 * [Caosmagnvm's solution](https://github.com/caosmagnvm/MailchimpForm) - [View in Browser](https://caosmagnvm.github.io/MailchimpForm/)
 * [mangakiko's Solution](https://github.com/magakiko/HTML-Form) - [View in Browser](https://magakiko.github.io/HTML-Form/)
+* [barrysweeeney's Solution](https://barrysweeney.github.io/top-sign-up-form/) - [View in Browser](https://barrysweeney.github.io/top-sign-up-form/)
 
 </details>
 

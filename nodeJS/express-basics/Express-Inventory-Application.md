@@ -28,6 +28,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/game-inventory) - [View in Browser](https://game-inventory-kikupiku.herokuapp.com/)
+- [Julio's solution](https://github.com/julio22b/inventory-application) - [View in browser](https://inventory-app-top.herokuapp.com/catalog/)
 - [Simon's Solution](https://github.com/Sim-frpt/music-shop-inventory) - [View in Browser](https://agile-springs-42318.herokuapp.com/inventory/)
 - [Brian Tuju's Solution](https://github.com/briantuju/op-inventory-app) - [View in browser](https://op-inventory-app--briantuju.repl.co/)
 - [Igorashs's Solution](https://github.com/igorashs/inventory-application) - [View in Browser](https://nameless-harbor-47929.herokuapp.com/catalog)
@@ -44,4 +46,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Aron's Solution](https://github.com/aronfischer/mern_inventory_project) - [View in Browser](https://aronfischer.github.io/mern_inventory_project/)
 - [Tayfun Sur's Solution](https://github.com/0xtaf/inventory-app) - [View in Browser](https://thawing-ocean-46751.herokuapp.com/)
 - [barrysweeney's Solution](https://github.com/barrysweeney/buzzword-bazaar) - [View in Browser](https://secure-anchorage-38844.herokuapp.com/catalog)
+- [Mohamed's Solution](https://github.com/hamohuh/inventory-application) - [View in Browser](https://afternoon-atoll-93127.herokuapp.com/)
 </details>
