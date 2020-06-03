@@ -323,7 +323,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Henry M. Kirya's Solution](https://github.com/harrika/odinjs-sketch) - [View in Browser](https://harrika.github.io/odinjs-sketch/)
 * [Dennis Cope's Solution](https://github.com/coped/etch-a-sketch) - [View in Browser](https://coped.github.io/etch-a-sketch/)
 * [Ben's Solution](https://github.com/Koshoo/etch-a-sketch) - [View in Browser](https://koshoo.github.io/etch-a-sketch/)
-* [Brian's Solution](https://github.com/briantuju/odinProject/tree/master/e-a-sketch) - [View in Browser](https://briantuju.github.io/odinProject/e-a-sketch/index.html)
 * [Barrie's Solution](https://github.com/barrielake/etch-a-sketch) - [View in Browser](https://barrielake.github.io/etch-a-sketch/)
 * [Lele's Solution](https://github.com/Lele992/etch-a-sketch) - [View in Browser](https://lele992.github.io/etch-a-sketch/)
 * [Allan Glasier's Solution](https://github.com/allan-glasier/etch-a-sketch) - [View in Browser](https://allan-glasier.github.io/etch-a-sketch/)
