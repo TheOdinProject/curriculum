@@ -39,6 +39,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 1. If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running `webpack` the full bundled version of your site is available in the `dist` folder, but GH pages is looking for an index.html in the root directory of your project.
 
     1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
+    1. Recall that the __source branch__ for Github Pages is set in your repository's settings.
 </div>
 
 ### Student Solutions
@@ -48,7 +49,14 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+<<<<<<< HEAD
 - [Diane998's Solution](https://github.com/Diane998/restaurant-page) -[View in Browser](https://diane998.github.io/restaurant-page/)
+=======
+- [guyroberts21's Solution](https://github.com/guyroberts21/Restaurant-Page) - [View in Browser](https://guyroberts21.github.io/Restaurant-Page/)
+- [Chun's Solution](https://github.com/ashchunfai/restaurant-page) - [View in Browser](https://ashchunfai.github.io/restaurant-page/)
+- [LenaChestnut's Solution](https://github.com/LenaChestnut/restaurant_page) - [View in Browser](https://lenachestnut.github.io/restaurant_page/)
+- [Diane998's Solution](https://github.com/Diane998/restaurant-page) - [View in Browser](https://diane998.github.io/restaurant-page/)
+>>>>>>> 252965cf2a0b48893eec6fd8411ac5cd8c586052
 - [Austin's Solution](https://github.com/cudworth/restaurant-page) - [View in Browser](https://cudworth.github.io/restaurant-page/dist/index)
 - [Lucio's Solution](https://github.com/JCarlosLucio/restaurant-page) - [View in Browser](https://jcarloslucio.github.io/restaurant-page/)
 - [MarcoDSilva's Solution](https://github.com/MarcoDSilva/Restaurant_Page) - [View in Browser](https://marcodsilva.github.io/Restaurant_Page/dist/)
@@ -171,4 +179,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/restaurant-page/settings) - [View in Browser](https://ozansozuozgit.github.io/restaurant-page/)
 - [Matyd's Solution](https://github.com/MatyD356/restaurant-page/tree/master) - [View in Browser](https://matyd356.github.io/restaurant-page/)
 - [Tristan Ross's Solution](https://github.com/TristanRoss/restaurant-page) - [View in Browser](https://tristanross.github.io/restaurant-page/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/restaurantpage) - [View in Browser](https://fortypercenttitanium.github.io/restaurantpage/)
+- [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/restaurant-page/) - [View in Browser](https://blessedonekobo.github.io/restaurant-page/)
+- [jcai's Solution](https://github.com/jcai8649/restaurant_page/tree/master) - [View in Browser](https://jcai8649.github.io/restaurant_page/)
+- [adilahmad321's Solution](https://github.com/adilahmad321/Restaurant-Page) - [View in Browser](https://adilahmad321.github.io/Restaurant-Page/)
 </details>
