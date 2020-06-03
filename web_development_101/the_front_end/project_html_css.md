@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [kyebrowning's Solution (Easy)](https://github.com/kyebrowning/google-homepage) - [View in Browser](https://kyebrowning.github.io/google-homepage/)
 * [Regadius' Solution (Easy)](https://github.com/regadius/google-homepage) - [View in Browser](https://regadius.github.io/google-homepage)
 * [Aarogya Rijal's Solution (Easy)](https://github.com/aarogyarijal/top-projects/tree/master/web-projects/1.4.2-HTML-and-CSS-Basics) - [View in Browser](https://aarogyarijal.github.io/top-projects/web-projects/1.4.2-HTML-and-CSS-Basics/index.html)
 * [Daniel Moderiano's Solution (Easy)](https://github.com/daniel-moderiano/google-homepage) - [View in Browser](https://daniel-moderiano.github.io/google-homepage/)
@@ -6784,6 +6785,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [mpiriya's solution (Easy)](https://github.com/mpiriya/google-homepage/) - [View in Browser](https://mpiriya.github.io/google-homepage/)
 - [caldrun's solution (Easy)](https://github.com/caldrun/google-homepage/) - [View in Browser](https://caldrun.github.io/google-homepage/)
 - [Marissa Bellusci's Solution (Easy)](https://github.com/marissabellusci/google-homepage.git) - [View in Browser](https://marissabellusci.github.io/google-homepage/)
+- [Alex Wojtak's Solution (Easy)](https://github.com/alexwojtak/google-homepage.git) - [View in Browser](https://alexwojtak.github.io/google-homepage/)
+- [siyadgedi's Solution (Easy)](https://github.com/siyadgedi/google-homepage/) - [View in Browser](https://siyadgedi.github.io/google-homepage/)
+- [mohammad jawwad's solution (Easy)](https://github.com/mdJawwad96/google-homepage) - [View in Browser](https://mdjawwad96.github.io/google-homepage/)
+- [alwaysreturning's Solution (Easy)](https://github.com/alwaysreturning/google-homepage.git) - [View in Browser](https://alwaysreturning.github.io/google-homepage/)
+- [Kimaya Hajarnis's Solution (Easy)](https://github.com/Kimaya2704/google-homepage.git) - [View in Browser](https://kimaya2704.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
