@@ -41,6 +41,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-members-only) - [View in browser](https://odin-members-only.herokuapp.com/)
 * [Halkim's solution](https://github.com/halkim44/members_only) - [View in browser](https://aqueous-meadow-62293.herokuapp.com/)
 * [Tayfun Sur's solution](https://github.com/0xtaf/members-only) - [View in browser](https://secret-members.herokuapp.com/)
+* [barrysweeney's solution](https://github.com/barrysweeney/MembersOnlyMessageBoard) - [View in browser](https://cryptic-earth-60552.herokuapp.com/)
 </details>
 
 

@@ -22,6 +22,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/Mint) - [View in browser](https://haroonabdulrazaq.github.io/Mint/)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/html-form) - [View in browser](https://jsalvadorpp.github.io/html-form/)
 * [Mugilan's Solution](https://github.com/Mugilan-Codes/mint-sign-up-form) - [View in Browser](https://mugilan-codes.github.io/mint-sign-up-form/)
 * [Uduak Essien's solution](https://github.com/emmanuellekamwa/html_forms) - [View in Browser](https://emmanuellekamwa.github.io/html_forms/)
 * [kaliberpoziomka's solution](https://github.com/kaliberpoziomka/HTMLforms/) - [View in Browser](https://kaliberpoziomka.github.io/HTMLforms/)

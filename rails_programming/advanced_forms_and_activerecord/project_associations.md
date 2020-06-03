@@ -63,6 +63,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [leetie's Solution](https://github.com/leetie/private-events) - [View in Browser](https://damp-ocean-10801.herokuapp.com/)
+* [Run After's Solution](https://github.com/run-after/private-events)
 * [Cristobal Becerra's Solution](https://github.com/powei94/private-events) - [View in Browser](https://sheltered-mountain-61366.herokuapp.com/)
 * [Duarte's Barebones Solution](https://github.com/Duartemartins/events-app)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/private-members)
@@ -153,6 +155,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's Solution](https://github.com/jamcry/private-events) - [View in Browser](https://gentle-journey-93500.herokuapp.com/)
 * [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/eventor) - [View in Browser](http://eventor-io.herokuapp.com/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/private-events)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/private-events)
+* [Timework's Solution](https://github.com/Timework/private-events)
 </details>
 
 ### Additional Resources
