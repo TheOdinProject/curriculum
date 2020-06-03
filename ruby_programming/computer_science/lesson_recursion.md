@@ -43,3 +43,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Natashatherobot's blog post on Recursion in Ruby](http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
 * [Functional Programming Techniquest with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top
 * [CS50 explanation of recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM)
+* [A breakdown of the recursive Fibonacci method](https://youtu.be/zg-ddPbzcKM) from Khan Academy

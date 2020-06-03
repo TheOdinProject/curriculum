@@ -3,12 +3,12 @@
 
 ### http
 
-* lauch schools intro to http book: https://launchschool.com/books/http
+* launch schools intro to http book: https://launchschool.com/books/http
 
 
 ### Api's
 
-* lauch schools intro to api's book: https://launchschool.com/books/working_with_apis/read/introduction
+* launch schools intro to api's book: https://launchschool.com/books/working_with_apis/read/introduction
 
 
 ### SSL

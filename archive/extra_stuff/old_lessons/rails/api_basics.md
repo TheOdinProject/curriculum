@@ -164,7 +164,7 @@ This is good for many reasons.  Because each piece of your application doesn't c
 
 It's usually a good idea to strive to keep independent pieces of your application as independent as possible anyway.  Formalizing this under the umbrella of SOA forces you to think in terms of exactly which methods you want to expose to the other parts of your application and it will make your code better along the way.  An added benefit is that, when you assume that each major component of your application is independent, you can also isolate issues much easier and will be forced to handle errors in a reasonable way.  
 
-Using an SOA architecure for your whole application is sort of like breaking up a giant and complicated Ruby script into nice neat classes and methods, just on a broader scale.
+Using an SOA architecture for your whole application is sort of like breaking up a giant and complicated Ruby script into nice neat classes and methods, just on a broader scale.
 
 One of the best known cases of switching to a service-oriented architecture was Amazon.com.  Sometime in 2002, Jeff Bezos basically dictated that every group would switch to SOA or be fired.  An [infamous blog post](https://plus.google.com/+RipRowan/posts/eVeouesvaVX) from a Google Employee, accidentally released to the public instead of staying internal to the company, talked about Amazon's strength with SOA.  It's a great read so check it out, but the basics of Bezos' email are, as quoted from the post:
 
