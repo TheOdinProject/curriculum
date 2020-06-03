@@ -6786,9 +6786,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [caldrun's solution (Easy)](https://github.com/caldrun/google-homepage/) - [View in Browser](https://caldrun.github.io/google-homepage/)
 - [Marissa Bellusci's Solution (Easy)](https://github.com/marissabellusci/google-homepage.git) - [View in Browser](https://marissabellusci.github.io/google-homepage/)
 - [Alex Wojtak's Solution (Easy)](https://github.com/alexwojtak/google-homepage.git) - [View in Browser](https://alexwojtak.github.io/google-homepage/)
-* [siyadgedi's Solution (Easy)](https://github.com/siyadgedi/google-homepage/) - [View in Browser](https://siyadgedi.github.io/google-homepage/)
+- [siyadgedi's Solution (Easy)](https://github.com/siyadgedi/google-homepage/) - [View in Browser](https://siyadgedi.github.io/google-homepage/)
 - [mohammad jawwad's solution (Easy)](https://github.com/mdJawwad96/google-homepage) - [View in Browser](https://mdjawwad96.github.io/google-homepage/)
-* [alwaysreturning's Solution (Easy)](https://github.com/alwaysreturning/google-homepage.git) - [View in Browser](https://alwaysreturning.github.io/google-homepage/)
+- [alwaysreturning's Solution (Easy)](https://github.com/alwaysreturning/google-homepage.git) - [View in Browser](https://alwaysreturning.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
