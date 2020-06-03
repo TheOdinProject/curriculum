@@ -16,7 +16,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 
       ~~~javascript
       function playRound(playerSelection, computerSelection) {
-      	// your code here!
+      	
       }
 
       const playerSelection = 'rock'
@@ -41,6 +41,131 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Rock, Paper & Scissors Game</title>
+  </head>
+
+  <body>
+    <script>
+      game = () => {
+        let playerScore = 0
+        let computerScore = 0
+
+        completeRound = () => {
+          function computerPlay() {
+            let computerRandom = Math.floor(Math.random() * Math.floor(3))
+            let computerHand
+            switch (computerRandom) {
+              case 0:
+                computerHand = 'rock'
+                break
+              case 1:
+                computerHand = 'paper'
+                break
+              case 2:
+                computerHand = 'scissors'
+            }
+            return computerHand
+          }
+
+          const playerSelection = prompt(
+            'Please choose: rock, paper or scissors:',
+          )
+          let computerSelection = computerPlay()
+          console.log('The computer played: ' + computerSelection)
+          console.log('You entered: ' + playerSelection)
+
+          playRound = (playerSelection, computerSelection) => {
+            //making the user inputs case sensitive
+            playerSelection = playerSelection.toLowerCase()
+
+            if (playerSelection === computerSelection) {
+              return "It's a draw!"
+            } else if (
+              playerSelection === 'rock' &&
+              computerSelection == 'scissors'
+            ) {
+              playerScore += 1
+              return 'Rock beats Scissors, you are a winner!'
+            } else if (
+              playerSelection === 'scissors' &&
+              computerSelection === 'paper'
+            ) {
+              playerScore += 1
+              return 'Scissors beats paper, you are winner!'
+            } else if (
+              playerSelection === 'paper' &&
+              computerSelection === 'rock'
+            ) {
+              playerScore += 1
+              return 'Paper beats rock, you are a winner!'
+            } else if (
+              computerSelection === 'paper' &&
+              playerSelection === 'rock'
+            ) {
+              computerScore += 1
+              return 'Paper beats rock you lose!'
+            } else if (
+              computerSelection === 'rock' &&
+              playerSelection === 'scissors'
+            ) {
+              computerScore += 1
+              return 'Rock beats scissors you lose!'
+            } else if (
+              computerSelection === 'scissors' &&
+              playerSelection === 'paper'
+            ) {
+              computerScore += 1
+              return 'Scissors beats paper you lose!'
+            }
+          }
+
+          console.log(playRound(playerSelection, computerSelection))
+        }
+
+        //Counting the number of games...
+        myGameCount = () => {
+          for (let i = 1; i <= 5; i++) {
+            if (playerScore == 3) {
+              console.log('You beat the computer you win!')
+              break
+            } else if (computerScore == 3) {
+              console.log('The computer beat you, you lose!')
+              break
+            }
+            completeRound()
+            console.log(`Round: ${i}`)
+            console.log(`Computer score: ${computerScore}`)
+            console.log(`Player score: ${playerScore}`)
+          }
+        }
+
+        //Declaring a winner...
+        winner = () => {
+          if (computerScore < playerScore) {
+            console.log(
+              'Wow...Congratulations!!! YOU WIN THE ROCK, PAPER, SCISSORS GAME!!!',
+            )
+          } else if (computerScore > playerScore) {
+            console.log('You loose...try again please!')
+          } else if (computerScore == playerScore) {
+            console.log("It's a draw, try again!")
+          }
+        }
+
+        //Calling the last two functions..
+        myGameCount()
+        winner()
+      }
+
+      game()
+    </script>
+  </body>
+</html>
+
+
 - [zieeco's Solution](https://github.com/zieeco/rock-paper-scissors) - [View in Browser](https://zieeco.github.io/rock-paper-scissors/)
 - [Lipi Chatterjee's Solution](https://github.com/Lipi70/rock-paper-sci) - [View in Browser](https://lipi70.github.io/rock-paper-sci/)
 - [xandora's Solution](https://github.com/xandora/rock-paper-scissors) - [View in Browser](https://xandora.github.io/rock-paper-scissors/)
