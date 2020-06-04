@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ranno's Solution](https://github.com/RannoL/tic_tac_toe)
 * [Gael's Solution](https://github.com/lungla-gael/Tic-Tac-Toe)
 * [Aaron's Solution](https://github.com/Aaron-McD/Tic-Tac-Toe)
 * [Richard's Solution](https://github.com/RichardDenton/tic-tac-toe) - [View in repl.it](https://repl.it/@RichardDenton/tic-tac-toe)
@@ -369,6 +370,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-tic-tac-toe)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/tic_tac_toe/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@abohannon/ruby-sandbox#projects/tic_tac_toe/tic_tac_toe.rb)
 * [msespos's Solution](https://github.com/msespos/tic-tac-toe)
+* [Sandy's Solution](https://github.com/kuosandys/top-tic-tac-toe)
 </details>
 
 ### Project 2: Mastermind
@@ -668,6 +670,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Vuyani's Solution](https://github.com/vuyanir/tictactoe)
 * [fussykyloren's Solution](https://github.com/fussykyloren/mastermind-v2) - [Play on repl.it](https://repl.it/github/fussykyloren/mastermind-v2)
 * [Adam's Solution](https://github.com/abohannon/mastermind-ruby)
+* [Sandy's Solution](https://github.com/kuosandys/top-mastermind)
 </details>
 
 ### Additional Resources
