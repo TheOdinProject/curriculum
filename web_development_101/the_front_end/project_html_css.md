@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-http://emilravn.github.io/ChromeReplica
+* [emilravn's Solution (Easy)](https://github.com/emilravn/ChromeReplica) - [View in Browser](https://emilravn.github.io/ChromeReplica)
 * [nemo-xhan's Solution (Easy)](https://github.com/nemo-xhan/google_homepage) - [View in Browser](https://nemo-xhan.github.io/google_homepage/#)
 * [AlanSoto31's Solution (Easy)](https://github.com/AlanSoto31/google-homepage) - [View in Browser](https://alansoto31.github.io/google-homepage/)
 * [kyebrowning's Solution (Easy)](https://github.com/kyebrowning/google-homepage) - [View in Browser](https://kyebrowning.github.io/google-homepage/)
