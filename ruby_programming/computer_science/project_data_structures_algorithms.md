@@ -20,7 +20,7 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
   4. Write a `#find` method which accepts a value and returns the node with the given value.
 
   5. Write a `#level_order` method which accepts a block. The method should traverse the tree in breadth-first level order and yield each node to the provided block. This method can be implemented using either iteration or recursion (try implementing both!). As a bonus, make the method return an array of values if no block is given.
-    **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://www.youtube.com/watch?v=86g8jAQug04)).
+  **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://www.youtube.com/watch?v=86g8jAQug04)).
 
   6. Write `#inorder`, `#preorder`, and `#postorder` methods which accept a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. As a bonus, make the method return an array of values if no block is given.
 
@@ -29,18 +29,18 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
   8. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree is not more than 1.
 
   9. Write a `#rebalance!` method which rebalances an unbalanced tree.
-    **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+  **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
 
   10. Write a simple driver script that does the following:
 
-        1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
-        2. Confirm that the tree is balanced by calling `#balanced?`
-        3. Print out all elements in level, pre, post, and in order
-        4. try to unbalance the tree by adding several numbers > 100
-        5. Confirm that the tree is unbalanced by calling `#balanced?`
-        6. Balance the tree by calling `#rebalance!`
-        7. Confirm that the tree is balanced by calling `#balanced?`
-        8. Print out all elements in level, pre, post, and in order
+      1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
+      2. Confirm that the tree is balanced by calling `#balanced?`
+      3. Print out all elements in level, pre, post, and in order
+      4. try to unbalance the tree by adding several numbers > 100
+      5. Confirm that the tree is unbalanced by calling `#balanced?`
+      6. Balance the tree by calling `#rebalance!`
+      7. Confirm that the tree is balanced by calling `#balanced?`
+      8. Print out all elements in level, pre, post, and in order
 
 Pat yourself on the back! As a super-duper bonus, notice how all the depth-first methods share a similar signature and are basically just a re-arrangement of the same 3 lines... try dynamically declaring the three methods using metaprogamming techniques like `#define_method`.
 </div>
