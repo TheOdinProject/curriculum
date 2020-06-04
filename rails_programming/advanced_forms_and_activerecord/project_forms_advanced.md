@@ -71,6 +71,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/odin-flight-booker)
 * [BShowen's Solution](https://github.com/BShowen/flight_booker) - [Live](https://aerosplat.herokuapp.com/)
 * [Duarte's simple solution](https://github.com/Duartemartins/flight-booker)
 * [robo-monk's Solution](https://github.com/robo-monk/odin-flights) - [View in Browser](https://infinite-ridge-41115.herokuapp.com/)
@@ -156,7 +157,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [themetar's Solution](https://github.com/themetar/flight-booker-top)
 * [Rey van den Berg's Solution](https://github.com/Rey810/flight-booker)
 * [Timework's Solution](https://github.com/Timework/odin-flight-booker)
-
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/e40ad2750fa046f48eec7b3b2870baee93c4bd4c/odin-flight-booker)
 </details>
 
 ### Additional Resources

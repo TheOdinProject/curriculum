@@ -69,7 +69,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Nick DiPreta's Solution (w/ XC)](https://github.com/NickDiPreta/-linkedlist)
+- [Ichenn's Solution (with extra credit)](https://github.com/Ichenn92/ruby-function/tree/master/linked-lists)
+- [andrewjh271's Solution (with extra credit)](https://github.com/andrewjh271/linked_list)
+- [threeaces' Solution](https://github.com/threeaces/linked_lists_ruby_TOP/tree/master/lib)  
+- [Edd Sansome's Solution (with extra credit](https://github.com/casualc0der/odin-ruby/blob/master/odin_cs/linkedlist.rb)
+- [fillingthemoon's Solution (with extra credit)](https://github.com/fillingthemoon/linked-lists)
+- [Loumarven's Solution (with extra credit)](https://github.com/loumarven/top_ruby_linked_lists)
+- [qazaqpyn's Solution (with extra credit)](https://github.com/qazaqpyn/linkedlistruby)
+- [Nick DiPreta's Solution (with extra credit)](https://github.com/NickDiPreta/-linkedlist)
 - [Andrew Huntington's Solution (with extra credit)](https://github.com/AndrewHuntington/ruby_projects/tree/master/linked_lists)
 - [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/Ruby_Linked_List/blob/master/bin/linked_list_demo.rb) - [View Demo](https://repl.it/@andrewbaldwin44/RubyLinkedList)
 - [Christian's Solution](https://github.com/rueeazy/ruby-exercises/blob/master/linked_list.rb)
@@ -240,4 +247,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Michael K's Solution](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/linked_list)
 - [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Linked_lists/LinkedList.rb)
 - [Kenneth Holston's Solution](https://github.com/kholston/linked_list)
+- [AnsellMaximilian's Solution (with extra credit)](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/linked_list.rb)
+- [fussykyloren's Solution (with extra credit)](https://github.com/fussykyloren/ruby-linked-list)
+- [ttzv's Solution (with extra credit)](https://github.com/ttzv-training-repos/ruby_cs_projects)
   </details>
