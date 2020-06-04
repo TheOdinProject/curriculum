@@ -277,7 +277,7 @@ In express you can set and access various local variables throughout your entire
 Middleware functions are simply functions that take the the `req` and `res` objects, manipulate them and pass them on through the rest of the app.
 
 ~~~javascript
-router.use(function(req, res, next) {
+app.use(function(req, res, next) {
   res.locals.currentUser = req.user;
   next();
 });

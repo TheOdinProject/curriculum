@@ -24,6 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/appledotcome-clone) - [View in Browser](https://andrsrz.github.io/appledotcome-clone/)
 * [Yiğit's Solution](https://github.com/yigitm/Apple-Clone) - [View in Browser](https://yigitm.github.io/Apple-Clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/Apple_Clone) - [View in Browser](https://haroonabdulrazaq.github.io/Apple_Clone/)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/old-apple-page) - [View in Browser](https://jsalvadorpp.github.io/old-apple-page/)
@@ -134,7 +135,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Veskenazi's Solution](https://github.com/veskenazi/apple-homepage-clone) - [View in Browser](https://veskenazi.github.io/apple-homepage-clone/)
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/old-apple-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/old-apple-clone/)
 * [jamesredux's Solution](https://github.com/Jamesredux/apple-clone) - [View in Browser](https://jamesredux.github.io/apple-clone/)
-
+* [mangakiko's Solution](https://github.com/magakiko/Apple) - [View in Browser](https://magakiko.github.io/Apple/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/apple-site-clone) - [View in Browser](https://barrysweeney.github.io/apple-site-clone)
 </details>
 
 ### Additional Resources

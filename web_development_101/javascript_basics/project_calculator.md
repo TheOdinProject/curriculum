@@ -45,6 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [AlanSoto31's Solution](https://github.com/AlanSoto31/Calculator) - [View in Browser](https://alansoto31.github.io/Calculator/)
+- [Jared's Solution](https://github.com/jaredaritter/calculator) - [View in Browser](https://jaredaritter.github.io/calculator/)
+- [Lcdevi's Solution](https://github.com/Lcdevi/simple-calculator) - [View in Browser](https://lcdevi.github.io/simple-calculator/)
+- [notstoe's Solution](https://github.com/notstoe/online-calculator) - [View in Browser](https://notstoe.github.io/online-calculator/)
+- [aditditto's Solution](https://github.com/aditditto/web-calculator) - [View in Browser](https://aditditto.github.io/web-calculator/)
+- [Tristan Deane's Solution](https://github.com/IM-Deane/online-calculator)
 - [Blaze Vincent's Solution](https://github.com/blaze-vincent/calculator-odin/) - [View in Browser](https://blaze-vincent.github.io/calculator-odin)
 - [Sam Eff's Solution](https://github.com/SamEff/Calculator) - [View in Browser](https://SamEff.github.io/Calculator/)
 - [Tilda Udufo's Solution](https://github.com/TildaDares/Calculator) - [View in Browser](https://tildadares.github.io/Calculator/)
@@ -719,4 +725,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [hamparmin's Solution](https://github.com/hamparmin/calculator) - [View in Browser](https://hamparmin.github.io/calculator/)
 - [Chow Jia Ying's Solution](https://github.com/C-likethis123/calculator) - [View in Browser](https://c-likethis123.github.io/calculator)
 - [wawi's Solution](https://github.com/NotAProgrammerdork/Calculator) - [View in Browser](https://notaprogrammerdork.github.io/Calculator)
+- [DurandalOne's Solution](https://https://github.com/DurandalOne/calculator) - [View in Browser](https://durandalone.github.io/calculator/)
+- [oppowag's Solution](https://github.com/oppowag/calculator) - [View in Browser](https://oppowag.github.io/calculator/)
+- [tim87henry's Solution](https://github.com/tim87henry/simple_calculator) - [View in Browser](https://tim87henry.github.io/simple_calculator/)
+- [castle429's Solution](https://github.com/castle429/calculator) - [View in Browser](https://castle429.github.io/calculator/)
 </details>
