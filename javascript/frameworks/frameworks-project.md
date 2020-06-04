@@ -74,4 +74,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [thecodediver's Solution](https://github.com/thecodediver/library_react) - [View in Browser](https://thecodediver.github.io/library_react/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/library-react)
 * [Joe Thompson's Library Solution](https://github.com/jlthompso/library_react) - [View in Browser](https://jlthompso.github.io/library_react/)
+
+Add my React solution here.
+https://github.com/ricardo-gonzalez-villegas/library-react-app/tree/master
+https://ricardo-gonzalez-villegas.github.io/library-react-app/
 </details>
