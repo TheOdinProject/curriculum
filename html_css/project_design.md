@@ -105,6 +105,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Veskenazi's Solution](https://github.com/veskenazi/design-teardown) - [View in Browser](https://veskenazi.github.io/design-teardown/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/design-teardown) - [View in Browser](https://ranmaru22.github.io/the_odin_project/design-teardown/)
 * [mangakiko's solution](https://github.com/magakiko/Design-Teardown) - [View in Browser](https://magakiko.github.io/Design-Teardown/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/design-teardown) - [View in Browser](https://barrysweeney.github.io/design-teardown/)
 </details>
 
 ### Additional Resources
