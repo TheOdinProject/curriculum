@@ -192,6 +192,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [mangakiko's Solution](https://github.com/magakiko/Youtube-Videopage) - [View in Browser](https://magakiko.github.io/Youtube-Videopage/)
 * [barrysweneey's solution](https://github.com/barrysweeney/embedding-practice) - [View in Browser](https://barrysweeney.github.io/embedding-practice/)
 * [Timework's solution](https://github.com/Timework/youtube-clone/tree/master) - [View in Browser](https://timework.github.io/youtube-clone/)
+* [bhenning83's solution](https://github.com/bhenning83/youtube-homepage) - [View in Browser](https://bhenning83.github.io/youtube-homepage/)
 </details>
 
 ### Additional Resources
