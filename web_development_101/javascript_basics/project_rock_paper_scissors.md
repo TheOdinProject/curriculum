@@ -574,7 +574,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Craig T's Solution](https://github.com/ctomberg/Rock-Paper-Scissors) - [View in Browser](https://ctomberg.github.io/Rock-Paper-Scissors/)
 - [Jeffrey's Solution](https://github.com/Jeffreyvdk/rock_paper_scissors)
 - [Az's soultion (console)](https://github.com/AztecianDev/RockPaperScissors) - [View in Browser](https://azteciandev.github.io/RockPaperScissors/)
-- [Brian's Solution (with GUI)](https://github.com/briantuju/odinProject/tree/master/rps-game) - [View in Browser](https://briantuju.github.io/odinProject/rps-game/index.html)
 - [Vera' Solution](https://github.com/overaaloe/rock_paper_scissors) - [View in Browser](https://overaaloe.github.io/rock_paper_scissors/)
 - [MrNotKindHeart's Solution](https://github.com/Diegohndev/Rock-Paper-Scissor)
 - [Krystell's Solution (with GUI)](https://github.com/KrystellBarraza/rockpaperscissors) - [View in Browser](https://krystellbarraza.github.io/rockpaperscissors/)
