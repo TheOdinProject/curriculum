@@ -33,14 +33,14 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
 
   10. Write a simple driver script that does the following:
 
-      1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
-      2. Confirm that the tree is balanced by calling `#balanced?`
-      3. Print out all elements in level, pre, post, and in order
-      4. try to unbalance the tree by adding several numbers > 100
-      5. Confirm that the tree is unbalanced by calling `#balanced?`
-      6. Balance the tree by calling `#rebalance!`
-      7. Confirm that the tree is balanced by calling `#balanced?`
-      8. Print out all elements in level, pre, post, and in order
+    1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
+    2. Confirm that the tree is balanced by calling `#balanced?`
+    3. Print out all elements in level, pre, post, and in order
+    4. try to unbalance the tree by adding several numbers > 100
+    5. Confirm that the tree is unbalanced by calling `#balanced?`
+    6. Balance the tree by calling `#rebalance!`
+    7. Confirm that the tree is balanced by calling `#balanced?`
+    8. Print out all elements in level, pre, post, and in order
 
 Pat yourself on the back! As a super-duper bonus, notice how all the depth-first methods share a similar signature and are basically just a re-arrangement of the same 3 lines... try dynamically declaring the three methods using metaprogamming techniques like `#define_method`.
 </div>
