@@ -46,4 +46,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Tayfun Sur's Solution](https://github.com/0xtaf/inventory-app) - [View in Browser](https://thawing-ocean-46751.herokuapp.com/)
 - [barrysweeney's Solution](https://github.com/barrysweeney/buzzword-bazaar) - [View in Browser](https://secure-anchorage-38844.herokuapp.com/catalog)
 - [Mohamed's Solution](https://github.com/hamohuh/inventory-application) - [View in Browser](https://afternoon-atoll-93127.herokuapp.com/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/my-inventory) - [View in Browser](https://gentle-island-35903.herokuapp.com)
 </details>
