@@ -6794,8 +6794,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [Kimaya Hajarnis's Solution (Easy)](https://github.com/Kimaya2704/google-homepage.git) - [View in Browser](https://kimaya2704.github.io/google-homepage/)
 - [Zoltan-7's Solution (Easy)](https://github.com/Zoltan-7/google-homepage) - [View in Browser](https://zoltan-7.github.io/google-homepage/)
 - [Gaksedesu's Solution (Easy)](https://github.com/gaksedesu/google-homepage) - [View in Browser](https://gaksedesu.github.io/google-homepage/)
-* [henybeza's Solution](https://github.com/henybeza/google-homepage) - [View in Browser](https://henybeza.github.io/google-homepage/)
-
+Here is my solution for the Google search page clone git@github.com:paulopaquito/google-homepage.git
 </details>
 
 ### Additional Resources
