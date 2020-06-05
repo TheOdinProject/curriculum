@@ -369,7 +369,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/tic-tac-toe.rb)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-tic-tac-toe)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/tic_tac_toe/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@abohannon/ruby-sandbox#projects/tic_tac_toe/tic_tac_toe.rb)
-* [msespos's Solution](https://github.com/msespos/tic-tac-toe)
+* [msespos's Solution](https://github.com/msespos/tic-tac-toe) - [Play on repl.it](https://repl.it/@msespos/tic-tac-toe#tic_tac_toe.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-tic-tac-toe)
 </details>
 
