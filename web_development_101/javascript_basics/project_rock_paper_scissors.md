@@ -41,8 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
--[INTJBrandon's Solution](https://github.com/INTJBrandon/Rock_Paper_Scissors) - [View in Browser](https://intjbrandon.github.io/Rock_Paper_Scissors/)
--[RaymondLi's Solution](https://github.com/RaymondLi-1993/rock-paper-scissors-game) - [View in Browser](https://raymondli-1993.github.io/rock-paper-scissors-game/)
+- [Tf2redspy's Solution](https://github.com/tfredspy/Rock-Paper-Scissors)
+- [INTJBrandon's Solution](https://github.com/INTJBrandon/Rock_Paper_Scissors) - [View in Browser](https://intjbrandon.github.io/Rock_Paper_Scissors/)
+- [RaymondLi's Solution](https://github.com/RaymondLi-1993/rock-paper-scissors-game) - [View in Browser](https://raymondli-1993.github.io/rock-paper-scissors-game/)
 - [Arnazarov's Solution](https://github.com/Arnazarov/rock-paper-scissor-odin-project3) - [View in Browser](https://arnazarov.github.io/rock-paper-scissor-odin-project3/)
 - [Aidan's Solution](https://github.com/aidanclarkescott/rock-paper-scissors) - [View in Browser](https://aidanclarkescott.github.io/rock-paper-scissors/)
 - [henybeza's Solution](https://github.com/henybeza/rock-paper-scissors) - [View in Browser](https://henybeza.github.io/rock-paper-scissors/)
