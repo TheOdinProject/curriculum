@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [emilravn's Solution (Easy)](https://github.com/emilravn/ChromeReplica) - [View in Browser](https://emilravn.github.io/ChromeReplica)
 * [nemo-xhan's Solution (Easy)](https://github.com/nemo-xhan/google_homepage) - [View in Browser](https://nemo-xhan.github.io/google_homepage/#)
 * [AlanSoto31's Solution (Easy)](https://github.com/AlanSoto31/google-homepage) - [View in Browser](https://alansoto31.github.io/google-homepage/)
 * [kyebrowning's Solution (Easy)](https://github.com/kyebrowning/google-homepage) - [View in Browser](https://kyebrowning.github.io/google-homepage/)
@@ -6790,7 +6791,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [mohammad jawwad's solution (Easy)](https://github.com/mdJawwad96/google-homepage) - [View in Browser](https://mdjawwad96.github.io/google-homepage/)
 - [alwaysreturning's Solution (Easy)](https://github.com/alwaysreturning/google-homepage.git) - [View in Browser](https://alwaysreturning.github.io/google-homepage/)
 - [Kimaya Hajarnis's Solution (Easy)](https://github.com/Kimaya2704/google-homepage.git) - [View in Browser](https://kimaya2704.github.io/google-homepage/)
+- [Zoltan-7's Solution (Easy)](https://github.com/Zoltan-7/google-homepage) - [View in Browser](https://zoltan-7.github.io/google-homepage/)
 - [Gaksedesu's Solution (Easy)](https://github.com/gaksedesu/google-homepage) - [View in Browser](https://gaksedesu.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
