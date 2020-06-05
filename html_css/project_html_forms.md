@@ -179,7 +179,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Caosmagnvm's solution](https://github.com/caosmagnvm/MailchimpForm) - [View in Browser](https://caosmagnvm.github.io/MailchimpForm/)
 * [mangakiko's Solution](https://github.com/magakiko/HTML-Form) - [View in Browser](https://magakiko.github.io/HTML-Form/)
 * [barrysweeeney's Solution](https://barrysweeney.github.io/top-sign-up-form/) - [View in Browser](https://barrysweeney.github.io/top-sign-up-form/)
-
+* [bhenning83's Solution](https://github.com/bhenning83/mint-form) - [View in Browser](https://bhenning83.github.io/mint-form/)
 </details>
 
 ### Additional Resources
