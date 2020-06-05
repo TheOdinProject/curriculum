@@ -46,6 +46,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [AdeyemiTimilehin Solution](https://adeyemi-timilehin.github.io/EtchSketchProject/)- [View in Browser](https://adeyemi-timilehin.github.io/EtchSketchProject/)
+* [Arnazarov's Solution](https://github.com/Arnazarov/etch-a-sketch) - [View in Browser](https://arnazarov.github.io/etch-a-sketch/)
 * [AlanSoto31's Solution](https://github.com/AlanSoto31/etch-a-sketch) - [View in Browser](https://alansoto31.github.io/etch-a-sketch/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/Etch-A-Sketch) - [View in Browser](https://irlgabriel.github.io/Etch-A-Sketch/)
 * [Hadrien Lap's Solution](https://github.com/HadrienLap/etch-a-sketch) - [View in Browser](https://hadrienlap.github.io/etch-a-sketch/)
@@ -1046,4 +1047,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Arturo's Solution](https://github.com/StarSheriff2/Etch-a-Sketch-Project---Arturo) - [View in Browser](https://starsheriff2.github.io/Etch-a-Sketch-Project---Arturo/)
 * [constantinginga's Solution](https://github.com/constantinginga/etch-a-sketch) - [View in Browser](https://constantinginga.github.io/etch-a-sketch/)
 * [mpiriya's solution](https://github.com/mpiriya/etch-a-sketch) - [View in Browser](https://mpiriya.github.io/etch-a-sketch/)
+* [Aodham's solution](https://github.com/Aodham/TOP_etch-a-sketch) - [View in Browser](https://aodham.github.io/TOP_etch-a-sketch/)
 </details>
