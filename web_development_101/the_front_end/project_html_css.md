@@ -6795,6 +6795,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 - [Zoltan-7's Solution (Easy)](https://github.com/Zoltan-7/google-homepage) - [View in Browser](https://zoltan-7.github.io/google-homepage/)
 - [Gaksedesu's Solution (Easy)](https://github.com/gaksedesu/google-homepage) - [View in Browser](https://gaksedesu.github.io/google-homepage/)
 * [henybeza's Solution](https://github.com/henybeza/google-homepage) - [View in Browser](https://henybeza.github.io/google-homepage/)
+* [Jean-Baptiste's Solution (Easy)](https://github.com/pjbaptiste/google-homepage) - [View in Browser](https://pjbaptiste.github.io/google-homepage/)
+
 
 </details>
 
