@@ -1637,9 +1637,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [oppowag's Solution](https://github.com/oppowag/rps) - [View in Browser](https://oppowag.github.io/rps/)
 - [Arindam-7's solution](https://github.com/Arindam-7/RockPaperScissor)
 - [ypc-dev's Solution](https://github.com/ypc-dev/rock-paper-scissors) - [View in Browser](https://ypc-dev.github.io/rock-paper-scissors/)
-<<<<<<< HEAD
 - [mrbuddh4's solution](https://github.com/mrbuddh4/rock-paper-scissors) - [View in Browser](https://mrbuddh4.github.io/rock-paper-scissors/)
-=======
 - [aditditto's Solution](https://github.com/aditditto/rock-paper-scissors-site) - [View in Browser](https://aditditto.github.io/rock-paper-scissors-site/)
 - [victor orlund's solution](https://github.com/dev-opus/RPS) - [View in Browser](https://dev-opus.github.io/RPS/)
 - [Superboy20's Solution](https://github.com/Superboy20/RockPaperScissorTOP)
@@ -1659,6 +1657,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bradg4508's Solution](https://github.com/bradg4508/rock-paper-scissors) - [View in Browser](https://bradg4508.github.io/rock-paper-scissors/)
 - [mpiriya's Solution](https://github.com/mpiriya/rock-paper-scissors) - [View in Browser](https://mpiriya.github.io/rock-paper-scissors/)
 - [soolo's Solution](https://github.com/soolodev/top-rps) - [View in Browser](https://soolodev.github.io/top-rps/)
->>>>>>> 2c6cda024422cb791272853fa154a374fc53d4b4
 </details>
 
