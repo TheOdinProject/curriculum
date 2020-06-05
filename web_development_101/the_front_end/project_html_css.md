@@ -101,7 +101,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [AlanSoto31's Solution (Easy)](https://github.com/AlanSoto31/google-homepage) - [View in Browser](https://alansoto31.github.io/google-homepage/)
 * [kyebrowning's Solution (Easy)](https://github.com/kyebrowning/google-homepage) - [View in Browser](https://kyebrowning.github.io/google-homepage/)
 * [Regadius' Solution (Easy)](https://github.com/regadius/google-homepage) - [View in Browser](https://regadius.github.io/google-homepage)
-* [Aarogya Rijal's Solution (Easy)](https://github.com/aarogyarijal/top-projects/tree/master/web-projects/1.4.2-HTML-and-CSS-Basics) - [View in Browser](https://aarogyarijal.github.io/top-projects/web-projects/1.4.2-HTML-and-CSS-Basics/index.html)
+* [Aarogya Rijal's Solution (Easy)](https://github.com/aarogyarijal/top-projects/tree/master/web-projects/4-the-front-end/1.4.4-Project-HTML-CSS) - [View in Browser](https://aarogyarijal.github.io/top-projects/web-projects/4-the-front-end/1.4.4-Project-HTML-CSS/index.html)
 * [Daniel Moderiano's Solution (Easy)](https://github.com/daniel-moderiano/google-homepage) - [View in Browser](https://daniel-moderiano.github.io/google-homepage/)
 * [Lipi Chatterjee's Solution (Easy)](https://github.com/Lipi70/google-homepage) - [View in Browser](https://lipi70.github.io/google-homepage/)
 * [Barnabas Btz (Easy)](https://github.com/barnabtz/google-homepage) - [View in Browser](https://barnabtz.github.io/google-homepage/)
