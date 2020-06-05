@@ -397,6 +397,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ervante's Solution](https://github.com/Servante/Odin-Projects/blob/master/mastermind.rb)
 * [Richard's Solution](https://github.com/RichardDenton/mastermind) - [View in repl.it](https://repl.it/@RichardDenton/mastermind#README.md)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/mastermind)
 * [andrewjh271's Solution](https://github.com/andrewjh271/mastermind) - [View in repl.it](https://mastermind.andrewjh271.repl.run/)
