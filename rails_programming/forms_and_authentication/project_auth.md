@@ -57,6 +57,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/members-only)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/members-only)
 * [Run After's Solution](https://github.com/run-after/members-only)
 * [leetie's Solution](https://github.com/leetie/members_only)
@@ -174,6 +175,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Miguel Prada's Solution](https://github.com/mapra99/m-only)
 * [Rey van den Berg's Solution](https://github.com/Rey810/members-only-app.git)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/Authentication/members-only)
+* [Timework's Solution](https://github.com/Timework/members-only)
+* [Bendee's Solution](https://github.com/bendee48/rails-members-only)
 </details>
 
 ### Additional Resources

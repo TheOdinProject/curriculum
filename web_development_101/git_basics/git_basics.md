@@ -16,9 +16,6 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
   1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
-  2. Complete "Part 1 - The Basics" of [Tower's Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start). Feel free to start with the section titled "Starting with an Unversioned Project". Some steps to get you started:
-      * Create a test project with `mkdir some-sample-project`.
-      * Create a few test files with `touch some-sample-project/example.html` and `touch some-sample-project/example.txt`.
 
 </div>
 
