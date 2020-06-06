@@ -1053,4 +1053,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Aodham's Solution](https://github.com/Aodham/TOP_etch-a-sketch) - [View in Browser](https://aodham.github.io/TOP_etch-a-sketch/)
 * [victor orlunda's Solution](https://github.com/dev-opus/Etch-a-Sketch) - [View in Browser](https://dev-opus.github.io/Etch-a-Sketch/)
 * [jugnug's Solution](https://github.com/jugnugs/etch-a-sketch) - [View in Browser](https://jugnugs.github.io/etch-a-sketch/)
+* [eckoman33's Solution](https://github.com/eckoman33/etch-a-sketch) - [View in Browser](https://eckoman33.github.io/etch-a-sketch/)
 </details>
