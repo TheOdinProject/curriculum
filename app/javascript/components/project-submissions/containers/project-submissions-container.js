@@ -120,12 +120,14 @@ class ProjectSubmissions extends React.Component {
           }
 
           <div>
-            <button
-              className="submissions__add button button--primary"
-              onClick={() => this.openModal("Create")}
-            >
-              Add Solution
-            </button>
+            { !this.userSubmission() &&
+              <button
+                className="submissions__add button button--primary"
+                onClick={() => this.openModal("Create")}
+              >
+                Add Solution
+              </button>
+            }
           </div>
         </div>
 
