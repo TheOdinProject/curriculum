@@ -23,8 +23,8 @@ class ProjectsController < ApplicationController
 
   def destroy
     @project.destroy
-    @project = new_project
-    @projects = latest_projects
+
+    render json: { message: 'removed' }, status: :ok
   end
 
   private

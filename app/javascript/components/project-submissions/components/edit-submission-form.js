@@ -18,9 +18,14 @@ const EditSubmissionForm = (props) => {
     },
     {
       isSubmitted: false,
-    })
+    });
 
-    props.onClose()
+    props.onClose();
+  }
+
+  const handleDelete = () => {
+    props.onDelete(props.submission.id);
+    props.onClose();
   }
 
   if (formState.isSubmitted) {
@@ -81,6 +86,9 @@ const EditSubmissionForm = (props) => {
             <input type="checkbox" name="is_public" ref={register}  />
             <span className="toggle-switch__slider round"></span>
           </label>
+          <button className="button button--danger" onClick={handleDelete}>Delete</button>
+          &nbsp;
+          &nbsp;
           <button type="submit" className="button button--primary">Update</button>
         </div>
 

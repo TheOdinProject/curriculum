@@ -22,7 +22,7 @@ class ProjectSubmissions extends React.Component {
     this.setState({ [`show${type}Modal`]: true })
   }
 
-  handleCreateSubmission = (data) => {
+  handleCreate = (data) => {
     const { lesson } = this.props;
     const { repo_url, live_preview_url, is_public } = data
 
@@ -45,7 +45,7 @@ class ProjectSubmissions extends React.Component {
     })
   }
 
-  handleUpdateSubmission = (data) => {
+  handleUpdate = (data) => {
     const { lesson } = this.props;
     const { repo_url, live_preview_url, is_public, project_id } = data
 
@@ -64,6 +64,18 @@ class ProjectSubmissions extends React.Component {
     ).then(response => {
       this.setState({
         submissions: Object.assign([], this.state.submissions, {[0]: response.data.project})
+      })
+    })
+  }
+
+  handleDelete = (id) => {
+    const { lesson } = this.props;
+
+    event.preventDefault()
+
+    axios.delete(`/lessons/${lesson.id}/projects/${id}`, {}).then(() => {
+      this.setState({
+        submissions: this.state.submissions.filter((submission) => submission.id !== id)
       })
     })
   }
@@ -91,7 +103,7 @@ class ProjectSubmissions extends React.Component {
           <Modal show={this.state.showCreateModal} handleClose={() => this.hideModal("Create")}>
             <CreateSubmissionForm
               lessonId={lesson.id}
-              onSubmit={this.handleCreateSubmission}
+              onSubmit={this.handleCreate}
               onClose={() => this.hideModal("Create")}
             />
           </Modal>
@@ -100,7 +112,8 @@ class ProjectSubmissions extends React.Component {
             <Modal show={this.state.showEditModal} handleClose={() => this.hideModal("Edit")}>
               <EditSubmissionForm
                 submission={this.userSubmission()}
-                onSubmit={this.handleUpdateSubmission}
+                onSubmit={this.handleUpdate}
+                onDelete={this.handleDelete}
                 onClose={() => this.hideModal("Edit")}
               />
             </Modal>
