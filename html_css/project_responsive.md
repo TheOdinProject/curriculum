@@ -106,6 +106,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-next-web-clone-project) - [View in Browser](https://adrieltrigger.github.io/top-next-web-clone-project/)
 * [Veskenazi's Solution](https://github.com/veskenazi/building-with-responsive-design) - [View in Browser](https://veskenazi.github.io/building-with-responsive-design)
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/responsive-design) - [View in Browser](https://ranmaru22.github.io/the_odin_project/responsive-design/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/responsive-site) - [View in Browser](https://barrysweeney.github.io/responsive-site/)
 </details>
 
 ### Additional Resources
