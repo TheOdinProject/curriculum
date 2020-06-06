@@ -1663,5 +1663,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mpiriya's Solution](https://github.com/mpiriya/rock-paper-scissors) - [View in Browser](https://mpiriya.github.io/rock-paper-scissors/)
 - [soolo's Solution](https://github.com/soolodev/top-rps) - [View in Browser](https://soolodev.github.io/top-rps/)
 - [jbhannon's Solution](https://github.com/jbhannon/rock-paper-scissors) - [View in Browser](https://jbhannon.github.io/rock-paper-scissors/)
+- [Rahim Ratnani's Solution](https://github.com/rahimratnani/rock-paper-scissors)
 </details>
 
