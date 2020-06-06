@@ -17,7 +17,8 @@ class ProjectsController < ApplicationController
 
   def update
     @project.update(project_params)
-    @decorated_project = ProjectDecorator.new(@project)
+
+    render json: { project: ProjectSerializer.as_json(@project) }, status: :ok
   end
 
   def destroy

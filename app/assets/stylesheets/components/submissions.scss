@@ -37,6 +37,11 @@
     background-color: $button-disabled;
     border-radius: 0.2em;
     font-weight: 600;
+
+    &--green {
+      color: $white;
+      background-color: $button-primary;
+    }
   }
 
   &__actions {
