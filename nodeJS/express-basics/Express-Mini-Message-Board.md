@@ -62,18 +62,11 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
 This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it and push it to your Heroku repository with:  
 
-<<<<<<< HEAD
      ~~~bash  
      heroku create  
      git push heroku master
      ~~~
 
-=======
-   ~~~bash  
-   heroku create  
-   git push heroku master
-   ~~~
->>>>>>> origin/master
 
 </div>
 
@@ -124,10 +117,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/mini-message-board) - [View in Browser](https://thawing-badlands-31259.herokuapp.com/)
 - [mmboyce's Solution](https://github.com/mmboyce/mini-message-board) - [View in Browser](https://enigmatic-taiga-64239.herokuapp.com/)
 - [Scott Bowles's Solution](https://github.com/scottBowles/express-practice-mini-messageboard) - [View in Browser](https://salty-savannah-75073.herokuapp.com/)
-<<<<<<< HEAD
  - [barrysweeney's Solution](https://github.com/barrysweeney/mini-message-board) - [View in Browser](https://dry-reaches-26545.herokuapp.com/)
  - [ranmaru22's Solution](https://github.com/ranmaru22/mini-message-board) - [View in Browser](https://tranquil-falls-97148.herokuapp.com)
-=======
-- [barrysweeney's Solution](https://github.com/barrysweeney/mini-message-board) - [View in Browser](https://dry-reaches-26545.herokuapp.com/)
->>>>>>> origin/master
 </details>
