@@ -45,7 +45,7 @@ group :development, :test, :docker do
   gem 'factory_bot_rails',                '~> 5'
   gem 'database_cleaner',                 '~> 1.8'
   gem 'webmock',                          '~> 3.8'
-  gem 'vcr',                              '~> 5.1'
+  gem 'vcr',                              '~> 6.0'
   gem 'shoulda-matchers'
   gem 'rake',                             '~> 13.0'
   gem 'rails-controller-testing'
