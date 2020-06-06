@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Aidan's Solution](https://github.com/aidanclarkescott/etch-a-sketch) - [View in Browser](https://aidanclarkescott.github.io/etch-a-sketch/)
+* [AdeyemiTimilehin Solution](https://adeyemi-timilehin.github.io/EtchSketchProject/)- [View in Browser](https://adeyemi-timilehin.github.io/EtchSketchProject/)
 * [Arnazarov's Solution](https://github.com/Arnazarov/etch-a-sketch) - [View in Browser](https://arnazarov.github.io/etch-a-sketch/)
 * [AlanSoto31's Solution](https://github.com/AlanSoto31/etch-a-sketch) - [View in Browser](https://alansoto31.github.io/etch-a-sketch/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/Etch-A-Sketch) - [View in Browser](https://irlgabriel.github.io/Etch-A-Sketch/)
@@ -1045,6 +1047,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [oppowag's Solution](https://github.com/oppowag/etchasketch) - [View in Browser](https://oppowag.github.io/etchasketch/)
 * [Arturo's Solution](https://github.com/StarSheriff2/Etch-a-Sketch-Project---Arturo) - [View in Browser](https://starsheriff2.github.io/Etch-a-Sketch-Project---Arturo/)
 * [constantinginga's Solution](https://github.com/constantinginga/etch-a-sketch) - [View in Browser](https://constantinginga.github.io/etch-a-sketch/)
-* [mpiriya's solution](https://github.com/mpiriya/etch-a-sketch) - [View in Browser](https://mpiriya.github.io/etch-a-sketch/)
-* [Aodham's solution](https://github.com/Aodham/TOP_etch-a-sketch) - [View in Browser](https://aodham.github.io/TOP_etch-a-sketch/)
+* [mpiriya's Solution](https://github.com/mpiriya/etch-a-sketch) - [View in Browser](https://mpiriya.github.io/etch-a-sketch/)
+* [Aodham's Solution](https://github.com/Aodham/TOP_etch-a-sketch) - [View in Browser](https://aodham.github.io/TOP_etch-a-sketch/)
+* [victor orlunda's Solution](https://github.com/dev-opus/Etch-a-Sketch) - [View in Browser](https://dev-opus.github.io/Etch-a-Sketch/)
 </details>

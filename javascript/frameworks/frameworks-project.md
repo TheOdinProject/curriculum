@@ -76,4 +76,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Joe Thompson's Library Solution](https://github.com/jlthompso/library_react) - [View in Browser](https://jlthompso.github.io/library_react/)
 * [Ricardo's React Library Solution](https://github.com/ricardo-gonzalez-villegas/library-react-app/tree/master
 ) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library-react-app/)
+* [Ricardo's React Restaurant Solution](https://github.com/ricardo-gonzalez-villegas/restaurant-react-app/tree/master) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/restaurant-react-app/)
 </details>
