@@ -10,6 +10,7 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
      ~~~javascript
      const messages = [
+<<<<<<< HEAD
         {
           text: "Hi there!",
           user: "Amando",
@@ -20,6 +21,18 @@ Let's take a quick break from the main Express tutorial to practice what we've a
           user: "Charles",
           added: new Date()
         }
+=======
+       {
+         text: "Hi there!",
+         user: "Amando",
+         added: new Date()
+       },
+       {
+         text: "Hello World!",
+         user: "Charles",
+         added: new Date()
+       }
+>>>>>>> master
      ];
      ~~~
 
@@ -28,7 +41,11 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
      ~~~html
      <form method="POST" action="/new">
+<<<<<<< HEAD
         put your inputs and buttons in here!
+=======
+       put your inputs and buttons in here!
+>>>>>>> master
      </form>
      ~~~
 
@@ -37,11 +54,16 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 8.   In your `app.post()` take the contents of the form submission and push them into the messages array as an object that looks something like this:
 
      ~~~javascript
+<<<<<<< HEAD
      messages.push({text: messageText, user: messageUser, added: new Date()});
+=======
+     messages.push({text: messageText, usemessageUser,       added: new Date()});
+>>>>>>> master
      ~~~
 
 9.   At the end of the `app.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
 10.  At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
+<<<<<<< HEAD
 11.  Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
 
      ~~~json
@@ -66,7 +88,34 @@ This will run your app locally using Heroku at http://localhost:5000/. Test it, 
      heroku create  
      git push heroku master
      ~~~
+=======
+11.   Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
 
+~~~json
+"engines": {
+  "node": "10.x.y"
+},
+~~~
+
+12.   Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it:
+
+  ```
+  web: node ./bin/www
+  ```
+
+You're finally ready to deploy to Heroku! You can first try it on local, using
+
+~~~bash
+heroku local web
+~~~
+
+This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it and push it to your Heroku repository with:
+>>>>>>> master
+
+~~~bash
+heroku create
+git push heroku master
+~~~
 </div>
 
 ### Student Solutions
@@ -76,6 +125,13 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kevin's Solution](https://github.com/kevinbeall/Message_board) - [View in Browser](https://ancient-oasis-00535.herokuapp.com/)
+- [Randolph's Solution](https://github.com/RandolphCisneros/mini-message-board) - [View in Browser](https://mini-message-board-randolph.herokuapp.com/) 
+- [filipni's Solution](https://github.com/filipni/mini-messageboard) - [View in Browser](https://filipni-messageboard.herokuapp.com/) 
+- [sodip's Solution](https://github.com/sodip101/MiniMessageboard) - [View in Browser](https://mini-messageboard.herokuapp.com/)
+- [yldrmali's Solution](https://github.com/yldrmali/mini_message_board) - [View in Browser](https://sleepy-harbor-09438.herokuapp.com/)
+- [Julio's Solution](https://github.com/julio22b/mini-message-board) - [View in Browser](https://tranquil-earth-41894.herokuapp.com/)
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/mini-message-board) - [View in Browser](https://afternoon-hamlet-45199.herokuapp.com/)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/message-board-express) - [View in Browser](https://serene-wildwood-68527.herokuapp.com/)
 - [Hammad Ahmed's Solution](https://github.com/shammadahmed/mini-message-board) - [View in Browser](https://express-mini-message-board.herokuapp.com/)
 - [Igorashs's Solution](https://github.com/igorashs/mini-message-board) - [View in Browser](https://damp-badlands-14798.herokuapp.com/)
@@ -94,7 +150,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Vedat's Solution](https://github.com/mvedataydin/express-message-board) - [View in Browser](https://immense-woodland-14248.herokuapp.com/)
 - [Henry Kirya's Solution](https://github.com/harrika/messakira) - [View in Browser](https://messakira.herokuapp.com/)
 - [djolesusername's Solution](https://messages2019.herokuapp.com/) - [View in Browser](https://messages2019.herokuapp.com/)
-- [Brian Tuju's Solution - Browser](https://op-mini-message-board.briantuju.repl.co)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node2/) - [View in Browser](https://reza-message-board.herokuapp.com)
 - [Morgan's Solution](https://github.com/morgando/message-board) - [View in Browser](https://polar-meadow-92800.herokuapp.com/)
 - [JamCry's Solution](https://github.com/jamcry/express-message-board) - [View in Browser](https://pacific-beach-38765.herokuapp.com/)
@@ -110,4 +165,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/mini-message-board) - [View in Browser](https://thawing-badlands-31259.herokuapp.com/)
 - [mmboyce's Solution](https://github.com/mmboyce/mini-message-board) - [View in Browser](https://enigmatic-taiga-64239.herokuapp.com/)
 - [Scott Bowles's Solution](https://github.com/scottBowles/express-practice-mini-messageboard) - [View in Browser](https://salty-savannah-75073.herokuapp.com/)
+ - [barrysweeney's Solution](https://github.com/barrysweeney/mini-message-board) - [View in Browser](https://dry-reaches-26545.herokuapp.com/)
+ - [ranmaru22's Solution](https://github.com/ranmaru22/mini-message-board) - [View in Browser](https://tranquil-falls-97148.herokuapp.com)
 </details>

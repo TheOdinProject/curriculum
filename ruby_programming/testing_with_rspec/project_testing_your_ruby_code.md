@@ -21,14 +21,17 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Saul-Good-Homie's Solutions: [Caesar Cipher](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/tictactoe)
+* Christian's Solutions: [Caesar Cipher](https://github.com/rueeazy/ruby-building-blocks/tree/master/caesar-cipher), [Tic-Tac-Toe](https://github.com/rueeazy/OOP/tree/master/tic-tac-toe)
+* pudu87's Solutions: [Caesar Cipher](https://github.com/pudu87/ruby-exercises/tree/master/caesar-cipher), [Tic Tac Toe](https://github.com/pudu87/tic-tac-toe)
 * YesSeri's Solutions: [Caesar Cipher](https://github.com/YesSeri/caesar_cipher)
 * Olugbade Olalekan's Solutions: [Tic Tac Toe](https://github.com/gbadesimple/tic_tac_toe_implementation_tdd), [Enumerable Module](https://github.com/gbadesimple/enumerable_module_implementation_TDD), [Caesar Cipher](https://github.com/gbadesimple/caesar_cipher_implementation_TDD)
-* jodokusquack's solutions: [Builduing Blocks](https://github.com/jodokusquack/Ruby-Challenges), [Enumerable Methods](https://github.com/jodokusquack/Advanced_ruby_challenges), [Tic-Tac-Toe](https://github.com/jodokusquack/tic-tac-toe)
+* jodokusquack's Solutions: [Builduing Blocks](https://github.com/jodokusquack/Ruby-Challenges), [Enumerable Methods](https://github.com/jodokusquack/Advanced_ruby_challenges), [Tic-Tac-Toe](https://github.com/jodokusquack/tic-tac-toe)
 * David Auza's and Falguni Islam's Solutions: [Tic Tac Toe](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Tic-Tac-Toe) => [Tic Tac Toe Demo](https://repl.it/@islamfalguni/tictactoe-1), [Enumerable Methods](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Enumerable) => [Enumerable Methods Demo](https://repl.it/@DavidAuza/PROJECT-TESTING-YOUR-RUBY-CODE-Enumerable)
-* fossegrim's solutions: [Caesar Cipher](https://github.com/olav35/building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/olav35/advanced-building-blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/olav35/tic-tac-toe/blob/master/spec/tic_tac_toe_spec.rb)
+* fossegrim's Solutions: [Caesar Cipher](https://github.com/olav35/building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/olav35/advanced-building-blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/olav35/tic-tac-toe/blob/master/spec/tic_tac_toe_spec.rb)
 * [Lucas Bide's Solution - Building Blocks](https://github.com/Lucas-Bide/rspec)
-* [Nasser Abachi's solutions](https://github.com/abachi/theodinproject/tree/master/building-projects/connect_four)
-* [Nikolas Broman's solutions](https://github.com/nikolasbroman/testing_rspec)
+* [Nasser Abachi's Solutions](https://github.com/abachi/theodinproject/tree/master/building-projects/connect_four)
+* [Nikolas Broman's Solutions](https://github.com/nikolasbroman/testing_rspec)
 * Ian's Solutions: [Caesar Cipher](https://github.com/IanMKesler/practice/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/IanMKesler/practice/tree/master/enumerable), [Tic Tac Toe](https://github.com/IanMKesler/Tic-Tac-Toe)
 * Alain Suarez's Solution: [Caesar Cipher](https://gitlab.com/asuar/ruby-building-blocks/blob/master/spec/caesar-cipher_spec.rb), [Enumerable Methods](https://gitlab.com/asuar/ruby-advanced-building-blocks/blob/master/spec/my-enumerable_spec.rb), [Tic Tac Toe](https://gitlab.com/asuar/ruby-tic-tac-toe/tree/master/spec)
 * Vollantre's Solution: [Caesar Cipher](https://github.com/vollantre/ruby_basic/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/vollantre/ruby_basic/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/vollantre/Tic_Tac_Toe/tree/master/spec)
@@ -115,7 +118,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Ranon Martin's solutions: [Caesar Cipher](https://github.com/ranonm/TheOdinProjectExercises/blob/master/caesar_cipher/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/ranonm/TheOdinProjectExercises/blob/master/enumerable_methods/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/ranonm/TheOdinProjectExercises/blob/master/tic_tac_toe/spec/board_spec.rb)
 * Timework's Solutions: [Caesar Cipher](https://github.com/Timework/caesarCipher/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/Timework/enumerable/blob/master/spec/enum_spec.rb), [Tic Tac Toe](https://github.com/Timework/ticTac/blob/master/spec/tic_spec.rb)
 * Matt M's Solutions: [Caesar Cipher](https://github.com/MattMiller1989/Caesar-Cipher), [Tic Tac Toe](https://github.com/MattMiller1989/Tic-Tac-Toe)
-
+* fussykyloren's Solutions: [Caeser Cipher](https://github.com/fussykyloren/odin-project-basic-ruby-projects/tree/master/caeser-cipher), [Tic-Tac-Toe](https://github.com/fussykyloren/ruby-tic-tac-toe)
 </details>
 
 ### Project: TDD Connect Four
@@ -141,6 +144,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/connect_four)
+* [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/connect_four)
+* [pudu87's Solution](https://github.com/pudu87/connect_four)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.connect_four)
 * [YesSeri's Solution](https://github.com/YesSeri/connect_four)
 * [Billy Coffin's Solution](https://github.com/bcoffin9/connectfour)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/connect_four_tdd)
@@ -267,6 +274,7 @@ connect_four)
 * [Hyperturing's Solution](https://github.com/hyperturing/connectfour)
 * [Robert Suazo's Solution](https://github.com/rsuazo/connect_four)
 * [Timework's Solution](https://github.com/Timework/connect)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-connect-four) - [Play on Repl.it](https://repl.it/@fussykyloren/ruby-connect-four)
 </details>
 
 ### Additional Resources
