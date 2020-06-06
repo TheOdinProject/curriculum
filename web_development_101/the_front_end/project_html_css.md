@@ -6799,7 +6799,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jean-Baptiste's Solution (Easy)](https://github.com/pjbaptiste/google-homepage) - [View in Browser](https://pjbaptiste.github.io/google-homepage/)
 * [JoeBlakey's Solution (Easy)](https://github.com/JoeBlakey/google-homepage) - [View in Browser](https://joeblakey.github.io/google-homepage/)
 * [Dr.Baxter's Solution (Easy)](https://github.com/DrBaxter/Google-Recode) - [View in Browser](https://drbaxter.github.io/Google-Recode/)
-
+* [Shreyasi's Solution (Easy)](https://github.com/error404-sp/googlesearch_clone) - [View in Browser](https://error404-sp.github.io/googlesearch_clone/)
 
 </details>
 
