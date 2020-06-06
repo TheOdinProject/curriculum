@@ -39,6 +39,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 1. If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running `webpack` the full bundled version of your site is available in the `dist` folder, but GH pages is looking for an index.html in the root directory of your project.
 
     1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
+    1. Recall that the __source branch__ for Github Pages is set in your repository's settings.
 </div>
 
 ### Student Solutions
@@ -47,7 +48,26 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line!`
+- Add your solution below this line!
+- [HeliumAce's Solution](https://github.com/HeliumAce/resto-page-modules) - [View in Browser](https://heliumace.github.io/resto-page-modules/)
+- [Andrija Jelenkovic's Solution](https://github.com/Amdrija/restaurantPage) - [View in Browser](https://amdrija.github.io/restaurantPage/)
+- [guyroberts21's Solution](https://github.com/guyroberts21/Restaurant-Page) - [View in Browser](https://guyroberts21.github.io/Restaurant-Page/)
+- [Chun's Solution](https://github.com/ashchunfai/restaurant-page) - [View in Browser](https://ashchunfai.github.io/restaurant-page/)
+- [LenaChestnut's Solution](https://github.com/LenaChestnut/restaurant_page) - [View in Browser](https://lenachestnut.github.io/restaurant_page/)
+- [Diane998's Solution](https://github.com/Diane998/restaurant-page) - [View in Browser](https://diane998.github.io/restaurant-page/)
+- [Austin's Solution](https://github.com/cudworth/restaurant-page) - [View in Browser](https://cudworth.github.io/restaurant-page/dist/index)
+- [Lucio's Solution](https://github.com/JCarlosLucio/restaurant-page) - [View in Browser](https://jcarloslucio.github.io/restaurant-page/)
+- [MarcoDSilva's Solution](https://github.com/MarcoDSilva/Restaurant_Page) - [View in Browser](https://marcodsilva.github.io/Restaurant_Page/dist/)
+- [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/restaurant-page) - [View in Browser](https://carldoleolundgren.github.io/restaurant-page/)
+- [hu-ng's Solution](https://github.com/hu-ng/simple-restaurant) - [View in Browser](https://hu-ng.github.io/simple-restaurant/)
+- [Walmart-cashier's Solution](https://github.com/Walmart-cashier/restaurant-page) - [View in Browser](https://walmart-cashier.github.io/restaurant-page/)
+- [rlaake's Solution](https://rlaake.github.io/Restaurant-Page/)
+- [Zayeer's Solution](https://github.com/Zayeer/restaurant-page) - [View in Browser](https://zayeer.github.io/restaurant-page/#)
+- [TunzTunzTunz's Solution](https://github.com/tunztunztunz/restaraunt-exercise) - [View in Browser](https://tunztunztunz.github.io/restaraunt-exercise/)
+- [AJMcDee's Solution](github.com/AJMcDee/restaurantExample) - [View in Browser](https://ajmcdee.github.io/restaurantExample/)
+- [Lexolf's Solution](https://github.com/lexolf/restaurant-page) - [View in Browser](https://lexolf.github.io/restaurant-page/)
+- [Andrea's Solution](https://github.com/fioriandrea/restaurant) - [View in Browser](https://fioriandrea.github.io/restaurant/)
+- [Arf65's Solution](https://github.com/arf65/restaurant-homepage) - [View in Browser](https://arf65.github.io/restaurant-homepage/)
 - [Denis Oluka's Solution](https://github.com/OlukaDenis/restaurant-page) - [View in Browser](https://dennys.netlify.app/)
 - [Sherman's Solution](https://github.com/shermansjliu/project-restaurant-page) - [View in Browser](https://shermansjliu.github.io/project-restaurant-page/)
 - [jdonahhue135's Solution](https://github.com/jdonahue135/restaurant-page) - [View in Browser](https://jdonahue135.github.io/restaurant-page/)
@@ -63,7 +83,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Langarus' Solution](https://github.com/langarus/restaurant_webpage_with_JS) - [View in Browser](https://langarus.github.io/restaurant_webpage_with_JS/)
 - [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/restaurant-homepage) - [View in Browser](https://thisismahmad.github.io/restaurant-homepage/)
 - [Justinkar's Solution](https://github.com/justinkar/restaurant-page) - [View in Browser](https://justinkar.github.io/restaurant-page/)
-- [mjwills-inf's Solution](https://github.com/mjwills-inf/restaurant) - [View in Browser](https://mjwills-inf.github.io/restaurant/)
 - [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/restaurant-page) - [View in Browser](https://kikupiku.github.io/restaurant-page/)
 - [Padraig O'Rúis's solution](https://github.com/anarchomushroom/js-restaurant) - [View in Browser](https://anarchomushroom.github.io/js-restaurant/)
 - [Joshysmart's Solution](https://github.com/joshysmart/restaurant-page) - [View in Browser](https://joshysmart.github.io/restaurant-page/)
@@ -155,4 +174,12 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [thecodediver's Solution](https://github.com/thecodediver/restaurant_page) - [View in Browser](https://thecodediver.github.io/restaurant_page/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Restaurant-Page) - [View in Browser](https://m-rejdych.github.io/Restaurant-Page/)
 - [alicee88's Solution](https://github.com/alicee88/odin-restaurant) - [View in Browser](https://alicee88.github.io/odin-restaurant/)
+- [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/restaurant-page/settings) - [View in Browser](https://ozansozuozgit.github.io/restaurant-page/)
+- [Matyd's Solution](https://github.com/MatyD356/restaurant-page/tree/master) - [View in Browser](https://matyd356.github.io/restaurant-page/)
+- [Tristan Ross's Solution](https://github.com/TristanRoss/restaurant-page) - [View in Browser](https://tristanross.github.io/restaurant-page/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/restaurantpage) - [View in Browser](https://fortypercenttitanium.github.io/restaurantpage/)
+- [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/restaurant-page/) - [View in Browser](https://blessedonekobo.github.io/restaurant-page/)
+- [jcai's Solution](https://github.com/jcai8649/restaurant_page/tree/master) - [View in Browser](https://jcai8649.github.io/restaurant_page/)
+- [adilahmad321's Solution](https://github.com/adilahmad321/Restaurant-Page) - [View in Browser](https://adilahmad321.github.io/Restaurant-Page/)
+- [Kmt5422's Solution](https://github.com/kmt5422/restaurant-page) - [View in Browser](https://kmt5422.github.io/restaurant-page/)
 </details>
