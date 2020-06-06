@@ -6798,6 +6798,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [henybeza's Solution](https://github.com/henybeza/google-homepage) - [View in Browser](https://henybeza.github.io/google-homepage/)
 * [Jean-Baptiste's Solution (Easy)](https://github.com/pjbaptiste/google-homepage) - [View in Browser](https://pjbaptiste.github.io/google-homepage/)
 * [JoeBlakey's Solution (Easy)](https://github.com/JoeBlakey/google-homepage) - [View in Browser](https://joeblakey.github.io/google-homepage/)
+* [Dr.Baxter's Solution (Easy)](https://github.com/DrBaxter/Google-Recode) - [View in Browser](https://drbaxter.github.io/Google-Recode/)
 
 
 </details>
