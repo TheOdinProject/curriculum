@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucio's Solution](https://github.com/JCarlosLucio/todo-list) - [View in Browser](https://jcarloslucio.github.io/todo-list/)
 * [Austin's Solution](https://github.com/cudworth/todo-list) - [View in Browser](https://cudworth.github.io/todo-list/dist/)
 * [hieu-ng's Solution](https://github.com/hieu-ng/todo-list) - [View in Browser](https://hieu-ng.github.io/todo-list/)
 * [Diane998's Solution](https://github.com/Diane998/todo-list) - [View in Browser](https://diane998.github.io/todo-list/)
