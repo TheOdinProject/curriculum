@@ -4,7 +4,7 @@ I hope you enjoyed this course and the projects you've completed.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Copy your favorite website as well as you can.  Pinterest, Facebook, Twitter... Just make sure it's got lots of interesting functionality.  You'll be integrating your full array skills into this one.... if you're following the Rails track definitely set up the project with Ruby on Rails!  This should prove to you that you now have all the tools you need to build a website just like the ones you use every day.  
+Copy your favorite website as well as you can.  Pinterest, Facebook, Twitter... Just make sure it's got lots of interesting functionality.  You'll be integrating your full array of skills into this one.... if you're following the Rails track definitely set up the project with Ruby on Rails!  This should prove to you that you now have all the tools you need to build a website just like the ones you use every day.  
 
 Of course, you can't copy every single feature and a lot of the user interface will be a bit clunkier, but you can get yourself 80% of the way there.  And that's darn impressive.
 
@@ -32,6 +32,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") - [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
 * [David Chapman's solution](https://github.com/davidchappy/lesson-scheduler) - [View in browser](http://lesson-scheduler.herokuapp.com/)
 * [Areeba's solution](https://github.com/ribaishtiaq/Chablie) - [View in browser](https://chablie.herokuapp.com)
+* [barrysweeney's solution](https://github.com/barrysweeney/topify) - [View in browser](https://clever-lamport-50d143.netlify.app/)
 </details>
 
 ### Additional Resources
