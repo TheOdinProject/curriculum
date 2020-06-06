@@ -45,9 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [kimvitug05's Solution](https://github.com/kimvitug05/calculator) - [View in Browser](https://kimvitug05.github.io/calculator/)
-=======
 - [Miguel Angel's Solution](https://github.com/MiguelAngelLopezGarcia/Calculator) - [View in Browser](https://miguelangellopezgarcia.github.io/Calculator/)
 - [AlanSoto31's Solution](https://github.com/AlanSoto31/Calculator) - [View in Browser](https://alansoto31.github.io/Calculator/)
 - [Jared's Solution](https://github.com/jaredaritter/calculator) - [View in Browser](https://jaredaritter.github.io/calculator/)
@@ -171,7 +169,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [tofritz's Solution](https://github.com/tofritz/calculator) - [View in Browser](https://tofritz.com/calculator)
 - [ikraamg's Solution](https://github.com/ikraamg/Calculator) - [View in Browser](https://ikraamg.github.io/Calculator/)
 - [Edd Sansome's Solution](https://github.com/casualc0der/calculator) - [View in Browser](https://casualc0der.github.io/calculator/)
->>>>>>> c98e97ea9add41b7fb73cff029815c556d0f7358
 - [benjorama's Solution](https://github.com/benjorama/calculator) - [View in Browser](https://benjorama.github.io/calculator/)
 - [Ichenn's Solution](https://github.com/Ichenn92/calculator) - [View in Browser](https://ichenn92.github.io/calculator/)
 - [Lucio's Solution](https://github.com/JCarlosLucio/calculator) - [View in Browser](https://jcarloslucio.github.io/calculator/)
