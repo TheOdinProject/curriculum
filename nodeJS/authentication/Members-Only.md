@@ -43,6 +43,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Halkim's solution](https://github.com/halkim44/members_only) - [View in browser](https://aqueous-meadow-62293.herokuapp.com/)
 * [Tayfun Sur's solution](https://github.com/0xtaf/members-only) - [View in browser](https://secret-members.herokuapp.com/)
 * [barrysweeney's solution](https://github.com/barrysweeney/MembersOnlyMessageBoard) - [View in browser](https://cryptic-earth-60552.herokuapp.com/)
+* [ranmaru22's Solution](https://github.com/ranmaru22/members-only) - [View in Browser](https://secure-stream-16381.herokuapp.com)
 </details>
 
 
