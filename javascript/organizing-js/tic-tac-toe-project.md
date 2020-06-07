@@ -207,4 +207,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [themetar's Solution](https://github.com/themetar/tic-tac-toe-top) - [View in Browser](https://themetar.github.io/tic-tac-toe-top/)
 - [Kmt5422's Solution](https://github.com/kmt5422/tic-tac-toe) - [View in Browser](https://kmt5422.github.io/tic-tac-toe/)
 - [oppowag's Solution](https://github.com/oppowag/tictactoe) - [View in Browser](https://oppowag.github.io/tictactoe/)
+- [DurandalOne's Solution](https://github.com/DurandalOne/TicTacToe) - [View in Browser](https://durandalone.github.io/TicTacToe/)
 </details>
