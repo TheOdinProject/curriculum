@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Twill's Solution (Easy)](https://github.com/Williams44T/google-homepage) - [View in Browswer](https://github.com/Williams44T/google-homepage)
 * [Darren's Solution (Easy)](https://github.com/DarrenLo0530/google-homepage) - [View in Browser](https://darrenlo0530.github.io/google-homepage/)
 * [Shikhar's Solution (Easy)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/google-homepage) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/google-homepage/)
 * [Aidan's Solution (Easy)](https://github.com/aidanclarkescott/google-homepage) - [View in Browser](https://aidanclarkescott.github.io/google-homepage/)
