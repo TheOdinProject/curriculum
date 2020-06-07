@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Twill's Solution (Easy)](https://github.com/Williams44T/google-homepage) - [View in Browswer](https://williams44t.github.io/google-homepage/)
 * [Darren's Solution (Easy)](https://github.com/DarrenLo0530/google-homepage) - [View in Browser](https://darrenlo0530.github.io/google-homepage/)
 * [Shikhar's Solution (Easy)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/google-homepage) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/google-homepage/)
 * [Aidan's Solution (Easy)](https://github.com/aidanclarkescott/google-homepage) - [View in Browser](https://aidanclarkescott.github.io/google-homepage/)
@@ -6801,6 +6802,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JoeBlakey's Solution (Easy)](https://github.com/JoeBlakey/google-homepage) - [View in Browser](https://joeblakey.github.io/google-homepage/)
 * [Dr.Baxter's Solution (Easy)](https://github.com/DrBaxter/Google-Recode) - [View in Browser](https://drbaxter.github.io/Google-Recode/)
 * [Neha Hirve's Solution (Both)](https://github.com/nehahirve/google-homepage) - [View in Browser](https://nehahirve.github.io/google-homepage/)
+* [Saroua's Solution (Easy)](https://github.com/saroua/google_homepage) - [View in Browser](https://saroua.github.io/google_homepage/)
 
 
 </details>
