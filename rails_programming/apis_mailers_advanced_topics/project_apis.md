@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/odin-kittens)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-kittens)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_kittens) - [View in Browser](https://ovsjazz-odin-kittens.herokuapp.com/)
 * [robomonk's Solution](https://github.com/robo-monk/odin-kittens)
@@ -168,6 +169,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's Solution](https://github.com/jamcry/odin-kittens-api)
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-kittens)
 * [Rey van den Berg's Solution](https://github.com/Rey810/odin-kittens-api)
+* [Timework's Solution](https://github.com/Timework/odin-kittens)
 
 </details>
 
@@ -195,6 +197,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/flickr-api)
 * [BShowen's Solution](https://github.com/BShowen/flickr_search_api) - [Live](https://flick-r.herokuapp.com/)
 * [Duarte's Solution](https://github.com/Duartemartins/odin-flickr)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/flickr_api) - [View in Browser](https://ovsjazz-flickr-api.herokuapp.com/)
@@ -253,6 +256,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [bchalman's solution](https://github.com/bchalman/odin-flickr-api)
 * [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/flickr-api)
 * [Jamesredux's solution](https://github.com/Jamesredux/flickr_app) - [View in Browser](https://sleepy-castle-29757.herokuapp.com/)
+* [Timework's solution](https://github.com/Timework/odin-flickr)
 
 </details>
 
