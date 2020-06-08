@@ -251,4 +251,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [AnsellMaximilian's Solution (with extra credit)](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/linked_list.rb)
 - [fussykyloren's Solution (with extra credit)](https://github.com/fussykyloren/ruby-linked-list)
 - [ttzv's Solution (with extra credit)](https://github.com/ttzv-training-repos/ruby_cs_projects)
+- [Rémi Borfigat’s Solution](https://github.com/remiborfigat/linked_lists)
   </details>

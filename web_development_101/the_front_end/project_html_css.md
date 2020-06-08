@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Suyog's Solution (Easy)](https://github.com/suyogrk/google-homepage-easy) - [View in Browser](https://suyogrk.github.io/google-homepage-easy)
 * [Twill's Solution (Easy)](https://github.com/Williams44T/google-homepage) - [View in Browswer](https://williams44t.github.io/google-homepage/)
 * [Darren's Solution (Easy)](https://github.com/DarrenLo0530/google-homepage) - [View in Browser](https://darrenlo0530.github.io/google-homepage/)
 * [Shikhar's Solution (Easy)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/google-homepage) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/google-homepage/)
@@ -6803,9 +6804,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Dr.Baxter's Solution (Easy)](https://github.com/DrBaxter/Google-Recode) - [View in Browser](https://drbaxter.github.io/Google-Recode/)
 * [Neha Hirve's Solution (Both)](https://github.com/nehahirve/google-homepage) - [View in Browser](https://nehahirve.github.io/google-homepage/)
 * [Saroua's Solution (Easy)](https://github.com/saroua/google_homepage) - [View in Browser](https://saroua.github.io/google_homepage/)
-
-Here's my solution: https://github.com/DAVIxD99/google-homepage
-
+* [DAVIxD99's solution](https://github.com/DAVIxD99/google-homepage)
+* [Othesius-exe's solution (Easy)](https://github.com/othesius-exe/google-homepage) - [View in Browser](https://othesius-exe.github.io/google-homepage/)
+* [Jie Zou's Solution (Easy)](https://github.com/Sugarcane-svg/Google-homepage) - [View in Browser](https://sugarcane-svg.github.io/Google-homepage/)
+* [rosedlo's Solution (Easy)](https://github.com/rosedlo/google-front-page) - [View in Browser](https://rosedlo.github.io/google-front-page/)
 </details>
 
 ### Additional Resources
