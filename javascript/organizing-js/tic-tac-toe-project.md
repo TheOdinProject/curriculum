@@ -47,6 +47,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [TunzTunzTunz's Solution](https://github.com/tunztunztunz/Tic-Tac-Toe) - [View in Browser](https://tunztunztunz.github.io/Tic-Tac-Toe/)
 - [Levan Mebonia's Solution](https://github.com/Levo96/TicTacToe_JS) - [View in Browser](https://levo96.github.io/TicTacToe_JS/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/tic-tac-toe) - [View in Browser](https://carldoleolundgren.github.io/tic-tac-toe/)
+- [justonhart's Solution](https://github.com/justonhart/tictactoe) - [View in Browser](https://justonh.art/tictactoe/)
 - [Arf65's Solution](https://github.com/arf65/tic-tac-toe) - [View in Browser](https://arf65.github.io/tic-tac-toe/)
 - [Lusiann's Solution](https://github.com/Lusiann/tris) - [View in Browser](https://lusiann.github.io/tris/)
 - [Walmart-Cashier's Solution](https://github.com/Walmart-cashier/tic-tac-toe) - [View in Browser](https://walmart-cashier.github.io/tic-tac-toe/)
