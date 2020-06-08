@@ -63,6 +63,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jason Thompson's Solution](https://github.com/jasont01/private-events) - [View in Browser](https://secret-coast-99413.herokuapp.com/)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/private-events-project) - [View in Browser](https://immense-brushlands-08618.herokuapp.com/)
 * [Learnsometing's solution](https://github.com/learnsometing/rails-private_events)
 * [Simon Tharby's solution](https://github.com/jinjagit/social_light) - [View in browser](https://social-light-simontharby.herokuapp.com/)
