@@ -1,0 +1,798 @@
+[33mcommit a27a96942668f3661affb4ee14cfdf0e21fe23e0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: James Coen <jcoen44@hotmail.com>
+Date:   Thu May 7 14:16:33 2020 +0100
+
+    solution
+
+[33mcommit a87820997f3625cbae4ceff21b13b993b03acb6f[m
+Author: James Coen <jcoen44@hotmail.com>
+Date:   Fri May 1 17:52:21 2020 +0100
+
+    added solution
+
+[33mcommit 3de25eeb85966e4304ee42b743cd5f7533811c7e[m
+Merge: e6a4721d0 847e77491
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Fri May 1 11:25:24 2020 -0400
+
+    Merge pull request #16569 from awryoyster/patch-1
+    
+    Add Awry Oyster's Solution
+
+[33mcommit e6a4721d0a208ddbecd4690f29626cb5d1cb039f[m
+Merge: d17e889b2 08c7cb5d2
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Fri May 1 11:24:27 2020 -0400
+
+    Merge pull request #16568 from kuosandys/patch-3
+    
+    Update project_rock_paper_scissors.md
+
+[33mcommit d17e889b2aeed489cf84bc7fe6bdbb4dc84c8d30[m
+Merge: 890d1f92a f410d025d
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Fri May 1 11:18:02 2020 -0400
+
+    Merge pull request #16565 from NathanJReidy/master
+    
+    Added solution
+
+[33mcommit 847e7749107c366d294ce6cb4eb94351a9551d18[m
+Author: Awry Oyster <63387359+awryoyster@users.noreply.github.com>
+Date:   Sat May 2 00:27:30 2020 +1000
+
+    Add Awry Oyster's Solution
+
+[33mcommit 08c7cb5d27792efa65fbb76a0ea3327dbc4b7af8[m
+Author: kuosandys <62935115+kuosandys@users.noreply.github.com>
+Date:   Fri May 1 18:13:39 2020 +0400
+
+    Update project_rock_paper_scissors.md
+
+[33mcommit 890d1f92a99adb2eae4e31bafa7b712f86bcd322[m
+Merge: 9c23a7135 fc9d40a2b
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Fri May 1 09:34:01 2020 -0400
+
+    Merge pull request #16566 from a0x77ry/master
+    
+    Add Michael K's Solution to project_linked_lists.md
+
+[33mcommit 9c23a7135184c7075765eb8d244be8febf27ade9[m
+Merge: 3a2a6926c 335988305
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Fri May 1 09:31:34 2020 -0400
+
+    Merge pull request #16563 from Kevlar2222/master
+    
+    new solution
+
+[33mcommit fc9d40a2b4b9f69545313376cf2352588b7b5173[m
+Author: a0x77ry <grotesquechaos@gmail.com>
+Date:   Fri May 1 16:28:48 2020 +0300
+
+    Add Michael K's Solution to project_linked_lists.md
+
+[33mcommit f410d025d6841b5ce18020b70ea0682961a3d13b[m
+Author: Nathan Reidy <nathanjreidy@gmail.com>
+Date:   Fri May 1 22:25:16 2020 +1000
+
+    Added solution
+
+[33mcommit 3359883057dc6bab59cd579ac07efa548d166a8a[m
+Author: Kevlar2222 <kevin.satti@hotmail.co.uk>
+Date:   Fri May 1 19:19:59 2020 +0800
+
+    new solution
+
+[33mcommit 3a2a6926c00e6067546af854b19b97e0eb742804[m
+Merge: f6e801b9f 35dbe6ba2
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Fri May 1 17:39:49 2020 +0800
+
+    Merge pull request #16562 from rjpmagalang/patch-3
+    
+    added solution
+
+[33mcommit 35dbe6ba2fe40586188197ef6800184af0d2a12b[m
+Author: rjpmagalang <42713764+rjpmagalang@users.noreply.github.com>
+Date:   Fri May 1 17:24:27 2020 +0800
+
+    added solution
+
+[33mcommit f6e801b9ff1dc33d5706f0bc9add9234e280665f[m
+Merge: 9dc0eaa63 147a77747
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 18:05:38 2020 +1000
+
+    Merge pull request #16413 from syeo-1/master
+    
+    add my etch-a-sketch solution
+
+[33mcommit 147a777474631d760ef3f30e6efffb73ce46a0be[m
+Merge: 489a8afdc 9dc0eaa63
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 18:05:24 2020 +1000
+
+    Merge branch 'master' into master
+
+[33mcommit 9dc0eaa6352b8546905787ebec9d1e692cdba0c1[m
+Merge: cd6c88aac 4e272004e
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 17:54:10 2020 +1000
+
+    Merge pull request #16457 from deen85/patch-1
+    
+    Paper-rock-scissors
+
+[33mcommit 4e272004edd867b5fd3ad8b8f242d400dfc5ec04[m
+Merge: 07142e393 cd6c88aac
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 17:53:47 2020 +1000
+
+    Merge branch 'master' into patch-1
+
+[33mcommit cd6c88aac3cf2a8aa8647f9bf7606ef00b96d386[m
+Merge: 291140123 0d53e60dd
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 17:51:35 2020 +1000
+
+    Merge pull request #16513 from stefank-29/patch-5
+    
+    Update project_calculator.md
+
+[33mcommit 0d53e60dd3b9c69fccf809346b76750082db23d9[m
+Merge: 0a468c349 291140123
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 17:51:23 2020 +1000
+
+    Merge branch 'master' into patch-5
+
+[33mcommit 2911401236f349d36f003ece88cf4091c6827193[m
+Merge: efce723d1 fd60c8462
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 17:48:43 2020 +1000
+
+    Merge pull request #16561 from kimtaisuk/patch-1
+    
+    Add my solution to HTML/CSS exercise
+
+[33mcommit fd60c8462ca516a88c9c3a0e9de3b8207fe34856[m
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 17:48:27 2020 +1000
+
+    Update project_html_css.md
+
+[33mcommit 44dfe6563cada1e45a97d16adf49690efd1c2aa3[m
+Author: kimtaisuk <63559462+kimtaisuk@users.noreply.github.com>
+Date:   Fri May 1 02:52:38 2020 -0400
+
+    Remove the extra lines
+    
+    oops. I am sorry I edited some other parts of the doc by a mistake...
+
+[33mcommit 1ac7d64b68ecf428cfb8d8cd5a537b3409ba4426[m
+Author: kimtaisuk <63559462+kimtaisuk@users.noreply.github.com>
+Date:   Fri May 1 02:45:34 2020 -0400
+
+    Add my solution to HTML/CSS exercise
+    
+    Make my own Google Homepage by using basic HTML and CSS (Easy)
+
+[33mcommit efce723d101bee13b6f28d35448e8b37fa825dbf[m
+Merge: b2ea36a06 7104213b8
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Fri May 1 12:49:19 2020 +0800
+
+    Merge pull request #16557 from rueeazy/patch-13
+    
+    Adding my solution to Mastermind
+
+[33mcommit b2ea36a06e2d5127536f1e18f5fe379d4082fdea[m
+Merge: 2afc22814 47c279b8f
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Fri May 1 12:47:55 2020 +0800
+
+    Merge pull request #16558 from ruben-ruiz/master
+    
+    my update on paper rock scissors project
+
+[33mcommit 2afc228149e7eba238df0a00229eb6aed214cfb8[m
+Merge: 546859a7b a4c7d7018
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Fri May 1 12:46:45 2020 +0800
+
+    Merge pull request #16559 from aaron-contreras/master
+    
+    Add my solution
+
+[33mcommit a4c7d701825205c31632ee0a576a2e982ba6417e[m
+Author: Aaron Contreras <aaronlcaq@gmail.com>
+Date:   Thu Apr 30 23:34:28 2020 -0500
+
+    Add my solution
+
+[33mcommit 47c279b8f99be270cf6e146a7e5e9769b8809cf4[m
+Author: ruben-ruiz <r.ruiz24@outlook.com>
+Date:   Thu Apr 30 23:16:22 2020 -0400
+
+    my update on paper rock scissors project
+
+[33mcommit 7104213b8abddb8ce23972f45b05d4e801e8068f[m
+Author: Christian Ruiz <santacruz.crm@gmail.com>
+Date:   Thu Apr 30 18:55:18 2020 -0700
+
+    Adding my solution to Mastermind
+
+[33mcommit 546859a7bef039ef5e8c6946d5144693b81fd2aa[m
+Merge: 3291affb2 f78d51447
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 20:42:03 2020 -0400
+
+    Merge pull request #16556 from AlexBoonDev/patch-7
+    
+    Update project_calculator.md
+
+[33mcommit 3291affb23bfc23419d56c3276b71232db092955[m
+Merge: b7f5a1ea8 7f9d105f4
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 20:40:34 2020 -0400
+
+    Merge pull request #16555 from bhenning83/patch-1
+    
+    bhenning83's etch-a-sketch solution
+
+[33mcommit b7f5a1ea88fe60495ba9c1de074e14f17290af9a[m
+Merge: 97b31ee13 3840b4ad7
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 20:38:54 2020 -0400
+
+    Merge pull request #16553 from mohamedosamaeltayeb/patch-1
+    
+    Kindly Add my Blogger App project / Rails
+
+[33mcommit 97b31ee1329bb9ec95b3b221af440f5a5af8c67e[m
+Merge: ab898e58b 9f8fb7cd7
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 20:38:09 2020 -0400
+
+    Merge pull request #16554 from grantmaster89/patch-3
+    
+    Update project_forms.md
+
+[33mcommit ab898e58b0cb273dccb32a05be79970c6b71b094[m
+Merge: 9276bd5e7 b4ad0ba29
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 20:37:24 2020 -0400
+
+    Merge pull request #16451 from shanesc/add-shaneSC-andreaiaia-pomodoro
+    
+    Add shanesc & andreaiaia pomodoro
+
+[33mcommit f78d5144725668cd9d115390fb0002c147c610f5[m
+Author: Alexander <45110401+AlexBoonDev@users.noreply.github.com>
+Date:   Thu Apr 30 20:12:20 2020 -0400
+
+    Update project_calculator.md
+
+[33mcommit 7f9d105f49459e7227699793c5a6abbbf8a6f7c0[m
+Author: bhenning83 <63317389+bhenning83@users.noreply.github.com>
+Date:   Thu Apr 30 16:42:35 2020 -0600
+
+    bhenning83's etch-a-sketch solution
+
+[33mcommit 9f8fb7cd784381a0b0d6c52a2c1bd67cff218eb2[m
+Author: Grant Cottle <cottledev@gmail.com>
+Date:   Thu Apr 30 15:26:52 2020 -0700
+
+    Update project_forms.md
+
+[33mcommit 3840b4ad7a3add1fd0345661f3c54202e3faf406[m
+Author: mohamedosamaeltayeb <mohamedosamaeltayeb@gmail.com>
+Date:   Thu Apr 30 23:12:41 2020 +0200
+
+    Kindly Add my Blogger App project / Rails
+    
+    I've just finished The Blogger App project using rails kindly add my solution to this file .
+
+[33mcommit 9276bd5e7e07f8b062936ad01b178d3e080eff15[m
+Merge: 06e02442b 0108e68f9
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 16:53:49 2020 -0400
+
+    Merge pull request #16549 from Elfjhon/patch-6
+    
+    Precourse project Jonathan Fallas
+
+[33mcommit 0108e68f99a03ce5248e3da3684d91f6d7da0424[m
+Author: Jonathan Fallas Vargas <64106876+Elfjhon@users.noreply.github.com>
+Date:   Thu Apr 30 14:31:09 2020 -0600
+
+    Precourse project Jonathan Fallas
+
+[33mcommit 06e02442b523d0785104a7fd023277df3c549693[m
+Merge: 4806a4942 183934092
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:18:05 2020 +1000
+
+    Merge pull request #16294 from Korak-997/patch-1
+    
+    Submitting my solution :)
+
+[33mcommit 183934092baf4cbaa8ce4683ef9115e5fa8ac10a[m
+Merge: d18a39a94 4806a4942
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:17:44 2020 +1000
+
+    Merge branch 'master' into patch-1
+
+[33mcommit d18a39a9400f4665cd1ee2cfd13f011d06f22fad[m
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:16:49 2020 +1000
+
+    Update project_html_css.md
+
+[33mcommit b4ad0ba2951cf19c2deb340aa333f4963b93bde1[m
+Merge: 47d7cc481 4806a4942
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:14:44 2020 +1000
+
+    Merge branch 'master' into add-shaneSC-andreaiaia-pomodoro
+
+[33mcommit 4806a49424b51648d42e8235d0dcb9b74ffc8644[m
+Merge: 19efb9e54 c6f0aa1ee
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:13:57 2020 +1000
+
+    Merge pull request #16543 from jaredaritter/master
+    
+    Add Jared's project
+
+[33mcommit c6f0aa1eed42fcaf29d467895b8645a5aa47d12a[m
+Merge: aed6bcefd 19efb9e54
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:13:40 2020 +1000
+
+    Merge branch 'master' into master
+
+[33mcommit 19efb9e54c625f280a66522bf149717e934780ce[m
+Merge: edb73ac50 625ab831d
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:13:00 2020 +1000
+
+    Merge pull request #16542 from sahion/master
+    
+    Add my Solution to Etch a Sketch project
+
+[33mcommit edb73ac50b68b7de2fca325cc16444f9dc34b9f5[m
+Merge: cd0e70b29 e34734aba
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:08:58 2020 +1000
+
+    Merge pull request #16544 from NickDiPreta/patch-9
+    
+    Update bubble_sort.md
+
+[33mcommit cd0e70b29e062f084e480a50d925f02cc5c727f2[m
+Merge: 5651552dd bd1984904
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:07:37 2020 +1000
+
+    Merge pull request #16545 from jingjing142/patch-2
+    
+    Add my solution to rock paper scissors exercise
+
+[33mcommit 5651552dd31c915a565c6b1cdf648c20ae2f11f3[m
+Merge: 152affd10 9c203c6da
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:07:09 2020 +1000
+
+    Merge pull request #16546 from MarcoDSilva/patch-2
+    
+    Update library-project.md
+
+[33mcommit 152affd10fd4e61d0b0aae4c48622f239e5ae370[m
+Merge: 27b0778bb 62750e218
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:06:45 2020 +1000
+
+    Merge pull request #16547 from qazaqpyn/patch-3
+    
+    student's solution
+
+[33mcommit 27b0778bb5aedba10aaf97553e792ac98da1e3be[m
+Merge: 47b943527 1e3ff3af9
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Fri May 1 06:06:19 2020 +1000
+
+    Merge pull request #16548 from kemtaro/patch-1
+    
+    Solution to project added
+
+[33mcommit 47b94352757c8c8d228f79520df70d37bff60549[m
+Merge: d3d0ffe83 f709d1441
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 16:05:46 2020 -0400
+
+    Merge pull request #16541 from devcsantos/master
+    
+    Added solution to rock paper scissor
+
+[33mcommit 1e3ff3af9fb488f0a52ba1ba85285138816d2043[m
+Author: kemtaro <63858215+kemtaro@users.noreply.github.com>
+Date:   Thu Apr 30 15:35:38 2020 -0400
+
+    Solution to project added
+
+[33mcommit 62750e21835b46c4644616225290e601da320e4f[m
+Author: Alizhan Alimkali <60237351+qazaqpyn@users.noreply.github.com>
+Date:   Fri May 1 01:30:10 2020 +0600
+
+    student's solution
+
+[33mcommit 9c203c6dac294972486e7f4e9902cccb28d5cbf8[m
+Author: MarcoDSilva <38049196+MarcoDSilva@users.noreply.github.com>
+Date:   Thu Apr 30 19:00:47 2020 +0000
+
+    Update library-project.md
+
+[33mcommit d3d0ffe83a880ef7c92e7491da4a2fe63ddc9f10[m
+Merge: 172762107 62240dfde
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 14:36:56 2020 -0400
+
+    Merge pull request #16539 from NickDiPreta/patch-8
+    
+    Update stock_picker.md
+
+[33mcommit bd19849044fd9d52ef6e6258ddd222d51496a0ee[m
+Author: jingjing142 <47061036+jingjing142@users.noreply.github.com>
+Date:   Thu Apr 30 20:31:04 2020 +0200
+
+    Add my solution to rock paper scissors exercise
+
+[33mcommit e34734abade1be006f705497f54e2f5748202665[m
+Author: Nicholas DiPreta <62560349+NickDiPreta@users.noreply.github.com>
+Date:   Thu Apr 30 14:23:48 2020 -0400
+
+    Update bubble_sort.md
+    
+    Add Nick DiPreta's solution!
+
+[33mcommit aed6bcefd85a5cd71dbf0abbe08314725e3384e2[m
+Author: jared <38332939+jaredaritter@users.noreply.github.com>
+Date:   Thu Apr 30 14:12:24 2020 -0400
+
+    Add Jared's project
+
+[33mcommit 625ab831dec431a937371ee72b6171e8c026d73e[m
+Author: sahion <asuvorov-ki19@stud.sfu-kras.ru>
+Date:   Fri May 1 00:27:58 2020 +0700
+
+    Add my Solution to Etch a Sketch project
+
+[33mcommit f709d14412a05c57278f5368ed3ccf88d33a7a9b[m
+Author: Christian Santos <csantos1517@gmail.com>
+Date:   Fri May 1 01:13:50 2020 +0800
+
+    Added solution to rock paper scissor
+
+[33mcommit 62240dfde778fc765419c1f1e7e1c32701b71756[m
+Author: Nicholas DiPreta <62560349+NickDiPreta@users.noreply.github.com>
+Date:   Thu Apr 30 13:07:34 2020 -0400
+
+    Update stock_picker.md
+    
+    Nick DiPreta's Solution
+
+[33mcommit 17276210729f85aeccfe1db7ace22974e9036388[m
+Merge: 3b37742da 6efdf6bf9
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 12:14:43 2020 -0400
+
+    Merge pull request #16538 from themetar/master
+    
+    Add themetar's solution
+
+[33mcommit 3b37742da6e1fce681cbf30b65abc3d3c51cbdaf[m
+Merge: bbeeafe13 3ae7c0462
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 12:11:53 2020 -0400
+
+    Merge pull request #16537 from duopica/patch-1
+    
+    Add Duopica's solution
+
+[33mcommit bbeeafe13e2e4ffef1ed17945139cbf8ef16650d[m
+Merge: a8c6f634d 234b1ffe7
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 12:09:47 2020 -0400
+
+    Merge pull request #16536 from ranmaru22/master
+    
+    Add ranmaru22's solution
+
+[33mcommit 6efdf6bf953da1dd5873a2fe7292bff789e55cf9[m
+Author: Dimitar Apostolovski <d.apostolovski@gmail.com>
+Date:   Thu Apr 30 17:48:38 2020 +0200
+
+    Add themetar's solution
+    
+    Add links to the solution to the Backgrounds and Gradients project
+    of the HTML&CSS course.
+
+[33mcommit 3ae7c04629c92f9b32bbed4e1a28021947509686[m
+Author: duopica <46527972+duopica@users.noreply.github.com>
+Date:   Thu Apr 30 16:44:11 2020 +0100
+
+    Add Duopica's solution
+
+[33mcommit 234b1ffe7db3d26032d7c6a8c108ae31341265b2[m
+Author: Alex Sun <alexsun82@icloud.com>
+Date:   Thu Apr 30 17:35:33 2020 +0200
+
+    Add ranmaru22's solution
+
+[33mcommit a8c6f634dd6bba66a8bfc0be6173f6c10a719a67[m
+Merge: 21f4f620c 5dc1f2dac
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 11:30:36 2020 -0400
+
+    Merge pull request #16533 from 0xtaf/patch-21
+    
+    added tayfun sur's solution
+
+[33mcommit 21f4f620cd003ed1d9233c360980bce8e83807f7[m
+Merge: 0515dea9d e8cc76d76
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 11:28:45 2020 -0400
+
+    Merge pull request #16532 from kholston/patch-10
+    
+    Update bubble_sort.md
+
+[33mcommit 0515dea9d72dc8e995244eb154f3b5f8df6afe1b[m
+Merge: d87854d48 5dd8550ca
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 11:27:51 2020 -0400
+
+    Merge pull request #16531 from kholston/patch-9
+    
+    Update stock_picker.md
+
+[33mcommit d87854d48e518fc3edfe6cf7bca1be711f0e1228[m
+Merge: cb8055f20 b4d4ee429
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 11:24:54 2020 -0400
+
+    Merge pull request #16530 from kholston/patch-8
+    
+    Update sub_strings.md
+
+[33mcommit cb8055f20aabafd77c577b35951a261caeec7b24[m
+Merge: c0a78341a 332281f7d
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 11:22:22 2020 -0400
+
+    Merge pull request #16529 from kholston/patch-7
+    
+    Update caesar_cipher.md
+
+[33mcommit c0a78341a0024b8383ef0bdbc557b27295d5840f[m
+Merge: dc0b23df5 3ce7e2d4f
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 11:21:40 2020 -0400
+
+    Merge pull request #16528 from morganbonhomme/patch-3
+    
+    Added my Tic Tac Toe Project
+
+[33mcommit dc0b23df5e4675a2ef90452226c8829fe628ebdf[m
+Merge: 931dbcf51 b45d5264c
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 11:19:57 2020 -0400
+
+    Merge pull request #16527 from veskenazi/master
+    
+    Add my solution to project_positioning.md
+
+[33mcommit 931dbcf5198514e3c4ae8984185376fe26fb9518[m
+Merge: f7e952dd6 d7cebe1fd
+Author: Marvin Gay <60161078+marvingay@users.noreply.github.com>
+Date:   Thu Apr 30 11:18:57 2020 -0400
+
+    Merge pull request #16526 from Dunphi/patch-1
+    
+    Upload of my google homepage.
+
+[33mcommit f7e952dd697ccadc2eb43dde32f3b46d2b97c1c5[m
+Merge: eb0b1a533 05a32d8e0
+Author: Marvin Gay <MarvinJGay@protonmail.com>
+Date:   Thu Apr 30 10:26:05 2020 -0400
+
+    Merge branch 'BraxMassengale-master'
+
+[33mcommit 05a32d8e00a11067544652aa81deca17c0d6dc4c[m
+Merge: eb0b1a533 09a49bdc7
+Author: Marvin Gay <MarvinJGay@protonmail.com>
+Date:   Thu Apr 30 10:25:08 2020 -0400
+
+    Updated caesar_cipher.md
+
+[33mcommit 5dc1f2dac19922420cf8504fdb0f40a80f56e15e[m
+Author: Tayfun Sur <tayfunsur@gmail.com>
+Date:   Thu Apr 30 17:20:09 2020 +0300
+
+    added tayfun sur's solution
+
+[33mcommit e8cc76d765a647f210d729f01fb574dd723cf178[m
+Author: kholston <git.kholston@gmail.com>
+Date:   Thu Apr 30 09:55:54 2020 -0400
+
+    Update bubble_sort.md
+
+[33mcommit 5dd8550ca60b434dade4270083614f5a8ba9e554[m
+Author: kholston <git.kholston@gmail.com>
+Date:   Thu Apr 30 09:53:02 2020 -0400
+
+    Update stock_picker.md
+
+[33mcommit b4d4ee4292b192a181207d9aec6a6bb139a9f3cd[m
+Author: kholston <git.kholston@gmail.com>
+Date:   Thu Apr 30 09:49:22 2020 -0400
+
+    Update sub_strings.md
+
+[33mcommit 332281f7da7200f7f8ae666ae1a55dbacc74c5d4[m
+Author: kholston <git.kholston@gmail.com>
+Date:   Thu Apr 30 09:47:02 2020 -0400
+
+    Update caesar_cipher.md
+
+[33mcommit 3ce7e2d4f0b2b1f2cadbe48c20534556e4a9d429[m
+Author: morganbonhomme <62025173+morganbonhomme@users.noreply.github.com>
+Date:   Thu Apr 30 15:22:45 2020 +0200
+
+    Added my Tic Tac Toe Project
+
+[33mcommit b45d5264ce0936056325999aefc13dd1c7becc24[m
+Merge: d81d69b13 eb0b1a533
+Author: Vincent ESKENAZI <vincent.eskenazi@gmail.com>
+Date:   Thu Apr 30 15:11:24 2020 +0200
+
+    Resolve conflicts with master branch
+
+[33mcommit d81d69b13f84b236e9f2dd2fc82df4d035f6b8e7[m
+Author: Vincent ESKENAZI <vincent.eskenazi@gmail.com>
+Date:   Thu Apr 30 15:06:55 2020 +0200
+
+    Add my solution to project_positioning.md
+
+[33mcommit 07142e393d85faa978afc490e68316e130d10796[m
+Merge: b5b7ca780 eb0b1a533
+Author: Senakpon <58730926+deen85@users.noreply.github.com>
+Date:   Thu Apr 30 14:04:09 2020 +0100
+
+    Merge branch 'master' into patch-1
+
+[33mcommit d7cebe1fd635c995c29858538cf6cffbaecc49ef[m
+Author: Dunphi <62802135+Dunphi@users.noreply.github.com>
+Date:   Thu Apr 30 14:25:45 2020 +0200
+
+    Upload of my google homepage.
+
+[33mcommit eb0b1a533373bca039d84ee4fde0b02a0d7d7b1d[m
+Merge: 1282949c6 6db56d942
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Thu Apr 30 21:09:34 2020 +1000
+
+    Merge pull request #16521 from Diane998/master
+    
+    Add my library project
+
+[33mcommit 1282949c67ead1f60e5df039759f4e80a3a893c3[m
+Merge: f98a314a0 9de482732
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Thu Apr 30 21:09:02 2020 +1000
+
+    Merge pull request #16522 from fortypercenttitanium/patch-8
+    
+    Update tic-tac-toe-project.md
+
+[33mcommit f98a314a01d68d5bbe28dc2bcc035ccec154bdf1[m
+Merge: 9b1539c7a a1b9338eb
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Thu Apr 30 21:08:19 2020 +1000
+
+    Merge pull request #16523 from meganeb-afk/patch-5
+    
+    Update sub_strings.md
+
+[33mcommit a1b9338eb78351ba6e59c8510540a6f487f03057[m
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Thu Apr 30 21:07:15 2020 +1000
+
+    Update sub_strings.md
+
+[33mcommit 9b1539c7a3df4465e87244e06af63b68d85d80c8[m
+Merge: acb23ea90 a5dfecb4a
+Author: Rhys <105ron@users.noreply.github.com>
+Date:   Thu Apr 30 21:05:42 2020 +1000
+
+    Merge pull request #16524 from avazkhan2808/patch-6
+    
+    Added project
+
+[33mcommit a5dfecb4ae4affc5940c1b5941b05123e243d32c[m
+Author: avazkhan2808 <51436844+avazkhan2808@users.noreply.github.com>
+Date:   Thu Apr 30 15:53:33 2020 +0500
+
+    Update project.md
+
+[33mcommit a1e98a42ee13469831684120adfca7bfa2d5f840[m
+Author: meganeb-afk <62384997+meganeb-afk@users.noreply.github.com>
+Date:   Thu Apr 30 13:24:21 2020 +0300
+
+    Update sub_strings.md
+
+[33mcommit 9de4827325fc2c913d60475f2f639d70930f459a[m
+Author: fortypercenttitanium <61510135+fortypercenttitanium@users.noreply.github.com>
+Date:   Thu Apr 30 05:57:29 2020 -0400
+
+    Update tic-tac-toe-project.md
+
+[33mcommit 6db56d9422f5962f27e6bd9a60007201cf3ab058[m
+Author: Diane998 <gutierrez.almiradyan@gmail.com>
+Date:   Thu Apr 30 15:50:32 2020 +0800
+
+    added project
+
+[33mcommit acb23ea9029abfb17a8079c2fb110da0a9ee0f59[m
+Merge: 99db8c5d2 bfd2df286
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Thu Apr 30 14:04:29 2020 +0800
+
+    Merge pull request #16520 from Tuan96/patch-2
+    
+    Update project_etch_a_sketch.md
+
+[33mcommit 99db8c5d271798e7c4703ba5518cfcd9d686b6ad[m
+Merge: 555a62d30 fca6fce1c
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Thu Apr 30 14:02:19 2020 +0800
+
+    Merge pull request #16518 from Squeekoo/patch-2
+    
+    Adding solution to Google Homepage
+
+[33mcommit fca6fce1c7256ed344520fcffd45dc33c5303a79[m
+Merge: 43e07c498 555a62d30
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Thu Apr 30 14:01:46 2020 +0800
+
+    Merge branch 'master' into patch-2
+
+[33mcommit 555a62d305cab19c0c62697ef140f75021794998[m
+Merge: da32c0603 8fa760bd2
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Thu Apr 30 13:57:39 2020 +0800
+
+    Merge pull request #16517 from watchsomegoals/patch-1
+    
+    Add my solution to HTML/CSS exercise
+
+[33mcommit da32c0603fd6e6070866fc32a57824abc89f078d[m
+Merge: d60abf705 8ed0fc022
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Thu Apr 30 13:54:31 2020 +0800
+
+    Merge pull request #16516 from Hauiiuah/patch-1
+    
+    Added my solution
+
+[33mcommit 8ed0fc0224ae41038463523ec406f301f50e9f06[m
+Merge: dd8e1ef72 d60abf705
+Author: ryanford-frontend <ryanford-frontend@users.noreply.github.com>
+Date:   Thu Apr 30 13:52:41 2020 +0800
+
+    Merge bra

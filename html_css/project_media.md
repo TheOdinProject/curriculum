@@ -35,6 +35,9 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Cristian's Solution](https://github.com/cristianCeamatu/youtubeclone) - [View in browser](https://cristianceamatu.github.io/youtubeclone/)
+* [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/youtube-clone) - [View in browser](https://kaliberpoziomka.github.io/youtube-clone/)
+* [Andrea's Solution](https://github.com/fioriandrea/youtube-page) - [View in browser](https://youtube.andreafiori.now.sh/)
 * [Alexander Nitiola's Solution](https://github.com/TheCre8tor/youtube_clone) - [View in browser](https://thecre8tor.github.io/youtube_clone/)
 * [skele-666's solution](https://github.com/skele-666/youtube-player-page) - [View in browser](https://skele-666.github.io/youtube-player-page/)
 * [Le-Xandar's solution](https://le-xandar.github.io/youtube-clone/) - [View in browser](https://github.com/Le-Xandar/youtube-clone)
@@ -177,6 +180,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Veskenazi's solution](https://github.com/veskenazi/youtube-video-page) - [View in browser](https://veskenazi.github.io/youtube-video-page/)
 * [m-rejdych's solution](https://github.com/m-rejdych/Youtube-page) - [View in browser](https://m-rejdych.github.io/Youtube-page/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/youtube-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/youtube-clone/)
+* [Caosmagnvm's solution](https://github.com/caosmagnvm/youtube-homepage) - [View in Browser](https://caosmagnvm.github.io/youtube-homepage/)
 </details>
 
 ### Additional Resources

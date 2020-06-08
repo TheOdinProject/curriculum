@@ -121,7 +121,7 @@ First, you need to boot Ubuntu on your flash drive. The exact steps may vary, bu
 
 For example, on a Dell computer, you would need to plug in the flash drive, reboot the computer, and press the F12 key while the computer is first booting up to bring up the boot menu. From there, you can select to boot from the flash drive. Your computer may not be exactly the same, but Google can help you figure it out.
 
-#### Step 3.1: Install Ubuntu
+#### Step 3.2: Install Ubuntu
 
 If you would like to test out the version of Ubuntu on the flash drive, click 'Try me'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step.
 
