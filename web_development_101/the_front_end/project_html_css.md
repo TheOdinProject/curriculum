@@ -6809,6 +6809,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jie Zou's Solution (Easy)](https://github.com/Sugarcane-svg/Google-homepage) - [View in Browser](https://sugarcane-svg.github.io/Google-homepage/)
 * [rosedlo's Solution (Easy)](https://github.com/rosedlo/google-front-page) - [View in Browser](https://rosedlo.github.io/google-front-page/)
 </details>
+Chala17's solution: https://github.com/chala17/google-homepage
 
 ### Additional Resources
 
