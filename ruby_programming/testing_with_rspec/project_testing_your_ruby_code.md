@@ -119,6 +119,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Timework's Solutions: [Caesar Cipher](https://github.com/Timework/caesarCipher/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/Timework/enumerable/blob/master/spec/enum_spec.rb), [Tic Tac Toe](https://github.com/Timework/ticTac/blob/master/spec/tic_spec.rb)
 * Matt M's Solutions: [Caesar Cipher](https://github.com/MattMiller1989/Caesar-Cipher), [Tic Tac Toe](https://github.com/MattMiller1989/Tic-Tac-Toe)
 * fussykyloren's Solutions: [Caeser Cipher](https://github.com/fussykyloren/odin-project-basic-ruby-projects/tree/master/caeser-cipher), [Tic-Tac-Toe](https://github.com/fussykyloren/ruby-tic-tac-toe)
+* Cameron St. Amant's Solutions: [Caesar Cipher](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Basic_ruby_projects/Caesar), [Tic-Tac-Toe](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Intermediate_ruby/Tic_tac_toe)
 </details>
 
 ### Project: TDD Connect Four
@@ -275,6 +276,7 @@ connect_four)
 * [Robert Suazo's Solution](https://github.com/rsuazo/connect_four)
 * [Timework's Solution](https://github.com/Timework/connect)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-connect-four) - [Play on Repl.it](https://repl.it/@fussykyloren/ruby-connect-four)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Connect_four)
 </details>
 
 ### Additional Resources
