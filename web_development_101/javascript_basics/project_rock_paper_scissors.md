@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Lipi's Solution(with UI)](https://github.com/Lipi70/rock-paper-sci) - [View in Browser](https://lipi70.github.io/rock-paper-sci/)
+- [acchang's Solution](https://github.com/acchang/Rock-Paper-Scissors/blob/master/RPSDom.html) - [View in Browser](http://htmlpreview.github.io/?https://github.com/acchang/Rock-Paper-Scissors/blob/master/RPSDom.html)
 - [Darren's Solution](https://github.com/DarrenLo0530/rock-paper-scissors) - [View in Browser](https://darrenlo0530.github.io/rock-paper-scissors/)
 - [Tf2redspy's Solution](https://github.com/tfredspy/Rock-Paper-Scissors)
 - [INTJBrandon's Solution](https://github.com/INTJBrandon/Rock_Paper_Scissors) - [View in Browser](https://intjbrandon.github.io/Rock_Paper_Scissors/)
@@ -78,7 +79,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [HadrienLap's solution](https://github.com/HadrienLap/rock-paper-scissors) - [View in Browser](https://hadrienlap.github.io/rock-paper-scissors/)
 - [smtjong's solution](https://github.com/smtjong/rock-paper-scissors) - [View in Browser](https://smtjong.github.io/rock-paper-scissors/)
 - [CHANG-CHING-CHUNG 's solution](https://github.com/CHANG-CHING-CHUNG/rock-paper-scissors) - [View in Browser](https://chang-ching-chung.github.io/rock-paper-scissors/)
-- [acchang's solution](https://github.com/acchang/Rock-Paper-Scissors)
 - [Edwardo's solution](https://github.com/ed-web/RPC)
 - [Alisha Hwee's solution](https://github.com/alishahwee/rock-paper-scissors) - [View in Browser](https://alishahwee.github.io/rock-paper-scissors/)
 - [DavBio's solution](https://github.com/DavBio/rockPaperScissors) - [View in Browser](https://davbio.github.io/rockPaperScissors/)
