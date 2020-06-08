@@ -19,6 +19,39 @@ RSpec.describe Project, type: :model do
     is_expected.to validate_presence_of(:repo_url)
   end
 
+  describe '#reported' do
+    let!(:project_with_no_reports) { create(:project) }
+    let(:project_with_report ) { create(:project) }
+    let(:project_with_resolved_report) { create(:project) }
+
+    before do
+      create(:report, project: project_with_report)
+      create(:report, project: project_with_resolved_report, status: :resolved)
+    end
+
+    it "returns projects have active reports" do
+      expect(Project.reported).to contain_exactly(project_with_report)
+    end
+  end
+
+  describe '#with_no_active_reports' do
+    let!(:project_with_no_reports) { create(:project) }
+    let(:project_with_report ) { create(:project) }
+    let(:project_with_resolved_report) { create(:project) }
+    let(:project_reported_again) { create(:project) }
+
+    before do
+      create(:report, project: project_with_report)
+      create(:report, project: project_with_resolved_report, status: :resolved)
+      create(:report, project: project_reported_again, status: :resolved)
+      create(:report, project: project_reported_again)
+    end
+
+    it "returns projects that have no active reports" do
+      expect(Project.with_no_active_reports).to contain_exactly(project_with_no_reports, project_with_resolved_report)
+    end
+  end
+
   describe '#upvote_for' do
     it 'calls the vote_by method from act as voteable gem' do
       expect(subject).to receive(:vote_by).with(voter: voting_user)

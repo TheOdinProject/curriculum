@@ -1,11 +1,13 @@
-class ReportsController < ApplicationController
+class Projects::ReportsController < ApplicationController
   before_action :authenticate_user!
 
   def create
-    if report.save
-      render json: report, status: :ok
+    @report = report
+
+    if @report.save
+      render json: @report, status: :ok
     else
-      render json: { error: "Unable to create report" }, status: :unprocessable_entity
+      render json: { error: "Unable to report project" }, status: :unprocessable_entity
     end
   end
 

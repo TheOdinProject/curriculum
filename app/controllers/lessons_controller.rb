@@ -15,7 +15,7 @@ class LessonsController < ApplicationController
   end
 
   def projects
-   (user_project + lesson.projects.order(:created_at).limit(10)).uniq
+   (user_project + lesson.projects.with_no_active_reports.limit(10)).uniq
   end
 
   def user_project

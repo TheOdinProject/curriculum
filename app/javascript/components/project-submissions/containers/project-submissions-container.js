@@ -4,6 +4,7 @@ import SubmissionsList from '../components/submissions-list'
 import Modal from '../components/modal'
 import CreateSubmissionForm from '../components/create-submission-form'
 import EditSubmissionForm from '../components/edit-submission-form'
+import ReportForm from '../components/report-form'
 import axios from '../../../src/js/axiosWithCsrf';
 
 class ProjectSubmissions extends React.Component {
@@ -11,6 +12,7 @@ class ProjectSubmissions extends React.Component {
     state = {
       showCreateModal: false,
       showEditModal: false,
+      showReportModal: false,
       submissions: this.props.submissions
     }
 
@@ -80,6 +82,16 @@ class ProjectSubmissions extends React.Component {
     })
   }
 
+  handleReport = (data) => {
+    const { project_id, reasons } = data
+
+    axios.post(`/projects/${project_id}/reports`, { reason: reasons.join(', ') }).then( (response) => {
+      this.setState({
+        submissions: this.state.submissions.filter((submission) => submission.id !== parseInt(project_id))
+      })
+    })
+  }
+
   userSubmission = () => {
     const { submissions } = this.state;
     const { userId } = this.props;
@@ -131,7 +143,12 @@ class ProjectSubmissions extends React.Component {
           </div>
         </div>
 
-        <SubmissionsList submissions={submissions} userId={userId} openEditModal={() => this.openModal("Edit")} />
+        <SubmissionsList
+          submissions={submissions}
+          userId={userId}
+          openEditModal={() => this.openModal("Edit")}
+          handleReport={this.handleReport}
+        />
       </div>
     )
   }

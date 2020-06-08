@@ -1,0 +1,42 @@
+.toggle {
+  --width: 50px;
+  --height: 15px;
+  --border-radius: calc(15px / 2);
+
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+
+  &__input {
+    display: none;
+
+    &:checked ~ .toggle__fill {
+      background: $button-primary;
+    }
+
+    &:checked ~ .toggle__fill::after {
+      transform: translateX(25px);
+    }
+  }
+
+  &__fill {
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: $pale-grey;
+    transition: background 0.2s;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background: #009688;
+      border-radius: 25px;
+      transition: transform 0.2s;
+    }
+  }
+}

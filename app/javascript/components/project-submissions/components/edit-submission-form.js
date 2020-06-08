@@ -82,9 +82,9 @@ const EditSubmissionForm = (props) => {
 
         <div className="form__section form__section--right-aligned">
           <span className="bold">MAKE SOLUTION PUBLIC</span>
-          <label className="toggle-switch toggle-switch--space-around">
-            <input type="checkbox" name="is_public" ref={register}  />
-            <span className="toggle-switch__slider round"></span>
+          <label className="toggle">
+            <input className="toggle__input" type="checkbox" name="is_public" ref={register}  />
+            <div className="toggle__fill round"></div>
           </label>
           <button className="button button--danger" onClick={handleDelete}>Delete</button>
           &nbsp;
