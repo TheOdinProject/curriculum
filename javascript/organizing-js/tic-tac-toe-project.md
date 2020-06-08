@@ -25,6 +25,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/tic-tac-toe) - [View in Browser](https://andrsrz.github.io/tic-tac-toe/)
+- [foolmonkey's Solution](https://github.com/foolmonkey/tic-tac-toe) - [View in Browser](https://foolmonkey.github.io/tic-tac-toe/)
+- [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/tic-tac-toe) - [View in Browser](https://kaliberpoziomka.github.io/tic-tac-toe/)
+- [Andreaiaia's Solution](https://github.com/andreaiaia/tictactoe) - [View in Browser](https://andreaiaia.github.io/tictactoe/)
+- [Platyphyllum's Solution](https://github.com/marboleda/tic-tac-toe) - [View in Browser](https://marboleda.github.io/tic-tac-toe/)
 - [HeliumAce's Solution](https://github.com/HeliumAce/tic-tac-toe) - [View in Browser](https://heliumace.github.io/tic-tac-toe/)
 - [jcai's Solution](https://github.com/jcai8649/tic-tac-toe) - [View in Browser](https://jcai8649.github.io/tic-tac-toe/)
 - [blackstate's Solution](https://github.com/blackstate/tic-tac-toe) - [View in Browser](https://blackstate.github.io/tic-tac-toe/)
@@ -200,4 +205,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Tristan Ross's Solution](https://github.com/TristanRoss/tic-tac-toe) - [View in Browser](https://tristanross.github.io/tic-tac-toe/)
 - [adilahmad321's Solution](https://github.com/adilahmad321/Tic-Tac-Toe) - [View in Browser](https://adilahmad321.github.io/Tic-Tac-Toe/)
 - [themetar's Solution](https://github.com/themetar/tic-tac-toe-top) - [View in Browser](https://themetar.github.io/tic-tac-toe-top/)
+- [Kmt5422's Solution](https://github.com/kmt5422/tic-tac-toe) - [View in Browser](https://kmt5422.github.io/tic-tac-toe/)
+- [oppowag's Solution](https://github.com/oppowag/tictactoe) - [View in Browser](https://oppowag.github.io/tictactoe/)
+- [DurandalOne's Solution](https://github.com/DurandalOne/TicTacToe) - [View in Browser](https://durandalone.github.io/TicTacToe/)
 </details>

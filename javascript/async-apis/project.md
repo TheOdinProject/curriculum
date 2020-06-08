@@ -19,7 +19,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [hieu-ng's Solution](https://github.com/hieu-ng/weather-app) — [View in Browser](https://hieu-ng.github.io/weather-app/)
+* [Luky's Solution](https://github.com/lcyne/weather-app) - [View in Browser](https://lcyne.github.io/weather-app/)
+* [hieu-ng's Solution](https://github.com/hieu-ng/weather-app) - [View in Browser](https://hieu-ng.github.io/weather-app/)
 * [hu-ng's Solution](https://github.com/hu-ng/current-weather) - [View in Browser](https://hu-ng.github.io/current-weather/index.html)
 * [Kimberly's Solution](https://github.com/kimberlyohq/weather-app) - [View in Browser](https://kimberlyohq.github.io/weather-app/)
 * [Morgan's Solution](https://github.com/morganbonhomme/weather_app) - [View in Browser](https://morganbonhomme.github.io/weather_app/)

@@ -88,6 +88,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Halkim's solution](https://github.com/halkim44/newsweek.com_clone) - [View in Browser](https://halkim44.github.io/newsweek.com_clone/)
 * [Hamohuh's solution](https://github.com/hamohuh/newsmagazine) - [View in Browser](https://hamohuh.github.io/newsmagazine/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/newsweek-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/newsweek-clone/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/bootstrap-news-site-clone) - [View in Browser](https://barrysweeney.github.io/bootstrap-news-site-clone/)
 
 </details>
 

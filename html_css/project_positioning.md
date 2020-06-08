@@ -143,6 +143,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/nyt_article_clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/nyt_article_clone/)
 * [jamesredux's solution](https://github.com/Jamesredux/nytimes-page) - [View in Browser](https://jamesredux.github.io/nytimes-page/)
 * [mangakiko's Solution](https://github.com/magakiko/New-York-Times) - [View in Browser](https://magakiko.github.io/New-York-Times/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/article-layout) - [View in Browser](https://barrysweeney.github.io/article-layout/)
 </details>
 
 ### Additional Resources
