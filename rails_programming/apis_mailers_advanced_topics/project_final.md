@@ -129,6 +129,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Tolulope Olusakin's Solution](https://github.com/Oluwadamilareolusakin/the-pub) - [View in browser](https://thepub-io.herokuapp.com)
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-facebook) - [View in browser](https://jamesreduxbook.herokuapp.com/)
 * [themetar's solution](https://github.com/themetar/odin-facebook) - [View in browser](https://phacepook.herokuapp.com/)
+* [Timework's solution](https://github.com/Timework/odin-facebook) - [View in browser](https://young-spire-86635.herokuapp.com/)
 </details>
 
 ### Additional Resources

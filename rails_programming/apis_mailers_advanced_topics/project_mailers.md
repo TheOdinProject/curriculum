@@ -29,6 +29,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/odin-flight-booker)
+* [BShowen's Solution](https://github.com/BShowen/flight_booker) - [Live](https://aerosplat.herokuapp.com/)
 * [Duarte's Solution](https://github.com/Duartemartins/flight-booker)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-flight-booker)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_flight_booker) - [View in Browser](https://ovsjazz-odin-flight-booker.herokuapp.com)
@@ -91,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [JamCry's Solution](https://github.com/jamcry/flight-booker) - [Live on Heroku](https://dry-caverns-97659.herokuapp.com/)
 * [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [Live on Heroku](https://redux-flights.herokuapp.com/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/flight-booker)
+* [Timework's Solution](https://github.com/Timework/odin-flight-booker)
 
 </details>
 
