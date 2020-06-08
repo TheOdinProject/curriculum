@@ -6806,7 +6806,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Saroua's Solution (Easy)](https://github.com/saroua/google_homepage) - [View in Browser](https://saroua.github.io/google_homepage/)
 * [Othesius-exe's solution (Easy)](https://github.com/othesius-exe/google-homepage) - [View in Browser](https://othesius-exe.github.io/google-homepage/)
 * [Jie Zou's Solution (Easy)](https://github.com/Sugarcane-svg/Google-homepage) - [View in Browser](https://sugarcane-svg.github.io/Google-homepage/)
-
+* [rosedlo's Solution (Easy)](https://github.com/rosedlo/google-front-page) - [View in Browser](https://rosedlo.github.io/google-front-page/)
 </details>
 
 ### Additional Resources
