@@ -519,4 +519,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/substrings.rb)
 * [Dyrits's Solution](https://github.com/Dyrits/BASIC-RUBY-PROJECTS/blob/master/Sub%20Strings/sub-strings.rb)
 * [fesekas's Solution](https://github.com/feseka61/substring/blob/master/substring.rb)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/substrings.rb)
 </details>
