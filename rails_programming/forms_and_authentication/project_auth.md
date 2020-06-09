@@ -177,6 +177,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/Authentication/members-only)
 * [Timework's Solution](https://github.com/Timework/members-only)
 * [Bendee's Solution](https://github.com/bendee48/rails-members-only)
+* [Robert Suazo's Solution](https://github.com/rsuazo/members-only)
 </details>
 
 ### Additional Resources
