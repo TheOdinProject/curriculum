@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jordan Perkins' Solution](https://github.com/jordanperkins98/CalculatorProject) - [View in Browser](https://jordanperkins98.github.io/CalculatorProject/)
 - [James' Solution](https://github.com/J-coen/odin-calculator) - [View in Browser](https://j-coen.github.io/odin-calculator/)
 - [Big Floating Death Panda's Solution](https://github.com/BigFloatingDeathPanda/calculator) - [View in Broswer](https://bigfloatingdeathpanda.github.io/calculator/)
 - [Aidan's Solution](https://github.com/aidanclarkescott/calculator) - [View in Browser](https://aidanclarkescott.github.io/calculator/)
