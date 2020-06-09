@@ -186,4 +186,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Kmt5422's Solution](https://github.com/kmt5422/restaurant-page) - [View in Browser](https://kmt5422.github.io/restaurant-page/)
 - [dyskgo's Solution](https://github.com/dyskgo/restaurant) - [View in Browser](https://dyskgo.github.io/restaurant/)
 - [themetar's Solution](https://github.com/themetar/restaurant-page-top) - [View in Browser](https://themetar.github.io/restaurant-page-top/)
+- [Vitaly Osipov's Solution](https://github.com/vi7ali/the-tavern) - [View in Browser](https://vi7ali.github.io/the-tavern/)
 </details>
