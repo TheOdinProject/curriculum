@@ -96,6 +96,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Chetan's Solution (Easy)](https://github.com/chetanN02/google-homepage) - [View in Browser](https://chetann02.github.io/google-homepage/)
+* [rinconv911's Solution (Difficult)](https://github.com/rinconv911/google-search-results) - [View in Browser](https://rinconv911.github.io/google-search-results/)
+* [rinconv911's Solution (Easy)](https://github.com/rinconv911/google-homepage) - [View in Browser](https://rinconv911.github.io/google-homepage/)
 * [Jorgepp's Solution (Difficult)](https://github.com/jorgepp94/google-search-results) - [View in Browser](https://jorgepp94.github.io/google-search-results/)
 * [Jorgepp's Solution (Easy)](https://github.com/jorgepp94/google-homepage) - [View in Browser](https://jorgepp94.github.io/google-homepage/)
 * [Suyog's Solution (Easy)](https://github.com/suyogrk/google-homepage-easy) - [View in Browser](https://suyogrk.github.io/google-homepage-easy)
