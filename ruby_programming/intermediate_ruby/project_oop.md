@@ -399,6 +399,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron's Solution (56-58% win rate AI over 1000 games)](https://github.com/Aaron-McD/MasterMind)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/mastermind/mastermind.rb)
 * [Gael's Solution](https://github.com/lungla-gael/Mastermind)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/mastermind) - [View in repl.it](https://repl.it/@HappyFrog/mastermind-1#.replit)
