@@ -1649,7 +1649,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [victor orlund's solution](https://github.com/dev-opus/RPS) - [View in Browser](https://dev-opus.github.io/RPS/)
 - [Superboy20's Solution](https://github.com/Superboy20/RockPaperScissorTOP)
 - [jugnugs's Solution](https://github.com/jugnugs/rock-paper-scissors) - [View in Browser](https://jugnugs.github.io/rock-paper-scissors/)
-- [ParchedPanda's Solution](https://github.com/ParchedPanda/rock-paper-scissors-odin-1)
+- [ParchedPanda's Solution](https://github.com/ParchedPanda/rock-paper-scissors-odin-1) - [View in Browser](https://parchedpanda.github.io/rock-paper-scissors-UI/)
 - [Noah Snider's Solution](https://github.com/nosnider/rock_paper_scissors)
 - [constantinginga's Solution](https://github.com/constantinginga/rock-paper-scissors) - [View in Browser](https://constantinginga.github.io/rock-paper-scissors/)
 - [jnjensen's Solution](https://github.com/jnjensen/Rock-Paper-Scissors-Lizzard-Spock) - [View in Browser](https://htmlpreview.github.io/?https://github.com/jnjensen/Rock-Paper-Scissors-Lizzard-Spock/blob/master/index.html)
