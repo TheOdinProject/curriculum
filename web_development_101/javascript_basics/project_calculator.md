@@ -45,8 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
-- [James'  Solution](https://github.com/J-coen/odin-calculator) - [View in Browser](https://j-coen.github.io/odin-calculator/)
+- [James' Solution](https://github.com/J-coen/odin-calculator) - [View in Browser](https://j-coen.github.io/odin-calculator/)
 - [Big Floating Death Panda's Solution](https://github.com/BigFloatingDeathPanda/calculator) - [View in Broswer](https://bigfloatingdeathpanda.github.io/calculator/)
 - [Aidan's Solution](https://github.com/aidanclarkescott/calculator) - [View in Browser](https://aidanclarkescott.github.io/calculator/)
 - [benjamin-gambling's Solution](https://github.com/benjamin-gambling/calculator) - [View in Browser](https://benjamin-gambling.github.io/calculator/)
@@ -98,7 +97,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/calculator) - [View in Browser](https://muhymenulhaque.github.io/calculator/)
 - [BraveStone9's Solution](https://github.com/BraveStone9/Calculator) - [View in Browser](https://bravestone9.github.io/Calculator/index.html) 
 - [syeo-1's Solution](https://github.com/syeo-1/calculator) - [View in Browser](https://syeo-1.github.io/calculator/)
->>>>>>> 74e8def6881dd4aeca90c7b8e0f6a83dfdc974c0
 - [Scott D's Solution](https://github.com/WebDevBrum/ODIN-Calculator-App) - [View in Browser](https://webdevbrum.github.io/ODIN-Calculator-App/)
 - [Afzaman's Solution](https://github.com/afzaman/calculator) - [View in Browser](https://afzaman.github.io/calculator)
 - [leddins's Solution](https://github.com/leddins/calculator) - [View in Browser](https://leddins.github.io/calculator/)
