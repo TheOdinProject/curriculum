@@ -108,6 +108,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/responsive-design) - [View in Browser](https://ranmaru22.github.io/the_odin_project/responsive-design/)
 * [barrysweeney's Solution](https://github.com/barrysweeney/responsive-site) - [View in Browser](https://barrysweeney.github.io/responsive-site/)
 * [mangakiko's Solution](https://github.com/magakiko/TNW-Responsive) - [View in Browser](https://magakiko.github.io/TNW-Responsive/)
+* [jamesredux's Solution](https://github.com/Jamesredux/tnw-clone) - [View in Browser](https://jamesredux.github.io/tnw-clone/)
 </details>
 
 ### Additional Resources
