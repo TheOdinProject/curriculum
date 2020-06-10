@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [iamjethrooo's Solution](https://github.com/iamjethrooo/library) - [View in Browser](https://iamjethrooo.github.io/library/)
 - [JMira84 Solution (w/localstorage)](https://github.com/JMira84/library) - [View in Browser](https://jmira84.github.io/library/)
 - [Lee Massey's Solution](https://github.com/leemassey/library) - [View in Browser](https://leemassey.github.io/library/)
 - [RobisonWebDev Solution](https://github.com/robisonwebdev/Library) - [View in Browser](https://robisonwebdev.github.io/Library/)
