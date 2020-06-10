@@ -740,4 +740,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [castle429's Solution](https://github.com/castle429/calculator) - [View in Browser](https://castle429.github.io/calculator/)
 - [constantinginga's Solution](https://github.com/constantinginga/calculator) - [View in Browser](https://constantinginga.github.io/calculator/)
 - [mpiriya's Solution](https://github.com/mpiriya/calculator2) - [View in Browser](https://mpiriya.github.io/calculator2/)
+- (https://niyorich.github.io/google-homepage/.)
 </details>
