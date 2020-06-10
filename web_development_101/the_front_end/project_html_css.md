@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Andy-Robertson's Solution (Easy)](https://github.com/Andy-Robertson/google-homepage) - [View in Browser](https://andy-robertson.github.io/google-homepage/)
 * [Chetan's Solution (Easy)](https://github.com/chetanN02/google-homepage) - [View in Browser](https://chetann02.github.io/google-homepage/)
 * [rinconv911's Solution (Difficult)](https://github.com/rinconv911/google-search-results) - [View in Browser](https://rinconv911.github.io/google-search-results/)
 * [rinconv911's Solution (Easy)](https://github.com/rinconv911/google-homepage) - [View in Browser](https://rinconv911.github.io/google-homepage/)
@@ -6813,6 +6814,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Othesius-exe's solution (Easy)](https://github.com/othesius-exe/google-homepage) - [View in Browser](https://othesius-exe.github.io/google-homepage/)
 * [Jie Zou's Solution (Easy)](https://github.com/Sugarcane-svg/Google-homepage) - [View in Browser](https://sugarcane-svg.github.io/Google-homepage/)
 * [rosedlo's Solution (Easy)](https://github.com/rosedlo/google-front-page) - [View in Browser](https://rosedlo.github.io/google-front-page/)
+* [b-common's Solution (Easy)](https://github.com/b-common/google-homepage) - [View in Browser](https://b-common.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

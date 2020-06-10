@@ -311,4 +311,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [hamparmin's Solution](https://github.com/hamparmin/library) - [View in Browser](https://hamparmin.github.io/library/)
 - [oppowag's Solution](https://github.com/oppowag/library) - [View in Browser](https://oppowag.github.io/library/)
 - [DurandalOne's Solution (w/firebase)](https://github.com/DurandalOne/library) - [View in Browser](https://durandalone.github.io/library/)
+- [jooji-san's Solution (w/localstorage)](https://https://github.com/jooji-san/Library) - [View in Browser](https://jooji-san.github.io/Library/)
 </details>
