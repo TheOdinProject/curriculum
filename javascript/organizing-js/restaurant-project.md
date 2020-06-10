@@ -47,7 +47,16 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line!`
+- Add your solution below this line!
+- [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/restaurant-page) - [View in Browser](https://carldoleolundgren.github.io/restaurant-page/)
+- [hu-ng's Solution](https://github.com/hu-ng/simple-restaurant) - [View in Browser](https://hu-ng.github.io/simple-restaurant/)
+- [Walmart-cashier's Solution](https://github.com/Walmart-cashier/restaurant-page) - [View in Browser](https://walmart-cashier.github.io/restaurant-page/)
+- [rlaake's Solution](https://rlaake.github.io/Restaurant-Page/)
+- [Zayeer's Solution](https://github.com/Zayeer/restaurant-page) - [View in Browser](https://zayeer.github.io/restaurant-page/#)
+- [TunzTunzTunz's Solution](https://github.com/tunztunztunz/restaraunt-exercise) - [View in Browser](https://tunztunztunz.github.io/restaraunt-exercise/)
+- [AJMcDee's Solution](github.com/AJMcDee/restaurantExample) - [View in Browser](https://ajmcdee.github.io/restaurantExample/)
+- [Lexolf's Solution](https://github.com/lexolf/restaurant-page) - [View in Browser](https://lexolf.github.io/restaurant-page/)
+- [Andrea's Solution](https://github.com/fioriandrea/restaurant) - [View in Browser](https://fioriandrea.github.io/restaurant/)
 - [Arf65's Solution](https://github.com/arf65/restaurant-homepage) - [View in Browser](https://arf65.github.io/restaurant-homepage/)
 - [Denis Oluka's Solution](https://github.com/OlukaDenis/restaurant-page) - [View in Browser](https://dennys.netlify.app/)
 - [Sherman's Solution](https://github.com/shermansjliu/project-restaurant-page) - [View in Browser](https://shermansjliu.github.io/project-restaurant-page/)
@@ -64,7 +73,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Langarus' Solution](https://github.com/langarus/restaurant_webpage_with_JS) - [View in Browser](https://langarus.github.io/restaurant_webpage_with_JS/)
 - [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/restaurant-homepage) - [View in Browser](https://thisismahmad.github.io/restaurant-homepage/)
 - [Justinkar's Solution](https://github.com/justinkar/restaurant-page) - [View in Browser](https://justinkar.github.io/restaurant-page/)
-- [mjwills-inf's Solution](https://github.com/mjwills-inf/restaurant) - [View in Browser](https://mjwills-inf.github.io/restaurant/)
 - [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/restaurant-page) - [View in Browser](https://kikupiku.github.io/restaurant-page/)
 - [Padraig O'Rúis's solution](https://github.com/anarchomushroom/js-restaurant) - [View in Browser](https://anarchomushroom.github.io/js-restaurant/)
 - [Joshysmart's Solution](https://github.com/joshysmart/restaurant-page) - [View in Browser](https://joshysmart.github.io/restaurant-page/)
@@ -156,4 +164,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [thecodediver's Solution](https://github.com/thecodediver/restaurant_page) - [View in Browser](https://thecodediver.github.io/restaurant_page/)
 - [m-rejdych's Solution](https://github.com/m-rejdych/Restaurant-Page) - [View in Browser](https://m-rejdych.github.io/Restaurant-Page/)
 - [alicee88's Solution](https://github.com/alicee88/odin-restaurant) - [View in Browser](https://alicee88.github.io/odin-restaurant/)
+- [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/restaurant-page/settings) - [View in Browser](https://ozansozuozgit.github.io/restaurant-page/)
 </details>
