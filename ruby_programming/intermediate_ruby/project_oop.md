@@ -19,6 +19,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sam Eff's Solution](https://github.com/SamEff/Tic_Tac_Toe)
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/tic-tac-toe-rb/tic-tac-toe.rb)
+* [Opeyemi's Solution](https://github.com/AdedayoOpeyemi/Tic-Tac-Toe)
 * [Ranno's Solution](https://github.com/RannoL/tic_tac_toe)
 * [Gael's Solution](https://github.com/lungla-gael/Tic-Tac-Toe)
 * [Aaron's Solution](https://github.com/Aaron-McD/Tic-Tac-Toe)
@@ -397,6 +400,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron's Solution (56-58% win rate AI over 1000 games)](https://github.com/Aaron-McD/MasterMind)
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/mastermind/mastermind.rb)
+* [Gael's Solution](https://github.com/lungla-gael/Mastermind)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/mastermind) - [View in repl.it](https://repl.it/@HappyFrog/mastermind-1#.replit)
 * [ervante's Solution](https://github.com/Servante/Odin-Projects/blob/master/mastermind.rb)
 * [Richard's Solution](https://github.com/RichardDenton/mastermind) - [View in repl.it](https://repl.it/@RichardDenton/mastermind#README.md)
