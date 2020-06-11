@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project game</title>
+</head>
+<body>
+
+    <script>
+function computerPlay()
+{
+    let computerOutComes = ['rock','paper','scissors'];
+    let randomAnswer = Math.floor(Math.random()*computerOutComes.length);
+    return computerOutComes[randomAnswer].toUpperCase();
+}
+function playRound(playerSelection,computerSelection)
+{
+    playerSelection = prompt('rock','paper','scissors').toUpperCase();
+    computerSelection = computerPlay();
+
+    if(computerSelection === playerSelection)
+        {return alert('Try another party');}
+    else if( computerSelection === 'ROCK' && playerSelection === 'PAPER')
+         { return alert('Paper covers by the Rock');}
+    else if(computerSelection === 'PAPER' && playerSelection ==='SCISSORS')
+        { return alert('Scissors tore up the Paper'); }
+    else if ( computerSelection === 'SCISSORS' && playerSelection === 'ROCK')
+        { return alert('Scissors crushed by Rock');}
+    else { return alert('computer win and player lose');}
+  
+}
+
+function game()
+{
+    let i = 1;
+    while ( i > 0)
+    { playRound();
+     i++;}
+}
+
+
+    </script>
+    
+</body>
+</html>
