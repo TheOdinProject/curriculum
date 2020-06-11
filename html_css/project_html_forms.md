@@ -178,7 +178,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/forms-practice) - [View in Browser](https://ranmaru22.github.io/the_odin_project/forms-practice/)
 * [Caosmagnvm's solution](https://github.com/caosmagnvm/MailchimpForm) - [View in Browser](https://caosmagnvm.github.io/MailchimpForm/)
 * [mangakiko's Solution](https://github.com/magakiko/HTML-Form) - [View in Browser](https://magakiko.github.io/HTML-Form/)
-
+* [barrysweeeney's Solution](https://barrysweeney.github.io/top-sign-up-form/) - [View in Browser](https://barrysweeney.github.io/top-sign-up-form/)
+* [bhenning83's Solution](https://github.com/bhenning83/mint-form) - [View in Browser](https://bhenning83.github.io/mint-form/)
+* [Timework's Solution](https://github.com/Timework/form-clone) - [View in Browser](https://timework.github.io/form-clone/)
 </details>
 
 ### Additional Resources

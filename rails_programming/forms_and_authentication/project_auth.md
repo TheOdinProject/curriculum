@@ -176,6 +176,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Rey van den Berg's Solution](https://github.com/Rey810/members-only-app.git)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/Authentication/members-only)
 * [Timework's Solution](https://github.com/Timework/members-only)
+* [Bendee's Solution](https://github.com/bendee48/rails-members-only)
+* [Robert Suazo's Solution](https://github.com/rsuazo/members-only)
 </details>
 
 ### Additional Resources

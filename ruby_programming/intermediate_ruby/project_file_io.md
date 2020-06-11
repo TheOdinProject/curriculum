@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kfollen93's Solution](https://github.com/Kfollen93/Hangman) - [View in Repl.it](https://repl.it/@Kfollen/Hangman)
 * [andrewjh271's Solution](https://github.com/andrewjh271/hangman) - [View in Repl.it](https://repl.it/@andrewjh271/hangman)
 * [JoelBejot's Solution](https://github.com/JoelBejot/Hangman)
 * [Ichenn's Solution](https://github.com/Ichenn92/hangman) - [View in Repl.it](https://hangman.ichenn92.repl.run/)
@@ -307,4 +308,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/hangman)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/hangman)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-hangman) - [Live version on Repl.it](https://repl.it/@fussykyloren/ruby-hangman)
+* [Sandy's Solution](https://github.com/kuosandys/top-hangman)
 </details>
