@@ -521,4 +521,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [fesekas's Solution](https://github.com/feseka61/substring/blob/master/substring.rb)
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/substrings.rb)
 * [Violet's solution](https://gist.github.com/violetguos/8f078c5460aea7b3086fc13d9e91dae9)
+* [mpiriya's solution](https://github.com/mpiriya/ruby/blob/master/substrings.rb)
 </details>
