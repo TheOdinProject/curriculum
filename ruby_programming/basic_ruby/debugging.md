@@ -167,7 +167,7 @@ Obviously, if available, the stack trace is the first place you should look when
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers everything about debugging in more depth.
 2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-3. Follow along with [this Pry tutorial](https://learn.co/lessons/debugging-with-pry) using [this repository](https://github.com/learn-co-students/debugging-with-pry-v-000) by Learn.co. During Part II, use `rspec spec/pry_debugging_spec.rb` instead of `learn` to see the failing test.
+3. Download [this repository](https://github.com/learn-co-students/debugging-with-pry-v-000) and follow along with **Part I** of the [Debugging with Pry tutorial](https://learn.co/lessons/debugging-with-pry). Keep this repository, because Part II will be completed during the ruby testing section.
 </div>
 
 ### Additional Resources
