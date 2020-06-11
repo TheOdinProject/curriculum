@@ -1061,4 +1061,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [kaizwebdesign's Solution](https://github.com/kaizwebdesign/etch-a-sketch) - [View in Browser](https://kaizwebdesign.github.io/etch-a-sketch/)
 * [jbhannon's Solution](https://github.com/jbhannon/etch-a-sketch) - [View in Browser](https://jbhannon.github.io/etch-a-sketch/)
 * [Alejaldo's Solution](https://github.com/Alejaldo/Etch-A-Sketch) - [View in Browser](https://alejaldo.github.io/Etch-A-Sketch/)
+* [Soolo's Solution](https://github.com/soolodev/top-etch-sketch) - [View in Browser](https://soolodev.github.io/top-etch-sketch/)
 </details>
