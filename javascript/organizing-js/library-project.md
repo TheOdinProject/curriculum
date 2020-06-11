@@ -314,4 +314,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [DurandalOne's Solution (w/firebase)](https://github.com/DurandalOne/library) - [View in Browser](https://durandalone.github.io/library/)
 - [jooji-san's Solution (w/localstorage)](https://https://github.com/jooji-san/Library) - [View in Browser](https://jooji-san.github.io/Library/)
 - [MichelleP1’s solution (w/firebase)](https://github.com/MichelleP1/library) - [View in Browser](http://michellepeters.me/library/)
+- [constantinginga’s solution (w/localstorage)](https://github.com/constantinginga/library) - [View in Browser](https://constantinginga.github.io/library/)
 </details>
