@@ -65,4 +65,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [ranmaru22's Solution](https://github.com/ranmaru22/battleship) - [View in Browser](https://ranmaru22.github.io/battleship/)
 - [barrysweeney's Solution](https://github.com/barrysweeney/battleship) - [View in Browser](https://barrysweeney.github.io/battleship/)
 - [Rey van den Berg's Solution](https://github.com/Rey810/Battleship/tree/master/battleship) - [View in Browser](https://react-battleship-reythedev.netlify.app)
+- [Joe Thompson's Solution](https://github.com/jlthompso/battleship) - [View in Browser](https://jlthompso.github.io/battleship/)
 </details>
