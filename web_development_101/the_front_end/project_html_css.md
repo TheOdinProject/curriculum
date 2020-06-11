@@ -3817,6 +3817,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rosedlo's Solution (Easy)](https://github.com/rosedlo/google-front-page) - [View in Browser](https://rosedlo.github.io/google-front-page/)
 * [b-common's Solution (Easy)](https://github.com/b-common/google-homepage) - [View in Browser](https://b-common.github.io/google-homepage/)
 * [Kira's Solution (Easy)](https://github.com/kiramckenzie/google-homepage) - [View in Browser](https://kiramckenzie.github.io/google-homepage/)
+* [TamaraNC's solution](https://github.com/TamaraNC/google-homepage) - [View in Browser](https://htmlpreview.github.io/?https://github.com/TamaraNC/google-homepage/blob/master/index.html)
+* [niyorich's solution](https://github.com/niyorich/google-homepage/blob/master/index.html) - [View in Browser](https://niyorich.github.io/google-homepage/)
+* [Clumsynite's Solution (Easy)](https://github.com/Clumsynite/google-homepage) - [View in Browser](https://clumsynite.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
