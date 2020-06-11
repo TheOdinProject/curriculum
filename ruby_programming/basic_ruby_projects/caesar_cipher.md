@@ -586,4 +586,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Violet's Solution](https://gist.github.com/violetguos/1a9bf6a921ac43160e208878d9cfda30)
 * [feseka's Solution](https://github.com/feseka61/caesar_cipher/blob/master/caesar_cipher.rb)
 * [bluu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/caesar.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/caesar.rb)
 </details>
