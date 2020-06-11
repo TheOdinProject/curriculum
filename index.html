@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Rock Paper Scissor</title>
+    </head>
+    <body>
+        <script>
+                function computerPlay(){
+                    let arr={
+                        1: "ROCK",
+                        2: "PAPER",
+                        3: "SCISSOR",
+                    };
+                    return arr[Math.floor(Math.random()*4)];
+                }
+                function playRound(playerSelection,computerSelection){
+                    let a=playerSelection.toUpperCase();
+                    let b=computerSelection;
+                    console.log(b);
+                    if(a=="ROCK"){
+                        if(b=="SCISSOR"){
+                            return " You win";
+                        } else if(b=="ROCK"){
+                            return " Both are same";
+                        } else{
+                            return " You lose.";
+                        }
+                    }
+                    if(a=="PAPER"){
+                        if(b=="ROCK"){
+                            return " You win";
+                        } else if(b=="PAPER"){
+                            return " Both are same";
+                        } else{
+                            return " You lose.";
+                        }
+                    }
+                    if(a=="SCISSOR"){
+                        if(b=="PAPER"){
+                            return " You win";
+                        } else if(b=="SCISSOR"){
+                            return " Both are same";
+                        } else{
+                            return " You lose.";
+                        }
+                    }
+                    
+                    function game(){
+                        let i=0,arr,result;
+                        for(;i<5;i++){
+                        playerSelection=prompt("Enter your choice:");
+                        arr[i]= playRound(playerSelection,computerSelection);
+                        console.log(arr[i]);
+                        if(arr[i]=="You win")
+                                result++;
+                        
+                        }
+                        console.log("You scored ${result} out of 5");
+                    }
+                   
+                }
+                game();
+        </script>
+    </body>
+</html>
