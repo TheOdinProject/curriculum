@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [derrickandry's Solution](https://github.com/derrickandry/etch-a-sketch) - [View in Browser](https://derrickandry.github.io/etch-a-sketch/)
+* [Pandit's Solution](https://github.com/shubh-pandit/EtchASketch) - [View in Browser](https://shubh-pandit.github.io/EtchASketch/)
+* [TamaraNC's Solution](https://github.com/TamaraNC/etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/TamaraNC/etch-a-sketch/blob/master/index.html)
+* [jnjensen's Solution](https://github.com/jnjensen/Etch-a-Sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/jnjensen/Etch-a-Sketch/blob/master/EtchSketch.html)
 * [Logowish's Solution](https://github.com/Logowish/etch-a-sketch) - [View in Browser](https://logowish.github.io/etch-a-sketch/)
 * [Davidvm1's Solution](https://github.com/davidvm1/etch-a-sketch) - [View in Browser](https://davidvm1.github.io/etch-a-sketch/)
 * [Aidan's Solution](https://github.com/aidanclarkescott/etch-a-sketch) - [View in Browser](https://aidanclarkescott.github.io/etch-a-sketch/)
@@ -1053,4 +1057,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Aodham's Solution](https://github.com/Aodham/TOP_etch-a-sketch) - [View in Browser](https://aodham.github.io/TOP_etch-a-sketch/)
 * [victor orlunda's Solution](https://github.com/dev-opus/Etch-a-Sketch) - [View in Browser](https://dev-opus.github.io/Etch-a-Sketch/)
 * [jugnug's Solution](https://github.com/jugnugs/etch-a-sketch) - [View in Browser](https://jugnugs.github.io/etch-a-sketch/)
+* [eckoman33's Solution](https://github.com/eckoman33/etch-a-sketch) - [View in Browser](https://eckoman33.github.io/etch-a-sketch/)
+* [kaizwebdesign's Solution](https://github.com/kaizwebdesign/etch-a-sketch) - [View in Browser](https://kaizwebdesign.github.io/etch-a-sketch/)
+* [jbhannon's Solution](https://github.com/jbhannon/etch-a-sketch) - [View in Browser](https://jbhannon.github.io/etch-a-sketch/)
+* [Alejaldo's Solution](https://github.com/Alejaldo/Etch-A-Sketch) - [View in Browser](https://alejaldo.github.io/Etch-A-Sketch/)
+* [Soolo's Solution](https://github.com/soolodev/top-etch-sketch) - [View in Browser](https://soolodev.github.io/top-etch-sketch/)
 </details>
