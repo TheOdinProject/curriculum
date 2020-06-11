@@ -25,9 +25,12 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Salvador Villalon's Solution](https://github.com/salvillalon45/theOdinProject-TicTacToe) - [View in Browser](https://salvillalon45.github.io/theOdinProject-TicTacToe/)
+- [Alex Cole's Solution](https://github.com/AlexJ-Cole/TicTacToes) - [View in Browser](https://alexj-cole.github.io/TicTacToes/)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/tic-tac-toe) - [View in Browser](https://andrsrz.github.io/tic-tac-toe/)
 - [foolmonkey's Solution](https://github.com/foolmonkey/tic-tac-toe) - [View in Browser](https://foolmonkey.github.io/tic-tac-toe/)
 - [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/tic-tac-toe) - [View in Browser](https://kaliberpoziomka.github.io/tic-tac-toe/)
+- [mohamednasr20's Solution](https://github.com/mohamednasr20/ticTacToe.git) - [View in Browser]( https://mohamednasr20.github.io/ticTacToe/)
 - [Andreaiaia's Solution](https://github.com/andreaiaia/tictactoe) - [View in Browser](https://andreaiaia.github.io/tictactoe/)
 - [Platyphyllum's Solution](https://github.com/marboleda/tic-tac-toe) - [View in Browser](https://marboleda.github.io/tic-tac-toe/)
 - [HeliumAce's Solution](https://github.com/HeliumAce/tic-tac-toe) - [View in Browser](https://heliumace.github.io/tic-tac-toe/)
@@ -47,6 +50,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [TunzTunzTunz's Solution](https://github.com/tunztunztunz/Tic-Tac-Toe) - [View in Browser](https://tunztunztunz.github.io/Tic-Tac-Toe/)
 - [Levan Mebonia's Solution](https://github.com/Levo96/TicTacToe_JS) - [View in Browser](https://levo96.github.io/TicTacToe_JS/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/tic-tac-toe) - [View in Browser](https://carldoleolundgren.github.io/tic-tac-toe/)
+- [justonhart's Solution](https://github.com/justonhart/tictactoe) - [View in Browser](https://justonh.art/tictactoe/)
 - [Arf65's Solution](https://github.com/arf65/tic-tac-toe) - [View in Browser](https://arf65.github.io/tic-tac-toe/)
 - [Lusiann's Solution](https://github.com/Lusiann/tris) - [View in Browser](https://lusiann.github.io/tris/)
 - [Walmart-Cashier's Solution](https://github.com/Walmart-cashier/tic-tac-toe) - [View in Browser](https://walmart-cashier.github.io/tic-tac-toe/)
@@ -207,4 +211,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [themetar's Solution](https://github.com/themetar/tic-tac-toe-top) - [View in Browser](https://themetar.github.io/tic-tac-toe-top/)
 - [Kmt5422's Solution](https://github.com/kmt5422/tic-tac-toe) - [View in Browser](https://kmt5422.github.io/tic-tac-toe/)
 - [oppowag's Solution](https://github.com/oppowag/tictactoe) - [View in Browser](https://oppowag.github.io/tictactoe/)
+- [DurandalOne's Solution](https://github.com/DurandalOne/TicTacToe) - [View in Browser](https://durandalone.github.io/TicTacToe/)
 </details>
