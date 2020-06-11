@@ -6815,6 +6815,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jie Zou's Solution (Easy)](https://github.com/Sugarcane-svg/Google-homepage) - [View in Browser](https://sugarcane-svg.github.io/Google-homepage/)
 * [rosedlo's Solution (Easy)](https://github.com/rosedlo/google-front-page) - [View in Browser](https://rosedlo.github.io/google-front-page/)
 * [b-common's Solution (Easy)](https://github.com/b-common/google-homepage) - [View in Browser](https://b-common.github.io/google-homepage/)
+* [Kira's Solution (Easy)](https://github.com/kiramckenzie/google-homepage) - [View in Browser](https://kiramckenzie.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
