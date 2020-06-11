@@ -10,7 +10,6 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
      ~~~javascript
      const messages = [
-<<<<<<< HEAD
         {
           text: "Hi there!",
           user: "Amando",
@@ -21,18 +20,6 @@ Let's take a quick break from the main Express tutorial to practice what we've a
           user: "Charles",
           added: new Date()
         }
-=======
-       {
-         text: "Hi there!",
-         user: "Amando",
-         added: new Date()
-       },
-       {
-         text: "Hello World!",
-         user: "Charles",
-         added: new Date()
-       }
->>>>>>> master
      ];
      ~~~
 
@@ -41,11 +28,7 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
      ~~~html
      <form method="POST" action="/new">
-<<<<<<< HEAD
         put your inputs and buttons in here!
-=======
-       put your inputs and buttons in here!
->>>>>>> master
      </form>
      ~~~
 
@@ -54,23 +37,18 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 8.   In your `app.post()` take the contents of the form submission and push them into the messages array as an object that looks something like this:
 
      ~~~javascript
-<<<<<<< HEAD
      messages.push({text: messageText, user: messageUser, added: new Date()});
-=======
-     messages.push({text: messageText, usemessageUser,       added: new Date()});
->>>>>>> master
      ~~~
 
 9.   At the end of the `app.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
 10.  At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
-<<<<<<< HEAD
 11.  Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
 
      ~~~json
      "engines": { "node": "10.x.y" },
      ~~~
 
-12.  Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it: 
+12.  Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it:
 
      ~~~
      web: node ./bin/www
@@ -82,40 +60,13 @@ Let's take a quick break from the main Express tutorial to practice what we've a
      heroku local web
      ~~~
 
-This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it and push it to your Heroku repository with:  
+     This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it and push it to your Heroku repository with:
 
      ~~~bash  
-     heroku create  
+     heroku create
      git push heroku master
      ~~~
-=======
-11.   Now you're almost ready to deploy your application on Heroku, but before doing that you need to specify a couple of things, just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
 
-~~~json
-"engines": {
-  "node": "10.x.y"
-},
-~~~
-
-12.   Heroku usually requires a `Procfile`, which specifies all the commands that need to run on the startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script, which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it:
-
-  ```
-  web: node ./bin/www
-  ```
-
-You're finally ready to deploy to Heroku! You can first try it on local, using
-
-~~~bash
-heroku local web
-~~~
-
-This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it and push it to your Heroku repository with:
->>>>>>> master
-
-~~~bash
-heroku create
-git push heroku master
-~~~
 </div>
 
 ### Student Solutions
