@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Afzaman's Solution w/ Local Storage](https://github.com/afzaman/book-shelf) - [View in Browser](https://afzaman.github.io/book-shelf/)
 - [MiDDiz's Solution w/Firebase Integration!](https://github.com/MiDDiz/OdinJSLibrary) - [View in Browser](https://middiz.github.io/OdinJSLibrary)
 - [iamjethrooo's Solution](https://github.com/iamjethrooo/library) - [View in Browser](https://iamjethrooo.github.io/library/)
 - [JMira84 Solution (w/localstorage)](https://github.com/JMira84/library) - [View in Browser](https://jmira84.github.io/library/)
