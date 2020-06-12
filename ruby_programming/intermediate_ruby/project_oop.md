@@ -686,6 +686,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adam's Solution](https://github.com/abohannon/mastermind-ruby)
 * [Sandy's Solution](https://github.com/kuosandys/top-mastermind)
 * [Ethan W's Solution](https://github.com/ethan-wax/mastermind)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/mastermind)
 </details>
 
 ### Additional Resources
