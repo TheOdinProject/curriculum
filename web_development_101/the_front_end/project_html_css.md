@@ -3823,6 +3823,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Szekely Laszlo's Solution (Easy)](https://github.com/nlSzekely/google-homepage) - [View in Browser](https://nlszekely.github.io/google-homepage/)
 * [Szekely Laszlo's Solution (Difficult)](https://github.com/nlSzekely/google-search-result-page) - [View in Browser](https://nlszekely.github.io/google-search-result-page/)
 * [kluceycose's Solution (Easy)](https://github.com/kluceycose/google-mockup) - [View in Browser](https://kluceycose.github.io/google-mockup/)
+* [Jhair Silva's Solution (Easy)](https://github.com/JhairSilvaOjeda/google-homepage) - [View in Browser](https://jhairsilvaojeda.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
