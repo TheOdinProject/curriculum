@@ -71,6 +71,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jason Thompson's Solution](https://github.com/jasont01/odin-flight-booker) - [View in Browser](https://odin-airlines.herokuapp.com/)
 * [Run After's Solution](https://github.com/run-after/odin-flight-booker)
 * [BShowen's Solution](https://github.com/BShowen/flight_booker) - [View in Browser](https://aerosplat.herokuapp.com/)
 * [Duarte's simple solution](https://github.com/Duartemartins/flight-booker)
