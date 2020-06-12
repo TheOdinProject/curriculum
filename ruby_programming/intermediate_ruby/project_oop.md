@@ -378,6 +378,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jding9's Solution](https://github.com/Jding9/ruby_tictactoe/blob/master/tictactoe.rb)
 * [Ethan W's Solution](https://github.com/ethan-wax/tic_tac_toe)
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/tictactoe.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/tictactoe)
 </details>
 
 ### Project 2: Mastermind
