@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ryan's Solution](https://github.com/RyanTalbot/rock-paper-scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RyanTalbot/rock-paper-scissors/blob/master/index.html)
 - [Mugilan's Solution](https://github.com/Mugilan-Codes/rock-paper-scissors)
 - [Willy's Solution](https://github.com/loud-ninja/rockpaperscissors) - [View in Browser](https://loud-ninja.github.io/rockpaperscissors/)
 - [Gavin's Solution](https://github.com/gpMotion/rock-paper-scissors-assignment/) - [View in Browser](https://gpmotion.github.io/rock-paper-scissors-assignment/)
