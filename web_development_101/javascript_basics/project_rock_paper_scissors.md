@@ -1681,6 +1681,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jie Zou's Solution](https://github.com/Sugarcane-svg/ROCK-PAPER-SCISSORS) - [View in Browser](https://sugarcane-svg.github.io/ROCK-PAPER-SCISSORS/)
 - [Jean-Baptiste's Solution](https://github.com/pjbaptiste/game-java) - [View in Browser](https://pjbaptiste.github.io/game-java/)
 - [Jhair Silva's Solution](https://github.com/JhairSilvaOjeda/PRS) - [View in Browser](https://jhairsilvaojeda.github.io/PRS/)
+- [Novibonjovi's Solution](https://github.com/novibonjovi/rock-paper-scissors) - [View in Browser](https://novibonjovi.github.io/rock-paper-scissors/
+)
 
 </details>
 
