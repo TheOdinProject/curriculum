@@ -21,6 +21,14 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/hangman/hangman.rb)
+* [Gael's Solution](https://github.com/lungla-gael/Hangman)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Hangman) - [View in Repl.it](https://repl.it/@Kfollen/Hangman)
+* [andrewjh271's Solution](https://github.com/andrewjh271/hangman) - [View in Repl.it](https://repl.it/@andrewjh271/hangman)
+* [JoelBejot's Solution](https://github.com/JoelBejot/Hangman)
+* [Ichenn's Solution](https://github.com/Ichenn92/hangman) - [View in Repl.it](https://hangman.ichenn92.repl.run/)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/hangman)
+* [Edd Sansome's Solution](https://github.com/casualc0der/odin-ruby/tree/master/hangman) - [View in Repl.it](https://repl.it/@casualc0der/hangman)
 * [tenacious qi's Solution](https://github.com/Tenacious-Qi/hangman) - [View in Repl.it](https://repl.it/github/Tenacious-Qi/hangman)
 * [qazaqpyn's Solution](https://github.com/qazaqpyn/hangman)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/hangman) - [View in Repl.it](https://repl.it/@NickDiPreta/hangman-2)
@@ -301,4 +309,6 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Hangman/hangman.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/hangman)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/hangman)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-hangman) - [Live version on Repl.it](https://repl.it/@fussykyloren/ruby-hangman)
+* [Sandy's Solution](https://github.com/kuosandys/top-hangman)
 </details>
