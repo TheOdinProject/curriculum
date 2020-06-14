@@ -745,4 +745,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [constantinginga's Solution](https://github.com/constantinginga/calculator) - [View in Browser](https://constantinginga.github.io/calculator/)
 - [mpiriya's Solution](https://github.com/mpiriya/calculator2) - [View in Browser](https://mpiriya.github.io/calculator2/)
 - [Jasen's Solution](https://github.com/celticjasen/calculator) - [View in Browser](https://celticjasen.github.io/calculator)
+- [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/calculator) - [View in Browser](https://playingongithub.github.io/calculator/)
 </details>
