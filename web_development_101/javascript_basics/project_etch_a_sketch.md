@@ -48,6 +48,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Darren's Solution](https://github.com/DarrenLo0530/sketch-pad) - [View in Browser](https://darrenlo0530.github.io/sketch-pad/)
 * [Ryan's Solution](https://github.com/RyanTalbot/etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RyanTalbot/etch-a-sketch/blob/master/index.html)
 * [Frank Johnette's Solution](https://github.com/FJohnette/Sketch-A-Roo) - [View in Browser](https://fjohnette.github.io/Sketch-A-Roo/)
+* [pklepa's Solution](https://github.com/pklepa/etch-a-sketch) - [View in Browser](https://pklepa.github.io/etch-a-sketch/)
 * [derrickandry's Solution](https://github.com/derrickandry/etch-a-sketch) - [View in Browser](https://derrickandry.github.io/etch-a-sketch/)
 * [Pandit's Solution](https://github.com/shubh-pandit/EtchASketch) - [View in Browser](https://shubh-pandit.github.io/EtchASketch/)
 * [TamaraNC's Solution](https://github.com/TamaraNC/etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/TamaraNC/etch-a-sketch/blob/master/index.html)
