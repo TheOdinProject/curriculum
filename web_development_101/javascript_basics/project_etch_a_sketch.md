@@ -45,7 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-* [Raymond's Solution](https://github.com/RaymondLi-1993/Etch-sketch) - [view in Browser](file:///Users/raymondli/Desktop/etch-sketch/index.html)
+* [Raymond's Solution](https://github.com/RaymondLi-1993/Etch-sketch)
+* [Div's Solution](https://github.com/divdagar/etch-a-sketch) - [View in Browser](https://divdagar.github.io/etch-a-sketch/)
 * [Darren's Solution](https://github.com/DarrenLo0530/sketch-pad) - [View in Browser](https://darrenlo0530.github.io/sketch-pad/)
 * [Ryan's Solution](https://github.com/RyanTalbot/etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RyanTalbot/etch-a-sketch/blob/master/index.html)
 * [Frank Johnette's Solution](https://github.com/FJohnette/Sketch-A-Roo) - [View in Browser](https://fjohnette.github.io/Sketch-A-Roo/)
