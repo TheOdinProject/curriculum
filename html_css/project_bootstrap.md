@@ -25,7 +25,9 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christopher Amanor's Solution](https://github.com/krys2fa/newsweek-clone) - [View in Browser](https://rawcdn.githack.com/krys2fa/newsweek-clone/16b2015d1e65b0e3410ed5fd9c751619f5a92a1b/index.html)
 * [Uduak Essien's Solution](https://github.com/acushlakoncept/newsweek) - [View in Browser](https://acushlakoncept.github.io/newsweek/)
+* [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/Newsweek-clone) - [View in Browser](https://haroonabdulrazaq.github.io/Newsweek/)
 * [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/newsweek-bootstrap) - [View in Browser](https://kaliberpoziomka.github.io/newsweek-bootstrap/)
 * [Rarysson's Solution](https://github.com/rarysson/newsweek-clone) - [View in Browser](https://rarysson.github.io/newsweek-clone/)
 * [Estela's Solution](https://github.com/estelajimero/using-bootstrap/) - [View in Browser](https://estelajimero.github.io/using-bootstrap/)
