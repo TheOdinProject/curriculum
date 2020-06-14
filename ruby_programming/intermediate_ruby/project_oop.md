@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Tilda Udufo's Solution](https://github.com/TildaDares/tic-tac-toe) - [View in repl.it](https://repl.it/github/TildaDares/tic-tac-toe)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/tic-tac-toe)
 * [Sam Eff's Solution](https://github.com/SamEff/Tic_Tac_Toe)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/tic-tac-toe-rb/tic-tac-toe.rb)
@@ -405,7 +406,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Aaron Contreras's Solution](https://github.com/aaron-contreras/mastermind) - [View in repl.it](https://repl.it/github/aaron-contreras/mastermind)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/mastermind) - [View in repl.it](http://mastermind.aaroncontreras.repl.run/)
 * [Sam Eff's Solution (AI uses Knuth's algorithm 100% win rate)](https://github.com/SamEff/Mastermind)
 * [Aaron's Solution (56-58% win rate AI over 1000 games)](https://github.com/Aaron-McD/MasterMind)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/mastermind/mastermind.rb)
