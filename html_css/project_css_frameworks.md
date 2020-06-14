@@ -67,6 +67,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Ohlie's Solutions](https://github.com/lco1220/grid_based_framework) - [Example Site](https://lco1220.github.io/grid_based_framework/)
 * [themetar's solution](https://github.com/themetar/css-framework) - [Example site](https://themetar.github.io/odin-project-page-clone/)
 * [ranmaru22's Solution: griddy](https://github.com/ranmaru22/griddy) - [Example Site](https://ranmaru22.github.io/griddy/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/custom-css-grid-framework) - [Example Site](https://github.com/barrysweeney/custom-grid-site) - [View in Browser](https://barrysweeney.github.io/custom-grid-site/)
 </details>
 
 ### Additional Resources
