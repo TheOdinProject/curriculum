@@ -171,6 +171,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-kittens)
 * [Rey van den Berg's Solution](https://github.com/Rey810/odin-kittens-api)
 * [Timework's Solution](https://github.com/Timework/odin-kittens)
+* [Sanyogita's solution] (https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/odin-kittens)
 
 </details>
 
