@@ -168,6 +168,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Salvador Villalon's Solution (Easy)](https://github.com/salvillalon45/theOdinProject-GoogleHomePage) - [View in Browser](https://salvillalon45.github.io/theOdinProject-GoogleHomePage/index.html)
 * [Christoph's Solution (Easy)](https://github.com/vertskater/google-homepage) - [View in Browser](https://vertskater.github.io/google-homepage)
 * [Evan Chipman's Solution (Easy)](https://github.com/AntwuanDixon/google_mirror_odin) - [View in Browser](http://chipman-google-mirror.surge.sh/)
+* [James King's Solution (Easy)] (https://jking026.github.io/google-homepage/) - [View in Browser](https://jking026.github.io/google-homepage/)
 * [Roger Jiang's Solution (Easy)](https://github.com/imrogerjiang/google-homepage) - [View in Browser](https://imrogerjiang.github.io/google-homepage/)
 * [JHPHamwise's Solution (Easy)](https://github.com/JHPHamwise/google-homepage) - [View in Browser](https://jhphamwise.github.io/google-homepage/)
 * [Aaron's Solution (Difficult)](https://github.com/Aaron-McD/google-search-result) - [View in Browser](https://aaron-mcd.github.io/google-search-result/)
