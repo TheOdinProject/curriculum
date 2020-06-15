@@ -146,6 +146,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [andrewjh271's Solution](https://github.com/andrewjh271/connect_four)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/connect_four)
 * [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/connect_four)
 * [pudu87's Solution](https://github.com/pudu87/connect_four)

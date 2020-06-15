@@ -3830,6 +3830,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [GISdan's Solution (Easy)](https://github.com/GISdan/google-homepage) - [View in Browser](https://gisdan.github.io/google-homepage/)
 * [Miss Flood's Solution (Easy)](https://github.com/MissFlood/google-homepage) - [View in Browser](https://missflood.github.io/google-homepage/)
 * [SBCNO's solution (Easy)](https://github.com/SBCNO/google-homepage) - [View in Browser](https://sbcno.github.io/google-homepage/)
+<<<<<<< HEAD
+* [pius-k's solution (Easy)](https://github.com/pius-k/google-homepage) - [View in Browser](https://pius-k.github.io/google-homepage)
+=======
+* [wlukaabya's solution (Hard)](https://github.com/wlukaabya/google-homepage) - [View in Browser](https://wlukaabya.github.io/google-homepage/)
+* [elciuk's Solution (Easy)](https://github.com/elciuk/google-homepage) - [View in Browser](https://elciuk.github.io/google-homepage)
+>>>>>>> c411994141d97218bdb27880d894cd0d6bddd903
 </details> 
 
 ### Additional Resources

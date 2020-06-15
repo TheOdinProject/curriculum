@@ -24,6 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Adil-Bub's Solution](https://github.com/Adil-Bub/OldApple-2014) - [View in Browser](https://adil-bub.github.io/OldApple-2014/)
 * [Christopher Amanor's Solution](https://github.com/krys2fa/apple.com-homepage-clone) - [View in Browser](https://rawcdn.githack.com/krys2fa/apple.com-homepage-clone/1f3506f12a73a8735c50795f5a06aeea6153b982/index.html)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/appledotcome-clone) - [View in Browser](https://andrsrz.github.io/appledotcome-clone/)
 * [Yiğit's Solution](https://github.com/yigitm/Apple-Clone) - [View in Browser](https://yigitm.github.io/Apple-Clone/)

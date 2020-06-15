@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [BernH4's Solution](https://github.com/BernH4/calculator) - [View in Browser](https://bernh4.github.io/calculator/)
 - [jnjensen's Solution](https://github.com/jnjensen/calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/jnjensen/calculator/blob/master/calculator.html)
 - [Simonoob's Solution](https://github.com/Simonoob/Online-Calculator) - [View in Browser](https://simonoob.github.io/Online-Calculator/)
 - [Shubhankar's Solution](https://github.com/shubh-pandit) - [View in Browser](https://shubh-pandit.github.io/Calculator/)
@@ -745,4 +746,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [constantinginga's Solution](https://github.com/constantinginga/calculator) - [View in Browser](https://constantinginga.github.io/calculator/)
 - [mpiriya's Solution](https://github.com/mpiriya/calculator2) - [View in Browser](https://mpiriya.github.io/calculator2/)
 - [Jasen's Solution](https://github.com/celticjasen/calculator) - [View in Browser](https://celticjasen.github.io/calculator)
+- [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/calculator) - [View in Browser](https://playingongithub.github.io/calculator/)
 </details>
