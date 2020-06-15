@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Marcos Hernandez's Solution](https://github.com/Marcos6838/rock-paper-scissor/blob/master/index.html) - [View in Browser](https://marcos6838.github.io/rock-paper-scissor/)
 - [Clumsynite's Solution](https://github.com/Clumsynite/rps-gui) - [View in Browser](https://clumsynite.github.io/rps-gui/)
 - [Othesius-exe's Solution](https://github.com/othesius-exe/rock-paper-scissors)
 - [CobraX5000's Solution](https://github.com/CobraX5000/rock-paper-scissors)
