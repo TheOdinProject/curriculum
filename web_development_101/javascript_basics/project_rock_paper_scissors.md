@@ -1672,5 +1672,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Efren's Solution](https://github.com/efrenyan/rock-paper-scissors-)
 - [Brett's Solution](https://github.com/b-common/rockpaperscissors)
 </details>
-
-
