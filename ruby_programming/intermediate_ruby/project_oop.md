@@ -19,7 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [lrdvnz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/blob/master/mastermind.rb)
+* [lrdvnz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/tree/master/mastermind)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/tic-tac-toe) - [View in repl.it](https://repl.it/github/TildaDares/tic-tac-toe)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/tic-tac-toe)
 * [Sam Eff's Solution](https://github.com/SamEff/Tic_Tac_Toe)
