@@ -76,6 +76,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Morgan's Solution](https://github.com/morganbonhomme/message_board) - [View in Browser](https://fast-plains-46479.herokuapp.com/)
 - [Kevin's Solution](https://github.com/kevinbeall/Message_board) - [View in Browser](https://ancient-oasis-00535.herokuapp.com/)
 - [Randolph's Solution](https://github.com/RandolphCisneros/mini-message-board) - [View in Browser](https://mini-message-board-randolph.herokuapp.com/) 
 - [filipni's Solution](https://github.com/filipni/mini-messageboard) - [View in Browser](https://filipni-messageboard.herokuapp.com/) 
