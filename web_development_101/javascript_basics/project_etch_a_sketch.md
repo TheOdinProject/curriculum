@@ -45,6 +45,16 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Ruchira's Solution](https://github.com/ruchirawp/sketchpad)
+* [MatthewKissinger's Solution](https://github.com/MatthewKissinger/TOP-etch-a-sketch) - [View in Browser](https://matthewkissinger.github.io/TOP-etch-a-sketch/)
+* [acchang's Solution](https://github.com/acchang/Etch-a-Sketch) - [View in Browser](http://htmlpreview.github.io/?https://github.com/acchang/Etch-a-Sketch/blob/master/index.html)
+* [Clumsynite's Solution](https://github.com/Clumsynite/etch-a-sketch) - [View in Browser](https://clumsynite.github.io/etch-a-sketch/)
+* [Raymond's Solution](https://github.com/RaymondLi-1993/Etch-sketch) - [View in Browser](https://raymondli-1993.github.io/Etch-sketch/)
+* [Div's Solution](https://github.com/divdagar/etch-a-sketch) - [View in Browser](https://divdagar.github.io/etch-a-sketch/)
+* [Darren's Solution](https://github.com/DarrenLo0530/sketch-pad) - [View in Browser](https://darrenlo0530.github.io/sketch-pad/)
+* [Ryan's Solution](https://github.com/RyanTalbot/etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RyanTalbot/etch-a-sketch/blob/master/index.html)
+* [Frank Johnette's Solution](https://github.com/FJohnette/Sketch-A-Roo) - [View in Browser](https://fjohnette.github.io/Sketch-A-Roo/)
+* [pklepa's Solution](https://github.com/pklepa/etch-a-sketch) - [View in Browser](https://pklepa.github.io/etch-a-sketch/)
 * [derrickandry's Solution](https://github.com/derrickandry/etch-a-sketch) - [View in Browser](https://derrickandry.github.io/etch-a-sketch/)
 * [Pandit's Solution](https://github.com/shubh-pandit/EtchASketch) - [View in Browser](https://shubh-pandit.github.io/EtchASketch/)
 * [TamaraNC's Solution](https://github.com/TamaraNC/etch-a-sketch) - [View in Browser](https://htmlpreview.github.io/?https://github.com/TamaraNC/etch-a-sketch/blob/master/index.html)
@@ -1061,4 +1071,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [kaizwebdesign's Solution](https://github.com/kaizwebdesign/etch-a-sketch) - [View in Browser](https://kaizwebdesign.github.io/etch-a-sketch/)
 * [jbhannon's Solution](https://github.com/jbhannon/etch-a-sketch) - [View in Browser](https://jbhannon.github.io/etch-a-sketch/)
 * [Alejaldo's Solution](https://github.com/Alejaldo/Etch-A-Sketch) - [View in Browser](https://alejaldo.github.io/Etch-A-Sketch/)
+* [Soolo's Solution](https://github.com/soolodev/top-etch-sketch) - [View in Browser](https://soolodev.github.io/top-etch-sketch/)
+* [LauPss's Solution](https://github.com/LauPss/etch-a-sketch) - [View in Browser](https://laupss.github.io/etch-a-sketch/etch-a-sketch.html)
 </details>
