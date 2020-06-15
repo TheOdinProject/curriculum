@@ -52,6 +52,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [threeaces' Solution](https://github.com/threeaces/binary_search_tree_ruby_TOP)  
 * [andrewjh271's Solution](https://github.com/andrewjh271/binary_search_tree)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Binary-Search-Tree)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/binary-search-trees)
