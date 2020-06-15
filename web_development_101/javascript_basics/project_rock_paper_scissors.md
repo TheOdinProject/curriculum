@@ -41,6 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Clumsynite's Solution](https://github.com/Clumsynite/rps-gui) - [View in Browser](https://clumsynite.github.io/rps-gui/)
+- [Othesius-exe's Solution](https://github.com/othesius-exe/rock-paper-scissors)
+- [CobraX5000's Solution](https://github.com/CobraX5000/rock-paper-scissors)
+- [Ryan's Solution](https://github.com/RyanTalbot/rock-paper-scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RyanTalbot/rock-paper-scissors/blob/master/index.html)
+- [Mugilan's Solution](https://github.com/Mugilan-Codes/rock-paper-scissors)
+- [Willy's Solution](https://github.com/loud-ninja/rockpaperscissors) - [View in Browser](https://loud-ninja.github.io/rockpaperscissors/)
 - [Gavin's Solution](https://github.com/gpMotion/rock-paper-scissors-assignment/) - [View in Browser](https://gpmotion.github.io/rock-paper-scissors-assignment/)
 - [James' Solution](https://github.com/webdevil81/rock-paper-scissors) - [View in Browser](https://webdevil81.github.io/rock-paper-scissors/)
 - [Uwem's Solution](https://github.com/UwemEkong/rockpaperscissors)
@@ -1673,5 +1679,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [rosedlo's Solution](https://github.com/rosedlo/rock-paper-scissors) - [View in Browser](https://rosedlo.github.io/rock-paper-scissors/)
 - [caldrun's Solution](https://github.com/caldrun/rock_paper_scissors)
 - [Efren's Solution](https://github.com/efrenyan/rock-paper-scissors-)
+- [Jie Zou's Solution](https://github.com/Sugarcane-svg/ROCK-PAPER-SCISSORS) - [View in Browser](https://sugarcane-svg.github.io/ROCK-PAPER-SCISSORS/)
+- [Jean-Baptiste's Solution](https://github.com/pjbaptiste/game-java) - [View in Browser](https://pjbaptiste.github.io/game-java/)
+- [Jhair Silva's Solution](https://github.com/JhairSilvaOjeda/PRS) - [View in Browser](https://jhairsilvaojeda.github.io/PRS/)
+- [Novibonjovi's Solution](https://github.com/novibonjovi/rock-paper-scissors) - [View in Browser](https://novibonjovi.github.io/rock-paper-scissors/)
 </details>
 

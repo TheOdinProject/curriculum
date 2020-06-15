@@ -53,6 +53,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [andrewjh271's Solution](https://github.com/andrewjh271/binary_search_tree)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Binary-Search-Tree)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/binary-search-trees)
 * [rryand's Solution](https://github.com/rryand/ruby_binary_search_tree)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/binary_search)
