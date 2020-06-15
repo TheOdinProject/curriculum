@@ -30,7 +30,7 @@ If you do not know how to setup a repository, follow the instructions found in [
 - [Setting up SSH on Github](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github).
 
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
-5. If you want to share your Solution, include a link in the markdown file included at the top of the student Solutions section.
+5. If you want to share your solution, include a link in the markdown file included at the top of the student Solutions section.
 
 If you are having trouble:
 
@@ -75,7 +75,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 
 ### Viewing your project on the web
 
-If you want to show your work (the project) to others, or submit a Solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above) doing this is incredibly simple.
+If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above) doing this is incredibly simple.
 
 Github allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`
 
@@ -89,12 +89,12 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 ### Student Solutions
 
-Submit a pull request with a link to your Solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/the_front_end/project_html_css.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-* Add your Solution below this list
+* Add your solution below this list
 * [sqyan01's Solution (Easy)](https://github.com/sqyan01/google-homepage) - [View in Browser](https://sqyan01.github.io/google-homepage/)
 * [Clumsynite's Solution (Easy)](https://github.com/Clumsynite/google-homepage) - [View in Browser](https://clumsynite.github.io/google-homepage/)
 * [blakeishere's Solution (Easy)](https://github.com/blakeishere/google-homepage/) - [View in Browser](https://blakeishere.github.io/google-homepage/)
