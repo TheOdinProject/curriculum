@@ -382,6 +382,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ethan W's Solution](https://github.com/ethan-wax/tic_tac_toe)
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/tictactoe.rb)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/tictactoe)
+* [ahanasi's Solution](https://github.com/ahanasi/tic-tac-toe) - [Play on repl.it](https://repl.it/@ahanasi/tic-tac-toe#.replit)
+
 </details>
 
 ### Project 2: Mastermind
@@ -692,6 +694,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ethan W's Solution](https://github.com/ethan-wax/mastermind)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/mastermind)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/codebreaker)
+* [ahanasi’s Solution](https://github.com/ahanasi/mastermind) - [Play on repl.it](https://repl.it/@ahanasi/mastermind#.replit)
+
 </details>
 
 ### Additional Resources
