@@ -690,6 +690,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sandy's Solution](https://github.com/kuosandys/top-mastermind)
 * [Ethan W's Solution](https://github.com/ethan-wax/mastermind)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/mastermind)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/codebreaker)
 </details>
 
 ### Additional Resources
