@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Rizwan's Solution](https://xrizwan.github.io/RPS-game/index.html) - [View in Browser](https://xrizwan.github.io/RPS-game/index.html)
 - [Daniel Moderiano's Solution](https://github.com/daniel-moderiano/rock-paper-scissors)
 - [theamian's Solution](https://github.com/theamian/RockPaperScissors)
 - [Marcos Hernandez's Solution](https://github.com/Marcos6838/rock-paper-scissor/blob/master/index.html) - [View in Browser](https://marcos6838.github.io/rock-paper-scissor/)
