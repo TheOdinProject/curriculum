@@ -975,4 +975,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Sandy's Solution](https://github.com/kuosandys/etch-a-sketch) - [View in Browser](https://kuosandys.github.io/etch-a-sketch/)
 * [sptyi's Solution](https://github.com/sptyi/Etch-a-Sketch) - [View in Browser](https://sptyi.github.io/Etch-a-Sketch/)
 * [Dyskgo's solution](https://github.com/dyskgo/etchasketch)  -  [View in Browser](https://dyskgo.github.io/etchasketch/)
+* [Tarkie's solution](https://github.com/tarkie/etch-a-sketch)  -  [View in Browser](https://tarkie.github.io/etch-a-sketch/)
 </details>
