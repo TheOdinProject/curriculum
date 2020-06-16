@@ -3838,6 +3838,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Marcos Hernandez Solution (Easy)](https://marcos6838.github.io/google-homepage/)
 * [seabiscuit's Solution (Easy)](https://seabiscuit1698.github.io/google-homepage/)
 * [Borovnica1 Solution (Easy)](https://borovnica1.github.io/google-homepage/)
+* [joankii's Solution (Easy)](https://joan-kii.github.io/google-homepage/)
+* [joankii's Solution (Difficult)](https://joan-kii.github.io/google-search-results/)
 </details>
 
 ### Additional Resources
