@@ -21,7 +21,7 @@ By the end of this lesson, you should be able to do the following:
 
 * Explain the three steps in the problem solving process.
 * Explain what pseudo code is and be able to use it to solve problems.
-* Be able to break a problem down into sub problems.
+* Be able to break a problem down into subproblems.
 
 ### Understand the Problem
 The first step to solving a problem is understanding exactly what the problem is. If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution.
@@ -33,8 +33,8 @@ Now that you know what you're aiming to solve, don't jump into coding just yet i
 
 Some of the questions you should answer at this part of the process:
 
-* Does your program have a user interface? what will it look like? what functionality will the interface have? sketch this out on paper
-* What inputs will your program have? will the user enter data or will you get input from somewhere else
+* Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper
+* What inputs will your program have? Will the user enter data or will you get input from somewhere else
 * What's the desired output?
 * Given your inputs, what are the steps necessary to return the desired output?
 
@@ -56,13 +56,13 @@ This is a very simple program to demonstrate how pseudo code looks, there will b
 
 
 ### Divide and Conquer
-From your planning, you should have identified some sub problems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are sub problems. Pick the smallest or simplest one and start there with coding.
+From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
 
-It's important to remember that you might not know all the steps that you might need up front so your algorithm may be incomplete, this is fine. Getting started with and solving one of the sub problems you have identified in the planning stage, often reveals the next sub problem you can work on. Or if you already know the next sub problem is it’s often simpler with the first sub problem solved.
+It's important to remember that you might not know all the steps that you might need up front so your algorithm may be incomplete -- this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage, often reveals the next subproblem you can work on. Or if you already know the next subproblem is it’s often simpler with the first subproblem solved.
 
-Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller easier to solve sub problems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
+Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller easier to solve subproblems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
 
-In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
+In short, break the big problem down and solve each of the subproblems until you've solved the big problem.
 
 ### Solving Fizz Buzz
 To demonstrate this workflow in action lets solve a common programming exercise, [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz)
@@ -72,13 +72,13 @@ To demonstrate this workflow in action lets solve a common programming exercise,
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
-Write a problem that allows the user to enter a number, Print each number between one the number the user entered, but for numbers that divide by three cleanly without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
+Write a problem that allows the user to enter a number, Print each number between one and the number the user entered, but for numbers that divide by three cleanly without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
 
 #### Plan
-Does your program have an interface? what will it look like?
+Does your program have an interface? What will it look like?
 Our FizzBuzz solution will be a command line program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
 
-What inputs will your program have? will the user enter data or will you get input from somewhere else
+What inputs will your program have? Will the user enter data or will you get input from somewhere else?
 The user will enter a number from the command line.
 
 What's the desired output?
@@ -97,7 +97,7 @@ Otherwise print the current number
 ```
 
 #### Divide and Conquer (Implement)
-As we can see from the algorithm we developed, the first sub problem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
+As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
 
 ~~~ruby
 print "Please enter the number you would like to FizzBuzz up to: "
@@ -106,14 +106,14 @@ maximum_number = gets.chomp.to_i
 puts maximum_number
 ~~~
 
-when we run this, we should see this output:
+When we run this, we should see this output:
 
 ~~~bash
-Please enter the number you would like to FizzBuzz up to:  10
+Please enter the number you would like to FizzBuzz up to: 10
 10
 ~~~
 
-With that done lets move on to the next sub problem "Loop from 1 to the entered number". There are many ways of doing this in Ruby. One of the more expressive ways is using `upto` for the loop. The program now looks like this:
+With that done lets move on to the next subproblem "Loop from 1 to the entered number". There are many ways of doing this in Ruby. One of the more expressive ways is using `upto` for the loop. The program now looks like this:
 
 ~~~ruby
 print "Please enter the number you would like to FizzBuzz up to: "
@@ -127,7 +127,7 @@ end
 We are printing out all the numbers to verify our code works. Running the code again, we should get this output:
 
 ~~~bash
-Please enter the number you would like to FizzBuzz up to:  10
+Please enter the number you would like to FizzBuzz up to: 10
 1
 2
 3
@@ -140,7 +140,7 @@ Please enter the number you would like to FizzBuzz up to:  10
 10
 ~~~
 
-With that working, lets move on to the next problem: If the current number is divisible by 3 then print "Fizz"
+With that working, lets move on to the next problem: If the current number is divisible by 3 then print "Fizz".
 
 ~~~ruby
 print "Please enter the number you would like to FizzBuzz up to: "
@@ -173,7 +173,7 @@ Fizz
 10
 ~~~
 
-The program is starting to take shape, the final few sub problems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Lets tackle the next one: If the current number is divisible by 5 then print "Buzz"
+The program is starting to take shape, the final few subproblems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Lets tackle the next one: If the current number is divisible by 5 then print "Buzz".
 
 ~~~ruby
 print "Please enter the number you would like to FizzBuzz up to: "
@@ -206,7 +206,7 @@ Fizz
 Buzz
 ~~~
 
-We have one more sub problem to solve to complete the program: If the current number is divisible by 3 and 5 then print "FizzBuzz"
+We have one more subproblem to solve to complete the program: If the current number is divisible by 3 and 5 then print "FizzBuzz"
 
 ~~~ ruby
 print "Please enter the number you would like to FizzBuzz up to: "
@@ -232,7 +232,7 @@ With the condition `if current_number % 3 == 0 && current_number % 5 == 0` comin
 The program is now complete, if you run it now you should get this output:
 
 ~~~bash
-Please enter the number you would like to FizzBuzz up to:  20
+Please enter the number you would like to FizzBuzz up to: 20
 1
 2
 Fizz
