@@ -1613,6 +1613,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [christian-ortega's Solution (GUI)](https://github.com/christian-ortega/rock-paper-scissors-ui) - [View in Browser (GUI)](https://christian-ortega.github.io/rock-paper-scissors-ui/)
 - [christian-ortega's Solution (console)](https://github.com/christian-ortega/rock-paper-scissors) - [View in Browser (Console)](https://christian-ortega.github.io/rock-paper-scissors/)
 - [sptyi's Solution](https://github.com/sptyi/Rock-Paper-Scissors)
+- [DM-Murphy's Solution](https://github.com/dm-murphy/rock-paper-scissors) - [View in Browser](https://dm-murphy.github.io/rock-paper-scissors/)
 - [Sandy's Solution](https://github.com/kuosandys/rock_paper_scissors) - [View in Browser](https://kuosandys.github.io/rock_paper_scissors/)
 - [Brenton393's Solution](https://github.com/Brenton393/rock-paper-scissors) - [View in Browser](https://brenton393.github.io/rock-paper-scissors)
 - [ebergson's Solution](https://github.com/ebergson/rock-paper-scissors)
