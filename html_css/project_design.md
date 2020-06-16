@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Witah Georjane's Solution](https://github.com/Georjane/Smashing-Magazine-Heatmap) - [View in Browser](https://rawcdn.githack.com/Georjane/Smashing-Magazine-Heatmap/631b820ebda7534fdbc7370030e0902fc92aba3b/index.html)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/design-teardown) - [View in Browser](https://andrsrz.github.io/design-teardown/)
 * [Haroon Abdulrazaq's Solution](https://github.com/talhawaqar/design-teardown) - [View in Browser](https://raw.githack.com/talhawaqar/design-teardown/feature-page/index.html)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/design-teardown) - [View in Browser](https://jsalvadorpp.github.io/design-teardown/)
