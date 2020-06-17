@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [mostpeopleareotherpeople's Solution](https://github.com/mostpeopleareotherpeople/rockpaperscissors) 
+- [invaderace's Solution](https://github.com/invaderace/rock-paper-scissors) - [View in Browser](https://invaderace.github.io/rock-paper-scissors/)
 - [Rizwan's Solution](https://xrizwan.github.io/RPS-game/index.html) - [View in Browser](https://xrizwan.github.io/RPS-game/index.html)
 - [Daniel Moderiano's Solution](https://github.com/daniel-moderiano/rock-paper-scissors)
 - [theamian's Solution](https://github.com/theamian/RockPaperScissors)
@@ -1694,4 +1695,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Brett's Solution](https://github.com/b-common/rockpaperscissors)
 - [Vinecreeper888's solution](https://github.com/rock-paper-scissors)
 - [Taras's Solution](https://github.com/tiris08/PROJECT-ROCK-PAPER-SCISSORS-by-Taras) - [View in Browser](https://tiris08.github.io/PROJECT-ROCK-PAPER-SCISSORS-by-Taras/)
+- [hazigabriel's Solution](https://github.com/hazigabriel/rock-paper-scissors-update) - [View in Browser](https://hazigabriel.github.io/rock-paper-scissors-update/)
 </details>
