@@ -282,6 +282,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/knight-moves)
 * [andrewjh271's Solution](https://github.com/andrewjh271/knight_travails)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/knights-travails)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/knight_moves)
