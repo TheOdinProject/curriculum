@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* :heart:[Apurba's Solution (Easy)]:heart:(https://github.com/ApurbaAdhikary/google-homepage) - [View in Browser](https://apurbaadhikary.github.io/google-homepage/)
 * [Superspike7 Solution (Easy)](https://github.com/superspike7/google-homepage) - [View in Browser](https://superspike7.github.io/google-homepage/)
 * [Ahmed Alis Solution (Easy)](https://github.com/ahmedalima/google-homepage) - [View in Browser](https://ahmedalima.github.io/google-homepage/)
 * [MercuryField's Solution (Easy)](https://github.com/MercuryFields/google-homepage) - [View in Browser](https://mercuryfields.github.io/google-homepage/)
