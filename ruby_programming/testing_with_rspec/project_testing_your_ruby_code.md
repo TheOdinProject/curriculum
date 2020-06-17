@@ -146,6 +146,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/connect-four-tdd)
 * [andrewjh271's Solution](https://github.com/andrewjh271/connect_four)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/connect_four)
 * [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/connect_four)
