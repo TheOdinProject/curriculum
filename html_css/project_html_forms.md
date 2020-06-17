@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Stanley Enow Lekunze's (happiguruman) solution](https://github.com/happiguru/mint-signup-page) - [View in Browser](https://happiguru.github.io/mint-signup-page/)
 * [Adil-Bub's](https://github.com/Adil-Bub/ReplicaForm) - [View in Browser](https://adil-bub.github.io/ReplicaForm/)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/html-form) - [View in Browser](https://andrsrz.github.io/html-form/)
 * [Cody Degen's Solution](https://github.com/codydegen/mint_signup) - [View in browser](https://codydegen.github.io/mint_signup/)
