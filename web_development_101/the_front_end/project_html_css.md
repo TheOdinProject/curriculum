@@ -3844,6 +3844,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [eisajanyan Solution (Easy)](https://eisajanyan.github.io/OP-google-homepage/)
 * [joankii's Solution (Easy)](https://joan-kii.github.io/google-homepage/)
 * [joankii's Solution (Difficult)](https://joan-kii.github.io/google-search-results/)
+* [skwiryt's Solution (Easy)](https://github.com/skwiryt/google-homepage) - [View in Browser](https://skwiryt.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
