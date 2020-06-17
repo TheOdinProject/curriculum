@@ -315,4 +315,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Sandy's Solution](https://github.com/kuosandys/top-hangman)
 * [mpiriya's Solution](https://github.com/mpiriya/hangman)
 * [akoenig1's Solution](https://github.com/akoenig1/hangman)
+* [Ethan W's Solution](https://github.com/ethan-wax/hangman)
 </details>
