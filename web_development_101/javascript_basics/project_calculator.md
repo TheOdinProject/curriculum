@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Clumsynite's Solution](https://github.com/Clumsynite/calculator) - [View in Browser](https://clumsynite.github.io/calculator/)
 - [Bassel Alrefai's Solution](https://github.com/basselalrefai/calculator) - [View in Browser](https://basselalrefai.github.io/calculator/)
 - [Ideopunk's Solution](https://github.com/Ideopunk/calculator) - [View in Browser](https://Ideopunk.github.io/calculator)
 - [vicc30's Solution](https://github.com/vicc30/Calculator_project) - [View in Browser](https://vicc30.github.io/Calculator_project/)
