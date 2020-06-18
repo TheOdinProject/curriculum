@@ -187,7 +187,7 @@ You probably won't be worrying too much about SOA while building "toy" applicati
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Rails Guide on Controllers](http://guides.rubyonrails.org/action_controller_overview.html) section 7 to learn about rendering JSON and XML.
+  1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data) section 7 to learn about rendering JSON and XML.
   2. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
 </div>
 
