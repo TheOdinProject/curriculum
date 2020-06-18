@@ -1045,4 +1045,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Arturo's Solution](https://github.com/StarSheriff2/Etch-a-Sketch-Project---Arturo) - [View in Browser](https://starsheriff2.github.io/Etch-a-Sketch-Project---Arturo/)
 * [constantinginga's Solution](https://github.com/constantinginga/etch-a-sketch) - [View in Browser](https://constantinginga.github.io/etch-a-sketch/)
 * [mpiriya's solution](https://github.com/mpiriya/etch-a-sketch) - [View in Browser](https://mpiriya.github.io/etch-a-sketch/)
+* [mrbuddh4's Solution](https://github.com/mrbuddh4/etch-a-sketch) - [View in Browser](https://mrbuddh4.github.io/etch-a-sketch/)
 </details>
