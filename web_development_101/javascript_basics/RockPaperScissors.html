@@ -1,0 +1,104 @@
+<html>
+<script>
+ function computerPlay() {
+     //Use math.random to select a number between 0 and 2
+    let result = Math.floor(Math.random() * 3);
+
+    //Convert number to rock paper or scissors
+    if (result == 0){
+        return "Rock";
+    }
+    else if (result == 1){
+        return "Paper";
+    }
+    else{
+        return "Scissors";
+    }
+ }
+
+function playRound(playerSelection, computerSelection){
+    
+    //conver to lowercase to make comparison easier
+    playerSelection = playerSelection.toLowerCase();
+    computerSelection = computerSelection.toLowerCase();
+
+    //Determine loss conditions & display output
+    if(playerSelection == 'rock' && computerSelection == 'paper'){
+        return "You Lose! Paper beats Rock";
+    }
+    else if(playerSelection == 'paper' && computerSelection == 'scissors'){
+        return "You Lose! Scissors beats Paper";
+    }
+    else if(playerSelection == 'scissors' && computerSelection == 'rock'){
+        return "You Lose! Rock beats Scissors";
+    }
+
+    //Win conditions
+    
+    else if(playerSelection == 'rock' && computerSelection == 'scissors'){
+        return "You win! Rock beats Scissors";
+    }
+    else if(playerSelection == 'paper' && computerSelection == 'rock'){
+        return "You win! Paper beats Rock";
+    }
+    else if(playerSelection == 'scissors' && computerSelection == 'paper'){
+        return "You win! Scissors beats Paper";
+    }
+
+    //Draw Conditions
+    else if(playerSelection == 'rock' && computerSelection == 'rock'){
+        return "Draw! You both chose Rock!";
+    }
+    else if(playerSelection == 'paper' && computerSelection == 'paper'){
+        return "Draw! You both chose Paper";
+    }
+    else if(playerSelection == 'scissors' && computerSelection == 'scissors'){
+        return "Draw! You both chose Scissors";
+    }
+
+}
+/* //test
+const playerSelection = 'rock';
+const computerSelection = computerPlay();
+console.log(playRound(playerSelection, computerSelection)); */
+
+//Function to play the game 5 times
+function game(){
+    //Create count variables to keep track of wins losses and draws
+    var playerCount = 0;
+    var computerCount = 0;
+    var draw = 0;
+
+    //loop through play round 5 times
+    for (let count = 0; count < 5; count++) {
+        //put results in results variable to determine winner
+        let results = playRound(prompt("Choose Rock, Paper, or Scissors"),computerPlay());
+        //Display results in console
+        console.log(results);
+
+        //Add to count determined by winner
+        //Slice results of game to determine who won and add to count
+        if (results.slice(0,7) == "You win"){
+            playerCount += 1
+        }
+        else if(results.slice(0, 8) == "You Lose"){
+            computerCount += 1;
+        }
+        else{
+            draw += 1;
+        }
+    }
+    //Determine victor by comparing wins to eachother
+    if (playerCount > computerCount){
+        return "Congratulations you won " + playerCount + " out of 5 games!\n There were " + draw + " game(s) ending in a draw." ;
+    }
+    else if(playerCount < computerCount){
+        return "You lose, the computer won " + computerCount + " out of 5 games.\n There were " + draw + " game(s) ending in a draw.";
+    }
+    else {
+        return "It was a draw! You won " + playerCount + " games & the computer won " + computerCount + " games.\n There were " + draw + " game(s) ending in a draw.";
+    }
+}
+
+</script>
+<html>
