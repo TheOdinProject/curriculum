@@ -95,6 +95,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Apurba's Solution (Easy)](https://github.com/ApurbaAdhikary/google-homepage) - [View in Browser](https://apurbaadhikary.github.io/google-homepage/)
+* [Tashrik's solution (Easy)](https://github.com/anampartho/google-homepage) - [View in Browser](https://anampartho.github.io/google-homepage/)
+* [Superspike7 Solution (Easy)](https://github.com/superspike7/google-homepage) - [View in Browser](https://superspike7.github.io/google-homepage/)
 * [Ahmed Alis Solution (Easy)](https://github.com/ahmedalima/google-homepage) - [View in Browser](https://ahmedalima.github.io/google-homepage/)
 * [MercuryField's Solution (Easy)](https://github.com/MercuryFields/google-homepage) - [View in Browser](https://mercuryfields.github.io/google-homepage/)
 * [sqyan01's Solution (Easy)](https://github.com/sqyan01/google-homepage) - [View in Browser](https://sqyan01.github.io/google-homepage/)
@@ -3843,6 +3846,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [eisajanyan Solution (Easy)](https://eisajanyan.github.io/OP-google-homepage/)
 * [joankii's Solution (Easy)](https://joan-kii.github.io/google-homepage/)
 * [joankii's Solution (Difficult)](https://joan-kii.github.io/google-search-results/)
+* [skwiryt's Solution (Easy)](https://github.com/skwiryt/google-homepage) - [View in Browser](https://skwiryt.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
