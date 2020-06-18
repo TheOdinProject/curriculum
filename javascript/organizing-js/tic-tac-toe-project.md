@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Osechi3's Solution](https://github.com/osechi3/tic-tac-toe-game) - [View in Browser](https://osechi3.github.io/tic-tac-toe-game/)
 - [Aidan's Solution](https://github.com/aidanwaugh/TheOdinProject/tree/master/09-tic-tac-toe) - [View in Browser](https://aidanwaugh.github.io/TheOdinProject/09-tic-tac-toe/)
 - [RobisonWebDev's Solution](https://github.com/robisonwebdev/tic-tac-toe) - [View in Browser](http://davidrulonrobison.com/tic-tac-toe/)
 - [JMira84's Solution](https://github.com/JMira84/Tic-Tac-Toe) - [View in Browser](https://jmira84.github.io/Tic-Tac-Toe/)
