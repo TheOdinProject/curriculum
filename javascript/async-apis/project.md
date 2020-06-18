@@ -19,6 +19,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ylli's solution](https://github.com/yllabazi/weather-app) - [View in Browser](https://yllabazi.github.io/weather-app/)
+* [Zayeer's solution](https://github.com/Zayeer/weather-app) - [View in Browser](https://zayeer.github.io/weather-app/)
+* [Luky's Solution](https://github.com/lcyne/weather-app) - [View in Browser](https://lcyne.github.io/weather-app/)
+* [hieu-ng's Solution](https://github.com/hieu-ng/weather-app) - [View in Browser](https://hieu-ng.github.io/weather-app/)
+* [hu-ng's Solution](https://github.com/hu-ng/current-weather) - [View in Browser](https://hu-ng.github.io/current-weather/index.html)
 * [Kimberly's Solution](https://github.com/kimberlyohq/weather-app) - [View in Browser](https://kimberlyohq.github.io/weather-app/)
 * [Morgan's Solution](https://github.com/morganbonhomme/weather_app) - [View in Browser](https://morganbonhomme.github.io/weather_app/)
 * [Chaitanya's Solution](https://github.com/Chaitanya-Raj/weather_app) - [View in Browser](https://chaitanya-raj.github.io/weather_app/)
@@ -93,4 +98,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [m-rejdych's Solution](https://github.com/m-rejdych/Weather-App) - [View in Browser](https://m-rejdych.github.io/Weather-App/)
 * [Joe Thompson's Solution](https://github.com/jlthompso/weather) - [View in Browser](https://jlthompso.github.io/weather/)
 * [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/weather-app) - [View in Browser](https://ozansozuozgit.github.io/weather-app/)
+* [Ricardo's Solution](https://github.com/ricardo-gonzalez-villegas/weather-react-app/tree/master) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/weather-react-app/)
 </details>

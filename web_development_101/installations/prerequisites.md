@@ -52,7 +52,7 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
 3. Hard disk file type: Choose the **VDI (VirtualBox disk image)** option.
    
-   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/NSUorQQ.png" alt="The VirtualBox Create Virtual Hard Disk window 2" title="This is also the default selection">
+   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/O6UROTf.png" alt="The VirtualBox Create Virtual Hard Disk window 2" title="This is also the default selection">
    
 4. Storage on physical hard disk: **“Dynamically allocated”**.
    
