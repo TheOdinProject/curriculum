@@ -55,7 +55,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Othesius-exe's Solution](https://github.com/othesius-exe/rock-paper-scissors)
 - [CobraX5000's Solution](https://github.com/CobraX5000/rock-paper-scissors)
 - [Ryan's Solution](https://github.com/RyanTalbot/rock-paper-scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RyanTalbot/rock-paper-scissors/blob/master/index.html)
-- [Mugilan's Solution](https://github.com/Mugilan-Codes/rock-paper-scissors)
+- [Mugilan's Solution](https://github.com/Mugilan-Codes/rock-paper-scissors) - [View in Browser](https://mugilan-codes.github.io/rock-paper-scissors/)
 - [Willy's Solution](https://github.com/loud-ninja/rockpaperscissors) - [View in Browser](https://loud-ninja.github.io/rockpaperscissors/)
 - [Gavin's Solution](https://github.com/gpMotion/rock-paper-scissors-assignment/) - [View in Browser](https://gpmotion.github.io/rock-paper-scissors-assignment/)
 - [James' Solution](https://github.com/webdevil81/rock-paper-scissors) - [View in Browser](https://webdevil81.github.io/rock-paper-scissors/)
