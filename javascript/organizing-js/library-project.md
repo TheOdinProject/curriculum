@@ -40,9 +40,16 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Osechi3's Solution](https://github.com/osechi3/library-project) - [View in Browser](https://osechi3.github.io/library-project/)
+- [Afzaman's Solution w/ Local Storage](https://github.com/afzaman/book-shelf) - [View in Browser](https://afzaman.github.io/book-shelf/)
+- [MiDDiz's Solution w/Firebase Integration!](https://github.com/MiDDiz/OdinJSLibrary) - [View in Browser](https://middiz.github.io/OdinJSLibrary)
+- [iamjethrooo's Solution](https://github.com/iamjethrooo/library) - [View in Browser](https://iamjethrooo.github.io/library/)
+- [JMira84 Solution (w/localstorage)](https://github.com/JMira84/library) - [View in Browser](https://jmira84.github.io/library/)
+- [Lee Massey's Solution](https://github.com/leemassey/library) - [View in Browser](https://leemassey.github.io/library/)
 - [RobisonWebDev Solution](https://github.com/robisonwebdev/Library) - [View in Browser](https://robisonwebdev.github.io/Library/)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/library) - [View in Browser](https://andrsrz.github.io/library/)
 - [Kevin's Solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/Library) - [View in Browser](https://kevin-satti-projects.github.io/Projects/Library/)
+- [Mohamednasr20's Solution](https://github.com/mohamednasr20/book_library.git) - [View in Browser](https://mohamednasr20.github.io/book_library/)
 - [Jared's Solution](https://github.com/jaredaritter/library)
 - [jingjing142's Solution (w/localstorage)](https://github.com/jingjing142/library) - [View in Browser](https://jingjing142.github.io/library/)
 - [kaliberpoziomka's Solution(w/ local storage)](https://github.com/kaliberpoziomka/library) - [View in Browser](https://kaliberpoziomka.github.io/library/)
@@ -307,5 +314,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [hamparmin's Solution](https://github.com/hamparmin/library) - [View in Browser](https://hamparmin.github.io/library/)
 - [oppowag's Solution](https://github.com/oppowag/library) - [View in Browser](https://oppowag.github.io/library/)
 - [DurandalOne's Solution (w/firebase)](https://github.com/DurandalOne/library) - [View in Browser](https://durandalone.github.io/library/)
+- [jooji-san's Solution (w/localstorage)](https://https://github.com/jooji-san/Library) - [View in Browser](https://jooji-san.github.io/Library/)
+- [MichelleP1’s solution (w/firebase)](https://github.com/MichelleP1/library) - [View in Browser](http://michellepeters.me/library/)
+- [constantinginga’s solution (w/localstorage)](https://github.com/constantinginga/library) - [View in Browser](https://constantinginga.github.io/library/)
+- [alxmkh’s solution (w/localstorage)](https://github.com/alxmkh/library) - [View in Browser](https://alxmkh.github.io/library/)
 </details>
-
