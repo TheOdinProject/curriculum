@@ -1634,4 +1634,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [liampc's Solution](https://github.com/liampc/rock-paper-scissors) - [View in Browser](https://liampc.github.io/rock-paper-scissors/)
 - [DurandalOne's Solution](https://github.com/DurandalOne/rock_paper_scissors) - [View in Browser](https://durandalone.github.io/rock_paper_scissors/)
 - [Brett's Solution](https://github.com/17wilsonb/rock-paper-scissors) - [View in Browser](https://17wilsonb.github.io/rock-paper-scissors)
+- [Jeev's Console Solution](https://github.com/jeevdev/rock)
 </details>
