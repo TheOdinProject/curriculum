@@ -7,7 +7,7 @@ Objects are a _very_ important part of the JavaScript language, and while for th
 
 ### Intermediate/Advanced Array Magic
 
-Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways.  Once you begin to master these functions you will start to see ways to use them all over the place! There are really only a handful of these functions... but as you'll soon see the possibilities of what you can do with them are near endless.
+Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways.  Once you begin to master these functions you will start to see ways to use them all over the place! There are really only a handful of these functions... but as you'll soon see, the possibilities of what you can do with them are near endless.
 
 1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos.  To follow along, use your local Javascript30 repository. If you don't have the repo yet, clone it from [here](https://github.com/wesbos/JavaScript30).
 2. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.

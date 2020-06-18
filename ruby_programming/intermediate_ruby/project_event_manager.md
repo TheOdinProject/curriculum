@@ -123,7 +123,7 @@ most straightforward is `File.read`
 ~~~ruby
 puts "EventManager initialized."
 
-contents = File.read "event_attendees.csv"
+contents = File.read "../event_attendees.csv"
 puts contents
 ~~~
 
@@ -719,7 +719,7 @@ Take a close look at that address. Here's how it breaks down:
 When we're accessing the `representatives` method of their API, we're sending in a `key` which is the string that identifies JumpstartLab as the accessor of
 the API, then we're selecting the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
 
-This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](http://jsonprettyprint.com/), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
+This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](https://jsonformatter.org/json-pretty-print), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
 
 Let's look for a solution before we attempt to build a solution.
 
@@ -734,6 +734,8 @@ $ gem install google-api-client
 Successfully installed google-api-client-0.15.0
 1 gem installed
 ~~~
+
+If you recieve a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
 
 ### Showing All Legislators in a Zip Code
 

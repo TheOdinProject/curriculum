@@ -1,10 +1,19 @@
+### Introduction
+
 When the code that you are testing has to touch a database, the amount of setup that you have to do gets quite a bit more complicated. Obviously you don't want to run your testing code on your production database because of the risk of compromising your user's data. In this lesson we're going to set up a new in-memory version of a mongo database and then tell our app to use that when running our tests.
+
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Explain the purpose of using a separate database for testing.
+- Use `mongodb-memeory-server` to create a testing database
+- Familiarize yourself with an alternative method of database setup for your testing environment.
 
 ### But do you even need to test that?
 
-Before diving in, you might want to consider whether or not the database operations you're testing even need to be tested in the first place. If you are simply reading and writing straight from a database using `mongoose` or some other db module, you might not really need to test that code. Mongoose (and presumably all other popular db modules) already has [plenty of tests](https://github.com/Automattic/mongoose/tree/master/test) for all of it's actions, so if you are just serving up a JSON API and all you're really doing is leveraging functions from another module then those operations are already covered.
+Before diving in, you might want to consider whether or not the database operations you're testing even need to be tested in the first place. If you are simply reading and writing straight from a database using `mongoose` or some other db module, you might not really need to test that code. Mongoose (and presumably all other popular db modules) already has [plenty of tests](https://github.com/Automattic/mongoose/tree/master/test) for all of its actions, so if you are just serving up a JSON API and all you're doing is leveraging functions from another module then those operations are already covered.
 
-If your queries are complicated you might justify adding tests to make sure that you are using them correctly and that the code you have written is doing what you intend it to, and if you are using any of your own code to do some filtering or sorting or other manipulations of the data you will want to test that as well.  In the case of your own code, however, it would be better if you could pull those things out into their own modules, separate from your database operations so you can test them without messing with the database.
+If your queries are complicated, you might justify adding tests to make sure that you are using them correctly and that the code you have written is doing what you intend it to, and if you are using any of your own code to do some filtering, sorting, or other manipulations of the data you will want to test that as well.  In the case of your own code, however, it would be better if you could pull those things out into their own modules, separate from your database operations so you can test them without messing with the database.
 
 ### mongodb-memory-server
 

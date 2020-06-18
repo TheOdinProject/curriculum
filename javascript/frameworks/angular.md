@@ -6,7 +6,7 @@ In 2016 Angular 2 was released simply named Angular. The reasoning was that this
 
 The lack of backwards compatibility with AngularJS meant it lost a lot of trust with the developer community as entire applications would have to be rewritten from scratch to use the new Angular framework. Many see this as the reason React, and to a lesser extent VueJS gained huge traction in the frontend framework space.
 
-Since Angular's release it has ensured no further groundbreaking changes with backwards compatibility maintained across versions.
+Since Angular's release, it has ensured no further groundbreaking changes with backwards compatibility maintained across versions.
 
 At the time of writing version 6 has just been released.
 
@@ -50,6 +50,6 @@ You will need node and npm installed. I personally prefer to use [nvm](https://g
 
 ### Additional Resources
 
-- Angular have their [own tutorial](https://angular.io/tutorial) you can try
+- Angular has their [own tutorial](https://angular.io/tutorial) you can try
 - [This blog](https://www.telerik.com/blogs/whats-new-in-angular-6) explains whats new in Angular 6
-- These 33 free [interactive screencasts](https://scrimba.com/g/gyourfirstangularapp) by Dan Wahlin to take you from beginner to advanced to help you gain a solid understanding of the Angular framwework.
+- These 33 free [interactive screencasts](https://scrimba.com/g/gyourfirstangularapp) by Dan Wahlin to take you from beginner to advanced to help you gain a solid understanding of the Angular framework.

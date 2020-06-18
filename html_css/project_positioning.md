@@ -27,6 +27,21 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Witah Georjane's solution](https://github.com/Georjane/New-York-Times-Article.git) - [View in Browser](https://raw.githack.com/Georjane/New-York-Times-Article/feature_NY_Times_Article/index.html)
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/newyork-clone) - [View in Browser](https://andrsrz.github.io/newyork-clone/)
+* [Haroon Abdulrazaq's Solution](https://github.com/DejazmachMolla/newyork_times) - [View in browser](https://dejazmachmolla.github.io/newyork_times/)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/nytimes-html) - [View in browser](https://jsalvadorpp.github.io/nytimes-html/)
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka/nytimesArticle) - [View in Browser](https://kaliberpoziomka.github.io/nytimesArticle/)
+* [Uduak Essien's solution](https://github.com/acushlakoncept/newyork_times_clone) - [View in Browser](https://acushlakoncept.github.io/newyork_times_clone/)
+* [Andrea's solution](https://github.com/fioriandrea/nyt-article) - [View in Browser](https://fioriandrea.github.io/nyt-article/)
+* [Mikael's solution](https://github.com/Mikearaya/new-york-times-clone) - [View in Browser](https://mikearaya.github.io/new-york-times-clone/)
+* [Julio's solution](https://github.com/julio22b/nyt-article-clone/) - [View in Browser](https://julio22b.github.io/nyt-article-clone/)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/newYorkTimesClone) - [View in Browser](https://amdrija.github.io/newYorkTimesClone/)
+* [Morghan's Solution](https://github.com/morghan102/positioning_nyt_article)
+* [Rarysson's Solution](https://github.com/rarysson/nyt-article) - [View in Browser](https://rarysson.github.io/nyt-article/)
+* [Johongirr's Solution](https://github.com/Johongirr/NYT-website-copy) - [View in Browser](https://johongirr.github.io/NYT-website-copy/)
+* [Estela's Solution](https://estelajimero.github.io/positioning-floating/) - [View in Browser](https://estelajimero.github.io/positioning-floating/)
+* [Igorashs's Solution](https://github.com/igorashs/positioning-and-floating-elements) - [View in Browser](https://igorashs.github.io/positioning-and-floating-elements/)
 * [Zakariye's Solution](https://github.com/ZYusuf10/curriculum) - [View in Browser](https://zyusuf10.github.io/flex_practice/timesClone.html)
 * [Basskip's solution](https://github.com/Basskip/times-article-html-css) - [View in Browser](https://basskip.com/times-article-html-css/)
 * [Marian & Ivancito's solution](https://github.com/mariancristu/New-York-Times-Clone) - [View in Browser](https://mariancristu.github.io/New-York-Times-Clone/)
@@ -122,7 +137,16 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Halkim's Solution](https://github.com/halkim44/nytimes-article-rebuild) - [View in Browser](https://halkim44.github.io/nytimes-article-rebuild/)
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
 * [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
-
+* [0xtaf's Solution](https://github.com/0xtaf/css-nyt) - [View in Browser](https://0xtaf.github.io/css-nyt/)
+* [Scott Bowles's Solution](https://github.com/scottBowles/nyt-article-layout-clone) - [View in Browser](https://scottbowles.github.io/nyt-article-layout-clone/)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-nyt-page-clone) - [View in Browser](https://adrieltrigger.github.io/top-nyt-page-clone/)
+* [Veskenazi's Solution](https://github.com/veskenazi/new-york-times-article-clone) - [View in Browser](https://veskenazi.github.io/new-york-times-article-clone/)
+* [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/nyt_article_clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/nyt_article_clone/)
+* [jamesredux's solution](https://github.com/Jamesredux/nytimes-page) - [View in Browser](https://jamesredux.github.io/nytimes-page/)
+* [mangakiko's Solution](https://github.com/magakiko/New-York-Times) - [View in Browser](https://magakiko.github.io/New-York-Times/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/article-layout) - [View in Browser](https://barrysweeney.github.io/article-layout/)
+* [bhenning83's Solution](https://github.com/bhenning83/nyt-article) - [View in Browser](https://bhenning83.github.io/nyt-article/)
+* [Joe Thompson's Solution](https://github.com/jlthompso/nyt_article) - [View in Browser](https://jlthompso.github.io/nyt_article/)
 </details>
 
 ### Additional Resources
