@@ -1391,7 +1391,7 @@ already exist.
 Dir.mkdir("output") unless Dir.exists? "output"
 ~~~
 
-* Save each form letter to file based on the id of the attendee
+* Save each form letter to a file based on the id of the attendee
 
 [File#open](http://rubydoc.info/stdlib/core/File#open-class_method) allows us
 to open a file for reading and writing. The first parameter is the name of the
