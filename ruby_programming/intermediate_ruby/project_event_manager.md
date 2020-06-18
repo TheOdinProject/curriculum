@@ -1147,7 +1147,7 @@ have a hard time inserting our legislators as individual rows in the table
 without having to build parts of the HTML table ourself. This could spell
 disaster later if we decide to change the template to no longer use a table.
 
-So again, instead of building our own custom solution any further we are going to
+So again, instead of building our own custom solution any further, we are going to
 seek a solution.
 
 ### Ruby's ERB
