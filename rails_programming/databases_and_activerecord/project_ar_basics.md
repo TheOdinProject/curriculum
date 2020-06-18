@@ -113,6 +113,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/micro-reddit)
+* [Jose Bohorquez's Solution](https://github.com/Bhrqz/micro-reddit)
 * [Christian's Solution](https://github.com/Cabonilla/building_with_active_record)
 * [jodokusquack's Solution](https://github.com/jodokusquack/micro-reddit)
 * [Nestor's Solution](https://github.com/nestor-c/Odin_Projects/tree/master/micro-reddit)

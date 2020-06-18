@@ -49,5 +49,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Mo's Solution](https://github.com/motr551/Library) - [View in Browser](https://motrlibrary.herokuapp.com/)
 - [Tayfun Sur's Solution](https://github.com/0xtaf/local-library) - [View in Browser](https://guarded-falls-62198.herokuapp.com/)
 - [barrysweeney's Solution](https://github.com/barrysweeney/express-library-tutorial) - [View in Browser](https://fathomless-beach-16334.herokuapp.com/catalog)
+- [ranmaru22's Solution](https://github.com/ranmaru22/local-library) - [View in Browser](https://agile-ocean-88291.herokuapp.com)
 
 </details>

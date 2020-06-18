@@ -93,10 +93,12 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/odin-kittens)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-kittens)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_kittens) - [View in Browser](https://ovsjazz-odin-kittens.herokuapp.com/)
 * [robomonk's Solution](https://github.com/robo-monk/odin-kittens)
 * [fossegrim's Solution](https://github.com/olav35/odin-kittens)
+* [CodingCop's Solution](https://github.com/cleve703/odin-kittens)
 * [Ian's Solution](https://github.com/IanMKesler/odin-kittens)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/odin-kittens)
 * [Helmi's Solution](https://github.com/helmihidzir/odin-kittens)
@@ -169,7 +171,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-kittens)
 * [Rey van den Berg's Solution](https://github.com/Rey810/odin-kittens-api)
 * [Timework's Solution](https://github.com/Timework/odin-kittens)
-
+* [Sanyogita's solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/odin-kittens)
 </details>
 
 ### Project 2: Using a Third Party API
@@ -196,17 +198,19 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/flickr-api)
 * [BShowen's Solution](https://github.com/BShowen/flickr_search_api) - [Live](https://flick-r.herokuapp.com/)
 * [Duarte's Solution](https://github.com/Duartemartins/odin-flickr)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/flickr_api) - [View in Browser](https://ovsjazz-flickr-api.herokuapp.com/)
 * [robomonk's solution](https://github.com/robo-monk/odin-timefreeze) - [View in browser](https://shielded-shore-35008.herokuapp.com/)
 * [fossegrim's Solution](https://github.com/olav35/odin-flickr)
+* [CodingCop's Solution](https://github.com/cleve703/flickr-learning)
 * [Ian's Solution](https://github.com/IanMKesler/flickr-widget)
 * [Helmi's Solution](https://github.com/helmihidzir/odin_flickr)
 * [Kevin Vuong's solution](https://github.com/fffear/odin_flickr)
 * [Learnsometing's Solution](https://github.com/learnsometing/Rails-flickr_api)
 * [Simon Tharby's solution](https://github.com/jinjagit/flickr-api) - [View in browser](https://findr-simontharby.herokuapp.com/)
-* [Jason McKee's solution](https://github.com/jttmckee/odin-flickr.git) | [Live](https://immense-bayou-47624.herokuapp.com/)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-flickr.git) - [View in browser](https://immense-bayou-47624.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-flickr)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Flickr-API)
 * [szib's solution](https://github.com/szib/odin-flickr) - [View in browser](https://intense-escarpment-22977.herokuapp.com/)

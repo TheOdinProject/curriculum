@@ -105,10 +105,10 @@ Using `#any?`, this code can be greatly simplified:
 ~~~ruby
 numbers = [21, 42, 303, 499, 550, 811]
 
-numbers.any? { |number| item > 500 }
+numbers.any? { |number| number > 500 }
 #=> true
 
-numbers.any? { |number| item < 20 }
+numbers.any? { |number| number < 20 }
 #=> false
 ~~~
 

@@ -214,7 +214,7 @@ def puts_squared(number)
 end
 ~~~
 
-This method only prints the value that it calculated to the console, but it doesn't return that value. If we then write `x = squared(20)`, the method will print `400` in the console, but the variable `x` will be assigned a value of `nil`. (If you need a refresher on this, go back and review the Ruby Input and Output lesson.)
+This method only prints the value that it calculated to the console, but it doesn't return that value. If we then write `x = puts_squared(20)`, the method will print `400` in the console, but the variable `x` will be assigned a value of `nil`. (If you need a refresher on this, go back and review the Ruby Input and Output lesson.)
 
 Now, let's write the same method but with an implicit return instead of `puts`. (Using an explicit return will act exactly the same in this example.)
 

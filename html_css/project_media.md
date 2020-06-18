@@ -35,8 +35,11 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Witah Georjane's Solution](https://github.com/Georjane/youtube_video_player.git) - [View in browser](https://rawcdn.githack.com/Georjane/youtube_video_player/27644cfc3da4ad8fed2e67320537574cdd59d24f/index.html)
+* [Kalef Amui's Solutionn](https://github.com/kalefamui/YouTube-page) - [View in Browser](https://kalefamui.github.io/YouTube-page/)  
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/youtube-player-page-clone) - [View in Browser](https://andrsrz.github.io/youtube-player-page-clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/paulzay/youtube) - [View in Browser](https://paulzay.github.io/youtube/)
+* [Evanson's Solution](https://github.com/evansinho/YouTube-video-player-page.git) - [View in Browser](https://evansinho.github.io/YouTube-video-player-page/.)
 * [Mugilan's Solution](https://github.com/Mugilan-Codes/youtube-clone) - [View in Browser](https://mugilan-codes.github.io/youtube-clone/)
 * [Abdulaziz Ali's solution](https://github.com/abredi/youtube-clone) - [View in Browser](https://rawcdn.githack.com/abredi/youtube-clone/b5c8c05e6db13109e3118af097b7590c33b71587/index.html)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/youtube-html) - [View in browser](https://jsalvadorpp.github.io/youtube-html/)
@@ -189,6 +192,10 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/youtube-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/youtube-clone/)
 * [Caosmagnvm's solution](https://github.com/caosmagnvm/youtube-homepage) - [View in Browser](https://caosmagnvm.github.io/youtube-homepage/)
 * [mangakiko's Solution](https://github.com/magakiko/Youtube-Videopage) - [View in Browser](https://magakiko.github.io/Youtube-Videopage/)
+* [barrysweneey's solution](https://github.com/barrysweeney/embedding-practice) - [View in Browser](https://barrysweeney.github.io/embedding-practice/)
+* [Timework's solution](https://github.com/Timework/youtube-clone/tree/master) - [View in Browser](https://timework.github.io/youtube-clone/)
+* [bhenning83's solution](https://github.com/bhenning83/youtube-homepage) - [View in Browser](https://bhenning83.github.io/youtube-homepage/)
+* [Joe Thompson's Solution](https://github.com/jlthompso/embedded-media) - [View in Browser](https://jlthompso.github.io/embedded-media/)
 </details>
 
 ### Additional Resources

@@ -27,6 +27,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/stock-picker)
+* [Blaze Vincent's Solution](https://github.com/blaze-vincent/stock_picker)
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/ruby-exercises/stock_picker.rb)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/stock_picker)
+* [Sam Eff's Solution](https://github.com/SamEff/stock_picker)
+* [Ash Karai's Solution](https://github.com/ashwiniraokarai/ruby-projects/blob/master/stock_picker.rb)
+* [Gael's Solution](https://github.com/lungla-gael/stock-picker)
+* [Ranno's Solution](https://github.com/RannoL/stock_picker/blob/master/stock_picker.rb)
 * [Aaron's Solution](https://github.com/Aaron-McD/stock_picker)
 * [leddins's Solution](https://github.com/leddins/stock-picker)
 * [Sara's Solution](https://github.com/Sarajvega/stock_picker)
@@ -505,4 +513,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [fussykyloren's Solution](https://github.com/fussykyloren/odin-project-basic-ruby-projects/blob/master/stock-picker.rb)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/stock_picker.rb)
 * [msespos's Solution](https://github.com/msespos/stock_picker/blob/master/stock_picker.rb)
+* [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/stock_picker.rb)
+* [jding9's Solution](https://github.com/Jding9/ruby_stockpicker/blob/master/stockpicker.rb)
+* [Dyrit's Solution](https://github.com/Dyrits/BASIC-RUBY-PROJECTS/blob/master/Stock%20Picker/stock-picker.rb)
+* [Justin's solution](https://github.com/Justin-Meffs/ruby-projects/blob/master/stock_picker3.rb)
+* [Feseka's Soluion](https://github.com/feseka61/stock-picker/blob/master/stock_picker.rb)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/stockpicker.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/stock.rb)
+* [mioria's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/stock_picker.rb)
 </details>
