@@ -19,7 +19,7 @@ Look through these now and then use them to test yourself after doing the assign
 * Why is this useful?
 * What do you have to add/modify in your controller to handle nested `params`?
 * What special tags does Rails' `#form_tag` helper give you?
-* What is the difference between `#form_tag` and `#form_for` helpers?
+* What is the difference between `#form_tag`, `#form_for` and `#form_with` helpers?
 * How do you access errors on a failed-to-save model object?
 * Which form helper automatically adds markup around errors?
 * How do you access your Update or Delete actions with a form?
@@ -177,6 +177,48 @@ Note that this helper nests the Article's attributes (the hard brackets in the `
 
 The best part about `form_for` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're editing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
 
+### Handy Shortcuts: `form_with`
+
+But wait! There's more. Introducing the `form_with` helper. This helper was introduced in Rails 5.1 which means that both `form_tag` and `form_for` are now soft-deprecated. The `form_with` helper combines features of the other tags to provide a much better experience when building forms.
+
+You can easily create a form referencing a model with the `form_with` helper just like this:
+
+~~~erb
+  #app/views/posts/new.html.erb
+  <%= form_with model: Post.new do |form| %>
+    <%= form.text_field :title %>
+    <%= f.submit "Create" %>
+  <% end %>
+~~~
+
+This will produce the following HTML:
+
+~~~html
+  <form action="/posts" method="post" data-remote="true">
+  <input type="text" name="post[title]">
+</form>
+~~~
+
+Alternatively, you can create a form using a URL as shown below:
+
+~~~erb
+  #app/views/posts/new.html.erb
+  <%= form_with url: posts_path do |form| %>
+    <%= form.text_field :title %>
+    <%= f.submit "Create" %>
+  <% end %>
+~~~
+
+This generates the HTML below:
+
+~~~html
+  <form action="/posts" method="post" data-remote="true">
+    <input type="text" name="title">
+  </form>
+~~~
+
+Notice the subtle differences that the `form_with` helper gives you with respect to the other two form helper tags and see how they make building forms much easier.
+
 ### Forms and Validations
 
 What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some Javascript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form.
@@ -250,6 +292,7 @@ If the `@user` cannot be saved, like because the `first_name` contains numbers, 
   2. Skim 3.3 to 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
   3. Read sections 7.1 and 7.2 for the official explanation of how parameters are created from the `name` attribute.
   4. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 8 for a quick look at displaying errors.
+  5. Skim through the Rails APIdock section on the [form_with helper](https://apidock.com/rails/ActionView/Helpers/FormHelper/form_with) to see various ways to use this helper tag.
 </div>
 
 ### Conclusion
