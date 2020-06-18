@@ -1069,10 +1069,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [oppowag's Solution](https://github.com/oppowag/etchasketch) - [View in Browser](https://oppowag.github.io/etchasketch/)
 * [Arturo's Solution](https://github.com/StarSheriff2/Etch-a-Sketch-Project---Arturo) - [View in Browser](https://starsheriff2.github.io/Etch-a-Sketch-Project---Arturo/)
 * [constantinginga's Solution](https://github.com/constantinginga/etch-a-sketch) - [View in Browser](https://constantinginga.github.io/etch-a-sketch/)
-<<<<<<< HEAD
-* [mpiriya's solution](https://github.com/mpiriya/etch-a-sketch) - [View in Browser](https://mpiriya.github.io/etch-a-sketch/)
 * [mrbuddh4's Solution](https://github.com/mrbuddh4/etch-a-sketch) - [View in Browser](https://mrbuddh4.github.io/etch-a-sketch/)
-=======
 * [mpiriya's Solution](https://github.com/mpiriya/etch-a-sketch) - [View in Browser](https://mpiriya.github.io/etch-a-sketch/)
 * [Aodham's Solution](https://github.com/Aodham/TOP_etch-a-sketch) - [View in Browser](https://aodham.github.io/TOP_etch-a-sketch/)
 * [victor orlunda's Solution](https://github.com/dev-opus/Etch-a-Sketch) - [View in Browser](https://dev-opus.github.io/Etch-a-Sketch/)
@@ -1086,5 +1083,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [DM-Murphy's Solution](https://github.com/dm-murphy/etch-a-sketch) - [View in Browser](https://dm-murphy.github.io/etch-a-sketch/)
 * [Jie's Solution](https://github.com/Sugarcane-svg/ETCH-A-SKETCH) - [View in Browser](https://sugarcane-svg.github.io/ETCH-A-SKETCH/)
 * [hazigabriel's Solution](https://github.com/hazigabriel/etch-a-sketch-updated) - [View in Browser](https://hazigabriel.github.io/etch-a-sketch-updated/)
->>>>>>> a59e9d8118fe088ff4b60b56f598ca5c53f396ae
 </details>
