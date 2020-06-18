@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron's Solution](https://github.com/Aaron-McD/hangman)
 * [Sam Eff's Solution](https://github.com/SamEff/Hangman)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/hangman-game) - [View in Repl.it](https://repl.it/@VanQuishi/hangman-game#lib/hangman.rb)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/hangman/hangman.rb)
