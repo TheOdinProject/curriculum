@@ -3861,7 +3861,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sacchan9's Solution (Easy)](https://github.com/sacchan9/google-homepage) - [View in Browser](https://sacchan9.github.io/google-homepage/)
 * [Kingsley Ezenwaka's Solution (Easy)](https://github.com/khay9yne/google-homepage) - [View in Browser](https://khay9yne.github.io/google-homepage/)
 * [kb12233's Solution (Easy)](https://github.com/kb12233/google-homepage) - [View in Browser](https://kb12233.github.io/google-homepage/)
-* [Samuthe's Solution (somehow medium)](https://github.com/Samuthe/Odin-Projects.git) -[View in Browser]
+* [Samuthe's Solution](https://github.com/Samuthe/Odin-Projects.git)
 </details>
 
 ### Additional Resources
