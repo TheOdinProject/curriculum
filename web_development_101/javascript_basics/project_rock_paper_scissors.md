@@ -41,7 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [bobbychicano's solution](https://github.com/bobbychicano/rock-paper-scissors)
+- [Andy-Robertson's Solution](https://github.com/Andy-Robertson/rock-paper-scissors)
+- [Norman Mikhail's Solution](https://github.com/normanmkhl/Assassins-Face-Off) - [View in Browser](https://normanmkhl.github.io/Assassins-Face-Off)
+- [bobbychicano's Solution](https://github.com/bobbychicano/rock-paper-scissors)
 - [Musabii's Solution](https://musabii.github.io/rock-paper-scissors/)
 - [Rafael Amancio Diegues's Solution](https://github.com/radiegues06/rock-paper-scissors)
 - [rchlkr's Solution](https://github.com/rchlkr/rock-paper-scissors-browser) - [View in Browser](https://rchlkr.github.io/rock-paper-scissors-browser/)
@@ -1698,9 +1700,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jean-Baptiste's Solution](https://github.com/pjbaptiste/game-java) - [View in Browser](https://pjbaptiste.github.io/game-java/)
 - [Jhair Silva's Solution](https://github.com/JhairSilvaOjeda/PRS) - [View in Browser](https://jhairsilvaojeda.github.io/PRS/)
 - [Novibonjovi's Solution](https://github.com/novibonjovi/rock-paper-scissors) - [View in Browser](https://novibonjovi.github.io/rock-paper-scissors/)
+- [seabiscuit's Solution](https://github.com/Seabiscuit1698/RockPaperScissors)
 - [Shehryar Ahmad Solution](https://devlopa.github.io/RPS/)
 - [Brett's Solution](https://github.com/b-common/rockpaperscissors)
-- [Vinecreeper888's solution](https://github.com/rock-paper-scissors)
+- [Vinecreeper888's Solution](https://github.com/rock-paper-scissors)
 - [Taras's Solution](https://github.com/tiris08/PROJECT-ROCK-PAPER-SCISSORS-by-Taras) - [View in Browser](https://tiris08.github.io/PROJECT-ROCK-PAPER-SCISSORS-by-Taras/)
 - [hazigabriel's Solution](https://github.com/hazigabriel/rock-paper-scissors-update) - [View in Browser](https://hazigabriel.github.io/rock-paper-scissors-update/)
+- [Christos's Solution](https://github.com/ChristosRaptis/rockPaperScissors) - [View in Browser](https://christosraptis.github.io/rockPaperScissors/index.html)
 </details>
