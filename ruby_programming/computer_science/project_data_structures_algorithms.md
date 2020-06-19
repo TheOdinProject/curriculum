@@ -457,4 +457,5 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rob Dulabon's Solution](https://github.com/RDulabon/Knight_Travails)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-data-structures/tree/master/knights-travail)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Data_Structures_and_Algorithms/Knights_travail.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/knight_moves.rb)
 </details>
