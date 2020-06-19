@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [rchlkr's Solution](https://github.com/rchlkr/etch-a-sketch) - [View in Browser](https://rchlkr.github.io/etch-a-sketch/)
+* [xrizwan's solution](https://xrizwan.github.io/etchASketch/index.html) - [View in Browser](https://xrizwan.github.io/etchASketch/index.html)
 * [hd505495's solution](https://github.com/hd505495/Web-Sketch-Pad) - [View in Browser](https://hd505495.github.io/Web-Sketch-Pad/)
 * [ncbock's Solution](https://github.com/ncbock/etch-a-sketch) - [View in Browser](https://ncbock.github.io/etch-a-sketch/)
 * [hd505495's Solution](https://github.com/hd505495/Web_Sketch_Pad) - [View in Browser](https://hd505495.github.io/Web_Sketch_Pad/)
@@ -1083,4 +1085,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [DM-Murphy's Solution](https://github.com/dm-murphy/etch-a-sketch) - [View in Browser](https://dm-murphy.github.io/etch-a-sketch/)
 * [Jie's Solution](https://github.com/Sugarcane-svg/ETCH-A-SKETCH) - [View in Browser](https://sugarcane-svg.github.io/ETCH-A-SKETCH/)
 * [hazigabriel's Solution](https://github.com/hazigabriel/etch-a-sketch-updated) - [View in Browser](https://hazigabriel.github.io/etch-a-sketch-updated/)
+* [Superboy20's Solution](https://github.com/Superboy20/etch-a-sketch) - [View in Browser](https://superboy20.github.io/etch-a-sketch/)
 </details>

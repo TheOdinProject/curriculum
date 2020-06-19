@@ -29,6 +29,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/flight_booker)
 * [CodingCop's Solution](https://github.com/cleve703/odin-flight-booker)
 * [Run After's Solution](https://github.com/run-after/odin-flight-booker)
 * [BShowen's Solution](https://github.com/BShowen/flight_booker) - [Live](https://aerosplat.herokuapp.com/)
