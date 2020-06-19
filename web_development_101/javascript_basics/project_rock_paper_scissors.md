@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andy-Robertson's Solution](https://github.com/Andy-Robertson/rock-paper-scissors)
 - [Norman Mikhail's Solution](https://github.com/normanmkhl/Assassins-Face-Off) - [View in Browser](https://normanmkhl.github.io/Assassins-Face-Off)
 - [bobbychicano's Solution](https://github.com/bobbychicano/rock-paper-scissors)
 - [Musabii's Solution](https://musabii.github.io/rock-paper-scissors/)
