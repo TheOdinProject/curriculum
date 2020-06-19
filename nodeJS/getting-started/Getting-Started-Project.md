@@ -55,7 +55,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Eljoey's Solution](https://github.com/eljoey/Basic_Node_Site)
 - [Vedat's Solution](https://github.com/mvedataydin/initiate-node) - [View in Browser](https://repl.it/@mvedataydin/initiate-node)
 - [Henry Kirya's](https://github.com/harrika/nodemo) - [View in Browser](https://repl.it/@HenryKirya/nodemo)
-- [Brian Tuju's Solution - Browser](https://op-basic-info-site.briantuju.repl.co)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node1/) - [View in Browser](https://NodeJS-Basic-Informational-Site--tbmreza.repl.co)
 - [Carmine's Solution](https://github.com/cgrossi/node-beginner-project) - [View in Browser](https://cgrossi.github.io/node-beginner-project/)
 - [Faraz's Solution](https://github.com/frzkn/odin-projects/tree/master/basicinformationsite)
@@ -83,4 +82,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [barrysweeney's Solution](https://github.com/barrysweeney/node-basic-site) - [View in Browser](https://node-basic-site-2.barrysweeney.repl.co/)
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/node-sample) - [View In Browser](https://repl.it/@ranmaru22/OdinProjectSampleNodeFile)
 - [Theodore Kelechukwu Onyejiaku's Solution](https://a-simple-nodejs-website-1--theodore1250.repl.co/)
+- [Joe Thompson's Solution](https://github.com/jlthompso/basic_info_site)
 </details>
