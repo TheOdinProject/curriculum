@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ross' Solution](https://github.com/RHoneyman/odin_calculator/) - [View in Browser](https://rhoneyman.github.io/odin_calculator/)
 - [Mr.Bowtie's Solution](https://github.com/Mr-Bowtie/Calculator) - [View in Browser](https://mr-bowtie.github.io/Calculator/)
 - [Clumsynite's Solution](https://github.com/Clumsynite/calculator) - [View in Browser](https://clumsynite.github.io/calculator/)
 - [Bassel Alrefai's Solution](https://github.com/basselalrefai/calculator) - [View in Browser](https://basselalrefai.github.io/calculator/)
