@@ -246,7 +246,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Timework's Solution](https://github.com/Timework/re-former)
 * [Bendee's Solution](https://github.com/bendee48/rails-reformer)
 * [Robert Suazo's Solution](https://github.com/rsuazo/re-former)
-
+* [Ken H's Solution](https://github.com/kholston/re-former)
 </details>
 
 ### Additional Resources

@@ -49,6 +49,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andreaiaia's Solution](https://github.com/andreaiaia/restaurantPage) - [View in Browser](https://andreaiaia.github.io/restaurantPage/)
+- [Kevin's Solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/Restaurant) - [View in Browser](https://kevin-satti-projects.github.io/Projects/Restaurant/dist/)
+- [Paul's Solution](https://github.com/ppayne12/beadshop/) - [View in Browser](https://ppayne12.github.io/beadshop/)
 - [Platyphyllum's Solution](https://github.com/marboleda/restaurant) - [View in Browser](https://marboleda.github.io/restaurant/)
 - [Alex Cole's Solution](https://github.com/AlexJ-Cole/RestaurantPage) - [View in Browser](https://alexj-cole.github.io/RestaurantPage/)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/restaurant-page) - [View in Browser](https://andrsrz.github.io/restaurant-page/)

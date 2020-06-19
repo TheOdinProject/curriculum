@@ -35,6 +35,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Walmart-cashier's Solution](https://github.com/Walmart-cashier/DulcetTodo) - [View in Browser](https://walmart-cashier.github.io/DulcetTodo/)
+* [LenaChestnut's Solution](https://github.com/LenaChestnut/to-do) - [View in Browser](https://lenachestnut.github.io/to-do/dist/index.html)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/todo-list) - [View in Browser](https://andrsrz.github.io/todo-list/)
 * [HeliumAce's Solution](https://github.com/HeliumAce/todo-list) - [View in Browser](https://heliumace.github.io/todo-list/)
 * [Lucio's Solution](https://github.com/JCarlosLucio/todo-list) - [View in Browser](https://jcarloslucio.github.io/todo-list/)
@@ -132,4 +134,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [m-rejdych's Solution](https://github.com/m-rejdych/Todo-List) - [View in Browser](https://m-rejdych.github.io/Todo-List/)
 * [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/todolist) - [View in Browser](https://fortypercenttitanium.github.io/todolist/)
 * [adilahmad321's Solution](https://github.com/adilahmad321/ToDo-List) - [View in Browser](https://adilahmad321.github.io/ToDo-List/)
+* [MatyD's Solution](https://github.com/MatyD356/vanillaToDo/tree/master) - [View in Browser](https://matyd356.github.io/vanillaToDo/)
 </details>
