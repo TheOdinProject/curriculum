@@ -236,6 +236,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Matt M's Solution](https://github.com/MattMiller1989/Binary-Tree)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-data-structures/tree/master/binary-search-tree)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Data_Structures_and_Algorithms/Binary_tree.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/binary_search_tree.rb)
 </details>
 
 ### Project 2: Knight's Travails
