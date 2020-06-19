@@ -1698,6 +1698,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jean-Baptiste's Solution](https://github.com/pjbaptiste/game-java) - [View in Browser](https://pjbaptiste.github.io/game-java/)
 - [Jhair Silva's Solution](https://github.com/JhairSilvaOjeda/PRS) - [View in Browser](https://jhairsilvaojeda.github.io/PRS/)
 - [Novibonjovi's Solution](https://github.com/novibonjovi/rock-paper-scissors) - [View in Browser](https://novibonjovi.github.io/rock-paper-scissors/)
+- [seabiscuit's Solution](https://github.com/Seabiscuit1698/RockPaperScissors)
 - [Shehryar Ahmad Solution](https://devlopa.github.io/RPS/)
 - [Brett's Solution](https://github.com/b-common/rockpaperscissors)
 - [Vinecreeper888's solution](https://github.com/rock-paper-scissors)
