@@ -36,6 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/informational-site) - [View in Browser](https://informational-site--andrsrz.repl.co/)
 - [Martin Muehl's Solution](https://github.com/joshuatree/NodeJS) - [View in Browser](https://repl.it/@joshuatree1/NodeJS)
 - [Kevin Beall's Solution](https://github.com/kevinbeall/The-Odin-Project/tree/master/BasicInformationalSite) - [View in Browser](https://LongPossibleProspect--five-nine.repl.co)
 - [Julio's solution](https://github.com/julio22b/basic-informational-site) - [View in Browser](https://repl.it/@julio22b/ProudIntentionalTasks)
