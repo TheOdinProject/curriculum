@@ -35,9 +35,12 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ryan Ameri's Solution](https://github.com/RyanAmeri/odin-project-youtube) - [View in Browser](https://ryanameri.github.io/odin-project-youtube/index.html)
+* [Witah Georjane's Solution](https://github.com/Georjane/youtube_video_player.git) - [View in Browser](https://rawcdn.githack.com/Georjane/youtube_video_player/27644cfc3da4ad8fed2e67320537574cdd59d24f/index.html)
 * [Kalef Amui's Solutionn](https://github.com/kalefamui/YouTube-page) - [View in Browser](https://kalefamui.github.io/YouTube-page/)  
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/youtube-player-page-clone) - [View in Browser](https://andrsrz.github.io/youtube-player-page-clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/paulzay/youtube) - [View in Browser](https://paulzay.github.io/youtube/)
+* [Evanson's Solution](https://github.com/evansinho/YouTube-video-player-page.git) - [View in Browser](https://evansinho.github.io/YouTube-video-player-page/.)
 * [Mugilan's Solution](https://github.com/Mugilan-Codes/youtube-clone) - [View in Browser](https://mugilan-codes.github.io/youtube-clone/)
 * [Abdulaziz Ali's solution](https://github.com/abredi/youtube-clone) - [View in Browser](https://rawcdn.githack.com/abredi/youtube-clone/b5c8c05e6db13109e3118af097b7590c33b71587/index.html)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/youtube-html) - [View in browser](https://jsalvadorpp.github.io/youtube-html/)
