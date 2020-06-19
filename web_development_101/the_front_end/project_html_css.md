@@ -3852,6 +3852,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [skwiryt's Solution (Easy)](https://github.com/skwiryt/google-homepage) - [View in Browser](https://skwiryt.github.io/google-homepage/)
 * [Marvellous' Solution (Easy)](https://github.com/mskavalo/google-homepage)
 * [menomenonkwan's Solution (Easy)](https://github.com/menomenonkwan/google-homepage) - [View in Browser](https://menomenonkwan.github.io/google-homepage/)
+* [Baseline Alpha's Solution (Easy)](https://github.com/baselinealpha/google-homepage) - [View in Browser](https://baselinealpha.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
