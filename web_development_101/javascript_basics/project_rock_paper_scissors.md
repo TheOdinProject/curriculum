@@ -1706,4 +1706,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Vinecreeper888's solution](https://github.com/rock-paper-scissors)
 - [Taras's Solution](https://github.com/tiris08/PROJECT-ROCK-PAPER-SCISSORS-by-Taras) - [View in Browser](https://tiris08.github.io/PROJECT-ROCK-PAPER-SCISSORS-by-Taras/)
 - [hazigabriel's Solution](https://github.com/hazigabriel/rock-paper-scissors-update) - [View in Browser](https://hazigabriel.github.io/rock-paper-scissors-update/)
+- [Christos's solution](https://github.com/ChristosRaptis/rockPaperScissors) - [View in Browser](https://christosraptis.github.io/rockPaperScissors/index.html)
 </details>
