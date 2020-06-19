@@ -15,6 +15,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution] (https://github.com/rueeazy/sql-zoo)
 * [Christopher Amanor's Solution](https://github.com/krys2fa/sql_zoo_solutions)
 * [Hasan's Solution](https://ozovalihasan.github.io/database-sqlzoo/)
 * [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/SQL_Zoo_Exercises)
