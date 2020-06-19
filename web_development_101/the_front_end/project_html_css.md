@@ -3859,7 +3859,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [onagova's Solution (Easy)](https://github.com/onagova/google-homepage) - [View in Browser](https://onagova.github.io/google-homepage/)
 * [onagova's Solution (Difficult)](https://github.com/onagova/google-search-results-page) - [View in Browser](https://onagova.github.io/google-search-results-page/)
 * [Sacchan9's Solution (Easy)](https://github.com/sacchan9/google-homepage) - [View in Browser](https://sacchan9.github.io/google-homepage/)
-* [Kingsley Ezenwaka's Solution (Easy)] (https://github.com/khay9yne/google-homepage) - [View in Browser] (https://khay9yne.github.io/google-homepage/)
+* [Kingsley Ezenwaka's Solution (Easy)](https://github.com/khay9yne/google-homepage) - [View in Browser](https://khay9yne.github.io/google-homepage/)
+* [kb12233's Solution (Easy)](https://github.com/kb12233/google-homepage) - [View in Browser](https://kb12233.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
