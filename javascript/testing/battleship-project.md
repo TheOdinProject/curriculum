@@ -42,11 +42,12 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Jdonahue135's solution](https://github.com/jdonahue135/battleship) - [View in Browser](https://jdonahue135.github.io/battleship/)
-- [Kevin Vuong's solution](https://github.com/fffear/battleship) - [View in Browser](https://fffear.github.io/battleship/)
-- [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/battleships) - [View in Browser](https://kikupiku.github.io/battleships/)
-- [Disco Trooper's solution](https://github.com/disco-trooper/battleship) - [View in Browser](https://disco-trooper.github.io/battleship/)
-- [Julio's solution](https://github.com/julio22b/battleship) - [View in Browser](https://julio22b.github.io/battleship/)
+- [hu-ng's Solution](https://github.com/hu-ng/battleship) - [View in Browser](https://hu-ng.github.io/battleship/)
+- [Jdonahue135's Solution](https://github.com/jdonahue135/battleship) - [View in Browser](https://jdonahue135.github.io/battleship/)
+- [Kevin Vuong's Solution](https://github.com/fffear/battleship) - [View in Browser](https://fffear.github.io/battleship/)
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/battleships) - [View in Browser](https://kikupiku.github.io/battleships/)
+- [Disco Trooper's Solution](https://github.com/disco-trooper/battleship) - [View in Browser](https://disco-trooper.github.io/battleship/)
+- [Julio's Solution](https://github.com/julio22b/battleship) - [View in Browser](https://julio22b.github.io/battleship/)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/battleship-react) - [View in Browser](https://braxtonlemmon.github.io/battleship-react/)
 - [rainmodred's Solution](https://github.com/rainmodred/react-battleship) - [View in Browser](https://rainmodred.github.io/react-battleship/)
 - [martink-rsa's Solution](https://github.com/martink-rsa/Battleships) - [View in Browser](https://martink-rsa.github.io/Battleships/)
