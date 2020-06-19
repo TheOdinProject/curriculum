@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lekunze Stanley Enow's solution](https://happiguru.github.io/PositioningandFloatingElements/) - [View in Browser]
 * [Witah Georjane's solution](https://github.com/Georjane/New-York-Times-Article.git) - [View in Browser](https://raw.githack.com/Georjane/New-York-Times-Article/feature_NY_Times_Article/index.html)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/newyork-clone) - [View in Browser](https://andrsrz.github.io/newyork-clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/DejazmachMolla/newyork_times) - [View in browser](https://dejazmachmolla.github.io/newyork_times/)
