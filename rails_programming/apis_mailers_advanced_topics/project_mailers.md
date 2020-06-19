@@ -96,6 +96,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [Live on Heroku](https://redux-flights.herokuapp.com/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/flight-booker)
 * [Timework's Solution](https://github.com/Timework/odin-flight-booker)
+* [Sanyogita's Solution] (https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/odin-flight-booker)
 
 </details>
 
