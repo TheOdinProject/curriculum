@@ -281,7 +281,7 @@ GEM
     public_suffix (4.0.4)
     puma (4.3.5)
       nio4r (~> 2.0)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-attack (6.3.1)
       rack (>= 1.0, < 3)
     rack-proxy (0.6.5)
