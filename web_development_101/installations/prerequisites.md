@@ -14,6 +14,10 @@ Installing a Virtual Machine (VM) is the easiest and most reliable way to get st
 
 Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
+**IMPORTANT**
+  
+Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://i.imgur.com/EjSLkCZ.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+
 #### Step 1.1: Download VirtualBox
 
 [Click here](https://www.virtualbox.org/wiki/Downloads "VirtualBox Downloads") and download VirtualBox for Windows hosts.
@@ -48,7 +52,7 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
 3. Hard disk file type: Choose the **VDI (VirtualBox disk image)** option.
    
-   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/NSUorQQ.png" alt="The VirtualBox Create Virtual Hard Disk window 2" title="This is also the default selection">
+   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/O6UROTf.png" alt="The VirtualBox Create Virtual Hard Disk window 2" title="This is also the default selection">
    
 4. Storage on physical hard disk: **“Dynamically allocated”**.
    
@@ -157,7 +161,7 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 #### Step 3.1: Boot from the Flash Drive
 
-First, you need to boot Ubuntu on your flash drive. The exact steps may vary, but in general, you will need to do the following:
+First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
 * Insert the flash drive into the computer.
 * Reboot the computer.
