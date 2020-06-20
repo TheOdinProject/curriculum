@@ -1089,4 +1089,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Superboy20's Solution](https://github.com/Superboy20/etch-a-sketch) - [View in Browser](https://superboy20.github.io/etch-a-sketch/)
 * [ruben-ruiz's Solution](https://ruben-ruiz.github.io/etch-a-sketch/) - [View in Browser](https://ruben-ruiz.github.io/etch-a-sketch/)
 * [kluceycose's Solution](https://github.com/kluceycose/etch-a-sketch) - [View in Browser](https://kluceycose.github.io/etch-a-sketch)
+* [JaronArmiger's Solution](https://github.com/JaronArmiger/etch2) - [View in Browser](https://jaronarmiger.github.io/etch2)
 </details>
