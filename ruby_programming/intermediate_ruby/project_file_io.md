@@ -317,4 +317,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [mpiriya's Solution](https://github.com/mpiriya/hangman)
 * [akoenig1's Solution](https://github.com/akoenig1/hangman)
 * [Ethan W's Solution](https://github.com/ethan-wax/hangman)
+* [Adam's Solution](https://github.com/abohannon/hangman-ruby)
 </details>
