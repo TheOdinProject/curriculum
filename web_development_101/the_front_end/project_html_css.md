@@ -3865,10 +3865,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [joonyoungleeduke's Solution (Easy)](https://github.com/joonyoungleeduke/google-homepage) - [View in Browser](https://joonyoungleeduke.github.io/google-homepage/)
 * [Baseline Alpha's Solution (Difficult)](https://github.com/baselinealpha/google-search-results) - [View in Browser](https://baselinealpha.github.io/google-search-results/)
 * [nmukespence's Solution (Easy)](https://github.com/nmukespence/google-homepage) - [View in Browser](https://nmukespence.github.io/google-homepage/)
-</details>
 * [Khurram Ali's Solution (Easy)](https://github.com/destocot/google-homepage) - [View in Browser](https://destocot.github.io/google-homepage/)
-* [hogansamuel's Solution (Easy)](https://hogansamuel.github.io/google-homepage/) - [View in Browser]
-* [hogansamuel's Solution (Difficult)](https://hogansamuel.github.io/Google.com-search-results-page/) - [View in Browser]
+* [hogansamuel's Solution (Easy)](https://github.com/hogansamuel/google-homepage) - [View in Browser](https://hogansamuel.github.io/google-homepage/)
+* [hogansamuel's Solution (Difficult)](https://github.com/hogansamuel/Google.com-search-results-page) - [View in Browser](https://hogansamuel.github.io/Google.com-search-results-page/)
+* [Corbela's Solution (Easy)](https://github.com/ilarikorpela/google-homepage) - [View in Browser](https://ilarikorpela.github.io/google-homepage/)
+</details>
+
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
