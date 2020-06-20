@@ -35,6 +35,12 @@ We've previously installed Ruby, and now it's time to install Ruby on Rails. It'
 gem install rails -v 5.2.3
 ~~~
 
+Although, if you already have rbenv installed on your system, you'll need to run the following command:
+
+~~~bash
+rbenv rehash
+~~~
+
 #### Step 1.2: Lay the Groundwork
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
