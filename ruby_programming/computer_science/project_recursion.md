@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/fib.rb)
 * [Sam Eff's Solution](https://github.com/SamEff/Fibonacci)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/recursion/fib.rb)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Ruby_Exercises/blob/master/fibonacci.rb)
@@ -286,6 +287,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/merge_sort.rb)
 * [Sam Eff's Solution](https://github.com/SamEff/merge_sort)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Ruby_Exercises/blob/master/merge_sort.rb)
 * [Ichenn's Solution](https://github.com/Ichenn92/ruby-function/tree/master/recursive)
