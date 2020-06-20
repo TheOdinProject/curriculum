@@ -41,9 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
-- [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor) - [View in Browser](https://optiprime64.github.io/rock-paper-scissor/)
-=======
+- [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor)
 - [Andy-Robertson's Solution](https://github.com/Andy-Robertson/rock-paper-scissors)
 - [Norman Mikhail's Solution](https://github.com/normanmkhl/Assassins-Face-Off) - [View in Browser](https://normanmkhl.github.io/Assassins-Face-Off)
 - [bobbychicano's Solution](https://github.com/bobbychicano/rock-paper-scissors)
@@ -101,7 +99,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Arthur Tripp's Solution](https://github.com/arthurktripp/rockpaperscissors/blob/master/index.html)
 - [Ciaran Concannon's Solution](https://github.com/cjcon90/rock-paper-scissors) - [View in Browser](https://cjcon90.github.io/rock-paper-scissors/)
 - [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor)
->>>>>>> upstream/master
 - [HadrienLap's solution](https://github.com/HadrienLap/rock-paper-scissors) - [View in Browser](https://hadrienlap.github.io/rock-paper-scissors/)
 - [smtjong's solution](https://github.com/smtjong/rock-paper-scissors) - [View in Browser](https://smtjong.github.io/rock-paper-scissors/)
 - [CHANG-CHING-CHUNG 's solution](https://github.com/CHANG-CHING-CHUNG/rock-paper-scissors) - [View in Browser](https://chang-ching-chung.github.io/rock-paper-scissors/)
