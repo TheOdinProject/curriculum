@@ -384,6 +384,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/tictactoe)
 * [ahanasi's Solution](https://github.com/ahanasi/tic-tac-toe) - [Play on repl.it](https://repl.it/@ahanasi/tic-tac-toe#.replit)
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
+* [Dyrit's Solution](https://github.com/Dyrits/X-O-OP-TIC-TAC-TOE/blob/master/tic_tac_toe.rb)
 
 </details>
 
