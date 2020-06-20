@@ -40,6 +40,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [fviccia's Solution](https://github.com/fviccia/library) - [View in Browser](https://fviccia-library.netlify.app/)
+- [Tomodi98's Solution](https://github.com/Tomodi98/library) - [View in Browser](https://tomodi98.github.io/library/)
 - [Osechi3's Solution](https://github.com/osechi3/library-project) - [View in Browser](https://osechi3.github.io/library-project/)
 - [Afzaman's Solution w/ Local Storage](https://github.com/afzaman/book-shelf) - [View in Browser](https://afzaman.github.io/book-shelf/)
 - [MiDDiz's Solution w/Firebase Integration!](https://github.com/MiDDiz/OdinJSLibrary) - [View in Browser](https://middiz.github.io/OdinJSLibrary)
@@ -317,4 +319,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [jooji-san's Solution (w/localstorage)](https://https://github.com/jooji-san/Library) - [View in Browser](https://jooji-san.github.io/Library/)
 - [MichelleP1’s solution (w/firebase)](https://github.com/MichelleP1/library) - [View in Browser](http://michellepeters.me/library/)
 - [constantinginga’s solution (w/localstorage)](https://github.com/constantinginga/library) - [View in Browser](https://constantinginga.github.io/library/)
+- [alxmkh’s solution (w/localstorage)](https://github.com/alxmkh/library) - [View in Browser](https://alxmkh.github.io/library/)
+- [faishalirwn’s solution (w/localstorage)](https://github.com/faishalirwn/library) - [View in Browser](https://faishalirwn.github.io/library/)
 </details>

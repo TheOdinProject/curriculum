@@ -1147,7 +1147,7 @@ have a hard time inserting our legislators as individual rows in the table
 without having to build parts of the HTML table ourself. This could spell
 disaster later if we decide to change the template to no longer use a table.
 
-So again, instead of building our own custom solution any further we are going to
+So again, instead of building our own custom solution any further, we are going to
 seek a solution.
 
 ### Ruby's ERB
@@ -1391,7 +1391,7 @@ already exist.
 Dir.mkdir("output") unless Dir.exists? "output"
 ~~~
 
-* Save each form letter to file based on the id of the attendee
+* Save each form letter to a file based on the id of the attendee
 
 [File#open](http://rubydoc.info/stdlib/core/File#open-class_method) allows us
 to open a file for reading and writing. The first parameter is the name of the
