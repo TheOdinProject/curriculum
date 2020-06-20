@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor)
+- [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor) - [View in Browser](https://optiprime64.github.io/rock-paper-scissor/index.html)
 - [Andy-Robertson's Solution](https://github.com/Andy-Robertson/rock-paper-scissors)
 - [Norman Mikhail's Solution](https://github.com/normanmkhl/Assassins-Face-Off) - [View in Browser](https://normanmkhl.github.io/Assassins-Face-Off)
 - [bobbychicano's Solution](https://github.com/bobbychicano/rock-paper-scissors)
