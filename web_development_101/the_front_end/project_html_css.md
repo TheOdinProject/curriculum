@@ -3863,6 +3863,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [kb12233's Solution (Easy)](https://github.com/kb12233/google-homepage) - [View in Browser](https://kb12233.github.io/google-homepage/)
 * [Samuthe's Solution](https://github.com/Samuthe/Odin-Projects.git)
 * [joonyoungleeduke's Solution (Easy)](https://github.com/joonyoungleeduke/google-homepage) - [View in Browser](https://joonyoungleeduke.github.io/google-homepage/)
+* [Baseline Alpha's Solution (Difficult)](https://github.com/baselinealpha/google-search-results) - [View in Browser](https://baselinealpha.github.io/google-search-results/)
 </details>
 
 ### Additional Resources
