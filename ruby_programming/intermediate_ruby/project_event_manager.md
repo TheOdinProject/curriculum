@@ -1497,7 +1497,7 @@ Using the registration date and time we want to find out what the peak registrat
 * [DateTime#strftime](http://rubydoc.info/stdlib/date/DateTime#strftime-instance_method) is a good reference on the
   characters necessary to match the specified date-time format.
 
-* Use [Date#hour](http://rubydoc.info/stdlib/date/Date#hour-instance_method) to find out the hour of the day.
+* Use [DateTime#hour](https://rubydoc.info/stdlib/date/DateTime#hour-instance_method) to find out the hour of the day.
 
 ## Iteration: Day of the Week Targeting
 
