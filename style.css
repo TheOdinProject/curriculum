@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Top of screen navigation */
+
+nav{
+    display: flex;
+    font-size: 15px;
+}
+
+#left{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#right{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 20px 5px 20px 5px;
+    padding: 20px, 20px;
+}
+
+#menu {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
+#signin {
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(73, 135, 236);
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+}
+ 
+/* Main content */
+ #logo{
+    height: 92px;
+    width: 272px;
+    display: block;
+    margin: 100px auto 0px auto;
+}
+
+#search-container{
+    display: flex;
+    margin: 20px auto 0px auto;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 20px;
+    align-items: center;
+}
+#finder{
+    height: 12px;
+    width: 12px;
+    padding: 5px 5px 5px 10px;
+}
+
+#searchbox{
+    border: ;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0px solid transparent;
+}
+
+#buttons{
+    display: flex;
+ }
+
+ #submit, #lucky{
+    width: 200px;
+    height: 30px;
+    color: rgb(70, 67, 67);
+    background-color: rgb(242, 242, 242);
+    font-size: 15px;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+ }
+
+ #submit{
+    display: inline;
+    margin: 30px 10px 5px auto;
+ }
+ 
+ #lucky{
+    display: inline;
+    margin: 30px auto 5px 10px;
+ }
+
+ main{
+     margin-bottom: 270px;
+ }
+
+/* Footer */
+
+footer{
+    display: flex;
+
+    font-size: 15px;
+    background-color:rgb(242, 242, 242);
+}
+
+.footer-left{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.footer-right{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer-item{
+    margin: 20px 15px 20px 5px;
+    padding: 20px, 20px;
+}
