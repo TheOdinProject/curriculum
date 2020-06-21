@@ -1710,6 +1710,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [hazigabriel's Solution](https://github.com/hazigabriel/rock-paper-scissors-update) - [View in Browser](https://hazigabriel.github.io/rock-paper-scissors-update/)
 - [Christos's Solution](https://github.com/ChristosRaptis/rockPaperScissors) - [View in Browser](https://christosraptis.github.io/rockPaperScissors/index.html)
 - [Zach Meyer's Solution](https://github.com/zachmmeyer/rps) - [View in Browser](https://zachmmeyer.github.io/rps/)
-</details>
 - [Joon Young Lee's Solution](https://github.com/joonyoungleeduke/rock-paper-scissor) - [View in Browser](https://joonyoungleeduke.github.io/rock-paper-scissor/)
 </details>
