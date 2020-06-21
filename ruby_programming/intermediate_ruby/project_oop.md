@@ -384,6 +384,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/tictactoe)
 * [ahanasi's Solution](https://github.com/ahanasi/tic-tac-toe) - [Play on repl.it](https://repl.it/@ahanasi/tic-tac-toe#.replit)
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
+* [Dyrits's Solution](https://github.com/Dyrits/X-O-OP-TIC-TAC-TOE/blob/master/tic_tac_toe.rb)
 
 </details>
 
@@ -411,6 +412,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Tilda Udufo's Solution](https://github.com/TildaDares/mastermind)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/mastermind)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/mastermind) - [View in repl.it](http://mastermind.aaroncontreras.repl.run/)
 * [Sam Eff's Solution (AI uses Knuth's algorithm 100% win rate)](https://github.com/SamEff/Mastermind)
