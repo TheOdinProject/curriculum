@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gael's Solution](https://github.com/lungla-gael/Fibonacci)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/fib.rb)
 * [Sam Eff's Solution](https://github.com/SamEff/Fibonacci)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/recursion/fib.rb)
