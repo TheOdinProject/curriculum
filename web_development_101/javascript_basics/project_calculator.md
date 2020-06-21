@@ -763,4 +763,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [shanedgilbert's Solution](https://github.com/shanedgilbert/Calculator) - [View in Browser](https://shanedgilbert.github.io/Calculator/calculator.html)
 - [jbhannon's Solution](https://github.com/jbhannon/calculator) - [View in Browser](https://jbhannon.github.io/calculator/)
 - [gabrielhazi's Solution](https://github.com/hazigabriel/calculator) - [View in Browser](https://hazigabriel.github.io/calculator/)
+- [eckoman33's Solution](https://github.com/eckoman33/project_calculator) - [View in Browser](https://eckoman33.github.io/project_calculator/)
 </details>
