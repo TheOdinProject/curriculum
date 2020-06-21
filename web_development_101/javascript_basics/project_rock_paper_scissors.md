@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [three2's Solution]((https://github.com/three2/Rock-Paper-Odin_Project)
+- [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor) - [View in Browser](https://optiprime64.github.io/rock-paper-scissor/index.html)
 - [Andy-Robertson's Solution](https://github.com/Andy-Robertson/rock-paper-scissors)
 - [Norman Mikhail's Solution](https://github.com/normanmkhl/Assassins-Face-Off) - [View in Browser](https://normanmkhl.github.io/Assassins-Face-Off)
 - [bobbychicano's Solution](https://github.com/bobbychicano/rock-paper-scissors)
@@ -1707,4 +1709,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Taras's Solution](https://github.com/tiris08/PROJECT-ROCK-PAPER-SCISSORS-by-Taras) - [View in Browser](https://tiris08.github.io/PROJECT-ROCK-PAPER-SCISSORS-by-Taras/)
 - [hazigabriel's Solution](https://github.com/hazigabriel/rock-paper-scissors-update) - [View in Browser](https://hazigabriel.github.io/rock-paper-scissors-update/)
 - [Christos's Solution](https://github.com/ChristosRaptis/rockPaperScissors) - [View in Browser](https://christosraptis.github.io/rockPaperScissors/index.html)
+- [Zach Meyer's Solution](https://github.com/zachmmeyer/rps) - [View in Browser](https://zachmmeyer.github.io/rps/)
 </details>

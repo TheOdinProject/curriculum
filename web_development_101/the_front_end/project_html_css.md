@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-  
+* [Philip's Solution (Easy)](https://github.com/philip-kio/The_odins_project/tree/master/google-homepage) - [View in Browser](https://philip-kio.github.io/The_odins_project/)
  * [MatMammen's Solution (Easy)](https://github.com/MatMammen/google-homepage) - [View in Browser](https://matmammen.github.io/google-homepage)
 * [Sarukei's Solution (Easy)](https://github.com/Sarukei/google-homepage)- [View in Browser](https://sarukei.github.io/google-homepage/)
 * [gogvale's Solution (Easy)](https://github.com/gogvale/google-homepage) - [View in Browser](https://gogvale.github.io/google-homepage/)
@@ -3863,7 +3863,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [kb12233's Solution (Easy)](https://github.com/kb12233/google-homepage) - [View in Browser](https://kb12233.github.io/google-homepage/)
 * [Samuthe's Solution](https://github.com/Samuthe/Odin-Projects.git)
 * [joonyoungleeduke's Solution (Easy)](https://github.com/joonyoungleeduke/google-homepage) - [View in Browser](https://joonyoungleeduke.github.io/google-homepage/)
+* [Baseline Alpha's Solution (Difficult)](https://github.com/baselinealpha/google-search-results) - [View in Browser](https://baselinealpha.github.io/google-search-results/)
 * [nmukespence's Solution (Easy)](https://github.com/nmukespence/google-homepage) - [View in Browser](https://nmukespence.github.io/google-homepage/)
+* [Khurram Ali's Solution (Easy)](https://github.com/destocot/google-homepage) - [View in Browser](https://destocot.github.io/google-homepage/)
+* [hogansamuel's Solution (Easy)](https://github.com/hogansamuel/google-homepage) - [View in Browser](https://hogansamuel.github.io/google-homepage/)
+* [hogansamuel's Solution (Difficult)](https://github.com/hogansamuel/Google.com-search-results-page) - [View in Browser](https://hogansamuel.github.io/Google.com-search-results-page/)
+* [Corbela's Solution (Easy)](https://github.com/ilarikorpela/google-homepage) - [View in Browser](https://ilarikorpela.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
