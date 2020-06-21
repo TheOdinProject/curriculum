@@ -271,6 +271,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [are92592's Solution](https://github.com/are92592/EAS) - [View in Browser](https://are92592.github.io/EAS/)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/etch-a-sketch) - [View in Browser](https://brandonricharda.github.io/etch-a-sketch/)
 * [Diane998's Solution](https://github.com/Diane998/EtchASketch) - [View in Browser](https://diane998.github.io/EtchASketch/)
+* [Saad's Solution](https://github.com/smahboob/Etch-A-Sketch-Web) - [View in Browser](https://smahboob.github.io/Etch-A-Sketch-Web/)
 * [enzoperce35's Solution](https://github.com/enzoperce35/Etch_a_Sketch) - [View in Browser](https://enzoperce35.github.io/Etch_a_Sketch/)
 * [developmentgb's Solution](https://github.com/DevelopmentGB/Etch_a_Sketch) - [View in Browser](https://developmentgb.github.io/Etch_a_Sketch/)
 * [Rachel's Solution](https://github.com/rlmoser99/etch-a-sketch) - [View in Browser](https://rlmoser99.github.io/etch-a-sketch/)
