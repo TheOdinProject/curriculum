@@ -284,6 +284,7 @@ connect_four)
 * [Timework's Solution](https://github.com/Timework/connect)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-connect-four) - [Play on Repl.it](https://repl.it/@fussykyloren/ruby-connect-four)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Connect_four)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/connect-four)
 </details>
 
 ### Additional Resources
