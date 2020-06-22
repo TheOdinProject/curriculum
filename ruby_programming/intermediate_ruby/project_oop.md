@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Tic-Tac-Toe)
+* [Eduardo's Solution](https://github.com/helloeduardo/tic_tac_toe) - [View in repl.it](https://repl.it/@helloeduardo/tictactoe#tic_tac_toe.rb)
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/TicTacToe)
 * [lrdvnz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/tree/master/mastermind)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/tic-tac-toe) - [View in repl.it](https://repl.it/github/TildaDares/tic-tac-toe)
@@ -385,6 +387,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [ahanasi's Solution](https://github.com/ahanasi/tic-tac-toe) - [Play on repl.it](https://repl.it/@ahanasi/tic-tac-toe#.replit)
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 * [Dyrits's Solution](https://github.com/Dyrits/X-O-OP-TIC-TAC-TOE/blob/master/tic_tac_toe.rb)
+* [Intermedia's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/tictactoe.rb)
 
 </details>
 
@@ -700,6 +703,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/codebreaker)
 * [ahanasi’s Solution](https://github.com/ahanasi/mastermind) - [Play on repl.it](https://repl.it/@ahanasi/mastermind#.replit)
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/mastermind.rb)
+* [John's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
 
 </details>
 
