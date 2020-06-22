@@ -59,6 +59,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-feignbook) - [View in Browser](https://feignbook.herokuapp.com/)
 * [Run After's Solution](https://github.com/run-after/odinbook) - [View in Browser](https://blooming-shore-50178.herokuapp.com/)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-facebook) - [View in Browser](http://ruby-facebook.herokuapp.com/)
 * [robomonk's Solution](https://github.com/robo-monk/zuccr) - [View in Browser](https://zuccr.herokuapp.com/)
