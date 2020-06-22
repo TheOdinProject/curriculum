@@ -174,6 +174,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Vollantre's solution](https://github.com/vollantre/connect_four)
 * [Kevin Vuong's solution](https://github.com/fffear/connect-four)
 * [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/connect_four)
+* [Narek's solution](https://github.com/narekokr/connect-four)
 * [Learnsometing's solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/connect-four)
 * [Chris Wegschied's solution](https://github.com/cwegscheid08/connect_four)
 * [Leila Alderman's solution](https://github.com/leila-alderman/connect_four)

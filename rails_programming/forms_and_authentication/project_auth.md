@@ -57,6 +57,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jodokusquack's Solution](https://github.com/jodokusquack/members-only)
 * [Grant Cottle's Solution](https://github.com/grantmaster89/members_only) - [Heroku](https://agile-anchorage-41907.herokuapp.com/)
 * [Nestor-c's Solution](https://github.com/nestor-c/Clubhouse)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/members-only)
