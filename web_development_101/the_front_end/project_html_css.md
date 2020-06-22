@@ -3874,6 +3874,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jacobus's Solution (Easy)](https://github.com/Jacobus-afk/google-homepage) - [View in Browser](https://jacobus-afk.github.io/google-homepage/)
 * [Abhigyan's Solution (Easy)](https://github.com/Abhigyan001/google-homepage) - [View in Browser](https://abhigyan001.github.io/google-homepage/)
 * [dwcoppola's Solution](https://github.com/dwcoppola/google-homepage) - [View in Browser](https://dwcoppola.github.io/google-homepage/)
+* [galyfilsaime's Solution (Easy)](https://github.com/galyfilsaime/google-homepage) - [View in Browser](https://galyfilsaime.github.io/google-homepage/)
 * [Isabella's Solution (Easy)](https://github.com/isaguimet/google-homepage) - [View in Browser](https://isaguimet.github.io/google-homepage/)
 </details>
 
