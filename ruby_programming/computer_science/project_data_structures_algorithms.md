@@ -52,6 +52,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Darren's solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/binary_search_tree)
 * [irlgabriel's solution](https://github.com/irlgabriel/the-odin-project/tree/master/tree)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/binary_search_tree)
 * [threeaces' Solution](https://github.com/threeaces/binary_search_tree_ruby_TOP)  
@@ -283,6 +284,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/knight_travail)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/knight-moves)
 * [andrewjh271's Solution](https://github.com/andrewjh271/knight_travails)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/knights-travails)
