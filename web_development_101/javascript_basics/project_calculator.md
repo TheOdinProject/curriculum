@@ -45,7 +45,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Uwem's Solution](https://github.com/UwemEkong/calculator.github.io) - [View in Browser](https://uwemekong.github.io/calculator.github.io/)
 - [Hadrien Lap's Solution](https://github.com/HadrienLap/calculator) - [View in Browser](https://hadrienlap.github.io/calculator/)
 - [pklepa's Solution](https://github.com/pklepa/calculator) - [View in Browser](https://pklepa.github.io/calculator/)
@@ -66,7 +65,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Simonoob's Solution](https://github.com/Simonoob/Online-Calculator) - [View in Browser](https://simonoob.github.io/Online-Calculator/)
 - [Shubhankar's Solution](https://github.com/shubh-pandit) - [View in Browser](https://shubh-pandit.github.io/Calculator/)
 - [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/theOdinProjects--Calculator) - [View in Browser](https://chang-ching-chung.github.io/theOdinProjects--Calculator/)
->>>>>>> 1eb8bef53cf7ba6380567622fb5dbed89fff438c
 - [Max's Solution](https://github.com/maxdlg/calculator) - [View in Browser](https://maxdlg.github.io/calculator/)
 - [Jordan Perkins' Solution](https://github.com/jordanperkins98/CalculatorProject) - [View in Browser](https://jordanperkins98.github.io/CalculatorProject/)
 - [James' Solution](https://github.com/J-coen/odin-calculator) - [View in Browser](https://j-coen.github.io/odin-calculator/)
