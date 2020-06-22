@@ -3867,6 +3867,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [nmukespence's Solution (Easy)](https://github.com/nmukespence/google-homepage) - [View in Browser](https://nmukespence.github.io/google-homepage/)
 </details>
 * [Khurram Ali's Solution (Easy)](https://github.com/destocot/google-homepage) - [View in Browser](https://destocot.github.io/google-homepage/)
+* [Rebecca Hawkensons Solution (Easy)](https://github.com/rhawkenson/google-homepage) - [View in Browser](hhttps://rhawkenson.github.io/google-homepage/)
+* [Rebecca Hawkenson's Solution (Difficult)](https://github.com/rhawkenson/google-search) - [View in Browser](hhttps://rhawkenson.github.io/google-search/)
 
 ### Additional Resources
 
