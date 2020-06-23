@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kimotho's Solution](https://github.com/kimothokamau/rock-paper-scissors-game) - [View in Browser](https://kimothokamau.github.io/rock-paper-scissors-game/)
 - [Harry's Solution](https://github.com/harryneale/rock-paper-scissors) - [View in Browser](https://harryneale.github.io/rock-paper-scissors/)
 - [gogvale's Solution](https://github.com/gogvale/rock-paper-scissors) - [View in Browser](https://gogvale.github.io/rock-paper-scissors)
 - [Chala17's Solution](https://github.com/chala17/rock_paper_scissors) - [View in Browser](https://chala17.github.io/rock_paper_scissors/)
@@ -1723,4 +1724,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [naivestarter's Solution](https://github.com/naivestarter/rock-paper-scissor) - [View in Browser](https://naivestarter.github.io/rock-paper-scissor/)
 - [sacchan9's Solution](https://github.com/sacchan9/rock-paper-scissors)
 - [onagova's Solution](https://github.com/onagova/rock-paper-scissors)
+- [Jacobus's Solution](https://github.com/Jacobus-afk/ropasci)
 </details>
