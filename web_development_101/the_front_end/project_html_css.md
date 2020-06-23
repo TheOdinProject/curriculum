@@ -95,6 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Maria's Solution (Easy)](https://github.com/mmuzas/google-homepage) - [View in Browser](https://mmuzas.github.io/google-homepage/)
+* [Maria's Solution (Difficult)](https://github.com/mmuzas/google_results_page) - [View in Browser](https://mmuzas.github.io/google_results_page/)
 * [Siddharth's Solution (Easy)](https://siddharth-stn.github.io/google-homepage/) - [View in Browser](https://siddharth-stn.github.io/google-homepage/)
 * [Philip's Solution (Easy)](https://github.com/philip-kio/The_odins_project/tree/master/google-homepage) - [View in Browser](https://philip-kio.github.io/The_odins_project/)
  * [MatMammen's Solution (Easy)](https://github.com/MatMammen/google-homepage) - [View in Browser](https://matmammen.github.io/google-homepage)
