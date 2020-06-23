@@ -1720,5 +1720,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Joon Young Lee's Solution](https://github.com/joonyoungleeduke/rock-paper-scissor) - [View in Browser](https://joonyoungleeduke.github.io/rock-paper-scissor/)
 - [Kenwilde's Solution](https://github.com/kenwilde1/rock-paper-scissors) - [View in Browser](https://kenwilde1.github.io/rock-paper-scissors/)
 - [juggler39's Solution](https://github.com/juggler39/rock-paper-scissors) - [View in Browser](https://juggler39.github.io/rock-paper-scissors/)
+- [naivestarter's Solution](https://github.com/naivestarter/rock-paper-scissor) - [View in Browser](https://naivestarter.github.io/rock-paper-scissor/)
 - [sacchan9's Solution](https://github.com/sacchan9/rock-paper-scissors) 
 </details>
