@@ -97,9 +97,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this list
 * [Maria's Solution (Easy)](https://github.com/mmuzas/google-homepage) - [View in Browser](https://mmuzas.github.io/google-homepage/)
 * [Maria's Solution (Difficult)](https://github.com/mmuzas/google_results_page) - [View in Browser](https://mmuzas.github.io/google_results_page/)
-* [Siddharth's Solution (Easy)](https://siddharth-stn.github.io/google-homepage/) - [View in Browser](https://siddharth-stn.github.io/google-homepage/)
+* [Siddharth's Solution (Easy)](https://github.com/siddharth-stn/google-homepage) - [View in Browser](https://siddharth-stn.github.io/google-homepage/)
 * [Philip's Solution (Easy)](https://github.com/philip-kio/The_odins_project/tree/master/google-homepage) - [View in Browser](https://philip-kio.github.io/The_odins_project/)
- * [MatMammen's Solution (Easy)](https://github.com/MatMammen/google-homepage) - [View in Browser](https://matmammen.github.io/google-homepage)
+* [MatMammen's Solution (Easy)](https://github.com/MatMammen/google-homepage) - [View in Browser](https://matmammen.github.io/google-homepage)
 * [Sarukei's Solution (Easy)](https://github.com/Sarukei/google-homepage)- [View in Browser](https://sarukei.github.io/google-homepage/)
 * [gogvale's Solution (Easy)](https://github.com/gogvale/google-homepage) - [View in Browser](https://gogvale.github.io/google-homepage/)
 * [Hilton's Solution (Easy)](https://github.com/hilton-au/google-homepage) - [View in Browser](https://hilton-au.github.io/google-homepage/)
