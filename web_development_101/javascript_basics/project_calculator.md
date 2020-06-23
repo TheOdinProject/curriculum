@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [LeoWebDev's Solution](https://github.com/leowebdev20/summa-calculator) - [View in Browser](https://leowebdev20.github.io/summa-calculator/)
+- [Uwem's Solution](https://github.com/UwemEkong/calculator.github.io) - [View in Browser](https://uwemekong.github.io/calculator.github.io/)
 - [Hadrien Lap's Solution](https://github.com/HadrienLap/calculator) - [View in Browser](https://hadrienlap.github.io/calculator/)
 - [pklepa's Solution](https://github.com/pklepa/calculator) - [View in Browser](https://pklepa.github.io/calculator/)
 - [Derrick's Solution](https://github.com/derrickandry/calculator) - [View in Browser](https://derrickandry.github.io/calculator/)
@@ -766,4 +768,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [gabrielhazi's Solution](https://github.com/hazigabriel/calculator) - [View in Browser](https://hazigabriel.github.io/calculator/)
 - [victor orlunda's solution](https://github.com/dev-opus/js-calculator) - [View in Browser](https://dev-opus.github.io/js-calculator/)
 - [eckoman33's Solution](https://github.com/eckoman33/project_calculator) - [View in Browser](https://eckoman33.github.io/project_calculator/)
+- [jugnugs's Solution](https://github.com/jugnugs/calculator) - [View in Browser](https://jugnugs.github.io/calculator/)
 </details>
