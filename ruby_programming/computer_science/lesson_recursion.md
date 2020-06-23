@@ -10,7 +10,7 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
-### learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment
 
 * Why is recursion a useful technique for solving a big problem?
