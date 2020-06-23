@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+  let playerScore = 0;
+  let computerScore = 0;
+  let playerInput;
+  let computerInput;
+
+
+  function computerPlay() {
+    let gameChoices = ['rock', 'paper', 'scissors'];
+    let random = [Math.floor(Math.random() * gameChoices.length)];
+    return computerInput = gameChoices[random];
+  }
+
+  function playRound(playerSelection, computerSelection) {
+
+    playerSelection = playerInput;
+    computerSelection = computerPlay();
+
+    if (playerSelection == 'rock' && computerSelection == 'paper' || playerSelection == 'paper' && computerSelection == 'scissors' || playerSelection == 'scissors' && computerSelection == 'rock') {
+      computerScore++;
+      return `You lost this round! ${computerSelection} beats ${playerSelection}! You have a score of ${playerScore} and your opponent has a score of ${computerScore}.`;
+      } else if (playerSelection == 'paper' && computerSelection == 'rock' || playerSelection == 'scissors' && computerSelection == 'paper' || playerSelection == 'rock' && computerSelection == 'scissors') {
+        playerScore++;
+      return `You win this round! ${playerSelection} beats ${computerSelection}! You have a score of ${playerScore} and your opponent has a score of ${computerScore}.`;
+      } else  if (playerSelection == computerSelection) {
+        return `It's a tie!`;
+      }
+  }
+
+function game() {
+  for (var i = 0; i < 5; i++) {
+    playerInput = window.prompt('Rock, paper, or scissors?').toLowerCase();
+    computerInput = computerPlay();
+    console.log(playRound());
+  }
+
+  if (playerScore > computerScore) {
+    return `You won with a total score of ${playerScore}, while your opponent only had a score of ${computerScore}. `;
+  } else if (playerScore < computerScore) {
+    return `You lost with a total score of ${playerScore}, while your opponent scored ${computerScore}.`;
+  } else {
+    return `You both tied with a score of ${playerScore}.`
+  }
+}
+</script>
+</body>
+</html>
