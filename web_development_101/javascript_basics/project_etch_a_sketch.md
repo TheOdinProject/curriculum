@@ -45,11 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-* [Shikhar's Solution](https://github.com/shikhar-sharma1703/Web-dev/tree/master/etch-a-sketch) - [View In Browser](https://shikhar-sharma1703.github.io/Web-dev/etch-a-sketch/)
-* [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/etch_a_sketch) - [View In Browser](https://cyber-mat.github.io/etch_a_sketch/)
+* [Shikhar's Solution](https://github.com/shikhar-sharma1703/Web-dev/tree/master/etch-a-sketch) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/etch-a-sketch/)
+* [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/etch_a_sketch) - [View in Browser](https://cyber-mat.github.io/etch_a_sketch/)
 * [Mugilan's Solution](https://github.com/Mugilan-Codes/etch-a-sketch) - [View in Browser](https://mugilan-codes.github.io/etch-a-sketch/)
-* [vonhoro's Solution](https://github.com/vonhoro/sketch) - [View In Browser](https://vonhoro.github.io/sketch/)
-* [EmilioAK's Solution](https://github.com/EmilioAK/Etch-a-Sketch) - [View In Browser](https://emilioak.github.io/Etch-a-Sketch/)
+* [vonhoro's Solution](https://github.com/vonhoro/sketch) - [View in Browser](https://vonhoro.github.io/sketch/)
+* [EmilioAK's Solution](https://github.com/EmilioAK/Etch-a-Sketch) - [View in Browser](https://emilioak.github.io/Etch-a-Sketch/)
 * [Norman Mikhail's Solution](https://github.com/normanmkhl/Etch-A-Sketch) - [View in Browser](https://normanmkhl.github.io/Etch-A-Sketch)
 * [Estela's Solution](https://estelajimero.github.io/Etch-a-Sketch/) - [View in Browser](https://estelajimero.github.io/Etch-a-Sketch/)
 * [rchlkr's Solution](https://github.com/rchlkr/etch-a-sketch) - [View in Browser](https://rchlkr.github.io/etch-a-sketch/)
