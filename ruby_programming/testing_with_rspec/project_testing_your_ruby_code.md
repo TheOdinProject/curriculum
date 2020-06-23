@@ -124,7 +124,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * fussykyloren's Solutions: [Caeser Cipher](https://github.com/fussykyloren/odin-project-basic-ruby-projects/tree/master/caeser-cipher), [Tic-Tac-Toe](https://github.com/fussykyloren/ruby-tic-tac-toe)
 * Cameron St. Amant's Solutions: [Caesar Cipher](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Basic_ruby_projects/Caesar), [Tic-Tac-Toe](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Intermediate_ruby/Tic_tac_toe)
 * mpiriya's Solutions: [Caesar Cipher](https://github.com/mpiriya/ruby/tree/master/caesar-cipher), [Tic-Tac-Toe](https://github.com/mpiriya/ruby/tree/master/tictactoe)
-* Chow Jia Ying's Solutions:[Caesar Cipher](https://github.com/C-likethis123/ruby_odin_project/blob/master/lib/caesar_cipher.rb), [Tic-Tac-Toe](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
+* Chow Jia Ying's Solutions: [Caesar Cipher](https://github.com/C-likethis123/ruby_odin_project/blob/master/lib/caesar_cipher.rb), [Tic-Tac-Toe](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 </details>
 
 ### Project: TDD Connect Four
