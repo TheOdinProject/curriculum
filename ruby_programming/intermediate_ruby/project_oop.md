@@ -415,6 +415,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution (Computer has 68% win rate over 100000 games)](https://github.com/CodingShawn/TOP-Ruby-Mastermind)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/mastermind)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/mastermind)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/mastermind) - [View in repl.it](http://mastermind.aaroncontreras.repl.run/)
