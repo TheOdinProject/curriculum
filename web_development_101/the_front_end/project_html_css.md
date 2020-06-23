@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Siddharth's Solution (Easy)](https://siddharth-stn.github.io/google-homepage/) -[View in Browser](https://siddharth-stn.github.io/google-homepage/)
+* [Siddharth's Solution (Easy)](https://siddharth-stn.github.io/google-homepage/) - [View in Browser](https://siddharth-stn.github.io/google-homepage/)
 * [Philip's Solution (Easy)](https://github.com/philip-kio/The_odins_project/tree/master/google-homepage) - [View in Browser](https://philip-kio.github.io/The_odins_project/)
  * [MatMammen's Solution (Easy)](https://github.com/MatMammen/google-homepage) - [View in Browser](https://matmammen.github.io/google-homepage)
 * [Sarukei's Solution (Easy)](https://github.com/Sarukei/google-homepage)- [View in Browser](https://sarukei.github.io/google-homepage/)
@@ -3883,7 +3883,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Yinfei's Solution (Easy)](https://github.com/yinfeiz2/google-homepage) - [View in Browser](https://yinfeiz2.github.io/google-homepage/)
 * [William's Solution (Easy)](https://github.com/whmcquaid/google-homepage) - [View in Browser](https://whmcquaid.github.io/google-homepage/)
 * [Adam's Solution (Easy)](https://github.com/ajhanson22227/google-homepage) - [View in Browser](https://ajhanson22227.github.io/google-homepage/)
-* [William's Solution (Easy)](https://github.com/whmcquaid/google-homepage) - [View in Browswer](https://whmcquaid.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
