@@ -769,4 +769,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [victor orlunda's solution](https://github.com/dev-opus/js-calculator) - [View in Browser](https://dev-opus.github.io/js-calculator/)
 - [eckoman33's Solution](https://github.com/eckoman33/project_calculator) - [View in Browser](https://eckoman33.github.io/project_calculator/)
 - [jugnugs's Solution](https://github.com/jugnugs/calculator) - [View in Browser](https://jugnugs.github.io/calculator/)
+- [kluceycose's Solution](https://www.github.com/kluceycose/calculator) - [View in Browser](https://kluceycose.github.io/calculator)
 </details>
