@@ -49,6 +49,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [RobisonWebDev Solution](https://github.com/robisonwebdev/Restaurant-Page) - [View in Browser](http://davidrulonrobison.com/Restaurant-Page/)
+- [Osechi3's Solution](https://github.com/osechi3/restaurant-page) - [View in Browser](https://osechi3.github.io/restaurant-page/)
+- [Jaswant Rathod's Solution](https://github.com/zarc1411/RestaurantPage) - [View in Browser](https://zarc1411.github.io/RestaurantPage/)
+- [Ideopunk's Solution](https://github.com/Ideopunk/restaurant) - [View in Browser](https://ideopunk.github.io/restaurant/)
 - [Andreaiaia's Solution](https://github.com/andreaiaia/restaurantPage) - [View in Browser](https://andreaiaia.github.io/restaurantPage/)
 - [Kevin's Solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/Restaurant) - [View in Browser](https://kevin-satti-projects.github.io/Projects/Restaurant/dist/)
 - [Paul's Solution](https://github.com/ppayne12/beadshop/) - [View in Browser](https://ppayne12.github.io/beadshop/)
@@ -192,4 +196,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [themetar's Solution](https://github.com/themetar/restaurant-page-top) - [View in Browser](https://themetar.github.io/restaurant-page-top/)
 - [Vitaly Osipov's Solution](https://github.com/vi7ali/the-tavern) - [View in Browser](https://vi7ali.github.io/the-tavern/)
 - [DurandalOne's Solution](https://github.com/DurandalOne/restaurant) - [View in Browser](https://durandalone.github.io/restaurant/)
+- [hamparmin's Solution](https://github.com/hamparmin/restaurant_page) - [View in Browser](https://hamparmin.github.io/restaurant_page/)
 </details>
