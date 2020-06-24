@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [miknick's Solution](https://github.com/miknick/Library)
 - [pklepa's Solution (w/ Local Storage)](https://pklepa.github.io/small-library/)
 - [benjamin-gambling's Solution (w/ Firebase Database)](https://github.com/benjamin-gambling/library) - [View in Browser](https://benjamin-gambling.github.io/library/)
 - [Bassel Alrefai's Solution (w/Firebase)](https://github.com/basselalrefai/Library) - [View in Browser](https://basselalrefai.github.io/Library/)
