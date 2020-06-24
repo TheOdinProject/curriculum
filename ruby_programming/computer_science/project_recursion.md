@@ -260,6 +260,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sandy’s Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/fibonacci.rb)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/recursion/assignment_1.rb)
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/recursion/fibonacci.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
