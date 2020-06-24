@@ -35,11 +35,13 @@ We've previously installed Ruby, and now it's time to install Ruby on Rails. It'
 gem install rails -v 5.2.3
 ~~~
 
-Although, if you already have rbenv installed on your system, you'll need to run the following command:
+Once the installation finishes, you can check if everything went well by running the following command:
 
 ~~~bash
-rbenv rehash
+rails -v
 ~~~
+
+This should display the version of Rails installed on your system indicating the installation went smoothly.
 
 #### Step 1.2: Lay the Groundwork
 
