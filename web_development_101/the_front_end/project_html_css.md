@@ -3891,6 +3891,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Reveiller's Solution (Easy)](https://github.com/reveiller/google-homepage) - [View in Browser](https://reveiller.github.io/google-homepage/)
 * [Ninaeve's Solution (Easy)](https://github.com/ninaeve/google-homepage) - [View in Browser](https://ninaeve.github.io/google-homepage/)
 * [alabador's Solution (Easy)](https://github.com/alabador/google-homepage/) - [View in Browser](https://alabador.github.io/google-homepage/)
+* [Bills Solution (Easy)](https://github.com/billyboy118/google-homepage/) - [View in Browser](https://billyboy.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
