@@ -290,6 +290,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gael's Solution](https://github.com/lungla-gael/Merge-Sort)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/mergeSort/blob/master/merge_sort.rb)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/merge_sort.rb)
 * [Sam Eff's Solution](https://github.com/SamEff/merge_sort)
