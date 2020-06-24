@@ -124,6 +124,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * fussykyloren's Solutions: [Caeser Cipher](https://github.com/fussykyloren/odin-project-basic-ruby-projects/tree/master/caeser-cipher), [Tic-Tac-Toe](https://github.com/fussykyloren/ruby-tic-tac-toe)
 * Cameron St. Amant's Solutions: [Caesar Cipher](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Basic_ruby_projects/Caesar), [Tic-Tac-Toe](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Intermediate_ruby/Tic_tac_toe)
 * mpiriya's Solutions: [Caesar Cipher](https://github.com/mpiriya/ruby/tree/master/caesar-cipher), [Tic-Tac-Toe](https://github.com/mpiriya/ruby/tree/master/tictactoe)
+* Chow Jia Ying's Solutions: [Caesar Cipher](https://github.com/C-likethis123/ruby_odin_project/blob/master/lib/caesar_cipher.rb), [Tic-Tac-Toe](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 </details>
 
 ### Project: TDD Connect Four
@@ -149,6 +150,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/connect_four)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/connect-four-tdd)
 * [Michael K's Solution](https://github.com/a0x77ry/connect_four)
 * [andrewjh271's Solution](https://github.com/andrewjh271/connect_four)
@@ -285,6 +287,8 @@ connect_four)
 * [Timework's Solution](https://github.com/Timework/connect)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-connect-four) - [Play on Repl.it](https://repl.it/@fussykyloren/ruby-connect-four)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Connect_four)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/connect-four)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/plot_four)
 </details>
 
 ### Additional Resources
