@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
    
 - Add your solution below this line!
 - [Simonoob's Solution (w/ Firebase Database)](https://github.com/Simonoob/Book-Library) - [View in Browser](https://simonoob.github.io/Book-Library/)
+- [miknick's Solution](https://github.com/miknick/Library)
 - [pklepa's Solution (w/ Local Storage)](https://pklepa.github.io/small-library/)
 - [benjamin-gambling's Solution (w/ Firebase Database)](https://github.com/benjamin-gambling/library) - [View in Browser](https://benjamin-gambling.github.io/library/)
 - [Bassel Alrefai's Solution (w/Firebase)](https://github.com/basselalrefai/Library) - [View in Browser](https://basselalrefai.github.io/Library/)
@@ -327,4 +328,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [constantinginga’s solution (w/localstorage)](https://github.com/constantinginga/library) - [View in Browser](https://constantinginga.github.io/library/)
 - [alxmkh’s solution (w/localstorage)](https://github.com/alxmkh/library) - [View in Browser](https://alxmkh.github.io/library/)
 - [faishalirwn’s solution (w/localstorage)](https://github.com/faishalirwn/library) - [View in Browser](https://faishalirwn.github.io/library/)
+- [lonewolf045's solution (w/firebase)](https://github.com/lonewolf045/library) - [View in Browser](https://lonewolf045.github.io/library/)
 </details>
