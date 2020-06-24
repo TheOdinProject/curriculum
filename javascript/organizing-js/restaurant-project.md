@@ -195,4 +195,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [themetar's Solution](https://github.com/themetar/restaurant-page-top) - [View in Browser](https://themetar.github.io/restaurant-page-top/)
 - [Vitaly Osipov's Solution](https://github.com/vi7ali/the-tavern) - [View in Browser](https://vi7ali.github.io/the-tavern/)
 - [DurandalOne's Solution](https://github.com/DurandalOne/restaurant) - [View in Browser](https://durandalone.github.io/restaurant/)
+- [hamparmin's Solution](https://github.com/hamparmin/restaurant_page) - [View in Browser](https://hamparmin.github.io/restaurant_page/)
 </details>
