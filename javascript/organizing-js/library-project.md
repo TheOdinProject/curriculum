@@ -325,4 +325,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [constantinginga’s solution (w/localstorage)](https://github.com/constantinginga/library) - [View in Browser](https://constantinginga.github.io/library/)
 - [alxmkh’s solution (w/localstorage)](https://github.com/alxmkh/library) - [View in Browser](https://alxmkh.github.io/library/)
 - [faishalirwn’s solution (w/localstorage)](https://github.com/faishalirwn/library) - [View in Browser](https://faishalirwn.github.io/library/)
+- [lonewolf045's solution (w/firebase)](https://github.com/lonewolf045/library) - [View in Browser](https://lonewolf045.github.io/library/)
 </details>
