@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Adam's Solution](https://github.com/ajhanson22227/New-Rock-Paper-Scissors) - [View in Browser](https://ajhanson22227.github.io/New-Rock-Paper-Scissors/)
+- [Nita's Solution](https://github.com/nitavulaj/rock_paper_scissors)
 - [Kimotho's Solution](https://github.com/kimothokamau/rock-paper-scissors-game) - [View in Browser](https://kimothokamau.github.io/rock-paper-scissors-game/)
 - [Harry's Solution](https://github.com/harryneale/rock-paper-scissors) - [View in Browser](https://harryneale.github.io/rock-paper-scissors/)
 - [gogvale's Solution](https://github.com/gogvale/rock-paper-scissors) - [View in Browser](https://gogvale.github.io/rock-paper-scissors)
@@ -1727,4 +1728,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [onagova's Solution](https://github.com/onagova/rock-paper-scissors)
 - [Raman's Solution](https://github.com/rheera/RockPaperScissors)
 - [Jacobus's Solution](https://github.com/Jacobus-afk/ropasci)
+- [Marissa Bellusci's Solution](https://github.com/marissabellusci/rock-paper-scissors-simulator) - [View in Browser](https://marissabellusci.github.io/rock-paper-scissors-simulator/)
 </details>
