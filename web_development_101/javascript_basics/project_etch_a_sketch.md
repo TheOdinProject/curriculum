@@ -1104,5 +1104,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [dzalee16's Solution](https://github.com/dzalee16/Etch_a_Sketch) - [View in Browser](https://dzalee16.github.io/Etch_a_Sketch/)
 * [Neha Hirve's Solution](https://github.com/nehahirve/sketchpad) - [View in Browser](https://nehahirve.github.io/sketchpad/)
 * [IvanyukT's Solution](https://github.com/tiris08/Etch-A-Sketch-by-taras08) - [View in Browser]( https://tiris08.github.io/Etch-A-Sketch-by-taras08/)
+* [Nijepa's Solution](https://github.com/nijepa/etch-a-sketch) - [View in Browser](https://nijepa.github.io/etch-a-sketch)
 </details>
 
