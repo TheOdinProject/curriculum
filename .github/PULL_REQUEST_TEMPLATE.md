@@ -3,3 +3,5 @@ This is a PR template. If you are adding a solution link to the curriculum, leav
 Thank you,
 
 The Odin Project team.
+
+* [Bills Solution (Easy)](https://github.com/billyboy118/google-homepage) - [View in Browser](https://billyboy118.github.io/google-homepage/)
