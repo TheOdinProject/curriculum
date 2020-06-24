@@ -35,9 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [lexolf's Solution](https://github.com/lexolf/todo-list) - [View in Browser](https://lexolf.github.io/todo-list/dist/)
-=======
 * [Walmart-cashier's Solution](https://github.com/Walmart-cashier/DulcetTodo) - [View in Browser](https://walmart-cashier.github.io/DulcetTodo/)
 * [LenaChestnut's Solution](https://github.com/LenaChestnut/to-do) - [View in Browser](https://lenachestnut.github.io/to-do/dist/index.html)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/todo-list) - [View in Browser](https://andrsrz.github.io/todo-list/)
@@ -51,7 +49,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/todolist) - [View in Browser](https://thisismahmad.github.io/todolist/)
 * [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/todo-list) - [View in Browser](https://carldoleolundgren.github.io/todo-list/)
 * [hu-ng's Solution](https://github.com/hu-ng/todo-list-js) - [View in Browser](https://hu-ng.github.io/todo-list-js/)
->>>>>>> upstream/master
 * [jc's Solution](https://github.com/avazkhan2808/project-todo) - [View in Browser](https://avazkhan2808.github.io/project-todo/)
 * [AJMcDee's Solution](https://github.com/ajmcdee/ToDoApp) - [View in Browser](https://ajmcdee.github.io/ToDoApp)
 * [simonevaglietti's Solution](https://github.com/simonevaglietti/Todo-App) - [View in Browser](https://simonevaglietti.github.io/Todo-App/dist/)
