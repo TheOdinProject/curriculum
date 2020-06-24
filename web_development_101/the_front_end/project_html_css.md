@@ -3870,9 +3870,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Baseline Alpha's Solution (Difficult)](https://github.com/baselinealpha/google-search-results) - [View in Browser](https://baselinealpha.github.io/google-search-results/)
 * [nmukespence's Solution (Easy)](https://github.com/nmukespence/google-homepage) - [View in Browser](https://nmukespence.github.io/google-homepage/)
 * [Khurram Ali's Solution (Easy)](https://github.com/destocot/google-homepage) - [View in Browser](https://destocot.github.io/google-homepage/)
-<<<<<<< HEAD
 * [Khurram Ali's Solution (Difficult)](https://github.com/destocot/google-resultpage) - [View in Browser](https://destocot.github.io/google-resultpage/)
-=======
 * [Rebecca Hawkensons Solution (Easy)](https://github.com/rhawkenson/google-homepage) - [View in Browser](https://rhawkenson.github.io/google-homepage/)
 * [Rebecca Hawkenson's Solution (Difficult)](https://github.com/rhawkenson/google-search) - [View in Browser](https://rhawkenson.github.io/google-search/)
 * [hogansamuel's Solution (Easy)](https://github.com/hogansamuel/google-homepage) - [View in Browser](https://hogansamuel.github.io/google-homepage/)
@@ -3891,8 +3889,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Adam's Solution (Easy)](https://github.com/ajhanson22227/google-homepage) - [View in Browser](https://ajhanson22227.github.io/google-homepage/)
 * [Nijepa's Solution (Easy)](https://github.com/nijepa/google-homepage) - [View in Browser](https://nijepa.github.io/google-homepage/)
 * [Reveiller's Solution (Easy)](https://github.com/reveiller/google-homepage) - [View in Browser](https://reveiller.github.io/google-homepage/)
+* [alabador's Solution (Easy)](https://github.com/alabador/google-homepage/) - [View in Browser](https://alabador.github.io/google-homepage/)
 </details>
->>>>>>> 8b31f4056441a4d20ec2e50f42aeba05e1a41830
 
 ### Additional Resources
 
