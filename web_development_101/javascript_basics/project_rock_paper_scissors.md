@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Cihat's Solution](https://github.com/cihatdev/RockPaperScissors) - [View in Browser](https://cihatdev.github.io/RockPaperScissors/)
+- [Adam's Solution](https://github.com/ajhanson22227/New-Rock-Paper-Scissors) - [View in Browser](https://ajhanson22227.github.io/New-Rock-Paper-Scissors/)
+- [Nita's Solution](https://github.com/nitavulaj/rock_paper_scissors)
 - [Kimotho's Solution](https://github.com/kimothokamau/rock-paper-scissors-game) - [View in Browser](https://kimothokamau.github.io/rock-paper-scissors-game/)
 - [Harry's Solution](https://github.com/harryneale/rock-paper-scissors) - [View in Browser](https://harryneale.github.io/rock-paper-scissors/)
 - [gogvale's Solution](https://github.com/gogvale/rock-paper-scissors) - [View in Browser](https://gogvale.github.io/rock-paper-scissors)
