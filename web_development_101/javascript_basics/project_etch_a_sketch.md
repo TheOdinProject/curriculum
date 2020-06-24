@@ -45,10 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 
 * [OptiPrime64's Solution](https://github.com/OptiPrime64/etch-a-sketch) - [View in Browser](https://optiprime64.github.io/etch-a-sketch/)
-=======
 * [zieeco's Solution](https://github.com/zieeco/Etch-a-sketch) - [View in Browser](https://zieeco.github.io/Etch-a-sketch/)
 * [miknick's Solution](https://github.com/miknick/Etch-a-Sketch)
 * [Marcos Hernadez's Solution](https://github.com/Marcos6838/etch-a-sketch) - [View in Browser](https://marcos6838.github.io/etch-a-sketch/)
@@ -59,7 +57,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [vonhoro's Solution](https://github.com/vonhoro/sketch) - [View in Browser](https://vonhoro.github.io/sketch/)
 * [EmilioAK's Solution](https://github.com/EmilioAK/Etch-a-Sketch) - [View in Browser](https://emilioak.github.io/Etch-a-Sketch/)
 * [Norman Mikhail's Solution](https://github.com/normanmkhl/Etch-A-Sketch) - [View in Browser](https://normanmkhl.github.io/Etch-A-Sketch)
->>>>>>> upstream/master
 * [Estela's Solution](https://estelajimero.github.io/Etch-a-Sketch/) - [View in Browser](https://estelajimero.github.io/Etch-a-Sketch/)
 * [rchlkr's Solution](https://github.com/rchlkr/etch-a-sketch) - [View in Browser](https://rchlkr.github.io/etch-a-sketch/)
 * [xrizwan's solution](https://xrizwan.github.io/etchASketch/index.html) - [View in Browser](https://xrizwan.github.io/etchASketch/index.html)
