@@ -123,7 +123,7 @@ most straightforward is `File.read`
 ~~~ruby
 puts "EventManager initialized."
 
-contents = File.read "event_attendees.csv"
+contents = File.read "../event_attendees.csv"
 puts contents
 ~~~
 
@@ -1147,7 +1147,7 @@ have a hard time inserting our legislators as individual rows in the table
 without having to build parts of the HTML table ourself. This could spell
 disaster later if we decide to change the template to no longer use a table.
 
-So again, instead of building our own custom solution any further we are going to
+So again, instead of building our own custom solution any further, we are going to
 seek a solution.
 
 ### Ruby's ERB
@@ -1391,7 +1391,7 @@ already exist.
 Dir.mkdir("output") unless Dir.exists? "output"
 ~~~
 
-* Save each form letter to file based on the id of the attendee
+* Save each form letter to a file based on the id of the attendee
 
 [File#open](http://rubydoc.info/stdlib/core/File#open-class_method) allows us
 to open a file for reading and writing. The first parameter is the name of the
@@ -1497,7 +1497,7 @@ Using the registration date and time we want to find out what the peak registrat
 * [DateTime#strftime](http://rubydoc.info/stdlib/date/DateTime#strftime-instance_method) is a good reference on the
   characters necessary to match the specified date-time format.
 
-* Use [Date#hour](http://rubydoc.info/stdlib/date/Date#hour-instance_method) to find out the hour of the day.
+* Use [DateTime#hour](https://rubydoc.info/stdlib/date/DateTime#hour-instance_method) to find out the hour of the day.
 
 ## Iteration: Day of the Week Targeting
 

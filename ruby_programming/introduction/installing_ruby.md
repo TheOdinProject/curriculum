@@ -103,7 +103,7 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ~~~bash
-rbenv install 2.6.5 --verbose
+rbenv install 2.7.0 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
@@ -111,7 +111,7 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 When the last command is finished, set the Ruby version and verify that it's working:
 
 ~~~bash
-rbenv global 2.6.5
+rbenv global 2.7.0
 ~~~
 
 Then,
@@ -123,11 +123,14 @@ ruby -v
 The above command should return something similar to this:
 
 ~~~bash
-ruby 2.6.5pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 2.7.0pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
+
+
+
 
 </details>
 
@@ -234,10 +237,10 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 #### Step 3.3: Install Ruby
 
-We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.6.5:
+We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.7.0:
 
 ~~~bash
-rbenv install 2.6.5 --verbose
+rbenv install 2.7.0 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
@@ -245,27 +248,27 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
-rbenv global 2.6.5
+rbenv global 2.7.0
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 2.6.5:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.7.0:
 
 ~~~bash
 $ ruby -v
-ruby 2.6.5pxx (20xx-xx-xx revision xxxxx)
+ruby 2.7.0pxx (20xx-xx-xx revision xxxxx)
 ~~~
 
 If you don't see the output above, log off and log back on, then try again.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
-#### Extras
-
-If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support (RuboCop). This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl+Shift+X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
-
-If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby). 
-
 
 
 
 </details>
+
+#### Extras
+
+If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support (RuboCop). This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl+Shift+X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+
+If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).

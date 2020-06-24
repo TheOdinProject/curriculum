@@ -19,8 +19,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Andres Ruiz's Vue Library](https://github.com/Andrsrz/library-vuejs) - [View in Browser](https://andrsrz.github.io/library-vuejs/)
+* [Odunsi's(dhatguy) React Library](https://github.com/dhatGuy/library/tree/react-library) - [View in Browser](https://rebrand.ly/e5509)
+* [hieu-ng's Vue Todo List](https://github.com/hieu-ng/vue-simple-todolist) - [View in Browser](https://hieu-ng.github.io/vue-simple-todolist/)
+* [Luky's React Library](https://github.com/lcyne/book-list/) - [View in browser](https://lcyne.github.io/book-list/)
+* [Ylli's React Library](https://github.com/yllabazi/myLibrary-ReactJS) - [View in Browser](https://yllabazi.github.io/myLibrary-ReactJS/)
+* [Andrey's React To-Do list solution](https://andreyskopintsev.github.io/react-todo)
 * [Jdonahue135's React Library solution](https://github.com/jdonahue135/react-library)
-* [mjwills-inf's Vue Library solution](https://github.com/mjwills-inf/library-vue) - [View in Browser](https://mjwills-inf.github.io/library-vue/#/)
+* [mjwills-inf's Vue Library solution](https://github.com/mjwills-inf/-TOP-library-vue) - [View in Browser](https://mjwills-inf.github.io/-TOP-library-vue/#/)
 * [Lenny's React solution](https://github.com/Lenn-e/react-practice) - [View in Browser](https://lenn-e.github.io/react-practice/)
 * [Disco Trooper's Vue solution](https://github.com/disco-trooper/library-vue) - [View in Browser](https://disco-trooper.github.io/library-vue/)
 * [Edd Sansome's React solution](https://github.com/casualc0der/burger-bar-react) - [View in Browser](https://casualc0der.github.io/burger-bar-react/)
@@ -70,4 +76,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [ranmaru22's Angular Library Solution](https://github.com/ranmaru22/ng-library) - [View in Browser](https://ranmaru22.github.io/ng-library/)
 * [thecodediver's Solution](https://github.com/thecodediver/library_react) - [View in Browser](https://thecodediver.github.io/library_react/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/library-react)
+* [Joe Thompson's Library Solution](https://github.com/jlthompso/library_react) - [View in Browser](https://jlthompso.github.io/library_react/)
+* [Ricardo's React Library Solution](https://github.com/ricardo-gonzalez-villegas/library-react-app/tree/master) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/library-react-app/)
+* [Ricardo's React Restaurant Solution](https://github.com/ricardo-gonzalez-villegas/restaurant-react-app/tree/master) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/restaurant-react-app/)
+* [Tim Kelly's React Library Solution](https://github.com/timkellytk/project-react-library) - [View in Browser](https://timkellytk.github.io/project-react-library/)
+* [FortyPercentTitanium's Todo List Solution](https://github.com/fortypercenttitanium/todoreact) - [View in Browser](https://fortypercenttitanium.github.io/todoreact/)
+
 </details>

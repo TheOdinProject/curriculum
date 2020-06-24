@@ -35,11 +35,28 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+<<<<<<< HEAD
 * [lexolf's Solution](https://github.com/lexolf/todo-list) - [View in Browser](https://lexolf.github.io/todo-list/dist/)
+=======
+* [Walmart-cashier's Solution](https://github.com/Walmart-cashier/DulcetTodo) - [View in Browser](https://walmart-cashier.github.io/DulcetTodo/)
+* [LenaChestnut's Solution](https://github.com/LenaChestnut/to-do) - [View in Browser](https://lenachestnut.github.io/to-do/dist/index.html)
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/todo-list) - [View in Browser](https://andrsrz.github.io/todo-list/)
+* [HeliumAce's Solution](https://github.com/HeliumAce/todo-list) - [View in Browser](https://heliumace.github.io/todo-list/)
+* [Lucio's Solution](https://github.com/JCarlosLucio/todo-list) - [View in Browser](https://jcarloslucio.github.io/todo-list/)
+* [Austin's Solution](https://github.com/cudworth/todo-list) - [View in Browser](https://cudworth.github.io/todo-list/dist/)
+* [hieu-ng's Solution](https://github.com/hieu-ng/todo-list) - [View in Browser](https://hieu-ng.github.io/todo-list/)
+* [Diane998's Solution](https://github.com/Diane998/todo-list) - [View in Browser](https://diane998.github.io/todo-list/)
+* [Sher's solution](https://github.com/sher-s7/todo-list) - [View in Browser](https://sher-s7.github.io/todo-list/)
+* [dhatGuy's and nearmint's Solution](https://github.com/nearmint/todolist) - [View in Browser](https://nearmint.github.io/todolist/)
+* [Muhammad Ahmad's Solution](https://github.com/thisisMAhmad/todolist) - [View in Browser](https://thisismahmad.github.io/todolist/)
+* [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/todo-list) - [View in Browser](https://carldoleolundgren.github.io/todo-list/)
+* [hu-ng's Solution](https://github.com/hu-ng/todo-list-js) - [View in Browser](https://hu-ng.github.io/todo-list-js/)
+>>>>>>> upstream/master
 * [jc's Solution](https://github.com/avazkhan2808/project-todo) - [View in Browser](https://avazkhan2808.github.io/project-todo/)
+* [AJMcDee's Solution](https://github.com/ajmcdee/ToDoApp) - [View in Browser](https://ajmcdee.github.io/ToDoApp)
 * [simonevaglietti's Solution](https://github.com/simonevaglietti/Todo-App) - [View in Browser](https://simonevaglietti.github.io/Todo-App/dist/)
 * [Justinkar's Solution](https://github.com/justinkar/todo-list) - [View in Browser](https://justinkar.github.io/todo-list/)
-* [mjwills-inf's Solution](https://github.com/mjwills-inf/todo) - [View in Browser](https://mjwills-inf.github.io/todo/)
+* [mjwills-inf's Solution](https://github.com/mjwills-inf/-TOP-todo) - [View in Browser](https://mjwills-inf.github.io/-TOP-todo/)
 * [Edd Sansome's Solution](https://github.com/casualc0der/to-do-two) - [View in Browser](https://casualc0der.github.io/to-do-two/)
 * [Lenny's Solution](https://github.com/Lenn-e/todo-list) - [View in Browser](https://lenn-e.github.io/todo-list/)
 * [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/to-do-list) - [View in Browser](https://kikupiku.github.io/to-do-list/)
@@ -117,5 +134,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/to-do) - [View in Browser](https://ranmaru22.github.io/the_odin_project/to-do/dist/)
 * [Tim Kelly's Solution (Webpack, Moment.js and SortableJS)](https://github.com/timkellytk/project-to-do-list) - [View in Browser](https://timkellytk.github.io/project-to-do-list/)
 * [thecodediver's Solution](https://github.com/thecodediver/tasks_app) - [View in Browser](https://thecodediver.github.io/tasks_app/)
+* [Joe Thompson's Solution](https://github.com/jlthompso/todo) - [View in Browser](https://jlthompso.github.io/todo/)
 * [m-rejdych's Solution](https://github.com/m-rejdych/Todo-List) - [View in Browser](https://m-rejdych.github.io/Todo-List/)
+* [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/todolist) - [View in Browser](https://fortypercenttitanium.github.io/todolist/)
+* [adilahmad321's Solution](https://github.com/adilahmad321/ToDo-List) - [View in Browser](https://adilahmad321.github.io/ToDo-List/)
+* [MatyD's Solution](https://github.com/MatyD356/vanillaToDo/tree/master) - [View in Browser](https://matyd356.github.io/vanillaToDo/)
 </details>
