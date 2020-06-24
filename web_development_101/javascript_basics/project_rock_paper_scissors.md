@@ -1730,4 +1730,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Raman's Solution](https://github.com/rheera/RockPaperScissors)
 - [Jacobus's Solution](https://github.com/Jacobus-afk/ropasci)
 - [Marissa Bellusci's Solution](https://github.com/marissabellusci/rock-paper-scissors-simulator) - [View in Browser](https://marissabellusci.github.io/rock-paper-scissors-simulator/)
+- [Angelo's Solution](https://github.com/angelokora/rock-paper-scissors.git)
 </details>
