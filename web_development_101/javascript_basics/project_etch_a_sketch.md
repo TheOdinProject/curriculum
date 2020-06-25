@@ -45,7 +45,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
 * [OptiPrime64's Solution](https://github.com/OptiPrime64/etch-a-sketch) - [View in Browser](https://optiprime64.github.io/etch-a-sketch/)
 * [zieeco's Solution](https://github.com/zieeco/Etch-a-sketch) - [View in Browser](https://zieeco.github.io/Etch-a-sketch/)
 * [miknick's Solution](https://github.com/miknick/Etch-a-Sketch)
