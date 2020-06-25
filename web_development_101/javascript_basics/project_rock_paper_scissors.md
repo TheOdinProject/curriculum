@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [jtdevuk's Solution](https://github.com/jtdevuk/rock-paper-scissors)
+- [Baseline Alpha's Solution](https://github.com/baselinealpha/rock-paper-scissors-2) - [View in Browser](https://baselinealpha.github.io/rock-paper-scissors-2/)
 - [GREENBERG's Solution](https://github.com/GreenbergKU/rock-paper-scissors-odin) - [View in Browser](https://GreenbergKU.github.io/rock-paper-scissors-odin/)
 - [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-rock-paper-scissor)
 - [Cihat's Solution](https://github.com/cihatdev/RockPaperScissors) - [View in Browser](https://cihatdev.github.io/RockPaperScissors/)
@@ -1728,11 +1730,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [juggler39's Solution](https://github.com/juggler39/rock-paper-scissors) - [View in Browser](https://juggler39.github.io/rock-paper-scissors/)
 - [naivestarter's Solution](https://github.com/naivestarter/rock-paper-scissor) - [View in Browser](https://naivestarter.github.io/rock-paper-scissor/)
 - [sacchan9's Solution](https://github.com/sacchan9/rock-paper-scissors)
-- [onagova's Solution](https://github.com/onagova/rock-paper-scissors)
+- [onagova's Solution](https://github.com/onagova/rock-paper-scissors) - [View in Browser](https://onagova.github.io/rock-paper-scissors/)
 - [Raman's Solution](https://github.com/rheera/RockPaperScissors)
 - [Jacobus's Solution](https://github.com/Jacobus-afk/ropasci)
 - [Marissa Bellusci's Solution](https://github.com/marissabellusci/rock-paper-scissors-simulator) - [View in Browser](https://marissabellusci.github.io/rock-paper-scissors-simulator/)
 - [Angelo's Solution](https://github.com/angelokora/rock-paper-scissors)
 - [nmukespence's Solution](https://github.com/nmukespence/rockPaperScissors)
+- [skwiryt's Solution](https://github.com/skwiryt/rock-paper-scissors)
 - [Nijepa's Solution](https://github.com/nijepa/rock-paper-scissors) - [View in Browser](https://nijepa.github.io/rock-paper-scissors/)
 </details>
