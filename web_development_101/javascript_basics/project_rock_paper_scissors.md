@@ -41,6 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [GREENBERG's Solution](https://github.com/GreenbergKU/rock-paper-scissors-odin) - [View in Browser](https://GreenbergKU.github.io/rock-paper-scissors-odin/)
+- [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-rock-paper-scissor)
+- [Cihat's Solution](https://github.com/cihatdev/RockPaperScissors) - [View in Browser](https://cihatdev.github.io/RockPaperScissors/)
+- [Adam's Solution](https://github.com/ajhanson22227/New-Rock-Paper-Scissors) - [View in Browser](https://ajhanson22227.github.io/New-Rock-Paper-Scissors/)
+- [Nita's Solution](https://github.com/nitavulaj/rock_paper_scissors)
+- [Kimotho's Solution](https://github.com/kimothokamau/rock-paper-scissors-game) - [View in Browser](https://kimothokamau.github.io/rock-paper-scissors-game/)
 - [Harry's Solution](https://github.com/harryneale/rock-paper-scissors) - [View in Browser](https://harryneale.github.io/rock-paper-scissors/)
 - [gogvale's Solution](https://github.com/gogvale/rock-paper-scissors) - [View in Browser](https://gogvale.github.io/rock-paper-scissors)
 - [Chala17's Solution](https://github.com/chala17/rock_paper_scissors) - [View in Browser](https://chala17.github.io/rock_paper_scissors/)
@@ -1723,4 +1729,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [naivestarter's Solution](https://github.com/naivestarter/rock-paper-scissor) - [View in Browser](https://naivestarter.github.io/rock-paper-scissor/)
 - [sacchan9's Solution](https://github.com/sacchan9/rock-paper-scissors)
 - [onagova's Solution](https://github.com/onagova/rock-paper-scissors) - [View in Browser](https://onagova.github.io/rock-paper-scissors/)
+- [Raman's Solution](https://github.com/rheera/RockPaperScissors)
+- [Jacobus's Solution](https://github.com/Jacobus-afk/ropasci)
+- [Marissa Bellusci's Solution](https://github.com/marissabellusci/rock-paper-scissors-simulator) - [View in Browser](https://marissabellusci.github.io/rock-paper-scissors-simulator/)
+- [Angelo's Solution](https://github.com/angelokora/rock-paper-scissors)
+- [nmukespence's Solution](https://github.com/nmukespence/rockPaperScissors)
+- [Nijepa's Solution](https://github.com/nijepa/rock-paper-scissors) - [View in Browser](https://nijepa.github.io/rock-paper-scissors/)
 </details>

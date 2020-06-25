@@ -45,10 +45,17 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-* [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/etch_a_sketch) - [View In Browser](https://cyber-mat.github.io/etch_a_sketch/)
+* [Kunal's Solution](https://github.com/vkunal1996/sketch-pad.js) - [View in Browser](https://vkunal1996.github.io/sketch-pad.js/)
+* [OptiPrime64's Solution](https://github.com/OptiPrime64/etch-a-sketch) - [View in Browser](https://optiprime64.github.io/etch-a-sketch/)
+* [zieeco's Solution](https://github.com/zieeco/Etch-a-sketch) - [View in Browser](https://zieeco.github.io/Etch-a-sketch/)
+* [miknick's Solution](https://github.com/miknick/Etch-a-Sketch)
+* [Marcos Hernadez's Solution](https://github.com/Marcos6838/etch-a-sketch) - [View in Browser](https://marcos6838.github.io/etch-a-sketch/)
+* [Musabii's Solution](https://github.com/Musabii/etch-a-sketch) - [View in Browser](https://musabii.github.io/etch-a-sketch/)
+* [Shikhar's Solution](https://github.com/shikhar-sharma1703/Web-dev/tree/master/etch-a-sketch) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/etch-a-sketch/)
+* [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/etch_a_sketch) - [View in Browser](https://cyber-mat.github.io/etch_a_sketch/)
 * [Mugilan's Solution](https://github.com/Mugilan-Codes/etch-a-sketch) - [View in Browser](https://mugilan-codes.github.io/etch-a-sketch/)
-* [vonhoro's Solution](https://github.com/vonhoro/sketch) - [View In Browser](https://vonhoro.github.io/sketch/)
-* [EmilioAK's Solution](https://github.com/EmilioAK/Etch-a-Sketch) - [View In Browser](https://emilioak.github.io/Etch-a-Sketch/)
+* [vonhoro's Solution](https://github.com/vonhoro/sketch) - [View in Browser](https://vonhoro.github.io/sketch/)
+* [EmilioAK's Solution](https://github.com/EmilioAK/Etch-a-Sketch) - [View in Browser](https://emilioak.github.io/Etch-a-Sketch/)
 * [Norman Mikhail's Solution](https://github.com/normanmkhl/Etch-A-Sketch) - [View in Browser](https://normanmkhl.github.io/Etch-A-Sketch)
 * [Estela's Solution](https://estelajimero.github.io/Etch-a-Sketch/) - [View in Browser](https://estelajimero.github.io/Etch-a-Sketch/)
 * [rchlkr's Solution](https://github.com/rchlkr/etch-a-sketch) - [View in Browser](https://rchlkr.github.io/etch-a-sketch/)
@@ -1093,11 +1100,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jie's Solution](https://github.com/Sugarcane-svg/ETCH-A-SKETCH) - [View in Browser](https://sugarcane-svg.github.io/ETCH-A-SKETCH/)
 * [hazigabriel's Solution](https://github.com/hazigabriel/etch-a-sketch-updated) - [View in Browser](https://hazigabriel.github.io/etch-a-sketch-updated/)
 * [Superboy20's Solution](https://github.com/Superboy20/etch-a-sketch) - [View in Browser](https://superboy20.github.io/etch-a-sketch/)
+* [seabiscuit's Solution](https://github.com/Seabiscuit1698/Etch-a-Sketch)
 * [ruben-ruiz's Solution](https://ruben-ruiz.github.io/etch-a-sketch/) - [View in Browser](https://ruben-ruiz.github.io/etch-a-sketch/)
 * [kluceycose's Solution](https://github.com/kluceycose/etch-a-sketch) - [View in Browser](https://kluceycose.github.io/etch-a-sketch)
 * [JaronArmiger's Solution](https://github.com/JaronArmiger/etch2) - [View in Browser](https://jaronarmiger.github.io/etch2)
 * [dzalee16's Solution](https://github.com/dzalee16/Etch_a_Sketch) - [View in Browser](https://dzalee16.github.io/Etch_a_Sketch/)
 * [Neha Hirve's Solution](https://github.com/nehahirve/sketchpad) - [View in Browser](https://nehahirve.github.io/sketchpad/)
 * [IvanyukT's Solution](https://github.com/tiris08/Etch-A-Sketch-by-taras08) - [View in Browser]( https://tiris08.github.io/Etch-A-Sketch-by-taras08/)
+* [Nijepa's Solution](https://github.com/nijepa/etch-a-sketch) - [View in Browser](https://nijepa.github.io/etch-a-sketch)
 </details>
 
