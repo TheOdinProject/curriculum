@@ -117,7 +117,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Aulbourn's Solution](https://github.com/aulbytj/RailsReFormer/tree/feature/build)[Heroku](https://fierce-atoll-94165.herokuapp.com)
+* [Aulbourn's Solution](https://github.com/aulbytj/RailsReFormer/tree/feature/build) - [View in Browser](https://fierce-atoll-94165.herokuapp.com)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/re-former)
 * [jodokusquack's solution](https://github.com/jodokusquack/re-former)
 * [Nestor's solution](https://github.com/nestor-c/Odin_Re-former)
