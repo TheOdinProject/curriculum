@@ -1085,4 +1085,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Jie's Solution](https://github.com/Sugarcane-svg/ETCH-A-SKETCH) - [View in Browser](https://sugarcane-svg.github.io/ETCH-A-SKETCH/)
 * [hazigabriel's Solution](https://github.com/hazigabriel/etch-a-sketch-updated) - [View in Browser](https://hazigabriel.github.io/etch-a-sketch-updated/)
 * [Superboy20's Solution](https://github.com/Superboy20/etch-a-sketch) - [View in Browser](https://superboy20.github.io/etch-a-sketch/)
+* [seabiscuit's Solution](https://github.com/Seabiscuit1698/Etch-a-Sketch)
 </details>
