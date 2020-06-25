@@ -1728,7 +1728,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [juggler39's Solution](https://github.com/juggler39/rock-paper-scissors) - [View in Browser](https://juggler39.github.io/rock-paper-scissors/)
 - [naivestarter's Solution](https://github.com/naivestarter/rock-paper-scissor) - [View in Browser](https://naivestarter.github.io/rock-paper-scissor/)
 - [sacchan9's Solution](https://github.com/sacchan9/rock-paper-scissors)
-- [onagova's Solution](https://github.com/onagova/rock-paper-scissors)
+- [onagova's Solution](https://github.com/onagova/rock-paper-scissors) - [View in Browser](https://onagova.github.io/rock-paper-scissors/)
 - [Raman's Solution](https://github.com/rheera/RockPaperScissors)
 - [Jacobus's Solution](https://github.com/Jacobus-afk/ropasci)
 - [Marissa Bellusci's Solution](https://github.com/marissabellusci/rock-paper-scissors-simulator) - [View in Browser](https://marissabellusci.github.io/rock-paper-scissors-simulator/)
