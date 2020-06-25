@@ -3896,6 +3896,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Bills Solution (Easy)](https://github.com/billyboy118/google-homepage/) - [View in Browser](https://billyboy118.github.io/google-homepage/)
 * [Denzel's Solution (Easy)](https://github.com/denzUp/google-homepage) - [View in Browser](https://denzup.github.io/google-homepage/)
 * [Denzel's Solution (Difficult)](https://github.com/denzUp/google-search-results) - [View in Browser](https://denzup.github.io/google-search-results/)
+* [SquintA5's Solution (Easy)](https://github.com/SquintA5/google-homepage) - [View in Browser](https://squinta5.github.io/google-homepage/)
+* [sielock's Solution (Easy)](https://github.com/sielock/google-homepage) - [View in Browser](https://sielock.github.io/google-homepage)
 </details>
 
 ### Additional Resources
