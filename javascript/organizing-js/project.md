@@ -136,5 +136,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/todolist) - [View in Browser](https://fortypercenttitanium.github.io/todolist/)
 * [adilahmad321's Solution](https://github.com/adilahmad321/ToDo-List) - [View in Browser](https://adilahmad321.github.io/ToDo-List/)
 * [MatyD's Solution](https://github.com/MatyD356/vanillaToDo/tree/master) - [View in Browser](https://matyd356.github.io/vanillaToDo/)
-rhathcock's solution - https://github.com/r-hathcock/todo_list (please add)
+* [rhathcock's Solution](https://github.com/r-hathcock/todo_list)
 </details>
