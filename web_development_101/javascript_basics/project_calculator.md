@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Mugilan's Solution](https://github.com/Mugilan-Codes/calculator) - [View in Browser](https://mugilan-codes.github.io/calculator/)
 - [THREEhundo's Solution] (https://github.com/THREEhundo/calculator) - [View in Browser](https://threehundo.github.io/calculator/)
 - [Rizwan's Solution](https://github.com/xRizwan/calculator) - [View in Browser](https://xrizwan.github.io/calculator/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/calculator) - [View in Browser](https://cyber-mat.github.io/calculator/)
