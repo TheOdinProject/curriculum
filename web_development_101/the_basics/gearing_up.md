@@ -61,7 +61,7 @@ You can practice this method of learning by helping others in our community.
 
 * To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
-* The Ruby Rogues have a [podcast on How to Learn](http://rubyrogues.com/ruby-rogues/131-rr-how-to-learn/), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
+* The Ruby Rogues have a [podcast on How to Learn](https://devchat.tv/ruby-rogues/131-rr-how-to-learn/), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
 ### What To Do When You're Stuck
 
@@ -134,6 +134,6 @@ Without further ado, let's jump in to learning web development!
 
 ### Additional Resources
 * [Managing inspiration and motivation](https://markmanson.net/do-something)
-* [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
+* [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
-* [Improve your typing skills with Klavarog](http://klava.org) Use this keyboard trainer if you find your typing speed is holding you back. We recommend to spend 5 mins everyday after you start your PC.
+* [Improve your typing skills with Keybr.com](https://www.keybr.com/) Use this keyboard trainer if you find your typing speed is holding you back. We recommend to spend 5 mins everyday after you start your PC.

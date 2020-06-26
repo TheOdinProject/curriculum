@@ -4,15 +4,28 @@ Object constructors are one of about a million ways to start organizing your cod
 
 _However..._
 
-There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [This](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) article does a pretty decent job of outlining the issues. (spoiler alert: the author ends up recommending Factory Functions)
+There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [This](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) article does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
 
 One of the biggest issues with constructors is that while they _look_ just like regular functions, they do not behave like regular functions at all. If you try to use a constructor function without the `new` keyword, your program will not work as expected, but it won't produce error messages that are easy to trace.
 
-The main takeaway is that while constructors aren't necessarily _evil_, they aren't the only way and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
+The main takeaway is that while constructors aren't necessarily _evil_, they aren't the only way, and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
-### Factory Function introduction
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
 
-The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example.
+- Describe common bugs you might run into using constructors.
+- Write a factory method that returns an object.
+- Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!).
+- Explain what Closure is and how it impacts private functions & variables.
+- Describe how private functions & variables are useful.
+- Use inheritance in objects using the factory pattern.
+- Explain the module pattern.
+- Describe IIFE. What does it stand for?
+- Briefly explain namespacing and how it's useful.
+
+### Factory function introduction
+
+The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
 
 ~~~javascript
 const personFactory = (name, age) => {
@@ -27,7 +40,7 @@ console.log(jeff.name); // 'jeff'
 jeff.sayHello(); // calls the function and logs 'hello!'
 ~~~
 
-for reference, here is the same thing created using the Constructor pattern:
+For reference, here is the same thing created using the constructor pattern:
 
 ~~~javascript
 const Person = function(name, age) {
@@ -41,13 +54,13 @@ const jeff = new Person('jeff', 27);
 
 #### Object Shorthand
 
-A quick note about line 3 from the factory function example. In 2015 a handy new shorthand for creating objects was added into JavaScript. Without the shorthand line 3 would have looked something like this:
+A quick note about line 3 from the factory function example. In 2015, a handy new shorthand for creating objects was added into JavaScript. Without the shorthand, line 3 would have looked something like this:
 
 ~~~javascript
 return {name: name, age: age, sayHello: sayHello}
 ~~~
 
-Put simply, if you are creating an object where you are referring to a variable that has the exact same name as the object property you're creating you can condense it like so:
+Put simply, if you are creating an object where you are referring to a variable that has the exact same name as the object property you're creating, you can condense it like so:
 
 ~~~javascript
 return {name, age, sayHello}
@@ -73,9 +86,9 @@ console.log({name, color, number, food})
 
 ### Scope and Closure
 
-From simply reading the above example you are probably already in pretty good shape to start using factory functions in your code, but before we get there it's time to do a somewhat deep dive into an incredibly important concept: __closure__.
+From simply reading the above example, you are probably already in pretty good shape to start using factory functions in your code. Before we get there though, it's time to do a somewhat deep dive into an incredibly important concept: __closure__.
 
-Before we're able to make sense of closure we need to make sure you have a _really_ good grasp on __scope__ in JavaScript. Scope is the term that refers to where things like variables and functions can be used in your code.  
+However, before we're able to make sense of closure, we need to make sure you have a _really_ good grasp on __scope__ in JavaScript. Scope is the term that refers to where things like variables and functions can be used in your code.  
 
 In the following example, do you know what will be logged on the last line?
 
@@ -103,11 +116,11 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
     > All scopes in JavaScript are created with `Function Scope` *only*, they aren’t created by `for` or `while` loops or expression statements like `if` or `switch`. New functions = new scope - that’s the rule
 
-    that statement _was_ true in 2013 when the article was written, but ES6 has rendered it incorrect. Read [this](http://wesbos.com/javascript-scoping/) article to get the scoop!
+    That statement _was_ true in 2013 when the article was written, but ES6 has rendered it incorrect. Read [this](http://wesbos.com/javascript-scoping/) article to get the scoop!
 
 ### Private Variables and Functions
 
-Now that we've cemented your knowledge of scope in JavaScript take a look at this example:
+Now that we've cemented your knowledge of scope in JavaScript, take a look at this example:
 
 ~~~javascript
 const FactoryFunction = string => {
@@ -147,15 +160,15 @@ counter(); // 2
 counter(); // 3
 ~~~
 
-In this example, `counterCreator` initializes a local variable (`count`) and then returns a function. To use that function we have to assign it to a variable (line 9). Then, every time we run the function it `console.log`s `count` and increments it. As above, the function `counter` is a closure. It has access to the variable `count` and can both print and increment it, but there is no other way for our program to access that variable.
+In this example, `counterCreator` initializes a local variable (`count`) and then returns a function. To use that function, we have to assign it to a variable (line 9). Then, every time we run the function it `console.log`s `count` and increments it. As above, the function `counter` is a closure. It has access to the variable `count` and can both print and increment it, but there is no other way for our program to access that variable.
 
-In the context of Factory Functions, closures allow us to create __private__ variables and functions. Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that the rest of the program is going to use. Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public.
+In the context of factory functions, closures allow us to create __private__ variables and functions. Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that the rest of the program is going to use. Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public.
 
-The concept of private functions is very useful and should be used as often as is possible! For every bit of functionality that you need for your program, there are likely to be several supporting functions that do NOT need to be used in your program as a whole. Tucking these away and making them inaccessible makes your code easier to refactor, easier to test and easier to reason about for you and anyone else that wants to use your objects.
+The concept of private functions is very useful and should be used as often as is possible! For every bit of functionality that you need for your program, there are likely to be several supporting functions that do NOT need to be used in your program as a whole. Tucking these away and making them inaccessible makes your code easier to refactor, easier to test, and easier to reason about for you and anyone else that wants to use your objects.
 
 ### Back to Factory Functions
 
-Now that we've got the theory out of the way, let's return to factory functions. Factories are simply plain old JavaScript functions that return objects for us to use in our code. Using factories is a powerful way to organize and contain the code you're writing. For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!)
+Now that we've got the theory out of the way, let's return to factory functions. Factories are simply plain old JavaScript functions that return objects for us to use in our code. Using factories is a powerful way to organize and contain the code you're writing. For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!).
 
 ~~~javascript
 const Player = (name, level) => {
@@ -189,13 +202,13 @@ const badGuy = Player('jeff', 5);
 jimmie.attack(badGuy);
 ~~~
 
-Take a minute to look through this simplistic example and see if you can figure out what's going on.
+Take a minute to look through this example and see if you can figure out what's going on.
 
-What would happen here if we tried to call `jimmie.die()`? What if we tried to manipulate the health: `jimmie.health -= 1000`? Of course, those are things that we have NOT exposed publicly so we would get an error. This is a very good thing! Setting up objects like this makes it easier for us to use them because we've actually put some thought into how and when we are going to want to use the information. In this case, we have jimmie's health hiding as a private variable inside of the object which means we need to export a function if we want to manipulate it. In the long run, this will make our code _much_ easier to reason about because all of the logic is encapsulated in an appropriate place.
+What would happen here if we tried to call `jimmie.die()`? What if we tried to manipulate the health: `jimmie.health -= 1000`? Well, those are things that we have NOT exposed publicly so we would get an error. This is a very good thing! Setting up objects like this makes it easier for us to use them because we've actually put some thought into how and when we are going to want to use the information. In this case, we have jimmie's health hiding as a private variable inside of the object which means we need to export a function if we want to manipulate it. In the long run, this will make our code _much_ easier to reason about because all of the logic is encapsulated in an appropriate place.
 
-#### Inheritance with Factories
+#### Inheritance with factories
 
-In the constructors lesson, we looked fairly deeply into the concept of Prototypes and Inheritance, or giving our objects access to the methods and properties of another Object. There are a few easy ways to accomplish this while using Factories. Check this one out:
+In the constructors lesson, we looked fairly deeply into the concept of prototypes and inheritance, or giving our objects access to the methods and properties of another object. There are a few easy ways to accomplish this while using factories. Check this one out:
 
 ~~~javascript
 const Person = (name) => {
@@ -232,7 +245,7 @@ const Nerd = (name) => {
 
 > Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'. These are essentially a syntax for importing and exporting code between different JavaScript files. They're very powerful and we WILL be covering them later. They are _not_, however, what we're talking about here.
 
-Modules are actually very similar to Factory functions. The main difference is how they're created.
+Modules are actually very similar to factory functions. The main difference is how they're created.
 
 Meet a module:
 
@@ -255,15 +268,16 @@ calculator.sub(6,2) // 4
 calculator.mul(14,5534) // 77476
 ~~~
 
- The concepts are exactly the same as the factory function, however, instead of creating a factory that we can use over and over again to create multiple objects, the Module pattern wraps the factory in an IIFE (Immediately Invoked Function Expression).
+The concepts are exactly the same as the factory function. However, instead of creating a factory that we can use over and over again to create multiple objects, the module pattern wraps the factory in an IIFE (Immediately Invoked Function Expression).
 
-- Read up about IIFE's in [this article](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html). The concept is simple.. write a function, wrap it in parentheses and then immediately call the function by adding `()` to the end of it.
-- An example of creating and using a module pattern: [JavaScript Module Pattern Basics](https://coryrylan.com/blog/javascript-module-pattern-basics)
-- Additional example of creating and using a module pattern: [Module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
+- Read up about IIFE's in [this article](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html). The concept is simple: write a function, wrap it in parentheses, and then immediately call the function by adding `()` to the end of it.
+- An example of creating and using a module pattern: [JavaScript Module Pattern Basics](https://coryrylan.com/blog/javascript-module-pattern-basics).
+- Additional example of creating and using a module pattern: [Module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm).
+- For those who prefer video lessons, here is an excellent YouTube series on modular JS that covers most of the content in this guide: [Modular Javascript](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f).
 
-In our calculator example, the function inside the IIFE is a simple factory function like we defined before, but we can just go ahead and assign the object to the variable `calculator` since we aren't going to need to be making lots of calculators, we only need one. Just like the Factory example, we can have as many private functions and variables as we want, and they stay neatly organized, tucked away inside of our module, only exposing the functions we actually want to use in our program.
+In our calculator example above, the function inside the IIFE is a simple factory function, but we can just go ahead and assign the object to the variable `calculator` since we aren't going to need to be making lots of calculators, we only need one. Just like the factory example, we can have as many private functions and variables as we want, and they stay neatly organized, tucked away inside of our module, only exposing the functions we actually want to use in our program.
 
-A useful side-effect of encapsulating the inner-workings of our programs into objects is __namespacing__. Namespacing is a technique that is used to avoid naming collisions in our programs. For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display or a function that added numbers and operators to our stack as the users input them. It is conceivable that we would want to call all 3 of these functions `add` which, of course, would cause trouble in our program. If all of them were nicely encapsulated inside of an object then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
+A useful side-effect of encapsulating the inner workings of our programs into objects is __namespacing__. Namespacing is a technique that is used to avoid naming collisions in our programs. For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, and a function that added numbers and operators to our stack as the users input them? It is conceivable that we would want to call all three of these functions `add` which, of course, would cause trouble in our program. If all of them were nicely encapsulated inside of an object, then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

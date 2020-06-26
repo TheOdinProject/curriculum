@@ -1,6 +1,6 @@
 ### Introduction
 
-Forms are one of the most important parts of your site. They are your user's gateway into your back end -- the user provides data in a form and you do stuff with it.  Hopefully you've been through the [Rails Course](/ruby-on-rails) and this is all review, but if not make sure to pay attention!
+Forms are one of the most important parts of your site. They are your user's gateway into your back end -- the user provides data in a form and you do stuff with it.  Hopefully you've been through the [Rails Course](/courses/ruby-on-rails) and this is all review, but if not make sure to pay attention!
 
 Forms are important to get right not just because you want the correct data getting sent to your back end but also because you want the experience of interacting with the form to be as dead-stupid-simple as humanly possible so you don't lose users while they are doing it.  You need to specify the proper types of inputs for each possible data item, since there are often multiple ways to collect a piece of data but only one way which is easiest for your user and eliminates the chances of that user inputting erroneous data.
 
