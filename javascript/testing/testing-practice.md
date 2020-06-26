@@ -35,7 +35,7 @@ Write tests for the following functions, and then make the tests pass!
 
 ### Special Note on using ES6 import statements with Jest
 
-The current version of Jest as it is does not recognize the import statement. In order for you to be able to use ES6 modules for this project you may do the following:
+By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may do the following:
 
 1. Install the @babel/preset-env package
 
@@ -61,6 +61,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [blackstate's solution](https://github.com/blackstate/testing-practice-jest/)
+- [Luky's solution](https://github.com/lcyne/testing-practice-jest)
 - [Cody Degen's solution](https://github.com/codydegen/testing_practice)
 - [Jdonahue135's solution](https://github.com/jdonahue135/jest-testing-practice)
 - [mjwills-inf's solution](https://github.com/mjwills-inf/-TOP-testing-practise)
