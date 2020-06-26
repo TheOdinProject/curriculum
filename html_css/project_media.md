@@ -198,6 +198,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Timework's solution](https://github.com/Timework/youtube-clone/tree/master) - [View in Browser](https://timework.github.io/youtube-clone/)
 * [bhenning83's solution](https://github.com/bhenning83/youtube-homepage) - [View in Browser](https://bhenning83.github.io/youtube-homepage/)
 * [Joe Thompson's Solution](https://github.com/jlthompso/embedded-media) - [View in Browser](https://jlthompso.github.io/embedded-media/)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/Youtube-video-page) - [View in Browser](https://ansellmaximilian.github.io/Youtube-video-page/)
 </details>
 
 ### Additional Resources
