@@ -15,7 +15,7 @@ def show
 end
 ```
 
-The show method needs a corresponding view. Inside the app/views/rooms directory create a file called `show.html.erb`. For now let's add the name of the room and leave a blank div element to add the messages to once we have created the model for them later.
+The show method needs a corresponding view. Inside the app/views/rooms directory create a file called `show.html.erb`. The show view
 
 ```html
 <section class="section">

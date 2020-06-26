@@ -37,6 +37,8 @@ This looks like what we are trying to do except we want our link to be an icon. 
 <% end %>
 ```
 
+Again, you need to add this same code to the show.html.erb file to ensure they both look the same.
+
 If you refresh the page you should now see a delete icon next to the edit action for each room you have created. Try clicking on it and you'll get an error with a nice description identifying the problem "The action 'destroy' could not be found for RoomsController" and if you again refer back to the (Rails Guide)[https://guides.rubyonrails.org/routing.html#crud-verbs-and-actions] section on CRUD, verbs and actions we can see that a delete request routes to the destroy method in our controller.
 
 Open up the Rooms controller and let's write the last method

@@ -286,7 +286,7 @@ Inside in new.html.erb file we just created let's create a form for the user to 
       </div>
       <div class="field">
         <div class="control">
-          <%= form.submit 'Create', class: 'button is-link' %>
+          <%= form.submit class: 'button is-link' %>
         </div>
       </div>
     <% end %>

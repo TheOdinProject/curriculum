@@ -49,6 +49,8 @@ Open up our rooms index page in a text editor and after the link we created for 
 </div>
 ```
 
+You will also need to add this code in the show.html.erb view in the same place.
+
 The span class of "icon" is unsurprisingly another Bulma style.
 
 Be careful when writing link_to. It might be tempting to wrap the argument to link_to in parentheses such as `link_to(edit_room_path(room)) do` which would work but if you are adding any additional arguments to the list such as a class you need to ensure you wrap it inside in the closing parenthesis otherwise it isn't included as part of the argument list and you'll likely end up with a syntax error.
@@ -127,7 +129,7 @@ Inside our form we want an input field for the name variable. Because we name ou
 <%= form_with model @room do, local: true |form|
   <%= form.label :name, class: 'label' %>
   <%= form.text_field :name, class: 'input'  %>
-  <%= form.submit 'Edit', class: 'button is-link' %>
+  <%= form.submit class: 'button is-link' %>
 <% end %>
 ```
 
@@ -150,6 +152,8 @@ The final view including our Bulma stylings should look as follows:
   </div>
 </section>
 ```
+
+#TODO add error fields
 
 If you try to submit the form now you'll get another error.
 
@@ -196,6 +200,4 @@ def update
 
 Now once a room has updated we can redirect back to the room page to see it.
 
-Try and update a room and see what happens. Now try updating a room but remove
-
-#TODO refactor new and edit views to use a partial
+Try and update a room and see what happens.
