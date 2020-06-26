@@ -3905,7 +3905,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [jrdwilson's Solution (Easy)](https://github.com/jrdwilson/google-homepage) - [View in Browser](https://jrdwilson.github.io/google-homepage/)
 * [Alexa's Solution (Easy)](https://github.com/alexasarkuni/google-homepage) - [View in Browser](https://alexasarkuni.github.io/google-homepage/)
 * [wise-king-sullyman's Solution (Easy)](https://github.com/wise-king-sullyman/google-homepage) - [View in Browser](https://wise-king-sullyman.github.io/google-homepage/)
-* [Bence's Solution (Easy)] (https://github.com/Kok0124/google-homepage) - [View in Browser](https://kok0124.github.io/google-homepage/)
+* [Bence's Solution (Easy)](https://github.com/Kok0124/google-homepage) - [View in Browser](https://kok0124.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
