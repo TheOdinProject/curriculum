@@ -117,6 +117,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/re-former)
 * [Nasser Abachi's Solution](https://github.com/abachi/re-former)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby_On_Rails/ReFormer)
 * [Ian's Solution](https://github.com/IanMKesler/re-former)
