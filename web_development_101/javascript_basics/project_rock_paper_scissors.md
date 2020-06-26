@@ -39,8 +39,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-
+    
 - Add your solution below this line!
+- [Spike's Solution](https://github.com/superspike7/rock-paper-scissors) - [View in Browser](https://superspike7.github.io/rock-paper-scissors/)
 - [jtdevuk's Solution](https://github.com/jtdevuk/rock-paper-scissors)
 - [Baseline Alpha's Solution](https://github.com/baselinealpha/rock-paper-scissors-2) - [View in Browser](https://baselinealpha.github.io/rock-paper-scissors-2/)
 - [GREENBERG's Solution](https://github.com/GreenbergKU/rock-paper-scissors-odin) - [View in Browser](https://GreenbergKU.github.io/rock-paper-scissors-odin/)
