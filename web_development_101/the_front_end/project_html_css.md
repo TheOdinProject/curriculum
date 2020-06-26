@@ -95,6 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [jaydu1995's Solution (Hard)](https://github.com/jaydu1995/google-hard) - [View in Browser](https://jaydu1995.github.io/google-hard/)
+* [jaydu1995's Solution (Easy)](https://github.com/jaydu1995/google-easy) - [View in Browser](https://jaydu1995.github.io/google-easy/)
 * [VictoriaVictorious's Solution (Easy)](https://github.com/VictoriaVictorious/google-homepage) - [View in Browser](https://victoriavictorious.github.io/google-homepage/)
 * [WillOTB's Solution (Easy)](https://github.com/WCampbell94/google-homepage) - [View in Browser](https://wcampbell94.github.io/google-homepage/)
 * [Mehcoder42's Solution (Easy)](https://github.com/mehcoder42/google_homepage) - [View in Browser](https://mehcoder42.github.io/google_homepage/)
