@@ -40,6 +40,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
+- [Spike's Solution](https://github.com/superspike7/rock-paper-scissors) - [View in Browser](https://superspike7.github.io/rock-paper-scissors/)
 - Add your solution below this line!
 - [mostpeopleareotherpeople's Solution](https://github.com/mostpeopleareotherpeople/rockpaperscissors) 
 - [invaderace's Solution](https://github.com/invaderace/rock-paper-scissors) - [View in Browser](https://invaderace.github.io/rock-paper-scissors/)
