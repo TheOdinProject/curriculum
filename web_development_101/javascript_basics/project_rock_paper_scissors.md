@@ -95,7 +95,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [zieeco's Solution](https://github.com/zieeco/rock-paper-scissors) - [View in Browser](https://zieeco.github.io/rock-paper-scissors/)
 - [Lipi Chatterjee's Solution](https://github.com/Lipi70/rock-paper-sci) - [View in Browser](https://lipi70.github.io/rock-paper-sci/)
 - [xandora's Solution](https://github.com/xandora/rock-paper-scissors) - [View in Browser](https://xandora.github.io/rock-paper-scissors/)
-- [Jessie Jalca's Solution](https://github.com/jessiejalca/rock-paper-scissors)
+- [Jessie Jalca's Solution](https://github.com/jessiejalca/rock-paper-scissors) - [View in Browser](https://jessiejalca.github.io/rock-paper-scissors/)
 - [jleivers's Solution](https://github.com/jleivers/Odin_Project_RPS) - [View in Browser](https://jleivers.github.io/Odin_Project_RPS/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/rock-paper-scissors) - [View in Browser](https://cyber-mat.github.io/rock-paper-scissors/)
 - [Nenjamin's Solution](https://github.com/NebjaminCode/Odin_RPS) - [View in Browser](https://nebjamincode.github.io/Odin_RPS/)
