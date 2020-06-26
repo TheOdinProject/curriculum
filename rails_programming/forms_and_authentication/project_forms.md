@@ -117,9 +117,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [Christian's Solution](https://github.com/rueeazy/re-former)
-=======
 * [Aulbourn's Solution](https://github.com/aulbytj/RailsReFormer/tree/feature/build) - [View in Browser](https://fierce-atoll-94165.herokuapp.com)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/re-former)
 * [jodokusquack's solution](https://github.com/jodokusquack/re-former)
@@ -135,7 +133,6 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Run After's Solution](https://github.com/run-after/re-former)
 * [Helmi's Solution](https://github.com/helmihidzir/re-former)
 * [David Auza's and Luis Novoa's Solution](https://github.com/davidauza-engineer/Ruby-on-Rails-Re-Former)
->>>>>>> c686c7b9d8132e5383f120c269a945716888fc8b
 * [Nasser Abachi's Solution](https://github.com/abachi/re-former)
 * [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby_On_Rails/ReFormer)
 * [Ian's Solution](https://github.com/IanMKesler/re-former)
