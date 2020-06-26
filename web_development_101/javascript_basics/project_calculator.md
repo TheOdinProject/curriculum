@@ -45,7 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [THREEhundo's Solution] (https://github.com/THREEhundo/calculator) - [View in Browser](https://threehundo.github.io/calculator/)
+- [SasounsTorossians's Solution](https://github.com/SasounTorossian/Calculator) - [View in Browser](https://sasountorossian.github.io/Calculator/)
+- [THREEhundo's Solution](https://github.com/THREEhundo/calculator) - [View in Browser](https://threehundo.github.io/calculator/)
 - [Rizwan's Solution](https://github.com/xRizwan/calculator) - [View in Browser](https://xrizwan.github.io/calculator/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/calculator) - [View in Browser](https://cyber-mat.github.io/calculator/)
 - [LeoWebDev's Solution](https://github.com/leowebdev20/summa-calculator) - [View in Browser](https://leowebdev20.github.io/summa-calculator/)
