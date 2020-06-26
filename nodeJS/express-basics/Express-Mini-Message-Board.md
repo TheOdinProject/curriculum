@@ -121,4 +121,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
  - [ranmaru22's Solution](https://github.com/ranmaru22/mini-message-board) - [View in Browser](https://tranquil-falls-97148.herokuapp.com)
  - [Joe Thompson's Solution](https://github.com/jlthompso/mini_message_board) - [View in Browser](https://fathomless-wildwood-49674.herokuapp.com/)
  - [Vorelli's Solution](https://github.com/Vorelli/mini-message-board) - [View in Browser](https://intense-earth-77741.herokuapp.com/)
+ - [Tulio Vieira's Solution](https://github.com/tulio-vieira/mini-message-board) - [View in Browser](https://mini-message-board-app.herokuapp.com/)
 </details>
