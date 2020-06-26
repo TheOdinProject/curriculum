@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/Hangman) - [View in Repl.it](https://repl.it/@HappyFrog/Hangman)
 * [andrewjh271's Solution](https://github.com/andrewjh271/hangman) - [View in Repl.it](https://repl.it/@andrewjh271/hangman)
 * [JoelBejot's Solution](https://github.com/JoelBejot/Hangman)
 * [Ichenn's Solution](https://github.com/Ichenn92/hangman) - [View in Repl.it](https://hangman.ichenn92.repl.run/)
