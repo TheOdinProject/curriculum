@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jared Solution](https://github.com/jaredaritter/restaurant-homepage) - [View in Browser](https://jaredaritter.github.io/restaurant-homepage/)
 - [Salvador Villalon Solution](https://github.com/salvillalon45/theOdinProject-RestaurantPage)
 - [RobisonWebDev Solution](https://github.com/robisonwebdev/Restaurant-Page) - [View in Browser](http://davidrulonrobison.com/Restaurant-Page/)
 - [Osechi3's Solution](https://github.com/osechi3/restaurant-page) - [View in Browser](https://osechi3.github.io/restaurant-page/)

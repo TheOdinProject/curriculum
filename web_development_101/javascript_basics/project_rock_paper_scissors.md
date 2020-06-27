@@ -1733,7 +1733,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sacchan9's Solution](https://github.com/sacchan9/rock-paper-scissors)
 - [onagova's Solution](https://github.com/onagova/rock-paper-scissors) - [View in Browser](https://onagova.github.io/rock-paper-scissors/)
 - [Raman's Solution](https://github.com/rheera/RockPaperScissors)
-- [Jacobus's Solution](https://github.com/Jacobus-afk/ropasci)
+- [Jacobus's Solution](https://github.com/Jacobus-afk/ropasci) - [View in Browser](https://jacobus-afk.github.io/ropasci/)
 - [Marissa Bellusci's Solution](https://github.com/marissabellusci/rock-paper-scissors-simulator) - [View in Browser](https://marissabellusci.github.io/rock-paper-scissors-simulator/)
 - [Angelo's Solution](https://github.com/angelokora/rock-paper-scissors)
 - [nmukespence's Solution](https://github.com/nmukespence/rockPaperScissors)
