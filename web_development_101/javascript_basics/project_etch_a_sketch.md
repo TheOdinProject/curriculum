@@ -45,12 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 * [onagova's Solution](https://github.com/onagova/etch-a-sketch) - [View in Browser](https://onagova.github.io/etch-a-sketch/)
-=======
 * [Adam's Solution](https://github.com/ajhanson22227/New-Etch-a-Sketch) - [View in Browser](https://ajhanson22227.github.io/New-Etch-a-Sketch/)
 * [Br3ikros's Solution](https://github.com/Br3ikros/etch-a-sketch) - [View in Browser](https://br3ikros.github.io/etch-a-sketch/)
->>>>>>> master
 * [Kunal's Solution](https://github.com/vkunal1996/sketch-pad.js) - [View in Browser](https://vkunal1996.github.io/sketch-pad.js/)
 * [OptiPrime64's Solution](https://github.com/OptiPrime64/etch-a-sketch) - [View in Browser](https://optiprime64.github.io/etch-a-sketch/)
 * [zieeco's Solution](https://github.com/zieeco/Etch-a-sketch) - [View in Browser](https://zieeco.github.io/Etch-a-sketch/)
