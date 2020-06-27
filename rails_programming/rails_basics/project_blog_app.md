@@ -490,6 +490,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee's Solution](https://github.com/bendee48/rails-blog) - [View in Browser](https://still-citadel-27600.herokuapp.com/articles)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-rails-blogger) - [View in Browser](https://whispering-wave-20353.herokuapp.com/)
 * [Ken H's Solution ](https://github.com/kholston/blogger) - [View in Browser](https://warm-oasis-24373.herokuapp.com/)
+* [Chris H's Solution](https://github.com/CKHarrison/Blog) - [View in Browser](https://blooming-badlands-82585.herokuapp.com/)
 </details>
 
 ### Additional Resources
