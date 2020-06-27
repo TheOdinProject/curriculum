@@ -61,6 +61,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/unit-test-practice)
 - [blackstate's solution](https://github.com/blackstate/testing-practice-jest/)
 - [Luky's solution](https://github.com/lcyne/testing-practice-jest)
 - [Cody Degen's solution](https://github.com/codydegen/testing_practice)

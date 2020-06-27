@@ -35,7 +35,7 @@ If you have any experience with other css layout options like floats then Grid c
 
 5) While learning, start with a simple grid. Don't complicate it too early by starting with elements spanning multiple rows and grids. Setup a simple grid and make small adjustments. If you create a grid with an even number of columns and rows it will limit the flexibility of the grid but while learning will help avoid any confusion.
 
-One limitation to the current grid specification is subgrids are not yet available. By that I mean a nested grid that follows the same grid as the parent. There is a subgrid keyword in the grid specification, but it is not yet implemented and there is no current schedule for release.
+One limitation to the current grid specification is that subgrids are not yet widely available. The CSS specification defines subgrid as a nested grid that follows the same grid as the parent. Currently only Firefox supports these, and there is no current schedule for when other browsers will implement subgrids. 
 
 Grid is now supported in all major browsers meaning you can use it right away to start creating awesome layouts. You can find out if your browser version supports it [here](https://caniuse.com/#feat=css-grid).
 
