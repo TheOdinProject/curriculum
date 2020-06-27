@@ -15,20 +15,17 @@ You will be building a simple command line Hangman game where one player plays a
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Hangman)
-=======
 * [Vinz's Solution](https://github.com/LrdVnz/hangman) 
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/Hangman) - [View in Repl.it](https://repl.it/@HappyFrog/Hangman)
 * [Richard's Solution](https://github.com/RichardDenton/hangman) - [View in Repl.it](https://repl.it/@RichardDenton/hangman)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/hangman)
->>>>>>> 8606d9bac109de017d1fd0ba3e9e048dfa2626c8
 * [Tilda Udufo's Solution](https://github.com/TildaDares/hangman)
 * [Darren's Solution](https://github.com/DarrenLo0530/hangman)
 * [Aaron's Solution](https://github.com/Aaron-McD/hangman)
