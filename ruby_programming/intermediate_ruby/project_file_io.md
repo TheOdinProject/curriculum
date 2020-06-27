@@ -21,7 +21,14 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+<<<<<<< HEAD
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Hangman)
+=======
+* [Vinz's Solution](https://github.com/LrdVnz/hangman) 
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/Hangman) - [View in Repl.it](https://repl.it/@HappyFrog/Hangman)
+* [Richard's Solution](https://github.com/RichardDenton/hangman) - [View in Repl.it](https://repl.it/@RichardDenton/hangman)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/hangman)
+>>>>>>> 8606d9bac109de017d1fd0ba3e9e048dfa2626c8
 * [Tilda Udufo's Solution](https://github.com/TildaDares/hangman)
 * [Darren's Solution](https://github.com/DarrenLo0530/hangman)
 * [Aaron's Solution](https://github.com/Aaron-McD/hangman)

@@ -25,6 +25,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [pklepa's Solution](https://github.com/pklepa/tic-tac-toe) - [View in Browser](https://pklepa.github.io/tic-tac-toe/)
+- [Afzaman's Solution](https://github.com/afzaman/noughts-and-crosses) - [View in Browser](https://afzaman.github.io/noughts-and-crosses/)
 - [Ideopunk's Solution](https://github.com/Ideopunk/tic-tac-toe) - [View in Browser](https://ideopunk.github.io/tic-tac-toe/)
 - [Osechi3's Solution](https://github.com/osechi3/tic-tac-toe-game) - [View in Browser](https://osechi3.github.io/tic-tac-toe-game/)
 - [Aidan's Solution](https://github.com/aidanwaugh/TheOdinProject/tree/master/09-tic-tac-toe) - [View in Browser](https://aidanwaugh.github.io/TheOdinProject/09-tic-tac-toe/)
@@ -219,4 +221,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [oppowag's Solution](https://github.com/oppowag/tictactoe) - [View in Browser](https://oppowag.github.io/tictactoe/)
 - [DurandalOne's Solution](https://github.com/DurandalOne/TicTacToe) - [View in Browser](https://durandalone.github.io/TicTacToe/)
 - [alxmkh's Solution](https://github.com/alxmkh/tic_tac_toe) - [View in Browser](https://alxmkh.github.io/tic_tac_toe/)
+- [Chandra's Solution](https://github.com/CodeSurfer3022/Tic-Tac-Toe) - [View in Browser](https://codesurfer3022.github.io/Tic-Tac-Toe/)
+- [Khabiir's Solution](https://github.com/khabiirk/Tic-Tac-Toe)
 </details>

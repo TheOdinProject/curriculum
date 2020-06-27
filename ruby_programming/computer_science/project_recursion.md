@@ -16,6 +16,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/recursion/blob/master/fibonacci.rb)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/fibonacci/blob/master/fibonacci.rb)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/recursion/fibonacci.rb)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/fibonacci/blob/master/fibonacci.rb)
 * [Gael's Solution](https://github.com/lungla-gael/Fibonacci)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/fib.rb)
@@ -259,6 +262,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sandy’s Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/fibonacci.rb)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/recursion/assignment_1.rb)
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/recursion/fibonacci.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
@@ -290,6 +294,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/recursion/blob/master/merge_sort.rb)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/merge-sort/blob/master/merge_sort.rb)
+* [Gael's Solution](https://github.com/lungla-gael/Merge-Sort)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/recursion/mergesort.rb)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/mergeSort/blob/master/merge_sort.rb)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/merge_sort.rb)
 * [Sam Eff's Solution](https://github.com/SamEff/merge_sort)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Ruby_Exercises/blob/master/merge_sort.rb)
@@ -522,6 +531,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/mergesort.rb)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/recursion/merge_sort.rb)
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/recursion/merge_sort.rb)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/merge_sort.rb)
 </details>
 
 ### Additional Resources
