@@ -1740,4 +1740,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [skwiryt's Solution](https://github.com/skwiryt/rock-paper-scissors)
 - [Nijepa's Solution](https://github.com/nijepa/rock-paper-scissors) - [View in Browser](https://nijepa.github.io/rock-paper-scissors/)
 - [gkaminski's Solution](https://github.com/kaminskig/rock-paper-scissors)
+- [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/rock-paper-scissors)
 </details>
