@@ -143,6 +143,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [mangakiko's Solution](https://github.com/magakiko/Apple) - [View in Browser](https://magakiko.github.io/Apple/)
 * [barrysweeney's Solution](https://github.com/barrysweeney/apple-site-clone) - [View in Browser](https://barrysweeney.github.io/apple-site-clone)
 * [bhenning83's Solution](https://github.com/bhenning83/apple-homepage) - [View in Browser](https://bhenning83.github.io/apple-homepage/)
+* [Timework's Solution](https://github.com/Timework/apple-clone) - [View in Browser](https://timework.github.io/apple-clone/)
 </details>
 
 ### Additional Resources
