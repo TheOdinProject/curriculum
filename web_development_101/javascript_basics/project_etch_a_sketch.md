@@ -1111,5 +1111,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [IvanyukT's Solution](https://github.com/tiris08/Etch-A-Sketch-by-taras08) - [View in Browser]( https://tiris08.github.io/Etch-A-Sketch-by-taras08/)
 * [Nijepa's Solution](https://github.com/nijepa/etch-a-sketch) - [View in Browser](https://nijepa.github.io/etch-a-sketch)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/etch-a-sketch) - [View in Browser](https://jacobus-afk.github.io/etch-a-sketch/)
+* [Novibonjovi's Solution](https://github.com/novibonjovi/etch-a-sketch) - [View in Browser](https://novibonjovi.github.io/etch-a-sketch/)
 </details>
 
