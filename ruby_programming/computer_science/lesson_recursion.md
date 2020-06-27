@@ -10,7 +10,7 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
-### learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment
 
 * Why is recursion a useful technique for solving a big problem?
@@ -41,6 +41,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * ["What is Ruby Recursion and How Does It Work?"](http://stackoverflow.com/questions/6418017/what-is-ruby-recursion-and-how-does-it-work) on Stack Overflow
 * [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
 * [Natashatherobot's blog post on Recursion in Ruby](http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
-* [Functional Programming Techniquest with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top
+* [Functional Programming Techniques with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top
 * [CS50 explanation of recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM)
 * [A breakdown of the recursive Fibonacci method](https://youtu.be/zg-ddPbzcKM) from Khan Academy

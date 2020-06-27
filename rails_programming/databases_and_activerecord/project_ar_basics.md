@@ -113,6 +113,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/micro-reddit)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/micro-reddit)
 * [Jose Bohorquez's Solution](https://github.com/Bhrqz/micro-reddit)
 * [Christian's Solution](https://github.com/Cabonilla/building_with_active_record)
@@ -258,6 +259,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Timework's Solution](https://github.com/Timework/micro_reddit)
 * [Bendee's Solution](https://github.com/bendee48/micro-reddit)
 * [Robert Suazo's Solution](https://github.com/rsuazo/micro-reddit)
+* [Ken H's Solution](https://github.com/kholston/micro_reddit)
 </details>
 
 ### Additional Resources

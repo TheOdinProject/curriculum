@@ -6,7 +6,7 @@ When the code that you are testing has to touch a database, the amount of setup 
 By the end of this lesson, you should be able to do the following:
 
 - Explain the purpose of using a separate database for testing.
-- Use `mongodb-memeory-server` to create a testing database
+- Use `mongodb-memory-server` to create a testing database
 - Familiarize yourself with an alternative method of database setup for your testing environment.
 
 ### But do you even need to test that?

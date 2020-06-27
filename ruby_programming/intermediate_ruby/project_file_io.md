@@ -21,6 +21,15 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vinz's Solution](https://github.com/LrdVnz/hangman) 
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/Hangman) - [View in Repl.it](https://repl.it/@HappyFrog/Hangman)
+* [Richard's Solution](https://github.com/RichardDenton/hangman) - [View in Repl.it](https://repl.it/@RichardDenton/hangman)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/hangman)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/hangman)
+* [Darren's Solution](https://github.com/DarrenLo0530/hangman)
+* [Aaron's Solution](https://github.com/Aaron-McD/hangman)
+* [Sam Eff's Solution](https://github.com/SamEff/Hangman)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/hangman-game) - [View in Repl.it](https://repl.it/@VanQuishi/hangman-game#lib/hangman.rb)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/hangman/hangman.rb)
 * [Gael's Solution](https://github.com/lungla-gael/Hangman)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Hangman) - [View in Repl.it](https://repl.it/@Kfollen/Hangman)
@@ -311,4 +320,10 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/hangman)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-hangman) - [Live version on Repl.it](https://repl.it/@fussykyloren/ruby-hangman)
 * [Sandy's Solution](https://github.com/kuosandys/top-hangman)
+* [mpiriya's Solution](https://github.com/mpiriya/hangman)
+* [akoenig1's Solution](https://github.com/akoenig1/hangman)
+* [Ethan W's Solution](https://github.com/ethan-wax/hangman)
+* [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/hangman/game.rb)
+* [Adam's Solution](https://github.com/abohannon/hangman-ruby)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/hangman/lib/hangman.rb)
 </details>

@@ -34,6 +34,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Joewebsta's Solution](https://github.com/Joewebsta/the-odin-project-ruby-exercises/blob/master/substrings.rb)
+* [Ryan Lewin's Solution](https://github.com/ryan-lewin/odin-project/blob/master/ruby-programming/sub-strings/sub_strings.rb)
+* [Spark's Solution](https://github.com/Sparking2/Ruby_Practicing/blob/master/sub_strings/sub_strings.rb)
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Substrings)
+* [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/substrings.rb)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/ruby-exercises/substring.rb)
 * [Blaze Vincent's Solution](https://github.com/blaze-vincent/ruby_substrings/blob/master/substrings.ruby)
 * [Omar Al-MAsri's Solution](https://github.com/Omarmasri-91/sub-strings/blob/master/sub-strings.rb)
@@ -523,4 +528,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Violet's Solution](https://gist.github.com/violetguos/8f078c5460aea7b3086fc13d9e91dae9)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/substrings.rb)
 * [Xvier's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/substrings.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/substrings_search.rb)
 </details>
