@@ -326,4 +326,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/hangman/game.rb)
 * [Adam's Solution](https://github.com/abohannon/hangman-ruby)
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/hangman/lib/hangman.rb)
+* [JvPelai's Solution](https://github.com/JvPelai/Hangman)
 </details>
