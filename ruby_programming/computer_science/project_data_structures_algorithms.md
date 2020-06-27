@@ -52,6 +52,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [BLuu's solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/binary_search_tree.rb)
 * [Sam Eff's solution](https://github.com/SamEff/binary_search_tree)
 * [Darren's solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/binary_search_tree)
 * [irlgabriel's solution](https://github.com/irlgabriel/the-odin-project/tree/master/tree)
