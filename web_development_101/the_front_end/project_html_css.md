@@ -3909,6 +3909,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Bence's Solution (Easy)](https://github.com/Kok0124/google-homepage) - [View in Browser](https://kok0124.github.io/google-homepage/)
 * [Victor Montoya's Solution (Easy)](https://github.com/victormontoyabey/google-homepage) - [View in Browser](https://victormontoyabey.github.io/google-homepage/)
 * [Jacob's Solution (Easy)](https://github.com/Jaro05/google-homepage/blob/master/index.html)
+* [Tien Tai's Solution (Easy)](https://github.com/JBenjaminn/google-homepage) - [View in Browser](https://jbenjaminn.github.io/google-homepage/)
+* [Tien Tai's Solution (Difficult)](https://github.com/JBenjaminn/results-page) - [View in Browser](https://jbenjaminn.github.io/results-page/)
 </details>
 
 ### Additional Resources
