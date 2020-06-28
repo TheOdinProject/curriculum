@@ -24,7 +24,7 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
 
   6. Write `#inorder`, `#preorder`, and `#postorder` methods which accept a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. As a bonus, make the method return an array of values if no block is given.
 
-  7. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
+  7. Write a `#height` method which accepts a node and returns the height of the node. Height is defined as the number of edges in longest path from a given node to a leaf node.
 
   8. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree is not more than 1.
 
