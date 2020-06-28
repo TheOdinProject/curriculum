@@ -3911,6 +3911,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jacob's Solution (Easy)](https://github.com/Jaro05/google-homepage/blob/master/index.html)
 * [Tien Tai's Solution (Easy)](https://github.com/JBenjaminn/google-homepage) - [View in Browser](https://jbenjaminn.github.io/google-homepage/)
 * [Tien Tai's Solution (Difficult)](https://github.com/JBenjaminn/results-page) - [View in Browser](https://jbenjaminn.github.io/results-page/)
+* [Arko's Solution (Easy)](https://github.com/arkch99/google-homepage) - [View in Browser](https://arkch99.github.io/google-homepage/)
+* [Arko's Solution (Difficult)](https://github.com/arkch99/google-search-page) - [View in Browser](https://arkch99.github.io/google-search-page/)
 </details>
 
 ### Additional Resources
