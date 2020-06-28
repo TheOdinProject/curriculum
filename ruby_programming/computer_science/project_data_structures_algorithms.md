@@ -288,6 +288,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [tenacious-qi's Solution](https://github.com/Tenacious-Qi/knights_travails)
 * [threeaces' Solution](https://github.com/threeaces/knights_travails_ruby/tree/master/knights_travails)  
 * [Sam Eff's Solution](https://github.com/SamEff/knights_travails)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/knight_travail)
