@@ -1,0 +1,16 @@
+.course-completion-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $success-color;
+  color: $white;
+  text-align: center;
+  padding: 5px 0;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+
+  &__icon {
+    font-size: 1.1rem;
+  }
+}

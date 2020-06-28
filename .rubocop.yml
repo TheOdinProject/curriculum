@@ -1,0 +1,5 @@
+require: rubocop-performance
+Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false

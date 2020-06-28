@@ -1,0 +1,16 @@
+<% if course_completed_by_user?(course, user) %>
+  <%= link_to 'Open',
+   course_path(course),
+   class: 'button button--transparent skill__button'
+  %>
+<% elsif course_started_by_user?(course, user) && !course_completed_by_user?(course, user) %>
+  <%= link_to 'Resume',
+    lesson_path(next_lesson_to_complete(course, user.lesson_completions_for(course))),
+    class: 'button button--primary skill__button'
+  %>
+<% else %>
+  <%= link_to 'Start',
+   course_path(course),
+   class: 'button button--primary skill__button'
+  %>
+<% end %>

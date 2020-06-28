@@ -1,0 +1,20 @@
+<div class="dropdown js-dropdown">
+  <button class="avatar" aria-label="User Menu" style="background-image:url(<%= avatar_path(current_user.avatar) %>)" data-toggle="dropdown"></button>
+  <ul class="dropdown-menu menu-options">
+    <li id="dash-active">
+      <%= link_to dashboard_path, class: "drop-down-link accent #{active_class(dashboard_path)}" do %>
+        <span class="drop-down-logo dashboard-logo"></span>Dashboard
+      <% end %>
+    </li>
+    <li>
+      <%= link_to edit_user_registration_path, class: "drop-down-link accent #{active_class(edit_user_registration_path)}" do %>
+        <span class="drop-down-logo settings-logo"></span>Settings
+      <% end %>
+    </li>
+    <li>
+      <%= link_to logout_path(ref: 'homenav'), class: 'drop-down-link accent' do %>
+        <span class="drop-down-logo logout-logo"></span>Log out
+      <% end %>
+    </li>
+  </ul>
+</div>

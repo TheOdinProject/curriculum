@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $body_fonts;
+  padding-right: 0 !important; // a hacky fix to avoid 15px right padding added when a modal is displayed/hidden
+}
+
+a {
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+[href]:not([class]) {
+    color: $primary;
+    text-decoration: underline;
+
+    &:hover {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0;
+  line-height: 1.88;
+}
+
+button {
+  border: 0;
+  font-family: $body-fonts;
+  padding: 0;
+}
+
+input:-webkit-autofill {
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    transition-delay: 9999s;
+    transition-property: background-color, color;
+  }
+}
+
+ul {
+  padding-left: 0;
+}
+
+.camel {
+  color: $primary;
+}
+
+.camo {
+  color: $camo;
+}
+
+.coffee {
+  color: $coffee;
+}
+
+.grey {
+  color: $grey;
+}
+
+.pale-grey {
+  color: $pale-grey;
+}
+
+.orange {
+  color: $dusty-orange;
+}
+
+.white {
+  color: $white;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bg-white {
+  background: $white;
+}
+
+.bg-whitesmoke {
+  background: $white-smoke;
+}
+
+.btn-camel {
+  background: $primary;
+  color: $white;
+
+  &:hover, &:focus {
+    background: darken($primary, 10%);
+    color: $white;
+  }
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, $white, $light-grey);
+}
+
+[type="text"],
+[type="email"],
+[type="password"],
+textarea {
+  background-color: $pale-grey-bg;
+  font-family: $body-fonts;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+}

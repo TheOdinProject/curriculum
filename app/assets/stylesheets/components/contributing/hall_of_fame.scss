@@ -1,0 +1,43 @@
+.hall-of-fame {
+  padding-top: 70px;
+
+  &__title {
+    color: $primary;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+
+  &__text {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+    @media screen and (max-width: 991px) {
+      width: 80%;
+    }
+  }
+
+  &__members {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  &__member {
+    padding-bottom: 20px;
+
+    @media screen and (max-width: 575px) {
+      text-align: center;
+      width: 33.3%;
+    }
+  }
+
+  &__view-all {
+    text-align: center;
+    text-decoration: underline;
+
+    a {
+      color: $primary;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.new-submission {
+  background: $white-smoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  @include media-breakpoint-down(xs) {
+    justify-content: center;
+
+    &__description {
+      display: none;
+    }
+  }
+}

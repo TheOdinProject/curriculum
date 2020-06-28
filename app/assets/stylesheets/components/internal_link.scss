@@ -1,0 +1,25 @@
+.internal-link {
+  align-items: center;
+  color: $text-primary;
+  display: flex;
+  position: relative;
+
+  &:hover{
+    &:before {
+      color: $grey;
+      content: "\f0c1";
+      font-family: "Font Awesome 5 Free";
+      font-size: .75em;
+      left: -1.2em;
+      position: absolute;
+      font-weight: 900;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    &:hover{
+      &:before {
+        display: none;
+      }
+    }
+  }
+}

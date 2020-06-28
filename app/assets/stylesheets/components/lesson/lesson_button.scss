@@ -1,0 +1,19 @@
+.lesson-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__icon {
+    font-size: 1.7rem;
+    padding-right: 0.4rem;
+    align-self: center;
+  }
+
+  &--complete {
+    &:hover {
+      .lesson-button__icon:before {
+        content: '\f057';
+      }
+    }
+  }
+}

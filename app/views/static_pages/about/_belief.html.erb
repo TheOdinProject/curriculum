@@ -1,0 +1,16 @@
+<div class="row belief">
+  <div class="col-sm-2 belief-illustration">
+    <%= image_tag belief[:image_path], alt: belief[:image_alt], class: 'img-responsive' %>
+  </div>
+
+  <div class="col-sm-10 belief-description">
+    <h3 class="belief-short-text">
+      <strong>
+        <%= belief[:short_text] %>
+      </strong>
+    </h3>
+    <p>
+      <%= belief[:description] %>
+    </p>
+  </div>
+</div>

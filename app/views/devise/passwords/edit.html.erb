@@ -1,0 +1,25 @@
+<%= title('New Password') %>
+
+<div class="gradient">
+  <div class="container push-container-down">
+    <h1 class="text-center accent">Change your password</h1>
+    <div class='col-lg-8 offset-lg-2'>
+      <div class="card-main">
+
+        <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put, class: "form" }) do |form| %>
+          <%= form.hidden_field :reset_password_token %>
+
+          <div class="form__section">
+            <%= form.password_field :password, placeholder: "New Password", required: true, class: "form__element" %>
+          </div>
+
+          <div class="form__section">
+            <%= form.password_field :password_confirmation, placeholder: "Confirm New Password", required: true, class: "form__element" %>
+          </div>
+
+          <%= form.submit "Change my password", class: "button button--primary full-width" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

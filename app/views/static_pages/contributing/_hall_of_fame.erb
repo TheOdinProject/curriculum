@@ -1,0 +1,139 @@
+<%
+  members = [
+    {
+      name: 'Erik Trautman',
+      image: 'hall_of_fame_images/erik.jpg',
+      github_url: 'http://github.com/eriktrautman',
+    },
+    {
+      name: 'Joe Sawyer',
+      image: 'hall_of_fame_images/joe.jpg',
+      github_url: 'http://github.com/zkay',
+    },
+    {
+      name: 'Afshin Moktari',
+      image: 'hall_of_fame_images/afshin.jpg',
+      github_url: 'http://github.com/afshinator',
+    },
+    {
+      name: 'Nathan Hall',
+      image: 'hall_of_fame_images/nathanhall.png',
+      github_url: 'http://github.com/dominathan',
+    },
+    {
+      name: 'Abby Jones',
+      image: 'hall_of_fame_images/abby.jpg',
+      github_url: 'http://github.com/AbbyJonesDev',
+    },
+    {
+      name: 'Joshua Gorchov',
+      image: 'hall_of_fame_images/joshua.jpg',
+      github_url: 'http://github.com/gorchov',
+    },
+    {
+      name: 'Neil Gehani',
+      image: 'hall_of_fame_images/neil.jpg',
+      github_url: 'http://github.com/ngehani',
+    },
+    {
+      name: 'Ian White',
+      image: 'hall_of_fame_images/ian.jpg',
+      github_url: '',
+    },
+    {
+      name: 'Bill Walker',
+      image: 'hall_of_fame_images/bill.jpg',
+      github_url: 'http://github.com/mach1010',
+    },
+    {
+      name: 'Mazin Power',
+      image: 'https://avatars1.githubusercontent.com/u/7075351?v=3&s=400',
+      github_url: 'https://github.com/muzfuz',
+    },
+    {
+      name: 'Ada Chiu',
+      image: 'https://avatars0.githubusercontent.com/u/13413986?v=3&s=400',
+      github_url: 'https://github.com/adachiu',
+    },
+    {
+      name: 'Kevin Mulhern',
+      image: 'https://avatars1.githubusercontent.com/u/7963776?v=3&s=460',
+      github_url: 'https://github.com/KevinMulhern',
+    },
+    {
+      name: 'Arun Kumar',
+      image: 'https://avatars0.githubusercontent.com/u/7039523?v=3&s=400',
+      github_url: 'https://github.com/arun1595',
+    },
+    {
+      name: 'Cody Loyd',
+      image: 'https://avatars0.githubusercontent.com/u/18574792?v=3&s=400',
+      github_url: 'https://github.com/codyloyd',
+    },
+    {
+      name: 'Cornelius Soon',
+      image: 'https://avatars2.githubusercontent.com/u/16495574?v=3&s=400',
+      github_url: 'https://github.com/csrail',
+    },
+    {
+      name: 'Rhys',
+      image: 'https://avatars3.githubusercontent.com/u/19835799?v=3&s=400',
+      github_url: 'https://github.com/105ron',
+    },
+    {
+      name: 'Austin',
+      image: 'https://avatars2.githubusercontent.com/u/12649577?v=3&s=400',
+      github_url: 'https://github.com/CouchofTomato',
+    },
+    {
+      name: 'Leo',
+      image: 'https://avatars2.githubusercontent.com/u/13614862?v=3&s=400',
+      github_url: 'https://github.com/leosoaivan',
+    },
+    {
+      name: 'Chad Kreutzer',
+      image: 'https://avatars1.githubusercontent.com/u/13308917?v=3&s=400',
+      github_url: 'https://github.com/ChadKreutzer',
+    },
+    {
+      name: 'Roberto Pando',
+      image: 'https://avatars1.githubusercontent.com/u/20132181?v=3&s=400',
+      github_url: 'https://github.com/RobPando',
+    },
+    {
+      name: 'Ryan',
+      image: 'https://avatars3.githubusercontent.com/u/20901017?v=3&s=400',
+      github_url: 'https://github.com/ryanford-frontend',
+    }
+  ]
+%>
+
+<div class="hall-of-fame gradient">
+  <h2 class="hall-of-fame__title">Hall of Fame</h3>
+  <p class="hall-of-fame__text">
+    The Hall of Fame members are the hardworking devs who have built The Odin Project into the site that you see before you now.
+  </p>
+
+
+  <div class="container hall-of-fame__members">
+    <div class="row">
+      <% members.each do |member| %>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 hall-of-fame__member">
+          <%= link_to(member[:github_url], target: "_blank", rel: "noreferrer") do %>
+            <%= image_tag(member[:image], alt: member[:name], class: 'img-fluid') %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="hall-of-fame__view-all">
+    <%= link_to 'View All Contributors', github_link('theodinproject/graphs/contributors'), class: 'camel-link mb-5', target: '_blank', rel: 'noreferrer' %>
+  </div>
+
+  <%= render 'shared/bottom_cta',
+    button: chat_button,
+    heading: 'Have a question?',
+    sub_heading: 'Chat with our friendly Odin community in our Discord chatrooms!'
+  %>
+</div

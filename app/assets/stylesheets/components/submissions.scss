@@ -1,0 +1,57 @@
+.submissions {
+  margin-bottom: 2em;
+  text-align: left;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+
+  &__project-title {
+    font-size: 1.5em;
+    color: $grey;
+  }
+
+  &__item {
+    border-top: solid 1px $very-pale-grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 0;
+  }
+
+  &__user {
+    font-weight: 600;
+  }
+
+  &__button {
+    color: $grey;
+    padding: 0.5rem 1rem;
+    background-color: $button-disabled;
+    border-radius: 0.2em;
+    font-weight: 600;
+
+    &--green {
+      color: $white;
+      background-color: $button-primary;
+    }
+  }
+
+  &__actions {
+    a {
+      margin-left: 1em;
+    }
+  }
+
+  &__report {
+    color: $button-disabled;
+  }
+
+}

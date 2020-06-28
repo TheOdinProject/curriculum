@@ -1,0 +1,40 @@
+.contributing-options {
+  margin-bottom: 100px;
+  position: relative;
+
+  &__title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .contributing-card {
+    height: 95%;
+
+    &__title {
+      font-weight: bold;
+      color: $primary;
+      text-align: center;
+    }
+
+    &__description {
+      text-align: center;
+      margin-bottom: 80px;
+
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__button {
+      text-align: center;
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+
+      @include media-breakpoint-down(sm) {
+        position: static;
+      }
+    }
+  }
+}

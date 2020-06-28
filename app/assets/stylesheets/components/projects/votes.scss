@@ -1,0 +1,20 @@
+.project {
+  &__votes {
+    color: $grey;
+    font-size: 1.1rem;
+
+    @include media-breakpoint-down(md) {
+      text-align: left;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .heart {
+      padding: 1em;
+    }
+
+    .fas{ 
+      font-size: 2rem;
+    }
+  }
+}

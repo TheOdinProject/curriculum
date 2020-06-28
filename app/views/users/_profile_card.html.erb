@@ -1,0 +1,8 @@
+<div class="card-main profile-card">
+  <div>
+  <%= image_tag avatar_path(user.avatar), class: 'profile-card__image' %>
+  </div>
+  
+  <h2 class="profile-card__username"><%=  user.username %></h2>
+  <p class="profile-card__learning-goal"><%= display_dashboard_learning_goal(user) %></p>
+</div>

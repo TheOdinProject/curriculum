@@ -1,0 +1,35 @@
+<%
+  contributions = [
+    {
+      title: "Contribute to the Curriculum",
+      description: "The curriculum consists of the lessons and projects on this site. We are constantly expanding and updating the curriculum to keep it current and ensure it meets our students needs in the ever changing world of web development. Our goal is to create the best free web development curriculum in the world, anyone is welcome to join in and help us in striving for this goal.",
+      path: "curriculum",
+    },
+    {
+      title: "Contribute to the Main Site",
+      description: "The site you are on right now is a Ruby on Rails application. We are always working on new features that improves the platform and helps students in their learning journey. As with any Open Source project, there is also constant backlog of outstanding issues and bugs that need fixed. Anyone is welcome to join in and start working on any of the issues we currently have posted in the Github repository for the site.",
+      path: "theodinproject",
+    }
+  ]
+%>
+
+<div class='contributing-options'>
+  <h3 class="contributing-options__title">There are two main ways you can contribute:</h3>
+  <div class="col-lg-10 offset-lg-1 col-md-12">
+    <div class="row row-eq-height">
+
+      <% contributions.each do |contribution| %>
+        <div class="col-lg-6">
+          <div class="contributing-card card-main">
+            <h3 class="contributing-card__title"><%= contribution[:title] %></h3>
+            <p class="contributing-card__description"><%= contribution[:description] %></p>
+            <div class="contributing-card__button">
+              <%= link_to 'View on GitHub', github_link(contribution[:path]), class: 'button button--primary', target: '_blank', rel: 'noreferrer' %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+
+    </div>
+  </div>
+</div>

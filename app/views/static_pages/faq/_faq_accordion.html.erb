@@ -1,0 +1,5 @@
+<div id="faq-accordion" role="tablist" aria-multiselectable="true">
+  <% faq_items.each_with_index do |faq_item, index| %>
+    <%= render 'static_pages/faq/faq_card', faq_item: faq_item, index: index %>
+  <% end %>
+</div> <!-- /#faq-accordion -->

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%= render 'shared/head' %>
+
+  <body class="line-numbers">
+    <div id="global-content-wrapper">
+      <%= render 'shared/navbar_and_flashes' %>
+      <%= yield %>
+    </div>
+
+    <%= render 'shared/footer' %>
+    <%= render 'shared/sidecar' %>
+    <%= render 'shared/ga' %>
+    <%= render 'shared/fb' %>
+  </body>
+</html>

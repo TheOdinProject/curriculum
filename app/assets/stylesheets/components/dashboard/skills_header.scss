@@ -1,0 +1,11 @@
+.skills-header {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 6.25rem;
+
+  &__title {
+    font-weight: bold;
+    color: $grey;
+    margin-bottom: 2rem;
+  }
+}

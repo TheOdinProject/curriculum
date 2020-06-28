@@ -1,0 +1,42 @@
+<%= title('Success Stories') %>
+
+<div class='gradient'>
+  <div class="container">
+    <div class="success-stories-page">
+      <div class="success-stories-title-full">
+        <h1 class="text-center accent">Success Stories</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <% @success_stories.each do |story| %>
+            <div class="card-main success-story">
+              <div class="row">
+                <div class="col-xs-12 photo">
+                  <%= image_tag "success_stories/#{story.avatar_path_name}", class: "img-fluid" %>
+                </div>
+                <div class="col-xs-12 info">
+                  <p class="student-name">
+                    <span class="bold"><%= link_to story.student_name, story.social_media_link, class: 'accent' %>,</span>
+                    <span class="grey student-title"><%= story.job_title %></span>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 success-content">
+                  <p class="grey"><%= story.story_content %></p>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
+      <%= render 'shared/bottom_cta',
+          button: sign_in_or_view_curriculum_button,
+          heading: 'Start learning for free now!',
+          sub_heading: ''
+      %>
+    </div>
+  </div>
+</div

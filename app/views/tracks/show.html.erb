@@ -1,0 +1,30 @@
+<div class="container">
+  <h1 class="text-center camel light curriculum-title"><%= @track.title %></h1>
+  <p class="text-center track-description"><%= @track.description %></p>
+
+
+  <% @courses.each do |course| %>
+    <%= render 'courses/course_card', course: course %>
+  <% end %>
+
+  <% if user_signed_in? %>
+    <%if current_user.track == @track %>
+      <p class="text-center track-description">
+        You are currently enrolled in this track.
+      </p>
+    <% else %>
+      <p class="text-center track-description">
+      <%= link_to 'Select This Track', users_tracks_path(track_id: @track.id), remote: true, method: :post, class: 'button button--primary' %>
+      </p>
+    <% end %>
+  <% else %>
+      <p class="text-center track-description">
+        <%= render 'shared/bottom_cta',
+          button: sign_in_or_view_curriculum_button,
+          heading: 'Start learning for free now!',
+          sub_heading: ''
+        %>
+      </p>
+  <% end %>
+  <p class="text-center track-description">You are viewing the <%= @track.title %> track.  To view all available tracks <%= link_to 'click here', tracks_path %></p>
+</div>
