@@ -388,6 +388,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 * [Dyrits's Solution](https://github.com/Dyrits/X-O-OP-TIC-TAC-TOE/blob/master/tic_tac_toe.rb)
 * [Intermedia's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/tictactoe.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/tic_tac_toe/blob/master/tic_tac_toe.rb)
 
 </details>
 
