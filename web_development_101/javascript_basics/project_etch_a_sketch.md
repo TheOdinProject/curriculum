@@ -9,7 +9,7 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [Follow the instructions atop Odin's Google Homepage project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css) to setup a git repository for this project.
+1. [Follow the instructions at Odin's Google Homepage project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css) to setup a git repository for this project.
 2. Create a webpage with a 16x16 grid of square divs
    1. Create the divs using JavaScript... don't try making them by hand with copy and pasting in your html file!
    2. Best to put your grid squares inside another "container" div \(that one can go directly in your html\)
@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [DoviMaj's Solution](https://github.com/DoviMaj/Etch-A-Sketch) - [Live in Browser](https://dovimaj.github.io/Etch-A-Sketch/)
 * [Angelo's Solution](https://github.com/angelokora/etch-a-sketch)
 * [onagova's Solution](https://github.com/onagova/etch-a-sketch) - [View in Browser](https://onagova.github.io/etch-a-sketch/)
 * [Adam's Solution](https://github.com/ajhanson22227/New-Etch-a-Sketch) - [View in Browser](https://ajhanson22227.github.io/New-Etch-a-Sketch/)
