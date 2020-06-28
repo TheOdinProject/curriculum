@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock-Paper-Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        let playerScore = 0;
+        let computerScore = 0;
+        let gameRound = 0;
+
+        //Computer chooses a rock, paper or scissors
+        function computerPlay() {
+            let compChoice = ["rock", "paper", "scissors"];
+            return compChoice[Math.floor(Math.random() * compChoice.length)];
+        }
+
+
+        //Compare player's selection and computer's selection and return the winner
+        function playRound(playerSelection, computerSelection) {
+
+            playerSelection = playerSelection.toLowerCase();
+            computerSelection = computerSelection.toLowerCase();
+
+            switch (playerSelection) {
+                case 'rock':
+                    {
+                        switch (computerSelection) {
+                            case 'paper':
+                                computerScore++;
+                                return 'You lose! Paper beats Rock!';
+                            case 'scissors':
+                                playerScore++;
+                                return 'You win! Rock beats Scissors!';
+                        }
+                    }
+                case 'paper':
+                    {
+                        switch (computerSelection) {
+                            case 'rock':
+                                playerScore++;
+                                return 'You win! Paper beats Rock!';
+                            case 'scissors':
+                                computerScore++;
+                                return 'You lose! Scissors beat Paper!';
+                        }
+                    }
+                case 'scissors':
+                    {
+                        switch (computerSelection) {
+                            case 'rock':
+                                computerScore++;
+                                return 'You lose! Rock beats Scissors!';
+                            case 'paper':
+                                playerScore++;
+                                return 'You Win! Scissors beat Paper!';
+                        }
+                    }
+                default:
+                    return 'Tie!';
+            }
+
+        }
+
+        //Calculate Score
+        function calculateScore(playerScore, computerScore) {
+            let result = 'Tie';
+
+            if (playerScore === computerScore)
+                result = 'Tie!';
+            else if (playerScore < computerScore)
+                result = 'Computer Wins!';
+            else
+                result = 'Player Wins!';
+
+            return result;
+        }
+
+        let playerSelection = 'rock';
+        let computerSelection = computerPlay();
+
+        function game() {
+
+            for (let gameRound = 1; gameRound <= 5; gameRound++) {
+                console.log('Round ' + gameRound + '\n');
+                playerSelection = prompt('Enter rock, paper or scissors', );
+                computerSelection = computerPlay();
+                console.log(playRound(playerSelection, computerSelection));
+
+            }
+
+            console.log('Player Score: ' + playerScore + '\n');
+            console.log('Computer Score: ' + computerScore + '\n');
+
+            //Declare winner or 'Tie'
+            console.log(calculateScore(playerScore, computerScore));
+
+
+        }
+
+        game();
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
