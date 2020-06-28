@@ -40,7 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
-- [fillingthemoon's Solution](https://github.com/fillingthemoon) - [View in Browser](https://fillingthemoon.github.io/library/)
+- [fillingthemoon's Solution (w/ Local Storage)](https://github.com/fillingthemoon) - [View in Browser](https://fillingthemoon.github.io/library/)
 - [LucasNativo's Solution (w/ Local Storage)](https://github.com/lucasnativo/project_library) - [View in Browser](https://lucasnativo.github.io/project_library/)
 - [Daegudude's Solution (w/ firebase Database)](https://github.com/DaeguDude/TOP-Library) - [View in Browser](https://daegudude.github.io/TOP-Library/)
 - [Simonoob's Solution (w/ Firebase Database)](https://github.com/Simonoob/Book-Library) - [View in Browser](https://simonoob.github.io/Book-Library/)
