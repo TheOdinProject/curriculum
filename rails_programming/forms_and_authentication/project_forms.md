@@ -249,6 +249,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Bendee's Solution](https://github.com/bendee48/rails-reformer)
 * [Robert Suazo's Solution](https://github.com/rsuazo/re-former)
 * [Ken H's Solution](https://github.com/kholston/re-former)
+* [Christian Páez's Solution](https://github.com/christian1894/re-former-odin-project-rails)
 </details>
 
 ### Additional Resources
