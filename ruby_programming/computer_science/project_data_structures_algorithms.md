@@ -288,6 +288,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/knight_moves.rb)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/knight_travails)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/knights_travails)
 * [threeaces' Solution](https://github.com/threeaces/knights_travails_ruby/tree/master/knights_travails)  
