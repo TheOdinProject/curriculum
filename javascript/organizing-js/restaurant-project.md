@@ -201,4 +201,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [hamparmin's Solution](https://github.com/hamparmin/restaurant_page) - [View in Browser](https://hamparmin.github.io/restaurant_page/)
 - [flsoller's Solution](https://github.com/flsoller/restaurant-page) - [View in Browser](https://flsoller.github.io/restaurant-page/)
 - [Chandra's Solution](https://github.com/CodeSurfer3022/Restaurant-page) - [View in Browser](https://codesurfer3022.github.io/Restaurant-page/)
+- [alxmkh's Solution](https://github.com/alxmkh/restaurant) - [View in Browser](https://alxmkh.github.io/restaurant/)
 </details>
