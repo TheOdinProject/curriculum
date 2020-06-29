@@ -261,6 +261,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Bendee's Solution](https://github.com/bendee48/micro-reddit)
 * [Robert Suazo's Solution](https://github.com/rsuazo/micro-reddit)
 * [Ken H's Solution](https://github.com/kholston/micro_reddit)
+* [Christian Páez's Solution](https://github.com/christian1894/micro-reddit)
 </details>
 
 ### Additional Resources
