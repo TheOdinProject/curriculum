@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Tomodi98's Solution](https://github.com/Tomodi98/tic-tac-toe) - [View in Browser](https://tomodi98.github.io/tic-tac-toe/)
 - [pklepa's Solution](https://github.com/pklepa/tic-tac-toe) - [View in Browser](https://pklepa.github.io/tic-tac-toe/)
 - [Afzaman's Solution](https://github.com/afzaman/noughts-and-crosses) - [View in Browser](https://afzaman.github.io/noughts-and-crosses/)
 - [Ideopunk's Solution](https://github.com/Ideopunk/tic-tac-toe) - [View in Browser](https://ideopunk.github.io/tic-tac-toe/)
