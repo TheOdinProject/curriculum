@@ -73,7 +73,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mostpeopleareotherpeople's Solution](https://github.com/mostpeopleareotherpeople/rockpaperscissors) 
 - [invaderace's Solution](https://github.com/invaderace/rock-paper-scissors) - [View in Browser](https://invaderace.github.io/rock-paper-scissors/)
 - [Rizwan's Solution](https://xrizwan.github.io/RPS-game/index.html) - [View in Browser](https://xrizwan.github.io/RPS-game/index.html)
-- [Daniel Moderiano's Solution](https://github.com/daniel-moderiano/rock-paper-scissors)
+- [Daniel Moderiano's Solution](https://github.com/daniel-moderiano/rock-paper-scissors) - [View in Browser](https://daniel-moderiano.github.io/rock-paper-scissors/)
 - [theamian's Solution](https://github.com/theamian/RockPaperScissors)
 - [Marcos Hernandez's Solution](https://github.com/Marcos6838/rock-paper-scissor/blob/master/index.html) - [View in Browser](https://marcos6838.github.io/rock-paper-scissor/)
 - [Clumsynite's Solution](https://github.com/Clumsynite/rps-gui) - [View in Browser](https://clumsynite.github.io/rps-gui/)
