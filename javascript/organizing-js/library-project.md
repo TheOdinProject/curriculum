@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Tuan Tran's Solution (w/ Local Storage)](https://github.com/tuantrann/Library) - [View in Browser](https://tuantrann.github.io/Library/)
 - [fillingthemoon's Solution (w/ Local Storage)](https://github.com/fillingthemoon) - [View in Browser](https://fillingthemoon.github.io/library/)
 - [LucasNativo's Solution (w/ Local Storage)](https://github.com/lucasnativo/project_library) - [View in Browser](https://lucasnativo.github.io/project_library/)
 - [Daegudude's Solution (w/ firebase Database)](https://github.com/DaeguDude/TOP-Library) - [View in Browser](https://daegudude.github.io/TOP-Library/)
@@ -333,5 +334,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [faishalirwn’s solution (w/localstorage)](https://github.com/faishalirwn/library) - [View in Browser](https://faishalirwn.github.io/library/)
 - [lonewolf045's solution (w/firebase)](https://github.com/lonewolf045/library) - [View in Browser](https://lonewolf045.github.io/library/)
 - [Nijepa's Solution](https://github.com/nijepa/project-library) - [View in Browser](https://nijepa.github.io/project-library/)
+- [liampc's Solution](https://github.com/liampc/Library) - [View in Browser](https://liampc.github.io/Library/)
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/library) - [View in Browser](https://playingongithub.github.io/library/)
 </details>
