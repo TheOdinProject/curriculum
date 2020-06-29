@@ -223,5 +223,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [alxmkh's Solution](https://github.com/alxmkh/tic_tac_toe) - [View in Browser](https://alxmkh.github.io/tic_tac_toe/)
 - [Chandra's Solution](https://github.com/CodeSurfer3022/Tic-Tac-Toe) - [View in Browser](https://codesurfer3022.github.io/Tic-Tac-Toe/)
 - [Khabiir's Solution](https://github.com/khabiirk/Tic-Tac-Toe)
+- [constantinginga's Solution](https://github.com/constantinginga/tic-tac-toe) - [View in Browser](https://constantinginga.github.io/tic-tac-toe/)
 - [Nijepa's Solution](https://github.com/nijepa/tic-tac-toe) - [View in Browser](https://nijepa.github.io/tic-tac-toe/)
 </details>
