@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function randomInteger(number) {
+                let randomInt = Math.floor(Math.random() * Math.floor(number));
+                return(randomInt);
+            }
+            function computerPlay() {
+                /* Génère un choix aléatoire entre Rock, Pper et Scissors.
+                return : string */
+                let computerChoice = 0;
+                let choice = randomInteger(3);
+                switch (choice) {
+                    case 0:
+                        computerChoice = 'rock';
+                        break;
+        
+                    case 1:
+                        computerChoice = 'paper';
+                        break;
+                    case 2:
+                        computerChoice = 'scissors';
+                        break;
+                    
+                    default:
+                        break;
+                }
+                return(computerChoice);
+            }
+        
+            function playRound(playerSelection, computerSelection){
+                /* Compare les choix de l'ordinateur et du joueur, et en déduit le gagnant.
+                Pierre > Ciseau > Feuille > Pierre 
+                return : string */
+                playerSelection = playerSelection.toLowerCase();
+                let winner = '';
+                let winnerChoice = '';
+                let looserChoice = '';
+        
+                if (computerSelection == playerSelection) {
+                    winner = 'tie';
+                }
+        
+                else if ((computerSelection == 'rock' && playerSelection == 'paper') || (computerSelection == 'paper' && playerSelection == 'rock')) {
+                    winnerChoice = 'paper';
+                    looserChoice = 'rock';
+                    switch (playerSelection) {
+                        case 'paper':
+                            winner = 'player';
+                            break;
+                        
+                        case 'rock':
+                            winner = 'computer';
+                            break;
+        
+                        default:
+                            break;
+                    }
+                } 
+                
+                else if ((computerSelection == 'scissors' && playerSelection == 'paper') || (computerSelection == 'paper' && playerSelection == 'scissors')) {
+                    winnerChoice = 'scissors';
+                    looserChoice = 'paper';
+                    switch (playerSelection) {
+                        case 'paper':
+                            winner = 'computer';
+                            break;
+                        
+                        case 'scissors':
+                            winner = 'player';
+                            break;
+        
+                        default:
+                            break;
+                    }
+                } 
+        
+                else if ((computerSelection == 'rock' && playerSelection == 'scissors') || (computerSelection == 'scissors' && playerSelection == 'rock')) {
+                    winnerChoice = 'rock';
+                    looserChoice = 'scissors';
+                    switch (playerSelection) {
+                        case 'scissors':
+                            winner = 'computer';
+                            break;
+                        
+                        case 'rock':
+                            winner = 'player';
+                            break;
+        
+                        default:
+                            break;
+                    }
+                } 
+        
+                else {
+                    winner = 'tie';
+                }
+        
+                if (winner == 'tie'){
+                    return("it's a " + winner + " ! try again")
+                }
+                else {
+                    return("the " + winner + " has won this round ! " + winnerChoice + " beats " + looserChoice);
+                }
+            }
+            function game() {
+                for (let index = 0; index < 5; index++) {
+                    let playerSelection = prompt('Entrez votre choix : ');
+                    let computerSelection = computerPlay();
+                    console.log(playRound(playerSelection, computerSelection));
+                }
+            }
+
+            game();
+        </script>
+    </head>
+</html>
