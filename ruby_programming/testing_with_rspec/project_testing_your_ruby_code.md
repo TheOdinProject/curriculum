@@ -4,11 +4,10 @@ A good way to get familiar with and begin contributing to a new project is to wr
 
 You still may feel shaky on RSpec at this point (which is totally normal), so let's go back in time and write tests for some of the code you've already done to build up a bit of muscle memory.  If you've written a good batch, submit them below and we'll include them as part of the original project description to help future students!
 
-### Assignment
+### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
-  1. Go back to the [Building Blocks Project](/courses/ruby-programming/lessons/building-blocks) and write tests for your "Caesar's Cipher" code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
-  1. Go back to the [Advanced Building Blocks Project](/courses/ruby-programming/lessons/advanced-building-blocks) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.
+  1. Go back to the [Caesar Cipher Project](/courses/ruby-programming/lessons/caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
   2. Write tests for your [Tic Tac Toe project](/courses/ruby-programming/lessons/oop).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make the tests determine victory or loss conditions are correctly assessed.
       1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game-over` method (or its equivalent) should trigger.
       2. Test each of your critical methods to make sure they function properly and handle edge cases.
@@ -18,8 +17,30 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/testing_with_rspec/project_testing_your_ruby_code.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Tilda Udufo's Solutions: [Caesar Cipher](https://github.com/TildaDares/caesar_cipher), [Tic-Tac-Toe](https://github.com/TildaDares/tic-tac-toe)
+* irlgabriel's Solutions: [Caesar Cipher](https://github.com/irlgabriel/the-odin-project/tree/master/ruby-exercises), [Tic-Tac-Toe](https://github.com/irlgabriel/the-odin-project/tree/master/tic-tac-toe-rb)
+* Michael K's Solutions: [Caesar Cipher](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/caesar_cipher), [Tic-Tac-Toe](https://github.com/a0x77ry/tic-tac-toe)
+* andrewjh271's Solutions: [Caesar Cipher](https://github.com/andrewjh271/basic_ruby_projects/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/andrewjh271/tic_tac_toe)
+* Saul-Good-Homie's Solutions: [Caesar Cipher](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/tictactoe)
+* Christian's Solutions: [Caesar Cipher](https://github.com/rueeazy/ruby-building-blocks/tree/master/caesar-cipher), [Tic-Tac-Toe](https://github.com/rueeazy/OOP/tree/master/tic-tac-toe)
+* pudu87's Solutions: [Caesar Cipher](https://github.com/pudu87/ruby-exercises/tree/master/caesar-cipher), [Tic Tac Toe](https://github.com/pudu87/tic-tac-toe)
+* YesSeri's Solutions: [Caesar Cipher](https://github.com/YesSeri/caesar_cipher)
+* Olugbade Olalekan's Solutions: [Tic Tac Toe](https://github.com/gbadesimple/tic_tac_toe_implementation_tdd), [Enumerable Module](https://github.com/gbadesimple/enumerable_module_implementation_TDD), [Caesar Cipher](https://github.com/gbadesimple/caesar_cipher_implementation_TDD)
+* jodokusquack's Solutions: [Builduing Blocks](https://github.com/jodokusquack/Ruby-Challenges), [Enumerable Methods](https://github.com/jodokusquack/Advanced_ruby_challenges), [Tic-Tac-Toe](https://github.com/jodokusquack/tic-tac-toe)
+* David Auza's and Falguni Islam's Solutions: [Tic Tac Toe](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Tic-Tac-Toe) => [Tic Tac Toe Demo](https://repl.it/@islamfalguni/tictactoe-1), [Enumerable Methods](https://github.com/eng-monika/RUBY-Testing-Your-Ruby-Code---Enumerable) => [Enumerable Methods Demo](https://repl.it/@DavidAuza/PROJECT-TESTING-YOUR-RUBY-CODE-Enumerable)
+* fossegrim's Solutions: [Caesar Cipher](https://github.com/olav35/building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/olav35/advanced-building-blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/olav35/tic-tac-toe/blob/master/spec/tic_tac_toe_spec.rb)
+* [Lucas Bide's Solution - Building Blocks](https://github.com/Lucas-Bide/rspec)
+* [Nasser Abachi's Solutions](https://github.com/abachi/theodinproject/tree/master/building-projects/connect_four)
+* [Nikolas Broman's Solutions](https://github.com/nikolasbroman/testing_rspec)
+* Ian's Solutions: [Caesar Cipher](https://github.com/IanMKesler/practice/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/IanMKesler/practice/tree/master/enumerable), [Tic Tac Toe](https://github.com/IanMKesler/Tic-Tac-Toe)
+* Alain Suarez's Solution: [Caesar Cipher](https://gitlab.com/asuar/ruby-building-blocks/blob/master/spec/caesar-cipher_spec.rb), [Enumerable Methods](https://gitlab.com/asuar/ruby-advanced-building-blocks/blob/master/spec/my-enumerable_spec.rb), [Tic Tac Toe](https://gitlab.com/asuar/ruby-tic-tac-toe/tree/master/spec)
+* Vollantre's Solution: [Caesar Cipher](https://github.com/vollantre/ruby_basic/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/vollantre/ruby_basic/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/vollantre/Tic_Tac_Toe/tree/master/spec)
+* Kevin Vuong's Solution: [Caesar Cipher](https://github.com/fffear/caesar_cipher), [Enumerable Methods](https://github.com/fffear/enumerable), [Tic Tac Toe](https://github.com/fffear/tic_tac_toe)
+* Rudi Boshoff's Solution[Caesar Cipher](https://github.com/RudiBoshoff/ruby-exercises/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/RudiBoshoff/ruby-exercises/tree/master/enumerable), [Tic Tac Toe](https://github.com/RudiBoshoff/ruby-exercises/tree/master/tic_tac_toe)
 * Mohamed Elattar's Solution[Caesar Cipher](https://github.com/mohamed-elattar/building-blocks), [Enumerable Methods](https://github.com/mohamed-elattar/advanced-building-blocks), [Tic Tac Toe](https://github.com/mohamed-elattar/tic-tac-toe)
 * [prw001's solutions](https://github.com/prw001/ruby_bdd_exercises)
 * Max Garber's solutions:[Caesar Cipher](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Caesar%20Ciphar), [Enumerable Methods](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Enumerable%20Methods), [Tic-Tac-Toe](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Tic%20Tac%20Toe)
@@ -89,6 +110,24 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Tommy's solution ([Caesar Cipher, Enumerable](https://github.com/hoangtommy/rubyExercises), [Tic Tac Toe](https://github.com/hoangtommy/tic-tac-toe))
 * bchalman's solutions: [Caesar Cipher](https://github.com/bchalman/ruby_exercises/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/bchalman/ruby_exercises/blob/master/spec/my_enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/bchalman/tic_tac_toe)
 * Alex's solutions: [Caesar Cipher](https://github.com/alexcorremans/caesar_cipher), [Enumerable](https://github.com/alexcorremans/enumerable), [Tic Tac Toe (incomplete)](https://github.com/alexcorremans/tictactoe)
+* Leila Alderman's solutions: [Caesar cipher](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/01_caesar/caesar_spec.rb) and [Enumerables](https://github.com/leila-alderman/TOP_ruby_exercises/blob/master/05_enumerables/spec/enumerables_spec.rb)
+* Emil Dimitrov's solutions: [Caesar's Cipher](https://github.com/imemdm/ruby-building-blocks/blob/master/caesar_cipher.rb), [Enumerable](https://github.com/imemdm/advanced-building-blocks), [Tic Tac Toe](https://github.com/imemdm/tic-tac-toe)
+* Vitaly Osipov's solutions: [Caesar's Cipher](https://github.com/vi7ali/caesar-cipher/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/vi7ali/my-enum-methods/blob/master/spec/my_enum_methods_spec.rb)
+* [Alex Krewson's solutions](https://github.com/alexkrewson/ruby_testing)
+* Robert Dunbar's solutions: [Caesar's Cipher](https://github.com/RobertDunbar/ruby-problems/blob/master/spec/cipher_spec.rb), [Enumerable](https://github.com/RobertDunbar/ruby-problems/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/RobertDunbar/ruby-oop/blob/master/tic-tac-toe/spec/tic-tac-toe_spec.rb)
+* Ben Fowler's solutions: [Caesar Cipher](https://github.com/benfowler04/ruby-building-blocks/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/benfowler04/ruby-building-blocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/benfowler04/ruby-oop/blob/master/spec/tic_tac_toe_spec.rb)
+* Sergej Jurchenko's solutions: [Caesar Cipher](https://github.com/Sergyurch/ruby_problems/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/Sergyurch/ruby_problems/blob/master/spec/enumerable-methods_spec.rb), [Tic Tac Toe](https://github.com/Sergyurch/ruby_problems/blob/master/spec/tic_tac_toe_game_spec.rb)
+* Bendee's Solutions: [Caesar Cipher](https://github.com/bendee48/ruby_building_blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/bendee48/advanced_building_blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/bendee48/tictactoe/blob/master/spec/tictactoe_spec.rb)
+* guacamobley's solutions: [Caesar Cipher](https://github.com/guacamobley/ruby-building-blocks), [Enumerable](https://github.com/guacamobley/ruby-advanced-building-blocks), [Tic Tac Toe](https://github.com/guacamobley/tic-tac-toe)
+* Ranon Martin's solutions: [Caesar Cipher](https://github.com/ranonm/TheOdinProjectExercises/blob/master/caesar_cipher/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/ranonm/TheOdinProjectExercises/blob/master/enumerable_methods/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/ranonm/TheOdinProjectExercises/blob/master/tic_tac_toe/spec/board_spec.rb)
+* Timework's Solutions: [Caesar Cipher](https://github.com/Timework/caesarCipher/blob/master/spec/caesar_spec.rb), [Enumerable](https://github.com/Timework/enumerable/blob/master/spec/enum_spec.rb), [Tic Tac Toe](https://github.com/Timework/ticTac/blob/master/spec/tic_spec.rb)
+* Matt M's Solutions: [Caesar Cipher](https://github.com/MattMiller1989/Caesar-Cipher), [Tic Tac Toe](https://github.com/MattMiller1989/Tic-Tac-Toe)
+* fussykyloren's Solutions: [Caeser Cipher](https://github.com/fussykyloren/odin-project-basic-ruby-projects/tree/master/caeser-cipher), [Tic-Tac-Toe](https://github.com/fussykyloren/ruby-tic-tac-toe)
+* Cameron St. Amant's Solutions: [Caesar Cipher](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Basic_ruby_projects/Caesar), [Tic-Tac-Toe](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Intermediate_ruby/Tic_tac_toe)
+* mpiriya's Solutions: [Caesar Cipher](https://github.com/mpiriya/ruby/tree/master/caesar-cipher), [Tic-Tac-Toe](https://github.com/mpiriya/ruby/tree/master/tictactoe)
+* Chow Jia Ying's Solutions: [Caesar Cipher](https://github.com/C-likethis123/ruby_odin_project/blob/master/lib/caesar_cipher.rb), [Tic-Tac-Toe](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
+* Sandy's Solutions: [Caesar Cipher](https://github.com/kuosandys/top-ruby-assignments/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/kuosandys/top-ruby-assignments/tree/master/tic_tac_toe)
+</details>
 
 ### Project: TDD Connect Four
 
@@ -100,7 +139,7 @@ The major difference here is that you'll be doing this TDD-style.  So figure out
 
 Only write exactly enough code to make your test pass.  Oftentimes, you'll end up having to write two tests in order to make a method do anything useful.  That's okay here.  It may feel a bit like overkill, but that's the point of the exercise.  Your thoughts will probably be something like "Okay, I need to make this thing happen.  How do I test it?  Okay, wrote the test, how do I code it into Ruby?  Okay, wrote the Ruby, how can I make this better?"  You'll find yourself spending a fair bit of time Googling and trying to figure out exactly how to test a particular bit of functionality.  That's also okay... You're really learning RSpec here, not Ruby, and it takes some getting used to.
 
-### Assignment
+### Assignment 2
 
 <div class="lesson-content__panel" markdown="1">
   1. Build Connect Four!  Just be sure to keep it TDD.
@@ -109,8 +148,45 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Sam Eff's Solution](https://github.com/SamEff/connect_four)
+* [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/connect_four)
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/connect-four-tdd)
+* [Michael K's Solution](https://github.com/a0x77ry/connect_four)
+* [andrewjh271's Solution](https://github.com/andrewjh271/connect_four)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/connect_four)
+* [Christian's Solution](https://github.com/rueeazy/ruby-exercises/tree/master/connect_four)
+* [pudu87's Solution](https://github.com/pudu87/connect_four)
+* [Philipp's Solution](https://github.com/philipp-mcvity/odin-ruby.connect_four)
+* [YesSeri's Solution](https://github.com/YesSeri/connect_four)
+* [Billy Coffin's Solution](https://github.com/bcoffin9/connectfour)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/connect_four_tdd)
+* [jodokusquack's Solution](https://github.com/jodokusquack/connect_four)
+* [proto-dylan's Solution](https://github.com/proto-dylan/connect_four)
+* [Run After's Solution](https://github.com/run-after/tdd_connect_four)
+* [Sher's solution](https://github.com/sher-s7/connect4)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/connect4)
+* [Nikolas Broman's solution](https://github.com/nikolasbroman/connect_four)
+* [Ian's Solution](https://github.com/IanMKesler/connect_four_TDD)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-practice)
+* [Chirs' Solution](https://github.com/CSalois114/project_connect_four)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/connect-four)
+* [Jay Burbyga's Solution](https://github.com/Jaybur1/ruby_exercises/tree/master/CONNECT_FOUR)
+* [BShowen's Solution](https://github.com/bshowen/cl_connect_four)
+* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/connect_four)
+* [Vollantre's solution](https://github.com/vollantre/connect_four)
+* [Kevin Vuong's solution](https://github.com/fffear/connect-four)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/ruby-exercises/tree/master/connect_four)
+* [Narek's solution](https://github.com/narekokr/connect-four)
+* [Learnsometing's solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/connect-four)
+* [Chris Wegschied's solution](https://github.com/cwegscheid08/connect_four)
+* [Leila Alderman's solution](https://github.com/leila-alderman/connect_four)
+* [Simon Tharby's solution](https://github.com/jinjagit/connect_four)
 * [Mohamed Elattar's Solution](https://github.com/mohamed-elattar/count-four)
+* [Dennis Cope's solution](https://github.com/coped/connect-four)
 * [prw001's solution](https://github.com/prw001/connect_four)
 * [Max Garber's solution](https://github.com/bubblebooy/miscellaneous-exercises/tree/master/Connect%20Four)
 * [Demo318's solution](https://github.com/Demo318/ruby_connect_four)
@@ -138,7 +214,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Stefan P's solution](https://github.com/spavikevik/connect_four)
 * [Leonard Soaivan's solution](https://github.com/leosoaivan/TOP_connectfour)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing/connect_four_tdd)
-* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec/connect_four)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec/
+connect_four)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/connect_four)
 * [James MacIvor's solution](https://github.com/RobotOptimist/connect_four)
 * [Aleksandar's solution](https://github.com/rodic/Odin-Ruby-Projects/tree/master/Project:%20Testing%20Ruby%20with%20RSpec)
@@ -193,6 +270,30 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Malaika's Solution](https://github.com/malaikaMI/connect_four)
 * [bchalman's Solution](https://github.com/bchalman/connect_four)
 * [Alex's Solution](https://github.com/alexcorremans/connect_four)
+* [Emil Dimitrov's Solution](https://github.com/imemdm/connect_four)
+* [vanny96's Solution](https://github.com/vanny96/connect_four)
+* [Vitaly Osipov's Solution](https://github.com/vi7ali/connect-four). [Play on Repl.it](https://repl.it/@vi7ali/Connect-Four-game)
+* [JamCry's Solution](https://github.com/jamcry/ruby-connect-four) - [Play on Repl.it](https://repl.it/@jamcry/Connect4-the-game)
+* [Alex Krewson's solutions](https://github.com/alexkrewson/ruby_testing)
+* [JFAldridge's solution](https://github.com/JFAldridge/ruby_connect_four)
+* [Robert Dunbar's solutions](https://github.com/RobertDunbar/ruby-connect-four)
+* [Rey van den Berg's solution](https://github.com/Rey810/ruby-connect4)
+* [Ben Fowler's solution](https://github.com/benfowler04/connect-four) - [Play on repl.it](https://repl.it/@BenFowler/Connect-Four)
+* [Ray Alvarez's solution](https://github.com/ray-alvarez/connect_four)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/connect_four_game) - [Play on repl.it](https://repl.it/@SergejJurchenko/connectfourgame)
+* [guacamobley's solution](https://github.com/guacamobley/TDD-Connect-Four)
+* [Bendee's Solution](https://github.com/bendee48/connect_four) - [Play on Repl.it](https://repl.it/@bendee48/connectfour)
+* [Busy Bee's Solution](https://github.com/swissbusybee/Connect_Four_Project)
+* [Jay Conner's Solution](https://github.com/cleve703/connect4)
+* [Hyperturing's Solution](https://github.com/hyperturing/connectfour)
+* [Robert Suazo's Solution](https://github.com/rsuazo/connect_four)
+* [Timework's Solution](https://github.com/Timework/connect)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-connect-four) - [Play on Repl.it](https://repl.it/@fussykyloren/ruby-connect-four)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Connect_four)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/connect-four)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/plot_four)
+* [Sandy’s Solution](https://github.com/kuosandys/top-ruby-assignments/tree/master/connect_four)
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -1,4 +1,4 @@
-The first step is to have a strategy.  You've come this far with a deliberate and strategic approach to learning, why abandon it at the most important phase?  Getting a job can itself be a full-time job so use your time wisely and plan ahead.  There are some things you can and should do ahead of time, which we talked about a bit in the [lesson on Getting Hired in the Introduction to Web Development course](/introduction-to-web-development/getting-hired-as-a-web-developer) but will cover in greater depth below.
+The first step is to have a strategy.  You've come this far with a deliberate and strategic approach to learning, why abandon it at the most important phase?  Getting a job can itself be a full-time job so use your time wisely and plan ahead.  There are some things you can and should do ahead of time, which we will cover in greater depth below.
 
 The path to working takes the following form:
 
@@ -19,7 +19,7 @@ We'll also cover some alternate paths you can take like finishing up your educat
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. A fantastic place to start your "getting hired" journey is this **[very thorough article from Happy Bear Software on How to Get A Programmer Job](http://happybearsoftware.com/how-to-get-a-programmer-job.html)** (which was also a part of the Intro to Web Dev course).
+1. A fantastic place to start your "getting hired" journey is this **[very thorough article from Happy Bear Software on How to Get A Programmer Job](http://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html)**.
 
 Now get your head out of the clouds, stop dreaming about how you'll get hired, and actually do it!
 </div>
@@ -27,4 +27,6 @@ Now get your head out of the clouds, stop dreaming about how you'll get hired, a
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Add some!
+* [Getting your first IT job from InformationWeek](https://www.informationweek.com/team-building-and-staffing/how-to-land-your-first-it-job/d/d-id/1111584)
+* [Engineer’s Guide to US Visas](http://blog.sourcing.io/visa-guide)
+* [Lessons from a Silicon Valley Job Search by Robert Heaton](https://robertheaton.com/2014/03/07/lessons-from-a-silicon-valley-job-search/)

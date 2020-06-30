@@ -9,7 +9,7 @@ A typical airline booking flow:
 3. Enter passenger information for all passengers
 4. Enter billing information
 
-Step 4 would be done via integration of something like [Paypal](http://coding.smashingmagazine.com/2011/09/05/getting-started-with-the-paypal-api/), via [a gem](https://github.com/nov/paypal-express) or [an SDK](http://www.tommyblue.it/2013/07/03/paypal-express-checkout-with-ruby-on-rails-and-paypal-sdk-merchant) or [Stripe](https://stripe.com/docs/checkout/guides/rails).
+Step 4 would be done via integration of something like [Paypal](http://coding.smashingmagazine.com/2011/09/05/getting-started-with-the-paypal-api/), via [a gem](https://github.com/nov/paypal-express) or [an SDK](https://www.tommyblue.it/2013/07/02/paypal-express-checkout-with-ruby-on-rails-and-paypal-sdk-merchant/) or [Stripe](https://stripe.com/docs/checkout/guides/rails).
 
 ### Assignment
 
@@ -67,10 +67,31 @@ Once the user has submitted their chosen flight, it's time to take their booking
 ### Student Solutions
 Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_flight_booker)
+* [Jason Thompson's Solution](https://github.com/jasont01/odin-flight-booker) - [View in Browser](https://odin-airlines.herokuapp.com/)
+* [Run After's Solution](https://github.com/run-after/odin-flight-booker)
+* [BShowen's Solution](https://github.com/BShowen/flight_booker) - [View in Browser](https://aerosplat.herokuapp.com/)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/flight_booker)
+* [BShowen's Solution](https://github.com/BShowen/flight_booker) - [Live](https://aerosplat.herokuapp.com/)
+* [Duarte's simple solution](https://github.com/Duartemartins/flight-booker)
+* [robo-monk's Solution](https://github.com/robo-monk/odin-flights) - [View in Browser](https://infinite-ridge-41115.herokuapp.com/)
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_flight_booker) - [View in Browser](https://ovsjazz-odin-flight-booker.herokuapp.com/)
+* [fossegrim's solution](https://github.com/olav35/odin-airlines) - [View in browser](https://murmuring-forest-28440.herokuapp.com/)
+* [CodingCop's Solution](https://github.com/cleve703/odin-flight-booker)
+* [Ian's solution](https://github.com/IanMKesler/odin-flight-booker)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-flight-booker) - [View in browser](https://stormy-woodland-85583.herokuapp.com/)
+* [Kevin Vuong's solution](https://github.com/fffear/odin-flight-booker)
+* [Learnsometing's solution](https://github.com/learnsometing/rails-flight_booker)
+* [Simon Tharby's solution](https://github.com/jinjagit/flight-booker) - [View in browser](https://aqueous-citadel-60266.herokuapp.com)
+* [amundskm's Solution](https://github.com/amundskm/odin-flight-booker)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-flight-booker) - [View in Browser](https://safe-peak-87499.herokuapp.com)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-flight-booker)
-* [Javier Machin's solution](https://github.com/Javier-Machin/flight-booker) - [Live](https://easy-flight.herokuapp.com/)
-* [nmac's solution](https://github.com/nmacawile/fly-me-there) - [Heroku](http://protected-castle-72511.herokuapp.com)
+* [Javier Machin's solution](https://github.com/Javier-Machin/flight-booker) - [View in Browser](https://easy-flight.herokuapp.com/)
+* [nmac's solution](https://github.com/nmacawile/fly-me-there) - [View in Browser](http://protected-castle-72511.herokuapp.com)
 * [brxck's solution](https://github.com/brxck/flight-booker) - [View in Browser](https://nameless-sierra-62923.herokuapp.com/)
 * [Jmooree30's solution](https://github.com/jmooree30/flight-booker.git) - [View in Browser](https://powerful-wildwood-98145.herokuapp.com/)
 * [theghall's solution](https://github.com/theghall/odin-flight-booker.git)
@@ -80,11 +101,11 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_flight_tracker) - [View in Browser](https://immense-lowlands-59487.herokuapp.com/)
 * [yilmazgunalp`s solution](https://github.com/yilmazgunalp/flight_booker) - [View in Browser](https://sheltered-lowlands-87484.herokuapp.com/)
 * [Joshua Wootonn`s solution](https://github.com/jose56wonton/flight-booker) - [View in Browser](https://flight-booker-jw.herokuapp.com/)
-* [holdercp's solution](https://github.com/holdercp/odin-flight-booker) - [Live site](https://flight-booker-odin.herokuapp.com/)
+* [holdercp's solution](https://github.com/holdercp/odin-flight-booker) - [View in Browser](https://flight-booker-odin.herokuapp.com/)
 * [Jfonz412's solution](https://github.com/jfonz412/flight-booker)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Flight_booker)
-* [CloudTemplar_'s solution](https://github.com/cloudtemplar/flight-booker) - [Live on Heroku!](https://protected-escarpment-37952.herokuapp.com/)
-* [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/odin-flight-booker) - [Live website](https://sleepy-oasis-66283.herokuapp.com)
+* [CloudTemplar_'s solution](https://github.com/cloudtemplar/flight-booker) - [View in Browser](https://protected-escarpment-37952.herokuapp.com/)
+* [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/odin-flight-booker) - [View in Browser](https://sleepy-oasis-66283.herokuapp.com)
 * [Sic's solution](https://github.com/sic-f/flight-booker) - [View in browser](http://flyt-booker.herokuapp.com)
 * [Austin's solution](https://github.com/CouchofTomato/flight-booker)
 * [spierer's solution](https://github.com/spierer/odin-advanced-forms)
@@ -133,6 +154,16 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/flight-booker)
 * [Agon's solution](https://github.com/AgonIdrizi/flight-booker) - [View in Browser](https://flight-booker-agon.herokuapp.com/)
 * [Malaika's Solution](https://github.com/malaikaMI/AirFly)
+* [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [View in Browser](https://redux-flights.herokuapp.com/)
+* [bchalman's Solution](https://github.com/bchalman/odin-flight-booker)
+* [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/flight-booker)
+* [vanny96's Solution](https://github.com/vanny96/flight-booker) - [View in Browser](https://fast-savannah-97084.herokuapp.com/)
+* [JamCry's Solution](https://github.com/jamcry/flight-booker) - [Live on Heroku](https://dry-caverns-97659.herokuapp.com/)
+* [themetar's Solution](https://github.com/themetar/flight-booker-top)
+* [Rey van den Berg's Solution](https://github.com/Rey810/flight-booker)
+* [Timework's Solution](https://github.com/Timework/odin-flight-booker)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/e40ad2750fa046f48eec7b3b2870baee93c4bd4c/odin-flight-booker)
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

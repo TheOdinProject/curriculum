@@ -35,6 +35,9 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 ### Student Solutions
 Submit a link to your GitHub repo here with a pull request.  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [Lucas Bicudo's Solution for problem 1](https://github.com/lucbic/Project-Euler) - [View in browser](https://lucbic.github.io/Project-Euler/)
 * [Alex's Solution for problem 1](https://github.com/dracken2332/EulerProject) - [View in browser](https://dracken2332.github.io/EulerProject/)
@@ -555,6 +558,7 @@ Submit a link to your GitHub repo here with a pull request.  Please include your
 * [Christene Bennett's Solution](https://github.com/thechristene/project-euler)
 * [Jonathan Cheung's Solution for problem 1 and 2](https://github.com/hamyqueso/project_euler)
 
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something:

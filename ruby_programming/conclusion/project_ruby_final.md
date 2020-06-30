@@ -23,7 +23,38 @@ This is a great project to have as a part of your portfolio going forward becaus
 ### Student Solutions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/conclusion/project_ruby_final.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
+* [Nsars19's Solution](https://github.com/nsars19/Chess)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/chess_game)
+* [pudu87's Solution](https://github.com/pudu87/chess-game)
+* [Christian's Solution](https://github.com/rueeazy/chess) - [Play on repl.it](https://repl.it/@rueeazy/chess)
+* [rryand's Solution](https://github.com/rryand/rchess) - [Play on repl.it](https://repl.it/@rryand/rchess)
+* [YesSeri's Solution](https://github.com/YesSeri/chess)
+* [Billy's Solution](https://github.com/bcoffin9/ruby-chess)
+* [jodokusquack's Solution](https://github.com/jodokusquack/ruby_chess) - [Play on repl.it](https://repl.it/@jodokusquack/rubychess)
+* [proto-dylan's Solution](https://github.com/proto-dylan/chess)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/ruby_final_project)
+* [Robin's Solution](https://github.com/CoolGlasses/ruby_final_project)
+* [Run After's Solution](https://github.com/run-after/chess)
+* [Joshua Aldridge's Solution](https://github.com/JFAldridge/ruby_chess)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/command_line_chess)
+* [Ian's Solution](https://github.com/IanMKesler/chess)
+* [BShowen's Solution](https://github.com/BShowen/ruby_chess)
+* [Alain Suarez's Solution](https://gitlab.com/asuar/ruby-chess)
+* [Chris' Solution](https://github.com/CSalois114/project_chess)
+* [Andrija Jelenkovic's Solution](https://github.com/Amdrija/ruby-chess)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/chess-game)
+* [Onur Temiz's solution](https://github.com/temizonur/chess)
+* [Kevin Vuong's solution](https://github.com/fffear/chess)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/chess)
+* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/chess)
+* [Learnsometing's solution](https://github.com/learnsometing/TOP-ruby-projects/tree/master/chess)
+* [Chris Wegscheid's solution](https://github.com/cwegscheid08/chess)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-chess-project)
+* [Simon Tharby's solution](https://github.com/jinjagit/chess)
 * [prw001's solution](https://github.com/prw001/chess)
 * [Max Garber's solution](https://github.com/bubblebooy/TOP-chess)
 * [Btreims's solution](https://github.com/btreim/chess)
@@ -94,6 +125,26 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jamesredux's solution](https://github.com/Jamesredux/chess)
 * [Punnadittr's solution](https://github.com/punnadittr/chess)
 * [Alex's solution](https://github.com/alexcorremans/chess)
+* [Leila Alderman's solution](https://github.com/leila-alderman/chess)
+* [vanny96's solution](https://github.com/vanny96/chess)
+* [Vitaly Osipov's solution](https://github.com/vi7ali/chess)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/tree/master/chess)
+* [Alex Krewson's solution](https://github.com/alexkrewson/chess)
+* [Robert Dunbar's solution](https://github.com/RobertDunbar/ruby-chess)
+* [Sergej Jurchenko's solution](https://github.com/Sergyurch/chess_game)
+* [Husseinhewehiis solution](https://github.com/Husseinhewehii/Chess)
+* [Ben Fowler's solution](https://github.com/benfowler04/chess) - [Play on repl.it](https://repl.it/@BenFowler/chess)
+* [guacamobley's solution](https://github.com/guacamobley/chess)
+* [unheavenlycreature's solution](https://github.com/unheavenlycreature/chess)
+* [Bendee's Solution](https://github.com/bendee48/chess) - [Repl.it](https://repl.it/@bendee48/chess)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/RubyProgramming/tree/master/chess)
+* [CodingCop's Solution](https://github.com/cleve703/chess)
+* [Timework's Solution](https://github.com/Timework/chess)
+* [Robert Suazo's Solution](https://github.com/rsuazo/chess)
+* [Matt Miller's Solution](https://github.com/MattMiller1989/Chess)
+* [fussykyloren's Solution](https://github.com/fussykyloren/ruby-chess-v2)
+
+</details>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

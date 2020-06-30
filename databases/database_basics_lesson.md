@@ -14,8 +14,6 @@ Look through these now and then use them to test yourself after doing the assign
 * How are relational databases different from XML?
 * What is SQL?
 * What is SQL used for?
-* What does CRUD stand for?
-* Why is the idea of "CRUD" so important for web apps?
 * How do you get all the records from a table in SQL?
 * How do you insert a record in SQL?
 
@@ -25,7 +23,7 @@ Look through these now and then use them to test yourself after doing the assign
 
   1. Check out this [introduction](https://launchschool.com/books/sql/read/introduction) of how SQL can be used to organise and manage an overwhelming amount of data. (You do not need to go any further than the first page on introductions.)
   2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
-  3. Go through this [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), to get a feel for actually creating and manipulating databases
+  3. Go through this [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), to get a feel for actually creating and manipulating databases.
 
 </div>
 
@@ -34,4 +32,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
-* Hunter Ducharme created [an e-book](http://hgducharme.gitbooks.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
+* Hunter Ducharme created [an e-book](https://app.gitbook.com/@hunter-ducharme/s/sql-basics/) which is a great documentation on how to do all the basics in SQL.

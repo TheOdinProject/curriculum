@@ -26,7 +26,7 @@ There is also a big difference between each of the image filetypes, so pay atten
 1. Read [Shay Howe on Images and Media (includes CSS)](http://learn.shayhowe.com/html-css/images-audio-video)
 2. Read about the [Differences between image types (see first answer) from SO](http://stackoverflow.com/questions/2336522/png-vs-gif-vs-jpeg-when-best-to-use)
 3. Watch this [YouTube video about adding video to your page](https://www.youtube.com/watch?v=4I1WgJz_lmA)
-4. Glance over [Raster vs Vector images explained simply by YouTheDesigner.com](http://www.youthedesigner.com/2012/08/12/how-to-explain-raster-vs-vector-to-your-clients/).  The pictures are broken in the article, but here is a [short YouTube video](https://www.youtube.com/watch?v=2eM7uH4qNrw) illustrating the difference.  Don't worry if you don't absorb it all -- you'll have time to pick it up later.
+4. Glance over [Raster vs Vector images explained simply by YouTheDesigner.com](http://www.ucreative.com/articles/how-to-explain-raster-vs-vector-to-your-clients/).  The pictures are broken in the article, but here is a [short YouTube video](https://www.youtube.com/watch?v=2eM7uH4qNrw) illustrating the difference.  Don't worry if you don't absorb it all -- you'll have time to pick it up later.
 </div>
 
 ### Additional Resources

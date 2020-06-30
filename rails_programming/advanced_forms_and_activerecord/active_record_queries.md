@@ -29,7 +29,7 @@ Look through these now and then use them to test yourself after doing the assign
 Using `User.find(1)` will return an unambiguous object -- it's going to find the user with ID = 1 and give it to you as a Ruby object.  But this behavior is actually unusual.  Most queries don't actually return a Ruby object, they just fake it.  For example:
 
 ~~~ruby
-  User.where(:id => 1)
+  User.where(id: 1)
 ~~~
 
 Might look like it returns an array that contains a serialized User object, like:
@@ -38,7 +38,7 @@ Might look like it returns an array that contains a serialized User object, like
   [#<User id: 1, email: "foo@bar.com">]
 ~~~
 
-But try running `User.where(:id => 1).class` and you'll see that it isn't an `Array`, it's actually an instance of `ActiveRecord::Relation`.  Relations are actually just really good at looking like arrays but they've got more going on.
+But try running `User.where(id: 1).class` and you'll see that it isn't an `Array`, it's actually an instance of `ActiveRecord::Relation`.  Relations are actually just really good at looking like arrays but they've got more going on.
 
 Active Record queries return relations to be lazy.  There's basically no reason to actually tell the database to execute a query until the very last possible minute.  What if you never actually needed to use that query at all?  What if you want to make it more complex before executing it?  Relations give you that flexibility and make much more efficient use of your database's valuable time.  
 
@@ -48,7 +48,7 @@ This behaviour can be a bit tricky to observe if you use something like the Rail
 
 #### Chaining Queries
 
-Relations aren't just built for speed... they're also built for flexibility.  Let's say you want to grab the first 5 posts listed in ascending order (`Post.limit(5).order(:created_at => :desc)`).  Because `#limit` returns a Relation, `#order` takes that relation and adds its own criteria to it.  You can chain together a dozen methods this way, and, when it's finally time to execute, ActiveRecord and SQL (if that's what you're using for the DB) will figure out the optimal way to structure the query to achieve the desired result.
+Relations aren't just built for speed... they're also built for flexibility.  Let's say you want to grab the first 5 posts listed in ascending order (`Post.limit(5).order(created_at: :desc)`).  Because `#limit` returns a Relation, `#order` takes that relation and adds its own criteria to it.  You can chain together a dozen methods this way, and, when it's finally time to execute, ActiveRecord and SQL (if that's what you're using for the DB) will figure out the optimal way to structure the query to achieve the desired result.
 
 This is the sort of behaviour that you just sort of expect to work, and Relations are what enables it to do so.
 
@@ -77,8 +77,8 @@ The simplest new concept is how to check whether an object actually exists yet o
   Post.many?
 
   # via a relation
-  Post.where(:published => true).any?
-  Post.where(:published => true).many?
+  Post.where(published: true).any?
+  Post.where(published: true).many?
 
   # via an association
   Post.first.categories.any?
@@ -89,7 +89,7 @@ The simplest new concept is how to check whether an object actually exists yet o
 
 There are multiple ways to submit arguments for most Rails query methods.  You can typically use either symbols or strings or both.  I prefer to stick with symbols and hashes wherever possible.  You can also use `?` parameters like in normal SQL.  When it's not ambiguous (e.g. if you aren't working with multiple tables) you can also choose to specify the table name or not (see #5 below).  All of the following are the same:
 
-1. `User.where(:email => "foo@bar.com")`
+1. `User.where(email: "foo@bar.com")`
 2. `User.where("email" => "foo@bar.com")`
 3. `User.where("email = 'foo@bar.com'")`
 4. `User.where("email = ?", "foo@bar.com")`
@@ -101,9 +101,9 @@ Very large queries can actually be batched into lots of subqueries so they don't
 
 `#where` queries give you a fair bit of flexibility -- they let you specify an exact value to find, a range of values to find, or several values to find.  If you know what type of query you're looking for, you can almost guess the proper syntax for executing it.  
 
-The key thing to note is that `#find` returns the actual record while `#where` returns an `ActiveRecord::Relation` which basically acts like an array.  So if you're using `#where` to find a single record, you still need to remember to go into that "array" and grab the first record, e.g. `User.where(:email => "foo@bar.com")[0]` or `User.where(:email => "foo@bar.com").first`.
+The key thing to note is that `#find` returns the actual record while `#where` returns an `ActiveRecord::Relation` which basically acts like an array.  So if you're using `#where` to find a single record, you still need to remember to go into that "array" and grab the first record, e.g. `User.where(email: "foo@bar.com")[0]` or `User.where(email: "foo@bar.com").first`.
 
-`#find_by` is a really neat method that basically lets you build your own finder method.  It's an alternative to using `#where` (to which you'd have to add another method like `#take` or `#first` to pull the result out of the returned array).  If you want to find by a user's email, write `User.find_by(:email => 'foo@bar.com')`.
+`#find_by` is a really neat method that basically lets you build your own finder method.  It's an alternative to using `#where` (to which you'd have to add another method like `#take` or `#first` to pull the result out of the returned array).  If you want to find by a user's email, write `User.find_by(email: 'foo@bar.com')`.
 
 `#select` should be pretty obvious to a SQL ninja like you -- it lets you choose which columns to select from the table(s), just like in SQL.  To select just the ID column for all users, it's as simple as `User.select(:id)`.  You can also use aliases like in SQL but should use quotes instead of symbols, e.g. `@users = User.select("users.id AS user_id")` will create a new attribute called `user_id`, e.g. allowing you to access `@users.first.user_id`.
 
@@ -171,7 +171,7 @@ Let's say you let your user choose to filter your blog posts only for those mark
 ~~~ruby
   # app/models/post.rb
   ...
-  scope :important, -> { where(:is_important => true) }
+  scope :important, -> { where(is_important: true) }
   ...
 
   # app/controllers/posts_controller.rb
@@ -193,7 +193,7 @@ You might be thinking, Why use a scope when you can write a class method to do t
   # app/models/post.rb
   ...
   def self.important
-    self.where(:is_important => true)
+    self.where(is_important: true)
   end
   ...
 ~~~
@@ -212,16 +212,16 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 <div class="lesson-content__panel" markdown="1">
 
 ### Querying Basics
-1. Read the first 5 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions.  Don't worry too much about batching and `#find_each`.
-2. Read section 20 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a brief look at using `exists?` `any?` and `many?`.
-2. Read sections 6, 7, and 21 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for an understanding of aggregate functions and the calculations you can run on them.
-3. Skim sections 8-11 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html).  
-4. Read section 12 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) to see how Rails lets you play with joining tables together.
-5. Read section 18 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a quick look at the helpful `find_or_create_by` methods.
+1. Read the first 5 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
+2. Read section 20 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?` `any?` and `many?`.
+3. Read sections 6, 7, and 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#group) for an understanding of aggregate functions and the calculations you can run on them.
+4. Skim sections 8-11 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).  
+5. Read section 12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#joining-tables) to see how Rails lets you play with joining tables together.
+6. Read section 18 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object) for a quick look at the helpful `find_or_create_by` methods.
 
 ### Advanced Querying
-1. Read chapter 14 in the [Rails Guide on Querying](http://guides.rubyonrails.org/active_record_querying.html) for a look at Scopes.  Again, you don't necessarily need to memorize all the details of scopes, but understand the concept and when it might be useful.
-2. Read Chapter 19 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
+1. Read section 14 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
+2. Read section 19 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
 </div>
 
 ### Conclusion

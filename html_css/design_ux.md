@@ -25,9 +25,9 @@ Remember that your goal here is to absorb the most important concepts and contin
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Startups, This is How Design Works](http://startupsthisishowdesignworks.com/)
-2. Read [UX 101 -- What is User Experience from Dashburst.com](https://blog.dashburst.com/infographic/ux-101-what-is-user-experience/)
-3. Get [A more detailed look at what UX really is from Smashing Magazine](http://uxdesign.smashingmagazine.com/2010/10/05/what-is-user-experience-design-overview-tools-and-resources/).  Don't worry about absorbing all the tools and techniques... focus on the high level stuff at the top.
-4. Read [A very simple overview of Visual Hierarchy from 52weeksofUX](http://52weeksofux.com/post/443828775/visual-hierarchy)
+2. Read [UX 101 -- What is User Experience](https://web.archive.org/web/20190825035454/https://www.homestead.com/blog/06/2013/ux-101-what-user-experience-infographic)
+3. Get [a more detailed look at what UX really is from Smashing Magazine](http://uxdesign.smashingmagazine.com/2010/10/05/what-is-user-experience-design-overview-tools-and-resources/).  Don't worry about absorbing all the tools and techniques... focus on the high level stuff at the top.
+4. Read [a very simple overview of Visual Hierarchy from 52weeksofUX](http://52weeksofux.com/post/443828775/visual-hierarchy)
 5. Read about the [C.R.A.P Design Principles](http://www.presentationzen.com/chapter6_spread.pdf), which you've been subconsciously aware of for years.
 </div>
 

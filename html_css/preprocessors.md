@@ -27,6 +27,5 @@ Preprocessors (aka precompilers) can make your life much easier by eliminating c
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [How to use LESS to avoid Bootstrap classes in HTML](http://ruby.bvision.com/blog/please-stop-embedding-bootstrap-classes-in-your-html)
 * [SASS's main website](http://sass-lang.com/)
 * [LESS's main website](http://www.lesscss.org/)

@@ -51,7 +51,7 @@ Just go for the latest version unless you have a compelling reason not to (it's 
 
 ### RESTful APIs
 
-Just like your routes should ideally be set up in a RESTful way, so too should APIs.  These days, most APIs are RESTful, meaning the usual batch of GET/PUT/PATCH/DELETE requests will retrieve resources as expected.  The good part about setting up your application routes RESTfully is that your API will be the same way.
+Just like your routes should ideally be set up in a RESTful way, so too should APIs.  These days, most APIs are RESTful, meaning the usual batch of HTTP methods (GET/POST/PUT/PATCH/DELETE) requests will retrieve resources as expected.  The good part about setting up your application routes RESTfully is that your API will be the same way.
 
 Working with RESTful APIs at least takes a lot of the headache out of the process since you can usually sort of guess what you should be doing, then can head over to the docs to figure out how exactly and what format you'll get the results back in.  For instance, just like you'd expect the GET request to the `/users` route in your app to display a page listing all its users, a GET request to a RESTful API for the same route should probably give you back a JSON or XML object filled with all the users (or at least some paginated sample of them).
 
@@ -125,3 +125,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
 * [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
+* Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over intergrating a third party API with Rails 5.
