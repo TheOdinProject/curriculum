@@ -24,7 +24,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+<<<<<<< HEAD
 * [Ryan Lewin's Solution](https://github.com/ryan-lewin/blogger) - [View in Browser](https://sheltered-brushlands-48518.herokuapp.com/)
+=======
+* [pudu87's Solution](https://github.com/pudu87/blogger) - [View in Browser](https://powerful-falls-45808.herokuapp.com/)
+* [Christian's Solution](https://github.com/rueeazy/blog) - [View in Browser](https://young-dawn-83367.herokuapp.com/)
+>>>>>>> 90894b19939b0b07485f9d168fe33432ab79be77
 * [irlgabriel's Solution](https://github.com/irlgabriel/blog-project) - [View in Browser](https://damp-bayou-50918.herokuapp.com/)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/blogger) - [View in Browser](https://infinite-scrubland-46670.herokuapp.com)
 * [Jose Bohorquez's Solution](https://github.com/Bhrqz/Rails_Blog_app) - [View in Browser](https://shrouded-hollows-77809.herokuapp.com/)
@@ -489,6 +494,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Bendee's Solution](https://github.com/bendee48/rails-blog) - [View in Browser](https://still-citadel-27600.herokuapp.com/articles)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-rails-blogger) - [View in Browser](https://whispering-wave-20353.herokuapp.com/)
 * [Ken H's Solution ](https://github.com/kholston/blogger) - [View in Browser](https://warm-oasis-24373.herokuapp.com/)
+* [Chris H's Solution](https://github.com/CKHarrison/Blog) - [View in Browser](https://blooming-badlands-82585.herokuapp.com/)
 </details>
 
 ### Additional Resources
