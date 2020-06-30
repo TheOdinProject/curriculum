@@ -50,5 +50,5 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
 * [Tommy's Solution - Live website](https://tommyhoang.com)
 * [Scott Huang's Solution - Source Code](https://github.com/scotth527/gatsby_blog) - [Live website](https://www.huangscott.com)
 * [Krzysztof Sordyl's Solution - Source Code](https://github.com/Verthon/portfolio) - [Live website](https://sordyl.me)
-* [Tim Kelly's - Source Code](https://github.com/timkellytk) - [Live website](https://timkelly.dev/)
+* [barrysweeney's Solution -Source Code](https://github.com/barrysweeney/personal-site) - [Live website](https://www.barrysweeney.com/)
 </details>
