@@ -52,6 +52,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kfollen93's Solution](https://github.com/Kfollen93/Binary_Search_Trees)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/binary_search_tree)
 * [BLuu's solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/binary_search_tree.rb)
 * [Sam Eff's solution](https://github.com/SamEff/binary_search_tree)
