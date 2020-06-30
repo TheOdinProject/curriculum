@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Oluwatobi Sofela's Solution](https://github.com/Oluwatobi-S/calculator) - [View in Browser](https://oluwatobi-s.github.io/calculator/)
 - [Dean's Solution](https://github.com/JuicyMelon/Calc) - [View in Browser](https://juicymelon.github.io/Calc/)
 - [Musabii's Solution](https://github.com/Musabii/calculator) - [View in Browser](https://musabii.github.io/calculator)
 - [vonhoro's Solution](https://github.com/vonhoro/calculator/) - [View in Browser](https://vonhoro.github.io/calculator/)
