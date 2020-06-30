@@ -19,6 +19,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Tic-Tac-Toe)
+* [Eduardo's Solution](https://github.com/helloeduardo/tic_tac_toe) - [View in repl.it](https://repl.it/@helloeduardo/tictactoe#tic_tac_toe.rb)
+* [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/TicTacToe)
 * [lrdvnz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/tree/master/mastermind)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/tic-tac-toe) - [View in repl.it](https://repl.it/github/TildaDares/tic-tac-toe)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/tic-tac-toe)
@@ -381,6 +384,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ethan W's Solution](https://github.com/ethan-wax/tic_tac_toe)
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/tictactoe.rb)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/tictactoe)
+* [ahanasi's Solution](https://github.com/ahanasi/tic-tac-toe) - [Play on repl.it](https://repl.it/@ahanasi/tic-tac-toe#.replit)
+* [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
+* [Dyrits's Solution](https://github.com/Dyrits/X-O-OP-TIC-TAC-TOE/blob/master/tic_tac_toe.rb)
+* [Intermedia's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/tictactoe.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/tic_tac_toe/blob/master/tic_tac_toe.rb)
+
 </details>
 
 ### Project 2: Mastermind
@@ -407,6 +416,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution (Computer has 68% win rate over 100000 games)](https://github.com/CodingShawn/TOP-Ruby-Mastermind)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/mastermind)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/mastermind)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/mastermind) - [View in repl.it](http://mastermind.aaroncontreras.repl.run/)
 * [Sam Eff's Solution (AI uses Knuth's algorithm 100% win rate)](https://github.com/SamEff/Mastermind)
 * [Aaron's Solution (56-58% win rate AI over 1000 games)](https://github.com/Aaron-McD/MasterMind)
@@ -690,6 +702,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sandy's Solution](https://github.com/kuosandys/top-mastermind)
 * [Ethan W's Solution](https://github.com/ethan-wax/mastermind)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/mastermind)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/codebreaker)
+* [ahanasi’s Solution](https://github.com/ahanasi/mastermind) - [Play on repl.it](https://repl.it/@ahanasi/mastermind#.replit)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/mastermind.rb)
+* [John's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
+* [msespos’s Solution](https://github.com/msespos/mastermind) - [Play on repl.it](https://repl.it/@msespos/mastermind)
+
 </details>
 
 ### Additional Resources
