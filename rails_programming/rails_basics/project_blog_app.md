@@ -24,6 +24,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ryan Lewin's Solution](https://github.com/ryan-lewin/blogger) - [View in Browser](https://sheltered-brushlands-48518.herokuapp.com/)
 * [pudu87's Solution](https://github.com/pudu87/blogger) - [View in Browser](https://powerful-falls-45808.herokuapp.com/)
 * [Christian's Solution](https://github.com/rueeazy/blog) - [View in Browser](https://young-dawn-83367.herokuapp.com/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/blog-project) - [View in Browser](https://damp-bayou-50918.herokuapp.com/)
