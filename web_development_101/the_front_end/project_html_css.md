@@ -131,6 +131,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Darren's Solution (Easy)](https://github.com/DarrenLo0530/google-homepage) - [View in Browser](https://darrenlo0530.github.io/google-homepage/)
 * [Shikhar's Solution (Easy)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/google-homepage) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/google-homepage/)
 * [Aidan's Solution (Easy)](https://github.com/aidanclarkescott/google-homepage) - [View in Browser](https://aidanclarkescott.github.io/google-homepage/)
+* [Sthavir's Solution (Easy)](https://github.com/sthavm/google-fake) - [View in Browser](https://sthavm.github.io/google-fake/)
 * [emilravn's Solution (Easy)](https://github.com/emilravn/ChromeReplica) - [View in Browser](https://emilravn.github.io/ChromeReplica)
 * [nemo-xhan's Solution (Easy)](https://github.com/nemo-xhan/google_homepage) - [View in Browser](https://nemo-xhan.github.io/google_homepage/#)
 * [AlanSoto31's Solution (Easy)](https://github.com/AlanSoto31/google-homepage) - [View in Browser](https://alansoto31.github.io/google-homepage/)
