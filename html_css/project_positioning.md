@@ -151,6 +151,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [bhenning83's Solution](https://github.com/bhenning83/nyt-article) - [View in Browser](https://bhenning83.github.io/nyt-article/)
 * [Joe Thompson's Solution](https://github.com/jlthompso/nyt_article) - [View in Browser](https://jlthompso.github.io/nyt_article/)
 * [Timework's Solution](https://github.com/Timework/article_clone) - [View in Browser](https://timework.github.io/article_clone/)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/NY-Times-Article) - [View in Browser](https://ansellmaximilian.github.io/NY-Times-Article/)
 </details>
 
 ### Additional Resources
