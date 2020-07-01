@@ -95,6 +95,10 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Luther's Solution (Easy)](http://github.com/LutherCalvinRiggs/google-homepage) - [View in Browser](https://LutherCalvinRiggs.github.io/google-homepage/)
+* [dnlbst's Solution (Easy)](https://github.com/dnlbst/google-homepage) - [View in Browser](https://dnlbst.github.io/google-homepage/)
+* [mustafa-ansari's Solution (Easy)](https://github.com/mustafa-ansari/google-homepage) - [View in Browser](https://mustafa-ansari.github.io/google-homepage/)
+* [Phantomas83's Solution (Easy)](https://github.com/Phantomas83/google-homepage) - [View in Browser](https://phantomas83.github.io/google-homepage/)
 * [Ivantbv's Solution (Easy)](https://github.com/ivantbv/google-homepage) - [View in Browser](https://ivantbv.github.io/google-homepage/) 
 * [ldhandley's Solution (Easy)](https://github.com/ldhandley/google-homepage) - [View in Browser](https://ldhandley.github.io/google-homepage/)
 * [dje82's Solution (Hard)](https://github.com/dje82/google-homepage) - [View in Browser](https://dje82.github.io/google-homepage/)
@@ -3920,6 +3924,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [PinkieBarto's Solution (Easy)](https://github.com/PinkieBarto/google-homepage) - [View in Browser](https://pinkiebarto.github.io/google-homepage/)
 * [greathshekh's Solution (Easy)](https://github.com/greatshekhs/google-homepage) - [View in Browser](https://greatshekhs.github.io/google-homepage/)
 * [Burak's Solution (Easy)](https://github.com/Burak-Esen/google-homepage) - [View in Browser](http://burak-esen.com/google-homepage/)
+* [curly08's Solution (Easy)](https://github.com/curly08/google-homepage) - [View in Browser](https://curly08.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
     
 - Add your solution below this line!
+- [derva's Solution](https://github.com/derva/rock-paper-scissors) - [View in Browser](https://derva.github.io/rock-paper-scissors/)
 - [jaydu1995's Solution](https://github.com/jaydu1995/rock-paper-scissors)
 - [Jorgepp's Solution](https://github.com/jorgepp94/rocker-paper-scissors) - [View in Browser](https://jorgepp94.github.io/rocker-paper-scissors/)
 - [AndreiLeIttu's Solution](https://github.com/AndreiLeIttu/rock-paper-scissors)
@@ -1123,6 +1124,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Nasirudeen Ismail's UI Solution](https://ismaeel029.github.io/Rock_Paper_Scissors/) - [View in Browser](https://ismaeel029.github.io/Rock_Paper_Scissors/)
 - [Victor Coelho's Solution](https://github.com/Victor-Coelho/janken-odin)
 - [Victor Coelho's UI Solution](https://github.com/Victor-Coelho/janken-odin) - [View in Browser](https://victor-coelho.github.io/janken-odin/)
+- [Doomsheep1's console solution](https://github.com/doomsheep1/RPS) - [View in Browser](https://doomsheep1.github.io/RPS/)
+- [Leila Alderman's solution](https://github.com/leila-alderman/rock-paper-scissors) - [View in Browser](https://leila-alderman.github.io/rock-paper-scissors/)
+- [Erin Ponsonby's console solution](https://github.com/eponsonby/rock-paper-scissors)
+- [Mohammed Nabeel's solution](https://github.com/mnabeelp/rock-paper-scissors/) - [View in Browser](https://mnabeelp.github.io/rock-paper-scissors/)
 - [Doomsheep1's console Solution](https://github.com/doomsheep1/RPS) - [View in Browser](https://doomsheep1.github.io/RPS/)
 - [Leila Alderman's Solution](https://github.com/leila-alderman/rock-paper-scissors) - [View in Browser](https://leila-alderman.github.io/rock-paper-scissors/)
 - [Erin Ponsonby's console Solution](https://github.com/eponsonby/rock-paper-scissors)
