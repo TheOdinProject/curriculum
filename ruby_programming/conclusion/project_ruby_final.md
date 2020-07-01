@@ -143,6 +143,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Suazo's Solution](https://github.com/rsuazo/chess)
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Chess)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-chess-v2)
+* [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/tree/master/chess)
 
 </details>
 
