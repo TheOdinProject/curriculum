@@ -783,4 +783,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [jugnugs's Solution](https://github.com/jugnugs/calculator) - [View in Browser](https://jugnugs.github.io/calculator/)
 - [Nijepa's Solution](https://github.com/nijepa/project-calculator) - [View in Browser](https://nijepa.github.io/project-calculator/)
 - [Bence's Solution](https://github.com/Kok0124/Calculator) - [View in Browser](https://kok0124.github.io/Calculator/)
+- [kenwilde's Solution](https://github.com/kenwilde1/calculator) - [View in Browser](https://kenwilde1.github.io/calculator/)
 </details>
