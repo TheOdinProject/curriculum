@@ -250,6 +250,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Robert Suazo's Solution](https://github.com/rsuazo/re-former)
 * [Ken H's Solution](https://github.com/kholston/re-former)
 * [Christian Páez's Solution](https://github.com/christian1894/re-former-odin-project-rails)
+* [fussykyloren's Solution](https://github.com/fussykyloren/re-former)
 </details>
 
 ### Additional Resources
