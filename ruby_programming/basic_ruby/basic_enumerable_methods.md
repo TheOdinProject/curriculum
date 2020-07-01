@@ -301,7 +301,7 @@ Now that you know who's coming to your party, you need to decide where to go. Yo
 The options are St. Mark's Bistro, a classy place suited for a sophisticated person such as yourself. The other option is Bob's Dirty Burger Shack, which you know is Brian's favorite place. Since he's coming to the party now, it's best to include it as an option to avoid any arguments. Your friends' votes are collected in the `votes` array.
 
 ~~~ruby
-votes = ["Bob's Dirty Burger Shack", "St. Mark's Bistro", "Bob's Dirty Burger Shack"]
+votes = ["St. Mark's Bistro", "Bob's Dirty Burger Shack"]
 
 votes.reduce(Hash.new(0)) do |result, vote|
   result[vote] += 1
@@ -336,12 +336,9 @@ Now that we know that this new hash with a default value of `0` is our accumulat
     * result = {}
     * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] = 0` and `result["St. Mark's Bistro"] = 0`
  2. Iteration 1:
-    * The method runs `result["Bob's Dirty Burger Shack"] += 1`
-    * result = {"Bob's Dirty Burger Shack" => 1}
- 3. Iteration 2:
     * The method runs `result["St. Mark's Bistro"] += 1`
-    * result = {"Bob's Dirty Burger Shack" => 1, "St. Mark's Bistro" => 1}
- 4. Iteration 3:
+    * result = {"St. Mark's Bistro" => 1}
+ 3. Iteration 2:
     * The method runs `result["Bob's Dirty Burger Shack"] += 1`
     * result = {"Bob's Dirty Burger Shack" => 2, "St. Mark's Bistro" => 1}
 
