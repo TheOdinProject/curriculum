@@ -263,6 +263,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Ken H's Solution](https://github.com/kholston/micro_reddit)
 * [Christian Páez's Solution](https://github.com/christian1894/micro-reddit)
 * [Chris H's Solution](https://github.com/CKHarrison/micro-reddit)
+* [fussykyloren's Solution](https://github.com/fussykyloren/micro-reddit)
 </details>
 
 ### Additional Resources
