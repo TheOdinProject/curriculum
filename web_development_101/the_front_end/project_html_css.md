@@ -3923,6 +3923,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Arko's Solution (Difficult)](https://github.com/arkch99/google-search-page) - [View in Browser](https://arkch99.github.io/google-search-page/)
 * [PinkieBarto's Solution (Easy)](https://github.com/PinkieBarto/google-homepage) - [View in Browser](https://pinkiebarto.github.io/google-homepage/)
 * [greathshekh's Solution (Easy)](https://github.com/greatshekhs/google-homepage) - [View in Browser](https://greatshekhs.github.io/google-homepage/)
+* [curly08's Solution (Easy)](https://github.com/curly08/google-homepage) - [View in Browser](https://curly08.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
