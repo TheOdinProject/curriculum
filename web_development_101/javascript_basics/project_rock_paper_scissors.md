@@ -1756,5 +1756,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [gkaminski's Solution](https://github.com/kaminskig/rock-paper-scissors)
 - [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/rock-paper-scissors)
 - [Mohammad Jawwad's Solution](https://github.com/mdJawwad96/Rock-Paper-Scissors)
+- [Jonathan Altine's Solution](https://github.com/JonathanAltine/Rock-Paper-Scissors-2) - [View in Browser](https://jonathanaltine.github.io/Rock-Paper-Scissors-2/)
 - [gitliffi's Solution](https://github.com/gitliffi/rockpaperscissors) - [View in Browser](https://gitliffi.github.io/rockpaperscissors/index.html)
 </details>
