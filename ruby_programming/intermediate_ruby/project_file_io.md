@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Eduardo's Solution](https://github.com/helloeduardo/build_a_person) - [View in Repl.it](https://repl.it/github/helloeduardo/build_a_person)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Hangman)
 * [Vinz's Solution](https://github.com/LrdVnz/hangman) 
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/Hangman) - [View in Repl.it](https://repl.it/@HappyFrog/Hangman)
