@@ -27,6 +27,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Joewebsta's Solution](https://github.com/Joewebsta/the-odin-project-ruby-exercises/blob/master/stock_picker.rb)
+* [Ryan Lewin's Solution](https://github.com/ryan-lewin/odin-project/blob/master/ruby-programming/stock-picker/stock_picker.rb)
+* [Spark's Solution](https://github.com/Sparking2/Ruby_Practicing/blob/master/stock-picker/stock_picker.rb)
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Stock-Picker)
+* [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/stockpicker.rb)
+* [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/stock-picker)
+* [Blaze Vincent's Solution](https://github.com/blaze-vincent/stock_picker)
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/ruby-exercises/stock_picker.rb)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/stock_picker)
 * [Sam Eff's Solution](https://github.com/SamEff/stock_picker)
 * [Ash Karai's Solution](https://github.com/ashwiniraokarai/ruby-projects/blob/master/stock_picker.rb)
 * [Gael's Solution](https://github.com/lungla-gael/stock-picker)
@@ -514,4 +523,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Dyrit's Solution](https://github.com/Dyrits/BASIC-RUBY-PROJECTS/blob/master/Stock%20Picker/stock-picker.rb)
 * [Justin's solution](https://github.com/Justin-Meffs/ruby-projects/blob/master/stock_picker3.rb)
 * [Feseka's Soluion](https://github.com/feseka61/stock-picker/blob/master/stock_picker.rb)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/stockpicker.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/stock.rb)
+* [mioria's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/stock_picker.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/stock_picker.rb)
+* [shanedgilbert's Solution](https://github.com/shanedgilbert/Ruby-Methods/blob/master/stock_picker.rb)
 </details>
