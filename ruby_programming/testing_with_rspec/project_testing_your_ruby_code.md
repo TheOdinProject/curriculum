@@ -152,6 +152,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/connect_four/lib/connect_four.rb)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/connect_four)
 * [Sam Eff's Solution](https://github.com/SamEff/connect_four)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/connect_four)
