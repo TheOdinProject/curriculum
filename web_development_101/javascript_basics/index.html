@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <script>
+
+
+let pCount = 0;
+        let cCount = 0;
+function computerPlay(){
+    const value = ["Rock","Paper","Scissor"];
+const randomvalue = value[Math.floor(Math.random() * value.length)];
+return randomvalue;
+}
+function result(playerSelection,computerSelection)
+{  ps=playerSelection.toLowerCase();
+cs=computerSelection.toLowerCase();
+if(ps===cs)
+{
+   return `The computer picked ${computerSelection}. Tie`;
+}
+
+if(ps==='rock' && cs==='scissor')
+{ pCount++;
+   return `The computer picked ${computerSelection}. YOU WON`;
+  
+}
+if(ps==='scissor' && cs==='rock')
+{ cCount++;
+   return `The computer picked ${computerSelection}. YOU LOST`;
+  
+}
+if(ps==='paper' && cs==='rock')
+{pCount++; 
+   return `The computer picked ${computerSelection}. YOU WON`;
+   
+}
+if(ps==='rock' && cs==='paper')
+{cCount++;
+   return `The computer picked ${computerSelection}. YOU LOST`;
+   
+}
+
+if(ps==='paper' && cs==='scissor')
+{cCount++;
+   return `The computer picked ${computerSelection}. YOU LOST`;
+   
+}
+if(ps==='scissor' && cs==='paper')
+{pCount++;
+   return `The computer picked ${computerSelection}. YOU WON`;
+   
+}
+
+}
+
+function game()
+{
+            for (let i = 0; i < 5; i++) 
+            {
+                const computerSelection = computerPlay();
+                const playerSelection = prompt("Rock, Paper or Scissors?");
+                alert(result(playerSelection, computerSelection));
+            }
+            if (pCount > cCount) {
+                alert(`You won!\nFinal score - Computer: ${cCount} You: ${pCount}`);
+            } else if (pCount < cCount) {
+                alert(`You lost!\nFinal score - Computer: ${cCount} You: ${pCount}`);
+            } else if (pCount === cCount) {
+                alert(`You tied!\nFinal score - Computer: ${cCount} You: ${pCount}`);
+            }
+        }
+
+
+
+
+    </script>
+
+</body>
+</html>
