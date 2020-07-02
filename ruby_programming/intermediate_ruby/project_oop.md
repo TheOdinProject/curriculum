@@ -388,6 +388,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 * [Dyrits's Solution](https://github.com/Dyrits/X-O-OP-TIC-TAC-TOE/blob/master/tic_tac_toe.rb)
 * [Intermedia's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/tictactoe.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/tic_tac_toe/blob/master/tic_tac_toe.rb)
 
 </details>
 
@@ -705,6 +706,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [ahanasi’s Solution](https://github.com/ahanasi/mastermind) - [Play on repl.it](https://repl.it/@ahanasi/mastermind#.replit)
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/mastermind.rb)
 * [John's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
+* [msespos’s Solution](https://github.com/msespos/mastermind) - [Play on repl.it](https://repl.it/@msespos/mastermind)
+* [Jding9's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
 
 </details>
 

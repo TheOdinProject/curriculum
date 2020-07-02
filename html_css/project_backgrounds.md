@@ -24,6 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [skele-666's Solution](https://github.com/skele-666/old-apple-page) - [View in Browser](https://skele-666.github.io/old-apple-page/)
 * [Stanley Enow Lekunze's Solution](https://github.com/happiguru/apple.com/tree/apple.com-feature-branch) - [View in Browser](https://rawcdn.githack.com/happiguru/apple.com/c06209f7c6482e81596da43635ef164b4eec23ee/index.html)
 * [Witah Georjane's Solution](https://github.com/Georjane/Apple-Website-Webpage.git) - [View in Browser](https://raw.githack.com/Georjane/Apple-Website-Webpage/Apple_Landing_Page/index.html)
 * [Adil-Bub's Solution](https://github.com/Adil-Bub/OldApple-2014) - [View in Browser](https://adil-bub.github.io/OldApple-2014/)
@@ -143,6 +144,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [mangakiko's Solution](https://github.com/magakiko/Apple) - [View in Browser](https://magakiko.github.io/Apple/)
 * [barrysweeney's Solution](https://github.com/barrysweeney/apple-site-clone) - [View in Browser](https://barrysweeney.github.io/apple-site-clone)
 * [bhenning83's Solution](https://github.com/bhenning83/apple-homepage) - [View in Browser](https://bhenning83.github.io/apple-homepage/)
+* [Timework's Solution](https://github.com/Timework/apple-clone) - [View in Browser](https://timework.github.io/apple-clone/)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/old-apple-clone) - [View in Browser](https://ansellmaximilian.github.io/old-apple-clone/)
 </details>
 
 ### Additional Resources

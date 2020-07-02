@@ -171,6 +171,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Taylor Johannsen's solution](https://github.com/taylorjohannsen/youtube-mockup) - [View in browser](https://taylorjohannsen.github.io/youtube-mockup/)
 * [Anh Pati's solution](https://github.com/AnhPati/OdinProject_css_html/tree/master/Embendding_images_and_video) - [View in browser](http://dwj.miste.io/odinproject/embedding_images_and_video/)
 * [Gough's solution](https://github.com/Joel-Price/youtube-clone) - [View in browser](https://joel-price.github.io/youtube-clone/)
+* [Ivan's solution](https://github.com/ivandjorgon/youtube-replica) - [View in browser](https://ivandjorgon.github.io/youtube-replica/)
 * [Ghassan's solution](https://github.com/GT001/TOP-Youtube-Player) - [View in browser](https://gt001.github.io/TOP-Youtube-Player/)
 * [Valentino Valenti's solution](https://github.com/1ba1/youtube-video-player-page) - [View in Browser](https://1ba1.github.io/youtube-video-player-page/)
 * [Doris's solution](https://github.com/dsmchen/youtube-video-player-page) - [View in browser](https://dsmchen.github.io/youtube-video-player-page/)
@@ -197,6 +198,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Timework's solution](https://github.com/Timework/youtube-clone/tree/master) - [View in Browser](https://timework.github.io/youtube-clone/)
 * [bhenning83's solution](https://github.com/bhenning83/youtube-homepage) - [View in Browser](https://bhenning83.github.io/youtube-homepage/)
 * [Joe Thompson's Solution](https://github.com/jlthompso/embedded-media) - [View in Browser](https://jlthompso.github.io/embedded-media/)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/Youtube-video-page) - [View in Browser](https://ansellmaximilian.github.io/Youtube-video-page/)
 </details>
 
 ### Additional Resources

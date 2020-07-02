@@ -27,6 +27,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [skele-666's Solution](https://github.com/skele-666/new-york-times) - [View in Browser](https://skele-666.github.io/new-york-times/)
+* [Alexander Nitiola's Solution](https://github.com/TheCre8tor/nyt_website_clone) - [View in Browser](https://thecre8tor.github.io/nyt_website_clone/)
 * [Lekunze Stanley Enow's Solution](https://happiguru.github.io/PositioningandFloatingElements/)
 * [Witah Georjane's Solution](https://github.com/Georjane/New-York-Times-Article.git) - [View in Browser](https://raw.githack.com/Georjane/New-York-Times-Article/feature_NY_Times_Article/index.html)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/newyork-clone) - [View in Browser](https://andrsrz.github.io/newyork-clone/)
@@ -149,6 +151,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [bhenning83's Solution](https://github.com/bhenning83/nyt-article) - [View in Browser](https://bhenning83.github.io/nyt-article/)
 * [Joe Thompson's Solution](https://github.com/jlthompso/nyt_article) - [View in Browser](https://jlthompso.github.io/nyt_article/)
 * [Timework's Solution](https://github.com/Timework/article_clone) - [View in Browser](https://timework.github.io/article_clone/)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/NY-Times-Article) - [View in Browser](https://ansellmaximilian.github.io/NY-Times-Article/)
 </details>
 
 ### Additional Resources

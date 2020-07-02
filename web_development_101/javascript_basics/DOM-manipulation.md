@@ -376,7 +376,7 @@ btn.addEventListener('click', () => {
 });
 ~~~
 
-Now, we maintain separation of concerns, and we also allow multiple event listeners if need arise.  Method 3 is much more flexible and powerful, though it is a bit more complex to set up.
+Now, we maintain separation of concerns, and we also allow multiple event listeners if the need arises.  Method 3 is much more flexible and powerful, though it is a bit more complex to set up.
 
 Note that all 3 of these methods can be used with named functions like so:
 
@@ -448,7 +448,7 @@ const buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
 
   // and for each one we add a 'click' listener
-  button.addEventListener('click', (e) => {
+  button.addEventListener('click', () => {
     alert(button.id);
   });
 });
