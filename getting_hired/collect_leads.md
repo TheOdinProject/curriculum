@@ -24,7 +24,7 @@ Try checking out these links for job boards.  The more technically-focused, the 
 * [White Truffle -- Weighted towards startups right now](http://www.whitetruffle.com)
 * [Dice.com](http://www.dice.com)
 * [Coderwall.com](http://coderwall.com) lets you display your engineering prowess and they can come to you.
-* [Join-Startups](http://join-startups.com) - open startup jobs in a dozen cities
+* [Join-Startups](https://underdog.io/) - open startup jobs in a dozen cities
 
 ### On Recruiters
 
