@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [CoderOO7 Solution](https://github.com/coderoo7/Etch-A-Sketch/) - [View in Browser](https://coderoo7.github.io/Etch-A-Sketch/)
 * [Daniel's Solution](https://github.com/daniel-moderiano/etch-a-sketch) - [View in Browser](https://daniel-moderiano.github.io/etch-a-sketch/)
 * [theamian's Solution](https://github.com/theamian/etch-a-sketch)
 * [Baseline Alpha's Solution](https://github.com/baselinealpha/Etch-A-Sketch) - [View in Browser](https://baselinealpha.github.io/Etch-A-Sketch/)
@@ -1122,5 +1123,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [kenwilde's Solution](https://github.com/kenwilde1/etch-a-sketch) - [View in Browser](https://kenwilde1.github.io/etch-a-sketch/)
 * [skwiryt's Solution](https://github.com/skwiryt/etch-a-sketch) - [View in Browser](https://skwiryt.github.io/etch-a-sketch/)
 * [Jonathan Altine's Solution](https://github.com/JonathanAltine/Etch-A-Sketch) - [View in Browser](https://jonathanaltine.github.io/Etch-A-Sketch/)
+* [Arcadie's Solution](https://github.com/doncilaarcadie/ETCH-A-SKETCH) - [View in Browser](https://doncilaarcadie.github.io/ETCH-A-SKETCH/)
+* [trungxyz's Solution](https://github.com/trungxyz/etch-a-sketch) - [View in Browser](https://trungxyz.github.io/etch-a-sketch/)
 </details>
 
