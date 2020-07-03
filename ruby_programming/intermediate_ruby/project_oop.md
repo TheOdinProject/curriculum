@@ -707,6 +707,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/mastermind.rb)
 * [John's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
 * [msespos’s Solution](https://github.com/msespos/mastermind) - [Play on repl.it](https://repl.it/@msespos/mastermind)
+* [Jding9's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
 
 </details>
 
