@@ -3934,6 +3934,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [TardisTravelling's Solution](https://github.com/tardistravelling/google-homepage/) - [View in Browser](https://tardistravelling.github.io/google-homepage/)
 * [Burak's Solution (Easy)](https://github.com/Burak-Esen/google-homepage) - [View in Browser](http://burak-esen.com/google-homepage/)
 * [curly08's Solution (Easy)](https://github.com/curly08/google-homepage) - [View in Browser](https://curly08.github.io/google-homepage/)
+* [mrdietz's Solution (Easy)](https://github.com/mrdietz/google-homepage) - [View in Browser](https://mrdietz.github.io/google-homepage/)
 * [Polvyer's Solution (Easy)](https://github.com/Polvyer/google-homepage) - [View in Browser](https://polvyer.github.io/google-homepage/)
 * [Olimjon's Solution (Easy)](https://github.com/olimjon1989/google-homepage) - [View in Browser](https://olimjon1989.github.io/google-homepage/)
 * [Marko Markovitz's Solution (Easy)](https://github.com/markanjski/google-homepage) - [View in Browser](https://markanjski.github.io/google-homepage/)
