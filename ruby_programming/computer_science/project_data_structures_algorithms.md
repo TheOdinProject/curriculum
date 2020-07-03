@@ -244,6 +244,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/binary_search_tree.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/bst_2.rb)
 * [JvPelai's Solution](https://github.com/JvPelai/binary-search-trees)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 </details>
 
 ### Project 2: Knight's Travails
