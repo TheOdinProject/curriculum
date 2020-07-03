@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Mugilan's Solution](https://github.com/Mugilan-Codes/book-library) - [View in Browser](https://mugilan-codes.github.io/book-library/)
 - [vonhoro's Solution (w/ Local Storage)](https://github.com/vonhoro/Library) - [View in Browser](https://vonhoro.github.io/Library/)
 - [Stephane's Solution (w/ Local Storage)](https://github.com/stephanewillems/booklibrary) - [View in Browser](https://stephanewillems.github.io/booklibrary/)
 - [Jordan Perkins' Solution (w/ Local Storage)](https://github.com/jordanperkins98/LibraryApp) - [View in Browser](https://jordanperkins98.github.io/LibraryApp/)
@@ -340,4 +341,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [liampc's Solution](https://github.com/liampc/Library) - [View in Browser](https://liampc.github.io/Library/)
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/library) - [View in Browser](https://playingongithub.github.io/library/)
 - [Dyskgo's Solution](https://github.com/dyskgo/library) - [View in Browser](https://dyskgo.github.io/library/)
+- [kluceycose's Solution](https://github.com/kluceycose/library) - [View in Browser](https://kluceycose.github.io/library)
 </details>
