@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Googlins</title>
+</head>
+
+<body>
+    <header class="gheader">
+        <nav class="gnav">
+        <div class="gnav-links-left">
+            <div class="gnav-item">About</div>
+            <div class="gnav-item">Store</div>
+        </div>
+<!-- this is the stupid closing div tag i missed for days, please please please don't forget to check these in the future -->
+
+
+        <div class="gnav-links-right">
+            <div class="gnav-item">Gmail</div>
+            <div class="gnav-item">Images</div>
+            <div class="gnav-item">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="th" class="svg-inline" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z">
+                    </path>
+                </svg>
+
+            </div>
+
+            <div class="gnav-item">
+                <button id="gsign-in-btn">Sign in</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="gmain">
+        <div class="gmain-container">
+            <div class="glogo"><img id="glogo-img" src="./assets/googlelogo_color_272x92dp.png" alt="" srcset="">
+            </div>
+            <div class="ginput">
+                <div class="input-svg input-before">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z" />
+                    </svg>
+                </div>
+
+                <input type="text" />
+                <div class="input-svg input-after">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path
+                            d="M160 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S64 42.98 64 96v160c0 53.02 42.98 96 96 96zM96 96c0-35.29 28.71-64 64-64s64 28.71 64 64v160c0 35.29-28.71 64-64 64s-64-28.71-64-64V96zm216 96h-16c-4.42 0-8 3.58-8 8v56c0 73.46-62.2 132.68-136.73 127.71C83.3 379.18 32 319.61 32 251.49V200c0-4.42-3.58-8-8-8H8c-4.42 0-8 3.58-8 8v50.34c0 83.39 61.65 156.12 144 164.43V480H72c-4.42 0-8 3.58-8 8v16c0 4.42 3.58 8 8 8h176c4.42 0 8-3.58 8-8v-16c0-4.42-3.58-8-8-8h-72v-65.01C256.71 406.9 320 338.8 320 256v-56c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="gsearch-btn"><button>Google Search</button></div>
+            <div class="glucky-btn"><button>I'm Feeling Lucky</button></div>
+            <div class="glang">Google offered in: <a href="#">Deutsch</a></a></div>
+        </div>
+    </main>
+
+    <footer class="gfooter">
+        <div class="gfooter-links-left">
+            <div class="gfooter-link-item">Advertising</div>
+            <div class="gfooter-link-item">Business</div>
+            <div class="gfooter-link-item">How Search Works</div>
+        </div>
+
+        <div class="gfooter-links-right">
+            <div class="gfooter-link-item">Privacy</div>
+            <div class="gfooter-link-item">Terms</div>
+            <div class="gfooter-link-item">Settings</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
