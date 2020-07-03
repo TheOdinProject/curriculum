@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [timmybytes' Solution (Easy)](https://github.com/timmybytes/Google_Homepage_Copy) - [View in Browser](https://timmybytes.github.io/Google_Homepage_Copy/)
+* [bardenHa's Solution (Easy)](https://github.com/bardenHa/google-homepage) - [View in Browser](https://bardenha.github.io/google-homepage/)
 * [JuanP-Alvarez's Solution (Easy)](https://github.com/JuanP-Alvarez/google-homepage) - [View in Browser](https://juanp-alvarez.github.io/google-homepage/)
 * [JuanP-Alvarez's Solution (Hard)](https://github.com/JuanP-Alvarez/google-homepage-hard) - [View in Browser](https://juanp-alvarez.github.io/google-homepage-hard/)
 * [pavelnklv's Solution (Easy)](https://github.com/pavelnklv/google-homepage) - [View in Browser](https://pavelnklv.github.io/google-homepage/)
@@ -3935,8 +3936,13 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [TardisTravelling's Solution](https://github.com/tardistravelling/google-homepage/) - [View in Browser](https://tardistravelling.github.io/google-homepage/)
 * [Burak's Solution (Easy)](https://github.com/Burak-Esen/google-homepage) - [View in Browser](http://burak-esen.com/google-homepage/)
 * [curly08's Solution (Easy)](https://github.com/curly08/google-homepage) - [View in Browser](https://curly08.github.io/google-homepage/)
+* [mrdietz's Solution (Easy)](https://github.com/mrdietz/google-homepage) - [View in Browser](https://mrdietz.github.io/google-homepage/)
 * [Polvyer's Solution (Easy)](https://github.com/Polvyer/google-homepage) - [View in Browser](https://polvyer.github.io/google-homepage/)
 * [Olimjon's Solution (Easy)](https://github.com/olimjon1989/google-homepage) - [View in Browser](https://olimjon1989.github.io/google-homepage/)
+* [Chi Joel's Solution (Easy)](https://github.com/abongsjoel/google-homepage) - [View in Browser](https://abongsjoel.github.io/google-homepage/)
+* [Bones81's Solution (Easy)](https://github.com/Bones81/google-homepage) - [View in Browser](https://Bones81.github.io/google-homepage/)
+* [Marko Markovitz's Solution (Easy)](https://github.com/markanjski/google-homepage) - [View in Browser](https://markanjski.github.io/google-homepage/)
+* [zeroo's Solution (Easy)](https://github.com/iamzeroo/google-homepage) - [View in Browser](https://iamzeroo.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
