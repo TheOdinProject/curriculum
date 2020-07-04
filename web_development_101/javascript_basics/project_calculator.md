@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [OptiPrime64's Solution](https://github.com/OptiPrime64/calculator) - [View in Browser](https://optiprime64.github.io/calculator/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/calculator) - [View in Browser](https://cyber-mat.github.io/calculator/)
 - [LeoWebDev's Solution](https://github.com/leowebdev20/summa-calculator) - [View in Browser](https://leowebdev20.github.io/summa-calculator/)
 - [Uwem's Solution](https://github.com/UwemEkong/calculator.github.io) - [View in Browser](https://uwemekong.github.io/calculator.github.io/)
