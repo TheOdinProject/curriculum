@@ -344,5 +344,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/library) - [View in Browser](https://playingongithub.github.io/library/)
 - [Dyskgo's Solution](https://github.com/dyskgo/library) - [View in Browser](https://dyskgo.github.io/library/)
 - [kluceycose's Solution](https://github.com/kluceycose/library) - [View in Browser](https://kluceycose.github.io/library)
+- [victor orlunda's Solution](https://github.com/dev-opus/virtual-library) - [View in Browser](https://dev-opus.github.io/virtual-library)
 - [AnsellMaximilian's Solution (w/ localstorage)](https://github.com/AnsellMaximilian/book-storage) - [View in Browser](https://ansellmaximilian.github.io/book-storage/)
 </details>
