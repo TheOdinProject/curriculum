@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [OptiPrime64's Solution](https://github.com/OptiPrime64/calculator) - [View in Browser](https://optiprime64.github.io/calculator/)
 - [Stephane's Solution](https://github.com/stephanewillems/calculator) - [View in Browser](https://stephanewillems.github.io/calculator/)
 - [Estela's Solution](https://github.com/estelajimero/Calculator/) - [View in Browser](https://estelajimero.github.io/Calculator/)
 - [gogvale's Solution](https://github.com/gogvale/calculator) - [View in Browser](https://gogvale.github.io/calculator/)
@@ -791,4 +792,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alejaldo's Solution](https://github.com/Alejaldo/calculatorjs) - [View in Browser](https://alejaldo.github.io/calculatorjs/)
 - [Arindam's Solution](https://github.com/Arindam-7/Calculator) - [View in Browser](https://arindam-7.github.io/Calculator/)
 - [Taras's Solution](https://github.com/tiris08/odin-project-calculator) - [View in Browser](https://tiris08.github.io/odin-project-calculator/)
+- [Jacobus's Solution](https://github.com/Jacobus-afk/calcuator) - [View in Browser](https://jacobus-afk.github.io/calcuator/)
 </details>
