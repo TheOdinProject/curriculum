@@ -45,11 +45,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [jtdevuk's Solution](https://github.com/jtdevuk/etch-a-sketch) - [View in Browser](https://jtdevuk.github.io/etch-a-sketch/)
 * [CoderOO7 Solution](https://github.com/coderoo7/Etch-A-Sketch/) - [View in Browser](https://coderoo7.github.io/Etch-A-Sketch/)
 * [Daniel's Solution](https://github.com/daniel-moderiano/etch-a-sketch) - [View in Browser](https://daniel-moderiano.github.io/etch-a-sketch/)
 * [theamian's Solution](https://github.com/theamian/etch-a-sketch)
 * [Baseline Alpha's Solution](https://github.com/baselinealpha/Etch-A-Sketch) - [View in Browser](https://baselinealpha.github.io/Etch-A-Sketch/)
 * [gogvale's Solution](https://github.com/gogvale/etch-a-sketch) - [View in Browser](https://gogvale.github.io/etch-a-sketch/)
+* [pret3nti0u5's Solution](https://github.com/pret3nti0u5/Etch-A-Sketch) - [View in Browser](https://pret3nti0u5.github.io/Etch-A-Sketch/)
 * [DoviMaj's Solution](https://github.com/DoviMaj/Etch-A-Sketch) - [View in Browser](https://dovimaj.github.io/Etch-A-Sketch/)
 * [Angelo's Solution](https://github.com/angelokora/etch-a-sketch)
 * [onagova's Solution](https://github.com/onagova/etch-a-sketch) - [View in Browser](https://onagova.github.io/etch-a-sketch/)
