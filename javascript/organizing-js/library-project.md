@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [s92xiong's Solution](https://github.com/s92xiong/library-app) - [View in Browser](https://s92xiong.github.io/library-app/)
 - [pret3nti0u5's Solution](https://github.com/pret3nti0u5/Digital-Library) - [View in Browser](https://pret3nti0u5.github.io/Digital-Library/)
 - [Cristobal Becerra's Solution](https://github.com/powei94/js_library) - [View in Browser](https://powei94.github.io/js_library/)
 - [TamaraNC's Solution](https://github.com/TamaraNC/library) - [View in Browser](https://htmlpreview.github.io/?https://github.com/TamaraNC/library/blob/master/index.html)
