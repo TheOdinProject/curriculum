@@ -116,6 +116,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [jaydu1995's Solution (Easy)](https://github.com/jaydu1995/google-easy) - [View in Browser](https://jaydu1995.github.io/google-easy/)
 * [VictoriaVictorious's Solution (Easy)](https://github.com/VictoriaVictorious/google-homepage) - [View in Browser](https://victoriavictorious.github.io/google-homepage/)
 * [WillOTB's Solution (Easy)](https://github.com/WCampbell94/google-homepage) - [View in Browser](https://wcampbell94.github.io/google-homepage/)
+* [Chris Fonseca's Solution (Easy)](https://github.com/cfonseca2013/google-homepage) - [View in Browser](https://cfonseca2013.github.io/google-homepage)
 * [Mehcoder42's Solution (Easy)](https://github.com/mehcoder42/google_homepage) - [View in Browser](https://mehcoder42.github.io/google_homepage/)
 * [Maria's Solution (Easy)](https://github.com/mmuzas/google-homepage) - [View in Browser](https://mmuzas.github.io/google-homepage/)
 * [Maria's Solution (Difficult)](https://github.com/mmuzas/google_results_page) - [View in Browser](https://mmuzas.github.io/google_results_page/)
