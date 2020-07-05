@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project-odin-kittens)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-kittens)
 * [Run After's Solution](https://github.com/run-after/odin-kittens)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-kittens)
@@ -199,6 +200,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_photo_stream_api)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-flickr-api)
 * [Run After's Solution](https://github.com/run-after/flickr-api)
 * [BShowen's Solution](https://github.com/BShowen/flickr_search_api) - [Live](https://flick-r.herokuapp.com/)
