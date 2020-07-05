@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alex Cole's Solution](https://github.com/AlexJ-Cole/TodoList) - [View in Browser](https://github.com/AlexJ-Cole/TodoList)
 * [Juan Oxmar's Solution](https://github.com/juanoxmar/todo) - [View in Browser](https://juanoxmar.github.io/todo/)
 * [Scott's Solution](https://github.com/ScotttP/todo-list) - [View in Browser](https://scotttp.github.io/todo-list/)
 * [Andrija's Solution](https://github.com/Amdrija/todo-list-app) - [View in Browser](https://amdrija.github.io/todo-list-app/)
@@ -145,4 +146,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [jooji-san's Solution](https://github.com/jooji-san/todo) - [View in Browser](https://jooji-san.github.io/todo/)
 * [Chandra's Solution](https://github.com/CodeSurfer3022) - [View in Browser](https://codesurfer3022.github.io/ToDo-List/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-todolist) - [View in Browser](https://adrieltrigger.github.io/top-todolist/)
+* [Nijepa's Solution](https://github.com/nijepa/todo-list) - [View in Browser](https://nijepa.github.io/todo-list/)
 </details>
