@@ -27,6 +27,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/4_stock-picker.rb)
 * [Baseline Alpha's Solution](https://github.com/baselinealpha/Ruby-The-Odin-Project/blob/master/stock_picker.rb)
 * [Mr.Bowtie's Solution](https://github.com/Mr-Bowtie/Basic_ruby_projects/blob/master/stock_picker.rb)
 * [kimvitug05's Solution](https://github.com/kimvitug05/TOP-ruby-exercises/blob/master/stock-picker/stock_picker.rb)
