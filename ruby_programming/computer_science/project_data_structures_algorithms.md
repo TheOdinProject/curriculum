@@ -52,6 +52,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Binary-Search-Trees)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Binary_Search_Trees)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/binary_search_tree)
 * [BLuu's solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/binary_search_tree.rb)
@@ -292,6 +293,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Knight-Travails)
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/knight_moves.rb)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Knights-Travails)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/knight_travails)
