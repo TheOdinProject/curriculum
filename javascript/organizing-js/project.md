@@ -143,4 +143,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [MatyD's Solution](https://github.com/MatyD356/vanillaToDo/tree/master) - [View in Browser](https://matyd356.github.io/vanillaToDo/)
 * [rhathcock's Solution](https://github.com/r-hathcock/todo_list)
 * [jooji-san's Solution](https://github.com/jooji-san/todo) - [View in Browser](https://jooji-san.github.io/todo/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022) - [View in Browser](https://codesurfer3022.github.io/ToDo-List/)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-todolist) - [View in Browser](https://adrieltrigger.github.io/top-todolist/)
 </details>

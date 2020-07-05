@@ -52,6 +52,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Binary-Search-Trees)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Binary_Search_Trees)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/binary_search_tree)
 * [BLuu's solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/binary_search_tree.rb)
@@ -244,6 +245,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/binary_search_tree.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/bst_2.rb)
 * [JvPelai's Solution](https://github.com/JvPelai/binary-search-trees)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -290,7 +293,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Knight-Travails)
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/knight_moves.rb)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Knights-Travails)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/knight_travails)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/knights_travails)
 * [threeaces' Solution](https://github.com/threeaces/knights_travails_ruby/tree/master/knights_travails)  
@@ -474,5 +479,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/knight_moves.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/knight.rb)
 * [Brent's Solution](https://github.com/brentcam250/knight_moves)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
 
 </details>

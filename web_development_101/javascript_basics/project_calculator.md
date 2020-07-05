@@ -4,7 +4,7 @@ You made it! By now you should have a _really_ firm grasp on the fundamentals of
 
 As usual with these things, there are elements of this project that are not going to be trivially easy for you, but if you've been following the course so far, you definitely have everything you need to finish it. We're going to walk you through the various steps you can take, but again, how you actually implement them is up to you!
 
-**Important Note:** Before you get started with this calculator project, we need to cover a word of warning. As you look into how to evaluate complex mathematical statements in JavaScript, you will likely come across the tantalizing [`eval()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function. However, this function can be very dangerous and [should not ever be used](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#Do_not_ever_use_eval!)! You'll need to build your own functions to evaluate expressions as part of this calculator project.
+**Important Note:** Before you get started with this calculator project, we need to cover a word of warning. As you look into how to evaluate complex mathematical statements in JavaScript, you will likely come across the tantalizing [`eval()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function. However, this function can be very dangerous and [should not ever be used](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#Never_use_eval!)! You'll need to build your own functions to evaluate expressions as part of this calculator project.
 
 ### Assignment
 
@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [OptiPrime64's Solution](https://github.com/OptiPrime64/calculator) - [View in Browser](https://optiprime64.github.io/calculator/)
+- [Stephane's Solution](https://github.com/stephanewillems/calculator) - [View in Browser](https://stephanewillems.github.io/calculator/)
+- [Estela's Solution](https://github.com/estelajimero/Calculator/) - [View in Browser](https://estelajimero.github.io/Calculator/)
+- [gogvale's Solution](https://github.com/gogvale/calculator) - [View in Browser](https://gogvale.github.io/calculator/)
 - [Mpavcell's Solution](https://github.com/Mpavcell/calculator) - [View in Browser](https://mpavcell.github.io/calculator/)
 - [Tarkie's Solution](https://github.com/Tarkie/calculator) - [View in Browser](https://tarkie.github.io/calculator/)
 - [Oluwatobi Sofela's Solution](https://github.com/Oluwatobi-S/calculator) - [View in Browser](https://oluwatobi-s.github.io/calculator/)
@@ -787,4 +791,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kenwilde's Solution](https://github.com/kenwilde1/calculator) - [View in Browser](https://kenwilde1.github.io/calculator/)
 - [Alejaldo's Solution](https://github.com/Alejaldo/calculatorjs) - [View in Browser](https://alejaldo.github.io/calculatorjs/)
 - [Arindam's Solution](https://github.com/Arindam-7/Calculator) - [View in Browser](https://arindam-7.github.io/Calculator/)
+- [Taras's Solution](https://github.com/tiris08/odin-project-calculator) - [View in Browser](https://tiris08.github.io/odin-project-calculator/)
+- [Jacobus's Solution](https://github.com/Jacobus-afk/calcuator) - [View in Browser](https://jacobus-afk.github.io/calcuator/)
 </details>
