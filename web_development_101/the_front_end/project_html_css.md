@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [waream2's Solution (Easy)] (https://github.com/waream2/google-homepage) - [View in Browser](https://waream2.github.io/google-homepage/)
+* [waream2's Solution (Easy)](https://github.com/waream2/google-homepage) - [View in Browser](https://waream2.github.io/google-homepage/)
 * [T0rr1's Solution (Easy)](https://github.com/T0rr1/google-homepage-T) - [View in Browser](https://t0rr1.github.io/google-homepage-T/)
 * [King-Cao's Solution (Easy)](https://github.com/King-Cao/google-homepage) - [View in Browser](https://king-cao.github.io/google-homepage/)
 * [pradnyasurya's Solution (Easy)](https://github.com/Pradnyasurya/google-homepage) - [View in Browser](https://pradnyasurya.github.io/google-homepage/)
