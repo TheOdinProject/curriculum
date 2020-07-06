@@ -21,6 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Tilda Udufo's Solutions: [Caesar Cipher](https://github.com/TildaDares/caesar_cipher), [Tic-Tac-Toe](https://github.com/TildaDares/tic-tac-toe)
 * irlgabriel's Solutions: [Caesar Cipher](https://github.com/irlgabriel/the-odin-project/tree/master/ruby-exercises), [Tic-Tac-Toe](https://github.com/irlgabriel/the-odin-project/tree/master/tic-tac-toe-rb)
 * Michael K's Solutions: [Caesar Cipher](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/caesar_cipher), [Tic-Tac-Toe](https://github.com/a0x77ry/tic-tac-toe)
 * andrewjh271's Solutions: [Caesar Cipher](https://github.com/andrewjh271/basic_ruby_projects/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/andrewjh271/tic_tac_toe)
@@ -151,6 +152,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/connect_four/lib/connect_four.rb)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/connect_four)
+* [Sam Eff's Solution](https://github.com/SamEff/connect_four)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/connect_four)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/connect-four-tdd)
 * [Michael K's Solution](https://github.com/a0x77ry/connect_four)
