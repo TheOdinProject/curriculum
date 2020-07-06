@@ -117,6 +117,11 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/re-former)
+* [Christian's Solution](https://github.com/rueeazy/re-former)
+* [Aulbourn's Solution](https://github.com/aulbytj/RailsReFormer/tree/feature/build) - [View in Browser](https://fierce-atoll-94165.herokuapp.com)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/re-former)
+* [jodokusquack's solution](https://github.com/jodokusquack/re-former)
 * [Nestor's solution](https://github.com/nestor-c/Odin_Re-former)
 * [Jithin's Solution](https://github.com/jithindasad/re-former)
 * [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/reformer)
@@ -243,7 +248,10 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/re-former)
 * [Timework's Solution](https://github.com/Timework/re-former)
 * [Bendee's Solution](https://github.com/bendee48/rails-reformer)
-
+* [Robert Suazo's Solution](https://github.com/rsuazo/re-former)
+* [Ken H's Solution](https://github.com/kholston/re-former)
+* [Christian Páez's Solution](https://github.com/christian1894/re-former-odin-project-rails)
+* [fussykyloren's Solution](https://github.com/fussykyloren/re-former)
 </details>
 
 ### Additional Resources
