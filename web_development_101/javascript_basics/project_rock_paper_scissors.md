@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [AGL's solution](https://github.com/agl9/rockpaperscissors/)
 - [devLevi's Solution](https://github.com/devLevi/rock-paper-scissors) - [View in Browser](https://devlevi.github.io/rock-paper-scissors/)
 - [Gunslinger's Solution](https://github.com/gunslingerOP/Rock-Paper-Scissors) - [View in Browser](https://gunslingerop.github.io/Rock-Paper-Scissors/)
 - [marslavish's Solution](https://github.com/marslavish/rock_paper_scissors) - [View in Browser](https://marslavish.github.io/rock_paper_scissors/)
@@ -1769,5 +1770,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [gitliffi's Solution](https://github.com/gitliffi/rockpaperscissors) - [View in Browser](https://gitliffi.github.io/rockpaperscissors/index.html)
 - [whitekoel's Solution](https://github.com/whitekoel/RockPaperScissors)
 - [Burak's Solution](https://github.com/Burak-Esen/rock-paper-scissors) - [View in Browser](http://burak-esen.com/rock-paper-scissors/)
-- [awhlam's Solution](https://github.com/awhlam/odin_project/tree/master/web_development_101/rock_paper_scissors)
+- [awhlam's Solution](https://github.com/awhlam/odin_project/tree/master/web_development_101/rock_paper_scissors
+- [Kingsley Ezenwaka's solution](https://github.com/khay9yne/rock-paper-scissors) - [View in Browser](https://khay9yne.github.io/rock-paper-scissors/) 
 </details>
+
