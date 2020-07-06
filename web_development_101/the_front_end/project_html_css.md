@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [mahitha22's solution (Easy)] (https://github.com/mahitha22/op_webdevelopment101) - [View in Browser] (https://mahitha22.github.io/op_webdevelopment101/google-homepage/index.html)
+* [mahitha22's solution (Easy)](https://github.com/mahitha22/op_webdevelopment101) - [View in Browser](https://mahitha22.github.io/op_webdevelopment101/google-homepage/index.html)
 * [waream2's Solution (Easy)](https://github.com/waream2/google-homepage) - [View in Browser](https://waream2.github.io/google-homepage/)
 * [T0rr1's Solution (Easy)](https://github.com/T0rr1/google-homepage-T) - [View in Browser](https://t0rr1.github.io/google-homepage-T/)
 * [King-Cao's Solution (Easy)](https://github.com/King-Cao/google-homepage) - [View in Browser](https://king-cao.github.io/google-homepage/)
