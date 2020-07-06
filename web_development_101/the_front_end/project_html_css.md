@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [mahitha22's solution (Easy)](https://github.com/mahitha22/op_webdevelopment101) - [View in Browser](https://mahitha22.github.io/op_webdevelopment101/google-homepage/index.html)
 * [waream2's Solution (Easy)](https://github.com/waream2/google-homepage) - [View in Browser](https://waream2.github.io/google-homepage/)
 * [T0rr1's Solution (Easy)](https://github.com/T0rr1/google-homepage-T) - [View in Browser](https://t0rr1.github.io/google-homepage-T/)
 * [King-Cao's Solution (Easy)](https://github.com/King-Cao/google-homepage) - [View in Browser](https://king-cao.github.io/google-homepage/)
@@ -111,7 +112,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [dnlbst's Solution (Easy)](https://github.com/dnlbst/google-homepage) - [View in Browser](https://dnlbst.github.io/google-homepage/)
 * [mustafa-ansari's Solution (Easy)](https://github.com/mustafa-ansari/google-homepage) - [View in Browser](https://mustafa-ansari.github.io/google-homepage/)
 * [Phantomas83's Solution (Easy)](https://github.com/Phantomas83/google-homepage) - [View in Browser](https://phantomas83.github.io/google-homepage/)
-* [Ivantbv's Solution (Easy)](https://github.com/ivantbv/google-homepage) - [View in Browser](https://ivantbv.github.io/google-homepage/) 
+* [Ivantbv's Solution (Easy)](https://github.com/ivantbv/google-homepage) - [View in Browser](https://ivantbv.github.io/google-homepage/)
 * [ldhandley's Solution (Easy)](https://github.com/ldhandley/google-homepage) - [View in Browser](https://ldhandley.github.io/google-homepage/)
 * [dje82's Solution (Hard)](https://github.com/dje82/google-homepage) - [View in Browser](https://dje82.github.io/google-homepage/)
 * [jaydu1995's Solution (Hard)](https://github.com/jaydu1995/google-hard) - [View in Browser](https://jaydu1995.github.io/google-hard/)
@@ -3933,7 +3934,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tien Tai's Solution (Easy)](https://github.com/JBenjaminn/google-homepage) - [View in Browser](https://jbenjaminn.github.io/google-homepage/)
 * [Tien Tai's Solution (Difficult)](https://github.com/JBenjaminn/results-page) - [View in Browser](https://jbenjaminn.github.io/results-page/)
 * [Em's Solution (Easy)](https://sleepyember.github.io/Google/) - [View in Browser](https://sleepyember.github.io/Google/)
-* [thedodus' Solution (Easy)](https://github.com/thedodus/google_homepage) 
+* [thedodus' Solution (Easy)](https://github.com/thedodus/google_homepage)
 * [Arko's Solution (Easy)](https://github.com/arkch99/google-homepage) - [View in Browser](https://arkch99.github.io/google-homepage/)
 * [Arko's Solution (Difficult)](https://github.com/arkch99/google-search-page) - [View in Browser](https://arkch99.github.io/google-search-page/)
 * [PinkieBarto's Solution (Easy)](https://github.com/PinkieBarto/google-homepage) - [View in Browser](https://pinkiebarto.github.io/google-homepage/)
