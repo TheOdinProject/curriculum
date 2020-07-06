@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [descholar's Solution](https://github.com/descholar-ceo/youtube-player-page) - [View in Browser](https://descholar-ceo.github.io/youtube-player-page/)
 * [Othesius's Solution](https://github.com/othesius-exe/mocktube) - [View in Browser](https://othesius-exe.github.io/mocktube/)
 * [Ryan Ameri's Solution](https://github.com/RyanAmeri/odin-project-youtube) - [View in Browser](https://ryanameri.github.io/odin-project-youtube/index.html)
 * [Witah Georjane's Solution](https://github.com/Georjane/youtube_video_player.git) - [View in Browser](https://rawcdn.githack.com/Georjane/youtube_video_player/27644cfc3da4ad8fed2e67320537574cdd59d24f/index.html)
