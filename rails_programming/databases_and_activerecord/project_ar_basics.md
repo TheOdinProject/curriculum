@@ -113,7 +113,11 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+<<<<<<< HEAD
 * [Ryan Lewin's Solution](https://github.com/ryan-lewin/micro-reddit)
+=======
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/Micro_reddit)
+>>>>>>> 5fdb95f5004cbc9899572b45d0cc371eee861384
 * [irlgabriel's Solution](https://github.com/irlgabriel/micro-reddit)
 * [Christian's Solution](https://github.com/rueeazy/micro-reddit)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/micro-reddit)
@@ -263,6 +267,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Robert Suazo's Solution](https://github.com/rsuazo/micro-reddit)
 * [Ken H's Solution](https://github.com/kholston/micro_reddit)
 * [Christian Páez's Solution](https://github.com/christian1894/micro-reddit)
+* [Chris H's Solution](https://github.com/CKHarrison/micro-reddit)
+* [fussykyloren's Solution](https://github.com/fussykyloren/micro-reddit)
 </details>
 
 ### Additional Resources
