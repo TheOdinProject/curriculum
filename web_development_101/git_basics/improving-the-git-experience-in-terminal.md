@@ -6,20 +6,20 @@ In this lesson, we would tweak our terminal to improve the git experience. This 
 ### Prerequisites
 
 You require the following before starting this tutorial :
-  * MacOS.
-  * You need homebrew installed.
+  * MacOS / Linux (preferably Ubuntu).
+  * If you are on MacOS, you need homebrew installed.
     * if you don't have it installed you can install it by typing in the terminal
       ```zsh 
       $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
       ```
     
-### Instructions
+### Instructions for MacOS users
   * (optional but recommended) installing iTerm2 (it is a third party replacement for the terminal in MacOS)
     * type in terminal
       ```zsh 
       $ brew cask install iTerm2
       ``` 
-    * wait until the install to complete (output will be 🍺 iterm2 was successfully installed!)
+    * wait until the install is complete (output will be 🍺 iterm2 was successfully installed!)
     * press command + space on your keyboard to open spotlight
     * search iTerm and open the Application (you may get a warning press open, now you can close the terminal)
     
@@ -28,7 +28,7 @@ You require the following before starting this tutorial :
       ```zsh 
       $ brew install zsh 
       ```
-    * wait until the install to complete (output will be 
+    * wait until the install is complete (output will be 
       Pouring zsh-5.8.catalina.bottle.tar.gz
       🍺  /usr/local/Cellar/zsh/5.8: 1,531 files, 13.7MB)
       
@@ -37,7 +37,7 @@ You require the following before starting this tutorial :
         ```zsh
         $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
         ```
-     * wait until the install to complete (output will be in big green letters oh my zsh is now installed!)
+     * wait until the install is complete (output will be in big green letters oh my zsh is now installed!)
      * you will see that the $ and the text before it is replaced with -> ~ (here ~ represents Home Directory).
      
   * install a theme for oh my zsh 
@@ -47,7 +47,7 @@ You require the following before starting this tutorial :
       ```zsh
         -> ~ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
       ```
-    * wait until the install to complete (output will be Resolving deltas: 100% (9108/9108), done.)
+    * wait until the install is complete (output will be Resolving deltas: 100% (9108/9108), done.)
     * type in iTerm or Terminal
       ```zsh
         -> ~ open ~/.zshrc
@@ -56,5 +56,37 @@ You require the following before starting this tutorial :
     * restart iTerm2/Terminal
     * go through the configuration process as per instruction given in iTerm2/Terminal.
     
+### Instructions for Ubuntu users
+  * install zsh
+    * type in Terminal
+      ```bash 
+      $ sudo apt-get install zsh 
+      ```
+    * wait until the install is complete.
+      
+  * install Oh My Zsh
+     * type in Terminal
+        ```zsh
+        $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+        ```
+     * wait until the install is complete (output will be in big green letters oh my zsh is now installed!)
+     * you will see that the $ and the text before it is replaced with -> ~ (here ~ represents Home Directory).
+     
+  * install a theme for oh my zsh 
+    * you can choose any of the themes from https://github.com/ohmyzsh/ohmyzsh/wiki/themes.
+    * we would use powerlevel10k for this tutorial
+    * type in Terminal
+      ```zsh
+        -> ~ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+      ```
+    * wait until the install is complete (output will be Resolving deltas: 100% (9108/9108), done.)
+    * type in Terminal
+      ```zsh
+        -> ~ nano ~/.zshrc
+      ```
+    * look for `ZSH_THEME="robbyrussell"` in the text file which just opened and change it to `ZSH_THEME="powerlevel10k/powerlevel10k"` and save the file.
+    * restart Terminal
+    * go through the configuration process as per instruction given in Terminal.
+    
 ### Conclusion 
-Now you are ready for next lesson.
+You can cd in a git repo (folder) and make some changes stage and commit them to see the change in the experience of using git, now you are ready for next lesson.
