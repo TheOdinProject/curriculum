@@ -22,7 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-mint) - [View in Browser] (https://lucas-bide.github.io/odin-mint/)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-mint) - [View in Browser](https://lucas-bide.github.io/odin-mint/)
 * [Ryan Ameri's Solution](https://github.com/RyanAmeri/odin-project-html-forms) - [View in Browser](https://ryanameri.github.io/odin-project-html-forms/index.html)
 * [Stanley Enow Lekunze's (happiguruman) solution](https://github.com/happiguru/mint-signup-page) - [View in Browser](https://happiguru.github.io/mint-signup-page/)
 * [Adil-Bub's](https://github.com/Adil-Bub/ReplicaForm) - [View in Browser](https://adil-bub.github.io/ReplicaForm/)
