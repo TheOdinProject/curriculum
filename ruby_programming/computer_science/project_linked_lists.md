@@ -69,6 +69,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/linked_list.rb)
+- [ChargrilledChook's Solution](https://github.com/ChargrilledChook/linked-lists)
+- [Aaron Contreras's Solution](https://github.com/aaron-contreras/linked_lists)
+- [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Linked-List)
+- [Gael's Solution](https://github.com/lungla-gael/Linked-Lists)
 - [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/linked_list/linked_list.rb)
 - [Tilda Udufo's Solution (with extra credit)](https://github.com/TildaDares/linkedLists)
 - [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/linked_list.rb)
@@ -261,4 +266,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Sandy's Solution (with extra credit)](https://github.com/kuosandys/top-ruby-assignments/blob/master/linked_lists.rb)
 - [mpiriya's Solution (with extra credit)](https://github.com/mpiriya/ruby/blob/master/linked_list.rb)
 - [Chow Jia Ying's solution](https://github.com/C-likethis123/ruby_odin_project/tree/master/linked_list)
+- [Adam's Solution (with extra credit)](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/linked_list.rb)
   </details>

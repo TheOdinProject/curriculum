@@ -17,7 +17,7 @@ You can quickly start playing around with vue via the cdn by including
 ```
 in your project, jsfiddle or codepen. You can follow the installation project [here](https://vuejs.org/v2/guide/installation.html#CDN). This is perfect for small projects, if you just want to manipulate only certain parts of the dom (\*cough\* replace jquery \*cough\*) .
 
-For complete Vue projects you can use the [vue-cli](https://github.com/vuejs/vue-cli) by installing it `yarn global add @vue/cli` and easily create a project with `vue create name-of-your-project`.
+For complete Vue projects you can use the [vue-cli](https://github.com/vuejs/vue-cli) by installing it `npm install -g @vue/cli` or `yarn global add @vue/cli` and easily create a project with `vue create name-of-your-project` or `vue ui`.
 
 ### Assignment
 
