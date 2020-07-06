@@ -31,6 +31,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/express-locallibrary-tutorial) - [View in Browser](https://desolate-peak-68003.herokuapp.com/catalog)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/local-library) - [View in Browser](https://local-library-kikupiku.herokuapp.com/)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/local-library-express) - [View in Browser](https://protected-journey-23901.herokuapp.com/catalog)
 - [Igorashs's Solution](https://github.com/igorashs/express-locallibrary) - [View in Browser](https://peaceful-refuge-59435.herokuapp.com/catalog)
@@ -51,5 +52,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [barrysweeney's Solution](https://github.com/barrysweeney/express-library-tutorial) - [View in Browser](https://fathomless-beach-16334.herokuapp.com/catalog)
 - [ranmaru22's Solution](https://github.com/ranmaru22/local-library) - [View in Browser](https://agile-ocean-88291.herokuapp.com)
 - [Scott Bowles's Solution](https://github.com/scottBowles/mdn-express-tutorial-local-library) - [View in Browser](https://morning-atoll-44293.herokuapp.com/)
+- [Lakshya Kharayat's Solution](https://github.com/cartoonshow57/Local-Library) - [View in Browser](https://stark-oasis-46110.herokuapp.com/catalog)
+- [Vorelli's Solution](https://github.com/Vorelli/basic-library) - [View in Browser](https://polar-inlet-71512.herokuapp.com/catalog)
 
 </details>
