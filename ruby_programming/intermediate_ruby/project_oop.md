@@ -392,6 +392,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Dyrits's Solution](https://github.com/Dyrits/X-O-OP-TIC-TAC-TOE/blob/master/tic_tac_toe.rb)
 * [Intermedia's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/tictactoe.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/tic_tac_toe/blob/master/tic_tac_toe.rb)
+* [shanedgilbert's Solution](https://github.com/shanedgilbert/Tic-Tac-Toe) - [Play on repl.it](https://repl.it/@shanedgilbert/Tic-Tac-Toe#.replit)
 
 </details>
 
