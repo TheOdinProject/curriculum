@@ -3950,6 +3950,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Marko Markovitz's Solution (Easy)](https://github.com/markanjski/google-homepage) - [View in Browser](https://markanjski.github.io/google-homepage/)
 * [zeroo's Solution (Easy)](https://github.com/iamzeroo/google-homepage) - [View in Browser](https://iamzeroo.github.io/google-homepage/)
 * [Sal's Solution (Easy)](https://github.com/Sal-theSadmanShark/project_showcase) - [View in Browser](https://sal-thesadmanshark.github.io/project_showcase/)
+* [Sal's Solution (Hard)](https://github.com/Sal-theSadmanShark/google_replica_2) - [View in Browser](https://sal-thesadmanshark.github.io/google_replica_2/)
 * [Orhan's Solution (Easy)](https://github.com/orhanugurlu/the_odin_project/tree/master/google-homepage) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/google-homepage/index.html)
 * [Orhan's Solution (Difficult)](https://github.com/orhanugurlu/the_odin_project/tree/master/google-homepage) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/google-homepage/search-results.html)
 * [Michael's Solution (Easy)](https://skunkmeister.github.io/google-homepage/) - [View in Browser](https://skunkmeister.github.io/google-homepage/)
