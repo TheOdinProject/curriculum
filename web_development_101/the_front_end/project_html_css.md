@@ -3970,6 +3970,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kevin Edmond's Solution (Easy)](https://bigsave24.github.io/google-homepage/) - [View in Browser](https://bigsave24.github.io/google-homepage/)
 * [Julia Bordo'a Solution (Hard)](https://github.com/JuliaBordo/Odin_Project_1) - [View in Browser](https://juliabordo.github.io/Odin_Project_1/)
 * [Martin Echenique's Solution (Easy)](https://github.com/MartinEchenique/google-homepage/) - [View in Browser](https://martinechenique.github.io/google-homepage/)
+* [Felipe Caldeira's Solution (Hard)](https://github.com/Felipe-Caldeira/google-search-results-page) - [View in Browser](https://felipe-caldeira.github.io/google-search-results-page/)
 * [Dorcas Emmanuel's Solution (Easy)](https://github.com/portableDD/google-homepage) - [View in Browser](https://portabledd.github.io/google-homepage/)
 </details>
 
