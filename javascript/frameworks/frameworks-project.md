@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Carl D'Oleo-Lundgren's Vue Library](https://github.com/carldoleolundgren/library-vue) - [View in Browser](https://carldoleolundgren.github.io/library-vue/)
 * [Sher's React Restaurant](https://github.com/sher-s7/react-restaurant-page) - [View in Browser](https://sher-s7.github.io/react-restaurant-page/)
 * [Andrija's Solution](https://github.com/Amdrija/todo-list-app) - [View in Browser](https://amdrija.github.io/todo-list-app/)
 * [Korak's Solution](https://github.com/Korak-997/todo-Vue-App/tree/source-code) - [View in Browser](https://happy-raman-a16efe.netlify.app/)
