@@ -3978,6 +3978,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [yiyuanyi's Solution (Hard)](https://github.com/yiyuanyi/google-search-results) - [View in Browser](https://yiyuanyi.github.io/google-search-results/)
 * [Mightynubnub's Solution (Easy)](https://github.com/Mightynubnub/google-homepage) - [View in Browser](https://mightynubnub.github.io/google-homepage/)
 * [Mightynubnub's Solution (Difficult)](https://github.com/Mightynubnub/google-search) - [View in Browser](https://mightynubnub.github.io/google-search/)
+* [Istrate Stefan's Solution (Easy)](https://github.com/IstrateStefan/google-homepage) - [View in Browser](https://istratestefan.github.io/google-homepage/)
+* [Istrate Stefan's Solution (Difficult)](https://github.com/IstrateStefan/google-search-page) - [View in Browser](https://istratestefan.github.io/google-search-page/)
 </details>
 
 
