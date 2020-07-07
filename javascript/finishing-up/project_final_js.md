@@ -33,6 +33,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [David Chapman's solution](https://github.com/davidchappy/lesson-scheduler) - [View in browser](http://lesson-scheduler.herokuapp.com/)
 * [Areeba's solution](https://github.com/ribaishtiaq/Chablie) - [View in browser](https://chablie.herokuapp.com)
 * [barrysweeney's solution](https://github.com/barrysweeney/topify) - [View in browser](https://clever-lamport-50d143.netlify.app/)
+* [Kokozord's solution - Reddit Clone](https://github.com/Kokozord/the-oddit-project) - [View in browser](https://the-oddit-project.herokuapp.com/)
 </details>
 
 ### Additional Resources
