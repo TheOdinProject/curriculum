@@ -24,6 +24,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jdonahue135's solution](https://github.com/jdonahue135/odin-twitter) - [View in browser](https://afternoon-fjord-78280.herokuapp.com/home)
 * nmac's solution: [frontend](https://github.com/nmacawile/rails-chat), [backend](https://github.com/nmacawile/rails-chat-api) - [View in browser](https://nmacawile.github.io/rails-chat)
 * [Gregthepeg's](https://github.com/gregthepeg4/instagram) - [View in browser](https://insteadgram1.herokuapp.com/users/sign_in)
 * [Brock McElroy's solution](https://github.com/brxck/castaway) - [View in browser](http://castaway.brockmcelroy.com)
