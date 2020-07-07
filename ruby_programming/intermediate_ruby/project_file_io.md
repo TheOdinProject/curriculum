@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Clumsyknight's Solution](https://github.com/Clumsynite/ruby-hangman) - [View in Repl.it](https://ruby-hangman-1.clumsynite.repl.run/)
 * [Evelyn's Solution](https://github.com/evive82/Hangman)
 * [Eduardo's Solution](https://github.com/helloeduardo/build_a_person) - [View in Repl.it](https://repl.it/github/helloeduardo/build_a_person)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Hangman)
@@ -332,4 +333,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [JvPelai's Solution](https://github.com/JvPelai/Hangman)
 * [Tim's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/hangman/lib/hangman.rb)
 * [ahanasi's Solution](https://github.com/ahanasi/hangman/blob/master/lib/hangman.rb)
+* [msespos's Solution](https://github.com/msespos/snowman) - [Live version on Repl.it](https://repl.it/@msespos/snowman)
 </details>
