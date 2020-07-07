@@ -3974,6 +3974,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Martin Echenique's Solution (Easy)](https://github.com/MartinEchenique/google-homepage/) - [View in Browser](https://martinechenique.github.io/google-homepage/)
 * [Felipe Caldeira's Solution (Hard)](https://github.com/Felipe-Caldeira/google-search-results-page) - [View in Browser](https://felipe-caldeira.github.io/google-search-results-page/)
 * [Dorcas Emmanuel's Solution (Easy)](https://github.com/portableDD/google-homepage) - [View in Browser](https://portabledd.github.io/google-homepage/)
+* [Paulo Marchezi's Solution (Difficult)](https://github.com/pauloernestom/googleSearchResultPage) - [View in Browser](https://pauloernestom.github.io/googleSearchResultPage/)
 </details>
 
 
