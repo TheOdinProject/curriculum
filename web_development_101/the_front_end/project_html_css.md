@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Bernardo Vargas's Solution (Easy)]https://github.com/bernardoVargasF/google-homepage/) - [View in Browswer](https://bernardovargasf.github.io/google-homepage/)
+* [Bernardo Vargas's Solution (Easy)](https://github.com/bernardoVargasF/google-homepage/) - [View in Browswer](https://bernardovargasf.github.io/google-homepage/)
 * [James J. King's Solution (Easy)](https://jking026.github.io/google-homepage/) - [View in Browswer](https://jking026.github.io/google-homepage/)
 * [Eco-Developer's Solution (Easy)](https://github.com/Eco-developer/google-homepage) - [View in Browser](https://eco-developer.github.io/google-homepage/) 
 * [rajdeepdev10's Solution (Easy)](https://github.com/rajdeepdev10/google-hompage) - [View in Browser](https://rajdeepdev10.github.io/google-hompage/)
@@ -3974,6 +3974,14 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Martin Echenique's Solution (Easy)](https://github.com/MartinEchenique/google-homepage/) - [View in Browser](https://martinechenique.github.io/google-homepage/)
 * [Felipe Caldeira's Solution (Hard)](https://github.com/Felipe-Caldeira/google-search-results-page) - [View in Browser](https://felipe-caldeira.github.io/google-search-results-page/)
 * [Dorcas Emmanuel's Solution (Easy)](https://github.com/portableDD/google-homepage) - [View in Browser](https://portabledd.github.io/google-homepage/)
+* [Paulo Marchezi's Solution (Difficult)](https://github.com/pauloernestom/googleSearchResultPage) - [View in Browser](https://pauloernestom.github.io/googleSearchResultPage/)
+* [yiyuanyi's Solution (Hard)](https://github.com/yiyuanyi/google-search-results) - [View in Browser](https://yiyuanyi.github.io/google-search-results/)
+* [Mightynubnub's Solution (Easy)](https://github.com/Mightynubnub/google-homepage) - [View in Browser](https://mightynubnub.github.io/google-homepage/)
+* [Mightynubnub's Solution (Difficult)](https://github.com/Mightynubnub/google-search) - [View in Browser](https://mightynubnub.github.io/google-search/)
+* [Istrate Stefan's Solution (Easy)](https://github.com/IstrateStefan/google-homepage) - [View in Browser](https://istratestefan.github.io/google-homepage/)
+* [Istrate Stefan's Solution (Difficult)](https://github.com/IstrateStefan/google-search-page) - [View in Browser](https://istratestefan.github.io/google-search-page/)
+* [Veronica's Solution (Difficult)](https://github.com/VJones2112/google-homepage) - [View in Browser](https://google-homepage-h1x16kvrf.vercel.app/)
+* [Ornella's Solution (Easy)](https://github.com/ornel77/google-homepage) - [View in Browser](https://ornel77.github.io/google-homepage/)
 </details>
 
 
