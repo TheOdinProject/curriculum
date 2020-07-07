@@ -1,5 +1,5 @@
 ### Introduction
-Knowing how to use the Developers Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, or viewing performance data. They also save you lots of time. Getting started couldn't be any easier. You should already be familiar with using them for debugging and working on HTML and CSS, so lets take a look at how they can benefit us when writing JavaScript.
+Knowing how to use the Developers Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, or viewing performance data. They also save you lots of time. Getting started couldn't be any easier. You should already be familiar with using them for debugging and working on HTML and CSS, so let's take a look at how they can benefit us when writing JavaScript.
 
 ### Opening Dev Tools
 
