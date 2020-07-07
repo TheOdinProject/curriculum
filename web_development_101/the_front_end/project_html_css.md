@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Eco-Developer's Solution (Easy)](https://github.com/Eco-developer/google-homepage) - [View in Browser](https://eco-developer.github.io/google-homepage/) 
 * [rajdeepdev10's Solution (Easy)](https://github.com/rajdeepdev10/google-hompage) - [View in Browser](https://rajdeepdev10.github.io/google-hompage/)
 * [mahitha22's solution (Easy)](https://github.com/mahitha22/op_webdevelopment101) - [View in Browser](https://mahitha22.github.io/op_webdevelopment101/google-homepage/index.html)
 * [waream2's Solution (Easy)](https://github.com/waream2/google-homepage) - [View in Browser](https://waream2.github.io/google-homepage/)
@@ -3970,6 +3971,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Julia Bordo'a Solution (Hard)](https://github.com/JuliaBordo/Odin_Project_1) - [View in Browser](https://juliabordo.github.io/Odin_Project_1/)
 * [Martin Echenique's Solution (Easy)](https://github.com/MartinEchenique/google-homepage/) - [View in Browser](https://martinechenique.github.io/google-homepage/)
 * [Felipe Caldeira's Solution (Hard)](https://github.com/Felipe-Caldeira/google-search-results-page) - [View in Browser](https://felipe-caldeira.github.io/google-search-results-page/)
+* [Dorcas Emmanuel's Solution (Easy)](https://github.com/portableDD/google-homepage) - [View in Browser](https://portabledd.github.io/google-homepage/)
 </details>
 
 
