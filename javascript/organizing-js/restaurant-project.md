@@ -49,7 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [vonhoro's Solution](https://github.com/vonhoro/Restaurant)
+- [vonhoro's Solution](https://github.com/vonhoro/Restaurant) - [View in Browser](https://vonhoro.github.io/Restaurant/)
 - [s92xiong's Solution](https://github.com/s92xiong/restaurant-page) - [View in Browser](https://s92xiong.github.io/restaurant-page/)
 - [pklepa's Solution](https://github.com/pklepa/small-restaurant) - [View in Browser](https://pklepa.github.io/small-restaurant/)
 - [Tomodi98's Solution](https://github.com/Tomodi98/restaurant-page) - [View in Browser](https://tomodi98.github.io/restaurant-page/)
