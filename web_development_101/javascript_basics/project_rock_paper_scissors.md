@@ -55,7 +55,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [saranshgupta27's Solution](https://github.com/saranshgupta27/Rock-Paper-Scissor)
 - [Rahim Ratnani's Solution](https://github.com/rahimratnani/rock-paper-scissors) - [View in Browser](https://rahimratnani.github.io/rock-paper-scissors/)
 - [Chala17's Solution](https://github.com/chala17/rock_paper_scissors)
-- [thiagom97's Solution](https://github.com/thiagom97/pedra-papel-tesoura)
+- [thiagom97's Solution](https://github.com/thiagom97/pedra-papel-tesoura) - [View in Browser](https://thiagom97.github.io/pedra-papel-tesoura/)
 - [derva's Solution](https://github.com/derva/rock-paper-scissors) - [View in Browser](https://derva.github.io/rock-paper-scissors/)
 - [jaydu1995's Solution](https://github.com/jaydu1995/rock-paper-scissors)
 - [Jorgepp's Solution](https://github.com/jorgepp94/rocker-paper-scissors) - [View in Browser](https://jorgepp94.github.io/rocker-paper-scissors/)
