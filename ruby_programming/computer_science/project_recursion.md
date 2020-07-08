@@ -268,6 +268,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/recursion/fibonacci.rb)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/fibonacci.rb)
 * [Johnny's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/fibs_rec.rb)
+* [msespos's Solution](https://github.com/msespos/fibonacci)
 </details>
 
 ### Project: Merge Sort
