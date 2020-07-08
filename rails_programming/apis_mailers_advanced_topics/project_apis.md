@@ -264,7 +264,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Brendaneus' Solution](https://theodinprojects.live/courses/ruby-on-rails/projects/flickr-api)
 * [Jamesredux's solution](https://github.com/Jamesredux/flickr_app) - [View in Browser](https://sleepy-castle-29757.herokuapp.com/)
 * [Timework's solution](https://github.com/Timework/odin-flickr)
-
+* [Bendee's Solution](https://github.com/bendee48/rails-photo-feed)
 </details>
 
 ### Additional Resources
