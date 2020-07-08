@@ -95,9 +95,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Priya Aggarwal's Solution (Easy)](https://github.com/pa-aggarwal/google-homepage) - [View in Browser](https://pa-aggarwal.github.io/google-homepage/)
+* [Priya Aggarwal's Solution (Difficult)](https://github.com/pa-aggarwal/google-results-page) - [View in Browser](https://pa-aggarwal.github.io/google-results-page/)
 * [Bernardo Vargas's Solution (Easy)](https://github.com/bernardoVargasF/google-homepage/) - [View in Browswer](https://bernardovargasf.github.io/google-homepage/)
 * [James J. King's Solution (Easy)](https://jking026.github.io/google-homepage/) - [View in Browswer](https://jking026.github.io/google-homepage/)
-* [Eco-Developer's Solution (Easy)](https://github.com/Eco-developer/google-homepage) - [View in Browser](https://eco-developer.github.io/google-homepage/) 
+* [Eco-Developer's Solution (Easy)](https://github.com/Eco-developer/google-homepage) - [View in Browser](https://eco-developer.github.io/google-homepage/)
 * [rajdeepdev10's Solution (Easy)](https://github.com/rajdeepdev10/google-hompage) - [View in Browser](https://rajdeepdev10.github.io/google-hompage/)
 * [mahitha22's solution (Easy)](https://github.com/mahitha22/op_webdevelopment101) - [View in Browser](https://mahitha22.github.io/op_webdevelopment101/google-homepage/index.html)
 * [waream2's Solution (Easy)](https://github.com/waream2/google-homepage) - [View in Browser](https://waream2.github.io/google-homepage/)
