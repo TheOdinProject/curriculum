@@ -2,10 +2,10 @@
 
 You have learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node". You have also learned about tree traversal algorithms like breadth-first and depth-first.
 
-Now, let's take a look at balanced binary search trees. Read [this article](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/) and watch [this video](https://youtu.be/VCTP81Ij-EM) to understand the basic algorithm used to build a balanced BST. Although these two resources do not use Ruby, you should understand it enough to develop your own pseudocode.
+Now, let's take a look at balanced binary search trees (BST). Read [this article](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/) and watch [this video](https://youtu.be/VCTP81Ij-EM) to understand the basic algorithm used to build a balanced BST. Although these two resources do not use Ruby, you should understand it enough to develop your own pseudocode.
 
 ### Assignment 1
-You'll build a balanced binary search tree in this assignment. Do not use duplicate values because they make it more complicated and result in trees that are much harder to balance. Therefore, be sure to always remove duplicate values or check for an existing value before inserting.
+You'll build a balanced BST in this assignment. Do not use duplicate values because they make it more complicated and result in trees that are much harder to balance. Therefore, be sure to always remove duplicate values or check for an existing value before inserting.
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -25,7 +25,7 @@ You'll build a balanced binary search tree in this assignment. Do not use duplic
 
   8. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
 
-  9. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree is not more than 1.
+  9. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 
   10. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
 
@@ -48,9 +48,6 @@ You'll build a balanced binary search tree in this assignment. Do not use duplic
       pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
     end
     ~~~
-
-  ### Super-Duper Bonus
-  Did you notice how all the depth-first methods share a similar signature and are basically just a re-arrangement of the same 3 lines? If you would like to challenge yourself even further, here is an opportunity to learn about a metaprogamming technique called `#define_method`. This is not the best example of using metaprogramming, but it is important to know that it exists. You will have to do additional research to fully understand it, but this [Ruby Learning blog post on metaprogamming](http://rubylearning.com/blog/2010/11/23/dont-know-metaprogramming-in-ruby/), [Rubymonk's chapter on dynamic method calls](http://rubymonk.com/learning/books/2-metaprogramming-ruby/chapters/25-dynamic-methods/lessons/65-send#solution4186), and this [stack overflow](https://stackoverflow.com/questions/2306731/using-yield-inside-define-method-in-ruby) will get you started in the right direction.
 </div>
 
 ### Student Solutions
