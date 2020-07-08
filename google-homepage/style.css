@@ -1,0 +1,79 @@
+@import url(htps://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    display: block;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    
+  }
+  .ulF {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 3px;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f4f0f0;
+    
+  }
+  
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: currentColor;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .btn{
+    display: block;
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+    height: 30px;
+    font-weight: bold;
+    margin-right: 16px;
+    text-align: center;
+  }
+  .input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;
+    width: 30%;
+    border-radius: 20px;
+    border-color: #DFDADA;
+    color: grey;
+    background-color: white;
+    height: 30px;
+}
+.inputWithIcon{
+  position: relative;
+}
+.inputWithIcon i{
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+}
+.inputWithIcon input [type="text"]{
+  padding-left: 40px;
+}
+  
