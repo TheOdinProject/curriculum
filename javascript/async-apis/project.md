@@ -101,4 +101,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Joe Thompson's Solution](https://github.com/jlthompso/weather) - [View in Browser](https://jlthompso.github.io/weather/)
 * [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/weather-app) - [View in Browser](https://ozansozuozgit.github.io/weather-app/)
 * [Ricardo's Solution](https://github.com/ricardo-gonzalez-villegas/weather-react-app/tree/master) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/weather-react-app/)
+* [Tim Kelly's Solution](https://github.com/timkellytk/project-weather-app) - [View in Browser](https://timkellytk.github.io/project-weather-app/)
 </details>
