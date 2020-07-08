@@ -798,5 +798,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Arindam's Solution](https://github.com/Arindam-7/Calculator) - [View in Browser](https://arindam-7.github.io/Calculator/)
 - [Taras's Solution](https://github.com/tiris08/odin-project-calculator) - [View in Browser](https://tiris08.github.io/odin-project-calculator/)
 - [Jacobus's Solution](https://github.com/Jacobus-afk/calcuator) - [View in Browser](https://jacobus-afk.github.io/calcuator/)
-- [My Awesome Calculator!] (https://github.com/StarSheriff2/Calculator) - [View in Browser](https://starsheriff2.github.io/Calculator/)
+- [StarSheriff's Solution](https://github.com/StarSheriff2/Calculator) - [View in Browser](https://starsheriff2.github.io/Calculator/)
 </details>
