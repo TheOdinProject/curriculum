@@ -97,7 +97,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this list
 * [Bernardo Vargas's Solution (Easy)](https://github.com/bernardoVargasF/google-homepage/) - [View in Browswer](https://bernardovargasf.github.io/google-homepage/)
 * [James J. King's Solution (Easy)](https://jking026.github.io/google-homepage/) - [View in Browswer](https://jking026.github.io/google-homepage/)
-* [Eco-Developer's Solution (Easy)](https://github.com/Eco-developer/google-homepage) - [View in Browser](https://eco-developer.github.io/google-homepage/) 
+* [Eco-Developer's Solution (Easy)](https://github.com/Eco-developer/google-homepage) - [View in Browser](https://eco-developer.github.io/google-homepage/)
 * [rajdeepdev10's Solution (Easy)](https://github.com/rajdeepdev10/google-hompage) - [View in Browser](https://rajdeepdev10.github.io/google-hompage/)
 * [mahitha22's solution (Easy)](https://github.com/mahitha22/op_webdevelopment101) - [View in Browser](https://mahitha22.github.io/op_webdevelopment101/google-homepage/index.html)
 * [waream2's Solution (Easy)](https://github.com/waream2/google-homepage) - [View in Browser](https://waream2.github.io/google-homepage/)
@@ -3982,6 +3982,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Istrate Stefan's Solution (Difficult)](https://github.com/IstrateStefan/google-search-page) - [View in Browser](https://istratestefan.github.io/google-search-page/)
 * [Veronica's Solution (Difficult)](https://github.com/VJones2112/google-homepage) - [View in Browser](https://google-homepage-h1x16kvrf.vercel.app/)
 * [Ornella's Solution (Easy)](https://github.com/ornel77/google-homepage) - [View in Browser](https://ornel77.github.io/google-homepage/)
+* [totalconsciousness's Solution (Difficult)] (https://github.com/totalconsciousness/google-homepage) - [View in Browser](https://totalconsciousness.github.io/google-homepage/)
 </details>
 
 
