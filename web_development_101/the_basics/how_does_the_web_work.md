@@ -56,7 +56,7 @@ At the end of this lesson, you should be able to do the following:
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Watch this [BBC short](https://vimeo.com/128575085) for an overview of how the internet works.
+  1. Watch this [short video](https://www.youtube.com/watch?v=x3c1ih2NJEg) for an overview of how the internet works.
   2. Read this [article](https://developer.mozilla.org/en-US/Learn/Common_questions/How_does_the_Internet_work) from Mozilla on "How does the Internet work?".
   3. Watch [How the Internet Works in 5 Minutes](https://youtu.be/7_LPdttKXPc?t=46s).
   4. Read up on the [differences](https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines) between a web page, a web server, and a search engine.
