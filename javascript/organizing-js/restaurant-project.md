@@ -207,4 +207,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Chandra's Solution](https://github.com/CodeSurfer3022/Restaurant-page) - [View in Browser](https://codesurfer3022.github.io/Restaurant-page/)
 - [alxmkh's Solution](https://github.com/alxmkh/restaurant) - [View in Browser](https://alxmkh.github.io/restaurant/)
 - [Nijepa's Solution](https://github.com/nijepa/restaurant-page) - [View in Browser](https://nijepa.github.io/restaurant-page/)
+- [lonewolf045's Solution](https://github.com/lonewolf045/restaurant-page) - [View in Browser](https://lonewolf045.github.io/restaurant-page/)
 </details>
