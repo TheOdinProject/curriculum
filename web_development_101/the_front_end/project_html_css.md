@@ -3982,7 +3982,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Istrate Stefan's Solution (Difficult)](https://github.com/IstrateStefan/google-search-page) - [View in Browser](https://istratestefan.github.io/google-search-page/)
 * [Veronica's Solution (Difficult)](https://github.com/VJones2112/google-homepage) - [View in Browser](https://google-homepage-h1x16kvrf.vercel.app/)
 * [Ornella's Solution (Easy)](https://github.com/ornel77/google-homepage) - [View in Browser](https://ornel77.github.io/google-homepage/)
+<<<<<<< HEAD
 * [totalconsciousness's Solution (Difficult)] (https://github.com/totalconsciousness/google-homepage) - [View in Browser](https://totalconsciousness.github.io/google-homepage/)
+=======
+* [eevacc's Solution (Easy)](https://github.com/eevacc/google-homepage) - [View in Browser](https://eevacc.github.io/google-homepage/)
+>>>>>>> ba3b5f4ada93fd27e16fce87c8d1eaa9186e2f62
 </details>
 
 
