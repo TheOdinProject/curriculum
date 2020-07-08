@@ -95,6 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Priya Aggarwal's Solution (Easy)](https://github.com/pa-aggarwal/google-homepage) - [View in Browser](https://pa-aggarwal.github.io/google-homepage/)
+* [Priya Aggarwal's Solution (Difficult)](https://github.com/pa-aggarwal/google-results-page) - [View in Browser](https://pa-aggarwal.github.io/google-results-page/)
 * [Bernardo Vargas's Solution (Easy)](https://github.com/bernardoVargasF/google-homepage/) - [View in Browswer](https://bernardovargasf.github.io/google-homepage/)
 * [James J. King's Solution (Easy)](https://jking026.github.io/google-homepage/) - [View in Browswer](https://jking026.github.io/google-homepage/)
 * [Eco-Developer's Solution (Easy)](https://github.com/Eco-developer/google-homepage) - [View in Browser](https://eco-developer.github.io/google-homepage/)
