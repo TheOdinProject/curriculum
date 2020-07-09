@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Lakshya Singh's Solution ( using Firebase )](https://github.com/king-11/Library) - [View in Browser](https://librarybuilder.ml/)
 - [Sasoun Torossian' Solution (w/ Local Storage)](https://github.com/SasounTorossian/Library) - [View in Browser](https://sasountorossian.github.io/Library/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/library) - [View in Browser](https://cyber-mat.github.io/library/)
 - [s92xiong's Solution](https://github.com/s92xiong/library-app) - [View in Browser](https://s92xiong.github.io/library-app/)
