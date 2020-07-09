@@ -39,16 +39,16 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
     6. Balance the tree by calling `#rebalance`
     7. Confirm that the tree is balanced by calling `#balanced?`
     8. Print out all elements in level, pre, post, and in order
-
-  **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
-    ~~~ruby
-    def pretty_print(node = root, prefix="", is_left = true)
-      pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right 
-      puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
-      pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
-    end
-    ~~~
 </div>
+
+**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
+~~~ruby
+def pretty_print(node = root, prefix="", is_left = true)
+  pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right 
+  puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
+  pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
+end
+~~~
 
 ### Student Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for details on how.
