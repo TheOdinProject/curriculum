@@ -10,7 +10,7 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - How Does the Web Work? - [lesson](the_basics/how_does_the_web_work.md)
 - Installations
   - Installation Overview - [lesson](installations/installation_overview.md)
-  - Prerequsites - [lesson](installations/prerequisites.md)
+  - Prerequisites - [lesson](installations/prerequisites.md)
   - Text Editors - [lesson](installations/text_editors.md)
   - Command Line Basics - [lesson](installations/command_line_basics.md)
   - Installing Ruby - [lesson](installations/installing_ruby.md)
@@ -44,9 +44,5 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - Introduction to Frameworks - [lesson](web_development_frameworks/introduction_to_frameworks.md)
   - Ruby on Rails Basics - [lesson](web_development_frameworks/rails_basics.md)
   - [Project: Ruby on Rails](web_development_frameworks/project_rails.md)
-- Pair Programming
-  - Introduction to Pair Programming - [lesson](pair_programming/introduction_to_pair_programming.md)
-  - Preparing to Remote Pair - [lesson](pair_programming/prepare_to_remote_pair.md)
-  - [Project: Pairing Project](pair_programming/project_pairing.md)
 - Tying it All Together
   - Conclusion - [lesson](tying_it_all_together/conclusion.md)

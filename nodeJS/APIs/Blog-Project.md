@@ -26,12 +26,18 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/APIs/Blog-Project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Daniel's solution](https://github.com/Daniel5040/Blog) - [Admin Frontend](https://bagged-keener-22540.herokuapp.com/) - [Reader Frontend](https://immense-scrubland-37414.herokuapp.com/)
+* [Julio's solution](https://github.com/julio22b/blog-api) - [Admin Frontend in Browser](https://julio22b.github.io/blog-admin-frontend/log-in) - [Users Frontend in Browser](https://julio22b.github.io/blog-frontend/home)
+* [tracy2811's Solution](https://github.com/tracy2811/blog-api)
+* [Eljoey's Solution](https://github.com/eljoey/Blog-Api) - [Blog Site](https://jh-blog.netlify.com/)
+* [Barry Sweeney's Solution](https://github.com/barrysweeney/BarrysBlog) - [Admin Frontend](https://upbeat-neumann-61c68c.netlify.app/) - [Reader Frontend](https://jolly-torvalds-e76ec6.netlify.app/) - [Backend API](https://sheltered-peak-99436.herokuapp.com/articles)
+* [ranmaru22's Solution](https://github.com/ranmaru22/blog-api) - [Live Preview](https://nervous-blackwell-fa45eb.netlify.app)
 
 </details>
 

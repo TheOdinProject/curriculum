@@ -13,6 +13,7 @@ Frameworks let you focus more on building great sites and less on how they are a
 * How do you interact with the framework to get the look you want?
 * What is Twitter Bootstrap?
 * What is Zurb Foundation?
+* What is TailwindCSS?
 * What other frameworks can you find out there?
 * What are the disadvantages of using frameworks?
 
@@ -21,8 +22,9 @@ Frameworks let you focus more on building great sites and less on how they are a
 <div class="lesson-content__panel" markdown="1">
 1. Read [From A List Apart, Frameworks for Designers](http://alistapart.com/article/frameworksfordesigners)
 2. Read [From A List Apart, Building Twitter Bootstrap](http://alistapart.com/article/building-twitter-bootstrap)
-2. [Choosing Bootstrap or Foundation](https://medium.com/frontend-and-beyond/8b3812c7007c)
+2. [Choosing Bootstrap or Foundation](https://medium.com/@davegenge/bootstrap-vs-foundation-which-front-end-framework-to-use-e85319258b88)
 3. Browse through [Getting Started with Foundation](http://foundation.zurb.com/docs/) for an idea of how that framework operates.  Observe the similarities and differences between that and Bootstrap.
+4. Take a brief look at [TailwindCSS](https://tailwindcss.com/) for a more unique and modern approach to CSS frameworks.
 </div>
 
 ### Additional Resources
@@ -32,3 +34,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [If you're used to using Bootstrap 3, here's what changed in version 4](https://www.bootstrapdash.com/bootstrap-3-vs-4/)
 * [Bootstrap Docs](http://getbootstrap.com/)
 * [Foundation Docs](http://foundation.zurb.com/)
+* [TailwindCSS Docs](https://tailwindcss.com/)
