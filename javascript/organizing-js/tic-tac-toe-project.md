@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [matchewbie's Solution w/ minimax](https://github.com/matchewbie/tic-tac-toe) - [View in Browser](https://matchewbie.github.io/tic-tac-toe)
 - [Luky's Solution](https://github.com/lcyne/tic-tac-toe) - [View in Browser](https://lcyne.github.io/tic-tac-toe/)
 - [Anmol's Solution](https://github.com/6point022/tic-tac-toe) - [View in Browser](https://6point022.github.io/tic-tac-toe/)
 - [Andrew M's Solution](https://github.com/a6macleod/js_tictactoe) - [View in Browser](https://a6macleod.github.io/js_tictactoe/)
