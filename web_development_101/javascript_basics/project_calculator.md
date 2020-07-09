@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Daegudude's Solution](https://github.com/DaeguDude/calculator-redo) - [View in Browser](https://daegudude.github.io/calculator-redo/)
 - [Amr Elshenawy's Solution](https://github.com/AmrElshenawy/JS-Calculator) - [View in Browser](https://amrelshenawy.github.io/JS-Calculator/)
 - [onagova's Solution](https://github.com/onagova/calculator) - [View in Browser](https://onagova.github.io/calculator/)
 - [s92xiong's Solution](https://github.com/s92xiong/calculator) - [View in Browser](https://s92xiong.github.io/calculator/)
