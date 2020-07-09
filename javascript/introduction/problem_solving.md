@@ -3,7 +3,7 @@ Before we start digging into some pretty nifty JavaScript, we need to begin talk
 
 Problem solving, is the core thing software developers do, the programming languages and tools they use are secondary to this fundamental skill.
 
-V. Anton Paul defines problem solving in programming as:
+V. Anton Spraul defines problem solving in programming as:
 
 > "Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints."
 - Think Like a Programmer
@@ -186,7 +186,7 @@ We have one more sub problem to solve to complete the program: If the current nu
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
 for (let i = 1; i < answer; i++) {
-  if ( i % 3 === 0 && i % 5 == 0) {
+  if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
   } else if (i % 3 === 0) {
     console.log("Fizz");

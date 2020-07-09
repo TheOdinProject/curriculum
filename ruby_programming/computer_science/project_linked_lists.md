@@ -69,6 +69,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Aaron's Solution](https://github.com/Aaron-McD/linked-list)
+- [Eduardo's Solution (with extra credit)](https://github.com/helloeduardo/linked_lists)
+- [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/linked_list.rb)
+- [ChargrilledChook's Solution](https://github.com/ChargrilledChook/linked-lists)
 - [Aaron Contreras's Solution](https://github.com/aaron-contreras/linked_lists)
 - [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Linked-List)
 - [Gael's Solution](https://github.com/lungla-gael/Linked-Lists)

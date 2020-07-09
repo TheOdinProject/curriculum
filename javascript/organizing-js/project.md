@@ -35,9 +35,14 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Osechi3's Solution](https://github.com/osechi3/todo-list/) - [View in Browser](https://osechi3.github.io/todo-list/)
+* [Ideopunk's Solution](https://github.com/Ideopunk/to-do-list/) - [View in Browser](https://ideopunk.github.io/to-do-list/)
+* [Jason Thompson's Solution](https://github.com/jasont01/todo-list) - [View in Browser](https://jasont01.github.io/todo-list)
+* [Alex Cole's Solution](https://github.com/AlexJ-Cole/TodoList) - [View in Browser](https://github.com/AlexJ-Cole/TodoList)
 * [Juan Oxmar's Solution](https://github.com/juanoxmar/todo) - [View in Browser](https://juanoxmar.github.io/todo/)
 * [Scott's Solution](https://github.com/ScotttP/todo-list) - [View in Browser](https://scotttp.github.io/todo-list/)
 * [Andrija's Solution](https://github.com/Amdrija/todo-list-app) - [View in Browser](https://amdrija.github.io/todo-list-app/)
+* [Zayeer's Solution](https://github.com/Zayeer/todo-list-app) - [View in Browser](https://zayeer.github.io/todo-list-app/)
 * [Kevin's Solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/ToDo) - [View in Browser](https://kevin-satti-projects.github.io/Projects/ToDo/dist/)
 * [lexolf's Solution](https://github.com/lexolf/todo-list) - [View in Browser](https://lexolf.github.io/todo-list/dist/)
 * [Walmart-cashier's Solution](https://github.com/Walmart-cashier/DulcetTodo) - [View in Browser](https://walmart-cashier.github.io/DulcetTodo/)
@@ -142,4 +147,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [MatyD's Solution](https://github.com/MatyD356/vanillaToDo/tree/master) - [View in Browser](https://matyd356.github.io/vanillaToDo/)
 * [rhathcock's Solution](https://github.com/r-hathcock/todo_list)
 * [jooji-san's Solution](https://github.com/jooji-san/todo) - [View in Browser](https://jooji-san.github.io/todo/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022) - [View in Browser](https://codesurfer3022.github.io/ToDo-List/)
+* [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-todolist) - [View in Browser](https://adrieltrigger.github.io/top-todolist/)
+* [Nijepa's Solution](https://github.com/nijepa/todo-list) - [View in Browser](https://nijepa.github.io/todo-list/)
 </details>

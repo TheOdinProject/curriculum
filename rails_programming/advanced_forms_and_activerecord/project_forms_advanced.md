@@ -163,6 +163,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Rey van den Berg's Solution](https://github.com/Rey810/flight-booker)
 * [Timework's Solution](https://github.com/Timework/odin-flight-booker)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/e40ad2750fa046f48eec7b3b2870baee93c4bd4c/odin-flight-booker)
+* [Bendee's Solution](https://github.com/bendee48/flight-booker)
 </details>
 
 ### Additional Resources
