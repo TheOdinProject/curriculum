@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's solution](https://github.com/run-after/nyt-article) - [View in Browser](https://run-after.github.io/nyt-article/)
 * [skele-666's Solution](https://github.com/skele-666/new-york-times) - [View in Browser](https://skele-666.github.io/new-york-times/)
 * [Alexander Nitiola's Solution](https://github.com/TheCre8tor/nyt_website_clone) - [View in Browser](https://thecre8tor.github.io/nyt_website_clone/)
 * [Lekunze Stanley Enow's Solution](https://happiguru.github.io/PositioningandFloatingElements/)
