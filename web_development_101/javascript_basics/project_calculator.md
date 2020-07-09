@@ -800,4 +800,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Taras's Solution](https://github.com/tiris08/odin-project-calculator) - [View in Browser](https://tiris08.github.io/odin-project-calculator/)
 - [Jacobus's Solution](https://github.com/Jacobus-afk/calcuator) - [View in Browser](https://jacobus-afk.github.io/calcuator/)
 - [StarSheriff's Solution](https://github.com/StarSheriff2/Calculator) - [View in Browser](https://starsheriff2.github.io/Calculator/)
+- [lonewolf045's Solution](https://github.com/lonewolf045/calculator) - [View in Browser](https://lonewolf045.github.io/calculator/)
 </details>
