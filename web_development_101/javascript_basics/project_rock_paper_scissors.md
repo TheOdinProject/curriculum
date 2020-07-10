@@ -1781,5 +1781,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Antonio Marusic's Solution](https://github.com/terraxus94/rock-paper-scissors) - [View in Browser](https://terraxus94.github.io/rock-paper-scissors/)
 - [kuz3's Solution](https://github.com/kuz3/odin-rock-paper-scissors) 
 - [Chi Joel's Solution](https://github.com/abongsjoel/rock-paper-scissors)
+- [Kevin Edmond's Solution](https://github.com/BigSave24/rock-paper-scissors)
 </details>
 
