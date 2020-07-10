@@ -24,6 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/mock-apple) - [View in Browser](https://run-after.github.io/mock-apple/)
 * [descholar's Solution](https://github.com/rahalrazika/apple-old-webpage) - [View in Browser](https://raw.githack.com/rahalrazika/apple-old-webpage/add-apple-webpage/index.html)
 * [Alexander Nitiola's Solution](https://github.com/TheCre8tor/apple_old_website) - [View in Browser](https://thecre8tor.github.io/apple_old_website/)
 * [skele-666's Solution](https://github.com/skele-666/old-apple-page) - [View in Browser](https://skele-666.github.io/old-apple-page/)
