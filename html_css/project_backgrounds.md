@@ -24,7 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [descholar's solution](https://github.com/rahalrazika/apple-old-webpage) - [View it Browser](https://raw.githack.com/rahalrazika/apple-old-webpage/add-apple-webpage/index.html)
+* [descholar's Solution](https://github.com/rahalrazika/apple-old-webpage) - [View in Browser](https://raw.githack.com/rahalrazika/apple-old-webpage/add-apple-webpage/index.html)
 * [Alexander Nitiola's Solution](https://github.com/TheCre8tor/apple_old_website) - [View in Browser](https://thecre8tor.github.io/apple_old_website/)
 * [skele-666's Solution](https://github.com/skele-666/old-apple-page) - [View in Browser](https://skele-666.github.io/old-apple-page/)
 * [Stanley Enow Lekunze's Solution](https://github.com/happiguru/apple.com/tree/apple.com-feature-branch) - [View in Browser](https://rawcdn.githack.com/happiguru/apple.com/c06209f7c6482e81596da43635ef164b4eec23ee/index.html)
