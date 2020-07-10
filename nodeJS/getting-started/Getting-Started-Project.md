@@ -36,6 +36,9 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Angelo's Solution](https://github.com/angelokora/basic-information-website) - [View in Browser](https://basic-information-website--angelodafia.repl.co)
+- [Zayeer's Solution](https://github.com/Zayeer/basic-information-site) - [View in Browser](https://repl.it/@Zayeer/basic-information-site)
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/informational-site) - [View in Browser](https://informational-site--andrsrz.repl.co/)
 - [Martin Muehl's Solution](https://github.com/joshuatree/NodeJS) - [View in Browser](https://repl.it/@joshuatree1/NodeJS)
 - [Kevin Beall's Solution](https://github.com/kevinbeall/The-Odin-Project/tree/master/BasicInformationalSite) - [View in Browser](https://LongPossibleProspect--five-nine.repl.co)
 - [Julio's solution](https://github.com/julio22b/basic-informational-site) - [View in Browser](https://repl.it/@julio22b/ProudIntentionalTasks)
@@ -83,4 +86,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/node-sample) - [View In Browser](https://repl.it/@ranmaru22/OdinProjectSampleNodeFile)
 - [Theodore Kelechukwu Onyejiaku's Solution](https://a-simple-nodejs-website-1--theodore1250.repl.co/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/basic_info_site)
+- [Kielx's Solution](https://github.com/Kielx/informationalSite) - [View in Browser](https://informationalsite--kielx.repl.co/index.html)
 </details>

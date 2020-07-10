@@ -49,6 +49,21 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [notstoe's Solution](https://github.com/notstoe/restaurant-page) - [View in Browser](https://notstoe.github.io/restaurant-page/)
+- [faishalirwn's Solution](https://github.com/faishalirwn/restaurant-page) - [View in Browser](https://faishalirwn.github.io/restaurant-page/)
+- [hridaykedia's Solution](https://github.com/hridaykedia/Restaurant) - [View in Browser](https://hridaykedia.github.io/Restaurant/)
+- [vonhoro's Solution](https://github.com/vonhoro/Restaurant) - [View in Browser](https://vonhoro.github.io/Restaurant/)
+- [s92xiong's Solution](https://github.com/s92xiong/restaurant-page) - [View in Browser](https://s92xiong.github.io/restaurant-page/)
+- [pklepa's Solution](https://github.com/pklepa/small-restaurant) - [View in Browser](https://pklepa.github.io/small-restaurant/)
+- [Tomodi98's Solution](https://github.com/Tomodi98/restaurant-page) - [View in Browser](https://tomodi98.github.io/restaurant-page/)
+- [Jared Solution](https://github.com/jaredaritter/restaurant-homepage) - [View in Browser](https://jaredaritter.github.io/restaurant-homepage/)
+- [Salvador Villalon Solution](https://github.com/salvillalon45/theOdinProject-RestaurantPage)
+- [RobisonWebDev Solution](https://github.com/robisonwebdev/Restaurant-Page) - [View in Browser](http://davidrulonrobison.com/Restaurant-Page/)
+- [Osechi3's Solution](https://github.com/osechi3/restaurant-page) - [View in Browser](https://osechi3.github.io/restaurant-page/)
+- [Jaswant Rathod's Solution](https://github.com/zarc1411/RestaurantPage) - [View in Browser](https://zarc1411.github.io/RestaurantPage/)
+- [Ideopunk's Solution](https://github.com/Ideopunk/restaurant) - [View in Browser](https://ideopunk.github.io/restaurant/)
+- [Andreaiaia's Solution](https://github.com/andreaiaia/restaurantPage) - [View in Browser](https://andreaiaia.github.io/restaurantPage/)
+- [Kevin's Solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/Restaurant) - [View in Browser](https://kevin-satti-projects.github.io/Projects/Restaurant/dist/)
 - [Paul's Solution](https://github.com/ppayne12/beadshop/) - [View in Browser](https://ppayne12.github.io/beadshop/)
 - [Platyphyllum's Solution](https://github.com/marboleda/restaurant) - [View in Browser](https://marboleda.github.io/restaurant/)
 - [Alex Cole's Solution](https://github.com/AlexJ-Cole/RestaurantPage) - [View in Browser](https://alexj-cole.github.io/RestaurantPage/)
@@ -190,4 +205,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [themetar's Solution](https://github.com/themetar/restaurant-page-top) - [View in Browser](https://themetar.github.io/restaurant-page-top/)
 - [Vitaly Osipov's Solution](https://github.com/vi7ali/the-tavern) - [View in Browser](https://vi7ali.github.io/the-tavern/)
 - [DurandalOne's Solution](https://github.com/DurandalOne/restaurant) - [View in Browser](https://durandalone.github.io/restaurant/)
+- [hamparmin's Solution](https://github.com/hamparmin/restaurant_page) - [View in Browser](https://hamparmin.github.io/restaurant_page/)
+- [flsoller's Solution](https://github.com/flsoller/restaurant-page) - [View in Browser](https://flsoller.github.io/restaurant-page/)
+- [Chandra's Solution](https://github.com/CodeSurfer3022/Restaurant-page) - [View in Browser](https://codesurfer3022.github.io/Restaurant-page/)
+- [alxmkh's Solution](https://github.com/alxmkh/restaurant) - [View in Browser](https://alxmkh.github.io/restaurant/)
+- [Nijepa's Solution](https://github.com/nijepa/restaurant-page) - [View in Browser](https://nijepa.github.io/restaurant-page/)
+- [lonewolf045's Solution](https://github.com/lonewolf045/restaurant-page) - [View in Browser](https://lonewolf045.github.io/restaurant-page/)
 </details>
