@@ -46,7 +46,7 @@ Rails.application.routes.draw do
   end
 
   namespace :lessons do
-    resource :style_tests, only %i[new create show]
+    resource :style_tests, only: %i[new create show]
   end
 
   resources :lessons, only: :show do
