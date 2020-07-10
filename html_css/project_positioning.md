@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-nyt) - [View in Browser](https://lucas-bide.github.io/odin-nyt/)
 * [descholar's Solution](https://github.com/descholar-ceo/clone-nyt-article-page) - [View in Browser](https://serene-hopper-cb63b8.netlify.app/)
 * [Run After's Solution](https://github.com/run-after/nyt-article) - [View in Browser](https://run-after.github.io/nyt-article/)
 * [skele-666's Solution](https://github.com/skele-666/new-york-times) - [View in Browser](https://skele-666.github.io/new-york-times/)
