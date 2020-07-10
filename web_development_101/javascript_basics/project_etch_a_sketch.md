@@ -1144,5 +1144,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Arcadie's Solution](https://github.com/doncilaarcadie/ETCH-A-SKETCH) - [View in Browser](https://doncilaarcadie.github.io/ETCH-A-SKETCH/)
 * [trungxyz's Solution](https://github.com/trungxyz/etch-a-sketch) - [View in Browser](https://trungxyz.github.io/etch-a-sketch/)
 * [Christos's Solution](https://github.com/ChristosRaptis/Etch-a-Sketch) - [View in Browser](https://christosraptis.github.io/Etch-a-Sketch/)
+* [juggler39's Solution](https://github.com/juggler39/etch-a-sketch) - [View in Browser](https://juggler39.github.io/etch-a-sketch/)
 </details>
 
