@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [singodimejo's Solution (easy)] (https://github.com/singodimejo/google-homepage) - [View in browser](https://singodimejo.github.io/google-homepage)
+* [singodimejo's Solution (Easy)](https://github.com/singodimejo/google-homepage) - [View in Browser](https://singodimejo.github.io/google-homepage)
 * [cam9921's Solution (Easy)](https://github.com/cam9921/google-homepage) - [View in Browser](https://cam9921.github.io/google-homepage/)
 * [Priya Aggarwal's Solution (Easy)](https://github.com/pa-aggarwal/google-homepage) - [View in Browser](https://pa-aggarwal.github.io/google-homepage/)
 * [Priya Aggarwal's Solution (Difficult)](https://github.com/pa-aggarwal/google-results-page) - [View in Browser](https://pa-aggarwal.github.io/google-results-page/)
