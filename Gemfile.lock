@@ -139,11 +139,11 @@ GEM
     enumerable-statistics (2.0.1)
     erubi (1.9.0)
     execjs (2.7.0)
-    factory_bot (5.2.0)
-      activesupport (>= 4.2.0)
-    factory_bot_rails (5.2.0)
-      factory_bot (~> 5.2.0)
-      railties (>= 4.2.0)
+    factory_bot (6.0.2)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.0.0)
+      factory_bot (~> 6.0.0)
+      railties (>= 5.0.0)
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
     ffi (1.13.1)
@@ -477,7 +477,7 @@ DEPENDENCIES
   discordrb-webhooks
   dotenv-rails
   factory_bot
-  factory_bot_rails (~> 5)
+  factory_bot_rails (~> 6)
   friendly_id (~> 5.1)
   gibbon (~> 3.3.4)
   github_api (~> 0.14)
