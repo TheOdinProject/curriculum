@@ -3990,7 +3990,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [eevacc's Solution (Easy)](https://github.com/eevacc/google-homepage) - [View in Browser](https://eevacc.github.io/google-homepage/)
 * [ayushbasak's Solution (Easy)](https://github.com/ayushbasak/googleclone) - [View in Browser](https://ayushbasak.github.io/GoogleClone/)
 * [nexus0208's Solution (Easy)](https://github.com/nexus0208/google-homepage) - [View in Browser](https://nexus0208.github.io/google-homepage/)
-*[MayarHassanin's Solution(Easy)(https://github.com/Mayar-Hassanin98/google-homepage)-[view in Browser](https://mayar-hassanin98.github.io/google-homepage/)
+* [MayarHassanin's Solution (Easy)](https://github.com/Mayar-Hassanin98/google-homepage) - [View in Browser](https://mayar-hassanin98.github.io/google-homepage/)
+* [ciandevelops's Solution (Easy)](https://github.com/ciandevelops/google-homepage) - [View in Browser](https://ciandevelops.github.io/google-homepage/)
 </details>
 
 
