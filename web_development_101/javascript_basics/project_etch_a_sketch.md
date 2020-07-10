@@ -52,6 +52,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-etch-a-sketch) - [View in Browser](https://kjell-fjeldsaunet.github.io/top-etch-a-sketch/index.html)
 * [Eco-Developer's Solution](https://github.com/Eco-developer/etch-a-sketch) - [View in Browser](https://eco-developer.github.io/etch-a-sketch/)
 * [wlukaabya's Solution](https://github.com/wlukaabya/Etch_A_Sketch) - [View in Browser](https://wlukaabya.github.io/Etch_A_Sketch/)
+* [Sthavir's Solution](https://github.com/sthavm/etch-a-sketch) - [View in Browser](https://sthavm.github.io/etch-a-sketch/)
 * [sacchan9's Solution](https://github.com/sacchan9/etchasketch) - [View in Browser](https://sacchan9.github.io/etchasketch/)
 * [cjcon90's Solution](https://github.com/cjcon90/etch-a-sketch) - [View in Browser](https://cjcon90.github.io/etch-a-sketch/)
 * [s92xiong's Solution](https://github.com/s92xiong/Etch-a-Sketch) - [View in Browser](https://s92xiong.github.io/Etch-a-Sketch/)
