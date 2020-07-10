@@ -86,4 +86,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/node-sample) - [View In Browser](https://repl.it/@ranmaru22/OdinProjectSampleNodeFile)
 - [Theodore Kelechukwu Onyejiaku's Solution](https://a-simple-nodejs-website-1--theodore1250.repl.co/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/basic_info_site)
+- [Kielx's Solution](https://github.com/Kielx/informationalSite) - [View in Browser](https://informationalsite--kielx.repl.co/index.html)
 </details>

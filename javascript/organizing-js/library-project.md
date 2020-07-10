@@ -40,6 +40,18 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
    
 - Add your solution below this line!
+- [Lakshya Singh's Solution (w/ Firebase)](https://github.com/king-11/Library) - [View in Browser](https://librarybuilder.ml/)
+- [Sasoun Torossian' Solution (w/ Local Storage)](https://github.com/SasounTorossian/Library) - [View in Browser](https://sasountorossian.github.io/Library/)
+- [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/library) - [View in Browser](https://cyber-mat.github.io/library/)
+- [s92xiong's Solution](https://github.com/s92xiong/library-app) - [View in Browser](https://s92xiong.github.io/library-app/)
+- [pret3nti0u5's Solution](https://github.com/pret3nti0u5/Digital-Library) - [View in Browser](https://pret3nti0u5.github.io/Digital-Library/)
+- [Cristobal Becerra's Solution](https://github.com/powei94/js_library) - [View in Browser](https://powei94.github.io/js_library/)
+- [TamaraNC's Solution](https://github.com/TamaraNC/library) - [View in Browser](https://htmlpreview.github.io/?https://github.com/TamaraNC/library/blob/master/index.html)
+- [Mugilan's Solution](https://github.com/Mugilan-Codes/book-library) - [View in Browser](https://mugilan-codes.github.io/book-library/)
+- [vonhoro's Solution (w/ Local Storage)](https://github.com/vonhoro/Library) - [View in Browser](https://vonhoro.github.io/Library/)
+- [Stephane's Solution (w/ Local Storage)](https://github.com/stephanewillems/booklibrary) - [View in Browser](https://stephanewillems.github.io/booklibrary/)
+- [Jordan Perkins' Solution (w/ Local Storage)](https://github.com/jordanperkins98/LibraryApp) - [View in Browser](https://jordanperkins98.github.io/LibraryApp/)
+- [Tuan Tran's Solution (w/ Local Storage)](https://github.com/tuantrann/Library) - [View in Browser](https://tuantrann.github.io/Library/)
 - [fillingthemoon's Solution (w/ Local Storage)](https://github.com/fillingthemoon) - [View in Browser](https://fillingthemoon.github.io/library/)
 - [LucasNativo's Solution (w/ Local Storage)](https://github.com/lucasnativo/project_library) - [View in Browser](https://lucasnativo.github.io/project_library/)
 - [Daegudude's Solution (w/ firebase Database)](https://github.com/DaeguDude/TOP-Library) - [View in Browser](https://daegudude.github.io/TOP-Library/)
@@ -335,4 +347,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Nijepa's Solution](https://github.com/nijepa/project-library) - [View in Browser](https://nijepa.github.io/project-library/)
 - [liampc's Solution](https://github.com/liampc/Library) - [View in Browser](https://liampc.github.io/Library/)
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/library) - [View in Browser](https://playingongithub.github.io/library/)
+- [Dyskgo's Solution](https://github.com/dyskgo/library) - [View in Browser](https://dyskgo.github.io/library/)
+- [kluceycose's Solution](https://github.com/kluceycose/library) - [View in Browser](https://kluceycose.github.io/library)
+- [victor orlunda's Solution](https://github.com/dev-opus/virtual-library) - [View in Browser](https://dev-opus.github.io/virtual-library)
+- [AnsellMaximilian's Solution (w/ localstorage)](https://github.com/AnsellMaximilian/book-storage) - [View in Browser](https://ansellmaximilian.github.io/book-storage/)
+- [kenwilde's Solution](https://github.com/kenwilde1/myLibrary) - [View in Browser](https://kenwilde1.github.io/myLibrary/)
+- [hazigabriel's Solution (w/ localstorage)](https://github.com/hazigabriel/library) - [View in Browser](https://hazigabriel.github.io/library/)
 </details>

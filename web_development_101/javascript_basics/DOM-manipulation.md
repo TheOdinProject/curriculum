@@ -376,7 +376,7 @@ btn.addEventListener('click', () => {
 });
 ~~~
 
-Now, we maintain separation of concerns, and we also allow multiple event listeners if need arise.  Method 3 is much more flexible and powerful, though it is a bit more complex to set up.
+Now, we maintain separation of concerns, and we also allow multiple event listeners if the need arises.  Method 3 is much more flexible and powerful, though it is a bit more complex to set up.
 
 Note that all 3 of these methods can be used with named functions like so:
 
@@ -407,6 +407,7 @@ btn.addEventListener('click', function (e) {
   console.log(e);
 });
 ~~~
+#### Note that function (e) is a callback from addEventListener. Further explanation of callbacks can be found [HERE.](https://briggs.dev/blog/understanding-callbacks)
 
 The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
 

@@ -49,6 +49,13 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [notstoe's Solution](https://github.com/notstoe/restaurant-page) - [View in Browser](https://notstoe.github.io/restaurant-page/)
+- [faishalirwn's Solution](https://github.com/faishalirwn/restaurant-page) - [View in Browser](https://faishalirwn.github.io/restaurant-page/)
+- [hridaykedia's Solution](https://github.com/hridaykedia/Restaurant) - [View in Browser](https://hridaykedia.github.io/Restaurant/)
+- [vonhoro's Solution](https://github.com/vonhoro/Restaurant) - [View in Browser](https://vonhoro.github.io/Restaurant/)
+- [s92xiong's Solution](https://github.com/s92xiong/restaurant-page) - [View in Browser](https://s92xiong.github.io/restaurant-page/)
+- [pklepa's Solution](https://github.com/pklepa/small-restaurant) - [View in Browser](https://pklepa.github.io/small-restaurant/)
+- [Tomodi98's Solution](https://github.com/Tomodi98/restaurant-page) - [View in Browser](https://tomodi98.github.io/restaurant-page/)
 - [Jared Solution](https://github.com/jaredaritter/restaurant-homepage) - [View in Browser](https://jaredaritter.github.io/restaurant-homepage/)
 - [Salvador Villalon Solution](https://github.com/salvillalon45/theOdinProject-RestaurantPage)
 - [RobisonWebDev Solution](https://github.com/robisonwebdev/Restaurant-Page) - [View in Browser](http://davidrulonrobison.com/Restaurant-Page/)
@@ -202,4 +209,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [flsoller's Solution](https://github.com/flsoller/restaurant-page) - [View in Browser](https://flsoller.github.io/restaurant-page/)
 - [Chandra's Solution](https://github.com/CodeSurfer3022/Restaurant-page) - [View in Browser](https://codesurfer3022.github.io/Restaurant-page/)
 - [alxmkh's Solution](https://github.com/alxmkh/restaurant) - [View in Browser](https://alxmkh.github.io/restaurant/)
+- [Nijepa's Solution](https://github.com/nijepa/restaurant-page) - [View in Browser](https://nijepa.github.io/restaurant-page/)
+- [lonewolf045's Solution](https://github.com/lonewolf045/restaurant-page) - [View in Browser](https://lonewolf045.github.io/restaurant-page/)
 </details>
