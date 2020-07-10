@@ -49,6 +49,9 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [notstoe's Solution](https://github.com/notstoe/restaurant-page) - [View in Browser](https://notstoe.github.io/restaurant-page/)
+- [faishalirwn's Solution](https://github.com/faishalirwn/restaurant-page) - [View in Browser](https://faishalirwn.github.io/restaurant-page/)
+- [hridaykedia's Solution](https://github.com/hridaykedia/Restaurant) - [View in Browser](https://hridaykedia.github.io/Restaurant/)
 - [vonhoro's Solution](https://github.com/vonhoro/Restaurant) - [View in Browser](https://vonhoro.github.io/Restaurant/)
 - [s92xiong's Solution](https://github.com/s92xiong/restaurant-page) - [View in Browser](https://s92xiong.github.io/restaurant-page/)
 - [pklepa's Solution](https://github.com/pklepa/small-restaurant) - [View in Browser](https://pklepa.github.io/small-restaurant/)
