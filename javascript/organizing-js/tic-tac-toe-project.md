@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [benjamin-gambling's Solution w/ Minimax AI](https://github.com/benjamin-gambling/tic-tac-toe) - [View in Browser](https://benjamin-gambling.github.io/tic-tac-toe/)
 - [ray0h's Solution w/ miniMax](https://github.com/ray0h/TheOdinProjectExercises/tree/master/TicTacToe) - [View in Browser](https://ray0h.github.io/TicTacToe/)
 - [matchewbie's Solution w/ minimax](https://github.com/matchewbie/tic-tac-toe) - [View in Browser](https://matchewbie.github.io/tic-tac-toe)
 - [fillingthemoon's Solution](https://github.com/fillingthemoon/tictactoe) - [View in Browser](https://fillingthemoon.github.io/tictactoe/)
