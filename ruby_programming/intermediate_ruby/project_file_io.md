@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Spark's Solution](https://github.com/Sparking2/hangman)
 * [Clumsyknight's Solution](https://github.com/Clumsynite/ruby-hangman) - [View in Repl.it](https://ruby-hangman-1.clumsynite.repl.run/)
 * [Evelyn's Solution](https://github.com/evive82/Hangman)
 * [Eduardo's Solution](https://github.com/helloeduardo/build_a_person) - [View in Repl.it](https://repl.it/github/helloeduardo/build_a_person)

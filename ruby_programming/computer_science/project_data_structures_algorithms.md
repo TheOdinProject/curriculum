@@ -44,7 +44,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
 ~~~ruby
 def pretty_print(node = root, prefix="", is_left = true)
-  pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right 
+  pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right
   puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
   pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
 end
@@ -57,6 +57,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/binary-search-tree)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Binary-Search-Trees)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Binary_Search_Trees)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/binary_search_tree)
@@ -65,7 +66,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Darren's solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/binary_search_tree)
 * [irlgabriel's solution](https://github.com/irlgabriel/the-odin-project/tree/master/tree)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/binary_search_tree)
-* [threeaces' Solution](https://github.com/threeaces/binary_search_tree_ruby_TOP)  
+* [threeaces' Solution](https://github.com/threeaces/binary_search_tree_ruby_TOP)
 * [andrewjh271's Solution](https://github.com/andrewjh271/binary_search_tree)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Binary-Search-Tree)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/binary-search-trees)
@@ -303,7 +304,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Knights-Travails)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/knight_travails)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/knights_travails)
-* [threeaces' Solution](https://github.com/threeaces/knights_travails_ruby/tree/master/knights_travails)  
+* [threeaces' Solution](https://github.com/threeaces/knights_travails_ruby/tree/master/knights_travails)
 * [Sam Eff's Solution](https://github.com/SamEff/knights_travails)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/knight_travail)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/knight-moves)
