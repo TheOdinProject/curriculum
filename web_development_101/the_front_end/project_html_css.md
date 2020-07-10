@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [singodimejo's Solution (Easy)](https://github.com/singodimejo/google-homepage) - [View in Browser](https://singodimejo.github.io/google-homepage)
 * [cam9921's Solution (Easy)](https://github.com/cam9921/google-homepage) - [View in Browser](https://cam9921.github.io/google-homepage/)
 * [Priya Aggarwal's Solution (Easy)](https://github.com/pa-aggarwal/google-homepage) - [View in Browser](https://pa-aggarwal.github.io/google-homepage/)
 * [Priya Aggarwal's Solution (Difficult)](https://github.com/pa-aggarwal/google-results-page) - [View in Browser](https://pa-aggarwal.github.io/google-results-page/)
@@ -3988,6 +3989,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [totalconsciousness's Solution (Difficult)](https://github.com/totalconsciousness/google-homepage) - [View in Browser](https://totalconsciousness.github.io/google-homepage/)
 * [eevacc's Solution (Easy)](https://github.com/eevacc/google-homepage) - [View in Browser](https://eevacc.github.io/google-homepage/)
 * [ayushbasak's Solution (Easy)](https://github.com/ayushbasak/googleclone) - [View in Browser](https://ayushbasak.github.io/GoogleClone/)
+* [nexus0208's Solution (Easy)](https://github.com/nexus0208/google-homepage) - [View in Browser](https://nexus0208.github.io/google-homepage/)
+* [MayarHassanin's Solution (Easy)](https://github.com/Mayar-Hassanin98/google-homepage) - [View in Browser](https://mayar-hassanin98.github.io/google-homepage/)
+* [ciandevelops's Solution (Easy)](https://github.com/ciandevelops/google-homepage) - [View in Browser](https://ciandevelops.github.io/google-homepage/)
 </details>
 
 

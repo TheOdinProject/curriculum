@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ElciUK's solution](https://github.com/elciuk/rock-paper-scissor) - [View in Browser](https://elciuk.github.io/rock-paper-scissor/)
+- [ivantbv's Solution](https://github.com/ivantbv/rock-paper-scissors)
+- [Sadagat Asgarov's solution](https://github.com/sadagatasgarov/Rock-Paper-Scissors.git)
 - [Bernardo Vargas's solution](https://github.com/bernardoVargasF/rock-paper-scissors)
 - [Eco-Developer's solution](https://github.com/Eco-developer/rock-paper-scissors) - [View in Browser](https://eco-developer.github.io/rock-paper-scissors/)
 - [AGL's solution](https://github.com/agl9/rockpaperscissors/)
@@ -55,6 +58,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [saranshgupta27's Solution](https://github.com/saranshgupta27/Rock-Paper-Scissor)
 - [Rahim Ratnani's Solution](https://github.com/rahimratnani/rock-paper-scissors) - [View in Browser](https://rahimratnani.github.io/rock-paper-scissors/)
 - [Chala17's Solution](https://github.com/chala17/rock_paper_scissors)
+- [Sthavir's Solution](https://github.com/sthavm/rock-paper-scissors) - [View in Browser](https://sthavm.github.io/rock-paper-scissors/)
 - [thiagom97's Solution](https://github.com/thiagom97/pedra-papel-tesoura) - [View in Browser](https://thiagom97.github.io/pedra-papel-tesoura/)
 - [derva's Solution](https://github.com/derva/rock-paper-scissors) - [View in Browser](https://derva.github.io/rock-paper-scissors/)
 - [jaydu1995's Solution](https://github.com/jaydu1995/rock-paper-scissors)
@@ -1777,5 +1781,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Aleksandar's solution](https://github.com/ShinobiWarior/RockPaperScissors)
 - [Paulo Marchezi's Solution](https://github.com/pauloernestom/pedra-papel-tesoura) - [View in Browser](https://pauloernestom.github.io/pedra-papel-tesoura/)
 - [Antonio Marusic's Solution](https://github.com/terraxus94/rock-paper-scissors) - [View in Browser](https://terraxus94.github.io/rock-paper-scissors/)
+- [kuz3's Solution](https://github.com/kuz3/odin-rock-paper-scissors) 
+- [Chi Joel's Solution](https://github.com/abongsjoel/rock-paper-scissors)
+- [Kevin Edmond's Solution](https://github.com/BigSave24/rock-paper-scissors)
 </details>
 
