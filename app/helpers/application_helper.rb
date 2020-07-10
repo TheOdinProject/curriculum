@@ -58,15 +58,17 @@ module ApplicationHelper
           <p>We've essentially distilled down what you most need to learn to hit that employable level, but it's still a healthy dose of learning.  Depending how fast you learn, it will take roughly 1000 hours of work to hit that sweet spot.  If you're naturally more technical or come from a technical background, it may be a bit faster.  If you're less technical or brand new to all this, it will take longer.  Don't despair!  When you think about it, that's pretty much the same learning curve you had to climb to learn anything worthwhile so far in life.</p>"
       },
       {
-        question: 'What technologies does The Odin Project teach?',
+        question: 'Which technologies can one expect to learn from The Odin Project?',
         answer:
-          "<p>The <a href='courses/web-development-101'>Web Development 101 course</a> will give you a chance to explore several of the languages and technologies you’ll need to know on your journey to becoming a web developer.  Web Development 101 introduces HTML, CSS, Javascript, Ruby, Rails, Git, databases and more. We’ve also created mini-projects that give you a chance to test your new knowledge by building your own applications and websites!</p>
+          "<p> The Odin Project contains three tracks for students to choose from: <a href='tracks/full-stack-ruby-on-rails'>Fullstack Ruby on Rails</a>, <a href='tracks/full-stack-javascript'>Fullstack Javascript</a>, and <a href='tracks/front-end-only'>Frontend only</a>. The Ruby on Rails track gives a general overview of what fullstack is. This is the default track for most beginners. The Javascript track focuses more on the connection between the webpage and the data with Javascript and NodeJS. The Frontend track primarily goes over HTML, CSS and Javascript but no Ruby on Rails. Below are some courses that are included in these curriculums:</p>
+          <br />
+          <p>The <a href='courses/web-development-101'>Web Development 101 course</a> will give you a chance to explore several of the languages and technologies you’ll need to know on your journey to becoming a web developer.  Web Development 101 introduces HTML, CSS, Javascript, Ruby, Rails, Git, databases and more. We’ve also created mini-projects that give you a chance to test your new knowledge by building your own applications and websites!</p>
           <br />
           <p>The Odin Project takes a back-to-front approach to learning Ruby on Rails.  We start with a <a href='courses/ruby-programming'>strong foundation in Ruby</a> and an understanding of databases before migrating into <a href='courses/ruby-on-rails'>Ruby on Rails</a> (which is a framework built using Ruby).</p>
           <br />
-          <p>The Odin Project then delves deep into <a href='courses/html5-and-css3'>HTML and CSS</a>, along with <a href='courses/javascript-and-jquery'>Javascript, JQuery and Backbone</a> to give you all the tools necessary to make websites flow, load quickly, and look great.  Along the way you’ll learn Git and deployment so you can build your own portfolio, collaborate with others, and see your work on the web.</p>
+          <p>The Odin Project then delves deep into <a href='courses/html-and-css'>HTML and CSS</a>, along with <a href='courses/javascript'>Javascript</a> to give you all the tools necessary to make websites flow, load quickly, and look great.  Along the way you’ll learn Git and deployment so you can build your own portfolio, collaborate with others, and see your work on the web.</p>
           <br />
-          <p>Finally, The Odin Project will teach you to work with legacy codebases and open-source projects. We’ll also cover areas specifically intended to help when you’re <a href='courses/getting-hired'>looking for employment</a>.</p>"
+          <p>Finally, The Odin Project will provide you with opportunities to work with legacy codebases and open-source projects. We’ll also cover areas specifically intended to help when you’re <a href='courses/getting-hired'>looking for employment</a>.</p>"
       },
       {
         question: 'How is The Odin Project different from other programs?',
