@@ -45,6 +45,10 @@ Rails.application.routes.draw do
     resources :lessons, only: :show
   end
 
+  namespace :lessons do
+    resource :style_tests, only %i[new create show]
+  end
+
   resources :lessons, only: :show do
     resources :projects, only: %i(index create update destroy) do
       resources :reports, only: %i[create]
