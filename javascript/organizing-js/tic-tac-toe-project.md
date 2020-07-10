@@ -240,4 +240,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [MortenEmde's Solution](https://github.com/MortenEmde/tic-tac-toe) - [View in Browser](https://mortenemde.github.io/tic-tac-toe/ticTacToe.html)
 - [lonewolf045's Solution](https://github.com/lonewolf045/tic-tac-toe) - [View in Browser](https://lonewolf045.github.io/tic-tac-toe/index.html)
 - [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/tic-tac-toe) - [View in Browser](https://ansellmaximilian.github.io/tic-tac-toe/)
+- [Dyskgo's Solution](https://github.com/dyskgo/tictactoe) - [View in Browser](https://dyskgo.github.io/tictactoe/)
 </details>
