@@ -40,6 +40,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ray0h's Solution (w/localstorage)](https://github.com/ray0h/TheOdinProjectExercises/tree/master/Library) - [View in Browser](https://ray0h.github.io/Library/)
 - [Adrian's Solution (w/localstorage)](https://github.com/Adrian-Cummings/library-project) - [View in Browser](https://adrian-cummings.github.io/library-project)
 - [levan mebonia Solution (w/localstorage)](https://github.com/Levo96/simpleLibrary) - [View in Browser](https://levo96.github.io/simpleLibrary/)
 - [avazkhan2808's Solution](https://github.com/avazkhan2808/project-library) - [View in Browser](https://avazkhan2808.github.io/project-library/)
