@@ -25,6 +25,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [descholar's Solution](https://github.com/descholar-ceo/newsweek-bootstrap) - [View in Browser](https://ecstatic-yalow-bb0786.netlify.app/)
 * [Yigit's Solution](https://github.com/yigitm/Newsweek) - [View in Browser](https://yigitm.github.io/Newsweek/)
 * [Ahmad Chata's Solution](https://github.com/ahmadchata/newsweek) - [View in Browser](https://ahmadchata.github.io/newsweek/)
 * [Witah Georjane's Solution](https://github.com/Georjane/Newsweek) - [View in Browser](https://rawcdn.githack.com/Georjane/Newsweek/5047e3a88c6b5c9defc4140e64e845b0e7383496/index.html)
