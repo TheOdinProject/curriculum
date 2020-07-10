@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [descholar's solution](https://github.com/AlduLonghi/the-next-web-clone) - [View it in a Browser](https://fervent-mcnulty-8f2492.netlify.app/)
 * [Yiğit's Solution](https://github.com/yigitm/TNW-Clone) - [View in Browser](https://yigitm.github.io/TNW-Clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/Responsive-Design) - [View in Browser](https://haroonabdulrazaq.github.io/Responsive-Design/)
 * [Morgan's Solution](https://github.com/morganbonhomme/responsive-design) - [View in Browser](https://morganbonhomme.github.io/responsive-design/)
