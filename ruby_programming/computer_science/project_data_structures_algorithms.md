@@ -42,6 +42,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 </div>
 
 **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
+
 ~~~ruby
 def pretty_print(node = root, prefix="", is_left = true)
   pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right
