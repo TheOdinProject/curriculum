@@ -69,6 +69,22 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Aaron's Solution](https://github.com/Aaron-McD/linked-list)
+- [Eduardo's Solution (with extra credit)](https://github.com/helloeduardo/linked_lists)
+- [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/linked_list.rb)
+- [ChargrilledChook's Solution](https://github.com/ChargrilledChook/linked-lists)
+- [Aaron Contreras's Solution](https://github.com/aaron-contreras/linked_lists)
+- [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Linked-List)
+- [Gael's Solution](https://github.com/lungla-gael/Linked-Lists)
+- [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/linked_list/linked_list.rb)
+- [Tilda Udufo's Solution (with extra credit)](https://github.com/TildaDares/linkedLists)
+- [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/linked_list.rb)
+- [Sam Eff's Solution](https://github.com/SamEff/linked_list)
+- [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/linked-list/linked_list.rb)
+- [Kfollen93's Solution](https://github.com/Kfollen93/Linked_Lists/blob/master/linked.rb)
+- [tenacious-qi's Solution](https://github.com/Tenacious-Qi/linked_list/blob/master/linked_list.rb)
+- [Ichenn's Solution (with extra credit)](https://github.com/Ichenn92/ruby-function/tree/master/linked-lists)
+- [andrewjh271's Solution (with extra credit)](https://github.com/andrewjh271/linked_list)
 - [threeaces' Solution](https://github.com/threeaces/linked_lists_ruby_TOP/tree/master/lib)  
 - [Edd Sansome's Solution (with extra credit](https://github.com/casualc0der/odin-ruby/blob/master/odin_cs/linkedlist.rb)
 - [fillingthemoon's Solution (with extra credit)](https://github.com/fillingthemoon/linked-lists)
@@ -248,4 +264,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [AnsellMaximilian's Solution (with extra credit)](https://github.com/AnsellMaximilian/OOP-Ruby/blob/master/linked_list.rb)
 - [fussykyloren's Solution (with extra credit)](https://github.com/fussykyloren/ruby-linked-list)
 - [ttzv's Solution (with extra credit)](https://github.com/ttzv-training-repos/ruby_cs_projects)
+- [Rémi Borfigat’s Solution](https://github.com/remiborfigat/linked_lists)
+- [Sandy's Solution (with extra credit)](https://github.com/kuosandys/top-ruby-assignments/blob/master/linked_lists.rb)
+- [mpiriya's Solution (with extra credit)](https://github.com/mpiriya/ruby/blob/master/linked_list.rb)
+- [Chow Jia Ying's solution](https://github.com/C-likethis123/ruby_odin_project/tree/master/linked_list)
+- [Adam's Solution (with extra credit)](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/linked_list.rb)
   </details>

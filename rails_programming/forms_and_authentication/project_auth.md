@@ -57,6 +57,11 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/members_only)
+* [Christian's Solution](https://github.com/rueeazy/members-only)
+* [jodokusquack's Solution](https://github.com/jodokusquack/members-only)
+* [Grant Cottle's Solution](https://github.com/grantmaster89/members_only) - [Heroku](https://agile-anchorage-41907.herokuapp.com/)
+* [Nestor-c's Solution](https://github.com/nestor-c/Clubhouse)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/members-only)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/members-only)
 * [Run After's Solution](https://github.com/run-after/members-only)
@@ -176,6 +181,9 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Rey van den Berg's Solution](https://github.com/Rey810/members-only-app.git)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/Authentication/members-only)
 * [Timework's Solution](https://github.com/Timework/members-only)
+* [Bendee's Solution](https://github.com/bendee48/rails-members-only)
+* [Robert Suazo's Solution](https://github.com/rsuazo/members-only)
+* [Christian Páez's Solutions](https://github.com/christian1894/odin-project-members-only) - [View in Browser](https://members-only-ruby-on-rails.herokuapp.com/)
 </details>
 
 ### Additional Resources

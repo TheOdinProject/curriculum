@@ -71,7 +71,7 @@ request.send(null);
 
 Ouch. That was painful.
 
-Developers, feeling the pain of having to write that stuff out, began writing 3rd party libraries to take care of this and make it much easier to use. Some of the more popular libraries are [request](https://github.com/request/request), [axios](https://github.com/mzabriskie/axios), and [superagent](https://github.com/visionmedia/superagent), all of which have their strengths and weaknesses.
+Developers, feeling the pain of having to write that stuff out, began writing 3rd party libraries to take care of this and make it much easier to use. Some of the more popular libraries are [axios](https://github.com/mzabriskie/axios) and [superagent](https://github.com/visionmedia/superagent), both of which have their strengths and weaknesses.
 
 More recently, however, web browsers have begun to implement a new native function for making HTTP requests, and that's the one we're going to use and stick with for now. Meet fetch:
 

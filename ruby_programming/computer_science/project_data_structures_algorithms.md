@@ -1,11 +1,11 @@
 ### Project 1: Binary Search Trees
 
-You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".
+You have learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node". You have also learned about tree traversal algorithms like breadth-first and depth-first.
 
-You also learned about tree traversal algorithms like breadth-first and depth-first which we'll attempt to implement here.
+Now, let's take a look at balanced binary search trees (BST). Read [this article](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/) and watch [this video](https://youtu.be/VCTP81Ij-EM) to understand the basic algorithm used to build a balanced BST. Although these two resources do not use Ruby, you should understand it enough to develop your own pseudocode.
 
 ### Assignment 1
-You'll build a simple binary search tree in this assignment. In this lesson, our tree won't handle duplicate values as they are more complicated and result in trees that are much harder to balance. Be sure to always remove duplicate values or check for an existing value before inserting.
+You'll build a balanced BST in this assignment. Do not use duplicate values because they make it more complicated and result in trees that are much harder to balance. Therefore, be sure to always remove duplicate values or check for an existing value before inserting.
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -15,35 +15,41 @@ You'll build a simple binary search tree in this assignment. In this lesson, our
 
   3. Write a `#build_tree` method which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-1 root node.
 
-  3. Write an `#insert` and `#delete` method which accepts a value to insert/delete (you'll have to deal with several cases for delete such as when a node has children or not).
+  4. Write an `#insert` and `#delete` method which accepts a value to insert/delete (you'll have to deal with several cases for delete such as when a node has children or not). If you need additional resources, check out these two articles on [inserting](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/?ref=lbp) and [deleting](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/?ref=lbp), or [this video](https://youtu.be/wcIRPqTR3Kc) with several visual examples.
 
-  4. Write a `#find` method which accepts a value and returns the node with the given value.
+  5. Write a `#find` method which accepts a value and returns the node with the given value.
 
-  5. Write a `#level_order` method which accepts a block. The method should traverse the tree in breadth-first level order and yield each node to the provided block. This method can be implemented using either iteration or recursion (try implementing both!). As a bonus, make the method return an array of values if no block is given.
-  **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://www.youtube.com/watch?v=86g8jAQug04)).
+  6. Write a `#level_order` method that returns an array of values. This method should traverse the tree in breadth-first level order. This method can be implemented using either iteration or recursion (try implementing both!). **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://www.youtube.com/watch?v=86g8jAQug04)).
 
-  6. Write `#inorder`, `#preorder`, and `#postorder` methods which accept a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. As a bonus, make the method return an array of values if no block is given.
+  7. Write `#inorder`, `#preorder`, and `#postorder` methods that returns an array of values. Each method should traverse the tree in their respective depth-first order.
 
-  7. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
+  8. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
 
-  8. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree is not more than 1.
+  9. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 
-  9. Write a `#rebalance!` method which rebalances an unbalanced tree.
-  **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+  10. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
 
-  10. Write a simple driver script that does the following:
+  11. Write a simple driver script that does the following:
 
     1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
     2. Confirm that the tree is balanced by calling `#balanced?`
     3. Print out all elements in level, pre, post, and in order
     4. try to unbalance the tree by adding several numbers > 100
     5. Confirm that the tree is unbalanced by calling `#balanced?`
-    6. Balance the tree by calling `#rebalance!`
+    6. Balance the tree by calling `#rebalance`
     7. Confirm that the tree is balanced by calling `#balanced?`
     8. Print out all elements in level, pre, post, and in order
-
-Pat yourself on the back! As a super-duper bonus, notice how all the depth-first methods share a similar signature and are basically just a re-arrangement of the same 3 lines... try dynamically declaring the three methods using metaprogamming techniques like `#define_method`.
 </div>
+
+**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
+
+~~~ruby
+def pretty_print(node = root, prefix="", is_left = true)
+  pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right
+  puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
+  pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
+end
+~~~
 
 ### Student Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for details on how.
@@ -52,6 +58,19 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/bst.rb)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/binary-search-tree)
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Binary-Search-Trees)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Binary_Search_Trees)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/binary_search_tree)
+* [BLuu's solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/binary_search_tree.rb)
+* [Sam Eff's solution](https://github.com/SamEff/binary_search_tree)
+* [Darren's solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/binary_search_tree)
+* [irlgabriel's solution](https://github.com/irlgabriel/the-odin-project/tree/master/tree)
+* [tenacious-qi's Solution](https://github.com/Tenacious-Qi/binary_search_tree)
+* [threeaces' Solution](https://github.com/threeaces/binary_search_tree_ruby_TOP)
+* [andrewjh271's Solution](https://github.com/andrewjh271/binary_search_tree)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Binary-Search-Tree)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/binary-search-trees)
 * [rryand's Solution](https://github.com/rryand/ruby_binary_search_tree)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/binary_search)
@@ -98,6 +117,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Btreims' Solution](https://github.com/btreim/ruby/blob/master/binary_trees.rb)
 * [Samuel Masters' Solution](https://github.com/redeyetuning/rb_binary_tree)
 * [Demo318's solution](https://github.com/Demo318/ruby_data_structures_and_algorithms/blob/master/searching_binary_trees/binary_tree.rb)
+* [Narek's solution](https://github.com/narekokr/binary-search-tree)
 * [0zra's solution](https://github.com/0zra/btree)
 * [mtizim's solution](https://github.com/mtizim/odin_projects/blob/master/ruby/binarysearch.rb)
 * [Ben Deltenre's solution](https://github.com/benjdelt/binary_search_trees)
@@ -230,6 +250,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Matt M's Solution](https://github.com/MattMiller1989/Binary-Tree)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-data-structures/tree/master/binary-search-tree)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Data_Structures_and_Algorithms/Binary_tree.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/binary_search_tree.rb)
+* [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/bst_2.rb)
+* [JvPelai's Solution](https://github.com/JvPelai/binary-search-trees)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -276,6 +301,17 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron Contreras's Solution](https://https://github.com/aaron-contreras/knights_travails)
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Knight-Travails)
+* [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/knight_moves.rb)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Knights-Travails)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/knight_travails)
+* [tenacious-qi's Solution](https://github.com/Tenacious-Qi/knights_travails)
+* [threeaces' Solution](https://github.com/threeaces/knights_travails_ruby/tree/master/knights_travails)
+* [Sam Eff's Solution](https://github.com/SamEff/knights_travails)
+* [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/knight_travail)
+* [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/knight-moves)
+* [andrewjh271's Solution](https://github.com/andrewjh271/knight_travails)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/knights-travails)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/knight_moves)
 * [rryand's Solution](https://github.com/rryand/knight_moves)
@@ -449,4 +485,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rob Dulabon's Solution](https://github.com/RDulabon/Knight_Travails)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-data-structures/tree/master/knights-travail)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Data_Structures_and_Algorithms/Knights_travail.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/knight_moves.rb)
+* [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/knight.rb)
+* [Brent's Solution](https://github.com/brentcam250/knight_moves)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
+
 </details>
