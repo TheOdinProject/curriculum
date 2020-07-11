@@ -41,12 +41,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [ElciUK's solution](https://github.com/elciuk/rock-paper-scissor) - [View in Browser](https://elciuk.github.io/rock-paper-scissor/)
+- [Benimanjaro's Solution](https://github.com/beniamanjaro/rock-paper-scissors) - [View in Browser](https://beniamanjaro.github.io/rock-paper-scissors/)
+- [dab47310's Solution](https://github.com/dab47310/project-rock-paper-scissors) - [View in Browser](https://dab47310.github.io/project-rock-paper-scissors/)
+- [ElciUK's Solution](https://github.com/elciuk/rock-paper-scissor) - [View in Browser](https://elciuk.github.io/rock-paper-scissor/)
 - [ivantbv's Solution](https://github.com/ivantbv/rock-paper-scissors)
-- [Sadagat Asgarov's solution](https://github.com/sadagatasgarov/Rock-Paper-Scissors.git)
-- [Bernardo Vargas's solution](https://github.com/bernardoVargasF/rock-paper-scissors)
-- [Eco-Developer's solution](https://github.com/Eco-developer/rock-paper-scissors) - [View in Browser](https://eco-developer.github.io/rock-paper-scissors/)
-- [AGL's solution](https://github.com/agl9/rockpaperscissors/)
+- [Sadagat Asgarov's Solution](https://github.com/sadagatasgarov/Rock-Paper-Scissors.git)
+- [Bernardo Vargas's Solution](https://github.com/bernardoVargasF/rock-paper-scissors)
+- [Eco-Developer's Solution](https://github.com/Eco-developer/rock-paper-scissors) - [View in Browser](https://eco-developer.github.io/rock-paper-scissors/)
+- [AGL's Solution](https://github.com/agl9/rockpaperscissors/)
 - [devLevi's Solution](https://github.com/devLevi/rock-paper-scissors) - [View in Browser](https://devlevi.github.io/rock-paper-scissors/)
 - [Gunslinger's Solution](https://github.com/gunslingerOP/Rock-Paper-Scissors) - [View in Browser](https://gunslingerop.github.io/Rock-Paper-Scissors/)
 - [marslavish's Solution](https://github.com/marslavish/rock_paper_scissors) - [View in Browser](https://marslavish.github.io/rock_paper_scissors/)
@@ -1784,5 +1786,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kuz3's Solution](https://github.com/kuz3/odin-rock-paper-scissors) 
 - [Chi Joel's Solution](https://github.com/abongsjoel/rock-paper-scissors)
 - [Kevin Edmond's Solution](https://github.com/BigSave24/rock-paper-scissors)
+- [Orhan's Solution](https://github.com/orhanugurlu/the_odin_project/tree/master/rock-paper-scissors) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/rock-paper-scissors/index.html)
+- [ayushbasak's Solution](https://github.com/ayushbasak/rps) - [View in Browser](https://ayushbasak.github.io/rps/)
 </details>
 
