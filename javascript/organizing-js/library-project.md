@@ -41,6 +41,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ray0h's Solution (w/localstorage)](https://github.com/ray0h/TheOdinProjectExercises/tree/master/Library) - [View in Browser](https://ray0h.github.io/Library/)
+- [Lakshya Singh's Solution (w/ Firebase)](https://github.com/king-11/Library) - [View in Browser](https://librarybuilder.ml/)
 - [Sasoun Torossian' Solution (w/ Local Storage)](https://github.com/SasounTorossian/Library) - [View in Browser](https://sasountorossian.github.io/Library/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/library) - [View in Browser](https://cyber-mat.github.io/library/)
 - [s92xiong's Solution](https://github.com/s92xiong/library-app) - [View in Browser](https://s92xiong.github.io/library-app/)
@@ -353,5 +355,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [AnsellMaximilian's Solution (w/ localstorage)](https://github.com/AnsellMaximilian/book-storage) - [View in Browser](https://ansellmaximilian.github.io/book-storage/)
 - [kenwilde's Solution](https://github.com/kenwilde1/myLibrary) - [View in Browser](https://kenwilde1.github.io/myLibrary/)
 - [Amycruz's Solution (w/ localstorage)](https://github.com/amycruz97) - [View in Browser](https://amycruzlibrary.netlify.app/)
-
+- [hazigabriel's Solution (w/ localstorage)](https://github.com/hazigabriel/library) - [View in Browser](https://hazigabriel.github.io/library/)
+- [Sandy's Solution](https://github.com/kuosandys/top-mylibrary) - [View in Browser](https://kuosandys.github.io/top-mylibrary/)
 </details>

@@ -543,6 +543,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/recursion/merge_sort.rb)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/merge_sort.rb)
 * [Crak's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/merge_sort.rb)
+* [msespos's Solution](https://github.com/msespos/merge-sort/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources

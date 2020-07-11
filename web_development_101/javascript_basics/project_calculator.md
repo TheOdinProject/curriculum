@@ -26,7 +26,7 @@ Here are some use cases (abilities your project needs to have):
    1. You should already have the code that can populate the display, so once `operate()` has been called, update the display with the 'solution' to the operation.
    2. This is the hardest part of the project. You need to figure out how to store all the values and call the operate function with them. Don't feel bad if it takes you a while to figure out the logic.
 6. Gotchas: watch out for and fix these bugs if they show up in your code:
-   1. Users should be able to string together several operations and get the right answer: `12 + 7 - 5 * 3` etc. The behavior we're looking for should be something like this https://www.online-calculator.com/.
+   1. Users should be able to string together several operations and get the right answer, with each pair of numbers being evaluated at a time. For example, `12 + 7 - 5 * 3 =` should yield `42`. An example of the behavior we're looking for would be this online calculator: https://www.theonlinecalculator.com/. **Note** that this behavior means your calculator is **not required** to follow order of operations, aka PEMDAS (though there's nothing stopping you from implementing PEMDAS if you feel like it!).
    2. You should round answers with long decimals so that they don't overflow the screen.
    3. Pressing `=` before entering all of the numbers or an operator could cause problems!
    4. Pressing "clear" should wipe out any existing data.. make sure the user is really starting fresh after pressing "clear"
@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [mrbuddh4's Solution](https://github.com/mrbuddh4/calculator) - [View in Browser](https://mrbuddh4.github.io/calculator/)
+- [DoviMaj's Solution](https://github.com/DoviMaj/calculator) - [View in Browser](https://dovimaj.github.io/calculator/)
+- [Superboy20's Solution](https://github.com/Superboy20/Calculator) - [View in Browser](https://superboy20.github.io/Calculator/)
+- [Daegudude's Solution](https://github.com/DaeguDude/calculator-redo) - [View in Browser](https://daegudude.github.io/calculator-redo/)
 - [Amr Elshenawy's Solution](https://github.com/AmrElshenawy/JS-Calculator) - [View in Browser](https://amrelshenawy.github.io/JS-Calculator/)
 - [onagova's Solution](https://github.com/onagova/calculator) - [View in Browser](https://onagova.github.io/calculator/)
 - [s92xiong's Solution](https://github.com/s92xiong/calculator) - [View in Browser](https://s92xiong.github.io/calculator/)
@@ -799,4 +803,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Taras's Solution](https://github.com/tiris08/odin-project-calculator) - [View in Browser](https://tiris08.github.io/odin-project-calculator/)
 - [Jacobus's Solution](https://github.com/Jacobus-afk/calcuator) - [View in Browser](https://jacobus-afk.github.io/calcuator/)
 - [StarSheriff's Solution](https://github.com/StarSheriff2/Calculator) - [View in Browser](https://starsheriff2.github.io/Calculator/)
+- [lonewolf045's Solution](https://github.com/lonewolf045/calculator) - [View in Browser](https://lonewolf045.github.io/calculator/)
 </details>
