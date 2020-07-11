@@ -58,6 +58,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Tomodi98's Solution](https://github.com/Tomodi98/restaurant-page) - [View in Browser](https://tomodi98.github.io/restaurant-page/)
 - [Jared Solution](https://github.com/jaredaritter/restaurant-homepage) - [View in Browser](https://jaredaritter.github.io/restaurant-homepage/)
 - [Salvador Villalon Solution](https://github.com/salvillalon45/theOdinProject-RestaurantPage)
+- [Omar Mansour Solution](https://github.com/zamanstrosity-cell/restaurant-page) - [View in Browser](https://zamanstrosity-cell.github.io/restaurant-page/)
 - [RobisonWebDev Solution](https://github.com/robisonwebdev/Restaurant-Page) - [View in Browser](http://davidrulonrobison.com/Restaurant-Page/)
 - [Osechi3's Solution](https://github.com/osechi3/restaurant-page) - [View in Browser](https://osechi3.github.io/restaurant-page/)
 - [Jaswant Rathod's Solution](https://github.com/zarc1411/RestaurantPage) - [View in Browser](https://zarc1411.github.io/RestaurantPage/)
