@@ -58,6 +58,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/bst.rb)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/binary-search-tree)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Binary-Search-Trees)
@@ -286,7 +287,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 ~~~bash
   > knight_moves([3,3],[4,3])
-  => You made it in 3 moves!  Heres your path:
+  => You made it in 3 moves!  Here's your path:
     [3,3]
     [4,5]
     [2,4]
