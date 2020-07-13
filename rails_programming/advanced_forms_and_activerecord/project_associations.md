@@ -64,6 +64,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Christian's Solution](https://github.com/rueeazy/private-events)
+- [Grant Cottle's Solution](https://github.com/grantmaster89/private_events) - [View in Browser](https://mighty-brook-58273.herokuapp.com/events)
 - [Jason Thompson's Solution](https://github.com/jasont01/private-events) - [View in Browser](https://secret-coast-99413.herokuapp.com/)
 - [Olugbade Olalekan's Solution](https://github.com/gbadesimple/private-events-project) - [View in Browser](https://immense-brushlands-08618.herokuapp.com/)
 - [Learnsometing's solution](https://github.com/learnsometing/rails-private_events)
@@ -240,6 +242,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Rey van den Berg's Solution](https://github.com/Rey810/private-events)
 - [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/private-events)
 - [Timework's Solution](https://github.com/Timework/private-events)
+- [Bendee's Soultion](https://github.com/bendee48/rails-private-events) - [View in Browser](https://aqueous-gorge-20348.herokuapp.com/)
 </details>
 
 ### Additional Resources
