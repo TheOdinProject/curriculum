@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [acchang's Solution](https://github.com/acchang/Calculator) - [View in Browser](http://htmlpreview.github.io/?https://github.com/acchang/Calculator/blob/master/index.html)
+- [acchang's Solution](https://github.com/acchang/Calculator) - [View in Browser](https://calculator.acchang.repl.co/)
 - [jaydu1995's Solution](https://github.com/jaydu1995/calculator) - [View in Browser](https://jaydu1995.github.io/calculator/)
 - [mrbuddh4's Solution](https://github.com/mrbuddh4/calculator) - [View in Browser](https://mrbuddh4.github.io/calculator/)
 - [DoviMaj's Solution](https://github.com/DoviMaj/calculator) - [View in Browser](https://dovimaj.github.io/calculator/)
