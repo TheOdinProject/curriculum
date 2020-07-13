@@ -4000,6 +4000,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Almar's Solution (Easy)](https://github.com/Assetbekov-Almar/google_homepage)
 * [Slidebass's Solution (Easy)](https://github.com/Slidebass/google-homepage) - [View in Browser](https://slidebass.github.io/google-homepage/)
 * [Alexander Glez's Solution (Easy)](https://github.com/Covicale/GoogleHomePage) - [View in Browser](https://covicale.github.io/GoogleHomePage/)
+* [Tim's Solution (Easy)](https://github.com/timcbarnes/google-homepage) - [View in Browser](https://timcbarnes.github.io/google-homepage/)
 </details>
 
 
