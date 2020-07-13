@@ -49,6 +49,20 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Salvador Villalon Solution](https://github.com/salvillalon45/theOdinProject-RestaurantPage)
+- [RobisonWebDev Solution](https://github.com/robisonwebdev/Restaurant-Page) - [View in Browser](http://davidrulonrobison.com/Restaurant-Page/)
+- [Osechi3's Solution](https://github.com/osechi3/restaurant-page) - [View in Browser](https://osechi3.github.io/restaurant-page/)
+- [Jaswant Rathod's Solution](https://github.com/zarc1411/RestaurantPage) - [View in Browser](https://zarc1411.github.io/RestaurantPage/)
+- [Ideopunk's Solution](https://github.com/Ideopunk/restaurant) - [View in Browser](https://ideopunk.github.io/restaurant/)
+- [Andreaiaia's Solution](https://github.com/andreaiaia/restaurantPage) - [View in Browser](https://andreaiaia.github.io/restaurantPage/)
+- [Kevin's Solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/Restaurant) - [View in Browser](https://kevin-satti-projects.github.io/Projects/Restaurant/dist/)
+- [Paul's Solution](https://github.com/ppayne12/beadshop/) - [View in Browser](https://ppayne12.github.io/beadshop/)
+- [Platyphyllum's Solution](https://github.com/marboleda/restaurant) - [View in Browser](https://marboleda.github.io/restaurant/)
+- [Alex Cole's Solution](https://github.com/AlexJ-Cole/RestaurantPage) - [View in Browser](https://alexj-cole.github.io/RestaurantPage/)
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/restaurant-page) - [View in Browser](https://andrsrz.github.io/restaurant-page/)
+- [HeliumAce's Solution](https://github.com/HeliumAce/resto-page-modules) - [View in Browser](https://heliumace.github.io/resto-page-modules/)
+- [Andrija Jelenkovic's Solution](https://github.com/Amdrija/restaurantPage) - [View in Browser](https://amdrija.github.io/restaurantPage/)
+- [guyroberts21's Solution](https://github.com/guyroberts21/Restaurant-Page) - [View in Browser](https://guyroberts21.github.io/Restaurant-Page/)
 - [Chun's Solution](https://github.com/ashchunfai/restaurant-page) - [View in Browser](https://ashchunfai.github.io/restaurant-page/)
 - [LenaChestnut's Solution](https://github.com/LenaChestnut/restaurant_page) - [View in Browser](https://lenachestnut.github.io/restaurant_page/)
 - [Diane998's Solution](https://github.com/Diane998/restaurant-page) - [View in Browser](https://diane998.github.io/restaurant-page/)
@@ -176,4 +190,12 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Tristan Ross's Solution](https://github.com/TristanRoss/restaurant-page) - [View in Browser](https://tristanross.github.io/restaurant-page/)
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/restaurantpage) - [View in Browser](https://fortypercenttitanium.github.io/restaurantpage/)
 - [BlessedOneKobo's Solution](https://github.com/BlessedOneKobo/restaurant-page/) - [View in Browser](https://blessedonekobo.github.io/restaurant-page/)
+- [jcai's Solution](https://github.com/jcai8649/restaurant_page/tree/master) - [View in Browser](https://jcai8649.github.io/restaurant_page/)
+- [adilahmad321's Solution](https://github.com/adilahmad321/Restaurant-Page) - [View in Browser](https://adilahmad321.github.io/Restaurant-Page/)
+- [Kmt5422's Solution](https://github.com/kmt5422/restaurant-page) - [View in Browser](https://kmt5422.github.io/restaurant-page/)
+- [dyskgo's Solution](https://github.com/dyskgo/restaurant) - [View in Browser](https://dyskgo.github.io/restaurant/)
+- [themetar's Solution](https://github.com/themetar/restaurant-page-top) - [View in Browser](https://themetar.github.io/restaurant-page-top/)
+- [Vitaly Osipov's Solution](https://github.com/vi7ali/the-tavern) - [View in Browser](https://vi7ali.github.io/the-tavern/)
+- [DurandalOne's Solution](https://github.com/DurandalOne/restaurant) - [View in Browser](https://durandalone.github.io/restaurant/)
+- [hamparmin's Solution](https://github.com/hamparmin/restaurant_page) - [View in Browser](https://hamparmin.github.io/restaurant_page/)
 </details>
