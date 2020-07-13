@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rajdeepdev10's solution](https://github.com/rajdeepdev10/rock-paper-scissors)
+- [MatMammen's solution](https://github.com/MatMammen/Javascript_Rock_Paper_Scissors)
+- [bobbychicano's solution](https://github.com/bobbychicano/rock-paper-scissors)
 - [Singodimejo's Solution](https://github.com/singodimejo/rock-paper-scissors) - [View in Browser](https://singodimejo.github.io/rock-paper-scissors/)
 - [Musa2018 's Solution ](https://github.com/Musa2018/rock-paper-scissors)-[View in Browser](https://musa2018.github.io/rock-paper-scissors/)
 - [Benimanjaro's Solution](https://github.com/beniamanjaro/rock-paper-scissors) - [View in Browser](https://beniamanjaro.github.io/rock-paper-scissors/)
@@ -1791,5 +1794,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Orhan's Solution](https://github.com/orhanugurlu/the_odin_project/tree/master/rock-paper-scissors) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/rock-paper-scissors/index.html)
 - [ayushbasak's Solution](https://github.com/ayushbasak/rps) - [View in Browser](https://ayushbasak.github.io/rps/)
 - [Wei-Ting Yap's Solution](https://github.com/weiting109/the-odin-proj-projects/blob/master/rock-paper-scissors/rock-paper-scissors.html)
+- [Alexander Glez's Solution](https://github.com/Covicale/RockPaperScissors) - [View in Browser](https://covicale.github.io/RockPaperScissors/)
 </details>
 
