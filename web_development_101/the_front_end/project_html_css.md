@@ -3999,6 +3999,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [jhjacobson's Solution (Easy)](https://github.com/jhjacobson/google-homepage/) - [View in Browser](https://jhjacobson.github.io/google-homepage/)
 * [Almar's Solution (Easy)](https://github.com/Assetbekov-Almar/google_homepage)
 * [Slidebass's Solution (Easy)](https://github.com/Slidebass/google-homepage) - [View in Browser](https://slidebass.github.io/google-homepage/)
+* [Alexander Glez's Solution (Easy)](https://github.com/Covicale/GoogleHomePage) - [View in Browser](https://covicale.github.io/GoogleHomePage/)
 </details>
 
 
