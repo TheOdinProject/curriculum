@@ -47,15 +47,16 @@ This section contains questions for you to check your understanding of this less
 <details>
 <summary>What kind of program is Git?</summary>
 <ul><ul>
-  <li>Git is a version control program.</li>
+  <li>Git iis a Version Control System that tracks changes of files in a dir.</li>
 </ul></ul>
 </details>
 
 <details>
 <summary>What are the differences between Git and a text editor in terms of what they save and their record keeping?</summary>
 <ul><ul>
-  <li>A text editor can only make and save changes to a file.</li>
-  <li>Git tracks changes to the files and their contents over time.</li>
+  <li>A text editor can only make and save changes to a file.It saves latest file contents only and
+    provides only one version of a file with no ability to revert back to previous versions.</li>
+  <li>Git tracks changes to the files and their contents over time.It saves screenshots of a file in different save stages. So it provides the ability to revert back to (or view) old versions.</li>
 </ul></ul>
 </details>
 
@@ -76,13 +77,14 @@ This section contains questions for you to check your understanding of this less
 <details>
 <summary>Why is Git useful for an individual developer?</summary>
 <ul><ul>
-  <li>Git is useful for creating snapshots of your work. If you realize halfway through that you've messed up, it's much easier to reset.</li>
+  <li>Git is useful for creating snapshots of your work. It allows a developer to track changes done to a file in different times
+   in the past, review those changes & revert back to them if needed. Git enables you to review how your project grows and to easily look at or restore file states from the past (so If you realize halfway through that you've messed up, it's much easier to reset).</li>
 </ul></ul>
 </details>
 
 <details>
 <summary>Why are Git and GitHub useful for a team of developers?</summary>
 <ul><ul>
-  <li>Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git and GitHub to easily combine their changes.</li>
+  <li>because it allows team members to collaborate on the same project at the same time (changes made by different developers can be merged easily) and tracks who did what change and when.</li>
 </ul></ul>
 </details>
