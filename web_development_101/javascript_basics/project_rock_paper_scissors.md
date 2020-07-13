@@ -1790,5 +1790,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kevin Edmond's Solution](https://github.com/BigSave24/rock-paper-scissors)
 - [Orhan's Solution](https://github.com/orhanugurlu/the_odin_project/tree/master/rock-paper-scissors) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/rock-paper-scissors/index.html)
 - [ayushbasak's Solution](https://github.com/ayushbasak/rps) - [View in Browser](https://ayushbasak.github.io/rps/)
+- [Wei-Ting Yap's Solution](https://github.com/weiting109/the-odin-proj-projects/blob/master/rock-paper-scissors/rock-paper-scissors.html)
 </details>
 
