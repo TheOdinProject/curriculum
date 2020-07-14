@@ -394,6 +394,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Intermedia's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/tictactoe.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Tic-Tac-Toe) - [Play on repl.it](https://repl.it/@shanedgilbert/Tic-Tac-Toe#.replit)
+* [bhenning83's Solution](https://github.com/bhenning83/tic-tac-toe/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@bhenning83/tictactoe#main.rb)
 
 </details>
 
