@@ -4004,6 +4004,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tim's Solution (Easy)](https://github.com/timcbarnes/google-homepage) - [View in Browser](https://timcbarnes.github.io/google-homepage/)
 * [Jayden Vause's (Easy)](https://github.com/jamjamsnugglepuff/Google-Home-Page) - [View in Browser](https://jamjamsnugglepuff.github.io/Google-Home-Page)
 * [Arglinguist's Solution (Easy)](https://github.com/arglinguist/google-homepage) - [View in Browser](https://arglinguist.github.io/google-homepage/)
+* [Marko Markovitz's Solution (Hard)](https://github.com/markanjski/google-homepage-hard) - [View in Browser](https://markanjski.github.io/google-homepage-hard/)
 </details>
 
 
