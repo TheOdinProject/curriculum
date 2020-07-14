@@ -45,11 +45,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Daniel's Solution](https://github.com/daniel-moderiano/calculator) - [View in Browser](https://daniel-moderiano.github.io/calculator/)
+- [acchang's Solution](https://github.com/acchang/Calculator) - [View in Browser](https://calculator.acchang.repl.co/)
 - [jaydu1995's Solution](https://github.com/jaydu1995/calculator) - [View in Browser](https://jaydu1995.github.io/calculator/)
 - [mrbuddh4's Solution](https://github.com/mrbuddh4/calculator) - [View in Browser](https://mrbuddh4.github.io/calculator/)
 - [DoviMaj's Solution](https://github.com/DoviMaj/calculator) - [View in Browser](https://dovimaj.github.io/calculator/)
 - [Superboy20's Solution](https://github.com/Superboy20/Calculator) - [View in Browser](https://superboy20.github.io/Calculator/)
 - [Daegudude's Solution](https://github.com/DaeguDude/calculator-redo) - [View in Browser](https://daegudude.github.io/calculator-redo/)
+- [Sthavir's Solution](https://github.com/sthavm/calculator) - [View in Browser](https://sthavm.github.io/calculator/)
 - [Amr Elshenawy's Solution](https://github.com/AmrElshenawy/JS-Calculator) - [View in Browser](https://amrelshenawy.github.io/JS-Calculator/)
 - [onagova's Solution](https://github.com/onagova/calculator) - [View in Browser](https://onagova.github.io/calculator/)
 - [s92xiong's Solution](https://github.com/s92xiong/calculator) - [View in Browser](https://s92xiong.github.io/calculator/)
