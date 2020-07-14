@@ -202,6 +202,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [leetie's Solution](https://github.com/leetie/flickr-api-2)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_photo_stream_api)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-flickr-api)
 * [Run After's Solution](https://github.com/run-after/flickr-api)
