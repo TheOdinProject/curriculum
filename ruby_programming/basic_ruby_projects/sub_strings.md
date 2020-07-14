@@ -34,6 +34,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [cbpolleys's Solution](https://github.com/cbpolley/rubyTest/blob/master/substrings.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby_substrings/blob/master/substrings.rb)
 * [jnjensen's Solution](https://github.com/jnjensen/Ruby_Word_Search/blob/master/sub_string.rb)
 * [Witah Georjane's Solution](https://github.com/Georjane/Sub-Strings.git)
@@ -542,4 +543,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/substrings_search.rb)
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Ruby-Methods/blob/master/sub_strings.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/substrings/blob/master/substrings.rb)
+* [satchelsmidt's Solution](https://github.com/satchelsmidt/Odin_Project_Ruby/blob/master/02_substrings.rb)
 </details>
