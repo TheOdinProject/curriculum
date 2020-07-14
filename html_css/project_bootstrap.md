@@ -25,6 +25,9 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin Alves's Solution](https://github.com/kevdeveloper/newsweek-clone) - [View in Browser](https://rawcdn.githack.com/kevinfrontend/newsweek-clone/2cd0c4217d7504395e455bfe0148943eab94d238/index.html)
+* [descholar's Solution](https://github.com/descholar-ceo/newsweek-bootstrap) - [View in Browser](https://ecstatic-yalow-bb0786.netlify.app/)
+* [Yigit's Solution](https://github.com/yigitm/Newsweek) - [View in Browser](https://yigitm.github.io/Newsweek/)
 * [Ahmad Chata's Solution](https://github.com/ahmadchata/newsweek) - [View in Browser](https://ahmadchata.github.io/newsweek/)
 * [Witah Georjane's Solution](https://github.com/Georjane/Newsweek) - [View in Browser](https://rawcdn.githack.com/Georjane/Newsweek/5047e3a88c6b5c9defc4140e64e845b0e7383496/index.html)
 * [Christopher Amanor's Solution](https://github.com/krys2fa/newsweek-clone) - [View in Browser](https://rawcdn.githack.com/krys2fa/newsweek-clone/16b2015d1e65b0e3410ed5fd9c751619f5a92a1b/index.html)
@@ -94,7 +97,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/newsweek-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/newsweek-clone/)
 * [barrysweeney's Solution](https://github.com/barrysweeney/bootstrap-news-site-clone) - [View in Browser](https://barrysweeney.github.io/bootstrap-news-site-clone/)
 * [mangakiko's Solution](https://github.com/magakiko/newsweek) - [View in Browser](https://magakiko.github.io/newsweek/)
-
+* [bhenning83's Solution](https://github.com/bhenning83/newsweek) - [View in Browser](https://bhenning83.github.io/newsweek/)
+* [Timework's Solution](https://github.com/Timework/newsweek-bootstrap) - [View in Browser](https://timework.github.io/newsweek-bootstrap/)
 </details>
 
 ### Additional Resources
