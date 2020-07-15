@@ -50,6 +50,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 - [ray0h's Solution](https://github.com/ray0h/RestaurantPage) - [View in Browser](https://ray0h.github.io/RestaurantPage)
+- [Stéphane's Solution](https://github.com/stephanewillems/restaurantpage) - [View in Browser](https://stephanewillems.github.io/restaurantpage/)
 - [talastree's Solution](https://github.com/talastree/TOP-restaurant) - [View in Browser](https://htmlpreview.github.io/?https://github.com/talastree/TOP-restaurant/blob/master/dist/index.html)
 - [benjamin-gambling's Solution](https://github.com/benjamin-gambling/restaurant) - [View in Browser](https://benjamin-gambling.github.io/restaurant/)
 - [fviccia's Solution](https://github.com/fviccia/restaurant-page) - [View in Browser](https://fviccia-restaurant-page.netlify.app/)
