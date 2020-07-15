@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-
+* [Felipe Caldeira's Solution](https://github.com/Felipe-Caldeira/TOP-Etch-A-Sketch) - [View in Browser](https://felipe-caldeira.github.io/TOP-Etch-A-Sketch/)
 * [Wusinho's Solution](https://github.com/Wusinho/project_etch_a_sketch)
 * [Alexander Glez's Solution](https://github.com/Covicale/Etch-A-Sketch) - [View in Browser](https://covicale.github.io/Etch-A-Sketch/)
 * [Spike's Solution](https://github.com/superspike7/etch-a-sketch) - [View in Browser](https://superspike7.github.io/etch-a-sketch/)
