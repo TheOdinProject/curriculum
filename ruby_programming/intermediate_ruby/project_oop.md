@@ -19,12 +19,25 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/6_tic-tac-toe.rb) - [View in repl.it](https://repl.it/@Risanto/tic-tac-toe#main.rb)
+* [Witah Georjane's Solution](https://github.com/Georjane/Tic-Tac-Toe-Game) - [View in repl.it](https://repl.it/join/eegkcbpi-witahgeorjane)
+* [Baseline Alpha's Solution](https://github.com/baselinealpha/Ruby-The-Odin-Project/blob/master/tic-tac-toe.rb) - [View in repl.it](https://repl.it/@BaselineAlpha/Tic-Tac-Toe#main.rb)
+* [pavelnklv's Solution](https://github.com/pavelnklv/tic_tac_toe)
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/tic-tac-toe) - [View in repl.it](https://repl.it/@Acushla/tic-tac-toe)
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Tic-Tac-Toe)
+* [Eduardo's Solution](https://github.com/helloeduardo/tic_tac_toe) - [View in repl.it](https://repl.it/@helloeduardo/tictactoe#tic_tac_toe.rb)
+* [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/TicTacToe)
+* [lrdvnz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/tree/master/mastermind)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/tic-tac-toe) - [View in repl.it](https://repl.it/github/TildaDares/tic-tac-toe)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/tic-tac-toe)
+* [Sam Eff's Solution](https://github.com/SamEff/Tic_Tac_Toe)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/tic-tac-toe-rb/tic-tac-toe.rb)
 * [Opeyemi's Solution](https://github.com/AdedayoOpeyemi/Tic-Tac-Toe)
 * [Ranno's Solution](https://github.com/RannoL/tic_tac_toe)
 * [Gael's Solution](https://github.com/lungla-gael/Tic-Tac-Toe)
 * [Aaron's Solution](https://github.com/Aaron-McD/Tic-Tac-Toe)
 * [Richard's Solution](https://github.com/RichardDenton/tic-tac-toe) - [View in repl.it](https://repl.it/@RichardDenton/tic-tac-toe)
+* [Adam's Solution](https://github.com/ajhanson22227/tictactoe) - [View in repl.it](https://repl.it/@ajhanson22227/tictactoe)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/tic-tac-toe) - [View in repl.it](https://repl.it/@HappyFrog/tic-tac-toe#.replit)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/tic-tac-toe)
 * [lrdvnz's Solution](https://github.com/LrdVnz/rubyBuildingBlocks/blob/master/tic_tac_toe.rb)
@@ -373,6 +386,18 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/tic_tac_toe/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@abohannon/ruby-sandbox#projects/tic_tac_toe/tic_tac_toe.rb)
 * [msespos's Solution](https://github.com/msespos/tic-tac-toe) - [Play on repl.it](https://repl.it/@msespos/tic-tac-toe#tic_tac_toe.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-tic-tac-toe)
+* [Jding9's Solution](https://github.com/Jding9/ruby_tictactoe/blob/master/tictactoe.rb)
+* [Ethan W's Solution](https://github.com/ethan-wax/tic_tac_toe)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/tictactoe.rb)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/tictactoe)
+* [ahanasi's Solution](https://github.com/ahanasi/tic-tac-toe) - [Play on repl.it](https://repl.it/@ahanasi/tic-tac-toe#.replit)
+* [Chow Jia Ying's Solution](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
+* [Dyrits's Solution](https://github.com/Dyrits/X-O-OP-TIC-TAC-TOE/blob/master/tic_tac_toe.rb)
+* [Intermedia's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/tictactoe.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/tic_tac_toe/blob/master/tic_tac_toe.rb)
+* [shanedgilbert's Solution](https://github.com/shanedgilbert/Tic-Tac-Toe) - [Play on repl.it](https://repl.it/@shanedgilbert/Tic-Tac-Toe#.replit)
+* [bhenning83's Solution](https://github.com/bhenning83/tic-tac-toe/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@bhenning83/tictactoe#main.rb)
+
 </details>
 
 ### Project 2: Mastermind
@@ -399,6 +424,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/7_mastermind.rb) - [View in repl.it](https://repl.it/@Risanto/mastermind#main.rb)
+* [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/mastermind)
+* [Coding Shawn's Solution (Computer has 68% win rate over 100000 games)](https://github.com/CodingShawn/TOP-Ruby-Mastermind)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/mastermind)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/mastermind)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/mastermind) - [View in repl.it](http://mastermind.aaroncontreras.repl.run/)
+* [Sam Eff's Solution (AI uses Knuth's algorithm 100% win rate)](https://github.com/SamEff/Mastermind)
 * [Aaron's Solution (56-58% win rate AI over 1000 games)](https://github.com/Aaron-McD/MasterMind)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/mastermind/mastermind.rb)
 * [Gael's Solution](https://github.com/lungla-gael/Mastermind)
@@ -678,6 +710,16 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [fussykyloren's Solution](https://github.com/fussykyloren/mastermind-v2) - [Play on repl.it](https://repl.it/github/fussykyloren/mastermind-v2)
 * [Adam's Solution](https://github.com/abohannon/mastermind-ruby)
 * [Sandy's Solution](https://github.com/kuosandys/top-mastermind)
+* [Ethan W's Solution](https://github.com/ethan-wax/mastermind)
+* [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/mastermind)
+* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/codebreaker)
+* [ahanasi’s Solution](https://github.com/ahanasi/mastermind) - [Play on repl.it](https://repl.it/@ahanasi/mastermind#.replit)
+* [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/mastermind.rb)
+* [John's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
+* [msespos’s Solution](https://github.com/msespos/mastermind) - [Play on repl.it](https://repl.it/@msespos/mastermind)
+* [Jding9's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/mastermind/blob/master/mastermind.rb)
+
 </details>
 
 ### Additional Resources

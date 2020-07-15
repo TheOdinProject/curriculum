@@ -26,6 +26,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Morgan Bonhomme's Solution](https://github.com/morganbonhomme/secret_messages) - [View in Browser](https://fatidique-croissant-99694.herokuapp.com/)
 * [yldrmali's Solution](https://github.com/yldrmali/myblog) - [View in Browser](https://sheltered-dusk-63801.herokuapp.com/)
 * [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/members-club) - [View in Browser](https://whisper-campaign.herokuapp.com/)
 * [Julio's solution](https://github.com/julio22b/members-only) - [View in Browser](https://members-only-odin.herokuapp.com/home)
@@ -46,6 +47,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Tayfun Sur's solution](https://github.com/0xtaf/members-only) - [View in browser](https://secret-members.herokuapp.com/)
 * [barrysweeney's solution](https://github.com/barrysweeney/MembersOnlyMessageBoard) - [View in browser](https://cryptic-earth-60552.herokuapp.com/)
 * [ranmaru22's Solution](https://github.com/ranmaru22/members-only) - [View in Browser](https://secure-stream-16381.herokuapp.com)
+* [ultrawide's Solution](https://github.com/ultrawide/members-only-messageboard) - [View in Browser](https://fast-fortress-23524.herokuapp.com/)
 </details>
 
 
