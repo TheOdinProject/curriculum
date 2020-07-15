@@ -95,7 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
-* [Max-Marquez's Solution (Easy)] (https://github.com/Max-Marquez/google-homepage) - [View in Browser] (https://htmlpreview.github.io/?https://github.com/Max-Marquez/google-homepage/blob/master/index.html)
+* [Max-Marquez's Solution (Easy)](https://github.com/Max-Marquez/google-homepage) - [View in Browser](https://htmlpreview.github.io/?https://github.com/Max-Marquez/google-homepage/blob/master/index.html)
+* [MaurGB's Solution (Easy)](https://github.com/maurgb/google-homepage) - [View in Browser](https://maurgb.github.io/google-homepage/)
 * [Pallavi's Solution (Easy)](https://github.com/pmaity7/google-homepage) - [View in Browser](https://pmaity7.github.io/google-homepage/)
 * [cameronfrost's Solution (Easy)](https://github.com/cameronfrost/google-clone) - [View in Browser](https://cameronfrost.github.io/google-clone/)
 * [Aaron Hong's Solution (Easy)](https://github.com/aaronjghong/google-homepage) - [View in Browser](https://aaronjghong.github.io/google-homepage/)
@@ -4007,6 +4008,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jayden Vause's (Easy)](https://github.com/jamjamsnugglepuff/Google-Home-Page) - [View in Browser](https://jamjamsnugglepuff.github.io/Google-Home-Page)
 * [Arglinguist's Solution (Easy)](https://github.com/arglinguist/google-homepage) - [View in Browser](https://arglinguist.github.io/google-homepage/)
 * [Marko Markovitz's Solution (Hard)](https://github.com/markanjski/google-homepage-hard) - [View in Browser](https://markanjski.github.io/google-homepage-hard/)
+* [Laurel's Solution (Easy)](https://github.com/lejones1785/google-homepage) - [View in Brower](https://lejones1785.github.io/google-homepage/)
+* [Renzy's Solution (Easy)](https://github.com/B-Renz/5StepDesigner) - [View in Browser](https://b-renz.github.io/5StepDesigner/)
 </details>
 
 
