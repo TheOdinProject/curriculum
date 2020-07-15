@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this list
 * [Max-Marquez's Solution (Easy)](https://github.com/Max-Marquez/google-homepage) - [View in Browser](https://htmlpreview.github.io/?https://github.com/Max-Marquez/google-homepage/blob/master/index.html)
+* [Teboho Monkhi's Solution (Easy)](https://github.com/tmonkhi/google-homepage) - [View in Browswer](https://tmonkhi.github.io/google-homepage/)
 * [MaurGB's Solution (Easy)](https://github.com/maurgb/google-homepage) - [View in Browser](https://maurgb.github.io/google-homepage/)
 * [Pallavi's Solution (Easy)](https://github.com/pmaity7/google-homepage) - [View in Browser](https://pmaity7.github.io/google-homepage/)
 * [cameronfrost's Solution (Easy)](https://github.com/cameronfrost/google-clone) - [View in Browser](https://cameronfrost.github.io/google-clone/)
