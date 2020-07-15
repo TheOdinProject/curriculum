@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Lucio's React Todo List](https://github.com/JCarlosLucio/react-todo-list) - [View in Browser](https://jcarloslucio.github.io/react-todo-list/)
 * [Zayeer's React Todoo](https://github.com/Zayeer/todoos/tree/master) - [View in Browser](https://zayeer.github.io/todoos/)
 * [guyroberts21's React Library](https://github.com/guyroberts21/react-library) - [View in Browser](https://guyroberts21.github.io/react-library/)
 * [Juan Oxmar's Library w/ React](https://github.com/juanoxmar/reactLibrary) - [View in Browser](https://juanoxmar.github.io/reactLibrary/)
