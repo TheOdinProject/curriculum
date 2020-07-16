@@ -45,8 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Musa Hamad Solution](https://github.com/Musa2018/ETCH-A-SKETCH) - [View in Browser](https://musa2018.github.io/ETCH-A-SKETCH/)
+* [Felipe Caldeira's Solution](https://github.com/Felipe-Caldeira/TOP-Etch-A-Sketch) - [View in Browser](https://felipe-caldeira.github.io/TOP-Etch-A-Sketch/)
+* [Wusinho's Solution](https://github.com/Wusinho/project_etch_a_sketch)
+* [Alexander Glez's Solution](https://github.com/Covicale/Etch-A-Sketch) - [View in Browser](https://covicale.github.io/Etch-A-Sketch/)
 * [Spike's Solution](https://github.com/superspike7/etch-a-sketch) - [View in Browser](https://superspike7.github.io/etch-a-sketch/)
-* Add your solution below this line!
 * [invaderace's Solution](https://github.com/invaderace/etch-a-sketch) - [View in Browser](https://invaderace.github.io/etch-a-sketch/)
 * [jaydu1995's Solution](https://github.com/jaydu1995/etch-a-sketch) - [View in Browser](https://jaydu1995.github.io/etch-a-sketch/)
 * [Cordell's Solution](https://github.com/cordellbonnieux/etch-a-sketch/blob/master/index.html) - [View in Browser](https://cordellbonnieux.github.io/etch-a-sketch/index.html)

@@ -21,6 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* ChargrilledChook's Solutions: [Caesar Cipher](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/spec/caesar_spec.rb), [Tic-Tac-Toe](https://github.com/ChargrilledChook/tic-tac-toe)
 * Uduak Essien's Solutions: [Tic-Tac-Toe](https://github.com/acushlakoncept/tic-tac-toe)
 * Tilda Udufo's Solutions: [Caesar Cipher](https://github.com/TildaDares/caesar_cipher), [Tic-Tac-Toe](https://github.com/TildaDares/tic-tac-toe)
 * Brandon Austin's Solutions: [Caesar Cipher](https://github.com/brandonricharda/caesar), [Tic-Tac-Toe](https://github.com/brandonricharda/Tic-Tac-Toe)
