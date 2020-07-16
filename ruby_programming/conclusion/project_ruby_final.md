@@ -27,6 +27,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Darren's Solution](https://github.com/DarrenLo0530/chess)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/chess) (with AI)
 * [Nsars19's Solution](https://github.com/nsars19/Chess)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/chess_game)
 * [pudu87's Solution](https://github.com/pudu87/chess-game)
