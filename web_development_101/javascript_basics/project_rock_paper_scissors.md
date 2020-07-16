@@ -42,6 +42,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [pampush's Solution](https://github.com/pampush/rps) - [View in Browser](https://pampush.github.io/rps/)
+- [Beni's Solution](https://github.com/banho2002/rock-paper-scissors) - [View in Browser](https://banho2002.github.io/rock-paper-scissors/)
+- [Gio's Solution](https://github.com/giovannylimin/rock-paper-scissors) - [View in Browser](https://giovannylimin.github.io/rock-paper-scissors/)
 - [Priya Aggarwal's Solution](https://github.com/pa-aggarwal/rock-paper-scissors) - [View in Browser](https://pa-aggarwal.github.io/rock-paper-scissors/)
 - [mckhames Solution](https://github.com/mckhames/rock-paper-scissors) - [View in Browser](https://mckhames.github.io/rock-paper-scissors/)
 - [greatshekhs Solution](https://github.com/greatshekhs/rock-paper-scissor-console) - [View in Browser](https://greatshekhs.github.io/rock-paper-scissor-console/)
@@ -1804,4 +1806,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors)
 - [Denzel's Solution](https://github.com/denzUp/rock-paper-scissors-game) - [View in Browser](https://denzup.github.io/rock-paper-scissors-game/)
 - [Bones81's Solution](https://github.com/Bones81/RockPaperScissors) - [View in Browser](https://bones81.github.io/RockPaperScissors/)
+- [trungxyz's Solution](https://github.com/trungxyz/scissors-paper-rock) - [View in Browser](https://trungxyz.github.io/scissors-paper-rock/)
 </details>
