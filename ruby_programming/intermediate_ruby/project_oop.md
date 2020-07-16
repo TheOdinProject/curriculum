@@ -719,6 +719,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [msespos’s Solution](https://github.com/msespos/mastermind) - [Play on repl.it](https://repl.it/@msespos/mastermind)
 * [Jding9's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/mastermind/blob/master/mastermind.rb)
+* [bhenning83’s Solution](https://github.com/bhenning83/mastermind/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@bhenning83/mastermind#main.rb)
 
 </details>
 
