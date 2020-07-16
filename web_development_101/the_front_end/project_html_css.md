@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [MaurGB's Solution (Hard)](https://github.com/MaurGB/google-searchpage/) - [View in Browser](https://maurgb.github.io/google-searchpage/)
 * [Max-Marquez's Solution (Easy)](https://github.com/Max-Marquez/google-homepage) - [View in Browser](https://htmlpreview.github.io/?https://github.com/Max-Marquez/google-homepage/blob/master/index.html)
 * [Teboho Monkhi's Solution (Easy)](https://github.com/tmonkhi/google-homepage) - [View in Browswer](https://tmonkhi.github.io/google-homepage/)
 * [MaurGB's Solution (Easy)](https://github.com/maurgb/google-homepage) - [View in Browser](https://maurgb.github.io/google-homepage/)
@@ -4013,6 +4014,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Renzy's Solution (Easy)](https://github.com/B-Renz/5StepDesigner) - [View in Browser](https://b-renz.github.io/5StepDesigner/)
 * [Aynur's Solution (Easy)](https://dilbaay23.github.io/google-homepage/) - [View in Browser](https://dilbaay23.github.io/google-homepage/)
 * [Aleksei's Solution (Easy)](https://github.com/aleshashilov25/Google_Clone) - [View in Browser](https://aleshashilov25.github.io/Google_Clone/)
+* [Abdullah Ar Rayhan's Solution (Easy)](https://github.com/aarrayhan/google-homepage) - [View in Browser](https://aarrayhan.github.io/google-homepage/)
 </details>
 
 
