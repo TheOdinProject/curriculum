@@ -41,7 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Shikhar Sharma's Solution](https://github.com/shikhar-sharma1703/Web-dev/tree/master/library) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/library/)
+- [Shikhar Sharma's Solution (w/ Firebase)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/library) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/library/)
 - [Abdel Pérez's Solution](https://github.com/abdelp/library) - [View in Browser](https://ecstatic-lewin-0c511a.netlify.app)
 - [ray0h's Solution (w/localstorage)](https://github.com/ray0h/TheOdinProjectExercises/tree/master/Library) - [View in Browser](https://ray0h.github.io/Library/)
 - [Lakshya Singh's Solution (w/ Firebase)](https://github.com/king-11/Library) - [View in Browser](https://librarybuilder.ml/)
