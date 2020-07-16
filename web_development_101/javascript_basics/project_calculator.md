@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Alexander Glez's Solution](https://github.com/Covicale/Calculator) - [View in Browser](https://covicale.github.io/Calculator/)
+- [Matthew's Solution](https://github.com/MatthewKissinger/calculator) - [View in Browser](https://matthewkissinger.github.io/calculator/)
 - [Daniel's Solution](https://github.com/daniel-moderiano/calculator) - [View in Browser](https://daniel-moderiano.github.io/calculator/)
 - [acchang's Solution](https://github.com/acchang/Calculator) - [View in Browser](https://calculator.acchang.repl.co/)
 - [jaydu1995's Solution](https://github.com/jaydu1995/calculator) - [View in Browser](https://jaydu1995.github.io/calculator/)
