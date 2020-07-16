@@ -4018,7 +4018,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Aleksei's Solution (Easy)](https://github.com/aleshashilov25/Google_Clone) - [View in Browser](https://aleshashilov25.github.io/Google_Clone/)
 * [Abdullah Ar Rayhan's Solution (Easy)](https://github.com/aarrayhan/google-homepage) - [View in Browser](https://aarrayhan.github.io/google-homepage/)
 * [A Dzulfikar SR's Solution (Easy)](https://github.com/wlwtvr/google-pages) - [View in Browser](https://wlwtvr.github.io/google-pages/)
-</details>
+* [varo-102's Solution (Easy)](https://github.com/varo-102/google-homepage) - [View in Browser](https://varo-102.github.io/google-homepage/)
+</details> 
 
 
 ### Additional Resources
