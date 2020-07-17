@@ -304,6 +304,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/knights-travails)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/knight_travails)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/knights_travails)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/knight_travails.rb)
