@@ -35,7 +35,7 @@ Write tests for the following functions, and then make the tests pass!
 
 ### Special Note on using ES6 import statements with Jest
 
-The current version of Jest as it is does not recognize the import statement. In order for you to be able to use ES6 modules for this project you may do the following:
+By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may do the following:
 
 1. Install the @babel/preset-env package
 
@@ -61,6 +61,18 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/unit-test-practice)
+- [blackstate's solution](https://github.com/blackstate/testing-practice-jest/)
+- [Luky's solution](https://github.com/lcyne/testing-practice-jest)
+- [Cody Degen's solution](https://github.com/codydegen/testing_practice)
+- [Jdonahue135's solution](https://github.com/jdonahue135/jest-testing-practice)
+- [mjwills-inf's solution](https://github.com/mjwills-inf/-TOP-testing-practise)
+- [Andrey's solution](https://github.com/AndreySkopintsev/javascript-unit-testing)
+- [jc's Solution](https://github.com/avazkhan2808/project-testing)
+- [Chaitanya's solution](https://github.com/Chaitanya-Raj/TDD-Jest)
+- [James's solution](https://github.com/ericksen-github/testing_practice)
+- [Kevin Vuong's solution](https://github.com/fffear/jest-testing-practice)
+- [Julio's solution](https://github.com/julio22b/tdd-jest)
 - [Martink-rsa's solution](https://github.com/martink-rsa/Jest-testing)
 - [Igorashs's solution](https://github.com/igorashs/tdd-jest-practice)
 - [Vedat's solution](https://github.com/mvedataydin/tdd-jest)
@@ -80,5 +92,14 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [scotth527's solution](https://github.com/scotth527/jest_practice)
 - [Ryan Floyd's solution](https://github.com/MrRyanFloyd/odin-test-driven-development)
 - [Aron's solution](https://github.com/aronfischer/jest_testing_basic_exercises)
+- [Ivnosing's solution](https://github.com/Ivnosing/testing-practice)
+- [barrysweeney's solution](https://github.com/barrysweeney/JestTestingPractice)
+- [gathoni's solution](https://github.com/gathoni-k/testing-practice-jest)
+- [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/js_testing)
+- [Rey van den Berg's solution](https://github.com/Rey810/jest-practice)
+- [Emil Dimitrov's solution](https://github.com/edmtrv/testing-practice)
+- [JoshAubrey's solution](https://github.com/JoshAubrey/jest-testing-practice)
+- [Joe Thompson's Solution](https://github.com/jlthompso/js_tests)
+- [Tim Kelly's Solution](https://github.com/timkellytk/project-testing-practice)
 </details>
 
