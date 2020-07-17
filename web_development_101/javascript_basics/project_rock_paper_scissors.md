@@ -15,13 +15,74 @@ We're going to make a simple implementation of grade-school classic "rock paper 
    2. __Important note:__ you want to `return` the results of this function call, _not_ `console.log()` them.  To test this function console.log the results:
 
       ~~~javascript
-      function playRound(playerSelection, computerSelection) {
-      	// your code here!
-      }
+      <!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+   <script>
+        function playRound(choice1, choice2) {
+            var userChoice = prompt("Make a choice: rock, paper or scissors");
+    var computerChoice = Math.random();
+    if (computerChoice < 0.34) {
+        computerChoice = "rock";
+    } else if(computerChoice <= 0.67) {
+        computerChoice = "paper";
+    } else {
+        computerChoice = "scissors";
+    }
 
-      const playerSelection = 'rock'
-      const computerSelection = computerPlay()
-      console.log(playRound(playerSelection, computerSelection))
+   var compare = function(choice1, choice2) {
+        if(choice1 === choice2) {
+        return "The result is a tie!";
+    }
+    if(choice1 === "rock") {
+        if(choice2 === "scissors") {
+            return "rock wins";
+        } else {
+            return "paper wins";
+        }
+    }
+    if(choice1 === "paper") {
+        if(choice2 === "rock") {
+            return "paper wins";
+        } else {
+            if(choice2 === "scissors") {
+                return "scissors wins";
+        }
+    }
+    if (choice1 === "paper") {
+        if (choice2 === "rock") {
+            return "paper wins";
+        } else {
+            if (choice2 === "scissors") {
+                return "scissors wins";
+            }
+        }
+        if (choice1 === "scissors") {
+            if (choice2 === "rock") {
+                return "rock wins";
+            } else {
+                if (choice2 === "paper") {
+                    return "scissors wins";
+                }
+            }
+        }
+    }
+    };
+
+   console.log("User Choice: " + userChoice);
+   console.log("Computer Choice: " + computerChoice);
+   compare(userChoice, computerChoice);
+  </script>
+</body>
+</html>
+
+   const playerSelection = 'rock'
+   const computerSelection = computerPlay()
+   console.log(playRound(playerSelection, computerSelection))
       ~~~
 
 
