@@ -1807,4 +1807,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Denzel's Solution](https://github.com/denzUp/rock-paper-scissors-game) - [View in Browser](https://denzup.github.io/rock-paper-scissors-game/)
 - [Bones81's Solution](https://github.com/Bones81/RockPaperScissors) - [View in Browser](https://bones81.github.io/RockPaperScissors/)
 - [trungxyz's Solution](https://github.com/trungxyz/scissors-paper-rock) - [View in Browser](https://trungxyz.github.io/scissors-paper-rock/)
+- [nexus0208's Solution](https://github.com/nexus0208/Rock-Paper-Scissors) - [View in Browser](https://nexus0208.github.io/Rock-Paper-Scissors/)
 </details>
