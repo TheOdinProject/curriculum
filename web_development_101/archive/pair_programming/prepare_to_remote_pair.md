@@ -7,7 +7,6 @@ As you learned in the last lesson, pairing in person is the best option, but if 
   * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
   * Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is similar to the Live Share plugin, but for the editor Atom.
 * Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
-  * [Screenhero](https://screenhero.com/) has its own built in voice chat, but as mentioned above, unless you already have an account you are currently out of luck.
   * Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
   * The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.
   * Another option is [Discord](https://discordapp.com). It provides both Web and Desktop application that allows you to make voice calls(Desktop and Web) and share your screen(Desktop.)

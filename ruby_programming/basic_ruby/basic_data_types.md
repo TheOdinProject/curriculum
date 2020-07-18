@@ -71,12 +71,14 @@ As shown in the last example above, when Ruby converts a float to an integer, th
 There are many useful methods for numbers built into Ruby. For example,
 
 **#even?**
+
 ~~~ruby
 6.even? #=> true
 7.even? #=> false
 ~~~
 
 **#odd?**
+
 ~~~ruby
 6.odd? #=> false
 7.odd? #=> true
@@ -155,16 +157,18 @@ puts 'Hello, #{name}' #=> "Hello, #{name}"
 #### Common String Methods
 There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
 
-Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](ruby-doc.org/core-2.6.0/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
+Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://ruby-doc.org/core-2.6/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
 
-Below is a quick recap of the more common string methods you might find yourself using: 
+Below is a quick recap of the more common string methods you might find yourself using:
 
 **#capitalize**
+
 ~~~ruby
 "hello".capitalize #=> "Hello"
 ~~~
 
 **#include?**
+
 ~~~ruby
 "hello".include?("lo")  #=> true
 
@@ -172,16 +176,19 @@ Below is a quick recap of the more common string methods you might find yourself
 ~~~
 
 **#upcase**
+
 ~~~ruby
 "hello".upcase  #=> "HELLO"
 ~~~
 
 **#downcase**
+
 ~~~ruby
 "Hello".downcase  #=> "hello"
 ~~~
 
 **#empty?**
+
 ~~~ruby
 "hello".empty?  #=> false
 
@@ -189,16 +196,19 @@ Below is a quick recap of the more common string methods you might find yourself
 ~~~
 
 **#length**
+
 ~~~ruby
 "hello".length  #=> 5
 ~~~
 
 **#reverse**
+
 ~~~ruby
 "hello".reverse  #=> "olleh"
 ~~~
 
 **#split**
+
 ~~~ruby
 "hello world".split  #=> ["hello", "world"]
 
@@ -206,6 +216,7 @@ Below is a quick recap of the more common string methods you might find yourself
 ~~~
 
 **#strip**
+
 ~~~ruby
 " hello, world   ".strip  #=> "hello, world"
 ~~~

@@ -49,7 +49,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
   <a href="https://imgur.com/0LDzazi"><img class="tutorial-img" src="https://i.imgur.com/0LDzazi.png" title="source: imgur.com" /></a>
 2. Open README.md in your text editor of choice and add the text "This is (YourUsername)'s first git project!" and then save the file.
   <a href="https://imgur.com/a/2B4Lw"><img class="tutorial-img" src="https://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
-3. Back in your terminal, type `git status`, and notice that README.md is no longer staged.
+3. Back in your terminal, type `git status`, and notice that README.md is now shown as modified, and not staged or committed.  This is because you made a change to it, and it is already a tracked file.
   <a href="https://imgur.com/AlUO59b"><img class="tutorial-img" src="https://i.imgur.com/AlUO59b.png" title="source: imgur.com" /></a>
 4. Add README.md to the staging area with `git add README.md`.
 5. Can you guess what `git status` will output now? README.md will be displayed in green text, while hello_world.txt will still be in red. This means that only README.md has been added to the staging area.
