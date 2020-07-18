@@ -43,11 +43,15 @@ This project will give you a chance to take a relatively high level set of requi
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/Odin-Book.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
 
+* [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/fakebook) - [View in Browser](https://odinbook-kikupiku.herokuapp.com/)
+* [Julio's solution](https://github.com/julio22b/facebook-clone-api) - [View in Browser](https://facebook-clone-odin.herokuapp.com/users/log-in)
+* [barrysweeney's Solution](https://github.com/barrysweeney/TOPBOOK) - [View in browser](https://calm-falls-42453.herokuapp.com/)
+* [ranmaru22's Solution](https://github.com/ranmaru22/odinbook) - [View in Browser](https://secret-lowlands-14471.herokuapp.com/)
 </details>

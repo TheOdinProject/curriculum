@@ -36,6 +36,14 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sherman's Solution](https://github.com/shermansjliu/basic-informational-site) - [View in Browswer](https://repl.it/github/shermansjliu/basic-informational-site)
+- [Andrey's Solution](https://github.com/AndreySkopintsev/basic-nodejs-site) - [View in Browser](https://repl.it/@AAndrewSk/basic-nodejs-site#README.md)
+- [Angelo's Solution](https://github.com/angelokora/basic-information-website) - [View in Browser](https://basic-information-website--angelodafia.repl.co)
+- [Zayeer's Solution](https://github.com/Zayeer/basic-information-site) - [View in Browser](https://repl.it/@Zayeer/basic-information-site)
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/informational-site) - [View in Browser](https://informational-site--andrsrz.repl.co/)
+- [Martin Muehl's Solution](https://github.com/joshuatree/NodeJS) - [View in Browser](https://repl.it/@joshuatree1/NodeJS)
+- [Kevin Beall's Solution](https://github.com/kevinbeall/The-Odin-Project/tree/master/BasicInformationalSite) - [View in Browser](https://LongPossibleProspect--five-nine.repl.co)
+- [Julio's solution](https://github.com/julio22b/basic-informational-site) - [View in Browser](https://repl.it/@julio22b/ProudIntentionalTasks)
 - [Thanusha Jakkula's Solution](https://github.com/ThanushaJ/basic-nodejs-website) - [View in Browser](https://repl.it/github/ThanushaJ/basic-nodejs-website)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/basic-node-site) - [View in Browser](https://repl.it/@braxtonlemmon/basic-node-site-3)
 - [Igorashs's Solution](https://github.com/igorashs/basic-informational-site) - [View in Browser](https://repl.it/@igorashs/basic-informational-site)
@@ -52,7 +60,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Eljoey's Solution](https://github.com/eljoey/Basic_Node_Site)
 - [Vedat's Solution](https://github.com/mvedataydin/initiate-node) - [View in Browser](https://repl.it/@mvedataydin/initiate-node)
 - [Henry Kirya's](https://github.com/harrika/nodemo) - [View in Browser](https://repl.it/@HenryKirya/nodemo)
-- [Brian Tuju's Solution - Browser](https://op-basic-info-site.briantuju.repl.co)
 - [tbmreza's Solution](https://github.com/tbmreza/odinproject-node1/) - [View in Browser](https://NodeJS-Basic-Informational-Site--tbmreza.repl.co)
 - [Carmine's Solution](https://github.com/cgrossi/node-beginner-project) - [View in Browser](https://cgrossi.github.io/node-beginner-project/)
 - [Faraz's Solution](https://github.com/frzkn/odin-projects/tree/master/basicinformationsite)
@@ -75,4 +82,11 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/basic-information-site)
 - [0xtaf's Solution](https://github.com/0xtaf/basic-informational-site)
 - [Scott Bowles's Solution](https://github.com/scottBowles/node-simple-informational-site) - [View in Browser](https://node-simple-informational-site--scottbowles.repl.co)
+- [Carlos Del Real's Solution](https://github.com/carloshdelreal/simple-node-website) - [View in Browser](https://repl.it/@carloshdelreal/simple-node-website-2)
+- [Hamohuh's Solution](https://github.com/hamohuh/simple-node) - [View in Browser](https://TragicCaringCustomization--five-nine.repl.co)
+- [barrysweeney's Solution](https://github.com/barrysweeney/node-basic-site) - [View in Browser](https://node-basic-site-2.barrysweeney.repl.co/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/node-sample) - [View In Browser](https://repl.it/@ranmaru22/OdinProjectSampleNodeFile)
+- [Theodore Kelechukwu Onyejiaku's Solution](https://a-simple-nodejs-website-1--theodore1250.repl.co/)
+- [Joe Thompson's Solution](https://github.com/jlthompso/basic_info_site)
+- [Kielx's Solution](https://github.com/Kielx/informationalSite) - [View in Browser](https://informationalsite--kielx.repl.co/index.html)
 </details>

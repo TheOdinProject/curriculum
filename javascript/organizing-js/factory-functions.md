@@ -10,6 +10,19 @@ One of the biggest issues with constructors is that while they _look_ just like 
 
 The main takeaway is that while constructors aren't necessarily _evil_, they aren't the only way, and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Describe common bugs you might run into using constructors.
+- Write a factory method that returns an object.
+- Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!).
+- Explain what Closure is and how it impacts private functions & variables.
+- Describe how private functions & variables are useful.
+- Use inheritance in objects using the factory pattern.
+- Explain the module pattern.
+- Describe IIFE. What does it stand for?
+- Briefly explain namespacing and how it's useful.
+
 ### Factory function introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
@@ -124,7 +137,7 @@ taco.capitalizeString(); // ERROR!!
 taco.printString(); // this prints "----TACO----"
 ~~~
 
-Because of the concept of scope, neither of the functions created inside of `FactoryFunction` can be accessed outside of the function itself, which is why lines 9 and 10 above fail. The only way to use either of those functions is to `return` them in the object (see line 4), which is why we can call `taco.printString()` but _not_ `taco.capitalizeString()`. The big deal here is that even though _we_ can't access the `capitalizeString()` function, `printString()` can. That is closure.
+Because of the concept of scope, neither of the functions created inside of `FactoryFunction` can be accessed outside of the function itself, which is why lines 9, 10, and 11 fail. The only way to use either of those functions is to `return` them in the object (see line 4), which is why we can call `taco.printString()` but _not_ `taco.capitalizeString()`. The big deal here is that even though _we_ can't access the `capitalizeString()` function, `printString()` can. That is closure.
 
 The concept of closure is the idea that functions retain their scope even if they are passed around and called outside of that scope. In this case, `printString` has access to everything inside of `FactoryFunction`, even if it gets called outside of that function.
 
