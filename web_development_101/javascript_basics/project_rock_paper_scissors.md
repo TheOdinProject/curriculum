@@ -1793,7 +1793,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [gitliffi's Solution](https://github.com/gitliffi/rockpaperscissors) - [View in Browser](https://gitliffi.github.io/rockpaperscissors/index.html)
 - [whitekoel's Solution](https://github.com/whitekoel/RockPaperScissors)
 - [Burak's Solution](https://github.com/Burak-Esen/rock-paper-scissors) - [View in Browser](http://burak-esen.com/rock-paper-scissors/)
-- [awhlam's Solution](https://github.com/awhlam/odin_project/tree/master/web_development_101/rock_paper_scissors
+- [awhlam's Solution](https://github.com/awhlam/odin_project/tree/master/web_development_101/rock_paper_scissors)
 - [Kingsley Ezenwaka's Solution](https://github.com/khay9yne/rock-paper-scissors) - [View in Browser](https://khay9yne.github.io/rock-paper-scissors/)
 - [Aleksandar's Solution](https://github.com/ShinobiWarior/RockPaperScissors)
 - [Paulo Marchezi's Solution](https://github.com/pauloernestom/pedra-papel-tesoura) - [View in Browser](https://pauloernestom.github.io/pedra-papel-tesoura/)
