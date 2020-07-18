@@ -49,7 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Abdel Pérez's Solution](https://github.com/abdelp/restaurant-page-js) - [View in Browser](https://abdelp.github.io/restaurant-page-js/)
+- [Abdel Pérez's Solution](https://github.com/abdelp/restaurant-page-js)
 - [ray0h's Solution](https://github.com/ray0h/RestaurantPage) - [View in Browser](https://ray0h.github.io/RestaurantPage)
 - [Stéphane's Solution](https://github.com/stephanewillems/restaurantpage) - [View in Browser](https://stephanewillems.github.io/restaurantpage/)
 - [talastree's Solution](https://github.com/talastree/TOP-restaurant) - [View in Browser](https://htmlpreview.github.io/?https://github.com/talastree/TOP-restaurant/blob/master/dist/index.html)
