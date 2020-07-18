@@ -1812,4 +1812,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [nexus0208's Solution](https://github.com/nexus0208/Rock-Paper-Scissors) - [View in Browser](https://nexus0208.github.io/Rock-Paper-Scissors/)
 - [Pradip's Solution](https://github.com/HTPA97/rock_paper)
 - [MayarHassanin's Solution](https://github.com/Mayar-Hassanin98/Rock-Paper-Scissors) - [View in Browser](https://mayar-hassanin98.github.io/Rock-Paper-Scissors/)
+- [sforber's Solution](https://github.com/sforber/rockpaperscissors) - [View in Browser](https://sforber.github.io/rockpaperscissors/)
 </details>
