@@ -134,6 +134,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-facebook) - [View in browser](https://jamesreduxbook.herokuapp.com/)
 * [themetar's solution](https://github.com/themetar/odin-facebook) - [View in browser](https://phacepook.herokuapp.com/)
 * [Timework's solution](https://github.com/Timework/odin-facebook) - [View in browser](https://young-spire-86635.herokuapp.com/)
+* [Sanyogita's Solution] (https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/facebook)
 </details>
 
 ### Additional Resources
