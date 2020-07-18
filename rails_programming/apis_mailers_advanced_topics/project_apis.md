@@ -176,6 +176,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Timework's Solution](https://github.com/Timework/odin-kittens)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/odin-kittens)
 * [Bendee's Solution](https://github.com/bendee48/rails-kittens)
+* [Christian Paez's Solution](https://github.com/christian1894/odin-kittens)
 </details>
 
 ### Project 2: Using a Third Party API
@@ -267,6 +268,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/flickr_app) - [View in Browser](https://sleepy-castle-29757.herokuapp.com/)
 * [Timework's Solution](https://github.com/Timework/odin-flickr)
 * [Bendee's Solution](https://github.com/bendee48/rails-photo-feed)
+* [Christian Paez's Solution](https://github.com/christian1894/odin-flickr)
 </details>
 
 ### Additional Resources
