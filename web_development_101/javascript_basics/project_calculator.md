@@ -45,6 +45,13 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Shubham's Solution](https://github.com/shubhgod/Calculator_Javascript) - [View in Browser](https://shubhgod.github.io/Calculator_Javascript/)
+- [Stergios's Solution](https://github.com/StergiosHariop/JavaScript-Online-Calculator) - [View in Browser](https://stergioshariop.github.io/JavaScript-Online-Calculator/)
+- [frosmaker392's Solution](https://github.com/frosmaker392/top_calculator) - [View in Browser](https://frosmaker392.github.io/top_calculator/index.html)
+- [Wusinho's Solution](https://github.com/Wusinho/Calculator)
+- [marslavish's Solution](https://github.com/marslavish/calculator) - [View in Browser](https://marslavish.github.io/calculator/)
+- [Alexander Glez's Solution](https://github.com/Covicale/Calculator) - [View in Browser](https://covicale.github.io/Calculator/)
+- [Matthew's Solution](https://github.com/MatthewKissinger/calculator) - [View in Browser](https://matthewkissinger.github.io/calculator/)
 - [Daniel's Solution](https://github.com/daniel-moderiano/calculator) - [View in Browser](https://daniel-moderiano.github.io/calculator/)
 - [acchang's Solution](https://github.com/acchang/Calculator) - [View in Browser](https://calculator.acchang.repl.co/)
 - [jaydu1995's Solution](https://github.com/jaydu1995/calculator) - [View in Browser](https://jaydu1995.github.io/calculator/)
@@ -808,4 +815,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jacobus's Solution](https://github.com/Jacobus-afk/calcuator) - [View in Browser](https://jacobus-afk.github.io/calcuator/)
 - [StarSheriff's Solution](https://github.com/StarSheriff2/Calculator) - [View in Browser](https://starsheriff2.github.io/Calculator/)
 - [lonewolf045's Solution](https://github.com/lonewolf045/calculator) - [View in Browser](https://lonewolf045.github.io/calculator/)
+- [Jasen's Solution](https://github.com/CelticJasen/calculator) - [View in Browser](https://CelticJasen.github.io/calculator/)
+- [Paulos's Solution](https://github.com/pauloernestom/basicCalculator) - [View in Browser](https://pauloernestom.github.io/basicCalculator/)
 </details>

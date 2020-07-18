@@ -41,6 +41,9 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [DoviMaj's Solution (w/ local storage](https://github.com/DoviMaj/my-book-shelf) - [View in Browser](https://dovimaj.github.io/my-book-shelf/)
+- [Estela's Solution](https://estelajimero.github.io/Library/) - [View in Browser](https://estelajimero.github.io/Library/)
+- [Shikhar Sharma's Solution (w/ Firebase)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/library) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/library/)
 - [Abdel Pérez's Solution](https://github.com/abdelp/library) - [View in Browser](https://ecstatic-lewin-0c511a.netlify.app)
 - [ray0h's Solution (w/localstorage)](https://github.com/ray0h/TheOdinProjectExercises/tree/master/Library) - [View in Browser](https://ray0h.github.io/Library/)
 - [Lakshya Singh's Solution (w/ Firebase)](https://github.com/king-11/Library) - [View in Browser](https://librarybuilder.ml/)
@@ -358,4 +361,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Amycruz's Solution (w/ localstorage)](https://github.com/amycruz97) - [View in Browser](https://amycruzlibrary.netlify.app/)
 - [hazigabriel's Solution (w/ localstorage)](https://github.com/hazigabriel/library) - [View in Browser](https://hazigabriel.github.io/library/)
 - [Sandy's Solution](https://github.com/kuosandys/top-mylibrary) - [View in Browser](https://kuosandys.github.io/top-mylibrary/)
+- [Jasen's Solution](https://github.com/CelticJasen/library) - [View in Browser](https://CelticJasen.github.io/library/)
+- [Jamesredux's Solution](https://github.com/Jamesredux/library-app) - [View in Browser](https://jamesredux.github.io/library-app/)
+- [joankii's Solution (w/firebase)](https://github.com/joan-kii/TOP-library) - [View in Browser](https://joan-kii.github.io/TOP-library/)
+- [Martin Echenique's Solution](https://github.com/MartinEchenique/book-library) - [View in Browser](https://martinechenique.github.io/book-library/)
 </details>
