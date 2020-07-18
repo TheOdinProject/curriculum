@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Abdullahi Nuur's Solution (Easy)](https://github.com/abdullahinuur/google_homepage) - [View in Browser](https://abdullahinuur.github.io/google_homepage/)
 * [Amodarmo's Solution (Easy)](https://github.com/Amodarmo/google-homepage/) - [View in Browser](https://amodarmo.github.io/google-homepage/)
 * [Ramanjs' Solution (Easy)](https://github.com/Ramanjs/google-homepage/) - [View in Browser](https://ramanjs.github.io/google-homepage/)
 * [MaurGB's Solution (Hard)](https://github.com/MaurGB/google-searchpage/) - [View in Browser](https://maurgb.github.io/google-searchpage/)
@@ -4021,7 +4022,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [A Dzulfikar SR's Solution (Easy)](https://github.com/wlwtvr/google-pages) - [View in Browser](https://wlwtvr.github.io/google-pages/)
 * [Barry's Solution (Easy)](https://github.com/BarnoldSporrace/google-homepage) - [View in Browser](https://barnoldsporrance.github.io/google-homepage/)
 * [varo-102's Solution (Easy)](https://github.com/varo-102/google-homepage) - [View in Browser](https://varo-102.github.io/google-homepage/)
-</details> 
+* [Enrica's Solution (Easy)](https://github.com/andrea-enrica/google-homepage)
+</details>
 
 
 ### Additional Resources
