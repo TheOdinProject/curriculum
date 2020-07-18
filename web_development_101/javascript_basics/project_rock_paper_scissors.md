@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Niraj Rasal's Solution](https://github.com/NirajRasal/rock_paper_scissors) - [View in Brower](https://nirajrasal.github.io/rock_paper_scissors/)
 - [Aaron Hong's Solution](https://github.com/aaronjghong/RPS) - [View in Browser](https://aaronjghong.github.io/RPS/)
 - [Xtrators's Solution](https://github.com/xtrator/SCISSORS-P-S) - [View in Browser](https://xtrator.github.io/SCISSORS-P-S/)
 - [pampush's Solution](https://github.com/pampush/rps) - [View in Browser](https://pampush.github.io/rps/)
@@ -1793,7 +1794,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [gitliffi's Solution](https://github.com/gitliffi/rockpaperscissors) - [View in Browser](https://gitliffi.github.io/rockpaperscissors/index.html)
 - [whitekoel's Solution](https://github.com/whitekoel/RockPaperScissors)
 - [Burak's Solution](https://github.com/Burak-Esen/rock-paper-scissors) - [View in Browser](http://burak-esen.com/rock-paper-scissors/)
-- [awhlam's Solution](https://github.com/awhlam/odin_project/tree/master/web_development_101/rock_paper_scissors
+- [awhlam's Solution](https://github.com/awhlam/odin_project/tree/master/web_development_101/rock_paper_scissors)
 - [Kingsley Ezenwaka's Solution](https://github.com/khay9yne/rock-paper-scissors) - [View in Browser](https://khay9yne.github.io/rock-paper-scissors/)
 - [Aleksandar's Solution](https://github.com/ShinobiWarior/RockPaperScissors)
 - [Paulo Marchezi's Solution](https://github.com/pauloernestom/pedra-papel-tesoura) - [View in Browser](https://pauloernestom.github.io/pedra-papel-tesoura/)
@@ -1811,4 +1812,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [trungxyz's Solution](https://github.com/trungxyz/scissors-paper-rock) - [View in Browser](https://trungxyz.github.io/scissors-paper-rock/)
 - [nexus0208's Solution](https://github.com/nexus0208/Rock-Paper-Scissors) - [View in Browser](https://nexus0208.github.io/Rock-Paper-Scissors/)
 - [Pradip's Solution](https://github.com/HTPA97/rock_paper)
+- [MayarHassanin's Solution](https://github.com/Mayar-Hassanin98/Rock-Paper-Scissors) - [View in Browser](https://mayar-hassanin98.github.io/Rock-Paper-Scissors/)
 </details>
