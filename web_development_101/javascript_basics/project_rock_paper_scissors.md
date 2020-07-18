@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Aaron Hong's Solution](https://github.com/aaronjghong/RPS) - [View in Browser](https://aaronjghong.github.io/RPS/)
 - [Xtrators's Solution](https://github.com/xtrator/SCISSORS-P-S) - [View in Browser](https://xtrator.github.io/SCISSORS-P-S/)
 - [pampush's Solution](https://github.com/pampush/rps) - [View in Browser](https://pampush.github.io/rps/)
 - [Beni's Solution](https://github.com/banho2002/rock-paper-scissors) - [View in Browser](https://banho2002.github.io/rock-paper-scissors/)
@@ -1804,7 +1805,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ayushbasak's Solution](https://github.com/ayushbasak/rps) - [View in Browser](https://ayushbasak.github.io/rps/)
 - [Wei-Ting Yap's Solution](https://github.com/weiting109/the-odin-proj-projects/blob/master/rock-paper-scissors/rock-paper-scissors.html)
 - [Alexander Glez's Solution](https://github.com/Covicale/RockPaperScissors) - [View in Browser](https://covicale.github.io/RockPaperScissors/)
-- [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors)
+- [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors) - [View in Browser](https://robertompfm.github.io/rock-paper-scissors/)
 - [Denzel's Solution](https://github.com/denzUp/rock-paper-scissors-game) - [View in Browser](https://denzup.github.io/rock-paper-scissors-game/)
 - [Bones81's Solution](https://github.com/Bones81/RockPaperScissors) - [View in Browser](https://bones81.github.io/RockPaperScissors/)
 - [trungxyz's Solution](https://github.com/trungxyz/scissors-paper-rock) - [View in Browser](https://trungxyz.github.io/scissors-paper-rock/)
