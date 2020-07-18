@@ -3,7 +3,7 @@ Before we start digging into some pretty nifty JavaScript, we need to begin talk
 
 Problem solving, is the core thing software developers do, the programming languages and tools they use are secondary to this fundamental skill.
 
-V. Anton Paul defines problem solving in programming as:
+V. Anton Spraul defines problem solving in programming as:
 
 > "Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints."
 - Think Like a Programmer
@@ -71,7 +71,7 @@ To demonstrate this workflow in action lets solve a common programming exercise,
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
-Write a problem that allows the user to enter a number, print each number between one the number the user entered, but for numbers that divide by three without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
+Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
 
 #### Plan
 Does your program have an interface? What will it look like?
@@ -149,7 +149,7 @@ Fizz
 10
 ~~~
 
-The program is starting to take shape, the final few sub problems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisble by 5 then print "Buzz"
+The program is starting to take shape, the final few sub problems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print "Buzz"
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -186,7 +186,7 @@ We have one more sub problem to solve to complete the program: If the current nu
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
 for (let i = 1; i < answer; i++) {
-  if ( i % 3 === 0 && i % 5 == 0) {
+  if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
   } else if (i % 3 === 0) {
     console.log("Fizz");
@@ -198,9 +198,9 @@ for (let i = 1; i < answer; i++) {
 }
 ~~~
 
-We've had to move the conditionals around a little to get it to work. The first condition now checks if `i` is divisible by 3 and 5 instead of checking if `i` is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if (i % 3 === 0)` so when `i` was divisible by 3 it would print "Fizz" and then move onto the next number in the iteration, even if `i` was divisble by 5 as well.
+We've had to move the conditionals around a little to get it to work. The first condition now checks if `i` is divisible by 3 and 5 instead of checking if `i` is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if (i % 3 === 0)` so when `i` was divisible by 3 it would print "Fizz" and then move onto the next number in the iteration, even if `i` was divisible by 5 as well.
 
-With the condition `if (i % 3 === 0 && i % 5 === 0)` coming first, we ensure we check that `i` is divisible by boh 3 and 5 before moving on to check if it is divisible by 3 or 5 individually in the `else if` conditions.
+With the condition `if (i % 3 === 0 && i % 5 === 0)` coming first, we ensure we check that `i` is divisible by both 3 and 5 before moving on to check if it is divisible by 3 or 5 individually in the `else if` conditions.
 
 The program is now complete! If you run it now you should get this output when the user inputs 20:
 

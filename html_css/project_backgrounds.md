@@ -24,6 +24,20 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alex Zambrano's Solution](https://github.com/Alexoid1/Building-with-Backgrounds-and-Gradients) - [View in Browser](https://alexoid1.github.io/Building-with-Backgrounds-and-Gradients/)
+* [Kevin Alves's Solution](https://github.com/kevdeveloper/Apple-project) - [View in Browser](https://rawcdn.githack.com/Kevinalvesdev/Apple-project/92947866fac4fa7c9fcd92cbc9798897b3d0e898/index.html)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-old-apple) - [View in Browser](https://lucas-bide.github.io/odin-old-apple/index)
+* [Run After's Solution](https://github.com/run-after/mock-apple) - [View in Browser](https://run-after.github.io/mock-apple/)
+* [descholar's Solution](https://github.com/rahalrazika/apple-old-webpage) - [View in Browser](https://raw.githack.com/rahalrazika/apple-old-webpage/add-apple-webpage/index.html)
+* [Alexander Nitiola's Solution](https://github.com/TheCre8tor/apple_old_website) - [View in Browser](https://thecre8tor.github.io/apple_old_website/)
+* [skele-666's Solution](https://github.com/skele-666/old-apple-page) - [View in Browser](https://skele-666.github.io/old-apple-page/)
+* [Stanley Enow Lekunze's Solution](https://github.com/happiguru/apple.com/tree/apple.com-feature-branch) - [View in Browser](https://rawcdn.githack.com/happiguru/apple.com/c06209f7c6482e81596da43635ef164b4eec23ee/index.html)
+* [Witah Georjane's Solution](https://github.com/Georjane/Apple-Website-Webpage.git) - [View in Browser](https://raw.githack.com/Georjane/Apple-Website-Webpage/Apple_Landing_Page/index.html)
+* [Adil-Bub's Solution](https://github.com/Adil-Bub/OldApple-2014) - [View in Browser](https://adil-bub.github.io/OldApple-2014/)
+* [Christopher Amanor's Solution](https://github.com/krys2fa/apple.com-homepage-clone) - [View in Browser](https://rawcdn.githack.com/krys2fa/apple.com-homepage-clone/1f3506f12a73a8735c50795f5a06aeea6153b982/index.html)
+* [Evanson Igiri's Solution](https://github.com/evansinho/Apple.com-clone) - [View in Browser](https://raw.githack.com/evansinho/Apple.com-clone/apple-clone/index.html)
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/appledotcome-clone) - [View in Browser](https://andrsrz.github.io/appledotcome-clone/)
+* [Yiğit's Solution](https://github.com/yigitm/Apple-Clone) - [View in Browser](https://yigitm.github.io/Apple-Clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/Apple_Clone) - [View in Browser](https://haroonabdulrazaq.github.io/Apple_Clone/)
 * [Jose Salvador's Solution](https://github.com/Jsalvadorpp/old-apple-page) - [View in Browser](https://jsalvadorpp.github.io/old-apple-page/)
 * [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/apple-clone) - [View in Browser](https://kaliberpoziomka.github.io/apple-clone/)
@@ -132,7 +146,12 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [themetar's Solution](https://github.com/themetar/apple-frontpage-mockup) - [View in Browser](https://themetar.github.io/apple-frontpage-mockup/)
 * [Veskenazi's Solution](https://github.com/veskenazi/apple-homepage-clone) - [View in Browser](https://veskenazi.github.io/apple-homepage-clone/)
 * [ranmaru22's Solution](https://github.com/ranmaru22/the_odin_project/tree/master/old-apple-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/old-apple-clone/)
-
+* [jamesredux's Solution](https://github.com/Jamesredux/apple-clone) - [View in Browser](https://jamesredux.github.io/apple-clone/)
+* [mangakiko's Solution](https://github.com/magakiko/Apple) - [View in Browser](https://magakiko.github.io/Apple/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/apple-site-clone) - [View in Browser](https://barrysweeney.github.io/apple-site-clone)
+* [bhenning83's Solution](https://github.com/bhenning83/apple-homepage) - [View in Browser](https://bhenning83.github.io/apple-homepage/)
+* [Timework's Solution](https://github.com/Timework/apple-clone) - [View in Browser](https://timework.github.io/apple-clone/)
+* [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/old-apple-clone) - [View in Browser](https://ansellmaximilian.github.io/old-apple-clone/)
 </details>
 
 ### Additional Resources
