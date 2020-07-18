@@ -35,6 +35,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Salvador Villalon's Solution](https://github.com/salvillalon45/theOdinProject-TodoList) - [View in Browser](https://salvillalon45.github.io/theOdinProject-TodoList/)
+* [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/todolist-react) - [View in Browser](https://kaliberpoziomka.github.io/todolist-react/)
+* [Rizwan's Solution](https://github.com/xRizwan/Todo-List) - [View in Browser](https://xrizwan.github.io/Todo-List/)
+* [pklepa's Solution](https://github.com/pklepa/to-do)
+* [RobisonWebDev Solution](https://github.com/robisonwebdev/Todo-List) - [View in Browser](http://davidrulonrobison.com/Todo-List/)
 * [vonhoro's Solution](https://github.com/vonhoro/To-Do-List/) - [View in Browser](https://vonhoro.github.io/To-Do-List/)
 * [Osechi3's Solution](https://github.com/osechi3/todo-list/) - [View in Browser](https://osechi3.github.io/todo-list/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/to-do-list/) - [View in Browser](https://ideopunk.github.io/to-do-list/)
