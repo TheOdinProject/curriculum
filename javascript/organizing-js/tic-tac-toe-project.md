@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+   https://github.com/miknick/Tic-Tac-Toe                      https://miknick.github.io/Tic-Tac-Toe/
 - [GERRG's Solution](https://github.com/gerrgg/tic-tac-toe) - [View in Browser](https://gerrgg.github.io/tic-tac-toe/)
 - [MiDDiz's Solution](https://github.com/MiDDiz/OdinTicTacToe) - [View in Browser](https://middiz.github.io/OdinTicTacToe/)
 - [Abdel Pérez's Solution](https://github.com/abdelp/Tic-Tac-Toe-JS) - [View in Browser](https://mystifying-leakey-f8a69f.netlify.app)
