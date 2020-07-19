@@ -817,4 +817,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [lonewolf045's Solution](https://github.com/lonewolf045/calculator) - [View in Browser](https://lonewolf045.github.io/calculator/)
 - [Jasen's Solution](https://github.com/CelticJasen/calculator) - [View in Browser](https://CelticJasen.github.io/calculator/)
 - [Paulos's Solution](https://github.com/pauloernestom/basicCalculator) - [View in Browser](https://pauloernestom.github.io/basicCalculator/)
+- [Kapaha's Solution](https://github.com/kapaha/calculator) - [View in Browser](https://kapaha.github.io/calculator/)
 </details>
