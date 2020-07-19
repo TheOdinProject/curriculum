@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ruben-Ruiz's Solution](https://github.com/ruben-ruiz/calculator) - [View in Browser[ (https://ruben-ruiz.github.io/calculator/)
 - [Shubham's Solution](https://github.com/shubhgod/Calculator_Javascript) - [View in Browser](https://shubhgod.github.io/Calculator_Javascript/)
 - [Stergios's Solution](https://github.com/StergiosHariop/JavaScript-Online-Calculator) - [View in Browser](https://stergioshariop.github.io/JavaScript-Online-Calculator/)
 - [frosmaker392's Solution](https://github.com/frosmaker392/top_calculator) - [View in Browser](https://frosmaker392.github.io/top_calculator/index.html)
