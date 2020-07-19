@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Niraj Rasal's Solution](https://github.com/NirajRasal/rock_paper_scissors) - [View in Brower](https://nirajrasal.github.io/rock_paper_scissors/)
 - [Aaron Hong's Solution](https://github.com/aaronjghong/RPS) - [View in Browser](https://aaronjghong.github.io/RPS/)
 - [Xtrators's Solution](https://github.com/xtrator/SCISSORS-P-S) - [View in Browser](https://xtrator.github.io/SCISSORS-P-S/)
 - [pampush's Solution](https://github.com/pampush/rps) - [View in Browser](https://pampush.github.io/rps/)
@@ -1812,4 +1813,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [nexus0208's Solution](https://github.com/nexus0208/Rock-Paper-Scissors) - [View in Browser](https://nexus0208.github.io/Rock-Paper-Scissors/)
 - [Pradip's Solution](https://github.com/HTPA97/rock_paper)
 - [MayarHassanin's Solution](https://github.com/Mayar-Hassanin98/Rock-Paper-Scissors) - [View in Browser](https://mayar-hassanin98.github.io/Rock-Paper-Scissors/)
+- [Michael's Solution](https://github.com/moinabyssinia/rock-paper-scissors) - [View in Browser](https://moinabyssinia.github.io/rock-paper-scissors/)
+- [sforber's Solution](https://github.com/sforber/rockpaperscissors) - [View in Browser](https://sforber.github.io/rockpaperscissors/)
 </details>

@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Alex Zambrano's Solution](https://github.com/Alexoid1/ETCH-A-SKETCH) - [View in Browser](https://alexoid1.github.io/ETCH-A-SKETCH/)
+* [dab47310's Solution](https://github.com/dab47310/project-etch-a-sketch) - [View in Browser](https://dab47310.github.io/project-etch-a-sketch/)
 * [Aaron Hong's Solution](https://github.com/aaronjghong/etch-a-sketch) - [View in Browser](https://aaronjghong.github.io/etch-a-sketch/)
 * [Saransh Gupta's Solution](https://github.com/saranshgupta27/Etch-A-Sketch)
 * [Eriktn's Solution](https://github.com/eriktn/Etch-a-Sketch) - [View in Browser](https://eriktn.github.io/Etch-a-Sketch/)
@@ -1160,5 +1162,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [juggler39's Solution](https://github.com/juggler39/etch-a-sketch) - [View in Browser](https://juggler39.github.io/etch-a-sketch/)
 * [Aleksandar's Solution](https://github.com/ShinobiWarior/Etch-A-Sketch) - [View in Browser](https://shinobiwarior.github.io/Etch-A-Sketch/)
 * [Paulo's Solution](https://github.com/pauloernestom/etch-a-sketch) - [View in Browser](https://pauloernestom.github.io/etch-a-sketch/)
+* [Orhan's Solution](https://github.com/orhanugurlu/the_odin_project/tree/master/etch-a-sketch) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/etch-a-sketch/index.html)
 </details>
 
