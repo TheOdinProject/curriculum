@@ -4021,7 +4021,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Jayden Vause's (Easy)](https://github.com/jamjamsnugglepuff/Google-Home-Page) - [View in Browser](https://jamjamsnugglepuff.github.io/Google-Home-Page)
 * [Arglinguist's Solution (Easy)](https://github.com/arglinguist/google-homepage) - [View in Browser](https://arglinguist.github.io/google-homepage/)
 * [Marko Markovitz's Solution (Hard)](https://github.com/markanjski/google-homepage-hard) - [View in Browser](https://markanjski.github.io/google-homepage-hard/)
-* [Laurel's Solution (Easy)](https://github.com/lejones1785/google-homepage) - [View in Brower](https://lejones1785.github.io/google-homepage/)
+* [Laurel's Solution (Easy)](https://github.com/lejones1785/google-homepage) - [View in Browser](https://lejones1785.github.io/google-homepage/)
 * [Renzy's Solution (Easy)](https://github.com/B-Renz/5StepDesigner) - [View in Browser](https://b-renz.github.io/5StepDesigner/)
 * [Aynur's Solution (Easy)](https://dilbaay23.github.io/google-homepage/) - [View in Browser](https://dilbaay23.github.io/google-homepage/)
 * [Aleksei's Solution (Easy)](https://github.com/aleshashilov25/Google_Clone) - [View in Browser](https://aleshashilov25.github.io/Google_Clone/)
@@ -4032,6 +4032,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Enrica's Solution (Easy)](https://github.com/andrea-enrica/google-homepage)
 * [ApeironThanatos's Solution (Easy)](https://github.com/ApeironThanatos/google-homepage) - [View in Browser](https://apeironthanatos.github.io/google-homepage/)
 * [Daniel Lam's Solution (Easy)](https://daniellam98.github.io/google-homepage/) - [View in Browser](https://daniellam98.github.io/google-homepage/)
+* [Trina McLeary's Solution(Easy)](https://github.com/Trinadactyl/google-homepage) - [View in Browser](https://trinadactyl.github.io/google-homepage/)
 * [Ivo Bul's Solution (Easy)](https://github.com/ivobul/theodinproject-google-homepage) - [View in Browser](https://theodinproject-google-homepage.vercel.app/) 
 * [Sedat's Solution (Easy)](https://github.com/sedatkoc/google-homepage) - [View in Browser](https://sedatkoc.github.io/google-homepage/index.html)
 </details>
