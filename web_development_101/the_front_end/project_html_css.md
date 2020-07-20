@@ -4037,6 +4037,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Trina McLeary's Solution(Easy)](https://github.com/Trinadactyl/google-homepage) - [View in Browser](https://trinadactyl.github.io/google-homepage/)
 * [Ivo Bul's Solution (Easy)](https://github.com/ivobul/theodinproject-google-homepage) - [View in Browser](https://theodinproject-google-homepage.vercel.app/) 
 * [Sedat's Solution (Easy)](https://github.com/sedatkoc/google-homepage) - [View in Browser](https://sedatkoc.github.io/google-homepage/index.html)
+* [AlmirBunjaku's Solution (Easy)](https://github.com/AlmirBunjaku/google-homepage) - [View in Browser](https://AlmirBunjaku.github.io/google-homepage/index.html)
+* [AlmirBunjaku's Solution (Difficult)](https://github.com/AlmirBunjaku/google-results) - [View in Browser](https://AlmirBunjaku.github.io/google-results/index.html)
 </details>
 
 
