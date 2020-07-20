@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Dean Oh's Solution (w/Firebase)] (https://github.com/JuicyMelon/Library) -[View in Browser](https://juicymelon.github.io/Library/)
 - [DoviMaj's Solution (w/ local storage](https://github.com/DoviMaj/my-book-shelf) - [View in Browser](https://dovimaj.github.io/my-book-shelf/)
 - [Estela's Solution](https://estelajimero.github.io/Library/) - [View in Browser](https://estelajimero.github.io/Library/)
 - [Shikhar Sharma's Solution (w/ Firebase)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/library) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/library/)
