@@ -95,6 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [Soham's Solution (Easy)](https://github.com/soham1001myG/google-homepage/) - [View in Browser](https://soham1001myg.github.io/google-homepage/)
+* [Realsss' Solution (Easy)](https://github.com/Realsss/google-homepage) - [View in Browser](https://realsss.github.io/google-homepage/)
 * [Leo-fer's Solution (Easy)](https://leo-fer.github.io/google-homepage/) - [View in Browser](https://leo-fer.github.io/google-homepage/)
 * [Dave's Solution (Easy)](https://github.com/dmorin20/google-homepage) - [View in Browser](https://dmorin20.github.io/google-homepage/)
 * [jwsorima' Solution (Easy)](https://github.com/jwsorima/google-homepage) - [View in Browser](https://jwsorima.github.io/google-homepage/)
@@ -4031,6 +4033,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ApeironThanatos's Solution (Easy)](https://github.com/ApeironThanatos/google-homepage) - [View in Browser](https://apeironthanatos.github.io/google-homepage/)
 * [Daniel Lam's Solution (Easy)](https://daniellam98.github.io/google-homepage/) - [View in Browser](https://daniellam98.github.io/google-homepage/)
 * [Trina McLeary's Solution(Easy)](https://github.com/Trinadactyl/google-homepage) - [View in Browser](https://trinadactyl.github.io/google-homepage/)
+* [Ivo Bul's Solution (Easy)](https://github.com/ivobul/theodinproject-google-homepage) - [View in Browser](https://theodinproject-google-homepage.vercel.app/) 
+* [Sedat's Solution (Easy)](https://github.com/sedatkoc/google-homepage) - [View in Browser](https://sedatkoc.github.io/google-homepage/index.html)
 </details>
 
 
