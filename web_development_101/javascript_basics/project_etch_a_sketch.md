@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Priya Aggarwal's Solution](https://github.com/pa-aggarwal/etch-a-sketch) - [View in Browser](https://pa-aggarwal.github.io/etch-a-sketch/)
 * [Wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/ETCH-A-SKETCH) - [View in Browser](https://wise-king-sullyman.github.io/etch-a-sketch/)
 * [Alex Zambrano's Solution](https://github.com/Alexoid1/ETCH-A-SKETCH) - [View in Browser](https://alexoid1.github.io/ETCH-A-SKETCH/)
 * [dab47310's Solution](https://github.com/dab47310/project-etch-a-sketch) - [View in Browser](https://dab47310.github.io/project-etch-a-sketch/)
@@ -1165,4 +1166,3 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Paulo's Solution](https://github.com/pauloernestom/etch-a-sketch) - [View in Browser](https://pauloernestom.github.io/etch-a-sketch/)
 * [Orhan's Solution](https://github.com/orhanugurlu/the_odin_project/tree/master/etch-a-sketch) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/etch-a-sketch/index.html)
 </details>
-
