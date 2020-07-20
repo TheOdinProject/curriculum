@@ -157,4 +157,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Chandra's Solution](https://github.com/CodeSurfer3022) - [View in Browser](https://codesurfer3022.github.io/ToDo-List/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-todolist) - [View in Browser](https://adrieltrigger.github.io/top-todolist/)
 * [Nijepa's Solution](https://github.com/nijepa/todo-list) - [View in Browser](https://nijepa.github.io/todo-list/)
+* [lonewolf045's Solution](https://github.com/lonewolf045/todo-list) - [View in Browser](https://nijepa.github.io/todo-list/)
 </details>
