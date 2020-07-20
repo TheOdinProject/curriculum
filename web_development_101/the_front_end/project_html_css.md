@@ -4029,7 +4029,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [A Dzulfikar SR's Solution (Easy)](https://github.com/wlwtvr/google-pages) - [View in Browser](https://wlwtvr.github.io/google-pages/)
 * [Barry's Solution (Easy)](https://github.com/BarnoldSporrace/google-homepage) - [View in Browser](https://barnoldsporrance.github.io/google-homepage/)
 * [varo-102's Solution (Easy)](https://github.com/varo-102/google-homepage) - [View in Browser](https://varo-102.github.io/google-homepage/)
-* [Enrica's Solution (Easy)](https://github.com/andrea-enrica/google-homepage)
+* [Enrica's Solution (Easy)](https://github.com/andrea-enrica/google-homepage)-[View in Browser](https://andrea-enrica.github.io/google-homepage/)
 * [ApeironThanatos's Solution (Easy)](https://github.com/ApeironThanatos/google-homepage) - [View in Browser](https://apeironthanatos.github.io/google-homepage/)
 * [Daniel Lam's Solution (Easy)](https://daniellam98.github.io/google-homepage/) - [View in Browser](https://daniellam98.github.io/google-homepage/)
 * [Trina McLeary's Solution(Easy)](https://github.com/Trinadactyl/google-homepage) - [View in Browser](https://trinadactyl.github.io/google-homepage/)
