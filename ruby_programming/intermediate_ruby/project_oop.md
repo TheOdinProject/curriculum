@@ -19,11 +19,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [enzoperce35's Solution](https://github.com/enzoperce35/Tic_Tac_Toe/blob/master/tic_tac_toe.rb)
 * [Guhan's Solution](https://github.com/guhan29/Ruby-OOP/blob/master/tic_tac_toe.rb) - [View in repl.it](https://repl.it/@guhan29/tictactoe#main.rb)
 * [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/6_tic-tac-toe.rb) - [View in repl.it](https://repl.it/@Risanto/tic-tac-toe#main.rb)
 * [Witah Georjane's Solution](https://github.com/Georjane/Tic-Tac-Toe-Game) - [View in repl.it](https://repl.it/join/eegkcbpi-witahgeorjane)
 * [Baseline Alpha's Solution](https://github.com/baselinealpha/Ruby-The-Odin-Project/blob/master/tic-tac-toe.rb) - [View in repl.it](https://repl.it/@BaselineAlpha/Tic-Tac-Toe#main.rb)
 * [pavelnklv's Solution](https://github.com/pavelnklv/tic_tac_toe)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-tic-tac-toe) - [View in repl.it](https://repl.it/@sthavm/ruby-tic-tac-toe#tic_tac_toe.rb)
 * [Uduak Essien's Solution](https://github.com/acushlakoncept/tic-tac-toe) - [View in repl.it](https://repl.it/@Acushla/tic-tac-toe)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Tic-Tac-Toe)
 * [Eduardo's Solution](https://github.com/helloeduardo/tic_tac_toe) - [View in repl.it](https://repl.it/@helloeduardo/tictactoe#tic_tac_toe.rb)
