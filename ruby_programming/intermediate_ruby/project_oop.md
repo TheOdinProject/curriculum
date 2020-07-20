@@ -25,6 +25,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Witah Georjane's Solution](https://github.com/Georjane/Tic-Tac-Toe-Game) - [View in repl.it](https://repl.it/join/eegkcbpi-witahgeorjane)
 * [Baseline Alpha's Solution](https://github.com/baselinealpha/Ruby-The-Odin-Project/blob/master/tic-tac-toe.rb) - [View in repl.it](https://repl.it/@BaselineAlpha/Tic-Tac-Toe#main.rb)
 * [pavelnklv's Solution](https://github.com/pavelnklv/tic_tac_toe)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-tic-tac-toe) - [View in repl.it](https://repl.it/@sthavm/ruby-tic-tac-toe#tic_tac_toe.rb)
 * [Uduak Essien's Solution](https://github.com/acushlakoncept/tic-tac-toe) - [View in repl.it](https://repl.it/@Acushla/tic-tac-toe)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Tic-Tac-Toe)
 * [Eduardo's Solution](https://github.com/helloeduardo/tic_tac_toe) - [View in repl.it](https://repl.it/@helloeduardo/tictactoe#tic_tac_toe.rb)
