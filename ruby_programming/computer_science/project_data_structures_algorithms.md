@@ -499,5 +499,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Brent's Solution](https://github.com/brentcam250/knight_moves)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
+* [msespos's Solution](https://github.com/msespos/knights-travails)
 
 </details>
