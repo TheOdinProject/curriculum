@@ -41,13 +41,14 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [marslavish's Solution (w/Firebase)](https://github.com/marslavish/library) - [View in Browser](https://marslavish.github.io/library/)
-- [Dean Oh's Solution (w/Firebase)](https://github.com/JuicyMelon/Library) - [View in Browser](https://juicymelon.github.io/Library/)
-- [DoviMaj's Solution (w/ local storage](https://github.com/DoviMaj/my-book-shelf) - [View in Browser](https://dovimaj.github.io/my-book-shelf/)
+- [Musa Hamad's Soluion (w/ Local Storage)](https://github.com/Musa2018/LIBRARY) - [View in Browser](https://musa2018.github.io/LIBRARY/)
+- [marslavish's Solution (w/ Firebase)](https://github.com/marslavish/library) - [View in Browser](https://marslavish.github.io/library/)
+- [Dean Oh's Solution (w/ Firebase)](https://github.com/JuicyMelon/Library) - [View in Browser](https://juicymelon.github.io/Library/)
+- [DoviMaj's Solution (w/ Local Storage)](https://github.com/DoviMaj/my-book-shelf) - [View in Browser](https://dovimaj.github.io/my-book-shelf/)
 - [Estela's Solution](https://estelajimero.github.io/Library/) - [View in Browser](https://estelajimero.github.io/Library/)
 - [Shikhar Sharma's Solution (w/ Firebase)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/library) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/library/)
 - [Abdel Pérez's Solution](https://github.com/abdelp/library) - [View in Browser](https://ecstatic-lewin-0c511a.netlify.app)
-- [ray0h's Solution (w/localstorage)](https://github.com/ray0h/TheOdinProjectExercises/tree/master/Library) - [View in Browser](https://ray0h.github.io/Library/)
+- [ray0h's Solution (w/ Local Storage)](https://github.com/ray0h/TheOdinProjectExercises/tree/master/Library) - [View in Browser](https://ray0h.github.io/Library/)
 - [Lakshya Singh's Solution (w/ Firebase)](https://github.com/king-11/Library) - [View in Browser](https://librarybuilder.ml/)
 - [Sasoun Torossian' Solution (w/ Local Storage)](https://github.com/SasounTorossian/Library) - [View in Browser](https://sasountorossian.github.io/Library/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/library) - [View in Browser](https://cyber-mat.github.io/library/)
