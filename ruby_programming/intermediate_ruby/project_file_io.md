@@ -338,4 +338,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [msespos's Solution](https://github.com/msespos/snowman) - [Live version on Repl.it](https://repl.it/@msespos/snowman)
 * [Violet's Solution](https://github.com/violetguos/ruby-practice/tree/master/hangman)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_hangman/blob/master/hangman.rb)
+* [jding9's Solution](https://github.com/Jding9/ruby_hangman)
 </details>
