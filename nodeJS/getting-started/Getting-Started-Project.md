@@ -36,6 +36,8 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sherman's Solution](https://github.com/shermansjliu/basic-informational-site) - [View in Browswer](https://repl.it/github/shermansjliu/basic-informational-site)
+- [Andrey's Solution](https://github.com/AndreySkopintsev/basic-nodejs-site) - [View in Browser](https://repl.it/@AAndrewSk/basic-nodejs-site#README.md)
 - [Angelo's Solution](https://github.com/angelokora/basic-information-website) - [View in Browser](https://basic-information-website--angelodafia.repl.co)
 - [Zayeer's Solution](https://github.com/Zayeer/basic-information-site) - [View in Browser](https://repl.it/@Zayeer/basic-information-site)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/informational-site) - [View in Browser](https://informational-site--andrsrz.repl.co/)
@@ -87,4 +89,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Theodore Kelechukwu Onyejiaku's Solution](https://a-simple-nodejs-website-1--theodore1250.repl.co/)
 - [Joe Thompson's Solution](https://github.com/jlthompso/basic_info_site)
 - [Kielx's Solution](https://github.com/Kielx/informationalSite) - [View in Browser](https://informationalsite--kielx.repl.co/index.html)
+- [explorer564's Solution](https://github.com/explorer564/nodejs_project1_basic_info_site) - [View in Browser](https://repl.it/@explorerDora1/nodejsproject1basicinfosite#index.html)
 </details>

@@ -21,7 +21,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Witah Georjane's Solutions: [Caesar Cipher](https://github.com/Georjane/Caesar-Cipher), [Tic-Tac-Toe](https://github.com/Georjane/Tic-Tac-Toe-Game)
+* Chau Nguyen's Solutions: [Caesar Cipher](https://github.com/VanQuishi/ruby_practice/blob/master/spec/caesar_spec.rb), [Tic-Tac-Toe](https://github.com/VanQuishi/ruby_practice/blob/master/spec/tictactoe_spec.rb)
+* ChargrilledChook's Solutions: [Caesar Cipher](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/spec/caesar_spec.rb), [Tic-Tac-Toe](https://github.com/ChargrilledChook/tic-tac-toe)
+* Uduak Essien's Solutions: [Tic-Tac-Toe](https://github.com/acushlakoncept/tic-tac-toe)
 * Tilda Udufo's Solutions: [Caesar Cipher](https://github.com/TildaDares/caesar_cipher), [Tic-Tac-Toe](https://github.com/TildaDares/tic-tac-toe)
+* Brandon Austin's Solutions: [Caesar Cipher](https://github.com/brandonricharda/caesar), [Tic-Tac-Toe](https://github.com/brandonricharda/Tic-Tac-Toe)
 * irlgabriel's Solutions: [Caesar Cipher](https://github.com/irlgabriel/the-odin-project/tree/master/ruby-exercises), [Tic-Tac-Toe](https://github.com/irlgabriel/the-odin-project/tree/master/tic-tac-toe-rb)
 * Michael K's Solutions: [Caesar Cipher](https://github.com/a0x77ry/odin/tree/master/ruby-exercises/caesar_cipher), [Tic-Tac-Toe](https://github.com/a0x77ry/tic-tac-toe)
 * andrewjh271's Solutions: [Caesar Cipher](https://github.com/andrewjh271/basic_ruby_projects/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/andrewjh271/tic_tac_toe)
@@ -152,6 +157,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chau Nguyen' Solution](https://github.com/VanQuishi/Connect-Four)
+* [threeaces' Solution](https://github.com/threeaces/connect_4_ruby)  
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/connect_four/lib/connect_four.rb)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/connect_four)
 * [Sam Eff's Solution](https://github.com/SamEff/connect_four)

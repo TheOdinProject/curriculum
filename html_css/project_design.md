@@ -36,6 +36,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [Run After's Solution](https://github.com/run-after/smashing-mag-heat-map) - [View in Browser](https://run-after.github.io/smashing-mag-heat-map/)
+* [Alex Zambrano's Solution](https://github.com/Alexoid1/design-teardown) - [View in Browser](https://alexoid1.github.io/design-teardown/)
 * [descholar's Solution](https://github.com/descholar-ceo/smashing-magazine-heatmap) - [View in Browser](https://competent-ride-d3d6c8.netlify.app/)
 * [Stanley Enow's Solution](https://github.com/happiguru/design-teardown/tree/design-teardown-feature-branch) - [View in Browser](https://raw.githack.com/happiguru/design-teardown/design-teardown-feature-branch/index.html)
 * [Witah Georjane's Solution](https://github.com/Georjane/Smashing-Magazine-Heatmap) - [View in Browser](https://rawcdn.githack.com/Georjane/Smashing-Magazine-Heatmap/631b820ebda7534fdbc7370030e0902fc92aba3b/index.html)
