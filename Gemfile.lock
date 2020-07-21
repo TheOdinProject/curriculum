@@ -232,7 +232,7 @@ GEM
     netrc (0.11.0)
     newrelic_rpm (6.11.0.365)
     nio4r (2.5.2)
-    nokogiri (1.10.9)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     oauth2 (1.4.4)
       faraday (>= 0.8, < 2.0)
@@ -487,7 +487,7 @@ DEPENDENCIES
   letter_opener (~> 1.4)
   listen
   newrelic_rpm
-  nokogiri (~> 1.10.8)
+  nokogiri (~> 1.10.10)
   octokit (~> 4.6)
   omniauth-github
   omniauth-google-oauth2

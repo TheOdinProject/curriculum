@@ -26,7 +26,7 @@ gem 'acts_as_votable'
 gem 'kramdown'
 gem 'toastr-rails'
 gem 'gibbon',                     '~> 3.3.4' # for Mailchimp
-gem 'nokogiri',                   '~> 1.10.8'
+gem 'nokogiri',                   '~> 1.10.10'
 gem 'sprockets',                  '~> 3.7.2'
 gem 'newrelic_rpm'
 gem 'activeadmin'
