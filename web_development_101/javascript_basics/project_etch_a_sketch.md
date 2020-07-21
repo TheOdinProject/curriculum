@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-* [ginslingerOP's solution] (https://github.com/gunslingerOP/EtchASketch.git) - [view in browser] (https://gunslingerop.github.io/EtchASketch/)
+* [ginslingerOP's Solution](https://github.com/gunslingerOP/EtchASketch.git) - [View in Browser](https://gunslingerop.github.io/EtchASketch/)
 * [Priya Aggarwal's Solution](https://github.com/pa-aggarwal/etch-a-sketch) - [View in Browser](https://pa-aggarwal.github.io/etch-a-sketch/)
 * [AGL's Solution](https://github.com/agl9/etchasketch) - [View in Browser](https://agl9.github.io/etchasketch/)
 * [ElciUK's Solution](https://github.com/elciuk/etch-a-sketch) - [View in Browser](https://elciuk.github.io/etch-a-sketch/)
