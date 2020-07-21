@@ -64,6 +64,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [irlgabriel's Solution](https://github.com/irlgabriel/private-events) 
 - [Christian Páez's Solution](https://github.com/christian1894/odin-project-private-events) - [View in Browser](https://ruby-on-rails-private-events.herokuapp.com)
 - [Christian's Solution](https://github.com/rueeazy/private-events)
 - [Grant Cottle's Solution](https://github.com/grantmaster89/private_events) - [View in Browser](https://mighty-brook-58273.herokuapp.com/events)
