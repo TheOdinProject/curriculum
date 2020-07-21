@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Eco-Developer's Solution](https://github.com/Eco-developer/calculator) - [View in Browser](https://eco-developer.github.io/calculator/)
 - [Ruben-Ruiz's Solution](https://github.com/ruben-ruiz/calculator) - [View in Browser](https://ruben-ruiz.github.io/calculator/)
 - [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-calculator) - [View in Browser](https://kjell-fjeldsaunet.github.io/top-calculator/calculator-index.html)
 - [Shubham's Solution](https://github.com/shubhgod/Calculator_Javascript) - [View in Browser](https://shubhgod.github.io/Calculator_Javascript/)

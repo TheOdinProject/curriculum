@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [marslavish's Solution (w/Firebase)](https://github.com/marslavish/library) - [View in Browser](https://marslavish.github.io/library/)
 - [Dean Oh's Solution (w/Firebase)](https://github.com/JuicyMelon/Library) - [View in Browser](https://juicymelon.github.io/Library/)
 - [DoviMaj's Solution (w/ local storage](https://github.com/DoviMaj/my-book-shelf) - [View in Browser](https://dovimaj.github.io/my-book-shelf/)
 - [Estela's Solution](https://estelajimero.github.io/Library/) - [View in Browser](https://estelajimero.github.io/Library/)
