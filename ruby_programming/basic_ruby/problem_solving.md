@@ -14,7 +14,7 @@ New programmers often find problem solving the hardest skill to build, it's not 
 
 The best way to improve your problem solving ability is by building experience by making lots and lots of programs. The more practice you have the better you'll be prepared to solve real world problems.
 
-In this lesson we will walk through a few techniques that can used to help with the problem solving process.
+In this lesson we will walk through a few techniques to help with the problem solving process.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
