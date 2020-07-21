@@ -100,5 +100,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Emil Dimitrov's solution](https://github.com/edmtrv/testing-practice)
 - [JoshAubrey's solution](https://github.com/JoshAubrey/jest-testing-practice)
 - [Joe Thompson's Solution](https://github.com/jlthompso/js_tests)
+- [Tim Kelly's Solution](https://github.com/timkellytk/project-testing-practice)
+- [Nijepa's Solution](https://github.com/nijepa/testing-practice)
 </details>
 
