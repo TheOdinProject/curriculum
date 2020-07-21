@@ -4033,10 +4033,13 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Enrica's Solution (Easy)](https://github.com/andrea-enrica/google-homepage) - [View in Browser](https://andrea-enrica.github.io/google-homepage/)
 * [ApeironThanatos's Solution (Easy)](https://github.com/ApeironThanatos/google-homepage) - [View in Browser](https://apeironthanatos.github.io/google-homepage/)
 * [Daniel Lam's Solution (Easy)](https://daniellam98.github.io/google-homepage/) - [View in Browser](https://daniellam98.github.io/google-homepage/)
+* [Wulfenn's Solution (Easy)](https://github.com/wulfenn/google-homepage/) - [View in Browser](https://wulfenn.github.io/google-homepage/)
+* [Wulfenn's Solution (Hard)](https://github.com/wulfenn/google-results-page/) - [View in Browser](https://wulfenn.github.io/google-results-page/)
 * [Harry Thomson's Solution (Easy)](https://github.com/harrythomson1/google-homepage)
 * [Trina McLeary's Solution(Easy)](https://github.com/Trinadactyl/google-homepage) - [View in Browser](https://trinadactyl.github.io/google-homepage/)
 * [Ivo Bul's Solution (Easy)](https://github.com/ivobul/theodinproject-google-homepage) - [View in Browser](https://theodinproject-google-homepage.vercel.app/) 
 * [Sedat's Solution (Easy)](https://github.com/sedatkoc/google-homepage) - [View in Browser](https://sedatkoc.github.io/google-homepage/index.html)
+* [Lucija's's Solution (Easy)](https://github.com/India12/google-homepage) - [View in Browser](https://india12.github.io/google-homepage/)
 * [AlmirBunjaku's Solution (Easy)](https://github.com/AlmirBunjaku/google-homepage) - [View in Browser](https://AlmirBunjaku.github.io/google-homepage/index.html)
 * [AlmirBunjaku's Solution (Difficult)](https://github.com/AlmirBunjaku/google-results) - [View in Browser](https://AlmirBunjaku.github.io/google-results/index.html)
 </details>
