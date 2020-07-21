@@ -4030,14 +4030,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Enrica's Solution (Easy)](https://github.com/andrea-enrica/google-homepage)
 * [ApeironThanatos's Solution (Easy)](https://github.com/ApeironThanatos/google-homepage) - [View in Browser](https://apeironthanatos.github.io/google-homepage/)
 * [Daniel Lam's Solution (Easy)](https://daniellam98.github.io/google-homepage/) - [View in Browser](https://daniellam98.github.io/google-homepage/)
-
-Please add both my solutions,
-
-[Wulfenn's Solution (Easy)](https://github.com/wulfenn/google-homepage/) - [View in Browser](https://wulfenn.github.io/google-homepage/)
-[Wulfenn's Solution (Hard)](https://github.com/wulfenn/google-results-page/) - [View in Browser](https://wulfenn.github.io/google-results-page/)
-
-
-
+* [Wulfenn's Solution (Easy)](https://github.com/wulfenn/google-homepage/) - [View in Browser](https://wulfenn.github.io/google-homepage/)
+* [Wulfenn's Solution (Hard)](https://github.com/wulfenn/google-results-page/) - [View in Browser](https://wulfenn.github.io/google-results-page/)
 </details>
 
 
