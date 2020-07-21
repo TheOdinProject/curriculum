@@ -4044,6 +4044,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [AlmirBunjaku's Solution (Difficult)](https://github.com/AlmirBunjaku/google-results) - [View in Browser](https://AlmirBunjaku.github.io/google-results/index.html)
 * [David's Solution (Difficult)][https://github.com/daveguz97/google] - [View in Browser](https://daveguz97.github.io/google/)
 * [The20thDuck's Solution (Easy)](https://github.com/The20thDuck/google-homepage) - [View in Browser](https://the20thduck.github.io/google-homepage/)
+* [Shaka's Solution (Easy)](https://shaka-w.github.io/google-homepage/) - [View in Browser](https://shaka-w.github.io/google-homepage/)
 </details>
 
 
