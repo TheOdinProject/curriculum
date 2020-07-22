@@ -19,6 +19,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [vonhoro's React Solution](https://github.com/vonhoro/Weather-forecast) - [View in Browser](https://vonhoro.github.io/Weather-forecast/)
+* [Sher's React Solution](https://github.com/sher-s7/react-weather-app) - [View in Browser](https://sher-s7.github.io/react-weather-app/)
+* [guyroberts21's Solution](https://github.com/guyroberts21/weather-app) - [View in Browser](https://guyroberts21.github.io/weather-app/)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/weather-angular) - [View in Browser](https://jsalvadorpp.github.io/weather-angular/)
 * [Amdrija's Solution](https://github.com/Amdrija/weather-app/tree/master) - [View in Browser](https://amdrija.github.io/weather-app/)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/weather-app) - [View in Browser](https://andrsrz.github.io/weather-app/)
 * [Ylli's solution](https://github.com/yllabazi/weather-app) - [View in Browser](https://yllabazi.github.io/weather-app/)
@@ -101,4 +105,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Joe Thompson's Solution](https://github.com/jlthompso/weather) - [View in Browser](https://jlthompso.github.io/weather/)
 * [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/weather-app) - [View in Browser](https://ozansozuozgit.github.io/weather-app/)
 * [Ricardo's Solution](https://github.com/ricardo-gonzalez-villegas/weather-react-app/tree/master) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/weather-react-app/)
+* [Tim Kelly's Solution](https://github.com/timkellytk/project-weather-app) - [View in Browser](https://timkellytk.github.io/project-weather-app/)
+* [Nijepa's Solution](https://github.com/nijepa/weather-app) - [View in Browser](https://nijepa.github.io/weather-app/)
+* [khabiirk's Solution](https://github.com/khabiirk/Weather) - [View in Browser](https://khabiirk.github.io/Weather/)
 </details>
