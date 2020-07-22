@@ -26,7 +26,7 @@ By the end of this lesson, you should be able to do the following:
 ### Understand the Problem
 The first step to solving a problem is understanding exactly what the problem is. If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution.
 
-To gain clarity and understand the problem, write it down on paper, reword it in plain english until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain english, you understand it.
+To gain clarity and understanding of the problem, write it down on paper, reword it in plain english until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain english, you understand it.
 
 ### Plan
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
@@ -68,11 +68,11 @@ In short, break the big problem down and solve each of the subproblems until you
 To demonstrate this workflow in action lets solve a common programming exercise, [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
 
 #### Understanding The Problem
-> Write a program that takes a user's input and prints the numbers from one to the number the user inputed. But for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+> Write a program that takes a user's input and prints the numbers from one to the number the user inputed. But for multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
-Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
+Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both three and five without a remainder print `FizzBuzz`.
 
 #### Plan
 Does your program have an interface? What will it look like?
@@ -82,7 +82,7 @@ What inputs will your program have? Will the user enter data or will you get inp
 The user will enter a number from the command line.
 
 What's the desired output?
-The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output "Fizz", each number that is divisible by 5 will output "Buzz" and each number that is divisible by both 3 and 5 will output "FizzBuzz".
+The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
 Given your inputs, what are the steps necessary to return the desired output?
 The algorithm in pseudo code for this problem:
@@ -140,7 +140,7 @@ Please enter the number you would like to FizzBuzz up to: 10
 10
 ~~~
 
-With that working, lets move on to the next problem: If the current number is divisible by 3 then print "Fizz".
+With that working, lets move on to the next problem: If the current number is divisible by 3 then print `Fizz`.
 
 ~~~ruby
 print "Please enter the number you would like to FizzBuzz up to: "
@@ -173,7 +173,7 @@ Fizz
 10
 ~~~
 
-The program is starting to take shape, the final few subproblems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print "Buzz".
+The program is starting to take shape, the final few subproblems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print `Buzz`.
 
 ~~~ruby
 print "Please enter the number you would like to FizzBuzz up to: "
@@ -206,7 +206,7 @@ Fizz
 Buzz
 ~~~
 
-We have one more subproblem to solve to complete the program: If the current number is divisible by 3 and 5 then print "FizzBuzz".
+We have one more subproblem to solve to complete the program: If the current number is divisible by 3 and 5 then print `FizzBuzz`.
 
 ~~~ ruby
 print "Please enter the number you would like to FizzBuzz up to: "
@@ -225,7 +225,7 @@ maximum_number = gets.chomp.to_i
 end
 ~~~
 
-We've had to move the conditionals around a little to get it to work. The first condition now checks if the `current_number` is divisible by 3 and 5 instead of checking if the current number is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if current_number % 3 == 0` so when the `current_number` was divisible by 3 it would print "Fizz" and then move onto the next number in the iteration, even if the `current_number` was divisible by 5 as well.
+We've had to move the conditionals around a little to get it to work. The first condition now checks if the `current_number` is divisible by 3 and 5 instead of checking if the current number is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if current_number % 3 == 0` so when the `current_number` was divisible by 3 it would print `Fizz` and then move onto the next number in the iteration, even if the `current_number` was divisible by 5 as well.
 
 With the condition `if current_number % 3 == 0 && current_number % 5 == 0` coming first, we check that the current number is divisible by both 3 and 5 before moving on to check if it is divisible by 3 or 5 individually in the `elsif` conditions.
 
