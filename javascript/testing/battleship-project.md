@@ -42,7 +42,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Juan Oxmar's Solution](https://juanoxmar.github.io/battleship/) - [View in Browser](https://github.com/juanoxmar/battleship)
+- [Juan Oxmar's Solution](https://github.com/juanoxmar/battleship) - [View in Browser](https://juanoxmar.github.io/battleship/)
 - [hu-ng's Solution](https://github.com/hu-ng/battleship) - [View in Browser](https://hu-ng.github.io/battleship/)
 - [Jdonahue135's Solution](https://github.com/jdonahue135/battleship) - [View in Browser](https://jdonahue135.github.io/battleship/)
 - [Kevin Vuong's Solution](https://github.com/fffear/battleship) - [View in Browser](https://fffear.github.io/battleship/)
