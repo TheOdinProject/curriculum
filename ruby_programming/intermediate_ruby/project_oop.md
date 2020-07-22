@@ -429,6 +429,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/mastermind.rb) - [View in repl.it ](https://mastermind.gogvale.repl.run/)
 * [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/7_mastermind.rb) - [View in repl.it](https://repl.it/@Risanto/mastermind#main.rb)
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/mastermind)
 * [Coding Shawn's Solution (Computer has 68% win rate over 100000 games)](https://github.com/CodingShawn/TOP-Ruby-Mastermind)
