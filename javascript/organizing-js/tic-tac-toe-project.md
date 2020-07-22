@@ -253,4 +253,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [liampc's Solution](https://github.com/liampc/ticTacToe) - [View in Browser](https://liampc.github.io/ticTacToe/)
 - [kenwilde's Solution](https://github.com/kenwilde1/tic-tac-toe) - [View in Browser](https://kenwilde1.github.io/tic-tac-toe/)
 - [Victor Orlunda's Solution](https://github.com/dev-opus/tic-tac-toe) - [View in Browser](https://dev-opus.github.io/tic-tac-toe)
+- [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/Tic-Tac-Toe) - [View in Browser](https://playingongithub.github.io/Tic-Tac-Toe/)
 </details>
