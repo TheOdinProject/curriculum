@@ -824,4 +824,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kapaha's Solution](https://github.com/kapaha/calculator) - [View in Browser](https://kapaha.github.io/calculator/)
 - [Christos's Solution](https://github.com/ChristosRaptis/Calculator) - [View in Browser](https://christosraptis.github.io/Calculator/)
 - [trungxyz's Solution](https://github.com/trungxyz/calculator) - [View in Browser](https://trungxyz.github.io/calculator/)
+- [skwiryt's Solution](https://github.com/skwiryt/calculator) - [View in Browser](https://skwiryt.github.io/calculator/)
 </details>
