@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this list
+* [slowbeeps's Solution (Easy)](https://github.com/slowbeeps/google-homepage/) - [View in Browser](https://slowbeeps.github.io/google-homepage/)
 * [Mit's Solution (Easy)](https://github.com/Mit-Patel7/google-homepage) - [View in Browser](https://mit-patel7.github.io/google-homepage/)
 * [Soham's Solution (Easy)](https://github.com/soham1001myG/google-homepage/) - [View in Browser](https://soham1001myg.github.io/google-homepage/)
 * [Realsss' Solution (Easy)](https://github.com/Realsss/google-homepage) - [View in Browser](https://realsss.github.io/google-homepage/)
