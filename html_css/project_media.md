@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Maximiliano Bidegain's Solution](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/html-and-css/embedding-images-and-video) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [mrdiegodev_ Solution](https://github.com/dhna32/Project--Embedding-Images-and-Video) - [View in Browser](https://dhna32.github.io/Project--Embedding-Images-and-Video/)
 * [descholar's Solution](https://github.com/descholar-ceo/youtube-player-page) - [View in Browser](https://descholar-ceo.github.io/youtube-player-page/)
 * [Othesius's Solution](https://github.com/othesius-exe/mocktube) - [View in Browser](https://othesius-exe.github.io/mocktube/)
