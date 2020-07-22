@@ -45,12 +45,12 @@ Pseudo code is writing out the logic for your program in natural language instea
 
 Here's an example of what the pseudo code for a simple program that prints all numbers up to a inputted number might look like:
 
-```
+~~~
 When the user inputs a number
 Initialize a counter variable and set its value to zero
 While counter is smaller than user inputted number
 Print the value of the counter variable
-```
+~~~
 
 This is a very simple program to demonstrate how pseudo code looks, there will be more examples of pseudo code included in the assignments.
 
@@ -87,14 +87,14 @@ The desired output is a list of numbers from 1 to the number the user entered. B
 Given your inputs, what are the steps necessary to return the desired output?
 The algorithm in pseudo code for this problem:
 
-```
+~~~
 When a user inputs a number
 Loop from 1 to the entered number
 If the current number is divisible by 3 then print "Fizz"
 If the current number is divisible by 5 then print "Buzz"
 If the current number is divisible by 3 and 5 then print "FizzBuzz"
 Otherwise print the current number
-```
+~~~
 
 #### Divide and Conquer (Implement)
 As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
