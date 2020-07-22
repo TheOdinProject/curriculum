@@ -39,16 +39,17 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
     6. Balance the tree by calling `#rebalance`
     7. Confirm that the tree is balanced by calling `#balanced?`
     8. Print out all elements in level, pre, post, and in order
-
-  **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
-    ~~~ruby
-    def pretty_print(node = root, prefix="", is_left = true)
-      pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right 
-      puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
-      pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
-    end
-    ~~~
 </div>
+
+**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
+
+~~~ruby
+def pretty_print(node = root, prefix="", is_left = true)
+  pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right
+  puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
+  pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
+end
+~~~
 
 ### Student Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for details on how.
@@ -57,6 +58,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
+* [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/bst.rb)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/binary-search-tree)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Binary-Search-Trees)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Binary_Search_Trees)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/binary_search_tree)
@@ -65,7 +71,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Darren's solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/binary_search_tree)
 * [irlgabriel's solution](https://github.com/irlgabriel/the-odin-project/tree/master/tree)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/binary_search_tree)
-* [threeaces' Solution](https://github.com/threeaces/binary_search_tree_ruby_TOP)  
+* [threeaces' Solution](https://github.com/threeaces/binary_search_tree_ruby_TOP)
 * [andrewjh271's Solution](https://github.com/andrewjh271/binary_search_tree)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Binary-Search-Tree)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/binary-search-trees)
@@ -252,6 +258,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JvPelai's Solution](https://github.com/JvPelai/binary-search-trees)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
+* [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -283,7 +290,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 ~~~bash
   > knight_moves([3,3],[4,3])
-  => You made it in 3 moves!  Heres your path:
+  => You made it in 3 moves!  Here's your path:
     [3,3]
     [4,5]
     [2,4]
@@ -298,12 +305,19 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron's Solution](https://github.com/Aaron-McD/knight-travails)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Knights_Travails)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/knights-travails)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/knight_travails)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/knights_travails)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/knight_travails.rb)
+* [Aaron Contreras's Solution](https://https://github.com/aaron-contreras/knights_travails)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Knight-Travails)
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/knight_moves.rb)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Knights-Travails)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/knight_travails)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/knights_travails)
-* [threeaces' Solution](https://github.com/threeaces/knights_travails_ruby/tree/master/knights_travails)  
+* [threeaces' Solution](https://github.com/threeaces/knights_travails_ruby/tree/master/knights_travails)
 * [Sam Eff's Solution](https://github.com/SamEff/knights_travails)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/tree/master/knight_travail)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/tree/master/knight-moves)
@@ -485,5 +499,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/knight.rb)
 * [Brent's Solution](https://github.com/brentcam250/knight_moves)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
+* [msespos's Solution](https://github.com/msespos/knights-travails)
 
 </details>
