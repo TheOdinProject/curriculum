@@ -1522,4 +1522,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mangakiko's Solution](https://github.com/magakiko/rock-paper-scissors)
 - [alxmkh's Solution](https://github.com/alxmkh/rock_paper_scissors) - [View in Browser](https://alxmkh.github.io/rock_paper_scissors/)
 - [Peuchen's Solution](https://github.com/Peuchen/rock-paper-scissors)
+- [CulinaryTracker's Solution](https://github.com/Culinarytracker/The-Odin-Project-Rock-Paper-Scissors)
 </details>
