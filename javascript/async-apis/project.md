@@ -19,6 +19,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Carl D'Oleo-Lundgren's Vue Solution](https://github.com/carldoleolundgren/weather-app) - [View in Browser](https://carldoleolundgren.github.io/weather-app/)
 * [Ideopunk's React Solution](https://github.com/Ideopunk/weather-haiku) - [View in Browser](https://ideopunk.github.io/weather-haiku/)
 * [vonhoro's React Solution](https://github.com/vonhoro/Weather-forecast) - [View in Browser](https://vonhoro.github.io/Weather-forecast/)
 * [Sher's React Solution](https://github.com/sher-s7/react-weather-app) - [View in Browser](https://sher-s7.github.io/react-weather-app/)
