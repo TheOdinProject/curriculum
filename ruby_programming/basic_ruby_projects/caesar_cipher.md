@@ -620,4 +620,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-caesar/blob/master/caesar.rb)
 * [automatyzowany's Solution](https://github.com/automatyzowany/rubyexercises/blob/master/basic/caesar_cipher.rb)
 * [DM-Murphy's Solution](https://github.com/dm-murphy/basic-ruby-projects/tree/master/caesar-cipher)
+* [sforber's Solution](https://github.com/sforber/ruby-caesar-cipher)
 </details>
