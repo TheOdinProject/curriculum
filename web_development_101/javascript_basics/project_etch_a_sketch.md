@@ -1174,4 +1174,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Nmukespence Solution](https://github.com/nmukespence/etchasketch) - [View in Browser](https://nmukespence.github.io/etchasketch/)
 * [Bones81's Solution](https://github.com/Bones81/Etch-a-Sketch) - [View in Browser](https://Bones81.github.io/Etch-a-Sketch/)
 * [Sal's Solution](https://github.com/Sal-theSadmanShark/etch_a_sketch) - [View in Browser](https://sal-thesadmanshark.github.io/etch_a_sketch/)
+* [Maciej's Solution](https://github.com/MaciejWojtasiak/etch-a-sketch) - [View in Browser](https://maciejwojtasiak.github.io/etch-a-sketch/)
 </details>
