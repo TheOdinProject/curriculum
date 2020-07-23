@@ -826,4 +826,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [trungxyz's Solution](https://github.com/trungxyz/calculator) - [View in Browser](https://trungxyz.github.io/calculator/)
 - [Peuchen's Solution](https://github.com/Peuchen/calculator) - [View in Browser](https://peuchen.github.io/calculator/)
 - [skwiryt's Solution](https://github.com/skwiryt/calculator) - [View in Browser](https://skwiryt.github.io/calculator/)
+- [Sacchan9's Solution](https://github.com/sacchan9/calculator) - [View in Browser](https://sacchan9.github.io/calculator/)
+
 </details>
