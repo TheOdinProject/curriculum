@@ -1,5 +1,7 @@
 # Terms of Use
 
+This document should be read in conjunction with Thinkful's [privacy policy](https://www.thinkful.com/privacy-policy/) and [terms of service](https://www.thinkful.com/terms-of-service/).
+
 ### Preamble
 
 Welcome to The Odin Project, a service provided by The Odin Project (“The Odin Project”, "The Project", "Odin Project",  “we” “our”, or “us”).
