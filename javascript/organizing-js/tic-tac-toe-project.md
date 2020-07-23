@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Shikhar's Solution](https://github.com/shikhar-sharma1703/Web-dev/tree/master/tic-tac-toe) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/tic-tac-toe/)
 - [stefank-29's Solution w/ Minimax AI](https://github.com/stefank-29/Tic-Tac-Toe) - [View in Browser](https://stefank-29.github.io/Tic-Tac-Toe/)
 - [miknick's Solution](https://github.com/miknick/Tic-Tac-Toe) - [View in Browser](https://miknick.github.io/Tic-Tac-Toe)
 - [Olamide Olaniyan's Solution](https://github.com/cyber-mat/tictactoe_js) - [View in Browser](https://cyber-mat.github.io/tictactoe_js/)
