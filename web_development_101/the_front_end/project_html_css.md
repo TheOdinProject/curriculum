@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Tam Tran's Solution (Easy)](https://github.com/gitdxb/google-homepage) - [View in Browser](https://gitdxb.github.io/google-homepage/)
 * [geopinto's Solution](https://github.com/geopinto/google-homepage/) - [View in Browser](https://geopinto.github.io/google-homepage/)
 * [Bojan's Solution (Easy)](https://github.com/vujke/google-homepage) - [View in Browser](https://vujke.github.io/google-homepage)
 * [slowbeeps's Solution (Easy)](https://github.com/slowbeeps/google-homepage/) - [View in Browser](https://slowbeeps.github.io/google-homepage/)
