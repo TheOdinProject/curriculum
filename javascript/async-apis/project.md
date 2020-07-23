@@ -109,4 +109,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Tim Kelly's Solution](https://github.com/timkellytk/project-weather-app) - [View in Browser](https://timkellytk.github.io/project-weather-app/)
 * [Nijepa's Solution](https://github.com/nijepa/weather-app) - [View in Browser](https://nijepa.github.io/weather-app/)
 * [khabiirk's Solution](https://github.com/khabiirk/Weather) - [View in Browser](https://khabiirk.github.io/Weather/)
+* [jooji-san's Solution](https://github.com/jooji-san/weather-app) - [View in Browser](https://jooji-san.github.io/weather-app/)
 </details>
