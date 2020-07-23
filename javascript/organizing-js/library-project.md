@@ -369,4 +369,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Jamesredux's Solution](https://github.com/Jamesredux/library-app) - [View in Browser](https://jamesredux.github.io/library-app/)
 - [joankii's Solution (w/firebase)](https://github.com/joan-kii/TOP-library) - [View in Browser](https://joan-kii.github.io/TOP-library/)
 - [Martin Echenique's Solution](https://github.com/MartinEchenique/book-library) - [View in Browser](https://martinechenique.github.io/book-library/)
+- [Timework's Solution (w/ Local Storage)](https://github.com/Timework/library) - [View in Browser](https://timework.github.io/library/)
 </details>
