@@ -167,7 +167,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Paul's Solution](https://github.com/ppayne12/library) - [View in Browser](https://ppayne12.github.io/library/)
 - [Lyle Aigbedion's Solution](https://github.com/lyleaigbedion/library) - [View in Browser](https://lyleaigbedion.github.io/library/)
 - [James's Solution](https://github.com/ericksen-github/Library) - [View in Browser](https://ericksen-github.github.io/Library/)
-- [Justinkar's Solution](https://github.com/justinkar/library) - [View in Browser](https://justinkar.github.io/library/)
 - [Simon's Solution](https://github.com/Sim-frpt/basic-library) - [View in Browser](https://sim-frpt.github.io/basic-library/)
 - [nearmint's Solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/BookShelf) - [View in Browser](https://zyusuf10.github.io/BookShelf/index.html)

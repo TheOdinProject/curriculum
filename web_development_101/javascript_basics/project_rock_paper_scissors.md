@@ -451,7 +451,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/rockPaperScissors) - [View in Browser](https://zyusuf10.github.io/rockPaperScissors/)
 - [Richard's Solution](https://github.com/RichardDenton/rock-paper-scissors)
 - [nbarker's Solution](https://github.com/nibarker/rockPaperScissors/) - [View in Browser](https://nibarker.github.io/rockPaperScissors/)
-- [justinkar's Solution](https://github.com/justinkar/rock_paper_scissors) - [View in Browser](https://justinkar.github.io/rock_paper_scissors/)
 - [Armo's Solution](https://github.com/Armoilanea/rock-paper-scissors) - [View in Browser](https://github.io/rock-paper-scissors)
 - [bkonicek's Solution](https://gitlab.com/bkonicek/rock-paper-scissors-js)
 - [ozymandias' Solution](https://github.com/orzymandias/rock-paper-scissors)

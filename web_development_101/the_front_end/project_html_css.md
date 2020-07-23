@@ -3368,7 +3368,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Hazelstream's Solution (Easy)](https://hazelstream.github.io/google_homepage/)
 * [Streetset's Solution (Easy)](https://github.com/madaja/google-homepage) - [View in Browser](https://madaja.github.io/google-homepage/)
 * [Brandon-R. Austin's Solution (Both)](https://github.com/brandonricharda/Google-Homepage-Project) - [View in Browser](https://brandonricharda.github.io/Google-Homepage-Project/)
-* [Justinkar's Solution (Easy)](https://github.com/Justinkar/google-homepage) - [View in Browser](https://github.com/justinkar/google-homepage/)
 * [WitnessMyAxe's Solution (Easy)](https://github.com/witnessmyaxe/google-homepage) - [View in Browser](https://witnessmyaxe.github.io/google-homepage/)
 * [Joe Arndt's Solution (Easy)](https://github.com/jmarndt/google-homepage) - [View in Browser](https://jmarndt.github.io/google-homepage/)
 * [erdich's Solution (Easy)](https://github.com/erdich/google-homepage) - [View in Browser](https://erdich.github.io/google-homepage/)
