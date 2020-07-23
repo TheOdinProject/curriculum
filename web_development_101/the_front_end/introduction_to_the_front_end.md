@@ -2,7 +2,7 @@
 
 The "front-end languages" live in the browser.  After you type an address into the address bar at the top and hit the enter/return key, your browser will receive at least an HTML file from the web server.  That file will likely tell the browser to request a CSS file and a JavaScript file as well (probably many more than one, but we'll keep it simple).  
 
-Each of these languages performs a separate but very important function and they work harmoniously together to determine how the web page is STRUCTURED (HTML), how it LOOKS (CSS), and how it FUNCTIONS (JavaScript).  And keep in mind that your *browser* handles figuring out how to make these files into a functioning web page (not the server).
+Each of these languages performs a separate but very important function and they work in harmony together to determine how the web page is STRUCTURED (HTML), how it LOOKS (CSS), and how it FUNCTIONS (JavaScript).  And keep in mind that your *browser* handles figuring out how to make these files into a functioning web page (not the server).
 
 Front-end web development is NOT design (you won't be playing around in Photoshop or anything), but a front-end developer *does* apply the work of designers to the web page by translating their well-designed layouts into real code.  The front-end developer stands between the designer on one end and the back-end developer on the other, translating the design into code and plugging the data from the back-end developer into the right spots.  He or she must also handle all the possible interactions that the user may need to make with the page.
 
