@@ -246,6 +246,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/private-events)
 - [Timework's Solution](https://github.com/Timework/private-events)
 - [Bendee's Soultion](https://github.com/bendee48/rails-private-events) - [View in Browser](https://aqueous-gorge-20348.herokuapp.com/)
+- [Robert Suazo's Soultion](https://github.com/rsuazo/private-events) - [View in Browser](https://private-events-suazo.herokuapp.com/)
 </details>
 
 ### Additional Resources
