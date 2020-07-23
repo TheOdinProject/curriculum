@@ -259,6 +259,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
+* [Nina's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/binary_search_tree.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -501,5 +502,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
 * [msespos's Solution](https://github.com/msespos/knights-travails)
+* [posmes's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/knights_travails.rb)
 
 </details>
