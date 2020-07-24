@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [panda_rojus's solution](https://github.com/mricanho/calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/mricanho/calculator/blob/master/calculator/index.html)
+- [hd505495's Solution](https://github.com/hd505495/calculator) - [View in Browser](https://hd505495.github.io/calculator/)
 - [Anton's Solution](https://github.com/anton-a-a/calculator) - [View in Browser](https://anton-a-a.github.io/calculator/)
 - [Rahim Ratnani's Solution](https://github.com/rahimratnani/calculator) - [View in Browser](https://rahimratnani.github.io/calculator/)
 - [Aaron Hong's Solution](https://github.com/aaronjghong/calculator) - [View in Browser](https://aaronjghong.github.io/calculator/)
@@ -832,4 +834,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sacchan9's Solution](https://github.com/sacchan9/calculator) - [View in Browser](https://sacchan9.github.io/calculator/)
 - [vongk97's Solution](https://github.com/vongk97/calculator) - [View in Browser](https://vongk97.github.io/calculator/)
 - [sforber's Solution](https://github.com/sforber/calculator) - [View in Browser](https://sforber.github.io/calculator/)
+- [juggler39's Solution](https://github.com/juggler39/calculator) - [View in Browser](https://juggler39.github.io/calculator/)
 </details>
