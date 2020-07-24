@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [mrdiegodev's Solution](https://github.com/dhna32/HTML-Form) - [View in Browser](https://dhna32.github.io/HTML-Form/)
 * [Ivo Bul's Solution](https://github.com/ivobul/theodinproject-html-forms) - [View in Browser](https://theodinproject-html-forms.vercel.app/)
 * [descholar's Solution](https://github.com/descholar-ceo/signup-page) - [View in Browser](https://peaceful-mcnulty-9e3703.netlify.app/)
 * [Alex Zambrano's Solution](https://github.com/Alexoid1/Html-forms) - [View in Browser](https://alexoid1.github.io/Html-forms/)

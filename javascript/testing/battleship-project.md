@@ -42,6 +42,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Luky's Solution](https://github.com/lcyne/battleship) - [View in Browser](https://lcyne.github.io/battleship/)
 - [Juan Oxmar's Solution](https://github.com/juanoxmar/battleship) - [View in Browser](https://juanoxmar.github.io/battleship/)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/battleship) - [View in Browser](https://andrsrz.github.io/battleship/)
 - [hu-ng's Solution](https://github.com/hu-ng/battleship) - [View in Browser](https://hu-ng.github.io/battleship/)
