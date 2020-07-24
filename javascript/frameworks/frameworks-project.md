@@ -19,6 +19,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Kevin's React Library](https://github.com/Kevlar2222/library) - [View in Browser](https://Kevlar2222.github.io/library/)
+* [ergunirem's React Library](https://github.com/ergunirem/react-library) - [View in Browser](https://ergunirem.github.io/react-library/)
+* [kaliberpoziomka's React Todo List](https://github.com/kaliberpoziomka/todolist-react) - [View in Browser](https://kaliberpoziomka.github.io/todolist-react/)
+* [vonhoro's React Library](https://github.com/vonhoro/Restaurant-with-React) - [View in Browser](https://vonhoro.github.io/Restaurant-with-React/)
 * [Ideopunk's React Library](https://github.com/Ideopunk/react-library) - [View in Browser](https://ideopunk.github.io/react-library/)
 * [Lucio's React Todo List](https://github.com/JCarlosLucio/react-todo-list) - [View in Browser](https://jcarloslucio.github.io/react-todo-list/)
 * [Zayeer's React Todoo](https://github.com/Zayeer/todoos/tree/master) - [View in Browser](https://zayeer.github.io/todoos/)
