@@ -58,6 +58,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/bst.rb)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/binary-search-tree)
@@ -256,6 +257,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JvPelai's Solution](https://github.com/JvPelai/binary-search-trees)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
+* [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -302,6 +304,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Axel Lopez's Solution](https://github.com/lopezaxel/knight_travails)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/knights_travails)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/knight_travails.rb)
 * [Aaron Contreras's Solution](https://https://github.com/aaron-contreras/knights_travails)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Knight-Travails)
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/knight_moves.rb)
@@ -490,5 +495,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/knight.rb)
 * [Brent's Solution](https://github.com/brentcam250/knight_moves)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
 
 </details>
