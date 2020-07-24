@@ -169,8 +169,8 @@ From the Rails Guide:
 ~~~
 
 ~~~erb
-  #app/views/posts/new.html.erb
-  <%= form_with model: @post do |form| %>
+  #app/views/articles/new.html.erb
+  <%= form_with model: @article do |form| %>
     <%= form.text_field :title %>
     <%= f.submit "Create" %>
   <% end %>
