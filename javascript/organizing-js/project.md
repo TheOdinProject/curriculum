@@ -68,7 +68,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [jc's Solution](https://github.com/avazkhan2808/project-todo) - [View in Browser](https://avazkhan2808.github.io/project-todo/)
 * [AJMcDee's Solution](https://github.com/ajmcdee/ToDoApp) - [View in Browser](https://ajmcdee.github.io/ToDoApp)
 * [simonevaglietti's Solution](https://github.com/simonevaglietti/Todo-App) - [View in Browser](https://simonevaglietti.github.io/Todo-App/dist/)
-* [Justinkar's Solution](https://github.com/justinkar/todo-list) - [View in Browser](https://justinkar.github.io/todo-list/)
 * [mjwills-inf's Solution](https://github.com/mjwills-inf/-TOP-todo) - [View in Browser](https://mjwills-inf.github.io/-TOP-todo/)
 * [Edd Sansome's Solution](https://github.com/casualc0der/to-do-two) - [View in Browser](https://casualc0der.github.io/to-do-two/)
 * [Lenny's Solution](https://github.com/Lenn-e/todo-list) - [View in Browser](https://lenn-e.github.io/todo-list/)
