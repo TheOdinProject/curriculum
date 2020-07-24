@@ -254,6 +254,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Ken H's Solution](https://github.com/kholston/re-former)
 * [Christian Páez's Solution](https://github.com/christian1894/re-former-odin-project-rails)
 * [fussykyloren's Solution](https://github.com/fussykyloren/re-former)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/forms)
 </details>
 
 ### Additional Resources

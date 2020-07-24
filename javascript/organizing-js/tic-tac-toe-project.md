@@ -25,6 +25,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Shikhar's Solution](https://github.com/shikhar-sharma1703/Web-dev/tree/master/tic-tac-toe) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/tic-tac-toe/)
+- [stefank-29's Solution w/ Minimax AI](https://github.com/stefank-29/Tic-Tac-Toe) - [View in Browser](https://stefank-29.github.io/Tic-Tac-Toe/)
+- [miknick's Solution](https://github.com/miknick/Tic-Tac-Toe) - [View in Browser](https://miknick.github.io/Tic-Tac-Toe)
+- [Olamide Olaniyan's Solution](https://github.com/cyber-mat/tictactoe_js) - [View in Browser](https://cyber-mat.github.io/tictactoe_js/)
 - [GERRG's Solution](https://github.com/gerrgg/tic-tac-toe) - [View in Browser](https://gerrgg.github.io/tic-tac-toe/)
 - [MiDDiz's Solution](https://github.com/MiDDiz/OdinTicTacToe) - [View in Browser](https://middiz.github.io/OdinTicTacToe/)
 - [Abdel Pérez's Solution](https://github.com/abdelp/Tic-Tac-Toe-JS) - [View in Browser](https://mystifying-leakey-f8a69f.netlify.app)
@@ -249,4 +253,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Dyskgo's Solution](https://github.com/dyskgo/tictactoe) - [View in Browser](https://dyskgo.github.io/tictactoe/)
 - [Danyl Matviyenko’s Solution](https://github.com/DanylMatviyenko/TheOdinProject-TicTacToe-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-TicTacToe-/)
 - [liampc's Solution](https://github.com/liampc/ticTacToe) - [View in Browser](https://liampc.github.io/ticTacToe/)
+- [kenwilde's Solution](https://github.com/kenwilde1/tic-tac-toe) - [View in Browser](https://kenwilde1.github.io/tic-tac-toe/)
+- [Victor Orlunda's Solution](https://github.com/dev-opus/tic-tac-toe) - [View in Browser](https://dev-opus.github.io/tic-tac-toe)
+- [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/Tic-Tac-Toe) - [View in Browser](https://playingongithub.github.io/Tic-Tac-Toe/)
 </details>

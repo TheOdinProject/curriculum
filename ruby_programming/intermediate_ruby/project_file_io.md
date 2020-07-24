@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Servante's Solution](https://github.com/Servante/Odin-Projects/tree/master/hangman)
 * [risanto's Solution](https://github.com/risanto/hangman)
 * [Spark's Solution](https://github.com/Sparking2/hangman)
 * [Clumsyknight's Solution](https://github.com/Clumsynite/ruby-hangman) - [View in Repl.it](https://ruby-hangman-1.clumsynite.repl.run/)
@@ -338,4 +339,6 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [msespos's Solution](https://github.com/msespos/snowman) - [Live version on Repl.it](https://repl.it/@msespos/snowman)
 * [Violet's Solution](https://github.com/violetguos/ruby-practice/tree/master/hangman)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_hangman/blob/master/hangman.rb)
+* [jding9's Solution](https://github.com/Jding9/ruby_hangman)
+* [bhenning83's Solution](https://github.com/bhenning83/hangman)
 </details>

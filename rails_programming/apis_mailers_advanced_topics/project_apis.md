@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/odin_kittens)
 * [leetie's Solution](https://github.com/leetie/api-project)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project-odin-kittens)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-kittens)
@@ -176,6 +177,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Timework's Solution](https://github.com/Timework/odin-kittens)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/odin-kittens)
 * [Bendee's Solution](https://github.com/bendee48/rails-kittens)
+* [Christian Paez's Solution](https://github.com/christian1894/odin-kittens)
 </details>
 
 ### Project 2: Using a Third Party API
@@ -202,6 +204,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/odin_flickr)
 * [leetie's Solution](https://github.com/leetie/flickr-api-2)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_photo_stream_api)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-flickr-api)
@@ -267,6 +270,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/flickr_app) - [View in Browser](https://sleepy-castle-29757.herokuapp.com/)
 * [Timework's Solution](https://github.com/Timework/odin-flickr)
 * [Bendee's Solution](https://github.com/bendee48/rails-photo-feed)
+* [Christian Paez's Solution](https://github.com/christian1894/odin-flickr)
 </details>
 
 ### Additional Resources
