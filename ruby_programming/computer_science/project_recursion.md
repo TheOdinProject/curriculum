@@ -271,6 +271,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Johnny's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/fibs_rec.rb)
 * [msespos's Solution](https://github.com/msespos/fibonacci)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/fibonacci.rb)
+* [bhenning83's Solution](https://github.com/bhenning83/fibonacci/blob/master/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
