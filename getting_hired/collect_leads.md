@@ -26,6 +26,7 @@ Try checking out these links for job boards.  The more technically-focused, the 
 * [Coderwall.com](http://coderwall.com) lets you display your engineering prowess and they can come to you.
 * [Join-Startups](https://underdog.io/) - open startup jobs in a dozen cities
 * [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups
+* [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote
 
 ### On Recruiters
 
