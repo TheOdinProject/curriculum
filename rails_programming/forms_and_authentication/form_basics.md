@@ -153,7 +153,7 @@ You can also check your Network tab in your browser to see the requests in both 
 
 ### Using models with the `form_with` helper
 
-No one wants to remember to specify which URL the form should submit to or write out a whole bunch of `*_tag` methods. Using the `form_with` helper with a model can make things easy and quick.
+More often than not, you'll want your form to act on the attributes of an existing model. Like specifying a title (or whatever other fields are required for your model) of a new news Article.
 
 Just pass `form_with` a model object, and it will make the form submit to the URL for that object, e.g. `@user` will submit to the correct URL for creating a User.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_with` forms!
 
