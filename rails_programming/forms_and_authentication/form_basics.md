@@ -117,8 +117,8 @@ Start by making a form using the `form_with` helper, which takes a block represe
 
 ~~~bash
   <%= form_with(url: "/search", method: "get") do %>
-    <%= label_tag(:q, "Search for:") %>
-    <%= text_field_tag(:q) %>
+    <%= label_tag(:query, "Search for:") %>
+    <%= text_field_tag(:query) %>
     <%= submit_tag("Search") %>
   <% end %>
 ~~~
