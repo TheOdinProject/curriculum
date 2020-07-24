@@ -117,8 +117,8 @@ Start by making a form using the `form_with` helper, which takes a block represe
 
 ~~~bash
   <%= form_with(url: "/search", method: "get") do %>
-    <%= label_tag(:q, "Search for:") %>
-    <%= text_field_tag(:q) %>
+    <%= label_tag(:query, "Search for:") %>
+    <%= text_field_tag(:query) %>
     <%= submit_tag("Search") %>
   <% end %>
 ~~~
@@ -127,8 +127,8 @@ Creates the form:
 
 ~~~html
   <form accept-charset="UTF-8" action="/search" data-remote="true" method="get">
-    <label for="q">Search for:</label>
-    <input id="q" name="q" type="text" />
+    <label for="query">Search for:</label>
+    <input id="query" name="query" type="text" />
     <input name="commit" type="submit" value="Search" data-disable-with="Search" />
   </form>
 ~~~
@@ -139,12 +139,12 @@ There are a few things to take note of when using the `form_with` helper.
 
 1. The ID of the inputs matches the name.
 
-2. The second line ends with `as JS` instead of the usual `as HTML` when you look at your output in your console after submitting a form. By default, all forms using form_with will submit data using an XHR (Ajax) request. To disable this include `local: true` when building your form like this.
+2. The second line ends with `as JS` instead of the usual `as HTML` when you look at your output in your console after submitting a form. By default, all forms using form_with will submit data using an XHR (Ajax) request. This means that a full request cycle doesn't occur and the page doesn't reload when the form is submitted. In order to disable this, just include `local: true` when building your form like this.
 
 ~~~bash
   <%= form_with(url: "/search", method: "get"), local: true do %>
-    <%= label_tag(:q, "Search for:") %>
-    <%= text_field_tag(:q) %>
+    <%= label_tag(:query, "Search for:") %>
+    <%= text_field_tag(:query) %>
     <%= submit_tag("Search") %>
   <% end %>
 ~~~
@@ -153,11 +153,9 @@ You can also check your Network tab in your browser to see the requests in both 
 
 ### Using models with the `form_with` helper
 
-No one wants to remember to specify which URL the form should submit to or write out a whole bunch of `*_tag` methods. Using the `form_with` helper with a model can make things easy and quick.
+More often than not, you'll want your form to act on the attributes of an existing model. Like specifying a title (or whatever other fields are required for your model) of a new news Article.
 
-Just pass `form_with` a model object, and it will make the form submit to the URL for that object, e.g. `@user` will submit to the correct URL for creating a User.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_with` forms!
-
-Basically, `form_with` passes any block it accepts a form object and then makes it available for you to create the form fields based off that object.  It's conventional to call the argument simply `f`.
+Just pass `form_with` a model object, and it will make the form submit to the URL for that object, e.g. `@article` will submit to the correct URL for creating an Article.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_with` forms!
 
 From the Rails Guide:
 
@@ -169,8 +167,8 @@ From the Rails Guide:
 ~~~
 
 ~~~erb
-  #app/views/posts/new.html.erb
-  <%= form_with model: @post do |form| %>
+  #app/views/articles/new.html.erb
+  <%= form_with model: @article do |form| %>
     <%= form.text_field :title %>
     <%= f.submit "Create" %>
   <% end %>
@@ -179,12 +177,12 @@ From the Rails Guide:
 This will produce the following HTML:
 
 ~~~html
-  <form action="/posts" method="post" data-remote="true">
-  <input type="text" name="post[title]">
+  <form action="/articles" method="post" data-remote="true">
+  <input type="text" name="article[title]">
 </form>
 ~~~
 
-The best part about `form_with` is that if you just pass it a model object like `@post` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're editing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
+The best part about `form_with` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're editing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
 
 ### Other form helpers: `form_tag` and `form_for`
 
