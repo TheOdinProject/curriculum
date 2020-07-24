@@ -550,6 +550,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Crak's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/merge_sort.rb)
 * [msespos's Solution](https://github.com/msespos/merge-sort/blob/master/merge_sort.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/merge_sort.rb)
+* [bhenning83's Solution](https://github.com/bhenning83/sort_methods/blob/master/merge_sort.rb)
 </details>
 
 ### Additional Resources
