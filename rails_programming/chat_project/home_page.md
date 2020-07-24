@@ -1,20 +1,26 @@
-A great place to start when learning a big framework is how to serve static pages. The relative simplicity makes it ideal to start to learn the way Rails handles incoming requests from users of our app.
+A great place to start when learning a big framework is how to serve static pages. These are pages which don't generally require any ruby objects to be used to generate the content and are often written only as html only and when a request is made they return that html. The relative simplicity makes it ideal to start to learn the way Rails handles incoming requests from users of our app. It's something easy to reason about because you can see it yourself whenever you use the web. You visit a URL and the html is returned by the server to your browser which then requests any javascript and css files and handles rendering everything on your screen.
 
-We need a place to house our static pages. All web pages live in the app/views directory. To keep our concerns separated we will create a directory in which to house them.
+We need a place to house our static pages. All of our html files live in the app/views directory in a Rails app, view being the V in MVC. To keep our concerns separated we will create a directory in which to house them.
 
 Inside `app/views` create a `static_pages` directory.
 
 In the static_pages directory create our homepage. The file should be called `home.html.erb`.
 
+The erb extension stands for Embedded RuBy and is one way within Ruby to generate any kind of text from a template. In this case html.erb let's us write html code but embed some ruby code directly into the template. When the html is compiled any ruby code is evaluated and the result is put into the html as text. As you'll see as we progress this is very handy for server side rendered pages.
+
+You may wonder why we need to save this file as erb considering it is static and shouldn't require any server side rendering. You may think we should just save the file with an `.html` extension. However as you will learn Ruby provides some great tools to help with creating page links and serving images so we still want the ability to use some Ruby code to help leverage the full power of what Rails can do for us.
+
 How are we going to view this page?
 
-The first point entry point into our application when an http request comes in is our routes file. This file tells Rails where incoming requests should be sent onto. The routes file is a configuration file and so unsurprisingly lives in the `config/` directory. Let's open it up and take a look.
+The first entry point into our application when an http request comes in that we need to actively consider is our routes file. This file tells Rails which Controller incoming requests should be sent onto. The routes file is a configuration file and so unsurprisingly lives in the `config/` directory. Let's open it up and take a look.
 
-#TODO Intro to routes
+The Rails router matches URLS to controller actions and will always send a request to the first matching route. Basic routing isn't tricky but there are a lot of options you can use to ensure your application routes incoming requests properly. Rather than try and cover them all theoretically we'll just cover the applicable parts as we get to them. In your own time it wouldn't hurt to browse the Rails guides on [routing](https://guides.rubyonrails.org/routing.html) just to get a feel for the options available.
 
-As we want the homepage to be the first page users see we can make it our root route.
+When we enter a URL to route to a website it issues a GET request. In our case we want `home.html.erb` to be the default page for our application. The homepage for any website is usually reached at `/`. If you consider `www.theodinproject.com` then `theodinproject` is the domain and any paths from there come after a `/`. For example you can reach our page on tracks by going to `https://www.theodinproject.com/tracks`. Here `/tracks` is the path that the router will try to match.
 
-In the routes.rb file lets add a route for our home page.
+Rails provides a special method to declare where a request to `/` should be routed. Read the documentation for the [root](https://guides.rubyonrails.org/routing.html#using-root) method. We can use this to root anything to `/` to our home page.
+
+Open up the config/routes.rb file and let's add our root route.
 
 ```ruby
 Rails.application.routes.draw do
@@ -22,9 +28,7 @@ Rails.application.routes.draw do
 end
 ```
 
-This tells our Rails app to take any requests to `/` and route them to our home method in a StaticPages controller.
-
-We don't have that controller yet so let's create it now.
+This tells our Rails app to take any requests to `/` and route them to our home method in a StaticPages controller. We don't have that controller yet so let's create it now.
 
 In the terminal type `rails generate controller StaticPages home`
 
@@ -52,3 +56,4 @@ Delete the contents of home.html.erb and add the following
 ```
 
 Refresh your homepage to see the new updated look. We will be adding some features to this as we go including a navbar and login and logout functionality but as things stand let's move on.
+

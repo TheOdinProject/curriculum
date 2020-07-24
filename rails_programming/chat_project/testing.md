@@ -1,5 +1,7 @@
 ### Testing
 
+When it comes to testing you should hopefully have come into contact with RSpec by now when writing your own code and started to appreciate how having an automated test suite can improve the code you write and speed up development by allowing you to build new features confident that any new code you write won't break parts of your old code.
+
 Writing tests gives us the confidence that our application works as intended without having to load up the app and run every possible scenario ourselves which would be time consuming and error prone. Automated tests allow us to develop new features rapidly safe in the knowledge they haven't broken any of our application's functionality.
 
 We will be using the popular Ruby testing library RSpec for our application and we'll be writing tests as we go.

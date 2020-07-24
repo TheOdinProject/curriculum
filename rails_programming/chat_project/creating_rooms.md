@@ -1,227 +1,6 @@
-### Creating Rooms
+## Create a new room.
 
-### Step 1: Creating the model
-
-#### Step 1.1: Creating the model
-
-In the terminal run
-
-```bash
-rails generate model Room name:string:uniq
-```
-
-#### Step 1.2: Migrate the database
-Open up the migration and add `null: false` to the room name. Then save the file and in the terminal run
-
-```bash
-rails db:migrate
-```
-
-Open up the model in app/models/room.rb
-
-Add validations:
-
-```ruby
-class Room < ApplicationRecord
-  validates :name, presence: true, uniqueness: true, length: { in: 4..20 }
-end
-```
-
-### Step 2: Creating the controller
-
-#### Step 2.1: Create the controller
-
-In the terminal run
-
-```bash
-rails generate controller Rooms
-```
-
-#### Step 2.2: Add the index method to the Rooms Controller
-
-Open up the app/controller/rooms.rb file and add the index action
-
-```ruby
-class RoomsController < ApplicationController
-  def index
-  end
-end
-```
-
-#### Step 2.3: Adding the routes
-
-Open up the config/routes.rb file and add
-
-```ruby
-resources :rooms
-```
-
-### Step 3: Creating the index view
-
-Let us first consider how we want our Rooms to look.
-
-#TODO add image of rooms index page to show intended look
-
-We need a left sidebar which provides a link to all of the rooms and a larger display area. As this is an index page we aren't showing any messages but we can fill it with .... 
-
-#TODO decide what to fill rooms index page with
-
-#### Step 3.1: Create the view file
-
-In the app/views/rooms directory create a file called `index.html.erb`
-
-#### Step 3.2: Create the index page template
-
-The first step is to create the template for our sidebar and main page areas. We installed Bulma earlier and this is a good chance to use the stylings they provide to keep it as simple as possible. Bulma uses a (column)[https://bulma.io/documentation/columns/] template system which we can use to break up the page into column sections of varying sizes. We want to avoid getting dragged into the details too much but you can read through the columns pages to get a feel for the possibilities. A sidebar about a fifth of the page seems about right so let's start with that. We will also use the section and container bulma stylings.
-
-```html
-<section class="section">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-one-fifth">
-      </div>
-      <div class="column">
-      </div>
-    </div>
-  </div>
-</section>
-```
-
-We can add the code to display a list of rooms inside the first column that takes up a fifth of the page.
-
-To be sure our code is displaying properly let's add a title to the left column which will simply state "Room List". Inside the first column we can add the following code
-
-```html
-<h3 class="subtitle">Room List</h3>
-```
-
-Spin up a rails server and navigate in your browser to `localhost:3000/rooms` and you should see the subtitle on the left.
-
-#### Step 3.3: Get a list of rooms for the index action
-
-In the rooms controller inside the index action we need to load in all of the rooms.
-
-#TODO explain about the all method
-
-```ruby
-def index
-  @rooms = Room.all
-end
-```
-
-#### Step 3.4: List the rooms in the view
-
-We need to list all of the rooms in the view. If there are no rooms created yet we want to tell the user they need to create a room. To do this we need to check if the `@rooms` variable is empty or not. Rails provides a helper method for this. (present?)[https://api.rubyonrails.org/classes/Object.html#method-i-present-3F] will confirm if an array or array like object contains any items. Have a look at the source code and see how simple the method actually is. Rails provides a lot of handy additional methods to make life easier for us. We can use present? to display the rooms if they are available or a message if none have been created yet.
-
-This is a good place to start. Writing a small amount of code to get started and then filling in the details as we go.
-
-Open up app/views/index.html.erb and below your h3 tag add the following.
-
-```html
-<% if @rooms.present? %>
-  <-- Here is where we will write the code to display our rooms -->
-<% else %>
-  <div class="notification is-info">
-    There are no rooms
-  </div>
-<% end %>
-```
-
-Before moving on make sure you understand what is happening in our code. There is nothing special here, it's just Ruby code so you should have a good grasp of it. We first check if the `@rooms` variable passed from our Rooms controller has anything in it using `present?`. As `@rooms` is an array like object, `present?` will return true if it has any rooms in it and the code inside the if statement will run. If `@rooms` is empty then the else part of our code will run and we can display a message in an html div that there are no rooms.
-
-#### Reach for the Each
-
-As the `@rooms` variable from our controller gives us an array like object to work with we can use all the array methods that both Ruby and Rails provide. When we want to iterate something in Ruby we reach for the each method.
-
-Inside the `if` statement we can add the code to iterate each room. The each method in Ruby returns the object that each was called on after it was iterated. This means if you use the erb tags with `=` it will return the calling object and display it in on our website. If you ever are using `each` in erb code and see an array or activerecord object displayed on your website that is probably the culprit.
-
-As we iterate each room in the `@rooms` variable we want to provide a link that the user can click on to show the room. We'll deal with the link in a moment but let's first write the code to iterate our rooms. Again, this is just standard Ruby code. Nothing magical about it
-
-HTML provides us with the list element for such a task and since our list has no particular order we'll use the `<ul>` tag
-
-When displaying the rooms we want to present them nicely. Bulma has a (menu)[https://bulma.io/documentation/components/menu/] item that can jazz up our lists to look nice
-
-```html
-<% if @rooms.present? %>
-  <aside class="menu">
-    <ul class="menu-list">
-      <% @rooms.each do |room| %>
-        <li>
-          <-- Here we will add the link for each room -->
-        </li>
-      <% end %>
-    </ul>
-  </aside>
-<% else %>
-  <div>
-    There are no rooms
-  </div>
-<% end %>
-```
-
-To add a link to our page we can't write plain html. To understand why we need to consider how you would write the path to show each room. Run `rails routes` in the terminal and look at the path we need to provide for editing a room. `/rooms/:id(.:format)`. If the id of your room was 1. Then you would need a path of `/rooms/1` to load the page to show that room. We couldn't know the id or the name of the room using only html so we need to use some ruby in our html to create the link.
-
-Let us first consider how we would write this route in plain html. A link in html is the `<a>` tag and we provide the link using `href` so our link would be
-
-```html
-<a href="/rooms/1">Name of Room</a>
-```
-
-The 1 href path represents the id of the room and between the `<a>` tags where I wrote `Name of Room` would be, funnily enough, the name of the room. We will need to use some ruby to place those values.
-
-Consider the following part of our view
-
-```ruby
-<% @rooms.each do |room| %>
-  <-- Here we will add the link for each room -->
-<% end %>
-```
-
-Inside our `do; end` block we have `room` available for each object in `@rooms`. We can use this inside some erb code to get the information we want. The link would become:
-
-```html
-<a href="/room/<%= room.id %>><%= room.name %></a>"
-```
-
-While this would work it is cumbersome and prone to formatting errors. Rails has recognised this and provides a lot of helper methods to write html using only ruby. You might not always know where to start looking when you want to write some code the Rails way so don't be afraid when you're writing your own projects to use a search engine to find out what you need.
-
-Rails provides a handy (link_to)[https://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to] helper method for generating links using Ruby in our views. Click the link and spend a moment reviewing how the method operates. Not all of it will make sense at this time but make sure you scroll down enough to look at the examples provided on its intended use.
-
-Scrolling through the examples take note that `link_to` lets us use the Rails provided paths for the routes we have defined. If you have another looks at your routes in the terminal you'll see that the path to take us to the room show page is simply `room`. So we can use `room_path` along with the room as a parameter to that method to generate the path we need.
-
-We now have everything we need to finish this up. We can use `room.name` as the first argument to link_to which will ensure each link is presented as the name of the room and we can provide `room_path(room)` using the room variable in the block to generate the correct href to each room.
-
-In our app/views/index.html.erb file add the link_to code shown below.
-
-```html
-<% if @rooms.present? %>
-  <aside class="menu">
-    <ul class="menu-list">
-      <% @rooms.each do |room| %>
-        <li>
-          <%= link_to room.name, room_path(room) %>
-        </li>
-      <% end %>
-    </ul>
-  </aside>
-<% else %>
-  <div>
-    There are no rooms
-  </div>
-<% end %>
-```
-
-You may be wondering how we generate the correct path when we are passing in a room object as the argument in `room_path(room)`. As `room` is actually an activerecord relation object Rails takes the id from it to generate the correct path. With that in mind there is one more Rails trick we can use to make our code less verbose. Looking through the link_to examples you should be able to see instead of passing in a path as the second argument we can just pass in the activerecord object itself and Rails will infer we want to generate a link to show that object. You can therefore update the link to the following
-
-```ruby
-<%= link_to room.name, room %>
-```
-
-Refreshing your browser should still show the message that there are no rooms. We need to create some rooms first in order to show up in our list. Let's tackle that next.
-
-### Step 4: Create a new room.
-
-Before we actually build out the rooms we need to create a link to click on to take us to the new room form. We can place it in the left sidebar in the index page just below our subtitle. The link will be similar to the one we've already created but the path will be different. Referring back to the routes that Rails created for us we can see the prefix for a new room is unsurprisingly `new_room`.
+Before we actually create the page to create new rooms we need a way to access the page. We can create a link to click on to take us to the new room form. We can place it in the left sidebar on the index page just below our subtitle. This way it will always be at the top of the room list and easily accessible. The link will be similar to the one we've already created but the path will be different. Referring back to the routes that Rails created for us we can see the prefix for a new room path is unsurprisingly `new_room`.
 
 ```
                Prefix     Verb    URI Pattern
@@ -235,14 +14,15 @@ rooms#update              PUT     /rooms/:id(.:format)
 rooms#destroy             DELETE  /rooms/:id(.:format)
 ```
 
-Open up the index.html.erb view from the room views and below the subtitle let's create a link. This may be a good time to try writing your own link_to before looking at our solution. It will differ slightly as we will be using some Bulma stylings but you can add those afterwards. This is a good opportunity to practice writing your own. A button is an inline element but we don't want anything to wrap next to it to we should wrap it in a div. Bulma has a nice field class you can add which gives the div a bit of space around it.
+Open up the index.html.erb view from the room views directory and below the subtitle let's create a link. This may be a good time to try writing your own link_to before looking at our solution. It will differ slightly as we will be using some Bulma stylings but you can add those afterwards. A button is an inline element but we don't want anything to wrap next to it so we should wrap it in a div. Bulma has a nice field class you can add which gives the div a bit of space around it.
 
 ```html
+<h3 class="subtitle">Room List</h3>
 <div class="field">
 </div>
 ```
 
-Now try writing your own link inside that div and then check the code below.
+Now try writing your own link inside that div and then check the code below. 
 
 ```html
 <div class="field">
@@ -250,13 +30,13 @@ Now try writing your own link inside that div and then check the code below.
 </div>
 ```
 
-If you have a Rails server running refresh it now and you'll see the nice button on the page to create a new button.
+The only difference may be the classes we've used which are Bulma provided classes so don't worry if it's not identical. If you used different wording in the button then don't worry. Make this project your own where you can.
 
-In order to create new rooms there are two actions we need to take. Firstly we need a `new` action in the rooms controller with a corresponding view and secondly we need a `create` action in order to actually process the change.
+Spin up a Rails server and navigate to `localhost:300/rooms` and you'll see the nice button on the page to create a new room. Clicking it now will throw an error that we don't have a controller action for what we want to do. In order to create new rooms there are two actions we need to take. Firstly we need a `new` action in the rooms controller with a corresponding view which will load up any objects we need access to and render the page for creating a new room. Secondly when we submit the form with the new room information Rails will route it to the `create` method in the controller in order to actually create the room in the database. Let's tackle the new action first.
 
-#### Step 4.1: Add the new action
+Just like with our index page, where we had to pass in a `@rooms` variable with a list of all rooms to use in the view, we need our new room page to have access to a room object. We don't need to do this. It would be valid instead to just write a form with the necessary room attribute information and send that to the correct route to be picked up by the create method in the Rooms controller. Using a new room object is advantageous though, by using a new room object we get access to many conveniences that Rails have provided. The main ones are that by using a new room object in our form, Rails will know it should send that request to the create method in the objects controller. It also allows Rails to know if the attributes you are using in the form actually belong to that object so it's easier to create input and select fields for a particular objects attributes. We'll see this as we go along.
 
-Open up the room controller and underneath the index method add a `new` method. Our method should create a new room object for our view to use.
+Open up the room controller and underneath the index method add a `new` method. To create a new room object to work with we don't need any Rails magic, we just create an object in the same way as you normally would for a Ruby class, by using the `new` method. It should be obvious why we call the variable `@room`.
 
 ```ruby
 def new
@@ -264,15 +44,59 @@ def new
 end
 ```
 
-#### Step 4.2: Create the view
+Any HTML request routed through the new method needs a corresponding view. In the app/views/rooms directory create a file called `new.html.erb`
 
-In the app/views/rooms directory create a file called `new.html.erb`
+To create a new room we will need to create a form for the user to submit. We'll again use some Bulma stylings to make the form look slick. Rails has a `form_with` helper that we can use to leverage the power of Rails to keep the form as simple as possible. If you take a glance at the Rails guides on [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html) paying close attention to section 2.2 you should get a feel for how Rails binds a form to an object which is exactly what we want to do.
 
-#### Step 4.3: Create a user form
+To use this we need to tell `form_with` that it is dealing with a model object. We can use the `model:` argument to `form_with` to give the form the object we are working with.
 
-To create a new room we will need to create a form for the user to submit. We can take advantage of some Bulma styles to make our form look amazing.
+One other gotcha we need to think about is that by default all forms submit themselves as Javascript (AJAX) requests. This is just moving with modern times where often you want to submit a form and do something with the object created without reloading the page. If you don't want to do this and instead want to submit your request as HTML (which we do) you can set `local: true` as one of the `form_with` arguments. How this works under the hood is that without setting the `local` option the form Rails generates will have the `data-remote="true"` option set on the form which submits the request as Javascript.
 
-Inside in new.html.erb file we just created let's create a form for the user to submit and create a new room. Add the following code:
+If you ever work with any older Ruby projects you may come across `form_for` and `form_tag`. These are soft-deprecated form_helpers that did the same as `form_with` does now. `form_for` was used to work with model objects and `form_tag` worked by generating url's without working with an underlying object. The equivalent of `form_tag` using `form_with` is `form_with url: rooms_path`. Refer to the Rails guides if you ever need to create a form without using a model.
+
+Inside the new.html.erb file we just created let's create the shell of the form for a user to complete to create a new room.
+
+```html
+<section>
+  <div class="container">
+    <%= form_with model: @room, local: true do |form| %>
+    <% end %>
+  </div>
+</section>
+```
+
+The `|form|` variable we pass into our form block is a reference to the form object Rails gives us when using `form_with`. This allows us to work directly with the form to generate the correct form fields. Now we need to add our model attributes to the form. In order to do this we can use helper methods provided by the form object. Check out [this section](https://guides.rubyonrails.org/form_helpers.html#helpers-for-generating-form-elements) of the Rails Guides. This gives us an idea of the helpers available for generating form fields. The ones shown here are the standalone helper methods but when working with a form object we can call these methods on that object and then we can drop the `tag` part of the method name.
+
+As an example if we want to create an input field the `text_field_tag` can be called directly on the form object as `form.text_field`. This benefit of doing it this way is that it binds the input to the form name which will submit our form to the server using the way Rails expects us to do so. Sticking to Rails conventions where possible makes it easier to find help when we need it as well as speeds up our development time.
+
+Our room only has a name attribute. We also want to have a label for our name field to make it clear what needs to be entered. We can do this in the same way as described above. Rails provides a `label_tag` form helper so we can call `form.label` on the form object. Passing a label a symbol of the same name as our form field means Rails can connect the label to the correct form element. A must for website accessibility.
+
+```html
+<section>
+  <div class="container">
+    <%= form_with model: @room, local: true do |form| %>
+      <div class="field">
+        <%= form.label :name, class: 'label' %>
+        <div class="control">
+          <%= form.text_field :name, class: 'input' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>
+```
+
+Aside from the classes, which to nobodies surprise are for Bulma styling, the form should hopefully make sense. We create a label and pass it `:name`, and when we create our text_field and also give it `:name` it binds the label to the input field.
+
+If you save this, spin up a Rails server and navigate to `localhost:3000/rooms/new` you should see the form. Use devtools to inspect the name input field on the form and you'll see in the html it has been given a name of `room[name]`. 
+
+```html
+<input class="input" type="text" name="room[name]" id="room_name">
+```
+
+If our `@room` object had other form fields, for example a field for the room topic, using `form.text_field :topic` would have generated an input with a name of `room[topic]`. The benefit of this is what when the form is submitted through the server, Rails groups these parameters together so we can easily access all of the room parameters together. The benefit of this will become apparent when we work on creating a new room and need to ensure the parameters are sanitised.
+
+The last thing we need is a submit button. There isn't anything surprising about it so I'll just show the code below
 
 ```html
 <section>
@@ -294,31 +118,89 @@ Inside in new.html.erb file we just created let's create a form for the user to 
 </section>
 ```
 
-#### Step 4.4: Add the create action
+Now if you fill in a name and submit you'll see it directs to the server where we are met with another error because Rails needs a create method to be avilable. Progress!
 
 In the rooms controller add a create action
 
 ```ruby
 def create
-  @room = room.new(room_params)
-  if @room.save
-    redirect_to rooms_path
-  else
-    render :new
+end
+```
+
+Inside the create action we need to create another room object to work with. The one we created in the new action was just to work with the form in the new.html.erb file, it doesn't get passed from the view back to our controller.
+
+```ruby
+def create
+  @room = room.new
+end
+```
+
+This creates the room object for us, but we need to set attributes on it that we passed from the server (just the name in this case). To protect your application Rails uses strong parameters which you can read more about [here](https://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters). This is to stop someone submitting a form with a parameter which you haven't approved with the intent to either gain access to your application or database or to cause damage to your application.
+
+We could handle it right there in the create method but Rails convention is to handle it in a private method in the controller. That way you can use the same sanitised parameters when updating an existing object too.
+
+The syntax for sanitising the parameters can be seen in the Rails Guides link above. We need to permit our `room` parameters and then allow our name attribute that has been passed in the parameters. This is why when we worked with our form above we wanted each field to have a `room[name_of_attribute]` name set on it. Let's take a quick look at the parameters that get passed through by our room form.
+
+```bash
+ Parameters: {"authenticity_token"=>"Pw0tiGP0WrZ5pfqSo6cx1YbSyuu1zGegkngaQBwAaFy4UNuIHI60dWGkRacLTHtcNNZJnwENhvQeXDky7K4BCQ==", "room"=>{"name"=>"Don't @ me bro"}, "commit"=>"Create Room"}
+```
+
+Here we can see there is an authenticity token which is what Rails uses as a form of protection against Cross-Site forgery requests. You can read more about that [here](https://api.rubyonrails.org/classes/ActionController/RequestForgeryProtection.html). There is also a commit to create room which is what Rails uses to route the request to the correct controller action. It is the `"room"` parameter key that interests us now though. You can see that Rails has grouped our form fields into a hash of key value pairs for each field. In our case there was only one field but if we had more you'd see them here. By grouping them this way it is much easier for us to sanitise these parameters. We can permit the room key in the params hash and then allow each field that should be in there. This way, if anyone tries to set a rougue field on our form it won't be allowed to reach any other part of our app.
+
+Let's allow our parameters safely through. In the rooms controller after the create method let's create a private method, which by convention is `room_params` which we can use to allow our parameters through.
+
+```ruby
+class RoomsController < ApplicationController
+  def create
+    # ...
+  end
+
+  private
+
+  def room_params
+    params.require(:room).permit(:name)
   end
 end
 ```
 
-#### Step 4.5: Add the room_params method
-
-In the rooms controller before the last end add
+This requires our parameters to have a room key, whose value should be a hash with a key of "name". This will return back to us the key, value pairs that have been allowed back through the sanitised parameters. So in our case from `room_params` we'll get back a hash like `name: "whatever name we chose"`. This is exactly how Rails allows us to build up new model objects. If we wanted to build a room in our Rails console we would do something like
 
 ```ruby
-private
+Room.new(name: "turnip lovers unite")
+```
 
-def room_params
-  params.require(:room).permit(:name)
+So getting back to our create method we want to pass the result of the method call to our new room object.
+
+```ruby
+def create
+  @room = room.new(room_params)
 end
 ```
 
-Navigate to `localhost:3000/rooms/new` and try to create a new room. If it's successful it should take you back to the room index page and now you should see a link to the room you created instead of the message that there are no rooms.
+This is standard Ruby behaviour. We can call the room_params method as an argument to our new method call and the return value of room_params gets used as the argument. This works because Rails expects a hash to be passed in of the values needed to build a room. If you had your own object that expected defined arguments in a particular order then this approach wouldn't work. Just keep that in mind when designing your own classes in future, if you need arguments to be flexible, use a hash.
+
+Now we have our room object we need to save it to validate it. We have already played with this earlier in the Rails console. To validate an object we can call `.valid?` on it but we can do that at the same time as trying to save it by using the `save` method. If the save method is able to save our room object to the database it returns something truthy, otherwise it returns false. If the object is unable to save we want to rerender the new room view so that we can correct any errors and submit the form again. If it is saved we want to let the user know and then direct back to the rooms index page.
+
+```ruby
+def create
+  @room = room.new(room_params)
+  
+  if(@room.save) # This returns something either truthy or false
+    redirect_to rooms_path # Here we can use Ruby path helpers to redirect to our desired location
+  else
+    render :new # Here we don't want to redirect to the new page. This would go through our controller new action which would then create a new room object and wouldn't preserve any of the object we've created here. So we just want to render the new page. `:new` will render the new.html.erb in the view folder matching the controller.
+  end
+end
+```
+
+If the room name is valid, it is saved to the database and we are then redirect back to the index page. This should then show us the room name in the rooms list on the left of the page. We don't yet see any confirmation it was actually created, which we'll handle in a moment.
+
+If the room isn't valid we render the new page again which makes available our instance variable `@room` to it and this is where we can see how using Rails helpers benefits us. Our form works on a `@room` object. When we first navigate to the new room page our new method in the rooms controller creates a new room object `@room = Room.new`. But once we go to the create method the `@room` object which is passed to new when it fails to save actually holds a room object that has had `valid?` called on it, we practised using this in the console in an earlier lesson. So now our form is built on this object, and when the fields are built for us, Rails actually calls the name of the field on the object to fill in the input or whatever other helper we are using. So in our case when it reaches the input field for name it tries to fill it in `@room.name`. For a new room object it is blank, so the field is blank, but for an existing object with a value for name, it will pre-populate it for us with the value it holds.
+
+Let's see it in action. Navigate to the new room form and try to fill in a name longer than 20 characters and submit it. Check the server logs to see what happens here. Rails will rollback the transaction to make sure nothing gets saved to the database which will then return false to our `@room.save` conditional. This means the else clause of our if statement is executed and the new page is rendered. Because our `@room` object had the name value set on it when we did `room.new(room_params)` when our form is rendered again Rails fills in our form input with the value that was already there.
+
+We still need a way to display any errors which we will handle after we allow deal with notifying users when a room has been successfully created.
+
+# TODO: set flash
+
+# TODO: set errors on form
