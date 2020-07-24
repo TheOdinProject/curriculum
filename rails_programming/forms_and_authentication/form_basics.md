@@ -127,8 +127,8 @@ Creates the form:
 
 ~~~html
   <form accept-charset="UTF-8" action="/search" data-remote="true" method="get">
-    <label for="q">Search for:</label>
-    <input id="q" name="q" type="text" />
+    <label for="query">Search for:</label>
+    <input id="query" name="query" type="text" />
     <input name="commit" type="submit" value="Search" data-disable-with="Search" />
   </form>
 ~~~
