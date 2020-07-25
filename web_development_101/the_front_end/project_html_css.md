@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ng-jiaxin's Solution (Easy)](https://github.com/ng-jiaxin/google-homepage) - [View in Browser](https://ng-jiaxin.github.io/google-homepage/)
 * [Caradloki's Solution (Easy)](https://github.com/Caradloki/google-homepage) - [View in Browser](https://caradloki.github.io/google-homepage/)
 * [An0therHuman's Solution (Easy)](https://github.com/An0therHuman/google-homepage) - [View in Browser](https://an0therhuman.github.io/google-homepage/)
 * [pir4cy's Solution (Easy)](https://github.com/pir4cy/google-homepage-clone) - [View in Browser](https://pir4cy.github.io/google-homepage-clone/)
