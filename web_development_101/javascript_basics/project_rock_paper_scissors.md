@@ -1827,4 +1827,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Wulfen's Solution](https://github.com/Wulfenn/rock-paper-scissors)
 - [Spot's solution](https://github.com/spotbarnes/tests) 
 - [Veronica's solution](https://github.com/VJones2112/rockpaperscissors_theodinproject)
+- [Culinarytracker's solution](https://github.com/Culinarytracker/The-Odin-Project-Rock-Paper-Scissors)
 </details>
