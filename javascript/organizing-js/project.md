@@ -159,4 +159,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [lonewolf045's Solution](https://github.com/lonewolf045/todo-list) - [View in Browser](https://nijepa.github.io/todo-list/)
 * [themetar's Solution](https://github.com/themetar/TODO-App) - [View in Browser](https://themetar.github.io/TODO-App/)
 * [alxmkh's Solution](https://github.com/alxmkh/to-do-list) - [View in Browser](https://alxmkh.github.io/to-do-list/)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/todo-list) - [View in Browser](https://tristanross.github.io/todo-list/)
 </details>
