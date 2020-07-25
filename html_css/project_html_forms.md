@@ -192,6 +192,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Joe Thompson's Solution](https://github.com/jlthompso/mailchimp_signup) - [View in Browser](https://jlthompso.github.io/mailchimp_signup/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/sign-up-form) - [View in Browser](https://ansellmaximilian.github.io/sign-up-form/)
 * [Kenneth H's Solution](https://github.com/kholston/html-forms) - [View in Browser](https://kholston.github.io/html-forms/)
+* [Nijepa's Solution](https://github.com/nijepa/html-forms) - [View in Browser](https://nijepa.github.io/html-forms/)
 </details>
 
 ### Additional Resources
