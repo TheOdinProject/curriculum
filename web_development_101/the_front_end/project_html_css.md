@@ -4056,6 +4056,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [LilyU1's Solution (Easy)](https://github.com/lilyu1/google-homepage) - [View in Browser](https://github.com/lilyu1/google-homepage)
 * [Alfredino10's solution (Easy)](https://github.com/Alfredino10/google-homepage) - [View in Browser](https://alfredino10.github.io/google-homepage/)
 * [KCKat's solution (Easy)](https://github.com/kckat/google-homepage) - [View in Browser](https://kckat.github.io/google-homepage/)
+* [Adinda's solution (Easy)](https://github.com/dindatiwi/google-homepage) - [View in Browser](https://dindatiwi.github.io/google-homepage/)
 </details>
 
 
