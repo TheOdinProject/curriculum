@@ -204,6 +204,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Joe Thompson's Solution](https://github.com/jlthompso/embedded-media) - [View in Browser](https://jlthompso.github.io/embedded-media/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/Youtube-video-page) - [View in Browser](https://ansellmaximilian.github.io/Youtube-video-page/)
 * [Kenneth H's Solution](https://github.com/kholston/youtube-player-page) - [View in Browser](https://kholston.github.io/youtube-player-page/)
+* [Nijepa's Solution](https://github.com/nijepa/embedding-images-and-video) - [View in Browser](https://nijepa.github.io/embedding-images-and-video/)
 </details>
 
 ### Additional Resources
