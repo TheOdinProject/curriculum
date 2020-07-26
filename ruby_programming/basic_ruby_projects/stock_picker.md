@@ -27,6 +27,16 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [MiDDiz's Solution](https://github.com/MiDDiz/OdinRuby/blob/master/stock_picker.rb)
+* [descholar's Solution](https://github.com/descholar-ceo/stock-picker/blob/develop/bin/main.rb)
+* [kingofping654's Solution](https://github.com/kingofping654/Stock-Picker/blob/master/Stock%20Picker.rb)
+* [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/stock_picker.rb)
+* [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/stock_picker.rb)
+* [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby_stock_picker/blob/master/app.rb)
+* [Coby's Solution](https://github.com/coby101/odin_project/blob/master/stock_picker.rb)
+* [enzoperce35's Solution](https://github.com/enzoperce35/stock_picker/blob/master/stock_picker.rb)
+* [jnjensen's Solution](https://github.com/jnjensen/Ruby_Stock_Picker/blob/master/stock_picker.rb)
+* [EmilioAK's Solution](https://github.com/EmilioAK/Stock-Picker/blob/master/Stock-Picker.rb)
 * [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/4_stock-picker.rb)
 * [Baseline Alpha's Solution](https://github.com/baselinealpha/Ruby-The-Odin-Project/blob/master/stock_picker.rb)
 * [Mr.Bowtie's Solution](https://github.com/Mr-Bowtie/Basic_ruby_projects/blob/master/stock_picker.rb)
@@ -532,4 +542,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mioria's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/stock_picker.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/stock_picker.rb)
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Ruby-Methods/blob/master/stock_picker.rb)
+* [bhenning83's Solution](https://github.com/bhenning83/stock_picker/blob/master/stock_picker.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-stock-picker/blob/master/stock-picker.rb)
 </details>
