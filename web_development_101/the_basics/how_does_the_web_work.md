@@ -42,16 +42,27 @@ At the end of this lesson, you should be able to do the following:
   </ul></ul>
  </details>
  
+  <details>
+  <summary>In your own words, explain what happens when you run a search on google.com.</summary>
+  <ul><ul>
+    <li>Google receives the request, look for it in their databases and send back the results</li>
+  </ul></ul>
+ </details>
+ 
+ <details>
+  <summary>Explain what IP address is</summary>
+  <ul><ul>
+    <li>IP adrress is a number that identifies a destination in a network.</li>
+   </ul></ul>
+ </details>
+  
  <details>
   <summary>Explain what DNS servers are.</summary>
   <ul><ul>
     <li>DNS Servers are the "phone book" of the internet. They translate domain names into IP addresses.</li>
   </ul></ul>
  </details>
- 
- <details>
-  <summary>In your own words, explain what happens when you run a search on google.com.</summary>
- </details>
+  
 
 ### Assignment
 
