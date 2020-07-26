@@ -95,6 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [lucasdonuts's Solution (Easy)](https://lucasdonuts.github.io/google-homepage) - [View in Browser](https://lucasdonuts.github.io/google-homepage/)
+* [ng-jiaxin's Solution (Easy)](https://github.com/ng-jiaxin/google-homepage) - [View in Browser](https://ng-jiaxin.github.io/google-homepage/)
 * [Caradloki's Solution (Easy)](https://github.com/Caradloki/google-homepage) - [View in Browser](https://caradloki.github.io/google-homepage/)
 * [An0therHuman's Solution (Easy)](https://github.com/An0therHuman/google-homepage) - [View in Browser](https://an0therhuman.github.io/google-homepage/)
 * [pir4cy's Solution (Easy)](https://github.com/pir4cy/google-homepage-clone) - [View in Browser](https://pir4cy.github.io/google-homepage-clone/)
@@ -4054,9 +4056,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [The20thDuck's Solution (Easy)](https://github.com/The20thDuck/google-homepage) - [View in Browser](https://the20thduck.github.io/google-homepage/)
 * [Shaka's Solution (Easy)](https://shaka-w.github.io/google-homepage/) - [View in Browser](https://shaka-w.github.io/google-homepage/)
 * [LilyU1's Solution (Easy)](https://github.com/lilyu1/google-homepage) - [View in Browser](https://github.com/lilyu1/google-homepage)
-* [Alfredino10's solution (Easy)](https://github.com/Alfredino10/google-homepage) - [View in Browser](https://alfredino10.github.io/google-homepage/)
-* [KCKat's solution (Easy)](https://github.com/kckat/google-homepage) - [View in Browser](https://kckat.github.io/google-homepage/)
-* [Adinda's solution (Easy)](https://github.com/dindatiwi/google-homepage) - [View in Browser](https://dindatiwi.github.io/google-homepage/)
+* [Alfredino10's Solution (Easy)](https://github.com/Alfredino10/google-homepage) - [View in Browser](https://alfredino10.github.io/google-homepage/)
+* [KCKat's Solution (Easy)](https://github.com/kckat/google-homepage) - [View in Browser](https://kckat.github.io/google-homepage/)
+* [Adinda's Solution (Easy)](https://github.com/dindatiwi/google-homepage) - [View in Browser](https://dindatiwi.github.io/google-homepage/)
+* [Christopher's Solution (Easy)](https://github.com/christopheralagna/google-homepage) - [View in Browser](https://christopheralagna.github.io/google-homepage/)
 </details>
 
 

@@ -1825,6 +1825,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Maciej's Solution](https://github.com/MaciejWojtasiak/Rock-Paper-Scissors) - [View in Browser](https://maciejwojtasiak.github.io/Rock-Paper-Scissors/)
 - [Sal's Solution](https://github.com/Sal-theSadmanShark/rock_paper_scissors) - [View in Browser](https://sal-thesadmanshark.github.io/rock_paper_scissors/)
 - [Wulfen's Solution](https://github.com/Wulfenn/rock-paper-scissors)
-- [Spot's solution](https://github.com/spotbarnes/tests) 
-- [Veronica's solution](https://github.com/VJones2112/rockpaperscissors_theodinproject)
+- [Spot's Solution](https://github.com/spotbarnes/tests) 
+- [Veronica's Solution](https://github.com/VJones2112/rockpaperscissors_theodinproject)
+- [Culinarytracker's Solution](https://github.com/Culinarytracker/The-Odin-Project-Rock-Paper-Scissors)
+- [portable's Solution](https://github.com/portableDD/game-house)
 </details>
+
