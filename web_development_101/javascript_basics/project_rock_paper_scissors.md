@@ -41,7 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [leinierperez's Solution](https://github.com/leinierperez/rock-paper-scissors)
+- [Bliguy's Solution](https://github.com/bliguy/rock-paper-scissor) [View in Browser](https://bliguy.github.io/rock-paper-scissor/)
+- [leinierperez's Solution](https://github.com/leinierperez/rock-paper-scissors) [View in Browser](https://ivantbv.github.io/rock-paper-scissors/)
 - [ivantbv's Solution](https://github.com/ivantbv/rock-paper-scissors) - [View in Browser](https://ivantbv.github.io/rock-paper-scissors/)
 - [pir4cy's Solution](https://github.com/pir4cy/rock-paper-scissors) - [View in Browser](https://pir4cy.github.io/rock-paper-scissors/)
 - [hjanday's Solution](https://github.com/hjanday/RockPaperScissors) 
@@ -1830,6 +1831,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Veronica's Solution](https://github.com/VJones2112/rockpaperscissors_theodinproject)
 - [Culinarytracker's Solution](https://github.com/Culinarytracker/The-Odin-Project-Rock-Paper-Scissors)
 - [portable's Solution](https://github.com/portableDD/game-house)
-- [whmcquaid's Solution](https://github.com/whmcquaid/rock_paper_scissors) - [View in Browser](https://whmcquaid.github.io/rock_paper_scissors/rock_paper.html)
 </details>
 
