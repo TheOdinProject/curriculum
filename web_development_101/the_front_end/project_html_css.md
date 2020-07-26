@@ -104,7 +104,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Tam Tran's Solution (Easy)](https://github.com/gitdxb/google-homepage) - [View in Browser](https://gitdxb.github.io/google-homepage/)
 * [geopinto's Solution](https://github.com/geopinto/google-homepage/) - [View in Browser](https://geopinto.github.io/google-homepage/)
 * [Bojan's Solution (Easy)](https://github.com/vujke/google-homepage) - [View in Browser](https://vujke.github.io/google-homepage)
-* [slowbeeps's Solution (Easy)](https://github.com/slowbeeps/google-homepage/) - [View in Browser](https://slowbeeps.github.io/google-homepage/)
+* [slowbeeps's Solution (Easy)](https://github.com/slowbeeps/odinp_google-homepage/) - [View in Browser](https://slowbeeps.github.io/odinp_google-homepage/)
 * [Mit's Solution (Easy)](https://github.com/Mit-Patel7/google-homepage) - [View in Browser](https://mit-patel7.github.io/google-homepage/)
 * [Soham's Solution (Easy)](https://github.com/soham1001myG/google-homepage/) - [View in Browser](https://soham1001myg.github.io/google-homepage/)
 * [Realsss' Solution (Easy)](https://github.com/Realsss/google-homepage) - [View in Browser](https://realsss.github.io/google-homepage/)
