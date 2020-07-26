@@ -15,7 +15,7 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
+  1. Watch [this video](https://youtu.be/HkdAHXoRtos) by Jeff Delaney for a great overview of some basic Git commands.
 
 </div>
 
