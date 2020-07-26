@@ -836,6 +836,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [vongk97's Solution](https://github.com/vongk97/calculator) - [View in Browser](https://vongk97.github.io/calculator/)
 - [sforber's Solution](https://github.com/sforber/calculator) - [View in Browser](https://sforber.github.io/calculator/)
 - [juggler39's Solution](https://github.com/juggler39/calculator) - [View in Browser](https://juggler39.github.io/calculator/)
+- [MayarHasssanin's Solution](https://github.com/Mayar-Hassanin98/Calculator) - [View in Browser](https://mayar-hassanin98.github.io/Calculator/)
 - [Jonathan Altine's Solution](https://github.com/JonathanAltine/Calculator) - [View in Browser](https://jonathanaltine.github.io/Calculator/)
 - [Orhan's Solution](https://github.com/orhanugurlu/the_odin_project/tree/master/calculator) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/calculator/)
 </details>
