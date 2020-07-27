@@ -1818,6 +1818,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ayushbasak's Solution](https://github.com/ayushbasak/rps) - [View in Browser](https://ayushbasak.github.io/rps/)
 - [Wei-Ting Yap's Solution](https://github.com/weiting109/the-odin-proj-projects/blob/master/rock-paper-scissors/rock-paper-scissors.html)
 - [Alexander Glez's Solution](https://github.com/Covicale/RockPaperScissors) - [View in Browser](https://covicale.github.io/RockPaperScissors/)
+- [Marko Markovitz's Solution](https://github.com/markanjski/Rock-Paper-Scissors) - [View in Browser](https://markanjski.github.io/Rock-Paper-Scissors/)
 - [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors) - [View in Browser](https://robertompfm.github.io/rock-paper-scissors/)
 - [Denzel's Solution](https://github.com/denzUp/rock-paper-scissors-game) - [View in Browser](https://denzup.github.io/rock-paper-scissors-game/)
 - [Bones81's Solution](https://github.com/Bones81/RockPaperScissors) - [View in Browser](https://bones81.github.io/RockPaperScissors/)
