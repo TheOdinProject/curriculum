@@ -24,6 +24,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Blog-App)
+* [Sam Eff's Solution](https://github.com/SamEff/blogger) - [View in Browser](https://pure-fjord-66475.herokuapp.com/)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby_blog_app) - [View in Browser](https://apologetic-mountie-86951.herokuapp.com/)
 * [Ryan Lewin's Solution](https://github.com/ryan-lewin/blogger) - [View in Browser](https://sheltered-brushlands-48518.herokuapp.com/)
 * [pudu87's Solution](https://github.com/pudu87/blogger) - [View in Browser](https://powerful-falls-45808.herokuapp.com/)
@@ -452,7 +454,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/rails-blogger) - [View in Browser](https://dry-spire-74608.herokuapp.com)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/blogger) - [View in Browser](https://aqueous-crag-86287.herokuapp.com/)
 * [Alex Gioffre's Solution](https://github.com/AlexGioffre/Blogger) - [View in Browser](https://blogger-alexgio.herokuapp.com/)
-* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/blog-rails) - [View in Browser](https://quiet-ridge-40484.herokuapp.com/)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Rails_projects/blogger)
 * [Rosanne Nicolai's Solution](https://github.com/rjnicolai/blogger) - [View in Browser](https://bref-moliere-78914.herokuapp.com)
 * [Nathan Choi's Solution](https://github.com/sihoonathan/blogger) - [View in Browser](https://calm-garden-13460.herokuapp.com/)
 * [Carlos Del Real Solution](https://github.com/carloshdelreal/blogger) - [View in Browser](https://murmuring-plateau-19342.herokuapp.com/)
