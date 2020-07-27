@@ -256,4 +256,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [kenwilde's Solution](https://github.com/kenwilde1/tic-tac-toe) - [View in Browser](https://kenwilde1.github.io/tic-tac-toe/)
 - [Victor Orlunda's Solution](https://github.com/dev-opus/tic-tac-toe) - [View in Browser](https://dev-opus.github.io/tic-tac-toe)
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/Tic-Tac-Toe) - [View in Browser](https://playingongithub.github.io/Tic-Tac-Toe/)
+- [Jamesredux's Solution](https://github.com/Jamesredux/js-tic-tac-toe) - [View in Browser](https://jamesredux.github.io/js-tic-tac-toe/)
 </details>
