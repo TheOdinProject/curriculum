@@ -1186,4 +1186,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [MayarHassanin's Solution](https://github.com/Mayar-Hassanin98/Etch-a-Sketch) - [View in Browser](https://mayar-hassanin98.github.io/Etch-a-Sketch/)
 * [terraxus94's Solution](https://github.com/terraxus94/etchasketch) - [View in Browser](https://terraxus94.github.io/etchasketch/)
 * [Anthony Encarnacion's Solution](https://github.com/AntEncarnacion/ETCH-A-SKETCH) - [View in Browser](https://antencarnacion.github.io/ETCH-A-SKETCH/)
+* [Charlie Tobler's Solution](https://github.com/cstobler/etch-a-sketch) - [View in Browser](https://cstobler.github.io/etch-a-sketch/)
 </details>
