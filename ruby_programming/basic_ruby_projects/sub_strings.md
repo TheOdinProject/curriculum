@@ -553,4 +553,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [satchelsmidt's Solution](https://github.com/satchelsmidt/Odin_Project_Ruby/blob/master/02_substrings.rb)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-substring/blob/master/substring.rb)
 * [sforber's Solution](https://github.com/sforber/ruby-substrings/blob/master/substrings.rb)
+* [juggler39's Solution](https://github.com/juggler39/ruby_assignments/blob/master/substrings.rb)
 </details>
