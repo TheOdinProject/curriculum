@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ajromeroch's Solution (Easy)](https://github.com/ajromeroch/google-homepage) - [View in Browser](https://ajromeroch.github.io/google-homepage/)   
 * [deniselupe's Solution (Easy)](https://deniselupe.github.io/google-homepage/) - [View in Browser](https://deniselupe.github.io/google-homepage/)
 * [JCahela's Solution (Easy)](https://github.com/jcahela/google-homepage) - [View in Browser](https://jcahela.github.io/google-homepage/)
 * [jcsorgei's Solution (Easy)](https://github.com/jcsorgei/google-homepage) - [View in Browser](https://jcsorgei.github.io/google-homepage/)
@@ -4065,6 +4066,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Adinda's Solution (Easy)](https://github.com/dindatiwi/google-homepage) - [View in Browser](https://dindatiwi.github.io/google-homepage/)
 * [Christopher's Solution (Easy)](https://github.com/christopheralagna/google-homepage) - [View in Browser](https://christopheralagna.github.io/google-homepage/)
 * [Aamnayy6's Solution (Easy)](https://github.com/Aamnayy6/google-homepage) - [View in Browser](https://aamnayy6.github.io/google-homepage/)
+* [Aashna4's solution (Easy)](https://github.com/Aashna4/google-homepage) - [View in Browser](https://aashna4.github.io/google-homepage/)
 </details>
 
 
