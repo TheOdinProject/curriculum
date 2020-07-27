@@ -42,6 +42,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Luke's Solution](https://github.com/LukeMcCarthy58/top-rock-paper-scissors)
+- [KCKat's Solution](https://github.com/kckat/rock-paper-scissors)
 - [Zane's Solution](https://github.com/Zane97/rock-paper-scissors)
 - [leinierperez's Solution](https://github.com/leinierperez/rock-paper-scissors)
 - [Bliguy's Solution](https://github.com/bliguy/rock-paper-scissor) - [View in Browser](https://bliguy.github.io/rock-paper-scissor/)
@@ -1834,5 +1835,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Culinarytracker's Solution](https://github.com/Culinarytracker/The-Odin-Project-Rock-Paper-Scissors)
 - [portable's Solution](https://github.com/portableDD/game-house)
 - [whmcquaid's Solution](https://github.com/whmcquaid/rock_paper_scissors) - [View in Browser](https://whmcquaid.github.io/rock_paper_scissors/rock_paper.html)
+- [Yog.0's Solution](https://github.com/Yog0/rps)
 </details>
 
