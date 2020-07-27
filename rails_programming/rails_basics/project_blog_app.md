@@ -24,6 +24,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [JvPelai's Solution](https://github.com/JvPelai/Blog) - [View in Browser](https://fathomless-beach-73692.herokuapp.com/)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Blog-App)
 * [Sam Eff's Solution](https://github.com/SamEff/blogger) - [View in Browser](https://pure-fjord-66475.herokuapp.com/)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby_blog_app) - [View in Browser](https://apologetic-mountie-86951.herokuapp.com/)
