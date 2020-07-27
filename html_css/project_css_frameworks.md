@@ -33,6 +33,12 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [HaroonAbdulrazaq's solution - Devsummit](https://github.com/Haroonabdulrazaq/Devsummit) - [View in Browser](https://haroonabdulrazaq.github.io/Devsummit/)
+* [Rarysson's solution - Grid Lib Framework](https://github.com/rarysson/grid-lib) - [5by5 Site Clone](https://github.com/rarysson/5by5-clone) - [View in Browser](https://rarysson.github.io/5by5-clone/)
+* [Julio's solution - Framework](https://github.com/julio22b/my-CSS-framework) - [Letterboxd clone](https://github.com/julio22b/letterboxd-home) - [View in Browser](https://julio22b.github.io/letterboxd-home/)
+* [Igorashs's Solution - Framework](https://github.com/igorashs/gridlay) - [The Odin Project Clone](https://github.com/igorashs/the-odin-project-page) - [View in browser](https://igorashs.github.io/the-odin-project-page/)
+* [Kevin Vuong's Solution](https://github.com/fffear/my_grid_framework) - [The Odin Project Clone](https://github.com/fffear/the_odin_project_home_page_clone) - [View in browser](https://fffear.github.io/the_odin_project_home_page_clone/)
+* [David Auza's and Eduardo Reis's Solution](https://github.com/eduardoreisalvarenga/CSS_Framework) - [View in Browser](https://rawcdn.githack.com/eduardoreisalvarenga/CSS_Framework/5aa808211fb83ef5e0715770a5820bf9cfa1ff48/index.html)
 * [ARaut9's solution - Framework](https://github.com/ARaut9/css_framework) - [View in browser](https://araut9.github.io/css_framework/test.html)
 * [ARaut9's solution - Example Site](https://github.com/ARaut9/itunes_clone) - [View in browser](https://araut9.github.io/itunes_clone/)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/framework) - [View in browser](https://n00bg1rl.github.io/framework/)
@@ -54,9 +60,16 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Devon's solution](https://github.com/defitjo/grid-based-framework) - [Example Site](https://defitjo.github.io/grid-based-framework/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/My_Frame/) - [View in browser](https://ncud4bloc.github.io/My_Frame/HTML/index.html)
 * [husein ghafari's solution](https://github.com/hosghf/css-grid-framework) - [Example Site](https://htmlpreview.github.io/?https://github.com/hosghf/final-prj/blob/master/index.html)
-* [Francisco Carlos's - Scaffold Framework](https://github.com/fcarlosdev/the_odin_project/tree/master/grid-framework) - [Example Site](https://github.com/fcarlosdev/the_odin_project/blob/master/thoughco) - [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/the_odin_project/blob/master/thoughco/index.html)
+* [Francisco Carlos's - Scaffold Framework](https://github.com/fcarlosdev/grid-framework) - [Example Site](https://github.com/fcarlosdev/thoughco) - [View in browser](https://fcarlosdev.github.io/thoughco/)
+* [Muhammad Ahmad's CSS Framework - Pure Grid](https://github.com/thisisMAhmad/pure-grid) - [Final Project Git Page](https://github.com/thisisMAhmad/the-odin-project) - [View site in browser](https://thisismahmad.github.io/the-odin-project/)
 * [aznafro's CSS Framework - Flik](https://github.com/aznafro/flik) - [Final Project Git Page](https://github.com/aznafro/natgeo) - [View site in browser](https://aznafro.github.io/natgeo/)
-
+* [Oluwadamilare Olusakin's CSS Framework - Sphinx](https://github.com/Oluwadamilareolusakin/sphinx)
+* [Carlos Del Real's and Gabriela Cruz's Solutions](https://github.com/carloshdelreal/caby_cssframework) - [Example Site](https://carloshdelreal.github.io/caby_cssframework/)
+* [Ohlie's Solutions](https://github.com/lco1220/grid_based_framework) - [Example Site](https://lco1220.github.io/grid_based_framework/)
+* [themetar's solution](https://github.com/themetar/css-framework) - [Example site](https://themetar.github.io/odin-project-page-clone/)
+* [ranmaru22's Solution: griddy](https://github.com/ranmaru22/griddy) - [Example Site](https://ranmaru22.github.io/griddy/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/custom-css-grid-framework) - [Example Site](https://github.com/barrysweeney/custom-grid-site) - [View in Browser](https://barrysweeney.github.io/custom-grid-site/)
+* [Timework's - Framework](https://github.com/Timework/framework) - [The Odin Project Clone](https://github.com/Timework/odin-clone) - [View in browser](https://timework.github.io/odin-clone/)
 </details>
 
 ### Additional Resources

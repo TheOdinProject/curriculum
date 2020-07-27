@@ -8,7 +8,7 @@ Working with files gets you into the idea of serialization, which basically just
 
 Luckily, Ruby again makes things pretty easy for you. There are some generally accepted formats for serializing data and Ruby gives you the tools you'll need to work with all of them.  The two you'll run into again and again are YAML and JSON.  You often see YAML used to save configuration files in Ruby on Rails because it's very lightweight and straightforward.  You can read it easily in a text editor.  JSON is ubiquitous across the web, and is the format of choice to deliver complex or deeply nested data (like objects) from some website to your program via an API (like if you want to interface with Google Maps).
 
-Finally, files and serialization overlaps in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
+Finally, files and serialization overlap in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment.
@@ -35,3 +35,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Zetcode's section on Input/Output in Ruby](http://zetcode.com/lang/rubytutorial/io/) should be another useful perspective on the material.
 * [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
+* [Short Example of Serialization](http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning

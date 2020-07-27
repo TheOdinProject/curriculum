@@ -2,7 +2,7 @@
 
 The Odin Project (also known as TOP) is an open-source community for learning full-stack web development. Our mission is to provide a comprehensive curriculum to learn web development for free. We help our students learn the skills and build the impressive portfolio of projects they need to get hired as a web developer.
 
-The curriculum is divided into distinct courses, each covering the subject language in depth. Each course contains a listing of lessons interspersed with multiple projects. These projects give students the opportunity to practise what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the student's portfolio.
+The curriculum is divided into distinct courses, each covering the subject language in depth. Each course contains a listing of lessons interspersed with multiple projects. These projects give students the opportunity to practice what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the student's portfolio.
 
 Lessons are structured through a combination of original written content and a compilation of carefully curated resources from the web. This is where the contributing happens!
 
@@ -50,7 +50,7 @@ Created by [Erik Trautman](http://www.github.com/eriktrautman)
 **Our main focus** is the cultivation and sequencing of the best free resources around the internet. We believe wholeheartedly that everything one needs to know to become employed can be found for free online. However, for the average new learner, the vast quantity \(and widely varying quality\) of resources makes it difficult to make meaningful progress.  Therefore, we have devised three basic steps to fix this.
 
 1. We have created a curriculum that attempts to find the optimal sequencing of information. This curriculum is intended to take someone from knowing literally nothing about web development to a point where they could be employed as a Junior Developer.
-2. For each topic in the curriculum, we try to find the best free resources on the internet that teach that topic.  We will often link multiple resources so as to not rely too much on a single source of information.  If good resources cannot be found, we write our own, but we definitely prefer primary links to external sites.
+2. For each topic in the curriculum, we try to find the best free resources on the internet that teach that topic.  We will often link multiple resources so as to not rely too much on a single source of information.  If good resources cannot be found, we write our own, but we prefer primary links to external sites.
 3. We invent and cultivate projects that give learners a chance to practice what they have learned and to integrate skills along the way. These projects increase information retention, give the learner a chance to experiment, and allow the learner to build an impressive portfolio.
 
 Additionally, we have made our learning materials completely open source.  This means that if anyone comes across a resource that is better than what is currently included in our lessons, that person is free \(and encouraged!\) to add them, which improves our curriculum over time and helps it to stay up to date.
@@ -58,4 +58,3 @@ Additionally, we have made our learning materials completely open source.  This 
 ## Contributing
 
 If you would like to contribute to this project, [please contact us here](https://discord.gg/hvqVr6d).
-

@@ -21,7 +21,7 @@ We at Odin don't have anything against Windows, *we simply want you to succeed a
 ### Installing Linux
 The good news is installing Linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything Yay!. Secondly there are three different options that you can choose from to use Linux on your machine along side Windows, so you can choose the one that suits your situation best.
 
-There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use **[Ubuntu](http://www.ubuntu.com/download/desktop)** which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
+There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We won't go into any of that here and will simply recommend you use **[Ubuntu](http://www.ubuntu.com/download/desktop)** which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
 ####Option 1 - Dual Booting
 You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new Linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
