@@ -34,6 +34,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [zstearman3's Solution](https://github.com/zstearman3/odin-basic-ruby/blob/master/substrings.rb)
 * [MiDDiz's Solution](https://github.com/MiDDiz/OdinRuby/blob/master/substrings.rb)
 * [descholar's Solution](https://github.com/descholar-ceo/substring/blob/develop/substring.rb)
 * [Jameel's Solution](https://github.com/big-meel/ruby-code/blob/master/substrings.rb)
