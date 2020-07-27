@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [miknick's Solution](https://github.com/miknick/Restaurant-Page) - [View in Browser](https://miknick.github.io/Restaurant-Page/index.html)
 - [2598Nitz's Solution](https://github.com/2598Nitz/restaurant-page) - [View in Browser](https://2598nitz.github.io/restaurant-page/)
 - [Bertil Tandayamo's Solution](https://github.com/bertil291utn/restaurant-page) - [View in Browser](https://bertil291utn.github.io/restaurant-page/#)
 - [afzaman's Solution](https://github.com/afzaman/restaurant) - [View in Browser](https://afzaman.github.io/restaurant/)
@@ -224,4 +225,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Nijepa's Solution](https://github.com/nijepa/restaurant-page) - [View in Browser](https://nijepa.github.io/restaurant-page/)
 - [lonewolf045's Solution](https://github.com/lonewolf045/restaurant-page) - [View in Browser](https://lonewolf045.github.io/restaurant-page/)
 - [liampc's Solution](https://github.com/liampc/Restaurant-Page) - [View in Browser](https://liampc.github.io/Restaurant-Page/)
+- [Martin Echenique's Solution](https://github.com/MartinEchenique/restaurant-page) - [View in Browser](https://martinechenique.github.io/restaurant-page/)
 </details>

@@ -41,7 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Luiz's Solution](https://github.com/luizgmacedo/Rock-Paper-Scissors)
+- [Luke's Solution](https://github.com/LukeMcCarthy58/top-rock-paper-scissors)
+- [KCKat's Solution](https://github.com/kckat/rock-paper-scissors)
+- [Zane's Solution](https://github.com/Zane97/rock-paper-scissors)
 - [leinierperez's Solution](https://github.com/leinierperez/rock-paper-scissors)
+- [Bliguy's Solution](https://github.com/bliguy/rock-paper-scissor) - [View in Browser](https://bliguy.github.io/rock-paper-scissor/)
 - [ivantbv's Solution](https://github.com/ivantbv/rock-paper-scissors) - [View in Browser](https://ivantbv.github.io/rock-paper-scissors/)
 - [pir4cy's Solution](https://github.com/pir4cy/rock-paper-scissors) - [View in Browser](https://pir4cy.github.io/rock-paper-scissors/)
 - [hjanday's Solution](https://github.com/hjanday/RockPaperScissors) 
@@ -1813,7 +1818,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ayushbasak's Solution](https://github.com/ayushbasak/rps) - [View in Browser](https://ayushbasak.github.io/rps/)
 - [Wei-Ting Yap's Solution](https://github.com/weiting109/the-odin-proj-projects/blob/master/rock-paper-scissors/rock-paper-scissors.html)
 - [Alexander Glez's Solution](https://github.com/Covicale/RockPaperScissors) - [View in Browser](https://covicale.github.io/RockPaperScissors/)
-<<<<<<< HEAD
 - [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors)
 - [Marko Markovitz's Solution](https://github.com/markanjski/Rock-Paper-Scissors) - [View in Browser](https://markanjski.github.io/Rock-Paper-Scissors/)
 - [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors) - [View in Browser](https://robertompfm.github.io/rock-paper-scissors/)
@@ -1833,6 +1837,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Veronica's Solution](https://github.com/VJones2112/rockpaperscissors_theodinproject)
 - [Culinarytracker's Solution](https://github.com/Culinarytracker/The-Odin-Project-Rock-Paper-Scissors)
 - [portable's Solution](https://github.com/portableDD/game-house)
->>>>>>> ba45c953980fd7d3f51fa71d79a0d45478100f4a
+- [whmcquaid's Solution](https://github.com/whmcquaid/rock_paper_scissors) - [View in Browser](https://whmcquaid.github.io/rock_paper_scissors/rock_paper.html)
+- [Yog.0's Solution](https://github.com/Yog0/rps)
 </details>
 

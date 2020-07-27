@@ -36,6 +36,8 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [azrilhafizi's Solution](https://github.com/azrilhafizi/odinproject-nodejs)
+- [vonhoro's Solution](https://github.com/vonhoro/Small-server)
 - [Sherman's Solution](https://github.com/shermansjliu/basic-informational-site) - [View in Browswer](https://repl.it/github/shermansjliu/basic-informational-site)
 - [Andrey's Solution](https://github.com/AndreySkopintsev/basic-nodejs-site) - [View in Browser](https://repl.it/@AAndrewSk/basic-nodejs-site#README.md)
 - [Angelo's Solution](https://github.com/angelokora/basic-information-website) - [View in Browser](https://basic-information-website--angelodafia.repl.co)
