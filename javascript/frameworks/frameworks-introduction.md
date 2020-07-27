@@ -2,7 +2,7 @@
 
 By this point you have probably heard about JavaScript frameworks such as React, Angular or Vue. Almost all major web apps being built today use frameworks and many job postings ask for experience with at least one of them. But what are they? We aren't going to spend too much time teaching you all the nitty-gritty details of each of these frameworks, but knowing what they do and how to get started with one of them is crucial in todays web-dev world.
 
-### What _is_ a framework?
+### What is a framework?
 
 Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time manipulating the DOM with code like `document.createElement` or `element.innerHTML`. Every time you wanted to change some data like marking a todo complete, or adding a book to your library you had run a function that updates your entire page just to keep your view in sync with the data.  This is a very verbose and error-prone way of doing things! 
 
@@ -51,7 +51,7 @@ The rest of this section will go through the 3 most popular front-end frameworks
 
 1. Spend a little time poking around the sites for various frameworks above to get a feel for what's out there.
 2. Check out [this recent survey](https://2019.stateofjs.com/front-end-frameworks/) to get a feel for the general popularity and usage of the various frameworks.
-3. [This survey](https://insights.stackoverflow.com/survey/2019#technology) is not JS or web centered, but includes some data about frameworks.
+3. [This survey](https://insights.stackoverflow.com/survey/2020#technology) is not JS or web centered, but includes some data about frameworks.
 4. [This video](https://www.youtube.com/watch?v=KMX1mFEmM3E) gives a good overview and comparison of the 'Big 3'.
 
 ### Additional Resources

@@ -33,6 +33,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [HaroonAbdulrazaq's solution - Devsummit](https://github.com/Haroonabdulrazaq/Devsummit) - [View in Browser](https://haroonabdulrazaq.github.io/Devsummit/)
 * [Rarysson's solution - Grid Lib Framework](https://github.com/rarysson/grid-lib) - [5by5 Site Clone](https://github.com/rarysson/5by5-clone) - [View in Browser](https://rarysson.github.io/5by5-clone/)
 * [Julio's solution - Framework](https://github.com/julio22b/my-CSS-framework) - [Letterboxd clone](https://github.com/julio22b/letterboxd-home) - [View in Browser](https://julio22b.github.io/letterboxd-home/)
 * [Igorashs's Solution - Framework](https://github.com/igorashs/gridlay) - [The Odin Project Clone](https://github.com/igorashs/the-odin-project-page) - [View in browser](https://igorashs.github.io/the-odin-project-page/)
@@ -67,6 +68,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Ohlie's Solutions](https://github.com/lco1220/grid_based_framework) - [Example Site](https://lco1220.github.io/grid_based_framework/)
 * [themetar's solution](https://github.com/themetar/css-framework) - [Example site](https://themetar.github.io/odin-project-page-clone/)
 * [ranmaru22's Solution: griddy](https://github.com/ranmaru22/griddy) - [Example Site](https://ranmaru22.github.io/griddy/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/custom-css-grid-framework) - [Example Site](https://github.com/barrysweeney/custom-grid-site) - [View in Browser](https://barrysweeney.github.io/custom-grid-site/)
+* [Timework's - Framework](https://github.com/Timework/framework) - [The Odin Project Clone](https://github.com/Timework/odin-clone) - [View in browser](https://timework.github.io/odin-clone/)
 </details>
 
 ### Additional Resources
