@@ -1833,5 +1833,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Culinarytracker's Solution](https://github.com/Culinarytracker/The-Odin-Project-Rock-Paper-Scissors)
 - [portable's Solution](https://github.com/portableDD/game-house)
 - [whmcquaid's Solution](https://github.com/whmcquaid/rock_paper_scissors) - [View in Browser](https://whmcquaid.github.io/rock_paper_scissors/rock_paper.html)
+- [Yog.0's Solution] (https://github.com/Yog0/rps)
 </details>
 
