@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Tic-Tac-Toe/blob/master/tictactoe.rb) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/TOP-Tic-Tac-Toe#main.rb)
+* [descholar's Solution](https://github.com/descholar-ceo/tic-tac-toe-1) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/TOP-Tic-Tac-Toe)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/tictactoe) - [View in repl.it](https://repl.it/@Haroon136/tictactoe#Logic.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/tic_tac_toe.rb) - [View in repl.it](https://repl.it/@cbpolley/tictactoe#main.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/ttt.rb) - [View in repl.it](https://repl.it/repls/MadeupSpiritedMap#main.rb)
@@ -430,6 +432,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@cbpolley/mastermind#main.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/mastermind.rb) - [View in repl.it](https://mastermind.gogvale.repl.run/)
 * [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/7_mastermind.rb) - [View in repl.it](https://repl.it/@Risanto/mastermind#main.rb)
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/mastermind)
@@ -727,6 +730,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jding9's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/mastermind/blob/master/mastermind.rb)
 * [bhenning83’s Solution](https://github.com/bhenning83/mastermind/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@bhenning83/mastermind#main.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-oops/blob/master/mastermind.rb)
 
 </details>
 
