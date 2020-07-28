@@ -4068,7 +4068,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Christopher's Solution (Easy)](https://github.com/christopheralagna/google-homepage) - [View in Browser](https://christopheralagna.github.io/google-homepage/)
 * [Aamnayy6's Solution (Easy)](https://github.com/Aamnayy6/google-homepage) - [View in Browser](https://aamnayy6.github.io/google-homepage/)
 * [Aashna4's solution (Easy)](https://github.com/Aashna4/google-homepage) - [View in Browser](https://aashna4.github.io/google-homepage/)
-*ayeshaqb's solution (easy) https://ayeshaqb.github.io/google-homepage/
+* [ayeshaqb's Solution (Easy)](https://ayeshaqb.github.io/google-homepage/)
 </details>
 
 
