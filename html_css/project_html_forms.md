@@ -194,6 +194,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/sign-up-form) - [View in Browser](https://ansellmaximilian.github.io/sign-up-form/)
 * [Kenneth H's Solution](https://github.com/kholston/html-forms) - [View in Browser](https://kholston.github.io/html-forms/)
 * [Nijepa's Solution](https://github.com/nijepa/html-forms) - [View in Browser](https://nijepa.github.io/html-forms/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/htmlforms)
 </details>
 
 ### Additional Resources
