@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [An0therHuman's Solution](https://github.com/An0therHuman/RPS-Project) - [View in Browser](https://an0therhuman.github.io/RPS-Project/)
 - [Luiz's Solution](https://github.com/luizgmacedo/Rock-Paper-Scissors)
 - [Luke's Solution](https://github.com/LukeMcCarthy58/top-rock-paper-scissors)
 - [KCKat's Solution](https://github.com/kckat/rock-paper-scissors)
@@ -1818,6 +1819,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ayushbasak's Solution](https://github.com/ayushbasak/rps) - [View in Browser](https://ayushbasak.github.io/rps/)
 - [Wei-Ting Yap's Solution](https://github.com/weiting109/the-odin-proj-projects/blob/master/rock-paper-scissors/rock-paper-scissors.html)
 - [Alexander Glez's Solution](https://github.com/Covicale/RockPaperScissors) - [View in Browser](https://covicale.github.io/RockPaperScissors/)
+- [Marko Markovitz's Solution](https://github.com/markanjski/Rock-Paper-Scissors) - [View in Browser](https://markanjski.github.io/Rock-Paper-Scissors/)
 - [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors) - [View in Browser](https://robertompfm.github.io/rock-paper-scissors/)
 - [Denzel's Solution](https://github.com/denzUp/rock-paper-scissors-game) - [View in Browser](https://denzup.github.io/rock-paper-scissors-game/)
 - [Bones81's Solution](https://github.com/Bones81/RockPaperScissors) - [View in Browser](https://bones81.github.io/RockPaperScissors/)
@@ -1837,5 +1839,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [portable's Solution](https://github.com/portableDD/game-house)
 - [whmcquaid's Solution](https://github.com/whmcquaid/rock_paper_scissors) - [View in Browser](https://whmcquaid.github.io/rock_paper_scissors/rock_paper.html)
 - [Yog.0's Solution](https://github.com/Yog0/rps)
+- [Christopher's Solution](https://github.com/christopheralagna/rock-paper-scissors) - [View in Browser](https://christopheralagna.github.io/rock-paper-scissors/)
 </details>
-
