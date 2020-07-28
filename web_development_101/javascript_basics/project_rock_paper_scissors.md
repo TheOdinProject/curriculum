@@ -1827,7 +1827,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [nexus0208's Solution](https://github.com/nexus0208/Rock-Paper-Scissors) - [View in Browser](https://nexus0208.github.io/Rock-Paper-Scissors/)
 - [Pradip's Solution](https://github.com/HTPA97/rock_paper)
 - [MayarHassanin's Solution](https://github.com/Mayar-Hassanin98/Rock-Paper-Scissors) - [View in Browser](https://mayar-hassanin98.github.io/Rock-Paper-Scissors/)
-- [Michael's Solution](https://github.com/moinabyssinia/rock-paper-scissors) - [View in Browser](https://moinabyssinia.github.io/rock-paper-scissors/)
 - [sforber's Solution](https://github.com/sforber/rockpaperscissors) - [View in Browser](https://sforber.github.io/rockpaperscissors/)
 - [Daniel's Solution](https://github.com/DanielLam98/RockPaperScissors) - [View in Browser](https://daniellam98.github.io/RockPaperScissors/)
 - [Maciej's Solution](https://github.com/MaciejWojtasiak/Rock-Paper-Scissors) - [View in Browser](https://maciejwojtasiak.github.io/Rock-Paper-Scissors/)
@@ -1841,4 +1840,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Yog.0's Solution](https://github.com/Yog0/rps)
 - [Christopher's Solution](https://github.com/christopheralagna/rock-paper-scissors) - [View in Browser](https://christopheralagna.github.io/rock-paper-scissors/)
 - [Tim Barnes' Solution](https://github.com/timcbarnes/rock-paper-scissors)
+- [Michael's Solution](https://github.com/moinabyssinia/rock-paper-scissors) - [View in Browser](https://moinabyssinia.github.io/rock-paper-scissors/)
 </details>
