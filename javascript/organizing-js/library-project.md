@@ -41,11 +41,18 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [DoviMaj's Solution (w/ local storage](https://github.com/DoviMaj/my-book-shelf) - [View in Browser](https://dovimaj.github.io/my-book-shelf/)
+- [hd505495's Solution (w/ Local Storage)](https://github.com/hd505495/library) - [View in Browser](https://hd505495.github.io/library/)
+- [Felipe Caldeira's Solution (w/ Local Storage)](https://github.com/Felipe-Caldeira/TOP-Library) - [View in Browser](https://felipe-caldeira.github.io/TOP-Library/)
+- [Alexander Glez's Solution (w/ Local Storage)](https://github.com/Covicale/Book-Library) - [View in Browser](https://covicale.github.io/Book-Library/)
+- [Daniel's Solution (w/ Local Storage)](https://github.com/daniel-moderiano/library) - [View in Browser](https://daniel-moderiano.github.io/library/)
+- [Musa Hamad's Solution (w/ Local Storage)](https://github.com/Musa2018/LIBRARY) - [View in Browser](https://musa2018.github.io/LIBRARY/)
+- [marslavish's Solution (w/ Firebase)](https://github.com/marslavish/library) - [View in Browser](https://marslavish.github.io/library/)
+- [Dean Oh's Solution (w/ Firebase)](https://github.com/JuicyMelon/Library) - [View in Browser](https://juicymelon.github.io/Library/)
+- [DoviMaj's Solution (w/ Local Storage)](https://github.com/DoviMaj/my-book-shelf) - [View in Browser](https://dovimaj.github.io/my-book-shelf/)
 - [Estela's Solution](https://estelajimero.github.io/Library/) - [View in Browser](https://estelajimero.github.io/Library/)
 - [Shikhar Sharma's Solution (w/ Firebase)](https://github.com/shikhar-sharma1703/Web-dev/tree/master/library) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/library/)
 - [Abdel Pérez's Solution](https://github.com/abdelp/library) - [View in Browser](https://ecstatic-lewin-0c511a.netlify.app)
-- [ray0h's Solution (w/localstorage)](https://github.com/ray0h/TheOdinProjectExercises/tree/master/Library) - [View in Browser](https://ray0h.github.io/Library/)
+- [ray0h's Solution (w/ Local Storage)](https://github.com/ray0h/TheOdinProjectExercises/tree/master/Library) - [View in Browser](https://ray0h.github.io/Library/)
 - [Lakshya Singh's Solution (w/ Firebase)](https://github.com/king-11/Library) - [View in Browser](https://librarybuilder.ml/)
 - [Sasoun Torossian' Solution (w/ Local Storage)](https://github.com/SasounTorossian/Library) - [View in Browser](https://sasountorossian.github.io/Library/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/library) - [View in Browser](https://cyber-mat.github.io/library/)
@@ -162,7 +169,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Paul's Solution](https://github.com/ppayne12/library) - [View in Browser](https://ppayne12.github.io/library/)
 - [Lyle Aigbedion's Solution](https://github.com/lyleaigbedion/library) - [View in Browser](https://lyleaigbedion.github.io/library/)
 - [James's Solution](https://github.com/ericksen-github/Library) - [View in Browser](https://ericksen-github.github.io/Library/)
-- [Justinkar's Solution](https://github.com/justinkar/library) - [View in Browser](https://justinkar.github.io/library/)
 - [Simon's Solution](https://github.com/Sim-frpt/basic-library) - [View in Browser](https://sim-frpt.github.io/basic-library/)
 - [nearmint's Solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
 - [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/BookShelf) - [View in Browser](https://zyusuf10.github.io/BookShelf/index.html)
@@ -365,4 +371,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Jamesredux's Solution](https://github.com/Jamesredux/library-app) - [View in Browser](https://jamesredux.github.io/library-app/)
 - [joankii's Solution (w/firebase)](https://github.com/joan-kii/TOP-library) - [View in Browser](https://joan-kii.github.io/TOP-library/)
 - [Martin Echenique's Solution](https://github.com/MartinEchenique/book-library) - [View in Browser](https://martinechenique.github.io/book-library/)
+- [Timework's Solution (w/ Local Storage)](https://github.com/Timework/library) - [View in Browser](https://timework.github.io/library/)
 </details>

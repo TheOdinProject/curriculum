@@ -19,8 +19,10 @@ Next, make sure your method can handle multiple words:
 
 ~~~ruby
   > substrings("Howdy partner, sit down! How's it going?", dictionary)
-  => { "down" => 1, "how" => 2, "howdy" => 1,"go" => 1, "going" => 1, "it" => 2, "i" => 3, "own" => 1,"part" => 1,"partner" => 1,"sit" => 1 }
+  => { "down" => 1, "go" => 1, "going" => 1, "how" => 2, "howdy" => 1, "it" => 2, "i" => 3, "own" => 1, "part" => 1, "partner" => 1, "sit" => 1 }
 ~~~
+
+Please note the order of your keys might be different.
 
 **Quick Tips:**
 
@@ -34,6 +36,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [zstearman3's Solution](https://github.com/zstearman3/odin-basic-ruby/blob/master/substrings.rb)
+* [MiDDiz's Solution](https://github.com/MiDDiz/OdinRuby/blob/master/substrings.rb)
+* [descholar's Solution](https://github.com/descholar-ceo/substring/blob/develop/substring.rb)
 * [Jameel's Solution](https://github.com/big-meel/ruby-code/blob/master/substrings.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/substrings.rb)
 * [cbpolleys's Solution](https://github.com/cbpolley/rubyTest/blob/master/substrings.rb)
@@ -547,4 +552,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [bhenning83's Solution](https://github.com/bhenning83/substrings/blob/master/substrings.rb)
 * [satchelsmidt's Solution](https://github.com/satchelsmidt/Odin_Project_Ruby/blob/master/02_substrings.rb)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-substring/blob/master/substring.rb)
+* [sforber's Solution](https://github.com/sforber/ruby-substrings/blob/master/substrings.rb)
+* [juggler39's Solution](https://github.com/juggler39/ruby_assignments/blob/master/substrings.rb)
 </details>
