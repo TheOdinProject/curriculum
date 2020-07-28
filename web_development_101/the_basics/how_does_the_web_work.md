@@ -42,17 +42,10 @@ At the end of this lesson, you should be able to do the following:
   </ul></ul>
  </details>
  
-  <details>
-  <summary>In your own words, explain what happens when you run a search on google.com.</summary>
-  <ul><ul>
-    <li>Google receives the request, look for it in their databases and send back the results</li>
-  </ul></ul>
- </details>
- 
  <details>
-  <summary>Explain what IP address is</summary>
+  <summary>Explain what IP addresses are</summary>
   <ul><ul>
-    <li>IP adrress is a number that identifies a destination in a network.</li>
+    <li>IP addresses are numerical identifications that specifies a destination in a network.</li>
    </ul></ul>
  </details>
   
@@ -63,6 +56,12 @@ At the end of this lesson, you should be able to do the following:
   </ul></ul>
  </details>
   
+ <details>
+  <summary>In your own words, explain what happens when you run a search on google.com.</summary>
+  <ul><ul>
+    <li>Google receives the request, look for it in their databases and send back the results</li>
+  </ul></ul>
+ </details>
 
 ### Assignment
 
