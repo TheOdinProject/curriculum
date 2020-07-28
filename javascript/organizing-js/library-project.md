@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [hd505495's Solution (w/ Local Storage)](https://github.com/hd505495/library) - [View in Browser](https://hd505495.github.io/library/)
 - [Felipe Caldeira's Solution (w/ Local Storage)](https://github.com/Felipe-Caldeira/TOP-Library) - [View in Browser](https://felipe-caldeira.github.io/TOP-Library/)
 - [Alexander Glez's Solution (w/ Local Storage)](https://github.com/Covicale/Book-Library) - [View in Browser](https://covicale.github.io/Book-Library/)
 - [Daniel's Solution (w/ Local Storage)](https://github.com/daniel-moderiano/library) - [View in Browser](https://daniel-moderiano.github.io/library/)
