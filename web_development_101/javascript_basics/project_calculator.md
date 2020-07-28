@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ramanjs' Solution](https://github.com/Ramanjs/calculator) - [View in Browser](https://ramanjs.github.io/calculator/)
 - [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/Calculator) - [View in Browser](https://wise-king-sullyman.github.io/Calculator/)
 - [AGL's Solution](https://github.com/agl9/calculator) - [View in Browser](https://agl9.github.io/calculator/)
 - [Alex Schwartz's Solution](https://github.com/ofthesoul/calculator) - [View in Browser](https://ofthesoul.github.io/calculator/)
