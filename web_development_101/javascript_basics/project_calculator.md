@@ -843,4 +843,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jonathan Altine's Solution](https://github.com/JonathanAltine/Calculator) - [View in Browser](https://jonathanaltine.github.io/Calculator/)
 - [Orhan's Solution](https://github.com/orhanugurlu/the_odin_project/tree/master/calculator) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/calculator/)
 - [cvillere's Solution](https://github.com/cvillere/Calc_proj) - [View in Browser](https://cvillere.github.io/Calc_proj/)
+- [sal's Solution](https://github.com/Sal-theSadmanShark/Js_Calculator) - [View in Browser](https://sal-thesadmanshark.github.io/Js_Calculator/)
 </details>
