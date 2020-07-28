@@ -59,7 +59,7 @@ At the end of this lesson, you should be able to do the following:
  <details>
   <summary>In your own words, explain what happens when you run a search on google.com.</summary>
   <ul><ul>
-    <li>Google receives the request, look for it in their databases and send back the results</li>
+    <li>User sends request by clicking search button. Google receives the request, looks for the contents of the request in their databases, and sends back the result as a response.</li>
   </ul></ul>
  </details>
 
