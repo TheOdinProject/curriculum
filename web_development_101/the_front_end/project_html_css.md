@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [redhendery's solution (Easy)] (https://github.com/redhendery/google-homepage)
+* [redhendery's Solution (Easy)](https://github.com/redhendery/google-homepage)
 * [Error-Undefined-Value's Solution (Easy)](https://github.com/error-undefined-value/google-homepage-clone) - [View in Browser](https://error-undefined-value.github.io/google-homepage-clone/)
 * [ianhyland20's Solution (Easy)](https://github.com/ianhyland20/google-homepage) - [View in Browser](https://ianhyland20.github.io/google-homepage/)
 * [ajromeroch's Solution (Easy)](https://github.com/ajromeroch/google-homepage) - [View in Browser](https://ajromeroch.github.io/google-homepage/)   
