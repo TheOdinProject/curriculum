@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [Sizwe Malobola's Solution (Easy)](https://github.com/SizweMalobola/google-homepage) - [View in Browser](https://sizwemalobola.github.io/google-homepage/)
+* [pshi928's Solution (Easy)](https://github.com/pshi928/google-homepage) - [View in Browser](https://pshi928.github.io/google-homepage/)
 * [Sizwe Malobola's Solution (Hard)](https://github.com/SizweMalobola/google-homepage_difficult) - [View in Browser](https://sizwemalobola.github.io/google-homepage_difficult/)
 * [redhendery's Solution (Easy)](https://github.com/redhendery/google-homepage)
 * [Error-Undefined-Value's Solution (Easy)](https://github.com/error-undefined-value/google-homepage-clone) - [View in Browser](https://error-undefined-value.github.io/google-homepage-clone/)
