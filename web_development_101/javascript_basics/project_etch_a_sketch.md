@@ -935,9 +935,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Pedro Windisch's Solution](https://github.io/pedrowindisch/TOP-etch-a-sketch) - [View in Browser](https://pedrowindisch.github.io/TOP-etch-a-sketch/)
 * [Vinnav's Solution](https://github.com/vinnav/Odin-Etch-a-sketch) - [View in Browser](https://vinnav.github.io/Odin-Etch-a-sketch/)
 * [mre91's Solution](https://github.com/mre91/etch-a-sketch) - [View in Browser](https://mre91.github.io/etch-a-sketch/)
-<<<<<<< HEAD
-* [Gandolfthewise Solution] (https://github.com/gandolfthewise/etch-a-sketch)
-=======
+* [Gandolfthewise Solution](https://github.com/gandolfthewise/etch-a-sketch)
 * [Udit's Solution (uditj97)](https://github.com/uditj97/etch-a-sketch)
 * [Ivan's Solution](https://github.com/ivandjorgon/etch-a-sketch)
 * [Synte's Solution](https://github.com/Synte/etch-a-sketch) - [View in Browser](https://synte.github.io/etch-a-sketch/)
@@ -1191,5 +1189,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [terraxus94's Solution](https://github.com/terraxus94/etchasketch) - [View in Browser](https://terraxus94.github.io/etchasketch/)
 * [Anthony Encarnacion's Solution](https://github.com/AntEncarnacion/ETCH-A-SKETCH) - [View in Browser](https://antencarnacion.github.io/ETCH-A-SKETCH/)
 * [Charlie Tobler's Solution](https://github.com/cstobler/etch-a-sketch) - [View in Browser](https://cstobler.github.io/etch-a-sketch/)
->>>>>>> f4dc1ca321ac38f95dc611c32e9cb28551d697ee
 </details>
