@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+* [Pallavi's Solution](https://github.com/pmaity7/etch-a-sketch) - [View in Browser](https://pmaity7.github.io/etch-a-sketch/)
+* [Huy Pham's Solution](https://github.com/huypham048/etch-A-sketch) - [View in Browser](https://huypham048.github.io/etch-A-sketch/)
 * [Benimanjaro's Solution](https://github.com/beniamanjaro/PROJECT-ETCH-A-SKETCH) - [View in Browser](https://beniamanjaro.github.io/PROJECT-ETCH-A-SKETCH/)
 * [Neil's Solution](https://github.com/neilkurien/etch-a-sketch) - [View in Browser](http://neilkurien.github.io/etch-a-sketch)
 * [pir4cy's Solution](https://github.com/pir4cy/etch-a-sketch) - [View in Browser](https://pir4cy.github.io/etch-a-sketch)
@@ -935,6 +937,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Pedro Windisch's Solution](https://github.io/pedrowindisch/TOP-etch-a-sketch) - [View in Browser](https://pedrowindisch.github.io/TOP-etch-a-sketch/)
 * [Vinnav's Solution](https://github.com/vinnav/Odin-Etch-a-sketch) - [View in Browser](https://vinnav.github.io/Odin-Etch-a-sketch/)
 * [mre91's Solution](https://github.com/mre91/etch-a-sketch) - [View in Browser](https://mre91.github.io/etch-a-sketch/)
+* [Gandolfthewise Solution](https://github.com/gandolfthewise/etch-a-sketch)
 * [Udit's Solution (uditj97)](https://github.com/uditj97/etch-a-sketch)
 * [Ivan's Solution](https://github.com/ivandjorgon/etch-a-sketch)
 * [Synte's Solution](https://github.com/Synte/etch-a-sketch) - [View in Browser](https://synte.github.io/etch-a-sketch/)
@@ -1189,4 +1192,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Anthony Encarnacion's Solution](https://github.com/AntEncarnacion/ETCH-A-SKETCH) - [View in Browser](https://antencarnacion.github.io/ETCH-A-SKETCH/)
 * [Charlie Tobler's Solution](https://github.com/cstobler/etch-a-sketch) - [View in Browser](https://cstobler.github.io/etch-a-sketch/)
 * [Pikkuruusu's Solution](https://github.com/pikkuruusu/etch-a-sketch) - [View in Browser](https://pikkuruusu.github.io/etch-a-sketch/)
+* [Wulfen's Solution](https://github.com/wulfenn/etch-a-sketch) - [View in Browser](https://wulfenn.github.io/etch-a-sketch/)
 </details>
