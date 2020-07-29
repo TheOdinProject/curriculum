@@ -497,7 +497,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-rails-blogger) - [View in Browser](https://whispering-wave-20353.herokuapp.com/)
 * [Ken H's Solution ](https://github.com/kholston/blogger) - [View in Browser](https://warm-oasis-24373.herokuapp.com/)
 * [Chris H's Solution](https://github.com/CKHarrison/Blog) - [View in Browser](https://blooming-badlands-82585.herokuapp.com/)
-** [clinton wambugu's Solution](https://github.com/kwambugu/Jumpstart-Lab-s-Blogger-Tutorial) - [View in Browser](https://morning-island-42848.herokuapp.com/)
+* [clinton wambugu's Solution](https://github.com/kwambugu/Jumpstart-Lab-s-Blogger-Tutorial)
 </details>
 
 ### Additional Resources
