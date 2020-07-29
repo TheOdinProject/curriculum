@@ -226,4 +226,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [lonewolf045's Solution](https://github.com/lonewolf045/restaurant-page) - [View in Browser](https://lonewolf045.github.io/restaurant-page/)
 - [liampc's Solution](https://github.com/liampc/Restaurant-Page) - [View in Browser](https://liampc.github.io/Restaurant-Page/)
 - [Martin Echenique's Solution](https://github.com/MartinEchenique/restaurant-page) - [View in Browser](https://martinechenique.github.io/restaurant-page/)
+- [Danyl Matviyenko’s Solution](https://github.com/DanylMatviyenko/TheOdinProject-RestaurantPage-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-RestaurantPage-/)
 </details>
