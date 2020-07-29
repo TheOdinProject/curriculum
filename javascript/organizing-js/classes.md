@@ -5,6 +5,18 @@ There is a bit of controversy about using the class syntax, however. Opponents a
 
 Since we've already gone fairly in-depth with Constructors, you don't have too much left to learn here beyond the new syntax. If you choose to use classes in your code (that's fine!) you can use them much the same way as object constructors.
 
+### Learning Outcomes
+After this lesson and completing the assignments, you will be able to:
+
+- Describe the pros and cons of using classes in JavaScript.
+- Briefly discuss the difference between JavaScript's object creation differs from a language like Java or Ruby.
+- Explain the differences between using a class to define a constructor and other prototype methods.
+- Explain what "getters" & "setters" are.
+- Understand what computed names and class fields are.
+- Describe function binding.
+- Be able to use inheritance with classes.
+- Briefly talk about the conflict in JS with functional programming and classes.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">

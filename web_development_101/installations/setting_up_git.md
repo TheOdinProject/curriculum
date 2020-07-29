@@ -28,7 +28,7 @@ It's likely you have `git` installed already, but it won't hurt to try to instal
 simply run the command 
 
 ~~~bash
-sudo apt install git
+sudo apt install curl git
 ~~~
 
 </details>
@@ -37,6 +37,13 @@ sudo apt install git
 <details markdown="block">
 <summary class="dropDown-header">MacOS
 </summary>
+  
+#### Step 1.0: Install Homebrew
+First, you'll need to install Homebrew. Copy and paste the following into your terminal:
+
+~~~bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+~~~
 
 #### Step 1.1: Update Git
 
@@ -90,7 +97,7 @@ First, we need to see if you have an SSH key already installed. Type this into t
 ls ~/.ssh/id_rsa.pub
 ~~~
 
-If the message in the console contains `No such file or directory`, then you don't have an SSH key, and you'll need to create one. If you do not see `No such file or directory` in the output, you already have a key; proceed to step 2.4.
+If a message appears in the console containing the text "No such file or directory", then you do not yet have an SSH key, and you will need to create one. If no message has appeared in the console output, you already have a key and can proceed to step 2.4.
 
 To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are. 
 
@@ -123,7 +130,10 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
-https://help.github.com/en/articles/testing-your-ssh-connection
+Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/hvqVr6d) to ask for help. 
 
-Go to that link and verify everything matches up, if it doesn't try doing these steps again, or come to the discord chat for help. 
+### Step 3: Let us know how it went!
 
+You have successfully completed the installations section. If you are doing the front-end or Node courses then you have everything you need. If you're doing Ruby and Rails we'll install those tools when you get to those courses.
+
+You probably felt like you were in way over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.

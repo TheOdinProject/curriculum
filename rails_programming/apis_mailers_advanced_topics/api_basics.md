@@ -2,7 +2,7 @@
 
 Working with APIs is awesome and frustrating at the same time.  On the one hand, interfacing with other applications out there can greatly improve the reach and "cool factor" of your own app.  On the other, it involves lots of reading through documentation, figuring out authentication strategies, and parsing bad (or nonexistent) error messages.
 
-Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read the Skillcrush explanation](http://skillcrush.com/2012/07/04/api-2/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
+Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read the Skillcrush explanation](https://skillcrush.com/2012/04/16/api/1346413073000/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
 
 "API" is an incredibly broad concept -- any time your application talks to another application, that's via some sort of API.  The components within your own application, e.g. the different pieces of Rails, also talk to each other via APIs... they are more or less independent sub-applications that pass along the data they each need to complete their particular task.  Everything's an API in application-land!
 
@@ -13,7 +13,7 @@ In this lesson, we'll cover how to build your own API.  In the following lesson,
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* How does Rails know which type of file you are expecting back when you make an HTTP request.
+* How does Rails know which type of file you are expecting back when you make an HTTP request?
 * What is the purpose of the `#respond_to` method?
 * How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?
 * What are the two steps performed behind the scenes by the `#to_json` method?
@@ -187,7 +187,7 @@ You probably won't be worrying too much about SOA while building "toy" applicati
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Rails Guide on Controllers](http://guides.rubyonrails.org/action_controller_overview.html) section 7 to learn about rendering JSON and XML.
+  1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data) section 7 to learn about rendering JSON and XML.
   2. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
 </div>
 

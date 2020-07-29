@@ -58,4 +58,3 @@ Additionally, we have made our learning materials completely open source.  This 
 ## Contributing
 
 If you would like to contribute to this project, [please contact us here](https://discord.gg/hvqVr6d).
-

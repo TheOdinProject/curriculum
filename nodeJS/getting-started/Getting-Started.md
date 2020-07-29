@@ -39,8 +39,21 @@ This section contains questions for you to check your understanding of this less
 </ul></ul>
 </details>
 <details>
-<summary>What is the command for downloading a package in Node? Let's call the package "pikachu".</summary>
+<summary>What is the command for installing a package locally in with npm?</summary>
 <ul><ul>
-  <li>npm install pikachu</li>
+  <li>npm install `package-name`</li>
 </ul></ul>
 </details>
+<details>
+<summary>What is the command for installing a package globally in with npm?</summary>
+<ul><ul>
+  <li>npm install -g `package-name`</li>
+</ul></ul>
+</details>
+<details>
+<summary>What is the difference between a global and local package install with npm?</summary>
+<ul><ul>
+  <li>Global installs are available from anywhere on your computer, local installs are only available within a specified project.</li>
+</ul></ul>
+</details>
+

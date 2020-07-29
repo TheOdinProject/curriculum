@@ -22,12 +22,31 @@ Your Inventory app should have categories and items, so when the user goes to th
 </div>
 
 ### Student Solutions
-To add your solution to the list below, edit this [file](#) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
+To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/express-basics/Express-Inventory-Application.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Brian Tuju's Solution](https://github.com/briantuju/odinProject/tree/master/Node_JS/inventory) - [View in browser](https://inventoryapp--briantuju.repl.co)
-
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/game-inventory) - [View in Browser](https://game-inventory-kikupiku.herokuapp.com/)
+- [Julio's solution](https://github.com/julio22b/inventory-application) - [View in browser](https://inventory-app-top.herokuapp.com/catalog/)
+- [Simon's Solution](https://github.com/Sim-frpt/music-shop-inventory) - [View in Browser](https://agile-springs-42318.herokuapp.com/inventory/)
+- [Igorashs's Solution](https://github.com/igorashs/inventory-application) - [View in Browser](https://nameless-harbor-47929.herokuapp.com/catalog)
+- [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/boardgame-inventory) - [View in Browser](https://young-springs-70277.herokuapp.com/game/5e9d4fda3b91bf29f9b9f0ae)
+- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/inventory-application) - [View in Browser](https://henriquesousa-inventory.herokuapp.com/)
+- [Zakariye's Solution](https://github.com/ZYusuf10/PhoneInventory) - [View in Browser](https://limitless-escarpment-68136.herokuapp.com/catalog)
+- [Vanessacor's Solution](https://github.com/vanessacor/skateshop) - [View in Browser](https://skateshopinventory.herokuapp.com/catalog)
+- [tracy2811's Solution](https://github.com/tracy2811/inventory) - [View in Browser](https://fathomless-taiga-39964.herokuapp.com/)
+- [Vollantre's Solution](https://github.com/vollantre/inventory_app) - [View in Browser](https://secure-lowlands-33834.herokuapp.com/inventory)
+- [Eljoey's Solution](https://github.com/eljoey/Game-Inventory) - [View in Browser](https://immense-spire-45668.herokuapp.com/)
+- [rbkjefkj's Solution](https://github.com/rbkjefkj/inventory-app) - [View in Browser](https://glacial-mountain-36822.herokuapp.com/)
+- [jdonahue135's Solution](https://github.com/jdonahue135/golf_store) - [View in Browser](https://quiet-reaches-49920.herokuapp.com/)
+- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/odin-inventory-application) - [View in Browser](https://odin-inventory-application.herokuapp.com/)
+- [Aron's Solution](https://github.com/aronfischer/mern_inventory_project) - [View in Browser](https://aronfischer.github.io/mern_inventory_project/)
+- [Tayfun Sur's Solution](https://github.com/0xtaf/inventory-app) - [View in Browser](https://thawing-ocean-46751.herokuapp.com/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/buzzword-bazaar) - [View in Browser](https://secure-anchorage-38844.herokuapp.com/catalog)
+- [Mohamed's Solution](https://github.com/hamohuh/inventory-application) - [View in Browser](https://afternoon-atoll-93127.herokuapp.com/)
+- [ranmaru22's Solution](https://github.com/ranmaru22/my-inventory) - [View in Browser](https://gentle-island-35903.herokuapp.com)
+- [Vorelli's Solution](https://github.com/Vorelli/inventory-application) - [View in Browser](https://aqueous-brushlands-38489.herokuapp.com/)
+- [Emil Dimitrov's Solution](https://github.com/edmtrv/inventory-app) - [View in Browser](https://mighty-citadel-00007.herokuapp.com/)
 </details>
