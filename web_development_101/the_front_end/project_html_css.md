@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-[asi309's Solution (Easy)](https://github.com/asi309/google-homepage) - [View in Browser](https://asi309.github.io/google-homepage/)
+* [asi309's Solution (Easy)](https://github.com/asi309/google-homepage) - [View in Browser](https://asi309.github.io/google-homepage/)
 * [pshi928's Solution (Easy)](https://github.com/pshi928/google-homepage) - [View in Browser](https://pshi928.github.io/google-homepage/)
 * [Sizwe Malobola's Solution (Easy)](https://github.com/SizweMalobola/google-homepage) - [View in Browser](https://sizwemalobola.github.io/google-homepage/)
 * [Sizwe Malobola's Solution (Hard)](https://github.com/SizweMalobola/google-homepage_difficult) - [View in Browser](https://sizwemalobola.github.io/google-homepage_difficult/)
