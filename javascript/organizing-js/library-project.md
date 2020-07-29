@@ -373,4 +373,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [joankii's Solution (w/firebase)](https://github.com/joan-kii/TOP-library) - [View in Browser](https://joan-kii.github.io/TOP-library/)
 - [Martin Echenique's Solution](https://github.com/MartinEchenique/book-library) - [View in Browser](https://martinechenique.github.io/book-library/)
 - [Timework's Solution (w/ Local Storage)](https://github.com/Timework/library) - [View in Browser](https://timework.github.io/library/)
+- [trungxyz's Solution](https://github.com/trungxyz/library-for-books) - [View in Browser](https://trungxyz.github.io/library-for-books/)
 </details>
