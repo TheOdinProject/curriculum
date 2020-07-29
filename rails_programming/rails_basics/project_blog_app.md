@@ -25,6 +25,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 
+* [Neal Bayya's Solution](https://github.com/nealbayya/blog) - [View in Browser](https://fast-journey-07183.herokuapp.com/)
 * [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/Blogger) - [View in Browser](https://fast-harbor-38452.herokuapp.com/)
 * [Grant Cottle's Solution](https://github.com/grantmaster89/rails_blog) - [View in Browser](https://peaceful-inlet-81561.herokuapp.com/)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/blog_app_project) - [View in Browser](https://whispering-crag-79843.herokuapp.com/)
