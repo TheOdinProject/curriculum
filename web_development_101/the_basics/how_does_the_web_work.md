@@ -81,3 +81,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * Watch [A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
 * Consider buying the book [Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
 * If you're in for a bit more reading, you can check out the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. This book also touches on some topics covered later in the curriculum, such as developer tools and security. Additionally, you can learn about HTTP tools, which you may find helpful in the future.
+* Some advice on reading: We recommend that you only review the immediate links posted in our curriculum. You can always go deeper on any subject if you wish, but be careful not to overload yourself on information!  
