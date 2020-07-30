@@ -84,7 +84,7 @@ For this project we are going to use the following sample data:
 * [Small Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv)
 * [Large Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/intermediate_ruby/event_attendees_full.csv)
 
-Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the root of `event_manager` directory.
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the `event_manager/lib` directory.
 
 
 ~~~bash
