@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Jo's Solution (Easy)](https://github.com/MJae/OdinPrj/tree/master/google_homepage) - [View in Browser](https://mjae.github.io/OdinPrj/google_homepage/index.html)
 * [CLOEI's Solution (Easy)](https://github.com/CLOEI/google-homepage) - [View in Browser](https://cloei.github.io/google-homepage/)
 * [Hiro's Solution (Easy)](https://github.com/hrmtk/google-homepage) - [View in Browser](https://hrmtk.github.io/google-homepage/)
 * [adam-goodrich's Solution (Easy)](https://github.com/adam-goodrich/google-homepage) - [View in Browser](https://adam-goodrich.github.io/google-homepage/)
