@@ -113,6 +113,17 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [JvPelai's Solution](https://github.com/JvPelai/micro-reddit)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/active-record)
+* [Ryan Lewin's Solution](https://github.com/ryan-lewin/micro-reddit)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/Micro_reddit)
+* [irlgabriel's Solution](https://github.com/irlgabriel/micro-reddit)
+* [Christian's Solution](https://github.com/rueeazy/micro-reddit)
+* [fillingthemoon's Solution](https://github.com/fillingthemoon/micro-reddit)
+* [Jose Bohorquez's Solution](https://github.com/Bhrqz/micro-reddit)
+* [Christian's Solution](https://github.com/Cabonilla/building_with_active_record)
+* [jodokusquack's Solution](https://github.com/jodokusquack/micro-reddit)
+* [Nestor's Solution](https://github.com/nestor-c/Odin_Projects/tree/master/micro-reddit)
 * [Jithin's Solution](https://github.com/jithindasad/micro-reddit)
 * [YesSeri's Solution](https://github.com/YesSeri/micro-reddit)
 * [Mohamed Eltayeb's Solution](https://github.com/mohamedosamaeltayeb/Micro-Reddit)
@@ -251,6 +262,15 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [wilmir's Solution](https://github.com/Wilmir/micro-reddit)
 * [Lucas' Solution](https://github.com/Lucas-Vergara/micro-reddit)
 * [Timework's Solution](https://github.com/Timework/micro_reddit)
+* [Bendee's Solution](https://github.com/bendee48/micro-reddit)
+* [Robert Suazo's Solution](https://github.com/rsuazo/micro-reddit)
+* [Ken H's Solution](https://github.com/kholston/micro_reddit)
+* [Christian Páez's Solution](https://github.com/christian1894/micro-reddit)
+* [Chris H's Solution](https://github.com/CKHarrison/micro-reddit)
+* [fussykyloren's Solution](https://github.com/fussykyloren/micro-reddit)
+* [Smith's & Paul's Solution](https://github.com/SmithVyne/Micro-reddit)
+* [Rob Dulabon's Solution](https://github.com/RDulabon/microReddit) 
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/micro-reddit)
 </details>
 
 ### Additional Resources

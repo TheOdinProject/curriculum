@@ -35,6 +35,16 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/smashing-mag-heat-map) - [View in Browser](https://run-after.github.io/smashing-mag-heat-map/)
+* [Alex Zambrano's Solution](https://github.com/Alexoid1/design-teardown) - [View in Browser](https://alexoid1.github.io/design-teardown/)
+* [descholar's Solution](https://github.com/descholar-ceo/smashing-magazine-heatmap) - [View in Browser](https://competent-ride-d3d6c8.netlify.app/)
+* [Stanley Enow's Solution](https://github.com/happiguru/design-teardown/tree/design-teardown-feature-branch) - [View in Browser](https://raw.githack.com/happiguru/design-teardown/design-teardown-feature-branch/index.html)
+* [Witah Georjane's Solution](https://github.com/Georjane/Smashing-Magazine-Heatmap) - [View in Browser](https://rawcdn.githack.com/Georjane/Smashing-Magazine-Heatmap/631b820ebda7534fdbc7370030e0902fc92aba3b/index.html)
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/design-teardown) - [View in Browser](https://andrsrz.github.io/design-teardown/)
+* [Haroon Abdulrazaq's Solution](https://github.com/talhawaqar/design-teardown) - [View in Browser](https://raw.githack.com/talhawaqar/design-teardown/feature-page/index.html)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/design-teardown) - [View in Browser](https://jsalvadorpp.github.io/design-teardown/)
+* [Uduak Essien's solution](https://github.com/acushlakoncept/smashing-magazine) - [View in Browser](https://raw.githack.com/acushlakoncept/smashing-magazine/feature-home/index.html)
+* [kaliberpoziomka's solution](https://github.com/kaliberpoziomka) - [View in Browser](https://kaliberpoziomka.github.io/visual-hierarchy-smashing-magazine/)
 * [Julio's solution](https://github.com/julio22b/greyscale-hierarchy-heatmap) - [View in Browser](https://julio22b.github.io/greyscale-hierarchy-heatmap/)
 * [Mikael's Solution](https://github.com/Mikearaya/smashing-magazine-heat-map) - [View in Browser](https://mikearaya.github.io/smashing-magazine-heat-map/)
 * [Andrija Jelenkovic's Solution](https://github.com/Amdrija/smashingUXgreyscale) - [View in Browser](https://amdrija.github.io/smashingUXgreyscale/)
@@ -99,6 +109,10 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-design-teardown-project) - [View in Browser](https://adrieltrigger.github.io/top-design-teardown-project/)
 * [Veskenazi's Solution](https://github.com/veskenazi/design-teardown) - [View in Browser](https://veskenazi.github.io/design-teardown/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/design-teardown) - [View in Browser](https://ranmaru22.github.io/the_odin_project/design-teardown/)
+* [mangakiko's solution](https://github.com/magakiko/Design-Teardown) - [View in Browser](https://magakiko.github.io/Design-Teardown/)
+* [barrysweeney's Solution](https://github.com/barrysweeney/design-teardown) - [View in Browser](https://barrysweeney.github.io/design-teardown/)
+* [bhenning83's Solution](https://github.com/bhenning83/smashing-magazine-grayscale) - [View in Browser](https://bhenning83.github.io/smashing-magazine-grayscale/)
+* [Timework's Solution](https://github.com/Timework/design-teardown) - [View in Browser](https://timework.github.io/design-teardown/)
 </details>
 
 ### Additional Resources
