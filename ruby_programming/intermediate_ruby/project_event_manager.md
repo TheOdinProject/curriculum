@@ -296,8 +296,8 @@ lines.each_with_index do |line,index|
 end
 ~~~
 
-This solves the problem if the header row were to change in the future. It does
-now assume that the header row is first row within the file.
+This solves the problem if the header row were to change in the future. It
+assumes that the header row is the first row in the file.
 
 
 ### Look for a Solution before Building a Solution

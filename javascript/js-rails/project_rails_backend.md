@@ -52,6 +52,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) - [View in browser](https://frozen-stream-95035.herokuapp.com/)
 - [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/wheres-waldo) - [View in browser](https://theodinprojects.live/courses/javascript/projects/wheres-waldo)
 - [Rey van den Berg's solution](https://github.com/Rey810/Photo-Tag) - [View in Browser](https://dry-hollows-66172.herokuapp.com/)
+- [Nijepa's solution](https://github.com/nijepa/wheres-waldo) - [View in browser](https://nijepa.github.io/wheres-waldo/)
 </details>
 
 ### Additional Resources
