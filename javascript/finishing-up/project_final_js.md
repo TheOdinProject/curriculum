@@ -24,7 +24,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Jdonahue135's Solution](https://github.com/jdonahue135/odin-twitter) - [View in Browser](https://afternoon-fjord-78280.herokuapp.com/home)
+* [Jdonahue135's Solution (NodeJS/Express Backend)](https://github.com/jdonahue135/odin-twitter) - [View in Browser](https://afternoon-fjord-78280.herokuapp.com/home)
+* [jcbbb's Solution - Twitter Dooom](https://github.com/jcbbb/project-twitter) - [View in Browser](https://juraev.codes)
 * nmac's Solution: [Frontend](https://github.com/nmacawile/rails-chat), [Backend](https://github.com/nmacawile/rails-chat-api) - [View in Browser](https://nmacawile.github.io/rails-chat)
 * [Gregthepeg's Solution](https://github.com/gregthepeg4/instagram) - [View in Browser](https://insteadgram1.herokuapp.com/users/sign_in)
 * [Brock McElroy's Solution](https://github.com/brxck/castaway) - [View in Browser](http://castaway.brockmcelroy.com)

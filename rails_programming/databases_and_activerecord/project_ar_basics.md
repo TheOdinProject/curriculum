@@ -113,6 +113,9 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/micro-reddit)
+* [JvPelai's Solution](https://github.com/JvPelai/micro-reddit)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/active-record)
 * [Ryan Lewin's Solution](https://github.com/ryan-lewin/micro-reddit)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/Micro_reddit)
 * [irlgabriel's Solution](https://github.com/irlgabriel/micro-reddit)
@@ -266,6 +269,9 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Christian Páez's Solution](https://github.com/christian1894/micro-reddit)
 * [Chris H's Solution](https://github.com/CKHarrison/micro-reddit)
 * [fussykyloren's Solution](https://github.com/fussykyloren/micro-reddit)
+* [Smith's & Paul's Solution](https://github.com/SmithVyne/Micro-reddit)
+* [Rob Dulabon's Solution](https://github.com/RDulabon/microReddit) 
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/micro-reddit)
 </details>
 
 ### Additional Resources
