@@ -305,6 +305,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/merge_sort/blob/master/merge_sort.rb)
 * [bassart94's Solution](https://repl.it/@bassart94/mergesort)
 * [Jding9's Solution](https://github.com/Jding9/recursion_basics/blob/master/merge_sort.rb)
 * [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/12_merge-sort.rb)
