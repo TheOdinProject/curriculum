@@ -221,4 +221,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [alxmkh's Solution](https://github.com/alxmkh/restaurant) - [View in Browser](https://alxmkh.github.io/restaurant/)
 - [Nijepa's Solution](https://github.com/nijepa/restaurant-page) - [View in Browser](https://nijepa.github.io/restaurant-page/)
 - [lonewolf045's Solution](https://github.com/lonewolf045/restaurant-page) - [View in Browser](https://lonewolf045.github.io/restaurant-page/)
+- [victor orlunda's solution](https://github.com/dev-opus/restuarant-page) - [view in browser](https://dev-opus.github.io/restuarant-page/)
 </details>
