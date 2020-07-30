@@ -3892,7 +3892,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Reveiller's Solution (Easy)](https://github.com/reveiller/google-homepage) - [View in Browser](https://reveiller.github.io/google-homepage/)
 * [Ninaeve's Solution (Easy)](https://github.com/ninaeve/google-homepage) - [View in Browser](https://ninaeve.github.io/google-homepage/)
 * [alabador's Solution (Easy)](https://github.com/alabador/google-homepage/) - [View in Browser](https://alabador.github.io/google-homepage/)
->>>>>>> cc40ce70f70b82a6f1cedecbfc3254a69b886f6c
+* [Denzel's Solution (Easy)](https://github.com/denzUp/google-homepage) - [View in Browser](https://denzup.github.io/google-homepage/)
+* [Denzel's Solution (Difficult)](https://github.com/denzUp/google-search-results) - [View in Browser](https://denzup.github.io/google-search-results/)
 </details>
 
 ### Additional Resources
