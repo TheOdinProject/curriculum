@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [CLOEI's Solution (Easy)](https://github.com/CLOEI/google-homepage) - [View in Browser](https://cloei.github.io/google-homepage/)
+* [Hiro's Solution (Easy)](https://github.com/hrmtk/google-homepage) - [View in Browser](https://hrmtk.github.io/google-homepage/)
 * [adam-goodrich's Solution (Easy)](https://github.com/adam-goodrich/google-homepage) - [View in Browser](https://adam-goodrich.github.io/google-homepage/)
 * [asi309's Solution (Easy)](https://github.com/asi309/google-homepage) - [View in Browser](https://asi309.github.io/google-homepage/)
 * [pshi928's Solution (Easy)](https://github.com/pshi928/google-homepage) - [View in Browser](https://pshi928.github.io/google-homepage/)
@@ -4061,7 +4062,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Wulfenn's Solution (Hard)](https://github.com/wulfenn/google-results-page/) - [View in Browser](https://wulfenn.github.io/google-results-page/)
 * [Harry Thomson's Solution (Easy)](https://github.com/harrythomson1/google-homepage)
 * [Trina McLeary's Solution(Easy)](https://github.com/Trinadactyl/google-homepage) - [View in Browser](https://trinadactyl.github.io/google-homepage/)
-* [Ivo Bul's Solution (Easy)](https://github.com/ivobul/theodinproject-google-homepage) - [View in Browser](https://theodinproject-google-homepage.vercel.app/) 
+* [Ivo Bul's Solution (Easy)](https://github.com/ivobul/theodinproject-google-homepage) - [View in Browser](https://theodinproject-google-homepage.vercel.app/)
 * [Sedat's Solution (Easy)](https://github.com/sedatkoc/google-homepage) - [View in Browser](https://sedatkoc.github.io/google-homepage/index.html)
 * [Lucija's's Solution (Easy)](https://github.com/India12/google-homepage) - [View in Browser](https://india12.github.io/google-homepage/)
 * [AlmirBunjaku's Solution (Easy)](https://github.com/AlmirBunjaku/google-homepage) - [View in Browser](https://AlmirBunjaku.github.io/google-homepage/index.html)
