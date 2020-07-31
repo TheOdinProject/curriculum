@@ -195,7 +195,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Lipi Chatterjee's Solution (Easy)](https://github.com/Lipi70/google-homepage) - [View in Browser](https://lipi70.github.io/google-homepage/)
 * [Barnabas Btz (Easy)](https://github.com/barnabtz/google-homepage) - [View in Browser](https://barnabtz.github.io/google-homepage/)
 * [PCervone's Solution (Easy)](https://github.com/pcervone/google-homepage) - [View in Browser](https://pcervone.github.io/google-homepage/)
-* [jleivers's Solution (Easy)](hhttps://github.com/jleivers/The-Odin-Project/tree/master/web_development_101/HTML_CSS) - [View in Browser](https://jleivers.github.io/The-Odin-Project/web_development_101/HTML_CSS/)
+* [Jordan Leivers's Solution (Easy)](https://github.com/jleivers/The-Odin-Project/tree/master/web_development_101/HTML_CSS) - [View in Browser](https://jleivers.github.io/The-Odin-Project/web_development_101/HTML_CSS/)
 * [TheCodingArchi's Solution (Difficult)](https://github.com/TheCodingArchi/google-search-resultspage) - [View in Browser](https://thecodingarchi.github.io/google-search-resultspage/)
 * [TheCodingArchi's Solution (Easy)](https://github.com/TheCodingArchi/google-homepage) - [View in Browser](https://thecodingarchi.github.io/google-homepage/)
 * [Mohit paryani's Solution (Easy)](https://github.com/paryanimohit/google-homepage) - [view in browser](https://paryanimohit.github.io/google-homepage/)
