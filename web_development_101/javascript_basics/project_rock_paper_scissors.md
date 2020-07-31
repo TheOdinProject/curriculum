@@ -110,6 +110,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Baseline Alpha's Solution](https://github.com/baselinealpha/rock-paper-scissors-2) - [View in Browser](https://baselinealpha.github.io/rock-paper-scissors-2/)
 - [GREENBERG's Solution](https://github.com/GreenbergKU/rock-paper-scissors-odin) - [View in Browser](https://GreenbergKU.github.io/rock-paper-scissors-odin/)
 - [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-rock-paper-scissor)
+- [ArthurTolen's Solution](https://github.com/ArthurTolen/rock_paper_scissors) - [View in Browser](https://arthurtolen.github.io/rock_paper_scissors/)
 - [Cihat's Solution](https://github.com/cihatdev/RockPaperScissors) - [View in Browser](https://cihatdev.github.io/RockPaperScissors/)
 - [Adam's Solution](https://github.com/ajhanson22227/New-Rock-Paper-Scissors) - [View in Browser](https://ajhanson22227.github.io/New-Rock-Paper-Scissors/)
 - [Nita's Solution](https://github.com/nitavulaj/rock_paper_scissors) - [View in Browser](https://nitavulaj.github.io/rock_paper_scissors/)
