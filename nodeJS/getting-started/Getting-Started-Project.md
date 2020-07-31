@@ -93,4 +93,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Kielx's Solution](https://github.com/Kielx/informationalSite) - [View in Browser](https://informationalsite--kielx.repl.co/index.html)
 - [explorer564's Solution](https://github.com/explorer564/nodejs_project1_basic_info_site) - [View in Browser](https://repl.it/@explorerDora1/nodejsproject1basicinfosite#index.html)
 - [Reynard's Solution](https://github.com/ranoot/basic-nodejs-site) - [View in Browser](https://repl.it/@ranoot/basic-nodejs-site)
+- [RoopSai's Solution](https://github.com/sroopsai/basic-information-site) - [View in Browser](https://basic-information-site.roopsai.repl.co/)
 </details>
