@@ -42,9 +42,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [totalconsciousness's solution](https://github.com/totalconsciousness/rock-paper-scissors) - [View in Browser](https://totalconsciousness.github.io/rock-paper-scissors/)
-- [Bernardo Vargas's solution](https://github.com/bernardoVargasF/rock-paper-scissors)
-- [Eco-Developer's solution](https://github.com/Eco-developer/rock-paper-scissors) - [View in Browser](https://eco-developer.github.io/rock-paper-scissors/)
-- [AGL's solution](https://github.com/agl9/rockpaperscissors/)
 - [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/rock-paper-scissor) - [View in Browser](https://thorontherocks.github.io/rock-paper-scissor/)
 - [Cloei's Solution](https://cloei.github.io/Rock-Paper-Scissors/) - [View in Browser](https://cloei.github.io/Rock-Paper-Scissors/)
 - [Ian's Solution](https://github.com/ianistheguy/rock-paper-scissors-project) - [View in Browser](https://ianistheguy.github.io/rock-paper-scissors-project/)
