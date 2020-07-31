@@ -41,12 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [bobbychicano's solution](https://github.com/bobbychicano/rock-paper-scissors)
+- [bobbychicano's solution](https://github.com/bobbychicano/rock-paper-scissors) - [View in Browser](https://bobbychicano.github.io/rock-paper-scissors/)
 - [Musabii's Solution](https://musabii.github.io/rock-paper-scissors/)
 - [Rafael Amancio Diegues's Solution](https://github.com/radiegues06/rock-paper-scissors)
 - [rchlkr's Solution](https://github.com/rchlkr/rock-paper-scissors-browser) - [View in Browser](https://rchlkr.github.io/rock-paper-scissors-browser/)
 - [rgv3300's Solution](https://github.com/rgv3300/projectRockPaperScissor)
-- [mostpeopleareotherpeople's Solution](https://github.com/mostpeopleareotherpeople/rockpaperscissors) 
+- [mostpeopleareotherpeople's Solution](https://github.com/mostpeopleareotherpeople/rockpaperscissors)
 - [invaderace's Solution](https://github.com/invaderace/rock-paper-scissors) - [View in Browser](https://invaderace.github.io/rock-paper-scissors/)
 - [Rizwan's Solution](https://xrizwan.github.io/RPS-game/index.html) - [View in Browser](https://xrizwan.github.io/RPS-game/index.html)
 - [Daniel Moderiano's Solution](https://github.com/daniel-moderiano/rock-paper-scissors)
@@ -85,8 +85,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Szymon Chełkowski's Solution](https://github.com/szchelkowski/RockPaperScissors)
 - [nkitan's Solution](https://github.com/Ankit-SIT/rockPaperScissors) - [View in Browser](https://ankit-sit.github.io/rockPaperScissors)
 - [Estela's Solution](https://estelajimero.github.io/Rock-Paper-Scissors/)
-- [Amilkez's Solution](https://amilkez.github.io/rock-paper-scissors) 
-- [jincrypt's Solution](https://github.com/jincrypt/rockpaperscissors) 
+- [Amilkez's Solution](https://amilkez.github.io/rock-paper-scissors)
+- [jincrypt's Solution](https://github.com/jincrypt/rockpaperscissors)
 - [AnthonyKuang's Solution](https://github.com/AnthonyKuang/rock-paper-scissors)
 - [Bassel Alrefai's Solution](https://github.com/basselalrefai/rock-paper-scissors) - [View in Browser](https://basselalrefai.github.io/rock-paper-scissors/)
 - [pklepa's Solution](https://github.com/pklepa/rock-paper-scissors) - [View in Browser](https://pklepa.github.io/rock-paper-scissors)
