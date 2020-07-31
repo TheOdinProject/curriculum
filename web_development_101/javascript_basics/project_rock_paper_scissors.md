@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [totalconsciousness's solution](https://github.com/totalconsciousness/rock-paper-scissors) - [View in Browser](https://totalconsciousness.github.io/rock-paper-scissors/)
 - [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/rock-paper-scissor) - [View in Browser](https://thorontherocks.github.io/rock-paper-scissor/)
 - [Cloei's Solution](https://cloei.github.io/Rock-Paper-Scissors/) - [View in Browser](https://cloei.github.io/Rock-Paper-Scissors/)
 - [Ian's Solution](https://github.com/ianistheguy/rock-paper-scissors-project) - [View in Browser](https://ianistheguy.github.io/rock-paper-scissors-project/)
@@ -1842,7 +1843,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Maciej's Solution](https://github.com/MaciejWojtasiak/Rock-Paper-Scissors) - [View in Browser](https://maciejwojtasiak.github.io/Rock-Paper-Scissors/)
 - [Sal's Solution](https://github.com/Sal-theSadmanShark/rock_paper_scissors) - [View in Browser](https://sal-thesadmanshark.github.io/rock_paper_scissors/)
 - [Wulfen's Solution](https://github.com/Wulfenn/rock-paper-scissors) - [View in Browser](https://https://wulfenn.github.io/rock-paper-scissors/)
-- [Spot's Solution](https://github.com/spotbarnes/tests) 
+- [Spot's Solution](https://github.com/spotbarnes/tests)
 - [Veronica's Solution](https://github.com/VJones2112/rockpaperscissors_theodinproject)
 - [Culinarytracker's Solution](https://github.com/Culinarytracker/The-Odin-Project-Rock-Paper-Scissors)
 - [portable's Solution](https://github.com/portableDD/game-house)
