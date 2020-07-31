@@ -1,0 +1,166 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.nav-items {
+    overflow: hidden;
+}
+
+.nav-items a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+}
+
+.image-sizing {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.search {
+    border: solid thin black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-width: 750px;	
+    width: 100%;
+    border: 2px solid #dddada;
+    border-radius: 60px;
+    height: 35px;
+}
+
+.search:hover {
+    box-shadow: 2px 2px 3px 2px #dddada;
+}
+
+.search  input {
+    flex: 1 1 auto;
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+
+}
+
+.search img {
+    width: 36px;
+    height: 36px;
+}
+
+.search i {
+    width: 36px;
+    height: 36px;
+    color: #9c9292;
+}
+
+.centre-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 138px;
+    margin-bottom: 30px;
+}
+
+.google-image {
+    width: 350px;
+    height: 120px;
+    margin-bottom: 40px;
+}
+
+.buttons-me {
+    margin-top: 40px;
+    
+}
+
+button {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 15px 25px;
+    font-size: 17px;
+    color: #514d4d;
+    margin-right: 15px;
+}
+
+.button:hover {
+    border: 1px solid black;
+}
+
+.lang {
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 300px;
+}
+
+.lang a {
+    text-decoration: none;
+    padding: 12px 5px;
+}
+
+.lang a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.country {
+    background-color: #f3f3f3;
+    border: 2px solid #dddada;
+    font-size: 20px;
+    padding: 12px 14px;
+    border-bottom: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: none;
+    border-left: none;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    border: 2px solid #dddada;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: none;
+    border-left: none;  
+}
+
+.gen-message a {
+    text-decoration: none;
+    padding: 12px 14px;
+    color: #514d4d;
+    font-size: 20px;
+}
+
+.gen-message-right a {
+    text-decoration: none;
+    padding: 12px 14px;
+    color: #514d4d;
+    font-size: 20px;
+}
+
+.gen-message a:hover {
+    text-decoration: underline;
+}
+
+.gen-message-right a:hover {
+    text-decoration: underline;
+}
