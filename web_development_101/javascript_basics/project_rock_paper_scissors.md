@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/rock-paper-scissor) - [View in Browser](https://thorontherocks.github.io/rock-paper-scissor/)
 - [Cloei's Solution](https://cloei.github.io/Rock-Paper-Scissors/) - [View in Browser](https://cloei.github.io/Rock-Paper-Scissors/)
 - [Ian's Solution](https://github.com/ianistheguy/rock-paper-scissors-project) - [View in Browser](https://ianistheguy.github.io/rock-paper-scissors-project/)
 - [Realsss' Solution](https://github.com/Realsss/Rock-Paper-Scissors) - [View in Browser](https://realsss.github.io/Rock-Paper-Scissors/)
@@ -163,7 +164,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Lipi Chatterjee's Solution](https://github.com/Lipi70/rock-paper-sci) - [View in Browser](https://lipi70.github.io/rock-paper-sci/)
 - [xandora's Solution](https://github.com/xandora/rock-paper-scissors) - [View in Browser](https://xandora.github.io/rock-paper-scissors/)
 - [Jessie Jalca's Solution](https://github.com/jessiejalca/rock-paper-scissors) - [View in Browser](https://jessiejalca.github.io/rock-paper-scissors/)
-- [jleivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/RockPaperScissors) - [View in Browser](https://jleivers.github.io/The-Odin-Project/RockPaperScissors/)
+- [Jordan Leivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/web_development_101/RockPaperScissors) - [View in Browser](https://jleivers.github.io/The-Odin-Project/web_development_101/RockPaperScissors/)
 - [Olamide Olaniyan's Solution](https://github.com/Cyber-Mat/rock-paper-scissors) - [View in Browser](https://cyber-mat.github.io/rock-paper-scissors/)
 - [Nenjamin's Solution](https://github.com/NebjaminCode/Odin_RPS) - [View in Browser](https://nebjamincode.github.io/Odin_RPS/)
 - [Coding Shawn's Solution](https://github.com/CodingShawn/Rock-Paper-Scissors) - [View in Browser](https://codingshawn.github.io/Rock-Paper-Scissors/)
