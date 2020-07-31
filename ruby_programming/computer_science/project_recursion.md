@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [gogvale's Solution](https://github.com/gogvale/ruby_recursion/blob/master/fib.rb)
 * [Jding9's Solution](https://github.com/Jding9/recursion_basics/blob/master/fibs.rb)
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/fibonacci_recursively/blob/master/fibonacci_recursively.rb)
 * [Sparks's Solution](https://github.com/Sparking2/Ruby-Recursion/blob/master/Fibonacci/main.rb)
@@ -305,6 +306,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [gogvale's Solution](https://github.com/gogvale/ruby_recursion/blob/master/merge_sort.rb)
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/merge_sort/blob/master/merge_sort.rb)
 * [bassart94's Solution](https://repl.it/@bassart94/mergesort)
 * [Jding9's Solution](https://github.com/Jding9/recursion_basics/blob/master/merge_sort.rb)

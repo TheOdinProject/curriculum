@@ -33,6 +33,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-odin) - [View in Browser](https://lucas-bide.github.io/odin-odin/)
 * [HaroonAbdulrazaq's solution - Devsummit](https://github.com/Haroonabdulrazaq/Devsummit) - [View in Browser](https://haroonabdulrazaq.github.io/Devsummit/)
 * [Rarysson's solution - Grid Lib Framework](https://github.com/rarysson/grid-lib) - [5by5 Site Clone](https://github.com/rarysson/5by5-clone) - [View in Browser](https://rarysson.github.io/5by5-clone/)
 * [Julio's solution - Framework](https://github.com/julio22b/my-CSS-framework) - [Letterboxd clone](https://github.com/julio22b/letterboxd-home) - [View in Browser](https://julio22b.github.io/letterboxd-home/)

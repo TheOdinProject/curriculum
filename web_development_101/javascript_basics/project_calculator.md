@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [theamian's Solution](https://github.com/theamian/calculator)
 - [dab47310' Solution](https://github.com/dab47310/project-calculator) - [View in Browser](https://dab47310.github.io/project-calculator/)
 - [Ramanjs' Solution](https://github.com/Ramanjs/calculator) - [View in Browser](https://ramanjs.github.io/calculator/)
 - [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/Calculator) - [View in Browser](https://wise-king-sullyman.github.io/Calculator/)
@@ -52,6 +53,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alex Schwartz's Solution](https://github.com/ofthesoul/calculator) - [View in Browser](https://ofthesoul.github.io/calculator/)
 - [panda_rojus's solution](https://github.com/mricanho/calculator) - [View in Browser](https://htmlpreview.github.io/?https://github.com/mricanho/calculator/blob/master/calculator/index.html)
 - [hd505495's Solution](https://github.com/hd505495/calculator) - [View in Browser](https://hd505495.github.io/calculator/)
+- [Jordan Leivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/web_development_101/Calculator) - [View in Browser](https://jleivers.github.io/The-Odin-Project/web_development_101/Calculator/)
 - [Anton's Solution](https://github.com/anton-a-a/calculator) - [View in Browser](https://anton-a-a.github.io/calculator/)
 - [Rahim Ratnani's Solution](https://github.com/rahimratnani/calculator) - [View in Browser](https://rahimratnani.github.io/calculator/)
 - [Aaron Hong's Solution](https://github.com/aaronjghong/calculator) - [View in Browser](https://aaronjghong.github.io/calculator/)
