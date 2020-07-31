@@ -1846,4 +1846,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Christopher's Solution](https://github.com/christopheralagna/rock-paper-scissors) - [View in Browser](https://christopheralagna.github.io/rock-paper-scissors/)
 - [Tim Barnes' Solution](https://github.com/timcbarnes/rock-paper-scissors)
 - [Michael's Solution](https://github.com/moinabyssinia/rock-paper-scissors) - [View in Browser](https://moinabyssinia.github.io/rock-paper-scissors/)
+- [Arglinguist's Solution](https://github.com/arglinguist/RockPaperScissors)
 </details>
