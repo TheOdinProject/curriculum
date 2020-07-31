@@ -19,6 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+* [Scott's React Restaurant Page](https://github.com/ScotttP/restaurant-page-react/tree/master/restaurant-page) - [View in Browser](https://scotttp.github.io/restaurant-page-react/)
 * [Rizwan's React Library](https://github.com/xRizwan/react-library) - [View in Browser](https://xrizwan.github.io/react-library/)
 * [nearmint's Vue.js Library](https://github.com/nearmint/vue-library) - [View in Browser](http://nearmint.github.io/vue-library)
 * [ray0h's React ToDo App](https://github.com/ray0h/ToDoApp-React) - [View in Browser](http://ray0h.github.io/ToDoApp-React)
