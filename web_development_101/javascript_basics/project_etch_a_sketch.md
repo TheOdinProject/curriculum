@@ -46,6 +46,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 * [asi309's Solution](https://github.com/asi309/Etch-A-Sketch) - [View in Browser](https://asi309.github.io/Etch-A-Sketch/)
+* [Hwan's Solution](https://tzuhwan.github.io/etch-a-sketch/) - [View in Browser](https://tzuhwan.github.io/etch-a-sketch/)
 * [Neal's Solution](https://github.com/nealbayya/Etch-A-Sketch) - [View in Browser](https://nealbayya.github.io/Etch-A-Sketch/)
 * [Alvin's Solution](https://github.com/Alvin-Isai/etch-a-sketch) - [View in Browser](https://alvin-isai.github.io/)
 * [Kckat's Solution](https://github.com/kckat/etch-a-sketch) - [View in Browser](https://kckat.github.io/etch-a-sketch/)
@@ -1197,4 +1198,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Charlie Tobler's Solution](https://github.com/cstobler/etch-a-sketch) - [View in Browser](https://cstobler.github.io/etch-a-sketch/)
 * [Pikkuruusu's Solution](https://github.com/pikkuruusu/etch-a-sketch) - [View in Browser](https://pikkuruusu.github.io/etch-a-sketch/)
 * [Wulfen's Solution](https://github.com/wulfenn/etch-a-sketch) - [View in Browser](https://wulfenn.github.io/etch-a-sketch/)
+* [ParchedPanda's Solution](https://github.com/ParchedPanda/etch-a-sketch) - [View in Browser](https://parchedpanda.github.io/etch-a-sketch/)
 </details>
