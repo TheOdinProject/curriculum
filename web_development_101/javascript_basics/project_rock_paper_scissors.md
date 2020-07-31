@@ -455,6 +455,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ted S. Solution](https://github.com/itsPuppet/rockPaperScissors)
 - [Reece Trevenen's Solution](https://github.com/Cyber-Spud/paper-scissors-rock-gui) - [View in Browser](https://cyber-spud.github.io/paper-scissors-rock-gui/)
 - [Prae-torius's Solution](https://github.com/Prae-torius/rps-game)
+- [bencmoyer's Solution](https://github.com/WHYARTWORK/rockpaperscissors_ODIN)
 - [Ahmed Chaudry's Solution](https://github.com/xazzer81/rock-paper-scissors)
 - [higgabes's Solution](https://github.com/higgabes/top2) - [View in Browser](https://higgabes.github.io/top2/)
 - [Callum's Solution](https://github.com/Callumm0/rock-paper-scissors) - [View in Browser](https://callumm0.github.io/rock-paper-scissors/)
