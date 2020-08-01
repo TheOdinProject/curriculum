@@ -17,7 +17,7 @@
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.0.8",
     "react_ujs": "^2.6.1",
-    "regenerator-runtime": "^0.13.5",
+    "regenerator-runtime": "^0.13.7",
     "stickyfilljs": "^2.1.0",
     "toaster": "^0.1.2",
     "turbolinks": "^5.2.0",
