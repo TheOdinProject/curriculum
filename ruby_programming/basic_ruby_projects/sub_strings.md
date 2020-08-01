@@ -19,8 +19,10 @@ Next, make sure your method can handle multiple words:
 
 ~~~ruby
   > substrings("Howdy partner, sit down! How's it going?", dictionary)
-  => { "down" => 1, "how" => 2, "howdy" => 1,"go" => 1, "going" => 1, "it" => 2, "i" => 3, "own" => 1,"part" => 1,"partner" => 1,"sit" => 1 }
+  => { "down" => 1, "go" => 1, "going" => 1, "how" => 2, "howdy" => 1, "it" => 2, "i" => 3, "own" => 1, "part" => 1, "partner" => 1, "sit" => 1 }
 ~~~
+
+Please note the order of your keys might be different.
 
 **Quick Tips:**
 
@@ -34,6 +36,26 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [zstearman3's Solution](https://github.com/zstearman3/odin-basic-ruby/blob/master/substrings.rb)
+* [MiDDiz's Solution](https://github.com/MiDDiz/OdinRuby/blob/master/substrings.rb)
+* [descholar's Solution](https://github.com/descholar-ceo/substring/blob/develop/substring.rb)
+* [Jameel's Solution](https://github.com/big-meel/ruby-code/blob/master/substrings.rb)
+* [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/substrings.rb)
+* [cbpolleys's Solution](https://github.com/cbpolley/rubyTest/blob/master/substrings.rb)
+* [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby_substrings/blob/master/substrings.rb)
+* [jnjensen's Solution](https://github.com/jnjensen/Ruby_Word_Search/blob/master/sub_string.rb)
+* [Witah Georjane's Solution](https://github.com/Georjane/Sub-Strings.git)
+* [enzoperce35's Solution](https://github.com/enzoperce35/substrings/blob/master/substrings.rb)
+* [EmilioAK's Solution](https://github.com/EmilioAK/Sub-Strings/blob/master/sub-strings.rb)
+* [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/3_substrings.rb)
+* [pavelnklv's Solution](https://github.com/pavelnklv/basic_ruby_projects/blob/master/substrings.rb)
+* [Baseline Alpha's Solution](https://github.com/baselinealpha/Ruby-The-Odin-Project/blob/master/substrings2.rb)
+* [Coby's Solution](https://github.com/coby101/odin_project/blob/master/substrings.rb)
+* [Mr.Bowtie's Solution](https://github.com/Mr-Bowtie/Basic_ruby_projects/blob/master/substrings.rb)
+* [kimvitug05's Solution](hhttps://github.com/kimvitug05/TOP-ruby-exercises/blob/master/substrings/substrings.rb)
+* [Joewebsta's Solution](https://github.com/Joewebsta/the-odin-project-ruby-exercises/blob/master/substrings.rb)
+* [Ryan Lewin's Solution](https://github.com/ryan-lewin/odin-project/blob/master/ruby-programming/sub-strings/sub_strings.rb)
+* [Spark's Solution](https://github.com/Sparking2/Ruby_Practicing/blob/master/sub_strings/sub_strings.rb)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Substrings)
 * [Darren's Solution](https://github.com/DarrenLo0530/ruby-tests/blob/master/substrings.rb)
 * [irlgabriel's Solution](https://github.com/irlgabriel/the-odin-project/blob/master/ruby-exercises/substring.rb)
@@ -525,4 +547,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Violet's Solution](https://gist.github.com/violetguos/8f078c5460aea7b3086fc13d9e91dae9)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/substrings.rb)
 * [Xvier's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/substrings.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/substrings_search.rb)
+* [shanedgilbert's Solution](https://github.com/shanedgilbert/Ruby-Methods/blob/master/sub_strings.rb)
+* [bhenning83's Solution](https://github.com/bhenning83/substrings/blob/master/substrings.rb)
+* [satchelsmidt's Solution](https://github.com/satchelsmidt/Odin_Project_Ruby/blob/master/02_substrings.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-substring/blob/master/substring.rb)
+* [sforber's Solution](https://github.com/sforber/ruby-substrings/blob/master/substrings.rb)
+* [juggler39's Solution](https://github.com/juggler39/ruby_assignments/blob/master/substrings.rb)
+* [Alejaldo's Solution](https://github.com/Alejaldo/substrings/blob/master/substr.rb)
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/blob/master/substrings.rb)
 </details>

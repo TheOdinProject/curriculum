@@ -117,6 +117,14 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [JvPelai's Solution](https://github.com/JvPelai/re-former)
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/Bare-Metal-Forms-and-Helpers)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/re-former)
+* [Ryan Lewin's Solution](https://github.com/ryan-lewin/re-former)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/re-former)
+* [irlgabriel's Solution](https://github.com/irlgabriel/re-former)
+* [Christian's Solution](https://github.com/rueeazy/re-former)
+* [Aulbourn's Solution](https://github.com/aulbytj/RailsReFormer/tree/feature/build) - [View in Browser](https://fierce-atoll-94165.herokuapp.com)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/re-former)
 * [jodokusquack's solution](https://github.com/jodokusquack/re-former)
 * [Nestor's solution](https://github.com/nestor-c/Odin_Re-former)
@@ -247,6 +255,9 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Bendee's Solution](https://github.com/bendee48/rails-reformer)
 * [Robert Suazo's Solution](https://github.com/rsuazo/re-former)
 * [Ken H's Solution](https://github.com/kholston/re-former)
+* [Christian Páez's Solution](https://github.com/christian1894/re-former-odin-project-rails)
+* [fussykyloren's Solution](https://github.com/fussykyloren/re-former)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/forms)
 </details>
 
 ### Additional Resources

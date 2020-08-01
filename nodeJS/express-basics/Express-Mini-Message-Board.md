@@ -76,6 +76,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [vonhoro's Solution](https://github.com/vonhoro/message-board) - [View in Browser](https://small-board-odin.herokuapp.com/)
+- [Leo Holanda's Solution](https://github.com/leo-holanda/mini-message-board) - [View in Browser](https://message-board-nodejs.herokuapp.com)
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/mini-message-board) - [View in Browser](https://mini-message-board-andrsrzdc.herokuapp.com/)
+- [Angelo's Solution](https://github.com/angelokora/mini-message-board) - [View in Browser](https://pacific-retreat-03328.herokuapp.com)
 - [Morgan's Solution](https://github.com/morganbonhomme/message_board) - [View in Browser](https://fast-plains-46479.herokuapp.com/)
 - [Kevin's Solution](https://github.com/kevinbeall/Message_board) - [View in Browser](https://ancient-oasis-00535.herokuapp.com/)
 - [Randolph's Solution](https://github.com/RandolphCisneros/mini-message-board) - [View in Browser](https://mini-message-board-randolph.herokuapp.com/) 
@@ -119,4 +123,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Scott Bowles's Solution](https://github.com/scottBowles/express-practice-mini-messageboard) - [View in Browser](https://salty-savannah-75073.herokuapp.com/)
  - [barrysweeney's Solution](https://github.com/barrysweeney/mini-message-board) - [View in Browser](https://dry-reaches-26545.herokuapp.com/)
  - [ranmaru22's Solution](https://github.com/ranmaru22/mini-message-board) - [View in Browser](https://tranquil-falls-97148.herokuapp.com)
+ - [Joe Thompson's Solution](https://github.com/jlthompso/mini_message_board) - [View in Browser](https://fathomless-wildwood-49674.herokuapp.com/)
+ - [Vorelli's Solution](https://github.com/Vorelli/mini-message-board) - [View in Browser](https://intense-earth-77741.herokuapp.com/)
+ - [Tulio Vieira's Solution](https://github.com/tulio-vieira/mini-message-board) - [View in Browser](https://mini-message-board-app.herokuapp.com/)
 </details>
