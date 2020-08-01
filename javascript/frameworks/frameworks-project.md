@@ -19,6 +19,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+
+* [Diane998's Angular Library](https://github.com/Diane998/library) - [View in Browser](https://library-kappa.vercel.app/)
 * [Luky's React Library](https://github.com/lcyne/book-list/) - [View in browser](https://lcyne.github.io/book-list/)
 * [Ylli's React Library](https://github.com/yllabazi/myLibrary-ReactJS) - [View in Browser](https://yllabazi.github.io/myLibrary-ReactJS/)
 * [Andrey's React To-Do list solution](https://andreyskopintsev.github.io/react-todo)
