@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lamia Sristy's Solution](https://github.com/LamiaSristy/NYT-Clone) - [View in Browser](https://rawcdn.githack.com/LamiaSristy/nytimes-clone/7d2a29e01ee9a7318f301de67f95a5e568b3ee5b/index.html)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-nyt) - [View in Browser](https://lucas-bide.github.io/odin-nyt/)
 * [descholar's Solution](https://github.com/descholar-ceo/clone-nyt-article-page) - [View in Browser](https://serene-hopper-cb63b8.netlify.app/)
 * [Run After's Solution](https://github.com/run-after/nyt-article) - [View in Browser](https://run-after.github.io/nyt-article/)
@@ -155,6 +156,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Joe Thompson's Solution](https://github.com/jlthompso/nyt_article) - [View in Browser](https://jlthompso.github.io/nyt_article/)
 * [Timework's Solution](https://github.com/Timework/article_clone) - [View in Browser](https://timework.github.io/article_clone/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/NY-Times-Article) - [View in Browser](https://ansellmaximilian.github.io/NY-Times-Article/)
+* [Kenneth H's Solution](https://github.com/kholston/nytimes) - [View in Browser](https://kholston.github.io/nytimes/)
 </details>
 
 ### Additional Resources

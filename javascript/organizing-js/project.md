@@ -35,6 +35,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [byter11's Solution](https://github.com/byter11/ToDo_List) - [View in Browser](https://byter11.github.io/ToDo_List/)
+* [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/theToDoList) - [View in Browser](https://muhymenulhaque.github.io/theToDoList/)
 * [ray0h's Solution](https://github.com/ray0h/ToDoApp) - [View in Browser](https://ray0h.github.io/ToDoApp/)
 * [Salvador Villalon's Solution](https://github.com/salvillalon45/theOdinProject-TodoList) - [View in Browser](https://salvillalon45.github.io/theOdinProject-TodoList/)
 * [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/todolist-react) - [View in Browser](https://kaliberpoziomka.github.io/todolist-react/)
@@ -159,4 +161,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [lonewolf045's Solution](https://github.com/lonewolf045/todo-list) - [View in Browser](https://nijepa.github.io/todo-list/)
 * [themetar's Solution](https://github.com/themetar/TODO-App) - [View in Browser](https://themetar.github.io/TODO-App/)
 * [alxmkh's Solution](https://github.com/alxmkh/to-do-list) - [View in Browser](https://alxmkh.github.io/to-do-list/)
+* [Tristan Ross's Solution](https://github.com/TristanRoss/todo-list) - [View in Browser](https://tristanross.github.io/todo-list/)
+* [liampc's Solution](https://github.com/liampc/to-do-list) - [View in Browser](https://liampc.github.io/to-do-list/)
 </details>

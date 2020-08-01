@@ -23,13 +23,15 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
   7. Write `#inorder`, `#preorder`, and `#postorder` methods that returns an array of values. Each method should traverse the tree in their respective depth-first order.
 
-  8. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
+  8. Write a `#height` method which accepts a node and returns its height. Height is defined as the number of edges in longest path from a given node to a leaf node.
+  
+  9. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
 
-  9. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
+  10. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 
-  10. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+  11. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
 
-  11. Write a simple driver script that does the following:
+  12. Write a simple driver script that does the following:
 
     1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
     2. Confirm that the tree is balanced by calling `#balanced?`
@@ -58,6 +60,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [James's Solution](https://github.com/jegrieve/binary_search_trees)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
 * [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)

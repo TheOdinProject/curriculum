@@ -42,6 +42,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Akram's Soulution](https://github.com/Ghanna96/battleship) - [View in Browser](https://ghanna96.github.io/battleship/)
+- [vonhoro's Solution](https://github.com/vonhoro/Battleships) - [View in Browser](https://vonhoro.github.io/Battleships/)
 - [Luky's Solution](https://github.com/lcyne/battleship) - [View in Browser](https://lcyne.github.io/battleship/)
 - [Juan Oxmar's Solution](https://github.com/juanoxmar/battleship) - [View in Browser](https://juanoxmar.github.io/battleship/)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/battleship) - [View in Browser](https://andrsrz.github.io/battleship/)
@@ -70,4 +72,5 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [barrysweeney's Solution](https://github.com/barrysweeney/battleship) - [View in Browser](https://barrysweeney.github.io/battleship/)
 - [Rey van den Berg's Solution](https://github.com/Rey810/Battleship/tree/master/battleship) - [View in Browser](https://react-battleship-reythedev.netlify.app)
 - [Joe Thompson's Solution](https://github.com/jlthompso/battleship) - [View in Browser](https://jlthompso.github.io/battleship/)
+- [Nijepa's Solution](https://github.com/nijepa/project-battleship) - [View in Browser](https://nijepa.github.io/project-battleship/)
 </details>

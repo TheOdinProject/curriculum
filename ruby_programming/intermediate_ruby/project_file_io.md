@@ -21,6 +21,8 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [cbpolley's Solution](https://github.com/cbpolley/hangman/blob/master/hangman.rb)
+* [gogvale's Solution](https://github.com/gogvale/Hangman) - [View in Repl.it](https://hangman.gogvale.repl.run/)
 * [bassart94's solution](https://repl.it/@bassart94/hangman)  
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/hangman)
 * [Servante's Solution](https://github.com/Servante/Odin-Projects/tree/master/hangman)

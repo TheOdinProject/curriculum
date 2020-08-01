@@ -48,4 +48,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Mohamed's Solution](https://github.com/hamohuh/inventory-application) - [View in Browser](https://afternoon-atoll-93127.herokuapp.com/)
 - [ranmaru22's Solution](https://github.com/ranmaru22/my-inventory) - [View in Browser](https://gentle-island-35903.herokuapp.com)
 - [Vorelli's Solution](https://github.com/Vorelli/inventory-application) - [View in Browser](https://aqueous-brushlands-38489.herokuapp.com/)
+- [Emil Dimitrov's Solution](https://github.com/edmtrv/inventory-app) - [View in Browser](https://mighty-citadel-00007.herokuapp.com/)
 </details>

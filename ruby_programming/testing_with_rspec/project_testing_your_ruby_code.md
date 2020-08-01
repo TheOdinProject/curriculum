@@ -21,6 +21,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* Aaron Contreras's Solutions: [Caesar Cipher](https://github.com/aaron-contreras/caesar-cipher), [Tic-Tac-Toe](https://github.com/aaron-contreras/tic-tac-toe)
+* Haroon Abdulrazaq's Solutions: [Tic-Tac-Toe](https://github.com/Haroonabdulrazaq/tic-tac-toe)
 * rlmoser's Solutions: [Caesar Cipher](https://github.com/rlmoser99/ruby_exercises/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/rlmoser99/ruby_TicTacToe)
 * Axel Lopez's Solutions: [Caesar Cipher](https://github.com/lopezaxel/caesar_shift), [Tic-Tac-Toe](https://github.com/lopezaxel/tic-tac-toe)
 * Witah Georjane's Solutions: [Caesar Cipher](https://github.com/Georjane/Caesar-Cipher), [Tic-Tac-Toe](https://github.com/Georjane/Tic-Tac-Toe-Game)
@@ -159,6 +161,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron's Solution](https://github.com/Aaron-McD/connect-four)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_connect_four)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/connect-four)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Connect-Four)

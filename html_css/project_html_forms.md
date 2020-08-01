@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ideopunk's Solution](https://github.com/Ideopunk/Form-practice) - [View in Browser](https://ideopunk.github.io/Form-practice/)
 * [mrdiegodev's Solution](https://github.com/dhna32/HTML-Form) - [View in Browser](https://dhna32.github.io/HTML-Form/)
 * [Ivo Bul's Solution](https://github.com/ivobul/theodinproject-html-forms) - [View in Browser](https://theodinproject-html-forms.vercel.app/)
 * [descholar's Solution](https://github.com/descholar-ceo/signup-page) - [View in Browser](https://peaceful-mcnulty-9e3703.netlify.app/)
@@ -192,6 +193,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Joe Thompson's Solution](https://github.com/jlthompso/mailchimp_signup) - [View in Browser](https://jlthompso.github.io/mailchimp_signup/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/sign-up-form) - [View in Browser](https://ansellmaximilian.github.io/sign-up-form/)
 * [Kenneth H's Solution](https://github.com/kholston/html-forms) - [View in Browser](https://kholston.github.io/html-forms/)
+* [Nijepa's Solution](https://github.com/nijepa/html-forms) - [View in Browser](https://nijepa.github.io/html-forms/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/htmlforms)
 </details>
 
 ### Additional Resources
