@@ -1,9 +1,9 @@
 ### Introduction
 Before we start digging into some pretty nifty JavaScript, we need to begin talking about *problem solving*: the most important skill a developer needs.
 
-Problem solving, is the core thing software developers do, the programming languages and tools they use are secondary to this fundamental skill.
+Problem solving is the core thing software developers do. The programming languages and tools they use are secondary to this fundamental skill.
 
-V. Anton Paul defines problem solving in programming as:
+V. Anton Spraul defines problem solving in programming as:
 
 > "Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints."
 - Think Like a Programmer
@@ -21,12 +21,12 @@ By the end of this lesson, you should be able to do the following:
 
 * Explain the three steps in the problem solving process.
 * Explain what pseudo code is and be able to use it to solve problems.
-* Be able to break a problem down into sub problems.
+* Be able to break a problem down into subproblems.
 
 ### Understand the Problem
 The first step to solving a problem is understanding exactly what the problem is. If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution.
 
-To gain clarity and understanding of the problem, write it down on paper, reword it in plain english until it makes sense to you, draw diagrams if that helps. When you can explain the problem to someone else in plain english, you understand it.
+To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.
 
 ### Plan
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
@@ -45,33 +45,33 @@ Pseudo code is writing out the logic for your program in natural language instea
 
 Here's an example of what the pseudo code for a simple program that prints all numbers up to an inputted number might look like:
 
-```
+~~~
 When the user inputs a number
 Initialize a counter variable and set its value to zero
 While counter is smaller than user inputted number
 Print the value of the counter variable
-```
+~~~
 
 This is a very simple program to demonstrate how pseudo code looks. There will be more examples of pseudo code included in the assignments.
 
 ### Divide and Conquer
-From your planning, you should have identified some sub problems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are sub problems. Pick the smallest or simplest one and start there with coding.
+From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
 
-It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete — this is fine. Getting started with and solving one of the sub problems you have identified in the planning stage, often reveals the next sub problem you can work on. Or if you already know the next sub problem, is it’s often simpler with the first sub problem solved.
+It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete -— this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage, often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it’s often simpler with the first subproblem solved.
 
-Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller, easier to solve sub problems is a much better approach as decomposition is the main way of dealing with complexity and making problems easier and more approachable to solve and understand.
+Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
 ### Solving Fizz Buzz
-To demonstrate this workflow in action lets solve a common programming exercise, [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz)
+To demonstrate this workflow in action lets solve a common programming exercise, [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
 
 #### Understanding The Problem
-> Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+> Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
-Write a problem that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print "Fizz" instead. For numbers that divide by 5 without a remainder print "Buzz" and finally for numbers that divide by both three and five without a remainder print "FizzBuzz".
+Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both three and five without a remainder print `FizzBuzz`.
 
 #### Plan
 Does your program have an interface? What will it look like?
@@ -81,22 +81,22 @@ What inputs will your program have? Will the user enter data or will you get inp
 The user will enter a number from the command line.
 
 What's the desired output?
-The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output Fizz, each number that is divisible by 5 will output "Buzz" and each number that is divisible by both 3 and 5 will output "FizzBuzz"
+The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
 Given your inputs, what are the steps necessary to return the desired output?
 The algorithm in pseudo code for this problem:
 
-```
+~~~
 When a user inputs a number
 Loop from 1 to the entered number
 If the current number is divisible by 3 then print "Fizz"
 If the current number is divisible by 5 then print "Buzz"
 If the current number is divisible by 3 and 5 then print "FizzBuzz"
 Otherwise print the current number
-```
+~~~
 
 #### Divide and Conquer (Implement)
-As we can see from the algorithm we developed, the first sub problem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
+As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
 
 With JavaScript, we'll use the "prompt" method.
 
@@ -106,7 +106,7 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 
 The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`. **Note**: We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
 
-With that done, let's move on to the next sub problem "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-loop:
+With that done, let's move on to the next subproblem "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-loop:
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -118,7 +118,7 @@ for (let i = 1; i <= answer; i++) {
 
 If you haven't seen this before and it looks strange, it's actually straightforward. We declare a variable `i` and assign it 1: - AKA the start of our loop (**NOTE**: Most the time, programmers find themselves looping from 0. Due to the needs of our program, we're starting from 1). The second clause, `i <= answer` is our condition. We want to loop until `i` is greater than `answer`. The third clause, `i++` tells our loop to increment `i` by 1 every iteration. As a result, if the user input 10, this loop would print numbers 1 - 10 to the console.
 
-With that working, lets move on to the next problem: If the current number is divisible by 3 then print "Fizz"
+With that working, lets move on to the next problem: If the current number is divisible by 3 then print `Fizz`.
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -149,7 +149,7 @@ Fizz
 10
 ~~~
 
-The program is starting to take shape, the final few sub problems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print "Buzz"
+The program is starting to take shape, the final few subproblems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print `Buzz`.
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -165,7 +165,7 @@ for (let i = 1; i < answer; i++) {
 }
 ~~~
 
-When you run the code now, you should see this output if the user input 10:
+When you run the program now, you should see this output if the user inputs 10:
 
 ~~~bash
 1
@@ -180,13 +180,13 @@ Fizz
 Buzz
 ~~~
 
-We have one more sub problem to solve to complete the program: If the current number is divisible by 3 and 5 then print "FizzBuzz"
+We have one more subproblem to solve to complete the program: If the current number is divisible by 3 and 5 then print `FizzBuzz`.
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
 for (let i = 1; i < answer; i++) {
-  if ( i % 3 === 0 && i % 5 == 0) {
+  if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
   } else if (i % 3 === 0) {
     console.log("Fizz");
@@ -198,9 +198,9 @@ for (let i = 1; i < answer; i++) {
 }
 ~~~
 
-We've had to move the conditionals around a little to get it to work. The first condition now checks if `i` is divisible by 3 and 5 instead of checking if `i` is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if (i % 3 === 0)` so when `i` was divisible by 3 it would print "Fizz" and then move onto the next number in the iteration, even if `i` was divisible by 5 as well.
+We've had to move the conditionals around a little to get it to work. The first condition now checks if `i` is divisible by 3 and 5 instead of checking if `i` is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if (i % 3 === 0)` so when `i` was divisible by 3 it would print `Fizz` and then move onto the next number in the iteration, even if `i` was divisible by 5 as well.
 
-With the condition `if (i % 3 === 0 && i % 5 === 0)` coming first, we ensure we check that `i` is divisible by both 3 and 5 before moving on to check if it is divisible by 3 or 5 individually in the `else if` conditions.
+With the condition `if (i % 3 === 0 && i % 5 === 0)` coming first, we check that `i` is divisible by both 3 and 5 before moving on to check if it is divisible by 3 or 5 individually in the `else if` conditions.
 
 The program is now complete! If you run it now you should get this output when the user inputs 20:
 
@@ -231,8 +231,8 @@ Buzz
 
 <div class="lesson-content__panel" markdown="1">
   1. Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
-  2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding tech. It's an hour long but packed full of information and definitley worth your time watching.
-  3. Read this [What is Pseudo Coding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) Article from The Viking Code School
+  2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding tech. It's an hour long but packed full of information and definitely worth your time watching.
+  3. Read this [What is Pseudo Coding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) Article from The Viking Code School.
 </div>
 
 ### Additional Resources

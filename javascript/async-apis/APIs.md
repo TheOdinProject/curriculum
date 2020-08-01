@@ -36,7 +36,7 @@ By signing up for a service and getting an API key you are letting the service t
 
 Luckily for us, the majority our apps are only going to be used by us and the people that view our portfolios. So we'll get by _just fine_ with free services.
 
-Once you get a key (try this now if you like!) you can paste the URL into the browser again (including your key of course) and hopefully, you'll see a proper response:
+Once you get a key (try this now if you like!) and waited for its activation (see [Do I need to activate my API key?](https://openweathermap.org/faq)) you can paste the URL into the browser again (including your key of course) and hopefully, you'll see a proper response:
 
 ~~~JSON
 {"coord":{"lon":-77.73,"lat":38.77},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":75.74,"pressure":1017,"humidity":57,"temp_min":71.6,"temp_max":78.8},"visibility":16093,"wind":{"speed":3.87,"deg":291},"clouds":{"all":1},"dt":1504188900,"sys":{"type":1,"id":2886,"message":0.0053,"country":"US","sunrise":1504175992,"sunset":1504222878},"id":4775660,"name":"New Baltimore","cod":200}
@@ -71,7 +71,7 @@ request.send(null);
 
 Ouch. That was painful.
 
-Developers, feeling the pain of having to write that stuff out, began writing 3rd party libraries to take care of this and make it much easier to use. Some of the more popular libraries are [request](https://github.com/request/request), [axios](https://github.com/mzabriskie/axios), and [superagent](https://github.com/visionmedia/superagent), all of which have their strengths and weaknesses.
+Developers, feeling the pain of having to write that stuff out, began writing 3rd party libraries to take care of this and make it much easier to use. Some of the more popular libraries are [axios](https://github.com/mzabriskie/axios) and [superagent](https://github.com/visionmedia/superagent), both of which have their strengths and weaknesses.
 
 More recently, however, web browsers have begun to implement a new native function for making HTTP requests, and that's the one we're going to use and stick with for now. Meet fetch:
 

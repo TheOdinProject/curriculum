@@ -87,7 +87,6 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [driver fossegrim + navigator darklord's Solution](https://olav35.github.io/pomodoro/)
 * [doskzorak's Solution](https://github.com/doskzorak/Pomodoro-Clock)
 * [Hans Oliveira's Solution](https://github.com/hansnery/banana_timer) - [View in Browser](https://hansnery.github.io/banana_timer/)
-* [Justinkar's Solution](https://github.com/justinkar/pomodoro) - [View in Browser](https://justinkar.github.io/pomodoro/)
 * [colecrowder's and nearmint's Solution](https://github.com/colecrowder/pomodoro) - [View in Browser](https://colecrowder.github.io/pomodoro/)
 * [Joshysmart's Solution](https://github.com/joshysmart/javascript-pomodoro) - [View in Browser](https://joshysmart.github.io/javascript-pomodoro/)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/pomodoro) - [View in Browser](https://gbadesimple.github.io/pomodoro/)
@@ -259,7 +258,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [RiceFree's and Sukru's Solution](https://github.com/sukrugorgulu/pomodoro) - [View in Browser](https://sukrugorgulu.github.io/pomodoro/)
 * [ahanasi's Solution](https://github.com/ahanasi/pomodoro-clock) - [View in Browser](https://ahanasi.github.io/pomodoro-clock/)
 * [bryanluu and adilahmad321's Solution](https://github.com/adilahmad321/Pomodoro-Clock) - [View in Browser](https://adilahmad321.github.io/Pomodoro-Clock/)
-
+* [Chandra's Solution](https://github.com/CodeSurfer3022/Pomodoro-timer) - [View in Browser](https://codesurfer3022.github.io/Pomodoro-timer/) 
 </details>
 
 ### Next Steps
