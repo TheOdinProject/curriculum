@@ -1858,4 +1858,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Michael's Solution](https://github.com/moinabyssinia/rock-paper-scissors) - [View in Browser](https://moinabyssinia.github.io/rock-paper-scissors/)
 - [Arglinguist's Solution](https://github.com/arglinguist/RockPaperScissors)
 - [TheDodus's Solution](https://github.com/thedodus/top-rock-paper-scissors)
+- [Barry's Solution](https://github.com/BarnoldSporrace/rock-paper-scissors)
 </details>
