@@ -4085,7 +4085,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [SoyNucleo's solution (Easy)](https://github.com/SoyNucleo/google-homepage) - [View in Browser](https://soynucleo.github.io/google-homepage/)
 * [ayeshaqb's Solution (Easy)](https://github.com/ayeshaqb/google-homepage) - [View in Browser](https://ayeshaqb.github.io/google-homepage/)
 * [Alex's Solution (Easy)](https://github.com/altays/Google-Homepage-Rebuild) - [View in Browser](https://altays.github.io/Google-Homepage-Rebuild/)
-* [Marvin's Solution (Easy)] (https://github.com/marvinkeilbach/google-homepage) - [View in Browser](https://marvinkeilbach.github.io/google-homepage/)
+* [Marvin's Solution (Easy)](https://github.com/marvinkeilbach/google-homepage) - [View in Browser](https://marvinkeilbach.github.io/google-homepage/)
 </details>
 
 
