@@ -275,4 +275,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [Adam's Solution (with extra credit)](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/linked_list.rb)
 - [msespos's Solution (with extra credit)](https://github.com/msespos/linked-list/blob/master/main.rb)
 - [Chonf's Solution (with extra credit)](https://github.com/NotAProgrammerdork/Ruby/blob/master/linked_list.rb)
+- [sforber's Solution (with extra credit)](https://github.com/sforber/ruby-linkedlists/blob/master/linkedlists.rb)
   </details>
