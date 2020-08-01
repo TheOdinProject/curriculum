@@ -41,7 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [marlonhache's solution] (https://github.com/marlonhache/top-rock-paper-scissors)
+- [marlonhache's solution](https://github.com/marlonhache/top-rock-paper-scissors)
+- [lucasdonuts' Solution](https://github.com/lucasdonuts/RPS-Project)
 - [Sizwe Malobola's solution](https://github.com/SizweMalobola/Janken) - [View in Browser](https://sizwemalobola.github.io/Janken/)
 - [totalconsciousness's solution](https://github.com/totalconsciousness/rock-paper-scissors) - [View in Browser](https://totalconsciousness.github.io/rock-paper-scissors/)
 - [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/rock-paper-scissor) - [View in Browser](https://thorontherocks.github.io/rock-paper-scissor/)
@@ -132,6 +133,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andy-Robertson's Solution](https://github.com/Andy-Robertson/rock-paper-scissors)
 - [Norman Mikhail's Solution](https://github.com/normanmkhl/Assassins-Face-Off) - [View in Browser](https://normanmkhl.github.io/Assassins-Face-Off)
 - [bobbychicano's Solution](https://github.com/bobbychicano/rock-paper-scissors)
+- [bobbychicano's solution](https://github.com/bobbychicano/rock-paper-scissors) - [View in Browser](https://bobbychicano.github.io/rock-paper-scissors/)
 - [Musabii's Solution](https://musabii.github.io/rock-paper-scissors/)
 - [Rafael Amancio Diegues's Solution](https://github.com/radiegues06/rock-paper-scissors)
 - [rchlkr's Solution](https://github.com/rchlkr/rock-paper-scissors-browser) - [View in Browser](https://rchlkr.github.io/rock-paper-scissors-browser/)
