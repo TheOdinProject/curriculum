@@ -23,13 +23,15 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
   7. Write `#inorder`, `#preorder`, and `#postorder` methods that returns an array of values. Each method should traverse the tree in their respective depth-first order.
 
-  8. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
+  8. Write a `#height` method which accepts a node and returns its height. Height is defined as the number of edges in longest path from a given node to a leaf node.
+  
+  9. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
 
-  9. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
+  10. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 
-  10. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+  11. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
 
-  11. Write a simple driver script that does the following:
+  12. Write a simple driver script that does the following:
 
     1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
     2. Confirm that the tree is balanced by calling `#balanced?`
@@ -58,6 +60,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [James's Solution](https://github.com/jegrieve/binary_search_trees)
+* [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
+* [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/bst.rb)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/binary-search-tree)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Binary-Search-Trees)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Binary_Search_Trees)
@@ -254,6 +261,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [JvPelai's Solution](https://github.com/JvPelai/binary-search-trees)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
+* [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -285,7 +293,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 ~~~bash
   > knight_moves([3,3],[4,3])
-  => You made it in 3 moves!  Heres your path:
+  => You made it in 3 moves!  Here's your path:
     [3,3]
     [4,5]
     [2,4]
@@ -300,6 +308,13 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron's Solution](https://github.com/Aaron-McD/knight-travails)
+* [Kfollen93's Solution](https://github.com/Kfollen93/Knights_Travails)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/knights-travails)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/knight_travails)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/knights_travails)
+* [Chau Nguyen's Solution](https://github.com/VanQuishi/ruby_practice/blob/master/knight_travails.rb)
+* [Aaron Contreras's Solution](https://https://github.com/aaron-contreras/knights_travails)
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Ruby-Knight-Travails)
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/data_structures/knight_moves.rb)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Knights-Travails)
@@ -487,5 +502,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/knight.rb)
 * [Brent's Solution](https://github.com/brentcam250/knight_moves)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
+* [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
+* [msespos's Solution](https://github.com/msespos/knights-travails)
 
 </details>

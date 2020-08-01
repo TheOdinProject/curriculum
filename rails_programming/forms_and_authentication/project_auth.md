@@ -57,6 +57,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saul-Good-Homie's](https://github.com/Saul-Good-Homie/SkolBook) - [View in Browser](https://tranquil-castle-04083.herokuapp.com/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/members_only)
 * [Christian's Solution](https://github.com/rueeazy/members-only)
 * [jodokusquack's Solution](https://github.com/jodokusquack/members-only)
@@ -184,6 +185,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Bendee's Solution](https://github.com/bendee48/rails-members-only)
 * [Robert Suazo's Solution](https://github.com/rsuazo/members-only)
 * [Christian Páez's Solutions](https://github.com/christian1894/odin-project-members-only) - [View in Browser](https://members-only-ruby-on-rails.herokuapp.com/)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/members-only)
 </details>
 
 ### Additional Resources

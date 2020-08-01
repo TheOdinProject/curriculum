@@ -27,6 +27,10 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/mock-the-next-web) - [View in Browser](https://run-after.github.io/mock-the-next-web/)
+* [Alex Zambrano's Solution](https://github.com/Alexoid1/Building-with-Responsive-Design) - [View in Browser](https://alexoid1.github.io/Building-with-Responsive-Design/)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-responsive) - [View in Browser](https://lucas-bide.github.io/odin-responsive/)
+* [Stanley Enow Lekunze's Solution](https://github.com/happiguru/Building-with-responsive-design) - [View in Browser](https://raw.githack.com/SunnySparks/Building-with-responsive-design/feature-branch/index.html)
 * [descholar's Solution](https://github.com/AlduLonghi/the-next-web-clone) - [View in Browser](https://fervent-mcnulty-8f2492.netlify.app/)
 * [Yiğit's Solution](https://github.com/yigitm/TNW-Clone) - [View in Browser](https://yigitm.github.io/TNW-Clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/Responsive-Design) - [View in Browser](https://haroonabdulrazaq.github.io/Responsive-Design/)
