@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Sizwe Malobola's Solution](https://github.com/SizweMalobola/functional-calculator) - [View in Browser](https://sizwemalobola.github.io/functional-calculator/)
 - [Priya Aggarwal's Solution](https://github.com/pa-aggarwal/calculator) - [View in Browser](https://pa-aggarwal.github.io/calculator/)
 - [pampush's Solution](https://github.com/pampush/calculator) - [View in Browser](https://pampush.github.io/calculator/)
 - [theamian's Solution](https://github.com/theamian/calculator)
