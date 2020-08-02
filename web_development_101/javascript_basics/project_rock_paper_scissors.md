@@ -41,10 +41,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [marlonhache's solution](https://github.com/marlonhache/top-rock-paper-scissors)
+- [marlonhache's Solution](https://github.com/marlonhache/top-rock-paper-scissors)
 - [lucasdonuts' Solution](https://github.com/lucasdonuts/RPS-Project)
-- [Sizwe Malobola's solution](https://github.com/SizweMalobola/Janken) - [View in Browser](https://sizwemalobola.github.io/Janken/)
-- [totalconsciousness's solution](https://github.com/totalconsciousness/rock-paper-scissors) - [View in Browser](https://totalconsciousness.github.io/rock-paper-scissors/)
+- [Sizwe Malobola's Solution](https://github.com/SizweMalobola/Janken) - [View in Browser](https://sizwemalobola.github.io/Janken/)
+- [totalconsciousness's Solution](https://github.com/totalconsciousness/rock-paper-scissors) - [View in Browser](https://totalconsciousness.github.io/rock-paper-scissors/)
 - [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/rock-paper-scissor) - [View in Browser](https://thorontherocks.github.io/rock-paper-scissor/)
 - [Cloei's Solution](https://cloei.github.io/Rock-Paper-Scissors/) - [View in Browser](https://cloei.github.io/Rock-Paper-Scissors/)
 - [Ian's Solution](https://github.com/ianistheguy/rock-paper-scissors-project) - [View in Browser](https://ianistheguy.github.io/rock-paper-scissors-project/)
@@ -1859,5 +1859,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Arglinguist's Solution](https://github.com/arglinguist/RockPaperScissors)
 - [TheDodus's Solution](https://github.com/thedodus/top-rock-paper-scissors)
 - [Barry's Solution](https://github.com/BarnoldSporrace/rock-paper-scissors)
-- [Mario Lugo Solution] (https://github.com/maariolugo/rock-paper-scissors)
+- [Mario Lugo Solution](https://github.com/maariolugo/rock-paper-scissors)
 </details>
