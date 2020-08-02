@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Priya Aggarwal's Solution](https://github.com/pa-aggarwal/calculator) - [View in Browser](https://pa-aggarwal.github.io/calculator/)
 - [pampush's Solution](https://github.com/pampush/calculator) - [View in Browser](https://pampush.github.io/calculator/)
 - [theamian's Solution](https://github.com/theamian/calculator)
 - [dab47310' Solution](https://github.com/dab47310/project-calculator) - [View in Browser](https://dab47310.github.io/project-calculator/)
