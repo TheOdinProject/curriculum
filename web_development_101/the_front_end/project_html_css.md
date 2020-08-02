@@ -95,10 +95,10 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Tariq's Solution(Easy](https://github.com/Steven-falser/google-homepage) - [View in Browser](https://github.com/Steven-falser/google-homepage/)
-* [MahMans' Solution(Easy)](https://github.com/MahMans/google-homepage) - [View in Browser](https://mahmans.github.io/google-homepage/)
-* [braddefauw' Solution(Easy)](https://github.com/braddefauw/google_homepage) - [View in Browser](https://braddefauw.github.io/google_homepage/)
-* [norklas' Solution(Easy)](https://github.com/norklas/google-homepage/) - [View in Browser](https://norklas.github.io/google-homepage/)
+* [Tariq's Solution (Easy)](https://github.com/Steven-falser/google-homepage) - [View in Browser](https://github.com/Steven-falser/google-homepage/)
+* [MahMans' Solution (Easy)](https://github.com/MahMans/google-homepage) - [View in Browser](https://mahmans.github.io/google-homepage/)
+* [braddefauw' Solution (Easy)](https://github.com/braddefauw/google_homepage) - [View in Browser](https://braddefauw.github.io/google_homepage/)
+* [norklas' Solution (Easy)](https://github.com/norklas/google-homepage/) - [View in Browser](https://norklas.github.io/google-homepage/)
 * [Sanjana's Solution (Easy)](https://github.com/error34043/google-homepage) - [View in Browswer](https://error34043.github.io/google-homepage/)
 * [Rachit's Solution (Easy)](https://github.com/arora-rachit/google-homepage) - [View in Browser](https://arora-rachit.github.io/google-homepage/)
 * [Marcel's Solution (Easy)](https://marcelhylton.github.io/google-homepage) - [View in Browser](https://github.com/marcelhylton/google-homepage)
