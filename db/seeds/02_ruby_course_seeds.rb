@@ -152,6 +152,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: "Methods",
+  title_url: "Methods".parameterize,
+  description: "In this lesson we will explore how to make your code more modular with methods.",
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: "/ruby_programming/basic_ruby/methods.md",
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: "Basic Enumerable Methods",
   title_url: "Basic Enumerable Methods".parameterize,
   description: "In this lesson we will explore Rubys secret weapon, its enumerable methods.",
@@ -171,18 +183,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: "/ruby_programming/basic_ruby/predicate_enumerable_methods.md",
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: "Methods",
-  title_url: "Methods".parameterize,
-  description: "In this lesson we will explore how to make your code more modular with methods.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/ruby_programming/basic_ruby/methods.md",
   repo: 'curriculum'
 )
 
