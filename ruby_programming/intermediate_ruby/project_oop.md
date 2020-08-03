@@ -409,6 +409,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Tic-Tac-Toe) - [Play on repl.it](https://repl.it/@shanedgilbert/Tic-Tac-Toe#.replit)
 * [bhenning83's Solution](https://github.com/bhenning83/tic-tac-toe/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@bhenning83/tictactoe#main.rb)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-oops/blob/master/tictactoe.rb)
+* [Madaja’s Solution](https://github.com/madaja/tictactoe)
 </details>
 
 ### Project 2: Mastermind
