@@ -230,4 +230,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Martin Echenique's Solution](https://github.com/MartinEchenique/restaurant-page) - [View in Browser](https://martinechenique.github.io/restaurant-page/)
 - [Danyl Matviyenko’s Solution](https://github.com/DanylMatviyenko/TheOdinProject-RestaurantPage-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-RestaurantPage-/)
 - [victor orlunda's Solution](https://github.com/dev-opus/restuarant-page) - [View in Browser](https://dev-opus.github.io/restuarant-page/)
+- [Jamesredux's Solution](https://github.com/Jamesredux/restaurant) - [View in Browser](https://jamesredux.github.io/restaurant/)
 </details>
