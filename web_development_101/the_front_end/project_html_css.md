@@ -95,7 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Yusuf Taha ATALAY's Solution (Easy)] (https://github.com/yusufatalay/google-homapage) -[View in Browser](https://yusufatalay.github.io/google-homepage/)
+* [Yusuf Taha ATALAY's Solution (Easy)](https://github.com/yusufatalay/google-homapage) - [View in Browser](https://yusufatalay.github.io/google-homepage/)
+* [chriskamp101's Solution (Easy)](https://github.com/chriskamp101/google-homepage) - [View in Browser](https://chriskamp101.github.io/google-homepage/)
 * [Tariq's Solution (Easy)](https://github.com/Steven-falser/google-homepage) - [View in Browser](https://github.com/Steven-falser/google-homepage/)
 * [MahMans' Solution (Easy)](https://github.com/MahMans/google-homepage) - [View in Browser](https://mahmans.github.io/google-homepage/)
 * [braddefauw' Solution (Easy)](https://github.com/braddefauw/google_homepage) - [View in Browser](https://braddefauw.github.io/google_homepage/)
@@ -4096,6 +4097,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Peter Chibunna's Solution (Easy)](https://github.com/peterchibunna/google-homepage) - [View in Browser](https://peterchibunna.github.io/google-homepage/index.html)
 * [Marvin's Solution (Easy)](https://github.com/marvinkeilbach/google-homepage) - [View in Browser](https://marvinkeilbach.github.io/google-homepage/)
 * [Raul Araujo's Solution (Easy)](https://github.com/Raul-Araujo/google-homepage) - [View in Browser](https://raul-araujo.github.io/google-homepage/)
+* [James Lowe's Solution (Easy)](https://github.com/James-Lowe/google-homepage) - [View in Browser](https://james-lowe.github.io/google-homepage/)
 </details>
 
 
