@@ -853,4 +853,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sal's Solution](https://github.com/Sal-theSadmanShark/Js_Calculator) - [View in Browser](https://sal-thesadmanshark.github.io/Js_Calculator/)
 - [robertompfm's Solution](https://github.com/robertompfm/calculator) - [View in Browser](https://robertompfm.github.io/calculator/)
 - [arcadie's Solution](https://github.com/doncilaarcadie/js_calculator) - [View in Browser](https://doncilaarcadie.github.io/js_calculator/)
+- [Wulfen's Solution](https://github.com/wulfenn/calculator) - [View in Browser](https://wulfenn.github.io/calculator/)
 </details>
