@@ -33,7 +33,7 @@ Modifying or dual booting a computer to work with the tools you'll need will mak
 
 #### Mac
 
-If you're using a Mac, you're in great shape. Most professional developers rely on Macs for their coding. By installing just a few programs, you will be up and running with your education in no time!
+If you're using a Mac, you're in great shape. Most professional developers rely on Unix-based systems for their coding. By installing just a few programs, you will be up and running with your education in no time!
 
 #### Linux
 
@@ -63,5 +63,6 @@ Finally, there are a variety of online code sandboxes that can be quite handy wh
 * [Repl.it](https://repl.it/)
 * [Codepen.io](https://codepen.io/)
 * [JSFiddle.net](https://jsfiddle.net/)
+* [CodeSandBox](https://codesandbox.io/)
 
 These sites can be used to complete small exercises or to sketch out a concept you don't quite understand. However, you shouldn't use these sites as your main development environment.

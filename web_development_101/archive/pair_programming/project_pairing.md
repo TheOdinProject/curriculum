@@ -87,7 +87,6 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [driver fossegrim + navigator darklord's Solution](https://olav35.github.io/pomodoro/)
 * [doskzorak's Solution](https://github.com/doskzorak/Pomodoro-Clock)
 * [Hans Oliveira's Solution](https://github.com/hansnery/banana_timer) - [View in Browser](https://hansnery.github.io/banana_timer/)
-* [Justinkar's Solution](https://github.com/justinkar/pomodoro) - [View in Browser](https://justinkar.github.io/pomodoro/)
 * [colecrowder's and nearmint's Solution](https://github.com/colecrowder/pomodoro) - [View in Browser](https://colecrowder.github.io/pomodoro/)
 * [Joshysmart's Solution](https://github.com/joshysmart/javascript-pomodoro) - [View in Browser](https://joshysmart.github.io/javascript-pomodoro/)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/pomodoro) - [View in Browser](https://gbadesimple.github.io/pomodoro/)
