@@ -117,6 +117,9 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [JvPelai's Solution](https://github.com/JvPelai/re-former)
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/Bare-Metal-Forms-and-Helpers)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/re-former)
 * [Ryan Lewin's Solution](https://github.com/ryan-lewin/re-former)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/re-former)
 * [irlgabriel's Solution](https://github.com/irlgabriel/re-former)
@@ -254,6 +257,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Ken H's Solution](https://github.com/kholston/re-former)
 * [Christian Páez's Solution](https://github.com/christian1894/re-former-odin-project-rails)
 * [fussykyloren's Solution](https://github.com/fussykyloren/re-former)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/forms)
 </details>
 
 ### Additional Resources

@@ -113,6 +113,11 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sam Eff's Solution](https://github.com/SamEff/micro-reddit)
+* [Uduak Essien's Solution](https://github.com/DarrenLo0530/rails-mini-projects/tree/master/micro-reddit)
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/micro-reddit)
+* [JvPelai's Solution](https://github.com/JvPelai/micro-reddit)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/active-record)
 * [Ryan Lewin's Solution](https://github.com/ryan-lewin/micro-reddit)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/Micro_reddit)
 * [irlgabriel's Solution](https://github.com/irlgabriel/micro-reddit)
@@ -268,6 +273,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [fussykyloren's Solution](https://github.com/fussykyloren/micro-reddit)
 * [Smith's & Paul's Solution](https://github.com/SmithVyne/Micro-reddit)
 * [Rob Dulabon's Solution](https://github.com/RDulabon/microReddit) 
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/micro-reddit)
 </details>
 
 ### Additional Resources
