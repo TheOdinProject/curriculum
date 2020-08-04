@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [karisdotdev's Solution (Easy)](https://github.com/karisdotdev/odin-google-homepage/) - [View in Browser](https://karisdotdev.github.io/odin-google-homepage/) 
 * [Tavonga's Solution (Easy)](https://github.com/iknowtavonga/google-homepage/google-homepage) - [View in Browser](https://iknowtavonga.github.io/google-homepage/google-homepage/) 
 * [Chris Ray's Solution (Easy)](https://github.com/chrisray1997/google-homepage) - [View in Browser](https://chrisray1997.github.io/google-homepage/)
 * [Yusuf Taha ATALAY's Solution (Easy)](https://github.com/yusufatalay/google-homapage) - [View in Browser](https://yusufatalay.github.io/google-homepage/)
