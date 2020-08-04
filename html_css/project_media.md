@@ -207,6 +207,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Kenneth H's Solution](https://github.com/kholston/youtube-player-page) - [View in Browser](https://kholston.github.io/youtube-player-page/)
 * [Nijepa's Solution](https://github.com/nijepa/embedding-images-and-video) - [View in Browser](https://nijepa.github.io/embedding-images-and-video/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/youtube)
+* [Violet's Solution](https://github.com/violetguos/html-css/tree/master/youtube) - [View in Browser](https://violetguos.github.io/html-css/youtube/)
 </details>
 
 ### Additional Resources
