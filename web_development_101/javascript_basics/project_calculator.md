@@ -854,4 +854,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [robertompfm's Solution](https://github.com/robertompfm/calculator) - [View in Browser](https://robertompfm.github.io/calculator/)
 - [arcadie's Solution](https://github.com/doncilaarcadie/js_calculator) - [View in Browser](https://doncilaarcadie.github.io/js_calculator/)
 - [Wulfen's Solution](https://github.com/wulfenn/calculator) - [View in Browser](https://wulfenn.github.io/calculator/)
+- [Yog.0's Solution](https://github.com/Yog0/Calculator) - [View in Browser](https://yog0.github.io/Calculator/)
 </details>
