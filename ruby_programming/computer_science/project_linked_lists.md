@@ -69,6 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [gogvale's Solution (with extra credit)](https://github.com/gogvale/linked_list.rb/blob/master/linked_list.rb) - [View Demo](https://repl.it/@gogvale/linkedlistrb#linked_list.rb)
 - [risanto's Solution (with extra credit)](https://github.com/risanto/ruby-programming/blob/master/13_linked-lists.rb)
 - [Spark's Solution (with extra credit)](https://github.com/Sparking2/Ruby-Linked-Lists/blob/master/lib/main.rb)
 - [Vinz'z Solution (with extra credit)](https://github.com/LrdVnz/linked_lists)
