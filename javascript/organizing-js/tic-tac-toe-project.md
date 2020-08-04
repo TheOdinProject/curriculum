@@ -263,4 +263,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/Tic-Tac-Toe) - [View in Browser](https://playingongithub.github.io/Tic-Tac-Toe/)
 - [Jamesredux's Solution](https://github.com/Jamesredux/js-tic-tac-toe) - [View in Browser](https://jamesredux.github.io/js-tic-tac-toe/)
 - [Sandy's Solution](https://github.com/kuosandys/top-tic_tac_toe) - [View in Browser](https://kuosandys.github.io/top-tic_tac_toe/)
+- [Timework's Solution](https://github.com/Timework/javascript-tic) - [View in Browser](https://timework.github.io/javascript-tic/)
 </details>
