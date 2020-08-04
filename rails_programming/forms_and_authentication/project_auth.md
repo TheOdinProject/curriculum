@@ -57,6 +57,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Uduak Essien's Solution - member-only](https://github.com/acushlakoncept/members-only) | [Twitter Clone](https://github.com/acushlakoncept/twitter-clone) - [Heroku](https://twitarclone.herokuapp.com/)
 * [JvPelai's Solution](https://github.com/JvPelai/weirdo-club) - [Heroku](https://sheltered-sea-61489.herokuapp.com/)
 * [Saul-Good-Homie's](https://github.com/Saul-Good-Homie/SkolBook) - [View in Browser](https://tranquil-castle-04083.herokuapp.com/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/members_only)
