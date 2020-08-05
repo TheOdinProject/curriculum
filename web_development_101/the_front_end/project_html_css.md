@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jacobert's Solution (Easy)](https://github.com/jacobert/google-homepage) - [View in Browser](https://jacobert.github.io/google-homepage/)
 * [banana-coder's Solution (Easy)](https://github.com/banana-code-star/google-homepage) - [View in Browser](https://banana-code-star.github.io/google-homepage/)
 * [Eyepatch-dev's Solution (Easy)](https://github.com/Eyepatch-dev/google-homepage) - [View in Browser](https://eyepatch-dev.github.io/google-homepage/)
 * [BlueChihuahua's Solution (Easy)](https://github.com/BlueChihuahua/google-homepage) - [View in Browser](https://bluechihuahua.github.io/google-homepage/)
