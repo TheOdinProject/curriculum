@@ -19,7 +19,7 @@ Just to name a few reasons why to learn React.js:
 - Pretty easy to learn, especially when you already have a good grasp of JavaScript and Html, which you do when you followed the previous courses
 - React uses the virtual DOM, which makes it extremely fast and efficient
 
-If you need more convincing check out [this](https://medium.com/@SilentHackz/top-10-reasons-why-you-should-learn-react-right-now-f7b0add7ec0d) article and [this](https://medium.com/@cassiozen/10-reasons-why-every-developer-should-learn-react-87fbfef2cb91).
+If you need more convincing this 2020 [stackoverflow developer survey](https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-all-respondents2) should be reason enough to get excited about learning React. Still unsure? Check out [this](https://medium.com/@SilentHackz/top-10-reasons-why-you-should-learn-react-right-now-f7b0add7ec0d) article.
 
 _convinced and excited? Great, because it's gonna change your life. Let's dive right into it._
 
@@ -67,13 +67,55 @@ export default App
 
 Don't get overwhelmed it isn't as difficult as it might look at the beginning. Let's walk through it step by step.
 
-1. With `import React, { Component } from "react"` we are importing React and the Components module from react, which allows us to create a class component
-2. Secondly we are declaring the class component, which really is just a Javascript class, that extends Component, which we imported earlier. One thing to notice is that React components should always be declared with a capital letter at the beginning.
-3. You see the constructor, which we also have in a javascript class. A Constructor is not obligatory in a class component, but most likely you will encounter one, because it gets quite important when we get to concepts like inheritance and state. So to get used to it, it's already included here. In React you pass "props" as an argument to the constructor and also to the `super()` call which has to be called in any constructor. You will not learn about props here, we discuss this in the next lesson, but in short, props are used in react to pass properties from a parent component to child components. But as I said, don't worry too much about that now, we will talk about it in full later on.
-4. What might look a little bit weird at first, is the comment, in React you write comments within curly brackets and quotes.
-5. And the probably most unfamiliar thing is the render function, which returns something that looks like HTML, but is actually JSX. And that's already one of the main things about react, the ability to combine Javascript and JSX. JSX is really nothing else than an HTML like syntax that will be transpiled by transpilers like babel into Javascript, in order for a browser to be able to read it. One thing you should know about JSX is that you can't use the in HTML protected words, such as "class" or "onchange". That's why instead of "class" you write "className" and instead of "onchange" you write "onChange". In general all attributes in JSX are written in camel-case. You should be fairly familiar with that naming convention from the naming of variables in Javascript. The render function you see is the most used React lifecycle function (more to that in another section). The only thing you should know for now is that every React class component needs a render function, which returns _one_ JSX element. So whatever you want to return needs to be wrapped in a single element.
+```javascript
+import React, { Component } from "react";
+```
 
-However, class components are just one way of defining a React component, another one is to use functional components.
+With the above `import` startement we are importing React and the Components module from React, which allows us to create a class component. If you are wondering why we have to wrap `Component` into curly brackets and `React` not, this is due to the way they are exported from the `react` module. Everything exported as a default can be imported without curly brackets, everything else has to be imported wrapped in curly brackets. Don't worry about this too much, we will get back at it shortly.
+
+```javascript
+class App extends Component {
+    {/* Some logic we haven't yet talked about. */}
+}
+```
+
+Secondly we are declaring the class component, which really is just a Javascript class, that extends Component, which we imported earlier. One thing to notice is that React components should always be declared with a capital letter at the beginning. This is just a naming convemtion used by most of the developers and recommended by React core team at Facebook.
+
+```javascript
+constructor() {
+    super()
+}
+```
+
+Next is the constructor, which we also have in a javascript class. A Constructor is not obligatory in a class component, but most likely you will encounter one, because it gets quite important when we get to concepts like inheritance and state. So to get used to it, it's already included here. You will usually see developers passing `props` as an argument to the constructor and also to the `super()` call which has to be called in any constructor. However, you will not learn about props here, we discuss this in the next lesson, but in short, props are used in react to pass properties from a parent component to child components. But as I said, don't worry too much about that now, we will talk about it in full later on.
+
+```javascript
+{/* Some logic we haven't yet talked about. */}
+```
+
+This syntax might look a little bit weird at first, but it is nothing else than a simple comment. In React you write comments within curly brackets and quotes.
+
+```javascript
+render() {
+    return (
+        <div className="App">
+        Hello World!
+        </div>
+    )
+}
+```
+
+And the probably most unfamiliar thing is the render function, which returns something that looks like HTML, but is actually JSX. And that's already one of the main things about react, the ability to combine Javascript and JSX. JSX is really nothing else than an HTML like syntax that will be transpiled by transpilers like babel into Javascript, in order for a browser to be able to read it. One thing you should know about JSX is that you can't use the in HTML protected words, such as "class" or "onchange". That's why instead of "class" you write "className" and instead of "onchange" you write "onChange". In general all attributes in JSX are written in camel-case. You should be fairly familiar with that naming convention from the naming of variables in Javascript. The render function you see is the most used React lifecycle function (more to that in another section). The only thing you should know for now is that every React class component needs a render function, which returns _one_ JSX element. So whatever you want to return needs to be wrapped in a single element.
+
+Last but not least to be able to reuse this `App`component we just declared in other files in our project we have to export the component. In our example we export the component as the file's default export:
+
+```javascript
+export default App;
+```
+
+If you have mutliple components in one file, you could just export each component separately by adding the `export` keyword before the declaration of the component. Remember that initially we said the way we import components depends on the way we export it? That is exactly what we were talking about. If you export a component as a default, you can import it without wrapping curly brackets around it. If you export multiple components, you have to import them inside of curly brackets.
+
+Great, so far so good! We have already learned a lot about components in React, and let me tell you, class components are just one way of defining components in React, another way is to use functional components.
 
 A basic functional component looks like the following
 

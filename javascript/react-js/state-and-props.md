@@ -180,7 +180,7 @@ class App extends Component {
 }
 ```
 
-In the above component we declared a state. You **always** declare state in the constructor in a class component. Remember that for functional components it works a little bit different. The `setState` method we call sets the state to a new value. In React you should **never** change state directly. What does that mean? Never do something like this: `this.state.count = 3`, instead always use the `setState` method React provides you to modify the state. Really keep that in mind, it can save you a lot of debugging when you are getting started with React.
+In the above component we declared a state. You **always** declare state in the constructor in a class component. Remember that for functional components it works a little bit different. The `setState` method we call sets the state to a new value. In React state is **immutable**, this means you should **never** change state directly, because it can lead to unexpected behavior or bugs. What exactly does that mean? Never do something like this: `this.state.count = 3`, instead always use the `setState` method React provides you to modify the state. Really keep that in mind, it can save you a lot of debugging when you are getting started with React. Take a look at [this](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/) article, which does a great job in analyzing many popular javascript methods concerning mutability.
 
 As you have also seen in the `render` method, we access the current state through `this.state.count`. This syntax should look familiar to you by now, because it is the same way we accessed props. And yes, you can also destructure state.
 
@@ -217,7 +217,7 @@ const App = () => {
 export default App;
 ```
 
-Of course we can also use destructuring here, by adding this line `const {title} = props` above the return statement in `MyComponent.js` we can just refere to the title using `{title}`
+Of course we can also destructure from props here. By adding this line `const {title} = props` above the return statement in `MyComponent.js` we can just refere to the title using `{title}`
 
 For the state in functional components it is a little bit different. Before the end of 2018 developers were actually not able to access state in functional components at all. Functional components were therefore just used for returning JSX logic. However with the introduction of **React Hooks** this has changed. Now we can set and access state also in functional components, and often they are now prefered over class components. The way Hooks work is the topic of one of the following lectures, so don't worry about it too much right now. Just keep in mind it's an amazing feature.
 

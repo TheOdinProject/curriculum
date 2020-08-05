@@ -13,7 +13,7 @@ Before you start, make sure you understood the concept of `state` and `props` fr
 
 ### DIY Guide
 
-Our application will be made of two components, `Tasks` and `Display`. Your application should render an input field and a submit button. With the submit button you can add the content from your input to a task array managed in state. (So we will use class components, because we haven't learned about hooks yet). Your application should render a html list element for each element in the task array and display it on the screen.
+Our application will be made of two components, `App` and `Overview`. Your application should render an input field and a submit button. With the submit button you can add the content from your input to a tasks array managed in state. (We will use class components for this example, because we haven't learned about hooks yet). Finally, for each task in the tasks array an HTML list element should be rendered.
 
 1. Run `npx create-react-app my-first-react-app`, `cd` into your project and open it. You can delete everything in the return statement of the App component and just return an empty `div`. You can also delete all the boilerplate React provides and just leave `index.js` and `App.js` in the src directory. Just make sure to clean up the import statements and the `serviceWorker` in the two remaining files. If you are overwhelmed with all those files, consider redoing Lecture 01.
 2. Create a `components` folder in your `src` directory, which includes a files called `Overview.js`. `Overview.js` should just render all of our tasks, while `App.js` is going to handle the input field with all the logic.
