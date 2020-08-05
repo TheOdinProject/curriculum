@@ -307,6 +307,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [cbpolley's Solution](https://github.com/cbpolley/fibonacci/blob/master/merge_sort.rb)
 * [gogvale's Solution](https://github.com/gogvale/ruby_recursion/blob/master/merge_sort.rb)
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/merge_sort/blob/master/merge_sort.rb)
 * [bassart94's Solution](https://repl.it/@bassart94/mergesort)
