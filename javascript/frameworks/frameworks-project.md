@@ -42,7 +42,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Andres Ruiz's Vue Library](https://github.com/Andrsrz/library-vuejs) - [View in Browser](https://andrsrz.github.io/library-vuejs/)
 * [Odunsi's(dhatguy) React Library](https://github.com/dhatGuy/library/tree/react-library) - [View in Browser](https://rebrand.ly/e5509)
 * [hieu-ng's Vue Todo List](https://github.com/hieu-ng/vue-simple-todolist) - [View in Browser](https://hieu-ng.github.io/vue-simple-todolist/)
-  > > > > > > > 61c7cd16cfe1608cd1ff0b34646b52bc8078a0a1
 * [Luky's React Library](https://github.com/lcyne/book-list/) - [View in browser](https://lcyne.github.io/book-list/)
 * [Ylli's React Library](https://github.com/yllabazi/myLibrary-ReactJS) - [View in Browser](https://yllabazi.github.io/myLibrary-ReactJS/)
 * [Andrey's React To-Do list solution](https://andreyskopintsev.github.io/react-todo)
