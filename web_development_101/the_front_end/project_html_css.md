@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [kc17m Solution (Difficult)](https://github.com/kc17m/Difficult_Google_homepage) - [View in Browser](https://kc17m.github.io/Difficult_Google_homepage/)
 * [jacobert's Solution (Easy)](https://github.com/jacobert/google-homepage) - [View in Browser](https://jacobert.github.io/google-homepage/)
 * [banana-coder's Solution (Easy)](https://github.com/banana-code-star/google-homepage) - [View in Browser](https://banana-code-star.github.io/google-homepage/)
 * [Eyepatch-dev's Solution (Easy)](https://github.com/Eyepatch-dev/google-homepage) - [View in Browser](https://eyepatch-dev.github.io/google-homepage/)
