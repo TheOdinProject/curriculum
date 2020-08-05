@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [kc17m Solution (Difficult)](https://github.com/kc17m/Difficult_Google_homepage) - [View in Browser](https://kc17m.github.io/Difficult_Google_homepage/)
 * [BlueChihuahua's Solution (Easy)](https://github.com/BlueChihuahua/google-homepage) - [View in Browser](https://bluechihuahua.github.io/google-homepage/)
 * [Seth Fike's Solution (Easy)](https://github.com/sethfike/google-homepage) - [View in Browser](https://sethfike.github.io/google-homepage/)
 * [karisdotdev's Solution (Easy)](https://github.com/karisdotdev/odin-google-homepage/) - [View in Browser](https://karisdotdev.github.io/odin-google-homepage/) 
