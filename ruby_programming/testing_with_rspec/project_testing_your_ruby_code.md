@@ -162,6 +162,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/connect-four)
 * [Aaron's Solution](https://github.com/Aaron-McD/connect-four)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_connect_four)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/connect-four)
