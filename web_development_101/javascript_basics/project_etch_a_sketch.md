@@ -1211,4 +1211,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [ParchedPanda's Solution](https://github.com/ParchedPanda/etch-a-sketch) - [View in Browser](https://parchedpanda.github.io/etch-a-sketch/)
 * [Michael's Solution](https://github.com/moinabyssinia/etch-a-sketch) - [View in Browser](https://moinabyssinia.github.io/etch-a-sketch/)
 * [Yog.0's Solution](https://github.com/Yog0/etch-a-sketch)
+* [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/Etch-a-Sketch) - [View in Browser](https://almirbunjaku.github.io/Etch-a-Sketch/)
 </details>
