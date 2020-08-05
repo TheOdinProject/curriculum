@@ -135,6 +135,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [themetar's solution](https://github.com/themetar/odin-facebook) - [View in browser](https://phacepook.herokuapp.com/)
 * [Timework's solution](https://github.com/Timework/odin-facebook) - [View in browser](https://young-spire-86635.herokuapp.com/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/facebook)
+* [Bendee's Solution](https://github.com/bendee48/book-face1.1) - [View in browser](https://pacific-journey-50747.herokuapp.com/)
 </details>
 
 ### Additional Resources
