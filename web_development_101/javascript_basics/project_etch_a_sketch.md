@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [slowbeeps's Solution](https://github.com/slowbeeps/odinp_etch-a-sketch) - [View in Browser](https://slowbeeps.github.io/odinp_etch-a-sketch/)
+* [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/Etch-A-Sketch) - [View in Browser](https://thorontherocks.github.io/Etch-A-Sketch/);
 * [rajdeepdev10's Solution](https://github.com/rajdeepdev10/etch-a-sketch) - [View in Browser](https://rajdeepdev10.github.io/etch-a-sketch/)
 * [jw673b's Solution](https://github.com/jw673b/etch-A-Sketch) - [View in Browser](https://jw673b.github.io/etch-A-Sketch/)
 * [Singodimejo's Solution](https://github.com/singodimejo/etch-a-sketch) - [View in Browser](https://singodimejo.github.io/etch-a-sketch/)
@@ -1209,6 +1211,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Pikkuruusu's Solution](https://github.com/pikkuruusu/etch-a-sketch) - [View in Browser](https://pikkuruusu.github.io/etch-a-sketch/)
 * [Wulfen's Solution](https://github.com/wulfenn/etch-a-sketch) - [View in Browser](https://wulfenn.github.io/etch-a-sketch/)
 * [ParchedPanda's Solution](https://github.com/ParchedPanda/etch-a-sketch) - [View in Browser](https://parchedpanda.github.io/etch-a-sketch/)
+* [Christopher's Solution](https://github.com/christopheralagna/etch-a-sketch) - [View in Browser](https://christopheralagna.github.io/etch-a-sketch/)
 * [Michael's Solution](https://github.com/moinabyssinia/etch-a-sketch) - [View in Browser](https://moinabyssinia.github.io/etch-a-sketch/)
 * [Yog.0's Solution](https://github.com/Yog0/etch-a-sketch)
+* [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/Etch-a-Sketch) - [View in Browser](https://almirbunjaku.github.io/Etch-a-Sketch/)
 </details>
