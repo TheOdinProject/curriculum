@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jakelo97's solution (Easy)] (https://github.com/jakelo97/google_test/blob/master/index.html) – [View in Browser](https://jakelo97.github.io/google_test/)
 * [Marvellous' solution (Difficult)](https://github.com/mskavalo/google-homepage-difficult) - [View in Browser](https://mskavalo.github.io/google-homepage-difficult/)
 * [MashaShak's Solution (Easy)](https://github.com/MashaShak/google-homepage) - [View in Browser](https://mashashak.github.io/google-homepage/)
 * [NicolasArayaB's Solution (Easy)](https://github.com/NicolasArayaB/google-homepage) - [View in Browser](https://nicolasarayab.github.io/google-homepage/)
