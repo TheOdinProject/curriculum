@@ -1799,6 +1799,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Alexander Glez's Solution](https://github.com/Covicale/RockPaperScissors) - [View in Browser](https://covicale.github.io/RockPaperScissors/)
 - [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors)
 - [Denzel's Solution](https://github.com/denzUp/rock-paper-scissors-game) - [View in Browser](https://denzup.github.io/rock-paper-scissors-game/)
-- [LJ's Solution] (https://github.com/lejones1785/rockPaperScissors)
+- [LJ's Solution](https://github.com/lejones1785/rockPaperScissors)
 </details>
 
