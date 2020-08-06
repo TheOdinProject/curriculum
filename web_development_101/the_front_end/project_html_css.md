@@ -95,8 +95,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-[Juan Pablo's Solution (Easy)] https://github.com/JP-Pato/google-homepage - https://jp-pato.github.io/google-homepage/
-* [Marvellous' solution (Difficult)](https://github.com/mskavalo/google-homepage-difficult) - [View in Browser](https://mskavalo.github.io/google-homepage-difficult/)
+* [Juan Pablo's Solution (Easy)](https://github.com/JP-Pato/google-homepage) - [View in Browser](https://jp-pato.github.io/google-homepage/)
+* [jakelo97's Solution (Easy)](https://github.com/jakelo97/google_test) – [View in Browser](https://jakelo97.github.io/google_test/)
+* [Marvellous' Solution (Difficult)](https://github.com/mskavalo/google-homepage-difficult) - [View in Browser](https://mskavalo.github.io/google-homepage-difficult/)
 * [MashaShak's Solution (Easy)](https://github.com/MashaShak/google-homepage) - [View in Browser](https://mashashak.github.io/google-homepage/)
 * [NicolasArayaB's Solution (Easy)](https://github.com/NicolasArayaB/google-homepage) - [View in Browser](https://nicolasarayab.github.io/google-homepage/)
 * [kc17m Solution (Difficult)](https://github.com/kc17m/Difficult_Google_homepage) - [View in Browser](https://kc17m.github.io/Difficult_Google_homepage/)
@@ -4114,7 +4115,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Charclaw's Solution (Easy)](https://github.com/Charclaw/google_homepage) - [View in Browser](https://charclaw.github.io/google_homepage/)
 * [Fusako's Solution (Easy)](https://github.com/fusakoo/google-homepage) - [View in Browser](https://fusakoo.github.io/google-homepage/)
 * [Manuel Diaz Solution (Easy)](https://github.com/manueldiazy/google-homepage/) - [View in Browser](https://manueldiazy.github.io/google-homepage/)
-* [Alejandro Aquino (Easy)](https://github.com/aledaquino1986/google-homepage) - [View in Browser](https://aledaquino1986.github.io/google-homepage/)
+* [Alejandro Aquino Solution (Easy)](https://github.com/aledaquino1986/google-homepage) - [View in Browser](https://aledaquino1986.github.io/google-homepage/)
 </details>
 
 
