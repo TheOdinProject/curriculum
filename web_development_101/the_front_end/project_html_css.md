@@ -4113,6 +4113,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Charclaw's Solution (Easy)](https://github.com/Charclaw/google_homepage) - [View in Browser](https://charclaw.github.io/google_homepage/)
 * [Fusako's Solution (Easy)](https://github.com/fusakoo/google-homepage) - [View in Browser](https://fusakoo.github.io/google-homepage/)
 * [Manuel Diaz Solution (Easy)](https://github.com/manueldiazy/google-homepage/) - [View in Browser](https://manueldiazy.github.io/google-homepage/)
+* [Alejandro Aquino (Easy)](https://github.com/aledaquino1986/google-homepage) - [View in Browser](https://aledaquino1986.github.io/google-homepage/)
 </details>
 
 
