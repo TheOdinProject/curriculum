@@ -42,6 +42,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kevin's Soulution](https://github.com/Kevlar2222/battleships/tree/master) - [View in Browser](https://kevlar2222.github.io/battleships/)
 - [Akram's Soulution](https://github.com/Ghanna96/battleship) - [View in Browser](https://ghanna96.github.io/battleship/)
 - [vonhoro's Solution](https://github.com/vonhoro/Battleships) - [View in Browser](https://vonhoro.github.io/Battleships/)
 - [Luky's Solution](https://github.com/lcyne/battleship) - [View in Browser](https://lcyne.github.io/battleship/)
