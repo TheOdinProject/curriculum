@@ -71,7 +71,7 @@ export { functionOne }
 
 ~~~javascript
 // another JS file
-import { functionOne } from './functionOne'
+import { functionOne } from './functionOne.js'
 
 functionOne() //this should work as expected!
 ~~~
