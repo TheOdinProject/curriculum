@@ -117,4 +117,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Nijepa's Solution](https://github.com/nijepa/weather-app) - [View in Browser](https://nijepa.github.io/weather-app/)
 * [khabiirk's Solution](https://github.com/khabiirk/Weather) - [View in Browser](https://khabiirk.github.io/Weather/)
 * [jooji-san's Solution](https://github.com/jooji-san/weather-app) - [View in Browser](https://jooji-san.github.io/weather-app/)
+* [themetar's Solution](https://github.com/themetar/Weather-App) - [View in Browser](https://themetar.github.io/Weather-App/)
 </details>
