@@ -1846,4 +1846,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [robertompfm's Solution](https://github.com/robertompfm/rock-paper-scissors)
 - [Denzel's Solution](https://github.com/denzUp/rock-paper-scissors-game) - [View in Browser](https://denzup.github.io/rock-paper-scissors-game/)
 - [Bones81's Solution](https://github.com/Bones81/RockPaperScissors) - [View in Browser](https://bones81.github.io/RockPaperScissors/)
+- [LJ's Solution](https://github.com/lejones1785/rockPaperScissors)
 </details>
