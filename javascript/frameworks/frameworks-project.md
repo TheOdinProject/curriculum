@@ -19,7 +19,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
-* [Diane998's Angular Library](https://github.com/Diane998/library) - [View in Browser](https://library-kappa.vercel.app/)
+* [Diane998's Angular Library](https://github.com/Diane998/library) - [View in Browser](https://angular-library-git-master.diane998.vercel.app/)
 * [Scott's React Restaurant Page](https://github.com/ScotttP/restaurant-page-react/tree/master/restaurant-page) - [View in Browser](https://scotttp.github.io/restaurant-page-react/)
 * [Rizwan's React Library](https://github.com/xRizwan/react-library) - [View in Browser](https://xrizwan.github.io/react-library/)
 * [nearmint's Vue.js Library](https://github.com/nearmint/vue-library) - [View in Browser](http://nearmint.github.io/vue-library)
@@ -103,5 +103,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Nijepa's Vue ToDo List Solution](https://github.com/nijepa/todo-list-vue) - [View in Browser](https://nijepa.github.io/todo-list-vue/)
 * [jooji-san's React Library Solution](https://github.com/jooji-san/library-react) - [View in Browser](https://jooji-san.github.io/library-react/)
 * [MatyD's React Library Solution](https://github.com/MatyD356/remeked-lib/tree/master) - [View in Browser](https://matyd356.github.io/remeked-lib/)
-
+* [themetar's React Library Solution](https://github.com/themetar/library-app-react) - [View in Browser](https://themetar.github.io/library-app-react/)
 </details>
