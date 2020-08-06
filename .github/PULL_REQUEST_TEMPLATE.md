@@ -3,3 +3,5 @@ This is a PR template. If you are adding a solution link to the curriculum, leav
 Thank you,
 
 The Odin Project team.
+https://github.com/Marcraphael12/google_search
+https://github.com/Marcraphael12/-google-homepage
