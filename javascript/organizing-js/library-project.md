@@ -381,5 +381,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [MayarHassanin's Solution](https://github.com/Mayar-Hassanin98/Libary) - [View in Browser](https://mayar-hassanin98.github.io/Libary/)
 - [sacchan9's Solution](https://github.com/sacchan9/library) - [View in Browser](https://sacchan9.github.io/library/)
 - [calebrauscher's Solution (w/local storage)](https://github.com/calebrauscher/The-Odin-Project/tree/master/library) - [View in Browser](https://calebrauscher.github.io/The-Odin-Project/library/)
+- [skwiryt's solution (w/ Local Storage)](https://github.com/skwiryt/library) - [View in Browser](https://skwiryt.github.io/library/)
 
 </details>
