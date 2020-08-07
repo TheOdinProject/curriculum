@@ -50,7 +50,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [hnguye's Solution](https://github.com/hnguye/tictactoe) - [View in Browser](https://hnguye.github.io/tictactoe/)
 - [vonhoro's Solution](https://github.com/vonhoro/Tic-Tac-Toe) - [View in Browser](https://vonhoro.github.io/Tic-Tac-Toe/)
 - [rafael's Solution](https://github.com/jcads/TicTacToe) - [View in Browser](https://jcads.github.io/TicTacToe/)
-- [Narek's Solution](https://github.com/narekokr/Tictactoe) - [View in Browser](https://narekokr.github.io/Tictactoe/)
+- [Narek's Solution](https://github.com/narekokr/Tictactoe)
 - [fviccia's Solution](https://github.com/fviccia/tic-tac-toe) - [View in Browser](https://fviccia-tic-tac-toe.netlify.app/)
 - [Tomodi98's Solution](https://github.com/Tomodi98/tic-tac-toe) - [View in Browser](https://tomodi98.github.io/tic-tac-toe/)
 - [pklepa's Solution](https://github.com/pklepa/tic-tac-toe) - [View in Browser](https://pklepa.github.io/tic-tac-toe/)
