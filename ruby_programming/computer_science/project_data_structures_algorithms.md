@@ -263,6 +263,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
+* [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
 </details>
 
 ### Project 2: Knight's Travails
