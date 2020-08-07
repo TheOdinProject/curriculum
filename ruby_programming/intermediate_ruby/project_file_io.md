@@ -347,4 +347,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_hangman/blob/master/hangman.rb)
 * [jding9's Solution](https://github.com/Jding9/ruby_hangman)
 * [bhenning83's Solution](https://github.com/bhenning83/hangman)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-hangman)
 </details>
