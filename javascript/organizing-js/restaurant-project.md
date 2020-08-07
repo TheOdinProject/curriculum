@@ -49,6 +49,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [justonhart's Solution](https://github.com/justonhart/RestaurantPage) - [View in Browser](https://justonh.art/RestaurantPage/)
+- [LucasNativo's Solution](https://github.com/lucasnativo/project_restaurant) - [View in Browser](https://lucasnativo.github.io/project_restaurant/)
+- [Dean Oh's Solution](https://github.com/JuicyMelon/Harby-Restaurant) - [View in Browser](https://juicymelon.github.io/Harby-Restaurant/)
+- [stefank-29's Solution](https://github.com/stefank-29/Restaurant-Site) - [View in Browser](https://stefank-29.github.io/Restaurant-Site/)
+- [miknick's Solution](https://github.com/miknick/Restaurant-Page) - [View in Browser](https://miknick.github.io/Restaurant-Page/index.html)
 - [2598Nitz's Solution](https://github.com/2598Nitz/restaurant-page) - [View in Browser](https://2598nitz.github.io/restaurant-page/)
 - [Bertil Tandayamo's Solution](https://github.com/bertil291utn/restaurant-page) - [View in Browser](https://bertil291utn.github.io/restaurant-page/#)
 - [afzaman's Solution](https://github.com/afzaman/restaurant) - [View in Browser](https://afzaman.github.io/restaurant/)
@@ -224,4 +229,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Nijepa's Solution](https://github.com/nijepa/restaurant-page) - [View in Browser](https://nijepa.github.io/restaurant-page/)
 - [lonewolf045's Solution](https://github.com/lonewolf045/restaurant-page) - [View in Browser](https://lonewolf045.github.io/restaurant-page/)
 - [liampc's Solution](https://github.com/liampc/Restaurant-Page) - [View in Browser](https://liampc.github.io/Restaurant-Page/)
+- [Martin Echenique's Solution](https://github.com/MartinEchenique/restaurant-page) - [View in Browser](https://martinechenique.github.io/restaurant-page/)
+- [Danyl Matviyenko’s Solution](https://github.com/DanylMatviyenko/TheOdinProject-RestaurantPage-) - [View in Browser](https://danylmatviyenko.github.io/TheOdinProject-RestaurantPage-/)
+- [victor orlunda's Solution](https://github.com/dev-opus/restuarant-page) - [View in Browser](https://dev-opus.github.io/restuarant-page/)
+- [Jamesredux's Solution](https://github.com/Jamesredux/restaurant) - [View in Browser](https://jamesredux.github.io/restaurant/)
 </details>

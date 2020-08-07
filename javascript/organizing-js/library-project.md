@@ -41,6 +41,13 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Acchang's Solution (w/localstorage)](https://github.com/acchang/Library-Local/blob/master/index.html) - [View in Browser](http://htmlpreview.github.io/?https://github.com/acchang/Library-Local/blob/master/index.html) - [(w/Firebase)](https://github.com/acchang/Library-Firebase/tree/master) [View in Browser](https://library-firebase.acchang.repl.co/)
+- [Lucas-Bide's Solution](https://github.com/Lucas-Bide/odin-library) - [View in Browser](https://lucas-bide.github.io/odin-library/)
+- [Ramanjs' Solution (w/ Local Storage)](https://github.com/Ramanjs/library) - [View in Browser](https://ramanjs.github.io/library/)
+- [ruben-ruiz's Solution (w/ Firebase)](https://github.com/ruben-ruiz/library) - [View in Browser](https://ruben-ruiz.github.io/library/)
+- [Drae Ramsey's Solution](https://github.com/DraeRamsey/library) - [View in Browser](https://draeramsey.github.io/library/)
+- [hd505495's Solution (w/ Local Storage)](https://github.com/hd505495/library) - [View in Browser](https://hd505495.github.io/library/)
+- [Felipe Caldeira's Solution (w/ Local Storage)](https://github.com/Felipe-Caldeira/TOP-Library) - [View in Browser](https://felipe-caldeira.github.io/TOP-Library/)
 - [Alexander Glez's Solution (w/ Local Storage)](https://github.com/Covicale/Book-Library) - [View in Browser](https://covicale.github.io/Book-Library/)
 - [Daniel's Solution (w/ Local Storage)](https://github.com/daniel-moderiano/library) - [View in Browser](https://daniel-moderiano.github.io/library/)
 - [Musa Hamad's Solution (w/ Local Storage)](https://github.com/Musa2018/LIBRARY) - [View in Browser](https://musa2018.github.io/LIBRARY/)
@@ -370,4 +377,9 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [joankii's Solution (w/firebase)](https://github.com/joan-kii/TOP-library) - [View in Browser](https://joan-kii.github.io/TOP-library/)
 - [Martin Echenique's Solution](https://github.com/MartinEchenique/book-library) - [View in Browser](https://martinechenique.github.io/book-library/)
 - [Timework's Solution (w/ Local Storage)](https://github.com/Timework/library) - [View in Browser](https://timework.github.io/library/)
+- [trungxyz's Solution](https://github.com/trungxyz/library-for-books) - [View in Browser](https://trungxyz.github.io/library-for-books/)
+- [MayarHassanin's Solution](https://github.com/Mayar-Hassanin98/Libary) - [View in Browser](https://mayar-hassanin98.github.io/Libary/)
+- [sacchan9's Solution](https://github.com/sacchan9/library) - [View in Browser](https://sacchan9.github.io/library/)
+- [calebrauscher's Solution (w/local storage)](https://github.com/calebrauscher/The-Odin-Project/tree/master/library) - [View in Browser](https://calebrauscher.github.io/The-Odin-Project/library/)
+
 </details>
