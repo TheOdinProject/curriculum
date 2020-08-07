@@ -1218,4 +1218,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Michael's Solution](https://github.com/moinabyssinia/etch-a-sketch) - [View in Browser](https://moinabyssinia.github.io/etch-a-sketch/)
 * [Yog.0's Solution](https://github.com/Yog0/etch-a-sketch)
 * [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/Etch-a-Sketch) - [View in Browser](https://almirbunjaku.github.io/Etch-a-Sketch/)
+* [Almar's Solution](https://github.com/Assetbekov-Almar/DOM) - [View in Browser](https://assetbekov-almar.github.io/)
 </details>
