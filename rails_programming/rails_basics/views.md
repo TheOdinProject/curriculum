@@ -207,7 +207,7 @@ Will render something like:
   <img src="/assets/happy_cat.jpg">
 ~~~
 
-note: in production, your stylesheet and Javascripts will all get mashed into one strangely-named file, so don't be alarmed if it's named something like `/assets/application-485ea683b962efeaa58dd8e32925dadf`
+Note: in production, your stylesheet and JavaScript will all get mashed into one strangely-named file, so don't be alarmed if it's named something like `/assets/application-485ea683b962efeaa58dd8e32925dadf`
 
 ### Forms
 
