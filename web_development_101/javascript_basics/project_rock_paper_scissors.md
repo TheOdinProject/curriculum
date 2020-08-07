@@ -1834,7 +1834,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Mohammad Jawwad's Solution](https://github.com/mdJawwad96/Rock-Paper-Scissors)
 - [Jonathan Altine's Solution](https://github.com/JonathanAltine/Rock-Paper-Scissors-2) - [View in Browser](https://jonathanaltine.github.io/Rock-Paper-Scissors-2/)
 - [gitliffi's Solution](https://github.com/gitliffi/rockpaperscissors) - [View in Browser](https://gitliffi.github.io/rockpaperscissors/index.html)
-- [whitekoel's Solution](https://github.com/whitekoel/RockPaperScissors)
+- [whitekoel's Solution](https://github.com/whitekoel/RockPaperScissors) - [View in Browser](https://whitekoel.github.io/RockPaperScissors/)
 - [Burak's Solution](https://github.com/Burak-Esen/rock-paper-scissors) - [View in Browser](http://burak-esen.com/rock-paper-scissors/)
 - [awhlam's Solution](https://github.com/awhlam/odin_project/tree/master/web_development_101/rock_paper_scissors
 - [Kingsley Ezenwaka's Solution](https://github.com/khay9yne/rock-paper-scissors) - [View in Browser](https://khay9yne.github.io/rock-paper-scissors/)
