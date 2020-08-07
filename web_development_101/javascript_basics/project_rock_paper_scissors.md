@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Nathan Stevenson's Solution](https://github.com/nstvnsn/rock-paper-scissors)
 - [Manuel Diaz solution](https://manueldiazy.github.io/PiedraPapelTijera/) - [View in Browser](https://manueldiazy.github.io/PiedraPapelTijera/)
 - [MashaShak's Solution](https://github.com/MashaShak/rock-scissors-paper-game)
 - [RCreque's Solution](https://github.com/RCreque/rock-paper-scissors)
