@@ -31,7 +31,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 The first thing to note is that the named view template we render from the controller is actually not the entire webpage.  It doesn't contain the `<head>` tags or the `DOCTYPE` declaration or some of the other basic structure that's present in all pages.  Precisely because those things are present in all of your pages, the Rails creators were smart enough to turn that code into its own file called a "layout".  Layouts live in the directory `app/views/layouts`.
 
-For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the javascript and css files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is stuff like navbars and footers and snippets of code for displaying flash messages.
+For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the Javascript and CSS files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is stuff like navbars and footers and snippets of code for displaying flash messages.
 
 So if a layout is basically just a shell around the individual page, how does the page get inserted?  That brings us back to the magic of the `#yield` method, which you saw when you learned about blocks.  The view template at `app/views/posts/index.html.erb` gets inserted where the yield statement is.  When you get more advanced, you'll be able to play around a bit with that statement but for now it's just that simple.
 
@@ -207,7 +207,7 @@ Will render something like:
   <img src="/assets/happy_cat.jpg">
 ~~~
 
-Note: in production, your stylesheet and javascripts will all get mashed into one strangely-named file, so don't be alarmed if it's named something like `/assets/application-485ea683b962efeaa58dd8e32925dadf`
+Note: in production, your stylesheet and JavaScript will all get mashed into one strangely-named file, so don't be alarmed if it's named something like `/assets/application-485ea683b962efeaa58dd8e32925dadf`
 
 ### Forms
 
