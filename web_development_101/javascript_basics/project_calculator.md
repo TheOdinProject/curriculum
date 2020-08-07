@@ -861,4 +861,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [arcadie's Solution](https://github.com/doncilaarcadie/js_calculator) - [View in Browser](https://doncilaarcadie.github.io/js_calculator/)
 - [Wulfen's Solution](https://github.com/wulfenn/calculator) - [View in Browser](https://wulfenn.github.io/calculator/)
 - [Yog.0's Solution](https://github.com/Yog0/Calculator) - [View in Browser](https://yog0.github.io/Calculator/)
+- [Alpha's Solution](https://github.com/Alphamikee/calculator) - [View in Browser](https://alphamikee.github.io/mini-calculator/)
 </details>
