@@ -154,6 +154,7 @@ This concept is an important one, so you've got some reading to do. Make sure yo
 
 1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics are 'Prototype-based inheritance' and the 'Prototype chain'
 2. To go a bit deeper into both the chain and inheritance spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: this article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
+3. _Optional_ - If you still don't understand the concept, try with this resources, it explains it in a graphic way. check [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) and [This video](https://www.youtube.com/watch?v=sOrtAjyk4lQ). Then feel confident to read first two articles again! :). 
 
 If you've understood the concept of the prototype then this next bit about constructors will not be confusing at all!
 
