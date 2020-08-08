@@ -206,6 +206,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/flickr-api-project)
 * [pudu87's Solution](https://github.com/pudu87/odin-flickr)
 * [proto-dylan's Solution](https://github.com/proto-dylan/flickr-feeder)
 * [Christian's Solution](https://github.com/rueeazy/odin_flickr)
