@@ -97,7 +97,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * Add your solution below this line!
 * [IDavidson's Solution (Easy)](https://github.com/idavidson-95/google-homepage/) - [View in Browser](https://idavidson-95.github.io/google-homepage/) 
 * [bigk99lt's Solution (Easy)](https://github.com/bigk99lt/google-homepage) - [View in Browser](https://bigk99lt.github.io/google-homepage/)
-* [Shayra's Solution (Easy)] (https://shayra89.github.io/google-homepage-/) - [View in Browser] (https://shayra89.github.io/google-homepage-/)
+* [Shayra's Solution (Easy)](https://shayra89.github.io/google-homepage-/) - [View in Browser](https://shayra89.github.io/google-homepage-/)
 * [Tristen Wallace's Solution (Easy)](https://github.com/tristenwallace/My-Google-Homepage) - [View in Browser](https://tristenwallace.github.io/My-Google-Homepage/)
 * [Juan Pablo's Solution (Easy)](https://github.com/JP-Pato/google-homepage) - [View in Browser](https://jp-pato.github.io/google-homepage/)
 * [jakelo97's Solution (Easy)](https://github.com/jakelo97/google_test) – [View in Browser](https://jakelo97.github.io/google_test/)
