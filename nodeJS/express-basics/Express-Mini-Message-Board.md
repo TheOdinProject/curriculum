@@ -76,6 +76,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [azrilhafizi's Solution](https://github.com/azrilhafizi/odinproject-nodejs/tree/master/express/mini-messageboard-project) - [View in Browser](https://minimessageboard.herokuapp.com/)
 - [vonhoro's Solution](https://github.com/vonhoro/message-board) - [View in Browser](https://small-board-odin.herokuapp.com/)
 - [Leo Holanda's Solution](https://github.com/leo-holanda/mini-message-board) - [View in Browser](https://message-board-nodejs.herokuapp.com)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/mini-message-board) - [View in Browser](https://mini-message-board-andrsrzdc.herokuapp.com/)
