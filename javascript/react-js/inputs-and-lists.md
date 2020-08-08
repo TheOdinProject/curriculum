@@ -1,8 +1,8 @@
 ### Introduction
 
-Now before we actually go any further, let's do a quick check of how well you understand the topic. Following I will describe the quick assignment, for those who want to try it themselves. I encourage everyone to at least try it yourself, if you've done the reading from the last lectures, you should be able to do it. And if not, you can always come back to this section, because we will discuss the assignment in detail together. Don't be disscouraged if you can't solve it, it includes some tricky parts that we haven't actually discussed so far.
+Before we go any further, we'll dive into an assignment that will test our knowledge thus far. You **should** attempt to do the assignment on your own, first. You can then proceed further along in this lesson to see the walkthrough of how we approached it.  Don't be discouraged if you find yourself stuck. The previous material should equip you to solve or search for the right things. However, once you've given it an honest effort (you'd only be cheating yourself if you didn't!), continue with the lesson to achieve enlightenment on how things can be done.
 
-Before you start, make sure you understood the concept of `state` and `props` from the previous lessons.
+If you feel uneasy about what we've learned so far, go back and review the concepts of `state` and `props` from the previous lessons.
 
 ### Learning Outcomes
 
@@ -11,18 +11,18 @@ Before you start, make sure you understood the concept of `state` and `props` fr
 
 ### Assignment
 
-### DIY Guide
+### Do-It-Yourself Guide
 
-Our application will be made of two components, `App` and `Overview`. Your application should render an input field and a submit button. With the submit button you can add the content from your input to a tasks array managed in state. (We will use class components for this example, because we haven't learned about hooks yet). Finally, for each task in the tasks array an HTML list element should be rendered.
+Our application will be made of two components, `App` and `Overview`. Your application should render an input field and a submit button. With the submit button, you can add the content from your input to a "tasks array" that is managed in state. (We will use class components for this example because we haven't introduced hooks in this section yet). Finally, for each task in the tasks array, an HTML list element should be rendered.
 
-1. Run `npx create-react-app my-first-react-app`, `cd` into your project and open it. You can delete everything in the return statement of the App component and just return an empty `div`. You can also delete all the boilerplate React provides and just leave `index.js` and `App.js` in the src directory. Just make sure to clean up the import statements and the `serviceWorker` in the two remaining files. If you are overwhelmed with all those files, consider redoing Lecture 01.
-2. Create a `components` folder in your `src` directory, which includes a files called `Overview.js`. `Overview.js` should just render all of our tasks, while `App.js` is going to handle the input field with all the logic.
-3. Go implement it yourself. You can do it. For styling use Bootstrap or another CSS Framework if you're familiar with one, or leave it out. Styling isn't really the point of this lecture.
-4. Quick tip: Use the Javascript function `map` to map over your tasks array. You will need to provide a unique key to each item. And there is a difference between handling input fields in plain Javascript and in React. Try figuring it out for your self, but don't worry we will go over it in detail here as well.
+1. Run `npx create-react-app my-first-react-app`, `cd` into your project and open it. You can delete everything in the return statement of the App component and just return an empty `div`. You can also delete all of the boilerplate `create-react-app` provides and just leave `index.js` and `App.js` in the src directory. Just make sure to clean up the import statements and the `serviceWorker` in the two remaining files. If you aren't familiar with what code or files we are referring to, go back to the first lesson of this section.
+2. Create a `components` folder in your `src` directory and create a file for your component called `Overview.js`. `Overview.js` should just render  our tasks, while `App.js` is going to handle the input field with the logic.
+3. With the intended functionality explained, it's your turn to implement this React app. You can do it. You are not required to style this assignment unless you wish to, the focus is on using event handlers and dealing with forms with state.
+4. **Quick tip**: Use the JavaScript function `map` to map over your tasks array. You will need to provide a unique key to each item (read the warning, you'll know it when you see it in the console!). And there is a difference between handling input fields in plain JavaScript and in React. If you face a problem with it, attempt to figure it out on your own using tools like the documentation, StackOverflow, Google, or experimenting. But fear not, we will again provide an overview of our solution below.
 
-### Detailed Guid
+### Detailed Guide
 
-1. Let's get started! First run `npx create-react-app task-app` in your terminal, and open the project in your text editor.
+1. Let's get started! First, run `npx create-react-app task-app` in your terminal, and open the project in your text editor.
 
 2. Delete all files in the src directory and just leave `index.js` and `App.js`.
 
@@ -59,11 +59,10 @@ ReactDOM.render(
 );
 ```
 
-4. For this tutorial we will also use Bootstrap, to make our application look a little bit nicer. For those who don't know how Bootstrap works, in short: It is a CSS Framework, that helps us style our html easily. You add the styling through classNames. So if you're not familiar with it, just ignore all the `className="someClassName"` type of code. Anyways for now let's include it in our code. Get the bootstrap CDN from their website [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/). Just copy the link element under the CSS section, it should be the first. Then go to your `public` folder in your `task-app` and open the `index.html` file. Ignore the code in there for now, just paste the link you just copied **above** the `title` element and save the changes.
+4. For our solution, we chose to style the application and will use Bootstrap to make our application look a little bit nicer. For those who don't know how Bootstrap works, in short: It is a CSS Framework, that helps us style our HTML easily. You add the styling through classNames. If you are following along with this and do not wish to style the application, you can skip to the next step and ignore any code concerning `className`. As for us, let's include it in our code. Get the bootstrap CDN from their website [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/). Just copy the link element under the CSS section, it should be the first. Then, go to your `public` folder in your `task-app` and open the `index.html` file. Ignore the code in there for now, just paste the link you just copied **above** the `title` element and save the changes.
 
-5. There we go, now go back to your `src` directory and create a new folder called components with one file in it. You can name the file `Overview.js`. This and our `App.js` file will be our main parts of the project. In `Overview.js` we will just display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is widely seen as a "best practice" to do so.
-
-6. So finally let's write some code. First of all, in our `App.js` file, our class component should look like this.
+5.Go back to your `src` directory and create a new folder called components with a file named`Overview.js`. This and our `App.js` file will be the main parts of the project. In `Overview.js`, we will display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is a widely accepted "best practice".
+t 6. Finally, let's write some code. To begin, in out`App.js` file, our class component should look like this.
 
 ```javascript
 // App.js
@@ -104,7 +103,7 @@ class App extends Component {
 export default App;
 ```
 
-We mainly just created the skeleton of our component. First we imported React and Component from react, then we initialized the constructor. In the constructor we defined state with:
+We created the skeleton of our component. First, we imported `React` and `Component` from "react", then we initialized the constructor. In the constructor, we defined state with:
 
 ```javascript
 this.state = {
@@ -113,12 +112,12 @@ this.state = {
 };
 ```
 
-We assigned `task` to an empty string, this will be the state handling what we type in our input field. And `tasks` will initially be set to an empty array. Later we include all our tasks here.
-Also inside the render we destructured our state, in order to make our code look cleaner when using it.
+We assigned `task` to an empty string, this will be the state handling what we type in our input field. And `tasks` will initially be set to an empty array. Later, we will include all of our tasks here.
+Also, inside the render function, we destructured our state in order to make our code look cleaner when using it.
 
-After that we render a form element, with an `input` and a `button` element. As I said, don't worry about all the `className="form-group"` ect. attributes. Just copy past them if you don't want to learn Bootstrap. What they do is just style our html. For example the `className="btn-primary"` that we added to our `button` element insures that our button will be displayed with a blue background.
+After that, we render a form element with an `input` and a `button` element. If you intend on styling the application, you can copy and paste the `className` provided or use your own! Using Bootstrap or CSS, in general, is solely to make your application look prettier. Refer to the [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/), if you wish to know what the class names mean and do.
 
-Ok so far so good, let's have a look at our application. Run `npm start` in your terminal to see what we already got. You should now see an input field with a label and a submit button. When you click the button nothing happens, the page only refreshes.
+Now, let's have a look at what our application. looks like. Run `npm start` in your terminal to open up the application in the browser. You should now see an input field with a label and a submit button. When you click the button, nothing happens and the page only refreshes.
 
 Let's add some functionality to it. Go back to your `App.js` component and add the following two functions. Make sure to add those functions between your constructor and the render method.
 
@@ -138,9 +137,9 @@ onSubmitTask = (e) => {
 };
 ```
 
-Very good, but without calling those functions nothing will change in our application. So let's call them. The `handleChange` function will be our `onChange` handler for our input field. It just sets the current `task` in state to whatever we type in our input field. The `onSubmitTask` function instead, will be our `onSubmit` handler for our `form` element. The `onSubmit` handler of the form should be invoked by a click on our button.
+Naturally, if we do not invoke those functions nothing will change in our application. So let's call them. The `handleChange` function will be our `onChange` handler for our input field. It sets the current `task` in state to whatever we type in our input field. The `onSubmitTask` function will be our `onSubmit` handler for our `form` element. The `onSubmit` handler of the form should be invoked by a clicking the button.
 
-In the `onSubmitTask` function we first call `e.preventDefault()` because we don't want the default behavior of refreshing the form anytime we submit it. After that we modify state.
+In the `onSubmitTask` function, we first call `e.preventDefault()` because we don't want the default behavior of refreshing the form anytime we submit it. After that, we modify state.
 
 The following line does the magic.
 
@@ -149,10 +148,10 @@ tasks: this.state.tasks.concat(this.state.task),
 ```
 
 It adds the task (whatever is in our input field by the time we submit the form) to our `tasks` array. Later we can map over this array to display all the tasks we submitted. Make sure that you **DON'T** directly assign state. That is also the reason we don't use the `push` method here. It would give us an error.
-After that we just set our current task in state to an empty string, because we want our input field to be empty, to be able to add another task.
+After that, we just set our current task in state to an empty string because we want our input field to be empty, in order to add another task.
 
-So far we haven't invoked those functions yet, so let's do that.
-In your `App.js` component in your render method add an onChange handler to your input element like so:
+We still haven't invoked those functions yet, so let's do that.
+In your `App.js` component in your render method, add an onChange handler to your input element like so:
 
 ```javascript
 <input
@@ -174,9 +173,9 @@ And also add the `onSubmitTask` function to our form element like so:
 </form>
 ```
 
-If you add an onSubmit handler to the form, your button must be of `type="submit"`, otherwise it won't work. Alternatively you can add an onClick event to the button which calls the `onSubmitTask` function
+If you add an onSubmit handler to the form, your button must be of `type="submit"`, otherwise it won't work. Alternatively, you can add an `onClick` event to the button which calls the `onSubmitTask` function
 
-Great, if you run your application now with `npm start` (or just refresh the browser if you have it still running), you will still see no changes, except that the page doesn't refresh when you submit something. That's because we haven't displayed anything yet. Let's do that now.
+Great, if you run your application now with `npm start` (or refresh the browser if it's still running), you will still see no changes, except that the page doesn't refresh when you submit something. That's because we haven't displayed anything yet. Let's do that now.
 
 Go to your `Overview.js` file in the components folder and add the following code:
 
@@ -200,8 +199,8 @@ const Overview = (props) => {
 export default Overview;
 ```
 
-It just takes the `tasks` from the `props` and maps over it. For each task it will then display a `li` element with the content of tasks. Now when checking out the application in the browser we can see we got an error message, which says, that a unique key is required. React always requires you to add a unique key to each element when you `map` over a list. In real world projects you often use database ids as unique keys, however in this project we are not using a database, so let's install a package that provides us with unique ids.
-Run `npm install uniqid` in your project folder. Uniqid is a package which creates unique ids based on the current time, the process and the machine name. Once this is done, we just have to include it like this.
+It takes the `tasks` from the `props` and maps over it. For each task it will then display a `li` element with the content of tasks. When checking out the application in the browser we can see we received an error message which says that a unique key is required. React always requires you to add a unique key to each element when you `map` over a list. In real world projects you often use database ids as unique keys, however in this project we are not using a database, so let's install a package that provides us with unique ids.
+Run `npm install uniqid` in your project folder. Uniqid is a package which creates unique ids based on the current time, the process and the machine name. Once this is done, we just have to include it like this:
 
 ```javascript
 // Overview.js
@@ -225,7 +224,7 @@ const Overview = (props) => {
 export default Overview;
 ```
 
-Almost done, the only thing we need to do is importing our `Overview` component to our `App.js` file and adding it in our render method, as well as passing down the `tasks` array as props.
+Almost done, the only thing we need to do is importour `Overview` component to our `App.js` file and add it in our render method, as well as passing down the `tasks` array as props.
 
 Add this line to the top of your `App.js` file, right below where we import React.
 
@@ -239,7 +238,7 @@ And then add the Overview component to your render method in `App.js`. Add this 
 <Overview tasks={tasks} />
 ```
 
-Here we go, run `npm start` one last time. If you've done everything right, you should now be able to type a task into the input field and click submit to display it right below the input field. Feel free to play around a little bit and maybe change or style it as you like.
+Here we go, run `npm start` (or refresh) one last time. If you've done everything right, you should now be able to type a task into the input field and click submit to display it right below the input field. Feel free to play around a little bit and maybe change or style it as you like.
 
 Your finished files should look like this:
 
@@ -338,6 +337,6 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 
 ### **Hard:**
 
-1. Implement an edit button for each task. When pressing the edit button, this specific task should be changable, and the previously displayed edit button changes to a resubmit button.
+1. Implement an edit button for each task. When pressing the edit button, this specific task should be changeable, and the previously displayed edit button changes to a resubmit button.
 
 ### Additional Resources
