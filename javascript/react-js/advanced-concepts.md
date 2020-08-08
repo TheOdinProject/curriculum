@@ -1,38 +1,38 @@
 ### Introduction
 
-With all the concepts we have learned in this series, you are more than ready to create your own react applications. However there are a lot of other, more advanced concepts out there, which we haven't really discussed, but which I neither want to withhold from you.
+With all the concepts we have learned in this section, you are more than ready to create your own React applications. However, there are a lot of other, more advanced concepts out there that we haven't discussed, but need to inform you of.
 
-I want to use the chance in this lesson and introduce you to a few more advanced concepts and give you some tips for your path as a react developer.
-Don't worry, you won't have to understand all the concepts mentioned in this lesson right away, that's why they are called advanced ;).
+This lesson will be used to introduce you to a few advanced concepts and give you some tips on your path as a React developer.
+This section isn't meant to teach these concepts, but to give you a high-level overview to enable you to research in the event you need them or wish to learn more.
 
-This lesson is meant as a checklist. Once you are secure with the basics, come back to this lesson and work through the advanced concepts. This doesn't have to be now, if you first want to move ahead in the curriculum, apply you knowledge or feel like one is not worth learning right now just skip it and come back another time when you are ready.
+This lesson is meant as a checklist. Once you are secure with the basics, come back to this lesson and work through the advanced concepts. This doesn't have to be now. If you first want to move ahead in the curriculum and apply your knowledge or feel like you do not need a particular concept right now, just skip it and come back another time when you are ready.
 
-I will not go into detail with the below mentioned concepts, because by now you should have enough experience with google and stackoverflow, and you should also have enough dicipline to work yourself through new problems.
+As a friendly reminder, Google and StackOverflow are your friends! We should be familiar with these tools at our disposal at this point.
 
 Good Luck!
 
-### Guide to advanced react
+### Guide to Advanced React
 
-# 1. PropTypes
+#### 1. PropTypes
 
-One common discussion about Javascript is whether it would be better if you could declare types on variables or properties. Many programmers agree that the pattern of declaring types, which you have in many other programming language is rather good than bad, because it prevents you from making errors. Therefore, react provides the possibility to declare types using PropTypes. And if that's not enough for you, you could also use typescript with react.
+One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React provides the possibility to declare types using PropTypes. And if that's not enough for you, you could also use [TypeScript](https://www.typescriptlang.org/) with React.
 
-# 2. Styled Components
+#### 2. Styled Components
 
-If you start writing larger applications you will, with certainty encounter the problem that you might want to style buttons or anything else across your application almost the same, but not entirely similar. One way you could solve this problem is surely through code dublication (writing even the most basic css for each button). However, this wouldn't be a very good code style. The styled components package provides a cleaner way to do this. It allowes you to give some default stylings to html elements, meaning you define a button with some basic styling and reuse this button throughout you application. This way there is no code dublication and it makes you application a lot more scalable.
+If you start writing larger applications you will, with certainty, encounter the problem that you might want to style buttons or anything else across your application similarly. One way you could solve this problem is through code duplication (writing even the most basic CSS for each button). However, this wouldn't be a very good (or clean) code. The styled-components package provides a cleaner way to do this. It allows you to give some default stylings to HTML elements, meaning you define a button with some basic styling and reuse this button throughout your application. This way there is no code duplication and it allows your application to be more scalable.
 
-# 3. Redux
+#### 3. Redux
 
-You might have already heard about Redux. Redux is the most popular state management system out there. It is not a part of react, but the two can be very easily combined, and together they make up an extremely powerful duo. It takes a little getting used to, and I only recomment it when your application is not too small, because it requires quite some setting up.
+You might have already heard about Redux. Redux is the most popular state management system out there. It is not a part of React, but the two can be very easily combined. Together, they make up an extremely powerful duo. The purpose is to store your application's state in a single place, commonly called a "store". You then dispatch actions to the store, where a reducer will handle the state changes. The primary benefit of using a state management library is to prevent having to pass props through multiple levels of the component tree. A state management library is often only recommended for larger applications.
 
-# 4. Higher order components
+#### 4. Higher-order Components
 
-Higher order components are in the end just components that take in another component and return a third component. This can be extremely useful.
+Higher-order components are components that consume another component and return a third component.
 
-# 5. withRouter (history, match, children object)
+#### 5. withRouter (history, match, children object)
 
-withRouter is one example for a higher order component, and it is definitively worth looking into it. Through wrapping withRouter around one of your components, this component will get access to your history, match and children objects, which provide some additional sugar :). For example you could use the history object to push a user from one to another route.
+`withRouter` is one example of a higher-order component and is worth looking into it. By wrapping `withRouter` around one of your components, the component will get access to your history, match, and children objects, which provide some additional syntactic sugar. For example, you could use the history object to push a user from one route to another.
 
-# 6. Hooks (We only discussed a few, but there are a lot more out there)
+#### 6. Hooks (We only discussed a few, but there are a lot more out there)
 
-There are quite a lot of hooks out there, with the number rather increasing than decreasing. As you have seen in previous lessons and as already stated before, it seems like the react team wants us to use more functional components with hooks in the future, so it is definitively worth getting to know all those hooks.
+There are a lot of hooks out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your own.
