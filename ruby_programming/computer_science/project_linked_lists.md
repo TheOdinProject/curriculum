@@ -280,4 +280,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [sforber's Solution (with extra credit)](https://github.com/sforber/ruby-linkedlists/blob/master/linkedlists.rb)
 - [jding's Solution](https://github.com/Jding9/ruby_linked_list/blob/master/linked_list.rb)
 - [bhenning83's Solution (with extra credit)](https://github.com/bhenning83/linked_list/blob/master/linked_list.rb)
+- [tim87henry's Solution (with extra credit)](https://github.com/tim87henry/linked_list/blob/master/linked_list.rb)
   </details>
