@@ -74,6 +74,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [pampush's Solution](https://github.com/pampush/etch-a-sketch) - [View in Browser](https://pampush.github.io/etch-a-sketch/)
 * [jleivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/Etch-a-Sketch) - [View in Browser](https://jleivers.github.io/The-Odin-Project/Etch-a-Sketch/)
 * [Jordan Leivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/web_development_101/Etch-a-Sketch) - [View in Browser](https://jleivers.github.io/The-Odin-Project/web_development_101/Etch-a-Sketch/)
+* [Nexus0208's Solution](https://github.com/nexus0208/ETCH-A-SKETCH/settings) - [View in Browser] (https://nexus0208.github.io/ETCH-A-SKETCH/)
 * [Anton's Solution](https://github.com/anton-a-a/etch-a-sketch) - [View in Browser](https://anton-a-a.github.io/etch-a-sketch/)
 * [Connie's Solution](https://github.com/ConnieQiu/Etch-a-Sketch)
 * [lghiggino's Solution](https://github.com/lghiggino/Etch-a-sketch) - [View in Browser](https://lghiggino.github.io/Etch-a-sketch/)
