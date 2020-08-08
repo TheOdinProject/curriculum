@@ -1,10 +1,10 @@
 ### Introduction
 
-Now that we're done with your first project, you start getting quite advanced with React. So let's talk about some more advanced topics. The first to start with will be **lifecycle methods**. This is an incrediblly important topic, so pay close attention and make sure you understand everything.
+Now that you're done with your first project, you are on your way to becoming advanced with React. So let's talk about some more advanced topics. The first will be **lifecycle methods**. This is an incredibly important topic, so pay close attention and make sure you understand everything.
 
-Lifecycle methods are methods, defined by the React team, which are provided to us programmers, so you don't need to define them yourself. They are called when a component reaches a certain lifecycle. For example when the component mounts, renders or updates. You actually already know the most important lifecycle method, the `render` method. Soon you will know a few more, with a good understanding of when to use them and what tasks should be done within them.
+Lifecycle methods are special methods built-in to React, used to operate on components throughout their duration in the DOM.  For example, when the component mounts, renders, updates, or unmounts. You already know the most important lifecycle method, the `render` method. Soon you will know a few more, with a good understanding of when to use them and what tasks should be done within them.
 
-One important thing to notice is, that lifecycle methods can **only** be used in `class components`. In functional components we have other options. But more to that in the next lesson. Let's start.
+One important thing to notice is that lifecycle methods can **only** be used in `class components`. In functional components we have other options. But more on that in the next lesson. Let's begin.
 
 ### Learning Outcomes
 
@@ -14,22 +14,22 @@ One important thing to notice is, that lifecycle methods can **only** be used in
 
 ### Lifecycle
 
-So lifecycle refere to litterally what the name suggests, a components lifecycle. What could a components lifecycle look like? Let me give you a quick example:
+As stated in the introduction, a component's lifecycle is the sequence of stages an instance of a component goes through in the DOM (or virtual DOM in React's case). Let me give you a quick example:
 
 1. Creation of the component (componentDidMount)
 2. Render of the component (render)
 3. (Optional) Update of the component (componentDidUpdate)
 4. Death of the component (componentWillUnmount)
 
-A component can be in different states of his "life", and in react we can use those states to handle certain tasks.
+A component can be in different states of its "life", and in React we can use those states to handle certain tasks.
 
 ### Render
 
-We are already familiar with the render method in react, each class component needs to contain a render method, and it is fairly simple to understand. The render method contains all the logic your component should display on the screen. It might also contain a null, if you don't want to show anything.
+We are already familiar with the render method in React, each class component needs to contain a render method, and it is fairly simple to understand. The render method contains all the logic your component should display on the screen. It might also contain a null value, if you don't want to show anything. (Conditional rendering! Look it up!)
 
 ### ComponentDidMount
 
-As the name already suggests this method is run when the component is mounted, meaning when it is inserted in the DOM tree.
+As the name already suggests, this method is run when the component is mounted, meaning when it is inserted in the DOM tree.
 
 Common tasks that are done in this method are:
 
@@ -49,13 +49,14 @@ A few examples are:
 
 - Remove event listeners
 - Cancelling network requests
+- Other cleanup routines
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [this](https://programmingwithmosh.com/javascript/react-lifecycle-methods/) article for a great overview over lifecycle methods in React
-2. The React official documentations is also always a good source, it's well structured. In [this](https://reactjs.org/docs/react-component.html) article you can read more about lifecycle methods if you feel not secure yet.
-3. Code along with [this](https://www.youtube.com/watch?v=m_mtV4YaI8c) video, it gives you a practical example about how those methods work and when React calls them.
+1. Read [this article](https://programmingwithmosh.com/javascript/react-lifecycle-methods/) for a great overview of lifecycle methods in React.
+2. The React documentation is always a good source as it's well structured. In [this article](https://reactjs.org/docs/react-component.html) you can read more about lifecycle methods from the people who made it!
+3. Code along with [this video](https://www.youtube.com/watch?v=m_mtV4YaI8c), it gives you a practical examples about how those methods work and when React calls them.
 </div>
 
 ### Additional Resources
