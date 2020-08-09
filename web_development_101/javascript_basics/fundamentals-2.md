@@ -42,11 +42,6 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) And more importantly offers the usual 'tasks' at the bottom of the page!
 6. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
 
-### Practice
-
-To give you a good bit of practice, we have created an online classroom on repl.it. In general, we believe that it's best to practice programming on your _own_ computer rather than in an online environment, but we'll get to that soon enough.
-
-- The classroom and lessons can be found [here](https://repl.it/community/classrooms/34425). Sign up or login to repl.it to see the lessons, and be sure to do the lessons in order. In order to do the lessons, first click on "Take and Learn", and then go to [Student](https://repl.it/student) and click on the Classroom. You can submit your answers to check them, and a couple of the lessons include 'model solutions'.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
