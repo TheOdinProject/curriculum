@@ -276,6 +276,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [msespos's Solution](https://github.com/msespos/fibonacci)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/fibonacci.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/fibonacci/blob/master/fibonacci.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-recursion/blob/master/lib/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
@@ -561,6 +562,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [msespos's Solution](https://github.com/msespos/merge-sort/blob/master/merge_sort.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/merge_sort.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/sort_methods/blob/master/merge_sort.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-recursion/blob/master/lib/mergesort.rb)
 </details>
 
 ### Additional Resources
