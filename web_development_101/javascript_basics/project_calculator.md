@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Daniel Solomon's Solution](https://github.com/danisolo91/calculator) - [View in Browser](https://danisolo91.github.io/calculator/index.html)
 - [Cordell's Solution](https://github.com/cordellbonnieux/Calculator) - [View in Browser](https://cordellbonnieux.github.io/Calculator/calculator.html)
 - [divdagar's Solution](https://github.com/divdagar/TOP-Calc) - [View in Browser](https://divdagar.github.io/TOP-Calc/)
 - [asi309's Solution](https://github.com/asi309/calculator) - [View in Browser](https://asi309.github.io/calculator/)
