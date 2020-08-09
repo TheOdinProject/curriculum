@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Cordell's Solution](https://github.com/cordellbonnieux/Calculator) - [View in Browser](https://cordellbonnieux.github.io/Calculator/calculator.html)
 - [divdagar's Solution](https://github.com/divdagar/TOP-Calc) - [View in Browser](https://divdagar.github.io/TOP-Calc/)
 - [asi309's Solution](https://github.com/asi309/calculator) - [View in Browser](https://asi309.github.io/calculator/)
 - [pir4cy's Solution](https://github.com/pir4cy/calculator-project) - [View in Browser](https://pir4cy.github.io/calculator-project/)
@@ -860,4 +861,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [arcadie's Solution](https://github.com/doncilaarcadie/js_calculator) - [View in Browser](https://doncilaarcadie.github.io/js_calculator/)
 - [Wulfen's Solution](https://github.com/wulfenn/calculator) - [View in Browser](https://wulfenn.github.io/calculator/)
 - [Yog.0's Solution](https://github.com/Yog0/Calculator) - [View in Browser](https://yog0.github.io/Calculator/)
+- [Alpha's Solution](https://github.com/Alphamikee/calculator) - [View in Browser](https://alphamikee.github.io/mini-calculator/)
+- [Christopher's Solution](https://github.com/christopheralagna/calculator) - [View in Browser](https://christopheralagna.github.io/calculator/)
 </details>
