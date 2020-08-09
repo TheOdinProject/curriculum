@@ -21,6 +21,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* gogvale's Solutions: [Caesar Cipher](https://github.com/gogvale/RubyCode/blob/master/spec/caesar_cypher_spec.rb), [Tic-Tac-Toe](https://github.com/gogvale/RubyCode/blob/master/spec/ttt_spec.rb)
+* tenacious qi's Solutions: [Caesar Cipher](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Tic-Tac-Toe](https://github.com/Tenacious-Qi/OOP-project/tree/master/tictactoe)
 * Aaron Contreras's Solutions: [Caesar Cipher](https://github.com/aaron-contreras/caesar-cipher), [Tic-Tac-Toe](https://github.com/aaron-contreras/tic-tac-toe)
 * Haroon Abdulrazaq's Solutions: [Tic-Tac-Toe](https://github.com/Haroonabdulrazaq/tic-tac-toe)
 * rlmoser's Solutions: [Caesar Cipher](https://github.com/rlmoser99/ruby_exercises/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/rlmoser99/ruby_TicTacToe)
@@ -136,6 +138,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * mpiriya's Solutions: [Caesar Cipher](https://github.com/mpiriya/ruby/tree/master/caesar-cipher), [Tic-Tac-Toe](https://github.com/mpiriya/ruby/tree/master/tictactoe)
 * Chow Jia Ying's Solutions: [Caesar Cipher](https://github.com/C-likethis123/ruby_odin_project/blob/master/lib/caesar_cipher.rb), [Tic-Tac-Toe](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 * Sandy's Solutions: [Caesar Cipher](https://github.com/kuosandys/top-ruby-assignments/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/kuosandys/top-ruby-assignments/tree/master/tic_tac_toe)
+* Johnny's Solutions: [Caesar Cipher](https://github.com/NotAProgrammerdork/Ruby/tree/master/caesar_cipher_spec), [TicTacToe](https://github.com/NotAProgrammerdork/Ruby/tree/master/tictactoe_spec)
 </details>
 
 ### Project: TDD Connect Four
@@ -161,6 +164,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/connect-four)
 * [Aaron's Solution](https://github.com/Aaron-McD/connect-four)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_connect_four)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/connect-four)
@@ -310,6 +314,7 @@ connect_four)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/connect-four)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/plot_four)
 * [Sandy’s Solution](https://github.com/kuosandys/top-ruby-assignments/tree/master/connect_four)
+* [Bingo's Solution](https://github.com/NotAProgrammerdork/Ruby/tree/master/connect_four_spec)
 </details>
 
 ### Additional Resources

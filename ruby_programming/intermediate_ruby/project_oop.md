@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Cameron Proulx's Solution](https://github.com/FrostbiteDragon/ruby/tree/master/tic_tac_toe)
+* [Hans Oliveira's Solution](https://github.com/hansnery/tic_tac_toe)
 * [Duncan06's Solution](https://github.com/Duncan06/learn_ruby/tree/master/tictactoe)
 * [jnjensen's Solution](https://github.com/jnjensen/Ruby_Tic_Tac_Toe/blob/master/TicTacToe.rb) - [View in repl.it](https://repl.it/@jnjensen/TicTacToe#main.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Tic-Tac-Toe/blob/master/tictactoe.rb) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/TOP-Tic-Tac-Toe#main.rb)
@@ -408,7 +410,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Tic-Tac-Toe) - [Play on repl.it](https://repl.it/@shanedgilbert/Tic-Tac-Toe#.replit)
 * [bhenning83's Solution](https://github.com/bhenning83/tic-tac-toe/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@bhenning83/tictactoe#main.rb)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-oops/blob/master/tictactoe.rb)
+<<<<<<< HEAD
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/tic_tac_toe)
+=======
+* [Madaja’s Solution](https://github.com/madaja/tictactoe)
+>>>>>>> 6075817344352453ba56bc4bcf1288ef6380a239
 </details>
 
 ### Project 2: Mastermind
@@ -435,6 +441,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby-Mastermind/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/Ruby-Mastermind#mastermind.rb)
+* [Hans Oliveira's Solution](https://github.com/hansnery/mastermind/blob/master/mastermind.rb)
+* [enzoperce35's Solution](https://github.com/enzoperce35/Mastermind/blob/master/Mastermind.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@cbpolley/mastermind#main.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/mastermind.rb) - [View in repl.it](https://mastermind.gogvale.repl.run/)
 * [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/7_mastermind.rb) - [View in repl.it](https://repl.it/@Risanto/mastermind#main.rb)
