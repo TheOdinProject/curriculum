@@ -1864,4 +1864,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dezvolt's Solution](https://github.com/dezvolt/RockPaperScissors) - [View in Browser](https://dezvolt.github.io/RockPaperScissors/)
 - [Andrei Totoro's Solution](https://github.com/AndreiTotoro/Rock-Paper-Scissors)
 - [Tim Barnes' Solution](https://github.com/timcbarnes/rock-paper-scissors) - [View in Browser](https://timcbarnes.github.io/rock-paper-scissors/)
+- [thedodus' Solution](https://github.com/thedodus/top-rock-paper-scissors) - [View in Browser](https://thedodus.github.io/top-rock-paper-scissors/)
 </details>
