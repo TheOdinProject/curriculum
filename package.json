@@ -7,7 +7,7 @@
     "axios": "^0.19.2",
     "babel-plugin-prismjs": "^2.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^4.5.2",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
