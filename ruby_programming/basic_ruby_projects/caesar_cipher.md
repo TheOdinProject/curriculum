@@ -46,6 +46,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [descholar's Solution](https://github.com/descholar-ceo/caesar-cipher/blob/develop/cipher.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/caesar_cypher.rb)
 * [big-meel's Solution](https://github.com/big-meel/ruby-code/blob/master/caesar_cipher.rb)
+* [meiyaismywaifu's Solution](https://github.com/meiyaismywaifu/the_odin_project/blob/master/caesar_cipher/caesar_cipher.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby_caesar_cipher/blob/master/caesar_cipher.rb)
 * [jnjensen's Solution](https://github.com/jnjensen/Ruby_Ceasar_Cipher/blob/master/Caesar_cipher.rb)
 * [enzoperce35's Solution](https://github.com/enzoperce35/caesar_cipher_ruby/blob/master/Caesar_Cipher.rb)
