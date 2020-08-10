@@ -60,7 +60,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Uduak Essien's Solution](https://github.com/acushlakoncept/members-only) - [View in Browser](https://twitarclone.herokuapp.com/)
 * [JvPelai's Solution](https://github.com/JvPelai/weirdo-club) - [Heroku](https://sheltered-sea-61489.herokuapp.com/)
 * [Saul-Good-Homie's](https://github.com/Saul-Good-Homie/SkolBook) - [View in Browser](https://tranquil-castle-04083.herokuapp.com/)
-* [irlgabriel's Solution](https://github.com/irlgabriel/members_only)
+* [irlgabriel's Solution](https://github.com/irlgabriel/members_only) - [View in Browser](https://dashboard.heroku.com/apps/vast-falls-60285)
 * [Christian's Solution](https://github.com/rueeazy/members-only)
 * [jodokusquack's Solution](https://github.com/jodokusquack/members-only)
 * [Grant Cottle's Solution](https://github.com/grantmaster89/members_only) - [Heroku](https://agile-anchorage-41907.herokuapp.com/)
