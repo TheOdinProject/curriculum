@@ -96,6 +96,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [Klemus6's Solution (Easy)](https://klemus6.github.io/google-homepage/e) - [View in Browser](https://klemus6.github.io/google-homepage/)
+* [IGrueby's Solution (Easy)](https://github.com/IGrueby/google-homepage) - [View in Browser](https://igrueby.github.io/google-homepage/)
+* [Daniel Solomon's Solution (Easy)](https://github.com/danisolo91/google-homepage) - [View in Browser](https://danisolo91.github.io/google-homepage//)
 * [Lc's Solution (Easy)](https://github.com/lc-code20/google-homepage) - [View in Browser](https://lc-code20.github.io/google-homepage/)
 * [IDavidson's Solution (Easy)](https://github.com/idavidson-95/google-homepage/) - [View in Browser](https://idavidson-95.github.io/google-homepage/) 
 * [Konc's Solution (Easy)](https://github.com/konc/google-homepage/) - [View in Browser](https://konc.github.io/google-homepage/)
