@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Dovi Maj's Solution](https://github.com/DoviMaj/restaurant) - [View in Browser](https://dovimaj.github.io/restaurant/)
 - [justonhart's Solution](https://github.com/justonhart/RestaurantPage) - [View in Browser](https://justonh.art/RestaurantPage/)
 - [LucasNativo's Solution](https://github.com/lucasnativo/project_restaurant) - [View in Browser](https://lucasnativo.github.io/project_restaurant/)
 - [Dean Oh's Solution](https://github.com/JuicyMelon/Harby-Restaurant) - [View in Browser](https://juicymelon.github.io/Harby-Restaurant/)
