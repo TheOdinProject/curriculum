@@ -154,6 +154,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/apple-clone) - [View in Browser](https://timework.github.io/apple-clone/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/old-apple-clone) - [View in Browser](https://ansellmaximilian.github.io/old-apple-clone/)
 * [Kenneth H's Solution](https://github.com/kholston/old-apple) - [View in Browser](https://kholston.github.io/old-apple/)
+* [Kenneth H's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/backgrounds-n-gradiants)
 </details>
 
 ### Additional Resources
