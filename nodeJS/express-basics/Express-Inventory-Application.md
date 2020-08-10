@@ -31,6 +31,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/vet-inventory) - [View in Browser](https://vet-inventory-andrsrzdc.herokuapp.com/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/game-inventory) - [View in Browser](https://game-inventory-kikupiku.herokuapp.com/)
 - [Julio's solution](https://github.com/julio22b/inventory-application) - [View in browser](https://inventory-app-top.herokuapp.com/catalog/)
 - [Simon's Solution](https://github.com/Sim-frpt/music-shop-inventory) - [View in Browser](https://agile-springs-42318.herokuapp.com/inventory/)

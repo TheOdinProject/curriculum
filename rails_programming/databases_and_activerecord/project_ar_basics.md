@@ -274,6 +274,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Smith's & Paul's Solution](https://github.com/SmithVyne/Micro-reddit)
 * [Rob Dulabon's Solution](https://github.com/RDulabon/microReddit) 
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/micro-reddit)
+* [Clinton wambugu's Solution](https://github.com/kwambugu/micro-reddit)
 </details>
 
 ### Additional Resources
