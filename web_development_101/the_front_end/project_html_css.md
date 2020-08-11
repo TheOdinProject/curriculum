@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Shadou1's Solution (Difficult)](https://github.com/Shadou1/the-odin-projects/tree/master/web-development-101/google-search-results-page) - [View in Browser](https://shadou1.github.io/the-odin-projects/web-development-101/google-search-results-page/)
 * [adriankarp's Solution (Easy)](https://github.com/adriankarp/google-clone) - [View in Browser](https://adriankarp.github.io/google-clone/)
 * [zainiscoding's Solution (Easy)](https://github.com/zainiscoding/google-homepage) - [View in Browser](https://zainiscoding.github.io/google-homepage/)
 * [GustavoRMelo's Solution (Easy)](https://github.com/GustavoRMelo/google-homepage) - [View in Browser](https://gustavormelo.github.io/google-homepage/)
