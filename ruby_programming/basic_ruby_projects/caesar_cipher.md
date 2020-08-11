@@ -33,6 +33,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [blessing jackson's Solution](https://github.com/blessja/caeser_cipher.git)
+* [Xtrator's Solution](https://github.com/xtrator/topRubyCaesarCode)
+* [AGL's Solution](https://github.com/agl9/rubycipher/blob/master/cipher.rb)
 * [dab47310's Solution](https://github.com/dab47310/coding-challenges/blob/master/challenge-caesar-cipher/challenge-caesar-cipher.rb)
 * [mrbuddh4's Solution](https://github.com/mrbuddh4/caesar-cipher/blob/master/script.rb)
 * [Cameron Proulx's Solution](https://github.com/FrostbiteDragon/ruby/blob/master/caesar_cipher.rb)
@@ -43,6 +46,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [descholar's Solution](https://github.com/descholar-ceo/caesar-cipher/blob/develop/cipher.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/caesar_cypher.rb)
 * [big-meel's Solution](https://github.com/big-meel/ruby-code/blob/master/caesar_cipher.rb)
+* [meiyaismywaifu's Solution](https://github.com/meiyaismywaifu/the_odin_project/blob/master/caesar_cipher/caesar_cipher.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby_caesar_cipher/blob/master/caesar_cipher.rb)
 * [jnjensen's Solution](https://github.com/jnjensen/Ruby_Ceasar_Cipher/blob/master/Caesar_cipher.rb)
 * [enzoperce35's Solution](https://github.com/enzoperce35/caesar_cipher_ruby/blob/master/Caesar_Cipher.rb)
@@ -631,4 +635,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Lucas_O'Donnell Solution](https://github.com/Lucas-ODonnell/learnruby/blob/master/lucas_odonnell_caesar_cipher.rb)
 * [vongk97's Solution](https://github.com/vongk97/ruby/blob/master/caesar.rb)
 * [mrguibs's Solutions](https://github.com/mrguibs/ruby-basic-projects/blob/master/caesar-cipher.rb)
+* [brentguf's Solution](https://github.com/brentguf/caesar-cipher/blob/master/script.rb)
 </details>

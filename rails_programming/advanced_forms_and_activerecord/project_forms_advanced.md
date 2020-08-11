@@ -71,6 +71,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [JvPelai's Solution](https://github.com/JvPelai/flight_booker)
+* [irlgabriel's Solution](https://github.com/irlgabriel/flight-booker)
 * [pudu87's Solution](https://github.com/pudu87/odin-flight-booker)
 * [Christian's Solution](https://github.com/rueeazy/odin_flight_booker)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_flight_booker)
