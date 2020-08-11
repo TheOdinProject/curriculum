@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Error-Undefined-Value's Solution](https://github.com/error-undefined-value/rock-paper-scissors)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/RockPaperScissors/blob/master/rockpaperscissors.html) - [View in Browser](https://nicolasarayab.github.io/RockPaperScissors/)
 - [zainiscoding's Solution](https://github.com/zainiscoding/top-rps) - [View in Browser](https://zainiscoding.github.io/top-rps/)
 - [jcsorgei's Solution](https://github.com/jcsorgei/rock-paper-scissors) - [View in Browser](https://jcsorgei.github.io/rock-paper-scissors/)
