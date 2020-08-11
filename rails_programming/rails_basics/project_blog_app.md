@@ -501,7 +501,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ken H's Solution ](https://github.com/kholston/blogger) - [View in Browser](https://warm-oasis-24373.herokuapp.com/)
 * [Chris H's Solution](https://github.com/CKHarrison/Blog) - [View in Browser](https://blooming-badlands-82585.herokuapp.com/)
 * [clinton wambugu's Solution](https://github.com/kwambugu/Jumpstart-Lab-s-Blogger-Tutorial)
-* [akoenig1's solution](https://github.com/akoenig1/blog) - [View in Browser](https://radiant-harbor-93584.herokuapp.com/)
+* [akoenig1's Solution](https://github.com/akoenig1/blog) - [View in Browser](https://radiant-harbor-93584.herokuapp.com/)
 </details>
 
 ### Additional Resources
