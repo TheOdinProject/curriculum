@@ -1871,4 +1871,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Harry Thomson's Solution](https://github.com/harrythomson1/rock-paper-scissors) - [View in Browser](https://harrythomson1.github.io/rock-paper-scissors/)
 - [Miguel Bedoya's Solution](https://github.com/mebedoyag/rock-paper-scissors)
 - [thedodus' Solution](https://github.com/thedodus/top-rock-paper-scissors) - [View in Browser](https://thedodus.github.io/top-rock-paper-scissors/)
+- [Fusako's Solution](https://github.com/fusakoo/rock-paper-scissors) - [View in Browser](https://fusakoo.github.io/rock-paper-scissors/)
 </details>
