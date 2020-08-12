@@ -42,6 +42,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ray0h's Solution](https://github.com/ray0h/TOP-Battleship) - [View in Browser](https://ray0h.github.io/TOP-Battleship/)
+- [mjwills-inf's Soulution](https://github.com/mjwills-inf/-TOP-battleship) - [View in Browser](https://mjwills-inf.github.io/-TOP-battleship/)
 - [Rizwan's Soulution](https://github.com/xRizwan/TDD-Battleship) - [View in Browser](https://xrizwan.github.io/TDD-Battleship/)
 - [Kevin's Soulution](https://github.com/Kevlar2222/battleships/tree/master) - [View in Browser](https://kevlar2222.github.io/battleships/)
 - [Akram's Soulution](https://github.com/Ghanna96/battleship) - [View in Browser](https://ghanna96.github.io/battleship/)

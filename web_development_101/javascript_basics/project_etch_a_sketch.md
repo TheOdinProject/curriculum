@@ -45,6 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [marlonhache's Solution](https://github.com/marlonhache/etch-sketch) - [View in Browser](https://marlonhache.github.io/etch-sketch/)
+* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/etch-a-sketch) - [View in Browser](https://nicolasarayab.github.io/etch-a-sketch/)
+* [Lord Artchur's Solution](https://github.com/lord-artchur/PixelCanvass) - [View in Browser](https://lord-artchur.github.io/PixelCanvass/)
+* [Cristian's Solution](https://github.com/1063551/Etch-A-Sketch) - [View in Browser](https://1063551.github.io/Etch-A-Sketch/)
+* [Lucasdonuts' Solution](https://github.com/lucasdonuts/etch-a-sketch) - [View in Browser](https://lucasdonuts.github.io/etch-a-sketch/)
+* [zainiscoding's Solution](https://github.com/zainiscoding/etch-a-sketch) - [View in Browser](https://zainiscoding.github.io/etch-a-sketch/)
 * [Daniel Solomon's Solution](https://github.com/danisolo91/etch-a-sketch) - [View in Browser](https://danisolo91.github.io/etch-a-sketch/)
 * [Sanjana's Solution](https://github.com/error34043/etch-a-sketch) - [View in Browser](https://error34043.github.io/etch-a-sketch/)
 * [RCreque's Solution](https://github.com/RCreque/Etch-a-Sketch) - [View in Browser](https://rcreque.github.io/Etch-a-Sketch/)
