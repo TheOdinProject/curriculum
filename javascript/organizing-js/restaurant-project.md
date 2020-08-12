@@ -236,4 +236,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [victor orlunda's Solution](https://github.com/dev-opus/restuarant-page) - [View in Browser](https://dev-opus.github.io/restuarant-page/)
 - [Jamesredux's Solution](https://github.com/Jamesredux/restaurant) - [View in Browser](https://jamesredux.github.io/restaurant/)
 - [Sandy's Solution](https://github.com/kuosandys/restaurant-page) - [View in Browser](https://kuosandys.github.io/restaurant-page/)
+- [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/Restaurant) - [View in Browser](https://playingongithub.github.io/Restaurant/)
 </details>
