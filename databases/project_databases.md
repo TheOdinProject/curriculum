@@ -15,6 +15,22 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kfollen93's Solution](https://github.com/Kfollen93/SQL_Zoo)
+* [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/SQLZOO)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/sql_zoo)
+* [Witah Georjane's Solution](https://github.com/Georjane/SQL-zoo)
+* [andrewjh271's Solution](https://github.com/andrewjh271/sql_zoo)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/sql-zoo)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/SQL-Zoo-Practice)
+* [Christian's Solution](https://github.com/rueeazy/sql-zoo)
+* [Christopher Amanor's Solution](https://github.com/krys2fa/sql_zoo_solutions)
+* [Hasan's Solution](https://ozovalihasan.github.io/database-sqlzoo/)
+* [Andrew Baldwin's Solution](https://github.com/andrewbaldwin44/SQL_Zoo_Exercises)
+* [jithin's Solution](https://github.com/jithindasad/sql_zoo_challenge)
+* [jodokusquack's Solution](https://github.com/jodokusquack/sql-zoo-challenge)
+* [Bertil's solution](https://github.com/bertil291utn/sql-zoo-database)
+* [Mikael's Solution](https://mikearaya.github.io/sql-zoo-challenge)
+* [Andres Ruiz's Solution](https://github.com/Andrsrz/sql-zoo)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_sql_zoo)
 * [Robin's Solution](https://github.com/CoolGlasses/SQL-Zoo)
 * [Chau Nguyen's Solution](https://github.com/VanQuishi/SQL-Zoo)
@@ -84,10 +100,14 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Jake's solution](https://github.com/jakercates/SQL-Practice)
 * [Chris A's solution](https://github.com/SoftwareDevPro/SQLZoo)
 * [Forison's solution](https://github.com/Forison/sql_practice)
+* [precious udegbue's solution](https://github.com/evabanegacom/SEQUEL)
 * [Sergej Jurchenko's solution](https://github.com/Sergyurch/SQLZoo)
 * [unheavenlycreature's solution](https://github.com/unheavenlycreature/sqlzoo)
 * [Sanyogita's solution](https://github.com/SanyogitaPandit/sql/blob/master/sql_zoo.sql)
 * [CodingCop's solution](https://github.com/cleve703/sqlZoo)
+* [Hyperturing's solution](https://github.com/hyperturing/SQLZoo/tree/master/SQLZoo)
+* [fussykyloren's Solution](https://github.com/fussykyloren/sql-zoo)
+* [Toothless's Solution](https://github.com/Toothless2/SQL-Zoo-Solutions)
 
 </details>
 

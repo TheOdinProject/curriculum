@@ -33,9 +33,9 @@ If you have any experience with other css layout options like floats then Grid c
 
 4) Understand how explicit and implicit grids are formed. This will be covered more in the assignments but implicit grids can be formed when Grid is using your explicit grid template. Understanding how Grid forms these will really help you set up your grid properly and avoid unexpected results.
 
-5) While learning, start with a simple grid. Don't complicate it too early by starting with elements spanning multiple rows and grids. Setup a simple grid and make small adjustments. If you create a grid with and even number of columns and rows it will limit the flexibility of the grid but while learning will help avoid any confusion.
+5) While learning, start with a simple grid. Don't complicate it too early by starting with elements spanning multiple rows and grids. Setup a simple grid and make small adjustments. If you create a grid with an even number of columns and rows it will limit the flexibility of the grid but while learning will help avoid any confusion.
 
-One limitation to the current grid specification is subgrids are not yet available. By that I mean a nested grid that follows the same grid as the parent. There is a subgrid keyword in the grid specification, but it is not yet implemented and there is no current schedule for release.
+One limitation to the current grid specification is that subgrids are not yet widely available. The CSS specification defines subgrid as a nested grid that follows the same grid as the parent. Currently only Firefox supports these, and there is no current schedule for when other browsers will implement subgrids. 
 
 Grid is now supported in all major browsers meaning you can use it right away to start creating awesome layouts. You can find out if your browser version supports it [here](https://caniuse.com/#feat=css-grid).
 
@@ -44,9 +44,9 @@ Grid is now supported in all major browsers meaning you can use it right away to
 <div class="lesson-content__panel" markdown="1">
 - Complete [CSS Grid Garden](http://cssgridgarden.com/). An awesome resource for learning the basics of css grid through 28 levels.
 - Check out the videos at [Grid by Example](https://gridbyexample.com/video). They are nice and short and cover all the major areas of CSS Grid.
-- Wes Bos has a [CSS Grid course](https://cssgrid.io/) which is goes really in depth on the subject
+- Wes Bos has a [CSS Grid course](https://cssgrid.io/) which goes really in depth on the subject.
 </div>
 
 ### Additional Resources
 - The [MDN Grid pages](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are a great place to review CSS Grid and make sure you are comfortable with the main areas of the specification.
-- This [Rachel Andrew Youtube Video](https://youtu.be/N5Lt1SLqBmQ) is a great video on using Grid over other options
+- This [Rachel Andrew Youtube Video](https://youtu.be/N5Lt1SLqBmQ) is a great video on using Grid over other options.

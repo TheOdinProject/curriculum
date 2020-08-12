@@ -44,7 +44,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-
+<<<<<<< HEAD
+- Add your solution below this line!
+* [kelem7's Solution](https://github.com/kelem7/etch-a-sketch) - [View In Browser](https://kelem7.github.io/etch-a-sketch/)
+=======
 * Add your solution below this line!
 * [marlonhache's Solution](https://github.com/marlonhache/etch-sketch) - [View in Browser](https://marlonhache.github.io/etch-sketch/)
 * [NicolasArayaB's Solution](https://github.com/NicolasArayaB/etch-a-sketch) - [View in Browser](https://nicolasarayab.github.io/etch-a-sketch/)
@@ -250,6 +253,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [leddins's Solution](https://github.com/leddins/pixel-doodle) - [View in Browser](https://leddins.github.io/pixel-doodle/)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/sketchy) - [View in Browser](https://chargrilledchook.github.io/sketchy/)
 * [kelem7's Solution](https://github.com/kelem7/etch-a-sketch) - [View in Browser](https://kelem7.github.io/etch-a-sketch/)
+>>>>>>> upstream/master
 * [hieu-ng's Solution](https://github.com/hieu-ng/etch-a-sketch/) - [View in Browser](https://hieu-ng.github.io/etch-a-sketch/)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/etch-a-sketch/) - [View in Browser](https://aaron-contreras.github.io/etch-a-sketch/)
 * [Larry's Solution](https://github.com/ldbert/Etch-a-Sketch) - [View in Browser](https://ldbert.github.io/Etch-a-Sketch/)

@@ -5,7 +5,7 @@ Since we're doing TDD, it's important that you don't get overwhelmed.  Simply ta
 
 We have not yet discussed testing the appearance of a webpage.  Doing this requires a separate set of tools, and it is outside the scope of this unit.  For this assignment do your best to isolate every bit of application functionality from the actual DOM manipulation bits.  You can use mocks to make sure that DOM methods like appendChild are being called, but try your best to keep those things outside of the app logic.
 
-## Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Begin your app by creating the `Ship` factory function.  
@@ -42,9 +42,21 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Katarzyna Kaswen-Wilk's solution](https://github.com/kikupiku/battleships) - [View in Browser](https://kikupiku.github.io/battleships/)
-- [Disco Trooper's solution](https://github.com/disco-trooper/battleship) - [View in Browser](https://disco-trooper.github.io/battleship/)
-- [Julio's solution](https://github.com/julio22b/battleship) - [View in Browser](https://julio22b.github.io/battleship/)
+- [ray0h's Solution](https://github.com/ray0h/TOP-Battleship) - [View in Browser](https://ray0h.github.io/TOP-Battleship/)
+- [mjwills-inf's Soulution](https://github.com/mjwills-inf/-TOP-battleship) - [View in Browser](https://mjwills-inf.github.io/-TOP-battleship/)
+- [Rizwan's Soulution](https://github.com/xRizwan/TDD-Battleship) - [View in Browser](https://xrizwan.github.io/TDD-Battleship/)
+- [Kevin's Soulution](https://github.com/Kevlar2222/battleships/tree/master) - [View in Browser](https://kevlar2222.github.io/battleships/)
+- [Akram's Soulution](https://github.com/Ghanna96/battleship) - [View in Browser](https://ghanna96.github.io/battleship/)
+- [vonhoro's Solution](https://github.com/vonhoro/Battleships) - [View in Browser](https://vonhoro.github.io/Battleships/)
+- [Luky's Solution](https://github.com/lcyne/battleship) - [View in Browser](https://lcyne.github.io/battleship/)
+- [Juan Oxmar's Solution](https://github.com/juanoxmar/battleship) - [View in Browser](https://juanoxmar.github.io/battleship/)
+- [Andres Ruiz's Solution](https://github.com/Andrsrz/battleship) - [View in Browser](https://andrsrz.github.io/battleship/)
+- [hu-ng's Solution](https://github.com/hu-ng/battleship) - [View in Browser](https://hu-ng.github.io/battleship/)
+- [Jdonahue135's Solution](https://github.com/jdonahue135/battleship) - [View in Browser](https://jdonahue135.github.io/battleship/)
+- [Kevin Vuong's Solution](https://github.com/fffear/battleship) - [View in Browser](https://fffear.github.io/battleship/)
+- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/battleships) - [View in Browser](https://kikupiku.github.io/battleships/)
+- [Disco Trooper's Solution](https://github.com/disco-trooper/battleship) - [View in Browser](https://disco-trooper.github.io/battleship/)
+- [Julio's Solution](https://github.com/julio22b/battleship) - [View in Browser](https://julio22b.github.io/battleship/)
 - [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/battleship-react) - [View in Browser](https://braxtonlemmon.github.io/battleship-react/)
 - [rainmodred's Solution](https://github.com/rainmodred/react-battleship) - [View in Browser](https://rainmodred.github.io/react-battleship/)
 - [martink-rsa's Solution](https://github.com/martink-rsa/Battleships) - [View in Browser](https://martink-rsa.github.io/Battleships/)
@@ -61,4 +73,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Kelvin Liang's Solution](https://github.com/kelvin8773/odin-battle-ship) - [View in Browser](https://battleshipgame.netlify.com/)
 - [Austin Ftacnik's Solution](https://github.com/aplyd/battleship) - [View in Browser](https://aplyd.github.io/battleship/)
 - [ranmaru22's Solution](https://github.com/ranmaru22/battleship) - [View in Browser](https://ranmaru22.github.io/battleship/)
+- [barrysweeney's Solution](https://github.com/barrysweeney/battleship) - [View in Browser](https://barrysweeney.github.io/battleship/)
+- [Rey van den Berg's Solution](https://github.com/Rey810/Battleship/tree/master/battleship) - [View in Browser](https://react-battleship-reythedev.netlify.app)
+- [Joe Thompson's Solution](https://github.com/jlthompso/battleship) - [View in Browser](https://jlthompso.github.io/battleship/)
+- [Nijepa's Solution](https://github.com/nijepa/project-battleship) - [View in Browser](https://nijepa.github.io/project-battleship/)
 </details>

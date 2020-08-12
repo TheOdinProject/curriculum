@@ -110,7 +110,7 @@ To determine whether an expression evaluates to `true` or `false`, you'll need a
 
 ~~~ruby
 5 < 7 #=> true
-7 > 5 #=> false
+7 < 5 #=> false
 ~~~
 
 `>=` (greater than or equal to) returns `true` if the value on the left of the operator is larger than or equal to the value on the right.

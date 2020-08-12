@@ -16,9 +16,6 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
   1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
-  2. Complete "Part 1 - The Basics" of [Tower's Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start). Feel free to start with the section titled "Starting with an Unversioned Project". Some steps to get you started:
-      * Create a test project with `mkdir some-sample-project`.
-      * Create a few test files with `touch some-sample-project/example.html` and `touch some-sample-project/example.txt`.
 
 </div>
 
@@ -59,6 +56,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * An easy-to-read, pragmatic guide to using Git is available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC).
 * The [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub provides quick instructions for using common commands (you can find a webpage version [here](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)).
 * [Atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control) has a very thorough and well laid out Git tutorial.
+* [This video](https://youtu.be/HkdAHXoRtos) by Jeff Delaney has a fast-paced overview of Git.
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2).
 
 ### Knowledge Check
