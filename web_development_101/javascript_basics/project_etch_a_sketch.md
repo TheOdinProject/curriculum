@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/etch-a-sketch) - [View in Browser](https://nicolasarayab.github.io/etch-a-sketch/)
 * [Lord Artchur's Solution](https://github.com/lord-artchur/PixelCanvass) - [View in Browser](https://lord-artchur.github.io/PixelCanvass/)
 * [Cristian's Solution](https://github.com/1063551/Etch-A-Sketch) - [View in Browser](https://1063551.github.io/Etch-A-Sketch/)
 * [Lucasdonuts' Solution](https://github.com/lucasdonuts/etch-a-sketch) - [View in Browser](https://lucasdonuts.github.io/etch-a-sketch/)
