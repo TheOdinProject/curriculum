@@ -59,6 +59,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Duarte's Solution](https://github.com/Duartemartins/odin-facebook) - [View in Browser](http://www.salushub.club)
+* [Christian's Solution](https://github.com/rueeazy/odin_facebook) - [View in Browser](https://arcane-wildwood-51354.herokuapp.com/)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/odinbook) - [View in Browser](https://ovsjazz-odinbook.herokuapp.com/users/sign_in)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-feignbook) - [View in Browser](https://feignbook.herokuapp.com/)
 * [Jason Thompson's Solution](https://github.com/jasont01/odin-facebook) - [View in Browser](https://odin-fauxbook.herokuapp.com/)
@@ -135,6 +137,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [themetar's solution](https://github.com/themetar/odin-facebook) - [View in browser](https://phacepook.herokuapp.com/)
 * [Timework's solution](https://github.com/Timework/odin-facebook) - [View in browser](https://young-spire-86635.herokuapp.com/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/facebook)
+* [Bendee's Solution](https://github.com/bendee48/book-face1.1) - [View in browser](https://pacific-journey-50747.herokuapp.com/)
 </details>
 
 ### Additional Resources

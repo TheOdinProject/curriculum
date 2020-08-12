@@ -35,6 +35,9 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Tam Tran's Solution](https://github.com/gitdxb/clone-yt) - [View in Browser](https://gitdxb.github.io/clone-yt/)
+* [Ideopunk's Solution](https://github.com/Ideopunk/embed-practice) - [View in Browser](https://ideopunk.github.io/embed-practice/)
+* [Maximiliano Bidegain's Solution](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/html-and-css/embedding-images-and-video) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [mrdiegodev_ Solution](https://github.com/dhna32/Project--Embedding-Images-and-Video) - [View in Browser](https://dhna32.github.io/Project--Embedding-Images-and-Video/)
 * [descholar's Solution](https://github.com/descholar-ceo/youtube-player-page) - [View in Browser](https://descholar-ceo.github.io/youtube-player-page/)
 * [Othesius's Solution](https://github.com/othesius-exe/mocktube) - [View in Browser](https://othesius-exe.github.io/mocktube/)
@@ -202,6 +205,10 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [bhenning83's solution](https://github.com/bhenning83/youtube-homepage) - [View in Browser](https://bhenning83.github.io/youtube-homepage/)
 * [Joe Thompson's Solution](https://github.com/jlthompso/embedded-media) - [View in Browser](https://jlthompso.github.io/embedded-media/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/Youtube-video-page) - [View in Browser](https://ansellmaximilian.github.io/Youtube-video-page/)
+* [Kenneth H's Solution](https://github.com/kholston/youtube-player-page) - [View in Browser](https://kholston.github.io/youtube-player-page/)
+* [Nijepa's Solution](https://github.com/nijepa/embedding-images-and-video) - [View in Browser](https://nijepa.github.io/embedding-images-and-video/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/youtube)
+* [Violet's Solution](https://github.com/violetguos/html-css/tree/master/youtube) - [View in Browser](https://violetguos.github.io/html-css/youtube/)
 </details>
 
 ### Additional Resources

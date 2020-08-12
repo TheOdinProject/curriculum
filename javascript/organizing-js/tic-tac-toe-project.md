@@ -25,6 +25,16 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Daegudude's Solution](https://github.com/DaeguDude/TOP-TicTacToe) - [View in Browser](https://daegudude.github.io/TOP-TicTacToe/)
+- [Ramanjs' Solution](https://github.com/Ramanjs/tic-tac-toe) - [View in Browser](https://ramanjs.github.io/tic-tac-toe/)
+- [Dovi Maj's Solution](https://github.com/DoviMaj/Tic-Tac-Toe) - [View in Browser](https://dovimaj.github.io/Tic-Tac-Toe/)
+- [John's Solution](https://github.com/ioanniskousis/TicTacToe-JS) - [View in Browser](https://ioanniskousis.github.io/TicTacToe-JS/)
+- [hd505495's Solution](https://github.com/hd505495/tic-tac-toe) - [View in Browser](https://hd505495.github.io/tic-tac-toe/)
+- [Dean Oh's Solution](https://github.com/JuicyMelon/Tic-Tac-Toe) - [View in Browser](https://juicymelon.github.io/Tic-Tac-Toe/)
+- [J-coen's Solution](https://github.com/J-coen/odin-tic-tac-toe) - [View in Browser](https://j-coen.github.io/odin-tic-tac-toe/)
+- [Sasoun Torossian's Solution](https://github.com/SasounTorossian/Tic-Tac-Toe) - [View in Browser](https://sasountorossian.github.io/Tic-Tac-Toe/)
+- [Shikhar's Solution](https://github.com/shikhar-sharma1703/Web-dev/tree/master/tic-tac-toe) - [View in Browser](https://shikhar-sharma1703.github.io/Web-dev/tic-tac-toe/)
+- [stefank-29's Solution w/ Minimax AI](https://github.com/stefank-29/Tic-Tac-Toe) - [View in Browser](https://stefank-29.github.io/Tic-Tac-Toe/)
 - [miknick's Solution](https://github.com/miknick/Tic-Tac-Toe) - [View in Browser](https://miknick.github.io/Tic-Tac-Toe)
 - [Olamide Olaniyan's Solution](https://github.com/cyber-mat/tictactoe_js) - [View in Browser](https://cyber-mat.github.io/tictactoe_js/)
 - [GERRG's Solution](https://github.com/gerrgg/tic-tac-toe) - [View in Browser](https://gerrgg.github.io/tic-tac-toe/)
@@ -42,6 +52,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [hnguye's Solution](https://github.com/hnguye/tictactoe) - [View in Browser](https://hnguye.github.io/tictactoe/)
 - [vonhoro's Solution](https://github.com/vonhoro/Tic-Tac-Toe) - [View in Browser](https://vonhoro.github.io/Tic-Tac-Toe/)
 - [rafael's Solution](https://github.com/jcads/TicTacToe) - [View in Browser](https://jcads.github.io/TicTacToe/)
+- [Narek's Solution](https://github.com/narekokr/Tictactoe)
 - [fviccia's Solution](https://github.com/fviccia/tic-tac-toe) - [View in Browser](https://fviccia-tic-tac-toe.netlify.app/)
 - [Tomodi98's Solution](https://github.com/Tomodi98/tic-tac-toe) - [View in Browser](https://tomodi98.github.io/tic-tac-toe/)
 - [pklepa's Solution](https://github.com/pklepa/tic-tac-toe) - [View in Browser](https://pklepa.github.io/tic-tac-toe/)
@@ -112,7 +123,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [yldrmali's Solution](https://github.com/yldrmali/tictactoe) - [View in Browser](https://yldrmali.github.io/tictactoe/)
 - [LorenzoMarinucci's Solution](https://github.com/LorenzoMarinucci/tic-tac-toe) - [View in Browser](https://lorenzomarinucci.github.io/tic-tac-toe/)
 - [tracy2811's Solution](https://github.com/tracy2811/tic-tac-toe) - [View in Browser](https://tracy2811.github.io/tic-tac-toe/)
-- [Justinkar's Solution (with Minimax)](https://github.com/justinkar/tic-tac-toe) - [View in Browser](https://justinkar.github.io/tic-tac-toe/)
 - [dhatGuy & nearmint's Solution (with Minimax)](https://github.com/nearmint/tictactoe) - [View in Browser](https://nearmint.github.io/tictactoe/)
 - [James's Solution](https://github.com/ericksen-github/Tic_Tac_Toe) - [View in Browser](https://ericksen-github.github.io/Tic_Tac_Toe/)
 - [Simon's Solution](https://github.com/Sim-frpt/tic-tac-toe) - [View in Browser](https://sim-frpt.github.io/tic-tac-toe/)
@@ -253,4 +263,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [liampc's Solution](https://github.com/liampc/ticTacToe) - [View in Browser](https://liampc.github.io/ticTacToe/)
 - [kenwilde's Solution](https://github.com/kenwilde1/tic-tac-toe) - [View in Browser](https://kenwilde1.github.io/tic-tac-toe/)
 - [Victor Orlunda's Solution](https://github.com/dev-opus/tic-tac-toe) - [View in Browser](https://dev-opus.github.io/tic-tac-toe)
+- [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/Tic-Tac-Toe) - [View in Browser](https://playingongithub.github.io/Tic-Tac-Toe/)
+- [Jamesredux's Solution](https://github.com/Jamesredux/js-tic-tac-toe) - [View in Browser](https://jamesredux.github.io/js-tic-tac-toe/)
+- [Sandy's Solution](https://github.com/kuosandys/top-tic_tac_toe) - [View in Browser](https://kuosandys.github.io/top-tic_tac_toe/)
+- [Timework's Solution](https://github.com/Timework/javascript-tic) - [View in Browser](https://timework.github.io/javascript-tic/)
+- [joankii's Solution w/minimax](https://github.com/joan-kii/tic-tac-toe) - [View in Browser](https://joan-kii.github.io/tic-tac-toe/)
+- [hazigabriel's Solution w/AI](https://github.com/hazigabriel/tic-tac-toe) - [View in Browser](https://github.com/hazigabriel/tic-tac-toe)
 </details>
