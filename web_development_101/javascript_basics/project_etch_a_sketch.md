@@ -71,6 +71,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Hwan's Solution](https://tzuhwan.github.io/etch-a-sketch/) - [View in Browser](https://tzuhwan.github.io/etch-a-sketch/)
 * [pshi928's Solution](https://github.com/pshi928/Etch-A-Sketch) - [View in Browser](https://pshi928.github.io/Etch-A-Sketch/)
 * [Neal's Solution](https://github.com/nealbayya/Etch-A-Sketch) - [View in Browser](https://nealbayya.github.io/Etch-A-Sketch/)
+* [Bryant's Solution](https://github.com/BryantVaughn/Etch-A-Sketch) - [View in Browser](https://bryantvaughn.github.io/Etch-A-Sketch/)
 * [Alvin's Solution](https://github.com/Alvin-Isai/etch-a-sketch) - [View in Browser](https://alvin-isai.github.io/)
 * [Kckat's Solution](https://github.com/kckat/etch-a-sketch) - [View in Browser](https://kckat.github.io/etch-a-sketch/)
 * [Pallavi's Solution](https://github.com/pmaity7/etch-a-sketch) - [View in Browser](https://pmaity7.github.io/etch-a-sketch/)
