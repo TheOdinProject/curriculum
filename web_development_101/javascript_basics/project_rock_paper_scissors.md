@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Mattiabrr's Solution](https://github.com/mattiabressan/Rock-paper-scissors)
 - [DanteSix' Solution](https://github.com/SempleGit/rock_paper_scissors) - [View in Browser](https://semplegit.github.io/rock_paper_scissors/)
 - [FelipinHdez's Solution](https://github.com/FelipinHdez/rock-paper-scissors/) - [View in Browser](https://felipinhdez.github.io/rock-paper-scissors/)
 - [Error-Undefined-Value's Solution](https://github.com/error-undefined-value/rock-paper-scissors)
@@ -1875,4 +1876,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [thedodus' Solution](https://github.com/thedodus/top-rock-paper-scissors) - [View in Browser](https://thedodus.github.io/top-rock-paper-scissors/)
 - [mrPCbuilds' Solution](https://github.com/mrPCbuilds/rock-paper-scissors) - [View in Browser](https://mrpcbuilds.github.io/rock-paper-scissors/)
 - [Fusako's Solution](https://github.com/fusakoo/rock-paper-scissors) - [View in Browser](https://fusakoo.github.io/rock-paper-scissors/)
+
+
 </details>
