@@ -107,12 +107,13 @@ If any of those don't work, double check your associations.  Sometimes the error
 </div>
 
 ### Student Solutions
-Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/databases_and_activerecord/project_ar_basics.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/databases_and_activerecord/project_ar_basics.md) so we can show others!. Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Axel Lopez's Solution](https://github.com/lopezaxel/micro-reddit)
 * [Sam Eff's Solution](https://github.com/SamEff/micro-reddit)
 * [Uduak Essien's Solution](https://github.com/DarrenLo0530/rails-mini-projects/tree/master/micro-reddit)
 * [Uduak Essien's Solution](https://github.com/acushlakoncept/micro-reddit)
