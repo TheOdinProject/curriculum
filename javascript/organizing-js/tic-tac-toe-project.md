@@ -269,4 +269,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Timework's Solution](https://github.com/Timework/javascript-tic) - [View in Browser](https://timework.github.io/javascript-tic/)
 - [joankii's Solution w/minimax](https://github.com/joan-kii/tic-tac-toe) - [View in Browser](https://joan-kii.github.io/tic-tac-toe/)
 - [hazigabriel's Solution w/AI](https://github.com/hazigabriel/tic-tac-toe) - [View in Browser](https://github.com/hazigabriel/tic-tac-toe)
+- [sacchan9's Solution](https://github.com/sacchan9/tic-tac-toe) - [View in Browser](https://sacchan9.github.io/tic-tac-toe/)
 </details>
