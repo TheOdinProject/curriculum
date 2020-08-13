@@ -1877,6 +1877,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [thedodus' Solution](https://github.com/thedodus/top-rock-paper-scissors) - [View in Browser](https://thedodus.github.io/top-rock-paper-scissors/)
 - [mrPCbuilds' Solution](https://github.com/mrPCbuilds/rock-paper-scissors) - [View in Browser](https://mrpcbuilds.github.io/rock-paper-scissors/)
 - [Fusako's Solution](https://github.com/fusakoo/rock-paper-scissors) - [View in Browser](https://fusakoo.github.io/rock-paper-scissors/)
-
-
+- [Veronica's Solution](https://github.com/VJones2112/rockpaperscissors_theodinproject) - [View in Browser](https://rockpaperscissors-theodinproject.vercel.app/)
 </details>
