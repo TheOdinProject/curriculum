@@ -117,6 +117,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Axel Lopez's Solution](https://github.com/lopezaxel/re-former)
 * [Sam Eff's Solution](https://github.com/SamEff/re-former)
 * [Darren's Solution](https://github.com/DarrenLo0530/rails-mini-projects/tree/master/re-former)
 * [JvPelai's Solution](https://github.com/JvPelai/re-former)
