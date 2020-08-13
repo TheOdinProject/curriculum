@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
- - [Josue Garcia's Solution](https://github.com/JosueGarcia17/Browser-Rock-Paper-Scissors)
+- [Josue Garcia's Solution](https://github.com/JosueGarcia17/Browser-Rock-Paper-Scissors)
 - [FelipinHdez's Solution](https://github.com/FelipinHdez/rock-paper-scissors/) - [View in Browser](https://felipinhdez.github.io/rock-paper-scissors/)
 - [Error-Undefined-Value's Solution](https://github.com/error-undefined-value/rock-paper-scissors)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/RockPaperScissors/blob/master/rockpaperscissors.html) - [View in Browser](https://nicolasarayab.github.io/RockPaperScissors/)
