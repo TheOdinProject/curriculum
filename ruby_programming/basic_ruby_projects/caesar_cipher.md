@@ -34,6 +34,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/Caesar-Cipher)
+* [Sizwe Malobola's Solution](https://github.com/SizweMalobola/Ruby_Projects)
 * [kckats's Solution](https://github.com/kckat/ruby-ceasar-cipher)
 * [freeflow13's Solution](https://github.com/freeflow13/ruby_caesar_cipher/blob/master/caesar_cipher.rb)
 * [blessing jackson's Solution](https://github.com/blessja/caeser_cipher.git)
