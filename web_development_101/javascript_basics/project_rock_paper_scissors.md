@@ -61,7 +61,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tristen Wallace solution](https://github.com/tristenwallace/rock-paper-scissors) - [View in Browser](https://tristenwallace.github.io/rock-paper-scissors/)
 - [Nathan Stevenson's Solution](https://github.com/nstvnsn/rock-paper-scissors)
 - [Manuel Diaz solution](https://manueldiazy.github.io/PiedraPapelTijera/) - [View in Browser](https://manueldiazy.github.io/PiedraPapelTijera/)
-- [MashaShak's Solution](https://github.com/MashaShak/rock-scissors-paper-game)
+- [MashaShak's Solution](https://github.com/MashaShak/rock-scissors-paper-game) - [View in Browser](https://mashashak.github.io/rock-scissors-paper-game/)
 - [RCreque's Solution](https://github.com/RCreque/rock-paper-scissors)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/RockPaperScissors)
 - [jtcaovan's Solution](https://github.com/jtcaovan/Rock-Paper-Scissor)
