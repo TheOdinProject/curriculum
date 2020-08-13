@@ -19,6 +19,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
+
+* [pklepa's React Library](https://github.com/pklepa/small-library-react) - [View in Browser](https://pklepa.github.io/small-library-react)
 * [miknick's React Library](https://github.com/miknick/React-Library-Page) - [View in Browser](https://miknick.github.io/React-Library-Page/)
 * [Salvador Villalon's Vue Restaurant Page](https://github.com/salvillalon45/theOdinProject-Frameworks) - [View in Browser](https://salvillalon45.github.io/theOdinProject-Frameworks/)
 * [Diane998's Angular Library](https://github.com/Diane998/library) - [View in Browser](https://angular-library-git-master.diane998.vercel.app/)
