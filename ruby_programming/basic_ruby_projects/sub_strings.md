@@ -564,4 +564,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [juggler39's Solution](https://github.com/juggler39/ruby_assignments/blob/master/substrings.rb)
 * [Alejaldo's Solution](https://github.com/Alejaldo/substrings/blob/master/substr.rb)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/blob/master/substrings.rb)
+* [robertompfm's Solution](https://github.com/robertompfm/substrings-ruby/blob/master/substrings.rb)
 </details>
