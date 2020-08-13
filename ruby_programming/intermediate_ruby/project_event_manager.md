@@ -46,7 +46,7 @@ file within the 'lib' directory.
 
 Ruby source file names are often times written all in lower-case characters and
 instead of camel-casing multiple words together they are instead separated by an
-underscore (often called *snake-case*).
+underscore (often called *snake_case*).
 
 Open `lib/event_manager.rb` in your text editor and add the line:
 
@@ -296,8 +296,8 @@ lines.each_with_index do |line,index|
 end
 ~~~
 
-This solves the problem if the header row were to change in the future. It does
-now assume that the header row is first row within the file.
+This solves the problem if the header row were to change in the future. It
+assumes that the header row is the first row in the file.
 
 
 ### Look for a Solution before Building a Solution

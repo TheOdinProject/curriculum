@@ -93,6 +93,9 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [JvPelai's Solution](https://github.com/JvPelai/odin_kittens)
+* [irlgabriel's Solution](https://github.com/irlgabriel/kittens-odin)
+* [pudu87's Solution](https://github.com/pudu87/odin-kittens)
 * [Christian's Solution](https://github.com/rueeazy/odin_kittens)
 * [leetie's Solution](https://github.com/leetie/api-project)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project-odin-kittens)
@@ -189,7 +192,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 <div class="lesson-content__panel" markdown="1">
 1. Go back to the [Flickr API Docs](http://www.flickr.com/services/api/) and click [Create an App](http://www.flickr.com/services/apps/create/) at the top.
 2. Follow the steps for getting your API key.  You'll have to sign in or sign up for Flickr (someone has to these days) and give them some basic information about your app.  Select "Apply for a non-commercial key" and let them know how awesome your photo feed app will be.  You'll automatically get a key generated for you, in addition to a secret key.  Copy both of these somewhere you can get to them later.
-3. Use the [idGettr](http://idgettr.com/) website to look up your ID by pasting in your flickr username in the example URL, e.g. `http://www.flickr.com/photos/eriktrautman/`.  You'll need that later for some of the API methods.
+3. While logged in, copy your Flikr ID from the browser address bar by navigating to the "You" link on the top navbar. It will look like `https://www.flickr.com/photos/yourIDhere/`. An example would be `1895558555@N03`. You'll need that later for some of the API methods.
 4. Upload a few photos to your photostream!
 5. Create a new Rails app and add a gem for the [Flickr API](http://lmgtfy.com/?q=flickr+api+gem). There are gems for pretty much every API out there. They will all require you to include your API keys and secret keys somehow. Look for gems that are maintained (have recent commits) and well-adopted (GitHub stars is one way to get a good gauge for how valuable a gem is).
 6. One note is that it's not good practice to have your secret key hard coded into your app because then it's hardly a secret, especially if you're pushing to Github.  A better practice is to store the key in an [environment variable](http://railsapps.github.io/rails-environment-variables.html) instead and/or use a gem like [`figaro` (see docs)](https://github.com/laserlemon/figaro).  Environment variables allow you to push your key to your app directly from the command line when it fires up.  Figaro operates under the same principle, though it helps you out by allowing you to store the keys in an actual file that just doesn't get committed with the rest of your code.  Use one of these techniques unless you're a cowboy.  They are well described in [Daniel Kehoe's RailsApps article](http://railsapps.github.io/rails-environment-variables.html).
@@ -204,6 +207,10 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [JvPelai's Solution](https://github.com/JvPelai/odin_flickr_album)
+* [irlgabriel's Solution](https://github.com/irlgabriel/flickr-api-project) - [View in Browser](https://fast-beyond-84270.herokuapp.com/)
+* [pudu87's Solution](https://github.com/pudu87/odin-flickr)
+* [proto-dylan's Solution](https://github.com/proto-dylan/flickr-feeder)
 * [Christian's Solution](https://github.com/rueeazy/odin_flickr)
 * [leetie's Solution](https://github.com/leetie/flickr-api-2)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_photo_stream_api)
