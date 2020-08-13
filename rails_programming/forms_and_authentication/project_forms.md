@@ -260,6 +260,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Christian Páez's Solution](https://github.com/christian1894/re-former-odin-project-rails)
 * [fussykyloren's Solution](https://github.com/fussykyloren/re-former)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/forms)
+* [clinton wambugu's Solution](https://github.com/kwambugu/BareMetalFormsAndHelpers)
+
 </details>
 
 ### Additional Resources
