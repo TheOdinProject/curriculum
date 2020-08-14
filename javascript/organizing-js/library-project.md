@@ -41,6 +41,9 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Jordan Leivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/Javascript/Library/) - [View in Browser](https://jleivers.github.io/The-Odin-Project/Javascript/Library/)
+- [Eco-developer's Solution (w/ localstorage)](https://github.com/Eco-developer/library) - [View in Browser](https://eco-developer.github.io/library/)
+- [Adnan's Solution (localstorage) ](https://github.com/AdnanGondal/library) - [View in Browser](https://adnangondal.github.io/library/)
 - [Acchang's Solution (w/localstorage)](https://github.com/acchang/Library-Local/blob/master/index.html) - [View in Browser](http://htmlpreview.github.io/?https://github.com/acchang/Library-Local/blob/master/index.html) - [(w/Firebase)](https://github.com/acchang/Library-Firebase/tree/master) [View in Browser](https://library-firebase.acchang.repl.co/)
 - [Lucas-Bide's Solution](https://github.com/Lucas-Bide/odin-library) - [View in Browser](https://lucas-bide.github.io/odin-library/)
 - [Ramanjs' Solution (w/ Local Storage)](https://github.com/Ramanjs/library) - [View in Browser](https://ramanjs.github.io/library/)
@@ -382,5 +385,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [sacchan9's Solution](https://github.com/sacchan9/library) - [View in Browser](https://sacchan9.github.io/library/)
 - [calebrauscher's Solution (w/local storage)](https://github.com/calebrauscher/The-Odin-Project/tree/master/library) - [View in Browser](https://calebrauscher.github.io/The-Odin-Project/library/)
 - [skwiryt's solution (w/ Local Storage)](https://github.com/skwiryt/library) - [View in Browser](https://skwiryt.github.io/library/)
+- [Orhan's solution (w/localstorage)](https://github.com/orhanugurlu/the_odin_project/tree/master/library) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/library/index.html)
 
 </details>

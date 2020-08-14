@@ -19,6 +19,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [christian-ortega's Solution](https://github.com/christian-ortega/tic-tac-toe) - [View in repl.it](https://repl.it/@chrisortegax/tic-tac-toe#tic_tac_toe.rb)
+* [Xtrator's Solution](https://github.com/xtrator/TOPsolutions/blob/master/tic-tac-toe.rb) - [View in repl.it](https://repl.it/@xtrator/LateIntentionalProgram#main.rb)
+* [Jeremy's Solution](https://github.com/JeremyWells227/tictactoe)
 * [Cameron Proulx's Solution](https://github.com/FrostbiteDragon/ruby/tree/master/tic_tac_toe)
 * [Hans Oliveira's Solution](https://github.com/hansnery/tic_tac_toe)
 * [Duncan06's Solution](https://github.com/Duncan06/learn_ruby/tree/master/tictactoe)
@@ -410,6 +413,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Tic-Tac-Toe) - [Play on repl.it](https://repl.it/@shanedgilbert/Tic-Tac-Toe#.replit)
 * [bhenning83's Solution](https://github.com/bhenning83/tic-tac-toe/blob/master/tic_tac_toe.rb) - [Play on repl.it](https://repl.it/@bhenning83/tictactoe#main.rb)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-oops/blob/master/tictactoe.rb)
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/tic_tac_toe)
 * [Madaja’s Solution](https://github.com/madaja/tictactoe)
 </details>
 
@@ -442,6 +446,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [enzoperce35's Solution](https://github.com/enzoperce35/Mastermind/blob/master/Mastermind.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@cbpolley/mastermind#main.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/mastermind.rb) - [View in repl.it](https://mastermind.gogvale.repl.run/)
+* [Sthavir's solution](https://github.com/sthavm/ruby-mastermind) - [View in repl.it](https://ruby-mastermind.sthavm.repl.run/)
 * [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/7_mastermind.rb) - [View in repl.it](https://repl.it/@Risanto/mastermind#main.rb)
 * [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/mastermind)
 * [Coding Shawn's Solution (Computer has 68% win rate over 100000 games)](https://github.com/CodingShawn/TOP-Ruby-Mastermind)
@@ -740,7 +745,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [bhenning83’s Solution](https://github.com/bhenning83/mastermind/blob/master/mastermind.rb) - [Play on repl.it](https://repl.it/@bhenning83/mastermind#main.rb)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-oops/blob/master/mastermind.rb)
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Mastermind) - [Play on repl.it](https://repl.it/@shanedgilbert/Mastermind)
-
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/mastermind)
 </details>
 
 ### Additional Resources

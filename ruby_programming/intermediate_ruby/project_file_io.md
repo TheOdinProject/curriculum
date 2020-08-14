@@ -21,9 +21,11 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [nhleto's Solution](https://github.com/nhleto/Hangman)
 * [Cameron Proulx's Solution](https://github.com/FrostbiteDragon/ruby/tree/master/hang_man)
 * [sh1nj1's Solution](https://github.com/shubh-pandit/RubyMiniGames/tree/master/hangman) - [View in Repl.it](https://hangman.shubhpandit.repl.run/)
 * [frosmaker392's Solution](https://github.com/frosmaker392/top_rb_hangman)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-hangman) - [View in Repl.it](https://ruby-hangman.sthavm.repl.run/)
 * [cbpolley's Solution](https://github.com/cbpolley/hangman/blob/master/hangman.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/tree/master/Hangman) - [View in Repl.it](https://hangman.gogvale.repl.run/)
 * [bassart94's solution](https://repl.it/@bassart94/hangman)  
@@ -349,4 +351,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [jding9's Solution](https://github.com/Jding9/ruby_hangman)
 * [bhenning83's Solution](https://github.com/bhenning83/hangman)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-hangman)
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/hangman)
 </details>
