@@ -41,6 +41,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [kingofping654's Solution](https://github.com/kingofping654/Stock-Picker/blob/master/Stock%20Picker.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/stock_picker.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/stock_picker.rb)
+* [meiyaismywaifu's Solution](https://github.com/meiyaismywaifu/the_odin_project/blob/master/stock_picker/stock_picker.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby_stock_picker/blob/master/app.rb)
 * [Coby's Solution](https://github.com/coby101/odin_project/blob/master/stock_picker.rb)
 * [enzoperce35's Solution](https://github.com/enzoperce35/stock_picker/blob/master/stock_picker.rb)
