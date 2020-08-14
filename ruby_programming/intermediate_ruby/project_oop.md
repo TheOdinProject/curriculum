@@ -19,8 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [christian-ortega's soution](https://github.com/christian-ortega/tic-tac-toe) - [View in repl.it](https://repl.it/@chrisortegax/tic-tac-toe#tic_tac_toe.rb)
-* [Xtrator's soution](https://github.com/xtrator/TOPsolutions/blob/master/tic-tac-toe.rb) - [View in repl.it](https://repl.it/@xtrator/LateIntentionalProgram#main.rb)
+* [christian-ortega's Solution](https://github.com/christian-ortega/tic-tac-toe) - [View in repl.it](https://repl.it/@chrisortegax/tic-tac-toe#tic_tac_toe.rb)
+* [Xtrator's Solution](https://github.com/xtrator/TOPsolutions/blob/master/tic-tac-toe.rb) - [View in repl.it](https://repl.it/@xtrator/LateIntentionalProgram#main.rb)
 * [Jeremy's Solution](https://github.com/JeremyWells227/tictactoe)
 * [Cameron Proulx's Solution](https://github.com/FrostbiteDragon/ruby/tree/master/tic_tac_toe)
 * [Hans Oliveira's Solution](https://github.com/hansnery/tic_tac_toe)
