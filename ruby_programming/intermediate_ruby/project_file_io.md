@@ -351,4 +351,5 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [jding9's Solution](https://github.com/Jding9/ruby_hangman)
 * [bhenning83's Solution](https://github.com/bhenning83/hangman)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-hangman)
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/hangman)
 </details>
