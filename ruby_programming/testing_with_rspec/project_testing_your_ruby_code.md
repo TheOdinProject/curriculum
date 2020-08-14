@@ -21,6 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* gogvale's Solutions: [Caesar Cipher](https://github.com/gogvale/RubyCode/blob/master/spec/caesar_cypher_spec.rb), [Tic-Tac-Toe](https://github.com/gogvale/RubyCode/blob/master/spec/ttt_spec.rb)
 * tenacious qi's Solutions: [Caesar Cipher](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Tic-Tac-Toe](https://github.com/Tenacious-Qi/OOP-project/tree/master/tictactoe)
 * Aaron Contreras's Solutions: [Caesar Cipher](https://github.com/aaron-contreras/caesar-cipher), [Tic-Tac-Toe](https://github.com/aaron-contreras/tic-tac-toe)
 * Haroon Abdulrazaq's Solutions: [Tic-Tac-Toe](https://github.com/Haroonabdulrazaq/tic-tac-toe)
@@ -138,6 +139,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Chow Jia Ying's Solutions: [Caesar Cipher](https://github.com/C-likethis123/ruby_odin_project/blob/master/lib/caesar_cipher.rb), [Tic-Tac-Toe](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 * Sandy's Solutions: [Caesar Cipher](https://github.com/kuosandys/top-ruby-assignments/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/kuosandys/top-ruby-assignments/tree/master/tic_tac_toe)
 * Johnny's Solutions: [Caesar Cipher](https://github.com/NotAProgrammerdork/Ruby/tree/master/caesar_cipher_spec), [TicTacToe](https://github.com/NotAProgrammerdork/Ruby/tree/master/tictactoe_spec)
+* msespos's Solutions: [Caesar Cipher](https://github.com/msespos/caesar), [Tic-Tac-Toe](https://github.com/msespos/tic-tac-toe)
 </details>
 
 ### Project: TDD Connect Four

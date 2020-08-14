@@ -60,6 +60,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/balanced_BST.rb)
 * [Risan's Solution](https://github.com/risanto/ruby-programming/blob/master/14_binary-search-trees.rb)
 * [James's Solution](https://github.com/jegrieve/binary_search_trees)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
@@ -263,6 +264,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
+* [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/binary_search_tree.rb)
+
 </details>
 
 ### Project 2: Knight's Travails
@@ -309,6 +313,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/knights_travails.rb) [repl.it](https://repl.it/@cbpolley/knightstravails)
 * [James's Solution](https://github.com/jegrieve/Knight-s_Travails)
 * [Aaron's Solution](https://github.com/Aaron-McD/knight-travails)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Knights_Travails)
@@ -506,5 +511,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
 * [msespos's Solution](https://github.com/msespos/knights-travails)
+* [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/knights_travels.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/knights_travails.rb)
 
 </details>
