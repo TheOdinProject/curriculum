@@ -41,6 +41,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [descholar's Solution](https://github.com/descholar-ceo/bubble-sort) - [View Demo](https://repl.it/@descholarceo/bubble-sort#bubble_sort.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/bubble_sort.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/bubble_sort.rb)
+* [meiyaismywaifu's Solution](https://github.com/meiyaismywaifu/the_odin_project/blob/master/bubble_sort/bubble_sort2.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby_bubble-sort/blob/master/bubble_sort.rb)
 * [Coby's Solution](https://github.com/coby101/odin_project/blob/master/bubble_sort.rb)
 * [Ahmad Chata's Solution](https://github.com/ahmadchata/bubble-sort-ruby) - [View Demo](https://repl.it/@ahmadchata/Bubble-sort#main.rb)
