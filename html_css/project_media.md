@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hiro's Solution](https://github.com/hrmtk/youtube-page) - [View in Browser](https://hrmtk.github.io/youtube-page/)
 * [Christian's Solution](https://github.com/rueeazy/youtube-clone) - [View in Browser](https://rueeazy.github.io/youtube-clone/)
 * [Tam Tran's Solution](https://github.com/gitdxb/clone-yt) - [View in Browser](https://gitdxb.github.io/clone-yt/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/embed-practice) - [View in Browser](https://ideopunk.github.io/embed-practice/)
