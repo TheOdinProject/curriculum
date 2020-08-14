@@ -59,6 +59,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [leeti's Solution](https://github.com/leetie/spacecrook) - [View in Browser](https://whispering-everglades-16718.herokuapp.com)
 * [Duarte's Solution](https://github.com/Duartemartins/odin-facebook) - [View in Browser](http://www.salushub.club)
 * [Christian's Solution](https://github.com/rueeazy/odin_facebook) - [View in Browser](https://arcane-wildwood-51354.herokuapp.com/)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/odinbook) - [View in Browser](https://ovsjazz-odinbook.herokuapp.com/users/sign_in)
