@@ -33,6 +33,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [kelem7's Solution](https://github.com/kelem7/Ruby-Coding-Challenges/tree/master/Caesar%20Cipher)
+* [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/Caesar-Cipher)
+* [Sizwe Malobola's Solution](https://github.com/SizweMalobola/Ruby_Projects)
 * [kckats's Solution](https://github.com/kckat/ruby-ceasar-cipher)
 * [freeflow13's Solution](https://github.com/freeflow13/ruby_caesar_cipher/blob/master/caesar_cipher.rb)
 * [blessing jackson's Solution](https://github.com/blessja/caeser_cipher.git)
@@ -638,4 +641,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [vongk97's Solution](https://github.com/vongk97/ruby/blob/master/caesar.rb)
 * [mrguibs's Solutions](https://github.com/mrguibs/ruby-basic-projects/blob/master/caesar-cipher.rb)
 * [brentguf's Solution](https://github.com/brentguf/caesar-cipher/blob/master/script.rb)
+* [robertompfm's Solution](https://github.com/robertompfm/caesar-cipher-ruby/blob/master/caesar_cipher.rb)
 </details>

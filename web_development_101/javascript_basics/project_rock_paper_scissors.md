@@ -41,6 +41,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Chris Kamp's Solution](https://github.com/chriskamp101/rock-paper-scissors) - [View in Browser](https://chriskamp101.github.io/rock-paper-scissors/)
+- [Bryson Bruce's Solution](https://github.com/Bruceboy7/Rock-Paper-Scissors)- [View in Browser](https://bruceboy7.github.io/Rock-Paper-Scissors/)
+- [Yusuf ATALAY's Solution](https://github.com/yusufatalay/TOP-Rock_Paper_Scissor) - [View in Browser](https://yusufatalay.github.io/TOP-Rock_Paper_Scissor)
+- [leinierperez's Solution](https://github.com/leinierperez/rock-paper-scissors) - [View in Browser](https://leinierperez.github.io/rock-paper-scissors/)
+- [JCahela's Solution](https://jcahela.github.io/rock-paper-scissors/)
+- [Josue Garcia's Solution](https://github.com/JosueGarcia17/Browser-Rock-Paper-Scissors)
+- [Mattiabrr's Solution](https://github.com/mattiabressan/Rock-paper-scissors)
+- [DanteSix' Solution](https://github.com/SempleGit/rock_paper_scissors) - [View in Browser](https://semplegit.github.io/rock_paper_scissors/)
 - [FelipinHdez's Solution](https://github.com/FelipinHdez/rock-paper-scissors/) - [View in Browser](https://felipinhdez.github.io/rock-paper-scissors/)
 - [Error-Undefined-Value's Solution](https://github.com/error-undefined-value/rock-paper-scissors)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/RockPaperScissors/blob/master/rockpaperscissors.html) - [View in Browser](https://nicolasarayab.github.io/RockPaperScissors/)
@@ -59,7 +67,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Tristen Wallace solution](https://github.com/tristenwallace/rock-paper-scissors) - [View in Browser](https://tristenwallace.github.io/rock-paper-scissors/)
 - [Nathan Stevenson's Solution](https://github.com/nstvnsn/rock-paper-scissors)
 - [Manuel Diaz solution](https://manueldiazy.github.io/PiedraPapelTijera/) - [View in Browser](https://manueldiazy.github.io/PiedraPapelTijera/)
-- [MashaShak's Solution](https://github.com/MashaShak/rock-scissors-paper-game)
+- [MashaShak's Solution](https://github.com/MashaShak/rock-scissors-paper-game) - [View in Browser](https://mashashak.github.io/rock-scissors-paper-game/)
 - [RCreque's Solution](https://github.com/RCreque/rock-paper-scissors)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/RockPaperScissors)
 - [jtcaovan's Solution](https://github.com/jtcaovan/Rock-Paper-Scissor)
@@ -86,7 +94,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Luke's Solution](https://github.com/LukeMcCarthy58/top-rock-paper-scissors)
 - [KCKat's Solution](https://github.com/kckat/rock-paper-scissors) - [View in Browser](https://kckat.github.io/rock-paper-scissors/)
 - [Zane's Solution](https://github.com/Zane97/rock-paper-scissors)
-- [leinierperez's Solution](https://github.com/leinierperez/rock-paper-scissors)
 - [Bliguy's Solution](https://github.com/bliguy/rock-paper-scissor) - [View in Browser](https://bliguy.github.io/rock-paper-scissor/)
 - [ivantbv's Solution](https://github.com/ivantbv/rock-paper-scissors) - [View in Browser](https://ivantbv.github.io/rock-paper-scissors/)
 - [pir4cy's Solution](https://github.com/pir4cy/rock-paper-scissors) - [View in Browser](https://pir4cy.github.io/rock-paper-scissors/)
@@ -1874,4 +1881,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [thedodus' Solution](https://github.com/thedodus/top-rock-paper-scissors) - [View in Browser](https://thedodus.github.io/top-rock-paper-scissors/)
 - [mrPCbuilds' Solution](https://github.com/mrPCbuilds/rock-paper-scissors) - [View in Browser](https://mrpcbuilds.github.io/rock-paper-scissors/)
 - [Fusako's Solution](https://github.com/fusakoo/rock-paper-scissors) - [View in Browser](https://fusakoo.github.io/rock-paper-scissors/)
+- [Veronica's Solution](https://github.com/VJones2112/rockpaperscissors_theodinproject) - [View in Browser](https://rockpaperscissors-theodinproject.vercel.app/)
+- [Stroodz's Solution](https://github.com/strood/po_rock_paper_scissors) - [View in Browser](https://strood.github.io/po_rock_paper_scissors/)
 </details>
