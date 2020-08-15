@@ -1,4 +1,4 @@
-### Introduction
+﻿### Introduction
 
 In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills. You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [AliciaPaz's Solution](https://github.com/aliciapaz/etch-a-sketch) - [View in Browser](https://aliciapaz.github.io/etch-a-sketch/)
 * [Barry's Solution](https://github.com/BarnoldSporrance/Etch-a-Sketch) - [View in Browser](https://barnoldsporrance.github.io/Etch-a-Sketch/)
 * [marlonhache's Solution](https://github.com/marlonhache/etch-sketch) - [View in Browser](https://marlonhache.github.io/etch-sketch/)
 * [NicolasArayaB's Solution](https://github.com/NicolasArayaB/etch-a-sketch) - [View in Browser](https://nicolasarayab.github.io/etch-a-sketch/)
