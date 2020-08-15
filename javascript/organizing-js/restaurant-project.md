@@ -240,4 +240,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Sandy's Solution](https://github.com/kuosandys/restaurant-page) - [View in Browser](https://kuosandys.github.io/restaurant-page/)
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/Restaurant) - [View in Browser](https://playingongithub.github.io/Restaurant/)
 - [constantinginga's Solution](https://github.com/constantinginga/restaurant-page) - [View in Browser](https://constantinginga.github.io/restaurant-page/)
+- [joankii's Solution](https://github.com/joan-kii/restaurant-page) - [View in Browser](https://joan-kii.github.io/restaurant-page/)
 </details>
