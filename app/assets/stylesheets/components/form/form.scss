@@ -10,6 +10,10 @@
       justify-content: flex-end;
       align-items: center;
     }
+
+    &--bottom {
+      margin-bottom: 0;
+    }
   }
 
   &__button-section {
@@ -97,6 +101,10 @@
     &__item {
       color: $pale-grey;
     }
+  }
+
+  &__public-checkbox {
+    margin: 0 1rem;
   }
 
   &__check-box {

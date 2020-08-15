@@ -62,7 +62,7 @@ const EditSubmissionForm = (props) => {
         </div>
         {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div> }
 
-        <div className="form__section">
+        <div className="form__section push-down-3x">
           <span className="form__icon fas fa-link"></span>
           <input
             className="form__element form__element--with-icon"
@@ -80,12 +80,13 @@ const EditSubmissionForm = (props) => {
         </div>
         {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div> }
 
-        <div className="form__section form__section--right-aligned">
-          <span className="bold">MAKE SOLUTION PUBLIC</span>
-          <label className="toggle">
+        <div className="form__section form__section--right-aligned form__section--bottom">
+          <p className="bold">MAKE SOLUTION PUBLIC</p>
+          <label className="toggle form__public-checkbox">
             <input className="toggle__input" type="checkbox" name="is_public" ref={register}  />
             <div className="toggle__fill round"></div>
           </label>
+
           <button className="button button--danger" onClick={handleDelete}>Delete</button>
           &nbsp;
           &nbsp;
