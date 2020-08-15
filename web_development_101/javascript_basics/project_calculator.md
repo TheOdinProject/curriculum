@@ -56,6 +56,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Daniel Solomon's Solution](https://github.com/danisolo91/calculator) - [View in Browser](https://danisolo91.github.io/calculator/index.html)
 - [Cordell's Solution](https://github.com/cordellbonnieux/Calculator) - [View in Browser](https://cordellbonnieux.github.io/Calculator/calculator.html)
 - [divdagar's Solution](https://github.com/divdagar/TOP-Calc) - [View in Browser](https://divdagar.github.io/TOP-Calc/)
+- [FelipinHdez's Solution](https://github.com/FelipinHdez/calculator) - [View in Browser](https://felipinhdez.github.io/calculator/)
 - [asi309's Solution](https://github.com/asi309/calculator) - [View in Browser](https://asi309.github.io/calculator/)
 - [pir4cy's Solution](https://github.com/pir4cy/calculator-project) - [View in Browser](https://pir4cy.github.io/calculator-project/)
 - [An0therHuman's Solution](https://github.com/An0therHuman/Calculator) - [View in Browser](https://an0therhuman.github.io/Calculator/)
