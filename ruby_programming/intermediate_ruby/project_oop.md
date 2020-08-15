@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Ruby_Projects/tree/master/tic-tac-toe) - [View in repl.it](https://repl.it/@MrBowtie/Tic-Tac-Toe#main.rb)
 * [christian-ortega's Solution](https://github.com/christian-ortega/tic-tac-toe) - [View in repl.it](https://repl.it/@chrisortegax/tic-tac-toe#tic_tac_toe.rb)
 * [Xtrator's Solution](https://github.com/xtrator/TOPsolutions/blob/master/tic-tac-toe.rb) - [View in repl.it](https://repl.it/@xtrator/LateIntentionalProgram#main.rb)
 * [Jeremy's Solution](https://github.com/JeremyWells227/tictactoe)
@@ -441,6 +442,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Ruby_Projects/tree/master/mastermind) - [View in repl.it](https://repl.it/@MrBowtie/Mastermind#main.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby-Mastermind/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/Ruby-Mastermind#mastermind.rb)
 * [Hans Oliveira's Solution](https://github.com/hansnery/mastermind/blob/master/mastermind.rb)
 * [enzoperce35's Solution](https://github.com/enzoperce35/Mastermind/blob/master/Mastermind.rb)
