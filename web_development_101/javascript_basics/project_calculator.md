@@ -46,6 +46,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Sanjana's solution](https://github.com/error34043/calculator) - [View in Browser](https://error34043.github.io/calculator/)
+- [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/calculator) - [View in Browser](https://thorontherocks.github.io/calculator/)
+- [Pallavi's Solution](https://github.com/pmaity7/calculator) - [View in Browser](https://pmaity7.github.io/calculator/)
+- [lghiggino's Solution](https://github.com/lghiggino/04---TOP-Calculator) - [View in Browser](https://lghiggino.github.io/04---TOP-Calculator/index.html)
 - [slowbeeps's Solution](https://github.com/slowbeeps/odinp_calculator) - [View in Browser](https://slowbeeps.github.io/odinp_calculator/)
 - [invaderace's Solution](https://github.com/invaderace/calculator) - [View in Browser](https://invaderace.github.io/calculator/)
 - [cotrones's Solution](https://github.com/cotrones/calculator) - [View in Browser](https://cotrones.github.io/calculator/)
