@@ -22,6 +22,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Luky's solution](https://github.com/lcyne/html-form) - [View in Browser](https://lcyne.github.io/html-form/)
+* [Tam Tran's solution](https://github.com/gitdxb/top-signup-form) - [View in Browser](https://gitdxb.github.io/top-signup-form/)
 * [hnguye's solution](https://github.com/hnguye/mint-clone) - [View in Browser](https://hnguye.github.io/mint-clone/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/Form-practice) - [View in Browser](https://ideopunk.github.io/Form-practice/)
 * [mrdiegodev's Solution](https://github.com/dhna32/HTML-Form) - [View in Browser](https://dhna32.github.io/HTML-Form/)

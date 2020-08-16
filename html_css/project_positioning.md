@@ -27,13 +27,15 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [foolmonkey's Solution](https://github.com/foolmonkey/nyt-clone) - [View in Browser](https://foolmonkey.github.io/nyt-clone/)
+* [hnguye's Solution](https://github.com/hnguye/nyt-article-clone) - [View in Browser](https://hnguye.github.io/nyt-article-clone/)
 * [Lamia Sristy's Solution](https://github.com/LamiaSristy/NYT-Clone) - [View in Browser](https://rawcdn.githack.com/LamiaSristy/nytimes-clone/7d2a29e01ee9a7318f301de67f95a5e568b3ee5b/index.html)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-nyt) - [View in Browser](https://lucas-bide.github.io/odin-nyt/)
 * [descholar's Solution](https://github.com/descholar-ceo/clone-nyt-article-page) - [View in Browser](https://serene-hopper-cb63b8.netlify.app/)
 * [Run After's Solution](https://github.com/run-after/nyt-article) - [View in Browser](https://run-after.github.io/nyt-article/)
 * [skele-666's Solution](https://github.com/skele-666/new-york-times) - [View in Browser](https://skele-666.github.io/new-york-times/)
 * [Alexander Nitiola's Solution](https://github.com/TheCre8tor/nyt_website_clone) - [View in Browser](https://thecre8tor.github.io/nyt_website_clone/)
-* [Lekunze Stanley Enow's Solution](https://happiguru.github.io/PositioningandFloatingElements/)
+* [Lekunze Stanley Enow's Solution](https://github.com/happiguru/Clone-Of-New-York-Time-Magazine) - [View in Browser](https://happiguru.github.io/Clone-Of-New-York-Time-Magazine/)
 * [Witah Georjane's Solution](https://github.com/Georjane/New-York-Times-Article.git) - [View in Browser](https://raw.githack.com/Georjane/New-York-Times-Article/feature_NY_Times_Article/index.html)
 * [Andres Ruiz's Solution](https://github.com/Andrsrz/newyork-clone) - [View in Browser](https://andrsrz.github.io/newyork-clone/)
 * [Haroon Abdulrazaq's Solution](https://github.com/DejazmachMolla/newyork_times) - [View in Browser](https://dejazmachmolla.github.io/newyork_times/)
