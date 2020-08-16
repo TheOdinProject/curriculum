@@ -113,6 +113,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [barrysweeney's Solution](https://github.com/barrysweeney/design-teardown) - [View in Browser](https://barrysweeney.github.io/design-teardown/)
 * [bhenning83's Solution](https://github.com/bhenning83/smashing-magazine-grayscale) - [View in Browser](https://bhenning83.github.io/smashing-magazine-grayscale/)
 * [Timework's Solution](https://github.com/Timework/design-teardown) - [View in Browser](https://timework.github.io/design-teardown/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/design_teardown)
 </details>
 
 ### Additional Resources

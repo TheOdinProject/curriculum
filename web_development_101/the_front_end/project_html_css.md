@@ -95,6 +95,12 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ScamLikely's Solution (Easy)](https://github.com/scamun-likely/google-homepage) - [View in Browser](https://scamun-likely.github.io/google-homepage/)
+* [Yslron's Solution (Easy)](https://github.com/yslron/google-homepage) - [View  in Browser](https://yslron.github.io/google-homepage/)
+* [JeffreyAllenLance's Solution (Easy)](https://github.com/JeffreyAllenLance/google-homepage) - [View  in Browser](https://jeffreyallenlance.github.io/google-homepage/)
+* [Sovoessi's Solution (Easy)](https://github.com/sovoessi/google-homepage) - [View in Browser](https://sovoessi.github.io/google-homepage/)
+* [adam-lohnes' Solution (Difficult)](https://github.com/adam-lohnes/google-homepage) - [View in Browser](https://adam-lohnes.github.io/google-homepage)
+* [zoltot's Solution (Easy)](https://github.com/zoltot/google-homepage) - [View in Browser](https://zoltot.github.io/google-homepage/)
 * [rjbullough's Solution (Easy)](https://github.com/rjbullough/google-homepage) - [View in Browser](https://rjbullough.github.io/google-homepage/)
 * [Richard's Solution (Easy)](https://richard-slater.github.io/google-homepage/) - [View in Browser](https://richard-slater.github.io/google-homepage/)
 * [justinsatorre's Solution (Easy)](https://github.com/justinsatorre/google-homepage) - [View in Browser](https://justinsatorre.github.io/google-homepage/)
