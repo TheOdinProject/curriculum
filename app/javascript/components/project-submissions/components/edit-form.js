@@ -1,21 +1,37 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 
-const CreateSubmissionForm = (props) => {
-  const { register, errors, handleSubmit, formState, reset } = useForm();
+const EditForm = (props) => {
+  const { register, errors, handleSubmit, formState, reset } = useForm({
+    defaultValues: {
+      repo_url: props.submission.repo_url,
+      live_preview_url: props.submission.live_preview_url,
+      is_public: props.submission.is_public,
+    }
+  });
 
   const handleClose = () => {
     reset({
+      repo_url: props.submission.repo_url,
+      live_preview_url: props.submission.live_preview_url,
+      is_public: props.submission.is_public,
+    },
+    {
       isSubmitted: false,
-    })
+    });
 
-    props.onClose()
+    props.onClose();
+  }
+
+  const handleDelete = () => {
+    props.onDelete(props.submission.id);
+    props.onClose();
   }
 
   if (formState.isSubmitted) {
     return (
       <div className="text-center">
-        <h1 className="accent">Thanks for Submitting Your Solution!</h1>
+        <h1 className="accent">Thanks for Updating Your Solution!</h1>
         <button className="button button--primary" onClick={handleClose}>Close</button>
       </div>
     )
@@ -23,9 +39,10 @@ const CreateSubmissionForm = (props) => {
 
   return (
     <div>
-      <h1 className="text-center accent">Upload Your Project</h1>
+      <h1 className="text-center accent">Edit Your Project</h1>
 
       <form className="form" onSubmit={handleSubmit(props.onSubmit)}>
+        <input type="hidden" name="project_id" value={props.submission.id}  ref={register()} />
         <div className="form__section">
           <span className="form__icon fab fa-github"></span>
           <input
@@ -64,12 +81,16 @@ const CreateSubmissionForm = (props) => {
         {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div> }
 
         <div className="form__section form__section--right-aligned form__section--bottom">
-            <p className="bold">MAKE SOLUTION PUBLIC</p>
-            <label className="toggle form__public-checkbox">
-              <input className="toggle__input" type="checkbox" name="is_public" ref={register}  />
-              <div className="toggle__fill"></div>
-            </label>
-          <button type="submit" className="button button--primary">Submit</button>
+          <p className="bold">MAKE SOLUTION PUBLIC</p>
+          <label className="toggle form__public-checkbox">
+            <input className="toggle__input" type="checkbox" name="is_public" ref={register}  />
+            <div className="toggle__fill round"></div>
+          </label>
+
+          <button className="button button--danger" onClick={handleDelete}>Delete</button>
+          &nbsp;
+          &nbsp;
+          <button type="submit" className="button button--primary">Update</button>
         </div>
 
       </form>
@@ -77,5 +98,4 @@ const CreateSubmissionForm = (props) => {
   )
 }
 
-
-export default CreateSubmissionForm
+export default EditForm

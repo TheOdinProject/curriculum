@@ -2,26 +2,18 @@ import React from 'react';
 
 import SubmissionsList from '../components/submissions-list'
 import Modal from '../components/modal'
-import CreateSubmissionForm from '../components/create-submission-form'
-import EditSubmissionForm from '../components/edit-submission-form'
-import ReportForm from '../components/report-form'
+import CreateForm from '../components/create-form'
 import axios from '../../../src/js/axiosWithCsrf';
 
 class ProjectSubmissions extends React.Component {
 
-    state = {
-      showCreateModal: false,
-      showEditModal: false,
-      showReportModal: false,
-      submissions: this.props.submissions
-    }
-
-  hideModal = (type) => {
-    this.setState({ [`show${type}Modal`]: false })
+  state = {
+    showCreateModal: false,
+    submissions: this.props.submissions
   }
 
-  openModal = (type) => {
-    this.setState({ [`show${type}Modal`]: true })
+  setShowCreateModal = (value) => {
+    this.setState({ showCreateModal: value })
   }
 
   handleCreate = (data) => {
@@ -96,12 +88,12 @@ class ProjectSubmissions extends React.Component {
     const { submissions } = this.state;
     const { userId } = this.props;
 
-    return submissions.find( submission => submission.user_id === userId);
+    return submissions.find(submission => submission.user_id === userId);
   }
 
   render() {
     const { course, lesson, userId } = this.props;
-    const { submissions } = this.state;
+    const { submissions, showCreateModal } = this.state;
 
     return (
       <div className="submissions">
@@ -112,31 +104,17 @@ class ProjectSubmissions extends React.Component {
             <h4 className="submissions__project-title">{course.title}: ({lesson.title})</h4>
           </div>
 
-          <Modal show={this.state.showCreateModal} handleClose={() => this.hideModal("Create")}>
-            <CreateSubmissionForm
+          <Modal show={showCreateModal} handleClose={() => this.setShowCreateModal(false)}>
+            <CreateForm
               lessonId={lesson.id}
               onSubmit={this.handleCreate}
-              onClose={() => this.hideModal("Create")}
+              onClose={() => this.setShowCreateModal(false)}
             />
           </Modal>
 
-          { this.userSubmission() &&
-            <Modal show={this.state.showEditModal} handleClose={() => this.hideModal("Edit")}>
-              <EditSubmissionForm
-                submission={this.userSubmission()}
-                onSubmit={this.handleUpdate}
-                onDelete={this.handleDelete}
-                onClose={() => this.hideModal("Edit")}
-              />
-            </Modal>
-          }
-
           <div>
             { !this.userSubmission() &&
-              <button
-                className="submissions__add button button--primary"
-                onClick={() => this.openModal("Create")}
-              >
+              <button className="submissions__add button button--primary" onClick={() => this.setShowCreateModal(true)}>
                 Add Solution
               </button>
             }
@@ -146,8 +124,9 @@ class ProjectSubmissions extends React.Component {
         <SubmissionsList
           submissions={submissions}
           userId={userId}
-          openEditModal={() => this.openModal("Edit")}
+          handleUpdate={this.handleUpdate}
           handleReport={this.handleReport}
+          handleDelete={this.handleDelete}
         />
       </div>
     )
