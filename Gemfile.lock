@@ -67,7 +67,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    acts_as_votable (0.12.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     arbre (1.2.1)
@@ -465,7 +464,6 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
-  acts_as_votable
   better_errors
   binding_of_caller (~> 0.8)
   bootstrap (>= 4.4.1)
