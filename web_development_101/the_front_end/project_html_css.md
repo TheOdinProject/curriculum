@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ScamLikely's Solution (Easy)](https://github.com/scamun-likely/google-homepage) - [View in Browser](https://scamun-likely.github.io/google-homepage/)
 * [Yslron's Solution (Easy)](https://github.com/yslron/google-homepage) - [View  in Browser](https://yslron.github.io/google-homepage/)
 * [JeffreyAllenLance's Solution (Easy)](https://github.com/JeffreyAllenLance/google-homepage) - [View  in Browser](https://jeffreyallenlance.github.io/google-homepage/)
 * [Sovoessi's Solution (Easy)](https://github.com/sovoessi/google-homepage) - [View in Browser](https://sovoessi.github.io/google-homepage/)
