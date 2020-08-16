@@ -82,14 +82,6 @@ def create_or_update_lesson(lesson_attrs)
   lesson
 end
 
-# Compare two attribute hashes (but ignoring unnecessary
-# things like timestamps
-def require_updates?(real_attrs, seed_attrs)
-  # BUILD THIS FUNCTION LATER AND USE IT TO FIX THE
-  # BROKEN IF/ELSE STATEMENTS SO IT DOESN'T ALWAYS
-  # SAY "UPDATED" EVEN IF NOTHING CHANGED
-end
-
 load './db/seeds/01_web_dev_101_seeds.rb'
 load './db/seeds/02_ruby_course_seeds.rb'
 load './db/seeds/03_database_course_seeds.rb'
@@ -110,7 +102,7 @@ load './db/seeds/tracks/front_end.rb'
 load './db/seeds/success_stories.rb'
 
 # GENERATE test projects
-load './db/seeds/test_projects.rb'
+load './db/seeds/test_project_submissions.rb'
 
 #################
 # SANITY CHECKS #

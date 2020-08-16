@@ -23,9 +23,9 @@ class ProjectSubmissions extends React.Component {
     event.preventDefault()
 
     axios.post(
-      `/lessons/${lesson.id}/projects`,
+      `/lessons/${lesson.id}/project_submissions`,
       {
-        project: {
+        project_submission: {
           repo_url,
           live_preview_url,
           is_public,
@@ -34,21 +34,21 @@ class ProjectSubmissions extends React.Component {
       }
     ).then(response => {
       this.setState({
-        submissions: [response.data.project, ...this.state.submissions],
+        submissions: [response.data.project_submission, ...this.state.submissions],
       })
     })
   }
 
   handleUpdate = (data) => {
     const { lesson } = this.props;
-    const { repo_url, live_preview_url, is_public, project_id } = data
+    const { repo_url, live_preview_url, is_public, project_submission_id } = data
 
     event.preventDefault()
 
     axios.put(
-      `/lessons/${lesson.id}/projects/${project_id}`,
+      `/lessons/${lesson.id}/project_submissions/${project_submission_id}`,
       {
-        project: {
+        project_submission: {
           repo_url,
           live_preview_url,
           is_public,
@@ -57,7 +57,7 @@ class ProjectSubmissions extends React.Component {
       }
     ).then(response => {
       this.setState({
-        submissions: Object.assign([], this.state.submissions, {[0]: response.data.project})
+        submissions: Object.assign([], this.state.submissions, {[0]: response.data.project_submission})
       })
     })
   }
@@ -67,7 +67,7 @@ class ProjectSubmissions extends React.Component {
 
     event.preventDefault()
 
-    axios.delete(`/lessons/${lesson.id}/projects/${id}`, {}).then(() => {
+    axios.delete(`/lessons/${lesson.id}/project_submissions/${id}`, {}).then(() => {
       this.setState({
         submissions: this.state.submissions.filter((submission) => submission.id !== id)
       })
@@ -75,11 +75,16 @@ class ProjectSubmissions extends React.Component {
   }
 
   handleReport = (data) => {
-    const { project_id, reasons } = data
+    const { project_submission_id, reasons } = data
 
-    axios.post(`/projects/${project_id}/reports`, { reason: reasons.join(', ') }).then( (response) => {
+    axios.post(
+      `/project_submissions/${project_submission_id}/reports`,
+      { reason: reasons.join(', ') }
+    ).then( () => {
       this.setState({
-        submissions: this.state.submissions.filter((submission) => submission.id !== parseInt(project_id))
+        submissions: this.state.submissions.filter((submission) => (
+          submission.id !== parseInt(project_submission_id)
+        ))
       })
     })
   }

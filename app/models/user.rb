@@ -5,15 +5,13 @@ class User < ApplicationRecord
          :rememberable, :trackable, :validatable,
          :omniauthable, :omniauth_providers => [:github, :google]
 
-  acts_as_voter
-
   validates_uniqueness_of :email
   validates :username, length: { in: 2..100 }
   validates :learning_goal, length: { maximum: 1700 }
 
   has_many :lesson_completions, foreign_key: :student_id
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
-  has_many :projects, dependent: :destroy
+  has_many :project_submissions, dependent: :destroy
   has_many :user_providers, dependent: :destroy
   belongs_to :track
 

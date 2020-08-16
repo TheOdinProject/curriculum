@@ -1,6 +1,6 @@
 class Report < ApplicationRecord
   belongs_to :reporter, class_name: 'User'
-  belongs_to :project
+  belongs_to :project_submission
 
   validates :reason, presence: true
 

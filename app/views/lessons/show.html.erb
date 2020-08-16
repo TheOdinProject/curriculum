@@ -34,7 +34,7 @@
             userId: current_user&.id,
             course: @lesson.course.as_json,
             lesson: @lesson.as_json,
-            submissions: @projects
+            submissions: @project_submissions
           }
         ) %>
       <% end %>

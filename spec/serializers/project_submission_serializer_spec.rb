@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe ProjectSerializer do
-  subject { described_class.as_json(project) }
+RSpec.describe ProjectSubmissionSerializer do
+  subject { described_class.as_json(project_submission) }
 
-  let(:project) do
+  let(:project_submission) do
     instance_double(
-      Project,
+      ProjectSubmission,
       id: 1,
       repo_url: 'www.repourl.com/path',
       live_preview_url: 'www.livepreviewurl.com/path',
@@ -16,7 +16,7 @@ RSpec.describe ProjectSerializer do
   let(:user) { instance_double(User, id: 123, username: "A USERNAME") }
 
   describe '#as_json' do
-    let(:serialized_project) do
+    let(:serialized_project_submission) do
       {
         id: 1,
         repo_url: 'www.repourl.com/path',
@@ -27,6 +27,6 @@ RSpec.describe ProjectSerializer do
       }
     end
 
-    it { is_expected.to eql(serialized_project) }
+    it { is_expected.to eql(serialized_project_submission) }
   end
 end

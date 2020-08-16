@@ -22,7 +22,6 @@ gem 'friendly_id',                '~> 5.1'
 gem 'cancancan'
 gem 'sass-rails',                 '~> 6.0'
 gem 'rack-attack'
-gem 'acts_as_votable'
 gem 'kramdown'
 gem 'toastr-rails'
 gem 'gibbon',                     '~> 3.3.4' # for Mailchimp

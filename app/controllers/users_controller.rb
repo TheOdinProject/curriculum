@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
   def show
     @courses = decorated_track_courses
-    @projects = @user.projects_with_lesson
+    @project_submissions = @user.project_submissions_with_lesson
     @track = @user.track
   end
 

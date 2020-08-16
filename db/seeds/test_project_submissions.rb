@@ -8,9 +8,9 @@ if Rails.env.development? || ENV['STAGING']
   end
 
   users.each do |user|
-    Project.find_or_create_by(user_id: user.id, lesson_id: Lesson.find_by(title: 'HTML/CSS').id) do |project|
-      project.live_preview_url = 'https://www.google.com'
-      project.repo_url = 'https://github.com'
+    ProjectSubmission.find_or_create_by(user_id: user.id, lesson_id: Lesson.find_by(title: 'HTML/CSS').id) do |submission|
+      submission.live_preview_url = 'https://www.google.com'
+      submission.repo_url = 'https://github.com'
     end
   end
 end

@@ -42,7 +42,7 @@ const EditForm = (props) => {
       <h1 className="text-center accent">Edit Your Project</h1>
 
       <form className="form" onSubmit={handleSubmit(props.onSubmit)}>
-        <input type="hidden" name="project_id" value={props.submission.id}  ref={register()} />
+        <input type="hidden" name="project_submission_id" value={props.submission.id}  ref={register()} />
         <div className="form__section">
           <span className="form__icon fab fa-github"></span>
           <input

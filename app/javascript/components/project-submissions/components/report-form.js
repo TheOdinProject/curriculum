@@ -20,7 +20,7 @@ const ReportForm = (props) => {
       <h1 className="text-center accent">What's the reason for flagging?</h1>
 
       <form className="form report-form__container" onSubmit={handleSubmit(props.onSubmit)}>
-        <input type="hidden" name="project_id" value={props.submission.id}  ref={register()} />
+        <input type="hidden" name="project_submission_id" value={props.submission.id}  ref={register()} />
 
         <div className="report-form__icon-container">
           <i className="fas fa-exclamation-triangle" style={ { color: '#bd4147'} }></i>

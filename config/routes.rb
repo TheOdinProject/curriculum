@@ -50,7 +50,7 @@ Rails.application.routes.draw do
   end
 
   resources :lessons, only: :show do
-    resources :projects, only: %i(index create update destroy) do
+    resources :project_submissions, only: %i(index create update destroy) do
       resources :votes, only: %i(create)
       delete 'vote', to: 'votes#destroy'
     end
@@ -59,8 +59,8 @@ Rails.application.routes.draw do
     delete 'lesson_completions' => 'lesson_completions#destroy', :as => 'lesson_completions'
   end
 
-  resources :projects do
-    resources :reports, only: %i(create), controller: "projects/reports"
+  resources :project_submissions do
+    resources :reports, only: %i(create), controller: "project_submissions/reports"
   end
 
   match '/404' => 'errors#not_found', via: [ :get, :post, :patch, :delete ]
