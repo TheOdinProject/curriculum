@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [nguyenjessev's solution](https://github.com/nguyenjessev/calculator) - [View in Browser](https://nguyenjessev.github.io/calculator/)
 - [Sanjana's solution](https://github.com/error34043/calculator) - [View in Browser](https://error34043.github.io/calculator/)
 - [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/calculator) - [View in Browser](https://thorontherocks.github.io/calculator/)
 - [Pallavi's Solution](https://github.com/pmaity7/calculator) - [View in Browser](https://pmaity7.github.io/calculator/)
@@ -222,7 +223,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Chau Nguyen's Solution](https://github.com/VanQuishi/calculator) - [View in Browser](https://vanquishi.github.io/calculator/)
 - [paolotiu17's Solution](https://github.com/paolotiu17/calculator) - [View in Browser](https://paolotiu17.github.io/calculator/)
 - [Igor Tikush's Solution](https://github.com/IgorTikush/calculator-Project) - [View in Browser](https://igortikush.github.io/calculator-Project/)
-- [Le-santos's Solution](https://github.com/le-santos/basic-calculator) - [View in Browser](https://le-santos.github.io/basic-calculator/)  
+- [Le-santos's Solution](https://github.com/le-santos/basic-calculator) - [View in Browser](https://le-santos.github.io/basic-calculator/)
 - [Jeremiah's Solution](https://github.com/ToyStoryWoody/calculator) - [View in Browser](https://toystorywoody.github.io/calculator/)
 - [Johongirr's Solution](https://github.com/Johongirr/calculator) - [View in Browser](https://johongirr.github.io/calculator/)
 - [BeardedTortle's Solution](https://github.com/BeardedTortle/JavaScript-Calculator) - [View in Browser](https://BeardedTortle.github.io/JavaScript-Calculator/)
