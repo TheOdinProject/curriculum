@@ -313,6 +313,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Risan's Solution](https://github.com/risanto/knight-travails) [repl.it](https://repl.it/@Risanto/knight-travails#knight_moves.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/knights_travails.rb) [repl.it](https://repl.it/@cbpolley/knightstravails)
 * [James's Solution](https://github.com/jegrieve/Knight-s_Travails)
 * [Aaron's Solution](https://github.com/Aaron-McD/knight-travails)
