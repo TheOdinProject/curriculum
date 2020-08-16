@@ -1,4 +1,5 @@
 ### Introduction
+
 Use everything we've been discussing to create a weather forecast site using the weather API from the previous lesson. You should be able to search for a specific location and toggle displaying the data in Fahrenheit or Celsius.
 
 You should change the look of the page based on the data, maybe by changing the color of the background or by adding images that describe the weather. (You could even use the Giphy API to find appropriate weather-related gifs and display them). Feel free to use promises or async/await in your code, though you should try to become comfortable with both.
@@ -13,12 +14,14 @@ You should change the look of the page based on the data, maybe by changing the 
 8. Push that baby to github and share your solution below!
 
 ### Student Solutions
+
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/async-apis/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [pklepa's React Solution](https://github.com/pklepa/weather-app) - [View in Browser](https://pklepa.github.io/weather-app/)
 * [miknick's React Solution](https://github.com/miknick/React-Weather-App) - [View in Browser](https://miknick.github.io/React-Weather-App/)
 * [Scott's React Solution](https://github.com/ScotttP/weather-app-2/tree/master/weather-app-2) - [View in Browser](https://scotttp.github.io/weather-app-2/)
 * [kaliberpoziomka's React Solution](https://github.com/kaliberpoziomka/react-weatherapp) - [View in Browser](https://kaliberpoziomka.github.io/react-weatherapp/)
