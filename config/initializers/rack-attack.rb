@@ -1,6 +1,7 @@
 class Rack::Attack
-  Rack::Attack.blocklist('block 223.229.172.105') do |req|
-  # Requests are blocked if the return value is truthy
-    '223.229.172.105' == req.ip
+  Rack::Attack.cache.store = ActiveSupport::Cache::MemoryStore.new
+
+  Rack::Attack.throttle('report_ip', limit: 3, period: 60) do |request|
+    request.ip if request.path.ends_with?('/reports')
   end
 end
