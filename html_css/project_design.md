@@ -35,6 +35,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/smashing-mag-heat-map) - [View in Browser](https://run-after.github.io/smashing-mag-heat-map/)
+* [Alex Zambrano's Solution](https://github.com/Alexoid1/design-teardown) - [View in Browser](https://alexoid1.github.io/design-teardown/)
 * [descholar's Solution](https://github.com/descholar-ceo/smashing-magazine-heatmap) - [View in Browser](https://competent-ride-d3d6c8.netlify.app/)
 * [Stanley Enow's Solution](https://github.com/happiguru/design-teardown/tree/design-teardown-feature-branch) - [View in Browser](https://raw.githack.com/happiguru/design-teardown/design-teardown-feature-branch/index.html)
 * [Witah Georjane's Solution](https://github.com/Georjane/Smashing-Magazine-Heatmap) - [View in Browser](https://rawcdn.githack.com/Georjane/Smashing-Magazine-Heatmap/631b820ebda7534fdbc7370030e0902fc92aba3b/index.html)
@@ -111,6 +113,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [barrysweeney's Solution](https://github.com/barrysweeney/design-teardown) - [View in Browser](https://barrysweeney.github.io/design-teardown/)
 * [bhenning83's Solution](https://github.com/bhenning83/smashing-magazine-grayscale) - [View in Browser](https://bhenning83.github.io/smashing-magazine-grayscale/)
 * [Timework's Solution](https://github.com/Timework/design-teardown) - [View in Browser](https://timework.github.io/design-teardown/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/design_teardown)
 </details>
 
 ### Additional Resources

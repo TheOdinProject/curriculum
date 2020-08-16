@@ -25,6 +25,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/mock-newsweek) - [View in Browser](https://run-after.github.io/mock-newsweek/)
+* [Alex Zambrano's Solution](https://github.com/Alexoid1/News-Week-Clone) - [View in Browser](https://alexoid1.github.io/News-Week-Clone/)
 * [Kevin Alves's Solution](https://github.com/kevdeveloper/newsweek-clone) - [View in Browser](https://rawcdn.githack.com/kevinfrontend/newsweek-clone/2cd0c4217d7504395e455bfe0148943eab94d238/index.html)
 * [descholar's Solution](https://github.com/descholar-ceo/newsweek-bootstrap) - [View in Browser](https://ecstatic-yalow-bb0786.netlify.app/)
 * [Yigit's Solution](https://github.com/yigitm/Newsweek) - [View in Browser](https://yigitm.github.io/Newsweek/)

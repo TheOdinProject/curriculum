@@ -54,5 +54,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Scott Bowles's Solution](https://github.com/scottBowles/mdn-express-tutorial-local-library) - [View in Browser](https://morning-atoll-44293.herokuapp.com/)
 - [Lakshya Kharayat's Solution](https://github.com/cartoonshow57/Local-Library) - [View in Browser](https://stark-oasis-46110.herokuapp.com/catalog)
 - [Vorelli's Solution](https://github.com/Vorelli/basic-library) - [View in Browser](https://polar-inlet-71512.herokuapp.com/catalog)
-
+- [elijahjorell's Solution](https://github.com/elijahjorell/local-library-website) - [View in Browser](https://elijahs-local-library-website.herokuapp.com/)
+- [Nijepa's Solution](https://github.com/nijepa/local-library) - [View in Browser](https://blooming-tor-91085.herokuapp.com/catalog)
 </details>
