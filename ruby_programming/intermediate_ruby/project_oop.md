@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Ruby_Projects/tree/master/tic-tac-toe) - [View in repl.it](https://repl.it/@MrBowtie/Tic-Tac-Toe#main.rb)
 * [christian-ortega's Solution](https://github.com/christian-ortega/tic-tac-toe) - [View in repl.it](https://repl.it/@chrisortegax/tic-tac-toe#tic_tac_toe.rb)
 * [Xtrator's Solution](https://github.com/xtrator/TOPsolutions/blob/master/tic-tac-toe.rb) - [View in repl.it](https://repl.it/@xtrator/LateIntentionalProgram#main.rb)
 * [Jeremy's Solution](https://github.com/JeremyWells227/tictactoe)
@@ -415,6 +416,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-oops/blob/master/tictactoe.rb)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/tic_tac_toe)
 * [Madaja’s Solution](https://github.com/madaja/tictactoe)
+* [brentguf’s Solution](https://github.com/brentguf/tic-tac-toe/blob/master/script.rb)
 </details>
 
 ### Project 2: Mastermind
@@ -429,9 +431,10 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
   1. Think about how you would set this problem up!
   2. Build the game assuming the computer randomly selects the secret colors and the human player must guess them.  Remember that you need to give the proper feedback on how good the guess was each turn!
   3. Now refactor your code to allow the human player to choose whether he/she wants to be the creator of the secret code or the guesser.
-  4. Build it out so that the computer will guess if you decide to choose your own secret colors.  Start by having the computer guess randomly (but keeping the ones that match exactly).
-  5. Next, add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.  Feel free to make the AI even smarter.
-  5. Post your solution below!
+  4. Build it out so that the computer will guess if you decide to choose your own secret colors.  You may choose to implement a computer strategy that follows the rules of the game or you can modify these rules. 
+  5. If you choose to modify the rules, you can provide the computer additional information about each guess.  For example, you can start by having the computer guess randomly, but keep the ones that match exactly.  You can add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.
+  6. If you want to follow the rules of the game, you'll need to research strategies for solving Mastermind, such as this [post](https://puzzling.stackexchange.com/questions/546/clever-ways-to-solve-mastermind).
+  7. Post your solution below!
 </div>
 
 ### Student Solutions
@@ -441,6 +444,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Ruby_Projects/tree/master/mastermind) - [View in repl.it](https://repl.it/@MrBowtie/Mastermind#main.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby-Mastermind/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/Ruby-Mastermind#mastermind.rb)
 * [Hans Oliveira's Solution](https://github.com/hansnery/mastermind/blob/master/mastermind.rb)
 * [enzoperce35's Solution](https://github.com/enzoperce35/Mastermind/blob/master/Mastermind.rb)
