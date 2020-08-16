@@ -50,6 +50,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 - [Christopher Amanor's Solution](https://github.com/krys2fa/restaurant-home-page) - [View in Browser](https://krys2fa.github.io/restaurant-home-page/)
+- [Lucas-Bide's Solution](https://github.com/Lucas-Bide/odin-restaurant) - [View in Browser](https://lucas-bide.github.io/odin-restaurant/#)
 - [Clumsyknight's Solution](https://github.com/Clumsynite/js-restaurant-page) - [View in Browser](https://clumsynite.github.io/js-restaurant-page/)
 - [Dovi Maj's Solution](https://github.com/DoviMaj/restaurant) - [View in Browser](https://dovimaj.github.io/restaurant/)
 - [Spha's Solution](https://github.com/Spha88/project_three_restaurant_page) - [View in Browser](http://eatilicious.netslate.co.za/)
@@ -241,4 +242,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Sandy's Solution](https://github.com/kuosandys/restaurant-page) - [View in Browser](https://kuosandys.github.io/restaurant-page/)
 - [PlayingOnGitHub's Solution](https://github.com/PlayingOnGitHub/Restaurant) - [View in Browser](https://playingongithub.github.io/Restaurant/)
 - [constantinginga's Solution](https://github.com/constantinginga/restaurant-page) - [View in Browser](https://constantinginga.github.io/restaurant-page/)
+- [Timework's Solution](https://github.com/Timework/restaurant) - [View in Browser](https://timework.github.io/restaurant/)
+- [joankii's Solution](https://github.com/joan-kii/restaurant-page) - [View in Browser](https://joan-kii.github.io/restaurant-page/)
 </details>
