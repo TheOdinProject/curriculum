@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [nguyenjessev's Solution](https://github.com/nguyenjessev/etch-a-sketch) - [View in Browser](https://nguyenjessev.github.io/etch-a-sketch/)
 * [urbanassa53's Solution](https://github.com/urbanassa53/Etch-a-Sketch) - [View in Browser](https://urbanassa53.github.io/Etch-a-Sketch/)
 * [MatMammen's Solution](https://github.com/MatMammen/Etch-a-Sketch) - [View in Browser](https://matmammen.github.io/Etch-a-Sketch)
 * [Tamara Snyder's Solution](https://github.com/tamara-snyder/Etch-a-Sketch) - [View in Browser](https://tamara-snyder.github.io/Etch-a-Sketch/)
@@ -215,7 +216,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Virus's Solution](https://github.com/Virus35/Etch-a-sketch) - [View in Browser](https://virus35.github.io/Etch-a-sketch/Index.html)
 * [Roger's Solution](https://github.com/imrogerjiang/etch-a-sketch) - [View in Browser](https://imrogerjiang.github.io/etch-a-sketch/)
 * [Carlos's Solution](https://github.com/carlosmatos13/etch-a-sketch) - [View in Browser](https://carlosmatos13.github.io/etch-a-sketch/)
-* [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/etch-a-sketch) - [View in Browser](https://omarmasri-91.github.io/etch-a-sketch/)  
+* [Omar Al-Masri's Solution](https://github.com/Omarmasri-91/etch-a-sketch) - [View in Browser](https://omarmasri-91.github.io/etch-a-sketch/)
 * [Kimberly's Solution](https://github.com/kimberlyohq/etch-a-sketch) - [View in Browser](https://kimberlyohq.github.io/etch-a-sketch/)
 * [Gael's Solution](https://github.com/lungla-gael/ETCH-A-SKETCH) - [View in Browser](https://lungla-gael.github.io/ETCH-A-SKETCH/)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/etch-a-sketch)
