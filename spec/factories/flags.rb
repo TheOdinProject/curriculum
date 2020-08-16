@@ -1,6 +1,6 @@
 FactoryBot.define do
-  factory :report do
-    reporter { build(:user) }
+  factory :flag do
+    flagger { build(:user) }
     project_submission
     reason { "It's offensive" }
   end

@@ -35,5 +35,4 @@ import "../src/js/bootstrapScripts";
 import "../src/js/settings";
 import "../src/js/navbar";
 import "../src/js/admin_flash";
-import "../src/js/projects";
 import "../src/js/scrollspy.min";

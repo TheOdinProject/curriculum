@@ -60,7 +60,7 @@ Rails.application.routes.draw do
   end
 
   resources :project_submissions do
-    resources :reports, only: %i(create), controller: "project_submissions/reports"
+    resources :flags, only: %i(create), controller: "project_submissions/flags"
   end
 
   match '/404' => 'errors#not_found', via: [ :get, :post, :patch, :delete ]

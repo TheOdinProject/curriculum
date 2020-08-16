@@ -8,38 +8,38 @@ RSpec.describe ProjectSubmission, type: :model do
 
   it { is_expected.to validate_presence_of(:repo_url) }
 
-  describe '#reported' do
-    let!(:project_submission_with_no_reports) { create(:project_submission) }
-    let(:project_submission_with_report ) { create(:project_submission) }
-    let(:project_submission_with_resolved_report) { create(:project_submission) }
+  describe '#flagged' do
+    let!(:project_submission_with_no_flags) { create(:project_submission) }
+    let(:project_submission_with_flag) { create(:project_submission) }
+    let(:project_submission_with_resolved_flag) { create(:project_submission) }
 
     before do
-      create(:report, project_submission: project_submission_with_report)
-      create(:report, project_submission: project_submission_with_resolved_report, status: :resolved)
+      create(:flag, project_submission: project_submission_with_flag)
+      create(:flag, project_submission: project_submission_with_resolved_flag, status: :resolved)
     end
 
-    it "returns project submissions have active reports" do
-      expect(ProjectSubmission.reported).to contain_exactly(project_submission_with_report)
+    it "returns project submissions have active flags" do
+      expect(ProjectSubmission.flagged).to contain_exactly(project_submission_with_flag)
     end
   end
 
-  describe '#with_no_active_reports' do
-    let!(:project_submission_with_no_reports) { create(:project_submission) }
-    let(:project_submission_with_report ) { create(:project_submission) }
-    let(:project_submission_with_resolved_report) { create(:project_submission) }
-    let(:project_submission_reported_again) { create(:project_submission) }
+  describe '#with_no_active_flags' do
+    let!(:project_submission_with_no_flags) { create(:project_submission) }
+    let(:project_submission_with_flag) { create(:project_submission) }
+    let(:project_submission_with_resolved_flag) { create(:project_submission) }
+    let(:project_submission_flagged_again) { create(:project_submission) }
 
     before do
-      create(:report, project_submission: project_submission_with_report)
-      create(:report, project_submission: project_submission_with_resolved_report, status: :resolved)
-      create(:report, project_submission: project_submission_reported_again, status: :resolved)
-      create(:report, project_submission: project_submission_reported_again)
+      create(:flag, project_submission: project_submission_with_flag)
+      create(:flag, project_submission: project_submission_with_resolved_flag, status: :resolved)
+      create(:flag, project_submission: project_submission_flagged_again, status: :resolved)
+      create(:flag, project_submission: project_submission_flagged_again)
     end
 
-    it "returns project submissions that have no active reports" do
-      expect(ProjectSubmission.with_no_active_reports).to contain_exactly(
-        project_submission_with_no_reports,
-        project_submission_with_resolved_report
+    it "returns project submissions that have no active flags" do
+      expect(ProjectSubmission.with_no_active_flags).to contain_exactly(
+        project_submission_with_no_flags,
+        project_submission_with_resolved_flag
       )
     end
   end

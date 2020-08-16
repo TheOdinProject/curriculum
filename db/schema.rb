@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_16_163634) do
+ActiveRecord::Schema.define(version: 2020_08_16_210201) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,18 @@ ActiveRecord::Schema.define(version: 2020_08_16_163634) do
     t.integer "position", null: false
     t.string "slug"
     t.index ["slug"], name: "index_courses_on_slug"
+  end
+
+  create_table "flags", force: :cascade do |t|
+    t.integer "flagger_id", null: false
+    t.bigint "project_submission_id", null: false
+    t.text "reason", default: "", null: false
+    t.integer "status", default: 0, null: false
+    t.integer "action_taken", default: 0, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["flagger_id"], name: "index_flags_on_flagger_id"
+    t.index ["project_submission_id"], name: "index_flags_on_project_submission_id"
   end
 
   create_table "friendly_id_slugs", id: :serial, force: :cascade do |t|
@@ -93,23 +105,10 @@ ActiveRecord::Schema.define(version: 2020_08_16_163634) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "is_public", default: true, null: false
-    t.integer "reports_count"
     t.index ["is_public"], name: "index_project_submissions_on_is_public"
     t.index ["lesson_id"], name: "index_project_submissions_on_lesson_id"
     t.index ["user_id", "lesson_id"], name: "index_project_submissions_on_user_id_and_lesson_id", unique: true
     t.index ["user_id"], name: "index_project_submissions_on_user_id"
-  end
-
-  create_table "reports", force: :cascade do |t|
-    t.integer "reporter_id", null: false
-    t.bigint "project_submission_id", null: false
-    t.text "reason", default: "", null: false
-    t.integer "status", default: 0, null: false
-    t.integer "action_taken", default: 0, null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["project_submission_id"], name: "index_reports_on_project_submission_id"
-    t.index ["reporter_id"], name: "index_reports_on_reporter_id"
   end
 
   create_table "sections", id: :serial, force: :cascade do |t|
@@ -209,8 +208,8 @@ ActiveRecord::Schema.define(version: 2020_08_16_163634) do
     t.index ["voter_type", "voter_id"], name: "index_votes_on_voter_type_and_voter_id"
   end
 
+  add_foreign_key "flags", "project_submissions"
+  add_foreign_key "flags", "users", column: "flagger_id"
   add_foreign_key "project_submissions", "lessons"
   add_foreign_key "project_submissions", "users"
-  add_foreign_key "reports", "project_submissions"
-  add_foreign_key "reports", "users", column: "reporter_id"
 end

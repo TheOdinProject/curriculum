@@ -74,11 +74,11 @@ class ProjectSubmissions extends React.Component {
     })
   }
 
-  handleReport = (data) => {
+  handleFlag = (data) => {
     const { project_submission_id, reasons } = data
 
     axios.post(
-      `/project_submissions/${project_submission_id}/reports`,
+      `/project_submissions/${project_submission_id}/flags`,
       { reason: reasons.join(', ') }
     ).then( () => {
       this.setState({
@@ -130,7 +130,7 @@ class ProjectSubmissions extends React.Component {
           submissions={submissions}
           userId={userId}
           handleUpdate={this.handleUpdate}
-          handleReport={this.handleReport}
+          handleFlag={this.handleFlag}
           handleDelete={this.handleDelete}
         />
       </div>

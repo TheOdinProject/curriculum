@@ -1,5 +1,5 @@
-class Report < ApplicationRecord
-  belongs_to :reporter, class_name: 'User'
+class Flag < ApplicationRecord
+  belongs_to :flagger, class_name: 'User'
   belongs_to :project_submission
 
   validates :reason, presence: true

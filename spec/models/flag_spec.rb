@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe Report do
-  subject(:report) { described_class.new }
+RSpec.describe Flag do
+  subject(:flag) { described_class.new }
 
-  it { is_expected.to belong_to(:reporter) }
+  it { is_expected.to belong_to(:flagger) }
   it { is_expected.to belong_to(:project_submission) }
 
   it { is_expected.to validate_presence_of(:reason) }

@@ -3,15 +3,15 @@ class ProjectSubmission < ApplicationRecord
 
   belongs_to :user
   belongs_to :lesson
-  has_many :reports
+  has_many :flags
 
   validates :repo_url, format: { with: URL_REGEX, message: 'must be a url' }
   validates :live_preview_url, format: { with: URL_REGEX, message: 'must be a url' }
   validates :repo_url, :live_preview_url, presence: true
 
   scope :all_submissions, ->(lesson_id) { where(lesson_id: lesson_id) }
-  scope :reported, -> { joins(:reports).where(reports: { status: :active }) }
-  scope :with_no_active_reports, -> { where.not(id: reported.ids).order('created_at desc') }
+  scope :flagged, -> { joins(:flags).where(flags: { status: :active }) }
+  scope :with_no_active_flags, -> { where.not(id: flagged.ids).order('created_at desc') }
 
   paginates_per 100
 

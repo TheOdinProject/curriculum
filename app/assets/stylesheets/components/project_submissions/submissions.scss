@@ -50,8 +50,9 @@
     }
   }
 
-  &__report {
+  &__flag {
     color: $button-disabled;
+    cursor: pointer;
   }
 
 }

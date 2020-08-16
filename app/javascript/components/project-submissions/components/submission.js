@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 import Modal from './modal';
-import ReportForm from './report-form';
+import FlagForm from './flag-form';
 import EditForm from './edit-form';
 
-const Submission = ({submission, userId, handleUpdate, handleReport, handleDelete}) => {
-  const [showReportModal, setShowReportModal] = useState(false);
+const Submission = ({submission, userId, handleUpdate, handleFlag, handleDelete}) => {
+  const [showFlagModal, setShowFlagModal] = useState(false);
   const [showEditModal, setShowEditModal] = useState(false);
 
   const isCurrentUsersSubmission = () => (
@@ -29,7 +29,7 @@ const Submission = ({submission, userId, handleUpdate, handleReport, handleDelet
 
         <a href={submission.repo_url} target="_blank" className="submissions__button">View Code</a>
         <a href={submission.live_preview_url} target="_blank" className="submissions__button">Live Preview</a>
-        <a className="submissions__report" onClick={(event) => { event.preventDefault(); setShowReportModal(true)}}>
+        <a className="submissions__flag" onClick={(event) => { event.preventDefault(); setShowFlagModal(true)}}>
           <i className="fas fa-flag "></i>
         </a>
       </div>
@@ -43,11 +43,11 @@ const Submission = ({submission, userId, handleUpdate, handleReport, handleDelet
         />
       </Modal>
 
-      <Modal show={showReportModal} handleClose={() => setShowReportModal(false)}>
-        <ReportForm
+      <Modal show={showFlagModal} handleClose={() => setShowFlagModal(false)}>
+        <FlagForm
           submission={submission}
-          onSubmit={handleReport}
-          onClose={() => setShowReportModal(false)}
+          onSubmit={handleFlag}
+          onClose={() => setShowFlagModal(false)}
         />
       </Modal>
     </div>
