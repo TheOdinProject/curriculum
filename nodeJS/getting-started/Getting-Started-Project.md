@@ -36,7 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Charles Ivia's Solution] (https://github.com/CharlesIvia/info-site)
+- [Charles Ivia's Solution](https://github.com/CharlesIvia/info-site)
 - [benajamin-gambling's Solution](https://github.com/benjamin-gambling/NodeJS/tree/master/basic-info-site)
 - [selectiveduplicate's solution](https://github.com/selectiveduplicate/op-projects/tree/master/nodeJS/basicInformationalSite)
 - [azrilhafizi's Solution](https://github.com/azrilhafizi/odinproject-nodejs)
