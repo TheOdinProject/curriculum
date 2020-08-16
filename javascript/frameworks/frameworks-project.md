@@ -20,6 +20,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
 
+* [osechi3's Vue Library](https://github.com/osechi3/library-project-vue) - [View in Browser](https://osechi3.github.io/library-project-vue/)
 * [pklepa's React Library](https://github.com/pklepa/small-library-react) - [View in Browser](https://pklepa.github.io/small-library-react)
 * [miknick's React Library](https://github.com/miknick/React-Library-Page) - [View in Browser](https://miknick.github.io/React-Library-Page/)
 * [lonewolf045's React Library](https://github.com/lonewolf045/react-library) - [View in Browser](https://lonewolf045.github.io/react-library/)
