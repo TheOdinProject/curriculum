@@ -563,4 +563,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [vongk97's Solution](https://github.com/vongk97/ruby/blob/master/stock_picker.rb)
 * [brentguf's Solution](https://github.com/brentguf/stock-picker/blob/master/script.rb)
 * [robertompfm's Solution](https://github.com/robertompfm/stock-picker-ruby/blob/master/stock_picker.rb)
+* [sal's Solution](https://github.com/Sal-theSadmanShark/RUBY_exercises/blob/master/stock_picker/main.rb)
 </details>
