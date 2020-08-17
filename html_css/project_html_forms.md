@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/mint-clone) - [View in Browser](https://rueeazy.github.io/mint-clone/)
 * [Luky's solution](https://github.com/lcyne/html-form) - [View in Browser](https://lcyne.github.io/html-form/)
 * [Tam Tran's solution](https://github.com/gitdxb/top-signup-form) - [View in Browser](https://gitdxb.github.io/top-signup-form/)
 * [hnguye's solution](https://github.com/hnguye/mint-clone) - [View in Browser](https://hnguye.github.io/mint-clone/)
