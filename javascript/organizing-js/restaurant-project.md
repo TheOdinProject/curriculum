@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Clumsyknight's Solution](https://github.com/Clumsynite/js-restaurant-page) - [View in Browser](https://clumsynite.github.io/js-restaurant-page/)
 - [Dovi Maj's Solution](https://github.com/DoviMaj/restaurant) - [View in Browser](https://dovimaj.github.io/restaurant/)
 - [Spha's Solution](https://github.com/Spha88/project_three_restaurant_page) - [View in Browser](http://eatilicious.netslate.co.za/)
 - [justonhart's Solution](https://github.com/justonhart/RestaurantPage) - [View in Browser](https://justonh.art/RestaurantPage/)
