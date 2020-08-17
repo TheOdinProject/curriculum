@@ -1892,4 +1892,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Veronica's Solution](https://github.com/VJones2112/rockpaperscissors_theodinproject) - [View in Browser](https://rockpaperscissors-theodinproject.vercel.app/)
 - [Stroodz's Solution](https://github.com/strood/po_rock_paper_scissors) - [View in Browser](https://strood.github.io/po_rock_paper_scissors/)
 - [Aditya Rajyaguru's Solution](https://github.com/AdityaRajyaguru/rps) - [View in Browser](https://adityarajyaguru.github.io/rps/)
+- [evonloch's Solution](https://github.com/evonloch/Rock-Paper-Scissors) - [View in Browser](https://evonloch.github.io/Rock-Paper-Scissors/)
 </details>
