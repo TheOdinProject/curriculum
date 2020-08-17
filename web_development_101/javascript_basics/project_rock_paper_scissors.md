@@ -110,7 +110,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ramanjs' Solution](https://github.com/Ramanjs/rock-paper-scissors) - [View in Browser](https://ramanjs.github.io/rock-paper-scissors/)
 - [Connie's Solution](https://github.com/ConnieQiu/rock_paper_scissors)
 - [Hilton Au's Solution](https://github.com/hilton-au/rock-paper-scissors) - [View in Brower](https://hilton-au.github.io/rock-paper-scissors/)
-- [Davids Solution](https://github.com/david-88/rock-paper-scissors)
+- [Davids Solution](https://github.com/david-88/rock-paper-scissors) - [View in Brower](https://david-88.github.io/rock-paper-scissors/)
 - [Niraj Rasal's Solution](https://github.com/NirajRasal/rock_paper_scissors) - [View in Brower](https://nirajrasal.github.io/rock_paper_scissors/)
 - [Aaron Hong's Solution](https://github.com/aaronjghong/RPS) - [View in Browser](https://aaronjghong.github.io/RPS/)
 - [Xtrators's Solution](https://github.com/xtrator/SCISSORS-P-S) - [View in Browser](https://xtrator.github.io/SCISSORS-P-S/)
