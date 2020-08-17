@@ -25,6 +25,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-tictactoe) - [View in Browser](https://lucas-bide.github.io/odin-tictactoe/)
+- [Eric Mbouwe's Solution](https://github.com/EricMbouwe/TicTacToe-JS) - [View in Browser](https://eric-tic-tac-toe-js.netlify.app/)
+- [Priya Aggarwal's Solution](https://github.com/pa-aggarwal/tic-tac-toe) - [View in Browser](https://pa-aggarwal.github.io/tic-tac-toe/)
+- [Clumsyknight's Solution](https://github.com/Clumsynite/js-tictactoe) - [View in Browser](https://clumsynite.github.io/js-tictactoe/)
 - [pret3nti0u5's Solution w/ Minimax AI](https://github.com/pret3nti0u5/Tic-Tac-Toe) - [View in Browser](https://pret3nti0u5.github.io/Tic-Tac-Toe/)
 - [Daegudude's Solution](https://github.com/DaeguDude/TOP-TicTacToe) - [View in Browser](https://daegudude.github.io/TOP-TicTacToe/)
 - [Ramanjs' Solution](https://github.com/Ramanjs/tic-tac-toe) - [View in Browser](https://ramanjs.github.io/tic-tac-toe/)
@@ -271,4 +275,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [joankii's Solution w/minimax](https://github.com/joan-kii/tic-tac-toe) - [View in Browser](https://joan-kii.github.io/tic-tac-toe/)
 - [hazigabriel's Solution w/AI](https://github.com/hazigabriel/tic-tac-toe) - [View in Browser](https://github.com/hazigabriel/tic-tac-toe)
 - [sacchan9's Solution](https://github.com/sacchan9/tic-tac-toe) - [View in Browser](https://sacchan9.github.io/tic-tac-toe/)
+- [calebrauscher's Solution](https://github.com/calebrauscher/The-Odin-Project/tree/master/tictactoe) - [View in Browser](https://calebrauscher.github.io/The-Odin-Project/tictactoe/)
 </details>

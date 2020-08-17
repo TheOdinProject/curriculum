@@ -69,6 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [bassart94's Solution](https://repl.it/@bassart94/linkedlist#main.rb)
 - [cbpolley's Solution (with extra credit)](https://github.com/cbpolley/rubyTest/blob/master/linked_lists.rb) - [View Demo](https://repl.it/@cbpolley/linkedlists)
 - [gogvale's Solution (with extra credit)](https://github.com/gogvale/RubyCode/blob/master/linked_list/linked_list.rb) - [View Demo](https://repl.it/@gogvale/linkedlistrb#linked_list.rb)
 - [risanto's Solution (with extra credit)](https://github.com/risanto/ruby-programming/blob/master/13_linked-lists.rb)
@@ -281,4 +282,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 - [jding's Solution](https://github.com/Jding9/ruby_linked_list/blob/master/linked_list.rb)
 - [bhenning83's Solution (with extra credit)](https://github.com/bhenning83/linked_list/blob/master/linked_list.rb)
 - [tim87henry's Solution (with extra credit)](https://github.com/tim87henry/linked_list/blob/master/linked_list.rb)
+- [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-linkedlist/blob/master/lib/linked_list.rb)
   </details>

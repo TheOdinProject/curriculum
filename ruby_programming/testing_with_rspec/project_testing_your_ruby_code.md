@@ -21,6 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* risanto's Solutions: [Caesar Cipher](https://github.com/risanto/caesar-cipher-testing), [Tic-Tac-Toe](https://github.com/risanto/tic-tac-toe-testing)
 * gogvale's Solutions: [Caesar Cipher](https://github.com/gogvale/RubyCode/blob/master/spec/caesar_cypher_spec.rb), [Tic-Tac-Toe](https://github.com/gogvale/RubyCode/blob/master/spec/ttt_spec.rb)
 * tenacious qi's Solutions: [Caesar Cipher](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Tic-Tac-Toe](https://github.com/Tenacious-Qi/OOP-project/tree/master/tictactoe)
 * Aaron Contreras's Solutions: [Caesar Cipher](https://github.com/aaron-contreras/caesar-cipher), [Tic-Tac-Toe](https://github.com/aaron-contreras/tic-tac-toe)
@@ -165,6 +166,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [James's Solution](https://github.com/jegrieve/TDD_Connect_Four)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/connect-four)
 * [Aaron's Solution](https://github.com/Aaron-McD/connect-four)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_connect_four)
