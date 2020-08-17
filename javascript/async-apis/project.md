@@ -21,6 +21,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucio's React Solution](https://github.com/JCarlosLucio/weather-app) - [View in Browser](https://lucio-weather-app.netlify.app/)
 * [pklepa's React Solution](https://github.com/pklepa/weather-app) - [View in Browser](https://pklepa.github.io/weather-app/)
 * [miknick's React Solution](https://github.com/miknick/React-Weather-App) - [View in Browser](https://miknick.github.io/React-Weather-App/)
 * [Scott's React Solution](https://github.com/ScotttP/weather-app-2/tree/master/weather-app-2) - [View in Browser](https://scotttp.github.io/weather-app-2/)
