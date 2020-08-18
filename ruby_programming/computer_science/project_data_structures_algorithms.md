@@ -46,10 +46,10 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
 
 ~~~ruby
-def pretty_print(node = root, prefix="", is_left = true)
-  pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right
-  puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
-  pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
+def pretty_print(node = @root, prefix = '', is_left = true)
+  pretty_print(node.right, "#{prefix}#{is_left ? '│   ' : '    '}", false) if node.right
+  puts "#{prefix}#{is_left ? '└── ' : '┌── '}#{node.data}"
+  pretty_print(node.left, "#{prefix}#{is_left ? '    ' : '│   '}", true) if node.left
 end
 ~~~
 
