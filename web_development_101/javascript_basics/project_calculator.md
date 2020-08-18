@@ -45,10 +45,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rchlkr' Solution](https://github.com/rchlkr/calculator) - [View in Browser](https://rchlkr.github.io/calculator/)
 - [GraceSchwar's Solution](https://github.com/GraceSchwar/Project-Calculator) - [View in Browser](https://graceschwar.github.io/Project-Calculator/)
 - [CoderOO7 Solution](https://github.com/CoderOO7/Calculator) - [View in Browser](https://coderoo7.github.io/Calculator/)
-- [nguyenjessev's solution](https://github.com/nguyenjessev/calculator) - [View in Browser](https://nguyenjessev.github.io/calculator/)
-- [Sanjana's solution](https://github.com/error34043/calculator) - [View in Browser](https://error34043.github.io/calculator/)
+- [nguyenjessev's Solution](https://github.com/nguyenjessev/calculator) - [View in Browser](https://nguyenjessev.github.io/calculator/)
+- [Sanjana's Solution](https://github.com/error34043/calculator) - [View in Browser](https://error34043.github.io/calculator/)
 - [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/calculator) - [View in Browser](https://thorontherocks.github.io/calculator/)
 - [Pallavi's Solution](https://github.com/pmaity7/calculator) - [View in Browser](https://pmaity7.github.io/calculator/)
 - [lghiggino's Solution](https://github.com/lghiggino/04---TOP-Calculator) - [View in Browser](https://lghiggino.github.io/04---TOP-Calculator/index.html)
