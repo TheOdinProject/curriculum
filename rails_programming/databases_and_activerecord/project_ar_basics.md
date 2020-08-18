@@ -107,12 +107,21 @@ If any of those don't work, double check your associations.  Sometimes the error
 </div>
 
 ### Student Solutions
-Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/databases_and_activerecord/project_ar_basics.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/databases_and_activerecord/project_ar_basics.md) so we can show others!. Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Axel Lopez's Solution](https://github.com/lopezaxel/micro-reddit)
+* [Sam Eff's Solution](https://github.com/SamEff/micro-reddit)
+* [Uduak Essien's Solution](https://github.com/DarrenLo0530/rails-mini-projects/tree/master/micro-reddit)
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/micro-reddit)
+* [JvPelai's Solution](https://github.com/JvPelai/micro-reddit)
+* [qazaqpyn's Solution](https://github.com/qazaqpyn/active-record)
+* [Ryan Lewin's Solution](https://github.com/ryan-lewin/micro-reddit)
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/Micro_reddit)
+* [irlgabriel's Solution](https://github.com/irlgabriel/micro-reddit)
 * [Christian's Solution](https://github.com/rueeazy/micro-reddit)
 * [fillingthemoon's Solution](https://github.com/fillingthemoon/micro-reddit)
 * [Jose Bohorquez's Solution](https://github.com/Bhrqz/micro-reddit)
@@ -260,6 +269,13 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Bendee's Solution](https://github.com/bendee48/micro-reddit)
 * [Robert Suazo's Solution](https://github.com/rsuazo/micro-reddit)
 * [Ken H's Solution](https://github.com/kholston/micro_reddit)
+* [Christian Páez's Solution](https://github.com/christian1894/micro-reddit)
+* [Chris H's Solution](https://github.com/CKHarrison/micro-reddit)
+* [fussykyloren's Solution](https://github.com/fussykyloren/micro-reddit)
+* [Smith's & Paul's Solution](https://github.com/SmithVyne/Micro-reddit)
+* [Rob Dulabon's Solution](https://github.com/RDulabon/microReddit) 
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/micro-reddit)
+* [Clinton wambugu's Solution](https://github.com/kwambugu/micro-reddit)
 </details>
 
 ### Additional Resources

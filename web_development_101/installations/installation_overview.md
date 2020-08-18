@@ -33,11 +33,11 @@ Modifying or dual booting a computer to work with the tools you'll need will mak
 
 #### Mac
 
-If you're using a Mac, you're in great shape. Most professional developers rely on Macs for their coding. By installing just a few programs, you will be up and running with your education in no time!
+If you're using a Mac, you're in great shape. Most professional developers rely on Unix-based systems for their coding. By installing just a few programs, you will be up and running with your education in no time!
 
 #### Linux
 
-[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly versions available, or the lighter weight alternative Xubuntu. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
+[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
 
 #### Virtual Machines and Dual-Boots
 
@@ -63,5 +63,6 @@ Finally, there are a variety of online code sandboxes that can be quite handy wh
 * [Repl.it](https://repl.it/)
 * [Codepen.io](https://codepen.io/)
 * [JSFiddle.net](https://jsfiddle.net/)
+* [CodeSandBox](https://codesandbox.io/)
 
 These sites can be used to complete small exercises or to sketch out a concept you don't quite understand. However, you shouldn't use these sites as your main development environment.
