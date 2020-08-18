@@ -41,12 +41,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-- [THREEhundo's Solution (w/ Firebase)](https://github.com/THREEhundo/ODIN/tree/master/Library) - [View in Browser](https://threehundo.github.io/myLibrary/public/index.html)
-=======
 - [pir4cy's Solution (Movie Library w/ Firebase](https://github.com/pir4cy/library-project - [View in Browser](https://pir4cy.github.io/library-project)
 - [Daniel Solomon's Solution](https://github.com/danisolo91/library) - [View in Browser](https://danisolo91.github.io/library/)
 - [Jordan Leivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/Javascript/Library/) - [View in Browser](https://jleivers.github.io/The-Odin-Project/Javascript/Library/)
@@ -83,7 +77,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Tuan Tran's Solution (w/ Local Storage)](https://github.com/tuantrann/Library) - [View in Browser](https://tuantrann.github.io/Library/)
 - [fillingthemoon's Solution (w/ Local Storage)](https://github.com/fillingthemoon) - [View in Browser](https://fillingthemoon.github.io/library/)
 - [LucasNativo's Solution (w/ Local Storage)](https://github.com/lucasnativo/project_library) - [View in Browser](https://lucasnativo.github.io/project_library/)
->>>>>>> upstream/master
 - [Daegudude's Solution (w/ firebase Database)](https://github.com/DaeguDude/TOP-Library) - [View in Browser](https://daegudude.github.io/TOP-Library/)
 - [Simonoob's Solution (w/ Firebase Database)](https://github.com/Simonoob/Book-Library) - [View in Browser](https://simonoob.github.io/Book-Library/)
 - [miknick's Solution](https://github.com/miknick/Library)
@@ -108,7 +101,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [jingjing142's Solution (w/localstorage)](https://github.com/jingjing142/library) - [View in Browser](https://jingjing142.github.io/library/)
 - [kaliberpoziomka's Solution(w/ local storage)](https://github.com/kaliberpoziomka/library) - [View in Browser](https://kaliberpoziomka.github.io/library/)
 - [foolmonkey's Solution](https://github.com/foolmonkey/library) - [View in Browser](https://foolmonkey.github.io/library/)
->>>>>>> 3313550e6f8c398490c79fa464974b0dd6a28c9b
 - [Alex Cole's Solution](https://github.com/AlexJ-Cole/Library) - [View in Browser](https://alexj-cole.github.io/Library/)
 - [Salvador Villalon's Solution (w/ Firebase)](https://github.com/salvillalon45/theOdinProject-Library) - [View in Browser](https://salvillalon45.github.io/theOdinProject-Library/)
 - [jcai's Solution](https://github.com/jcai8649/TOP-Library) - [View in Browser](https://jcai8649.github.io/TOP-Library/)
