@@ -878,4 +878,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Christopher's Solution](https://github.com/christopheralagna/calculator) - [View in Browser](https://christopheralagna.github.io/calculator/)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/CalculatorJS) - [View in Browser](https://almirbunjaku.github.io/CalculatorJS/)
 - [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/calculator/tree/master) - [View in Browser](https://marvinkeilbach.github.io/calculator/)
+- [Almar's Solution](https://github.com/Assetbekov-Almar/Calculator) - [View in Browser](https://assetbekov-almar.github.io/top_calculator/)
 </details>
