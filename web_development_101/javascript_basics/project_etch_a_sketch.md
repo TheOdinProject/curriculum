@@ -1242,4 +1242,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Culinarytracker's Solution](https://github.com/Culinarytracker/Etch-A-Sketch) - [View in Browser](https://culinarytracker.github.io/Etch-A-Sketch/)
 * [Harry Thomson's Solution](https://github.com/harrythomson1/etch-a-sketch) - [View in Browser](https://harrythomson1.github.io/etch-a-sketch/)
 * [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/etch-a-sketch) - [View in Browser](https://marvinkeilbach.github.io/etch-a-sketch/)
+* [Fusako's Solution](https://github.com/fusakoo/etch-a-sketch) - [View in Browser](https://fusakoo.github.io/etch-a-sketch/)
 </details>
