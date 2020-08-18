@@ -15,54 +15,8 @@ We're going to make a simple implementation of grade-school classic "rock paper 
    2. __Important note:__ you want to `return` the results of this function call, _not_ `console.log()` them.  To test this function console.log the results:
 
       ~~~javascript
-      let computerSelection = computerPlay()
-        function playRound(computerSelection, choice2) {
-            
-            if (computerSelection == choice2) {
-            alert("Tie!!")
-            }
-            else if (computerSelection == "rock") {
-                if (choice2 == "paper") {
-                player++; 
-                alert("You Win");
-              } if (choice2 == "scissors") {
-                machine++;
-                alert("Machine Wins");
-            } 
-            } else if (computerSelection == "scissors") {
-                if(choice2 == "rock") {
-                player++;
-                alert("You Win");
-                } if (choice2 == "paper") {
-                machine++;
-                alert("Machine Wins");
-                }
-            } else if (computerSelection == "paper") {
-                if (choice2 == "rock") {
-                machine++;
-                alert("Machine Wins");
-                } if (choice2 == "scissors") {
-                player++;
-                alert("You Win");
-                }
-            }
-        } 
-  function computerPlay() {
-            let choices = ["rock", "paper", "scissors"]
-            let index = Math.floor(Math.random() * choices.length);
-            return choices[index].toLowerCase();
-  }
-  function game() {
-      round = 0;
-      while (round < 5) {
-          choice2 = prompt("Enter Here");
-          computerSelection = computerPlay();
-          console.log(playRound(choice2,computerSelection));
-            round++;
-      }
-  }
-  
- game()
+      the link to my code:
+      git@github.com:RyneAdams/Rock-Paper-Scissors.git
 
       const playerSelection = 'rock'
       const computerSelection = computerPlay()
