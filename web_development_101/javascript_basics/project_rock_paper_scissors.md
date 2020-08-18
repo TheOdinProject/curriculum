@@ -41,9 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [justinsatorre's Solution](https://github.com/justinsatorre/rock-paper-scissors)
-=======
+- [gswy62's Solution](https://github.com/gswy62/rock-paper-scissors)
 - [rjbullough's Solution](https://github.com/rjbullough/rock_paper_scissors/) - [View in Browser](https://rjbullough.github.io/rock_paper_scissors/)
 - [nguyenjessev's Solution](https://github.com/nguyenjessev/rock-paper-scissors) - [View in Browser](https://nguyenjessev.github.io/rock-paper-scissors/)
 - [IGrueby's Solution](https://github.com/IGrueby/rock-paper-scissors) - [View in Browser](https://igrueby.github.io/rock-paper-scissors/)
@@ -55,7 +54,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Chris Kamp's Solution](https://github.com/chriskamp101/rock-paper-scissors) - [View in Browser](https://chriskamp101.github.io/rock-paper-scissors/)
 - [Bryson Bruce's Solution](https://github.com/Bruceboy7/Rock-Paper-Scissors)- [View in Browser](https://bruceboy7.github.io/Rock-Paper-Scissors/)
 - [Yusuf ATALAY's Solution](https://github.com/yusufatalay/TOP-Rock_Paper_Scissor) - [View in Browser](https://yusufatalay.github.io/TOP-Rock_Paper_Scissor)
->>>>>>> 409a4f1bf15ccef5f9a8e4370ae3650651384f31
 - [leinierperez's Solution](https://github.com/leinierperez/rock-paper-scissors) - [View in Browser](https://leinierperez.github.io/rock-paper-scissors/)
 - [JCahela's Solution](https://jcahela.github.io/rock-paper-scissors/)
 - [Josue Garcia's Solution](https://github.com/JosueGarcia17/Browser-Rock-Paper-Scissors)
@@ -114,7 +112,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ramanjs' Solution](https://github.com/Ramanjs/rock-paper-scissors) - [View in Browser](https://ramanjs.github.io/rock-paper-scissors/)
 - [Connie's Solution](https://github.com/ConnieQiu/rock_paper_scissors)
 - [Hilton Au's Solution](https://github.com/hilton-au/rock-paper-scissors) - [View in Brower](https://hilton-au.github.io/rock-paper-scissors/)
-- [Davids Solution](https://github.com/david-88/rock-paper-scissors)
+- [Davids Solution](https://github.com/david-88/rock-paper-scissors) - [View in Brower](https://david-88.github.io/rock-paper-scissors/)
 - [Niraj Rasal's Solution](https://github.com/NirajRasal/rock_paper_scissors) - [View in Brower](https://nirajrasal.github.io/rock_paper_scissors/)
 - [Aaron Hong's Solution](https://github.com/aaronjghong/RPS) - [View in Browser](https://aaronjghong.github.io/RPS/)
 - [Xtrators's Solution](https://github.com/xtrator/SCISSORS-P-S) - [View in Browser](https://xtrator.github.io/SCISSORS-P-S/)
