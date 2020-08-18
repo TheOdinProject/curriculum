@@ -6,7 +6,7 @@ In this lesson, we'll cover common Git commands used to manage your projects and
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- - Describe how to copy an existing repository from Github onto your local machine.
+ - Describe how to copy an existing repository from GitHub onto your local machine.
  - Explain the two-stage system that Git uses to save files.
  - Describe how to upload your work to GitHub using Git.
  - Describe how to check the status of your files and how to view your commit history.
@@ -63,7 +63,7 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 
 <details>
-<summary>What is the Git command used to get a full copy of an existing Git repository from Github?</summary>
+<summary>What is the Git command used to get a full copy of an existing Git repository from GitHub?</summary>
 <ul><ul>
   <li>Use <code>git clone git@github.com:&lt;your-github-username&gt;/&lt;your-respository-name&gt;</code> to clone a GitHub repository onto your local machine.</li>
 </ul></ul>
