@@ -46,6 +46,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [GraceSchwar's Solution](https://github.com/GraceSchwar/Project-Calculator) - [View in Browser](https://graceschwar.github.io/Project-Calculator/)
+- [CoderOO7 Solution](https://github.com/CoderOO7/Calculator) - [View in Browser](https://coderoo7.github.io/Calculator/)
 - [nguyenjessev's solution](https://github.com/nguyenjessev/calculator) - [View in Browser](https://nguyenjessev.github.io/calculator/)
 - [Sanjana's solution](https://github.com/error34043/calculator) - [View in Browser](https://error34043.github.io/calculator/)
 - [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/calculator) - [View in Browser](https://thorontherocks.github.io/calculator/)
@@ -237,7 +238,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cole-0's Solution](https://github.com/Cole-0/Simplest-of-calculators)
 - [MrLupine's Solution](https://github.com/MrLupine/calculator) - [View in Browser](https://mrlupine.github.io/calculator/)
 - [Carl D'Oleo-Lundgren's Solution](https://github.com/carldoleolundgren/calculator) - [View in Browser](https://carldoleolundgren.github.io/calculator/)
-- [mohamednasr20's Solution](https://github.com/mohamednasr20/calculator) - [View in Browser]( https://mohamednasr20.github.io/calculator/)
+- [mohamednasr20's Solution](https://github.com/mohamednasr20/calculator) - [View in Browser](https://mohamednasr20.github.io/calculator/)
 - [AJMcDee's Solution](https://github.com/AJMcDee/onlineCalculator/) - [View in Browser](https://ajmcdee.github.io/onlineCalculator/)
 - [Lusiann's Solution](https://github.com/Lusiann/Calculator) - [View in Browser](https://lusiann.github.io/Calculator/)
 - [ray0h's Solution](https://github.com/ray0h/TheOdinProjectExercises/tree/master/calculator) - [View in Browser](https://ray0h.github.io/calculator/)
@@ -329,7 +330,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [AbdelP's Solution](https://github.com/abdelp/calculator) - [View in Browser](https://abdelp.github.io/calculator/)
 - [Luke's Solution](https://github.com/LukePritchett/calculator) - [View in Browser](https://lukepritchett.github.io/calculator/)
 - [Fernis' Solution](https://github.com/Menneskefernis/calculator) - [View in Browser](https://menneskefernis.github.io/calculator/)
-- [Ogunmola Israel's Solution](https://github.com/Lippins/javascript_calculator) - [View in Browser]( https://lippins.github.io/javascript_calculator/)
+- [Ogunmola Israel's Solution](https://github.com/Lippins/javascript_calculator) - [View in Browser](https://lippins.github.io/javascript_calculator/)
 - [Jedensuscg Solution](https://github.com/jedensuscg/calculator) - [View in Browser](https://jedensuscg.github.io/Calculator/)
 - [Ashish's Solution](https://github.com/CodersGas/Calculator) - [View in Browser](https://codersgas.github.io/Calculator/home-page.html)
 - [Robin's Solution](https://github.com/CoolGlasses/calculator) - [View in Browser](https://coolglasses.github.io/calculator/)
