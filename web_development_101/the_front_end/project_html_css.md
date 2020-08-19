@@ -2,7 +2,7 @@
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it. Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
-Using the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend. Build the page in a .html text file and open it in your browser to check it out (or try using [CodePen](http://codepen.io/pen/) or [jsfiddle.net](http://www.jsfiddle.net)).
+Using the browser's developer tools (right-clicking something on the page and clicking "inspect element" will get you there) will be your best friend. Build the page in a .html text file and open it in your browser to check it out (or try using [CodePen](http://codepen.io/pen/) or [jsfiddle.net](http://www.jsfiddle.net)).
 
 ### Try These Before Starting
 
@@ -19,9 +19,9 @@ These skills will be helpful for you when you start building. Either try them yo
 
 ### Setting Up Your Project's Github Repository (optional)
 
-As mentioned in the [introduction to git](/courses/web-development-101/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
+As mentioned in the [introduction to Git](/courses/web-development-101/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to setup a repository, follow the instructions found in [Project: Git Basics](/courses/web-development-101/lessons/practicing-git-basics) to learn how.
+If you do not know how to set up a repository, follow the instructions found in [Project: Git Basics](/courses/web-development-101/lessons/practicing-git-basics) to learn how.
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
@@ -29,13 +29,13 @@ If you do not know how to setup a repository, follow the instructions found in [
 
 - [Setting up SSH on Github](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github).
 
-4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
+4. Now `cd` into the `google-homepage` project directory that is now on your local machine; set up your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
 5. If you want to share your solution, include a link in the markdown file included at the top of the student Solutions section.
 
 If you are having trouble:
 
 - Ensure you followed the steps [here on Step 2.3](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github) to clone from Github with SSH.
-- Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
+- Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson.
 - Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the Git Basics Project.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
@@ -58,9 +58,9 @@ Inside your project folder, create your index.html file
    - DON'T BE A PERFECTIONIST! You're just trying to make it _look_ like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel. Any dropdown menus or form submissions or hover-highlighting should be ignored.
    - USE GOOGLE! You'll probably run into roadblocks where you can't figure out how to do something so do what all good devs do... Google it!
    - Now is a good time to [set up the live server extension](https://youtu.be/mGORIVStWWc) in VSCode, if you haven't already.
-   - If you're frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the css property `-webkit-appearance: none;` or `-moz-appearance` if you're using Firefox.
+   - If you're frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the CSS property `-webkit-appearance: none;` or `-moz-appearance` if you're using Firefox.
    - [Here's a link to the Google Logo just in case they temporarily replace it with a Doodle!](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
-   - [Here's a cached page of the Google home page for reference in case the original logo is not there](https://web.archive.org/web/20191130234759/https://www.google.com/)
+   - [Here's a cached page of the Google home page for reference in case the original logo is not there.](https://web.archive.org/web/20191130234759/https://www.google.com/)
 2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally. You can either download the Google logo or link directly to its URL on the web in your `<img>` tag.
 3. Next do the navbar across the top, first building the content and then trying to position it. Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
 4. Finally, put in the footer, which should be very similar to the top navbar.
@@ -95,7 +95,15 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [chezynick's Solution (Easy)](https://https://github.com/chezynick/google-project) - [View in Broswer](https://chezynick.github.io/google-project/)
+* [AFurrow's Solution (Easy)](https://afurrow.github.io/google-homepage/) - [View in Browser](https://afurrow.github.io/google-homepage/)
+* [elHerro's Solution (Easy)](https://github.com/elHerro/google-homepage) - [View in Browser](https://elherro.github.io/google-homepage/)
+* [ayandagatsha's Solution (Easy)](https://github.com/ayandagatsha/google-homepage) - [View in Browser](hhttps://ayandagatsha.github.io/google-homepage/)
+* [navneet473's Solution (Easy)](https://github.com/navneet473/google-homepage) - [View in Browser](https://navneet473.github.io/google-homepage/)
+* [Bbrenes' Solution (Easy)](https://github.com/BBrenes/google-homepage) - [View in Browser](https://bbrenes.github.io/google-homepage/)
+* [juanpa89's Solution (Easy)](https://github.com/juanpa89/google-homepage-) - [View in Browser](https://juanpa89.github.io/google-homepage-/) 
+* [anthonycedeno's Solution (Easy)](https://github.com/anthonycedeno/google-homepage) - [View in Browser](https://anthonycedeno.github.io/google-homepage/)
+* [mittalrohit0598's Solution (Difficult)](https://github.com/mittalrohit0598/google-homepage) - [View in Browser](https://thegrapescribbler.com/google-homepage/)
+* [chezynick's Solution (Easy)](https://https://github.com/chezynick/google-project) - [View in Browser](https://chezynick.github.io/google-project/)
 * [aziz's Solution (Easy)](https://github.com/abuahmed6310/google-homepage) - [View in Browser](https://abuahmed6310.github.io/google-homepage/)
 * [owenexe217's Solution (Easy)](https://github.com/owenexe217/googleHomePage) - [View in Browser](https://owenexe217.github.io/googleHomePage/)
 * [nguyenjessev's Solution (Easy)](https://github.com/nguyenjessev/google-homepage) - [View in Browser](https://nguyenjessev.github.io/google-homepage/)
@@ -4163,6 +4171,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rogcald1's Solution (Easy)](http://github.com/rogcald1/google-homepage) - [View in Browser](https://rogcald1.github.io/google-homepage/)
 * [emily-n-b's Solution (Easy)](https://github.com/emily-n-b/google-homepage) - [View in Browser](https://emily-n-b.github.io/google-homepage/)
 * [iwanttostealyourdog's Solution (Easy)](https://github.com/iwanttostealyourdog/google-homepage) - [View in Browser](https://iwanttostealyourdog.github.io/google-homepage/)
+* [Brandon Araujo's Solution (Easy)](https://github.com/Brandon-Araujo/google-homepage) - [View in Browser](https://brandon-araujo.github.io/google-homepage/)
 </details>
 
 

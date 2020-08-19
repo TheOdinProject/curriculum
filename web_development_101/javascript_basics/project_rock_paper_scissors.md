@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ruimpcastro's Solution](https://github.com/ruimpcastro/rock-paper-scissors) - [View in Browser](https://ruimpcastro.github.io/rock-paper-scissors/)
+- [justinsatorre's Solution](https://github.com/justinsatorre/rock-paper-scissors)
+- [gswy62's Solution](https://github.com/gswy62/rock-paper-scissors)
 - [rjbullough's Solution](https://github.com/rjbullough/rock_paper_scissors/) - [View in Browser](https://rjbullough.github.io/rock_paper_scissors/)
 - [nguyenjessev's Solution](https://github.com/nguyenjessev/rock-paper-scissors) - [View in Browser](https://nguyenjessev.github.io/rock-paper-scissors/)
 - [IGrueby's Solution](https://github.com/IGrueby/rock-paper-scissors) - [View in Browser](https://igrueby.github.io/rock-paper-scissors/)
@@ -110,7 +113,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Ramanjs' Solution](https://github.com/Ramanjs/rock-paper-scissors) - [View in Browser](https://ramanjs.github.io/rock-paper-scissors/)
 - [Connie's Solution](https://github.com/ConnieQiu/rock_paper_scissors)
 - [Hilton Au's Solution](https://github.com/hilton-au/rock-paper-scissors) - [View in Brower](https://hilton-au.github.io/rock-paper-scissors/)
-- [Davids Solution](https://github.com/david-88/rock-paper-scissors)
+- [Davids Solution](https://github.com/david-88/rock-paper-scissors) - [View in Brower](https://david-88.github.io/rock-paper-scissors/)
 - [Niraj Rasal's Solution](https://github.com/NirajRasal/rock_paper_scissors) - [View in Brower](https://nirajrasal.github.io/rock_paper_scissors/)
 - [Aaron Hong's Solution](https://github.com/aaronjghong/RPS) - [View in Browser](https://aaronjghong.github.io/RPS/)
 - [Xtrators's Solution](https://github.com/xtrator/SCISSORS-P-S) - [View in Browser](https://xtrator.github.io/SCISSORS-P-S/)
@@ -1892,4 +1895,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Veronica's Solution](https://github.com/VJones2112/rockpaperscissors_theodinproject) - [View in Browser](https://rockpaperscissors-theodinproject.vercel.app/)
 - [Stroodz's Solution](https://github.com/strood/po_rock_paper_scissors) - [View in Browser](https://strood.github.io/po_rock_paper_scissors/)
 - [Aditya Rajyaguru's Solution](https://github.com/AdityaRajyaguru/rps) - [View in Browser](https://adityarajyaguru.github.io/rps/)
+- [evonloch's Solution](https://github.com/evonloch/Rock-Paper-Scissors) - [View in Browser](https://evonloch.github.io/Rock-Paper-Scissors/)
+- [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/rock-paper-scissors) 
+- [yiyuanyi's Solution](https://github.com/yiyuanyi/rock-paper-scissors)
 </details>
