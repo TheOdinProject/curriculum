@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [dkhole's Solution](https://github.com/dkhole/rock-paper-scissors) - [View in Browser](https://dkhole.github.io/rock-paper-scissors/)
+- [max-marquez's Solution](https://github.com/Max-Marquez/rock-paper-scissors) - [View in Browser](https://max-marquez.github.io/rock-paper-scissors/)
+- [ruimpcastro's Solution](https://github.com/ruimpcastro/rock-paper-scissors) - [View in Browser](https://ruimpcastro.github.io/rock-paper-scissors/)
 - [justinsatorre's Solution](https://github.com/justinsatorre/rock-paper-scissors)
 - [gswy62's Solution](https://github.com/gswy62/rock-paper-scissors)
 - [rjbullough's Solution](https://github.com/rjbullough/rock_paper_scissors/) - [View in Browser](https://rjbullough.github.io/rock_paper_scissors/)
@@ -1896,4 +1899,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Aditya Rajyaguru's Solution](https://github.com/AdityaRajyaguru/rps) - [View in Browser](https://adityarajyaguru.github.io/rps/)
 - [evonloch's Solution](https://github.com/evonloch/Rock-Paper-Scissors) - [View in Browser](https://evonloch.github.io/Rock-Paper-Scissors/)
 - [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/rock-paper-scissors) 
+- [yiyuanyi's Solution](https://github.com/yiyuanyi/rock-paper-scissors)
 </details>

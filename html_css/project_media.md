@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rastko's Solution](https://github.com/RastkoD/The_Odin_Project/tree/master/HTML_and_CSS/YouTube) - [View in Browser](https://youtube-byrastkod.netlify.app/)
 * [Kevin's Solution](https://github.com/Kevlar2222/youtube/tree/master) - [View in Browser](https://kevlar2222.github.io/youtube/)
 * [Hiro's Solution](https://github.com/hrmtk/youtube-page) - [View in Browser](https://hrmtk.github.io/youtube-page/)
 * [Christian's Solution](https://github.com/rueeazy/youtube-clone) - [View in Browser](https://rueeazy.github.io/youtube-clone/)
@@ -214,6 +215,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Violet's Solution](https://github.com/violetguos/html-css/tree/master/youtube) - [View in Browser](https://violetguos.github.io/html-css/youtube/)
 * [Jonathan Altine's Solution](https://github.com/JonathanAltine/YoutubeVideoPage) - [View in Browser](https://jonathanaltine.github.io/YoutubeVideoPage/)
 * [skwiryt's solution](https://github.com/skwiryt/youtube-clone) - [View in Browser](https://skwiryt.github.io/youtube-clone/)
+* [icepick-pauly's solution](https://github.com/icepick-pauly/top_htmlcss_youtubeclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_youtubeclone/)
 
 </details>
 
