@@ -12,7 +12,7 @@ After completing this lesson, you will be able to:
 - Describe what a JavaScript module bundler like webpack is.
 - Explain what the concepts "entry" and "output" mean as relates to webpack.
 - Briefly explain what a development dependency is.
-- Explain what "transpiling code means" and how it relates to frontend development.
+- Explain what "transpiling code" means and how it relates to frontend development.
 - Briefly describe what a task runner is and how it's used in frontend development.
 - Describe how to write an npm automation script.
 - Explain one of the main benefits of writing code in modules.

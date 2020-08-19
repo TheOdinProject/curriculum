@@ -238,3 +238,8 @@ carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName f
 ~~~
 
 If we had used `Object.create` in this example then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+* [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Dylia Hallie and [This video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explains the Prototype concept with graphics and simple language. Try using these resources if you want another perspective to understand the concept.

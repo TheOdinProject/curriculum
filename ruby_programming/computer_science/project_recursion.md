@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Blessing Jackson's Solution](https://github.com/blessja/Fibonacci/blob/master/fibonacci.rb)
 * [cbpolleys's Solution](https://github.com/cbpolley/fibonacci/blob/master/fibonacci.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/recursion/fib.rb)
 * [Jding9's Solution](https://github.com/Jding9/recursion_basics/blob/master/fibs.rb)
@@ -276,6 +277,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [msespos's Solution](https://github.com/msespos/fibonacci)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/fibonacci.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/fibonacci/blob/master/fibonacci.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-recursion/blob/master/lib/fibonacci.rb)
 </details>
 
 ### Project: Merge Sort
@@ -307,6 +309,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [nhleto's Solution](https://github.com/nhleto/Recursion-Practice/blob/master/Merge_Sort.rb)
 * [BernH4's Solution](https://github.com/BernH4/merge_sort/blob/master/merge_sort.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/fibonacci/blob/master/merge_sort.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/recursion/merge_sort.rb)
@@ -561,6 +564,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [msespos's Solution](https://github.com/msespos/merge-sort/blob/master/merge_sort.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/merge_sort.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/sort_methods/blob/master/merge_sort.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-recursion/blob/master/lib/mergesort.rb)
 </details>
 
 ### Additional Resources

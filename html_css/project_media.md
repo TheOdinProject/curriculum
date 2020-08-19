@@ -35,6 +35,10 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kevin's Solution](https://github.com/Kevlar2222/youtube/tree/master) - [View in Browser](https://kevlar2222.github.io/youtube/)
+* [Hiro's Solution](https://github.com/hrmtk/youtube-page) - [View in Browser](https://hrmtk.github.io/youtube-page/)
+* [Christian's Solution](https://github.com/rueeazy/youtube-clone) - [View in Browser](https://rueeazy.github.io/youtube-clone/)
+* [Tam Tran's Solution](https://github.com/gitdxb/clone-yt) - [View in Browser](https://gitdxb.github.io/clone-yt/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/embed-practice) - [View in Browser](https://ideopunk.github.io/embed-practice/)
 * [Maximiliano Bidegain's Solution](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/html-and-css/embedding-images-and-video) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [mrdiegodev_ Solution](https://github.com/dhna32/Project--Embedding-Images-and-Video) - [View in Browser](https://dhna32.github.io/Project--Embedding-Images-and-Video/)
@@ -208,6 +212,9 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Nijepa's Solution](https://github.com/nijepa/embedding-images-and-video) - [View in Browser](https://nijepa.github.io/embedding-images-and-video/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/youtube)
 * [Violet's Solution](https://github.com/violetguos/html-css/tree/master/youtube) - [View in Browser](https://violetguos.github.io/html-css/youtube/)
+* [Jonathan Altine's Solution](https://github.com/JonathanAltine/YoutubeVideoPage) - [View in Browser](https://jonathanaltine.github.io/YoutubeVideoPage/)
+* [skwiryt's solution](https://github.com/skwiryt/youtube-clone) - [View in Browser](https://skwiryt.github.io/youtube-clone/)
+
 </details>
 
 ### Additional Resources
