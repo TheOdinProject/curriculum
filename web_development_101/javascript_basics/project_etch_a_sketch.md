@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jcsorgei's Solution](https://github.com/jcsorgei/etch-a-sketch) - [View in Browser](https://jcsorgei.github.io/etch-a-sketch/)
+* [leinierperez's Solution](https://github.com/leinierperez/etch-a-sketch) - [View in Browser](https://leinierperez.github.io/etch-a-sketch/)
 * [BlueChihuahua's Solution](https://github.com/BlueChihuahua/Sk-Etch) - [View in Browser](https://bluechihuahua.github.io/Sk-Etch/)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/etch-a-sketch) - [View in Browser](https://nguyenjessev.github.io/etch-a-sketch/)
 * [urbanassa53's Solution](https://github.com/urbanassa53/Etch-a-Sketch) - [View in Browser](https://urbanassa53.github.io/Etch-a-Sketch/)
@@ -1242,4 +1244,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Culinarytracker's Solution](https://github.com/Culinarytracker/Etch-A-Sketch) - [View in Browser](https://culinarytracker.github.io/Etch-A-Sketch/)
 * [Harry Thomson's Solution](https://github.com/harrythomson1/etch-a-sketch) - [View in Browser](https://harrythomson1.github.io/etch-a-sketch/)
 * [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/etch-a-sketch) - [View in Browser](https://marvinkeilbach.github.io/etch-a-sketch/)
+* [Fusako's Solution](https://github.com/fusakoo/etch-a-sketch) - [View in Browser](https://fusakoo.github.io/etch-a-sketch/)
 </details>
