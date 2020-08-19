@@ -9,7 +9,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 <div class="lesson-content__panel" markdown="1">
   1. Go back to the [Caesar Cipher Project](/courses/ruby-programming/lessons/caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.
   2. Write tests for your [Tic Tac Toe project](/courses/ruby-programming/lessons/oop).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make the tests determine victory or loss conditions are correctly assessed.
-      1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game-over` method (or its equivalent) should trigger.
+      1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game_over` method (or its equivalent) should trigger.
       2. Test each of your critical methods to make sure they function properly and handle edge cases.
       3. Try using mocks/doubles to isolate methods and make sure that they're sending back the right outputs.
 </div>
@@ -21,6 +21,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* risanto's Solutions: [Caesar Cipher](https://github.com/risanto/caesar-cipher-testing), [Tic-Tac-Toe](https://github.com/risanto/tic-tac-toe-testing)
+* gogvale's Solutions: [Caesar Cipher](https://github.com/gogvale/RubyCode/blob/master/spec/caesar_cypher_spec.rb), [Tic-Tac-Toe](https://github.com/gogvale/RubyCode/blob/master/spec/ttt_spec.rb)
+* tenacious qi's Solutions: [Caesar Cipher](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Tic-Tac-Toe](https://github.com/Tenacious-Qi/OOP-project/tree/master/tictactoe)
+* Aaron Contreras's Solutions: [Caesar Cipher](https://github.com/aaron-contreras/caesar-cipher), [Tic-Tac-Toe](https://github.com/aaron-contreras/tic-tac-toe)
+* Haroon Abdulrazaq's Solutions: [Tic-Tac-Toe](https://github.com/Haroonabdulrazaq/tic-tac-toe)
+* rlmoser's Solutions: [Caesar Cipher](https://github.com/rlmoser99/ruby_exercises/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/rlmoser99/ruby_TicTacToe)
+* Axel Lopez's Solutions: [Caesar Cipher](https://github.com/lopezaxel/caesar_shift), [Tic-Tac-Toe](https://github.com/lopezaxel/tic-tac-toe)
 * Witah Georjane's Solutions: [Caesar Cipher](https://github.com/Georjane/Caesar-Cipher), [Tic-Tac-Toe](https://github.com/Georjane/Tic-Tac-Toe-Game)
 * Chau Nguyen's Solutions: [Caesar Cipher](https://github.com/VanQuishi/ruby_practice/blob/master/spec/caesar_spec.rb), [Tic-Tac-Toe](https://github.com/VanQuishi/ruby_practice/blob/master/spec/tictactoe_spec.rb)
 * ChargrilledChook's Solutions: [Caesar Cipher](https://github.com/ChargrilledChook/BasicRubyProjects/blob/master/spec/caesar_spec.rb), [Tic-Tac-Toe](https://github.com/ChargrilledChook/tic-tac-toe)
@@ -132,6 +139,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * mpiriya's Solutions: [Caesar Cipher](https://github.com/mpiriya/ruby/tree/master/caesar-cipher), [Tic-Tac-Toe](https://github.com/mpiriya/ruby/tree/master/tictactoe)
 * Chow Jia Ying's Solutions: [Caesar Cipher](https://github.com/C-likethis123/ruby_odin_project/blob/master/lib/caesar_cipher.rb), [Tic-Tac-Toe](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 * Sandy's Solutions: [Caesar Cipher](https://github.com/kuosandys/top-ruby-assignments/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/kuosandys/top-ruby-assignments/tree/master/tic_tac_toe)
+* Johnny's Solutions: [Caesar Cipher](https://github.com/NotAProgrammerdork/Ruby/tree/master/caesar_cipher_spec), [TicTacToe](https://github.com/NotAProgrammerdork/Ruby/tree/master/tictactoe_spec)
+* msespos's Solutions: [Caesar Cipher](https://github.com/msespos/caesar), [Tic-Tac-Toe](https://github.com/msespos/tic-tac-toe)
 </details>
 
 ### Project: TDD Connect Four
@@ -157,6 +166,12 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [James's Solution](https://github.com/jegrieve/TDD_Connect_Four)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/connect-four)
+* [Aaron's Solution](https://github.com/Aaron-McD/connect-four)
+* [rlmoser's Solution](https://github.com/rlmoser99/ruby_connect_four)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/connect-four)
+* [Brandon Austin's Solution](https://github.com/brandonricharda/Connect-Four)
 * [Chau Nguyen' Solution](https://github.com/VanQuishi/Connect-Four)
 * [threeaces' Solution](https://github.com/threeaces/connect_4_ruby)  
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/connect_four/lib/connect_four.rb)
@@ -302,6 +317,7 @@ connect_four)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/connect-four)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/plot_four)
 * [Sandy’s Solution](https://github.com/kuosandys/top-ruby-assignments/tree/master/connect_four)
+* [Bingo's Solution](https://github.com/NotAProgrammerdork/Ruby/tree/master/connect_four_spec)
 </details>
 
 ### Additional Resources

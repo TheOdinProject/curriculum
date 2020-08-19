@@ -14,7 +14,7 @@ When the user selects one of these characters, you should check with your Rails 
 
 Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score). Once a round is complete, ask the user for his/her name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of!
 
-1. Set up a Github Repo for this project. Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) if you need help.
+1. Set up a Github Repo for this project. Follow the instructions atop the [Google Homepage project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css) if you need help.
 2. Think about what you'll need to do to get this all working together. This is where it's really helpful to think it completely through on paper or whiteboard ahead of time! A few minutes of thought can save you from wasting an hour of coding.
 3. If you're using Rails as your backend: create a new Rails application with just the bare bones required to load your HTML page for now. If you'll be using Firebase, this is a good time to create a new Firebase project for this app, and link to the necessary scripts at the bottom of your HTML page.
 4. Build the front end functionality without actually using any calls to the back end yet. Specifically, that means creating the JavaScript functionality which pops the targeting box and dropdown menu on the screen when the user clicks on the photo and removes it when the user clicks away.
@@ -36,6 +36,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Rizwan's solution](https://github.com/xRizwan/find-waldo) - [View in browser](https://xrizwan.github.io/find-waldo/)
 - [Jdonahue135's solution](https://github.com/jdonahue135/wheres-waldo) - [View in browser](https://infinite-headland-08203.herokuapp.com/)
 - [Braxton Lemmon's solution](https://github.com/braxtonlemmon/waldo-react-rails) - [View in browser](https://pumpkin-surprise-94026.herokuapp.com/)
 - [Max Garber's solution](https://github.com/bubblebooy/waldo) - [View in browser](https://guarded-citadel-26034.herokuapp.com/)
@@ -52,6 +53,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) - [View in browser](https://frozen-stream-95035.herokuapp.com/)
 - [Brendaneus' solution](https://github.com/Brendaneus/the_odin_project/tree/master/javascript/wheres-waldo) - [View in browser](https://theodinprojects.live/courses/javascript/projects/wheres-waldo)
 - [Rey van den Berg's solution](https://github.com/Rey810/Photo-Tag) - [View in Browser](https://dry-hollows-66172.herokuapp.com/)
+- [Nijepa's solution](https://github.com/nijepa/wheres-waldo) - [View in browser](https://nijepa.github.io/wheres-waldo/)
 </details>
 
 ### Additional Resources
