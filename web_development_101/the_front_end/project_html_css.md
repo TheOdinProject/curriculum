@@ -96,6 +96,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [elHerro's Solution (Easy)](https://github.com/elHerro/google-homepage) - [View in Broswer](https://elherro.github.io/google-homepage/)
+* [ayandagatsha's Solution (Easy)](https://github.com/ayandagatsha/google-homepage) - [View in Broswer](hhttps://ayandagatsha.github.io/google-homepage/)
+* [navneet473's Solution (Easy)](https://github.com/navneet473/google-homepage) - [View in Browser](https://navneet473.github.io/google-homepage/)
 * [Bbrenes' Solution (Easy)](https://github.com/BBrenes/google-homepage) - [View in Broswer](https://bbrenes.github.io/google-homepage/)
 * [juanpa89's Solution (Easy)](https://github.com/juanpa89/google-homepage-) - [View in Browser](https://juanpa89.github.io/google-homepage-/) 
 * [anthonycedeno's Solution (Easy)](https://github.com/anthonycedeno/google-homepage) - [View in Browser](https://anthonycedeno.github.io/google-homepage/)
@@ -4168,6 +4170,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [rogcald1's Solution (Easy)](http://github.com/rogcald1/google-homepage) - [View in Browser](https://rogcald1.github.io/google-homepage/)
 * [emily-n-b's Solution (Easy)](https://github.com/emily-n-b/google-homepage) - [View in Browser](https://emily-n-b.github.io/google-homepage/)
 * [iwanttostealyourdog's Solution (Easy)](https://github.com/iwanttostealyourdog/google-homepage) - [View in Browser](https://iwanttostealyourdog.github.io/google-homepage/)
+* [Brandon Araujo's Solution (Easy)](https://github.com/Brandon-Araujo/google-homepage) - [View in Browser](https://brandon-araujo.github.io/google-homepage/)
 </details>
 
 
