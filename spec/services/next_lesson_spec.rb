@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe NextLesson, :type => :service do
+RSpec.describe NextLesson do
   subject { NextLesson.new(course, lesson_completions) }
 
   let(:course) { double('Course', lessons: lessons, id: 1) }
@@ -8,18 +8,17 @@ RSpec.describe NextLesson, :type => :service do
   let(:lesson) { double('Lesson', position: 1) }
   let(:next_lesson) { double('Lesson', position: 2) }
   let(:lesson_completions) { [lesson_completion] }
-  let(:lesson_completion) {
+  let(:lesson_completion) do
     double(
       'LessonCompletion',
       lesson: lesson,
       created_at: '10-11-2017'
     )
-  }
+  end
 
   before do
     allow(lesson).to receive(:course).and_return(course)
   end
-
 
   describe '#lesson' do
     it 'returns the next lesson to complete' do

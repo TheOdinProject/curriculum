@@ -1,5 +1,23 @@
 require: rubocop-performance
+
+AllCops:
+  Include:
+    - Gemfile
+    - Rakefile
+    - config.ru
+    - lib/**/*.rake
+    - '**/*.rb'
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/*'
+    - 'node_modules/**/*'
+    - db/schema.rb
+
 Documentation:
   Enabled: false
 Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/TrailingCommaInArguments:
+  Enabled: false
+Style/TrailingCommaInHashLiteral:
   Enabled: false

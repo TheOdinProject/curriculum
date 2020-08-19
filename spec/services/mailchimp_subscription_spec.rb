@@ -42,7 +42,6 @@ RSpec.describe MailchimpSubscription do
     end
 
     context 'when an error occurs with mail chimp' do
-
       before do
         allow(members).to receive(:create).and_raise(Gibbon::MailChimpError)
       end

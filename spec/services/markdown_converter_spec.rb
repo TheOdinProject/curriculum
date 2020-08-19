@@ -1,19 +1,18 @@
 require 'rails_helper'
 
-RSpec.describe MarkdownConverter, type: :service do
+RSpec.describe MarkdownConverter do
   subject(:markdown_converter) { MarkdownConverter.new(markdown) }
 
   let(:markdown) { 'Some markdown' }
-  let(:kramdown) {
+  let(:kramdown) do
     double(
       'Kramdown::Document',
-      to_html: "<p>Some markdown</p>"
-     )
-   }
+      to_html: '<p>Some markdown</p>'
+    )
+  end
 
   before do
-    allow(Kramdown::Document).to receive(:new).with(markdown).
-      and_return(kramdown)
+    allow(Kramdown::Document).to receive(:new).with(markdown).and_return(kramdown)
   end
 
   describe '#as_html' do

@@ -4,7 +4,6 @@ RSpec.describe Notifications::DailySummary do
   subject(:notification) { described_class.new }
 
   describe '#message' do
-
     before do
       Timecop.freeze(Time.utc(2020, 4, 10))
     end
@@ -21,7 +20,6 @@ RSpec.describe Notifications::DailySummary do
   end
 
   describe '#destination' do
-
     around do |example|
       ClimateControl.modify(
         DISCORD_LESSON_COMPLETION_WEBHOOK_URL: 'Lesson Completion Channel'
@@ -33,6 +31,5 @@ RSpec.describe Notifications::DailySummary do
     it 'returns the notification destination' do
       expect(notification.destination).to eql('Lesson Completion Channel')
     end
-
   end
 end

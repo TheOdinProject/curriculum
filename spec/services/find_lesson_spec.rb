@@ -10,7 +10,6 @@ RSpec.describe FindLesson do
   let(:last_lesson) { instance_double(Lesson, position: 3) }
 
   describe '#next_lesson' do
-
     it 'returns the next lesson' do
       expect(find_lesson.next_lesson).to eql(last_lesson)
     end

@@ -13,7 +13,7 @@ end
 RSpec.describe CourseProgress do
   subject { CourseProgress.new(course, user) }
 
-  let(:lessons) { [1,2,3,4,5,6,7,8,9,10] }
+  let(:lessons) { [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }
   let(:course) { double('Course', lesson_ids: lessons) }
   let(:user) { double('User', lesson_completions: LessonCompletions.new(completed_lessons)) }
 
@@ -31,7 +31,7 @@ RSpec.describe CourseProgress do
   end
 
   context 'when user has started the course' do
-    let(:completed_lessons) { [1,2,3] }
+    let(:completed_lessons) { [1, 2, 3] }
 
     it { is_expected.to be_started }
     it { is_expected.not_to be_completed }
