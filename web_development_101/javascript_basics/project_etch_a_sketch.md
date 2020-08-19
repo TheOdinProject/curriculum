@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [adam-goodrich's Solution](https://github.com/adam-goodrich/eSketch) - [View in Browser](https://adam-goodrich.github.io/eSketch/)
 * [Rastko's Solution](https://github.com/RastkoD/The_Odin_Project/tree/master/Web_Development_101/Etch_A_Sketch) - [View in Browser](https://etch-a-sketch-byrastkod.netlify.app/)
 * [Strood's Solution](https://github.com/strood/POEcthASketch) - [View in Browser](https://strood.github.io/POEcthASketch/)
 * [jcsorgei's Solution](https://github.com/jcsorgei/etch-a-sketch) - [View in Browser](https://jcsorgei.github.io/etch-a-sketch/)
