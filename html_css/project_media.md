@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the Github [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rastko's Solution](https://github.com/RastkoD/The_Odin_Project/tree/master/HTML_and_CSS/YouTube) - [View in Browser](https://youtube-byrastkod.netlify.app/)
 * [Kevin's Solution](https://github.com/Kevlar2222/youtube/tree/master) - [View in Browser](https://kevlar2222.github.io/youtube/)
 * [Hiro's Solution](https://github.com/hrmtk/youtube-page) - [View in Browser](https://hrmtk.github.io/youtube-page/)
 * [Christian's Solution](https://github.com/rueeazy/youtube-clone) - [View in Browser](https://rueeazy.github.io/youtube-clone/)
