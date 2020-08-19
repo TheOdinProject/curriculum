@@ -149,7 +149,7 @@ GEM
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
-    friendly_id (5.3.0)
+    friendly_id (5.4.0)
       activerecord (>= 4.0.0)
     get_process_mem (0.2.5)
       ffi (~> 1.0)
@@ -476,7 +476,7 @@ DEPENDENCIES
   dotenv-rails
   factory_bot
   factory_bot_rails (~> 6)
-  friendly_id (~> 5.1)
+  friendly_id (~> 5.4)
   gibbon (~> 3.3.4)
   github_api (~> 0.19)
   jquery-rails (~> 4.4.0)
