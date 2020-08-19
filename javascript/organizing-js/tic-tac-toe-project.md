@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [THREEhundo's Solution](https://github.com/THREEhundo/tic-tac-toe)
 - [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-tictactoe) - [View in Browser](https://lucas-bide.github.io/odin-tictactoe/)
 - [Eric Mbouwe's Solution](https://github.com/EricMbouwe/TicTacToe-JS) - [View in Browser](https://eric-tic-tac-toe-js.netlify.app/)
 - [Priya Aggarwal's Solution](https://github.com/pa-aggarwal/tic-tac-toe) - [View in Browser](https://pa-aggarwal.github.io/tic-tac-toe/)
