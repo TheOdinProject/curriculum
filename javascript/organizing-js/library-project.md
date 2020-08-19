@@ -41,7 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [pir4cy's Solution (Movie Library w/ Firebase](https://github.com/pir4cy/library-project - [View in Browser](https://pir4cy.github.io/library-project)
+- [pir4cy's Solution (Movie Library w/ Firebase](https://github.com/pir4cy/library-project) - [View in Browser](https://pir4cy.github.io/library-project)
 - [Daniel Solomon's Solution](https://github.com/danisolo91/library) - [View in Browser](https://danisolo91.github.io/library/)
 - [Jordan Leivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/Javascript/Library/) - [View in Browser](https://jleivers.github.io/The-Odin-Project/Javascript/Library/)
 - [Eco-developer's Solution (w/ localstorage)](https://github.com/Eco-developer/library) - [View in Browser](https://eco-developer.github.io/library/)
