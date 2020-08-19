@@ -1896,5 +1896,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Aditya Rajyaguru's Solution](https://github.com/AdityaRajyaguru/rps) - [View in Browser](https://adityarajyaguru.github.io/rps/)
 - [evonloch's Solution](https://github.com/evonloch/Rock-Paper-Scissors) - [View in Browser](https://evonloch.github.io/Rock-Paper-Scissors/)
 - [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/rock-paper-scissors) 
-- [yiyuanyi's Solution] (https://github.com/yiyuanyi/rock-paper-scissors)
+- [yiyuanyi's Solution](https://github.com/yiyuanyi/rock-paper-scissors)
 </details>
