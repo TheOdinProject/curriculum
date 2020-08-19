@@ -167,18 +167,19 @@ From the Rails Guide:
 ~~~
 
 ~~~erb
-  #app/views/articles/new.html.erb
+  # app/views/articles/new.html.erb
   <%= form_with model: @article do |form| %>
     <%= form.text_field :title %>
-    <%= f.submit "Create" %>
+    <%= form.submit "Create" %>
   <% end %>
 ~~~
 
 This will produce the following HTML:
 
 ~~~html
-  <form action="/articles" method="post" data-remote="true">
+<form action="/articles" method="post" data-remote="true">
   <input type="text" name="article[title]">
+  <input type="submit" value="Create">
 </form>
 ~~~
 
@@ -191,7 +192,7 @@ The `form_with` helper combines features of these other tags to provide a much b
 
 ### Forms and Validations
 
-What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some Javascript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form.
+What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some JavaScript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form.
 
 You'll probably want to display the errors so the user knows what went wrong.  Recall that when Rails tries to validate an object and fails, it attaches a new set of fields to the object called `errors`.  You can see those errors by accessing `your_object_name.errors`.  Those errors have a couple of handy helpers you can use to display them nicely in the browser -- `#count` and `#full_messages`.  See the code below:
 

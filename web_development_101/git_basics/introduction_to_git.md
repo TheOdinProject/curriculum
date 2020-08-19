@@ -39,7 +39,7 @@ By the end of this lesson, you should be able to do the following:
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [Git and Github in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
+* [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
@@ -69,7 +69,7 @@ This section contains questions for you to check your understanding of this less
 <details>
 <summary>Does GitHub work at a local or remote level?</summary>
 <ul><ul>
-  <li>GitHub works on a remote level. You must push your local changes (using Git) to Github.</li>
+  <li>GitHub works on a remote level. You must push your local changes (using Git) to GitHub.</li>
 </ul></ul>
 </details>
 
