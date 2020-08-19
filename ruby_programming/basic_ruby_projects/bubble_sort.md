@@ -510,10 +510,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/blob/master/bubble_sort.rb)
 * [vongk97's Solution](https://github.com/vongk97/ruby/blob/master/bubble_sort.rb)
 * [brentguf's Solution](https://github.com/brentguf/bubble-sort/blob/master/script.rb)
-<<<<<<< HEAD
 * [Christopher's Solution](https://github.com/christopheralagna/ruby-practice/blob/master/bubble_sort.rb)
-
-=======
 * [robertompfm's Solution](https://github.com/robertompfm/bubble-sort-ruby/blob/master/bubble_sort.rb)
->>>>>>> 997de25cf5e4f19e76f60dffbd228fcff9f690f3
 </details>
