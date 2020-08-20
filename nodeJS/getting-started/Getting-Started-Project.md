@@ -36,6 +36,9 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Charles Ivia's Solution](https://github.com/CharlesIvia/info-site)
+- [benajamin-gambling's Solution](https://github.com/benjamin-gambling/NodeJS/tree/master/basic-info-site)
+- [selectiveduplicate's solution](https://github.com/selectiveduplicate/op-projects/tree/master/nodeJS/basicInformationalSite)
 - [azrilhafizi's Solution](https://github.com/azrilhafizi/odinproject-nodejs)
 - [vonhoro's Solution](https://github.com/vonhoro/Small-server)
 - [Sherman's Solution](https://github.com/shermansjliu/basic-informational-site) - [View in Browswer](https://repl.it/github/shermansjliu/basic-informational-site)
@@ -95,4 +98,5 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Reynard's Solution](https://github.com/ranoot/basic-nodejs-site) - [View in Browser](https://repl.it/@ranoot/basic-nodejs-site)
 - [RoopSai's Solution](https://github.com/sroopsai/basic-information-site) - [View in Browser](https://basic-information-site.roopsai.repl.co/)
 - [elijahjorell's Solution](https://github.com/elijahjorell/the-odin-project/tree/master/node.js/projects/basic-informational-site)
+- [Nijepa's Solution](https://github.com/nijepa/basic-informational-site) - [View in Browser](https://basic-informational-site.nijepa.repl.co/)
 </details>

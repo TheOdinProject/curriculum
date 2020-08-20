@@ -24,6 +24,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [hnguye's Solution](https://github.com/hnguye/apple-2012-clone) - [View in Browser](https://hnguye.github.io/apple-2012-clone/)
+* [Ideopunk's Solution](https://github.com/Ideopunk/background-practice/) - [View in Browser](https://ideopunk.github.io/background-practice/index.html)
 * [Lamia's Solution](https://github.com/LamiaSristy/Apple-clone) - [View in Browser](https://raw.githack.com/LamiaSristy/Apple-clone/feature1/index.html)
 * [Alex Zambrano's Solution](https://github.com/Alexoid1/Building-with-Backgrounds-and-Gradients) - [View in Browser](https://alexoid1.github.io/Building-with-Backgrounds-and-Gradients/)
 * [Kevin Alves's Solution](https://github.com/kevdeveloper/Apple-project) - [View in Browser](https://rawcdn.githack.com/Kevinalvesdev/Apple-project/92947866fac4fa7c9fcd92cbc9798897b3d0e898/index.html)
@@ -154,6 +156,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/apple-clone) - [View in Browser](https://timework.github.io/apple-clone/)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/old-apple-clone) - [View in Browser](https://ansellmaximilian.github.io/old-apple-clone/)
 * [Kenneth H's Solution](https://github.com/kholston/old-apple) - [View in Browser](https://kholston.github.io/old-apple/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/backgrounds-n-gradiants)
 </details>
 
 ### Additional Resources
