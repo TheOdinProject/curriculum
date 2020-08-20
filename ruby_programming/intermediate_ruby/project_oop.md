@@ -419,6 +419,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/tic_tac_toe)
 * [Madaja’s Solution](https://github.com/madaja/tictactoe)
 * [brentguf’s Solution](https://github.com/brentguf/tic-tac-toe/blob/master/script.rb)
+* [DM-Murphy's Solution](https://github.com/dm-murphy/tic_tac_toe)
 </details>
 
 ### Project 2: Mastermind
