@@ -4174,9 +4174,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [emily-n-b's Solution (Easy)](https://github.com/emily-n-b/google-homepage) - [View in Browser](https://emily-n-b.github.io/google-homepage/)
 * [iwanttostealyourdog's Solution (Easy)](https://github.com/iwanttostealyourdog/google-homepage) - [View in Browser](https://iwanttostealyourdog.github.io/google-homepage/)
 * [Brandon Araujo's Solution (Easy)](https://github.com/Brandon-Araujo/google-homepage) - [View in Browser](https://brandon-araujo.github.io/google-homepage/)
+* [Vaibhav Dhawan's Solution (Easy)](https://vabd222.github.io/google-homepage/) - [View in Browser](https://vabd222.github.io/google-homepage/)
 </details>
-* [Vaibhav Dhawan's Solution (Easy)](https://vabd222.github.io/google-homepage/)- [View in Browser](https://vabd222.github.io/google-homepage/)
-
 
 ### Additional Resources
 
