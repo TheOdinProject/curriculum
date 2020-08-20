@@ -118,6 +118,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [jamesredux's Solution](https://github.com/Jamesredux/tnw-clone) - [View in Browser](https://jamesredux.github.io/tnw-clone/)
 * [bhenning's Solution](https://github.com/bhenning83/TNW-magazine) - [View in Browser](https://bhenning83.github.io/TNW-magazine/)
 * [Timework's Solution](https://github.com/Timework/responsive-design) - [View in Browser](https://timework.github.io/responsive-design/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/responsive_design)
 </details>
 
 ### Additional Resources
