@@ -24,6 +24,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/apple-clone) - [View in Browser](https://rueeazy.github.io/apple-clone/)
 * [hnguye's Solution](https://github.com/hnguye/apple-2012-clone) - [View in Browser](https://hnguye.github.io/apple-2012-clone/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/background-practice/) - [View in Browser](https://ideopunk.github.io/background-practice/index.html)
 * [Lamia's Solution](https://github.com/LamiaSristy/Apple-clone) - [View in Browser](https://raw.githack.com/LamiaSristy/Apple-clone/feature1/index.html)
