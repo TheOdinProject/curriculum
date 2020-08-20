@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [NightShop's Solution](https://github.com/NightShop/RockPaperScissorsJS) - [View in Browser](https://nightshop.github.io/RockPaperScissorsJS/)
 - [dkhole's Solution](https://github.com/dkhole/rock-paper-scissors) - [View in Browser](https://dkhole.github.io/rock-paper-scissors/)
 - [max-marquez's Solution](https://github.com/Max-Marquez/rock-paper-scissors) - [View in Browser](https://max-marquez.github.io/rock-paper-scissors/)
 - [ruimpcastro's Solution](https://github.com/ruimpcastro/rock-paper-scissors) - [View in Browser](https://ruimpcastro.github.io/rock-paper-scissors/)
