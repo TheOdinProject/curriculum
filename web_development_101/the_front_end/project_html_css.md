@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kerry Edwardson's solution (Easy)](https://github.com/kerryedwardson/google-homepage) - [View in Browser](https://kerryedwardson.github.io/google-homepage/)
 * [Galo's solution (Easy)](https://github.com/galoantreas/google-homepage) - [View in Browser](https://galoantreas.github.io/google-homepage/)
 * [Galo's solution (Difficult)](https://github.com/galoantreas/google-homepage) - [View in Browser](https://galoantreas.github.io/google-homepage-2/)
 * [AFurrow's Solution (Easy)](https://afurrow.github.io/google-homepage/) - [View in Browser](https://afurrow.github.io/google-homepage/)
@@ -4175,6 +4176,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [iwanttostealyourdog's Solution (Easy)](https://github.com/iwanttostealyourdog/google-homepage) - [View in Browser](https://iwanttostealyourdog.github.io/google-homepage/)
 * [Brandon Araujo's Solution (Easy)](https://github.com/Brandon-Araujo/google-homepage) - [View in Browser](https://brandon-araujo.github.io/google-homepage/)
 * [Vaibhav Dhawan's Solution (Easy)](https://vabd222.github.io/google-homepage/) - [View in Browser](https://vabd222.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
