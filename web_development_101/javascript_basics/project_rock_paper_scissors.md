@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dkhole's Solution](https://github.com/dkhole/rock-paper-scissors) - [View in Browser](https://dkhole.github.io/rock-paper-scissors/)
 - [max-marquez's Solution](https://github.com/Max-Marquez/rock-paper-scissors) - [View in Browser](https://max-marquez.github.io/rock-paper-scissors/)
 - [ruimpcastro's Solution](https://github.com/ruimpcastro/rock-paper-scissors) - [View in Browser](https://ruimpcastro.github.io/rock-paper-scissors/)
-- [justinsatorre's Solution](https://github.com/justinsatorre/rock-paper-scissors)
+- [justinsatorre's Solution](https://github.com/justinsatorre/rock-paper-scissors) - [View in Browser](https://justinsatorre.github.io/rock-paper-scissors/)
 - [gswy62's Solution](https://github.com/gswy62/rock-paper-scissors)
 - [rjbullough's Solution](https://github.com/rjbullough/rock_paper_scissors/) - [View in Browser](https://rjbullough.github.io/rock_paper_scissors/)
 - [nguyenjessev's Solution](https://github.com/nguyenjessev/rock-paper-scissors) - [View in Browser](https://nguyenjessev.github.io/rock-paper-scissors/)
