@@ -10,7 +10,7 @@ V. Anton Spraul defines problem solving in programming as:
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
-New programmers often find problem solving the hardest skill to build, it's not uncommon for budding programmers to breeze through learning syntax and programming concepts. Yet when trying to code something on their own they find themselves staring blankly at their text editor not knowing where to start. You may had been frustrated solving the Web 101 projects, exactly in this position.
+New programmers often find problem solving the hardest skill to build, it's not uncommon for budding programmers to breeze through learning syntax and programming concepts. Yet when trying to code something on their own they find themselves staring blankly at their text editor not knowing where to start. 
 
 The best way to improve your problem solving ability is by building experience by making lots and lots of programs. The more practice you have the better you'll be prepared to solve real world problems.
 
