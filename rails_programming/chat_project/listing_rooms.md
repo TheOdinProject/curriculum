@@ -548,11 +548,11 @@ using the record you provide.
 
 Ahhh. We neither have any existing records in our database nor have we provided one.
 
-The solution here is to create a record that the validator can load. To create a new record we can use an rspec hook called [before](https://relishapp.com/rspec/rspec-core/v/3-9/docs/hooks/before-and-after-hooks) to create a record before any examples are run. In this case we don't need to load the record before each rspec example is executed so we can run it once before the suite of tests is evaluated. RSpec uses the `:context` argument for this. At the top of our file underneath the opening describe block let's create a new record.
+The solution here is to create a record that the validator can load. To create a new record we can use an rspec hook called [before](https://relishapp.com/rspec/rspec-core/v/3-9/docs/hooks/before-and-after-hooks) to create a record before any examples are run. RSpec provides the `context` and `example` options to define when the object should be created. `example` creates an object before each test and `context` creates it before all the examples are run. It may seem preferable to use `context` but one crucial difference is that anything created in a `before(:context)` hook isn't undone after the test suite finishes. As a result if a record was created it would remain in our test database after the tests had finished. This bleed across tests is dangerous and can result in tests giving false positive results or failing when it should pass. A gem was created to handle this called [database cleaner](https://github.com/DatabaseCleaner/database_cleaner) but we can just use the `(:example)` hook for now as our test suite won't grow too large. Do take a look at the database cleaner gem though to get an idea of how it might help you with your own projects. 
 
 ```ruby
 RSpec.describe Room, type: :model do
-  before(:context) { Room.create(name: 'Cry for help') }
+  before(:example) { Room.create(name: 'Cry for help') }
 end
 ```
 
@@ -806,5 +806,140 @@ You may be wondering how we generate the correct path when we are passing in a r
 <%= link_to room.name, room %>
 ```
 
-Refreshing your browser should still show the message that there are no rooms. We need to create some rooms first in order to show up in our list. Let's tackle that next.
+Refreshing your browser should still show the message that there are no rooms. We need to create some rooms first in order to show up in our list. Before we tackle that though let's consider writing a test to ensure this works as expected and to protect ourselves so that we can continue progressing with our app
 
+We can't write a unit test like we did for the models above, you may come across controller tests which are similar to unit tests for the controller action but they have fallen out of favour as integration tests (tests that mimic a user interaction with the application) test your controllers as part of their process. Therefore we will write an integration test that will interact directly with our app and test that viewing the rooms index page when no rooms are created shows the message "There are no rooms". You may wonder whether we should also write one to test if a room exists whether you see that listed rather than the message that there are no rooms. It would ensure we cover that edge case but integration tests are slower than unit tests and should be used sparingly. We might write a test for it if it wasn't going to be tested anywhere else but when we test that we can view a room we will do so by mimicking user interaction with our site which will test you can click through to see a room from the rooms index page.
+
+To get started inside spec create a new directory called `system/`. This is where we can house our system tests.
+
+Now inside our `system` directory we can create our first test. Rails has a generator for system tests and Rspec provides a wrapper around this.
+
+In the terminal in the project directory write
+
+```bash
+bundle exec rails generate rspec:system room_list
+```
+
+This will generate a system test called `room_lists_spec.rb` inside our system folder. Let's open it up and have a look.
+
+```ruby
+require 'rails_helper'
+
+RSpec.describe "RoomLists", type: :system so
+  before do
+    driven_by(:rack_test)
+  end
+
+  pending "add some scenarios (or delete) #{__FILE__}"
+end
+```
+
+System tests are executed in a browser so that we can accurately mimic user interaction with our app. We also need a web server in order to create a server to respond to our user requests in the browser and a test runner to execute the tests. The web server used is puma, which you will see is specified in our Gemfile and our test runner is RSpec. That just leaves the browser. There are many options to mimic a browser interaction but we need to ensure it's as lightweight as possible to make tests faster. It is possible to actually watch the system automate the tests by seeing it open a web browser and click through the application but it is quite slow and defeats the purpose of an automated test. A popular option is therefore headless chrome. Which is a chrome instance that runs without having to open a browser. That is a good option to mimic using a popular browser and certainly a requirement for any tests that require the use of javascript. For any test that doesn't need that though we can use [rack test](https://github.com/rack/rack-test) which is a small testing api for rack apps that can mimic simple browser interaction. As our test here doesn't rely on any javascript code then using rack test can make our system tests faster.
+
+We can see that by default RSpec sets the tests to be driven by rack_test. This is fine for our needs.
+
+A system test should accurately describe what is being tested so "RoomLists" in the opening describe block should be amended. Let's do that and write our first system test
+
+```ruby
+Rspec.describe "Room Index List", type: :system do
+  before do
+    driven_by(:rack_test)
+  end
+
+  it 'shows a message to create a room if no rooms exist' do
+    visit root_path
+    click_on "Rooms"
+
+    expect(page).to have_content "Please create a room to start chatting"
+    expect(page).not_to have_selector('ul.menu-list')
+  end
+end
+```
+
+Let's break down what is happening here.
+
+We first visit our root_path which is our home page as set in the rails routes. `root_path` is just a standard rails helper method for paths. We then click on "Rooms". [click_on](https://rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Actions:click_on) searches for a link or button. The locator string, in this case `"Rooms"` is an option to find a link or button by its text content. That string locator doesn't have to be the link or button text, the locator can be any of the following: text, id, test_id attribute, title or nested image's alt attribute. So we could have given our element an id and used that, or a test_id attribute.
+
+We have now successfully navigated to the correct page and we don't need to interact with the browser any further. We now want to test our page is rendering as expected. Our first expectation is that if no rooms exist our page displays the text from our rooms_list partial that the user needs to create a room. We pass `page` to the expect method. page represents the full web browser content. You can be more specific and target only part of a page which may be useful if you want to assert some text shows up or doesn't show up somewhere on a page where it might be present elsewhere but for this purpose checking the entire page is fine.
+
+The last expectation is checking that the page does not have a css targetable element `ul.menu-list`. This represents a ul element with a class of `menu-list`. If you look at the rooms_list partial in the views/rooms/ directory you will note that if `@rooms` does contain any rooms then we create a list `<ul class="menu-list">`. If no rooms exist then this element should not be created. Both of our expectations together test that our page can't have both a list of rooms and the text to please create a room. When we actually create some rooms then we can test that the page doesn't contain the text to create a room.
+
+Run the test now and .... it fails! Let's check out the failure message. 
+
+#TODO show failure message
+
+This happened because we don't have any way to navigate to our Rooms index page from our home page. However, that doesn't make our test wrong. It shows us we are missing a vital part of any application, the ability to move easily around the different areas of the page. Let's fix that.
+
+As we want the navbar to be visible on all pages it needs to be put in a place that is loaded with every page request. The one view guaranteed to load on every page request is application.html.erb which is found in the views/layouts directory. If you take a look at that file you will see `<%= yield %>` inside the `<body>` tags.
+
+# TODO explain the use of yield inside 
+
+We can add any code inside of our application which will be called in the order it is provided. Therefore if we want a navbar we can place it before the yield statement and if we want a footer we coud place it afterwards.
+
+Bulma provides us with a nice [navbar](https://bulma.io/documentation/components/navbar/) we can use to do the heavy lifting of a nice display without having to write much css ourselves.
+
+Open up application.html.erb in app/views/layouts and above the yield keyword let's add the following code
+
+```html
+<div class="navbar" role="navigation", aria-label="main navigation">
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <%= link_to "Rooms", rooms_path, class: 'navbar-item' %>
+    </div>
+  </div>
+</div>
+```
+
+None of the syntax should be unfamiliar to you. The classes come from Bulma stylings and the link_to is something we've covered already.
+
+Now if you refresh the page you should see a handy link at the top of the page to take us to the rooms index page whenever we need to get there.
+
+Not only that but we also have a place to put the login and logout links once we have created our user model.
+
+We could leave it here but to clean this up a little bit we can move the navbar code into a partial and just render it from the application.html.erb file. This will keep it clean and easy to navigate should we need to add more to it.
+
+First in app/views create a new folder called `shared` which we can use to hold any partials that are going to be used across several different views and then inside shared create a file called `_navbar.html.erb` and then cut and paste the code you wrote above into it.
+
+Now all we need to do is where we had our navbar code before, just above yield add
+
+```html
+<%= render 'shared/navbar' %>
+```
+
+Refresh your browser and you should see nothing has changed, but our application html file looks neater and will be easier to work with should we need to edit it again.
+
+# TODO decide if a footer is required
+
+Going back to our system test you should now be able to run this test in your terminal and it should come back green. Now the tests are passing comes the refactor stage. The test itself is fine but I don't like that each test is going to have that before hook to set rack_test. We can avoid this by setting this as the default option in our RSpec config. As this relates to support for a test configuration we can create a file in our `spec/support` directory. Remember that earlier we set our RSpec configuration up to automatically require all files in the support directory.
+
+In support create a file called `system_test_support.rb` and inside the file add the following configuration lines
+
+```ruby
+RSpec.configure do |config|
+  config.before(:each, type: :system) do
+    driven_by :rack_test
+  end
+end
+```
+
+This sets rack_test as the default option for system tests. Later when we need to tests to include javascript code we can see an additional option to run such tests using a different driver. For now though we don't need to worry. Save and close this file.
+
+Now back in our system test go ahead and delete the before hook.
+
+```ruby
+Rspec.describe "Room Index List", type: :system do
+  it 'shows a message to create a room if no rooms exist' do
+    visit root_path
+    click_on "Rooms"
+
+    expect(page).to have_content "Please create a room to start chatting"
+    expect(page).not_to have_selector('ul.menu-list')
+  end
+end
+```
+
+Run the test and it should still be green. Whenever we create future system tests you can just delete the before block that comes configured with it.
+
+We now have working tests for our room model and checking our rooms index page looks as we expect. We don't need to run expectations that all text appears as that is something you will do visually in your own browser when you tweak the look and feel of an application. Our system tests should just check that where some content is only displayed conditionally that it appears when the condition is met.
+
+It is prudent at the end of a section to run all tests and make sure they all still pass before you move on. Do that now using `bundle exec rspec` in your terminal.

@@ -1,16 +1,14 @@
 Part of writing a program is refactoring your code when you see an opportunity present itself and once done leaves the code in a better state. Refactoring code is especially important if you notice a code smell.
 
-#TODO intro to code smells
+[Code smells](https://en.wikipedia.org/wiki/Code_smell) are parts of our code that indicate a deeper problem.
 
 The topic of recognising code smells is an exhaustive one and they are much easier to learn as you write your own code and notice something doesn't feel right. We'll cover some common code smells as we go through this course and we'll explain how we recognised them and what we can do about them.
-
-#TODO discuss and decide if we actually add this description to the table to better illustrate to just conceptually discuss
 
 To illustrate how we might recognise a code smell let's say that we decide that our rooms need a description to go with their name so we need to add a description column to our rooms table in the database. We want the description to have to be provided so we add a validation to the model and then we need to update the new room view to add that input field in our form.
 
 Everything is great and we can now create rooms and add a wonderful description to them. You decide that one of the rooms has the wrong name so you try to edit it. You update the room name and try to save it but now you start getting errors telling you no description can't be blank and you realise that when you updated the new room form you didn't also update the edit one.
 
-Now, there are times when this is unavoidable. A change in your code requires you to update several places each time. And there may be times when you just aren't sure which way your code is going to go when you are finished with it, so prematurely extracting code and moving it around can actually make it worse later. In this instance though we know for sure that whether creating a new room, or editing an existing one you are always going to want to display the same form fields and for that reason the fact you're having to update both forms each time you change the model means yous spider sense should be tingling.
+Now, there are times when this is unavoidable. A change in your code requires you to update several places each time. And there may be times when you just aren't sure which way your code is going to go when you are finished with it, so prematurely extracting code and moving it around can actually make it worse later. This is known as Premature Abstraction and is itself a code smell. In this instance though we know for sure that whether creating a new room, or editing an existing one you are always going to want to display the same form fields and for that reason the fact you're having to update both forms each time you change the model means yous spider sense should be tingling.
 
 Further, if you do have a look at your new and edit forms side by side in your IDE you should realise that they are in fact identical.
 
@@ -48,7 +46,7 @@ Now all we need to do is open the edit.html.erb view in the rooms directory and 
 <%= render "room_form" %>
 ```
 
-Now if you try and edit a room you should see the same form you did previously.
+Now if you try and edit a room you should see the same form you did previously. Whenever you make a change like this run your full test suite afterwards to ensure a change in code hasn't broken any tests. They should all still be green.
 
 Now that this has been finished let's consider what we just did. Both our new and edit views started and finished being identical but by extracting the form out into a partial if we need to change the form, such as add a new input field, we only need to make the change in one place. We've removed the code smell which in this case was having to change the same code in two places whenever a change to the room form was made.
 
@@ -75,7 +73,7 @@ If all went according to plan you should now have a file called `_room_list.html
         <div class="level">
           <%= link_to room.name, room_path(room), class: 'room-link' %>
           <div class="level-right">
-            <%= link_to edit_room_path(room) do %>
+            <%= link_to edit_room_path(room), data: { test_id: edit_test_attribute(room.name) } do %>
               <span class="icon">
                 <i class="fas fa-edit"></i>
               </span>
@@ -97,3 +95,7 @@ If all went according to plan you should now have a file called `_room_list.html
   </div>
 <% end %>
 ```
+
+Run the test suite again and make sure no tests are failing.
+
+Code smells, if left too long, can become a real problem to fix. Make sure when you write tests and the code to make it pass that you then do refactor. Knowing when to refactor and when you have done enough comes with experience. While abstracting can dry up your code it adds another layer to your code which can make it harder to follow. In our cases above the extraction of the partial was done after we experienced several times having to update two different views each time we wanted to make one change to our code. It was an appropriate time to refactor.

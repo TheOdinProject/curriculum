@@ -8,6 +8,8 @@ We will be using the popular Ruby testing library RSpec for our application and 
 
 RSpec provides an [rspec-rails](https://github.com/rspec/rspec-rails) gem with easy to follow instructions.
 
+We'll also be using [capybara](https://github.com/teamcapybara/capybara) which makes working with tests that need to interact with a browser super easy.
+
 To set this up we need to open up the Gemfile in whatever editor you use and find the development and testing part of the Gemfile. It should look like this.
 
 ```ruby
@@ -17,13 +19,14 @@ group :development, :test do
 end
 ```
 
-Within that group just underneath the line with `gem 'byebug'` on add the following line:
+Within that group just underneath the line with `gem 'byebug'` on add the following lines:
 
 ```ruby
+gem 'capybara'
 gem 'rspec-rails', '~> 4.0.0'
 ```
 
-It's a good idea when adding gems to give them a version you want to use. In our case we specified `~> 4.0.0` which tells bundler to install the rspec-rails gem that is greater than version 4.0.0 but less than version 4.1. This allows us to update our gems incrementally as different versions can introduce breaking changes.
+It's a good idea when adding gems to give them a version you want to use. In our case we specified `~> 4.0.0` which tells bundler to install the rspec-rails gem that is greater than version 4.0.0 but less than version 4.1. This allows us to update our gems incrementally as different versions can introduce breaking changes. For capybara we just want to latest version.
 
 Make sure you have saved the Gemfile and then in the terminal run
 
