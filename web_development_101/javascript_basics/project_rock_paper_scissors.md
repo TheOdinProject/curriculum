@@ -1902,4 +1902,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [evonloch's Solution](https://github.com/evonloch/Rock-Paper-Scissors) - [View in Browser](https://evonloch.github.io/Rock-Paper-Scissors/)
 - [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/rock-paper-scissors) 
 - [yiyuanyi's Solution](https://github.com/yiyuanyi/rock-paper-scissors)
+- [arthursiq5's solution](https://github.com/arthursiq5/rock-paper-scissors-js) - [View in Browser](https://arthursiq5.github.io/rock-paper-scissors-js/)
 </details>
