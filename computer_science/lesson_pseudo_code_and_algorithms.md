@@ -22,13 +22,13 @@ Look through these now and then use them to test yourself after doing the assign
 
 Before we get into algorithms, we need to understand what pseudo-code is and how one writes pseudo-code. Pseudo-code isn't code that you run on your machine; it's code like your native language that you write down on a piece of paper or in some text editor as a way of "working out" how you'd solve a particular problem. It's a bit like working out a math problem on paper! Let us tackle a very simple problem. We wish to count in twos, from 0 to 10, and print the value! We shall write something english-like, like so:
 
-¬¬¬ ruby
+~~~ruby
   let n = 0
   let addition = 2
   until n equals 10 do
     set n = n + 2
     print n
-¬¬¬
+~~~
 
 Here, we can break down what we've done step by step. We have set variables n, and addition, to 0 and 2 respectively. We then add our addition value to our n value, and set our n variable to that new value. We print out what n is, and then we check if n has a value of 10.
 

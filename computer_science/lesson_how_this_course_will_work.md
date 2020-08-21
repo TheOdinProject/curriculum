@@ -23,7 +23,7 @@ The next lesson will discuss a concept called `pseudo-code`; with an example. Mo
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-    1. Brush up on your maths, and understand what factorials, indices and logarithms are.
-    2. If you haven't already learned the basics of a language, do so. [Ruby](https://www.theodinproject.com/courses/ruby-programming) and [Javascript](https://www.theodinproject.com/courses/javascript) are offered by The Odin Project
+  1. Brush up on your maths, and understand what factorials, indices and logarithms are.
+  2. If you haven't already learned the basics of a language, do so. [Ruby](https://www.theodinproject.com/courses/ruby-programming) and [Javascript](https://www.theodinproject.com/courses/javascript) are offered by The Odin Project
 </div>
 
