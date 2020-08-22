@@ -22,7 +22,7 @@ Sometimes a program just won't work properly so you need to go to Plan B.  In ou
 
 [This tutorial](http://www.techrepublic.com/blog/google-in-the-enterprise/quick-tip-set-up-a-google-hangout-for-web-conferencing/2064) describes setting up a hangout session, though they don't get into the actual remote pairing side of things.  **Basically, just click [this link](https://plus.google.com/hangouts/_/) to open a new hangout once you've got the plugin installed.**
 
-The easy way is to just screenshare the code, which means one person will be the driver by default and the other will be the navigator (since it's a one-way screen share not a remote desktop).  When it's time to switch, push your code up to Github and have the other partner pull it down from that repository.
+The easy way is to just screenshare the code, which means one person will be the driver by default and the other will be the navigator (since it's a one-way screen share not a remote desktop).  When it's time to switch, push your code up to GitHub and have the other partner pull it down from that repository.
 
 A slightly more interactive way is by using the Hangouts feature called Remote Desktop, which lets your partner use your computer like maybe you've experienced before with tech support.  You'll usually have to activate that feature once you're inside the hangout by clicking on it on the lefthand sidebar.  If it's not there, you may need to click on the three-dots icon on that same sidebar and then click "Add Apps" and find Remote Desktop yourself.
 

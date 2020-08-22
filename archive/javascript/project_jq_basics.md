@@ -4,14 +4,14 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a GitHub Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document with just the `<html>` and `<body>` tags to begin with plus a single div called `<div id="content">`. Also, remember to include the jQuery library in your document within the `<head>`.
 3. Go into the console (remember the developer tools at the bottom of your browser?) and manually use jQuery to add an image tag to the content div (just choose a random Internet image).  Remember that you can use the up arrow in the console to access your previous command.  Look at the [jQuery docs for the .append() function](https://api.jquery.com/append/) for inspiration.
 4. Create a bare-bones home page for a restaurant.  Include an image, headline, and some copy about how wonderful the restaurant is.  It's okay to hard-code these into the HTML for now just to see how they look on the page.
 5. Now remove those elements from the HTML (so leave only the `<html>`, `<body>`, and `<div id="content">` tags) and instead  create them by using Javascript only, e.g. by appending each new element to the `div#content` once the page is first loaded.
 6. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages.  [Look at #7 on this hongkiat post](http://www.hongkiat.com/blog/50-nice-clean-css-tab-based-navigation-scripts/) for visual inspiration.  The key here is that each tab should NOT link to a different HTML page... it should instead trigger a Javascript function to wipe out the current page then create the desired page.  It might be easiest to first create three separate HTML pages and then convert them into Javascript.
 7. Keep it simple!  When you click the next tab, your Javascript should automatically remove the "Menu" elements and add in the "Home" elements.
-8. Push your project to Github and share the solution below.
+8. Push your project to GitHub and share the solution below.
 </div>
 
 

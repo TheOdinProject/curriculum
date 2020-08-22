@@ -30,7 +30,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 #### Basic Setup
 
 1. Think about and spec out how to set up your data models for this application.  You'll need users with the usual simple identification attributes like name and email and password but also some sort of indicator of their member status.  They'll need to create posts as well.
-2. Create your new `members-only` Rails app and Github repo.  Update your README.
+2. Create your new `members-only` Rails app and GitHub repo.  Update your README.
 3. Add devise to your Gemfile and install it in your app using set up instructions on the devise [README](https://github.com/heartcombo/devise)
 
 #### Authentication and Posts
@@ -51,7 +51,7 @@ Let's build those secrets!  We'll need to make sure only signed in users can see
 </div>
 
 ### Student Solutions
-Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/forms_and_authentication/project_auth.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/forms_and_authentication/project_auth.md) so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
@@ -93,7 +93,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Max Garber's Solution](https://github.com/bubblebooy/members-only)
 * [Btreim's Solution](https://github.com/btreim/members-only)
 * [0zra's Solution](https://github.com/0zra/members-only)
-* [Roman Alenskiy's Solution] (Mobile-friendly) [Github](https://github.com/romalenskiy/secret_lodge) / [Heroku](https://secret-lodge.herokuapp.com/)
+* [Roman Alenskiy's Solution] (Mobile-friendly) [GitHub](https://github.com/romalenskiy/secret_lodge) / [Heroku](https://secret-lodge.herokuapp.com/)
 * [Javier Machin's Solution](https://github.com/Javier-Machin/members-only)
 * [theghall's Solution](https://github.com/theghall/odin-members-only.git)
 * [Jmooree30's Solution](https://github.com/jmooree30/members_only.git) - [View in Browser](https://sheltered-chamber-33561.herokuapp.com/)
@@ -182,7 +182,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Leila Alderman's Solution](https://github.com/leila-alderman/members-only) - [View in Browser](https://fierce-bayou-19850.herokuapp.com/)
 * [JamCry's Solution](https://github.com/jamcry/members-only-app) - [View on Heroku](https://quiet-hamlet-54958.herokuapp.com/)
 * [vanny96's Solution](https://github.com/vanny96/clubhouse) - [View on Heroku](https://shrouded-brushlands-95445.herokuapp.com/)
-* [themetar's Solution (Github)](https://github.com/themetar/members-only-top) - [Live on Heroku](https://mysterious-coast-30783.herokuapp.com/)
+* [themetar's Solution (GitHub)](https://github.com/themetar/members-only-top) - [Live on Heroku](https://mysterious-coast-30783.herokuapp.com/)
 * [Nyaga Roy's Solution](https://github.com/RoyNyaga/new_members_blog_odin)
 * [Miguel Prada's Solution](https://github.com/mapra99/m-only)
 * [Rey van den Berg's Solution](https://github.com/Rey810/members-only-app.git)

@@ -45,9 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Spike's Solution](https://github.com/superspike7/Calculator) - [View in Browser](https://superspike7.github.io/Calculator/)
-=======
+- [dkhole's Solution](https://github.com/dkhole/calculator) - [View in Browser](https://dkhole.github.io/calculator/)
+- [Bibabyte's Solution](https://github.com/bibabyte/TOPCalc) - [View in Browser](https://bibabyte.github.io/TOPCalc/)
+- [Strood's Solution](https://github.com/strood/POCalculator) - [View in Browser](https://tender-haibt-cec4a0.netlify.app/)
 - [iaderdor's Solution](https://github.com/iaderdor/calculator) - [View in Browser](https://iaderdor.github.io/calculator/calculator.html)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/Calculator) - [View in Browser](https://nicolasarayab.github.io/Calculator/)
 - [Neil's Solution](https://github.com/neilkurien/calculator) - [View in Browser](https://neilkurien.github.io/calculator/)
@@ -102,7 +103,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [marslavish's Solution](https://github.com/marslavish/calculator) - [View in Browser](https://marslavish.github.io/calculator/)
 - [Alexander Glez's Solution](https://github.com/Covicale/Calculator) - [View in Browser](https://covicale.github.io/Calculator/)
 - [Matthew's Solution](https://github.com/MatthewKissinger/calculator) - [View in Browser](https://matthewkissinger.github.io/calculator/)
->>>>>>> upstream/master
 - [Daniel's Solution](https://github.com/daniel-moderiano/calculator) - [View in Browser](https://daniel-moderiano.github.io/calculator/)
 - [acchang's Solution](https://github.com/acchang/Calculator) - [View in Browser](https://calculator.acchang.repl.co/)
 - [jaydu1995's Solution](https://github.com/jaydu1995/calculator) - [View in Browser](https://jaydu1995.github.io/calculator/)
