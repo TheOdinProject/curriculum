@@ -5,10 +5,12 @@ RSpec.describe ProjectSubmission, type: :model do
 
   it { is_expected.to belong_to(:user) }
   it { is_expected.to belong_to(:lesson) }
+  it { is_expected.to have_many(:flags) }
 
   it { is_expected.to validate_presence_of(:repo_url) }
+  it { is_expected.to validate_presence_of(:live_preview_url) }
 
-  describe '#flagged' do
+  describe '.flagged' do
     let!(:project_submission_with_no_flags) { create(:project_submission) }
     let(:project_submission_with_flag) { create(:project_submission) }
     let(:project_submission_with_resolved_flag) { create(:project_submission) }
@@ -18,7 +20,7 @@ RSpec.describe ProjectSubmission, type: :model do
       create(:flag, project_submission: project_submission_with_resolved_flag, status: :resolved)
     end
 
-    it "returns project submissions have active flags" do
+    it 'returns project submissions have active flags' do
       expect(ProjectSubmission.flagged).to contain_exactly(project_submission_with_flag)
     end
   end
@@ -36,7 +38,7 @@ RSpec.describe ProjectSubmission, type: :model do
       create(:flag, project_submission: project_submission_flagged_again)
     end
 
-    it "returns project submissions that have no active flags" do
+    it 'returns project submissions that have no active flags' do
       expect(ProjectSubmission.with_no_active_flags).to contain_exactly(
         project_submission_with_no_flags,
         project_submission_with_resolved_flag

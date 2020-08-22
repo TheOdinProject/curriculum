@@ -68,7 +68,6 @@ RSpec.describe User do
     let(:lesson_completed_today) { create(:lesson) }
 
     context 'when the user has completed any lessons' do
-
       before do
         create(
           :lesson_completion,

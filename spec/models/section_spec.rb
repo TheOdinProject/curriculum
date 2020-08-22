@@ -6,5 +6,5 @@ RSpec.describe Section do
   it { is_expected.to belong_to(:course) }
   it { is_expected.to have_many(:lessons).order(:position) }
 
-  it {is_expected.to validate_presence_of(:position) }
+  it { is_expected.to validate_presence_of(:position) }
 end
