@@ -18,7 +18,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 As described very briefly in the introduction, recursion is where a function calls itself and waits for that call to finish, before continuing the original function. Functions that follow this type of behaviour is known as a `recursive function`. A function that calls *itself*? *Huh?* That sounds like it could go on forever, and it can if you're not careful! For now, let us consider a very basic example of pseudocode (which should not be used in the real world) to demonstrate the concept:
 
-```
+~~~ruby
   define function sum_of_squares(N)
     if N equals 1, return 1
     let M = N-1
@@ -27,11 +27,11 @@ As described very briefly in the introduction, recursion is where a function cal
 
 
   print output of sum_of_squares(5)
-```
+~~~
 
 So what will happen here? We've defined our function, `sum_of_squares` to check if it's input is `equal to 1`, and if so, `return 1`. If this is not the case, We subtract 1 from the input and assign the value to `M`. We then take the sum of our original input `N` times by iself, and the output of `sum_of_squares` with input M. So what will this look like? Let's find out:
 
-```
+~~~ruby
   sum_of_squares(5) = 5*5 + sum_of_squares(4)
   sum_of_squares(4) = 4*4 + sum_of_squares(3)
   sum_of_squares(3) = 3*3 + sum_of_squares(2)
@@ -42,7 +42,7 @@ So what will happen here? We've defined our function, `sum_of_squares` to check 
   sum_of_squares(3) = 3*3 + 5 = 14
   sum_of_squares(4) = 4*4 + 14 = 30
   sum_of_squares(5) = 5*5 + 30 = 55
-```
+~~~
 
 As you can see, before we can work out, or `evaluate` the result of the `original sum_of_squares(5)`, we must evaluate the result of the function underneath it. This is a very contrived example of a problem that you could easily work out with a loop, or some clever maths; but hopefully this will help introduce you to what recursion is.
 
@@ -56,7 +56,7 @@ From the [Wikipedia entry on Divide and Conquer Algorithms](http://en.wikipedia.
 
 To give a very general example, this a vague, high level example of what a Divide and Conquer Algorithm looks like:
 
-```
+~~~ruby
   define function do_a_thing( input )
     if input fits your requirements, return solution on that input
 
@@ -64,7 +64,7 @@ To give a very general example, this a vague, high level example of what a Divid
     let other_smaller_thing = do_a_thing( other_smaller_chunk )
 
     do something with smaller_thing and other_smaller_thing
-```
+~~~
 
 Your function doesn't necessarily have to split the problem into two smaller chunks each time, it can be broken into many more if necessary!
 
