@@ -15,7 +15,7 @@ You will be building a simple command line Hangman game where one player plays a
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
+Send us your solution so we can show others! Submit a link to the GitHub [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
