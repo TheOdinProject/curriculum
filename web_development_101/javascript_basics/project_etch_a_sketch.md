@@ -45,6 +45,14 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [fernandopaz1' Solution](https://github.com/fernandopaz1/etch-a-sketch-project) - [View in Browser](https://fernandopaz1.github.io/etch-a-sketch-project/)
+* [DanteSix' Solution](https://github.com/SempleGit/Etch-A-Sketch) - [View in Browser](https://semplegit.github.io/Etch-A-Sketch/)
+* [dkhole's Solution](https://github.com/dkhole/Etch-a-sketch) - [View in Browser](https://dkhole.github.io/Etch-a-sketch/)
+* [Jessie's Solution](https://github.com/jessiejalca/etch-a-sketch) - [View in Browser](https://jessiejalca.github.io/etch-a-sketch/)
+* [al0cam's Solution](https://github.com/al0cam/etch-a-sketch) - [View in Browser](https://al0cam.github.io/etch-a-sketch/)
+* [thedodus' Solution](https://github.com/thedodus/etch-a-sketch) - [View in Browser](https://thedodus.github.io/etch-a-sketch/)
+* [adam-goodrich's Solution](https://github.com/adam-goodrich/eSketch) - [View in Browser](https://adam-goodrich.github.io/eSketch/)
+* [Rastko's Solution](https://github.com/RastkoD/The_Odin_Project/tree/master/Web_Development_101/Etch_A_Sketch) - [View in Browser](https://etch-a-sketch-byrastkod.netlify.app/)
 * [Strood's Solution](https://github.com/strood/POEcthASketch) - [View in Browser](https://strood.github.io/POEcthASketch/)
 * [jcsorgei's Solution](https://github.com/jcsorgei/etch-a-sketch) - [View in Browser](https://jcsorgei.github.io/etch-a-sketch/)
 * [leinierperez's Solution](https://github.com/leinierperez/etch-a-sketch) - [View in Browser](https://leinierperez.github.io/etch-a-sketch/)
