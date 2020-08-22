@@ -28,6 +28,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/bubble-sort)
 * [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-bubble-sort/blob/master/bubble-sort.rb)
 * [Sanjana's Solution](https://github.com/error34043/TOP_Ruby_Projects/blob/master/bubblesort.rb)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/bubble-sort)
