@@ -1,127 +1,118 @@
 require 'rails_helper'
 
 RSpec.describe User do
-  subject(:user) {
-    User.new(
-      username: 'kevin',
-      email: 'kevin@example.com',
-      password: 'foobar',
-      provider: provider,
-      uid: '',
-      avatar: avatar,
-      track: create(:track)
-    )
-  }
-  let(:provider) { '' }
-  let(:avatar) { 'http://github.com/fake-avatar' }
+  subject(:user) { create(:user) }
 
-  let(:lesson_completions) {
-    [first_lesson_completion, second_lesson_completion]
-  }
-
-  let(:first_lesson_completion) {
-    double(
-      'LessonCompletion',
-      id: 1,
-      student_id: 1,
-      created_at: DateTime.new(2016, 11, 11),
-      lesson_id: 1
-    )
-  }
-
-  let(:second_lesson_completion) {
-    double(
-      'LessonCompletion',
-      id: 2,
-      student_id: 1,
-      created_at: DateTime.new(2016, 11, 8),
-      lesson_id: 2
-    )
-  }
-
-  let(:completed_lessons) { [first_lesson_completion] }
-
-  before do
-    allow(user).to receive(:lesson_completions).and_return(lesson_completions)
-    allow(user).to receive(:completed_lessons).and_return(completed_lessons)
-    allow(Lesson).to receive(:find).with(2).and_return(second_lesson_completion)
-
-    allow(lesson_completions).to receive(:order).with(created_at: :asc)
-      .and_return(lesson_completions)
-  end
-
+  it { is_expected.to validate_uniqueness_of(:email).ignoring_case_sensitivity }
+  it { is_expected.to allow_value('example@email.com').for(:email) }
+  it { is_expected.to_not allow_value('bademail').for(:email) }
   it { is_expected.to validate_length_of(:username).is_at_least(2).is_at_most(100) }
   it { is_expected.to validate_length_of(:learning_goal).is_at_most(1700) }
-  it { is_expected.to have_many(:lesson_completions) }
-  it { is_expected.to have_many(:completed_lessons) }
 
-  describe '#has_completed?' do
-    let(:exists?) { true }
+  it { is_expected.to have_many(:lesson_completions).dependent(:destroy) }
+  it { is_expected.to have_many(:completed_lessons) }
+  it { is_expected.to have_many(:project_submissions).dependent(:destroy) }
+  it { is_expected.to have_many(:user_providers).dependent(:destroy) }
+  it { is_expected.to belong_to(:track) }
+
+  context 'when user is created' do
+    let(:mailer) { instance_double(ActionMailer::MessageDelivery) }
 
     before do
-      allow(completed_lessons).to receive(:exists?).and_return(exists?)
+      allow(UserMailer).to receive(:send_welcome_email_to).and_return(mailer)
+      allow(mailer).to receive(:deliver_now!)
     end
 
-    it 'returns true' do
-      expect(user.has_completed?(first_lesson_completion)).to eql(true)
+    it 'sends a welcome email' do
+      user = create(:user)
+      expect(UserMailer).to have_received(:send_welcome_email_to).with(user)
+    end
+  end
+
+  describe '#progress_for' do
+    let(:course) { build_stubbed(:course) }
+    let(:course_progress) { instance_double(CourseProgress) }
+
+    before do
+      allow(CourseProgress).to receive(:new).and_return(course_progress)
     end
 
-    context 'when the passed in lesson hasnt been completed' do
-      let(:exists?) { false }
+    it 'returns the course progress service' do
+      expect(user.progress_for(course)).to eql(course_progress)
+    end
+  end
+
+  describe '#has_completed?' do
+    let(:lesson) { create(:lesson) }
+
+    context 'when the user has completed  the lesson' do
+      let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, student: user) }
+
+      it 'returns true' do
+        expect(user.has_completed?(lesson)).to be(true)
+      end
+    end
+
+    context 'when the user has not completed the lesson' do
+      let!(:lesson_completion) { create(:lesson_completion, lesson: lesson) }
 
       it 'returns false' do
-        expect(user.has_completed?(second_lesson_completion)).to eql(false)
+        expect(user.has_completed?(lesson)).to be(false)
       end
     end
   end
 
   describe '#latest_completed_lesson' do
-    it 'returns the latest completed lesson' do
-      expect(user.latest_completed_lesson).to eql(second_lesson_completion)
+    let(:lesson_completed_last_week) { create(:lesson) }
+    let(:lesson_completed_yesterday) { create(:lesson) }
+    let(:lesson_completed_today) { create(:lesson) }
+
+    context 'when the user has completed any lessons' do
+
+      before do
+        create(
+          :lesson_completion,
+          lesson: lesson_completed_last_week,
+          student: user,
+          created_at: Time.zone.today - 7.days
+        )
+
+        create(
+          :lesson_completion,
+          lesson: lesson_completed_yesterday,
+          student: user,
+          created_at: Time.zone.today - 1.day
+        )
+
+        create(
+          :lesson_completion,
+          lesson: lesson_completed_today,
+          student: user,
+          created_at: Time.zone.today
+        )
+      end
+
+      it 'returns the latest completed lesson' do
+        expect(user.latest_completed_lesson).to eql(lesson_completed_today)
+      end
     end
 
     context 'when the user does not have any completed lessons' do
-      let(:lesson_completions) { [] }
-
       it 'returns nil' do
-        expect(user.latest_completed_lesson).to eql(nil)
+        expect(user.latest_completed_lesson).to be(nil)
       end
     end
   end
 
-  describe '#latest_completion_time' do
-    let(:lesson) { double('Lesson', id: 1) }
+  describe '#password_required?' do
+    let(:user) { create(:user, provider: provider) }
 
-    before do
-      allow(lesson_completions).to receive(:find_by).with(lesson_id: 1)
-        .and_return(first_lesson_completion)
-    end
+    context 'when the provider is blank' do
+      let(:provider) { '' }
 
-    it 'returns the time of the latest completed lesson' do
-      expect(user.lesson_completion_time(lesson))
-        .to eql(DateTime.new(2016, 11, 11))
-    end
-  end
-
-  describe '#last_lesson_completed' do
-    it 'returns the latest completed lesson for the user' do
-      expect(user.last_lesson_completed).to eql(second_lesson_completion)
-    end
-  end
-
-  describe '#update_avatar' do
-    let(:github_avatar) { 'http://github.com/fake-avatar' }
-    let(:avatar) { nil }
-
-    it 'updates the users avatar' do
-      user.update_avatar(github_avatar)
-      expect(user.avatar).to eql('http://github.com/fake-avatar')
-    end
-  end
-
-  describe '#password_required' do
-    it 'returns true' do
-      expect(user.password_required?).to eql(true)
+      it 'returns true' do
+        expect(user.password_required?).to eql(true)
+      end
     end
 
     context 'when the provider is not blank' do

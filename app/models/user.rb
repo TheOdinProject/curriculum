@@ -5,18 +5,18 @@ class User < ApplicationRecord
          :rememberable, :trackable, :validatable,
          :omniauthable, :omniauth_providers => [:github, :google]
 
-  validates_uniqueness_of :email
+  validates :email, uniqueness: true, format: { with: URI::MailTo::EMAIL_REGEXP }
   validates :username, length: { in: 2..100 }
   validates :learning_goal, length: { maximum: 1700 }
 
-  has_many :lesson_completions, foreign_key: :student_id
+  has_many :lesson_completions, foreign_key: :student_id, dependent: :destroy
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
   has_many :project_submissions, dependent: :destroy
   has_many :user_providers, dependent: :destroy
   belongs_to :track
 
   def progress_for(course)
-    @progress ||= Hash.new { |h, c| h[c] = CourseProgress.new(c, self) }
+    @progress ||= Hash.new { |hash, c| hash[c] = CourseProgress.new(c, self) }
     @progress[course]
   end
 
@@ -25,20 +25,9 @@ class User < ApplicationRecord
   end
 
   def latest_completed_lesson
-    return unless last_lesson_completed
+    return if last_lesson_completed.nil?
+
     Lesson.find(last_lesson_completed.lesson_id)
-  end
-
-  def lesson_completion_time(lesson)
-    lesson_completions.find_by(lesson_id: lesson.id).created_at
-  end
-
-  def last_lesson_completed
-    ordered_lesson_completions.last
-  end
-
-  def update_avatar(avatar)
-    self.update!(avatar: avatar)
   end
 
   def password_required?
@@ -47,8 +36,8 @@ class User < ApplicationRecord
 
   private
 
-  def ordered_lesson_completions
-    lesson_completions.order(created_at: :asc)
+  def last_lesson_completed
+    lesson_completions.order(created_at: :asc).last
   end
 
   def self.new_with_session(params, session)
@@ -61,7 +50,5 @@ class User < ApplicationRecord
 
   def send_welcome_email
     UserMailer.send_welcome_email_to(self).deliver_now!
-  rescue => error
-    logger.error "Error sending welcome email: #{error}"
   end
 end

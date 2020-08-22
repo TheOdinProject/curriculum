@@ -23,8 +23,9 @@ RSpec.describe LessonSerializer do
     end
 
     before do
-      allow(lesson_completions).to receive(:where).
-        with(created_at: between_dates).and_return([lesson_completion])
+      allow(lesson_completions).to receive(:where)
+        .with(created_at: between_dates)
+        .and_return([lesson_completion])
     end
 
     it { is_expected.to eql(serialized_lesson) }

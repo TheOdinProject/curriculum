@@ -31,8 +31,9 @@ RSpec.describe CourseSerializer do
     end
 
     before do
-      allow(SectionSerializer).to receive(:as_json).
-        with(section, between_dates).and_return(serialized_section)
+      allow(SectionSerializer).to receive(:as_json)
+        .with(section, between_dates)
+        .and_return(serialized_section)
     end
 
     it { is_expected.to eql(serialized_course) }

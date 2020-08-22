@@ -30,7 +30,7 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
 
   def update_users_avatar
-    @user.update_avatar(avatar_from_provider)
+    @user.update!(avatar: avatar_from_provider)
   end
 
   def avatar_needs_updated?

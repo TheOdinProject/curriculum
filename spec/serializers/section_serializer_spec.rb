@@ -10,11 +10,14 @@ RSpec.describe SectionSerializer do
       lessons: lessons,
     )
   end
+
   let(:between_dates) do
     (DateTime.parse('2019/01/01')..DateTime.parse('2019/12/31'))
   end
+
   let(:lessons) { [lesson] }
   let(:lesson) { double('Lesson') }
+
   let(:serialized_lesson) do
     {
       title: 'Overview',
@@ -31,8 +34,9 @@ RSpec.describe SectionSerializer do
     end
 
     before do
-      allow(LessonSerializer).to receive(:as_json).with(lesson, between_dates).
-        and_return(serialized_lesson)
+      allow(LessonSerializer).to receive(:as_json)
+        .with(lesson, between_dates)
+        .and_return(serialized_lesson)
     end
 
     it { is_expected.to eql(serialized_section) }

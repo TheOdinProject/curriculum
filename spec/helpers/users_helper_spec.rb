@@ -4,21 +4,11 @@ RSpec.describe UsersHelper do
   let(:user) {
      double(
       'User',
-      lesson_completion_time: lesson_completion_time,
       learning_goal: learning_goal
     )
   }
 
-  let(:lesson_completion_time) { DateTime.new(2016, 10, 11, 19) }
   let(:learning_goal) { 'To be the best' }
-
-  describe '#lesson_time' do
-    let(:lesson) { double('Lesson') }
-
-    it 'returns formatted lesson completion time' do
-      expect(helper.lesson_time(user, lesson)).to eql('October 11, 2016 19:00')
-    end
-  end
 
   describe '#display_dashboard_learning_goal' do
     it 'returns the users learning goal' do
