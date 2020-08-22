@@ -73,7 +73,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 ### Architecture:
 
-* [Teaching Software Architecture with Github](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
+* [Teaching Software Architecture with GitHub](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
 ### The tech challenge
 
