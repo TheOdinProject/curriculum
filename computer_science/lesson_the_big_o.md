@@ -38,7 +38,7 @@ Thankfully, no. There are ways of getting a rough idea of what your algorithm's 
 
 The absolute ideal. This means that the algorithm's magnitude does not change, regardless of how big or small your input is. That your performance is `constant`. Let's write a bit of `pseudocode` to demonstrate this:
 
-~~~ruby
+~~~
   define function head(n)
     return n[0]
 ~~~
@@ -51,7 +51,7 @@ We call this `constant time` or `constant space`; depending on which metric you'
 
 Another fairly simple concept, this means that our algorithm's magnitude changes similarly to n. So if our input doubles in size, our algorithm is expected to double in `time`. Take this simple example:
 
-~~~ruby
+~~~
   define function find(array, desired)
     for each element in array :
       check if element equals desired. If so, return element
@@ -72,7 +72,7 @@ We call this a `linear time`. Algorithm
 
 Although in a lot of algorithmic cases this is considered a good result, in sorting and search cases this is inefficient. This means that should our input grow by 10, for example, our algorithm grows by 100! So if our input *grows by 1,000,000*... yeah. That's big. What could something like this look like in pseudocode?
 
-~~~ruby
+~~~
   define function has_duplicate(array)
     for each element in array :
       for each other_element in array :
@@ -82,11 +82,13 @@ Although in a lot of algorithmic cases this is considered a good result, in sort
     return false if no duplicates found
 ~~~
 
-So here, we ignore comparisons of values at the same point in the array; but for each value, we're otherwise looking through the *entire* array to see if there is a duplicate. For example, if we use the array: *[ 1,3,4,5,7,8 ]*,* we do the following:
+So here, we ignore comparisons of values at the same point in the array; but for each value, we're otherwise looking through the *entire* array to see if there is a duplicate. For example, if we use the array: *[ 1,3,4,5,7,8 ]*, we do the following:
 
-1: 3 -> 4 -> 5 -> 7 -> 8 -> false
-3: 1 -> 4 -> 5 -> 7 -> 8 -> false
-4: 1 -> 3 -> 5 -> 7 -> 8 -> false
+*1: 3 -> 4 -> 5 -> 7 -> 8 -> false*
+
+*3: 1 -> 4 -> 5 -> 7 -> 8 -> false*
+
+*4: 1 -> 3 -> 5 -> 7 -> 8 -> false*
 ...
 
 With this algorithm, we're going through `n-1` comparisons for each element in our input array. And the array has `n` elements. So we can say:
@@ -101,7 +103,7 @@ This is called a `quadratic time` algorithm. It belongs in a larger family of al
 
 Spotting these can be a little bit tricky; as their behaviour may not immediately be obvious from code. However, these are more efficient at a larger scale than their `O(n)` and `O(n^2)` counter parts. What `O(log(n))` means is that for the algorithm to grow in `multiples`, the input needs to grow in `powers`. So the input will grow ***much*** faster. Could we find an example of this? Let's give it a try:
 
-~~~ruby
+~~~
   define function find_in_sorted_array(array, desired)
     let left_index = 0
     let right_index = array.length-1
