@@ -8,7 +8,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 
 <div class="lesson-content__panel" markdown="1">
 1. Visit [The Next Web](http://thenextweb.com) and poke around their home page.  Play with changing the window width and see how the site changes (for instance when the sidebar gets hidden).
-2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Try to discover which browser widths are "breakpoints" where element properties change (e.g. the sidebar disappearing).  Make a plan for which elements need to be modified at which widths.
@@ -16,7 +16,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 7. Now -- before you've filled in any of these divs -- add in the media queries and positioning/floating attributes that are needed to make them rearrange as necessary when the browser changes sizes.
 8. Once you've got the page layout performing as it should, fill in the divs and style them to look like the original homepage.  Don't get lost in the details -- it's okay if it isn't exact.
 9. Double check that all the elements still behave just like the original when the browser size is changed.
-10. Push your solution to Github.
+10. Push your solution to GitHub.
 </div>
 
 ### Student Solutions

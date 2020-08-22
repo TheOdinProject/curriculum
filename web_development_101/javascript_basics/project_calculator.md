@@ -46,6 +46,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [dkhole's Solution](https://github.com/dkhole/calculator) - [View in Browser](https://dkhole.github.io/calculator/)
+- [Bibabyte's Solution](https://github.com/bibabyte/TOPCalc) - [View in Browser](https://bibabyte.github.io/TOPCalc/)
 - [Strood's Solution](https://github.com/strood/POCalculator) - [View in Browser](https://tender-haibt-cec4a0.netlify.app/)
 - [iaderdor's Solution](https://github.com/iaderdor/calculator) - [View in Browser](https://iaderdor.github.io/calculator/calculator.html)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/Calculator) - [View in Browser](https://nicolasarayab.github.io/Calculator/)

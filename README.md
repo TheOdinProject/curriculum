@@ -43,7 +43,7 @@ ___
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
 
 
-# The Odin Project - Javascript Curriculum
+# The Odin Project - JavaScript Curriculum
 
 ## Mission statement
 
