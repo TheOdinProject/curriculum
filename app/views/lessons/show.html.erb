@@ -4,9 +4,7 @@
   <div class="row">
     <div class="col-12">
       <div class="lesson-header">
-        <%= link_to @lesson.course, class: 'course-card-header__link' do %>
-          <%= render 'courses/course/banner', course: @lesson.course %>
-        <% end %>
+        <%= render 'courses/course/banner', course: @lesson.course %>
         <h2 class="lesson-header__title accent"><%= @lesson.title %></h2>
       </div>
     </div>
