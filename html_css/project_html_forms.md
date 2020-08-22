@@ -201,6 +201,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Kenneth H's Solution](https://github.com/kholston/html-forms) - [View in Browser](https://kholston.github.io/html-forms/)
 * [Nijepa's Solution](https://github.com/nijepa/html-forms) - [View in Browser](https://nijepa.github.io/html-forms/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/htmlforms)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_mintclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_mintclone/)
 </details>
 
 ### Additional Resources
