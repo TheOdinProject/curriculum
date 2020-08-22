@@ -87,12 +87,15 @@ This project may seem simple, but now you've got a website that is both a normal
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/odin-kittens)
+* [JvPelai's Solution](https://github.com/JvPelai/odin_kittens)
+* [irlgabriel's Solution](https://github.com/irlgabriel/kittens-odin)
 * [pudu87's Solution](https://github.com/pudu87/odin-kittens)
 * [Christian's Solution](https://github.com/rueeazy/odin_kittens)
 * [leetie's Solution](https://github.com/leetie/api-project)
@@ -193,18 +196,21 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 3. While logged in, copy your Flikr ID from the browser address bar by navigating to the "You" link on the top navbar. It will look like `https://www.flickr.com/photos/yourIDhere/`. An example would be `1895558555@N03`. You'll need that later for some of the API methods.
 4. Upload a few photos to your photostream!
 5. Create a new Rails app and add a gem for the [Flickr API](http://lmgtfy.com/?q=flickr+api+gem). There are gems for pretty much every API out there. They will all require you to include your API keys and secret keys somehow. Look for gems that are maintained (have recent commits) and well-adopted (GitHub stars is one way to get a good gauge for how valuable a gem is).
-6. One note is that it's not good practice to have your secret key hard coded into your app because then it's hardly a secret, especially if you're pushing to Github.  A better practice is to store the key in an [environment variable](http://railsapps.github.io/rails-environment-variables.html) instead and/or use a gem like [`figaro` (see docs)](https://github.com/laserlemon/figaro).  Environment variables allow you to push your key to your app directly from the command line when it fires up.  Figaro operates under the same principle, though it helps you out by allowing you to store the keys in an actual file that just doesn't get committed with the rest of your code.  Use one of these techniques unless you're a cowboy.  They are well described in [Daniel Kehoe's RailsApps article](http://railsapps.github.io/rails-environment-variables.html).
+6. One note is that it's not good practice to have your secret key hard coded into your app because then it's hardly a secret, especially if you're pushing to GitHub.  A better practice is to store the key in an [environment variable](http://railsapps.github.io/rails-environment-variables.html) instead and/or use a gem like [`figaro` (see docs)](https://github.com/laserlemon/figaro).  Environment variables allow you to push your key to your app directly from the command line when it fires up.  Figaro operates under the same principle, though it helps you out by allowing you to store the keys in an actual file that just doesn't get committed with the rest of your code.  Use one of these techniques unless you're a cowboy.  They are well described in [Daniel Kehoe's RailsApps article](http://railsapps.github.io/rails-environment-variables.html).
 7. Build a simple StaticPagesController to display a home page with a simple form.  The form should just be a single text field which takes the ID for a Flickr user.  Once the form is submitted, the page should refresh and display the photos from that user.
 8. Ask for your friends' flickr IDs or find random photofeeds on the web.  View them in your app and react appropriately.
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/odin-flickr-API)
+* [JvPelai's Solution](https://github.com/JvPelai/odin_flickr_album)
+* [irlgabriel's Solution](https://github.com/irlgabriel/flickr-api-project) - [View in Browser](https://fast-beyond-84270.herokuapp.com/)
 * [pudu87's Solution](https://github.com/pudu87/odin-flickr)
 * [proto-dylan's Solution](https://github.com/proto-dylan/flickr-feeder)
 * [Christian's Solution](https://github.com/rueeazy/odin_flickr)
