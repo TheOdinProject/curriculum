@@ -318,6 +318,7 @@ connect_four)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/plot_four)
 * [Sandy’s Solution](https://github.com/kuosandys/top-ruby-assignments/tree/master/connect_four)
 * [Bingo's Solution](https://github.com/NotAProgrammerdork/Ruby/tree/master/connect_four_spec)
+* [bhenning83's Solution](https://github.com/bhenning83/connect_four)
 </details>
 
 ### Additional Resources
