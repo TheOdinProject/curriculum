@@ -450,6 +450,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sanjana's Solution](https://github.com/error34043/ruby-mastermind) - [View in repl.it](https://ruby-mastermind.error34043.repl.run)
 * [onagova's Solution](https://github.com/onagova/intermediate-ruby-projects/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@onagova/intermediate-ruby-projects#mastermind.rb)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/mastermind) - [View in repl.it](https://repl.it/@nguyenjessev/mastermind#mastermind.rb)
 * [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Ruby_Projects/tree/master/mastermind) - [View in repl.it](https://repl.it/@MrBowtie/Mastermind#main.rb)
