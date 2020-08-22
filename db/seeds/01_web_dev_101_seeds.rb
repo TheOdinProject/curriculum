@@ -335,6 +335,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: 'Problem Solving',
+  title_url: 'Problem Solving'.parameterize,
+  section_id: section.id,
+  position: lesson_position,
+  description: 'In this lesson we will explore how to approach solving programming problems.',
+  url: '/web_development_101/javascript_basics/problem_solving.md',
+  repo: 'curriculum',
+  is_project: false
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: 'Rock Paper Scissors',
   title_url: 'Rock Paper Scissors'.parameterize,
   description: 'Rock Paper Scissors',

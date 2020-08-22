@@ -198,17 +198,6 @@ create_or_update_lesson(
   repo: 'curriculum'
 )
 
-lesson_position += 1
-create_or_update_lesson(
-  title: "Problem Solving",
-  title_url: "Problem Solving".parameterize,
-  description: "In this lesson we will explore how to approach solving programming problems.",
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: "/ruby_programming/basic_ruby/problem_solving.md",
-  repo: 'curriculum'
-)
 
 # +++++++++++
 # SECTION
