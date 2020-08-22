@@ -64,6 +64,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Axel Lopez's Solution](https://github.com/lopezaxel/private-events)
 - [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/private_events)
 - [pudu87's Solution](https://github.com/pudu87/private-events) 
 - [irlgabriel's Solution](https://github.com/irlgabriel/private-events) 
