@@ -1,6 +1,6 @@
 ### Introduction
 
-Hopefully you've been using the basic Git commands to create repositories and push your code up to Github.  If not, you've got a bit of catching up to do but don't worry.
+Hopefully you've been using the basic Git commands to create repositories and push your code up to GitHub.  If not, you've got a bit of catching up to do but don't worry.
 
 In any case, Git is a crucial skill to have whether you're a professional web developer or just a hobbyist who needs to back up your code base.  It's the "save" button on steroids and it allows giant teams of developers to collaborate.  There really aren't all that many commands for you to learn either, but sometimes the real difficulty of it comes from visualizing in your head what it's actually doing.
 
@@ -20,12 +20,12 @@ Look through these now and then use them to test yourself after doing the assign
 * How do you undo a recent commit?
 * What are branches?
 * How do you create a new branch to work on?
-* How do you push that (non-master) branch up to Github?
+* How do you push that (non-master) branch up to GitHub?
 * How do you merge the changes from your new branch into the master branch again?
 * Why is working with feature branches useful?
 * What is the difference between using `$ git merge` and `$ git rebase`? (hint: history)
 * What is the difference between a "remote" and your local repo?
-* How do you add your Github repo as the remote?
+* How do you add your GitHub repo as the remote?
 
 ### Assignment
 
