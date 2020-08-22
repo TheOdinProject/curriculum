@@ -36,6 +36,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Ruby-Projects/Basic-Projects/Caesar-Cipher.rb)
 * [An0therHuman's Solution](https://github.com/An0therHuman/Ruby_Programing/blob/master/sub_string.rb)
 * [Nima's Solution](https://github.com/nima-19/Ruby-Projects/blob/master/substrings.rb)
 * [Kjell's solution](https://github.com/kjell-fjeldsaunet/top-substrings/blob/master/substrings.rb)
