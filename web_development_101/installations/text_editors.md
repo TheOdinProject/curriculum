@@ -30,3 +30,11 @@ A message may show, warning the user that VSCode is not trusted software. This i
 #### WSL Users:
 
 Although you just installed Ubuntu on your computer, you should still install the Windows version of the code editor you choose. You will edit the files in your Projects directory with the code editor, and WSL will be able to read these files. If you are using VSCode, be sure to install the *"Remote - WSL"* extension when prompted. This extension will allow you to directly access your Linux files. Once installed, select the green icon in the lower left corner to connect to WSL.
+
+### Additional Set Up: Live Server Extension for VSCode
+
+An extension is a program that is meant to enhance your experience by modifying the capabilities of a software. 
+
+Just like the Google Chrome Web Browser, VSCode supports extensions and one useful one is [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It has been made to save the time of developers like yourself. This extension will save you from the hassle of refreshing the browser window repeatedly to see changes made in your code and will automatically load the most recent change in the browser window.
+
+Refer to [this video](https://youtu.be/mGORIVStWWc) for installation details.

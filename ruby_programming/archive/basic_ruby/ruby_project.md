@@ -18,7 +18,7 @@ This exercise will involve a lot of figuring things out. There aren't very detai
       6. `05_book_titles`
       7. `06_timer`
 
-  4. Push your project to Github
+  4. Push your project to GitHub
 
 </div>
 
@@ -31,6 +31,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [aaronhalstonlee's Solution](https://github.com/aaronhalstonlee/learn_ruby)
 * [Jdonahue135's Solution](https://github.com/jdonahue135/learn_ruby)
 * [threeaces' Solution](https://github.com/threeaces/learn_ruby)
 * [Arf65's Solution](https://github.com/arf65/learn_ruby)
@@ -668,8 +669,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mre91's Solution](https://github.com/mre91/learn_ruby)
 * [Veskenazi's Solution](https://github.com/veskenazi/learn_ruby)
 * [akoenig1's Solution](https://github.com/akoenig1/learn_ruby)
-* [remiborfigat’s Solution](https://github.com/remiborfigat/learn_ruby)
 * [Ken Holston's Solution](https://github.com/kholston/learn_ruby)
+* [mthsgrc's Solution](https://github.com/mthsgrc/learn_ruby)
 </details>
 
 ### Additional Resources

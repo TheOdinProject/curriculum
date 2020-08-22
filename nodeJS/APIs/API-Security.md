@@ -1,3 +1,15 @@
+### Learning Outcomes
+By the end of this lesson, you should be able to do or answer the following:
+
+- Explain how token authentication differs from session based authentication.
+- What are JSON Web Tokens? 
+- What is an authorization header? How do we use it?
+- Identify and explain the methods used to sign and verify tokens.
+- Write custom middleware to verify tokens on a given route.
+- Have familiarity with token expiration with JWT.
+- Have ability to expand PassportJS implementations to use JSON Web Tokens.
+
+### Overview
 Securing your API is an important step. When we were using Express to serve view templates we used passportJs along with a username and password to authenticate users, but that is not the only way to secure an Express app, and in the context of an API it often makes sense to use a different strategy.  The username and password session pattern that we learned previously will still work of course, though it is made a little more complicated by the fact that we've separated our front-end code from the back-end, so we have to specifically send our username/password info back and forth to check for authentication when accessing one of our endpoints.
 
 A better strategy is to generate and pass a secure **token** between our database and front-end code.  Doing so will make sure that our user's username and password are not compromised and will also give us the ability to expire our user's session for added security. The basic idea is that when a user signs in to our app, a secure token is created and then for all subsequent requests that token is passed in the header of our request object. In the end the process is pretty simple since you should already be pretty comfortable with using passport to authenticate users.
