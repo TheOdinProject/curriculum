@@ -18,17 +18,17 @@ All along the way, you should keep building things.  The work you've done will b
 
 The portfolio is also important for another thing that isn't mentioned much -- social proof.  If you've been a part of larger or group projects, that's almost like showing that you've worked somewhere before.  It makes the employer comfortable that other people have worked with you before so they can too.
 
-Your portfolio as a developer is Github.  You may have a personal website but Github is still the authoritative repository of your technical ability.  Ignore it at your peril.
+Your portfolio as a developer is GitHub.  You may have a personal website but GitHub is still the authoritative repository of your technical ability.  Ignore it at your peril.
 
 * [A Programmer's Portfolio by Jeff Atwood](http://www.codinghorror.com/blog/2004/10/a-programmers-portfolio.html)
 * [The Power of a Programming Portfolio by GrokCode](http://grokcode.com/58/the-power-of-a-programming-portfolio/)
-* [Your Github Portfolio by Forbes](http://www.forbes.com/sites/anthonykosner/2012/10/20/software-engineers-are-in-demand-and-github-is-how-you-find-them/)
+* [Your GitHub Portfolio by Forbes](http://www.forbes.com/sites/anthonykosner/2012/10/20/software-engineers-are-in-demand-and-github-is-how-you-find-them/)
 
 ### Clean up your Web Presence (and Have One)
 
 Google yourself in an incognito window (to avoid Google's smart algorithm).  What comes up? Do the links fit into your personal narrative?  Whoever is looking to hire you will certainly Google you.  Make sure that what they find matches what you want them to find.  If you've got a ridiculously common name, you may have a harder time building your web presence but it's also harder to have the *wrong* web presence.
 
-The most important part of your web presence to fix up is your Github profile.  Make sure your projects are organized and their README files contain a description and a link to where it is live so anyone looking at the project can quickly see your brilliance.
+The most important part of your web presence to fix up is your GitHub profile.  Make sure your projects are organized and their README files contain a description and a link to where it is live so anyone looking at the project can quickly see your brilliance.
 
 Next, try to be discoverable.  If I'm trying to get in touch with you or find your work on the web, can I?  Do you have a personal website?  Are you on Twitter? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
 

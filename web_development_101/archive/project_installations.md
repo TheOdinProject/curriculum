@@ -108,11 +108,11 @@ Ruby is the back end language we'll be using to write our server code.  The Ruby
 
 #### Git
 
-Git, the version control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
+Git, the version control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your GitHub account, which is very important because it'll host your portfolio.  When people visit your repo on GitHub (if it's public), they see all the source code files you've uploaded.
 
 #### Heroku
 
-Heroku is the cloud hosting service which we'll be using to take our web applications "live".  In some ways it acts sort of like Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your source code, Heroku actually runs that code on a server for you so your application can be visited by users.  Heroku requires a couple of helpful tools to be installed to make your life easier during the deployment process.
+Heroku is the cloud hosting service which we'll be using to take our web applications "live".  In some ways it acts sort of like GitHub because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where GitHub keeps repositories of your source code, Heroku actually runs that code on a server for you so your application can be visited by users.  Heroku requires a couple of helpful tools to be installed to make your life easier during the deployment process.
 
 #### HTML, CSS and Javascript
 
