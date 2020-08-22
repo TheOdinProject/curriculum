@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [ranmaru22's Solution](https://github.com/ranmaru22/members-only) - [View in Browser](https://secure-stream-16381.herokuapp.com)
 * [ultrawide's Solution](https://github.com/ultrawide/members-only-messageboard) - [View in Browser](https://fast-fortress-23524.herokuapp.com/)
 * [Vorelli's Solution](https://github.com/Vorelli/members-only) - [View in Browser](https://immense-meadow-04242.herokuapp.com/messageboard/)
+* [Nijepa's Solution](https://github.com/nijepa/members-only) - [View in Browser](https://calm-journey-96640.herokuapp.com/)
 </details>
 
 

@@ -41,7 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+<<<<<<< HEAD
 - [mittalrohit0598's Solution](https://github.com/mittalrohit0598/rock-paper-scissors) - [View in Browser](https://thegrapescribbler.com/rock-paper-scissors/)
+=======
 - [Parham-Pourjam's Solution](https://github.com/Parham-Pourjam/RockPaperScissors)
 - [Shadou1's Solution](https://github.com/Shadou1/the-odin-projects/tree/master/web-development-101/rock-paper-scissors) - [View in Browser](https://shadou1.github.io/the-odin-projects/web-development-101/rock-paper-scissors/)
 - [NightShop's Solution](https://github.com/NightShop/RockPaperScissorsJS) - [View in Browser](https://nightshop.github.io/RockPaperScissorsJS/)
@@ -50,6 +52,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ruimpcastro's Solution](https://github.com/ruimpcastro/rock-paper-scissors) - [View in Browser](https://ruimpcastro.github.io/rock-paper-scissors/)
 - [justinsatorre's Solution](https://github.com/justinsatorre/rock-paper-scissors) - [View in Browser](https://justinsatorre.github.io/rock-paper-scissors/)
 - [gswy62's Solution](https://github.com/gswy62/rock-paper-scissors)
+>>>>>>> master
 - [rjbullough's Solution](https://github.com/rjbullough/rock_paper_scissors/) - [View in Browser](https://rjbullough.github.io/rock_paper_scissors/)
 - [nguyenjessev's Solution](https://github.com/nguyenjessev/rock-paper-scissors) - [View in Browser](https://nguyenjessev.github.io/rock-paper-scissors/)
 - [IGrueby's Solution](https://github.com/IGrueby/rock-paper-scissors) - [View in Browser](https://igrueby.github.io/rock-paper-scissors/)

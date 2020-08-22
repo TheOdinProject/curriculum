@@ -113,6 +113,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Witah Georjane's Solution](https://github.com/Georjane/Micro-Reddit)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/micro-reddit)
 * [Sam Eff's Solution](https://github.com/SamEff/micro-reddit)
 * [Uduak Essien's Solution](https://github.com/DarrenLo0530/rails-mini-projects/tree/master/micro-reddit)
