@@ -1254,4 +1254,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Harry Thomson's Solution](https://github.com/harrythomson1/etch-a-sketch) - [View in Browser](https://harrythomson1.github.io/etch-a-sketch/)
 * [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/etch-a-sketch) - [View in Browser](https://marvinkeilbach.github.io/etch-a-sketch/)
 * [Fusako's Solution](https://github.com/fusakoo/etch-a-sketch) - [View in Browser](https://fusakoo.github.io/etch-a-sketch/)
+* [timcbarnes's Solution](https://github.com/timcbarnes/etch-a-sketch) - [View in Browser](https://timcbarnes.github.io/etch-a-sketch/)
 </details>
