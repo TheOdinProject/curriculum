@@ -128,7 +128,7 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Still unsure about Enumerable?  Check out the [Enumerable Chapter of the Bastard's Book](http://ruby.bastardsbook.com/chapters/enumerables/)
-* Github Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)
+* GitHub Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
 * Read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/) for more depth on flow control.
 * If you want a bit more, check out [Skork's entry on Ruby looping and iterators](http://www.skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/)

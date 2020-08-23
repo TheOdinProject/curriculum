@@ -1,16 +1,16 @@
 ### Introduction
 
-We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson.  When you get there don't forget to come back and add  your link!
+We're going to make a simple implementation of grade-school classic "rock paper scissors".  If you don't know what that is check the [Wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step.  For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson.  When you get there don't forget to come back and add  your link!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Start a new git repo for your project.
+1. Start a new Git repo for your project.
 2. Create a blank HTML document with a script tag.  This game is going to be played
     completely from the console, so don't worry about putting anything else in there.
 3. Your game is going to play against the computer, so begin with a function called `computerPlay` that will randomly return either 'Rock', 'Paper' or 'Scissors'.  We'll use this function in the game to make the computer's play.
 4. Write a function that plays a single round of Rock Paper Scissors.  The function should take two parameters - the `playerSelection` and `computerSelection` - and then return a string that declares the winner of the round like so: `"You Lose! Paper beats Rock"`
-   1. make your function case insensitive (so users can input `rock`, `ROCK`, `RocK` or any other variation)
+   1. Make your function case insensitive (so users can input `rock`, `ROCK`, `RocK` or any other variation)
 
    2. __Important note:__ you want to `return` the results of this function call, _not_ `console.log()` them.  To test this function console.log the results:
 
@@ -35,18 +35,22 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 </div>
 
 ### Student Solutions
-Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
+Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/web_development_101/javascript_basics/project_rock_paper_scissors.md) on the Javascript Curriculum GitHub repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [shouhu21's Solution](https://github.com/shouhu21/rock-paper-scissors) - [View in Browser](https://shouhu21.github.io/rock-paper-scissors/)
+- [AFurrow's Solution](https://github.com/Afurrow/Rock-Paper-Scissors) - [View in Browser](https://afurrow.github.io/Rock-Paper-Scissors/)
+- [mittalrohit0598's Solution](https://github.com/mittalrohit0598/rock-paper-scissors) - [View in Browser](https://thegrapescribbler.com/rock-paper-scissors/)
+- [Parham-Pourjam's Solution](https://github.com/Parham-Pourjam/RockPaperScissors)
 - [Shadou1's Solution](https://github.com/Shadou1/the-odin-projects/tree/master/web-development-101/rock-paper-scissors) - [View in Browser](https://shadou1.github.io/the-odin-projects/web-development-101/rock-paper-scissors/)
 - [NightShop's Solution](https://github.com/NightShop/RockPaperScissorsJS) - [View in Browser](https://nightshop.github.io/RockPaperScissorsJS/)
 - [dkhole's Solution](https://github.com/dkhole/rock-paper-scissors) - [View in Browser](https://dkhole.github.io/rock-paper-scissors/)
 - [max-marquez's Solution](https://github.com/Max-Marquez/rock-paper-scissors) - [View in Browser](https://max-marquez.github.io/rock-paper-scissors/)
 - [ruimpcastro's Solution](https://github.com/ruimpcastro/rock-paper-scissors) - [View in Browser](https://ruimpcastro.github.io/rock-paper-scissors/)
-- [justinsatorre's Solution](https://github.com/justinsatorre/rock-paper-scissors)
+- [justinsatorre's Solution](https://github.com/justinsatorre/rock-paper-scissors) - [View in Browser](https://justinsatorre.github.io/rock-paper-scissors/)
 - [gswy62's Solution](https://github.com/gswy62/rock-paper-scissors)
 - [rjbullough's Solution](https://github.com/rjbullough/rock_paper_scissors/) - [View in Browser](https://rjbullough.github.io/rock_paper_scissors/)
 - [nguyenjessev's Solution](https://github.com/nguyenjessev/rock-paper-scissors) - [View in Browser](https://nguyenjessev.github.io/rock-paper-scissors/)
@@ -1902,4 +1906,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [evonloch's Solution](https://github.com/evonloch/Rock-Paper-Scissors) - [View in Browser](https://evonloch.github.io/Rock-Paper-Scissors/)
 - [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/rock-paper-scissors) 
 - [yiyuanyi's Solution](https://github.com/yiyuanyi/rock-paper-scissors)
+- [James-Lowe's Solution](https://github.com/James-Lowe/rock-paper-scissors)
+- [arthursiq5's Solution](https://github.com/arthursiq5/rock-paper-scissors-js) - [View in Browser](https://arthursiq5.github.io/rock-paper-scissors-js/)
+- [Russell's Solution](https://github.com/RussellMurray93/RockPaperScissors)
 </details>
