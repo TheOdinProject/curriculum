@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Dante Six' Solution](https://github.com/SempleGit/calculator_top) - [View in Browser](https://semplegit.github.io/calculator_top/)
 - [Strood's Solution](https://github.com/strood/POCalculator) - [View in Browser](https://tender-haibt-cec4a0.netlify.app/)
 - [iaderdor's Solution](https://github.com/iaderdor/calculator) - [View in Browser](https://iaderdor.github.io/calculator/calculator.html)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/Calculator) - [View in Browser](https://nicolasarayab.github.io/Calculator/)
