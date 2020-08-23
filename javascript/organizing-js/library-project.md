@@ -396,4 +396,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Kapaha's Solution (w/localstorage)](https://github.com/kapaha/book-library) - [View in Browser](https://kapaha.github.io/book-library/)
 - [Wulfen's Solution (w/localStorage)](https://github.com/wulfenn/library) - [View in Browser](https://wulfenn.github.io/library/)
 - [castle429'x Solution](https://github.com/castle429/my-library) - [View in Browser](https://castle429.github.io/my-library/)
+- [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/library) - [View in Browser](https://marvinkeilbach.github.io/library/)
 </details>
