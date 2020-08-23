@@ -36,6 +36,16 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Ruby-Projects/Basic-Projects/Caesar-Cipher.rb)
+* [Lucasdonuts' Solution](https://github.com/lucasdonuts/ruby_substrings)
+* [Spike's Solution](https://github.com/superspike7/sub_string/blob/master/main.rb)
+* [jtdevuk's Solution](https://github.com/jtdevuk/sub_strings)
+* [An0therHuman's Solution](https://github.com/An0therHuman/Ruby_Programing/blob/master/sub_string.rb)
+* [Nima's Solution](https://github.com/nima-19/Ruby-Projects/blob/master/substrings.rb)
+* [Kjell's solution](https://github.com/kjell-fjeldsaunet/top-substrings/blob/master/substrings.rb)
+* [Sanjana's solution](https://github.com/error34043/TOP_Ruby_Projects/blob/master/substrings.rb)
+* [nguyenjessev's Solution](https://github.com/nguyenjessev/sub-strings)
+* [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/sub-strings)
 * [kelem7's Solution](https://github.com/kelem7/Ruby-Coding-Challenges/tree/master/Substrings)
 * [Sizwe Malobola's Solution](https://github.com/SizweMalobola/Ruby_Projects/blob/master/sub_strings.rb)
 * [Kckat's Solution](https://github.com/kckat/basic-ruby-projects/blob/master/substring.rb)
@@ -567,4 +577,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Alejaldo's Solution](https://github.com/Alejaldo/substrings/blob/master/substr.rb)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/blob/master/substrings.rb)
 * [robertompfm's Solution](https://github.com/robertompfm/substrings-ruby/blob/master/substrings.rb)
+* [sal's Solution](https://github.com/Sal-theSadmanShark/RUBY_exercises/blob/master/sub_strings/sub_strings.rb)
 </details>

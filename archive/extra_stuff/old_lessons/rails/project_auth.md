@@ -38,7 +38,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 #### Basic Setup
 
 1. Think about and spec out how to set up your data models for this application.  You'll need users with the usual simple identification attributes like name and email and password but also some sort of indicator of their member status.  They'll need to create posts as well.  Given what you know about passwords, you'll be using a `:password_digest` field instead of a `:password` field.
-2. Create your new `members-only` Rails app and Github repo.  Update your README.
+2. Create your new `members-only` Rails app and GitHub repo.  Update your README.
 3. Start by migrating and setting up your basic User model (no membership attributes yet).
 4. Include the `bcrypt-ruby` gem in your Gemfile.  `$ bundle install` it.  (note: This might just be `bcrypt`)
 5. Add the `#has_secure_password` method to your User file.
@@ -93,7 +93,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [Raiko's solution](https://github.com/Cypher0/members-only) | [View in browser](https://obscure-tundra-60053.herokuapp.com/)
