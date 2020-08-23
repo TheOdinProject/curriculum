@@ -1,3 +1,11 @@
+### Introduction
+
+In our previous project, we were challenged with the implementation of a `Linked List` and `Nodes`; and we have learned just how instrumental `Nodes` are in creating a `Linked List`. Now we're back with our deadly `Nodes` knowledge and we're ready to take on `Linked Lists` much bigger cousins, the `Tree`. In this project, we shall first do a relatively straightforward task in implementing a `Binary Search Tree`.
+
+Afterwards, we will be tackling a classic Chess related challenge, which *could* be treated like a `tree`, or like *yet another data structure* similar to trees.
+
+Good luck, and be persistent. This will be a challenging exercise.
+
 ### Project 1: Binary Search Trees
 
 You have learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node". You have also learned about tree traversal algorithms like breadth-first and depth-first.

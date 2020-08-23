@@ -1,20 +1,10 @@
 ### Introduction
 
-In Computer Science one of the most basic and fundamental data structures is the
-linked list, which functions similarly to an array. The principal benefit of a linked
-list over a conventional array is that the list elements can easily be inserted or
-removed without reallocation of any other elements.
+In our previous lesson, we looked at `Nodes`, `Linked Lists` and `Trees`; the latter two being core `data structures` to add to your repetoire, and `Nodes` being the foundation those `data structures` are built upon.
 
-In some programming languages the size of an array is a concern and one of the ways
-to overcome that problem and allow dynamically allocated data is using linked lists.
+As stated previously, if your language of choice is `Ruby` or `Javascript`, in practice you won't have to concern yourself with implementing `Linked Lists` as `Arrays` are not a fixed sized in these languages. However, learning how `Nodes` work by writing them, and building a `Linked List` with them; will give you a working understanding of how `Linked Lists` work, and give you a solid, founding principle for tackling the bigger task ahead...
 
-Luckily in **Ruby** arrays aren't limited to a certain size, so you don't have to think
-about overcoming that limitation.
-
-So if array size is not a limitation in Ruby, are linked lists really necessary?
-The short answer to that is _no_; however, it's the simplest of the dynamic data
-structures and it will give you a solid foundation, so you can understand more
-complex data structures like graphs and binary trees with more ease.
+`Trees.`
 
 ### Structure of a Linked List
 
@@ -34,6 +24,7 @@ For a more thorough explanation, use these resources:
 3.  [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 
 ### Assignment
+In your language of choice...
 
 <div class="lesson-content__panel" markdown="1">
   You will need two classes:
