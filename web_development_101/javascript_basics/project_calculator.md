@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Benimanjaro's Solution](https://github.com/TheOdinProject/curriculum.git) - [ View in Browser](https://beniamanjaro.github.io/calculator/)
 - [Dante Six' Solution](https://github.com/SempleGit/calculator_top) - [View in Browser](https://semplegit.github.io/calculator_top/)
 - [WonderNote18's Solution](https://github.com/WonderNote18/top-calculator) - [View in Browser](https://wondernote18.github.io/top-calculator/)
 - [Spike's Solution](https://github.com/superspike7/Calculator) - [View in Browser](https://superspike7.github.io/Calculator/)
