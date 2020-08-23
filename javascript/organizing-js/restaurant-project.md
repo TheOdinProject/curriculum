@@ -39,7 +39,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 1. If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running `webpack` the full bundled version of your site is available in the `dist` folder, but GH pages is looking for an index.html in the root directory of your project.
 
     1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
-    1. Recall that the __source branch__ for Github Pages is set in your repository's settings.
+    1. Recall that the __source branch__ for GitHub Pages is set in your repository's settings.
 </div>
 
 ### Student Solutions
@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Phillip's Solution](https://github.com/PhillipUg/restaurant-page) - [View in Browser](https://phillipug.github.io/restaurant-page/)
 - [j-coen's Solution](https://github.com/J-coen/odin-restaurant) - [View in Browser](https://j-coen.github.io/odin-restaurant/)
 - [hd505495's Solution](https://github.com/hd505495/restaurant-page) - [View in Browser](https://hd505495.github.io/restaurant-page/)
 - [Christopher Amanor's Solution](https://github.com/krys2fa/restaurant-home-page) - [View in Browser](https://krys2fa.github.io/restaurant-home-page/)
@@ -246,4 +247,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [constantinginga's Solution](https://github.com/constantinginga/restaurant-page) - [View in Browser](https://constantinginga.github.io/restaurant-page/)
 - [Timework's Solution](https://github.com/Timework/restaurant) - [View in Browser](https://timework.github.io/restaurant/)
 - [joankii's Solution](https://github.com/joan-kii/restaurant-page) - [View in Browser](https://joan-kii.github.io/restaurant-page/)
+- [sacchan9's Solution](https://github.com/sacchan9/restaurant-page) - [View in Browser](https://sacchan9.github.io/restaurant-page/)
 </details>
