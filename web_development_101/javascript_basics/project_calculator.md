@@ -77,6 +77,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Sizwe Malobola's Solution](https://github.com/SizweMalobola/functional-calculator) - [View in Browser](https://sizwemalobola.github.io/functional-calculator/)
 - [Priya Aggarwal's Solution](https://github.com/pa-aggarwal/calculator) - [View in Browser](https://pa-aggarwal.github.io/calculator/)
 - [pampush's Solution](https://github.com/pampush/calculator) - [View in Browser](https://pampush.github.io/calculator/)
+- [ivantbv's Solution](https://github.com/ivantbv/calculator) - [View in Browser](https://ivantbv.github.io/calculator/)
 - [theamian's Solution](https://github.com/theamian/calculator)
 - [dab47310' Solution](https://github.com/dab47310/project-calculator) - [View in Browser](https://dab47310.github.io/project-calculator/)
 - [Ramanjs' Solution](https://github.com/Ramanjs/calculator) - [View in Browser](https://ramanjs.github.io/calculator/)
