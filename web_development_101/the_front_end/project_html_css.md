@@ -17,7 +17,7 @@ These skills will be helpful for you when you start building. Either try them yo
 1. Understand how to use classes and ids to target CSS at specific elements on the page
 1. Build a very basic form (even if it doesn't "go" anywhere)
 
-### Setting Up Your Project's Github Repository (optional)
+### Setting Up Your Project's GitHub Repository (optional)
 
 As mentioned in the [introduction to Git](/courses/web-development-101/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
@@ -27,20 +27,20 @@ If you do not know how to set up a repository, follow the instructions found in 
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH)
 
-- [Setting up SSH on Github](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github).
+- [Setting up SSH on GitHub](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github).
 
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; set up your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
-5. If you want to share your solution, include a link in the markdown file included at the top of the student Solutions section.
+5. If you want to share your solution, include a link in the markdown file included at the top of the Student Solutions section.
 
 If you are having trouble:
 
-- Ensure you followed the steps [here on Step 2.3](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github) to clone from Github with SSH.
+- Ensure you followed the steps [here on Step 2.3](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
 - Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson.
 - Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the Git Basics Project.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
-_When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push origin master`._
+_When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin master`._
 
 If you have entered `git push origin master` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
 
@@ -65,23 +65,23 @@ Inside your project folder, create your index.html file
 3. Next do the navbar across the top, first building the content and then trying to position it. Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
 4. Finally, put in the footer, which should be very similar to the top navbar.
 5. In general, do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
-6. Push your project to Github using the instructions above!
+6. Push your project to GitHub using the instructions above!
 
 #### Difficult Version (optional): Build the [Google.com search results page](https://www.google.com/search?q=build+this+webpage)
 
 You should be able to reuse much of your code from before if you started with that project. Again, don't worry about links to nowhere and forms that won't submit and hard coding the search results (which you'll have to do of course), just focus on placement and order of items on the page.
 
-Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`). This is because the code was **Minified** ([see the Wikipedia entry here](<http://en.wikipedia.org/wiki/Minification_(programming)>)), which removes or shortens unnecessary characters and names to help the page load faster. The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
+Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`). This is because the code was **Minified** ([see the Wikipedia entry here](<http://en.wikipedia.org/wiki/Minification_(programming)>)), which removes or shortens unnecessary characters and names to help the page load faster. The HTML (or JavaScript or CSS) file will be smaller but the browser can still read it just fine.
 
 ### Viewing your project on the web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above) doing this is incredibly simple.
 
-Github allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`
+GitHub allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`
 
 There are a couple of ways to go about doing this, but the simplest is this:
 
-- make sure that the main html file of your project is called `index.html`. If it is not, you will need to rename it.
+- make sure that the main HTML file of your project is called `index.html`. If it is not, you will need to rename it.
 - go to your GitHub repo on the web and click the **Settings** button
 - scroll down until you find the **GitHub Pages** section
 - change the **Source** from _none_ to _master branch_ and click Save.
@@ -95,12 +95,17 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Kerry Edwardson's solution (Easy)](https://github.com/kerryedwardson/google-homepage) - [View in Browser](https://kerryedwardson.github.io/google-homepage/)
-* [Galo's solution (Easy)](https://github.com/galoantreas/google-homepage) - [View in Browser](https://galoantreas.github.io/google-homepage/)
-* [Galo's solution (Difficult)](https://github.com/galoantreas/google-homepage) - [View in Browser](https://galoantreas.github.io/google-homepage-2/)
+* [Hakan Duzagadusmez Solution (Easy)](https://officialcaptain.github.io/google-homepage1/) - [View in browser](https://officialcaptain.github.io/google-homepage1/)
+* [MWise92's Solution (Easy)](https://github.com/MWise92/google-homepage) - [View in Browser](https://MWise92.github.io/google-homepage/) 
+* [Alex Wilsons's Solution (Difficult)](https://github.com/Adub648/google-homepage-v2) - [View in Browser](https://myteenagelife.me/google-homepage-v2/files/html/search_results.html)
+* [Alex Wilsons's Solution (Easy)](https://github.com/Adub648/google-homepage-v2) - [View in Browser](https://myteenagelife.me/google-homepage-v2/)
+* [Tmlapi's Solution (Easy)](https://github.com/tmlapi/google-homepage) - [View In Browser](https://tmlapi.github.io/google-homepage/)
+* [Kerry Edwardson's Solution (Easy)](https://github.com/kerryedwardson/google-homepage) - [View in Browser](https://kerryedwardson.github.io/google-homepage/)
+* [Galo's Solution (Easy)](https://github.com/galoantreas/google-homepage) - [View in Browser](https://galoantreas.github.io/google-homepage/)
+* [Galo's Solution (Difficult)](https://github.com/galoantreas/google-homepage) - [View in Browser](https://galoantreas.github.io/google-homepage-2/)
 * [AFurrow's Solution (Easy)](https://afurrow.github.io/google-homepage/) - [View in Browser](https://afurrow.github.io/google-homepage/)
 * [elHerro's Solution (Easy)](https://github.com/elHerro/google-homepage) - [View in Browser](https://elherro.github.io/google-homepage/)
-* [ayandagatsha's Solution (Easy)](https://github.com/ayandagatsha/google-homepage) - [View in Browser](hhttps://ayandagatsha.github.io/google-homepage/)
+* [ayandagatsha's Solution (Easy)](https://github.com/ayandagatsha/google-homepage) - [View in Browser](https://ayandagatsha.github.io/google-homepage/)
 * [navneet473's Solution (Easy)](https://github.com/navneet473/google-homepage) - [View in Browser](https://navneet473.github.io/google-homepage/)
 * [Bbrenes' Solution (Easy)](https://github.com/BBrenes/google-homepage) - [View in Browser](https://bbrenes.github.io/google-homepage/)
 * [juanpa89's Solution (Easy)](https://github.com/juanpa89/google-homepage-) - [View in Browser](https://juanpa89.github.io/google-homepage-/) 
@@ -437,7 +442,6 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [wesgray76's Solution (Easy)](https://github.com/wesgray76/google_homepage) - [View in Browser](https://wesgray76.github.io/google_homepage/)
 * [Pratiks's Solution (Easy)](https://github.com/Pratik-Gohil/GoogleClone) - [View in Browser](https://pratik-gohil.github.io/GoogleClone/)
 * [ekoltonski's Solution (Easy)](https://github.com/ekoltonski/google-home-project) - [View in Browser]( https://ekoltonski.github.io/google-home-project/)
-* [Adub648's Solution (Easy)](https://github.com/Adub648/google-homepage) - [View in Browser](https://adub648.github.io/google-homepage/)
 * [gregggrose's Solution (Easy)](https://github.com/gregggrose/google-homepage) - [View in Browser](https://gregggrose.github.io/google-homepage/)
 * [kathyqat's Solution (Easy)](https://github.com/kathyqat/google_homepage) - [View in Browser](https://kathyqat.github.io/google_homepage/)
 * [YellapNave's Solution (Easy)](https://github.com/yellapnave/google-homepage/) - [View in Browser](https://yellapnave.github.io/google-homepage/)
@@ -4176,7 +4180,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [iwanttostealyourdog's Solution (Easy)](https://github.com/iwanttostealyourdog/google-homepage) - [View in Browser](https://iwanttostealyourdog.github.io/google-homepage/)
 * [Brandon Araujo's Solution (Easy)](https://github.com/Brandon-Araujo/google-homepage) - [View in Browser](https://brandon-araujo.github.io/google-homepage/)
 * [Vaibhav Dhawan's Solution (Easy)](https://vabd222.github.io/google-homepage/) - [View in Browser](https://vabd222.github.io/google-homepage/)
+* [Mohammed's Solution (Easy)](https://github.com/mohammedvs/google-homepage) - [View in Browser](https://mohammedvs.github.io/google-homepage/)
 * [Aureen's Solution (Easy)](https://github.com/Aure-en/google-homepage) - [View in Browser](https://aure-en.github.io/google-homepage/)
+* [cornely06's Solution (Easy)](https://github.com/cornely06/google-homepage) - [View in Browser](https://cornely06.github.io/google-homepage/)
 
 </details>
 

@@ -45,6 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Spike's Solution](https://github.com/superspike7/Calculator) - [View in Browser](https://superspike7.github.io/Calculator/)
+- [dkhole's Solution](https://github.com/dkhole/calculator) - [View in Browser](https://dkhole.github.io/calculator/)
+- [Bibabyte's Solution](https://github.com/bibabyte/TOPCalc) - [View in Browser](https://bibabyte.github.io/TOPCalc/)
 - [Strood's Solution](https://github.com/strood/POCalculator) - [View in Browser](https://tender-haibt-cec4a0.netlify.app/)
 - [iaderdor's Solution](https://github.com/iaderdor/calculator) - [View in Browser](https://iaderdor.github.io/calculator/calculator.html)
 - [NicolasArayaB's Solution](https://github.com/NicolasArayaB/Calculator) - [View in Browser](https://nicolasarayab.github.io/Calculator/)
@@ -888,4 +891,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/calculator/tree/master) - [View in Browser](https://marvinkeilbach.github.io/calculator/)
 - [Almar's Solution](https://github.com/Assetbekov-Almar/Calculator) - [View in Browser](https://assetbekov-almar.github.io/top_calculator/)
 - [myles519's Solution](https://github.com/Spence19/calculator) - [View in Browser](https://spence19.github.io/calculator/)
+- [Bones81's Solution](https://github.com/Bones81/calculator) - [View in Browser](https://Bones81.github.io/calculator/)
 </details>

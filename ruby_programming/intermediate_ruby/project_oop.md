@@ -19,6 +19,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [onagova's Solution](https://github.com/onagova/intermediate-ruby-projects/blob/master/tic_tac_toe.rb) - [View in repl.it](https://repl.it/@onagova/intermediate-ruby-projects#tic_tac_toe.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-tic-tac-toe) - [View in repl.it](https://repl.it/@error34043/TicTacToe#main.rb)
 * [AGL9's Solution](https://github.com/agl9/tictactoeruby) - [View in repl.it](https://repl.it/@AGL9/tictactoe2#main.rb)
 * [Kingofping654's Solution](https://github.com/kingofping654/Tic_Tac_Toe) - [View in repl.it](https://repl.it/@kingofping654/TicTacToe)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/tic-tac-toe) - [View in repl.it](https://repl.it/@nguyenjessev/tic-tac-toe-1#tic_tac_toe.rb)
@@ -448,6 +450,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sanjana's Solution](https://github.com/error34043/ruby-mastermind) - [View in repl.it](https://ruby-mastermind.error34043.repl.run)
+* [onagova's Solution](https://github.com/onagova/intermediate-ruby-projects/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@onagova/intermediate-ruby-projects#mastermind.rb)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/mastermind) - [View in repl.it](https://repl.it/@nguyenjessev/mastermind#mastermind.rb)
 * [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Ruby_Projects/tree/master/mastermind) - [View in repl.it](https://repl.it/@MrBowtie/Mastermind#main.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby-Mastermind/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/Ruby-Mastermind#mastermind.rb)

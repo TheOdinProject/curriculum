@@ -27,9 +27,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Kjell's solution](https://github.com/kjell-fjeldsaunet/top-stock-picker/blob/master/stock-picker.rb)
-* [wise-king-sullyman's solution](https://github.com/wise-king-sullyman/stock-picker)
-* [Sanjana's solution](https://github.com/error34043/TOP_Ruby_Projects/blob/master/stockpicker.rb)
+* [Spike's Solution](https://github.com/superspike7/stock-picker/blob/master/main.rb)
+* [An0therHuman's Solution](https://github.com/An0therHuman/Ruby_Programing/blob/master/stock_picker.rb)
+* [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-stock-picker/blob/master/stock-picker.rb)
+* [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/stock-picker)
+* [Sanjana's Solution](https://github.com/error34043/TOP_Ruby_Projects/blob/master/stockpicker.rb)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/stock-picker)
 * [freeflow13's Solution](https://github.com/freeflow13/ruby_solutions/blob/master/stocks.rb)
 * [Sizwe Malobola's Solution](https://github.com/SizweMalobola/Ruby_Projects/blob/master/stock_picker.rb)

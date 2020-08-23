@@ -10,7 +10,7 @@ Create a simple image carousel site.  It should contain arrows on each side to a
 Don't spend too much time worrying about getting your images to display at the correct size -- it's more important to get the slider sliding.
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a GitHub Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. Think about how you would set up the different elements within the site.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
 4. Build the static HTML for the carousel.
@@ -20,7 +20,7 @@ Don't spend too much time worrying about getting your images to display at the c
 8. Add in some navigation dots at the bottom of the slides.  Make a horizontal series of empty circles with CSS immediately below the slideshow.  Each circle represents a slide, so whenever a new slide is activated, its corresponding circle gets filled in so you can tell where in the show you are.  Make each circle link to that particular slide, so you can click on the circle and it will jump to that slide.
 9. Add a timeout which advances the slides every 5 seconds.
 10. Play around with your slideshow!
-11. Push the project to Github and add the link to your solution below.
+11. Push the project to GitHub and add the link to your solution below.
 
 #### Advanced Additions (Optional)
 1. When you hover on the "next" or "previous" arrows, it should actually pop up a little tiny picture preview of the next slide's picture.
