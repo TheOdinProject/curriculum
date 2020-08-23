@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [hgnuye's Solution](https://github.com/hnguye/tmw-clone) - [View in Browser](https://hnguye.github.io/tmw-clone/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/responsive-design-practice-ulysses) - [View in Browser](https://ideopunk.github.io/responsive-design-practice-ulysses/)
 * [Run After's Solution](https://github.com/run-after/mock-the-next-web) - [View in Browser](https://run-after.github.io/mock-the-next-web/)
 * [Alex Zambrano's Solution](https://github.com/Alexoid1/Building-with-Responsive-Design) - [View in Browser](https://alexoid1.github.io/Building-with-Responsive-Design/)
