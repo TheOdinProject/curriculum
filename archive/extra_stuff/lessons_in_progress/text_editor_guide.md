@@ -18,7 +18,7 @@ Pick your text-editor, choose wisely - this will be a close companion of yours f
 
 And install Git:
 - For [Windows](http://installfest.railsbridge.org/installfest/windows); Steps 2 and 3.
-- For Linux: [installation](http://installfest.railsbridge.org/installfest/linux) - do step 2 (it's only one line); [configuration](http://installfest.railsbridge.org/installfest/configure_git) - the whole page; make an [SSH key](http://installfest.railsbridge.org/installfest/create_an_ssh_key) and make a [Github account](http://installfest.railsbridge.org/installfest/create_a_github_account)
+- For Linux: [installation](http://installfest.railsbridge.org/installfest/linux) - do step 2 (it's only one line); [configuration](http://installfest.railsbridge.org/installfest/configure_git) - the whole page; make an [SSH key](http://installfest.railsbridge.org/installfest/create_an_ssh_key) and make a [GitHub account](http://installfest.railsbridge.org/installfest/create_a_github_account)
 
 ##Additional Resources
 ^ Seems like overkill; maybe some git resources if absolutely necessary or some ideas about package manager on the text editors:
@@ -30,7 +30,7 @@ Really useful for workflow!!
 <!--
 ### Git
 
-Git, the version-control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
+Git, the version-control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your GitHub account, which is very important because it'll host your portfolio.  When people visit your repo on GitHub (if it's public), they see all the source code files you've uploaded.
 
 ### Text Editor
 

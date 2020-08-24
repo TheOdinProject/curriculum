@@ -17,7 +17,7 @@ This lesson is meant to give you a head start so you can begin experimenting wit
 2. Read [Testing Javascript using the Jasmine Framework from  HTMLGoodies](http://www.htmlgoodies.com/beyond/javascript/testing-javascript-using-the-jasmine-framework.html) for another high level overview.
 3. Browse through [Testing your Javascript with Jasmine from TutsPlus](http://net.tutsplus.com/tutorials/javascript-ajax/testing-your-javascript-with-jasmine/), which gets a bit more into things.
 4. When you've got a handle on the basics, [Writing Testable Javascript from Alistapart](http://alistapart.com/article/writing-testable-javascript) will help you use testing to make better code design decisions.
-5. Visit the [Jasmine Documentation on Github](https://github.com/pivotal/jasmine) and browse the README.
+5. Visit the [Jasmine Documentation on GitHub](https://github.com/pivotal/jasmine) and browse the README.
 </div>
 
 ### Additional Resources

@@ -23,12 +23,13 @@ You'll be dusting off your [Flight Booker project](/courses/ruby-on-rails/lesson
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [pudu87's Solution](https://github.com/pudu87/odin-flight-booker)
 * [Christian's Solution](https://github.com/rueeazy/odin_flight_booker)
 * [leetie's Solution](https://github.com/leetie/odin-flight-booker)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_flight_booker)

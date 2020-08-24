@@ -23,13 +23,15 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
   7. Write `#inorder`, `#preorder`, and `#postorder` methods that returns an array of values. Each method should traverse the tree in their respective depth-first order.
 
-  8. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
+  8. Write a `#height` method which accepts a node and returns its height. Height is defined as the number of edges in longest path from a given node to a leaf node.
 
-  9. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
+  9. Write a `#depth` method which accepts a node and returns its depth. Depth is defined as the number of edges in path from a given node to the tree's root node.
 
-  10. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+  10. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 
-  11. Write a simple driver script that does the following:
+  11. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+
+  12. Write a simple driver script that does the following:
 
     1. Create a binary search tree from an array of random numbers (`Array.new(15) { rand(1..100) }`)
     2. Confirm that the tree is balanced by calling `#balanced?`
@@ -44,10 +46,10 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
 
 ~~~ruby
-def pretty_print(node = root, prefix="", is_left = true)
-  pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right
-  puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
-  pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
+def pretty_print(node = @root, prefix = '', is_left = true)
+  pretty_print(node.right, "#{prefix}#{is_left ? '│   ' : '    '}", false) if node.right
+  puts "#{prefix}#{is_left ? '└── ' : '┌── '}#{node.data}"
+  pretty_print(node.left, "#{prefix}#{is_left ? '    ' : '│   '}", true) if node.left
 end
 ~~~
 
@@ -58,6 +60,12 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [nguyenjessev's Solution](https://github.com/nguyenjessev/binary-search-tree)
+* [bassart94's Solution](https://repl.it/@bassart94/bst#main.rb)
+* [nhleto's Solution](https://github.com/nhleto/Binary-Tree)
+* [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/balanced_BST.rb)
+* [Risan's Solution](https://github.com/risanto/ruby-programming/blob/master/14_binary-search-trees.rb)
+* [James's Solution](https://github.com/jegrieve/binary_search_trees)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
 * [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
@@ -259,6 +267,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
+* [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/binary_search_tree.rb)
+
 </details>
 
 ### Project 2: Knight's Travails
@@ -305,6 +316,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Risan's Solution](https://github.com/risanto/knight-travails) - [View in repl.it](https://repl.it/@Risanto/knight-travails#knight_moves.rb)
+* [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/knights_travails.rb) - [View in repl.it](https://repl.it/@cbpolley/knightstravails)
+* [James's Solution](https://github.com/jegrieve/Knight-s_Travails)
 * [Aaron's Solution](https://github.com/Aaron-McD/knight-travails)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Knights_Travails)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/knights-travails)
@@ -501,5 +515,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
 * [msespos's Solution](https://github.com/msespos/knights-travails)
+* [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/knights_travels.rb)
+* [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/knights_travails.rb)
 
 </details>

@@ -33,7 +33,7 @@ Modifying or dual booting a computer to work with the tools you'll need will mak
 
 #### Mac
 
-If you're using a Mac, you're in great shape. Most professional developers rely on Macs for their coding. By installing just a few programs, you will be up and running with your education in no time!
+If you're using a Mac, you're in great shape. Most professional developers rely on Unix-based systems for their coding. By installing just a few programs, you will be up and running with your education in no time!
 
 #### Linux
 

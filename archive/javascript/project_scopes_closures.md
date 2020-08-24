@@ -10,7 +10,7 @@ Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) 
 Build a tic-tac-toe game in the browser where two human players can play against each other.
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a GitHub Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. Think about how you would set up the different elements within the game.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.
 4. Create a basic 3x3 board object in Javascript that lists the current item in each space on the board (e.g. "X", "O", or " ").
@@ -18,7 +18,7 @@ Build a tic-tac-toe game in the browser where two human players can play against
 6. Build the main game logic (we won't give too many hints here).  When the user clicks on a blank square, it should show the current player's symbol.  This can be triggered by listening for a click event on the appropriate div.  It may be helpful to give each div a `data` attribute or `id` based on its position so you can identify it in your JS code.
 7. The game logic should then check whether the game is over -- if any player has achieved victory or if there are no more turns available.  In the event of victory or defeat, display an appropriate message on the screen.
 8. Optional -- switch out the "X" and "O" letters with appropriate (or funny) images.
-9. Push your solution to Github and post the link to it below.
+9. Push your solution to GitHub and post the link to it below.
 </div>
 
 ### Student Solutions
