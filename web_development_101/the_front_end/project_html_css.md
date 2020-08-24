@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [shalonday's Solution (Easy)](https://shalonday.github.io/google-homepage/) - [View in Browser](https://shalonday.github.io/google-homepage/)
+* [ethanaggor's Solution (Easy)](https://github.com/ethanaggor/google-homepage) - [View in Browser](https://ethanaggor.github.io/google-homepage/)
 * [tinalr's Solution (Easy)](https://tinalr.github.io/TOP_google-page/) - [View in Browser](https://tinalr.github.io/TOP_google-page/)
 * [rennt704's Solution (Difficult)](https://rennt704.github.io/google-homepage/) - [View in Browser](https://rennt704.github.io/google-homepage/)
 * [Luca-Mario Martin's Solution (Easy)](https://luc4m4rio.github.io/Google_Homepage/) - [View in Browser](https://luc4m4rio.github.io/Google_Homepage/)
