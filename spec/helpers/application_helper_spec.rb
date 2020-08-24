@@ -188,23 +188,18 @@ RSpec.describe ApplicationHelper do
   end
 
   describe '#next_lesson_to_complete' do
-
     let(:course) { double('Course') }
-    let(:lesson_completions) { }
+    let(:lesson_completions) { [lesson_completion] }
     let(:lesson_completion) { double('LessonCompletion') }
-    let(:next_lesson) {
-      double('NextLesson', to_complete: lesson_to_complete )
-    }
+    let(:next_lesson) { double('NextLesson', to_complete: lesson_to_complete) }
     let(:lesson_to_complete) { double('Lesson') }
 
     before do
-      allow(NextLesson).to receive(:new).
-        with(course, lesson_completions).and_return(next_lesson)
+      allow(NextLesson).to receive(:new).with(course, lesson_completions).and_return(next_lesson)
     end
 
     it 'returns the next lesson the user has to complete' do
-      expect(helper.next_lesson_to_complete(course, lesson_completions)).
-        to eql(lesson_to_complete)
+      expect(helper.next_lesson_to_complete(course, lesson_completions)).to eql(lesson_to_complete)
     end
   end
 end

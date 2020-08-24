@@ -4,7 +4,7 @@ FactoryBot.define do
     course
     sequence(:title) { |n| "test lesson#{n}" }
     sequence(:position) { |n| n }
-    url { 'http://www.bogus.com/subpage/whatever.git' }
+    url { '/lesson_course/lesson_title.md' }
     content { 'content' }
   end
 end

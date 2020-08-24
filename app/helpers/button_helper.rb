@@ -15,6 +15,10 @@ module ButtonHelper
     link_to 'Curriculum', curriculum_path, class: 'button button--primary'
   end
 
+  def contribute_button
+    link_to('Contribute', contributing_path, class: 'button button--primary')
+  end
+
   def chat_button
     link_to(
       'Open Discord',
@@ -23,9 +27,5 @@ module ButtonHelper
       target: '_blank',
       rel: 'noreferrer'
     )
-  end
-
-  def contribute_button
-    link_to('Contribute', contributing_path, class: 'button button--primary')
   end
 end

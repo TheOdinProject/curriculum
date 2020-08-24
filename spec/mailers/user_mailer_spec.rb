@@ -4,8 +4,7 @@ RSpec.describe UserMailer, type: :mailer do
   describe '#send_welcome_email_to' do
     subject(:welcome_email) { UserMailer.send_welcome_email_to(user) }
 
-    let(:user) { FactoryBot.create(:user, email: 'kevin@example.com') }
-
+    let(:user) { create(:user, email: 'kevin@example.com') }
 
     it 'renders the correct sender address' do
       expect(welcome_email.from).to eql(['no-reply@theodinproject.com'])
@@ -27,6 +26,5 @@ RSpec.describe UserMailer, type: :mailer do
     it 'sends the email to the correct address' do
       expect(welcome_email.to).to eql(['kevin@example.com'])
     end
-
   end
 end
