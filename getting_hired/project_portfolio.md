@@ -14,6 +14,38 @@ Remember to write some documentation for both technical and non-technical audien
 
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 
+### Design Inspirations
+<details markdown="block">
+  <summary> Links for designs </summary>
+
+  * [Stratis Bakas](https://stratisbakas.com/)
+  * [Matt Farley](https://mattfarley.ca/)
+  * [Dejan Markovic](https://www.dejan.works/)
+  * [Rafael Caferati](https://caferati.me/)
+  * [Ian Lunn](https://ianlunn.co.uk/)
+  * [Ben Adam](https://benadam.me/)
+  * [Seb Kay](https://sebkay.com/)
+  * [Jonny MacEachern](https://jonny.me/)
+  * [Jack Jeznach](jacekjeznach.com)
+  * [Matthew Talebi](https://oneux.co/)
+  * [Andriy Chemerynskiy](https://andrewchmr.com/)
+  * [Chris Ota's Portfolio](https://www.otadesigns.com/)
+  * [Pierre Nel](https://pierre.io/)
+  * [Adrien Laurent's Portfolio](https://adrienlaurent.fr/)
+  * [Thomas' Portfolio](https://www.thomasbosc.com)
+  * [Timmy O’Mahony](https://timmyomahony.com/)
+  * [Elliot's Portfolio](https://elliotcondon.com/)
+  * [James Warner](https://jmswrnr.com/)
+  * [Tiago Sá's Portfolio](https://i-am-tiago.com/)
+  * [Patrick David](https://bepatrickdavid.com/)
+  * [Luis Krötz](https://luiskr.com/)
+  * [Leonid Kostetckyi](https://lk.emotion-agency.com/)
+  * [Alex Madeira](https://www.alexmadeira.com.br/)
+
+
+</details>
+
+
 ### Student Solutions (Personal Portfolio Sites)
 Send us a link to your portfolio site so we can show others! Submit a link to your live site and/or to the GitHub repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
