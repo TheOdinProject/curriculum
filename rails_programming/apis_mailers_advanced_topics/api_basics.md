@@ -13,7 +13,7 @@ In this lesson, we'll cover how to build your own API.  In the following lesson,
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* How does Rails know which type of file you are expecting back when you make an HTTP request.
+* How does Rails know which type of file you are expecting back when you make an HTTP request?
 * What is the purpose of the `#respond_to` method?
 * How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?
 * What are the two steps performed behind the scenes by the `#to_json` method?

@@ -39,6 +39,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Prabhakar Pandey's Solution](https://github.com/Prabhakarzx/Ruby-Bubble-Sort/blob/master/bubble_sort.rb) - [View Demo](https://repl.it/@Prabhakarzx/bubblesortwithRuby)
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/Bubble-Sort)  - [View Demo](https://repl.it/@Acushla/Bubble-Sort-7#uduak_bubblesort.rb)
 * [Hasan's Solution](https://github.com/ozovalihasan/bubble-sort)  - [View Demo](https://repl.it/github/ozovalihasan/bubble-sort)
 * [Mikael's Solution](https://github.com/Mikearaya/enumerable-methods) - [View Demo](https://repl.it/@MichaelAraya1/enumerable-methods)
 * [tenacious-qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/bubble_sort.rb)
@@ -478,6 +480,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Uduak Essien's Solution](https://github.com/acushlakoncept/enumerable) - [View Demo](https://repl.it/@Acushla/Enumerable)
 * [Hasan's Solution](https://github.com/ozovalihasan/enumerable) - [View Demo](https://repl.it/github/ozovalihasan/enumerable)
 * [Guillaume Occuly's Solution](https://github.com/GuillaumeOcculy/TheOdinProject/blob/master/enumerable_methods/enumerable_methods.rb)
 * [tenacious qi's Solution](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/enumerable-methods.rb)

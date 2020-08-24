@@ -23,12 +23,16 @@ You'll be dusting off your [Flight Booker project](/courses/ruby-on-rails/lesson
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [pudu87's Solution](https://github.com/pudu87/odin-flight-booker)
+* [Christian's Solution](https://github.com/rueeazy/odin_flight_booker)
+* [leetie's Solution](https://github.com/leetie/odin-flight-booker)
+* [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_flight_booker)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/flight_booker)
 * [CodingCop's Solution](https://github.com/cleve703/odin-flight-booker)
 * [Run After's Solution](https://github.com/run-after/odin-flight-booker)
@@ -96,7 +100,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/flight-booker) - [Live on Heroku](https://redux-flights.herokuapp.com/)
 * [Rey van den Berg's Solution](https://github.com/Rey810/flight-booker)
 * [Timework's Solution](https://github.com/Timework/odin-flight-booker)
-
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/odin-flight-booker)
+* [Bendee's Solution](https://github.com/bendee48/flight-booker)
 </details>
 
 ### Additional Resources

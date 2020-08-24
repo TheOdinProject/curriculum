@@ -3,7 +3,7 @@ You've done a lot of Codecademy lately and so it's time to wean yourself off the
 
 In this project, you'll be building many simple exercises to drill in your understanding of the language.  You can write them in a script file in your text editor and then run them by copy-pasting into [JS Fiddle](http://jsfiddle.net).  You can run your functions (e.g. `my_max()` below) by console logging their output with something like `console.log(my_max([1,56,2,3,-1,0]))` (which would output 56).
 
-Save your solutions to Github and submit them for inclusion here when you're finished!
+Save your solutions to GitHub and submit them for inclusion here when you're finished!
 
 ### Warmup
 
@@ -25,7 +25,7 @@ It's time to build an on-screen calculator
 5. Now add "buttons" (more divs) to your calculator which represent "+", "-", "*", "/", "=" and "clear".
 6. Make your calculator work!  This means that you'll need to "save" the first number that is pressed (to a variable or array) and you'll also need to "save" which operation has been chosen (e.g. addition).  Once the equals sign is pressed, it should run a function which evaluates the expression by calling the simple functions you created earlier and outputting the result to the command line.  It may take some practice to be able to pass the values from your "buttons" to your main calculator function.  It's a bit tricky, but you can do it.
 7. Pressing "=" or "clear" should clear any saved variables or operations so you can start over.
-8. Push your project to Github and share the solution below.
+8. Push your project to GitHub and share the solution below.
 9. Extra credit: If you're comfortable with jQuery, create a "screen" for your calculator -- another `<div>` which displays the numbers and the results like a normal calculator would.
 10. Extra credit: Create a "parent filter" which checks if the user has inputted any immature numbers "e.g. 80085" and scolds the user if so.
 </div>
