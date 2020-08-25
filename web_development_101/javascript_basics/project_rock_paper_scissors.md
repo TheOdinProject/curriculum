@@ -61,7 +61,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Al0cam's Solution](https://github.com/al0cam/r_p_s) - [View in Browser](https://al0cam.github.io/r_p_s/)
 - [BlueChihuahua's Solution](https://github.com/BlueChihuahua/Rock-Paper-Scissors-2) - [View in Browser](https://bluechihuahua.github.io/Rock-Paper-Scissors-2/)
 - [Raul-Araujo's Solution](https://github.com/Raul-Araujo/Rock-Paper-and-Scissors) - [View in Browser](https://raul-araujo.github.io/Rock-Paper-and-Scissors/)
-- [simalicrum's Solution](https://github.com/simalicrum/rock-paper-scissors)
+- [simalicrum's Solution](https://github.com/simalicrum/rock-paper-scissors) - [View in Browser](https://simalicrum.github.io/rock-paper-scissors/)
 - [Chris Kamp's Solution](https://github.com/chriskamp101/rock-paper-scissors) - [View in Browser](https://chriskamp101.github.io/rock-paper-scissors/)
 - [Bryson Bruce's Solution](https://github.com/Bruceboy7/Rock-Paper-Scissors)- [View in Browser](https://bruceboy7.github.io/Rock-Paper-Scissors/)
 - [Yusuf ATALAY's Solution](https://github.com/yusufatalay/TOP-Rock_Paper_Scissor) - [View in Browser](https://yusufatalay.github.io/TOP-Rock_Paper_Scissor)
