@@ -27,7 +27,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Sanjana's solution](https://github.com/error34043/TOP_Ruby_Projects/blob/master/stockpicker.rb)
+* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/stock_picker/blob/master/stock_picker.rb)
+* [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Ruby-Projects/Basic-Projects/Stock-Picker.rb)
+* [Lucasdonuts' Solution](https://github.com/lucasdonuts/ruby_stock_picker)
+* [Spike's Solution](https://github.com/superspike7/stock-picker/blob/master/main.rb)
+* [An0therHuman's Solution](https://github.com/An0therHuman/Ruby_Programing/blob/master/stock_picker.rb)
+* [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-stock-picker/blob/master/stock-picker.rb)
+* [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/stock-picker)
+* [Sanjana's Solution](https://github.com/error34043/TOP_Ruby_Projects/blob/master/stockpicker.rb)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/stock-picker)
 * [freeflow13's Solution](https://github.com/freeflow13/ruby_solutions/blob/master/stocks.rb)
 * [Sizwe Malobola's Solution](https://github.com/SizweMalobola/Ruby_Projects/blob/master/stock_picker.rb)
@@ -563,6 +570,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/blob/master/stock_picker.rb)
 * [vongk97's Solution](https://github.com/vongk97/ruby/blob/master/stock_picker.rb)
 * [brentguf's Solution](https://github.com/brentguf/stock-picker/blob/master/script.rb)
+* [Christopher's Solution](https://github.com/christopheralagna/ruby-practice/blob/master/stock_picker.rb)
 * [robertompfm's Solution](https://github.com/robertompfm/stock-picker-ruby/blob/master/stock_picker.rb)
 * [sal's Solution](https://github.com/Sal-theSadmanShark/RUBY_exercises/blob/master/stock_picker/main.rb)
 </details>

@@ -57,7 +57,7 @@ This will install the latest version of Git. Easy, right?
 
 </details>
 
-### Step 2: Configure Git and Github
+### Step 2: Configure Git and GitHub
 
 #### Step 2.1: Setup Git
 
