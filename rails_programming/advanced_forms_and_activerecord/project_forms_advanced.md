@@ -26,17 +26,17 @@ This project will require you to seed your database, so use your `db/seeds.rb` f
 
 #### Screen 1: Search
 
-For the first screen, you'll need a dropdown that lists a possible "From" airport and a possible "To" airport. just assume all flights fly between SFO and NYC.  You'll need to set up a dropdown menu that contains all eligible flights.
+For the first screen, you'll need a dropdown that lists a possible "From" airport and a possible "To" airport. Just assume all flights fly between SFO and NYC.  You'll need to set up a dropdown menu that contains all eligible flights.
 
 This requires relatively vanilla forms that happen to be prepopulated with collections of data.  Working with dates will cover a bit of new ground for you.
 
 1. Create an Airport model (which basically just needs an airport code like "SFO" or "NYC") and use the `db/seeds.rb` file to create several of them.
-2. Create a Flight model (with the start and finish airport `id`s, start datetime, and flight duration).
+2. Create a Flight model (with the start and finish airport `id`s, start datetime and flight duration).
 3. Set up associations so you can ask `Flight.first.from_airport`, `Flight.first.to_airport` and get back Airport objects.  Same for `Airport.first.departing_flights` and `Airport.first.arriving_flights`, which should return a list of flight objects.
 4. Seed your database with flights.
 5. You will search and view results in the same page.  Set up your FlightsController and routes to make the Index page (`/flights`) the root route.
 6. Create your search form on the `/flights` index page to submit using a GET (not POST) request back to the same URL.
-7. The home page should contain four dropdown menus -- a list of FROM and TO airports, number of passengers (1-4), and a DATE dropdown for the flight date.  The DATE dropdown should only include dates that have existing flights.  Don't worry about restricting the contents of the FROM/TO dropdowns -- you'd normally use Javascript -- so just allow the user to select any airport.  See [this SO post on formatting date in dropdown lists](http://stackoverflow.com/questions/15720940/rails-format-date-in-drop-down-list-in-view), [this quickie SO post on selecting months/years](http://stackoverflow.com/questions/13001904/rails-drop-down-select-month-year), and the Rails [DateHelper API Docs](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html) for some help with creating Date selects.
+7. The home page should contain four dropdown menus -- a list of FROM and TO airports, number of passengers (1-4) and a DATE dropdown for the flight date.  The DATE dropdown should only include dates that have existing flights.  Don't worry about restricting the contents of the FROM/TO dropdowns -- you'd normally use JavaScript -- so just allow the user to select any airport.  See [this SO post on formatting date in dropdown lists](http://stackoverflow.com/questions/15720940/rails-format-date-in-drop-down-list-in-view), [this quickie SO post on selecting months/years](http://stackoverflow.com/questions/13001904/rails-drop-down-select-month-year) and the Rails [DateHelper API Docs](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html) for some help with creating Date selects.
 
 #### Screen 2: Pick a Flight
 
@@ -51,8 +51,8 @@ Once search results are returned, the user just needs to choose from among the e
 
 Once the user has submitted their chosen flight, it's time to take their booking information.  You'll need a form to submit the Booking and also create a Passenger object for each passenger who needs a ticket.  Don't worry about creating a separate "Ticket" object, we'll assume the airline will issue those once the booking is verified.
 
-1. Create and migrate the Booking model
-2. Create and migrate the Passenger model (just keep the information simple -- name and email only)
+1. Create and migrate the Booking model.
+2. Create and migrate the Passenger model (just keep the information simple -- name and email only).
 3. Set up associations between Bookings, Passengers, and Flights.
 4. Create a BookingsController and appropriate routes.
 5. Set up your `#new` action, which should have received the flight ID and passenger number parameters, and use it to help render a form for a new booking which displays the currently chosen date, airports, flight ID and a set of fields to enter personal information for each passenger.  You'll want to create a new blank Passenger object in your controller for each passenger, and then use `#fields_for` in the view to set up the sub-forms.
@@ -65,12 +65,13 @@ Once the user has submitted their chosen flight, it's time to take their booking
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [bikmazefe's solution](https://github.com/bikmazefe/my-flights)
 * [JvPelai's Solution](https://github.com/JvPelai/flight_booker)
 * [irlgabriel's Solution](https://github.com/irlgabriel/flight-booker)
 * [pudu87's Solution](https://github.com/pudu87/odin-flight-booker)

@@ -15,7 +15,7 @@ Remember to write some documentation for both technical and non-technical audien
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 
 ### Student Solutions (Personal Portfolio Sites)
-Send us a link to your portfolio site so we can show others! Submit a link to your live site and/or to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us a link to your portfolio site so we can show others! Submit a link to your live site and/or to the GitHub repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
@@ -35,7 +35,7 @@ Send us a link to your portfolio site so we can show others! Submit a link to yo
 * [Tommy's solution - Live website](https://tommyhoang.com)
 * [Scott Huang's solution - Source Code](https://github.com/scotth527/gatsby_blog) - [Live website](https://www.huangscott.com)
 * [Krzysztof Sordyl's solution - Source Code](https://github.com/Verthon/portfolio) - [Live website](https://sordyl.me)
-* [Brian Monaccio's Portfolio](https://brian-monaccio.netlify.app/) - [Github Repo](https://github.com/learnsometing/portfolio)
+* [Brian Monaccio's Portfolio](https://brian-monaccio.netlify.app/) - [GitHub Repo](https://github.com/learnsometing/portfolio)
 * [Salvador Villalon's Solution](https://github.com/salvillalon45/salvillalon45.github.io) - [View in Browser](https://salvillalon45.github.io/)
 * [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/portfolio) - [View in Browser](https://www.braxtonlemmon.com/)
 * [Ahmad Ali's Solution - Live website](https://www.ahmad-ali.co.uk/)
