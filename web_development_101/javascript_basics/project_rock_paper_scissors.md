@@ -1911,5 +1911,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [James-Lowe's Solution](https://github.com/James-Lowe/rock-paper-scissors)
 - [arthursiq5's Solution](https://github.com/arthursiq5/rock-paper-scissors-js) - [View in Browser](https://arthursiq5.github.io/rock-paper-scissors-js/)
 - [Russell's Solution](https://github.com/RussellMurray93/RockPaperScissors)
-- [rogcald1's Solution](https://github.com/rogcald1/RockPaperScissor/blob/master/rps.html) - [View in Browser](https://rogcald1.github.io/RockPaperScissor/rps.html)
+- [kphopkins' Solution](https://github.com/kphopkins/rock-paper-scissors) - [View in Browser](https://kphopkins.github.io/rock-paper-scissors)
+- [rogcald1's Solution](https://github.com/rogcald1/RockPaperScissor) - [View in Browser](https://rogcald1.github.io/RockPaperScissor/rps.html)
 </details>
