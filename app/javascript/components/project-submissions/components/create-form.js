@@ -1,16 +1,14 @@
 import React from 'react';
-import { useForm } from "react-hook-form";
+import { useForm } from 'react-hook-form';
+import { func } from 'prop-types';
 
-const CreateForm = (props) => {
+const CreateForm = ({ onClose, onSubmit }) => {
   const { register, errors, handleSubmit, formState, reset } = useForm();
 
   const handleClose = () => {
-    reset({
-      isSubmitted: false,
-    })
-
-    props.onClose()
-  }
+    reset({ isSubmitted: false });
+    onClose();
+  };
 
   if (formState.isSubmitted) {
     return (
@@ -25,7 +23,7 @@ const CreateForm = (props) => {
     <div>
       <h1 className="text-center accent">Upload Your Project</h1>
 
-      <form className="form" onSubmit={handleSubmit(props.onSubmit)}>
+      <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <div className="form__section">
           <span className="form__icon fab fa-github"></span>
           <input
@@ -43,7 +41,7 @@ const CreateForm = (props) => {
             })}
           />
         </div>
-        {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div> }
+        {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div>}
 
         <div className="form__section push-down-3x">
           <span className="form__icon fas fa-link"></span>
@@ -61,7 +59,7 @@ const CreateForm = (props) => {
             })}
           />
         </div>
-        {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div> }
+        {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div>}
 
         <div className="form__section form__section--right-aligned form__section--bottom">
             <p className="bold">MAKE SOLUTION PUBLIC</p>
@@ -71,10 +69,14 @@ const CreateForm = (props) => {
             </label>
           <button type="submit" className="button button--primary">Submit</button>
         </div>
-
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default CreateForm
+CreateForm.propTypes = {
+  onClose: func.isRequired,
+  onSubmit: func.isRequired,
+};
+
+export default CreateForm;

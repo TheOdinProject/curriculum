@@ -1,28 +1,24 @@
-import React from 'react';
+import React, { useState, useMemo, useContext } from 'react';
 
-import SubmissionsList from '../components/submissions-list'
-import Modal from '../components/modal'
-import CreateForm from '../components/create-form'
+import { SubmissionsList, Modal, CreateForm } from '../components';
 import axios from '../../../src/js/axiosWithCsrf';
+import ProjectSubmissionContext from "../ProjectSubmissionContext";
 
-class ProjectSubmissions extends React.Component {
+const ProjectSubmissions = (props) => {
+  const { userId, lesson, course } = useContext(ProjectSubmissionContext);
+  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [submissions, setSubmissions] = useState(props.submissions);
 
-  state = {
-    showCreateModal: false,
-    submissions: this.props.submissions
-  }
+  const toggleShowCreateModal = () => {
+    setShowCreateModal(prevShowCreateModal => !prevShowCreateModal);
+  };
 
-  setShowCreateModal = (value) => {
-    this.setState({ showCreateModal: value })
-  }
+  const handleCreate = async (data) => {
+    const { repo_url, live_preview_url, is_public } = data;
 
-  handleCreate = (data) => {
-    const { lesson } = this.props;
-    const { repo_url, live_preview_url, is_public } = data
+    event.preventDefault();
 
-    event.preventDefault()
-
-    axios.post(
+    const response = await axios.post(
       `/lessons/${lesson.id}/project_submissions`,
       {
         project_submission: {
@@ -32,20 +28,18 @@ class ProjectSubmissions extends React.Component {
           lesson_id: lesson.id,
         }
       }
-    ).then(response => {
-      this.setState({
-        submissions: [response.data.project_submission, ...this.state.submissions],
-      })
-    })
-  }
+    );
+    if (response.status === 200) {
+      setSubmissions(prevSubmissions => [response.data.project_submission, ...prevSubmissions]);
+    }
+  };
 
-  handleUpdate = (data) => {
-    const { lesson } = this.props;
-    const { repo_url, live_preview_url, is_public, project_submission_id } = data
+  const handleUpdate = async (data) => {
+    const { repo_url, live_preview_url, is_public, project_submission_id } = data;
 
-    event.preventDefault()
+    event.preventDefault();
 
-    axios.put(
+    const response = await axios.put(
       `/lessons/${lesson.id}/project_submissions/${project_submission_id}`,
       {
         project_submission: {
@@ -55,87 +49,77 @@ class ProjectSubmissions extends React.Component {
           lesson_id: lesson.id,
         }
       }
-    ).then(response => {
-      this.setState({
-        submissions: Object.assign([], this.state.submissions, {[0]: response.data.project_submission})
-      })
-    })
-  }
+    );
+    if (response.status === 200) { 
+      setSubmissions(prevSubmissions => 
+        Object.assign([], prevSubmissions, {[0]: response.data.project_submission})
+      );
+    }
+  };
 
-  handleDelete = (id) => {
-    const { lesson } = this.props;
+  const handleDelete = async (id) => {
+    event.preventDefault();
 
-    event.preventDefault()
+    const response = await axios.delete(`/lessons/${lesson.id}/project_submissions/${id}`, {});
+    if (response.status === 200) {
+      setSubmissions(prevSubmissions => 
+        prevSubmissions.filter((submission) => submission.id !== id)
+      );
+    }
+  };
 
-    axios.delete(`/lessons/${lesson.id}/project_submissions/${id}`, {}).then(() => {
-      this.setState({
-        submissions: this.state.submissions.filter((submission) => submission.id !== id)
-      })
-    })
-  }
+  const handleFlag = async (data) => {
+    const { project_submission_id, reasons } = data;
 
-  handleFlag = (data) => {
-    const { project_submission_id, reasons } = data
-
-    axios.post(
+    const response = await axios.post(
       `/project_submissions/${project_submission_id}/flags`,
       { reason: reasons.join(', ') }
-    ).then( () => {
-      this.setState({
-        submissions: this.state.submissions.filter((submission) => (
-          submission.id !== parseInt(project_submission_id)
-        ))
-      })
-    })
-  }
+    );
+    if (response.status === 200) {
+      setSubmissions(prevSubmissions => 
+        prevSubmissions.filter((submission) => submission.id !== parseInt(project_submission_id))
+      );
+    }
+  };
 
-  userSubmission = () => {
-    const { submissions } = this.state;
-    const { userId } = this.props;
-
+  const userSubmission = useMemo(() => {
     return submissions.find(submission => submission.user_id === userId);
-  }
+  }, [userId, submissions.length]);
 
-  render() {
-    const { course, lesson, userId } = this.props;
-    const { submissions, showCreateModal } = this.state;
-
-    return (
-      <div className="submissions">
-        <div className="submissions__header">
-
-          <div className="submissions__course">
-            <h3 className="submissions__title">Solutions:</h3>
-            <h4 className="submissions__project-title">{course.title}: ({lesson.title})</h4>
-          </div>
-
-          <Modal show={showCreateModal} handleClose={() => this.setShowCreateModal(false)}>
-            <CreateForm
-              lessonId={lesson.id}
-              onSubmit={this.handleCreate}
-              onClose={() => this.setShowCreateModal(false)}
-            />
-          </Modal>
-
-          <div>
-            { !this.userSubmission() &&
-              <button className="submissions__add button button--primary" onClick={() => this.setShowCreateModal(true)}>
-                Add Solution
-              </button>
-            }
-          </div>
+  return (
+    <div className="submissions">
+      <div className="submissions__header">
+        <div className="submissions__course">
+          <h3 className="submissions__title">Solutions:</h3>
+          <h4 className="submissions__project-title">{course.title}: ({lesson.title})</h4>
         </div>
 
-        <SubmissionsList
-          submissions={submissions}
-          userId={userId}
-          handleUpdate={this.handleUpdate}
-          handleFlag={this.handleFlag}
-          handleDelete={this.handleDelete}
-        />
+        <Modal show={showCreateModal} handleClose={toggleShowCreateModal}>
+          <CreateForm
+            lessonId={lesson.id}
+            onSubmit={handleCreate}
+            onClose={toggleShowCreateModal}
+          />
+        </Modal>
+
+        <div>
+          {!userSubmission && (
+            <button className="submissions__add button button--primary" onClick={toggleShowCreateModal}>
+              Add Solution
+            </button>
+          )}
+        </div>
       </div>
-    )
-  }
+
+      <SubmissionsList
+        submissions={submissions}
+        userId={userId}
+        handleUpdate={handleUpdate}
+        handleFlag={handleFlag}
+        handleDelete={handleDelete}
+      />
+    </div>
+  )
 }
 
-export default ProjectSubmissions
+export default ProjectSubmissions;

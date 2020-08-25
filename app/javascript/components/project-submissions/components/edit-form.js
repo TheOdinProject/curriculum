@@ -1,32 +1,33 @@
 import React from 'react';
-import { useForm } from "react-hook-form";
+import { useForm } from 'react-hook-form';
+import { func, object } from 'prop-types';
 
-const EditForm = (props) => {
+const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
   const { register, errors, handleSubmit, formState, reset } = useForm({
     defaultValues: {
-      repo_url: props.submission.repo_url,
-      live_preview_url: props.submission.live_preview_url,
-      is_public: props.submission.is_public,
+      repo_url: submission.repo_url,
+      live_preview_url: submission.live_preview_url,
+      is_public: submission.is_public,
     }
   });
 
   const handleClose = () => {
     reset({
-      repo_url: props.submission.repo_url,
-      live_preview_url: props.submission.live_preview_url,
-      is_public: props.submission.is_public,
+      repo_url: submission.repo_url,
+      live_preview_url: submission.live_preview_url,
+      is_public: submission.is_public,
     },
     {
       isSubmitted: false,
     });
 
-    props.onClose();
-  }
+    onClose();
+  };
 
   const handleDelete = () => {
-    props.onDelete(props.submission.id);
-    props.onClose();
-  }
+    onDelete(submission.id);
+    onClose();
+  };
 
   if (formState.isSubmitted) {
     return (
@@ -34,15 +35,20 @@ const EditForm = (props) => {
         <h1 className="accent">Thanks for Updating Your Solution!</h1>
         <button className="button button--primary" onClick={handleClose}>Close</button>
       </div>
-    )
+    );
+  }
+
+  const textFieldPattern = {
+    value: /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/,
+    message: "Must be a URL"
   }
 
   return (
     <div>
       <h1 className="text-center accent">Edit Your Project</h1>
 
-      <form className="form" onSubmit={handleSubmit(props.onSubmit)}>
-        <input type="hidden" name="project_submission_id" value={props.submission.id}  ref={register()} />
+      <form className="form" onSubmit={handleSubmit(onSubmit)}>
+        <input type="hidden" name="project_submission_id" value={submission.id}  ref={register()} />
         <div className="form__section">
           <span className="form__icon fab fa-github"></span>
           <input
@@ -50,17 +56,10 @@ const EditForm = (props) => {
             type="text"
             name="repo_url"
             placeholder="Repository URL"
-            ref={register({
-              required: 'Required',
-              pattern: {
-                value: /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/,
-                message: "Must be a URL"
-              }
-
-            })}
+            ref={register({ required: 'Required', pattern: textFieldPattern })}
           />
         </div>
-        {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div> }
+        {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div>}
 
         <div className="form__section push-down-3x">
           <span className="form__icon fas fa-link"></span>
@@ -69,13 +68,7 @@ const EditForm = (props) => {
             type="text"
             placeholder="Live Preview URL"
             name="live_preview_url"
-            ref={register({
-              required: "Required",
-              pattern: {
-                value: /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/,
-                message: "Must be a URL"
-              }
-            })}
+            ref={register({ required: "Required", pattern: textFieldPattern })}
           />
         </div>
         {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div> }
@@ -92,10 +85,16 @@ const EditForm = (props) => {
           &nbsp;
           <button type="submit" className="button button--primary">Update</button>
         </div>
-
       </form>
     </div>
-  )
+  );
+};
+
+EditForm.propTypes = {
+  submission: object.isRequired,
+  onSubmit: func.isRequired,
+  onClose: func.isRequired,
+  onDelete: func.isRequired,
 }
 
-export default EditForm
+export default EditForm;
