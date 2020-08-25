@@ -2,13 +2,12 @@ require 'rails_helper'
 
 RSpec.describe CoursesController do
   let(:course_id) { 'abc123' }
-  let(:course) { double('Course', id: course_id) }
+  let(:course) { instance_double(Course, id: course_id) }
   let(:courses) { [course] }
-  let(:decorated_course) { double('CourseDecorator') }
+  let(:decorated_course) { instance_double(CourseDecorator) }
 
   before do
-    allow(CourseDecorator).to receive(:new).with(course).
-      and_return(decorated_course)
+    allow(CourseDecorator).to receive(:new).with(course).and_return(decorated_course)
   end
 
   describe 'GET index' do
@@ -29,8 +28,7 @@ RSpec.describe CoursesController do
 
   describe 'GET show' do
     before do
-      allow(Course).to receive_message_chain(:includes, :friendly, :find).
-        and_return(course)
+      allow(Course).to receive_message_chain(:includes, :friendly, :find).and_return(course)
     end
 
     it 'assigns @course' do

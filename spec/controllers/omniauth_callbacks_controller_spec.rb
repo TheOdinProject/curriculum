@@ -26,12 +26,12 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
     end
 
     context 'when the user avatar needs updated' do
-      let(:user) {
+      let(:user) do
         create(
           :user,
           avatar: nil
         )
-      }
+      end
 
       it 'sets the users avatar' do
         expect { get :github }.to change { user.avatar }.from(nil).to('http://github.com/fake-avatar')
@@ -40,7 +40,7 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
 
     context 'when user is not persisted and does not exist' do
       let(:persisted) { false }
-      let(:user_signed_in?) { false}
+      let(:user_signed_in?) { false }
 
       it 'stores the auth data in the session' do
         get :github

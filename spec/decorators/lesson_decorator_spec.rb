@@ -3,19 +3,19 @@ require 'rails_helper'
 RSpec.describe LessonDecorator do
   subject(:lesson_decorator) { LessonDecorator.new(lesson) }
 
-  let(:lesson) {
-    double(
-      'Lesson',
+  let(:lesson) do
+    instance_double(
+      Lesson,
       is_project?: is_project?,
       title: 'Ruby Basics',
       url: lesson_url,
       course: course
     )
-  }
+  end
 
   let(:is_project?) { true }
   let(:lesson_url) { '/web_development_101/jquery_basics.md' }
-  let(:course) { double('Course') }
+  let(:course) { instance_double(Course) }
 
   describe '#title' do
     it 'returns the project title' do
@@ -32,12 +32,11 @@ RSpec.describe LessonDecorator do
   end
 
   describe '#next_lesson' do
-    let(:find_lesson) { double('FindLesson', next_lesson: next_lesson) }
-    let(:next_lesson) { double('Lesson') }
+    let(:find_lesson) { instance_double(FindLesson, next_lesson: next_lesson) }
+    let(:next_lesson) { instance_double(Lesson) }
 
     before do
-      allow(FindLesson).to receive(:new).with(lesson, course).
-        and_return(find_lesson)
+      allow(FindLesson).to receive(:new).with(lesson, course).and_return(find_lesson)
     end
 
     it 'returns the next lesson' do
@@ -46,11 +45,10 @@ RSpec.describe LessonDecorator do
   end
 
   describe '#course' do
-    let(:decorated_course) { double('CourseDecorator') }
+    let(:decorated_course) { instance_double(CourseDecorator) }
 
     before do
-      allow(CourseDecorator).to receive(:new).with(course).
-        and_return(decorated_course)
+      allow(CourseDecorator).to receive(:new).with(course).and_return(decorated_course)
     end
 
     it 'returns a decorated course' do

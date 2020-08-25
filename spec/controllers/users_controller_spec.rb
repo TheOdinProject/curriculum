@@ -21,17 +21,17 @@ RSpec.describe UsersController do
   end
 
   describe 'PUT update' do
-    let(:serialized_user) {
+    let(:serialized_user) do
       {
         'id' => user.id,
         'admin' => false,
         'username' => 'Joey',
         'email' => user.email,
       }
-    }
+    end
 
     it 'renders the user in json format' do
-      put :update, params: { id: user.id, user: { username: 'Joey'} }
+      put :update, params: { id: user.id, user: { username: 'Joey' } }
       expect(JSON.parse(response.body)).to include(serialized_user)
     end
   end

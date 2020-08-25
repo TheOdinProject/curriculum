@@ -35,7 +35,8 @@ RSpec.describe LessonCompletionsController do
 
     describe 'POST #create' do
       it 'saves the lesson_completion record to the database' do
-        expect { post :create, params: lesson_completion_attrs, xhr: true }.to change(user.lesson_completions, :count).by(1)
+        expect { post :create, params: lesson_completion_attrs, xhr: true }
+          .to change(user.lesson_completions, :count).by(1)
       end
 
       it 'renders the :create template' do
@@ -48,11 +49,12 @@ RSpec.describe LessonCompletionsController do
       let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, student: user) }
 
       it 'destroys the lesson_completion object' do
-        expect { delete :destroy, params: lesson_completion_attrs, xhr: true }.to change(user.lesson_completions, :count).by(-1)
+        expect { delete :destroy, params: lesson_completion_attrs, xhr: true }
+          .to change(user.lesson_completions, :count).by(-1)
       end
 
       it 'renders the create template' do
-        delete :destroy, params: { lesson_id: lesson.id}, xhr: true
+        delete :destroy, params: { lesson_id: lesson.id }, xhr: true
         expect(response).to render_template(:create)
       end
     end

@@ -14,7 +14,7 @@ RSpec.describe StaticPagesController do
     end
 
     context 'when user is logged in' do
-      let(:user) { double('User') }
+      let(:user) { build_stubbed(:user) }
 
       before do
         allow(controller).to receive(:current_user).and_return(user)
