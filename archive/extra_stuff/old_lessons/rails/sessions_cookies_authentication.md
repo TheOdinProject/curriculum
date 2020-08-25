@@ -169,7 +169,7 @@ In a short word, Devise prepackages for you a bunch of signin and signup forms a
 
 Configuration will be dependent on your use case.  Do you want to make the user confirm their signup using an email (the `Confirmable` module)?  Do you want to allow the user to reset his password (the `Recoverable` module)?
 
-It's beyond the scope of this lesson to teach Devise but you'll certainly be using it by the end of the course.  The trick is to read the documentation.  They've got a fairly impressive set of docs available [on Github](https://github.com/plataformatec/devise).  The point of showing it here is for you to see it, read it, and keep it in the back of your head until you actually use it.
+It's beyond the scope of this lesson to teach Devise but you'll certainly be using it by the end of the course.  The trick is to read the documentation.  They've got a fairly impressive set of docs available [on GitHub](https://github.com/plataformatec/devise).  The point of showing it here is for you to see it, read it, and keep it in the back of your head until you actually use it.
 
 ### Assignment
 

@@ -46,7 +46,7 @@ Your "classmates" will be the other students on the same journey as you, and wit
 
 Each step of the way, you should be able to see your progress through the projects you've built and by how far you've progressed along the path laid out here.  We'll also do our best to answer the question "So why the heck do I need to know this anyway?".  If one piece of content has you stuck, we'll have links to additional resources to help shore up your understanding.
 
-Navigate through the curriculum using the roadmap in the sidebar.  The links will take you to the appropriate files inside the repository for each unit. You're viewing this online but the whole curriculum really lives in a bunch of markdown files on Github that you can [easily contribute to](/contributing.md).
+Navigate through the curriculum using the roadmap in the sidebar.  The links will take you to the appropriate files inside the repository for each unit. You're viewing this online but the whole curriculum really lives in a bunch of markdown files on GitHub that you can [easily contribute to](/contributing.md).
 
 ## Work In Progress!
 
