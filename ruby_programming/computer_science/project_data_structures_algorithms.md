@@ -60,6 +60,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vinz's Solution](https://github.com/LrdVnz/binary_search-trees)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/binary-search-tree)
 * [bassart94's Solution](https://repl.it/@bassart94/bst#main.rb)
 * [nhleto's Solution](https://github.com/nhleto/Binary-Tree)
