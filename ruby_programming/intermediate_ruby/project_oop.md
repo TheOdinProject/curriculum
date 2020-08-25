@@ -22,6 +22,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [onagova's Solution](https://github.com/onagova/intermediate-ruby-projects/blob/master/tic_tac_toe.rb) - [View in repl.it](https://repl.it/@onagova/intermediate-ruby-projects#tic_tac_toe.rb)
 * [Sanjana's Solution](https://github.com/error34043/ruby-tic-tac-toe) - [View in repl.it](https://repl.it/@error34043/TicTacToe#main.rb)
 * [AGL9's Solution](https://github.com/agl9/tictactoeruby) - [View in repl.it](https://repl.it/@AGL9/tictactoe2#main.rb)
+* [meiyaismywaifu's Solution](https://github.com/meiyaismywaifu/the_odin_project/blob/master/tic-tac-toe/tic-tac-toe.rb)
 * [Kingofping654's Solution](https://github.com/kingofping654/Tic_Tac_Toe) - [View in repl.it](https://repl.it/@kingofping654/TicTacToe)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/tic-tac-toe) - [View in repl.it](https://repl.it/@nguyenjessev/tic-tac-toe-1#tic_tac_toe.rb)
 * [Mr-Bowtie's Solution](https://github.com/Mr-Bowtie/Ruby_Projects/tree/master/tic-tac-toe) - [View in repl.it](https://repl.it/@MrBowtie/Tic-Tac-Toe#main.rb)
