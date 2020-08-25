@@ -6,7 +6,7 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 
 <div class="lesson-content__panel" markdown="1">
 1. Go to [newsweek.com](http://www.newsweek.com) and have a look around.
-2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Add Bootstrap to your project by following the instructions at [GetBootstrap.com](http://getbootstrap.com/getting-started/).  Use the examples on that page as templates for how to organize your page.
@@ -14,7 +14,7 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 6. Set up the top title and navigation bar.
 6. Work your way down the page by filling in and positioning the additional sections.
 7. Try resizing the browser to see if it mimics the behavior of the real Newsweek homepage.
-7. Push your solution to Github.
+7. Push your solution to GitHub.
 </div>
 
 ### Student Solutions
@@ -101,6 +101,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [mangakiko's Solution](https://github.com/magakiko/newsweek) - [View in Browser](https://magakiko.github.io/newsweek/)
 * [bhenning83's Solution](https://github.com/bhenning83/newsweek) - [View in Browser](https://bhenning83.github.io/newsweek/)
 * [Timework's Solution](https://github.com/Timework/newsweek-bootstrap) - [View in Browser](https://timework.github.io/newsweek-bootstrap/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/using-bootstrap)
 </details>
 
 ### Additional Resources

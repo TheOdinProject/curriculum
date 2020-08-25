@@ -58,6 +58,6 @@ If you already have some settings in your "Settings - User" file, then you may n
 I'm not sure why this step works. There is a comment in the "Settings - Default" file that says this particular setting only affects Mac users, but I tried toggling it to _false_ on my Windows machines anyway ...and it worked beautifully.
 
 ##Step 4 - Feel the Power
-You can now type "subl [filename]" in the command line to begin editing files in Sublime Text. Without this power, your workflow consists of navigating files in Windows Explorer, editing files in Sublime Text, and interacting with Git/Github/Heroku in command prompt. Now that you have completed this guide, you can just stick with the command prompt and Sublime Text. Your new workflow now has a bit less alt-tabbing. Hallelujah.
+You can now type "subl [filename]" in the command line to begin editing files in Sublime Text. Without this power, your workflow consists of navigating files in Windows Explorer, editing files in Sublime Text, and interacting with Git/GitHub/Heroku in command prompt. Now that you have completed this guide, you can just stick with the command prompt and Sublime Text. Your new workflow now has a bit less alt-tabbing. Hallelujah.
 
 Note: If you skipped step 2, then you must type "sublime_text [filename]" in the command line, you monster.
