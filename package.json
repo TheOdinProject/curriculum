@@ -4,7 +4,7 @@
     "@babel/preset-react": "^7.10.4",
     "@rails/ujs": "^6.0.3",
     "@rails/webpacker": "5.2.1",
-    "axios": "^0.19.2",
+    "axios": "^0.20.0",
     "babel-plugin-prismjs": "^2.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "^4.5.2",
