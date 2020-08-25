@@ -66,6 +66,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/balanced_BST.rb)
 * [Risan's Solution](https://github.com/risanto/ruby-programming/blob/master/14_binary-search-trees.rb)
 * [James's Solution](https://github.com/jegrieve/binary_search_trees)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-bst)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
 * [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
