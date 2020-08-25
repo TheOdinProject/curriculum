@@ -95,7 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [M1s1o's Solution (Easy)](https://m1s1o.github.io/google-homepage/) - [View in Browser](https://m1s1o.github.io/google-homepage/)
+* [M1s1o's Solution (Easy)](https://github.com/M1s1o/google-homepage) - [View in Browser](https://m1s1o.github.io/google-homepage/)
 * [amandammvt's Solution (Easy)](https://github.com/amandammvt/google-homepage) - [View in Browser](https://amandammvt.github.io/google-homepage/)
 * [kevinbinala's Solution (Easy)](https://github.com/kevinbinala/google-homepage) - [View in Browser](https://kevinbinala.github.io/google-homepage/)
 * [Luca-Mario Martin's Solution (Difficult)](https://github.com/luc4m4rio/Google_Searchpage) - [View in Broswer](https://luc4m4rio.github.io/Google_Searchpage/)
