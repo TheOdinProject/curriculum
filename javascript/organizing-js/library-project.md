@@ -42,6 +42,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 
 - Add your solution below this line!
 - [Julian Hunt's Solution (w/ Firebase)](https://github.com/julianh65/library_tracker) - [View in Browser](https://javascript-book-tracker.web.app/)
+- [missAlice7's Solution (w/localstorage)](https://github.com/missalice7/studyprojects/tree/master/TOP/Library) - [View in Browser](https://missalice7.github.io/studyprojects/TOP/Library/library.html)
 - [Abhishek Khale's Solution (w/ localstorage)](https://github.com/abkhale17/Library_Js_Odin) - [View in Browser](https://abkhale17.github.io/Library_Js_Odin/)
 - [Rahim Ratnani's Solution (w/ localstorage)](https://github.com/rahimratnani/library) - [View in Browser](https://rahimratnani.github.io/library/)
 - [Cordell's solution (w/ Firebase)](https://github.com/cordellbonnieux/library) - [View in Browser](https://library-36398.web.app/)
