@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew's solution](https://github.com/a6macleod/mint.com-signup-replica) - [View in Browser](https://a6macleod.github.io/mint.com-signup-replica/)
 * [Kevin's solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/Sign_up_Page) - [View in Browser](https://kevin-satti-projects.github.io/Projects/Sign_up_Page/)
 * [Hiro's solution](https://github.com/hrmtk/html-forms-mint) - [View in Browser](https://hrmtk.github.io/html-forms-mint/register.html)
 * [Christian's Solution](https://github.com/rueeazy/mint-clone) - [View in Browser](https://rueeazy.github.io/mint-clone/)
