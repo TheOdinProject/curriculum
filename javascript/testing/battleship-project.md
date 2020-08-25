@@ -79,4 +79,5 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
 - [Joe Thompson's Solution](https://github.com/jlthompso/battleship) - [View in Browser](https://jlthompso.github.io/battleship/)
 - [Nijepa's Solution](https://github.com/nijepa/project-battleship) - [View in Browser](https://nijepa.github.io/project-battleship/)
 - [kbrdsk's Solution](https://github.com/kbrdsk/battleship) - [View in Browser](https://kbrdsk.github.io/battleship/)
+- [themetar's Solution](https://github.com/themetar/battleship-top) - [View in Browser](https://themetar.github.io/battleship-top/)
 </details>
