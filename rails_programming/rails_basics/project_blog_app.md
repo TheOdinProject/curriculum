@@ -8,7 +8,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+  1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
   2. Do the [Jumpstart Lab's Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
   3. At the end of I3: Tags when you're attempting to delete your Article tags, you'll run into an error along the lines of "FOREIGN KEY constraint failed". You can solve this by enforcing [Referential Integrity](https://en.wikipedia.org/wiki/Referential_integrity) by applying the `dependent: :destroy` option for the `has_many` method in the right model. You can learn about it in [This Entry of the Rails Guides](http://guides.rubyonrails.org/association_basics.html)
   4. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
@@ -24,6 +24,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/blogger)
+* [Witah Georjane's Solution](https://github.com/Georjane/My_Blog_App) - [View in Browser](https://jane-blog.herokuapp.com/)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/blogger) - [View in Browser](https://nameless-earth-65585.herokuapp.com/)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/blog-app) - [View in Browser](https://sheltered-waters-63059.herokuapp.com/)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/blogger) - [View in Browser](https://protected-coast-33870.herokuapp.com/)
 * [Neal Bayya's Solution](https://github.com/nealbayya/blog) - [View in Browser](https://fast-journey-07183.herokuapp.com/)

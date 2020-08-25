@@ -1,4 +1,5 @@
 ### Introduction
+
 Use everything we've been discussing to create a weather forecast site using the weather API from the previous lesson. You should be able to search for a specific location and toggle displaying the data in Fahrenheit or Celsius.
 
 You should change the look of the page based on the data, maybe by changing the color of the background or by adding images that describe the weather. (You could even use the Giphy API to find appropriate weather-related gifs and display them). Feel free to use promises or async/await in your code, though you should try to become comfortable with both.
@@ -13,12 +14,18 @@ You should change the look of the page based on the data, maybe by changing the 
 8. Push that baby to github and share your solution below!
 
 ### Student Solutions
+
 To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/async-apis/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [nearmint's Angular Solution](https://github.com/nearmint/weather-app-angular) - [View in Browser](https://nearmint.github.io/weather-app-angular/)
+* [Abdel Perez's Solution](https://github.com/abdelp/weather-app) - [View in Browser](https://weather-app-4562.web.app)
+* [Lucio's React Solution](https://github.com/JCarlosLucio/weather-app) - [View in Browser](https://lucio-weather-app.netlify.app/)
+* [pklepa's React Solution](https://github.com/pklepa/weather-app) - [View in Browser](https://pklepa.github.io/weather-app/)
+* [miknick's React Solution](https://github.com/miknick/React-Weather-App) - [View in Browser](https://miknick.github.io/React-Weather-App/)
 * [Scott's React Solution](https://github.com/ScotttP/weather-app-2/tree/master/weather-app-2) - [View in Browser](https://scotttp.github.io/weather-app-2/)
 * [kaliberpoziomka's React Solution](https://github.com/kaliberpoziomka/react-weatherapp) - [View in Browser](https://kaliberpoziomka.github.io/react-weatherapp/)
 * [ray0h's React Solution](https://github.com/ray0h/TOPWeatherApp) - [View in Browser](https://ray0h.github.io/TOPWeatherApp)
@@ -119,4 +126,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [khabiirk's Solution](https://github.com/khabiirk/Weather) - [View in Browser](https://khabiirk.github.io/Weather/)
 * [jooji-san's Solution](https://github.com/jooji-san/weather-app) - [View in Browser](https://jooji-san.github.io/weather-app/)
 * [themetar's Solution](https://github.com/themetar/Weather-App) - [View in Browser](https://themetar.github.io/Weather-App/)
+* [Chandra's React Solution](https://github.com/CodeSurfer3022/Weather---React) - [View in Browser](https://codesurfer3022.github.io/Weather---React/)
+* [Matyd's React Solution](https://github.com/MatyD356/weather-app/tree/master) - [View in Browser](https://matyd356.github.io/weather-app/)
 </details>
